@@ -184,15 +184,15 @@
   </div>
 
   <div class="card" id="summaryCard" style="display:none;">
-    <h2>매수/매도 시그널 요약</h2>
+    <h2>장기 눌림목 강도 요약 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 저가매수 타이밍 · 우량주 전제)</span></h2>
     <div class="summary-grid">
       <div>
         <div class="bucket-row" id="bucketRow"></div>
-        <div class="sub" style="margin-top:10px;">오늘 추천 종목 (판단 점수 상위, 강한 매수/매수 대기 중에서만)</div>
+        <div class="sub" style="margin-top:10px;">지금 가장 눌린 종목 (눌림목 점수 상위, 매수 관심 이상)</div>
         <div class="rec-list" id="recList"></div>
       </div>
       <div>
-        <div class="sub" style="margin-bottom:6px;">시장 타이밍 · 전 종목 공통 가산 지표</div>
+        <div class="sub" style="margin-bottom:6px;">시장 환경 · SPY 조정만 점수 반영(+1), VIX·F&G는 참고</div>
         <table class="env-table" id="envTable"></table>
         <div class="row" style="margin-top:8px;">
           <span class="sub">F&G 지수 수동 입력:</span>
@@ -211,22 +211,20 @@
       <select id="themeFilter" onchange="renderTable()"><option value="">테마 전체</option></select>
       <select id="verdictFilter" onchange="renderTable()">
         <option value="">장기판단 전체</option>
-        <option value="강한 매수">강한 매수</option>
-        <option value="매수 대기">매수 대기</option>
+        <option value="강한 매수기회">강한 매수기회</option>
+        <option value="매수 관심">매수 관심</option>
         <option value="관망">관망</option>
-        <option value="매도 대기">매도 대기</option>
-        <option value="매도">매도</option>
       </select>
       <span class="sub">헤더 클릭으로 정렬</span>
     </div>
-    <div class="sub" style="margin-bottom:6px;">판단(장기) = 9지표 밸류에이션/펀더멘털 기준 · 단기판단 = 우상향 눌림목(RSI 30~40) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인) + 뭉침제거 쿨다운, 백테스트 검증 규칙(대형주 5년치 실데이터 10일승률 67%, buy_signal_dashboard.html의 6점 룰과는 별개, 단타용)</div>
+    <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~40) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 10일 승률 67% 검증 규칙(단타용)</div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1020px;">
       <thead>
         <tr>
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
-          <th data-key="score" title="9지표(밸류에이션+펀더멘털+시장환경) 합산 점수 기준 장기 관점 판단">판단(장기)</th>
+          <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
           <th data-key="techScore" title="우상향 눌림목(RSI 30~40) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
           <th data-key="drawdownPct" title="최근 1년 최고가 대비 지금 얼마나 빠졌는지">고점대비 하락</th>
           <th data-key="price">현재가</th>
@@ -245,21 +243,18 @@
   </div>
 
   <div class="card">
-    <h2>9지표 채점 기준 (자체 설계 · 참고용)</h2>
+    <h2>장기 판단 채점 기준 (2026-07 실데이터 검증)</h2>
     <div class="glossary">
-      <b>종목별 6지표</b> (종목마다 다름)<br>
-      · 52주 고점대비 하락률: 0~-5%(0점) / -5~-15%(+1) / -15% 이하(+2) — 많이 빠질수록 저가매력으로 가점<br>
-      · 200일선 이격: -5% 이하(+1, 이평선 하회) / -5~+15%(0) / +15% 이상(-1, 과열)<br>
-      · RSI(14): 30 미만(+1, 과매도) / 30~70(0) / 70 초과(-1, 과매수)<br>
-      · FWD PER 3년 평균(트레일링 기준) 대비 괴리: -10% 이하(+2) / -10~+5%(0) / +5~+20%(-1) / +20% 이상(-2)<br>
-      · 부채비율(총부채/자기자본): 0.15 이하(+1) / 0.15~1.0(0) / 1.0 이상(-1)<br>
-      · EPS 성장률(전년비): 20% 이상(+2) / 5~20%(+1) / 0~5%(0) / 역성장(-1)<br>
-      <b>시장 공통 3지표</b> (당일 전 종목 동일 가산)<br>
-      · SPY 52주 고점대비 하락률: 0~-8%(0) / -8~-20%(-1) / -20% 이하(-2) — 시장 전체가 약할수록 개별 신호 신뢰도를 낮춤<br>
-      · VIX: 20 미만(0) / 20~30(+1) / 30 이상(+2) — 공포가 커질수록 저점매수 기회로 가점<br>
-      · F&G Index: 25 이하(+2) / 25~45(+1) / 45~55(0) / 55~75(-1) / 75 이상(-2)<br>
-      <b>판단</b>: 총점 ≥7 강한 매수 · 3~6 매수 대기 · -2~2 관망 · -6~-3 매도 대기 · ≤-7 매도<br>
-      <span style="color:var(--sub)">※ 특정 상용 서비스의 산식을 그대로 옮긴 것이 아니라, 요청하신 9개 지표 구성에 맞춰 직접 설계한 기준입니다. 표본이 많지 않으니 참고용으로만 쓰세요.</span>
+      <b>장기 판단 = "눌림목 강도" 점수(0~5)</b> — 우량 대형주가 얼마나 저가에 눌려있는지. 아래 3개 지표만 반영해요(검증된 것만):<br>
+      · 52주 고점대비 하락 깊이: 0~-8%(0점) / -8~-18%(+1) / -18~-28%(+2) / -28% 이하(+3) — 깊이 눌릴수록 가점<br>
+      · 200일선 아래 여부: 200일 평균 아래면(+1) / 위면(0)<br>
+      · 시장(SPY) 조정 여부: SPY가 고점대비 -8% 이상 빠져있으면(+1) / 아니면(0)<br>
+      <b>판단</b>: ≥4 강한 매수기회 · 2~3 매수 관심 · 0~1 관망 (매도 신호는 없음 — 이건 저가매수 타이밍 점수예요)<br>
+      <div style="margin-top:8px;padding:10px;background:var(--panel-2);border-radius:8px;">
+      <b>왜 이렇게 바꿨나 (중요)</b><br>
+      원래 9지표(밸류에이션·부채·EPS성장·RSI·VIX·F&G 포함) 합산 점수를 <b>대형주 13종목 15년치(2011~2026) 실데이터로 검증</b>했더니, 점수와 12개월 후 실제 초과수익률의 상관이 <b>-0.06(사실상 0, 오히려 약간 역방향)</b>이었어요 — 즉 그 점수가 높다고 더 오르지 않았어요. 지표를 하나씩 뜯어보니 <b>미래수익률 예측력이 있었던 건 "52주 하락 깊이"와 "200일선 아래" 두 개뿐</b>이고, PER괴리·부채비율·EPS성장·RSI·VIX·F&G는 예측력이 없거나(flat) 오히려 반대였어요(예: 부채 많은 종목이 더 올랐고, 시장 조정기가 오히려 매수 적기였음). 그래서 검증된 2개(+시장조정 소폭)만 점수에 넣고, 나머지는 <b>점수에서 빼고 '참고 지표'로만</b> 남겼어요. 개편 점수는 상관 <b>+0.14</b>(시기 분할해도 견고), 점수 구간별 12개월 초과수익이 단조 증가(0점 +20% → ≥4점 +63%, 승률 66→78%).<br>
+      <b>⚠️ 꼭 기억할 것</b>: ① <b>생존편향</b> — 검증 표본이 "지금까지 살아남은 우량 대형주"라, 이 점수는 <b>이미 고른 우량주를 '언제' 살지(타이밍)</b>에만 유효하고 <b>'어떤' 종목을 살지는 판단 못 해요</b>. 실적으로 진짜 무너지는 회사엔 "눌림목"이 함정이에요 — 종목 선택은 02~05 탭(밸류에이션·실적)으로 직접 보세요. ② <b>6~12개월 관점</b>이에요(3개월 안쪽은 예측력 거의 0 — 그건 단기판단이 담당). ③ 참고 지표(PER·부채·EPS 등)는 점수엔 안 들어가지만, 어떤 우량주를 고를지 볼 때는 여전히 의미 있어요.
+      </div>
     </div>
   </div>
 
@@ -503,16 +498,12 @@ function last(arr){ return arr[arr.length-1]; }
 
 // ============ 초보자용 설명 툴팁 ============
 const HINTS = {
-  // 01 판단 - 9지표 기여도
-  drawdown: "주가가 최근 1년 최고가보다 얼마나 빠졌는지예요. 많이 빠질수록(마이너스가 클수록) '싸졌다'고 보고 가점을 줘요. 0%에 가까우면 지금이 1년 중 가장 비싼 구간이라는 뜻이에요.",
-  ma200: "최근 200일(약 10개월) 평균 주가보다 지금이 얼마나 높은지/낮은지예요. 너무 많이 위에 있으면(과열) 감점, 많이 아래 있으면(눌림목) 가점을 줘요.",
-  rsi9: "최근 14일간 '많이 팔렸는지 많이 샀는지'를 0~100 사이 숫자로 나타내요. 30 밑이면 과매도(많이 팔려서 반등 기대), 70 위면 과매수(많이 사서 조정 우려)예요.",
-  perDev: "지금 주가가 이 회사의 최근 3년 평균 밸류에이션보다 싼지 비싼지를 봐요. 마이너스면 평소보다 싸게 거래 중(가점), 플러스가 크면 평소보다 비싸게 거래 중(감점)이에요.",
-  debtScore: "회사가 자기자본 대비 빚을 얼마나 지고 있는지예요. 낮을수록 재무적으로 안전해서 가점, 자기자본만큼(1.0배) 넘게 빚지면 감점이에요.",
-  epsScore: "작년 대비 주당순이익이 얼마나 늘었는지예요. 이익이 빠르게 늘고 있으면 가점, 오히려 줄었으면(역성장) 감점이에요.",
-  spyScore: "미국 시장 전체(S&P500)가 최근 1년 고점보다 얼마나 빠졌는지예요. 시장 전체가 약하면 개별 종목 신호도 덜 믿을만해서 감점을 줘요.",
-  vixScore: "시장의 '공포 지수'예요. 높을수록 투자자들이 불안해한다는 뜻인데, 역설적으로 공포가 클 때가 저가 매수 기회인 경우가 많아서 가점을 줘요.",
-  fgiScore: "탐욕과 공포 중 어디에 가까운지를 0~100으로 나타내요(0=극단적 공포, 100=극단적 탐욕). 극단적 공포일 때 가점, 극단적 탐욕일 때는 시장이 과열됐다고 보고 감점이에요.",
+  // 01 판단 - 장기 눌림목 강도 점수(검증된 지표만)
+  ltScore: "이 3개 지표는 대형주 15년치 실데이터로 '이후 12개월 초과수익률을 실제로 예측했다'가 검증된 것들이에요. 이 우량주가 지금 얼마나 저가에 눌려있는지를 0~5점으로 나타내요. 점수가 높을수록 과거 통계상 12개월 뒤 수익이 좋았어요(단 6~12개월 관점, 우량주 전제).",
+  drawdownLT: "주가가 최근 1년 최고가보다 얼마나 빠졌는지예요. 깊이 빠질수록 가점(-8%부터 +1, -28% 이하면 +3). 검증 결과 이게 장기 수익률 예측력이 가장 강한 지표였어요.",
+  belowMa: "지금 주가가 200일(약 10개월) 평균 아래에 있으면 +1이에요. 평균 아래 = 중기 추세가 눌린 상태라 저가 매수 관점에서 유리했어요.",
+  marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
+  refIndicators: "PER·부채비율·EPS성장·RSI·VIX·F&G예요. 백테스트 결과 이들은 '매수 타이밍'을 예측하지 못하거나 오히려 반대여서 점수에는 안 넣었어요. 하지만 '어떤 우량주를 고를지' 판단할 때는 여전히 참고할 만해서 값만 보여줘요. (자세한 건 아래 '장기 판단 채점 기준' 카드 참고)",
   // 기술적 지표 뷰
   rsiVolumeRule: "우상향(종가>200일선) 중 RSI가 30~40으로 눌린 날, 또는 RSI가 30 밑으로 내려온 날(과매도)을 매수 신호로 봐요. 단, 하락추세에서 RSI<30인 경우는 '떨어지는 칼날'을 피하려고 당일 반등(오늘 종가>어제 종가)이 확인될 때만 신호로 쳐요. RSI<30이면서 거래량까지 평소보다 확 늘었으면 '강한 매수신호'예요. 한 번 신호가 나면 5거래일은 새 신호로 안 쳐서(쿨다운) 같은 자리에 뭉치지 않아요. 실제 5년치 대형주 데이터로 검증(10일 승률 67%)한 결과예요.",
   rsi: "최근 14일간 '많이 팔렸는지 많이 샀는지'를 0~100으로 나타내요. 30 밑이면 과매도, 70 위면 과매수로 봐요.",
@@ -672,41 +663,48 @@ function backtestSignals(closes, entryFlags, horizons=[5,10,20]){
   return {signalIdxs, horizonStats};
 }
 
-// ============ 9지표 스코어링 ============
-function scoreDrawdown(pct){ if(pct>=-5) return 0; if(pct>=-15) return 1; return 2; }
-function scoreMA200(pct){ if(pct>=15) return -1; if(pct<=-5) return 1; return 0; }
-function scoreRSI(v){ if(v<30) return 1; if(v>70) return -1; return 0; }
-function scorePerDeviation(pct){ if(pct<=-10) return 2; if(pct<5) return 0; if(pct<20) return -1; return -2; }
-function scoreDebtEquity(de){ if(de<=0.15) return 1; if(de<1.0) return 0; return -1; }
-function scoreEpsGrowth(pct){ if(pct>=20) return 2; if(pct>=5) return 1; if(pct<0) return -1; return 0; }
-function scoreMarketDrawdown(pct){ if(pct>=-8) return 0; if(pct>=-20) return -1; return -2; }
-function scoreVix(v){ if(v>=30) return 2; if(v>=20) return 1; return 0; }
-function scoreFGI(v){ if(v<=25) return 2; if(v<=45) return 1; if(v<=55) return 0; if(v<=75) return -1; return -2; }
+// ============ 장기 판단 스코어링 (2026-07 실데이터 검증: 대형주 '눌림목 강도' = 12개월 초과수익 예측) ============
+// 기존 9지표 합산 점수는 폐기. 대형주 13종목 15년치(2011~2026) 월별 스냅샷 2198개로, 각 시점의 지표를 그때까지
+// 공시된 데이터만으로 재구성(look-ahead 방지)해 이후 12개월 SPY대비 초과수익 예측력을 검증한 결과:
+//   · 예측력 있음(깊을수록/아래일수록 초과수익↑, 단조·견고): 52주 고점대비 하락 깊이, 200일선 아래 여부.
+//   · 예측력 없음(flat) 또는 역방향: PER괴리·부채비율·EPS성장·RSI·VIX·F&G, 그리고 '시장하락 페널티'(오히려 시장
+//     조정기가 매수 적기였음). 기존 총점과 12개월 초과수익의 상관은 -0.06(무·역방향)이었음.
+// 개편안(눌림목 강도 0~5)의 상관은 +0.14(train +0.12/test +0.22로 시기분할에도 견고), 점수 구간별 12개월 초과수익이
+// 단조 증가(0점 +20% → ≥4점 +63%, 승률 66%→78%). 시장(SPY) 조정은 소폭 보너스(+1)로만 반영(단독 예측력은 약함).
+// ⚠️ 한계: (1) 생존편향 - 검증 표본이 '현재 살아남은 우량 대형주'라, 이 점수는 '이미 고른 우량주를 언제 살까(타이밍)'
+//    에만 유효하고 '어떤 종목을 살까'는 판단 못 함. 실적으로 진짜 무너지는 기업엔 위험(그 판단은 02~05 탭 펀더멘털로).
+//    (2) 6~12개월짜리 신호 - 3개월 horizon에선 예측력 거의 0(그건 별도 '단기판단'이 담당).
+function scoreDrawdownLT(pct){ if(pct>=-8) return 0; if(pct>=-18) return 1; if(pct>=-28) return 2; return 3; }
+function scoreBelowMA200(pct){ return pct<=0 ? 1 : 0; }
+function scoreMarketDip(pct){ return pct<=-8 ? 1 : 0; }
 
 function verdictFor(total){
-  if(total>=7) return {label:'강한 매수', cls:'strong-buy'};
-  if(total>=3) return {label:'매수 대기', cls:'buy-wait'};
-  if(total>=-2) return {label:'관망', cls:'watch'};
-  if(total>=-6) return {label:'매도 대기', cls:'sell-wait'};
-  return {label:'매도', cls:'sell'};
+  if(total>=4) return {label:'강한 매수기회', cls:'strong-buy'};
+  if(total>=2) return {label:'매수 관심', cls:'buy-wait'};
+  return {label:'관망', cls:'watch'};
 }
 
 function buildScoreBreakdown(ticker, tech, fund, env){
+  // 점수 반영 지표(백테스트로 예측력 검증된 것만)
   const items = [];
-  items.push({key:'drawdown', label:'52주 고점대비 하락률', hintKey:'drawdown', value:tech.drawdownPct, valueText:(tech.drawdownPct>=0?'+':'')+tech.drawdownPct.toFixed(1)+'%', points:scoreDrawdown(tech.drawdownPct), max:2, min:0});
-  items.push({key:'ma200', label:'200일선 이격', hintKey:'ma200', value:tech.ma200Pct, valueText:(tech.ma200Pct>=0?'+':'')+tech.ma200Pct.toFixed(1)+'%', points:scoreMA200(tech.ma200Pct), max:1, min:-1});
-  items.push({key:'rsi', label:'RSI(14)', hintKey:'rsi9', value:tech.rsi, valueText:tech.rsi.toFixed(1), points:scoreRSI(tech.rsi), max:1, min:-1});
-  const perDev = fund.peDeviation3Y;
-  items.push({key:'per', label:'FWD PER 3년평균 괴리', hintKey:'perDev', value:perDev, valueText: perDev!=null ? (perDev>=0?'+':'')+perDev.toFixed(1)+'%' : '조회 불가', points: perDev!=null?scorePerDeviation(perDev):0, max:2, min:-2, na: perDev==null});
-  const de = fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'];
-  items.push({key:'debt', label:'부채비율(총부채/자본)', hintKey:'debtScore', value:de, valueText: de!=null ? de.toFixed(2) : '조회 불가', points: de!=null?scoreDebtEquity(de):0, max:1, min:-1, na: de==null});
-  const eps = fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y;
-  items.push({key:'eps', label:'EPS 성장률(전년비)', hintKey:'epsScore', value:eps, valueText: eps!=null ? (eps>=0?'+':'')+eps.toFixed(1)+'%' : '조회 불가', points: eps!=null?scoreEpsGrowth(eps):0, max:2, min:-1, na: eps==null});
-  items.push({key:'spy', label:'SPY 52주 고점대비 하락 (시장)', hintKey:'spyScore', value:env.spyDrawdownPct, valueText:(env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', points:scoreMarketDrawdown(env.spyDrawdownPct), max:0, min:-2});
-  items.push({key:'vix', label:'VIX (시장)', hintKey:'vixScore', value:env.vix, valueText:env.vix.toFixed(2), points:scoreVix(env.vix), max:2, min:0});
-  items.push({key:'fgi', label:'F&G Index (시장)', hintKey:'fgiScore', value:env.fgi, valueText: env.fgi!=null ? env.fgi.toFixed(0) : '조회 불가', points: env.fgi!=null?scoreFGI(env.fgi):0, max:2, min:-2, na: env.fgi==null});
+  items.push({key:'drawdown', label:'52주 고점대비 하락 깊이', hintKey:'drawdownLT', valueText:(tech.drawdownPct>=0?'+':'')+tech.drawdownPct.toFixed(1)+'%', points:scoreDrawdownLT(tech.drawdownPct), max:3, min:0});
+  items.push({key:'ma200', label:'200일선 아래 여부', hintKey:'belowMa', valueText:(tech.ma200Pct>=0?'+':'')+tech.ma200Pct.toFixed(1)+'%', points:scoreBelowMA200(tech.ma200Pct), max:1, min:0});
+  items.push({key:'market', label:'시장(SPY) 조정 여부', hintKey:'marketDip', valueText:(env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', points:scoreMarketDip(env.spyDrawdownPct), max:1, min:0});
   const total = items.reduce((a,b)=>a+(b.points||0),0);
-  return {items, total};
+
+  // 참고 지표(점수 미반영) - 백테스트상 매수 타이밍 예측력은 없었지만, 어떤 우량주를 '고를지' 판단하는 맥락으로 표시
+  const perDev = fund.peDeviation3Y;
+  const de = fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'];
+  const eps = fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y;
+  const refItems = [
+    {label:'RSI(14)', valueText:tech.rsi.toFixed(1)},
+    {label:'PER(트레일링) 자기이력 대비 괴리', valueText: perDev!=null ? (perDev>=0?'+':'')+perDev.toFixed(1)+'%' : '조회 불가'},
+    {label:'부채비율(총부채/자본)', valueText: de!=null ? de.toFixed(2) : '조회 불가'},
+    {label:'EPS 성장률(전년비)', valueText: eps!=null ? (eps>=0?'+':'')+eps.toFixed(1)+'%' : '조회 불가'},
+    {label:'VIX (시장)', valueText: env.vix!=null ? env.vix.toFixed(2) : '조회 불가'},
+    {label:'F&G Index (시장)', valueText: env.fgi!=null ? env.fgi.toFixed(0) : '조회 불가'},
+  ];
+  return {items, refItems, total};
 }
 
 // ============ 시장 환경 (SPY / VIX / F&G) ============
@@ -852,35 +850,36 @@ function isAdHocTicker(ticker){ return typeof FUNDAMENTALS_DATA === 'undefined' 
 function renderSummary(){
   const card = document.getElementById('summaryCard');
   card.style.display = 'block';
-  const buckets = {'강한 매수':{n:0,cls:'strong-buy'}, '매수 대기':{n:0,cls:'buy-wait'}, '관망':{n:0,cls:'watch'}, '매도 대기':{n:0,cls:'sell-wait'}, '매도':{n:0,cls:'sell'}};
+  const buckets = {'강한 매수기회':{n:0,cls:'strong-buy'}, '매수 관심':{n:0,cls:'buy-wait'}, '관망':{n:0,cls:'watch'}};
   const scored = [];
   Object.values(results).forEach(r=>{
     if(r.error) return;
-    buckets[r.verdict.label].n++;
+    if(buckets[r.verdict.label]) buckets[r.verdict.label].n++;
     scored.push(r);
   });
   const bucketRow = document.getElementById('bucketRow');
   bucketRow.innerHTML = Object.entries(buckets).map(([label,b])=>`
     <div class="bucket ${b.cls}">
-      <div class="n">${label==='강한 매수'||label==='매수 대기' ? '≥'+ (label==='강한 매수'?7:3) : (label==='관망'?'-2~2':(label==='매도 대기'?'-6~-3':'≤-7'))}</div>
+      <div class="n">${label==='강한 매수기회'?'≥4':(label==='매수 관심'?'2~3':'0~1')}</div>
       <div class="lbl">${label}</div>
       <div class="cnt">${b.n}종목</div>
     </div>`).join('');
 
   scored.sort((a,b)=>b.score-a.score);
-  const rec = scored.filter(r=>r.verdict.label==='강한 매수'||r.verdict.label==='매수 대기').slice(0,6);
+  const rec = scored.filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심').slice(0,6);
   document.getElementById('recList').innerHTML = rec.length
-    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} +${r.score}</span>`).join('')
-    : '<span class="sub">오늘은 매수 대기 이상 종목이 없어요.</span>';
+    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점</span>`).join('')
+    : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
 
   const env = marketEnv;
   const envTable = document.getElementById('envTable');
+  const spyPt = scoreMarketDip(env.spyDrawdownPct);
   const rows = [
-    ['SPY 52주 고점대비', (env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', scoreMarketDrawdown(env.spyDrawdownPct)],
-    ['VIX', env.vix.toFixed(2), scoreVix(env.vix)],
-    ['F&G Index', env.fgi!=null ? env.fgi.toFixed(0) + (env.fgiSource==='manual'?' (수동)':'') : '조회 불가', env.fgi!=null?scoreFGI(env.fgi):0],
+    ['SPY 52주 고점대비', (env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', spyPt>0?'+'+spyPt:'—'],
+    ['VIX', env.vix!=null?env.vix.toFixed(2):'조회 불가', '참고'],
+    ['F&G Index', env.fgi!=null ? env.fgi.toFixed(0) + (env.fgiSource==='manual'?' (수동)':'') : '조회 불가', '참고'],
   ];
-  envTable.innerHTML = rows.map(([l,v,p])=>`<tr><td>${l}</td><td class="v">${v}</td><td class="pt">${p>=0?'+':''}${p}</td></tr>`).join('');
+  envTable.innerHTML = rows.map(([l,v,p])=>`<tr><td>${l}</td><td class="v">${v}</td><td class="pt">${p}</td></tr>`).join('');
   document.getElementById('fgiSourceLabel').textContent = env.fgi==null ? '자동 조회 실패 - 아래에 직접 입력해보세요' : (env.fgiSource==='auto' ? '(비공식 소스에서 자동 조회됨)' : '');
 }
 
@@ -923,7 +922,7 @@ function renderTable(){
     return `<tr onclick="openDetail('${r.ticker}')">
       <td class="name">${r.ticker}</td>
       <td class="theme">${r.theme}</td>
-      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score>=0?'+':''}${r.score}</span></td>
+      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span></td>
       <td><span class="badge b-${r.techVerdict.cls}">${r.techVerdict.label}</span></td>
       <td class="${chCls}">${r.drawdownPct.toFixed(1)}%</td>
       <td>$${r.price.toFixed(2)}</td>
@@ -1035,38 +1034,39 @@ function renderTabContent(ticker){
 // ---- 01 판단 ----
 function tabJudgement(r){
   const b = r.breakdown;
-  const pct = Math.max(0, Math.min(100, (r.score + 10) / 23 * 100)); // score range 약 -10~13 -> 0~100%
+  const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
   const rows = b.items.map(it=>{
     const barPct = it.max>it.min ? (it.points - it.min)/(it.max-it.min)*100 : 50;
-    const color = it.points>0 ? 'var(--up)' : (it.points<0 ? 'var(--down)' : 'var(--sub)');
+    const color = it.points>0 ? 'var(--up)' : 'var(--sub)';
     return `<div class="contrib-row">
       <div class="lbl">${it.label}${hintIcon(it.hintKey)}</div>
       <div class="val">${it.valueText}</div>
       <div class="contrib-bar-bg"><div class="contrib-bar-fill" style="left:0;width:${barPct}%;background:${color};"></div></div>
-      <div class="pt" style="color:${color}">${it.points>=0?'+':''}${it.points}</div>
+      <div class="pt" style="color:${color}">+${it.points}</div>
     </div>`;
   }).join('');
+  const refRows = (b.refItems||[]).map(it=>`<div class="fund-row"><span>${it.label}</span><span class="v">${it.valueText}</span></div>`).join('');
 
   let bannerBg, bannerColor, bannerText;
-  if(r.verdict.label==='강한 매수'){ bannerBg='var(--up-bg)'; bannerColor='#a8322c'; bannerText=`강한 매수 (${r.score}점) — 9개 지표 대부분이 긍정적으로 정렬돼 있어요.`; }
-  else if(r.verdict.label==='매수 대기'){ bannerBg='#fdf1ee'; bannerColor='#b8543f'; bannerText=`매수 대기 (${r.score}점) — 긍정 신호가 우세하지만 강한 매수만큼 뚜렷하진 않아요.`; }
-  else if(r.verdict.label==='관망'){ bannerBg='var(--panel-2)'; bannerColor='#626b76'; bannerText=`관망 (${r.score}점) — 매수/매도 신호가 뚜렷하지 않은 상태예요.`; }
-  else if(r.verdict.label==='매도 대기'){ bannerBg='var(--warn-bg)'; bannerColor='#876000'; bannerText=`매도 대기 (${r.score}점) — 부정적 신호가 우세해요.`; }
-  else { bannerBg='var(--down-bg)'; bannerColor='#2a4fa0'; bannerText=`매도 (${r.score}점) — 9개 지표 대부분이 부정적으로 정렬돼 있어요.`; }
+  if(r.verdict.label==='강한 매수기회'){ bannerBg='var(--up-bg)'; bannerColor='#a8322c'; bannerText=`강한 매수기회 (${r.score}/5점) — 이 우량주가 52주 고점 대비 깊이 눌린 자리예요. 과거 대형주 데이터상 이런 구간에서 산 뒤 12개월 SPY대비 초과수익이 평균 +63%(승률 78%)로 가장 좋았어요. 단, 6~12개월 관점이고 종목이 우량하다는 전제하에서예요.`; }
+  else if(r.verdict.label==='매수 관심'){ bannerBg='#fdf1ee'; bannerColor='#b8543f'; bannerText=`매수 관심 (${r.score}/5점) — 어느 정도 눌린 상태예요. 강한 기회만큼 깊진 않지만 고점권보다는 나은 자리(12개월 초과수익 평균 +32%).`; }
+  else { bannerBg='var(--panel-2)'; bannerColor='#626b76'; bannerText=`관망 (${r.score}/5점) — 지금은 52주 고점 근처라 특별히 눌린 자리가 아니에요. 매도 신호가 아니라 '지금이 저가 매수 타이밍은 아님'이라는 뜻이에요.`; }
 
   return `
-    ${isAdHocTicker(r.ticker) ? `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-bottom:12px;"><b>${r.ticker}</b>는 관심종목이 아니라 펀더멘털 캐시가 없어요. 아래 <b>종합 판단(장기 9지표)</b>은 밸류에이션·실적·부채 지표가 빠진 채 계산돼 신뢰도가 낮으니 참고만 하고, <b>기술적 단기판단</b>(아래 "기술적 지표 보기")·캔들차트·RSI 위주로 보세요. 02 가치·03 실적·05 전망 탭은 "조회 불가"로 떠요.</div>` : ''}
+    ${isAdHocTicker(r.ticker) ? `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-bottom:12px;"><b>${r.ticker}</b>는 관심종목이 아니라 펀더멘털 캐시가 없어요. 아래 장기 점수(눌림목 강도)는 가격만으로 계산되니 그대로 유효하지만, 참고 지표(PER·부채·EPS)와 02~05 탭은 "조회 불가"로 떠요.</div>` : ''}
     <div class="gauge-wrap">
       <div class="gauge-card">
-        <div class="sub">종합 판단</div>
-        <div class="gauge-score" style="color:${bannerColor}">${r.score>=0?'+':''}${r.score}</div>
+        <div class="sub">장기 판단 · 눌림목 강도</div>
+        <div class="gauge-score" style="color:${bannerColor}">${r.score}<span style="font-size:16px;color:var(--sub)">/5</span></div>
         <div class="sub">${r.verdict.label}</div>
         <div class="gauge-bar"><div class="gauge-marker" style="left:${pct}%;"></div></div>
-        <div class="gauge-labels"><span>매도</span><span>관망</span><span>강한 매수</span></div>
+        <div class="gauge-labels"><span>관망</span><span>매수 관심</span><span>강한 기회</span></div>
       </div>
       <div class="contrib-card">
-        <div class="sub" style="margin-bottom:6px;">기여도 · 왜 이 점수인가</div>
+        <div class="sub" style="margin-bottom:6px;">점수 기여 · 검증된 지표만 ${hintIcon('ltScore')}</div>
         ${rows}
+        <div class="sub" style="margin:8px 0 4px;">참고 지표 <span style="font-weight:400;">(점수 미반영 · 종목 '선택'용)</span> ${hintIcon('refIndicators')}</div>
+        ${refRows}
       </div>
     </div>
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
