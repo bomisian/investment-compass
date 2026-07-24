@@ -168,6 +168,19 @@
       <button id="scanBtn" onclick="scanAll()">전체 스캔 실행</button>
       <span class="sub" id="scanStatus"></span>
     </div>
+    <div class="row" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);">
+      <input type="text" id="lookupInput" placeholder="종목 직접 조회 (예: PLTR)" style="width:200px;" onkeydown="if(event.key==='Enter')lookupTicker()">
+      <button class="secondary" onclick="lookupTicker()">조회</button>
+      <span class="sub" id="lookupStatus"></span>
+    </div>
+    <div class="sub" style="margin-top:6px;">관심종목이 아니어도 아무 미국 상장 티커나 입력하면 <b>기술적 단기판단 · 캔들차트 · RSI/백테스트</b>를 바로 볼 수 있어요(가격 데이터만 실시간 조회). 단, 밸류에이션/실적/전망 등 펀더멘털은 관심종목만 캐시가 있어서 그 종목은 "조회 불가"로 떠요.</div>
+    <div class="row" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);">
+      <input type="text" id="watchAddInput" placeholder="관심종목에 추가 (예: PLTR)" style="width:200px;" onkeydown="if(event.key==='Enter')addCustomTicker()">
+      <button class="secondary" onclick="addCustomTicker()">추가</button>
+      <span class="sub" id="watchAddStatus"></span>
+    </div>
+    <div class="sub" id="customTickerList" style="margin-top:6px;"></div>
+    <div class="sub" style="margin-top:6px;">여기 추가한 종목은 <b>이 브라우저에만(localStorage)</b> 저장되고 위 비교 표에도 계속 나와요 - 다른 기기/브라우저에는 안 보여요. 밸류에이션/실적 캐시는 없어서 즉석 조회와 마찬가지로 기술적 단기판단 위주로만 나와요.</div>
   </div>
 
   <div class="card" id="summaryCard" style="display:none;">
@@ -206,7 +219,7 @@
       </select>
       <span class="sub">헤더 클릭으로 정렬</span>
     </div>
-    <div class="sub" style="margin-bottom:6px;">판단(장기) = 9지표 밸류에이션/펀더멘털 기준 · 단기판단 = RSI&lt;30 또는 우상향중 RSI 30~40 기준 백테스트 검증 규칙(대형주 5년치 실데이터 승률 60~70%대, buy_signal_dashboard.html의 6점 룰과는 별개, 단타용)</div>
+    <div class="sub" style="margin-bottom:6px;">판단(장기) = 9지표 밸류에이션/펀더멘털 기준 · 단기판단 = 우상향 눌림목(RSI 30~40) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인) + 뭉침제거 쿨다운, 백테스트 검증 규칙(대형주 5년치 실데이터 10일승률 67%, buy_signal_dashboard.html의 6점 룰과는 별개, 단타용)</div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1020px;">
       <thead>
@@ -214,7 +227,7 @@
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
           <th data-key="score" title="9지표(밸류에이션+펀더멘털+시장환경) 합산 점수 기준 장기 관점 판단">판단(장기)</th>
-          <th data-key="techScore" title="RSI<30 또는 우상향중 RSI 30~40(+거래량 급증시 강한신호) 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
+          <th data-key="techScore" title="우상향 눌림목(RSI 30~40) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
           <th data-key="drawdownPct" title="최근 1년 최고가 대비 지금 얼마나 빠졌는지">고점대비 하락</th>
           <th data-key="price">현재가</th>
           <th data-key="forwardPE" title="올해 예상 이익 대비 주가 배수 - 낮을수록 저평가">FWD PER</th>
@@ -280,9 +293,71 @@
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
+const CUSTOM_TICKERS_KEY = 'compass_custom_tickers';
+function getCustomTickers(){
+  try{ return JSON.parse(localStorage.getItem(CUSTOM_TICKERS_KEY) || '[]'); }
+  catch(e){ return []; }
+}
+function saveCustomTickers(list){
+  try{ localStorage.setItem(CUSTOM_TICKERS_KEY, JSON.stringify(list)); }catch(e){}
+}
 function allTickers(){
-  if(typeof FUNDAMENTALS_DATA === 'undefined') return [];
-  return Object.keys(FUNDAMENTALS_DATA).filter(t => FUNDAMENTALS_DATA[t].theme !== ETF_THEME);
+  const cached = (typeof FUNDAMENTALS_DATA === 'undefined') ? [] :
+    Object.keys(FUNDAMENTALS_DATA).filter(t => FUNDAMENTALS_DATA[t].theme !== ETF_THEME);
+  const custom = getCustomTickers().filter(t => !cached.includes(t));
+  return [...cached, ...custom];
+}
+function renderCustomTickerList(){
+  const el = document.getElementById('customTickerList');
+  if(!el) return;
+  const custom = getCustomTickers();
+  if(!custom.length){ el.innerHTML = ''; return; }
+  el.innerHTML = '내가 추가한 종목: ' + custom.map(t =>
+    `<b style="color:var(--text);">${t}</b><span class="remove" onclick="removeCustomTicker('${t}')" style="cursor:pointer;color:var(--sub);margin-left:2px;margin-right:10px;" title="목록에서 삭제">✕</span>`
+  ).join('');
+}
+// 이미 스캔/추가된 결과가 있으면 요약·표·테마필터를 갱신 - 없으면(첫 진입) 건드리지 않음
+function refreshViewsIfActive(){
+  if(Object.keys(results).length){
+    renderThemeFilter();
+    renderTable();
+    if(document.getElementById('summaryCard').style.display !== 'none') renderSummary();
+  }
+}
+async function addCustomTicker(){
+  const inp = document.getElementById('watchAddInput');
+  const status = document.getElementById('watchAddStatus');
+  const ticker = inp.value.trim().toUpperCase();
+  if(!ticker) return;
+  if(!/^[A-Z0-9.\-]{1,10}$/.test(ticker)){
+    status.innerHTML = '<span class="err">티커 형식이 이상해요(영문/숫자/점/하이픈만).</span>'; return;
+  }
+  const cachedHas = typeof FUNDAMENTALS_DATA !== 'undefined' && FUNDAMENTALS_DATA[ticker];
+  const custom = getCustomTickers();
+  if(cachedHas || custom.includes(ticker)){
+    status.innerHTML = '<span class="sub">이미 목록에 있어요.</span>'; inp.value=''; return;
+  }
+  status.innerHTML = '<span class="loading">추가 중...</span>';
+  if(!marketEnv){
+    try{ marketEnv = await fetchMarketEnv(); }
+    catch(e){ marketEnv = {spyDrawdownPct:0, vix:20, fgi:null, fgiSource:'none'}; }
+  }
+  try{
+    results[ticker] = await analyzeTicker(ticker, marketEnv);
+    custom.push(ticker);
+    saveCustomTickers(custom);
+    inp.value=''; status.innerHTML='';
+    renderCustomTickerList();
+    refreshViewsIfActive(); // results에 방금 넣었으니 스캔 전이어도 표가 바로 뜸(요약카드는 스캔 전엔 계속 숨김 유지)
+  }catch(e){
+    status.innerHTML = `<span class="err">'${ticker}' 조회 실패: ${e.message}</span>`;
+  }
+}
+function removeCustomTicker(ticker){
+  saveCustomTickers(getCustomTickers().filter(t=>t!==ticker));
+  delete results[ticker];
+  renderCustomTickerList();
+  refreshViewsIfActive();
 }
 
 let results = {};       // ticker -> 계산 결과
@@ -439,7 +514,7 @@ const HINTS = {
   vixScore: "시장의 '공포 지수'예요. 높을수록 투자자들이 불안해한다는 뜻인데, 역설적으로 공포가 클 때가 저가 매수 기회인 경우가 많아서 가점을 줘요.",
   fgiScore: "탐욕과 공포 중 어디에 가까운지를 0~100으로 나타내요(0=극단적 공포, 100=극단적 탐욕). 극단적 공포일 때 가점, 극단적 탐욕일 때는 시장이 과열됐다고 보고 감점이에요.",
   // 기술적 지표 뷰
-  rsiVolumeRule: "RSI가 30 밑으로 내려온 날(과매도)이거나, 우상향 추세(종가>200일선) 중에 RSI가 30~40으로 살짝 눌린 날을 매수 신호로 봐요. 그중 RSI<30이면서 거래량까지 평소보다 확 늘었으면(패닉성 매도 후 반등 가능성) '강한 매수신호'로 더 세게 봐요. 실제 5년치 대형주 데이터로 검증한 결과예요.",
+  rsiVolumeRule: "우상향(종가>200일선) 중 RSI가 30~40으로 눌린 날, 또는 RSI가 30 밑으로 내려온 날(과매도)을 매수 신호로 봐요. 단, 하락추세에서 RSI<30인 경우는 '떨어지는 칼날'을 피하려고 당일 반등(오늘 종가>어제 종가)이 확인될 때만 신호로 쳐요. RSI<30이면서 거래량까지 평소보다 확 늘었으면 '강한 매수신호'예요. 한 번 신호가 나면 5거래일은 새 신호로 안 쳐서(쿨다운) 같은 자리에 뭉치지 않아요. 실제 5년치 대형주 데이터로 검증(10일 승률 67%)한 결과예요.",
   rsi: "최근 14일간 '많이 팔렸는지 많이 샀는지'를 0~100으로 나타내요. 30 밑이면 과매도, 70 위면 과매수로 봐요.",
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
@@ -526,9 +601,16 @@ function bollinger(closes, period=20, mult=2){
   return {mid, upper, lower};
 }
 
+// 신호 후 이 거래일 수만큼은 같은 신호를 다시 찍지 않음(뭉침 제거). 2026-07 검증: 이걸 넣으면
+// MSFT 2024-07의 11일 연속 신호가 2~3건으로 줄고, 승률은 64.8%→67%대로 오히려 소폭 개선됨.
+const SIGNAL_COOLDOWN = 5;
+
 // 전체 시계열에 대해 매일의 단기 점수(0~2)를 계산 (백테스트/과거 신호 마커용)
-// 0=보류, 0.5=관심(RSI 30~40, 하락추세), 1=매수 신호(RSI<30 또는 우상향중 RSI 30~40),
-// 2=강한 매수 신호(RSI<30 + 거래량 급증)
+// 0=보류, 0.5=관심, 1=매수 신호, 2=강한 매수 신호(RSI<30 + 거래량 급증)
+// 2026-07 개편: (1) 하락추세(종가≤200일선)의 RSI<30은 "당일 반등(오늘 종가>어제 종가)"이 확인될
+// 때만 신호로 인정 - 확인 전이면 '관심'. 아직 떨어지는 중(falling knife)인데 매수라고 뜨는 걸 막음.
+// (2) 신호가 나도 SIGNAL_COOLDOWN 안에서는 새 진입신호로 안 침(entryFlags) - 한 자리에 신호가
+// 뭉쳐 찍히던 문제 해결. scores는 '오늘의 상태', entryFlags는 '뭉침 제거한 실제 진입 시점'.
 function computeTechnicalSeries(closes, volumes, ma200){
   const rsiArr = rsi(closes, 14);
   const {hist} = macd(closes); // 차트 표시/참고용으로 계속 계산(스코어링에는 더는 안 씀)
@@ -541,17 +623,30 @@ function computeTechnicalSeries(closes, volumes, ma200){
     const rsiVal = rsiArr[i];
     if(rsiVal==null) continue;
     const uptrend = ma200Arr[i]!=null && closes[i] > ma200Arr[i];
+    const upToday = i>=1 && closes[i] > closes[i-1];
     if(rsiVal<30){
-      const vAvg = volSma20[i];
-      const volSpike = vAvg && volArr[i]!=null && volArr[i] > vAvg*1.2;
-      scores[i] = volSpike ? 2 : 1;
+      if(uptrend || upToday){
+        const vAvg = volSma20[i];
+        const volSpike = vAvg && volArr[i]!=null && volArr[i] > vAvg*1.2;
+        scores[i] = volSpike ? 2 : 1;
+      } else {
+        scores[i] = 0.5; // 하락추세 과매도인데 아직 반등 전 - falling knife 회피, '관심'으로만
+      }
     } else if(rsiVal<40){
-      scores[i] = uptrend ? 1 : 0.5; // 우상향 중 눌림목은 '관심'이 아니라 '매수 신호'로 승격
+      scores[i] = uptrend ? 1 : 0.5; // 우상향 중 눌림목은 '매수 신호', 하락추세면 '관심'
     } else {
       scores[i] = 0;
     }
   }
-  return {rsiArr, hist, bbUpper: bb.upper, bbLower: bb.lower, scores, volSma20, volumes: volArr, ma200: ma200Arr};
+  // 뭉침 제거: score>=1(매수/강한매수)인 날 중 직전 진입신호로부터 SIGNAL_COOLDOWN 초과한 것만 진입으로 인정
+  const entryFlags = new Array(closes.length).fill(false);
+  let lastSig = -1e9;
+  for(let i=0;i<closes.length;i++){
+    if(scores[i]!=null && scores[i]>=1 && (i-lastSig) > SIGNAL_COOLDOWN){
+      entryFlags[i] = true; lastSig = i;
+    }
+  }
+  return {rsiArr, hist, bbUpper: bb.upper, bbLower: bb.lower, scores, entryFlags, volSma20, volumes: volArr, ma200: ma200Arr};
 }
 function technicalVerdict(score){
   if(score>=2) return {label:'강한 매수신호', cls:'strong-buy'};
@@ -559,11 +654,11 @@ function technicalVerdict(score){
   if(score>=0.5) return {label:'관심', cls:'sell-wait'};
   return {label:'보류', cls:'watch'};
 }
-// 과거 매수신호(RSI<30 또는 우상향중 RSI 30~40) 이후 N거래일 뒤 수익률 승률/평균수익률
-// 2026-07 5년치 14종목 백테스트(결합 규칙): 10거래일 기준 in-sample 68%, out-of-sample 64% 승률(표본 300건+)
-function backtestSignals(closes, scores, horizons=[5,10,20]){
+// 과거 진입신호(뭉침 제거된 entryFlags) 이후 N거래일 뒤 수익률 승률/평균수익률
+// 2026-07 5년치 14종목 백테스트(쿨다운+falling-knife 회피): 10거래일 기준 in-sample 70%, out-of-sample 63% 승률(표본 250건+)
+function backtestSignals(closes, entryFlags, horizons=[5,10,20]){
   const signalIdxs = [];
-  for(let i=0;i<scores.length;i++){ if(scores[i]!=null && scores[i]>=1) signalIdxs.push(i); }
+  for(let i=0;i<entryFlags.length;i++){ if(entryFlags[i]) signalIdxs.push(i); }
   const horizonStats = {};
   horizons.forEach(h=>{
     const rets = [];
@@ -725,6 +820,33 @@ async function scanAll(){
   renderThemeFilter();
   renderTable();
 }
+
+// ============ 임의 종목 즉석 조회 (관심종목 아니어도 기술적 단기판단만은 가능) ============
+// 가격 데이터만 실시간으로 받아 단기판단/캔들차트/RSI/백테스트를 보여줌. 펀더멘털(밸류/실적/전망)은
+// 관심종목만 캐시가 있어 그 부분은 "조회 불가"로 뜸(각 탭이 이미 그렇게 graceful 처리됨).
+async function lookupTicker(){
+  const inp = document.getElementById('lookupInput');
+  const status = document.getElementById('lookupStatus');
+  const ticker = inp.value.trim().toUpperCase();
+  if(!ticker){ return; }
+  if(!/^[A-Z0-9.\-]{1,10}$/.test(ticker)){
+    status.innerHTML = '<span class="err">티커 형식이 이상해요(영문/숫자/점/하이픈만).</span>'; return;
+  }
+  status.innerHTML = '<span class="loading">조회 중...</span>';
+  // 시장환경(SPY/VIX/F&G)은 장기 9지표에만 쓰이고 단기판단엔 안 쓰임 - 없거나 실패해도 기본값으로 진행
+  if(!marketEnv){
+    try{ marketEnv = await fetchMarketEnv(); }
+    catch(e){ marketEnv = {spyDrawdownPct:0, vix:20, fgi:null, fgiSource:'none'}; }
+  }
+  try{
+    results[ticker] = await analyzeTicker(ticker, marketEnv);
+    status.innerHTML = ''; inp.value = '';
+    openDetail(ticker);
+  }catch(e){
+    status.innerHTML = `<span class="err">'${ticker}' 조회 실패: ${e.message} — 티커 철자 또는 프록시 상태를 확인하세요.</span>`;
+  }
+}
+function isAdHocTicker(ticker){ return typeof FUNDAMENTALS_DATA === 'undefined' || typeof FUNDAMENTALS_DATA[ticker] === 'undefined'; }
 
 // ============ 요약 렌더 ============
 function renderSummary(){
@@ -933,6 +1055,7 @@ function tabJudgement(r){
   else { bannerBg='var(--down-bg)'; bannerColor='#2a4fa0'; bannerText=`매도 (${r.score}점) — 9개 지표 대부분이 부정적으로 정렬돼 있어요.`; }
 
   return `
+    ${isAdHocTicker(r.ticker) ? `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-bottom:12px;"><b>${r.ticker}</b>는 관심종목이 아니라 펀더멘털 캐시가 없어요. 아래 <b>종합 판단(장기 9지표)</b>은 밸류에이션·실적·부채 지표가 빠진 채 계산돼 신뢰도가 낮으니 참고만 하고, <b>기술적 단기판단</b>(아래 "기술적 지표 보기")·캔들차트·RSI 위주로 보세요. 02 가치·03 실적·05 전망 탭은 "조회 불가"로 떠요.</div>` : ''}
     <div class="gauge-wrap">
       <div class="gauge-card">
         <div class="sub">종합 판단</div>
@@ -978,7 +1101,7 @@ function renderTechSection(r){
   const ts = r.series.techSeries;
   const score = last(ts.scores);
   const v = score!=null ? technicalVerdict(score) : {label:'-', cls:'watch'};
-  const bt = backtestSignals(r.series.closes, ts.scores, [5,10,20]);
+  const bt = backtestSignals(r.series.closes, ts.entryFlags, [5,10,20]);
   const btRows = [5,10,20].map(h=>{
     const st = bt.horizonStats[h];
     return `<div class="fund-row">
@@ -1006,12 +1129,13 @@ function renderTechSection(r){
     <div class="chart-label">MACD 히스토그램 (참고용 - 매수신호 판정에는 더는 안 씀)</div>
     <canvas id="techMacdCanvas"></canvas>
     <div class="glossary" style="margin-top:10px;">
-      <b>이 신호는 2026년 7월 기준 대형주 14종목 5년치 실데이터로 백테스트해서 검증한 규칙</b>이에요(buy_signal_dashboard.html의 RSI/MACD/볼린저 6점 룰과는 의도적으로 다른, 별도로 검증된 규칙).<br>
-      · RSI&lt;30 단독(추세 무관): 승률 61~65%대로 견고했지만, 신호의 87%가 하락 추세(종가&lt;200일선)에서만 나와서 우상향 구간의 눌림목 진입 기회를 거의 못 잡는 한계가 있었어요(예: NVDA는 1년 넘게 신호가 아예 없었음).<br>
-      · <b>우상향(종가&gt;200일선) 중 RSI 30~40(눌림목)도 매수 신호로 추가</b>: 원래 '관심'으로만 표시되던 구간인데, 검증해보니 승률이 10일 기준 69.8%(out-of-sample 62.4%)로 오히려 더 좋았어요. 두 조건을 합치면 신호 수가 2.6배(357→918건, 연 71.7회→184.5회) 늘면서 승률도 61.5%→66.6%로 개선됐고, 신호 시점이 우상향 구간인 비율도 12.9%→66.1%로 크게 늘었어요.<br>
-      · RSI&lt;30 + 거래량 20일평균 1.2배 이상(강한 매수신호): 승률이 65~77%로 더 올라감. 이 조건은 이번 개편에서 그대로 유지.<br>
-      · 종목별 10일 승률(결합 규칙 기준): NVDA 80.6%·AVGO 80.4%·GOOGL 72.7%·AMAT 72.7%·WMT 72.3%·AAPL 70.4%로 잘 맞았고, 가장 약한 INTC도 52.6%로 50%는 넘겼어요(14종목 중 50% 미만은 없음). 이 종목이 어느 쪽에 가까운지는 위 "과거 매수신호 이후 수익률" 표본으로 직접 확인하는 걸 추천해요.<br>
-      · 우상향 눌림목 조건은 정의상 종가&gt;200일선이 필수라 하락장/약세장에서는 이 조건만으로는 신호가 안 나요 — RSI&lt;30(추세 무관) 조건이 그 경우를 계속 커버해요. 이 5년은 대체로 강세장이었어서, 약세장에서도 같은 승률이 유지될지는 보장 못 해요.
+      <b>이 신호는 2026년 7월 기준 대형주 14종목 5년치 실데이터로 백테스트해서 검증한 규칙</b>이에요(buy_signal_dashboard.html의 RSI/MACD/볼린저 6점 룰과는 의도적으로 다른, 별도로 검증된 규칙). 화살표(▲)는 "이럴 때 사면 과거 통계상 유리했다"는 <b>눌림목 진입 후보</b>일 뿐, 정확한 바닥을 집어주는 건 아니에요.<br>
+      · <b>매수 신호 조건</b>: ① 우상향(종가&gt;200일선) 중 RSI 30~40으로 눌린 날, 또는 ② RSI&lt;30(과매도)인 날. 단 ②가 하락추세(종가≤200일선)면 <b>당일 반등(오늘 종가&gt;어제 종가)이 확인될 때만</b> 신호로 봐요.<br>
+      · <b>떨어지는 칼날(falling knife) 회피</b>: 예전엔 하락추세에서 RSI만 낮으면 매일 '매수'가 떴는데, 계속 빠지는 중에도 신호가 찍히는 문제가 있었어요(MSFT 2024-07엔 11일 연속 신호가 뜨며 그 뒤 -7.9%까지 하락). 그래서 하락추세 과매도는 '반등 시작'이 보일 때만 신호로 인정하게 바꿨어요.<br>
+      · <b>신호 뭉침 제거(쿨다운 5거래일)</b>: 한 번 신호가 나면 5거래일간은 새 진입신호로 안 쳐요. 같은 자리에 신호가 뭉쳐 찍히던 걸 없앴고, 백테스트도 이 '뭉침 제거된 진입'만으로 계산해요. MSFT 기준 과거 신호일이 67일→17건으로 정리됐어요.<br>
+      · <b>검증 결과(10거래일 기준)</b>: 승률 67.1%, out-of-sample 62.6%(표본 250건+). 개편 전(뭉침 포함) 대비 승률이 소폭 오르면서 위 두 문제를 해결했어요. 신호당 이후 10일 최대낙폭 평균 -2.9%, -10% 이상 크게 빠진 신호는 8.6%뿐.<br>
+      · 종목별 10일 승률: NVDA 84.6%·AVGO 77.8%·AMD 76.2%·AMAT 75.0%·MU 72.7%·GOOGL 70.6%·AMZN 70.0%로 잘 맞았고, 가장 약한 INTC·MSFT도 50~56%. 이 종목이 어느 쪽에 가까운지는 위 "과거 매수신호 이후 수익률" 표본으로 직접 확인하세요.<br>
+      · 이 5년은 대체로 강세장이었어서, 약세장에서도 같은 승률이 유지될지는 보장 못 해요. 참고용 통계로만 쓰세요.
     </div>
   `;
 }
@@ -1102,6 +1226,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
   const opens = sl(s.opens), highs = sl(s.highs), lows = sl(s.lows), closes = sl(s.closes);
   const ma20 = sl(s.ma20);
   const scores = showSignals && s.techSeries ? sl(s.techSeries.scores) : null;
+  const entryFlags = showSignals && s.techSeries ? sl(s.techSeries.entryFlags) : null;
   const bbUpper = showSignals && s.techSeries ? sl(s.techSeries.bbUpper) : null;
   const bbLower = showSignals && s.techSeries ? sl(s.techSeries.bbLower) : null;
   const n = closes.length;
@@ -1154,13 +1279,14 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
     ctx.fillRect(cx-bw*0.32, bodyTop, Math.max(bw*0.64,1), bodyH);
   }
 
-  // 과거 매수신호(RSI<30) 마커 - 기술적 지표 보기 상태일 때만. 거래량 급증 동반(강한 신호)은 진한 색
-  if(scores){
+  // 과거 매수신호 마커 - 기술적 지표 보기 상태일 때만. 뭉침 제거된 진입시점(entryFlags)만 찍음.
+  // 거래량 급증 동반(강한 신호, score 2)은 진한 색
+  if(entryFlags){
     for(let i=0;i<n;i++){
-      if(scores[i]==null || scores[i]<1) continue;
+      if(!entryFlags[i]) continue;
       const cx = x(i);
       const ly = y(lows[i]) + 14;
-      ctx.fillStyle = scores[i]>=2 ? '#087d4c' : '#7fc9a0';
+      ctx.fillStyle = (scores && scores[i]>=2) ? '#087d4c' : '#7fc9a0';
       ctx.beginPath();
       ctx.moveTo(cx, ly-9); ctx.lineTo(cx-6, ly+3); ctx.lineTo(cx+6, ly+3);
       ctx.closePath(); ctx.fill();
@@ -1209,8 +1335,12 @@ function technicalReasonAt(techSeries, closes, i){
   const reasons = [];
   const ma200 = techSeries.ma200?.[i];
   const uptrend = ma200!=null && closes[i] > ma200;
+  const upToday = closes[i] > closes[i-1];
   if(rsiVal!=null){
-    if(rsiVal<30) reasons.push('RSI 과매도(<30) - 백테스트 검증 신호');
+    if(rsiVal<30){
+      if(uptrend || upToday) reasons.push('RSI 과매도(<30)' + (uptrend ? '' : ' + 당일 반등 확인') + ' - 백테스트 검증 신호');
+      else reasons.push('RSI 과매도(<30)지만 하락추세에서 아직 반등 전 - 떨어지는 칼날 회피로 관심 단계(당일 반등 확인되면 신호)');
+    }
     else if(rsiVal<40){
       if(uptrend) reasons.push('우상향(종가>200일선) 중 눌림목(RSI 30~40) - 백테스트 검증 신호');
       else reasons.push('RSI 약과매도(<40, 하락추세라 관심 단계 - 우상향 전환 시 신호로 승격)');
@@ -1221,6 +1351,8 @@ function technicalReasonAt(techSeries, closes, i){
   if(vAvg && vol!=null){
     if(vol > vAvg*1.2) reasons.push(`거래량 급증(20일 평균의 ${(vol/vAvg).toFixed(1)}배) - 승률을 더 끌어올리는 요인`);
   }
+  const inCooldown = techSeries.scores[i]!=null && techSeries.scores[i]>=1 && !techSeries.entryFlags[i];
+  if(inCooldown) reasons.push('직전 진입신호 직후(쿨다운) - 뭉침 방지로 새 진입신호로는 안 침');
   return {score: techSeries.scores[i], reasons};
 }
 
@@ -1730,6 +1862,7 @@ function setupForecastChart(ticker){
 
 // ============ 초기화 ============
 renderTdKeyStatus();
+renderCustomTickerList();
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 </script>
