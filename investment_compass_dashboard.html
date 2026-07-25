@@ -757,7 +757,11 @@ async function analyzeTicker(ticker, env){
   // Yahoo의 실거래(ADR) 통화 기준 값(estimates_data.js)을 우선 사용
   const useEstPrice = est && est.quoteCurrency === 'USD';
   const high52 = (useEstPrice ? est.week52High : null) ?? fund['52WeekHigh'] ?? Math.max(...closes.slice(-252));
-  const marketCap = (useEstPrice ? est.quoteMarketCap : null) ?? fund.marketCapitalization ?? null;
+  // ⚠️ 단위 통일: Yahoo quoteMarketCap은 '원단위 달러'인데 Finnhub marketCapitalization은 '백만 달러 단위'라
+  // 그냥 ?? 로 섞으면 폴백 여부에 따라 100만배 차이가 남(실제로 비교표에 "$4891182891.0B" 같은 값이 찍혔음).
+  // 여기서 원단위 달러로 통일해두고, 표시하는 쪽은 전부 fmtUsd()만 쓰도록 함.
+  const marketCap = (useEstPrice ? est.quoteMarketCap : null)
+    ?? (typeof fund.marketCapitalization === 'number' ? fund.marketCapitalization * 1e6 : null);
   const drawdownPct = (price - high52) / high52 * 100;
   const ma20arr = sma(closes, 20);
   const ma200arr = sma(closes, 200);
@@ -918,7 +922,7 @@ function renderTable(){
 
   body.innerHTML = rows.map(r=>{
     const chCls = r.drawdownPct>=0?'pos':'neg';
-    const capTxt = r.marketCap!=null ? '$'+(r.marketCap/1000).toFixed(1)+'B' : '-';
+    const capTxt = r.marketCap!=null ? '$'+fmtUsd(r.marketCap) : '-';
     return `<tr onclick="openDetail('${r.ticker}')">
       <td class="name">${r.ticker}</td>
       <td class="theme">${r.theme}</td>
@@ -1527,22 +1531,64 @@ function fundRowsHtml(fund, fields){
     return `<div class="fund-row"><span>${label}${hintIcon(hintKey)}</span><span class="v">${txt}</span></div>`;
   }).join('');
 }
+
+// ---- 데이터 교차검증 (2026-07 추가) ----
+// 배경: GOOGL에서 Finnhub/Yahoo가 순이익률 54.77%로 표시했는데, SEC 공시 기반(03 실적 탭) 계산은 37.92%였음.
+// 원인을 추적해보니 (1) 알파벳이 Q2'26 실적을 발표(실제EPS 9.11 vs 예상 2.98)했는데 그 분기에 영업외
+// 일회성 이익이 컸고, (2) Finnhub/Yahoo의 TTM은 그 최신 분기를 포함하는 반면 SEC XBRL(financials-reported)은
+// 10-Q 제출 전이라 아직 반영이 안 돼서 두 탭의 '기준 시점'이 달랐던 것. 둘 다 각자 맞지만 사용자에겐 모순으로 보임.
+// 그래서 아래 두 가지를 자동 감지해서 표시함:
+//   A. 순이익률 > 영업이익률 (+여유 5%p): 세금을 내고도 순이익률이 영업이익률을 넘는다는 건 영업외(투자평가익·
+//      자산매각·법인세환입 등) 일회성 이익이 지배적이라는 뜻 -> 이 순이익률/PER을 '평상시 수익성'으로 믿으면 안 됨.
+//   B. Finnhub TTM 마진 vs SEC 공시 기반 TTM 마진 괴리(5%p↑): 위 (2)처럼 기준 시점이 다를 때 발생.
+const MARGIN_GAP_WARN_PP = 5;
+function secTtmFromFinancials(ticker){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const q = fin && fin.quarterly ? fin.quarterly : null;
+  if(!q || q.length < 4) return null;
+  const last4 = q.slice(-4).filter(x=>typeof x.revenue==='number' && typeof x.netIncome==='number');
+  if(last4.length < 4) return null;
+  const rev = last4.reduce((a,b)=>a+b.revenue,0);
+  const ni = last4.reduce((a,b)=>a+b.netIncome,0);
+  if(!rev) return null;
+  return {revenue:rev, netIncome:ni, margin: ni/rev*100, lastPeriod: q[q.length-1].period};
+}
+function dataQualityNotes(ticker, fund){
+  const notes = [];
+  const op = fund.operatingMarginTTM, net = fund.netProfitMarginTTM;
+  if(typeof op==='number' && typeof net==='number' && net > op + MARGIN_GAP_WARN_PP){
+    notes.push(`<b>순이익률(${net.toFixed(1)}%)이 영업이익률(${op.toFixed(1)}%)보다 높아요.</b> 세금을 내고도 이렇게 되는 건 본업이 아닌 <b>일회성 이익</b>(지분투자 평가익·자산매각·법인세 환입 등)이 크게 들어왔다는 뜻이에요. 이 순이익률과 PER은 '평상시 수익성'으로 보면 안 되고, <b>영업이익률(${op.toFixed(1)}%)</b> 쪽이 본업 실력에 가까워요.`);
+  }
+  const sec = secTtmFromFinancials(ticker);
+  if(sec && typeof net==='number' && Math.abs(sec.margin - net) >= MARGIN_GAP_WARN_PP){
+    notes.push(`<b>왼쪽 지표(Finnhub 기준 ${net.toFixed(1)}%)와 03 실적 탭(SEC 공시 기준 ${sec.margin.toFixed(1)}%)의 순이익률이 달라요.</b> 둘 다 계산은 맞고, <b>기준 시점이 다른 것</b>이에요 — 실적 발표는 났지만 정식 공시서류(10-Q) 제출은 며칠~몇 주 뒤라, 왼쪽은 최신 분기가 반영된 반면 03 탭은 <b>${sec.lastPeriod}까지</b>만 반영돼 있어요. 최신치는 왼쪽, 검증된 확정치는 03 탭으로 보세요.`);
+  }
+  if(!notes.length) return '';
+  return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:12px;">
+    ⚠️ <b>데이터 해석 주의</b><br>${notes.map(n=>'· '+n).join('<br>')}</div>`;
+}
 function tabValueQuality(r){
   const fund = FUNDAMENTALS_DATA[r.ticker] || {};
   const updated = fund._updated_label ? `<div class="sub" style="margin-top:8px;">Finnhub 갱신: ${fund._updated_label}</div>` : '';
   const marketCapRow = `<div class="fund-row"><span>시가총액${hintIcon('marketCap')}</span><span class="v">${r.marketCap!=null?'$'+fmtUsd(r.marketCap):'<span class="na">조회 불가</span>'}</span></div>`;
   const currencyNote = (r.marketCap==null && fund.marketCapCurrencyNote) ? `<div class="sub" style="margin-top:4px;">※ 시가총액을 Yahoo/Finnhub 어느 쪽에서도 달러 기준으로 가져오지 못했어요(현지 상장 통화: ${fund.marketCapCurrencyNote}).</div>` : '';
+  const adrNote = (fund.marketCapCurrencyNote || (typeof ESTIMATES_DATA!=='undefined' && ESTIMATES_DATA[r.ticker] && ESTIMATES_DATA[r.ticker].financialCurrency && ESTIMATES_DATA[r.ticker].financialCurrency!=='USD'))
+    ? `<div class="glossary" style="margin-top:8px;">※ 이 종목은 <b>해외 상장 ADR</b>이라 재무제표 보고통화가 달러가 아니에요(${fund.marketCapCurrencyNote || ESTIMATES_DATA[r.ticker].financialCurrency}). 위 PER·PSR·PBR은 데이터 제공처가 통화를 맞춰 계산한 값이고, 마진·ROE 같은 비율 지표는 분모·분자가 같은 통화라 통화 영향이 없어요. 다만 03 실적 탭의 <b>매출·순이익 절대금액은 보고통화 기준</b>이라 달러가 아니니 주가와 직접 나눠 계산하지 마세요.</div>`
+    : '';
   return `
     <div class="fund-grid">
       <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS)}${marketCapRow}</div>
       <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
     </div>
+    ${dataQualityNotes(r.ticker, fund)}
     ${updated}
     ${currencyNote}
+    ${adrNote}
     <div class="glossary" style="margin-top:10px;">
       ※ "3Y 평균 PER"은 Finnhub 무료 데이터 제약상 <b>연간 트레일링 PER</b>의 최근 3개년 평균이며, Forward PER과는 기준이 달라 참고용으로만 보세요.<br>
       ※ ROIC(근사)는 Finnhub의 분기 roic 시계열 최신값이고, ROI는 별도 지표(roiTTM)입니다 - 두 값이 다를 수 있어요.<br>
-      ※ 시가총액은 Yahoo Finance의 실거래(ADR) 통화 기준 값을 우선 사용합니다.
+      ※ 시가총액은 Yahoo Finance의 실거래(ADR) 통화 기준 값을 우선 사용합니다.<br>
+      ※ 이 탭 지표는 <b>Finnhub TTM(최근 12개월)</b> 기준이라 실적 발표 직후 최신 분기가 바로 반영되는 반면, 03 실적 탭은 <b>SEC 정식 공시(10-Q/10-K)</b> 기준이라 며칠~몇 주 늦게 반영돼요. 두 탭 숫자가 다르면 대부분 이 시점 차이예요.
     </div>
   `;
 }
@@ -1572,6 +1618,8 @@ function tabEarnings(r){
   }
   // 토글로 선택한 모드에 데이터가 없을 때만 다른 쪽으로 대체 - 매번 quarterly로 되돌리지 않음
   if(!fin[earningsMode]?.length) earningsMode = fin.quarterly?.length ? 'quarterly' : 'annual';
+  const sec = secTtmFromFinancials(r.ticker);
+  const vintage = sec ? `<div class="sub" style="margin-top:8px;">이 탭은 <b>SEC 정식 공시(10-Q/10-K)</b> 기준이라 <b>${sec.lastPeriod}</b>까지 반영돼 있어요. 최근 12개월 합산: 매출 $${fmtUsd(sec.revenue)} · 순이익 $${fmtUsd(sec.netIncome)} → 순이익률 ${sec.margin.toFixed(1)}%. 실적 발표는 났지만 공시서류 제출 전인 분기는 아직 여기 안 들어와요(그래서 02 탭 수치와 다를 수 있어요).</div>` : '';
   return `
     <div class="toggle-row">
       <div class="toggle-btn ${earningsMode==='quarterly'?'active':''}" onclick="setEarningsMode('${r.ticker}','quarterly')">분기별</div>
@@ -1579,6 +1627,7 @@ function tabEarnings(r){
     </div>
     <div class="chart-label">매출(막대) · 순이익(선) — 단위 $</div>
     <canvas id="earningsCanvas"></canvas>
+    ${vintage}
     <div class="glossary" style="margin-top:10px;">
       ※ Finnhub SEC 공시(financials-reported) 기반으로 서버에서 최선 추정 계산한 값입니다. 회사별 회계 방식 차이로 일부 분기는 계산이 안 돼 비어 있을 수 있어요.
     </div>
