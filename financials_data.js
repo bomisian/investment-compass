@@ -1635,154 +1635,6 @@ const FINANCIALS_DATA = {
     "_fetched_at": 1784784845.5567763,
     "_updated_label": "2026-07-23 14:34"
   },
-  "WMT": {
-    "annual": [
-      {
-        "period": "2018",
-        "revenue": 500343000000,
-        "netIncome": 9862000000,
-        "opIncome": 20437000000,
-        "eps": 3,
-        "ocf": 28337000000,
-        "capex": -10051000000,
-        "fcf": 18286000000
-      },
-      {
-        "period": "2019",
-        "revenue": 510329000000,
-        "netIncome": 6670000000,
-        "opIncome": 21957000000,
-        "eps": 2,
-        "ocf": 27753000000,
-        "capex": -10344000000,
-        "fcf": 17409000000
-      },
-      {
-        "period": "2020",
-        "revenue": 519926000000.0,
-        "netIncome": 14881000000.0,
-        "opIncome": 20568000000.0,
-        "eps": 5.19,
-        "ocf": 25255000000,
-        "capex": -10705000000.0,
-        "fcf": 14550000000.0
-      },
-      {
-        "period": "2021",
-        "revenue": 555233000000.0,
-        "netIncome": 13510000000.0,
-        "opIncome": 22548000000.0,
-        "eps": 4.75,
-        "ocf": 36074000000.0,
-        "capex": -10264000000.0,
-        "fcf": 25810000000.0
-      },
-      {
-        "period": "2022",
-        "revenue": 567762000000.0,
-        "netIncome": 13673000000.0,
-        "opIncome": 25942000000.0,
-        "eps": 4.87,
-        "ocf": 24181000000.0,
-        "capex": -13106000000.0,
-        "fcf": 11075000000.0
-      },
-      {
-        "period": "2024",
-        "revenue": 642637000000.0,
-        "netIncome": 15511000000.0,
-        "opIncome": 27012000000.0,
-        "eps": 1.91,
-        "ocf": 35726000000,
-        "capex": -20606000000,
-        "fcf": 15120000000
-      },
-      {
-        "period": "2025",
-        "revenue": 674538000000.0,
-        "netIncome": 19436000000.0,
-        "opIncome": 29348000000.0,
-        "eps": 2.41,
-        "ocf": 36443000000,
-        "capex": -23783000000,
-        "fcf": 12660000000
-      },
-      {
-        "period": "2026",
-        "revenue": 706413000000.0,
-        "netIncome": 21893000000.0,
-        "opIncome": 29825000000.0,
-        "eps": 2.73,
-        "ocf": 41565000000,
-        "capex": -26642000000,
-        "fcf": 14923000000
-      }
-    ],
-    "quarterly": [
-      {
-        "period": "Q3'23",
-        "revenue": 160280000000.0,
-        "netIncome": 7891000000.0
-      },
-      {
-        "period": "Q4'23",
-        "revenue": 159439000000.0,
-        "netIncome": 453000000.0
-      },
-      {
-        "period": "Q1'24",
-        "revenue": 171914000000.0,
-        "netIncome": 5494000000.0
-      },
-      {
-        "period": "Q2'24",
-        "revenue": 159938000000.0,
-        "netIncome": 5104000000.0
-      },
-      {
-        "period": "Q3'24",
-        "revenue": 167767000000.0,
-        "netIncome": 4501000000.0
-      },
-      {
-        "period": "Q4'24",
-        "revenue": 168003000000.0,
-        "netIncome": 4577000000.0
-      },
-      {
-        "period": "Q1'25",
-        "revenue": 178830000000.0,
-        "netIncome": 5254000000.0
-      },
-      {
-        "period": "Q2'25",
-        "revenue": 163981000000.0,
-        "netIncome": 4487000000.0
-      },
-      {
-        "period": "Q3'25",
-        "revenue": 175750000000.0,
-        "netIncome": 7026000000.0
-      },
-      {
-        "period": "Q4'25",
-        "revenue": 177769000000.0,
-        "netIncome": 6143000000.0
-      },
-      {
-        "period": "Q1'26",
-        "revenue": 188913000000.0,
-        "netIncome": 4237000000.0
-      },
-      {
-        "period": "Q2'26",
-        "revenue": 175684000000.0,
-        "netIncome": 5330000000.0
-      }
-    ],
-    "_fetched_at": 1784784845.5567763,
-    "_updated_label": "2026-07-23 14:34"
-  },
   "AMAT": {
     "annual": [
       {
@@ -1942,5 +1794,1244 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_fetched_at": 1784784845.5567763,
     "_updated_label": "2026-07-23 14:35"
+  },
+  "ORCL": {
+    "annual": [
+      {
+        "period": "2017",
+        "revenue": 37728000000,
+        "netIncome": 9335000000,
+        "opIncome": 12710000000,
+        "eps": 2,
+        "ocf": 14126000000,
+        "capex": -2021000000,
+        "fcf": 12105000000
+      },
+      {
+        "period": "2018",
+        "revenue": 39831000000,
+        "netIncome": 3825000000,
+        "opIncome": 13679000000,
+        "eps": 0,
+        "ocf": 15386000000,
+        "capex": -1736000000,
+        "fcf": 13650000000
+      },
+      {
+        "period": "2019",
+        "revenue": 3704000000,
+        "netIncome": 815000000,
+        "opIncome": 13535000000,
+        "eps": null,
+        "ocf": null,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2020",
+        "revenue": 39068000000.0,
+        "netIncome": 10135000000.0,
+        "opIncome": 13896000000,
+        "eps": 3.08,
+        "ocf": 13139000000,
+        "capex": -1564000000,
+        "fcf": 11575000000
+      },
+      {
+        "period": "2021",
+        "revenue": 40479000000.0,
+        "netIncome": 13746000000.0,
+        "opIncome": 15213000000.0,
+        "eps": 4.55,
+        "ocf": 15887000000.0,
+        "capex": -2135000000.0,
+        "fcf": 13752000000.0
+      },
+      {
+        "period": "2022",
+        "revenue": 42440000000.0,
+        "netIncome": 6717000000.0,
+        "opIncome": 10926000000.0,
+        "eps": 2.41,
+        "ocf": 9539000000.0,
+        "capex": -4511000000.0,
+        "fcf": 5028000000.0
+      },
+      {
+        "period": "2025",
+        "revenue": 57399000000.0,
+        "netIncome": 12443000000.0,
+        "opIncome": 17678000000,
+        "eps": 4.34,
+        "ocf": 20821000000,
+        "capex": -21215000000,
+        "fcf": -394000000
+      },
+      {
+        "period": "2026",
+        "revenue": 67357000000.0,
+        "netIncome": 17087000000.0,
+        "opIncome": 20606000000,
+        "eps": 5.83,
+        "ocf": 31977000000,
+        "capex": -55663000000,
+        "fcf": -23686000000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q4'22",
+        "revenue": 12275000000.0,
+        "netIncome": 1741000000.0
+      },
+      {
+        "period": "Q1'23",
+        "revenue": 12398000000.0,
+        "netIncome": 1895000000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 12453000000.0,
+        "netIncome": 2420000000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 12941000000.0,
+        "netIncome": 2503000000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 13307000000.0,
+        "netIncome": 2929000000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 14059000000.0,
+        "netIncome": 3151000000.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 14130000000.0,
+        "netIncome": 2936000000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 15903000000.0,
+        "netIncome": 3427000000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 14926000000.0,
+        "netIncome": 2927000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 16057000000.0,
+        "netIncome": 6135000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 17190000000.0,
+        "netIncome": 3721000000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 19184000000.0,
+        "netIncome": 4304000000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "CRM": {
+    "annual": [
+      {
+        "period": "2019",
+        "revenue": 13282000000,
+        "netIncome": 1110000000,
+        "opIncome": 535000000,
+        "eps": 1,
+        "ocf": 3398000000,
+        "capex": -595000000,
+        "fcf": 2803000000
+      },
+      {
+        "period": "2020",
+        "revenue": 17098000000.0,
+        "netIncome": 126000000.0,
+        "opIncome": 297000000.0,
+        "eps": 0.15,
+        "ocf": 4331000000,
+        "capex": -643000000,
+        "fcf": 3688000000
+      },
+      {
+        "period": "2021",
+        "revenue": 21252000000.0,
+        "netIncome": 4072000000.0,
+        "opIncome": 455000000.0,
+        "eps": 4.38,
+        "ocf": 4801000000.0,
+        "capex": -710000000.0,
+        "fcf": 4091000000.0
+      },
+      {
+        "period": "2022",
+        "revenue": 26492000000.0,
+        "netIncome": 1444000000.0,
+        "opIncome": 548000000.0,
+        "eps": 1.48,
+        "ocf": 6000000000.0,
+        "capex": -717000000.0,
+        "fcf": 5283000000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 31352000000.0,
+        "netIncome": 208000000.0,
+        "opIncome": 1030000000,
+        "eps": 0,
+        "ocf": 7111000000,
+        "capex": -798000000,
+        "fcf": 6313000000
+      },
+      {
+        "period": "2024",
+        "revenue": 34857000000.0,
+        "netIncome": 4136000000.0,
+        "opIncome": 5011000000,
+        "eps": 4,
+        "ocf": 10234000000,
+        "capex": -736000000,
+        "fcf": 9498000000
+      },
+      {
+        "period": "2025",
+        "revenue": 37895000000.0,
+        "netIncome": 6197000000.0,
+        "opIncome": 7205000000,
+        "eps": 6,
+        "ocf": 13092000000,
+        "capex": -658000000,
+        "fcf": 12434000000
+      },
+      {
+        "period": "2026",
+        "revenue": 41525000000.0,
+        "netIncome": 7457000000.0,
+        "opIncome": 8331000000,
+        "eps": 7,
+        "ocf": 14996000000,
+        "capex": -594000000,
+        "fcf": 14402000000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'23",
+        "revenue": 8247000000.0,
+        "netIncome": 199000000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 8603000000.0,
+        "netIncome": 1267000000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 8720000000.0,
+        "netIncome": 1224000000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 9287000000.0,
+        "netIncome": 1446000000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 9133000000.0,
+        "netIncome": 1533000000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 9325000000.0,
+        "netIncome": 1429000000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 9444000000.0,
+        "netIncome": 1527000000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 9829000000.0,
+        "netIncome": 1541000000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 10236000000.0,
+        "netIncome": 1887000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 10259000000.0,
+        "netIncome": 2086000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 13623000000.0,
+        "netIncome": 2968000000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 11133000000.0,
+        "netIncome": 2107000000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "PLTR": {
+    "annual": [
+      {
+        "period": "2020",
+        "revenue": 1092673000.0,
+        "netIncome": -1166391000.0,
+        "opIncome": -1173679000.0,
+        "eps": -1.2,
+        "ocf": -296608000.0,
+        "capex": -12236000.0,
+        "fcf": -308844000.0
+      },
+      {
+        "period": "2021",
+        "revenue": 1541889000.0,
+        "netIncome": -520379000.0,
+        "opIncome": -411046000.0,
+        "eps": -0.27,
+        "ocf": 333851000.0,
+        "capex": -12627000.0,
+        "fcf": 321224000.0
+      },
+      {
+        "period": "2022",
+        "revenue": 1905871000,
+        "netIncome": -373705000,
+        "opIncome": -161201000,
+        "eps": -0.18,
+        "ocf": 223737000,
+        "capex": -40027000,
+        "fcf": 183710000
+      },
+      {
+        "period": "2023",
+        "revenue": 2225012000,
+        "netIncome": 209825000,
+        "opIncome": 119966000,
+        "eps": 0.09,
+        "ocf": 712183000,
+        "capex": -15114000,
+        "fcf": 697069000
+      },
+      {
+        "period": "2024",
+        "revenue": 2865507000,
+        "netIncome": 462190000,
+        "opIncome": 310403000,
+        "eps": 0.19,
+        "ocf": 1153865000,
+        "capex": -12634000,
+        "fcf": 1141231000
+      },
+      {
+        "period": "2025",
+        "revenue": 4475446000,
+        "netIncome": 1625033000,
+        "opIncome": 1414015000,
+        "eps": 0.63,
+        "ocf": 2134473000,
+        "capex": -33882000,
+        "fcf": 2100591000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'23",
+        "revenue": 533317000,
+        "netIncome": 28127000
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 558159000,
+        "netIncome": 71505000
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 608350000,
+        "netIncome": 93391000
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 634338000,
+        "netIncome": 105530000
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 678134000,
+        "netIncome": 134126000
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 725516000,
+        "netIncome": 143525000
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 827519000,
+        "netIncome": 79009000
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 883855000,
+        "netIncome": 214031000
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 1003697000,
+        "netIncome": 326727000
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 1181092000,
+        "netIncome": 475599000
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 1406802000,
+        "netIncome": 608676000
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 1632583000,
+        "netIncome": 870527000
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "QCOM": {
+    "annual": [
+      {
+        "period": "2018",
+        "revenue": 22732000000,
+        "netIncome": -4864000000,
+        "opIncome": 742000000,
+        "eps": -3,
+        "ocf": 3895000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2019",
+        "revenue": 24273000000.0,
+        "netIncome": 4386000000.0,
+        "opIncome": 7667000000,
+        "eps": 3,
+        "ocf": 7286000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2020",
+        "revenue": 23531000000.0,
+        "netIncome": 5198000000,
+        "opIncome": 6255000000,
+        "eps": 4,
+        "ocf": 5814000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2021",
+        "revenue": 33566000000.0,
+        "netIncome": 9043000000.0,
+        "opIncome": 9789000000.0,
+        "eps": 7.87,
+        "ocf": 10536000000.0,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2022",
+        "revenue": 44200000000.0,
+        "netIncome": 12936000000.0,
+        "opIncome": 15860000000,
+        "eps": 11,
+        "ocf": 9096000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2023",
+        "revenue": 35820000000.0,
+        "netIncome": 7232000000.0,
+        "opIncome": 7788000000,
+        "eps": 6,
+        "ocf": 11299000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2024",
+        "revenue": 38962000000.0,
+        "netIncome": 10142000000.0,
+        "opIncome": 10071000000,
+        "eps": 8,
+        "ocf": 12202000000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2025",
+        "revenue": 44284000000.0,
+        "netIncome": 5541000000.0,
+        "opIncome": 12355000000,
+        "eps": 5,
+        "ocf": 14012000000,
+        "capex": null,
+        "fcf": null
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'23",
+        "revenue": 8451000000.0,
+        "netIncome": 1803000000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 8631000000.0,
+        "netIncome": 1490000000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 9935000000.0,
+        "netIncome": 2767000000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 9390000000.0,
+        "netIncome": 2326000000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 9393000000.0,
+        "netIncome": 2129000000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 10244000000.0,
+        "netIncome": 2920000000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 11669000000.0,
+        "netIncome": 3180000000.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 10980000000.0,
+        "netIncome": 2812000000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 10364000000.0,
+        "netIncome": 2666000000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 11271000000.0,
+        "netIncome": -3117000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 12252000000.0,
+        "netIncome": 3004000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 10599000000.0,
+        "netIncome": 7371000000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "ARM": {
+    "annual": [],
+    "quarterly": [],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "MRVL": {
+    "annual": [
+      {
+        "period": "2012",
+        "revenue": 3393040000,
+        "netIncome": 615091000,
+        "opIncome": 604146000,
+        "eps": null,
+        "ocf": null,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2013",
+        "revenue": 3168630000,
+        "netIncome": 306585000,
+        "opIncome": 294657000,
+        "eps": null,
+        "ocf": null,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2022",
+        "revenue": 4462383000.0,
+        "netIncome": -421034000.0,
+        "opIncome": -347668000.0,
+        "eps": -0.53,
+        "ocf": 819368000.0,
+        "capex": -169324000.0,
+        "fcf": 650044000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 5919600000.0,
+        "netIncome": -163500000.0,
+        "opIncome": 238000000,
+        "eps": -0.19,
+        "ocf": 1288800000,
+        "capex": -206200000,
+        "fcf": 1082600000
+      },
+      {
+        "period": "2024",
+        "revenue": 5507700000.0,
+        "netIncome": -933400000.0,
+        "opIncome": -567700000,
+        "eps": -1.08,
+        "ocf": 1370500000,
+        "capex": -336300000,
+        "fcf": 1034200000
+      },
+      {
+        "period": "2025",
+        "revenue": 5767300000.0,
+        "netIncome": -885000000.0,
+        "opIncome": -720300000,
+        "eps": -1.02,
+        "ocf": 1681200000,
+        "capex": -284600000,
+        "fcf": 1396600000
+      },
+      {
+        "period": "2026",
+        "revenue": 8194600000.0,
+        "netIncome": 2670100000.0,
+        "opIncome": 1322900000,
+        "eps": 3.07,
+        "ocf": 1750500000,
+        "capex": -354100000,
+        "fcf": 1396400000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q3'23",
+        "revenue": 1340900000.0,
+        "netIncome": -207500000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 1418600000.0,
+        "netIncome": -164300000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 1426500000.0,
+        "netIncome": -392700000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 1160900000.0,
+        "netIncome": -215600000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 1272900000.0,
+        "netIncome": -193300000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 1516100000.0,
+        "netIncome": -676300000.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 1817400000.0,
+        "netIncome": 200200000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 1895300000.0,
+        "netIncome": 177900000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 2006100000.0,
+        "netIncome": 194800000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 2074500000.0,
+        "netIncome": 1901300000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 2218700000.0,
+        "netIncome": 396100000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 2417800000.0,
+        "netIncome": 34500000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "ASML": {
+    "annual": [],
+    "quarterly": [],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "LRCX": {
+    "annual": [
+      {
+        "period": "2018",
+        "revenue": 11076998000,
+        "netIncome": 2380681000,
+        "opIncome": 3213299000,
+        "eps": 13,
+        "ocf": 2655747000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2019",
+        "revenue": 9653559000.0,
+        "netIncome": 2191430000.0,
+        "opIncome": 2464732000,
+        "eps": 13.7,
+        "ocf": 3176013000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2020",
+        "revenue": 10044736000.0,
+        "netIncome": 2251753000.0,
+        "opIncome": 2673802000,
+        "eps": 15.1,
+        "ocf": 2126451000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2021",
+        "revenue": 14626150000.0,
+        "netIncome": 3908458000.0,
+        "opIncome": 4482023000.0,
+        "eps": 26.9,
+        "ocf": 3588163000.0,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2022",
+        "revenue": 17227039000.0,
+        "netIncome": 4605286000.0,
+        "opIncome": 5381822000.0,
+        "eps": 32.75,
+        "ocf": 3099674000.0,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2023",
+        "revenue": 17428516000.0,
+        "netIncome": 4510931000.0,
+        "opIncome": 5174860000,
+        "eps": 33.21,
+        "ocf": 5178938000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2024",
+        "revenue": 14905386000.0,
+        "netIncome": 3827772000.0,
+        "opIncome": 4263913000,
+        "eps": 29.0,
+        "ocf": 4652269000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2025",
+        "revenue": 18435591000.0,
+        "netIncome": 5358217000.0,
+        "opIncome": 5900968000,
+        "eps": 4.15,
+        "ocf": 6173264000,
+        "capex": null,
+        "fcf": null
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'23",
+        "revenue": 3207257000.0,
+        "netIncome": 802537000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 3482062000.0,
+        "netIncome": 887398000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 3758259000.0,
+        "netIncome": 954266000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 3793558000.0,
+        "netIncome": 965826000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 3871507000.0,
+        "netIncome": 1020282000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 4167976000.0,
+        "netIncome": 1116444000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 4376047000.0,
+        "netIncome": 1191018000.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 4720175000.0,
+        "netIncome": 1330667000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 5171393000.0,
+        "netIncome": 1720088000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 5324173000.0,
+        "netIncome": 1568660000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 5344791000.0,
+        "netIncome": 1593994000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 5841488000.0,
+        "netIncome": 1825460000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:32"
+  },
+  "KLAC": {
+    "annual": [
+      {
+        "period": "2018",
+        "revenue": 4036701000,
+        "netIncome": 802265000,
+        "opIncome": null,
+        "eps": 5,
+        "ocf": 1229120000,
+        "capex": -66961000,
+        "fcf": 1162159000
+      },
+      {
+        "period": "2019",
+        "revenue": 4568904000,
+        "netIncome": 1175617000,
+        "opIncome": null,
+        "eps": 7,
+        "ocf": 1152632000,
+        "capex": -130498000,
+        "fcf": 1022134000
+      },
+      {
+        "period": "2020",
+        "revenue": 5806424000.0,
+        "netIncome": 1216785000.0,
+        "opIncome": null,
+        "eps": 7.7,
+        "ocf": 1778850000,
+        "capex": -152675000,
+        "fcf": 1626175000
+      },
+      {
+        "period": "2021",
+        "revenue": 6918734000.0,
+        "netIncome": 2078292000.0,
+        "opIncome": null,
+        "eps": 13.37,
+        "ocf": 2185026000.0,
+        "capex": -231628000.0,
+        "fcf": 1953398000.0
+      },
+      {
+        "period": "2022",
+        "revenue": 9211883000.0,
+        "netIncome": 3321807000.0,
+        "opIncome": null,
+        "eps": 21.92,
+        "ocf": 3312702000.0,
+        "capex": -307320000.0,
+        "fcf": 3005382000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 10496056000.0,
+        "netIncome": 3387277000.0,
+        "opIncome": null,
+        "eps": 24.15,
+        "ocf": 3669805000,
+        "capex": -341591000,
+        "fcf": 3328214000
+      },
+      {
+        "period": "2024",
+        "revenue": 9812247000.0,
+        "netIncome": 2761896000.0,
+        "opIncome": null,
+        "eps": 20.28,
+        "ocf": 3308575000,
+        "capex": -277384000,
+        "fcf": 3031191000
+      },
+      {
+        "period": "2025",
+        "revenue": 12156162000.0,
+        "netIncome": 4061643000.0,
+        "opIncome": null,
+        "eps": 30.37,
+        "ocf": 4081903000,
+        "capex": -335259000,
+        "fcf": 3746644000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'23",
+        "revenue": 2355137000.0,
+        "netIncome": 684654000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 2396956000.0,
+        "netIncome": 741375000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 2486726000.0,
+        "netIncome": 582534000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 2359830000.0,
+        "netIncome": 601541000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 2568735000.0,
+        "netIncome": 836446000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 2841541000.0,
+        "netIncome": 945851000.0
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 3076851000.0,
+        "netIncome": 824527000.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 3063029000.0,
+        "netIncome": 1088416000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 3174741000.0,
+        "netIncome": 1202849000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 3209696000.0,
+        "netIncome": 1121040000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 3297146000.0,
+        "netIncome": 1145682000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 3415078000.0,
+        "netIncome": 1200990000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:33"
+  },
+  "SNDK": {
+    "annual": [
+      {
+        "period": "2012",
+        "revenue": 5052509000,
+        "netIncome": 417404000,
+        "opIncome": 696095000,
+        "eps": null,
+        "ocf": 112450000,
+        "capex": null,
+        "fcf": null
+      },
+      {
+        "period": "2025",
+        "revenue": 7355000000.0,
+        "netIncome": -1641000000.0,
+        "opIncome": -1377000000,
+        "eps": -11.32,
+        "ocf": 84000000,
+        "capex": -204000000,
+        "fcf": -120000000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q4'11",
+        "revenue": 1819494000,
+        "netIncome": 475280000
+      },
+      {
+        "period": "Q2'12",
+        "revenue": 1205561000,
+        "netIncome": 114385000
+      },
+      {
+        "period": "Q3'12",
+        "revenue": 1273190000,
+        "netIncome": 76507000
+      },
+      {
+        "period": "Q4'12",
+        "revenue": 1541503000,
+        "netIncome": 213543000
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 1695000000.0,
+        "netIncome": -1933000000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 1901000000.0,
+        "netIncome": -23000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 2308000000.0,
+        "netIncome": 112000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 3025000000.0,
+        "netIncome": 803000000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 5950000000.0,
+        "netIncome": 3615000000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:33"
+  },
+  "WDC": {
+    "annual": [
+      {
+        "period": "2018",
+        "revenue": null,
+        "netIncome": 675000000,
+        "opIncome": 3617000000,
+        "eps": 2,
+        "ocf": 4205000000,
+        "capex": -835000000,
+        "fcf": 3370000000
+      },
+      {
+        "period": "2019",
+        "revenue": 16569000000.0,
+        "netIncome": -754000000.0,
+        "opIncome": 87000000.0,
+        "eps": -2.58,
+        "ocf": 1547000000.0,
+        "capex": -876000000.0,
+        "fcf": 671000000.0
+      },
+      {
+        "period": "2020",
+        "revenue": 16736000000.0,
+        "netIncome": -250000000.0,
+        "opIncome": 335000000,
+        "eps": -0.84,
+        "ocf": 824000000,
+        "capex": -647000000,
+        "fcf": 177000000
+      },
+      {
+        "period": "2021",
+        "revenue": 16922000000.0,
+        "netIncome": 821000000.0,
+        "opIncome": 1220000000.0,
+        "eps": 2.66,
+        "ocf": 1898000000.0,
+        "capex": -1146000000.0,
+        "fcf": 752000000.0
+      },
+      {
+        "period": "2022",
+        "revenue": 18793000000.0,
+        "netIncome": 1500000000.0,
+        "opIncome": 2391000000.0,
+        "eps": 4.75,
+        "ocf": 1880000000.0,
+        "capex": -1122000000.0,
+        "fcf": 758000000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 12318000000.0,
+        "netIncome": -1706000000.0,
+        "opIncome": -1285000000,
+        "eps": -5.44,
+        "ocf": -408000000,
+        "capex": -821000000,
+        "fcf": -1229000000
+      },
+      {
+        "period": "2024",
+        "revenue": 13003000000.0,
+        "netIncome": -798000000.0,
+        "opIncome": -317000000,
+        "eps": -2.61,
+        "ocf": -294000000,
+        "capex": -487000000,
+        "fcf": -781000000
+      },
+      {
+        "period": "2025",
+        "revenue": 9520000000.0,
+        "netIncome": 1889000000.0,
+        "opIncome": 2334000000,
+        "eps": 5.12,
+        "ocf": 1691000000,
+        "capex": -412000000,
+        "fcf": 1279000000
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q4'22",
+        "revenue": 3107000000.0,
+        "netIncome": -446000000.0
+      },
+      {
+        "period": "Q1'23",
+        "revenue": 2803000000.0,
+        "netIncome": -572000000.0
+      },
+      {
+        "period": "Q2'23",
+        "revenue": 2672000000.0,
+        "netIncome": -715000000.0
+      },
+      {
+        "period": "Q3'23",
+        "revenue": 2750000000.0,
+        "netIncome": -685000000.0
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 3032000000.0,
+        "netIncome": -287000000.0
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 3457000000.0,
+        "netIncome": 135000000.0
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 3764000000.0,
+        "netIncome": 39000000.0
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 4095000000.0,
+        "netIncome": 493000000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 2605000000.0,
+        "netIncome": 282000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 2818000000.0,
+        "netIncome": 1182000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 3017000000.0,
+        "netIncome": 1842000000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 3337000000.0,
+        "netIncome": 3205000000.0
+      }
+    ],
+    "_fetched_at": 1785119549.0004451,
+    "_updated_label": "2026-07-27 11:33"
   }
 };
