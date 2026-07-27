@@ -104,6 +104,20 @@
     font-size:11.5px;font-family:var(--mono);line-height:1.6;white-space:nowrap;box-shadow:0 8px 20px rgba(0,0,0,.25);
   }
   .chart-tooltip b{color:#c9cdd3;font-weight:600;}
+  /* 터치 기기용 캔들 정보 패널 - 손가락이 가리지 않게 차트 '아래'에 고정으로 띄움.
+     폰에서는 캔들 한 개 폭이 2~3px밖에 안 돼서 정확히 찍는 게 불가능하므로,
+     대충 탭한 뒤 ‹ › 로 한 봉씩 옮겨가며 보는 방식으로 만듦. */
+  .chart-readout{display:none;margin-top:8px;border:1px solid var(--line);border-radius:12px;background:var(--panel-2);padding:10px 12px;}
+  .chart-readout .ro-head{display:flex;align-items:center;justify-content:space-between;gap:8px;}
+  .chart-readout .ro-date{font-weight:800;font-family:var(--mono);font-size:13px;}
+  .chart-readout .ro-btns{display:flex;gap:6px;}
+  .chart-readout .ro-btn{border:1px solid var(--line);border-radius:8px;padding:5px 12px;cursor:pointer;
+    user-select:none;-webkit-user-select:none;background:var(--panel);font-weight:800;font-size:13px;line-height:1;}
+  .chart-readout .ro-btn:active{background:var(--line);}
+  .chart-readout .ro-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px 14px;
+    margin-top:8px;font-family:var(--mono);font-size:12px;}
+  .chart-readout .ro-grid span{color:var(--sub);}
+  .chart-readout .ro-tech{margin-top:8px;font-size:12px;line-height:1.6;border-top:1px solid var(--line);padding-top:8px;}
 
   .gauge-wrap{display:flex;gap:14px;flex-wrap:wrap;}
   .gauge-card{flex:1;min-width:240px;border:1px solid var(--line);border-radius:14px;padding:16px;background:var(--panel-2);}
@@ -1185,6 +1199,7 @@ function openDetail(ticker){
   activeTab = '01';
   techViewOpen = false;
   chartZoom = { span: null, center: null };
+  chartPinnedIdx = null;
   renderTabs(ticker);
   renderTabContent(ticker);
   document.getElementById('detailOverlay').classList.add('open');
@@ -1216,7 +1231,7 @@ function renderTabContent(ticker){
   requestAnimationFrame(()=>{
     if(activeTab==='01'){
       const c = document.getElementById('priceCanvas');
-      if(c){ drawCandleChart(c, r.series, null, techViewOpen); setupPriceChartHover(c, r.series, ticker); }
+      if(c){ drawCandleChart(c, r.series, pinnedHoverIndex(r.series), techViewOpen); setupPriceChartHover(c, r.series, ticker); }
       if(techViewOpen){
         const rc = document.getElementById('techRsiCanvas');
         const mc = document.getElementById('techMacdCanvas');
@@ -1277,7 +1292,7 @@ function tabJudgement(r){
     </div>
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
     <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;">
-      <div class="chart-label" style="margin-top:0;">캔들차트 · 20일 이동평균선(주황) — 차트를 클릭하면 그 구간이 확대돼요</div>
+      <div class="chart-label" style="margin-top:0;">캔들차트 · 20일 이동평균선(주황) — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
       <div class="toggle-row" style="margin-top:0;">
         <div class="toggle-btn" onclick="zoomChart('${r.ticker}', 1.6)" title="축소">－ 축소</div>
         <div class="toggle-btn" onclick="zoomChartReset('${r.ticker}')" title="전체 기간 보기">전체보기</div>
@@ -1288,6 +1303,7 @@ function tabJudgement(r){
       <canvas id="priceCanvas"></canvas>
       <div id="chartTooltip" class="chart-tooltip"></div>
     </div>
+    <div id="chartReadout" class="chart-readout"></div>
     <div class="toggle-row" style="justify-content:flex-start;margin-top:12px;">
       <div class="toggle-btn ${techViewOpen?'active':''}" onclick="toggleTechView('${r.ticker}')">
         ${techViewOpen ? '▲ 기술적 지표 닫기' : '▼ 기술적 지표 보기 (단타용 RSI·MACD·과거 신호)'}
@@ -1625,8 +1641,18 @@ function renderTechSection(r){
 function chartWindowSize(showSignals){ return showSignals ? 500 : 140; }
 function lastN(arr, n){ return arr.slice(Math.max(0, arr.length-n)); }
 
+// 캔들이 그려지는 영역의 좌우 여백(CSS px). 캔버스는 2배 해상도로 그리므로 내부에선 *2 해서 씀.
+// 마우스 x좌표 → 캔들 인덱스 변환도 반드시 이 여백을 빼고 계산해야 크로스헤어가 포인터와 어긋나지 않음.
+const CHART_PAD_CSS = 22;
+// '터치 전용 기기인가' - 터치스크린 달린 PC는 마우스도 있으므로 hover/pointer 미디어쿼리로 판별.
+// (안내 문구를 고르는 용도로만 씀. 마우스·터치 이벤트는 어느 쪽이든 항상 다 등록됨)
+const IS_TOUCH = (typeof window !== 'undefined') && !!window.matchMedia &&
+  !window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
 // 확대/축소 상태 - 종목을 새로 열 때(openDetail) 초기화됨
 let chartZoom = { span: null, center: null }; // span=null => 기본 범위(140/500일) 사용
+// 터치로 고정해 둔 캔들의 '전체 시리즈 기준' 인덱스 (모바일 정보 패널용). null이면 선택 없음.
+let chartPinnedIdx = null;
 // 차트 드래그 이동 중 캔버스 밖에서 마우스를 놓아도 이동이 끝나도록 하는 전역 리스너.
 // setupPriceChartHover가 재렌더링마다 다시 호출되므로, 리스너를 그때마다 새로 추가하면
 // window에 계속 쌓이게 됨 - 그래서 이 리스너는 스크립트 로드 시 한 번만 등록하고
@@ -1647,11 +1673,24 @@ function chartRange(fullLen, showSignals){
   }
   return {start, end};
 }
+// 중심(center)을 "화면이 데이터 범위를 벗어나지 않는" 값으로 제한.
+// end = center - floor(span/2) + span <= fullLen 을 만족해야 하므로 상한은 fullLen - span + half.
+// (예전엔 상한을 fullLen-1-half 로 잡아서 span이 짝수일 때 end가 fullLen-1이 됐고,
+//  그 결과 오른쪽 끝으로 끌면 '가장 최근 캔들 하루'가 화면에서 사라졌음)
+function clampChartCenter(center, span, fullLen){
+  const half = Math.floor(span/2);
+  return Math.max(half, Math.min(fullLen - span + half, center));
+}
 function zoomChart(ticker, factor){
-  const base = chartWindowSize(techViewOpen);
   const fullLen = results[ticker].series.closes.length;
+  const before = chartRange(fullLen, techViewOpen);
+  const atRightEdge = before.end >= fullLen; // 최신 캔들이 보이던 상태였는지
   const cur = chartZoom.span || chartWindowSize(techViewOpen);
-  chartZoom.span = Math.max(15, Math.min(fullLen, Math.round(cur * factor)));
+  const span = Math.max(15, Math.min(fullLen, Math.round(cur * factor)));
+  chartZoom.span = span;
+  // 최신 캔들을 보고 있었으면 확대/축소 후에도 계속 오른쪽 끝에 붙여둠(center=null이면 항상 끝에 맞춤)
+  if(atRightEdge) chartZoom.center = null;
+  else if(chartZoom.center!=null) chartZoom.center = clampChartCenter(chartZoom.center, span, fullLen);
   redrawCharts(ticker);
 }
 function zoomChartReset(ticker){
@@ -1660,11 +1699,18 @@ function zoomChartReset(ticker){
 }
 // 캔들차트 + (열려있으면) RSI/MACD 미니차트를 같은 확대/이동 상태로 다시 그림 - 탭 전체를
 // 새로 그리는 renderTabContent보다 가벼워서 드래그 이동 중 매 프레임 호출해도 끊기지 않음
+// 터치로 고정한 캔들이 현재 화면 구간 안에 있으면 그 구간 기준 인덱스를, 밖이면 null을 돌려줌
+function pinnedHoverIndex(s){
+  if(chartPinnedIdx==null) return null;
+  const {start, end} = chartRange(s.closes.length, techViewOpen);
+  if(chartPinnedIdx < start || chartPinnedIdx >= end) return null;
+  return chartPinnedIdx - start;
+}
 function redrawCharts(ticker){
   const r = results[ticker];
   if(!r) return;
   const c = document.getElementById('priceCanvas');
-  if(c) drawCandleChart(c, r.series, null, techViewOpen);
+  if(c) drawCandleChart(c, r.series, pinnedHoverIndex(r.series), techViewOpen);
   if(techViewOpen){
     const rc = document.getElementById('techRsiCanvas');
     const mc = document.getElementById('techMacdCanvas');
@@ -1713,7 +1759,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
   const H = canvas.height = 260 * 2;
   const ctx = canvas.getContext('2d');
   ctx.clearRect(0,0,W,H);
-  const pad = 22*2;
+  const pad = CHART_PAD_CSS*2;
   const bbVals = bbUpper ? [...bbUpper.filter(v=>v!=null), ...bbLower.filter(v=>v!=null)] : [];
   const vals = [...highs.filter(v=>v!=null), ...lows.filter(v=>v!=null), ...ma20.filter(v=>v!=null), ...bbVals];
   const min = Math.min(...vals), max = Math.max(...vals);
@@ -1827,12 +1873,17 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
     ctx.restore();
   }
 
-  // 호버 크로스헤어
+  // 호버(마우스) / 선택(터치) 크로스헤어. 터치로 고정한 경우엔 어느 봉을 고른 건지
+  // 한눈에 보이도록 종가 위치에 점을 하나 더 찍어줌.
   if(hoverIndex!=null && hoverIndex>=0 && hoverIndex<n){
     const cx = x(hoverIndex);
     ctx.strokeStyle = 'rgba(32,36,43,0.28)'; ctx.setLineDash([4,4]); ctx.lineWidth=2;
     ctx.beginPath(); ctx.moveTo(cx,pad*0.3); ctx.lineTo(cx,H-pad*0.3); ctx.stroke();
     ctx.setLineDash([]);
+    if(chartPinnedIdx!=null && chartPinnedIdx === start + hoverIndex && closes[hoverIndex]!=null){
+      ctx.fillStyle = '#20242b';
+      ctx.beginPath(); ctx.arc(cx, y(closes[hoverIndex]), 5, 0, Math.PI*2); ctx.fill();
+    }
   }
 
   ctx.fillStyle = '#20242b'; ctx.font = '20px monospace';
@@ -1867,11 +1918,89 @@ function technicalReasonAt(techSeries, closes, i){
   return {score: techSeries.scores[i], reasons};
 }
 
+// 캔버스 위 x좌표(clientX)를 캔들 인덱스로 변환.
+// 캔들은 좌우 여백(CHART_PAD_CSS) 안쪽에만 그려지므로 그 여백을 빼고 비율을 계산해야
+// 크로스헤어가 마우스 포인터와 정확히 같은 자리에 선다(특히 오른쪽 끝 최신 캔들).
+function chartIndexFromClientX(canvas, clientX, n){
+  const rect = canvas.getBoundingClientRect();
+  const inner = rect.width - 2*CHART_PAD_CSS;
+  if(!(inner > 0) || n <= 1) return 0;
+  const ratio = Math.min(Math.max((clientX - rect.left - CHART_PAD_CSS)/inner, 0), 1);
+  return Math.round(ratio*(n-1));
+}
+
+// ---- 터치용 캔들 정보 패널 ----
+// 폰에서는 마우스 호버가 없고 손가락이 툴팁을 가려서, 차트 '아래'의 고정 패널에 정보를 띄운다.
+// 캔들 폭이 2~3px이라 정확히 찍는 건 불가능하므로 대충 탭 → ‹ › 로 미세조정하는 방식.
+let _readoutCtx = null; // {canvas, s, ticker} - 지금 화면에 떠 있는 캔들차트
+function pinChartBar(absIdx){
+  if(!_readoutCtx) return;
+  const s = _readoutCtx.s;
+  const fullLen = s.closes.length;
+  chartPinnedIdx = Math.max(0, Math.min(fullLen-1, absIdx));
+  const {start, end} = chartRange(fullLen, techViewOpen);
+  if(chartPinnedIdx < start || chartPinnedIdx >= end){
+    // ‹ › 로 화면 밖까지 이동한 경우 - 그 봉이 보이도록 구간을 따라 옮겨줌
+    const span = end - start;
+    chartZoom = { span, center: clampChartCenter(chartPinnedIdx, span, fullLen) };
+  }
+  redrawCharts(_readoutCtx.ticker);
+  renderChartReadout();
+}
+function stepChartBar(delta){ if(chartPinnedIdx!=null) pinChartBar(chartPinnedIdx + delta); }
+function closeChartReadout(){
+  chartPinnedIdx = null;
+  if(_readoutCtx) redrawCharts(_readoutCtx.ticker);
+  renderChartReadout();
+}
+function renderChartReadout(){
+  const el = document.getElementById('chartReadout');
+  if(!el) return;
+  if(chartPinnedIdx==null || !_readoutCtx){ el.style.display='none'; el.innerHTML=''; return; }
+  const s = _readoutCtx.s, i = chartPinnedIdx;
+  const f = v => v!=null ? v.toFixed(2) : '-';
+  const c = s.closes[i], prev = i>0 ? s.closes[i-1] : null;
+  const chg = (c!=null && prev) ? (c-prev)/prev*100 : null;
+  const chgColor = chg==null ? 'var(--sub)' : (chg>=0 ? 'var(--up)' : 'var(--down)');
+  let techBlock = '';
+  if(techViewOpen && s.techSeries){
+    const info = technicalReasonAt(s.techSeries, s.closes, i);
+    if(info){
+      const tv = technicalVerdict(info.score ?? 0);
+      techBlock = `<div class="ro-tech"><b>단기판단</b> ${tv.label}` +
+        (info.reasons.length ? `<div style="color:var(--sub);margin-top:2px;">${info.reasons.join(' · ')}</div>` : '') +
+        `</div>`;
+    }
+  }
+  el.innerHTML = `
+    <div class="ro-head">
+      <div class="ro-date">${s.dates[i]||''}
+        <span style="color:var(--sub);font-weight:600;font-size:11px;">${i===s.closes.length-1?'· 최신':''}</span></div>
+      <div class="ro-btns">
+        <div class="ro-btn" onclick="stepChartBar(-1)" title="하루 전">‹</div>
+        <div class="ro-btn" onclick="stepChartBar(1)" title="하루 뒤">›</div>
+        <div class="ro-btn" onclick="closeChartReadout()" title="닫기">✕</div>
+      </div>
+    </div>
+    <div class="ro-grid">
+      <div><span>시가</span> ${f(s.opens[i])}</div>
+      <div><span>고가</span> ${f(s.highs[i])}</div>
+      <div><span>저가</span> ${f(s.lows[i])}</div>
+      <div><span>종가</span> <b>${f(c)}</b></div>
+      <div><span>전일대비</span> <b style="color:${chgColor};">${chg==null?'-':(chg>=0?'+':'')+chg.toFixed(2)+'%'}</b></div>
+      <div><span>RSI</span> ${s.rsiArr[i]!=null ? s.rsiArr[i].toFixed(1) : '-'}</div>
+    </div>
+    ${techBlock}`;
+  el.style.display = 'block';
+}
+
 function setupPriceChartHover(canvas, s, ticker){
   const tooltip = document.getElementById('chartTooltip');
   const wrap = canvas.closest('.chart-wrap');
   const fullLen = s.closes.length;
   canvas.style.cursor = 'grab';
+  _readoutCtx = { canvas, s, ticker };
+  renderChartReadout(); // 탭/확대 상태가 다시 그려져도 선택해둔 캔들 정보는 유지
 
   function currentSlice(){
     const {start, end} = chartRange(fullLen, techViewOpen);
@@ -1890,8 +2019,10 @@ function setupPriceChartHover(canvas, s, ticker){
     const {start, end} = currentSlice();
     drag.active = true; drag.moved = false;
     drag.startClientX = clientX;
-    drag.startCenter = Math.round((start+end)/2);
     drag.span = end - start;
+    // chartRange의 역산과 정확히 일치시켜야 함(start = center - floor(span/2)).
+    // 예전의 round((start+end)/2)는 span이 홀수일 때 1봉씩 밀렸음.
+    drag.startCenter = start + Math.floor(drag.span/2);
     canvas.style.cursor = 'grabbing';
     _activeChartPanEnd = panEnd;
   }
@@ -1902,9 +2033,7 @@ function setupPriceChartHover(canvas, s, ticker){
     if(Math.abs(deltaX) > 3) drag.moved = true;
     const barsPerPixel = drag.span / rect.width;
     const deltaBars = Math.round(deltaX * barsPerPixel);
-    const half = Math.floor(drag.span/2);
-    let center = drag.startCenter - deltaBars;
-    center = Math.max(half, Math.min(fullLen - 1 - half, center));
+    const center = clampChartCenter(drag.startCenter - deltaBars, drag.span, fullLen);
     chartZoom = { span: drag.span, center };
     redrawCharts(ticker);
   }
@@ -1918,9 +2047,7 @@ function setupPriceChartHover(canvas, s, ticker){
     if(drag.active){ panMove(e.clientX); return; }
     const {start, dates, opens, highs, lows, closes, rsiArr} = currentSlice();
     const n = closes.length;
-    const rect = canvas.getBoundingClientRect();
-    const ratio = Math.min(Math.max((e.clientX-rect.left)/rect.width, 0), 1);
-    const idx = Math.round(ratio*(n-1));
+    const idx = chartIndexFromClientX(canvas, e.clientX, n);
     drawCandleChart(canvas, s, idx, techViewOpen);
     const o=opens[idx], h=highs[idx], l=lows[idx], c=closes[idx], rv=rsiArr[idx], d=dates[idx];
     let techLine = '';
@@ -1944,25 +2071,46 @@ function setupPriceChartHover(canvas, s, ticker){
     tooltip.style.left = left+'px';
     tooltip.style.top = top+'px';
   }
-  function onLeave(){ if(drag.active) panEnd(); tooltip.style.display='none'; drawCandleChart(canvas, s, null, techViewOpen); }
+  function onLeave(){ if(drag.active) panEnd(); tooltip.style.display='none'; drawCandleChart(canvas, s, pinnedHoverIndex(s), techViewOpen); }
   function onMouseDown(e){ if(e.button!==0) return; panStart(e.clientX); }
   function onMouseUp(){ if(drag.active) panEnd(); }
   function onClick(e){
     if(drag.moved){ drag.moved=false; return; } // 드래그 직후 클릭은 확대로 이어지지 않게 무시
+    // 터치에서 올라오는 합성 click은 무시 - 터치는 '탭=정보 보기'로 따로 처리함
+    if(Date.now() - lastTouchAt < 700) return;
     const {start, closes} = currentSlice();
-    const n = closes.length;
-    const rect = canvas.getBoundingClientRect();
-    const ratio = Math.min(Math.max((e.clientX-rect.left)/rect.width, 0), 1);
-    const idx = Math.round(ratio*(n-1));
+    const idx = chartIndexFromClientX(canvas, e.clientX, closes.length);
     const curSpan = chartZoom.span || chartWindowSize(techViewOpen);
     // 이미 많이 확대된 상태서 또 클릭하면 더 좁게, 아니면 40일 정도로 확대
-    chartZoom = { span: Math.max(15, Math.min(curSpan, 40)), center: start + idx };
+    chartZoom = { span: Math.max(15, Math.min(curSpan, 40)),
+                  center: clampChartCenter(start + idx, Math.max(15, Math.min(curSpan, 40)), fullLen) };
     renderTabContent(ticker);
   }
-  // 터치(폰) 지원 - 한 손가락으로 끌면 이동
-  function onTouchStart(e){ if(e.touches.length!==1) return; panStart(e.touches[0].clientX); }
-  function onTouchMove(e){ if(!drag.active || e.touches.length!==1) return; e.preventDefault(); panMove(e.touches[0].clientX); }
-  function onTouchEnd(){ panEnd(); }
+  // 터치(폰) 지원 - 끌면 좌우 이동, 톡 누르면(=거의 안 움직였으면) 그 캔들 정보를 차트 아래에 표시.
+  // 폰에선 캔들 한 개가 2~3px이라 정확히 못 찍으므로, 표시 후 ‹ › 로 한 봉씩 옮기게 해둠.
+  let lastTouchAt = 0, touchStartX = 0, touchStartY = 0, touchMoved = false;
+  function onTouchStart(e){
+    if(e.touches.length!==1) return;
+    touchStartX = e.touches[0].clientX; touchStartY = e.touches[0].clientY; touchMoved = false;
+    panStart(e.touches[0].clientX);
+  }
+  function onTouchMove(e){
+    if(!drag.active || e.touches.length!==1) return;
+    const t = e.touches[0];
+    if(Math.abs(t.clientX-touchStartX) > 8 || Math.abs(t.clientY-touchStartY) > 8) touchMoved = true;
+    if(!touchMoved) return;  // 손가락 미세 떨림으로 화면이 흔들리지 않게
+    e.preventDefault();
+    panMove(t.clientX);
+  }
+  function onTouchEnd(e){
+    panEnd();
+    lastTouchAt = Date.now();
+    if(touchMoved) return;
+    const t = (e.changedTouches && e.changedTouches[0]);
+    if(!t) return;
+    const {start, closes} = currentSlice();
+    pinChartBar(start + chartIndexFromClientX(canvas, t.clientX, closes.length));
+  }
 
   canvas.addEventListener('mousemove', onMove);
   canvas.addEventListener('mousedown', onMouseDown);
