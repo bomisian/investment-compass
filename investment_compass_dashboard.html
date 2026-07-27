@@ -217,6 +217,7 @@
         <div class="bucket-row" id="bucketRow"></div>
         <div class="sub" style="margin-top:10px;">지금 가장 눌린 종목 (눌림목 점수 상위, 매수 관심 이상)</div>
         <div class="rec-list" id="recList"></div>
+        <div id="todayEntryBox" style="margin-top:12px;"></div>
       </div>
       <div>
         <div class="sub" style="margin-bottom:6px;">시장 환경 · SPY 조정만 점수 반영(+1), VIX·F&G는 참고</div>
@@ -616,7 +617,7 @@ const HINTS = {
   drawdownLT: "주가가 최근 1년 최고가보다 얼마나 빠졌는지예요. 깊이 빠질수록 가점(-8%부터 +1, -28% 이하면 +3). 검증 결과 이게 장기 수익률 예측력이 가장 강한 지표였어요.",
   belowMa: "지금 주가가 200일(약 10개월) 평균 아래에 있으면 +1이에요. 평균 아래 = 중기 추세가 눌린 상태라 저가 매수 관점에서 유리했어요.",
   marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
-  fairValue: "'이 회사가 과거 받던 PER을 올해 예상 이익에 적용하면 주가가 얼마일까'를 계산한 참고치예요. 보수/평균/낙관 배수(0.64/1.00/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '적정가보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
+  fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 쉽게 말해 'PER이 안 변하고 실적만 예상대로 늘면 1년 뒤 이 가격'이에요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '적정가보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
   signalHistory: "최근 단타 진입 신호가 언제·얼마에 떴는지, 그 뒤로 지금까지 얼마나 움직였는지예요. 늦게 확인했을 때 '아직 유효한 자리인지'를 판단하려고 넣었어요. 14년치 검증상 신호 당일 대신 다음날 사도 승률 차이가 1.3%p뿐이라, 하루이틀 늦은 건 큰 문제가 아니었어요.",
   sellGuide: "흔히 쓰는 매도 규칙(RSI 과매수, 200일선 이탈, 신고가권)을 대형주 13년치로 검증했더니 전부 '계속 보유'보다 나을 게 없었어요. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요. 그래서 매도는 주가 지표가 아니라 손절 규칙·펀더멘털 훼손으로 판단하라고 안내해요. 오른쪽은 이 점수에서 샀을 때 과거에 실제로 견뎌야 했던 하락폭과 기간이에요.",
   news: "Finnhub이 제공하는 최근 헤드라인이에요. 주가가 갑자기 움직일 때 '왜?'를 빠르게 확인하는 용도예요. 제목만 보여주고 내용의 사실 여부나 중요도는 검증하지 않으니, 판단은 원문을 직접 읽고 하세요.",
@@ -627,6 +628,7 @@ const HINTS = {
   rsi: "최근 14일간 '많이 팔렸는지 많이 샀는지'를 0~100으로 나타내요. 30 밑이면 과매도, 70 위면 과매수로 봐요.",
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
+  tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요.",
   // 02 가치/퀄리티
   fwdPer: "올해 예상 이익 대비 주가가 몇 배인지예요. 낮을수록 이익 대비 싸게 거래되고 있다는 뜻이에요.",
   avgPer3y: "최근 3년간 평균 PER이에요. 지금 PER과 비교해서 지금이 평소보다 싼지 비싼지 판단하는 기준선으로 써요.",
@@ -766,6 +768,39 @@ function technicalVerdict(score){
   if(score>=0.5) return {label:'관심', cls:'sell-wait'};
   return {label:'보류', cls:'watch'};
 }
+
+// 2026-07 14년치 검증에서 나온 '신호 이후 실제로 겪은 것' - 예측이 아니라 과거 실측치.
+// 화면에 그대로 띄워서 "신호 떴는데 왜 빠지지?"를 미리 각오하게 하는 용도.
+const SIGNAL_STATS = {
+  winRate: 66,          // 현실 진입(신호 다음날 시가 매수) 기준 10거래일 승률
+  avgMaxDrop: -2.87,    // 신호 후 10일간 평균 '최대' 낙폭 (일시적으로 여기까진 흔히 빠짐)
+  severeShare: 8.5,     // 그중 -10%를 넘겨 빠진 신호의 비율
+  hold: [[10,66.1],[15,67.4],[20,68.5]],  // 보유기간별 승률
+};
+
+// ============ 오늘이 '새 진입 자리'인가, '지난 신호의 연장'인가 ============
+// scores(오늘 조건 충족 여부)는 조건이 유지되는 동안 매일 켜지지만,
+// 검증된 승률 66%는 entryFlags(쿨다운 5일 적용된 실제 진입 시점)로 계산된 값임.
+// 이 둘을 구분해서 보여주지 않으면 "어제도 매수, 오늘도 매수"로 보여서
+// 이미 지나간 자리를 새 기회로 착각하게 됨(사용자 리포트).
+function entryStatus(ts){
+  if(!ts || !ts.scores || !ts.scores.length) return {kind:'none', since:null, lastEntry:-1, score:null};
+  const i = ts.scores.length - 1;
+  let lastEntry = -1;
+  for(let k=i;k>=0;k--){ if(ts.entryFlags[k]){ lastEntry = k; break; } }
+  const since = lastEntry>=0 ? i - lastEntry : null;
+  const score = ts.scores[i];
+  if(ts.entryFlags[i]) return {kind:'new', since:0, lastEntry, score};
+  if(score!=null && score>=1) return {kind:'cooldown', since, lastEntry, score};
+  if(score===0.5) return {kind:'watch', since, lastEntry, score};
+  return {kind:'none', since, lastEntry, score};
+}
+const ENTRY_BADGE = {
+  new:      {label:'오늘 새 진입 자리', cls:'strong-buy'},
+  cooldown: {label:'지난 신호의 연장', cls:'sell-wait'},
+  watch:    {label:'관심 (아직 신호 아님)', cls:'watch'},
+  none:     {label:'해당 없음', cls:'watch'},
+};
 // 과거 진입신호(뭉침 제거된 entryFlags) 이후 N거래일 뒤 수익률 승률/평균수익률
 // 2026-07 5년치 14종목 백테스트(쿨다운+falling-knife 회피): 10거래일 기준 in-sample 70%, out-of-sample 63% 승률(표본 250건+)
 function backtestSignals(closes, entryFlags, horizons=[5,10,20]){
@@ -881,36 +916,74 @@ const PE_BAND_LOW = 0.64, PE_BAND_HIGH = 1.55;
 // 트레일링 PER 평균이 앵커로 못 쓰이는 경우 감지: 과거 이익이 눌렸던 경기민감주는 avgPe3Y가 폭등함
 // (실측: MU 53배·AMD 160배·AVGO 77배 → 그대로 쓰면 적정가가 +445% 같은 헛값이 나옴).
 // forwardPE와의 비율이 정상 범위를 벗어나거나 절대 수준이 비상식적이면 PER 기준 산출을 포기하고 사유를 표시.
-const PE_ANCHOR_MIN_RATIO = 0.67, PE_ANCHOR_MAX_RATIO = 1.5, PE_ANCHOR_MAX_ABS = 60;
-function computeFairValue(ticker, price, fund, est){
-  const out = {price, per:null, analyst:null, downside:null};
-  const fwdEps = (est && est.trend || []).find(t=>t.period==='0y')?.epsAvg ?? null;
-  const avgPe = typeof fund.avgPe3Y === 'number' ? fund.avgPe3Y : null;
-  const fwdPe = typeof fund.forwardPE === 'number' ? fund.forwardPE : null;
+// PER이 이 수준을 넘으면 EPS가 조금만 흔들려도 적정가가 크게 튐 - 계산은 하되 경고를 붙임
+const PE_FRAGILE_ABS = 80;
 
-  // (1) PER 기준 적정가 - 앵커가 신뢰 가능할 때만
-  if(fwdEps && avgPe && fwdPe && fwdPe>0){
-    const ratio = avgPe / fwdPe;
-    if(avgPe > PE_ANCHOR_MAX_ABS){
-      out.per = {unavailable:`이 종목의 3년 평균 PER(${avgPe.toFixed(0)}배)이 지나치게 높아 기준으로 삼기 어려워요.`};
-    } else if(ratio < PE_ANCHOR_MIN_RATIO || ratio > PE_ANCHOR_MAX_RATIO){
-      out.per = {unavailable:`과거 이익이 크게 출렁여서(3년 평균 PER ${avgPe.toFixed(0)}배 vs 현재 예상 PER ${fwdPe.toFixed(0)}배) 과거 PER을 기준으로 쓰면 값이 왜곡돼요.`};
-    } else {
-      out.per = {
-        low: fwdEps*avgPe*PE_BAND_LOW, mid: fwdEps*avgPe, high: fwdEps*avgPe*PE_BAND_HIGH,
-        eps: fwdEps, anchorPe: avgPe,
-      };
-    }
-  } else if(!fwdEps){
-    out.per = {unavailable:'애널리스트 예상 EPS를 조회하지 못해 계산할 수 없어요.'};
+// ============ 적정주가: '내년 예상 EPS' 기준 (2026-07-27 개편) ============
+// [왜 바꿨나] 이전에는 "과거 3년 평균 PER × 올해 예상 EPS"였는데, 과거에 이익이 눌렸던 종목은
+// 3년 평균 PER이 폭등해서(AVGO 77배·TSLA 210배·AMD 160배·PLTR 270배) 앵커로 쓸 수가 없었음.
+// 실제로 워치리스트 26종목 중 6종목(AAPL·GOOGL·TSM·META·QCOM·ASML)만 산출되고 나머지는 전부 포기 상태였음.
+// 특히 반도체 장비·메모리는 전멸. 사용자 요청("미래 매출·이익 기준의 적정가")과도 맞지 않았음.
+//
+// [새 방식] 적정가 = 내년 예상 EPS × 지금 시장이 이 회사에 매기고 있는 PER
+//   · 앵커 PER = 현재가 ÷ 올해 예상 EPS   (둘 다 Yahoo 기준이라 단위가 섞이지 않음.
+//     Finnhub의 forwardPE는 EPS 기준연도가 달라 Yahoo EPS와 섞으면 안 됨 - 실측으로 확인)
+//   · 즉 mid = 현재가 × (내년EPS ÷ 올해EPS) = "PER이 그대로면 실적 성장분만큼 오른 가격"
+//   · low/high = mid × 0.64 / 1.55 (PER이 과거 하위20%/상위20% 수준으로 눌리거나 확장될 때)
+// 이 방식은 올해·내년 EPS만 있으면 되므로 워치리스트 개별종목 24개 전부 산출됨(ETF는 EPS가 없어 제외).
+//
+// [한계 - UI에도 그대로 씀]
+//   · "지금 시장이 매기는 PER이 적정하다"는 가정이 들어감. 시장 전체가 과열이면 이 값도 과열됨.
+//   · 애널리스트 EPS 추정치 자체가 낙관 편향이 있음.
+//   · 그리고 아래 경고대로, '싸다'는 매수 신호가 아님(검증상 오히려 역방향).
+function computeFairValue(ticker, price, fund, est){
+  const out = {price, fwd:null, analyst:null, downside:null};
+  const trend = (est && est.trend) || [];
+  const eps0 = trend.find(t=>t.period==='0y')?.epsAvg ?? null;   // 올해 예상 EPS
+  const eps1 = trend.find(t=>t.period==='+1y')?.epsAvg ?? null;  // 내년 예상 EPS
+  const nAnalysts = trend.find(t=>t.period==='+1y')?.analysts ?? null;
+
+  // (1) 내년 EPS 기준 적정가
+  if(!price){
+    out.fwd = {unavailable:'현재가를 조회하지 못해 계산할 수 없어요.'};
+  } else if(!(eps0>0) || !(eps1>0)){
+    out.fwd = {unavailable: (eps0!=null||eps1!=null)
+      ? '예상 EPS가 적자(마이너스)라 PER 방식으로는 계산할 수 없어요.'
+      : '애널리스트 예상 EPS를 조회하지 못했어요(ETF는 원래 없어요).'};
+  } else {
+    const anchorPe = price / eps0;          // 지금 시장이 매기는 PER (올해 예상 이익 기준)
+    const pe1y = price / eps1;              // 주가가 그대로일 때 내년 PER - "가만히 있어도 싸지는가"
+    const growth = eps1/eps0 - 1;
+    const mid = eps1 * anchorPe;
+    const cautions = [];
+    if(growth < 0) cautions.push(`내년 EPS가 <b>올해보다 ${Math.abs(growth*100).toFixed(0)}% 줄어들 것으로</b> 예상돼요 - 실적이 꺾이는 국면이라 적정가도 현재가보다 낮게 나와요.`);
+    // 이익이 급증하는 국면에서는 '지금 PER 유지' 가정이 과하게 낙관적임.
+    // 특히 메모리·반도체 같은 경기민감 업종은 이익이 피크일 때 PER이 가장 낮아지는 게 정상이라,
+    // 성장률을 그대로 곱하면 적정가가 비현실적으로 커짐(실측: SNDK +219%, MU +109%, WDC +86%).
+    if(growth > 0.5) cautions.push(`내년 이익이 <b>+${(growth*100).toFixed(0)}%</b> 급증할 것으로 예상돼요. 이런 국면에선 시장이 <b>PER을 오히려 낮춰서</b> 반응하는 경우가 많아요 — 메모리·반도체처럼 사이클을 타는 업종은 <b>이익이 가장 좋을 때 PER이 가장 낮아지거든요</b>. "PER 그대로" 가정이 과하게 낙관적일 수 있으니 위 <b>보수적</b> 값을 더 무겁게 보세요.`);
+    if(anchorPe > PE_FRAGILE_ABS) cautions.push(`현재 PER이 <b>${anchorPe.toFixed(0)}배</b>로 매우 높아요. 이익이 조금만 어긋나도 적정가가 크게 흔들리니 참고만 하세요.`);
+    if(nAnalysts!=null && nAnalysts < 15) cautions.push(`추정에 참여한 애널리스트가 <b>${nAnalysts}명</b>뿐이라 컨센서스가 흔들릴 수 있어요.`);
+    out.fwd = {
+      low: mid*PE_BAND_LOW, mid, high: mid*PE_BAND_HIGH,
+      eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions,
+    };
   }
 
-  // (2) 애널리스트 컨센서스 (외부 기준, 낙관 편향 있음)
+  // (2) 애널리스트 컨센서스 + '그 목표가에 깔려 있는 PER' 분해.
+  // 목표가 상승률을 (실적 성장 기여) × (PER 변화 기여)로 쪼개면, 그 목표가가 실적으로 설명되는지
+  // 아니면 멀티플 확장을 기대한 것인지 구분됨 - "애널리스트 목표가는 좀 높은 것 같다"에 대한 답.
   if(est && est.targetMean!=null){
     out.analyst = {low:est.targetLow, mid:est.targetMean, high:est.targetHigh, n:est.analystCount};
+    if(price>0 && eps0>0 && eps1>0){
+      const impliedPe = est.targetMean / eps1;         // 목표가가 깔고 있는 내년 기준 PER
+      const totalUp = est.targetMean/price - 1;        // 목표가까지 총 상승률
+      const fromEps = eps1/eps0 - 1;                   // 그중 실적 성장으로 설명되는 부분
+      const fromPe  = (1+totalUp)/(1+fromEps) - 1;     // 나머지 = PER 확장/축소 기대
+      Object.assign(out.analyst, {impliedPe, totalUp, fromEps, fromPe, anchorPe: price/eps0});
+    }
   }
 
-  // (3) 하방 시나리오 - 밸류에이션이 과거 하위 20% 수준으로 압축될 때. 앵커 신뢰도와 무관하게 항상 산출 가능.
+  // (3) 하방 시나리오 - 밸류에이션이 과거 하위 20% 수준으로 압축될 때. 항상 산출 가능.
   if(price) out.downside = price * PE_BAND_LOW;
   return out;
 }
@@ -986,6 +1059,7 @@ async function analyzeTicker(ticker, env){
   const techSeries = computeTechnicalSeries(closes, volumes, ma200arr);
   const techScore = last(techSeries.scores);
   const techVerdict = techScore!=null ? technicalVerdict(techScore) : {label:'-', cls:'watch'};
+  const entryStat = entryStatus(techSeries);   // 오늘이 '새 진입 자리'인지 '지난 신호의 연장'인지
 
   const fairValue = computeFairValue(ticker, price, fund, est);
   const risk = computeRiskProfile(closes, dates);
@@ -999,7 +1073,7 @@ async function analyzeTicker(ticker, env){
     epsGrowth: fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y ?? null,
     debtEquity: fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'] ?? null,
     score: breakdown.total, breakdown, verdict,
-    techScore, techVerdict, fairValue, risk,
+    techScore, techVerdict, entryStat, fairValue, risk,
     series: {opens, highs, lows, closes, dates, ma20: ma20arr, rsiArr: rsi(closes), techSeries, fairValue},
   };
 }
@@ -1090,6 +1164,23 @@ function renderSummary(){
     ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점</span>`).join('')
     : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
 
+  // ---- 오늘의 단타 진입 자리 (26종목을 다 열어보지 않아도 되게 첫 화면에 모아줌) ----
+  // '새 진입 자리'(쿨다운을 넘긴 첫날)만 추림 - 조건만 유지되는 '연장'은 따로 세어서 숫자만 알려줌.
+  const fresh = scored.filter(r=>r.entryStat && r.entryStat.kind==='new');
+  const cont  = scored.filter(r=>r.entryStat && r.entryStat.kind==='cooldown');
+  const box = document.getElementById('todayEntryBox');
+  if(box){
+    const chips = fresh
+      .sort((a,b)=>(b.techScore||0)-(a.techScore||0))
+      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker}${r.techScore>=2?' 강한':''}</span>`).join('');
+    box.innerHTML = `
+      <div class="sub" style="margin-bottom:4px;">오늘 새로 난 단타 진입 자리 <span style="font-weight:400;">(쿨다운을 넘긴 첫날만 · 검증 승률 66%의 기준)</span></div>
+      ${fresh.length
+        ? `<div class="rec-list">${chips}</div>`
+        : `<span class="sub">오늘은 새로 난 진입 자리가 없어요.</span>`}
+      ${cont.length ? `<div class="sub" style="margin-top:6px;">조건은 유지 중이지만 <b>지난 신호의 연장</b>인 종목 ${cont.length}개(${cont.map(r=>r.ticker).join(', ')}) — 새 진입 자리는 아니에요.</div>` : ''}`;
+  }
+
   const env = marketEnv;
   const envTable = document.getElementById('envTable');
   const spyPt = scoreMarketDip(env.spyDrawdownPct);
@@ -1142,7 +1233,12 @@ function renderTable(){
       <td class="name">${r.ticker}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span></td>
-      <td><span class="badge b-${r.techVerdict.cls}">${r.techVerdict.label}</span></td>
+      <td><span class="badge b-${r.techVerdict.cls}">${r.techVerdict.label}</span>${
+        r.entryStat && r.entryStat.kind==='new'
+          ? '<span title="오늘 새로 진입 자리가 난 종목(쿨다운을 넘긴 첫날)" style="color:var(--green);font-weight:800;margin-left:4px;">★</span>'
+          : (r.entryStat && r.entryStat.kind==='cooldown'
+            ? `<span title="${r.entryStat.since}거래일 전 신호의 연장이라 새 진입 자리는 아니에요" class="sub" style="margin-left:4px;">연장</span>` : '')
+      }</td>
       <td class="${chCls}">${r.drawdownPct.toFixed(1)}%</td>
       <td>$${r.price.toFixed(2)}</td>
       <td>${r.forwardPE!=null?r.forwardPE.toFixed(1):'-'}</td>
@@ -1310,6 +1406,7 @@ function tabJudgement(r){
       </div>
     </div>
     <div id="techSection">${techViewOpen ? renderTechSection(r) : ''}</div>
+    ${renderTradePlan(r)}
     ${renderSignalHistory(r)}
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
@@ -1339,37 +1436,68 @@ function renderFairValueSection(r){
   const price = r.price;
   const rel = v => { const p=(v-price)/price*100; return `<span style="color:${p>=0?'var(--up)':'var(--down)'}">${p>=0?'+':''}${p.toFixed(0)}%</span>`; };
 
+  const w = fv.fwd;
   let perBlock;
-  if(fv.per && fv.per.low!=null){
+  if(w && w.low!=null){
+    const g = w.growth*100;
     perBlock = `
-      <div class="sub" style="margin-bottom:2px;">이 회사가 <b>과거 받던 PER(${fv.per.anchorPe.toFixed(1)}배)</b>을 올해 예상 EPS($${fv.per.eps.toFixed(2)})에 적용하면</div>
-      ${pricePositionBar(price, fv.per.low, fv.per.mid, fv.per.high)}
-      <div class="fund-row"><span>보수적 (PER 하위 20% 수준)</span><span class="v">$${fv.per.low.toFixed(0)} · ${rel(fv.per.low)}</span></div>
-      <div class="fund-row"><span><b>평균 (과거 평균 PER)</b></span><span class="v"><b>$${fv.per.mid.toFixed(0)} · ${rel(fv.per.mid)}</b></span></div>
-      <div class="fund-row"><span>낙관적 (PER 상위 20% 수준)</span><span class="v">$${fv.per.high.toFixed(0)} · ${rel(fv.per.high)}</span></div>`;
+      <div class="sub" style="margin-bottom:2px;">
+        내년 예상 EPS <b>$${w.eps1.toFixed(2)}</b>(올해 $${w.eps0.toFixed(2)} 대비
+        <b style="color:${g>=0?'var(--up)':'var(--down)'}">${g>=0?'+':''}${g.toFixed(0)}%</b>)에
+        <b>지금 시장이 매기는 PER ${w.anchorPe.toFixed(1)}배</b>를 그대로 적용하면
+      </div>
+      ${pricePositionBar(price, w.low, w.mid, w.high)}
+      <div class="fund-row"><span>보수적 (PER이 하위 20% 수준으로 눌리면)</span><span class="v">$${w.low.toFixed(0)} · ${rel(w.low)}</span></div>
+      <div class="fund-row"><span><b>기준 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
+      <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
+      <div class="sub" style="margin-top:8px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
+        주가가 <b>지금 그대로여도</b> 내년 실적이 예상대로 나오면 PER은
+        <b>${w.anchorPe.toFixed(1)}배 → ${w.pe1y.toFixed(1)}배</b>가 돼요${w.growth>=0?' (가만히 있어도 그만큼 싸지는 셈)':' (이익이 줄어 오히려 비싸짐)'}.
+      </div>
+      ${w.cautions.map(c=>`<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ ${c}</div>`).join('')}`;
   } else {
-    perBlock = `<div class="sub">${fv.per?.unavailable || '계산에 필요한 데이터가 부족해요.'}<br><span style="color:var(--sub)">억지로 숫자를 만들면 크게 틀리기 때문에 일부러 표시하지 않아요.</span></div>`;
+    perBlock = `<div class="sub">${w?.unavailable || '계산에 필요한 데이터가 부족해요.'}<br><span style="color:var(--sub)">억지로 숫자를 만들면 크게 틀리기 때문에 일부러 표시하지 않아요.</span></div>`;
   }
 
   const a = fv.analyst;
+  // 목표가를 '실적 성장 기여'와 'PER 확장 기대'로 쪼개서, 그 목표가가 실적으로 설명되는지 보여줌
+  let breakdown = '';
+  if(a && a.impliedPe!=null){
+    const pePart = a.fromPe*100;
+    const verdict = pePart > 15
+      ? {c:'var(--warn)', t:`목표가의 상당 부분이 <b>PER이 지금보다 ${pePart.toFixed(0)}% 더 높아진다</b>는 기대예요 — 실적만으로는 설명되지 않는 부분이에요.`}
+      : (pePart < -15
+        ? {c:'var(--sub)', t:`애널리스트는 오히려 <b>PER이 지금보다 ${Math.abs(pePart).toFixed(0)}% 낮아질 것</b>으로 보고 있어요. 목표가가 실적 성장보다 보수적이에요.`}
+        : {c:'var(--green)', t:`목표가가 <b>거의 실적 성장만으로 설명</b>돼요(PER 변화 기대 ${pePart>=0?'+':''}${pePart.toFixed(0)}%). 무리한 가정이 적은 편이에요.`});
+    breakdown = `
+      <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+        <b>이 목표가에 깔려 있는 가정</b><br>
+        목표가까지 ${a.totalUp>=0?'+':''}${(a.totalUp*100).toFixed(0)}% =
+        실적 성장 <b>${a.fromEps>=0?'+':''}${(a.fromEps*100).toFixed(0)}%</b> ×
+        PER 변화 <b>${a.fromPe>=0?'+':''}${(a.fromPe*100).toFixed(0)}%</b><br>
+        <span style="color:var(--sub)">목표가가 깔고 있는 내년 PER ${a.impliedPe.toFixed(1)}배 (지금 ${a.anchorPe.toFixed(1)}배)</span><br>
+        <span style="color:${verdict.c};">${verdict.t}</span>
+      </div>`;
+  }
   const analystBlock = a ? `
       <div class="sub" style="margin-bottom:2px;">애널리스트 ${a.n||'-'}명의 12개월 목표주가</div>
       ${(a.low!=null&&a.high!=null)?pricePositionBar(price, a.low, a.mid, a.high):''}
       <div class="fund-row"><span>목표 하단</span><span class="v">${a.low!=null?'$'+a.low.toFixed(0)+' · '+rel(a.low):'-'}</span></div>
       <div class="fund-row"><span><b>목표 평균</b></span><span class="v"><b>${'$'+a.mid.toFixed(0)+' · '+rel(a.mid)}</b></span></div>
-      <div class="fund-row"><span>목표 상단</span><span class="v">${a.high!=null?'$'+a.high.toFixed(0)+' · '+rel(a.high):'-'}</span></div>`
+      <div class="fund-row"><span>목표 상단</span><span class="v">${a.high!=null?'$'+a.high.toFixed(0)+' · '+rel(a.high):'-'}</span></div>
+      ${breakdown}`
     : `<div class="sub">애널리스트 목표주가를 조회하지 못했어요.</div>`;
 
   const perNow = [
-    r.forwardPE!=null ? `예상 PER <b>${r.forwardPE.toFixed(1)}배</b>` : null,
-    r.peTTM!=null ? `현재 PER ${r.peTTM.toFixed(1)}배` : null,
-    r.avgPe3Y!=null ? `3년평균 ${r.avgPe3Y.toFixed(1)}배` : null,
+    w && w.anchorPe!=null ? `올해 실적 기준 <b>${w.anchorPe.toFixed(1)}배</b>` : null,
+    w && w.pe1y!=null ? `내년 실적 기준 ${w.pe1y.toFixed(1)}배` : null,
+    r.peTTM!=null ? `지난 12개월 실적 기준 ${r.peTTM.toFixed(1)}배` : null,
   ].filter(Boolean).join(' · ');
 
   return `
     <div class="chart-label" style="margin-top:18px;">적정주가 참고치 ${hintIcon('fairValue')}</div>
     <div class="fund-grid">
-      <div class="fund-col"><h3>밸류에이션 기준</h3>${perBlock}</div>
+      <div class="fund-col"><h3>실적 기준 (내년 예상 EPS)</h3>${perBlock}</div>
       <div class="fund-col"><h3>애널리스트 목표가</h3>${analystBlock}</div>
     </div>
     <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">현재 PER 요약 &nbsp;·&nbsp; ${perNow||'조회 불가'}</div>
@@ -1377,6 +1505,81 @@ function renderFairValueSection(r){
       <b>하방 시나리오</b> — 이익은 그대로인데 <b>밸류에이션만 과거 하위 20% 수준으로 눌리면</b> 약 <b>$${fv.downside.toFixed(0)}</b> (${rel(fv.downside)}). 분할매수 계획을 세울 때 "여기까지는 빠질 수 있다"의 기준으로 쓰세요.</div>` : ''}
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
       ⚠️ <b>"싸다"를 매수 신호로 쓰지 마세요.</b> 대형주 13종목 13년치로 직접 검증했더니, 적정가 대비 <b>매우 저평가된 종목의 이후 12개월 성적이 오히려 더 나빴어요</b>(초과수익 +19%·승률 58% vs 매우 고평가 +23%·승률 71%). 낮은 PER은 이익이 꺾일 걸 시장이 미리 반영한 경우가 많거든요(밸류 트랩). 이 숫자는 <b>"지금 얼마를 지불하고 있는지 눈금"</b>과 <b>하방 가늠</b>으로만 쓰고, 살지 말지는 위 눌림목 점수와 02~05 탭 펀더멘털로 판단하세요.
+    </div>`;
+}
+
+// ---- 단타 진입 카드: '지금 사야 하나'에 숫자로 답하는 부분 (2026-07-27 추가) ----
+// 사용자 요청 배경: "매수 신호라고 떠도 언제 사야 할지 모르겠다. 어제도 좋고 오늘도 좋은데 차트는 계속 내린다."
+//  (1) 오늘이 '새 진입 자리'인지 '지난 신호의 연장'인지 구분     → entryStatus()
+//  (2) 신호 뒤 실제로 얼마나 더 빠졌는지(각오할 범위)를 숫자로   → SIGNAL_STATS
+//  (3) 진입가·하락 참고선·보유기간·기대수익을 숫자로            → 아래 계산
+function renderTradePlan(r){
+  const ts = r.series && r.series.techSeries;
+  if(!ts || !ts.scores || !ts.scores.length) return '';
+  const es = entryStatus(ts);
+  const badge = ENTRY_BADGE[es.kind];
+  const closes = r.series.closes, dates = r.series.dates;
+  const price = r.price;
+  const bt = backtestSignals(closes, ts.entryFlags, [10,15,20]);
+  const st10 = bt.horizonStats[10];
+  const enoughSample = st10.n >= 8 && st10.winRate!=null;
+
+  // 오늘 상태 설명 - 여기서 "왜 매일 매수라고 뜨는지"를 풀어줌
+  let stateNote;
+  if(es.kind==='new'){
+    stateNote = `오늘 조건이 충족됐고, 직전 신호로부터 <b>${SIGNAL_COOLDOWN}거래일을 넘겼기 때문에 새 진입 자리로 인정</b>된 날이에요. 검증된 승률 66%는 바로 이런 날들을 모아서 계산한 거예요.`;
+  } else if(es.kind==='cooldown'){
+    stateNote = `오늘도 조건 자체는 충족하지만, <b>${es.since}거래일 전(${dates[es.lastEntry]})에 이미 진입 자리가 나왔어요.</b> 같은 눌림목에서 신호가 며칠씩 이어지는 것뿐이라 <b>새 기회가 아니에요</b> — "어제도 매수, 오늘도 매수"로 보이는 게 이 경우예요. 검증 통계는 첫날 기준이라 지금 들어가면 그 통계와 다를 수 있어요.`;
+  } else if(es.kind==='watch'){
+    stateNote = `조건에 가까워졌지만 아직 <b>신호는 아니에요</b>. 하락추세에서 과매도인 경우엔 <b>당일 반등이 확인돼야</b> 신호로 인정해요(떨어지는 칼날 회피).`;
+  } else {
+    stateNote = `지금은 눌림목 구간이 아니에요. ${es.lastEntry>=0 ? `마지막 진입 자리는 <b>${es.since}거래일 전(${dates[es.lastEntry]})</b>이었어요.` : '조회된 기간에는 진입 자리가 없었어요.'}`;
+  }
+
+  // 진입 계획 숫자 - 기준가는 '지금 산다면' 현재가
+  const drop1 = price * (1 + SIGNAL_STATS.avgMaxDrop/100);
+  const drop2 = price * 0.90;
+  const planRows = `
+    <div class="fund-row"><span>지금 산다면 진입가</span><span class="v"><b>$${price.toFixed(2)}</b></span></div>
+    <div class="fund-row"><span>흔히 겪는 하락 (평균 최대낙폭 ${SIGNAL_STATS.avgMaxDrop}%)</span><span class="v">$${drop1.toFixed(2)}</span></div>
+    <div class="fund-row"><span>여기 아래면 과거 신호의 하위 ${SIGNAL_STATS.severeShare}%</span><span class="v" style="color:var(--down)">$${drop2.toFixed(2)} (-10%)</span></div>
+    <div class="fund-row"><span>권장 보유기간</span><span class="v">10~20거래일 (승률 ${SIGNAL_STATS.hold.map(([d,w])=>`${d}일 ${w}%`).join(' · ')})</span></div>`;
+
+  // 이 종목의 실제 과거 성적 (라이브 계산 - 조회된 2년치 표본이라 참고용)
+  const perfRows = enoughSample
+    ? [10,15,20].map(h=>{
+        const st = bt.horizonStats[h];
+        if(!st || !st.n) return '';
+        return `<div class="fund-row"><span>${h}거래일 보유</span><span class="v">승률 ${st.winRate.toFixed(0)}% · 평균 ${st.avgRet>=0?'+':''}${st.avgRet.toFixed(1)}%</span></div>`;
+      }).join('')
+    : `<div class="sub">이 종목은 조회된 기간의 진입 신호가 ${st10.n}건뿐이라 종목별 성적을 내기엔 표본이 부족해요.</div>`;
+
+  // 종목 적합도 - 14년치 검증의 핵심 발견(장기 성장률 낮은 종목에선 눌림목 매수가 잘 안 통함)
+  let fitNote = '';
+  if(enoughSample && st10.winRate < 55){
+    fitNote = `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
+      ⚠️ 이 종목은 과거 이 신호의 성적이 <b>${st10.winRate.toFixed(0)}%</b>로 낮은 편이에요. 14년치 검증에서 <b>장기 성장이 약한 종목은 눌림목 매수 승률이 50%대</b>였어요 — 눌림목이 그냥 하락의 연속인 경우가 많았거든요. <b>비중을 줄이거나 다른 종목을 보는 게 나아요.</b></div>`;
+  }
+
+  const badgeBg = es.kind==='new' ? 'var(--green-bg)' : (es.kind==='cooldown' ? 'var(--warn-bg)' : 'var(--panel-2)');
+  const badgeColor = es.kind==='new' ? '#0a6b45' : (es.kind==='cooldown' ? '#876000' : '#4b5157');
+
+  return `
+    <div class="chart-label" style="margin-top:18px;">단타 진입 판단 ${hintIcon('tradePlan')}</div>
+    <div class="comment-box" style="background:${badgeBg};color:${badgeColor};">
+      <span class="badge b-${badge.cls}" style="margin-right:6px;">${badge.label}</span> ${stateNote}
+    </div>
+    <div class="fund-grid" style="margin-top:10px;">
+      <div class="fund-col"><h3>${(es.kind==='new'||es.kind==='cooldown') ? '지금 들어간다면 (숫자)' : '참고: 지금 사는 경우의 기준선 <span style="font-weight:400;color:var(--sub);">(신호가 뜬 상태는 아니에요)</span>'}</h3>${planRows}
+        <div class="sub" style="margin-top:8px;">검증은 <b>손절 없이 10~20일 보유</b>한 기준이에요. 위 -10%는 손절선이 아니라 "여기까지 빠지면 과거 신호 중 나빴던 8.5%에 해당한다"는 <b>참고선</b>이에요.</div>
+      </div>
+      <div class="fund-col"><h3>이 종목의 과거 성적 ${hintIcon('backtest')}</h3>${perfRows}
+        <div class="sub" style="margin-top:8px;">조회된 2년치 ${st10.n}건 기준의 <b>라이브 계산</b>이라 표본이 작아요. 공식 검증치(14년·14종목)가 더 믿을 만해요.</div>
+      </div>
+    </div>
+    ${fitNote}
+    <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
+      <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
     </div>`;
 }
 
@@ -1862,7 +2065,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
   const fv = s.fairValue;
   if(fv){
     const lines = [];
-    if(fv.per && fv.per.mid!=null) lines.push({v:fv.per.mid, color:'#ea5414', label:'적정'});
+    if(fv.fwd && fv.fwd.mid!=null) lines.push({v:fv.fwd.mid, color:'#ea5414', label:'적정'});
     if(fv.analyst && fv.analyst.mid!=null) lines.push({v:fv.analyst.mid, color:'#3b6fd8', label:'목표'});
     if(fv.downside!=null) lines.push({v:fv.downside, color:'#8b95a1', label:'하방'});
     ctx.save();
