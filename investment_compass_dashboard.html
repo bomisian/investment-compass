@@ -230,7 +230,7 @@
       </select>
       <span class="sub">헤더 클릭으로 정렬</span>
     </div>
-    <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~40) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 10일 승률 67% 검증 규칙(단타용)</div>
+    <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)</div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1020px;">
       <thead>
@@ -238,7 +238,7 @@
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
           <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
-          <th data-key="techScore" title="우상향 눌림목(RSI 30~40) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
+          <th data-key="techScore" title="우상향 눌림목(RSI 30~38) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
           <th data-key="drawdownPct" title="최근 1년 최고가 대비 지금 얼마나 빠졌는지">고점대비 하락</th>
           <th data-key="price">현재가</th>
           <th data-key="forwardPE" title="올해 예상 이익 대비 주가 배수 - 낮을수록 저평가">FWD PER</th>
@@ -603,6 +603,7 @@ const HINTS = {
   belowMa: "지금 주가가 200일(약 10개월) 평균 아래에 있으면 +1이에요. 평균 아래 = 중기 추세가 눌린 상태라 저가 매수 관점에서 유리했어요.",
   marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
   fairValue: "'이 회사가 과거 받던 PER을 올해 예상 이익에 적용하면 주가가 얼마일까'를 계산한 참고치예요. 보수/평균/낙관 배수(0.64/1.00/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '적정가보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
+  signalHistory: "최근 단타 진입 신호가 언제·얼마에 떴는지, 그 뒤로 지금까지 얼마나 움직였는지예요. 늦게 확인했을 때 '아직 유효한 자리인지'를 판단하려고 넣었어요. 14년치 검증상 신호 당일 대신 다음날 사도 승률 차이가 1.3%p뿐이라, 하루이틀 늦은 건 큰 문제가 아니었어요.",
   sellGuide: "흔히 쓰는 매도 규칙(RSI 과매수, 200일선 이탈, 신고가권)을 대형주 13년치로 검증했더니 전부 '계속 보유'보다 나을 게 없었어요. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요. 그래서 매도는 주가 지표가 아니라 손절 규칙·펀더멘털 훼손으로 판단하라고 안내해요. 오른쪽은 이 점수에서 샀을 때 과거에 실제로 견뎌야 했던 하락폭과 기간이에요.",
   news: "Finnhub이 제공하는 최근 헤드라인이에요. 주가가 갑자기 움직일 때 '왜?'를 빠르게 확인하는 용도예요. 제목만 보여주고 내용의 사실 여부나 중요도는 검증하지 않으니, 판단은 원문을 직접 읽고 하세요.",
   riskProfile: "이 종목이 과거에 실제로 얼마나 빠졌고, 저점에서 전고점까지 회복하는 데 얼마나 걸렸는지예요. 예측이 아니라 이미 일어난 사실이에요. 분할매수(-10%/-19%/-27%) 계획이 이 종목에 현실적인지, 그리고 물렸을 때 얼마나 기다릴 각오를 해야 하는지 가늠하는 용도예요.",
@@ -698,6 +699,9 @@ function bollinger(closes, period=20, mult=2){
 // 신호 후 이 거래일 수만큼은 같은 신호를 다시 찍지 않음(뭉침 제거). 2026-07 검증: 이걸 넣으면
 // MSFT 2024-07의 11일 연속 신호가 2~3건으로 줄고, 승률은 64.8%→67%대로 오히려 소폭 개선됨.
 const SIGNAL_COOLDOWN = 5;
+// 우상향 눌림목으로 인정할 RSI 상단. 2026-07 14년치(2013~2026, 빅테크14+QQQ) 재검증에서 40→38이
+// 워크포워드 4개 구간 모두에서 더 좋았음(10일 승률 64.3%→66.1%, 신호 후 최대낙폭 -3.01%→-2.87%).
+const RSI_PULLBACK_HI = 38;
 
 // 전체 시계열에 대해 매일의 단기 점수(0~2)를 계산 (백테스트/과거 신호 마커용)
 // 0=보류, 0.5=관심, 1=매수 신호, 2=강한 매수 신호(RSI<30 + 거래량 급증)
@@ -726,7 +730,7 @@ function computeTechnicalSeries(closes, volumes, ma200){
       } else {
         scores[i] = 0.5; // 하락추세 과매도인데 아직 반등 전 - falling knife 회피, '관심'으로만
       }
-    } else if(rsiVal<40){
+    } else if(rsiVal<RSI_PULLBACK_HI){
       scores[i] = uptrend ? 1 : 0.5; // 우상향 중 눌림목은 '매수 신호', 하락추세면 '관심'
     } else {
       scores[i] = 0;
@@ -1290,6 +1294,7 @@ function tabJudgement(r){
       </div>
     </div>
     <div id="techSection">${techViewOpen ? renderTechSection(r) : ''}</div>
+    ${renderSignalHistory(r)}
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
     ${renderSellGuide(r)}
@@ -1357,6 +1362,88 @@ function renderFairValueSection(r){
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
       ⚠️ <b>"싸다"를 매수 신호로 쓰지 마세요.</b> 대형주 13종목 13년치로 직접 검증했더니, 적정가 대비 <b>매우 저평가된 종목의 이후 12개월 성적이 오히려 더 나빴어요</b>(초과수익 +19%·승률 58% vs 매우 고평가 +23%·승률 71%). 낮은 PER은 이익이 꺾일 걸 시장이 미리 반영한 경우가 많거든요(밸류 트랩). 이 숫자는 <b>"지금 얼마를 지불하고 있는지 눈금"</b>과 <b>하방 가늠</b>으로만 쓰고, 살지 말지는 위 눌림목 점수와 02~05 탭 펀더멘털로 판단하세요.
     </div>`;
+}
+
+// ---- 최근 단타 신호 이력 (늦게 확인해도 판단할 수 있게) ----
+// 2026-07 14년치 재검증에서 나온 실전 지침을 같이 보여줌:
+//  · 신호 당일 종가(65.6%)와 다음날 시가 매수(64.3%)의 차이가 1.3%p뿐 → 하루 늦어도 크게 손해 아님
+//  · 보유기간은 10일(66.1%)보다 15~20일(67.4~68.5%)이 더 좋았음
+const SIGNAL_HISTORY_MAX = 6;
+function renderSignalHistory(r){
+  const ts = r.series && r.series.techSeries;
+  if(!ts || !ts.entryFlags) return '';
+  const closes = r.series.closes, dates = r.series.dates, ma200 = ts.ma200;
+  const idxs = [];
+  for(let i=0;i<ts.entryFlags.length;i++) if(ts.entryFlags[i]) idxs.push(i);
+  if(!idxs.length) return `<div class="chart-label" style="margin-top:18px;">최근 단타 신호 ${hintIcon('signalHistory')}</div>
+    <div class="sub">조회된 기간에는 진입 신호가 없었어요.</div>`;
+  const last = closes.length-1;
+  const rows = idxs.slice(-SIGNAL_HISTORY_MAX).reverse().map(i=>{
+    const ago = last - i;                       // 신호 이후 경과 거래일
+    const since = (closes[last]-closes[i])/closes[i]*100;  // 신호가 이후 지금까지
+    const strong = ts.scores[i]>=2;
+    const up = ma200 && ma200[i]!=null && closes[i]>ma200[i];
+    const rv = ts.rsiArr[i];
+    const why = rv==null ? '-' : (rv<30 ? `과매도 RSI ${rv.toFixed(0)}${up?'':' + 당일반등'}` : `우상향 눌림목 RSI ${rv.toFixed(0)}`);
+    // 아직 평가 기간(10거래일)이 안 지난 신호는 '진행 중'으로 표시
+    const fresh = ago < 10;
+    return `<div class="fund-row" style="align-items:flex-start;">
+      <span style="flex:1;">
+        <b>${dates[i]}</b> · $${closes[i].toFixed(2)}
+        ${strong?'<span class="badge b-strong-buy" style="margin-left:4px;">강한</span>':''}
+        <span class="sub" style="display:block;">${why} · ${up?'우상향':'하락추세'} · ${ago===0?'오늘':`${ago}거래일 전`}</span>
+      </span>
+      <span class="v" style="text-align:right;white-space:nowrap;color:${since>=0?'var(--up)':'var(--down)'}">
+        ${since>=0?'+':''}${since.toFixed(1)}%
+        <span class="sub" style="display:block;font-weight:400;">${fresh?'진행 중':'신호가 대비'}</span>
+      </span>
+    </div>`;
+  }).join('');
+  const lastIdx = idxs[idxs.length-1];
+  const agoLast = last - lastIdx;
+  const stillValid = agoLast <= 10;
+  return `
+    <div class="chart-label" style="margin-top:18px;">최근 단타 신호 ${hintIcon('signalHistory')}</div>
+    ${rows}
+    <div class="comment-box" style="background:${stillValid?'var(--up-bg)':'var(--panel-2)'};color:${stillValid?'#a8322c':'#4b5157'};margin-top:8px;">
+      ${stillValid
+        ? `가장 최근 신호가 <b>${agoLast===0?'오늘':`${agoLast}거래일 전`}</b>이에요. 검증상 <b>신호 당일에 못 사고 다음날 사도 승률 차이는 1.3%p뿐</b>이었으니(65.6%→64.3%) 하루이틀 늦은 건 큰 문제가 아니에요. 다만 이미 신호가 대비 많이 올랐다면 눌림목이 아니게 된 것이니 다음 신호를 기다리는 편이 나아요.`
+        : `가장 최근 신호는 <b>${agoLast}거래일 전</b>이라 단타 관점에선 이미 지난 자리예요. 새 신호를 기다리거나, 위 장기 눌림목 점수로 판단하세요.`}
+      <br><span class="sub">보유기간 참고: 14년치 검증에서 <b>10일 보유 66.1% → 15일 67.4% → 20일 68.5%</b>로, 조금 더 들고 있는 쪽이 승률이 높았어요.</span>
+    </div>
+    ${signalEventCheck(r, stillValid)}`;
+}
+
+// ---- 신호 × 이벤트/뉴스 교차 점검 ----
+// ⚠️ 정직하게: 과거 실적일·뉴스 이력은 Finnhub 무료 티어로 조회가 안 돼서(2015년 조회 0건, 최근 4분기만)
+// "뉴스 좋으면 매수" 같은 규칙은 백테스트로 검증할 수가 없음. 그래서 여기서는 뉴스로 신호를 바꾸지 않고,
+// (1) 검증 가능한 사실(실적 발표 전후 변동성이 크다)로 '지금 진입해도 되는지' 주의만 주고
+// (2) 최근 헤드라인을 그대로 보여줘서 판단은 사용자가 하도록 함.
+function signalEventCheck(r, signalFresh){
+  if(!signalFresh) return '';
+  const e = newsEntry(r.ticker);
+  const ne = e && e.nextEarnings;
+  const parts = [];
+  if(ne && ne.date){
+    const days = Math.round((new Date(ne.date+'T00:00:00') - new Date(new Date().toDateString()))/86400000);
+    if(days >= 0 && days <= 10){
+      parts.push(`<b>신호는 살아있지만 실적 발표가 ${days===0?'오늘':`D-${days}`}(${esc(ne.date)})이에요.</b> 발표 직후엔 하루 ±10% 움직임이 흔해서, 이 단타 신호의 통계(10일 승률 66%)보다 <b>실적 결과가 주가를 훨씬 크게 좌우</b>해요. 지금 들어간다면 비중을 줄이거나 발표 뒤로 미루는 걸 권해요.`);
+    }
+  }
+  const st = spyRegimeNow();
+  if(st) parts.push(`현재 시장은 <b>${st.label}</b>이에요. 참고로 이 신호는 14년치 검증에서 <b>강세장 66.5% / 약세장 64.4%</b>로 두 국면 모두에서 작동했어요 — 시장이 안 좋다고 이 신호를 끌 이유는 없었어요.`);
+  if((e && (e.news||[]).length)) parts.push(`아래 <b>최근 뉴스</b>에서 급락·급등의 이유가 있는지 확인하세요. 실적 쇼크·소송·규제 같은 <b>펀더멘털을 바꾸는 악재</b>라면 눌림목이 아니라 하락의 시작일 수 있어요(이 부분은 자동 판별이 안 돼서 직접 읽어봐야 해요).`);
+  if(!parts.length) return '';
+  return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
+    🔎 <b>진입 전 교차 점검</b><br>${parts.map(p=>'· '+p).join('<br>')}</div>`;
+}
+// 시장 레짐(SPY 200일선 대비) - marketEnv에 SPY 종가/고점만 있어 200일선은 별도 보관값 사용
+function spyRegimeNow(){
+  if(!marketEnv || marketEnv.spyDrawdownPct==null) return null;
+  const dd = marketEnv.spyDrawdownPct;
+  if(dd <= -10) return {label:`시장 조정 국면(S&P500 고점대비 ${dd.toFixed(1)}%)`};
+  if(dd <= -3)  return {label:`시장 소폭 조정(고점대비 ${dd.toFixed(1)}%)`};
+  return {label:'시장 강세(고점 부근)'};
 }
 
 // ---- 매도 가이드 + 인내심 (2026-07 실데이터 검증) ----
@@ -1475,6 +1562,19 @@ function toggleTechView(ticker){
   techViewOpen = !techViewOpen;
   renderTabContent(ticker);
 }
+// 이 신호가 '이 종목'에 잘 맞는지 - 2026-07 14년치 검증의 핵심 발견을 근거로 함:
+// 승률은 종목의 장기 성장성과 강하게 붙어 있었음(연평균 25%↑ 종목 평균승률 73.2% vs 15%↓ 종목 50.9%).
+// 눌림목 매수는 '되돌아온다'에 기대는 전략이라, 장기 정체 종목에선 눌림목이 그냥 하락의 연속이었음.
+function suitabilityNote(bt){
+  const st = bt.horizonStats[10];
+  if(!st || st.n < 8 || st.winRate==null) return '';
+  const w = st.winRate;
+  if(w >= 60) return `<div class="comment-box" style="background:var(--up-bg);color:#a8322c;margin-top:8px;">
+    이 종목은 과거 이 신호가 <b>잘 통한 편</b>(10일 승률 ${w.toFixed(0)}%)이에요. 14년치 검증에서도 <b>장기 성장률이 높은 종목일수록 승률이 높았어요</b>(연평균 25%↑ 종목 평균 73%).</div>`;
+  if(w < 55) return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
+    ⚠️ 이 종목은 과거 이 신호가 <b>잘 안 통했어요</b>(10일 승률 ${w.toFixed(0)}%). 14년치 검증에서 <b>장기 성장이 약한 종목은 눌림목 매수 승률이 50%대</b>였어요(INTC 50%·WMT 52% vs NVDA 85%·AVGO 81%). 눌림목 전략은 "빠져도 되돌아온다"에 기대는 건데, 장기 정체 종목은 눌림목이 그냥 하락의 연속인 경우가 많아요. <b>이 종목은 단타보다 다른 종목을 보거나 비중을 줄이는 게 나아요.</b></div>`;
+  return `<div class="sub" style="margin-top:8px;">이 종목의 과거 승률은 ${w.toFixed(0)}%로 평범한 편이에요. 14년치 검증상 이 신호는 <b>장기 성장률이 높은 종목</b>에서 잘 통했어요(연평균 25%↑ 종목 73% vs 15%↓ 종목 51%).</div>`;
+}
 function renderTechSection(r){
   const ts = r.series.techSeries;
   const score = last(ts.scores);
@@ -1502,13 +1602,14 @@ function renderTechSection(r){
         <div class="sub" style="margin-top:8px;">캔들차트의 ▲(진한 초록=거래량 급증 동반) 표시가 과거 매수신호 시점이에요.${lowSample?' 이 종목은 신호 표본이 적어(10일 기준 '+bt.horizonStats[10].n+'건) 통계적으로 덜 믿을만해요.':''}</div>
       </div>
     </div>
+    ${suitabilityNote(bt)}
     <div class="chart-label">RSI (14일)</div>
     <canvas id="techRsiCanvas"></canvas>
     <div class="chart-label">MACD 히스토그램 (참고용 - 매수신호 판정에는 더는 안 씀)</div>
     <canvas id="techMacdCanvas"></canvas>
     <div class="glossary" style="margin-top:10px;">
       <b>이 신호는 2026년 7월 기준 대형주 14종목 5년치 실데이터로 백테스트해서 검증한 규칙</b>이에요(buy_signal_dashboard.html의 RSI/MACD/볼린저 6점 룰과는 의도적으로 다른, 별도로 검증된 규칙). 화살표(▲)는 "이럴 때 사면 과거 통계상 유리했다"는 <b>눌림목 진입 후보</b>일 뿐, 정확한 바닥을 집어주는 건 아니에요.<br>
-      · <b>매수 신호 조건</b>: ① 우상향(종가&gt;200일선) 중 RSI 30~40으로 눌린 날, 또는 ② RSI&lt;30(과매도)인 날. 단 ②가 하락추세(종가≤200일선)면 <b>당일 반등(오늘 종가&gt;어제 종가)이 확인될 때만</b> 신호로 봐요.<br>
+      · <b>매수 신호 조건</b>: ① 우상향(종가&gt;200일선) 중 RSI 30~38로 눌린 날, 또는 ② RSI&lt;30(과매도)인 날. 단 ②가 하락추세(종가≤200일선)면 <b>당일 반등(오늘 종가&gt;어제 종가)이 확인될 때만</b> 신호로 봐요.<br>
       · <b>떨어지는 칼날(falling knife) 회피</b>: 예전엔 하락추세에서 RSI만 낮으면 매일 '매수'가 떴는데, 계속 빠지는 중에도 신호가 찍히는 문제가 있었어요(MSFT 2024-07엔 11일 연속 신호가 뜨며 그 뒤 -7.9%까지 하락). 그래서 하락추세 과매도는 '반등 시작'이 보일 때만 신호로 인정하게 바꿨어요.<br>
       · <b>신호 뭉침 제거(쿨다운 5거래일)</b>: 한 번 신호가 나면 5거래일간은 새 진입신호로 안 쳐요. 같은 자리에 신호가 뭉쳐 찍히던 걸 없앴고, 백테스트도 이 '뭉침 제거된 진입'만으로 계산해요. MSFT 기준 과거 신호일이 67일→17건으로 정리됐어요.<br>
       · <b>검증 결과(10거래일 기준)</b>: 승률 67.1%, out-of-sample 62.6%(표본 250건+). 개편 전(뭉침 포함) 대비 승률이 소폭 오르면서 위 두 문제를 해결했어요. 신호당 이후 10일 최대낙폭 평균 -2.9%, -10% 이상 크게 빠진 신호는 8.6%뿐.<br>
@@ -1751,9 +1852,9 @@ function technicalReasonAt(techSeries, closes, i){
       if(uptrend || upToday) reasons.push('RSI 과매도(<30)' + (uptrend ? '' : ' + 당일 반등 확인') + ' - 백테스트 검증 신호');
       else reasons.push('RSI 과매도(<30)지만 하락추세에서 아직 반등 전 - 떨어지는 칼날 회피로 관심 단계(당일 반등 확인되면 신호)');
     }
-    else if(rsiVal<40){
-      if(uptrend) reasons.push('우상향(종가>200일선) 중 눌림목(RSI 30~40) - 백테스트 검증 신호');
-      else reasons.push('RSI 약과매도(<40, 하락추세라 관심 단계 - 우상향 전환 시 신호로 승격)');
+    else if(rsiVal<RSI_PULLBACK_HI){
+      if(uptrend) reasons.push(`우상향(종가>200일선) 중 눌림목(RSI 30~${RSI_PULLBACK_HI}) - 백테스트 검증 신호`);
+      else reasons.push(`RSI 약과매도(<${RSI_PULLBACK_HI}, 하락추세라 관심 단계 - 우상향 전환 시 신호로 승격)`);
     }
   }
   const vAvg = techSeries.volSma20?.[i];

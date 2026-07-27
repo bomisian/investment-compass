@@ -9,38 +9,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Micron’s AI Repricing Is Real — But the Market Still Isn’t Sure It Can Last",
+        "headline": "Fed Chair Kevin Warsh Sends a Clear Signal on Where Interest Rates Are Headed",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e1cd1d7736ab3952ef9e05f8167c8bfd15ce612907cd85ba5f283175b7977c9",
-        "datetime": 1784979696
+        "url": "https://finnhub.io/api/news?id=ce3dfc4fa97a3dbbf2ad62edfb4f57d5a5d33fef66518ef440e453390abcf51d",
+        "datetime": 1785059280
       },
       {
-        "headline": "Supermicro Stock Just Jumped 20%. Why I'm Passing and Buying This AI Leader Instead.",
+        "headline": "Down 30% on the Year, Is Tesla Stock a Buy On This Latest Dip?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7ec892b8e427f4ab7c8adc2eb299eadea8ca76380cca718fab86bcb3239b0474",
-        "datetime": 1784979300
+        "url": "https://finnhub.io/api/news?id=a59af45c718c603191be15d70c456ad8b7c49f15e2e6beee6166f2a8cace2c2a",
+        "datetime": 1785058800
       },
       {
-        "headline": "Prediction: Kevin Warsh and the Federal Open Market Committee (FOMC) Will Not Raise Interest Rates in 2026",
+        "headline": "Should You Buy Sandisk Stock Before It Reports Earnings on Aug. 5?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4115c6ebebab6f29a6cf4a58b37d6476a0911d8d451a81bc9a8475ea08199801",
-        "datetime": 1784978700
+        "url": "https://finnhub.io/api/news?id=6bc1d84411d39b727f02aa1a86ab55aee933872be490c0ab935c47b2be9e7b9a",
+        "datetime": 1785058500
       },
       {
-        "headline": "Prediction: This Unstoppable ETF Will Crush the S&P 500 in 2026 and Beyond",
+        "headline": "1 Reason the Crowd Is Wrong to Ignore Royal Caribbean Before July 28",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ebf455ef9cae2d85dcd071c57a2a59d1e3f5960709630805b13a22a611955a03",
-        "datetime": 1784978100
+        "url": "https://finnhub.io/api/news?id=035de823c651c7f7c7f263d6790eea4835b47874fb5a32e0e8ac6c63f5789d61",
+        "datetime": 1785058020
       },
       {
-        "headline": "Prediction: This Dividend ETF Will Double by 2034 -- and Pay You Passive Income While You Wait",
+        "headline": "Blue Origin Raised $10 Billion at a $130 Billion Valuation Under Jeff Bezos",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d6120a935b0d6507c97a07ab85275b4fabb368bc01730823737049282bbd97d",
-        "datetime": 1784977500
+        "url": "https://finnhub.io/api/news?id=dac5655af0bf94755bcf4eae9b61d49006d56025740890e87933751e275a8fe1",
+        "datetime": 1785057900
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "AAPL": {
     "nextEarnings": {
@@ -50,38 +50,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple Earnings Preview: Q3 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d0e7a9a7fbb139b2f43234f083f5d2c56626601a5027c67713379c9631b8b491",
-        "datetime": 1784970600
-      },
-      {
-        "headline": "Alphabet: Won't Be This Cheap For Long",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6d96bbc8dddb829c9e64397d2c1ba856a743ffce1da45a90e8bba097b884544a",
-        "datetime": 1784970000
-      },
-      {
-        "headline": "1 Popular Cryptocurrency to Buy Before It Soars 1,125%, According to Cathie Wood's Ark Invest",
+        "headline": "Warren Buffett's Successor, Greg Abel, Tripled Berkshire's Stake in This Megacap AI Stock (Hint: Not Apple)",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=141fc7290b202cf1b3a3660c6c41bb3f04b04b13a932c952b7d0297609974126",
-        "datetime": 1784969280
+        "url": "https://finnhub.io/api/news?id=9f9dfd60aab992facc87563aabfdc193cbe3aed5ffa10f8d066a42ab2bfc424a",
+        "datetime": 1785056880
       },
       {
-        "headline": "Western Digital Corporation (NASDAQ:WDC) Got Lucky While Micron’s The Real Deal, Says Jim Cramer",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c44c1710cee4cdcca909985f36f5eb8c2cf2bd6e3eb49b5a42c75c71204a5c7d",
-        "datetime": 1784966529
-      },
-      {
-        "headline": "ADX: Your Grandfather's Fund Is Still Beating The Market",
+        "headline": "Wall Street Week Ahead",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=21360e8e5412a593474cbaa187e2a10d1941af25522bede6d4198ed70bd4ae3a",
-        "datetime": 1784966400
+        "url": "https://finnhub.io/api/news?id=aa93f6b650dcda9f8826f3f7390c5a02e2548ec74e81335b1ebe7541cf3f7d9d",
+        "datetime": 1785048021
+      },
+      {
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
+      },
+      {
+        "headline": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dd8f30d99f7dd10b75cb0732cd3c1fcfd5d5d1f045915dbf327ff7d61a7b5ac3",
+        "datetime": 1785043020
+      },
+      {
+        "headline": "Tracking Cliff Asness' AQR Capital Management 13F Portfolio - Q1 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=b7c7414f5a348862645b4262f9b2682c8f76756b22f3a176a5c98e31a4b1d284",
+        "datetime": 1785018522
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "GOOGL": {
     "nextEarnings": {
@@ -91,38 +91,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Alphabet: No FCF Pain, No Compute/Advertising Gain; SpaceX Gains Create Noise",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3cad9c33b8605b7008b275456cba476e8ffd38ce182994b4b591379081df60d7",
-        "datetime": 1784971800
-      },
-      {
-        "headline": "What Moved Markets This Week",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=30c853daab5af443ab8a0c8862a8b56eabb48569926bf56471b440d71080bbab",
-        "datetime": 1784970358
-      },
-      {
-        "headline": "Alphabet: Won't Be This Cheap For Long",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6d96bbc8dddb829c9e64397d2c1ba856a743ffce1da45a90e8bba097b884544a",
-        "datetime": 1784970000
-      },
-      {
-        "headline": "1 Popular Cryptocurrency to Buy Before It Soars 1,125%, According to Cathie Wood's Ark Invest",
+        "headline": "The 8 Best Stocks to Buy on Alphabet's Surging Capex",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=141fc7290b202cf1b3a3660c6c41bb3f04b04b13a932c952b7d0297609974126",
-        "datetime": 1784969280
+        "url": "https://finnhub.io/api/news?id=e035ad4b56ec429602d72026096c924faab05886d0aadefe8487f88d453d05d0",
+        "datetime": 1785057600
       },
       {
-        "headline": "Alphabet's Projected $205 Billion Capex Can Lift These 3 AI Stocks",
+        "headline": "Warren Buffett's Successor, Greg Abel, Tripled Berkshire's Stake in This Megacap AI Stock (Hint: Not Apple)",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b70d4abcb8dd78dc375a5b1992c66266825be7e517123dc6339d4dd24d9beb2",
-        "datetime": 1784966580
+        "url": "https://finnhub.io/api/news?id=9f9dfd60aab992facc87563aabfdc193cbe3aed5ffa10f8d066a42ab2bfc424a",
+        "datetime": 1785056880
+      },
+      {
+        "headline": "Alphabet Just Delivered a Piece of AI-Related News That Sent Its Stock Tumbling. Should You Buy the Dip, or Run for the Hills?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c550459e51e778196697072669cf3d6e1b3e9d50ace8560489448793c683995",
+        "datetime": 1785055140
+      },
+      {
+        "headline": "Alphabet: Wall Street Is Being Ridiculous - Elevated CapEx Is A Buying Opportunity",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8f812b94734324a82e0dfb5ca92b05a6fad67749cb3675ddc395c9ce2f023ba4",
+        "datetime": 1785051000
+      },
+      {
+        "headline": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dd8f30d99f7dd10b75cb0732cd3c1fcfd5d5d1f045915dbf327ff7d61a7b5ac3",
+        "datetime": 1785043020
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "MSFT": {
     "nextEarnings": {
@@ -132,38 +132,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "GE Vernova (GEV): $176 Billion Backlog and AI Power Demand Outweigh Short-Term EPS Miss",
+        "headline": "Which Is the Better Value Stock Right Now: Microsoft or Nvidia?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c852fcdece7577193329f64c26a0ac68d0342b1da9a9215ca7197c89e8ae443b",
-        "datetime": 1784962504
+        "url": "https://finnhub.io/api/news?id=806c81fe02efa14402c325dd53c18edd8e28f80c91b83bef6e18ebfe45000f10",
+        "datetime": 1785051300
       },
       {
-        "headline": "Nebius Is Turning Into The Open Source Anthropic",
+        "headline": "3M (MMM) Teams Up With Microsoft To Bring Optical Tech Into Azure AI Data Centers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=61add9ef166c1e4d1f453388adafbad4881de02d6b98860ff4bca561f39c152a",
+        "datetime": 1785049708
+      },
+      {
+        "headline": "Wall Street Week Ahead",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7acd2455ad175c768208f115a9173bac981a51a672482d8b7b4ed780c4e1b0ef",
-        "datetime": 1784951432
+        "url": "https://finnhub.io/api/news?id=aa93f6b650dcda9f8826f3f7390c5a02e2548ec74e81335b1ebe7541cf3f7d9d",
+        "datetime": 1785048021
       },
       {
-        "headline": "Meta quits clean energy pledge amid gas-powered data center push",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fa989f634fe71fbc23c46424e71ef714e046ce91a61e82aedcce8a689a48129b",
-        "datetime": 1784938899
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "Nvidia, Microsoft, Palantir Lead Big Tech Revolt Against AI Restrictions",
+        "headline": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=261321756561b0619b745bf3c1138c6267cee3f74f7a63935a6c6b88747559c3",
-        "datetime": 1784937595
-      },
-      {
-        "headline": "Review & Preview: An Earnings Week to Forget",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=77fa1847bc1765e58b2b1bed700a4283cb8b56ae345ca0f5777c2aaf5f657907",
-        "datetime": 1784937300
+        "url": "https://finnhub.io/api/news?id=dd8f30d99f7dd10b75cb0732cd3c1fcfd5d5d1f045915dbf327ff7d61a7b5ac3",
+        "datetime": 1785043020
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "AMZN": {
     "nextEarnings": {
@@ -173,38 +173,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Should You Forget SpaceX, Starlink, and Small Satellites? USAF Orders 2 Big Billion-Dollar Satellites From Boeing.",
+        "headline": "Blue Origin Raised $10 Billion at a $130 Billion Valuation Under Jeff Bezos",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c2f3e010ecb3d15c8e021f88156393c45696cf7a24946023c4685a01eda1487e",
-        "datetime": 1784971500
+        "url": "https://finnhub.io/api/news?id=dac5655af0bf94755bcf4eae9b61d49006d56025740890e87933751e275a8fe1",
+        "datetime": 1785057900
       },
       {
-        "headline": "Amazon Earnings Preview: Q2 2026",
+        "headline": "Should You Buy SpaceX Stock Before Aug. 4?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a7ae94bd180fb7970768f2193aeebd4b356ad7f547b1669113273ad8d98e7847",
+        "datetime": 1785053460
+      },
+      {
+        "headline": "Wall Street Week Ahead",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=eb5c30ed736e4d38b09beca4b58ed05935d5d21e43215dfd7aab024332d47450",
-        "datetime": 1784967000
+        "url": "https://finnhub.io/api/news?id=aa93f6b650dcda9f8826f3f7390c5a02e2548ec74e81335b1ebe7541cf3f7d9d",
+        "datetime": 1785048021
       },
       {
-        "headline": "Is Now a Good Time to Buy Amazon Stock?",
+        "headline": "Should You Buy Amazon Stock Before July 30?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=756789712e92bdad2b4a68b6dce790754b743c92e7c42a43deebfa8dde3fd21e",
-        "datetime": 1784965200
+        "url": "https://finnhub.io/api/news?id=6ab2b60fd8bba8dd2672fd55eb1c1a01bb07bc1b96d65197d7dcd8ade542f0a0",
+        "datetime": 1785046800
       },
       {
-        "headline": "GE Vernova (GEV): $176 Billion Backlog and AI Power Demand Outweigh Short-Term EPS Miss",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c852fcdece7577193329f64c26a0ac68d0342b1da9a9215ca7197c89e8ae443b",
-        "datetime": 1784962504
-      },
-      {
-        "headline": "Waymo vs. human drivers: Experts reveal which is safer",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=32beec2a8664e90632cae245adc89043ebec3927c12801f07bf03645dc1a6eb8",
-        "datetime": 1784948820
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "TSM": {
     "nextEarnings": {
@@ -213,6 +213,12 @@ const NEWS_DATA = {
       "epsEstimate": 26.4094
     },
     "news": [
+      {
+        "headline": "Wall Street Week Ahead",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=aa93f6b650dcda9f8826f3f7390c5a02e2548ec74e81335b1ebe7541cf3f7d9d",
+        "datetime": 1785048021
+      },
       {
         "headline": "TSMC: I Was Wrong",
         "source": "SeekingAlpha",
@@ -236,16 +242,10 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=469cd2ee60efe9ca6d59ec8eb83be56d220b27a833363c18eb4d00fdff0d32e0",
         "datetime": 1784894564
-      },
-      {
-        "headline": "Bloom Energy: AI's Power Crunch Creates Rare Buying Opportunity",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cb262ea41cd87b820c248ebd30e98185d10de4abd5b94a9e40a1514a591b9732",
-        "datetime": 1784888095
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "AVGO": {
     "nextEarnings": {
@@ -254,6 +254,18 @@ const NEWS_DATA = {
       "epsEstimate": 3.3012
     },
     "news": [
+      {
+        "headline": "Tracking Cliff Asness' AQR Capital Management 13F Portfolio - Q1 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=b7c7414f5a348862645b4262f9b2682c8f76756b22f3a176a5c98e31a4b1d284",
+        "datetime": 1785018522
+      },
+      {
+        "headline": "U.S. Memory Stock Pullback May Offer Investors a Fresh Buying Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d93647a7f5bc09722698227ae7b29bb49e1582547081765c5d593b5f50baeda0",
+        "datetime": 1784984400
+      },
       {
         "headline": "What Moved Markets This Week",
         "source": "SeekingAlpha",
@@ -271,22 +283,10 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2654ca3f06992ed5ed1194a4c6be1b0fa1fa53deecd1f89923f186b8f4b03a83",
         "datetime": 1784965727
-      },
-      {
-        "headline": "Samsung Wins $200 Billion Order to Supply Chips to Broadcom",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=28b969cda55fcc44d54e2e61c0dba8e35a0577f10d200b41ef436886f897fe01",
-        "datetime": 1784961012
-      },
-      {
-        "headline": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2c9e386ecfa57bddc27bcd28cdd33da64128b80aee8e4c4256edd4369189162c",
-        "datetime": 1784934002
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "META": {
     "nextEarnings": {
@@ -296,38 +296,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "What Moved Markets This Week",
+        "headline": "Alphabet: Wall Street Is Being Ridiculous - Elevated CapEx Is A Buying Opportunity",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=30c853daab5af443ab8a0c8862a8b56eabb48569926bf56471b440d71080bbab",
-        "datetime": 1784970358
+        "url": "https://finnhub.io/api/news?id=8f812b94734324a82e0dfb5ca92b05a6fad67749cb3675ddc395c9ce2f023ba4",
+        "datetime": 1785051000
       },
       {
-        "headline": "Jim Cramer Discsusses Meta Platforms (NASDAQ:META)’s “Brilliant Team of People” & Their Big Worry",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d55833b6effe9ccfb207797b087599f68c364da8fd0c303dff0f457a4ef245fe",
-        "datetime": 1784966198
+        "headline": "Wall Street Week Ahead",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=aa93f6b650dcda9f8826f3f7390c5a02e2548ec74e81335b1ebe7541cf3f7d9d",
+        "datetime": 1785048021
       },
       {
-        "headline": "Meta quits clean energy pledge amid gas-powered data center push",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fa989f634fe71fbc23c46424e71ef714e046ce91a61e82aedcce8a689a48129b",
-        "datetime": 1784938899
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "Nvidia, Microsoft, Palantir Lead Big Tech Revolt Against AI Restrictions",
+        "headline": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=261321756561b0619b745bf3c1138c6267cee3f74f7a63935a6c6b88747559c3",
-        "datetime": 1784937595
+        "url": "https://finnhub.io/api/news?id=dd8f30d99f7dd10b75cb0732cd3c1fcfd5d5d1f045915dbf327ff7d61a7b5ac3",
+        "datetime": 1785043020
       },
       {
-        "headline": "Good News For Meta Stock Fans",
+        "headline": "eBay (EBAY) Faces A New Seller Threat As Meta Launches Marketplace App",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=61b0c90c4bbaa03c389a65cce253416f7d70d1b7f1c01ebcd1a5a07a1ef5f7b3",
-        "datetime": 1784937583
+        "url": "https://finnhub.io/api/news?id=77fd2df94c4f5906e12a83f114dffdcc6c131b69c463692451332a9138be7c64",
+        "datetime": 1785024978
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "TSLA": {
     "nextEarnings": {
@@ -337,38 +337,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "What Moved Markets This Week",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=30c853daab5af443ab8a0c8862a8b56eabb48569926bf56471b440d71080bbab",
-        "datetime": 1784970358
-      },
-      {
-        "headline": "GM displays Q2 growth in key areas Tesla would be jealous of",
+        "headline": "Down 30% on the Year, Is Tesla Stock a Buy On This Latest Dip?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4acee91038e1dc66567acae8507fe94aea0baf9b5dd7b6ea2e38921b5659df41",
-        "datetime": 1784970180
+        "url": "https://finnhub.io/api/news?id=a59af45c718c603191be15d70c456ad8b7c49f15e2e6beee6166f2a8cace2c2a",
+        "datetime": 1785058800
       },
       {
-        "headline": "Tesla: Strip Out SpaceX And The Tax Benefit, And You're Left With $77 Million",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a23d6313beeeb838f29a12954f395301d27c8dd374e0b0530231aa8b8f2fc296",
-        "datetime": 1784968873
-      },
-      {
-        "headline": "SpaceX may have missed its window to buy Tesla",
+        "headline": "Morgan Stanley resets Microsoft stock forecast ahead of earnings",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=601377356e7936a14dcdcf7fb432efaa6e23f48efc510a3732289a85d88479cb",
-        "datetime": 1784966400
+        "url": "https://finnhub.io/api/news?id=dd8f30d99f7dd10b75cb0732cd3c1fcfd5d5d1f045915dbf327ff7d61a7b5ac3",
+        "datetime": 1785043020
       },
       {
-        "headline": "Why Economist Mohamed El-Erian Monitors South Korea, U.K. Bonds, and the Yen",
+        "headline": "Cathie Wood buys $50.1 million of tumbling megacap stock",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fae09541413c094153d78c2dc0dd6f9dc40509db16cb128d5274e798adfafbe2",
-        "datetime": 1784959200
+        "url": "https://finnhub.io/api/news?id=40fc62ad2d6b29aef6c8657435464b017bda70fa95605e885ad095f8f29d5bf8",
+        "datetime": 1785034020
+      },
+      {
+        "headline": "Top 3 US Stock Market Stories From This Week",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e9b3b6495eb7c96a8d19fb3458285fd7ad781c4a98052844d6b3fe965eddf097",
+        "datetime": 1785015677
+      },
+      {
+        "headline": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=250fd0f3649acd5d54fcb787b66d4b3ef9a2999f945bd3170602c3f37047e02c",
+        "datetime": 1785009000
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "MU": {
     "nextEarnings": {
@@ -378,38 +378,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Micron’s AI Repricing Is Real — But the Market Still Isn’t Sure It Can Last",
+        "headline": "Should You Buy Sandisk Stock Before It Reports Earnings on Aug. 5?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e1cd1d7736ab3952ef9e05f8167c8bfd15ce612907cd85ba5f283175b7977c9",
-        "datetime": 1784979696
+        "url": "https://finnhub.io/api/news?id=6bc1d84411d39b727f02aa1a86ab55aee933872be490c0ab935c47b2be9e7b9a",
+        "datetime": 1785058500
       },
       {
-        "headline": "Western Digital Corporation (NASDAQ:WDC) Got Lucky While Micron’s The Real Deal, Says Jim Cramer",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c44c1710cee4cdcca909985f36f5eb8c2cf2bd6e3eb49b5a42c75c71204a5c7d",
-        "datetime": 1784966529
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "Better Artificial Intelligence (AI) Buy: Micron Technology vs. Sandisk",
+        "headline": "Prediction: Micron Stock Will Return to All-Time Highs Soon",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d96989a11b59879c427bd37cd2a3722aaffc88bb5b3518b16b25ea9cc678d04",
-        "datetime": 1784953200
+        "url": "https://finnhub.io/api/news?id=d72c509ae0f7eb1c9fbe3944c0392c86dcfd6aa0a8c25b7c2f5f4619c0637ae9",
+        "datetime": 1785044100
       },
       {
-        "headline": "Trump faces Apple-Micron clash over Chinese memory chips - WSJ",
+        "headline": "CXMT set for historic Shanghai debut after $9.8 billion IPO",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=58381a51f6c7c9e41d60d93ca8ccfa24ad6727cee78018725bb5505450cea38b",
-        "datetime": 1784948940
+        "url": "https://finnhub.io/api/news?id=723c7fb4796758121563432dfb4b48b33b8aa375fbd4a9f2c98b019e53293c5c",
+        "datetime": 1785040602
       },
       {
-        "headline": "Michael Burry Doubles Down On MU, NVDA Shorts While Holding TSLA, PLTR Bets — Here’s What He’s Buying",
+        "headline": "Memory Frenzy Primes China Champion CXMT for Historic Debut",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4b00b7ad3d9016316fe87c8c47616ebef4c5a88d550b7fd046d17388c082263f",
-        "datetime": 1784933816
+        "url": "https://finnhub.io/api/news?id=4c1e2a0e593ad6995f16ea42ec30182323a88183d8b881f4630cb2dfe258853e",
+        "datetime": 1785024000
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "AMD": {
     "nextEarnings": {
@@ -419,38 +419,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Is Riot Platforms (RIOT) Too Pricey For Its AI Data Center Push?",
+        "headline": "Supermicro (SMCI) Launches H15 Servers With 72 GPU AI Training Platform",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=728d2fa1bafe5808be8bf5c1ebaa5c9f7225d322e6c9499c180ee7beedf56982",
-        "datetime": 1784941868
+        "url": "https://finnhub.io/api/news?id=cb213ad00a301e6579fd1c2ff7b8a147c3fa13545d7f5a8d6d7e993c96a1f002",
+        "datetime": 1785024999
       },
       {
-        "headline": "Texas Instruments vs. Qualcomm: One Pays Out 94% of Earnings. The Better Dividend Chip Stock Is Clear.",
+        "headline": "Nvidia vs. AMD vs. Intel: Which One Actually Won the AI Chip Race in the First Half of 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2c9e386ecfa57bddc27bcd28cdd33da64128b80aee8e4c4256edd4369189162c",
-        "datetime": 1784934002
+        "url": "https://finnhub.io/api/news?id=2e0ce0af0cb6d6e484bd1967691b52b4c7e18e88397cae72c2311d00121f5c46",
+        "datetime": 1785021600
       },
       {
-        "headline": "Stock Market Today, July 24: Intel Reverses Gains on Foundry and AI Spending Concerns",
+        "headline": "Got $100? 1 Artificial Intelligence (AI) Memory ETF to Buy Right Now.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9c74e2107dc40d86f2244222818bf07a996672de6caa99aecd496f8985f11d53",
-        "datetime": 1784931171
+        "url": "https://finnhub.io/api/news?id=225bf8e13b69a75b507b78c71599807e39d1d284c0c6e178f287784353ae258a",
+        "datetime": 1785000660
       },
       {
-        "headline": "MRVL Has Momentum. The Question Is The Price",
+        "headline": "Bank of America revamps AMD stock price target for 2026",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6120d5ab14b1aa2b05ea68602aa178e15a0bd22d9e860b5b004081ce93b30b53",
-        "datetime": 1784927684
+        "url": "https://finnhub.io/api/news?id=0ca4f9feaa09a3c47a0adc3f19d88cc23fb8960d3f9747a955a38e9f7bc528cd",
+        "datetime": 1784996220
       },
       {
-        "headline": "Intel Beat Earnings by $1.7 Billion and Fell 11% as Cramer Turned Bullish",
+        "headline": "This Eric Trump-Backed Startup Just Got AMD's Chips for Its Humanoid Robots— Now It's Building Military Versions Too, Reviving Conflict-Of-Interest Fears",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f17974741a96a51b75669930326b0b600e8ca0817afcac4c5521f4cee1c1ddca",
-        "datetime": 1784925601
+        "url": "https://finnhub.io/api/news?id=9958e6c72201e9c45d37c5557f1993146910fe12bf833495dd717599af59f8e8",
+        "datetime": 1784989815
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "INTC": {
     "nextEarnings": {
@@ -460,38 +460,38 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Can ASML Holding (NasdaqGS:ASML) Stay Reasonably Priced After Its 150% Run?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8b2ce21e77781fee267ef0cbf819e6c0a216abb51a5abbb707c8682e7d2978cb",
-        "datetime": 1784977763
-      },
-      {
-        "headline": "What Moved Markets This Week",
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=30c853daab5af443ab8a0c8862a8b56eabb48569926bf56471b440d71080bbab",
-        "datetime": 1784970358
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "Review & Preview: An Earnings Week to Forget",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=77fa1847bc1765e58b2b1bed700a4283cb8b56ae345ca0f5777c2aaf5f657907",
-        "datetime": 1784937300
+        "headline": "Intel: Grotesque Valuation",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=33a5cb27920ab47a61c7af9f8e2f39cf191eda13985f61718e63931d88c6e7ce",
+        "datetime": 1785042763
       },
       {
-        "headline": "S&P 500, Dow, Nasdaq End Second Week Lower Over Elevated Oil Prices, Chipmaker Rout — PSKY, UBER, QCOM, VZ, INTC In Focus",
+        "headline": "Intel CEO Lip-Bu Tan Warns AI Supply Crunch Won't Ease: Shortages Will 'Persist for the Foreseeable Future'",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9d39ef88fff0779779505f0099fb88676c495a3940dddf2d545be623974b8100",
-        "datetime": 1784933688
+        "url": "https://finnhub.io/api/news?id=3f66a6d82d67e591334bb3567ee658ccd226aec5f29f2742ae74ab23047ed07c",
+        "datetime": 1785029420
       },
       {
-        "headline": "Nasdaq lags on angst over AI spending ahead of earnings reports",
+        "headline": "Nvidia vs. AMD vs. Intel: Which One Actually Won the AI Chip Race in the First Half of 2026?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4e1e23cf08396f986f5b9a6bb8cb7b76eaa05c1892763d61ed11183134d2e9c9",
-        "datetime": 1784931586
+        "url": "https://finnhub.io/api/news?id=2e0ce0af0cb6d6e484bd1967691b52b4c7e18e88397cae72c2311d00121f5c46",
+        "datetime": 1785021600
+      },
+      {
+        "headline": "Goldman delivers a candid response after Intel's stunning quarter",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=96d1a90549e7716dec5a17496302d1630f2b69d026427a5d9bc56468332dda38",
+        "datetime": 1785008220
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:56"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "WMT": {
     "nextEarnings": {
@@ -500,6 +500,18 @@ const NEWS_DATA = {
       "epsEstimate": 0.7503
     },
     "news": [
+      {
+        "headline": "Tracking Cliff Asness' AQR Capital Management 13F Portfolio - Q1 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=b7c7414f5a348862645b4262f9b2682c8f76756b22f3a176a5c98e31a4b1d284",
+        "datetime": 1785018522
+      },
+      {
+        "headline": "The real welfare queen': Sanders says Walmart spent $37.6B on buybacks as workers rely on Medicaid and SNAP",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7a39300f032089a6402d28de12effbe57e2a02da8845e4b34cca9a1ace3b4921",
+        "datetime": 1784986200
+      },
       {
         "headline": "Walmart and the Walmart Foundation Announce $500,000 Commitment to West Virginia Flood Relief",
         "source": "Yahoo",
@@ -517,22 +529,10 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ef261f028a4ed0154a873309681aa29145fa804570dfc4ff7f616e5e21f7d6b5",
         "datetime": 1784912912
-      },
-      {
-        "headline": "Explore the top gainers and losers within the dow jones index in today's session.",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=4997b4df2c1439dc08aeccb21803747beb7d511fe544df611dff9e6b9aa18a2c",
-        "datetime": 1784911204
-      },
-      {
-        "headline": "New CMO Aims To Make Gimme Seaweed A Lifestyle Brand",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d722efc17a0110a479a02bc836f237a582b36572349426117d0042af3c37e87c",
-        "datetime": 1784907504
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:57"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "AMAT": {
     "nextEarnings": {
@@ -572,81 +572,81 @@ const NEWS_DATA = {
         "datetime": 1784861073
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:57"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
       {
-        "headline": "Stop Counting Tariffs, Start Counting Hikes",
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=bdde6f9856e3a787b2387006fdcf82c4fa6e16d98bbb822f7d46e06eae2022ba",
-        "datetime": 1784968200
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "Weekly Indicators: Oil, Gas, And Interest Rates All Rose This Week",
+        "headline": "Flash PMIs Signal Faster Growth Across Major Developed Economies, But Supply Chain And Price Concerns Cloud Outlook",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=53df2abc93852f8d24559a91c3e2c90e18f08a5b6e2f6b94fe8358a80308c197",
-        "datetime": 1784966400
+        "url": "https://finnhub.io/api/news?id=5d84c5c7d910db8e73bea71d1d06cfabd4000843b43f67ab3d6eb31cd7132d46",
+        "datetime": 1785032400
       },
       {
-        "headline": "Weekly Commentary: Bond Yield Breakout",
+        "headline": "The AI Capex Bill Comes Due",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3f1de1e9014cd612e00e87816586b08a8e293bbcdef5ecb869af91b3565dff5f",
-        "datetime": 1784955009
+        "url": "https://finnhub.io/api/news?id=ea902e4b94087efc5ca609036cd653c160faba97a84d503e0330316c1d3d07ca",
+        "datetime": 1785029700
       },
       {
-        "headline": "Just When You Thought Inflation Was Done",
+        "headline": "Figuring Out The Fed",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4a13ed32b2c6dab09fb6220170f9ea04029597fcd14d038cfd3692347b19a565",
-        "datetime": 1784951700
+        "url": "https://finnhub.io/api/news?id=f7076e84346ad680eb24684f1b36777abe1057399dfab31226483489e401a404",
+        "datetime": 1785025800
       },
       {
-        "headline": "Chicago Fed National Activity Index: Economic Growth Increased In June",
+        "headline": "Thinking About The Semiconductor Pullback And Positioning",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=25f1c9f0e55d135d333802cc52f1dc1f238cb19126620bc6202922a223041df5",
-        "datetime": 1784927400
+        "url": "https://finnhub.io/api/news?id=03f59e2d9a71b788984f43170d3164cd4fddc160d27e060b009375b12855840a",
+        "datetime": 1784977166
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:57"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   },
   "SPY": {
     "nextEarnings": null,
     "news": [
       {
-        "headline": "Stop Counting Tariffs, Start Counting Hikes",
+        "headline": "Second Largest Negative Signal Of 2026: Bubbles, Barrels, And Skew",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=bdde6f9856e3a787b2387006fdcf82c4fa6e16d98bbb822f7d46e06eae2022ba",
-        "datetime": 1784968200
+        "url": "https://finnhub.io/api/news?id=edc186f6a27ba872b896e076799fb59bcd37ee72a388078b83b613b95ecc3c78",
+        "datetime": 1785046404
       },
       {
-        "headline": "ADX: Your Grandfather's Fund Is Still Beating The Market",
+        "headline": "Flash PMIs Signal Faster Growth Across Major Developed Economies, But Supply Chain And Price Concerns Cloud Outlook",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=21360e8e5412a593474cbaa187e2a10d1941af25522bede6d4198ed70bd4ae3a",
-        "datetime": 1784966400
+        "url": "https://finnhub.io/api/news?id=5d84c5c7d910db8e73bea71d1d06cfabd4000843b43f67ab3d6eb31cd7132d46",
+        "datetime": 1785032400
       },
       {
-        "headline": "Weekly Indicators: Oil, Gas, And Interest Rates All Rose This Week",
+        "headline": "The AI Capex Bill Comes Due",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=53df2abc93852f8d24559a91c3e2c90e18f08a5b6e2f6b94fe8358a80308c197",
-        "datetime": 1784966400
+        "url": "https://finnhub.io/api/news?id=ea902e4b94087efc5ca609036cd653c160faba97a84d503e0330316c1d3d07ca",
+        "datetime": 1785029700
       },
       {
-        "headline": "Weekly Commentary: Bond Yield Breakout",
+        "headline": "Figuring Out The Fed",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3f1de1e9014cd612e00e87816586b08a8e293bbcdef5ecb869af91b3565dff5f",
-        "datetime": 1784955009
+        "url": "https://finnhub.io/api/news?id=f7076e84346ad680eb24684f1b36777abe1057399dfab31226483489e401a404",
+        "datetime": 1785025800
       },
       {
-        "headline": "Just When You Thought Inflation Was Done",
+        "headline": "RPG: Pure Momentum, Not Pure Growth, Is Driving This Year's Exceptional Gains",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4a13ed32b2c6dab09fb6220170f9ea04029597fcd14d038cfd3692347b19a565",
-        "datetime": 1784951700
+        "url": "https://finnhub.io/api/news?id=bcca74dc2a54d1fb024472418762c413b3fcb91ff517f4cc18d9984ecb992063",
+        "datetime": 1785020100
       }
     ],
-    "_fetched_at": 1784987781.8785498,
-    "_updated_label": "2026-07-25 22:57"
+    "_fetched_at": 1785067201.3120117,
+    "_updated_label": "2026-07-26 21:00"
   }
 };
