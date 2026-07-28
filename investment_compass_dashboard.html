@@ -152,10 +152,13 @@
 
   /* 초보자용 설명 툴팁 (ⓘ 아이콘 - 마우스 올리면 풀이가 뜸) */
   .hint{position:relative;display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;border-radius:50%;background:var(--panel-2);border:1px solid var(--line);color:var(--sub);font-size:10px;font-weight:800;cursor:help;margin-left:4px;flex-shrink:0;vertical-align:middle;}
-  .hint::after{content:attr(data-tip);position:absolute;bottom:calc(100% + 7px);left:50%;transform:translateX(-50%);background:#20242b;color:#fff;padding:9px 11px;border-radius:9px;font-size:11.5px;font-weight:400;line-height:1.55;white-space:normal;width:230px;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .15s ease;z-index:30;box-shadow:0 10px 26px rgba(0,0,0,.22);text-align:left;}
-  .hint::before{content:'';position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:5px solid transparent;border-top-color:#20242b;margin-bottom:-3px;opacity:0;visibility:hidden;transition:opacity .15s ease;z-index:30;}
-  .hint:hover::after,.hint:hover::before{opacity:1;visibility:visible;}
-  th .hint::after{white-space:normal;}
+  /* 설명 툴팁은 화면(뷰포트) 기준으로 띄운다. 예전엔 아이콘 기준 absolute + translateX(-50%)라
+     아이콘이 화면 왼쪽/오른쪽 가장자리에 있으면 툴팁이 화면 밖으로 잘렸음(폰에서 특히 심함). */
+  .hint:focus{outline:2px solid var(--accent);outline-offset:1px;}
+  #hintPop{position:fixed;z-index:200;background:#20242b;color:#fff;padding:10px 12px;border-radius:10px;
+    font-size:12px;font-weight:400;line-height:1.6;text-align:left;box-shadow:0 10px 26px rgba(0,0,0,.28);
+    pointer-events:none;display:none;max-width:min(320px, calc(100vw - 24px));}
+  #hintPop.show{display:block;}
 </style>
 </head>
 <body>
@@ -494,17 +497,25 @@ async function fetchWithTimeout(url, ms=9000){
   const timer = setTimeout(()=>ctrl.abort(), ms);
   try{ return await fetch(url, {signal: ctrl.signal}); } finally{ clearTimeout(timer); }
 }
+// 직전에 성공한 프록시를 기억해뒀다가 다음 종목부터 그것부터 시도한다.
+// (종목마다 죽은 프록시를 9초씩 기다리던 게 전체 스캔이 느린 주원인이었음)
+let _lastGoodProxy = null;
+// 전체 스캔 시 동시에 조회할 종목 수. 너무 키우면 무료 프록시가 429(요청 과다)를 뱉어서
+// 오히려 폴백을 타느라 느려짐 - 5 정도가 안전하면서 체감 속도가 크게 개선됨.
+const SCAN_CONCURRENCY = 5;
 async function fetchYahooViaProxies(ticker, range='2y'){
   const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=${range}&interval=1d`;
-  const proxies = [
-    `https://api.allorigins.win/raw?url=${encodeURIComponent(yUrl)}`,
-    `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yUrl)}`,
-    `https://corsproxy.io/?url=${encodeURIComponent(yUrl)}`,
-  ];
+  const mk = {
+    allorigins: `https://api.allorigins.win/raw?url=${encodeURIComponent(yUrl)}`,
+    codetabs:   `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yUrl)}`,
+    corsproxy:  `https://corsproxy.io/?url=${encodeURIComponent(yUrl)}`,
+  };
+  let names = Object.keys(mk);
+  if(_lastGoodProxy && names.includes(_lastGoodProxy)) names = [_lastGoodProxy, ...names.filter(n=>n!==_lastGoodProxy)];
   let lastErr;
-  for(const p of proxies){
+  for(const name of names){
     try{
-      const res = await fetchWithTimeout(p, 9000);
+      const res = await fetchWithTimeout(mk[name], 9000);
       if(!res.ok) throw new Error('HTTP '+res.status);
       const data = await res.json();
       const result = data?.chart?.result?.[0];
@@ -513,14 +524,19 @@ async function fetchYahooViaProxies(ticker, range='2y'){
       const closesRaw = quote?.close;
       if(!ts || !closesRaw) throw new Error('빈 응답');
       const opens=[], highs=[], lows=[], closes=[], dates=[], volumes=[];
+      // 종가가 비어있는 날은 봉 자체를 건너뛴다. 이때 배열 인덱스가 하루씩 당겨지므로
+      // "N거래일 전" 표시와 쿨다운(=인덱스 간격) 판정이 기기마다 달라질 수 있음 →
+      // 몇 개를 버렸는지 세어서 화면에서 확인할 수 있게 같이 돌려줌.
+      let dropped = 0;
       for(let i=0;i<closesRaw.length;i++){
-        if(closesRaw[i]==null) continue;
+        if(closesRaw[i]==null){ dropped++; continue; }
         opens.push(quote.open[i]); highs.push(quote.high[i]); lows.push(quote.low[i]); closes.push(closesRaw[i]);
         volumes.push(quote.volume?.[i] ?? null);
         dates.push(new Date(ts[i]*1000).toISOString().slice(0,10));
       }
       if(closes.length < 40) throw new Error('데이터 부족');
-      return {opens, highs, lows, closes, dates, volumes};
+      _lastGoodProxy = name;
+      return {opens, highs, lows, closes, dates, volumes, source:'Yahoo/'+name, dropped};
     }catch(e){ lastErr = e; }
   }
   throw lastErr || new Error('야후 프록시 전체 실패');
@@ -548,6 +564,7 @@ async function fetchStooq(ticker){
     closes: closes.slice(-N), dates: dates.slice(-N), volumes: volumes.slice(-N),
   };
   if(bundle.closes.length < 40) throw new Error('stooq 데이터 부족');
+  bundle.source = 'stooq'; bundle.dropped = 0;
   return bundle;
 }
 async function fetchTwelveData(ticker){
@@ -568,7 +585,7 @@ async function fetchTwelveData(ticker){
     dates.push(v.datetime.slice(0,10));
   });
   if(closes.length < 40) throw new Error('Twelve Data 데이터 부족');
-  return {opens, highs, lows, closes, dates, volumes};
+  return {opens, highs, lows, closes, dates, volumes, source:'TwelveData', dropped:0};
 }
 async function fetchDailyCloses(ticker){
   const key = getTdKey();
@@ -656,12 +673,53 @@ const HINTS = {
   targetMean: "여러 애널리스트가 제시한 목표주가의 평균이에요.",
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
+  dataHealth: "이 화면이 어떤 가격 데이터로 계산됐는지예요. 신호 이력의 'N거래일 전'과 신호 쿨다운은 날짜가 아니라 '받아온 봉의 순서'로 세기 때문에, 어느 하루의 데이터를 못 받으면 그 뒤 숫자가 하루씩 밀리고 신호로 인정되는 날짜까지 달라질 수 있어요. PC와 폰이 다르게 보이면 마지막 거래일과 총 봉수를 비교해 보세요.",
 };
 function hintIcon(key){
   const text = HINTS[key];
   if(!text) return '';
-  return `<span class="hint" data-tip="${text.replace(/"/g,'&quot;')}">?</span>`;
+  return `<span class="hint" tabindex="0" data-tip="${text.replace(/"/g,'&quot;')}">?</span>`;
 }
+
+// ---- 설명 툴팁 띄우기 (2026-07-28: 폰에서 문구가 화면 밖으로 잘리던 문제 수정) ----
+// 아이콘 기준이 아니라 '화면 기준(fixed)'으로 놓고 좌우/상하를 뷰포트 안으로 강제로 밀어넣는다.
+// 이벤트는 body에 한 번만 위임해서 걸어둠 - 카드가 다시 그려져도 다시 붙일 필요가 없음.
+const HINT_MARGIN = 12;
+function hintPopEl(){
+  let el = document.getElementById('hintPop');
+  if(!el){ el = document.createElement('div'); el.id = 'hintPop'; document.body.appendChild(el); }
+  return el;
+}
+function showHint(icon){
+  const tip = icon.getAttribute('data-tip');
+  if(!tip) return;
+  const el = hintPopEl();
+  el.textContent = tip;
+  el.classList.add('show');
+  el.style.left = '0px'; el.style.top = '0px';   // 크기를 재기 위해 먼저 표시
+  const r = icon.getBoundingClientRect();
+  const w = el.offsetWidth, h = el.offsetHeight;
+  const maxL = window.innerWidth - w - HINT_MARGIN;
+  let left = r.left + r.width/2 - w/2;
+  left = Math.max(HINT_MARGIN, Math.min(maxL < HINT_MARGIN ? HINT_MARGIN : maxL, left));
+  let top = r.top - h - 8;                        // 기본은 아이콘 위
+  if(top < HINT_MARGIN) top = r.bottom + 8;       // 위가 좁으면 아래로
+  top = Math.min(top, window.innerHeight - h - HINT_MARGIN);
+  el.style.left = Math.round(left)+'px';
+  el.style.top = Math.round(Math.max(HINT_MARGIN, top))+'px';
+}
+function hideHint(){ const el=document.getElementById('hintPop'); if(el) el.classList.remove('show'); }
+document.addEventListener('mouseover', e=>{ const i=e.target.closest?.('.hint'); if(i) showHint(i); });
+document.addEventListener('mouseout',  e=>{ if(e.target.closest?.('.hint')) hideHint(); });
+document.addEventListener('focusin',   e=>{ const i=e.target.closest?.('.hint'); if(i) showHint(i); });
+document.addEventListener('focusout',  e=>{ if(e.target.closest?.('.hint')) hideHint(); });
+// 터치: 아이콘을 누르면 열고, 다른 곳을 누르면 닫음
+document.addEventListener('click', e=>{
+  const i = e.target.closest?.('.hint');
+  if(i){ e.stopPropagation(); showHint(i); } else hideHint();
+}, true);
+window.addEventListener('scroll', hideHint, true);
+window.addEventListener('resize', hideHint);
 
 // ============ 단기 기술적 지표 (실제 5년치 데이터 백테스트로 검증된 규칙) ============
 // 2026-07 대형주 14종목 5년치 백테스트 결과: RSI<30 단독이 in-sample/out-of-sample 모두
@@ -1032,7 +1090,7 @@ function computeRiskProfile(closes, dates){
 
 // ============ 종목 분석 ============
 async function analyzeTicker(ticker, env){
-  const {opens, highs, lows, closes, dates, volumes} = await fetchDailyCloses(ticker);
+  const {opens, highs, lows, closes, dates, volumes, source, dropped} = await fetchDailyCloses(ticker);
   const price = last(closes);
   const fund = FUNDAMENTALS_DATA[ticker] || {};
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[ticker] : null;
@@ -1074,6 +1132,7 @@ async function analyzeTicker(ticker, env){
     debtEquity: fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'] ?? null,
     score: breakdown.total, breakdown, verdict,
     techScore, techVerdict, entryStat, fairValue, risk,
+    dataHealth: computeDataHealth(dates, source, dropped),
     series: {opens, highs, lows, closes, dates, ma20: ma20arr, rsiArr: rsi(closes), techSeries, fairValue},
   };
 }
@@ -1094,15 +1153,22 @@ async function scanAll(){
   status.innerHTML = `<div class="loading">체크 중... (0/${list.length})</div>`;
   results = {};
   let done = 0;
-  for(const t of list){
-    try{
-      results[t] = await analyzeTicker(t, marketEnv);
-    }catch(e){
-      results[t] = {ticker:t, error:true, msg:e.message, theme:(FUNDAMENTALS_DATA[t]||{}).theme || '기타'};
+  // 예전엔 24종목을 한 개씩 순서대로 기다려서(프록시 왕복 × 24) 매우 느렸음.
+  // 동시에 SCAN_CONCURRENCY개씩 처리 - 프록시가 동시요청을 제한하는 경우가 있어 무제한 병렬은 피함.
+  const queue = [...list];
+  async function worker(){
+    while(queue.length){
+      const t = queue.shift();
+      try{
+        results[t] = await analyzeTicker(t, marketEnv);
+      }catch(e){
+        results[t] = {ticker:t, error:true, msg:e.message, theme:(FUNDAMENTALS_DATA[t]||{}).theme || '기타'};
+      }
+      done++;
+      status.innerHTML = `<div class="loading">체크 중... (${done}/${list.length})</div>`;
     }
-    done++;
-    status.innerHTML = `<div class="loading">체크 중... (${done}/${list.length})</div>`;
   }
+  await Promise.all(Array.from({length: Math.min(SCAN_CONCURRENCY, list.length)}, worker));
   status.innerHTML = '';
   document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
   btn.disabled = false;
@@ -1408,6 +1474,7 @@ function tabJudgement(r){
     <div id="techSection">${techViewOpen ? renderTechSection(r) : ''}</div>
     ${renderTradePlan(r)}
     ${renderSignalHistory(r)}
+    ${renderDataHealth(r)}
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
     ${renderSellGuide(r)}
@@ -1505,6 +1572,41 @@ function renderFairValueSection(r){
       <b>하방 시나리오</b> — 이익은 그대로인데 <b>밸류에이션만 과거 하위 20% 수준으로 눌리면</b> 약 <b>$${fv.downside.toFixed(0)}</b> (${rel(fv.downside)}). 분할매수 계획을 세울 때 "여기까지는 빠질 수 있다"의 기준으로 쓰세요.</div>` : ''}
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
       ⚠️ <b>"싸다"를 매수 신호로 쓰지 마세요.</b> 대형주 13종목 13년치로 직접 검증했더니, 적정가 대비 <b>매우 저평가된 종목의 이후 12개월 성적이 오히려 더 나빴어요</b>(초과수익 +19%·승률 58% vs 매우 고평가 +23%·승률 71%). 낮은 PER은 이익이 꺾일 걸 시장이 미리 반영한 경우가 많거든요(밸류 트랩). 이 숫자는 <b>"지금 얼마를 지불하고 있는지 눈금"</b>과 <b>하방 가늠</b>으로만 쓰고, 살지 말지는 위 눌림목 점수와 02~05 탭 펀더멘털로 판단하세요.
+    </div>`;
+}
+
+// ============ 가격 데이터 점검 (2026-07-28 추가) ============
+// [왜 필요한가] 신호 이력의 "N거래일 전"과 쿨다운 판정은 '날짜'가 아니라 '배열 인덱스 간격'으로 계산됨.
+// 그런데 야후가 특정 날짜의 종가를 null로 주면 fetchYahooViaProxies가 그 봉을 통째로 버리기 때문에,
+// 같은 종목이라도 기기/프록시에 따라 봉 개수가 1개 달라질 수 있음. 그러면 인덱스가 하루씩 당겨져
+// 쿨다운(5거래일)에 걸리는 날이 바뀌고, 결국 '진입 신호로 인정되는 날짜'까지 달라짐.
+// (실제 사례 2026-07: PC는 7/24에 신호 · 폰은 7/27에 신호. 폰 쪽 배열에 봉이 1개 적어서 생긴 차이)
+// 그래서 기기 간 비교가 가능하도록 출처·마지막 거래일·봉 개수를 화면에 그대로 보여준다.
+function computeDataHealth(dates, source, dropped){
+  if(!dates || !dates.length) return null;
+  // 최근 30봉 안에서 '거래일인데 빠진 날'을 찾음. 미국 공휴일도 여기 걸리므로 단정하지 않고 후보로만 표시.
+  const missing = [];
+  const from = Math.max(1, dates.length-30);
+  for(let i=from;i<dates.length;i++){
+    const prev = new Date(dates[i-1]+'T00:00:00Z'), cur = new Date(dates[i]+'T00:00:00Z');
+    for(let d=new Date(prev); ; ){
+      d.setUTCDate(d.getUTCDate()+1);
+      if(d >= cur) break;
+      const wd = d.getUTCDay();
+      if(wd!==0 && wd!==6) missing.push(d.toISOString().slice(0,10));
+    }
+  }
+  return {source: source||'알 수 없음', bars: dates.length, lastDate: dates[dates.length-1], dropped: dropped||0, missing};
+}
+function renderDataHealth(r){
+  const h = r.dataHealth;
+  if(!h) return '';
+  const warn = h.missing.length || h.dropped;
+  return `
+    <div class="sub" style="margin-top:8px;padding:8px 10px;background:${warn?'var(--warn-bg)':'var(--panel-2)'};border-radius:8px;${warn?'color:#876000;':''}">
+      <b>가격 데이터 점검</b> ${hintIcon('dataHealth')} &nbsp;출처 <b>${esc(h.source)}</b> · 마지막 거래일 <b>${esc(h.lastDate)}</b> · 총 <b>${h.bars}봉</b>${h.dropped?` · 종가 없는 날 ${h.dropped}개 제외됨`:''}
+      ${h.missing.length ? `<br>최근 30봉에서 빠진 평일: <b>${h.missing.map(esc).join(', ')}</b> — 미국 공휴일이면 정상이에요. 공휴일이 아닌데 빠져 있으면 그날 데이터를 못 받은 거라, <b>"N거래일 전" 표시와 신호 인정 날짜가 다른 기기와 달라질 수 있어요.</b>` : ''}
+      <br><span style="color:var(--sub);">PC와 폰이 다르게 보이면 이 줄(마지막 거래일·총 봉수)을 비교해 보세요. 숫자가 다르면 두 기기가 서로 다른 가격 데이터를 받은 거예요 — 새로고침하면 대개 맞춰집니다.</span>
     </div>`;
 }
 
