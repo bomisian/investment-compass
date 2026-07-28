@@ -213,6 +213,11 @@
     <div class="sub" style="margin-top:8px;">이 정보는 <b>이 브라우저에만 저장</b>되고 어디로도 전송되지 않아요(GitHub에 올라가는 파일에도 안 들어감). 현재가는 "전체 스캔"이나 종목 조회를 한 뒤에 반영돼요.</div>
   </div>
 
+  <div class="card" id="marketCard" style="display:none;">
+    <h2>오늘의 시장 환경 <span style="font-weight:400;font-size:12px;color:var(--sub);">(금리·유가·달러 등 · 스캔 없이 바로 보여요)</span></h2>
+    <div id="marketBody"></div>
+  </div>
+
   <div class="card" id="summaryCard" style="display:none;">
     <h2>장기 눌림목 강도 요약 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 저가매수 타이밍 · 우량주 전제)</span></h2>
     <div class="summary-grid">
@@ -318,6 +323,8 @@
 <script src="estimates_data.js"></script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
 <script src="news_data.js" onerror="void 0"></script>
+<!-- 시장 환경 지표 + 시장 헤드라인 - 없으면 '오늘의 시장 환경' 카드만 숨겨짐 -->
+<script src="market_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -673,6 +680,7 @@ const HINTS = {
   targetMean: "여러 애널리스트가 제시한 목표주가의 평균이에요.",
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
+  marketNews: "시장 전체 헤드라인이에요(특정 종목이 아니라 시장 전반). 위 지표가 크게 움직인 날 '무슨 일이 있었는지'를 여기서 확인하세요. 이 도구는 뉴스를 읽고 원인을 자동으로 판단하지는 않아요 - 숫자가 어떻게 움직였는지만 보여주고, 이유는 직접 확인하시는 구조예요.",
   dataHealth: "이 화면이 어떤 가격 데이터로 계산됐는지예요. 신호 이력의 'N거래일 전'과 신호 쿨다운은 날짜가 아니라 '받아온 봉의 순서'로 세기 때문에, 어느 하루의 데이터를 못 받으면 그 뒤 숫자가 하루씩 밀리고 신호로 인정되는 날짜까지 달라질 수 있어요. PC와 폰이 다르게 보이면 마지막 거래일과 총 봉수를 비교해 보세요.",
 };
 function hintIcon(key){
@@ -1830,6 +1838,183 @@ function esc(s){
 function newsEntry(ticker){
   return (typeof NEWS_DATA !== 'undefined' && NEWS_DATA) ? NEWS_DATA[ticker] : null;
 }
+
+// ============ 오늘의 시장 환경 (2026-07-28 추가) ============
+// [사용자 요청 배경] "VIX만으로는 부족하다. 유가·채권금리도 보고 싶은데, 초보자는 지금 값이
+//  높은 건지 낮은 건지를 알 수가 없다. 전일 등락만 보여주는 게 의미가 있나?"
+// → 그래서 '전일 등락'이 아니라 **레벨(5년 백분위)과 추세**를 주인공으로 삼고,
+//   전일 등락은 보조로만 표시한다. 값이 크게 움직인 날은 아래 헤드라인을 보라고 안내.
+//
+// ⚠️ 해석 문구는 '교과서적으로 알려진 관계'이지 이 프로젝트가 백테스트로 검증한 규칙이 아님.
+//   실제로 이 프로젝트의 15년치 검증에서 VIX·F&G는 12개월 초과수익 예측력이 0이었음.
+//   그래서 매수/매도 신호로 쓰지 말고 '환경 설명'으로만 쓰라고 화면에 명시한다.
+//   '왜 움직였는지(원인)'는 데이터만으로 알 수 없으므로 절대 지어내지 않고, 헤드라인을 옆에 붙여
+//   사용자가 직접 확인하게 한다.
+const MACRO_ORDER = ['us10y','oil','dollar','vix','gold','us3m'];
+
+function levelLabel(pctRank){
+  if(pctRank>=90) return {t:'매우 높은 편', c:'var(--up)'};
+  if(pctRank>=70) return {t:'높은 편',      c:'var(--up)'};
+  if(pctRank>=30) return {t:'보통 수준',    c:'var(--sub)'};
+  if(pctRank>=10) return {t:'낮은 편',      c:'var(--down)'};
+  return {t:'매우 낮은 편', c:'var(--down)'};
+}
+function trendLabel(m){
+  const up20 = (m.ma20!=null) && m.current > m.ma20;
+  const c1 = m.chg1m, c3 = m.chg3m;
+  if(c1==null) return '방향 불분명';
+  let base, clearTrend = true;
+  if(up20 && c1>0) base = '오르는 추세';
+  else if(!up20 && c1<0) base = '내리는 추세';
+  else { base = '뚜렷한 방향 없음 (횡보)'; clearTrend = false; }
+  // 1개월 방향과 3개월 방향이 반대면 '최근 방향이 바뀐' 구간이라는 뜻이라 그대로 알려줌.
+  // (횡보일 땐 덧붙이면 오히려 헷갈려서 생략)
+  if(clearTrend && c3!=null && c1!==0 && c3!==0 && (c1>0) !== (c3>0)){
+    base += (c1>0) ? ' (3개월 기준으론 아직 하락)' : ' (3개월 기준으론 아직 상승)';
+  }
+  // 어제 하루 크게 움직였는데 추세와 반대 방향이면, 추세만 보고 오해하지 않도록 덧붙임
+  const d = m.changePct;
+  if(d!=null && Math.abs(d) >= 3 && c1!==0 && (d>0) !== (c1>0)){
+    base += ` · 다만 어제 ${d>=0?'급등':'급락'}`;
+  }
+  return base;
+}
+// 백분위를 초보자가 바로 이해할 수 있는 문장으로. "상위 3%"보다 "100일 중 3일"이 직관적임.
+function levelSentence(pctRank){
+  const top = Math.round(100 - pctRank);
+  if(top <= 0) return '5년 중 <b>가장 높은 수준</b>';
+  if(top >= 100) return '5년 중 <b>가장 낮은 수준</b>';
+  // '뿐'은 수치가 작을 때만 자연스러움(60일뿐 → 어색)
+  return `지난 5년 중 <b>100일에 ${top}일</b>만 지금보다 높았어요`;
+}
+// 지표별 '높을 때 / 낮을 때 주식에 어떤 영향인지' - 정적인 교과서 설명. 예측이 아님.
+const MACRO_MEANING = {
+  us10y: {
+    high: '금리가 높으면 <b>먼 미래의 이익이 지금 가치로는 더 깎여</b> 보여서, 성장주·기술주에 특히 불리해요. 빚이 많은 기업은 이자 부담도 커집니다.',
+    low:  '금리가 낮으면 미래 이익의 가치가 덜 깎여서 <b>성장주·기술주에 유리한 환경</b>이에요.',
+    mid:  '금리가 중간 수준이면 주식에 특별히 유리하지도 불리하지도 않은 편이에요. <b>방향(오르는 중인지)</b>이 레벨보다 중요할 수 있어요.',
+  },
+  oil: {
+    high: '유가가 높으면 <b>물가와 기업 비용이 올라가고</b> 소비 여력이 줄어요. 항공·운송·소비재에 불리하고 에너지 기업엔 유리합니다.',
+    low:  '유가가 낮으면 <b>물가 안정에 도움</b>이 되고 비용 부담이 줄어요. 다만 급락이면 "경기가 나빠지는 신호 아니냐"는 해석도 같이 나옵니다.',
+    mid:  '유가가 보통 수준이면 시장에 큰 부담도 도움도 아닌 편이에요.',
+  },
+  dollar: {
+    high: '달러가 강하면 <b>해외 매출 비중이 큰 미국 대기업의 실적이 환산 과정에서 줄어</b> 보여요. 애플·마이크로소프트처럼 해외 비중이 큰 종목에 부담입니다.',
+    low:  '달러가 약하면 해외에서 번 돈이 <b>달러로 환산될 때 더 커져서</b> 다국적 기업 실적에 유리해요.',
+    mid:  '달러가 보통 수준이면 실적 환산 영향은 크지 않은 편이에요.',
+  },
+  vix: {
+    high: '시장이 <b>불안해하고 있다</b>는 뜻이에요. 하루하루 등락이 커지고, 좋은 뉴스에도 주가가 흔들릴 수 있어요.',
+    low:  '시장이 <b>안정적</b>이라는 뜻이에요. 다만 지나치게 낮으면 "방심하고 있다"는 반대 해석도 있어요.',
+    mid:  '변동성이 평범한 수준이에요.',
+  },
+  gold: {
+    high: '금이 비싸다는 건 <b>안전자산을 찾는 수요</b>가 많거나 인플레이션 우려가 있다는 뜻으로 해석돼요.',
+    low:  '금 수요가 적다는 건 시장이 <b>위험을 감수할 여유</b>가 있다는 쪽으로 해석돼요.',
+    mid:  '금값이 보통 수준이에요.',
+  },
+  us3m: {
+    high: '단기 금리는 주로 <b>연준의 정책금리</b>를 반영해요. 높으면 돈 빌리는 비용이 비싸다는 뜻이에요.',
+    low:  '단기 금리가 낮다는 건 <b>연준이 돈을 풀고 있다</b>는 쪽에 가까워요.',
+    mid:  '단기 금리가 보통 수준이에요.',
+  },
+};
+function macroMeaning(key, pctRank){
+  const m = MACRO_MEANING[key];
+  if(!m) return '';
+  if(pctRank>=70) return m.high;
+  if(pctRank<=30) return m.low;
+  return m.mid;
+}
+
+function renderMarketCard(){
+  const card = document.getElementById('marketCard');
+  const body = document.getElementById('marketBody');
+  if(!card || !body) return;
+  const M = (typeof MARKET_DATA !== 'undefined') ? MARKET_DATA : null;
+  if(!M || !M.indicators || !Object.keys(M.indicators).length) return;  // 파일 없으면 카드 자체를 숨김
+  card.style.display = 'block';
+
+  const fmt = (v, digits, unit) => v==null ? '-' : (unit==='$'?'$':'') + v.toFixed(digits) + (unit==='%'?'%':'');
+  const rows = MACRO_ORDER.filter(k=>M.indicators[k]).map(k=>{
+    const m = M.indicators[k];
+    const lv = levelLabel(m.pctRank);
+    const chg = m.changePct;
+    const chgTxt = chg==null ? '-' : `${chg>=0?'+':''}${chg.toFixed(2)}%`;
+    const bigMove = chg!=null && Math.abs(chg) >= 3;   // 하루 3% 이상이면 '무슨 일' 있었던 것
+    // 백분위 막대 - 5년 범위 안에서 지금 어디인지 눈으로 보여줌
+    const bar = `<div style="height:6px;border-radius:4px;background:var(--line);position:relative;margin:6px 0 4px;">
+        <div style="position:absolute;left:${Math.max(0,Math.min(100,m.pctRank)).toFixed(0)}%;top:-3px;width:3px;height:12px;background:var(--text);border-radius:2px;"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--sub);">
+        <span>5년 최저 ${fmt(m.min5y,m.digits,m.unit)}</span><span>최고 ${fmt(m.max5y,m.digits,m.unit)}</span>
+      </div>`;
+    return `<div class="fund-col" style="min-width:280px;">
+      <div class="row" style="justify-content:space-between;align-items:baseline;">
+        <h3 style="margin:0;">${esc(m.label)}</h3>
+        <span style="font-family:var(--mono);font-size:15px;font-weight:800;">${fmt(m.current,m.digits,m.unit)}</span>
+      </div>
+      <div class="sub" style="margin-top:2px;">
+        <b style="color:${lv.c};">${lv.t}</b> · ${levelSentence(m.pctRank)}<br><b>${trendLabel(m)}</b>
+      </div>
+      ${bar}
+      <div class="sub" style="margin-top:6px;">
+        전일 <b style="color:${chg>=0?'var(--up)':'var(--down)'};">${chgTxt}</b>
+        ${m.chg1mPct!=null?` · 1개월 ${m.chg1mPct>=0?'+':''}${m.chg1mPct.toFixed(1)}%`:''}
+        ${m.chg3mPct!=null?` · 3개월 ${m.chg3mPct>=0?'+':''}${m.chg3mPct.toFixed(1)}%`:''}
+        ${bigMove?`<br><b style="color:var(--warn);">어제 하루에 ${chgTxt} 움직였어요 — 아래 헤드라인에서 이유를 확인해 보세요.</b>`:''}
+      </div>
+      <div class="sub" style="margin-top:6px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">${macroMeaning(k, m.pctRank)}</div>
+    </div>`;
+  }).join('');
+
+  // 장단기 금리차 - 마이너스면 '금리 역전'
+  let spreadBlock = '';
+  if(M.yieldSpread!=null){
+    const s = M.yieldSpread;
+    const inverted = s < 0;
+    spreadBlock = `<div class="comment-box" style="background:${inverted?'var(--warn-bg)':'var(--panel-2)'};color:${inverted?'#876000':'#4b5157'};margin-top:12px;">
+      <b>장단기 금리차 (10년물 − 3개월) = ${s>=0?'+':''}${s.toFixed(2)}%p</b> —
+      ${inverted
+        ? '지금은 <b>금리가 역전</b>된 상태예요(단기 금리가 더 높음). 과거 경기침체 앞에서 자주 나타났던 신호지만, <b>실제 침체까지 1~2년씩 걸리고 예외도 있어서</b> 그 자체로 매도 신호는 아니에요.'
+        : '단기보다 장기 금리가 높은 <b>정상적인 모양</b>이에요. 보통 경기가 무난하다는 쪽으로 해석돼요.'}
+    </div>`;
+  }
+
+  // 시장 헤드라인 - 외부 텍스트라 반드시 esc(), 링크는 http(s)만 허용
+  let newsBlock = '';
+  if((M.news||[]).length){
+    const items = M.news.map(n=>{
+      const dt = n.datetime ? new Date(n.datetime*1000) : null;
+      const dtTxt = dt ? `${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')} ${String(dt.getHours()).padStart(2,'0')}:${String(dt.getMinutes()).padStart(2,'0')}` : '';
+      const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
+      const title = esc(n.headline);
+      return `<div class="fund-row" style="align-items:flex-start;gap:10px;">
+        <span style="flex:1;">${safeUrl?`<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow" style="color:var(--text);">${title}</a>`:title}</span>
+        <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;font-size:11px;">${esc(n.source)} ${dtTxt}</span>
+      </div>`;
+    }).join('');
+    newsBlock = `<div class="chart-label" style="margin-top:18px;">시장 헤드라인 ${hintIcon('marketNews')}</div>${items}`;
+  }
+
+  body.innerHTML = `
+    <div class="fund-grid" style="gap:14px;">${rows}</div>
+    ${spreadBlock}
+    <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
+      <b>전일 등락보다 '레벨'을 먼저 보세요.</b> 하루 등락은 그날 분위기일 뿐이고, 6~12개월 관점에서는
+      <b>지금 값이 역사적으로 높은 자리인지</b>와 <b>어느 방향으로 가고 있는지</b>가 더 중요해요.
+      다만 하루에 3% 넘게 움직였다면 뭔가 사건이 있었다는 뜻이니, 그때는 아래 헤드라인을 확인해 보세요.
+    </div>
+    <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
+      ⚠️ <b>여기 설명은 '일반적으로 알려진 관계'이지 이 도구가 검증한 규칙이 아니에요.</b>
+      실제로 이 프로젝트가 15년치 데이터로 검증했을 때 <b>VIX와 공포탐욕지수는 12개월 수익률을 전혀 예측하지 못했어요</b>
+      (오히려 시장이 조정받을 때가 매수 적기였음). 그래서 이 카드는 <b>매수·매도 신호가 아니라 '지금 어떤 환경인지' 읽는 용도</b>로만 쓰세요.
+      실제 매수 타이밍은 종목별 눌림목 점수와 단타 신호로 판단하시면 돼요.
+    </div>
+    ${newsBlock}
+    <div class="sub" style="margin-top:10px;">지표 갱신: ${esc(M._updated_label||'-')} · 레벨은 최근 5년 일별 데이터 기준 백분위예요.</div>`;
+}
 function earningsBadge(ticker){
   const e = newsEntry(ticker);
   const ne = e && e.nextEarnings;
@@ -2889,6 +3074,7 @@ function setupForecastChart(ticker){
 renderTdKeyStatus();
 renderCustomTickerList();
 renderHoldings();
+renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 </script>
