@@ -948,7 +948,7 @@ function computeFairValue(ticker, price, fund, est){
     out.fwd = {unavailable:'현재가를 조회하지 못해 계산할 수 없어요.'};
   } else if(!(eps0>0) || !(eps1>0)){
     out.fwd = {unavailable: (eps0!=null||eps1!=null)
-      ? '예상 EPS가 적자(마이너스)라 PER 방식으로는 계산할 수 없어요.'
+      ? '예상 EPS가 0 이하(적자)라 PER 방식으로는 계산할 수 없어요.'
       : '애널리스트 예상 EPS를 조회하지 못했어요(ETF는 원래 없어요).'};
   } else {
     const anchorPe = price / eps0;          // 지금 시장이 매기는 PER (올해 예상 이익 기준)
