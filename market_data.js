@@ -3,20 +3,20 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 18.209999084472656,
-      "prevClose": 18.670000076293945,
-      "changeAbs": -0.46000099182128906,
-      "changePct": -2.4638510441431167,
-      "pctRank": 51.910828025477706,
+      "current": 18.399999618530273,
+      "prevClose": 18.209999084472656,
+      "changeAbs": 0.1900005340576172,
+      "changePct": 1.0433857419555133,
+      "pctRank": 53.503184713375795,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 16.99949984550476,
-      "ma60": 17.428333298365274,
-      "chg1m": -0.20000076293945312,
-      "chg3m": 0.37999916076660156,
-      "chg1mPct": -1.0863702585395034,
-      "chg3mPct": 2.131234786273722,
-      "lastDate": "2026-07-28",
+      "ma20": 17.0969997882843,
+      "ma60": 17.43016661008199,
+      "chg1m": 0.75,
+      "chg3m": -0.4099998474121094,
+      "chg1mPct": 4.249291876542562,
+      "chg3mPct": -2.1796909040558994,
+      "lastDate": "2026-07-29",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.19000244140625,
+      "current": 82.22000122070312,
       "prevClose": 79.26000213623047,
-      "changeAbs": 2.9300003051757812,
-      "changePct": 3.6966947088138564,
-      "pctRank": 69.68973747016707,
+      "changeAbs": 2.9599990844726562,
+      "changePct": 3.734543281219032,
+      "pctRank": 69.76929196499603,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 78.61600074768066,
-      "ma60": 85.97083333333333,
-      "chg1m": 11.44000244140625,
-      "chg3m": -17.73999786376953,
-      "chg1mPct": 16.169614758171377,
-      "chg3mPct": -17.752424506748156,
+      "ma20": 78.61750068664551,
+      "ma60": 85.97133331298828,
+      "chg1m": 11.470001220703125,
+      "chg3m": -17.709999084472656,
+      "chg1mPct": 16.21201585965106,
+      "chg3mPct": -17.72240471368775,
       "lastDate": "2026-07-29",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.33000183105469,
+      "current": 101.34100341796875,
       "prevClose": 101.37999725341797,
-      "changeAbs": -0.04999542236328125,
-      "changePct": -0.049314878395891534,
-      "pctRank": 42.675159235668794,
+      "changeAbs": -0.03899383544921875,
+      "changePct": -0.03846304646442876,
+      "pctRank": 42.9140127388535,
       "min5y": 91.86000061035156,
       "max5y": 114.11000061035156,
-      "ma20": 101.07550048828125,
-      "ma60": 100.014000193278,
-      "chg1m": -0.029998779296875,
-      "chg3m": 2.8499984741210938,
-      "chg1mPct": -0.029596269846323704,
-      "chg3mPct": 2.893986979053486,
+      "ma20": 101.07605056762695,
+      "ma60": 100.0141835530599,
+      "chg1m": -0.0189971923828125,
+      "chg3m": 2.8610000610351562,
+      "chg1mPct": -0.018742297028826557,
+      "chg3mPct": 2.9051583707462623,
       "lastDate": "2026-07-29",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4039.10009765625,
+      "current": 4095.699951171875,
       "prevClose": 4036.300048828125,
-      "changeAbs": 2.800048828125,
-      "changePct": 0.06937167193350625,
-      "pctRank": 85.60063643595863,
+      "changeAbs": 59.39990234375,
+      "changePct": 1.4716423859766274,
+      "pctRank": 87.19172633253778,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4068.9900390625,
-      "ma60": 4291.089998372396,
-      "chg1m": 16.800048828125,
-      "chg3m": -552.39990234375,
-      "chg1mPct": 0.4176726903558476,
-      "chg3mPct": -12.030924585511272,
+      "ma20": 4071.820031738281,
+      "ma60": 4292.033329264323,
+      "chg1m": 73.39990234375,
+      "chg3m": -495.800048828125,
+      "chg1mPct": 1.8248241417279314,
+      "chg3mPct": -10.798215154701623,
       "lastDate": "2026-07-29",
       "bars": 1257,
       "symbol": "GC=F",
@@ -132,14 +132,6 @@ const MARKET_DATA = {
   "yieldSpread": 0.8440001010894775,
   "sector": {
     "groups": {
-      "반도체": {
-        "ret1m": -20.9458209848574,
-        "ret3m": 13.259835042522061,
-        "ret6m": 63.00165264518887,
-        "ret1y": 207.58534541440068,
-        "winRate": 71.5,
-        "count": 15
-      },
       "빅테크·SW": {
         "ret1m": 1.689275007542701,
         "ret3m": -7.44354233809883,
@@ -147,11 +139,19 @@ const MARKET_DATA = {
         "ret1y": -3.3530799875806094,
         "winRate": 60.8,
         "count": 9
+      },
+      "반도체": {
+        "ret1m": -20.9458209848574,
+        "ret3m": 13.259835042522061,
+        "ret6m": 63.00165264518887,
+        "ret1y": 207.58534541440068,
+        "winRate": 71.5,
+        "count": 15
       }
     },
     "pair": [
-      "반도체",
-      "빅테크·SW"
+      "빅테크·SW",
+      "반도체"
     ],
     "corr60": 0.11496792019743002,
     "corrPctRank": 0.0,
@@ -161,90 +161,90 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/the-dow-jumps-as-the-ai-trade-wobbles-plus-a-portfolio-name-goes-on-the-ma-hunt.html",
-      "datetime": 1785266115,
-      "headlineKo": "다우지수는 AI 거래가 흔들리면서 급등한다. 또한 M&A 사냥에 포트폴리오 이름이 사용됩니다."
+      "headline": "Oil rises as US-Iran tension escalates after Iraq strikes, missile attack - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd0ctWlZRN0hINkdrNUJmWWxpV0ZGNGw2Y2taRk1DbFBpdzd5bFdXQmJEcW9VRExnRFBtTWlTTHBRTU5tcDN2azF6VmtxdDN6WlVncmJxSVJhYjM4Wlctb3NEcnEzSWt4djdPSWJJX3ItYmpaN0UyZ09pbV85YjlRMkQ4RTV2RDE2c2NhYlRTdEVEUUFoWEVLMVBqUzhhX2xtVlJLUFp0RWFZTFpCSGJwMTRydUQ3NUx6ejJyYWFCdzBMVWpOYWZqbzF3?oc=5",
+      "datetime": 1785309246,
+      "headlineKo": "이라크 공습과 미사일 공격으로 미국-이란 긴장이 고조되면서 유가 상승 - 로이터"
     },
     {
-      "headline": "Jim Cramer: J&J talc settlement is good for a stock that has so much going for it already",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/jim-cramer-jj-talc-settlement-is-good-for-a-stock-that-has-so-much-going-for-it-already.html",
-      "datetime": 1785263395,
-      "headlineKo": "짐 크레이머(Jim Cramer): J&J 활석 결제는 이미 많은 가치를 지닌 주식에 적합합니다."
+      "headline": "EXCLUSIVE: Iran to get Chinese shoulder-launched missile systems in weeks, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPR19sNWVrRDdhcXlNdTlxcUdNR0dNWDRBcjZPd21xOEM2bEYtdDJiWTEtYzlweWs5ZmtILVlhQkVUNzdaaENHbnhqTl9SSFNCZjk3eXNMS1o4SXFzT2VBS3VZZ0p6MVlrQldWNjRMUGlTN2tDR2xUOVBUdkdkTndueExrQm9vRGtTLTdBWjNGMDhZRC1qNDZXYVk3TXB0bWZ4ZFhpYUtfZ2JaalVZdjU3emN6LUptbjA?oc=5",
+      "datetime": 1785303657,
+      "headlineKo": "독점: 이란이 몇 주 안에 중국의 견착형 미사일 시스템을 도입할 것이라고 소식통이 전했습니다 - 로이터 통신"
     },
     {
-      "headline": "We're trimming a rallying stock to protect against a potential earnings letdown",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/were-trimming-a-rallying-stock-to-protect-against-a-potential-earnings-letdown-.html",
-      "datetime": 1785262624,
-      "headlineKo": "잠재적인 수익 감소를 방지하기 위해 상승 중인 주식을 정리하고 있습니다."
+      "headline": "Iran rules out Omani proposal to manage Strait of Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcFJoOXIwZmxCNHBjd05nc3dlYjNXXzd1NzdyQldTOVQ4S3NjZnNDRWdqdG1WUFRUS2tRSkJJTEhQYjJWa1FraklySUtoamVybzBfbUR4aUItanFrRG1hMDZJTzlSQ3lrS25SLUo4QzR0RVQxdmFSVUFaUFpHYWV0cmdnVURNVHJ1QzBzM0pIRTMwUmVFZmxwVVpyTklTallXU2ZLOGl3TDJ1U3VnRzd3bmZnQjVfcUw2a1pWSGdFOTNlUXFa?oc=5",
+      "datetime": 1785295740,
+      "headlineKo": "이란, 호르무즈 해협 관리에 대한 오만의 제안 배제 - 로이터"
     },
     {
-      "headline": "We're buying the dip on one of our stocks for two key reasons",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/were-buying-the-dip-on-one-of-our-stocks-for-two-key-reasons.html",
-      "datetime": 1785260721,
-      "headlineKo": "우리는 두 가지 주요 이유로 주식 중 하나의 하락세를 매수하고 있습니다."
+      "headline": "US military says US, Saudi forces struck sites of Iran-backed groups in Iraq - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHJGTGM0cWxxc1lyajNFQ1Y1NXNKUUdnREtjZDk3Z3RaRUFabm41dmF2UE1YVTFfbVJNTHJWZTlRYzJCTEpGbnVRWlg1akk2cGJKamVPRmZQNEZZRFVsSFp1LXFOOWQxYzRObjYyYmQ1U29LWUVyRHAtNHVFcUplWHlZYWZnWVFJeTVxdmktRVdmaTJ2aTh6SkM5R3VJOEtKR254SzdEMFNyZFJHcHJGN3kwaE4ySVdSUngwbTdhZ1M?oc=5",
+      "datetime": 1785285420,
+      "headlineKo": "미군, 미국과 사우디군이 이라크에서 이란이 지원하는 단체들을 공격했다고 밝혔습니다 - 로이터"
     },
     {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "datetime": 1785243430,
-      "headlineKo": "Jim Cramer가 화요일 주식 시장에서 주목해야 할 10가지 항목"
+      "headline": "Zelenskiy says he told Trump, senators that Ukraine needs anti-ballistic systems, missiles - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMk9Eb1BSa0hvSWNXcXdRTlhzR2NiU1NmUmxzYlpaNVpiWVNackZfZnRWMXRrc1ctLWRGV1NmdGZQMDFXd2JQLW9Xc0FmdG1DV1dTMWhFMjM0X2RiQmJxWHNJajNOYk84alR3dWVlejd6d0tfMThpRjgwaVR2MTJvTzhoNVdVeUVydVJhOFQtWEVzYjllODNGLUhqamo0ampIYlZIa0t5dG9SNEs0T3ptOEVDRzdSZFc3NXNZMVJVbTY5b00ycjNFUnNZM1h4SU1UY1dGRUR0c0hzZw?oc=5",
+      "datetime": 1785282184,
+      "headlineKo": "젤렌스키는 우크라이나에 탄도미사일과 미사일이 필요하다고 트럼프 대통령과 상원의원들에게 말했다고 말했습니다."
     },
     {
-      "headline": "Coca-Cola is about to report earnings. Here's what to expect",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
-      "datetime": 1785234301,
-      "headlineKo": "코카콜라가 수익 보고를 앞두고 있습니다. 예상되는 내용은 다음과 같습니다."
+      "headline": "US says it intercepted Iranian ballistic missiles launched towards US forces in Middle East - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbExYYjdfX1I4Mmt6eFo1Ty1JWjFtdEl5dWxIRnJsbllyODZPd3pmUjc0bzlMX29iV1ZlaUJVSUwwNl8yNkd1dkI5WERxdm1NUXp6Q1RXS1JqLVgzZzZXbFA4ZU9HU2Q0UVNQS2h3N0dtTldHbE5oLUxPek9iem9uMTBiZGU0QUNNeUpwX2Z2ZVF5bkVEZ1FVVjBlVkFoRjBzVkN1ZWU2N1hSbXR0QjgyUVpveXNsT244VDQ1Zm5Nb3BUbFRjR3FNUDhmZTQ?oc=5",
+      "datetime": 1785281520,
+      "headlineKo": "미국, 중동 주둔 미군을 향해 발사된 이란의 탄도미사일을 요격했다고 밝혔습니다 - 로이터"
     },
     {
-      "headline": "HSBC uses leverage to win $5.5 billion in India Forex deposits",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/hsbc-uses-leverage-to-win-5-5-billion-in-india-forex-deposits",
-      "datetime": 1785210898,
-      "headlineKo": "HSBC는 레버리지를 사용해 인도 외환 예금에서 55억 달러를 확보했습니다."
+      "headline": "Top US oil trade group opposes Hormuz tolls after Gulf-backed voluntary fee proposal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQjBCRWJ5ekpMbWF5dm5Yc0c4c0VXTDNZaGlybGZ2OU4xaGx2cEZjMjl1RUZnT3YyQTFhM0ptTHZSbUJiWkZGMDRydFlYZktRVTNPMU9nTzhqUXg2Rzc2V3hjYkczbllfLWszbEJORmVlVDRTYUJBVmhiX19VVVNGVDdjcS1zcmRCLTZnUm1GS0NQOHhXRHlTSThZYVNBT1NlOFR6N0JvODU0YnRhOFNsZTlKWTJiMDFGZE1DQUQ2T0NjbWFpWDRMVw?oc=5",
+      "datetime": 1785279354,
+      "headlineKo": "미국 최고 석유 무역 그룹, 걸프만 지원 자발적 수수료 제안 후 호르무즈 통행료 반대 - 로이터 통신"
     },
     {
-      "headline": "Anthropic’s Dario Amodei rejects open model ban but calls for testing",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
-      "datetime": 1785208732,
-      "headlineKo": "Anthropic의 Dario Amodei는 공개 모델 금지를 거부하지만 테스트를 요구합니다."
+      "headline": "Petrobras cuts imports as it pushes local output amid U.S.-Iran conflict - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWEpKandCZmpKVTRXejZfQmp1bHNZdmtiYXo1ZTEtZFNCOGxEaUtocm5UdDdGMUVOT2tOWUU4bVBNM3EtY0ZOSHJoRHFqZ205UmxjN0dRejBvTU8yRkJzWWFxU2lTbDZHNGNRY3hYZi0wVHdBaFBsQ1JMSVozeUVWaFMySWE3WHdKWlNsdU51eFNyMjNDd0tRZWE4Z0l0Qi1BV3N2dGRYQWt5cURpQ0twQnVQcw?oc=5",
+      "datetime": 1785278460,
+      "headlineKo": "페트로브라스, 미국-이란 갈등 속에서 국내 생산 확대로 수입 축소 - Reuters"
     },
     {
-      "headline": "Apple ends day as world's most valuable company, passing Nvidia",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/apple-most-valuable-company-nvidia.html",
-      "datetime": 1785186746,
-      "headlineKo": "애플, 엔비디아 제치고 세계 시가총액 1위 기업으로 마감"
+      "headline": "Yemen's Houthis say they fired missiles at Saudi oil tanker in Red Sea - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbnJtN1czaW5VenZ0NDdYRVM1OVVMcUhYR2E2RHNneXhfaWZBalUwSElsSWk4aEVwMC1WRnozUGs4RmkxSk1xUkV5ZXVkNWUyeEJfbTQ0Z2RRdXNmM1hsSjduWFhLOURoZHBSUm1IUDJXdHkxR0Q4NGZ3SU9FcDRudkRkVG1qcEszb1Z3bHpaV3lydjBKbWtPaUVadGJ3cmVIT2FCQzlDaGJURG4wU1NlQmFiLW1uMDl6?oc=5",
+      "datetime": 1785272410,
+      "headlineKo": "예멘 후티 반군이 홍해에서 사우디 유조선에 미사일을 발사했다고 밝혔습니다."
     },
     {
-      "headline": "Nvidia's potential $250B backstop for OpenAI is another strike against the AI trade",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/nvidias-potential-250b-backstop-for-openai-is-another-strike-against-the-ai-trade.html",
-      "datetime": 1785181580,
-      "headlineKo": "OpenAI를 위한 Nvidia의 잠재적인 2,500억 달러 백스톱은 AI 거래에 대한 또 다른 공격입니다."
+      "headline": "Regime change? Inside Reza Pahlavi’s faltering bid to lead Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOakY1cWNvRDRGX1d1S3lyMXMtUVRhWk5NVTdUNzZveGlOODc3UktYUWhXVlhZaF9aczZuUXUwNUsxYW1xOWNaMFc4QWxncXRnU1E3NGFKbUN5QjR3cldXMG1sREF2VnJONmwyMnNrVld0Tm0zWFNuY1JLamNsNF85Wk9uOXJjTVVsR2R5WV9Kei1CcDB1NGY0czI2amVSTEk1OXZ2S0YxMnJLR0tBamc?oc=5",
+      "datetime": 1785269133,
+      "headlineKo": "정권교체? 이란을 이끌겠다는 레자 팔라비의 흔들리는 입찰 내부 - 로이터"
     },
     {
-      "headline": "From 'oil' to 'shock',  here's what Kalshi traders expect Fed Chair Kevin Warsh will say this week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/from-oil-to-shock-heres-what-kalshi-traders-expect-warsh-to-say.html",
-      "datetime": 1785178703,
-      "headlineKo": "'석유'에서 '충격'까지, Kalshi 거래자들이 이번 주에 Fed 의장 Kevin Warsh가 말할 것으로 기대하는 내용은 다음과 같습니다."
+      "headline": "Saudi Arabia says it struck Iran-backed groups in Iraq with U.S. coordination - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONnpyRjRlYWo1ZktJTDVtR3hTLWJLbWctRmJhd0Z6czBoQlEwUkRkZk1fd2wtQ0hLakpEMUhMZkNQOEdzVTR0SV9lQ2Q3TVJpNkFLdll5WmZBTFhqRlZpSE1BLVFQV1lsa0VpOXNPbHJ0TGdpeVMzMGFfV2lWaTI2YVdlSDFjbkdJblVoWXRvSHp3NWZSQnhMNUpVODB4cmJjdnVnVzEzZTFKUDF6TnpIMndKQ3hEN1c5aW9xMG05akZRcENlaHp6Qg?oc=5",
+      "datetime": 1785268020,
+      "headlineKo": "사우디아라비아, 미국과 협력해 이라크 내 이란 지원 단체 공격 - 로이터 통신"
     },
     {
-      "headline": "More tech pain means gains elsewhere. What's winning in Monday's mixed market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/more-tech-pain-means-gains-elsewhere-what-is-winning-in-the-mixed-market.html",
-      "datetime": 1785177609,
-      "headlineKo": "더 많은 기술적 고통은 다른 곳에서 이익을 얻는 것을 의미합니다. 월요일 혼합 시장에서 승리하는 것은 무엇입니까?"
+      "headline": "Ukrainian foreign minister says he warned Iranian counterpart against escalation, support for Russia - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSVptTmZYNEZfbmZIT1J2TFBrUGpYRGg2MEtWYzBPeTNYMDBuTFdPRmN0UmVVMUdRRUVMdTNWNE0zR2lJNjJXMC1TMFc5dEFwSW04OTF4cVBtTk1MU000YlpIWWF1Y0UyelhsVTktaWZQX0JzXzVwV1FOTFZ0RE5FY3ZBWmFhcWswUWFzelpIMzNybm90OU1PUjFScThZN1ZydUJxaGJuOWE1SjFtMk5aY3YyeDBhSkFPSVBuUlJrVWtKbDhtSzBNR3lsck0yNGM?oc=5",
+      "datetime": 1785267061,
+      "headlineKo": "우크라이나 외무장관은 이란 측에 러시아에 대한 지원 확대와 지원을 경고했다고 밝혔습니다."
     }
   ],
-  "_fetched_at": 1785307036.2288291,
-  "_updated_label": "2026-07-29 15:37"
+  "_fetched_at": 1785314487.2971754,
+  "_updated_label": "2026-07-29 17:41"
 };

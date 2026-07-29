@@ -681,7 +681,7 @@ const HINTS = {
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
   sectorFlow: "반도체 그룹과 빅테크·소프트웨어 그룹이 각각 얼마나 움직였는지예요. '신호 승률'은 5년치 실데이터로 잰 그 그룹의 단타 신호 10일 승률이라, 어느 쪽에서 이 신호가 잘 통했는지를 알 수 있어요. 상관계수는 두 그룹이 얼마나 같이 움직이는지인데, 1에 가까우면 같이 움직이고 0에 가까우면 따로 움직여요.",
-  relStrength: "같은 그룹(테마) 안에서 이 종목이 최근 20일 동안 그룹 평균보다 얼마나 앞섰는지/뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 크게 뒤처진 상태의 신호는 승률이 57%로 낮았어요(나머지는 66~71%). 같이 빠진 게 아니라 혼자만 유독 빠졌다면 눌림목이 아니라 그 종목만의 문제일 수 있다는 뜻이에요.",
+  relStrength: "이 종목이 최근 20일 동안 같은 그룹(반도체 15종목 / 빅테크·SW 9종목) 평균보다 얼마나 앞섰는지·뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 뒤처진 상태의 신호는 전체 승률이 57%로 낮았어요(나머지 69%). 다만 그룹을 나눠 보면 빅테크·SW에서만 확실히 갈렸고(51% vs 60%) 반도체에서는 차이가 작아서(66% vs 70%), 반도체 종목에서는 참고 수준으로만 보세요.",
   marketNews: "시장 전체 헤드라인이에요(특정 종목이 아니라 시장 전반). 위 지표가 크게 움직인 날 '무슨 일이 있었는지'를 여기서 확인하세요. 이 도구는 뉴스를 읽고 원인을 자동으로 판단하지는 않아요 - 숫자가 어떻게 움직였는지만 보여주고, 이유는 직접 확인하시는 구조예요.",
   dataHealth: "이 화면이 어떤 가격 데이터로 계산됐는지예요. 신호 이력의 'N거래일 전'과 신호 쿨다운은 날짜가 아니라 '받아온 봉의 순서'로 세기 때문에, 어느 하루의 데이터를 못 받으면 그 뒤 숫자가 하루씩 밀리고 신호로 인정되는 날짜까지 달라질 수 있어요. PC와 폰이 다르게 보이면 마지막 거래일과 총 봉수를 비교해 보세요.",
 };
@@ -1626,9 +1626,12 @@ function renderDataHealth(r){
 // (전반 85.0% / 후반 68.0%), 테마를 갈라도(반도체 78.3% / 소프트 72.7%) 방향이 유지됨.
 // → 규칙으로 강제하지는 않고(표본이 작아 기존 검증치를 다시 산출해야 함) 경고로만 표시.
 const REL_WEAK_THRESHOLD = -11;   // %p. 이보다 뒤처지면 경고
+const REL_MIN_PEERS = 4;          // 바스켓이 이보다 작으면 비교가 노이즈라 표시 자체를 안 함
 
-// 이 종목이 속한 그룹에서 단타 신호가 과거에 얼마나 통했는지(5년치 검증값).
-// 워치리스트 테마명 → 검증 당시 그룹명 매핑. market_data.js의 sector.groups에서 승률을 가져옴.
+// 워치리스트 테마명 → 검증 당시 그룹명. 상대강도 비교와 그룹 승률 표시가 모두 이 매핑을 씀.
+// ⚠️ 상대강도는 반드시 이 '섹터(2그룹)' 단위로 계산할 것 - 검증을 이 단위로 했기 때문.
+//    테마(5그룹) 단위로 계산하면 반도체 장비(4종목)는 서로 너무 붙어 움직여서
+//    -11%p에 아무도 안 걸리고(실측 0건), 메모리(3종목)는 표본이 2건뿐이라 경고가 죽어버림.
 const THEME_TO_SECTOR = {
   '반도체 설계·파운드리':'반도체', '반도체 장비':'반도체', '메모리·스토리지':'반도체',
   '빅테크·AI SW':'빅테크·SW',
@@ -1645,29 +1648,37 @@ function themeWinRateNote(r){
 }
 function computeRelStrength(r){
   const ser = r.series, n = ser.closes.length;
-  if(n < 21 || !r.theme) return null;
-  // 같은 테마의 다른 종목들로 동일가중 바스켓을 만들어 20일 수익률을 비교
-  const peers = Object.values(results).filter(x =>
-    !x.error && x.theme === r.theme && x.ticker !== r.ticker &&
+  const sector = THEME_TO_SECTOR[r.theme];
+  if(n < 21 || !sector) return null;   // 매핑 안 되는 테마(ETF·직접 추가한 종목)는 비교 대상 없음
+  // 검증과 동일하게 '섹터(2그룹)' 동일가중 바스켓과 20일 수익률을 비교한다.
+  // 바스켓에는 자기 자신도 포함 - 검증 스크립트가 그렇게 계산했으므로 임계값을 맞추려면 동일해야 함.
+  const group = Object.values(results).filter(x =>
+    !x.error && THEME_TO_SECTOR[x.theme] === sector &&
     x.series && x.series.closes.length >= 21);
-  if(peers.length < 2) return null;   // 비교 대상이 너무 적으면 의미 없음
+  if(group.length < REL_MIN_PEERS) return null;
   const ret20 = s => { const c=s.closes; return c[c.length-1]/c[c.length-21] - 1; };
   const mine = ret20(ser);
-  const bench = peers.reduce((a,x)=>a+ret20(x.series),0) / peers.length;
-  return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100, peers:peers.length, theme:r.theme};
+  const bench = group.reduce((a,x)=>a+ret20(x.series),0) / group.length;
+  return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100,
+          members:group.length, sector, theme:r.theme};
 }
 function renderRelStrength(r){
   const rs = computeRelStrength(r);
   if(!rs) return '';
   const weak = rs.rel <= REL_WEAK_THRESHOLD;
   const sign = v => (v>=0?'+':'')+v.toFixed(1)+'%';
+  // 경고의 신뢰도는 그룹마다 다름(실측). 빅테크·SW에서만 확실히 갈렸고 반도체 쪽은 차이가 작았음 -
+  // 같은 경고라도 근거의 세기가 다르므로 문구를 나눠서 정직하게 표시한다.
+  const strongEvidence = rs.sector === '빅테크·SW';
   return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':'var(--panel-2)'};color:${weak?'#876000':'#4b5157'};margin-top:8px;">
     <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일: 이 종목 ${sign(rs.mine)} ·
-    ${esc(rs.theme)} 그룹 평균 ${sign(rs.bench)}(${rs.peers}종목) →
+    <b>${esc(rs.sector)}</b> 그룹 평균 ${sign(rs.bench)}(${rs.members}종목) →
     <b style="color:${rs.rel>=0?'var(--up)':'var(--down)'};">${sign(rs.rel)}p ${rs.rel>=0?'앞섬':'뒤처짐'}</b>
-    ${weak ? `<br>⚠️ 그룹보다 <b>크게 뒤처져 있어요.</b> 5년치 검증에서 이 구간(그룹 대비 ${REL_WEAK_THRESHOLD}%p 이하)의 신호는
-      <b>10일 승률 57%</b>로 나머지 구간(66~71%)보다 확실히 낮았어요. <b>그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황</b>이라,
-      눌림목이 아니라 종목 자체의 문제일 수 있어요 - 03 실적 탭에서 매출·이익이 꺾였는지 꼭 확인하세요.`
+    ${weak ? `<br>⚠️ 그룹보다 <b>크게 뒤처져 있어요.</b> <b>그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황</b>이라,
+      눌림목이 아니라 종목 자체의 문제일 수 있어요 — 03 실적 탭에서 매출·이익이 꺾였는지 꼭 확인하세요.
+      <br><span class="sub">${strongEvidence
+        ? `5년치 검증에서 <b>빅테크·SW 그룹</b>은 이 구간의 신호 승률이 <b>51%</b>로, 그룹 평균(60%)보다 확실히 낮았어요(n=39).`
+        : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`
     : ''}</div>`;
 }
 
