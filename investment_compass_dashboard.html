@@ -680,6 +680,8 @@ const HINTS = {
   targetMean: "여러 애널리스트가 제시한 목표주가의 평균이에요.",
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
+  sectorFlow: "반도체 그룹과 빅테크·소프트웨어 그룹이 각각 얼마나 움직였는지예요. '신호 승률'은 5년치 실데이터로 잰 그 그룹의 단타 신호 10일 승률이라, 어느 쪽에서 이 신호가 잘 통했는지를 알 수 있어요. 상관계수는 두 그룹이 얼마나 같이 움직이는지인데, 1에 가까우면 같이 움직이고 0에 가까우면 따로 움직여요.",
+  relStrength: "같은 그룹(테마) 안에서 이 종목이 최근 20일 동안 그룹 평균보다 얼마나 앞섰는지/뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 크게 뒤처진 상태의 신호는 승률이 57%로 낮았어요(나머지는 66~71%). 같이 빠진 게 아니라 혼자만 유독 빠졌다면 눌림목이 아니라 그 종목만의 문제일 수 있다는 뜻이에요.",
   marketNews: "시장 전체 헤드라인이에요(특정 종목이 아니라 시장 전반). 위 지표가 크게 움직인 날 '무슨 일이 있었는지'를 여기서 확인하세요. 이 도구는 뉴스를 읽고 원인을 자동으로 판단하지는 않아요 - 숫자가 어떻게 움직였는지만 보여주고, 이유는 직접 확인하시는 구조예요.",
   dataHealth: "이 화면이 어떤 가격 데이터로 계산됐는지예요. 신호 이력의 'N거래일 전'과 신호 쿨다운은 날짜가 아니라 '받아온 봉의 순서'로 세기 때문에, 어느 하루의 데이터를 못 받으면 그 뒤 숫자가 하루씩 밀리고 신호로 인정되는 날짜까지 달라질 수 있어요. PC와 폰이 다르게 보이면 마지막 거래일과 총 봉수를 비교해 보세요.",
 };
@@ -1618,6 +1620,57 @@ function renderDataHealth(r){
     </div>`;
 }
 
+// ---- 테마 대비 상대강도 (2026-07-28 추가) ----
+// 5년치 검증 결과: 같은 테마 안에서 '최근 20일 동안 테마 평균보다 11%p 이상 크게 뒤처진' 상태의
+// 신호는 10일 승률 57.0%(n=79)로 낮았고, 나머지 구간은 66~71%였음. 시기를 반으로 갈라도
+// (전반 85.0% / 후반 68.0%), 테마를 갈라도(반도체 78.3% / 소프트 72.7%) 방향이 유지됨.
+// → 규칙으로 강제하지는 않고(표본이 작아 기존 검증치를 다시 산출해야 함) 경고로만 표시.
+const REL_WEAK_THRESHOLD = -11;   // %p. 이보다 뒤처지면 경고
+
+// 이 종목이 속한 그룹에서 단타 신호가 과거에 얼마나 통했는지(5년치 검증값).
+// 워치리스트 테마명 → 검증 당시 그룹명 매핑. market_data.js의 sector.groups에서 승률을 가져옴.
+const THEME_TO_SECTOR = {
+  '반도체 설계·파운드리':'반도체', '반도체 장비':'반도체', '메모리·스토리지':'반도체',
+  '빅테크·AI SW':'빅테크·SW',
+};
+function themeWinRateNote(r){
+  const S = (typeof MARKET_DATA!=='undefined' && MARKET_DATA) ? MARKET_DATA.sector : null;
+  const g = THEME_TO_SECTOR[r.theme];
+  const v = (S && S.groups && g) ? S.groups[g] : null;
+  if(!v || v.winRate==null) return '';
+  const good = v.winRate >= 65;
+  return `<div class="sub" style="margin-top:6px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
+    이 종목이 속한 <b>${esc(g)}</b> 그룹의 과거 신호 성적은 <b style="color:${good?'var(--up)':'var(--warn)'};">10일 승률 ${v.winRate.toFixed(1)}%</b>였어요
+    (5년치 검증). ${good ? '이 신호가 비교적 잘 통한 그룹이에요.' : '평균보다 낮은 편이라 비중을 줄이는 걸 고려하세요.'}</div>`;
+}
+function computeRelStrength(r){
+  const ser = r.series, n = ser.closes.length;
+  if(n < 21 || !r.theme) return null;
+  // 같은 테마의 다른 종목들로 동일가중 바스켓을 만들어 20일 수익률을 비교
+  const peers = Object.values(results).filter(x =>
+    !x.error && x.theme === r.theme && x.ticker !== r.ticker &&
+    x.series && x.series.closes.length >= 21);
+  if(peers.length < 2) return null;   // 비교 대상이 너무 적으면 의미 없음
+  const ret20 = s => { const c=s.closes; return c[c.length-1]/c[c.length-21] - 1; };
+  const mine = ret20(ser);
+  const bench = peers.reduce((a,x)=>a+ret20(x.series),0) / peers.length;
+  return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100, peers:peers.length, theme:r.theme};
+}
+function renderRelStrength(r){
+  const rs = computeRelStrength(r);
+  if(!rs) return '';
+  const weak = rs.rel <= REL_WEAK_THRESHOLD;
+  const sign = v => (v>=0?'+':'')+v.toFixed(1)+'%';
+  return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':'var(--panel-2)'};color:${weak?'#876000':'#4b5157'};margin-top:8px;">
+    <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일: 이 종목 ${sign(rs.mine)} ·
+    ${esc(rs.theme)} 그룹 평균 ${sign(rs.bench)}(${rs.peers}종목) →
+    <b style="color:${rs.rel>=0?'var(--up)':'var(--down)'};">${sign(rs.rel)}p ${rs.rel>=0?'앞섬':'뒤처짐'}</b>
+    ${weak ? `<br>⚠️ 그룹보다 <b>크게 뒤처져 있어요.</b> 5년치 검증에서 이 구간(그룹 대비 ${REL_WEAK_THRESHOLD}%p 이하)의 신호는
+      <b>10일 승률 57%</b>로 나머지 구간(66~71%)보다 확실히 낮았어요. <b>그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황</b>이라,
+      눌림목이 아니라 종목 자체의 문제일 수 있어요 - 03 실적 탭에서 매출·이익이 꺾였는지 꼭 확인하세요.`
+    : ''}</div>`;
+}
+
 // ---- 단타 진입 카드: '지금 사야 하나'에 숫자로 답하는 부분 (2026-07-27 추가) ----
 // 사용자 요청 배경: "매수 신호라고 떠도 언제 사야 할지 모르겠다. 어제도 좋고 오늘도 좋은데 차트는 계속 내린다."
 //  (1) 오늘이 '새 진입 자리'인지 '지난 신호의 연장'인지 구분     → entryStatus()
@@ -1685,9 +1738,11 @@ function renderTradePlan(r){
       </div>
       <div class="fund-col"><h3>이 종목의 과거 성적 ${hintIcon('backtest')}</h3>${perfRows}
         <div class="sub" style="margin-top:8px;">조회된 2년치 ${st10.n}건 기준의 <b>라이브 계산</b>이라 표본이 작아요. 공식 검증치(14년·14종목)가 더 믿을 만해요.</div>
+        ${themeWinRateNote(r)}
       </div>
     </div>
     ${fitNote}
+    ${renderRelStrength(r)}
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
       <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
     </div>`;
@@ -1972,6 +2027,51 @@ function renderMarketCard(){
     </div>`;
   }).join('');
 
+  // ---- 섹터 흐름 (2026-07-28 추가) ----
+  // 사용자 관찰("반도체 빠지면 소프트웨어가 오르는 순환매 같다")을 5년치로 검증한 결과를 그대로 보여줌.
+  // 결론: 두 그룹은 평소 '같이' 움직이고(5년 상관 +0.68, 롤링 상관이 마이너스였던 날 0일),
+  //       순환매를 진입 규칙으로 넣어도 승률 개선이 없었음(66.5%→66.1%).
+  //       다만 지금 상관이 5년 최저 수준이라 '따로 노는 국면'인 건 사실이므로 그 사실만 정확히 표시.
+  let sectorBlock = '';
+  const S = M.sector;
+  if(S && S.groups){
+    const pct = v => v==null ? '-' : `<b style="color:${v>=0?'var(--up)':'var(--down)'};">${v>=0?'+':''}${v.toFixed(1)}%</b>`;
+    const gRows = Object.entries(S.groups).map(([g,v])=>`
+      <tr><td style="padding:4px 8px 4px 0;"><b>${esc(g)}</b> <span class="sub">(${v.count}종목)</span></td>
+        <td class="v" style="padding:4px 8px;">${pct(v.ret1m)}</td>
+        <td class="v" style="padding:4px 8px;">${pct(v.ret3m)}</td>
+        <td class="v" style="padding:4px 8px;">${pct(v.ret6m)}</td>
+        <td class="v" style="padding:4px 8px;">${pct(v.ret1y)}</td>
+        <td class="v" style="padding:4px 0 4px 8px;">${v.winRate!=null?v.winRate.toFixed(1)+'%':'-'}</td></tr>`).join('');
+    const c = S.corr60, rank = S.corrPctRank;
+    let corrNote;
+    if(c==null) corrNote = '';
+    else if(rank!=null && rank <= 10)
+      corrNote = `지금 두 그룹의 상관계수는 <b>${c.toFixed(2)}</b>로 <b>최근 5년 중 가장 낮은 축</b>(하위 ${rank.toFixed(0)}%)이에요 —
+        평소(중앙값 ${S.corrMedian5y!=null?S.corrMedian5y.toFixed(2):'-'})보다 <b>훨씬 따로 움직이는 국면</b>이에요.`;
+    else
+      corrNote = `지금 두 그룹의 상관계수는 <b>${c.toFixed(2)}</b>예요(5년 중앙값 ${S.corrMedian5y!=null?S.corrMedian5y.toFixed(2):'-'}).
+        1에 가까울수록 같이 움직이고, 0에 가까울수록 따로 움직여요.`;
+    sectorBlock = `
+      <div class="chart-label" style="margin-top:18px;">섹터 흐름 ${hintIcon('sectorFlow')}</div>
+      <div style="overflow-x:auto;">
+        <table style="width:100%;border-collapse:collapse;font-size:12px;font-family:var(--mono);">
+          <tr class="sub" style="text-align:right;">
+            <th style="text-align:left;padding:2px 8px 2px 0;font-weight:600;">그룹</th>
+            <th style="padding:2px 8px;font-weight:600;">1개월</th><th style="padding:2px 8px;font-weight:600;">3개월</th>
+            <th style="padding:2px 8px;font-weight:600;">6개월</th><th style="padding:2px 8px;font-weight:600;">1년</th>
+            <th style="padding:2px 0 2px 8px;font-weight:600;">신호 승률</th></tr>
+          ${gRows}
+        </table>
+      </div>
+      <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
+        ${corrNote}<br>
+        <span class="sub">단, <b>"한쪽이 빠지면 다른 쪽이 오른다"는 건 사실이 아니에요.</b> 5년치로 재보니 두 그룹은 평소 같이 움직였고(상관 +0.68),
+        <b>상관이 마이너스였던 날은 5년간 하루도 없었어요.</b> 지금은 "반대로 간다"가 아니라 <b>"서로 상관없이 움직인다"</b>에 가까워요.
+        실제로 "반대 그룹이 빠질 때 산다"는 규칙을 넣어봤지만 승률이 66.5%→66.1%로 나아지지 않았어요.</span>
+      </div>`;
+  }
+
   // 장단기 금리차 - 마이너스면 '금리 역전'
   let spreadBlock = '';
   if(M.yieldSpread!=null){
@@ -2019,6 +2119,7 @@ function renderMarketCard(){
 
   body.innerHTML = `
     <div class="fund-grid" style="gap:14px;">${rows}</div>
+    ${sectorBlock}
     ${spreadBlock}
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
       <b>전일 등락보다 '레벨'을 먼저 보세요.</b> 하루 등락은 그날 분위기일 뿐이고, 6~12개월 관점에서는

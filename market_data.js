@@ -45,19 +45,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7599997520446777,
+      "current": 3.759999990463257,
       "prevClose": 3.796999931335449,
-      "changeAbs": -0.037000179290771484,
-      "changePct": -0.9744582554616505,
+      "changeAbs": -0.03699994087219238,
+      "changePct": -0.9744519763311945,
       "pctRank": 38.24701195219124,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "ma20": 3.7238499760627746,
-      "ma60": 3.6517833272616067,
-      "chg1m": 0.0969996452331543,
-      "chg3m": 0.1699998378753662,
-      "chg1mPct": 2.648092885740812,
-      "chg3mPct": 4.7353716417762755,
+      "ma20": 3.7238499879837037,
+      "ma60": 3.65178333123525,
+      "chg1m": 0.0969998836517334,
+      "chg3m": 0.1700000762939453,
+      "chg1mPct": 2.6480993945743405,
+      "chg3mPct": 4.735378282962482,
       "lastDate": "2026-07-28",
       "bars": 1255,
       "symbol": "^IRX",
@@ -66,20 +66,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 79.20999908447266,
-      "prevClose": 82.61000061035156,
-      "changeAbs": -3.4000015258789062,
-      "changePct": -4.115726305239688,
-      "pctRank": 60.62052505966587,
+      "current": 82.19000244140625,
+      "prevClose": 79.26000213623047,
+      "changeAbs": 2.9300003051757812,
+      "changePct": 3.6966947088138564,
+      "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 77.97900047302247,
-      "ma60": 86.29916661580404,
-      "chg1m": 9.979995727539062,
-      "chg3m": -17.160003662109375,
-      "chg1mPct": 14.41570885976208,
-      "chg3mPct": -17.806374569931194,
-      "lastDate": "2026-07-28",
+      "ma20": 78.61600074768066,
+      "ma60": 85.97083333333333,
+      "chg1m": 11.44000244140625,
+      "chg3m": -17.73999786376953,
+      "chg1mPct": 16.169614758171377,
+      "chg3mPct": -17.752424506748156,
+      "lastDate": "2026-07-29",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -87,20 +87,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 101.41100311279297,
-      "prevClose": 101.47000122070312,
-      "changeAbs": -0.05899810791015625,
-      "changePct": -0.05814339923169208,
-      "pctRank": 43.789808917197455,
+      "current": 101.33000183105469,
+      "prevClose": 101.37999725341797,
+      "changeAbs": -0.04999542236328125,
+      "changePct": -0.049314878395891534,
+      "pctRank": 42.675159235668794,
       "min5y": 91.86000061035156,
       "max5y": 114.11000061035156,
-      "ma20": 101.06605072021485,
-      "ma60": 99.96035029093424,
-      "chg1m": -0.0189971923828125,
-      "chg3m": 2.9010009765625,
-      "chg1mPct": -0.01872936244272407,
-      "chg3mPct": 2.9448796199909495,
-      "lastDate": "2026-07-28",
+      "ma20": 101.07550048828125,
+      "ma60": 100.014000193278,
+      "chg1m": -0.029998779296875,
+      "chg3m": 2.8499984741210938,
+      "chg1mPct": -0.029596269846323704,
+      "chg3mPct": 2.893986979053486,
+      "lastDate": "2026-07-29",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -108,20 +108,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4023.300048828125,
-      "prevClose": 4074.5,
-      "changeAbs": -51.199951171875,
-      "changePct": -1.2565947029543503,
-      "pctRank": 85.52108194112968,
+      "current": 4039.10009765625,
+      "prevClose": 4036.300048828125,
+      "changeAbs": 2.800048828125,
+      "changePct": 0.06937167193350625,
+      "pctRank": 85.60063643595863,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4067.530029296875,
-      "ma60": 4300.719995117188,
-      "chg1m": -55.39990234375,
-      "chg3m": -652.099853515625,
-      "chg1mPct": -1.3582735432115502,
-      "chg3mPct": -13.947466893446512,
-      "lastDate": "2026-07-28",
+      "ma20": 4068.9900390625,
+      "ma60": 4291.089998372396,
+      "chg1m": 16.800048828125,
+      "chg3m": -552.39990234375,
+      "chg1mPct": 0.4176726903558476,
+      "chg3mPct": -12.030924585511272,
+      "lastDate": "2026-07-29",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -129,8 +129,58 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 0.8440003395080566,
+  "yieldSpread": 0.8440001010894775,
+  "sector": {
+    "groups": {
+      "반도체": {
+        "ret1m": -20.9458209848574,
+        "ret3m": 13.259835042522061,
+        "ret6m": 63.00165264518887,
+        "ret1y": 207.58534541440068,
+        "winRate": 71.5,
+        "count": 15
+      },
+      "빅테크·SW": {
+        "ret1m": 1.689275007542701,
+        "ret3m": -7.44354233809883,
+        "ret6m": -11.185657059697862,
+        "ret1y": -3.3530799875806094,
+        "winRate": 60.8,
+        "count": 9
+      }
+    },
+    "pair": [
+      "반도체",
+      "빅테크·SW"
+    ],
+    "corr60": 0.11496792019743002,
+    "corrPctRank": 0.0,
+    "corrMin5y": 0.11496792019743002,
+    "corrMedian5y": 0.7115784818334243,
+    "corrMax5y": 0.9346528705205663
+  },
   "news": [
+    {
+      "headline": "The Dow jumps as the AI trade wobbles. Plus, a portfolio name goes on the M&A hunt",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/28/the-dow-jumps-as-the-ai-trade-wobbles-plus-a-portfolio-name-goes-on-the-ma-hunt.html",
+      "datetime": 1785266115,
+      "headlineKo": "다우지수는 AI 거래가 흔들리면서 급등한다. 또한 M&A 사냥에 포트폴리오 이름이 사용됩니다."
+    },
+    {
+      "headline": "Jim Cramer: J&J talc settlement is good for a stock that has so much going for it already",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/28/jim-cramer-jj-talc-settlement-is-good-for-a-stock-that-has-so-much-going-for-it-already.html",
+      "datetime": 1785263395,
+      "headlineKo": "짐 크레이머(Jim Cramer): J&J 활석 결제는 이미 많은 가치를 지닌 주식에 적합합니다."
+    },
+    {
+      "headline": "We're trimming a rallying stock to protect against a potential earnings letdown",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/28/were-trimming-a-rallying-stock-to-protect-against-a-potential-earnings-letdown-.html",
+      "datetime": 1785262624,
+      "headlineKo": "잠재적인 수익 감소를 방지하기 위해 상승 중인 주식을 정리하고 있습니다."
+    },
     {
       "headline": "We're buying the dip on one of our stocks for two key reasons",
       "source": "CNBC",
@@ -151,6 +201,20 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/28/coca-cola-ko-q2-2026-earnings.html",
       "datetime": 1785234301,
       "headlineKo": "코카콜라가 수익 보고를 앞두고 있습니다. 예상되는 내용은 다음과 같습니다."
+    },
+    {
+      "headline": "HSBC uses leverage to win $5.5 billion in India Forex deposits",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/hsbc-uses-leverage-to-win-5-5-billion-in-india-forex-deposits",
+      "datetime": 1785210898,
+      "headlineKo": "HSBC는 레버리지를 사용해 인도 외환 예금에서 55억 달러를 확보했습니다."
+    },
+    {
+      "headline": "Anthropic’s Dario Amodei rejects open model ban but calls for testing",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/anthropic-s-amodei-rejects-open-model-ban-but-calls-for-testing",
+      "datetime": 1785208732,
+      "headlineKo": "Anthropic의 Dario Amodei는 공개 모델 금지를 거부하지만 테스트를 요구합니다."
     },
     {
       "headline": "Apple ends day as world's most valuable company, passing Nvidia",
@@ -179,43 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/27/more-tech-pain-means-gains-elsewhere-what-is-winning-in-the-mixed-market.html",
       "datetime": 1785177609,
       "headlineKo": "더 많은 기술적 고통은 다른 곳에서 이익을 얻는 것을 의미합니다. 월요일 혼합 시장에서 승리하는 것은 무엇입니까?"
-    },
-    {
-      "headline": "JetBlue overhauls fare options, from basic first to flexible economy. Here's what to know",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/jetblue-new-fare-options-basic-economy-first-class.html",
-      "datetime": 1785171601,
-      "headlineKo": "JetBlue는 기본 우선부터 유연한 경제까지 요금 옵션을 점검합니다. 알아야 할 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "Why Boeing and Corning are moving in opposite directions and what to expect next",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/why-boeing-corning-are-moving-in-opposite-directions-and-whats-next.html",
-      "datetime": 1785168549,
-      "headlineKo": "보잉과 코닝이 반대 방향으로 움직이는 이유와 향후 예상"
-    },
-    {
-      "headline": "Sam Altman to meet with Trump administration, Senators this week. Here's what he plans to say",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/altman-trump-china-open-weight-ai.html",
-      "datetime": 1785162108,
-      "headlineKo": "이번주 샘 알트먼이 트럼프 행정부와 상원의원들을 만날 예정이다. 그가 말하려는 내용은 다음과 같습니다"
-    },
-    {
-      "headline": "We're buying more of a slumping industrial stock and a hard-hit chipmaker",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/were-buying-more-of-a-slumping-industrial-stock-and-a-hard-hit-chipmaker.html",
-      "datetime": 1785156823,
-      "headlineKo": "우리는 침체된 산업주와 큰 타격을 입은 칩 제조업체를 더 많이 매입하고 있습니다."
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/27/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "datetime": 1785156765,
-      "headlineKo": "짐 크레이머(Jim Cramer)가 월요일 주식 시장에서 주목해야 할 10가지 항목"
     }
   ],
-  "_fetched_at": 1785265337.5560973,
-  "_updated_label": "2026-07-29 04:02"
+  "_fetched_at": 1785307036.2288291,
+  "_updated_label": "2026-07-29 15:37"
 };
