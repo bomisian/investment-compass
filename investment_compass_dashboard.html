@@ -1439,10 +1439,25 @@ function tabJudgement(r){
   }).join('');
   const refRows = (b.refItems||[]).map(it=>`<div class="fund-row"><span>${it.label}</span><span class="v">${it.valueText}</span></div>`).join('');
 
-  let bannerBg, bannerColor, bannerText;
-  if(r.verdict.label==='강한 매수기회'){ bannerBg='var(--up-bg)'; bannerColor='#a8322c'; bannerText=`강한 매수기회 (${r.score}/5점) — 이 우량주가 52주 고점 대비 깊이 눌린 자리예요. 과거 대형주 데이터상 이런 구간에서 산 뒤 12개월 SPY대비 초과수익이 평균 +63%(승률 78%)로 가장 좋았어요. 단, 6~12개월 관점이고 종목이 우량하다는 전제하에서예요.`; }
-  else if(r.verdict.label==='매수 관심'){ bannerBg='#fdf1ee'; bannerColor='#b8543f'; bannerText=`매수 관심 (${r.score}/5점) — 어느 정도 눌린 상태예요. 강한 기회만큼 깊진 않지만 고점권보다는 나은 자리(12개월 초과수익 평균 +32%).`; }
-  else { bannerBg='var(--panel-2)'; bannerColor='#626b76'; bannerText=`관망 (${r.score}/5점) — 지금은 52주 고점 근처라 특별히 눌린 자리가 아니에요. 매도 신호가 아니라 '지금이 저가 매수 타이밍은 아님'이라는 뜻이에요.`; }
+  // 배너 문구를 '점수 구간'만으로 만들지 않고, 실제로 점수를 만든 지표와 그 값을 그대로 넣는다.
+  // (지표가 바뀌면 설명도 따라 바뀌어야 신뢰할 수 있는 정보임 - 사용자 요청)
+  const bannerStyle = {
+    '강한 매수기회': {bg:'var(--up-bg)', color:'#a8322c', stat:'12개월 SPY대비 초과수익 평균 +63%·승률 78%'},
+    '매수 관심':     {bg:'#fdf1ee',      color:'#b8543f', stat:'12개월 초과수익 평균 +32%'},
+  }[r.verdict.label] || {bg:'var(--panel-2)', color:'#626b76', stat:null};
+  const bannerBg = bannerStyle.bg, bannerColor = bannerStyle.color;
+  const scored = (r.breakdown?.items || []).filter(it => (it.points||0) > 0);
+  const zero   = (r.breakdown?.items || []).filter(it => !(it.points||0));
+  const drivers = scored.map(it => `<b>${esc(it.label)} ${esc(it.valueText)}</b>(+${it.points})`).join(' · ');
+  const missing = zero.map(it => `${esc(it.label)} ${esc(it.valueText)}`).join(' · ');
+  let bannerText = `<b>${r.verdict.label} (${r.score}/5점)</b> — `;
+  if(scored.length){
+    bannerText += `점수를 만든 건 ${drivers}예요.`;
+    if(missing) bannerText += ` 나머지(${missing})는 점수가 0이에요.`;
+    if(bannerStyle.stat) bannerText += ` 과거 대형주 데이터상 이 점수대는 ${bannerStyle.stat}였어요(6~12개월 관점·우량주 전제).`;
+  } else {
+    bannerText += `점수를 준 지표가 하나도 없어요(${missing}). 지금은 저가 매수 자리가 아니라는 뜻이지 매도 신호는 아니에요.`;
+  }
 
   return `
     ${earningsBadge(r.ticker)}
@@ -2908,6 +2923,226 @@ function ttmFallbackHtml(r){
     ${cur!=='$' ? `<div class="sub" style="margin-top:8px;">※ 회사 재무제표 보고통화(${est.financialCurrency}) 기준이라 달러 환산 전 수치예요.</div>` : ''}
   `;
 }
+// ============ 실적·재무·전망 자동 코멘트 (2026-07-29 추가) ============
+// [원칙] 모든 문장은 그 종목의 '실제 숫자'에서 파생시킨다. 고정 문구를 종목마다 똑같이 보여주면
+// 지표가 바뀌어도 설명이 그대로라 신뢰할 수 없는 정보가 됨(사용자 지적). 그래서 아래 함수들은
+// 하드코딩된 결론 문장을 갖지 않고, 계산한 값의 부호·크기·추세에 따라 문장을 조립한다.
+// 값이 없으면 그 문장 자체를 만들지 않는다(억지로 채우지 않음).
+function pctStr(v, digits=1){ return v==null ? '-' : (v>=0?'+':'')+v.toFixed(digits)+'%'; }
+function growth(cur, prev){
+  if(cur==null || prev==null || prev===0) return null;
+  if(prev < 0) return null;              // 적자→흑자 같은 경우 성장률이 무의미해서 계산 안 함
+  return (cur-prev)/Math.abs(prev)*100;
+}
+function cmtBox(items, tone){
+  if(!items.length) return '';
+  const bg = tone==='warn' ? 'var(--warn-bg)' : (tone==='good' ? 'var(--green-bg)' : 'var(--panel-2)');
+  const col = tone==='warn' ? '#876000' : (tone==='good' ? '#0a6b45' : '#4b5157');
+  return `<div class="comment-box" style="background:${bg};color:${col};margin-top:10px;">
+    ${items.map(s=>`<div style="margin:3px 0;">${s}</div>`).join('')}</div>`;
+}
+
+// ---- 03 실적 코멘트 ----
+function earningsComment(data, mode){
+  const rows = data.filter(d=>d.revenue!=null);
+  if(rows.length < 2) return '';
+  const isQ = mode==='quarterly';
+  const lag = isQ ? 4 : 1;                       // 분기는 전년 동기(4분기 전), 연도는 전년
+  const last = rows[rows.length-1];
+  const prevYoY = rows.length > lag ? rows[rows.length-1-lag] : null;
+  const items = [];
+  let tone = 'plain';
+
+  // 1) 최신 기간 매출 성장률
+  const gRev = prevYoY ? growth(last.revenue, prevYoY.revenue) : null;
+  if(gRev != null){
+    const label = isQ ? '전년 같은 분기' : '전년';
+    items.push(`<b>${last.period}</b> 매출은 $${fmtUsd(last.revenue)}로 ${label} 대비 <b>${pctStr(gRev)}</b>예요.`);
+    // 2) 성장 가속/둔화 - 직전 기간의 성장률과 비교
+    if(rows.length > lag+1){
+      const gPrev = growth(rows[rows.length-2].revenue, rows[rows.length-2-lag]?.revenue);
+      if(gPrev != null){
+        const diff = gRev - gPrev;
+        const arrow = `(${pctStr(gPrev)} → ${pctStr(gRev)})`;
+        if(Math.abs(diff) >= 3){
+          // 둘 다 마이너스면 '성장이 빨라졌다'가 아니라 '감소폭이 줄었다'가 맞는 표현
+          let phrase;
+          if(gPrev < 0 && gRev < 0) phrase = diff > 0 ? `<b>줄어드는 속도가 느려졌어요</b>` : `<b>줄어드는 속도가 더 빨라졌어요</b>`;
+          else if(gPrev < 0 && gRev >= 0) phrase = `<b>역성장에서 성장으로 돌아섰어요</b>`;
+          else if(gPrev >= 0 && gRev < 0) phrase = `<b>성장하다가 역성장으로 꺾였어요</b>`;
+          else phrase = diff > 0 ? `<b>성장이 빨라지고 있어요</b>` : `<b>성장이 둔화되고 있어요</b>`;
+          items.push(`직전 기간과 비교하면 ${phrase} ${arrow}.`);
+          if(diff < 0) tone = 'warn';
+        } else {
+          items.push(gRev < 0
+            ? `직전 기간(${pctStr(gPrev)})과 비슷하게 계속 줄고 있어요.`
+            : `직전 기간 성장률(${pctStr(gPrev)})과 비슷한 속도예요.`);
+        }
+      }
+    }
+    if(gRev < 0) tone = 'warn';
+  }
+
+  // 3) 순이익률 추이 - 같은 기간끼리 비교
+  const marginOf = d => (d.revenue && d.netIncome!=null) ? d.netIncome/d.revenue*100 : null;
+  const mNow = marginOf(last), mPrev = prevYoY ? marginOf(prevYoY) : null;
+  if(mNow != null){
+    let s = `순이익률은 <b>${mNow.toFixed(1)}%</b>`;
+    if(mPrev != null){
+      const d = mNow - mPrev;
+      s += Math.abs(d) < 1 ? `로 1년 전(${mPrev.toFixed(1)}%)과 비슷해요.`
+        : (d > 0 ? `로 1년 전 ${mPrev.toFixed(1)}%에서 <b>${d.toFixed(1)}%p 개선</b>됐어요.`
+                 : `로 1년 전 ${mPrev.toFixed(1)}%에서 <b>${Math.abs(d).toFixed(1)}%p 나빠졌어요.</b>`);
+      if(d <= -3) tone = 'warn';
+    } else s += '예요.';
+    items.push(s);
+    if(mNow < 0){ items.push(`<b>이 기간은 적자예요.</b>`); tone = 'warn'; }
+  }
+
+  // 4) 연속 흐름 - 최근 몇 기간 연속으로 늘었는지/줄었는지
+  let streak = 0, dir = 0;
+  for(let i=rows.length-1; i>0; i--){
+    const d = rows[i].revenue - rows[i-1].revenue;
+    const s = d>0?1:(d<0?-1:0);
+    if(s===0) break;
+    if(dir===0) dir = s;
+    if(s!==dir) break;
+    streak++;
+  }
+  if(streak >= 3){
+    const unit = isQ ? '분기' : '년';
+    items.push(dir>0 ? `직전 대비 기준으로는 <b>${streak}${unit} 연속 매출이 늘고</b> 있어요.`
+                     : `직전 대비 기준으로는 <b>${streak}${unit} 연속 매출이 줄고</b> 있어요.`);
+    if(dir<0) tone = 'warn';
+  }
+  if(!items.length) return '';
+  items.push(`<span class="sub">이 코멘트는 위 숫자로 그때그때 계산돼요 — 실적이 갱신되면 문장도 같이 바뀝니다.</span>`);
+  return cmtBox(items, tone);
+}
+
+// ---- 04 재무제표: 손익 관점 ----
+function incomeComment(annual){
+  const rows = annual.filter(d=>d.revenue!=null);
+  if(rows.length < 2) return '';
+  const items = [];
+  let tone = 'plain';
+  const first = rows[0], last = rows[rows.length-1];
+  const yrs = rows.length - 1;
+  // 매출 연평균 성장률(CAGR)
+  if(first.revenue > 0 && last.revenue > 0 && yrs >= 1){
+    const cagr = (Math.pow(last.revenue/first.revenue, 1/yrs) - 1) * 100;
+    items.push(`최근 ${yrs+1}개 연도(${first.period}→${last.period}) 매출은 $${fmtUsd(first.revenue)} → $${fmtUsd(last.revenue)}로 <b>연평균 ${pctStr(cagr)}</b> 변했어요.`);
+    if(cagr < 0) tone = 'warn';
+  }
+  // 영업이익률 추이
+  const opm = d => (d.revenue && d.opIncome!=null) ? d.opIncome/d.revenue*100 : null;
+  const oNow = opm(last), oPrev = opm(rows[rows.length-2]);
+  if(oNow != null){
+    let s = `영업이익률은 <b>${oNow.toFixed(1)}%</b>`;
+    if(oPrev != null){
+      const d = oNow - oPrev;
+      s += Math.abs(d) < 1 ? `로 전년과 비슷해요.` : (d>0 ? `로 전년보다 <b>${d.toFixed(1)}%p 좋아졌어요.</b>` : `로 전년보다 <b>${Math.abs(d).toFixed(1)}%p 나빠졌어요.</b>`);
+      if(d <= -3) tone = 'warn';
+    } else s += '예요.';
+    items.push(s);
+  }
+  // 이익이 매출보다 빨리/느리게 느는지 = 레버리지
+  const gr = growth(last.revenue, rows[rows.length-2].revenue);
+  const gn = growth(last.netIncome, rows[rows.length-2].netIncome);
+  if(gr != null && gn != null && Math.abs(gr) > 1){
+    items.push(gn > gr
+      ? `순이익이 매출보다 빠르게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>수익성이 개선되는 방향</b>이에요.`
+      : `순이익이 매출보다 느리게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>비용 부담이 커졌다는 신호</b>일 수 있어요.`);
+  }
+  const losses = rows.filter(d=>d.netIncome!=null && d.netIncome<0).length;
+  if(losses){ items.push(`표시된 기간 중 <b>${losses}개 연도가 적자</b>였어요.`); tone = 'warn'; }
+  if(!items.length) return '';
+  items.push(`<span class="sub">위 표의 숫자로 자동 계산된 설명이에요 — 재무 데이터가 갱신되면 문장도 바뀝니다.</span>`);
+  return cmtBox(items, tone);
+}
+
+// ---- 04 재무제표: 현금흐름 관점 ----
+function cashflowComment(annual){
+  const rows = annual.filter(d=>d.ocf!=null || d.fcf!=null);
+  if(rows.length < 2) return '';
+  const items = [];
+  let tone = 'plain';
+  const last = rows[rows.length-1], prev = rows[rows.length-2];
+
+  // 1) FCF 흑자 여부와 추세
+  if(last.fcf != null){
+    const posYears = rows.filter(d=>d.fcf!=null && d.fcf>0).length;
+    const total = rows.filter(d=>d.fcf!=null).length;
+    items.push(last.fcf >= 0
+      ? `${last.period} 잉여현금흐름(FCF)은 <b>$${fmtUsd(last.fcf)} 흑자</b>예요(표시 기간 ${total}년 중 ${posYears}년 흑자).`
+      : `${last.period} 잉여현금흐름(FCF)이 <b>$${fmtUsd(last.fcf)}로 마이너스</b>예요 — 버는 돈보다 설비투자가 많다는 뜻이에요.`);
+    if(last.fcf < 0) tone = 'warn';
+    if(prev.fcf != null && last.fcf != null){
+      const d = last.fcf - prev.fcf;
+      if(Math.abs(prev.fcf) > 0) items.push(d >= 0
+        ? `전년 $${fmtUsd(prev.fcf)}보다 <b>늘었어요.</b>` : `전년 $${fmtUsd(prev.fcf)}보다 <b>줄었어요.</b>`);
+    }
+  }
+  // 2) 이익의 질 - 순이익 대비 영업현금흐름
+  if(last.ocf != null && last.netIncome != null && last.netIncome > 0){
+    const ratio = last.ocf / last.netIncome;
+    items.push(ratio >= 1
+      ? `영업활동으로 들어온 현금($${fmtUsd(last.ocf)})이 순이익($${fmtUsd(last.netIncome)})보다 많아요(${ratio.toFixed(2)}배) — <b>장부상 이익이 실제 현금으로 잘 들어오고 있다</b>는 뜻이에요.`
+      : `영업활동 현금($${fmtUsd(last.ocf)})이 순이익($${fmtUsd(last.netIncome)})보다 적어요(${ratio.toFixed(2)}배) — 장부 이익만큼 현금이 안 들어온 셈이라 <b>재고·외상매출이 늘었는지</b> 볼 필요가 있어요.`);
+    if(ratio < 0.8) tone = 'warn';
+  }
+  // 3) 설비투자 강도 - 매출 대비 CAPEX
+  if(last.capex != null && last.revenue){
+    const intensity = Math.abs(last.capex)/last.revenue*100;
+    const prevInt = (prev.capex!=null && prev.revenue) ? Math.abs(prev.capex)/prev.revenue*100 : null;
+    let s = `설비투자는 매출의 <b>${intensity.toFixed(1)}%</b>`;
+    if(prevInt != null){
+      const d = intensity - prevInt;
+      s += Math.abs(d) < 1 ? `로 전년과 비슷한 수준이에요.`
+        : (d>0 ? `로 전년(${prevInt.toFixed(1)}%)보다 <b>늘려서 투자를 확대</b>하고 있어요.`
+               : `로 전년(${prevInt.toFixed(1)}%)보다 <b>줄였어요.</b>`);
+    } else s += '예요.';
+    items.push(s);
+  }
+  if(!items.length) return '';
+  items.push(`<span class="sub">위 표의 현금흐름 숫자로 자동 계산된 설명이에요.</span>`);
+  return cmtBox(items, tone);
+}
+
+// ---- 05 전망 코멘트 ----
+function forecastComment(est, r){
+  const items = [];
+  let tone = 'plain';
+  const tr = {};
+  (est.trend||[]).forEach(t=>{ tr[t.period] = t; });
+  const y0 = tr['0y'], y1 = tr['+1y'];
+
+  if(y0 && y1 && y0.epsAvg>0 && y1.epsAvg!=null){
+    const g = (y1.epsAvg/y0.epsAvg - 1)*100;
+    items.push(`애널리스트는 내년 EPS를 <b>$${y1.epsAvg.toFixed(2)}</b>로 봐요 — 올해 예상($${y0.epsAvg.toFixed(2)}) 대비 <b>${pctStr(g,0)}</b>.`);
+    if(g < 0){ items.push(`<b>내년 이익이 줄어들 것으로 보고 있어요.</b> 실적이 꺾이는 국면일 수 있으니 03 실적 탭의 최근 흐름과 같이 보세요.`); tone='warn'; }
+    else if(g > 50) items.push(`이익이 급증하는 국면이라 <b>기대가 이미 주가에 반영돼 있을 수</b> 있어요. 이런 구간에서는 시장이 PER을 오히려 낮춰 잡는 경우가 많아요.`);
+  }
+  if(y1 && y1.revenueGrowth != null){
+    items.push(`내년 매출은 <b>${pctStr(y1.revenueGrowth*100,0)}</b> 성장을 예상해요.`);
+  }
+  // 목표가 분산 - 의견이 갈리는 정도
+  if(est.targetMean && est.targetLow != null && est.targetHigh != null && est.targetMean>0){
+    const spread = (est.targetHigh - est.targetLow)/est.targetMean*100;
+    const upside = (est.targetMean - r.price)/r.price*100;
+    items.push(`평균 목표가는 현재가 대비 <b>${pctStr(upside,0)}</b>이고, 목표가 범위는 평균의 <b>${spread.toFixed(0)}%</b> 폭으로 벌어져 있어요` +
+      (spread > 60 ? ` — <b>애널리스트끼리 의견이 크게 갈린다</b>는 뜻이라 평균값을 그대로 믿기 어려워요.`
+                   : ` — 의견이 비교적 모여 있는 편이에요.`));
+    if(spread > 60) tone = 'warn';
+  }
+  if(est.analystCount != null && est.analystCount < 15){
+    items.push(`참여 애널리스트가 <b>${est.analystCount}명</b>으로 적은 편이라 컨센서스가 흔들릴 수 있어요.`);
+  }
+  if(!items.length) return '';
+  items.push(`<span class="sub">컨센서스 숫자로 자동 계산된 설명이라, 애널리스트 추정이 바뀌면 이 문장도 바뀝니다. 목표주가는 낙관 편향이 있으니 참고용으로만 보세요.</span>`);
+  return cmtBox(items, tone);
+}
+
 function tabEarnings(r){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   if(!fin || (!fin.quarterly?.length && !fin.annual?.length)){
@@ -2922,13 +3157,42 @@ function tabEarnings(r){
       <div class="toggle-btn ${earningsMode==='quarterly'?'active':''}" onclick="setEarningsMode('${r.ticker}','quarterly')">분기별</div>
       <div class="toggle-btn ${earningsMode==='annual'?'active':''}" onclick="setEarningsMode('${r.ticker}','annual')">연도별</div>
     </div>
-    <div class="chart-label">매출(막대) · 순이익(선) — 단위 $</div>
+    <div class="chart-label">매출(막대) · 순이익(선) — 단위 $ · 화면이 좁아 숫자가 겹칠 땐 생략되니 아래 표에서 보세요</div>
     <canvas id="earningsCanvas"></canvas>
+    ${earningsComment(fin[earningsMode] || [], earningsMode)}
+    ${earningsTable(fin[earningsMode] || [], earningsMode)}
     ${vintage}
     <div class="glossary" style="margin-top:10px;">
       ※ Finnhub SEC 공시(financials-reported) 기반으로 서버에서 최선 추정 계산한 값입니다. 회사별 회계 방식 차이로 일부 분기는 계산이 안 돼 비어 있을 수 있어요.
     </div>
   `;
+}
+// 차트 숫자가 작아서 안 보인다는 요청 → 같은 데이터를 표로도 제공(증감률·이익률까지 같이 계산)
+function earningsTable(data, mode){
+  const rows = data.filter(d=>d.revenue!=null || d.netIncome!=null);
+  if(!rows.length) return '';
+  const lag = mode==='quarterly' ? 4 : 1;
+  const body = rows.map((d,i)=>{
+    const base = i>=lag ? rows[i-lag] : null;
+    const gRev = base ? growth(d.revenue, base.revenue) : null;
+    const margin = (d.revenue && d.netIncome!=null) ? d.netIncome/d.revenue*100 : null;
+    return `<tr id="earnRow-${esc(String(d.period))}">
+      <td class="name">${esc(String(d.period))}</td>
+      <td>${d.revenue!=null?'$'+fmtUsd(d.revenue):'-'}</td>
+      <td style="color:${gRev==null?'inherit':(gRev>=0?'var(--up)':'var(--down)')}">${gRev==null?'-':pctStr(gRev)}</td>
+      <td>${d.opIncome!=null?'$'+fmtUsd(d.opIncome):'-'}</td>
+      <td>${d.netIncome!=null?'$'+fmtUsd(d.netIncome):'-'}</td>
+      <td style="color:${margin==null?'inherit':(margin>=0?'inherit':'var(--down)')}">${margin==null?'-':margin.toFixed(1)+'%'}</td>
+    </tr>`;
+  }).reverse().join('');   // 최신이 위로 오게
+  const lagLabel = mode==='quarterly' ? '전년 동기비' : '전년비';
+  return `
+    <div style="overflow-x:auto;margin-top:10px;">
+      <table style="min-width:560px;">
+        <thead><tr><th>${mode==='quarterly'?'분기':'연도'}</th><th>매출</th><th>${lagLabel}</th><th>영업이익</th><th>순이익</th><th>순이익률</th></tr></thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>`;
 }
 function setEarningsMode(ticker, mode){ earningsMode = mode; renderTabContent(ticker); }
 function setupEarningsChart(ticker){
@@ -2937,6 +3201,11 @@ function setupEarningsChart(ticker){
   const fin = FINANCIALS_DATA[ticker];
   const data = fin[earningsMode] || [];
   drawEarningsChart(canvas, data);
+}
+// 캔버스에 값 라벨을 그릴 공간이 있는지 확인. 좁으면 생략하고 아래 표에서 보게 함
+// (폰처럼 폭이 좁을 때 숫자가 겹쳐서 오히려 안 읽히는 걸 방지)
+function fitsLabel(ctx, text, slotWidth){
+  return ctx.measureText(text).width < slotWidth * 0.92;
 }
 function drawEarningsChart(canvas, data){
   const W = canvas.width = canvas.clientWidth*2;
@@ -2954,7 +3223,7 @@ function drawEarningsChart(canvas, data){
   const x = i => padSide + i*bw + bw/2;
   const yRev = v => H-padBottom - (v/maxRev)*(H-padTop-padBottom);
   const yNi = v => H-padBottom - ((v+maxAbsNi)/(2*maxAbsNi))*(H-padTop-padBottom);
-  const fontSize = n>10 ? 13 : 16;
+  const fontSize = n>10 ? 22 : 28;   // 캔버스가 2배 해상도라 이 값의 절반이 실제 크기
 
   data.forEach((d,i)=>{
     if(d.revenue==null) return;
@@ -2962,7 +3231,7 @@ function drawEarningsChart(canvas, data){
     const top = yRev(d.revenue);
     ctx.fillRect(x(i)-bw*0.32, top, bw*0.64, H-padBottom-top);
     ctx.fillStyle='#a8322c'; ctx.font=`bold ${fontSize}px monospace`; ctx.textAlign='center';
-    ctx.fillText(fmtUsd(d.revenue), x(i), top-6);
+    if(fitsLabel(ctx, fmtUsd(d.revenue), bw)) ctx.fillText(fmtUsd(d.revenue), x(i), top-6);
   });
   ctx.beginPath(); ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=3;
   let started=false;
@@ -2978,11 +3247,12 @@ function drawEarningsChart(canvas, data){
     ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(px,py,4,0,Math.PI*2); ctx.fill();
     ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=2; ctx.stroke();
     ctx.fillStyle='#2a4fa0'; ctx.font=`${fontSize-2}px monospace`; ctx.textAlign='center';
-    ctx.fillText(fmtUsd(d.netIncome), px, py - 10);
+    if(fitsLabel(ctx, fmtUsd(d.netIncome), bw)) ctx.fillText(fmtUsd(d.netIncome), px, py - 10);
   });
 
-  ctx.fillStyle='#7f8791'; ctx.font='16px monospace'; ctx.textAlign='center';
-  data.forEach((d,i)=>{ ctx.fillText(d.period, x(i), H-8); });
+  ctx.fillStyle='#7f8791'; ctx.font='22px monospace'; ctx.textAlign='center';
+  const everyOther = !fitsLabel(ctx, String(data[0]?.period ?? ''), bw);
+  data.forEach((d,i)=>{ if(everyOther && i%2) return; ctx.fillText(d.period, x(i), H-8); });
   ctx.textAlign='left';
 }
 
@@ -3014,8 +3284,10 @@ function tabFinancials(r){
   return `
     <div class="chart-label">연도별 손익 · 매출(막대)·영업이익/순이익(선)</div>
     <canvas id="finIncomeCanvas"></canvas>
-    <div class="chart-label">연도별 현금흐름 · OCF(막대)·CAPEX/FCF(선)</div>
+    ${incomeComment(annual)}
+    <div class="chart-label" style="margin-top:16px;">연도별 현금흐름 · OCF(막대)·CAPEX/FCF(선)</div>
     <canvas id="finCfCanvas"></canvas>
+    ${cashflowComment(annual)}
     <div style="overflow-x:auto;">
     <table style="min-width:640px;">
       <thead><tr><th>연도</th><th>매출</th><th>영업이익</th><th>순이익</th><th>OCF</th><th>CAPEX</th><th>FCF</th></tr></thead>
@@ -3051,7 +3323,7 @@ function drawFinIncomeChart(canvas, data){
   const x = i => padSide + i*bw + bw/2;
   const yRev = v => H-padBottom - (v/maxRev)*(H-padTop-padBottom);
   const yOther = v => H-padBottom - ((v+maxAbsOther)/(2*maxAbsOther))*(H-padTop-padBottom);
-  const fontSize = n>8 ? 13 : 16;
+  const fontSize = n>8 ? 22 : 28;   // 캔버스가 2배 해상도라 이 값의 절반이 실제 크기
 
   data.forEach((d,i)=>{
     if(d.revenue==null) return;
@@ -3059,7 +3331,7 @@ function drawFinIncomeChart(canvas, data){
     const top = yRev(d.revenue);
     ctx.fillRect(x(i)-bw*0.32, top, bw*0.64, H-padBottom-top);
     ctx.fillStyle='#a8322c'; ctx.font=`bold ${fontSize}px monospace`; ctx.textAlign='center';
-    ctx.fillText(fmtUsd(d.revenue), x(i), top-6);
+    if(fitsLabel(ctx, fmtUsd(d.revenue), bw)) ctx.fillText(fmtUsd(d.revenue), x(i), top-6);
   });
   function line(key, color, dotColor){
     ctx.beginPath(); ctx.strokeStyle=color; ctx.lineWidth=2.6; let started=false;
@@ -3078,10 +3350,11 @@ function drawFinIncomeChart(canvas, data){
     ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(px,py,3.5,0,Math.PI*2); ctx.fill();
     ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=2; ctx.stroke();
     ctx.fillStyle='#2a4fa0'; ctx.font=`${fontSize-2}px monospace`; ctx.textAlign='center';
-    ctx.fillText(fmtUsd(d.netIncome), px, py+16);
+    if(fitsLabel(ctx, fmtUsd(d.netIncome), bw)) ctx.fillText(fmtUsd(d.netIncome), px, py+16);
   });
-  ctx.fillStyle='#7f8791'; ctx.font='16px monospace'; ctx.textAlign='center';
-  data.forEach((d,i)=>{ ctx.fillText(d.period, x(i), H-8); });
+  ctx.fillStyle='#7f8791'; ctx.font='22px monospace'; ctx.textAlign='center';
+  const everyOther = !fitsLabel(ctx, String(data[0]?.period ?? ''), bw);
+  data.forEach((d,i)=>{ if(everyOther && i%2) return; ctx.fillText(d.period, x(i), H-8); });
   ctx.textAlign='left';
 }
 function drawFinCfChart(canvas, data){
@@ -3099,7 +3372,7 @@ function drawFinCfChart(canvas, data){
   const x = i => padSide + i*bw + bw/2;
   const zero = H-padBottom - ((0+maxAbs)/(2*maxAbs))*(H-padTop-padBottom);
   const yV = v => H-padBottom - ((v+maxAbs)/(2*maxAbs))*(H-padTop-padBottom);
-  const fontSize = n>8 ? 13 : 16;
+  const fontSize = n>8 ? 22 : 28;   // 캔버스가 2배 해상도라 이 값의 절반이 실제 크기
 
   data.forEach((d,i)=>{
     if(d.ocf==null) return;
@@ -3108,7 +3381,7 @@ function drawFinCfChart(canvas, data){
     if(d.ocf>=0) ctx.fillRect(x(i)-bw*0.32, top, bw*0.64, zero-top);
     else ctx.fillRect(x(i)-bw*0.32, zero, bw*0.64, top-zero);
     ctx.fillStyle='#a8322c'; ctx.font=`bold ${fontSize}px monospace`; ctx.textAlign='center';
-    ctx.fillText(fmtUsd(d.ocf), x(i), d.ocf>=0 ? top-6 : top+16);
+    if(fitsLabel(ctx, fmtUsd(d.ocf), bw)) ctx.fillText(fmtUsd(d.ocf), x(i), d.ocf>=0 ? top-6 : top+16);
   });
   function line(key, color){
     ctx.beginPath(); ctx.strokeStyle=color; ctx.lineWidth=2.6; let started=false;
@@ -3121,8 +3394,9 @@ function drawFinCfChart(canvas, data){
   }
   line('capex', '#9a6800');
   line('fcf', '#087d4c');
-  ctx.fillStyle='#7f8791'; ctx.font='16px monospace'; ctx.textAlign='center';
-  data.forEach((d,i)=>{ ctx.fillText(d.period, x(i), H-8); });
+  ctx.fillStyle='#7f8791'; ctx.font='22px monospace'; ctx.textAlign='center';
+  const everyOther = !fitsLabel(ctx, String(data[0]?.period ?? ''), bw);
+  data.forEach((d,i)=>{ if(everyOther && i%2) return; ctx.fillText(d.period, x(i), H-8); });
   ctx.textAlign='left';
 }
 
@@ -3160,6 +3434,7 @@ function tabForecast(r){
         <canvas id="forecastCanvas" style="margin-top:0;"></canvas>
       </div>
     </div>
+    ${forecastComment(est, r)}
     <div class="chart-label">예상 실적 · 컨센서스</div>
     <div style="overflow-x:auto;">
     <table style="min-width:560px;">
