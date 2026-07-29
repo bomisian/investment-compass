@@ -29,17 +29,17 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 4695725178880,
+    "quoteMarketCap": 4684585631744,
     "week52High": 236.54,
     "week52Low": 164.07,
     "financialCurrency": "USD",
     "ttmRevenue": 253491003392,
     "ttmNetIncome": 159612993536,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "AAPL": {
-    "targetMean": 318.8093,
+    "targetMean": 319.71722,
     "targetLow": 215.0,
     "targetHigh": 400.0,
     "analystCount": 43,
@@ -49,145 +49,145 @@ const ESTIMATES_DATA = {
       {
         "period": "0y",
         "endDate": "2026-09-30",
-        "epsAvg": 8.76686,
-        "epsGrowth": 0.1752,
-        "revenueAvg": 478698081510,
-        "revenueGrowth": 0.1503,
+        "epsAvg": 8.7615,
+        "epsGrowth": 0.1745,
+        "revenueAvg": 478846665480,
+        "revenueGrowth": 0.1506,
         "analysts": 41
       },
       {
         "period": "+1y",
         "endDate": "2027-09-30",
-        "epsAvg": 9.71319,
-        "epsGrowth": 0.1079,
-        "revenueAvg": 523072441950,
-        "revenueGrowth": 0.092700005,
+        "epsAvg": 9.71808,
+        "epsGrowth": 0.1092,
+        "revenueAvg": 523644400140,
+        "revenueGrowth": 0.0936,
         "analysts": 43
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 4958451662848,
-    "week52High": 342.89,
+    "quoteMarketCap": 5035339546624,
+    "week52High": 343.67,
     "week52Low": 201.5,
     "financialCurrency": "USD",
     "ttmRevenue": 451442016256,
     "ttmNetIncome": 122575003648,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "GOOGL": {
-    "targetMean": 428.11536,
+    "targetMean": 427.586,
     "targetLow": 340.0,
     "targetHigh": 515.0,
-    "analystCount": 54,
-    "recommendationMean": 1.40625,
+    "analystCount": 55,
+    "recommendationMean": 1.39062,
     "recommendationKey": "strong_buy",
     "trend": [
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 19.84155,
-        "epsGrowth": 0.8355,
-        "revenueAvg": 497810859960,
-        "revenueGrowth": 0.2358,
-        "analysts": 50
+        "epsAvg": 20.59177,
+        "epsGrowth": 0.90489995,
+        "revenueAvg": 497722951210,
+        "revenueGrowth": 0.2355,
+        "analysts": 48
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 14.80867,
-        "epsGrowth": -0.25370002,
-        "revenueAvg": 603575765690,
-        "revenueGrowth": 0.2125,
-        "analysts": 55
+        "epsAvg": 14.75642,
+        "epsGrowth": -0.2834,
+        "revenueAvg": 605474746820,
+        "revenueGrowth": 0.2165,
+        "analysts": 54
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 3983473377280,
+    "quoteMarketCap": 4073669001216,
     "week52High": 408.61,
     "week52Low": 187.82,
     "financialCurrency": "USD",
     "ttmRevenue": 445865984000,
     "ttmNetIncome": 244118994944,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "MSFT": {
-    "targetMean": 556.7513,
+    "targetMean": 557.24664,
     "targetLow": 400.0,
     "targetHigh": 870.0,
-    "analystCount": 55,
-    "recommendationMean": 1.32759,
+    "analystCount": 54,
+    "recommendationMean": 1.33929,
     "recommendationKey": "strong_buy",
     "trend": [
       {
         "period": "0y",
         "endDate": "2026-06-30",
-        "epsAvg": 16.7729,
-        "epsGrowth": 0.2297,
-        "revenueAvg": 329553405050,
+        "epsAvg": 16.77883,
+        "epsGrowth": 0.2301,
+        "revenueAvg": 329549893930,
         "revenueGrowth": 0.1698,
-        "analysts": 24
+        "analysts": 26
       },
       {
         "period": "+1y",
         "endDate": "2027-06-30",
-        "epsAvg": 19.37881,
-        "epsGrowth": 0.1554,
-        "revenueAvg": 384873665970,
-        "revenueGrowth": 0.16790001,
+        "epsAvg": 19.391,
+        "epsGrowth": 0.1557,
+        "revenueAvg": 384801898580,
+        "revenueGrowth": 0.16770001,
         "analysts": 36
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 2917666390016,
+    "quoteMarketCap": 2913729249280,
     "week52High": 555.45,
     "week52Low": 349.2,
     "financialCurrency": "USD",
     "ttmRevenue": 318272995328,
     "ttmNetIncome": 125215997952,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "AMZN": {
-    "targetMean": 313.0192,
+    "targetMean": 313.0687,
     "targetLow": 207.0,
     "targetHigh": 370.0,
-    "analystCount": 62,
-    "recommendationMean": 1.33333,
+    "analystCount": 61,
+    "recommendationMean": 1.33846,
     "recommendationKey": "strong_buy",
     "trend": [
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 8.69516,
-        "epsGrowth": 0.21270001,
-        "revenueAvg": 823798711330,
-        "revenueGrowth": 0.1491,
-        "analysts": 58
+        "epsAvg": 8.73987,
+        "epsGrowth": 0.2189,
+        "revenueAvg": 824162737660,
+        "revenueGrowth": 0.1496,
+        "analysts": 57
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 9.98174,
-        "epsGrowth": 0.148,
-        "revenueAvg": 931258532900,
-        "revenueGrowth": 0.1304,
-        "analysts": 56
+        "epsAvg": 10.03124,
+        "epsGrowth": 0.1478,
+        "revenueAvg": 933452178590,
+        "revenueGrowth": 0.13260001,
+        "analysts": 55
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 2470800523264,
+    "quoteMarketCap": 2469509726208,
     "week52High": 278.56,
     "week52Low": 196.0,
     "financialCurrency": "USD",
     "ttmRevenue": 742775980032,
     "ttmNetIncome": 90797998080,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "TSM": {
-    "targetMean": 537.42706,
+    "targetMean": 540.20483,
     "targetLow": 430.0,
     "targetHigh": 700.0,
     "analystCount": 18,
@@ -197,34 +197,34 @@ const ESTIMATES_DATA = {
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 16.70092,
-        "epsGrowth": 0.5682,
-        "revenueAvg": 5403654376160,
-        "revenueGrowth": 0.4186,
+        "epsAvg": 16.80425,
+        "epsGrowth": 0.5779,
+        "revenueAvg": 5410080691950,
+        "revenueGrowth": 0.42029998,
         "analysts": 12
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 21.29077,
-        "epsGrowth": 0.2748,
-        "revenueAvg": 7140297489770,
-        "revenueGrowth": 0.3214,
+        "epsAvg": 21.5691,
+        "epsGrowth": 0.2836,
+        "revenueAvg": 7166494925660,
+        "revenueGrowth": 0.3247,
         "analysts": 12
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1994718445568,
+    "quoteMarketCap": 1990413123584,
     "week52High": 479.0,
     "week52Low": 223.7,
     "financialCurrency": "TWD",
     "ttmRevenue": 4440492343296,
     "ttmNetIncome": 2216808939520,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "AVGO": {
-    "targetMean": 525.44,
+    "targetMean": 526.9956,
     "targetLow": 215.88,
     "targetHigh": 675.0,
     "analystCount": 45,
@@ -234,71 +234,71 @@ const ESTIMATES_DATA = {
       {
         "period": "0y",
         "endDate": "2026-10-31",
-        "epsAvg": 11.62835,
-        "epsGrowth": 0.705,
-        "revenueAvg": 106049949980,
-        "revenueGrowth": 0.66,
-        "analysts": 43
+        "epsAvg": 11.62703,
+        "epsGrowth": 0.7048,
+        "revenueAvg": 106039607190,
+        "revenueGrowth": 0.65980005,
+        "analysts": 44
       },
       {
         "period": "+1y",
         "endDate": "2027-10-31",
-        "epsAvg": 19.46067,
-        "epsGrowth": 0.6736,
-        "revenueAvg": 172779492500,
-        "revenueGrowth": 0.6292,
+        "epsAvg": 19.51378,
+        "epsGrowth": 0.6783,
+        "revenueAvg": 173128195620,
+        "revenueGrowth": 0.6327,
         "analysts": 45
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1790443913216,
+    "quoteMarketCap": 1797318639616,
     "week52High": 495.0,
     "week52Low": 281.61,
     "financialCurrency": "USD",
     "ttmRevenue": 75464998912,
     "ttmNetIncome": 29316999168,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "META": {
-    "targetMean": 825.841,
+    "targetMean": 824.68036,
     "targetLow": 664.46,
     "targetHigh": 1015.0,
-    "analystCount": 58,
-    "recommendationMean": 1.34921,
+    "analystCount": 57,
+    "recommendationMean": 1.35484,
     "recommendationKey": "strong_buy",
     "trend": [
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 33.04647,
+        "epsAvg": 33.04684,
         "epsGrowth": 0.4068,
-        "revenueAvg": 253303567320,
-        "revenueGrowth": 0.2604,
+        "revenueAvg": 253312160540,
+        "revenueGrowth": 0.26049998,
         "analysts": 55
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 35.14428,
-        "epsGrowth": 0.0635,
-        "revenueAvg": 304223244080,
-        "revenueGrowth": 0.201,
+        "epsAvg": 35.09669,
+        "epsGrowth": 0.062,
+        "revenueAvg": 304059399260,
+        "revenueGrowth": 0.20030001,
         "analysts": 54
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1507061923840,
+    "quoteMarketCap": 1497898287104,
     "week52High": 796.25,
     "week52Low": 520.26,
     "financialCurrency": "USD",
     "ttmRevenue": 214962995200,
     "ttmNetIncome": 70586998784,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "TSLA": {
-    "targetMean": 401.07275,
+    "targetMean": 399.44775,
     "targetLow": 125.0,
     "targetHigh": 600.0,
     "analystCount": 40,
@@ -308,31 +308,31 @@ const ESTIMATES_DATA = {
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 1.79836,
-        "epsGrowth": 0.0833,
-        "revenueAvg": 105846019990,
-        "revenueGrowth": 0.1162,
-        "analysts": 34
+        "epsAvg": 1.78687,
+        "epsGrowth": 0.0764,
+        "revenueAvg": 105689600800,
+        "revenueGrowth": 0.1146,
+        "analysts": 33
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 2.21965,
-        "epsGrowth": 0.2343,
-        "revenueAvg": 120456741310,
-        "revenueGrowth": 0.138,
+        "epsAvg": 2.22348,
+        "epsGrowth": 0.24430001,
+        "revenueAvg": 120523395250,
+        "revenueGrowth": 0.14039999,
         "analysts": 32
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1202913673216,
+    "quoteMarketCap": 1208462868480,
     "week52High": 498.83,
     "week52Low": 297.82,
     "financialCurrency": "USD",
     "ttmRevenue": 103619002368,
     "ttmNetIncome": 3806000128,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "MU": {
     "targetMean": 1507.381,
@@ -362,17 +362,17 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 916841365504,
+    "quoteMarketCap": 909697941504,
     "week52High": 1255.0,
     "week52Low": 103.38,
     "financialCurrency": "USD",
     "ttmRevenue": 90273996800,
     "ttmNetIncome": 50468999168,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "AMD": {
-    "targetMean": 573.1489,
+    "targetMean": 575.4894,
     "targetLow": 320.0,
     "targetHigh": 1250.0,
     "analystCount": 47,
@@ -382,75 +382,75 @@ const ESTIMATES_DATA = {
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 7.44881,
-        "epsGrowth": 0.78629994,
-        "revenueAvg": 49713509330,
-        "revenueGrowth": 0.4352,
+        "epsAvg": 7.45208,
+        "epsGrowth": 0.7871,
+        "revenueAvg": 49724722100,
+        "revenueGrowth": 0.4355,
         "analysts": 46
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 13.65641,
-        "epsGrowth": 0.83339995,
-        "revenueAvg": 78990677480,
-        "revenueGrowth": 0.58889997,
+        "epsAvg": 13.77774,
+        "epsGrowth": 0.84879994,
+        "revenueAvg": 79581294500,
+        "revenueGrowth": 0.60040003,
         "analysts": 45
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 737373847552,
+    "quoteMarketCap": 719910141952,
     "week52High": 584.73,
     "week52Low": 149.22,
     "financialCurrency": "USD",
     "ttmRevenue": 37454000128,
     "ttmNetIncome": 4931999744,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "INTC": {
-    "targetMean": 115.65,
+    "targetMean": 115.26829,
     "targetLow": 74.0,
     "targetHigh": 200.0,
-    "analystCount": 40,
-    "recommendationMean": 2.59574,
+    "analystCount": 41,
+    "recommendationMean": 2.5625,
     "recommendationKey": "hold",
     "trend": [
       {
         "period": "0y",
         "endDate": "2026-12-31",
-        "epsAvg": 1.52789,
-        "epsGrowth": 2.6378,
-        "revenueAvg": 63133399820,
-        "revenueGrowth": 0.19450001,
-        "analysts": 31
+        "epsAvg": 1.5169,
+        "epsGrowth": 2.6117,
+        "revenueAvg": 63028311600,
+        "revenueGrowth": 0.1925,
+        "analysts": 34
       },
       {
         "period": "+1y",
         "endDate": "2027-12-31",
-        "epsAvg": 1.9856,
-        "epsGrowth": 0.2996,
-        "revenueAvg": 70821304240,
-        "revenueGrowth": 0.121800005,
-        "analysts": 40
+        "epsAvg": 2.01367,
+        "epsGrowth": 0.3275,
+        "revenueAvg": 70743756410,
+        "revenueGrowth": 0.1224,
+        "analysts": 42
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 426873192448,
+    "quoteMarketCap": 427478974464,
     "week52High": 142.35,
     "week52Low": 18.97,
     "financialCurrency": "USD",
     "ttmRevenue": 57031999488,
     "ttmNetIncome": -11288999936,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "AMAT": {
     "targetMean": 627.65717,
     "targetLow": 358.0,
     "targetHigh": 900.0,
     "analystCount": 35,
-    "recommendationMean": 1.48718,
+    "recommendationMean": 1.46154,
     "recommendationKey": "strong_buy",
     "trend": [
       {
@@ -473,14 +473,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 380133146624,
+    "quoteMarketCap": 362184441856,
     "week52High": 739.67,
     "week52Low": 154.47,
     "financialCurrency": "USD",
     "ttmRevenue": 29024000000,
     "ttmNetIncome": 8508000256,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "QQQ": {
     "targetMean": null,
@@ -497,8 +497,8 @@ const ESTIMATES_DATA = {
     "financialCurrency": null,
     "ttmRevenue": null,
     "ttmNetIncome": null,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "SPY": {
     "targetMean": null,
@@ -515,8 +515,8 @@ const ESTIMATES_DATA = {
     "financialCurrency": null,
     "ttmRevenue": null,
     "ttmNetIncome": null,
-    "_fetched_at": 1785247201.8103154,
-    "_updated_label": "2026-07-28 23:00"
+    "_fetched_at": 1785333601.9029586,
+    "_updated_label": "2026-07-29 23:00"
   },
   "ORCL": {
     "targetMean": 248.14584,
