@@ -2934,6 +2934,18 @@ function growth(cur, prev){
   if(prev < 0) return null;              // 적자→흑자 같은 경우 성장률이 무의미해서 계산 안 함
   return (cur-prev)/Math.abs(prev)*100;
 }
+// 값이 비어 있으면 그 문장을 안 만드는 게 원칙인데, 그러면 사용자는 '왜 아무 말이 없는지' 모름.
+// 회사마다 SEC 공시 계정 이름이 달라 특정 항목만 통째로 안 잡히는 경우가 실제로 있어서
+// (실측: LRCX·QCOM은 CAPEX/FCF 0건, NVDA는 8년 중 2건만, KLAC은 영업이익 0건) 그 사실을 밝힌다.
+function missingNote(rows, fields){
+  const gaps = fields.filter(f => rows.filter(d=>d[f.key]!=null).length < rows.length);
+  if(!gaps.length) return '';
+  const parts = gaps.map(f=>{
+    const have = rows.filter(d=>d[f.key]!=null).length;
+    return have === 0 ? `<b>${f.label}</b>(전혀 없음)` : `<b>${f.label}</b>(${rows.length}년 중 ${have}년만)`;
+  });
+  return `<span class="sub">※ ${parts.join(' · ')} 항목은 이 회사의 공시 계정 이름이 달라 자동 추출이 안 됐어요 — 값이 없는 것이지 0이라는 뜻이 아니에요. 그래서 위 설명에서도 그 항목은 빼고 계산했어요.</span>`;
+}
 function cmtBox(items, tone){
   if(!items.length) return '';
   const bg = tone==='warn' ? 'var(--warn-bg)' : (tone==='good' ? 'var(--green-bg)' : 'var(--panel-2)');
@@ -3057,6 +3069,8 @@ function incomeComment(annual){
   const losses = rows.filter(d=>d.netIncome!=null && d.netIncome<0).length;
   if(losses){ items.push(`표시된 기간 중 <b>${losses}개 연도가 적자</b>였어요.`); tone = 'warn'; }
   if(!items.length) return '';
+  const gap = missingNote(rows, [{key:'opIncome', label:'영업이익'}, {key:'netIncome', label:'순이익'}]);
+  if(gap) items.push(gap);
   items.push(`<span class="sub">위 표의 숫자로 자동 계산된 설명이에요 — 재무 데이터가 갱신되면 문장도 바뀝니다.</span>`);
   return cmtBox(items, tone);
 }
@@ -3105,6 +3119,9 @@ function cashflowComment(annual){
     items.push(s);
   }
   if(!items.length) return '';
+  const gap = missingNote(rows, [{key:'ocf', label:'영업활동현금흐름(OCF)'},
+                                 {key:'capex', label:'설비투자(CAPEX)'}, {key:'fcf', label:'잉여현금흐름(FCF)'}]);
+  if(gap) items.push(gap);
   items.push(`<span class="sub">위 표의 현금흐름 숫자로 자동 계산된 설명이에요.</span>`);
   return cmtBox(items, tone);
 }
