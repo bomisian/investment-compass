@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 19.149999618530273,
+      "current": 17.770000457763672,
       "prevClose": 20.65999984741211,
-      "changeAbs": -1.510000228881836,
-      "changePct": -7.308810455150995,
-      "pctRank": 60.35031847133758,
+      "changeAbs": -2.8899993896484375,
+      "changePct": -13.988380498514097,
+      "pctRank": 48.2484076433121,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.337999773025512,
-      "ma60": 17.49733328819275,
-      "chg1m": 2.6999988555908203,
-      "chg3m": 2.260000228881836,
-      "chg1mPct": 16.413366142047263,
-      "chg3mPct": 13.380700476916225,
+      "ma20": 17.268999814987183,
+      "ma60": 17.47433330217997,
+      "chg1m": 1.3199996948242188,
+      "chg3m": 0.8800010681152344,
+      "chg1mPct": 8.024313882088524,
+      "chg3mPct": 5.21019005278692,
       "lastDate": "2026-07-30",
       "bars": 1256,
       "symbol": "^VIX",
@@ -24,20 +24,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.622000217437744,
-      "prevClose": 4.604000091552734,
-      "changeAbs": 0.018000125885009766,
-      "changePct": 0.3909671052795111,
-      "pctRank": 95.69721115537848,
+      "current": 4.666999816894531,
+      "prevClose": 4.622000217437744,
+      "changeAbs": 0.04499959945678711,
+      "changePct": 0.9735957883994459,
+      "pctRank": 97.37051792828684,
       "min5y": 1.1740000247955322,
       "max5y": 4.98799991607666,
-      "ma20": 4.58129997253418,
-      "ma60": 4.511249979337056,
-      "chg1m": 0.2480001449584961,
-      "chg3m": 0.26800012588500977,
-      "chg1mPct": 5.669870618404584,
-      "chg3mPct": 6.155262293286606,
-      "lastDate": "2026-07-29",
+      "ma20": 4.590899968147278,
+      "ma60": 4.514933307965596,
+      "chg1m": 0.24899959564208984,
+      "chg3m": 0.24899959564208984,
+      "chg1mPct": 5.636024969946741,
+      "chg3mPct": 5.636024969946741,
+      "lastDate": "2026-07-30",
       "bars": 1255,
       "symbol": "^TNX",
       "label": "미국 10년물 금리",
@@ -45,20 +45,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.6579999923706055,
-      "prevClose": 3.759999990463257,
-      "changeAbs": -0.10199999809265137,
-      "changePct": -2.7127659136000233,
-      "pctRank": 35.2191235059761,
+      "current": 3.674999952316284,
+      "prevClose": 3.6579999923706055,
+      "changeAbs": 0.01699995994567871,
+      "changePct": 0.4647337337653111,
+      "pctRank": 35.537848605577686,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "ma20": 3.7201499819755552,
-      "ma60": 3.653166663646698,
-      "chg1m": -0.02200007438659668,
-      "chg3m": 0.06800007820129395,
-      "chg1mPct": -0.5978280974865046,
-      "chg3mPct": 1.894152641422234,
-      "lastDate": "2026-07-29",
+      "ma20": 3.718899977207184,
+      "ma60": 3.6545833309491473,
+      "chg1m": -0.057000160217285156,
+      "chg3m": 0.08500003814697266,
+      "chg1mPct": -1.5273354367234748,
+      "chg3mPct": 2.367689141481241,
+      "lastDate": "2026-07-30",
       "bars": 1255,
       "symbol": "^IRX",
       "label": "미국 3개월 금리",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.44000244140625,
+      "current": 83.62000274658203,
       "prevClose": 84.45999908447266,
-      "changeAbs": -1.0199966430664062,
-      "changePct": -1.2076683094043805,
-      "pctRank": 73.0310262529833,
+      "changeAbs": -0.839996337890625,
+      "changePct": -0.9945493097276767,
+      "pctRank": 73.58790771678599,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 79.47250061035156,
-      "ma60": 85.62566668192545,
-      "chg1m": 13.94000244140625,
-      "chg3m": -23.43999481201172,
-      "chg1mPct": 20.057557469649282,
-      "chg3mPct": -21.93113343410207,
+      "ma20": 79.48150062561035,
+      "ma60": 85.62866668701172,
+      "chg1m": 14.120002746582031,
+      "chg3m": -23.259994506835938,
+      "chg1mPct": 20.31655071450652,
+      "chg3mPct": -21.762719970590283,
       "lastDate": "2026-07-30",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.71399688720703,
+      "current": 99.9000015258789,
       "prevClose": 100.80000305175781,
-      "changeAbs": -0.08600616455078125,
-      "changePct": -0.08532357336003218,
-      "pctRank": 38.822593476531424,
+      "changeAbs": -0.9000015258789062,
+      "changePct": -0.8928586295942691,
+      "pctRank": 35.24264120922832,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 101.03120040893555,
-      "ma60": 100.09756685892741,
-      "chg1m": -0.47600555419921875,
-      "chg3m": 1.7939987182617188,
-      "chg1mPct": -0.4704076911895009,
-      "chg3mPct": 1.8135854745950875,
+      "ma20": 100.99050064086914,
+      "ma60": 100.08400026957194,
+      "chg1m": -1.2900009155273438,
+      "chg3m": 0.9800033569335938,
+      "chg1mPct": -1.2748304026124664,
+      "chg3mPct": 0.9907029671187898,
       "lastDate": "2026-07-30",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4136.39990234375,
+      "current": 4158.89990234375,
       "prevClose": 4034.699951171875,
-      "changeAbs": 101.699951171875,
-      "changePct": 2.520632324649974,
-      "pctRank": 87.98727128082736,
+      "changeAbs": 124.199951171875,
+      "changePct": 3.0782946111222285,
+      "pctRank": 88.38504375497216,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4072.1750244140626,
-      "ma60": 4284.6316609700525,
-      "chg1m": 113.5,
-      "chg3m": -408.80029296875,
-      "chg1mPct": 2.8213478524254274,
-      "chg3mPct": -8.99410972899167,
+      "ma20": 4073.3000244140626,
+      "ma60": 4285.0066609700525,
+      "chg1m": 136.0,
+      "chg3m": -386.30029296875,
+      "chg1mPct": 3.3806458848445646,
+      "chg3mPct": -8.499082028711177,
       "lastDate": "2026-07-30",
       "bars": 1257,
       "symbol": "GC=F",
@@ -129,22 +129,22 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 0.9640002250671387,
+  "yieldSpread": 0.9919998645782471,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": -0.9069527197090199,
-        "ret3m": -7.4366562376199985,
-        "ret6m": -11.661474937866467,
-        "ret1y": -4.388424235407717,
+        "ret1m": 0.32790700312916865,
+        "ret3m": -5.187922700405845,
+        "ret6m": -9.216959051575246,
+        "ret1y": -1.9992430637291392,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -28.67252723308471,
-        "ret3m": 10.80242950592043,
-        "ret6m": 49.62428665585345,
-        "ret1y": 186.40514392506583,
+        "ret1m": -24.58234867425769,
+        "ret3m": 19.071430095935437,
+        "ret6m": 60.99672274548114,
+        "ret1y": 215.00806563790107,
         "winRate": 71.5,
         "count": 15
       }
@@ -153,98 +153,98 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.11666515368307732,
-    "corrPctRank": 0.08375209380234507,
+    "corr60": 0.1569302067090204,
+    "corrPctRank": 0.502092050209205,
     "corrMin5y": 0.11496792019743002,
-    "corrMedian5y": 0.7115784818334243,
+    "corrMedian5y": 0.7115782038222396,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
     {
-      "headline": "Ferrari raises 2026 guidance after Q2 earnings beat",
+      "headline": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/ferrari-race-earnings-q2-2026.html",
-      "datetime": 1785412686,
-      "headlineKo": "페라리, 2분기 실적 상회 후 2026년 가이던스 상향"
+      "url": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html",
+      "datetime": 1785432606,
+      "headlineKo": "UEFA, FIFA 사모펀드 투자 계획에 대해 월드컵 보이콧 위협"
     },
     {
-      "headline": "Egypt says drone hit two ships at Mediterranean port as attacks on energy infrastructure widen",
+      "headline": "Cramer predicts a breakout for Starbucks shares as CEO Niccol's turnaround accelerates",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/egypt-drone-gas-ship-damietta-port-iran-war.html",
-      "datetime": 1785412436,
-      "headlineKo": "이집트는 에너지 인프라에 대한 공격이 확대됨에 따라 드론이 지중해 항구에서 두 척의 선박을 공격했다고 밝혔습니다."
+      "url": "https://www.cnbc.com/2026/07/30/cramer-predicts-a-breakout-for-starbucks-shares-as-ceo-niccols-turnaround-accelerates-.html",
+      "datetime": 1785429395,
+      "headlineKo": "Cramer는 CEO Niccol의 턴어라운드가 가속화됨에 따라 스타벅스 주식의 돌파를 예측합니다."
     },
     {
-      "headline": "Wealth managers face a new challenger: their clients’ AI chatbots",
+      "headline": "Cramer sees a 'sure signal to buy' stocks. Plus what we want from Amazon's results",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/wealth-managers-ai-chatbots.html",
-      "datetime": 1785411001,
-      "headlineKo": "자산 관리자는 고객의 AI 챗봇이라는 새로운 도전에 직면합니다."
+      "url": "https://www.cnbc.com/2026/07/30/cramer-sees-signal-to-buy-stocks-previews-reports-amzn-aapl.html",
+      "datetime": 1785428231,
+      "headlineKo": "Cramer는 주식을 '매수하라는 확실한 신호'를 보고 있습니다. 게다가 Amazon의 결과에서 우리가 원하는 것"
     },
     {
-      "headline": "Oil steady as traders assess US-Iran conflict - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTWJteE84X0d0aDA5bVgwcWZrTlJTTXNZVFNlRmduNGc3aWgyMDRjN3BiN1ZaY0NaSGtXa1VlQjdFSE1pRkxOTS1sQXc2WjkwbkY3Qng1N3g3azFoVUltcjVPVGo5aGM0YkZYVG5DLXM0RS1PSFhkeERKaXZVSFk1cGZXX3ZGS3otSU1FRUtPaTFyMUd0TENNeUtaTXNZeEkxTGJrcWdTcDY4UnRUMzg3ZzZ3OGpYdw?oc=5",
-      "datetime": 1785406914,
-      "headlineKo": "트레이더들이 미-이란 갈등을 평가함에 따라 석유는 안정세를 유지하고 있습니다 - Reuters"
-    },
-    {
-      "headline": "QatarEnergy-controlled LNG tanker exits Hormuz, first in nearly three weeks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1Q3eDhzdHJoSFI2eU82OUU0Rk5ldHpVRy1pQWFMWmZwT3FQb2xJTlA2emJvNXUycE1rZmtHU0paeVFFaW5NTlJmVlF6enhKcEpaQXJrbE83aW53RXlneU1XVzRCUHNoNG9jUEozcEZBSWdHdFgtWkZIekhjZXJaRmE0MEIwbERianVKMmlJdmRZWjdiYjloM25oTENZZVFxTmxUbF9RRlo3QzJBYWxtYndmNjBPdE83b3lPeTlUV1ZaakE?oc=5",
-      "datetime": 1785396680,
-      "headlineKo": "카타르에너지 제어 LNG 유조선, 거의 3주 만에 처음으로 호르무즈 출항 - Reuters"
-    },
-    {
-      "headline": "Treasury sell-off continues after divided Fed holds interest rates steady",
+      "headline": "The real story at Apple is the memory crunch — and there's little room for error",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/us-treasury-yields-divided-fed-interest-rates-hold-steady-.html",
-      "datetime": 1785394566,
-      "headlineKo": "분할된 연준이 금리를 안정적으로 유지한 후에도 국채 매각이 계속됨"
+      "url": "https://www.cnbc.com/2026/07/30/the-real-story-at-apple-is-memory-and-theres-little-room-for-error.html",
+      "datetime": 1785427198,
+      "headlineKo": "Apple의 실제 이야기는 메모리 위기입니다. 오류가 발생할 여지가 거의 없습니다."
     },
     {
-      "headline": "Drone strike at Egypt's Damietta port raises new security threat near Suez - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUjlxdTM1SnYtZ3Bzei1qLUpRXzlYanVpb1MwNnRuQjY2NmkzZHNTeEl5cGljWGE5VDQ5ZHF0djVzVnV5OEprZWdlWUpPMV9fanYyN1N5cHdhbkxBZC1fZTlHWmpRMG8zdlRZV0hLSW9nTHU0S3JDZU44WWVHbnhWZVhRTVJ1Z0RaM25nR09fTFNTMUR2SVNkVXdlVHpDZHRmMXlJdDN3?oc=5",
-      "datetime": 1785393000,
-      "headlineKo": "이집트 다미에타(Damietta) 항구의 드론 공격으로 수에즈 인근의 새로운 보안 위협 제기 - Reuters"
+      "headline": "We're buying an AI stock that we recently took profits on and upgrading another",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/were-buying-an-ai-stock-that-we-recently-took-profits-on-and-upgrading-another.html",
+      "datetime": 1785426197,
+      "headlineKo": "우리는 최근에 수익을 낸 AI 주식을 매입하고 다른 주식을 업그레이드하고 있습니다."
     },
     {
-      "headline": "Shell profit more than doubles to $9.8 billion, second-highest on record, as Iran war lifts prices - Reuters",
+      "headline": "EXCLUSIVE: Yemen's Houthis are attacking Saudi Arabia from Iraq, sources say - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOVlEVkZ5c0ZFc3F3cjhHdllWWFNMNlAzR3VKVGR3cTFGQU11UUFJbWNzemJBLTIwX0lwWHBydVBySkUzS2dQQXJlZGpFRTNEdGljNENnaXNZQmQ0blUzejRLU3dsRlpLeExXZkJHdUlBcGlqZ3EyeFRIS2toSUdsbmpmTzh1eHJyODF4M2VtZi02ZHR3N2F5Sjd6Rk9nbXl1TmVrZWk1UXkwUHAxZjVZ?oc=5",
-      "datetime": 1785392640,
-      "headlineKo": "이란 전쟁으로 인해 가격이 인상되면서 쉘 이익은 두 배 이상 증가한 98억 달러로 사상 두 번째로 높았습니다. - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOG5nRVpXaFJmYzZnNk1aMDMwdmc4NDdTalNOTWtaWHhzZGFXWE5JanRRM192OC1qZUs4Q0JHUktVR2VEb1lvdWh4ZjFEd0xQWW1aZkczRFY4VmxQTVV1anlGQ2RsSjFPTjB0aW53NGloTU9Na0hhM1V2ZnpTRFAwOTEtQUpIZ085VHZyS05XN241U3EyZmFqa3hGNzZsU0ZjN1Y2cTRaakE0bWU5VmV6ZTVR?oc=5",
+      "datetime": 1785423496,
+      "headlineKo": "독점: 예멘 ​​후티 반군이 이라크에서 사우디아라비아를 공격하고 있다고 소식통이 전했습니다. - 로이터 통신"
     },
     {
-      "headline": "EXCLUSIVE: QatarEnergy buys 33 US LNG cargoes to offset Hormuz disruption, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPT2RNZllsNDBHUFBXYUM5NGZzNnpoRHQ2bW11cDdJczVhX2NObmdGNTlSZGwxdVJBU1JyNGRqMmxGYkVYckFHUGE1bHBhSnQ3Q0p5RVJlOTE2S0EyWFc5NzgycmF1NjdpZG5YdzY0YUdGZG1WNjdwUmtPUW1PZTd0bVZEN2hoRWhnMjJrSjVDa2JJeUIyZDlKVlFGelhpWlpDOVBSclY3TVJqNmdTaEtSamlqUVNyR2lJaENqLTNOUlA?oc=5",
-      "datetime": 1785387780,
-      "headlineKo": "독점: 카타르에너지는 호르무즈의 혼란을 상쇄하기 위해 33개의 미국 LNG 화물을 구매했다고 소식통은 전했습니다. - Reuters"
+      "headline": "How NBCUniversal's deal with YouTube could jumpstart the next chapter of the streaming wars",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/nbcuniversal-youtube-deal-streaming-wars.html",
+      "datetime": 1785423317,
+      "headlineKo": "NBCUniversal과 YouTube의 거래가 스트리밍 전쟁의 다음 장을 열 수 있는 방법"
     },
     {
-      "headline": "US military says latest strikes on Iran last two hours, hitting dozens of targets - Reuters",
+      "headline": "Gaza ceasefire talks see rare progress, sources say - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYl9qUHF2eEJlVmxqM2ROX0NFVDE3SHVIeExWXzltdnl5dG1HSmprdzFha3lhWUt4dGRLeWFBSlE0ZlYySkhHdmpLcE51S3c3TV90azg5LTVhWWNNd3IydlAwT1djUmV4Ui1BR3pOUl9PcHBPWllxM1NDSmlnZUQ3RnZSeVd2X3BqSFVBR0U3cE1xaGwxVXpYWmtXanlZVHBNUGc?oc=5",
-      "datetime": 1785384943,
-      "headlineKo": "미군 \"이란에 대한 최근 공습은 2시간 동안 지속돼 수십 곳의 목표물 타격\" - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQNHh3eHRRcUdPRGdqS1ViTm1TTDE0NGQwQXZ6Ml82R3g2cVA2c1NLanFFVHpJZU81VENlQ3NaS0xvWmV4VW5HU0hyX2YzUWhZbFJGN3p0dHh5aG5PQ08zakhtZGZycVpFYVdOLVA1ZlVPNGJqZFNvZGhBZDI5QmxiNUlnTXpSWTV2ZFVMZ1BQeGR4Mmo2TWhTTXZrY1dnUmlDWGlCYzVRNXFMNjROdmIxYkY0OG1mWXZiMXFtM1NPcEVoVUllLUJQdVNKMjk?oc=5",
+      "datetime": 1785422534,
+      "headlineKo": "가자 휴전 회담은 거의 진전이 없다고 소식통은 전했습니다 - 로이터 통신"
     },
     {
-      "headline": "Gold slips as higher Treasury yields offset focus on Warsh's inflation message - Reuters",
+      "headline": "Iran's Araqchi presses European counterparts over use of bases in US operations - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQVJINlBLLWpMT3doZzQtUlVpbTFsZGt3c2xsczh0cmxHTEw1dG1HdFFNVUUxMkpuNE9pa1N5SDB0ZVVSYU51VUNvZ1lFdENrMmVzTUZ6RDAtYkp1Sm5hNy1PSXh6bmhKcTZMU3FtRmk0S1BSeUxNVWgtS3R0OWRIc0l2WG5ZaEpDVVAxT25FTTBacmMtYnlPTHh0bEdwQmUyVDRWUHFmSGJ4ZHBCRExSMGoybUlvTU16RGxxaE4zNm4?oc=5",
-      "datetime": 1785374700,
-      "headlineKo": "국채 수익률 상승으로 Warsh의 인플레이션 메시지에 대한 초점이 상쇄됨에 따라 금 하락 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPT1U2RVJiSTk2d0ZGMzVLVlc4MXU2d0drYUotbVg5aEd0bUlQbHlCM2x6eVBIUmFiaE9iRGxBc2E5Q2FaaV9EcW1lcWNGSU90ck5OcU5VU1FMcGgyUkIzV3l2cTNVaXROZl9DcDZocm54TUR6aUxsN0gtQmsweDVNLXEzRVRITThFSlBjdjBxYWpQYjJ3LXZ3SllwOUtkLV9OekRNV2xtMXZCRmhfeHdzdFNZUERBQVFOekdOVS1HcUx0UW16anBYRW52UmhPMFN4?oc=5",
+      "datetime": 1785421783,
+      "headlineKo": "이란 아라크치, 미국 작전에서 기지 사용에 대해 유럽 상대국 압박 - 로이터 통신"
     },
     {
-      "headline": "US dollar finds footing after Fed hold and Iran air strikes - Reuters",
+      "headline": "Ferrari CEO says he 'would not change anything' about polarizing Luce EV debut",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/ferrari-ceo-luce-ev-debut.html",
+      "datetime": 1785421344,
+      "headlineKo": "페라리 CEO, 루체 EV 데뷔 양극화에 대해 '아무것도 바꾸지 않을 것'"
+    },
+    {
+      "headline": "Traders trim UK rate hike bets after BoE flags limited Iran spillover - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOUFkZlJYUUNoTkxoekFZRWtKQXR4WGFheDhRNjRwdTFTQzQza185ZHRUaFZmTi1Ka0dQSkpjbDVMZS1SZDJaUVhzMW5nQ3gwdkpLcFdtUjJ0NTM3dnpONFdlbmh2bUJkQWhocXp2N3VhRWdxVUhOSWpjbVg0elZyR2JDQ1lCU3FIeVJ5cXUzOTFsNktCZWNKQTFPdFNibmt5aDlBUg?oc=5",
-      "datetime": 1785373980,
-      "headlineKo": "미국 달러는 연준의 보류와 이란의 공습 이후 기반을 찾았습니다 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNFNDMkNSYTR3X3RfYzUyaTdyYjdNaV9HZVhqVndGRVNJOGJBcGpoVlRPUnpRSF9lXzhFOHJMWXNvZGt1Qk8yX0loUUpBb0lZMzZRaERLWThKbWdZekFIRk1JcmM2cUhMSUV6YV9rTW5GWE1WVDBRNXV6b2FESFRDS3pGaXl4ZktGRVZ0QU9oZzlkeTR5Tkt5bzU5dnZlWTZpdHFPVmpDQWlSN25mV2FPZnNlYw?oc=5",
+      "datetime": 1785419675,
+      "headlineKo": "BoE가 이란 파급을 제한한 후 트레이더들은 영국 금리 인상 베팅을 줄였습니다 - Reuters"
+    },
+    {
+      "headline": "German inflation rises in July, economy grows more than expected in Q2 - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSlVmQWpZSDUtb0Z2b1NqMTkzTXhScDctbnZBVXkta2syTXJFZk5VV19UOFQyUGhJM1o0MVZ2OEVrN2REdEJlOUZkbm16eEQtNVFqdm1QcUZpbHl2QmFQNkY2TFNEMU4ySWJvc2NXRVFBVlNNZlFtazcySVYxNXgxeUN6dEZnTmNUejBZSkl2eWpTbVpJc3cyV0daWjMzU0daOFRv?oc=5",
+      "datetime": 1785417517,
+      "headlineKo": "독일 7월 인플레이션 상승, 2분기 경제는 예상보다 더 성장 - reuters.com"
     }
   ],
-  "_fetched_at": 1785412987.7615337,
-  "_updated_label": "2026-07-30 21:03"
+  "_fetched_at": 1785438139.2926362,
+  "_updated_label": "2026-07-31 04:02"
 };
