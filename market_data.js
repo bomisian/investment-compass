@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.739999771118164,
+      "current": 17.0,
       "prevClose": 17.09000015258789,
-      "changeAbs": -0.35000038146972656,
-      "changePct": -2.0479834894368154,
-      "pctRank": 38.05732484076433,
+      "changeAbs": -0.09000015258789062,
+      "changePct": -0.5266246447298139,
+      "pctRank": 41.32165605095541,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.264499807357787,
-      "ma60": 17.45216663678487,
-      "chg1m": 0.14999961853027344,
-      "chg3m": -0.25,
-      "chg1mPct": 0.9041568242955975,
-      "chg3mPct": -1.4714538161735757,
+      "ma20": 17.27749981880188,
+      "ma60": 17.456499973932903,
+      "chg1m": 0.4099998474121094,
+      "chg3m": 0.010000228881835938,
+      "chg1mPct": 2.471367351664268,
+      "chg3mPct": 0.0588594998031468,
       "lastDate": "2026-07-31",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.69000244140625,
+      "current": 84.86000061035156,
       "prevClose": 83.58999633789062,
-      "changeAbs": -0.899993896484375,
-      "changePct": -1.0766765592935137,
-      "pctRank": 70.80350039777248,
+      "changeAbs": 1.2700042724609375,
+      "changePct": 1.5193256706547498,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.18000030517578,
-      "ma60": 85.30183334350586,
-      "chg1m": 14.110000610351562,
-      "chg3m": -22.37999725341797,
-      "chg1mPct": 20.574511860048116,
-      "chg3mPct": -21.3000831049973,
+      "ma20": 80.28850021362305,
+      "ma60": 85.33799997965495,
+      "chg1m": 16.279998779296875,
+      "chg3m": -20.209999084472656,
+      "chg1mPct": 23.73869691546858,
+      "chg3mPct": -19.23479503490301,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.20700073242188,
+      "current": 100.3239974975586,
       "prevClose": 100.01000213623047,
-      "changeAbs": 0.19699859619140625,
-      "changePct": 0.19697889409407368,
-      "pctRank": 37.07239459029435,
+      "changeAbs": 0.313995361328125,
+      "changePct": 0.31396395822530876,
+      "pctRank": 37.629276054097055,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.96335067749024,
-      "ma60": 100.11461690266927,
-      "chg1m": -1.1829986572265625,
-      "chg3m": 2.1269989013671875,
-      "chg1mPct": -1.1667804165578706,
-      "chg3mPct": 2.1686366860300406,
+      "ma20": 100.96920051574708,
+      "ma60": 100.11656684875489,
+      "chg1m": -1.0660018920898438,
+      "chg3m": 2.2439956665039062,
+      "chg1mPct": -1.0513876107180238,
+      "chg3mPct": 2.287923760818486,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4112.89990234375,
+      "current": 4109.0,
       "prevClose": 4100.10009765625,
-      "changeAbs": 12.7998046875,
-      "changePct": 0.312182736582865,
-      "pctRank": 87.66905330151154,
+      "changeAbs": 8.89990234375,
+      "changePct": 0.2170654894215259,
+      "pctRank": 87.50994431185362,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4070.37001953125,
-      "ma60": 4276.644999186198,
-      "chg1m": 44.599853515625,
-      "chg3m": -501.80029296875,
-      "chg1mPct": 1.0962773881064156,
-      "chg3mPct": -10.873952190403756,
+      "ma20": 4070.1750244140626,
+      "ma60": 4276.580000813802,
+      "chg1m": 40.699951171875,
+      "chg3m": -505.7001953125,
+      "chg1mPct": 1.0004166527392353,
+      "chg3mPct": -10.958462606653796,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "GC=F",
@@ -161,11 +161,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil falls more than $1 on greater flows despite US-Iran war - Reuters",
+      "headline": "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
+      "datetime": 1785496289,
+      "headlineKo": "기술 다운로드: Anduril CEO Brian Schimpf가 전쟁 및 제조 부문에서 AI에 대해 이야기합니다."
+    },
+    {
+      "headline": "Trump convenes Cabinet at Camp David amid simmering Iran war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZks0akNQUmpqVGdGaE5rakdfRldLS25IaTFzeVF2VzVmVGc5TkF4VTI2NjI1UlVVdXlveTFxRXFMRWlGTEN4STFsYUdySDQzNE9pSGF6SzJ5bk83M3RsWGc3a3N1Q21oQlQtMGZ4QnFjSHd1dlhlbkNsZ3dvVmFhOFpwVVpNaUx0TmxTTEp2bGZzRExacFhmaEdBS3VjQ0l3cGpPWQ?oc=5",
+      "datetime": 1785492343,
+      "headlineKo": "트럼프, 이란 전쟁이 과열되는 가운데 캠프 데이비드에서 내각 소집 - 로이터"
+    },
+    {
+      "headline": "Illicit Iranian gambling network helped pull off a $4 billion sanctions dodge - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPM0c1Y3Z1S3JvRDl6YklGRHdRWXJWWDdOMUJYQ0FURHpwLTByV1N0bzBCZ0ZGWGZoc0FwakZlLTI2S3cxWGxOV010X1I1NWlBVGRRbmdJeW9penZraklmQ2dtVERtdVMwM1ljR2t4QTl0OEZicThhNTZnN1ZJb3dlMC05TXBoOG4ybGpka1hRX2hUVGtkYTVjRHhBbk9CZDlMYWluVk03Yl9HeWt6UnhyMXZTMGtBQTE3S2l6NHoxOW96WTg?oc=5",
+      "datetime": 1785488081,
+      "headlineKo": "이란의 불법 도박 네트워크가 40억 달러 규모의 제재 회피를 도왔다 - 로이터 통신"
+    },
+    {
+      "headline": "Man suspected of spying on UK military base for Iran arrested in Cyprus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUERJVzM5MU9rRDVOc3RfUFdneGROMFVWdTlZU2d2RW0yVWtmcDk4cWhodHYtTF9CQlV0dmdIWmhlTUZFQllhWjZxb2RCTk1hTmxpcmxxNV8xM0pNaVh6ZThGZUdtTDVNOFhFSkhtRTdGOGk1RGZybVBQRXBxVVJLbXlfNFRSWUhiRXJfbDV2NUxFY1dlQ1Vsd3pJckNaenpNNVdSaWFn?oc=5",
+      "datetime": 1785486324,
+      "headlineKo": "영국 이란 기지 스파이 혐의 남성, 키프로스서 체포 - 로이터 통신"
+    },
+    {
+      "headline": "British Airways-owner IAG trims capacity outlook; jet fuel bill eases - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZk5qYUJZMjJGUjlDVnpUSnRleDVfejMwdVpYTTJTT1oxVF90SEVMeklYbEZJd0FEdG8xWU5mcUZVUHVEWFczRmNQYWI0aEE0aGhXNnNwUG9rWGtYU1NrSGtBbC1yd2ZQMC1pLWtXNlp2SnM0RG1rLXgtWjl1V3NCOEVsMThwaEpNZXREVlJ0UFNESjZ3VkxyeHk2Q1A4VkJHN1I5ZjFfOA?oc=5",
+      "datetime": 1785477900,
+      "headlineKo": "영국항공 소유주 IAG, 수용능력 전망 축소; 제트 연료비 완화 - 로이터"
+    },
+    {
+      "headline": "Oil steady as traders assess shipping flows; monthly gains in sight - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnbUQ2S2JIalNxeXVETFdYcU95VDBtOHpPdlAxWDkzd1B0VVBPNnNpMW8xTGVRbkJ1NTFqbmJ0Ui1ucUUtSVhZeXZwRTQ4eE5FTWRkdzBlZEVJUzZHR0tKdnZTeXFoQlFPSHpGX0pqaEVVU3RhWFJqR2xNZnVJeDdOaG9ONUEtaThtRXhXakladzRkT2JvR1hxSEREVmxkRGRjQWw5ZTNoeTQ?oc=5",
       "datetime": 1785466800,
-      "headlineKo": "미국-이란 전쟁에도 불구하고 유가가 1달러 이상 하락 - Reuters"
+      "headlineKo": "거래자들이 운송 흐름을 평가함에 따라 석유는 안정적입니다. 월간 상승 가시화 - Reuters"
+    },
+    {
+      "headline": "IBM CEO says quantum computing will have a 'measurable impact' on earnings by 2028 or 2029",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/ibm-ceo-quantum-computing-measurable-impact-earnings-2028-2029.html",
+      "datetime": 1785451592,
+      "headlineKo": "IBM CEO는 양자 컴퓨팅이 2028년이나 2029년까지 수익에 '측정 가능한 영향'을 미칠 것이라고 말했습니다."
     },
     {
       "headline": "US cyber defense agency warns hackers are increasingly targeting water systems - Reuters",
@@ -173,6 +215,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWNJNFA5THZLRlg3TTVYX2tkQmJzOUdQamtWQXZDOU81R1RTdjBtX3E2S3k3RlVfR2p6WE9uZGpfbzNCUHpGN0hhZ3ROY3pmN1FiS1JZa0FjQ2FDMDZuOUFRSjJad0wyX3lZWUFfQ1FjdGs4RGZvRVpnYzBwT1o0UlkyaGVRTkpvdVo0SmpCUkdhWFN3TEVaVHpfTnB1YWUwbzNuMUpoa2VsdHdtM2hNZ2JaRUE?oc=5",
       "datetime": 1785447780,
       "headlineKo": "미국 사이버 방어 기관, 해커들이 점점 더 수자원 시스템을 표적으로 삼고 있다고 경고 - Reuters"
+    },
+    {
+      "headline": "Egypt confirms drone caused fire on two gas vessels at Damietta - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM3F5LWg3Mm9rYmlhejJpdzJqQW9SWnU1WHJRVm9iZ1p0TUpmRTR6Mk1JYXVUekU2c1VlTHI5bV9DbzIyejlvYU13Y2cxYU12WExOYzJoVmxsVzVoc2hiWkQ2ZWFUZ0EwZHBZZlZ1UnREZjZGc243TlQtMXVKcDQ5bUpEaDR2Tmo5eTJkdlJhSXMtZ0U2cnk0OWNLLU50YlBjbnZrei1FVm9CYWw5cUE?oc=5",
+      "datetime": 1785444870,
+      "headlineKo": "이집트, 다미에타(Damietta)의 가스선 두 척에 드론이 화재를 일으켰다고 확인 - 로이터"
     },
     {
       "headline": "Drone strike in Egypt sparks security concerns about Suez oil exports - Reuters",
@@ -194,57 +243,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVVV1X2lpNHZQWlFIclZsaER1azctU1NVTk5FcjhEYTVULU9NU1JibElRWUYzWllrZFRKY3NiYVRKdnVhS0hoWkRMeWczMnZXX2Y0UnNrMlVPQzN5QWRnMVFacTBPQkNEZ29BTzh0M2dRSU9BZ1ZZNmN0RHoxaE5GbW5aR3NETW5fREF6UklGUHo5ZkM3NTVDdHpkUXNFY0hWZmxUZHB0aEk1NDBtUEd2VTJqV2RwazVoY0lPYnhR?oc=5",
       "datetime": 1785438469,
       "headlineKo": "사우디아라비아, 다국적 해양방위연합 계획 공개 - 로이터 통신"
-    },
-    {
-      "headline": "Microsoft wins back Jim Cramer's support after a surprisingly good quarter",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/microsoft-wins-back-jim-cramers-support-after-a-surprisingly-good-quarter.html",
-      "datetime": 1785437533,
-      "headlineKo": "Microsoft는 놀랄 만큼 좋은 분기를 보낸 후 Jim Cramer의 지원을 다시 얻었습니다."
-    },
-    {
-      "headline": "Imports hold back US economic growth in Q2, but domestic demand robust - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObWh4Um5od3luS0pRM0hOYTNwN0Z4bElZWFBXVDRRdFFVT2FpejU4ZkQ3MTVuY3hYb1NpMVd4QXV4WFhFMFUwbTRCbGs2cGlPOW11LWUxdzFyRnU0a0cwZU02b0s5b012M0p3Y2prV25KT0RQd3BGZk52aWNlanFDSDh5UTRRUVYtc2lsSm1RWjM4MjlzMXFCcEVrVjNvYVNzN3pNTm1zU2ZpV1U?oc=5",
-      "datetime": 1785436561,
-      "headlineKo": "수입이 2분기 미국 경제 성장을 방해하지만 국내 수요는 견조함 - Reuters"
-    },
-    {
-      "headline": "US issues sanctions targeting support networks for Iran's Mahan Air - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
-      "datetime": 1785432969,
-      "headlineKo": "미국, 이란 마한항공 지원 네트워크 겨냥 제재 발표 - 로이터 통신"
-    },
-    {
-      "headline": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/uefa-threatens-world-cup-boycott-over-fifa-investment-plan.html",
-      "datetime": 1785432606,
-      "headlineKo": "UEFA, FIFA 사모펀드 투자 계획에 대해 월드컵 보이콧 위협"
-    },
-    {
-      "headline": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcXV6ZUFyTnVCZmxRUVdTancteHlMckpydGNUdmYwdDFtaTllNmhNdkh2S0J1NS1CWDE1VG51Y18wcU41VloxRWZ5LWpTVGlGb2NfeDRkZ1RJeUs5aFFxaHIwVzByUk9md01STlJqVlRqLUNaVWdYN0psNXFGUlpuSVJOWGZ2LWtrNnJxbTlxUUNVNWxvOXJKZXM1alBLbzR4QXBUTjIzMXNwOG4zM2ZQVlZ6enJHZw?oc=5",
-      "datetime": 1785430005,
-      "headlineKo": "영란은행(BoE), 금리 동결 유지, 이란 전쟁 인플레이션 타격의 명확한 신호 기다리고 있음 - 로이터 통신"
-    },
-    {
-      "headline": "Cramer predicts a breakout for Starbucks shares as CEO Niccol's turnaround accelerates",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/cramer-predicts-a-breakout-for-starbucks-shares-as-ceo-niccols-turnaround-accelerates-.html",
-      "datetime": 1785429395,
-      "headlineKo": "Cramer는 CEO Niccol의 턴어라운드가 가속화됨에 따라 스타벅스 주식의 돌파를 예측합니다."
-    },
-    {
-      "headline": "Cramer sees a 'sure signal to buy' stocks. Plus what we want from Amazon's results",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/30/cramer-sees-signal-to-buy-stocks-previews-reports-amzn-aapl.html",
-      "datetime": 1785428231,
-      "headlineKo": "Cramer는 주식을 '매수하라는 확실한 신호'를 보고 있습니다. 게다가 Amazon의 결과에서 우리가 원하는 것"
     }
   ],
-  "_fetched_at": 1785487471.6258302,
-  "_updated_label": "2026-07-31 17:44"
+  "_fetched_at": 1785499234.0157497,
+  "_updated_label": "2026-07-31 21:01"
 };
