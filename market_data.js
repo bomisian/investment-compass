@@ -3,20 +3,20 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 17.09000015258789,
-      "prevClose": 20.65999984741211,
-      "changeAbs": -3.5699996948242188,
-      "changePct": -17.279766317478458,
-      "pctRank": 41.95859872611465,
+      "current": 16.739999771118164,
+      "prevClose": 17.09000015258789,
+      "changeAbs": -0.35000038146972656,
+      "changePct": -2.0479834894368154,
+      "pctRank": 38.05732484076433,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.234999799728392,
-      "ma60": 17.462999963760375,
-      "chg1m": 0.6399993896484375,
-      "chg3m": 0.20000076293945312,
-      "chg1mPct": 3.890573616812866,
-      "chg3mPct": 1.1841371827522376,
-      "lastDate": "2026-07-30",
+      "ma20": 17.264499807357787,
+      "ma60": 17.45216663678487,
+      "chg1m": 0.14999961853027344,
+      "chg3m": -0.25,
+      "chg1mPct": 0.9041568242955975,
+      "chg3mPct": -1.4714538161735757,
+      "lastDate": "2026-07-31",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 81.98999786376953,
+      "current": 82.69000244140625,
       "prevClose": 83.58999633789062,
-      "changeAbs": -1.5999984741210938,
-      "changePct": -1.914102816386688,
-      "pctRank": 69.13285600636436,
+      "changeAbs": -0.899993896484375,
+      "changePct": -1.0766765592935137,
+      "pctRank": 70.80350039777248,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.14500007629394,
-      "ma60": 85.29016660054525,
-      "chg1m": 13.409996032714844,
-      "chg3m": -23.080001831054688,
-      "chg1mPct": 19.553799467299623,
-      "chg3mPct": -21.966309982002993,
+      "ma20": 80.18000030517578,
+      "ma60": 85.30183334350586,
+      "chg1m": 14.110000610351562,
+      "chg3m": -22.37999725341797,
+      "chg1mPct": 20.574511860048116,
+      "chg3mPct": -21.3000831049973,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.11499786376953,
+      "current": 100.20700073242188,
       "prevClose": 100.01000213623047,
-      "changeAbs": 0.1049957275390625,
-      "changePct": 0.10498522677365872,
-      "pctRank": 36.5950676213206,
+      "changeAbs": 0.19699859619140625,
+      "changePct": 0.19697889409407368,
+      "pctRank": 37.07239459029435,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.95875053405761,
-      "ma60": 100.11308352152507,
-      "chg1m": -1.2750015258789062,
-      "chg3m": 2.0349960327148438,
-      "chg1mPct": -1.2575219780591884,
-      "chg3mPct": 2.0748327841797725,
+      "ma20": 100.96335067749024,
+      "ma60": 100.11461690266927,
+      "chg1m": -1.1829986572265625,
+      "chg3m": 2.1269989013671875,
+      "chg1mPct": -1.1667804165578706,
+      "chg3mPct": 2.1686366860300406,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4137.2001953125,
+      "current": 4112.89990234375,
       "prevClose": 4100.10009765625,
-      "changeAbs": 37.10009765625,
-      "changePct": 0.904858339372193,
-      "pctRank": 87.98727128082736,
+      "changeAbs": 12.7998046875,
+      "changePct": 0.312182736582865,
+      "pctRank": 87.66905330151154,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4071.5850341796877,
-      "ma60": 4277.05000406901,
-      "chg1m": 68.900146484375,
-      "chg3m": -477.5,
-      "chg1mPct": 1.6935856661856028,
-      "chg3mPct": -10.347367755006768,
+      "ma20": 4070.37001953125,
+      "ma60": 4276.644999186198,
+      "chg1m": 44.599853515625,
+      "chg3m": -501.80029296875,
+      "chg1mPct": 1.0962773881064156,
+      "chg3mPct": -10.873952190403756,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "GC=F",
@@ -161,25 +161,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil falls more than $1 on greater flows despite US-Iran war - reuters.com",
+      "headline": "Oil falls more than $1 on greater flows despite US-Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTWtnbUQ2S2JIalNxeXVETFdYcU95VDBtOHpPdlAxWDkzd1B0VVBPNnNpMW8xTGVRbkJ1NTFqbmJ0Ui1ucUUtSVhZeXZwRTQ4eE5FTWRkdzBlZEVJUzZHR0tKdnZTeXFoQlFPSHpGX0pqaEVVU3RhWFJqR2xNZnVJeDdOaG9ONUEtaThtRXhXakladzRkT2JvR1hxSEREVmxkRGRjQWw5ZTNoeTQ?oc=5",
       "datetime": 1785466800,
-      "headlineKo": "미국-이란 전쟁에도 불구하고 유가 증가로 1달러 이상 하락 - reuters.com"
+      "headlineKo": "미국-이란 전쟁에도 불구하고 유가가 1달러 이상 하락 - Reuters"
     },
     {
-      "headline": "US cyber defense agency warns hackers are increasingly targeting water systems - reuters.com",
+      "headline": "US cyber defense agency warns hackers are increasingly targeting water systems - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdWNJNFA5THZLRlg3TTVYX2tkQmJzOUdQamtWQXZDOU81R1RTdjBtX3E2S3k3RlVfR2p6WE9uZGpfbzNCUHpGN0hhZ3ROY3pmN1FiS1JZa0FjQ2FDMDZuOUFRSjJad0wyX3lZWUFfQ1FjdGs4RGZvRVpnYzBwT1o0UlkyaGVRTkpvdVo0SmpCUkdhWFN3TEVaVHpfTnB1YWUwbzNuMUpoa2VsdHdtM2hNZ2JaRUE?oc=5",
       "datetime": 1785447780,
-      "headlineKo": "미국 사이버 방어국, 해커들이 점점 더 수자원 시스템을 표적으로 삼고 있다고 경고 - reuters.com"
+      "headlineKo": "미국 사이버 방어 기관, 해커들이 점점 더 수자원 시스템을 표적으로 삼고 있다고 경고 - Reuters"
     },
     {
-      "headline": "Drone strike in Egypt sparks security concerns about Suez oil exports - reuters.com",
+      "headline": "Drone strike in Egypt sparks security concerns about Suez oil exports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY19zWlhiQmx4WmRhRHRLMUdTbjhwdEdVcHpaUmMtWndRMlB1MFNiZ2pJMzJZcFJQWEJSTzdfSGl6R0FXV016c2JUODlSV0Y3ZzBEbWRFeUVkRDQxQ2p5S0VPRWoyc0lZS3pobjVGR0l5YTV1V1FEbmE2N1BscGlFZWlLTjl6Qmp4TDJmalFTX1ZYVUJEYkV2NjBCWVhuNmRsdC1UZzBCVm1GQ2djejdiWUo1UnBfT1UzNmc?oc=5",
       "datetime": 1785442092,
-      "headlineKo": "이집트 드론 공격으로 수에즈 석유 수출에 대한 안보 우려 촉발 - reuters.com"
+      "headlineKo": "이집트 드론 공격으로 수에즈 석유 수출에 대한 안보 우려 촉발 - 로이터 통신"
     },
     {
       "headline": "'The Odyssey' extends stay in 70mm IMAX theaters as shows sell out weeks in advance",
@@ -189,11 +189,11 @@ const MARKET_DATA = {
       "headlineKo": "'The Odyssey'는 공연이 몇 주 전에 매진됨에 따라 70mm IMAX 극장에서 상영 기간을 연장합니다."
     },
     {
-      "headline": "Saudi Arabia unveils plans for multinational maritime defence coalition - reuters.com",
+      "headline": "Saudi Arabia unveils plans for multinational maritime defence coalition - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVVV1X2lpNHZQWlFIclZsaER1azctU1NVTk5FcjhEYTVULU9NU1JibElRWUYzWllrZFRKY3NiYVRKdnVhS0hoWkRMeWczMnZXX2Y0UnNrMlVPQzN5QWRnMVFacTBPQkNEZ29BTzh0M2dRSU9BZ1ZZNmN0RHoxaE5GbW5aR3NETW5fREF6UklGUHo5ZkM3NTVDdHpkUXNFY0hWZmxUZHB0aEk1NDBtUEd2VTJqV2RwazVoY0lPYnhR?oc=5",
       "datetime": 1785438469,
-      "headlineKo": "사우디아라비아, 다국적 해양방위연합 계획 공개 - reuters.com"
+      "headlineKo": "사우디아라비아, 다국적 해양방위연합 계획 공개 - 로이터 통신"
     },
     {
       "headline": "Microsoft wins back Jim Cramer's support after a surprisingly good quarter",
@@ -210,11 +210,11 @@ const MARKET_DATA = {
       "headlineKo": "수입이 2분기 미국 경제 성장을 방해하지만 국내 수요는 견조함 - Reuters"
     },
     {
-      "headline": "US issues sanctions targeting support networks for Iran's Mahan Air - reuters.com",
+      "headline": "US issues sanctions targeting support networks for Iran's Mahan Air - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYWwwbkpQREZyMHd4cWZMcVdqOXZJZEpWMGpJeFRWcE1CVG53TElTMWdOa1pPSmVvelZXVUVJdkVvSWl2YU5vb1poSVFtR29vdmxtQnE5WW4zZ2Jvck5lSnM0Ykg5Z0dqU2xKa3l3ZVM0QjA2X0w2djluS1o4WUsxZU53bkp5YzY2MFRld3EtajFPS0NUemVuMTJfRGh2bU1VZk5HcjZ5NERoSjhab1RVRDZPZkIyRGs?oc=5",
       "datetime": 1785432969,
-      "headlineKo": "미국, 이란 마한항공 지원 네트워크 겨냥 제재 발표 - reuters.com"
+      "headlineKo": "미국, 이란 마한항공 지원 네트워크 겨냥 제재 발표 - 로이터 통신"
     },
     {
       "headline": "UEFA threatens World Cup boycott over FIFA private equity investment plan",
@@ -224,11 +224,11 @@ const MARKET_DATA = {
       "headlineKo": "UEFA, FIFA 사모펀드 투자 계획에 대해 월드컵 보이콧 위협"
     },
     {
-      "headline": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit - reuters.com",
+      "headline": "Bank of England keeps rates on hold, awaits clearer sign of Iran war inflation hit - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcXV6ZUFyTnVCZmxRUVdTancteHlMckpydGNUdmYwdDFtaTllNmhNdkh2S0J1NS1CWDE1VG51Y18wcU41VloxRWZ5LWpTVGlGb2NfeDRkZ1RJeUs5aFFxaHIwVzByUk9md01STlJqVlRqLUNaVWdYN0psNXFGUlpuSVJOWGZ2LWtrNnJxbTlxUUNVNWxvOXJKZXM1alBLbzR4QXBUTjIzMXNwOG4zM2ZQVlZ6enJHZw?oc=5",
       "datetime": 1785430005,
-      "headlineKo": "영란은행(BoE), 금리 동결 유지, 이란 전쟁 인플레이션 타격의 명확한 신호 기다리고 있음 - reuters.com"
+      "headlineKo": "영란은행(BoE), 금리 동결 유지, 이란 전쟁 인플레이션 타격의 명확한 신호 기다리고 있음 - 로이터 통신"
     },
     {
       "headline": "Cramer predicts a breakout for Starbucks shares as CEO Niccol's turnaround accelerates",
@@ -245,6 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "Cramer는 주식을 '매수하라는 확실한 신호'를 보고 있습니다. 게다가 Amazon의 결과에서 우리가 원하는 것"
     }
   ],
-  "_fetched_at": 1785481099.2906413,
-  "_updated_label": "2026-07-31 15:58"
+  "_fetched_at": 1785487471.6258302,
+  "_updated_label": "2026-07-31 17:44"
 };
