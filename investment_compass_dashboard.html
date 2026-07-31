@@ -234,6 +234,7 @@
           <span class="sub">F&G 지수 수동 입력:</span>
           <input type="number" id="fgiManualInput" class="fgi-input" min="0" max="100" placeholder="0-100">
           <button class="secondary" onclick="saveFgiManual()">적용</button>
+          <button class="secondary" onclick="clearFgiManual()" title="저장해둔 수동값을 지우고 자동 조회로 되돌려요">자동값으로</button>
           <span class="sub" id="fgiSourceLabel"></span>
         </div>
       </div>
@@ -464,7 +465,7 @@ function renderHoldings(){
         <span class="remove" style="cursor:pointer;color:var(--sub);" onclick="removeHolding('${h.ticker}')">✕ 삭제</span>
       </div>
       <div class="fund-row"><span>현재가</span><span class="v">${cur!=null?'$'+cur.toFixed(2):'<span class="na">스캔 필요</span>'}</span></div>
-      <div class="fund-row"><span>평가손익</span><span class="v" style="color:${plPct==null?'var(--sub)':(plPct>=0?'var(--up)':'var(--down)')}">${plPct!=null?`${plPct>=0?'+':''}${plPct.toFixed(1)}% (${plAmt>=0?'+':''}$${Math.abs(plAmt).toFixed(0)})`:'-'}</span></div>
+      <div class="fund-row"><span>평가손익</span><span class="v" style="color:${plPct==null?'var(--sub)':(plPct>=0?'var(--up)':'var(--down)')}">${plPct!=null?`${plPct>=0?'+':''}${plPct.toFixed(1)}% (${plAmt>=0?'+':'-'}$${Math.abs(plAmt).toFixed(0)})`:'-'}</span></div>
       <div class="fund-row"><span>평가금액 / 투자원금</span><span class="v">${cur!=null?'$'+fmtUsd(cur*h.qty):'-'} / $${fmtUsd(cost)}</span></div>
       ${stages}
       ${dnNote}
@@ -549,7 +550,8 @@ async function fetchYahooViaProxies(ticker, range='2y'){
   throw lastErr || new Error('야후 프록시 전체 실패');
 }
 async function fetchStooq(ticker){
-  const sym = ticker.toLowerCase() + '.us';
+  // 지수 심볼(^VIX 등)은 미국 개별종목과 달리 .us 접미사를 붙이면 안 됨(stooq 규칙)
+  const sym = ticker.startsWith('^') ? ticker.toLowerCase() : ticker.toLowerCase() + '.us';
   const url = `https://stooq.com/q/d/l/?s=${encodeURIComponent(sym)}&i=d`;
   const res = await fetchWithTimeout(url, 9000);
   if(!res.ok) throw new Error('stooq HTTP '+res.status);
@@ -641,7 +643,7 @@ const HINTS = {
   drawdownLT: "주가가 최근 1년 최고가보다 얼마나 빠졌는지예요. 깊이 빠질수록 가점(-8%부터 +1, -28% 이하면 +3). 검증 결과 이게 장기 수익률 예측력이 가장 강한 지표였어요.",
   belowMa: "지금 주가가 200일(약 10개월) 평균 아래에 있으면 +1이에요. 평균 아래 = 중기 추세가 눌린 상태라 저가 매수 관점에서 유리했어요.",
   marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
-  fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 쉽게 말해 'PER이 안 변하고 실적만 예상대로 늘면 1년 뒤 이 가격'이에요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '적정가보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
+  fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 기업의 절대적인 가치를 구하는 게 아니라 '지금 PER이 유지된다면'이라는 가정 위의 시나리오라서 '적정주가'보다 'PER 유지 시나리오'라는 이름이 더 정확해요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '이 값보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
   signalHistory: "최근 단타 진입 신호가 언제·얼마에 떴는지, 그 뒤로 지금까지 얼마나 움직였는지예요. 늦게 확인했을 때 '아직 유효한 자리인지'를 판단하려고 넣었어요. 14년치 검증상 신호 당일 대신 다음날 사도 승률 차이가 1.3%p뿐이라, 하루이틀 늦은 건 큰 문제가 아니었어요.",
   sellGuide: "흔히 쓰는 매도 규칙(RSI 과매수, 200일선 이탈, 신고가권)을 대형주 13년치로 검증했더니 전부 '계속 보유'보다 나을 게 없었어요. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요. 그래서 매도는 주가 지표가 아니라 손절 규칙·펀더멘털 훼손으로 판단하라고 안내해요. 오른쪽은 이 점수에서 샀을 때 과거에 실제로 견뎌야 했던 하락폭과 기간이에요.",
   news: "Finnhub이 제공하는 최근 헤드라인이에요. 주가가 갑자기 움직일 때 '왜?'를 빠르게 확인하는 용도예요. 제목만 보여주고 내용의 사실 여부나 중요도는 검증하지 않으니, 판단은 원문을 직접 읽고 하세요.",
@@ -871,13 +873,24 @@ const ENTRY_BADGE = {
 };
 // 과거 진입신호(뭉침 제거된 entryFlags) 이후 N거래일 뒤 수익률 승률/평균수익률
 // 2026-07 5년치 14종목 백테스트(쿨다운+falling-knife 회피): 10거래일 기준 in-sample 70%, out-of-sample 63% 승률(표본 250건+)
-function backtestSignals(closes, entryFlags, horizons=[5,10,20]){
+// ⚠️ 진입가는 신호 당일 종가가 아니라 '다음날 시가' 기준(2026-07-28 수정).
+// CLAUDE.md에 문서화된 공식 검증(14년치)이 이미 "신호 당일 종가 매수(65.6%) vs 다음날 시가 매수(64.3%)"
+// 둘 다 실측해서 "다음날 시가"를 실전 기준으로 채택했음(신호는 장 마감 후에야 확정되므로 당일 종가 매수는
+// 현실적으로 불가능 - 미래를 미리 안 셈). 그런데 이 함수(종목별 라이브 백테스트)는 그동안 당일 종가로
+// 계산해서 SIGNAL_STATS(공식 수치)와 이 함수의 결과가 서로 다른 기준으로 섞여 표시되고 있었음.
+// 여기를 고쳐서 공식 검증과 동일한 기준으로 맞춤 - 승률/평균수익률이 기존보다 약간(~1%p) 낮아질 수 있음.
+function backtestSignals(opens, closes, entryFlags, horizons=[5,10,20]){
   const signalIdxs = [];
   for(let i=0;i<entryFlags.length;i++){ if(entryFlags[i]) signalIdxs.push(i); }
   const horizonStats = {};
   horizons.forEach(h=>{
     const rets = [];
-    signalIdxs.forEach(i=>{ if(i+h < closes.length) rets.push((closes[i+h]-closes[i])/closes[i]*100); });
+    signalIdxs.forEach(i=>{
+      const entryIdx = i+1, exitIdx = entryIdx+h;
+      if(entryIdx < opens.length && exitIdx < closes.length && opens[entryIdx]!=null){
+        rets.push((closes[exitIdx]-opens[entryIdx])/opens[entryIdx]*100);
+      }
+    });
     horizonStats[h] = {
       n: rets.length,
       winRate: rets.length ? rets.filter(r=>r>0).length/rets.length*100 : null,
@@ -935,7 +948,10 @@ function buildScoreBreakdown(ticker, tech, fund, env){
 async function fetchMarketEnv(){
   const [spyBundle, vixBundle] = await Promise.all([
     fetchDailyCloses('SPY'),
-    fetchYahooViaProxies('%5EVIX').catch(()=>fetchStooq('^vix').catch(()=>null)),
+    // ⚠️ '%5EVIX'처럼 미리 인코딩한 문자열을 넘기면 fetchYahooViaProxies 내부의
+    // encodeURIComponent()가 '%'를 다시 인코딩해 '%255EVIX'가 되어 야후가 404를 반환함
+    // (실측 확인). 항상 원본 심볼('^VIX')을 넘기고 인코딩은 함수 내부에서 한 번만 하게 함.
+    fetchYahooViaProxies('^VIX').catch(()=>fetchStooq('^VIX').catch(()=>null)),
   ]);
   const spyHigh = Math.max(...spyBundle.closes);
   const spyNow = last(spyBundle.closes);
@@ -960,14 +976,31 @@ async function fetchMarketEnv(){
       }catch(e){}
     }
   }catch(e){}
-  if(fgi==null && manual!=null){ fgi = parseFloat(manual); fgiSource = 'manual'; }
+  if(fgi==null && manual!=null){
+    const mv = parseFloat(manual);
+    if(Number.isFinite(mv) && mv>=0 && mv<=100){ fgi = mv; fgiSource = 'manual'; }
+  }
 
   return { spyDrawdownPct, vix: vix ?? 20, fgi, fgiSource, spyPrice: spyNow, spyHigh };
 }
 function saveFgiManual(){
-  const v = parseFloat(document.getElementById('fgiManualInput').value);
-  if(isNaN(v)) return;
+  const inp = document.getElementById('fgiManualInput');
+  const v = parseFloat(inp.value);
+  if(!Number.isFinite(v) || v<0 || v>100){
+    inp.setCustomValidity('0~100 사이 숫자를 입력해주세요.');
+    inp.reportValidity();
+    return;
+  }
+  inp.setCustomValidity('');
   localStorage.setItem('compass_fgi_manual', String(v));
+  scanAll();
+}
+// 저장해둔 수동값을 지우고 자동 조회 결과로 되돌림(F&G는 자동 조회가 될 때는 항상 자동값을 우선
+// 쓰지만 - CNN이 비공식 엔드포인트라 실패가 잦아 수동입력을 남겨둔 것 - 예전에 입력해둔 수동값이
+// 오래돼 화면에 계속 남는 게 싫을 때 명시적으로 지울 수 있게 함)
+function clearFgiManual(){
+  localStorage.removeItem('compass_fgi_manual');
+  document.getElementById('fgiManualInput').value = '';
   scanAll();
 }
 
@@ -1024,12 +1057,12 @@ function computeFairValue(ticker, price, fund, est){
     const growth = eps1/eps0 - 1;
     const mid = eps1 * anchorPe;
     const cautions = [];
-    if(growth < 0) cautions.push(`내년 EPS가 <b>올해보다 ${Math.abs(growth*100).toFixed(0)}% 줄어들 것으로</b> 예상돼요 - 실적이 꺾이는 국면이라 적정가도 현재가보다 낮게 나와요.`);
+    if(growth < 0) cautions.push(`내년 EPS가 <b>올해보다 ${Math.abs(growth*100).toFixed(0)}% 줄어들 것으로</b> 예상돼요 - 실적이 꺾이는 국면이라 이 시나리오 가격도 현재가보다 낮게 나와요.`);
     // 이익이 급증하는 국면에서는 '지금 PER 유지' 가정이 과하게 낙관적임.
     // 특히 메모리·반도체 같은 경기민감 업종은 이익이 피크일 때 PER이 가장 낮아지는 게 정상이라,
     // 성장률을 그대로 곱하면 적정가가 비현실적으로 커짐(실측: SNDK +219%, MU +109%, WDC +86%).
     if(growth > 0.5) cautions.push(`내년 이익이 <b>+${(growth*100).toFixed(0)}%</b> 급증할 것으로 예상돼요. 이런 국면에선 시장이 <b>PER을 오히려 낮춰서</b> 반응하는 경우가 많아요 — 메모리·반도체처럼 사이클을 타는 업종은 <b>이익이 가장 좋을 때 PER이 가장 낮아지거든요</b>. "PER 그대로" 가정이 과하게 낙관적일 수 있으니 위 <b>보수적</b> 값을 더 무겁게 보세요.`);
-    if(anchorPe > PE_FRAGILE_ABS) cautions.push(`현재 PER이 <b>${anchorPe.toFixed(0)}배</b>로 매우 높아요. 이익이 조금만 어긋나도 적정가가 크게 흔들리니 참고만 하세요.`);
+    if(anchorPe > PE_FRAGILE_ABS) cautions.push(`현재 PER이 <b>${anchorPe.toFixed(0)}배</b>로 매우 높아요. 이익이 조금만 어긋나도 이 시나리오 가격이 크게 흔들리니 참고만 하세요.`);
     if(nAnalysts!=null && nAnalysts < 15) cautions.push(`추정에 참여한 애널리스트가 <b>${nAnalysts}명</b>뿐이라 컨센서스가 흔들릴 수 있어요.`);
     out.fwd = {
       low: mid*PE_BAND_LOW, mid, high: mid*PE_BAND_HIGH,
@@ -1107,7 +1140,11 @@ async function analyzeTicker(ticker, env){
   // TSM처럼 현지 상장 기준으로 잡히면 Finnhub의 52주고저가/시가총액이 통화가 안 맞을 수 있어
   // Yahoo의 실거래(ADR) 통화 기준 값(estimates_data.js)을 우선 사용
   const useEstPrice = est && est.quoteCurrency === 'USD';
-  const high52 = (useEstPrice ? est.week52High : null) ?? fund['52WeekHigh'] ?? Math.max(...closes.slice(-252));
+  // price는 방금 받은 실시간 일봉의 마지막 종가인데, est/fund의 52주고가는 몇 시간~며칠 전에
+  // 캐시된 정적값이라 시점이 어긋날 수 있음(방금 신고가를 찍었는데 캐시가 그걸 반영 못 하는 등).
+  // 그래서 같은 fetch로 받은 closes에서 직접 계산한 값을 우선 쓰고, 봉이 부족할 때만 캐시로 대체.
+  const rolling52High = closes.length ? Math.max(...closes.slice(-Math.min(252, closes.length))) : null;
+  const high52 = rolling52High ?? (useEstPrice ? est.week52High : null) ?? fund['52WeekHigh'];
   // ⚠️ 단위 통일: Yahoo quoteMarketCap은 '원단위 달러'인데 Finnhub marketCapitalization은 '백만 달러 단위'라
   // 그냥 ?? 로 섞으면 폴백 여부에 따라 100만배 차이가 남(실제로 비교표에 "$4891182891.0B" 같은 값이 찍혔음).
   // 여기서 원단위 달러로 통일해두고, 표시하는 쪽은 전부 fmtUsd()만 쓰도록 함.
@@ -1151,41 +1188,51 @@ async function scanAll(){
   const btn = document.getElementById('scanBtn');
   const status = document.getElementById('scanStatus');
   btn.disabled = true;
-  status.innerHTML = '<div class="loading">시장 환경 조회 중...</div>';
+  // 시장환경 조회 이후 구간(종목 스캔·렌더링)에서 예상 못한 예외가 나면 btn.disabled가 영영
+  // true로 남아 스캔 버튼이 죽어버리는 문제가 있었음 - try/finally로 감싸서 항상 복구되게 함.
+  // (종목 하나가 실패하는 건 이미 아래 worker의 try/catch가 따로 처리하고 있어서 전체를 안 막음)
   try{
-    marketEnv = await fetchMarketEnv();
-  }catch(e){
-    status.innerHTML = `<div class="err">시장 환경 조회 실패: ${e.message}</div>`;
-    btn.disabled = false;
-    return;
-  }
-  const list = allTickers();
-  status.innerHTML = `<div class="loading">체크 중... (0/${list.length})</div>`;
-  results = {};
-  let done = 0;
-  // 예전엔 24종목을 한 개씩 순서대로 기다려서(프록시 왕복 × 24) 매우 느렸음.
-  // 동시에 SCAN_CONCURRENCY개씩 처리 - 프록시가 동시요청을 제한하는 경우가 있어 무제한 병렬은 피함.
-  const queue = [...list];
-  async function worker(){
-    while(queue.length){
-      const t = queue.shift();
-      try{
-        results[t] = await analyzeTicker(t, marketEnv);
-      }catch(e){
-        results[t] = {ticker:t, error:true, msg:e.message, theme:(FUNDAMENTALS_DATA[t]||{}).theme || '기타'};
-      }
-      done++;
-      status.innerHTML = `<div class="loading">체크 중... (${done}/${list.length})</div>`;
+    status.innerHTML = '<div class="loading">시장 환경 조회 중...</div>';
+    try{
+      marketEnv = await fetchMarketEnv();
+    }catch(e){
+      status.innerHTML = `<div class="err">시장 환경 조회 실패: ${e.message}</div>`;
+      return;
     }
+    const list = allTickers();
+    status.innerHTML = `<div class="loading">체크 중... (0/${list.length})</div>`;
+    results = {};
+    let done = 0;
+    // 예전엔 24종목을 한 개씩 순서대로 기다려서(프록시 왕복 × 24) 매우 느렸음.
+    // 동시에 SCAN_CONCURRENCY개씩 처리 - 프록시가 동시요청을 제한하는 경우가 있어 무제한 병렬은 피함.
+    const queue = [...list];
+    async function worker(){
+      while(queue.length){
+        const t = queue.shift();
+        try{
+          results[t] = await analyzeTicker(t, marketEnv);
+        }catch(e){
+          results[t] = {ticker:t, error:true, msg:e.message, theme:(FUNDAMENTALS_DATA[t]||{}).theme || '기타'};
+        }
+        done++;
+        status.innerHTML = `<div class="loading">체크 중... (${done}/${list.length})</div>`;
+      }
+    }
+    await Promise.all(Array.from({length: Math.min(SCAN_CONCURRENCY, list.length)}, worker));
+    const failCount = Object.values(results).filter(r=>r.error).length;
+    status.innerHTML = failCount
+      ? `<div class="err">완료 · ${list.length-failCount}개 성공 / ${failCount}개 실패</div>`
+      : '';
+    document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
+    renderSummary();
+    renderThemeFilter();
+    renderTable();
+    renderHoldings();
+  }catch(e){
+    status.innerHTML = `<div class="err">전체 스캔 실패: ${e.message}</div>`;
+  }finally{
+    btn.disabled = false;
   }
-  await Promise.all(Array.from({length: Math.min(SCAN_CONCURRENCY, list.length)}, worker));
-  status.innerHTML = '';
-  document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
-  btn.disabled = false;
-  renderSummary();
-  renderThemeFilter();
-  renderTable();
-  renderHoldings();
 }
 
 // ============ 임의 종목 즉석 조회 (관심종목 아니어도 기술적 단기판단만은 가능) ============
@@ -1587,7 +1634,7 @@ function renderFairValueSection(r){
   ].filter(Boolean).join(' · ');
 
   return `
-    <div class="chart-label" style="margin-top:18px;">적정주가 참고치 ${hintIcon('fairValue')}</div>
+    <div class="chart-label" style="margin-top:18px;">PER 유지 시나리오 (참고치) ${hintIcon('fairValue')}</div>
     <div class="fund-grid">
       <div class="fund-col"><h3>실적 기준 (내년 예상 EPS)</h3>${perBlock}</div>
       <div class="fund-col"><h3>애널리스트 목표가</h3>${analystBlock}</div>
@@ -1596,7 +1643,7 @@ function renderFairValueSection(r){
     ${fv.downside!=null ? `<div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
       <b>하방 시나리오</b> — 이익은 그대로인데 <b>밸류에이션만 과거 하위 20% 수준으로 눌리면</b> 약 <b>$${fv.downside.toFixed(0)}</b> (${rel(fv.downside)}). 분할매수 계획을 세울 때 "여기까지는 빠질 수 있다"의 기준으로 쓰세요.</div>` : ''}
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
-      ⚠️ <b>"싸다"를 매수 신호로 쓰지 마세요.</b> 대형주 13종목 13년치로 직접 검증했더니, 적정가 대비 <b>매우 저평가된 종목의 이후 12개월 성적이 오히려 더 나빴어요</b>(초과수익 +19%·승률 58% vs 매우 고평가 +23%·승률 71%). 낮은 PER은 이익이 꺾일 걸 시장이 미리 반영한 경우가 많거든요(밸류 트랩). 이 숫자는 <b>"지금 얼마를 지불하고 있는지 눈금"</b>과 <b>하방 가늠</b>으로만 쓰고, 살지 말지는 위 눌림목 점수와 02~05 탭 펀더멘털로 판단하세요.
+      ⚠️ <b>"싸다"를 매수 신호로 쓰지 마세요.</b> 대형주 13종목 13년치로 직접 검증했더니, 이 PER 유지 시나리오 대비 <b>매우 저평가된 종목의 이후 12개월 성적이 오히려 더 나빴어요</b>(초과수익 +19%·승률 58% vs 매우 고평가 +23%·승률 71%). 낮은 PER은 이익이 꺾일 걸 시장이 미리 반영한 경우가 많거든요(밸류 트랩). 이 숫자는 <b>"지금 얼마를 지불하고 있는지 눈금"</b>과 <b>하방 가늠</b>으로만 쓰고, 살지 말지는 위 눌림목 점수와 02~05 탭 펀더멘털로 판단하세요.
     </div>`;
 }
 
@@ -1709,7 +1756,7 @@ function renderTradePlan(r){
   const badge = ENTRY_BADGE[es.kind];
   const closes = r.series.closes, dates = r.series.dates;
   const price = r.price;
-  const bt = backtestSignals(closes, ts.entryFlags, [10,15,20]);
+  const bt = backtestSignals(r.series.opens, closes, ts.entryFlags, [10,15,20]);
   const st10 = bt.horizonStats[10];
   const enoughSample = st10.n >= 8 && st10.winRate!=null;
 
@@ -2247,7 +2294,7 @@ function renderTechSection(r){
   const ts = r.series.techSeries;
   const score = last(ts.scores);
   const v = score!=null ? technicalVerdict(score) : {label:'-', cls:'watch'};
-  const bt = backtestSignals(r.series.closes, ts.entryFlags, [5,10,20]);
+  const bt = backtestSignals(r.series.opens, r.series.closes, ts.entryFlags, [5,10,20]);
   const btRows = [5,10,20].map(h=>{
     const st = bt.horizonStats[h];
     return `<div class="fund-row">
@@ -2498,12 +2545,12 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
     ctx.restore();
   }
 
-  // 적정주가 수평선 (적정 평균 / 애널리스트 목표 / 하방 시나리오).
+  // PER 유지 시나리오 수평선 (PER유지가 / 애널리스트 목표 / 하방 시나리오).
   // 차트 y범위 밖이면 캔들을 찌그러뜨리지 않고 위/아래 가장자리에 화살표 라벨로 알려줌.
   const fv = s.fairValue;
   if(fv){
     const lines = [];
-    if(fv.fwd && fv.fwd.mid!=null) lines.push({v:fv.fwd.mid, color:'#ea5414', label:'적정'});
+    if(fv.fwd && fv.fwd.mid!=null) lines.push({v:fv.fwd.mid, color:'#ea5414', label:'PER유지'});
     if(fv.analyst && fv.analyst.mid!=null) lines.push({v:fv.analyst.mid, color:'#3b6fd8', label:'목표'});
     if(fv.downside!=null) lines.push({v:fv.downside, color:'#8b95a1', label:'하방'});
     ctx.save();
