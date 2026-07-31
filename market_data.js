@@ -245,6 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "기술 다운로드: Anduril CEO Brian Schimpf가 전쟁 및 제조 부문에서 AI에 대해 이야기합니다."
     }
   ],
-  "_fetched_at": 1785535201.8551347,
-  "_updated_label": "2026-08-01 07:00"
+  "_fetched_at": 1785538801.8579836,
+  "_updated_label": "2026-08-01 08:00"
 };
