@@ -245,6 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "34세 CEO는 ChatGPT보다 5년 전에 AI 비디오에 베팅했습니다. Mark Cuban이 투자하도록 설득하는 것은 쉬운 부분이었습니다."
     }
   ],
-  "_fetched_at": 1785614402.128444,
-  "_updated_label": "2026-08-02 05:00"
+  "_fetched_at": 1785618002.129196,
+  "_updated_label": "2026-08-02 06:00"
 };
