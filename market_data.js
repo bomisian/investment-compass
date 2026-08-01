@@ -161,6 +161,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Looking at just the odds isn’t enough. How traders gain an edge on prediction markets",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html",
+      "datetime": 1785591844,
+      "headlineKo": "확률만 보는 것만으로는 충분하지 않습니다. 거래자가 예측 시장에서 우위를 차지하는 방법"
+    },
+    {
       "headline": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
@@ -236,15 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/31/ceo-bet-on-ai-video-years-before-chatgptnow-his-startup-is-worth-billions.html",
       "datetime": 1785503101,
       "headlineKo": "34세 CEO는 ChatGPT보다 5년 전에 AI 비디오에 베팅했습니다. Mark Cuban이 투자하도록 설득하는 것은 쉬운 부분이었습니다."
-    },
-    {
-      "headline": "New York sues Kalshi, says prediction market is running 'illegal gambling operation'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/new-york-sues-kalshi-claims-it-is-illegal-gambling-operation.html",
-      "datetime": 1785501694,
-      "headlineKo": "뉴욕, 칼시 고소, 예측 시장이 '불법 도박 운영' 운영하고 있다고 주장"
     }
   ],
-  "_fetched_at": 1785589202.1489258,
-  "_updated_label": "2026-08-01 22:00"
+  "_fetched_at": 1785592819.906028,
+  "_updated_label": "2026-08-01 23:00"
 };
