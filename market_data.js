@@ -161,6 +161,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
+      "datetime": 1785585601,
+      "headlineKo": "OpenAI의 Hugging Face 해킹으로 수개월간 AI 사이버 경고 확인: '판도라의 상자가 열렸습니다'"
+    },
+    {
       "headline": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html",
@@ -236,15 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/31/new-york-sues-kalshi-claims-it-is-illegal-gambling-operation.html",
       "datetime": 1785501694,
       "headlineKo": "뉴욕, 칼시 고소, 예측 시장이 '불법 도박 운영' 운영하고 있다고 주장"
-    },
-    {
-      "headline": "The Tech Download: Anduril CEO Brian Schimpf talks AI in warfare and manufacturing push",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/the-tech-download-anduril-ceo-brian-schimpf.html",
-      "datetime": 1785496289,
-      "headlineKo": "기술 다운로드: Anduril CEO Brian Schimpf가 전쟁 및 제조 부문에서 AI에 대해 이야기합니다."
     }
   ],
-  "_fetched_at": 1785585763.1518614,
-  "_updated_label": "2026-08-01 21:03"
+  "_fetched_at": 1785589202.1489258,
+  "_updated_label": "2026-08-01 22:00"
 };
