@@ -245,6 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "핀테크 브로커 Clear Street는 투자자들에게 1,880억 달러 규모의 거대 AI Databricks에 대한 사전 IPO 액세스를 제공합니다."
     }
   ],
-  "_fetched_at": 1785697285.7259896,
-  "_updated_label": "2026-08-03 04:01"
+  "_fetched_at": 1785700802.1260498,
+  "_updated_label": "2026-08-03 05:00"
 };
