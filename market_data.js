@@ -161,6 +161,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/02/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1785684961,
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
+    },
+    {
+      "headline": "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/02/why-people-are-dropping-out-of-the-workforce-and-not-looking-for-new-jobs-the-market-wore-me-down.html",
+      "datetime": 1785681001,
+      "headlineKo": "사람들이 직장을 그만두고 새 일자리를 찾지 않는 이유: '시장이 나를 지치게 했습니다'"
+    },
+    {
       "headline": "Op-ed: The U.S. lead over China in AI is all but gone",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
@@ -229,22 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
       "datetime": 1785522001,
       "headlineKo": "핀테크 브로커 Clear Street는 투자자들에게 1,880억 달러 규모의 거대 AI Databricks에 대한 사전 IPO 액세스를 제공합니다."
-    },
-    {
-      "headline": "The S&P 500 is stuck at a key battleground level. This obscure index could determine the market’s next move",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/the-sp-500-is-stuck-this-obscure-index-could-determine-the-markets-next-move.html",
-      "datetime": 1785521256,
-      "headlineKo": "S&P 500은 주요 격전지 수준에 머물러 있습니다. 이 모호한 지수는 시장의 다음 움직임을 결정할 수 있습니다"
-    },
-    {
-      "headline": "‘Spider-Man: Brand New Day’ sets domestic box office preview record with $72 million",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html",
-      "datetime": 1785520005,
-      "headlineKo": "'스파이더맨: 브랜 뉴 데이', 7200만 달러로 국내 박스오피스 미리보기 최고 기록 경신"
     }
   ],
-  "_fetched_at": 1785686425.9592469,
-  "_updated_label": "2026-08-03 01:00"
+  "_fetched_at": 1785690002.1412632,
+  "_updated_label": "2026-08-03 02:00"
 };
