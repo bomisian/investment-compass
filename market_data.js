@@ -161,6 +161,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Op-ed: The U.S. lead over China in AI is all but gone",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
+      "datetime": 1785673801,
+      "headlineKo": "논평: AI 분야에서 미국이 중국을 앞서는 것은 거의 사라졌습니다."
+    },
+    {
+      "headline": "Why flights are so expensive and will likely stay that way",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/02/flights-are-getting-even-more-expensive-as-fuel-prices-rise.html",
+      "datetime": 1785672001,
+      "headlineKo": "왜 비행기 가격이 그렇게 비싸고 그런 상태로 유지될 가능성이 높은가?"
+    },
+    {
       "headline": "Looking at just the odds isn’t enough. How traders gain an edge on prediction markets",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html",
@@ -229,22 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/31/spider-man-brand-new-day-box-office-preview-sales.html",
       "datetime": 1785520005,
       "headlineKo": "'스파이더맨: 브랜 뉴 데이', 7200만 달러로 국내 박스오피스 미리보기 최고 기록 경신"
-    },
-    {
-      "headline": "Jim Cramer: Buy this industrial stock on the dip if you don't own it already",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/jim-cramer-buy-this-industrial-stock-on-the-dip-if-you-dont-own-it-already.html",
-      "datetime": 1785514860,
-      "headlineKo": "짐 크레이머: 산업 주식을 아직 보유하고 있지 않다면 하락장에서 매수하세요"
-    },
-    {
-      "headline": "FIFA tests the limits of private equity in sports with World Cup subsidiary sale",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html",
-      "datetime": 1785513611,
-      "headlineKo": "FIFA, 월드컵 자회사 매각으로 스포츠 사모펀드 한계 시험"
     }
   ],
-  "_fetched_at": 1785672163.650093,
-  "_updated_label": "2026-08-02 21:03"
+  "_fetched_at": 1785675602.1429722,
+  "_updated_label": "2026-08-02 22:00"
 };
