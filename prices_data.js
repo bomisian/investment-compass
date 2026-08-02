@@ -3021,8 +3021,8 @@ const PRICES_DATA = {
       66753700,
       50443900
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "SPY": {
     "dates": [
@@ -6043,8 +6043,8 @@ const PRICES_DATA = {
       66811300,
       62339900
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "MSFT": {
     "dates": [
@@ -9065,8 +9065,8 @@ const PRICES_DATA = {
       110160700,
       60748000
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "GOOGL": {
     "dates": [
@@ -12087,8 +12087,8 @@ const PRICES_DATA = {
       30168000,
       46425700
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "AMZN": {
     "dates": [
@@ -15109,8 +15109,8 @@ const PRICES_DATA = {
       101839800,
       128881300
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "META": {
     "dates": [
@@ -18131,8 +18131,8 @@ const PRICES_DATA = {
       42271500,
       24202500
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "AAPL": {
     "dates": [
@@ -21153,8 +21153,8 @@ const PRICES_DATA = {
       74817800,
       132275300
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "TSLA": {
     "dates": [
@@ -24175,8 +24175,8 @@ const PRICES_DATA = {
       38005400,
       36527800
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "ORCL": {
     "dates": [
@@ -27197,8 +27197,8 @@ const PRICES_DATA = {
       41338400,
       34373400
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "CRM": {
     "dates": [
@@ -30219,8 +30219,8 @@ const PRICES_DATA = {
       12182400,
       9686300
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "PLTR": {
     "dates": [
@@ -33241,8 +33241,8 @@ const PRICES_DATA = {
       27801600,
       29004900
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "NVDA": {
     "dates": [
@@ -36263,8 +36263,8 @@ const PRICES_DATA = {
       129010200,
       139659700
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "AMD": {
     "dates": [
@@ -39285,8 +39285,8 @@ const PRICES_DATA = {
       36936600,
       26515500
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "AVGO": {
     "dates": [
@@ -42307,8 +42307,8 @@ const PRICES_DATA = {
       23639800,
       20362700
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "QCOM": {
     "dates": [
@@ -45329,8 +45329,8 @@ const PRICES_DATA = {
       24336800,
       13788600
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "ARM": {
     "dates": [
@@ -48351,8 +48351,8 @@ const PRICES_DATA = {
       12805900,
       7206000
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "MRVL": {
     "dates": [
@@ -51373,8 +51373,8 @@ const PRICES_DATA = {
       29861700,
       26746700
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "INTC": {
     "dates": [
@@ -54395,8 +54395,8 @@ const PRICES_DATA = {
       140322600,
       108664200
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "TSM": {
     "dates": [
@@ -57417,8 +57417,8 @@ const PRICES_DATA = {
       17474200,
       11926500
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "ASML": {
     "dates": [
@@ -60439,8 +60439,8 @@ const PRICES_DATA = {
       2170500,
       1599400
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "AMAT": {
     "dates": [
@@ -63461,8 +63461,8 @@ const PRICES_DATA = {
       12166300,
       7404200
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "LRCX": {
     "dates": [
@@ -66483,8 +66483,8 @@ const PRICES_DATA = {
       22085800,
       12551800
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "KLAC": {
     "dates": [
@@ -69505,8 +69505,8 @@ const PRICES_DATA = {
       17485100,
       13503700
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "MU": {
     "dates": [
@@ -72527,8 +72527,8 @@ const PRICES_DATA = {
       63075300,
       54257900
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "SNDK": {
     "dates": [
@@ -74745,8 +74745,8 @@ const PRICES_DATA = {
       24398700,
       21089900
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "WDC": {
     "dates": [
@@ -77767,8 +77767,8 @@ const PRICES_DATA = {
       8408800,
       9486600
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   },
   "^VIX": {
     "dates": [
@@ -80801,7 +80801,7 @@ const PRICES_DATA = {
       0,
       0
     ],
-    "_fetched_at": 1785585786.151569,
-    "_updated_label": "2026-08-01 21:03"
+    "_fetched_at": 1785672189.3091733,
+    "_updated_label": "2026-08-02 21:03"
   }
 };

@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4049.10009765625,
+      "current": 4107.0,
       "prevClose": 4100.10009765625,
-      "changeAbs": -51.0,
-      "changePct": -1.2438720710539055,
-      "pctRank": 85.8392999204455,
+      "changeAbs": 6.89990234375,
+      "changePct": 0.16828619251745117,
+      "pctRank": 87.3508353221957,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4067.180029296875,
-      "ma60": 4275.581669108073,
-      "chg1m": -19.199951171875,
-      "chg3m": -565.60009765625,
-      "chg1mPct": -0.47194039135352256,
-      "chg3mPct": -12.25648630935489,
+      "ma20": 4070.0750244140627,
+      "ma60": 4276.546667480468,
+      "chg1m": 38.699951171875,
+      "chg3m": -507.7001953125,
+      "chg1mPct": 0.9512560702847503,
+      "chg3mPct": -11.00180236688419,
       "lastDate": "2026-07-31",
       "bars": 1257,
       "symbol": "GC=F",
@@ -175,6 +175,34 @@ const MARKET_DATA = {
       "headlineKo": "OpenAI의 Hugging Face 해킹으로 수개월간 AI 사이버 경고 확인: '판도라의 상자가 열렸습니다'"
     },
     {
+      "headline": "Bloomberg puts off adding Indian bonds to its global index",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/bloomberg-defers-inclusion-of-indian-bonds-in-global-index-ms8wqbxp",
+      "datetime": 1785564914,
+      "headlineKo": "블룸버그, 글로벌 지수에 인도채 편입 연기"
+    },
+    {
+      "headline": "Data centre boom fuels demand for workforce housing",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/data-center-boom-fueling-demand-for-workforce-housing",
+      "datetime": 1785559029,
+      "headlineKo": "데이터 센터 붐으로 인력 주택 수요가 증가함"
+    },
+    {
+      "headline": "Dollar logs its worst week in over 3 months amid Fed doubts",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow",
+      "datetime": 1785558774,
+      "headlineKo": "달러는 연준의 의심 속에 3개월 만에 최악의 한 주를 기록했다"
+    },
+    {
+      "headline": "Indian companies plan for fresh price hikes, testing inflation outlook",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
+      "datetime": 1785558434,
+      "headlineKo": "인도 기업, 새로운 가격 인상 계획, 인플레이션 전망 테스트"
+    },
+    {
       "headline": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html",
@@ -215,36 +243,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/07/31/fifa-world-cup-private-equity-sports.html",
       "datetime": 1785513611,
       "headlineKo": "FIFA, 월드컵 자회사 매각으로 스포츠 사모펀드 한계 시험"
-    },
-    {
-      "headline": "Microsoft shares are surging. Here’s how to still make money, says Mike Khouw",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/microsoft-shares-are-surging-heres-how-to-still-make-money-says-mike-khouw.html",
-      "datetime": 1785511591,
-      "headlineKo": "마이크로소프트 주가가 급등하고 있다. Mike Khouw는 다음과 같이 돈을 버는 방법을 소개합니다."
-    },
-    {
-      "headline": "GM to launch new in-vehicle AI system later this year",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/gm-in-vehicle-ai-system.html",
-      "datetime": 1785504052,
-      "headlineKo": "GM, 올해 말 새로운 차량 내 AI 시스템 출시 예정"
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
-      "datetime": 1785503694,
-      "headlineKo": "Jim Cramer가 금요일 주식 시장에서 주목해야 할 10가지 항목"
-    },
-    {
-      "headline": "34-year-old CEO bet on AI video 5 years before ChatGPT—convincing Mark Cuban to invest was the easy part",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/ceo-bet-on-ai-video-years-before-chatgptnow-his-startup-is-worth-billions.html",
-      "datetime": 1785503101,
-      "headlineKo": "34세 CEO는 ChatGPT보다 5년 전에 AI 비디오에 베팅했습니다. Mark Cuban이 투자하도록 설득하는 것은 쉬운 부분이었습니다."
     }
   ],
-  "_fetched_at": 1785628802.1199484,
-  "_updated_label": "2026-08-02 09:00"
+  "_fetched_at": 1785672163.650093,
+  "_updated_label": "2026-08-02 21:03"
 };
