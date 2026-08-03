@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.06999969482422,
+      "current": 80.05999755859375,
       "prevClose": 84.66999816894531,
-      "changeAbs": -4.599998474121094,
-      "changePct": -5.432855289476373,
-      "pctRank": 62.84805091487669,
+      "changeAbs": -4.6100006103515625,
+      "changePct": -5.444668371378786,
+      "pctRank": 62.68894192521878,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.85499992370606,
-      "ma60": 85.08466657002766,
-      "chg1m": 11.379997253417969,
-      "chg3m": -21.87000274658203,
-      "chg1mPct": 16.567181320346148,
-      "chg3mPct": -21.453798531300425,
+      "ma20": 80.85449981689453,
+      "ma60": 85.08449986775716,
+      "chg1m": 11.3699951171875,
+      "chg3m": -21.8800048828125,
+      "chg1mPct": 16.55262005105663,
+      "chg3mPct": -21.4636103186174,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.96399688720703,
+      "current": 99.95600128173828,
       "prevClose": 99.80000305175781,
-      "changeAbs": 0.16399383544921875,
-      "changePct": 0.16432247538526532,
-      "pctRank": 35.87907716785998,
+      "changeAbs": 0.15599822998046875,
+      "changePct": 0.15631084690404837,
+      "pctRank": 35.719968178202066,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.89870071411133,
-      "ma60": 100.14023361206054,
-      "chg1m": -0.8960037231445312,
-      "chg3m": 1.753997802734375,
-      "chg1mPct": -0.8883637891358209,
-      "chg3mPct": 1.785966621612247,
+      "ma20": 100.89830093383789,
+      "ma60": 100.1401003519694,
+      "chg1m": -0.9039993286132812,
+      "chg3m": 1.746002197265625,
+      "chg1mPct": -0.8962912186622584,
+      "chg3mPct": 1.7778252861644452,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4112.5,
+      "current": 4110.89990234375,
       "prevClose": 4049.10009765625,
-      "changeAbs": 63.39990234375,
-      "changePct": 1.5657776003227954,
-      "pctRank": 87.58949880668257,
+      "changeAbs": 61.7998046875,
+      "changePct": 1.526260235534106,
+      "pctRank": 87.50994431185362,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4065.0500244140626,
-      "ma60": 4266.091670735677,
-      "chg1m": -0.2001953125,
-      "chg3m": -517.39990234375,
-      "chg1mPct": -0.004867734164726498,
-      "chg3mPct": -11.17518549551863,
+      "ma20": 4064.97001953125,
+      "ma60": 4266.065002441406,
+      "chg1m": -1.80029296875,
+      "chg3m": -519.0,
+      "chg1mPct": -0.04377398991547951,
+      "chg3mPct": -11.209745587313272,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,6 +182,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Larry Berg named next Major League Soccer commissioner",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/03/larry-berg-major-league-soccer-commissioner.html",
+      "datetime": 1785790017,
+      "headlineKo": "래리 버그가 차기 메이저 리그 축구 커미셔너로 임명되었습니다."
+    },
+    {
+      "headline": "Wall Street rallies, Dow closes at record on Iran talks optimism - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTC1HdWxXY3dmcFlCNm9FZ3N5VnVhSWg0ZHV4a1RRdUdlUVM5QUhNYUlueDN2akloUFFEUWRIWXNHeFk1VEFHMDhBRTV1XzY5TnBxUXlVQk96NkFMSnNuTURuTzhCOVRBUkVVT2p1VjBOZFBZdk4zM01WQlFDY1ZZTGhqR2NaeXNrVWN0Ym5aQ1VENmZ5aGRKRWRoMHlNRTVxMWxVSFVrOA?oc=5",
+      "datetime": 1785788804,
+      "headlineKo": "월스트리트 랠리, 다우지수는 이란 낙관론에 대한 기록 마감 - 로이터 통신"
+    },
+    {
+      "headline": "Trump says Iran faces 'decapitation' if it doesn't strike deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWpzQ3dqaWdURjZva2hpRmpXbFNWNWFsQnlRTDF5YlpCTlBBVGxEYWZYVEhLMl84aHdvdzBhUUhxeVBqWWVHWTR5dEpleS1XY0wwR0V4N1JaMkNOaUdvWGgwWHZ0d2hubUVNU2MxMUY5dnVaS05fTlhja0JEWGp3SEdMRmswbEVIUmY1clZWdEExNDNQTFpVelhla3o0alFQS2c?oc=5",
+      "datetime": 1785786541,
+      "headlineKo": "트럼프 “이란, 합의 안 하면 참수 당할 것” - 로이터"
+    },
+    {
       "headline": "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/03/trump-pirro-reflecting-pool-vandalism-case.html",
@@ -194,20 +215,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/03/a-trio-of-positive-developments-has-boeing-shares-soaring.html",
       "datetime": 1785784984,
       "headlineKo": "세 가지 긍정적인 발전으로 보잉 주가 급등"
-    },
-    {
-      "headline": "Wall Street rallies to kick off August on Iran talks optimism - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTC1HdWxXY3dmcFlCNm9FZ3N5VnVhSWg0ZHV4a1RRdUdlUVM5QUhNYUlueDN2akloUFFEUWRIWXNHeFk1VEFHMDhBRTV1XzY5TnBxUXlVQk96NkFMSnNuTURuTzhCOVRBUkVVT2p1VjBOZFBZdk4zM01WQlFDY1ZZTGhqR2NaeXNrVWN0Ym5aQ1VENmZ5aGRKRWRoMHlNRTVxMWxVSFVrOA?oc=5",
-      "datetime": 1785782240,
-      "headlineKo": "월스트리트 집회, 이란 낙관론에 대해 8월 시작 - 로이터 통신"
-    },
-    {
-      "headline": "Trump says Iran faces 'decapitation' if it doesn't strike deal - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWpzQ3dqaWdURjZva2hpRmpXbFNWNWFsQnlRTDF5YlpCTlBBVGxEYWZYVEhLMl84aHdvdzBhUUhxeVBqWWVHWTR5dEpleS1XY0wwR0V4N1JaMkNOaUdvWGgwWHZ0d2hubUVNU2MxMUY5dnVaS05fTlhja0JEWGp3SEdMRmswbEVIUmY1clZWdEExNDNQTFpVelhla3o0alFQS2c?oc=5",
-      "datetime": 1785782036,
-      "headlineKo": "트럼프 “이란, 합의 안 하면 참수 당할 것” - 로이터"
     },
     {
       "headline": "After deadly day, Gazans say Trump's touting of plan jars with grim reality - Reuters",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/03/were-trimming-an-industrial-and-buying-another-name-plus-2-more-stocks-were-eyeing-.html",
       "datetime": 1785771236,
       "headlineKo": "우리는 산업을 다듬고 다른 이름을 구입하고 있습니다. 게다가 우리가 주목하고 있는 주식이 2개 더 있습니다."
-    },
-    {
-      "headline": "'Spider-Man: Brand New Day' beats out 'Avengers: Endgame' for highest domestic opening ever",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/03/spider-man-brand-new-day-debut-360m-highest-domestic-opening-ever.html",
-      "datetime": 1785768929,
-      "headlineKo": "'스파이더맨: 브랜 뉴 데이', '어벤져스: 엔드게임' 제치고 국내 개봉 최고 기록"
     }
   ],
-  "_fetched_at": 1785790802.4485197,
-  "_updated_label": "2026-08-04 06:00"
+  "_fetched_at": 1785794402.0955477,
+  "_updated_label": "2026-08-04 07:00"
 };
