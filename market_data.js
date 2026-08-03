@@ -3,20 +3,20 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.989999771118164,
-      "prevClose": 17.09000015258789,
-      "changeAbs": -1.1000003814697266,
-      "changePct": -6.436514755110501,
-      "pctRank": 29.378980891719745,
+      "current": 16.1200008392334,
+      "prevClose": 15.989999771118164,
+      "changeAbs": 0.13000106811523438,
+      "changePct": 0.813014821613994,
+      "pctRank": 30.65286624203822,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.22699980735779,
-      "ma60": 17.43966663678487,
-      "chg1m": -0.6000003814697266,
-      "chg3m": -1.0,
-      "chg1mPct": -3.616638794160179,
-      "chg3mPct": -5.885815264694303,
-      "lastDate": "2026-07-31",
+      "ma20": 17.254499864578246,
+      "ma60": 17.42366665204366,
+      "chg1m": -0.029998779296875,
+      "chg3m": -2.1700000762939453,
+      "chg1mPct": -0.18575095978612186,
+      "chg3mPct": -11.864406602909014,
+      "lastDate": "2026-08-03",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -66,63 +66,63 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.66000366210938,
+      "current": 79.63999938964844,
       "prevClose": 84.66999816894531,
-      "changeAbs": -4.0099945068359375,
-      "changePct": -4.73602762909554,
-      "pctRank": 64.78537360890301,
+      "changeAbs": -5.029998779296875,
+      "changePct": -5.940709682383983,
+      "pctRank": 61.575178997613364,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.8845001220703,
-      "ma60": 85.09449996948243,
-      "chg1m": 11.970001220703125,
-      "chg3m": -21.279998779296875,
-      "chg1mPct": 17.426118496521735,
-      "chg3mPct": -20.875022826812597,
-      "lastDate": "2026-08-02",
-      "bars": 1258,
+      "ma20": 80.83349990844727,
+      "ma60": 85.07749989827474,
+      "chg1m": 10.949996948242188,
+      "chg3m": -22.300003051757812,
+      "chg1mPct": 15.941180024826354,
+      "chg3mPct": -21.875615575520076,
+      "lastDate": "2026-08-03",
+      "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 99.72599792480469,
+      "current": 99.74700164794922,
       "prevClose": 99.80000305175781,
-      "changeAbs": -0.074005126953125,
-      "changePct": -0.07415343155324836,
-      "pctRank": 33.94276629570747,
+      "changeAbs": -0.05300140380859375,
+      "changePct": -0.05310761742272333,
+      "pctRank": 34.049323786793956,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.88680076599121,
-      "ma60": 100.13626696268717,
-      "chg1m": -1.134002685546875,
-      "chg3m": 1.5159988403320312,
-      "chg1mPct": -1.124333411346905,
-      "chg3mPct": 1.5436298283926122,
-      "lastDate": "2026-08-02",
-      "bars": 1258,
+      "ma20": 100.88785095214844,
+      "ma60": 100.13661702473958,
+      "chg1m": -1.1129989624023438,
+      "chg3m": 1.5370025634765625,
+      "chg1mPct": -1.1035087801577044,
+      "chg3mPct": 1.5650163708428015,
+      "lastDate": "2026-08-03",
+      "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4124.0,
+      "current": 4114.2001953125,
       "prevClose": 4049.10009765625,
-      "changeAbs": 74.89990234375,
-      "changePct": 1.8497913249194426,
-      "pctRank": 87.75834658187598,
+      "changeAbs": 65.10009765625,
+      "changePct": 1.6077670614745248,
+      "pctRank": 87.66905330151154,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4065.6250244140624,
-      "ma60": 4266.283337402344,
-      "chg1m": 11.2998046875,
-      "chg3m": -505.89990234375,
-      "chg1mPct": 0.2747539122929284,
-      "chg3mPct": -10.926799995992422,
-      "lastDate": "2026-08-02",
-      "bars": 1258,
+      "ma20": 4065.1350341796874,
+      "ma60": 4266.120007324219,
+      "chg1m": 1.5,
+      "chg3m": -515.69970703125,
+      "chg1mPct": 0.03647238866838976,
+      "chg3mPct": -11.138463420563202,
+      "lastDate": "2026-08-03",
+      "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -161,11 +161,60 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Index snub to test Indian bonds; rupee, RBI policy and US-Iran war in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNG91Uk0wWkJsZHc4anBQS3JDWktTdnJBR2d1eVN3MzM4ZTF0S1UyX0NpQ3NwdmxyX0dldXNIMzBTSlE1aUpUYjlmOURpR2dwVDREX05pR1ZpcGhJZnlwV3dKcnpFMTg5WWRvUTFFT3ZFRnYtQ1NKSmpldVAyTlpfYmxPZVljQnBVRFN2M1NJMEtXUTVIbjVhRDVrb2tGZFZSTzdYYUNYa1Z0eWVqYjdhOQ?oc=5",
+      "datetime": 1785720840,
+      "headlineKo": "인도 채권을 테스트하기 위한 지수 스너브; 루피, RBI 정책 및 미국-이란 전쟁에 초점 - Reuters"
+    },
+    {
+      "headline": "Oil slumps on hopes of Iran deal, yen firms after intervention - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUjBjdHpEdEdMdVNpbVprQmRvNG9JTzl0ZHB4SkNmWUxqT2hNUG8xcW96U1R2czNKWHVMYXRqY2gxR1pHTzZ4RjlpaDgzUnM3U0dCNURmZDhPUUhVTnRuUFhYcGFmVHdoOWg2a3RJNTNGQktBU3pvZVZGSS1EVUJ1QzlVbw?oc=5",
+      "datetime": 1785718980,
+      "headlineKo": "이란 협상 희망으로 유가 폭락, 개입 후 엔화 기업 - 로이터 통신"
+    },
+    {
+      "headline": "Gold firms as oil prices slump after Trump holds off on Iran attack - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTnkxZDh5TElCa1dZeUtDT2JfblI5ZFJuQkZNQ1pvbHlkcWxHRUVfMk51N2t0ZDUtbEhOYW9aVjg5d3lMSkNXYlFMc0I5Z3o1bjh4c0pkZ3BsWkRYeWhOalNoOUZPN3pvYVRSb1NnT21rZy1TamRFMHN2MUp1WjhoSmZaT0prMExjTVk1aThUbHAwNEo3MmpsbTI2UFdsY2Z2Y0RlT2RB?oc=5",
+      "datetime": 1785717660,
+      "headlineKo": "트럼프가 이란 공격을 보류하자 유가가 폭락하면서 금 회사들 - 로이터 통신"
+    },
+    {
+      "headline": "Oil tumbles as Trump cancels attack on Iran to reach nuclear deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnBOaGh1VXBaaGQwVmloSzlPcmg5aFdQeENKS3JtNi1wQTZlQTRBUm02ODRrYkNVZkNDREwtTTdMeUhlNV94QjctaFhpMWhTWVVJaF9xeVhWdEdKZXBMbFA4alVQaDBXbnMzczBqRnVBUlVrVUJJTFhLQjdpSU9SV2lHV1FQd0hvOEs0QkZwLVZfUDhtSkVGUU02T2tPeDFXaU5SaWRtUWt3cjhE?oc=5",
+      "datetime": 1785715860,
+      "headlineKo": "트럼프가 이란에 대한 핵 협상을 취소하자 유가는 하락했다 - 로이터"
+    },
+    {
+      "headline": "Two tankers with Saudi oil exit Red Sea over weekend, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdEt0RUhnRlVGV0xuNmhOTDZaaVo3NVI3MWhXdERDQ3BaX19SMkh5bmlONEl5YjlRSEtyc0p0cVZGblYtd3FPdHRtX0V2RldWOVRpdzY1RTV3YnZOSk02X0gzNDhyeEpaclNaVHR1MlJVa1plZUM4a3FqOFVoYXdiY3lBYWU0MW0tcTVoSml1TFhKN0Q2aXhKQVFGNk16TnhYcGhxSXVaQlVISndNWDNyblhPM2xHajhD?oc=5",
+      "datetime": 1785714060,
+      "headlineKo": "사우디 석유를 실은 유조선 두 척이 주말 동안 홍해를 빠져나갔다는 데이터가 표시됨 - Reuters"
+    },
+    {
+      "headline": "Trump says Iran talks to take place on Monday, sets no deadline for deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdzJzZHNCZzdLcHhDVWdCSEpLMEpVckJUQXFxcjhrcEdHWmlWQ183T3g0dUtwWldQLTVfQ0FCbGRaXzV3Y2tnS0laLS1LeU1KcGJKRVhvX2xyV1I1Q0cxSDF0dWJ6ZWpaOFZJTWZac045VWduTklfeUl2QUhKcXZtbE9EY1MtR0p0MUNZOXEtbEpFejVqeXFQaHRRcVFBbkNhUU41eGM3ZldtVFg3U09UY205bjRlUFU?oc=5",
+      "datetime": 1785712980,
+      "headlineKo": "트럼프 \"이란 회담은 월요일에 열릴 것\""
+    },
+    {
       "headline": "Here's my power rankings for the big 4 hyperscalers after this earnings season",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/02/heres-my-power-rankings-for-the-big-4-hyperscalers-after-this-earnings-season.html",
       "datetime": 1785702464,
       "headlineKo": "이번 어닝 시즌 이후 Big 4 하이퍼스케일러에 대한 내 파워 순위는 다음과 같습니다."
+    },
+    {
+      "headline": "Crew of Iranian ship hit in Ukrainian attack returns home, news agency says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUpTTWg4MEVxOG9ZTExoRTFzZW94TDNkYTFvUVpWMlJFU0JBbE1hRVkta2k5ZmhISGJqMTdjb2Z1TXVncEdZWmxIeUppazRrMzRSMWo2aTJydTM2ekNneWhXTEFaSjVTQzMwLUhNM09GUTN6Y3Z3c1VUbmxIcG9RZXgwWmRuMjQ0OEJsTWdqWEJfYlJ6TU1zRjNvNzBjaGxQMHBiY3Rmc0ZmdWpHd1o2dEdfOHpkSjI3OVVrb084cw?oc=5",
+      "datetime": 1785698225,
+      "headlineKo": "우크라이나 공격에 피격된 이란 선박의 선원들이 귀국했다고 통신사가 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
@@ -182,69 +231,20 @@ const MARKET_DATA = {
       "headlineKo": "사람들이 직장을 그만두고 새 일자리를 찾지 않는 이유: '시장이 나를 지치게 했습니다'"
     },
     {
-      "headline": "Op-ed: The U.S. lead over China in AI is all but gone",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html",
-      "datetime": 1785673801,
-      "headlineKo": "논평: AI 분야에서 미국이 중국을 앞서는 것은 거의 사라졌습니다."
+      "headline": "PODCAST: Iran pause, Moscow restaurant attack and GLP-1 clothes shopping - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFVQRnBwb05yMjRYVHRWYTZxWDVNZlpJQWs0amxqSDBYMTRYWUx6V2UyWUI0aGFBaWdScWR4eFU0VC1iR0RLN1RUZFZ6RG5WRnpyUl83WG0tUGNqLWZvRTA2Zy1aSUV5NnBRdjducDRGUEVyU3hwaVZJSVhjRVpLY1NkRnlmTFh1MUY5djJXZmlGbFB5d0p0Mk1uSGd0SkNyUFNVSTlR?oc=5",
+      "datetime": 1785680940,
+      "headlineKo": "팟캐스트: 이란 일시 정지, 모스크바 레스토랑 공격 및 GLP-1 의류 쇼핑 - Reuters"
     },
     {
-      "headline": "Why flights are so expensive and will likely stay that way",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/02/flights-are-getting-even-more-expensive-as-fuel-prices-rise.html",
-      "datetime": 1785672001,
-      "headlineKo": "왜 비행기 가격이 그렇게 비싸고 그런 상태로 유지될 가능성이 높은가?"
-    },
-    {
-      "headline": "Looking at just the odds isn’t enough. How traders gain an edge on prediction markets",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/01/traders-go-full-time-on-prediction-markets-using-ai-bots-and-antennas.html",
-      "datetime": 1785591844,
-      "headlineKo": "확률만 보는 것만으로는 충분하지 않습니다. 거래자가 예측 시장에서 우위를 차지하는 방법"
-    },
-    {
-      "headline": "OpenAI's Hugging Face hack confirmed months of AI cyber warnings: 'Pandora's box is open'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/01/open-ai-hugging-face-hack-cyber-warnings.html",
-      "datetime": 1785585601,
-      "headlineKo": "OpenAI의 Hugging Face 해킹으로 수개월간 AI 사이버 경고 확인: '판도라의 상자가 열렸습니다'"
-    },
-    {
-      "headline": "Bloomberg puts off adding Indian bonds to its global index",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/bloomberg-defers-inclusion-of-indian-bonds-in-global-index-ms8wqbxp",
-      "datetime": 1785564914,
-      "headlineKo": "블룸버그, 글로벌 지수에 인도채 편입 연기"
-    },
-    {
-      "headline": "Data centre boom fuels demand for workforce housing",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/data-center-boom-fueling-demand-for-workforce-housing",
-      "datetime": 1785559029,
-      "headlineKo": "데이터 센터 붐으로 인력 주택 수요가 증가함"
-    },
-    {
-      "headline": "Dollar logs its worst week in over 3 months amid Fed doubts",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/dollar-heads-for-worst-week-in-three-months-as-fed-doubts-grow",
-      "datetime": 1785558774,
-      "headlineKo": "달러는 연준의 의심 속에 3개월 만에 최악의 한 주를 기록했다"
-    },
-    {
-      "headline": "Indian companies plan for fresh price hikes, testing inflation outlook",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-31/indian-firms-plan-fresh-price-hikes-testing-inflation-outlook",
-      "datetime": 1785558434,
-      "headlineKo": "인도 기업, 새로운 가격 인상 계획, 인플레이션 전망 테스트"
-    },
-    {
-      "headline": "Andy Jassy soothed concerns over Amazon's massive AI spending. Here's how he did it",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/31/andy-jassy-soothed-concerns-over-amazons-massive-ai-spending-heres-how-he-did-it-.html",
-      "datetime": 1785522860,
-      "headlineKo": "Andy Jassy는 Amazon의 대규모 AI 지출에 대한 우려를 진정시켰습니다. 그가 한 방법은 다음과 같습니다."
+      "headline": "Gulf stocks rise as Iran de-escalation hopes, earnings lift sentiment - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZnZ5dk1rM0dBSk5iSjEwVV9FNUJRVWJhLXlEY2lKRHAwb0ZSUU5INVUwVFpKV3M3aGhVNmZNSDMxV1JQNnZDWjhwaFhITnVhUUt5X0tCZ2pBTk1rNEg4ZTQ5MUJzRVI2b2hCS1BqYXpKTHBabmc5WHpQajZuS3BfNU5FUHR1cHlfUmQ0bWtFLWdyUFZoaXF6d2ZCUWRPX2JROU5fclRkM3NyOVNXZW52YzdRUkRBRWEtZ3ZF?oc=5",
+      "datetime": 1785674932,
+      "headlineKo": "이란의 긴장 완화 희망, 기업실적 상승 심리로 걸프 주식 상승 - 로이터"
     }
   ],
-  "_fetched_at": 1785715202.1319451,
-  "_updated_label": "2026-08-03 09:00"
+  "_fetched_at": 1785742855.7635756,
+  "_updated_label": "2026-08-03 16:41"
 };

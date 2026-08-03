@@ -1940,8 +1940,8 @@ const FINANCIALS_DATA = {
         "netIncome": 4304000000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "CRM": {
     "annual": [
@@ -2088,8 +2088,8 @@ const FINANCIALS_DATA = {
         "netIncome": 2107000000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "PLTR": {
     "annual": [
@@ -2216,8 +2216,8 @@ const FINANCIALS_DATA = {
         "netIncome": 870527000
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "QCOM": {
     "annual": [
@@ -2364,14 +2364,14 @@ const FINANCIALS_DATA = {
         "netIncome": 7371000000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "ARM": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "MRVL": {
     "annual": [
@@ -2508,14 +2508,14 @@ const FINANCIALS_DATA = {
         "netIncome": 34500000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "ASML": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "LRCX": {
     "annual": [
@@ -2662,8 +2662,8 @@ const FINANCIALS_DATA = {
         "netIncome": 1825460000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:32"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "KLAC": {
     "annual": [
@@ -2810,8 +2810,8 @@ const FINANCIALS_DATA = {
         "netIncome": 1200990000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:33"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "SNDK": {
     "annual": [
@@ -2883,8 +2883,8 @@ const FINANCIALS_DATA = {
         "netIncome": 3615000000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:33"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   },
   "WDC": {
     "annual": [
@@ -3031,7 +3031,7 @@ const FINANCIALS_DATA = {
         "netIncome": 3205000000.0
       }
     ],
-    "_fetched_at": 1785119549.0004451,
-    "_updated_label": "2026-07-27 11:33"
+    "_fetched_at": 1785742690.193076,
+    "_updated_label": "2026-08-03 16:38"
   }
 };
