@@ -97,6 +97,9 @@
   .detail-body{padding:18px 22px 24px;}
   canvas{width:100%;height:auto;display:block;background:var(--panel-2);border-radius:12px;margin-top:8px;}
   .chart-label{font-size:11px;color:var(--sub);margin-top:14px;margin-bottom:2px;font-weight:700;}
+  .chart-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11.5px;color:var(--sub);margin-bottom:4px;}
+  .chart-legend .dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:4px;vertical-align:middle;}
+  .chart-legend .dot.line{border-radius:50%;}
   .chart-wrap{position:relative;}
   .chart-tooltip{
     display:none;position:absolute;z-index:10;pointer-events:none;
@@ -1633,7 +1636,19 @@ function renderFairValueSection(r){
   let perBlock;
   if(w && w.low!=null){
     const g = w.growth*100;
-    perBlock = `
+    // "그래서 지금 주가가 싸다는 거야 비싸다는 거야?"에 바로 답하는 한 줄 - 나머지 EPS/PER
+    // 설명은 그 아래에서 계산 근거로 이어짐. 기준가 대비 %는 (mid-price)가 아니라 (price-mid)로
+    // 잡아야 "지금 가격이 기준보다 몇% 낮다/높다"는 자연스러운 방향이 됨(rel()은 반대 방향이라 여기만 별도 계산).
+    const discountPct = (price - w.mid) / w.mid * 100;
+    const cheaper = discountPct < 0;
+    const compareLine = `
+      <div class="comment-box" style="background:${cheaper?'var(--up-bg)':'var(--down-bg)'};color:${cheaper?'#a8322c':'#2a4fa0'};margin-bottom:10px;">
+        지금 주가 <b>$${price.toFixed(0)}</b>는 이 시나리오 기준가 <b>$${w.mid.toFixed(0)}</b>보다
+        <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요(저평가 쪽)':'높아요(고평가 쪽)'}</b>.
+        <span style="font-weight:400;">즉 "PER은 그대로고 실적만 예상대로 큰다"고 가정했을 때, 지금 가격이 그 기준보다 ${cheaper?'싸게':'비싸게'} 거래되고 있다는 뜻이에요.</span>
+        <br><span style="font-weight:400;color:var(--sub);">⚠️ 검증 결과 이 저평가/고평가 여부는 이후 수익률을 예측하지 못했어요(오히려 반대 방향이었음 - 아래 경고 참고) - "그래서 사야 한다"는 뜻은 아니에요.</span>
+      </div>`;
+    perBlock = compareLine + `
       <div class="sub" style="margin-bottom:2px;">
         내년 예상 EPS <b>$${w.eps1.toFixed(2)}</b>(올해 $${w.eps0.toFixed(2)} 대비
         <b style="color:${g>=0?'var(--up)':'var(--down)'}">${g>=0?'+':''}${g.toFixed(0)}%</b>)에
@@ -2040,7 +2055,7 @@ function newsEntry(ticker){
 //   그래서 매수/매도 신호로 쓰지 말고 '환경 설명'으로만 쓰라고 화면에 명시한다.
 //   '왜 움직였는지(원인)'는 데이터만으로 알 수 없으므로 절대 지어내지 않고, 헤드라인을 옆에 붙여
 //   사용자가 직접 확인하게 한다.
-const MACRO_ORDER = ['us10y','oil','dollar','vix','gold','us3m'];
+const MACRO_ORDER = ['us10y','us30y','oil','dollar','vix','gold','us3m'];
 // 시장 헤드라인 언어 토글(기본 한글). 기계번역 오역이 있을 수 있어 원문으로 전환 가능.
 let marketNewsShowEn = false;
 function toggleMarketNewsLang(){ marketNewsShowEn = !marketNewsShowEn; renderMarketCard(); }
@@ -2111,6 +2126,11 @@ const MACRO_MEANING = {
     high: '단기 금리는 주로 <b>연준의 정책금리</b>를 반영해요. 높으면 돈 빌리는 비용이 비싸다는 뜻이에요.',
     low:  '단기 금리가 낮다는 건 <b>연준이 돈을 풀고 있다</b>는 쪽에 가까워요.',
     mid:  '단기 금리가 보통 수준이에요.',
+  },
+  us30y: {
+    high: '30년물이 높으면 <b>정부의 장기 재정 부담(이자비용)에 대한 우려</b>가 커졌다는 신호로 자주 해석돼요. 주택담보대출 같은 장기 대출 금리에도 영향을 줘요.',
+    low:  '30년물이 낮으면 장기 재정 우려가 덜하고, 장기 대출 비용도 낮아지는 환경이에요.',
+    mid:  '30년물이 보통 수준이에요.',
   },
 };
 function macroMeaning(key, pctRank){
@@ -3396,6 +3416,38 @@ function fmtUsd(v){
   if(abs>=1e6) return (v/1e6).toFixed(1)+'M';
   return v.toFixed(0);
 }
+// 차트 위에 색-이름을 매핑해주는 범례. 예전엔 이게 없어서 "빨간 선/파란 선이 뭔지 모르겠다"는
+// 지적을 받음 - 막대는 사각형, 선(꺾은선)은 원형 점으로 구분해서 표시.
+function chartLegend(items){
+  return `<div class="chart-legend">${items.map(it=>
+    `<span><span class="dot${it.line?' line':''}" style="background:${it.color};"></span>${esc(it.label)}</span>`
+  ).join('')}</div>`;
+}
+// 차트의 막대/점을 클릭하면 아래 표의 해당 연도 행으로 스크롤 + 잠깐 강조.
+// 정확한 숫자를 차트에 다 욱여넣으면 겹쳐서 안 보이니(사용자 지적), 차트는 "모양"만 보여주고
+// 정확한 값은 표로 연결해주는 방향으로 바꿈.
+function highlightFinRow(period){
+  // ⚠️ CSS.escape()는 CSS 셀렉터용 이스케이프라 getElementById에 쓰면 안 됨(실측 확인:
+  // CSS.escape('2018') === '\\32 018' - 앞자리 숫자를 이스케이프해서 실제 id와 안 맞음).
+  // getElementById는 리터럴 문자열을 그대로 써야 함 - 아래 id="finRow-${esc(...)}"와 동일하게.
+  const row = document.getElementById(`finRow-${String(period)}`);
+  if(!row) return;
+  row.scrollIntoView({behavior:'smooth', block:'center'});
+  row.style.transition = 'background-color .15s';
+  row.style.backgroundColor = 'var(--warn-bg)';
+  setTimeout(()=>{ row.style.backgroundColor = ''; }, 1200);
+}
+function bindFinChartClick(canvas, data){
+  if(!canvas) return;
+  canvas.onclick = (e)=>{
+    const rect = canvas.getBoundingClientRect();
+    if(!rect.width) return;
+    const ratio = Math.min(Math.max((e.clientX-rect.left)/rect.width, 0), 1);
+    const idx = Math.min(data.length-1, Math.floor(ratio*data.length));
+    if(data[idx]) highlightFinRow(data[idx].period);
+  };
+  canvas.style.cursor = 'pointer';
+}
 function tabFinancials(r){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
   const annual = fin?.annual || [];
@@ -3403,7 +3455,7 @@ function tabFinancials(r){
     return ttmFallbackHtml(r);
   }
   const rows = annual.map(a=>`
-    <tr>
+    <tr id="finRow-${esc(String(a.period))}">
       <td class="name">${a.period}</td>
       <td>$${fmtUsd(a.revenue)}</td>
       <td>${a.opIncome!=null?'$'+fmtUsd(a.opIncome):'-'}</td>
@@ -3413,11 +3465,15 @@ function tabFinancials(r){
       <td>${a.fcf!=null?'$'+fmtUsd(a.fcf):'-'}</td>
     </tr>`).join('');
   return `
-    <div class="chart-label">연도별 손익 · 매출(막대)·영업이익/순이익(선)</div>
+    <div class="chart-label">연도별 손익</div>
+    ${chartLegend([{color:'rgba(216,69,62,0.5)', label:'매출(막대)'}, {color:'#ea5414', line:true, label:'영업이익(선)'}, {color:'#3b6fd8', line:true, label:'순이익(선)'}])}
     <canvas id="finIncomeCanvas"></canvas>
+    <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
     ${incomeComment(annual)}
-    <div class="chart-label" style="margin-top:16px;">연도별 현금흐름 · OCF(막대)·CAPEX/FCF(선)</div>
+    <div class="chart-label" style="margin-top:16px;">연도별 현금흐름</div>
+    ${chartLegend([{color:'rgba(216,69,62,0.5)', label:'OCF(막대)'}, {color:'#9a6800', line:true, label:'CAPEX(선)'}, {color:'#087d4c', line:true, label:'FCF(선)'}])}
     <canvas id="finCfCanvas"></canvas>
+    <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
     ${cashflowComment(annual)}
     <div style="overflow-x:auto;">
     <table style="min-width:640px;">
@@ -3435,8 +3491,12 @@ function setupFinancialsChart(ticker){
   const fin = FINANCIALS_DATA[ticker];
   const annual = fin?.annual || [];
   if(!annual.length) return;
-  drawFinIncomeChart(document.getElementById('finIncomeCanvas'), annual);
-  drawFinCfChart(document.getElementById('finCfCanvas'), annual);
+  const incomeCanvas = document.getElementById('finIncomeCanvas');
+  const cfCanvas = document.getElementById('finCfCanvas');
+  drawFinIncomeChart(incomeCanvas, annual);
+  drawFinCfChart(cfCanvas, annual);
+  bindFinChartClick(incomeCanvas, annual);
+  bindFinChartClick(cfCanvas, annual);
 }
 function drawFinIncomeChart(canvas, data){
   if(!canvas) return;
@@ -3475,14 +3535,20 @@ function drawFinIncomeChart(canvas, data){
   }
   line('opIncome', '#ea5414');
   line('netIncome', '#3b6fd8');
-  data.forEach((d,i)=>{
-    if(d.netIncome==null) return;
-    const px=x(i), py=yOther(d.netIncome);
-    ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(px,py,3.5,0,Math.PI*2); ctx.fill();
-    ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=2; ctx.stroke();
-    ctx.fillStyle='#2a4fa0'; ctx.font=`${fontSize-2}px monospace`; ctx.textAlign='center';
-    if(fitsLabel(ctx, fmtUsd(d.netIncome), bw)) ctx.fillText(fmtUsd(d.netIncome), px, py+16);
-  });
+  // ⚠️ 예전엔 여기서 순이익 값을 숫자로 같이 찍었는데(영업이익은 원래도 안 찍었음), 매출 막대는
+  // yRev 스케일·선은 yOther 스케일로 서로 다르게 계산돼서, 특히 초반 연도(막대가 짧은 해)에는
+  // 두 스케일의 화면 y좌표가 우연히 겹쳐 라벨끼리 뭉개졌음(사용자 스크린샷으로 확인된 문제).
+  // 숫자는 위 범례+아래 표로 충분히 전달되니, 여기서는 점(마커)만 찍어 위치만 보여주고 텍스트는 뺌.
+  function dots(key, color){
+    data.forEach((d,i)=>{
+      if(d[key]==null) return;
+      const px=x(i), py=yOther(d[key]);
+      ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(px,py,3.5,0,Math.PI*2); ctx.fill();
+      ctx.strokeStyle=color; ctx.lineWidth=2; ctx.stroke();
+    });
+  }
+  dots('opIncome', '#ea5414');
+  dots('netIncome', '#3b6fd8');
   ctx.fillStyle='#7f8791'; ctx.font='22px monospace'; ctx.textAlign='center';
   const everyOther = !fitsLabel(ctx, String(data[0]?.period ?? ''), bw);
   data.forEach((d,i)=>{ if(everyOther && i%2) return; ctx.fillText(d.period, x(i), H-8); });

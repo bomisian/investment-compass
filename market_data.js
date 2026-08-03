@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.1200008392334,
+      "current": 16.110000610351562,
       "prevClose": 15.989999771118164,
-      "changeAbs": 0.13000106811523438,
-      "changePct": 0.813014821613994,
-      "pctRank": 30.65286624203822,
+      "changeAbs": 0.12000083923339844,
+      "changePct": 0.7504743023833509,
+      "pctRank": 30.573248407643312,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.254499864578246,
-      "ma60": 17.42366665204366,
-      "chg1m": -0.029998779296875,
-      "chg3m": -2.1700000762939453,
-      "chg1mPct": -0.18575095978612186,
-      "chg3mPct": -11.864406602909014,
+      "ma20": 17.253999853134154,
+      "ma60": 17.423499981562298,
+      "chg1m": -0.03999900817871094,
+      "chg3m": -2.1800003051757812,
+      "chg1mPct": -0.247671883117673,
+      "chg3mPct": -11.919082537196948,
       "lastDate": "2026-08-03",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 79.63999938964844,
+      "current": 80.16999816894531,
       "prevClose": 84.66999816894531,
-      "changeAbs": -5.029998779296875,
-      "changePct": -5.940709682383983,
-      "pctRank": 61.575178997613364,
+      "changeAbs": -4.5,
+      "changePct": -5.31475150267628,
+      "pctRank": 63.40493237867939,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.83349990844727,
-      "ma60": 85.07749989827474,
-      "chg1m": 10.949996948242188,
-      "chg3m": -22.300003051757812,
-      "chg1mPct": 15.941180024826354,
-      "chg3mPct": -21.875615575520076,
+      "ma20": 80.85999984741211,
+      "ma60": 85.08633321126302,
+      "chg1m": 11.479995727539062,
+      "chg3m": -21.770004272460938,
+      "chg1mPct": 16.712760692258957,
+      "chg3mPct": -21.35570311073324,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.74700164794922,
+      "current": 99.83399963378906,
       "prevClose": 99.80000305175781,
-      "changeAbs": -0.05300140380859375,
-      "changePct": -0.05310761742272333,
-      "pctRank": 34.049323786793956,
+      "changeAbs": 0.03399658203125,
+      "changePct": 0.034064710412502544,
+      "pctRank": 34.685759745425614,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.88785095214844,
-      "ma60": 100.13661702473958,
-      "chg1m": -1.1129989624023438,
-      "chg3m": 1.5370025634765625,
-      "chg1mPct": -1.1035087801577044,
-      "chg3mPct": 1.5650163708428015,
+      "ma20": 100.89220085144044,
+      "ma60": 100.13806699117025,
+      "chg1m": -1.0260009765625,
+      "chg3m": 1.6240005493164062,
+      "chg1mPct": -1.01725259801079,
+      "chg3mPct": 1.6536000045367747,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,25 +108,46 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4114.2001953125,
+      "current": 4114.5,
       "prevClose": 4049.10009765625,
-      "changeAbs": 65.10009765625,
-      "changePct": 1.6077670614745248,
+      "changeAbs": 65.39990234375,
+      "changePct": 1.6151712915569951,
       "pctRank": 87.66905330151154,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4065.1350341796874,
-      "ma60": 4266.120007324219,
-      "chg1m": 1.5,
-      "chg3m": -515.69970703125,
-      "chg1mPct": 0.03647238866838976,
-      "chg3mPct": -11.138463420563202,
+      "ma20": 4065.1500244140625,
+      "ma60": 4266.12500406901,
+      "chg1m": 1.7998046875,
+      "chg3m": -515.39990234375,
+      "chg1mPct": 0.04376211739312652,
+      "chg3mPct": -11.13198801734016,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
       "digits": 0
+    },
+    "us30y": {
+      "current": 5.275000095367432,
+      "prevClose": 5.208000183105469,
+      "changeAbs": 0.06699991226196289,
+      "changePct": 1.286480604960571,
+      "pctRank": 99.9203187250996,
+      "min5y": 1.6779999732971191,
+      "max5y": 5.275000095367432,
+      "ma20": 5.111850070953369,
+      "ma60": 5.029166714350382,
+      "chg1m": 0.30900001525878906,
+      "chg3m": 0.28800010681152344,
+      "chg1mPct": 6.2223119265843625,
+      "chg3mPct": 5.775017194153233,
+      "lastDate": "2026-07-31",
+      "bars": 1255,
+      "symbol": "^TYX",
+      "label": "미국 30년물 금리",
+      "unit": "%",
+      "digits": 2
     }
   },
   "yieldSpread": 1.062999963760376,
@@ -161,10 +182,38 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says no current talks with U.S. - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE5hZ0ZnQjBGVFdjTV9kRkdQWm9oaWd0VG9UQ084WGJvRmFoNElkSG5Ec0xocHdYTDdUM1JTd3RYQ0kybnN0dXB5T2hwNFEwSktaZ05FNGxzbUFwd0FqWEl4WWQyVzBCaVowNUpTWGNad19MdERreFFYSEYwWkVuekpwOW1VeE5lVkR6eDBaOGdPZw?oc=5",
+      "datetime": 1785742195,
+      "headlineKo": "이란, 현재 미국과 대화가 없다고 밝혔다 - 로이터"
+    },
+    {
+      "headline": "Iran war ushers in oil refining golden era. It won’t last - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYmQzdlBDbmtIRE9EaFVuRHRPd0pzYUtkY0VyT1FPYmVlaGsxUXJnSWt1emxRQ3p2ZFY5aXVPSGpNQVZaM0hkMThIREtfRU1YcTdQSXFrYU1FNlAyeWYxVGZoeHFWMG5kcm9rUUxzd2Z0OUY0REtwWUFyNGlTczgybWxmRng3azZackV2U2NianBjeVdDbGxXLUhLdkxhMTVvR0VsQzVPb2xxcW9zTDFLMHF3bFFpaE1JckJ3NVh3?oc=5",
+      "datetime": 1785736860,
+      "headlineKo": "이란 전쟁은 석유정제의 황금시대를 열었습니다. 지속되지는 않을 것이다 - 로이터"
+    },
+    {
+      "headline": "Iran executes two people accused of working for Israel - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObVpPMnE4MnRQckNZZXg0SU9TYTI4WG5qdmc2aUhydFU0LXlJS04taFVoOU5idUFqb3ZtSFZsVUlpYUhackVhN2lGQUlYQ3hqekNxYkkxd1E1aDU2TGVZTEJQc3V5U1EwVzJLRDdiQmdITzZFYlI4TWZzOTBtT2c5bTREN2tvVVZWUk1hb1EwSlVmRHpSaVJvTDdINzFCaTFHRFI0?oc=5",
+      "datetime": 1785734940,
+      "headlineKo": "이란, 이스라엘을 위해 일한 혐의로 두 명 처형 - 로이터"
+    },
+    {
+      "headline": "Indian stocks rise on Brent dip, shock-free earnings season - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMmpzT2p3MGlZN3V1QkI3c1I0X0dqVTk4Z3BsMjNqcWljM1BGZ19FbThiNHUyR3FXTjE5SE5IZGJnUHR3UHloUUZNZkdtS3phVGRRUTVQdTR3WW9FSHM5Q3VQY2czUFhEZE5JLW5UN0pkNWh3LS1tXzlvRzhfUWdJMjZ5blQtUENIR2NwaktkcVJiX0dHQ3hLS3FnVUlIdw?oc=5",
+      "datetime": 1785724740,
+      "headlineKo": "충격 없는 어닝 시즌, 브렌트유 하락으로 인도 증시 상승 - Reuters"
+    },
+    {
       "headline": "Index snub to test Indian bonds; rupee, RBI policy and US-Iran war in focus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNG91Uk0wWkJsZHc4anBQS3JDWktTdnJBR2d1eVN3MzM4ZTF0S1UyX0NpQ3NwdmxyX0dldXNIMzBTSlE1aUpUYjlmOURpR2dwVDREX05pR1ZpcGhJZnlwV3dKcnpFMTg5WWRvUTFFT3ZFRnYtQ1NKSmpldVAyTlpfYmxPZVljQnBVRFN2M1NJMEtXUTVIbjVhRDVrb2tGZFZSTzdYYUNYa1Z0eWVqYjdhOQ?oc=5",
-      "datetime": 1785720840,
+      "datetime": 1785722790,
       "headlineKo": "인도 채권을 테스트하기 위한 지수 스너브; 루피, RBI 정책 및 미국-이란 전쟁에 초점 - Reuters"
     },
     {
@@ -182,11 +231,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프가 이란 공격을 보류하자 유가가 폭락하면서 금 회사들 - 로이터 통신"
     },
     {
-      "headline": "Oil tumbles as Trump cancels attack on Iran to reach nuclear deal - Reuters",
+      "headline": "Oil falls after Trump cancels attack on Iran to seek nuclear deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnBOaGh1VXBaaGQwVmloSzlPcmg5aFdQeENKS3JtNi1wQTZlQTRBUm02ODRrYkNVZkNDREwtTTdMeUhlNV94QjctaFhpMWhTWVVJaF9xeVhWdEdKZXBMbFA4alVQaDBXbnMzczBqRnVBUlVrVUJJTFhLQjdpSU9SV2lHV1FQd0hvOEs0QkZwLVZfUDhtSkVGUU02T2tPeDFXaU5SaWRtUWt3cjhE?oc=5",
       "datetime": 1785715860,
-      "headlineKo": "트럼프가 이란에 대한 핵 협상을 취소하자 유가는 하락했다 - 로이터"
+      "headlineKo": "트럼프가 이란에 대한 핵 협상을 위한 공격을 취소한 후 유가 하락 - 로이터"
     },
     {
       "headline": "Two tankers with Saudi oil exit Red Sea over weekend, data shows - Reuters",
@@ -215,36 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUpTTWg4MEVxOG9ZTExoRTFzZW94TDNkYTFvUVpWMlJFU0JBbE1hRVkta2k5ZmhISGJqMTdjb2Z1TXVncEdZWmxIeUppazRrMzRSMWo2aTJydTM2ekNneWhXTEFaSjVTQzMwLUhNM09GUTN6Y3Z3c1VUbmxIcG9RZXgwWmRuMjQ0OEJsTWdqWEJfYlJ6TU1zRjNvNzBjaGxQMHBiY3Rmc0ZmdWpHd1o2dEdfOHpkSjI3OVVrb084cw?oc=5",
       "datetime": 1785698225,
       "headlineKo": "우크라이나 공격에 피격된 이란 선박의 선원들이 귀국했다고 통신사가 밝혔습니다 - 로이터 통신"
-    },
-    {
-      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/02/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "datetime": 1785684961,
-      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "Why people are dropping out of the workforce and not looking for new jobs: 'The market wore me down'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/02/why-people-are-dropping-out-of-the-workforce-and-not-looking-for-new-jobs-the-market-wore-me-down.html",
-      "datetime": 1785681001,
-      "headlineKo": "사람들이 직장을 그만두고 새 일자리를 찾지 않는 이유: '시장이 나를 지치게 했습니다'"
-    },
-    {
-      "headline": "PODCAST: Iran pause, Moscow restaurant attack and GLP-1 clothes shopping - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSFVQRnBwb05yMjRYVHRWYTZxWDVNZlpJQWs0amxqSDBYMTRYWUx6V2UyWUI0aGFBaWdScWR4eFU0VC1iR0RLN1RUZFZ6RG5WRnpyUl83WG0tUGNqLWZvRTA2Zy1aSUV5NnBRdjducDRGUEVyU3hwaVZJSVhjRVpLY1NkRnlmTFh1MUY5djJXZmlGbFB5d0p0Mk1uSGd0SkNyUFNVSTlR?oc=5",
-      "datetime": 1785680940,
-      "headlineKo": "팟캐스트: 이란 일시 정지, 모스크바 레스토랑 공격 및 GLP-1 의류 쇼핑 - Reuters"
-    },
-    {
-      "headline": "Gulf stocks rise as Iran de-escalation hopes, earnings lift sentiment - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZnZ5dk1rM0dBSk5iSjEwVV9FNUJRVWJhLXlEY2lKRHAwb0ZSUU5INVUwVFpKV3M3aGhVNmZNSDMxV1JQNnZDWjhwaFhITnVhUUt5X0tCZ2pBTk1rNEg4ZTQ5MUJzRVI2b2hCS1BqYXpKTHBabmc5WHpQajZuS3BfNU5FUHR1cHlfUmQ0bWtFLWdyUFZoaXF6d2ZCUWRPX2JROU5fclRkM3NyOVNXZW52YzdRUkRBRWEtZ3ZF?oc=5",
-      "datetime": 1785674932,
-      "headlineKo": "이란의 긴장 완화 희망, 기업실적 상승 심리로 걸프 주식 상승 - 로이터"
     }
   ],
-  "_fetched_at": 1785742855.7635756,
-  "_updated_label": "2026-08-03 16:41"
+  "_fetched_at": 1785748159.3573632,
+  "_updated_label": "2026-08-03 18:09"
 };
