@@ -29,14 +29,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 4862365925376,
+    "quoteMarketCap": 5011324534784,
     "week52High": 236.54,
     "week52Low": 164.07,
     "financialCurrency": "USD",
     "ttmRevenue": 253491003392,
     "ttmNetIncome": 159612993536,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "AAPL": {
     "targetMean": 323.28195,
@@ -66,14 +66,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 4537070911488,
+    "quoteMarketCap": 4502834905088,
     "week52High": 344.57,
     "week52Low": 201.68,
     "financialCurrency": "USD",
     "ttmRevenue": 466822987776,
     "ttmNetIncome": 128929996800,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "GOOGL": {
     "targetMean": 426.94965,
@@ -103,14 +103,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 4355446800384,
+    "quoteMarketCap": 4597171093504,
     "week52High": 408.61,
     "week52Low": 190.12,
     "financialCurrency": "USD",
     "ttmRevenue": 445865984000,
     "ttmNetIncome": 244118994944,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "MSFT": {
     "targetMean": 563.0463,
@@ -140,14 +140,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 3450799652864,
+    "quoteMarketCap": 3629903773696,
     "week52High": 553.72,
     "week52Low": 349.2,
     "financialCurrency": "USD",
     "ttmRevenue": 331839012864,
     "ttmNetIncome": 133748998144,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "AMZN": {
     "targetMean": 321.94983,
@@ -177,14 +177,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 2921415835648,
-    "week52High": 278.56,
+    "quoteMarketCap": 3064270159872,
+    "week52High": 287.16,
     "week52Low": 196.0,
     "financialCurrency": "USD",
     "ttmRevenue": 775680032768,
     "ttmNetIncome": 135281000448,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "TSM": {
     "targetMean": 540.20483,
@@ -214,14 +214,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 2096632168448,
+    "quoteMarketCap": 2083406610432,
     "week52High": 479.0,
     "week52Low": 223.7,
     "financialCurrency": "TWD",
     "ttmRevenue": 4440492343296,
     "ttmNetIncome": 2216808939520,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "AVGO": {
     "targetMean": 527.88446,
@@ -251,14 +251,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1852030844928,
+    "quoteMarketCap": 1846797533184,
     "week52High": 495.0,
     "week52Low": 281.87,
     "financialCurrency": "USD",
     "ttmRevenue": 75464998912,
     "ttmNetIncome": 29316999168,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "META": {
     "targetMean": 768.58105,
@@ -288,14 +288,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1418222239744,
+    "quoteMarketCap": 1511346274304,
     "week52High": 796.25,
     "week52Low": 520.26,
     "financialCurrency": "USD",
     "ttmRevenue": 228246994944,
     "ttmNetIncome": 68097998848,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "TSLA": {
     "targetMean": 398.29776,
@@ -325,14 +325,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 1229138690048,
+    "quoteMarketCap": 1264368615424,
     "week52High": 498.83,
     "week52Low": 297.38,
     "financialCurrency": "USD",
     "ttmRevenue": 103619002368,
     "ttmNetIncome": 3806000128,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "MU": {
     "targetMean": 1522.2618,
@@ -362,14 +362,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 929524482048,
+    "quoteMarketCap": 923278901248,
     "week52High": 1255.0,
     "week52Low": 105.46,
     "financialCurrency": "USD",
     "ttmRevenue": 90273996800,
     "ttmNetIncome": 50468999168,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "AMD": {
     "targetMean": 579.1064,
@@ -399,14 +399,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 776410431488,
+    "quoteMarketCap": 782182776832,
     "week52High": 584.73,
     "week52Low": 149.22,
     "financialCurrency": "USD",
     "ttmRevenue": 37454000128,
     "ttmNetIncome": 4931999744,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "INTC": {
     "targetMean": 115.26829,
@@ -436,14 +436,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 454968770560,
+    "quoteMarketCap": 454356926464,
     "week52High": 142.35,
     "week52Low": 19.35,
     "financialCurrency": "USD",
     "ttmRevenue": 57031999488,
     "ttmNetIncome": -11288999936,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "AMAT": {
     "targetMean": 627.65717,
@@ -473,14 +473,14 @@ const ESTIMATES_DATA = {
       }
     ],
     "quoteCurrency": "USD",
-    "quoteMarketCap": 403069403136,
+    "quoteMarketCap": 406018949120,
     "week52High": 739.67,
     "week52Low": 154.47,
     "financialCurrency": "USD",
     "ttmRevenue": 29024000000,
     "ttmNetIncome": 8508000256,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "QQQ": {
     "targetMean": null,
@@ -497,8 +497,8 @@ const ESTIMATES_DATA = {
     "financialCurrency": null,
     "ttmRevenue": null,
     "ttmNetIncome": null,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "SPY": {
     "targetMean": null,
@@ -515,8 +515,8 @@ const ESTIMATES_DATA = {
     "financialCurrency": null,
     "ttmRevenue": null,
     "ttmNetIncome": null,
-    "_fetched_at": 1785686402.1250844,
-    "_updated_label": "2026-08-03 01:00"
+    "_fetched_at": 1785776402.1220417,
+    "_updated_label": "2026-08-04 02:00"
   },
   "ORCL": {
     "targetMean": 248.14584,
