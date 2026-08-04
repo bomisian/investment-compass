@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.15999984741211,
+      "current": 16.209999084472656,
       "prevClose": 15.859999656677246,
-      "changeAbs": 0.3000001907348633,
-      "changePct": 1.8915523154413163,
-      "pctRank": 31.60828025477707,
+      "changeAbs": 0.34999942779541016,
+      "changePct": 2.206806023782329,
+      "pctRank": 32.00636942675159,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.242999839782716,
-      "ma60": 17.4021666208903,
-      "chg1m": 0.5900001525878906,
-      "chg3m": -1.2199993133544922,
-      "chg1mPct": 3.789339525703514,
-      "chg3mPct": -7.019559103941177,
+      "ma20": 17.24549980163574,
+      "ma60": 17.402999941507975,
+      "chg1m": 0.6399993896484375,
+      "chg3m": -1.1700000762939453,
+      "chg1mPct": 4.110465010870785,
+      "chg3mPct": -6.7318764832571985,
       "lastDate": "2026-08-04",
       "bars": 1256,
       "symbol": "^VIX",
@@ -24,19 +24,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.626999855041504,
+      "current": 4.629000186920166,
       "prevClose": 4.685999870300293,
-      "changeAbs": -0.05900001525878906,
-      "changePct": -1.2590699294024557,
-      "pctRank": 95.85657370517929,
+      "changeAbs": -0.05699968338012695,
+      "changePct": -1.2163825215060078,
+      "pctRank": 96.09561752988047,
       "min5y": 1.184000015258789,
       "max5y": 4.98799991607666,
-      "ma20": 4.618949961662293,
-      "ma60": 4.5297666390736895,
-      "chg1m": 0.14799976348876953,
-      "chg3m": 0.180999755859375,
-      "chg1mPct": 3.304303649555463,
-      "chg3mPct": 4.071069541646459,
+      "ma20": 4.619049978256226,
+      "ma60": 4.529799977938334,
+      "chg1m": 0.15000009536743164,
+      "chg3m": 0.1830000877380371,
+      "chg1mPct": 3.348963882593517,
+      "chg3mPct": 4.116061260810615,
       "lastDate": "2026-08-04",
       "bars": 1255,
       "symbol": "^TNX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.79000091552734,
+      "current": 76.25,
       "prevClose": 80.33999633789062,
-      "changeAbs": -4.549995422363281,
-      "changePct": -5.663424981035721,
-      "pctRank": 47.812251392203656,
+      "changeAbs": -4.089996337890625,
+      "changePct": -5.090859502518631,
+      "pctRank": 49.2442322991249,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.13599967956543,
-      "ma60": 84.77216657002766,
-      "chg1m": 7.239997863769531,
-      "chg3m": -30.62999725341797,
-      "chg1mPct": 10.561630257409416,
-      "chg3mPct": -28.78218171437273,
+      "ma20": 81.15899963378907,
+      "ma60": 84.77983322143555,
+      "chg1m": 7.6999969482421875,
+      "chg3m": -30.169998168945312,
+      "chg1mPct": 11.232671926255644,
+      "chg3mPct": -28.349932990084653,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.90599822998047,
+      "current": 99.947998046875,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.0540008544921875,
-      "changePct": -0.054022463972366874,
-      "pctRank": 35.16308671439936,
+      "changeAbs": -0.01200103759765625,
+      "changePct": -0.012005840043590435,
+      "pctRank": 35.56085918854415,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.83680076599121,
-      "ma60": 100.16776695251465,
-      "chg1m": -0.944000244140625,
-      "chg3m": 1.4359970092773438,
-      "chg1mPct": -0.9360438853976413,
-      "chg3mPct": 1.4583091210274386,
+      "ma20": 100.83890075683594,
+      "ma60": 100.1684669494629,
+      "chg1m": -0.9020004272460938,
+      "chg3m": 1.477996826171875,
+      "chg1mPct": -0.8943980574055775,
+      "chg3mPct": 1.5009615190916936,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4142.0,
+      "current": 4150.10009765625,
       "prevClose": 4033.699951171875,
-      "changeAbs": 108.300048828125,
-      "changePct": 2.6848811299576596,
-      "pctRank": 88.14638027048528,
+      "changeAbs": 116.400146484375,
+      "changePct": 2.8856917443886303,
+      "pctRank": 88.3054892601432,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4060.945031738281,
-      "ma60": 4255.481673177083,
-      "chg1m": -13.10009765625,
-      "chg3m": -377.5,
-      "chg1mPct": -0.3152775468306845,
-      "chg3mPct": -8.3526938820666,
+      "ma20": 4061.3500366210938,
+      "ma60": 4255.616674804687,
+      "chg1m": -5.0,
+      "chg3m": -369.39990234375,
+      "chg1mPct": -0.12033404448716721,
+      "chg3mPct": -8.173468355874544,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "GC=F",
@@ -129,19 +129,19 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.188000202178955,
+      "current": 5.191999912261963,
       "prevClose": 5.230999946594238,
-      "changeAbs": -0.0429997444152832,
-      "changePct": -0.8220176802578475,
+      "changeAbs": -0.03900003433227539,
+      "changePct": -0.7455560070817292,
       "pctRank": 99.6812749003984,
       "min5y": 1.6779999732971191,
       "max5y": 5.275000095367432,
-      "ma20": 5.131000065803528,
-      "ma60": 5.037616721789042,
-      "chg1m": 0.19500017166137695,
-      "chg3m": 0.16300010681152344,
-      "chg1mPct": 3.9054710688868766,
-      "chg3mPct": 3.243783158567378,
+      "ma20": 5.131200051307678,
+      "ma60": 5.037683383623759,
+      "chg1m": 0.19899988174438477,
+      "chg3m": 0.16699981689453125,
+      "chg1mPct": 3.9855774189481883,
+      "chg3mPct": 3.323379377614123,
       "lastDate": "2026-08-04",
       "bars": 1255,
       "symbol": "^TYX",
@@ -150,22 +150,22 @@ const MARKET_DATA = {
       "digits": 2
     }
   },
-  "yieldSpread": 0.8969998359680176,
+  "yieldSpread": 0.8990001678466797,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.0974491768218675,
-        "ret3m": 1.7206808888838632,
-        "ret6m": 2.9117374678139907,
-        "ret1y": 10.901294463336253,
+        "ret1m": 6.682937858005178,
+        "ret3m": 2.2820167905929223,
+        "ret6m": 3.479646101959366,
+        "ret1y": 11.513292707786494,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -8.043586859075557,
-        "ret3m": 24.520631531501145,
-        "ret6m": 75.17274893313896,
-        "ret1y": 254.42368683274262,
+        "ret1m": -7.49571578299697,
+        "ret3m": 25.262518367458963,
+        "ret6m": 76.21641820186704,
+        "ret1y": 256.53532298796347,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,13 +174,27 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.19149480172545816,
+    "corr60": 0.20155905590759302,
     "corrPctRank": 1.9246861924686192,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115782038222396,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
+      "datetime": 1785860200,
+      "headlineKo": "독점: 미국은 이란 전쟁 중 장거리 정밀 미사일을 '거의 모두' 사용했다고 소식통은 전했습니다. - 로이터 통신"
+    },
+    {
+      "headline": "Qatar says progress made toward US-Iran talks on ending war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
+      "datetime": 1785856337,
+      "headlineKo": "카타르는 전쟁 종식을 위한 미국-이란 회담에서 진전이 있었다고 밝혔습니다 - 로이터"
+    },
     {
       "headline": "Someone on Wall Street thinks SpaceX could triple this week",
       "source": "CNBC",
@@ -196,11 +210,11 @@ const MARKET_DATA = {
       "headlineKo": "이란은 호르무즈에 대한 인바운드 통제와 아웃바운드 감독을 요구한다고 소식통은 전했습니다."
     },
     {
-      "headline": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
+      "headline": "Aramco says US-Iran war has cost the global market 2.6 billion barrels of oil - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
-      "datetime": 1785850119,
-      "headlineKo": "독점: 미국은 이란 전쟁 중 장거리 정밀 미사일을 '거의 모두' 사용했다고 소식통은 전했습니다. - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXFsci0ySk53THJaUktvbFlJd0ZjTzhFNmJSU0gtY1B5RElscWFhWHJLWTcxdlJ1SDhhV1dJcmQteVdaT0NLekZaMU05V2tockhvaGFtYlgzbk5OdWpDVEM4TmFoX2FpZFMyQWdxTzJ2SkdzYVExYVdRWHBKVlNPcTBzX1hub05WWk45TE1HVDM?oc=5",
+      "datetime": 1785850368,
+      "headlineKo": "아람코는 미국-이란 전쟁으로 인해 세계 시장에서 26억 배럴의 석유 손실이 발생했다고 밝혔습니다."
     },
     {
       "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
@@ -208,6 +222,20 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/04/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
       "datetime": 1785848813,
       "headlineKo": "Jim Cramer가 화요일 주식 시장에서 주목해야 할 10가지 항목"
+    },
+    {
+      "headline": "Toyota lifts annual forecast and unveils $6 billion buyback, but shares fall - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQSy1kNU1lRXkxX25PQUFPbTQtT2FCaXp3VHNJb0N6czVieVFvZmY1U1lta3NzVEdwRUEzQmd6b2h0dmtOTTVyZmNTTDhiVU1od3dCWFN6U2JRMFRZeTE2cnBwTHpGekxMNzhGRk1CMnZSRllsdG5UZmpmXzRoNTVKeDlQUlBwMWFlUG9KbzJGOGkzZGtUajh4V1R2WmhMdXdiVVNiZlFiLTZHbHhlUExSS05QdnU2RFRUUTRuQ3ZsM2M1M0RSdkxFajVMWU4ycDVGanc?oc=5",
+      "datetime": 1785843277,
+      "headlineKo": "도요타, 연간 전망 상향하고 60억 달러 자사주 매입 발표했지만 주가 하락 - Reuters"
+    },
+    {
+      "headline": "Stocks rise despite higher oil prices as Iran tensions persist - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FbUhCcDNQSE1IQ3dnM055RTJNZ0N1WHYtTUswbUtjZmRTS3FwbEtKZkd5Ti1WT0JndWtUSEJJTktud19OQzRELW93em1SMFdjcnphTVBMQ1BPMzBJLTdEYmxMbnJ2bFB4NVN4ZVlKYjIyZUlFZGx3RUljSQ?oc=5",
+      "datetime": 1785843143,
+      "headlineKo": "이란 긴장 지속으로 유가 상승에도 주가 상승 - 로이터"
     },
     {
       "headline": "EXCLUSIVE: Ukraine's Fire Point starts to integrate European tech into missile defence system - Reuters",
@@ -236,36 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUEY5UU5rSzJLWl80R1JRekd4T2RpZkUyU2JCeG04V2VTOGJuRDFnTzQ5MWFGQk9UcXJ2UnlnYnFiY3FMSzNvVWtYbGJyUkpaNHRueUpKbDdGeVMtdGhTUmhBbVoxeDdvcVNGa2E1TXZpN0J4TVZWdHVHMVZaSUExTDZhdkZXQVFROG9ncEV4NHgyWk9QR2I4?oc=5",
       "datetime": 1785838994,
       "headlineKo": "팟캐스트: 미국 군수품, Max Miller, Ceuta 및 Infantino의 미래 - Reuters"
-    },
-    {
-      "headline": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWxZWjEzUHh2dXNYYUxyS2RjbUhHTXh1RHpVTjZwUUpScFlZbnFUVDkwUlR3bXJMU3otWDY4Q2cyTml6dXV2YVJIZkdiN0lnZUV0T19VN1QwRUY4ZmU5bjNhUHJfU2tWeEw4RVFoTUN4R2lGaW1WSXpzUWxaVmZWSF9kRGhLcE9GU1lxaHp4N0xnNFp0MG9lMkZEeTd4TTEyTTBySlEzYVJFM0RSdjFTRHJZbnFmdFBISndla004RHVTQQ?oc=5",
-      "datetime": 1785834946,
-      "headlineKo": "터키, 러시아와 우크라이나에 드론 공격 후 흑해 안전 보장 촉구 - 로이터 통신"
-    },
-    {
-      "headline": "Goldman sees Brent at $80-$90 until US-Iran deal or major escalation - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ3RQcExCZTFRck1VT3ZpMWV3YkxZVElmR18wQ3RGa2lpbDFNWU11alJoaVdFM2Z0M0t6V2wtdzkwNThqVHFPSW5HWHVOeHJzM3NJdnRuMEFfUnVwS09TS1hkWUVJZXBQNTVFbEMzbG41ZXdqR0V1TjdpV2pGY1BTV2pmSGwzdjRqZWJkR1VCTlE4aUpkNHk3b25YdG05eHRMdXBzZFhiZTJ4d19zcFBXZmtkYy1LZw?oc=5",
-      "datetime": 1785833143,
-      "headlineKo": "골드만삭스는 미국-이란 협상 또는 대규모 확대 전까지 브렌트유 가격을 80~90달러로 본다 - Reuters"
-    },
-    {
-      "headline": "BP's quarterly profit doubles to over $5 billion after Iran war oil surge - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdU9hYzNQV1Ezbmd5OXB4Z1d4QTR0QU80Z0MteS03b002RE5yd2hPb2l5Z0NqLWJ4Y21PSTN0Z29UNVBBVEVyRDRGc0VNUnoySWNlcWU4cUlVXy1iNWd0MVA3V3pXLXN1ZHlyQWcyNzRfcmNxYnJKWFBQTWZ1anZtajRzcFRSd3BIQWJhOVlfQXZUaVU2Y1RlTUhqcHBQZ1ItTjhJeEg0NA?oc=5",
-      "datetime": 1785823740,
-      "headlineKo": "이란 전쟁 석유 급증 이후 BP의 분기 수익은 50억 달러 이상으로 두 배 증가 - Reuters"
-    },
-    {
-      "headline": "OPEC+ oil output hike is irrelevant for now, not for later - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ1F5SEtvVzlTU0VibXRmNGx4ZldyYllQcHBfSEkzRHVLVGdrNUxMLUZtQXZsT1pTWjJ4Z1F0ekFyN3NkWjRITjdCc2NtcmpFZ0k2OWN5Z25WOVVFVHpJNEVWQkU3emxZYkUtVFhFand1cWVHSWUyRUpQa1FOOUtPWlRKUzRVQUs3V3oxcWphVzVKUUhSSUNZaHNtdHVkM1U5VXE2Q0ZPNzE4UG5WQmdVS2cwZlU3UnNN?oc=5",
-      "datetime": 1785823200,
-      "headlineKo": "OPEC+ 석유 생산량 증가는 지금은 중요하지 않고 나중도 중요하지 않습니다 - Reuters"
     }
   ],
-  "_fetched_at": 1785859220.1723719,
-  "_updated_label": "2026-08-05 01:00"
+  "_fetched_at": 1785862826.2422643,
+  "_updated_label": "2026-08-05 02:00"
 };
