@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.43000030517578,
+      "current": 16.5,
       "prevClose": 15.859999656677246,
-      "changeAbs": 0.5700006484985352,
-      "changePct": 3.5939512032622156,
-      "pctRank": 34.952229299363054,
+      "changeAbs": 0.6400003433227539,
+      "changePct": 4.035311205402872,
+      "pctRank": 35.6687898089172,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.2564998626709,
-      "ma60": 17.406666628519694,
-      "chg1m": 0.8600006103515625,
-      "chg3m": -0.9499988555908203,
-      "chg1mPct": 5.523446545971635,
-      "chg3mPct": -5.466046613715242,
+      "ma20": 17.25999984741211,
+      "ma60": 17.407833290100097,
+      "chg1m": 0.9300003051757812,
+      "chg3m": -0.8799991607666016,
+      "chg1mPct": 5.973027125266625,
+      "chg3mPct": -5.063286555002263,
       "lastDate": "2026-08-04",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.87000274658203,
+      "current": 75.4000015258789,
       "prevClose": 80.33999633789062,
-      "changeAbs": -4.469993591308594,
-      "changePct": -5.563845898758671,
-      "pctRank": 48.050914876690534,
+      "changeAbs": -4.939994812011719,
+      "changePct": -6.148861136656384,
+      "pctRank": 46.38027048528242,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.13999977111817,
-      "ma60": 84.77349993387858,
-      "chg1m": 7.319999694824219,
-      "chg3m": -30.54999542236328,
-      "chg1mPct": 10.678336059733425,
-      "chg3mPct": -28.707006152982768,
+      "ma20": 81.116499710083,
+      "ma60": 84.76566658020019,
+      "chg1m": 6.849998474121094,
+      "chg3m": -31.019996643066406,
+      "chg1mPct": 9.992703383177224,
+      "chg3mPct": -29.148653614728616,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.87699890136719,
+      "current": 99.87300109863281,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.08300018310546875,
-      "changePct": -0.08303339722455202,
+      "changeAbs": -0.08699798583984375,
+      "changePct": -0.08703279975655545,
       "pctRank": 34.924423229912485,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.83535079956054,
-      "ma60": 100.16728363037109,
-      "chg1m": -0.9729995727539062,
-      "chg3m": 1.4069976806640625,
-      "chg1mPct": -0.9647987976951587,
-      "chg3mPct": 1.4288592091214924,
+      "ma20": 100.83515090942383,
+      "ma60": 100.16721700032552,
+      "chg1m": -0.9769973754882812,
+      "chg3m": 1.4029998779296875,
+      "chg1mPct": -0.968762905573059,
+      "chg3mPct": 1.4247992896690547,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4136.5,
+      "current": 4133.7001953125,
       "prevClose": 4033.699951171875,
-      "changeAbs": 102.800048828125,
-      "changePct": 2.54852988751083,
+      "changeAbs": 100.000244140625,
+      "changePct": 2.4791195515564515,
       "pctRank": 87.98727128082736,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4060.670031738281,
-      "ma60": 4255.390006510416,
-      "chg1m": -18.60009765625,
-      "chg3m": -383.0,
-      "chg1mPct": -0.4476449957665684,
-      "chg3mPct": -8.474388759818565,
+      "ma20": 4060.5300415039064,
+      "ma60": 4255.343343098958,
+      "chg1m": -21.39990234375,
+      "chg3m": -385.7998046875,
+      "chg1mPct": -0.5150273601307692,
+      "chg3mPct": -8.536338194213961,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "GC=F",
@@ -154,18 +154,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.750069079415044,
-        "ret3m": 2.3463786918798357,
-        "ret6m": 3.5447616225230183,
-        "ret1y": 11.58346347448278,
+        "ret1m": 6.767739938759965,
+        "ret3m": 2.363320586886797,
+        "ret6m": 3.5619018916986267,
+        "ret1y": 11.601934429164885,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -7.53827020973834,
-        "ret3m": 25.20489428327273,
-        "ret6m": 76.13535397092389,
-        "ret1y": 256.37130727332675,
+        "ret1m": -7.5352621050268525,
+        "ret3m": 25.20896763808935,
+        "ret6m": 76.14108427241555,
+        "ret1y": 256.382901283204,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,13 +174,20 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20189022570961873,
+    "corr60": 0.20209276744737908,
     "corrPctRank": 1.9262981574539362,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115784818334243,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmtBb0gtUVhaWUFKQ2tlakdWSDhOREJnbHM3dVN6ZGRkbEF1Mnp0VXVFYzY0TXRZRDduZDVibW0yaVpkaDg0TjNpY1VCWFlrQnRQam0xN2ZWWG1vZWpZSUlzTU5CWG9rSVM5dDlGQXRFZzVFXzZCcXVsd2ZUUmJaTi0tUDhiSVp3T1M0bGdRcGZuWmgtV01NLW5OTVFCZlQ2VWdEX2dzRUptUFhxSlVXMEI4T1A3UQ?oc=5",
+      "datetime": 1785870155,
+      "headlineKo": "발사체가 예멘 해역 근처에서 인도 선박을 침몰시켰지만 모든 선원들은 안전하다고 인도 장관은 말했습니다 - 로이터 통신"
+    },
     {
       "headline": "TikTok users are sharing the items they say are always worth the money—here's what financial planners say",
       "source": "CNBC",
@@ -201,6 +208,20 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/04/chipotle-stock-falls-salmonella-outbreak-minnesota.html",
       "datetime": 1785866040,
       "headlineKo": "미네소타의 살모넬라 발병과의 잠재적 연관성으로 치폴레 주식 하락"
+    },
+    {
+      "headline": "US-facilitated Israel-Lebanon talks have begun, says State Department - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLXdzQy15RzJIczBFWU1CVzZITkFHTU84M0NZWFlGajB6bFRITGJ2UEpacm96STR6cFk1WTRiNDBiMzRTakJ5STh0YVE2WXdkdWVzZG5TeldxY3ZDbktzbXJPZVhSX1R0RnAtSlRXVmE1SmZpdVFBVU1tQ1M1ZzFqeWk1TzJDOWtha0Y3czY0RmMxOTFLUHZXZENMZ195NFY3ZGM3TEFSeEt1WTdrOXlWdHhiSHZRTFRSWTZNTlNTVQ?oc=5",
+      "datetime": 1785863402,
+      "headlineKo": "미국이 주도하는 이스라엘-레바논 회담이 시작되었다고 미 국무부가 밝혔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWxZWjEzUHh2dXNYYUxyS2RjbUhHTXh1RHpVTjZwUUpScFlZbnFUVDkwUlR3bXJMU3otWDY4Q2cyTml6dXV2YVJIZkdiN0lnZUV0T19VN1QwRUY4ZmU5bjNhUHJfU2tWeEw4RVFoTUN4R2lGaW1WSXpzUWxaVmZWSF9kRGhLcE9GU1lxaHp4N0xnNFp0MG9lMkZEeTd4TTEyTTBySlEzYVJFM0RSdjFTRHJZbnFmdFBISndla004RHVTQQ?oc=5",
+      "datetime": 1785860503,
+      "headlineKo": "터키, 러시아와 우크라이나에 드론 공격 후 흑해 안전 보장 촉구 - 로이터 통신"
     },
     {
       "headline": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
@@ -224,13 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "베센트가 호르무즈 해협 협상이 이번 주에 이뤄질 수 있다고 말한 후 유가는 하락했다"
     },
     {
-      "headline": "Oil prices drop after claims of progress in US-Iran talks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0VaWUlWWUxJMXVaM1NiVS0yeWUtYWhpTlo4MTh0ZzZkZms3aFVLNVRfR1JISmxrY2d2VmM1UWFKTVFtSlEzYmt0N3ZuRUFLWXd5bzh5QkVXOVRxUVh3VHRnOWkzanJWb2tqUU13cURMRFR3TFphYkFzRVRsbnY5aEpDdTJLLVNLOXpwYzRNckVGQW9TcThhNHdKVlVTZ2Q4SkRraWR5TjlvbmN4VE1rLWViVFNTRUZU?oc=5",
-      "datetime": 1785858551,
-      "headlineKo": "미-이란 회담 진전 주장으로 유가 하락 - 로이터 통신"
-    },
-    {
       "headline": "PODCAST: Manufacturing rebounds - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWNUdkpLMG5rTVozVFg4clZiNGNBRDhqa1ZGUUZkZE1NTVZQdlc2bXc5M0p2Y09GaWptWnJPWG5COWxNdGNBSkdYNWdkSVZKZm5sRHFfWUdIZVJoUEVpblV1d1RJdnlTQVQtX0lZYmxoOVQxVEh0N1FaNm9mbG9iRy1IOURjR2lnUjZuVVgwVWw?oc=5",
@@ -250,22 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjFmUC1OVjJCS05weXNFTmhaZkRab0dwSVV1LXJ5dEp2ZVNxX0l6QVdLQTN3SUdtSS1pOVF4OEYxRzZHbUJNeXk5ZmJnUG5FVVFScEJnOEUyM3FLWWhzQk8yME1VcW42X3dPOURqRi03QlN6RnZLMGFfWW5LWUVmUDctVDR0YXRhWTAwbTJRaUdKYTNJb2NuS2hrNjRpOVdlZjBPRTVzNXhUbjRpdmRFSGdkVHlGUnpJYjRGTQ?oc=5",
       "datetime": 1785851195,
       "headlineKo": "이란은 호르무즈에 대한 인바운드 통제와 아웃바운드 감독을 요구한다고 소식통은 전했습니다."
-    },
-    {
-      "headline": "Gold rises on softer oil prices; US jobs data, Fed rate outlook on tap - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdzFHZFRoSEVvd0hvWk5nQl9nYVZPdGJSSTRMcWdPMFc5MS1NYnVtNFdvOEpwQVJHbmZtMWJYTzRmcnJCNkt1bmpBb0ZfTUsycW5SZXFDTWdiU0JrOUl1ek9lVC1qZWVMYjJ5bVQwTy11MkNpVDF6RW8xMm9GY0d1YnB0RDJ5REhSZjZ5QXAzOE15QzVWNk5SRERBUjJOM1oxc1VXdHNR?oc=5",
-      "datetime": 1785851089,
-      "headlineKo": "금은 유가 하락으로 상승합니다. 미국 고용지표, 연준 금리 전망 확인 - Reuters"
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/04/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "datetime": 1785848813,
-      "headlineKo": "Jim Cramer가 화요일 주식 시장에서 주목해야 할 10가지 항목"
     }
   ],
-  "_fetched_at": 1785873602.7497816,
-  "_updated_label": "2026-08-05 05:00"
+  "_fetched_at": 1785877202.375343,
+  "_updated_label": "2026-08-05 06:00"
 };
