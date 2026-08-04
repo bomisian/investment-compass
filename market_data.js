@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 79.80000305175781,
+      "current": 80.25,
       "prevClose": 84.66999816894531,
-      "changeAbs": -4.8699951171875,
-      "changePct": -5.751736414910758,
-      "pctRank": 62.132060461416074,
+      "changeAbs": -4.4199981689453125,
+      "changePct": -5.220264868939668,
+      "pctRank": 63.48448687350835,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 80.84150009155273,
-      "ma60": 85.08016662597656,
-      "chg1m": 11.110000610351562,
-      "chg3m": -22.139999389648438,
-      "chg1mPct": 16.174115905482147,
-      "chg3mPct": -21.718656915251902,
+      "ma20": 80.86399993896484,
+      "ma60": 85.08766657511393,
+      "chg1m": 11.55999755859375,
+      "chg3m": -21.69000244140625,
+      "chg1mPct": 16.829228632586855,
+      "chg3mPct": -21.277223780599154,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.99099731445312,
+      "current": 100.01300048828125,
       "prevClose": 99.80000305175781,
-      "changeAbs": 0.1909942626953125,
-      "changePct": 0.19137701087670303,
-      "pctRank": 35.958631662688944,
+      "changeAbs": 0.2129974365234375,
+      "changePct": 0.21342427856738017,
+      "pctRank": 36.11774065234686,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.90005073547363,
-      "ma60": 100.14068361918132,
-      "chg1m": -0.8690032958984375,
-      "chg3m": 1.7809982299804688,
-      "chg1mPct": -0.8615935858017922,
-      "chg3mPct": 1.8134591656482877,
+      "ma20": 100.90115089416504,
+      "ma60": 100.14105033874512,
+      "chg1m": -0.8470001220703125,
+      "chg3m": 1.8030014038085938,
+      "chg1mPct": -0.8397780259217869,
+      "chg3mPct": 1.835863375029452,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4107.60009765625,
+      "current": 4107.0,
       "prevClose": 4049.10009765625,
-      "changeAbs": 58.5,
-      "changePct": 1.4447654686003364,
+      "changeAbs": 57.89990234375,
+      "changePct": 1.4299449494287468,
       "pctRank": 87.3508353221957,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4064.805029296875,
-      "ma60": 4266.010005696615,
-      "chg1m": -5.10009765625,
-      "chg3m": -522.2998046875,
-      "chg1mPct": -0.1240084959769958,
-      "chg3mPct": -11.281017207804021,
+      "ma20": 4064.7750244140625,
+      "ma60": 4266.00000406901,
+      "chg1m": -5.7001953125,
+      "chg3m": -522.89990234375,
+      "chg1mPct": -0.1385998259488223,
+      "chg3mPct": -11.293978560509427,
       "lastDate": "2026-08-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -203,18 +203,18 @@ const MARKET_DATA = {
       "headlineKo": "래리 버그가 차기 메이저 리그 축구 커미셔너로 임명되었습니다."
     },
     {
-      "headline": "Wall Street rallies, Dow closes at record on Iran talks optimism - reuters.com",
+      "headline": "Wall Street rallies, Dow closes at record on Iran talks optimism - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTC1HdWxXY3dmcFlCNm9FZ3N5VnVhSWg0ZHV4a1RRdUdlUVM5QUhNYUlueDN2akloUFFEUWRIWXNHeFk1VEFHMDhBRTV1XzY5TnBxUXlVQk96NkFMSnNuTURuTzhCOVRBUkVVT2p1VjBOZFBZdk4zM01WQlFDY1ZZTGhqR2NaeXNrVWN0Ym5aQ1VENmZ5aGRKRWRoMHlNRTVxMWxVSFVrOA?oc=5",
       "datetime": 1785788804,
-      "headlineKo": "월스트리트 랠리, 다우지수 이란 낙관론에 대한 기록 마감 - reuters.com"
+      "headlineKo": "월스트리트 랠리, 다우지수는 이란 낙관론에 대한 기록 마감 - 로이터 통신"
     },
     {
-      "headline": "Trump says Iran faces 'decapitation' if it doesn't strike deal - reuters.com",
+      "headline": "Trump says Iran faces 'decapitation' if it doesn't strike deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbWpzQ3dqaWdURjZva2hpRmpXbFNWNWFsQnlRTDF5YlpCTlBBVGxEYWZYVEhLMl84aHdvdzBhUUhxeVBqWWVHWTR5dEpleS1XY0wwR0V4N1JaMkNOaUdvWGgwWHZ0d2hubUVNU2MxMUY5dnVaS05fTlhja0JEWGp3SEdMRmswbEVIUmY1clZWdEExNDNQTFpVelhla3o0alFQS2c?oc=5",
       "datetime": 1785786541,
-      "headlineKo": "트럼프 \"이란, 합의 안 하면 참수 직면할 것\" - Reuters.com"
+      "headlineKo": "트럼프 “이란, 합의 안 하면 참수 당할 것” - 로이터"
     },
     {
       "headline": "Trump sours on Pirro over Reflecting Pool case, won't say her job is safe",
@@ -252,11 +252,11 @@ const MARKET_DATA = {
       "headlineKo": "스타벅스 곰이 태도를 바꾸고 주식을 업그레이드한 이유는 다음과 같습니다."
     },
     {
-      "headline": "OPEC+ oil output hike is irrelevant for now, not for later - reuters.com",
+      "headline": "OPEC+ oil output hike is irrelevant for now, not for later - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ1F5SEtvVzlTU0VibXRmNGx4ZldyYllQcHBfSEkzRHVLVGdrNUxMLUZtQXZsT1pTWjJ4Z1F0ekFyN3NkWjRITjdCc2NtcmpFZ0k2OWN5Z25WOVVFVHpJNEVWQkU3emxZYkUtVFhFand1cWVHSWUyRUpQa1FOOUtPWlRKUzRVQUs3V3oxcWphVzVKUUhSSUNZaHNtdHVkM1U5VXE2Q0ZPNzE4UG5WQmdVS2cwZlU3UnNN?oc=5",
       "datetime": 1785774491,
-      "headlineKo": "OPEC+ 원유 생산량 증가는 지금은 중요하지 않고 나중을 위한 것도 아니다 - reuters.com"
+      "headlineKo": "OPEC+ 석유 생산량 증가는 지금은 중요하지 않고 나중도 중요하지 않습니다 - Reuters"
     },
     {
       "headline": "UBS fined $125 million by US regulators for money laundering violations - Reuters",
@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "UBS, 자금세탁 위반 혐의로 미국 규제당국으로부터 1억 2,500만 달러의 벌금 부과 - Reuters"
     }
   ],
-  "_fetched_at": 1785798002.1001706,
-  "_updated_label": "2026-08-04 08:00"
+  "_fetched_at": 1785801602.1046302,
+  "_updated_label": "2026-08-04 09:00"
 };
