@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.13999938964844,
+      "current": 75.33999633789062,
       "prevClose": 80.33999633789062,
-      "changeAbs": -5.1999969482421875,
-      "changePct": -6.472488405864815,
-      "pctRank": 45.58472553699284,
+      "changeAbs": -5.0,
+      "changePct": -6.223550196556156,
+      "pctRank": 46.141607000795545,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.10349960327149,
-      "ma60": 84.76133321126302,
-      "chg1m": 6.589996337890625,
-      "chg3m": -31.279998779296875,
-      "chg1mPct": 9.613415090463134,
-      "chg3mPct": -29.39297060467792,
+      "ma20": 81.11349945068359,
+      "ma60": 84.76466649373373,
+      "chg1m": 6.7899932861328125,
+      "chg3m": -31.080001831054688,
+      "chg1mPct": 9.905168466595274,
+      "chg3mPct": -29.205038870339145,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.88899993896484,
+      "current": 99.88200378417969,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.0709991455078125,
-      "changePct": -0.0710275571809616,
+      "changeAbs": -0.07799530029296875,
+      "changePct": -0.07802651161196758,
       "pctRank": 35.08353221957041,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.83595085144043,
-      "ma60": 100.16748364766438,
-      "chg1m": -0.96099853515625,
-      "chg3m": 1.4189987182617188,
-      "chg1mPct": -0.9528989089700877,
-      "chg3mPct": 1.441046715416692,
+      "ma20": 100.83560104370117,
+      "ma60": 100.16736704508463,
+      "chg1m": -0.9679946899414062,
+      "chg3m": 1.4120025634765625,
+      "chg1mPct": -0.9598360977564132,
+      "chg3mPct": 1.4339418563749258,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4134.2001953125,
+      "current": 4138.89990234375,
       "prevClose": 4033.699951171875,
-      "changeAbs": 100.500244140625,
-      "changePct": 2.491515119051618,
-      "pctRank": 87.98727128082736,
+      "changeAbs": 105.199951171875,
+      "changePct": 2.608026190478352,
+      "pctRank": 88.06682577565633,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4060.555041503906,
-      "ma60": 4255.351676432291,
-      "chg1m": -20.89990234375,
-      "chg3m": -385.2998046875,
-      "chg1mPct": -0.5029939556820525,
-      "chg3mPct": -8.525275023509238,
+      "ma20": 4060.7900268554686,
+      "ma60": 4255.430004882813,
+      "chg1m": -16.2001953125,
+      "chg3m": -380.60009765625,
+      "chg1mPct": -0.3898870046870345,
+      "chg3mPct": -8.421287701211417,
       "lastDate": "2026-08-04",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Jim Cramer says one hedge fund's collapse cleared the way for tech's rally",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/04/cramer-one-hedge-fund-collapse-cleared-way-for-tech-rally.html",
+      "datetime": 1785882142,
+      "headlineKo": "짐 크레이머(Jim Cramer)는 한 헤지펀드의 붕괴가 기술주 랠리의 길을 열었다고 말했습니다."
+    },
+    {
       "headline": "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmtBb0gtUVhaWUFKQ2tlakdWSDhOREJnbHM3dVN6ZGRkbEF1Mnp0VXVFYzY0TXRZRDduZDVibW0yaVpkaDg0TjNpY1VCWFlrQnRQam0xN2ZWWG1vZWpZSUlzTU5CWG9rSVM5dDlGQXRFZzVFXzZCcXVsd2ZUUmJaTi0tUDhiSVp3T1M0bGdRcGZuWmgtV01NLW5OTVFCZlQ2VWdEX2dzRUptUFhxSlVXMEI4T1A3UQ?oc=5",
@@ -196,18 +203,18 @@ const MARKET_DATA = {
       "headlineKo": "TikTok 사용자는 항상 돈의 가치가 있다고 말하는 항목을 공유하고 있습니다. 재무 설계사가 말하는 내용은 다음과 같습니다."
     },
     {
-      "headline": "Qatar says progress made toward US-Iran talks on ending war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
-      "datetime": 1785866522,
-      "headlineKo": "카타르는 전쟁 종식을 위한 미국-이란 회담에서 진전이 있었다고 밝혔습니다 - 로이터"
-    },
-    {
       "headline": "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/04/chipotle-stock-falls-salmonella-outbreak-minnesota.html",
       "datetime": 1785866040,
       "headlineKo": "미네소타의 살모넬라 발병과의 잠재적 연관성으로 치폴레 주식 하락"
+    },
+    {
+      "headline": "Stocks jump to records after upbeat company forecasts; oil, yen weaken - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FbUhCcDNQSE1IQ3dnM055RTJNZ0N1WHYtTUswbUtjZmRTS3FwbEtKZkd5Ti1WT0JndWtUSEJJTktud19OQzRELW93em1SMFdjcnphTVBMQ1BPMzBJLTdEYmxMbnJ2bFB4NVN4ZVlKYjIyZUlFZGx3RUljSQ?oc=5",
+      "datetime": 1785864717,
+      "headlineKo": "낙관적인 회사 전망 이후 주가는 기록적으로 뛰어올랐습니다. 유가, 엔화 약세 - Reuters"
     },
     {
       "headline": "US-facilitated Israel-Lebanon talks have begun, says State Department - Reuters",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/04/someone-on-wall-street-thinks-spacex-could-triple-this-week.html",
       "datetime": 1785852301,
       "headlineKo": "월스트리트의 누군가는 SpaceX가 이번 주에 세 배로 늘어날 수 있다고 생각합니다."
-    },
-    {
-      "headline": "Iran demands inbound control of Hormuz and outbound oversight, source says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSjFmUC1OVjJCS05weXNFTmhaZkRab0dwSVV1LXJ5dEp2ZVNxX0l6QVdLQTN3SUdtSS1pOVF4OEYxRzZHbUJNeXk5ZmJnUG5FVVFScEJnOEUyM3FLWWhzQk8yME1VcW42X3dPOURqRi03QlN6RnZLMGFfWW5LWUVmUDctVDR0YXRhWTAwbTJRaUdKYTNJb2NuS2hrNjRpOVdlZjBPRTVzNXhUbjRpdmRFSGdkVHlGUnpJYjRGTQ?oc=5",
-      "datetime": 1785851195,
-      "headlineKo": "이란은 호르무즈에 대한 인바운드 통제와 아웃바운드 감독을 요구한다고 소식통은 전했습니다."
     }
   ],
-  "_fetched_at": 1785880802.4275758,
-  "_updated_label": "2026-08-05 07:00"
+  "_fetched_at": 1785884402.2553773,
+  "_updated_label": "2026-08-05 08:00"
 };
