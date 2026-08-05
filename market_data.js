@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.31999969482422,
+      "current": 16.010000228881836,
       "prevClose": 16.5,
-      "changeAbs": -0.18000030517578125,
-      "changePct": -1.0909109404592803,
-      "pctRank": 32.882165605095544,
+      "changeAbs": -0.48999977111816406,
+      "changePct": -2.9696955825343276,
+      "pctRank": 29.617834394904456,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.230999851226805,
-      "ma60": 17.373499965667726,
-      "chg1m": 0.1900005340576172,
-      "chg3m": -1.0699996948242188,
-      "chg1mPct": 1.1779326964861858,
-      "chg3mPct": -6.152959933173697,
+      "ma20": 17.215499877929688,
+      "ma60": 17.368333307902017,
+      "chg1m": -0.11999893188476562,
+      "chg3m": -1.3799991607666016,
+      "chg1mPct": -0.7439487794682719,
+      "chg3mPct": -7.935590622205882,
       "lastDate": "2026-08-05",
       "bars": 1256,
       "symbol": "^VIX",
@@ -24,19 +24,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.629000186920166,
+      "current": 4.63100004196167,
       "prevClose": 4.626999855041504,
-      "changeAbs": 0.0020003318786621094,
-      "changePct": 0.04323172555284566,
-      "pctRank": 96.09561752988047,
+      "changeAbs": 0.004000186920166016,
+      "changePct": 0.08645314556920673,
+      "pctRank": 96.25498007968127,
       "min5y": 1.2170000076293945,
       "max5y": 4.98799991607666,
-      "ma20": 4.621949982643128,
-      "ma60": 4.534183311462402,
-      "chg1m": 0.10000038146972656,
-      "chg3m": 0.21300029754638672,
-      "chg1mPct": 2.208001452095025,
-      "chg3mPct": 4.823376423965257,
+      "ma20": 4.6220499753952025,
+      "ma60": 4.534216642379761,
+      "chg1m": 0.10200023651123047,
+      "chg3m": 0.21500015258789062,
+      "chg1mPct": 2.252158112006937,
+      "chg3mPct": 4.868662997597566,
       "lastDate": "2026-08-05",
       "bars": 1255,
       "symbol": "^TNX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.41000366210938,
+      "current": 75.05000305175781,
       "prevClose": 75.7699966430664,
-      "changeAbs": -0.35999298095703125,
-      "changePct": -0.47511283741091953,
-      "pctRank": 46.30071599045346,
+      "changeAbs": -0.7199935913085938,
+      "changePct": -0.9502357439717258,
+      "pctRank": 45.346062052505964,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.22949981689453,
-      "ma60": 84.43833325703939,
-      "chg1m": 4.970001220703125,
-      "chg3m": -26.85999298095703,
-      "chg1mPct": 7.055651687174906,
-      "chg3mPct": -26.263805478259062,
+      "ma20": 81.21149978637695,
+      "ma60": 84.43233324686686,
+      "chg1m": 4.6100006103515625,
+      "chg3m": -27.219993591308594,
+      "chg1mPct": 6.544577584571034,
+      "chg3mPct": -26.61581547353461,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.75399780273438,
+      "current": 99.7490005493164,
       "prevClose": 99.88999938964844,
-      "changeAbs": -0.1360015869140625,
-      "changePct": -0.1361513542347226,
-      "pctRank": 34.049323786793956,
+      "changeAbs": -0.14099884033203125,
+      "changePct": -0.14115411071535447,
+      "pctRank": 33.89021479713604,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.77120056152344,
-      "ma60": 100.19940032958985,
-      "chg1m": -1.3860015869140625,
-      "chg3m": 1.2739944458007812,
-      "chg1mPct": -1.3703792715821572,
-      "chg3mPct": 1.293658004034871,
+      "ma20": 100.77095069885254,
+      "ma60": 100.19931704203287,
+      "chg1m": -1.3909988403320312,
+      "chg3m": 1.2689971923828125,
+      "chg1mPct": -1.375320198463832,
+      "chg3mPct": 1.28858362015223,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4310.10009765625,
+      "current": 4303.7001953125,
       "prevClose": 4095.39990234375,
-      "changeAbs": 214.7001953125,
-      "changePct": 5.2424720523539,
-      "pctRank": 90.21479713603819,
+      "changeAbs": 208.30029296875,
+      "changePct": 5.086201541625816,
+      "pctRank": 90.05568814638028,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4070.5750366210937,
-      "ma60": 4247.866674804687,
-      "chg1m": 164.80029296875,
-      "chg3m": -245.69970703125,
-      "chg1mPct": 3.975594063965989,
-      "chg3mPct": -5.39311904747104,
+      "ma20": 4070.2550415039063,
+      "ma60": 4247.760009765625,
+      "chg1m": 158.400390625,
+      "chg3m": -252.099609375,
+      "chg1mPct": 3.82120469177841,
+      "chg3mPct": -5.533597176847249,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "GC=F",
@@ -129,19 +129,19 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.175000190734863,
+      "current": 5.181000232696533,
       "prevClose": 5.190000057220459,
-      "changeAbs": -0.014999866485595703,
-      "changePct": -0.2890147653221604,
+      "changeAbs": -0.008999824523925781,
+      "changePct": -0.1734070216705489,
       "pctRank": 99.5219123505976,
       "min5y": 1.6779999732971191,
       "max5y": 5.275000095367432,
-      "ma20": 5.136600065231323,
-      "ma60": 5.041450055440267,
-      "chg1m": 0.13199996948242188,
-      "chg3m": 0.19099998474121094,
-      "chg1mPct": 2.6174888695451886,
-      "chg3mPct": 3.83226277782891,
+      "ma20": 5.136900067329407,
+      "ma60": 5.041550056139628,
+      "chg1m": 0.1380000114440918,
+      "chg3m": 0.19700002670288086,
+      "chg1mPct": 2.7364664959268863,
+      "chg3mPct": 3.9526488475255848,
       "lastDate": "2026-08-05",
       "bars": 1255,
       "symbol": "^TYX",
@@ -150,22 +150,22 @@ const MARKET_DATA = {
       "digits": 2
     }
   },
-  "yieldSpread": 0.8940002918243408,
+  "yieldSpread": 0.8960001468658447,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.4957866308617875,
-        "ret3m": 1.4287833460771004,
-        "ret6m": 3.8217799397242125,
-        "ret1y": 8.277591814394135,
+        "ret1m": 5.322765743458269,
+        "ret3m": 1.2624326446580625,
+        "ret6m": 3.651504547022144,
+        "ret1y": 8.100008560882843,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -3.1740576886305494,
-        "ret3m": 17.84296520124842,
-        "ret6m": 77.24657315840201,
-        "ret1y": 245.736392847777,
+        "ret1m": -2.524682570511849,
+        "ret3m": 18.63329357420589,
+        "ret6m": 78.43529915097476,
+        "ret1y": 248.0551165863127,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,19 +174,33 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.2024631263746477,
-    "corrPctRank": 2.00836820083682,
+    "corr60": 0.20118883004268034,
+    "corrPctRank": 1.9246861924686192,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115782038222396,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
     {
+      "headline": "SpaceX gives Nvidia a much-needed boost. Plus, Cramer on an 'undervalued' stock",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/05/spacex-gives-nvidia-a-much-needed-boost-cramers-undervalued-stock-.html",
+      "datetime": 1785945051,
+      "headlineKo": "SpaceX는 Nvidia에 꼭 필요한 기능을 제공합니다. 게다가 Cramer는 '저평가된' 주식을 보유하고 있습니다."
+    },
+    {
       "headline": "We're pocketing gains in two tech stocks that are hitting new record highs",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/were-pocketing-gains-in-2-stocks-that-are-hitting-new-record-highs.html",
       "datetime": 1785943680,
       "headlineKo": "우리는 신기록을 경신하는 두 기술주에서 이익을 얻고 있습니다."
+    },
+    {
+      "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUNJWWdZUW9teWxlNDE2eWVZWTFmd0JQdmwwYUNvSEpES1BhMjBJNF9LczlwUTZkaTZjMm5MNFhEUFN1RnpZclZHamljVnlGcW5GdkFMclYyUjQ4dEpHRWwtNjJLdjNoNWx5YlU3Q1FIUmhoV1hxMktXNnZXanZLLW9YS1JjRGp6ZkNMbTNGOVlETVRSUGREMnZ5dDVhUjYyWlB1RzBwenhtUDg3dDdIYVpoTXBlN2dFWTkyVnJn?oc=5",
+      "datetime": 1785942692,
+      "headlineKo": "이스라엘군, 마을에 대피 경고 후 레바논 남부 공습 - 로이터 통신"
     },
     {
       "headline": "Disney weighs free ad-supported streaming, says it has sold out Super Bowl ad spots",
@@ -203,11 +217,11 @@ const MARKET_DATA = {
       "headlineKo": "미국, IRGC 관련 기관 3곳에 대한 제재 해제, 재무부 웹사이트 표시 - Reuters"
     },
     {
-      "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
+      "headline": "Gulf oil exports steady in July, still 40% below pre-war mark - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUNJWWdZUW9teWxlNDE2eWVZWTFmd0JQdmwwYUNvSEpES1BhMjBJNF9LczlwUTZkaTZjMm5MNFhEUFN1RnpZclZHamljVnlGcW5GdkFMclYyUjQ4dEpHRWwtNjJLdjNoNWx5YlU3Q1FIUmhoV1hxMktXNnZXanZLLW9YS1JjRGp6ZkNMbTNGOVlETVRSUGREMnZ5dDVhUjYyWlB1RzBwenhtUDg3dDdIYVpoTXBlN2dFWTkyVnJn?oc=5",
-      "datetime": 1785937400,
-      "headlineKo": "이스라엘군, 마을에 대피 경고 후 레바논 남부 공습 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU1c5cDdsaENzVWRTM3JoaUFicGFuczBDdm5GY2tkLWJhN0pSVk81MTlYMm1CQlNmQ1c5ZHZJUUFnLUhFd29CZmRjaEhkR0k3aEZRQW1JR3BKbVZiLVQ5UFJrSFZCTEFIMHpSakZ3TW5IZDctci1sT1piR2VzcGhNU21fN3FDd3ZLaEJ3dFBXdjY2Wjd4aEtwblhlTHJETENxWG5lRDNlWEpCM2ZS?oc=5",
+      "datetime": 1785939489,
+      "headlineKo": "걸프만 석유 수출은 7월에도 꾸준했으며 여전히 전쟁 전 수준보다 40% 낮습니다."
     },
     {
       "headline": "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
@@ -238,34 +252,20 @@ const MARKET_DATA = {
       "headlineKo": "제안된 호르무즈 협정으로 이란은 입국 트래픽을 통제할 수 있을 것이라고 소식통은 전했습니다. - 로이터 통신"
     },
     {
+      "headline": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFdjb1Q5RzUtcnRaUmV5U2FuN0dBcUZwT3RMa2pqVVVocG8zZmRPV2E1NjhlRTR6TXBsN1NHQ21EUTJvQ0JvV2NtbXhWbHVjMUN3NHFvTzlVR0IxUmxHaTFUbEpNX0xJSFFncjE4UllwaTJ2bm9UVTdHd00xOVBuTmZJVXRCekZPclluTDhFQUF2S3MwcG5rR3VrOE5TdFBHd3piYTRjTW9yVldvZGFVV3lfa1pLNlIzTXloYQ?oc=5",
+      "datetime": 1785933344,
+      "headlineKo": "필립스 66, 이란 전쟁으로 미국 정제 마진 증가로 분기별 추정치 상회 - Reuters"
+    },
+    {
       "headline": "Stock bears obliterated as Nasdaq 100 logs top 10 bullish stat of past decade",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/stock-bears-obliterated-as-nasdaq-logs-top-10-bullish-stat-of-past-decade.html",
       "datetime": 1785932566,
       "headlineKo": "나스닥 100이 지난 10년 동안 상위 10개 강세 통계를 기록하면서 주식 약세는 사라졌습니다."
-    },
-    {
-      "headline": "The box office is on pace for its best year since the pandemic. But fewer people are going to the movies. - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0dNLTBvc0hvdmxqZ1pJdDIydHRvYUVHYWUzV21ETFhFVXU1U1ZZRTFXTVRka2J1WGRIN3hRN2RPTXFacXpoYWMwSHBLV3kzOGtFVGhNU1pITmpldFlaalEyQ2dOMVVubWp4Z09VUmRLOVZsSGlnMlRQdDFJVFg2RHdnd1Rmc0d0bEVxMWJMaFItY0F6QXpidHZqc0xydzRHZm1OSDVuOG83cTNud0l5azJUTQ?oc=5",
-      "datetime": 1785930902,
-      "headlineKo": "박스오피스는 팬데믹 이후 최고의 한 해를 맞이하고 있습니다. 하지만 영화를 보러 가는 사람은 점점 줄어들고 있습니다. - 로이터"
-    },
-    {
-      "headline": "UN rights chief says Iran executed at least 56 people since March - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeW9QZjd0R3djcFhWMjBZSmhadjhVekQyU0JzYW03NWdpN3VWMVZjelZuX0Rqa0RlbkZBRXF2YkFGcFBBZk93X3U4Y01neXEybmh3QlRrcnp2WEQ2LV9Ldk9DbTlLNThQTUlEOXNrYlZCdkVzeGpGcEdvYmFhYjBEM2YxaFVPY0FWSS1TblRuMFM1TDF3MmlJRFBtWm9oLUhzY0dtQlZmblpRTEpscTdxenEzclJSbG8?oc=5",
-      "datetime": 1785925918,
-      "headlineKo": "유엔 인권대표, 이란이 3월 이후 최소 56명을 처형했다고 밝혔습니다 - 로이터"
-    },
-    {
-      "headline": "Euro zone services revival drives activity in July but outlook clouded by Iran war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUpBLVkzZ1FST0VMdzh1MmRUdFBYRXFpbmw0Y2swOUU2OGVBWnNYZzBZbGhIV19iYWp2ODVfQm1FTXBqaFRXU1MtRWI0R2VwVzZnNW1iV0hmbk8taEVaT3JNdU10ZmVTbGYzLXB2YW5QYUN2SEFWanNhZXN6YTViN0k1blh0SG9EeTdpaTZYNXlkSVZ3ZExTR2NyMnlfNnJheGFJZVRYOV9VdzRuYW1LbWZOdGhpdnBtYkIyellKTFlCQWpjc0JF?oc=5",
-      "datetime": 1785920538,
-      "headlineKo": "유로존 서비스 회복으로 7월 활동이 활발해졌지만 이란 전쟁으로 인해 전망이 흐려짐 - Reuters"
     }
   ],
-  "_fetched_at": 1785945602.24785,
-  "_updated_label": "2026-08-06 01:00"
+  "_fetched_at": 1785949220.2220914,
+  "_updated_label": "2026-08-06 02:00"
 };
