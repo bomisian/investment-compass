@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.06999969482422,
+      "current": 75.08000183105469,
       "prevClose": 75.7699966430664,
-      "changeAbs": -0.6999969482421875,
-      "changePct": -0.9238445021182974,
+      "changeAbs": -0.6899948120117188,
+      "changePct": -0.9106438466166399,
       "pctRank": 45.346062052505964,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.21249961853027,
-      "ma60": 84.4326665242513,
-      "chg1m": 4.629997253417969,
-      "chg3m": -27.199996948242188,
-      "chg1mPct": 6.572965776469579,
-      "chg3mPct": -26.59626267826446,
+      "ma20": 81.2129997253418,
+      "ma60": 84.43283322652181,
+      "chg1m": 4.6399993896484375,
+      "chg3m": -27.18999481201172,
+      "chg1mPct": 6.58716528794573,
+      "chg3mPct": -26.58648255060358,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.70099639892578,
+      "current": 99.68900299072266,
       "prevClose": 99.88999938964844,
-      "changeAbs": -0.18900299072265625,
-      "changePct": -0.18921112411403473,
+      "changeAbs": -0.20099639892578125,
+      "changePct": -0.2012177396675512,
       "pctRank": 33.65155131264916,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.768550491333,
-      "ma60": 100.19851697285971,
-      "chg1m": -1.4390029907226562,
-      "chg3m": 1.2209930419921875,
-      "chg1mPct": -1.4227832701271863,
-      "chg3mPct": 1.239838546275011,
+      "ma20": 100.76795082092285,
+      "ma60": 100.19831708272298,
+      "chg1m": -1.4509963989257812,
+      "chg3m": 1.2089996337890625,
+      "chg1mPct": -1.4346414946432053,
+      "chg3mPct": 1.2276600249566723,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4304.7998046875,
+      "current": 4308.0,
       "prevClose": 4095.39990234375,
-      "changeAbs": 209.39990234375,
-      "changePct": 5.113051407358604,
-      "pctRank": 90.13524264120922,
+      "changeAbs": 212.60009765625,
+      "changePct": 5.191192624060508,
+      "pctRank": 90.21479713603819,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4070.310021972656,
-      "ma60": 4247.778336588542,
-      "chg1m": 159.5,
-      "chg3m": -251.0,
-      "chg1mPct": 3.8477313467083274,
-      "chg3mPct": -5.509460704171945,
+      "ma20": 4070.4700317382812,
+      "ma60": 4247.831673177084,
+      "chg1m": 162.7001953125,
+      "chg3m": -247.7998046875,
+      "chg1mPct": 3.924931922379144,
+      "chg3mPct": -5.439216280586709,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,11 +182,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
-      "datetime": 1785960289,
-      "headlineKo": "제안된 호르무즈 협정으로 이란은 입국 트래픽을 통제할 수 있을 것이라고 소식통은 전했습니다. - 로이터 통신"
+      "headline": "Hollywood is cranking out billion-dollar movies again. Spider-Man just joined the ranks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
+      "datetime": 1785964501,
+      "headlineKo": "할리우드가 다시 10억 달러 규모의 영화를 제작하고 있습니다. 스파이더맨이 방금 대열에 합류했습니다."
     },
     {
       "headline": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
@@ -196,18 +196,18 @@ const MARKET_DATA = {
       "headlineKo": "다우지수는 중동 낙관론으로 사상 최고치를 기록했다. SpaceX, AMD, Nasdaq 끌기 - Reuters"
     },
     {
+      "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+      "datetime": 1785959064,
+      "headlineKo": "독점: 이란은 미국이 새로운 공격을 시작하면 걸프 지역을 공격하겠다고 위협-로이터"
+    },
+    {
       "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUNJWWdZUW9teWxlNDE2eWVZWTFmd0JQdmwwYUNvSEpES1BhMjBJNF9LczlwUTZkaTZjMm5MNFhEUFN1RnpZclZHamljVnlGcW5GdkFMclYyUjQ4dEpHRWwtNjJLdjNoNWx5YlU3Q1FIUmhoV1hxMktXNnZXanZLLW9YS1JjRGp6ZkNMbTNGOVlETVRSUGREMnZ5dDVhUjYyWlB1RzBwenhtUDg3dDdIYVpoTXBlN2dFWTkyVnJn?oc=5",
       "datetime": 1785957421,
       "headlineKo": "이스라엘군, 마을에 대피 경고 후 레바논 남부 공습 - 로이터 통신"
-    },
-    {
-      "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
-      "datetime": 1785957109,
-      "headlineKo": "독점: 이란은 미국이 새로운 공격을 시작하면 걸프 지역을 공격하겠다고 위협-로이터"
     },
     {
       "headline": "Alphabet slumps on more AI brain drain. We're not too worried",
@@ -245,13 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "Flutter 주가는 수익 손실 및 또 다른 주요 리더십 변경으로 급락했습니다."
     },
     {
-      "headline": "Stocks mixed with Nasdaq down; gold prices jump - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
-      "datetime": 1785951241,
-      "headlineKo": "나스닥과 혼재된 주식; 금값 급등 - 로이터"
-    },
-    {
       "headline": "Ukraine's Zelenskiy says he spoke to NATO head Rutte about securing interceptors - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUUFjUmxBRnF1MFlqVDcwRjdUa0hhMERkX0ZKSmRGUnlFLU5UeVd4cE1JRG9TQnFPdTFvbzE1bzdmS0hKdHJaajh2THRSemluNXRqcEJnLVVHN3hFZ0N2MHhmUkhPck5COVlEbkM5WHhJTEhQdWswMkVRZmNqZlNZeEI4QV9XVFhINEwwYnN0ZEtOZWxxbHVCbVlTempHVlk4M2NnRkozcE9QNzV5T0NKS1JNMUt2d3Ftd2ZDS24yUGpiMHdfMXFXeHJ2Y3ZFTnZ1Ui1zdGFn?oc=5",
@@ -264,8 +257,15 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdGd5eGNIbFJTUDl0MlJHQ01RR3F5NVhNaVJuTVpvZ0FJMHlrNnFhQ1hsOUFyNWI0c1cyX0RwbTRwTHNrTE1yQ0NzUmlmMXBPYkM1Q1Vya3hOOFRQXzVHOEhHemQtd1dQcXlrcFVZRUh3T0RoWkRiam9jUWxhNld2MjRPMjNwd3hhaWVlZ2IwN2UzaS05NG04dHVCM0FidUxtQjBNcy1GWThaRE9RT1VmOGFzT2g1MEhiUVludGVGaWhCUQ?oc=5",
       "datetime": 1785948299,
       "headlineKo": "미국, 이전에 이란 IRGC와 연결되었던 플라이 바그다드에 대한 제재 해제 - Reuters"
+    },
+    {
+      "headline": "FTSE 100 rises, led by Glencore, Next earnings; banks slide - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ3RCb2poSVI4ZDNOcG90cFVTQzlnUmRoVmkzM3F0dktUbzhyUGpPMnd5Z3doVWlwVXAwb09nWWJSYjF2T1Y2SXFic3E4b0lIZ3BIek80bU5Rd1RNbnpHRTVVaUpWNXhSRy0zdnNLV1d3dDhGRVFldTBudEwtWExJc25lWTQtcXRkM052dmRsaE5yTFFwM09ud2tVaHlPcXh6?oc=5",
+      "datetime": 1785947934,
+      "headlineKo": "Glencore가 이끄는 FTSE 100 상승, 다음 수익; 은행 슬라이드 - 로이터"
     }
   ],
-  "_fetched_at": 1785963602.243889,
-  "_updated_label": "2026-08-06 06:00"
+  "_fetched_at": 1785967202.2597394,
+  "_updated_label": "2026-08-06 07:00"
 };
