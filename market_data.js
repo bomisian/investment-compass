@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 17.399999618530273,
+      "current": 16.31999969482422,
       "prevClose": 16.5,
-      "changeAbs": 0.8999996185302734,
-      "changePct": 5.454543142607718,
-      "pctRank": 45.85987261146497,
+      "changeAbs": -0.18000030517578125,
+      "changePct": -1.0909109404592803,
+      "pctRank": 32.882165605095544,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.28499984741211,
-      "ma60": 17.391499964396157,
-      "chg1m": 1.2700004577636719,
-      "chg3m": 0.010000228881835938,
-      "chg1mPct": 7.873530835963869,
-      "chg3mPct": 0.05750563101105494,
+      "ma20": 17.230999851226805,
+      "ma60": 17.373499965667726,
+      "chg1m": 0.1900005340576172,
+      "chg3m": -1.0699996948242188,
+      "chg1mPct": 1.1779326964861858,
+      "chg3mPct": -6.152959933173697,
       "lastDate": "2026-08-05",
       "bars": 1256,
       "symbol": "^VIX",
@@ -24,19 +24,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.63100004196167,
+      "current": 4.623000144958496,
       "prevClose": 4.626999855041504,
-      "changeAbs": 0.004000186920166016,
-      "changePct": 0.08645314556920673,
-      "pctRank": 96.25498007968127,
+      "changeAbs": -0.0039997100830078125,
+      "changePct": -0.08644284003272215,
+      "pctRank": 95.37848605577689,
       "min5y": 1.2170000076293945,
       "max5y": 4.98799991607666,
-      "ma20": 4.6220499753952025,
-      "ma60": 4.534216642379761,
-      "chg1m": 0.10200023651123047,
-      "chg3m": 0.21500015258789062,
-      "chg1mPct": 2.252158112006937,
-      "chg3mPct": 4.868662997597566,
+      "ma20": 4.621649980545044,
+      "ma60": 4.534083310763041,
+      "chg1m": 0.09400033950805664,
+      "chg3m": 0.2070002555847168,
+      "chg1mPct": 2.075520943828075,
+      "chg3mPct": 4.687505905125168,
       "lastDate": "2026-08-05",
       "bars": 1255,
       "symbol": "^TNX",
@@ -45,19 +45,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7300000190734863,
+      "current": 3.7319998741149902,
       "prevClose": 3.7300000190734863,
-      "changeAbs": 0.0,
-      "changePct": 0.0,
-      "pctRank": 37.29083665338646,
+      "changeAbs": 0.0019998550415039062,
+      "changePct": 0.0536154163881388,
+      "pctRank": 37.60956175298805,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "ma20": 3.720699977874756,
-      "ma60": 3.662066666285197,
-      "chg1m": 0.005000114440917969,
-      "chg3m": 0.13000011444091797,
-      "chg1mPct": 0.1342312635954598,
-      "chg3mPct": 3.6111143856873613,
+      "ma20": 3.720799970626831,
+      "ma60": 3.662099997202555,
+      "chg1m": 0.006999969482421875,
+      "chg3m": 0.13199996948242188,
+      "chg1mPct": 0.18791864863449836,
+      "chg3mPct": 3.6666659160896384,
       "lastDate": "2026-08-05",
       "bars": 1255,
       "symbol": "^IRX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.38999938964844,
+      "current": 75.12999725341797,
       "prevClose": 75.7699966430664,
-      "changeAbs": -0.37999725341796875,
-      "changePct": -0.5015141484142348,
-      "pctRank": 46.141607000795545,
+      "changeAbs": -0.6399993896484375,
+      "changePct": -0.8446607074081254,
+      "pctRank": 45.50517104216388,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.22849960327149,
-      "ma60": 84.43799985249838,
-      "chg1m": 4.9499969482421875,
-      "chg3m": -26.87999725341797,
-      "chg1mPct": 7.027252664222604,
-      "chg3mPct": -26.283365733580816,
+      "ma20": 81.21549949645996,
+      "ma60": 84.4336664835612,
+      "chg1m": 4.689994812011719,
+      "chg3m": -27.139999389648438,
+      "chg1mPct": 6.658141183218971,
+      "chg3mPct": -26.537596832402404,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.75800323486328,
+      "current": 99.68499755859375,
       "prevClose": 99.88999938964844,
-      "changeAbs": -0.13199615478515625,
-      "changePct": -0.1321415112540635,
-      "pctRank": 34.049323786793956,
+      "changeAbs": -0.2050018310546875,
+      "changePct": -0.20522758264821028,
+      "pctRank": 33.65155131264916,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.77140083312989,
-      "ma60": 100.199467086792,
-      "chg1m": -1.3819961547851562,
-      "chg3m": 1.2779998779296875,
-      "chg1mPct": -1.366418986676998,
-      "chg3mPct": 1.29772525829195,
+      "ma20": 100.7677505493164,
+      "ma60": 100.19825032552083,
+      "chg1m": -1.4550018310546875,
+      "chg3m": 1.2049942016601562,
+      "chg1mPct": -1.4386017795483645,
+      "chg3mPct": 1.2235927706995933,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4253.89990234375,
+      "current": 4306.0,
       "prevClose": 4095.39990234375,
-      "changeAbs": 158.5,
-      "changePct": 3.870195921753387,
-      "pctRank": 89.73747016706443,
+      "changeAbs": 210.60009765625,
+      "changePct": 5.142357344290749,
+      "pctRank": 90.13524264120922,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4067.765026855469,
-      "ma60": 4246.930004882813,
-      "chg1m": 108.60009765625,
-      "chg3m": -301.89990234375,
-      "chg1mPct": 2.6198369906428756,
-      "chg3mPct": -6.626715731299754,
+      "ma20": 4070.3700317382813,
+      "ma60": 4247.79833984375,
+      "chg1m": 160.7001953125,
+      "chg3m": -249.7998046875,
+      "chg1mPct": 3.876684507373397,
+      "chg3mPct": -5.4831163658789155,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "GC=F",
@@ -129,19 +129,19 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.177999973297119,
+      "current": 5.168999671936035,
       "prevClose": 5.190000057220459,
-      "changeAbs": -0.012000083923339844,
-      "changePct": -0.23121548730322314,
-      "pctRank": 99.5219123505976,
+      "changeAbs": -0.021000385284423828,
+      "changePct": -0.40463169658750897,
+      "pctRank": 99.44223107569721,
       "min5y": 1.6779999732971191,
       "max5y": 5.275000095367432,
-      "ma20": 5.136750054359436,
-      "ma60": 5.041500051816304,
-      "chg1m": 0.13499975204467773,
-      "chg3m": 0.1939997673034668,
-      "chg1mPct": 2.6769729550229964,
-      "chg3mPct": 3.8924510289980887,
+      "ma20": 5.136300039291382,
+      "ma60": 5.04135004679362,
+      "chg1m": 0.12599945068359375,
+      "chg3m": 0.1849994659423828,
+      "chg1mPct": 2.498501787737409,
+      "chg3mPct": 3.711867140773919,
       "lastDate": "2026-08-05",
       "bars": 1255,
       "symbol": "^TYX",
@@ -150,22 +150,22 @@ const MARKET_DATA = {
       "digits": 2
     }
   },
-  "yieldSpread": 0.9010000228881836,
+  "yieldSpread": 0.8910002708435059,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.391345918578972,
-        "ret3m": 2.289817628756796,
-        "ret6m": 4.703128496493503,
-        "ret1y": 9.196765992793644,
+        "ret1m": 6.516421562763797,
+        "ret3m": 2.410071440032535,
+        "ret6m": 4.826219440891233,
+        "ret1y": 9.32513974097331,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -1.684342366968239,
-        "ret3m": 19.656037882182243,
-        "ret6m": 79.97359991841122,
-        "ret1y": 251.0557193566306,
+        "ret1m": -3.5900462809373535,
+        "ret3m": 17.336682194472353,
+        "ret6m": 76.48507731648951,
+        "ret1y": 244.25102237849225,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,7 +174,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20046998014201847,
+    "corr60": 0.2006673952695228,
     "corrPctRank": 1.9246861924686192,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115782038222396,
@@ -182,11 +182,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil prices rebound after Houthis say they attacked Saudi tanker - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDd2cFJ5Z2dsbTliajVMY1o5eVQ3Q3djdGVaYXA2aVhJQUROSVk5NmVjSkUydkw0YUItOGI1VFl1Wl9uZVY2SWhZLVZZY2hFTTFyaEoxM0otRWQ0Vzk4bjdEV18yYkhQS05GUzQ5dHdsY0wwemg4cG53dnZkVmx0M1pMdzl2cDk2MDBlZlN3ZVY0RVMxU2JNcE5Ta2Nrd3l4OVpvTnlIY0hscHRpOUozRVpDUQ?oc=5",
-      "datetime": 1785936184,
-      "headlineKo": "후티 반군이 사우디 유조선을 공격했다고 말한 후 유가 반등 - 로이터 통신"
+      "headline": "Disney weighs free ad-supported streaming, says it has sold out Super Bowl ad spots",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/05/disney-free-ad-supported-streaming-super-bowl-ads.html",
+      "datetime": 1785941068,
+      "headlineKo": "디즈니는 무료 광고 지원 스트리밍에 무게를 두고 슈퍼볼 광고 스팟을 매진했다고 밝혔습니다."
     },
     {
       "headline": "Situational Awareness hedge fund meltdown was a warning shot for leveraged markets, BofA CEO says",
@@ -203,6 +203,13 @@ const MARKET_DATA = {
       "headlineKo": "짐 크레이머가 수요일 주식시장에서 주목해야 할 10가지"
     },
     {
+      "headline": "Israeli military issues evacuation warning to village in southern Lebanon - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSUNJWWdZUW9teWxlNDE2eWVZWTFmd0JQdmwwYUNvSEpES1BhMjBJNF9LczlwUTZkaTZjMm5MNFhEUFN1RnpZclZHamljVnlGcW5GdkFMclYyUjQ4dEpHRWwtNjJLdjNoNWx5YlU3Q1FIUmhoV1hxMktXNnZXanZLLW9YS1JjRGp6ZkNMbTNGOVlETVRSUGREMnZ5dDVhUjYyWlB1RzBwenhtUDg3dDdIYVpoTXBlN2dFWTkyVnJn?oc=5",
+      "datetime": 1785934768,
+      "headlineKo": "이스라엘군, 레바논 남부 마을에 대피 경고 발령 - reuters.com"
+    },
+    {
       "headline": "Stock bears obliterated as Nasdaq 100 logs top 10 bullish stat of past decade",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/stock-bears-obliterated-as-nasdaq-logs-top-10-bullish-stat-of-past-decade.html",
@@ -210,62 +217,55 @@ const MARKET_DATA = {
       "headlineKo": "나스닥 100이 지난 10년 동안 상위 10개 강세 통계를 기록하면서 주식 약세는 사라졌습니다."
     },
     {
-      "headline": "UN rights chief says Iran executed at least 56 people since March - Reuters",
+      "headline": "The box office is on pace for its best year since the pandemic. But fewer people are going to the movies. - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd0dNLTBvc0hvdmxqZ1pJdDIydHRvYUVHYWUzV21ETFhFVXU1U1ZZRTFXTVRka2J1WGRIN3hRN2RPTXFacXpoYWMwSHBLV3kzOGtFVGhNU1pITmpldFlaalEyQ2dOMVVubWp4Z09VUmRLOVZsSGlnMlRQdDFJVFg2RHdnd1Rmc0d0bEVxMWJMaFItY0F6QXpidHZqc0xydzRHZm1OSDVuOG83cTNud0l5azJUTQ?oc=5",
+      "datetime": 1785930902,
+      "headlineKo": "박스오피스는 팬데믹 이후 최고의 한 해를 맞이하고 있습니다. 하지만 영화를 보러 가는 사람은 점점 줄어들고 있습니다. - 로이터"
+    },
+    {
+      "headline": "UN rights chief says Iran executed at least 56 people since March - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeW9QZjd0R3djcFhWMjBZSmhadjhVekQyU0JzYW03NWdpN3VWMVZjelZuX0Rqa0RlbkZBRXF2YkFGcFBBZk93X3U4Y01neXEybmh3QlRrcnp2WEQ2LV9Ldk9DbTlLNThQTUlEOXNrYlZCdkVzeGpGcEdvYmFhYjBEM2YxaFVPY0FWSS1TblRuMFM1TDF3MmlJRFBtWm9oLUhzY0dtQlZmblpRTEpscTdxenEzclJSbG8?oc=5",
       "datetime": 1785925918,
-      "headlineKo": "유엔 인권대표, 이란이 3월 이후 최소 56명을 처형했다고 밝혔습니다 - 로이터"
+      "headlineKo": "유엔 인권대표, 이란이 3월 이후 최소 56명을 처형했다고 밝혔습니다."
     },
     {
-      "headline": "Yemen's Houthis say they attacked Saudi oil tanker in Red Sea - Reuters",
+      "headline": "Euro zone services revival drives activity in July but outlook clouded by Iran war - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbUpBLVkzZ1FST0VMdzh1MmRUdFBYRXFpbmw0Y2swOUU2OGVBWnNYZzBZbGhIV19iYWp2ODVfQm1FTXBqaFRXU1MtRWI0R2VwVzZnNW1iV0hmbk8taEVaT3JNdU10ZmVTbGYzLXB2YW5QYUN2SEFWanNhZXN6YTViN0k1blh0SG9EeTdpaTZYNXlkSVZ3ZExTR2NyMnlfNnJheGFJZVRYOV9VdzRuYW1LbWZOdGhpdnBtYkIyellKTFlCQWpjc0JF?oc=5",
+      "datetime": 1785920538,
+      "headlineKo": "유로존 서비스 회복으로 7월 활동 주도했지만 이란 전쟁으로 전망 불투명 - reuters.com"
+    },
+    {
+      "headline": "Yemen's Houthis say they attacked Saudi oil tanker in Red Sea - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEQwU2pxeTRYSXhNQWtrT3hmNFhmOUx6eVUzUUt4aVBtOEpub01Fa3U5S0ZOYXRmU2oyb0t4WEpRRXZ3VmwxWksyYkNRcF9GbFJvbEpkMGxWWVY5alo2NS1LdDFzMWVPdmYtV082T3JOaVpoYW5NTFNncUxHZndSdnUzMXdWWHNXQWQ3NXZXMy02MDloQ3dWTHJhWHBfS2pNVnZoUXBEcVZKQm1HZXl5Ug?oc=5",
       "datetime": 1785914877,
-      "headlineKo": "예멘 후티 반군, 홍해에서 사우디 유조선 공격했다고 주장 - 로이터 통신"
+      "headlineKo": "예멘 후티 반군, 홍해에서 사우디 유조선 공격했다고 주장 - reuters.com"
     },
     {
-      "headline": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say - Reuters",
+      "headline": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
       "datetime": 1785906660,
-      "headlineKo": "제안된 호르무즈 협정으로 이란은 입국 트래픽을 통제할 수 있을 것이라고 소식통은 전했습니다. - 로이터 통신"
+      "headlineKo": "제안된 호르무즈 협정은 이란이 들어오는 트래픽을 통제할 수 있게 할 것이라고 소식통은 말합니다 - reuters.com"
     },
     {
-      "headline": "Trump says US held 'all-day negotiation' with Iran on Tuesday - Reuters",
+      "headline": "Trump says US held 'all-day negotiation' with Iran on Tuesday - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdjBkc2xFczRwS1pfZ0VISDd3R0NGc0phaktLZVFaM21pZW1ncF91VF9YSHdHc3hob2Mxc25zRmJxYlYwZFI3QXkwVTBTS0dtT3dDY3V2Nnk1SWQ3ZnF1MmZyLWoteVNENlFKdkc1QkpmTklvc0RaX3EtTndVOFBsZG0tYmJxallWYXFnRmFLQmJfaWJkRWk3TEN1QVBCOVU?oc=5",
       "datetime": 1785905280,
-      "headlineKo": "트럼프, 미국이 화요일 이란과 '종일 협상'했다고 밝혔습니다 - 로이터"
+      "headlineKo": "트럼프, 미국이 화요일 이란과 '하루 종일 협상'을 가졌다고 밝혔습니다 - reuters.com"
     },
     {
-      "headline": "China eases controls on fuel exports for a second month, sources say - Reuters",
+      "headline": "China eases controls on fuel exports for a second month, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbHRMR3J2NzJaT2hKV1ZTem4wMWhSQVF4NnNNQ19WNXFLaUNVamQ5Slg4NjB6Y0ZpWkN0SWYxeFZrVnF5QXhGSXl6UnNyMXRFVXRQVUtsaURERFRDM25FaW9DQW9QRDZPdmpuMTNGdHVpSFNPcG1Da0VtMXNpVk1OVXVMVlVFS3RHekhiT19FelYwMFFGMVI5QnNzNkJUY0tQMWxMUk5RR0hIWDVyN293?oc=5",
       "datetime": 1785904620,
-      "headlineKo": "중국, 두 달째 연료 수출 통제 완화 - 소식통에 따르면 로이터 통신"
-    },
-    {
-      "headline": "Gulf shipping traffic steady amid uncertainty of peace talks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaWpxYUZIYkdaMkhoNVRrM2ZkZ3NYdWh4aUJEb2pOa29zOFBROGFHdmxwNDZZOHhicHpOOGVlS0FGTC1QdHR4UmRVbmtacWZrc3J4empuUEt5dDNSZTJRb25obllvdEFaQTVQV1B1Q05wRlpwdVpVaEJHZW80MTBxWmViU2d3V0psZHMxMENsV0x3RzBJWXpZV0hlc3MyeWxSQ3dmZllIZzRkaGNvb2ppaQ?oc=5",
-      "datetime": 1785899040,
-      "headlineKo": "평화 회담의 불확실성 속에서 걸프 해운 운송은 안정적이다 - 로이터"
-    },
-    {
-      "headline": "Stocks get AI-boost; investors on tenterhooks over Mideast peace talks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
-      "datetime": 1785893820,
-      "headlineKo": "주식은 AI 강화를 받습니다. 중동 평화 회담에 대한 투자자들 - Reuters"
-    },
-    {
-      "headline": "Yen drifts after intervention whirlwind; Iran optimism dents dollar - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFFDTkhtVFJsMkg2YzlLQzd2c0c0aXhwZHl2M3lFZE1vdnNka1ZnbFNwalhDZ0x5Y3ZZQWZ5ZUw4bGwwdzVzU1QxUXNpT3FEMzJhTVVJTEhqTG5KTDZqS2l5Qmc0dUZ1THk5YTFpckwxaE1weFNYUFRtd0xFd2JVc2RvQ1FTQ3FjUkk5REEtTk50cWdwdzVPb3p6Q1lkOVNYTEdaWmE1UkhicVlrY004TkpvOGJSWGxVMmR5bmZEcGpPX09ETWFV?oc=5",
-      "datetime": 1785893760,
-      "headlineKo": "엔화는 개입 후 회오리바람처럼 표류합니다. 이란 낙관주의가 달러 하락 - Reuters"
+      "headlineKo": "중국, 두 달째 연료 수출 규제 완화 - 소식통에 따르면 - reuters.com"
     }
   ],
-  "_fetched_at": 1785938402.2501743,
-  "_updated_label": "2026-08-05 23:00"
+  "_fetched_at": 1785942002.231091,
+  "_updated_label": "2026-08-06 00:00"
 };
