@@ -3,20 +3,20 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.5,
-      "prevClose": 15.859999656677246,
-      "changeAbs": 0.6400003433227539,
-      "changePct": 4.035311205402872,
-      "pctRank": 35.6687898089172,
+      "current": 16.670000076293945,
+      "prevClose": 16.5,
+      "changeAbs": 0.1700000762939453,
+      "changePct": 1.0303034926905776,
+      "pctRank": 37.738853503184714,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.25999984741211,
-      "ma60": 17.407833290100097,
-      "chg1m": 0.9300003051757812,
-      "chg3m": -0.8799991607666016,
-      "chg1mPct": 5.973027125266625,
-      "chg3mPct": -5.063286555002263,
-      "lastDate": "2026-08-04",
+      "ma20": 17.248499870300293,
+      "ma60": 17.379333305358887,
+      "chg1m": 0.5400009155273438,
+      "chg3m": -0.7199993133544922,
+      "chg1mPct": 3.347804982165166,
+      "chg3mPct": -4.140306720097291,
+      "lastDate": "2026-08-05",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -66,20 +66,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.2300033569336,
-      "prevClose": 80.33999633789062,
-      "changeAbs": -5.109992980957031,
-      "changePct": -6.360459564207141,
-      "pctRank": 45.90294351630867,
+      "current": 76.01000213623047,
+      "prevClose": 75.7699966430664,
+      "changeAbs": 0.2400054931640625,
+      "changePct": 0.3167553171404621,
+      "pctRank": 48.60779634049324,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.10799980163574,
-      "ma60": 84.76283327738444,
-      "chg1m": 6.680000305175781,
-      "chg3m": -31.18999481201172,
-      "chg1mPct": 9.74471190049712,
-      "chg3mPct": -29.308396305830186,
-      "lastDate": "2026-08-04",
+      "ma20": 81.25949974060059,
+      "ma60": 84.44833323160807,
+      "chg1m": 5.569999694824219,
+      "chg3m": -26.259994506835938,
+      "chg1mPct": 7.907438247830107,
+      "chg3mPct": -25.67712463948368,
+      "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -87,20 +87,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.875,
-      "prevClose": 99.95999908447266,
-      "changeAbs": -0.08499908447265625,
-      "changePct": -0.08503309849055374,
-      "pctRank": 34.924423229912485,
+      "current": 99.72599792480469,
+      "prevClose": 99.88999938964844,
+      "changeAbs": -0.16400146484375,
+      "changePct": -0.16418206611856823,
+      "pctRank": 33.73110580747812,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.83525085449219,
-      "ma60": 100.16725031534831,
-      "chg1m": -0.9749984741210938,
-      "chg3m": 1.404998779296875,
-      "chg1mPct": -0.966780851634109,
-      "chg3mPct": 1.4268292493952734,
-      "lastDate": "2026-08-04",
+      "ma20": 100.76980056762696,
+      "ma60": 100.19893366495768,
+      "chg1m": -1.41400146484375,
+      "chg3m": 1.2459945678710938,
+      "chg1mPct": -1.3980635489191742,
+      "chg3mPct": 1.2652259599901488,
+      "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -108,20 +108,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4127.39990234375,
-      "prevClose": 4033.699951171875,
-      "changeAbs": 93.699951171875,
-      "changePct": 2.322928138089527,
-      "pctRank": 87.82816229116945,
+      "current": 4248.10009765625,
+      "prevClose": 4095.39990234375,
+      "changeAbs": 152.7001953125,
+      "changePct": 3.7285783794913763,
+      "pctRank": 89.73747016706443,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4060.2150268554688,
-      "ma60": 4255.238338216146,
-      "chg1m": -27.7001953125,
-      "chg3m": -392.10009765625,
-      "chg1mPct": -0.6666553070075191,
-      "chg3mPct": -8.675740627420069,
-      "lastDate": "2026-08-04",
+      "ma20": 4067.4750366210938,
+      "ma60": 4246.833341471354,
+      "chg1m": 102.80029296875,
+      "chg3m": -307.69970703125,
+      "chg1mPct": 2.4799241987878307,
+      "chg3mPct": -6.754021691529448,
+      "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -182,6 +182,76 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Yemen's Houthis say they attacked Saudi oil tanker in Red Sea - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEQwU2pxeTRYSXhNQWtrT3hmNFhmOUx6eVUzUUt4aVBtOEpub01Fa3U5S0ZOYXRmU2oyb0t4WEpRRXZ3VmwxWksyYkNRcF9GbFJvbEpkMGxWWVY5alo2NS1LdDFzMWVPdmYtV082T3JOaVpoYW5NTFNncUxHZndSdnUzMXdWWHNXQWQ3NXZXMy02MDloQ3dWTHJhWHBfS2pNVnZoUXBEcVZKQm1HZXl5Ug?oc=5",
+      "datetime": 1785914877,
+      "headlineKo": "예멘 후티 반군, 홍해에서 사우디 유조선 공격했다고 주장 - 로이터 통신"
+    },
+    {
+      "headline": "US and Iran having 'very good discussions', Trump says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
+      "datetime": 1785906660,
+      "headlineKo": "트럼프 “미국과 이란, 매우 좋은 논의 중” - 로이터"
+    },
+    {
+      "headline": "Trump says US held 'all-day negotiation' with Iran on Tuesday - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdjBkc2xFczRwS1pfZ0VISDd3R0NGc0phaktLZVFaM21pZW1ncF91VF9YSHdHc3hob2Mxc25zRmJxYlYwZFI3QXkwVTBTS0dtT3dDY3V2Nnk1SWQ3ZnF1MmZyLWoteVNENlFKdkc1QkpmTklvc0RaX3EtTndVOFBsZG0tYmJxallWYXFnRmFLQmJfaWJkRWk3TEN1QVBCOVU?oc=5",
+      "datetime": 1785905280,
+      "headlineKo": "트럼프, 미국이 화요일 이란과 '종일 협상'했다고 밝혔습니다 - 로이터"
+    },
+    {
+      "headline": "China eases controls on fuel exports for a second month, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbHRMR3J2NzJaT2hKV1ZTem4wMWhSQVF4NnNNQ19WNXFLaUNVamQ5Slg4NjB6Y0ZpWkN0SWYxeFZrVnF5QXhGSXl6UnNyMXRFVXRQVUtsaURERFRDM25FaW9DQW9QRDZPdmpuMTNGdHVpSFNPcG1Da0VtMXNpVk1OVXVMVlVFS3RHekhiT19FelYwMFFGMVI5QnNzNkJUY0tQMWxMUk5RR0hIWDVyN293?oc=5",
+      "datetime": 1785904620,
+      "headlineKo": "중국, 두 달째 연료 수출 통제 완화 - 소식통에 따르면 로이터 통신"
+    },
+    {
+      "headline": "Gulf shipping traffic steady amid uncertainty of peace talks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaWpxYUZIYkdaMkhoNVRrM2ZkZ3NYdWh4aUJEb2pOa29zOFBROGFHdmxwNDZZOHhicHpOOGVlS0FGTC1QdHR4UmRVbmtacWZrc3J4empuUEt5dDNSZTJRb25obllvdEFaQTVQV1B1Q05wRlpwdVpVaEJHZW80MTBxWmViU2d3V0psZHMxMENsV0x3RzBJWXpZV0hlc3MyeWxSQ3dmZllIZzRkaGNvb2ppaQ?oc=5",
+      "datetime": 1785899040,
+      "headlineKo": "평화 회담의 불확실성 속에서 걸프 해운 운송은 안정적이다 - 로이터"
+    },
+    {
+      "headline": "Stocks get AI-boost; investors on tenterhooks over Mideast peace talks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSjNOaFJhdXRJblJMNldJM09LeFJDOXNqY2Y0R3dhcGt3S1ZyNm1peFdvVlBfN2RrNmtCYVhQa3pzenI5VlBld2c2Y0JPLTAzNWRhTWxUYWxjNEpvWGxIYlR3M2NLdGg5RnpRSmtYVVVwamJfYTZ5S1JaQ3J5QjFEQ3B0WQ?oc=5",
+      "datetime": 1785893820,
+      "headlineKo": "주식은 AI 강화를 받습니다. 중동 평화 회담에 대한 투자자들 - Reuters"
+    },
+    {
+      "headline": "Yen drifts after intervention whirlwind; Iran optimism dents dollar - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRFFDTkhtVFJsMkg2YzlLQzd2c0c0aXhwZHl2M3lFZE1vdnNka1ZnbFNwalhDZ0x5Y3ZZQWZ5ZUw4bGwwdzVzU1QxUXNpT3FEMzJhTVVJTEhqTG5KTDZqS2l5Qmc0dUZ1THk5YTFpckwxaE1weFNYUFRtd0xFd2JVc2RvQ1FTQ3FjUkk5REEtTk50cWdwdzVPb3p6Q1lkOVNYTEdaWmE1UkhicVlrY004TkpvOGJSWGxVMmR5bmZEcGpPX09ETWFV?oc=5",
+      "datetime": 1785893760,
+      "headlineKo": "엔화는 개입 후 회오리바람처럼 표류합니다. 이란 낙관주의가 달러 하락 - Reuters"
+    },
+    {
+      "headline": "Oil prices rebound after Houthis say they attacked Saudi tanker - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZDd2cFJ5Z2dsbTliajVMY1o5eVQ3Q3djdGVaYXA2aVhJQUROSVk5NmVjSkUydkw0YUItOGI1VFl1Wl9uZVY2SWhZLVZZY2hFTTFyaEoxM0otRWQ0Vzk4bjdEV18yYkhQS05GUzQ5dHdsY0wwemg4cG53dnZkVmx0M1pMdzl2cDk2MDBlZlN3ZVY0RVMxU2JNcE5Ta2Nrd3l4OVpvTnlIY0hscHRpOUozRVpDUQ?oc=5",
+      "datetime": 1785893160,
+      "headlineKo": "후티 반군이 사우디 유조선을 공격했다고 말한 후 유가 반등 - 로이터 통신"
+    },
+    {
+      "headline": "Gold scales one-month peak as US-Iran peace hopes ease inflation worries - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSmlKVnBzQTlPclFHcWhMcVpJeXB0eVQ1ODYxMTk1bkRLbDVybnI4dXhqQ01HaDR1N1FULU03ZDhZWUlEMkFtV2Z3RmFTWHhpVDFlRi0wRG9ZSkFlWVFTUFhXUFVjN3A5Zm1FSnNUbHlwWHF4OEo0TkxvZVV2OEdJNS1ZdG9OQ3V4ME43NV9QeXpSSnVQUEdIb1Jn?oc=5",
+      "datetime": 1785891660,
+      "headlineKo": "미국과 이란의 평화로 인해 인플레이션 우려가 완화되기를 바라면서 금값은 한 달 최고치를 기록했습니다. - 로이터"
+    },
+    {
+      "headline": "Antisemitism in UK remains near record levels, charity says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVDNsX1psRm1PS3VDWnVOWGEtTG9wQ3AyS2xLS0xGN1VDUW0zLU5tZDRZc0RBVUpfSTcycm55c3RUU3JLSEpoaTVUNHR0Z0l1WmJVSkp4ZFVQZERHMWI5WHV0WlJlQTlWbC1KcHBGVGIwdU50TlJidnBTOEFXdE5FVFlKTnA1cF9idklRdUVtRElSUzQwTC02dkNtOHM1Z2plTnc?oc=5",
+      "datetime": 1785884867,
+      "headlineKo": "영국의 반유대주의는 여전히 기록적인 수준에 가깝다고 자선단체가 밝혔습니다 - 로이터 통신"
+    },
+    {
       "headline": "Dow, S&P 500 close at record on AI-linked earnings, Mideast deal hopes - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMHk5N1NJZXlfQ196NTA1SjFaUUtUaDd0UXNDY2FsLWM2aE1VTElKc1oxaXFMbmd1M2kwcXVmaFBKbEo3TmFmY2lfRVFraDFVcTZpTTNfbGU2VU9iZnQ0Q2xBR0ZCVHFmRUktbVk0VTR1RVVYNzVxNEVUa3dJbmFQXzQ0SldqNzVoSXAtRnF3SDJ0M0UwNEhRLVhsUTd3Yk9jdnhTQUJ0WGdOUEdRTHJfeUpKZUw?oc=5",
@@ -194,78 +264,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/04/cramer-one-hedge-fund-collapse-cleared-way-for-tech-rally.html",
       "datetime": 1785882142,
       "headlineKo": "짐 크레이머(Jim Cramer)는 한 헤지펀드의 붕괴가 기술주 랠리의 길을 열었다고 말했습니다."
-    },
-    {
-      "headline": "Projectile sinks Indian ship near Yemeni waters but all seafarers safe, Indian minister says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNmtBb0gtUVhaWUFKQ2tlakdWSDhOREJnbHM3dVN6ZGRkbEF1Mnp0VXVFYzY0TXRZRDduZDVibW0yaVpkaDg0TjNpY1VCWFlrQnRQam0xN2ZWWG1vZWpZSUlzTU5CWG9rSVM5dDlGQXRFZzVFXzZCcXVsd2ZUUmJaTi0tUDhiSVp3T1M0bGdRcGZuWmgtV01NLW5OTVFCZlQ2VWdEX2dzRUptUFhxSlVXMEI4T1A3UQ?oc=5",
-      "datetime": 1785870155,
-      "headlineKo": "발사체가 예멘 해역 근처에서 인도 선박을 침몰시켰지만 모든 선원들은 안전하다고 인도 장관은 말했습니다 - 로이터 통신"
-    },
-    {
-      "headline": "TikTok users are sharing the items they say are always worth the money—here's what financial planners say",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/04/worth-the-money-financial-planners.html",
-      "datetime": 1785870001,
-      "headlineKo": "TikTok 사용자는 항상 돈의 가치가 있다고 말하는 항목을 공유하고 있습니다. 재무 설계사가 말하는 내용은 다음과 같습니다."
-    },
-    {
-      "headline": "Chipotle stock falls on potential link to salmonella outbreak in Minnesota",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/04/chipotle-stock-falls-salmonella-outbreak-minnesota.html",
-      "datetime": 1785866040,
-      "headlineKo": "미네소타의 살모넬라 발병과의 잠재적 연관성으로 치폴레 주식 하락"
-    },
-    {
-      "headline": "Stocks jump to records after upbeat company forecasts; oil, yen weaken - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FbUhCcDNQSE1IQ3dnM055RTJNZ0N1WHYtTUswbUtjZmRTS3FwbEtKZkd5Ti1WT0JndWtUSEJJTktud19OQzRELW93em1SMFdjcnphTVBMQ1BPMzBJLTdEYmxMbnJ2bFB4NVN4ZVlKYjIyZUlFZGx3RUljSQ?oc=5",
-      "datetime": 1785864717,
-      "headlineKo": "낙관적인 회사 전망 이후 주가는 기록적으로 뛰어올랐습니다. 유가, 엔화 약세 - Reuters"
-    },
-    {
-      "headline": "US-facilitated Israel-Lebanon talks have begun, says State Department - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNLXdzQy15RzJIczBFWU1CVzZITkFHTU84M0NZWFlGajB6bFRITGJ2UEpacm96STR6cFk1WTRiNDBiMzRTakJ5STh0YVE2WXdkdWVzZG5TeldxY3ZDbktzbXJPZVhSX1R0RnAtSlRXVmE1SmZpdVFBVU1tQ1M1ZzFqeWk1TzJDOWtha0Y3czY0RmMxOTFLUHZXZENMZ195NFY3ZGM3TEFSeEt1WTdrOXlWdHhiSHZRTFRSWTZNTlNTVQ?oc=5",
-      "datetime": 1785863402,
-      "headlineKo": "미국이 주도하는 이스라엘-레바논 회담이 시작되었다고 미 국무부가 밝혔습니다 - 로이터 통신"
-    },
-    {
-      "headline": "Turkey calls on Russia, Ukraine to ensure Black Sea safety after drone attack - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNLWxZWjEzUHh2dXNYYUxyS2RjbUhHTXh1RHpVTjZwUUpScFlZbnFUVDkwUlR3bXJMU3otWDY4Q2cyTml6dXV2YVJIZkdiN0lnZUV0T19VN1QwRUY4ZmU5bjNhUHJfU2tWeEw4RVFoTUN4R2lGaW1WSXpzUWxaVmZWSF9kRGhLcE9GU1lxaHp4N0xnNFp0MG9lMkZEeTd4TTEyTTBySlEzYVJFM0RSdjFTRHJZbnFmdFBISndla004RHVTQQ?oc=5",
-      "datetime": 1785860503,
-      "headlineKo": "터키, 러시아와 우크라이나에 드론 공격 후 흑해 안전 보장 촉구 - 로이터 통신"
-    },
-    {
-      "headline": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
-      "datetime": 1785860200,
-      "headlineKo": "독점: 미국은 이란 전쟁 중 장거리 정밀 미사일을 '거의 모두' 사용했다고 소식통은 전했습니다. - 로이터 통신"
-    },
-    {
-      "headline": "Asia crude and fuel imports recover, still shy of pre-Iran war levels - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGVwVDlqUHgzUTZBLWFQWGVUNWZWS0hmM3hiRElSNFNDcVhtc2pPMUI4X1lzY2pBNlFBRTdKd0s3MDlaY0NhWVV0N0lsU2RGTzI0cGJ3eFo4SFR2dEV0VFY1a2lzZW4yenVWYUFpMmNJU1pxQi15N19DZ2VfLVlTVmJuR2lZd1MyVzJHVkJXaWMyeTNRSHhPQzZybDQydmdjNnExMnRXTmNaMW1TUl9rb1BzOWI3VVR2d0QxZHdBT2NrU2hJellTTDl3?oc=5",
-      "datetime": 1785859460,
-      "headlineKo": "아시아 원유 및 연료 수입 회복, 여전히 이란 전쟁 이전 수준에 미치지 못함 - Reuters"
-    },
-    {
-      "headline": "Oil prices tumble after Bessent says Strait of Hormuz deal may come this week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/04/oil-rises-after-selloff-as-talks-to-end-us-iran-war-remain-uncertain.html",
-      "datetime": 1785859030,
-      "headlineKo": "베센트가 호르무즈 해협 협상이 이번 주에 이뤄질 수 있다고 말한 후 유가는 하락했다"
-    },
-    {
-      "headline": "PODCAST: Manufacturing rebounds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZWNUdkpLMG5rTVozVFg4clZiNGNBRDhqa1ZGUUZkZE1NTVZQdlc2bXc5M0p2Y09GaWptWnJPWG5COWxNdGNBSkdYNWdkSVZKZm5sRHFfWUdIZVJoUEVpblV1d1RJdnlTQVQtX0lZYmxoOVQxVEh0N1FaNm9mbG9iRy1IOURjR2lnUjZuVVgwVWw?oc=5",
-      "datetime": 1785852813,
-      "headlineKo": "팟캐스트: 제조업 반등 - Reuters"
     }
   ],
-  "_fetched_at": 1785888002.426324,
-  "_updated_label": "2026-08-05 09:00"
+  "_fetched_at": 1785931358.5648518,
+  "_updated_label": "2026-08-05 21:03"
 };
