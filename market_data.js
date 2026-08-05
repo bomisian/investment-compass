@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.08000183105469,
+      "current": 75.04000091552734,
       "prevClose": 75.7699966430664,
-      "changeAbs": -0.6899948120117188,
-      "changePct": -0.9106438466166399,
+      "changeAbs": -0.7299957275390625,
+      "changePct": -0.9634363994733836,
       "pctRank": 45.346062052505964,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.2129997253418,
-      "ma60": 84.43283322652181,
-      "chg1m": 4.6399993896484375,
-      "chg3m": -27.18999481201172,
-      "chg1mPct": 6.58716528794573,
-      "chg3mPct": -26.58648255060358,
+      "ma20": 81.21099967956543,
+      "ma60": 84.43216654459636,
+      "chg1m": 4.599998474121094,
+      "chg3m": -27.229995727539062,
+      "chg1mPct": 6.530378073094882,
+      "chg3mPct": -26.62559560119549,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.68900299072266,
+      "current": 99.69000244140625,
       "prevClose": 99.88999938964844,
-      "changeAbs": -0.20099639892578125,
-      "changePct": -0.2012177396675512,
+      "changeAbs": -0.1999969482421875,
+      "changePct": -0.20021718837142483,
       "pctRank": 33.65155131264916,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.76795082092285,
-      "ma60": 100.19831708272298,
-      "chg1m": -1.4509963989257812,
-      "chg3m": 1.2089996337890625,
-      "chg1mPct": -1.4346414946432053,
-      "chg3mPct": 1.2276600249566723,
+      "ma20": 100.76800079345703,
+      "ma60": 100.19833374023438,
+      "chg1m": -1.4499969482421875,
+      "chg3m": 1.2099990844726562,
+      "chg1mPct": -1.4336533092668706,
+      "chg3mPct": 1.2286749017332004,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -182,6 +182,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Jim Cramer says investors should consider buying SpaceX for their kids",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/05/jim-cramer-investors-should-consider-buying-spacex-kids.html",
+      "datetime": 1785969641,
+      "headlineKo": "짐 크레이머(Jim Cramer)는 투자자들이 아이들을 위해 SpaceX 구매를 고려해야 한다고 말했습니다."
+    },
+    {
+      "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+      "datetime": 1785965457,
+      "headlineKo": "독점: 이란은 미국이 새로운 공격을 시작하면 걸프 지역을 공격하겠다고 위협-로이터"
+    },
+    {
       "headline": "Hollywood is cranking out billion-dollar movies again. Spider-Man just joined the ranks",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
@@ -192,15 +206,8 @@ const MARKET_DATA = {
       "headline": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdklHVUNCN0JQTDlLR0piZnVyYXRkNkU1akFlU3dWWFRoQTUyVUFxTXVtbnU2V3pTY2QwZ3pXRUw3eTFZeG1IbDAzM0Q5eEJPd0VSRldTckFHb1dBYXUtQ2tocm44b2p1SE5EbGhCNUJyMG9SX0RhZTlRZjFFbURfWmhPbnN2YmNSTlF3NFFZbG5yNmFzWTNiZFBOTlFfOWp1cmZIMkxicE50d2tJWkVXOVZQRmFxc21qN01jaDR6RQ?oc=5",
-      "datetime": 1785960130,
+      "datetime": 1785961162,
       "headlineKo": "다우지수는 중동 낙관론으로 사상 최고치를 기록했다. SpaceX, AMD, Nasdaq 끌기 - Reuters"
-    },
-    {
-      "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
-      "datetime": 1785959064,
-      "headlineKo": "독점: 이란은 미국이 새로운 공격을 시작하면 걸프 지역을 공격하겠다고 위협-로이터"
     },
     {
       "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdGd5eGNIbFJTUDl0MlJHQ01RR3F5NVhNaVJuTVpvZ0FJMHlrNnFhQ1hsOUFyNWI0c1cyX0RwbTRwTHNrTE1yQ0NzUmlmMXBPYkM1Q1Vya3hOOFRQXzVHOEhHemQtd1dQcXlrcFVZRUh3T0RoWkRiam9jUWxhNld2MjRPMjNwd3hhaWVlZ2IwN2UzaS05NG04dHVCM0FidUxtQjBNcy1GWThaRE9RT1VmOGFzT2g1MEhiUVludGVGaWhCUQ?oc=5",
       "datetime": 1785948299,
       "headlineKo": "미국, 이전에 이란 IRGC와 연결되었던 플라이 바그다드에 대한 제재 해제 - Reuters"
-    },
-    {
-      "headline": "FTSE 100 rises, led by Glencore, Next earnings; banks slide - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ3RCb2poSVI4ZDNOcG90cFVTQzlnUmRoVmkzM3F0dktUbzhyUGpPMnd5Z3doVWlwVXAwb09nWWJSYjF2T1Y2SXFic3E4b0lIZ3BIek80bU5Rd1RNbnpHRTVVaUpWNXhSRy0zdnNLV1d3dDhGRVFldTBudEwtWExJc25lWTQtcXRkM052dmRsaE5yTFFwM09ud2tVaHlPcXh6?oc=5",
-      "datetime": 1785947934,
-      "headlineKo": "Glencore가 이끄는 FTSE 100 상승, 다음 수익; 은행 슬라이드 - 로이터"
     }
   ],
-  "_fetched_at": 1785967202.2597394,
-  "_updated_label": "2026-08-06 07:00"
+  "_fetched_at": 1785970802.3301008,
+  "_updated_label": "2026-08-06 08:00"
 };
