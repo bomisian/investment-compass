@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.489999771118164,
+      "current": 15.8100004196167,
       "prevClose": 16.5,
-      "changeAbs": -1.010000228881836,
-      "changePct": -6.121213508374764,
-      "pctRank": 25.079617834394906,
+      "changeAbs": -0.6899995803833008,
+      "changePct": -4.181815638686672,
+      "pctRank": 27.547770700636942,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.189499855041504,
-      "ma60": 17.359666633605958,
-      "chg1m": -0.6399993896484375,
-      "chg3m": -1.8999996185302734,
-      "chg1mPct": -3.967758356771177,
-      "chg3mPct": -10.925817626314963,
+      "ma20": 17.20549988746643,
+      "ma60": 17.364999977747598,
+      "chg1m": -0.31999874114990234,
+      "chg3m": -1.5799989700317383,
+      "chg1mPct": -1.9838732659592646,
+      "chg3mPct": -9.085675822232908,
       "lastDate": "2026-08-05",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.12999725341797,
+      "current": 75.06999969482422,
       "prevClose": 75.7699966430664,
-      "changeAbs": -0.6399993896484375,
-      "changePct": -0.8446607074081254,
-      "pctRank": 45.50517104216388,
+      "changeAbs": -0.6999969482421875,
+      "changePct": -0.9238445021182974,
+      "pctRank": 45.346062052505964,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.21549949645996,
-      "ma60": 84.4336664835612,
-      "chg1m": 4.689994812011719,
-      "chg3m": -27.139999389648438,
-      "chg1mPct": 6.658141183218971,
-      "chg3mPct": -26.537596832402404,
+      "ma20": 81.21249961853027,
+      "ma60": 84.4326665242513,
+      "chg1m": 4.629997253417969,
+      "chg3m": -27.199996948242188,
+      "chg1mPct": 6.572965776469579,
+      "chg3mPct": -26.59626267826446,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.71700286865234,
+      "current": 99.70099639892578,
       "prevClose": 99.88999938964844,
-      "changeAbs": -0.17299652099609375,
-      "changePct": -0.17318702778370557,
-      "pctRank": 33.73110580747812,
+      "changeAbs": -0.18900299072265625,
+      "changePct": -0.18921112411403473,
+      "pctRank": 33.65155131264916,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.76935081481933,
-      "ma60": 100.19878374735514,
-      "chg1m": -1.4229965209960938,
-      "chg3m": 1.23699951171875,
-      "chg1mPct": -1.4069572173061884,
-      "chg3mPct": 1.2560920690013946,
+      "ma20": 100.768550491333,
+      "ma60": 100.19851697285971,
+      "chg1m": -1.4390029907226562,
+      "chg3m": 1.2209930419921875,
+      "chg1mPct": -1.4227832701271863,
+      "chg3mPct": 1.239838546275011,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4308.7998046875,
+      "current": 4304.7998046875,
       "prevClose": 4095.39990234375,
-      "changeAbs": 213.39990234375,
-      "changePct": 5.210721966898121,
-      "pctRank": 90.21479713603819,
+      "changeAbs": 209.39990234375,
+      "changePct": 5.113051407358604,
+      "pctRank": 90.13524264120922,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4070.5100219726564,
-      "ma60": 4247.845003255208,
-      "chg1m": 163.5,
-      "chg3m": -247.0,
-      "chg1mPct": 3.9442261767198215,
-      "chg3mPct": -5.421660533587531,
+      "ma20": 4070.310021972656,
+      "ma60": 4247.778336588542,
+      "chg1m": 159.5,
+      "chg3m": -251.0,
+      "chg1mPct": 3.8477313467083274,
+      "chg3mPct": -5.509460704171945,
       "lastDate": "2026-08-05",
       "bars": 1257,
       "symbol": "GC=F",
@@ -154,18 +154,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.332407336495448,
-        "ret3m": 1.2717025414237026,
-        "ret6m": 3.6609931473022383,
-        "ret1y": 8.10990439187913,
+        "ret1m": 5.349676043073703,
+        "ret3m": 1.2883055163303903,
+        "ret6m": 3.677987834118368,
+        "ret1y": 8.127628454818115,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -4.446199003396767,
-        "ret3m": 16.29469310486147,
-        "ret6m": 74.9178306413353,
-        "ret1y": 241.19395784677775,
+        "ret1m": -4.350390576685815,
+        "ret3m": 16.411297692695783,
+        "ret6m": 75.09321458192848,
+        "ret1y": 241.53606099666445,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,7 +174,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20532929379926831,
+    "corr60": 0.2050804410535708,
     "corrPctRank": 2.0100502512562812,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115784818334243,
@@ -185,8 +185,15 @@ const MARKET_DATA = {
       "headline": "Proposed Hormuz deal would give Iran control of inbound traffic, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUFpfZEh3NVhNLURNVl9ETWp2ak5nZEx4d0JYQ19WZ3Z6bTl3V2wyUzVLQmFnTkJrZTZtVXd1cnp2dkdXUmh0d1FXUmhfbGQ1a3dKY1ZzQ0pXQTdUcS02X1llNkdFbzFLN0k2YXk2X2JEUTVCV1RBeGdUaFA2VGFzSW9LYlRDQm5senFDSzFVRkxHaXdSazRBWUlTT1pjY00yU1Qw?oc=5",
-      "datetime": 1785958052,
+      "datetime": 1785960289,
       "headlineKo": "제안된 호르무즈 협정으로 이란은 입국 트래픽을 통제할 수 있을 것이라고 소식통은 전했습니다. - 로이터 통신"
+    },
+    {
+      "headline": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdklHVUNCN0JQTDlLR0piZnVyYXRkNkU1akFlU3dWWFRoQTUyVUFxTXVtbnU2V3pTY2QwZ3pXRUw3eTFZeG1IbDAzM0Q5eEJPd0VSRldTckFHb1dBYXUtQ2tocm44b2p1SE5EbGhCNUJyMG9SX0RhZTlRZjFFbURfWmhPbnN2YmNSTlF3NFFZbG5yNmFzWTNiZFBOTlFfOWp1cmZIMkxicE50d2tJWkVXOVZQRmFxc21qN01jaDR6RQ?oc=5",
+      "datetime": 1785960130,
+      "headlineKo": "다우지수는 중동 낙관론으로 사상 최고치를 기록했다. SpaceX, AMD, Nasdaq 끌기 - Reuters"
     },
     {
       "headline": "Israeli military strikes southern Lebanon after evacuation warning to village - Reuters",
@@ -196,6 +203,13 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘군, 마을에 대피 경고 후 레바논 남부 공습 - 로이터 통신"
     },
     {
+      "headline": "EXCLUSIVE: Iran threatens to hit Gulf states if US launches new strikes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPajFnaXk0anVrT2IwaV9XMDBma0pMQU53ZF9LRUJiT01nWjJsdG5FZXhwUjNtZFp2Yy1NV3Q4dFRIeUxzV1pCWk9RMVVZNk1UbWxxMFdiNEdNTG5KSVBVWTRCaWFJSFNlT3RiMFF6RWtqN2pnRThTUU9GaHNfelhwV3RZTXdfMzJwUk1aVlFXZ0FBNk1qWFFmd2xIRWNVWVpmQl9DSkE2NnhMaXlJZ2FFeQ?oc=5",
+      "datetime": 1785957109,
+      "headlineKo": "독점: 이란은 미국이 새로운 공격을 시작하면 걸프 지역을 공격하겠다고 위협-로이터"
+    },
+    {
       "headline": "Alphabet slumps on more AI brain drain. We're not too worried",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/05/alphabet-is-slumping-on-the-departure-of-another-ai-exec.html",
@@ -203,18 +217,18 @@ const MARKET_DATA = {
       "headlineKo": "더 많은 AI 두뇌 유출로 인해 알파벳이 급락합니다. 우리는 별로 걱정하지 않아요"
     },
     {
-      "headline": "Mideast deal hopes lift Dow, S&P to records; SpaceX, AMD drag Nasdaq - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdklHVUNCN0JQTDlLR0piZnVyYXRkNkU1akFlU3dWWFRoQTUyVUFxTXVtbnU2V3pTY2QwZ3pXRUw3eTFZeG1IbDAzM0Q5eEJPd0VSRldTckFHb1dBYXUtQ2tocm44b2p1SE5EbGhCNUJyMG9SX0RhZTlRZjFFbURfWmhPbnN2YmNSTlF3NFFZbG5yNmFzWTNiZFBOTlFfOWp1cmZIMkxicE50d2tJWkVXOVZQRmFxc21qN01jaDR6RQ?oc=5",
-      "datetime": 1785956469,
-      "headlineKo": "중동 거래는 Dow, S&P를 기록으로 끌어올리기를 희망합니다. SpaceX, AMD, Nasdaq 끌기 - Reuters"
-    },
-    {
       "headline": "Phillips 66 beats quarterly estimates as Iran war boosts US refining margins - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdFdjb1Q5RzUtcnRaUmV5U2FuN0dBcUZwT3RMa2pqVVVocG8zZmRPV2E1NjhlRTR6TXBsN1NHQ21EUTJvQ0JvV2NtbXhWbHVjMUN3NHFvTzlVR0IxUmxHaTFUbEpNX0xJSFFncjE4UllwaTJ2bm9UVTdHd00xOVBuTmZJVXRCekZPclluTDhFQUF2S3MwcG5rR3VrOE5TdFBHd3piYTRjTW9yVldvZGFVV3lfa1pLNlIzTXloYQ?oc=5",
       "datetime": 1785955127,
       "headlineKo": "필립스 66, 이란 전쟁으로 미국 정제 마진 증가로 분기별 추정치 상회 - Reuters"
+    },
+    {
+      "headline": "Yemen's Houthis say they attacked Saudi oil tankers in Red Sea, Gulf of Aden - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWEQwU2pxeTRYSXhNQWtrT3hmNFhmOUx6eVUzUUt4aVBtOEpub01Fa3U5S0ZOYXRmU2oyb0t4WEpRRXZ3VmwxWksyYkNRcF9GbFJvbEpkMGxWWVY5alo2NS1LdDFzMWVPdmYtV082T3JOaVpoYW5NTFNncUxHZndSdnUzMXdWWHNXQWQ3NXZXMy02MDloQ3dWTHJhWHBfS2pNVnZoUXBEcVZKQm1HZXl5Ug?oc=5",
+      "datetime": 1785954855,
+      "headlineKo": "예멘 후티 반군이 아덴만 홍해에서 사우디 유조선을 공격했다고 밝혔습니다."
     },
     {
       "headline": "Gulf oil exports steady in July, still 40% below pre-war mark - Reuters",
@@ -238,34 +252,20 @@ const MARKET_DATA = {
       "headlineKo": "나스닥과 혼재된 주식; 금값 급등 - 로이터"
     },
     {
+      "headline": "Ukraine's Zelenskiy says he spoke to NATO head Rutte about securing interceptors - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUUFjUmxBRnF1MFlqVDcwRjdUa0hhMERkX0ZKSmRGUnlFLU5UeVd4cE1JRG9TQnFPdTFvbzE1bzdmS0hKdHJaajh2THRSemluNXRqcEJnLVVHN3hFZ0N2MHhmUkhPck5COVlEbkM5WHhJTEhQdWswMkVRZmNqZlNZeEI4QV9XVFhINEwwYnN0ZEtOZWxxbHVCbVlTempHVlk4M2NnRkozcE9QNzV5T0NKS1JNMUt2d3Ftd2ZDS24yUGpiMHdfMXFXeHJ2Y3ZFTnZ1Ui1zdGFn?oc=5",
+      "datetime": 1785950127,
+      "headlineKo": "우크라이나의 젤렌스키는 NATO 수장인 루테와 요격체 확보에 관해 이야기했다고 말했습니다. - 로이터"
+    },
+    {
       "headline": "US lifts sanctions on Fly Baghdad, previously linked to Iran's IRGC - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdGd5eGNIbFJTUDl0MlJHQ01RR3F5NVhNaVJuTVpvZ0FJMHlrNnFhQ1hsOUFyNWI0c1cyX0RwbTRwTHNrTE1yQ0NzUmlmMXBPYkM1Q1Vya3hOOFRQXzVHOEhHemQtd1dQcXlrcFVZRUh3T0RoWkRiam9jUWxhNld2MjRPMjNwd3hhaWVlZ2IwN2UzaS05NG04dHVCM0FidUxtQjBNcy1GWThaRE9RT1VmOGFzT2g1MEhiUVludGVGaWhCUQ?oc=5",
       "datetime": 1785948299,
       "headlineKo": "미국, 이전에 이란 IRGC와 연결되었던 플라이 바그다드에 대한 제재 해제 - Reuters"
-    },
-    {
-      "headline": "Iran and Oman reach understanding on coordinates of route through Hormuz, Iran ministry says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXZPbkhCTjRpQkNteVlfOVVkTkR4eGpFUFJTZmZySE5WQW1MakpaR1NUVEtXM0VucEpRbml6dUk1R2lsbE5vN3V5M0dHTHZad2JXUEsyUTlvVXFQU0hpNnE5Z3h4d0NMSE9OcXNocHRJQ1Q0eXV6M0phX05BeDFJblF1eDBpRGY2YzNGVHBCT21ISmRUSXhQc2V4dW9SeklwUkY5dmpsTWdzQWNHY2ZLX3NTNXNOeVhOejFRWUN2bURYYS1vOW9URmJR?oc=5",
-      "datetime": 1785947360,
-      "headlineKo": "이란과 오만이 호르무즈를 통과하는 경로 좌표에 대해 합의했다고 이란 국방부가 밝혔습니다."
-    },
-    {
-      "headline": "SpaceX gives Nvidia a much-needed boost. Plus, Cramer on an 'undervalued' stock",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/05/spacex-gives-nvidia-a-much-needed-boost-cramers-undervalued-stock-.html",
-      "datetime": 1785945051,
-      "headlineKo": "SpaceX는 Nvidia에 꼭 필요한 기능을 제공합니다. 게다가 Cramer는 '저평가된' 주식을 보유하고 있습니다."
-    },
-    {
-      "headline": "We're pocketing gains in two tech stocks that are hitting new record highs",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/05/were-pocketing-gains-in-2-stocks-that-are-hitting-new-record-highs.html",
-      "datetime": 1785943680,
-      "headlineKo": "우리는 신기록을 경신하는 두 기술주에서 이익을 얻고 있습니다."
     }
   ],
-  "_fetched_at": 1785960001.8150184,
-  "_updated_label": "2026-08-06 05:00"
+  "_fetched_at": 1785963602.243889,
+  "_updated_label": "2026-08-06 06:00"
 };
