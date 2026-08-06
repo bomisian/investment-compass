@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 78.2300033569336,
+      "current": 78.0999984741211,
       "prevClose": 75.22000122070312,
-      "changeAbs": 3.0100021362304688,
-      "changePct": 4.001598095430518,
-      "pctRank": 56.085918854415276,
+      "changeAbs": 2.8799972534179688,
+      "changePct": 3.828765230896187,
+      "pctRank": 55.529037390612565,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.52749977111816,
-      "ma60": 84.10449994405111,
-      "chg1m": 4.7100067138671875,
-      "chg3m": -16.849998474121094,
-      "chg1mPct": 6.406429446309534,
-      "chg3mPct": -17.721916438392,
+      "ma20": 81.52099952697753,
+      "ma60": 84.10233319600424,
+      "chg1m": 4.5800018310546875,
+      "chg3m": -16.980003356933594,
+      "chg1mPct": 6.229600163463314,
+      "chg3mPct": -17.858648538001653,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.9729995727539,
+      "current": 99.96499633789062,
       "prevClose": 99.69000244140625,
-      "changeAbs": 0.28299713134765625,
-      "changePct": 0.2838771435621044,
+      "changeAbs": 0.274993896484375,
+      "changePct": 0.27584902171710274,
       "pctRank": 35.87907716785998,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.71965065002442,
-      "ma60": 100.23221702575684,
-      "chg1m": -1.0770034790039062,
-      "chg3m": 1.9530029296875,
-      "chg1mPct": -1.0658124161087508,
-      "chg3mPct": 1.992453577405472,
+      "ma20": 100.71925048828125,
+      "ma60": 100.23208363850911,
+      "chg1m": -1.0850067138671875,
+      "chg3m": 1.9449996948242188,
+      "chg1mPct": -1.0737324899549454,
+      "chg3mPct": 1.9842886772449213,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4298.7001953125,
+      "current": 4299.7998046875,
       "prevClose": 4245.7998046875,
-      "changeAbs": 52.900390625,
-      "changePct": 1.2459464190138279,
+      "changeAbs": 54.0,
+      "changePct": 1.2718451760344953,
       "pctRank": 89.97613365155132,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4075.765026855469,
-      "ma60": 4239.795003255208,
-      "chg1m": 227.80029296875,
-      "chg3m": -383.19970703125,
-      "chg1mPct": 5.595821524316968,
-      "chg3mPct": -8.184705248384763,
+      "ma20": 4075.8200073242188,
+      "ma60": 4239.813330078125,
+      "chg1m": 228.89990234375,
+      "chg3m": -382.10009765625,
+      "chg1mPct": 5.622832981276814,
+      "chg3mPct": -8.16121885615221,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/jim-cramer-5-investing-themes-stocks-to-buy.html",
+      "datetime": 1786055005,
+      "headlineKo": "Jim Cramer는 5가지 투자 테마와 각 테마에 대해 매수할 주식을 강조합니다."
+    },
+    {
       "headline": "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html",
@@ -196,11 +203,18 @@ const MARKET_DATA = {
       "headlineKo": "Sweetgreen, 원포자충 우려로 매출 감소로 연간 전망 하향"
     },
     {
-      "headline": "Dow, S&P slip as investors eye Mideast talks, earnings - Reuters",
+      "headline": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2poa2tBUFVOZFo0R0Q4T2lKVF9aWk5CWGd1Y1A0aXlTOFE1c1JBNlF3bk9qLVlnSUFmMTZoT05MVExKZk9oQzVhUmg4SnBLZ29vLUFDMU1Qb1lOZmd5ZVZHRGVuaTJHWWJyUjFRV19pU3U4NmItdkd0d2JaNWVUSmJZcFBSVEtPVDQyd1RySlA0Q2VCT3RZSzlsSUFPY2FsLUtNMWlubFpQbkZiVmt6TjBZdmRZeXlPMFBZ?oc=5",
-      "datetime": 1786046498,
-      "headlineKo": "투자자들이 중동 협상과 실적에 주목하면서 다우, S&P 하락 - Reuters"
+      "datetime": 1786047757,
+      "headlineKo": "투자자들이 중동 회담과 실적에 주목하면서 주가는 하락 마감 - Reuters"
+    },
+    {
+      "headline": "Bomb planted on minibus kills two near Damascus, Syria says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFkyalJWQ2txUksxbXpvMFRkWUJYSkVlNjBGTXVjRnFJOF9ONkJ2ZWUyUG9uMmxWSENpMFpoSUlZdzRwNVJZWU1wY0tHSmxCNy04S2xBQjRvYWtEeVNPb3hpQ0tIY2ZiR3BqRURVazhJSG9uZFBfc1EwTzVGZWs1cHpUUzlYU3hkZ3hJLWVmcGZaSl9ONFdlbzhPajNiYWo3RkQ4T1BqWVY0c2twZlFINFBmZDdOMXJ2cjZMSEhQOGFXMmh5cEEwaXR3?oc=5",
+      "datetime": 1786046734,
+      "headlineKo": "시리아 다마스쿠스 근처에서 미니버스에 폭탄이 설치돼 2명이 사망했다고 시리아가 밝혔습니다."
     },
     {
       "headline": "American Airlines will stop upgrading elite flyers to business from coach on long domestic flights",
@@ -250,22 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRFZOdUowaEpSY3VBZWRQSmRjOGZRXzUtM0xDV3BHOTJCYk9VUTdkc1dLUUU2c1hsOTY0c3R3c294bnVoYzJ4eWgxX0k4QVdpaVViSHRsdXBlTzFpZVpXZ20yNzV2cndvUk04N29XOUIxSUl0VlJWM3BDMVJIQWFwcDN0Wl9CRzdMZlM0SlBjYUNtTmtrSU9BQXBnXzh1bWI2OXBPUVlpcVYxclZ5S3pTdDU5VGNVNzRuU0RfeU1BU0lXNG9uZXRLUG14TEI?oc=5",
       "datetime": 1786035370,
       "headlineKo": "이란 의회 위원회, 호르무즈에서 미국과 이스라엘 선박의 출입을 금지하는 법안 초안 검토 중이라고 Fars가 밝혔습니다."
-    },
-    {
-      "headline": "European shares extend run of record highs on earnings, US-Iran optimism - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQakF6Y2hyYnJRN2R4aGtqMmpVMWVZVWI1cWR1bjNsaWNVMThaRDVwTU53VnZaUkZlWGpXd1RHZGNqR0pKNnBKTEtBMzRqc01tZ2YwbXdGWkt0d2tabko4ZnVaUHFKNFJnb1VIMjZ1Q0ZPby16YTdmQ2xfcUo5OFJqSWI4Q3JadUNIOFFVb1hUTERJZHY2T0JrTDdhUUswS1NEMXM1SHlWZUJrOVUxWVlR?oc=5",
-      "datetime": 1786035074,
-      "headlineKo": "유럽 ​​증시는 사상 최고치를 기록했고, 미국-이란 낙관론 - Reuters"
-    },
-    {
-      "headline": "US is set to import most Middle East crude since Iran war began - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTHVYaG56WVdrSW5UZkJwY1g4V01nUDRIbzY3dWt2UDBkWGhwcnhkZ0d5aU5QeTlNYnlfS05femN1aVZraXhjallpRGJEWjhoNi1fUERZbjVmQUhGSUVldzJobkJxOERWY2VSUlJfTHc2Z3BhdWlNX1hueVpzRXhqNWp1UHl6Q3dBa2xnNW1ubTBSNzA3bjMtSEwteGxvYVJhUzVOby1IU29WY3o2dzdiU1Rn?oc=5",
-      "datetime": 1786034506,
-      "headlineKo": "미국, 이란 전쟁 발발 이후 대부분의 중동산 원유 수입 예정 - 로이터"
     }
   ],
-  "_fetched_at": 1786053602.1699128,
-  "_updated_label": "2026-08-07 07:00"
+  "_fetched_at": 1786057202.2151775,
+  "_updated_label": "2026-08-07 08:00"
 };
