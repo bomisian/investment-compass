@@ -682,6 +682,7 @@ const HINTS = {
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
   tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요. 이 카드의 숫자는 전부 14년·14종목 공식 검증치 하나의 출처예요.",
+  signalDist: "승률과 평균만 보면 손실 폭을 가늠하기 어려워서, 수익률의 '분포'를 더 자세히 보여줘요. 중앙값은 딱 중간값, 하위 10%/5%는 '운이 나빴던 쪽 10%/5% 안에 들면 이 정도까지 손실'이라는 뜻이에요. 신뢰구간은 표본이 다르면(다른 기간에 다시 검증하면) 이 숫자가 이 범위 안에서 흔들릴 수 있다는 뜻이에요. 위 공식 검증치(14종목·14년치)와는 표본이 달라서 숫자가 소폭 다를 수 있어요.",
   signalEvidence: "위 '단타 진입 판단' 카드와는 표본이 다른 보조 자료예요. 이 종목만의 라이브 성적(표본이 작아 우연일 수 있음) · 같은 그룹(섹터)의 5년치 승률 · 오늘 기준 그룹 대비 상대강도, 이렇게 3가지가 섞여 있으니 각각 어떤 표본인지 확인하고 참고만 하세요.",
   // 02 가치/퀄리티
   fwdPer: "올해 예상 이익 대비 주가가 몇 배인지예요. 낮을수록 이익 대비 싸게 거래되고 있다는 뜻이에요.",
@@ -876,6 +877,41 @@ const SIGNAL_STATS = {
   severeShare: 8.5,     // 그중 -10%를 넘겨 빠진 신호의 비율
   hold: [[10,66.1],[15,67.4],[20,68.5]],  // 보유기간별 승률
 };
+
+// ============ 수익률 분포 재검증 (2026-08-06 추가, 참고용) ============
+// [배경] 승률·평균만 있으면 "얼마나 잃을 수 있는지"를 가늠하기 어렵다는 지적(중앙값/하위5·10%/
+// 최악사례/신뢰구간 필요)에 따라 새로 백테스트를 돌림. ⚠️ 위 SIGNAL_STATS(14종목·14년치, 이미
+// CLAUDE.md에 문서화된 '공식' 수치)를 다시 만든 게 아니라, 지금 이 도구가 실제로 쓰는 워치리스트
+// 26종목(ETF 2개 포함) × 야후에서 받을 수 있는 최대 기간(대부분 15년, 최근 상장 종목은 짧음:
+// PLTR 5.8y·ARM 2.9y·SNDK 1.5y)으로 완전히 새로 계산한 별개 표본임 - 그래서 숫자가 소폭 다름
+// (승률 66%→64.1%). 방법론은 동일(RSI_PULLBACK_HI=38, 쿨다운 5일, 다음날 시가 진입, 10거래일 보유,
+// 종가 기준 보유중 최대낙폭). 승률 신뢰구간은 Wilson score interval, 평균수익률 신뢰구간은
+// 부트스트랩(3000회 재표본) 방식. 검증 스크립트는 이 프로젝트 관례대로 세션에 남기지 않음(재현 가능:
+// Yahoo chart API로 26종목 15년치 수집 → computeTechnicalSeries와 동일 로직으로 entryFlags 산출 →
+// 10거래일 보유·다음날 시가 진입 수익률 분포).
+const SIGNAL_DIST = {
+  n: 1097, tickers: 26, period: '2011~2026(종목별 상장일부터, 대부분 15년)',
+  winRate: 64.1, winRateCI: [61.2, 66.9],
+  mean: 2.22, meanCI: [1.76, 2.69], median: 2.12, stdev: 7.92,
+  p5: -10.93, p10: -7.0, p90: 11.23, worst: -34.3, best: 41.02,
+  mae: { mean: -3.51, median: -2.1, p5: -14.19, p10: -10.28, worst: -39.29, severeShare: 10.5 },
+};
+function renderSignalDistribution(){
+  const d = SIGNAL_DIST;
+  return `
+    <div class="sub" style="margin-top:8px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+      <b>수익률 분포 자세히 보기 ${hintIcon('signalDist')}</b>
+      <span style="color:var(--sub);">(참고용 · 현재 워치리스트 ${d.tickers}종목 · ${esc(d.period)} · n=${d.n}신호 · 10거래일 보유 · 다음날 시가 진입. 위 공식 14종목·14년치 검증과는 <b>다른 표본</b>이라 숫자가 소폭 달라요)</span>
+      <div class="fund-row"><span>평균 / 중앙값 수익률</span><span class="v">${d.mean>=0?'+':''}${d.mean}% / ${d.median>=0?'+':''}${d.median}%</span></div>
+      <div class="fund-row"><span>승률 (95% 신뢰구간)</span><span class="v">${d.winRate}% (${d.winRateCI[0]}~${d.winRateCI[1]}%)</span></div>
+      <div class="fund-row"><span>평균수익률 95% 신뢰구간</span><span class="v">${d.meanCI[0]}%~${d.meanCI[1]}%</span></div>
+      <div class="fund-row"><span>하위 10% / 하위 5% 수익률</span><span class="v" style="color:var(--down)">${d.p10}% / ${d.p5}%</span></div>
+      <div class="fund-row"><span>최악 사례 / 최고 사례</span><span class="v">${d.worst}% / +${d.best}%</span></div>
+      <div class="fund-row"><span>보유중 최대낙폭 (평균/중앙값)</span><span class="v" style="color:var(--down)">${d.mae.mean}% / ${d.mae.median}%</span></div>
+      <div class="fund-row"><span>보유중 최대낙폭 하위 10% / 최악</span><span class="v" style="color:var(--down)">${d.mae.p10}% / ${d.mae.worst}%</span></div>
+      <div class="sub" style="margin-top:4px;">신뢰구간이 넓을수록(=표본이 작거나 변동성이 클수록) 이 숫자를 덜 믿어야 해요. 승률·평균은 전체 분포의 <b>요약치일 뿐</b>이라, 실제로는 위 최악사례(${d.worst}%)까지도 벌어졌었어요. 매매수수료·슬리피지·세금은 반영 안 됐어요.</div>
+    </div>`;
+}
 
 // ============ 오늘이 '새 진입 자리'인가, '지난 신호의 연장'인가 ============
 // scores(오늘 조건 충족 여부)는 조건이 유지되는 동안 매일 켜지지만,
@@ -1646,6 +1682,48 @@ function pricePositionBar(price, lo, mid, hi){
     <span>$${lo.toFixed(0)}</span><span>$${mid.toFixed(0)}</span><span>$${hi.toFixed(0)}</span>
   </div>`;
 }
+// ============ 밸류에이션 민감도 직접 조절 슬라이더 (2026-08-06 추가) ============
+// [배경] 위 3단계(보수/기준/낙관) 시나리오는 고정된 20/80백분위 배수만 보여줌. 사용자가 "내 생각엔
+// 성장률이 이것보다 낮을 것 같다"처럼 직접 가정을 바꿔보고 싶을 수 있어서, 애널리스트 컨센서스
+// EPS 성장률과 PER 배수를 직접 조절하는 슬라이더를 추가함. 계산식은 computeFairValue와 동일
+// (eps1 = eps0×(1+성장률), 가격 = eps1×PER) - 새 로직이 아니라 기존 산출식을 사용자가 대입해보는 것.
+function renderFvSlider(w, price){
+  if(w.eps0==null || w.anchorPe==null) return '';
+  const gDefault = Math.round(w.growth*100);
+  const initVal = w.eps0 * (1+gDefault/100) * w.anchorPe;
+  const initDiff = (initVal - price) / price * 100;
+  return `
+    <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+      <b>직접 시나리오 만들기 (실험용 · 컨센서스 대신 내 가정으로)</b>
+      <div style="margin-top:8px;">
+        <div class="row" style="justify-content:space-between;"><span>내년 EPS 성장률</span><span id="fvGrowthLabel" style="font-weight:700;">${gDefault>=0?'+':''}${gDefault}%</span></div>
+        <input type="range" id="fvGrowthSlider" min="-50" max="100" step="1" value="${gDefault}" oninput="updateFvSlider()" style="width:100%;">
+      </div>
+      <div style="margin-top:6px;">
+        <div class="row" style="justify-content:space-between;"><span>적용 PER (지금 PER 대비 배수)</span><span id="fvPeLabel" style="font-weight:700;">1.00배 (PER ${w.anchorPe.toFixed(1)}배)</span></div>
+        <input type="range" id="fvPeSlider" min="40" max="200" step="5" value="100" oninput="updateFvSlider()" style="width:100%;">
+      </div>
+      <div id="fvSliderBox" data-eps0="${w.eps0}" data-anchorpe="${w.anchorPe}" data-price="${price}" style="margin-top:8px;font-size:13px;">
+        <span id="fvSliderResult">이 가정대로면 <b>$${initVal.toFixed(0)}</b> <span style="color:${initDiff>=0?'var(--up)':'var(--down)'}">(현재가 대비 ${initDiff>=0?'+':''}${initDiff.toFixed(0)}%)</span></span>
+      </div>
+      <div class="sub" style="margin-top:4px;">이건 컨센서스가 아니라 <b>내가 넣은 가정</b>이에요 - 위 보수/기준/낙관 시나리오를 대체하는 게 아니라 "내 생각이 맞다면 얼마일까"를 직접 계산해보는 도구예요.</div>
+    </div>`;
+}
+function updateFvSlider(){
+  const box = document.getElementById('fvSliderBox');
+  if(!box) return;
+  const eps0 = +box.dataset.eps0, anchorPe = +box.dataset.anchorpe, price = +box.dataset.price;
+  const g = +document.getElementById('fvGrowthSlider').value;
+  const m = +document.getElementById('fvPeSlider').value / 100;
+  const eps1 = eps0 * (1 + g/100);
+  const pe = anchorPe * m;
+  const val = eps1 * pe;
+  const diffPct = (val - price) / price * 100;
+  document.getElementById('fvGrowthLabel').textContent = (g>=0?'+':'')+g+'%';
+  document.getElementById('fvPeLabel').textContent = m.toFixed(2)+'배 (PER '+pe.toFixed(1)+'배)';
+  document.getElementById('fvSliderResult').innerHTML =
+    `이 가정대로면 <b>$${val.toFixed(0)}</b> <span style="color:${diffPct>=0?'var(--up)':'var(--down)'}">(현재가 대비 ${diffPct>=0?'+':''}${diffPct.toFixed(0)}%)</span>`;
+}
 function renderFairValueSection(r){
   const fv = r.fairValue;
   if(!fv) return '';
@@ -1688,7 +1766,8 @@ function renderFairValueSection(r){
         주가가 <b>지금 그대로여도</b> 내년 실적이 예상대로 나오면 PER은
         <b>${w.anchorPe.toFixed(1)}배 → ${w.pe1y.toFixed(1)}배</b>가 돼요${w.growth>=0?' (가만히 있어도 그만큼 싸지는 셈)':' (이익이 줄어 오히려 비싸짐)'}.
       </div>
-      ${w.cautions.map(c=>`<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ ${c}</div>`).join('')}`;
+      ${w.cautions.map(c=>`<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ ${c}</div>`).join('')}
+      ${renderFvSlider(w, price)}`;
   } else {
     perBlock = `<div class="sub">${w?.unavailable || '계산에 필요한 데이터가 부족해요.'}<br><span style="color:var(--sub)">억지로 숫자를 만들면 크게 틀리기 때문에 일부러 표시하지 않아요.</span></div>`;
   }
@@ -1877,6 +1956,20 @@ function computeRelStrength(r){
   return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100,
           members:group.length, sector, theme:r.theme, tickers:group.map(x=>x.ticker)};
 }
+// 2026-08-06 추가: 60일/120일 상대강도 - 참고용(정보 제공)일 뿐, -11%p 경고 임계값(REL_WEAK_THRESHOLD)은
+// 5년치 검증이 20일 수익률로만 이뤄졌어서 60/120일에는 그대로 적용하면 안 됨. 그래서 여기는 경고 배지
+// 없이 숫자만 옆에 보여주고 "검증 안 됨"을 명시한다. 계산 방식(동일가중·자기포함)은 20일과 동일.
+function relStrengthWindow(r, sector, window){
+  if(!r.series || r.series.closes.length < window+1) return null;
+  const group = Object.values(results).filter(x =>
+    !x.error && THEME_TO_SECTOR[x.theme] === sector &&
+    x.series && x.series.closes.length >= window+1);
+  if(group.length < REL_MIN_PEERS) return null;
+  const ret = s => { const c=s.closes; return c[c.length-1]/c[c.length-1-window] - 1; };
+  const mine = ret(r.series);
+  const bench = group.reduce((a,x)=>a+ret(x.series),0) / group.length;
+  return {window, rel:(mine-bench)*100, mine:mine*100, bench:bench*100, members:group.length};
+}
 function renderRelStrength(r){
   const rs = computeRelStrength(r);
   if(!rs) return '';
@@ -1885,6 +1978,10 @@ function renderRelStrength(r){
   // 경고의 신뢰도는 그룹마다 다름(실측). 빅테크·SW에서만 확실히 갈렸고 반도체 쪽은 차이가 작았음 -
   // 같은 경고라도 근거의 세기가 다르므로 문구를 나눠서 정직하게 표시한다.
   const strongEvidence = rs.sector === '빅테크·SW';
+  const extra = [60,120].map(w=>relStrengthWindow(r, rs.sector, w)).filter(Boolean);
+  const extraLine = extra.length
+    ? `<br><span class="sub">참고(검증 안 됨 · 경고 기준 아님): ${extra.map(e=>`최근 ${e.window}일 ${sign(e.rel)}p ${e.rel>=0?'앞섬':'뒤처짐'}`).join(' · ')}</span>`
+    : '';
   return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':'var(--panel-2)'};color:${weak?'#876000':'#4b5157'};margin-top:8px;">
     <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일: 이 종목 ${sign(rs.mine)} ·
     <b>${esc(rs.sector)}</b> 그룹 평균 ${sign(rs.bench)}(${rs.members}종목) →
@@ -1895,7 +1992,8 @@ function renderRelStrength(r){
         ? `5년치 검증에서 <b>빅테크·SW 그룹</b>은 이 구간의 신호 승률이 <b>51%</b>로, 그룹 평균(60%)보다 확실히 낮았어요(n=39).`
         : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`
     : ''}
-    <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · 최근 <b>20일</b> 수익률만 비교 · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span></div>`;
+    <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · 최근 <b>20일</b> 수익률만 비교 · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span>
+    ${extraLine}</div>`;
 }
 
 // ---- 단타 진입 카드: '지금 사야 하나'에 숫자로 답하는 부분 (2026-07-27 추가) ----
@@ -1975,7 +2073,8 @@ function renderTradePlan(r){
     </div>
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
       <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
-    </div>`;
+    </div>
+    ${renderSignalDistribution()}`;
 
   const card2 = `
     <div class="chart-label" style="margin-top:18px;">이 신호의 참고 근거 ${hintIcon('signalEvidence')}</div>
