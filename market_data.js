@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.3100004196167,
+      "current": 15.149999618530273,
       "prevClose": 15.8100004196167,
-      "changeAbs": -0.5,
-      "changePct": -3.1625552607804552,
-      "pctRank": 23.168789808917197,
+      "changeAbs": -0.6600008010864258,
+      "changePct": -4.174578011190381,
+      "pctRank": 22.213375796178344,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.17899990081787,
-      "ma60": 17.32033332188924,
-      "chg1m": -1.5899991989135742,
-      "chg3m": -1.7699995040893555,
-      "chg1mPct": -9.408279495877588,
-      "chg3mPct": -10.362994800911551,
+      "ma20": 17.17099986076355,
+      "ma60": 17.317666641871135,
+      "chg1m": -1.75,
+      "chg3m": -1.9300003051757812,
+      "chg1mPct": -10.355029819534343,
+      "chg3mPct": -11.299767645180443,
       "lastDate": "2026-08-06",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 77.86000061035156,
+      "current": 78.37000274658203,
       "prevClose": 75.22000122070312,
-      "changeAbs": 2.6399993896484375,
-      "changePct": 3.5097039973482733,
-      "pctRank": 54.25616547334925,
+      "changeAbs": 3.1500015258789062,
+      "changePct": 4.187717993564613,
+      "pctRank": 56.88146380270486,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.50899963378906,
-      "ma60": 84.09833323160807,
-      "chg1m": 4.340003967285156,
-      "chg3m": -17.220001220703125,
-      "chg1mPct": 5.903161269655006,
-      "chg3mPct": -18.111065301934808,
+      "ma20": 81.53449974060058,
+      "ma60": 84.10683326721191,
+      "chg1m": 4.850006103515625,
+      "chg3m": -16.709999084472656,
+      "chg1mPct": 6.596852999139825,
+      "chg3mPct": -17.57467265741564,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.9749984741211,
+      "current": 99.95800018310547,
       "prevClose": 99.69000244140625,
-      "changeAbs": 0.28499603271484375,
-      "changePct": 0.2858822607436015,
-      "pctRank": 35.87907716785998,
+      "changeAbs": 0.26799774169921875,
+      "changePct": 0.26883111158186296,
+      "pctRank": 35.64041368337311,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.71975059509278,
-      "ma60": 100.23225034077963,
-      "chg1m": -1.0750045776367188,
-      "chg3m": 1.9550018310546875,
-      "chg1mPct": -1.0638342851767173,
-      "chg3mPct": 1.9944928565685454,
+      "ma20": 100.71890068054199,
+      "ma60": 100.23196703592936,
+      "chg1m": -1.0920028686523438,
+      "chg3m": 1.9380035400390625,
+      "chg1mPct": -1.0806559482170623,
+      "chg3mPct": 1.9771512001741636,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4297.60009765625,
+      "current": 4297.5,
       "prevClose": 4245.7998046875,
-      "changeAbs": 51.80029296875,
-      "changePct": 1.2200361616570052,
+      "changeAbs": 51.7001953125,
+      "changePct": 1.2176785927452658,
       "pctRank": 89.97613365155132,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4075.7100219726562,
-      "ma60": 4239.776668294271,
-      "chg1m": 226.7001953125,
-      "chg3m": -384.2998046875,
-      "chg1mPct": 5.568798072926856,
-      "chg3mPct": -8.20820206974353,
+      "ma20": 4075.7050170898438,
+      "ma60": 4239.775,
+      "chg1m": 226.60009765625,
+      "chg3m": -384.39990234375,
+      "chg1mPct": 5.566339214722252,
+      "chg3mPct": -8.210340040617275,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "GC=F",
@@ -154,18 +154,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.168493623133808,
-        "ret3m": -0.14426182250967257,
-        "ret6m": 5.9218912069721075,
-        "ret1y": 7.078635968674374,
+        "ret1m": 6.16886209848031,
+        "ret3m": -0.14391525662681426,
+        "ret6m": 5.92225882644406,
+        "ret1y": 7.079007602820675,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -7.2317581665590325,
-        "ret3m": 9.049652479773563,
-        "ret6m": 83.88895380646775,
-        "ret1y": 241.96368356719358,
+        "ret1m": -7.169893133053673,
+        "ret3m": 9.122375216251877,
+        "ret6m": 84.01158517323364,
+        "ret1y": 242.19173138100777,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,7 +174,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20891927759625878,
+    "corr60": 0.20886700122788512,
     "corrPctRank": 2.0938023450586267,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115784818334243,
@@ -182,11 +182,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "S&P 500 little changed as investors eye Mideast talks - Reuters",
+      "headline": "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html",
+      "datetime": 1786049459,
+      "headlineKo": "버지니아 주지사, 전력 가격 문제로 NextEra와 Dominion 합병에 개입"
+    },
+    {
+      "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html",
+      "datetime": 1786048816,
+      "headlineKo": "Sweetgreen, 원포자충 우려로 매출 감소로 연간 전망 하향"
+    },
+    {
+      "headline": "Dow, S&P slip as investors eye Mideast talks, earnings - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2poa2tBUFVOZFo0R0Q4T2lKVF9aWk5CWGd1Y1A0aXlTOFE1c1JBNlF3bk9qLVlnSUFmMTZoT05MVExKZk9oQzVhUmg4SnBLZ29vLUFDMU1Qb1lOZmd5ZVZHRGVuaTJHWWJyUjFRV19pU3U4NmItdkd0d2JaNWVUSmJZcFBSVEtPVDQyd1RySlA0Q2VCT3RZSzlsSUFPY2FsLUtNMWlubFpQbkZiVmt6TjBZdmRZeXlPMFBZ?oc=5",
-      "datetime": 1786042041,
-      "headlineKo": "투자자들이 중동 협상에 주목하면서 S&P 500은 거의 변하지 않았습니다 - Reuters"
+      "datetime": 1786046498,
+      "headlineKo": "투자자들이 중동 협상과 실적에 주목하면서 다우, S&P 하락 - Reuters"
+    },
+    {
+      "headline": "American Airlines will stop upgrading elite flyers to business from coach on long domestic flights",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/american-airlines-flight-upgrades-become-harder-to-get.html",
+      "datetime": 1786046217,
+      "headlineKo": "아메리칸 항공, 장거리 국내선 항공편에서 엘리트 고객을 코치에서 비즈니스로 업그레이드하는 것을 중단합니다."
+    },
+    {
+      "headline": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVWd6ZjFIZXZHQ2JsNi1UdXBvS1JIUm0xYWtjaDQ1UXVOczhzTzZLNEY0ZTRtb1l5N2lrY09ERHFySlMyakJJNndhRUx5M0FabFZ5TllJZWZPU05na2VqMkRVckJ2VndLdUlFUGd1NklHQlN6V1VJUzRxS09jUmtVVWhMTGRuVlN3YzctZjhBWVI2UUZkQkJqZ0NvdF9uQ1I0RGtCNVNORThqQQ?oc=5",
+      "datetime": 1786044642,
+      "headlineKo": "호르무즈에서 '적대적인' 선박을 금지하라는 이란의 제안으로 유가가 상승함에 따라 금 가격은 꾸준히 상승할 것입니다 - Reuters"
     },
     {
       "headline": "Genius Sports' media surge shows shift beyond sportsbook data",
@@ -231,41 +259,13 @@ const MARKET_DATA = {
       "headlineKo": "유럽 ​​증시는 사상 최고치를 기록했고, 미국-이란 낙관론 - Reuters"
     },
     {
-      "headline": "Jim Cramer says this is a 'good rule' to follow when stocks double",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/jim-cramer-says-this-is-a-good-rule-to-follow-when-stocks-double-.html",
-      "datetime": 1786034193,
-      "headlineKo": "Jim Cramer는 이것이 주식이 두 배로 늘어날 때 따라야 할 '좋은 규칙'이라고 말합니다."
-    },
-    {
-      "headline": "Carney, pressed on Trump's 'nasty' Canada quip, says he is defending workers - Reuters",
+      "headline": "US is set to import most Middle East crude since Iran war began - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWG9iMXgwdzlpZkRTTENvVURWdnEtTW84NnRyWTZVTjR6bFZ5N2tiT1RjRXRacWZWbmJpbHNXSnVVQmp0TjRuaTdHRzFocnVCTTBfT0N0S0NaZmZDd2dfR19HVFJTNkNydjZBSFA2YmhaRlVVSUdGaUdSYUI4bjBZSkh4SHRmQUFMa2I5MUUyUVAwRUlERFMtRXlWa0plZElxa2tuaTVXUEFTcVh2UFNj?oc=5",
-      "datetime": 1786033875,
-      "headlineKo": "카니는 트럼프의 '불쾌한' 캐나다 농담에 압박을 받아 노동자들을 옹호하고 있다고 말했습니다 - 로이터 통신"
-    },
-    {
-      "headline": "Houthi attacks kill at least 30 Yemeni government troops - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcmtNNXV0bmtoZ3g2MVQzTUktLUl0U2R2YlA3Qk83WFZmQXJMYjQ0LU1Za0dHQklueDZ6N2JwQzhvV0VpZTdNVkI0YjdlMWlfcmUwSVU2c3YtUDJCdk1pb3YwY1dFYXdMd3FuMUxMb2dnSEVUZHVtWktubVNjU2RSUnNaLS16Y0hsclh5Wk1Kb09oQzRvT3pSNWZqblZfN2NIQzBfYmw1RkxEbll1Mnc?oc=5",
-      "datetime": 1786030900,
-      "headlineKo": "후티 반군 공격으로 예멘 정부군 최소 30명 사망 - 로이터 통신"
-    },
-    {
-      "headline": "Tata Sons faces continued listing uncertainty after RBI classification - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmxEVDR3VVFSS21nNnB4OV8wNmVuUG5qT1dQUFZqcjU3ZFBJUkxWdktuNDc4MVRFaWdpV1FuR0J3QkduNUlmczZWcWo0dENOYkVCcFByM1IxTm5XVzZkSDd4V3p0NW9sSTFWdm5iNEhZb2RaX29scmxNTTlNSDRqdmJkbHNSUWZOcGNpc2FLMVZTMUpOZTJEdUpYVHUyX3Y1QWdNSnJYc1VrYjY1?oc=5",
-      "datetime": 1786026408,
-      "headlineKo": "Tata Sons는 타점 분류 이후 지속적인 상장 불확실성에 직면해 있습니다 - Reuters"
-    },
-    {
-      "headline": "Afghan accused of killing Scottish woman in Athens to await trial in jail - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ09uVzR4a2xEakJPX0lZZXkwZXZMdDRLX29ZdnlUOEVKcG1xYnZHTXZwTTd3RUJnVW1PdWdVRUdIQ3paeHBaa0k4SlM2OFpZOVQ0X25ULXFxSWFleVp6OWp6MUhHSmJMZU5qb3l3LWQzWVV0UnNrUHd5M2oxYlRSamJQZGRxT2tac2oyTG1OV3lCejNYemlLcWhVekhyd2VMZzR2Y3FkNUlWRjFsUHU2dXVfMGNJRmNPclQ5RkxFRQ?oc=5",
-      "datetime": 1786025987,
-      "headlineKo": "아프가니스탄은 감옥에서 재판을 기다리기 위해 아테네에서 스코틀랜드 여성을 살해한 혐의로 기소됐다 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTHVYaG56WVdrSW5UZkJwY1g4V01nUDRIbzY3dWt2UDBkWGhwcnhkZ0d5aU5QeTlNYnlfS05femN1aVZraXhjallpRGJEWjhoNi1fUERZbjVmQUhGSUVldzJobkJxOERWY2VSUlJfTHc2Z3BhdWlNX1hueVpzRXhqNWp1UHl6Q3dBa2xnNW1ubTBSNzA3bjMtSEwteGxvYVJhUzVOby1IU29WY3o2dzdiU1Rn?oc=5",
+      "datetime": 1786034506,
+      "headlineKo": "미국, 이란 전쟁 발발 이후 대부분의 중동산 원유 수입 예정 - 로이터"
     }
   ],
-  "_fetched_at": 1786046402.20017,
-  "_updated_label": "2026-08-07 05:00"
+  "_fetched_at": 1786050082.7829812,
+  "_updated_label": "2026-08-07 06:01"
 };
