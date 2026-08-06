@@ -489,7 +489,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-03';
+const DASHBOARD_VERSION = '2026-08-06';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -669,9 +669,10 @@ const HINTS = {
   drawdownLT: "주가가 최근 1년 '종가' 기준 최고가보다 얼마나 빠졌는지예요(장중에 찍은 일중 고가가 아니라 그날 마감가 기준 - 검증할 때도 이 기준으로 계산했어요). 깊이 빠질수록 가점(-8%부터 +1, -28% 이하면 +3). 검증 결과 이게 장기 수익률 예측력이 가장 강한 지표였어요.",
   belowMa: "지금 주가가 200일(약 10개월) 평균 아래에 있으면 +1이에요. 평균 아래 = 중기 추세가 눌린 상태라 저가 매수 관점에서 유리했어요.",
   marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
-  fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 기업의 절대적인 가치를 구하는 게 아니라 '지금 PER이 유지된다면'이라는 가정 위의 시나리오라서 '적정주가'보다 'PER 유지 시나리오'라는 이름이 더 정확해요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 분포에서 가져왔어요. 단, 검증해보니 '이 값보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
+  fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 기업의 절대적인 가치를 구하는 게 아니라 EPS·PER 가정을 하나씩 바꿔봤을 때 가격이 얼마나 민감하게 움직이는지 보여주는 '민감도 분석'이라서, '적정주가'보다 '밸류에이션 민감도(PER 유지 시나리오)'라는 이름이 더 정확해요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 PER 분포(20/80백분위)에서 가져왔어요. 단, 검증해보니 '이 값보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
   signalHistory: "최근 단타 진입 신호가 언제·얼마에 떴는지, 그 뒤로 지금까지 얼마나 움직였는지예요. 늦게 확인했을 때 '아직 유효한 자리인지'를 판단하려고 넣었어요. 14년치 검증상 신호 당일 대신 다음날 사도 승률 차이가 1.3%p뿐이라, 하루이틀 늦은 건 큰 문제가 아니었어요.",
   sellGuide: "흔히 쓰는 매도 규칙(RSI 과매수, 200일선 이탈, 신고가권)을 대형주 13년치로 검증했더니 전부 '계속 보유'보다 나을 게 없었어요. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요. 그래서 매도는 주가 지표가 아니라 손절 규칙·펀더멘털 훼손으로 판단하라고 안내해요. 오른쪽은 이 점수에서 샀을 때 과거에 실제로 견뎌야 했던 하락폭과 기간이에요.",
+  backtestReliability: "이 대시보드의 모든 검증 수치(승률·초과수익 등)가 얼마나 믿을 만한지 스스로 점검한 결과예요. 학습/검증 기간을 나누고 시기를 이동시켜(워크포워드) 재확인했고 미래 데이터를 미리 보지 않도록(look-ahead 방지) 만들었지만, 생존편향(지금 살아남은 우량주만 표본)과 배당·매매비용 미반영은 구조적 한계로 남아있어요. 승률 숫자 자체보다 '어떤 조건에서 얼마나 믿을 만한 숫자인지'를 함께 보는 용도예요.",
   news: "Finnhub이 제공하는 최근 헤드라인이에요. 주가가 갑자기 움직일 때 '왜?'를 빠르게 확인하는 용도예요. 제목만 보여주고 내용의 사실 여부나 중요도는 검증하지 않으니, 판단은 원문을 직접 읽고 하세요.",
   riskProfile: "이 종목이 과거에 실제로 얼마나 빠졌고, 저점에서 전고점까지 회복하는 데 얼마나 걸렸는지예요. 예측이 아니라 이미 일어난 사실이에요. 분할매수(-10%/-19%/-27%) 계획이 이 종목에 현실적인지, 그리고 물렸을 때 얼마나 기다릴 각오를 해야 하는지 가늠하는 용도예요.",
   refIndicators: "PER·부채비율·EPS성장·RSI·VIX·F&G예요. 백테스트 결과 이들은 '매수 타이밍'을 예측하지 못하거나 오히려 반대여서 점수에는 안 넣었어요. 하지만 '어떤 우량주를 고를지' 판단할 때는 여전히 참고할 만해서 값만 보여줘요. (자세한 건 아래 '장기 판단 채점 기준' 카드 참고)",
@@ -1071,6 +1072,11 @@ function computeFairValue(ticker, price, fund, est){
   const eps0 = trend.find(t=>t.period==='0y')?.epsAvg ?? null;   // 올해 예상 EPS
   const eps1 = trend.find(t=>t.period==='+1y')?.epsAvg ?? null;  // 내년 예상 EPS
   const nAnalysts = trend.find(t=>t.period==='+1y')?.analysts ?? null;
+  // 2026-08-06 추가: "올해/내년"이 정확히 어느 회계연도를 가리키는지, 컨센서스가 언제 조회됐는지를
+  // 화면에 명시하기 위한 값. endDate는 Yahoo earningsTrend가 이미 주는 회계연도 마감일(문자열).
+  const endDate0 = trend.find(t=>t.period==='0y')?.endDate ?? null;
+  const endDate1 = trend.find(t=>t.period==='+1y')?.endDate ?? null;
+  const consensusAsOf = est && est._updated_label || null;
 
   // (1) 내년 EPS 기준 적정가
   if(!price){
@@ -1095,6 +1101,7 @@ function computeFairValue(ticker, price, fund, est){
     out.fwd = {
       low: mid*PE_BAND_LOW, mid, high: mid*PE_BAND_HIGH,
       eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions,
+      endDate0, endDate1, consensusAsOf,
     };
   }
 
@@ -1576,6 +1583,7 @@ function tabJudgement(r){
   return `
     ${earningsBadge(r.ticker)}
     ${renderDataAsOf(r)}
+    ${renderDataHealth(r)}
     ${isAdHocTicker(r.ticker) ? `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-bottom:12px;"><b>${r.ticker}</b>는 관심종목이 아니라 펀더멘털 캐시가 없어요. 아래 장기 점수(눌림목 강도)는 가격만으로 계산되니 그대로 유효하지만, 참고 지표(PER·부채·EPS)와 02~05 탭은 "조회 불가"로 떠요.</div>` : ''}
     <div class="gauge-wrap">
       <div class="gauge-card">
@@ -1614,10 +1622,10 @@ function tabJudgement(r){
     <div id="techSection">${techViewOpen ? renderTechSection(r) : ''}</div>
     ${renderTradePlan(r)}
     ${renderSignalHistory(r)}
-    ${renderDataHealth(r)}
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
     ${renderSellGuide(r)}
+    ${renderBacktestReliability()}
     ${renderNewsSection(r)}
   `;
 }
@@ -1631,7 +1639,7 @@ function pricePositionBar(price, lo, mid, hi){
   return `<div style="position:relative;height:34px;margin:10px 0 4px;">
     <div style="position:absolute;top:12px;left:0;right:0;height:6px;border-radius:3px;background:linear-gradient(90deg,#cfe3f7,#f2f2ef,#f7d4cf);"></div>
     <div style="position:absolute;top:8px;left:${midPct}%;width:2px;height:14px;background:var(--sub);" title="평균"></div>
-    <div style="position:absolute;top:4px;left:${pct}%;transform:translateX(-50%);font-size:11px;font-weight:700;color:var(--text);white-space:nowrap;">▼ 현재 $${price.toFixed(0)}</div>
+    <div style="position:absolute;top:4px;left:${pct}%;transform:translateX(-50%);font-size:11px;font-weight:700;color:var(--text);white-space:nowrap;">▼ 현재 $${price.toFixed(2)}</div>
   </div>
   <div class="row" style="justify-content:space-between;font-size:11px;color:var(--sub);">
     <span>$${lo.toFixed(0)}</span><span>$${mid.toFixed(0)}</span><span>$${hi.toFixed(0)}</span>
@@ -1654,7 +1662,7 @@ function renderFairValueSection(r){
     const cheaper = discountPct < 0;
     const compareLine = `
       <div class="comment-box" style="background:${cheaper?'var(--up-bg)':'var(--down-bg)'};color:${cheaper?'#a8322c':'#2a4fa0'};margin-bottom:10px;">
-        지금 주가 <b>$${price.toFixed(0)}</b>는 이 시나리오 기준가 <b>$${w.mid.toFixed(0)}</b>보다
+        지금 주가 <b>$${price.toFixed(2)}</b>는 이 시나리오 기준가 <b>$${w.mid.toFixed(0)}</b>보다
         <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요(저평가 쪽)':'높아요(고평가 쪽)'}</b>.
         <span style="font-weight:400;">즉 "PER은 그대로고 실적만 예상대로 큰다"고 가정했을 때, 지금 가격이 그 기준보다 ${cheaper?'싸게':'비싸게'} 거래되고 있다는 뜻이에요.</span>
         <br><span style="font-weight:400;color:var(--sub);">⚠️ 검증 결과 이 저평가/고평가 여부는 이후 수익률을 예측하지 못했어요(오히려 반대 방향이었음 - 아래 경고 참고) - "그래서 사야 한다"는 뜻은 아니에요.</span>
@@ -1665,10 +1673,16 @@ function renderFairValueSection(r){
         <b style="color:${g>=0?'var(--up)':'var(--down)'}">${g>=0?'+':''}${g.toFixed(0)}%</b>)에
         <b>지금 시장이 매기는 PER ${w.anchorPe.toFixed(1)}배</b>를 그대로 적용하면
       </div>
+      ${(w.endDate0||w.endDate1||w.consensusAsOf) ? `<div class="sub" style="margin-bottom:6px;color:var(--sub);font-size:11px;">
+        기준연도: 올해=${w.endDate0?esc(w.endDate0)+' 마감 회계연도':'-'} · 내년=${w.endDate1?esc(w.endDate1)+' 마감 회계연도':'-'}
+        ${w.consensusAsOf?` · 컨센서스 조회일 ${esc(w.consensusAsOf)}`:''}</div>` : ''}
       ${pricePositionBar(price, w.low, w.mid, w.high)}
       <div class="fund-row"><span>보수적 (PER이 하위 20% 수준으로 눌리면)</span><span class="v">$${w.low.toFixed(0)} · ${rel(w.low)}</span></div>
       <div class="fund-row"><span><b>기준 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
       <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
+      <div class="sub" style="margin-top:6px;color:var(--sub);font-size:11px;">
+        산출식: 보수적=기준가×0.64, 낙관적=기준가×1.55. 이 두 배수는 대형주 13종목 13년치의 <b>과거 PER 분포</b>(트레일링PER÷3년평균PER)의 20/80백분위 실측값이에요${r.avgPe3Y!=null?` — 참고로 이 종목의 3년평균 PER은 <b>${r.avgPe3Y.toFixed(1)}배</b>예요(02 가치 탭에도 있어요)`:''}.
+      </div>
       <div class="sub" style="margin-top:8px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
         주가가 <b>지금 그대로여도</b> 내년 실적이 예상대로 나오면 PER은
         <b>${w.anchorPe.toFixed(1)}배 → ${w.pe1y.toFixed(1)}배</b>가 돼요${w.growth>=0?' (가만히 있어도 그만큼 싸지는 셈)':' (이익이 줄어 오히려 비싸짐)'}.
@@ -1714,7 +1728,7 @@ function renderFairValueSection(r){
   ].filter(Boolean).join(' · ');
 
   return `
-    <div class="chart-label" style="margin-top:18px;">PER 유지 시나리오 (참고치) ${hintIcon('fairValue')}</div>
+    <div class="chart-label" style="margin-top:18px;">밸류에이션 민감도 <span style="font-weight:400;color:var(--sub);">— EPS·PER 가정별 가격 범위 (PER 유지 시나리오, 참고치)</span> ${hintIcon('fairValue')}</div>
     <div class="fund-grid">
       <div class="fund-col"><h3>실적 기준 (내년 예상 EPS)</h3>${perBlock}</div>
       <div class="fund-col"><h3>애널리스트 목표가</h3>${analystBlock}</div>
@@ -1734,9 +1748,53 @@ function renderFairValueSection(r){
 // 쿨다운(5거래일)에 걸리는 날이 바뀌고, 결국 '진입 신호로 인정되는 날짜'까지 달라짐.
 // (실제 사례 2026-07: PC는 7/24에 신호 · 폰은 7/27에 신호. 폰 쪽 배열에 봉이 1개 적어서 생긴 차이)
 // 그래서 기기 간 비교가 가능하도록 출처·마지막 거래일·봉 개수를 화면에 그대로 보여준다.
+// ============ 미국 증시 휴장일 판별 (2026-08-06 추가) ============
+// [배경] 예전엔 "최근 30봉에서 빠진 평일"을 전부 후보로만 나열하고 "공휴일이면 정상"이라고만
+// 안내해서, 사용자가 달력을 직접 찾아봐야 진짜 데이터 누락인지 알 수 있었음(사용자 지적:
+// "공휴일 여부와 별개로 데이터 누락 경고를 명확히 표시해달라"). NYSE 고정 휴장일은 계산 가능한
+// 규칙(옵저브드 포함)이라 실제로 판별해서 "공휴일(정상)"과 "누락 의심"을 화면에서부터 구분한다.
+// Good Friday만 부활절 기준이라 규칙이 복잡해 표로 미리 계산해둠(검증 대상 데이터 범위 커버).
+const GOOD_FRIDAY = {2023:'2023-04-07',2024:'2024-03-29',2025:'2025-04-18',2026:'2026-04-03',2027:'2027-03-26',2028:'2028-04-14',2029:'2029-03-30'};
+function nthWeekdayOfMonth(year, month, weekday, n){ // month:0-11, weekday:0=일요일
+  let d = new Date(Date.UTC(year, month, 1)), count = 0;
+  while(true){
+    if(d.getUTCDay()===weekday){ count++; if(count===n) return d.toISOString().slice(0,10); }
+    d.setUTCDate(d.getUTCDate()+1);
+  }
+}
+function lastWeekdayOfMonth(year, month, weekday){
+  let d = new Date(Date.UTC(year, month+1, 0)); // 그 달의 마지막 날
+  while(d.getUTCDay()!==weekday) d.setUTCDate(d.getUTCDate()-1);
+  return d.toISOString().slice(0,10);
+}
+// 고정 날짜 공휴일의 '대체휴일' 규칙(NYSE: 토요일이면 전 금요일, 일요일이면 다음 월요일)
+function observedFixedDate(year, month, day){
+  const d = new Date(Date.UTC(year, month, day)); const wd = d.getUTCDay();
+  if(wd===6) d.setUTCDate(d.getUTCDate()-1); else if(wd===0) d.setUTCDate(d.getUTCDate()+1);
+  return d.toISOString().slice(0,10);
+}
+function usMarketHolidays(year){
+  return new Set([
+    observedFixedDate(year,0,1),        // 신정
+    nthWeekdayOfMonth(year,0,1,3),      // 마틴 루터 킹 데이 (1월 3번째 월요일)
+    nthWeekdayOfMonth(year,1,1,3),      // 프레지던트 데이 (2월 3번째 월요일)
+    GOOD_FRIDAY[year],                  // 성금요일
+    lastWeekdayOfMonth(year,4,1),       // 메모리얼 데이 (5월 마지막 월요일)
+    observedFixedDate(year,5,19),       // 준틴스 (2022년부터 휴장)
+    observedFixedDate(year,6,4),        // 독립기념일
+    nthWeekdayOfMonth(year,8,1,1),      // 노동절 (9월 1번째 월요일)
+    nthWeekdayOfMonth(year,10,4,4),     // 추수감사절 (11월 4번째 목요일)
+    observedFixedDate(year,11,25),      // 성탄절
+  ].filter(Boolean));
+}
+function isUsMarketHoliday(dateStr){
+  const year = +dateStr.slice(0,4);
+  const set = usMarketHolidays(year);
+  return set.has(dateStr);
+}
 function computeDataHealth(dates, source, dropped){
   if(!dates || !dates.length) return null;
-  // 최근 30봉 안에서 '거래일인데 빠진 날'을 찾음. 미국 공휴일도 여기 걸리므로 단정하지 않고 후보로만 표시.
+  // 최근 30봉 안에서 '거래일인데 빠진 날'을 찾아 공휴일(정상)과 누락 의심으로 즉시 분류한다.
   const missing = [];
   const from = Math.max(1, dates.length-30);
   for(let i=from;i<dates.length;i++){
@@ -1745,7 +1803,10 @@ function computeDataHealth(dates, source, dropped){
       d.setUTCDate(d.getUTCDate()+1);
       if(d >= cur) break;
       const wd = d.getUTCDay();
-      if(wd!==0 && wd!==6) missing.push(d.toISOString().slice(0,10));
+      if(wd!==0 && wd!==6){
+        const ds = d.toISOString().slice(0,10);
+        missing.push({date: ds, holiday: isUsMarketHoliday(ds)});
+      }
     }
   }
   return {source: source||'알 수 없음', bars: dates.length, lastDate: dates[dates.length-1], dropped: dropped||0, missing};
@@ -1757,7 +1818,9 @@ function renderDataHealth(r){
   // 없으면 그냥 회색으로 표시돼서, "실시간 3곳이 다 실패해서 어제자 캐시로 대체했다"는 사실이
   // 눈에 잘 안 띄었음(사용자 지적). 실시간 실패 여부는 source 문자열로 판별.
   const usedFallback = /GitHubCache/.test(h.source);
-  const warn = h.missing.length || h.dropped || usedFallback;
+  const trueMissing = h.missing.filter(m=>!m.holiday).map(m=>m.date);
+  const holidayMissing = h.missing.filter(m=>m.holiday).map(m=>m.date);
+  const warn = trueMissing.length || h.dropped || usedFallback;
   const fallbackNote = usedFallback
     ? `<br>⚠️ <b>실시간 조회(TwelveData/야후/Stooq)가 모두 실패해서, PC가 미리 받아둔 캐시(기준일 <b>${esc(h.lastDate)}</b>)로 대체했어요.</b> 오늘 장중 움직임은 반영이 안 됐을 수 있어요 - 새로고침해서 실시간이 복구되는지 확인해 보세요.`
     : '';
@@ -1765,7 +1828,8 @@ function renderDataHealth(r){
     <div class="sub" style="margin-top:8px;padding:8px 10px;background:${warn?'var(--warn-bg)':'var(--panel-2)'};border-radius:8px;${warn?'color:#876000;':''}">
       <b>가격 데이터 점검</b> ${hintIcon('dataHealth')} &nbsp;출처 <b>${esc(h.source)}</b> · 마지막 거래일 <b>${esc(h.lastDate)}</b> · 총 <b>${h.bars}봉</b>${h.dropped?` · 종가 없는 날 ${h.dropped}개 제외됨`:''}
       ${fallbackNote}
-      ${h.missing.length ? `<br>최근 30봉에서 빠진 평일: <b>${h.missing.map(esc).join(', ')}</b> — 미국 공휴일이면 정상이에요. 공휴일이 아닌데 빠져 있으면 그날 데이터를 못 받은 거라, <b>"N거래일 전" 표시와 신호 인정 날짜가 다른 기기와 달라질 수 있어요.</b>` : ''}
+      ${trueMissing.length ? `<br>⚠️ <b>데이터 누락 의심</b> - 최근 30봉에서 미국 공휴일이 아닌데 빠진 평일: <b>${trueMissing.map(esc).join(', ')}</b>. 그날 데이터를 못 받은 거라, <b>"N거래일 전" 표시와 신호 인정 날짜가 다른 기기와 달라질 수 있어요.</b>` : ''}
+      ${holidayMissing.length ? `<br><span style="color:var(--sub);">미국 증시 휴장일(정상): ${holidayMissing.map(esc).join(', ')}</span>` : ''}
       <br><span style="color:var(--sub);">PC와 폰이 다르게 보이면 이 줄(마지막 거래일·총 봉수)을 비교해 보세요. 숫자가 다르면 두 기기가 서로 다른 가격 데이터를 받은 거예요 — 새로고침하면 대개 맞춰집니다.</span>
     </div>`;
 }
@@ -1810,7 +1874,7 @@ function computeRelStrength(r){
   const mine = ret20(ser);
   const bench = group.reduce((a,x)=>a+ret20(x.series),0) / group.length;
   return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100,
-          members:group.length, sector, theme:r.theme};
+          members:group.length, sector, theme:r.theme, tickers:group.map(x=>x.ticker)};
 }
 function renderRelStrength(r){
   const rs = computeRelStrength(r);
@@ -1829,7 +1893,8 @@ function renderRelStrength(r){
       <br><span class="sub">${strongEvidence
         ? `5년치 검증에서 <b>빅테크·SW 그룹</b>은 이 구간의 신호 승률이 <b>51%</b>로, 그룹 평균(60%)보다 확실히 낮았어요(n=39).`
         : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`
-    : ''}</div>`;
+    : ''}
+    <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · 최근 <b>20일</b> 수익률만 비교 · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span></div>`;
 }
 
 // ---- 단타 진입 카드: '지금 사야 하나'에 숫자로 답하는 부분 (2026-07-27 추가) ----
@@ -1861,13 +1926,19 @@ function renderTradePlan(r){
   }
 
   // 진입 계획 숫자 - 기준가는 '지금 산다면' 현재가
+  // ⚠️ 실시간 조회 3곳이 다 실패해서 PC 캐시(prices_data.js)로 대체된 경우, "지금 산다면"이라는
+  // 표현이 실시간 가격처럼 오해를 살 수 있어 라벨을 조건부로 바꿈(2026-08-06, 사용자 지적).
+  const dh = r.dataHealth;
+  const usedFallback = dh && /GitHubCache/.test(dh.source);
+  const entryLabel = usedFallback ? `마지막 확인 종가(${esc(dh.lastDate)}) 기준 가정 진입가` : '지금 산다면 진입가';
   const drop1 = price * (1 + SIGNAL_STATS.avgMaxDrop/100);
   const drop2 = price * 0.90;
   const planRows = `
-    <div class="fund-row"><span>지금 산다면 진입가</span><span class="v"><b>$${price.toFixed(2)}</b></span></div>
-    <div class="fund-row"><span>흔히 겪는 하락 (평균 최대낙폭 ${SIGNAL_STATS.avgMaxDrop}%)</span><span class="v">$${drop1.toFixed(2)}</span></div>
-    <div class="fund-row"><span>여기 아래면 과거 신호의 하위 ${SIGNAL_STATS.severeShare}%</span><span class="v" style="color:var(--down)">$${drop2.toFixed(2)} (-10%)</span></div>
-    <div class="fund-row"><span>권장 보유기간</span><span class="v">10~20거래일 (승률 ${SIGNAL_STATS.hold.map(([d,w])=>`${d}일 ${w}%`).join(' · ')})</span></div>`;
+    <div class="fund-row"><span>${entryLabel}</span><span class="v"><b>$${price.toFixed(2)}</b></span></div>
+    <div class="fund-row"><span>단기 신호 후 10거래일 내 평균 최대낙폭</span><span class="v">$${drop1.toFixed(2)} (${SIGNAL_STATS.avgMaxDrop}%)</span></div>
+    <div class="fund-row"><span>10거래일 내 최대낙폭 분포에서 하위 ${SIGNAL_STATS.severeShare}%에 해당</span><span class="v" style="color:var(--down)">$${drop2.toFixed(2)} (-10%)</span></div>
+    <div class="fund-row"><span>권장 보유기간</span><span class="v">10~20거래일 (승률 ${SIGNAL_STATS.hold.map(([d,w])=>`${d}일 ${w}%`).join(' · ')})</span></div>
+    ${usedFallback ? `<div class="sub" style="margin-top:4px;color:#876000;">⚠️ 실시간 조회가 모두 실패해서 위 가격은 PC 캐시(${esc(dh.lastDate)} 기준) 값이에요 — 지금 이 순간의 실제가와 다를 수 있어요. 아래 「가격 데이터 점검」을 확인하세요.</div>` : ''}`;
 
   // 이 종목의 실제 과거 성적 (라이브 계산 - 조회된 2년치 표본이라 참고용)
   const perfRows = enoughSample
@@ -2021,29 +2092,63 @@ function renderSellGuide(r){
   return `
     <div class="chart-label" style="margin-top:18px;">언제 팔아야 하나 · 얼마나 견뎌야 하나 ${hintIcon('sellGuide')}</div>
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;">
-      ⚠️ <b>"과매수니까 팔자"는 실데이터에서 가장 비싼 실수였어요.</b> 대형주 13종목 13년치로 흔한 매도 규칙들을 검증했더니,
-      매도 신호 이후 60거래일 초과수익이 <b>RSI&gt;70일 때 +7.3%</b>, 200일선 이탈 +5.9%, 신고가권 +4.8%로
-      <b>무작위 시점(+5.3%)보다 나을 게 없었어요</b>. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요.
-      그래서 이 도구는 <b>기술적 매도 신호를 일부러 제공하지 않아요.</b>
+      ⚠️ <b>본 검증 표본(대형주 13종목·13년치, 매도 신호 이후 60거래일 보유 기준)</b>에서는 <b>RSI&gt;70</b>(n=765)·
+      <b>200일선 하향이탈</b>(n=131)·<b>52주 신고가권</b>(n=2157) 매도 규칙이 <b>무작위 시점</b>(n=8060) 대비
+      유의미한 초과성과를 보이지 않았습니다(각각 SPY 대비 초과수익 +7.3%/+5.9%/+4.8% vs 무작위 +5.3%,
+      배당·매매비용 미반영). 특히 과매수(RSI&gt;70)에 판 경우가 가장 낮았어요 — 이 표본에선 가장 좋은 구간을
+      놓친 셈입니다. 그래서 이 도구는 <b>기술적 매도 신호를 일부러 제공하지 않아요.</b>
     </div>
     <div class="fund-grid" style="margin-top:10px;">
       <div class="fund-col">
         <h3>그럼 언제 파나</h3>
         <div class="fund-row"><span>① 손절 규칙 위반</span><span class="v">평단 -27.1% 도달</span></div>
         <div class="fund-row"><span>② 펀더멘털 훼손</span><span class="v">03 실적 탭 매출·이익 꺾임</span></div>
-        <div class="fund-row"><span>③ 돈이 필요할 때</span><span class="v">계획된 인출</span></div>
-        <div class="sub" style="margin-top:6px;">주가 지표가 아니라 <b>회사가 나빠졌는지</b>로 판단하세요. 02 가치·03 실적 탭에서 매출/영업이익이 꺾이는지 보는 게 훨씬 신뢰도 높은 매도 근거예요.</div>
+        <div class="fund-row"><span>③ 계획된 리밸런싱</span><span class="v">애초에 정해둔 시점/비중 조정</span></div>
+        <div class="fund-row"><span>④ 단일 종목 비중 한도 초과</span><span class="v">전체 자산 대비 정해둔 한도 넘김</span></div>
+        <div class="fund-row"><span>⑤ 돈이 필요할 때</span><span class="v">계획된 인출</span></div>
+        <div class="sub" style="margin-top:6px;">주가 지표가 아니라 <b>회사가 나빠졌는지·내 계획과 맞는지</b>로 판단하세요. 02 가치·03 실적 탭에서 매출/영업이익이 꺾이는지 보는 게 훨씬 신뢰도 높은 매도 근거예요.</div>
       </div>
       <div class="fund-col">
-        <h3>지금 사면 견뎌야 할 것 <span style="font-weight:400;color:var(--sub);font-size:11px;">(눌림목 ${r.score}점 기준)</span></h3>
-        <div class="fund-row"><span>평균 추가 하락</span><span class="v" style="color:var(--down)">${p.mae.toFixed(1)}%</span></div>
+        <h3>현재 점수 기반 장기 시나리오 <span style="font-weight:400;color:var(--sub);font-size:11px;">(눌림목 ${r.score}점 매수 후 <b>1년</b> 관점 · 대형주 13종목 13년치 유사 사례 실측)</span></h3>
+        <div class="fund-row"><span>매수 후 1년 내 평균 추가하락</span><span class="v" style="color:var(--down)">${p.mae.toFixed(1)}%</span></div>
         <div class="fund-row"><span>바닥까지 걸린 기간</span><span class="v">중앙값 ${p.trough}거래일 (약 ${(p.trough/21).toFixed(0)}개월)</span></div>
-        <div class="fund-row"><span>1년 중 손실 상태</span><span class="v">${p.under}% 기간</span></div>
-        <div class="fund-row"><span>최장 연속 손실</span><span class="v">${p.streak}거래일</span></div>
-        <div class="fund-row"><span>1년 뒤 플러스 확률</span><span class="v" style="color:var(--up)">${p.win}%</span></div>
+        <div class="fund-row"><span>1년 중 손실 상태였던 기간</span><span class="v">${p.under}%</span></div>
+        <div class="fund-row"><span>최장 연속 손실 일수</span><span class="v">${p.streak}거래일</span></div>
+        <div class="fund-row"><span>매수 1년 뒤 플러스 확률</span><span class="v" style="color:var(--up)">${p.win}%</span></div>
       </div>
     </div>
-    <div class="sub" style="margin-top:6px;">과거 같은 점수에서 샀을 때 실제로 겪었던 값이에요. <b>사자마자 오르는 경우는 드물고</b>, 평균적으로 ${Math.abs(p.mae).toFixed(0)}% 더 빠진 뒤 ${(p.trough/21).toFixed(0)}개월쯤 지나 바닥을 쳤어요. 이걸 미리 알고 들어가야 흔들리지 않아요.</div>`;
+    <div class="sub" style="margin-top:6px;">과거 같은 점수에서 샀을 때 <b>1년 관점</b>에서 실제로 겪었던 값이에요(위 「단타 진입 판단」 카드의 10거래일 통계와는 <b>기간이 다른 별개 지표</b>입니다). <b>사자마자 오르는 경우는 드물고</b>, 평균적으로 ${Math.abs(p.mae).toFixed(0)}% 더 빠진 뒤 ${(p.trough/21).toFixed(0)}개월쯤 지나 바닥을 쳤어요. 이걸 미리 알고 들어가야 흔들리지 않아요.</div>`;
+}
+
+// ---- 백테스트 신뢰성 점검 (2026-08-06 추가) ----
+// [배경] 생존편향·워크포워드 검증·look-ahead 방지·중복신호 처리·배당/액면분할 반영 여부 같은
+// 방법론 정보가 지금까지 이 <script> 안 주석에만 있고 실제 화면(사용자가 보는 곳)에는 전혀
+// 노출되지 않고 있었음(사용자 지적: 이 정보가 있어야 숫자를 정밀 매수예측으로 오해하지 않음).
+// 종목마다 달라지는 내용이 아니라 이 도구 전체의 방법론이라 티커 인자 없이 정적으로 렌더링함.
+function renderBacktestReliability(){
+  return `
+    <div class="chart-label" style="margin-top:18px;">백테스트 신뢰성 점검 ${hintIcon('backtestReliability')}</div>
+    <div class="fund-grid">
+      <div class="fund-col">
+        <div class="fund-row"><span>학습/검증 기간 분리</span><span class="v" style="color:var(--up)">✅ 함</span></div>
+        <div class="fund-row"><span>워크포워드(시기 이동) 검증</span><span class="v" style="color:var(--up)">✅ 함</span></div>
+        <div class="fund-row"><span>look-ahead(미래참조) 방지</span><span class="v" style="color:var(--up)">✅ 함</span></div>
+        <div class="fund-row"><span>중복·겹침 신호 처리</span><span class="v" style="color:var(--up)">✅ 쿨다운 5일로 dedup</span></div>
+      </div>
+      <div class="fund-col">
+        <div class="fund-row"><span>생존편향(상장폐지 제외)</span><span class="v" style="color:var(--warn)">⚠️ 있음</span></div>
+        <div class="fund-row"><span>액면분할 반영</span><span class="v" style="color:var(--up)">✅ 반영됨</span></div>
+        <div class="fund-row"><span>배당 반영</span><span class="v" style="color:var(--warn)">⚠️ 미반영</span></div>
+        <div class="fund-row"><span>매매수수료·슬리피지·세금</span><span class="v" style="color:var(--warn)">⚠️ 미반영</span></div>
+      </div>
+    </div>
+    <div class="sub" style="margin-top:8px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+      <b>학습/검증 분리·워크포워드</b> — 장기 눌림목 점수는 시기를 나눠 검증했어요(train 2014~2020 상관 +0.12 / test 2021~2025 상관 +0.22, 둘 다 비슷해서 특정 시기에만 통한 게 아니에요). 단기 신호(RSI 규칙)는 2013~2021 학습 → 2022~2026 실전 워크포워드에서 승률이 그대로 유지됐어요(65.6%→65.6%).<br>
+      <b>데이터 스누핑(사후 최적화) 위험</b> — 여러 후보 규칙(반등확인 필수화·RSI 상향전환·쿨다운 길이·거래량 조건 등)을 실측 비교했고, <b>워크포워드 여러 구간에서 일관되게 개선된 것만</b> 채택했어요(개선 없는 후보는 CLAUDE.md에 "기각"으로 그대로 남겨둠). 다만 후보를 여러 개 시험한 것 자체가 완전히 없앨 수 없는 위험이라, 채택된 수치도 <b>참고치로 보는 게 안전</b>해요.<br>
+      <b>생존편향</b> — 검증 표본이 <b>지금까지 살아남은 우량 대형주</b>예요. 상장폐지·심각히 부진한 종목은 표본에 없어서, 이 점수는 "이미 고른 우량주를 언제 살까(타이밍)"에만 유효하고 "이 종목이 앞으로도 살아남을까"는 답하지 못해요.<br>
+      <b>배당·액면분할</b> — 가격 데이터는 야후 <code>chart</code> API의 일반 종가를 써요. <b>액면분할은 야후가 소급 반영</b>하지만 <b>배당은 반영되지 않은 가격</b>이라, 배당을 많이 주는 종목은 여기 나오는 승률·수익률이 실제 총수익률보다 <b>살짝 낮게</b> 잡혔을 수 있어요(이 워치리스트는 대부분 배당이 적거나 없는 성장주라 영향은 작을 것으로 보여요).<br>
+      <b>비용 미반영</b> — 모든 승률·수익률은 <b>매매수수료·슬리피지·세금을 빼지 않은</b> 값이에요. 실제로 매매하면 이 숫자보다 조금 낮아져요.
+    </div>`;
 }
 
 // ---- 실적 발표일 + 뉴스 (news_data.js, 없으면 섹션 자체를 숨김) ----
@@ -2346,17 +2451,17 @@ function renderRiskSection(r){
     ? `이 종목은 과거 <b>-27%(3단계 손절선)보다 더 큰 하락</b>을 겪은 적이 있어요. 분할매수 3단계로도 못 버티는 구간이 실제로 있었다는 뜻이니, 진입 비중을 그만큼 보수적으로 잡으세요.`
     : `과거 최대 하락이 분할매수 3단계 범위(-27%) 안에 있었어요. 다만 미래가 과거보다 얕으리란 보장은 없어요.`;
   return `
-    <div class="chart-label" style="margin-top:18px;">하락 리스크 프로필 ${hintIcon('riskProfile')}</div>
+    <div class="chart-label" style="margin-top:18px;">하락 리스크 프로필 <span style="font-weight:400;color:var(--sub);font-size:11px;">(조회된 ${k.years}년 가격 데이터 기준)</span> ${hintIcon('riskProfile')}</div>
     <div class="fund-grid">
       <div class="fund-col">
-        <div class="fund-row"><span>과거 최대 하락폭</span><span class="v" style="color:var(--down)">${k.worstDrawdown.toFixed(1)}%</span></div>
+        <div class="fund-row"><span>${k.years}년 내 과거 최대 하락폭</span><span class="v" style="color:var(--down)">${k.worstDrawdown.toFixed(1)}%</span></div>
         <div class="fund-row"><span>그 시기</span><span class="v">${k.worstFrom||'-'} → ${k.worstTo||'-'}</span></div>
         <div class="fund-row"><span>지금 고점 대비</span><span class="v">${k.currentDrawdown.toFixed(1)}%</span></div>
       </div>
       <div class="fund-col">
         <div class="fund-row"><span>-20% 이상 하락 횟수</span><span class="v">${k.bigDropCount}회</span></div>
         <div class="fund-row"><span>저점→전고점 회복</span><span class="v">${k.avgRecoveryDays!=null?`평균 ${k.avgRecoveryDays}거래일(약 ${(k.avgRecoveryDays/21).toFixed(0)}개월)`:'해당 없음'}</span></div>
-        <div class="fund-row"><span>집계 기간</span><span class="v">${k.years}년 (${k.periodFrom} ~)</span></div>
+        <div class="fund-row"><span>집계 기간</span><span class="v">${k.years}년 (${k.periodFrom} ~ ${k.periodTo})</span></div>
       </div>
     </div>
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">

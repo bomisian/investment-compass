@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.890000343322754,
+      "current": 15.949999809265137,
       "prevClose": 15.8100004196167,
-      "changeAbs": 0.07999992370605469,
-      "changePct": 0.5060083591572366,
-      "pctRank": 28.503184713375795,
+      "changeAbs": 0.1399993896484375,
+      "changePct": 0.8855116124774376,
+      "pctRank": 28.90127388535032,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.207999897003173,
-      "ma60": 17.329999987284342,
-      "chg1m": -1.0099992752075195,
-      "chg3m": -1.1899995803833008,
-      "chg1mPct": -5.976327207132536,
-      "chg3mPct": -6.9672106891034,
+      "ma20": 17.21099987030029,
+      "ma60": 17.33099997838338,
+      "chg1m": -0.9499998092651367,
+      "chg3m": -1.130000114440918,
+      "chg1mPct": -5.621300773424244,
+      "chg3mPct": -6.615925758129208,
       "lastDate": "2026-08-06",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 75.44000244140625,
+      "current": 75.87000274658203,
       "prevClose": 75.22000122070312,
-      "changeAbs": 0.220001220703125,
-      "changePct": 0.29247702357464617,
-      "pctRank": 46.38027048528242,
+      "changeAbs": 0.6500015258789062,
+      "changePct": 0.8641338943504344,
+      "pctRank": 48.050914876690534,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.3879997253418,
-      "ma60": 84.05799992879231,
-      "chg1m": 1.9200057983398438,
-      "chg3m": -19.639999389648438,
-      "chg1mPct": 2.6115422823824592,
-      "chg3mPct": -20.65628840073675,
+      "ma20": 81.40949974060058,
+      "ma60": 84.06516660054525,
+      "chg1m": 2.350006103515625,
+      "chg3m": -19.209999084472656,
+      "chg1mPct": 3.1964175881627326,
+      "chg3mPct": -20.204037352256712,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.73899841308594,
+      "current": 99.77200317382812,
       "prevClose": 99.69000244140625,
-      "changeAbs": 0.0489959716796875,
-      "changePct": 0.04914833030371862,
-      "pctRank": 33.810660302307085,
+      "changeAbs": 0.082000732421875,
+      "changePct": 0.08225572315546056,
+      "pctRank": 34.12887828162291,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.70795059204102,
-      "ma60": 100.22831700642904,
-      "chg1m": -1.311004638671875,
-      "chg3m": 1.7190017700195312,
-      "chg1mPct": -1.297382087163697,
-      "chg3mPct": 1.753725595685508,
+      "ma20": 100.70960083007813,
+      "ma60": 100.22886708577474,
+      "chg1m": -1.2779998779296875,
+      "chg3m": 1.7520065307617188,
+      "chg1mPct": -1.2647202764309626,
+      "chg3mPct": 1.7873970524009903,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4326.7001953125,
+      "current": 4315.5,
       "prevClose": 4245.7998046875,
-      "changeAbs": 80.900390625,
-      "changePct": 1.905421695476159,
-      "pctRank": 90.45346062052506,
+      "changeAbs": 69.7001953125,
+      "changePct": 1.6416269847567646,
+      "pctRank": 90.29435163086714,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4077.1650268554686,
-      "ma60": 4240.261669921875,
-      "chg1m": 255.80029296875,
-      "chg3m": -355.19970703125,
-      "chg1mPct": 6.2836301335112035,
-      "chg3mPct": -7.586657434804142,
+      "ma20": 4076.605017089844,
+      "ma60": 4240.075,
+      "chg1m": 244.60009765625,
+      "chg3m": -366.39990234375,
+      "chg1mPct": 6.008501892061402,
+      "chg3mPct": -7.825880731886876,
       "lastDate": "2026-08-06",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,6 +182,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "European stocks rise on earnings optimism as traders weigh Iran proposals - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
+      "datetime": 1786013921,
+      "headlineKo": "트레이더들이 이란 제안에 무게를 두는 가운데 유럽 증시는 실적 낙관론에 상승 - 로이터 통신"
+    },
+    {
+      "headline": "Oil traders double down on Iran deal bet as odds worsen - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYTlrUTg0TjljZzBlaVJyRkJnS21MLU9TblltYU1oUm1NLVRqX1NnVEZvM2ZCTlMwXzBtUWk5cE1pSE5ZTnFYeGVtZjNZcnBlaU1iRHdfYlVzN3pyd0VYM3ZXRTJzcHhUYlNMT1ZmRU15eHhqZi1FNkpKa04waEk2YXA2X2QtUVBKcmZtMjRkWDd6anFaQzBJeXlhUXZmZTZxYUxYcU4wUjFNUnliUDk4YWVRb2FCZTFmV1FHQnFWck8wd0k?oc=5",
+      "datetime": 1786013149,
+      "headlineKo": "석유 거래자들, 확률이 악화되면서 이란 거래에 대한 베팅을 두 배로 늘림 - Reuters"
+    },
+    {
+      "headline": "Hadrian valued at nearly $8 billion after fresh funding as money pours into defense tech",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/06/hadrian-defense-tech-ai-manufacturing.html",
+      "datetime": 1786010098,
+      "headlineKo": "하드리아누스는 국방 기술에 돈이 쏟아지면서 새로운 자금 지원을 받은 후 거의 80억 달러의 가치를 갖게 되었습니다."
+    },
+    {
       "headline": "Morning Bid: AI stocks learn to fly — but ain't got wings - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNLVdyc053UEtXR1QxVFh6Q0xDYjlVYUxyaXdYZG05c0lkaHhoQnhZSnJGaXhPTFhoMkEwMUIzdE0tV2F0WGI1NGtxdTJGWklQV3JfYjRmU2dYXzQzNXBpeDRhT09ITGN3aGM4ekdDb2xzejNjUldiSVY5U1ZlWFJFaDYycG8ybzZKYlY1NG5R?oc=5",
@@ -196,6 +217,13 @@ const MARKET_DATA = {
       "headlineKo": "독점: Sinopec은 중동 공급 삭감을 상쇄하기 위해 러시아 석유 수입을 늘리고 있다고 거래자와 추적자는 말합니다 - Reuters"
     },
     {
+      "headline": "Israel strikes south Lebanon after soldiers killed, talks continue in Rome - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORWNLdnd6QTJNaVRGaG5aOVJqRjBnOFAzT05ubjAxY2dya0luUWg4Rk5xZU5KOXF2aEEzY3pQcDlLWXhvQmlNcXBKMTk4M09lWHFqM0ltOXlyeXdxQTFVRTZTTDR2Rl9pNFlDQm1PdFhpRE1zc1hhTzQ2MkZPR0lFbmZ4WXVLRzVLcmdOLXc1QVhUNm1GQlY4MWgxekxSM1NtOGNPS0tlbnJlSDRybFdZNFlqM2k0b1NNeWFaZA?oc=5",
+      "datetime": 1785986820,
+      "headlineKo": "이스라엘, 군인 사망 후 레바논 남부 공습, 로마에서 회담 계속 - 로이터"
+    },
+    {
       "headline": "Trump reiterates his positive portrayal of Iran talks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYkljYWk5RVFGOXRJR0hycTRVWW1CTGZ6aFFlcU1MLTlJTUVMWFVvMDVmRm1qTzZyZ1RWaE92S1AzeE1QZHdTZFd0aFkwQ05oVDllUmlScmNtM2xPcUlJalE3Nk1Sbm10cGNjcEZOblcwbTdWTVNYVEFObVNIZzhJV20yUkVVTkFQQ2hlNGxobi1KVzZvQzk5Tm9IVQ?oc=5",
@@ -203,32 +231,25 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 이란 회담에 대해 긍정적인 입장 재차 강조 - 로이터"
     },
     {
-      "headline": "Yen and dollar drift on Iran deal concerns, payroll jitters - Reuters",
+      "headline": "Dollar ticks up as markets await Iran deal news, look towards payrolls - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT2VsMnRGWG5QTmNmeVNLM21MZHV1dkdiRnBOWnNrZUdicjNhZTB3M3JjLTdJVGk0VTc4VjhEUkxtdUpGZ0J5bV9BMklYVWhSb1lMQkFlWk1JRm5SY3BmcU1tUkhUbWNaRGZDUHhNcW42RU1QZ0Y0ODdxWXZSa1l4OWxfSVlhMEx1ODdCZUI5UlJRUUpmMEJ4Z3lFOERXVWFXRGRjV3h1MjRlQQ?oc=5",
       "datetime": 1785981660,
-      "headlineKo": "이란 거래 우려로 인한 엔화 및 달러 변동, 급여 불안 - Reuters"
+      "headlineKo": "시장이이란 거래 소식을 기다리고 급여를 기대하면서 달러는 상승합니다 - Reuters"
     },
     {
-      "headline": "Asia shares fall on tech pullback, oil stable as Iran talks stay in focus - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcE5UZ1dJanFrQ1hFUUNWWmM2N2cxckRKUFYtOHNLUHhtVkdpLXpmNXZjeVMzd2dycVUxSmVlNU54aE1DLVFnMmY0VnVsZk1IT1puQVQydHlUS19RNkVhRXlfbU1fdlhIZ0tORnBOWHl4a2dUZFUyZFpoUzZuZDFkUFZucw?oc=5",
-      "datetime": 1785979620,
-      "headlineKo": "이란 회담이 집중되면서 기술주 하락, 석유 안정으로 아시아 주가 하락 - Reuters"
-    },
-    {
-      "headline": "Oil gains as investors cautious over Iran-Oman talk progress - Reuters",
+      "headline": "Oil prices steady as investors cautious over Iran-Oman talks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmw0WV9PeEJVU0pBczd6UzhWSjdUMlQ2aDhwUGxDbWdvc3hMakw5d3h3Q2wxMXNRakctZjRlTW8wNi1PNnU2eDY0anYxakZYSkZBSVN6SUhJOEF4aW1HSTVnUWREc3k2dFBvUEl0azM4TXFoV1I1S1pJRVlVUm1SakpIeVFqM0wxS2gtMDFvc3ktZ05QYjc3VXRtSHdsNk9hLWUwb3VxTzBFcVhBeUx3Zm82Zw?oc=5",
       "datetime": 1785978420,
-      "headlineKo": "이란-오만 회담 진전에 투자자들이 조심하면서 석유 상승 - 로이터"
+      "headlineKo": "이란-오만 회담에 대한 투자자들의 우려로 유가 안정 - Reuters"
     },
     {
-      "headline": "Gold hits seven-week peak as market participants weigh Hormuz reopening prospects - Reuters",
+      "headline": "Gold hovers near seven-week high on easing rate hike concerns - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVWd6ZjFIZXZHQ2JsNi1UdXBvS1JIUm0xYWtjaDQ1UXVOczhzTzZLNEY0ZTRtb1l5N2lrY09ERHFySlMyakJJNndhRUx5M0FabFZ5TllJZWZPU05na2VqMkRVckJ2VndLdUlFUGd1NklHQlN6V1VJUzRxS09jUmtVVWhMTGRuVlN3YzctZjhBWVI2UUZkQkJqZ0NvdF9uQ1I0RGtCNVNORThqQQ?oc=5",
       "datetime": 1785977460,
-      "headlineKo": "시장 참가자들이 호르무즈 재개 전망을 평가하면서 금값이 7주 최고치를 기록했습니다. - Reuters"
+      "headlineKo": "금값은 금리인상 우려 완화에 7주 최고치 부근 맴돌다 - 로이터"
     },
     {
       "headline": "Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq - Reuters",
@@ -243,29 +264,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/05/jim-cramer-investors-should-consider-buying-spacex-kids.html",
       "datetime": 1785969641,
       "headlineKo": "짐 크레이머(Jim Cramer)는 투자자들이 아이들을 위해 SpaceX 구매를 고려해야 한다고 말했습니다."
-    },
-    {
-      "headline": "FAA says Marine One was briefly too close to passenger airplane - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWGVVekl4bEJ3UlhoSEc3U3J1Z0lBZk1KVFRmdWg3UHVjOW5tM010QUVNeUdZbzlmUkx1X2lhM3gxN0EydFo1UnhBanVkUU12YnlKUXV6NHJTeS1ROXNlRU5ucHUwcndQQXo0Y3RqeVJ4MkZ1SEhIRmQ5c0Z6Yy15VkpTbUFDSVdVTUhJakJmOF9BVjdZckNobUVvcHhHa0FaS3V6RG90bzMwd3N5X0hKczEwQWRTMVBsbVFtTkNDc0I?oc=5",
-      "datetime": 1785968007,
-      "headlineKo": "FAA는 마린 원이 여객기에 잠시 너무 가까웠다고 밝혔습니다."
-    },
-    {
-      "headline": "Hollywood is cranking out billion-dollar movies again. Spider-Man just joined the ranks",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/05/hollywood-2026-billion-dollar-movies.html",
-      "datetime": 1785964501,
-      "headlineKo": "할리우드가 다시 10억 달러 규모의 영화를 제작하고 있습니다. 스파이더맨이 방금 대열에 합류했습니다."
-    },
-    {
-      "headline": "Etsy lays off 12% of workforce as part of restructuring plan - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYWh3SWlrVGlSZDBVdnBWajVZS3N1ejdBVVN6SlY2V3JIdVRQOVc2VGFtX1Y1MHNsblFON3pWVkhZbHU4WmtoQWZWNlZJQUZLMDlkMTEyNDBycEd1Y3BMMXRHUDNnSHZMNHdFY3FycS12R080bTZ5TEVfQmFzOE1ONzJ5WlpMS0trVFV6T3lpRFo2WVRiSUpOWW5hZDlZczgtdnhYeEVZRnBrQQ?oc=5",
-      "datetime": 1785961759,
-      "headlineKo": "Etsy, 구조조정 계획의 일환으로 인력 12% 해고 - Reuters"
     }
   ],
-  "_fetched_at": 1786004506.0781903,
-  "_updated_label": "2026-08-06 17:22"
+  "_fetched_at": 1786017601.6257508,
+  "_updated_label": "2026-08-06 21:00"
 };
