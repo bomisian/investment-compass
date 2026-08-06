@@ -681,7 +681,8 @@ const HINTS = {
   rsi: "최근 14일간 '많이 팔렸는지 많이 샀는지'를 0~100으로 나타내요. 30 밑이면 과매도, 70 위면 과매수로 봐요.",
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
-  tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요.",
+  tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요. 이 카드의 숫자는 전부 14년·14종목 공식 검증치 하나의 출처예요.",
+  signalEvidence: "위 '단타 진입 판단' 카드와는 표본이 다른 보조 자료예요. 이 종목만의 라이브 성적(표본이 작아 우연일 수 있음) · 같은 그룹(섹터)의 5년치 승률 · 오늘 기준 그룹 대비 상대강도, 이렇게 3가지가 섞여 있으니 각각 어떤 표본인지 확인하고 참고만 하세요.",
   // 02 가치/퀄리티
   fwdPer: "올해 예상 이익 대비 주가가 몇 배인지예요. 낮을수록 이익 대비 싸게 거래되고 있다는 뜻이에요.",
   avgPer3y: "최근 3년간 평균 PER이에요. 지금 PER과 비교해서 지금이 평소보다 싼지 비싼지 판단하는 기준선으로 써요.",
@@ -1959,25 +1960,36 @@ function renderTradePlan(r){
   const badgeBg = es.kind==='new' ? 'var(--green-bg)' : (es.kind==='cooldown' ? 'var(--warn-bg)' : 'var(--panel-2)');
   const badgeColor = es.kind==='new' ? '#0a6b45' : (es.kind==='cooldown' ? '#876000' : '#4b5157');
 
-  return `
+  // 2026-08-06 카드 분리: 예전엔 "단타 진입 판단" 카드 하나 안에 (a)공식 14년치 검증치 기반
+  // 오늘의 계획과 (b)이 종목 라이브 성적(표본 5건 등)·그룹 5년치 승률·오늘의 상대강도가 한 카드에
+  // 섞여 있어서, 서로 다른 표본·시점의 숫자가 하나의 판단처럼 보였음(사용자 지적). ①"현재 신호
+  // 상태+공식 검증치 기반 계획"과 ②"이 신호의 참고 근거(종목/그룹/오늘)"를 별개 chart-label 카드로
+  // 나눠서 출처를 구분함 - 계산 로직은 그대로, 화면 배치만 바꿈.
+  const card1 = `
     <div class="chart-label" style="margin-top:18px;">단타 진입 판단 ${hintIcon('tradePlan')}</div>
     <div class="comment-box" style="background:${badgeBg};color:${badgeColor};">
       <span class="badge b-${badge.cls}" style="margin-right:6px;">${badge.label}</span> ${stateNote}
     </div>
-    <div class="fund-grid" style="margin-top:10px;">
-      <div class="fund-col"><h3>${(es.kind==='new'||es.kind==='cooldown') ? '지금 들어간다면 (숫자)' : '참고: 지금 사는 경우의 기준선 <span style="font-weight:400;color:var(--sub);">(신호가 뜬 상태는 아니에요)</span>'}</h3>${planRows}
-        <div class="sub" style="margin-top:8px;">검증은 <b>손절 없이 10~20일 보유</b>한 기준이에요. 위 -10%는 손절선이 아니라 "여기까지 빠지면 과거 신호 중 나빴던 8.5%에 해당한다"는 <b>참고선</b>이에요.</div>
-      </div>
-      <div class="fund-col"><h3>이 종목의 과거 성적 ${hintIcon('backtest')}</h3>${perfRows}
-        <div class="sub" style="margin-top:8px;">조회된 2년치 ${st10.n}건 기준의 <b>라이브 계산</b>이라 표본이 작아요. 공식 검증치(14년·14종목)가 더 믿을 만해요.</div>
-        ${themeWinRateNote(r)}
-      </div>
+    <div class="fund-col" style="margin-top:10px;"><h3>${(es.kind==='new'||es.kind==='cooldown') ? '지금 들어간다면 (숫자 · 14년치 공식 검증 기준)' : '참고: 지금 사는 경우의 기준선 <span style="font-weight:400;color:var(--sub);">(신호가 뜬 상태는 아니에요 · 14년치 공식 검증 기준)</span>'}</h3>${planRows}
+      <div class="sub" style="margin-top:8px;">검증은 <b>손절 없이 10~20일 보유</b>한 기준이에요. 위 -10%는 손절선이 아니라 "여기까지 빠지면 과거 신호 중 나빴던 8.5%에 해당한다"는 <b>참고선</b>이에요.</div>
     </div>
-    ${fitNote}
-    ${renderRelStrength(r)}
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
       <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
     </div>`;
+
+  const card2 = `
+    <div class="chart-label" style="margin-top:18px;">이 신호의 참고 근거 ${hintIcon('signalEvidence')}</div>
+    <div class="sub" style="margin-bottom:6px;">위 카드는 <b>14년·14종목 공식 검증치</b> 하나의 출처예요. 아래는 <b>서로 다른 표본·시점</b>의 보조 자료입니다 — 참고만 하고 위 계획을 대체하진 마세요.</div>
+    <div class="fund-grid">
+      <div class="fund-col"><h3>이 종목의 과거 성적 <span style="font-weight:400;color:var(--sub);font-size:11px;">(라이브·소표본)</span> ${hintIcon('backtest')}</h3>${perfRows}
+        <div class="sub" style="margin-top:8px;">조회된 2년치 ${st10.n}건 기준의 <b>라이브 계산</b>이라 표본이 작아요. 위 공식 검증치(14년·14종목)가 더 믿을 만해요.</div>
+      </div>
+      <div class="fund-col"><h3>그룹(섹터) 승률 <span style="font-weight:400;color:var(--sub);font-size:11px;">(5년치)</span></h3>${themeWinRateNote(r) || '<div class="sub">그룹 승률 데이터가 없어요.</div>'}</div>
+    </div>
+    ${fitNote}
+    ${renderRelStrength(r)}`;
+
+  return card1 + card2;
 }
 
 // ---- 최근 단타 신호 이력 (늦게 확인해도 판단할 수 있게) ----

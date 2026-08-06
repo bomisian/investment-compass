@@ -146,8 +146,8 @@ const FINANCIALS_DATA = {
         "netIncome": 58321000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "AAPL": {
     "annual": [
@@ -294,8 +294,8 @@ const FINANCIALS_DATA = {
         "netIncome": 29578000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "GOOGL": {
     "annual": [
@@ -442,8 +442,8 @@ const FINANCIALS_DATA = {
         "netIncome": 62578000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "MSFT": {
     "annual": [
@@ -590,8 +590,8 @@ const FINANCIALS_DATA = {
         "netIncome": 31778000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:00"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "AMZN": {
     "annual": [
@@ -738,14 +738,14 @@ const FINANCIALS_DATA = {
         "netIncome": 30255000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "TSM": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "AVGO": {
     "annual": [
@@ -892,8 +892,8 @@ const FINANCIALS_DATA = {
         "netIncome": 9310000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "META": {
     "annual": [
@@ -1040,8 +1040,8 @@ const FINANCIALS_DATA = {
         "netIncome": 26773000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "TSLA": {
     "annual": [
@@ -1188,8 +1188,8 @@ const FINANCIALS_DATA = {
         "netIncome": 477000000
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "MU": {
     "annual": [
@@ -1336,8 +1336,8 @@ const FINANCIALS_DATA = {
         "netIncome": 28243000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:01"
   },
   "AMD": {
     "annual": [
@@ -1484,8 +1484,8 @@ const FINANCIALS_DATA = {
         "netIncome": 1383000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "INTC": {
     "annual": [
@@ -1632,8 +1632,8 @@ const FINANCIALS_DATA = {
         "netIncome": -3728000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "AMAT": {
     "annual": [
@@ -1780,20 +1780,20 @@ const FINANCIALS_DATA = {
         "netIncome": 2806000000.0
       }
     ],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:01"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "QQQ": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:00"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1785412846.639474,
-    "_updated_label": "2026-07-30 21:00"
+    "_fetched_at": 1786021202.2414722,
+    "_updated_label": "2026-08-06 22:00"
   },
   "ORCL": {
     "annual": [
