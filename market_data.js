@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.289999961853027,
+      "current": 15.180000305175781,
       "prevClose": 15.149999618530273,
-      "changeAbs": 0.1400003433227539,
-      "changePct": 0.9240946986659764,
-      "pctRank": 23.00955414012739,
+      "changeAbs": 0.030000686645507812,
+      "changePct": 0.19802433927993873,
+      "pctRank": 22.372611464968152,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.183999872207643,
-      "ma60": 17.274666627248127,
-      "chg1m": -0.5500001907348633,
-      "chg3m": -1.9000005722045898,
-      "chg1mPct": -3.4722233929082753,
-      "chg3mPct": -11.052940739822676,
+      "ma20": 17.17849988937378,
+      "ma60": 17.27283329963684,
+      "chg1m": -0.6599998474121094,
+      "chg3m": -2.010000228881836,
+      "chg1mPct": -4.166665663221479,
+      "chg3mPct": -11.692845645347894,
       "lastDate": "2026-08-07",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 77.33000183105469,
+      "current": 76.61000061035156,
       "prevClose": 77.29000091552734,
-      "changeAbs": 0.04000091552734375,
-      "changePct": 0.05175432145622821,
-      "pctRank": 52.66507557677009,
+      "changeAbs": -0.6800003051757812,
+      "changePct": -0.8798037225008897,
+      "pctRank": 49.96022275258552,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.77649955749511,
-      "ma60": 83.67466659545899,
-      "chg1m": 5.25,
-      "chg3m": -17.479995727539062,
-      "chg1mPct": 7.283573621855971,
-      "chg3mPct": -18.436869715913883,
+      "ma20": 81.74049949645996,
+      "ma60": 83.66266657511393,
+      "chg1m": 4.529998779296875,
+      "chg3m": -18.199996948242188,
+      "chg1mPct": 6.284681831605041,
+      "chg3mPct": -19.19628458696496,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.91999816894531,
+      "current": 99.87699890136719,
       "prevClose": 99.97000122070312,
-      "changeAbs": -0.0500030517578125,
-      "changePct": -0.05001805656420979,
-      "pctRank": 35.24264120922832,
+      "changeAbs": -0.0930023193359375,
+      "changePct": -0.09303022726849516,
+      "pctRank": 34.765314240254575,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.66700057983398,
-      "ma60": 100.25933367411295,
-      "chg1m": -1.0200042724609375,
-      "chg3m": 1.6699981689453125,
-      "chg1mPct": -1.0105054961268012,
-      "chg3mPct": 1.6997436834048985,
+      "ma20": 100.66485061645508,
+      "ma60": 100.25861701965331,
+      "chg1m": -1.0630035400390625,
+      "chg3m": 1.6269989013671875,
+      "chg1mPct": -1.0531043335927357,
+      "chg3mPct": 1.6559785255645676,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4366.2998046875,
+      "current": 4383.10009765625,
       "prevClose": 4242.0,
-      "changeAbs": 124.2998046875,
-      "changePct": 2.930216989332862,
-      "pctRank": 91.16945107398568,
+      "changeAbs": 141.10009765625,
+      "changePct": 3.3262634996758607,
+      "pctRank": 91.3285600636436,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4086.040002441406,
-      "ma60": 4233.6616617838545,
-      "chg1m": 235.69970703125,
-      "chg3m": -333.5,
-      "chg1mPct": 5.706185577368982,
-      "chg3mPct": -7.096046935177383,
+      "ma20": 4086.880017089844,
+      "ma60": 4233.941666666667,
+      "chg1m": 252.5,
+      "chg3m": -316.69970703125,
+      "chg1mPct": 6.112913233679325,
+      "chg3mPct": -6.738578667018522,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "GC=F",
@@ -182,10 +182,17 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Martha's Vineyard African American Film Festival set for record attendance despite macro challenges",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/07/marthas-vineyard-african-american-film-festival-set-for-record-attendance.html",
+      "datetime": 1786100401,
+      "headlineKo": "마사스 빈야드 아프리카계 미국인 영화제(Martha's Vineyard African American Film Festival)는 거시적인 어려움에도 불구하고 기록적인 참석률을 기록했습니다."
+    },
+    {
       "headline": "Saudi Arabia, Turkey and Pakistan to sign joint defence deal amid regional turmoil - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
-      "datetime": 1786089228,
+      "datetime": 1786099504,
       "headlineKo": "사우디아라비아, 터키, 파키스탄, 지역 혼란 속에서 공동 방위 협정 체결 - 로이터 통신"
     },
     {
@@ -203,13 +210,6 @@ const MARKET_DATA = {
       "headlineKo": "시장이 이란-오만 회담을 지켜보면서 이번 주 호르무즈를 통과하는 선박 교통량이 감소합니다 - Reuters"
     },
     {
-      "headline": "Everybody wants energy security post the Iran war, but how? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
-      "datetime": 1786077010,
-      "headlineKo": "모두가 이란 전쟁 이후 에너지 안보를 원하지만 어떻게 그럴 수 있을까요? - 로이터"
-    },
-    {
       "headline": "Dollar set for weekly gain as traders eye Iran talks, US jobs data - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5",
@@ -217,18 +217,25 @@ const MARKET_DATA = {
       "headlineKo": "트레이더들이 이란 회담과 미국 고용 데이터를 주목하면서 달러는 주간 상승세를 기록했습니다 - Reuters"
     },
     {
-      "headline": "Gold heads for best week since January, US jobs data in focus - Reuters",
+      "headline": "Gold set for best week since January as inflation fears ebb - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWpUMWdTeEtHNmJ5VDlJZU9tOGp0d0xFQTBlT2xXUHBTSENUdHowV0JkLTFockFBbUl6T0hHT29nUjN5XzR0RWlCbU9VQjZBY2pJd0o5dmFhel9VeGZqV0E1VFpEZjJ3dWk1T2I5aERGNE41dVlkWlFFeHFsUm80RVVPTkNlX2lKc0tJTEtBRURzbXZZMWI5YnlHS1dlWWJyRkFsSmxXM2NWdU5qV1lj?oc=5",
       "datetime": 1786065240,
-      "headlineKo": "금은 1월 이후 최고의 한 주를 향했고, 미국 일자리 데이터에 초점이 맞춰져 있습니다 - Reuters"
+      "headlineKo": "인플레이션 우려가 쇠퇴함에 따라 금은 1월 이후 최고의 주를 기록했습니다 - Reuters"
     },
     {
-      "headline": "Oil rises on concerns over Strait of Hormuz reopening plans - Reuters",
+      "headline": "Everybody wants energy security post the Iran war, but how? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
+      "datetime": 1786064074,
+      "headlineKo": "모두가 이란 전쟁 이후 에너지 안보를 원하지만 어떻게 그럴 수 있을까요? - 로이터"
+    },
+    {
+      "headline": "Oil prices drop as investors weigh potential Hormuz deal between Iran, Gulf states - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
       "datetime": 1786063620,
-      "headlineKo": "호르무즈 해협 재개 계획 우려로 유가 상승 - 로이터"
+      "headlineKo": "투자자들이 이란과 걸프 국가 간의 호르무즈 거래 가능성을 고려하면서 유가 하락 - Reuters"
     },
     {
       "headline": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
@@ -245,11 +252,11 @@ const MARKET_DATA = {
       "headlineKo": "터키, 사우디아라비아, 파키스탄이 금요일 사우디아라비아에서 공동방위협정에 서명할 것이라고 소식통이 전했습니다."
     },
     {
-      "headline": "Houthi attack on Saudi Arabia wounds 11 civilians as kingdom warns of wider threat - Reuters",
+      "headline": "Saudi expects imminent two-pronged attack from Iran's allies, official says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3M0RkZsT0JHNHhwVXVvVURQZWs0R1hMbHFpa0RsdXE4MjNaME9lUXc4bXc1M1J4em93djJwZ3U4bS1UczdEaVJDRENsYXlYS2xJQ19ZeTVmRU1mLTBxWHFySVIzRjh3OG5JWFU5b1BpNjYtUlFDNzllUG56Tm9VcTgyYUExX1FzZ3ltLWxXNEE2R3NYZ2I4bTRRUFZtbm5WQUo2UDc2X2hUb3ZaOUpvdVVFWFdQdmx0NXFaeHl3XzdjQQ?oc=5",
       "datetime": 1786052580,
-      "headlineKo": "사우디아라비아에 대한 후티 공격으로 민간인 11명 부상, 사우디 왕국이 더 큰 위협 경고 - 로이터 통신"
+      "headlineKo": "사우디는 이란 동맹국으로부터 두 갈래의 공격이 임박할 것으로 예상한다고 관계자가 밝혔습니다 - 로이터"
     },
     {
       "headline": "Bomb planted on minibus kills two near Damascus, Syrian officials say - Reuters",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFkyalJWQ2txUksxbXpvMFRkWUJYSkVlNjBGTXVjRnFJOF9ONkJ2ZWUyUG9uMmxWSENpMFpoSUlZdzRwNVJZWU1wY0tHSmxCNy04S2xBQjRvYWtEeVNPb3hpQ0tIY2ZiR3BqRURVazhJSG9uZFBfc1EwTzVGZWs1cHpUUzlYU3hkZ3hJLWVmcGZaSl9ONFdlbzhPajNiYWo3RkQ4T1BqWVY0c2twZlFINFBmZDdOMXJ2cjZMSEhQOGFXMmh5cEEwaXR3?oc=5",
       "datetime": 1786051873,
       "headlineKo": "다마스쿠스 근처에서 미니버스에 폭탄이 설치돼 2명이 사망했다고 시리아 관리들이 밝혔습니다."
-    },
-    {
-      "headline": "Trump says he thinks war with Iran will end 'pretty soon' - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1cxUm9wLUhEVGJsRnRJd0xDWmh6LUk2bThTQ0RSWFJDRFZ1OFNKWU5ab2t5ZGJIdjVnSkliUTI0N3dhNnBpSEJGSmRWWl80Z3NNT0lnUEItRGVxT2dsRU1fS3A0MVUzblJsOWx4bGlLY0JNa3FDT2lpY1hhNkMycnl2UWlFbEUxUFRKWGJDQ0k4eG5EZlRXTk1IajFlYkZjRk5PWW84WFR2MnVBeFE?oc=5",
-      "datetime": 1786050714,
-      "headlineKo": "트럼프 \"이란과의 전쟁 곧 끝날 것\" - 로이터"
     }
   ],
-  "_fetched_at": 1786096126.9866693,
-  "_updated_label": "2026-08-07 18:49"
+  "_fetched_at": 1786104002.5354178,
+  "_updated_label": "2026-08-07 21:00"
 };
