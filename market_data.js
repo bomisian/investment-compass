@@ -3,19 +3,19 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.859999656677246,
+      "current": 14.899999618530273,
       "prevClose": 15.149999618530273,
-      "changeAbs": -0.28999996185302734,
-      "changePct": -1.9141912155451308,
-      "pctRank": 19.82484076433121,
+      "changeAbs": -0.25,
+      "changePct": -1.6501650580520142,
+      "pctRank": 19.904458598726116,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.162499856948852,
-      "ma60": 17.2674999554952,
-      "chg1m": -0.9800004959106445,
-      "chg3m": -2.330000877380371,
-      "chg1mPct": -6.186871758019112,
-      "chg3mPct": -13.55439677133265,
+      "ma20": 17.164499855041505,
+      "ma60": 17.26816662152608,
+      "chg1m": -0.9400005340576172,
+      "chg3m": -2.2900009155273438,
+      "chg1mPct": -5.9343467487533,
+      "chg3mPct": -13.321703574064985,
       "lastDate": "2026-08-07",
       "bars": 1256,
       "symbol": "^VIX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 76.91000366210938,
+      "current": 77.29000091552734,
       "prevClose": 77.29000091552734,
-      "changeAbs": -0.37999725341796875,
-      "changePct": -0.4916512471429256,
-      "pctRank": 51.07398568019092,
+      "changeAbs": 0.0,
+      "changePct": 0.0,
+      "pctRank": 52.50596658711218,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.75549964904785,
-      "ma60": 83.66766662597657,
-      "chg1m": 4.8300018310546875,
-      "chg3m": -17.899993896484375,
-      "chg1mPct": 6.700890272416374,
-      "chg3mPct": -18.879859041681716,
+      "ma20": 81.77449951171874,
+      "ma60": 83.67399991353354,
+      "chg1m": 5.209999084472656,
+      "chg3m": -17.519996643066406,
+      "chg1mPct": 7.228078457439771,
+      "chg3mPct": -18.479060325087374,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.5250015258789,
+      "current": 99.62100219726562,
       "prevClose": 99.97000122070312,
-      "changeAbs": -0.44499969482421875,
-      "changePct": -0.4451332293592713,
-      "pctRank": 31.901352426412092,
+      "changeAbs": -0.3489990234375,
+      "changePct": -0.34910375030106994,
+      "pctRank": 33.0151153540175,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.64725074768066,
-      "ma60": 100.25275039672852,
-      "chg1m": -1.4150009155273438,
-      "chg3m": 1.2750015258789062,
-      "chg1mPct": -1.401823738164386,
-      "chg3mPct": 1.297711476721533,
+      "ma20": 100.65205078125,
+      "ma60": 100.2543504079183,
+      "chg1m": -1.319000244140625,
+      "chg3m": 1.371002197265625,
+      "chg1mPct": -1.3067170717637733,
+      "chg3mPct": 1.3954220837309161,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4408.2998046875,
+      "current": 4399.5,
       "prevClose": 4242.0,
-      "changeAbs": 166.2998046875,
-      "changePct": 3.9203159992338517,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 157.5,
+      "changePct": 3.7128712871287126,
+      "pctRank": 91.40811455847255,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4088.140002441406,
-      "ma60": 4234.361661783854,
-      "chg1m": 277.69970703125,
-      "chg3m": -291.5,
-      "chg1mPct": 6.722986986535444,
-      "chg3mPct": -6.202391848888178,
+      "ma20": 4087.7000122070312,
+      "ma60": 4234.214998372396,
+      "chg1m": 268.89990234375,
+      "chg3m": -300.2998046875,
+      "chg1mPct": 6.509947610186881,
+      "chg3mPct": -6.389629711205701,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "GC=F",
@@ -154,18 +154,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 7.559887501745921,
-        "ret3m": 0.909168033679375,
-        "ret6m": 12.005623048838654,
-        "ret1y": 7.156877413139728,
+        "ret1m": 7.568073120155927,
+        "ret3m": 0.9168475131096754,
+        "ret6m": 12.014147000577058,
+        "ret1y": 7.165032361316848,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -9.916831971487161,
-        "ret3m": 13.468909357504245,
-        "ret6m": 85.98388583266579,
-        "ret1y": 247.0872202224031,
+        "ret1m": -9.91498096617679,
+        "ret3m": 13.471240886894043,
+        "ret6m": 85.98770738077354,
+        "ret1y": 247.094352079573,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,13 +174,48 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20133015218951814,
+    "corr60": 0.20133270282743299,
     "corrPctRank": 1.9246861924686192,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115782038222396,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
+      "datetime": 1786134137,
+      "headlineKo": "소프트웨어 주가 급등하면서 'SaaS종말론' 논쟁 격화"
+    },
+    {
+      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
+      "datetime": 1786134015,
+      "headlineKo": "사우디아라비아, 터키, 파키스탄, 중동 혼란이 고조됨에 따라 상호 방어를 약속 - 로이터 통신"
+    },
+    {
+      "headline": "Brent climbs $1 on uncertainty over end to Iran war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
+      "datetime": 1786133114,
+      "headlineKo": "브렌트유, 이란 전쟁 종식 불확실성에 1달러 상승 - 로이터"
+    },
+    {
+      "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
+      "datetime": 1786130143,
+      "headlineKo": "美 관리 \"이란과 오만 간 호르무즈 해협 곧 협상 타결될 것\" - 로이터 통신"
+    },
+    {
+      "headline": "Trump to host mining CEOs as administration seeks minerals for defense supply chains - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOC1sWW4tTHpEM1NiQWVIbnZMRVlvcVcyNTl2UE1QU1lqSlBVaTlNai1UUm1yR0htazhtZjA1N3Jtb2dEaHhnWklPREdWdG52a0FrTjBMamVaM1FlR1JmSzZycUpWY3pKUzA4V3pRTk9FRzRsTklOMEhvQlRybVVjTHRNbjByQ3ZHY25ja2JERjBXdDUzNXo1WDNFeEFGa3hZTnZUR2lxWTZIQ2p5M01qV0lnUXBFQm1JRVdlZk90MkZhTWplb3RZdVJ0ZktrNmFKM0dr?oc=5",
+      "datetime": 1786129903,
+      "headlineKo": "트럼프 행정부가 국방 공급망을 위한 광물을 모색함에 따라 광산 CEO를 초대 - 로이터"
+    },
     {
       "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
       "source": "Reuters",
@@ -224,48 +259,13 @@ const MARKET_DATA = {
       "headlineKo": "ADNOC은 선박에 대한 공격과 직원이 운영에 심각한 영향을 미친다고 말했습니다 - Reuters"
     },
     {
-      "headline": "Cassidy supports Todd Blanche, rescuing Trump's embattled attorney general pick",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/blanche-ag-trump-cassidy-senate-confirmation.html",
-      "datetime": 1786114491,
-      "headlineKo": "캐시디는 토드 블랜치(Todd Blanche)를 지지하여 궁지에 몰린 트럼프의 법무장관 지명자를 구출했습니다."
-    },
-    {
-      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
+      "headline": "What is the Patriot missile system and why are supplies depleted worldwide? - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
-      "datetime": 1786113086,
-      "headlineKo": "사우디아라비아, 터키, 파키스탄, 중동 혼란이 고조됨에 따라 상호 방어를 약속 - 로이터 통신"
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Friday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/jim-cramers-top-10-things-to-watch-in-the-stock-market-friday-.html",
-      "datetime": 1786108198,
-      "headlineKo": "Jim Cramer가 금요일 주식 시장에서 주목해야 할 10가지 항목"
-    },
-    {
-      "headline": "Homes are selling below asking in 38 of the 50 biggest U.S. cities—if you can afford one",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/homes-are-selling-below-asking-in-38-of-the-50-biggest-us-cities.html",
-      "datetime": 1786107601,
-      "headlineKo": "여유가 있는 경우 미국 50대 도시 중 38개 도시에서 주택 가격이 아래로 판매되고 있습니다."
-    },
-    {
-      "headline": "Martha's Vineyard African American Film Festival set for record attendance despite macro challenges",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/marthas-vineyard-african-american-film-festival-set-for-record-attendance.html",
-      "datetime": 1786100401,
-      "headlineKo": "마사스 빈야드 아프리카계 미국인 영화제(Martha's Vineyard African American Film Festival)는 거시적인 어려움에도 불구하고 기록적인 참석률을 기록했습니다."
-    },
-    {
-      "headline": "Trump to host mining CEOs as administration seeks minerals for defense supply chains - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOC1sWW4tTHpEM1NiQWVIbnZMRVlvcVcyNTl2UE1QU1lqSlBVaTlNai1UUm1yR0htazhtZjA1N3Jtb2dEaHhnWklPREdWdG52a0FrTjBMamVaM1FlR1JmSzZycUpWY3pKUzA4V3pRTk9FRzRsTklOMEhvQlRybVVjTHRNbjByQ3ZHY25ja2JERjBXdDUzNXo1WDNFeEFGa3hZTnZUR2lxWTZIQ2p5M01qV0lnUXBFQm1JRVdlZk90MkZhTWplb3RZdVJ0ZktrNmFKM0dr?oc=5",
-      "datetime": 1786098468,
-      "headlineKo": "트럼프 행정부가 국방 공급망을 위한 광물을 모색함에 따라 광산 CEO를 초대 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRmtXR0FpcFZzbEtPOEtrS25wVmRwYk10UTlkMzZ1M292dEZZUjdvbEhyMF8yb2FSUFBRbmF3U2NMTm1CSXhCbVkzZUtNRWprV3hLWFhUVnY1UGFYbnB0OVF5SVRQek9OeFo0WHkwZ1NKM090OVZoYjRDZ2lMaWxrNHNpVVVjZEF1SWtGZFVvUWt6emhuZm40NFdsRnlTNGVmQk9ZeC15a2pYZzNH?oc=5",
+      "datetime": 1786114803,
+      "headlineKo": "패트리어트 미사일 시스템은 무엇이며 전 세계적으로 보급품이 고갈되는 이유는 무엇입니까? - 로이터"
     }
   ],
-  "_fetched_at": 1786132826.458021,
-  "_updated_label": "2026-08-08 05:00"
+  "_fetched_at": 1786136402.599981,
+  "_updated_label": "2026-08-08 06:00"
 };
