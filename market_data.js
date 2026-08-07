@@ -3,20 +3,20 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.149999618530273,
-      "prevClose": 15.8100004196167,
-      "changeAbs": -0.6600008010864258,
-      "changePct": -4.174578011190381,
-      "pctRank": 22.213375796178344,
+      "current": 15.289999961853027,
+      "prevClose": 15.149999618530273,
+      "changeAbs": 0.1400003433227539,
+      "changePct": 0.9240946986659764,
+      "pctRank": 23.00955414012739,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
-      "ma20": 17.17099986076355,
-      "ma60": 17.317666641871135,
-      "chg1m": -1.75,
-      "chg3m": -1.9300003051757812,
-      "chg1mPct": -10.355029819534343,
-      "chg3mPct": -11.299767645180443,
-      "lastDate": "2026-08-06",
+      "ma20": 17.183999872207643,
+      "ma60": 17.274666627248127,
+      "chg1m": -0.5500001907348633,
+      "chg3m": -1.9000005722045898,
+      "chg1mPct": -3.4722233929082753,
+      "chg3mPct": -11.052940739822676,
+      "lastDate": "2026-08-07",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -45,19 +45,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7319998741149902,
+      "current": 3.7320001125335693,
       "prevClose": 3.7249999046325684,
-      "changeAbs": 0.006999969482421875,
-      "changePct": 0.18791864863449836,
+      "changeAbs": 0.0070002079010009766,
+      "changePct": 0.18792504913343006,
       "pctRank": 37.60956175298805,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "ma20": 3.722949969768524,
-      "ma60": 3.664183330535889,
-      "chg1m": 0.008999824523925781,
-      "chg3m": 0.13199996948242188,
-      "chg1mPct": 0.24173581531148045,
-      "chg3mPct": 3.6666659160896384,
+      "ma20": 3.722949981689453,
+      "ma60": 3.6641833345095316,
+      "chg1m": 0.009000062942504883,
+      "chg3m": 0.13200020790100098,
+      "chg1mPct": 0.24174221924851846,
+      "chg3mPct": 3.6666725388281223,
       "lastDate": "2026-08-06",
       "bars": 1255,
       "symbol": "^IRX",
@@ -66,20 +66,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 78.06999969482422,
-      "prevClose": 75.22000122070312,
-      "changeAbs": 2.8499984741210938,
-      "changePct": 3.7888838445494155,
-      "pctRank": 55.529037390612565,
+      "current": 77.33000183105469,
+      "prevClose": 77.29000091552734,
+      "changeAbs": 0.04000091552734375,
+      "changePct": 0.05175432145622821,
+      "pctRank": 52.66507557677009,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.51949958801269,
-      "ma60": 84.10183321634928,
-      "chg1m": 4.5500030517578125,
-      "chg3m": -17.01000213623047,
-      "chg1mPct": 6.188796598900441,
-      "chg3mPct": -17.890199630470267,
-      "lastDate": "2026-08-06",
+      "ma20": 81.77649955749511,
+      "ma60": 83.67466659545899,
+      "chg1m": 5.25,
+      "chg3m": -17.479995727539062,
+      "chg1mPct": 7.283573621855971,
+      "chg3mPct": -18.436869715913883,
+      "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -87,20 +87,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.93900299072266,
-      "prevClose": 99.69000244140625,
-      "changeAbs": 0.24900054931640625,
-      "changePct": 0.2497748452386273,
-      "pctRank": 35.40175019888624,
+      "current": 99.91999816894531,
+      "prevClose": 99.97000122070312,
+      "changeAbs": -0.0500030517578125,
+      "changePct": -0.05001805656420979,
+      "pctRank": 35.24264120922832,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.71795082092285,
-      "ma60": 100.23165041605631,
-      "chg1m": -1.1110000610351562,
-      "chg3m": 1.91900634765625,
-      "chg1mPct": -1.0994557421894406,
-      "chg3mPct": 1.9577702646167083,
-      "lastDate": "2026-08-06",
+      "ma20": 100.66700057983398,
+      "ma60": 100.25933367411295,
+      "chg1m": -1.0200042724609375,
+      "chg3m": 1.6699981689453125,
+      "chg1mPct": -1.0105054961268012,
+      "chg3mPct": 1.6997436834048985,
+      "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -108,20 +108,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4306.7998046875,
-      "prevClose": 4245.7998046875,
-      "changeAbs": 61.0,
-      "changePct": 1.4367139951500782,
-      "pctRank": 90.21479713603819,
+      "current": 4366.2998046875,
+      "prevClose": 4242.0,
+      "changeAbs": 124.2998046875,
+      "changePct": 2.930216989332862,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4076.1700073242187,
-      "ma60": 4239.929996744791,
-      "chg1m": 235.89990234375,
-      "chg3m": -375.10009765625,
-      "chg1mPct": 5.794785133575373,
-      "chg3mPct": -8.011706902757055,
-      "lastDate": "2026-08-06",
+      "ma20": 4086.040002441406,
+      "ma60": 4233.6616617838545,
+      "chg1m": 235.69970703125,
+      "chg3m": -333.5,
+      "chg1mPct": 5.706185577368982,
+      "chg3mPct": -7.096046935177383,
+      "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -129,19 +129,19 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.213000297546387,
+      "current": 5.2129998207092285,
       "prevClose": 5.173999786376953,
-      "changeAbs": 0.039000511169433594,
-      "changePct": 0.7537787549222794,
+      "changeAbs": 0.03900003433227539,
+      "changePct": 0.7537695388964215,
       "pctRank": 99.76095617529882,
       "min5y": 1.6779999732971191,
       "max5y": 5.275000095367432,
-      "ma20": 5.144550061225891,
-      "ma60": 5.045216719309489,
-      "chg1m": 0.14800024032592773,
-      "chg3m": 0.2700004577636719,
-      "chg1mPct": 2.9220185321606182,
-      "chg3mPct": 5.4622793144889235,
+      "ma20": 5.144550037384033,
+      "ma60": 5.045216711362203,
+      "chg1m": 0.14799976348876953,
+      "chg3m": 0.26999998092651367,
+      "chg1mPct": 2.922009117804196,
+      "chg3mPct": 5.462269667772888,
       "lastDate": "2026-08-06",
       "bars": 1255,
       "symbol": "^TYX",
@@ -150,7 +150,7 @@ const MARKET_DATA = {
       "digits": 2
     }
   },
-  "yieldSpread": 0.9380002021789551,
+  "yieldSpread": 0.937999963760376,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -162,10 +162,10 @@ const MARKET_DATA = {
         "count": 9
       },
       "반도체": {
-        "ret1m": -7.169893133053673,
-        "ret3m": 9.122375216251877,
-        "ret6m": 84.01158517323364,
-        "ret1y": 242.19173138100777,
+        "ret1m": -7.169818412605922,
+        "ret3m": 9.122463050608731,
+        "ret6m": 84.01173328712144,
+        "ret1y": 242.19200681664225,
         "winRate": 71.5,
         "count": 15
       }
@@ -174,13 +174,62 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.20886700122788512,
+    "corr60": 0.20886693837289294,
     "corrPctRank": 2.0938023450586267,
     "corrMin5y": 0.11496792019743002,
     "corrMedian5y": 0.7115784818334243,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "Saudi Arabia, Turkey and Pakistan to sign joint defence deal amid regional turmoil - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
+      "datetime": 1786089228,
+      "headlineKo": "사우디아라비아, 터키, 파키스탄, 지역 혼란 속에서 공동 방위 협정 체결 - 로이터 통신"
+    },
+    {
+      "headline": "AI demand keeps China's export engine humming, but risks loom - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcmhJQUR2QVh5SHpuWDZ2ZFk3RWdCbDlINEY1MEZuc0tRbkJQT3FuRmQ1WDdtd2owTmhJeDdIU09EYkFiNEJpTnA3cWhQQ1dnWUpkWDJPVENiZDIzTXlNUlRNenF2VlRXM29EbFFJelBiTUhuU1cycU5EV3RvaVhIbU4yc0pNWDM2aGlCaGtSTG5ySGx3aXhFcTNRTkZ4cFlva3k0cA?oc=5",
+      "datetime": 1786083276,
+      "headlineKo": "AI 수요로 인해 중국의 수출 엔진이 활발하게 작동하지만 위험은 닥칠 것임 - Reuters"
+    },
+    {
+      "headline": "Vessel traffic through Hormuz dwindles this week as markets watch Iran-Oman talks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjdYbS1fZXZGWktSZkVpMk4temZNOUY1cEFsQUxTRXRNQnJUai1lY2xTMDE5dmFMZjUyUzZQclRyQUJuVTFVXzB6RGtpeXlFeU8xZjNiVWp4dVVNTkVWcVhCVEpsVVdTa1lsZEVfVUlSWHBlMjh0UDNYdkpjS3BHVjA2MUUtSXU0OTNEZ1lCUW9iYkliLUxSN2JSTTlFbEktaGRTb2UzcUxNMjlaZGtQSmt1S1FWYzlvdlkwdDM3WjY0dHZTRU9VWFFB?oc=5",
+      "datetime": 1786077180,
+      "headlineKo": "시장이 이란-오만 회담을 지켜보면서 이번 주 호르무즈를 통과하는 선박 교통량이 감소합니다 - Reuters"
+    },
+    {
+      "headline": "Everybody wants energy security post the Iran war, but how? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
+      "datetime": 1786077010,
+      "headlineKo": "모두가 이란 전쟁 이후 에너지 안보를 원하지만 어떻게 그럴 수 있을까요? - 로이터"
+    },
+    {
+      "headline": "Dollar set for weekly gain as traders eye Iran talks, US jobs data - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5",
+      "datetime": 1786068300,
+      "headlineKo": "트레이더들이 이란 회담과 미국 고용 데이터를 주목하면서 달러는 주간 상승세를 기록했습니다 - Reuters"
+    },
+    {
+      "headline": "Gold heads for best week since January, US jobs data in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWpUMWdTeEtHNmJ5VDlJZU9tOGp0d0xFQTBlT2xXUHBTSENUdHowV0JkLTFockFBbUl6T0hHT29nUjN5XzR0RWlCbU9VQjZBY2pJd0o5dmFhel9VeGZqV0E1VFpEZjJ3dWk1T2I5aERGNE41dVlkWlFFeHFsUm80RVVPTkNlX2lKc0tJTEtBRURzbXZZMWI5YnlHS1dlWWJyRkFsSmxXM2NWdU5qV1lj?oc=5",
+      "datetime": 1786065240,
+      "headlineKo": "금은 1월 이후 최고의 한 주를 향했고, 미국 일자리 데이터에 초점이 맞춰져 있습니다 - Reuters"
+    },
+    {
+      "headline": "Oil rises on concerns over Strait of Hormuz reopening plans - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
+      "datetime": 1786063620,
+      "headlineKo": "호르무즈 해협 재개 계획 우려로 유가 상승 - 로이터"
+    },
     {
       "headline": "Jim Cramer highlights 5 investing themes — and the stocks to buy for each",
       "source": "CNBC",
@@ -189,11 +238,25 @@ const MARKET_DATA = {
       "headlineKo": "Jim Cramer는 5가지 투자 테마와 각 테마에 대해 매수할 주식을 강조합니다."
     },
     {
-      "headline": "Saudi Arabia expects imminent attacks from north and south, senior official says - Reuters",
+      "headline": "Turkey, Saudi Arabia, Pakistan to sign joint defence agreement in Saudi Arabia on Friday, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVWlCbG9KRkh2aHRNSjBWS25TWEM3V3Y5aDlfbFcwNGZIaldpZ25rNlpGUGVtcDFRQ0JUWnZ5NnhwSGJSZjBSRm5idU9iNFNUcEMxcFJDb0FrcjBUU2JvemN0OWYxazdOS3hzMHBxVVJvOVlsQ1RQcEIyT0R0NXFxSU01SDJJdm1hZklPSEYxSEQxS0t6WFpMemlDdWpFcXh5bW0wMUM3ODBBSjVPVHNJTk5rQ2ViSHdTWWlQeWQ0YjR4MjJNVTdXNDBqcw?oc=5",
+      "datetime": 1786053823,
+      "headlineKo": "터키, 사우디아라비아, 파키스탄이 금요일 사우디아라비아에서 공동방위협정에 서명할 것이라고 소식통이 전했습니다."
+    },
+    {
+      "headline": "Houthi attack on Saudi Arabia wounds 11 civilians as kingdom warns of wider threat - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPa3M0RkZsT0JHNHhwVXVvVURQZWs0R1hMbHFpa0RsdXE4MjNaME9lUXc4bXc1M1J4em93djJwZ3U4bS1UczdEaVJDRENsYXlYS2xJQ19ZeTVmRU1mLTBxWHFySVIzRjh3OG5JWFU5b1BpNjYtUlFDNzllUG56Tm9VcTgyYUExX1FzZ3ltLWxXNEE2R3NYZ2I4bTRRUFZtbm5WQUo2UDc2X2hUb3ZaOUpvdVVFWFdQdmx0NXFaeHl3XzdjQQ?oc=5",
-      "datetime": 1786052587,
-      "headlineKo": "사우디 아라비아는 북쪽과 남쪽에서 임박한 공격을 예상한다고 고위 관리가 말했습니다 - 로이터 통신"
+      "datetime": 1786052580,
+      "headlineKo": "사우디아라비아에 대한 후티 공격으로 민간인 11명 부상, 사우디 왕국이 더 큰 위협 경고 - 로이터 통신"
+    },
+    {
+      "headline": "Bomb planted on minibus kills two near Damascus, Syrian officials say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFkyalJWQ2txUksxbXpvMFRkWUJYSkVlNjBGTXVjRnFJOF9ONkJ2ZWUyUG9uMmxWSENpMFpoSUlZdzRwNVJZWU1wY0tHSmxCNy04S2xBQjRvYWtEeVNPb3hpQ0tIY2ZiR3BqRURVazhJSG9uZFBfc1EwTzVGZWs1cHpUUzlYU3hkZ3hJLWVmcGZaSl9ONFdlbzhPajNiYWo3RkQ4T1BqWVY0c2twZlFINFBmZDdOMXJ2cjZMSEhQOGFXMmh5cEEwaXR3?oc=5",
+      "datetime": 1786051873,
+      "headlineKo": "다마스쿠스 근처에서 미니버스에 폭탄이 설치돼 2명이 사망했다고 시리아 관리들이 밝혔습니다."
     },
     {
       "headline": "Trump says he thinks war with Iran will end 'pretty soon' - Reuters",
@@ -201,71 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOX1cxUm9wLUhEVGJsRnRJd0xDWmh6LUk2bThTQ0RSWFJDRFZ1OFNKWU5ab2t5ZGJIdjVnSkliUTI0N3dhNnBpSEJGSmRWWl80Z3NNT0lnUEItRGVxT2dsRU1fS3A0MVUzblJsOWx4bGlLY0JNa3FDT2lpY1hhNkMycnl2UWlFbEUxUFRKWGJDQ0k4eG5EZlRXTk1IajFlYkZjRk5PWW84WFR2MnVBeFE?oc=5",
       "datetime": 1786050714,
       "headlineKo": "트럼프 \"이란과의 전쟁 곧 끝날 것\" - 로이터"
-    },
-    {
-      "headline": "Virginia governor to intervene in NextEra, Dominion merger over electricity price concerns",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/virginia-governor-nextera-nee-dominion-data-center.html",
-      "datetime": 1786049459,
-      "headlineKo": "버지니아 주지사, 전력 가격 문제로 NextEra와 Dominion 합병에 개입"
-    },
-    {
-      "headline": "Sweetgreen cuts full-year outlook as cyclospora fears weigh on sales",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/sweetgreen-cuts-full-year-outlook-as-cyclospora-fears-weigh-on-sales.html",
-      "datetime": 1786048816,
-      "headlineKo": "Sweetgreen, 원포자충 우려로 매출 감소로 연간 전망 하향"
-    },
-    {
-      "headline": "Stocks close lower as investors eye Mideast talks, earnings - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa2poa2tBUFVOZFo0R0Q4T2lKVF9aWk5CWGd1Y1A0aXlTOFE1c1JBNlF3bk9qLVlnSUFmMTZoT05MVExKZk9oQzVhUmg4SnBLZ29vLUFDMU1Qb1lOZmd5ZVZHRGVuaTJHWWJyUjFRV19pU3U4NmItdkd0d2JaNWVUSmJZcFBSVEtPVDQyd1RySlA0Q2VCT3RZSzlsSUFPY2FsLUtNMWlubFpQbkZiVmt6TjBZdmRZeXlPMFBZ?oc=5",
-      "datetime": 1786047757,
-      "headlineKo": "투자자들이 중동 회담과 실적에 주목하면서 주가는 하락 마감 - Reuters"
-    },
-    {
-      "headline": "Bomb planted on minibus kills two near Damascus, Syria says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQWFkyalJWQ2txUksxbXpvMFRkWUJYSkVlNjBGTXVjRnFJOF9ONkJ2ZWUyUG9uMmxWSENpMFpoSUlZdzRwNVJZWU1wY0tHSmxCNy04S2xBQjRvYWtEeVNPb3hpQ0tIY2ZiR3BqRURVazhJSG9uZFBfc1EwTzVGZWs1cHpUUzlYU3hkZ3hJLWVmcGZaSl9ONFdlbzhPajNiYWo3RkQ4T1BqWVY0c2twZlFINFBmZDdOMXJ2cjZMSEhQOGFXMmh5cEEwaXR3?oc=5",
-      "datetime": 1786046734,
-      "headlineKo": "시리아 다마스쿠스 근처에서 미니버스에 폭탄이 설치돼 2명이 사망했다고 시리아가 밝혔습니다."
-    },
-    {
-      "headline": "American Airlines will stop upgrading elite flyers to business from coach on long domestic flights",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/american-airlines-flight-upgrades-become-harder-to-get.html",
-      "datetime": 1786046217,
-      "headlineKo": "아메리칸 항공, 장거리 국내선 항공편에서 엘리트 고객을 코치에서 비즈니스로 업그레이드하는 것을 중단합니다."
-    },
-    {
-      "headline": "Gold pares gains to trade steady as oil rises on Iran proposal to bar 'hostile' vessels in Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVWd6ZjFIZXZHQ2JsNi1UdXBvS1JIUm0xYWtjaDQ1UXVOczhzTzZLNEY0ZTRtb1l5N2lrY09ERHFySlMyakJJNndhRUx5M0FabFZ5TllJZWZPU05na2VqMkRVckJ2VndLdUlFUGd1NklHQlN6V1VJUzRxS09jUmtVVWhMTGRuVlN3YzctZjhBWVI2UUZkQkJqZ0NvdF9uQ1I0RGtCNVNORThqQQ?oc=5",
-      "datetime": 1786044642,
-      "headlineKo": "호르무즈에서 '적대적인' 선박을 금지하라는 이란의 제안으로 유가가 상승함에 따라 금 가격은 꾸준히 상승할 것입니다 - Reuters"
-    },
-    {
-      "headline": "Genius Sports' media surge shows shift beyond sportsbook data",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/06/genius-sports-media-surge-shows-shift-beyond-sportsbook-data.html",
-      "datetime": 1786040239,
-      "headlineKo": "Genius Sports의 미디어 급증은 스포츠북 데이터 이상의 변화를 보여줍니다."
-    },
-    {
-      "headline": "Proposed Hormuz passage deal not feasible for shipping industry, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQajNmWTdWUHQ1RkRPd0FjWUUzSkd5cTNhN1NxREdIUUxGZklfbGEycml6emw1VThlRXk3YU5aakNULU5DanUwclZDWEpLUTg0c0xjRElxaTlKU2NiRHJzT1JiVmltOTVlQ1hNcGkxaTNjYndSX29leFl6S1l0OGxJd0hfSGZKOEwzZ3JVOURWVGgtY2JWUDZ2aXFoTWNDZV83eXllTko1WjVCSmpCb2IwM0ZNTTRTdDdxaXJGOHhZS2laUTg?oc=5",
-      "datetime": 1786039017,
-      "headlineKo": "소식통에 따르면 호르무즈 통과 거래는 해운업계에 타당하지 않다고 한다 - 로이터 통신"
-    },
-    {
-      "headline": "US sanctions Cuban military officials, firms tied to weapons procurement - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONUJlYkNHU01pX081SFpYMFJ0SFh1SjRUcTJYbXZXWVJzNVdvSG9wd2otSnVPNkNlVUMxTVc5MnhYdnBLTGxWU3FLMWxpN19TcllydUJ4QXFGQzZaTjYySWt2VXJKUTljZjFoSWcwc0Nfd2tPMXIwRmU2RVJZV0d5cE9MWnRVTGV2MUxzX3d3OU8?oc=5",
-      "datetime": 1786037246,
-      "headlineKo": "미국, 쿠바 군 관계자, 무기 조달 관련 기업 제재 - Reuters"
     }
   ],
-  "_fetched_at": 1786060802.172892,
-  "_updated_label": "2026-08-07 09:00"
+  "_fetched_at": 1786096126.9866693,
+  "_updated_label": "2026-08-07 18:49"
 };
