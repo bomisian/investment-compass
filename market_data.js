@@ -182,11 +182,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Turkey, Pakistan, Saudi Arabia defence pact technically same as NATO's Article 5, Turkish minister says - Reuters",
+      "headline": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
+      "datetime": 1786225065,
+      "headlineKo": "이란 \"호르무즈 해협 협상 타결됐지만 수로 개방에는 충분치 않다\" - reuters.com"
+    },
+    {
+      "headline": "Turkey, Pakistan, Saudi Arabia defence pact technically same as NATO's Article 5, Turkish minister says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVVZeXNFQ1JsdkxwT29TdjNMRmVVM0V6Y3B1NzB3SDVpMzRaTXdFZjJpcWEteGxQd1dWalV1WDlnS2NhSVlTZGhYVHhLU2tUNHhjZ1I4Zl9WbFFZaVRudVU3TEFCMnFtRFlGU2ZYZDNreVlQTjljdWFMbndxVGdyNUlaZFJPUjRZd0F2SnB5dUtvUWZYYWFJUmpjNjVWeFdTTGwyaU8zOGdtdUFjQW5zb0E2aUt1VEUybWxjX2pLZHdwTlVSN2lzbg?oc=5",
       "datetime": 1786218833,
-      "headlineKo": "터키·파키스탄·사우디아라비아 국방협정, 나토 제5조와 기술적으로 동일하다고 터키 장관 \"로이터\""
+      "headlineKo": "터키·파키스탄·사우디아라비아 국방협정, 나토 제5조와 기술적으로 동일하다고 터키 장관 \"로이터스닷컴\""
     },
     {
       "headline": "Hunter Biden says Joe Biden’s cancer has spread further and is ‘very painful’",
@@ -194,13 +201,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/08/hunter-biden-says-joe-bidens-cancer-has-spread-is-very-debilitating.html",
       "datetime": 1786209925,
       "headlineKo": "헌터 바이든은 조 바이든의 암이 더 퍼졌고 '매우 고통스럽다'고 말했습니다."
-    },
-    {
-      "headline": "Iran says deal on Strait of Hormuz is close but is not enough to open the waterway - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
-      "datetime": 1786207544,
-      "headlineKo": "이란 \"호르무즈 해협 협상 타결됐지만 수로 개방에는 충분치 않다\" - 로이터"
     },
     {
       "headline": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
@@ -217,39 +217,39 @@ const MARKET_DATA = {
       "headlineKo": "옵션에 대한 기록적인 한 주 동안 S&P 500 급등이 힘을 얻었습니다. 변동성 게이지는 2026년 최저치에 가깝습니다."
     },
     {
-      "headline": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz - Reuters",
+      "headline": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajV4Uk9FTWd2WFJTWWVSZS1pdkl4OGFERFdzeExaYy1udkYxWGdXYWxRdHUwd2kwLVRtRTdhRkdVdUZuNXZ3U09EQUR3OXUwUzVtZmZZeWZkWmlkTThUTDBYNVBjbE9IWVBQZnhhcHBfcFVnZTc0NG1uMk54dElXNkhzQUFZR3VkRW5QZkthVjdfdTJOaXR6YWxiZmtfdzJROGg3bWFuOVhuV2ZkTDNLNkg4d18?oc=5",
       "datetime": 1786189617,
-      "headlineKo": "UAE는 이란이 호르무즈 해협에서 ADNOC 선박을 미사일로 공격했다고 밝혔습니다."
+      "headlineKo": "UAE, 이란이 호르무즈 해협에서 ADNOC 선박을 미사일로 공격했다고 밝혔습니다."
     },
     {
-      "headline": "Iran's Revolutionary Guard says re-opening Strait of Hormuz does not depend on talks with Oman - Reuters",
+      "headline": "Iran's Revolutionary Guard says re-opening Strait of Hormuz does not depend on talks with Oman - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2lHbkI1OWxqUXdmZjN1SmEyTGFVSXVWTmowOFdFTzdWdTh2dVhIZFA1dF9IVy1fQ0dEZ2RtR0kxdkVOdDIzRFZVVkhaNXhyRjN2T292Q2d2UV9hUC15ZC00V0pFa1FoWUpfLWg0YTh1c2V6aUgwblZwTVhtX2dQZHFXN3N3X3hFNHI0bWViZUhXR3kyc0VxVzlnY2Z4RnhuN3dSeEUySjRBZks0cVlnSkk0X1NPNG03MGJCZTgwSU1UeWtqVDZfLUNwSQ?oc=5",
       "datetime": 1786185686,
-      "headlineKo": "이란 혁명수비대 \"호르무즈 해협 재개는 오만과의 대화에 달려있지 않다\" - 로이터 통신"
+      "headlineKo": "이란 혁명수비대 \"호르무즈 해협 재개는 오만과의 대화에 달려있지 않다\" - reuters.com"
     },
     {
-      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
+      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
       "datetime": 1786143720,
-      "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - 로이터"
+      "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - reuters.com"
     },
     {
-      "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
+      "headline": "US Senate passes Russia sanctions championed by Graham; US House next - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
       "datetime": 1786141238,
-      "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - 로이터"
+      "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - reuters.com"
     },
     {
-      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - Reuters",
+      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSlRnMTdUcUhvNmFDVTdUd2JoQzVrRGZ5SHpDNTB1VGNzd0h1dnpCNUszSEJWRlRlbWpUQmtKOUM2WklINTcwcGh6M0NucGU2d19yaUlRZDdPcDZCcG91RE9oYWl6U3ZGTWV3dlpJa3IwNll2blJUMXBVTjRUbkwwU2NVUmVpbkw2XzRpV0RMUDlMQy1JM3dpNVEwcEJkMVlrR1BxVVhlM3JIQ05YVDJaR0lVQWpUYkYybEE?oc=5",
       "datetime": 1786137240,
-      "headlineKo": "유엔이 예멘의 분쟁이 더 커질 것이라고 경고하자 후티 반군이 마리브를 다시 공습했습니다. - 로이터"
+      "headlineKo": "UN이 예멘의 분쟁이 더욱 확대될 것이라고 경고함에 따라 후티 반군이 마리브를 다시 공습했습니다. - reuters.com"
     },
     {
       "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
@@ -259,13 +259,13 @@ const MARKET_DATA = {
       "headlineKo": "소프트웨어 주가 급등하면서 'SaaS종말론' 논쟁 격화"
     },
     {
-      "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - Reuters",
+      "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5",
       "datetime": 1786132543,
-      "headlineKo": "미국 상원, 수십 명의 트럼프 후보를 확정해 외교단의 공백 메우기 - 로이터 통신"
+      "headlineKo": "미국 상원, 수십 명의 트럼프 후보를 확정해 외교단의 공백 메우기 - reuters.com"
     }
   ],
-  "_fetched_at": 1786226402.595958,
-  "_updated_label": "2026-08-09 07:00"
+  "_fetched_at": 1786230002.6023512,
+  "_updated_label": "2026-08-09 08:00"
 };
