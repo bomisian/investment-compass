@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says deal on Strait of Hormuz is close but will not open the waterway by itself - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
+      "datetime": 1786194526,
+      "headlineKo": "이란 \"호르무즈 해협 협상 타결됐지만 스스로 수로 개방하지는 않을 것\" - 로이터"
+    },
+    {
       "headline": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html",
@@ -217,13 +224,6 @@ const MARKET_DATA = {
       "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - 로이터"
     },
     {
-      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
-      "datetime": 1786141364,
-      "headlineKo": "사우디아라비아, 터키, 파키스탄, 중동 혼란이 고조됨에 따라 상호 방어를 약속 - 로이터 통신"
-    },
-    {
       "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
@@ -231,11 +231,11 @@ const MARKET_DATA = {
       "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - 로이터"
     },
     {
-      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - reuters.com",
+      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSlRnMTdUcUhvNmFDVTdUd2JoQzVrRGZ5SHpDNTB1VGNzd0h1dnpCNUszSEJWRlRlbWpUQmtKOUM2WklINTcwcGh6M0NucGU2d19yaUlRZDdPcDZCcG91RE9oYWl6U3ZGTWV3dlpJa3IwNll2blJUMXBVTjRUbkwwU2NVUmVpbkw2XzRpV0RMUDlMQy1JM3dpNVEwcEJkMVlrR1BxVVhlM3JIQ05YVDJaR0lVQWpUYkYybEE?oc=5",
       "datetime": 1786137240,
-      "headlineKo": "UN이 예멘의 분쟁이 더욱 확대될 것이라고 경고함에 따라 후티 반군이 마리브를 다시 공습했습니다. - reuters.com"
+      "headlineKo": "유엔이 예멘의 분쟁이 더 커질 것이라고 경고하자 후티 반군이 마리브를 다시 공습했습니다. - 로이터"
     },
     {
       "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "美 관리 \"이란과 오만 간 호르무즈 해협 곧 협상 타결될 것\" - 로이터 통신"
     }
   ],
-  "_fetched_at": 1786194002.6161032,
-  "_updated_label": "2026-08-08 22:00"
+  "_fetched_at": 1786197602.5966601,
+  "_updated_label": "2026-08-08 23:00"
 };
