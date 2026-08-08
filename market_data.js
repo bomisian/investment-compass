@@ -45,19 +45,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7099997997283936,
+      "current": 3.7100000381469727,
       "prevClose": 3.7320001125335693,
-      "changeAbs": -0.02200031280517578,
-      "changePct": -0.5895046125880279,
+      "changeAbs": -0.02200007438659668,
+      "changePct": -0.5894982240946753,
       "pctRank": 36.65338645418327,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "ma20": 3.7236999750137327,
-      "ma60": 3.6659666657447816,
-      "chg1m": 0.0279998779296875,
-      "chg3m": 0.1119997501373291,
-      "chg1mPct": 0.7604529745891245,
-      "chg3mPct": 3.112833479534237,
+      "ma20": 3.723699986934662,
+      "ma60": 3.6659666697184243,
+      "chg1m": 0.0280001163482666,
+      "chg3m": 0.1119999885559082,
+      "chg1mPct": 0.7604594498358428,
+      "chg3mPct": 3.112840105953798,
       "lastDate": "2026-08-07",
       "bars": 1255,
       "symbol": "^IRX",
@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 77.08000183105469,
+      "current": 78.18000030517578,
       "prevClose": 77.29000091552734,
-      "changeAbs": -0.20999908447265625,
-      "changePct": -0.27170278429957684,
-      "pctRank": 51.949085123309466,
+      "changeAbs": 0.8899993896484375,
+      "changePct": 1.1515065068004666,
+      "pctRank": 55.92680986475735,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.76399955749511,
-      "ma60": 83.67049992879232,
-      "chg1m": 5.0,
-      "chg3m": -17.729995727539062,
-      "chg1mPct": 6.936736782719972,
-      "chg3mPct": -18.70055498797129,
+      "ma20": 81.81899948120117,
+      "ma60": 83.68883323669434,
+      "chg1m": 6.099998474121094,
+      "chg3m": -16.62999725341797,
+      "chg1mPct": 8.462816757994299,
+      "chg3mPct": -17.54034140032587,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.60399627685547,
+      "current": 99.5999984741211,
       "prevClose": 99.97000122070312,
-      "changeAbs": -0.36600494384765625,
-      "changePct": -0.3661147738106249,
-      "pctRank": 32.85600636435959,
+      "changeAbs": -0.37000274658203125,
+      "changePct": -0.3701137761968999,
+      "pctRank": 32.537788385043754,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.6512004852295,
-      "ma60": 100.25406697591146,
-      "chg1m": -1.3360061645507812,
-      "chg3m": 1.3539962768554688,
-      "chg1mPct": -1.3235646247644064,
-      "chg3mPct": 1.3781132588859732,
+      "ma20": 100.65100059509277,
+      "ma60": 100.25400034586589,
+      "chg1m": -1.3400039672851562,
+      "chg3m": 1.3499984741210938,
+      "chg1mPct": -1.3275251980135456,
+      "chg3mPct": 1.3740442484693065,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4401.2998046875,
+      "current": 4340.7001953125,
       "prevClose": 4242.0,
-      "changeAbs": 159.2998046875,
-      "changePct": 3.755299497583687,
-      "pctRank": 91.40811455847255,
+      "changeAbs": 98.7001953125,
+      "changePct": 2.3267372775223953,
+      "pctRank": 90.9307875894988,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4087.790002441406,
-      "ma60": 4234.2449951171875,
-      "chg1m": 270.69970703125,
-      "chg3m": -298.5,
-      "chg1mPct": 6.553520085007699,
-      "chg3mPct": -6.351334363269712,
+      "ma20": 4084.7600219726564,
+      "ma60": 4233.235001627604,
+      "chg1m": 210.10009765625,
+      "chg3m": -359.099609375,
+      "chg1mPct": 5.086430365783006,
+      "chg3mPct": -7.640742676248468,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "GC=F",
@@ -150,7 +150,7 @@ const MARKET_DATA = {
       "digits": 2
     }
   },
-  "yieldSpread": 0.9500000476837158,
+  "yieldSpread": 0.9499998092651367,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
+      "datetime": 1786143720,
+      "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - 로이터"
+    },
+    {
       "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
@@ -196,6 +203,13 @@ const MARKET_DATA = {
       "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - 로이터"
     },
     {
+      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSlRnMTdUcUhvNmFDVTdUd2JoQzVrRGZ5SHpDNTB1VGNzd0h1dnpCNUszSEJWRlRlbWpUQmtKOUM2WklINTcwcGh6M0NucGU2d19yaUlRZDdPcDZCcG91RE9oYWl6U3ZGTWV3dlpJa3IwNll2blJUMXBVTjRUbkwwU2NVUmVpbkw2XzRpV0RMUDlMQy1JM3dpNVEwcEJkMVlrR1BxVVhlM3JIQ05YVDJaR0lVQWpUYkYybEE?oc=5",
+      "datetime": 1786137240,
+      "headlineKo": "UN이 예멘의 분쟁이 더욱 확대될 것이라고 경고함에 따라 후티 반군이 마리브를 다시 공습했습니다. - reuters.com"
+    },
+    {
       "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
@@ -203,18 +217,11 @@ const MARKET_DATA = {
       "headlineKo": "소프트웨어 주가 급등하면서 'SaaS종말론' 논쟁 격화"
     },
     {
-      "headline": "Dollar drops as weak US jobs data pushes out Fed hike expectations - Reuters",
+      "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5",
-      "datetime": 1786133791,
-      "headlineKo": "미국 고용지표 부진으로 연준 인상 기대감 부진에 달러 하락 - Reuters"
-    },
-    {
-      "headline": "Brent climbs $1 on uncertainty over end to Iran war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
-      "datetime": 1786133114,
-      "headlineKo": "브렌트유, 이란 전쟁 종식 불확실성에 1달러 상승 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5",
+      "datetime": 1786132543,
+      "headlineKo": "미국 상원, 수십 명의 트럼프 후보를 확정해 외교단의 공백 메우기 - 로이터 통신"
     },
     {
       "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
@@ -229,13 +236,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
       "datetime": 1786130143,
       "headlineKo": "美 관리 \"이란과 오만 간 호르무즈 해협 곧 협상 타결될 것\" - 로이터 통신"
-    },
-    {
-      "headline": "Trump to host mining CEOs as administration seeks minerals for defense supply chains - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPOC1sWW4tTHpEM1NiQWVIbnZMRVlvcVcyNTl2UE1QU1lqSlBVaTlNai1UUm1yR0htazhtZjA1N3Jtb2dEaHhnWklPREdWdG52a0FrTjBMamVaM1FlR1JmSzZycUpWY3pKUzA4V3pRTk9FRzRsTklOMEhvQlRybVVjTHRNbjByQ3ZHY25ja2JERjBXdDUzNXo1WDNFeEFGa3hZTnZUR2lxWTZIQ2p5M01qV0lnUXBFQm1JRVdlZk90MkZhTWplb3RZdVJ0ZktrNmFKM0dr?oc=5",
-      "datetime": 1786129903,
-      "headlineKo": "트럼프 행정부가 국방 공급망을 위한 광물을 모색함에 따라 광산 CEO를 초대 - 로이터"
     },
     {
       "headline": "US Senate confirms Trump nominees for labor board, cementing Republican control - Reuters",
@@ -259,13 +259,13 @@ const MARKET_DATA = {
       "headlineKo": "S&P 500이 또 다른 최고 기록에 도달함에 따라 코닝에게는 엄청난 하루와 한 주가 될 것입니다."
     },
     {
-      "headline": "Everybody wants energy security post the Iran war, but how? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
-      "datetime": 1786118923,
-      "headlineKo": "모두가 이란 전쟁 이후 에너지 안보를 원하지만 어떻게 그럴 수 있을까요? - 로이터"
+      "headline": "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/07/rockstar-energy-founder-celsius-stake-ceo.html",
+      "datetime": 1786116416,
+      "headlineKo": "Rockstar Energy 설립자, Celsius 지분을 구축하고 CEO 자리를 물려받길 원함"
     }
   ],
-  "_fetched_at": 1786147202.584077,
-  "_updated_label": "2026-08-08 09:00"
+  "_fetched_at": 1786190609.2983716,
+  "_updated_label": "2026-08-08 21:03"
 };
