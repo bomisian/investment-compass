@@ -182,10 +182,17 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Hunter Biden says Joe Biden’s cancer has spread further and is ‘very painful’",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/08/hunter-biden-says-joe-bidens-cancer-has-spread-is-very-debilitating.html",
+      "datetime": 1786209925,
+      "headlineKo": "헌터 바이든은 조 바이든의 암이 더 퍼졌고 '매우 고통스럽다'고 말했습니다."
+    },
+    {
       "headline": "Iran says deal on Strait of Hormuz is close but is not enough to open the waterway - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
-      "datetime": 1786202522,
+      "datetime": 1786207544,
       "headlineKo": "이란 \"호르무즈 해협 협상 타결됐지만 수로 개방에는 충분치 않다\" - 로이터"
     },
     {
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5",
       "datetime": 1786132543,
       "headlineKo": "미국 상원, 수십 명의 트럼프 후보를 확정해 외교단의 공백 메우기 - 로이터 통신"
-    },
-    {
-      "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5",
-      "datetime": 1786131694,
-      "headlineKo": "이라크 총리, 사우디 정보국장, 민병대의 대응 지연으로 지역 안보 논의 - 로이터 통신"
     }
   ],
-  "_fetched_at": 1786208402.592368,
-  "_updated_label": "2026-08-09 02:00"
+  "_fetched_at": 1786212020.848361,
+  "_updated_label": "2026-08-09 03:00"
 };
