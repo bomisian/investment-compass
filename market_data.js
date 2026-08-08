@@ -245,27 +245,27 @@ const MARKET_DATA = {
       "headlineKo": "소프트웨어 주가 급등하면서 'SaaS종말론' 논쟁 격화"
     },
     {
+      "headline": "Dollar drops as weak US jobs data pushes out Fed hike expectations - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOUNvR1pacXVtTWI3eUROeE54TXVYY3JEU1FNSFA4YlBaVFp6MDFXY0tFaFpqSFBfM2R2WTJQVDVtNG5RN3ozQkZLTTZpTGN5aDMzUE9uUVAyanZWN0VWcnVzWlF1aDh6Y0k2dlY4WWpsMFRMdFNoRW81Y1M2WW9qNTlPSWZVZGFnRVh1eEVTTXhWSlhOQkgyRFJfUm5nMGtGaHRUbnlITTRidldKOFg3ZEg5NnRLR3dj?oc=5",
+      "datetime": 1786133791,
+      "headlineKo": "미국 고용지표 부진으로 연준 인상 기대감 부진에 달러 하락 - Reuters"
+    },
+    {
+      "headline": "Brent climbs $1 on uncertainty over end to Iran war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
+      "datetime": 1786133114,
+      "headlineKo": "브렌트유, 이란 전쟁 종식 불확실성에 1달러 상승 - 로이터"
+    },
+    {
       "headline": "US Senate confirms dozens of Trump nominees, filling gaps in diplomatic corps - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNVFVVXl3ZF9BaXRrU2lhbFhMNjZtZS1xaGtSWGNEbFZOMFdQR3BfeHBYUkJlSW80NTVpQVlYTHdQRWx4RDlZQTBsLWRjNnA3TlA0Y3RUSy1DOWx6WkRjd3ZHdndaTjZXT1lNRTFQV0JTVVkxSWNxWHRTZlM4MVl5eHQ2S3VpS3djanNlNkR5T2JucGlDSzRvUVlDNFhvWGRoNFJJc2FEWkNVQVg2Y05ULWNpQjZ4M0lSRHB4QjJB?oc=5",
       "datetime": 1786132543,
       "headlineKo": "미국 상원, 수십 명의 트럼프 후보를 확정해 외교단의 공백 메우기 - 로이터 통신"
-    },
-    {
-      "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5",
-      "datetime": 1786131694,
-      "headlineKo": "이라크 총리, 사우디 정보국장, 민병대의 대응 지연으로 지역 안보 논의 - 로이터 통신"
-    },
-    {
-      "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
-      "datetime": 1786130143,
-      "headlineKo": "美 관리 \"이란과 오만 간 호르무즈 해협 곧 협상 타결될 것\" - 로이터 통신"
     }
   ],
-  "_fetched_at": 1786201202.6066875,
-  "_updated_label": "2026-08-09 00:00"
+  "_fetched_at": 1786204802.5998573,
+  "_updated_label": "2026-08-09 01:00"
 };
