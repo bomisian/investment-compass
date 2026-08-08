@@ -182,18 +182,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
+      "datetime": 1786141364,
+      "headlineKo": "사우디아라비아, 터키, 파키스탄, 중동 혼란이 고조됨에 따라 상호 방어를 약속 - 로이터 통신"
+    },
+    {
       "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
       "datetime": 1786141238,
       "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - 로이터"
-    },
-    {
-      "headline": "Saudi Arabia, Turkey, Pakistan pledge mutual defence as Middle East turmoil escalates - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNU2lUV2RTOWpHY1ZMeHh4SVNOUnV4TXZNQjZoa2ZXSmg1SnNGX2lGOEJUdy0taTQyNmJaRzNKdHdNUEQtYzhsOFROeEhHWk11LUlKTy13VmE0dlJuSHpveG1xSTBjNTZZOXJrWGNyU1NSbUpraEFHdTBjNHowdWluRUU5a0lsY3NuY1FmMDViMVJMMkN4VzVydm9aeng4eWxDV1lkVFBwWTNTVzFTaTJJcWxoUFdBTE9zZUx1U0VNYnlQTFNQd18yYg?oc=5",
-      "datetime": 1786141169,
-      "headlineKo": "사우디아라비아, 터키, 파키스탄, 중동 혼란이 고조됨에 따라 상호 방어를 약속 - 로이터 통신"
     },
     {
       "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
@@ -215,6 +215,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0Z0cU1oY1hpbHZmZ1JoanRWLXVubmFlTDlWbkpqQ3V1d2dYYlV1U18zVEJ1Zkh1QXFFYm51SVJtZ1ctNHRGYnVlZGk3X0xKcVRHdW5MMzlDM2VQWDBYcmlWc25WX2VaWEJITEJCb2lOOFJsNFRiX0NYOVhCcmxEMWVLVGZXSkJfUzJzQXB2ZTFSMlJnZTczRWVJU3ZTUHEyeWNhcFBuSlI?oc=5",
       "datetime": 1786133114,
       "headlineKo": "브렌트유, 이란 전쟁 종식 불확실성에 1달러 상승 - 로이터"
+    },
+    {
+      "headline": "Iraqi PM, Saudi intelligence chief discuss regional security as militias delay response - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYThtNWRuaTFwZXA0d2VNMmlWY1JteFZFdF9JSjlYZG4yWmxJN2RidHdaMWtCQ2hSdGdBdHRpY2pDZXpsaFZ0dlZDX0RzcHJCN0p1anRHbmd1R284b29IMjNleVRfMGJTb0ZHVHNpVURuaUdDemVrSVY3eVJwemxyLW1zdzRSN2JTQzhJTUxtVW5XLW1SenJIc1hlVFN1cURqc0E1T0p5OFYtQlVOR1lha2VsNzNKOG42R19IdExmejhLQlUxR3FV?oc=5",
+      "datetime": 1786131694,
+      "headlineKo": "이라크 총리, 사우디 정보국장, 민병대의 대응 지연으로 지역 안보 논의 - 로이터 통신"
     },
     {
       "headline": "US official: We expect a deal soon between Iran and Oman on Strait of Hormuz - Reuters",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY0VHNVlqVEZlcUZuWHpGVjZmak5COW1JRHVnLUVfUExEbF9NTEZ3SVRIZFhDeF84SmZ4Y2xwcDczb1oxSzNHWUFZT1JkWFhFb3FXTFJRTTFjUmpNVHdYdW5nX1A5WnNOVmpSOGRKcUduY0RhOWMwbE41eklWODdQVldLZ3RONm1SREtRZVhKTkt0cGxmTnBsWDVHNENUZWhwVjZhcG1BQ21rUGlVZ3FzSmNpamFsNFVCSnc?oc=5",
       "datetime": 1786118923,
       "headlineKo": "모두가 이란 전쟁 이후 에너지 안보를 원하지만 어떻게 그럴 수 있을까요? - 로이터"
-    },
-    {
-      "headline": "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/rockstar-energy-founder-celsius-stake-ceo.html",
-      "datetime": 1786116416,
-      "headlineKo": "Rockstar Energy 설립자, Celsius 지분을 구축하고 CEO 자리를 물려받길 원함"
     }
   ],
-  "_fetched_at": 1786143602.5931423,
-  "_updated_label": "2026-08-08 08:00"
+  "_fetched_at": 1786147202.584077,
+  "_updated_label": "2026-08-08 09:00"
 };
