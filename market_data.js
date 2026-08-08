@@ -182,6 +182,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html",
+      "datetime": 1786190401,
+      "headlineKo": "거대 엘리베이터 회사인 Otis는 변동성이 큰 시장에서 방어적인 역할을 하고 싶어합니다. 먼저 자신을 증명해야합니다"
+    },
+    {
+      "headline": "A record-breaking week for options powers S&P 500 surge; volatility gauge is near 2026 low",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/08/record-breaking-week-for-options-powers-sp-500-surge.html",
+      "datetime": 1786189762,
+      "headlineKo": "옵션에 대한 기록적인 한 주 동안 S&P 500 급등이 힘을 얻었습니다. 변동성 게이지는 2026년 최저치에 가깝습니다."
+    },
+    {
+      "headline": "UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQajV4Uk9FTWd2WFJTWWVSZS1pdkl4OGFERFdzeExaYy1udkYxWGdXYWxRdHUwd2kwLVRtRTdhRkdVdUZuNXZ3U09EQUR3OXUwUzVtZmZZeWZkWmlkTThUTDBYNVBjbE9IWVBQZnhhcHBfcFVnZTc0NG1uMk54dElXNkhzQUFZR3VkRW5QZkthVjdfdTJOaXR6YWxiZmtfdzJROGg3bWFuOVhuV2ZkTDNLNkg4d18?oc=5",
+      "datetime": 1786189617,
+      "headlineKo": "UAE는 이란이 호르무즈 해협에서 ADNOC 선박을 미사일로 공격했다고 밝혔습니다."
+    },
+    {
+      "headline": "Iran's Revolutionary Guard says re-opening Strait of Hormuz does not depend on talks with Oman - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2lHbkI1OWxqUXdmZjN1SmEyTGFVSXVWTmowOFdFTzdWdTh2dVhIZFA1dF9IVy1fQ0dEZ2RtR0kxdkVOdDIzRFZVVkhaNXhyRjN2T292Q2d2UV9hUC15ZC00V0pFa1FoWUpfLWg0YTh1c2V6aUgwblZwTVhtX2dQZHFXN3N3X3hFNHI0bWViZUhXR3kyc0VxVzlnY2Z4RnhuN3dSeEUySjRBZks0cVlnSkk0X1NPNG03MGJCZTgwSU1UeWtqVDZfLUNwSQ?oc=5",
+      "datetime": 1786185686,
+      "headlineKo": "이란 혁명수비대 \"호르무즈 해협 재개는 오만과의 대화에 달려있지 않다\" - 로이터 통신"
+    },
+    {
       "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
@@ -236,36 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMkZHc1FWRXNSWG5BdjNhZ0dqOEdNUFUtUl80NTNFYkFrM2RrLVBiSXlOOFdaek5hcEhIMl84OVJLZnVDMzNodFBScmliaFdNYUpaN21uQ3V3VmQ2V1p3MGZ0QUozdTJQb09EcTJ1VERWc3E0d1Z5dkNvalFEcEVSQzRQejkwZmdybVJTVDJPbk4wMS1hWFBOaXJKaTE4MUxHNS1STUFxTzN4S0ZDSmtZOXFhdUZaa0d1?oc=5",
       "datetime": 1786130143,
       "headlineKo": "美 관리 \"이란과 오만 간 호르무즈 해협 곧 협상 타결될 것\" - 로이터 통신"
-    },
-    {
-      "headline": "US Senate confirms Trump nominees for labor board, cementing Republican control - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRkRzNUY4QWZsempqLU5lTnFSYlRIU0Y0a3BHZmFfdjk2Sk9wUkl3WlJfaXI4TmxleXlDd2FOUFhSQnVPX0l4eWI0cm5FMTFFWmQtX0VaU1REUlB2bzZiWXE4NG4yd3M1YTBlcXJvMjFHSXVEUVZsanh6VUJFS0hfeEx4OFZUYURlRkhvZmxIZmROOE0ySllyUkhGUlFEdnRfeThha2s2UXRZVFNsUC02UGZjVmE3MTRXNTdGbHFvajlWSHRra0E?oc=5",
-      "datetime": 1786127657,
-      "headlineKo": "미 상원, 트럼프 노동위원회 후보 확정… 공화당의 지배력 강화 - 로이터 통신"
-    },
-    {
-      "headline": "US sanctions Dubai crypto exchange for aiding Iran's IRGC, following a Reuters report - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUkNKX1cxNjJBMmFrZ2tXYVNiMmxxWGJ4R1ZBb1FhNHZDTndjZVR5YW5GMzFNcWs1dnFDMGRTc0c1bFB0cnB1ZEJYek5Kb0FtcVNXSDRWZ3UtRmdrVUJYSDZBR0dVYWlaWkh4Q3lDLU9hMzc5QzVPZVNjRng0cEJxcHdsRWRqWGoyNERWbzBFVnlRN1FxeGhDbEZSMGxqQmQtTlhheUE4cFpGdlJRYXp3SThPaEJmcEl4czViLW9PZ3BGSkZId3FFRGF3OA?oc=5",
-      "datetime": 1786126721,
-      "headlineKo": "로이터 통신 보도에 따라 미국은 이란의 IRGC를 지원하기 위해 두바이 암호화폐 거래소를 제재했습니다 - Reuters"
-    },
-    {
-      "headline": "A huge day and week for Corning as the S&P 500 approaches another record high",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/a-huge-day-and-week-for-corning-as-the-sp-500-aims-for-record-close.html",
-      "datetime": 1786121957,
-      "headlineKo": "S&P 500이 또 다른 최고 기록에 도달함에 따라 코닝에게는 엄청난 하루와 한 주가 될 것입니다."
-    },
-    {
-      "headline": "Rockstar Energy founder builds Celsius stake, wants to take over as CEO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/rockstar-energy-founder-celsius-stake-ceo.html",
-      "datetime": 1786116416,
-      "headlineKo": "Rockstar Energy 설립자, Celsius 지분을 구축하고 CEO 자리를 물려받길 원함"
     }
   ],
-  "_fetched_at": 1786190609.2983716,
-  "_updated_label": "2026-08-08 21:03"
+  "_fetched_at": 1786194002.6161032,
+  "_updated_label": "2026-08-08 22:00"
 };
