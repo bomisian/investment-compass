@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4340.7001953125,
+      "current": 4399.7001953125,
       "prevClose": 4242.0,
-      "changeAbs": 98.7001953125,
-      "changePct": 2.3267372775223953,
-      "pctRank": 90.9307875894988,
+      "changeAbs": 157.7001953125,
+      "changePct": 3.717590648573786,
+      "pctRank": 91.40811455847255,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4084.7600219726564,
-      "ma60": 4233.235001627604,
-      "chg1m": 210.10009765625,
-      "chg3m": -359.099609375,
-      "chg1mPct": 5.086430365783006,
-      "chg3mPct": -7.640742676248468,
+      "ma20": 4087.7100219726562,
+      "ma60": 4234.218334960938,
+      "chg1m": 269.10009765625,
+      "chg3m": -300.099609375,
+      "chg1mPct": 6.514794250088274,
+      "chg3mPct": -6.38537005503268,
       "lastDate": "2026-08-07",
       "bars": 1257,
       "symbol": "GC=F",
@@ -181,6 +181,27 @@ const MARKET_DATA = {
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "Talks with US won't happen while interim deal is breached, Iranian minister says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRllnWjhRYk9ZMlhGdzE1NGtIRlpuOXJ0Z0ZuVFJsTVlzUUdlN1Juai1YUGE5WHVnajEtejY4ekktRi1FNUlBLWdzdDRFS0dFNUJ4elhjalNudmVsVkpoYTgybnBNVXB6UXBwTEtlUGtwWHVLM091SzFkMTdKOUFrZ2w1WmpkcFoxQkJVUFlvSC1GMzhlYkM5TWRaVnJHMmhXLXhXSXJnd2FxVkJIOHpNeUE2bkFvSVY1YWMtQ2lNWWNHY2Jma0I1cHA2Q0Y?oc=5",
+      "datetime": 1786272749,
+      "headlineKo": "이란 장관은 \"임시 협정이 파기되는 동안 미국과 대화는 이뤄지지 않을 것\"이라고 말했다 - 로이터 통신"
+    },
+    {
+      "headline": "China July factory-gate inflation eases to 3-month low, CPI slows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5",
+      "datetime": 1786250104,
+      "headlineKo": "중국 7월 공장 인플레이션이 3개월 최저치로 완화되고 CPI도 둔화 - Reuters"
+    },
+    {
+      "headline": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
+      "datetime": 1786240080,
+      "headlineKo": "예멘 후티 반군, 사우디 왕국이 방위 협정 체결한 후 사우디 정유소 공격 - 로이터 통신"
+    },
     {
       "headline": "Verizon mobile service down for thousands of customers in the U.S., Downdetector shows",
       "source": "CNBC",
@@ -243,29 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
       "datetime": 1786143720,
       "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - 로이터"
-    },
-    {
-      "headline": "US Senate passes Russia sanctions championed by Graham; US House next - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0pzeU9VRmJkMDBtRWM3MFhyR3JKTENJeDVfb3pNNHpycXViQnF6LWpveDVmZlotcWVrV0M3cTV4Q1hyTUlPcnRwaDFqRW5fWE5BdlFSYVd4NnZ5MWU2X241OU1QVzZkREh5MjVVMFBlY0k3RDgtM2RDUEFWNVVwUlJ4RFo4OHpGanRuclQ1WXV0bmVZX1MtRUZWak5ERjJ1Y0FLQlR3SlBtS2VyM0EyWUlJQVRJdw?oc=5",
-      "datetime": 1786141238,
-      "headlineKo": "미국 상원은 그레이엄이 옹호하는 러시아 제재를 통과시켰습니다. 미국 하원 다음 - 로이터"
-    },
-    {
-      "headline": "Houthis strike Marib again as UN warns Yemen nearing wider conflict - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSlRnMTdUcUhvNmFDVTdUd2JoQzVrRGZ5SHpDNTB1VGNzd0h1dnpCNUszSEJWRlRlbWpUQmtKOUM2WklINTcwcGh6M0NucGU2d19yaUlRZDdPcDZCcG91RE9oYWl6U3ZGTWV3dlpJa3IwNll2blJUMXBVTjRUbkwwU2NVUmVpbkw2XzRpV0RMUDlMQy1JM3dpNVEwcEJkMVlrR1BxVVhlM3JIQ05YVDJaR0lVQWpUYkYybEE?oc=5",
-      "datetime": 1786137240,
-      "headlineKo": "유엔이 예멘의 분쟁이 더 커질 것이라고 경고하자 후티 반군이 마리브를 다시 공습했습니다. - 로이터"
-    },
-    {
-      "headline": "‘SaaSpocalypse’ debate intensifies as software stocks swing wildly",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/07/saaspocalypse-debate-intensifies-as-software-stocks-swing-wildly.html",
-      "datetime": 1786134137,
-      "headlineKo": "소프트웨어 주가 급등하면서 'SaaS종말론' 논쟁 격화"
     }
   ],
-  "_fetched_at": 1786233602.5860937,
-  "_updated_label": "2026-08-09 09:00"
+  "_fetched_at": 1786276993.689241,
+  "_updated_label": "2026-08-09 21:03"
 };
