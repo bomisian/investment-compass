@@ -196,11 +196,39 @@ const MARKET_DATA = {
       "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
     },
     {
-      "headline": "Israel rejects Trump's 15-point plan for Gaza, PM Netanyahu says - Reuters",
+      "headline": "Syria and Russia reach deal on future of Tartous and Hmeimim bases after 18 months of talks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTHltYW1BZ2tteEtoRWZwSUVpMy1vMVZTTF9HUzJYcUxZeGN0TGdPTzJ6dzB4clFRTWNDRkR1ZUVRT1BmbnNiZm9tQkZRdFZHSmVydXdDOHVnZERHVElJZm0zSk1HdG51LVZCRjVpakpfWDZiWXh0X0lmN0dQangwM01QNU5DY1BmNmdCR3FOX0FYQjdCNF9teE5zc0tTOXA3WWQyYUswOS1oYzVKUzdnNFdGdU5KREFyUnlyWVZSZld6c1NPa3Q4?oc=5",
+      "datetime": 1786280983,
+      "headlineKo": "시리아와 러시아, 18개월 간의 회담 끝에 타르투스와 흐메이밈 기지 미래에 대한 합의에 도달 - 로이터 통신"
+    },
+    {
+      "headline": "Netanyahu says Israel won't pull out of Gaza before Hamas disarms - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
-      "datetime": 1786276219,
-      "headlineKo": "이스라엘은 트럼프의 가자지구 15개 계획을 거부했다고 네타냐후 총리가 밝혔습니다."
+      "datetime": 1786280955,
+      "headlineKo": "네타냐후는 하마스가 무장해제하기 전에는 이스라엘이 가자에서 철수하지 않을 것이라고 말했다 - 로이터"
+    },
+    {
+      "headline": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
+      "datetime": 1786278169,
+      "headlineKo": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 밝혔습니다. - 로이터"
+    },
+    {
+      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "datetime": 1786277794,
+      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
+    },
+    {
+      "headline": "Passage of ships to Black Sea continues smoothly, Turkish officials say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT0gyU21ScmZKOEVnYlkwcjVrb2hwZ0I4M01vYkRrS0ZsclJPejZINnRibXNCOWdTYVp5WG81Y3BndlhncFdHTkpJV1NuNkhvdzdQNkktWjhQVk8zQmpKQUhodGMzYmdyOV84bWFwZHdWN0RxRFppVnZobk5pWEd0ejBhWklHcnljNUp1emF4ckdFcWJRY2xFeUNYNnl2cDI1Z0ROMlBYbTlFbE1kdWJBM09Na0M3LWdEbmc?oc=5",
+      "datetime": 1786275189,
+      "headlineKo": "흑해로의 선박 통행이 순조롭게 진행되고 있다고 터키 관리들이 밝혔습니다 - Reuters"
     },
     {
       "headline": "Talks with US won't happen while interim deal is breached, Iranian minister says - Reuters",
@@ -217,13 +245,6 @@ const MARKET_DATA = {
       "headlineKo": "러시아는 밤새 우크라이나 항구의 연료 저장 시설을 공격했다고 밝혔습니다."
     },
     {
-      "headline": "China July factory-gate inflation eases to 3-month low, CPI slows - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5",
-      "datetime": 1786250104,
-      "headlineKo": "중국 7월 공장 인플레이션이 3개월 최저치로 완화되고 CPI도 둔화 - Reuters"
-    },
-    {
       "headline": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVzBVeVBiZENRc3B0WldHbXZqbXBjLU5ucDVuODRNY3pIWFRKaWlES0lzRDVoWEFjOFBLQVkxeGVHd0pHWWV6Y0V0OFphUk81YksyX3BHQ0I2MVY2RHdfNDY1dE9XdGozaVQ0RWsyaXNieWlRT2RYdHNRNEp4ZHptOHBBTVFST2pfZXVIbkJZUlIteElMRTlQWEt5eGZ6RU9JMjRtUmdCYWVXUUM0TUE?oc=5",
@@ -231,41 +252,20 @@ const MARKET_DATA = {
       "headlineKo": "예멘 후티 반군, 사우디 왕국이 방위 협정 체결한 후 사우디 정유소 공격 - 로이터 통신"
     },
     {
+      "headline": "China July factory-gate inflation eases to 3-month low, CPI slows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5",
+      "datetime": 1786239780,
+      "headlineKo": "중국 7월 공장 인플레이션이 3개월 최저치로 완화되고 CPI도 둔화 - Reuters"
+    },
+    {
       "headline": "Verizon mobile service down for thousands of customers in the U.S., Downdetector shows",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/08/verizon-mobile-outage-downdetector.html",
       "datetime": 1786230840,
       "headlineKo": "DownDetector는 미국 내 수천 명의 고객에 대한 Verizon 모바일 서비스 중단을 보여줍니다."
-    },
-    {
-      "headline": "Iran says deal on Strait of Hormuz is close but not enough to open the waterway - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQX3lCSkcxU1lGMG5WLWZnQ3BPMzVqREVjajhDeUVndVBndkNPSklSaWV2RVM2a3FKcWhBMEwtcVRfbUgwNXZGMDNJUy1PU1NCVWszOG03N1RySFdMZlBrMTJ0SHo3bmc0MUt1V3pMb052UmxRSFg3cDhkY2VGR2hyMlRyMjBIYVBRajFwWkJOa05sMFhkUEZ1M3NuNjFRTURGS2pDSzBjOWNRSVlidXBPNnVWNlJ2U1VRMWxpQ2E1WWhzdw?oc=5",
-      "datetime": 1786229698,
-      "headlineKo": "이란 \"호르무즈 해협 협상 타결됐지만 수로 개방에는 충분치 않다\" - 로이터"
-    },
-    {
-      "headline": "Turkey, Pakistan, Saudi Arabia defence pact technically same as NATO's Article 5, Turkish minister says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOLVVZeXNFQ1JsdkxwT29TdjNMRmVVM0V6Y3B1NzB3SDVpMzRaTXdFZjJpcWEteGxQd1dWalV1WDlnS2NhSVlTZGhYVHhLU2tUNHhjZ1I4Zl9WbFFZaVRudVU3TEFCMnFtRFlGU2ZYZDNreVlQTjljdWFMbndxVGdyNUlaZFJPUjRZd0F2SnB5dUtvUWZYYWFJUmpjNjVWeFdTTGwyaU8zOGdtdUFjQW5zb0E2aUt1VEUybWxjX2pLZHdwTlVSN2lzbg?oc=5",
-      "datetime": 1786218833,
-      "headlineKo": "터키·파키스탄·사우디아라비아 국방협정, 나토 제5조와 기술적으로 동일하다고 터키 장관 \"로이터\""
-    },
-    {
-      "headline": "Hunter Biden says Joe Biden’s cancer has spread further and is ‘very painful’",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/08/hunter-biden-says-joe-bidens-cancer-has-spread-is-very-debilitating.html",
-      "datetime": 1786209925,
-      "headlineKo": "헌터 바이든은 조 바이든의 암이 더 퍼졌고 '매우 고통스럽다'고 말했습니다."
-    },
-    {
-      "headline": "Elevator giant Otis wants to be a defensive play in an volatile market. It has to prove itself first",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/08/elevator-giant-otis-stock-wall-street.html",
-      "datetime": 1786190401,
-      "headlineKo": "거대 엘리베이터 회사인 Otis는 변동성이 큰 시장에서 방어적인 역할을 하고 싶어합니다. 먼저 자신을 증명해야합니다"
     }
   ],
-  "_fetched_at": 1786284002.629686,
-  "_updated_label": "2026-08-09 23:00"
+  "_fetched_at": 1786287602.6255598,
+  "_updated_label": "2026-08-10 00:00"
 };
