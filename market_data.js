@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israel rejects Trump's 15-point plan for Gaza, PM Netanyahu says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
+      "datetime": 1786276219,
+      "headlineKo": "이스라엘은 트럼프의 가자지구 15개 계획을 거부했다고 네타냐후 총리가 밝혔습니다."
+    },
+    {
       "headline": "Talks with US won't happen while interim deal is breached, Iranian minister says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRllnWjhRYk9ZMlhGdzE1NGtIRlpuOXJ0Z0ZuVFJsTVlzUUdlN1Juai1YUGE5WHVnajEtejY4ekktRi1FNUlBLWdzdDRFS0dFNUJ4elhjalNudmVsVkpoYTgybnBNVXB6UXBwTEtlUGtwWHVLM091SzFkMTdKOUFrZ2w1WmpkcFoxQkJVUFlvSC1GMzhlYkM5TWRaVnJHMmhXLXhXSXJnd2FxVkJIOHpNeUE2bkFvSVY1YWMtQ2lNWWNHY2Jma0I1cHA2Q0Y?oc=5",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNM2lHbkI1OWxqUXdmZjN1SmEyTGFVSXVWTmowOFdFTzdWdTh2dVhIZFA1dF9IVy1fQ0dEZ2RtR0kxdkVOdDIzRFZVVkhaNXhyRjN2T292Q2d2UV9hUC15ZC00V0pFa1FoWUpfLWg0YTh1c2V6aUgwblZwTVhtX2dQZHFXN3N3X3hFNHI0bWViZUhXR3kyc0VxVzlnY2Z4RnhuN3dSeEUySjRBZks0cVlnSkk0X1NPNG03MGJCZTgwSU1UeWtqVDZfLUNwSQ?oc=5",
       "datetime": 1786185686,
       "headlineKo": "이란 혁명수비대 \"호르무즈 해협 재개는 오만과의 대화에 달려있지 않다\" - 로이터 통신"
-    },
-    {
-      "headline": "US expects deal soon on Strait of Hormuz; Sunni powers unite in defense pact - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeTlKQUF3VjE1MnpMNE5PNFRFZmloMHhQMjdHUmhwU0s4QWdWQVl6TFA4NjJCSi1qbnJyRFVjajVIamtFOVd3eHpSdlozSDd4YzlrdW93UHdfaGVDOEVicFByV1hkemlNTFFxbWxiNW5OWUJ4Y3FRbDBkd05nX05pTVNOUUpHc3hjVFlqR3daRnpBNkVDZF91dHV3WTJYQ0ZqLUh3VVVaMV9DU1FtWXlocDlxb3d0cGw1eFVKVA?oc=5",
-      "datetime": 1786143720,
-      "headlineKo": "미국은 호르무즈 해협에서 곧 협상을 기대하고 있습니다. 수니파 세력, 국방 협정으로 단결 - 로이터"
     }
   ],
-  "_fetched_at": 1786276993.689241,
-  "_updated_label": "2026-08-09 21:03"
+  "_fetched_at": 1786280403.0985339,
+  "_updated_label": "2026-08-09 22:00"
 };
