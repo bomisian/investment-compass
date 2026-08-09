@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "DownDetector는 미국 내 수천 명의 고객에 대한 Verizon 모바일 서비스 중단을 보여줍니다."
     }
   ],
-  "_fetched_at": 1786291202.618203,
-  "_updated_label": "2026-08-10 01:00"
+  "_fetched_at": 1786294803.127131,
+  "_updated_label": "2026-08-10 02:00"
 };
