@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "datetime": 1786283973,
+      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
+    },
+    {
       "headline": "5 ‘rules’ your parents taught you that are sabotaging your career, says expert—like ‘always be grateful’",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/09/rules-your-parents-taught-you-that-are-sabotaging-your-career-expert.html",
@@ -215,13 +222,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
       "datetime": 1786278169,
       "headlineKo": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 밝혔습니다. - 로이터"
-    },
-    {
-      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "datetime": 1786277794,
-      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
     },
     {
       "headline": "Passage of ships to Black Sea continues smoothly, Turkish officials say - Reuters",
@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "DownDetector는 미국 내 수천 명의 고객에 대한 Verizon 모바일 서비스 중단을 보여줍니다."
     }
   ],
-  "_fetched_at": 1786287602.6255598,
-  "_updated_label": "2026-08-10 00:00"
+  "_fetched_at": 1786291202.618203,
+  "_updated_label": "2026-08-10 01:00"
 };
