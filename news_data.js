@@ -9,43 +9,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Super Micro Computer Landed $60 Billion in Orders Last Quarter, but Trades at Just $30",
+        "headline": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=95f0958102e02edefbe1f48d2887398b026e1a4d7647f8add9f03ded9ee57d68",
-        "datetime": 1786269000,
-        "headlineKo": "슈퍼마이크로 컴퓨터는 지난 분기에 600억 달러의 주문을 기록했지만 단돈 30달러에 거래되었습니다."
+        "url": "https://finnhub.io/api/news?id=94308ef42d235b245bc7e10b205a677f62304b920cc33bc7c3c10feb84fe4105",
+        "datetime": 1786297500,
+        "headlineKo": "마이크론은 올해 207% 급등했다. 급격한 하락에 대비하세요."
       },
       {
-        "headline": "Rhode Is Fueling e.l.f.'s Latest Surge. Is It Time to Jump In?",
+        "headline": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5ede1f19cdaf05f4d53bc25024756a1cff102cbea301397f9bee191bb60a3631",
-        "datetime": 1786268400,
-        "headlineKo": "Rhode는 e.l.f.의 최신 급증을 촉진하고 있습니다. 뛰어들 시간인가?"
+        "url": "https://finnhub.io/api/news?id=1f47db17e08576a99d5ee61bb26ce69bec10ecf0f4e174c192439193bad82a0b",
+        "datetime": 1786297380,
+        "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
       },
       {
-        "headline": "What Happens to a Bond ETF's Price When the Fed Cuts Rates -- Using the Actual Historical Data",
+        "headline": "1 Long-Term Dividend ETF Built to Outlast Any Market Cycle Over 20 Years",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=550b35b997f5e3e108fccce2fdc2822f599511cf84573480a5208b2f884a4817",
-        "datetime": 1786268100,
-        "headlineKo": "연준이 금리를 인하하면 채권 ETF 가격에 어떤 일이 발생합니까 - 실제 과거 데이터 사용"
+        "url": "https://finnhub.io/api/news?id=a9822a76f186cb3e1139a44068d488ed8c9e3c86bf8404323e36ef2be4e5f2e4",
+        "datetime": 1786296900,
+        "headlineKo": "20년 이상의 모든 시장 주기에 걸쳐 지속되도록 구축된 1개의 장기 배당금 ETF"
       },
       {
-        "headline": "This Is the 1 ETF Warren Buffett Recommends Most People Buy -- and History Says He's Always Been Right",
+        "headline": "1 Popular Cryptocurrency to Buy Before Its Next Massive Rally, According to 1 Wall Street Bull",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=50dd7880ec2d3e70019c878713be56a0a1c521b73843293456a2ab029fca24df",
-        "datetime": 1786267740,
-        "headlineKo": "이것은 워렌 버핏이 대부분의 사람들에게 매수를 권장하는 첫 번째 ETF입니다. 그리고 역사는 그가 항상 옳았다고 말합니다."
+        "url": "https://finnhub.io/api/news?id=b7facd07bee5a9d6be9b33c54111bedf9f7d205125e7e540fd96f9aa5cad0fd3",
+        "datetime": 1786296180,
+        "headlineKo": "1 월스트리트 황소(Wall Street Bull)에 따르면 다음 대규모 랠리 전에 구매해야 할 인기 암호화폐 1위"
       },
       {
-        "headline": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
+        "headline": "Why AdaptHealth Stock Plummeted This Week",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ba63fdb77d46db817388e80c46d5507ec51aa91bba0032b5d0eafd406e81e0ef",
-        "datetime": 1786267500,
-        "headlineKo": "수조 달러 규모의 이 AI 주식은 다년간 최저 평가에서 IonQ, Rigetti 또는 D-Wave보다 더 나은 양자 컴퓨팅 노출을 제공합니다."
+        "url": "https://finnhub.io/api/news?id=84fa3467573763e5b31da2598008a3791576b82bdd904ceb4d03b188fd525d7d",
+        "datetime": 1786295583,
+        "headlineKo": "이번 주에 AdaptHealth 주식이 급락한 이유"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "AAPL": {
     "nextEarnings": {
@@ -55,43 +55,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f45e2379d3532d14de2026567c166f0c4f8f943f936b39a9525a667fa4d3d729",
+        "datetime": 1786291486,
+        "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
+      },
+      {
+        "headline": "Apple tests China's CXMT memory chips for iPhones and MacBooks, WSJ reports",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d226c0827db4cf033b5f7069480759ec71e4452367304ab451be53e5ff2d4b68",
+        "datetime": 1786277215,
+        "headlineKo": "WSJ는 애플이 중국의 아이폰과 맥북용 CXMT 메모리 칩을 테스트했다고 보도했다."
+      },
+      {
+        "headline": "Apple Could Raise iPhone 17 Prices In Hours, Due To Memory Chip Crisis",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8df6bc662d0a677a17419325f108115a20dfade8bce6d2327337f8ca6aa54f37",
+        "datetime": 1786273223,
+        "headlineKo": "Apple은 메모리 칩 위기로 인해 몇 시간 만에 iPhone 17 가격을 인상할 수 있습니다."
+      },
+      {
+        "headline": "Apple CEO Tim Cook Predicts a \"100-Year\" Flood. Here Are 2 Stocks Primed to Cash In.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b4d4b05da52ae4c2579dc20ad1e1ca202646366ec27f5dc2a033a566f7aa44e",
+        "datetime": 1786270800,
+        "headlineKo": "애플 CEO 팀 쿡이 '100년' 홍수를 예측했다. 현금화 준비가 되어 있는 주식 2개를 소개합니다."
+      },
+      {
         "headline": "Apple Added About $1.5 Trillion in Market Value in a Year. Here's What $10,000 Invested a Decade Ago Is Worth Now.",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ce2361a754007f9c7f2879e6c71a7688d029e60172385747732f299d48e6b9a2",
         "datetime": 1786262460,
         "headlineKo": "Apple은 1년 만에 약 1조 5천억 달러의 시장 가치를 추가했습니다. 10년 전에 투자한 10,000달러의 현재 가치는 다음과 같습니다."
-      },
-      {
-        "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
-        "datetime": 1786258200,
-        "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
-      },
-      {
-        "headline": "Top 50 High-Quality Dividend Growth Stocks For August 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=67a12f998d09e3a8032fc7543984727ae385b02a09472666c7971ce61d490975",
-        "datetime": 1786243803,
-        "headlineKo": "2026년 8월 상위 50개 고품질 배당성장주"
-      },
-      {
-        "headline": "iPhone 18 Pro Release Date: Apple’s Strategy Demands September Launch",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c702e905ad937e875a6c95da8c1833929b7960fd52f6742e8ff94c54c1af21e1",
-        "datetime": 1786213858,
-        "headlineKo": "iPhone 18 Pro 출시일: Apple의 전략으로 9월 출시 요구"
-      },
-      {
-        "headline": "Warren Buffett is out, and Berkshire Hathaway is spending again",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=64f073c8ebfc17a8e8c272d21d5fcb60205b6895eda6a27b9ec69930b1afbe0a",
-        "datetime": 1786213378,
-        "headlineKo": "워렌 버핏은 떠났고, 버크셔 해서웨이는 다시 돈을 쓰고 있다"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "GOOGL": {
     "nextEarnings": {
@@ -101,43 +101,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Brookfield Asset Management: Reasonably Valued, But AI Tailwinds Could Justify A Higher Valuation",
+        "headline": "A $13.5 Billion Berkshire Hathaway Mystery: What Is Greg Abel Buying Beyond Alphabet?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=eb6481e70394104b9930f21986077c90913cfdbd870e4089f3acc44e190ebbc4",
+        "datetime": 1786295117,
+        "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
+      },
+      {
+        "headline": "Why Shopify Stock Could Be the Biggest Winner in Agentic AI Commerce",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=70418c89e0a41750cf1742e4791822f586acf235f2ee9db644c6a18c40865974",
+        "datetime": 1786293300,
+        "headlineKo": "Shopify Stock이 Agentic AI 상거래에서 가장 큰 승자가 될 수 있는 이유"
+      },
+      {
+        "headline": "Meta vs. Alphabet: Which Stock Deserves a Spot in Your Portfolio After Q2?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db5e0edf7588cb14a1b67f2c07f88266b4d5e34ad8d78de71d788253d5a18718",
+        "datetime": 1786293027,
+        "headlineKo": "메타 대 알파벳: 2분기 이후 귀하의 포트폴리오에 포함될 자격이 있는 주식은 무엇입니까?"
+      },
+      {
+        "headline": "Nvidia CEO Jensen Huang Told Investors in Seoul to \"Buy at a Discount\" During the Recent AI Stock Sell-Off. Here's Whether His Call Has Paid Off.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2e278b11eb5aff29c140ae859415179f05d198ee275380f1215e54663638593c",
+        "datetime": 1786274100,
+        "headlineKo": "엔비디아 젠슨 황 CEO는 최근 AI 주식 매도세에서 서울 투자자들에게 \"할인된 가격에 매수하라\"고 말했다. 그의 전화가 성과를 거두었는지 여부는 다음과 같습니다."
+      },
+      {
+        "headline": "Nvidia's Stock Is Completely Mispriced",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=fd1f9e57fcd2cb3f05d375adf0c63cc71a618f3244f797d2beecc1cbbe85b632",
-        "datetime": 1786260600,
-        "headlineKo": "Brookfield Asset Management: 합리적인 가치, 그러나 AI 순풍으로 인해 더 높은 가치 평가를 정당화할 수 있음"
-      },
-      {
-        "headline": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dc5b1f3df9fd34ca061fc97816b99d46bbe40b24e9d6e0a40ed048a5e17c8ca4",
-        "datetime": 1786259300,
-        "headlineKo": "기록적인 미국 증시 상승에 대한 우려가 실적 개선으로 완화 - WSJ"
-      },
-      {
-        "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
-        "datetime": 1786258200,
-        "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
-      },
-      {
-        "headline": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=47b8b9a98265ff8f062760d21b5f87b3a12534151879dae393857b0a8cf99765",
-        "datetime": 1786257300,
-        "headlineKo": "제프 베조스(Jeff Bezos)의 아마존 주가는 실적 부진 이후 14% 급등해 그의 재산에 250억 달러를 추가했습니다. 랠리 후에도 주식은 여전히 ​​매수세를 보이고 있나요?"
-      },
-      {
-        "headline": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2cfbd3abfdbe69317965c61bcfcff5017905d74ccac3e8258d693a93bd70c65f",
-        "datetime": 1786252800,
-        "headlineKo": "Moonshot AI의 2조 8천억 매개변수 모델이 중국 최초로 주요 코딩 벤치마크에서 1위를 차지했습니다."
+        "url": "https://finnhub.io/api/news?id=10150c3778c3ceb36d996077b5bf2f37f04561ac6e668cd9596a2377a0befc64",
+        "datetime": 1786267800,
+        "headlineKo": "Nvidia의 주식 가격이 완전히 잘못되었습니다"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "MSFT": {
     "nextEarnings": {
@@ -147,43 +147,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "This Trillion-Dollar AI Stock Offers Better Quantum Computing Exposure Than IonQ, Rigetti, or D-Wave at a Multi-Year Valuation Low",
+        "headline": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ba63fdb77d46db817388e80c46d5507ec51aa91bba0032b5d0eafd406e81e0ef",
-        "datetime": 1786267500,
-        "headlineKo": "수조 달러 규모의 이 AI 주식은 다년간 최저 평가에서 IonQ, Rigetti 또는 D-Wave보다 더 나은 양자 컴퓨팅 노출을 제공합니다."
+        "url": "https://finnhub.io/api/news?id=f45e2379d3532d14de2026567c166f0c4f8f943f936b39a9525a667fa4d3d729",
+        "datetime": 1786291486,
+        "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
       },
       {
-        "headline": "Brookfield Asset Management: Reasonably Valued, But AI Tailwinds Could Justify A Higher Valuation",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=fd1f9e57fcd2cb3f05d375adf0c63cc71a618f3244f797d2beecc1cbbe85b632",
-        "datetime": 1786260600,
-        "headlineKo": "Brookfield Asset Management: 합리적인 가치, 그러나 AI 순풍으로 인해 더 높은 가치 평가를 정당화할 수 있음"
+        "headline": "Microsoft Sits 12% Below Its High After the Largest One-Day Market Value Gain on Record. Here's What History Suggests Comes Next.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c8cd4fe7182debb6de90358aa178ef070789157646744ff27eb1e44009accaee",
+        "datetime": 1786286580,
+        "headlineKo": "Microsoft는 기록상 최대 일일 시장 가치 상승 이후 최고치보다 12% 하락했습니다. 역사가 제안하는 내용은 다음과 같습니다."
       },
       {
-        "headline": "Geron (GERN) Is Up 14.7% After Issuing First RYTELO Revenue Guide And Narrowing Losses - Has The Bull Case Changed?",
+        "headline": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5be56f701c00ce1eb915fb376d019110a01b4d0e91504a5e5119e1dde10f799d",
-        "datetime": 1786259713,
-        "headlineKo": "Geron(GERN)은 첫 번째 RYTELO 수익 가이드를 발행하고 손실을 줄인 후 14.7% 상승했습니다. 상승 추세가 바뀌었나요?"
+        "url": "https://finnhub.io/api/news?id=ecc86509bd56887ef1723f7ad5d1d05909c4931bf4219eaed134a49e0d26d695",
+        "datetime": 1786275329,
+        "headlineKo": "'좋아할 만한 것이 거의 없음': 월스트리트는 주가 급등으로 놀라운 7월 고용 보고서를 평가"
       },
       {
-        "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+        "headline": "Texas Pacific Land Q2 Earnings Call Highlights",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
-        "datetime": 1786258200,
-        "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
+        "url": "https://finnhub.io/api/news?id=54746f70053f50d146879d7438e44cded7a824ccc2c9a688d721689d9c35bd13",
+        "datetime": 1786273432,
+        "headlineKo": "Texas Pacific Land Q2 실적 발표 하이라이트"
       },
       {
-        "headline": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
+        "headline": "How Much Do You Need Invested by 50 to Retire on Dividends at 60?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2cfbd3abfdbe69317965c61bcfcff5017905d74ccac3e8258d693a93bd70c65f",
-        "datetime": 1786252800,
-        "headlineKo": "Moonshot AI의 2조 8천억 매개변수 모델이 중국 최초로 주요 코딩 벤치마크에서 1위를 차지했습니다."
+        "url": "https://finnhub.io/api/news?id=d312ee22931520221c07d07121a1e44ae80a0359fab95e6c66061049a18e63e3",
+        "datetime": 1786271486,
+        "headlineKo": "60세에 배당금으로 은퇴하려면 50세가 얼마나 투자해야 합니까?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "AMZN": {
     "nextEarnings": {
@@ -193,43 +193,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "My 3 Favorite Value Stocks to Buy Right Now",
+        "headline": "Jeff Bezos breaks his own Amazon record",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d357cc807288d6078f10d962df6e90890020584948fb8802d255c34ee1179e91",
-        "datetime": 1786264500,
-        "headlineKo": "지금 당장 사야 할 내가 좋아하는 가치주 3개"
+        "url": "https://finnhub.io/api/news?id=6d9ae46012fdad75a3a2fc4f0a2a6e59909101eb9ad86f065e8efed616b80ed4",
+        "datetime": 1786284420,
+        "headlineKo": "제프 베조스(Jeff Bezos)가 자신의 아마존 기록을 경신했습니다."
       },
       {
-        "headline": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
+        "headline": "3 Artificial Intelligence (AI) Stocks to Load Up On in August",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dc5b1f3df9fd34ca061fc97816b99d46bbe40b24e9d6e0a40ed048a5e17c8ca4",
-        "datetime": 1786259300,
-        "headlineKo": "기록적인 미국 증시 상승에 대한 우려가 실적 개선으로 완화 - WSJ"
+        "url": "https://finnhub.io/api/news?id=8ece32cf7a99465fead4629449fc21bd4a86b7cbeea98f61cd2f1acd372e03c7",
+        "datetime": 1786278600,
+        "headlineKo": "8월에 상승할 인공지능(AI) 주식 3개"
       },
       {
-        "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+        "headline": "Walmart (WMT) Stock Price Prediction: Where Our Price Target Sees the Stock Going Over the Next 12 Months",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
-        "datetime": 1786258200,
-        "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
+        "url": "https://finnhub.io/api/news?id=9cec613f80deeddea082c19e67a79210861f0ab5ae8a2374d1f536991e8ceb62",
+        "datetime": 1786276843,
+        "headlineKo": "월마트(WMT) 주가 예측: 목표 가격이 향후 12개월 동안 주가가 어떻게 변할지 예측합니다."
       },
       {
-        "headline": "Jeff Bezos' Amazon Stock Surged 14% After a Blowout Earnings Beat, Adding $25 Billion to His Fortune. Is the Stock Still a Buy After the Rally?",
+        "headline": "Nvidia CEO Jensen Huang Told Investors in Seoul to \"Buy at a Discount\" During the Recent AI Stock Sell-Off. Here's Whether His Call Has Paid Off.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=47b8b9a98265ff8f062760d21b5f87b3a12534151879dae393857b0a8cf99765",
-        "datetime": 1786257300,
-        "headlineKo": "제프 베조스(Jeff Bezos)의 아마존 주가는 실적 부진 이후 14% 급등해 그의 재산에 250억 달러를 추가했습니다. 랠리 후에도 주식은 여전히 ​​매수세를 보이고 있나요?"
+        "url": "https://finnhub.io/api/news?id=2e278b11eb5aff29c140ae859415179f05d198ee275380f1215e54663638593c",
+        "datetime": 1786274100,
+        "headlineKo": "엔비디아 젠슨 황 CEO는 최근 AI 주식 매도세에서 서울 투자자들에게 \"할인된 가격에 매수하라\"고 말했다. 그의 전화가 성과를 거두었는지 여부는 다음과 같습니다."
       },
       {
-        "headline": "SK Telecom Q2 Earnings Call Highlights",
+        "headline": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c2c023ee3c681de5d9c8d003dcf2a27aac583b082ec83cc6a52a26d5f66fdbb2",
-        "datetime": 1786255430,
-        "headlineKo": "SK텔레콤 2분기 실적발표 하이라이트"
+        "url": "https://finnhub.io/api/news?id=9804693e27e0138aec625f8c5534eaf7c0013bd67a8c34c3f33b2008b550a1e5",
+        "datetime": 1786270677,
+        "headlineKo": "Micron(MU)은 전략적 자동 거래 및 AI 모멘텀을 확보하여 경기 침체 압력을 상쇄합니다."
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "TSM": {
     "nextEarnings": {
@@ -274,8 +274,8 @@ const NEWS_DATA = {
         "headlineKo": "Sandisk: 메모리는 구조적으로 변화했으며 해당 부문은 P/E 5배에 머물 수 없습니다"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "AVGO": {
     "nextEarnings": {
@@ -284,6 +284,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.3012
     },
     "news": [
+      {
+        "headline": "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=281b685ec6364503a8f2be16ea0f984ae2e0cd562970fb08f0d9d5f715f121ba",
+        "datetime": 1786281600,
+        "headlineKo": "6개월 동안 36%의 상승률로 Nvidia를 능가하는 최고의 반도체 주식"
+      },
       {
         "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
         "source": "Yahoo",
@@ -311,17 +318,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=03a07ae02dbfd9d3011f229c578b956544a5767eb16f2799de173d104dc3d6fd",
         "datetime": 1786204200,
         "headlineKo": "Alphabet CEO Sundar Pichai는 Nvidia와 Broadcom 주식을 움직일 수 있는 결정을 내렸습니다."
-      },
-      {
-        "headline": "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7567d5a09a5fef7fd2b67b15e2e617789922980f91be6d8dc2596cb3737eca0b",
-        "datetime": 1786198276,
-        "headlineKo": "Broadcom(AVGO)이 이제 GPU 외부 지출 규모가 가장 큰 AI 인프라를 선도하고 있습니까?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "META": {
     "nextEarnings": {
@@ -331,43 +331,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Cathie Wood's Ark Piled Into Nvidia and Taiwan Semiconductor After Meta's Earnings Miss. Here's What It Signals for Artificial Intelligence (AI) Stocks.",
+        "headline": "Meta vs. Alphabet: Which Stock Deserves a Spot in Your Portfolio After Q2?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b1726157377750a4797940cd017afe771de19d96b52f4583de49ae40cfe45cc",
-        "datetime": 1786260300,
-        "headlineKo": "Cathie Wood의 Ark는 Meta의 실적 부진 이후 Nvidia와 Taiwan Semiconductor에 쌓였습니다. 인공 지능(AI) 주식에 대한 신호는 다음과 같습니다."
+        "url": "https://finnhub.io/api/news?id=db5e0edf7588cb14a1b67f2c07f88266b4d5e34ad8d78de71d788253d5a18718",
+        "datetime": 1786293027,
+        "headlineKo": "메타 대 알파벳: 2분기 이후 귀하의 포트폴리오에 포함될 자격이 있는 주식은 무엇입니까?"
       },
       {
-        "headline": "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+        "headline": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
-        "datetime": 1786258200,
-        "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
+        "url": "https://finnhub.io/api/news?id=f45e2379d3532d14de2026567c166f0c4f8f943f936b39a9525a667fa4d3d729",
+        "datetime": 1786291486,
+        "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
       },
       {
-        "headline": "META: Why The Market's Reaction Is Justified This Time Around (Rating Downgrade)",
+        "headline": "SpaceX vs. Meta Platforms: Which Will Reach the $2 Trillion Club First?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8eb578e433d08240ceef8b50e5f90ff73ba95ebf5f282dc33639e8e734faa3b6",
+        "datetime": 1786278000,
+        "headlineKo": "SpaceX 대 메타 플랫폼: 어느 것이 2조 달러 클럽에 먼저 도달할 것인가?"
+      },
+      {
+        "headline": "'Very little to like': Wall Street assesses surprise July jobs report as stocks jump",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ecc86509bd56887ef1723f7ad5d1d05909c4931bf4219eaed134a49e0d26d695",
+        "datetime": 1786275329,
+        "headlineKo": "'좋아할 만한 것이 거의 없음': 월스트리트는 주가 급등으로 놀라운 7월 고용 보고서를 평가"
+      },
+      {
+        "headline": "Nvidia's Stock Is Completely Mispriced",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=5ecc07f0c3622ee82aa800df3bbe7d92a18f2003fe4be4c2b8733d74fad886da",
-        "datetime": 1786254764,
-        "headlineKo": "META: 이번에 시장의 반응이 정당한 이유(등급 하향)"
-      },
-      {
-        "headline": "Moonshot AI's 2.8 Trillion Parameter Model Just Became the First From China to Top a Major Coding Benchmark",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2cfbd3abfdbe69317965c61bcfcff5017905d74ccac3e8258d693a93bd70c65f",
-        "datetime": 1786252800,
-        "headlineKo": "Moonshot AI의 2조 8천억 매개변수 모델이 중국 최초로 주요 코딩 벤치마크에서 1위를 차지했습니다."
-      },
-      {
-        "headline": "Wall Street Week Ahead",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=deff1d4247207aac2c94f55973825d0ce38ade9e08234210a6c7618171e2655c",
-        "datetime": 1786245109,
-        "headlineKo": "월스트리트 주간"
+        "url": "https://finnhub.io/api/news?id=10150c3778c3ceb36d996077b5bf2f37f04561ac6e668cd9596a2377a0befc64",
+        "datetime": 1786267800,
+        "headlineKo": "Nvidia의 주식 가격이 완전히 잘못되었습니다"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "TSLA": {
     "nextEarnings": {
@@ -376,6 +376,27 @@ const NEWS_DATA = {
       "epsEstimate": 0.4492
     },
     "news": [
+      {
+        "headline": "Tesla's new 6-seat Model Y powers its best July yet as Australia nears 50% electrified sales",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3c663e830149bea9323fe6fe59fc8af98224705ad68a8b7dd9a205ad11058433",
+        "datetime": 1786294860,
+        "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
+      },
+      {
+        "headline": "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f45e2379d3532d14de2026567c166f0c4f8f943f936b39a9525a667fa4d3d729",
+        "datetime": 1786291486,
+        "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
+      },
+      {
+        "headline": "Elon Musk's Boring Company Is Raising Money at a $20 Billion Valuation. Here's How His Empire Outside Tesla Is Growing.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=012ddd24f393591ae541d3b2dac66023dabc6b4aced6ad4c37be445f068c6507",
+        "datetime": 1786280700,
+        "headlineKo": "Elon Musk의 지루한 회사는 200억 달러 가치로 자금을 조달하고 있습니다. Tesla 외부의 그의 제국이 성장하는 방법은 다음과 같습니다."
+      },
       {
         "headline": "Wall Street Week Ahead",
         "source": "SeekingAlpha",
@@ -389,31 +410,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=400e7d7755cd3b299057e2cbbd31b7e834292cc81e1d69e62629cbf5ee88ad30",
         "datetime": 1786239300,
         "headlineKo": "Elon Musk는 약 2,000억 달러 규모의 Tesla 지분 20%를 소유하고 있습니다. 그의 소유권 수준이 주주들에게 중요한 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "When Leverage Goes Wrong on Wall Street",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6a0988391faa72f1b2fee86fd03253c035c8beb825cd21d92ded5ecf8998a2d4",
-        "datetime": 1786225537,
-        "headlineKo": "월스트리트에서 레버리지가 잘못되었을 때"
-      },
-      {
-        "headline": "Jim Cramer Is Telling Investors to Accumulate SpaceX for the Long Term",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bf86e9afd88cf05e66ec2be59ae7170d7f3cb3e7d6a5a9b02a9a041d6ae964a2",
-        "datetime": 1786219338,
-        "headlineKo": "Jim Cramer는 투자자들에게 장기적으로 SpaceX를 축적하라고 말하고 있습니다."
-      },
-      {
-        "headline": "Rivian's make-or-break R2 midsize EV delivers: Road test",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d56a946910bb793ba85b560cdc2faf8af07406077e276b755d43db318e800525",
-        "datetime": 1786199512,
-        "headlineKo": "Rivian의 성패를 좌우할 R2 중형 EV는 다음을 제공합니다: 도로 테스트"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "MU": {
     "nextEarnings": {
@@ -423,43 +423,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "SpaceX Lost $2 Billion in the First Half of 2026. Micron Made $28 Billion in Profits in Its Latest Quarter. But the Better Stock Pick Isn't as Obvious as Those Numbers Suggest.",
+        "headline": "Micron Has Surged 207% This Year. Brace for a Steep Pullback.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ff3b948872894764f2c7411f9e3c9c31a15c740badec58c0aca07eeb394f129b",
-        "datetime": 1786266240,
-        "headlineKo": "SpaceX는 2026년 상반기에 20억 달러의 손실을 입었습니다. Micron은 최근 분기에 280억 달러의 수익을 올렸습니다. 그러나 더 나은 주식 선택은 그 숫자가 암시하는 것만큼 분명하지 않습니다."
+        "url": "https://finnhub.io/api/news?id=94308ef42d235b245bc7e10b205a677f62304b920cc33bc7c3c10feb84fe4105",
+        "datetime": 1786297500,
+        "headlineKo": "마이크론은 올해 207% 급등했다. 급격한 하락에 대비하세요."
       },
       {
-        "headline": "Micron's Stock Price Has Corrected 30% From Its All-Time High. Is It Time to Buy?",
+        "headline": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f58e416babd91f4eb5d6a6c962a41e285b256fb1df9f6cc44eb8b7953cda7ff4",
-        "datetime": 1786261800,
-        "headlineKo": "마이크론 주가가 사상 최고치에서 30% 수정됐다. 구매할 시간인가?"
+        "url": "https://finnhub.io/api/news?id=1f47db17e08576a99d5ee61bb26ce69bec10ecf0f4e174c192439193bad82a0b",
+        "datetime": 1786297380,
+        "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
       },
       {
-        "headline": "Why the Market Continues to Sleep on Micron's Growth Potential",
+        "headline": "Nvidia and Micron Have Driven the S&P 500’s 2026 Rally to Record Highs. History Says It’s Not Over",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=08b0bc744bc1d34d99a84cbe113d0575a940fb20ee7280cd6153682a8de40fd8",
-        "datetime": 1786228500,
-        "headlineKo": "시장이 마이크론의 성장 잠재력에 계속 잠자고 있는 이유"
+        "url": "https://finnhub.io/api/news?id=a52dc31b76306e7b3c258491daac4f2f49f9b8368777c39b125ff98b6bfd9cc3",
+        "datetime": 1786289608,
+        "headlineKo": "Nvidia와 Micron은 S&P 500의 2026년 랠리를 최고 기록으로 이끌었습니다. 역사는 아직 끝나지 않았다고 말한다"
       },
       {
-        "headline": "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
+        "headline": "Citi Recommends Buying the Dip in Memory Stocks as AI Cycle Gains Momentum",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=91aca5cb4998ce0bff81500fe9630d528ab91e5fc21132eec54717361dc3d2fe",
-        "datetime": 1786210239,
-        "headlineKo": "Nvidia, Micron 또는 Broadcom: Raymond Dalio는 무엇을 할까요?"
+        "url": "https://finnhub.io/api/news?id=b751bec3e632db99dff4f6185d414b4bf69fed8049fba972aa1d6cb2dc90e9ef",
+        "datetime": 1786282680,
+        "headlineKo": "Citi는 AI 주기가 모멘텀을 얻음에 따라 메모리 주식 하락세 매수를 권장합니다."
       },
       {
-        "headline": "AI’s Biggest Opportunity by 2027: NVIDIA vs. Micron",
+        "headline": "3 Artificial Intelligence (AI) Stocks to Load Up On in August",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0214359f2efcb2f2aad79168155ae54e7165049fac366699b35a674e36096516",
-        "datetime": 1786199400,
-        "headlineKo": "2027년까지 AI의 가장 큰 기회: NVIDIA vs. Micron"
+        "url": "https://finnhub.io/api/news?id=8ece32cf7a99465fead4629449fc21bd4a86b7cbeea98f61cd2f1acd372e03c7",
+        "datetime": 1786278600,
+        "headlineKo": "8월에 상승할 인공지능(AI) 주식 3개"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:03"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "AMD": {
     "nextEarnings": {
@@ -468,6 +468,20 @@ const NEWS_DATA = {
       "epsEstimate": 1.8517
     },
     "news": [
+      {
+        "headline": "AMD (AMD) Buys Inference Chip Startup Taalas To Sharpen Its AI Edge",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6924ea8312cd3ab3cdee8559bcb3d2014095b585c8a26454d77f4f58b21e42d4",
+        "datetime": 1786271174,
+        "headlineKo": "AMD(AMD), AI 우위 강화를 위해 추론 칩 스타트업 Taalas 인수"
+      },
+      {
+        "headline": "AMD: Lisa Su's Magic Appears To Be Fading",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a36fa8e754b6a540eb2ce4f8550a8827de75ca5614f91c5f493a7436ce3b9a38",
+        "datetime": 1786267491,
+        "headlineKo": "AMD: Lisa Su의 마법이 사라지고 있는 것 같습니다"
+      },
       {
         "headline": "AMD just made bold move to challenge Nvidia",
         "source": "Yahoo",
@@ -488,24 +502,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7f048c217128d902c47c64f63cc716c4951c96e5eea64598e4893c7fb5b9720c",
         "datetime": 1786202102,
         "headlineKo": "AMD는 2분기 추정치를 상회했지만 투자자들은 여전히 ​​매도 버튼을 눌렀습니다. AMD 주식의 다음 단계는 무엇입니까?"
-      },
-      {
-        "headline": "Is AMD Stock a Buy on the Dip as AI Revenue Surges?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b7e7c384943e272c920bdd2f3c44898ab43fb2c23c07786aa122dea7506388f",
-        "datetime": 1786200600,
-        "headlineKo": "AI 수익 급증으로 인해 AMD 주식이 하락세를 타고 있습니까?"
-      },
-      {
-        "headline": "AMD Just Reported Its Data Center Revenue More Than Doubled Year-Over-Year. What Comes Next.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e3e966c0c80174d0d432ba10a8e1c1375f7aae91b4f451a6c600c2f353eef478",
-        "datetime": 1786196702,
-        "headlineKo": "AMD는 데이터 센터 수익이 전년 대비 두 배 이상 증가했다고 보고했습니다. 다음은 무엇입니까?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "INTC": {
     "nextEarnings": {
@@ -550,8 +550,8 @@ const NEWS_DATA = {
         "headlineKo": "Intel(INTC)은 텍사스 칩 시설 합작 투자를 통해 무엇을 얻습니까?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "AMAT": {
     "nextEarnings": {
@@ -560,6 +560,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.462
     },
     "news": [
+      {
+        "headline": "Dow Jones Futures Loom As Market Bulls Rule; Cisco, Lumentum Earnings Ahead",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=88d7a725773851ac5002df976acc5b5fc6b0404b717c105226413e63167f51a5",
+        "datetime": 1786277855,
+        "headlineKo": "다우존스 선물은 시장 상승세의 지배를 받게 될 것입니다; Cisco, Lumentum 앞으로의 수익"
+      },
       {
         "headline": "Wall Street Week Ahead",
         "source": "SeekingAlpha",
@@ -587,101 +594,94 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=92ebcf9e88eb5cc5530a414cce8df0a9c9e063c37e41df80756b63479a5d5bdc",
         "datetime": 1786186800,
         "headlineKo": "Cisco, Tencent 헤드라인 음소거 수익 주간"
-      },
-      {
-        "headline": "Jim Cramer Names 5 Investing Themes and 13 Stocks to Buy for 2026",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7591081d099f58c7b7dee8c26d95bffffb959449b7425364d7387beeef4eb64a",
-        "datetime": 1786180793,
-        "headlineKo": "Jim Cramer는 2026년에 매수해야 할 5가지 투자 테마와 13가지 주식을 지정합니다."
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
       {
+        "headline": "Infrastructure Capital Small Cap Income ETF And The Case For Screening Small Caps By Dividend And Balance Sheet",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=396633687c22d92d4cf0aae0b298a1b29b2e118bbb5073323926f4dd8539bc69",
+        "datetime": 1786279800,
+        "headlineKo": "인프라 캐피탈 소형주 소득 ETF 및 배당금 및 대차대조표별 소형주 선별 사례"
+      },
+      {
+        "headline": "The July CPI Report May Reveal Why Rates Are Headed Even Higher",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d37353ea2a606a6b4d384b348b62603b2e42a78c5c62f8722cce5e3212613eb1",
+        "datetime": 1786269300,
+        "headlineKo": "7월 CPI 보고서는 금리가 더 높은 방향으로 향하는 이유를 밝힐 수 있습니다"
+      },
+      {
+        "headline": "The Economy No Longer Stinks - But Stocks Have Already Sprinted Ahead",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f62cd4669c72cd5976b2f5f02d976e5263c843a47b0ae10698ade3230a714321",
+        "datetime": 1786266000,
+        "headlineKo": "경제는 더 이상 악취가 나지 않습니다. 하지만 주식은 이미 질주하고 있습니다."
+      },
+      {
+        "headline": "AI Narrative Risk: The Hyperscaler Story Changes Again",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=687f14822590b289e574d7bdfe28cc67c3adea10c57db04be681184034d84d75",
+        "datetime": 1786262400,
+        "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
+      },
+      {
         "headline": "We Are Undoubtedly In An AI Bubble",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=cd8c6b57b31732d38f6589f34bd51390247075c591205a5edfcdd3d0e0d62a13",
         "datetime": 1786254300,
         "headlineKo": "우리는 의심할 여지 없이 AI 거품 속에 있다"
-      },
-      {
-        "headline": "Crestmont P/E And Market Valuation: July 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d319fbdaee33182d5c6dd778caf1577b9ac50de89d36512a5f867328acf1dd77",
-        "datetime": 1786235400,
-        "headlineKo": "Crestmont P/E 및 시장 평가: 2026년 7월"
-      },
-      {
-        "headline": "Market Valuation: Is The Market Still Overvalued?",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=172ee529c04d02301059b2f64c0ffc06ed469b364cdcc73259093c4336db716f",
-        "datetime": 1786235400,
-        "headlineKo": "시장 가치 평가: 시장은 여전히 ​​과대평가되어 있나요?"
-      },
-      {
-        "headline": "The 1-Minute Market Report, August 8, 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6c4447f6e7adfa3a7a753a933f4e0239f6ca1268da7b507cab61c0b414a03c5a",
-        "datetime": 1786230855,
-        "headlineKo": "1분 시장 보고서, 2026년 8월 8일"
-      },
-      {
-        "headline": "OMAH: A 15% Distribution Rate From Buffett's Portfolio To Buy",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=eff10a4de6774df4870d9679fb61eb72192b194075b695973a1143ad5af0ceda",
-        "datetime": 1786180500,
-        "headlineKo": "OMAH: 버핏의 포트폴리오에서 구매까지 15%의 배분율"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "SPY": {
     "nextEarnings": null,
     "news": [
       {
+        "headline": "Infrastructure Capital Small Cap Income ETF And The Case For Screening Small Caps By Dividend And Balance Sheet",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=396633687c22d92d4cf0aae0b298a1b29b2e118bbb5073323926f4dd8539bc69",
+        "datetime": 1786279800,
+        "headlineKo": "인프라 캐피탈 소형주 소득 ETF 및 배당금 및 대차대조표별 소형주 선별 사례"
+      },
+      {
+        "headline": "The July CPI Report May Reveal Why Rates Are Headed Even Higher",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d37353ea2a606a6b4d384b348b62603b2e42a78c5c62f8722cce5e3212613eb1",
+        "datetime": 1786269300,
+        "headlineKo": "7월 CPI 보고서는 금리가 더 높은 방향으로 향하는 이유를 밝힐 수 있습니다"
+      },
+      {
+        "headline": "The Economy No Longer Stinks - But Stocks Have Already Sprinted Ahead",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f62cd4669c72cd5976b2f5f02d976e5263c843a47b0ae10698ade3230a714321",
+        "datetime": 1786266000,
+        "headlineKo": "경제는 더 이상 악취가 나지 않습니다. 하지만 주식은 이미 질주하고 있습니다."
+      },
+      {
+        "headline": "AI Narrative Risk: The Hyperscaler Story Changes Again",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=687f14822590b289e574d7bdfe28cc67c3adea10c57db04be681184034d84d75",
+        "datetime": 1786262400,
+        "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
+      },
+      {
         "headline": "We Are Undoubtedly In An AI Bubble",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=cd8c6b57b31732d38f6589f34bd51390247075c591205a5edfcdd3d0e0d62a13",
         "datetime": 1786254300,
         "headlineKo": "우리는 의심할 여지 없이 AI 거품 속에 있다"
-      },
-      {
-        "headline": "Top 50 High-Quality Dividend Growth Stocks For August 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=67a12f998d09e3a8032fc7543984727ae385b02a09472666c7971ce61d490975",
-        "datetime": 1786243803,
-        "headlineKo": "2026년 8월 상위 50개 고품질 배당성장주"
-      },
-      {
-        "headline": "Crestmont P/E And Market Valuation: July 2026",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d319fbdaee33182d5c6dd778caf1577b9ac50de89d36512a5f867328acf1dd77",
-        "datetime": 1786235400,
-        "headlineKo": "Crestmont P/E 및 시장 평가: 2026년 7월"
-      },
-      {
-        "headline": "Regression To Trend: S&P Composite 211% Above Trend In July",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4f1340e27aceeadb304a1d98180805006142c806a647a118300be0edd458ae84",
-        "datetime": 1786235400,
-        "headlineKo": "추세 회귀: S&P Composite는 7월 추세 대비 211% 상승"
-      },
-      {
-        "headline": "Market Valuation: Is The Market Still Overvalued?",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=172ee529c04d02301059b2f64c0ffc06ed469b364cdcc73259093c4336db716f",
-        "datetime": 1786235400,
-        "headlineKo": "시장 가치 평가: 시장은 여전히 ​​과대평가되어 있나요?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:01"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:00"
   },
   "ORCL": {
     "nextEarnings": {
@@ -690,6 +690,13 @@ const NEWS_DATA = {
       "epsEstimate": 1.7745
     },
     "news": [
+      {
+        "headline": "Is CPI FIM (BDL:ORCL) Undervalued As Its Recent Rebound Meets An 8.7x P/E?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49d421086e9898e450e49b02515132eb986b26f41c01c89d0ee9f95a90750616",
+        "datetime": 1786288264,
+        "headlineKo": "CPI FIM (BDL:ORCL)은 최근 반등이 8.7배 P/E를 충족하면서 저평가되어 있습니까?"
+      },
       {
         "headline": "What Does Oracle (ORCL) Gain From Bringing New AI Models Into Its Apps?",
         "source": "Yahoo",
@@ -717,17 +724,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=2148a17570865a5320b3d6234e4aad136b5969c80e086c34aea2ca62969c3dff",
         "datetime": 1786176900,
         "headlineKo": "AI Capex Waterfall이 미래 배당금을 쏟아 붓고 있습니다."
-      },
-      {
-        "headline": "Oracle Surges: What's Driving the Sudden Rally",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2a486e7b2a8cadaa229c3ec2e260751846755671f8498eae340f34f610455b8b",
-        "datetime": 1786138200,
-        "headlineKo": "Oracle Surges: 갑작스러운 반등을 주도하는 요인"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "CRM": {
     "nextEarnings": {
@@ -736,6 +736,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.3057
     },
     "news": [
+      {
+        "headline": "Palantir vs. Salesforce: Two Visions of Enterprise AI, One Clear Winner",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=430b8af128c0c7e986ebabd2d830669153ec4475c6a641bccdbe70a743e66214",
+        "datetime": 1786285841,
+        "headlineKo": "Palantir 대 Salesforce: 엔터프라이즈 AI의 두 가지 비전, 하나의 확실한 승자"
+      },
       {
         "headline": "Circle Internet Group vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
         "source": "Yahoo",
@@ -763,17 +770,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=73582341a19b5fa4622a1785776545cbbb6ecef7f58b353c8360a692acf51eb0",
         "datetime": 1786127220,
         "headlineKo": "성장이 프리미엄 가치 평가와 충돌할 때 SOUN을 구매할 가치가 있나요?"
-      },
-      {
-        "headline": "Exploring the top movers within the dow jones index during today's session.",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=90e59b20f2b77e8be0f9b80023cfea68966c63722d4f19a0161c55c2e4e3141a",
-        "datetime": 1786120804,
-        "headlineKo": "오늘 세션 동안 다우존스 지수 내 최고 변동 항목을 살펴봅니다."
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "PLTR": {
     "nextEarnings": {
@@ -783,43 +783,43 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Palantir vs. Salesforce: Two Visions of Enterprise AI, One Clear Winner",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=430b8af128c0c7e986ebabd2d830669153ec4475c6a641bccdbe70a743e66214",
+        "datetime": 1786285841,
+        "headlineKo": "Palantir 대 Salesforce: 엔터프라이즈 AI의 두 가지 비전, 하나의 확실한 승자"
+      },
+      {
+        "headline": "USA Today Q2 Earnings Call Highlights",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a79093d5406b0a63bb4ccab4c5b908c2882ac5ec9a76cb8f64d681b07e39fffc",
+        "datetime": 1786266234,
+        "headlineKo": "USA Today 2분기 실적 발표 하이라이트"
+      },
+      {
+        "headline": "Palantir: Competition Is For Losers (Rating Upgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6179f715ec155d23912b0454b3012b789cf2f8e7b65d6d6d609d1965c7369625",
+        "datetime": 1786264701,
+        "headlineKo": "Palantir: 경쟁은 패자를 위한 것입니다(등급 업그레이드)"
+      },
+      {
+        "headline": "Top Wall Street analysts like these 3 stocks for their solid growth potential",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=c2b222ecaa8ffbe904d435362e77574607c39521f1c503abb054e68b4d15d480",
+        "datetime": 1786262516,
+        "headlineKo": "최고의 월스트리트 애널리스트들은 탄탄한 성장 잠재력 때문에 이 3개 주식을 좋아합니다."
+      },
+      {
         "headline": "Earnings beats ease concerns over record U.S. stock rally - WSJ",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc5b1f3df9fd34ca061fc97816b99d46bbe40b24e9d6e0a40ed048a5e17c8ca4",
         "datetime": 1786259300,
         "headlineKo": "기록적인 미국 증시 상승에 대한 우려가 실적 개선으로 완화 - WSJ"
-      },
-      {
-        "headline": "Is the Worst Finally Over for Palantir Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f815733acf70c7a31bac16167b222c022344d6d774450f570bf9b90d916d73bb",
-        "datetime": 1786254600,
-        "headlineKo": "Palantir 주식에 대한 최악의 상황은 마침내 끝났습니까?"
-      },
-      {
-        "headline": "Palantir Is Worth $413 Billion. The $500 Billion Line Sits Almost Exactly at Its Record High.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6bea3e9c531ae06c293b7b043f6b3a91a9330c08f3a1ec5fd197c34108f038a9",
-        "datetime": 1786238880,
-        "headlineKo": "팔란티어의 가치는 4,130억 달러입니다. 5000억 달러 라인은 거의 정확히 사상 최고치에 도달했습니다."
-      },
-      {
-        "headline": "Wall Street Can't Agree on Palantir. Here's What Investors Should Do Next",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e66b9a647dc23065a50b2ee03bcbc76c2a408d50ffbb4e0be40663f0e3c0d5e9",
-        "datetime": 1786203002,
-        "headlineKo": "월스트리트는 Palantir에 동의할 수 없습니다. 투자자가 다음에 해야 할 일은 다음과 같습니다."
-      },
-      {
-        "headline": "Stock Market Week Ahead: Bullish Signals Amid 'Dirty' Volume",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=47a727c516e807157b4e059d81f60520c37aa8abb3f5f0b6e5201ab1dd1d2f4e",
-        "datetime": 1786198855,
-        "headlineKo": "주식 시장 주간 전망: 거래량 '더러움' 속에 강세 신호"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "QCOM": {
     "nextEarnings": {
@@ -828,6 +828,13 @@ const NEWS_DATA = {
       "epsEstimate": 2.2987
     },
     "news": [
+      {
+        "headline": "Micron (MU) Secures Strategic Auto Deals and AI Momentum to Offset Cyclical Pressures",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9804693e27e0138aec625f8c5534eaf7c0013bd67a8c34c3f33b2008b550a1e5",
+        "datetime": 1786270677,
+        "headlineKo": "Micron(MU)은 전략적 자동 거래 및 AI 모멘텀을 확보하여 경기 침체 압력을 상쇄합니다."
+      },
       {
         "headline": "Top 50 High-Quality Dividend Growth Stocks For August 2026",
         "source": "SeekingAlpha",
@@ -855,17 +862,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=0062adb357e5332978c05b4e5b51a2b355c07c3a9d560170175d2a1083998d22",
         "datetime": 1786124670,
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
-      },
-      {
-        "headline": "Can MU Stock Compound Its Way Higher?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d8ad9cb22ed7cabb93b64f2a636ab6a2a31f87786103b7cf4d0dcd921f6aa1e9",
-        "datetime": 1786106845,
-        "headlineKo": "MU 주식이 더 높아질 수 있습니까?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "ARM": {
     "nextEarnings": {
@@ -910,8 +910,8 @@ const NEWS_DATA = {
         "headlineKo": "Arm Holdings: 수익 급증이 곧 다가옵니다"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "MRVL": {
     "nextEarnings": {
@@ -956,8 +956,8 @@ const NEWS_DATA = {
         "headlineKo": "인텔, 고객 참여 강화 및 성장 가속화를 위한 리더십 임명 발표"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "ASML": {
     "nextEarnings": {
@@ -966,6 +966,13 @@ const NEWS_DATA = {
       "epsEstimate": 10.1558
     },
     "news": [
+      {
+        "headline": "Is ASML Holding (NasdaqGS:ASML) Trading At A Premium Or Fair Value?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=00c4d154ee19185bff316ae18b72902e2729bee1055c94066263f753691bf0f7",
+        "datetime": 1786295374,
+        "headlineKo": "ASML Holding (NasdaqGS:ASML)은 프리미엄으로 거래됩니까, 아니면 공정 가치로 거래됩니까?"
+      },
       {
         "headline": "ASML Holding (ENXTAM:ASML) Draws Fresh Attention After $400 Million Bet On Lithography Rival",
         "source": "Yahoo",
@@ -993,17 +1000,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=9f4075162f60e6e3789b813b99f5ce96fb58dbedaf9219a7dfca2a8163e533e8",
         "datetime": 1786166605,
         "headlineKo": "Situational Awareness는 칩 스타트업 Source Foundry에 5억 달러를 투자했습니다."
-      },
-      {
-        "headline": "Tracking Ken Fisher's Fisher Asset Management Portfolio - Q2 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3b927a14a18d57bb82a7fd5ecacd77c7fce9a6ee9183da869696a924d72adf22",
-        "datetime": 1786140337,
-        "headlineKo": "Ken Fisher의 Fisher 자산 관리 포트폴리오 추적 - 2026년 2분기 업데이트"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "LRCX": {
     "nextEarnings": {
@@ -1012,6 +1012,13 @@ const NEWS_DATA = {
       "epsEstimate": 2.1446
     },
     "news": [
+      {
+        "headline": "Top Wall Street analysts like these 3 stocks for their solid growth potential",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=c2b222ecaa8ffbe904d435362e77574607c39521f1c503abb054e68b4d15d480",
+        "datetime": 1786262516,
+        "headlineKo": "최고의 월스트리트 애널리스트들은 탄탄한 성장 잠재력 때문에 이 3개 주식을 좋아합니다."
+      },
       {
         "headline": "Top 50 High-Quality Dividend Growth Stocks For August 2026",
         "source": "SeekingAlpha",
@@ -1039,17 +1046,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
         "datetime": 1786147127,
         "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
-      },
-      {
-        "headline": "Wall Street Analysts See Lam Research (LRCX) as a Buy: Should You Invest?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=378b5a2e2569e892ac8e74b74cbac54af784eb0679e4d4b6d45baaa6167cb15e",
-        "datetime": 1786109404,
-        "headlineKo": "월스트리트 분석가들은 Lam Research(LRCX)를 매수로 보고 있습니다: 투자해야 할까요?"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:02"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "KLAC": {
     "nextEarnings": {
@@ -1094,8 +1094,8 @@ const NEWS_DATA = {
         "headlineKo": "Tesla-SpaceX Terafab 베팅: 이익을 얻을 수 있는 4가지 칩 장비 주식"
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:03"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:01"
   },
   "SNDK": {
     "nextEarnings": {
@@ -1104,6 +1104,20 @@ const NEWS_DATA = {
       "epsEstimate": 41.473
     },
     "news": [
+      {
+        "headline": "Opinion: The Best AI Memory Stock to Buy Isn't Micron or Sandisk -- It's This Korean Giant",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f47db17e08576a99d5ee61bb26ce69bec10ecf0f4e174c192439193bad82a0b",
+        "datetime": 1786297380,
+        "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
+      },
+      {
+        "headline": "SanDisk CEO David Goeckeler Expects PC and Smartphone Sales to Decline in 2026, But Sees NAND Recovery Ahead: Here's Why",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=27f7bb850420a4f9773fdca579533261cde3a75a6e4e11a7651ea208b4793e8f",
+        "datetime": 1786284084,
+        "headlineKo": "SanDisk CEO David Goeckeler는 2026년에 PC와 스마트폰 판매가 감소할 것으로 예상하지만 NAND가 회복될 것이라고 예상합니다: 그 이유는 다음과 같습니다."
+      },
       {
         "headline": "Sandisk: A Better Business Is Emerging From The AI Boom",
         "source": "SeekingAlpha",
@@ -1124,24 +1138,10 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=30fc74ac6ca74d1c127c3e350b82855c04bb97cca485b71c25bc152aa896518a",
         "datetime": 1786201500,
         "headlineKo": "지난 달 Sandisk 주가가 거의 20% 폭락한 이유"
-      },
-      {
-        "headline": "SanDisk CEO David Goeckeler Says Its Biggest Customers Aren't Talking Prices Anymore as Business Turns 'Highly Strategic'",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=70d8c7bbb79c2f64e6bb32683952226ee550455291af3012fdb79d803c7814bd",
-        "datetime": 1786195816,
-        "headlineKo": "SanDisk CEO David Goeckeler는 비즈니스가 '매우 전략적'으로 전환함에 따라 최대 고객이 더 이상 가격에 대해 이야기하지 않는다고 말했습니다."
-      },
-      {
-        "headline": "SanDisk Just Unveiled the First High-Bandwidth Flash Standard. What That Means for SNDK Stock.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2d17698e46196ed9d3b1d64f17b2a9763b96c78394cb2ad01123b11b23bda4e7",
-        "datetime": 1786194002,
-        "headlineKo": "SanDisk가 최초의 고대역폭 플래시 표준을 공개했습니다. SNDK 주식에 대한 의미."
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:03"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:02"
   },
   "WDC": {
     "nextEarnings": {
@@ -1150,6 +1150,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.7282
     },
     "news": [
+      {
+        "headline": "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cb5839774c4156ed04f35d562acae0450cd67f25c0fe20b9abc0935987d56868",
+        "datetime": 1786281300,
+        "headlineKo": "메모리 부문 주식은 최고치보다 30% 이상 하락했지만 이 두 가지는 지금 매수할 가치가 있습니다."
+      },
       {
         "headline": "Western Digital: Cyclical Upcycle Is On A Clock While Valuation Remains Expensive",
         "source": "SeekingAlpha",
@@ -1177,16 +1184,9 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a1e24b8dd253a4be9a1eb143b60072f55719194268d4dcc7357c894b960e658b",
         "datetime": 1786156217,
         "headlineKo": "Western Digital은 AI 고객이 이미 2031년까지 스토리지 거래를 협상하고 있다고 말합니다: '가시성은 여전히 ​​매우 강력합니다'"
-      },
-      {
-        "headline": "BofA resets its Western Digital target after mixed signal",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0761de0bf3ec77026ad4569b41d7d986f640b32a9548e918e1309fac534c0d61",
-        "datetime": 1786151820,
-        "headlineKo": "BofA는 신호가 혼합된 후 Western Digital 목표를 재설정합니다."
       }
     ],
-    "_fetched_at": 1786276880.7712,
-    "_updated_label": "2026-08-09 21:03"
+    "_fetched_at": 1786302019.6273055,
+    "_updated_label": "2026-08-10 04:02"
   }
 };

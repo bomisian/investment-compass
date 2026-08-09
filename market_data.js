@@ -182,18 +182,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "datetime": 1786296971,
+      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
+    },
+    {
+      "headline": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazVhN1R5WHRFQTBvX1BRNWoyT1F4WGlKVXBncE5ad1h2TVZqM0ZPLWdEYy1OVkdDYnE2THh4Z2twaGtiRXBMdVY3V3NBT01UeGxuVlljODZHUVptY3NqNnVldHNDOEIzYndQQi0zUExFbExpVGdQbS0zS2ppeGpMbWlvVnZsNS10aVBLaXR1ZDA4Q0piT09XVHR4bjRNSk5qaDQtOGwzWm1seTB0UXlVUl9uN3FIRlVCWUdNS0lNX2xWUWR2ZHdTNnVqdS1sdw?oc=5",
+      "datetime": 1786295999,
+      "headlineKo": "Axios 인터뷰에 따르면 트럼프는 미국이 이란에 대해 '낮은 입장'을 유지하고 있으며 경제적 고통을 강조하고 있다고 말했습니다."
+    },
+    {
       "headline": "Netanyahu says Israel won't pull out of Gaza before Hamas disarms - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
       "datetime": 1786291554,
       "headlineKo": "네타냐후는 하마스가 무장해제하기 전에는 이스라엘이 가자에서 철수하지 않을 것이라고 말했다 - 로이터"
-    },
-    {
-      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "datetime": 1786283973,
-      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
     },
     {
       "headline": "5 ‘rules’ your parents taught you that are sabotaging your career, says expert—like ‘always be grateful’",
@@ -257,15 +264,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaVNBcVdFSHViUm10d0NJVTdNYVJOdDgwZ3FvTy1JbFVwTVVlWmN1a1B3UjRaTWdYOG5VRm0yZWZXUWVKMEtLVzk4azgwcHVuX1Y3LWFrMGhnam0zRFU1dnRFQlBaSmpEOUVzM0sxUVYybml4QkIwNlVIck1LNE5wQTBEcWUtaFhZMGdCTFpnS0R5QTNDLWJheUNGT3VINWtSRzBFek13?oc=5",
       "datetime": 1786239780,
       "headlineKo": "중국 7월 공장 인플레이션이 3개월 최저치로 완화되고 CPI도 둔화 - Reuters"
-    },
-    {
-      "headline": "Verizon mobile service down for thousands of customers in the U.S., Downdetector shows",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/08/verizon-mobile-outage-downdetector.html",
-      "datetime": 1786230840,
-      "headlineKo": "DownDetector는 미국 내 수천 명의 고객에 대한 Verizon 모바일 서비스 중단을 보여줍니다."
     }
   ],
-  "_fetched_at": 1786298402.6157928,
-  "_updated_label": "2026-08-10 03:00"
+  "_fetched_at": 1786302128.4090624,
+  "_updated_label": "2026-08-10 04:02"
 };
