@@ -185,7 +185,7 @@ const MARKET_DATA = {
       "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "datetime": 1786296971,
+      "datetime": 1786301732,
       "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
     },
     {
@@ -245,7 +245,7 @@ const MARKET_DATA = {
       "headlineKo": "이란 장관은 \"임시 협정이 파기되는 동안 미국과 대화는 이뤄지지 않을 것\"이라고 말했다 - 로이터 통신"
     },
     {
-      "headline": "Russia says it hit fuel storage facilities in Ukrainian ports overnight - Reuters",
+      "headline": "Russia says it hit fuel storage facilities in Ukrainian ports overnight - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmJnek5pZHJ3UUNSeXFwWXg1cXd0WWpIZUd5a2lHVTBnVE0tZDNmLVU4a2NzbEd0NGsteXFZYW93RXJwci1tSjhYNzdKQi1UcGJ6VnpxWjZZaUYzOUxHX3Utd2dGdUdnT0dHVTZna3hxMkVxSGM4Q29JMlpwZjVucmwxcHRSZ3ZZd3gzWnhjRmxaZUhteFZNR3ZjVmdkbnBCbk4yR0FqcC1xQ2t5MlFz?oc=5",
       "datetime": 1786258560,
@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "중국 7월 공장 인플레이션이 3개월 최저치로 완화되고 CPI도 둔화 - Reuters"
     }
   ],
-  "_fetched_at": 1786302128.4090624,
-  "_updated_label": "2026-08-10 04:02"
+  "_fetched_at": 1786305603.1169095,
+  "_updated_label": "2026-08-10 05:00"
 };
