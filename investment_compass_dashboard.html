@@ -221,17 +221,21 @@
     <div id="marketBody"></div>
   </div>
 
+  <div class="card" id="earningsCalCard" style="display:none;">
+    <h2>다가오는 실적 발표 <span style="font-weight:400;font-size:12px;color:var(--sub);">(향후 5주 · 스캔 없이 바로 보여요)</span></h2>
+    <div id="earningsCalBox"></div>
+  </div>
+
   <div class="card" id="summaryCard" style="display:none;">
-    <h2>장기 눌림목 강도 요약 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 저가매수 타이밍 · 우량주 전제)</span></h2>
+    <h2>① 장기 매수 타이밍 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 저가매수 · 눌림목 강도 · 우량주 전제)</span></h2>
     <div class="summary-grid">
       <div>
         <div class="bucket-row" id="bucketRow"></div>
         <div class="sub" style="margin-top:10px;">지금 가장 눌린 종목 (눌림목 점수 상위, 매수 관심 이상)</div>
         <div class="rec-list" id="recList"></div>
-        <div id="todayEntryBox" style="margin-top:12px;"></div>
       </div>
       <div>
-        <div class="sub" style="margin-bottom:6px;">시장 환경 · SPY 조정만 점수 반영(+1), VIX·F&G는 참고</div>
+        <div class="sub" style="margin-bottom:6px;">시장 환경 · SPY 조정만 점수 반영(+1), VIX·F&G는 참고 · QQQ·다우는 참고용(점수 미반영)</div>
         <table class="env-table" id="envTable"></table>
         <div class="row" style="margin-top:8px;">
           <span class="sub">F&G 지수 수동 입력:</span>
@@ -242,6 +246,11 @@
         </div>
       </div>
     </div>
+
+    <hr style="margin:18px 0;border:none;border-top:1px solid var(--line);">
+
+    <h2 style="margin-top:0;">② 단기 매수 타이밍 <span style="font-weight:400;font-size:12px;color:var(--sub);">(오늘 기준 단타 진입자리 · 14년치 검증 10일 승률 66%)</span></h2>
+    <div id="todayEntryBox"></div>
   </div>
 
   <div class="card">
@@ -331,6 +340,9 @@
 <script src="market_data.js" onerror="void 0"></script>
 <!-- 종목별 가격(OHLCV) - 실시간 조회 3곳이 다 실패했을 때만 쓰는 폴백. 없어도 대시보드는 정상 동작함 -->
 <script src="prices_data.js" onerror="void 0"></script>
+<!-- 종목 사업 핵심 요약(납품처·장점·위험도) - Claude가 WebSearch로 조사해 수동 작성, buy_signal_telegram.py
+     자동 갱신 대상 아님(2026-08-10 파일럿 3종목만). 없어도 대시보드는 정상 동작함 -->
+<script src="business_notes_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -438,20 +450,45 @@ function removeHolding(tk){
   saveHoldings(getHoldings().filter(h=>h.ticker!==tk));
   renderHoldings();
 }
+// 2026-08-10 추가: 단일 종목 비중 한도 - 매도가이드에 "④단일 종목 비중 한도 초과"를 문구로만
+// 넣어뒀는데, 이미 보유종목 트래커에 수량·평단가가 있어서 실제 비중(%)을 계산해 경고할 수 있음.
+// 한도는 사람마다 다르므로 localStorage에 저장하는 사용자 입력값(기본 25% - 일반적으로 흔히
+// 언급되는 단일종목 상한 가이드라인, 이 프로젝트가 백테스트로 검증한 숫자는 아님).
+const CONCENTRATION_KEY = 'compass_concentration_limit';
+function getConcentrationLimit(){
+  const v = parseFloat(localStorage.getItem(CONCENTRATION_KEY));
+  return Number.isFinite(v) && v>0 ? v : 25;
+}
+function saveConcentrationLimit(){
+  const inp = document.getElementById('concentrationLimitInput');
+  const v = parseFloat(inp.value);
+  if(!Number.isFinite(v) || v<=0 || v>100){ inp.setCustomValidity('1~100 사이 숫자를 입력해주세요.'); inp.reportValidity(); return; }
+  inp.setCustomValidity('');
+  localStorage.setItem(CONCENTRATION_KEY, String(v));
+  renderHoldings();
+}
 function renderHoldings(){
   const el = document.getElementById('holdingsBody');
   if(!el) return;
   const list = getHoldings();
   if(!list.length){ el.innerHTML = '<div class="sub" style="margin-top:10px;">아직 등록한 보유종목이 없어요. 위에 티커·평균 매수가·수량을 넣어보세요.</div>'; return; }
-  let totCost=0, totVal=0, known=0;
-  const cards = list.map(h=>{
+  // 1차 패스: 종목별 현재가·평가금액을 먼저 계산해야 전체 합계(totVal) 대비 비중을 낼 수 있음
+  const rows = list.map(h=>{
     const r = results[h.ticker];
     const cur = r && !r.error ? r.price : null;
     const cost = h.avg*h.qty;
-    totCost += cost;
-    if(cur!=null){ totVal += cur*h.qty; known++; } else { totVal += cost; }
+    const val = cur!=null ? cur*h.qty : cost;
+    return {h, r, cur, cost, val, known: cur!=null};
+  });
+  const totCost = rows.reduce((a,x)=>a+x.cost,0);
+  const totVal = rows.reduce((a,x)=>a+x.val,0);
+  const known = rows.filter(x=>x.known).length;
+  const limit = getConcentrationLimit();
+  const cards = rows.map(({h,r,cur,cost,val})=>{
     const plPct = cur!=null ? (cur-h.avg)/h.avg*100 : null;
     const plAmt = cur!=null ? (cur-h.avg)*h.qty : null;
+    const concPct = totVal>0 ? val/totVal*100 : 0;
+    const overLimit = concPct > limit;
     const stages = STAGE_LEVELS.map(s=>{
       const price = h.avg*s.mult;
       const hit = cur!=null && cur<=price;
@@ -464,7 +501,9 @@ function renderHoldings(){
     const stopPrice = h.avg*0.729;
     const dnNote = (dn!=null && dn < stopPrice)
       ? `<div class="sub" style="margin-top:6px;color:#876000;">⚠️ 이 종목의 하방 시나리오($${dn.toFixed(0)})가 손절선($${stopPrice.toFixed(2)})보다 아래예요 — 3단계 계획으로 다 못 받칠 수 있어요.</div>` : '';
-    return `<div class="fund-col" style="margin-top:10px;">
+    const concNote = overLimit
+      ? `<div class="sub" style="margin-top:4px;color:#876000;">⚠️ 전체 포트폴리오의 <b>${concPct.toFixed(1)}%</b>로, 정해둔 한도(${limit}%)를 넘었어요.</div>` : '';
+    return `<div class="fund-col" style="margin-top:10px;${overLimit?'border-color:var(--warn);':''}">
       <div class="row" style="justify-content:space-between;align-items:baseline;">
         <h3 style="margin:0;">${h.ticker} <span style="font-weight:400;color:var(--sub);font-size:12px;">${h.qty}주 · 평단 $${h.avg.toFixed(2)}</span></h3>
         <span class="remove" style="cursor:pointer;color:var(--sub);" onclick="removeHolding('${h.ticker}')">✕ 삭제</span>
@@ -472,8 +511,10 @@ function renderHoldings(){
       <div class="fund-row"><span>현재가</span><span class="v">${cur!=null?'$'+cur.toFixed(2):'<span class="na">스캔 필요</span>'}</span></div>
       <div class="fund-row"><span>평가손익</span><span class="v" style="color:${plPct==null?'var(--sub)':(plPct>=0?'var(--up)':'var(--down)')}">${plPct!=null?`${plPct>=0?'+':''}${plPct.toFixed(1)}% (${plAmt>=0?'+':'-'}$${Math.abs(plAmt).toFixed(0)})`:'-'}</span></div>
       <div class="fund-row"><span>평가금액 / 투자원금</span><span class="v">${cur!=null?'$'+fmtUsd(cur*h.qty):'-'} / $${fmtUsd(cost)}</span></div>
+      <div class="fund-row"><span>포트폴리오 비중</span><span class="v" style="color:${overLimit?'var(--warn)':'inherit'}">${concPct.toFixed(1)}%</span></div>
       ${stages}
       ${dnNote}
+      ${concNote}
     </div>`;
   }).join('');
   const totPl = totVal-totCost;
@@ -481,7 +522,13 @@ function renderHoldings(){
   const summary = `<div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:12px;">
     <b>전체</b> · 투자원금 $${fmtUsd(totCost)} → 평가금액 $${fmtUsd(totVal)}
     <b style="color:${totPl>=0?'var(--up)':'var(--down)'}"> (${totPl>=0?'+':''}${totPct.toFixed(1)}%, ${totPl>=0?'+':'-'}$${fmtUsd(Math.abs(totPl))})</b>
-    ${known<list.length?` <span class="sub">· ${list.length-known}개 종목은 현재가 미조회라 원금으로 계산했어요.</span>`:''}</div>`;
+    ${known<list.length?` <span class="sub">· ${list.length-known}개 종목은 현재가 미조회라 원금으로 계산했어요.</span>`:''}
+    <div class="row" style="margin-top:6px;">
+      <span class="sub">단일 종목 비중 한도:</span>
+      <input type="number" id="concentrationLimitInput" class="fgi-input" min="1" max="100" value="${limit}" style="width:60px;">%
+      <button class="secondary" onclick="saveConcentrationLimit()">적용</button>
+      <span class="sub">넘으면 카드에 경고가 떠요(백테스트로 검증된 숫자는 아니고, 흔히 쓰이는 분산투자 가이드라인이에요 - 직접 조절하세요).</span>
+    </div></div>`;
   el.innerHTML = `<div class="fund-grid">${cards}</div>${summary}`;
 }
 
@@ -489,7 +536,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-06';
+const DASHBOARD_VERSION = '2026-08-10';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -682,6 +729,8 @@ const HINTS = {
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
   tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요. 이 카드의 숫자는 전부 14년·14종목 공식 검증치 하나의 출처예요.",
+  businessNotes: "이 회사가 실제로 무엇을 팔고, 누구에게 팔고, 어떤 강점·위험을 갖고 있는지 서술형으로 정리한 카드예요. 가격·재무 데이터처럼 자동 갱신되지 않고, Claude가 웹검색으로 조사해서 수동으로 작성해요 - '최종 확인일'을 꼭 확인하고, 오래됐다 싶으면 갱신을 요청하세요.",
+  perOverTime: "PER = 주가 ÷ EPS라서, 주가가 똑같아도 회사가 분기 실적을 발표할 때마다 분모(EPS)가 바뀌면 PER도 바뀌어요. 여기서는 지금 주가를 고정해두고 과거 분기들의 실제 TTM EPS로 나눠서 '그때 실적이 지금 가격에 붙어있었다면 PER이 몇 배였을지'를 보여줘요 - 즉 이 변화는 주가 움직임이 아니라 순전히 실적(EPS) 변화 때문이에요.",
   signalDist: "승률과 평균만 보면 손실 폭을 가늠하기 어려워서, 수익률의 '분포'를 더 자세히 보여줘요. 중앙값은 딱 중간값, 하위 10%/5%는 '운이 나빴던 쪽 10%/5% 안에 들면 이 정도까지 손실'이라는 뜻이에요. 신뢰구간은 표본이 다르면(다른 기간에 다시 검증하면) 이 숫자가 이 범위 안에서 흔들릴 수 있다는 뜻이에요. 위 공식 검증치(14종목·14년치)와는 표본이 달라서 숫자가 소폭 다를 수 있어요.",
   signalEvidence: "위 '단타 진입 판단' 카드와는 표본이 다른 보조 자료예요. 이 종목만의 라이브 성적(표본이 작아 우연일 수 있음) · 같은 그룹(섹터)의 5년치 승률 · 오늘 기준 그룹 대비 상대강도, 이렇게 3가지가 섞여 있으니 각각 어떤 표본인지 확인하고 참고만 하세요.",
   // 02 가치/퀄리티
@@ -1011,17 +1060,26 @@ function buildScoreBreakdown(ticker, tech, fund, env){
 
 // ============ 시장 환경 (SPY / VIX / F&G) ============
 async function fetchMarketEnv(){
-  const [spyBundle, vixBundle] = await Promise.all([
+  // 2026-08-10 추가: SPY 하나만으론 "지수 전체"를 대표하기 부족하다는 요청으로 QQQ(나스닥100)·
+  // DIA(다우존스30) 52주 고점대비도 같이 보여줌. 참고용일 뿐 점수 반영은 SPY만(기존 검증 그대로 유지) -
+  // QQQ·DIA를 점수에 넣으려면 재검증이 필요해서 안 함. DIA는 워치리스트에 없어 prices_data.js 마지막
+  // 폴백이 없으므로, 실시간 3경로가 다 실패하면 조용히 null 처리(카드 전체가 깨지지 않게).
+  const [spyBundle, qqqBundle, diaBundle, vixBundle] = await Promise.all([
     fetchDailyCloses('SPY'),
+    fetchDailyCloses('QQQ').catch(()=>null),
+    fetchDailyCloses('DIA').catch(()=>null),
     // ⚠️ '%5EVIX'처럼 미리 인코딩한 문자열을 넘기면 fetchYahooViaProxies 내부의
     // encodeURIComponent()가 '%'를 다시 인코딩해 '%255EVIX'가 되어 야후가 404를 반환함
     // (실측 확인). 항상 원본 심볼('^VIX')을 넘기고 인코딩은 함수 내부에서 한 번만 하게 함.
     // 실시간 3곳이 다 실패하면 PC가 미리 받아둔 가격 캐시(prices_data.js)로 마지막 폴백.
     fetchYahooViaProxies('^VIX').catch(()=>fetchStooq('^VIX').catch(()=>pricesCacheFor('^VIX'))),
   ]);
+  const drawdownOf = b => (b && b.closes && b.closes.length) ? (last(b.closes) - Math.max(...b.closes)) / Math.max(...b.closes) * 100 : null;
   const spyHigh = Math.max(...spyBundle.closes);
   const spyNow = last(spyBundle.closes);
   const spyDrawdownPct = (spyNow - spyHigh) / spyHigh * 100;
+  const qqqDrawdownPct = drawdownOf(qqqBundle);
+  const diaDrawdownPct = drawdownOf(diaBundle);
   const vix = vixBundle ? last(vixBundle.closes) : null;
 
   let fgi = null, fgiSource = 'unavailable';
@@ -1047,7 +1105,7 @@ async function fetchMarketEnv(){
     if(Number.isFinite(mv) && mv>=0 && mv<=100){ fgi = mv; fgiSource = 'manual'; }
   }
 
-  return { spyDrawdownPct, vix: vix ?? 20, fgi, fgiSource, spyPrice: spyNow, spyHigh };
+  return { spyDrawdownPct, qqqDrawdownPct, diaDrawdownPct, vix: vix ?? 20, fgi, fgiSource, spyPrice: spyNow, spyHigh };
 }
 function saveFgiManual(){
   const inp = document.getElementById('fgiManualInput');
@@ -1362,8 +1420,11 @@ function renderSummary(){
 
   scored.sort((a,b)=>b.score-a.score);
   const rec = scored.filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심').slice(0,6);
+  // 2026-08-10 추가: 칩에 점수만 있으면 클릭해서 열어봐야 가격을 알 수 있었음(사용자 요청) - 현재가·PER을
+  // 같이 보여줘서 첫 화면만 봐도 대략의 가격대를 알 수 있게 함. PER은 Finnhub 없는 종목(ETF 등)은 생략.
+  const chipInfo = r => `$${r.price.toFixed(2)}${r.forwardPE!=null?' · PER '+r.forwardPE.toFixed(1)+'배':''}`;
   document.getElementById('recList').innerHTML = rec.length
-    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점</span>`).join('')
+    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점 · ${chipInfo(r)}</span>`).join('')
     : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
 
   // ---- 오늘의 단타 진입 자리 (26종목을 다 열어보지 않아도 되게 첫 화면에 모아줌) ----
@@ -1374,7 +1435,7 @@ function renderSummary(){
   if(box){
     const chips = fresh
       .sort((a,b)=>(b.techScore||0)-(a.techScore||0))
-      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker}${r.techScore>=2?' 강한':''}</span>`).join('');
+      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker}${r.techScore>=2?' 강한':''} · ${chipInfo(r)}</span>`).join('');
     box.innerHTML = `
       <div class="sub" style="margin-bottom:4px;">오늘 새로 난 단타 진입 자리 <span style="font-weight:400;">(쿨다운을 넘긴 첫날만 · 검증 승률 66%의 기준)</span></div>
       ${fresh.length
@@ -1386,8 +1447,11 @@ function renderSummary(){
   const env = marketEnv;
   const envTable = document.getElementById('envTable');
   const spyPt = scoreMarketDip(env.spyDrawdownPct);
+  const fmtDd = v => v!=null ? (v>=0?'+':'')+v.toFixed(1)+'%' : '조회 불가';
   const rows = [
-    ['SPY 52주 고점대비', (env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', spyPt>0?'+'+spyPt:'—'],
+    ['SPY(S&P500) 52주 고점대비', fmtDd(env.spyDrawdownPct), spyPt>0?'+'+spyPt:'—'],
+    ['QQQ(나스닥100) 52주 고점대비', fmtDd(env.qqqDrawdownPct), '참고'],
+    ['DIA(다우30) 52주 고점대비', fmtDd(env.diaDrawdownPct), '참고'],
     ['VIX', env.vix!=null?env.vix.toFixed(2):'조회 불가', '참고'],
     ['F&G Index', env.fgi!=null ? env.fgi.toFixed(0) + (env.fgiSource==='manual'?' (수동)':'') : '조회 불가', '참고'],
   ];
@@ -1724,6 +1788,43 @@ function updateFvSlider(){
   document.getElementById('fvSliderResult').innerHTML =
     `이 가정대로면 <b>$${val.toFixed(0)}</b> <span style="color:${diffPct>=0?'var(--up)':'var(--down)'}">(현재가 대비 ${diffPct>=0?'+':''}${diffPct.toFixed(0)}%)</span>`;
 }
+// ============ 같은 주가, 다른 PER - 실적 발표로 인한 변화 (2026-08-10 추가) ============
+// [배경] 사용자 질문: "PER이 같은 가격대인데 과거랑 현재랑 다른 구간들이 있는 게 실적 발표 때문이지?
+// 그걸 표현할 수 있으면 좋겠다." 맞음 - PER = 주가÷EPS라서 주가가 그대로여도 분기 실적이 나올 때마다
+// 분모(TTM EPS)가 바뀌어 PER이 바뀜. 이미 캐시에 있는 `_quarterly_eps_history`(financials_data.js,
+// Yahoo fundamentals-timeseries 기반 분기별 실제 EPS, buy_signal_telegram.py가 보완 수집)로 새 계산
+// 없이 바로 만들 수 있음 - 지금 주가를 고정해두고 분기 말마다의 TTM(최근4분기 합산) EPS로 나눠서
+// "그때 실적이 지금 주가에 붙어있었다면 PER이 몇 배였을지"를 보여줌.
+function computeTtmPerHistory(ticker, price){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const hist = fin && fin._quarterly_eps_history;
+  if(!hist || hist.length < 4 || !price) return null;
+  const sorted = [...hist].sort((a,b)=> a.endDate < b.endDate ? -1 : (a.endDate > b.endDate ? 1 : 0));
+  const points = [];
+  for(let i=3;i<sorted.length;i++){
+    const win = sorted.slice(i-3, i+1);
+    if(win.some(w=>typeof w.eps !== 'number')) continue;
+    const ttmEps = win.reduce((a,w)=>a+w.eps, 0);
+    points.push({endDate: sorted[i].endDate, ttmEps, per: ttmEps>0 ? price/ttmEps : null});
+  }
+  return points.length ? points : null;
+}
+function renderTtmPerHistory(ticker, price){
+  const pts = computeTtmPerHistory(ticker, price);
+  if(!pts || pts.length < 2) return ''; // 비교할 시점이 2개는 있어야 '변화'를 보여줄 의미가 있음
+  const rows = pts.map(p=>`<div class="fund-row"><span>${esc(p.endDate)} 마감 TTM 기준</span><span class="v">${p.per!=null ? p.per.toFixed(1)+'배' : '<span class="na">적자(계산 불가)</span>'}</span></div>`).join('');
+  const first = pts[0].per, lastP = pts[pts.length-1].per;
+  const changedNote = (first!=null && lastP!=null && Math.abs(lastP-first) >= 3)
+    ? `<span style="color:var(--warn);">이 기간 동안 ${first.toFixed(1)}배 → ${lastP.toFixed(1)}배로 꽤 바뀌었어요 - 주가가 아니라 <b>실적(EPS)이 바뀐 영향</b>이에요.</span>`
+    : `<span style="color:var(--sub);">이 기간 동안 큰 변화는 없었어요.</span>`;
+  return `
+    <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+      <b>지금 가격($${price.toFixed(2)}) 기준, 분기 실적마다 PER이 어떻게 바뀌었을지 ${hintIcon('perOverTime')}</b><br>
+      <span style="color:var(--sub);">주가는 지금 가격으로 고정하고 분기 말 TTM(최근 4개 분기 합산) EPS로만 나눈 값이에요 - "그때 실적이 지금 주가에 붙어있었다면 PER이 몇 배였을지"를 보여줘요.</span>
+      ${rows}
+      <div style="margin-top:4px;">${changedNote}</div>
+    </div>`;
+}
 function renderFairValueSection(r){
   const fv = r.fairValue;
   if(!fv) return '';
@@ -1814,6 +1915,7 @@ function renderFairValueSection(r){
       <div class="fund-col"><h3>애널리스트 목표가</h3>${analystBlock}</div>
     </div>
     <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">현재 PER 요약 &nbsp;·&nbsp; ${perNow||'조회 불가'}</div>
+    ${renderTtmPerHistory(r.ticker, price)}
     ${fv.downside!=null ? `<div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
       <b>하방 시나리오</b> — 이익은 그대로인데 <b>밸류에이션만 과거 하위 20% 수준으로 눌리면</b> 약 <b>$${fv.downside.toFixed(0)}</b> (${rel(fv.downside)}). 분할매수 계획을 세울 때 "여기까지는 빠질 수 있다"의 기준으로 쓰세요.</div>` : ''}
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
@@ -2368,6 +2470,37 @@ function macroMeaning(key, pctRank){
   return m.mid;
 }
 
+// ============ 다가오는 실적 발표 캘린더 (2026-08-10 추가) ============
+// [배경] 실적 D-10 이내면 "이 신호 통계보다 실적 결과가 주가를 더 좌우한다"고 이미 경고하고 있지만,
+// 예전엔 종목을 하나씩 열어봐야 D-day를 알 수 있었음. news_data.js의 nextEarnings는 스캔 없이도
+// 페이지 로드 시 바로 있는 데이터라(오늘의 시장 환경과 동일한 성격), 워치리스트 전체를 모아서
+// 미리 보여주면 진입 타이밍을 실적 앞뒤로 관리하기 쉬워짐.
+function renderEarningsCalendar(){
+  const card = document.getElementById('earningsCalCard');
+  const box = document.getElementById('earningsCalBox');
+  if(!card || !box) return;
+  if(typeof NEWS_DATA === 'undefined' || !NEWS_DATA){ return; }  // 파일 없으면 카드 숨김(초기값 display:none 유지)
+  const hourTxt = {bmo:'장 시작 전', amc:'장 마감 후', dmh:'장중'};
+  const todayStart = new Date(new Date().toDateString());
+  const rows = [];
+  allTickers().forEach(t=>{
+    const ne = (NEWS_DATA[t] || {}).nextEarnings;
+    if(!ne || !ne.date) return;
+    const d = new Date(ne.date+'T00:00:00');
+    const days = Math.round((d - todayStart) / 86400000);
+    if(isNaN(days) || days < 0 || days > 35) return;  // 향후 5주 이내만
+    rows.push({ticker:t, date:ne.date, days, hour:ne.hour, eps:ne.epsEstimate});
+  });
+  if(!rows.length){ card.style.display='none'; return; }
+  card.style.display = 'block';
+  rows.sort((a,b)=>a.days-b.days);
+  box.innerHTML = `
+    <div class="sub" style="margin-bottom:6px;">발표 직후엔 하루 ±10% 이상 움직이는 일이 흔해요 - 신규 진입은 비중을 줄이거나 발표 뒤로 미루는 걸 고려하세요.</div>
+    ${rows.map(r=>`<div class="fund-row" style="cursor:pointer;" onclick="openDetail('${r.ticker}')">
+      <span><b>${esc(r.ticker)}</b> ${r.days<=7?`<span class="badge b-sell-wait">${r.days===0?'오늘':`D-${r.days}`}</span>`:(r.days===0?'오늘':`D-${r.days}`)}</span>
+      <span class="v">${esc(r.date)}${hourTxt[r.hour]?' · '+hourTxt[r.hour]:''}${r.eps!=null?' · 예상 EPS $'+Number(r.eps).toFixed(2):''}</span>
+    </div>`).join('')}`;
+}
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
   const body = document.getElementById('marketBody');
@@ -3235,6 +3368,38 @@ function dataQualityNotes(ticker, fund){
   return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:12px;">
     ⚠️ <b>데이터 해석 주의</b><br>${notes.map(n=>'· '+n).join('<br>')}</div>`;
 }
+// ============ 종목 사업 핵심 요약 (2026-08-10 추가, 파일럿) ============
+// [배경] 사용자 요청: "종목에 대한 설명(납품처·장점·위험도)도 있으면 좋겠다." 이건 Finnhub/Yahoo
+// 구조화 데이터에 없는 정성적 콘텐츠라 잘못 쓰면(추측·오래된 지식) 오히려 해로움 - 그래서 buy_signal_
+// telegram.py가 매시간 자동 갱신하는 다른 캐시들과 다르게, Claude가 WebSearch로 조사해서 직접 작성하고
+// business_notes_data.js에 수동으로 넣어두는 방식으로 함(사용자가 직접 소스 방식을 선택함).
+// 새 소식이 보이면 세션에서 다시 요청해 갱신하는 방식 - 완전 자동화는 하지 않음(LLM 호출 없는 무인
+// 스크립트가 이런 서술형 콘텐츠를 검증 없이 자동 생성하면 사실과 다른 내용이 조용히 섞일 위험이 큼).
+// 2026-08-10: 형식 확인용 파일럿으로 QCOM·NVDA·TSM 3종목만 작성. 나머지 23종목은 필요시 추가 요청.
+function renderBusinessNotes(ticker){
+  const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
+  if(!n){
+    return `<div class="sub" style="margin-bottom:12px;">종목 사업 핵심 요약은 아직 이 종목엔 준비되지 않았어요(파일럿 단계: QCOM·NVDA·TSM만 있어요). 필요하면 요청해서 추가할 수 있어요.</div>`;
+  }
+  const li = arr => arr.map(x=>`<li>${x}</li>`).join('');
+  const srcLinks = (n.sources||[]).map(s=>{
+    const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
+    return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
+  }).join('');
+  return `
+    <div class="chart-label" style="margin-top:0;">${esc(ticker)} 사업 핵심 요약 (납품처·장점·위험도) ${hintIcon('businessNotes')}</div>
+    <div class="fund-grid">
+      <div class="fund-col"><h3>주요 납품처 및 트렌드</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(n.customers)}</ul></div>
+      <div class="fund-col"><h3>주요 장점</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(n.strengths)}</ul>
+        <h3 style="margin-top:10px;">주요 위험도</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(n.risks)}</ul>
+      </div>
+    </div>
+    <div class="sub" style="margin-top:8px;">
+      <b>최종 확인일: ${esc(n.updated)}</b> - Claude가 웹검색으로 조사해 작성한 정성적 요약이라 최신 소식이 반영 안 됐을 수 있어요. 자동 갱신되지 않으니 오래돼 보이면 다시 요청해서 갱신하세요.
+      ${srcLinks ? `<details style="margin-top:4px;"><summary style="cursor:pointer;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;">${srcLinks}</ul></details>` : ''}
+    </div>
+    <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">`;
+}
 function tabValueQuality(r){
   const fund = FUNDAMENTALS_DATA[r.ticker] || {};
   const updated = fund._updated_label ? `<div class="sub" style="margin-top:8px;">Finnhub 갱신: ${fund._updated_label}</div>` : '';
@@ -3244,6 +3409,7 @@ function tabValueQuality(r){
     ? `<div class="glossary" style="margin-top:8px;">※ 이 종목은 <b>해외 상장 ADR</b>이라 재무제표 보고통화가 달러가 아니에요(${fund.marketCapCurrencyNote || ESTIMATES_DATA[r.ticker].financialCurrency}). 위 PER·PSR·PBR은 데이터 제공처가 통화를 맞춰 계산한 값이고, 마진·ROE 같은 비율 지표는 분모·분자가 같은 통화라 통화 영향이 없어요. 다만 03 실적 탭의 <b>매출·순이익 절대금액은 보고통화 기준</b>이라 달러가 아니니 주가와 직접 나눠 계산하지 마세요.</div>`
     : '';
   return `
+    ${renderBusinessNotes(r.ticker)}
     <div class="fund-grid">
       <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS)}${marketCapRow}</div>
       <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
@@ -3910,6 +4076,7 @@ renderTdKeyStatus();
 renderCustomTickerList();
 renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 </script>
