@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 79.30999755859375,
+      "current": 79.55999755859375,
       "prevClose": 78.18000030517578,
-      "changeAbs": 1.1299972534179688,
-      "changePct": 1.445378931960888,
-      "pctRank": 60.62052505966587,
+      "changeAbs": 1.3799972534179688,
+      "changePct": 1.7651538091981924,
+      "pctRank": 61.25696101829753,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -29.783090127097132,
-      "ma20": 81.87749938964843,
-      "ma60": 83.32699991861979,
-      "chg1m": 7.899993896484375,
-      "chg3m": -16.110000610351562,
-      "chg1mPct": 11.062867233370783,
-      "chg3mPct": -16.883253950422528,
+      "drawdown1y": -29.561753246393586,
+      "ma20": 81.88999938964844,
+      "ma60": 83.33116658528645,
+      "chg1m": 8.149993896484375,
+      "chg3m": -15.860000610351562,
+      "chg1mPct": 11.412958239083268,
+      "chg3mPct": -16.621254364594236,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.68800354003906,
+      "current": 99.73600006103516,
       "prevClose": 99.5999984741211,
-      "changeAbs": 0.08800506591796875,
-      "changePct": 0.08835850127129767,
-      "pctRank": 33.49244232299125,
+      "changeAbs": 0.1360015869140625,
+      "changePct": 0.13654778011808863,
+      "pctRank": 33.73110580747812,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.8915432130375276,
-      "ma20": 100.57140083312989,
-      "ma60": 100.27413368225098,
-      "chg1m": -1.2819976806640625,
-      "chg3m": 1.8480072021484375,
-      "chg1mPct": -1.2696817521689785,
-      "chg3mPct": 1.8888054694588714,
+      "drawdown1y": -1.844307192264194,
+      "ma20": 100.57380065917968,
+      "ma60": 100.27493362426758,
+      "chg1m": -1.2340011596679688,
+      "chg3m": 1.8960037231445312,
+      "chg1mPct": -1.2221463253928795,
+      "chg3mPct": 1.937861604774267,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4399.10009765625,
+      "current": 4391.7998046875,
       "prevClose": 4340.7001953125,
-      "changeAbs": 58.39990234375,
-      "changePct": 1.345402808671646,
+      "changeAbs": 51.099609375,
+      "changePct": 1.17722042702194,
       "pctRank": 91.3285600636436,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.285270411545707,
-      "ma20": 4104.865026855468,
-      "ma60": 4228.258333333333,
-      "chg1m": 295.0,
-      "chg3m": -321.2998046875,
-      "chg1mPct": 7.187933846166842,
-      "chg3mPct": -6.80662256026168,
+      "drawdown1y": -17.422535248767378,
+      "ma20": 4104.500012207031,
+      "ma60": 4228.136661783854,
+      "chg1m": 287.69970703125,
+      "chg3m": -328.60009765625,
+      "chg1mPct": 7.010055802380361,
+      "chg3mPct": -6.9612766810942235,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Santoli: Stocks return to their winning ways. But was July's brief pain enough to satisfy the market gods?",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/10/santoli-stocks-return-to-their-winning-ways-but-was-julys-brief-pain-enough-to-satisfy-the-market-gods.html",
+      "datetime": 1786358618,
+      "headlineKo": "Santoli: 주식은 승리의 길로 돌아왔습니다. 하지만 7월의 짧은 고통이 시장의 신들을 만족시키기에 충분했을까?"
+    },
+    {
       "headline": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0ZKNWFNbV9WOEFpMnZYa3NkbzBGWUNiVnVsMlJtT1IzRDliNHJIM0g0eUZ0N2lNcWxSSEd5QVV4QW1pZFRCSTQ5WndIdGtVRTFMcmYxUVVVZzVQazFQRy1vNG5Vd1hhbG9ObG14SnJnbl94VDJLZnJ6dmN4ZUJKTXRiTFBrTkdkN0FyWkFua3FhR3B6aHN5Z05ETmpNUkxLTlViUm4xdGtINktfUDk2UmRUOGtqdw?oc=5",
@@ -236,7 +243,7 @@ const MARKET_DATA = {
       "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
-      "datetime": 1786333748,
+      "datetime": 1786323923,
       "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
     },
     {
@@ -261,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "이란, 여러 요구에 따라 호르무즈 재개방을 미국의 양보와 결부 - 로이터 통신"
     },
     {
-      "headline": "Oil steady as Iran tempers hopes of swift Hormuz reopening - Reuters",
+      "headline": "Oil edges higher as Iran tempers hopes of swift Hormuz reopening - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
       "datetime": 1786313820,
-      "headlineKo": "이란이 호르무즈의 조속한 재개에 대한 희망을 누그러뜨리면서 유가는 안정됐다 - 로이터 통신"
+      "headlineKo": "이란이 호르무즈의 신속한 재개에 대한 희망을 누그러뜨리면서 유가 상승 - 로이터"
     },
     {
       "headline": "Israeli military closes Palestinian Christian village Taybeh, citing settler attacks - Reuters",
@@ -294,15 +301,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
       "datetime": 1786303480,
       "headlineKo": "네타냐후는 트럼프의 새로운 가자지구 계획은 받아들일 수 없다고 말했다 - 로이터"
-    },
-    {
-      "headline": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazVhN1R5WHRFQTBvX1BRNWoyT1F4WGlKVXBncE5ad1h2TVZqM0ZPLWdEYy1OVkdDYnE2THh4Z2twaGtiRXBMdVY3V3NBT01UeGxuVlljODZHUVptY3NqNnVldHNDOEIzYndQQi0zUExFbExpVGdQbS0zS2ppeGpMbWlvVnZsNS10aVBLaXR1ZDA4Q0piT09XVHR4bjRNSk5qaDQtOGwzWm1seTB0UXlVUl9uN3FIRlVCWUdNS0lNX2xWUWR2ZHdTNnVqdS1sdw?oc=5",
-      "datetime": 1786295999,
-      "headlineKo": "Axios 인터뷰에 따르면 트럼프는 미국이 이란에 대해 '낮은 입장'을 유지하고 있으며 경제적 고통을 강조하고 있다고 말했습니다."
     }
   ],
-  "_fetched_at": 1786359756.804188,
-  "_updated_label": "2026-08-10 20:03"
+  "_fetched_at": 1786363220.3323598,
+  "_updated_label": "2026-08-10 21:00"
 };
