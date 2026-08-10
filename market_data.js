@@ -66,19 +66,19 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 78.66000366210938,
+      "current": 78.76000213623047,
       "prevClose": 78.18000030517578,
-      "changeAbs": 0.48000335693359375,
-      "changePct": 0.6139720581477356,
-      "pctRank": 58.18759936406995,
+      "changeAbs": 0.5800018310546875,
+      "changePct": 0.7418800572916977,
+      "pctRank": 58.50556438791733,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.84499969482422,
-      "ma60": 83.31616668701172,
-      "chg1m": 7.25,
-      "chg3m": -16.759994506835938,
-      "chg1mPct": 10.152639165662022,
-      "chg3mPct": -17.56444647710182,
+      "ma20": 81.84999961853028,
+      "ma60": 83.31783332824708,
+      "chg1m": 7.349998474121094,
+      "chg3m": -16.659996032714844,
+      "chg1mPct": 10.292673431161091,
+      "chg3mPct": -17.45964824188907,
       "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "CL=F",
@@ -87,19 +87,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.69599914550781,
+      "current": 99.71399688720703,
       "prevClose": 99.5999984741211,
-      "changeAbs": 0.09600067138671875,
-      "changePct": 0.0963862177283692,
-      "pctRank": 33.62480127186009,
+      "changeAbs": 0.1139984130859375,
+      "changePct": 0.1144562397915674,
+      "pctRank": 33.70429252782194,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.57180061340333,
-      "ma60": 100.27426694234212,
-      "chg1m": -1.2740020751953125,
-      "chg3m": 1.8560028076171875,
-      "chg1mPct": -1.2617629590897619,
-      "chg3mPct": 1.8969775930974875,
+      "ma20": 100.57270050048828,
+      "ma60": 100.27456690470378,
+      "chg1m": -1.2560043334960938,
+      "chg3m": 1.8740005493164062,
+      "chg1mPct": -1.2439381185612581,
+      "chg3mPct": 1.9153726691122734,
       "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -108,19 +108,19 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4387.89990234375,
+      "current": 4386.0,
       "prevClose": 4340.7001953125,
-      "changeAbs": 47.19970703125,
-      "changePct": 1.087375421187133,
+      "changeAbs": 45.2998046875,
+      "changePct": 1.0436059310527603,
       "pctRank": 91.33545310015899,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4104.305017089844,
-      "ma60": 4228.071663411459,
-      "chg1m": 283.7998046875,
-      "chg3m": -332.5,
-      "chg1mPct": 6.91503125982651,
-      "chg3mPct": -7.0438947309296545,
+      "ma20": 4104.210021972656,
+      "ma60": 4228.0399983723955,
+      "chg1m": 281.89990234375,
+      "chg3m": -334.39990234375,
+      "chg1mPct": 6.868738472161925,
+      "chg3mPct": -7.084143489150472,
       "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "GC=F",
@@ -182,6 +182,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
+      "datetime": 1786324560,
+      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
+    },
+    {
       "headline": "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzl5TEZoallFdF9oRFpZcHRETGZPXzRmYnNwRGU5eXBweFRkTFVEU0lSb2VDLVg0dFBueFhEeWc5YVlCdUJtckVvcXdVWndxMDRSdmREeGc3YzBkQUZLU2dmX2EwRVc3cmdXamhYRUhoTExqeklKZDhoaU9RM0NKNl90RkEwRGc1R1JMZ1BxWFU3VVBoZjBtaVl3U1J5YnZ1MTJv?oc=5",
@@ -215,13 +222,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
       "datetime": 1786303480,
       "headlineKo": "네타냐후는 트럼프의 새로운 가자지구 계획은 받아들일 수 없다고 말했다 - 로이터"
-    },
-    {
-      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "datetime": 1786301732,
-      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
     },
     {
       "headline": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - Reuters",
@@ -266,6 +266,6 @@ const MARKET_DATA = {
       "headlineKo": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 밝혔습니다. - 로이터"
     }
   ],
-  "_fetched_at": 1786330458.5408437,
-  "_updated_label": "2026-08-10 11:54"
+  "_fetched_at": 1786334093.3470962,
+  "_updated_label": "2026-08-10 12:55"
 };
