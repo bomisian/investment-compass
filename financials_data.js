@@ -151,7 +151,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -326,7 +326,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -500,7 +500,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -673,7 +673,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -847,7 +847,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -973,7 +973,7 @@ const FINANCIALS_DATA = {
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1147,7 +1147,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -1321,7 +1321,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1495,7 +1495,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1669,7 +1669,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-05-31",
@@ -1842,7 +1842,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2016,7 +2016,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2190,7 +2190,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -2219,16 +2219,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786344982.4271502,
-    "_updated_label": "2026-08-10 15:56"
+    "_fetched_at": 1786348628.447289,
+    "_updated_label": "2026-08-10 16:57"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786344982.4271502,
-    "_updated_label": "2026-08-10 15:56"
+    "_fetched_at": 1786348628.447289,
+    "_updated_label": "2026-08-10 16:57"
   },
   "ORCL": {
     "annual": [
@@ -2377,8 +2377,10 @@ const FINANCIALS_DATA = {
         "netIncome": 4304000000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-02-28",
@@ -2551,8 +2553,10 @@ const FINANCIALS_DATA = {
         "netIncome": 2107000000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -2705,8 +2709,10 @@ const FINANCIALS_DATA = {
         "netIncome": 870527000
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2879,8 +2885,10 @@ const FINANCIALS_DATA = {
         "netIncome": 7371000000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3007,7 +3015,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3170,8 +3178,10 @@ const FINANCIALS_DATA = {
         "netIncome": 34500000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -3307,7 +3317,7 @@ const FINANCIALS_DATA = {
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 15:56",
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3480,8 +3490,10 @@ const FINANCIALS_DATA = {
         "netIncome": 1825460000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3654,8 +3666,10 @@ const FINANCIALS_DATA = {
         "netIncome": 1200990000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3699,8 +3713,7 @@ const FINANCIALS_DATA = {
         "eps": -11.32,
         "ocf": 84000000,
         "capex": -204000000,
-        "fcf": -120000000,
-        "endDate": "2025-06-30"
+        "fcf": -120000000
       }
     ],
     "quarterly": [
@@ -3752,30 +3765,8 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
-    "_fetched_at": 1786344982.4271502,
-    "_updated_label": "2026-08-10 15:56",
-    "_quarterly_eps_history": [
-      {
-        "endDate": "2025-06-30",
-        "eps": -0.16
-      },
-      {
-        "endDate": "2025-09-30",
-        "eps": 0.75
-      },
-      {
-        "endDate": "2025-12-31",
-        "eps": 5.15
-      },
-      {
-        "endDate": "2026-03-31",
-        "eps": 23.03
-      },
-      {
-        "endDate": "2026-06-30",
-        "eps": 43.97
-      }
-    ]
+    "_fetched_at": 1786348628.447289,
+    "_updated_label": "2026-08-10 16:57"
   },
   "WDC": {
     "annual": [
@@ -3926,8 +3917,10 @@ const FINANCIALS_DATA = {
         "netIncome": 3205000000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-10 15:56",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786348562.6155288,
+    "_updated_label": "2026-08-10 16:56",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
