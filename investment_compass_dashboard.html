@@ -729,6 +729,7 @@ const HINTS = {
   macdHist: "단기 추세와 장기 추세의 차이를 막대로 나타낸 거예요. 마이너스에서 플러스로 막 넘어가는 순간을 '골든크로스'라 부르고 상승 모멘텀이 막 시작된 신호로 봐요. (지금은 매수신호 판정에는 안 쓰고 참고용으로만 보여드려요.)",
   backtest: "이 종목에서 과거에 같은 신호(RSI&lt;30)가 떴을 때, 실제로 N거래일 뒤 주가가 올랐던 비율(승률)과 평균 수익률이에요. 표본이 적으면 우연일 수 있으니 참고만 하세요.",
   tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요. 이 카드의 숫자는 전부 14년·14종목 공식 검증치 하나의 출처예요.",
+  analystLog: "매출·순이익이 갑자기 크게 흔들렸을 때, 그게 세금·투자평가손익 같은 '1회성 항목' 때문인지 아니면 본업이 실제로 좋아지거나 나빠진 건지를 Claude가 뉴스·공시를 찾아서 구분해준 기록이에요. 마지막엔 '그래서 다음 실적은 이럴 것 같다'는 Claude 나름의 전망도 적혀있는데, 이건 데이터 기반 추정일 뿐 확정된 사실이 아니라 틀릴 수 있어요. 날짜별로 계속 쌓이는 로그예요.",
   businessNotes: "이 회사가 실제로 무엇을 팔고, 누구에게 팔고, 어떤 강점·위험을 갖고 있는지 서술형으로 정리한 카드예요. 가격·재무 데이터처럼 자동 갱신되지 않고, Claude가 웹검색으로 조사해서 수동으로 작성해요 - '최종 확인일'을 꼭 확인하고, 오래됐다 싶으면 갱신을 요청하세요.",
   perOverTime: "PER = 주가 ÷ EPS라서, 주가가 똑같아도 회사가 분기 실적을 발표할 때마다 분모(EPS)가 바뀌면 PER도 바뀌어요. 여기서는 지금 주가를 고정해두고 과거 분기들의 실제 TTM EPS로 나눠서 '그때 실적이 지금 가격에 붙어있었다면 PER이 몇 배였을지'를 보여줘요 - 즉 이 변화는 주가 움직임이 아니라 순전히 실적(EPS) 변화 때문이에요.",
   signalDist: "승률과 평균만 보면 손실 폭을 가늠하기 어려워서, 수익률의 '분포'를 더 자세히 보여줘요. 중앙값은 딱 중간값, 하위 10%/5%는 '운이 나빴던 쪽 10%/5% 안에 들면 이 정도까지 손실'이라는 뜻이에요. 신뢰구간은 표본이 다르면(다른 기간에 다시 검증하면) 이 숫자가 이 범위 안에서 흔들릴 수 있다는 뜻이에요. 위 공식 검증치(14종목·14년치)와는 표본이 달라서 숫자가 소폭 다를 수 있어요.",
@@ -3378,7 +3379,7 @@ function dataQualityNotes(ticker, fund){
 // 2026-08-10: 형식 확인용 파일럿으로 QCOM·NVDA·TSM 3종목만 작성. 나머지 23종목은 필요시 추가 요청.
 function renderBusinessNotes(ticker){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
-  if(!n){
+  if(!n || !n.customers){  // GOOGL처럼 analystLog만 있고 사업요약은 아직 없는 종목도 있어서 customers로 판별
     return `<div class="sub" style="margin-bottom:12px;">종목 사업 핵심 요약은 아직 이 종목엔 준비되지 않았어요(파일럿 단계: QCOM·NVDA·TSM만 있어요). 필요하면 요청해서 추가할 수 있어요.</div>`;
   }
   const li = arr => arr.map(x=>`<li>${x}</li>`).join('');
@@ -3399,6 +3400,50 @@ function renderBusinessNotes(ticker){
       ${srcLinks ? `<details style="margin-top:4px;"><summary style="cursor:pointer;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;">${srcLinks}</ul></details>` : ''}
     </div>
     <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">`;
+}
+
+// ============ Claude의 실적 해석·전망 (2026-08-10 추가, 파일럿) ============
+// [배경] 사용자 요청: 매출/순이익이 흔들릴 때 "1회성 비용/이익 때문인지 진짜 실적 악화인지"를
+// 캐치해서 알려주고, 그걸 바탕으로 다음 실적에 대한 Claude 나름의 전망(틀려도 됨, 데이터 기반이면
+// 됨)을 적어달라고 함. 예시로 든 "구글 순이익이 투자이익 때문에 잘 나왔던 것"은 실제로 검색해서
+// 검증함 - 2026년 1·2분기 연속으로 비상장 지분 평가이익이 순이익을 크게 부풀렸었음(아래 실제 항목).
+//
+// ⚠️ 이 기능과 이미 있는 dataQualityNotes()(02탭, "순이익률>영업이익률" 자동감지)의 관계: 그건 이미
+// "순이익에 일회성이 섞였을 수 있다"를 숫자로만 자동 감지하는 기능이었고(GOOGL이 그걸 실제로 촉발한
+// 사례였음), 이 analystLog는 그 감지를 실제 뉴스 조사로 "왜 그런지 원인"까지 확인하고 "다음엔 어떨지"
+// 전망까지 쓴 것 - 자동 감지의 다음 단계를 사람(Claude)이 조사해서 채우는 방식.
+//
+// 자동 매일 갱신 아님 - business_notes_data.js와 동일하게 Claude가 세션에서 조사해 수동으로 추가.
+// 날짜순으로 계속 쌓아가는 로그 방식이라(덮어쓰지 않음) 이 자체가 "업데이트 내역"이기도 함.
+// 가독성보다 정보 밀도를 우선한 문체로 씀(사용자 요청 - 본인과 Claude만 이해하면 된다고 명시함).
+function renderAnalystLog(ticker){
+  const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
+  const log = n && n.analystLog;
+  if(!log || !log.length){
+    return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(파일럿: QCOM·GOOGL만 있어요). 필요하면 요청해서 추가할 수 있어요.</div>`;
+  }
+  const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
+    const srcLinks = (e.sources||[]).map(s=>{
+      const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
+      return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
+    }).join('');
+    return `
+      <div class="fund-col" style="margin-top:10px;">
+        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b> · ${esc(e.period)}</div>
+        <div style="font-size:12.5px;line-height:1.7;">
+          <b>헤드라인 숫자</b> — ${e.headline}<br>
+          <b style="color:var(--warn);">⚠️ 1회성 항목 체크</b> — ${e.oneTime}<br>
+          <b>본업 실제 흐름</b> — ${e.coreRead}<br>
+          <b>Claude 전망(틀릴 수 있음)</b> — ${e.forecast}<br>
+          <span class="sub">신뢰도: ${esc(e.confidence||'-')}</span>
+        </div>
+        ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : ''}
+      </div>`;
+  }).join('');
+  return `
+    <div class="chart-label" style="margin-top:0;">${esc(ticker)} - Claude의 실적 해석·전망 (실험적) ${hintIcon('analystLog')}</div>
+    <div class="sub" style="margin-bottom:6px;">매출·순이익이 크게 흔들릴 때 1회성 항목(세금·투자평가손익 등) 때문인지 본업이 실제로 바뀐 건지 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀 - 전망 부분은 예측이라 틀릴 수 있어요.</div>
+    ${entries}`;
 }
 function tabValueQuality(r){
   const fund = FUNDAMENTALS_DATA[r.ticker] || {};
@@ -3993,9 +4038,10 @@ function drawFinCfChart(canvas, data){
 // ---- 05 전망 ----
 const TREND_PERIOD_LABEL = {'0y':'올해', '+1y':'내년', '+2y':'내후년'};
 function tabForecast(r){
+  const analystLogHtml = renderAnalystLog(r.ticker);
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || est.targetMean==null){
-    return `<div class="sub">이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).</div>`;
+    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).</div>`;
   }
   const upside = (est.targetMean - r.price) / r.price * 100;
   const revCurrency = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
@@ -4010,6 +4056,8 @@ function tabForecast(r){
     </tr>`).join('');
   const recTxt = {strong_buy:'강력 매수', buy:'매수', hold:'중립', underperform:'비중축소', sell:'매도'}[est.recommendationKey] || est.recommendationKey || '-';
   return `
+    ${analystLogHtml}
+    <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">
     <div class="fund-grid">
       <div class="fund-col">
         <h3>애널리스트 목표주가</h3>
