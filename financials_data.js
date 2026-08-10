@@ -50,8 +50,9 @@ const FINANCIALS_DATA = {
         "opIncome": 4224000000.0,
         "eps": 1.74,
         "ocf": 5641000000,
-        "capex": null,
-        "fcf": null
+        "capex": -1833000000.0,
+        "fcf": 3808000000.0,
+        "endDate": "2023-01-31"
       },
       {
         "period": "2024",
@@ -60,8 +61,9 @@ const FINANCIALS_DATA = {
         "opIncome": 32972000000.0,
         "eps": 11.93,
         "ocf": 28090000000,
-        "capex": null,
-        "fcf": null
+        "capex": -1069000000.0,
+        "fcf": 27021000000.0,
+        "endDate": "2024-01-31"
       },
       {
         "period": "2025",
@@ -70,8 +72,9 @@ const FINANCIALS_DATA = {
         "opIncome": 81453000000.0,
         "eps": 2.94,
         "ocf": 64089000000,
-        "capex": null,
-        "fcf": null
+        "capex": -3236000000.0,
+        "fcf": 60853000000.0,
+        "endDate": "2025-01-31"
       },
       {
         "period": "2026",
@@ -80,8 +83,9 @@ const FINANCIALS_DATA = {
         "opIncome": 130387000000,
         "eps": 4.9,
         "ocf": 102718000000,
-        "capex": null,
-        "fcf": null
+        "capex": -6042000000.0,
+        "fcf": 96676000000.0,
+        "endDate": "2026-01-31"
       }
     ],
     "quarterly": [
@@ -147,7 +151,30 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-04-30",
+        "eps": 0.76
+      },
+      {
+        "endDate": "2025-07-31",
+        "eps": 1.08
+      },
+      {
+        "endDate": "2025-10-31",
+        "eps": 1.3
+      },
+      {
+        "endDate": "2026-01-31",
+        "eps": 1.76
+      },
+      {
+        "endDate": "2026-04-30",
+        "eps": 2.39
+      }
+    ],
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AAPL": {
     "annual": [
@@ -199,7 +226,8 @@ const FINANCIALS_DATA = {
         "eps": 6.11,
         "ocf": 122151000000,
         "capex": -10708000000,
-        "fcf": 111443000000
+        "fcf": 111443000000,
+        "endDate": "2022-09-30"
       },
       {
         "period": "2023",
@@ -209,7 +237,8 @@ const FINANCIALS_DATA = {
         "eps": 6.13,
         "ocf": 110543000000,
         "capex": -10959000000,
-        "fcf": 99584000000
+        "fcf": 99584000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "2024",
@@ -219,7 +248,8 @@ const FINANCIALS_DATA = {
         "eps": 6.08,
         "ocf": 118254000000,
         "capex": -9447000000,
-        "fcf": 108807000000
+        "fcf": 108807000000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "2025",
@@ -229,7 +259,8 @@ const FINANCIALS_DATA = {
         "eps": 7.46,
         "ocf": 111482000000,
         "capex": -12715000000,
-        "fcf": 98767000000
+        "fcf": 98767000000,
+        "endDate": "2025-09-30"
       }
     ],
     "quarterly": [
@@ -295,7 +326,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 1.57
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 1.85
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 2.84
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 2.01
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 2.02
+      }
+    ]
   },
   "GOOGL": {
     "annual": [
@@ -347,7 +400,8 @@ const FINANCIALS_DATA = {
         "eps": 4,
         "ocf": 91495000000,
         "capex": -31485000000,
-        "fcf": 60010000000
+        "fcf": 60010000000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -357,7 +411,8 @@ const FINANCIALS_DATA = {
         "eps": 5,
         "ocf": 101746000000,
         "capex": -32251000000,
-        "fcf": 69495000000
+        "fcf": 69495000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -367,7 +422,8 @@ const FINANCIALS_DATA = {
         "eps": 8.04,
         "ocf": 125299000000,
         "capex": -52535000000,
-        "fcf": 72764000000
+        "fcf": 72764000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -377,7 +433,8 @@ const FINANCIALS_DATA = {
         "eps": 10.81,
         "ocf": 164713000000,
         "capex": -91447000000,
-        "fcf": 73266000000
+        "fcf": 73266000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -443,7 +500,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 2.31
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 2.87
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 2.82
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 5.11
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 9.11
+      }
+    ]
   },
   "MSFT": {
     "annual": [
@@ -505,7 +584,8 @@ const FINANCIALS_DATA = {
         "eps": 9.68,
         "ocf": 87582000000,
         "capex": -28107000000,
-        "fcf": 59475000000
+        "fcf": 59475000000,
+        "endDate": "2023-06-30"
       },
       {
         "period": "2024",
@@ -515,7 +595,8 @@ const FINANCIALS_DATA = {
         "eps": 11.8,
         "ocf": 118548000000,
         "capex": -44477000000,
-        "fcf": 74071000000
+        "fcf": 74071000000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "2025",
@@ -525,7 +606,8 @@ const FINANCIALS_DATA = {
         "eps": 13.64,
         "ocf": 136162000000,
         "capex": -64551000000,
-        "fcf": 71611000000
+        "fcf": 71611000000,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -591,7 +673,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 3.65
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 3.72
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 5.16
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 4.27
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 4.81
+      }
+    ]
   },
   "AMZN": {
     "annual": [
@@ -643,7 +747,8 @@ const FINANCIALS_DATA = {
         "eps": 0,
         "ocf": 46752000000,
         "capex": -63645000000,
-        "fcf": -16893000000
+        "fcf": -16893000000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -653,7 +758,8 @@ const FINANCIALS_DATA = {
         "eps": 2,
         "ocf": 84946000000,
         "capex": -52729000000,
-        "fcf": 32217000000
+        "fcf": 32217000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -663,7 +769,8 @@ const FINANCIALS_DATA = {
         "eps": 5,
         "ocf": 115877000000,
         "capex": -82999000000,
-        "fcf": 32878000000
+        "fcf": 32878000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -673,7 +780,8 @@ const FINANCIALS_DATA = {
         "eps": 7,
         "ocf": 139514000000,
         "capex": -131819000000,
-        "fcf": 7695000000
+        "fcf": 7695000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -739,7 +847,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 1.68
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 1.95
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 1.95
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 2.78
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 5.75
+      }
+    ]
   },
   "TSM": {
     "annual": [
@@ -751,7 +881,8 @@ const FINANCIALS_DATA = {
         "eps": 196.0,
         "ocf": 1610599200000.0,
         "capex": -1089626400000.0,
-        "fcf": 520972800000.0
+        "fcf": 520972800000.0,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -761,7 +892,8 @@ const FINANCIALS_DATA = {
         "eps": 161.7,
         "ocf": 1241967300000.0,
         "capex": -955398400000.0,
-        "fcf": 286568900000.0
+        "fcf": 286568900000.0,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -771,7 +903,8 @@ const FINANCIALS_DATA = {
         "eps": 226.25,
         "ocf": 1826177100000.0,
         "capex": -964981600000.0,
-        "fcf": 861195500000.0
+        "fcf": 861195500000.0,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -781,7 +914,8 @@ const FINANCIALS_DATA = {
         "eps": 331.25,
         "ocf": 2274975600000.0,
         "capex": -1282597200000.0,
-        "fcf": 992378400000.0
+        "fcf": 992378400000.0,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -839,7 +973,29 @@ const FINANCIALS_DATA = {
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 14:16"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 76.8
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 87.2
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 97.5
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 110.4
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 136.233611
+      }
+    ]
   },
   "AVGO": {
     "annual": [
@@ -891,7 +1047,8 @@ const FINANCIALS_DATA = {
         "eps": 26.53,
         "ocf": 16736000000,
         "capex": -424000000,
-        "fcf": 16312000000
+        "fcf": 16312000000,
+        "endDate": "2022-10-31"
       },
       {
         "period": "2023",
@@ -901,7 +1058,8 @@ const FINANCIALS_DATA = {
         "eps": 32.98,
         "ocf": 18085000000,
         "capex": -452000000,
-        "fcf": 17633000000
+        "fcf": 17633000000,
+        "endDate": "2023-10-31"
       },
       {
         "period": "2024",
@@ -911,7 +1069,8 @@ const FINANCIALS_DATA = {
         "eps": 1.23,
         "ocf": 19962000000,
         "capex": -548000000,
-        "fcf": 19414000000
+        "fcf": 19414000000,
+        "endDate": "2024-10-31"
       },
       {
         "period": "2025",
@@ -921,7 +1080,8 @@ const FINANCIALS_DATA = {
         "eps": 4.77,
         "ocf": 27537000000,
         "capex": -623000000,
-        "fcf": 26914000000
+        "fcf": 26914000000,
+        "endDate": "2025-10-31"
       }
     ],
     "quarterly": [
@@ -987,7 +1147,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-04-30",
+        "eps": 1.03
+      },
+      {
+        "endDate": "2025-07-31",
+        "eps": 0.85
+      },
+      {
+        "endDate": "2025-10-31",
+        "eps": 1.74
+      },
+      {
+        "endDate": "2026-01-31",
+        "eps": 1.5
+      },
+      {
+        "endDate": "2026-04-30",
+        "eps": 1.91
+      }
+    ]
   },
   "META": {
     "annual": [
@@ -1039,7 +1221,8 @@ const FINANCIALS_DATA = {
         "eps": 8,
         "ocf": 50475000000,
         "capex": -31431000000,
-        "fcf": 19044000000
+        "fcf": 19044000000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -1049,7 +1232,8 @@ const FINANCIALS_DATA = {
         "eps": 14,
         "ocf": 71113000000,
         "capex": -27266000000,
-        "fcf": 43847000000
+        "fcf": 43847000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -1059,7 +1243,8 @@ const FINANCIALS_DATA = {
         "eps": 23.86,
         "ocf": 91328000000,
         "capex": -37256000000,
-        "fcf": 54072000000
+        "fcf": 54072000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -1069,7 +1254,8 @@ const FINANCIALS_DATA = {
         "eps": 23.49,
         "ocf": 115800000000,
         "capex": -69691000000,
-        "fcf": 46109000000
+        "fcf": 46109000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -1135,7 +1321,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 7.14
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 1.05
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 8.88
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 10.44
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 6.18
+      }
+    ]
   },
   "TSLA": {
     "annual": [
@@ -1187,7 +1395,8 @@ const FINANCIALS_DATA = {
         "eps": 3,
         "ocf": 14724000000,
         "capex": -7158000000,
-        "fcf": 7566000000
+        "fcf": 7566000000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -1197,7 +1406,8 @@ const FINANCIALS_DATA = {
         "eps": 4,
         "ocf": 13256000000,
         "capex": -8898000000,
-        "fcf": 4358000000
+        "fcf": 4358000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -1207,7 +1417,8 @@ const FINANCIALS_DATA = {
         "eps": 2,
         "ocf": 14923000000,
         "capex": -11339000000,
-        "fcf": 3584000000
+        "fcf": 3584000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -1217,7 +1428,8 @@ const FINANCIALS_DATA = {
         "eps": 1,
         "ocf": 14747000000,
         "capex": -8527000000,
-        "fcf": 6220000000
+        "fcf": 6220000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -1283,7 +1495,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.33
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.39
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.24
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.13
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 0.32
+      }
+    ]
   },
   "MU": {
     "annual": [
@@ -1335,7 +1569,8 @@ const FINANCIALS_DATA = {
         "eps": 7.75,
         "ocf": 15181000000,
         "capex": -12067000000,
-        "fcf": 3114000000
+        "fcf": 3114000000,
+        "endDate": "2022-08-31"
       },
       {
         "period": "2023",
@@ -1345,7 +1580,8 @@ const FINANCIALS_DATA = {
         "eps": -5.34,
         "ocf": 1559000000,
         "capex": -7676000000,
-        "fcf": -6117000000
+        "fcf": -6117000000,
+        "endDate": "2023-08-31"
       },
       {
         "period": "2024",
@@ -1355,7 +1591,8 @@ const FINANCIALS_DATA = {
         "eps": 0.7,
         "ocf": 8507000000,
         "capex": -8386000000,
-        "fcf": 121000000
+        "fcf": 121000000,
+        "endDate": "2024-08-31"
       },
       {
         "period": "2025",
@@ -1365,7 +1602,8 @@ const FINANCIALS_DATA = {
         "eps": 7.59,
         "ocf": 17525000000,
         "capex": -15857000000,
-        "fcf": 1668000000
+        "fcf": 1668000000,
+        "endDate": "2025-08-31"
       }
     ],
     "quarterly": [
@@ -1431,7 +1669,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:01"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-05-31",
+        "eps": 1.68
+      },
+      {
+        "endDate": "2025-08-31",
+        "eps": 2.83
+      },
+      {
+        "endDate": "2025-11-30",
+        "eps": 4.6
+      },
+      {
+        "endDate": "2026-02-28",
+        "eps": 12.07
+      },
+      {
+        "endDate": "2026-05-31",
+        "eps": 24.67
+      }
+    ]
   },
   "AMD": {
     "annual": [
@@ -1493,7 +1753,8 @@ const FINANCIALS_DATA = {
         "eps": 0.53,
         "ocf": 1667000000,
         "capex": -546000000,
-        "fcf": 1121000000
+        "fcf": 1121000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -1503,7 +1764,8 @@ const FINANCIALS_DATA = {
         "eps": 1.0,
         "ocf": 3041000000,
         "capex": -636000000,
-        "fcf": 2405000000
+        "fcf": 2405000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -1513,7 +1775,8 @@ const FINANCIALS_DATA = {
         "eps": 2.65,
         "ocf": 7709000000,
         "capex": -974000000,
-        "fcf": 6735000000
+        "fcf": 6735000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -1579,7 +1842,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.54
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.75
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.92
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.84
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 1.38
+      }
+    ]
   },
   "INTC": {
     "annual": [
@@ -1631,7 +1916,8 @@ const FINANCIALS_DATA = {
         "eps": 1.94,
         "ocf": 15433000000,
         "capex": -24844000000,
-        "fcf": -9411000000
+        "fcf": -9411000000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -1641,7 +1927,8 @@ const FINANCIALS_DATA = {
         "eps": 0.4,
         "ocf": 11471000000,
         "capex": -25750000000,
-        "fcf": -14279000000
+        "fcf": -14279000000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -1651,7 +1938,8 @@ const FINANCIALS_DATA = {
         "eps": -4.38,
         "ocf": 8288000000,
         "capex": -23944000000,
-        "fcf": -15656000000
+        "fcf": -15656000000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -1661,7 +1949,8 @@ const FINANCIALS_DATA = {
         "eps": -0.06,
         "ocf": 9697000000,
         "capex": -14646000000,
-        "fcf": -4949000000
+        "fcf": -4949000000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -1727,7 +2016,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": -0.67
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.9
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": -0.12
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": -0.73
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": -2.16
+      }
+    ]
   },
   "AMAT": {
     "annual": [
@@ -1779,7 +2090,8 @@ const FINANCIALS_DATA = {
         "eps": 7.44,
         "ocf": 5399000000,
         "capex": -787000000.0,
-        "fcf": 4612000000.0
+        "fcf": 4612000000.0,
+        "endDate": "2022-10-31"
       },
       {
         "period": "2023",
@@ -1789,7 +2101,8 @@ const FINANCIALS_DATA = {
         "eps": 8.11,
         "ocf": 8700000000,
         "capex": -1106000000,
-        "fcf": 7594000000
+        "fcf": 7594000000,
+        "endDate": "2023-10-31"
       },
       {
         "period": "2024",
@@ -1799,7 +2112,8 @@ const FINANCIALS_DATA = {
         "eps": 8.61,
         "ocf": 8677000000,
         "capex": -1190000000,
-        "fcf": 7487000000
+        "fcf": 7487000000,
+        "endDate": "2024-10-31"
       },
       {
         "period": "2025",
@@ -1809,7 +2123,8 @@ const FINANCIALS_DATA = {
         "eps": 8.66,
         "ocf": 7958000000,
         "capex": -2260000000,
-        "fcf": 5698000000
+        "fcf": 5698000000,
+        "endDate": "2025-10-31"
       }
     ],
     "quarterly": [
@@ -1875,23 +2190,45 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-04-30",
+        "eps": 2.63
+      },
+      {
+        "endDate": "2025-07-31",
+        "eps": 2.22
+      },
+      {
+        "endDate": "2025-10-31",
+        "eps": 2.38
+      },
+      {
+        "endDate": "2026-01-31",
+        "eps": 2.54
+      },
+      {
+        "endDate": "2026-04-30",
+        "eps": 3.51
+      }
+    ]
   },
   "QQQ": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786341350.3683763,
-    "_updated_label": "2026-08-10 14:55"
+    "_fetched_at": 1786344290.6335204,
+    "_updated_label": "2026-08-10 15:44"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786341350.3683763,
-    "_updated_label": "2026-08-10 14:55"
+    "_fetched_at": 1786344290.6335204,
+    "_updated_label": "2026-08-10 15:44"
   },
   "ORCL": {
     "annual": [
@@ -1963,7 +2300,8 @@ const FINANCIALS_DATA = {
         "eps": 4.34,
         "ocf": 20821000000,
         "capex": -21215000000,
-        "fcf": -394000000
+        "fcf": -394000000,
+        "endDate": "2025-05-31"
       },
       {
         "period": "2026",
@@ -1973,7 +2311,8 @@ const FINANCIALS_DATA = {
         "eps": 5.83,
         "ocf": 31977000000,
         "capex": -55663000000,
-        "fcf": -23686000000
+        "fcf": -23686000000,
+        "endDate": "2026-05-31"
       }
     ],
     "quarterly": [
@@ -2039,7 +2378,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-02-28",
+        "eps": 1.02
+      },
+      {
+        "endDate": "2025-08-31",
+        "eps": 1.01
+      },
+      {
+        "endDate": "2025-11-30",
+        "eps": 2.1
+      },
+      {
+        "endDate": "2026-02-28",
+        "eps": 1.27
+      },
+      {
+        "endDate": "2026-05-31",
+        "eps": 1.45
+      }
+    ]
   },
   "CRM": {
     "annual": [
@@ -2091,7 +2452,8 @@ const FINANCIALS_DATA = {
         "eps": 0,
         "ocf": 7111000000,
         "capex": -798000000,
-        "fcf": 6313000000
+        "fcf": 6313000000,
+        "endDate": "2023-01-31"
       },
       {
         "period": "2024",
@@ -2101,7 +2463,8 @@ const FINANCIALS_DATA = {
         "eps": 4,
         "ocf": 10234000000,
         "capex": -736000000,
-        "fcf": 9498000000
+        "fcf": 9498000000,
+        "endDate": "2024-01-31"
       },
       {
         "period": "2025",
@@ -2111,7 +2474,8 @@ const FINANCIALS_DATA = {
         "eps": 6,
         "ocf": 13092000000,
         "capex": -658000000,
-        "fcf": 12434000000
+        "fcf": 12434000000,
+        "endDate": "2025-01-31"
       },
       {
         "period": "2026",
@@ -2121,7 +2485,8 @@ const FINANCIALS_DATA = {
         "eps": 7,
         "ocf": 14996000000,
         "capex": -594000000,
-        "fcf": 14402000000
+        "fcf": 14402000000,
+        "endDate": "2026-01-31"
       }
     ],
     "quarterly": [
@@ -2187,7 +2552,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-04-30",
+        "eps": 1.59
+      },
+      {
+        "endDate": "2025-07-31",
+        "eps": 1.96
+      },
+      {
+        "endDate": "2025-10-31",
+        "eps": 2.19
+      },
+      {
+        "endDate": "2026-01-31",
+        "eps": 2.07
+      },
+      {
+        "endDate": "2026-04-30",
+        "eps": 2.42
+      }
+    ]
   },
   "PLTR": {
     "annual": [
@@ -2219,7 +2606,8 @@ const FINANCIALS_DATA = {
         "eps": -0.18,
         "ocf": 223737000,
         "capex": -40027000,
-        "fcf": 183710000
+        "fcf": 183710000,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -2229,7 +2617,8 @@ const FINANCIALS_DATA = {
         "eps": 0.09,
         "ocf": 712183000,
         "capex": -15114000,
-        "fcf": 697069000
+        "fcf": 697069000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -2239,7 +2628,8 @@ const FINANCIALS_DATA = {
         "eps": 0.19,
         "ocf": 1153865000,
         "capex": -12634000,
-        "fcf": 1141231000
+        "fcf": 1141231000,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -2249,7 +2639,8 @@ const FINANCIALS_DATA = {
         "eps": 0.63,
         "ocf": 2134473000,
         "capex": -33882000,
-        "fcf": 2100591000
+        "fcf": 2100591000,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -2315,7 +2706,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:44",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.13
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.180263
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.24
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.34
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 0.41
+      }
+    ]
   },
   "QCOM": {
     "annual": [
@@ -2366,8 +2779,9 @@ const FINANCIALS_DATA = {
         "opIncome": 15860000000,
         "eps": 11,
         "ocf": 9096000000,
-        "capex": null,
-        "fcf": null
+        "capex": -2262000000.0,
+        "fcf": 6834000000.0,
+        "endDate": "2022-09-30"
       },
       {
         "period": "2023",
@@ -2376,8 +2790,9 @@ const FINANCIALS_DATA = {
         "opIncome": 7788000000,
         "eps": 6,
         "ocf": 11299000000,
-        "capex": null,
-        "fcf": null
+        "capex": -1450000000.0,
+        "fcf": 9849000000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "2024",
@@ -2386,8 +2801,9 @@ const FINANCIALS_DATA = {
         "opIncome": 10071000000,
         "eps": 8,
         "ocf": 12202000000,
-        "capex": null,
-        "fcf": null
+        "capex": -1041000000.0,
+        "fcf": 11161000000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "2025",
@@ -2396,8 +2812,9 @@ const FINANCIALS_DATA = {
         "opIncome": 12355000000,
         "eps": 5,
         "ocf": 14012000000,
-        "capex": null,
-        "fcf": null
+        "capex": -1192000000.0,
+        "fcf": 12820000000.0,
+        "endDate": "2025-09-30"
       }
     ],
     "quarterly": [
@@ -2463,7 +2880,30 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 2.43
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": -2.89
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 2.78
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 6.88
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 1.87
+      }
+    ],
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ARM": {
     "annual": [
@@ -2475,7 +2915,8 @@ const FINANCIALS_DATA = {
         "eps": 0.510694,
         "ocf": 739000000.0,
         "capex": -93000000.0,
-        "fcf": 646000000.0
+        "fcf": 646000000.0,
+        "endDate": "2023-03-31"
       },
       {
         "period": "2024",
@@ -2485,7 +2926,8 @@ const FINANCIALS_DATA = {
         "eps": 0.29,
         "ocf": 1090000000.0,
         "capex": -143000000.0,
-        "fcf": 947000000.0
+        "fcf": 947000000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "2025",
@@ -2495,7 +2937,8 @@ const FINANCIALS_DATA = {
         "eps": 0.61,
         "ocf": 397000000.0,
         "capex": -239000000.0,
-        "fcf": 158000000.0
+        "fcf": 158000000.0,
+        "endDate": "2025-03-31"
       },
       {
         "period": "2026",
@@ -2505,7 +2948,8 @@ const FINANCIALS_DATA = {
         "eps": 0.85,
         "ocf": 1524000000.0,
         "capex": -575000000.0,
-        "fcf": 949000000.0
+        "fcf": 949000000.0,
+        "endDate": "2026-03-31"
       }
     ],
     "quarterly": [
@@ -2563,7 +3007,29 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 14:16"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.12
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.22
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.21
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.29
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 0.25
+      }
+    ]
   },
   "MRVL": {
     "annual": [
@@ -2605,7 +3071,8 @@ const FINANCIALS_DATA = {
         "eps": -0.19,
         "ocf": 1288800000,
         "capex": -206200000,
-        "fcf": 1082600000
+        "fcf": 1082600000,
+        "endDate": "2023-01-31"
       },
       {
         "period": "2024",
@@ -2615,7 +3082,8 @@ const FINANCIALS_DATA = {
         "eps": -1.08,
         "ocf": 1370500000,
         "capex": -336300000,
-        "fcf": 1034200000
+        "fcf": 1034200000,
+        "endDate": "2024-01-31"
       },
       {
         "period": "2025",
@@ -2625,7 +3093,8 @@ const FINANCIALS_DATA = {
         "eps": -1.02,
         "ocf": 1681200000,
         "capex": -284600000,
-        "fcf": 1396600000
+        "fcf": 1396600000,
+        "endDate": "2025-01-31"
       },
       {
         "period": "2026",
@@ -2635,7 +3104,8 @@ const FINANCIALS_DATA = {
         "eps": 3.07,
         "ocf": 1750500000,
         "capex": -354100000,
-        "fcf": 1396400000
+        "fcf": 1396400000,
+        "endDate": "2026-01-31"
       }
     ],
     "quarterly": [
@@ -2701,7 +3171,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-04-30",
+        "eps": 0.2
+      },
+      {
+        "endDate": "2025-07-31",
+        "eps": 0.22
+      },
+      {
+        "endDate": "2025-10-31",
+        "eps": 2.2
+      },
+      {
+        "endDate": "2026-01-31",
+        "eps": 0.46
+      },
+      {
+        "endDate": "2026-04-30",
+        "eps": 0.04
+      }
+    ]
   },
   "ASML": {
     "annual": [
@@ -2713,7 +3205,8 @@ const FINANCIALS_DATA = {
         "eps": 16.07,
         "ocf": 8486800000.0,
         "capex": -1319300000.0,
-        "fcf": 7167500000.0
+        "fcf": 7167500000.0,
+        "endDate": "2022-12-31"
       },
       {
         "period": "2023",
@@ -2723,7 +3216,8 @@ const FINANCIALS_DATA = {
         "eps": 20.59,
         "ocf": 5443400000.0,
         "capex": -2196200000.0,
-        "fcf": 3247200000.0
+        "fcf": 3247200000.0,
+        "endDate": "2023-12-31"
       },
       {
         "period": "2024",
@@ -2733,7 +3227,8 @@ const FINANCIALS_DATA = {
         "eps": 19.24,
         "ocf": 11166200000.0,
         "capex": -2083100000.0,
-        "fcf": 9083100000.0
+        "fcf": 9083100000.0,
+        "endDate": "2024-12-31"
       },
       {
         "period": "2025",
@@ -2743,7 +3238,8 @@ const FINANCIALS_DATA = {
         "eps": 24.71,
         "ocf": 12658500000.0,
         "capex": -1631200000.0,
-        "fcf": 11027300000.0
+        "fcf": 11027300000.0,
+        "endDate": "2025-12-31"
       }
     ],
     "quarterly": [
@@ -2811,7 +3307,29 @@ const FINANCIALS_DATA = {
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-10 14:16"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 5.9
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 5.48
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 7.34
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 7.15
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 7.58
+      }
+    ]
   },
   "LRCX": {
     "annual": [
@@ -2862,8 +3380,9 @@ const FINANCIALS_DATA = {
         "opIncome": 5381822000.0,
         "eps": 32.75,
         "ocf": 3099674000.0,
-        "capex": null,
-        "fcf": null
+        "capex": -546034000.0,
+        "fcf": 2553640000.0,
+        "endDate": "2022-06-30"
       },
       {
         "period": "2023",
@@ -2872,8 +3391,9 @@ const FINANCIALS_DATA = {
         "opIncome": 5174860000,
         "eps": 33.21,
         "ocf": 5178938000,
-        "capex": null,
-        "fcf": null
+        "capex": -501568000.0,
+        "fcf": 4677370000.0,
+        "endDate": "2023-06-30"
       },
       {
         "period": "2024",
@@ -2882,8 +3402,9 @@ const FINANCIALS_DATA = {
         "opIncome": 4263913000,
         "eps": 29.0,
         "ocf": 4652269000,
-        "capex": null,
-        "fcf": null
+        "capex": -396670000.0,
+        "fcf": 4255599000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "2025",
@@ -2892,8 +3413,9 @@ const FINANCIALS_DATA = {
         "opIncome": 5900968000,
         "eps": 4.15,
         "ocf": 6173264000,
-        "capex": null,
-        "fcf": null
+        "capex": -759186000.0,
+        "fcf": 5414078000.0,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -2959,7 +3481,30 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 1.35
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 1.24
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 1.26
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 1.45
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 1.81
+      }
+    ],
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "KLAC": {
     "annual": [
@@ -3021,7 +3566,8 @@ const FINANCIALS_DATA = {
         "eps": 24.15,
         "ocf": 3669805000,
         "capex": -341591000,
-        "fcf": 3328214000
+        "fcf": 3328214000,
+        "endDate": "2023-06-30"
       },
       {
         "period": "2024",
@@ -3031,7 +3577,8 @@ const FINANCIALS_DATA = {
         "eps": 20.28,
         "ocf": 3308575000,
         "capex": -277384000,
-        "fcf": 3031191000
+        "fcf": 3031191000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "2025",
@@ -3041,7 +3588,8 @@ const FINANCIALS_DATA = {
         "eps": 30.37,
         "ocf": 4081903000,
         "capex": -335259000,
-        "fcf": 3746644000
+        "fcf": 3746644000,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -3107,7 +3655,29 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.906
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.847
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.868
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.912
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 1.04
+      }
+    ]
   },
   "SNDK": {
     "annual": [
@@ -3129,7 +3699,8 @@ const FINANCIALS_DATA = {
         "eps": -11.32,
         "ocf": 84000000,
         "capex": -204000000,
-        "fcf": -120000000
+        "fcf": -120000000,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -3181,8 +3752,30 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
-    "_fetched_at": 1786341350.3683763,
-    "_updated_label": "2026-08-10 14:55"
+    "_fetched_at": 1786344290.6335204,
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": -0.16
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.75
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 5.15
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 23.03
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 43.97
+      }
+    ]
   },
   "WDC": {
     "annual": [
@@ -3234,7 +3827,8 @@ const FINANCIALS_DATA = {
         "eps": 4.75,
         "ocf": 1880000000.0,
         "capex": -1122000000.0,
-        "fcf": 758000000.0
+        "fcf": 758000000.0,
+        "endDate": "2022-06-30"
       },
       {
         "period": "2023",
@@ -3244,7 +3838,8 @@ const FINANCIALS_DATA = {
         "eps": -5.44,
         "ocf": -408000000,
         "capex": -821000000,
-        "fcf": -1229000000
+        "fcf": -1229000000,
+        "endDate": "2023-06-30"
       },
       {
         "period": "2024",
@@ -3254,7 +3849,8 @@ const FINANCIALS_DATA = {
         "eps": -2.61,
         "ocf": -294000000,
         "capex": -487000000,
-        "fcf": -781000000
+        "fcf": -781000000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "2025",
@@ -3264,7 +3860,8 @@ const FINANCIALS_DATA = {
         "eps": 5.12,
         "ocf": 1691000000,
         "capex": -412000000,
-        "fcf": 1279000000
+        "fcf": 1279000000,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -3330,6 +3927,28 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_updated_label": "2026-08-10 15:45",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": 0.754144
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 3.07
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 4.73
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 8.2
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 8.213368
+      }
+    ]
   }
 };
