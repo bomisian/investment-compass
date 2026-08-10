@@ -36,7 +36,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 253491003392,
     "ttmNetIncome": 159612993536,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 302.82758,
+        "analystCount": 58,
+        "eps0": 8.99574,
+        "eps1": 12.89043,
+        "revenue1": 561509439870,
+        "epsGrowth1": 0.4329,
+        "revenueGrowth1": 0.4257
+      }
+    ]
   },
   "AAPL": {
     "targetMean": 322.81854,
@@ -73,7 +86,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 466822987776,
     "ttmNetIncome": 128929996800,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 322.81854,
+        "analystCount": 41,
+        "eps0": 8.79979,
+        "eps1": 9.54902,
+        "revenue1": 523333033660,
+        "epsGrowth1": 0.0851,
+        "revenueGrowth1": 0.0963
+      }
+    ]
   },
   "GOOGL": {
     "targetMean": 428.04056,
@@ -110,7 +136,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 445865984000,
     "ttmNetIncome": 244118994944,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 428.04056,
+        "analystCount": 55,
+        "eps0": 20.5849,
+        "eps1": 14.76976,
+        "revenue1": 606647397800,
+        "epsGrowth1": -0.2825,
+        "revenueGrowth1": 0.2189
+      }
+    ]
   },
   "MSFT": {
     "targetMean": 563.8413,
@@ -147,7 +186,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 331839012864,
     "ttmNetIncome": 133748998144,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 563.8413,
+        "analystCount": 53,
+        "eps0": 19.67658,
+        "eps1": 23.4742,
+        "revenue1": 467596210850,
+        "epsGrowth1": 0.19299999,
+        "revenueGrowth1": 0.19600001
+      }
+    ]
   },
   "AMZN": {
     "targetMean": 324.94067,
@@ -184,7 +236,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 775680032768,
     "ttmNetIncome": 135281000448,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 324.94067,
+        "analystCount": 59,
+        "eps0": 12.23555,
+        "eps1": 10.42508,
+        "revenue1": 945531744400,
+        "epsGrowth1": -0.148,
+        "revenueGrowth1": 0.1417
+      }
+    ]
   },
   "TSM": {
     "targetMean": 540.20483,
@@ -221,7 +286,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 4440492343296,
     "ttmNetIncome": 2216808939520,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 540.20483,
+        "analystCount": 18,
+        "eps0": 16.81977,
+        "eps1": 21.60809,
+        "revenue1": 7187439013020,
+        "epsGrowth1": 0.2847,
+        "revenueGrowth1": 0.32599998
+      }
+    ]
   },
   "AVGO": {
     "targetMean": 527.88446,
@@ -258,7 +336,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 75464998912,
     "ttmNetIncome": 29316999168,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 527.88446,
+        "analystCount": 45,
+        "eps0": 11.62543,
+        "eps1": 19.49196,
+        "revenue1": 173211633120,
+        "epsGrowth1": 0.6767,
+        "revenueGrowth1": 0.6335
+      }
+    ]
   },
   "META": {
     "targetMean": 756.94946,
@@ -295,7 +386,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 228246994944,
     "ttmNetIncome": 68097998848,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 756.94946,
+        "analystCount": 57,
+        "eps0": 31.83917,
+        "eps1": 33.948,
+        "revenue1": 305527099140,
+        "epsGrowth1": 0.066199996,
+        "revenueGrowth1": 0.2014
+      }
+    ]
   },
   "TSLA": {
     "targetMean": 396.62274,
@@ -332,7 +436,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 103619002368,
     "ttmNetIncome": 3806000128,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 396.62274,
+        "analystCount": 40,
+        "eps0": 1.79031,
+        "eps1": 2.21923,
+        "revenue1": 120604254930,
+        "epsGrowth1": 0.23959999,
+        "revenueGrowth1": 0.1393
+      }
+    ]
   },
   "MU": {
     "targetMean": 1501.9767,
@@ -369,7 +486,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 90273996800,
     "ttmNetIncome": 50468999168,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 1501.9767,
+        "analystCount": 43,
+        "eps0": 73.39892,
+        "eps1": 155.06258,
+        "revenue1": 240058616070,
+        "epsGrowth1": 1.1126,
+        "revenueGrowth1": 0.85
+      }
+    ]
   },
   "AMD": {
     "targetMean": 613.3348,
@@ -406,7 +536,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 41305001984,
     "ttmNetIncome": 6469000192,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 613.3348,
+        "analystCount": 46,
+        "eps0": 7.56141,
+        "eps1": 15.45987,
+        "revenue1": 87460982840,
+        "epsGrowth1": 1.0446,
+        "revenueGrowth1": 0.7214
+      }
+    ]
   },
   "INTC": {
     "targetMean": 115.17073,
@@ -443,7 +586,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 57031999488,
     "ttmNetIncome": -11288999936,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 115.17073,
+        "analystCount": 41,
+        "eps0": 1.5192,
+        "eps1": 2.05961,
+        "revenue1": 71359750470,
+        "epsGrowth1": 0.3557,
+        "revenueGrowth1": 0.1319
+      }
+    ]
   },
   "AMAT": {
     "targetMean": 629.0571,
@@ -480,7 +636,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 29024000000,
     "ttmNetIncome": 8508000256,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 629.0571,
+        "analystCount": 35,
+        "eps0": 12.3054,
+        "eps1": 17.08771,
+        "revenue1": 43303069110,
+        "epsGrowth1": 0.3886,
+        "revenueGrowth1": 0.29209998
+      }
+    ]
   },
   "QQQ": {
     "targetMean": null,
@@ -498,7 +667,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": null,
     "ttmNetIncome": null,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": null,
+        "analystCount": null,
+        "eps0": null,
+        "eps1": null,
+        "revenue1": null,
+        "epsGrowth1": null,
+        "revenueGrowth1": null
+      }
+    ]
   },
   "SPY": {
     "targetMean": null,
@@ -516,7 +698,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": null,
     "ttmNetIncome": null,
     "_fetched_at": 1786309202.6146119,
-    "_updated_label": "2026-08-10 06:00"
+    "_updated_label": "2026-08-10 06:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": null,
+        "analystCount": null,
+        "eps0": null,
+        "eps1": null,
+        "revenue1": null,
+        "epsGrowth1": null,
+        "revenueGrowth1": null
+      }
+    ]
   },
   "ORCL": {
     "targetMean": 247.17024,
@@ -553,7 +748,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 67356999680,
     "ttmNetIncome": 16984000512,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 247.17024,
+        "analystCount": 41,
+        "eps0": 8.05139,
+        "eps1": 10.89015,
+        "revenue1": 130558530150,
+        "epsGrowth1": 0.35259998,
+        "revenueGrowth1": 0.4617
+      }
+    ]
   },
   "CRM": {
     "targetMean": 241.7198,
@@ -590,7 +798,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 42829000704,
     "ttmNetIncome": 8023000064,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 241.7198,
+        "analystCount": 53,
+        "eps0": 14.13332,
+        "eps1": 15.51229,
+        "revenue1": 50513597610,
+        "epsGrowth1": 0.097600006,
+        "revenueGrowth1": 0.0956
+      }
+    ]
   },
   "PLTR": {
     "targetMean": 189.90222,
@@ -627,7 +848,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 6155940864,
     "ttmNetIncome": 3016691968,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 189.90222,
+        "analystCount": 27,
+        "eps0": 1.59927,
+        "eps1": 2.30872,
+        "revenue1": 12120936360,
+        "epsGrowth1": 0.4436,
+        "revenueGrowth1": 0.4799
+      }
+    ]
   },
   "QCOM": {
     "targetMean": 194.76666,
@@ -664,7 +898,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 44068999168,
     "ttmNetIncome": 9260000256,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 194.76666,
+        "analystCount": 30,
+        "eps0": 10.53003,
+        "eps1": 10.26489,
+        "revenue1": 44758452840,
+        "epsGrowth1": -0.0252,
+        "revenueGrowth1": 0.042
+      }
+    ]
   },
   "ARM": {
     "targetMean": 286.78918,
@@ -701,7 +948,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 5155999744,
     "ttmNetIncome": 1044000000,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 286.78918,
+        "analystCount": 37,
+        "eps0": 2.22995,
+        "eps1": 3.06926,
+        "revenue1": 8206594050,
+        "epsGrowth1": 0.3764,
+        "revenueGrowth1": 0.35619998
+      }
+    ]
   },
   "MRVL": {
     "targetMean": 256.9142,
@@ -738,7 +998,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 8717100032,
     "ttmNetIncome": 2526700032,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 256.9142,
+        "analystCount": 40,
+        "eps0": 4.04907,
+        "eps1": 6.24094,
+        "revenue1": 16732272130,
+        "epsGrowth1": 0.5413,
+        "revenueGrowth1": 0.45119998
+      }
+    ]
   },
   "ASML": {
     "targetMean": 2178.0366,
@@ -775,7 +1048,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 35327500288,
     "ttmNetIncome": 10638399488,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 2178.0366,
+        "analystCount": 15,
+        "eps0": 38.02898,
+        "eps1": 51.42462,
+        "revenue1": 54331121810,
+        "epsGrowth1": 0.3522,
+        "revenueGrowth1": 0.2573
+      }
+    ]
   },
   "LRCX": {
     "targetMean": 368.12903,
@@ -812,7 +1098,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 23232690176,
     "ttmNetIncome": 7265396224,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 368.12903,
+        "analystCount": 31,
+        "eps0": 9.45797,
+        "eps1": 11.52522,
+        "revenue1": 40134577810,
+        "epsGrowth1": 0.2186,
+        "revenueGrowth1": 0.1548
+      }
+    ]
   },
   "KLAC": {
     "targetMean": 230.85185,
@@ -849,7 +1148,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 13579475968,
     "ttmNetIncome": 4830771200,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 230.85185,
+        "analystCount": 27,
+        "eps0": 5.4484,
+        "eps1": 6.54928,
+        "revenue1": 20994008900,
+        "epsGrowth1": 0.2021,
+        "revenueGrowth1": 0.1599
+      }
+    ]
   },
   "SNDK": {
     "targetMean": 2106.6365,
@@ -886,7 +1198,20 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 20248000512,
     "ttmNetIncome": 11432999936,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 2106.6365,
+        "analystCount": 22,
+        "eps0": 212.1455,
+        "eps1": 261.165,
+        "revenue1": 60823505280,
+        "epsGrowth1": 0.23110001,
+        "revenueGrowth1": 0.2516
+      }
+    ]
   },
   "WDC": {
     "targetMean": 662.125,
@@ -923,6 +1248,19 @@ const ESTIMATES_DATA = {
     "ttmRevenue": 12919000064,
     "ttmNetIncome": 9285999616,
     "_fetched_at": 1786302001.703105,
-    "_updated_label": "2026-08-10 04:00"
+    "_updated_label": "2026-08-10 04:00",
+    "_history": [
+      {
+        "date": "2026-08-10",
+        "fetchedAt": 1786339006.7750585,
+        "targetMean": 662.125,
+        "analystCount": 24,
+        "eps0": 20.10436,
+        "eps1": 31.69948,
+        "revenue1": 26157059330,
+        "epsGrowth1": 0.5767,
+        "revenueGrowth1": 0.36150002
+      }
+    ]
   }
 };

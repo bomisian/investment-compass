@@ -742,10 +742,104 @@ const FINANCIALS_DATA = {
     "_updated_label": "2026-08-06 22:00"
   },
   "TSM": {
-    "annual": [],
-    "quarterly": [],
-    "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "annual": [
+      {
+        "period": "2022",
+        "revenue": 2263891300000.0,
+        "netIncome": 992923400000.0,
+        "opIncome": 1121226500000.0,
+        "eps": 196.0,
+        "ocf": 1610599200000.0,
+        "capex": -1089626400000.0,
+        "fcf": 520972800000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 2161735800000.0,
+        "netIncome": 851740000000.0,
+        "opIncome": 921429900000.0,
+        "eps": 161.7,
+        "ocf": 1241967300000.0,
+        "capex": -955398400000.0,
+        "fcf": 286568900000.0
+      },
+      {
+        "period": "2024",
+        "revenue": 2894307700000.0,
+        "netIncome": 1158380200000.0,
+        "opIncome": 1322003100000.0,
+        "eps": 226.25,
+        "ocf": 1826177100000.0,
+        "capex": -964981600000.0,
+        "fcf": 861195500000.0
+      },
+      {
+        "period": "2025",
+        "revenue": 3809054300000.0,
+        "netIncome": 1697604000000.0,
+        "opIncome": 1936095600000.0,
+        "eps": 331.25,
+        "ocf": 2274975600000.0,
+        "capex": -1282597200000.0,
+        "fcf": 992378400000.0
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'25",
+        "revenue": 933792000000.0,
+        "netIncome": 398273000000.0,
+        "opIncome": 463423000000.0,
+        "eps": 76.8,
+        "ocf": 497064085000.0,
+        "capex": -299562606000.0,
+        "fcf": 197501479000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 989918318000.0,
+        "netIncome": 452301407000.0,
+        "opIncome": 500685080000.0,
+        "eps": 87.2,
+        "ocf": 426829081000.0,
+        "capex": -288443339000.0,
+        "fcf": 138385742000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 1046090449000.0,
+        "netIncome": 485465363000.0,
+        "opIncome": 564880854000.0,
+        "eps": 97.5,
+        "ocf": 725508762000.0,
+        "capex": -361467698000.0,
+        "fcf": 364041064000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 1134103440000.0,
+        "netIncome": 572479752000.0,
+        "opIncome": 658948859000.0,
+        "eps": 110.4,
+        "ocf": 698976265000.0,
+        "capex": -351706028000.0,
+        "fcf": 347270237000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 1270381000000.0,
+        "netIncome": 706562000000.0,
+        "opIncome": 766603000000.0,
+        "eps": 136.233611,
+        "ocf": 783365000000.0,
+        "capex": -496002000000.0,
+        "fcf": 287363000000.0
+      }
+    ],
+    "_currency": "TWD",
+    "_source": "Yahoo Finance fundamentals-timeseries",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "AVGO": {
     "annual": [
@@ -1786,14 +1880,18 @@ const FINANCIALS_DATA = {
   "QQQ": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_not_applicable": true,
+    "_source": "ETF - 기업 재무제표 대상 아님",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
-    "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-06 22:00"
+    "_not_applicable": true,
+    "_source": "ETF - 기업 재무제표 대상 아님",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "ORCL": {
     "annual": [
@@ -2368,10 +2466,104 @@ const FINANCIALS_DATA = {
     "_updated_label": "2026-08-03 16:38"
   },
   "ARM": {
-    "annual": [],
-    "quarterly": [],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "annual": [
+      {
+        "period": "2023",
+        "revenue": 2679000000.0,
+        "netIncome": 524000000.0,
+        "opIncome": 678000000.0,
+        "eps": 0.510694,
+        "ocf": 739000000.0,
+        "capex": -93000000.0,
+        "fcf": 646000000.0
+      },
+      {
+        "period": "2024",
+        "revenue": 3233000000.0,
+        "netIncome": 306000000.0,
+        "opIncome": 117000000.0,
+        "eps": 0.29,
+        "ocf": 1090000000.0,
+        "capex": -143000000.0,
+        "fcf": 947000000.0
+      },
+      {
+        "period": "2025",
+        "revenue": 4007000000.0,
+        "netIncome": 792000000.0,
+        "opIncome": 831000000.0,
+        "eps": 0.61,
+        "ocf": 397000000.0,
+        "capex": -239000000.0,
+        "fcf": 158000000.0
+      },
+      {
+        "period": "2026",
+        "revenue": 4920000000.0,
+        "netIncome": 904000000.0,
+        "opIncome": 908000000.0,
+        "eps": 0.85,
+        "ocf": 1524000000.0,
+        "capex": -575000000.0,
+        "fcf": 949000000.0
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q2'25",
+        "revenue": 1053000000.0,
+        "netIncome": 130000000.0,
+        "opIncome": 114000000.0,
+        "eps": 0.12,
+        "ocf": 332000000.0,
+        "capex": -161000000.0,
+        "fcf": 171000000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 1135000000.0,
+        "netIncome": 238000000.0,
+        "opIncome": 163000000.0,
+        "eps": 0.22,
+        "ocf": 567000000.0,
+        "capex": -140000000.0,
+        "fcf": 427000000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 1242000000.0,
+        "netIncome": 223000000.0,
+        "opIncome": 191000000.0,
+        "eps": 0.21,
+        "ocf": 365000000.0,
+        "capex": -184000000.0,
+        "fcf": 181000000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 1490000000.0,
+        "netIncome": 313000000.0,
+        "opIncome": 440000000.0,
+        "eps": 0.29,
+        "ocf": 260000000.0,
+        "capex": -90000000.0,
+        "fcf": 170000000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 1289000000.0,
+        "netIncome": 270000000.0,
+        "opIncome": 98000000.0,
+        "eps": 0.25,
+        "ocf": 902000000.0,
+        "capex": -208000000.0,
+        "fcf": 694000000.0
+      }
+    ],
+    "_currency": "USD",
+    "_source": "Yahoo Finance fundamentals-timeseries",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "MRVL": {
     "annual": [
@@ -2512,10 +2704,114 @@ const FINANCIALS_DATA = {
     "_updated_label": "2026-08-03 16:38"
   },
   "ASML": {
-    "annual": [],
-    "quarterly": [],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "annual": [
+      {
+        "period": "2022",
+        "revenue": 21173400000.0,
+        "netIncome": 5624200000.0,
+        "opIncome": 6500700000.0,
+        "eps": 16.07,
+        "ocf": 8486800000.0,
+        "capex": -1319300000.0,
+        "fcf": 7167500000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 27558500000.0,
+        "netIncome": 7839000000.0,
+        "opIncome": 9042300000.0,
+        "eps": 20.59,
+        "ocf": 5443400000.0,
+        "capex": -2196200000.0,
+        "fcf": 3247200000.0
+      },
+      {
+        "period": "2024",
+        "revenue": 28262900000.0,
+        "netIncome": 7571600000.0,
+        "opIncome": 9022600000.0,
+        "eps": 19.24,
+        "ocf": 11166200000.0,
+        "capex": -2083100000.0,
+        "fcf": 9083100000.0
+      },
+      {
+        "period": "2025",
+        "revenue": 32667300000.0,
+        "netIncome": 9609400000.0,
+        "opIncome": 11301400000.0,
+        "eps": 24.71,
+        "ocf": 12658500000.0,
+        "capex": -1631200000.0,
+        "fcf": 11027300000.0
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q1'25",
+        "revenue": null,
+        "netIncome": null,
+        "opIncome": null,
+        "eps": null,
+        "ocf": -58600000.0,
+        "capex": -416500000.0,
+        "fcf": -475100000.0
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 7691700000.0,
+        "netIncome": 2290300000.0,
+        "opIncome": 2664100000.0,
+        "eps": 5.9,
+        "ocf": 747700000.0,
+        "capex": -428900000.0,
+        "fcf": 318800000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 7516000000.0,
+        "netIncome": 2124500000.0,
+        "opIncome": 2468400000.0,
+        "eps": 5.48,
+        "ocf": 559100000.0,
+        "capex": -315400000.0,
+        "fcf": 243700000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 9718100000.0,
+        "netIncome": 2839600000.0,
+        "opIncome": 3431100000.0,
+        "eps": 7.34,
+        "ocf": 11410300000.0,
+        "capex": -470400000.0,
+        "fcf": 10939900000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 8766900000.0,
+        "netIncome": 2756700000.0,
+        "opIncome": 3157800000.0,
+        "eps": 7.15,
+        "ocf": -2185600000.0,
+        "capex": -422300000.0,
+        "fcf": -2607900000.0
+      },
+      {
+        "period": "Q2'26",
+        "revenue": 9326500000.0,
+        "netIncome": 2917600000.0,
+        "opIncome": 3456100000.0,
+        "eps": 7.58,
+        "ocf": null,
+        "capex": null,
+        "fcf": null
+      }
+    ],
+    "_currency": "EUR",
+    "_source": "Yahoo Finance fundamentals-timeseries",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "LRCX": {
     "annual": [
@@ -2883,8 +3179,10 @@ const FINANCIALS_DATA = {
         "netIncome": 3615000000.0
       }
     ],
-    "_fetched_at": 1785742690.193076,
-    "_updated_label": "2026-08-03 16:38"
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786338990.8919137,
+    "_updated_label": "2026-08-10 14:16"
   },
   "WDC": {
     "annual": [
