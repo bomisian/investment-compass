@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.470000267028809,
+      "current": 15.430000305175781,
       "prevClose": 14.899999618530273,
-      "changeAbs": 0.5700006484985352,
-      "changePct": 3.825507805984492,
-      "pctRank": 25.159235668789808,
+      "changeAbs": 0.5300006866455078,
+      "changePct": 3.557051679292504,
+      "pctRank": 24.601910828025478,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.17713157118477,
-      "ma20": 17.079999876022338,
-      "ma60": 17.23833328882853,
-      "chg1m": 0.4400005340576172,
-      "chg3m": -2.909998893737793,
-      "chg1mPct": 2.927481981868513,
-      "chg3mPct": -15.832421254672251,
+      "drawdown1y": -50.30595592814413,
+      "ma20": 17.077999877929688,
+      "ma60": 17.237666622797647,
+      "chg1m": 0.40000057220458984,
+      "chg3m": -2.9499988555908203,
+      "chg1mPct": 2.661347833074885,
+      "chg3mPct": -16.05004891342868,
       "lastDate": "2026-08-10",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 79.12000274658203,
+      "current": 79.01000213623047,
       "prevClose": 78.18000030517578,
-      "changeAbs": 0.94000244140625,
-      "changePct": 1.2023566612137997,
-      "pctRank": 59.90453460620525,
+      "changeAbs": 0.8300018310546875,
+      "changePct": 1.061654934529002,
+      "pctRank": 59.665871121718375,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -29.95130156325927,
-      "ma20": 81.86799964904785,
-      "ma60": 83.32383333841959,
-      "chg1m": 7.709999084472656,
-      "chg3m": -16.29999542236328,
-      "chg1mPct": 10.796805334101437,
-      "chg3mPct": -17.082368198648904,
+      "drawdown1y": -30.04869033114207,
+      "ma20": 81.86249961853028,
+      "ma60": 83.32199999491374,
+      "chg1m": 7.599998474121094,
+      "chg3m": -16.409996032714844,
+      "chg1mPct": 10.642764436873573,
+      "chg3mPct": -17.197648656060778,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.6510009765625,
+      "current": 99.68399810791016,
       "prevClose": 99.5999984741211,
-      "changeAbs": 0.05100250244140625,
-      "changePct": 0.05120733255298005,
-      "pctRank": 33.41288782816229,
+      "changeAbs": 0.0839996337890625,
+      "changePct": 0.08433698300797463,
+      "pctRank": 33.49244232299125,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9279594744825657,
-      "ma20": 100.56955070495606,
-      "ma60": 100.2735169728597,
-      "chg1m": -1.319000244140625,
-      "chg3m": 1.811004638671875,
-      "chg1mPct": -1.3063288384611549,
-      "chg3mPct": 1.8509860041465729,
+      "drawdown1y": -1.8954851794826144,
+      "ma20": 100.57120056152344,
+      "ma60": 100.27406692504883,
+      "chg1m": -1.2860031127929688,
+      "chg3m": 1.8440017700195312,
+      "chg1mPct": -1.2736487048088532,
+      "chg3mPct": 1.8847116098116636,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4404.39990234375,
+      "current": 4400.2001953125,
       "prevClose": 4340.7001953125,
-      "changeAbs": 63.69970703125,
-      "changePct": 1.4674984257157173,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 59.5,
+      "changePct": 1.370746592087925,
+      "pctRank": 91.40811455847255,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.185620050820393,
-      "ma20": 4105.130017089844,
-      "ma60": 4228.346663411458,
-      "chg1m": 300.2998046875,
-      "chg3m": -316.0,
-      "chg1mPct": 7.31706823766296,
-      "chg3mPct": -6.694348075109086,
+      "drawdown1y": -17.264585662815822,
+      "ma20": 4104.920031738281,
+      "ma60": 4228.276668294271,
+      "chg1m": 296.10009765625,
+      "chg3m": -320.19970703125,
+      "chg1mPct": 7.214738690836158,
+      "chg3mPct": -6.7833173810605745,
       "lastDate": "2026-08-10",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,10 +219,17 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0ZKNWFNbV9WOEFpMnZYa3NkbzBGWUNiVnVsMlJtT1IzRDliNHJIM0g0eUZ0N2lNcWxSSEd5QVV4QW1pZFRCSTQ5WndIdGtVRTFMcmYxUVVVZzVQazFQRy1vNG5Vd1hhbG9ObG14SnJnbl94VDJLZnJ6dmN4ZUJKTXRiTFBrTkdkN0FyWkFua3FhR3B6aHN5Z05ETmpNUkxLTlViUm4xdGtINktfUDk2UmRUOGtqdw?oc=5",
+      "datetime": 1786348783,
+      "headlineKo": "이란, 파키스탄-터키-사우디 안보 협정을 두려워할 이유가 없다고 말하다 - 로이터"
+    },
+    {
       "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
-      "datetime": 1786341835,
+      "datetime": 1786333748,
       "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
     },
     {
@@ -240,11 +247,18 @@ const MARKET_DATA = {
       "headlineKo": "이란, 여러 요구에 따라 호르무즈 재개방을 미국의 양보와 결부 - 로이터 통신"
     },
     {
-      "headline": "Oil steady as Iran tempers hopes for swift Hormuz reopening - Reuters",
+      "headline": "Oil steady as Iran tempers hopes of swift Hormuz reopening - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
       "datetime": 1786313820,
-      "headlineKo": "이란이 호르무즈의 조속한 재개를 희망하면서 유가 안정 - 로이터 통신"
+      "headlineKo": "이란이 호르무즈의 조속한 재개에 대한 희망을 누그러뜨리면서 유가는 안정됐다 - 로이터 통신"
+    },
+    {
+      "headline": "Israeli military closes Palestinian Christian village Taybeh, citing settler attacks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNcWhzbGhpYTNuV1JTcU8wSEotZ01CQ3lJb1pteWZiUzRpVVdmdmhUYldVSlV5cXNnR0pKQTFZVmFZeG1VUjZJWkN5Tm5Vak9FTmZFd1RncERPZnJBQmQwdllYaktkQ1VKeWQ5Qi1WaUdSdVlwbGRGaFM0NUJrNmt4MExPczhrVHdSZTVBQlJ4OUN5WVpvSi1XMDE0N0hub292RmlkOUJ1eG9xbkh2U0RXdEpraUF5VU01bXY2NFVqUVFYdjRLT0JWaVN3a0FjY0E?oc=5",
+      "datetime": 1786310799,
+      "headlineKo": "이스라엘군, 정착민 공격 이유로 팔레스타인 기독교 마을 타이베 폐쇄 - 로이터 통신"
     },
     {
       "headline": "Yemeni military says Houthi attack on Mocha kills 7, wounds 30 - Reuters",
@@ -252,6 +266,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY1pLdDR5UUhyOFl0d1dQNFFWV3lPV1RkNVg0TFgtSjVidElQVlpTcmt1cFQ0QmI4bTNsOXdjNlozM1RWLU9DUThrNmNjTURRZV9sSjJPbTVIYTR2ZUZQYzQ2NGdFbVRsSVlzeno5NWhiajhucW8ySmYwc1B6cENtOHg1RVhBY0pKUUFHSENiM0w5dU1lNkNJNTB0S0FLSFNKZnpZRHJLaGZHSVk2OFg1X3B0TEUyT0R4V2EtWHoxY2pjVF9IOHl4ZEpZZGF3QQ?oc=5",
       "datetime": 1786306680,
       "headlineKo": "예멘군, 후티 반군 모카 공격으로 7명 사망, 30명 부상 - 로이터 통신"
+    },
+    {
+      "headline": "NORAD intercepts two aircraft as Trump watches golf tourney in New Jersey - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbmxlZ0JvLUxjSzh2TkhGZUJlV2EwWHc0Q2NtcmhzbVNoaGFqT3A4dVJuMzBQQWlTODlwTFlfTkRqazlJWWVab0NGMDFJeFA1czR2eUFZclk5M1gta3o4VW5YeFpIOENjeUY0NnBGWTBRbkY4azhkdE4tYVpQZWhjT2R2WWQ5aVVZZl9LWkNkX1RTNHZaZGo5cE5FOGI5bkxhb3BUal9JNTdlUllSXzlsTW5R?oc=5",
+      "datetime": 1786305573,
+      "headlineKo": "NORAD는 트럼프가 뉴저지에서 골프 토너먼트를 관람하는 동안 두 대의 항공기를 요격했습니다-로이터"
     },
     {
       "headline": "Netanyahu says Trump's new Gaza plan is unacceptable - Reuters",
@@ -280,29 +301,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/09/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
       "datetime": 1786281112,
       "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "Syria and Russia reach deal on future of Tartous and Hmeimim bases after 18 months of talks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTHltYW1BZ2tteEtoRWZwSUVpMy1vMVZTTF9HUzJYcUxZeGN0TGdPTzJ6dzB4clFRTWNDRkR1ZUVRT1BmbnNiZm9tQkZRdFZHSmVydXdDOHVnZERHVElJZm0zSk1HdG51LVZCRjVpakpfWDZiWXh0X0lmN0dQangwM01QNU5DY1BmNmdCR3FOX0FYQjdCNF9teE5zc0tTOXA3WWQyYUswOS1oYzVKUzdnNFdGdU5KREFyUnlyWVZSZld6c1NPa3Q4?oc=5",
-      "datetime": 1786280983,
-      "headlineKo": "시리아와 러시아, 18개월 간의 회담 끝에 타르투스와 흐메이밈 기지 미래에 대한 합의에 도달 - 로이터 통신"
-    },
-    {
-      "headline": "Most Gulf bourses subdued as investors await Strait of Hormuz deal clarity - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXFfQ0YybkFMMlYyUVVIbDBSazRGN19SeDlzRTZFWklTek93NlY2S3MyNThpalc0aGFJQkg1c1NTWW1VUWstUGRhVzZ3LTIzaWdWbTZ3aV9MU21Td3l5NzhmaHZlZ1E1cGdRbDJ0WXlFOXhvSHZveFNQVjgxVkRxV3NXNkUwSEhFVXBpaUdXUjZLdzE3aS10dEZpRGhBRTZFczdIUkQ4bkw1TmtNMFJycFhTSkc4VmEzcEs0VHVFSQ?oc=5",
-      "datetime": 1786280143,
-      "headlineKo": "투자자들이 호르무즈 해협 거래의 명확성을 기다리면서 대부분의 걸프 증권 거래소는 침체되었습니다 - Reuters"
-    },
-    {
-      "headline": "Pope Leo renews call for Ukraine war to end - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVmI1RUZtWkNMSDM0NUxiWUEycWxxa0RmOWZNd0IzdW93UzRmRll6TTVDVzdBdERjMzlOeUlqNWRPT0xSbDhUTjZWSUVsRG1MTGpQVnpQMERDNEI3YjRmWDNGaWtlbWdZdjBSamdqaXRHT0N0NHMxUlZNNEVHemZfSEgyRm0?oc=5",
-      "datetime": 1786279427,
-      "headlineKo": "교황 레오, 우크라이나 전쟁 종식 촉구 재차 - 로이터 통신"
     }
   ],
-  "_fetched_at": 1786352440.1696353,
-  "_updated_label": "2026-08-10 18:01"
+  "_fetched_at": 1786356105.2193122,
+  "_updated_label": "2026-08-10 19:02"
 };
