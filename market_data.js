@@ -66,20 +66,20 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 78.81999969482422,
+      "current": 78.66000366210938,
       "prevClose": 78.18000030517578,
-      "changeAbs": 0.6399993896484375,
-      "changePct": 0.8186229050271152,
-      "pctRank": 58.744038155802855,
+      "changeAbs": 0.48000335693359375,
+      "changePct": 0.6139720581477356,
+      "pctRank": 58.18759936406995,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
-      "ma20": 81.85299949645996,
-      "ma60": 83.31883328755697,
-      "chg1m": 7.409996032714844,
-      "chg3m": -16.599998474121094,
-      "chg1mPct": 10.37669185367461,
-      "chg3mPct": -17.39677089987999,
-      "lastDate": "2026-08-09",
+      "ma20": 81.84499969482422,
+      "ma60": 83.31616668701172,
+      "chg1m": 7.25,
+      "chg3m": -16.759994506835938,
+      "chg1mPct": 10.152639165662022,
+      "chg3mPct": -17.56444647710182,
+      "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -87,20 +87,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.63300323486328,
+      "current": 99.69599914550781,
       "prevClose": 99.5999984741211,
-      "changeAbs": 0.0330047607421875,
-      "changePct": 0.033137310489781864,
-      "pctRank": 33.147853736089026,
+      "changeAbs": 0.09600067138671875,
+      "changePct": 0.0963862177283692,
+      "pctRank": 33.62480127186009,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
-      "ma20": 100.56865081787109,
-      "ma60": 100.27321701049804,
-      "chg1m": -1.3369979858398438,
-      "chg3m": 1.7930068969726562,
-      "chg1mPct": -1.3241536789896586,
-      "chg3mPct": 1.832590928131787,
-      "lastDate": "2026-08-09",
+      "ma20": 100.57180061340333,
+      "ma60": 100.27426694234212,
+      "chg1m": -1.2740020751953125,
+      "chg3m": 1.8560028076171875,
+      "chg1mPct": -1.2617629590897619,
+      "chg3mPct": 1.8969775930974875,
+      "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -108,20 +108,20 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4401.0,
+      "current": 4387.89990234375,
       "prevClose": 4340.7001953125,
-      "changeAbs": 60.2998046875,
-      "changePct": 1.3891722988060187,
-      "pctRank": 91.41494435612083,
+      "changeAbs": 47.19970703125,
+      "changePct": 1.087375421187133,
+      "pctRank": 91.33545310015899,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
-      "ma20": 4104.960021972656,
-      "ma60": 4228.2899983723955,
-      "chg1m": 296.89990234375,
-      "chg3m": -319.39990234375,
-      "chg1mPct": 7.234226633831425,
-      "chg3mPct": -6.766373802040864,
-      "lastDate": "2026-08-09",
+      "ma20": 4104.305017089844,
+      "ma60": 4228.071663411459,
+      "chg1m": 283.7998046875,
+      "chg3m": -332.5,
+      "chg1mPct": 6.91503125982651,
+      "chg3mPct": -7.0438947309296545,
+      "lastDate": "2026-08-10",
       "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
@@ -182,32 +182,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Houthis resume attacks on Yemen's Mocha port city, Yemeni military spokesperson says - reuters.com",
+      "headline": "Alleged Irish crime boss Kinahan charged with directing criminal organisation - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY1pLdDR5UUhyOFl0d1dQNFFWV3lPV1RkNVg0TFgtSjVidElQVlpTcmt1cFQ0QmI4bTNsOXdjNlozM1RWLU9DUThrNmNjTURRZV9sSjJPbTVIYTR2ZUZQYzQ2NGdFbVRsSVlzeno5NWhiajhucW8ySmYwc1B6cENtOHg1RVhBY0pKUUFHSENiM0w5dU1lNkNJNTB0S0FLSFNKZnpZRHJLaGZHSVk2OFg1X3B0TEUyT0R4V2EtWHoxY2pjVF9IOHl4ZEpZZGF3QQ?oc=5",
-      "datetime": 1786307050,
-      "headlineKo": "예멘군 대변인은 후티 반군이 예멘의 모카 항구 도시에 대한 공격을 재개했다고 밝혔습니다. - reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUzl5TEZoallFdF9oRFpZcHRETGZPXzRmYnNwRGU5eXBweFRkTFVEU0lSb2VDLVg0dFBueFhEeWc5YVlCdUJtckVvcXdVWndxMDRSdmREeGc3YzBkQUZLU2dmX2EwRVc3cmdXamhYRUhoTExqeklKZDhoaU9RM0NKNl90RkEwRGc1R1JMZ1BxWFU3VVBoZjBtaVl3U1J5YnZ1MTJv?oc=5",
+      "datetime": 1786317890,
+      "headlineKo": "아일랜드 범죄 두목 키나한, 범죄조직 지휘 혐의로 기소 - 로이터 통신"
     },
     {
-      "headline": "Netanyahu says Trump's new Gaza plan is unacceptable - reuters.com",
+      "headline": "Iran ties Hormuz reopening to US concessions on several demands - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSmFvNGYwRDFRdHZrdWhBOWR0ZmVCdkZTSzRROXVNMG1UX1Azb04xa3ZCbEtYNkl4eFhSZG16b0xYeHNyd2tTdHhGWXFUTXJ6WFNVRjg3bmZYOEhEeHNaNHh4NU9qN0RQYXY3ZG13Qzh6Mk1LNG9jaGZraUZwRHVKY0hMZlFWUTdMOEpoaTRuemlPWEFJZUhsYk5TaUpNdWFqR1dId3NCM0xvYS1SNlNBMg?oc=5",
+      "datetime": 1786316761,
+      "headlineKo": "이란, 여러 요구에 따라 호르무즈 재개방을 미국의 양보와 결부 - 로이터 통신"
+    },
+    {
+      "headline": "Oil rises on uncertainty over reopening of Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaXpSdTFpV0NCUnZ4ZmZ3bXhmR3QxR1VVbGthTXNFSmZDNU03WWxGTDQ2eE9SeVZPYVE1aHl3NWZuS3FxcW1WSnBBb3J1SXJLY1F6RnFkTy1wdVZHaXdMZkhpclJjM09BU0k1RmMyaFNHQmtnZzA5elZZbUpHVUFEZHFNbnJaek93UlM4cUZJTlU5ZzRUckVJVXdTVVd3amluLWRDb1ljZkY?oc=5",
+      "datetime": 1786313820,
+      "headlineKo": "호르무즈 재개 불확실성으로 유가 상승 - 로이터"
+    },
+    {
+      "headline": "Yemeni military says Houthi attack on Mocha kills 7, wounds 30 - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQY1pLdDR5UUhyOFl0d1dQNFFWV3lPV1RkNVg0TFgtSjVidElQVlpTcmt1cFQ0QmI4bTNsOXdjNlozM1RWLU9DUThrNmNjTURRZV9sSjJPbTVIYTR2ZUZQYzQ2NGdFbVRsSVlzeno5NWhiajhucW8ySmYwc1B6cENtOHg1RVhBY0pKUUFHSENiM0w5dU1lNkNJNTB0S0FLSFNKZnpZRHJLaGZHSVk2OFg1X3B0TEUyT0R4V2EtWHoxY2pjVF9IOHl4ZEpZZGF3QQ?oc=5",
+      "datetime": 1786306680,
+      "headlineKo": "예멘군, 후티 반군 모카 공격으로 7명 사망, 30명 부상 - 로이터 통신"
+    },
+    {
+      "headline": "Netanyahu says Trump's new Gaza plan is unacceptable - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMm5hSE0yMGxRN0hITzZOLXp3R2tCX1dRc1IxaWp3MmZ5Uzc5T20yYmQxVlQ2ZDUzdkppNUJRNzJQcDNwaDh4aGd2cmI1S1lKY2lKRzNBUnJXVVpfOVNwa1JDM2JLenNkMi1YQ2h4MFJ3Yk1HM0FBY2RZZTVnbXd5QmhxU3ZKWTNQZDNEWmdEYVVBUzV3b2tZMEx5TDVTOER0SVZsemE4Z1F2VFJ0Ym9qX3Zn?oc=5",
       "datetime": 1786303480,
-      "headlineKo": "네타냐후는 트럼프의 새로운 가자지구 계획은 받아들일 수 없다고 말했다 - reuters.com"
+      "headlineKo": "네타냐후는 트럼프의 새로운 가자지구 계획은 받아들일 수 없다고 말했다 - 로이터"
     },
     {
-      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - reuters.com",
+      "headline": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
       "datetime": 1786301732,
-      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다 - reuters.com"
+      "headlineKo": "이란은 오만 협정이 '최종 단계'에 있지만 미국은 호르무즈 개방을 위해 조치를 취해야 한다고 말했습니다."
     },
     {
-      "headline": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - reuters.com",
+      "headline": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazVhN1R5WHRFQTBvX1BRNWoyT1F4WGlKVXBncE5ad1h2TVZqM0ZPLWdEYy1OVkdDYnE2THh4Z2twaGtiRXBMdVY3V3NBT01UeGxuVlljODZHUVptY3NqNnVldHNDOEIzYndQQi0zUExFbExpVGdQbS0zS2ppeGpMbWlvVnZsNS10aVBLaXR1ZDA4Q0piT09XVHR4bjRNSk5qaDQtOGwzWm1seTB0UXlVUl9uN3FIRlVCWUdNS0lNX2xWUWR2ZHdTNnVqdS1sdw?oc=5",
       "datetime": 1786295999,
-      "headlineKo": "액시오스(Axios) 인터뷰에 따르면 트럼프는 미국이 이란에 대해 '낮은 태도'를 취하고 있으며 경제적 고통을 강조하고 있다고 말했다."
+      "headlineKo": "Axios 인터뷰에 따르면 트럼프는 미국이 이란에 대해 '낮은 입장'을 유지하고 있으며 경제적 고통을 강조하고 있다고 말했습니다."
     },
     {
       "headline": "5 ‘rules’ your parents taught you that are sabotaging your career, says expert—like ‘always be grateful’",
@@ -231,41 +252,20 @@ const MARKET_DATA = {
       "headlineKo": "시리아와 러시아, 18개월 간의 회담 끝에 타르투스와 흐메이밈 기지 미래에 대한 합의에 도달 - 로이터 통신"
     },
     {
-      "headline": "Most Gulf bourses subdued as investors await Strait of Hormuz deal clarity - reuters.com",
+      "headline": "Most Gulf bourses subdued as investors await Strait of Hormuz deal clarity - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZXFfQ0YybkFMMlYyUVVIbDBSazRGN19SeDlzRTZFWklTek93NlY2S3MyNThpalc0aGFJQkg1c1NTWW1VUWstUGRhVzZ3LTIzaWdWbTZ3aV9MU21Td3l5NzhmaHZlZ1E1cGdRbDJ0WXlFOXhvSHZveFNQVjgxVkRxV3NXNkUwSEhFVXBpaUdXUjZLdzE3aS10dEZpRGhBRTZFczdIUkQ4bkw1TmtNMFJycFhTSkc4VmEzcEs0VHVFSQ?oc=5",
       "datetime": 1786280143,
-      "headlineKo": "투자자들이 호르무즈 해협 거래의 명확성을 기다리면서 대부분의 걸프 증권 거래소는 침체되었습니다 - reuters.com"
+      "headlineKo": "투자자들이 호르무즈 해협 거래의 명확성을 기다리면서 대부분의 걸프 증권 거래소는 침체되었습니다 - Reuters"
     },
     {
-      "headline": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says - reuters.com",
+      "headline": "Iran's Pezeshkian recently met Supreme Leader Khamenei, state media says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLTd6TExsQVUzWU1OTlNGdzREQVBSY2R5STlrTVBra3ZPOWozaERiVC1zd3FDMmJJOTEwS2pIemlUcUNZZ2l5Y1JGMjljUHlqTWJ4RC1fRjFRNEtuc1JCd1BFOEM5VzRwRnAyc3N0ejEtOGlhT2Y5VHNPWXd1a2puYXNxTS1fQjJpSzFrTlpYUDd5UFlCRFloQWhQZDdNM1FqZEFOYXNpYmEtTmdpUFFockU0TnhKSVpfNmd5SmRJZmp3UQ?oc=5",
       "datetime": 1786278169,
-      "headlineKo": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 전했습니다. - reuters.com"
-    },
-    {
-      "headline": "Passage of ships to Black Sea continues smoothly, Turkish officials say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT0gyU21ScmZKOEVnYlkwcjVrb2hwZ0I4M01vYkRrS0ZsclJPejZINnRibXNCOWdTYVp5WG81Y3BndlhncFdHTkpJV1NuNkhvdzdQNkktWjhQVk8zQmpKQUhodGMzYmdyOV84bWFwZHdWN0RxRFppVnZobk5pWEd0ejBhWklHcnljNUp1emF4ckdFcWJRY2xFeUNYNnl2cDI1Z0ROMlBYbTlFbE1kdWJBM09Na0M3LWdEbmc?oc=5",
-      "datetime": 1786275189,
-      "headlineKo": "흑해로의 선박 통행이 순조롭게 진행되고 있다고 터키 관리들이 밝혔습니다 - Reuters"
-    },
-    {
-      "headline": "Talks with US won't happen while interim deal is breached, Iranian minister says - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRllnWjhRYk9ZMlhGdzE1NGtIRlpuOXJ0Z0ZuVFJsTVlzUUdlN1Juai1YUGE5WHVnajEtejY4ekktRi1FNUlBLWdzdDRFS0dFNUJ4elhjalNudmVsVkpoYTgybnBNVXB6UXBwTEtlUGtwWHVLM091SzFkMTdKOUFrZ2w1WmpkcFoxQkJVUFlvSC1GMzhlYkM5TWRaVnJHMmhXLXhXSXJnd2FxVkJIOHpNeUE2bkFvSVY1YWMtQ2lNWWNHY2Jma0I1cHA2Q0Y?oc=5",
-      "datetime": 1786272749,
-      "headlineKo": "이란 장관은 \"임시 협정이 파기되는 동안 미국과의 대화는 이뤄지지 않을 것\"이라고 말했다 - reuters.com"
-    },
-    {
-      "headline": "Russia says it hit fuel storage facilities in Ukrainian ports overnight - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmJnek5pZHJ3UUNSeXFwWXg1cXd0WWpIZUd5a2lHVTBnVE0tZDNmLVU4a2NzbEd0NGsteXFZYW93RXJwci1tSjhYNzdKQi1UcGJ6VnpxWjZZaUYzOUxHX3Utd2dGdUdnT0dHVTZna3hxMkVxSGM4Q29JMlpwZjVucmwxcHRSZ3ZZd3gzWnhjRmxaZUhteFZNR3ZjVmdkbnBCbk4yR0FqcC1xQ2t5MlFz?oc=5",
-      "datetime": 1786258560,
-      "headlineKo": "러시아는 밤새 우크라이나 항구의 연료 저장 시설을 공격했다고 밝혔습니다."
+      "headlineKo": "이란의 페제쉬키안이 최근 하메네이 최고 지도자를 만났다고 국영 언론이 밝혔습니다. - 로이터"
     }
   ],
-  "_fetched_at": 1786320002.7973752,
-  "_updated_label": "2026-08-10 09:00"
+  "_fetched_at": 1786330458.5408437,
+  "_updated_label": "2026-08-10 11:54"
 };
