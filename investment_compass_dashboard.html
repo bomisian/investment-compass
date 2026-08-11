@@ -1478,7 +1478,7 @@ function renderSummary(){
   const rec = scored.filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심').slice(0,6);
   // 2026-08-10 추가: 칩에 점수만 있으면 클릭해서 열어봐야 가격을 알 수 있었음(사용자 요청) - 현재가·PER을
   // 같이 보여줘서 첫 화면만 봐도 대략의 가격대를 알 수 있게 함. PER은 Finnhub 없는 종목(ETF 등)은 생략.
-  const chipInfo = r => `$${r.price.toFixed(2)}${r.forwardPE!=null?' · PER '+r.forwardPE.toFixed(1)+'배':''}`;
+  const chipInfo = r => `$${r.price.toFixed(2)}${r.perNow!=null?' · PER '+r.perNow.toFixed(1)+'배':''}`;
   document.getElementById('recList').innerHTML = rec.length
     ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점 · ${chipInfo(r)}</span>`).join('')
     : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
@@ -3868,6 +3868,16 @@ function tabEarnings(r){
   if(!fin[earningsMode]?.length) earningsMode = fin.quarterly?.length ? 'quarterly' : 'annual';
   const sec = secTtmFromFinancials(r.ticker);
   const vintage = sec ? `<div class="sub" style="margin-top:8px;">이 탭은 <b>SEC 정식 공시(10-Q/10-K)</b> 기준이라 <b>${sec.lastPeriod}</b>까지 반영돼 있어요. 최근 12개월 합산: 매출 $${fmtUsd(sec.revenue)} · 순이익 $${fmtUsd(sec.netIncome)} → 순이익률 ${sec.margin.toFixed(1)}%. 실적 발표는 났지만 공시서류 제출 전인 분기는 아직 여기 안 들어와요(그래서 02 탭 수치와 다를 수 있어요).</div>` : '';
+  // ⚠️ 2026-08-11 추가: 분기 라벨은 '달력 분기'(Q1=1~3월), 연간 라벨은 '회계연도'라 기준이 서로 다름.
+  // 12월 결산이 아닌 회사(워치리스트 24종목 중 15종목!)는 이 둘이 다른 기간을 가리켜서, 분기 4개를
+  // 더한 값과 같은 이름의 연간 값이 안 맞아 보임(실측: NVDA Q1'25~Q4'25 합 $187B vs 연간 2025 $130.5B).
+  // 데이터는 둘 다 맞고 라벨 기준만 다른 것 - 화면에 그 사실을 밝혀서 오해를 막는다.
+  const fyEnd = (fin.annual || []).slice(-1)[0]?.endDate || null;
+  const nonDecFy = fyEnd && fyEnd.slice(5,7) !== '12';
+  const fyNote = nonDecFy ? `<div class="sub" style="margin-top:8px;padding:7px 9px;background:var(--warn-bg);color:#876000;border-radius:8px;">
+      ⚠️ <b>이 회사는 12월 결산이 아니에요</b>(회계연도 마감 <b>${esc(fyEnd)}</b>). 그래서 위 <b>분기별</b> 라벨(Q1=1~3월 같은 <b>달력 분기</b>)과 <b>연도별</b> 라벨(<b>회계연도</b>)이 서로 다른 기간을 가리켜요 —
+      <b>분기 4개를 더한 값이 같은 이름의 연간 값과 안 맞는 게 정상</b>이에요(둘 다 맞는 숫자예요). 회사가 공식 발표에서 쓰는 분기 이름(예: "FY2027 1분기")과도 다를 수 있어요.
+    </div>` : '';
   return `
     <div class="toggle-row">
       <div class="toggle-btn ${earningsMode==='quarterly'?'active':''}" onclick="setEarningsMode('${r.ticker}','quarterly')">분기별</div>
@@ -3877,6 +3887,7 @@ function tabEarnings(r){
     <canvas id="earningsCanvas"></canvas>
     ${earningsComment(fin[earningsMode] || [], earningsMode)}
     ${earningsTable(fin[earningsMode] || [], earningsMode)}
+    ${fyNote}
     ${vintage}
     <div class="glossary" style="margin-top:10px;">
       ※ Finnhub SEC 공시(financials-reported) 기반으로 서버에서 최선 추정 계산한 값입니다. 회사별 회계 방식 차이로 일부 분기는 계산이 안 돼 비어 있을 수 있어요.
@@ -3892,8 +3903,13 @@ function earningsTable(data, mode){
     const base = i>=lag ? rows[i-lag] : null;
     const gRev = base ? growth(d.revenue, base.revenue) : null;
     const margin = (d.revenue && d.netIncome!=null) ? d.netIncome/d.revenue*100 : null;
+    // 연간 행은 회계연도 마감일을 같이 보여줌 - "2026"이 실제로 언제까지인지가
+    // 12월 결산이 아닌 회사에서는 전혀 자명하지 않기 때문(NVDA 2026 = 2026-01-31 마감)
+    const periodLabel = (mode==='annual' && d.endDate)
+      ? `${esc(String(d.period))} <span class="sub" style="font-weight:400;">(${esc(d.endDate)} 마감)</span>`
+      : esc(String(d.period));
     return `<tr id="earnRow-${esc(String(d.period))}">
-      <td class="name">${esc(String(d.period))}</td>
+      <td class="name">${periodLabel}</td>
       <td>${d.revenue!=null?'$'+fmtUsd(d.revenue):'-'}</td>
       <td style="color:${gRev==null?'inherit':(gRev>=0?'var(--up)':'var(--down)')}">${gRev==null?'-':pctStr(gRev)}</td>
       <td>${d.opIncome!=null?'$'+fmtUsd(d.opIncome):'-'}</td>
