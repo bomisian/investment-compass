@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.27999877929688,
+      "current": 82.41000366210938,
       "prevClose": 82.12999725341797,
-      "changeAbs": 0.15000152587890625,
-      "changePct": 0.18263914634754685,
-      "pctRank": 69.53062848050915,
+      "changeAbs": 0.28000640869140625,
+      "changePct": 0.340930741574758,
+      "pctRank": 69.84884645982497,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.15360690359242,
-      "ma20": 82.16549949645996,
-      "ma60": 83.05916659037273,
-      "chg1m": 4.1399993896484375,
-      "chg3m": -15.790000915527344,
-      "chg1mPct": 5.298182009196281,
-      "chg3mPct": -16.100745349916306,
+      "drawdown1y": -27.03850740264061,
+      "ma20": 82.17199974060058,
+      "ma60": 83.0613333384196,
+      "chg1m": 4.2700042724609375,
+      "chg3m": -15.659996032714844,
+      "chg1mPct": 5.464556316629053,
+      "chg3mPct": -15.968181993928694,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.8030014038086,
+      "current": 99.79399871826172,
       "prevClose": 99.80999755859375,
-      "changeAbs": -0.00699615478515625,
-      "changePct": -0.007009472954900271,
-      "pctRank": 34.28798727128083,
+      "changeAbs": -0.01599884033203125,
+      "changePct": -0.016029296386505854,
+      "pctRank": 34.049323786793956,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7783674792723914,
-      "ma20": 100.52065048217773,
-      "ma60": 100.29155031840007,
-      "chg1m": -1.4769973754882812,
-      "chg3m": 1.8629989624023438,
-      "chg1mPct": -1.4583307595677037,
-      "chg3mPct": 1.9021839043927988,
+      "drawdown1y": -1.7872275181394226,
+      "ma20": 100.52020034790038,
+      "ma60": 100.29140027364095,
+      "chg1m": -1.4860000610351562,
+      "chg3m": 1.8539962768554688,
+      "chg1mPct": -1.4672196672053244,
+      "chg3mPct": 1.8929918630180183,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4462.5,
+      "current": 4439.39990234375,
       "prevClose": 4361.7998046875,
-      "changeAbs": 100.7001953125,
-      "changePct": 2.3086844839664677,
-      "pctRank": 91.96499602227526,
+      "changeAbs": 77.60009765625,
+      "changePct": 1.7790843489161383,
+      "pctRank": 91.64677804295943,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.093184379883997,
-      "ma20": 4123.070007324219,
-      "ma60": 4224.043326822916,
-      "chg1m": 465.5,
-      "chg3m": -256.2001953125,
-      "chg1mPct": 11.646234676007005,
-      "chg3mPct": -5.429465418612655,
+      "drawdown1y": -16.527527379290074,
+      "ma20": 4121.915002441407,
+      "ma60": 4223.6583251953125,
+      "chg1m": 442.39990234375,
+      "chg3m": -279.30029296875,
+      "chg1mPct": 11.06829878268076,
+      "chg3mPct": -5.919009078945163,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,11 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - reuters.com",
+      "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
+      "datetime": 1786420200,
+      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
+    },
+    {
+      "headline": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
       "datetime": 1786412460,
-      "headlineKo": "유가 상승, 미국-이란 교착상태 속에 아시아 증시 표류 - reuters.com"
+      "headlineKo": "유가 상승, 미국-이란 교착상태 속에 아시아 증시 표류 - Reuters"
     },
     {
       "headline": "Gold rises for third straight session, inflation prints in focus - Reuters",
@@ -233,39 +240,32 @@ const MARKET_DATA = {
       "headlineKo": "금값은 3회 연속 상승, 인플레이션에 주목 - Reuters"
     },
     {
-      "headline": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - reuters.com",
+      "headline": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
-      "datetime": 1786408839,
-      "headlineKo": "미국-이란 평화 협정 희망이 어두워지면서 유가는 일주일 최고치에 근접했습니다-reuters.com"
+      "datetime": 1786408680,
+      "headlineKo": "미국-이란 평화 협정 희망이 어두워지면서 유가는 일주일 최고치에 근접했습니다. - 로이터 통신"
     },
     {
-      "headline": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - reuters.com",
+      "headline": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
       "datetime": 1786408320,
-      "headlineKo": "트럼프 대통령은 이란의 위협 때문에 비밀 비행기를 타고 터키를 떠났다고 워싱턴포스트(WP)가 보도했다. - reuters.com"
+      "headlineKo": "트럼프 대통령은 이란의 위협 때문에 비밀 비행기를 타고 터키로 떠났다고 워싱턴포스트(WP)가 로이터통신을 인용해 보도했다."
     },
     {
-      "headline": "Wall Street ends down as expectations of Hormuz deal fade - reuters.com",
+      "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
       "datetime": 1786403950,
-      "headlineKo": "호르무즈 협상 기대감이 사라지면서 월스트리트 종료 - reuters.com"
+      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 종료됩니다 - Reuters"
     },
     {
-      "headline": "North Korea condemns Japan's white paper, calling it 're-invasion paper' - reuters.com",
+      "headline": "North Korea condemns Japan's white paper, calling it 're-invasion paper' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONC1NamZsbVNNSlRKNTh5ZGwzc3FHVTZ3VjVqek1JdHVGZXV3b1Q4MlFBdC1zM2E3YzZqYmhSejcxVUN0RXNGVktNV0ZiRDIyRUJtcUhBZThZbW9SVVdnb2pxMzFtX0NOdVJ4eGNTMHRFa1dNb1VudWtDeXA3WlY4eWpwdkx4bmpFZ0hGWkgwMU12SGFhcWJyUlF4Y2kxRUpQUTdHb0ZOWlJnZDJ6MTZ5Y0VUVF9CbFpiUHh3S2pxanE3UGNsclN5MDhSRQ?oc=5",
       "datetime": 1786398960,
       "headlineKo": "북한, 일본 백서 '재침략 문서' 비난 - 로이터통신"
-    },
-    {
-      "headline": "China is balancing Asia's crude oil demand by itself - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
-      "datetime": 1786395626,
-      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - reuters.com"
     },
     {
       "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
@@ -275,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "Meta의 최신 모델은 개인 AI 비서에 대한 Zuckerberg의 비전을 발전시킵니다."
     },
     {
-      "headline": "OPEC oil output rises further in July led by Gulf producers, Reuters survey shows - reuters.com",
+      "headline": "OPEC oil output rises further in July led by Gulf producers, Reuters survey shows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamx6ZmttRHhDNkRmaGxMNngyOFpJbkwxcVU4a3JqZFZ0U3ZXSzNmeUlNWkowUHh2Q29FYnhfNVZ3Wm15WUFsd1FjSDJfczk5Sk90bG1zV2I1emtmOGZuUHpNZTF6TXNGSDVEQXVhMjBRSHQ5TkJ2eWljS3lCU24tRGlCeWgwMlhOa0V0SGlLQUZDX0RDOFExS3VacFpzUWJQdFJEMUFfYVNzeWNzUVE2bmZrNTVkN2tBOVBneVR0dlp1SWwyS2JQLQ?oc=5",
       "datetime": 1786388365,
-      "headlineKo": "로이터 조사에 따르면 걸프 산유국 주도로 OPEC 석유 생산량이 7월 추가 증가 - reuters.com"
+      "headlineKo": "로이터 조사에 따르면 걸프만 생산국 주도로 OPEC 석유 생산량이 7월 추가 증가 - Reuters"
     },
     {
       "headline": "Gaza Board of Peace official says plan is still operative - Reuters",
@@ -289,20 +289,20 @@ const MARKET_DATA = {
       "headlineKo": "가자 평화위원회 관계자는 계획이 여전히 작동 중이라고 말했습니다-로이터"
     },
     {
-      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - reuters.com",
+      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnBEVG1SUHZxZmRmdkNDQzUwSnFRTEF2SVFBWUF6SmZlTDZlb0tGa1V1dE5OZFFGVU5EQXhHd0QteldVRkhySVprMVd2TFh5aFA5S2thQjFKX1hsajBlSHBTM2tFNkRuVmpTR3ExSUVQcEcyVExxNVpRZVkwZnBFT1hpV01BcDc5anBpZmF3MHkwd05UZ3BWWTR5TTlaQXdFSkNsX19IMzl3UTZMVmx5RFhsRjdJNHRfMmc?oc=5",
       "datetime": 1786382411,
-      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? -reuters.com"
+      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? - 로이터"
     },
     {
-      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - reuters.com",
+      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX01YNGdkRGZ6S1FUOFNoaHVnTGRjSFJISXI1QTVqVDFfMzI0bTBhZFhrcDJRNTkzcmh0YmpjN1RMQzZqak5GSldnMXVMMnpkTTRoMWZQQ01tLUFhLUpzT1NPWDNSQzZGZmZHVnR3ZXZGbThMNHpVdFZkSjZOd21EUE96TWI0czAyUkVGR0dJZFlsZDVaNEkxbWVvNmlyb19nZTlEOEVoa1VaMzI3MDNGWA?oc=5",
       "datetime": 1786382394,
-      "headlineKo": "모흐센 레자에이, 이란 최고 보안 기관의 장관으로 임명 - reuters.com"
+      "headlineKo": "이란 최고 보안 기관의 장관에 모센 레자에이 임명 - 로이터"
     }
   ],
-  "_fetched_at": 1786425359.9112253,
-  "_updated_label": "2026-08-11 14:16"
+  "_fetched_at": 1786429013.194271,
+  "_updated_label": "2026-08-11 15:17"
 };
