@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.26000213623047,
-      "prevClose": 78.18000030517578,
-      "changeAbs": 4.0800018310546875,
-      "changePct": 5.218728338613958,
-      "pctRank": 69.53062848050915,
+      "current": 82.4000015258789,
+      "prevClose": 82.12999725341797,
+      "changeAbs": 0.2700042724609375,
+      "changePct": 0.3287523213081574,
+      "pctRank": 69.87281399046104,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.171310881995858,
-      "ma20": 82.02499961853027,
-      "ma60": 83.3761666615804,
-      "chg1m": 10.849998474121094,
-      "chg3m": -13.159996032714844,
-      "chg1mPct": 15.19394751113586,
-      "chg3mPct": -13.791654040292991,
+      "drawdown1y": -27.04736276917511,
+      "ma20": 82.17149963378907,
+      "ma60": 83.06116663614908,
+      "chg1m": 4.260002136230469,
+      "chg3m": -15.669998168945312,
+      "chg1mPct": 5.451756039807202,
+      "chg3mPct": -15.978380970436893,
       "lastDate": "2026-08-11",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 99.76699829101562,
-      "prevClose": 99.5999984741211,
-      "changeAbs": 0.16699981689453125,
-      "changePct": 0.16767050145881532,
-      "pctRank": 33.969769291964994,
+      "current": 99.76899719238281,
+      "prevClose": 99.80999755859375,
+      "changeAbs": -0.0410003662109375,
+      "changePct": -0.041078416204617295,
+      "pctRank": 33.94276629570747,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.8138001262330339,
-      "ma20": 100.57535057067871,
-      "ma60": 100.27545026143392,
-      "chg1m": -1.2030029296875,
-      "chg3m": 1.927001953125,
-      "chg1mPct": -1.1914458900103821,
-      "chg3mPct": 1.9695441795297037,
+      "drawdown1y": -1.8118328972642428,
+      "ma20": 100.51895027160644,
+      "ma60": 100.29098358154297,
+      "chg1m": -1.5110015869140625,
+      "chg3m": 1.8289947509765625,
+      "chg1mPct": -1.4919052183311572,
+      "chg3mPct": 1.867464473539073,
       "lastDate": "2026-08-11",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4468.10009765625,
-      "prevClose": 4340.7001953125,
-      "changeAbs": 127.39990234375,
-      "changePct": 2.935008100336635,
-      "pctRank": 91.96499602227526,
+      "current": 4488.89990234375,
+      "prevClose": 4361.7998046875,
+      "changeAbs": 127.10009765625,
+      "changePct": 2.9139369835282034,
+      "pctRank": 92.36883942766295,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.987887716243076,
-      "ma20": 4108.315026855469,
-      "ma60": 4229.408333333334,
-      "chg1m": 364.0,
-      "chg3m": -252.2998046875,
-      "chg1mPct": 8.869179389846543,
-      "chg3mPct": -5.344881999557481,
+      "drawdown1y": -15.596796315268623,
+      "ma20": 4124.390002441406,
+      "ma60": 4224.483325195312,
+      "chg1m": 491.89990234375,
+      "chg3m": -229.80029296875,
+      "chg1mPct": 12.306727604296972,
+      "chg3mPct": -4.869991384428933,
       "lastDate": "2026-08-11",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -219,11 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Wall Street ends down as expectations of Hormuz deal fade - reuters.com",
+      "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
       "datetime": 1786403950,
-      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 끝났다 - reuters.com"
+      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 종료됩니다 - Reuters"
     },
     {
       "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
@@ -233,25 +233,46 @@ const MARKET_DATA = {
       "headlineKo": "Meta의 최신 모델은 개인 AI 비서에 대한 Zuckerberg의 비전을 발전시킵니다."
     },
     {
-      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - reuters.com",
+      "headline": "OPEC oil output rises further in July led by Gulf producers, Reuters survey shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamx6ZmttRHhDNkRmaGxMNngyOFpJbkwxcVU4a3JqZFZ0U3ZXSzNmeUlNWkowUHh2Q29FYnhfNVZ3Wm15WUFsd1FjSDJfczk5Sk90bG1zV2I1emtmOGZuUHpNZTF6TXNGSDVEQXVhMjBRSHQ5TkJ2eWljS3lCU24tRGlCeWgwMlhOa0V0SGlLQUZDX0RDOFExS3VacFpzUWJQdFJEMUFfYVNzeWNzUVE2bmZrNTVkN2tBOVBneVR0dlp1SWwyS2JQLQ?oc=5",
+      "datetime": 1786388365,
+      "headlineKo": "로이터 조사에 따르면 걸프만 생산국 주도로 OPEC 석유 생산량이 7월 추가 증가 - Reuters"
+    },
+    {
+      "headline": "Gaza Board of Peace official says plan is still operative - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVy1SZ3FGanBZM2xpMFJ4bE9ZbHRLR2RoOUYzQ0tmQWNHSHZFcVFwcERuY2NzME1iaGplb0ZUTTNvLTFTdGpCVlVtS2dvX1Exb3J6dFRMVXZTY09NNjRMeGppblhFZ3lreTB4UHgxaWFvbkV5allpQk5XZjRRMm1WR0Z4ZzhuOG1pUGFOZGlSR0JkYUt4QzhTSHlGV25VV05sZzFLZUZMaTB3Z1V2?oc=5",
+      "datetime": 1786386946,
+      "headlineKo": "가자 평화위원회 관계자는 계획이 여전히 작동 중이라고 말했습니다-로이터"
+    },
+    {
+      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnBEVG1SUHZxZmRmdkNDQzUwSnFRTEF2SVFBWUF6SmZlTDZlb0tGa1V1dE5OZFFGVU5EQXhHd0QteldVRkhySVprMVd2TFh5aFA5S2thQjFKX1hsajBlSHBTM2tFNkRuVmpTR3ExSUVQcEcyVExxNVpRZVkwZnBFT1hpV01BcDc5anBpZmF3MHkwd05UZ3BWWTR5TTlaQXdFSkNsX19IMzl3UTZMVmx5RFhsRjdJNHRfMmc?oc=5",
       "datetime": 1786382411,
-      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? -reuters.com"
+      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? - 로이터"
     },
     {
-      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - reuters.com",
+      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX01YNGdkRGZ6S1FUOFNoaHVnTGRjSFJISXI1QTVqVDFfMzI0bTBhZFhrcDJRNTkzcmh0YmpjN1RMQzZqak5GSldnMXVMMnpkTTRoMWZQQ01tLUFhLUpzT1NPWDNSQzZGZmZHVnR3ZXZGbThMNHpVdFZkSjZOd21EUE96TWI0czAyUkVGR0dJZFlsZDVaNEkxbWVvNmlyb19nZTlEOEVoa1VaMzI3MDNGWA?oc=5",
       "datetime": 1786382394,
-      "headlineKo": "모흐센 레자에이, 이란 최고 보안 기관의 장관으로 임명 - reuters.com"
+      "headlineKo": "이란 최고 보안 기관의 장관에 모센 레자에이 임명 - 로이터"
     },
     {
-      "headline": "Trump says Iran must pay compensation for those it has killed and wounded - reuters.com",
+      "headline": "Trump says Iran must pay compensation for those it has killed and wounded - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUhMZEhSUHlDeTNnSy1ULU9POGxpNFhwbG1UQml2MExiQUowVVJTMm9lYzZLR1NRRnBXUnZha1o2X05pVjRzMGxRSDFtazRNYzBrQ20zb3FUM3I1N1ByUmdrWUdpLUw3OHkwVmlSQzMxYnFQdzJDcEhKSlhjbWFCWGxzUkZ4aXhaUEtXLUxsZ05HODJya0VUTHFoNkQtOU9hbkZfN2FDdzRwaU5ybUVLMUVpbE9kSWo5REo0?oc=5",
       "datetime": 1786382023,
-      "headlineKo": "트럼프 “이란은 죽고 다친 사람들에 대해 보상해야 한다” - reuters.com"
+      "headlineKo": "트럼프 \"이란은 죽고 다친 사람들에 대해 보상해야 한다\" - 로이터"
+    },
+    {
+      "headline": "Austria breaks up sanctions-evasion scheme supplying Russian arms industry - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQemhDNHRGckVHU3hGazZNNld4QTVOcjd0SUVzUTdrRHZkQXUtcUZmOC1DQkRhX2VMV3BuZExJSl9xZXM1YVVObjk4Z3RZeTBnNnhrWkQtZzdRSkFtM2hCZl9NUFpVemlTbThiUzRURmV4UURfOTlpN0Z2QTdodEJQR1pBWVJzNl90eEt5TUR5VWRSZy10TWtFVmo1Y1kzTGRQd3BKaEVkckJEampOMFdjVi1tN3ZvMlk5WHdKdTdSeVhzSnpZYUpudG9wWDAxVEVfSFhJ?oc=5",
+      "datetime": 1786377944,
+      "headlineKo": "오스트리아, 러시아 무기 산업에 공급하는 제재 회피 계획 중단 - 로이터 통신"
     },
     {
       "headline": "We're buying more of an AI stock that's under pressure to start the week",
@@ -275,34 +296,13 @@ const MARKET_DATA = {
       "headlineKo": "월요일 주식 시장에서 주목해야 할 클럽의 상위 10가지 항목"
     },
     {
-      "headline": "Gulf Shares mixed on uncertainty over Hormuz deal - reuters.com",
+      "headline": "Gulf Shares mixed on uncertainty over Hormuz deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTZaVnh5WHdNVDhpendOT1hqODUybGJqeDVVSnluX1JMUkE1eHI5SnRYUEExYW1zTk1VLUZGTV9xQWs4Wm1iSEFBNTBWUGQ5VGN0dXlPX0czRHJkSlNsUHZ5LWozM0FJVVM1dWktRjVRT1BpcDhtTTdMcExLQUZ1bGVRQXNuLXBaTm9jS1o1RzUzVlM1TFpCenhGVThCd1JhSFdWY0txazh3WW11?oc=5",
       "datetime": 1786366842,
-      "headlineKo": "걸프주, 호르무즈 거래 불확실성에 혼조세 - reuters.com"
-    },
-    {
-      "headline": "Trump's Gaza plan hinges on Hamas disarmament, Israeli withdrawals - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFducWRWa3BFR0MtLTM1TkdwRG82VDAwZndhU3Q3Y3piejFoR3pJWlZpTkpZOWIxSXo0QldwZmZDWkNta0t0c183OVcwYTg4b0Q5Qzc1YmFpTVNIV2IwbERDS1Fsby1WN2JVbkRMa05RdXJCTF9zMGZ0RkVUVXptb3B5T2hBTm1fclJGV0lxblVKSFhuY2FTbXBXRTFPYVNWajZEOE0tS0NYdGR4OGdKeUh4TjVjZw?oc=5",
-      "datetime": 1786361726,
-      "headlineKo": "트럼프의 가자 계획은 하마스의 군축과 이스라엘의 철수에 달려 있다 - reuters.com"
-    },
-    {
-      "headline": "Santoli: Stocks return to their winning ways. But was July's brief pain enough to satisfy the market gods?",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/10/santoli-stocks-return-to-their-winning-ways-but-was-julys-brief-pain-enough-to-satisfy-the-market-gods.html",
-      "datetime": 1786358618,
-      "headlineKo": "Santoli: 주식은 승리의 길로 돌아왔습니다. 하지만 7월의 짧은 고통이 시장의 신들을 만족시키기에 충분했을까?"
-    },
-    {
-      "headline": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0ZKNWFNbV9WOEFpMnZYa3NkbzBGWUNiVnVsMlJtT1IzRDliNHJIM0g0eUZ0N2lNcWxSSEd5QVV4QW1pZFRCSTQ5WndIdGtVRTFMcmYxUVVVZzVQazFQRy1vNG5Vd1hhbG9ObG14SnJnbl94VDJLZnJ6dmN4ZUJKTXRiTFBrTkdkN0FyWkFua3FhR3B6aHN5Z05ETmpNUkxLTlViUm4xdGtINktfUDk2UmRUOGtqdw?oc=5",
-      "datetime": 1786353663,
-      "headlineKo": "이란, 파키스탄-터키-사우디 안보 협정을 두려워할 이유가 없다고 말하다 - reuters.com"
+      "headlineKo": "걸프주, 호르무즈 거래 불확실성에 혼조세 - Reuters"
     }
   ],
-  "_fetched_at": 1786410542.831695,
-  "_updated_label": "2026-08-11 10:09"
+  "_fetched_at": 1786414193.451027,
+  "_updated_label": "2026-08-11 11:10"
 };
