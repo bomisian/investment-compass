@@ -26,21 +26,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.699000358581543,
+      "current": 4.698999881744385,
       "prevClose": 4.659999847412109,
-      "changeAbs": 0.039000511169433594,
-      "changePct": 0.8369208679500748,
+      "changeAbs": 0.03900003433227539,
+      "changePct": 0.8369106353926968,
       "pctRank": 97.92828685258964,
       "min5y": 1.2419999837875366,
       "max5y": 4.98799991607666,
       "high1y": 4.744999885559082,
-      "drawdown1y": -0.9694315719065427,
-      "ma20": 4.63694999217987,
-      "ma60": 4.5452333211898805,
-      "chg1m": 0.13000059127807617,
-      "chg3m": 0.33500051498413086,
-      "chg1mPct": 2.845274631186947,
-      "chg3mPct": 7.676455705552389,
+      "drawdown1y": -0.9694416211619594,
+      "ma20": 4.636949968338013,
+      "ma60": 4.545233313242594,
+      "chg1m": 0.13000011444091797,
+      "chg3m": 0.33500003814697266,
+      "chg1mPct": 2.845264194829265,
+      "chg3mPct": 7.676444778944338,
       "lastDate": "2026-08-10",
       "bars": 1255,
       "symbol": "^TNX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.05000305175781,
+      "current": 82.27999877929688,
       "prevClose": 82.12999725341797,
-      "changeAbs": -0.07999420166015625,
-      "changePct": -0.09739949389420827,
-      "pctRank": 68.97374701670644,
+      "changeAbs": 0.15000152587890625,
+      "changePct": 0.18263914634754685,
+      "pctRank": 69.53062848050915,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.35723305122698,
-      "ma20": 82.15399971008301,
-      "ma60": 83.05533332824707,
-      "chg1m": 3.910003662109375,
-      "chg3m": -16.019996643066406,
-      "chg1mPct": 5.0038439885467305,
-      "chg3mPct": -16.335267352827252,
+      "drawdown1y": -27.15360690359242,
+      "ma20": 82.16549949645996,
+      "ma60": 83.05916659037273,
+      "chg1m": 4.1399993896484375,
+      "chg3m": -15.790000915527344,
+      "chg1mPct": 5.298182009196281,
+      "chg3mPct": -16.100745349916306,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.78399658203125,
+      "current": 99.8030014038086,
       "prevClose": 99.80999755859375,
-      "changeAbs": -0.0260009765625,
-      "changePct": -0.026050473097382905,
-      "pctRank": 34.049323786793956,
+      "changeAbs": -0.00699615478515625,
+      "changePct": -0.007009472954900271,
+      "pctRank": 34.28798727128083,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7970711714908605,
-      "ma20": 100.51970024108887,
-      "ma60": 100.29123357137044,
-      "chg1m": -1.496002197265625,
-      "chg3m": 1.843994140625,
-      "chg1mPct": -1.4770953942501723,
-      "chg3mPct": 1.882779349253326,
+      "drawdown1y": -1.7783674792723914,
+      "ma20": 100.52065048217773,
+      "ma60": 100.29155031840007,
+      "chg1m": -1.4769973754882812,
+      "chg3m": 1.8629989624023438,
+      "chg1mPct": -1.4583307595677037,
+      "chg3mPct": 1.9021839043927988,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4477.60009765625,
+      "current": 4462.5,
       "prevClose": 4361.7998046875,
-      "changeAbs": 115.80029296875,
-      "changePct": 2.6548740922108065,
-      "pctRank": 92.12410501193318,
+      "changeAbs": 100.7001953125,
+      "changePct": 2.3086844839664677,
+      "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.809262562541981,
-      "ma20": 4123.825012207031,
-      "ma60": 4224.294995117188,
-      "chg1m": 480.60009765625,
-      "chg3m": -241.10009765625,
-      "chg1mPct": 12.024020456748811,
-      "chg3mPct": -5.109459971535295,
+      "drawdown1y": -16.093184379883997,
+      "ma20": 4123.070007324219,
+      "ma60": 4224.043326822916,
+      "chg1m": 465.5,
+      "chg3m": -256.2001953125,
+      "chg1mPct": 11.646234676007005,
+      "chg3mPct": -5.429465418612655,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 0.9810004234313965,
+  "yieldSpread": 0.9809999465942383,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -219,11 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - Reuters",
+      "headline": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
       "datetime": 1786412460,
-      "headlineKo": "유가 상승, 미국-이란 교착상태 속에 아시아 증시 표류 - Reuters"
+      "headlineKo": "유가 상승, 미국-이란 교착상태 속에 아시아 증시 표류 - reuters.com"
     },
     {
       "headline": "Gold rises for third straight session, inflation prints in focus - Reuters",
@@ -233,39 +233,39 @@ const MARKET_DATA = {
       "headlineKo": "금값은 3회 연속 상승, 인플레이션에 주목 - Reuters"
     },
     {
-      "headline": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - Reuters",
+      "headline": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
-      "datetime": 1786408680,
-      "headlineKo": "미국-이란 평화 협정 희망이 어두워지면서 유가는 일주일 최고치에 근접했습니다. - 로이터 통신"
+      "datetime": 1786408839,
+      "headlineKo": "미국-이란 평화 협정 희망이 어두워지면서 유가는 일주일 최고치에 근접했습니다-reuters.com"
     },
     {
-      "headline": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - Reuters",
+      "headline": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
       "datetime": 1786408320,
-      "headlineKo": "트럼프 대통령은 이란의 위협 때문에 비밀 비행기를 타고 터키로 떠났다고 워싱턴포스트(WP)가 로이터통신을 인용해 보도했다."
+      "headlineKo": "트럼프 대통령은 이란의 위협 때문에 비밀 비행기를 타고 터키를 떠났다고 워싱턴포스트(WP)가 보도했다. - reuters.com"
     },
     {
-      "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
+      "headline": "Wall Street ends down as expectations of Hormuz deal fade - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
       "datetime": 1786403950,
-      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 종료됩니다 - Reuters"
+      "headlineKo": "호르무즈 협상 기대감이 사라지면서 월스트리트 종료 - reuters.com"
     },
     {
-      "headline": "North Korea condemns Japan's white paper, calling it 're-invasion paper' - Reuters",
+      "headline": "North Korea condemns Japan's white paper, calling it 're-invasion paper' - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONC1NamZsbVNNSlRKNTh5ZGwzc3FHVTZ3VjVqek1JdHVGZXV3b1Q4MlFBdC1zM2E3YzZqYmhSejcxVUN0RXNGVktNV0ZiRDIyRUJtcUhBZThZbW9SVVdnb2pxMzFtX0NOdVJ4eGNTMHRFa1dNb1VudWtDeXA3WlY4eWpwdkx4bmpFZ0hGWkgwMU12SGFhcWJyUlF4Y2kxRUpQUTdHb0ZOWlJnZDJ6MTZ5Y0VUVF9CbFpiUHh3S2pxanE3UGNsclN5MDhSRQ?oc=5",
       "datetime": 1786398960,
       "headlineKo": "북한, 일본 백서 '재침략 문서' 비난 - 로이터통신"
     },
     {
-      "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
+      "headline": "China is balancing Asia's crude oil demand by itself - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
       "datetime": 1786395626,
-      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
+      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - reuters.com"
     },
     {
       "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
@@ -275,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "Meta의 최신 모델은 개인 AI 비서에 대한 Zuckerberg의 비전을 발전시킵니다."
     },
     {
-      "headline": "OPEC oil output rises further in July led by Gulf producers, Reuters survey shows - Reuters",
+      "headline": "OPEC oil output rises further in July led by Gulf producers, Reuters survey shows - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNamx6ZmttRHhDNkRmaGxMNngyOFpJbkwxcVU4a3JqZFZ0U3ZXSzNmeUlNWkowUHh2Q29FYnhfNVZ3Wm15WUFsd1FjSDJfczk5Sk90bG1zV2I1emtmOGZuUHpNZTF6TXNGSDVEQXVhMjBRSHQ5TkJ2eWljS3lCU24tRGlCeWgwMlhOa0V0SGlLQUZDX0RDOFExS3VacFpzUWJQdFJEMUFfYVNzeWNzUVE2bmZrNTVkN2tBOVBneVR0dlp1SWwyS2JQLQ?oc=5",
       "datetime": 1786388365,
-      "headlineKo": "로이터 조사에 따르면 걸프만 생산국 주도로 OPEC 석유 생산량이 7월 추가 증가 - Reuters"
+      "headlineKo": "로이터 조사에 따르면 걸프 산유국 주도로 OPEC 석유 생산량이 7월 추가 증가 - reuters.com"
     },
     {
       "headline": "Gaza Board of Peace official says plan is still operative - Reuters",
@@ -289,20 +289,20 @@ const MARKET_DATA = {
       "headlineKo": "가자 평화위원회 관계자는 계획이 여전히 작동 중이라고 말했습니다-로이터"
     },
     {
-      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - Reuters",
+      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnBEVG1SUHZxZmRmdkNDQzUwSnFRTEF2SVFBWUF6SmZlTDZlb0tGa1V1dE5OZFFGVU5EQXhHd0QteldVRkhySVprMVd2TFh5aFA5S2thQjFKX1hsajBlSHBTM2tFNkRuVmpTR3ExSUVQcEcyVExxNVpRZVkwZnBFT1hpV01BcDc5anBpZmF3MHkwd05UZ3BWWTR5TTlaQXdFSkNsX19IMzl3UTZMVmx5RFhsRjdJNHRfMmc?oc=5",
       "datetime": 1786382411,
-      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? - 로이터"
+      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? -reuters.com"
     },
     {
-      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - Reuters",
+      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX01YNGdkRGZ6S1FUOFNoaHVnTGRjSFJISXI1QTVqVDFfMzI0bTBhZFhrcDJRNTkzcmh0YmpjN1RMQzZqak5GSldnMXVMMnpkTTRoMWZQQ01tLUFhLUpzT1NPWDNSQzZGZmZHVnR3ZXZGbThMNHpVdFZkSjZOd21EUE96TWI0czAyUkVGR0dJZFlsZDVaNEkxbWVvNmlyb19nZTlEOEVoa1VaMzI3MDNGWA?oc=5",
       "datetime": 1786382394,
-      "headlineKo": "이란 최고 보안 기관의 장관에 모센 레자에이 임명 - 로이터"
+      "headlineKo": "모흐센 레자에이, 이란 최고 보안 기관의 장관으로 임명 - reuters.com"
     }
   ],
-  "_fetched_at": 1786421635.0827208,
-  "_updated_label": "2026-08-11 13:14"
+  "_fetched_at": 1786425359.9112253,
+  "_updated_label": "2026-08-11 14:16"
 };

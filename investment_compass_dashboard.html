@@ -536,10 +536,12 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-10';
+const DASHBOARD_VERSION = '2026-08-11';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
+let openTicker = null;  // 지금 상세 패널에 열려있는 티커(비동기 장기이력 로딩 후 화면이 그 사이 바뀌었는지 확인용)
+const longHistoryCache = {}; // ticker -> {closes, dates} (10년치, 최초 조회 후 세션 동안 재사용)
 
 // ============ Twelve Data 키 저장 (브라우저 로컬) ============
 function getTdKey(){ return localStorage.getItem('compass_td_key') || ''; }
@@ -607,7 +609,7 @@ async function fetchYahooViaProxies(ticker, range='2y'){
   }
   throw lastErr || new Error('야후 프록시 전체 실패');
 }
-async function fetchStooq(ticker){
+async function fetchStooq(ticker, n=500){
   // 지수 심볼(^VIX 등)은 미국 개별종목과 달리 .us 접미사를 붙이면 안 됨(stooq 규칙)
   const sym = ticker.startsWith('^') ? ticker.toLowerCase() : ticker.toLowerCase() + '.us';
   const url = `https://stooq.com/q/d/l/?s=${encodeURIComponent(sym)}&i=d`;
@@ -625,14 +627,48 @@ async function fetchStooq(ticker){
     volumes.push(parseFloat(parts[5]) || null);
     dates.push(parts[0]);
   });
-  const N = 500;
+  // stooq는 range 파라미터가 없고 항상 전체 이력을 주므로, 마지막에 n개만 자름
+  // (n을 크게 주면 장기 이력용 - 하락 리스크 프로필의 10년치 폴백에 재사용).
   const bundle = {
-    opens: opens.slice(-N), highs: highs.slice(-N), lows: lows.slice(-N),
-    closes: closes.slice(-N), dates: dates.slice(-N), volumes: volumes.slice(-N),
+    opens: opens.slice(-n), highs: highs.slice(-n), lows: lows.slice(-n),
+    closes: closes.slice(-n), dates: dates.slice(-n), volumes: volumes.slice(-n),
   };
   if(bundle.closes.length < 40) throw new Error('stooq 데이터 부족');
   bundle.source = 'stooq'; bundle.dropped = 0;
   return bundle;
+}
+// ============ 하락 리스크 프로필 전용 장기 이력 (2026-08-11 추가) ============
+// [배경] 사용자 요청: "하락 리스크 프로필이 2년치라 너무 짧다, 최소 10년은 됐으면 좋겠다." 다른 모든
+// 계산(신호·RSI·200일선·차트)은 의도적으로 2년치를 씀(장중 최신성이 핵심이라 - CLAUDE.md "신호는
+// 조회 시점 계산" 참고) - 26종목 스캔마다 10년치를 받으면 스캔이 느려지고 무거워짐. 그래서 하락
+// 리스크 프로필만 예외적으로, 상세 패널을 열 때(01 탭) 딱 그 종목 하나만 별도로 더 긴 이력을
+// 불러오는 지연 로딩(lazy) 방식으로 구현함 - 스캔 자체는 그대로 2y로 빠르게 유지됨.
+async function fetchLongHistory(ticker){
+  try{ return await fetchYahooViaProxies(ticker, '10y'); }
+  catch(e1){
+    try{ return await fetchStooq(ticker, 2600); } // 약 10년치 거래일
+    catch(e2){ throw new Error('장기 이력 조회 실패: ' + (e2.message||e1.message)); }
+  }
+}
+async function loadLongRiskProfile(ticker){
+  const box = document.getElementById('riskProfileBox');
+  if(!box) return;
+  try{
+    let bundle = longHistoryCache[ticker];
+    if(!bundle){
+      bundle = await fetchLongHistory(ticker);
+      longHistoryCache[ticker] = bundle;
+    }
+    const risk = computeRiskProfile(bundle.closes, bundle.dates);
+    // 그 사이 사용자가 다른 종목을 보고 있거나 패널을 닫았으면 화면을 덮어쓰지 않음
+    if(openTicker !== ticker || activeTab !== '01' || !risk) return;
+    const el = document.getElementById('riskProfileBox');
+    if(el) el.outerHTML = renderRiskSection({...results[ticker], risk}, true);
+  }catch(e){
+    if(openTicker !== ticker || activeTab !== '01') return;
+    const el = document.getElementById('riskProfileLoading');
+    if(el) el.textContent = '장기(10년) 데이터 조회에 실패해서 2년치 기준으로 계속 보여드려요 - 새로고침하면 다시 시도해요.';
+  }
 }
 async function fetchTwelveData(ticker){
   const key = getTdKey();
@@ -946,20 +982,23 @@ const SIGNAL_DIST = {
   p5: -10.93, p10: -7.0, p90: 11.23, worst: -34.3, best: 41.02,
   mae: { mean: -3.51, median: -2.1, p5: -14.19, p10: -10.28, worst: -39.29, severeShare: 10.5 },
 };
+// 2026-08-11 재작성: "숫자가 많은데 이해가 안 된다"는 지적 - 신뢰구간·표준편차 같은 통계 용어를
+// 다 빼고, 일상 문장으로 풀어 쓰고 숫자 개수도 줄임(원래 9개 수치 → 5개로 축약, 나머지는 문장 속에
+// 녹여서 굳이 따로 안 셀 수 있게 함). 표(fund-row)가 아니라 문장 목록(li)으로 바꿔서 "표 읽기"가
+// 아니라 "설명 읽기"가 되게 함.
 function renderSignalDistribution(){
   const d = SIGNAL_DIST;
   return `
     <div class="sub" style="margin-top:8px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
-      <b>수익률 분포 자세히 보기 ${hintIcon('signalDist')}</b>
-      <span style="color:var(--sub);">(참고용 · 현재 워치리스트 ${d.tickers}종목 · ${esc(d.period)} · n=${d.n}신호 · 10거래일 보유 · 다음날 시가 진입. 위 공식 14종목·14년치 검증과는 <b>다른 표본</b>이라 숫자가 소폭 달라요)</span>
-      <div class="fund-row"><span>평균 / 중앙값 수익률</span><span class="v">${d.mean>=0?'+':''}${d.mean}% / ${d.median>=0?'+':''}${d.median}%</span></div>
-      <div class="fund-row"><span>승률 (95% 신뢰구간)</span><span class="v">${d.winRate}% (${d.winRateCI[0]}~${d.winRateCI[1]}%)</span></div>
-      <div class="fund-row"><span>평균수익률 95% 신뢰구간</span><span class="v">${d.meanCI[0]}%~${d.meanCI[1]}%</span></div>
-      <div class="fund-row"><span>하위 10% / 하위 5% 수익률</span><span class="v" style="color:var(--down)">${d.p10}% / ${d.p5}%</span></div>
-      <div class="fund-row"><span>최악 사례 / 최고 사례</span><span class="v">${d.worst}% / +${d.best}%</span></div>
-      <div class="fund-row"><span>보유중 최대낙폭 (평균/중앙값)</span><span class="v" style="color:var(--down)">${d.mae.mean}% / ${d.mae.median}%</span></div>
-      <div class="fund-row"><span>보유중 최대낙폭 하위 10% / 최악</span><span class="v" style="color:var(--down)">${d.mae.p10}% / ${d.mae.worst}%</span></div>
-      <div class="sub" style="margin-top:4px;">신뢰구간이 넓을수록(=표본이 작거나 변동성이 클수록) 이 숫자를 덜 믿어야 해요. 승률·평균은 전체 분포의 <b>요약치일 뿐</b>이라, 실제로는 위 최악사례(${d.worst}%)까지도 벌어졌었어요. 매매수수료·슬리피지·세금은 반영 안 됐어요.</div>
+      <b>이 신호, 실제로는 얼마나 벌고 잃었나 (쉽게 풀어보면) ${hintIcon('signalDist')}</b>
+      <span style="color:var(--sub);">과거 <b>${d.n}번</b>의 신호를 하나씩 따라가 봤어요(${esc(d.period)}, 워치리스트 ${d.tickers}종목, 10거래일 뒤 기준. 위 공식 14종목·14년치 검증과는 <b>다른 표본</b>이라 숫자가 소폭 달라요).</span>
+      <ul style="margin:8px 0 0;padding-left:18px;font-size:12.5px;line-height:1.8;">
+        <li><b>대략 10번 중 6~7번은 올랐어요</b>(승률 ${d.winRate}% - 다시 검증하면 대략 ${d.winRateCI[0]}~${d.winRateCI[1]}% 사이에서 움직일 수 있어요, 표본이 커도 완벽히 똑같은 숫자가 나오진 않아요).</li>
+        <li>오르고 내린 걸 다 합쳐 평균을 내면 <b>${d.mean>=0?'+':''}${d.mean}%</b>였어요(딱 중간값도 ${d.median>=0?'+':''}${d.median}%로 비슷해서, 극단적인 사례 몇 개가 평균을 왜곡시킨 건 아니에요).</li>
+        <li>운이 나빴던 축(대략 10번 중 가장 안 좋았던 1번꼴)은 <b style="color:var(--down)">${d.p10}%</b> 이상 잃었고, 역대 최악의 경우는 <b style="color:var(--down)">${d.worst}%</b>까지 빠진 적도 있어요.</li>
+        <li>최종 결과가 나오기 전에 <b>일시적으로 더 빠지는 것도 흔해요</b> - 평균적으로 <b style="color:var(--down)">${d.mae.mean}%</b>까지는 버텨야 했고, 운 나쁘면 일시적으로 <b style="color:var(--down)">${d.mae.worst}%</b>까지 물렸다가 나중에 회복한 적도 있어요.</li>
+      </ul>
+      <div class="sub" style="margin-top:6px;">쉽게 말해 <b>10번 중 6~7번은 벌지만, 나머지는 꽤 아플 수 있다</b>는 뜻이에요. 매매수수료·세금은 안 뺀 숫자라 실제로 거래하면 이보다 조금 낮아져요.</div>
     </div>`;
 }
 
@@ -1211,7 +1250,12 @@ function computeFairValue(ticker, price, fund, est){
       const totalUp = est.targetMean/price - 1;        // 목표가까지 총 상승률
       const fromEps = eps1/eps0 - 1;                   // 그중 실적 성장으로 설명되는 부분
       const fromPe  = (1+totalUp)/(1+fromEps) - 1;     // 나머지 = PER 확장/축소 기대
-      Object.assign(out.analyst, {impliedPe, totalUp, fromEps, fromPe, anchorPe: price/eps0});
+      // 2026-08-11 추가(사용자 요청): 보수/낙관 배수(0.64/1.55배)는 26종목 전부 동일한 고정값이라
+      // "이 종목에 대한 시장의 실제 시각"은 아님. 반면 목표가 하단/상단은 애널리스트들이 실제로
+      // 이 종목에 대해 제시한 값이라, 그걸 내년 EPS로 나누면 "시장이 실제로 보는 보수적/낙관적 PER"이 됨.
+      const impliedPeLow = est.targetLow!=null ? est.targetLow/eps1 : null;
+      const impliedPeHigh = est.targetHigh!=null ? est.targetHigh/eps1 : null;
+      Object.assign(out.analyst, {impliedPe, impliedPeLow, impliedPeHigh, totalUp, fromEps, fromPe, anchorPe: price/eps0});
     }
   }
 
@@ -1557,6 +1601,7 @@ let activeTab = '01';
 function openDetail(ticker){
   const r = results[ticker];
   if(!r || r.error) return;
+  openTicker = ticker;
   document.getElementById('detailTitle').textContent = `${ticker} · $${r.price.toFixed(2)}`;
   document.getElementById('detailSub').textContent = `${r.name} · ${r.theme}`;
   activeTab = '01';
@@ -1567,7 +1612,7 @@ function openDetail(ticker){
   renderTabContent(ticker);
   document.getElementById('detailOverlay').classList.add('open');
 }
-function closeDetail(){ document.getElementById('detailOverlay').classList.remove('open'); }
+function closeDetail(){ document.getElementById('detailOverlay').classList.remove('open'); openTicker = null; }
 
 function renderTabs(ticker){
   const tabs = [['01','판단'],['02','가치/퀄리티'],['03','실적'],['04','재무제표'],['05','전망']];
@@ -1601,6 +1646,7 @@ function renderTabContent(ticker){
         if(rc) drawTechRsiChart(rc, r.series.techSeries);
         if(mc) drawTechMacdChart(mc, r.series.techSeries);
       }
+      loadLongRiskProfile(ticker); // 하락 리스크 프로필 - 최대 10년치를 이 종목만 지연 로딩(백그라운드)
     }
     if(activeTab==='03'){
       setupEarningsChart(ticker);
@@ -1810,20 +1856,22 @@ function computeTtmPerHistory(ticker, price){
   }
   return points.length ? points : null;
 }
+// 2026-08-11 재작성: "이 부분도 쉽게 설명해달라" - "TTM"·"고정" 같은 용어 대신 구체적인
+// 숫자 예시(if 이 종목의 실제 값)로 바로 설명하도록 바꿈.
 function renderTtmPerHistory(ticker, price){
   const pts = computeTtmPerHistory(ticker, price);
   if(!pts || pts.length < 2) return ''; // 비교할 시점이 2개는 있어야 '변화'를 보여줄 의미가 있음
-  const rows = pts.map(p=>`<div class="fund-row"><span>${esc(p.endDate)} 마감 TTM 기준</span><span class="v">${p.per!=null ? p.per.toFixed(1)+'배' : '<span class="na">적자(계산 불가)</span>'}</span></div>`).join('');
-  const first = pts[0].per, lastP = pts[pts.length-1].per;
-  const changedNote = (first!=null && lastP!=null && Math.abs(lastP-first) >= 3)
-    ? `<span style="color:var(--warn);">이 기간 동안 ${first.toFixed(1)}배 → ${lastP.toFixed(1)}배로 꽤 바뀌었어요 - 주가가 아니라 <b>실적(EPS)이 바뀐 영향</b>이에요.</span>`
-    : `<span style="color:var(--sub);">이 기간 동안 큰 변화는 없었어요.</span>`;
+  const rows = pts.map(p=>`<div class="fund-row"><span>${esc(p.endDate)} 마감 기준</span><span class="v">${p.per!=null ? p.per.toFixed(1)+'배' : '<span class="na">적자(계산 불가)</span>'}</span></div>`).join('');
+  const first = pts[0], lastP = pts[pts.length-1];
+  const changedNote = (first.per!=null && lastP.per!=null && Math.abs(lastP.per-first.per) >= 3)
+    ? `<b style="color:var(--warn);">이 종목은 ${esc(first.endDate)} 마감 때 PER ${first.per.toFixed(1)}배 → ${esc(lastP.endDate)} 마감 때 ${lastP.per.toFixed(1)}배로 꽤 바뀌었어요.</b> 주가는 지금 가격($${price.toFixed(2)})으로 똑같이 놓고 계산한 거라, 이 차이는 <b>주가가 오르내려서가 아니라 그 사이 회사 실적(이익)이 바뀌었기 때문</b>이에요 - 실적 발표 때마다 이런 일이 생겨요.`
+    : `이 종목은 최근엔 PER이 크게 안 바뀌었어요(실적이 예상 범위 안에서 나왔다는 뜻이에요).`;
   return `
     <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
-      <b>지금 가격($${price.toFixed(2)}) 기준, 분기 실적마다 PER이 어떻게 바뀌었을지 ${hintIcon('perOverTime')}</b><br>
-      <span style="color:var(--sub);">주가는 지금 가격으로 고정하고 분기 말 TTM(최근 4개 분기 합산) EPS로만 나눈 값이에요 - "그때 실적이 지금 주가에 붙어있었다면 PER이 몇 배였을지"를 보여줘요.</span>
+      <b>같은 주가인데 PER이 왜 다르게 보일까 ${hintIcon('perOverTime')}</b><br>
+      <span style="color:var(--sub);">PER = 주가 ÷ 최근 1년 이익. 주가($${price.toFixed(2)})는 지금 그대로 두고, 분기 실적 발표 때마다 바뀌는 '최근 1년 이익'만 바꿔서 계산해봤어요 - 즉 "그때그때 실적이 지금 주가에 붙어있었다면 PER이 몇 배로 보였을지"예요.</span>
       ${rows}
-      <div style="margin-top:4px;">${changedNote}</div>
+      <div style="margin-top:6px;">${changedNote}</div>
     </div>`;
 }
 function renderFairValueSection(r){
@@ -1862,8 +1910,12 @@ function renderFairValueSection(r){
       <div class="fund-row"><span><b>기준 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
       <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
       <div class="sub" style="margin-top:6px;color:var(--sub);font-size:11px;">
-        산출식: 보수적=기준가×0.64, 낙관적=기준가×1.55. 이 두 배수는 대형주 13종목 13년치의 <b>과거 PER 분포</b>(트레일링PER÷3년평균PER)의 20/80백분위 실측값이에요${r.avgPe3Y!=null?` — 참고로 이 종목의 3년평균 PER은 <b>${r.avgPe3Y.toFixed(1)}배</b>예요(02 가치 탭에도 있어요)`:''}.
+        산출식: 보수적=기준가×0.64, 낙관적=기준가×1.55. 이 두 배수는 대형주 13종목 13년치의 <b>과거 PER 분포</b>(트레일링PER÷3년평균PER)의 20/80백분위 실측값이에요 — <b>26개 종목 전부에 똑같이 적용하는 통계적 기준</b>이에요${r.avgPe3Y!=null?` (참고로 이 종목의 3년평균 PER은 <b>${r.avgPe3Y.toFixed(1)}배</b>예요, 02 가치 탭에도 있어요)`:''}.
       </div>
+      ${fv.analyst && fv.analyst.impliedPeLow!=null && fv.analyst.impliedPeHigh!=null ? `
+      <div class="sub" style="margin-top:6px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
+        <b>참고: 이 종목에 대해 시장(애널리스트)이 실제로 보는 범위는 </b> — 목표주가 하단은 내년 실적 기준 PER <b>${fv.analyst.impliedPeLow.toFixed(1)}배</b>, 목표주가 상단은 PER <b>${fv.analyst.impliedPeHigh.toFixed(1)}배</b>를 깔고 있어요. 위 0.64/1.55배는 모든 종목에 똑같이 적용하는 일반 통계 기준이고, <b>이건 애널리스트들이 이 종목 하나만 놓고 실제로 제시한 목표가에서 역산한 값</b>이라 이 종목에 더 특화된 시각이에요(다만 애널리스트 목표가 자체가 낙관 편향이 있다는 건 감안하세요).
+      </div>` : ''}
       <div class="sub" style="margin-top:8px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
         주가가 <b>지금 그대로여도</b> 내년 실적이 예상대로 나오면 PER은
         <b>${w.anchorPe.toFixed(1)}배 → ${w.pe1y.toFixed(1)}배</b>가 돼요${w.growth>=0?' (가만히 있어도 그만큼 싸지는 셈)':' (이익이 줄어 오히려 비싸짐)'}.
@@ -1911,11 +1963,11 @@ function renderFairValueSection(r){
 
   return `
     <div class="chart-label" style="margin-top:18px;">밸류에이션 민감도 <span style="font-weight:400;color:var(--sub);">— EPS·PER 가정별 가격 범위 (PER 유지 시나리오, 참고치)</span> ${hintIcon('fairValue')}</div>
+    <div class="comment-box" style="background:var(--panel-2);color:#20242b;margin-bottom:10px;">📌 <b>지금 PER</b> &nbsp;${perNow||'조회 불가'}</div>
     <div class="fund-grid">
       <div class="fund-col"><h3>실적 기준 (내년 예상 EPS)</h3>${perBlock}</div>
       <div class="fund-col"><h3>애널리스트 목표가</h3>${analystBlock}</div>
     </div>
-    <div class="sub" style="margin-top:10px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">현재 PER 요약 &nbsp;·&nbsp; ${perNow||'조회 불가'}</div>
     ${renderTtmPerHistory(r.ticker, price)}
     ${fv.downside!=null ? `<div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
       <b>하방 시나리오</b> — 이익은 그대로인데 <b>밸류에이션만 과거 하위 20% 수준으로 눌리면</b> 약 <b>$${fv.downside.toFixed(0)}</b> (${rel(fv.downside)}). 분할매수 계획을 세울 때 "여기까지는 빠질 수 있다"의 기준으로 쓰세요.</div>` : ''}
@@ -2081,12 +2133,18 @@ function renderRelStrength(r){
   // 경고의 신뢰도는 그룹마다 다름(실측). 빅테크·SW에서만 확실히 갈렸고 반도체 쪽은 차이가 작았음 -
   // 같은 경고라도 근거의 세기가 다르므로 문구를 나눠서 정직하게 표시한다.
   const strongEvidence = rs.sector === '빅테크·SW';
-  const extra = [60,120].map(w=>relStrengthWindow(r, rs.sector, w)).filter(Boolean);
-  const extraLine = extra.length
-    ? `<br><span class="sub">참고(검증 안 됨 · 경고 기준 아님): ${extra.map(e=>`최근 ${e.window}일 ${sign(e.rel)}p ${e.rel>=0?'앞섬':'뒤처짐'}`).join(' · ')}</span>`
+  // 2026-08-11 추가: 20일 하나만으론 비교 폭이 좁다는 요청 - 10일(2주)을 추가하고 60/120일은
+  // "약 3개월"/"약 6개월"로 직관적인 단위를 병기함. 전부 매번 스캔 시점 가격으로 다시 계산되는
+  // '라이브' 값이라(캐시 아님) 날짜가 바뀌면 자동으로 값도 바뀜 - 그 사실과 기준일을 명시해서
+  // "이거 언제 계산된 거야?"라는 의문이 안 생기게 함.
+  const extraWins = [10,60,120].map(w=>({w, r:relStrengthWindow(r, rs.sector, w)})).filter(x=>x.r);
+  const winLabel = {10:'10일(2주)', 60:'60일(약 3개월)', 120:'120일(약 6개월)'};
+  const extraLine = extraWins.length
+    ? `<br><span class="sub">참고(검증 안 됨 · 경고 기준 아님): ${extraWins.map(({w,r:e})=>`최근 ${winLabel[w]} ${sign(e.rel)}p ${e.rel>=0?'앞섬':'뒤처짐'}`).join(' · ')}</span>`
     : '';
+  const asOfDate = r.series && r.series.dates ? r.series.dates[r.series.dates.length-1] : null;
   return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':'var(--panel-2)'};color:${weak?'#876000':'#4b5157'};margin-top:8px;">
-    <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일: 이 종목 ${sign(rs.mine)} ·
+    <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일(약 1개월): 이 종목 ${sign(rs.mine)} ·
     <b>${esc(rs.sector)}</b> 그룹 평균 ${sign(rs.bench)}(${rs.members}종목) →
     <b style="color:${rs.rel>=0?'var(--up)':'var(--down)'};">${sign(rs.rel)}p ${rs.rel>=0?'앞섬':'뒤처짐'}</b>
     ${weak ? `<br>⚠️ 그룹보다 <b>크게 뒤처져 있어요.</b> <b>그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황</b>이라,
@@ -2095,8 +2153,10 @@ function renderRelStrength(r){
         ? `5년치 검증에서 <b>빅테크·SW 그룹</b>은 이 구간의 신호 승률이 <b>51%</b>로, 그룹 평균(60%)보다 확실히 낮았어요(n=39).`
         : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`
     : ''}
-    <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · 최근 <b>20일</b> 수익률만 비교 · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span>
-    ${extraLine}</div>`;
+    <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span>
+    ${extraLine}
+    <br><span class="sub">🕐 <b>${asOfDate?esc(asOfDate):'-'} 종가 기준으로 방금 계산된 값</b>이에요 - 저장된 캐시가 아니라 조회할 때마다 그 시점 가격으로 다시 계산돼요. 그래서 날짜가 바뀌거나 다시 스캔하면 이 숫자도 자동으로 바뀌어요(직접 수정할 필요 없음).</span>
+  </div>`;
 }
 
 // ---- 단타 진입 카드: '지금 사야 하나'에 숫자로 답하는 부분 (2026-07-27 추가) ----
@@ -2124,7 +2184,13 @@ function renderTradePlan(r){
   } else if(es.kind==='watch'){
     stateNote = `조건에 가까워졌지만 아직 <b>신호는 아니에요</b>. 하락추세에서 과매도인 경우엔 <b>당일 반등이 확인돼야</b> 신호로 인정해요(떨어지는 칼날 회피).`;
   } else {
-    stateNote = `지금은 눌림목 구간이 아니에요. ${es.lastEntry>=0 ? `마지막 진입 자리는 <b>${es.since}거래일 전(${dates[es.lastEntry]})</b>이었어요.` : '조회된 기간에는 진입 자리가 없었어요.'}`;
+    // 2026-08-11 추가: "왜 신호가 안 뜨는지" 궁금해하는 질문(예: NVDA가 6/26 이후 계속 신호가
+    // 없었던 사례)에 바로 답할 수 있도록, 지금 RSI가 눌림목 기준까지 얼마나 남았는지 같이 보여줌.
+    const rsiNow = r.rsi;
+    const rsiGap = (rsiNow!=null && rsiNow > RSI_PULLBACK_HI)
+      ? ` 지금 RSI는 <b>${rsiNow.toFixed(1)}</b>로, 눌림목 기준(RSI ${RSI_PULLBACK_HI} 이하)까지 <b>${(rsiNow-RSI_PULLBACK_HI).toFixed(0)}포인트</b> 정도 더 빠져야 신호가 떠요 — 이 종목이 계속 오르기만 해서 신호가 뜰 자리 자체가 없었던 거예요, 오류가 아니에요.`
+      : (rsiNow!=null ? ` 지금 RSI는 <b>${rsiNow.toFixed(1)}</b>로 눌림목 기준에는 이미 들어와 있는데, 우상향(200일선 위) 조건 등 다른 조건이 아직 안 맞아요.` : '');
+    stateNote = `지금은 눌림목 구간이 아니에요.${rsiGap} ${es.lastEntry>=0 ? `마지막 진입 자리는 <b>${es.since}거래일 전(${dates[es.lastEntry]})</b>이었어요.` : '조회된 기간에는 진입 자리가 없었어요.'}`;
   }
 
   // 진입 계획 숫자 - 기준가는 '지금 산다면' 현재가
@@ -2166,18 +2232,25 @@ function renderTradePlan(r){
   // 섞여 있어서, 서로 다른 표본·시점의 숫자가 하나의 판단처럼 보였음(사용자 지적). ①"현재 신호
   // 상태+공식 검증치 기반 계획"과 ②"이 신호의 참고 근거(종목/그룹/오늘)"를 별개 chart-label 카드로
   // 나눠서 출처를 구분함 - 계산 로직은 그대로, 화면 배치만 바꿈.
+  // 2026-08-11 수정: 신호가 아예 없는 상태('none')인데도 "지금 산다면 진입가/-10%하단/보유기간"
+  // 같은 가정 수치를 매번 보여주는 게 혼란스럽다는 지적(사용자: "어차피 신호 없으면 안 들어갈 텐데") -
+  // 신호가 실제로 있거나(new) 방금 지나갔거나(cooldown) 임박한(watch) 경우에만 상세 계획을 보여주고,
+  // 'none'일 때는 배지+상태 설명만 간결하게 보여줌(과거 신호 성적은 아래 '최근 단타 신호'에서 확인).
+  const isActionable = es.kind==='new' || es.kind==='cooldown' || es.kind==='watch';
   const card1 = `
     <div class="chart-label" style="margin-top:18px;">단타 진입 판단 ${hintIcon('tradePlan')}</div>
     <div class="comment-box" style="background:${badgeBg};color:${badgeColor};">
       <span class="badge b-${badge.cls}" style="margin-right:6px;">${badge.label}</span> ${stateNote}
     </div>
+    ${isActionable ? `
     <div class="fund-col" style="margin-top:10px;"><h3>${(es.kind==='new'||es.kind==='cooldown') ? '지금 들어간다면 (숫자 · 14년치 공식 검증 기준)' : '참고: 지금 사는 경우의 기준선 <span style="font-weight:400;color:var(--sub);">(신호가 뜬 상태는 아니에요 · 14년치 공식 검증 기준)</span>'}</h3>${planRows}
       <div class="sub" style="margin-top:8px;">검증은 <b>손절 없이 10~20일 보유</b>한 기준이에요. 위 -10%는 손절선이 아니라 "여기까지 빠지면 과거 신호 중 나빴던 8.5%에 해당한다"는 <b>참고선</b>이에요.</div>
     </div>
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
       <b>신호가 떴는데 계속 빠지는 건 정상이에요.</b> 14년치 검증에서 신호 후 10일간 <b>평균 ${SIGNAL_STATS.avgMaxDrop}%까지는 흔히 더 빠졌고</b>, ${SIGNAL_STATS.severeShare}%는 -10%를 넘겨 빠졌어요. 그래도 10일 뒤에 보면 ${SIGNAL_STATS.winRate}%가 플러스였다는 뜻이지, "사자마자 오른다"는 뜻이 아니에요. 미리 알고 들어가야 흔들리지 않아요.
     </div>
-    ${renderSignalDistribution()}`;
+    ${renderSignalDistribution()}`
+    : `<div class="sub" style="margin-top:8px;">신호가 뜨면 여기에 진입가·하락 참고선·권장 보유기간이 나와요 - 지금은 신호 대기 상태라 가정 수치 대신 상태만 보여드려요. 과거 신호가 났을 때 실제로 어땠는지는 아래 「최근 단타 신호」에서 볼 수 있어요.</div>`}`;
 
   const card2 = `
     <div class="chart-label" style="margin-top:18px;">이 신호의 참고 근거 ${hintIcon('signalEvidence')}</div>
@@ -2186,7 +2259,7 @@ function renderTradePlan(r){
       <div class="fund-col"><h3>이 종목의 과거 성적 <span style="font-weight:400;color:var(--sub);font-size:11px;">(라이브·소표본)</span> ${hintIcon('backtest')}</h3>${perfRows}
         <div class="sub" style="margin-top:8px;">조회된 2년치 ${st10.n}건 기준의 <b>라이브 계산</b>이라 표본이 작아요. 위 공식 검증치(14년·14종목)가 더 믿을 만해요.</div>
       </div>
-      <div class="fund-col"><h3>그룹(섹터) 승률 <span style="font-weight:400;color:var(--sub);font-size:11px;">(5년치)</span></h3>${themeWinRateNote(r) || '<div class="sub">그룹 승률 데이터가 없어요.</div>'}</div>
+      <div class="fund-col"><h3>그룹(섹터) 승률 — ${esc(THEME_TO_SECTOR[r.theme] || '해당없음')} <span style="font-weight:400;color:var(--sub);font-size:11px;">(5년치)</span></h3>${themeWinRateNote(r) || '<div class="sub">그룹 승률 데이터가 없어요.</div>'}</div>
     </div>
     ${fitNote}
     ${renderRelStrength(r)}`;
@@ -2689,13 +2762,20 @@ function renderNewsSection(r){
 }
 
 // ---- 하락 리스크 프로필 ----
-function renderRiskSection(r){
+function renderRiskSection(r, isLong){
   const k = r.risk;
   if(!k) return '';
   const planNote = k.worstDrawdown <= -27.1
     ? `이 종목은 과거 <b>-27%(3단계 손절선)보다 더 큰 하락</b>을 겪은 적이 있어요. 분할매수 3단계로도 못 버티는 구간이 실제로 있었다는 뜻이니, 진입 비중을 그만큼 보수적으로 잡으세요.`
     : `과거 최대 하락이 분할매수 3단계 범위(-27%) 안에 있었어요. 다만 미래가 과거보다 얕으리란 보장은 없어요.`;
+  // 2026-08-11: 기본은 2년치로 먼저 그리고, loadLongRiskProfile()이 배경에서 최대 10년치를
+  // 받아와 이 블록을 그 값으로 갈아끼움(id="riskProfileBox") - 처음부터 10년치를 매 종목마다
+  // 받으면 전체 스캔이 느려지니 상세 패널을 열 때만 그 종목 하나만 지연 로딩함.
+  const loadingNote = !isLong
+    ? `<div class="sub" id="riskProfileLoading" style="margin-top:6px;">⏳ 더 긴 기간(최대 10년)의 데이터를 백그라운드에서 불러오는 중이에요 - 받아오면 자동으로 이 카드가 갱신돼요.</div>`
+    : '';
   return `
+    <div id="riskProfileBox">
     <div class="chart-label" style="margin-top:18px;">하락 리스크 프로필 <span style="font-weight:400;color:var(--sub);font-size:11px;">(조회된 ${k.years}년 가격 데이터 기준)</span> ${hintIcon('riskProfile')}</div>
     <div class="fund-grid">
       <div class="fund-col">
@@ -2711,6 +2791,8 @@ function renderRiskSection(r){
     </div>
     <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:8px;">
       ${planNote}${k.unrecovered?' 또한 아직 <b>전고점을 회복하지 못한</b> 하락 국면이 있어요.':''}
+    </div>
+    ${loadingNote}
     </div>`;
 }
 
@@ -3017,6 +3099,15 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
         ctx.globalAlpha = 1;
       }
     });
+    ctx.restore();
+  }
+
+  // 2026-08-11 추가(사용자 요청): 차트에 현재 PER 표시. anchorPe = 현재가÷올해 예상 EPS
+  // (밸류에이션 민감도 섹션과 동일 계산, computeFairValue 참고) - 새 계산 아니고 기존 값 재사용.
+  if(fv && fv.fwd && fv.fwd.anchorPe!=null){
+    ctx.save();
+    ctx.font = 'bold 19px monospace'; ctx.textAlign = 'right'; ctx.fillStyle = '#4b5157';
+    ctx.fillText(`올해 실적 기준 PER ${fv.fwd.anchorPe.toFixed(1)}배`, W-pad-4, pad*0.75);
     ctx.restore();
   }
 
