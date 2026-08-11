@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.4000015258789,
+      "current": 82.36000061035156,
       "prevClose": 82.12999725341797,
-      "changeAbs": 0.2700042724609375,
-      "changePct": 0.3287523213081574,
+      "changeAbs": 0.23000335693359375,
+      "changePct": 0.28004792965462055,
       "pctRank": 69.87281399046104,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.04736276917511,
-      "ma20": 82.17149963378907,
-      "ma60": 83.06116663614908,
-      "chg1m": 4.260002136230469,
-      "chg3m": -15.669998168945312,
-      "chg1mPct": 5.451756039807202,
-      "chg3mPct": -15.978380970436893,
+      "drawdown1y": -27.082777480647547,
+      "ma20": 82.1694995880127,
+      "ma60": 83.06049995422363,
+      "chg1m": 4.220001220703125,
+      "chg3m": -15.709999084472656,
+      "chg1mPct": 5.400564696270227,
+      "chg3mPct": -16.01916909693003,
       "lastDate": "2026-08-11",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.76899719238281,
+      "current": 99.81900024414062,
       "prevClose": 99.80999755859375,
-      "changeAbs": -0.0410003662109375,
-      "changePct": -0.041078416204617295,
-      "pctRank": 33.94276629570747,
+      "changeAbs": 0.009002685546875,
+      "changePct": 0.009019823431605584,
+      "pctRank": 34.41971383147854,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.8118328972642428,
-      "ma20": 100.51895027160644,
-      "ma60": 100.29098358154297,
-      "chg1m": -1.5110015869140625,
-      "chg3m": 1.8289947509765625,
-      "chg1mPct": -1.4919052183311572,
-      "chg3mPct": 1.867464473539073,
+      "drawdown1y": -1.7626221390146135,
+      "ma20": 100.52145042419434,
+      "ma60": 100.29181696573893,
+      "chg1m": -1.46099853515625,
+      "chg3m": 1.878997802734375,
+      "chg1mPct": -1.4425341160794916,
+      "chg3mPct": 1.9185192524969634,
       "lastDate": "2026-08-11",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4488.89990234375,
+      "current": 4473.2001953125,
       "prevClose": 4361.7998046875,
-      "changeAbs": 127.10009765625,
-      "changePct": 2.9139369835282034,
-      "pctRank": 92.36883942766295,
+      "changeAbs": 111.400390625,
+      "changePct": 2.554000541365544,
+      "pctRank": 91.97138314785374,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.596796315268623,
-      "ma20": 4124.390002441406,
-      "ma60": 4224.483325195312,
-      "chg1m": 491.89990234375,
-      "chg3m": -229.80029296875,
-      "chg1mPct": 12.306727604296972,
-      "chg3mPct": -4.869991384428933,
+      "drawdown1y": -15.891992376481156,
+      "ma20": 4123.605017089843,
+      "ma60": 4224.221663411458,
+      "chg1m": 476.2001953125,
+      "chg3m": -245.5,
+      "chg1mPct": 11.91394033806605,
+      "chg3mPct": -5.20270391926736,
       "lastDate": "2026-08-11",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,11 +219,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
+      "datetime": 1786412460,
+      "headlineKo": "유가 상승, 미국-이란 교착상태 속에 아시아 증시 표류 - Reuters"
+    },
+    {
+      "headline": "Gold rises for third straight session, inflation prints in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ3pfajk5NldmMDliSlhNU3ZYd1J6UGt3cWM4ZHBzTkxnYTVGbnVWU0ZOVFFqLUk2eFYyQnhxdUxiUFp5Y0lXTnpEOGIwMHBveTR5bzBvZmxjWTA4TmR6OUt0U1ZSd2V0dDhkMlg4TkpFdlFCSEtJN3BXYXJQMFZLZDgyZjR6UTRXeU5fRFZ1MHM1WXpCMEtTOF9CNmptQTJmNzBQN1JyMA?oc=5",
+      "datetime": 1786409280,
+      "headlineKo": "금값은 3회 연속 상승, 인플레이션에 주목 - Reuters"
+    },
+    {
+      "headline": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
+      "datetime": 1786408680,
+      "headlineKo": "미국-이란 평화 협정 희망이 어두워지면서 유가는 일주일 최고치에 근접했습니다. - 로이터 통신"
+    },
+    {
+      "headline": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
+      "datetime": 1786408320,
+      "headlineKo": "트럼프 대통령은 이란의 위협 때문에 비밀 비행기를 타고 터키로 떠났다고 워싱턴포스트(WP)가 로이터통신을 인용해 보도했다."
+    },
+    {
       "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
       "datetime": 1786403950,
       "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 종료됩니다 - Reuters"
+    },
+    {
+      "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
+      "datetime": 1786399639,
+      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
+    },
+    {
+      "headline": "North Korea condemns Japan's white paper, calling it 're-invasion paper' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONC1NamZsbVNNSlRKNTh5ZGwzc3FHVTZ3VjVqek1JdHVGZXV3b1Q4MlFBdC1zM2E3YzZqYmhSejcxVUN0RXNGVktNV0ZiRDIyRUJtcUhBZThZbW9SVVdnb2pxMzFtX0NOdVJ4eGNTMHRFa1dNb1VudWtDeXA3WlY4eWpwdkx4bmpFZ0hGWkgwMU12SGFhcWJyUlF4Y2kxRUpQUTdHb0ZOWlJnZDJ6MTZ5Y0VUVF9CbFpiUHh3S2pxanE3UGNsclN5MDhSRQ?oc=5",
+      "datetime": 1786398960,
+      "headlineKo": "북한, 일본 백서 '재침략 문서' 비난 - 로이터통신"
     },
     {
       "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
@@ -259,50 +301,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX01YNGdkRGZ6S1FUOFNoaHVnTGRjSFJISXI1QTVqVDFfMzI0bTBhZFhrcDJRNTkzcmh0YmpjN1RMQzZqak5GSldnMXVMMnpkTTRoMWZQQ01tLUFhLUpzT1NPWDNSQzZGZmZHVnR3ZXZGbThMNHpVdFZkSjZOd21EUE96TWI0czAyUkVGR0dJZFlsZDVaNEkxbWVvNmlyb19nZTlEOEVoa1VaMzI3MDNGWA?oc=5",
       "datetime": 1786382394,
       "headlineKo": "이란 최고 보안 기관의 장관에 모센 레자에이 임명 - 로이터"
-    },
-    {
-      "headline": "Trump says Iran must pay compensation for those it has killed and wounded - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUhMZEhSUHlDeTNnSy1ULU9POGxpNFhwbG1UQml2MExiQUowVVJTMm9lYzZLR1NRRnBXUnZha1o2X05pVjRzMGxRSDFtazRNYzBrQ20zb3FUM3I1N1ByUmdrWUdpLUw3OHkwVmlSQzMxYnFQdzJDcEhKSlhjbWFCWGxzUkZ4aXhaUEtXLUxsZ05HODJya0VUTHFoNkQtOU9hbkZfN2FDdzRwaU5ybUVLMUVpbE9kSWo5REo0?oc=5",
-      "datetime": 1786382023,
-      "headlineKo": "트럼프 \"이란은 죽고 다친 사람들에 대해 보상해야 한다\" - 로이터"
-    },
-    {
-      "headline": "Austria breaks up sanctions-evasion scheme supplying Russian arms industry - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQemhDNHRGckVHU3hGazZNNld4QTVOcjd0SUVzUTdrRHZkQXUtcUZmOC1DQkRhX2VMV3BuZExJSl9xZXM1YVVObjk4Z3RZeTBnNnhrWkQtZzdRSkFtM2hCZl9NUFpVemlTbThiUzRURmV4UURfOTlpN0Z2QTdodEJQR1pBWVJzNl90eEt5TUR5VWRSZy10TWtFVmo1Y1kzTGRQd3BKaEVkckJEampOMFdjVi1tN3ZvMlk5WHdKdTdSeVhzSnpZYUpudG9wWDAxVEVfSFhJ?oc=5",
-      "datetime": 1786377944,
-      "headlineKo": "오스트리아, 러시아 무기 산업에 공급하는 제재 회피 계획 중단 - 로이터 통신"
-    },
-    {
-      "headline": "We're buying more of an AI stock that's under pressure to start the week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/10/were-buying-more-of-an-ai-stock-thats-under-pressure-to-start-the-week.html",
-      "datetime": 1786376116,
-      "headlineKo": "우리는 한 주를 시작해야 한다는 압박을 받고 있는 AI 주식을 더 많이 매수하고 있습니다."
-    },
-    {
-      "headline": "HHS moves to tighten oversight of food ingredients as safety concerns mount",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/10/hhs-makes-announcements-on-gras-ultraprocessed-food.html",
-      "datetime": 1786374204,
-      "headlineKo": "HHS는 안전 문제가 증가함에 따라 식품 성분에 대한 감독을 강화합니다."
-    },
-    {
-      "headline": "The Club's top 10 things to watch in the stock market Monday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/10/the-clubs-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "datetime": 1786367960,
-      "headlineKo": "월요일 주식 시장에서 주목해야 할 클럽의 상위 10가지 항목"
-    },
-    {
-      "headline": "Gulf Shares mixed on uncertainty over Hormuz deal - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTZaVnh5WHdNVDhpendOT1hqODUybGJqeDVVSnluX1JMUkE1eHI5SnRYUEExYW1zTk1VLUZGTV9xQWs4Wm1iSEFBNTBWUGQ5VGN0dXlPX0czRHJkSlNsUHZ5LWozM0FJVVM1dWktRjVRT1BpcDhtTTdMcExLQUZ1bGVRQXNuLXBaTm9jS1o1RzUzVlM1TFpCenhGVThCd1JhSFdWY0txazh3WW11?oc=5",
-      "datetime": 1786366842,
-      "headlineKo": "걸프주, 호르무즈 거래 불확실성에 혼조세 - Reuters"
     }
   ],
-  "_fetched_at": 1786414193.451027,
-  "_updated_label": "2026-08-11 11:10"
+  "_fetched_at": 1786417984.9546597,
+  "_updated_label": "2026-08-11 12:13"
 };
