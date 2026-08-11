@@ -3478,7 +3478,14 @@ let earningsMode = 'quarterly';
 function ttmFallbackHtml(r){
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || (est.ttmRevenue==null && est.ttmNetIncome==null)){
-    return `<div class="sub">이 종목은 실적 시계열 데이터를 조회하지 못했어요 (해외 상장/ADR은 SEC 공시가 없어 조회 불가가 정상입니다).</div>`;
+    // 2026-08-11 수정: 예전엔 원인을 "해외상장/ADR" 하나로만 단정해서, 관심종목이 아니라서
+    // 애초에 캐시가 없는 미국 상장 종목(NFLX 등)까지 "ADR이라 그렇다"는 틀린 이유를 보여줬음
+    // (사용자 지적: 즐겨찾기 밖 종목 조회 시 데이터 없는 경우가 많다고 함 - 실측해보니 메시지가
+    // 실제 원인과 다르게 표시되고 있었음). isAdHocTicker()로 진짜 원인부터 구분해서 보여줌.
+    const reason = isAdHocTicker(r.ticker)
+      ? `이 종목은 관심종목이 아니라 실적 캐시가 없어요 - 밸류에이션/실적/전망 같은 펀더멘털은 관심종목(워치리스트)만 서버에서 미리 조회해둬요. 위 01 판단 탭의 가격 기반 점수·기술적 판단은 그대로 유효해요. 이 종목을 계속 보고 싶으면 config.json의 워치리스트에 추가하는 게 방법이에요(요청하면 대신 추가해드려요).`
+      : `이 종목은 실적 시계열 데이터를 조회하지 못했어요 (해외 상장/ADR은 SEC 공시가 없어 조회 불가가 정상입니다).`;
+    return `<div class="sub">${reason}</div>`;
   }
   const cur = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
   return `
@@ -4041,7 +4048,12 @@ function tabForecast(r){
   const analystLogHtml = renderAnalystLog(r.ticker);
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || est.targetMean==null){
-    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).</div>`;
+    // 2026-08-11 수정: ttmFallbackHtml()과 동일한 이유로 - 관심종목이 아니라서 캐시가 아예
+    // 없는 경우와, 관심종목인데 야후 컨센서스 조회 자체가 실패한 경우를 구분해서 보여줌.
+    const reason = isAdHocTicker(r.ticker)
+      ? `이 종목은 관심종목이 아니라 애널리스트 컨센서스 캐시가 없어요 - 밸류에이션/실적/전망 같은 펀더멘털은 관심종목(워치리스트)만 서버에서 미리 조회해둬요. 이 종목을 계속 보고 싶으면 config.json의 워치리스트에 추가하는 게 방법이에요(요청하면 대신 추가해드려요).`
+      : `이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).`;
+    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>`;
   }
   const upside = (est.targetMean - r.price) / r.price * 100;
   const revCurrency = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
