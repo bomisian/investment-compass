@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.529999732971191,
+      "current": 15.4399995803833,
       "prevClose": 15.460000038146973,
-      "changeAbs": 0.06999969482421875,
-      "changePct": 0.4527793961933837,
-      "pctRank": 25.477707006369428,
+      "changeAbs": -0.020000457763671875,
+      "changePct": -0.12936906671618043,
+      "pctRank": 24.761146496815286,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.983896571453215,
-      "ma20": 17.030999851226806,
-      "ma60": 17.189833275477092,
-      "chg1m": -1.630000114440918,
-      "chg3m": -2.4600000381469727,
-      "chg1mPct": -9.498835250203905,
-      "chg3mPct": -13.674263865730287,
+      "drawdown1y": -50.2737521424655,
+      "ma20": 17.026499843597414,
+      "ma60": 17.18833327293396,
+      "chg1m": -1.7200002670288086,
+      "chg3m": -2.5500001907348633,
+      "chg1mPct": -10.023311668549931,
+      "chg3mPct": -14.174542652461462,
       "lastDate": "2026-08-11",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.05999755859375,
+      "current": 81.7300033569336,
       "prevClose": 82.12999725341797,
-      "changeAbs": 1.9300003051757812,
-      "changePct": 2.349933483159177,
-      "pctRank": 74.5425616547335,
+      "changeAbs": -0.399993896484375,
+      "changePct": -0.48702533770963763,
+      "pctRank": 68.33731105807477,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.577689393729585,
-      "ma20": 82.2544994354248,
-      "ma60": 83.08883323669434,
-      "chg1m": 5.9199981689453125,
-      "chg3m": -14.010002136230469,
-      "chg1mPct": 7.576143095964192,
-      "chg3mPct": -14.285716508439904,
+      "drawdown1y": -27.640543988340905,
+      "ma20": 82.1379997253418,
+      "ma60": 83.05,
+      "chg1m": 3.5900039672851562,
+      "chg3m": -16.339996337890625,
+      "chg1mPct": 4.59432300400138,
+      "chg3mPct": -16.661564585232675,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.84300231933594,
+      "current": 99.8010025024414,
       "prevClose": 99.80999755859375,
-      "changeAbs": 0.0330047607421875,
-      "changePct": 0.03306758997044555,
-      "pctRank": 34.60620525059666,
+      "changeAbs": -0.00899505615234375,
+      "changePct": -0.009012179513443207,
+      "pctRank": 34.28798727128083,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7390003743741889,
-      "ma20": 100.5226505279541,
-      "ma60": 100.29221700032552,
-      "chg1m": -1.4369964599609375,
-      "chg3m": 1.9029998779296875,
-      "chg1mPct": -1.418835384360886,
-      "chg3mPct": 1.9430261695859967,
+      "drawdown1y": -1.7803347082411713,
+      "ma20": 100.52055053710937,
+      "ma60": 100.29151700337728,
+      "chg1m": -1.4789962768554688,
+      "chg3m": 1.8610000610351562,
+      "chg1mPct": -1.4603043983821586,
+      "chg3mPct": 1.9001429596129746,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4434.0,
+      "current": 4449.5,
       "prevClose": 4361.7998046875,
-      "changeAbs": 72.2001953125,
-      "changePct": 1.655284482220127,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 87.7001953125,
+      "changePct": 2.0106423779067333,
+      "pctRank": 91.8854415274463,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.62905984098726,
-      "ma20": 4121.645007324219,
-      "ma60": 4223.568326822917,
-      "chg1m": 437.0,
-      "chg3m": -284.7001953125,
-      "chg1mPct": 10.933199899924944,
-      "chg3mPct": -6.033445303334121,
+      "drawdown1y": -16.33761880073812,
+      "ma20": 4122.420007324219,
+      "ma60": 4223.82666015625,
+      "chg1m": 452.5,
+      "chg3m": -269.2001953125,
+      "chg1mPct": 11.320990743057292,
+      "chg3mPct": -5.704965015152271,
       "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Oil climbs 2%, extending gains on dimming U.S.-Iran peace hopes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
+      "datetime": 1786443369,
+      "headlineKo": "미국과 이란의 평화 희망이 어두워지면서 유가는 2% 상승 - 로이터"
+    },
+    {
       "headline": "Wall Street just endorsed Jensen Huang's 'big concept' for AI. What now?",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/11/wall-street-endorsed-jensen-huangs-big-concept-for-ai-what-now.html",
@@ -226,18 +233,32 @@ const MARKET_DATA = {
       "headlineKo": "월스트리트는 AI에 대한 Jensen Huang의 '큰 개념'을 승인했습니다. 지금은 무엇입니까?"
     },
     {
-      "headline": "US-Iran standoff sends oil up, dents stocks - Reuters",
+      "headline": "Trump boarded secret Turkey flight via catering truck due to Iran threat – media - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
-      "datetime": 1786437850,
-      "headlineKo": "미국-이란 대립으로 석유 상승, 주가 하락 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
+      "datetime": 1786440224,
+      "headlineKo": "트럼프, 이란 위협에 케이터링 트럭 타고 비밀 터키 비행기 탑승 - 언론 - 로이터 통신"
     },
     {
       "headline": "Gulf shipping traffic via Strait of Hormuz falls to six vessels - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3lVMjZBYTN2WlJSTnRXUVlyRmd5dXYxNnV0ekRtTUg4VEF5cC0yM3NoV1lNNEhoTF9wandNSUNLMEFyeHNnU0w4Z2NuOXhKUzdCMlAtdms2SGxpV0t0WGNlcl9MaTdYSTZVMlh5bGVBM0ZnNUVCcVhKWWF2VU1sdTVadEV6M2s0X0tWWF9wWWhlV3h2dlBSaUFHM2VMNTdy?oc=5",
-      "datetime": 1786424413,
+      "datetime": 1786423440,
       "headlineKo": "호르무즈 해협을 통과하는 걸프만 해상 운송량이 6척으로 감소 - Reuters"
+    },
+    {
+      "headline": "Rupee retreats to near two-week low as US-Iran standoff pushes oil higher - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcHRMTjAwM25seVJoUTJ3RmZHV25xUEFFYkx6YzFpeUZ6b0tJX3BUSlp3RGNIQW9tTzRub1BoVGVDUU8yNmNxSW5ZaXNCVklLOGRWRDBVYTMtYmtSXzdzMnR2OV9zRlU1UmVwV1ZTbzNfMUpEZ0NUdlNHWnhDcm1BOWRzX0duWE1YM2RtajE2ZHN1czlfUVpNbnl3?oc=5",
+      "datetime": 1786417140,
+      "headlineKo": "미국-이란의 대립으로 유가가 상승함에 따라 루피는 거의 2주 최저치로 후퇴했습니다 - Reuters"
+    },
+    {
+      "headline": "US-Iran standoff sends oil up, dents stocks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
+      "datetime": 1786412460,
+      "headlineKo": "미국-이란 대립으로 석유 상승, 주가 하락 - Reuters"
     },
     {
       "headline": "Gold eases from over two-month high as rising oil prices cloud rate outlook - Reuters",
@@ -245,27 +266,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ3pfajk5NldmMDliSlhNU3ZYd1J6UGt3cWM4ZHBzTkxnYTVGbnVWU0ZOVFFqLUk2eFYyQnhxdUxiUFp5Y0lXTnpEOGIwMHBveTR5bzBvZmxjWTA4TmR6OUt0U1ZSd2V0dDhkMlg4TkpFdlFCSEtJN3BXYXJQMFZLZDgyZjR6UTRXeU5fRFZ1MHM1WXpCMEtTOF9CNmptQTJmNzBQN1JyMA?oc=5",
       "datetime": 1786409280,
       "headlineKo": "유가 상승으로 금리 전망이 불투명해지면서 금값이 2개월여 최고치에서 하락했습니다 - Reuters"
-    },
-    {
-      "headline": "Oil rises 2% to more than one-week high as U.S.-Iran peace hopes dim - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
-      "datetime": 1786408680,
-      "headlineKo": "미국과 이란의 평화가 어두워지길 바라면서 유가는 2% 상승해 1주 최고치를 기록했습니다."
-    },
-    {
-      "headline": "Trump boarded secret Turkey flight via catering truck due to Iran threat – media - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
-      "datetime": 1786408320,
-      "headlineKo": "트럼프, 이란 위협에 케이터링 트럭 타고 비밀 터키 비행기 탑승 - 언론 - 로이터 통신"
-    },
-    {
-      "headline": "Oil prices rally, Wall Street retreats with Hormuz, inflation in focus - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0JfVHdob1VJM3o3c2RjRHBySGdOb0h0OFVfVTNUdGo5ems0NjhoaGhMaVhpWG9iR3J4dlJkZVBlYVgwS0w2SUd6ZGZiLUtMUndydTZycjNJQ1l0MENqTmdpOTFycEZBRkJ3ZUEyWlM3RERCOGhoYk5ISEdLZnNIUm9HYw?oc=5",
-      "datetime": 1786404206,
-      "headlineKo": "유가 상승, 월스트리트는 호르무즈와 함께 후퇴, 인플레이션에 초점 - 로이터 통신"
     },
     {
       "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
@@ -303,6 +303,6 @@ const MARKET_DATA = {
       "headlineKo": "가자 평화위원회 관계자는 계획이 여전히 작동 중이라고 말했습니다-로이터"
     }
   ],
-  "_fetched_at": 1786443706.9775534,
-  "_updated_label": "2026-08-11 19:22"
+  "_fetched_at": 1786447356.220633,
+  "_updated_label": "2026-08-11 20:23"
 };
