@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.12000274658203,
+      "current": 82.26000213623047,
       "prevClose": 78.18000030517578,
-      "changeAbs": 3.94000244140625,
-      "changePct": 5.0396551880614515,
-      "pctRank": 69.13285600636436,
+      "changeAbs": 4.0800018310546875,
+      "changePct": 5.218728338613958,
+      "pctRank": 69.53062848050915,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.295258994816606,
-      "ma20": 82.01799964904785,
-      "ma60": 83.3738333384196,
-      "chg1m": 10.709999084472656,
-      "chg3m": -13.299995422363281,
-      "chg1mPct": 14.997897402651239,
-      "chg3mPct": -13.93837316870941,
-      "lastDate": "2026-08-10",
+      "drawdown1y": -27.171310881995858,
+      "ma20": 82.02499961853027,
+      "ma60": 83.3761666615804,
+      "chg1m": 10.849998474121094,
+      "chg3m": -13.159996032714844,
+      "chg1mPct": 15.19394751113586,
+      "chg3mPct": -13.791654040292991,
+      "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.79199981689453,
+      "current": 99.76699829101562,
       "prevClose": 99.5999984741211,
-      "changeAbs": 0.1920013427734375,
-      "changePct": 0.1927724354567384,
-      "pctRank": 34.12887828162291,
+      "changeAbs": 0.16699981689453125,
+      "changePct": 0.16767050145881532,
+      "pctRank": 33.969769291964994,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7891947471082137,
-      "ma20": 100.57660064697265,
-      "ma60": 100.2758669535319,
-      "chg1m": -1.1780014038085938,
-      "chg3m": 1.9520034790039062,
-      "chg1mPct": -1.1666845494372973,
-      "chg3mPct": 1.9950976615561782,
-      "lastDate": "2026-08-10",
+      "drawdown1y": -1.8138001262330339,
+      "ma20": 100.57535057067871,
+      "ma60": 100.27545026143392,
+      "chg1m": -1.2030029296875,
+      "chg3m": 1.927001953125,
+      "chg1mPct": -1.1914458900103821,
+      "chg3mPct": 1.9695441795297037,
+      "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4456.0,
+      "current": 4468.10009765625,
       "prevClose": 4340.7001953125,
-      "changeAbs": 115.2998046875,
-      "changePct": 2.6562489805679665,
+      "changeAbs": 127.39990234375,
+      "changePct": 2.935008100336635,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.215401590311053,
-      "ma20": 4107.710021972656,
-      "ma60": 4229.2066650390625,
-      "chg1m": 351.89990234375,
-      "chg3m": -264.39990234375,
-      "chg1mPct": 8.57434989328626,
-      "chg3mPct": -5.601218282638966,
-      "lastDate": "2026-08-10",
+      "drawdown1y": -15.987887716243076,
+      "ma20": 4108.315026855469,
+      "ma60": 4229.408333333334,
+      "chg1m": 364.0,
+      "chg3m": -252.2998046875,
+      "chg1mPct": 8.869179389846543,
+      "chg3mPct": -5.344881999557481,
+      "lastDate": "2026-08-11",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -219,18 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "China is balancing Asia's crude oil demand by itself - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNN0lBeUJuUi1Nek03cm1rOF9xMFhxS2RNa1NUNkxqQk9UT1dYOENkMHduLUx3ei12d3VQZmxLSlV6cFd3cDZXc05JcnJ3YnRXRjl2b3VMb2M0T1R3OUpVUnhfVWNxY1d0akVsQ1U0V1hkOEE1eUZWN2FySzNXcHRmLXJpNlR2SWlRekRYbkVld1VqNDI5S0RFdWFVUHBJQXF2bl9FMDZJUmotVzlfZlBidUhVTWpRTVMzYWZlTQ?oc=5",
-      "datetime": 1786399344,
-      "headlineKo": "중국은 스스로 아시아 원유 수요의 균형을 맞추고 있다 - Reuters"
-    },
-    {
-      "headline": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
+      "headline": "Wall Street ends down as expectations of Hormuz deal fade - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
-      "datetime": 1786397247,
-      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 종료됩니다 - Reuters"
+      "datetime": 1786403950,
+      "headlineKo": "월스트리트는 호르무즈 거래에 대한 기대가 사라지면서 끝났다 - reuters.com"
     },
     {
       "headline": "Meta's latest model advances Zuckerberg's vision for personal AI assistants",
@@ -240,25 +233,25 @@ const MARKET_DATA = {
       "headlineKo": "Meta의 최신 모델은 개인 AI 비서에 대한 Zuckerberg의 비전을 발전시킵니다."
     },
     {
-      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - Reuters",
+      "headline": "Who is Iran's Mohsen Rezaei, the hardliner appointed to key security role? - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnBEVG1SUHZxZmRmdkNDQzUwSnFRTEF2SVFBWUF6SmZlTDZlb0tGa1V1dE5OZFFGVU5EQXhHd0QteldVRkhySVprMVd2TFh5aFA5S2thQjFKX1hsajBlSHBTM2tFNkRuVmpTR3ExSUVQcEcyVExxNVpRZVkwZnBFT1hpV01BcDc5anBpZmF3MHkwd05UZ3BWWTR5TTlaQXdFSkNsX19IMzl3UTZMVmx5RFhsRjdJNHRfMmc?oc=5",
       "datetime": 1786382411,
-      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? - 로이터"
+      "headlineKo": "핵심 안보 역할에 임명된 이란의 강경파 모센 레자에이는 누구인가? -reuters.com"
     },
     {
-      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - Reuters",
+      "headline": "Mohsen Rezaei appointed as secretary of Iran's top security body - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX01YNGdkRGZ6S1FUOFNoaHVnTGRjSFJISXI1QTVqVDFfMzI0bTBhZFhrcDJRNTkzcmh0YmpjN1RMQzZqak5GSldnMXVMMnpkTTRoMWZQQ01tLUFhLUpzT1NPWDNSQzZGZmZHVnR3ZXZGbThMNHpVdFZkSjZOd21EUE96TWI0czAyUkVGR0dJZFlsZDVaNEkxbWVvNmlyb19nZTlEOEVoa1VaMzI3MDNGWA?oc=5",
       "datetime": 1786382394,
-      "headlineKo": "이란 최고 보안 기관의 장관에 모센 레자에이 임명 - 로이터"
+      "headlineKo": "모흐센 레자에이, 이란 최고 보안 기관의 장관으로 임명 - reuters.com"
     },
     {
-      "headline": "Trump says Iran must pay compensation for those it has killed and wounded - Reuters",
+      "headline": "Trump says Iran must pay compensation for those it has killed and wounded - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUhMZEhSUHlDeTNnSy1ULU9POGxpNFhwbG1UQml2MExiQUowVVJTMm9lYzZLR1NRRnBXUnZha1o2X05pVjRzMGxRSDFtazRNYzBrQ20zb3FUM3I1N1ByUmdrWUdpLUw3OHkwVmlSQzMxYnFQdzJDcEhKSlhjbWFCWGxzUkZ4aXhaUEtXLUxsZ05HODJya0VUTHFoNkQtOU9hbkZfN2FDdzRwaU5ybUVLMUVpbE9kSWo5REo0?oc=5",
       "datetime": 1786382023,
-      "headlineKo": "트럼프 \"이란은 죽고 다친 사람들에 대해 보상해야 한다\" - 로이터"
+      "headlineKo": "트럼프 “이란은 죽고 다친 사람들에 대해 보상해야 한다” - reuters.com"
     },
     {
       "headline": "We're buying more of an AI stock that's under pressure to start the week",
@@ -282,6 +275,13 @@ const MARKET_DATA = {
       "headlineKo": "월요일 주식 시장에서 주목해야 할 클럽의 상위 10가지 항목"
     },
     {
+      "headline": "Gulf Shares mixed on uncertainty over Hormuz deal - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNTZaVnh5WHdNVDhpendOT1hqODUybGJqeDVVSnluX1JMUkE1eHI5SnRYUEExYW1zTk1VLUZGTV9xQWs4Wm1iSEFBNTBWUGQ5VGN0dXlPX0czRHJkSlNsUHZ5LWozM0FJVVM1dWktRjVRT1BpcDhtTTdMcExLQUZ1bGVRQXNuLXBaTm9jS1o1RzUzVlM1TFpCenhGVThCd1JhSFdWY0txazh3WW11?oc=5",
+      "datetime": 1786366842,
+      "headlineKo": "걸프주, 호르무즈 거래 불확실성에 혼조세 - reuters.com"
+    },
+    {
       "headline": "Trump's Gaza plan hinges on Hamas disarmament, Israeli withdrawals - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFducWRWa3BFR0MtLTM1TkdwRG82VDAwZndhU3Q3Y3piejFoR3pJWlZpTkpZOWIxSXo0QldwZmZDWkNta0t0c183OVcwYTg4b0Q5Qzc1YmFpTVNIV2IwbERDS1Fsby1WN2JVbkRMa05RdXJCTF9zMGZ0RkVUVXptb3B5T2hBTm1fclJGV0lxblVKSFhuY2FTbXBXRTFPYVNWajZEOE0tS0NYdGR4OGdKeUh4TjVjZw?oc=5",
@@ -296,13 +296,13 @@ const MARKET_DATA = {
       "headlineKo": "Santoli: 주식은 승리의 길로 돌아왔습니다. 하지만 7월의 짧은 고통이 시장의 신들을 만족시키기에 충분했을까?"
     },
     {
-      "headline": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - Reuters",
+      "headline": "Iran says no reason to fear Pakistan-Turkey-Saudi security pact - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNT0ZKNWFNbV9WOEFpMnZYa3NkbzBGWUNiVnVsMlJtT1IzRDliNHJIM0g0eUZ0N2lNcWxSSEd5QVV4QW1pZFRCSTQ5WndIdGtVRTFMcmYxUVVVZzVQazFQRy1vNG5Vd1hhbG9ObG14SnJnbl94VDJLZnJ6dmN4ZUJKTXRiTFBrTkdkN0FyWkFua3FhR3B6aHN5Z05ETmpNUkxLTlViUm4xdGtINktfUDk2UmRUOGtqdw?oc=5",
       "datetime": 1786353663,
-      "headlineKo": "이란, 파키스탄-터키-사우디 안보 협정을 두려워할 이유가 없다고 말하다 - 로이터"
+      "headlineKo": "이란, 파키스탄-터키-사우디 안보 협정을 두려워할 이유가 없다고 말하다 - reuters.com"
     }
   ],
-  "_fetched_at": 1786406421.2428648,
-  "_updated_label": "2026-08-11 09:00"
+  "_fetched_at": 1786410542.831695,
+  "_updated_label": "2026-08-11 10:09"
 };
