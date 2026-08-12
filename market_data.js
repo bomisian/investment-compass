@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.75,
+      "current": 83.93000030517578,
       "prevClose": 82.12999725341797,
-      "changeAbs": 1.6200027465820312,
-      "changePct": 1.9724860596103482,
-      "pctRank": 73.82657120127287,
+      "changeAbs": 1.8000030517578125,
+      "changePct": 2.191651177344831,
+      "pctRank": 74.46300715990454,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.85214496430902,
-      "ma20": 82.23899955749512,
-      "ma60": 83.08366661071777,
-      "chg1m": 5.6100006103515625,
-      "chg3m": -14.319999694824219,
-      "chg1mPct": 7.179422388240695,
-      "chg3mPct": -14.601814764337128,
+      "drawdown1y": -25.692782140015847,
+      "ma20": 82.24799957275391,
+      "ma60": 83.08666661580403,
+      "chg1m": 5.790000915527344,
+      "chg3m": -14.139999389648438,
+      "chg1mPct": 7.409778552281857,
+      "chg3mPct": -14.418272084887848,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.7969970703125,
+      "current": 99.84400177001953,
       "prevClose": 99.81999969482422,
-      "changeAbs": -0.02300262451171875,
-      "changePct": -0.023044103969188313,
-      "pctRank": 34.02225755166931,
+      "changeAbs": 0.0240020751953125,
+      "changePct": 0.024045356911133145,
+      "pctRank": 34.65818759936407,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7842766746862582,
-      "ma20": 100.48635025024414,
-      "ma60": 100.30061696370443,
-      "chg1m": -1.14300537109375,
-      "chg3m": 1.5069961547851562,
-      "chg1mPct": -1.1323611486508958,
-      "chg3mPct": 1.5332141018904892,
+      "drawdown1y": -1.7380167598897933,
+      "ma20": 100.48870048522949,
+      "ma60": 100.30140037536621,
+      "chg1m": -1.0960006713867188,
+      "chg3m": 1.5540008544921875,
+      "chg1mPct": -1.0857941795899264,
+      "chg3mPct": 1.581036565283717,
       "lastDate": "2026-08-12",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4438.7998046875,
+      "current": 4449.2001953125,
       "prevClose": 4361.7998046875,
-      "changeAbs": 77.0,
-      "changePct": 1.7653263205076566,
-      "pctRank": 91.64677804295943,
+      "changeAbs": 87.400390625,
+      "changePct": 2.003768960947573,
+      "pctRank": 91.80588703261733,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.538810804140958,
-      "ma20": 4121.884997558594,
-      "ma60": 4223.648323567709,
-      "chg1m": 441.7998046875,
-      "chg3m": -279.900390625,
-      "chg1mPct": 11.053285080998249,
-      "chg3mPct": -5.931726514497567,
+      "drawdown1y": -16.34325592267337,
+      "ma20": 4122.405017089844,
+      "ma60": 4223.821663411459,
+      "chg1m": 452.2001953125,
+      "chg3m": -269.5,
+      "chg1mPct": 11.313490000312735,
+      "chg3mPct": -5.711318559032804,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,32 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Wall Street ends down as US-Iran peace optimism fades - reuters.com",
+      "headline": "Trump boarded secret Turkey flight via catering truck due to Iran threat, reports say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
+      "datetime": 1786491900,
+      "headlineKo": "트럼프, 이란 위협으로 터키 비밀 비행기에 케이터링 트럭 탑승 - 로이터 통신"
+    },
+    {
+      "headline": "Four crew, two rescuers killed in Red Sea attack; US strikes ship in Gulf of Oman - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
+      "datetime": 1786490947,
+      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망 미국, 오만해에서 선박 공격 - 로이터"
+    },
+    {
+      "headline": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
       "datetime": 1786490271,
-      "headlineKo": "미국-이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 맞이한다 - reuters.com"
+      "headlineKo": "미국과 이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 고한다 - 로이터 통신"
     },
     {
-      "headline": "New attacks on shipping as Iran war talks hit fresh impasse - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?oc=5",
-      "datetime": 1786488763,
-      "headlineKo": "이란 전쟁 협상이 새로운 교착상태에 빠지면서 선박에 대한 새로운 공격 - reuters.com"
-    },
-    {
-      "headline": "Four crew, two rescuers killed in Red Sea attack; missile strike reported in Gulf - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
-      "datetime": 1786487907,
-      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망; 걸프만에서 미사일 공격 보고 - reuters.com"
-    },
-    {
-      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - reuters.com",
+      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUctM2tDd2gxSEhzQk9QV2dud0d0ajdkR0U2TmdlZ2VpQm44U1BhclBHQ184WVFFS1ZnX2l4c1dlb3FiMG9Ld0hSeUNJU0dFSTl6VHFzTVlRSXQ4Z3BUQWtvLW5oTFZJTGJiOG1Sb0dTSGN2V1lzcGJWemhYZjloZnI2YmtvcnZ3dHRGMkpSOGExM3RZTVFxeGFfWkNoXzhpUk5iX0QxVHVWYmpnT05rTnhFM25MeHNnek85UFlLdS15QQ?oc=5",
       "datetime": 1786481264,
-      "headlineKo": "젤렌스키 \"우크라이나, 미국 협상단에 러시아와의 전쟁 종식 제안 제안\" - reuters.com"
+      "headlineKo": "Zelenskiy : 우크라이나는 러시아와의 전쟁을 끝내기 위해 미국 협상가에게 제안을했습니다 - Reuters"
     },
     {
       "headline": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
@@ -254,11 +254,25 @@ const MARKET_DATA = {
       "headlineKo": "장밋빛 이익 지침을 발표한 후 Cardinal Health에 대한 목표 가격을 높이고 있습니다."
     },
     {
-      "headline": "Yemen's Houthis attacked Saudi ship in Bab el-Mandeb, Houthi-run news agency says - reuters.com",
+      "headline": "Oil prices settle up as Iran says Strait of Hormuz to stay shut - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
+      "datetime": 1786477263,
+      "headlineKo": "이란이 호르무즈 해협을 봉쇄하자 유가는 안정세를 유지했다 - 로이터 통신"
+    },
+    {
+      "headline": "Yemen's Houthis attacked Saudi ship in Bab el-Mandeb, Houthi-run news agency says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUExFQktvY2cyS2RZZW1TRzFEWkY2ZnR1VGVCM1FZei1ueVZ5UFJvWjNybWlVdy1NdWUtOXVnS2w2NWpoZ1JKZ1dKam8zQ2pISlZYTGxlVnVBcUZubW85RnloSXNxMXNmcktDMjZIUVZpZTl2TlgzX3A5Q0N5Ul92NlhsT2RrZDNZOUc2RDh0VHBXNWFoa29KczBzQnR2SjBFVS1ZV1VsVklzZkZUSXpQbkpzcTNSSnJMTDJvOG1PN3lNMmhYOWUtLW5B?oc=5",
       "datetime": 1786472565,
-      "headlineKo": "예멘 후티 반군이 바브엘만데브에서 사우디 선박을 공격했다고 후티 반군 통신사가 밝혔습니다. - reuters.com"
+      "headlineKo": "예멘 후티 반군이 바브엘만데브에서 사우디 선박을 공격했다고 후티 반군 통신사가 밝혔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "Canadian dollar hits two-month high as oil prices rise - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWkxkd1ZETWhxWUJaZVdGRDA5S0xudC0xbWZKaDEtOFVrc29uS0t2cmZLbGgyUVN2ckdYOTdXaEVNa1JRalNLLTZPZlptZGN2NzQwUUFTaEVTMXNSMWZHNnRuSkhySHRxX2JGMGxrOGgxTW41YlVURW92Q1lfQzhMZ2Y2WlRwNnA4QWlmRC1uY0VzTWluRk0weFh6WGU?oc=5",
+      "datetime": 1786472385,
+      "headlineKo": "유가 상승으로 캐나다 달러 2개월 최고치 기록 - Reuters"
     },
     {
       "headline": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
@@ -282,27 +296,13 @@ const MARKET_DATA = {
       "headlineKo": "Cramer: 인텔은 뭔가 비밀을 갖고 있을 수도 있습니다. Nvidia의 자금 조달 추진은 '기념비적으로 긍정적'입니다."
     },
     {
-      "headline": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says - reuters.com",
+      "headline": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFUwQU11ZTNtdlg0Zm1iSlQ0QlBkaFhUSzI2ZkdPY2M2anViX2l3R2xsUkxXdmszWlVDZU91ckpmeUZFOTlJUzB3T1NXZ3VNZm81R19hX25kdldEcUNZYlh0RDZYUlFYY05hVkM4dkdOUi1IMlVyak96OVphU0U5T3RwYkpqZlpQcVk4cThFM3M5U1dEcS13TDBIamk5OW5TcmEwaDY2d1JRbU80bzVFRGVSbnJTOUItdlhfNFgxRVpnTnRnNHVRRzJZOA?oc=5",
       "datetime": 1786464596,
-      "headlineKo": "미국이 이란의 조건을 충족하지 않는 한 호르무즈 해협은 폐쇄 상태를 유지할 것이라고 이란 안전보장이사회가 밝혔습니다."
-    },
-    {
-      "headline": "Trump says Iran options are let Tehran fail economically or 'hit them really hard' - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYUNwdDR2X2Z6TlJ2NDZ5VVVESGN1bHdOU3RHSVY5aGJSdmJldVZ6YVh5ZDVNNUxJMFpValdCa0dKSFJBLUZzeTdEU1pmcmhMVjAtQzBFdm91QW1JZERManNpTlMtbzBEaVhnZTRybjF1YkxVVVBtLWE0Vk4xOW9NWWhJU19yUUdLYy1MNHpDTTFjb3F0ajMtZHl1THdCSG00NjFNQTgtUzZpNG1DN0cwWi1lR2VNdWJvQjBkNHYtSy1GcVRLQ3hYTXJVQ2ZZZW8?oc=5",
-      "datetime": 1786464294,
-      "headlineKo": "트럼프는 이란 옵션이 테헤란을 경제적으로 실패하게 하거나 '정말 큰 타격을 줄 것'이라고 말했습니다 - reuters.com"
-    },
-    {
-      "headline": "Lebanon abolishes death penalty in first for region - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWw3eUVpNlFseEtIMmVBNnhsN1dELUZxMUNrZkxzX3VpR0lRTnJ2UlZja3kxN1RibEpVVGdrLWUwQTBqeVNaTldNbXZUUGpBOVFLanN2d2E4NHg0RmVTdTNnRmhWZ1QwRUlsRU5oejd5M3Vpa0tKUTEwUm0wekNNQjM4LVVZMFhJbmJGVVVzUXItRVdXNDlGeXF5emsyOUU?oc=5",
-      "datetime": 1786461855,
-      "headlineKo": "레바논, 지역 최초로 사형 폐지 - 로이터"
+      "headlineKo": "미국이 이란의 조건을 충족하지 않는 한 호르무즈 해협은 폐쇄 상태를 유지할 것이라고 이란 안보리가 밝혔습니다."
     }
   ],
-  "_fetched_at": 1786495126.0939136,
-  "_updated_label": "2026-08-12 09:39"
+  "_fetched_at": 1786498859.6182287,
+  "_updated_label": "2026-08-12 10:41"
 };
