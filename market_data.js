@@ -3,22 +3,22 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.279999732971191,
-      "prevClose": 15.460000038146973,
-      "changeAbs": -0.18000030517578125,
-      "changePct": -1.1642969258191282,
-      "pctRank": 23.089171974522294,
+      "current": 15.319999694824219,
+      "prevClose": 15.279999732971191,
+      "changeAbs": 0.039999961853027344,
+      "changePct": 0.2617798596338677,
+      "pctRank": 23.40764331210191,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.7890495703029,
-      "ma20": 17.018499851226807,
-      "ma60": 17.185666608810426,
-      "chg1m": -1.880000114440918,
-      "chg3m": -2.7100000381469727,
-      "chg1mPct": -10.955711720035008,
-      "chg3mPct": -15.063924806145415,
-      "lastDate": "2026-08-11",
+      "drawdown1y": -50.660225213343544,
+      "ma20": 17.00099983215332,
+      "ma60": 17.143999942143758,
+      "chg1m": -1.1800003051757812,
+      "chg3m": -2.5500011444091797,
+      "chg1mPct": -7.151517001065341,
+      "chg3mPct": -14.269731531353255,
+      "lastDate": "2026-08-12",
       "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.55999755859375,
+      "current": 83.91000366210938,
       "prevClose": 83.19999694824219,
-      "changeAbs": 0.3600006103515625,
-      "changePct": 0.43269305715902245,
-      "pctRank": 73.26968973747017,
+      "changeAbs": 0.7100067138671875,
+      "changePct": 0.8533734854688455,
+      "pctRank": 74.38345266507558,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.020363155136707,
-      "ma20": 82.40949935913086,
-      "ma60": 82.71016654968261,
-      "chg1m": 4.220001220703125,
-      "chg3m": -18.62000274658203,
-      "chg1mPct": 5.3188825503988175,
-      "chg3mPct": -18.222746810501683,
+      "drawdown1y": -25.710486118419283,
+      "ma20": 82.42699966430663,
+      "ma60": 82.71599998474122,
+      "chg1m": 4.57000732421875,
+      "chg3m": -18.269996643066406,
+      "chg1mPct": 5.760029663671964,
+      "chg3mPct": -17.880208052946116,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.8759994506836,
+      "current": 99.86199951171875,
       "prevClose": 99.81999969482422,
-      "changeAbs": 0.055999755859375,
-      "changePct": 0.05610073735782495,
-      "pctRank": 34.765314240254575,
+      "changeAbs": 0.04199981689453125,
+      "changePct": 0.04207555301836871,
+      "pctRank": 34.685759745425614,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7065260793742376,
-      "ma20": 100.4903003692627,
-      "ma60": 100.30193367004395,
-      "chg1m": -1.0640029907226562,
-      "chg3m": 1.58599853515625,
-      "chg1mPct": -1.0540944769050204,
-      "chg3mPct": 1.613590925204379,
+      "drawdown1y": -1.7203041906632355,
+      "ma20": 100.48960037231446,
+      "ma60": 100.30170033772787,
+      "chg1m": -1.0780029296875,
+      "chg3m": 1.5719985961914062,
+      "chg1mPct": -1.0679640416229037,
+      "chg3mPct": 1.5993474224732356,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4451.5,
+      "current": 4464.10009765625,
       "prevClose": 4383.0,
-      "changeAbs": 68.5,
-      "changePct": 1.562856490987908,
+      "changeAbs": 81.10009765625,
+      "changePct": 1.850333051705453,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.3000135052221,
-      "ma20": 4139.470007324218,
-      "ma60": 4220.979996744792,
-      "chg1m": 390.39990234375,
-      "chg3m": -226.10009765625,
-      "chg1mPct": 9.613156360491049,
-      "chg3mPct": -4.833677375916324,
+      "drawdown1y": -16.063098307275116,
+      "ma20": 4140.100012207031,
+      "ma60": 4221.189998372396,
+      "chg1m": 403.0,
+      "chg3m": -213.5,
+      "chg1mPct": 9.923419524492394,
+      "chg3mPct": -4.564306386665588,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,39 +219,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil, gold prices rise as geopolitical tensions mount before CPI - reuters.com",
+      "headline": "Hormuz shipping traffic falls to one-week low amid hostilities - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN1dzT200SXd2Z1ZNMmhKMEN1b1NITFZ5WGRCcU00Zm1KOUd4dC1sU0lERk1SNk5SaExMUlFBc1hzbmQ4YTJQNm15elZ6eUJCRlMzYzZabV9WTGNtWkFpQy02elVaeXhvQmRMSG5oRzgxWFc1b2Faa1hUNGJtV3pZbDZfMzJzMnJWdVM0UU9jMXVKbEpuWTVZSlhkMENxdGRfTFRCLVRqbjhSVXdkQ3lYb2RKYw?oc=5",
+      "datetime": 1786511880,
+      "headlineKo": "적대 행위로 인해 호르무즈 해상 운송량이 일주일 만에 최저치로 감소 - Reuters"
+    },
+    {
+      "headline": "US military operations killed 153 civilians in 2025, official says, citing Pentagon assessment - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMEtUb1g4Rnk4OS05dUNyRjZlMFFkRnAxYjhhMUhWcWI4bC1GdmJEOTZmd3BQalppUXQ4VDdDZThuMnFmcVI2SDNtdE95N1pId1ZlTGVUQVc0TzJZQWVtc1paZzNKV012d3dXNUlRcEtPWmplNDJUaVhRX2pnWUVZN19xRkYwN3R6NjFuSVJ0RUxpUHdPTHU1d3M0VTRHQnA5aW56aXMzLVgyRG9FRFZ3X1hHRmhxdTltTkp5YnlrYm16ZEI3YWUteGtBaVQ?oc=5",
+      "datetime": 1786505640,
+      "headlineKo": "국방부 평가를 인용해 미군 작전으로 2025년 민간인 153명이 사망했다고 관계자가 밝혔습니다."
+    },
+    {
+      "headline": "Oil, gold prices rise as geopolitical tensions mount before CPI - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTnAyM2F1aXRKeVZFQU5yVzdLbmplRS1vV28zVXZ0Slo3bmszQjM1enJHU2RlOG5EZWtLYUNmVHdjcHprM19fTnhjUE8tV3VGTFBrelZXM1pOekphNVF1S3EtSTlDcDl5Skw0R19ud3U5NmdhWEk5eVJjV1dudFNhSlhoRQ?oc=5",
       "datetime": 1786501140,
-      "headlineKo": "CPI 전 지정학적 긴장 고조로 석유, 금 가격 상승 - reuters.com"
+      "headlineKo": "CPI 이전 지정학적 긴장 고조로 석유, 금 가격 상승 - Reuters"
     },
     {
-      "headline": "Trump says his plane faced 'greater risk' in secret flight change - reuters.com",
+      "headline": "Trump says his plane faced 'greater risk' in secret flight change - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNnFid0QtMU1uWmc0NjVieldJWFFnU1gzMXp6RlA0UldwUkEtaElnOUZMTmtCQlFWUlFRbFlsWndGREllOU8zWjBqZWpYanF4dGdWRWdkQy1ucGd6aGx5YlNrUXZ6TzhkZ2h5alU2VzYxMThmbHdVNjdjTWJSVjhYR2RMRHpXREZ3clRKM2JmM1AxenBFaVMza0p1TXZ0dFFoRGNLR1MtcVRNdUJOY3o0UnFsdnpFc1U?oc=5",
       "datetime": 1786497600,
-      "headlineKo": "트럼프 “비행기 비밀 변경으로 자신의 비행기가 더 큰 위험에 직면했다” - reuters.com"
+      "headlineKo": "트럼프 \"비밀 비행 변경으로 자신의 비행기가 더 큰 위험에 직면했다\" - 로이터 통신"
     },
     {
-      "headline": "Oil rises as doubts over US-Iran deal heighten supply concerns - reuters.com",
+      "headline": "Oil rises as doubts over US-Iran deal heighten supply concerns - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOajU2TkE4Zm1kOHlwM2hwX0VXeWJTNkFCblBrN0FuUDNfN1NMRFQ1NE1HREZGVE96UXMyajRlamxJaVZqMGxQNGRyZlBZQ2xnNVNEZjdBZ05zR25PWEFTNksxMk9iREoyNElfZ1h0aUdiTmFKdEJpZlJfUDk1d25ZTXptbnByMDFfRjk2R1oxZ29pNFZiQVhwTmRCaDIzUXdYSFlxZnl6aU05eG1WLWlQWg?oc=5",
-      "datetime": 1786496387,
-      "headlineKo": "미국-이란 협상에 대한 의구심으로 공급 우려가 높아지면서 유가 상승 - reuters.com"
+      "datetime": 1786496280,
+      "headlineKo": "미국-이란 협상에 대한 의구심으로 공급 우려가 높아지면서 유가 상승 - Reuters"
     },
     {
-      "headline": "Four crew, two rescuers killed in Red Sea attack; US strikes ship in Gulf of Oman - reuters.com",
+      "headline": "Four crew, two rescuers killed in Red Sea attack; US strikes ship in Gulf of Oman - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
       "datetime": 1786490947,
-      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망 미국, 오만만에서 선박 공습 - reuters.com"
+      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망 미국, 오만해에서 선박 공격 - 로이터"
     },
     {
-      "headline": "Wall Street ends down as US-Iran peace optimism fades - reuters.com",
+      "headline": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
       "datetime": 1786490271,
-      "headlineKo": "미국-이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 맞이한다 - reuters.com"
+      "headlineKo": "미국과 이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 고한다 - 로이터 통신"
     },
     {
       "headline": "Trading Day: Peace fog - Reuters",
@@ -261,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "무역일: 평화안개 - 로이터"
     },
     {
-      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - reuters.com",
+      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUctM2tDd2gxSEhzQk9QV2dud0d0ajdkR0U2TmdlZ2VpQm44U1BhclBHQ184WVFFS1ZnX2l4c1dlb3FiMG9Ld0hSeUNJU0dFSTl6VHFzTVlRSXQ4Z3BUQWtvLW5oTFZJTGJiOG1Sb0dTSGN2V1lzcGJWemhYZjloZnI2YmtvcnZ3dHRGMkpSOGExM3RZTVFxeGFfWkNoXzhpUk5iX0QxVHVWYmpnT05rTnhFM25MeHNnek85UFlLdS15QQ?oc=5",
       "datetime": 1786481264,
-      "headlineKo": "젤렌스키 \"우크라이나, 미국 협상단에 러시아와의 전쟁 종식 제안 제안\" - reuters.com"
+      "headlineKo": "Zelenskiy : 우크라이나는 러시아와의 전쟁을 끝내기 위해 미국 협상가에게 제안을했습니다 - Reuters"
     },
     {
       "headline": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
@@ -275,34 +289,20 @@ const MARKET_DATA = {
       "headlineKo": "장밋빛 이익 지침을 발표한 후 Cardinal Health에 대한 목표 가격을 높이고 있습니다."
     },
     {
-      "headline": "Venezuela and Israel resume consular services after 17-year diplomatic break - reuters.com",
+      "headline": "Venezuela and Israel resume consular services after 17-year diplomatic break - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdDd2R1RWdGJZOXAwLTJTUS1qSnFuR1N5eHRRUzYySlYtUmU3ZVJ3UEVkdG54bmJOWHRXRldZcG01TXJZc1kySW1xUjh2WWk0WXhGRXg5UnBIMk1STnlXTTU3VlpRRFAwMHA5WGV3V3pqTUI3YVItMjdoWVRzUVJibXZ1Nk96ZW9ZY2pwU0NHRXowQ0RsbVlDczB0ZDNzMzFLZHBlMUtWeHYwOG5Xb1N4UWJobnRDQ1BmNDJZRUJB?oc=5",
       "datetime": 1786473813,
-      "headlineKo": "베네수엘라와 이스라엘, 17년 간의 외교 단절 끝에 영사 업무 재개 - reuters.com"
+      "headlineKo": "베네수엘라와 이스라엘, 17년 간의 외교 단절 끝에 영사 업무 재개 - 로이터"
     },
     {
-      "headline": "Yemen's Houthis attacked Saudi ship in Bab el-Mandeb, Houthi-run news agency says - reuters.com",
+      "headline": "Yemen's Houthis attacked Saudi ship in Bab el-Mandeb, Houthi-run news agency says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUExFQktvY2cyS2RZZW1TRzFEWkY2ZnR1VGVCM1FZei1ueVZ5UFJvWjNybWlVdy1NdWUtOXVnS2w2NWpoZ1JKZ1dKam8zQ2pISlZYTGxlVnVBcUZubW85RnloSXNxMXNmcktDMjZIUVZpZTl2TlgzX3A5Q0N5Ul92NlhsT2RrZDNZOUc2RDh0VHBXNWFoa29KczBzQnR2SjBFVS1ZV1VsVklzZkZUSXpQbkpzcTNSSnJMTDJvOG1PN3lNMmhYOWUtLW5B?oc=5",
       "datetime": 1786472565,
-      "headlineKo": "예멘 후티 반군이 바브엘만데브에서 사우디 선박을 공격했다고 후티 반군 통신사가 밝혔습니다. - reuters.com"
-    },
-    {
-      "headline": "Canadian dollar hits two-month high as oil prices rise - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWkxkd1ZETWhxWUJaZVdGRDA5S0xudC0xbWZKaDEtOFVrc29uS0t2cmZLbGgyUVN2ckdYOTdXaEVNa1JRalNLLTZPZlptZGN2NzQwUUFTaEVTMXNSMWZHNnRuSkhySHRxX2JGMGxrOGgxTW41YlVURW92Q1lfQzhMZ2Y2WlRwNnA4QWlmRC1uY0VzTWluRk0weFh6WGU?oc=5",
-      "datetime": 1786472385,
-      "headlineKo": "유가 상승으로 캐나다 달러 2개월 최고치 기록 - Reuters"
-    },
-    {
-      "headline": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/11/invitation-homes-ceo-institutional-homebuying-ban-prices.html",
-      "datetime": 1786467278,
-      "headlineKo": "Invitation Homes CEO는 기관 주택 구입 금지가 가격을 낮추겠지만 당장은 아닐 것이라고 말했습니다."
+      "headlineKo": "예멘 후티 반군이 바브엘만데브에서 사우디 선박을 공격했다고 후티 반군 통신사가 밝혔습니다."
     }
   ],
-  "_fetched_at": 1786517237.6438332,
-  "_updated_label": "2026-08-12 15:47"
+  "_fetched_at": 1786520894.2731528,
+  "_updated_label": "2026-08-12 16:48"
 };
