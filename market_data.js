@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.399999618530273,
+      "current": 15.390000343322754,
       "prevClose": 15.279999732971191,
-      "changeAbs": 0.11999988555908203,
-      "changePct": 0.785339578901603,
-      "pctRank": 24.363057324840764,
+      "changeAbs": 0.1100006103515625,
+      "changePct": 0.7198992949862631,
+      "pctRank": 24.12420382165605,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.402576499424846,
-      "ma20": 17.004999828338622,
-      "ma60": 17.145333274205527,
-      "chg1m": -1.1000003814697266,
-      "chg3m": -2.470001220703125,
-      "chg1mPct": -6.666668978604403,
-      "chg3mPct": -13.822054307240228,
+      "drawdown1y": -50.43478028510348,
+      "ma20": 17.004499864578246,
+      "ma60": 17.145166619618735,
+      "chg1m": -1.109999656677246,
+      "chg3m": -2.4800004959106445,
+      "chg1mPct": -6.727270646528765,
+      "chg3mPct": -13.87800995770425,
       "lastDate": "2026-08-12",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.02999877929688,
+      "current": 83.33999633789062,
       "prevClose": 83.19999694824219,
-      "changeAbs": -0.1699981689453125,
-      "changePct": -0.2043247297846255,
-      "pctRank": 71.99681782020684,
+      "changeAbs": 0.1399993896484375,
+      "changePct": 0.16826850334565469,
+      "pctRank": 72.71280827366746,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.48959626148175,
-      "ma20": 82.38299942016602,
-      "ma60": 82.70133323669434,
-      "chg1m": 3.69000244140625,
-      "chg3m": -19.150001525878906,
-      "chg1mPct": 4.6508729666326,
-      "chg3mPct": -18.741438117718317,
+      "drawdown1y": -26.215140690902317,
+      "ma20": 82.3984992980957,
+      "ma60": 82.7064998626709,
+      "chg1m": 4.0,
+      "chg3m": -18.840003967285156,
+      "chg1mPct": 5.041593376138976,
+      "chg3mPct": -18.438054326694733,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.83999633789062,
+      "current": 99.81199645996094,
       "prevClose": 99.81999969482422,
-      "changeAbs": 0.01999664306640625,
-      "changePct": 0.02003270199112523,
-      "pctRank": 34.44709626093874,
+      "changeAbs": -0.00800323486328125,
+      "changePct": -0.008017666687787244,
+      "pctRank": 34.28798727128083,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.741958726334869,
-      "ma20": 100.48850021362304,
-      "ma60": 100.30133361816407,
-      "chg1m": -1.100006103515625,
-      "chg3m": 1.5499954223632812,
-      "chg1mPct": -1.0897623111849613,
-      "chg3mPct": 1.5769614486985126,
+      "drawdown1y": -1.7695149489128648,
+      "ma20": 100.48710021972656,
+      "ma60": 100.3008669535319,
+      "chg1m": -1.1280059814453125,
+      "chg3m": 1.5219955444335938,
+      "chg1mPct": -1.1175014406207278,
+      "chg3mPct": 1.5484744432362263,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4472.7998046875,
+      "current": 4472.2001953125,
       "prevClose": 4383.0,
-      "changeAbs": 89.7998046875,
-      "changePct": 2.048820549566507,
+      "changeAbs": 89.2001953125,
+      "changePct": 2.035140207905544,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.899520780368636,
-      "ma20": 4140.534997558594,
-      "ma60": 4221.334993489583,
-      "chg1m": 411.69970703125,
-      "chg3m": -204.80029296875,
-      "chg1mPct": 10.137639977622097,
-      "chg3mPct": -4.378319836947303,
+      "drawdown1y": -15.910795024239166,
+      "ma20": 4140.505017089844,
+      "ma60": 4221.325,
+      "chg1m": 411.10009765625,
+      "chg3m": -205.39990234375,
+      "chg1mPct": 10.122875274448539,
+      "chg3mPct": -4.3911385765249005,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,6 +226,13 @@ const MARKET_DATA = {
       "headlineKo": "보잉과 에어버스에 대한 중국의 대응으로 최초의 국제선 비행이 이루어졌습니다. COMAC가 항공 독점에 도전할 수 있을까요?"
     },
     {
+      "headline": "Wall St futures tick up heading into July inflation data - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYklxZWxQWEI4bU5nVHpWUVJkQWo4YmQ5ZWpfTXNWWHBjNlE0d09NNEdtbWMtQldtbndIMzNBU1Z3TldjNEF5YUoxMHJSdHlXak50XzBMYlh4dHh2OWxVckViSjVxYUFCVlBvcnQ4Vk9vLVF0MWhGR3BidXQzOGItYUVjbnNYSk1pdS1XeTZqUGtaVTZzcDRkR1N1V0xkN0o5STBZ?oc=5",
+      "datetime": 1786530253,
+      "headlineKo": "월스트리트 선물은 7월 인플레이션 데이터를 향하여 상승합니다 - Reuters"
+    },
+    {
       "headline": "European stocks steady ahead of US inflation data; geopolitical risks in focus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEJrelVuLWNvQVpMQ0FHVXF0aE9vZTZqcklqQUNLSHpCOGxiQkl3Tko1UVJZTHpnVUhUQ0R6RTNWc08yMXRrb2tMNUI1MWpFby1qM1RUWVllYU9NT0x6MzFzQk1tY0U2Q0lCcGhrNUVRYjJtdDVEbVFObndDeFBiVDdmTXdsQW5FV09uRl9aSzFzWVMtVTdkQkFWMFZPdjBzdk1pWA?oc=5",
@@ -233,11 +240,25 @@ const MARKET_DATA = {
       "headlineKo": "미국 인플레이션 데이터를 앞두고 유럽 증시는 안정세를 보이고 있습니다. 지정학적 위험에 초점 - Reuters"
     },
     {
+      "headline": "Iran to join BRICS development bank soon, central bank governor says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS2JtNW4wYnFaOEhaWW1QZHg3QkpONTVsa2VJUkk0ZEF0NW8wSHJkTU05YTF0UU1zSlJ0N25IekhhQ19XdmlEQ3BzcmhYUE5tZS1UT0NvcnUzVzU3cmpiY2dfbHBseXdER19yZkpNdG1iMFM3d2JZQk42YUVhMTI1ME9QNXo5UTVzdGhrUnVwaENpeHF2b2p2RUpPSnZHWmwzMTJiTVNpRUhYZ3M0VXhrZzJzUnRGOE10cHc?oc=5",
+      "datetime": 1786522296,
+      "headlineKo": "이란, 곧 브릭스(BRICS) 개발은행에 합류할 것"
+    },
+    {
       "headline": "Hormuz shipping traffic falls to one-week low amid hostilities - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN1dzT200SXd2Z1ZNMmhKMEN1b1NITFZ5WGRCcU00Zm1KOUd4dC1sU0lERk1SNk5SaExMUlFBc1hzbmQ4YTJQNm15elZ6eUJCRlMzYzZabV9WTGNtWkFpQy02elVaeXhvQmRMSG5oRzgxWFc1b2Faa1hUNGJtV3pZbDZfMzJzMnJWdVM0UU9jMXVKbEpuWTVZSlhkMENxdGRfTFRCLVRqbjhSVXdkQ3lYb2RKYw?oc=5",
       "datetime": 1786511880,
       "headlineKo": "적대 행위로 인해 호르무즈 해상 운송량이 일주일 만에 최저치로 감소 - Reuters"
+    },
+    {
+      "headline": "TUI avoids another profit warning as Iran war further dents travel bookings - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOXFRbkJoZFM5cC1hRjk2TmVxNk1EeHowRHJraXdlZUNqcmZfRHdpdTFyWE9rWkhQWlJnVlJfMVM4XzZTY1RtYm9BS2xPcUZRU1V4YzZPRWdhUGtUQlZRcjVzQmdQVEliUFB5bmNOYm1KVWVsS3ZWZi12c2tYYXFqM2g4WTFGTi1fbVZseWYxenR6RHdDWTNha052OGRWX0E2cS1mMFhvUQ?oc=5",
+      "datetime": 1786511040,
+      "headlineKo": "이란 전쟁으로 인해 여행 예약이 더욱 감소함에 따라 TUI는 또 다른 이익 경고를 피합니다-Reuters"
     },
     {
       "headline": "US consumer prices likely increased moderately in July as gasoline prices eased - Reuters",
@@ -254,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "국방부 평가를 인용해 미군 작전으로 2025년 민간인 153명이 사망했다고 관계자가 밝혔습니다."
     },
     {
-      "headline": "European stocks steady, oil rises before CPI - Reuters",
+      "headline": "Global stocks inch up, oil steady before US CPI - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTnAyM2F1aXRKeVZFQU5yVzdLbmplRS1vV28zVXZ0Slo3bmszQjM1enJHU2RlOG5EZWtLYUNmVHdjcHprM19fTnhjUE8tV3VGTFBrelZXM1pOekphNVF1S3EtSTlDcDl5Skw0R19ud3U5NmdhWEk5eVJjV1dudFNhSlhoRQ?oc=5",
       "datetime": 1786501140,
-      "headlineKo": "유럽 ​​증시는 안정되고 유가는 CPI 전 상승 - Reuters"
+      "headlineKo": "글로벌 증시는 소폭 상승, 미국 CPI 전 유가 안정 - Reuters"
     },
     {
       "headline": "Trump says his plane faced 'greater risk' in secret flight change - Reuters",
@@ -280,29 +301,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnhDSnpIWUFyU185anRuZ0lKYjItT2RJaWU3czNGbGdwVVBTbzRlaEF1QjJ3cERWVEZUVkV2Q0kwc3FtQVBpVWx3SmFnbTVlcEkyX0ZYb0lhd2tDQ0ZXcXl1RHl4aTR6dXVjYnRYZjZVUlN0TDE1QXJ4cF9SaHNueElkRF94cGlXbHJZdnlBSExxZzhaMVAxa0lKblNReU0tdFJJ?oc=5",
       "datetime": 1786496220,
       "headlineKo": "미국 데이터에 초점을 맞춘 달러화는이란 긴장을 고조시킵니다 - Reuters"
-    },
-    {
-      "headline": "Four crew, two rescuers killed in Red Sea attack; US strikes ship in Gulf of Oman - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
-      "datetime": 1786490947,
-      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망 미국, 오만해에서 선박 공격 - 로이터"
-    },
-    {
-      "headline": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
-      "datetime": 1786490271,
-      "headlineKo": "미국과 이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 고한다 - 로이터 통신"
-    },
-    {
-      "headline": "Air Canada reinstates annual forecast, signals fuel price volatility remains a risk - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPN2luYkU4ZEFpMEJIREFqb3RSaV9xWExzMTFZa2pDVERyRDlLSzVrc1RBWVlLblBhQkRfWUMxUUk4bnpGZkF5NGt5V2RNZ0hMWFp3akVUNXFyRnQyc1gwUUZ2eTV3WlFLeFNOZ08zTTJoRHlzSHE0Mmk3QkRsei11TmhyYVRQSl9nMlB1QmNna2MzcUxSZDdn?oc=5",
-      "datetime": 1786489982,
-      "headlineKo": "에어캐나다, 연간 전망치를 복원하고 연료 가격 변동성이 여전히 위험하다는 신호 - Reuters"
     }
   ],
-  "_fetched_at": 1786531944.588116,
-  "_updated_label": "2026-08-12 19:52"
+  "_fetched_at": 1786535600.8166869,
+  "_updated_label": "2026-08-12 20:53"
 };
