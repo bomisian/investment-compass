@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.48999786376953,
+      "current": 83.75,
       "prevClose": 82.12999725341797,
-      "changeAbs": 1.3600006103515625,
-      "changePct": 1.6559121585687915,
-      "pctRank": 73.0310262529833,
+      "changeAbs": 1.6200027465820312,
+      "changePct": 1.9724860596103482,
+      "pctRank": 73.82657120127287,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.08233721154707,
-      "ma20": 82.22599945068359,
-      "ma60": 83.0793332417806,
-      "chg1m": 5.349998474121094,
-      "chg3m": -14.580001831054688,
-      "chg1mPct": 6.846683537125588,
-      "chg3mPct": -14.86693369677268,
-      "lastDate": "2026-08-11",
+      "drawdown1y": -25.85214496430902,
+      "ma20": 82.23899955749512,
+      "ma60": 83.08366661071777,
+      "chg1m": 5.6100006103515625,
+      "chg3m": -14.319999694824219,
+      "chg1mPct": 7.179422388240695,
+      "chg3mPct": -14.601814764337128,
+      "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,45 +95,45 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.81199645996094,
-      "prevClose": 99.80999755859375,
-      "changeAbs": 0.0019989013671875,
-      "changePct": 0.0020027065585429345,
-      "pctRank": 34.36754176610978,
+      "current": 99.7969970703125,
+      "prevClose": 99.81999969482422,
+      "changeAbs": -0.02300262451171875,
+      "changePct": -0.023044103969188313,
+      "pctRank": 34.02225755166931,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7695149489128648,
-      "ma20": 100.52110023498535,
-      "ma60": 100.2917002360026,
-      "chg1m": -1.4680023193359375,
-      "chg3m": 1.8719940185546875,
-      "chg1mPct": -1.4494493849026573,
-      "chg3mPct": 1.9113681559020073,
-      "lastDate": "2026-08-11",
-      "bars": 1257,
+      "drawdown1y": -1.7842766746862582,
+      "ma20": 100.48635025024414,
+      "ma60": 100.30061696370443,
+      "chg1m": -1.14300537109375,
+      "chg3m": 1.5069961547851562,
+      "chg1mPct": -1.1323611486508958,
+      "chg3mPct": 1.5332141018904892,
+      "lastDate": "2026-08-12",
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4428.7998046875,
+      "current": 4438.7998046875,
       "prevClose": 4361.7998046875,
-      "changeAbs": 67.0,
-      "changePct": 1.5360631620001688,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 77.0,
+      "changePct": 1.7653263205076566,
+      "pctRank": 91.64677804295943,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.72683728172104,
-      "ma20": 4121.384997558594,
-      "ma60": 4223.481656901042,
-      "chg1m": 431.7998046875,
-      "chg3m": -289.900390625,
-      "chg1mPct": 10.8030974402677,
-      "chg3mPct": -6.1436492810665015,
-      "lastDate": "2026-08-11",
+      "drawdown1y": -16.538810804140958,
+      "ma20": 4121.884997558594,
+      "ma60": 4223.648323567709,
+      "chg1m": 441.7998046875,
+      "chg3m": -279.900390625,
+      "chg1mPct": 11.053285080998249,
+      "chg3mPct": -5.931726514497567,
+      "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -219,32 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "New attacks on shipping as Iran war talks hit fresh impasse - Reuters",
+      "headline": "Wall Street ends down as US-Iran peace optimism fades - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
+      "datetime": 1786490271,
+      "headlineKo": "미국-이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 맞이한다 - reuters.com"
+    },
+    {
+      "headline": "New attacks on shipping as Iran war talks hit fresh impasse - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVzI4ZllHeXZmVDVJVE40M0w5NkYtdkFzM0RyYlZvY1pXbEJoc1d4RHNvVWxTem1kMEhGNUxmc0tZZmZ2ZkpZamtDNkd6bjRTVXhCVEF6dGhOSXltR0RQc3RPc0RFUzctZ00xRjAzX0hwNy1oYlU0a0dMYU9iUjdqYXZ4ZWM5YXhBMUhEREduYVo2QkVsT2ktQ19NaFNpUF85TmhFcnF1REktbFZfRklXb0EtbzZsLUZ1Vk53TFRR?oc=5",
       "datetime": 1786488763,
-      "headlineKo": "이란 전쟁 협상이 새로운 교착상태에 빠지면서 선박에 대한 새로운 공격 - 로이터"
+      "headlineKo": "이란 전쟁 협상이 새로운 교착상태에 빠지면서 선박에 대한 새로운 공격 - reuters.com"
     },
     {
-      "headline": "Four crew, two rescuers killed in Red Sea attack; missile strike reported in Gulf - Reuters",
+      "headline": "Four crew, two rescuers killed in Red Sea attack; missile strike reported in Gulf - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWXg2TDlnMzVlaTc1d1hoaFVFTG91b29XZzlBMC1hNGZ1REtpdDlTLXZFcGF5Mjg0N1ZvaVpSZlpEYkR6TUM1Mktja1k2TDdIVGlBZHBrMEFGdHNXSFFQV0s0eEY3aHRBcXNxa3FKUkR6Y1RmSVZOS0lwbGVZTVFKX3VUMzU5c2wwZ2VjZ1pqWU1PeDNhb0lOeFlzcDFnN1lS?oc=5",
       "datetime": 1786487907,
-      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망; 걸프만에서 미사일 공격 보고 - 로이터"
+      "headlineKo": "홍해 공격으로 승무원 4명, 구조대원 2명 사망; 걸프만에서 미사일 공격 보고 - reuters.com"
     },
     {
-      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - Reuters",
+      "headline": "Zelenskiy: Ukraine has given US negotiators proposals for ending the war with Russia - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYUctM2tDd2gxSEhzQk9QV2dud0d0ajdkR0U2TmdlZ2VpQm44U1BhclBHQ184WVFFS1ZnX2l4c1dlb3FiMG9Ld0hSeUNJU0dFSTl6VHFzTVlRSXQ4Z3BUQWtvLW5oTFZJTGJiOG1Sb0dTSGN2V1lzcGJWemhYZjloZnI2YmtvcnZ3dHRGMkpSOGExM3RZTVFxeGFfWkNoXzhpUk5iX0QxVHVWYmpnT05rTnhFM25MeHNnek85UFlLdS15QQ?oc=5",
       "datetime": 1786481264,
-      "headlineKo": "Zelenskiy : 우크라이나는 러시아와의 전쟁을 끝내기 위해 미국 협상가에게 제안을했습니다 - Reuters"
-    },
-    {
-      "headline": "Wall Street ends down as US-Iran peace optimism fades - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVjkzU2JZemo3b1RFMlU3SU1qeTE0NEY0eHBaakpscDY4blhsX3c5VFdFUmxkWVk2Yk9ab040Z1dRbEN4SDMwQU9fSnFrWUN2SkZHNzZqOFRJc0FXWUNOZTFRTnRvX0hqRTFfMGdBMnh2S2lPMjlqZ01kSFNyT0dqLVZMNDBZcm13a01lQWdScHVhSUFXQ215cjJGWXg2T180?oc=5",
-      "datetime": 1786479299,
-      "headlineKo": "미국과 이란의 평화 낙관론이 사라지면서 월스트리트는 종말을 고한다 - 로이터 통신"
+      "headlineKo": "젤렌스키 \"우크라이나, 미국 협상단에 러시아와의 전쟁 종식 제안 제안\" - reuters.com"
     },
     {
       "headline": "We're lifting our price target on Cardinal Health after issuing rosy profit guidance",
@@ -252,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/11/were-lifting-our-price-target-on-cardinal-health-after-issuing-rosy-profit-guidance-.html",
       "datetime": 1786478368,
       "headlineKo": "장밋빛 이익 지침을 발표한 후 Cardinal Health에 대한 목표 가격을 높이고 있습니다."
+    },
+    {
+      "headline": "Yemen's Houthis attacked Saudi ship in Bab el-Mandeb, Houthi-run news agency says - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUExFQktvY2cyS2RZZW1TRzFEWkY2ZnR1VGVCM1FZei1ueVZ5UFJvWjNybWlVdy1NdWUtOXVnS2w2NWpoZ1JKZ1dKam8zQ2pISlZYTGxlVnVBcUZubW85RnloSXNxMXNmcktDMjZIUVZpZTl2TlgzX3A5Q0N5Ul92NlhsT2RrZDNZOUc2RDh0VHBXNWFoa29KczBzQnR2SjBFVS1ZV1VsVklzZkZUSXpQbkpzcTNSSnJMTDJvOG1PN3lNMmhYOWUtLW5B?oc=5",
+      "datetime": 1786472565,
+      "headlineKo": "예멘 후티 반군이 바브엘만데브에서 사우디 선박을 공격했다고 후티 반군 통신사가 밝혔습니다. - reuters.com"
     },
     {
       "headline": "Invitation Homes CEO says ban on institutional homebuying will bring down prices, but not immediately",
@@ -275,18 +282,18 @@ const MARKET_DATA = {
       "headlineKo": "Cramer: 인텔은 뭔가 비밀을 갖고 있을 수도 있습니다. Nvidia의 자금 조달 추진은 '기념비적으로 긍정적'입니다."
     },
     {
-      "headline": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says - Reuters",
+      "headline": "Hormuz Strait to remain closed unless U.S. meets Iran's conditions, Iranian security council says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcFUwQU11ZTNtdlg0Zm1iSlQ0QlBkaFhUSzI2ZkdPY2M2anViX2l3R2xsUkxXdmszWlVDZU91ckpmeUZFOTlJUzB3T1NXZ3VNZm81R19hX25kdldEcUNZYlh0RDZYUlFYY05hVkM4dkdOUi1IMlVyak96OVphU0U5T3RwYkpqZlpQcVk4cThFM3M5U1dEcS13TDBIamk5OW5TcmEwaDY2d1JRbU80bzVFRGVSbnJTOUItdlhfNFgxRVpnTnRnNHVRRzJZOA?oc=5",
       "datetime": 1786464596,
-      "headlineKo": "미국이 이란의 조건을 충족하지 않는 한 호르무즈 해협은 폐쇄 상태를 유지할 것이라고 이란 안보리가 밝혔습니다."
+      "headlineKo": "미국이 이란의 조건을 충족하지 않는 한 호르무즈 해협은 폐쇄 상태를 유지할 것이라고 이란 안전보장이사회가 밝혔습니다."
     },
     {
-      "headline": "Trump says Iran options are let Tehran fail economically or 'hit them really hard' - Reuters",
+      "headline": "Trump says Iran options are let Tehran fail economically or 'hit them really hard' - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYUNwdDR2X2Z6TlJ2NDZ5VVVESGN1bHdOU3RHSVY5aGJSdmJldVZ6YVh5ZDVNNUxJMFpValdCa0dKSFJBLUZzeTdEU1pmcmhMVjAtQzBFdm91QW1JZERManNpTlMtbzBEaVhnZTRybjF1YkxVVVBtLWE0Vk4xOW9NWWhJU19yUUdLYy1MNHpDTTFjb3F0ajMtZHl1THdCSG00NjFNQTgtUzZpNG1DN0cwWi1lR2VNdWJvQjBkNHYtSy1GcVRLQ3hYTXJVQ2ZZZW8?oc=5",
       "datetime": 1786464294,
-      "headlineKo": "트럼프는 이란 옵션이 테헤란을 경제적으로 실패하게 하거나 '정말 큰 타격을 줄 것'이라고 말했습니다 - 로이터"
+      "headlineKo": "트럼프는 이란 옵션이 테헤란을 경제적으로 실패하게 하거나 '정말 큰 타격을 줄 것'이라고 말했습니다 - reuters.com"
     },
     {
       "headline": "Lebanon abolishes death penalty in first for region - Reuters",
@@ -294,15 +301,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUWw3eUVpNlFseEtIMmVBNnhsN1dELUZxMUNrZkxzX3VpR0lRTnJ2UlZja3kxN1RibEpVVGdrLWUwQTBqeVNaTldNbXZUUGpBOVFLanN2d2E4NHg0RmVTdTNnRmhWZ1QwRUlsRU5oejd5M3Vpa0tKUTEwUm0wekNNQjM4LVVZMFhJbmJGVVVzUXItRVdXNDlGeXF5emsyOUU?oc=5",
       "datetime": 1786461855,
       "headlineKo": "레바논, 지역 최초로 사형 폐지 - 로이터"
-    },
-    {
-      "headline": "We're exiting our position in an industrial stock to make room for a new AI play",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/11/were-exiting-our-position-in-industrial-stock-to-make-room-for-a-new-ai-play.html",
-      "datetime": 1786460744,
-      "headlineKo": "우리는 새로운 AI 플레이를 위한 공간을 마련하기 위해 산업 주식에서 포지션을 종료하고 있습니다."
     }
   ],
-  "_fetched_at": 1786491474.437885,
-  "_updated_label": "2026-08-12 08:38"
+  "_fetched_at": 1786495126.0939136,
+  "_updated_label": "2026-08-12 09:39"
 };
