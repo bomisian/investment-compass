@@ -16,6 +16,20 @@ const NEWS_DATA = {
         "headlineKo": "화요일 S&P500 지수를 살펴보고 오늘 세션에서 어떤 주식이 가장 활발했는지 알아보세요."
       },
       {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
@@ -28,20 +42,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7aa34f9b9597250b8a19d3e4f0025de2a79a36fb32c0ab8ff85fbde11d119a34",
         "datetime": 1786459597,
         "headlineKo": "Polymarket은 미국 최대 테스트를 앞두고 Robinhood, Coinbase, Nasdaq 재향 군인을 모았습니다."
-      },
-      {
-        "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53",
-        "datetime": 1786459140,
-        "headlineKo": "Nvidia의 빅딜로 AI 지평선이 다시 한 번 확장됩니다(등급 업그레이드)"
-      },
-      {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       }
     ],
     "newsHistory": [
@@ -51,6 +51,20 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26",
         "datetime": 1786471501,
         "headlineKo": "화요일 S&P500 지수를 살펴보고 오늘 세션에서 어떤 주식이 가장 활발했는지 알아보세요."
+      },
+      {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
       },
       {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
@@ -326,8 +340,8 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "AAPL": {
     "nextEarnings": {
@@ -591,8 +605,8 @@ const NEWS_DATA = {
         "headlineKo": "WSJ는 애플이 중국의 아이폰과 맥북용 CXMT 메모리 칩을 테스트했다고 보도했다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "GOOGL": {
     "nextEarnings": {
@@ -602,42 +616,77 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Uncover the latest developments among dow jones stocks in today's session.",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133",
-        "datetime": 1786475405,
-        "headlineKo": "오늘 세션에서 다우존스 주식의 최신 동향을 알아보세요."
+        "headline": "PubMatic Appoints Megan Ramm as Global Chief Revenue Officer to Accelerate Growth as AI Transforms Digital Advertising",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2eeeeed7770c18dbfab6c7e9ade7e226f3672fdd8156cb27f5b3e222a4b74cde",
+        "datetime": 1786500000,
+        "headlineKo": "PubMatic, AI가 디지털 광고를 혁신함에 따라 성장을 가속화하기 위해 Megan Ramm을 글로벌 최고 수익 책임자로 임명"
       },
       {
-        "headline": "Tuesday's session: top gainers and losers in the S&P500 index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=504d53a6bc26a2daa4ba0fe5a2839b181f9af8edfca931a81c5fbf2b9f157a15",
-        "datetime": 1786475101,
-        "headlineKo": "화요일 세션: S&P500 지수의 최고 상승자와 패자"
+        "headline": "AvePoint (AVPT) Unveiled Kinetic Classification For Cloud Data Protection",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=88fd8cb0ed21eaaa32bb89eaa0912ba57edb287f3008c56ede667a3155790561",
+        "datetime": 1786493822,
+        "headlineKo": "AvePoint(AVPT), ​​클라우드 데이터 보호를 위한 역학 분류 공개"
       },
       {
-        "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
-        "datetime": 1786463827,
-        "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
+        "headline": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=865400540defe3092d219e3951fa3b1a39e99073cbc21ff669483787002eef4b",
+        "datetime": 1786489355,
+        "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대"
       },
       {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+        "headline": "MSFT Vs Its Peers: The Return Does Not Match The Rank",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=93d77e5de243b172f99a493fe965aac212fb786b894b501d6446ffdcb7eeef39",
+        "datetime": 1786487262,
+        "headlineKo": "MSFT와 동종 업체: 수익률이 순위와 일치하지 않습니다."
       },
       {
-        "headline": "Dividends Are Sending A Signal",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095",
-        "datetime": 1786456982,
-        "headlineKo": "배당금이 신호를 보내고 있다"
+        "headline": "Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2094b60aa3a72ddbc5eefa533bea10386042aa76f319e8d4b9c6bcf153b9797",
+        "datetime": 1786486787,
+        "headlineKo": "Alphabet Inc.(GOOGL) 대 Meta Platforms, Inc.(META): 워싱턴과 브뤼셀 모두 AI 안전에 대한 열기를 높입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "PubMatic Appoints Megan Ramm as Global Chief Revenue Officer to Accelerate Growth as AI Transforms Digital Advertising",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2eeeeed7770c18dbfab6c7e9ade7e226f3672fdd8156cb27f5b3e222a4b74cde",
+        "datetime": 1786500000,
+        "headlineKo": "PubMatic, AI가 디지털 광고를 혁신함에 따라 성장을 가속화하기 위해 Megan Ramm을 글로벌 최고 수익 책임자로 임명"
+      },
+      {
+        "headline": "AvePoint (AVPT) Unveiled Kinetic Classification For Cloud Data Protection",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=88fd8cb0ed21eaaa32bb89eaa0912ba57edb287f3008c56ede667a3155790561",
+        "datetime": 1786493822,
+        "headlineKo": "AvePoint(AVPT), ​​클라우드 데이터 보호를 위한 역학 분류 공개"
+      },
+      {
+        "headline": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=865400540defe3092d219e3951fa3b1a39e99073cbc21ff669483787002eef4b",
+        "datetime": 1786489355,
+        "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대"
+      },
+      {
+        "headline": "MSFT Vs Its Peers: The Return Does Not Match The Rank",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=93d77e5de243b172f99a493fe965aac212fb786b894b501d6446ffdcb7eeef39",
+        "datetime": 1786487262,
+        "headlineKo": "MSFT와 동종 업체: 수익률이 순위와 일치하지 않습니다."
+      },
+      {
+        "headline": "Alphabet Inc. (GOOGL) vs. Meta Platforms, Inc. (META): Washington and Brussels Both Turn Up the Heat on AI Safety",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2094b60aa3a72ddbc5eefa533bea10386042aa76f319e8d4b9c6bcf153b9797",
+        "datetime": 1786486787,
+        "headlineKo": "Alphabet Inc.(GOOGL) 대 Meta Platforms, Inc.(META): 워싱턴과 브뤼셀 모두 AI 안전에 대한 열기를 높입니다."
+      },
       {
         "headline": "Uncover the latest developments among dow jones stocks in today's session.",
         "source": "ChartMill",
@@ -863,8 +912,8 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "MSFT": {
     "nextEarnings": {
@@ -873,6 +922,27 @@ const NEWS_DATA = {
       "epsEstimate": 4.8206
     },
     "news": [
+      {
+        "headline": "Tracking AMG's Yacktman Asset Management Portfolio - Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6122dcbbe887770943e505b8e118b1a6814c928f257ef65b6a02dcccc21b63a2",
+        "datetime": 1786485283,
+        "headlineKo": "AMG의 Yacktman 자산 관리 포트폴리오 추적 - 2026년 2분기 업데이트"
+      },
+      {
+        "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
+        "datetime": 1786468741,
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
+      },
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
       {
         "headline": "Uncover the latest developments among dow jones stocks in today's session.",
         "source": "ChartMill",
@@ -886,30 +956,30 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
         "datetime": 1786463827,
         "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
-      },
-      {
-        "headline": "FTEC: Fidelity's IT ETF Is A Fantastic Long-Term Core Tech Holding",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4d376b0daec0833082a3f94df50421b15d71ffd4e490fc7fc8b298c1325ad346",
-        "datetime": 1786462260,
-        "headlineKo": "FTEC: Fidelity의 IT ETF는 환상적인 장기 핵심 기술 보유입니다"
-      },
-      {
-        "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53",
-        "datetime": 1786459140,
-        "headlineKo": "Nvidia의 빅딜로 AI 지평선이 다시 한 번 확장됩니다(등급 업그레이드)"
-      },
-      {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Tracking AMG's Yacktman Asset Management Portfolio - Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6122dcbbe887770943e505b8e118b1a6814c928f257ef65b6a02dcccc21b63a2",
+        "datetime": 1786485283,
+        "headlineKo": "AMG의 Yacktman 자산 관리 포트폴리오 추적 - 2026년 2분기 업데이트"
+      },
+      {
+        "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
+        "datetime": 1786468741,
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
+      },
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
       {
         "headline": "Uncover the latest developments among dow jones stocks in today's session.",
         "source": "ChartMill",
@@ -1149,8 +1219,8 @@ const NEWS_DATA = {
         "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "AMZN": {
     "nextEarnings": {
@@ -1160,11 +1230,25 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Two Stock Stories That Bolstered QGRW In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e",
+        "datetime": 1786488600,
+        "headlineKo": "7월 QGRW를 강화한 두 가지 주식 이야기"
+      },
+      {
         "headline": "Uncover the latest developments among dow jones stocks in today's session.",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133",
         "datetime": 1786475405,
         "headlineKo": "오늘 세션에서 다우존스 주식의 최신 동향을 알아보세요."
+      },
+      {
+        "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
+        "datetime": 1786468741,
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
       },
       {
         "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
@@ -1179,29 +1263,29 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
-      },
-      {
-        "headline": "AI Job Apocalypse Debunked? BofA Presents Nuanced Data — And Warning Signs",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6e3fd4446c083d4e075ec7627513cbd7a684c7a2e0c6d005017a2c79be2cf70c",
-        "datetime": 1786455498,
-        "headlineKo": "AI 직업의 종말이 밝혀졌나요? BofA는 미묘한 데이터와 경고 신호를 제시합니다."
-      },
-      {
-        "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
-        "datetime": 1786453142,
-        "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Two Stock Stories That Bolstered QGRW In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e",
+        "datetime": 1786488600,
+        "headlineKo": "7월 QGRW를 강화한 두 가지 주식 이야기"
+      },
       {
         "headline": "Uncover the latest developments among dow jones stocks in today's session.",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=5e82ea525220a53dd44151da8aaa4bfeafc253e4a06b421668990e27ea2e7133",
         "datetime": 1786475405,
         "headlineKo": "오늘 세션에서 다우존스 주식의 최신 동향을 알아보세요."
+      },
+      {
+        "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
+        "datetime": 1786468741,
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
       },
       {
         "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
@@ -1456,8 +1540,8 @@ const NEWS_DATA = {
         "headlineKo": "Electrovaya (TSX:ELVA) 주식은 Amazon과 Jamestown의 발전이 초점을 맞추면서 공정 가치 상승을 확인"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "TSM": {
     "nextEarnings": {
@@ -1623,8 +1707,8 @@ const NEWS_DATA = {
         "headlineKo": "Sandisk: 메모리는 구조적으로 변화했으며 해당 부문은 P/E 5배에 머물 수 없습니다"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "AVGO": {
     "nextEarnings": {
@@ -1655,18 +1739,18 @@ const NEWS_DATA = {
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       },
       {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
+      },
+      {
         "headline": "Netskope: Not Compelling Yet",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b51caef25b330455fb7821b89033bc051d10659f22bf7d920c40b2a62ee9ac4c",
         "datetime": 1786450963,
         "headlineKo": "Netskope: 아직 매력적이지 않음"
-      },
-      {
-        "headline": "Nvidia: Not Cheap Enough, Yet",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=79a60b39d45bf63ac557e5e9bdd03cb1c96d950b46c554f6fd4941e27d81828a",
-        "datetime": 1786448274,
-        "headlineKo": "Nvidia: 아직 충분히 저렴하지는 않습니다"
       }
     ],
     "newsHistory": [
@@ -1690,6 +1774,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "Netskope: Not Compelling Yet",
@@ -1860,8 +1951,8 @@ const NEWS_DATA = {
         "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "META": {
     "nextEarnings": {
@@ -1871,6 +1962,13 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
@@ -1883,6 +1981,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
         "datetime": 1786463827,
         "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
+      },
+      {
+        "headline": "Treasury Secretary Bessent Welcomes Meta’s Muse Glimmer, Calls It A Win For American Innovation And A Step Toward Sustaining U.S. AI Leadership",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f91dd3922c019b1fb206a0c89d4745a6fb2a1ad7eff6aedb7c9b34d336fe4a9c",
+        "datetime": 1786462837,
+        "headlineKo": "Bessent 재무장관은 Meta의 Muse Glimmer를 환영하고 이를 미국 혁신의 승리이자 미국 AI 리더십 유지를 위한 한 걸음이라고 부릅니다."
       },
       {
         "headline": "Meta Q2: Strong Growth, But The AI Bill Is Becoming Hard To Ignore",
@@ -1890,23 +1995,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=13b752eec1ad83d7e70d346d0da86fb4a7b307615f74fa1940e9b05d3d982754",
         "datetime": 1786462146,
         "headlineKo": "메타 Q2: 강력한 성장, 하지만 AI 법안은 무시하기 어려워지고 있습니다"
-      },
-      {
-        "headline": "Meta Platforms: The Most Disrespected Name In Big Tech",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3200b87a086fa449fae825fe8204ed3785929e8a5f9670204b1462537ea0bb5d",
-        "datetime": 1786460454,
-        "headlineKo": "메타 플랫폼: 거대 기술 분야에서 가장 불명예스러운 이름"
-      },
-      {
-        "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53",
-        "datetime": 1786459140,
-        "headlineKo": "Nvidia의 빅딜로 AI 지평선이 다시 한 번 확장됩니다(등급 업그레이드)"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
       {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
@@ -1920,6 +2018,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
         "datetime": 1786463827,
         "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
+      },
+      {
+        "headline": "Treasury Secretary Bessent Welcomes Meta’s Muse Glimmer, Calls It A Win For American Innovation And A Step Toward Sustaining U.S. AI Leadership",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f91dd3922c019b1fb206a0c89d4745a6fb2a1ad7eff6aedb7c9b34d336fe4a9c",
+        "datetime": 1786462837,
+        "headlineKo": "Bessent 재무장관은 Meta의 Muse Glimmer를 환영하고 이를 미국 혁신의 승리이자 미국 AI 리더십 유지를 위한 한 걸음이라고 부릅니다."
       },
       {
         "headline": "Meta Q2: Strong Growth, But The AI Bill Is Becoming Hard To Ignore",
@@ -2125,8 +2230,8 @@ const NEWS_DATA = {
         "headlineKo": "메타 대 알파벳: 2분기 이후 귀하의 포트폴리오에 포함될 자격이 있는 주식은 무엇입니까?"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "TSLA": {
     "nextEarnings": {
@@ -2135,6 +2240,20 @@ const NEWS_DATA = {
       "epsEstimate": 0.4407
     },
     "news": [
+      {
+        "headline": "Two Stock Stories That Bolstered QGRW In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e",
+        "datetime": 1786488600,
+        "headlineKo": "7월 QGRW를 강화한 두 가지 주식 이야기"
+      },
+      {
+        "headline": "Elon Musk's Net Worth Rebounds on SpaceX Bounce — Now Nearly 800,000x the Average American",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=00a70dc5c3034ba626c5fd1bb5098a8e2aa7322bae1fda48ec5fdd5d51e3659f",
+        "datetime": 1786462709,
+        "headlineKo": "SpaceX Bounce에서 Elon Musk의 순자산 반등 — 이제 미국인 평균의 거의 800,000배"
+      },
       {
         "headline": "Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test",
         "source": "Benzinga",
@@ -2155,23 +2274,23 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
         "datetime": 1786453142,
         "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음"
-      },
-      {
-        "headline": "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d8f811a02501691f9e6ec2b5c01502e041f08d57123bf106c63fb103e6268106",
-        "datetime": 1786450390,
-        "headlineKo": "SpaceX 대. Tesla: 어느 머스크 주식이 승리하는지 봅시다"
-      },
-      {
-        "headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd",
-        "datetime": 1786440720,
-        "headlineKo": "Tesla와 SpaceX는 One Chip Plant에 168억 달러를 투자했습니다. Tesla의 전체 연간 이익은 38억 달러입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Two Stock Stories That Bolstered QGRW In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=21b84a0552ec6347d5597f26887da0e5f738d5ea42afc573bbaa8d2402033c0e",
+        "datetime": 1786488600,
+        "headlineKo": "7월 QGRW를 강화한 두 가지 주식 이야기"
+      },
+      {
+        "headline": "Elon Musk's Net Worth Rebounds on SpaceX Bounce — Now Nearly 800,000x the Average American",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=00a70dc5c3034ba626c5fd1bb5098a8e2aa7322bae1fda48ec5fdd5d51e3659f",
+        "datetime": 1786462709,
+        "headlineKo": "SpaceX Bounce에서 Elon Musk의 순자산 반등 — 이제 미국인 평균의 거의 800,000배"
+      },
       {
         "headline": "Polymarket Loads Up on Robinhood, Coinbase, Nasdaq Veterans Ahead of Its Biggest US Test",
         "source": "Benzinga",
@@ -2383,8 +2502,8 @@ const NEWS_DATA = {
         "headlineKo": "우주 기반 데이터 센터의 잠재력은 엄청납니다. SpaceX 주식을 매력적으로 만드는 것만으로는 충분하지 않습니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "MU": {
     "nextEarnings": {
@@ -2408,6 +2527,13 @@ const NEWS_DATA = {
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       },
       {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
+      },
+      {
         "headline": "Dividends Are Sending A Signal",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095",
@@ -2420,13 +2546,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
         "datetime": 1786453142,
         "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음"
-      },
-      {
-        "headline": "AI Capex To Hit $1 Trillion - And Estimates Are Still Too Low",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=3f01b3e455947a274b18e95b4d53060b9481c11ccd76a45083b3e7a4729e7e3e",
-        "datetime": 1786451877,
-        "headlineKo": "AI Capex, 1조 달러 달성 - 추정치는 여전히 너무 낮음"
       }
     ],
     "newsHistory": [
@@ -2443,6 +2562,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "Dividends Are Sending A Signal",
@@ -2669,8 +2795,8 @@ const NEWS_DATA = {
         "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:36"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "AMD": {
     "nextEarnings": {
@@ -2685,6 +2811,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript",
@@ -2706,13 +2839,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
         "datetime": 1786453142,
         "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음"
-      },
-      {
-        "headline": "ValuEngine Weekly Market Summary And Commentary",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=512cb5e3c45f8dd23e0f741191a2f85925d30cb818018ad7e2e80ee8846b5488",
-        "datetime": 1786448940,
-        "headlineKo": "ValuEngine 주간 시장 요약 및 해설"
       }
     ],
     "newsHistory": [
@@ -2722,6 +2848,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript",
@@ -2969,8 +3102,8 @@ const NEWS_DATA = {
         "headlineKo": "Advanced Micro Devices는 기록적인 수익을 보고했습니다. 어쨌든 AMD 주식은 하락했습니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "INTC": {
     "nextEarnings": {
@@ -2980,6 +3113,13 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Intel's $20B Equity Raise Shows The Valuation Is Overextended",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=308f0bfc13543c26ed1285cd52bc36700db9f6c4a38721fd39be9e9a431f287a",
+        "datetime": 1786474539,
+        "headlineKo": "인텔의 200억 달러 지분 인상은 가치 평가가 과도하게 확장되었음을 보여줍니다."
+      },
+      {
         "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26",
@@ -2992,6 +3132,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c18f26c4f5aca6927c8f83a683b4d9fd26f728e6cd6537df56f51482beac581d",
         "datetime": 1786471200,
         "headlineKo": "화요일에 어떤 주식이 가장 활발합니까?"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
@@ -2999,23 +3146,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=5829b090730a3bfaa170b044ad19c11c45548669d7517f64e817df22635d3008",
         "datetime": 1786455313,
         "headlineKo": "오늘 세션의 10가지 정보 기술 주식 고래 활동"
-      },
-      {
-        "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
-        "datetime": 1786453142,
-        "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음"
-      },
-      {
-        "headline": "S&P 500 Eyes Records, Fed Hike Odds Near 51% Before CPI: Stock Market Today",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=38c1e043e7bf77613be7de067abfa3f3ea354860257cf260ed032663c755232f",
-        "datetime": 1786452414,
-        "headlineKo": "S&P 500 눈 기록, Fed 인상 확률은 CPI 전 거의 51%: 오늘 주식 시장"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Intel's $20B Equity Raise Shows The Valuation Is Overextended",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=308f0bfc13543c26ed1285cd52bc36700db9f6c4a38721fd39be9e9a431f287a",
+        "datetime": 1786474539,
+        "headlineKo": "인텔의 200억 달러 지분 인상은 가치 평가가 과도하게 확장되었음을 보여줍니다."
+      },
       {
         "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
         "source": "ChartMill",
@@ -3029,6 +3169,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c18f26c4f5aca6927c8f83a683b4d9fd26f728e6cd6537df56f51482beac581d",
         "datetime": 1786471200,
         "headlineKo": "화요일에 어떤 주식이 가장 활발합니까?"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       },
       {
         "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
@@ -3262,8 +3409,8 @@ const NEWS_DATA = {
         "headlineKo": "월스트리트의 이 분석가는 CPU 거래가 과도하다고 생각합니다. ARM(ARM) 주식을 팔아야 할까요?"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "AMAT": {
     "nextEarnings": {
@@ -3272,6 +3419,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.4544
     },
     "news": [
+      {
+        "headline": "William Blair Assumes Applied Materials at Market Perform",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
+        "datetime": 1786464715,
+        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
+      },
       {
         "headline": "Wondering what's happening in today's S&P500  pre-market session?",
         "source": "ChartMill",
@@ -3299,16 +3453,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=047f4fd245b08a496d9ed965c53a18f0de9cb4e90325f3e1d24f5fe783f0c108",
         "datetime": 1786435889,
         "headlineKo": "Applied Materials (NASDAQ:AMAT), 우수한 투자 화면에서 두각을 나타냄"
-      },
-      {
-        "headline": "Rotation Away From Tech Lifts Moat Index In July",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=e4c287cbdc846d32459bf189d2db32e7a5889c8eed8899b4255e36ca7c625a24",
-        "datetime": 1786432380,
-        "headlineKo": "기술에서 벗어나 7월 해자 지수 상승"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "William Blair Assumes Applied Materials at Market Perform",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
+        "datetime": 1786464715,
+        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
+      },
       {
         "headline": "Wondering what's happening in today's S&P500  pre-market session?",
         "source": "ChartMill",
@@ -3492,13 +3646,34 @@ const NEWS_DATA = {
         "headlineKo": "다우존스 선물은 시장 상승세의 지배를 받게 될 것입니다; Cisco, Lumentum 앞으로의 수익"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
       {
+        "headline": "What Payroll Revisions Reveal About The Economy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=94e6ee18781c8bcf8aa6a7e85c3ceff157d3cc5411c665490dd95d5c0121857b",
+        "datetime": 1786489800,
+        "headlineKo": "급여 개정이 경제에 대해 밝혀주는 것"
+      },
+      {
+        "headline": "Rates Spark: The Fiscal Number Can Eclipse CPI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2766b889e959a9e88652c4a8374d6d06f0760da7c579c2103305e79417246cef",
+        "datetime": 1786481100,
+        "headlineKo": "금리 스파크: 회계 수치가 CPI를 잠식할 수 있음"
+      },
+      {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
@@ -3506,41 +3681,48 @@ const NEWS_DATA = {
         "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳"
       },
       {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
-      },
-      {
-        "headline": "Dividends Are Sending A Signal",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095",
-        "datetime": 1786456982,
-        "headlineKo": "배당금이 신호를 보내고 있다"
-      },
-      {
-        "headline": "SPX Skew Collapses On Upside Chasing",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=53e9af049eba4d3ef3b24d8f802dd3c6a92d889ff8ec31ad7e556c7abc0f0707",
-        "datetime": 1786455540,
-        "headlineKo": "SPX 스큐가 상승 추격에서 붕괴됨"
-      },
-      {
-        "headline": "This Is A Market Of High Expectations",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=77a17cf085007c2f59ce02c92c370eab249e7c2d62c46567ca172b98b368bc4e",
-        "datetime": 1786455178,
-        "headlineKo": "이것은 높은 기대를 갖고 있는 시장이다"
+        "headline": "Small‑Cap Stocks Got a Payrolls Boost — But CPI Is the Real Test",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f279ac1ee39ea4a5cc35c275eb24c8f36a762b9c0a97bf24be1a9eca52f01bdb",
+        "datetime": 1786466026,
+        "headlineKo": "소형주는 급여 증가를 가져왔지만 CPI는 실제 테스트입니다."
       }
     ],
     "newsHistory": [
       {
+        "headline": "What Payroll Revisions Reveal About The Economy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=94e6ee18781c8bcf8aa6a7e85c3ceff157d3cc5411c665490dd95d5c0121857b",
+        "datetime": 1786489800,
+        "headlineKo": "급여 개정이 경제에 대해 밝혀주는 것"
+      },
+      {
+        "headline": "Rates Spark: The Fiscal Number Can Eclipse CPI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2766b889e959a9e88652c4a8374d6d06f0760da7c579c2103305e79417246cef",
+        "datetime": 1786481100,
+        "headlineKo": "금리 스파크: 회계 수치가 CPI를 잠식할 수 있음"
+      },
+      {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
         "datetime": 1786467145,
         "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳"
+      },
+      {
+        "headline": "Small‑Cap Stocks Got a Payrolls Boost — But CPI Is the Real Test",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f279ac1ee39ea4a5cc35c275eb24c8f36a762b9c0a97bf24be1a9eca52f01bdb",
+        "datetime": 1786466026,
+        "headlineKo": "소형주는 급여 증가를 가져왔지만 CPI는 실제 테스트입니다."
       },
       {
         "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
@@ -3746,13 +3928,34 @@ const NEWS_DATA = {
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:42"
   },
   "SPY": {
     "nextEarnings": null,
     "news": [
       {
+        "headline": "What Payroll Revisions Reveal About The Economy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=94e6ee18781c8bcf8aa6a7e85c3ceff157d3cc5411c665490dd95d5c0121857b",
+        "datetime": 1786489800,
+        "headlineKo": "급여 개정이 경제에 대해 밝혀주는 것"
+      },
+      {
+        "headline": "Rates Spark: The Fiscal Number Can Eclipse CPI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2766b889e959a9e88652c4a8374d6d06f0760da7c579c2103305e79417246cef",
+        "datetime": 1786481100,
+        "headlineKo": "금리 스파크: 회계 수치가 CPI를 잠식할 수 있음"
+      },
+      {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
@@ -3760,41 +3963,48 @@ const NEWS_DATA = {
         "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳"
       },
       {
-        "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
-        "datetime": 1786463827,
-        "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
-      },
-      {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
-      },
-      {
-        "headline": "Dividends Are Sending A Signal",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=babcb957e3abfc410a56107bc201d36b4dd81deae6a09eb74764ea2ad4a90095",
-        "datetime": 1786456982,
-        "headlineKo": "배당금이 신호를 보내고 있다"
-      },
-      {
-        "headline": "SPX Skew Collapses On Upside Chasing",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=53e9af049eba4d3ef3b24d8f802dd3c6a92d889ff8ec31ad7e556c7abc0f0707",
-        "datetime": 1786455540,
-        "headlineKo": "SPX 스큐가 상승 추격에서 붕괴됨"
+        "headline": "Small‑Cap Stocks Got a Payrolls Boost — But CPI Is the Real Test",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f279ac1ee39ea4a5cc35c275eb24c8f36a762b9c0a97bf24be1a9eca52f01bdb",
+        "datetime": 1786466026,
+        "headlineKo": "소형주는 급여 증가를 가져왔지만 CPI는 실제 테스트입니다."
       }
     ],
     "newsHistory": [
       {
+        "headline": "What Payroll Revisions Reveal About The Economy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=94e6ee18781c8bcf8aa6a7e85c3ceff157d3cc5411c665490dd95d5c0121857b",
+        "datetime": 1786489800,
+        "headlineKo": "급여 개정이 경제에 대해 밝혀주는 것"
+      },
+      {
+        "headline": "Rates Spark: The Fiscal Number Can Eclipse CPI",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=2766b889e959a9e88652c4a8374d6d06f0760da7c579c2103305e79417246cef",
+        "datetime": 1786481100,
+        "headlineKo": "금리 스파크: 회계 수치가 CPI를 잠식할 수 있음"
+      },
+      {
+        "headline": "Wall Street Is Repackaging The AI Bubble",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6bd714ba8103662dab6cecd608fe07b3215bb2f3a33ec484edf22c4ca326c7c9",
+        "datetime": 1786469863,
+        "headlineKo": "월스트리트가 AI 버블을 재포장하고 있다"
+      },
+      {
         "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
         "datetime": 1786467145,
         "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳"
+      },
+      {
+        "headline": "Small‑Cap Stocks Got a Payrolls Boost — But CPI Is the Real Test",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f279ac1ee39ea4a5cc35c275eb24c8f36a762b9c0a97bf24be1a9eca52f01bdb",
+        "datetime": 1786466026,
+        "headlineKo": "소형주는 급여 증가를 가져왔지만 CPI는 실제 테스트입니다."
       },
       {
         "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
@@ -4021,8 +4231,8 @@ const NEWS_DATA = {
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:42"
   },
   "ORCL": {
     "nextEarnings": {
@@ -4046,6 +4256,13 @@ const NEWS_DATA = {
         "headlineKo": "화요일 S&P500 지수를 살펴보고 오늘 세션에서 어떤 주식이 가장 활발했는지 알아보세요."
       },
       {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
+      },
+      {
         "headline": "Discover which S&P500 stocks are making waves on Tuesday.",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=2685212e0c72ba19539d542ed6746418eb64820e0c398230e7ccd79779797a5f",
@@ -4058,13 +4275,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
         "datetime": 1786463827,
         "headlineKo": "S&P 500: 강세장은 2027년에 가장 어려운 시험에 직면합니다"
-      },
-      {
-        "headline": "Irrational Exuberance On Overdrive",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5",
-        "datetime": 1786449699,
-        "headlineKo": "오버드라이브의 비합리적인 활기"
       }
     ],
     "newsHistory": [
@@ -4081,6 +4291,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=1ddba27a45baea40c7ae79dcb7980b09554fc2ee56597eaef14ffecf9cf9dc26",
         "datetime": 1786471501,
         "headlineKo": "화요일 S&P500 지수를 살펴보고 오늘 세션에서 어떤 주식이 가장 활발했는지 알아보세요."
+      },
+      {
+        "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8d55d3065d2d70a520b17721961e58aefe08a0418ce4aac49d0a1b7ef68fce3c",
+        "datetime": 1786467744,
+        "headlineKo": "Nebius 수익 미리 보기: Michael Burry는 짧지만 예측 시장에서는 Nvidia, Meta Take Center를 봅니다."
       },
       {
         "headline": "Discover which S&P500 stocks are making waves on Tuesday.",
@@ -4251,8 +4468,8 @@ const NEWS_DATA = {
         "headlineKo": "AMD(Advanced Micro Devices) 가격 예측: 2031년까지 5,000달러 투자의 가치는 얼마나 될까요?"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:34"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "CRM": {
     "nextEarnings": {
@@ -4425,8 +4642,8 @@ const NEWS_DATA = {
         "headlineKo": "다우존스 주식은 오늘 세션에서 움직이고 있습니다"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "PLTR": {
     "nextEarnings": {
@@ -4457,18 +4674,18 @@ const NEWS_DATA = {
         "headlineKo": "ValuEngine 주간 시장 요약 및 해설"
       },
       {
-        "headline": "Palantir (PLTR) Q2 2026 Earnings Call Transcript",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c90e53c696cc2176575a2feb0eee1b07101e6cb07281dcfcf288649fa62b157b",
-        "datetime": 1786411780,
-        "headlineKo": "Palantir (PLTR) 2026년 2분기 실적 통화 기록"
+        "headline": "EXCLUSIVE: CPI Lands Tomorrow and Could Send PLTR, TSLA Surging—But Only if It's A 'Serious Shock,' Cato Economist Says",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=14dd1da43a70f5b6bde30da16b0032ac42dd0025deb8c5370a9fb60af4edcb50",
+        "datetime": 1786444285,
+        "headlineKo": "독점: CPI가 내일 상륙하여 PLTR, TSLA 급등을 보낼 수 있지만 이는 '심각한 충격'인 경우에만 가능하다고 Cato Economist는 말합니다."
       },
       {
-        "headline": "S&P500, Nasdaq, Dow Futures Unchanged After Ending Session Mildly Lower As  Investors Brace For Key Inflation Data  — SPCX, TSLA, INTC, NFLX, PLTR In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=76f90655d84f5b39c4c81c9756c95cba6cae9a4c7a0649d295f53fd83049e2ce",
-        "datetime": 1786402965,
-        "headlineKo": "S&P500, Nasdaq, Dow 선물은 투자자들이 주요 인플레이션 데이터에 대비함에 따라 세션 종료 후에도 약간 하락 - SPCX, TSLA, INTC, NFLX, PLTR 초점"
+        "headline": "Comparative Study: Palantir Technologies And Industry Competitors In Software Industry",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=54ca110a49a968016a935b5cb0a0753251474f61448e8e40279b6248aefa4127",
+        "datetime": 1786427893,
+        "headlineKo": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체"
       }
     ],
     "newsHistory": [
@@ -4492,6 +4709,20 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=512cb5e3c45f8dd23e0f741191a2f85925d30cb818018ad7e2e80ee8846b5488",
         "datetime": 1786448940,
         "headlineKo": "ValuEngine 주간 시장 요약 및 해설"
+      },
+      {
+        "headline": "EXCLUSIVE: CPI Lands Tomorrow and Could Send PLTR, TSLA Surging—But Only if It's A 'Serious Shock,' Cato Economist Says",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=14dd1da43a70f5b6bde30da16b0032ac42dd0025deb8c5370a9fb60af4edcb50",
+        "datetime": 1786444285,
+        "headlineKo": "독점: CPI가 내일 상륙하여 PLTR, TSLA 급등을 보낼 수 있지만 이는 '심각한 충격'인 경우에만 가능하다고 Cato Economist는 말합니다."
+      },
+      {
+        "headline": "Comparative Study: Palantir Technologies And Industry Competitors In Software Industry",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=54ca110a49a968016a935b5cb0a0753251474f61448e8e40279b6248aefa4127",
+        "datetime": 1786427893,
+        "headlineKo": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체"
       },
       {
         "headline": "Palantir (PLTR) Q2 2026 Earnings Call Transcript",
@@ -4648,8 +4879,8 @@ const NEWS_DATA = {
         "headlineKo": "Palantir: 경쟁은 패자를 위한 것입니다(등급 업그레이드)"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "QCOM": {
     "nextEarnings": {
@@ -4794,8 +5025,8 @@ const NEWS_DATA = {
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "ARM": {
     "nextEarnings": {
@@ -4933,8 +5164,8 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "MRVL": {
     "nextEarnings": {
@@ -4943,6 +5174,20 @@ const NEWS_DATA = {
       "epsEstimate": 0.939
     },
     "news": [
+      {
+        "headline": "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290",
+        "datetime": 1786469238,
+        "headlineKo": "Marvell: 급격한 매도세에 흔들리지 마세요"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
+      },
       {
         "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
         "source": "Benzinga",
@@ -4963,23 +5208,23 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=e5f819243f709baa1e61c12b013c467963354b49dc3cf797d1b5fc5dfea84320",
         "datetime": 1786398302,
         "headlineKo": "Marvell Technology(MRVL)가 더 넓은 시장보다 하락한 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443",
-        "datetime": 1786392073,
-        "headlineKo": "Marvell Technology Stock의 여러 운영 라인 아래에서 이익에 기대어"
-      },
-      {
-        "headline": "Nvidia Stock Slips as Its AI Investments Draw Fresh Scrutiny",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2efff8d2671efd3346077196873fb7e18c9b0bdea62f11d3c89afe9eb3484c36",
-        "datetime": 1786379340,
-        "headlineKo": "AI 투자로 새로운 조사가 이뤄지면서 Nvidia 주가 하락"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290",
+        "datetime": 1786469238,
+        "headlineKo": "Marvell: 급격한 매도세에 흔들리지 마세요"
+      },
+      {
+        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
+        "datetime": 1786458913,
+        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
+      },
       {
         "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
         "source": "Benzinga",
@@ -5065,8 +5310,8 @@ const NEWS_DATA = {
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:43"
   },
   "ASML": {
     "nextEarnings": {
@@ -5225,8 +5470,8 @@ const NEWS_DATA = {
         "headlineKo": "Situational Awareness는 칩 스타트업 Source Foundry에 5억 달러를 투자했습니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "LRCX": {
     "nextEarnings": {
@@ -5378,8 +5623,8 @@ const NEWS_DATA = {
         "headlineKo": "Jim Cramer는 2026년에 매수해야 할 5가지 투자 테마와 13가지 주식을 지정합니다."
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:35"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "KLAC": {
     "nextEarnings": {
@@ -5510,8 +5755,8 @@ const NEWS_DATA = {
         "headlineKo": "Tesla-SpaceX Terafab 베팅: 이익을 얻을 수 있는 4가지 칩 장비 주식"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:36"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "SNDK": {
     "nextEarnings": {
@@ -5761,8 +6006,8 @@ const NEWS_DATA = {
         "headlineKo": "Sandisk: AI 붐을 통해 더 나은 비즈니스가 탄생하고 있습니다"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:36"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   },
   "WDC": {
     "nextEarnings": {
@@ -5921,7 +6166,7 @@ const NEWS_DATA = {
         "headlineKo": "Western Digital: 실적 하락 이후 기술적 위협에 주의하세요"
       }
     ],
-    "_fetched_at": 1786484047.2384045,
-    "_updated_label": "2026-08-12 06:36"
+    "_fetched_at": 1786506169.870326,
+    "_updated_label": "2026-08-12 12:44"
   }
 };
