@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.58000183105469,
+      "current": 82.69000244140625,
       "prevClose": 83.19999694824219,
-      "changeAbs": -0.6199951171875,
-      "changePct": -0.7451864662605603,
-      "pctRank": 70.24661893396977,
+      "changeAbs": -0.5099945068359375,
+      "changePct": -0.6129741893538765,
+      "pctRank": 70.64439140811456,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.887999944881923,
-      "ma20": 82.36049957275391,
-      "ma60": 82.69383328755697,
-      "chg1m": 3.2400054931640625,
-      "chg3m": -19.599998474121094,
-      "chg1mPct": 4.083697558247459,
-      "chg3mPct": -19.18183442511527,
+      "drawdown1y": -26.790611176999125,
+      "ma20": 82.36599960327149,
+      "ma60": 82.69566663106282,
+      "chg1m": 3.350006103515625,
+      "chg3m": -19.48999786376953,
+      "chg1mPct": 4.22234214537738,
+      "chg3mPct": -19.07418066701874,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.98600006103516,
+      "current": 99.98500061035156,
       "prevClose": 99.81999969482422,
-      "changeAbs": 0.1660003662109375,
-      "changePct": 0.16629970618958517,
+      "changeAbs": 0.16500091552734375,
+      "changePct": 0.16529845324764034,
       "pctRank": 35.958631662688944,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.5982684180310458,
-      "ma20": 100.49580039978028,
-      "ma60": 100.3037670135498,
-      "chg1m": -0.9540023803710938,
-      "chg3m": 1.6959991455078125,
-      "chg1mPct": -0.9451182457865245,
-      "chg3mPct": 1.7255052698243363,
+      "drawdown1y": -1.5992520325154413,
+      "ma20": 100.4957504272461,
+      "ma60": 100.3037503560384,
+      "chg1m": -0.9550018310546875,
+      "chg3m": 1.6949996948242188,
+      "chg1mPct": -0.9461083890988092,
+      "chg3mPct": 1.7244884312097424,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4469.0,
+      "current": 4459.2998046875,
       "prevClose": 4383.0,
-      "changeAbs": 86.0,
-      "changePct": 1.9621263974446725,
+      "changeAbs": 76.2998046875,
+      "changePct": 1.7408123360141456,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.97096716945694,
-      "ma20": 4140.345007324218,
-      "ma60": 4221.271663411459,
-      "chg1m": 407.89990234375,
-      "chg3m": -208.60009765625,
-      "chg1mPct": 10.04407408177794,
-      "chg3mPct": -4.459553901599471,
+      "drawdown1y": -16.15335652510177,
+      "ma20": 4139.859997558594,
+      "ma60": 4221.109993489584,
+      "chg1m": 398.19970703125,
+      "chg3m": -218.30029296875,
+      "chg1mPct": 9.805217735486496,
+      "chg3mPct": -4.666929374277445,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,18 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - Reuters",
+      "headline": "Trump says US has 'total control' over Strait of Hormuz - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
+      "datetime": 1786570069,
+      "headlineKo": "트럼프, 미국이 호르무즈 해협에 대해 '완전히 통제'하고 있다고 말했다 - reuters.com"
+    },
+    {
+      "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkZMS1VuU2djMmpESEVFMlhMZm1lWjEzWlRCVDlwRXRaeVRGMXpxWi1RSFdYT2lCOVZkVGkyYmFxSWp5TnpOUmNNSnR1bDdVUHN6Y2w1cXBORTk1dk45ZzROUHRlVWNicG9zZlZxUWtiMjZhbDZUci1FTVRSdUFpSFYxdHVhOVVVWnJmX3RvbndjandLaUN6cnBPS0k4YzUzdW41M0FVMy1ucHFwYlozRGxCbGRIaE9ZQm5FZDl6TXpQUWQt?oc=5",
       "datetime": 1786568650,
-      "headlineKo": "이란 사진기자, 사진 보도로 15년 징역형 선고 - 로이터"
+      "headlineKo": "이란 사진기자, 보도로 15년 징역형 선고 - reuters.com"
     },
     {
-      "headline": "US budget deficit widens in July on higher outlays, negative tariff receipts - Reuters",
+      "headline": "US budget deficit widens in July on higher outlays, negative tariff receipts - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
       "datetime": 1786565849,
-      "headlineKo": "지출 증가, 마이너스 관세 수입으로 7월 미국 예산 적자 확대 - Reuters"
+      "headlineKo": "지출 증가, 마이너스 관세 수입으로 7월 미국 예산 적자 확대 - reuters.com"
     },
     {
       "headline": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
@@ -240,25 +247,25 @@ const MARKET_DATA = {
       "headlineKo": "CoreWeave는 AI 거래의 주요 약세 사례에 대응합니다. 데이터 센터 재고에 미치는 영향"
     },
     {
-      "headline": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster - Reuters",
+      "headline": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGNVS3hTUTZFb3JqbU5JZTRLRzRFMWVrcGpmSmx1WHo4MUVraTRveDUtTEhqMFZGbnY1TFc0VDhwQlhEWEh2TTBIbmlfS2NYcVY5SXk5WExhTU5vMTdtSWhVREhqNnlZNzdqekJ0MVM3ZmtMa0p3UE1CWnRqSndGTURsM0ZaaEJIRzRPMS1LQVB1YVJMdXNnM0xXY0Z0WS0zZlJ2R2N5THM1a0NWZThJT0dHbFdoLWg2YmFTTlhvQ29IaHc?oc=5",
       "datetime": 1786565641,
-      "headlineKo": "기관들이 재난을 경고하면서 오만 해안선을 강타한 거대한 기름 유출 - 로이터 통신"
+      "headlineKo": "기관들이 재난을 경고하면서 오만 해안선을 강타한 거대한 기름 유출 - reuters.com"
     },
     {
-      "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - Reuters",
+      "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlRqMEthQzJ3NWM2WVctYUhwMTlFekFyd0o3QVpnUkRoeUxUMGxSSThmVW1QT096QmVNUlRHZkxOUXM5M0tGdXBSRlIwbWFQbHFEdVdaR2lUVkdTaWRybHFZYzRtMk85LUNLMXF4bGFsZU1UVE54SXJsZWFRYnRmNlRoVVhWNUZVNm1OZmdlTHI3RlpYYWtULV9qZWFvVUtVMEl4aFByMDJXRHN0RHpxanJvNGY3cGNKN3Y5QUlncHljV193bEstMGFzTQ?oc=5",
       "datetime": 1786564763,
-      "headlineKo": "신뢰할 수 있는 미사일 위협으로 인해 트럼프가 비밀 항공기로 교체했다고 소식통이 전했습니다."
+      "headlineKo": "신뢰할 수 있는 미사일 위협으로 인해 트럼프의 비밀 항공기 교체가 이루어졌다고 소식통은 말합니다 - reuters.com"
     },
     {
-      "headline": "Iran says no progress on reviving interim peace deal with US - Reuters",
+      "headline": "Iran says no progress on reviving interim peace deal with US - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
       "datetime": 1786564682,
-      "headlineKo": "이란, 미국과의 임시 평화협정 재개에 진전이 없다고 밝혔습니다 - 로이터"
+      "headlineKo": "이란, 미국과의 임시 평화협정 재개에 진전이 없다고 밝혔습니다 - reuters.com"
     },
     {
       "headline": "How to trade gold prices as Fed rate hike and inflation odds shifts",
@@ -294,15 +301,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
       "datetime": 1786557464,
       "headlineKo": "'아무도 원하지 않는다': 사이클로스포라가 소비자를 놀라게 함에 따라 상추 가격이 기록적인 폭락을 보입니다."
-    },
-    {
-      "headline": "Israel's military says it targeted a Hamas commander planning attacks in Gaza - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUk51TkRwcXdfMzk0VGlTSW5zeENZQnVLaXktNVpMQzFzMGJYazBQbFk3YlZrNmdDaW5kWjlnQ25IT1pVekljNl93X0dsUEUxREZicF9FUm1qYzZMaEcxa2tOU0dQV3E5bC1kMGI5bVBaQWI1TVZvVng1VGZDSDMzdDcyVDkwNVNoNW5aVUZKYUk5NFdlMjJZeDBhWVVaS2ZTdmQ0QWpNZnF0UFd3M1RjZ3NGbUVzXzRldGRpeklUMGZ0Y2c?oc=5",
-      "datetime": 1786554480,
-      "headlineKo": "이스라엘군은 가자지구에서 공격을 계획하고 있는 하마스 사령관을 표적으로 삼았다고 밝혔습니다."
     }
   ],
-  "_fetched_at": 1786572227.6784277,
-  "_updated_label": "2026-08-13 07:04"
+  "_fetched_at": 1786575628.6814082,
+  "_updated_label": "2026-08-13 08:00"
 };
