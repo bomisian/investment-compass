@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.69000244140625,
+      "current": 82.62999725341797,
       "prevClose": 83.19999694824219,
-      "changeAbs": -0.5099945068359375,
-      "changePct": -0.6129741893538765,
-      "pctRank": 70.64439140811456,
+      "changeAbs": -0.5699996948242188,
+      "changePct": -0.6850958121775045,
+      "pctRank": 70.40572792362768,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.790611176999125,
-      "ma20": 82.36599960327149,
-      "ma60": 82.69566663106282,
-      "chg1m": 3.350006103515625,
-      "chg3m": -19.48999786376953,
-      "chg1mPct": 4.22234214537738,
-      "chg3mPct": -19.07418066701874,
+      "drawdown1y": -26.843736621540547,
+      "ma20": 82.36299934387208,
+      "ma60": 82.69466654459636,
+      "chg1m": 3.2900009155273438,
+      "chg3m": -19.550003051757812,
+      "chg1mPct": 4.146711705803456,
+      "chg3mPct": -19.132905650194576,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.98500061035156,
+      "current": 99.96299743652344,
       "prevClose": 99.81999969482422,
-      "changeAbs": 0.16500091552734375,
-      "changePct": 0.16529845324764034,
-      "pctRank": 35.958631662688944,
+      "changeAbs": 0.14299774169921875,
+      "changePct": 0.14325560222039688,
+      "pctRank": 35.79952267303103,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.5992520325154413,
-      "ma20": 100.4957504272461,
-      "ma60": 100.3037503560384,
-      "chg1m": -0.9550018310546875,
-      "chg3m": 1.6949996948242188,
-      "chg1mPct": -0.9461083890988092,
-      "chg3mPct": 1.7244884312097424,
+      "drawdown1y": -1.620906568187086,
+      "ma20": 100.4946502685547,
+      "ma60": 100.3033836364746,
+      "chg1m": -0.9770050048828125,
+      "chg3m": 1.6729965209960938,
+      "chg1mPct": -0.9679066586608667,
+      "chg3mPct": 1.7021024574350192,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4459.2998046875,
+      "current": 4466.60009765625,
       "prevClose": 4383.0,
-      "changeAbs": 76.2998046875,
-      "changePct": 1.7408123360141456,
+      "changeAbs": 83.60009765625,
+      "changePct": 1.9073716097707047,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.15335652510177,
-      "ma20": 4139.859997558594,
-      "ma60": 4221.109993489584,
-      "chg1m": 398.19970703125,
-      "chg3m": -218.30029296875,
-      "chg1mPct": 9.805217735486496,
-      "chg3mPct": -4.666929374277445,
+      "drawdown1y": -16.016091687880085,
+      "ma20": 4140.225012207031,
+      "ma60": 4221.231665039062,
+      "chg1m": 405.5,
+      "chg3m": -211.0,
+      "chg1mPct": 9.98497919896195,
+      "chg3mPct": -4.510860176048895,
       "lastDate": "2026-08-12",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,25 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump says US has 'total control' over Strait of Hormuz - reuters.com",
+      "headline": "Trump says US has 'total control' over Strait of Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2o4cWFmWUZQNXN2WUhmYU1GVFpxdk9WM3d1YzhtS3lkQVpFdUoyNjJZMG9oSXpRNkk2VXM3X2FlTXp2T2V2VldGR3dBMGczQ0JQQkM2YjJTT2VkRkFBMVpOamlFNTBocGtvR2ZJUWJ2TnRtYVhnTVMzM1RkRks0MzV0MFQ5RWxrdmlTZThMUXh1emcycXdz?oc=5",
       "datetime": 1786570069,
-      "headlineKo": "트럼프, 미국이 호르무즈 해협에 대해 '완전히 통제'하고 있다고 말했다 - reuters.com"
+      "headlineKo": "트럼프, 미국이 호르무즈 해협에 대해 '완전히 통제'하고 있다고 말했다 - 로이터"
     },
     {
-      "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - reuters.com",
+      "headline": "'If I go, you go, right?': Traveling on the presidential plane - without Trump - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVy1qZERoWkltdjF1bTJRWTZQaTJ6NVI1YVBVcVBQLXhuaFBoZ2o2bW9tNTlMR3VFNDlPSHdTUlZ6WkkzR1RkbXpMV1VYZUJRdk1Tano3emJQSGVVdUtlT3FWMWFrVjg3bFZlbUQzNlZuWDJ6M19pb0pjcDRoWjdoZW1iVk04MGRDd0RRSkZpUVJFaDZxem5JWE5SaXFfMVZBZmxub00xdk11SGZ3TFJuNzItSW9IaDB0dzBlVGp2R014eUZj?oc=5",
+      "datetime": 1786569615,
+      "headlineKo": "'내가 가면 당신도 가죠?' 트럼프 없이 대통령 전용기 타고 여행 - 로이터"
+    },
+    {
+      "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkZMS1VuU2djMmpESEVFMlhMZm1lWjEzWlRCVDlwRXRaeVRGMXpxWi1RSFdYT2lCOVZkVGkyYmFxSWp5TnpOUmNNSnR1bDdVUHN6Y2w1cXBORTk1dk45ZzROUHRlVWNicG9zZlZxUWtiMjZhbDZUci1FTVRSdUFpSFYxdHVhOVVVWnJmX3RvbndjandLaUN6cnBPS0k4YzUzdW41M0FVMy1ucHFwYlozRGxCbGRIaE9ZQm5FZDl6TXpQUWQt?oc=5",
       "datetime": 1786568650,
-      "headlineKo": "이란 사진기자, 보도로 15년 징역형 선고 - reuters.com"
+      "headlineKo": "이란 사진기자, 사진 보도로 15년 징역형 선고 - 로이터"
     },
     {
-      "headline": "US budget deficit widens in July on higher outlays, negative tariff receipts - reuters.com",
+      "headline": "US budget deficit widens in July on higher outlays, negative tariff receipts - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUJ0U0RwQ2U2OHRKX1JZX1daaUdjR0ZMZWM5a0x3VndUUzJ0RFRTMTQ4ZHA1blZIYlVNWTZOeTUwa2QxcGQtVGpCRXN0WlJqNW1abl9wMnptY2hTSDA2VHUzNVFBLWVsTnRDYzZYQjBQS2VnZ2VBVVRNVHQwQTJiQ2dxSF92cHlFSENDQ1psZF9rM3plUE5mTzZtUWR0U1d0ZlZ3Z3NZRXBOX2ZQSGZXUTlKNkpHMHZ0amdoUg?oc=5",
       "datetime": 1786565849,
-      "headlineKo": "지출 증가, 마이너스 관세 수입으로 7월 미국 예산 적자 확대 - reuters.com"
+      "headlineKo": "지출 증가, 마이너스 관세 수입으로 7월 미국 예산 적자 확대 - Reuters"
     },
     {
       "headline": "CoreWeave counters a key bear case on the AI trade. What it means for our data center stocks",
@@ -247,25 +254,25 @@ const MARKET_DATA = {
       "headlineKo": "CoreWeave는 AI 거래의 주요 약세 사례에 대응합니다. 데이터 센터 재고에 미치는 영향"
     },
     {
-      "headline": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster - reuters.com",
+      "headline": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGNVS3hTUTZFb3JqbU5JZTRLRzRFMWVrcGpmSmx1WHo4MUVraTRveDUtTEhqMFZGbnY1TFc0VDhwQlhEWEh2TTBIbmlfS2NYcVY5SXk5WExhTU5vMTdtSWhVREhqNnlZNzdqekJ0MVM3ZmtMa0p3UE1CWnRqSndGTURsM0ZaaEJIRzRPMS1LQVB1YVJMdXNnM0xXY0Z0WS0zZlJ2R2N5THM1a0NWZThJT0dHbFdoLWg2YmFTTlhvQ29IaHc?oc=5",
       "datetime": 1786565641,
-      "headlineKo": "기관들이 재난을 경고하면서 오만 해안선을 강타한 거대한 기름 유출 - reuters.com"
+      "headlineKo": "기관들이 재난을 경고하면서 오만 해안선을 강타한 거대한 기름 유출 - 로이터 통신"
     },
     {
-      "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - reuters.com",
+      "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlRqMEthQzJ3NWM2WVctYUhwMTlFekFyd0o3QVpnUkRoeUxUMGxSSThmVW1QT096QmVNUlRHZkxOUXM5M0tGdXBSRlIwbWFQbHFEdVdaR2lUVkdTaWRybHFZYzRtMk85LUNLMXF4bGFsZU1UVE54SXJsZWFRYnRmNlRoVVhWNUZVNm1OZmdlTHI3RlpYYWtULV9qZWFvVUtVMEl4aFByMDJXRHN0RHpxanJvNGY3cGNKN3Y5QUlncHljV193bEstMGFzTQ?oc=5",
       "datetime": 1786564763,
-      "headlineKo": "신뢰할 수 있는 미사일 위협으로 인해 트럼프의 비밀 항공기 교체가 이루어졌다고 소식통은 말합니다 - reuters.com"
+      "headlineKo": "신뢰할 수 있는 미사일 위협으로 인해 트럼프가 비밀 항공기로 교체했다고 소식통이 전했습니다."
     },
     {
-      "headline": "Iran says no progress on reviving interim peace deal with US - reuters.com",
+      "headline": "Iran says no progress on reviving interim peace deal with US - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOel9GN09UcjUyQ2FnMF90ZWhiaFFEazlXcDM1aDZLbExtREZQLXFmOFgtTU92YWZxM19udFlOTkNHRjM1aFl1Qk0xcDhTSTB1ZnR0YnBxSW9xLXhRTHRoeXFtbW9nSy1IeGIzQkVOelJrNlRHQUg2dUJPZVM3T085QTFpbmtCT3JzQ29FNlV5bjhrUGdaSG1kRy1VUWR3dmxiU2RsZC0tMDdWNW56ZHFpTWVB?oc=5",
       "datetime": 1786564682,
-      "headlineKo": "이란, 미국과의 임시 평화협정 재개에 진전이 없다고 밝혔습니다 - reuters.com"
+      "headlineKo": "이란, 미국과의 임시 평화협정 재개에 진전이 없다고 밝혔습니다 - 로이터"
     },
     {
       "headline": "How to trade gold prices as Fed rate hike and inflation odds shifts",
@@ -273,6 +280,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
       "datetime": 1786562552,
       "headlineKo": "연준의 금리 인상 및 인플레이션 확률 변화에 따라 금 가격을 거래하는 방법"
+    },
+    {
+      "headline": "Dollar gains, yen slips as US CPI meets expectations - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnhDSnpIWUFyU185anRuZ0lKYjItT2RJaWU3czNGbGdwVVBTbzRlaEF1QjJ3cERWVEZUVkV2Q0kwc3FtQVBpVWx3SmFnbTVlcEkyX0ZYb0lhd2tDQ0ZXcXl1RHl4aTR6dXVjYnRYZjZVUlN0TDE1QXJ4cF9SaHNueElkRF94cGlXbHJZdnlBSExxZzhaMVAxa0lKblNReU0tdFJJ?oc=5",
+      "datetime": 1786561223,
+      "headlineKo": "미국 CPI가 기대치를 충족함에 따라 달러 상승, 엔화 하락 - Reuters"
     },
     {
       "headline": "Saudi Red Sea oil exports go dark as Houthi attack threat grows - Reuters",
@@ -287,22 +301,8 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/12/ceo-of-intel-just-gave-jim-cramer-one-more-reason-to-call-it-his-favorite-stock.html",
       "datetime": 1786559909,
       "headlineKo": "Intel의 CEO는 Jim Cramer에게 Intel을 자신이 가장 좋아하는 주식이라고 부를 또 하나의 이유를 제시했습니다."
-    },
-    {
-      "headline": "The S&P paces to snap a 2-day skid, and Goldman beefs up its asset management unit",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/12/the-sp-paces-to-snap-a-2-day-skid-and-goldman-beefs-up-its-asset-management-unit.html",
-      "datetime": 1786558424,
-      "headlineKo": "S&P는 이틀 연속 하락세를 보이고 있으며 Goldman은 자산 관리 부문을 강화합니다."
-    },
-    {
-      "headline": "'Nobody wants it': Lettuce prices see record-setting plunge as cyclospora spooks consumers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/12/lettuce-prices-cyclospora-cpi.html",
-      "datetime": 1786557464,
-      "headlineKo": "'아무도 원하지 않는다': 사이클로스포라가 소비자를 놀라게 함에 따라 상추 가격이 기록적인 폭락을 보입니다."
     }
   ],
-  "_fetched_at": 1786575628.6814082,
-  "_updated_label": "2026-08-13 08:00"
+  "_fetched_at": 1786579228.9376316,
+  "_updated_label": "2026-08-13 09:00"
 };
