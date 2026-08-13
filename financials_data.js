@@ -151,7 +151,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -326,7 +326,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -500,7 +500,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -673,7 +673,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -847,7 +847,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -973,7 +973,7 @@ const FINANCIALS_DATA = {
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1147,7 +1147,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -1321,7 +1321,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1495,7 +1495,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1669,7 +1669,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-05-31",
@@ -1842,7 +1842,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2016,7 +2016,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2190,7 +2190,7 @@ const FINANCIALS_DATA = {
       }
     ],
     "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -2380,7 +2380,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-02-28",
@@ -2556,7 +2556,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -2712,7 +2712,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2888,7 +2888,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3015,7 +3015,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3181,7 +3181,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -3317,7 +3317,7 @@ const FINANCIALS_DATA = {
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
     "_fetched_at": 1786338990.8919137,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3493,7 +3493,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3669,7 +3669,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3713,7 +3713,8 @@ const FINANCIALS_DATA = {
         "eps": -11.32,
         "ocf": 84000000,
         "capex": -204000000,
-        "fcf": -120000000
+        "fcf": -120000000,
+        "endDate": "2025-06-30"
       }
     ],
     "quarterly": [
@@ -3766,7 +3767,29 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786603943.9310465,
-    "_updated_label": "2026-08-13 15:52"
+    "_updated_label": "2026-08-13 15:52",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": -0.16
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": 0.75
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 5.15
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 23.03
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 43.97
+      }
+    ]
   },
   "WDC": {
     "annual": [
@@ -3920,7 +3943,7 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_fetched_at": 1786348562.6155288,
-    "_updated_label": "2026-08-13 14:51",
+    "_updated_label": "2026-08-13 15:52",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
