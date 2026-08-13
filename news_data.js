@@ -393,7 +393,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 17,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "AAPL": {
     "nextEarnings": {
@@ -795,7 +801,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 23,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "GOOGL": {
     "nextEarnings": {
@@ -893,21 +905,23 @@ const NEWS_DATA = {
         "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대"
       },
       {
-        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
-        "datetime": 1786548608,
+        "headline": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
+        "datetime": 1786528801,
         "relevance": 1,
+        "headlineKo": "Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다.",
         "analysis": {
           "version": 8,
-          "importance": "medium",
+          "importance": "low",
           "tone": "risk",
-          "certainty": "본문 확인 필요",
+          "certainty": "본문 기반 간이 분석",
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Google’s Pixel 11 puts Gemini at center of AI phone battle with Apple Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points Google devices chief Rick Osterloh tells C",
+            "Osterloh said Gemini could eventually become the primary way people use their phones, laptops and other devices.",
+            "He also said the memory shortage is forcing consumer electronics prices higher and that Google expects it will need to raise prices further."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -930,19 +944,11 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: GOOGL에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 다음 실적의 매출·이익·현금흐름가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
-          "relevance": 1
-        },
-        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
-      },
-      {
-        "headline": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
-        "datetime": 1786528801,
-        "relevance": 1,
-        "headlineKo": "Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다."
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        }
       },
       {
         "headline": "Google Gemini Hits 1 Billion Monthly Users, Closing the Gap With ChatGPT—Sundar Pichai Calls it ‘Fastest-Growing’ Product Ever",
@@ -954,50 +960,6 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
-      {
-        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
-        "datetime": 1786548608,
-        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.",
-        "relevance": 1,
-        "analysis": {
-          "version": 8,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: GOOGL에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 다음 실적의 매출·이익·현금흐름가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
-          "relevance": 1
-        }
-      },
       {
         "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
         "source": "Benzinga",
@@ -1069,7 +1031,45 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
         "datetime": 1786528801,
         "headlineKo": "Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다.",
-        "relevance": 1
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Google’s Pixel 11 puts Gemini at center of AI phone battle with Apple Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points Google devices chief Rick Osterloh tells C",
+            "Osterloh said Gemini could eventually become the primary way people use their phones, laptops and other devices.",
+            "He also said the memory shortage is forcing consumer electronics prices higher and that Google expects it will need to raise prices further."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GOOGL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GOOGL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        }
       },
       {
         "headline": "Google Gemini Hits 1 Billion Monthly Users, Closing the Gap With ChatGPT—Sundar Pichai Calls it ‘Fastest-Growing’ Product Ever",
@@ -1174,7 +1174,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:48"
+    "_updated_label": "2026-08-13 15:48",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 18,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "MSFT": {
     "nextEarnings": {
@@ -1532,7 +1538,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:48"
+    "_updated_label": "2026-08-13 15:48",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 17,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "AMZN": {
     "nextEarnings": {
@@ -1920,7 +1932,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:48"
+    "_updated_label": "2026-08-13 15:48",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 21,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "TSM": {
     "nextEarnings": {
@@ -2315,7 +2333,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:51"
+    "_updated_label": "2026-08-13 15:51",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 15,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "AVGO": {
     "nextEarnings": {
@@ -2659,7 +2683,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:50"
+    "_updated_label": "2026-08-13 15:50",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 15,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "META": {
     "nextEarnings": {
@@ -3096,7 +3126,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:48"
+    "_updated_label": "2026-08-13 15:48",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 28,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "TSLA": {
     "nextEarnings": {
@@ -3595,7 +3631,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 29,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "MU": {
     "nextEarnings": {
@@ -4011,7 +4053,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:52"
+    "_updated_label": "2026-08-13 15:52",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 25,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "AMD": {
     "nextEarnings": {
@@ -4448,7 +4496,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:50"
+    "_updated_label": "2026-08-13 15:50",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 21,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "INTC": {
     "nextEarnings": {
@@ -4954,7 +5008,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:51"
+    "_updated_label": "2026-08-13 15:51",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 33,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "AMAT": {
     "nextEarnings": {
@@ -5328,7 +5388,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:51"
+    "_updated_label": "2026-08-13 15:51",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 12,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "QQQ": {
     "nextEarnings": null,
@@ -5520,7 +5586,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:47"
+    "_updated_label": "2026-08-13 15:47",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 5,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "SPY": {
     "nextEarnings": null,
@@ -5862,7 +5934,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:48"
+    "_updated_label": "2026-08-13 15:48",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 15,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "ORCL": {
     "nextEarnings": {
@@ -6282,7 +6360,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 18,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "CRM": {
     "nextEarnings": {
@@ -6619,7 +6703,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 14,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "PLTR": {
     "nextEarnings": {
@@ -7091,7 +7181,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:49"
+    "_updated_label": "2026-08-13 15:49",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 26,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "QCOM": {
     "nextEarnings": {
@@ -7471,7 +7567,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:50"
+    "_updated_label": "2026-08-13 15:50",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 12,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "ARM": {
     "nextEarnings": {
@@ -7801,7 +7903,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:50"
+    "_updated_label": "2026-08-13 15:50",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 13,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "MRVL": {
     "nextEarnings": {
@@ -8131,7 +8239,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:50"
+    "_updated_label": "2026-08-13 15:50",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 13,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "ASML": {
     "nextEarnings": {
@@ -8475,7 +8589,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:51"
+    "_updated_label": "2026-08-13 15:51",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 15,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "LRCX": {
     "nextEarnings": {
@@ -8791,7 +8911,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:51"
+    "_updated_label": "2026-08-13 15:51",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 11,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "KLAC": {
     "nextEarnings": {
@@ -9084,7 +9210,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:52"
+    "_updated_label": "2026-08-13 15:52",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 8,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "SNDK": {
     "nextEarnings": {
@@ -9542,7 +9674,13 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:52"
+    "_updated_label": "2026-08-13 15:52",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 31,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   },
   "WDC": {
     "nextEarnings": {
@@ -9865,6 +10003,12 @@ const NEWS_DATA = {
       }
     ],
     "_fetched_at": 1786603669.671009,
-    "_updated_label": "2026-08-13 15:52"
+    "_updated_label": "2026-08-13 15:52",
+    "_relevance_audit": {
+      "ruleVersion": 3,
+      "checked": 12,
+      "removed": 0,
+      "updated": "2026-08-13 17:52"
+    }
   }
 };
