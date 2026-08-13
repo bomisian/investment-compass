@@ -16,6 +16,13 @@ const NEWS_DATA = {
         "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자"
       },
       {
+        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
+        "datetime": 1786558958,
+        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다"
+      },
+      {
         "headline": "Which S&P500 stocks are the most active on Wednesday?",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
@@ -35,13 +42,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
         "datetime": 1786552806,
         "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?"
-      },
-      {
-        "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959",
-        "datetime": 1786549420,
-        "headlineKo": "싱가포르 국영 기금이 메모리 거대 기업에 지분을 추가함에 따라 SK 하이닉스, 삼성 주가 상승"
       }
     ],
     "newsHistory": [
@@ -51,6 +51,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
         "datetime": 1786561805,
         "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자"
+      },
+      {
+        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
+        "datetime": 1786558958,
+        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다"
       },
       {
         "headline": "Which S&P500 stocks are the most active on Wednesday?",
@@ -424,8 +431,8 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "AAPL": {
     "nextEarnings": {
@@ -766,8 +773,8 @@ const NEWS_DATA = {
         "headlineKo": "WSJ는 애플이 중국의 아이폰과 맥북용 CXMT 메모리 칩을 테스트했다고 보도했다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "GOOGL": {
     "nextEarnings": {
@@ -777,6 +784,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
+      {
+        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
+        "datetime": 1786558958,
+        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다"
+      },
+      {
         "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
@@ -784,41 +805,55 @@ const NEWS_DATA = {
         "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고"
       },
       {
-        "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
+        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a",
-        "datetime": 1786540465,
-        "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승"
+        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
+        "datetime": 1786548608,
+        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
       },
       {
-        "headline": "Elon Musk Says AI Will Be SpaceX's Biggest Business by September: Does the Math Check Out?",
+        "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=11e402cf842a1115f49674c4e1e0791fd4e25df9e4e0ac49e3cd626d7392d760",
-        "datetime": 1786531046,
-        "headlineKo": "Elon Musk는 AI가 9월까지 SpaceX의 가장 큰 사업이 될 것이라고 말했습니다: 수학이 확인됩니까?"
-      },
-      {
-        "headline": "Google Raises Pixel 11 Series Entry Prices Across All Three Models; Drops 128GB Tier",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c9df3dbc2a8cc05943c78e7bd95a09e27ab3a06244d3eed26cb42ca8b4877227",
-        "datetime": 1786530103,
-        "headlineKo": "Google은 세 가지 모델 모두에서 Pixel 11 시리즈 진입 가격을 인상합니다. 128GB 등급 삭제"
-      },
-      {
-        "headline": "Google Raises Starting Price For Pixel Watch 5 Models",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0b1ba7d19264cd85baed0db77e8782519e1aaffde2d3bd8fc882c502582eccfd",
-        "datetime": 1786530071,
-        "headlineKo": "Google, Pixel Watch 5 모델의 시작 가격 인상"
+        "url": "https://finnhub.io/api/news?id=079193d82a1b115d9b8c1dbce347b0b0beb0dd53ec2d2c450e10c28f84d1f851",
+        "datetime": 1786541666,
+        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다."
       }
     ],
     "newsHistory": [
       {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
+      {
+        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
+        "datetime": 1786558958,
+        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다"
+      },
+      {
         "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
         "datetime": 1786554734,
         "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고"
+      },
+      {
+        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
+        "datetime": 1786548608,
+        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
+      },
+      {
+        "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=079193d82a1b115d9b8c1dbce347b0b0beb0dd53ec2d2c450e10c28f84d1f851",
+        "datetime": 1786541666,
+        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다."
       },
       {
         "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
@@ -1129,8 +1164,8 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "MSFT": {
     "nextEarnings": {
@@ -1513,8 +1548,8 @@ const NEWS_DATA = {
         "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "AMZN": {
     "nextEarnings": {
@@ -1523,6 +1558,13 @@ const NEWS_DATA = {
       "epsEstimate": 1.9983
     },
     "news": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Wednesday's session: top gainers and losers in the dow jones index",
         "source": "ChartMill",
@@ -1550,16 +1592,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
         "datetime": 1786550345,
         "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법"
-      },
-      {
-        "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208",
-        "datetime": 1786545952,
-        "headlineKo": "AI 채택 붐으로 S&P 500이 9,000으로 오를 수 있을까요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Wednesday's session: top gainers and losers in the dow jones index",
         "source": "ChartMill",
@@ -1904,8 +1946,8 @@ const NEWS_DATA = {
         "headlineKo": "Electrovaya (TSX:ELVA) 주식은 Amazon과 Jamestown의 발전이 초점을 맞추면서 공정 가치 상승을 확인"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "TSM": {
     "nextEarnings": {
@@ -2113,8 +2155,8 @@ const NEWS_DATA = {
         "headlineKo": "Sandisk: 메모리는 구조적으로 변화했으며 해당 부문은 P/E 5배에 머물 수 없습니다"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "AVGO": {
     "nextEarnings": {
@@ -2123,6 +2165,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.3015
     },
     "news": [
+      {
+        "headline": "Aeluma: Why Sensor Demand Trails Broader Photonics Market",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4f1b2d0eb6d6fbc8194155087941a1c9f42751e26b6be4378994bfd9db716229",
+        "datetime": 1786557051,
+        "headlineKo": "Aeluma: 센서 수요가 더 넓은 포토닉스 시장을 뒤흔드는 이유"
+      },
       {
         "headline": "Credo's Massive Valuation Reflects Detached-From-Reality Expectations",
         "source": "SeekingAlpha",
@@ -2150,16 +2199,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec",
         "datetime": 1786524648,
         "headlineKo": "호르무즈 스트레스로 인해 거래자들이 불안해짐에 따라 AI Capex는 업무 시간 이후에 포효합니다."
-      },
-      {
-        "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
-        "datetime": 1786467145,
-        "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Aeluma: Why Sensor Demand Trails Broader Photonics Market",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4f1b2d0eb6d6fbc8194155087941a1c9f42751e26b6be4378994bfd9db716229",
+        "datetime": 1786557051,
+        "headlineKo": "Aeluma: 센서 수요가 더 넓은 포토닉스 시장을 뒤흔드는 이유"
+      },
       {
         "headline": "Credo's Massive Valuation Reflects Detached-From-Reality Expectations",
         "source": "SeekingAlpha",
@@ -2385,8 +2434,8 @@ const NEWS_DATA = {
         "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "META": {
     "nextEarnings": {
@@ -2395,6 +2444,13 @@ const NEWS_DATA = {
       "epsEstimate": 6.8868
     },
     "news": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
         "source": "Benzinga",
@@ -2422,16 +2478,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208",
         "datetime": 1786545952,
         "headlineKo": "AI 채택 붐으로 S&P 500이 9,000으로 오를 수 있을까요?"
-      },
-      {
-        "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a",
-        "datetime": 1786540465,
-        "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
         "source": "Benzinga",
@@ -2734,8 +2790,8 @@ const NEWS_DATA = {
         "headlineKo": "메타 대 알파벳: 2분기 이후 귀하의 포트폴리오에 포함될 자격이 있는 주식은 무엇입니까?"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "TSLA": {
     "nextEarnings": {
@@ -2759,6 +2815,13 @@ const NEWS_DATA = {
         "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락"
       },
       {
+        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
+        "datetime": 1786548608,
+        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
+      },
+      {
         "headline": "WeRide CEO Calls Its Tech Comparable To Tesla FSD",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=7d953bd6537e1319dd8f89b0fc93ceeb6e352ad4fcbe2db09dca640022ba0227",
@@ -2771,13 +2834,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=2ca9c3f4788f04302a0e3c1106e24cd92e46166db5f4c4d484a8135056f7ed87",
         "datetime": 1786541715,
         "headlineKo": "오늘 세션에서 고래 경보가 발령된 8가지 임의 소비재 주식"
-      },
-      {
-        "headline": "Super Micro, Lumentum, CoreWeave Earnings Highlight AI Infrastructure Demand; CPI Data Shows Stagflation Risks Remain",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=d3433d6184daca629c457ced155a8476c05d9747a9544fdfbd7d00f292e3db51",
-        "datetime": 1786539777,
-        "headlineKo": "Super Micro, Lumentum, CoreWeave 수익으로 AI 인프라 수요 강조; CPI 데이터에 따르면 스태그플레이션 위험이 여전히 남아 있음"
       }
     ],
     "newsHistory": [
@@ -2794,6 +2850,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
         "datetime": 1786548825,
         "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락"
+      },
+      {
+        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
+        "datetime": 1786548608,
+        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
       },
       {
         "headline": "WeRide CEO Calls Its Tech Comparable To Tesla FSD",
@@ -3069,8 +3132,8 @@ const NEWS_DATA = {
         "headlineKo": "우주 기반 데이터 센터의 잠재력은 엄청납니다. SpaceX 주식을 매력적으로 만드는 것만으로는 충분하지 않습니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "MU": {
     "nextEarnings": {
@@ -3425,8 +3488,8 @@ const NEWS_DATA = {
         "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "AMD": {
     "nextEarnings": {
@@ -3767,8 +3830,8 @@ const NEWS_DATA = {
         "headlineKo": "Advanced Micro Devices는 기록적인 수익을 보고했습니다. 어쨌든 AMD 주식은 하락했습니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "INTC": {
     "nextEarnings": {
@@ -4158,8 +4221,8 @@ const NEWS_DATA = {
         "headlineKo": "월스트리트의 이 분석가는 CPU 거래가 과도하다고 생각합니다. ARM(ARM) 주식을 팔아야 할까요?"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "AMAT": {
     "nextEarnings": {
@@ -4168,6 +4231,13 @@ const NEWS_DATA = {
       "epsEstimate": 3.4544
     },
     "news": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
         "source": "Benzinga",
@@ -4195,16 +4265,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
         "datetime": 1786464715,
         "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
-      },
-      {
-        "headline": "Wondering what's happening in today's S&P500  pre-market session?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=e10b9cdddb28fc264923b491c9b5b3391289d1f955b34a6bdd62483b830e94de",
-        "datetime": 1786451700,
-        "headlineKo": "오늘 S&P500 시장 전 세션에서 무슨 일이 일어나고 있는지 궁금하십니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
+        "datetime": 1786564051,
+        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트"
+      },
       {
         "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
         "source": "Benzinga",
@@ -4416,49 +4486,77 @@ const NEWS_DATA = {
         "headlineKo": "다우존스 선물은 시장 상승세의 지배를 받게 될 것입니다; Cisco, Lumentum 앞으로의 수익"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
+      {
+        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
+        "datetime": 1786577700,
+        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지"
+      },
+      {
+        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
+        "datetime": 1786575900,
+        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다."
+      },
+      {
+        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
+        "datetime": 1786567800,
+        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도"
+      },
+      {
+        "headline": "Consumer Price Index: Inflation At 3.4% In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
+        "datetime": 1786565100,
+        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+      },
       {
         "headline": "TQQQ: Why I'm Not Buying The 15% Dip",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=e9074f62cd263e0922b4c4a6ab924833425873a87867b1000665eed3e5632526",
         "datetime": 1786555794,
         "headlineKo": "TQQQ: 내가 15% 하락장을 매수하지 않는 이유"
-      },
-      {
-        "headline": "Don't Ignore The Profits Signal, My New Target For The S&P 500",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d86e8e689d1bc9d9468cd243f4c2cfeb48cee990b02f20ebd3ce8fd233731124",
-        "datetime": 1786554697,
-        "headlineKo": "이익 신호를 무시하지 마세요, S&P 500의 새로운 목표"
-      },
-      {
-        "headline": "Markets Think The Energy Crisis Risk Is Over, Quite The Opposite",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b8d9f113fee95ad2b1da77740438f91015def086ec8e2162c618a1edbaa52eee",
-        "datetime": 1786554008,
-        "headlineKo": "시장은 에너지 위기 위험이 끝났다고 생각하지만, 정반대입니다."
-      },
-      {
-        "headline": "3 Ways To Get Paid For Big Tech's Volatility",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
-        "datetime": 1786550345,
-        "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법"
-      },
-      {
-        "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ef623687a87cbc07036d7dc12ad414faad5045cb7a92b09628b3319f3d6725b3",
-        "datetime": 1786544708,
-        "headlineKo": "Applied Materials Q3 미리보기: YTD 105% 재고 증가, 6월 사상 최고치 대비 25% 감소, 앞으로 어떻게 될까요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
+        "datetime": 1786577700,
+        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지"
+      },
+      {
+        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
+        "datetime": 1786575900,
+        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다."
+      },
+      {
+        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
+        "datetime": 1786567800,
+        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도"
+      },
+      {
+        "headline": "Consumer Price Index: Inflation At 3.4% In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
+        "datetime": 1786565100,
+        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+      },
       {
         "headline": "TQQQ: Why I'm Not Buying The 15% Dip",
         "source": "SeekingAlpha",
@@ -4782,49 +4880,77 @@ const NEWS_DATA = {
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:01"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "SPY": {
     "nextEarnings": null,
     "news": [
+      {
+        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
+        "datetime": 1786577700,
+        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지"
+      },
+      {
+        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
+        "datetime": 1786575900,
+        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다."
+      },
+      {
+        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
+        "datetime": 1786567800,
+        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도"
+      },
+      {
+        "headline": "Consumer Price Index: Inflation At 3.4% In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
+        "datetime": 1786565100,
+        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+      },
       {
         "headline": "Don't Ignore The Profits Signal, My New Target For The S&P 500",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d86e8e689d1bc9d9468cd243f4c2cfeb48cee990b02f20ebd3ce8fd233731124",
         "datetime": 1786554697,
         "headlineKo": "이익 신호를 무시하지 마세요, S&P 500의 새로운 목표"
-      },
-      {
-        "headline": "Markets Think The Energy Crisis Risk Is Over, Quite The Opposite",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b8d9f113fee95ad2b1da77740438f91015def086ec8e2162c618a1edbaa52eee",
-        "datetime": 1786554008,
-        "headlineKo": "시장은 에너지 위기 위험이 끝났다고 생각하지만, 정반대입니다."
-      },
-      {
-        "headline": "'Canada, U.S. not yet ready to make tariff deal, Canada unsatisfied with latest U.S. offer' - CBC",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=b59ffc135e103bd0906f29187d9f562b5e10d28af0347ac7f00ced81596abbb2",
-        "datetime": 1786547131,
-        "headlineKo": "'캐나다, 미국은 아직 관세 협상을 할 준비가 되지 않았고, 캐나다는 미국의 최신 제안에 만족하지 않습니다' - CBC"
-      },
-      {
-        "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ef623687a87cbc07036d7dc12ad414faad5045cb7a92b09628b3319f3d6725b3",
-        "datetime": 1786544708,
-        "headlineKo": "Applied Materials Q3 미리보기: YTD 105% 재고 증가, 6월 사상 최고치 대비 25% 감소, 앞으로 어떻게 될까요?"
-      },
-      {
-        "headline": "'Ottawa Weighs Proposal On Auto Tariffs As It Presses U.S. For Reprieve, Sources Say' - The Globe And Mail",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=eccc7302a5169e06b4ebf9e819996770f60587d48b6fd2b7e3535e07dcd78bac",
-        "datetime": 1786541049,
-        "headlineKo": "'오타와가 미국에 유예를 요구하면서 자동차 관세에 대한 제안을 중시한다고 소식통이 전했습니다' - The Globe And Mail"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
+        "datetime": 1786577700,
+        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지"
+      },
+      {
+        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
+        "datetime": 1786575900,
+        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다."
+      },
+      {
+        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
+        "datetime": 1786567800,
+        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도"
+      },
+      {
+        "headline": "Consumer Price Index: Inflation At 3.4% In July",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
+        "datetime": 1786565100,
+        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+      },
       {
         "headline": "Don't Ignore The Profits Signal, My New Target For The S&P 500",
         "source": "SeekingAlpha",
@@ -5176,8 +5302,8 @@ const NEWS_DATA = {
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:01"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "ORCL": {
     "nextEarnings": {
@@ -5469,8 +5595,8 @@ const NEWS_DATA = {
         "headlineKo": "AMD(Advanced Micro Devices) 가격 예측: 2031년까지 5,000달러 투자의 가치는 얼마나 될까요?"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "CRM": {
     "nextEarnings": {
@@ -5501,18 +5627,18 @@ const NEWS_DATA = {
         "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락"
       },
       {
-        "headline": "Stocks making the biggest moves premarket: CoreWeave, Super Micro Computer, Nebius, Cava & more",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=886ee75cef14f414afeb37e566da44c4e176a7fc39f3f085e89e7eb3699b1779",
-        "datetime": 1786520204,
-        "headlineKo": "시판 전 가장 큰 움직임을 보이는 주식: CoreWeave, Super Micro Computer, Nebius, Cava 등"
+        "headline": "UBS Maintains Neutral on Salesforce, Raises Price Target to $210",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d48b6bec8390b8a75632c3ea14a5e2afe89cec673c7146e87c73bd3fb0dd4cd3",
+        "datetime": 1786526379,
+        "headlineKo": "UBS, Salesforce 중립 유지, 목표 가격 210달러로 인상"
       },
       {
-        "headline": "Oakmark Concentrated Strategy Q2 2026 Performance Review",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=9c7dd2ef2768d464000f8ada3b66753294353653db0bf5ce5dd6a901e6f7246b",
-        "datetime": 1786435800,
-        "headlineKo": "Oakmark 집중 전략 2026년 2분기 성과 검토"
+        "headline": "Wells Fargo Maintains Equal-Weight on Salesforce, Raises Price Target to $205",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9b421f27bd13109a3d843e853d98fc144ee44f8c2a2ed3dd3e91b05ad828fb2e",
+        "datetime": 1786523321,
+        "headlineKo": "Wells Fargo는 Salesforce에서 동일 비중을 유지하고 목표 가격을 205달러로 높였습니다."
       }
     ],
     "newsHistory": [
@@ -5536,6 +5662,20 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
         "datetime": 1786548825,
         "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락"
+      },
+      {
+        "headline": "UBS Maintains Neutral on Salesforce, Raises Price Target to $210",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d48b6bec8390b8a75632c3ea14a5e2afe89cec673c7146e87c73bd3fb0dd4cd3",
+        "datetime": 1786526379,
+        "headlineKo": "UBS, Salesforce 중립 유지, 목표 가격 210달러로 인상"
+      },
+      {
+        "headline": "Wells Fargo Maintains Equal-Weight on Salesforce, Raises Price Target to $205",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9b421f27bd13109a3d843e853d98fc144ee44f8c2a2ed3dd3e91b05ad828fb2e",
+        "datetime": 1786523321,
+        "headlineKo": "Wells Fargo는 Salesforce에서 동일 비중을 유지하고 목표 가격을 205달러로 높였습니다."
       },
       {
         "headline": "Stocks making the biggest moves premarket: CoreWeave, Super Micro Computer, Nebius, Cava & more",
@@ -5671,8 +5811,8 @@ const NEWS_DATA = {
         "headlineKo": "다우존스 주식은 오늘 세션에서 움직이고 있습니다"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:02"
   },
   "PLTR": {
     "nextEarnings": {
@@ -5710,11 +5850,11 @@ const NEWS_DATA = {
         "headlineKo": "Palantir: '다른 세계'의 2분기 결과, 장기 AI 투자"
       },
       {
-        "headline": "Palantir's Bombshell Earnings Path Continues, Risks Are Spreading",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4a212fb1c5f6693cf1016e676ca9c08a884ec3e61852fc120bee19389dfbc227",
-        "datetime": 1786530531,
-        "headlineKo": "Palantir의 폭탄 같은 수익 경로는 계속되고 위험은 확산되고 있습니다."
+        "headline": "Palantir Stock Edges Lower Wednesday: What's Driving the Move?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=28610e062b88d2898756889567b4d4ae76ce8143ca867df879c1d724fc971be9",
+        "datetime": 1786531049,
+        "headlineKo": "Palantir 주가 하락 수요일: 움직임을 이끄는 요인은 무엇입니까?"
       }
     ],
     "newsHistory": [
@@ -5745,6 +5885,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=507c5cc103ab8a1eb53bee49768a618e17296c66147d6ed9541b05e0266bafab",
         "datetime": 1786534012,
         "headlineKo": "Palantir: '다른 세계'의 2분기 결과, 장기 AI 투자"
+      },
+      {
+        "headline": "Palantir Stock Edges Lower Wednesday: What's Driving the Move?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=28610e062b88d2898756889567b4d4ae76ce8143ca867df879c1d724fc971be9",
+        "datetime": 1786531049,
+        "headlineKo": "Palantir 주가 하락 수요일: 움직임을 이끄는 요인은 무엇입니까?"
       },
       {
         "headline": "Palantir's Bombshell Earnings Path Continues, Risks Are Spreading",
@@ -5950,8 +6097,8 @@ const NEWS_DATA = {
         "headlineKo": "Palantir: 경쟁은 패자를 위한 것입니다(등급 업그레이드)"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:02"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "QCOM": {
     "nextEarnings": {
@@ -6103,8 +6250,8 @@ const NEWS_DATA = {
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "ARM": {
     "nextEarnings": {
@@ -6113,6 +6260,13 @@ const NEWS_DATA = {
       "epsEstimate": 0.4792
     },
     "news": [
+      {
+        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
+        "datetime": 1786546046,
+        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다."
+      },
       {
         "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
         "source": "Benzinga",
@@ -6140,16 +6294,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=84972e8a4c0d3e11f6ddec1f58467a07ebb4a43096ae47453652c8efa1d45c93",
         "datetime": 1786432087,
         "headlineKo": "AMD: 제품 주기가 아닌 공급 위치 구매"
-      },
-      {
-        "headline": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44",
-        "datetime": 1786425900,
-        "headlineKo": "2026년 나스닥 주식 12개는 두 배로 올랐지만, 그 어느 것도 장대한 7개는 아니다"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
+        "datetime": 1786546046,
+        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다."
+      },
       {
         "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
         "source": "Benzinga",
@@ -6242,8 +6396,8 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "MRVL": {
     "nextEarnings": {
@@ -6252,6 +6406,13 @@ const NEWS_DATA = {
       "epsEstimate": 0.939
     },
     "news": [
+      {
+        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
+        "datetime": 1786546046,
+        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다."
+      },
       {
         "headline": "These S&P500 stocks are gapping in today's session",
         "source": "ChartMill",
@@ -6279,16 +6440,16 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290",
         "datetime": 1786469238,
         "headlineKo": "Marvell: 급격한 매도세에 흔들리지 마세요"
-      },
-      {
-        "headline": "Nvidia's Chip Boom Is Spreading: JPMorgan Says These 6 Stocks Could Ride It",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=9eaece3b92d74dffd216e24bf0ac115c08ba97f25b2a6a9ea8ae468759897284",
-        "datetime": 1786458913,
-        "headlineKo": "Nvidia의 칩 붐이 확산되고 있습니다: JPMorgan은 이 6개 주식이 이를 탈 수 있다고 말합니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
+        "datetime": 1786546046,
+        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다."
+      },
       {
         "headline": "These S&P500 stocks are gapping in today's session",
         "source": "ChartMill",
@@ -6409,8 +6570,8 @@ const NEWS_DATA = {
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "ASML": {
     "nextEarnings": {
@@ -6576,8 +6737,8 @@ const NEWS_DATA = {
         "headlineKo": "Situational Awareness는 칩 스타트업 Source Foundry에 5억 달러를 투자했습니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "LRCX": {
     "nextEarnings": {
@@ -6764,8 +6925,8 @@ const NEWS_DATA = {
         "headlineKo": "Jim Cramer는 2026년에 매수해야 할 5가지 투자 테마와 13가지 주식을 지정합니다."
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "KLAC": {
     "nextEarnings": {
@@ -6903,8 +7064,8 @@ const NEWS_DATA = {
         "headlineKo": "Tesla-SpaceX Terafab 베팅: 이익을 얻을 수 있는 4가지 칩 장비 주식"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "SNDK": {
     "nextEarnings": {
@@ -7210,8 +7371,8 @@ const NEWS_DATA = {
         "headlineKo": "Sandisk: AI 붐을 통해 더 나은 비즈니스가 탄생하고 있습니다"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   },
   "WDC": {
     "nextEarnings": {
@@ -7384,7 +7545,7 @@ const NEWS_DATA = {
         "headlineKo": "Western Digital: 실적 하락 이후 기술적 위협에 주의하세요"
       }
     ],
-    "_fetched_at": 1786572106.6829169,
-    "_updated_label": "2026-08-13 07:03"
+    "_fetched_at": 1786593739.4403772,
+    "_updated_label": "2026-08-13 13:03"
   }
 };
