@@ -233,4 +233,31 @@ const BUSINESS_NOTES = {
       ],
     }],
   },
+  // ============ newsLog: 실적 외 '중요 뉴스' 해석 (2026-08-13 신규) ============
+  // [배경] 사용자가 뉴스(BofA의 2500억달러 AI·에너지 인프라 공급 약정, 오라클 감원 뉴스)를
+  // 직접 붙여넣고 "이런 뉴스가 나올 때 분석·해석을 정리해줄 수 있냐"고 요청함 - 본인이 쓴 형식
+  // 그대로([핵심내용 분석]/[왜 중요한가]/[초보자용 정리])를 필드명으로 그대로 씀
+  // (coreAnalysis/whyItMatters/beginnerSummary). analystLog와의 차이: analystLog는 '실적 숫자가
+  // 흔들렸을 때'만 트리거되는 재무제표 기반 조사이고, newsLog는 실적과 무관하게 터진 개별
+  // 뉴스(감원, 신용등급, 대형 계약 등) 하나하나를 다룸 - 둘 다 날짜순으로 쌓아가는 append-only
+  // 로그이고 자동화 안 함(세션에서 요청할 때 Claude가 WebSearch로 조사해서 추가).
+  ORCL: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "오라클, 9월 이전 추가 감원 준비 + 5년 CDS 스프레드 사상 최고치·신용등급 강등 겹침 (AI 인프라發 부채 부담 심화)",
+        coreAnalysis: "①오라클이 9월 1일 이전 추가 감원을 준비 중이고(일부 팀은 두 자릿수% 규모) - 이미 2026 회계연도(2025-06~2026-05)에 직원 수가 약 162,000명→약 141,000명으로 21,000명(약 13%) 줄었음. 같은 회계연도에 AI 데이터센터 인프라에 $55.7B를 투입했고 현금유출이 유입보다 $23.7B 더 많아서, 이 부족분을 $43B 회사채 발행 + $5B 증자로 메움 - 퇴직/구조조정 비용은 전년 $374M에서 $1.84B로 급증. ②별도로 S&P가 2026-07-09 오라클 장기신용등급을 BBB→BBB-로 한 단계 강등함(투자등급 중 최하위, 정크본드 바로 위) - 사유는 'AI 관련 초기 설비투자 소요를 반복적으로 과소평가함'. ③오라클의 5년물 CDS(신용부도스와프) 스프레드가 2026년 7월 중 약 198~203bp까지 치솟아 사상 최고치를 기록(일부 매체는 최대 215bp까지 보도) - 2025년 중반 대비 약 4배 수준이고 2008년 금융위기 당시 피크치도 웃돎. 최근 4개 분기 연속 잉여현금흐름(FCF)이 마이너스.",
+        whyItMatters: "감원 자체는 'AI 인프라 비용을 메우려는 인건비 절감'이라는 이미 알려진 맥락의 반복이라 새로운 이야기는 아니지만, 9월에 또 예정돼 있다는 건 비용 압박이 계속되고 있다는 뜻. 더 중요한 신호는 신용등급 강등과 CDS 급등 쪽 - 이건 '오라클이 갚아야 할 빚이 갑자기 늘어난 것'이 아니라 '채권시장이 오라클의 상환능력을 이전보다 훨씬 불안하게 보기 시작했다'는 뜻임. 오라클의 최근 주가 스토리는 거의 전적으로 'OCI(오라클 클라우드) AI 인프라 수주잔고가 막대하다'는 데 의존해왔는데, 이 수주를 실제로 지어내려면 계속 빚을 내야 하고 그 빚을 갚을 현금은 아직 이익으로 못 들어오고 있음(FCF 마이너스 지속) - '수주는 늘어나는데 현금은 계속 나간다'는 전형적인 레버리지 확장기 위험 신호. 다만 신용등급이 아직 투자등급(BBB-) 안에 있고 감원으로 비용을 관리하려는 시도 자체가 회사가 문제를 인지·대응 중이라는 뜻이기도 해서, '이미 부도 위기'로 확대 해석할 단계는 아님.",
+        beginnerSummary: "오라클이 인공지능(AI) 데이터센터를 짓는 데 어마어마한 돈을 쏟아붓고 있는데, 벌어들이는 속도보다 쓰는 속도가 훨씬 빨라서 빚(회사채)을 계속 늘리고 있어요. 그래서 인건비라도 줄이려고 직원을 계속 해고하고 있고(9월에 또 예정), 신용평가사(S&P)는 '이 회사 빚 갚을 능력이 조금 불안해졌다'며 등급을 한 단계 낮췄어요. CDS는 쉽게 말해 '이 회사가 빚을 못 갚을 경우에 대비한 보험료'인데, 이게 사상 최고치로 뛰었다는 건 채권 투자자들이 오라클의 빚 상환을 예전보다 훨씬 더 걱정하고 있다는 신호예요. 아직 회사가 망할 위기는 아니지만(신용등급도 여전히 '투자 적격'), 'AI에 공격적으로 베팅 중인데 그 돈을 빚으로 조달하고 있고, 시장이 그걸 불안하게 보기 시작했다'는 그림으로 이해하면 돼요. 오라클 관련 좋은 뉴스(대형 AI 계약 수주 등)가 나와도 이 부채 부담 얘기를 같이 봐야 균형 잡힌 판단이 될 거예요.",
+        confidence: "감원 규모·재무 수치(인프라 투자액·현금흐름·퇴직비용)와 S&P 등급 강등은 회사 공시·S&P 공식 발표·복수 언론 보도 기준(신뢰도 높음) · CDS 정확한 bp 수치는 매체마다 소폭 다르게 보도됨(198~215bp, 신뢰도 중간) · '왜 중요한가'의 해석 자체는 Claude의 판단(신뢰도 중간)",
+        sources: [
+          {title:"Oracle Corp. Downgraded To 'BBB-/A-3' From 'BBB/A' (S&P Global Ratings, 공식)", url:"https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/101695609"},
+          {title:"Oracle's Credit Risk Nears an 18-Year High: Can AI Backlog Save Stock? (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/oracles-credit-risk-nears-18-151000986.html"},
+          {title:"Oracle plans to again cut thousands of jobs to free up AI data center cash flow (Data Center Dynamics)", url:"https://www.datacenterdynamics.com/en/news/oracle-plans-to-again-cut-thousands-of-jobs-to-free-up-ai-data-center-cash-flow/"},
+          {title:"Oracle plans another round of layoffs before September (TheStreet)", url:"https://www.thestreet.com/employment/oracle-layoffs-ai-infrastructure-debt"},
+          {title:"Oracle cutting thousands in latest layoff round as company continues to ramp AI spending (CNBC)", url:"https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"},
+        ],
+      },
+    ],
+  },
 };
