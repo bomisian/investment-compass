@@ -101,6 +101,22 @@ const BUSINESS_NOTES = {
         ],
       },
     ],
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "차세대 플래그십 AI모델 '제미나이 3.5 프로' 수개월째 지연 + 8/6 딥마인드 조직개편(자율성 축소), 세르게이 브린 직접 개입",
+        coreAnalysis: "알파벳의 차세대 플래그십 AI 모델 '제미나이 3.5 프로'가 예정보다 수개월 지연되고 있음. 2026-05-19 Google I/O에서 CEO 순다르 피차이가 무대 위에서 직접 '다음 달까지 기다려달라'고 약속했으나 그 시한도, 이어진 7/17 목표(업계에 유출된 시점)도 모두 지나쳤고, 7/21 기준 구글은 대신 더 가볍고 저렴한 모델 3종만 출시하며 플래그십 신규 일정은 제시하지 못함. 지연 원인은 주로 코딩 능력 - 최근 훈련 데이터를 갱신했으나 결과가 기대에 못 미쳤음(Bloomberg 보도). 앤트로픽·오픈AI의 신모델이 성능 면에서 제미나이를 앞서면서 구글 내부 엔지니어·연구자·매니저들 사이에 경쟁력을 잃을 수 있다는 불안이 커짐. 이에 대응해 세르게이 브린(공동창업자)이 직접 개입 - 4월 타운홀에서 수백 명의 딥마인드 직원들에게 속도를 높이라고 촉구한 데 이어, 8월 6일 전사 미팅에서 일부 딥마인드 팀을 '코퍼레이트 구글'로 이동시키는 조직개편을 발표함(2014년 딥마인드 인수 이후 계속 축소돼온 딥마인드의 독립성이 한 단계 더 줄어드는 조치) - Kavukcuoglu가 제미나이를 총괄하는 단일 SVP로 피차이에게 직접 보고하는 구조가 됨.",
+        whyItMatters: "알파벳 주가의 AI 서사는 '제미나이가 앤트로픽·오픈AI와 경쟁할 수 있다'는 전제에 크게 기대고 있는데, 플래그십 모델이 CEO의 공개 약속을 최소 2차례 어기며 반복 지연되는 건 그 전제에 실질적인 금이 가는 신호임. 다만 같은 종목의 위 실적 해석 로그에서 확인했듯 클라우드 매출(+63%→+82% 가속)·영업이익(+30%대 안정) 등 <b>본업 지표는 여전히 견조</b>함 - 'AI 모델 경쟁에서 뒤처지는 것'과 '지금 당장 돈을 못 버는 것'은 별개라, 이 뉴스를 즉각적인 실적 악화 신호로 오해하면 안 됨. 오히려 '지금은 괜찮지만 다음 세대 모델 경쟁에서 계속 밀리면 장기적으로 클라우드·검색 점유율에 영향을 줄 수 있다'는 선행 리스크로 보는 게 맞음. 조직개편(딥마인드 자율성 축소 + 브린의 직접 개입) 자체는 회사가 문제를 심각하게 인식하고 빠르게 대응 중이라는 신호이기도 해서, 반드시 나쁜 뉴스로만 볼 필요는 없음.",
+        beginnerSummary: "구글의 차세대 최고급 AI 모델(제미나이 3.5 프로)이 나오기로 한 날짜를 벌써 몇 달째 못 지키고 있어요. CEO가 공개 행사에서 '다음 달엔 나온다'고 약속했는데 그것도 어겼고, 그 다음 목표일도 놓쳤어요 - 이유는 코딩 능력이 기대만큼 안 나와서라고 해요. 그 사이 경쟁사(앤트로픽·오픈AI)들은 계속 더 좋은 모델을 내놓고 있어서, 구글이 AI 경쟁에서 뒤처질 수 있다는 우려가 회사 안팎에서 커지고 있어요. 그래서 구글 공동창업자 세르게이 브린이 직접 나서서 담당 조직(딥마인드)을 다그치고 조직개편까지 했어요 - 급하게 대응하고 있다는 뜻이에요. 다만 지금 당장 돈을 버는 사업(클라우드·검색)은 여전히 잘 나가고 있어서(위 실적 해석 로그에서 확인한 클라우드 매출 성장 가속), 이건 '지금 실적이 나쁘다'는 얘기가 아니라 '다음 AI 경쟁에서 계속 뒤처지면 나중에 문제가 될 수 있다'는 미리 보는 리스크로 이해하면 돼요.",
+        confidence: "모델 지연 시점·CEO 발언·조직개편 사실관계는 Bloomberg·Reuters 등 복수 정론 매체 보도 기준(신뢰도 높음) · 주가에 미치는 영향에 대한 해석은 Claude의 판단(신뢰도 중간)",
+        sources: [
+          {title:"Google Gemini Launch Delayed as Tech Falls Short of Internal Goals (Bloomberg)", url:"https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals"},
+          {title:"Exclusive-Inside the Google executive moves that led to its big AI reshuffle (Reuters, via Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/exclusive-inside-google-executive-moves-173536292.html"},
+          {title:"Google updates lightweight Gemini models, but flagship still delayed (Reuters, via Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/google-updates-lightweight-gemini-models-150137017.html"},
+          {title:"Kavukcuoglu Now Leads Gemini as Sole SVP Reporting to Pichai — With Brin Deeply Hands-On (FourWeekMBA)", url:"https://fourweekmba.com/ai-kavukcuoglu-gemini-lead-brin-hands-on-google-deepmind-restru/"},
+        ],
+      },
+    ],
   },
   META: {
     analystLog: [{
@@ -152,6 +168,20 @@ const BUSINESS_NOTES = {
       {title:"Nvidia set to supplant Apple as TSMC's top customer (CNBC, 2026-01-26)", url:"https://www.cnbc.com/2026/01/26/nvidia-set-to-supplant-apple-as-tsmcs-largest-customer.html"},
       {title:"TSMC Gains Foundry Share in Q1 '26 (Semiecosystem)", url:"https://marklapedus.substack.com/p/tsmc-gains-foundry-share-in-q1-26"},
       {title:"Geopolitical Tension Puts TSMC Valuation And Supply Chain Resilience In Focus (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/geopolitical-tension-puts-tsmc-valuation-140635317.html"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "2분기 실적에서 2026년 매출 가이던스 +40%로 상향, 설비투자(CAPEX)도 $60~64B로 추가 상향 + 소니와 이미지센서 합작 승인",
+        coreAnalysis: "TSMC가 2분기 실적 발표에서 2026년 연간 매출 성장률 전망을 '40% 초반'으로 상향했음(AI 반도체 수요가 근거) - 이미 강했던 기존 전망을 또 한 번 올린 것. 같은 발표에서 2026년 설비투자(CAPEX) 전망도 기존보다 최소 $4B 높인 $600~640억 규모로 상향함. 고성능컴퓨팅(HPC, AI 가속기 매출이 여기 잡힘) 비중이 2분기 매출의 66%까지 올라와 있음(기존 CLAUDE.md에 기록된 2025년 58%에서 더 상승). 이사회는 이 CAPEX 확대와 함께 소니와의 이미지센서 합작(구마모토, 총 $6.3B 투자, 차세대 스마트폰 카메라 센서용) 승인 및 2분기 배당도 같이 의결함.",
+        whyItMatters: "이미 업계 전망을 상회하던 회사가 가이던스를 '더' 올렸다는 건 AI 반도체 수요가 이 회사 입장에서 여전히 공급이 수요를 못 따라가는 국면이라는 뜻 - 위 사업요약(customers)에 이미 기록된 '엔비디아가 애플을 제치고 최대 고객이 됨' 흐름과 일관됨. 다만 CAPEX를 계속 늘린다는 건 그만큼 감가상각 부담도 커진다는 뜻이라 마진에는 양날의 검이고, 소니 JV는 반도체 위탁생산 본업과는 결이 다른 신사업(이미지센서)이라 별도 리스크·수익 구조로 봐야 함. 대만해협 지정학 리스크(기존 risks에 이미 기록)는 이번 발표로 바뀐 게 없음 - 실적과는 별개 축.",
+        beginnerSummary: "TSMC가 실적 발표에서 '올해 매출이 우리 예상보다 더 많이 늘 것 같다'고 전망치를 또 올렸어요. AI 반도체를 만드는 공장을 더 짓겠다며 설비투자 계획도 늘렸고요. 이건 그만큼 주문이 밀려든다는 좋은 신호예요. 추가로 소니랑 손잡고 카메라 센서(스마트폰에 들어가는 부품)를 같이 만드는 새 사업도 승인했어요. 다만 공장을 더 짓는다는 건 돈이 그만큼 더 나간다는 뜻이라, 무조건 좋다고만 볼 건 아니에요.",
+        confidence: "매출·CAPEX 가이던스 수치와 JV 승인은 회사 공식 실적발표·이사회 결의 기준(신뢰도 높음)",
+        sources: [
+          {title:"TSMC raises capex and revenue forecast, highlighting growing AI chip demand (Yahoo Finance)", url:"https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html"},
+          {title:"World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand (CNBC)", url:"https://www.cnbc.com/2026/08/10/tsmc-revenue-surge-ai-chip-big-tech.html"},
+        ],
+      },
     ],
   },
   // 2026-08-10 추가: 워치리스트 26종목 전체를 캐시 데이터만으로(비용 없이) 스캔해서
@@ -256,6 +286,194 @@ const BUSINESS_NOTES = {
           {title:"Oracle plans to again cut thousands of jobs to free up AI data center cash flow (Data Center Dynamics)", url:"https://www.datacenterdynamics.com/en/news/oracle-plans-to-again-cut-thousands-of-jobs-to-free-up-ai-data-center-cash-flow/"},
           {title:"Oracle plans another round of layoffs before September (TheStreet)", url:"https://www.thestreet.com/employment/oracle-layoffs-ai-infrastructure-debt"},
           {title:"Oracle cutting thousands in latest layoff round as company continues to ramp AI spending (CNBC)", url:"https://www.cnbc.com/2026/03/31/oracle-layoffs-ai-spending.html"},
+        ],
+      },
+    ],
+  },
+  // ============ newsLog 2차 확장 - 워치리스트 나머지 12종목 (2026-08-13) ============
+  // [배경] 06 뉴스 탭 신설 직후 사용자가 "대부분 종목에 해석이 없다"고 지적함. 실제 점검 결과
+  // newsLog=ORCL 1종목·analystLog=10종목뿐이고 15종목은 둘 다 없었음(QQQ·SPY는 ETF라 개별기업
+  // 뉴스 개념이 없어 조사 대상에서 제외). 캐시된 헤드라인을 직접 읽어보니 대부분(15종목 중
+  // 상당수)은 실제로 그 종목만의 특별한 사건이 없어서 해석이 없는 게 정상이었으나(예: MSFT 1차
+  // 조회는 패치튜즈데이 등 운영성 뉴스뿐이었음), 사용자가 "나머지 14종목(QQQ·SPY 제외 12종목)
+  // 전부 조사"를 선택해서 각 종목을 별도로 WebSearch함 - 그 결과 대부분에서 실제로 중요한 사건이
+  // 발견됨(감원·CEO교체·마진급변·주가급락 등). AVGO만 조사 결과 특별한 사건 없이 기존에 이미
+  // 알려진 AI매출 성장 추세뿐이라 항목을 추가하지 않음(억지로 채우지 않는다는 이 프로젝트 원칙).
+  MSFT: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "감원 4,800명(엑스박스 게임스튜디오 4곳 분사 포함) + 사상 최대 AI 설비투자 $190B 가이던스, 상반기 주가는 2022년 이후 최악(-23%)",
+        coreAnalysis: "마이크로소프트가 전체 인력의 약 2.1%인 약 4,800명을 감원했음(2026-07-06 발표). 그중 엑스박스(게임) 부문이 특히 크게 타격을 입어 이번 회계연도 중 약 3,200개 직무(엑스박스 전체 인력의 약 20%)가 줄고 게임 스튜디오 4곳이 분사(spin-off)됨. 같은 시기 2026년 설비투자(CAPEX)는 애널리스트 예상을 크게 웃도는 $190B로 사상 최대 규모를 가이던스로 제시함(클라우드·AI 인프라 확충 목적). 그럼에도 마이크로소프트 주가는 2026년 상반기에 약 -23% 하락 - 2022년 이후 가장 나쁜 상반기 성적이었음.",
+        whyItMatters: "감원하면서 동시에 AI 인프라엔 사상 최대로 투자한다는 패턴은 오라클·아마존과 똑같은 구조(위 오라클 항목 참고)라 개별 기업 이슈라기보다 업계 전반의 흐름으로 봐야 함. 다만 마이크로소프트는 상반기 주가가 2022년 이후 최악이었다는 게 눈에 띄는 차이점 - 시장이 'AI에 돈을 쓴다'는 이야기 자체를 무조건 좋게만 보고 있지 않다는 뜻이고, 실제로 그 투자가 클라우드(Azure) 매출·마진으로 이어지는지를 숫자로 계속 확인해야 함. 엑스박스 구조조정은 게임 사업이 회사의 핵심 성장 축(클라우드·AI)에서 우선순위가 밀리고 있다는 신호로 읽을 수 있음.",
+        beginnerSummary: "마이크로소프트도 직원을 줄이면서(전체의 약 2%) 동시에 AI 데이터센터에는 역대 최대 규모의 돈을 쓰겠다고 밝혔어요. 특히 게임(엑스박스) 쪽이 많이 줄었고 스튜디오 몇 곳은 아예 분사시켰어요. 그런데 이렇게 AI에 돈을 쏟아붓겠다고 했는데도 올해 상반기 주가는 2022년 이후 가장 안 좋았어요 - 'AI에 투자한다'는 말만으로는 주가가 안 오른다는 걸 보여주는 사례예요. 투자한 돈이 실제로 돈을 벌어오는지가 앞으로 더 중요해질 거예요.",
+        confidence: "감원 규모·설비투자 가이던스는 회사 발표·복수 언론 보도 기준(신뢰도 높음) · 상반기 주가 하락폭은 시장 데이터 기준(신뢰도 높음)",
+        sources: [
+          {title:"Microsoft cuts 4,800 jobs, as Xbox unit downsizes and plans to spin off four gaming studios (CNBC)", url:"https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html"},
+          {title:"Microsoft cuts 4,800 jobs, about 2% globally, revamps salesforce and launches massive Xbox overhaul (GeekWire)", url:"https://www.geekwire.com/2026/microsoft-cuts-4800-jobs-about-2-globally-revamps-salesforce-and-launches-massive-xbox-overhaul/"},
+          {title:"Microsoft Cuts 4,800 Jobs Amid AI-Driven Tech Layoffs in 2026 (Global Banking & Finance)", url:"https://www.globalbankingandfinance.com/microsoft-joins-ai-driven-tech-layoff-wave-4-800-job-cuts/"},
+        ],
+      },
+    ],
+  },
+  AMZN: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "2025년 10월 이후 누적 3만명 감원(사상 최대 규모) - '관료주의 제거' 명목, 동시에 설비투자는 $132B→$200B로 확대",
+        coreAnalysis: "아마존이 2025년 10월(약 14,000명)과 2026년 1월(약 16,000명) 두 차례에 걸쳐 총 3만명의 법인 인력을 감원함 - 회사 역사상 최대 규모의 인력 감축. 감원은 AWS 전문서비스·Alexa AI·Prime Video/스튜디오·아마존 약국 등 여러 부문에 걸쳐 있음. 회사는 '계층을 줄이고 오너십을 늘리고 관료주의를 없앤다'고 설명함. 동시에 설비투자(CAPEX)는 2025년 $131.8B에서 2026년 $200B로 확대할 계획 - 감원이 사업 축소가 아니라 AI·클라우드 인프라로의 자원 재배치임을 시사함.",
+        whyItMatters: "마이크로소프트·오라클·메타와 같은 업계 전반의 패턴(감원으로 비용을 줄이면서 AI 인프라 투자는 오히려 늘림)이라 아마존만의 특이 신호는 아님. 다만 아마존은 감원 규모가 회사 사상 최대라는 점이 특징적이고, AWS 자체는 축소가 아니라 확장 중이라는 점(전문서비스직 등 특정 직군만 감원, 인프라 자체는 확대)을 구분해서 봐야 함 - '아마존이 어려워서'가 아니라 '인력을 자동화·AI로 대체하며 재배치하는 중'이라는 해석이 더 정확함.",
+        beginnerSummary: "아마존이 작년 10월부터 지금까지 회사 역사상 가장 큰 규모(3만명)로 직원을 줄였어요. 그런데 동시에 AI·클라우드 데이터센터에 쓰는 돈은 오히려 더 늘리고 있어요($1,318억→$2,000억). 회사가 어려워서 줄이는 게 아니라, 사람이 하던 일 일부를 AI·자동화로 대체하면서 그 돈을 AI 인프라 쪽으로 옮기고 있다고 이해하면 돼요.",
+        confidence: "감원 규모·시점은 회사 발표·복수 언론 보도 기준(신뢰도 높음) · 설비투자 확대 배경 해석은 Claude의 판단(신뢰도 중간)",
+        sources: [
+          {title:"Amazon confirms 16,000 more corporate job cuts, bringing total to 30,000 since October (GeekWire)", url:"https://www.geekwire.com/2026/amazon-confirms-16000-more-job-cuts-bringing-total-layoffs-to-30000-since-october/"},
+          {title:"Amazon layoffs: 16,000 jobs to be cut in latest anti-bureaucracy push (CNBC)", url:"https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html"},
+          {title:"Amazon Is Laying Off 16,000 Workers, in Latest Round of Cuts (Yahoo Finance)", url:"https://finance.yahoo.com/news/amazon-laying-off-16-000-173735652.html"},
+        ],
+      },
+    ],
+  },
+  AAPL: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "팀 쿡 → 존 터너스 CEO 교체 9월 1일 시행 - 2011년 팀 쿡 취임 이후 첫 애플 CEO 교체",
+        coreAnalysis: "애플이 2026년 4월 발표한 대로, 팀 쿡이 이사회 의장(Executive Chairman)으로 물러나고 존 터너스(하드웨어 엔지니어링 담당 수석부사장, 입사 25년차로 아이패드·에어팟·최근 아이폰 모델들의 하드웨어 개발을 총괄해온 인물)가 2026년 9월 1일부로 신임 CEO에 취임함 - 이사회 만장일치 승인. 조니 스로우지(기존 하드웨어 기술 담당 수석부사장)가 최고하드웨어책임자(Chief Hardware Officer)로 승진해 터너스의 기존 역할을 확대 승계함.",
+        whyItMatters: "2011년 팀 쿡이 스티브 잡스로부터 CEO를 넘겨받은 이후 처음 있는 애플 CEO 교체라는 점에서 세계에서 가장 가치있는 소비자 기술기업 중 하나의 경영권 승계로는 매우 드물고 비중있는 사건임. 오랜 승계 계획을 거친 순조로운 전환으로 보이지만, 새 CEO의 첫 제품 사이클(9월 아이폰 행사)과 애플이 상대적으로 뒤처져 있다는 평가를 받는 AI 전략의 우선순위가 바뀔지가 시장의 관전 포인트가 될 것으로 보임. 별도로 최근 메모리 부족(위 메모리 슈퍼사이클 관련 종목들의 newsLog·analystLog와 같은 배경)으로 맥북 에어 공급 부족도 겪고 있어, 리더십 교체와 겹쳐 공급망 관리 능력이 시험대에 오른 시기이기도 함.",
+        beginnerSummary: "애플의 최고경영자(CEO)가 9월 1일부터 팀 쿡에서 존 터너스로 바뀌어요. 2011년 이후 처음 있는 일이에요. 팀 쿡은 완전히 물러나는 게 아니라 이사회 의장으로 남고, 새 CEO는 애플에서 25년 일하며 아이패드·에어팟 등을 만들어온 사람이에요. 오랫동안 준비된 교체라 갑작스러운 건 아니지만, 새 CEO가 애플의 AI 전략을 어떻게 바꿀지가 관심사예요. 참고로 요즘 메모리 반도체 품귀 때문에 맥북 에어 공급도 부족한 상황이라(다른 메모리 관련 종목들의 뉴스와 같은 이유), 리더십 교체 시기와 겹쳐 있어요.",
+        confidence: "CEO 교체 사실관계는 애플 공식 발표·CNBC 등 복수 매체 기준(신뢰도 매우 높음) · 새 CEO 하의 전략 변화 전망은 아직 알 수 없음(추측 자제)",
+        sources: [
+          {title:"Tim Cook to become Apple Executive Chairman, John Ternus to become Apple CEO (Apple Newsroom, 공식)", url:"https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/"},
+          {title:"Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman (CNBC)", url:"https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html"},
+        ],
+      },
+    ],
+  },
+  TSLA: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "2분기 영업이익률 1.4%로 급락(전년 4.1%) - AI·로보택시 투자 확대가 원인 + 머스크 최대 1조달러 보상안 주주 75%+ 승인 + 로보택시 매출 확대는 지연",
+        coreAnalysis: "테슬라의 2026년 2분기(7월 22일경 발표) 영업이익률이 전년동기 4.1%에서 1.4%로 급락함 - 판매가 할인 확대와 함께, AI·연구개발 비용이 전년비 +47%(총 $4.35B)로 급증한 게 주된 원인. 로보택시는 미국 7개 도시로 확대됐지만, 실제 매출 기여 시점은 머스크가 이전에 제시했던 속도보다 늦춰지고 있음. 별도로 주주총회에서 머스크의 신규 보상안(현금 없이 전량 스톡옵션, 시가총액 마일스톤 $2조~$8.5조 달성 시 최대 1조달러 가치)이 주주 75% 이상의 찬성으로 통과됨.",
+        whyItMatters: "이 마진 하락은 세금·평가손익 같은 회계상 '1회성' 항목이 아니라, 로보택시·옵티머스(휴머노이드 로봇)에 의도적으로 막대한 돈을 쏟아붓기로 한 전략적 선택임 - 즉 '진짜' 마진 훼손이라 이게 나중에 결실을 맺느냐가 전적으로 관건. 그런데 그 로보택시조차 머스크 본인이 제시했던 일정보다 매출 확대가 늦어지고 있다는 건 신뢰도 측면에서 주의할 신호. 동시에 승인된 사상 최대 규모의 보상안은 머스크의 개인적 인센티브를 앞으로 수년간 시가총액(결국 로보택시·옵티머스의 성공 여부)에 완전히 묶어뒀다는 뜻이라, 이해관계 일치도 크지만 그만큼 '이 베팅이 안 통하면 다 같이 안 통한다'는 이분법적 리스크이기도 함.",
+        beginnerSummary: "테슬라의 영업이익률(번 돈에서 얼마가 실제 이익으로 남는지)이 작년 4.1%에서 올해 1.4%로 크게 떨어졌어요. 차 할인을 많이 한 데다, 로보택시(무인택시)·인간형 로봇 같은 미래 사업에 돈을 엄청 쓰고 있어서예요. 로보택시는 7개 도시로 늘긴 했지만, 실제로 돈을 벌어들이기 시작하는 시점은 머스크가 예전에 말한 것보다 늦어지고 있어요. 그런데도 주주들은 머스크에게 회사 가치가 크게 오르면 최대 1조달러(약 1,300조원)어치 주식을 주는 파격적인 보상안을 압도적으로 찬성했어요 - 머스크가 이 미래 사업들을 성공시킬수록 본인도 엄청나게 큰 보상을 받는 구조가 됐어요.",
+        confidence: "실적 수치는 회사 공식 발표·SEC 10-Q 기준(신뢰도 높음) · 보상안 승인은 주주총회 공식 결과 기준(신뢰도 높음)",
+        sources: [
+          {title:"Tesla (TSLA) Q2 2026 earnings report (CNBC)", url:"https://www.cnbc.com/2026/07/22/tesla-tsla-q2-2026-earnings-report.html"},
+          {title:"Tesla announcement: Musk's pay package approved (Hargreaves Lansdown)", url:"https://www.hl.co.uk/shares/share-research/tesla-announcement-musks-pay-package-approved"},
+          {title:"Tesla's Big Robotaxi Progress Is Hidden in Plain Sight (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/03/teslas-big-robotaxi-progress-is-hidden-in-plain-si/"},
+        ],
+      },
+    ],
+  },
+  CRM: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "8/5 엔지니어링·고객성공 총괄 사장 사임 + COO 신규 선임, 8/26 실적 발표 앞두고 주가 널뛰기(연초대비 -30% → 저점대비 +31%)",
+        coreAnalysis: "2026-08-05, 세일즈포스의 스리니 탈라프라가다(President 겸 Chief Engineering and Customer Success Officer)가 사임을 발표했고, 미겔 밀라노가 CEO 마크 베니오프 산하 COO로 승진함. 주가는 2026년 연초 대비 30% 넘게 하락했지만, 6월 22일 저점 이후로는 8월 26일 실적 발표를 앞두고 31% 반등한 상태. 컨센서스는 EPS $3.27(+12.4% YoY)·매출 $11.3B(+10.4% YoY)를 예상하고, 애널리스트 평균 목표가 $241.72는 현재가 대비 약 31% 상승여력을 내포함. UBS는 이 상황을 '소문에 사고 뉴스에 판다'는 전형적 패턴으로 진단하며, 강세론자는 AI 에이전트 제품 '에이전트포스'가 빠르게 수익화될지가 관건이라고 봄.",
+        whyItMatters: "실적 발표를 3주 앞둔 민감한 시점에 엔지니어링과 고객성공을 동시에 총괄하던 고위 임원이 사임했다는 건, 시장이 가장 궁금해하는 '에이전트포스가 실제로 고객에게 잘 작동하고 있는가'라는 질문과 직접 관련된 자리라 실행 리스크에 대한 불확실성을 더함. 다만 이게 통상적인 조직개편인지 내부 갈등의 신호인지는 공개된 정보만으로는 판단할 수 없음 - 섣불리 결론짓지 않고 있는 그대로 표시함.",
+        beginnerSummary: "세일즈포스의 고위 임원(기술개발과 고객관리를 총괄하던 사장급)이 8월 5일 회사를 떠난다고 발표했어요. 8월 26일 실적발표를 앞두고 있는 민감한 시점이라, 회사의 AI 제품(에이전트포스)이 잘 팔리는지 확인하는 이 시기와 맞물려 시장이 주목하고 있어요. 왜 떠나는지는 공개적으로 밝혀지지 않았어요.",
+        confidence: "임원 교체는 회사 공식 발표 기준(신뢰도 높음) · 사임 배경(이유)은 공개되지 않아 확인 불가",
+        sources: [
+          {title:"Salesforce stock at a crossroads after 31% rally ahead of August earnings (Investing.com)", url:"https://www.investing.com/news/stock-market-news/salesforce-stock-at-a-crossroads-after-31-rally-ahead-of-august-earnings-93CH-4855018"},
+          {title:"Salesforce Stock Tumbles 30% in 2026, But One Analyst Sees 117% Surge to $400 (BigGo Finance)", url:"https://finance.biggo.com/news/cf62cb06-9521-421e-ac09-7a83f248bd1c"},
+        ],
+      },
+    ],
+  },
+  AMD: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "2분기 실적 어닝비트(데이터센터 매출 +107%)에도 시간외 주가 하락 + 2028년 AI가속기 시장전망 5천억→1.4조달러로 대폭 상향 + 오라클·메타·오픈AI向 첫 랙단위 AI시스템 'Helios' 출하 시작",
+        coreAnalysis: "AMD의 2026년 2분기(8/4 발표) 매출 $11.5B·순이익 $2.3B·EPS $1.38로 컨센서스를 상회했으나, 정규장에선 올랐던 주가가 시간외 거래에서 오히려 하락함. 데이터센터 부문 매출은 $6.7B로 전년비 +107%(CEO 리사 수: '기록적인 매출과 수익성'). 회사는 2028년 AI 반도체 포함 전체 반도체 시장 규모 전망을 기존 연 5천억달러에서 연 1.4조달러(AI가속기만)로 크게 상향했고, 첫 랙단위 AI 시스템 'Helios'를 이번 분기부터 메타·오픈AI·오라클 등에 출하하기 시작함. 실적 발표 후 여러 애널리스트가 목표가를 큰 폭 상향(Argus $450→$625, Rosenblatt $665→$700).",
+        whyItMatters: "'어닝비트했는데 주가는 하락'하는 패턴은 이번 조사에서 LRCX·KLAC에서도 똑같이 나타남(아래 참고) - AI·반도체 관련주 전반이 이미 매우 높은 기대치를 선반영하고 있어서, 웬만큼 좋은 실적으로는 부족하고 '다음 성장동력이 실제로 확인돼야' 주가가 반응한다는 뜻으로 해석됨. Helios가 출하되는 고객사(메타·오픈AI·오라클)는 이 프로젝트가 이미 부채·설비투자 부담을 추적 중인 회사들(오라클 항목 참고)이라, 만약 이 고객사들이 AI 설비투자를 줄이면 AMD의 데이터센터 성장엔진도 직접 타격을 받는 연결고리가 있음.",
+        beginnerSummary: "AMD가 2분기 실적을 예상보다 잘 냈는데도(데이터센터 매출이 2배 넘게 늘었어요) 주가는 오히려 떨어졌어요 - 이미 기대치가 너무 높아서 '좋은 실적' 정도로는 만족을 못 시킨 거예요. 회사는 앞으로 AI 반도체 시장이 훨씬 더 커질 거라고 전망을 크게 올렸고, 메타·오픈AI·오라클 같은 큰 회사들에 AI 서버 장비를 납품하기 시작했어요. 다만 이 고객들이 AI에 쓰는 돈을 줄이면 AMD도 같이 영향받을 수 있다는 점은 기억해두세요.",
+        confidence: "실적·가이던스 수치는 회사 공식 발표 기준(신뢰도 높음) · 주가 하락 원인('기대치 선반영') 해석은 Claude의 판단(신뢰도 중간)",
+        sources: [
+          {title:"AMD Reports Second Quarter 2026 Financial Results (AMD IR, 공식)", url:"https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"},
+          {title:"AMD earnings report Q2 2026 (CNBC)", url:"https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html"},
+        ],
+      },
+    ],
+  },
+  ARM: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "한 달 새 시총 반토막 → 실적발표 후 18% 급반등, 매출 +34% 서프라이즈 + AGI CPU 수주잔고 $2B 돌파, 9월 주총서 보수정책 표결",
+        coreAnalysis: "Arm Holdings 주가가 한 달 새 가치의 절반 이상을 잃었다가, 2026 회계연도 1분기(FY2027 Q1) 실적이 기대를 웃돌며(매출 $1.14B, +34% YoY · 순이익 $270M) 하루 만에 18% 급반등해 $280대를 회복함. 로열티 요율이 더 높은 Armv9 아키텍처로의 전환이 매출 성장과 마진 개선을 이끌고 있고, 'AGI CPU'(고성능 AI용 설계) 수주잔고가 2027·2028 회계연도 합산 $2B를 넘어섬. 애널리스트 반응은 엇갈림 - RBC캐피탈은 목표가를 $475→$340으로 낮춘 반면 New Street는 매수로 상향. 2026년 9월 정기주주총회에서 임원 보수정책과 이사진 명단이 표결에 부쳐질 예정.",
+        whyItMatters: "한 달 새 반토막 났다가 하루 만에 18% 반등하는 변동폭 자체가 이 종목이 지금 펀더멘털보다 밸류에이션·기대치를 둘러싼 극단적인 심리 변화로 움직이고 있다는 신호임 - 어닝비트 이후에도 RBC가 목표가를 낮췄다는 건 '실적은 좋은데 지금 가격이 너무 비싸다'는 시각이 여전하다는 뜻. 이런 극단적 변동성은 이 대시보드의 단타 신호 승률 통계(과거 데이터 기반)를 왜곡시킬 수 있어 참고할 때 유의가 필요함.",
+        beginnerSummary: "Arm 주가가 한 달 만에 반토막이 났다가, 실적이 예상보다 훨씬 잘 나오면서(매출이 34% 늘었어요) 하루 만에 18%나 다시 뛰었어요. 이 정도로 크게 출렁인다는 건 지금 이 회사가 '얼마나 잘하고 있냐'보다 '얼마가 적정 가격이냐'를 두고 투자자들 의견이 크게 엇갈리고 있다는 뜻이에요. 실제로 좋은 실적이 나온 뒤에도 어떤 애널리스트는 목표가를 오히려 낮췄어요.",
+        confidence: "실적 수치는 회사 발표 기준(신뢰도 높음) · 목표가 변동은 각 증권사 리포트 기준(신뢰도 높음)",
+        sources: [
+          {title:"Arm Stock Soars 18% Toward $300 as Earnings Spark Potential Trend Reversal (FX Leaders)", url:"https://www.fxleaders.com/news/2026/08/04/arm-stock-soars-18-toward-300-as-earnings-spark-potential-trend-reversal/"},
+          {title:"Arm Holdings (ARM) Stock Forecast: Record Q1, Fell 34% in July, Now Breaking Out Above $280 (TradingKey)", url:"https://www.tradingkey.com/analysis/stocks/us-stocks/262086382-arm-holdings-arm-stock-forecast-august-7-2026-record-q1-breakout-280-tradingkey"},
+        ],
+      },
+    ],
+  },
+  ASML: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "중국向 매출 비중 2026년 약 20%로 축소(수출규제 지속) + 중국의 자국산 DUV 장비 개발 보도, 다만 2분기 수주는 55억유로로 견조",
+        coreAnalysis: "ASML의 CFO는 2026년 전체 매출에서 중국이 차지하는 비중이 약 20%가 될 것이라고 확인함 - 미국 주도의 수출규제 누적 효과로 과거 대비 줄어든 수치. ASML은 이미 수년째 가장 앞선 장비인 EUV(극자외선 노광장비)를 중국에 수출하지 못하고 있고, 상대적으로 덜 첨단인 DUV(심자외선) 장비만 판매 중임. 새로운 소식으로, 중국 기업이 자체적으로 DUV 장비를 생산하기 시작했다는 보도가 있었으나, 애널리스트들은 이것이 'ASML이 수출규제로 이미 잃은 매출을 대체하는 것'에 가깝다고 평가하며 실질적인 추가 피해는 제한적이라고 봄. 이런 중국 리스크에도 불구하고 2분기 수주(오더북)는 55억유로로 견조했음.",
+        whyItMatters: "이건 갑자기 터진 사건이 아니라 오랫동안 서서히 진행돼온 구조적 리스크임 - 흥미로운 지점은 '중국 위협' 헤드라인이 실제 재무 노출보다 더 무섭게 들린다는 것. ASML의 가장 비싼 제품(EUV)은 애초에 중국에 판 적이 없어서, 중국의 자체 DUV 개발이 준다고 해서 ASML의 핵심 수익원이 갑자기 흔들리는 게 아님. 진짜 지켜봐야 할 숫자는 중국 매출 '비중'(현재 약 20%, 과거보다 낮아짐)의 추세와, 그걸 상쇄하는 비중국(미국·한국·대만 등 AI 수요) 수주 규모(2분기 55억유로로 견조)의 균형임.",
+        beginnerSummary: "ASML은 반도체를 만드는 데 꼭 필요한 첨단 장비를 만드는 회사인데, 미국의 수출규제 때문에 중국에는 가장 좋은 장비(EUV)를 못 팔고 있어요. 그래서 중국이 차지하는 매출 비중이 계속 줄고 있어요(올해 약 20%). 최근엔 중국이 자기들만의 장비를 직접 만들기 시작했다는 뉴스가 나왔지만, 전문가들은 'ASML이 어차피 이미 못 팔던 부분'이라 큰 타격은 아니라고 봐요. 다행히 다른 나라(미국·한국·대만 등)에서 오는 주문은 여전히 튼튼해요.",
+        confidence: "중국 매출 비중은 회사 CFO 공식 발언 기준(신뢰도 높음) · '실질적 피해는 제한적'이라는 평가는 애널리스트 해석(신뢰도 중간)",
+        sources: [
+          {title:"U.S.-China AI feud sees ASML walk tightrope between sales and geopolitics (CNBC)", url:"https://www.cnbc.com/2026/07/17/us-china-ai-feud-asml-tightrope-sales-geopolitics.html"},
+          {title:"ASML Faces a Fresh Threat Out of China. Is the Dip in the Stock Worth Buying? (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/10/asml-faces-a-fresh-threat-out-of-china-is-the-dip/"},
+        ],
+      },
+    ],
+  },
+  AMAT: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "2분기 실적 호조·2026년 반도체장비 지출 +30% 가이던스에도 주가는 고점대비 -27% - 3분기 실적발표는 바로 오늘(8/13)",
+        coreAnalysis: "어플라이드머티어리얼즈의 2026 회계연도 2분기 매출은 $7.91B·GAAP EPS $3.51이었고, 3분기 매출 가이던스를 $8.95B(±$500M)로 상향 제시함. 2026년 전체 반도체장비 지출 성장률을 30%대로 가이던스했고, 특히 첨단 패키징 수요는 약 50% 성장을 전망함(AI 데이터센터 증설·게이트올어라운드 트랜지스터 복잡도 증가가 배경). 이런 낙관적 가이던스에도 불구하고 주가는 최근 고점 대비 약 27% 낮은 수준에서 거래되고 있음. 이 회사의 2026 회계연도 3분기 실적은 오늘(2026-08-13) 발표 예정(컨센서스: 매출 $9.04B·EPS $3.36) - 이 항목은 그 발표 이전에 작성됐으므로 오늘 실제 실적은 반영돼 있지 않음.",
+        whyItMatters: "'좋은 실적·가이던스에도 주가는 고점대비 크게 밀려있다'는 패턴이 이번 조사에서 LRCX·KLAC(아래 참고)에서도 똑같이 확인됨 - 반도체장비 3사가 나란히 같은 모습을 보인다는 건 개별 기업 문제가 아니라 이 하위섹터 전체가 2026년 AI 랠리로 이미 높은 기대치를 선반영했었고, 지금은 그 기대치에 대한 재평가(밸류에이션 조정) 국면에 있다는 뜻으로 해석하는 게 합리적임. 오늘 실제 3분기 실적이 이 패턴을 재확인할지 깨트릴지 지켜볼 만함.",
+        beginnerSummary: "어플라이드머티어리얼즈는 실적도 좋고 앞으로 전망도 좋게 내놨는데(반도체 장비 시장이 30% 넘게 성장할 거라고), 정작 주가는 최근 최고점보다 27% 낮은 상태예요. 마침 오늘(8/13) 다음 분기 실적을 발표하는데, 이 글은 그 발표 전에 쓴 거라 오늘 나온 실제 숫자는 안 담겨있어요. 비슷한 반도체 장비회사 2곳(LRCX·KLAC)도 똑같이 '실적은 좋은데 주가는 빠진' 패턴을 보이고 있어서, 이 업종 전체가 이미 너무 큰 기대를 받고 있었다가 조정받는 국면일 가능성이 있어요.",
+        confidence: "실적·가이던스 수치는 회사 공식 발표 기준(신뢰도 높음) · 주가 하락 원인 해석은 Claude의 판단(신뢰도 중간) · 오늘(8/13) 실적은 미반영",
+        sources: [
+          {title:"Applied Materials Guides 30% Semiconductor Equipment Growth — So Why Is AMAT Down 27% From Peak? (TradingKey)", url:"https://www.tradingkey.com/analysis/stocks/us-stocks/262098841-applied-materials-amat-q3-earnings-august-13-2026-semiconductor-equipment-ai-tradingkey"},
+          {title:"Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/applied-materials-amat-gets-demand-210941837.html"},
+        ],
+      },
+    ],
+  },
+  LRCX: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "7/29 실적 서프라이즈(매출·EPS 모두 상회) + 2026년 웨이퍼장비 지출 전망 상향에도 한 달 새 주가 -20.4%",
+        coreAnalysis: "램리서치의 2026 회계연도 4분기 실적(7월 29일 발표)은 매출 $6.72B·비GAAP EPS $1.82로 시장 예상을 상회했음. 회사는 2026년 웨이퍼 제조장비(WFE) 지출 전망을 '1,500억달러대 초반'으로 상향했고, 9월 분기 매출은 $8.1B로 가이던스함. 이런 어닝비트·가이던스 상향에도 불구하고 주가는 최근 한 달 새 약 20.4% 하락(7/2 $351.41 → 8/3 $279.66). 다만 Zacks는 이 종목을 'Strong Buy'로 상향했음. 별도 소식으로 8/12에 뉴욕 소재 교육기관과 5년간 약 3,500명의 학생을 반도체 공정 인력으로 양성하는 협약을 발표함(재무와는 무관한 인력양성 이니셔티브).",
+        whyItMatters: "AMAT·KLAC(위·아래 참고)와 완전히 같은 패턴 - '실적은 잘 나왔는데 주가는 크게 빠졌다'는 게 반도체장비 하위섹터 전체에서 반복되고 있다는 건, 램리서치 개별 기업의 실적 문제가 아니라 섹터 전체의 밸류에이션 재평가 국면일 가능성이 높다는 뜻. 실제 사업(숫자로 보이는 것)은 잘 굴러가고 있다는 점은 긍정적 신호.",
+        beginnerSummary: "램리서치도 실적을 예상보다 잘 냈고(매출·이익 모두 상회) 앞으로 전망도 올려 잡았는데, 정작 한 달 사이 주가는 20% 넘게 빠졌어요. 비슷한 다른 반도체 장비회사들(AMAT·KLAC)도 똑같은 모습이라, 이 업종 전체가 그동안 너무 앞서서 오른 것에 대한 조정을 받고 있는 것으로 보여요. 회사 실제 사업 자체는 숫자로 보면 잘 돌아가고 있어요.",
+        confidence: "실적·가이던스 수치는 회사 공식 발표 기준(신뢰도 높음) · 주가 하락 원인 해석은 Claude의 판단(신뢰도 중간)",
+        sources: [
+          {title:"Lam Research details 2026 chip equipment outlook (StockTitan, 10-K 기반)", url:"https://www.stocktitan.net/sec-filings/LRCX/10-k-lam-research-corp-files-annual-report-540ab6d528eb.html"},
+          {title:"Why Lam Research (LRCX) Stock Is Up +34% in the Last... (Tickeron)", url:"https://tickeron.com/ticker/LRCX/"},
+        ],
+      },
+    ],
+  },
+  KLAC: {
+    newsLog: [
+      {
+        date: "2026-08-13",
+        headline: "실적발표 직후 +5.5% 상승했으나 이후 한 달간 -10.7% - 중국 수출규제 우려 재점화(매출의 약 30%가 중국)",
+        coreAnalysis: "KLA는 시장에서 '깔끔한 어닝비트'라고 평가한 실적과 낙관적인 가이던스(2027 회계연도 1분기 매출 $4.0B±$200M, 비GAAP EPS $1.16±$0.10)를 내놓으며 실적 발표 당일 주가가 5.5% 상승했음. 그러나 그 이후 한 달 사이 주가는 약 10.74% 하락했는데, 애널리스트들은 이를 미국 산업안보국(BIS)의 대중국 수출규제가 새로 강화될 수 있다는 우려 재점화 때문으로 봄 - KLA는 지난 회계연도 중국에서만 약 $4.04B(연매출의 약 30%)를 벌어들여 노출도가 상당함. 이사회는 분기 배당($0.23/주, 9월 1일 지급)도 그대로 유지 발표했고, Zacks는 8월 1일 이 종목을 'Strong Buy'로 상향했음(주가는 여전히 하락 중이던 시점).",
+        whyItMatters: "AMAT·LRCX와 마찬가지로 '좋은 실적에도 주가 하락'이지만, KLA는 그 이유가 상대적으로 명확함(막연한 밸류에이션 피로가 아니라 구체적인 중국 수출규제 리스크) - 매출의 30%라는 수치화된 노출도가 있어서, 실제 BIS 규제 발표가 나오는지가 다음 핵심 변수임. 지금은 아직 확정된 규제가 아니라 '우려' 단계라는 점도 구분해서 봐야 함.",
+        beginnerSummary: "KLA도 실적 발표 직후엔 주가가 올랐는데(+5.5%), 그 뒤 한 달 사이 오히려 10% 넘게 떨어졌어요. 이유는 미국 정부가 중국에 대한 반도체 장비 수출 규제를 더 강화할 수 있다는 우려 때문이에요 - KLA는 매출의 약 30%를 중국에서 벌어들이고 있어서 이런 규제에 특히 민감해요. 아직 실제로 규제가 확정된 건 아니고 '그럴 수도 있다'는 우려 단계예요.",
+        confidence: "실적·가이던스는 회사 공식 발표 기준(신뢰도 높음) · 중국 매출 비중은 회사 연차보고서 기준(신뢰도 높음) · 주가 하락을 수출규제 우려로 연결짓는 건 애널리스트 해석(신뢰도 중간, 아직 규제 확정 아님)",
+        sources: [
+          {title:"KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/08/08/kla-corporation-has-had-a-rough-month-a-wall-street-pro-sees-70-upside-because-of-it/"},
+          {title:"KLA Declares Regular Cash Dividend (PR Newswire, 공식)", url:"https://www.prnewswire.com/news-releases/kla-declares-regular-cash-dividend-302845379.html"},
         ],
       },
     ],
