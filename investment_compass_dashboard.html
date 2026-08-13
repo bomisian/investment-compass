@@ -95,6 +95,10 @@
   .dtab{padding:10px 14px;font-size:12.5px;color:var(--sub);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;font-weight:700;}
   .dtab:hover{color:var(--text);}
   .dtab.active{color:var(--text);border-bottom-color:var(--accent);}
+  .page-tabs{display:flex;gap:6px;margin-bottom:10px;}
+  .ptab{padding:8px 16px;font-size:13px;font-weight:700;color:var(--sub);background:var(--panel);border:1px solid var(--line);border-radius:10px 10px 0 0;cursor:pointer;border-bottom:none;}
+  .ptab:hover{color:var(--text);}
+  .ptab.active{color:var(--text);background:var(--panel-2);}
   .detail-body{padding:18px 22px 24px;}
   canvas{width:100%;height:auto;display:block;background:var(--panel-2);border-radius:12px;margin-top:8px;}
   .chart-label{font-size:11px;color:var(--sub);margin-top:14px;margin-bottom:2px;font-weight:700;}
@@ -176,45 +180,44 @@
     <div class="updated" id="updatedAt">아직 체크 안 함</div>
   </header>
 
-  <div class="card">
-    <h2>설정</h2>
-    <div class="row">
-      <input type="text" id="tdKeyInput" placeholder="Twelve Data API 키 (선택)" style="width:240px;">
-      <button class="secondary" onclick="saveTdKey()">저장</button>
-      <button class="secondary" onclick="clearTdKey()">삭제</button>
-      <span class="sub" id="tdKeyStatus"></span>
-    </div>
-    <div class="sub" style="margin-top:6px;">가격 데이터를 <a href="https://twelvedata.com" target="_blank" style="color:var(--sub)">Twelve Data</a>에서 우선 조회하기 위한 키(선택, 브라우저에만 저장). 없으면 야후/stooq 무료 경로로 자동 폴백합니다.</div>
-    <div class="row" style="margin-top:10px;">
-      <button id="scanBtn" onclick="scanAll()">전체 스캔 실행</button>
-      <span class="sub" id="scanStatus"></span>
-    </div>
-    <div class="row" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);">
-      <input type="text" id="lookupInput" placeholder="종목 직접 조회 (예: PLTR)" style="width:200px;" onkeydown="if(event.key==='Enter')lookupTicker()">
-      <button class="secondary" onclick="lookupTicker()">조회</button>
-      <span class="sub" id="lookupStatus"></span>
-    </div>
-    <div class="sub" style="margin-top:6px;">관심종목이 아니어도 아무 미국 상장 티커나 입력하면 <b>기술적 단기판단 · 캔들차트 · RSI/백테스트</b>를 바로 볼 수 있어요(가격 데이터만 실시간 조회). 단, 밸류에이션/실적/전망 등 펀더멘털은 관심종목만 캐시가 있어서 그 종목은 "조회 불가"로 떠요.</div>
-    <div class="row" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);">
-      <input type="text" id="watchAddInput" placeholder="관심종목에 추가 (예: PLTR)" style="width:200px;" onkeydown="if(event.key==='Enter')addCustomTicker()">
-      <button class="secondary" onclick="addCustomTicker()">추가</button>
-      <span class="sub" id="watchAddStatus"></span>
-    </div>
-    <div class="sub" id="customTickerList" style="margin-top:6px;"></div>
-    <div class="sub" style="margin-top:6px;">여기 추가한 종목은 <b>이 브라우저에만(localStorage)</b> 저장되고 위 비교 표에도 계속 나와요 - 다른 기기/브라우저에는 안 보여요. 밸류에이션/실적 캐시는 없어서 즉석 조회와 마찬가지로 기술적 단기판단 위주로만 나와요.</div>
+  <div class="page-tabs" id="pageTabs">
+    <div class="ptab active" onclick="switchPage('dashboard')">📊 대시보드</div>
+    <div class="ptab" onclick="switchPage('holdings')">💼 내 보유종목</div>
   </div>
 
+  <div id="pageDashboard">
   <div class="card">
-    <h2>내 보유종목 <span style="font-weight:400;font-size:12px;color:var(--sub);">(평단가·손익·물타기 계획)</span></h2>
-    <div class="row">
-      <input type="text" id="holdTicker" placeholder="티커" style="width:90px;">
-      <input type="number" id="holdAvg" placeholder="평균 매수가" style="width:120px;" step="any">
-      <input type="number" id="holdQty" placeholder="수량" style="width:90px;" step="any">
-      <button class="secondary" onclick="addHolding()">추가/수정</button>
-      <span class="sub" id="holdStatus"></span>
+    <div class="row" style="justify-content:space-between;flex-wrap:wrap;">
+      <div class="row">
+        <button id="scanBtn" onclick="scanAll()">전체 스캔 실행</button>
+        <span class="sub" id="scanStatus"></span>
+      </div>
+      <div class="row">
+        <input type="text" id="lookupInput" placeholder="종목 직접 조회 (예: PLTR)" style="width:150px;" onkeydown="if(event.key==='Enter')lookupTicker()">
+        <button class="secondary" onclick="lookupTicker()">조회</button>
+        <span class="sub" id="lookupStatus"></span>
+      </div>
     </div>
-    <div id="holdingsBody"></div>
-    <div class="sub" style="margin-top:8px;">이 정보는 <b>이 브라우저에만 저장</b>되고 어디로도 전송되지 않아요(GitHub에 올라가는 파일에도 안 들어감). 현재가는 "전체 스캔"이나 종목 조회를 한 뒤에 반영돼요.</div>
+    <div class="sub" style="margin-top:4px;">관심종목이 아니어도 티커를 입력하면 기술적 단기판단·차트를 바로 볼 수 있어요(펀더멘털은 관심종목만 캐시가 있어요). 마음에 들면 상세 화면에서 ⭐로 바로 즐겨찾기할 수 있어요.</div>
+    <details style="margin-top:10px;">
+      <summary style="cursor:pointer;color:var(--sub);font-size:12px;">⚙ 설정 (API 키 · 관심종목 관리) &nbsp;<span id="tdKeyBadge"></span></summary>
+      <div style="margin-top:10px;">
+        <div class="row">
+          <input type="text" id="tdKeyInput" placeholder="Twelve Data API 키 (선택)" style="width:240px;">
+          <button class="secondary" onclick="saveTdKey()">저장</button>
+          <button class="secondary" onclick="clearTdKey()">삭제</button>
+          <span class="sub" id="tdKeyStatus"></span>
+        </div>
+        <div class="sub" style="margin-top:6px;">가격 데이터를 <a href="https://twelvedata.com" target="_blank" style="color:var(--sub)">Twelve Data</a>에서 우선 조회하기 위한 키(선택, 브라우저에만 저장). 없으면 야후/stooq 무료 경로로 자동 폴백합니다.</div>
+        <div class="row" style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line);">
+          <input type="text" id="watchAddInput" placeholder="관심종목에 추가 (예: PLTR)" style="width:200px;" onkeydown="if(event.key==='Enter')addCustomTicker()">
+          <button class="secondary" onclick="addCustomTicker()">추가</button>
+          <span class="sub" id="watchAddStatus"></span>
+        </div>
+        <div class="sub" id="customTickerList" style="margin-top:6px;"></div>
+        <div class="sub" style="margin-top:6px;">여기 추가한 종목은 <b>이 브라우저에만(localStorage)</b> 저장되고 위 비교 표에도 계속 나와요 - 다른 기기/브라우저에는 안 보여요. 밸류에이션/실적 캐시는 없어서 즉석 조회와 마찬가지로 기술적 단기판단 위주로만 나와요.</div>
+      </div>
+    </details>
   </div>
 
   <div class="card" id="marketCard" style="display:none;">
@@ -312,6 +315,22 @@
     이 도구는 공개 가격 데이터, Finnhub 무료 티어 지표, Yahoo Finance 컨센서스를 조합한 개인용 참고 자료이며 매매를 권유하지 않습니다.<br>
     일부 해외 상장 종목은 재무/실적 전망 데이터가 조회되지 않을 수 있습니다(조회 실패가 정상).<br>
     투자 판단과 결과에 대한 책임은 전적으로 본인에게 있습니다.
+  </div>
+  </div><!-- /pageDashboard -->
+
+  <div id="pageHoldings" style="display:none;">
+  <div class="card">
+    <h2>내 보유종목 <span style="font-weight:400;font-size:12px;color:var(--sub);">(평단가·손익·물타기 계획)</span></h2>
+    <div class="row">
+      <input type="text" id="holdTicker" placeholder="티커" style="width:90px;">
+      <input type="number" id="holdAvg" placeholder="평균 매수가" style="width:120px;" step="any">
+      <input type="number" id="holdQty" placeholder="수량" style="width:90px;" step="any">
+      <button class="secondary" onclick="addHolding()">추가/수정</button>
+      <span class="sub" id="holdStatus"></span>
+    </div>
+    <div id="holdingsBody"></div>
+    <div class="sub" style="margin-top:8px;">이 정보는 <b>이 브라우저에만 저장</b>되고 어디로도 전송되지 않아요(GitHub에 올라가는 파일에도 안 들어감). 현재가는 "전체 스캔"이나 종목 조회를 한 뒤에 반영돼요.</div>
+  </div>
   </div>
 
 </div>
@@ -413,6 +432,28 @@ function removeCustomTicker(ticker){
   delete results[ticker];
   renderCustomTickerList();
   refreshViewsIfActive();
+}
+// 2026-08-13 추가: 상세 패널(종목 직접 조회 결과)에서 바로 즐겨찾기 - results[ticker]가 이미
+// 있으니 재조회 없이 목록에만 추가하면 됨(addCustomTicker와 달리 입력창을 거치지 않음).
+function bookmarkTicker(ticker){
+  const custom = getCustomTickers();
+  if(custom.includes(ticker)) return;
+  custom.push(ticker);
+  saveCustomTickers(custom);
+  renderCustomTickerList();
+  refreshViewsIfActive();
+  openDetail(ticker); // 헤더를 다시 그려서 버튼을 "추가됨" 표시로 갱신
+}
+
+// ============ 페이지 레벨 탭 (2026-08-13 추가) ============
+// [배경] "내 보유종목이 메인에 있을 필요 없다"는 사용자 요청 - 기존엔 종목 상세(01~06)만 탭이었고
+// 메인 화면 자체는 카드가 쭉 나열된 단일 페이지였음. 보유종목을 별도 "페이지"로 완전히 분리.
+function switchPage(id){
+  document.getElementById('pageDashboard').style.display = id==='dashboard' ? '' : 'none';
+  document.getElementById('pageHoldings').style.display = id==='holdings' ? '' : 'none';
+  document.querySelectorAll('#pageTabs .ptab').forEach((el,i)=>{
+    el.classList.toggle('active', (id==='dashboard' && i===0) || (id==='holdings' && i===1));
+  });
 }
 
 // ============ 보유종목 트래커 (전부 브라우저 localStorage - 외부 전송 없음) ============
@@ -557,7 +598,13 @@ function clearTdKey(){ localStorage.removeItem('compass_td_key'); renderTdKeySta
 function renderTdKeyStatus(){
   const el = document.getElementById('tdKeyStatus');
   const k = getTdKey();
-  el.textContent = k ? `저장됨 (${k.slice(0,4)}${'*'.repeat(Math.max(k.length-4,0))})` : '키 없음 - 무료 경로(야후/stooq) 사용';
+  if(el) el.textContent = k ? `저장됨 (${k.slice(0,4)}${'*'.repeat(Math.max(k.length-4,0))})` : '키 없음 - 무료 경로(야후/stooq) 사용';
+  // 2026-08-13 추가: 설정을 <details>로 접으면서 "키가 등록돼 있나"를 열어봐야만 알 수 있게 된
+  // 문제 지적됨 - 접힌 상태에서도 보이는 summary 줄에 짧은 배지를 항상 띄워둠.
+  const badge = document.getElementById('tdKeyBadge');
+  if(badge) badge.innerHTML = k
+    ? `<span style="color:var(--up);font-weight:700;">● TwelveData 키 등록됨</span>`
+    : `<span style="color:var(--sub);">○ TwelveData 키 없음(무료 경로 사용 중)</span>`;
 }
 
 // ============ 가격 데이터 fetch (프록시 폴백, 2년치 - 200일선/52주 계산용) ============
@@ -1219,9 +1266,15 @@ function computeFairValue(ticker, price, fund, est){
   if(!price){
     out.fwd = {unavailable:'현재가를 조회하지 못해 계산할 수 없어요.'};
   } else if(!(eps0>0) || !(eps1>0)){
+    // ⚠️ 2026-08-13 버그수정: "ETF는 원래 없어요"라고 무조건 설명했는데, ETF가 아니라 그냥
+    // 관심종목이 아니라서 애초에 컨센서스 캐시가 없는 경우(예: NFLX 직접조회)에도 이 문구가
+    // 그대로 떠서 "NFLX가 ETF인가?"처럼 오해를 살 수 있었음(2026-08-11에 이미 고친 ttmFallbackHtml
+    // 계열 버그와 같은 종류인데 이 함수만 빠져있었음). isAdHocTicker로 원인부터 구분.
     out.fwd = {unavailable: (eps0!=null||eps1!=null)
       ? '예상 EPS가 0 이하(적자)라 PER 방식으로는 계산할 수 없어요.'
-      : '애널리스트 예상 EPS를 조회하지 못했어요(ETF는 원래 없어요).'};
+      : (isAdHocTicker(ticker)
+        ? '이 종목은 관심종목이 아니라 애널리스트 예상치 캐시가 없어요 - 워치리스트에 추가하면 해결돼요.'
+        : '애널리스트 예상 EPS를 조회하지 못했어요(ETF는 EPS 자체가 없어 정상, 개별종목이면 컨센서스 조회 실패일 수 있어요).')};
   } else {
     const anchorPe = price / eps0;          // 지금 시장이 매기는 PER (올해 예상 이익 기준)
     const pe1y = price / eps1;              // 주가가 그대로일 때 내년 PER - "가만히 있어도 싸지는가"
@@ -1616,7 +1669,15 @@ function openDetail(ticker){
   if(!r || r.error) return;
   openTicker = ticker;
   document.getElementById('detailTitle').innerHTML = `${esc(ticker)} · $${r.price.toFixed(2)}${hasFreshNews(ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}`;
-  document.getElementById('detailSub').textContent = `${r.name} · ${r.theme}`;
+  // 2026-08-13 추가: 종목 직접 조회로 들어온 종목을 매번 관심종목 입력창에 다시 타이핑하지 않고
+  // 바로 즐겨찾기할 수 있게 - 관심종목(캐시 있음)이면 버튼 자체를 안 보여주고, 이미 즐겨찾기한
+  // 애드혹 종목이면 "추가됨" 표시만 함.
+  const bookmarkHtml = isAdHocTicker(ticker)
+    ? (getCustomTickers().includes(ticker)
+      ? `<span class="sub" style="margin-left:8px;">⭐ 관심종목에 있음</span>`
+      : `<span class="remove" style="margin-left:8px;font-weight:700;color:var(--accent);cursor:pointer;" onclick="bookmarkTicker('${ticker}')">⭐ 관심종목에 추가</span>`)
+    : '';
+  document.getElementById('detailSub').innerHTML = `${esc(r.name)} · ${esc(r.theme)}${bookmarkHtml}`;
   activeTab = '01';
   techViewOpen = false;
   chartZoom = { span: null, center: null };
@@ -2640,12 +2701,16 @@ function macroMeaning(key, pctRank){
 // 예전엔 종목을 하나씩 열어봐야 D-day를 알 수 있었음. news_data.js의 nextEarnings는 스캔 없이도
 // 페이지 로드 시 바로 있는 데이터라(오늘의 시장 환경과 동일한 성격), 워치리스트 전체를 모아서
 // 미리 보여주면 진입 타이밍을 실적 앞뒤로 관리하기 쉬워짐.
+// 2026-08-13 압축: 내용(전 종목 D-day 일정)은 그대로 두고 카드 높이만 줄임 - 가까운 3건만 바로
+// 보이고 나머지는 details로 접음. 매출 추정치(revenueEstimate)도 같이 표시(EPS만 있던 것에 추가 -
+// Finnhub calendar/earnings가 원래 주는 필드인데 fetch_next_earnings()가 안 담고 있었어서
+// buy_signal_telegram.py도 같이 고침. 캐시가 다음 갱신 전까지는 기존처럼 EPS만 보일 수 있음).
 function renderEarningsCalendar(){
   const card = document.getElementById('earningsCalCard');
   const box = document.getElementById('earningsCalBox');
   if(!card || !box) return;
   if(typeof NEWS_DATA === 'undefined' || !NEWS_DATA){ return; }  // 파일 없으면 카드 숨김(초기값 display:none 유지)
-  const hourTxt = {bmo:'장 시작 전', amc:'장 마감 후', dmh:'장중'};
+  const hourTxt = {bmo:'장전', amc:'장마감후', dmh:'장중'};
   const todayStart = new Date(new Date().toDateString());
   const rows = [];
   allTickers().forEach(t=>{
@@ -2654,17 +2719,21 @@ function renderEarningsCalendar(){
     const d = new Date(ne.date+'T00:00:00');
     const days = Math.round((d - todayStart) / 86400000);
     if(isNaN(days) || days < 0 || days > 35) return;  // 향후 5주 이내만
-    rows.push({ticker:t, date:ne.date, days, hour:ne.hour, eps:ne.epsEstimate});
+    rows.push({ticker:t, date:ne.date, days, hour:ne.hour, eps:ne.epsEstimate, rev:ne.revenueEstimate});
   });
   if(!rows.length){ card.style.display='none'; return; }
   card.style.display = 'block';
   rows.sort((a,b)=>a.days-b.days);
+  const rowHtml = r => `<div class="fund-row" style="cursor:pointer;padding:5px 0;" onclick="openDetail('${r.ticker}')">
+      <span><b>${esc(r.ticker)}</b> ${r.days<=7?`<span class="badge b-sell-wait" style="padding:2px 7px;font-size:10.5px;">${r.days===0?'오늘':`D-${r.days}`}</span>`:`<span class="sub">${r.days===0?'오늘':`D-${r.days}`}</span>`}</span>
+      <span class="v" style="font-weight:400;font-size:11.5px;">${esc(r.date)}${hourTxt[r.hour]?' · '+hourTxt[r.hour]:''}${r.eps!=null?' · EPS $'+Number(r.eps).toFixed(2):''}${r.rev!=null?' · 매출 $'+fmtUsd(r.rev):''}</span>
+    </div>`;
+  const VISIBLE = 3;
+  const visible = rows.slice(0, VISIBLE), rest = rows.slice(VISIBLE);
   box.innerHTML = `
-    <div class="sub" style="margin-bottom:6px;">발표 직후엔 하루 ±10% 이상 움직이는 일이 흔해요 - 신규 진입은 비중을 줄이거나 발표 뒤로 미루는 걸 고려하세요.</div>
-    ${rows.map(r=>`<div class="fund-row" style="cursor:pointer;" onclick="openDetail('${r.ticker}')">
-      <span><b>${esc(r.ticker)}</b> ${r.days<=7?`<span class="badge b-sell-wait">${r.days===0?'오늘':`D-${r.days}`}</span>`:(r.days===0?'오늘':`D-${r.days}`)}</span>
-      <span class="v">${esc(r.date)}${hourTxt[r.hour]?' · '+hourTxt[r.hour]:''}${r.eps!=null?' · 예상 EPS $'+Number(r.eps).toFixed(2):''}</span>
-    </div>`).join('')}`;
+    <div class="sub" style="margin-bottom:4px;">발표 직후 하루 ±10%↑ 변동 흔함 - 신규 진입은 발표 뒤로 미루는 것도 방법이에요.</div>
+    ${visible.map(rowHtml).join('')}
+    ${rest.length ? `<details><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${rest.length}건 더 보기</summary>${rest.map(rowHtml).join('')}</details>` : ''}`;
 }
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
@@ -2674,8 +2743,24 @@ function renderMarketCard(){
   if(!M || !M.indicators || !Object.keys(M.indicators).length) return;  // 파일 없으면 카드 자체를 숨김
   card.style.display = 'block';
 
+  // 2026-08-13 압축: 지표 7개를 큼직한 카드로 하나씩 늘어놓으면 너무 길어진다는 지적 - 내용은
+  // 그대로 두고 기본은 표(1행씩) 하나로 압축하고, 지표별 상세(5년 범위 막대·의미 설명)는 details로 접음.
   const fmt = (v, digits, unit) => v==null ? '-' : (unit==='$'?'$':'') + v.toFixed(digits) + (unit==='%'?'%':'');
-  const rows = MACRO_ORDER.filter(k=>M.indicators[k]).map(k=>{
+  const inds = MACRO_ORDER.filter(k=>M.indicators[k]);
+  const compactRows = inds.map(k=>{
+    const m = M.indicators[k];
+    const lv = levelLabel(m.pctRank);
+    const chg = m.changePct;
+    const chgTxt = chg==null ? '-' : `${chg>=0?'+':''}${chg.toFixed(2)}%`;
+    return `<tr>
+      <td style="padding:5px 8px 5px 0;white-space:nowrap;">${esc(m.label)}</td>
+      <td class="v" style="padding:5px 8px;font-family:var(--mono);font-weight:800;white-space:nowrap;">${fmt(m.current,m.digits,m.unit)}</td>
+      <td style="padding:5px 8px;white-space:nowrap;"><b style="color:${lv.c};">${lv.t}</b></td>
+      <td class="sub" style="padding:5px 8px;white-space:nowrap;">${trendLabel(m)}</td>
+      <td class="v" style="padding:5px 0 5px 8px;color:${chg>=0?'var(--up)':'var(--down)'};white-space:nowrap;font-weight:400;">전일 ${chgTxt}</td>
+    </tr>`;
+  }).join('');
+  const rows = inds.map(k=>{
     const m = M.indicators[k];
     const lv = levelLabel(m.pctRank);
     const chg = m.changePct;
@@ -2770,7 +2855,7 @@ function renderMarketCard(){
   let newsBlock = '';
   if((M.news||[]).length){
     const hasKo = M.news.some(n=>n.headlineKo);
-    const items = M.news.map(n=>{
+    const newsItemHtml = n => {
       const dt = n.datetime ? new Date(n.datetime*1000) : null;
       const dtTxt = dt ? `${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')} ${String(dt.getHours()).padStart(2,'0')}:${String(dt.getMinutes()).padStart(2,'0')}` : '';
       const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
@@ -2787,31 +2872,49 @@ function renderMarketCard(){
         <span style="flex:1;">${link}${sub}</span>
         <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;font-size:11px;">${esc(n.source)} ${dtTxt}</span>
       </div>`;
-    }).join('');
+    };
     const toggle = hasKo
       ? `<span class="toggle-btn" style="margin-left:8px;padding:2px 8px;font-size:11px;" onclick="toggleMarketNewsLang()">${marketNewsShowEn?'한글로 보기':'원문만 보기'}</span>`
       : '';
+    // 2026-08-13 압축: 12건을 한 번에 다 보여주면 카드가 길어진다는 지적 - 3건만 바로 보이고
+    // 나머지는 details로 접음(내용 삭제 아님, 클릭하면 그대로 다 있음).
+    const NEWS_VISIBLE = 3;
+    const visibleNews = M.news.slice(0, NEWS_VISIBLE).map(newsItemHtml).join('');
+    const restNews = M.news.slice(NEWS_VISIBLE).map(newsItemHtml).join('');
     newsBlock = `
       <div class="chart-label" style="margin-top:18px;">시장 헤드라인 ${hintIcon('marketNews')}${toggle}</div>
       ${hasKo?`<div class="sub" style="margin-bottom:4px;">한글 제목은 <b>자동 기계번역</b>이라 금융 용어·회사 이름에서 어색하거나 틀릴 수 있어요. 아래 회색 글씨가 원문이고, 제목을 누르면 원문 기사로 갑니다.</div>`:''}
-      ${items}`;
+      ${visibleNews}
+      ${restNews ? `<details><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${M.news.length - NEWS_VISIBLE}건 더 보기</summary>${restNews}</details>` : ''}`;
   }
 
   body.innerHTML = `
-    <div class="fund-grid" style="gap:14px;">${rows}</div>
+    <div style="overflow-x:auto;">
+      <table style="width:100%;border-collapse:collapse;font-size:12.5px;">
+        <tr class="sub" style="text-align:left;"><th style="padding:2px 8px 2px 0;font-weight:600;">지표</th><th style="padding:2px 8px;font-weight:600;">값</th><th style="padding:2px 8px;font-weight:600;">레벨</th><th style="padding:2px 8px;font-weight:600;">추세</th><th style="padding:2px 0 2px 8px;font-weight:600;">전일</th></tr>
+        ${compactRows}
+      </table>
+    </div>
+    <details style="margin-top:6px;">
+      <summary style="cursor:pointer;color:var(--sub);font-size:12px;">지표별 자세히 보기 (5년 범위·의미 설명)</summary>
+      <div class="fund-grid" style="gap:14px;margin-top:10px;">${rows}</div>
+    </details>
     ${sectorBlock}
     ${spreadBlock}
-    <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:10px;">
-      <b>전일 등락보다 '레벨'을 먼저 보세요.</b> 하루 등락은 그날 분위기일 뿐이고, 6~12개월 관점에서는
-      <b>지금 값이 역사적으로 높은 자리인지</b>와 <b>어느 방향으로 가고 있는지</b>가 더 중요해요.
-      다만 하루에 3% 넘게 움직였다면 뭔가 사건이 있었다는 뜻이니, 그때는 아래 헤드라인을 확인해 보세요.
-    </div>
-    <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
-      ⚠️ <b>여기 설명은 '일반적으로 알려진 관계'이지 이 도구가 검증한 규칙이 아니에요.</b>
-      실제로 이 프로젝트가 15년치 데이터로 검증했을 때 <b>VIX와 공포탐욕지수는 12개월 수익률을 전혀 예측하지 못했어요</b>
-      (오히려 시장이 조정받을 때가 매수 적기였음). 그래서 이 카드는 <b>매수·매도 신호가 아니라 '지금 어떤 환경인지' 읽는 용도</b>로만 쓰세요.
-      실제 매수 타이밍은 종목별 눌림목 점수와 단타 신호로 판단하시면 돼요.
-    </div>
+    <details style="margin-top:10px;">
+      <summary style="cursor:pointer;color:var(--sub);font-size:12px;">이 카드 해석할 때 유의사항</summary>
+      <div class="comment-box" style="background:var(--panel-2);color:#4b5157;margin-top:6px;">
+        <b>전일 등락보다 '레벨'을 먼저 보세요.</b> 하루 등락은 그날 분위기일 뿐이고, 6~12개월 관점에서는
+        <b>지금 값이 역사적으로 높은 자리인지</b>와 <b>어느 방향으로 가고 있는지</b>가 더 중요해요.
+        다만 하루에 3% 넘게 움직였다면 뭔가 사건이 있었다는 뜻이니, 그때는 아래 헤드라인을 확인해 보세요.
+      </div>
+      <div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:8px;">
+        ⚠️ <b>여기 설명은 '일반적으로 알려진 관계'이지 이 도구가 검증한 규칙이 아니에요.</b>
+        실제로 이 프로젝트가 15년치 데이터로 검증했을 때 <b>VIX와 공포탐욕지수는 12개월 수익률을 전혀 예측하지 못했어요</b>
+        (오히려 시장이 조정받을 때가 매수 적기였음). 그래서 이 카드는 <b>매수·매도 신호가 아니라 '지금 어떤 환경인지' 읽는 용도</b>로만 쓰세요.
+        실제 매수 타이밍은 종목별 눌림목 점수와 단타 신호로 판단하시면 돼요.
+      </div>
+    </details>
     ${newsBlock}
     <div class="sub" style="margin-top:10px;">지표 갱신: ${esc(M._updated_label||'-')} · 레벨은 최근 5년 일별 데이터 기준 백분위예요.</div>`;
 }
