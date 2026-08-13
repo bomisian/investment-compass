@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.6899995803833,
+      "current": 14.65999984741211,
       "prevClose": 14.550000190734863,
-      "changeAbs": 0.1399993896484375,
-      "changePct": 0.9621951052453331,
-      "pctRank": 17.993630573248407,
+      "changeAbs": 0.1099996566772461,
+      "changePct": 0.7560113761874147,
+      "pctRank": 17.8343949044586,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -52.68921113901457,
-      "ma20": 16.8604998588562,
-      "ma60": 17.074999952316283,
-      "chg1m": -0.9800004959106445,
-      "chg3m": -2.570000648498535,
-      "chg1mPct": -6.253991647346697,
-      "chg3mPct": -14.889922447382428,
+      "drawdown1y": -52.785828638880346,
+      "ma20": 16.85899987220764,
+      "ma60": 17.074499956766765,
+      "chg1m": -1.010000228881836,
+      "chg3m": -2.6000003814697266,
+      "chg1mPct": -6.445438570289448,
+      "chg3mPct": -15.063733180715976,
       "lastDate": "2026-08-13",
       "bars": 1256,
       "symbol": "^VIX",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.97000122070312,
+      "current": 99.93199920654297,
       "prevClose": 100.01000213623047,
-      "changeAbs": -0.04000091552734375,
-      "changePct": -0.03999691498141932,
-      "pctRank": 35.719968178202066,
+      "changeAbs": -0.0780029296875,
+      "changePct": -0.07799512850849345,
+      "pctRank": 35.24264120922832,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.6140137582888237,
-      "ma20": 100.45900039672851,
-      "ma60": 100.32083371480306,
-      "chg1m": -0.529998779296875,
-      "chg3m": 1.4899978637695312,
-      "chg1mPct": -0.5273619694496269,
-      "chg3mPct": 1.5129953421804248,
+      "drawdown1y": -1.6514136342182462,
+      "ma20": 100.45710029602051,
+      "ma60": 100.3202003479004,
+      "chg1m": -0.5680007934570312,
+      "chg3m": 1.451995849609375,
+      "chg1mPct": -0.5651749188627176,
+      "chg3mPct": 1.474406783219454,
       "lastDate": "2026-08-13",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4431.0,
+      "current": 4437.0,
       "prevClose": 4408.89990234375,
-      "changeAbs": 22.10009765625,
-      "changePct": 0.5012610434748518,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 28.10009765625,
+      "changePct": 0.6373494132019674,
+      "pctRank": 91.64677804295943,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.685467784261288,
-      "ma20": 4159.609997558594,
-      "ma60": 4218.2449951171875,
-      "chg1m": 387.0,
-      "chg3m": -266.7001953125,
-      "chg1mPct": 9.56973293768546,
-      "chg3mPct": -5.677250233606246,
+      "drawdown1y": -16.572651897713232,
+      "ma20": 4159.909997558594,
+      "ma60": 4218.344995117188,
+      "chg1m": 393.0,
+      "chg3m": -260.7001953125,
+      "chg1mPct": 9.718100890207715,
+      "chg3mPct": -5.549528162155476,
       "lastDate": "2026-08-13",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,6 +226,13 @@ const MARKET_DATA = {
       "headlineKo": "걸프 휴전, 월드컵, 햇빛으로 인한 영국 경제 이익 - 로이터"
     },
     {
+      "headline": "Jailed Istanbul mayor Imamoglu joins new opposition party amid political turmoil - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbEV3SWIzTHVVZllzRFo2RlNPT2RyMGM4VFJRem9vTGdsbE9YU3VVaEphNjVkZHlWb3J2aVdEQmI2ekY1YlEwb3RHSFUybHotdUxObjhYMktSdmdHSlpJM1hGczZWQ29rSGxZVHdBMGdDX083MFpNVW9HNmdKTGhZcnBQd0hNM3R0Nm9ucG1pR0ozTzNyRF9kOElkeFUzdElPdk95aVpXUEpWcE1LRkZjUWdjWnBLTzU0YUNIY0hwUVI3NkdoV1BlVFBOU2kzQ2s?oc=5",
+      "datetime": 1786600020,
+      "headlineKo": "투옥된 이스탄불 시장 이마모글루, 정치적 혼란 속에 새 야당에 합류 - 로이터 통신"
+    },
+    {
       "headline": "Gold off two-month peak as traders seek inflation cues - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZWRyNnFQd2twNlNReDRyTy1GMGJWTktnY1RhMWY2SXZXRTluaDQ5TW8tdi11YTJ1VEppaUVwWTdyZkNUMGZMQXdIdG1Bdm9uQnNFOUNMY0UyREk2NU45UzF0SDlXcjNrWmswYldOZ3dKUzg2YUZaTjJZYm5lNldFTlFXcmJnVl94VGdfRnlEbElyRG1SZE9ERG5NRVNicUdJOXhNNDdLbTNEbzVTOFNpSWI0OUM4dw?oc=5",
@@ -233,25 +240,25 @@ const MARKET_DATA = {
       "headlineKo": "거래자들이 인플레이션 단서를 찾으면서 금이 2개월 최고치에서 하락했습니다 - Reuters"
     },
     {
-      "headline": "Oil eases as weaker demand outlook counters Mideast supply concerns - Reuters",
+      "headline": "Indian benchmarks extend fall on Mideast uncertainty; Tata stocks steady - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONXVMYU92V04yWnc3ekdtSExYLXlXUFNKcW4wZE9XV2VlSmpMRElsUXJKMUZGRFRKbkZLNWpLNWRfelk0SWhhWUNXaHQzeW81djZMWHE1SUZva0xOT2lsWWdPU0VkdjBScjRlYzBVUVNpVlY0YlpUNXF6dnk3RFpjelZCQnEtTEJySWh1QW5ORjdsbjY2WFdXT0xqYkZhR3dtWkpKMXR0S1VlTEsyWFhwNHpTMk5fb2JPLXc?oc=5",
+      "datetime": 1786588920,
+      "headlineKo": "인도 벤치마크는 중동 불확실성으로 인해 하락세를 이어갔습니다. 타타 주식은 안정적이다 - 로이터"
+    },
+    {
+      "headline": "Oil slips on weaker demand outlook and higher US stocks amid supply disruptions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRHRqOVFPR196RlJ0WTVZajZ6NHRpdmhmZ0EtSDMwTDVZVk5mX2JnVm9LVnFDQ2M4c08ybExVeldFQk9BdG9HVldTbnJFRDVjdTc3MF8wZmc4ck41bWd6Wng2SFowYjZrNW1UVzJuMDR4cnBUT0c2TXUteFR0cTFiVVY5bm5Da09NSDI4akNIcFY4NHRBRzkzNXNuZ1luQjNGUHFFdnVhT1RCNGlKMWx4MkgzdzhLdw?oc=5",
       "datetime": 1786583280,
-      "headlineKo": "약한 수요 전망이 중동 공급 우려를 상쇄하면서 유가 하락 - Reuters"
+      "headlineKo": "수요 둔화와 공급 차질로 인한 미국 증시 상승으로 인한 유가 하락 - Reuters"
     },
     {
-      "headline": "Credible missile threat led to secret aircraft switch for Trump, source says - Reuters",
+      "headline": "Stocks edge up with oil price below $90, dollar at 2-week high, Iran in focus - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSlRqMEthQzJ3NWM2WVctYUhwMTlFekFyd0o3QVpnUkRoeUxUMGxSSThmVW1QT096QmVNUlRHZkxOUXM5M0tGdXBSRlIwbWFQbHFEdVdaR2lUVkdTaWRybHFZYzRtMk85LUNLMXF4bGFsZU1UVE54SXJsZWFRYnRmNlRoVVhWNUZVNm1OZmdlTHI3RlpYYWtULV9qZWFvVUtVMEl4aFByMDJXRHN0RHpxanJvNGY3cGNKN3Y5QUlncHljV193bEstMGFzTQ?oc=5",
-      "datetime": 1786576792,
-      "headlineKo": "신뢰할 수 있는 미사일 위협으로 인해 트럼프가 비밀 항공기로 교체했다고 소식통이 전했습니다."
-    },
-    {
-      "headline": "'If I go, you go, right?': Traveling on the presidential plane—without Trump - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVy1qZERoWkltdjF1bTJRWTZQaTJ6NVI1YVBVcVBQLXhuaFBoZ2o2bW9tNTlMR3VFNDlPSHdTUlZ6WkkzR1RkbXpMV1VYZUJRdk1Tano3emJQSGVVdUtlT3FWMWFrVjg3bFZlbUQzNlZuWDJ6M19pb0pjcDRoWjdoZW1iVk04MGRDd0RRSkZpUVJFaDZxem5JWE5SaXFfMVZBZmxub00xdk11SGZ3TFJuNzItSW9IaDB0dzBlVGp2R014eUZj?oc=5",
-      "datetime": 1786575967,
-      "headlineKo": "'내가 가면 당신도 가겠죠?' 트럼프 없이 대통령 전용기 타고 여행 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlfTWozZlI1am8yV1pmREdVZGswQ1NPWl92dGhIN3lVbWJRaFA2YWhWNDQ4NWwweXZpbmpLOGFmcDlUdDhBSGFyU1piOVBzam1JOEN2RVFDOXdWOFk2LTB1MklsRzRfVmlaR3BTb2ZFNmw2U0hjUnhNLUd3cVV0WElxVQ?oc=5",
+      "datetime": 1786582920,
+      "headlineKo": "유가는 90달러 미만, 달러는 2주 최고치, 이란에 초점 맞춰 주가 상승 - Reuters"
     },
     {
       "headline": "Iranian photojournalist faces 15 years in prison over images, reporting - Reuters",
@@ -259,6 +266,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZkZMS1VuU2djMmpESEVFMlhMZm1lWjEzWlRCVDlwRXRaeVRGMXpxWi1RSFdYT2lCOVZkVGkyYmFxSWp5TnpOUmNNSnR1bDdVUHN6Y2w1cXBORTk1dk45ZzROUHRlVWNicG9zZlZxUWtiMjZhbDZUci1FTVRSdUFpSFYxdHVhOVVVWnJmX3RvbndjandLaUN6cnBPS0k4YzUzdW41M0FVMy1ucHFwYlozRGxCbGRIaE9ZQm5FZDl6TXpQUWQt?oc=5",
       "datetime": 1786568650,
       "headlineKo": "이란 사진기자, 사진 보도로 15년 징역형 선고 - 로이터"
+    },
+    {
+      "headline": "'If I go, you go, right?': Traveling on the presidential plane—without Trump - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVy1qZERoWkltdjF1bTJRWTZQaTJ6NVI1YVBVcVBQLXhuaFBoZ2o2bW9tNTlMR3VFNDlPSHdTUlZ6WkkzR1RkbXpMV1VYZUJRdk1Tano3emJQSGVVdUtlT3FWMWFrVjg3bFZlbUQzNlZuWDJ6M19pb0pjcDRoWjdoZW1iVk04MGRDd0RRSkZpUVJFaDZxem5JWE5SaXFfMVZBZmxub00xdk11SGZ3TFJuNzItSW9IaDB0dzBlVGp2R014eUZj?oc=5",
+      "datetime": 1786568580,
+      "headlineKo": "'내가 가면 당신도 가겠죠?' 트럼프 없이 대통령 전용기 타고 여행 - 로이터"
     },
     {
       "headline": "Top US refiners see profits soar, step up investor rewards - Reuters",
@@ -287,22 +301,8 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGNVS3hTUTZFb3JqbU5JZTRLRzRFMWVrcGpmSmx1WHo4MUVraTRveDUtTEhqMFZGbnY1TFc0VDhwQlhEWEh2TTBIbmlfS2NYcVY5SXk5WExhTU5vMTdtSWhVREhqNnlZNzdqekJ0MVM3ZmtMa0p3UE1CWnRqSndGTURsM0ZaaEJIRzRPMS1LQVB1YVJMdXNnM0xXY0Z0WS0zZlJ2R2N5THM1a0NWZThJT0dHbFdoLWg2YmFTTlhvQ29IaHc?oc=5",
       "datetime": 1786565641,
       "headlineKo": "기관들이 재난을 경고하면서 오만 해안선을 강타한 거대한 기름 유출 - 로이터 통신"
-    },
-    {
-      "headline": "How to trade gold prices as Fed rate hike and inflation odds shifts",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/12/gold-prices-metals-fed-rate-hike-inflation.html",
-      "datetime": 1786562552,
-      "headlineKo": "연준의 금리 인상 및 인플레이션 확률 변화에 따라 금 가격을 거래하는 방법"
-    },
-    {
-      "headline": "Saudi Red Sea oil exports go dark as Houthi attack threat grows - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRGFZQ2Vnb3RrVVF5MGpzQzlrckRvMHM2bmtQRFFEdUdra2QxdEcwMEVTQk1GUDFBS25MS2Rmb05uZkd4Znp4aElvSEtFVzNXY1dtYUNHNmpWODhUSTFVRDc1a0VMR3NTVTlmNndDRlBnVWlfOFpZSXFRY01EUDh6WGJQb2xHY0daZGIwbzI3VWpfallqckphSVpIcHl0VkdqM3VyaUJUS1B4QVM5MXJZY0Rn?oc=5",
-      "datetime": 1786560574,
-      "headlineKo": "후티 반군 공격 위협 증가로 사우디 홍해 석유 수출 중단 - 로이터 통신"
     }
   ],
-  "_fetched_at": 1786611253.2778506,
-  "_updated_label": "2026-08-13 17:54"
+  "_fetched_at": 1786614888.4483619,
+  "_updated_label": "2026-08-13 18:55"
 };
