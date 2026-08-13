@@ -9,60 +9,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
-        "datetime": 1786561805,
-        "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-        "analysis": {
-          "version": 2,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
+        "headline": "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
-        "datetime": 1786558958,
-        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다",
+        "url": "https://finnhub.io/api/news?id=d4b7a735bf88bd4570e5d719f20843dd127119f7008d5cc9b8d58b084a4ab2f6",
+        "datetime": 1786511876,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다",
+            "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -85,62 +45,152 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Nvidia는 AI 컴퓨팅을 자체 자산 클래스로 만들 계획입니다(등급 업그레이드)."
       },
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+        "headline": "Nvidia's $500 Billion Deal Changes AI Story",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=58dc2dd6bfeea65c2ceaf36455009b4e9ac024684092e5c7ba66f30ef21800c0",
+        "datetime": 1786524421,
+        "relevance": 1.0,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
               "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia's $500 Billion Deal Changes AI Story' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0
+        },
+        "headlineKo": "엔비디아의 5000억 달러 거래로 AI 스토리 변화"
       },
       {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
+        "headline": "NVIDIA to Report Q2 Earnings Later in August—Crypto Prediction Market Wagers on NVDA Closing Above $250 by Month-End",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고"
+        "url": "https://finnhub.io/api/news?id=36110376c63c3c8c71348199b5162722f551fa9af3c85b5c94d3108606ae5106",
+        "datetime": 1786494858,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $250, 0.26%, 0.72%, 0.2221%, 0.04%, 0.97%, 0.1%, $250..",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'NVIDIA to Report Q2 Earnings Later in August—Crypto Prediction Market Wagers on NVDA Closing Above $250 by Month-End' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0
+        },
+        "headlineKo": "NVIDIA, 8월 후반에 2분기 수익 보고 예정 - NVDA에 대한 암호화폐 예측 시장 베팅은 월말까지 250달러 이상 마감"
       },
       {
-        "headline": "Which dow jones stocks are moving on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
-        "datetime": 1786552806,
-        "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?"
+        "headline": "Nvidia's Big Deal Expands The AI Horizon Once Again (Rating Upgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=7d04f3c38184512a87b9b527202ee954e42a83656b8f5ffbe1904a428c3e5b53",
+        "datetime": 1786459140,
+        "relevance": 1.0,
+        "headlineKo": "Nvidia의 빅딜로 AI 지평선이 다시 한 번 확장됩니다(등급 업그레이드)"
+      },
+      {
+        "headline": "Nvidia: Guess Who Backstops The $500 Billion (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f847afba36db398499a2001b95b9eb0a543bb254217d503204ec6c0eca665057",
+        "datetime": 1786454480,
+        "relevance": 1.0,
+        "headlineKo": "엔비디아: 누가 5000억 달러를 막았는지 맞춰보세요(등급 하향)"
       }
     ],
     "newsHistory": [
@@ -328,11 +378,169 @@ const NEWS_DATA = {
         "headlineKo": "호르무즈 스트레스로 인해 거래자들이 불안해짐에 따라 AI Capex는 업무 시간 이후에 포효합니다."
       },
       {
+        "headline": "Nvidia's $500 Billion Deal Changes AI Story",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=58dc2dd6bfeea65c2ceaf36455009b4e9ac024684092e5c7ba66f30ef21800c0",
+        "datetime": 1786524421,
+        "headlineKo": "엔비디아의 5000억 달러 거래로 AI 스토리 변화",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia's $500 Billion Deal Changes AI Story' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0
+        }
+      },
+      {
         "headline": "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d4b7a735bf88bd4570e5d719f20843dd127119f7008d5cc9b8d58b084a4ab2f6",
         "datetime": 1786511876,
-        "headlineKo": "Nvidia는 AI 컴퓨팅을 자체 자산 클래스로 만들 계획입니다(등급 업그레이드)."
+        "headlineKo": "Nvidia는 AI 컴퓨팅을 자체 자산 클래스로 만들 계획입니다(등급 업그레이드).",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Nvidia Intends To Make AI Compute An Asset Class Of Its Own (Rating Upgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "NVIDIA to Report Q2 Earnings Later in August—Crypto Prediction Market Wagers on NVDA Closing Above $250 by Month-End",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=36110376c63c3c8c71348199b5162722f551fa9af3c85b5c94d3108606ae5106",
+        "datetime": 1786494858,
+        "headlineKo": "NVIDIA, 8월 후반에 2분기 수익 보고 예정 - NVDA에 대한 암호화폐 예측 시장 베팅은 월말까지 250달러 이상 마감",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $250, 0.26%, 0.72%, 0.2221%, 0.04%, 0.97%, 0.1%, $250..",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'NVIDIA to Report Q2 Earnings Later in August—Crypto Prediction Market Wagers on NVDA Closing Above $250 by Month-End' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0
+        }
       },
       {
         "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
@@ -382,6 +590,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
+      },
+      {
+        "headline": "Nvidia: Guess Who Backstops The $500 Billion (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f847afba36db398499a2001b95b9eb0a543bb254217d503204ec6c0eca665057",
+        "datetime": 1786454480,
+        "headlineKo": "엔비디아: 누가 5000억 달러를 막았는지 맞춰보세요(등급 하향)"
       },
       {
         "headline": "Got $200 per Month? This ETF Could Turn It Into $455,865 With Minimal Effort on Your Part.",
@@ -629,8 +844,8 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
   },
   "AAPL": {
     "nextEarnings": {
@@ -640,101 +855,21 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
-        "datetime": 1786561805,
-        "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
+        "headline": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=daec81ef0e6a5b48ede68e5921b32f148fa8271401fac142ced8652aa74cc2ce",
+        "datetime": 1786357009,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
-        "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
+            "기사에서 언급된 규모: 0.26%, 0.57%, 0.04%, 0.17%, 0.52%, 4%, 11%, 7%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -774,22 +909,135 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple reportedly tests CXMT memory chips as AI demand tightens global supply' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "AI 수요로 인해 글로벌 공급이 부족해지면서 Apple이 CXMT 메모리 칩을 테스트한 것으로 알려졌습니다."
       },
       {
-        "headline": "Which dow jones stocks are moving on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
-        "datetime": 1786552806,
-        "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?"
+        "headline": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35a60baacd08c1e279f21460cc9bb9c537b8326f5544692a5b716036f1438aee",
+        "datetime": 1786349937,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 기반 간이 분석",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch Oops, something went wrong Skip to navigation Skip to main content Skip to right column PREMIUM Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Cru",
+            "A Silver or Gold subscription plan is required to access premium news articles.",
+            "Upgrade Already have a subscription?"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "시장 잡담: Apple, 글로벌 공급 위기 속에서 CXMT 메모리 칩 테스트"
       },
       {
-        "headline": "3 Ways To Get Paid For Big Tech's Volatility",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
-        "datetime": 1786550345,
-        "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법"
+        "headline": "Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=92efb754a753730841ca727f6ed9315e774c2b8d873f1638b4967975962a14c5",
+        "datetime": 1786346136,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 20%, 10%, $313.33, 0.29%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Apple, AI 기반 공급 위기 속에 중국의 iPhone 및 Macbook용 CXMT 메모리 칩 테스트: 보고서"
+      },
+      {
+        "headline": "Apple App Store revenue ticks up despite falling downloads",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1a983ab8a1e7894ed408cf54013c665ee7233f4328bdb72384cbf8f4f8e84ba5",
+        "datetime": 1786045380,
+        "relevance": 1,
+        "headlineKo": "다운로드 감소에도 불구하고 Apple App Store 매출은 증가"
+      },
+      {
+        "headline": "Will Apple Have To Increase iPhone Prices?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d5f947ddbdbae07d65831680fdcf590ad3a8ef2671c6eb3ab014be137105fcfd",
+        "datetime": 1786377545,
+        "relevance": 1,
+        "headlineKo": "애플은 아이폰 가격을 인상해야 할까?"
       }
     ],
     "newsHistory": [
@@ -1121,6 +1369,13 @@ const NEWS_DATA = {
         "headlineKo": "한 번의 조용한 Apple 업데이트가 보기보다 더 중요할 수 있습니다."
       },
       {
+        "headline": "Will Apple Have To Increase iPhone Prices?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d5f947ddbdbae07d65831680fdcf590ad3a8ef2671c6eb3ab014be137105fcfd",
+        "datetime": 1786377545,
+        "headlineKo": "애플은 아이폰 가격을 인상해야 할까?"
+      },
+      {
         "headline": "Apple downgraded, HPE upgraded: Wall Street's top analyst calls",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=60e1ba95325eb6d241779d78938c60d416b134d7a9889d1717b9a84e1a836b9a",
@@ -1154,6 +1409,172 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=ca23c17ecfcb487bae90c6ef3dbbedc7020231d384c6d5e444961580b4ad1ee9",
         "datetime": 1786365722,
         "headlineKo": "iPhone 18 출시를 앞두고 Apple 주식이 강등되었습니다"
+      },
+      {
+        "headline": "Apple reportedly tests CXMT memory chips as AI demand tightens global supply",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=daec81ef0e6a5b48ede68e5921b32f148fa8271401fac142ced8652aa74cc2ce",
+        "datetime": 1786357009,
+        "headlineKo": "AI 수요로 인해 글로벌 공급이 부족해지면서 Apple이 CXMT 메모리 칩을 테스트한 것으로 알려졌습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.26%, 0.57%, 0.04%, 0.17%, 0.52%, 4%, 11%, 7%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple reportedly tests CXMT memory chips as AI demand tightens global supply' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35a60baacd08c1e279f21460cc9bb9c537b8326f5544692a5b716036f1438aee",
+        "datetime": 1786349937,
+        "headlineKo": "시장 잡담: Apple, 글로벌 공급 위기 속에서 CXMT 메모리 칩 테스트",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 기반 간이 분석",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch Oops, something went wrong Skip to navigation Skip to main content Skip to right column PREMIUM Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Cru",
+            "A Silver or Gold subscription plan is required to access premium news articles.",
+            "Upgrade Already have a subscription?"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Market Chatter: Apple Testing CXMT Memory Chips Amid Global Supply Crunch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=92efb754a753730841ca727f6ed9315e774c2b8d873f1638b4967975962a14c5",
+        "datetime": 1786346136,
+        "headlineKo": "Apple, AI 기반 공급 위기 속에 중국의 iPhone 및 Macbook용 CXMT 메모리 칩 테스트: 보고서",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 20%, 10%, $313.33, 0.29%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Tests China's CXMT Memory Chips for iPhones and Macbooks Amid AI-Fueled Supply Crunch: Report' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Apple’s Foldable Phone, Whoop-Like Band, CXMT Memory Tests Buzz Keep Traders Hooked",
@@ -1203,10 +1624,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d226c0827db4cf033b5f7069480759ec71e4452367304ab451be53e5ff2d4b68",
         "datetime": 1786277215,
         "headlineKo": "WSJ는 애플이 중국의 아이폰과 맥북용 CXMT 메모리 칩을 테스트했다고 보도했다."
+      },
+      {
+        "headline": "Apple App Store revenue ticks up despite falling downloads",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1a983ab8a1e7894ed408cf54013c665ee7233f4328bdb72384cbf8f4f8e84ba5",
+        "datetime": 1786045380,
+        "headlineKo": "다운로드 감소에도 불구하고 Apple App Store 매출은 증가"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
   },
   "GOOGL": {
     "nextEarnings": {
@@ -1216,93 +1644,13 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
-        "datetime": 1786564051,
-        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "GE Vernova: I Can't Stop Buying This AI Power Stock",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
-        "datetime": 1786558958,
-        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "GOOGL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
+        "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
+        "url": "https://finnhub.io/api/news?id=079193d82a1b115d9b8c1dbce347b0b0beb0dd53ec2d2c450e10c28f84d1f851",
+        "datetime": 1786541666,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "positive",
           "certainty": "전망·추정 포함",
@@ -1310,7 +1658,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
+            "기사에서 언급된 규모: 0.28%, 0.88%, 0.2431%, 0.02%, 0.71%, 0.09%, $341.75, 0.37 %.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -1350,22 +1698,152 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 ''Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다."
+      },
+      {
+        "headline": "Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=865400540defe3092d219e3951fa3b1a39e99073cbc21ff669483787002eef4b",
+        "datetime": 1786489355,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대"
       },
       {
         "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
         "datetime": 1786548608,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.33%, 0.84%, 0.3541%, 0.07%, 1.03%, 0.09%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
         "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
       },
       {
-        "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
+        "headline": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
+        "datetime": 1786528801,
+        "relevance": 1,
+        "headlineKo": "Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다."
+      },
+      {
+        "headline": "Google Gemini Hits 1 Billion Monthly Users, Closing the Gap With ChatGPT—Sundar Pichai Calls it ‘Fastest-Growing’ Product Ever",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=079193d82a1b115d9b8c1dbce347b0b0beb0dd53ec2d2c450e10c28f84d1f851",
-        "datetime": 1786541666,
-        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다."
+        "url": "https://finnhub.io/api/news?id=65e7fc7554adb7740c44e2b3c6ddd82a57e44bea077cd7adba3386de4af0d354",
+        "datetime": 1786512309,
+        "relevance": 1,
+        "headlineKo": "Google Gemini는 월간 사용자 10억 명을 달성하여 ChatGPT로 격차를 좁혔습니다. Sundar Pichai는 이를 '가장 빠르게 성장하는' 제품이라고 부릅니다."
       }
     ],
     "newsHistory": [
@@ -1512,14 +1990,122 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
         "datetime": 1786548608,
-        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다."
+        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.33%, 0.84%, 0.3541%, 0.07%, 1.03%, 0.09%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "'Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=079193d82a1b115d9b8c1dbce347b0b0beb0dd53ec2d2c450e10c28f84d1f851",
         "datetime": 1786541666,
-        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다."
+        "headlineKo": "'Google 공동 창립자 Sergey Brin은 최근 몇 달 동안 직원들에게 Gemini 모델을 AI의 최전선으로 다시 가져오는 데 집중할 것을 촉구했습니다. Google 경영진은 AI 부서 개편을 다루기 위해 지난 주 '전체' 회의를 소집했습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.28%, 0.88%, 0.2431%, 0.02%, 0.71%, 0.09%, $341.75, 0.37 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 ''Google Co-Founder Sergey Brin Urged Staff In Recent Months To Focus On Bringing Gemini Model Back To Frontier Of AI; Google Execs Convened 'All-Hands' Meeting Last Week To Address AI Unit Reorganizat' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
@@ -1557,11 +2143,25 @@ const NEWS_DATA = {
         "headlineKo": "'구글의 웨어러블은 카테고리 우선으로 인슐린 저항성을 추적할 것입니다'- Bloomberg"
       },
       {
+        "headline": "Google’s new Pixel 11 puts Gemini at center of AI phone battle with Apple",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
+        "datetime": 1786528801,
+        "headlineKo": "Google의 새로운 Pixel 11은 Gemini를 Apple과의 AI 전화 전쟁의 중심에 놓습니다."
+      },
+      {
         "headline": "Neocloud Stocks Catch Fire As CoreWeave Doubles Revenue",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=95252649a1e4ff922b1b58c548ff39a71afd31c5c07d9bf3489bb0a516655f85",
         "datetime": 1786528638,
         "headlineKo": "CoreWeave가 수익을 두 배로 늘리면서 Neocloud 주식에 불이 붙었습니다."
+      },
+      {
+        "headline": "Google Gemini Hits 1 Billion Monthly Users, Closing the Gap With ChatGPT—Sundar Pichai Calls it ‘Fastest-Growing’ Product Ever",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=65e7fc7554adb7740c44e2b3c6ddd82a57e44bea077cd7adba3386de4af0d354",
+        "datetime": 1786512309,
+        "headlineKo": "Google Gemini는 월간 사용자 10억 명을 달성하여 ChatGPT로 격차를 좁혔습니다. Sundar Pichai는 이를 '가장 빠르게 성장하는' 제품이라고 부릅니다."
       },
       {
         "headline": "License To Chase The AI Frontier",
@@ -1589,7 +2189,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=865400540defe3092d219e3951fa3b1a39e99073cbc21ff669483787002eef4b",
         "datetime": 1786489355,
-        "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대"
+        "headlineKo": "Ryanair, 5년 Google Cloud 계약 체결, 항공사 운영에 AI 활용 확대",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 GOOGL의 사업과 관련된 'Ryanair signs five-year Google Cloud deal, expands use of AI in airline operations' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: GOOGL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "MSFT Vs Its Peers: The Return Does Not Match The Rank",
@@ -1830,8 +2484,8 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:48"
   },
   "MSFT": {
     "nextEarnings": {
@@ -1841,118 +2495,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
-        "datetime": 1786561805,
-        "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
+        "headline": "Microsoft: No Dead Cat Bounce Here (Q4 Review)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=76bead6aec5a006fe49bb9da6dbdb52672008d7a91973e30db05a65f88b01bcc",
+        "datetime": 1786093201,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "MSFT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
-        "headline": "Which dow jones stocks are moving on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
-        "datetime": 1786552806,
-        "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?",
-        "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "수요일에 어느 다우존스 주식이 움직이나요?",
+            "Microsoft: No Dead Cat Bounce Here (Q4 Review)",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -1975,22 +2531,116 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft: No Dead Cat Bounce Here (Q4 Review)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Microsoft: 여기에서는 데드 캣 바운스가 없습니다(4분기 검토)"
       },
       {
-        "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+        "headline": "Microsoft is starting to show its payoff on major AI plays",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc6a2e0d97633493aadf2f6bf9ac9b9d6a67ef55a61aa4f595063544326de6db",
+        "datetime": 1786045052,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft is starting to show its payoff on major AI plays",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft is starting to show its payoff on major AI plays' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Microsoft는 주요 AI 플레이에 대한 성과를 보여주기 시작했습니다."
+      },
+      {
+        "headline": "Microsoft: Don't Get Too Excited (Rating Downgrade)",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
-        "datetime": 1786550345,
-        "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법"
+        "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
+        "datetime": 1786468741,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft: Don't Get Too Excited (Rating Downgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
       },
       {
-        "headline": "Tesla, Palantir Fall as CPI Sends September Fed Hike Odds to 33%",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
-        "datetime": 1786548825,
-        "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락"
+        "headline": "You're Underestimating Microsoft's Moat",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=76592cd33bd42112701d6c0f1bede71034fe11bd213aa9abe499149d00a47d99",
+        "datetime": 1786444963,
+        "relevance": 1,
+        "headlineKo": "당신은 마이크로소프트의 해자를 과소평가하고 있습니다"
+      },
+      {
+        "headline": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b078e3db52c83ecd630a8924e6c7b4bca0f735d076b6ffed5c067a40b738f274",
+        "datetime": 1786147127,
+        "relevance": 1,
+        "headlineKo": "Microsoft(MSFT) 2026년 4분기 실적 통화 기록"
       }
     ],
     "newsHistory": [
@@ -2200,7 +2850,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=383b148d809392fba2c65840e1db42886431b183a7e1be340b1012550da54a8c",
         "datetime": 1786468741,
-        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)"
+        "headlineKo": "Microsoft: 너무 흥분하지 마세요(등급 하향)",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft: Don't Get Too Excited (Rating Downgrade)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft: Don't Get Too Excited (Rating Downgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Nebius Earnings Preview: Michael Burry Is Short but Prediction Markets See Nvidia, Meta Taking Center Stage",
@@ -2446,10 +3132,103 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=f45e2379d3532d14de2026567c166f0c4f8f943f936b39a9525a667fa4d3d729",
         "datetime": 1786291486,
         "headlineKo": "VFIAX는 잊어버리세요: Vanguard는 $3,000의 수수료나 $75의 수수료 충실도 없이 동일한 S&P 500 펀드를 판매합니다."
+      },
+      {
+        "headline": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b078e3db52c83ecd630a8924e6c7b4bca0f735d076b6ffed5c067a40b738f274",
+        "datetime": 1786147127,
+        "headlineKo": "Microsoft(MSFT) 2026년 4분기 실적 통화 기록"
+      },
+      {
+        "headline": "Microsoft: No Dead Cat Bounce Here (Q4 Review)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=76bead6aec5a006fe49bb9da6dbdb52672008d7a91973e30db05a65f88b01bcc",
+        "datetime": 1786093201,
+        "headlineKo": "Microsoft: 여기에서는 데드 캣 바운스가 없습니다(4분기 검토)",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft: No Dead Cat Bounce Here (Q4 Review)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft: No Dead Cat Bounce Here (Q4 Review)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Microsoft is starting to show its payoff on major AI plays",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bc6a2e0d97633493aadf2f6bf9ac9b9d6a67ef55a61aa4f595063544326de6db",
+        "datetime": 1786045052,
+        "headlineKo": "Microsoft는 주요 AI 플레이에 대한 성과를 보여주기 시작했습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft is starting to show its payoff on major AI plays",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft is starting to show its payoff on major AI plays' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MSFT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:48"
   },
   "AMZN": {
     "nextEarnings": {
@@ -2459,101 +3238,21 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
-        "datetime": 1786564051,
-        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
+        "headline": "Amazon (AMZN) Q2 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=151ec67fb79d4ce207815a65f52047f4d2bf9089056540fe1364ca0fe9120d8f",
+        "datetime": 1786152619,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
-        "datetime": 1786561805,
-        "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-        "analysis": {
-          "version": 2,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMZN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
-        "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
+            "기사에서 언급된 규모: $200.6 billion, 20%, $27.5 billion, 43%, $1.2 billion, $62.6 billion, $5.75, $53.4 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -2593,22 +3292,117 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon (AMZN) Q2 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Amazon (AMZN) 2026년 2분기 실적 통화 내용"
       },
       {
-        "headline": "Which dow jones stocks are moving on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
-        "datetime": 1786552806,
-        "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?"
+        "headline": "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4929b051a5fc77de30dee4a55524465dacec0c18fe2e853ceb51a299bfe6bf22",
+        "datetime": 1786110263,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 기반 간이 분석",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening Oops, something went wrong Skip to navigation Skip to main content Skip to right column PREMIUM Market Chatter: Amazon's AWS Engineers Face Lo",
+            "A Silver or Gold subscription plan is required to access premium news articles.",
+            "Upgrade Already have a subscription?"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "시장의 대화: Amazon의 AWS 엔지니어들은 용량 부족으로 인해 CPU 서버에 대한 대기 시간이 길어졌습니다"
       },
       {
-        "headline": "3 Ways To Get Paid For Big Tech's Volatility",
+        "headline": "Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
-        "datetime": 1786550345,
-        "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법"
+        "url": "https://finnhub.io/api/news?id=e92b3c3049aa25a811dd47df646c220eb681f8b3be5447c48c2834f347f6386d",
+        "datetime": 1786082516,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Amazon: 강력한 AWS 성장으로 훨씬 더 무거운 투자 주기 충족"
+      },
+      {
+        "headline": "Bezos Plans to Sell $4B Amazon Stock: Why Investors Should Sit Tight",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f4aa82047554217cb4b7999da8761b103e95913ae18e5338d663de7ee9c8be5b",
+        "datetime": 1786030620,
+        "relevance": 1,
+        "headlineKo": "베조스, 40억 달러 규모 아마존 주식 매각 계획: 투자자들이 긴장해야 하는 이유"
+      },
+      {
+        "headline": "AMZN Stock to Close Above $300 by August End? Crypto Punters Bet on the Possibility Following Amazon's Impressive Q2 Performance",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9b235447a8f31e2a0b64f6c2b9aaab8ea02e7021526cac689f0c43ff58ca623",
+        "datetime": 1786422985,
+        "relevance": 1.0,
+        "headlineKo": "AMZN 주식은 8월 말까지 $300 이상으로 마감될 예정입니까? 암호화폐 투자자들은 Amazon의 인상적인 2분기 실적에 따라 가능성에 베팅합니다."
       }
     ],
     "newsHistory": [
@@ -3078,34 +3872,23 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d7e7abc6593d820c9731cb2fca311c79c7b7ff7a45a6a14bee4a1b6cc4962816",
         "datetime": 1786306241,
         "headlineKo": "Electrovaya (TSX:ELVA) 주식은 Amazon과 Jamestown의 발전이 초점을 맞추면서 공정 가치 상승을 확인"
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
-  },
-  "TSM": {
-    "nextEarnings": {
-      "date": "2026-10-14",
-      "hour": "amc",
-      "epsEstimate": 28.8828
-    },
-    "news": [
+      },
       {
-        "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959",
-        "datetime": 1786549420,
-        "headlineKo": "싱가포르 국영 기금이 메모리 거대 기업에 지분을 추가함에 따라 SK 하이닉스, 삼성 주가 상승",
+        "headline": "Amazon (AMZN) Q2 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=151ec67fb79d4ce207815a65f52047f4d2bf9089056540fe1364ca0fe9120d8f",
+        "datetime": 1786152619,
+        "headlineKo": "Amazon (AMZN) 2026년 2분기 실적 통화 내용",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.29%, 0.75%, 0.391%, 0.06%, 1.03%, 0.07%, 7%, 4.9%.",
+            "기사에서 언급된 규모: $200.6 billion, 20%, $27.5 billion, 43%, $1.2 billion, $62.6 billion, $5.75, $53.4 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -3145,24 +3928,194 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon (AMZN) Q2 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
         }
       },
       {
-        "headline": "VanEck Semiconductor ETF: Cheap On Peak Earnings Is Not Cheap",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=5cd74bceeba8a223736a3ebefb542dfdff011625622b058d2bd45b60fd58784b",
-        "datetime": 1786534121,
-        "headlineKo": "VanEck Semiconductor ETF: 피크 수익에 저렴한 것은 저렴하지 않습니다",
+        "headline": "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4929b051a5fc77de30dee4a55524465dacec0c18fe2e853ceb51a299bfe6bf22",
+        "datetime": 1786110263,
+        "headlineKo": "시장의 대화: Amazon의 AWS 엔지니어들은 용량 부족으로 인해 CPU 서버에 대한 대기 시간이 길어졌습니다",
         "analysis": {
-          "version": 2,
-          "importance": "medium",
+          "version": 3,
+          "importance": "low",
           "tone": "neutral",
-          "certainty": "본문 확인 필요",
+          "certainty": "본문 기반 간이 분석",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "VanEck Semiconductor ETF: 피크 수익에 저렴한 것은 저렴하지 않습니다",
+            "Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening Oops, something went wrong Skip to navigation Skip to main content Skip to right column PREMIUM Market Chatter: Amazon's AWS Engineers Face Lo",
+            "A Silver or Gold subscription plan is required to access premium news articles.",
+            "Upgrade Already have a subscription?"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Market Chatter: Amazon's AWS Engineers Face Longer Waits for CPU Servers Amid Capacity Tightening' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e92b3c3049aa25a811dd47df646c220eb681f8b3be5447c48c2834f347f6386d",
+        "datetime": 1786082516,
+        "headlineKo": "Amazon: 강력한 AWS 성장으로 훨씬 더 무거운 투자 주기 충족",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMZN의 사업과 관련된 'Amazon: Stronger AWS Growth Meets A Much Heavier Investment Cycle' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMZN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Bezos Plans to Sell $4B Amazon Stock: Why Investors Should Sit Tight",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f4aa82047554217cb4b7999da8761b103e95913ae18e5338d663de7ee9c8be5b",
+        "datetime": 1786030620,
+        "headlineKo": "베조스, 40억 달러 규모 아마존 주식 매각 계획: 투자자들이 긴장해야 하는 이유"
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:48"
+  },
+  "TSM": {
+    "nextEarnings": {
+      "date": "2026-10-14",
+      "hour": "amc",
+      "epsEstimate": 28.8828
+    },
+    "news": [
+      {
+        "headline": "Bernstein Maintains Outperform on Taiwan Semiconductor, Raises Price Target to $554",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=55135c0801fdc5597aedfd5ba32bdf48bcab791469ad04cf96435cc110354d33",
+        "datetime": 1786457680,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $554, 0.33%, 0.89%, 0.1771%, 0.05%, 0.83%, 0.02%, $430.00.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'Bernstein Maintains Outperform on Taiwan Semiconductor, Raises Price Target to $554' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Bernstein, Taiwan Semiconductor에 대해 우수한 성과를 유지하고 목표 가격을 554달러로 높임"
+      },
+      {
+        "headline": "Taiwan Semiconductor (NYSE:TSM): Strong Growth Backed by a Convincing Technical Setup",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=62df15935107c77c1ffca3c58c5e72baa93a2428f4a67d5175c84ce0a9e36550",
+        "datetime": 1786361468,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Taiwan Semiconductor (NYSE:TSM): Strong Growth Backed by a Convincing Technical Setup",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -3185,17 +4138,21 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'Taiwan Semiconductor (NYSE:TSM): Strong Growth Backed by a Convincing Technical Setup' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Taiwan Semiconductor(NYSE:TSM): 설득력 있는 기술 설정을 바탕으로 강력한 성장"
       },
       {
-        "headline": "What's Going On With Taiwan Semiconductor Stock Wednesday?",
+        "headline": "What's Going On With Taiwan Semiconductor Stock Friday?",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=8cb3bca3b29525f99f218326a96080c93b7b53e59a6d95b0791b64a6469057f6",
-        "datetime": 1786529272,
-        "headlineKo": "수요일 대만 반도체 주식에 무슨 일이 일어나고 있나요?",
+        "url": "https://finnhub.io/api/news?id=4516ff44783fa8144f0d0770c3682334fb0a1696b2180afcd60318678afa1236",
+        "datetime": 1786105529,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -3203,7 +4160,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.28%, 0.89%, 0.0779%, 0.12%, 1.34%, 0.2%, 2%, 0.9%.",
+            "기사에서 언급된 규모: 0.26%, 0.87%, 0.1111%, 0.05%, 1.43%, 0.17%, 2.3%, $409.23.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -3243,22 +4200,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'What's Going On With Taiwan Semiconductor Stock Friday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "금요일 대만 반도체 주식에 무슨 일이 일어나고 있나요?"
       },
       {
-        "headline": "Elon Musk's SpaceX Lands $1.22 Billion Investment From Norway’s $2.3 Trillion Sovereign Wealth Fund",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2a50269c6e35b49bb49729fea8b708e15ace63ddce8404522c29690389b2748f",
-        "datetime": 1786522409,
-        "headlineKo": "Elon Musk의 SpaceX, 노르웨이의 2조 3천억 달러 국부펀드로부터 12억 2천만 달러 투자 유치"
+        "headline": "Taiwan Semiconductor (NYSE:TSM) Combines High Growth Momentum with a Breakout Setup",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=215c514565c32178b75d937c3db8dc8916e4ab2244bb939787f4fb86e192902b",
+        "datetime": 1786094488,
+        "relevance": 1,
+        "headlineKo": "Taiwan Semiconductor(NYSE:TSM), 높은 성장 모멘텀과 브레이크아웃 설정 결합"
       },
       {
-        "headline": "Cathie Wood Calls Bitcoin 'Critical' Financial Infrastructure: 'Those Securing It Should Have Trusted Access to the Most Powerful AI Models'",
+        "headline": "$1000 Invested In Taiwan Semiconductor 10 Years Ago Would Be Worth This Much Today",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e08fa0bfddb8c4c28c8c4b862c205a72c877a5b48c8302598b7b2cde6dcabe72",
-        "datetime": 1786505347,
-        "headlineKo": "Cathie Wood는 비트코인을 '중요한' 금융 인프라라고 부릅니다. '이를 보호하는 사람들은 가장 강력한 AI 모델에 대한 신뢰할 수 있는 액세스 권한을 가져야 합니다'"
+        "url": "https://finnhub.io/api/news?id=7430f2fa11520bd620ede9e994fd0320828db78a433f877298d0e3319042fb4f",
+        "datetime": 1786018549,
+        "relevance": 1,
+        "headlineKo": "10년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다."
       }
     ],
     "newsHistory": [
@@ -3440,6 +4403,67 @@ const NEWS_DATA = {
         "headlineKo": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
       },
       {
+        "headline": "Bernstein Maintains Outperform on Taiwan Semiconductor, Raises Price Target to $554",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=55135c0801fdc5597aedfd5ba32bdf48bcab791469ad04cf96435cc110354d33",
+        "datetime": 1786457680,
+        "headlineKo": "Bernstein, Taiwan Semiconductor에 대해 우수한 성과를 유지하고 목표 가격을 554달러로 높임",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $554, 0.33%, 0.89%, 0.1771%, 0.05%, 0.83%, 0.02%, $430.00.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'Bernstein Maintains Outperform on Taiwan Semiconductor, Raises Price Target to $554' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      },
+      {
         "headline": "ValuEngine Weekly Market Summary And Commentary",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=512cb5e3c45f8dd23e0f741191a2f85925d30cb818018ad7e2e80ee8846b5488",
@@ -3500,7 +4524,43 @@ const NEWS_DATA = {
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=62df15935107c77c1ffca3c58c5e72baa93a2428f4a67d5175c84ce0a9e36550",
         "datetime": 1786361468,
-        "headlineKo": "Taiwan Semiconductor(NYSE:TSM): 설득력 있는 기술 설정을 바탕으로 강력한 성장"
+        "headlineKo": "Taiwan Semiconductor(NYSE:TSM): 설득력 있는 기술 설정을 바탕으로 강력한 성장",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Taiwan Semiconductor (NYSE:TSM): Strong Growth Backed by a Convincing Technical Setup",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'Taiwan Semiconductor (NYSE:TSM): Strong Growth Backed by a Convincing Technical Setup' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Nvidia Built the AI Brain, Now TSMC Wants to Give It Eyes",
@@ -3549,7 +4609,61 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=4516ff44783fa8144f0d0770c3682334fb0a1696b2180afcd60318678afa1236",
         "datetime": 1786105529,
-        "headlineKo": "금요일 대만 반도체 주식에 무슨 일이 일어나고 있습니까?"
+        "headlineKo": "금요일 대만 반도체 주식에 무슨 일이 일어나고 있습니까?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.26%, 0.87%, 0.1111%, 0.05%, 1.43%, 0.17%, 2.3%, $409.23.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 TSM의 사업과 관련된 'What's Going On With Taiwan Semiconductor Stock Friday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Sandisk: Memory Has Structurally Changed, The Sector Cannot Remain At 5x P/E",
@@ -3557,10 +4671,24 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=5b1d6bcf45aacdf9260b5b13f1e7e96f3963b7e7e427820080700a9556d8ee21",
         "datetime": 1786096061,
         "headlineKo": "Sandisk: 메모리는 구조적으로 변화했으며 해당 부문은 P/E 5배에 머물 수 없습니다"
+      },
+      {
+        "headline": "Taiwan Semiconductor (NYSE:TSM) Combines High Growth Momentum with a Breakout Setup",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=215c514565c32178b75d937c3db8dc8916e4ab2244bb939787f4fb86e192902b",
+        "datetime": 1786094488,
+        "headlineKo": "Taiwan Semiconductor(NYSE:TSM), 높은 성장 모멘텀과 브레이크아웃 설정 결합"
+      },
+      {
+        "headline": "$1000 Invested In Taiwan Semiconductor 10 Years Ago Would Be Worth This Much Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7430f2fa11520bd620ede9e994fd0320828db78a433f877298d0e3319042fb4f",
+        "datetime": 1786018549,
+        "headlineKo": "10년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다."
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:51"
   },
   "AVGO": {
     "nextEarnings": {
@@ -3570,93 +4698,137 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Aeluma: Why Sensor Demand Trails Broader Photonics Market",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=4f1b2d0eb6d6fbc8194155087941a1c9f42751e26b6be4378994bfd9db716229",
-        "datetime": 1786557051,
-        "headlineKo": "Aeluma: 센서 수요가 더 넓은 포토닉스 시장을 뒤흔드는 이유",
+        "headline": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=acf7b437e144f0aeec182da665d73fef5394e3032003655ae563e4f87133869b",
+        "datetime": 1786221754,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Aeluma: 센서 수요가 더 넓은 포토닉스 시장을 뒤흔드는 이유",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 20%, $28,350, $100 billion, $10.8 billion, 143%, 200%, 48%, $22.2 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "AVGO",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AVGO에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Broadcom(AVGO), AI 칩 붐과 소프트웨어 보안 추진 결합"
       },
       {
-        "headline": "Credo's Massive Valuation Reflects Detached-From-Reality Expectations",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b560ef86ab9d3b30ea7b881e2b89642665a8240f2277f7ef4445a179bb2bc738",
-        "datetime": 1786541358,
-        "headlineKo": "Credo의 대규모 평가는 현실과 동떨어진 기대를 반영합니다.",
+        "headline": "Broadcom Enables Enterprises to Strengthen Multi-Layer Cyber Defense and Operational Efficiency with New vDefend and Avi Load Balancer Capabilities",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=76507ced8a76810c9e07eaf974023a55dc5f5abba46d2e3d8ca8a30b7a3ebcd1",
+        "datetime": 1786021200,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Credo의 대규모 평가는 현실과 동떨어진 기대를 반영합니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 33%, 129%, 241%, 89%, 88%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "AVGO",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom Enables Enterprises to Strengthen Multi-Layer Cyber Defense and Operational Efficiency with New vDefend and Avi Load Balancer Capabilities' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AVGO에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Broadcom, 기업이 새로운 vDefend 및 Avi 로드 밸런서 기능을 통해 다계층 사이버 방어 및 운영 효율성을 강화할 수 있도록 지원"
       },
       {
         "headline": "Broadcom Stock Is Gaining Wednesday: What's Going On?",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=bc50b65725ae5b10153f5f3fe2819e645e0ffa33698fb874b104261a9918dccb",
         "datetime": 1786534576,
-        "headlineKo": "Broadcom 주식이 수요일에 상승하고 있습니다: 무슨 일이 일어나고 있나요?",
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -3704,22 +4876,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom Stock Is Gaining Wednesday: What's Going On?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AVGO에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Broadcom 주식이 수요일에 상승하고 있습니다: 무슨 일이 일어나고 있나요?"
       },
       {
-        "headline": "Nutanix: In Better Form Ahead Of Q4, But Not Too Enthused To Join The Ride",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0442369abe8fd3517cf3d1918d39bbc2b171029c5011a61a063de8b812afef45",
-        "datetime": 1786527278,
-        "headlineKo": "Nutanix: 4분기를 앞두고 더 나은 모습을 보이고 있지만 동참할 만큼 열정적이지는 않습니다."
+        "headline": "What's Going On With Broadcom Stock Tuesday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=ddf10c2ac172e9f3684b8157782a41b98bfeeccd9e11ff6d0075c6e63814a731",
+        "datetime": 1786441649,
+        "relevance": 1,
+        "headlineKo": "화요일 Broadcom 주식에 무슨 일이 일어나고 있나요?"
       },
       {
-        "headline": "AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec",
-        "datetime": 1786524648,
-        "headlineKo": "호르무즈 스트레스로 인해 거래자들이 불안해짐에 따라 AI Capex는 업무 시간 이후에 포효합니다."
+        "headline": "Broadcom Boosts VCF Security: Can it Fend Off Nutanix and IBM?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e24104c38ab21d258dc2ebcfe835b77949c7b85d0a9537bfc7ee887c85c88a77",
+        "datetime": 1786378740,
+        "relevance": 1,
+        "headlineKo": "Broadcom, VCF 보안 강화: Nutanix와 IBM을 막을 수 있을까요?"
       }
     ],
     "newsHistory": [
@@ -4070,74 +5248,23 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=34bd1af3aa40e180acf3199a2e32a7b802d15292e5ec7ca3778a2f693d128add",
         "datetime": 1786258200,
         "headlineKo": "당신은 최대 규모의 회사를 몇 개나 소유하고 있습니까? 그리고 더 많이 소유해야 합니까, 아니면 더 적게 소유해야 합니까?"
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
-  },
-  "META": {
-    "nextEarnings": {
-      "date": "2026-10-27",
-      "hour": "amc",
-      "epsEstimate": 6.8868
-    },
-    "news": [
-      {
-        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
-        "datetime": 1786564051,
-        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
       },
       {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
+        "headline": "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=acf7b437e144f0aeec182da665d73fef5394e3032003655ae563e4f87133869b",
+        "datetime": 1786221754,
+        "headlineKo": "Broadcom(AVGO), AI 칩 붐과 소프트웨어 보안 추진 결합",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
+            "기사에서 언급된 규모: 20%, $28,350, $100 billion, $10.8 billion, 143%, 200%, 48%, $22.2 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -4177,25 +5304,163 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AVGO에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
         }
       },
       {
-        "headline": "3 Ways To Get Paid For Big Tech's Volatility",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=cdbd8b46020d90895b420aaf422fe7459e7c5b74976f702183cb74b72e3bfaa3",
-        "datetime": 1786550345,
-        "headlineKo": "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법",
+        "headline": "Broadcom Enables Enterprises to Strengthen Multi-Layer Cyber Defense and Operational Efficiency with New vDefend and Avi Load Balancer Capabilities",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=76507ced8a76810c9e07eaf974023a55dc5f5abba46d2e3d8ca8a30b7a3ebcd1",
+        "datetime": 1786021200,
+        "headlineKo": "Broadcom, 기업이 새로운 vDefend 및 Avi 로드 밸런서 기능을 통해 다계층 사이버 방어 및 운영 효율성을 강화할 수 있도록 지원",
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 33%, 129%, 241%, 89%, 88%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AVGO의 사업과 관련된 'Broadcom Enables Enterprises to Strengthen Multi-Layer Cyber Defense and Operational Efficiency with New vDefend and Avi Load Balancer Capabilities' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AVGO에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:50"
+  },
+  "META": {
+    "nextEarnings": {
+      "date": "2026-10-27",
+      "hour": "amc",
+      "epsEstimate": 6.8868
+    },
+    "news": [
+      {
+        "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d",
+        "datetime": 1786131340,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $567 million, $375 million, $942 million, $6 million.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Explainer-How could New Mexico's $567 million ruling change Meta?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "설명자 - 뉴멕시코의 5억 6,700만 달러 판결이 어떻게 메타를 바꿀 수 있었습니까?"
+      },
+      {
+        "headline": "Meta ordered to pay almost $1bn over child safety failings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=18fb79635368a67ea83ee07a7280756d59f54966ca2083b178a9201c4ef57fc2",
+        "datetime": 1786071420,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "거대 기술 기업의 변동성에 대한 대가를 받는 3가지 방법",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Meta ordered to pay almost $1bn over child safety failings Something went wrong Skip to navigation Skip to main content Skip to right column Meta ordered to pay almost $1bn over child safety failings Meta ordered to pay almost $1bn over chi",
+            "The ruling, handed down by a US judge in New Mexico , stipulates that the bulk of the money – $420m (£312m) – will be used for treatment services for young people, while the rest will go towards awareness and prevention, screening services ",
+            "The new penalty is in addition to the $375m (£280m) Meta was ordered to pay in damages after a jury ruled in March that the company had knowingly harmed children's mental health, taking the total to almost $1bn."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -4217,22 +5482,90 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Meta ordered to pay almost $1bn over child safety failings' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 다음 실적의 매출·이익·현금흐름가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Meta는 어린이 안전 실패로 거의 10억 달러를 지불하라는 명령을 받았습니다."
       },
       {
-        "headline": "What's Going On with the Drop in Meta Stock?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a3986d11bfb3c1fbbb5799cc4feeee156c23eb6a6c815a11f67f4944113c7caa",
-        "datetime": 1786546797,
-        "headlineKo": "메타 스톡 하락에 무슨 일이 일어나고 있나요?"
+        "headline": "Mark Zuckerberg Is Borrowing Facebook's Old Playbook to Win the AI Race",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b3045d3f0f5ad7d9983e81278f51776369278e745825f23154a104624c2b10d0",
+        "datetime": 1786389279,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 3.38%, 97%, $60.8 billion, 3.38 %, $ 578.85, $1.5, $ 578.21, $ 604.50.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Mark Zuckerberg Is Borrowing Facebook's Old Playbook to Win the AI Race' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Mark Zuckerberg는 AI 경주에서 승리하기 위해 Facebook의 오래된 플레이북을 빌리고 있습니다."
       },
       {
-        "headline": "Can The AI Adoption Boom Send S&P 500 To 9,000?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=409a7a5e9393cbf0ca0542aa683543b757d078ea5ee30a1ea68e6dee6ff42208",
-        "datetime": 1786545952,
-        "headlineKo": "AI 채택 붐으로 S&P 500이 9,000으로 오를 수 있을까요?"
+        "headline": "Meta's India problem – and why it can't leave",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=a922db09923b9f092e89d827598844a74bbf978c27663cb4adffc68505f1bac1",
+        "datetime": 1786324127,
+        "relevance": 1,
+        "headlineKo": "메타의 인도 문제 – 메타가 떠날 수 없는 이유"
+      },
+      {
+        "headline": "Meta Stock in Focus -- Judge Orders $567 Million Child Safety Payment",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=deaa7e2ebc11d89132cc1602c732b9ff90562baf68e86187f1f9dafdcc22b430",
+        "datetime": 1786105586,
+        "relevance": 1,
+        "headlineKo": "초점이 맞춰진 메타 주식 - 판사는 5억 6,700만 달러의 아동 안전 지급 명령을 내렸습니다."
       }
     ],
     "newsHistory": [
@@ -4592,6 +5925,67 @@ const NEWS_DATA = {
         "headlineKo": "Mark Zuckerberg는 그의 딸(8세)이 이미 '이전에는 불가능했던' 코딩과 비디오를 만들고 있다고 말합니다."
       },
       {
+        "headline": "Mark Zuckerberg Is Borrowing Facebook's Old Playbook to Win the AI Race",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b3045d3f0f5ad7d9983e81278f51776369278e745825f23154a104624c2b10d0",
+        "datetime": 1786389279,
+        "headlineKo": "Mark Zuckerberg는 AI 경주에서 승리하기 위해 Facebook의 오래된 플레이북을 빌리고 있습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 3.38%, 97%, $60.8 billion, 3.38 %, $ 578.85, $1.5, $ 578.21, $ 604.50.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Mark Zuckerberg Is Borrowing Facebook's Old Playbook to Win the AI Race' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
         "headline": "Tech stocks today: Meta lays out new AI path, Intel to sell $15 billion in stock",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2ea91938e1d6e9f425ca7b3ef765c4357cb560c81071938c2ec2e99ee256b773",
@@ -4627,6 +6021,13 @@ const NEWS_DATA = {
         "headlineKo": "메타 스톡 팬을 위한 또 다른 나쁜 소식"
       },
       {
+        "headline": "Meta's India problem – and why it can't leave",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=a922db09923b9f092e89d827598844a74bbf978c27663cb4adffc68505f1bac1",
+        "datetime": 1786324127,
+        "headlineKo": "메타의 인도 문제 – 메타가 떠날 수 없는 이유"
+      },
+      {
         "headline": "Meet the High-Yield Dividend Stock Bill Ackman Has Owned for Over a Decade. Here's Why It's a Great Buy in August.",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=66ace6a5e5c05f09c695fa39ef91f09fd32b2d7c937d9fdf45fe41fdc43a8a72",
@@ -4660,10 +6061,122 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=db5e0edf7588cb14a1b67f2c07f88266b4d5e34ad8d78de71d788253d5a18718",
         "datetime": 1786293027,
         "headlineKo": "메타 대 알파벳: 2분기 이후 귀하의 포트폴리오에 포함될 자격이 있는 주식은 무엇입니까?"
+      },
+      {
+        "headline": "Explainer-How could New Mexico's $567 million ruling change Meta?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5163a4e62eb7b01d3c32140c1a3c14dd57b8374909ee54a95eafcc078282ad1d",
+        "datetime": 1786131340,
+        "headlineKo": "설명자 - 뉴멕시코의 5억 6,700만 달러 판결이 어떻게 메타를 바꿀 수 있었습니까?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $567 million, $375 million, $942 million, $6 million.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Explainer-How could New Mexico's $567 million ruling change Meta?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Meta Stock in Focus -- Judge Orders $567 Million Child Safety Payment",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=deaa7e2ebc11d89132cc1602c732b9ff90562baf68e86187f1f9dafdcc22b430",
+        "datetime": 1786105586,
+        "headlineKo": "초점이 맞춰진 메타 주식 - 판사는 5억 6,700만 달러의 아동 안전 지급 명령을 내렸습니다."
+      },
+      {
+        "headline": "Meta ordered to pay almost $1bn over child safety failings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=18fb79635368a67ea83ee07a7280756d59f54966ca2083b178a9201c4ef57fc2",
+        "datetime": 1786071420,
+        "headlineKo": "Meta는 어린이 안전 실패로 거의 10억 달러를 지불하라는 명령을 받았습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Meta ordered to pay almost $1bn over child safety failings Something went wrong Skip to navigation Skip to main content Skip to right column Meta ordered to pay almost $1bn over child safety failings Meta ordered to pay almost $1bn over chi",
+            "The ruling, handed down by a US judge in New Mexico , stipulates that the bulk of the money – $420m (£312m) – will be used for treatment services for young people, while the rest will go towards awareness and prevention, screening services ",
+            "The new penalty is in addition to the $375m (£280m) Meta was ordered to pay in damages after a jury ruled in March that the company had knowingly harmed children's mental health, taking the total to almost $1bn."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Meta ordered to pay almost $1bn over child safety failings' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 다음 실적의 매출·이익·현금흐름가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "relevance": 1
+        }
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:48"
   },
   "TSLA": {
     "nextEarnings": {
@@ -4673,20 +6186,82 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+        "headline": "Tesla Recalls 20,349 Model 3 And Model Y Vehicles As Overly Bright Low Beams Reduce Oncoming Driver Visibility, Risking Crashes",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=5daa5237d50eaa1f66ab3cac1bfe142a2e2c5f14d82ddac11a1e0ae253651b1b",
+        "datetime": 1786418810,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.1982%, $332.99.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Recalls 20,349 Model 3 And Model Y Vehicles As Overly Bright Low Beams Reduce Oncoming Driver Visibility, Risking Crashes' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Tesla는 지나치게 밝은 로우빔으로 인해 다가오는 운전자의 가시성이 떨어지고 충돌 위험이 있어 Model 3 및 Model Y 차량 20,349대를 리콜합니다."
+      },
+      {
+        "headline": "Tesla's iTruck Moment",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=f7208f251ae2887df7a53ad2db263a02ff76d34efa9c96248f56cd6cf3e1bdee",
+        "datetime": 1786528394,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+            "Tesla's iTruck Moment",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -4709,138 +6284,72 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla's iTruck Moment' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1.0
+        },
+        "headlineKo": "Tesla의 iTruck 순간"
       },
       {
-        "headline": "Tesla, Palantir Fall as CPI Sends September Fed Hike Odds to 33%",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
-        "datetime": 1786548825,
-        "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락",
+        "headline": "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d8f811a02501691f9e6ec2b5c01502e041f08d57123bf106c63fb103e6268106",
+        "datetime": 1786450390,
+        "relevance": 1.0,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 33%, 0.34%, 0.86%, 0.385%, 0.08%, 1.06%, 0.09%, 0.1%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'SpaceX Vs. Tesla: Let's See Which Musk Stock Wins' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1.0
+        },
+        "headlineKo": "SpaceX 대. Tesla: 어느 머스크 주식이 승리하는지 봅시다"
       },
       {
-        "headline": "Elon Musk Says Money Won’t Matter In 10 Years — Ex-Google X Executive Mo Gawdat Told Me The Same Thing, But His Warning Is Darker",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ff46cbe728e3a5238384400a64231dd360f2850a8739e6ca1db4fe11a90fa0a8",
-        "datetime": 1786548608,
-        "headlineKo": "Elon Musk는 10년 후에는 돈이 중요하지 않을 것이라고 말했습니다. 전 Google X 임원인 Mo Gawdat도 같은 말을 했지만 그의 경고는 더 어둡습니다.",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.33%, 0.84%, 0.3541%, 0.07%, 1.03%, 0.09%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+        "headline": "Retail traders just drew a line under Tesla’s sell-off",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=834e7696cec2e7ddefb7c2257e6684a90082609d7d0356a37c89193fe7648c34",
+        "datetime": 1786395780,
+        "relevance": 1.0,
+        "headlineKo": "소매 거래자들은 Tesla의 매도에 선을 그었습니다."
       },
       {
-        "headline": "WeRide CEO Calls Its Tech Comparable To Tesla FSD",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7d953bd6537e1319dd8f89b0fc93ceeb6e352ad4fcbe2db09dca640022ba0227",
-        "datetime": 1786542416,
-        "headlineKo": "WeRide CEO는 자사의 기술이 Tesla FSD와 비슷하다고 말합니다."
-      },
-      {
-        "headline": "8 Consumer Discretionary Stocks With Whale Alerts In Today’s Session",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2ca9c3f4788f04302a0e3c1106e24cd92e46166db5f4c4d484a8135056f7ed87",
-        "datetime": 1786541715,
-        "headlineKo": "오늘 세션에서 고래 경보가 발령된 8가지 임의 소비재 주식"
+        "headline": "Tesla Autopilot under scrutiny after crash involving 49ers coach Kyle Shanahan",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=aa0a54b9a09dac379316c7b326a0955a4ba882c53ebdaa46a5794e4ff4a7812a",
+        "datetime": 1786394460,
+        "relevance": 1.0,
+        "headlineKo": "49ers 코치 카일 샤나한(Kyle Shanahan)과 관련된 충돌 사고 이후 Tesla 오토파일럿(Tesla Autopilot)이 정밀 조사를 받고 있습니다."
       }
     ],
     "newsHistory": [
@@ -5026,7 +6535,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=f7208f251ae2887df7a53ad2db263a02ff76d34efa9c96248f56cd6cf3e1bdee",
         "datetime": 1786528394,
-        "headlineKo": "Tesla의 iTruck 순간"
+        "headlineKo": "Tesla의 iTruck 순간",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Tesla's iTruck Moment",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla's iTruck Moment' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1.0
+        }
       },
       {
         "headline": "Elon Musk Could Score $824 Billion Payday in Tesla-SpaceX Merger—Ross Gerber Says ‘Fantastical Abundance!’",
@@ -5089,7 +6634,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=d8f811a02501691f9e6ec2b5c01502e041f08d57123bf106c63fb103e6268106",
         "datetime": 1786450390,
-        "headlineKo": "SpaceX 대. Tesla: 어느 머스크 주식이 승리하는지 봅시다"
+        "headlineKo": "SpaceX 대. Tesla: 어느 머스크 주식이 승리하는지 봅시다",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SpaceX Vs. Tesla: Let's See Which Musk Stock Wins",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'SpaceX Vs. Tesla: Let's See Which Musk Stock Wins' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1.0
+        }
       },
       {
         "headline": "Tesla and SpaceX Committed $16.8 Billion to One Chip Plant. Tesla's Entire Annual Profit Is $3.8 Billion.",
@@ -5097,6 +6678,67 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a7a5ec7e5d034008fddc93a91651a3332160197754630148c17fae6c734301bd",
         "datetime": 1786440720,
         "headlineKo": "Tesla와 SpaceX는 One Chip Plant에 168억 달러를 투자했습니다. Tesla의 전체 연간 이익은 38억 달러입니다."
+      },
+      {
+        "headline": "Tesla Recalls 20,349 Model 3 And Model Y Vehicles As Overly Bright Low Beams Reduce Oncoming Driver Visibility, Risking Crashes",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=5daa5237d50eaa1f66ab3cac1bfe142a2e2c5f14d82ddac11a1e0ae253651b1b",
+        "datetime": 1786418810,
+        "headlineKo": "Tesla는 지나치게 밝은 로우빔으로 인해 다가오는 운전자의 가시성이 떨어지고 충돌 위험이 있어 Model 3 및 Model Y 차량 20,349대를 리콜합니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.1982%, $332.99.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Recalls 20,349 Model 3 And Model Y Vehicles As Overly Bright Low Beams Reduce Oncoming Driver Visibility, Risking Crashes' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Byrna, Lucid, Park-Ohio, JELD-WEN, and Tesla Shares Skyrocket, What You Need To Know",
@@ -5132,6 +6774,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=834e7696cec2e7ddefb7c2257e6684a90082609d7d0356a37c89193fe7648c34",
         "datetime": 1786395780,
         "headlineKo": "소매 거래자들은 Tesla의 매도에 선을 그었습니다."
+      },
+      {
+        "headline": "Tesla Autopilot under scrutiny after crash involving 49ers coach Kyle Shanahan",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=aa0a54b9a09dac379316c7b326a0955a4ba882c53ebdaa46a5794e4ff4a7812a",
+        "datetime": 1786394460,
+        "headlineKo": "49ers 코치 카일 샤나한(Kyle Shanahan)과 관련된 충돌 사고 이후 Tesla 오토파일럿(Tesla Autopilot)이 정밀 조사를 받고 있습니다."
       },
       {
         "headline": "SpaceX Stock Pauses After Lockup Rally Ahead of the Next Share Unlock",
@@ -5274,8 +6923,8 @@ const NEWS_DATA = {
         "headlineKo": "우주 기반 데이터 센터의 잠재력은 엄청납니다. SpaceX 주식을 매력적으로 만드는 것만으로는 충분하지 않습니다."
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
   },
   "MU": {
     "nextEarnings": {
@@ -5285,20 +6934,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=3a160a35b8171cc0055d79c795a9f5b630ffb9514f619fcf427e897552198643",
-        "datetime": 1786561501,
-        "headlineKo": "오늘 세션에서 S&P500 주식의 최신 동향을 알아보세요.",
+        "headline": "Micron: Capacity Expansion To Capture Booming Memory Demand",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=eee761fad9a09468e19b85251aa977415d6c70f5027d1ea92e87c720b94b459e",
+        "datetime": 1786525495,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "오늘 세션에서 S&P500 주식의 최신 동향을 알아보세요.",
+            "Micron: Capacity Expansion To Capture Booming Memory Demand",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5321,24 +6970,28 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: Capacity Expansion To Capture Booming Memory Demand' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장"
       },
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+        "headline": "Micron: How The Memory Supercycle Reaccelerates Right Now",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=324f05b55bac0f4c884d1f49364d70ab9b97ced9337289a17b4e768db68ff6a9",
+        "datetime": 1786437526,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+            "Micron: How The Memory Supercycle Reaccelerates Right Now",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5361,25 +7014,29 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: How The Memory Supercycle Reaccelerates Right Now' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Micron: 메모리 슈퍼사이클이 지금 다시 가속화되는 방법"
       },
       {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
+        "headline": "Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0011657c683ceca0f6e5fbf2a49284847e5a8e99008a9225b38b6dac428cb2c7",
+        "datetime": 1786410248,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
+            "기사에서 언급된 규모: $22 billion, $250 billion, 30 times, $18 billion, 30%, $200 billion, $500 million, $3 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -5419,22 +7076,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "마이크론은 DRAM 수요가 급증함에 따라 AI 메모리 위기가 2027년 이후에도 지속될 수 있다고 말합니다."
       },
       {
-        "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959",
-        "datetime": 1786549420,
-        "headlineKo": "싱가포르 국영 기금이 메모리 거대 기업에 지분을 추가함에 따라 SK 하이닉스, 삼성 주가 상승"
+        "headline": "Micron poised for \"structural reset\" in earnings power, UBS says, as HBM squeeze tightens further",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e517130443980d5e77b7a4dbcac6b27c7c4ca50fd22ab6beb61c733acbdfc3c9",
+        "datetime": 1786393620,
+        "relevance": 1,
+        "headlineKo": "UBS는 HBM의 압박이 더욱 강화됨에 따라 마이크론이 수익력의 \"구조적 재설정\"을 준비하고 있다고 밝혔습니다."
       },
       {
-        "headline": "These S&P500 stocks are gapping in today's session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=108b6eb45cf4cc80a945dccddcb20e9433d76a346102b3bac10208632e8679ac",
-        "datetime": 1786545301,
-        "headlineKo": "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다."
+        "headline": "SK hynix Vs. Micron: The Memory Trade Rotates Into The Valuation Gap",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bf4aa082aa78d5a1347bf71aaed7739d0909b3233c5254cd45d088491f95cdf9",
+        "datetime": 1786045243,
+        "relevance": 1,
+        "headlineKo": "SK하이닉스 vs. 마이크론: 메모리 거래가 가치 평가 격차로 전환"
       }
     ],
     "newsHistory": [
@@ -5609,7 +7272,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=eee761fad9a09468e19b85251aa977415d6c70f5027d1ea92e87c720b94b459e",
         "datetime": 1786525495,
-        "headlineKo": "Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장"
+        "headlineKo": "Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Micron: Capacity Expansion To Capture Booming Memory Demand",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: Capacity Expansion To Capture Booming Memory Demand' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Sandisk Stock Is Gaining Wednesday: What's Going On?",
@@ -5696,6 +7395,49 @@ const NEWS_DATA = {
         "headlineKo": "마이크론 대 SK 하이닉스: 어느 메모리 칩 거대 기업이 더 나은 구매인가?"
       },
       {
+        "headline": "Micron: How The Memory Supercycle Reaccelerates Right Now",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=324f05b55bac0f4c884d1f49364d70ab9b97ced9337289a17b4e768db68ff6a9",
+        "datetime": 1786437526,
+        "headlineKo": "Micron: 메모리 슈퍼사이클이 지금 다시 가속화되는 방법",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Micron: How The Memory Supercycle Reaccelerates Right Now",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MU",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: How The Memory Supercycle Reaccelerates Right Now' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
         "headline": "Wall Street Titans Line Up $500 Billion Behind Nvidia's AI Buildout",
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6",
@@ -5714,7 +7456,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0011657c683ceca0f6e5fbf2a49284847e5a8e99008a9225b38b6dac428cb2c7",
         "datetime": 1786410248,
-        "headlineKo": "마이크론은 DRAM 수요가 급증함에 따라 AI 메모리 위기가 2027년 이후에도 지속될 수 있다고 말합니다."
+        "headlineKo": "마이크론은 DRAM 수요가 급증함에 따라 AI 메모리 위기가 2027년 이후에도 지속될 수 있다고 말합니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $22 billion, $250 billion, 30 times, $18 billion, 30%, $200 billion, $500 million, $3 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Stock Screening Made Simple: A Guide",
@@ -5862,10 +7658,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=1f47db17e08576a99d5ee61bb26ce69bec10ecf0f4e174c192439193bad82a0b",
         "datetime": 1786297380,
         "headlineKo": "의견: 매수해야 할 최고의 AI 메모리 주식은 마이크론이나 샌디스크가 아닌 한국의 거대 기업이다"
+      },
+      {
+        "headline": "SK hynix Vs. Micron: The Memory Trade Rotates Into The Valuation Gap",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bf4aa082aa78d5a1347bf71aaed7739d0909b3233c5254cd45d088491f95cdf9",
+        "datetime": 1786045243,
+        "headlineKo": "SK하이닉스 vs. 마이크론: 메모리 거래가 가치 평가 격차로 전환"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:52"
   },
   "AMD": {
     "nextEarnings": {
@@ -5875,20 +7678,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Riot Platforms: The $9.1 Billion Anthropic Deal Changes Everything",
+        "headline": "Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=9c8ac487f1c47a2c7ab5c07cb16858e7d19ddd5774a839fe44d6aa023e35496f",
-        "datetime": 1786541357,
-        "headlineKo": "폭동 플랫폼: 91억 달러 규모의 인류 중심 거래가 모든 것을 변화시킵니다",
+        "url": "https://finnhub.io/api/news?id=8168fd32ef031b8660815b1754170c3012d55b871334fd48a9e11f7820124707",
+        "datetime": 1786457844,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "폭동 플랫폼: 91억 달러 규모의 인류 중심 거래가 모든 것을 변화시킵니다",
+            "Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5911,138 +7714,116 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Advanced Micro Devices, Inc.(AMD)가 KeyBanc 기술 리더십 포럼 2026에서 발표합니다."
       },
       {
-        "headline": "What's Going On With AMD Stock Wednesday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=807f1784406bc9f1ff5459af41094ab3dd69b8b2991a8e6688e01171a8ab0c60",
-        "datetime": 1786535352,
-        "headlineKo": "수요일 AMD 주식에 무슨 일이 일어나고 있나요?",
+        "headline": "AMD: Revenue Is Exploding, But Margins May Stop The Rally (Rating Downgrade)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=9bc5df2cb36e767d2948d859afcd4ace11393f83bd3b958575aeb2a6f18ae6b8",
+        "datetime": 1786442378,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "version": 3,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.16%, 0.64%, 0.1677%, 0.03%, 1.09%, 0.13%, 179%, 3%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "AMD: Revenue Is Exploding, But Margins May Stop The Rally (Rating Downgrade)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
               "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: Revenue Is Exploding, But Margins May Stop The Rally (Rating Downgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 매출·EPS·영업이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "AMD: 수익은 폭발적으로 증가하고 있지만 마진으로 인해 반등이 멈출 수 있습니다(등급 하향)"
       },
       {
-        "headline": "Cerebras Earnings Prediction Market Preview: What Will Andrew Feldman Say?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=9cd746b9a42d8a7f8ef04c7ea6d68f330a8824cc62d990ce34185f1d4e130dd6",
-        "datetime": 1786534888,
-        "headlineKo": "Cerebras 수익 예측 시장 미리보기: Andrew Feldman이 뭐라고 말할까요?",
+        "headline": "Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a24a7d56c556f48b1a8cbd2d78314b407eb377a74bd3fb38208b8a3d42e59030",
+        "datetime": 1786439869,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.18%, 0.72%, 0.2013%, 0.04%, 1.21%, 0.14%, 88%, 96%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
               "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "마이크로소프트 대. AMD: 투자자가 잘못된 변수를 보고 있을 수 있음(패널 회귀)"
       },
       {
-        "headline": "Tech Veteran Warns Nvidia Is Playing Intel’s Old Game Against AMD — and It Could Become a Dangerous Trap",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f614713bf49eaa1185fbe0094b899c29646f3468a4b3204a2899013f0bcea0f6",
-        "datetime": 1786524955,
-        "headlineKo": "기술 베테랑은 Nvidia가 AMD를 상대로 Intel의 오래된 게임을 하고 있으며 위험한 함정이 될 수 있다고 경고합니다."
+        "headline": "AMD: Buying A Supply Position, Not A Product Cycle",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=84972e8a4c0d3e11f6ddec1f58467a07ebb4a43096ae47453652c8efa1d45c93",
+        "datetime": 1786432087,
+        "relevance": 1,
+        "headlineKo": "AMD: 제품 주기가 아닌 공급 위치 구매"
       },
       {
-        "headline": "AI Capex Roars On After Hours as Hormuz Stress Keeps Traders on Edge",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=2fda3972ef45894d8aea037ab08da77b91763a6b420e109649ec7014c5596eec",
-        "datetime": 1786524648,
-        "headlineKo": "호르무즈 스트레스로 인해 거래자들이 불안해짐에 따라 AI Capex는 업무 시간 이후에 포효합니다."
+        "headline": "What Advanced Micro Devices (AMD)'s New Instinct Coder AI Stack and Data Center Push Means For Shareholders",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=39f79f1e097020e66b1be4c89e826dab9765072d3e1188c66841e92d42f059ff",
+        "datetime": 1786385511,
+        "relevance": 1,
+        "headlineKo": "AMD(Advanced Micro Devices)의 새로운 Instinct Coder AI 스택 및 데이터 센터가 주주에게 미치는 영향"
       }
     ],
     "newsHistory": [
@@ -6235,7 +8016,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=8168fd32ef031b8660815b1754170c3012d55b871334fd48a9e11f7820124707",
         "datetime": 1786457844,
-        "headlineKo": "Advanced Micro Devices, Inc.(AMD)가 KeyBanc 기술 리더십 포럼 2026에서 발표합니다."
+        "headlineKo": "Advanced Micro Devices, Inc.(AMD)가 KeyBanc 기술 리더십 포럼 2026에서 발표합니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Advanced Micro Devices, Inc. (AMD) Presents at The KeyBanc Technology Leadership Forum 2026 Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "10 Information Technology Stocks Whale Activity In Today’s Session",
@@ -6263,7 +8080,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=9bc5df2cb36e767d2948d859afcd4ace11393f83bd3b958575aeb2a6f18ae6b8",
         "datetime": 1786442378,
-        "headlineKo": "AMD: 수익은 폭발적으로 증가하고 있지만 마진으로 인해 반등이 멈출 수 있습니다(등급 하향)"
+        "headlineKo": "AMD: 수익은 폭발적으로 증가하고 있지만 마진으로 인해 반등이 멈출 수 있습니다(등급 하향)",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMD: Revenue Is Exploding, But Margins May Stop The Rally (Rating Downgrade)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'AMD: Revenue Is Exploding, But Margins May Stop The Rally (Rating Downgrade)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 매출·EPS·영업이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "American Century Focused Dynamic Growth Fund Q2 2026 Portfolio Review",
@@ -6277,7 +8130,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=a24a7d56c556f48b1a8cbd2d78314b407eb377a74bd3fb38208b8a3d42e59030",
         "datetime": 1786439869,
-        "headlineKo": "마이크로소프트 대. AMD: 투자자가 잘못된 변수를 보고 있을 수 있음(패널 회귀)"
+        "headlineKo": "마이크로소프트 대. AMD: 투자자가 잘못된 변수를 보고 있을 수 있음(패널 회귀)",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMD의 사업과 관련된 'Microsoft Vs. AMD: Investors May Be Watching The Wrong Variables (Panel Regression)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMD와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Priced For Perfection: Why AMD's Growth Thesis Faces A Structural Ceiling",
@@ -6299,6 +8188,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c8e195b822ea32983cfa7a7fe428a81691cad5177a141c8ab398bcb51d2e05a6",
         "datetime": 1786434385,
         "headlineKo": "Wall Street Titans는 Nvidia의 AI 구축을 위해 5000억 달러를 지원합니다."
+      },
+      {
+        "headline": "AMD: Buying A Supply Position, Not A Product Cycle",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=84972e8a4c0d3e11f6ddec1f58467a07ebb4a43096ae47453652c8efa1d45c93",
+        "datetime": 1786432087,
+        "headlineKo": "AMD: 제품 주기가 아닌 공급 위치 구매"
       },
       {
         "headline": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
@@ -6476,8 +8372,8 @@ const NEWS_DATA = {
         "headlineKo": "Advanced Micro Devices는 기록적인 수익을 보고했습니다. 어쨌든 AMD 주식은 하락했습니다."
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:50"
   },
   "INTC": {
     "nextEarnings": {
@@ -6487,93 +8383,13 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "These stocks are the most active in today's session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=6426c5465955981894d29a2bb1cf4768ede335d9678d9ec41267c650063f483f",
-        "datetime": 1786557600,
-        "headlineKo": "이 주식은 오늘 세션에서 가장 활발합니다.",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "이 주식은 오늘 세션에서 가장 활발합니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "INTC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "QUICK SPARK: Micron Reclaims $1 Trillion Valuation on Broad AI Stock Rally",
+        "headline": "Intel’s $20 Billion Capital Raise Is a Bullish Tell for Its Foundry Business, Analyst Says",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=92dcb38c10f3202033936a700b417b46fdcf59f62e3404de958796e86e4140ab",
-        "datetime": 1786542361,
-        "headlineKo": "빠른 스파크: Micron, 광범위한 AI 주식 랠리에서 1조 달러 가치 평가 회복",
+        "url": "https://finnhub.io/api/news?id=a56b79e8ef5dbb4aafe65515c8c15168b7e26bb4b9a60b5355b74b1b2aff97a5",
+        "datetime": 1786538449,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -6581,7 +8397,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: $1 Trillion, 0.29%, 0.9%, 0.2542%, 0.04%, 0.81%, 0.13%, 7%.",
+            "기사에서 언급된 규모: 0.26%, 0.82%, 0.0837%, 0.07%, 1.18%, 0.12%, $20 Billion, $145.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -6621,22 +8437,116 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel’s $20 Billion Capital Raise Is a Bullish Tell for Its Foundry Business, Analyst Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "분석가는 인텔의 200억 달러 자본 조달이 파운드리 사업에 대한 낙관적인 소식이라고 말합니다."
       },
       {
-        "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=5c450deb3a969e8cf3b8db4419beee681289d559e8eb3e613f55512cc5426f04",
-        "datetime": 1786541714,
-        "headlineKo": "오늘 세션에서 고래 경고가 있는 10가지 정보 기술 주식"
+        "headline": "Intel: The Turnaround Is Real, But The Stock Is Now Dangerous",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=10ae41fca2135725c5a761dca5d919b0dc34dac921e346e45b5c8691f83d2f20",
+        "datetime": 1786533880,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel: The Turnaround Is Real, But The Stock Is Now Dangerous",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel: The Turnaround Is Real, But The Stock Is Now Dangerous' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "인텔: 턴어라운드는 현실이지만 주식은 이제 위험하다"
       },
       {
-        "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
+        "headline": "Intel's $20B Equity Raise Shows The Valuation Is Overextended",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=308f0bfc13543c26ed1285cd52bc36700db9f6c4a38721fd39be9e9a431f287a",
+        "datetime": 1786474539,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel's $20B Equity Raise Shows The Valuation Is Overextended",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel's $20B Equity Raise Shows The Valuation Is Overextended' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "인텔의 200억 달러 지분 인상은 가치 평가가 과도하게 확장되었음을 보여줍니다."
+      },
+      {
+        "headline": "Intel Upsizes Stock Offering to $20 Billion: Dan Niles Predicts ‘Major' Foundry Deals Are Near",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a",
-        "datetime": 1786540465,
-        "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승"
+        "url": "https://finnhub.io/api/news?id=9acb64e1e3d787f92c53be83ed59540ed8f934f055db4cab91563e88e18818ed",
+        "datetime": 1786419234,
+        "relevance": 1,
+        "headlineKo": "인텔, 주식 공모를 200억 달러로 확대: Dan Niles는 '주요' 파운드리 거래가 임박했다고 예측"
+      },
+      {
+        "headline": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=baf6fd986e5ab24950b3c5e1634aee35eee073d4f583b65101c3e0bfb1c64ed9",
+        "datetime": 1786155071,
+        "relevance": 1,
+        "headlineKo": "Intel(INTC)은 텍사스 칩 시설 합작 투자를 통해 무엇을 얻습니까?"
       }
     ],
     "newsHistory": [
@@ -6793,11 +8703,108 @@ const NEWS_DATA = {
         "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승"
       },
       {
+        "headline": "Intel’s $20 Billion Capital Raise Is a Bullish Tell for Its Foundry Business, Analyst Says",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=a56b79e8ef5dbb4aafe65515c8c15168b7e26bb4b9a60b5355b74b1b2aff97a5",
+        "datetime": 1786538449,
+        "headlineKo": "분석가는 인텔의 200억 달러 자본 조달이 파운드리 사업에 대한 낙관적인 소식이라고 말합니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.26%, 0.82%, 0.0837%, 0.07%, 1.18%, 0.12%, $20 Billion, $145.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel’s $20 Billion Capital Raise Is a Bullish Tell for Its Foundry Business, Analyst Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
         "headline": "Intel: The Turnaround Is Real, But The Stock Is Now Dangerous",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=10ae41fca2135725c5a761dca5d919b0dc34dac921e346e45b5c8691f83d2f20",
         "datetime": 1786533880,
-        "headlineKo": "인텔: 턴어라운드는 현실이지만 주식은 이제 위험하다"
+        "headlineKo": "인텔: 턴어라운드는 현실이지만 주식은 이제 위험하다",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel: The Turnaround Is Real, But The Stock Is Now Dangerous",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel: The Turnaround Is Real, But The Stock Is Now Dangerous' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Intel: $20 Billion Bought Time, Not A Customer",
@@ -6846,7 +8853,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=308f0bfc13543c26ed1285cd52bc36700db9f6c4a38721fd39be9e9a431f287a",
         "datetime": 1786474539,
-        "headlineKo": "인텔의 200억 달러 지분 인상은 가치 평가가 과도하게 확장되었음을 보여줍니다."
+        "headlineKo": "인텔의 200억 달러 지분 인상은 가치 평가가 과도하게 확장되었음을 보여줍니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Intel's $20B Equity Raise Shows The Valuation Is Overextended",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "INTC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 INTC의 사업과 관련된 'Intel's $20B Equity Raise Shows The Valuation Is Overextended' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: INTC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Explore the S&P500 index on Tuesday and find out which stocks are the most active in today's session.",
@@ -6952,6 +8995,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=38c941030982cc5758c079dedf52662ab3e141ca1d3d4c847971dd0c324a0a8d",
         "datetime": 1786426015,
         "headlineKo": "수십억 달러 규모의 Nvidia 거래, Intel 주식 매각 이해하기"
+      },
+      {
+        "headline": "Intel Upsizes Stock Offering to $20 Billion: Dan Niles Predicts ‘Major' Foundry Deals Are Near",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9acb64e1e3d787f92c53be83ed59540ed8f934f055db4cab91563e88e18818ed",
+        "datetime": 1786419234,
+        "headlineKo": "인텔, 주식 공모를 200억 달러로 확대: Dan Niles는 '주요' 파운드리 거래가 임박했다고 예측"
       },
       {
         "headline": "Intel Is Selling $15 Billion of Stock to Fund the AI Build-Out. The Dilution Is About 3%. The Premarket Hit Was 5%.",
@@ -7099,10 +9149,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=23344fd2f9d17f5cddc02d91348e7233ad0d5fd55257e42e6bcc470c97a5023f",
         "datetime": 1786193733,
         "headlineKo": "월스트리트의 이 분석가는 CPU 거래가 과도하다고 생각합니다. ARM(ARM) 주식을 팔아야 할까요?"
+      },
+      {
+        "headline": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=baf6fd986e5ab24950b3c5e1634aee35eee073d4f583b65101c3e0bfb1c64ed9",
+        "datetime": 1786155071,
+        "headlineKo": "Intel(INTC)은 텍사스 칩 시설 합작 투자를 통해 무엇을 얻습니까?"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:51"
   },
   "AMAT": {
     "nextEarnings": {
@@ -7112,20 +9169,82 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Tracking Christopher Davis' Davis Selected Advisers 13F Portfolio: Q2 2026 Update",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=0ad00594b320b2b62379bd020b3f4d60a6b2410c1cb6d0ad82ea849220b24214",
-        "datetime": 1786564051,
-        "headlineKo": "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
+        "headline": "William Blair Assumes Applied Materials at Market Perform",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
+        "datetime": 1786464715,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.06%, 0.03%, 0.1757%, 0.07%, 0.09%, $550.00, 0.34 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'William Blair Assumes Applied Materials at Market Perform' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
+      },
+      {
+        "headline": "Applied Materials (NASDAQ:AMAT) Stands Out in a Quality Investing Screen",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=047f4fd245b08a496d9ed965c53a18f0de9cb4e90325f3e1d24f5fe783f0c108",
+        "datetime": 1786435889,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Christopher Davis의 Davis 선정 자문 추적 13F 포트폴리오: 2026년 2분기 업데이트",
+            "Applied Materials (NASDAQ:AMAT) Stands Out in a Quality Investing Screen",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7148,17 +9267,21 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (NASDAQ:AMAT) Stands Out in a Quality Investing Screen' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Applied Materials (NASDAQ:AMAT), 우수한 투자 화면에서 두각을 나타냄"
       },
       {
-        "headline": "Applied Materials Q3 Preview: Stock Up 105% YTD, but Down 25% From June All-Time Highs, What Happens Next",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ef623687a87cbc07036d7dc12ad414faad5045cb7a92b09628b3319f3d6725b3",
-        "datetime": 1786544708,
-        "headlineKo": "Applied Materials Q3 미리보기: YTD 105% 재고 증가, 6월 사상 최고치 대비 25% 감소, 앞으로 어떻게 될까요?",
+        "headline": "Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f737840cc3baf5b3c50ba6c833e6d8f1f7c9dfa2764c3ee491d1d74ae36cb069",
+        "datetime": 1786396181,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -7166,7 +9289,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 105%, 25%, 0.3%, 0.89%, 0.3134%, 0.05%, 0.71%, 0.02%.",
+            "기사에서 언급된 규모: 44.7%, $539.14, 100.5%, 194.6%, 10.5%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -7206,80 +9329,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Applied Materials(AMAT), AI 칩 성장 44.7%로 수요 증가"
       },
       {
-        "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a",
-        "datetime": 1786540465,
-        "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.3%, 0.92%, 0.15%, 0.06%, 0.71%, 0.05%, 0.1%, 3.4%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+        "headline": "AMAT to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=72a60bb03baf1ab849abbb9bc43de4d170f5486dbda81a3069310d2c9804f4b5",
+        "datetime": 1786374720,
+        "relevance": 1,
+        "headlineKo": "AMAT, 3분기 수익 발표: 주식을 매수, 매도, 보유할 시점인가?"
       },
       {
-        "headline": "Sandisk, Bloom Energy and 8 Other Stocks Rallied After the CPI Report: Here’s Why",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e9d7e979329dcf89ecdf8e73de835f788c5e003616ec663e68f193e91ca5f2c2",
-        "datetime": 1786527086,
-        "headlineKo": "CPI 보고서 이후 Sandisk, Bloom Energy 및 기타 8개 주식이 반등한 이유는 다음과 같습니다."
-      },
-      {
-        "headline": "William Blair Assumes Applied Materials at Market Perform",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
-        "datetime": 1786464715,
-        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
+        "headline": "Countdown to Applied Materials (AMAT) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=de94d59dfcffcc626027d83c152ba5d14c3101197bbbc697d351632dc87c8773",
+        "datetime": 1786367704,
+        "relevance": 1,
+        "headlineKo": "Applied Materials(AMAT) 3분기 실적 카운트다운: 수익 및 EPS를 넘어서는 추정 살펴보기"
       }
     ],
     "newsHistory": [
@@ -7451,7 +9522,61 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=dc56d871e03d339889c6a434d27a1f69754805acd82009dcc751aff5bb860bb2",
         "datetime": 1786464715,
-        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수"
+        "headlineKo": "William Blair, Market Perform에서 Applied Materials 인수",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.06%, 0.03%, 0.1757%, 0.07%, 0.09%, $550.00, 0.34 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'William Blair Assumes Applied Materials at Market Perform' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Wondering what's happening in today's S&P500  pre-market session?",
@@ -7479,7 +9604,43 @@ const NEWS_DATA = {
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=047f4fd245b08a496d9ed965c53a18f0de9cb4e90325f3e1d24f5fe783f0c108",
         "datetime": 1786435889,
-        "headlineKo": "Applied Materials (NASDAQ:AMAT), 우수한 투자 화면에서 두각을 나타냄"
+        "headlineKo": "Applied Materials (NASDAQ:AMAT), 우수한 투자 화면에서 두각을 나타냄",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials (NASDAQ:AMAT) Stands Out in a Quality Investing Screen",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (NASDAQ:AMAT) Stands Out in a Quality Investing Screen' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Rotation Away From Tech Lifts Moat Index In July",
@@ -7500,7 +9661,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f737840cc3baf5b3c50ba6c833e6d8f1f7c9dfa2764c3ee491d1d74ae36cb069",
         "datetime": 1786396181,
-        "headlineKo": "Applied Materials(AMAT), AI 칩 성장 44.7%로 수요 증가"
+        "headlineKo": "Applied Materials(AMAT), AI 칩 성장 44.7%로 수요 증가",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 44.7%, $539.14, 100.5%, 194.6%, 10.5%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (AMAT) Gets A Demand Lift From 44.7% AI Chip Growth' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Update: S&P 500 Retreats From Record, Oil Jumps as Hormuz Reopening Hopes Fade",
@@ -7564,6 +9779,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=db1b202755295221dfe59439698a77dc6013ff2b7f79347eb8ff845542e6ce4a",
         "datetime": 1786374180,
         "headlineKo": "어플라이드 머티리얼즈 배당금: 내역, 수익률 및 지급 비율 설명"
+      },
+      {
+        "headline": "Countdown to Applied Materials (AMAT) Q3 Earnings: A Look at Estimates Beyond Revenue and EPS",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=de94d59dfcffcc626027d83c152ba5d14c3101197bbbc697d351632dc87c8773",
+        "datetime": 1786367704,
+        "headlineKo": "Applied Materials(AMAT) 3분기 실적 카운트다운: 수익 및 EPS를 넘어서는 추정 살펴보기"
       },
       {
         "headline": "Update: US Equity Futures Mostly Flat Pre-Bell Amid Lack of Progress in Middle East Peace Negotiations",
@@ -7636,27 +9858,89 @@ const NEWS_DATA = {
         "headlineKo": "다우존스 선물은 시장 상승세의 지배를 받게 될 것입니다; Cisco, Lumentum 앞으로의 수익"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:51"
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
       {
-        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
-        "datetime": 1786577700,
-        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지",
+        "headline": "QUICK SPARK: Nasdaq 100 Breadth Hits Its Strongest Level in Over a Year",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2854fe94c687d8dac59942e70a1b666164cb903e7581022ef9817b272255dda4",
+        "datetime": 1786375896,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.31%, 0.77%, 0.4525%, 0.1%, 0.97%, 0.05%, $4.95 billion, $723.78.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QUICK SPARK: Nasdaq 100 Breadth Hits Its Strongest Level in Over a Year' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "QUICK SPARK: Nasdaq 100의 폭이 1년 만에 가장 높은 수준을 기록했습니다."
+      },
+      {
+        "headline": "QQQH: Sell The Collar Fund That Lost To The Collar Index",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=a083e2433c067d8546da7f8a5a37d6d7ac23650268f92c5f04bff46fa5e19f3c",
+        "datetime": 1786381552,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "금리 스파크: 인플레이션이 문제인지 아닌지",
+            "QQQH: Sell The Collar Fund That Lost To The Collar Index",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7679,102 +9963,90 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QQQH: Sell The Collar Fund That Lost To The Collar Index' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "QQQH: 칼라 지수에 손실된 칼라 펀드를 판매하세요"
       },
       {
-        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
-        "datetime": 1786575900,
-        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다.",
+        "headline": "SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=6c8aee9270c3ac43400696ed7cf7c4a19aa911bde381e46f1adddf5a89b4f1ab",
+        "datetime": 1785933091,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.2427%, $7.8 billion, $4.1 billion, $541 million, $1 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
-        "datetime": 1786567800,
-        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
             {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Consumer Price Index: Inflation At 3.4% In July",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
-        "datetime": 1786565100,
-        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "SpaceX 락업 만료로 QQQ, Nasdaq ETF에 약간의 충격을 줄 수 있음"
       },
       {
         "headline": "TQQQ: Why I'm Not Buying The 15% Dip",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=e9074f62cd263e0922b4c4a6ab924833425873a87867b1000665eed3e5632526",
         "datetime": 1786555794,
+        "relevance": 1.0,
         "headlineKo": "TQQQ: 내가 15% 하락장을 매수하지 않는 이유"
+      },
+      {
+        "headline": "Breadth Rebounds as Small Caps Hold Firm Near Resistance",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=d15e5be0e1f3eb72fbb1f6042a2edc78c46f8d985bf9ffa1284a89d64b11e489",
+        "datetime": 1786534105,
+        "relevance": 1.0,
+        "headlineKo": "소형주가 저항 근처에서 굳건히 유지되면서 폭이 반등했습니다."
       }
     ],
     "newsHistory": [
@@ -8113,7 +10385,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=a083e2433c067d8546da7f8a5a37d6d7ac23650268f92c5f04bff46fa5e19f3c",
         "datetime": 1786381552,
-        "headlineKo": "QQQH: 칼라 지수에 손실된 칼라 펀드를 판매하세요"
+        "headlineKo": "QQQH: 칼라 지수에 손실된 칼라 펀드를 판매하세요",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "QQQH: Sell The Collar Fund That Lost To The Collar Index",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QQQH: Sell The Collar Fund That Lost To The Collar Index' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Bankrupting Tehran: The Big Flaw In Trump's Iran Strategy",
@@ -8127,7 +10435,61 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=2854fe94c687d8dac59942e70a1b666164cb903e7581022ef9817b272255dda4",
         "datetime": 1786375896,
-        "headlineKo": "QUICK SPARK: Nasdaq 100의 폭이 1년 만에 가장 높은 수준을 기록했습니다."
+        "headlineKo": "QUICK SPARK: Nasdaq 100의 폭이 1년 만에 가장 높은 수준을 기록했습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.31%, 0.77%, 0.4525%, 0.1%, 0.97%, 0.05%, $4.95 billion, $723.78.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QUICK SPARK: Nasdaq 100 Breadth Hits Its Strongest Level in Over a Year' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The Fed's PCE Problem: Why Its Preferred Inflation Gauge Misreads The Economy",
@@ -8226,147 +10588,276 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=687f14822590b289e574d7bdfe28cc67c3adea10c57db04be681184034d84d75",
         "datetime": 1786262400,
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
+      },
+      {
+        "headline": "SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=6c8aee9270c3ac43400696ed7cf7c4a19aa911bde381e46f1adddf5a89b4f1ab",
+        "datetime": 1785933091,
+        "headlineKo": "SpaceX 락업 만료로 QQQ, Nasdaq ETF에 약간의 충격을 줄 수 있음",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.2427%, $7.8 billion, $4.1 billion, $541 million, $1 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:47"
   },
   "SPY": {
     "nextEarnings": null,
     "news": [
       {
-        "headline": "Rates Spark: Inflation Is And Isn't The Issue",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=914ff76f14b3f460d03ee77389dabe5e606895d7a380d093f8d947417ad9033b",
-        "datetime": 1786577700,
-        "headlineKo": "금리 스파크: 인플레이션이 문제인지 아닌지",
+        "headline": "S&P 500, Nasdaq, Dow Futures Mixed As CPI Countdown Begins: Why INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ed3ebaad429867949cc2a2be8ad01fbb1079e34a31499f03efa43a5b02c3e876",
+        "datetime": 1786437214,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "금리 스파크: 인플레이션이 문제인지 아닌지",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.06%, 0.07%, 0.05%, 4.20%, 0.40%, 0.76%, 3.67%, 0.35%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500, Nasdaq, Dow Futures Mixed As CPI Countdown Begins: Why INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유"
       },
       {
-        "headline": "CPI Dragged Down By Energy, Hotels, Motels (Shelter), Auto Insurance, And Meat (Finally)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a8483d0a9d389cf9f500a95a8437d1744e6f8ee94daa6397420c501e0d005e1b",
-        "datetime": 1786575900,
-        "headlineKo": "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다.",
+        "headline": "SPY Charges 4.7x More Than Its Own Issuer’s Copy of the Same 500 Stocks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=104b1d0cf2ed94e37eae14dcfceb713ce0d96b0288f21520f28239fcf4275a44",
+        "datetime": 1786388922,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.16%, 0.06%, 0.31%, 0.17%, 0.32%, 0.23%, 0.0945%, 0.02%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'SPY Charges 4.7x More Than Its Own Issuer’s Copy of the Same 500 Stocks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "SPY는 동일한 500주에 대한 자체 발행자의 사본보다 4.7배 더 많은 비용을 청구합니다."
+      },
+      {
+        "headline": "Stocks Pressured as Higher Crude Price Boosts T-Note Yields",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db4a89d0fe2817025824f9ff690a561fb837f5e66331f2b7db9c0439631c40ec",
+        "datetime": 1786370682,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "CPI는 에너지, 호텔, 모텔(대피소), 자동차 보험, 육류(최종)에 의해 하락했습니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Behind Stable July CPI - One Transitory Tariff Wave After Another",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d689690b145a8961d4901eff622d1bff9c0c3cae10f04897686f06541755e3e7",
-        "datetime": 1786567800,
-        "headlineKo": "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "안정적인 7월 CPI 뒤에 - 또 다른 임시 관세 파도",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
             {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'Stocks Pressured as Higher Crude Price Boosts T-Note Yields' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "높은 원유 가격으로 인해 주식이 압력을 받아 T-Note 수익률이 높아졌습니다."
       },
       {
-        "headline": "Consumer Price Index: Inflation At 3.4% In July",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=1c7dd566b932ab9e0639ee216f9ba540a4a26a36766fd1cb027adb44f616cd8f",
-        "datetime": 1786565100,
-        "headlineKo": "소비자 물가 지수: 7월 인플레이션 3.4%"
+        "headline": "Exchange-Traded Funds Lower, Equity Futures Mixed Pre-Bell Monday Amid Rising Oil Prices",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=63a1841ac468b1432b6559c170bd281a2977750f87e337bf916d5968a57c57c0",
+        "datetime": 1786367885,
+        "relevance": 1,
+        "headlineKo": "유가 상승으로 상장지수펀드 하락, 주식 선물 혼합 프리벨 월요일"
       },
       {
-        "headline": "Don't Ignore The Profits Signal, My New Target For The S&P 500",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d86e8e689d1bc9d9468cd243f4c2cfeb48cee990b02f20ebd3ce8fd233731124",
-        "datetime": 1786554697,
-        "headlineKo": "이익 신호를 무시하지 마세요, S&P 500의 새로운 목표"
+        "headline": "VOO, SPY, SPYM ETF Inflows Jump as S&P 500 Index Q2 Earnings Growth Hits 50%",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8bdb2f6c60b4f5f1ed445e4ecd705ee84a9c25359f01e2431f41626c9d5b48d",
+        "datetime": 1786196670,
+        "relevance": 1,
+        "headlineKo": "S&P 500 지수 2분기 실적 성장률이 50%를 기록하면서 VOO, SPY, SPYM ETF 유입이 급증합니다."
       }
     ],
     "newsHistory": [
@@ -8677,7 +11168,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ed3ebaad429867949cc2a2be8ad01fbb1079e34a31499f03efa43a5b02c3e876",
         "datetime": 1786437214,
-        "headlineKo": "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유"
+        "headlineKo": "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.06%, 0.07%, 0.05%, 4.20%, 0.40%, 0.76%, 3.67%, 0.35%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500, Nasdaq, Dow Futures Mixed As CPI Countdown Begins: Why INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Diverging Fortunes For Older And Younger Teens In U.S. Summer Job Market",
@@ -8747,7 +11292,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=104b1d0cf2ed94e37eae14dcfceb713ce0d96b0288f21520f28239fcf4275a44",
         "datetime": 1786388922,
-        "headlineKo": "SPY는 동일한 500개 주식에 대한 자체 발행자의 사본보다 4.7배 더 많은 비용을 청구합니다."
+        "headlineKo": "SPY는 동일한 500개 주식에 대한 자체 발행자의 사본보다 4.7배 더 많은 비용을 청구합니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.16%, 0.06%, 0.31%, 0.17%, 0.32%, 0.23%, 0.0945%, 0.02%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'SPY Charges 4.7x More Than Its Own Issuer’s Copy of the Same 500 Stocks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The SECURE 2.0 Rollover That Turns Leftover 529 Money Into Tax-Free Retirement Gold",
@@ -8776,6 +11375,67 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=ad8243da693eb9dc0e66929e59bf94fd403f96dada9a009b973f62d8588528a5",
         "datetime": 1786384768,
         "headlineKo": "트럼프 미디어(DJT) 주식이 오늘 하락세를 보이고 있습니다: 하락 뒤에 무엇이 있습니까?"
+      },
+      {
+        "headline": "Stocks Pressured as Higher Crude Price Boosts T-Note Yields",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db4a89d0fe2817025824f9ff690a561fb837f5e66331f2b7db9c0439631c40ec",
+        "datetime": 1786370682,
+        "headlineKo": "높은 원유 가격으로 인해 주식이 압력을 받아 T-Note 수익률이 높아졌습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'Stocks Pressured as Higher Crude Price Boosts T-Note Yields' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "DraftKings After Earnings: Buy, Hold, or Run?",
@@ -8846,10 +11506,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=687f14822590b289e574d7bdfe28cc67c3adea10c57db04be681184034d84d75",
         "datetime": 1786262400,
         "headlineKo": "AI 내러티브 위험: 하이퍼스케일러 이야기가 다시 변경됩니다."
+      },
+      {
+        "headline": "VOO, SPY, SPYM ETF Inflows Jump as S&P 500 Index Q2 Earnings Growth Hits 50%",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c8bdb2f6c60b4f5f1ed445e4ecd705ee84a9c25359f01e2431f41626c9d5b48d",
+        "datetime": 1786196670,
+        "headlineKo": "S&P 500 지수 2분기 실적 성장률이 50%를 기록하면서 VOO, SPY, SPYM ETF 유입이 급증합니다."
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:48"
   },
   "ORCL": {
     "nextEarnings": {
@@ -8859,20 +11526,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+        "headline": "Oracle: I See 64% Upside And A Whole Lot Of Fear",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=caee490f70734b98a7ba4db1a43f018625dbdaaae13bfd6aefb9cec774593cc6",
+        "datetime": 1785757564,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+            "Oracle: I See 64% Upside And A Whole Lot Of Fear",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -8895,17 +11562,21 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle: I See 64% Upside And A Whole Lot Of Fear' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "오라클: 64%의 상승 여력과 많은 두려움이 있습니다"
       },
       {
-        "headline": "Quantinuum Is a ‘Core Quantum Name to Own,’ Analyst Says",
+        "headline": "Quantinuum Enters Multi-Year Strategic Partnership With Oracle To Bring Quantum Computing To Oracle Cloud Infrastructure",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7b12908d6b473f280a215c552de307c38215611341fd8c174809f09f09d94a9d",
-        "datetime": 1786541163,
-        "headlineKo": "Quantinuum은 '소유할 핵심 양자 이름'이라고 분석가는 말합니다.",
+        "url": "https://finnhub.io/api/news?id=d734868e811b464cf00c58c7a1cf76cbab3039307bb6833dd33fa42f4d5ffab4",
+        "datetime": 1786464233,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "positive",
           "certainty": "전망·추정 포함",
@@ -8913,7 +11584,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.32%, 0.92%, 0.2886%, 0.07%, 0.8%, 0.14%, $8 million, $7.598 million.",
+            "기사에서 언급된 규모: 0.03%, 0.22%, 0.3289%, 0.02%, 0.36%, 0.1%, $71.07, 0.93 %.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -8953,25 +11624,29 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Quantinuum Enters Multi-Year Strategic Partnership With Oracle To Bring Quantum Computing To Oracle Cloud Infrastructure' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Quantinuum, Oracle Cloud 인프라에 Quantum 컴퓨팅을 도입하기 위해 Oracle과 다년간의 전략적 파트너십 체결"
       },
       {
-        "headline": "What's Going On With Oracle Stock on Wednesday? (CORRECTED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=908d5bfdb98db82021ae736a4fed71c1aea2a7ec80ad51143ad224f023e93f19",
-        "datetime": 1786537039,
-        "headlineKo": "수요일 오라클 주식에 무슨 일이 일어나고 있나요? (수정됨)",
+        "headline": "Minor Hotels Accelerates Global Digital Transformation with Oracle Cloud",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f90e1ea1ce808a2e3bbf82cf897d74330cc712b7e8c1635feed98c5b7c1d0129",
+        "datetime": 1785805200,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.19%, 0.71%, 0.0216%, 0.01%, 1.11%, 0.1%, $149.69, 12.7%.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -9011,22 +11686,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Minor Hotels Accelerates Global Digital Transformation with Oracle Cloud' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Minor Hotels, Oracle Cloud를 통해 글로벌 디지털 혁신 가속화"
       },
       {
-        "headline": "Quantinuum CEO on Oracle partnership: 'Tip of the iceberg'",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=d79f08414cca50954c6b154b44a0879cf7c5103e710110d575988f156f77dc86",
-        "datetime": 1786536581,
-        "headlineKo": "Oracle 파트너십을 맺은 Quantinuum CEO: '빙산의 일각'"
-      },
-      {
-        "headline": "Nebius Jumps 20% Days After Michael Burry Said His AI Shorts Were Like ‘Shooting Fish in a Barrel’",
+        "headline": "What's Going On With Oracle Stock Tuesday?",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=38c1a6748f9cd0df195f285d8f0bf95d8845a2a3a30d104f2761ff2b9460509f",
-        "datetime": 1786533102,
-        "headlineKo": "Nebius는 Michael Burry가 자신의 AI 단편이 '통에 물고기를 쏘는 것'과 같다고 말한 후 20% 상승했습니다."
+        "url": "https://finnhub.io/api/news?id=9a5ec74fd92e683df778de68e9303c3c9fe70ef69e3f46d556f77ab5c400b134",
+        "datetime": 1786447879,
+        "relevance": 1,
+        "headlineKo": "화요일 오라클 주식에 무슨 일이 일어나고 있나요?"
+      },
+      {
+        "headline": "Why the Market Dipped But Oracle (ORCL) Gained Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6b006089d4b553d322fdcad8e7765f67ab2e4ab5b28bdf540dc89b6a4f152c8a",
+        "datetime": 1786398303,
+        "relevance": 1,
+        "headlineKo": "시장이 하락했지만 오라클(ORCL)이 오늘 상승한 이유"
       }
     ],
     "newsHistory": [
@@ -9250,6 +11931,67 @@ const NEWS_DATA = {
         "headlineKo": "화요일에 어떤 S&P500 주식이 큰 파도를 일으키고 있는지 알아보세요."
       },
       {
+        "headline": "Quantinuum Enters Multi-Year Strategic Partnership With Oracle To Bring Quantum Computing To Oracle Cloud Infrastructure",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d734868e811b464cf00c58c7a1cf76cbab3039307bb6833dd33fa42f4d5ffab4",
+        "datetime": 1786464233,
+        "headlineKo": "Quantinuum, Oracle Cloud 인프라에 Quantum 컴퓨팅을 도입하기 위해 Oracle과 다년간의 전략적 파트너십 체결",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.03%, 0.22%, 0.3289%, 0.02%, 0.36%, 0.1%, $71.07, 0.93 %.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Quantinuum Enters Multi-Year Strategic Partnership With Oracle To Bring Quantum Computing To Oracle Cloud Infrastructure' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      },
+      {
         "headline": "S&P 500: The Bull Market Faces Its Hardest Test In 2027",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c7f68e00bcd82f4e70c6704d72ad1a8bf2000ac0830147482c132526739219bd",
@@ -9262,6 +12004,13 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=57152f925c17d4fffcfdb1b14a93076bffaf0e62424e3cc274a2a3c7fd6cf1b5",
         "datetime": 1786449699,
         "headlineKo": "오버드라이브의 비합리적인 활기"
+      },
+      {
+        "headline": "What's Going On With Oracle Stock Tuesday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9a5ec74fd92e683df778de68e9303c3c9fe70ef69e3f46d556f77ab5c400b134",
+        "datetime": 1786447879,
+        "headlineKo": "화요일 오라클 주식에 무슨 일이 일어나고 있나요?"
       },
       {
         "headline": "Hyperscalers Are 'All In' On Singularity, And OpenAI's Astra Gives Hope",
@@ -9409,114 +12158,23 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=472c30143e27f764aa8b18f3bdadf9787317785fb717e894d06027778b9ef95a",
         "datetime": 1786194011,
         "headlineKo": "AMD(Advanced Micro Devices) 가격 예측: 2031년까지 5,000달러 투자의 가치는 얼마나 될까요?"
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
-  },
-  "CRM": {
-    "nextEarnings": {
-      "date": "2026-08-26",
-      "hour": "amc",
-      "epsEstimate": 3.3057
-    },
-    "news": [
+      },
       {
-        "headline": "Wednesday's session: top gainers and losers in the dow jones index",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=78e6af217bf3b8ef504efd01eebe1e228efe4df12fa1c3ac18a373b2e6fb651e",
-        "datetime": 1786561805,
-        "headlineKo": "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
+        "headline": "Minor Hotels Accelerates Global Digital Transformation with Oracle Cloud",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f90e1ea1ce808a2e3bbf82cf897d74330cc712b7e8c1635feed98c5b7c1d0129",
+        "datetime": 1785805200,
+        "headlineKo": "Minor Hotels, Oracle Cloud를 통해 글로벌 디지털 혁신 가속화",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 세션: 다우존스 지수의 최고 상승자와 하락자",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Which dow jones stocks are moving on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=36d522e668fc05a6c971f199c20fac64954f4e371dafa88486b1351b863bd6a3",
-        "datetime": 1786552806,
-        "headlineKo": "수요일에 어느 다우존스 주식이 움직이나요?",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일에 어느 다우존스 주식이 움직이나요?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "Tesla, Palantir Fall as CPI Sends September Fed Hike Odds to 33%",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
-        "datetime": 1786548825,
-        "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
+          "tone": "positive",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 33%, 0.34%, 0.86%, 0.385%, 0.08%, 1.06%, 0.09%, 0.1%.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -9556,14 +12214,241 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Minor Hotels Accelerates Global Digital Transformation with Oracle Cloud' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
         }
+      },
+      {
+        "headline": "Oracle: I See 64% Upside And A Whole Lot Of Fear",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=caee490f70734b98a7ba4db1a43f018625dbdaaae13bfd6aefb9cec774593cc6",
+        "datetime": 1785757564,
+        "headlineKo": "오라클: 64%의 상승 여력과 많은 두려움이 있습니다",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Oracle: I See 64% Upside And A Whole Lot Of Fear",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'Oracle: I See 64% Upside And A Whole Lot Of Fear' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ORCL와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
+  },
+  "CRM": {
+    "nextEarnings": {
+      "date": "2026-08-26",
+      "hour": "amc",
+      "epsEstimate": 3.3057
+    },
+    "news": [
+      {
+        "headline": "Why Is Salesforce (CRM) Deploying IL5 AI Agents In A Major Government Role?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b1afaeb5d0fa82a06d049f7284c1f6e16f61a1b46ec3ce7e39486a46d96d7d40",
+        "datetime": 1786011190,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $192.98,, 16.5%, 2.4%, 20%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Why Is Salesforce (CRM) Deploying IL5 AI Agents In A Major Government Role?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Salesforce(CRM)가 주요 정부 역할에 IL5 AI 에이전트를 배포하는 이유는 무엇입니까?"
+      },
+      {
+        "headline": "U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9ae5f803ede65c2ee3305dc496f93f48fc3526252931d8b356958213a7c44b63",
+        "datetime": 1785920400,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $6 million, $5.6 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "미 육군 인적자원사령부, Agentforce를 배치하여 920만 명의 군인, 퇴역 군인 및 군인 가족에게 연중무휴 AI 기반 지원 제공"
+      },
+      {
+        "headline": "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e17ecffbdd7265b7c9b34575ae2ad9f66ab592805b22e6fddf7cccdd97f04ed7",
+        "datetime": 1785920400,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support Oops, something went wrong Skip to navigation Skip to main content Skip to right column This is",
+            "Contact the press release distributor directly with any inquiries.",
+            "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support Business Wire August 5, 2026 6 min read CRM With new IL5 authorization, Agentforce 360 — Salesf"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Missionforce National Security, 의사결정 우위, 준비성 및 강화된 전투원 지원을 촉진하는 IL5 인증 AI 에이전트 및 앱 공개"
       },
       {
         "headline": "UBS Maintains Neutral on Salesforce, Raises Price Target to $210",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d48b6bec8390b8a75632c3ea14a5e2afe89cec673c7146e87c73bd3fb0dd4cd3",
         "datetime": 1786526379,
+        "relevance": 1,
         "headlineKo": "UBS, Salesforce 중립 유지, 목표 가격 210달러로 인상"
       },
       {
@@ -9571,6 +12456,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9b421f27bd13109a3d843e853d98fc144ee44f8c2a2ed3dd3e91b05ad828fb2e",
         "datetime": 1786523321,
+        "relevance": 1,
         "headlineKo": "Wells Fargo는 Salesforce에서 동일 비중을 유지하고 목표 가격을 205달러로 높였습니다."
       }
     ],
@@ -9859,10 +12745,176 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a3d83ebddc2c112fffe1432302800858660d0afdb1fc35fdbb5ae7bdc724b5ac",
         "datetime": 1786129806,
         "headlineKo": "다우존스 주식은 오늘 세션에서 움직이고 있습니다"
+      },
+      {
+        "headline": "Why Is Salesforce (CRM) Deploying IL5 AI Agents In A Major Government Role?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b1afaeb5d0fa82a06d049f7284c1f6e16f61a1b46ec3ce7e39486a46d96d7d40",
+        "datetime": 1786011190,
+        "headlineKo": "Salesforce(CRM)가 주요 정부 역할에 IL5 AI 에이전트를 배포하는 이유는 무엇입니까?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $192.98,, 16.5%, 2.4%, 20%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Why Is Salesforce (CRM) Deploying IL5 AI Agents In A Major Government Role?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9ae5f803ede65c2ee3305dc496f93f48fc3526252931d8b356958213a7c44b63",
+        "datetime": 1785920400,
+        "headlineKo": "미 육군 인적자원사령부, Agentforce를 배치하여 920만 명의 군인, 퇴역 군인 및 군인 가족에게 연중무휴 AI 기반 지원 제공",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $6 million, $5.6 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'U.S. Army Human Resources Command Deploys Agentforce to Deliver 24/7 AI-Powered Support to 9.2 Million Soldiers, Veterans, and Military Families' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e17ecffbdd7265b7c9b34575ae2ad9f66ab592805b22e6fddf7cccdd97f04ed7",
+        "datetime": 1785920400,
+        "headlineKo": "Missionforce National Security, 의사결정 우위, 준비성 및 강화된 전투원 지원을 촉진하는 IL5 인증 AI 에이전트 및 앱 공개",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support Oops, something went wrong Skip to navigation Skip to main content Skip to right column This is",
+            "Contact the press release distributor directly with any inquiries.",
+            "Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support Business Wire August 5, 2026 6 min read CRM With new IL5 authorization, Agentforce 360 — Salesf"
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Missionforce National Security Unveils IL5-Authorized AI Agents and Apps to Drive Decision Advantage, Readiness, and Enhanced Warfighter Support' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "relevance": 1
+        }
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:02"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
   },
   "PLTR": {
     "nextEarnings": {
@@ -9872,20 +12924,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Which S&P500 stocks are the most active on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=89440173c0d17d0687c2c2d7bfb0f562b83c3f2aa5af7ba97e4b1195b6f44021",
-        "datetime": 1786557901,
-        "headlineKo": "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+        "headline": "Palantir: Doubling Down On The Same Mistakes",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=308a89866ae558f8b53e88ca9941f7e02fecbd9aa02823625f9ca4f4d8368618",
+        "datetime": 1786392026,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "수요일에 가장 활발한 S&P500 주식은 무엇입니까?",
+            "Palantir: Doubling Down On The Same Mistakes",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -9908,138 +12960,116 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: Doubling Down On The Same Mistakes' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Palantir: 같은 실수를 두 배로 늘림"
       },
       {
-        "headline": "Congressman Violates Stock Act: Reports 22 Trades After Deadline, Including Some Nearly Two Years Old",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=08dabffb5cbf4daeff6e8ef0dfa592ffb3fe4ca852fd2ab392a10424b337b543",
-        "datetime": 1786554734,
-        "headlineKo": "하원의원, 주식법 위반: 거의 2년이 지난 거래를 포함하여 마감일 이후 22건의 거래 보고",
+        "headline": "Palantir: I Am Raising My Price Target As AIP Momentum Accelerates",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6843119011838dd7de7ce9f6d48972138513dacb5f931968d8a906341d8794b1",
+        "datetime": 1785977820,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.03%, 0.14%, 0.0346%, 0.01%, 0.13%, $480, $26.9 million, $1.1 million.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "Palantir: I Am Raising My Price Target As AIP Momentum Accelerates",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: I Am Raising My Price Target As AIP Momentum Accelerates' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Palantir: AIP 모멘텀이 가속화됨에 따라 목표 가격을 높이고 있습니다."
       },
       {
-        "headline": "Tesla, Palantir Fall as CPI Sends September Fed Hike Odds to 33%",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=a94d541e79386e4836ac1ad553f0bfb78cec417eee47caa94820ebe864269621",
-        "datetime": 1786548825,
-        "headlineKo": "CPI가 9월 연준 인상 확률을 33%로 보냄에 따라 Tesla, Palantir 하락",
+        "headline": "Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bd18e78d77a9776cee52b50bd7f56b06e03c7b25cc1f5dda1c7d7959dc70d67b",
+        "datetime": 1785896929,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 33%, 0.34%, 0.86%, 0.385%, 0.08%, 1.06%, 0.09%, 0.1%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Palantir의 승리: 신속한 AIP 채택, 마진 확장, 치솟는 FCF"
       },
       {
         "headline": "Palantir: 'Otherworldly' Q2 Results, A Long-Term AI Investment",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=507c5cc103ab8a1eb53bee49768a618e17296c66147d6ed9541b05e0266bafab",
         "datetime": 1786534012,
+        "relevance": 1,
         "headlineKo": "Palantir: '다른 세계'의 2분기 결과, 장기 AI 투자"
       },
       {
-        "headline": "Palantir Stock Edges Lower Wednesday: What's Driving the Move?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=28610e062b88d2898756889567b4d4ae76ce8143ca867df879c1d724fc971be9",
-        "datetime": 1786531049,
-        "headlineKo": "Palantir 주가 하락 수요일: 움직임을 이끄는 요인은 무엇입니까?"
+        "headline": "Palantir's Bombshell Earnings Path Continues, Risks Are Spreading",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4a212fb1c5f6693cf1016e676ca9c08a884ec3e61852fc120bee19389dfbc227",
+        "datetime": 1786530531,
+        "relevance": 1,
+        "headlineKo": "Palantir의 폭탄 같은 수익 경로는 계속되고 위험은 확산되고 있습니다."
       }
     ],
     "newsHistory": [
@@ -10295,7 +13325,43 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=308a89866ae558f8b53e88ca9941f7e02fecbd9aa02823625f9ca4f4d8368618",
         "datetime": 1786392026,
-        "headlineKo": "Palantir: 같은 실수를 두 배로 늘림"
+        "headlineKo": "Palantir: 같은 실수를 두 배로 늘림",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir: Doubling Down On The Same Mistakes",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: Doubling Down On The Same Mistakes' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Palantir CEO Sends Stark Warning for Businesses Betting Big on AI",
@@ -10415,10 +13481,96 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=6179f715ec155d23912b0454b3012b789cf2f8e7b65d6d6d609d1965c7369625",
         "datetime": 1786264701,
         "headlineKo": "Palantir: 경쟁은 패자를 위한 것입니다(등급 업그레이드)"
+      },
+      {
+        "headline": "Palantir: I Am Raising My Price Target As AIP Momentum Accelerates",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6843119011838dd7de7ce9f6d48972138513dacb5f931968d8a906341d8794b1",
+        "datetime": 1785977820,
+        "headlineKo": "Palantir: AIP 모멘텀이 가속화됨에 따라 목표 가격을 높이고 있습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir: I Am Raising My Price Target As AIP Momentum Accelerates",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir: I Am Raising My Price Target As AIP Momentum Accelerates' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=bd18e78d77a9776cee52b50bd7f56b06e03c7b25cc1f5dda1c7d7959dc70d67b",
+        "datetime": 1785896929,
+        "headlineKo": "Palantir의 승리: 신속한 AIP 채택, 마진 확장, 치솟는 FCF",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir Is Winning: Rapid AIP Adoption, Margin Expansion, Soaring FCF' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:49"
   },
   "QCOM": {
     "nextEarnings": {
@@ -10428,21 +13580,21 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Now is a good time to buy into Qualcomm, says Matrix Asset’s David Katz",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=35e5940fda796b0603800d298b6751ee37ab5020ddb7526b898657638f9d07a0",
-        "datetime": 1786455466,
-        "headlineKo": "Matrix Asset의 David Katz는 지금이 Qualcomm을 인수하기에 좋은 시기라고 말합니다.",
+        "headline": "Qualcomm’s (QCOM) BMW Deal Adds To A Bigger Diversification Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=58260b94a197da7687acca00e9780366db549017fa3fdb4257e8b899a50f3f54",
+        "datetime": 1786022389,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: $500 billion.",
+            "기사에서 언급된 규모: 61%, $65 billion, $6 billion, $40 billion, $15 billion, 4%, $9.95 billion, 20%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -10482,17 +13634,21 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm’s (QCOM) BMW Deal Adds To A Bigger Diversification Push' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Qualcomm(QCOM)의 BMW 거래로 다각화에 박차를 가함"
       },
       {
         "headline": "QUALCOMM (QCOM) Issued Q4 Guidance, Is The 17% Discount Enough?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=775c79f968072e9dd13dff88f835ee87be33126a80e52bf240b6904f3ae25b6c",
         "datetime": 1786404076,
-        "headlineKo": "QUALCOMM(QCOM) 발행 Q4 지침, 17% 할인이면 충분합니까?",
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -10540,17 +13696,21 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'QUALCOMM (QCOM) Issued Q4 Guidance, Is The 17% Discount Enough?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "QUALCOMM(QCOM) 발행 Q4 지침, 17% 할인이면 충분합니까?"
       },
       {
-        "headline": "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+        "headline": "Qualcomm (QCOM) Q3 2026 Earnings Call Transcript",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4a8782728aedce2357e9c4eaafdfee82764aeaefc493664412fa88c240f2a443",
-        "datetime": 1786392073,
-        "headlineKo": "Marvell Technology Stock의 여러 운영 라인 아래에서 이익에 기대어",
+        "url": "https://finnhub.io/api/news?id=7c44e386f450a4c148f9cfdae52ffe279080241975db544a0d3b188f0b977d97",
+        "datetime": 1786147128,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -10558,7 +13718,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 191%, 31%, 16.4%, 18.5%, 35%, $1.4 billion, $2.5 billion, 18%.",
+            "기사에서 언급된 규모: $9.9 billion, 4%, $2.21,, $8.5 billion, 5%, $1.6 billion, 61%, $1.8 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -10598,22 +13758,28 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm (QCOM) Q3 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록"
       },
       {
-        "headline": "Qualcomm's Android Growth Number Has Left The Front Of The Story",
+        "headline": "Qualcomm (QCOM) Stock Fair Value Moves Lower As Margin Pressure Offsets AI Ambitions",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6e226592b461469900f7997cbb601bccc7102a3350b730134af5cae6eb365ae6",
-        "datetime": 1786374899,
-        "headlineKo": "Qualcomm의 Android 성장 수치가 이야기의 전면을 벗어났습니다."
+        "url": "https://finnhub.io/api/news?id=90d1449518779e2fda33411f6ab14224123a1029b341e9165e110dfcdc577aaa",
+        "datetime": 1786058253,
+        "relevance": 1,
+        "headlineKo": "마진 압박이 AI 야망을 상쇄함에 따라 Qualcomm(QCOM) 주식 공정 가치가 하락함"
       },
       {
-        "headline": "Micron Technology Stock Surged On A Shortage The Company Had Already Described",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e0fbc8d937a48bd74790743f4abac35f2fe01f96eb2898c6e213b15a1279094",
-        "datetime": 1786373612,
-        "headlineKo": "Micron Technology 주식은 회사가 이미 설명한 부족으로 급등했습니다."
+        "headline": "Qualcomm Could Be One AI Deal Away From A Major Re-Rating",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=84daa929718cdc9402d777fa025b69b6063afcb9f78591ee979e77c3d86e0a29",
+        "datetime": 1785926043,
+        "relevance": 1,
+        "headlineKo": "Qualcomm은 주요 재평가에서 하나의 AI 거래가 될 수 있습니다"
       }
     ],
     "newsHistory": [
@@ -10859,7 +14025,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7c44e386f450a4c148f9cfdae52ffe279080241975db544a0d3b188f0b977d97",
         "datetime": 1786147128,
-        "headlineKo": "Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록"
+        "headlineKo": "Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $9.9 billion, 4%, $2.21,, $8.5 billion, 5%, $1.6 billion, 61%, $1.8 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm (QCOM) Q3 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The Toughest Questions AMD Faced On Its Latest Call",
@@ -10874,10 +14094,85 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=0062adb357e5332978c05b4e5b51a2b355c07c3a9d560170175d2a1083998d22",
         "datetime": 1786124670,
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
+      },
+      {
+        "headline": "Qualcomm (QCOM) Stock Fair Value Moves Lower As Margin Pressure Offsets AI Ambitions",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=90d1449518779e2fda33411f6ab14224123a1029b341e9165e110dfcdc577aaa",
+        "datetime": 1786058253,
+        "headlineKo": "마진 압박이 AI 야망을 상쇄함에 따라 Qualcomm(QCOM) 주식 공정 가치가 하락함"
+      },
+      {
+        "headline": "Qualcomm’s (QCOM) BMW Deal Adds To A Bigger Diversification Push",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=58260b94a197da7687acca00e9780366db549017fa3fdb4257e8b899a50f3f54",
+        "datetime": 1786022389,
+        "headlineKo": "Qualcomm(QCOM)의 BMW 거래로 다각화에 박차를 가함",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 61%, $65 billion, $6 billion, $40 billion, $15 billion, 4%, $9.95 billion, 20%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm’s (QCOM) BMW Deal Adds To A Bigger Diversification Push' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Qualcomm Could Be One AI Deal Away From A Major Re-Rating",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=84daa929718cdc9402d777fa025b69b6063afcb9f78591ee979e77c3d86e0a29",
+        "datetime": 1785926043,
+        "headlineKo": "Qualcomm은 주요 재평가에서 하나의 AI 거래가 될 수 있습니다"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:50"
   },
   "ARM": {
     "nextEarnings": {
@@ -10887,136 +14182,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
-        "datetime": 1786546046,
-        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다.",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.02%, 0.15%, 0.553%, 0.01%, 0.06%, $101.01, 4.76%, $101.50.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
-        "headline": "Nvidia's Masterstroke To Turn Itself Into An Asset Class—Characterizing This As Circular Financing Is Flawed",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=107f72b9b7203b3525918a6782654d3ecd8d3f0a81fe62023bd9e8787b43e64e",
-        "datetime": 1786453142,
-        "headlineKo": "자산 클래스로 전환하려는 Nvidia의 대작 - 이를 순환 금융으로 특성화하는 데 결함이 있음",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.25%, 0.77%, 0.1073%, 0.1%, 1.19%, 0.12%, $772.52, 0.25 %.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
         "headline": "Arm Holdings: 100x EBITDA Is Hard To Justify",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=30e26ae543134d749ef98f34619870dbe25ca3a992c75d3a1ce3ba7cba0e7171",
         "datetime": 1786452194,
-        "headlineKo": "Arm Holdings: 100배 EBITDA는 정당화하기 어렵습니다",
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arm Holdings: 100배 EBITDA는 정당화하기 어렵습니다",
+            "Arm Holdings: 100x EBITDA Is Hard To Justify",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -11039,22 +14218,152 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings: 100x EBITDA Is Hard To Justify' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Arm Holdings: 100배 EBITDA는 정당화하기 어렵습니다"
       },
       {
-        "headline": "American Century Focused Dynamic Growth Fund Q2 2026 Portfolio Review",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=41a082b7d0aa667533f2bd4bf66269cd06c65559dacd538bfd979a529a3b8155",
-        "datetime": 1786440600,
-        "headlineKo": "American Century Focused Dynamic Growth Fund 2026년 2분기 포트폴리오 검토"
+        "headline": "Why Arm Holdings (ARM) Is Up 18.2% After Embedded AI Tools Deal And Strong Q1 2026 Results",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=69da1ad2660a9ed0f7f4fe85689ab1bf558c2fd0500dc843d1fbaf68788baecd",
+        "datetime": 1786381956,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 18.2%, $1.29 billion, $270 million, $94, $500,, 77%, $10.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Why Arm Holdings (ARM) Is Up 18.2% After Embedded AI Tools Deal And Strong Q1 2026 Results' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Arm Holdings(ARM)가 임베디드 AI 도구 거래 및 2026년 1분기 실적 이후 18.2% 상승한 이유"
       },
       {
-        "headline": "AMD: Buying A Supply Position, Not A Product Cycle",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=84972e8a4c0d3e11f6ddec1f58467a07ebb4a43096ae47453652c8efa1d45c93",
-        "datetime": 1786432087,
-        "headlineKo": "AMD: 제품 주기가 아닌 공급 위치 구매"
+        "headline": "AI Workload Evolution Is Creating a New Growth Catalyst for Arm Holdings plc (ARM)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e6617edb2fa00a6a662a4b719025fe629057fb529afe8187550b926e8d2e5d64",
+        "datetime": 1786374063,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 26.9%, $282.57, 10.03%, 90.72%, $301.78 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'AI Workload Evolution Is Creating a New Growth Catalyst for Arm Holdings plc (ARM)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "AI 워크로드 진화는 Arm Holdings plc(ARM)의 새로운 성장 촉매제를 만들고 있습니다."
+      },
+      {
+        "headline": "Arm Stock Is Off 39% From Its High. Why This Could Be the Best Time to Buy.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=10601b884b5376d6b5cdddfdfa4d8d76bba75df875a2404acd32bc89357c76a4",
+        "datetime": 1786284902,
+        "relevance": 1,
+        "headlineKo": "Arm 재고는 최고치에서 39% 하락했습니다. 지금이 최적의 구매 시기인 이유."
+      },
+      {
+        "headline": "This Analyst On Wall Street Thinks The CPU Trade Is Overdone, Should You Sell ARM (ARM) Stock?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=23344fd2f9d17f5cddc02d91348e7233ad0d5fd55257e42e6bcc470c97a5023f",
+        "datetime": 1786193733,
+        "relevance": 1,
+        "headlineKo": "월스트리트의 이 분석가는 CPU 거래가 과도하다고 생각합니다. ARM(ARM) 주식을 팔아야 할까요?"
       }
     ],
     "newsHistory": [
@@ -11240,14 +14549,122 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=69da1ad2660a9ed0f7f4fe85689ab1bf558c2fd0500dc843d1fbaf68788baecd",
         "datetime": 1786381956,
-        "headlineKo": "Arm Holdings(ARM)가 임베디드 AI 도구 거래 및 2026년 1분기 실적 이후 18.2% 상승한 이유"
+        "headlineKo": "Arm Holdings(ARM)가 임베디드 AI 도구 거래 및 2026년 1분기 실적 이후 18.2% 상승한 이유",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 18.2%, $1.29 billion, $270 million, $94, $500,, 77%, $10.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Why Arm Holdings (ARM) Is Up 18.2% After Embedded AI Tools Deal And Strong Q1 2026 Results' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "AI Workload Evolution Is Creating a New Growth Catalyst for Arm Holdings plc (ARM)",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e6617edb2fa00a6a662a4b719025fe629057fb529afe8187550b926e8d2e5d64",
         "datetime": 1786374063,
-        "headlineKo": "AI 워크로드 진화는 Arm Holdings plc(ARM)의 새로운 성장 촉매제를 만들고 있습니다."
+        "headlineKo": "AI 워크로드 진화는 Arm Holdings plc(ARM)의 새로운 성장 촉매제를 만들고 있습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 26.9%, $282.57, 10.03%, 90.72%, $301.78 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'AI Workload Evolution Is Creating a New Growth Catalyst for Arm Holdings plc (ARM)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Retail investors end SpaceX buying spree as stock reclaims IPO price: AlphaCheck",
@@ -11292,8 +14709,8 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:50"
   },
   "MRVL": {
     "nextEarnings": {
@@ -11303,21 +14720,21 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Shares of companies in the broader chip sector are trading higher, rebounding from recent weakness in tech stocks. Investors may also be awaiting NVIDIA's earnings report after the close.",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c8a6a393fed27987d5b8298fe5788b1081558d3b7335b3ba3a41202a3b63440f",
-        "datetime": 1786546046,
-        "headlineKo": "광범위한 칩 부문 기업의 주가는 최근 기술주 약세에서 반등하면서 높게 거래되고 있습니다. 투자자들은 마감 후 NVIDIA의 수익 보고서를 기다리고 있을 수도 있습니다.",
+        "headline": "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e5f819243f709baa1e61c12b013c467963354b49dc3cf797d1b5fc5dfea84320",
+        "datetime": 1786398302,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "mixed",
+          "tone": "positive",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.02%, 0.15%, 0.553%, 0.01%, 0.06%, $101.01, 4.76%, $101.50.",
+            "기사에서 언급된 규모: $208.61, 4.62%, 0.06%, 0.11%, 0.32%, 7.25%, 2.78%, 3.42%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -11357,102 +14774,152 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Here's Why Marvell Technology (MRVL) Fell More Than Broader Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Marvell Technology(MRVL)가 더 넓은 시장보다 하락한 이유는 다음과 같습니다."
       },
       {
-        "headline": "These S&P500 stocks are gapping in today's session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=108b6eb45cf4cc80a945dccddcb20e9433d76a346102b3bac10208632e8679ac",
-        "datetime": 1786545301,
-        "headlineKo": "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
+        "headline": "What's Going On With Marvell Technology Stock Monday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=4e2b0eb5d959aa7bdb65adc85077989ffac067c9f415c4d725f175528c926aaa",
+        "datetime": 1786353283,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.44%, 0.615%, 0.28%, 1.29%, 0.32%, 0.5%, 0.13%, 0.06%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'What's Going On With Marvell Technology Stock Monday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "월요일 Marvell Technology 주식에 무슨 일이 일어나고 있나요?"
       },
       {
-        "headline": "Credo's Massive Valuation Reflects Detached-From-Reality Expectations",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b560ef86ab9d3b30ea7b881e2b89642665a8240f2277f7ef4445a179bb2bc738",
-        "datetime": 1786541358,
-        "headlineKo": "Credo의 대규모 평가는 현실과 동떨어진 기대를 반영합니다.",
+        "headline": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=839ed02a784a723b4186e221b98b5f93319084ad494b5505b6f3cd8ac366d6fc",
+        "datetime": 1786299571,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Credo의 대규모 평가는 현실과 동떨어진 기대를 반영합니다.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $211.02, 27.6%, $2.42 billion, 22.1%, 27.2%, $1.83 billion, 20.3 times, 51 times.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Marvell(MRVL) 대 AVGO 및 NVDA: AI 상호 연결 성장이 프리미엄 가치 평가 요구에 맞는 수익을 제공할 수 있습니까?"
       },
       {
-        "headline": "Which S&P500 stocks are moving before the opening bell on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=1a51c3fda625137f05bd7a8622dd3db9cd4f97aa3ff563d6f1aa5511d9562da4",
-        "datetime": 1786538101,
-        "headlineKo": "수요일 개장 전에 어떤 S&P500 주식이 움직이고 있나요?"
+        "headline": "Why Marvell (MRVL) Is Up 29.1% After Launching Its New AI Memory Infrastructure Portfolio",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0995866b4820f8f489495c445f64156b1fa38fe34bfa1503a37c9d8eb72f598a",
+        "datetime": 1786011257,
+        "relevance": 1,
+        "headlineKo": "Marvell(MRVL)이 새로운 AI 메모리 인프라 포트폴리오 출시 후 29.1% 상승한 이유"
       },
       {
-        "headline": "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7c5ede631ac5a11728c44b82fac2000977a940b4f14da164a20728dc13910290",
-        "datetime": 1786469238,
-        "headlineKo": "Marvell: 급격한 매도세에 흔들리지 마세요"
+        "headline": "Can MRVL's Communications Recovery Drive Broad-Based Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0abc8eac0d0dff8aac9b106766bc90e52a1b1ec38598c284b2257d8fe9414806",
+        "datetime": 1785945120,
+        "relevance": 1,
+        "headlineKo": "MRVL의 통신 복구가 광범위한 성장을 촉진할 수 있습니까?"
       }
     ],
     "newsHistory": [
@@ -11634,7 +15101,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5f819243f709baa1e61c12b013c467963354b49dc3cf797d1b5fc5dfea84320",
         "datetime": 1786398302,
-        "headlineKo": "Marvell Technology(MRVL)가 더 넓은 시장보다 하락한 이유는 다음과 같습니다."
+        "headlineKo": "Marvell Technology(MRVL)가 더 넓은 시장보다 하락한 이유는 다음과 같습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $208.61, 4.62%, 0.06%, 0.11%, 0.32%, 7.25%, 2.78%, 3.42%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Here's Why Marvell Technology (MRVL) Fell More Than Broader Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
@@ -11662,14 +15183,122 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=4e2b0eb5d959aa7bdb65adc85077989ffac067c9f415c4d725f175528c926aaa",
         "datetime": 1786353283,
-        "headlineKo": "월요일 Marvell Technology 주식에 무슨 일이 일어나고 있나요?"
+        "headlineKo": "월요일 Marvell Technology 주식에 무슨 일이 일어나고 있나요?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.44%, 0.615%, 0.28%, 1.29%, 0.32%, 0.5%, 0.13%, 0.06%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'What's Going On With Marvell Technology Stock Monday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=839ed02a784a723b4186e221b98b5f93319084ad494b5505b6f3cd8ac366d6fc",
         "datetime": 1786299571,
-        "headlineKo": "Marvell(MRVL) 대 AVGO 및 NVDA: AI 상호 연결 성장이 프리미엄 가치 평가 요구에 맞는 수익을 제공할 수 있습니까?"
+        "headlineKo": "Marvell(MRVL) 대 AVGO 및 NVDA: AI 상호 연결 성장이 프리미엄 가치 평가 요구에 맞는 수익을 제공할 수 있습니까?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $211.02, 27.6%, $2.42 billion, 22.1%, 27.2%, $1.83 billion, 20.3 times, 51 times.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MRVL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
@@ -11698,10 +15327,24 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=0062adb357e5332978c05b4e5b51a2b355c07c3a9d560170175d2a1083998d22",
         "datetime": 1786124670,
         "headlineKo": "NVDA 주식에서 11%를 벌고 30% 안전망을 설정하는 방법"
+      },
+      {
+        "headline": "Why Marvell (MRVL) Is Up 29.1% After Launching Its New AI Memory Infrastructure Portfolio",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0995866b4820f8f489495c445f64156b1fa38fe34bfa1503a37c9d8eb72f598a",
+        "datetime": 1786011257,
+        "headlineKo": "Marvell(MRVL)이 새로운 AI 메모리 인프라 포트폴리오 출시 후 29.1% 상승한 이유"
+      },
+      {
+        "headline": "Can MRVL's Communications Recovery Drive Broad-Based Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0abc8eac0d0dff8aac9b106766bc90e52a1b1ec38598c284b2257d8fe9414806",
+        "datetime": 1785945120,
+        "headlineKo": "MRVL의 통신 복구가 광범위한 성장을 촉진할 수 있습니까?"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:50"
   },
   "ASML": {
     "nextEarnings": {
@@ -11711,78 +15354,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959",
-        "datetime": 1786549420,
-        "headlineKo": "싱가포르 국영 기금이 메모리 거대 기업에 지분을 추가함에 따라 SK 하이닉스, 삼성 주가 상승",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.29%, 0.75%, 0.391%, 0.06%, 1.03%, 0.07%, 7%, 4.9%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
-        "headline": "Where The Next $1.3 Trillion Of CapEx Gets Spent",
+        "headline": "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=41f111f8f1822ab324421ff33d565986361c8ab43ba579b2140eddb3177cc82a",
-        "datetime": 1786467145,
-        "headlineKo": "다음 1조 3천억 달러의 CapEx가 지출되는 곳",
+        "url": "https://finnhub.io/api/news?id=133053bfa43fb815d136c052bdb9e6485fc828bdb71774d56d6a4444f2b1b1ff",
+        "datetime": 1785977705,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "다음 1조 3천억 달러의 CapEx가 지출되는 곳",
+            "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -11805,25 +15390,29 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "ASML: AI Litho-Density Supercycle 대. 폐쇄 루프 중국 DUV 함대"
       },
       {
-        "headline": "Why China’s Billions Can’t Break Taiwan Semiconductor’s Chip Grip",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=cf05aa28cb6cf26cde6f5b52631027cfbc6964c9d6c76883119951c05da9e6c4",
-        "datetime": 1786428524,
-        "headlineKo": "중국의 수십억 달러가 대만 반도체의 칩 장악력을 깰 수 없는 이유",
+        "headline": "ASML Stock Rises 1.7% as AI Demand Signal Strengthens",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3cd1a8f083ceb0ed79863bc2ad974ae37d8a3103310c94d29fc81bc11ca301f7",
+        "datetime": 1786392227,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.21%, 0.9583%, 0.14%, 1.02%, 0.32%, 44.7%, 5.6%, 37%.",
+            "기사에서 언급된 규모: 1.7%, 44.7%, $467.58 billion, 16%, 30%, $1,748.12, $1,200,, 46.15%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -11863,21 +15452,89 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML Stock Rises 1.7% as AI Demand Signal Strengthens' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "AI 수요 신호 강화로 ASML 주가 1.7% 상승"
       },
       {
-        "headline": "Beyond American Hyperscalers: Uncovering AI's Global Layers",
+        "headline": "ASML Holding (ENXTAM:ASML) Draws Fresh Attention After $400 Million Bet On Lithography Rival",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f578fc7f04b92299ab0a56a73cf97779ae3b412d4edf939c6a19f0952f29970",
+        "datetime": 1786212608,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $400 Million, 52.0%, 144.6%, €1,499.0, 2.0%, $400 million, $500 million, $5.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML Holding (ENXTAM:ASML) Draws Fresh Attention After $400 Million Bet On Lithography Rival' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "ASML Holding (ENXTAM:ASML), 리소그래피 경쟁사에 4억 달러 투자한 후 새로운 관심 끌다"
+      },
+      {
+        "headline": "ASML: The Peak Is In",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=10a588c9fc4b61a8265b01c004b6e4f13025e334a4101ffc2101fd859b582383",
-        "datetime": 1786416900,
-        "headlineKo": "미국의 하이퍼스케일러를 넘어서: AI의 글로벌 계층 발견"
+        "url": "https://finnhub.io/api/news?id=ab0650133f1ead7df515697bd9b9249cdd4e5b0af8685c3777bf969b4035aab1",
+        "datetime": 1785759558,
+        "relevance": 1,
+        "headlineKo": "ASML: 정점에 이르렀다"
       },
       {
         "headline": "TSMC vs. ASML: Which Is the Better Semiconductor Equipment Stock to Own for the Next 10 Years?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f339d434e6fb8b4004ba9cee42e343117c137e5aa18bf4410b9c0c96abf0e5b0",
         "datetime": 1786409400,
+        "relevance": 1,
         "headlineKo": "TSMC 대 ASML: 향후 10년 동안 소유하기에 더 나은 반도체 장비 주식은 무엇입니까?"
       }
     ],
@@ -12064,7 +15721,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3cd1a8f083ceb0ed79863bc2ad974ae37d8a3103310c94d29fc81bc11ca301f7",
         "datetime": 1786392227,
-        "headlineKo": "AI 수요 신호 강화로 ASML 주가 1.7% 상승"
+        "headlineKo": "AI 수요 신호 강화로 ASML 주가 1.7% 상승",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 1.7%, 44.7%, $467.58 billion, 16%, 30%, $1,748.12, $1,200,, 46.15%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML Stock Rises 1.7% as AI Demand Signal Strengthens' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "ASML Faces a Fresh Threat Out of China. Is the Dip in the Stock Worth Buying?",
@@ -12113,56 +15824,17 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8f578fc7f04b92299ab0a56a73cf97779ae3b412d4edf939c6a19f0952f29970",
         "datetime": 1786212608,
-        "headlineKo": "ASML Holding (ENXTAM:ASML), 리소그래피 경쟁사에 4억 달러 투자한 후 새로운 관심 끌다"
-      },
-      {
-        "headline": "Nucor, ASML Lead Five Stocks Near Buy Points Without This Big Risk",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8fed305c3a89920c105aa35b1077d63db7c53657569da944b973d5a04eb5d57f",
-        "datetime": 1786190421,
-        "headlineKo": "Nucor, ASML은 큰 위험 없이 매수 포인트에 가까운 5개 주식을 선도합니다."
-      },
-      {
-        "headline": "Situational Awareness Reportedly Bet $400 Million on a $5 Billion Stealth Chip Startup— Weeks After the 'Most Catastrophic Hedge Fund Blowup' of the Year",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=778e192eb6da6db7d6bec77da519dd7dd05eef7a3574b07028f0ae14ecd33bee",
-        "datetime": 1786180457,
-        "headlineKo": "상황 인식을 통해 50억 달러 규모의 스텔스 칩 스타트업에 4억 달러를 베팅한 것으로 알려짐 - 올해 '가장 재앙적인 헤지 펀드 폭발'이 일어난 지 몇 주 후"
-      },
-      {
-        "headline": "Situational Awareness invested $500 million in chip startup Source Foundry",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9f4075162f60e6e3789b813b99f5ce96fb58dbedaf9219a7dfca2a8163e533e8",
-        "datetime": 1786166605,
-        "headlineKo": "Situational Awareness는 칩 스타트업 Source Foundry에 5억 달러를 투자했습니다."
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
-  },
-  "LRCX": {
-    "nextEarnings": {
-      "date": "2026-10-20",
-      "hour": "",
-      "epsEstimate": 2.2199
-    },
-    "news": [
-      {
-        "headline": "indie Semiconductor Releases New Ultraviolet Visible Distributed Feedback Laser Diode For Quantum Computing Systems Based On Cooled Ytterbium Atoms",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=895ca2a88e3a37ec480da71c62a4e6edde4954c7542f2a42e287cc4116808434",
-        "datetime": 1786548952,
-        "headlineKo": "indie Semiconductor, 냉각 이터븀 원자 기반 양자 컴퓨팅 시스템용 새로운 자외선 가시 분산 피드백 레이저 다이오드 출시",
+        "headlineKo": "ASML Holding (ENXTAM:ASML), 리소그래피 경쟁사에 4억 달러 투자한 후 새로운 관심 끌다",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.02%, 0.15%, 0.553%, 0.01%, 0.06%, $4.01, 5.25%, $4.18.",
+            "기사에서 언급된 규모: $400 Million, 52.0%, 144.6%, €1,499.0, 2.0%, $400 million, $500 million, $5.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -12202,24 +15874,109 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML Holding (ENXTAM:ASML) Draws Fresh Attention After $400 Million Bet On Lithography Rival' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
         }
       },
       {
-        "headline": "These S&P500 stocks are gapping in today's session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=108b6eb45cf4cc80a945dccddcb20e9433d76a346102b3bac10208632e8679ac",
-        "datetime": 1786545301,
-        "headlineKo": "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
+        "headline": "Nucor, ASML Lead Five Stocks Near Buy Points Without This Big Risk",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8fed305c3a89920c105aa35b1077d63db7c53657569da944b973d5a04eb5d57f",
+        "datetime": 1786190421,
+        "headlineKo": "Nucor, ASML은 큰 위험 없이 매수 포인트에 가까운 5개 주식을 선도합니다."
+      },
+      {
+        "headline": "Situational Awareness Reportedly Bet $400 Million on a $5 Billion Stealth Chip Startup— Weeks After the 'Most Catastrophic Hedge Fund Blowup' of the Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=778e192eb6da6db7d6bec77da519dd7dd05eef7a3574b07028f0ae14ecd33bee",
+        "datetime": 1786180457,
+        "headlineKo": "상황 인식을 통해 50억 달러 규모의 스텔스 칩 스타트업에 4억 달러를 베팅한 것으로 알려짐 - 올해 '가장 재앙적인 헤지 펀드 폭발'이 일어난 지 몇 주 후"
+      },
+      {
+        "headline": "Situational Awareness invested $500 million in chip startup Source Foundry",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9f4075162f60e6e3789b813b99f5ce96fb58dbedaf9219a7dfca2a8163e533e8",
+        "datetime": 1786166605,
+        "headlineKo": "Situational Awareness는 칩 스타트업 Source Foundry에 5억 달러를 투자했습니다."
+      },
+      {
+        "headline": "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=133053bfa43fb815d136c052bdb9e6485fc828bdb71774d56d6a4444f2b1b1ff",
+        "datetime": 1785977705,
+        "headlineKo": "ASML: AI Litho-Density Supercycle 대. 폐쇄 루프 중국 DUV 함대",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
+            "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ASML",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ASML의 사업과 관련된 'ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ASML와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "ASML: The Peak Is In",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=ab0650133f1ead7df515697bd9b9249cdd4e5b0af8685c3777bf969b4035aab1",
+        "datetime": 1785759558,
+        "headlineKo": "ASML: 정점에 이르렀다"
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:51"
+  },
+  "LRCX": {
+    "nextEarnings": {
+      "date": "2026-10-20",
+      "hour": "",
+      "epsEstimate": 2.2199
+    },
+    "news": [
+      {
+        "headline": "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=488f14c6f11788c71255b6ae285f4ab048b35be499d7d6d2a3aba0b7125ca3f7",
+        "datetime": 1786528290,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -12242,25 +15999,29 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Lam Research(NASDAQ:LRCX): 장기 투자자를 위한 우수한 복합기"
       },
       {
-        "headline": "Stock Market Today: Nasdaq 100 Rises on Strong AI Earnings, Benign Inflation",
+        "headline": "If You Invested $1000 In Lam Research Stock 5 Years Ago, You Would Have This Much Today",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7cb1bffb27ed49f5557a3674c922ff25f84eb2b4b0bc3a94822ad9cc3d702d0a",
-        "datetime": 1786540465,
-        "headlineKo": "오늘의 주식 시장: 강력한 AI 수익, 온화한 인플레이션으로 나스닥 100 상승",
+        "url": "https://finnhub.io/api/news?id=737d54865bac34941f62ad642556ed5f5c6bf0d904453651a0dd45f97b6d51b3",
+        "datetime": 1786447818,
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "mixed",
+          "tone": "positive",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.3%, 0.92%, 0.15%, 0.06%, 0.71%, 0.05%, 0.1%, 3.4%.",
+            "기사에서 언급된 규모: $1000, 0.18%, 0.73%, 0.0641%, 0.04%, 1.17%, 0.16%, 27.97%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -12300,22 +16061,90 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'If You Invested $1000 In Lam Research Stock 5 Years Ago, You Would Have This Much Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "5년 전에 Lam Research 주식에 1000달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다."
       },
       {
-        "headline": "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=488f14c6f11788c71255b6ae285f4ab048b35be499d7d6d2a3aba0b7125ca3f7",
-        "datetime": 1786528290,
-        "headlineKo": "Lam Research(NASDAQ:LRCX): 장기 투자자를 위한 우수한 복합기"
+        "headline": "Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0b8fba81d9e8efc083788830c1261fbe8d3e8364d9b983ce373d0708ac1c5995",
+        "datetime": 1786439482,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $389.6.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보"
       },
       {
-        "headline": "Sandisk, Bloom Energy and 8 Other Stocks Rallied After the CPI Report: Here’s Why",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e9d7e979329dcf89ecdf8e73de835f788c5e003616ec663e68f193e91ca5f2c2",
-        "datetime": 1786527086,
-        "headlineKo": "CPI 보고서 이후 Sandisk, Bloom Energy 및 기타 8개 주식이 반등한 이유는 다음과 같습니다."
+        "headline": "Lam Research (LRCX) Upgraded to Strong Buy: Here's Why",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f2af61bd64cca64abee4673d2df7dd058655f4edd45120815901d3921da285a1",
+        "datetime": 1786377607,
+        "relevance": 1,
+        "headlineKo": "Lam Research(LRCX)가 적극 매수로 상향 조정됨: 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "Lam Research (LRCX) Q4 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
+        "datetime": 1786147127,
+        "relevance": 1,
+        "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
       }
     ],
     "newsHistory": [
@@ -12480,7 +16309,43 @@ const NEWS_DATA = {
         "source": "ChartMill",
         "url": "https://finnhub.io/api/news?id=488f14c6f11788c71255b6ae285f4ab048b35be499d7d6d2a3aba0b7125ca3f7",
         "datetime": 1786528290,
-        "headlineKo": "Lam Research(NASDAQ:LRCX): 장기 투자자를 위한 우수한 복합기"
+        "headlineKo": "Lam Research(NASDAQ:LRCX): 장기 투자자를 위한 우수한 복합기",
+        "analysis": {
+          "version": 3,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Sandisk, Bloom Energy and 8 Other Stocks Rallied After the CPI Report: Here’s Why",
@@ -12501,14 +16366,122 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=737d54865bac34941f62ad642556ed5f5c6bf0d904453651a0dd45f97b6d51b3",
         "datetime": 1786447818,
-        "headlineKo": "5년 전에 Lam Research 주식에 1000달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다."
+        "headlineKo": "5년 전에 Lam Research 주식에 1000달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1000, 0.18%, 0.73%, 0.0641%, 0.04%, 1.17%, 0.16%, 27.97%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'If You Invested $1000 In Lam Research Stock 5 Years Ago, You Would Have This Much Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0b8fba81d9e8efc083788830c1261fbe8d3e8364d9b983ce373d0708ac1c5995",
         "datetime": 1786439482,
-        "headlineKo": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보"
+        "headlineKo": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $389.6.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: LRCX에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The S&P Is Ignoring Semiconductor Crashes",
@@ -12593,10 +16566,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7591081d099f58c7b7dee8c26d95bffffb959449b7425364d7387beeef4eb64a",
         "datetime": 1786180793,
         "headlineKo": "Jim Cramer는 2026년에 매수해야 할 5가지 투자 테마와 13가지 주식을 지정합니다."
+      },
+      {
+        "headline": "Lam Research (LRCX) Q4 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
+        "datetime": 1786147127,
+        "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:51"
   },
   "KLAC": {
     "nextEarnings": {
@@ -12606,174 +16586,206 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "AI Boom: Top Stocks to Consider for Your Portfolio",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df",
+        "datetime": 1786123560,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $2.596 trillion, 47%, $487 billion, $1 trillion, 31%, $25 billion, 107%, $6.7 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'AI Boom: Top Stocks to Consider for Your Portfolio' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "AI 붐: 포트폴리오에 고려해야 할 상위 주식"
+      },
+      {
+        "headline": "KLA Declares Regular Cash Dividend",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5e2ee90096ade5f792c94ad6da74013904fcd710b550a5426efece48adecbe04",
+        "datetime": 1786046700,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $0.23.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Declares Regular Cash Dividend' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "KLA, 정기현금배당 선언"
+      },
+      {
+        "headline": "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1345048618dc4502ffc0118dcfda25c2945059b1573763d5cc5dd322725e8aa9",
+        "datetime": 1785870510,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 462.1%, 108.2%, 21%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Looks Fully Valued After Its Huge Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "KLA (KLAC) 주식은 엄청난 상승세를 보인 후 완전히 평가된 것으로 보입니다."
+      },
+      {
+        "headline": "BofA’s $1.18T cloud forecast puts 3 chip stocks in focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6affc7c9d8152fcf52b1a226ea49614c03fcb00f996f58cdf8b46f0c712a950a",
+        "datetime": 1785848580,
+        "relevance": 1,
+        "headlineKo": "BofA의 $1.18T 클라우드 예측은 3개의 칩 주식에 초점을 맞추고 있습니다"
+      },
+      {
         "headline": "KLA, Snowflake, Airbnb And A Health Care Stock On CNBC’s ‘Final Trades’",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=a788753f17ba005e5b92695d4ab03dd139ef8c738b86acfe26232f9c67809cd9",
         "datetime": 1786524297,
-        "headlineKo": "CNBC의 '최종 거래'에 대한 KLA, Snowflake, Airbnb 및 의료 주식",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.33%, 0.8088%, 0.3%, 0.98%, 0.51%, $280, $360, $1.05.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
-        "headline": "Snowflake shares are trading lower. The company announced the appointment of Jonathan Beaulier as Chief Revenue Officer and reaffirmed its FY27 guidance.",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=32bf72c36bab6f5e4b49f08cd60e709fadc8a7b3ebe0aae6882cd8560ce7fb27",
-        "datetime": 1786453281,
-        "headlineKo": "눈송이 주식은 낮게 거래되고 있습니다. 회사는 Jonathan Beaulier를 최고 수익 책임자(CRO)로 임명했다고 발표하고 FY27 지침을 재확인했습니다.",
-        "analysis": {
-          "version": 2,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.02%, 0.15%, 0.553%, 0.01%, 0.06%, $332.26, 0.56%, $332.75.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ]
-        }
-      },
-      {
-        "headline": "Wondering what's happening in today's S&P500  pre-market session?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=e10b9cdddb28fc264923b491c9b5b3391289d1f955b34a6bdd62483b830e94de",
-        "datetime": 1786451700,
-        "headlineKo": "오늘 S&P500 시장 전 세션에서 무슨 일이 일어나고 있는지 궁금하십니까?",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 S&P500 시장 전 세션에서 무슨 일이 일어나고 있는지 궁금하십니까?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "KLAC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "The S&P Is Ignoring Semiconductor Crashes",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=f976cb7345c637c9376ffbd487b7bc0620dbb2a68cf625bff8a36e08486268bf",
-        "datetime": 1786383000,
-        "headlineKo": "S&P는 반도체 붕괴를 무시하고 있다"
-      },
-      {
-        "headline": "ASML Dropped 5% Over a Month But a Prominent Wall Street Wealth Manager Sees 50% Returns Coming",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8eb8ebbede56ccd6d24e3ada94ee4088880b62b2cb80f30bd62ee332097c56ab",
-        "datetime": 1786376501,
-        "headlineKo": "ASML은 한 달 동안 5% 하락했지만 저명한 월스트리트 자산 관리자는 50%의 수익이 올 것으로 예상합니다."
+        "relevance": 0.5,
+        "headlineKo": "CNBC의 '최종 거래'에 대한 KLA, Snowflake, Airbnb 및 의료 주식"
       }
     ],
     "newsHistory": [
@@ -12994,82 +17006,17 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1794c3e68c5f23063efadb914902f9d9eb89981992ff2283b9a47fe204ac57df",
         "datetime": 1786123560,
-        "headlineKo": "AI 붐: 포트폴리오에 고려해야 할 상위 주식"
-      },
-      {
-        "headline": "Tesla-SpaceX Terafab Bet: 4 Chip Equipment Stocks That Could Benefit",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2d04ad8fcb1678c161cebaf09f0979893594edf7aed66c5ed905ef8acd4e9016",
-        "datetime": 1786121700,
-        "headlineKo": "Tesla-SpaceX Terafab 베팅: 이익을 얻을 수 있는 4가지 칩 장비 주식"
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
-  },
-  "SNDK": {
-    "nextEarnings": {
-      "date": "2026-11-04",
-      "hour": "",
-      "epsEstimate": 45.8832
-    },
-    "news": [
-      {
-        "headline": "Uncover the latest developments among S&P500 stocks in today's session.",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=3a160a35b8171cc0055d79c795a9f5b630ffb9514f619fcf427e897552198643",
-        "datetime": 1786561501,
-        "headlineKo": "오늘 세션에서 S&P500 주식의 최신 동향을 알아보세요.",
+        "headlineKo": "AI 붐: 포트폴리오에 고려해야 할 상위 주식",
         "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "오늘 세션에서 S&P500 주식의 최신 동향을 알아보세요.",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "SNDK",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "SK Hynix, Samsung Stocks Rally as Singapore State Fund Adds Stakes on Memory Giants",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=688c220117eebd0192104bd977f75d290e2a16d439794eab9678ec9ca1390959",
-        "datetime": 1786549420,
-        "headlineKo": "싱가포르 국영 기금이 메모리 거대 기업에 지분을 추가함에 따라 SK 하이닉스, 삼성 주가 상승",
-        "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
-          "tone": "positive",
+          "tone": "mixed",
           "certainty": "전망·추정 포함",
           "label": "AI 인프라 자금 유입 확대",
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.29%, 0.75%, 0.391%, 0.06%, 1.03%, 0.07%, 7%, 4.9%.",
+            "기사에서 언급된 규모: $2.596 trillion, 47%, $487 billion, $1 trillion, 31%, $25 billion, 107%, $6.7 billion.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -13109,24 +17056,298 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'AI Boom: Top Stocks to Consider for Your Portfolio' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
         }
       },
       {
-        "headline": "These S&P500 stocks are gapping in today's session",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=108b6eb45cf4cc80a945dccddcb20e9433d76a346102b3bac10208632e8679ac",
-        "datetime": 1786545301,
-        "headlineKo": "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
+        "headline": "Tesla-SpaceX Terafab Bet: 4 Chip Equipment Stocks That Could Benefit",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2d04ad8fcb1678c161cebaf09f0979893594edf7aed66c5ed905ef8acd4e9016",
+        "datetime": 1786121700,
+        "headlineKo": "Tesla-SpaceX Terafab 베팅: 이익을 얻을 수 있는 4가지 칩 장비 주식"
+      },
+      {
+        "headline": "KLA Declares Regular Cash Dividend",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5e2ee90096ade5f792c94ad6da74013904fcd710b550a5426efece48adecbe04",
+        "datetime": 1786046700,
+        "headlineKo": "KLA, 정기현금배당 선언",
         "analysis": {
-          "version": 2,
-          "importance": "low",
+          "version": 3,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $0.23.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Declares Regular Cash Dividend' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1345048618dc4502ffc0118dcfda25c2945059b1573763d5cc5dd322725e8aa9",
+        "datetime": 1785870510,
+        "headlineKo": "KLA (KLAC) 주식은 엄청난 상승세를 보인 후 완전히 평가된 것으로 보입니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 462.1%, 108.2%, 21%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA (KLAC) Stock Looks Fully Valued After Its Huge Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: KLAC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "BofA’s $1.18T cloud forecast puts 3 chip stocks in focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6affc7c9d8152fcf52b1a226ea49614c03fcb00f996f58cdf8b46f0c712a950a",
+        "datetime": 1785848580,
+        "headlineKo": "BofA의 $1.18T 클라우드 예측은 3개의 칩 주식에 초점을 맞추고 있습니다"
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:52"
+  },
+  "SNDK": {
+    "nextEarnings": {
+      "date": "2026-11-04",
+      "hour": "",
+      "epsEstimate": 45.8832
+    },
+    "news": [
+      {
+        "headline": "After Falling Nearly 50%, Sandisk Stock Looks Compelling With 85% Upside Potential",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=470dc0f5943a85265d1d32f7cee81cbcb78d65e5106faea2f0330819c2a066e3",
+        "datetime": 1786385805,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 50%, 85%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'After Falling Nearly 50%, Sandisk Stock Looks Compelling With 85% Upside Potential' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "거의 50% 하락한 후 Sandisk 주식은 85% 상승 잠재력으로 매력적으로 보입니다."
+      },
+      {
+        "headline": "What Does Sandisk (SNDK) Mean For AI Storage With Its New QLC Flash?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dbdc48a2dca325cf0c62fc6e38502498f372e9902448902228a2708d17eb799d",
+        "datetime": 1786159090,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1,213.41, 340.9%, $20.25, $11.43, $20, $10.3, $10.8.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'What Does Sandisk (SNDK) Mean For AI Storage With Its New QLC Flash?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "Sandisk(SNDK)가 새로운 QLC 플래시를 탑재한 AI 스토리지에 어떤 의미가 있습니까?"
+      },
+      {
+        "headline": "Bank of America doubles down on Sandisk stock after earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d53d74c90e8cc492d9efa44175b6ef8bdd7f5e8e081908e0dfd4a75e63624f0c",
+        "datetime": 1786140420,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P500 주식은 오늘 세션에서 격차를 보이고 있습니다.",
+            "Bank of America doubles down on Sandisk stock after earnings",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -13149,22 +17370,28 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Bank of America doubles down on Sandisk stock after earnings' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK와의 연결은 확인되지만 방향은 아직 불명확합니다. 매출·EPS·영업이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Bank of America는 실적 후 Sandisk 주식을 두 배로 줄였습니다."
       },
       {
-        "headline": "10 Information Technology Stocks With Whale Alerts In Today’s Session",
+        "headline": "Sandisk Is Trading Significantly Above Fair Value, Watch The Downside",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1b416828f85832adfdb80db8034d8c0c05d37024351c79ea598423232d489a37",
+        "datetime": 1786096617,
+        "relevance": 1,
+        "headlineKo": "Sandisk는 공정 가치보다 훨씬 높은 수준으로 거래되고 있습니다. 단점을 살펴보세요"
+      },
+      {
+        "headline": "World's Smartest Banker Warns Of Hidden Margin Debt; SanDisk, WDC Disappoint; SK Hynix's Flash Crash",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=5c450deb3a969e8cf3b8db4419beee681289d559e8eb3e613f55512cc5426f04",
-        "datetime": 1786541714,
-        "headlineKo": "오늘 세션에서 고래 경고가 있는 10가지 정보 기술 주식"
-      },
-      {
-        "headline": "Which S&P500 stocks are moving before the opening bell on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=1a51c3fda625137f05bd7a8622dd3db9cd4f97aa3ff563d6f1aa5511d9562da4",
-        "datetime": 1786538101,
-        "headlineKo": "수요일 개장 전에 어떤 S&P500 주식이 움직이고 있나요?"
+        "url": "https://finnhub.io/api/news?id=8ec1aaf9cb755fdc3de51308cf31a6770bbb893931a90490f327ec2dea027d9f",
+        "datetime": 1786021906,
+        "relevance": 1,
+        "headlineKo": "세계에서 가장 똑똑한 은행가가 숨겨진 마진 부채에 대해 경고합니다. 샌디스크, WDC 실망; SK하이닉스 플래시 크래시"
       }
     ],
     "newsHistory": [
@@ -13430,7 +17657,61 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=470dc0f5943a85265d1d32f7cee81cbcb78d65e5106faea2f0330819c2a066e3",
         "datetime": 1786385805,
-        "headlineKo": "거의 50% 하락한 후 Sandisk 주식은 85% 상승 잠재력으로 매력적으로 보입니다."
+        "headlineKo": "거의 50% 하락한 후 Sandisk 주식은 85% 상승 잠재력으로 매력적으로 보입니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 50%, 85%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'After Falling Nearly 50%, Sandisk Stock Looks Compelling With 85% Upside Potential' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
@@ -13543,66 +17824,15 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7c25c9ae1d4b51c0c6171e077297d65bdddd828fbe2352ed5cd311ae60137139",
         "datetime": 1786247324,
         "headlineKo": "Sandisk: AI 붐을 통해 더 나은 비즈니스가 탄생하고 있습니다"
-      }
-    ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
-  },
-  "WDC": {
-    "nextEarnings": {
-      "date": "2026-10-28",
-      "hour": "",
-      "epsEstimate": 4.0561
-    },
-    "news": [
-      {
-        "headline": "Which S&P500 stocks are moving before the opening bell on Wednesday?",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=1a51c3fda625137f05bd7a8622dd3db9cd4f97aa3ff563d6f1aa5511d9562da4",
-        "datetime": 1786538101,
-        "headlineKo": "수요일 개장 전에 어떤 S&P500 주식이 움직이고 있나요?",
-        "analysis": {
-          "version": 2,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "수요일 개장 전에 어떤 S&P500 주식이 움직이고 있나요?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
       },
       {
-        "headline": "Sandisk Stock Is Gaining Wednesday: What's Going On?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=51b1fe47131aaed8aad563cb6900156904dd26153e8d8b787cba6b54cb0182da",
-        "datetime": 1786516785,
-        "headlineKo": "Sandisk 주식이 수요일에 상승하고 있습니다: 무슨 일이 일어나고 있나요?",
+        "headline": "What Does Sandisk (SNDK) Mean For AI Storage With Its New QLC Flash?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dbdc48a2dca325cf0c62fc6e38502498f372e9902448902228a2708d17eb799d",
+        "datetime": 1786159090,
+        "headlineKo": "Sandisk(SNDK)가 새로운 QLC 플래시를 탑재한 AI 스토리지에 어떤 의미가 있습니까?",
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -13610,7 +17840,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.25%, 0.7882%, 0.13%, 1.11%, 0.29%, 4%, 0.69%, 0.24%.",
+            "기사에서 언급된 규모: $1,213.41, 340.9%, $20.25, $11.43, $20, $10.3, $10.8.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -13650,24 +17880,95 @@ const NEWS_DATA = {
             "관련 기업 매출·수주잔고",
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
-          ]
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'What Does Sandisk (SNDK) Mean For AI Storage With Its New QLC Flash?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
         }
       },
+      {
+        "headline": "Bank of America doubles down on Sandisk stock after earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d53d74c90e8cc492d9efa44175b6ef8bdd7f5e8e081908e0dfd4a75e63624f0c",
+        "datetime": 1786140420,
+        "headlineKo": "Bank of America는 실적 후 Sandisk 주식을 두 배로 줄였습니다.",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Bank of America doubles down on Sandisk stock after earnings",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SNDK",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SNDK의 사업과 관련된 'Bank of America doubles down on Sandisk stock after earnings' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SNDK와의 연결은 확인되지만 방향은 아직 불명확합니다. 매출·EPS·영업이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        }
+      },
+      {
+        "headline": "Sandisk Is Trading Significantly Above Fair Value, Watch The Downside",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=1b416828f85832adfdb80db8034d8c0c05d37024351c79ea598423232d489a37",
+        "datetime": 1786096617,
+        "headlineKo": "Sandisk는 공정 가치보다 훨씬 높은 수준으로 거래되고 있습니다. 단점을 살펴보세요"
+      },
+      {
+        "headline": "World's Smartest Banker Warns Of Hidden Margin Debt; SanDisk, WDC Disappoint; SK Hynix's Flash Crash",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8ec1aaf9cb755fdc3de51308cf31a6770bbb893931a90490f327ec2dea027d9f",
+        "datetime": 1786021906,
+        "headlineKo": "세계에서 가장 똑똑한 은행가가 숨겨진 마진 부채에 대해 경고합니다. 샌디스크, WDC 실망; SK하이닉스 플래시 크래시"
+      }
+    ],
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:52"
+  },
+  "WDC": {
+    "nextEarnings": {
+      "date": "2026-10-28",
+      "hour": "",
+      "epsEstimate": 4.0561
+    },
+    "news": [
       {
         "headline": "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b70e3a93459970a599e3a4f99773a031fa5dcfe31e7673b9282078851e4782e0",
         "datetime": 1786444132,
-        "headlineKo": "Western Digital: AI는 하루에 300조 개의 토큰을 생성하고 스토리지를 구입합니다.",
+        "relevance": 1,
         "analysis": {
-          "version": 2,
+          "version": 3,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Western Digital: AI는 하루에 300조 개의 토큰을 생성하고 스토리지를 구입합니다.",
+            "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -13690,22 +17991,134 @@ const NEWS_DATA = {
             "영업현금흐름과 CAPEX",
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
-          ]
-        }
-      },
-      {
-        "headline": "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d029b355388a6c5acf2d341b04dbb4f2e819b031490d7c38d542a8ef4e8eee44",
-        "datetime": 1786425900,
-        "headlineKo": "2026년 나스닥 주식 12개는 두 배로 올랐지만, 그 어느 것도 장대한 7개는 아니다"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "relevance": 1
+        },
+        "headlineKo": "Western Digital: AI는 하루에 300조 개의 토큰을 생성하고 스토리지를 구입합니다."
       },
       {
         "headline": "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth",
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=e8260fa56185c5d5f0b165e6dc8d0a9e1aed31750f281321a9d6530d770ac719",
         "datetime": 1786423644,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        },
         "headlineKo": "Western Digital: 2026년 4분기, 시장이 여전히 EPS 성장률을 저평가하고 있음을 확인"
+      },
+      {
+        "headline": "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d9564212ef54f3f24ec2d330efe247fbc572fba77e7e5c8f2e53105ab8dcc83f",
+        "datetime": 1786385584,
+        "relevance": 1,
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 17.6%, $3,747 million, $3,195 million, $12.92 billion, $9.42 billion, $0.15, 5%, $27.9 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        },
+        "headlineKo": "AI 기반 수익 급증 및 배당 증가 이후 Western Digital(WDC)은 17.6% 하락했습니다. 상승 추세가 바뀌었나요?"
+      },
+      {
+        "headline": "What's Going On With Western Digital Stock Monday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=21f0d3eab5292e657d9bbf87dc62d37b8af704fcfd53e0de0ae0c8b4db4bc4e2",
+        "datetime": 1786350401,
+        "relevance": 1,
+        "headlineKo": "월요일 Western Digital 주식에 무슨 일이 일어나고 있나요?"
+      },
+      {
+        "headline": "Western Digital: Cyclical Upcycle Is On A Clock While Valuation Remains Expensive",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=51ffd5755084da8c37ba27b074547433f6a0e67c041a343325f87ac6642e9367",
+        "datetime": 1786226246,
+        "relevance": 1,
+        "headlineKo": "Western Digital: 순환적 업사이클은 순조롭게 진행되고 있지만 평가액은 여전히 ​​비쌉니다"
       }
     ],
     "newsHistory": [
@@ -13859,14 +18272,104 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=e8260fa56185c5d5f0b165e6dc8d0a9e1aed31750f281321a9d6530d770ac719",
         "datetime": 1786423644,
-        "headlineKo": "Western Digital: 2026년 4분기, 시장이 여전히 EPS 성장률을 저평가하고 있음을 확인"
+        "headlineKo": "Western Digital: 2026년 4분기, 시장이 여전히 EPS 성장률을 저평가하고 있음을 확인",
+        "analysis": {
+          "version": 3,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1
+        }
       },
       {
         "headline": "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d9564212ef54f3f24ec2d330efe247fbc572fba77e7e5c8f2e53105ab8dcc83f",
         "datetime": 1786385584,
-        "headlineKo": "AI 기반 수익 급증 및 배당 증가 이후 Western Digital(WDC)은 17.6% 하락했습니다. 상승 추세가 바뀌었나요?"
+        "headlineKo": "AI 기반 수익 급증 및 배당 증가 이후 Western Digital(WDC)은 17.6% 하락했습니다. 상승 추세가 바뀌었나요?",
+        "analysis": {
+          "version": 3,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 17.6%, $3,747 million, $3,195 million, $12.92 billion, $9.42 billion, $0.15, 5%, $27.9 billion.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: WDC에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1
+        }
       },
       {
         "headline": "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
@@ -13953,7 +18456,7 @@ const NEWS_DATA = {
         "headlineKo": "Western Digital: 실적 하락 이후 기술적 위협에 주의하세요"
       }
     ],
-    "_fetched_at": 1786593739.4403772,
-    "_updated_label": "2026-08-13 13:03"
+    "_fetched_at": 1786603669.671009,
+    "_updated_label": "2026-08-13 15:52"
   }
 };
