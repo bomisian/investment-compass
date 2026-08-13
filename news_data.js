@@ -15,7 +15,7 @@ const NEWS_DATA = {
         "datetime": 1786511876,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -59,7 +59,7 @@ const NEWS_DATA = {
         "datetime": 1786524421,
         "relevance": 1.0,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "전망·추정 포함",
@@ -121,7 +121,7 @@ const NEWS_DATA = {
         "datetime": 1786494858,
         "relevance": 1.0,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -844,7 +844,7 @@ const NEWS_DATA = {
         "datetime": 1786357009,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -889,7 +889,7 @@ const NEWS_DATA = {
         "datetime": 1786349937,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 기반 간이 분석",
@@ -934,7 +934,7 @@ const NEWS_DATA = {
         "datetime": 1786346136,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -1599,7 +1599,7 @@ const NEWS_DATA = {
         "datetime": 1786541666,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -1644,7 +1644,7 @@ const NEWS_DATA = {
         "datetime": 1786489355,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -1689,7 +1689,7 @@ const NEWS_DATA = {
         "datetime": 1786548608,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -2399,7 +2399,7 @@ const NEWS_DATA = {
         "datetime": 1786093201,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -2443,7 +2443,7 @@ const NEWS_DATA = {
         "datetime": 1786045052,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -2488,7 +2488,7 @@ const NEWS_DATA = {
         "datetime": 1786468741,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -3143,7 +3143,7 @@ const NEWS_DATA = {
         "datetime": 1786152619,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -3188,7 +3188,7 @@ const NEWS_DATA = {
         "datetime": 1786110263,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -3233,7 +3233,7 @@ const NEWS_DATA = {
         "datetime": 1786082516,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 확인 필요",
@@ -3928,7 +3928,7 @@ const NEWS_DATA = {
         "datetime": 1786457680,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -3973,7 +3973,7 @@ const NEWS_DATA = {
         "datetime": 1786361468,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 확인 필요",
@@ -4017,7 +4017,7 @@ const NEWS_DATA = {
         "datetime": 1786105529,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -4552,7 +4552,7 @@ const NEWS_DATA = {
         "datetime": 1786221754,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -4597,7 +4597,7 @@ const NEWS_DATA = {
         "datetime": 1786021200,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -4642,7 +4642,7 @@ const NEWS_DATA = {
         "datetime": 1786534576,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -5186,7 +5186,7 @@ const NEWS_DATA = {
         "datetime": 1786131340,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -5231,7 +5231,7 @@ const NEWS_DATA = {
         "datetime": 1786071420,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -5276,7 +5276,7 @@ const NEWS_DATA = {
         "datetime": 1786389279,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -5955,7 +5955,7 @@ const NEWS_DATA = {
         "datetime": 1786418810,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -6000,7 +6000,7 @@ const NEWS_DATA = {
         "datetime": 1786528394,
         "relevance": 1.0,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -6044,7 +6044,7 @@ const NEWS_DATA = {
         "datetime": 1786450390,
         "relevance": 1.0,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -6686,15 +6686,16 @@ const NEWS_DATA = {
         "datetime": 1786525495,
         "relevance": 1,
         "analysis": {
-          "version": 6,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "version": 7,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Micron: Capacity Expansion To Capture Booming Memory Demand (NASDAQ:MU) | Seeking Alpha Khaveen Investments 8.56K Followers Follow Summary HBM is Micron Technology, Inc.'s primary growth engine, with revenue surging 244.8% YoY in Q3 2026 YT",
+            "US CHIPS Act incentives and $250B capex plan aim to expand wafer capacity by 18.74M units by 2043, reducing geographic risk.",
+            "Rising CXMT competition and ongoing patent litigation pose risks to MU's DRAM market share and profitability."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -6717,8 +6718,8 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: MU와의 연결은 확인되지만 방향은 아직 불명확합니다. 판매량·ASP(평균판매가격)·매출총이익률가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: MU에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1
         },
         "headlineKo": "Micron: 급증하는 메모리 수요를 잡기 위한 용량 확장"
@@ -6730,7 +6731,7 @@ const NEWS_DATA = {
         "datetime": 1786437526,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -6774,14 +6775,14 @@ const NEWS_DATA = {
         "datetime": 1786410248,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars Skip to main content → Porter flew 3,300 miles to investigate this system (From Porter & Company) (Ad) Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Dema",
+            "Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars Skip to main content → Your $29.97 book is free today (From Profits Run) (Ad) Micron Says AI Memory Crunch Could Last Beyond 2027 as DRAM Demand Soars Written by Marke",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points Memory shortages may persist beyond 2027 , with Micron expecting 2027 supply conditions to be even tighter than 2026 as AI-driven DRAM demand outpaces new fabrication capacity."
           ],
@@ -7413,7 +7414,7 @@ const NEWS_DATA = {
         "datetime": 1786457844,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -7457,7 +7458,7 @@ const NEWS_DATA = {
         "datetime": 1786442378,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -7501,7 +7502,7 @@ const NEWS_DATA = {
         "datetime": 1786439869,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -8118,7 +8119,7 @@ const NEWS_DATA = {
         "datetime": 1786538449,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "high",
           "tone": "mixed",
           "certainty": "전망·추정 포함",
@@ -8180,7 +8181,7 @@ const NEWS_DATA = {
         "datetime": 1786533880,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 확인 필요",
@@ -8224,7 +8225,7 @@ const NEWS_DATA = {
         "datetime": 1786474539,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 확인 필요",
@@ -8904,7 +8905,7 @@ const NEWS_DATA = {
         "datetime": 1786464715,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -8949,7 +8950,7 @@ const NEWS_DATA = {
         "datetime": 1786435889,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -8993,7 +8994,7 @@ const NEWS_DATA = {
         "datetime": 1786396181,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -9566,7 +9567,7 @@ const NEWS_DATA = {
         "datetime": 1786375896,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -9611,7 +9612,7 @@ const NEWS_DATA = {
         "datetime": 1786381552,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -9655,7 +9656,7 @@ const NEWS_DATA = {
         "datetime": 1785933091,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -10325,15 +10326,16 @@ const NEWS_DATA = {
         "datetime": 1786437214,
         "relevance": 1,
         "analysis": {
-          "version": 6,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "version": 7,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Why Are Nasdaq, Dow Futures Trading Mixed Premarket?",
+            "INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus New Connect your Agent Trending News Earnings All DIA 0.08% SPY 0.08% QQQ 0.05% Trending ONDS 4.20% MSTR 0.98% CSCO 4.00% NKE 0.30% NBIS 3.94% CBRS 17.00% DELL 2.58% ETH 0.30% WEN ",
+            "S&P 500, Nasdaq, Dow Futures Mixed As CPI Countdown Begins: Why INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI Stocks Are In Focus Retail sentiment on Stocktwits has declined to ‘neutral’ on SPY and ‘extremely bearish’ on QQQ."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -10356,8 +10358,8 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: SPY와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: SPY에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1
         },
         "headlineKo": "CPI 카운트다운이 시작되면서 S&P 500, Nasdaq, Dow 선물이 혼합되었습니다: INTC, SLS, SPCX, RKLB, ASTS, RIOT, FRMI 주식이 주목받는 이유"
@@ -10369,7 +10371,7 @@ const NEWS_DATA = {
         "datetime": 1786388922,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 기반 간이 분석",
@@ -10414,7 +10416,7 @@ const NEWS_DATA = {
         "datetime": 1786370682,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -11141,39 +11143,40 @@ const NEWS_DATA = {
         "datetime": 1785757564,
         "relevance": 1,
         "analysis": {
-          "version": 6,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "version": 7,
+          "importance": "medium",
+          "tone": "mixed",
+          "certainty": "작성자 전망·공시 숫자 구분 필요",
+          "label": "목표가 전망과 리스크 혼재",
+          "horizon": "다음 실적·현금흐름 확인까지",
           "facts": [
-            "오라클: 64%의 상승 여력과 많은 두려움이 있습니다",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "기사 작성자가 Oracle의 상승 여력과 위험 요인을 함께 제시한 의견 기사입니다.",
+            "제목의 상승 여력은 애널리스트·작성자의 추정치이지 Oracle의 공식 가이던스가 아닙니다.",
+            "AI 클라우드 성장과 CAPEX·부채 부담이 동시에 언급되는지 원문에서 확인해야 합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "Oracle은 AI 인프라 성장 기대가 큰 동시에 대규모 투자로 FCF 부담도 커질 수 있습니다.",
+            "성장률보다 CAPEX 이후 현금이 남는지가 장기 주가를 결정할 가능성이 큽니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "‘64% 상승 여력’은 그 가격까지 반드시 오른다는 약속이 아니라 작성자의 계산입니다.",
+            "Oracle의 실제 클라우드 매출 성장과 FCF가 좋아지는지 확인해야 합니다.",
+            "전망이 좋아도 부채·투자 부담이 더 빨리 늘면 주가가 오르지 않을 수 있습니다."
           ],
           "impacts": [
             {
               "ticker": "ORCL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "혼재",
+              "reason": "AI 클라우드 성장 기대와 CAPEX·부채 부담이 함께 존재"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "OCI 매출 성장률과 신규 계약",
+            "CAPEX 대비 영업현금흐름·FCF",
+            "부채·이자비용과 신용등급"
           ],
           "interpretation": "이 기사는 ORCL의 사업과 관련된 '오라클: 64%의 상승 여력과 많은 두려움이 있습니다' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: ORCL와의 연결은 확인되지만 방향은 아직 불명확합니다. 다음 실적의 매출·이익·현금흐름가 실제로 움직이는지 확인한 뒤 판단합니다.",
+          "decision": "현재 해석: ORCL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 다음 실적의 매출·이익·현금흐름 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 1
         },
         "headlineKo": "오라클: 64%의 상승 여력과 많은 두려움이 있습니다"
@@ -11185,7 +11188,7 @@ const NEWS_DATA = {
         "datetime": 1786464233,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "high",
           "tone": "positive",
           "certainty": "파트너십 발표·상업화 규모 확인 필요",
@@ -11230,7 +11233,7 @@ const NEWS_DATA = {
         "datetime": 1785805200,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -11856,7 +11859,7 @@ const NEWS_DATA = {
         "datetime": 1786011190,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -11901,7 +11904,7 @@ const NEWS_DATA = {
         "datetime": 1785920400,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -11946,7 +11949,7 @@ const NEWS_DATA = {
         "datetime": 1785920400,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -12471,7 +12474,7 @@ const NEWS_DATA = {
         "datetime": 1786392026,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -12515,7 +12518,7 @@ const NEWS_DATA = {
         "datetime": 1785977820,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -12559,7 +12562,7 @@ const NEWS_DATA = {
         "datetime": 1785896929,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -13127,7 +13130,7 @@ const NEWS_DATA = {
         "datetime": 1786022389,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "high",
           "tone": "positive",
           "certainty": "기사 본문 확인 필요",
@@ -13172,40 +13175,40 @@ const NEWS_DATA = {
         "datetime": 1786404076,
         "relevance": 1,
         "analysis": {
-          "version": 6,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
-          "horizon": "다음 실적까지 확인",
+          "version": 7,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "기사 제목의 전망·할인율 확인 필요",
+          "label": "실적 전망과 밸류에이션 동시 확인",
+          "horizon": "다음 분기 실적 발표까지",
           "facts": [
-            "QUALCOMM (QCOM) Issued Q4 Guidance, Is The 17% Discount Enough?",
-            "Oops, something went wrong Skip to navigation Skip to main content Skip to right column QUALCOMM (QCOM) Issued Q4 Guidance, Is The 17% Discount Enough?",
-            "Simply Wall St Tue, August 11, 2026 at 8:21 AM GMT+9 3 min read QCOM Find your next quality investment with Simply Wall St's easy and powerful screener, trusted by over 7 million individual investors worldwide."
+            "QCOM의 다음 분기 가이던스와 현재 주가가 이익 대비 충분히 할인됐는지를 다룬 기사입니다.",
+            "제목에 나온 할인율은 기사 작성자의 계산일 수 있어 회사의 공식 전망과 구분해야 합니다.",
+            "가이던스가 실제 매출·EPS로 달성되는지가 핵심 확인 대상입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스가 유지되면 현재 PER이 낮아 보일 수 있지만, 전망이 낮아지면 할인율도 빠르게 사라집니다.",
+            "스마트폰 수요와 자동차·IoT 성장 중 어느 쪽이 이익을 지지하는지 함께 봐야 합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "‘17% 할인’이라는 표현은 싸 보인다는 뜻이지, 반드시 오를 가격이라는 뜻은 아닙니다.",
+            "회사가 제시한 다음 분기 매출·EPS가 실제로 맞는지 확인해야 합니다.",
+            "할인율보다 실적 전망이 내려가는지 올라가는지가 더 중요합니다."
           ],
           "impacts": [
             {
               "ticker": "QCOM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "혼재",
+              "reason": "낮은 밸류에이션 가능성과 실적 전망 하향 위험이 공존"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "다음 분기 매출·EPS 가이던스 달성 여부",
+            "스마트폰·자동차·IoT 부문별 성장률",
+            "현재 PER과 3년 평균 PER 변화"
           ],
           "interpretation": "이 기사는 QCOM의 사업과 관련된 'QUALCOMM(QCOM) 발행 Q4 지침, 17% 할인이면 충분합니까?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QCOM에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "decision": "현재 해석: QCOM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 1
         },
         "headlineKo": "QUALCOMM(QCOM) 발행 Q4 지침, 17% 할인이면 충분합니까?"
@@ -13217,7 +13220,7 @@ const NEWS_DATA = {
         "datetime": 1786147128,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -13678,7 +13681,7 @@ const NEWS_DATA = {
         "datetime": 1786452194,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -13722,7 +13725,7 @@ const NEWS_DATA = {
         "datetime": 1786381956,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -13767,7 +13770,7 @@ const NEWS_DATA = {
         "datetime": 1786374063,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -14182,7 +14185,7 @@ const NEWS_DATA = {
         "datetime": 1786398302,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -14227,7 +14230,7 @@ const NEWS_DATA = {
         "datetime": 1786353283,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -14272,7 +14275,7 @@ const NEWS_DATA = {
         "datetime": 1786299571,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -14765,7 +14768,7 @@ const NEWS_DATA = {
         "datetime": 1785977705,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -14809,7 +14812,7 @@ const NEWS_DATA = {
         "datetime": 1786392227,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -14854,7 +14857,7 @@ const NEWS_DATA = {
         "datetime": 1786212608,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -15340,7 +15343,7 @@ const NEWS_DATA = {
         "datetime": 1786528290,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -15384,7 +15387,7 @@ const NEWS_DATA = {
         "datetime": 1786447818,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -15429,7 +15432,7 @@ const NEWS_DATA = {
         "datetime": 1786439482,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -15929,7 +15932,7 @@ const NEWS_DATA = {
         "datetime": 1786123560,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -15974,7 +15977,7 @@ const NEWS_DATA = {
         "datetime": 1786046700,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 기반 간이 분석",
@@ -16019,7 +16022,7 @@ const NEWS_DATA = {
         "datetime": 1785870510,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -16502,7 +16505,7 @@ const NEWS_DATA = {
         "datetime": 1786385805,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -16547,7 +16550,7 @@ const NEWS_DATA = {
         "datetime": 1786159090,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
@@ -16592,7 +16595,7 @@ const NEWS_DATA = {
         "datetime": 1786140420,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -17213,7 +17216,7 @@ const NEWS_DATA = {
         "datetime": 1786444132,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
@@ -17257,7 +17260,7 @@ const NEWS_DATA = {
         "datetime": 1786423644,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "positive",
           "certainty": "본문 확인 필요",
@@ -17301,7 +17304,7 @@ const NEWS_DATA = {
         "datetime": 1786385584,
         "relevance": 1,
         "analysis": {
-          "version": 6,
+          "version": 7,
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
