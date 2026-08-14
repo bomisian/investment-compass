@@ -578,7 +578,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-13';
+const DASHBOARD_VERSION = '2026-08-14';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -2022,11 +2022,20 @@ function renderFairValueSection(r){
     // 잡아야 "지금 가격이 기준보다 몇% 낮다/높다"는 자연스러운 방향이 됨(rel()은 반대 방향이라 여기만 별도 계산).
     const discountPct = (price - w.mid) / w.mid * 100;
     const cheaper = discountPct < 0;
+    // 2026-08-14 수정(사용자 질문: "기준PER이 뭘 근거로 하는지, 어디서 나온 건지 모호하다"):
+    // 예전엔 "이 시나리오 기준가"라고만 해서 그 기준이 남의 회사 평균인지 이 종목 고유값인지
+    // 안 보였음. anchorPe = 이 종목의 '오늘' 가격 ÷ '이 종목' 올해 예상 EPS로, 다른 종목이나
+    // 업종 평균이 아니라 지금 시장이 이 종목 하나에 실제로 매기고 있는 배수를 그대로 역산한 값 -
+    // 그 근거를 첫 문장에서 바로 밝힘. 저평가 쪽일 때는 "부담 없는 가격대로 볼 수 있다"는
+    // 긍정적 해석도 사용자 요청대로 추가하되, 예측력이 없다는 기존 경고는 그대로 유지.
     const compareLine = `
       <div class="comment-box" style="background:${cheaper?'var(--up-bg)':'var(--down-bg)'};color:${cheaper?'#a8322c':'#2a4fa0'};margin-bottom:10px;">
-        지금 주가 <b>$${price.toFixed(2)}</b>는 이 시나리오 기준가 <b>$${w.mid.toFixed(0)}</b>보다
+        <span style="font-weight:400;">기준가 $${w.mid.toFixed(0)}는 <b>지금 시장이 이 종목에 실제로 매기고 있는 PER ${w.anchorPe.toFixed(1)}배</b>(오늘 주가 $${price.toFixed(2)} ÷ 올해 예상 EPS $${w.eps0.toFixed(2)}로 역산 - 다른 종목이나 업종 평균이 아니라 이 종목 자체 오늘 값)를 내년에도 그대로 유지한다고 가정하고, 거기에 내년 예상 EPS $${w.eps1.toFixed(2)}를 곱한 값이에요.</span><br>
+        지금 주가 <b>$${price.toFixed(2)}</b>는 그 기준가보다
         <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요(저평가 쪽)':'높아요(고평가 쪽)'}</b>.
-        <span style="font-weight:400;">즉 "PER은 그대로고 실적만 예상대로 큰다"고 가정했을 때, 지금 가격이 그 기준보다 ${cheaper?'싸게':'비싸게'} 거래되고 있다는 뜻이에요.</span>
+        <span style="font-weight:400;">${cheaper
+          ? `즉 지금 시장이 이 종목에 매기는 배수보다 <b>더 싸게</b> 살 수 있는 가격대라, 부담 없이 모아가는 자리로 볼 수 있어요(오른다는 보장은 아니에요).`
+          : `즉 지금 시장이 이 종목에 매기는 배수보다 <b>더 비싸게</b> 거래되고 있는 가격대예요.`}</span>
         <br><span style="font-weight:400;color:var(--sub);">⚠️ 검증 결과 이 저평가/고평가 여부는 이후 수익률을 예측하지 못했어요(오히려 반대 방향이었음 - 아래 경고 참고) - "그래서 사야 한다"는 뜻은 아니에요.</span>
       </div>`;
     perBlock = compareLine + `
@@ -2521,6 +2530,13 @@ const PATIENCE_TABLE = {
 };
 function renderSellGuide(r){
   const p = PATIENCE_TABLE[Math.max(0, Math.min(5, r.score))] || PATIENCE_TABLE[0];
+  // 2026-08-14 추가(사용자 지적: "언제 파나"의 ②펀더멘털 훼손 항목이 "03 탭 가서 봐라"는
+  // 추상적 안내뿐이라, 매출·방향성이 실제로 바뀌면 이 카드 자체도 바뀌어야 한다) - 이 종목의
+  // 지금 재무 판정(computeFinancialDirection, 04탭과 동일 계산 재사용)을 그 자리에서 보여줌.
+  const fd = computeFinancialDirection(r, (typeof FINANCIALS_DATA!=='undefined' && FINANCIALS_DATA[r.ticker]) || null);
+  const fundamentalNowLine = fd
+    ? `<span class="v" style="text-align:right;">지금: <b>${fd.verdict}</b>${fd.lastQPeriod && fd.qRevG!=null ? ` (${fd.lastQPeriod} 매출 ${pctStr(fd.qRevG)})` : ''}</span>`
+    : `<span class="v">04 재무제표 탭 매출·이익 꺾임</span>`;
   return `
     <div class="chart-label" style="margin-top:18px;">언제 팔아야 하나 · 얼마나 견뎌야 하나 ${hintIcon('sellGuide')}</div>
     <div class="comment-box" style="background:var(--warn-bg);color:#876000;">
@@ -2540,7 +2556,7 @@ function renderSellGuide(r){
       <div class="fund-col">
         <h3>그럼 언제 파나</h3>
         <div class="fund-row"><span>① 손절 규칙 위반</span><span class="v">평단 -27.1% 도달</span></div>
-        <div class="fund-row"><span>② 펀더멘털 훼손</span><span class="v">03 실적 탭 매출·이익 꺾임</span></div>
+        <div class="fund-row"><span>② 펀더멘털 훼손</span>${fundamentalNowLine}</div>
         <div class="fund-row"><span>③ 계획된 리밸런싱</span><span class="v">애초에 정해둔 시점/비중 조정</span></div>
         <div class="fund-row"><span>④ 단일 종목 비중 한도 초과</span><span class="v">전체 자산 대비 정해둔 한도 넘김</span></div>
         <div class="fund-row"><span>⑤ 돈이 필요할 때</span><span class="v">계획된 인출</span></div>
@@ -3320,12 +3336,21 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
 
   // PER 유지 시나리오 수평선 (PER유지가 / 애널리스트 목표 / 하방 시나리오).
   // 차트 y범위 밖이면 캔들을 찌그러뜨리지 않고 위/아래 가장자리에 화살표 라벨로 알려줌.
+  // 2026-08-14 수정(사용자 지적): 이 값들은 '오늘' 시점의 예상 EPS·PER로 계산된 미래 참고선인데,
+  // 예전엔 차트 전체(과거 몇 년치 포함) 폭에 수평선을 그려서 마치 "그때도 이 가격이 기준이었다"처럼
+  // 보이는 오해 소지가 있었음. 과거 시점엔 실제로 다른 EPS 추정치·다른 PER이 적용됐을 것이므로,
+  // ①오늘(최신 봉)이 화면에 보일 때만 그리고 ②전체 폭이 아니라 최근 구간에만 짧게 그어서
+  // "지금 시점 기준"이라는 걸 시각적으로 명확히 함. 과거로 팬(pan)하면 아예 안 그림.
   const fv = s.fairValue;
-  if(fv){
+  const showFairLines = fv && end === fullLen;
+  if(showFairLines){
     const lines = [];
     if(fv.fwd && fv.fwd.mid!=null) lines.push({v:fv.fwd.mid, color:'#ea5414', label:'PER유지'});
     if(fv.analyst && fv.analyst.mid!=null) lines.push({v:fv.analyst.mid, color:'#3b6fd8', label:'목표'});
     if(fv.downside!=null) lines.push({v:fv.downside, color:'#8b95a1', label:'하방'});
+    const segLen = Math.max(15, Math.round(n*0.15));
+    const segStartIdx = Math.max(0, n-1-segLen);
+    const segX = x(segStartIdx);
     ctx.save();
     ctx.font = 'bold 17px monospace'; ctx.textAlign = 'left';
     let aboveSlot = 0, belowSlot = 0;
@@ -3333,17 +3358,17 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
       if(L.v >= min && L.v <= max){
         const py = y(L.v);
         ctx.strokeStyle = L.color; ctx.globalAlpha = 0.7; ctx.lineWidth = 1.6; ctx.setLineDash([7,5]);
-        ctx.beginPath(); ctx.moveTo(pad, py); ctx.lineTo(W-pad, py); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(segX, py); ctx.lineTo(W-pad, py); ctx.stroke();
         ctx.setLineDash([]); ctx.globalAlpha = 1;
         ctx.fillStyle = L.color;
-        ctx.fillText(`${L.label} $${L.v.toFixed(0)}`, pad+4, py-5);
+        ctx.fillText(`${L.label}(오늘 기준) $${L.v.toFixed(0)}`, segX+4, py-5);
       } else {
         // 범위 밖 - 가장자리에 방향 화살표로 표시
         const above = L.v > max;
         const py = above ? pad*0.75 + aboveSlot*20 : H - pad*0.5 - belowSlot*20;
         if(above) aboveSlot++; else belowSlot++;
         ctx.fillStyle = L.color; ctx.globalAlpha = 0.9;
-        ctx.fillText(`${above?'▲':'▼'} ${L.label} $${L.v.toFixed(0)} (차트 밖)`, pad+4, py);
+        ctx.fillText(`${above?'▲':'▼'} ${L.label}(오늘 기준) $${L.v.toFixed(0)} (차트 밖)`, segX+4, py);
         ctx.globalAlpha = 1;
       }
     });
@@ -3673,6 +3698,56 @@ function fundRowsHtml(fund, fields){
   }).join('');
 }
 
+// ============ 02 탭 - 과거 대비 비교 (2026-08-14 추가) ============
+// [배경] 사용자: "밸류에이션·퀄리티 수치가 좋은 건 알겠는데 높은지 낮은지 비교할 대상이 없다."
+// 이 탭 지표(VALUE_FIELDS/QUALITY_FIELDS)는 전부 Finnhub stock/metric의 '지금 스냅샷'만 캐시돼
+// 있어서(과거 값을 따로 안 쌓아둠), 진짜 시계열 비교가 가능한 건 PER(avgPe3Y, 기존에 이미 있었음)
+// 뿐이었음. 03/04 탭이 쓰는 financials_cache(최대 8개년 annual)로는 영업이익률·순이익률을
+// "이 종목 자신의 과거 마진 범위"와 비교할 수 있어서 새로 추가함(새 데이터 수집 없이 기존 캐시
+// 재사용). ROE·PSR·PBR·EV/EBITDA 같은 나머지는 과거 스냅샷 자체가 없어 비교를 못 만든다는 사실을
+// 숨기지 않고 그대로 밝힘 - 억지로 숫자를 만들지 않는다는 이 프로젝트 원칙(computeFairValue의
+// avgPe3Y 신뢰도 체크 등과 동일한 태도).
+function marginHistoryStats(ticker){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const annual = (fin?.annual || []).filter(d=>d.revenue && d.opIncome!=null && d.netIncome!=null);
+  if(annual.length < 3) return null;
+  const opMargins = annual.map(d=>d.opIncome/d.revenue*100);
+  const netMargins = annual.map(d=>d.netIncome/d.revenue*100);
+  const stat = arr => ({min:Math.min(...arr), max:Math.max(...arr), median: arr.slice().sort((a,b)=>a-b)[Math.floor(arr.length/2)]});
+  return {years: annual.length, periodFrom: annual[0].period, periodTo: annual[annual.length-1].period,
+          op: stat(opMargins), net: stat(netMargins)};
+}
+function rangePositionLabel(current, min, max, median){
+  if(current==null) return null;
+  const range = max-min;
+  const pos = range>0 ? (current-min)/range : 0.5;
+  return pos>=0.66 ? '상위권' : (pos<=0.33 ? '하위권' : '중간');
+}
+function historyCompareBlock(ticker, fund){
+  const lines = [];
+  if(typeof fund.peTTM === 'number' && typeof fund.avgPe3Y === 'number' && fund.avgPe3Y>0){
+    const dev = (fund.peTTM/fund.avgPe3Y - 1)*100;
+    lines.push(`<b>PER(트레일링)</b> ${fund.peTTM.toFixed(1)}배는 이 종목 <b>3년 평균(${fund.avgPe3Y.toFixed(1)}배)</b>보다 ${Math.abs(dev)<3?'비슷한 수준이에요':(dev>0?`<b style="color:var(--warn)">${dev.toFixed(0)}% 높아요(비싼 편)</b>`:`<b style="color:var(--up)">${Math.abs(dev).toFixed(0)}% 낮아요(싼 편)</b>`)}.`);
+  }
+  const hist = marginHistoryStats(ticker);
+  if(hist){
+    const opNow = fund.operatingMarginTTM, netNow = fund.netProfitMarginTTM;
+    if(typeof opNow === 'number'){
+      const label = rangePositionLabel(opNow, hist.op.min, hist.op.max, hist.op.median);
+      lines.push(`<b>영업이익률</b> ${opNow.toFixed(1)}%는 이 종목의 최근 ${hist.years}개년(${hist.periodFrom}~${hist.periodTo}) 범위 <b>${hist.op.min.toFixed(1)}%~${hist.op.max.toFixed(1)}%</b>(중앙값 ${hist.op.median.toFixed(1)}%) 중 <b>${label}</b>이에요.`);
+    }
+    if(typeof netNow === 'number'){
+      const label = rangePositionLabel(netNow, hist.net.min, hist.net.max, hist.net.median);
+      lines.push(`<b>순이익률</b> ${netNow.toFixed(1)}%는 같은 기간 범위 <b>${hist.net.min.toFixed(1)}%~${hist.net.max.toFixed(1)}%</b>(중앙값 ${hist.net.median.toFixed(1)}%) 중 <b>${label}</b>이에요.`);
+    }
+  }
+  if(!lines.length) return '';
+  return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:12px;">
+    <b>과거 대비 비교</b><br>${lines.map(l=>'· '+l).join('<br>')}
+    <div class="sub" style="margin-top:6px;">※ ROE·ROIC·PSR·PBR·EV/EBITDA 등 나머지 지표는 <b>과거 스냅샷을 따로 저장해두지 않아서</b> 아직 비교를 못 만들어요(지금 값만 있어요) - 억지로 만들지 않고 정직하게 비워둡니다.</div>
+  </div>`;
+}
+
 // ---- 데이터 교차검증 (2026-07 추가) ----
 // 배경: GOOGL에서 Finnhub/Yahoo가 순이익률 54.77%로 표시했는데, SEC 공시 기반(03 실적 탭) 계산은 37.92%였음.
 // 원인을 추적해보니 (1) 알파벳이 Q2'26 실적을 발표(실제EPS 9.11 vs 예상 2.98)했는데 그 분기에 영업외
@@ -3833,6 +3908,7 @@ function tabValueQuality(r){
       <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS)}${marketCapRow}</div>
       <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
     </div>
+    ${historyCompareBlock(r.ticker, fund)}
     ${dataQualityNotes(r.ticker, fund)}
     ${updated}
     ${currencyNote}
@@ -3957,6 +4033,33 @@ function earningsComment(data, mode){
     } else s += '예요.';
     items.push(s);
     if(mNow < 0){ items.push(`<b>이 기간은 적자예요.</b>`); tone = 'warn'; }
+  }
+
+  // 2026-08-14 추가(사용자 요청: "실적 코멘트도 조금 디테일하게, 다른 데이터도 검토해서") -
+  // 매출·순이익률 말고도 이미 캐시에 있는 영업이익·FCF·세금효과·영업외손익 데이터를 반영함.
+  // 03a) 영업이익 성장률 - 매출은 늘어도 이익은 다르게 움직일 수 있어 별도로 봄
+  const gOp = (last.opIncome!=null && prevYoY?.opIncome!=null) ? growth(last.opIncome, prevYoY.opIncome) : null;
+  if(gOp != null){
+    const label = isQ ? '전년 같은 분기' : '전년';
+    items.push(`영업이익은 $${fmtUsd(last.opIncome)}로 ${label} 대비 <b>${pctStr(gOp)}</b>예요${gRev!=null && Math.abs(gOp-gRev)>=10 ? (gOp>gRev?' (매출보다 더 빠르게 늘었어요 - 레버리지 개선)':' (매출 증가만큼 이익이 못 따라갔어요)') : ''}.`);
+    if(gOp < -10) tone = 'warn';
+  }
+  // 03b) 잉여현금흐름(FCF) 변화 - 순이익은 흑자여도 현금이 안 따라오는 경우를 잡아냄
+  if(last.fcf!=null && prevYoY?.fcf!=null){
+    const dir = last.fcf > prevYoY.fcf ? '늘었어요' : (last.fcf < prevYoY.fcf ? '줄었어요' : '비슷해요');
+    items.push(`잉여현금흐름(FCF)은 $${fmtUsd(prevYoY.fcf)}에서 $${fmtUsd(last.fcf)}로 ${dir}${last.fcf<0?' (설비투자가 영업현금보다 많아요)':''}.`);
+    if(last.fcf < 0 && prevYoY.fcf >= 0) tone = 'warn';
+  }
+  // 03c) 1회성 항목 체크 - 세금효과·영업외손익이 순이익을 크게 흔들었으면 여기서 바로 경고
+  // (04 재무제표 탭 financialDirectionComment의 동일 판정 로직을 재사용해 기준을 통일함)
+  if(last.taxProvision!=null && last.taxProvision<0 && last.netIncome>0 && Math.abs(last.taxProvision)>=last.netIncome*0.2){
+    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>$${fmtUsd(Math.abs(last.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어요 - 이 기간 순이익 급증을 본업 성장으로만 해석하면 안 돼요.</span>`);
+  }
+  if(last.otherNonOperating!=null && last.netIncome>0 && Math.abs(last.otherNonOperating)>=last.netIncome*0.2){
+    items.push(`<span style="color:var(--warn)">⚠️ ${last.period} 순이익에는 <b>$${fmtUsd(last.otherNonOperating)}의 영업외손익</b>이 크게 작용했어요 - 본업 흐름은 순이익보다 영업이익 쪽을 우선해서 보세요.</span>`);
+  }
+  if(last.stockComp!=null && last.netIncome>0 && last.stockComp>=last.netIncome*0.5){
+    items.push(`주식보상비용이 순이익의 <b>${(last.stockComp/last.netIncome).toFixed(1)}배</b>예요 - GAAP 순이익만 보면 비현금성 비용 때문에 실제보다 나빠 보일 수 있어요.`);
   }
 
   // 4) 연속 흐름 - 최근 몇 기간 연속으로 늘었는지/줄었는지
@@ -4085,10 +4188,14 @@ function cashflowComment(annual){
 }
 
 // ---- 04 재무제표: 종합 진단 + 6~12개월 방향성 ----
-function financialDirectionComment(r, fin){
+// 2026-08-14 리팩터링: 계산부(computeFinancialDirection)와 렌더부(financialDirectionComment)를
+// 분리함 - 사용자가 "매도가이드의 '펀더멘털 훼손'이 '03 탭 가서 봐라'는 추상적 안내뿐이라, 실제
+// 데이터(매출·방향성)가 바뀌면 매도가이드 자체도 바뀌어야 한다"고 지적해서, renderSellGuide()가
+// 이 종목의 실제 재무 판정(verdict)을 그 자리에서 그대로 가져다 쓸 수 있게 하기 위함(로직 중복 없이).
+function computeFinancialDirection(r, fin){
   const annual = (fin?.annual || []).filter(d=>d.revenue!=null);
   const quarterly = (fin?.quarterly || []).filter(d=>d.revenue!=null);
-  if(annual.length < 2) return '';
+  if(annual.length < 2) return null;
   const lastA = annual[annual.length-1], prevA = annual[annual.length-2];
   const lastQ = quarterly[quarterly.length-1] || null;
   const qMatch = lastQ && String(lastQ.period).match(/^Q([1-4])'(\d{2})$/);
@@ -4165,15 +4272,20 @@ function financialDirectionComment(r, fin){
   risks.push('CAPEX 증가가 OCF 증가를 장기간 초과');
   if(stockCompRatio!=null && stockCompRatio>=0.5) risks.push('주식보상비용이 순이익보다 빠르게 증가');
 
+  return {verdict, revenueDir, profitDir, cashDir, safetyDir, analysis, outlook, upChecks, risks, qRevG, lastQPeriod: lastQ?.period};
+}
+function financialDirectionComment(r, fin){
+  const d = computeFinancialDirection(r, fin);
+  if(!d) return '';
   return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:12px;">
-    <div style="font-size:14px;margin-bottom:9px;"><b>재무 종합판정 · ${verdict}</b></div>
+    <div style="font-size:14px;margin-bottom:9px;"><b>재무 종합판정 · ${d.verdict}</b></div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:7px;margin-bottom:10px;">
-      ${[['매출',revenueDir],['영업수익성',profitDir],['현금흐름',cashDir],['재무안전성',safetyDir]].map(x=>`<div style="background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:8px 10px;"><div class="sub">${x[0]}</div><b>${x[1]}</b></div>`).join('')}
+      ${[['매출',d.revenueDir],['영업수익성',d.profitDir],['현금흐름',d.cashDir],['재무안전성',d.safetyDir]].map(x=>`<div style="background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:8px 10px;"><div class="sub">${x[0]}</div><b>${x[1]}</b></div>`).join('')}
     </div>
-    <div><b>전문가 해석</b> · ${analysis.join(' ')}</div>
-    <div style="margin-top:7px;"><b>향후 6~12개월</b> · ${outlook.join(' ')}</div>
-    <div style="margin-top:7px;"><b>상향 확인 조건</b> · ${upChecks.join(' · ')}</div>
-    <div><b>하향 위험</b> · ${risks.join(' · ')}</div>
+    <div><b>전문가 해석</b> · ${d.analysis.join(' ')}</div>
+    <div style="margin-top:7px;"><b>향후 6~12개월</b> · ${d.outlook.join(' ')}</div>
+    <div style="margin-top:7px;"><b>상향 확인 조건</b> · ${d.upChecks.join(' · ')}</div>
+    <div><b>하향 위험</b> · ${d.risks.join(' · ')}</div>
     <div class="sub" style="margin-top:7px;">※ 공시 재무·최근 분기·애널리스트 컨센서스를 조합한 조건부 시나리오예요. 주가 예언이나 매수·매도 신호가 아니며, 조건이 바뀌면 방향성도 자동으로 바뀝니다.</div>
   </div>`;
 }
