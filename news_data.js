@@ -487,13 +487,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "AAPL": {
@@ -1031,13 +1031,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "GOOGL": {
@@ -1567,13 +1567,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:02",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "MSFT": {
@@ -1643,7 +1643,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.73% QQQ 1.18% Trending RDDT 15.80% NU 11.21% AMAT 7",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.79% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -1799,7 +1799,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.73% QQQ 1.18% Trending RDDT 15.80% NU 11.21% AMAT 7",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.79% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2090,13 +2090,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:02",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "AMZN": {
@@ -2630,13 +2630,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:02",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "TSM": {
@@ -3061,13 +3061,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "AVGO": {
@@ -3558,13 +3558,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "META": {
@@ -4186,13 +4186,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "TSLA": {
@@ -4313,7 +4313,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.76% QQQ 1.20% Trending RDDT 15.80% NU 11.50% AMAT 7.25% CADL 11.",
+            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7.25% BSX 2.74",
             "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges Musk is targeting 100 gigawatts of annual U.S.",
             "solar production, over 300x Tesla’s current Buffalo capacity."
           ],
@@ -4378,7 +4378,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.76% QQQ 1.20% Trending RDDT 15.80% NU 11.50% AMAT 7.25% CADL 11.",
+            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7.25% BSX 2.74",
             "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges Musk is targeting 100 gigawatts of annual U.S.",
             "solar production, over 300x Tesla’s current Buffalo capacity."
           ],
@@ -4803,13 +4803,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "MU": {
@@ -5379,13 +5379,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:07",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "AMD": {
@@ -5954,13 +5954,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "INTC": {
@@ -6598,13 +6598,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "AMAT": {
@@ -7133,13 +7133,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:07",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "QQQ": {
@@ -7494,13 +7494,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:02",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "SPY": {
@@ -7964,13 +7964,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:02",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "ORCL": {
@@ -8502,13 +8502,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "CRM": {
@@ -9007,13 +9007,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "PLTR": {
@@ -9628,13 +9628,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "QCOM": {
@@ -10111,13 +10111,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "ARM": {
@@ -10501,13 +10501,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "MRVL": {
@@ -10950,13 +10950,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "ASML": {
@@ -11455,13 +11455,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:06",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "LRCX": {
@@ -11828,13 +11828,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:07",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "KLAC": {
@@ -12289,13 +12289,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:07",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "SNDK": {
@@ -12320,7 +12320,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.30% Trending RDDT 16.0",
+            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.27% Trending RDDT 16.0",
             "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks Shares of leading memory chipmakers soared on Thursday as SanDisk’s optimistic long-term margin an",
             "A staff member at a computer parts shop displays memory modules."
           ],
@@ -12411,7 +12411,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.38% BSX 2",
+            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.37% BSX 2",
             "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin CFO Luis Visoso said the company plans to return 100% of excess cash to shareholders after investing in the business.",
             "In this photo illustration, a smartphone displays the logo of SanDisk Corporation."
           ],
@@ -12476,7 +12476,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.30% Trending RDDT 16.0",
+            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.27% Trending RDDT 16.0",
             "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks Shares of leading memory chipmakers soared on Thursday as SanDisk’s optimistic long-term margin an",
             "A staff member at a computer parts shop displays memory modules."
           ],
@@ -12567,7 +12567,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.38% BSX 2",
+            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.37% BSX 2",
             "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin CFO Luis Visoso said the company plans to return 100% of excess cash to shareholders after investing in the business.",
             "In this photo illustration, a smartphone displays the logo of SanDisk Corporation."
           ],
@@ -12911,13 +12911,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:07",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   },
   "WDC": {
@@ -13351,13 +13351,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665725.459776,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786665799.3547628,
+    "_updated_label": "2026-08-14 09:08",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-14 09:06"
+      "updated": "2026-08-14 09:08"
     }
   }
 };
