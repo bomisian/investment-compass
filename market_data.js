@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.289999961853027,
+      "current": 14.25,
       "prevClose": 14.630000114440918,
-      "changeAbs": -0.3400001525878906,
-      "changePct": -2.323992822476363,
-      "pctRank": 15.286624203821656,
+      "changeAbs": -0.38000011444091797,
+      "changePct": -2.5974033593193826,
+      "pctRank": 15.047770700636942,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -53.97745470860811,
-      "ma20": 16.63349986076355,
-      "ma60": 17.0214999516805,
-      "chg1m": -2.439999580383301,
-      "chg3m": -4.140000343322754,
-      "chg1mPct": -14.584576492206777,
-      "chg3mPct": -22.463376423060062,
+      "drawdown1y": -54.10627906556746,
+      "ma20": 16.6314998626709,
+      "ma60": 17.02083328564962,
+      "chg1m": -2.479999542236328,
+      "chg3m": -4.180000305175781,
+      "chg1mPct": -14.823667723213948,
+      "chg3mPct": -22.68041365144141,
       "lastDate": "2026-08-14",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.26000213623047,
+      "current": 82.41000366210938,
       "prevClose": 81.25,
-      "changeAbs": 1.0100021362304688,
-      "changePct": 1.2430795522836537,
-      "pctRank": 69.37151949085123,
+      "changeAbs": 1.160003662109375,
+      "changePct": 1.427696814903846,
+      "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.171310881995858,
-      "ma20": 82.49849967956543,
-      "ma60": 81.82333323160807,
-      "chg1m": 3.3100051879882812,
-      "chg3m": -18.909996032714844,
-      "chg1mPct": 4.192533649061754,
-      "chg3mPct": -18.691308070537627,
+      "drawdown1y": -27.03850740264061,
+      "ma20": 82.50599975585938,
+      "ma60": 81.82583325703939,
+      "chg1m": 3.4600067138671875,
+      "chg3m": -18.759994506835938,
+      "chg1mPct": 4.382529255999198,
+      "chg3mPct": -18.543041263585216,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4432.60009765625,
+      "current": 4431.10009765625,
       "prevClose": 4363.60009765625,
-      "changeAbs": 69.0,
-      "changePct": 1.5812631418048795,
+      "changeAbs": 67.5,
+      "changePct": 1.546887856113469,
       "pctRank": 91.48766905330152,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.655381711652396,
-      "ma20": 4177.235009765625,
-      "ma60": 4215.893334960938,
-      "chg1m": 447.0,
-      "chg3m": -245.5,
-      "chg1mPct": 11.215375076462397,
-      "chg3mPct": -5.247856926426107,
+      "drawdown1y": -16.683585683289415,
+      "ma20": 4177.160009765625,
+      "ma60": 4215.868334960937,
+      "chg1m": 445.5,
+      "chg3m": -247.0,
+      "chg1mPct": 11.17773958962863,
+      "chg3mPct": -5.279921225365574,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 53732.53125,
+      "current": 53732.41015625,
       "prevClose": 53839.98828125,
-      "changeAbs": -107.45703125,
-      "changePct": -0.19958591129081346,
+      "changeAbs": -107.578125,
+      "changePct": -0.19981082543709341,
       "pctRank": 99.28286852589642,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -1.1344982795331804,
-      "ma20": 52991.603515625,
-      "ma60": 52065.39544270833,
-      "chg1m": 1179.5625,
-      "chg3m": 3669.0703125,
-      "chg1mPct": 2.2445211527655133,
-      "chg3mPct": 7.328838725473902,
+      "drawdown1y": -1.1347210867241109,
+      "ma20": 52991.5974609375,
+      "ma60": 52065.39342447917,
+      "chg1m": 1179.44140625,
+      "chg3m": 3668.94921875,
+      "chg1mPct": 2.244290730483233,
+      "chg3mPct": 7.328596844973169,
       "lastDate": "2026-08-14",
       "bars": 1255,
       "symbol": "^DJI",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.641816805229195,
-        "ret3m": 1.2854026692449505,
-        "ret6m": 12.882211919468478,
-        "ret1y": 5.629134179336193,
+        "ret1m": 6.657588419197946,
+        "ret3m": 1.3003821052619324,
+        "ret6m": 12.898906446284197,
+        "ret1y": 5.6447560242937955,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 5.88471367253256,
-        "ret3m": 10.590066610163952,
-        "ret6m": 81.77835659416439,
-        "ret1y": 238.18620241669132,
+        "ret1m": 5.885204572606151,
+        "ret3m": 10.590579325077677,
+        "ret6m": 81.77919935045597,
+        "ret1y": 238.187770307144,
         "winRate": 71.5,
         "count": 15
       }
@@ -211,7 +211,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.1902169104527138,
+    "corr60": 0.19022691023054925,
     "corrPctRank": 1.9246861924686192,
     "corrMin5y": 0.11496792019743005,
     "corrMedian5y": 0.7115782038222396,
@@ -226,18 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "플래시 메모리 제조업체인 SanDisk가 이번 주에 투자자들에게 말한 내용은 최신 주식에 도움이 될 것입니다."
     },
     {
-      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - reuters.com",
+      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
       "datetime": 1786728417,
-      "headlineKo": "오만에서 대규모 기름 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - reuters.com"
+      "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - 로이터 통신"
     },
     {
-      "headline": "Oil climbs on tanker attacks, US-Iran claims about Hormuz control - reuters.com",
+      "headline": "Oil climbs on tanker attacks, US-Iran claims about Hormuz control - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
       "datetime": 1786725264,
-      "headlineKo": "유조선 공격으로 유가 상승, 미국-이란, 호르무즈 통제 주장 - reuters.com"
+      "headlineKo": "유조선 공격으로 유가 상승, 미국-이란, 호르무즈 통제 주장 - 로이터 통신"
     },
     {
       "headline": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
@@ -268,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "우리는 장기적으로 전망이 매우 좋은 최근 분사 기업의 주식을 더 많이 매입하고 있습니다."
     },
     {
-      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - reuters.com",
+      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
       "datetime": 1786717658,
-      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협한 후 호르무즈 교통은 더욱 둔화됐다 - reuters.com"
+      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
     },
     {
       "headline": "Housing investors say this is their worst market in at least 3 years",
@@ -304,9 +304,9 @@ const MARKET_DATA = {
     }
   ],
   "fgi": {
-    "score": 64.8,
+    "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786737683.321736,
-  "_updated_label": "2026-08-15 05:01"
+  "_fetched_at": 1786741202.8783755,
+  "_updated_label": "2026-08-15 06:00"
 };
