@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.539999961853027,
+      "current": 14.510000228881836,
       "prevClose": 14.630000114440918,
-      "changeAbs": -0.09000015258789062,
-      "changePct": -0.6151753375521416,
-      "pctRank": 17.197452229299362,
+      "changeAbs": -0.11999988555908203,
+      "changePct": -0.8202316105290599,
+      "pctRank": 17.117834394904456,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -53.172301709758415,
-      "ma20": 16.64599986076355,
-      "ma60": 17.025666618347167,
-      "chg1m": -2.189999580383301,
-      "chg3m": -3.890000343322754,
-      "chg1mPct": -13.090254873315793,
-      "chg3mPct": -21.106892452032717,
+      "drawdown1y": -53.2689192096242,
+      "ma20": 16.64449987411499,
+      "ma60": 17.02516662279765,
+      "chg1m": -2.219999313354492,
+      "chg3m": -3.9200000762939453,
+      "chg1mPct": -13.269571871475025,
+      "chg3mPct": -21.269669079674806,
       "lastDate": "2026-08-14",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 81.77999877929688,
+      "current": 81.5,
       "prevClose": 81.25,
-      "changeAbs": 0.529998779296875,
-      "changePct": 0.6523061899038461,
-      "pctRank": 68.25775656324582,
+      "changeAbs": 0.25,
+      "changePct": 0.3076923076923077,
+      "pctRank": 67.30310262529832,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.59628066499953,
-      "ma20": 82.47449951171875,
-      "ma60": 81.81533317565918,
-      "chg1m": 2.8300018310546875,
-      "chg3m": -19.389999389648438,
-      "chg1mPct": 3.5845496395775314,
-      "chg3mPct": -19.165760344552723,
+      "drawdown1y": -27.844176890641016,
+      "ma20": 82.4604995727539,
+      "ma60": 81.81066652933757,
+      "chg1m": 2.5500030517578125,
+      "chg3m": -19.669998168945312,
+      "chg1mPct": 3.229896327202566,
+      "chg3mPct": -19.442521028910257,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.72599792480469,
+      "current": 99.59300231933594,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.23400115966796875,
-      "changePct": -0.23409479973106306,
-      "pctRank": 33.33333333333333,
+      "changeAbs": -0.36699676513671875,
+      "changePct": -0.3671436259483984,
+      "pctRank": 32.14001591089897,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.8541508456156208,
-      "ma20": 100.40730018615723,
-      "ma60": 100.32776692708333,
-      "chg1m": -1.0040054321289062,
-      "chg3m": 0.8460006713867188,
-      "chg1mPct": -0.9967292749621427,
-      "chg3mPct": 0.8555832270287358,
+      "drawdown1y": -1.985039148607326,
+      "ma20": 100.4006504058838,
+      "ma60": 100.32555033365885,
+      "chg1m": -1.1370010375976562,
+      "chg3m": 0.7130050659179688,
+      "chg1mPct": -1.1287610440840838,
+      "chg3mPct": 0.7210811951082678,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4406.39990234375,
+      "current": 4419.2998046875,
       "prevClose": 4363.60009765625,
-      "changeAbs": 42.7998046875,
-      "changePct": 0.9808370091129196,
-      "pctRank": 91.40811455847255,
+      "changeAbs": 55.69970703125,
+      "changePct": 1.2764622280847202,
+      "pctRank": 91.48766905330152,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.148014755304374,
-      "ma20": 4175.925,
-      "ma60": 4215.4566650390625,
-      "chg1m": 420.7998046875,
-      "chg3m": -271.7001953125,
-      "chg1mPct": 10.558003672645262,
-      "chg3mPct": -5.8079175229410565,
+      "drawdown1y": -16.905462435422137,
+      "ma20": 4176.569995117187,
+      "ma60": 4215.671663411458,
+      "chg1m": 433.69970703125,
+      "chg3m": -258.80029296875,
+      "chg1mPct": 10.881666409188645,
+      "chg3mPct": -5.532166639581101,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,6 +226,34 @@ const MARKET_DATA = {
       "headlineKo": "미국이 이란에 추가 경제제재를 가하면서 국채수익률이 상승했습니다."
     },
     {
+      "headline": "China calls Taiwan's annual military drills a 'wasteful charade' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbGhMU25fVEswcGdXUVItRVJmUE05cG52RjJXRUJZMWRsMElTVHhMeTQ4SVd6QXJRRTh5NUFSV3NmdmJHLXpTclI2U09NdlN5c3pGTlFGRkhMVm55Z21QWHZ3dVJTMUU4N2ZzX2VFX25DVXpGU2FKTFNlVlYyTXFjS1Zhcm8ydmFLRF9neTJCbW10RDlCcV9JUS1mUG9EcHMtelZnbVZ0bHAxV1k?oc=5",
+      "datetime": 1786694383,
+      "headlineKo": "중국, 대만의 연례 군사훈련을 '낭비적 행위'라고 비난 - 로이터"
+    },
+    {
+      "headline": "Philippine president says joint oil and gas exploration with China a 'distinct possibility' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS0JHby03N0ZqSUVaWDJZU2tvcHNIVDZmdTJNYzkwakcxSjljRmNwU3lfSTlicnoxTGl5MWpqLVQ5UTNmTnpPcXhMX0NXcFBBNTNYQ3d2X1YyRGt4VGJ4RWhuNHdvc0VfOUF1ZzZoc05QTEZ5ZXpMcEdrbTFib1hwX0tyaV9LZ1VUOENkSFJvcjdLb1Z5QjZVc0tGNlU3NmtDbUppVk1RU1NZR2dEcWpGc3hYN2c5SWkxTThLZ0tn?oc=5",
+      "datetime": 1786684980,
+      "headlineKo": "필리핀 대통령, 중국과의 공동 석유 및 가스 탐사에 '뚜렷한 가능성' 있다고 말 - 로이터 통신"
+    },
+    {
+      "headline": "Air India A320 briefly lost key flight controls, Airbus analysis shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX1dOT2VGU2hhRVpqX0JCTnRiR1VydTZMbkJ6Z2lkOVBSc3BncGhTbGpROVFXc0E1dkI5WWRaQ0tJLTJXNVZyY256U1Rmb1Q1SnBsN1lNTUswWlE5SF9ua2RGWGpTUlBQQ2llREpTNDlUQjV0UGRYcnVtbXI3QnRHZEZTWjBvWjdkdC1ETU12dXUzaTBsWWFQQlJmYnJISWxnN2R3QnJJUkZuMVZ0OUozc2liMlk4VVQzeXpZSFZ5UFM?oc=5",
+      "datetime": 1786683240,
+      "headlineKo": "Air India A320이 ​​주요 비행 제어 장치를 일시적으로 상실한 것으로 Airbus 분석에 따르면 - Reuters"
+    },
+    {
+      "headline": "China rejects New Zealand spy allegations as false - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcWxWY25FcmZzYjVJNnlyZEVhdUJMbkJ5c2NULWphdWg4RUMwVTYxRmlVc3JrS0prTEh1NXBXUGhnazVRS1lXVVE5QXFPM2dUcFFCQzVfVFhRLWpWOTU0aUhuUkxMSXNvdGlKVi14aHV2MVJaRWYxMDhxX01GcnVBY245NEpmXzdOVUNoaUdhRS1iNjdRaV9WbjVMUQ?oc=5",
+      "datetime": 1786681380,
+      "headlineKo": "중국, 뉴질랜드 간첩 주장 거짓 주장 부인 - 로이터"
+    },
+    {
       "headline": "Hormuz shipping traffic capped amid competing claims from US and Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVHN6X2pBMFpxcnFUajQxN1B2MlhZTUVTRlZSYzVkVXp6MENXb2xUai1zRXVTeEhKUVVtSnJabU9yTVd6U05ETV9uRS1FNlVvWjh1dS1vTGd6UjltTXZXU1o0ODlEUWhZNUl6SFF5WGhtNldwbnpNa3lVbEV6SG12RjgtT2V4d2pCVnB4c2UtTEp4S2JOZFY5REVPdUZscnVFaC02akt2dF9rWUhDckZVNmlVRjk?oc=5",
@@ -233,11 +261,32 @@ const MARKET_DATA = {
       "headlineKo": "미국과 이란의 경쟁적 주장으로 호르무즈 해운 운항 중단 - 로이터 통신"
     },
     {
-      "headline": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
+      "headline": "Reform UK's Nigel Farage to avoid election count against Count Binface - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcXhaR1BaTkNVbC1FZDJuVlp6MDhWSE81U0NHYlB2SElhdUNYTU1oaXhaZ3hOMkdrNWo4VTFSMjlMWWZjMFJqc19KdzAxdXdWTnk2cDVha1VOYWxmRFRGZXFhQlRiMWJVb3FWVG5TMUt5N1JVdEptaldHZ3JZeFNLbU9UM2tXdUZMZi1wU1VyMXItRHI0NjNUODk5V0JNYWRLOVhpdUE0a1BkS1c0M3c4NzlwUHZvRmlkOVJ5dzNlMA?oc=5",
+      "datetime": 1786679280,
+      "headlineKo": "Binface 백작에 대한 선거 집계를 피하기 위해 영국의 Nigel Farage를 개혁하십시오 - Reuters"
+    },
+    {
+      "headline": "Fire effects cleared up at Russian port of Ust-Luga after drone attack, governor says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdkpOZUdEZnZKWlZrcGJCTGJWRmZDNTFSUkctc0FXckpXYXFYOWNNOE9aYllQWnBVNG41bmJUdnRnb2U1MXVKY1hMb3pZaW9OSWpmX2EzRHRTQ3J4ZUk1ZHNLdEdfME9JNEt3cjhYMkV6Qy1kSmE5LXdDWlBaZUJ1RU5yMmVyXzNrRFdpYnNvRVFKbjdMdHo3N3NZYWtkUW1zYWU5anRVTXpPaG5icmtsMmpJRXA5THc?oc=5",
+      "datetime": 1786679160,
+      "headlineKo": "러시아 우스트루가(Ust-Luga) 항구에서 드론 공격 후 화재 피해가 사라졌다고 주지사가 밝혔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "Fuel oil from Malaysia PRefChem refinery heads to US for first time since 2023 - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSUpUX3NDVmswOWd5ZXJYV0Qtb2E5UWI4WW04N21JS3JSRzcwWU9JZXppZEF0OU5fd1R0NThtMjlLWUVIXy1CN3BtSXZ2OEVCSG02R0locGlOcnBueWJacTA5ZDJ3YldxalBnaEVhRXlBVlNHSG45SXpuLV9LVjg0SlRoT1BFWDJBTG96TjRIMU5NenMyajNFWG9MOHN2RXpnWFpCN3Z0YnNrQ0h3Ymx1dEpoNkpRMHBMbXc?oc=5",
+      "datetime": 1786675620,
+      "headlineKo": "말레이시아 PRefChem 정유소의 연료유가 2023년 이후 처음으로 미국으로 향합니다 - Reuters"
+    },
+    {
+      "headline": "Stocks near record highs; benign US inflation eclipses oil rally - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
       "datetime": 1786674720,
-      "headlineKo": "미국 금리인상 기대감 약화로 아시아증시, 주간 강한 상승세로 향 - 로이터 통신"
+      "headlineKo": "사상 최고치에 가까운 주식; 온화한 미국 인플레이션이 석유 랠리를 잠식함 - Reuters"
     },
     {
       "headline": "Indian shares slip as US threatens indefinite naval blockade of Iran - Reuters",
@@ -247,66 +296,17 @@ const MARKET_DATA = {
       "headlineKo": "미국, 이란에 대한 무기한 해군 봉쇄 위협에 인도 증시 하락 - Reuters"
     },
     {
-      "headline": "Oil rises after US threatens indefinite blockade of Iran; set for weekly gains - Reuters",
+      "headline": "Italian NATO fighter jet shoots down drone in Latvian airspace - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5",
-      "datetime": 1786671360,
-      "headlineKo": "미국이 이란을 무기한 봉쇄하겠다고 위협한 후 유가 상승; 주간 상승 예정 - 로이터"
-    },
-    {
-      "headline": "Bessent says US to apply measures never seen on Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
-      "datetime": 1786663905,
-      "headlineKo": "베센트 \"미국, 이란에 본 적 없는 조치 적용할 것\" - 로이터 통신"
-    },
-    {
-      "headline": "Iran war a boon for China's e-trucks, fuelling export surge - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVEwN3ZXeTQ5RmxKUlJScTRsa1FpNGJCaGVfR1dkMDJMVkZnenFHUDcxVjdmbVk2ajJaaWxlTDZ3SkVZd1hLdG9yenk0X0hyb01wMXpxQ1JEbklIR3d1cVdtbVdETXNhRy1NQUhJSVpYa05vOEc4emFqc1R0eUNOWDhCYmlxaThjTm5TaDV2RmZaeWk4VlBINmM0UWVlaV9MSTRZc0xkQTZ4QQ?oc=5",
-      "datetime": 1786662120,
-      "headlineKo": "이란 전쟁은 중국의 전자 트럭에 도움이 되어 수출 급증을 촉진 - 로이터 통신"
-    },
-    {
-      "headline": "US says it can keep naval blockade on Iran 'indefinitely,' vows more economic pressure - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPamFTRDhha2lGLW5hTU1KdDZnVjlxd2hEY1lqX3Zfd2NmVlRXZjVWbDNHMXdJem1SX1hsNUpoaF9lWHhYUVFmUWJ0SDBWRG5uOGMzYzI0MFh6ckthOWJNZXNtR0tJVFJFcEMtVjdwZVFpdURyczZ0NTkzMDh1dDJNRWxKQ2htMEpBQ3N2Q25OY19wRWxaYTVCTmJJRWprVFFSMWNITjl4QmUxQVN1MUFnNHRsRWJGYUpHZ1Ywb0Nn?oc=5",
-      "datetime": 1786657980,
-      "headlineKo": "미국, 이란에 대한 해군 봉쇄를 '무기한' 유지할 수 있다고 말하고 더 많은 경제적 압박을 다짐 - 로이터"
-    },
-    {
-      "headline": "Trump allows Navy to build ships abroad, orders return to steam catapults on carriers - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOWl5Q296eFVlNTZXb2JiWFdHQVNjTEM0di00TXJkNW5yblZfbDNYRHNMaldKbGJqdnZJQU5EeFppUGplTXc2MWg2MWFNX3A0RUMzcHlJSWRwWXEtQzhhSXZzWG93UERWV0E3b3JBeVhBRXNhTUUyUFFDMk5RVGpIcHVfYzVNUnFGcXFqdHZ5NEVZeldnSUVKY3ZwcWRmT01fUUM5WjBZMEI2R0dEQ1E?oc=5",
-      "datetime": 1786657020,
-      "headlineKo": "트럼프는 해군이 해외에서 선박을 건조하도록 허용하고, 항공모함의 증기 투석기로 돌아가라는 명령을 내렸습니다."
-    },
-    {
-      "headline": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
-      "datetime": 1786656076,
-      "headlineKo": "세계 석유 재고량은 향후 6개월 동안의 미국-이란 전쟁을 견딜 수 있을 만큼 큰가요? - 로이터"
-    },
-    {
-      "headline": "Israel sends troops into West Bank homes besieged by Jewish settlers - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZnkwN181TzdJQXA2ajNoUENXQTVxVTBvaDVrMHNfT0FldklHZGZ0Y094aFRMM3B2ZXpBbjdneUdKQ2h4aFQyTjdweE1uNXRtWEpXdVhWc29HbkVyU01qcUtnek0yTjVqdU5pQUlkUVdEeGFxUVhEdGRjQ2hPT0JmYTRuMTVtVVhFU050aVhnVnlUZ2ltRVZROEJoQ3lUZC1jYVI3ZV9nSm53bU9pcGtmdjBSQXJQMFBJdzc4aGw3aU0wQQ?oc=5",
-      "datetime": 1786656013,
-      "headlineKo": "이스라엘, 유대인 정착민들에 의해 포위된 서안지구 주택에 군대 파견 - 로이터 통신"
-    },
-    {
-      "headline": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
-      "datetime": 1786655959,
-      "headlineKo": "UAE는 이란이 호르무즈 해협에서 ADNOC 선박 두 척을 공격했다고 밝혔습니다. 부상 없음 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZWFVYndJZEl2RHczYUh6YTE2MDZVS3dQNkdpZW5NRE95Z2xqcjVJcEtYY1JXbUlYbWZQYXFxdUdtcE9fRDIxMkRRcEhFZ3JJbkdkdlE1TmVGdHF5VDFpNEVwdDllcmZtMHRsWExkVWVhbE1Tc09QQWc3YXR6SFRoalRZQ19qUHlIdVRTdHZRYnB4bDMtRlB3NjVVWGZwUEMzTU5tZ3pYeHlJYnVvaHg0Wmk0SWlFS2xXLTBqdUFxT0RmcUgxR25Qdjc5SUNJZGRS?oc=5",
+      "datetime": 1786674300,
+      "headlineKo": "이탈리아 NATO 전투기, 라트비아 영공에서 드론 격추 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 66.7428571428571,
     "rating": "greed"
   },
-  "_fetched_at": 1786704716.8882105,
-  "_updated_label": "2026-08-14 19:52"
+  "_fetched_at": 1786708346.5504596,
+  "_updated_label": "2026-08-14 20:52"
 };
