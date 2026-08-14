@@ -3980,7 +3980,12 @@ function earningsComment(data, mode){
   // 전 종목 100% 0/12) - 10-Q 누적치에서 분기별 매출·순이익은 역산해서 뽑지만, 영업이익/OCF/CAPEX는
   // 그 역산 로직 자체가 아직 분기 단위로 구현이 안 돼 있어서임. missingNote()의 "회사마다 계정명이
   // 달라서"라는 설명은 04탭(연도별) 결측엔 맞지만 03탭(분기)엔 안 맞아서 문구를 따로 씀.
-  if(isQ) items.push(`<span class="sub">※ 분기별로는 매출·순이익만 확인돼요. 영업이익·현금흐름(OCF/CAPEX/FCF)은 이 프로젝트가 분기 단위로는 아직 역산하지 못해서 <b>모든 종목에서 공통으로</b> 비어 있어요(회사별 문제 아님) - 연도별(04 재무제표 탭)에서 확인하세요.</span>`);
+  if(isQ){
+    const qCash = rows.filter(d=>d.ocf!=null || d.capex!=null || d.fcf!=null).length;
+    items.push(qCash
+      ? `<span class="sub">※ 분기 현금흐름은 SEC 본표에 더해 Yahoo 재무 시계열로 교차 보완했어요. 회사별 공시 차이로 일부 과거 분기는 비어 있을 수 있습니다.</span>`
+      : `<span class="sub">※ 이 종목은 분기 영업이익·현금흐름을 안정적으로 추출하지 못해 매출·순이익 중심으로 설명했어요. 연도별 수치는 04 재무제표 탭에서 확인하세요.</span>`);
+  }
   items.push(`<span class="sub">이 코멘트는 위 숫자로 그때그때 계산돼요 — 실적이 갱신되면 문장도 같이 바뀝니다.</span>`);
   return cmtBox(items, tone);
 }
@@ -4077,6 +4082,93 @@ function cashflowComment(annual){
   if(gap) items.push(gap);
   items.push(`<span class="sub">위 표의 현금흐름 숫자로 자동 계산된 설명이에요.</span>`);
   return cmtBox(items, tone);
+}
+
+// ---- 04 재무제표: 종합 진단 + 6~12개월 방향성 ----
+function financialDirectionComment(r, fin){
+  const annual = (fin?.annual || []).filter(d=>d.revenue!=null);
+  const quarterly = (fin?.quarterly || []).filter(d=>d.revenue!=null);
+  if(annual.length < 2) return '';
+  const lastA = annual[annual.length-1], prevA = annual[annual.length-2];
+  const lastQ = quarterly[quarterly.length-1] || null;
+  const qMatch = lastQ && String(lastQ.period).match(/^Q([1-4])'(\d{2})$/);
+  const yoyLabel = qMatch ? `Q${qMatch[1]}'${String(Number(qMatch[2])-1).padStart(2,'0')}` : null;
+  const yoyQ = yoyLabel ? quarterly.find(d=>String(d.period)===yoyLabel) : null;
+  const opm = d => d?.revenue && d.opIncome!=null ? d.opIncome/d.revenue*100 : null;
+  const fcfm = d => d?.revenue && d.fcf!=null ? d.fcf/d.revenue*100 : null;
+  const qRevG = lastQ && yoyQ ? growth(lastQ.revenue, yoyQ.revenue) : null;
+  const qOpm = opm(lastQ), yoyOpm = opm(yoyQ), qOpmDiff = qOpm!=null && yoyOpm!=null ? qOpm-yoyOpm : null;
+  const aOpm = opm(lastA), prevAOpm = opm(prevA), aOpmDiff = aOpm!=null && prevAOpm!=null ? aOpm-prevAOpm : null;
+  const qFcfm = fcfm(lastQ), aFcfm = fcfm(lastA);
+  const cashQuality = lastA.ocf!=null && lastA.netIncome>0 ? lastA.ocf/lastA.netIncome : null;
+  const stockCompRatio = lastQ?.stockComp!=null && lastQ.netIncome>0 ? lastQ.stockComp/lastQ.netIncome : null;
+  const annualStockCompRatio = lastA.stockComp!=null && lastA.netIncome>0 ? lastA.stockComp/lastA.netIncome : null;
+
+  const fund = (typeof FUNDAMENTALS_DATA!=='undefined' && FUNDAMENTALS_DATA[r.ticker]) || {};
+  const currentRatio = fund.currentRatioQuarterly;
+  const debtEq = fund['totalDebt/totalEquityQuarterly'];
+  const balanceGood = currentRatio!=null && currentRatio>=1.3 && debtEq!=null && debtEq<=0.6;
+
+  const est = (typeof ESTIMATES_DATA!=='undefined' && ESTIMATES_DATA[r.ticker]) || {};
+  const trends = {};
+  (est.trend||[]).forEach(t=>{ trends[t.period]=t; });
+  const y0=trends['0y'], y1=trends['+1y'];
+  const epsGrowth = y0?.epsAvg>0 && y1?.epsAvg!=null ? (y1.epsAvg/y0.epsAvg-1)*100 : null;
+  const revGrowth = y1?.revenueGrowth!=null ? y1.revenueGrowth*100 : null;
+
+  const revenueDir = qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 회복' : qRevG<=-5 ? '↘ 둔화' : '→ 정체';
+  const profitDiff = qOpmDiff!=null ? qOpmDiff : aOpmDiff;
+  const profitDir = profitDiff==null ? '확인 중' : profitDiff>=1 ? '↗ 개선' : profitDiff<=-1 ? '↘ 압박' : '→ 유지';
+  const cashDir = qFcfm!=null ? (qFcfm>=3 ? '↗ 양호' : qFcfm<0 ? '↘ 투자부담' : '→ 낮은 흑자')
+                                  : (aFcfm!=null ? (aFcfm>=3?'↗ 양호':aFcfm<0?'↘ 적자':'→ 낮은 흑자') : '확인 중');
+  const safetyDir = balanceGood ? '● 양호' : (currentRatio!=null || debtEq!=null ? '△ 점검' : '확인 중');
+
+  let verdict = '혼조 · 추가 확인 필요';
+  if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && (qFcfm==null || qFcfm>=0)) verdict='외형·수익성 동반 개선';
+  else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff<0) verdict='외형 회복 · 수익성 재검증';
+  else if(qRevG!=null && qRevG<0 && profitDiff!=null && profitDiff<0) verdict='매출·수익성 동반 둔화';
+
+  const analysis=[];
+  if(qRevG!=null) analysis.push(`${lastQ.period} 매출은 전년 동기보다 <b>${pctStr(qRevG)}</b>${qOpmDiff!=null?`, 영업이익률은 <b>${qOpmDiff>=0?'+':''}${qOpmDiff.toFixed(1)}%p</b> 변했습니다`:''}.`);
+  if(cashQuality!=null){
+    let cashText = `최근 연도 OCF/순이익은 <b>${cashQuality.toFixed(2)}배</b>${cashQuality>=1?'로 현금 유입은 순이익보다 큽니다':'로 현금 전환을 점검할 필요가 있습니다'}.`;
+    if(cashQuality>=2 && annualStockCompRatio!=null && annualStockCompRatio>=0.5){
+      cashText += ` 다만 주식보상비용 같은 비현금비용 환입도 포함되므로 높은 배수 전부를 본업 현금창출 개선으로 보기는 어렵습니다.`;
+    }
+    analysis.push(cashText);
+  }
+  if(qFcfm!=null) analysis.push(`최신 분기 FCF 마진은 <b>${qFcfm.toFixed(1)}%</b>${qFcfm<0?'로 투자 지출이 영업현금을 웃돌았습니다':'입니다'}.`);
+  if(stockCompRatio!=null && stockCompRatio>=0.5) analysis.push(`주식보상비용이 최신 분기 순이익의 <b>${stockCompRatio.toFixed(1)}배</b>라 GAAP 이익과 조정이익의 차이를 함께 봐야 합니다.`);
+  if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·총부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
+
+  const outlook=[];
+  if(revGrowth!=null || epsGrowth!=null){
+    outlook.push(`컨센서스는 내년에 ${revGrowth!=null?`매출 <b>${pctStr(revGrowth,0)}</b>`:''}${revGrowth!=null&&epsGrowth!=null?' · ':''}${epsGrowth!=null?`EPS <b>${pctStr(epsGrowth,0)}</b>`:''}를 예상합니다.`);
+  }
+  if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff<0) outlook.push(`가장 가능성 높은 기본 시나리오는 <b>매출 성장 지속, 이익률은 완만한 회복 또는 정체, FCF는 투자 속도에 따라 큰 변동</b>입니다.`);
+  else if(profitDiff!=null && profitDiff>=0 && (qFcfm==null || qFcfm>=0)) outlook.push(`현재 흐름이 이어지면 <b>이익 증가가 매출 증가를 따라가는 정상적인 회복</b> 가능성이 커집니다.`);
+  else outlook.push(`현재는 <b>방향 전환을 단정하기보다 다음 1~2개 분기의 매출·영업마진·FCF 동행 여부</b>를 확인할 구간입니다.`);
+
+  const upChecks=[];
+  if(qOpm!=null) upChecks.push(`영업마진 ${qOpm.toFixed(1)}%에서 반등`);
+  upChecks.push('FCF의 지속적 흑자 전환');
+  if(epsGrowth!=null && epsGrowth>0) upChecks.push('실제 EPS가 컨센서스 회복 경로를 따라감');
+  const risks=[];
+  if(qRevG!=null && qRevG>0) risks.push('매출은 늘지만 영업마진이 추가 하락');
+  risks.push('CAPEX 증가가 OCF 증가를 장기간 초과');
+  if(stockCompRatio!=null && stockCompRatio>=0.5) risks.push('주식보상비용이 순이익보다 빠르게 증가');
+
+  return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:12px;">
+    <div style="font-size:14px;margin-bottom:9px;"><b>재무 종합판정 · ${verdict}</b></div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:7px;margin-bottom:10px;">
+      ${[['매출',revenueDir],['영업수익성',profitDir],['현금흐름',cashDir],['재무안전성',safetyDir]].map(x=>`<div style="background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:8px 10px;"><div class="sub">${x[0]}</div><b>${x[1]}</b></div>`).join('')}
+    </div>
+    <div><b>전문가 해석</b> · ${analysis.join(' ')}</div>
+    <div style="margin-top:7px;"><b>향후 6~12개월</b> · ${outlook.join(' ')}</div>
+    <div style="margin-top:7px;"><b>상향 확인 조건</b> · ${upChecks.join(' · ')}</div>
+    <div><b>하향 위험</b> · ${risks.join(' · ')}</div>
+    <div class="sub" style="margin-top:7px;">※ 공시 재무·최근 분기·애널리스트 컨센서스를 조합한 조건부 시나리오예요. 주가 예언이나 매수·매도 신호가 아니며, 조건이 바뀌면 방향성도 자동으로 바뀝니다.</div>
+  </div>`;
 }
 
 // ---- 05 전망 코멘트 ----
@@ -4310,6 +4402,7 @@ function tabFinancials(r){
     <canvas id="finCfCanvas"></canvas>
     <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
     ${cashflowComment(annual)}
+    ${financialDirectionComment(r, fin)}
     <div style="overflow-x:auto;">
     <table style="min-width:640px;">
       <thead><tr><th>연도</th><th>매출</th><th>영업이익</th><th>순이익</th><th>OCF</th><th>CAPEX</th><th>FCF</th></tr></thead>
@@ -4317,7 +4410,8 @@ function tabFinancials(r){
     </table>
     </div>
     <div class="glossary" style="margin-top:10px;">
-      ※ Finnhub SEC 공시(financials-reported) 기반 서버 계산값이며 EPS는 원본 데이터 정밀도 문제로 표에서 제외했습니다.<br>
+      ※ Finnhub SEC 공시를 기본으로 하되, 미국 제출기업의 연간 핵심 수치는 <b>SEC Company Facts로 재검증</b>하고 최신 누락 분기·현금흐름은 Yahoo 재무 시계열로 보완합니다. 출처끼리 충돌하면 SEC 공식 값을 우선합니다.<br>
+      ※ EPS는 원본 데이터 정밀도 문제로 표에서 제외했습니다.<br>
       ※ OCF=영업활동현금흐름, CAPEX=설비투자, FCF=OCF-|CAPEX| (잉여현금흐름)
     </div>
   `;
