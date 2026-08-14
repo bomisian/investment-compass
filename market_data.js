@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-      "datetime": 1786739920,
+      "datetime": 1786744351,
       "headlineKo": "트럼프, 이란 수사 확대하면서 미국인들에게 휘발유 가격 인상을 받아들일 것을 촉구 - 로이터 통신"
     },
     {
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786744802.892842,
-  "_updated_label": "2026-08-15 07:00"
+  "_fetched_at": 1786748403.7280774,
+  "_updated_label": "2026-08-15 08:00"
 };
