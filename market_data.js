@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.87999725341797,
+      "current": 81.41999816894531,
       "prevClose": 83.2699966430664,
-      "changeAbs": -2.3899993896484375,
-      "changePct": -2.8701807205458127,
-      "pctRank": 65.55290373906125,
+      "changeAbs": -1.8499984741210938,
+      "changePct": -2.221686740364648,
+      "pctRank": 67.30310262529832,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.393094786465433,
-      "ma20": 82.49149932861329,
-      "ma60": 82.24233309427898,
-      "chg1m": 1.279998779296875,
-      "chg3m": -20.139999389648438,
-      "chg1mPct": 1.608038698283415,
-      "chg3mPct": -19.936646266985164,
+      "drawdown1y": -27.915006313585888,
+      "ma20": 82.51849937438965,
+      "ma60": 82.25133310953775,
+      "chg1m": 1.8199996948242188,
+      "chg3m": -19.599998474121094,
+      "chg1mPct": 2.286431821246733,
+      "chg3mPct": -19.40209772860486,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.90699768066406,
+      "current": 99.875,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.05300140380859375,
-      "changePct": -0.053022613339366025,
-      "pctRank": 34.97615262321145,
+      "changeAbs": -0.08499908447265625,
+      "changePct": -0.08503309849055374,
+      "pctRank": 34.65818759936407,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.6760190133430664,
-      "ma20": 100.41635017395019,
-      "ma60": 100.33078358968099,
-      "chg1m": -0.8230056762695312,
-      "chg3m": 1.0270004272460938,
-      "chg1mPct": -0.8170412477335443,
-      "chg3mPct": 1.0386331470196248,
+      "drawdown1y": -1.707509693858622,
+      "ma20": 100.414750289917,
+      "ma60": 100.33025029500325,
+      "chg1m": -0.8550033569335938,
+      "chg3m": 0.9950027465820312,
+      "chg1mPct": -0.8488070370691008,
+      "chg3mPct": 1.0062730321805677,
       "lastDate": "2026-08-14",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4368.39990234375,
+      "current": 4383.0,
       "prevClose": 4408.89990234375,
-      "changeAbs": -40.5,
-      "changePct": -0.91859649565803,
-      "pctRank": 91.01034208432776,
+      "changeAbs": -25.89990234375,
+      "changePct": -0.5874459143420728,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.862515370108735,
-      "ma20": 4156.479992675781,
-      "ma60": 4217.20166015625,
-      "chg1m": 324.39990234375,
-      "chg3m": -329.30029296875,
-      "chg1mPct": 8.02175821819362,
-      "chg3mPct": -7.009819257885705,
+      "drawdown1y": -17.58799487664573,
+      "ma20": 4157.209997558593,
+      "ma60": 4217.444995117187,
+      "chg1m": 339.0,
+      "chg3m": -314.7001953125,
+      "chg1mPct": 8.382789317507418,
+      "chg3mPct": -6.699026805212408,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
+      "datetime": 1786675200,
+      "headlineKo": "미국은 더 많은 석유가 중동에서 빠져나간다고 말하지만, 정말 그럴까요? - 로이터"
+    },
+    {
+      "headline": "Oil steadies after US threatens to blockade Iran indefinitely - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHh3dmRQTVJOaXBOODZqNzdueG9RbzJ0VUZ0TTJ3UGNyaXFfOUJ4c1BsWXdKXzFWY21VZTdaaHpySzhxYXFIYnBVcUpsWDdUUE1od3pKN2psUWI1dS10enVtNzBDX0xBQUpqNmkxVE1xZE1scnFHeS1DQkM4YTRwOE01NXpwU3RWREhIWGFZMlFTcndNQzRWc3NrM0xWa2hwdlMzSE5IeEhqUzVJVFBv?oc=5",
+      "datetime": 1786671360,
+      "headlineKo": "미국이 이란을 무기한 봉쇄하겠다고 위협한 이후 유가는 안정세를 유지하고 있다 - 로이터 통신"
+    },
+    {
+      "headline": "Bessent says US to apply measures never seen on Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
+      "datetime": 1786663905,
+      "headlineKo": "베센트 \"미국, 이란에 본 적 없는 조치 적용할 것\" - 로이터 통신"
+    },
+    {
       "headline": "Iran war a boon for China's e-trucks, fuelling export surge - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVEwN3ZXeTQ5RmxKUlJScTRsa1FpNGJCaGVfR1dkMDJMVkZnenFHUDcxVjdmbVk2ajJaaWxlTDZ3SkVZd1hLdG9yenk0X0hyb01wMXpxQ1JEbklIR3d1cVdtbVdETXNhRy1NQUhJSVpYa05vOEc4emFqc1R0eUNOWDhCYmlxaThjTm5TaDV2RmZaeWk4VlBINmM0UWVlaV9MSTRZc0xkQTZ4QQ?oc=5",
@@ -231,13 +252,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSnhVZVpUNm9PZUM5Z3VkNWp1NVJNdmdYcTZDblZhWURVRnhKLWtNTTVUeHpaNE5wN2M0cGU1WFBycHhGT2h4T2taMTR0NUduWkRCczBUMTVwaldHY0lNVzB6QkZMMHg4dUM3ekkwaWJWME9NSHlWSUl6R0pXYk92V3BZM1NNVnRNNVRFR1hhVXU2blhNTEdKeWh6c3pGUVNSS09XTDgwNkxtMmVSU1lnQVZob2FldllGeWVMRUZ1NkRnNEs5WUE?oc=5",
       "datetime": 1786661562,
       "headlineKo": "미국은 트럼프에 대한 이란의 음모에 대한 이스라엘의 경고를 확인할 수 없다고 소식통은 전했습니다."
-    },
-    {
-      "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
-      "datetime": 1786658840,
-      "headlineKo": "미국은 더 많은 석유가 중동에서 빠져나간다고 말하지만, 정말 그럴까요? - 로이터"
     },
     {
       "headline": "US says it can keep naval blockade on Iran 'indefinitely,' vows more economic pressure - Reuters",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFFaUWV6X2Y0Z1ZyZnlDaHlOUG5rSnFzdDFSVGx2SzluWVVJYlFlRFdMXzQzQkV4UERITFhfaEdQdmdCVS1tUmJWWFlYdnF6dk5IcXdPdERjVzZtQV9na3dtR2VxYkc2LWtHOFdlVl9LcEQyUHRPdWhuM2drMnpQV1BCTURwYUE1d0VMV2QzaW1PWms5V2pwUg?oc=5",
       "datetime": 1786654707,
       "headlineKo": "뉴스레터: 트럼프는 자신을 내버려두지 않을 전쟁을 고려하고 있습니다 - 로이터"
-    },
-    {
-      "headline": "Cramer: How words of wisdom from Gene Hackman help me make peace with investing mistakes",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/13/cramer-how-words-of-wisdom-from-gene-hackman-help-me-make-peace-with-investing-mistakes.html",
-      "datetime": 1786649004,
-      "headlineKo": "Cramer: Gene Hackman의 지혜로운 말이 투자 실수를 극복하는 데 어떻게 도움이 됩니까?"
-    },
-    {
-      "headline": "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
-      "datetime": 1786643492,
-      "headlineKo": "이란과 미국, 호르무즈 해협 영유권 놓고 경쟁 주장 - 로이터"
     }
   ],
   "fgi": {
     "score": 66.1428571428571,
     "rating": "greed"
   },
-  "_fetched_at": 1786674159.5974724,
-  "_updated_label": "2026-08-14 11:23"
+  "_fetched_at": 1786679085.6875176,
+  "_updated_label": "2026-08-14 12:45"
 };
