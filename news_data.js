@@ -25,7 +25,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,808.60 -0.01% Dow Jones 53,886.20 0.00% Nasdaq 100 30,117.30 -0.05% Russell 2000 3,052.43 -0.07% FTSE 100 10,798.00 -0.01% Nikkei 225 69,348.20 +0.33% Live: Will Applied Materials Crush Tonight’s Q3 Earnings After "
+            "Skip to content S&P 500 7,807.60 -0.02% Dow Jones 53,904.70 +0.03% Nasdaq 100 30,073.20 -0.20% Russell 2000 3,052.33 -0.07% FTSE 100 10,798.80 +0.00% Nikkei 225 68,843.00 -0.41% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -146,23 +146,39 @@ const NEWS_DATA = {
         "headlineKo": "기술적 분석을 사용하여 SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META 및 TSLA를 거래하는 방법"
       },
       {
-        "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
+        "headline": "Goldman in talks with investors on Nvidia financing deal after landing prized role, sources say",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4136a4be5d63d394bd302f15c4b40dd2f32ea15387a6bf1fd6f93ecba1b90f8e",
-        "datetime": 1786648658,
+        "url": "https://finnhub.io/api/news?id=ae269d445bfd4ac3edb42c733e3cd55c124a1c4ecd875f0fb5afce4889320bb2",
+        "datetime": 1786680232,
         "relevance": 0.4,
-        "headlineKo": "Goldman이 수익 기준이 높다고 경고함에 따라 Nvidia는 7% 상승했습니다."
+        "headlineKo": "소식통에 따르면 골드만삭스는 중요한 역할을 맡은 후 Nvidia 자금 조달 계약에 대해 투자자들과 대화하고 있다고 합니다."
       },
       {
-        "headline": "Jim Cramer says Nvidia now signals something much bigger",
+        "headline": "Nvidia CEO Jensen Huang Just Introduced a Bold $500 Billion Plan to Potentially Create Chip-Backed Securities. What Could Go Wrong?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=56a198a8dd9fb90db9e2b832f8310ed5d2ba8e9d397257a9cf0b7029d56715c0",
-        "datetime": 1786648380,
+        "url": "https://finnhub.io/api/news?id=44fdf61b38b6decab1442a876b7df103e823eb60dd6c5862b3d289f4064cdd5a",
+        "datetime": 1786672200,
         "relevance": 0.4,
-        "headlineKo": "Jim Cramer는 Nvidia가 이제 훨씬 더 큰 신호를 보내고 있다고 말했습니다."
+        "headlineKo": "Nvidia CEO Jensen Huang은 잠재적으로 칩 담보 증권을 창출하기 위한 대담한 5천억 달러 규모의 계획을 도입했습니다. 무엇이 잘못될 수 있나요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Goldman in talks with investors on Nvidia financing deal after landing prized role, sources say",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ae269d445bfd4ac3edb42c733e3cd55c124a1c4ecd875f0fb5afce4889320bb2",
+        "datetime": 1786680232,
+        "headlineKo": "소식통에 따르면 골드만삭스는 중요한 역할을 맡은 후 Nvidia 자금 조달 계약에 대해 투자자들과 대화하고 있다고 합니다.",
+        "relevance": 0.4
+      },
+      {
+        "headline": "Nvidia CEO Jensen Huang Just Introduced a Bold $500 Billion Plan to Potentially Create Chip-Backed Securities. What Could Go Wrong?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=44fdf61b38b6decab1442a876b7df103e823eb60dd6c5862b3d289f4064cdd5a",
+        "datetime": 1786672200,
+        "headlineKo": "Nvidia CEO Jensen Huang은 잠재적으로 칩 담보 증권을 창출하기 위한 대담한 5천억 달러 규모의 계획을 도입했습니다. 무엇이 잘못될 수 있나요?",
+        "relevance": 0.4
+      },
       {
         "headline": "Nvidia Rallies 7% as Goldman Warns Earnings Bar Is High",
         "source": "Yahoo",
@@ -196,7 +212,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,808.60 -0.01% Dow Jones 53,886.20 0.00% Nasdaq 100 30,117.30 -0.05% Russell 2000 3,052.43 -0.07% FTSE 100 10,798.00 -0.01% Nikkei 225 69,348.20 +0.33% Live: Will Applied Materials Crush Tonight’s Q3 Earnings After "
+            "Skip to content S&P 500 7,807.60 -0.02% Dow Jones 53,904.70 +0.03% Nasdaq 100 30,073.20 -0.20% Russell 2000 3,052.33 -0.07% FTSE 100 10,798.80 +0.00% Nikkei 225 68,843.00 -0.41% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -487,13 +503,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 21,
+      "checked": 23,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "AAPL": {
@@ -1031,13 +1047,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "GOOGL": {
@@ -1567,13 +1583,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "MSFT": {
@@ -1638,14 +1654,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.79% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7",
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
-            "Screens show the logo of Microsoft and its AI service Copilot."
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1668,7 +1683,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -1689,7 +1704,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.76% QQQ 1.25% Trending RDDT 15.80% NU 11.50% AMAT 7.25% CADL 11.24% PATH 9.30% B",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.58% BTC 0.40% RDDT 10.73",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -1794,14 +1809,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.79% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7",
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
-            "Screens show the logo of Microsoft and its AI service Copilot."
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1824,7 +1838,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -1925,7 +1939,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.76% QQQ 1.25% Trending RDDT 15.80% NU 11.50% AMAT 7.25% CADL 11.24% PATH 9.30% B",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.58% BTC 0.40% RDDT 10.73",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2090,13 +2104,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "AMZN": {
@@ -2630,13 +2644,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "TSM": {
@@ -3061,13 +3075,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "AVGO": {
@@ -3558,13 +3572,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "META": {
@@ -4186,13 +4200,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "TSLA": {
@@ -4300,22 +4314,22 @@ const NEWS_DATA = {
         "headlineKo": "Tesla는 지나치게 밝은 로우빔으로 인해 다가오는 운전자의 가시성이 떨어지고 충돌 위험이 있어 Model 3 및 Model Y 차량 20,349대를 리콜합니다."
       },
       {
-        "headline": "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges",
+        "headline": "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db467a9f2084344aedfbcbf50b569ee45110fc28c1cb035c3bc40eb5aae65146",
-        "datetime": 1786608366,
+        "url": "https://finnhub.io/api/news?id=8c3b3e474ad5c6247d385c0e99bc647cc12745d3382f82defc8ff1b2e76262f6",
+        "datetime": 1786658320,
         "relevance": 1.0,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.31% Trending RDDT 15.80% NU 11.80% AMAT 7.25% BSX 2.74",
-            "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges Musk is targeting 100 gigawatts of annual U.S.",
-            "solar production, over 300x Tesla’s current Buffalo capacity."
+            "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts New Connect your Agent Trending News Earnings All DIA 0.01% SPY 0.00% QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.58% BTC 0.40% RDDT 10.73% WDAY 0",
+            "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts All conflict measures against Tesla’s Swedish operations will cease from 00:01 on Wednesday, August 19, IF Metall said in a statement.",
+            "Parking area with public charging station / loading points from Tesla, network of rapid chargers for electric vehicles / cars in Sweden."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -4338,11 +4352,19 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
         },
+        "headlineKo": "Tesla 인수 후 스웨덴 연합이 거의 3 년간의 파업을 종료함에 따라 TSLA 주가 상승"
+      },
+      {
+        "headline": "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db467a9f2084344aedfbcbf50b569ee45110fc28c1cb035c3bc40eb5aae65146",
+        "datetime": 1786608366,
+        "relevance": 1.0,
         "headlineKo": "TSLA 주가는 프리마켓 상승: Chamath는 100억 달러 규모의 텍사스 태양광 발전 계획이 등장함에 따라 Tesla가 '원자력 발전에 올인'할 것이라고 말합니다."
       },
       {
@@ -4352,17 +4374,55 @@ const NEWS_DATA = {
         "datetime": 1786547397,
         "relevance": 1.0,
         "headlineKo": "Tesla (TSLA) 주식은 매출이 풍부하지만 5년 수익률이 강합니다"
-      },
-      {
-        "headline": "Does Tesla’s Terafab Texas Chip Bet Reshape Its AI Ambitions And Margin Story For TSLA?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b34481b51aebb683f91e75ea4e3c10d2a90036ec69b9807eb7cfe9a9801cbe4a",
-        "datetime": 1786381860,
-        "relevance": 1.0,
-        "headlineKo": "Tesla의 Terafab Texas Chip Bet은 TSLA의 AI 야망과 마진 스토리를 재구성합니까?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8c3b3e474ad5c6247d385c0e99bc647cc12745d3382f82defc8ff1b2e76262f6",
+        "datetime": 1786658320,
+        "headlineKo": "Tesla 인수 후 스웨덴 연합이 거의 3 년간의 파업을 종료함에 따라 TSLA 주가 상승",
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts New Connect your Agent Trending News Earnings All DIA 0.01% SPY 0.00% QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.58% BTC 0.40% RDDT 10.73% WDAY 0",
+            "TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts All conflict measures against Tesla’s Swedish operations will cease from 00:01 on Wednesday, August 19, IF Metall said in a statement.",
+            "Parking area with public charging station / loading points from Tesla, network of rapid chargers for electric vehicles / cars in Sweden."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "TSLA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'TSLA Stock Rises As Swedish Union Ends Nearly 3-Year Strike After Tesla Buyouts' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low"
+        }
+      },
       {
         "headline": "TSLA Stock Climbs Premarket: Chamath Says Tesla Is Going ‘All In On Nuclear’ As $10B Texas Solar Plan Emerges",
         "source": "Yahoo",
@@ -4803,13 +4863,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:04",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 32,
+      "checked": 33,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "MU": {
@@ -5379,13 +5439,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:07",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "AMD": {
@@ -5954,13 +6014,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "INTC": {
@@ -6031,8 +6091,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,810.60 +0.02% Dow Jones 53,886.20 0.00% Nasdaq 100 30,117.30 -0.05% Russell 2000 3,052.43 -0.07% FTSE 100 10,798.00 -0.01% Nikkei 225 69,348.20 +0.33% Live: Will Applied Materials Crush Tonight’s Q3 Earnings After ",
-            "Investing Intel Is Up 176% This Year."
+            "Skip to content S&P 500 7,807.60 -0.02% Dow Jones 53,904.70 +0.03% Nasdaq 100 30,073.20 -0.20% Russell 2000 3,052.33 -0.07% FTSE 100 10,798.80 +0.00% Nikkei 225 68,843.00 -0.41% Investing Intel Is Up 176% This Year.",
+            "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -6186,8 +6246,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,810.60 +0.02% Dow Jones 53,886.20 0.00% Nasdaq 100 30,117.30 -0.05% Russell 2000 3,052.43 -0.07% FTSE 100 10,798.00 -0.01% Nikkei 225 69,348.20 +0.33% Live: Will Applied Materials Crush Tonight’s Q3 Earnings After ",
-            "Investing Intel Is Up 176% This Year."
+            "Skip to content S&P 500 7,807.60 -0.02% Dow Jones 53,904.70 +0.03% Nasdaq 100 30,073.20 -0.20% Russell 2000 3,052.33 -0.07% FTSE 100 10,798.80 +0.00% Nikkei 225 68,843.00 -0.41% Investing Intel Is Up 176% This Year.",
+            "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -6598,13 +6658,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "AMAT": {
@@ -6616,21 +6676,22 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Applied Materials (NASDAQ:AMAT) Surprises With Q2 Sales But Stock Drops",
+        "headline": "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a1d22cf03862811a1f647308bf52acbcab50650981425b68043c5e3c4150d395",
-        "datetime": 1786652891,
+        "url": "https://finnhub.io/api/news?id=3b8ed1a06b79c0b0712a05122db660f5c4be1c36b132d2cadfce6ef033d1587c",
+        "datetime": 1786677541,
         "relevance": 1,
         "analysis": {
           "version": 8,
           "importance": "low",
           "tone": "risk",
-          "certainty": "본문 확인 필요",
+          "certainty": "본문 기반 간이 분석",
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials (NASDAQ:AMAT) Surprises With Q2 Sales But Stock Drops",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH 0.40% BTC 0.40% AMAT 5.08% RDDT 10",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -6653,18 +6714,18 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (NASDAQ:AMAT) Surprises With Q2 Sales But Stock Drops' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
         },
-        "headlineKo": "Applied Materials (NASDAQ:AMAT), 2분기 매출로 놀라움을 선사했지만 재고는 하락했습니다."
+        "headlineKo": "AMAT 주가 하락에도 불구하고 밤새 하락세 연장: Applied Materials의 DRAM 램프가 '가장 큰 수요 신호'를 보냄"
       },
       {
-        "headline": "Applied Materials (NASDAQ:AMAT) Posts Better-Than-Expected Sales In Q2",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a3d24f435e1db45e05ae2ac78c33278462cba195df13ec7a10fef806d9a2852e",
-        "datetime": 1786652030,
+        "headline": "Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=640eeafee173e39d4fbaa27d0f4fad5bffc584a09cd0927ac84f7cb024be8b2d",
+        "datetime": 1786670832,
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -6674,7 +6735,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials (NASDAQ:AMAT) Posts Better-Than-Expected Sales In Q2",
+            "Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -6698,18 +6759,18 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (NASDAQ:AMAT) Posts Better-Than-Expected Sales In Q2' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
         },
-        "headlineKo": "Applied Materials (NASDAQ:AMAT), 2분기에 예상보다 나은 매출 기록"
+        "headlineKo": "Applied Materials, Inc.(AMAT) 2026년 3분기 실적 통화 기록"
       },
       {
-        "headline": "All You Need to Know About Applied Materials (AMAT) Rating Upgrade to Strong Buy",
+        "headline": "Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c0b6125be6def4b6b7faf4a03513136fc9b1db46d4ab64a34c014f2ba92d4cb9",
-        "datetime": 1786636803,
+        "url": "https://finnhub.io/api/news?id=5a4af4c6a4f09f4ca0b292a7b35d22cd4261ac0d66dbf93397f110b31b2fd45b",
+        "datetime": 1786666537,
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -6719,7 +6780,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "All You Need to Know About Applied Materials (AMAT) Rating Upgrade to Strong Buy",
+            "Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -6743,31 +6804,183 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'All You Need to Know About Applied Materials (AMAT) Rating Upgrade to Strong Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
         },
-        "headlineKo": "AMAT(Applied Materials) 등급에 대해 알아야 할 모든 것 적극 매수로 등급 업그레이드"
+        "headlineKo": "Applied Materials (AMAT) 주식은 332% 상승 후 완전 가격으로 보입니다"
       },
       {
-        "headline": "How Investors Are Reacting To Applied Materials (AMAT) Expanding Its AI Chip R&D With UC Berkeley Collaboration",
+        "headline": "Compared to Estimates, Applied Materials (AMAT) Q3 Earnings: A Look at Key Metrics",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2943359296c71e826ed87e609ddc1e3096cca3562b57c18e3c85643af3d595c4",
-        "datetime": 1786626873,
+        "url": "https://finnhub.io/api/news?id=f36d7cfd791dc48f9a1e09d02f84f1075bccc9325f37aac0d46f2b8b1998ca6e",
+        "datetime": 1786656601,
         "relevance": 1,
-        "headlineKo": "UC Berkeley 협업을 통해 AI 칩 R&D를 확대하는 Applied Materials(AMAT)에 대한 투자자들의 반응"
+        "headlineKo": "추정치와 비교, Applied Materials (AMAT) Q3 수익: 주요 지표 살펴보기"
       },
       {
-        "headline": "Ahead of Applied Materials Earnings, Here's What Barchart Data Says Comes Next for AMAT Stock",
+        "headline": "Applied Materials (AMAT) Beats Q3 Earnings and Revenue Estimates",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=07b944a7d7d44a068c1d888e857adfb01c70b1973979d0d2828ea961c5be24bd",
-        "datetime": 1786565659,
+        "url": "https://finnhub.io/api/news?id=c4e8abd2c8d9911c1b74c48fe2cda39688e8c4ebd7b84edfa14d06841657786c",
+        "datetime": 1786655702,
         "relevance": 1,
-        "headlineKo": "Applied Materials 수익에 앞서 Barchart 데이터에 따르면 AMAT 주식에 대한 다음 소식은 다음과 같습니다."
+        "headlineKo": "Applied Materials(AMAT)가 3분기 수익 및 매출 추정치를 상회했습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3b8ed1a06b79c0b0712a05122db660f5c4be1c36b132d2cadfce6ef033d1587c",
+        "datetime": 1786677541,
+        "headlineKo": "AMAT 주가 하락에도 불구하고 밤새 하락세 연장: Applied Materials의 DRAM 램프가 '가장 큰 수요 신호'를 보냄",
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH 0.40% BTC 0.40% AMAT 5.08% RDDT 10",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        }
+      },
+      {
+        "headline": "Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=640eeafee173e39d4fbaa27d0f4fad5bffc584a09cd0927ac84f7cb024be8b2d",
+        "datetime": 1786670832,
+        "headlineKo": "Applied Materials, Inc.(AMAT) 2026년 3분기 실적 통화 기록",
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials, Inc. (AMAT) Q3 2026 Earnings Call Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        }
+      },
+      {
+        "headline": "Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5a4af4c6a4f09f4ca0b292a7b35d22cd4261ac0d66dbf93397f110b31b2fd45b",
+        "datetime": 1786666537,
+        "headlineKo": "Applied Materials (AMAT) 주식은 332% 상승 후 완전 가격으로 보입니다",
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials (AMAT) Stock Looks Fully Priced After A 332% Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        }
+      },
+      {
+        "headline": "Compared to Estimates, Applied Materials (AMAT) Q3 Earnings: A Look at Key Metrics",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f36d7cfd791dc48f9a1e09d02f84f1075bccc9325f37aac0d46f2b8b1998ca6e",
+        "datetime": 1786656601,
+        "headlineKo": "추정치와 비교, Applied Materials (AMAT) Q3 수익: 주요 지표 살펴보기",
+        "relevance": 1
+      },
+      {
+        "headline": "Applied Materials (AMAT) Beats Q3 Earnings and Revenue Estimates",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c4e8abd2c8d9911c1b74c48fe2cda39688e8c4ebd7b84edfa14d06841657786c",
+        "datetime": 1786655702,
+        "headlineKo": "Applied Materials(AMAT)가 3분기 수익 및 매출 추정치를 상회했습니다.",
+        "relevance": 1
+      },
       {
         "headline": "Applied Materials (NASDAQ:AMAT) Surprises With Q2 Sales But Stock Drops",
         "source": "Yahoo",
@@ -7133,13 +7346,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:07",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 17,
+      "checked": 22,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "QQQ": {
@@ -7494,13 +7707,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "SPY": {
@@ -7964,13 +8177,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "ORCL": {
@@ -8502,13 +8715,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "CRM": {
@@ -8519,6 +8732,52 @@ const NEWS_DATA = {
       "revenueEstimate": 11432284970
     },
     "news": [
+      {
+        "headline": "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4d5038ea91b60f6de7dd1b9291282eef64d79dea197034ec7501d9578ec54779",
+        "datetime": 1786685229,
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.4",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
+            "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        },
+        "headlineKo": "CRM 주가 3주 연속 상승세: JPMorgan, Salesforce에서 강세 전환, H2 핵심 비즈니스 가속화 확인"
+      },
       {
         "headline": "Salesforce (CRM) Stock Sinks As Market Gains: What You Should Know",
         "source": "Yahoo",
@@ -8615,16 +8874,36 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=a9185e3b070fa087c787d286434948ea81f2d524cd54af93544ef6053a502cd5",
         "datetime": 1786472133,
         "relevance": 1,
+        "headlineKo": "Salesforce(CRM): 민감한 정부 AI 워크로드에서 리더십이 클라우드의 위치를 ​​바꾸나요?"
+      },
+      {
+        "headline": "Salesforce (CRM) Lost A Major Healthcare Customer To An In House AI CRM",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b03d78e87b828e45ac319ab206487a9a4825f86afa6cf0f1c41011262484b970",
+        "datetime": 1786468250,
+        "relevance": 1,
+        "headlineKo": "Salesforce(CRM)가 사내 AI CRM에 주요 의료 고객을 잃었습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4d5038ea91b60f6de7dd1b9291282eef64d79dea197034ec7501d9578ec54779",
+        "datetime": 1786685229,
+        "headlineKo": "CRM 주가 3주 연속 상승세: JPMorgan, Salesforce에서 강세 전환, H2 핵심 비즈니스 가속화 확인",
+        "relevance": 1,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce (CRM): Do Leadership Shifts Cloud Its Positioning in Sensitive Government AI Workloads?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.09% Trending ETH 0.40% MSTR 0.89% AMAT 5.15% ONDS 2.4",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
+            "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -8647,31 +8926,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce (CRM): Do Leadership Shifts Cloud Its Positioning in Sensitive Government AI Workloads?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
-        },
-        "headlineKo": "Salesforce(CRM): 민감한 정부 AI 워크로드에서 리더십이 클라우드의 위치를 ​​바꾸나요?"
+        }
       },
-      {
-        "headline": "Salesforce (CRM) Lost A Major Healthcare Customer To An In House AI CRM",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b03d78e87b828e45ac319ab206487a9a4825f86afa6cf0f1c41011262484b970",
-        "datetime": 1786468250,
-        "relevance": 1,
-        "headlineKo": "Salesforce(CRM)가 사내 AI CRM에 주요 의료 고객을 잃었습니다."
-      },
-      {
-        "headline": "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=06f34ca7b7591258f877f15018bde64f949eb400a0ce8b4fac79eb23a6902b45",
-        "datetime": 1786367580,
-        "relevance": 1,
-        "headlineKo": "Salesforce는 지난 1년 동안 17% 감소했습니다. CRM 주식을 플레이하는 방법은 무엇입니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Salesforce (CRM) Stock Sinks As Market Gains: What You Should Know",
         "source": "Yahoo",
@@ -9007,13 +9267,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 20,
+      "checked": 21,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "PLTR": {
@@ -9628,13 +9888,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:05",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "QCOM": {
@@ -10111,13 +10371,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "ARM": {
@@ -10501,13 +10761,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "MRVL": {
@@ -10950,13 +11210,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "ASML": {
@@ -11455,13 +11715,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:06",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "LRCX": {
@@ -11472,6 +11732,51 @@ const NEWS_DATA = {
       "revenueEstimate": 8306592543
     },
     "news": [
+      {
+        "headline": "Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d53f9db1b12c94c84abbd373cdfcaf383d7fc14bad18625ae95acd1fce894e44",
+        "datetime": 1786673598,
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "LRCX",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        },
+        "headlineKo": "Lam Research(LRCX)가 30억 달러 규모의 글로벌 R&D 연구소 확장 계획 이후 10.2% 상승한 이유"
+      },
       {
         "headline": "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
         "source": "ChartMill",
@@ -11568,6 +11873,25 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=f2af61bd64cca64abee4673d2df7dd058655f4edd45120815901d3921da285a1",
         "datetime": 1786377607,
         "relevance": 1,
+        "headlineKo": "Lam Research(LRCX)가 적극 매수로 상향 조정됨: 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "Lam Research (LRCX) Q4 2026 Earnings Call Transcript",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
+        "datetime": 1786147127,
+        "relevance": 1,
+        "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d53f9db1b12c94c84abbd373cdfcaf383d7fc14bad18625ae95acd1fce894e44",
+        "datetime": 1786673598,
+        "headlineKo": "Lam Research(LRCX)가 30억 달러 규모의 글로벌 R&D 연구소 확장 계획 이후 10.2% 상승한 이유",
+        "relevance": 1,
         "analysis": {
           "version": 8,
           "importance": "low",
@@ -11576,7 +11900,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Lam Research (LRCX) Upgraded to Strong Buy: Here's Why",
+            "Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -11600,31 +11924,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Lam Research (LRCX) Upgraded to Strong Buy: Here's Why' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 LRCX의 사업과 관련된 'Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "LRCX 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
-        },
-        "headlineKo": "Lam Research(LRCX)가 적극 매수로 상향 조정됨: 이유는 다음과 같습니다."
+        }
       },
-      {
-        "headline": "Lam Research (LRCX) Q4 2026 Earnings Call Transcript",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
-        "datetime": 1786147127,
-        "relevance": 1,
-        "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
-      },
-      {
-        "headline": "Wall Street Analysts See Lam Research (LRCX) as a Buy: Should You Invest?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=378b5a2e2569e892ac8e74b74cbac54af784eb0679e4d4b6d45baaa6167cb15e",
-        "datetime": 1786109404,
-        "relevance": 1,
-        "headlineKo": "월스트리트 분석가들은 Lam Research(LRCX)를 매수로 보고 있습니다: 투자해야 할까요?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Lam Research (NASDAQ:LRCX): A Quality Compounder for Long-Term Investors",
         "source": "ChartMill",
@@ -11828,13 +12133,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:07",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 12,
+      "checked": 13,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "KLAC": {
@@ -12289,13 +12594,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:07",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "SNDK": {
@@ -12320,7 +12625,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.27% Trending RDDT 16.0",
+            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH ",
             "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks Shares of leading memory chipmakers soared on Thursday as SanDisk’s optimistic long-term margin an",
             "A staff member at a computer parts shop displays memory modules."
           ],
@@ -12411,7 +12716,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.37% BSX 2",
+            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH 0.40% BTC 0.40% AMAT 5.08% RD",
             "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin CFO Luis Visoso said the company plans to return 100% of excess cash to shareholders after investing in the business.",
             "In this photo illustration, a smartphone displays the logo of SanDisk Corporation."
           ],
@@ -12476,7 +12781,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.27% Trending RDDT 16.0",
+            "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH ",
             "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks Shares of leading memory chipmakers soared on Thursday as SanDisk’s optimistic long-term margin an",
             "A staff member at a computer parts shop displays memory modules."
           ],
@@ -12567,7 +12872,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.17% SPY 0.78% QQQ 1.26% Trending RDDT 16.04% NU 11.80% AMAT 7.37% BSX 2",
+            "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin New Connect your Agent Trending News Earnings All DIA 0.01% SPY QQQ 0.06% Trending MSTR 0.91% ETH 0.40% BTC 0.40% AMAT 5.08% RD",
             "SNDK Stock Rallies After SanDisk Maps Out New Multi-Year Growth Plan, Targets 50% Adjusted Free Cash Flow Margin CFO Luis Visoso said the company plans to return 100% of excess cash to shareholders after investing in the business.",
             "In this photo illustration, a smartphone displays the logo of SanDisk Corporation."
           ],
@@ -12911,13 +13216,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:07",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   },
   "WDC": {
@@ -13351,13 +13656,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786665799.3547628,
-    "_updated_label": "2026-08-14 09:08",
+    "_fetched_at": 1786689975.5108857,
+    "_updated_label": "2026-08-14 15:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-14 09:08"
+      "updated": "2026-08-14 15:49"
     }
   }
 };

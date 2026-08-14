@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 81.52999877929688,
+      "current": 82.02999877929688,
       "prevClose": 81.25,
-      "changeAbs": 0.279998779296875,
-      "changePct": 0.34461388221153844,
-      "pctRank": 67.30310262529832,
+      "changeAbs": 0.779998779296875,
+      "changePct": 0.9599984975961537,
+      "pctRank": 68.81463802704853,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.817617545703076,
-      "ma20": 82.46199951171874,
-      "ma60": 81.81116650899251,
-      "chg1m": 2.5800018310546875,
-      "chg3m": -19.639999389648438,
-      "chg1mPct": 3.2678935158744564,
-      "chg3mPct": -19.412869175752387,
+      "drawdown1y": -27.37494378429597,
+      "ma20": 82.48699951171875,
+      "ma60": 81.81949984232584,
+      "chg1m": 3.0800018310546875,
+      "chg3m": -19.139999389648438,
+      "chg1mPct": 3.9012057632806068,
+      "chg3mPct": -18.918651513353062,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.8489990234375,
+      "current": 99.83200073242188,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.11100006103515625,
-      "changePct": -0.11104447984373632,
-      "pctRank": 34.44709626093874,
+      "changeAbs": -0.12799835205078125,
+      "changePct": -0.12804957305233106,
+      "pctRank": 34.28798727128083,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.7330986874678378,
-      "ma20": 100.41345024108887,
-      "ma60": 100.32981694539389,
-      "chg1m": -0.8810043334960938,
-      "chg3m": 0.9690017700195312,
-      "chg1mPct": -0.8746195811929863,
-      "chg3mPct": 0.9799775454443956,
+      "drawdown1y": -1.7498276422100112,
+      "ma20": 100.41260032653808,
+      "ma60": 100.32953364054362,
+      "chg1m": -0.8980026245117188,
+      "chg3m": 0.9520034790039062,
+      "chg1mPct": -0.8914946833960432,
+      "chg3mPct": 0.9627867166743863,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4371.60009765625,
+      "current": 4385.0,
       "prevClose": 4363.60009765625,
-      "changeAbs": 8.0,
-      "changePct": 0.18333485702085558,
-      "pctRank": 91.08989657915673,
+      "changeAbs": 21.39990234375,
+      "changePct": 0.4904185045564598,
+      "pctRank": 91.24900556881464,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.80234322489096,
-      "ma20": 4174.185009765625,
-      "ma60": 4214.8766682942705,
-      "chg1m": 386.0,
-      "chg3m": -306.5,
-      "chg1mPct": 9.684865278555895,
-      "chg3mPct": -6.551805083297767,
+      "drawdown1y": -17.55038958112971,
+      "ma20": 4174.855004882813,
+      "ma60": 4215.1,
+      "chg1m": 399.39990234375,
+      "chg3m": -293.10009765625,
+      "chg1mPct": 10.021073177377202,
+      "chg3mPct": -6.265366100291324,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Hormuz shipping traffic capped amid competing claims from US and Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVHN6X2pBMFpxcnFUajQxN1B2MlhZTUVTRlZSYzVkVXp6MENXb2xUai1zRXVTeEhKUVVtSnJabU9yTVd6U05ETV9uRS1FNlVvWjh1dS1vTGd6UjltTXZXU1o0ODlEUWhZNUl6SFF5WGhtNldwbnpNa3lVbEV6SG12RjgtT2V4d2pCVnB4c2UtTEp4S2JOZFY5REVPdUZscnVFaC02akt2dF9rWUhDckZVNmlVRjk?oc=5",
+      "datetime": 1786679280,
+      "headlineKo": "미국과 이란의 경쟁적 주장으로 호르무즈 해운 운항 중단 - 로이터 통신"
+    },
+    {
       "headline": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
@@ -226,11 +233,18 @@ const MARKET_DATA = {
       "headlineKo": "미국은 더 많은 석유가 중동에서 빠져나간다고 말하지만, 정말 그럴까요? - 로이터"
     },
     {
-      "headline": "Asian stocks set for weekly gain on fading US rate hike wagers - Reuters",
+      "headline": "Asian stocks head for strong weekly gains as US rate hike bets fade - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
       "datetime": 1786674720,
-      "headlineKo": "미국 금리 인상 베팅 감소로 아시아 증시 주간 상승세 - Reuters"
+      "headlineKo": "미국 금리인상 기대감 약화로 아시아증시, 주간 강한 상승세로 향 - 로이터 통신"
+    },
+    {
+      "headline": "Indian shares slip as US threatens indefinite naval blockade of Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWE1Jd01iTWNHTjJIOVNSdG1pVFRlTDVSZVBxY0tYSTdGU0t1T1ZzN3ZPQnYxSGpyeUtxbUhDZG1TVElrcUVrTmVmSnk1a3BCRDJoMUZoSHBjaTdfaURDcERHS2hHU2N5c05lbjJwYzluMFlkU1JnUmtEQjlmbVVIcVZ5QTVXUllxTEFZaXJlSjdKMWV6VV93YTNhSzNELUpSejZZ?oc=5",
+      "datetime": 1786674480,
+      "headlineKo": "미국, 이란에 대한 무기한 해군 봉쇄 위협에 인도 증시 하락 - Reuters"
     },
     {
       "headline": "Oil steadies after US threatens indefinite blockade of Iran - Reuters",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
       "datetime": 1786655959,
       "headlineKo": "UAE는 이란이 호르무즈 해협에서 ADNOC 선박 두 척을 공격했다고 밝혔습니다. 부상 없음 - 로이터"
-    },
-    {
-      "headline": "Bird remains found aboard 737 engine from Ryanair Greek incident - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSmV1RmxReUYwWXhWWk54TWU5VHpXZ2FUREw4TEo2LTkyVi1MMkZSQ2h1SlZHMDdyWDRuaEdqS2loajVsQ1NwS3VkV0FNdGpfN181UmtLYUpUUnZ5eldNRDc0WEVqYVRsVjl5SGgyQnZIc2NZQ0dITFhaZ2JtdU1EbFdSeUlkRjZNeV85dmxaLUdhYTdtNzZvMnR4R0QyZm9HQU95Z2lIcTBxd0N5YXZ4MWtfYTdkeWFfS3dQZEFHaw?oc=5",
-      "datetime": 1786655879,
-      "headlineKo": "라이언에어 그리스 사건 당시 737기 엔진에서 새 사체 발견 - 로이터 통신"
-    },
-    {
-      "headline": "NEWSLETTER: Trump reckons with a war that won’t leave him alone - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOFFaUWV6X2Y0Z1ZyZnlDaHlOUG5rSnFzdDFSVGx2SzluWVVJYlFlRFdMXzQzQkV4UERITFhfaEdQdmdCVS1tUmJWWFlYdnF6dk5IcXdPdERjVzZtQV9na3dtR2VxYkc2LWtHOFdlVl9LcEQyUHRPdWhuM2drMnpQV1BCTURwYUE1d0VMV2QzaW1PWms5V2pwUg?oc=5",
-      "datetime": 1786654707,
-      "headlineKo": "뉴스레터: 트럼프는 자신을 내버려두지 않을 전쟁을 고려하고 있습니다 - 로이터"
     }
   ],
   "fgi": {
     "score": 66.0285714285714,
     "rating": "greed"
   },
-  "_fetched_at": 1786686344.7305415,
-  "_updated_label": "2026-08-14 14:46"
+  "_fetched_at": 1786690199.4857657,
+  "_updated_label": "2026-08-14 15:50"
 };
