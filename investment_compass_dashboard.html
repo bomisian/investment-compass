@@ -4139,6 +4139,13 @@ function financialDirectionComment(r, fin){
   }
   if(qFcfm!=null) analysis.push(`최신 분기 FCF 마진은 <b>${qFcfm.toFixed(1)}%</b>${qFcfm<0?'로 투자 지출이 영업현금을 웃돌았습니다':'입니다'}.`);
   if(stockCompRatio!=null && stockCompRatio>=0.5) analysis.push(`주식보상비용이 최신 분기 순이익의 <b>${stockCompRatio.toFixed(1)}배</b>라 GAAP 이익과 조정이익의 차이를 함께 봐야 합니다.`);
+  const taxOutlier = annual.slice().reverse().find(d=>d.taxProvision!=null && d.taxProvision<0 && d.netIncome>0 && Math.abs(d.taxProvision)>=d.netIncome*0.2);
+  if(taxOutlier){
+    analysis.push(`${taxOutlier.period} 순이익에는 <b>$${fmtUsd(Math.abs(taxOutlier.taxProvision))}의 세금효과(세금비용 마이너스)</b>가 포함돼 있어, 그해 순이익 급증을 본업 성장으로 해석하면 안 됩니다.`);
+  }
+  if(lastQ?.otherNonOperating!=null && lastQ.netIncome>0 && Math.abs(lastQ.otherNonOperating)>=lastQ.netIncome*0.2){
+    analysis.push(`최신 분기 순이익에는 <b>$${fmtUsd(lastQ.otherNonOperating)}의 영업외손익</b>이 크게 작용해, 방향 판단은 순이익보다 영업이익을 우선했습니다.`);
+  }
   if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·총부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
 
   const outlook=[];
