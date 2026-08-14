@@ -578,12 +578,92 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-14';
+const DASHBOARD_VERSION = '2026-08-14b';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
 let openTicker = null;  // 지금 상세 패널에 열려있는 티커(비동기 장기이력 로딩 후 화면이 그 사이 바뀌었는지 확인용)
 const longHistoryCache = {}; // ticker -> {closes, dates} (10년치, 최초 조회 후 세션 동안 재사용)
+// ============ 멀티 타임프레임 캔들차트 (2026-08-14 추가) ============
+// [배경] 사용자 요청: "판단 차트가 2년치 고정인데, 최대치를 받아와서 일봉/주봉/월봉/연봉으로 볼 수
+// 있으면 좋겠다." 신호·RSI·200일선 계산은 CLAUDE.md 원칙대로 여전히 2년치(r.series, 실시간)를
+// 그대로 씀 - 건드리면 검증된 승률의 전제가 깨짐. 대신 '차트를 무엇으로 그릴지'만 별도 상태로
+// 분리해서, 주/월/연봉이나 장기(10년) 일봉을 보고 싶을 때만 하락 리스크 프로필과 동일한
+// longHistoryCache/fetchLongHistory()를 재사용해 지연 로딩함(스캔 자체는 여전히 2y로 빠름).
+let chartTimeframe = 'D'; // 'D'|'W'|'M'|'Y' - openDetail()에서 종목 바뀔 때마다 'D'로 리셋
+function resampleOHLC(s, mode){
+  if(mode==='D') return s;
+  const keyOf = d => mode==='Y' ? d.slice(0,4) : mode==='M' ? d.slice(0,7) : isoWeekKey(d);
+  const buckets = [];
+  let curKey = null, cur = null;
+  for(let i=0;i<s.closes.length;i++){
+    if(s.closes[i]==null) continue;
+    const k = keyOf(s.dates[i]);
+    if(k !== curKey){
+      if(cur) buckets.push(cur);
+      cur = {key:k, date:s.dates[i], open:s.opens[i], high:s.highs[i], low:s.lows[i], close:s.closes[i], volume:s.volumes?.[i]||0};
+      curKey = k;
+    } else {
+      cur.date = s.dates[i];
+      cur.high = Math.max(cur.high, s.highs[i]);
+      cur.low = Math.min(cur.low, s.lows[i]);
+      cur.close = s.closes[i];
+      cur.volume += s.volumes?.[i]||0;
+    }
+  }
+  if(cur) buckets.push(cur);
+  return {
+    dates: buckets.map(b=>b.date), opens: buckets.map(b=>b.open), highs: buckets.map(b=>b.high),
+    lows: buckets.map(b=>b.low), closes: buckets.map(b=>b.close), volumes: buckets.map(b=>b.volume),
+  };
+}
+function isoWeekKey(dateStr){
+  const d = new Date(dateStr+'T00:00:00Z');
+  const day = (d.getUTCDay()+6)%7; // 월=0 ~ 일=6
+  d.setUTCDate(d.getUTCDate()-day); // 그 주의 월요일로 이동 - 같은 주 날짜는 전부 같은 키가 됨
+  return d.toISOString().slice(0,10);
+}
+// 현재 선택된 타임프레임에 맞는 차트용 시리즈를 반환. 장기 이력이 아직 캐시에 없으면(주/월/연봉,
+// 또는 '전체 일봉') null을 반환하고 호출부가 지연 로딩을 트리거함.
+function getChartSeries(ticker){
+  const r = results[ticker];
+  if(!r) return null;
+  if(chartTimeframe==='D' && !longHistoryCache[ticker]) return r.series; // 기본값(빠름, techSeries 포함)
+  const bundle = longHistoryCache[ticker];
+  if(!bundle) return null;
+  // 장기/리샘플 시리즈는 techSeries·fairValue가 없어서(원래 analyzeTicker 결과에만 있음)
+  // drawCandleChart()가 관련 오버레이(매수신호·PER 기준선)를 자동으로 건너뜀 - 이동평균선만
+  // 새로 리샘플된 종가 기준으로 다시 계산해서 채워줌(20주/20개월/20년 이동평균도 표준적인 개념).
+  const resampled = resampleOHLC(bundle, chartTimeframe);
+  return {...resampled, ma20: sma(resampled.closes, 20), rsiArr: rsi(resampled.closes)};
+}
+async function setChartTimeframe(ticker, tf){
+  chartTimeframe = tf;
+  chartZoom = { span: null, center: null }; // 타임프레임이 바뀌면 인덱스 의미가 달라지므로 리셋
+  chartPinnedIdx = null;
+  if(!longHistoryCache[ticker]){
+    renderTabContent(ticker); // 버튼 활성 표시만 먼저 갱신
+    const c = document.getElementById('priceCanvas');
+    if(c) c.insertAdjacentHTML('afterend', '<div id="chartTfLoading" class="sub" style="margin-top:6px;">⏳ 장기 데이터를 불러오는 중...</div>');
+    try{
+      longHistoryCache[ticker] = await fetchLongHistory(ticker);
+    }catch(e){
+      if(openTicker===ticker && activeTab==='01'){
+        chartTimeframe = 'D';
+        const el = document.getElementById('chartTfLoading');
+        if(el) el.textContent = '장기 데이터 조회에 실패해서 2년치 기본 화면으로 되돌아갔어요.';
+        setTimeout(()=>{ if(openTicker===ticker) renderTabContent(ticker); }, 1500);
+      }
+      return;
+    }
+  }
+  if(openTicker!==ticker || activeTab!=='01') return; // 그 사이 다른 종목/탭으로 이동했으면 무시
+  // 타임프레임을 막 바꿨을 때는 기본 140/500봉 창이 아니라 '가진 데이터 전체'를 보여줘야
+  // 사용자가 요청한 "최대치를 보여주고 거기서 탐색"이 됨 - 이후 확대/축소·드래그는 그대로 동작.
+  const s = getChartSeries(ticker);
+  if(s) chartZoom = { span: s.closes.length, center: null };
+  renderTabContent(ticker);
+}
 
 // ============ Twelve Data 키 저장 (브라우저 로컬) ============
 function getTdKey(){ return localStorage.getItem('compass_td_key') || ''; }
@@ -815,6 +895,7 @@ const HINTS = {
   tradePlan: "'지금 사야 하나'에 숫자로 답하는 칸이에요. 신호는 조건이 유지되는 동안 매일 뜨지만, 검증된 승률 66%는 '쿨다운 5거래일을 넘긴 첫날(=새 진입 자리)' 기준이에요. 그래서 오늘이 새 자리인지 지난 신호의 연장인지를 먼저 구분해서 보여줘요. 아래 하락 참고선은 손절선이 아니라 '과거 신호들이 실제로 얼마나 더 빠졌는지'예요. 이 카드의 숫자는 전부 14년·14종목 공식 검증치 하나의 출처예요.",
   analystLog: "매출·순이익이 갑자기 크게 흔들렸을 때, 그게 세금·투자평가손익 같은 '1회성 항목' 때문인지 아니면 본업이 실제로 좋아지거나 나빠진 건지를 Claude가 뉴스·공시를 찾아서 구분해준 기록이에요. 마지막엔 '그래서 다음 실적은 이럴 것 같다'는 Claude 나름의 전망도 적혀있는데, 이건 데이터 기반 추정일 뿐 확정된 사실이 아니라 틀릴 수 있어요. 날짜별로 계속 쌓이는 로그예요.",
   newsLog: "실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원, 신용등급 변화, 대형 계약 등)가 나왔을 때 Claude가 조사해서 [핵심내용 분석]/[왜 중요한가]/[초보자용 정리] 3단계로 정리한 기록이에요. 실시간 자동 감지가 아니라 세션에서 요청할 때만 조사해서 추가돼요 - 최근에 중요한 뉴스를 봤다면 요청해서 추가할 수 있어요.",
+  viewLog: "판단·가치·실적·재무제표·뉴스를 전부 종합해서 Claude가 그 시점에 어떻게 보는지 적은 기록이에요. 확률(%)은 일부러 안 써요 - 실제 백테스트로 검증된 숫자가 아니면 정밀해 보이는 숫자를 붙이지 않는다는 이 프로젝트 원칙 때문이에요. 대신 '무엇이 확인되면 비중을 늘릴지'·'무엇이 보이면 이 판단이 틀린 것으로 볼지'를 조건으로 적어둬서, 다음에 다시 볼 때 체크리스트로 쓸 수 있게 했어요. 시장이 바뀌면 요청해서 새 항목을 추가할 수 있어요(자동 갱신 아님).",
   businessNotes: "이 회사가 실제로 무엇을 팔고, 누구에게 팔고, 어떤 강점·위험을 갖고 있는지 서술형으로 정리한 카드예요. 가격·재무 데이터처럼 자동 갱신되지 않고, Claude가 웹검색으로 조사해서 수동으로 작성해요 - '최종 확인일'을 꼭 확인하고, 오래됐다 싶으면 갱신을 요청하세요.",
   perOverTime: "PER = 주가 ÷ EPS라서, 주가가 똑같아도 회사가 분기 실적을 발표할 때마다 분모(EPS)가 바뀌면 PER도 바뀌어요. 여기서는 지금 주가를 고정해두고 과거 분기들의 실제 TTM EPS로 나눠서 '그때 실적이 지금 가격에 붙어있었다면 PER이 몇 배였을지'를 보여줘요 - 즉 이 변화는 주가 움직임이 아니라 순전히 실적(EPS) 변화 때문이에요.",
   signalDist: "승률과 평균만 보면 손실 폭을 가늠하기 어려워서, 수익률의 '분포'를 더 자세히 보여줘요. 중앙값은 딱 중간값, 하위 10%/5%는 '운이 나빴던 쪽 10%/5% 안에 들면 이 정도까지 손실'이라는 뜻이에요. 신뢰구간은 표본이 다르면(다른 기간에 다시 검증하면) 이 숫자가 이 범위 안에서 흔들릴 수 있다는 뜻이에요. 위 공식 검증치(14종목·14년치)와는 표본이 달라서 숫자가 소폭 다를 수 있어요.",
@@ -1720,6 +1801,7 @@ function openDetail(ticker){
   document.getElementById('detailSub').innerHTML = `${esc(r.name)} · ${esc(r.theme)}${bookmarkHtml}`;
   activeTab = '01';
   techViewOpen = false;
+  chartTimeframe = 'D';
   chartZoom = { span: null, center: null };
   chartPinnedIdx = null;
   renderTabs(ticker);
@@ -1758,7 +1840,8 @@ function renderTabContent(ticker){
   requestAnimationFrame(()=>{
     if(activeTab==='01'){
       const c = document.getElementById('priceCanvas');
-      if(c){ drawCandleChart(c, r.series, pinnedHoverIndex(r.series), techViewOpen); setupPriceChartHover(c, r.series, ticker); }
+      const cs = getChartSeries(ticker) || r.series;
+      if(c){ drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen); setupPriceChartHover(c, cs, ticker); }
       if(techViewOpen){
         const rc = document.getElementById('techRsiCanvas');
         const mc = document.getElementById('techMacdCanvas');
@@ -1868,14 +1951,22 @@ function tabJudgement(r){
       </div>
     </div>
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
-    <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;">
-      <div class="chart-label" style="margin-top:0;">캔들차트 · 20일 이동평균선(주황) · <span style="color:var(--green);">▲</span> 과거 단타 매수신호 — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
+    <div style="margin-top:14px;">${renderViewLog(r.ticker)}</div>
+    <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;flex-wrap:wrap;gap:6px;">
+      <div class="chart-label" style="margin-top:0;">캔들차트${chartTimeframe==='D' ? ' · 20일 이동평균선(주황)' + (longHistoryCache[r.ticker] ? '' : ' · <span style="color:var(--green);">▲</span> 과거 단타 매수신호') : ` · ${{'W':'20주','M':'20개월','Y':'20년'}[chartTimeframe]} 이동평균선(주황, 매수신호 마커는 일봉에서만 표시돼요)`} — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
+      <div class="toggle-row" style="margin-top:0;">
+        <div class="toggle-btn ${chartTimeframe==='D'?'active':''}" onclick="setChartTimeframe('${r.ticker}','D')" title="일봉">일봉</div>
+        <div class="toggle-btn ${chartTimeframe==='W'?'active':''}" onclick="setChartTimeframe('${r.ticker}','W')" title="주봉">주봉</div>
+        <div class="toggle-btn ${chartTimeframe==='M'?'active':''}" onclick="setChartTimeframe('${r.ticker}','M')" title="월봉">월봉</div>
+        <div class="toggle-btn ${chartTimeframe==='Y'?'active':''}" onclick="setChartTimeframe('${r.ticker}','Y')" title="연봉">연봉</div>
+      </div>
       <div class="toggle-row" style="margin-top:0;">
         <div class="toggle-btn" onclick="zoomChart('${r.ticker}', 1.6)" title="축소">－ 축소</div>
-        <div class="toggle-btn" onclick="zoomChartReset('${r.ticker}')" title="전체 기간 보기">전체보기</div>
+        <div class="toggle-btn" onclick="zoomChartReset('${r.ticker}')" title="지금 타임프레임에서 볼 수 있는 전체 기간">전체보기</div>
         <div class="toggle-btn" onclick="zoomChart('${r.ticker}', 0.6)" title="확대">＋ 확대</div>
       </div>
     </div>
+    ${chartTimeframe!=='D' || longHistoryCache[r.ticker] ? `<div class="sub" style="margin:2px 0 6px;">${longHistoryCache[r.ticker] ? `최대 ${longHistoryCache[r.ticker].closes.length}거래일치(약 ${(longHistoryCache[r.ticker].closes.length/252).toFixed(0)}년)를 불러왔어요 - 좌우로 끌거나 축소해서 원하는 구간을 보세요.` : '장기 데이터를 불러오는 중이에요...'}</div>` : ''}
     <div class="chart-wrap">
       <canvas id="priceCanvas"></canvas>
       <div id="chartTooltip" class="chart-tooltip"></div>
@@ -3171,7 +3262,7 @@ function clampChartCenter(center, span, fullLen){
   return Math.max(half, Math.min(fullLen - span + half, center));
 }
 function zoomChart(ticker, factor){
-  const fullLen = results[ticker].series.closes.length;
+  const fullLen = (getChartSeries(ticker) || results[ticker].series).closes.length;
   const before = chartRange(fullLen, techViewOpen);
   const atRightEdge = before.end >= fullLen; // 최신 캔들이 보이던 상태였는지
   const cur = chartZoom.span || chartWindowSize(techViewOpen);
@@ -3199,7 +3290,8 @@ function redrawCharts(ticker){
   const r = results[ticker];
   if(!r) return;
   const c = document.getElementById('priceCanvas');
-  if(c) drawCandleChart(c, r.series, pinnedHoverIndex(r.series), techViewOpen);
+  const cs = getChartSeries(ticker) || r.series;
+  if(c) drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen);
   if(techViewOpen){
     const rc = document.getElementById('techRsiCanvas');
     const mc = document.getElementById('techMacdCanvas');
@@ -3892,6 +3984,48 @@ function renderNewsLog(ticker){
   return `
     <div class="chart-label" style="margin-top:0;">${esc(ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
     <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀 - '왜 중요한가' 해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
+    ${entries}`;
+}
+
+// ============ Claude의 다음 확인 사항 (2026-08-14 추가, 실험적) ============
+// [배경] 사용자 요청: "그냥 저런 시나리오는 누구나 낼 수 있다. 시장 변화·뉴스를 쌓아가면서 확률을
+// 표기해달라. 지금 할 일·비중 늘릴 조건·판단이 틀렸다고 볼 조건을 체크해서 점수나 코멘트를
+// 달아달라. 부담 갖지 말고 너만의 뷰를 보여줘." - analystLog(실적 이상치 트리거)·newsLog(개별
+// 뉴스 트리거)와 달리, 이건 "지금 이 순간 종합적으로 어떻게 보는지"를 판단·가치·실적·재무제표·
+// 뉴스를 다 합쳐 Claude가 직접 조건부로 서술하는 로그. 날짜순 append-only(동일 원칙).
+// ⚠️ 확률 숫자(%)는 의도적으로 안 씀 - 이 프로젝트는 SIGNAL_STATS·PATIENCE_TABLE처럼 실제
+// 15년치 백테스트로 검증된 것에만 %를 붙이는 원칙이 있음(CLAUDE.md 전체에 걸친 원칙). 이 로그는
+// 그런 검증이 없는 정성적 판단이라, 숫자로 확신을 꾸며내는 대신 "무엇을 확인하면 view가 바뀌는지"
+// 조건을 명시하는 방식으로 假정밀도를 피함 - 대신 그 조건들 자체가 다음 갱신 때 체크리스트가 됨.
+function renderViewLog(ticker){
+  const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
+  const log = n && n.viewLog;
+  if(!log || !log.length){
+    return `<div class="sub" style="margin-bottom:12px;">Claude의 종합 뷰는 아직 이 종목엔 없어요(파일럿). 필요하면 요청해서 추가할 수 있어요.</div>`;
+  }
+  const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map((e,idx)=>{
+    const srcLinks = (e.sources||[]).map(s=>{
+      const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
+      return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
+    }).join('');
+    const li = arr => (arr||[]).map(x=>`<li>${x}</li>`).join('');
+    return `
+      <div class="fund-col" style="margin-top:10px;${idx===0?'border-left:3px solid var(--accent);padding-left:10px;':''}">
+        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)} 작성</b>${idx===0?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}</div>
+        <div style="font-size:14px;font-weight:700;margin-bottom:6px;">${e.headline}</div>
+        <div style="font-size:12.5px;line-height:1.75;margin-bottom:8px;">${e.view}</div>
+        <div class="fund-grid">
+          <div class="fund-col"><h3 style="color:var(--up);">📈 확인되면 비중 늘릴 조건</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(e.increaseIf)}</ul></div>
+          <div class="fund-col"><h3 style="color:var(--down);">📉 판단이 틀렸다고 볼 조건</h3><ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:1.7;">${li(e.wrongIf)}</ul></div>
+        </div>
+        ${e.watchNext?.length ? `<div style="margin-top:8px;font-size:12.5px;"><b>다음에 확인할 것</b><ul style="margin:2px 0 0;padding-left:18px;line-height:1.7;">${li(e.watchNext)}</ul></div>` : ''}
+        <div class="sub" style="margin-top:6px;">신뢰도: ${esc(e.confidence||'-')}</div>
+        ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : ''}
+      </div>`;
+  }).join('');
+  return `
+    <div class="chart-label" style="margin-top:0;">${esc(ticker)} - Claude의 종합 뷰 (실험적) ${hintIcon('viewLog')}</div>
+    <div class="sub" style="margin-bottom:6px;">판단·가치·실적·재무제표·뉴스를 종합해 Claude가 그 시점에 어떻게 보는지 적은 기록이에요. <b>확률(%)은 의도적으로 안 씁니다</b> - 실제 백테스트로 검증된 게 아니라서 숫자로 가짜 정밀도를 꾸미지 않고, 대신 "무엇이 바뀌면 view가 바뀌는지" 조건으로 씁니다. <b>날짜순으로 쌓이는 로그</b>라 이전 뷰도 아래에 남아있어요 - 시장이 바뀌면 다시 요청해서 새 항목을 추가할 수 있어요(자동 갱신 아님).</div>
     ${entries}`;
 }
 function tabValueQuality(r){
