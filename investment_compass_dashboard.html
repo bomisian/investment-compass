@@ -1189,6 +1189,13 @@ async function fetchMarketEnv(){
       }catch(e){}
     }
   }catch(e){}
+  // 2026-08-14 추가: 브라우저 CORS 프록시 경유로는 CNN이 계속 HTTP 418(봇 차단)로 거부함 -
+  // 실측 결과 Referer/Origin 헤더가 없어서였는데, 프록시는 이 헤더들을 못 실어 보내서 브라우저
+  // 경로에서는 근본 해결이 안 됨. 그래서 서버(PC)가 미리 헤더를 제대로 갖춰 받아둔 값
+  // (market_data.js의 MARKET_DATA.fgi)을 실시간 실패 시 폴백으로 씀 - PC/VIX 등과 동일 패턴.
+  if(fgi==null && typeof MARKET_DATA !== 'undefined' && MARKET_DATA && MARKET_DATA.fgi && typeof MARKET_DATA.fgi.score === 'number'){
+    fgi = MARKET_DATA.fgi.score; fgiSource = 'cache';
+  }
   if(fgi==null && manual!=null){
     const mv = parseFloat(manual);
     if(Number.isFinite(mv) && mv>=0 && mv<=100){ fgi = mv; fgiSource = 'manual'; }
@@ -1595,10 +1602,12 @@ function renderSummary(){
     ['QQQ(나스닥100) 52주 고점대비', fmtDd(env.qqqDrawdownPct), '참고'],
     ['DIA(다우30) 52주 고점대비', fmtDd(env.diaDrawdownPct), '참고'],
     ['VIX', env.vix!=null?env.vix.toFixed(2):'조회 불가', '참고'],
-    ['F&G Index', env.fgi!=null ? env.fgi.toFixed(0) + (env.fgiSource==='manual'?' (수동)':'') : '조회 불가', '참고'],
+    ['F&G Index', env.fgi!=null ? env.fgi.toFixed(0) + (env.fgiSource==='manual'?' (수동)':env.fgiSource==='cache'?' (PC캐시)':'') : '조회 불가', '참고'],
   ];
   envTable.innerHTML = rows.map(([l,v,p])=>`<tr><td>${l}</td><td class="v">${v}</td><td class="pt">${p}</td></tr>`).join('');
-  document.getElementById('fgiSourceLabel').textContent = env.fgi==null ? '자동 조회 실패 - 아래에 직접 입력해보세요' : (env.fgiSource==='auto' ? '(비공식 소스에서 자동 조회됨)' : '');
+  document.getElementById('fgiSourceLabel').textContent = env.fgi==null ? '자동 조회 실패 - 아래에 직접 입력해보세요'
+    : (env.fgiSource==='auto' ? '(비공식 소스에서 방금 자동 조회됨)'
+      : env.fgiSource==='cache' ? '(실시간 조회 실패 - PC가 미리 받아둔 값으로 대체)' : '');
 }
 
 function renderThemeFilter(){

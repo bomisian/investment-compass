@@ -3508,16 +3508,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786671816.4291923,
-    "_updated_label": "2026-08-14 10:43"
+    "_fetched_at": 1786675452.502112,
+    "_updated_label": "2026-08-14 11:44"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786671816.4291923,
-    "_updated_label": "2026-08-14 10:43"
+    "_fetched_at": 1786675452.502112,
+    "_updated_label": "2026-08-14 11:44"
   },
   "ORCL": {
     "annual": [
@@ -5985,8 +5985,8 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
-    "_fetched_at": 1786671816.4291923,
-    "_updated_label": "2026-08-14 10:43",
+    "_fetched_at": 1786675452.502112,
+    "_updated_label": "2026-08-14 11:44",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
