@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.41000366210938,
+      "current": 82.4000015258789,
       "prevClose": 81.25,
-      "changeAbs": 1.160003662109375,
-      "changePct": 1.427696814903846,
+      "changeAbs": 1.1500015258789062,
+      "changePct": 1.4153864933894231,
       "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.03850740264061,
-      "ma20": 82.50599975585938,
-      "ma60": 81.82583325703939,
-      "chg1m": 3.4600067138671875,
-      "chg3m": -18.759994506835938,
-      "chg1mPct": 4.382529255999198,
-      "chg3mPct": -18.543041263585216,
+      "drawdown1y": -27.04736276917511,
+      "ma20": 82.50549964904785,
+      "ma60": 81.82566655476889,
+      "chg1m": 3.4500045776367188,
+      "chg3m": -18.769996643066406,
+      "chg1mPct": 4.369860305249236,
+      "chg3mPct": -18.552927728358863,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.64800262451172,
+      "current": 99.63600158691406,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.3119964599609375,
-      "changePct": -0.31212131134303067,
-      "pctRank": 32.93556085918855,
+      "changeAbs": -0.32399749755859375,
+      "changePct": -0.32412715138662107,
+      "pctRank": 32.776451869530625,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9309103179357412,
-      "ma20": 100.40340042114258,
-      "ma60": 100.32646700541179,
-      "chg1m": -1.082000732421875,
-      "chg3m": 0.76800537109375,
-      "chg1mPct": -1.0741593332304769,
-      "chg3mPct": 0.7767044826320547,
+      "drawdown1y": -1.942721200255948,
+      "ma20": 100.40280036926269,
+      "ma60": 100.32626698811849,
+      "chg1m": -1.0940017700195312,
+      "chg3m": 0.7560043334960938,
+      "chg1mPct": -1.0860733977571413,
+      "chg3mPct": 0.7645675106144495,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4431.10009765625,
+      "current": 4432.0,
       "prevClose": 4363.60009765625,
-      "changeAbs": 67.5,
-      "changePct": 1.546887856113469,
+      "changeAbs": 68.39990234375,
+      "changePct": 1.5675107895539862,
       "pctRank": 91.48766905330152,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.683585683289415,
-      "ma20": 4177.160009765625,
-      "ma60": 4215.868334960937,
-      "chg1m": 445.5,
-      "chg3m": -247.0,
-      "chg1mPct": 11.17773958962863,
-      "chg3mPct": -5.279921225365574,
+      "drawdown1y": -16.666665136503276,
+      "ma20": 4177.205004882812,
+      "ma60": 4215.883333333333,
+      "chg1m": 446.39990234375,
+      "chg3m": -246.10009765625,
+      "chg1mPct": 11.200318431501882,
+      "chg3mPct": -5.260684733521356,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
+      "datetime": 1786739920,
+      "headlineKo": "트럼프, 이란 수사 확대하면서 미국인들에게 휘발유 가격 인상을 받아들일 것을 촉구 - 로이터 통신"
+    },
+    {
+      "headline": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
+      "datetime": 1786735307,
+      "headlineKo": "유조선 공격에 유가 1달러 이상 상승, 평화에 대한 진전 없음 - 로이터"
+    },
+    {
       "headline": "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
@@ -231,13 +245,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
       "datetime": 1786728417,
       "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - 로이터 통신"
-    },
-    {
-      "headline": "Oil climbs on tanker attacks, US-Iran claims about Hormuz control - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
-      "datetime": 1786725264,
-      "headlineKo": "유조선 공격으로 유가 상승, 미국-이란, 호르무즈 통제 주장 - 로이터 통신"
     },
     {
       "headline": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSnhVUFlGN1hNN0dsY0Z2cERoTHZwRDBuMUZMWnBnM1RJMnlpWGx5SDE2UHlUcjRBTDlmNzE1Z1dmazllSzVoSU9BYlppN2xlWEFXMUVJb242WlR3aGVrcGZhblBWQzdpTS1qT3dEdGlOZ1o5NHZUWFRKTkVCcWpYa25UbWJLMTI4VnNtZTlpTFhvZjFnS0xPdFpLVkw3bUtEZWFiN3pubkxvaU5LWFRVTWc4dDFFNU1XXzZieURGR01ZZ29odTZhdQ?oc=5",
       "datetime": 1786712915,
       "headlineKo": "드론 침입으로 NATO의 발트해와 핀란드 국경에 공포와 혼란이 심해졌습니다 - Reuters"
-    },
-    {
-      "headline": "Wall St futures muted as higher oil prices temper risk appetite after S&P record close - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOODBmUXllM0JmeFUycXhzSF9tekVEc094VlpCWnFsZ1JsMHo2Y2JEMGJnUmlPLWZOZEFJRy01UnR6VHdRODJMUEJlY3IxeXlXYWNrZHN2YUhoaS1EeVRyZDJCTUlvRkw0Rmp3d1MtZjBIb2dwVnhGbTg2YTc4MF9ONmVRdm9VTVBSdXVyY0VFZHUxRFhoTWJRUkg2YWI0SEw5WVVyYjZraTdFeG1zQTVJTWhXSFdDSnBLUVhXTXBR?oc=5",
-      "datetime": 1786706143,
-      "headlineKo": "S&P 기록 마감 후 유가 상승으로 위험 선호도가 완화되면서 월스트리트 선물이 잠잠해졌습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786741202.8783755,
-  "_updated_label": "2026-08-15 06:00"
+  "_fetched_at": 1786744802.892842,
+  "_updated_label": "2026-08-15 07:00"
 };
