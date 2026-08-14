@@ -82,8 +82,26 @@ const BUSINESS_NOTES = {
     }],
   },
   GOOGL: {
-    // 사업 요약(customers/strengths/risks)은 아직 안 씀 - 이 종목은 실적 해석 파일럿용으로만
-    // 먼저 추가함(사용자가 예시로 든 "구글 순이익이 투자이익 때문에 잘 나왔다" 케이스 검증).
+    updated: "2026-08-13",
+    customers: [
+      "광고주 전반(검색+유튜브) - 매출의 절대다수 비중, 여전히 핵심 수익원",
+      "기업 고객(구글 클라우드) - 백로그가 2026년 1분기에 전분기 대비 거의 2배로 늘어 $460B에 육박, AI 인프라 수요가 배경",
+      "구독자 약 3.5억명(유튜브 프리미엄·뮤직·구글원 등, 2026년 1분기 기준)",
+    ],
+    strengths: [
+      "검색이 AI 기능(AI Overviews 등) 힘입어 여전히 성장 중(2026년 1분기 +19%) - 'AI가 검색을 대체한다'는 우려와 달리 아직은 성장 동력",
+      "구글클라우드 매출 성장이 오히려 가속(1분기 +63% → 2분기 +82%, 2분기 매출 $247.7억) - AI 인프라 수요 직접 수혜",
+      "유튜브 광고 매출 견조(2분기 $110.6억)로 검색 의존도를 낮추는 다각화 진행 중",
+    ],
+    risks: [
+      "⚠️ 차세대 플래그십 AI모델 '제미나이 3.5 프로' 출시가 CEO의 공개 약속을 어기며 수개월째 지연 중 - 앤트로픽·오픈AI 대비 AI 모델 경쟁력 우려(상세 내용은 아래 newsLog 참고)",
+      "광고 매출 의존도가 여전히 높음 - AI 검색으로 사용자가 링크 클릭 없이 AI 답변만 보고 끝내는 행동이 늘면 기존 광고 수익모델 자체가 구조적으로 위협받을 수 있다는 업계 우려가 있음(아직 매출 숫자로는 확인 안 됨 - 위 강점의 +19% 성장과 상충되는 우려라는 점에 유의)",
+    ],
+    sources: [
+      {title:"Google Revenue Breakdown by Segment: $307B (2026) (FourWeekMBA)", url:"https://fourweekmba.com/google-revenue-breakdown/"},
+      {title:"Alphabet reports Q2 2026 revenue of $119.8 billion (9to5Google)", url:"https://9to5google.com/2026/07/22/alphabet-q2-2026-earnings/"},
+      {title:"YouTube Ad Sales Increase 13% in Q2 2026: Alphabet Earnings Results (Variety)", url:"https://variety.com/2026/digital/news/youtube-q2-2026-ad-sales-alphabet-google-earnings-results-1236818132/"},
+    ],
     analystLog: [
       {
         date: "2026-08-10",
@@ -119,6 +137,25 @@ const BUSINESS_NOTES = {
     ],
   },
   META: {
+    updated: "2026-08-13",
+    customers: [
+      "광고주 전반(Family of Apps: 페이스북·인스타그램·왓츠앱·메신저) - 매출 절대다수 비중",
+      "리얼리티랩(Reality Labs) 소비자 - 퀘스트 VR 헤드셋, AI 글래스",
+    ],
+    strengths: [
+      "광고 매출 견조 성장(2026년 2분기 +27%, $593.6억) - 광고 노출수 +14%·평균단가 +12% 둘 다 오르는 건강한 성장",
+      "AI 글래스 매출이 리얼리티랩 성장을 이끔(2분기 +16%) - 퀘스트 헤드셋 판매 둔화를 일부 상쇄",
+    ],
+    risks: [
+      "⚠️ 리얼리티랩(VR/AI 하드웨어) 손실이 계속 확대 중(2분기 영업손실 $46.2억) - AI·VR 투자가 아직 수익으로 안 이어지는 구조",
+      "2026년 AI 설비투자 가이던스가 $1,250~1,450억으로 막대함(엔비디아·AMD 등과 파트너십으로 데이터센터·커스텀칩 투자) - 투자 회수 시점이 불확실",
+      "EU 규제 압박 심화 - 디지털시장법(DMA) 준수, AI법 '시스템 리스크' 조사, 반독점 잠정조치까지 받은 상태(2026년 기준 진행 중)",
+    ],
+    sources: [
+      {title:"Meta Platforms (META): Navigating AI Spending Surge and Regulatory Challenges in 2026 (Tickeron)", url:"https://tickeron.com/blogs/meta-platforms-meta-navigating-ai-spending-surge-and-regulatory-challenges-in-2026-13247/"},
+      {title:"Meta Q2 2026: Revenue Hits $60.8B, EPS Misses as Reality Labs Loses $4.6B (GamesReviews)", url:"https://gamesreviews.com/news/07/meta-q2-2026-revenue-hits-60-8b-eps-misses-as-reality-labs-loses-4-6b/"},
+      {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
+    ],
     analystLog: [{
       date: "2026-08-11",
       period: "2025-09-30 마감 분기(3분기) - 이후 분기는 정상화됨",
@@ -134,6 +171,27 @@ const BUSINESS_NOTES = {
     }],
   },
   PLTR: {
+    updated: "2026-08-13",
+    customers: [
+      "미국·동맹국 정부기관(국방·정보·국경보안·의료·재난대응) - Gotham·Foundry 플랫폼 사용, 전통적으로 매출의 큰 축",
+      "상업(민간기업) 고객 - AIP(AI 플랫폼) 출시 이후 급성장, 2026년 미국 상업 고객 수 전년비 +42%",
+      "전체 고객사 수 2026년 약 1,166개 전망(2025년 954개) - 고객당 평균 매출은 약 $670만로 증가 추세",
+    ],
+    strengths: [
+      "정부·상업 두 축 모두 고성장 - 2026년 상업 매출 +89%(전망 $39억)로 정부 매출 +58%($38억)보다 더 빠르게 성장, 상업 비중이 처음으로 정부를 추월할 전망(51%)",
+      "AIP(AI 플랫폼)가 정부·상업 양쪽에서 실적 변곡점 역할 - 도입 기업의 실제 업무 적용 사례가 빠르게 늘고 있음",
+      "'Rule of 40'(매출성장률+이익률) 145%로 엔비디아·마이크론급 소수만 도달하는 수준(analystLog 참고)",
+    ],
+    risks: [
+      "⚠️ 매우 높은 밸류에이션이 핵심 리스크 - 트레일링 PER 150배 이상, 선행 PSR 40배 이상. 85~100배 선행 PER에서는 매출 성장률이 예상치를 10%p만 밑돌아도 배수가 100배→60배로 압축되며 주가 40% 하락 가능성이 있다는 분석이 있음",
+      "고객 집중 리스크 - 전체 고객사는 125개 안팎(정부+상업)뿐이고 매출의 3분의 2가 상위 20개 고객에서 나옴. 대형 고객 하나를 잃으면 영향이 큼",
+      "정부 계약 의존도가 높아 규제·예산 변화에 민감하고, 앤트로픽 등 민첩한 AI 경쟁사의 추격이 거세지는 중",
+    ],
+    sources: [
+      {title:"Consensus shows Palantir's revenue shifting toward commercial segment (S&P Global)", url:"https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/06/consensus-shows-palantir-s-revenue-shifting-toward-commercial-segment"},
+      {title:"Palantir: 3 Reasons That Could Pressure The Stock Down To $100 (Seeking Alpha)", url:"https://seekingalpha.com/article/4890388-palantir-3-reasons-that-could-pressure-the-stock"},
+      {title:"Palantir Q1 FY 2026 Revenue Beats Estimates, US Demand Drives Outlook Raise (Futurum Group)", url:"https://futurumgroup.com/insights/palantir-q1-fy-2026-revenue-beats-estimates-us-demand-drives-outlook-raise/"},
+    ],
     analystLog: [{
       date: "2026-08-11",
       period: "5개 분기 연속 마진 상승 (2025-03 마감 24.2% → 2026-03 마감 53.3%)",
@@ -189,6 +247,25 @@ const BUSINESS_NOTES = {
   // 자동 탐지함(10종목 감지) - 그중 결정에 중요해 보이는 5개(메모리 3종목+MRVL+INTC)를 조사해
   // 추가함. 나머지(NVDA·META·PLTR)는 아직 미착수 - 필요시 요청.
   MU: {
+    updated: "2026-08-13",
+    customers: [
+      "AI 데이터센터 기업(클라우드메모리 부문, +100% YoY 최대 성장) - 엔비디아 등에 HBM(고대역폭메모리) 공급, 블랙웰 B200/B300 플랫폼에 탑재",
+      "전략적 고객 16곳과 장기공급계약 체결 - D램 물량의 약 20%·낸드 물량의 약 3분의 1을 차지(대형고객 4곳+중견고객 3곳)",
+      "모바일·PC 제조사(모바일&클라이언트 부문, +63%), 자동차·산업(+49%)",
+    ],
+    strengths: [
+      "2026년 HBM 공급이 이미 완판(가격·물량 모두 계약 완료) - 차세대 HBM4까지 포함해 공급부족 상태가 지속될 전망",
+      "메모리(D램·낸드) 슈퍼사이클 한가운데 있음 - AI 데이터센터가 전세계 메모리 공급의 상당 부분을 소비하며 가격이 분기마다 급등",
+      "4대 사업부문(클라우드메모리·코어데이터센터·모바일클라이언트·자동차임베디드) 전부 두 자릿수 이상 성장",
+    ],
+    risks: [
+      "⚠️ 현재의 폭발적 성장은 회계상 '1회성'이 아니라 산업 사이클(메모리 슈퍼사이클)이라는 점을 명확히 구분해야 함 - 사이클은 과거에도 항상 꺾인 전례가 있어서 영원하지 않음(상세는 analystLog 참고)",
+      "메모리는 전통적으로 가격 변동성이 매우 큰 상품(commodity) 성격의 사업 - 공급 과잉 국면이 오면 가격·마진이 빠르게 반전될 수 있음",
+    ],
+    sources: [
+      {title:"Micron Technology Q1 FY 2026 Sets Records; Strong Q2 Outlook (Futurum Group)", url:"https://futurumgroup.com/insights/micron-technology-q1-fy-2026-sets-records-strong-q2-outlook/"},
+      {title:"Micron Technology (MU): Sold-Out HBM Supply and AI Tailwinds Point to Strong 2026 Growth (Tickeron)", url:"https://tickeron.com/blogs/micron-technology-mu-sold-out-hbm-supply-and-ai-tailwinds-point-to-strong-2026-growth-12100/"},
+    ],
     analystLog: [{
       date: "2026-08-10",
       period: "최근 3개 분기 연속 매출·마진 폭증 (2025-11 마감→2026-02 마감→2026-05 마감 추정)",
@@ -204,6 +281,24 @@ const BUSINESS_NOTES = {
     }],
   },
   SNDK: {
+    updated: "2026-08-13",
+    customers: [
+      "하이퍼스케일러(아마존·마이크로소프트·구글 등) - 엔터프라이즈·데이터센터向 고용량 SSD, 현재 최대 성장엔진",
+      "PC 제조사(OEM), NAS(네트워크 스토리지) 업체 - USB드라이브·메모리카드·내장형 SSD",
+    ],
+    strengths: [
+      "낸드(NAND) 플래시 메모리 한 분야에 집중된 전문 사업모델 - 2025년 2월 웨스턴디지털에서 분사 이후 독립기업으로서 고속 성장",
+      "2026년 들어 주가 약 500% 급등 - S&P500 내 최고 상승률 종목 중 하나로 낸드 슈퍼사이클의 대표 수혜주",
+      "매출 성장 +250% YoY(3분기), 비GAAP 매출총이익률 78.4%까지 확대",
+    ],
+    risks: [
+      "⚠️ 현재의 폭발적 성장·마진 확대는 산업 사이클(낸드 슈퍼사이클)에 기인 - 1회성 회계 이벤트가 아니지만 동시에 영원한 추세도 아님, 사이클 하강 국면에서는 반대로 급락할 수 있음(상세는 analystLog 참고)",
+      "낸드 단일 제품 집중 사업모델이라 D램 등으로 다각화된 경쟁사 대비 사이클 변동에 더 크게 노출됨",
+    ],
+    sources: [
+      {title:"Deep Dive: SanDisk (SNDK) and the 2026 NAND Flash Shortage (FinancialContent)", url:"https://www.financialcontent.com/article/finterra-2026-3-31-deep-dive-sandisk-sndk-and-the-2026-nand-flash-shortage"},
+      {title:"SanDisk Stock Analysis 2026: NAND Supercycle, HBF & AI Storage (Market Digests)", url:"https://marketdigests.com/sandisk-stock-analysis-2026/"},
+    ],
     analystLog: [{
       date: "2026-08-10",
       period: "최근 2개 분기 매출 급증 (2026-01 마감→2026-04 마감 추정, SNDK는 2025년 WDC에서 분사)",
@@ -219,6 +314,24 @@ const BUSINESS_NOTES = {
     }],
   },
   WDC: {
+    updated: "2026-08-13",
+    customers: [
+      "AI 데이터센터·클라우드 기업(매출의 약 90%) - 대용량 HDD(하드디스크) 대량 구매, 상위 7개 고객사가 생산량 대부분을 차지",
+      "일부 고객사와는 2027~2028년까지의 장기공급계약까지 이미 체결",
+    ],
+    strengths: [
+      "2026년 HDD 생산능력이 이미 전량 매진 - AI 데이터센터가 예정보다 앞당겨 몇 년치 물량을 미리 확보하려는 수요",
+      "SSD 사업에서 철수하고 HDD(하드디스크)에만 집중하는 전략 - 대용량 저장에서는 HDD가 SSD보다 약 7배 저렴해 AI 시대 벌크 스토리지 수요에 최적화",
+      "레거시 소비자·PC용 HDD 사업도 여전히 이익을 내는 캐시카우로 유지",
+    ],
+    risks: [
+      "⚠️ 마진이 급격히 확대된 배경(96%까지 치솟은 사례 등)에 지분법 이익 등 정확한 요인이 아직 다 확인되지 않음 - 산업 사이클(메모리·스토리지 슈퍼사이클) 자체는 맞지만 세부 요인은 다음 갱신 때 추가 확인 필요(정직하게 미확정으로 남겨둠, analystLog 참고)",
+      "생산능력이 이미 매진된 상태라 추가 수요가 와도 단기간에 공급을 늘리기 어려움 - 반대로 수요가 꺾이면 고정비 부담 노출",
+    ],
+    sources: [
+      {title:"Western Digital's HDD production for 2026 is already sold out (TechSpot)", url:"https://www.techspot.com/news/111346-western-digital-hdd-production-capacity-2026-already-sold.html"},
+      {title:"Western Digital's entire 2026 HDD stock is gone as enterprise AI contracts gobble up all available storage capacity (TechRadar)", url:"https://www.techradar.com/pro/were-pretty-much-sold-out-for-calendar-2026-western-digital-ceo-says-storage-firm-is-completely-sold-out-of-hdd-capacity-already-so-does-that-mean-more-price-rises-to-come"},
+    ],
     analystLog: [{
       date: "2026-08-10",
       period: "최근 3개 분기 연속 마진 급등 (2025-12 마감→2026-03 마감→2026-06 마감 추정)",
@@ -233,6 +346,25 @@ const BUSINESS_NOTES = {
     }],
   },
   MRVL: {
+    updated: "2026-08-13",
+    customers: [
+      "4대 하이퍼스케일러(구글·아마존·마이크로소프트 등으로 추정) - AI 커스텀 실리콘(XPU) 설계, 현재 활성 프로그램 18개 중 12개가 이들 대상",
+      "신흥 AI 고객사 6곳 - 나머지 커스텀 실리콘 프로그램",
+      "통신사(캐리어 인프라)·기업 네트워킹·자동차/산업 고객 - 전통적 사업 축",
+    ],
+    strengths: [
+      "AI 관련 매출이 전체의 35% 이상까지 확대 - '데이터센터 우선' 전략으로 성공적 전환 중",
+      "데이터센터 부문 매출 +37.8% 성장(3분기 $15.2억), 커스텀 실리콘이 데이터센터 매출의 약 4분의 1 차지하며 내년에도 20%+ 성장 전망",
+      "커넥티비티·광통신·스토리지 등 AI 인프라 전반에 걸친 폭넓은 제품 포트폴리오",
+    ],
+    risks: [
+      "⚠️ GAAP 순이익과 비GAAP 순이익 괴리가 매우 큼(2026 회계연도 1분기 GAAP $34.5M vs 비GAAP $718.0M) - 잦은 인수합병에 따른 주식보상비용·무형자산 상각이 구조적으로 GAAP 이익을 짓누름(상세는 analystLog 참고)",
+      "소수 하이퍼스케일러 고객에 대한 커스텀 실리콘 매출 의존도가 높음 - 이들의 자체 반도체 내재화(인하우스 설계) 전환 시 리스크",
+    ],
+    sources: [
+      {title:"Is Surging AI Custom Silicon Demand Reshaping the Investment Case for Marvell Technology (Yahoo Finance)", url:"https://finance.yahoo.com/news/surging-ai-custom-silicon-demand-042534281.html"},
+      {title:"Marvell Q1 FY 2026 Results Driven by Custom Silicon and Data Center Momentum (Futurum Group)", url:"https://futurumgroup.com/insights/marvell-q1-fy-2026-results-driven-by-custom-silicon-and-data-center-momentum/"},
+    ],
     analystLog: [{
       date: "2026-08-10",
       period: "2026-06-01 마감 분기(회사 발표 기준 FY2027 1분기)",
@@ -248,6 +380,25 @@ const BUSINESS_NOTES = {
     }],
   },
   INTC: {
+    updated: "2026-08-13",
+    customers: [
+      "PC 제조사·소비자(CCG 부문) - 유통사·OEM에 프로세서 공급, 매출 $77억(+1%)",
+      "클라우드서비스사업자·기업(DCAI 부문) - 서버·통신·고성능컴퓨팅용, 매출 $51억(+22%, 하이퍼스케일러 서버 수요 견인)",
+      "외부 반도체 설계사(파운드리 부문) - 인텔 파운드리가 타사 칩 위탁생산 서비스 시작, 매출 $54억(+16%)",
+    ],
+    strengths: [
+      "데이터센터·AI(DCAI) 부문이 하이퍼스케일러 서버 수요에 힘입어 +22~59%(분기별) 고성장 중",
+      "파운드리 사업도 외부 고객 확보하며 +16% 성장 - 위탁생산 진입이 실제 매출로 나타나기 시작",
+      "CCG(PC) 부문은 정체 수준이지만 감소하진 않는 안정적 캐시카우 역할",
+    ],
+    risks: [
+      "⚠️ 파운드리 사업 턴어라운드 과정에서 대형 비현금 손상차손·구조조정 비용이 반복돼 GAAP 순손실이 여러 분기 지속됨(상세는 analystLog 참고) - 제품 매출 자체는 개선 중이라는 점과 구분해서 봐야 함",
+      "파운드리가 TSMC·삼성 대비 후발주자라 외부 고객을 얼마나 더 확보하느냐가 관건 - 아직 흑자전환 시점 불투명",
+    ],
+    sources: [
+      {title:"Intel Q2 FY 2026: Hyperscaler Server Demand Drives 59% DCAI Growth (Futurum Group)", url:"https://futurumgroup.com/insights/intel-q2-fy-2026-hyperscaler-server-demand-drives-59-dcai-growth/"},
+      {title:"Intel Outlines Financial Framework for Foundry Business, Sets Path to Margin Expansion (Intel Newsroom)", url:"https://newsroom.intel.com/corporate/intel-outlines-financial-framework-for-foundry-business-sets-path-to-margin-expansion"},
+    ],
     analystLog: [{
       date: "2026-08-10",
       period: "2026년 여러 분기 연속 대규모 GAAP 순손실 (2026-03 마감 분기 -$3.7B 등)",
@@ -272,6 +423,24 @@ const BUSINESS_NOTES = {
   // 뉴스(감원, 신용등급, 대형 계약 등) 하나하나를 다룸 - 둘 다 날짜순으로 쌓아가는 append-only
   // 로그이고 자동화 안 함(세션에서 요청할 때 Claude가 WebSearch로 조사해서 추가).
   ORCL: {
+    updated: "2026-08-13",
+    customers: [
+      "전세계 기업 데이터베이스·ERP 고객 - 오라클의 전통적 핵심 사업(레거시 강점)",
+      "AI 인프라 대형 고객(OCI 클라우드) - 메타·엔비디아·오픈AI·록히드마틴·에어프랑스-KLM 등과 수십억달러 규모 장기 계약 체결. 특히 오픈AI 한 곳이 전체 미청구잔고(RPO)의 약 54%(추정 $3,000억)를 차지할 정도로 비중이 큼",
+    ],
+    strengths: [
+      "미청구잔고(RPO, 앞으로 받을 계약금액)가 2026 회계연도 말 $638B로 전년비 +363%, 분기 대비로도 $850억 증가 - 향후 매출 성장이 상당 부분 이미 계약으로 확보된 상태",
+      "OCI(오라클 클라우드) 매출 +68% 성장, GPU 관련 매출은 세자릿수(100%대) 성장, 멀티클라우드 데이터베이스 사용량은 800% 넘게 급증",
+    ],
+    risks: [
+      "⚠️ RPO 중 오픈AI 한 회사 비중이 지나치게 커서(약 54%), 오픈AI의 계약 이행 능력이나 AI 투자 지속 여부에 오라클 미래 매출이 크게 좌우됨 - 고객 집중 리스크",
+      "이 막대한 수주를 실제로 지어내려면(데이터센터 건설) 계속 빚을 내야 하고, 감원·신용등급 강등·CDS 급등까지 겹친 재무 부담 심화 상황 - 상세 내용은 아래 newsLog 참고",
+    ],
+    sources: [
+      {title:"Oracle Q4 2026 Earnings: $638B Backlog Turns AI Cloud Growth into Funding Test (ERP Today)", url:"https://erp.today/oracle-q4-2026-earnings-ai-cloud-backlog-funding/"},
+      {title:"Oracle Reports on June 10, and Its Cloud Backlog Could Be the Next Big Test for the AI Infrastructure Trade (The Motley Fool)", url:"https://www.fool.com/investing/2026/06/08/oracle-reports-on-june-10-and-its-cloud-backlog-co/"},
+      {title:"Will Oracle's RPO Expansion Strengthen Long-Term Revenue Outlook? (Yahoo Finance)", url:"https://finance.yahoo.com/news/oracles-rpo-expansion-strengthen-long-165600242.html"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -300,6 +469,28 @@ const BUSINESS_NOTES = {
   // 발견됨(감원·CEO교체·마진급변·주가급락 등). AVGO만 조사 결과 특별한 사건 없이 기존에 이미
   // 알려진 AI매출 성장 추세뿐이라 항목을 추가하지 않음(억지로 채우지 않는다는 이 프로젝트 원칙).
   MSFT: {
+    updated: "2026-08-13",
+    customers: [
+      "기업 고객 전반(Azure 클라우드) - 포춘500 대부분 포함, 클라우드 매출이 연 $2,000억 규모 연환산 페이스",
+      "오피스365/M365 구독 - 전세계 기업·개인 사용자, 소비자용은 +24% 성장 중",
+      "링크드인 사용자(구인+광고) - 매출 $198억으로 윈도우 사업을 이미 추월",
+      "게임 사용자(엑스박스, 액티비전블리자드 인수 이후 콘텐츠 확장)",
+    ],
+    strengths: [
+      "생산성·클라우드·PC 3대 사업 균형 - 인텔리전트클라우드 매출 $393억(+32%), 그 중 Azure는 +43%로 더 빠르게 성장",
+      "AI(Copilot) 사업이 연환산 매출 $370억 돌파(전년비 +123%)로 빠르게 확대 중",
+      "링크드인이 윈도우를 추월할 만큼 신사업 다각화에 성공 - 특정 사업 하나에 대한 의존도가 낮음",
+    ],
+    risks: [
+      "⚠️ FTC가 클라우드·AI·소프트웨어 번들링(Entra ID, Copilot 등)까지 조사 범위를 넓힌 대형 반독점 조사가 진행 중(2026-02 경쟁사 6곳에 조사 요청서 발송) - 미국·영국·EU에서 동시 진행",
+      "AI 투자 대비 회수(ROI)에 대한 시장 의구심 - 연 $50B 이상 GPU 투자와 실제 고객 ROI 사이 격차가 우려 요인으로 지목됨",
+      "Copilot 유료전환율이 기대만큼 높지 않고, 엑스박스 하드웨어 매출은 감소 중(위 newsLog의 감원·스튜디오 분사와 같은 맥락)",
+    ],
+    sources: [
+      {title:"Which Microsoft businesses are growing and shrinking, according to obscure table in regulatory filing (GeekWire)", url:"https://www.geekwire.com/2026/which-microsoft-businesses-are-growing-and-shrinking-according-to-obscure-table-in-regulatory-filing/"},
+      {title:"Microsoft facing its biggest US FTC antitrust investigation yet (TechRadar)", url:"https://www.techradar.com/pro/microsoft-facing-its-biggest-us-ftc-antitrust-investigation-yet"},
+      {title:"Microsoft Antitrust Probe Widens: 6 Rivals Queried (Tech Insider)", url:"https://tech-insider.org/microsoft-antitrust-probe-cloud-ai-2026/"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -317,6 +508,27 @@ const BUSINESS_NOTES = {
     ],
   },
   AMZN: {
+    updated: "2026-08-13",
+    customers: [
+      "전세계 소비자(온라인 리테일) - 매출 비중 약 74%로 여전히 핵심",
+      "기업 고객(AWS 클라우드) - 매출 비중 약 17%, AI 워크로드 수요로 연 $1,470억까지 성장(+28%)",
+      "광고주(아마존 광고) - 매출 비중 약 9%, 2분기 $198억(+26%)로 2026년 연 $800억 돌파 전망",
+    ],
+    strengths: [
+      "AWS AI 매출 연환산 $250억 돌파, 세자릿수(100%대) 성장률 지속 - 클라우드 내 AI 비중이 빠르게 확대",
+      "광고 사업이 고마진 사업으로 빠르게 성장하며 전체 수익성 개선에 기여",
+      "북미 리테일이 AI 기반 재고관리·추천 시스템으로 매출 $3,850억까지 확대, 국제 부문도 $1,420억로 회복세",
+    ],
+    risks: [
+      "⚠️ 2026년 10월 FTC 독점 재판이 예정돼 있음 - 패소 시 3자 판매자(마켓플레이스) 생태계 강제 분리 등 사업구조 재편 리스크",
+      "EU 디지털시장법(DMA)으로 이미 Buy Box 노출 방식·데이터 공유 방식이 강제 변경됨(2026-03) - 미준수 시 대규모 벌금 위험 지속",
+      "2026년 설비투자 $2,000억(AI 데이터센터 + 위성인터넷 '프로젝트 리오') - 이 정도 규모의 투자는 2027~2028년까지 ROI가 안 나올 경우 마진 압박으로 이어질 수 있음(같은 맥락의 감원 소식은 위 newsLog 참고)",
+    ],
+    sources: [
+      {title:"How Should Amazon Be Regulated? (GovFacts)", url:"https://govfacts.org/tech-innovation/tech-competition/platform-regulation/debating-how-to-regulate-amazon-antitrust-labor-practices-and-privacy/"},
+      {title:"Amazon Risk Management: Six Threats That Could Derail Your Business in 2026 (Canopy Management)", url:"https://canopymanagement.com/navigating-amazons-invisible-challenges-a-strategic-analysis/"},
+      {title:"Amazon Statistics 2026: $574B Revenue, AWS Breakdown & Market Dominance (BusinessStats)", url:"https://businesstats.com/amazon-statistics-facts/"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -334,6 +546,26 @@ const BUSINESS_NOTES = {
     ],
   },
   AAPL: {
+    updated: "2026-08-13",
+    customers: [
+      "전세계 소비자 - 활성기기 25억대 설치기반(아이폰이 매출의 절반 이상), 아이폰 고객 재구매율 89%로 업계 최고 수준(삼성 약 77%)",
+      "서비스 구독자 - 앱스토어·아이클라우드·애플페이 등, 서비스가 매출 비중 2위(약 28%)로 확대 중",
+    ],
+    strengths: [
+      "아이폰 매출이 여전히 사상 최대 경신 중(2026 회계연도 1분기 $852.7억, +23% YoY) - 매출 절반 이상을 차지하는 핵심 사업이 꺾이지 않음",
+      "서비스 매출도 사상 최대(1분기 $300억, +14%) - 하드웨어 판매주기가 길어져도 서비스로 수익을 보완하는 구조",
+      "25억대라는 압도적 설치기반과 89% 재구매율 - 한 번 아이폰을 쓰면 계속 애플 생태계에 머무는 '락인' 효과가 강함",
+    ],
+    risks: [
+      "⚠️ AI 경쟁에서 1~2년 뒤처졌다는 평가(Needham 등) - 대대적으로 개편된 시리(Siri) 2.0이 2026년으로 미뤄졌고, 경쟁사(오픈AI 등) 수준에 못 미치면 '혁신 기업' 이미지에 타격 가능",
+      "중국 매출 비중 18%($205억, 2026 2분기)인데 미중 무역긴장·관세 위협 + 중국 내 자국 브랜드 점유율 확대로 압박 지속. 대만해협 긴장 고조 시엔 생산기지 자체가 리스크",
+      "DOJ 반독점 소송이 최대 위협 - 아이메시지·NFC칩 개방이 강제되면 '울타리 정원' 전략(프리미엄 가격의 기반)이 흔들릴 수 있음. EU에서 이미 DMA 위반으로 벌금 부과됨",
+      "팀 쿡→존 터너스 CEO 교체가 2026-09-01 예정(상세 내용은 아래 newsLog 참고) - 리더십 전환 시기와 위 리스크들이 겹침",
+    ],
+    sources: [
+      {title:"Apple Stock Analysis: Challenges to Growth and Value Transition (IndexBox)", url:"https://www.indexbox.io/blog/apple-stock-growth-challenges-iphone-saturation-china-competition-and-regulatory-risks/"},
+      {title:"Apple's Services Business Was a Major Catalyst Last Year, and 2026 Will Likely Be Even Better (Yahoo Finance)", url:"https://finance.yahoo.com/news/apples-services-business-major-catalyst-182600661.html"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -350,6 +582,26 @@ const BUSINESS_NOTES = {
     ],
   },
   TSLA: {
+    updated: "2026-08-13",
+    customers: [
+      "전기차 구매 소비자(자동차 부문이 매출 대부분, 2026 1분기 $199.8억) - 판매·리스, 중고차·유지보수·충전·보험 등 부가서비스 포함",
+      "에너지 저장 고객(메가팩-유틸리티급, 파워월-가정용, 솔라루프) - 마진율 기준 가장 빠르게 크는 사업(1분기 매출 $24.1억)",
+      "(미래) 로보택시 승객, 옵티머스 휴머노이드 로봇 구매 기업 - 아직 본격 매출 전 단계",
+    ],
+    strengths: [
+      "에너지 저장 사업이 마진 기준 최고 성장 사업 - 자동차 판매 둔화를 일부 상쇄",
+      "로보택시가 미국 7개 도시로 확대(newsLog 참고), 그록(Grok) AI 어시스턴트 등 소프트웨어 기능 지속 확장",
+      "1분기 82만대 이상 생산 등 대량생산 능력 유지",
+    ],
+    risks: [
+      "⚠️ 영업이익률이 4.1%→1.4%로 급락(로보택시·AI 투자 확대가 원인) - 자세한 내용은 아래 newsLog 참고",
+      "로보택시 매출 확대 시점이 머스크가 예고했던 속도보다 계속 늦어지는 중 - 계획 신뢰도에 대한 의구심",
+      "2025년 판매량이 전년비 -9%, 사이버트럭은 -48%로 감소 - 핵심 자동차 사업 자체는 정체·역성장 국면",
+    ],
+    sources: [
+      {title:"Tesla in 10 Charts: How the Business Works, Visualized (2026) (Business Model Analyst)", url:"https://businessmodelanalyst.com/tesla-in-charts/"},
+      {title:"Tesla (TSLA) Stock in 2026: Robotaxis, Optimus, Declining EV Sales, and How to Trade (Phemex)", url:"https://phemex.com/academy/tesla-tsla-stock-2026"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -367,6 +619,26 @@ const BUSINESS_NOTES = {
     ],
   },
   CRM: {
+    updated: "2026-08-13",
+    customers: [
+      "영업·고객서비스 부서 - Sales Cloud(매출 비중 22%)·Service Cloud(24%, 최대 매출원) 사용 기업",
+      "마케팅·커머스·통합분석 고객 - Marketing/Commerce Cloud(13%), Integration/Analytics(15%, Slack·Tableau·MuleSoft 포함)",
+      "AI 에이전트 도입 기업 - 2025년 대대적 리브랜딩으로 전 제품군을 'Agentforce'(AI 자율 에이전트) 중심으로 재편 중",
+    ],
+    strengths: [
+      "여러 클라우드(영업·서비스·마케팅·커머스)에 걸친 매출 다각화 - 특정 제품 하나에 대한 의존도가 낮음",
+      "구독 기반 매출 구조로 안정적 반복 매출(recurring revenue)",
+      "Agentforce로 AI 에이전트를 전 제품에 결합하는 대규모 전환 진행 중 - 시장이 주목하는 차기 성장동력",
+    ],
+    risks: [
+      "⚠️ Agentforce가 기대만큼 빠르게 수익화될 수 있을지가 시장의 핵심 의문 - 8/26 실적 발표를 앞두고 주가가 크게 흔들리는 배경(상세는 아래 newsLog 참고)",
+      "8/5 엔지니어링·고객성공 총괄 사장 사임 - 실행 리스크에 대한 불확실성 추가(아래 newsLog 참고)",
+      "마이크로소프트 Dynamics 365, 허브스팟 등과 CRM·AI 에이전트 시장에서 경쟁 심화",
+    ],
+    sources: [
+      {title:"Salesforce Revenue Breakdown By Segment (Bullfincher)", url:"https://bullfincher.io/companies/salesforce/revenue-by-segment"},
+      {title:"Salesforce Agentforce Guide 2026: Products, AI Agents & Use Cases (Vantage Point)", url:"https://vantagepoint.io/blog/sf/the-complete-guide-to-salesforces-agentforce-ecosystem-understanding-the-full-product-portfolio-in-2026"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -383,6 +655,27 @@ const BUSINESS_NOTES = {
     ],
   },
   AMD: {
+    updated: "2026-08-13",
+    customers: [
+      "클라우드·AI 기업(데이터센터 부문, 매출 최대 비중) - EPYC 서버CPU·Instinct AI가속기, 메타·오픈AI·오라클 등에 'Helios' AI시스템 출하 시작(newsLog 참고)",
+      "PC 제조사·소비자(클라이언트 부문) - Ryzen 프로세서",
+      "게임기 제조사(게이밍 부문) - Radeon GPU + 콘솔용 반주문형(세미커스텀) 칩",
+      "산업·통신 고객(임베디드 부문) - 적응형·임베디드 컴퓨팅 플랫폼",
+    ],
+    strengths: [
+      "데이터센터 매출이 압도적으로 성장(2026 2분기 +107% YoY, $67억) - 전체 성장을 견인하는 핵심 엔진",
+      "클라이언트(PC) 부문도 견조(2분기 +23%) - 데이터센터 한 곳에 의존하지 않는 사업 균형",
+      "엔터프라이즈 신규 고객 확대 중(금융·헬스케어·산업·디지털인프라 분야) - 대형 고객 외 중견기업까지 저변 확대",
+    ],
+    risks: [
+      "⚠️ 어닝비트에도 주가가 하락하는 패턴 반복 - 이미 높은 기대치가 선반영돼 있다는 신호(상세는 아래 newsLog 참고)",
+      "게이밍 부문 매출 감소(2분기 -31%, 반주문형 매출 감소가 원인) - 데이터센터 외 사업의 변동성",
+      "엔비디아라는 압도적 1위 경쟁자가 있는 AI가속기 시장에서 점유율 확대가 관건",
+    ],
+    sources: [
+      {title:"AMD Q2 2026 slides: data center revenue doubles, stock falls after hours (Investing.com)", url:"https://www.investing.com/news/company-news/amd-q2-2026-slides-data-center-revenue-doubles-stock-falls-after-hours-93CH-4836240"},
+      {title:"AMD Reports Second Quarter 2026 Financial Results (AMD IR, 공식)", url:"https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -398,7 +691,50 @@ const BUSINESS_NOTES = {
       },
     ],
   },
+  AVGO: {
+    // 2026-08-13: newsLog 조사 당시엔 개별적으로 중요한 사건이 없어 뉴스 로그는 안 만들었지만
+    // (이미 알려진 AI매출 성장 추세뿐이었음), 사업 핵심 요약(customers/strengths/risks)은
+    // 뉴스 이벤트와 무관하게 항상 유효한 정적 정보라 여기서 별도로 작성함.
+    updated: "2026-08-13",
+    customers: [
+      "클라우드·하이퍼스케일러(반도체 부문 최대 고객) - AI 커스텀칩(맞춤형 ASIC/TPU류) 설계, 핵심 고객사 단 6곳에 집중",
+      "통신사·네트워크 장비사 - 이더넷 스위칭/라우팅 ASIC, 무선(5G)·광대역 부품",
+      "기업 IT 부서(VMware, 2023년 인수) - 가상화·프라이빗클라우드 소프트웨어, AI 워크로드 확장용 VMware Cloud Foundation",
+    ],
+    strengths: [
+      "AI 반도체 매출 급성장(2026 1분기 +106% YoY $84억, 3분기 가이던스 $160억·+200%대) - 커스텀 AI가속기·AI네트워킹 양쪽에서 고성장",
+      "VMware 인수로 소프트웨어 매출 안정화(2분기 약 $72억 전망) - 반도체 사이클 변동성을 완화하는 역할",
+      "반도체(팹리스 설계) + 소프트웨어(인프라) 두 축의 수익 다각화",
+    ],
+    risks: [
+      "⚠️ 고객 집중 리스크가 매우 큼 - AI 매출 대부분이 핵심 고객 단 6곳에 의존, 유통사 한 곳이 매출의 42%·상위 5개 고객이 약 50%를 차지",
+      "구글 등 핵심 고객이 칩 공급망을 다변화하려는 움직임 - 브로드컴의 지배적 지위를 위협할 수 있음",
+      "커스텀칩(TPU류) 비중이 커질수록 마진 압박 우려, 밸류에이션도 부담스러운 수준(선행 PER 약 39배)",
+    ],
+    sources: [
+      {title:"The Real Risk Inside Broadcom Stock (Trefis)", url:"https://www.trefis.com/stock/avgo/articles-v3/607057/the-real-risk-inside-broadcom-stock/2026-07-14"},
+      {title:"Broadcom Q2 FY 2026: VMware Stability Supports AI-Led Semiconductor Expansion (Futurum Group)", url:"https://futurumgroup.com/insights/broadcom-q2-fy-2026-vmware-stability-supports-ai-led-semiconductor-expansion/"},
+    ],
+  },
   ARM: {
+    updated: "2026-08-13",
+    customers: [
+      "전세계 반도체 설계사·기기 제조사(칩 자체는 안 만들고 설계도만 라이선스) - 퀄컴·애플·삼성 등 모바일 칩 대부분에 Arm 아키텍처 탑재",
+      "데이터센터·하이퍼스케일러 - 데이터센터향 로열티 매출이 전년비 2배 넘게 늘며 모바일을 제치고 최대 매출원으로 부상 중",
+    ],
+    strengths: [
+      "칩을 직접 만들지 않고 설계만 라이선스하는 '자산 가벼운(asset-light)' 사업모델 - 라이선스비 + 출하량당 로열티 이중 수익구조",
+      "고부가가치 Armv9 아키텍처 전환이 매출 성장과 마진 개선을 동시에 견인",
+      "2026-03 자체 설계 실리콘 'Arm AGI CPU'까지 영역 확장(2026년말 양산 목표) - 순수 라이선싱을 넘어선 신사업",
+    ],
+    risks: [
+      "⚠️ 극단적인 주가 변동성 - 한 달 새 시총이 반토막 났다가 실적 발표 하루 만에 18% 급반등(상세는 아래 newsLog 참고), 펀더멘털보다 밸류에이션 논쟁이 주가를 더 크게 움직이는 상태",
+      "로열티 수익 구조상 고객사(퀄컴 등)의 최종 기기 판매량에 실적이 연동 - 스마트폰 시장 둔화 시 영향",
+    ],
+    sources: [
+      {title:"Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/arm-holdings-robust-licensing-business-140600801.html"},
+      {title:"Arm 2026 Q2 Financials (More Than Moore / Ryan Smith, Dr. Ian Cutress)", url:"https://morethanmoore.substack.com/p/arm-2026-q2-financials"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -415,6 +751,23 @@ const BUSINESS_NOTES = {
     ],
   },
   ASML: {
+    updated: "2026-08-13",
+    customers: [
+      "대형 반도체 제조사(로직·파운드리·메모리) - 인텔·삼성·TSMC가 핵심 고객, 특히 TSMC가 전세계 EUV 장비 설치기반의 절반 이상을 보유",
+    ],
+    strengths: [
+      "EUV(극자외선 노광장비) 시장 점유율 90% 이상의 사실상 독점적 지위 - 첨단 반도체(5nm 이하) 생산에 필수 장비",
+      "시스템 판매(약 75%) + 설치기반 관리·서비스(약 25%)의 반복매출 구조로 경기 방어력 일부 확보",
+      "EUV 장비 한 대당 가격이 매우 높음(표준 EUV 약 €1.8억, 최신 High-NA는 €3.5억 이상) - 진입장벽이 극도로 높은 시장",
+    ],
+    risks: [
+      "⚠️ 중국向 매출 비중 축소 - 수출규제로 최선단 EUV는 애초에 중국에 못 팔고, DUV(구형)만 판매 가능(상세는 아래 newsLog 참고)",
+      "소수 초대형 고객(TSMC·삼성·인텔)에 대한 매출 집중도가 높음 - 이들의 설비투자 사이클에 실적이 크게 좌우됨",
+    ],
+    sources: [
+      {title:"ASML's Monopoly on EUV Lithography (Science & Technology News)", url:"https://science-technology.news-articles.net/content/2026/08/02/asml-s-monopoly-on-euv-lithography.html"},
+      {title:"ASML: The $360B EUV Lithography Equipment Giant (Data Gravity)", url:"https://www.datagravity.dev/p/asml-the-360b-euv-lithography-equipment"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -431,6 +784,25 @@ const BUSINESS_NOTES = {
     ],
   },
   AMAT: {
+    updated: "2026-08-13",
+    customers: [
+      "파운드리·로직 제조사(매출 비중 62%) - TSMC·삼성·인텔 등",
+      "메모리 제조사(D램 34%·낸드 4%) - 마이크론·삼성·SK하이닉스 등, 특히 1분기 D램향 매출이 사상 최대",
+      "디스플레이(OLED·LCD) 제조사 - 반도체 외 인접 시장",
+    ],
+    strengths: [
+      "2026년 반도체장비 사업 20%대 성장 전망 - 증착(deposition)·식각(etch)·전자빔 검사 분야에서 점유율 확대 중",
+      "첨단 패키징(HBM, 3D 칩렛 적층) 분야에서 강한 지위 - AI 반도체 트렌드의 직접 수혜",
+      "반도체 장비 외에도 서비스(Applied Global Services) 부문이 안정적 매출 기여",
+    ],
+    risks: [
+      "⚠️ 좋은 가이던스에도 주가가 고점대비 크게 하락하는 패턴(상세는 아래 newsLog 참고) - 반도체장비 섹터 전반의 밸류에이션 재평가 국면과 연동",
+      "소수 대형 고객사(TSMC·삼성·마이크론 등)의 설비투자 사이클에 실적이 크게 연동됨",
+    ],
+    sources: [
+      {title:"Applied Materials Q1 FY 2026: AI Demand Lifts Outlook (Futurum Group)", url:"https://futurumgroup.com/insights/applied-materials-q1-fy-2026-ai-demand-lifts-outlook/"},
+      {title:"Applied Materials expects 20% growth in semiconductor business in 2026 (Manufacturing Dive)", url:"https://www.manufacturingdive.com/news/applied-materials-reports-7b-q1-2026-revenue/812715/"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -447,6 +819,23 @@ const BUSINESS_NOTES = {
     ],
   },
   LRCX: {
+    updated: "2026-08-13",
+    customers: [
+      "메모리·파운드리·로직 제조사 - 3D낸드·D램·첨단 로직 생산업체가 핵심 고객, 아시아(대만·한국 등)에 고객이 집중",
+    ],
+    strengths: [
+      "식각(etch) 시장 점유율 약 55%, 증착(deposition) 시장 약 24%로 두 핵심 공정에서 지배적 지위",
+      "AI·클라우드발 고성능 반도체 수요가 3D 구조·게이트올어라운드(GAA) 트랜지스터 전환을 가속하며 직접 수혜",
+      "파운드리·로직 부문 매출이 TSMC의 2nm·GAA 전환에 힘입어 크게 성장 중",
+    ],
+    risks: [
+      "⚠️ 실적 서프라이즈에도 주가가 한 달 새 20% 넘게 하락하는 패턴(상세는 아래 newsLog 참고) - 반도체장비 섹터 전반의 밸류에이션 조정과 맞물림",
+      "고객사가 소수 대형 메모리·파운드리 업체에 집중돼 있어 이들의 설비투자 사이클(특히 메모리 가격 사이클)에 실적이 크게 좌우됨",
+    ],
+    sources: [
+      {title:"Lam Research 2026 10-K: Driving Semiconductor Breakthroughs with Advanced Etch, Deposition & Clean Technologies (Minichart)", url:"https://www.minichart.com.sg/2026/08/08/lam-research-2026-10-k-driving-semiconductor-breakthroughs-with-advanced-etch-deposition-clean-technologies/"},
+      {title:"Lam Research Corporation (LRCX): A Bull Case Theory (Yahoo Finance)", url:"https://finance.yahoo.com/news/lam-research-corporation-lrcx-bull-165904289.html"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",
@@ -463,6 +852,23 @@ const BUSINESS_NOTES = {
     ],
   },
   KLAC: {
+    updated: "2026-08-13",
+    customers: [
+      "선단 로직·메모리 파운드리(TSMC·삼성 등) - 결함 검사·계측(공정관리) 장비, 반도체 패키징·PCB·컴포넌트 업체까지 폭넓게 포함",
+    ],
+    strengths: [
+      "공정관리(결함검사·계측) 시장 점유율 약 60%로 경쟁사가 사실상 없는 독점적 지위 - 2021년 이후 점유율이 360bp 더 확대돼 2위 경쟁사 대비 7배 규모",
+      "반도체 설계가 복잡해질수록(첨단공정 전환) 웨이퍼 수량 증가보다 검사·계측 수요가 더 빠르게 늘어나는 구조적 수혜",
+      "2026년 공정관리 장비 시장이 전체 웨이퍼장비 시장보다 더 빠르게(20%대) 성장할 전망",
+    ],
+    risks: [
+      "⚠️ 좋은 실적에도 중국 수출규제 우려로 주가가 크게 흔들림(상세는 아래 newsLog 참고) - 매출의 약 30%가 중국에서 발생해 지정학적 정책 변화에 민감",
+      "소수 초대형 고객(TSMC·삼성 등)에 대한 매출 의존도가 높음",
+    ],
+    sources: [
+      {title:"Can Rising Process Control Intensity Drive KLA's Next Growth Phase? (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/rising-process-control-intensity-drive-130000496.html"},
+      {title:"KLA (KLAC) Has a Services-and-Process-Control Engine Bigger Than the Wafer-Fab Cycle (Alphastreet)", url:"https://news.alphastreet.com/kla-klac-has-a-services-and-process-control-engine-bigger-than-the-wafer-fab-cycle/"},
+    ],
     newsLog: [
       {
         date: "2026-08-13",

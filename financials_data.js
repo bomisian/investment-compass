@@ -2457,7 +2457,6 @@ const FINANCIALS_DATA = {
         "ocf": 15181000000,
         "capex": -12067000000,
         "fcf": 3114000000,
-        "endDate": "2022-08-31",
         "pretaxIncome": 9571000000.0,
         "taxProvision": 888000000.0,
         "normalizedIncome": 8745048000.0,
@@ -2468,7 +2467,8 @@ const FINANCIALS_DATA = {
         "otherNonOperating": 19000000.0,
         "impairment": 0.0,
         "restructuring": -15000000.0,
-        "stockComp": 514000000.0
+        "stockComp": 514000000.0,
+        "endDate": "2022-08-31"
       },
       {
         "period": "2023",
@@ -2479,7 +2479,6 @@ const FINANCIALS_DATA = {
         "ocf": 1559000000,
         "capex": -7676000000,
         "fcf": -6117000000,
-        "endDate": "2023-08-31",
         "pretaxIncome": -5658000000.0,
         "taxProvision": 177000000.0,
         "normalizedIncome": -5572300000.0,
@@ -2490,7 +2489,8 @@ const FINANCIALS_DATA = {
         "otherNonOperating": -3000000.0,
         "impairment": 101000000.0,
         "restructuring": 157000000.0,
-        "stockComp": 596000000.0
+        "stockComp": 596000000.0,
+        "endDate": "2023-08-31"
       },
       {
         "period": "2024",
@@ -2501,7 +2501,6 @@ const FINANCIALS_DATA = {
         "ocf": 8507000000,
         "capex": -8386000000,
         "fcf": 121000000,
-        "endDate": "2024-08-31",
         "pretaxIncome": 1240000000.0,
         "taxProvision": 451000000.0,
         "normalizedIncome": 787540000.0,
@@ -2512,7 +2511,8 @@ const FINANCIALS_DATA = {
         "otherNonOperating": -17000000.0,
         "impairment": 0.0,
         "restructuring": 1000000.0,
-        "stockComp": 833000000.0
+        "stockComp": 833000000.0,
+        "endDate": "2024-08-31"
       },
       {
         "period": "2025",
@@ -2523,7 +2523,6 @@ const FINANCIALS_DATA = {
         "ocf": 17525000000,
         "capex": -15857000000,
         "fcf": 1668000000,
-        "endDate": "2025-08-31",
         "pretaxIncome": 9654000000.0,
         "taxProvision": 1124000000.0,
         "normalizedIncome": 8689280000.0,
@@ -2534,7 +2533,8 @@ const FINANCIALS_DATA = {
         "otherNonOperating": -4000000.0,
         "impairment": 0.0,
         "restructuring": 30000000.0,
-        "stockComp": 972000000.0
+        "stockComp": 972000000.0,
+        "endDate": "2025-08-31"
       }
     ],
     "quarterly": [
@@ -2659,8 +2659,10 @@ const FINANCIALS_DATA = {
         "endDate": "2026-05-31"
       }
     ],
-    "_fetched_at": 1786021202.2414722,
-    "_updated_label": "2026-08-13 17:52",
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_fetched_at": 1786668200.2726603,
+    "_updated_label": "2026-08-14 09:43",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-05-31",
@@ -3506,16 +3508,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786665722.4056249,
-    "_updated_label": "2026-08-14 09:02"
+    "_fetched_at": 1786668200.2726603,
+    "_updated_label": "2026-08-14 09:43"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1786665722.4056249,
-    "_updated_label": "2026-08-14 09:02"
+    "_fetched_at": 1786668200.2726603,
+    "_updated_label": "2026-08-14 09:43"
   },
   "ORCL": {
     "annual": [
@@ -5983,8 +5985,8 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
-    "_fetched_at": 1786665571.1016817,
-    "_updated_label": "2026-08-14 09:03",
+    "_fetched_at": 1786668200.2726603,
+    "_updated_label": "2026-08-14 09:43",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
