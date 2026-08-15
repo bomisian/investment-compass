@@ -219,39 +219,46 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - reuters.com",
+      "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVotZUg4bXg1RnZJYmNLTlg2UTJKRjY0MHBoWm9Xd2VYeWM5SUhEckRXNzF3THI4dE9tZm4taDd4N2pMZzdLTmhmM0RRRi1yeGc0blpBYlhlSlVIVGh3MThZQnFkLWhaVWtHcDdhb2wxSGtXTlVMMFdHbnVmV1hiWWtXVHczeHJEQS1zUGZUbVRZX3NwZ1E4bG1kX2VUbUpOQURUd2pidEtwd2M?oc=5",
       "datetime": 1786754609,
-      "headlineKo": "에트나산 폭발로 수백 편의 항공편 운항 중단 - reuters.com"
+      "headlineKo": "에트나 산이 불타오르며 수백 편의 비행편을 방해했다 - 로이터 통신"
     },
     {
-      "headline": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz - reuters.com",
+      "headline": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786749227,
-      "headlineKo": "UAE ADNOC는 호르무즈를 통과하던 중 자국 선박 중 하나가 공격을 받았다고 밝혔습니다."
+      "headlineKo": "UAE ADNOC는 자국 선박 중 하나가 호르무즈를 통과하던 중 공격을 받았다고 밝혔습니다."
     },
     {
-      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - reuters.com",
+      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
       "datetime": 1786746966,
-      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협한 후 호르무즈 교통은 더욱 둔화됐다 - reuters.com"
+      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
     },
     {
-      "headline": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - reuters.com",
+      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
+      "datetime": 1786742602,
+      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
+    },
+    {
+      "headline": "Iran defiant on strait as Trump tells Americans to accept high gas prices - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-      "datetime": 1786744351,
-      "headlineKo": "트럼프, 이란 수사 확대하면서 미국인들에게 휘발유 가격 인상을 받아들일 것을 촉구 - reuters.com"
+      "datetime": 1786739700,
+      "headlineKo": "트럼프가 미국인들에게 높은 휘발유 가격을 받아들이라고 말하자 이란은 해협에 도전했다 - 로이터"
     },
     {
-      "headline": "Oil climbs over $1 on tanker attacks, no progrees on peace - reuters.com",
+      "headline": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
       "datetime": 1786735307,
-      "headlineKo": "유조선 공격에 유가 1달러 이상 상승, 평화에 대한 진전 없음 - reuters.com"
+      "headlineKo": "유조선 공격에 유가 1달러 이상 상승, 평화에 대한 진전 없음 - 로이터"
     },
     {
       "headline": "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
@@ -261,11 +268,18 @@ const MARKET_DATA = {
       "headlineKo": "플래시 메모리 제조업체인 SanDisk가 이번 주에 투자자들에게 말한 내용은 최신 주식에 도움이 될 것입니다."
     },
     {
-      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - reuters.com",
+      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
       "datetime": 1786728417,
-      "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - reuters.com"
+      "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - 로이터 통신"
+    },
+    {
+      "headline": "European shares snap 4-week rally as higher oil prices temper strong earnings - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3JRTDJxWjQ5cXhiMXUwMkJSb2FrXzg0S3FvMkV0Z1VYRFV1a0dKcHEwaG9yWG1hb0RyWF9qQzFlek0zT2hXOGl0b2pSTHVTZ1lhclRuY1FsUm00alVhUkYzVEtVN1BTRUVzdmZHVXdVX2g5emE2NGRWN1ZyMXFMTnFVdmhvbVhVclFHajE5LUtGU0VnS2hJTVJTZGJHWDgzMDNhcmlWNHhtVm5MWXZz?oc=5",
+      "datetime": 1786724841,
+      "headlineKo": "유가 상승으로 실적 강세가 둔화되면서 유럽 증시는 4주 연속 상승세를 탔다 - 로이터"
     },
     {
       "headline": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/14/trump-ballroom-supreme-court-white-house.html",
       "datetime": 1786720301,
       "headlineKo": "트럼프, 대법원에 백악관 무도장 건설 계속 허락해달라고 요청"
-    },
-    {
-      "headline": "We're buying more shares of a recent spin-off that has great long-term prospects",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/were-buying-more-shares-of-a-recent-spin-off-that-has-great-long-term-prospects.html",
-      "datetime": 1786720045,
-      "headlineKo": "우리는 장기적으로 전망이 매우 좋은 최근 분사 기업의 주식을 더 많이 매입하고 있습니다."
-    },
-    {
-      "headline": "Housing investors say this is their worst market in at least 3 years",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html",
-      "datetime": 1786716001,
-      "headlineKo": "주택 투자자들은 이것이 최소 3년 만에 최악의 시장이라고 말합니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786756124.9849787,
-  "_updated_label": "2026-08-15 10:09"
+  "_fetched_at": 1786759757.8807058,
+  "_updated_label": "2026-08-15 11:09"
 };
