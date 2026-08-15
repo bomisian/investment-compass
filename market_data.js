@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
+      "datetime": 1786822125,
+      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 시신을 발견했다고 밝혔습니다."
+    },
+    {
       "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
@@ -254,6 +261,13 @@ const MARKET_DATA = {
       "headlineKo": "Intel과 Nvidia가 지난 주 시장에서 AI 거래를 촉진하면서 인플레이션이 완화되었습니다."
     },
     {
+      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
+      "datetime": 1786803225,
+      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - Reuters"
+    },
+    {
       "headline": "Marijuana reform is emerging as a midterm elections issue on both sides of the aisle",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786744860,
       "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
-    },
-    {
-      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
-      "datetime": 1786742602,
-      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
-    },
-    {
-      "headline": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-      "datetime": 1786739700,
-      "headlineKo": "트럼프가 미국인들에게 높은 휘발유 가격을 받아들이라고 말하자 이란은 해협에 도전했다 - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786825747.480798,
-  "_updated_label": "2026-08-16 05:29"
+  "_fetched_at": 1786829375.5314047,
+  "_updated_label": "2026-08-16 06:30"
 };
