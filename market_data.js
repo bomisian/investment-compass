@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Marijuana reform is emerging as a midterm elections issue on both sides of the aisle",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html",
+      "datetime": 1786798801,
+      "headlineKo": "마리화나 개혁이 여야 모두 중간선거 이슈로 떠오르고 있다"
+    },
+    {
       "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
       "datetime": 1786728417,
       "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - 로이터 통신"
-    },
-    {
-      "headline": "European shares snap 4-week rally as higher oil prices temper strong earnings - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3JRTDJxWjQ5cXhiMXUwMkJSb2FrXzg0S3FvMkV0Z1VYRFV1a0dKcHEwaG9yWG1hb0RyWF9qQzFlek0zT2hXOGl0b2pSTHVTZ1lhclRuY1FsUm00alVhUkYzVEtVN1BTRUVzdmZHVXdVX2g5emE2NGRWN1ZyMXFMTnFVdmhvbVhVclFHajE5LUtGU0VnS2hJTVJTZGJHWDgzMDNhcmlWNHhtVm5MWXZz?oc=5",
-      "datetime": 1786724841,
-      "headlineKo": "유가 상승으로 실적 강세가 둔화되면서 유럽 증시는 4주 연속 상승세를 탔다 - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786800116.1471298,
-  "_updated_label": "2026-08-15 22:22"
+  "_fetched_at": 1786803744.5043213,
+  "_updated_label": "2026-08-15 23:22"
 };
