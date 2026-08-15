@@ -247,13 +247,6 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     },
     {
-      "headline": "Oil prices rally, US data dents chances of Fed rate hike - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
-      "datetime": 1786741976,
-      "headlineKo": "유가 상승, 미국 데이터로 인해 연준 금리 인상 가능성이 낮아짐 - Reuters"
-    },
-    {
       "headline": "Iran defiant on strait as Trump tells Americans to accept high gas prices - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
@@ -301,12 +294,19 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa3JRTDJxWjQ5cXhiMXUwMkJSb2FrXzg0S3FvMkV0Z1VYRFV1a0dKcHEwaG9yWG1hb0RyWF9qQzFlek0zT2hXOGl0b2pSTHVTZ1lhclRuY1FsUm00alVhUkYzVEtVN1BTRUVzdmZHVXdVX2g5emE2NGRWN1ZyMXFMTnFVdmhvbVhVclFHajE5LUtGU0VnS2hJTVJTZGJHWDgzMDNhcmlWNHhtVm5MWXZz?oc=5",
       "datetime": 1786724841,
       "headlineKo": "유가 상승으로 실적 강세가 둔화되면서 유럽 증시는 4주 연속 상승세를 탔다 - 로이터"
+    },
+    {
+      "headline": "New CNBC Generation Lab poll shows almost half of 18- to 34-year-olds see democratic socialism positively",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/13/cnbc-poll-half-of-those-18-to-34-view-democratic-socialism-positively.html",
+      "datetime": 1786720920,
+      "headlineKo": "새로운 CNBC Generation Lab 여론 조사에 따르면 18~34세 중 거의 절반이 민주적 사회주의를 긍정적으로 보고 있는 것으로 나타났습니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786781758.5252132,
-  "_updated_label": "2026-08-15 17:16"
+  "_fetched_at": 1786785387.5670571,
+  "_updated_label": "2026-08-15 18:16"
 };
