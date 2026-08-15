@@ -141,21 +141,21 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.265000343322754,
+      "current": 5.264999866485596,
       "prevClose": 5.2129998207092285,
-      "changeAbs": 0.05200052261352539,
-      "changePct": 0.9975162939186658,
+      "changeAbs": 0.05200004577636719,
+      "changePct": 0.9975071468406952,
       "pctRank": 99.8406374501992,
       "min5y": 1.6779999732971191,
       "max5y": 5.275000095367432,
       "high1y": 5.275000095367432,
-      "drawdown1y": -0.18956875571357612,
-      "ma20": 5.189900040626526,
-      "ma60": 5.059700051943461,
-      "chg1m": 0.16700029373168945,
-      "chg3m": 0.25300025939941406,
-      "chg1mPct": 3.275800159026781,
-      "chg3mPct": 5.047890166860655,
+      "drawdown1y": -0.18957779528039342,
+      "ma20": 5.189900016784668,
+      "ma60": 5.059700043996175,
+      "chg1m": 0.16699981689453125,
+      "chg3m": 0.25299978256225586,
+      "chg1mPct": 3.2757908056106655,
+      "chg3mPct": 5.047880652951034,
       "lastDate": "2026-08-14",
       "bars": 1255,
       "symbol": "^TYX",
@@ -240,6 +240,13 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     },
     {
+      "headline": "Oil prices rally, US data dents chances of Fed rate hike - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14MHZSdkQ3TzZONVh4dW9nU1B5RlNOZHJSdzN1eVlQV3Eycm14NGZhb2F0QWdneVhPR2VqLWVVR1Bkb3lqTldGa3JVTXR0eGdFVi12UTJVTi1pTWVNVWhHX2tCUUJ1b21hT0dkampGU0Ric1d2WHAyclRfSQ?oc=5",
+      "datetime": 1786741976,
+      "headlineKo": "유가 상승, 미국 데이터로 인해 연준 금리 인상 가능성이 낮아짐 - Reuters"
+    },
+    {
       "headline": "Iran defiant on strait as Trump tells Americans to accept high gas prices - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/13/cnbc-poll-half-of-those-18-to-34-view-democratic-socialism-positively.html",
       "datetime": 1786720920,
       "headlineKo": "새로운 CNBC Generation Lab 여론 조사에 따르면 18~34세 중 거의 절반이 민주적 사회주의를 긍정적으로 보고 있는 것으로 나타났습니다."
-    },
-    {
-      "headline": "Disney CEO Josh D'Amaro to speak with CNBC live from D23 expo",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
-      "datetime": 1786720436,
-      "headlineKo": "Disney CEO Josh D'Amaro, D23 엑스포에서 CNBC와 생방송으로 연설"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786767043.4681232,
-  "_updated_label": "2026-08-15 13:11"
+  "_fetched_at": 1786770671.5581665,
+  "_updated_label": "2026-08-15 14:11"
 };
