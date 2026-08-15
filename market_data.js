@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
+      "datetime": 1786807612,
+      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - Reuters"
+    },
+    {
+      "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
+      "datetime": 1786805011,
+      "headlineKo": "이스라엘 공습으로 레바논 남부에서 7명 사망, 국영 뉴스 보도 - 로이터"
+    },
+    {
       "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html",
@@ -231,13 +245,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html",
       "datetime": 1786798801,
       "headlineKo": "마리화나 개혁이 여야 모두 중간선거 이슈로 떠오르고 있다"
-    },
-    {
-      "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
-      "datetime": 1786790468,
-      "headlineKo": "이스라엘 공습으로 레바논 남부에서 7명 사망, 국영 뉴스 보도 - 로이터"
     },
     {
       "headline": "A $50 million hostage ransom funded al Qaeda's Mali offensive, UN says - Reuters",
@@ -268,7 +275,7 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     },
     {
-      "headline": "Iran defiant on strait as Trump tells Americans to accept high gas prices - Reuters",
+      "headline": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
       "datetime": 1786739700,
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmNkVEYyamJfdmxCeFdRYUZjWXg5MS10VUNDdFdZcXpsZFM0UjBSRXowMGxMRnZkV3ZXX29JUzlXbkkyaGFENWlCdWREMGJnblktd1Rza2dHQ04zQTVJcjNxOG1qWnVuLUtiRHRWSDZFTk5yTzVac1VXSkx5ODFkOS1GXzFFREJXa3pmMlVoT3ZVT0NLU3ZDdmliSVBMQVVPMFZIcWpaSWpfcDJqcFlhdGJJZmZxa2hieFdnTHBtQTNKdkx4eGc?oc=5",
       "datetime": 1786735020,
       "headlineKo": "예멘 정부는 후티 반군 미사일로 항구 도시에서 민간인 4명이 사망했다고 밝혔습니다."
-    },
-    {
-      "headline": "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
-      "datetime": 1786732415,
-      "headlineKo": "플래시 메모리 제조업체인 SanDisk가 이번 주에 투자자들에게 말한 내용은 최신 주식에 도움이 될 것입니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786807372.5155656,
-  "_updated_label": "2026-08-16 00:23"
+  "_fetched_at": 1786811001.591809,
+  "_updated_label": "2026-08-16 01:23"
 };
