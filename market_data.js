@@ -289,24 +289,24 @@ const MARKET_DATA = {
       "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
     },
     {
-      "headline": "Iran war a boon for China's e-trucks, fuelling export surge - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVVEwN3ZXeTQ5RmxKUlJScTRsa1FpNGJCaGVfR1dkMDJMVkZnenFHUDcxVjdmbVk2ajJaaWxlTDZ3SkVZd1hLdG9yenk0X0hyb01wMXpxQ1JEbklIR3d1cVdtbVdETXNhRy1NQUhJSVpYa05vOEc4emFqc1R0eUNOWDhCYmlxaThjTm5TaDV2RmZaeWk4VlBINmM0UWVlaV9MSTRZc0xkQTZ4QQ?oc=5",
-      "datetime": 1786745890,
-      "headlineKo": "이란 전쟁은 중국의 전자 트럭에 도움이 되어 수출 급증을 촉진 - 로이터 통신"
-    },
-    {
       "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786744860,
       "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
+    },
+    {
+      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
+      "datetime": 1786742602,
+      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786833005.7751348,
-  "_updated_label": "2026-08-16 07:30"
+  "_fetched_at": 1786836635.54152,
+  "_updated_label": "2026-08-16 08:31"
 };
