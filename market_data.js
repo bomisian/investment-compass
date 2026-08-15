@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVotZUg4bXg1RnZJYmNLTlg2UTJKRjY0MHBoWm9Xd2VYeWM5SUhEckRXNzF3THI4dE9tZm4taDd4N2pMZzdLTmhmM0RRRi1yeGc0blpBYlhlSlVIVGh3MThZQnFkLWhaVWtHcDdhb2wxSGtXTlVMMFdHbnVmV1hiWWtXVHczeHJEQS1zUGZUbVRZX3NwZ1E4bG1kX2VUbUpOQURUd2pidEtwd2M?oc=5",
+      "datetime": 1786749209,
+      "headlineKo": "에트나 산이 불타오르며 수백 편의 비행편을 방해했다 - 로이터 통신"
+    },
+    {
+      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
+      "datetime": 1786746966,
+      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
+    },
+    {
       "headline": "Trump urges Americans to accept higher gas prices as he escalates Iran rhetoric - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
@@ -275,13 +289,6 @@ const MARKET_DATA = {
       "headlineKo": "우리는 장기적으로 전망이 매우 좋은 최근 분사 기업의 주식을 더 많이 매입하고 있습니다."
     },
     {
-      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
-      "datetime": 1786717658,
-      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
-    },
-    {
       "headline": "Housing investors say this is their worst market in at least 3 years",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/14/housing-investors-say-this-is-their-worst-market-in-at-least-3-years.html",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/14/the-clubs-top-10-things-to-watch-in-the-stock-market-friday.html",
       "datetime": 1786713445,
       "headlineKo": "금요일 주식 시장에서 주목해야 할 클럽의 상위 10가지 항목"
-    },
-    {
-      "headline": "Drone incursions sow fear, chaos along NATO's Baltic and Finnish borders - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSnhVUFlGN1hNN0dsY0Z2cERoTHZwRDBuMUZMWnBnM1RJMnlpWGx5SDE2UHlUcjRBTDlmNzE1Z1dmazllSzVoSU9BYlppN2xlWEFXMUVJb242WlR3aGVrcGZhblBWQzdpTS1qT3dEdGlOZ1o5NHZUWFRKTkVCcWpYa25UbWJLMTI4VnNtZTlpTFhvZjFnS0xPdFpLVkw3bUtEZWFiN3pubkxvaU5LWFRVTWc4dDFFNU1XXzZieURGR01ZZ29odTZhdQ?oc=5",
-      "datetime": 1786712915,
-      "headlineKo": "드론 침입으로 NATO의 발트해와 핀란드 국경에 공포와 혼란이 심해졌습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786748403.7280774,
-  "_updated_label": "2026-08-15 08:00"
+  "_fetched_at": 1786752002.8765986,
+  "_updated_label": "2026-08-15 09:00"
 };
