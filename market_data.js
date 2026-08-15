@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
+      "datetime": 1786818830,
+      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - 로이터 통신"
+    },
+    {
       "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
       "datetime": 1786807612,
       "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - Reuters"
-    },
-    {
-      "headline": "Israeli strikes kill 11 in south Lebanon, health ministry says​ - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
-      "datetime": 1786807586,
-      "headlineKo": "이스라엘, 레바논 남부서 11명 사망, 보건부 발표 - 로이터 통신"
     },
     {
       "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786818277.5288427,
-  "_updated_label": "2026-08-16 03:25"
+  "_fetched_at": 1786822118.741164,
+  "_updated_label": "2026-08-16 04:29"
 };

@@ -101,68 +101,157 @@ const NEWS_DATA = {
         "headlineKo": "기술적 분석을 사용하여 SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META 및 TSLA를 거래하는 방법"
       },
       {
+        "headline": "'Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center' - WSJ Exclusive",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2e4ded91a95fa6eac7a865682f08a697cc4e7697b87d517e847c997799f0fcb3",
+        "datetime": 1786737713,
+        "relevance": 0.4,
+        "analysis": {
+          "version": 8,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 ''Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center' - WSJ Exclusive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.4,
+          "quality": "high"
+        },
+        "headlineKo": "'Nvidia, OpenAI 데이터 센터에 대한 2,500억 달러 보장 계획 축소' - WSJ Exclusive"
+      },
+      {
+        "headline": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=42dcb152c7cb43c87919a99266418a2f8eb753bfd0dd3fb508b6e174b289f3c4",
+        "datetime": 1786729519,
+        "relevance": 0.4,
+        "headlineKo": "엔비디아, 2분기 말 스페이스X 지분 210억 달러 공개"
+      },
+      {
         "headline": "Third Point Dissolves Share Stake In NVIDIA",
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=dce3e386af7f6e7b5bf2fb7552f075f0cdad1e39891bdbf56e1697278e093b9f",
         "datetime": 1786728119,
         "relevance": 0.4,
+        "headlineKo": "세 번째 포인트는 NVIDIA의 지분을 해체합니다"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "'Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center' - WSJ Exclusive",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=2e4ded91a95fa6eac7a865682f08a697cc4e7697b87d517e847c997799f0fcb3",
+        "datetime": 1786737713,
+        "headlineKo": "'Nvidia, OpenAI 데이터 센터에 대한 2,500억 달러 보장 계획 축소' - WSJ Exclusive",
+        "relevance": 0.4,
         "analysis": {
           "version": 8,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "Third Point Dissolves Share Stake In NVIDIA",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
           ],
           "impacts": [
             {
               "ticker": "NVDA",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Third Point Dissolves Share Stake In NVIDIA' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 ''Nvidia Downsizes Plans for $250 Billion Guarantee of OpenAI Data Center' - WSJ Exclusive' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: NVDA에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
           "relevance": 0.4,
-          "quality": "low"
-        },
-        "headlineKo": "세 번째 포인트는 NVIDIA의 지분을 해체합니다"
+          "quality": "high"
+        }
       },
       {
-        "headline": "Nvidia's Stake In SpaceX Valued At About $21 Bln",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ec566f11f5f27f5d68365fd5453f7c2fa5acde4f72d41b7df6ee9d854c5ec7ed",
-        "datetime": 1786726235,
-        "relevance": 0.4,
-        "headlineKo": "Nvidia의 SpaceX 지분 가치는 약 210억 달러에 이릅니다."
+        "headline": "Nvidia discloses $21 billion stake in SpaceX at end of second quarter",
+        "source": "CNBC",
+        "url": "https://finnhub.io/api/news?id=42dcb152c7cb43c87919a99266418a2f8eb753bfd0dd3fb508b6e174b289f3c4",
+        "datetime": 1786729519,
+        "headlineKo": "엔비디아, 2분기 말 스페이스X 지분 210억 달러 공개",
+        "relevance": 0.4
       },
-      {
-        "headline": "Nvidia Corp Reports Share Stake Of 122.8 Mln Class A Shares In SpaceX",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e14c243e21c7f1dd0a013261af9680857ac56b8ef00f4044d68db75916906e50",
-        "datetime": 1786726189,
-        "relevance": 0.4,
-        "headlineKo": "Nvidia Corp, SpaceX의 1억 2280만 클래스 A 주식 지분 보고"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Third Point Dissolves Share Stake In NVIDIA",
         "source": "Benzinga",
@@ -680,13 +769,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 29,
+      "checked": 31,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "AAPL": {
@@ -1224,13 +1313,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "GOOGL": {
@@ -1760,13 +1849,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:18",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "MSFT": {
@@ -1836,7 +1925,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending ICP 1.70% SUI 1.20% DXYZ 0.2",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -1882,7 +1971,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending ICP 1.70% SUI 1.20% DXYZ 0.25% LINK 7.10% ADMA 0.64% RBRK",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57% IMRX 2.69% L",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -1992,7 +2081,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending ICP 1.70% SUI 1.20% DXYZ 0.2",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2118,7 +2207,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending ICP 1.70% SUI 1.20% DXYZ 0.25% LINK 7.10% ADMA 0.64% RBRK",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57% IMRX 2.69% L",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2283,13 +2372,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:18",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "AMZN": {
@@ -2444,15 +2533,23 @@ const NEWS_DATA = {
         "headlineKo": "Ackman이 AWS 성장 가속화를 지원함에 따라 Amazon 주가 상승"
       },
       {
-        "headline": "GOOGL Stock Tops Retail Pick Over AMZN, META, MSFT For Next 12 Months – But META Leads Wall Street Upside",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6942cc6d4309c56b84acd310f4cd8b64edc6ae43160ae50563c9cd48ac53ef46",
-        "datetime": 1786618997,
+        "headline": "Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a",
+        "datetime": 1786769080,
         "relevance": 0.75,
-        "headlineKo": "GOOGL 주식은 향후 12개월 동안 AMZN, META, MSFT보다 소매업 부문에서 1위를 차지했지만 META가 월스트리트 상승세를 이끌었습니다."
+        "headlineKo": "Stanley Druckenmiller, AMZN, AMD에 큰 투자 — 2분기에 AVGO, INTC 및 MU 덤프"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Stanley Druckenmiller Bets Big on AMZN, AMD — Dumps AVGO, INTC and MU in Q2",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b8a734e5a7a330b90fdad499ca20be27bb422d6bdd9a4ce4f72de1a0c8d1f92a",
+        "datetime": 1786769080,
+        "headlineKo": "Stanley Druckenmiller, AMZN, AMD에 큰 투자 — 2분기에 AVGO, INTC 및 MU 덤프",
+        "relevance": 0.75
+      },
       {
         "headline": "Amazon Stock Gains as Ackman Backs Accelerating AWS Growth",
         "source": "Yahoo",
@@ -2839,13 +2936,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 27,
+      "checked": 28,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "TSM": {
@@ -3315,13 +3412,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "AVGO": {
@@ -3857,13 +3954,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "META": {
@@ -3874,6 +3971,114 @@ const NEWS_DATA = {
       "revenueEstimate": 64544859918
     },
     "news": [
+      {
+        "headline": "Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=bdb171eb967127e63d8e1b7f5092cdc1b3f5c3a28159a2315b817e14079fd612",
+        "datetime": 1786725449,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low"
+        },
+        "headlineKo": "Soros Fund Management는 Meta Platforms Inc의 지분을 37.1%에서 21,776개의 클래스 A 주식으로 삭감했습니다."
+      },
+      {
+        "headline": "Viking Global Investors Raises Share Stake In Meta Platforms Inc By 75.8% To 1.9 Mln Class A Shares",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c269b2e7e7c4825e0c701852021f83c6a10a024167f8475b6181c283b74946ba",
+        "datetime": 1786724767,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Viking Global Investors Raises Share Stake In Meta Platforms Inc By 75.8% To 1.9 Mln Class A Shares' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high"
+        },
+        "headlineKo": "Viking Global Investors, Meta Platforms Inc의 주식 지분을 75.8%에서 190만 클래스 A 주식으로 인상"
+      },
       {
         "headline": "Meta Platforms (NASDAQ:META) Passes the Growth-at-a-Reasonable-Price Screen",
         "source": "ChartMill",
@@ -3925,43 +4130,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=36bce44c7680304cb2755280d5dc1540b1379d02ccd9cd42297bc6a5c806ea4b",
         "datetime": 1786621295,
         "relevance": 1.0,
-        "analysis": {
-          "version": 8,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "What Is Going on With Meta Platforms Stock on Thursday?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "META",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'What Is Going on With Meta Platforms Stock on Thursday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low"
-        },
         "headlineKo": "목요일에 메타 플랫폼 주식에 무슨 일이 일어나고 있나요?"
       },
       {
@@ -3970,15 +4138,26 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d11879ecc00cfe961d0b9427413876c6169fb16bcb2b9b809664dd9b3c2a0d0d",
         "datetime": 1786621274,
         "relevance": 1.0,
+        "headlineKo": "텐센트, 메타딜 청산으로 마누스 최대주주로 올라 텐센트, 페이스북 모기업 메타로부터 중국 인공지능 개발자 마누스 지분 인수해 최대 기업으로 성장"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=bdb171eb967127e63d8e1b7f5092cdc1b3f5c3a28159a2315b817e14079fd612",
+        "datetime": 1786725449,
+        "headlineKo": "Soros Fund Management는 Meta Platforms Inc의 지분을 37.1%에서 21,776개의 클래스 A 주식으로 삭감했습니다.",
+        "relevance": 1.0,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "'Tencent To Become Top Shareholder Of Manus In Unwinding Of Meta Deal; Tencent Will Acquire Shares Of Chinese Artificial Intelligence Developer Manus From Facebook Parent Meta To Become Its Largest Sh",
+            "Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -4002,31 +4181,75 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 META의 사업과 관련된 ''Tencent To Become Top Shareholder Of Manus In Unwinding Of Meta Deal; Tencent Will Acquire Shares Of Chinese Artificial Intelligence Developer Manus From Facebook Parent Meta To Become Its Largest Sh' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 META의 사업과 관련된 'Soros Fund Management Cuts Share Stake In Meta Platforms Inc By 37.1% To 21,776 Class A Shares' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
-        },
-        "headlineKo": "텐센트, 메타딜 청산으로 마누스 최대주주로 올라 텐센트, 페이스북 모기업 메타로부터 중국 인공지능 개발자 마누스 지분 인수해 최대 기업으로 성장"
+        }
       },
       {
-        "headline": "How Investors May Respond To Meta Platforms (META) Youth Trial Amid Expanding Open‑Weight AI Push",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4a1011b2a9ce41507a89e0bd142cdcdafa1d3dfe31c0e9d8ebe3ecc2c2296e68",
-        "datetime": 1786601450,
+        "headline": "Viking Global Investors Raises Share Stake In Meta Platforms Inc By 75.8% To 1.9 Mln Class A Shares",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c269b2e7e7c4825e0c701852021f83c6a10a024167f8475b6181c283b74946ba",
+        "datetime": 1786724767,
+        "headlineKo": "Viking Global Investors, Meta Platforms Inc의 주식 지분을 75.8%에서 190만 클래스 A 주식으로 인상",
         "relevance": 1.0,
-        "headlineKo": "개방형 AI 추진이 확대되는 가운데 투자자가 메타 플랫폼(META) 청소년 시험에 대응할 수 있는 방법"
+        "analysis": {
+          "version": 8,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Viking Global Investors Raises Share Stake In Meta Platforms Inc By 75.8% To 1.9 Mln Class A Shares' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: META에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high"
+        }
       },
-      {
-        "headline": "Alphabet, Amazon, Meta Platforms, and Microsoft: One of These Stocks Looks Like It Has the Least Upside Over the Next 12 Months, but There's a Catch",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2743c4a0a093bef477eba4a0a9e9bc0ccb4677ce6623fa9695f0ae0caa6d1d6c",
-        "datetime": 1786563660,
-        "relevance": 1.0,
-        "headlineKo": "Alphabet, Amazon, Meta Platform 및 Microsoft: 이러한 주식 중 하나는 향후 12개월 동안 상승 여력이 가장 적은 것처럼 보이지만 문제가 있습니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Meta Platforms (NASDAQ:META) Passes the Growth-at-a-Reasonable-Price Screen",
         "source": "ChartMill",
@@ -4556,13 +4779,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 34,
+      "checked": 36,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "TSLA": {
@@ -4614,8 +4837,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         },
@@ -4911,8 +5134,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         }
@@ -5263,13 +5486,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "MU": {
@@ -5839,13 +6062,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "AMD": {
@@ -6414,13 +6637,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "INTC": {
@@ -7058,13 +7281,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "AMAT": {
@@ -7134,7 +7357,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending LINK 7.10% ICP 1.70% SUI 1.20% DXYZ 0.25% A",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57",
             "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
             "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
@@ -7289,7 +7512,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending LINK 7.10% ICP 1.70% SUI 1.20% DXYZ 0.25% A",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57",
             "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
             "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
@@ -7791,63 +8014,18 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
-      {
-        "headline": "SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6c8aee9270c3ac43400696ed7cf7c4a19aa911bde381e46f1adddf5a89b4f1ab",
-        "datetime": 1785933091,
-        "relevance": 1,
-        "analysis": {
-          "version": 8,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'SpaceX Lockup Expiry Could Send a Gentle Jolt Through QQQ, Nasdaq ETFs' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low"
-        },
-        "headlineKo": "SpaceX 락업 만료로 QQQ, Nasdaq ETF에 약간의 충격을 줄 수 있음"
-      },
       {
         "headline": "QUICK SPARK: $3.6B Flows Into SPY in One Day; QQQ, SOXX Lead ETF Redemptions",
         "source": "Benzinga",
@@ -7944,6 +8122,61 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high"
+        },
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       },
       {
@@ -7953,9 +8186,25 @@ const NEWS_DATA = {
         "datetime": 1786024849,
         "relevance": 1.0,
         "headlineKo": "QYLD: QQQ 커버드콜 ETF 성과에 대한 여러 단서"
+      },
+      {
+        "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500, Nasdaq 100 Gains as US Says it Can Maintain Iran Blockade 'Indefinitely'—SanDisk, Workday, Applied Materials in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=eb1ce52df6cd12d9bc77ff0842861e4d0991401c2594028d1c101454f46b8435",
+        "datetime": 1786696466,
+        "relevance": 0.67,
+        "headlineKo": "오늘의 주식 시장: 미국이 이란 봉쇄를 '무기한' 유지할 수 있다고 말하면서 다우 존스 선물 하락, S&P 500, Nasdaq 100 상승—SanDisk, Workday, Applied Materials in Focus(업데이트됨)"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500, Nasdaq 100 Gains as US Says it Can Maintain Iran Blockade 'Indefinitely'—SanDisk, Workday, Applied Materials in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=eb1ce52df6cd12d9bc77ff0842861e4d0991401c2594028d1c101454f46b8435",
+        "datetime": 1786696466,
+        "headlineKo": "오늘의 주식 시장: 미국이 이란 봉쇄를 '무기한' 유지할 수 있다고 말하면서 다우 존스 선물 하락, S&P 500, Nasdaq 100 상승—SanDisk, Workday, Applied Materials in Focus(업데이트됨)",
+        "relevance": 0.67
+      },
       {
         "headline": "QUICK SPARK: $3.6B Flows Into SPY in One Day; QQQ, SOXX Lead ETF Redemptions",
         "source": "Benzinga",
@@ -8052,7 +8301,62 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법",
-        "relevance": 1.0
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: QQQ에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1.0,
+          "quality": "high"
+        }
       },
       {
         "headline": "QUICK SPARK: Nasdaq 100 Breadth Hits Its Strongest Level in Over a Year",
@@ -8152,13 +8456,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:18",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 11,
+      "checked": 12,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "SPY": {
@@ -8660,13 +8964,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:18",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:25",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "ORCL": {
@@ -9198,13 +9502,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "CRM": {
@@ -9229,7 +9533,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending LINK 7.10% ICP 1.70% SUI 1.20% DXY",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90%",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9384,7 +9688,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending LINK 7.10% ICP 1.70% SUI 1.20% DXY",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90%",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9750,13 +10054,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "PLTR": {
@@ -10371,13 +10675,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:19",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "QCOM": {
@@ -10854,13 +11158,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "ARM": {
@@ -11289,13 +11593,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "MRVL": {
@@ -11746,13 +12050,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:20",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "ASML": {
@@ -12296,13 +12600,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "LRCX": {
@@ -12714,13 +13018,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "KLAC": {
@@ -13183,13 +13487,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "SNDK": {
@@ -13940,13 +14244,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   },
   "WDC": {
@@ -14380,13 +14684,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786799902.519183,
-    "_updated_label": "2026-08-15 22:21",
+    "_fetched_at": 1786821906.4914384,
+    "_updated_label": "2026-08-16 04:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-15 22:21"
+      "updated": "2026-08-16 04:28"
     }
   }
 };
