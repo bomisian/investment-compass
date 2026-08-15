@@ -226,18 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "알카에다의 말리 공세에 인질 몸값 5천만 달러 지원했다고 UN 발표 - 로이터 통신"
     },
     {
-      "headline": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-      "datetime": 1786749227,
-      "headlineKo": "UAE ADNOC는 자국 선박 중 하나가 호르무즈를 통과하던 중 공격을 받았다고 밝혔습니다."
-    },
-    {
       "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
       "datetime": 1786746966,
       "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
+    },
+    {
+      "headline": "UAE says ADNOC vessel attacked in Hormuz, vows to defend navigation rights - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
+      "datetime": 1786744860,
+      "headlineKo": "UAE는 ADNOC 선박이 호르무즈에서 공격을 받고 항해권을 방어하겠다고 맹세했다고 밝혔습니다."
     },
     {
       "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786785387.5670571,
-  "_updated_label": "2026-08-15 18:16"
+  "_fetched_at": 1786789016.4306147,
+  "_updated_label": "2026-08-15 19:17"
 };
