@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html",
+      "datetime": 1786803774,
+      "headlineKo": "Intel과 Nvidia가 지난 주 시장에서 AI 거래를 촉진하면서 인플레이션이 완화되었습니다."
+    },
+    {
       "headline": "Marijuana reform is emerging as a midterm elections issue on both sides of the aisle",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/15/cannabis-marijuana-legalization-midterm-elections.html",
@@ -247,11 +254,11 @@ const MARKET_DATA = {
       "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
     },
     {
-      "headline": "UAE says ADNOC vessel attacked in Hormuz, vows to defend navigation rights - Reuters",
+      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786744860,
-      "headlineKo": "UAE는 ADNOC 선박이 호르무즈에서 공격을 받고 항해권을 방어하겠다고 맹세했다고 밝혔습니다."
+      "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
     },
     {
       "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
       "datetime": 1786732415,
       "headlineKo": "플래시 메모리 제조업체인 SanDisk가 이번 주에 투자자들에게 말한 내용은 최신 주식에 도움이 될 것입니다."
-    },
-    {
-      "headline": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
-      "datetime": 1786728417,
-      "headlineKo": "오만에서 대규모 석유 유출이 재앙을 위협함에 따라 걸프만에 두 개의 유막이 나타남 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786803744.5043213,
-  "_updated_label": "2026-08-15 23:22"
+  "_fetched_at": 1786807372.5155656,
+  "_updated_label": "2026-08-16 00:23"
 };
