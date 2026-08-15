@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVotZUg4bXg1RnZJYmNLTlg2UTJKRjY0MHBoWm9Xd2VYeWM5SUhEckRXNzF3THI4dE9tZm4taDd4N2pMZzdLTmhmM0RRRi1yeGc0blpBYlhlSlVIVGh3MThZQnFkLWhaVWtHcDdhb2wxSGtXTlVMMFdHbnVmV1hiWWtXVHczeHJEQS1zUGZUbVRZX3NwZ1E4bG1kX2VUbUpOQURUd2pidEtwd2M?oc=5",
-      "datetime": 1786754609,
+      "datetime": 1786762286,
       "headlineKo": "에트나 산이 불타오르며 수백 편의 비행편을 방해했다 - 로이터 통신"
     },
     {
@@ -261,6 +261,13 @@ const MARKET_DATA = {
       "headlineKo": "유조선 공격에 유가 1달러 이상 상승, 평화에 대한 진전 없음 - 로이터"
     },
     {
+      "headline": "Yemen government says Houthi missiles kill four civilians in port city - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTmNkVEYyamJfdmxCeFdRYUZjWXg5MS10VUNDdFdZcXpsZFM0UjBSRXowMGxMRnZkV3ZXX29JUzlXbkkyaGFENWlCdWREMGJnblktd1Rza2dHQ04zQTVJcjNxOG1qWnVuLUtiRHRWSDZFTk5yTzVac1VXSkx5ODFkOS1GXzFFREJXa3pmMlVoT3ZVT0NLU3ZDdmliSVBMQVVPMFZIcWpaSWpfcDJqcFlhdGJJZmZxa2hieFdnTHBtQTNKdkx4eGc?oc=5",
+      "datetime": 1786735020,
+      "headlineKo": "예멘 정부는 후티 반군 미사일로 항구 도시에서 민간인 4명이 사망했다고 밝혔습니다."
+    },
+    {
       "headline": "What flash memory maker SanDisk told investors this week is a boon for our newest stock",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/14/what-sandisk-told-investors-this-week-is-a-boon-for-our-newest-stock.html",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/14/disney-ceo-josh-damaro-d23-expo.html",
       "datetime": 1786720436,
       "headlineKo": "Disney CEO Josh D'Amaro, D23 엑스포에서 CNBC와 생방송으로 연설"
-    },
-    {
-      "headline": "Trump asks Supreme Court to let White House ballroom construction continue",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/14/trump-ballroom-supreme-court-white-house.html",
-      "datetime": 1786720301,
-      "headlineKo": "트럼프, 대법원에 백악관 무도장 건설 계속 허락해달라고 요청"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786759757.8807058,
-  "_updated_label": "2026-08-15 11:09"
+  "_fetched_at": 1786763390.5318155,
+  "_updated_label": "2026-08-15 12:10"
 };
