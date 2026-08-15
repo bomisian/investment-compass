@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.63600158691406,
+      "current": 99.66999816894531,
       "prevClose": 99.95999908447266,
-      "changeAbs": -0.32399749755859375,
-      "changePct": -0.32412715138662107,
-      "pctRank": 32.776451869530625,
+      "changeAbs": -0.29000091552734375,
+      "changePct": -0.2901169649694316,
+      "pctRank": 33.17422434367542,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.942721200255948,
-      "ma20": 100.40280036926269,
-      "ma60": 100.32626698811849,
-      "chg1m": -1.0940017700195312,
-      "chg3m": 0.7560043334960938,
-      "chg1mPct": -1.0860733977571413,
-      "chg3mPct": 0.7645675106144495,
+      "drawdown1y": -1.9092632907716123,
+      "ma20": 100.40450019836426,
+      "ma60": 100.326833597819,
+      "chg1m": -1.0600051879882812,
+      "chg3m": 0.7900009155273438,
+      "chg1mPct": -1.052323193351028,
+      "chg3mPct": 0.7989491681544681,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4432.0,
+      "current": 4380.39990234375,
       "prevClose": 4363.60009765625,
-      "changeAbs": 68.39990234375,
-      "changePct": 1.5675107895539862,
-      "pctRank": 91.48766905330152,
+      "changeAbs": 16.7998046875,
+      "changePct": 0.38499872379513894,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.666665136503276,
-      "ma20": 4177.205004882812,
-      "ma60": 4215.883333333333,
-      "chg1m": 446.39990234375,
-      "chg3m": -246.10009765625,
-      "chg1mPct": 11.200318431501882,
-      "chg3mPct": -5.260684733521356,
+      "drawdown1y": -17.63688359701262,
+      "ma20": 4174.625,
+      "ma60": 4215.023331705729,
+      "chg1m": 394.7998046875,
+      "chg3m": -297.7001953125,
+      "chg1mPct": 9.90565523419331,
+      "chg3mPct": -6.363698704558485,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,13 +219,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVotZUg4bXg1RnZJYmNLTlg2UTJKRjY0MHBoWm9Xd2VYeWM5SUhEckRXNzF3THI4dE9tZm4taDd4N2pMZzdLTmhmM0RRRi1yeGc0blpBYlhlSlVIVGh3MThZQnFkLWhaVWtHcDdhb2wxSGtXTlVMMFdHbnVmV1hiWWtXVHczeHJEQS1zUGZUbVRZX3NwZ1E4bG1kX2VUbUpOQURUd2pidEtwd2M?oc=5",
-      "datetime": 1786762286,
-      "headlineKo": "에트나 산이 불타오르며 수백 편의 비행편을 방해했다 - 로이터 통신"
-    },
-    {
       "headline": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
@@ -252,6 +245,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
       "datetime": 1786739700,
       "headlineKo": "트럼프가 미국인들에게 높은 휘발유 가격을 받아들이라고 말하자 이란은 해협에 도전했다 - 로이터"
+    },
+    {
+      "headline": "Mount Etna erupts in fiery display, disrupting hundreds of flights - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSVotZUg4bXg1RnZJYmNLTlg2UTJKRjY0MHBoWm9Xd2VYeWM5SUhEckRXNzF3THI4dE9tZm4taDd4N2pMZzdLTmhmM0RRRi1yeGc0blpBYlhlSlVIVGh3MThZQnFkLWhaVWtHcDdhb2wxSGtXTlVMMFdHbnVmV1hiWWtXVHczeHJEQS1zUGZUbVRZX3NwZ1E4bG1kX2VUbUpOQURUd2pidEtwd2M?oc=5",
+      "datetime": 1786736520,
+      "headlineKo": "에트나 산이 불타오르며 수백 편의 비행편을 방해했다 - 로이터 통신"
     },
     {
       "headline": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786763390.5318155,
-  "_updated_label": "2026-08-15 12:10"
+  "_fetched_at": 1786767043.4681232,
+  "_updated_label": "2026-08-15 13:11"
 };
