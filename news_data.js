@@ -769,13 +769,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "AAPL": {
@@ -891,9 +891,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-dr",
-            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China.",
-            "Apple is also seeking White House approval to use the chips in China-market products, according to Semafor ."
+            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-driven component shortage By Cris Tolomia · 2 min read · Updat",
+            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1090,9 +1090,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-dr",
-            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China.",
-            "Apple is also seeking White House approval to use the chips in China-market products, according to Semafor ."
+            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-driven component shortage By Cris Tolomia · 2 min read · Updat",
+            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1313,13 +1313,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "GOOGL": {
@@ -1384,9 +1384,9 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Google Parent Alphabet Just Revealed How Many SpaceX Shares It Owns...",
@@ -1539,9 +1539,9 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 기반 간이 분석",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Google Parent Alphabet Just Revealed How Many SpaceX Shares It Owns...",
@@ -1849,13 +1849,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "MSFT": {
@@ -1925,7 +1925,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASH",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 1",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -1971,7 +1971,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASHCAT 1.30% AVAX 3.00% XRP 0.20",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% ICP 0.20% TAO 0.30% HBAR 0.90% AVAX 2.50% MAGS",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2081,7 +2081,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASH",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 1",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2207,7 +2207,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASHCAT 1.30% AVAX 3.00% XRP 0.20",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% ICP 0.20% TAO 0.30% HBAR 0.90% AVAX 2.50% MAGS",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2372,13 +2372,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "AMZN": {
@@ -2936,13 +2936,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "TSM": {
@@ -3412,13 +3412,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "AVGO": {
@@ -3954,13 +3954,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "META": {
@@ -4779,13 +4779,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "TSLA": {
@@ -4837,8 +4837,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         },
@@ -5134,8 +5134,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         }
@@ -5486,13 +5486,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "MU": {
@@ -6062,13 +6062,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "AMD": {
@@ -6637,13 +6637,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "INTC": {
@@ -7281,13 +7281,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "AMAT": {
@@ -7352,13 +7352,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% AVAX 2.50",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7381,7 +7382,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -7506,13 +7507,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% AVAX 2.50",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7535,7 +7537,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -8012,13 +8014,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "QQQ": {
@@ -8168,12 +8170,12 @@ const NEWS_DATA = {
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       },
       {
-        "headline": "QYLD: Multiple Clues Point To QQQ Covered Call ETF Outperformance",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=9205063701c6a0493583a104267960db77716e05eaf37a34bb6adccbbd18b5b8",
-        "datetime": 1786024849,
-        "relevance": 1.0,
-        "headlineKo": "QYLD: QQQ 커버드콜 ETF 성과에 대한 여러 단서"
+        "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500, Nasdaq 100 Gains as US Says it Can Maintain Iran Blockade 'Indefinitely'—SanDisk, Workday, Applied Materials in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=eb1ce52df6cd12d9bc77ff0842861e4d0991401c2594028d1c101454f46b8435",
+        "datetime": 1786696466,
+        "relevance": 0.67,
+        "headlineKo": "오늘의 주식 시장: 미국이 이란 봉쇄를 '무기한' 유지할 수 있다고 말하면서 다우 존스 선물 하락, S&P 500, Nasdaq 100 상승—SanDisk, Workday, Applied Materials in Focus(업데이트됨)"
       }
     ],
     "newsHistory": [
@@ -8481,13 +8483,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:45",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "SPY": {
@@ -9034,13 +9036,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:45",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "ORCL": {
@@ -9572,13 +9574,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "CRM": {
@@ -9603,7 +9605,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASHCAT 1.",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% ",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9758,7 +9760,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending CHIP 19.20% MRAM 12.18% CASHCAT 1.",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% ",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10124,13 +10126,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:46",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "PLTR": {
@@ -10745,13 +10747,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "QCOM": {
@@ -10909,15 +10911,23 @@ const NEWS_DATA = {
         "headlineKo": "Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록"
       },
       {
-        "headline": "Qualcomm (QCOM) Stock Fair Value Moves Lower As Margin Pressure Offsets AI Ambitions",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=90d1449518779e2fda33411f6ab14224123a1029b341e9165e110dfcdc577aaa",
-        "datetime": 1786058253,
-        "relevance": 1,
-        "headlineKo": "마진 압박이 AI 야망을 상쇄함에 따라 Qualcomm(QCOM) 주식 공정 가치가 하락함"
+        "headline": "Viking Global Investors Reports Share Stake Of 1.5 Mln Shares In Qualcomm Inc",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=74dac10ef9b29148f345de1374b267e1666fff3bb4f74803b5fd410af87ad7f7",
+        "datetime": 1786724857,
+        "relevance": 0.5,
+        "headlineKo": "Viking Global Investors, Qualcomm Inc의 150만 주 지분 보고"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Viking Global Investors Reports Share Stake Of 1.5 Mln Shares In Qualcomm Inc",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=74dac10ef9b29148f345de1374b267e1666fff3bb4f74803b5fd410af87ad7f7",
+        "datetime": 1786724857,
+        "headlineKo": "Viking Global Investors, Qualcomm Inc의 150만 주 지분 보고",
+        "relevance": 0.5
+      },
       {
         "headline": "Is Qualcomm’s New EMEA Leadership the Missing Link in Its Diversification Story for QCOM?",
         "source": "Yahoo",
@@ -11228,13 +11238,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 14,
+      "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "ARM": {
@@ -11663,13 +11673,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "MRVL": {
@@ -12120,13 +12130,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:47",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:54",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "ASML": {
@@ -12670,13 +12680,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "LRCX": {
@@ -13088,13 +13098,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "KLAC": {
@@ -13557,13 +13567,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:48",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "SNDK": {
@@ -14314,13 +14324,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:49",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:55",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   },
   "WDC": {
@@ -14475,15 +14485,23 @@ const NEWS_DATA = {
         "headlineKo": "Western Digital(NASDAQ:WDC), Navellier에서 영감을 받은 화면에서 8가지 성장 기준 모두 삭제"
       },
       {
-        "headline": "Western Digital (WDC) Stock May Be 49% Undervalued After AI Storage Deal Talks",
+        "headline": "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=392afc4b9af9cc8c00f82e75f5902de6113b3f8bb6110eb8d907a3d6193a6e60",
-        "datetime": 1786043455,
-        "relevance": 1,
-        "headlineKo": "AI 스토리지 거래 협상 후 Western Digital(WDC) 주식은 49% 저평가될 수 있습니다."
+        "url": "https://finnhub.io/api/news?id=45f2789ca5cf4e831eafc73eb25852d2de89e03837693f4006bcebe38cb58c5e",
+        "datetime": 1786647929,
+        "relevance": 1.0,
+        "headlineKo": "SNDK, WDC, MU, SMCI 주식은 최고의 S&P 500 상승주입니다. SanDisk의 장밋빛 전망이 뒷받침하는 지속적인 기업 수요가 메모리 주식을 돕고 있습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "SNDK, WDC, MU, SMCI Stock Are The Top S&P 500 Gainers — Sustained Corporate Demand Anchored By SanDisk's Rosy Outlook Is Aiding Memory Stocks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=45f2789ca5cf4e831eafc73eb25852d2de89e03837693f4006bcebe38cb58c5e",
+        "datetime": 1786647929,
+        "headlineKo": "SNDK, WDC, MU, SMCI 주식은 최고의 S&P 500 상승주입니다. SanDisk의 장밋빛 전망이 뒷받침하는 지속적인 기업 수요가 메모리 주식을 돕고 있습니다.",
+        "relevance": 1.0
+      },
       {
         "headline": "Western Digital (WDC) Stock Gets Fair Value Boost As AI Storage Demand Lifts Outlook",
         "source": "Yahoo",
@@ -14754,13 +14772,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786887943.5425997,
-    "_updated_label": "2026-08-16 22:49",
+    "_fetched_at": 1786909956.4345345,
+    "_updated_label": "2026-08-17 04:56",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 16,
+      "checked": 17,
       "removed": 0,
-      "updated": "2026-08-16 22:49"
+      "updated": "2026-08-17 04:56"
     }
   }
 };
