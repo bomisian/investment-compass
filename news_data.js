@@ -769,13 +769,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "AAPL": {
@@ -1313,13 +1313,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "GOOGL": {
@@ -1849,13 +1849,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "MSFT": {
@@ -1925,7 +1925,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% NLST 18.55% RDDT 1",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2080,7 +2080,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% NLST 18.55% RDDT 1",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2370,13 +2370,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "AMZN": {
@@ -2934,13 +2934,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "TSM": {
@@ -3410,13 +3410,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "AVGO": {
@@ -3952,13 +3952,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "META": {
@@ -4777,13 +4777,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "TSLA": {
@@ -5484,13 +5484,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "MU": {
@@ -6060,13 +6060,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:35",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "AMD": {
@@ -6635,13 +6635,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "INTC": {
@@ -7279,13 +7279,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "AMAT": {
@@ -7350,13 +7350,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% CRCL 5.01% UMAC 25.04% RDDT 12.63",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7379,7 +7380,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -7504,13 +7505,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% CRCL 5.01% UMAC 25.04% RDDT 12.63",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
+            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7533,7 +7535,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -8010,13 +8012,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "QQQ": {
@@ -8479,13 +8481,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "SPY": {
@@ -9032,13 +9034,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:32",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "ORCL": {
@@ -9570,13 +9572,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "CRM": {
@@ -9601,7 +9603,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP 1.15%",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% CRCL 5.01% UMAC 25.04% R",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9756,7 +9758,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP 1.15%",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending RUM 1.06% CRCL 5.01% UMAC 25.04% R",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10122,13 +10124,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "PLTR": {
@@ -10743,13 +10745,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:33",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "QCOM": {
@@ -11226,13 +11228,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "ARM": {
@@ -11661,13 +11663,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "MRVL": {
@@ -12118,13 +12120,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "ASML": {
@@ -12668,13 +12670,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:34",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "LRCX": {
@@ -13086,13 +13088,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:35",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "KLAC": {
@@ -13555,13 +13557,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:35",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "SNDK": {
@@ -14312,13 +14314,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:35",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   },
   "WDC": {
@@ -14752,13 +14754,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786843931.732526,
-    "_updated_label": "2026-08-16 10:35",
+    "_fetched_at": 1786865940.5125055,
+    "_updated_label": "2026-08-16 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-16 10:35"
+      "updated": "2026-08-16 16:42"
     }
   }
 };

@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4437.2998046875,
+      "current": 4380.39990234375,
       "prevClose": 4363.60009765625,
-      "changeAbs": 73.69970703125,
-      "changePct": 1.6889656563816455,
-      "pctRank": 91.64677804295943,
+      "changeAbs": 16.7998046875,
+      "changePct": 0.38499872379513894,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.567014775777967,
-      "ma20": 4177.469995117188,
-      "ma60": 4215.971663411458,
-      "chg1m": 451.69970703125,
-      "chg3m": -240.80029296875,
-      "chg1mPct": 11.333292251193843,
-      "chg3mPct": -5.147395052307497,
+      "drawdown1y": -17.63688359701262,
+      "ma20": 4174.625,
+      "ma60": 4215.023331705729,
+      "chg1m": 394.7998046875,
+      "chg3m": -297.7001953125,
+      "chg1mPct": 9.90565523419331,
+      "chg3mPct": -6.363698704558485,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -240,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "예멘 모카 항구는 후티 반군 공격 이후 운영을 중단했다고 항구 책임자가 밝혔습니다."
     },
     {
-      "headline": "Taliban mark five years in power as aid groups warn of crisis - reuters.com",
+      "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
       "datetime": 1786807612,
-      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - reuters.com"
+      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - Reuters"
     },
     {
       "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786862312.5554109,
-  "_updated_label": "2026-08-16 15:38"
+  "_fetched_at": 1786866145.8715496,
+  "_updated_label": "2026-08-16 16:42"
 };
