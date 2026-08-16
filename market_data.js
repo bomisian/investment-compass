@@ -219,18 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
+      "datetime": 1786890823,
+      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
+    },
+    {
+      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
+      "datetime": 1786886264,
+      "headlineKo": "이란 회담 중단, 호르무즈 교란에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다."
+    },
+    {
       "headline": "Pope calls for an end to West Bank violence against Palestinians - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGQ4SWdqSHFLZE1qOUNXWDhnLVlQa09TeGtURVpuZC1BWjFPNE1CalBpTU5NM3c2Uy1qSi1mSnlmRjB6UTlab1hMd19Zd2tubTFLNUZoSWZqUWdyN2V3UFZXWlY3c3d6RGlNbGduMjRWMlZ5cDcyU3U4R3VfXzVUZlZ3T3A0TnBHdnZmWHQ2VmxLdmdSVFBBQVdrckZULUFJNEEyc0Q2cko1WmprZVdNeA?oc=5",
       "datetime": 1786883023,
       "headlineKo": "교황, 팔레스타인에 대한 서안 지구의 폭력 중단 촉구 - 로이터"
-    },
-    {
-      "headline": "Iranian parliament votes to further criminalise interviews with 'hostile media' - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
-      "datetime": 1786882712,
-      "headlineKo": "이란 의회, '적대적 언론' 인터뷰 범죄화 법안 통과 - 로이터 통신"
     },
     {
       "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
@@ -268,13 +275,6 @@ const MARKET_DATA = {
       "headlineKo": "인도, 중동 전쟁 속에서 석유 회사들이 요리용 가스 생산량을 늘리기 위한 목표 설정 - Reuters"
     },
     {
-      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-      "datetime": 1786832209,
-      "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
-    },
-    {
       "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786891804.4646344,
-  "_updated_label": "2026-08-16 23:50"
+  "_fetched_at": 1786895433.526468,
+  "_updated_label": "2026-08-17 00:50"
 };
