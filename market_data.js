@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4380.39990234375,
+      "current": 4437.2998046875,
       "prevClose": 4363.60009765625,
-      "changeAbs": 16.7998046875,
-      "changePct": 0.38499872379513894,
-      "pctRank": 91.16945107398568,
+      "changeAbs": 73.69970703125,
+      "changePct": 1.6889656563816455,
+      "pctRank": 91.64677804295943,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.63688359701262,
-      "ma20": 4174.625,
-      "ma60": 4215.023331705729,
-      "chg1m": 394.7998046875,
-      "chg3m": -297.7001953125,
-      "chg1mPct": 9.90565523419331,
-      "chg3mPct": -6.363698704558485,
+      "drawdown1y": -16.567014775777967,
+      "ma20": 4177.469995117188,
+      "ma60": 4215.971663411458,
+      "chg1m": 451.69970703125,
+      "chg3m": -240.80029296875,
+      "chg1mPct": 11.333292251193843,
+      "chg3mPct": -5.147395052307497,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
+      "datetime": 1786865905,
+      "headlineKo": "이란, 포로로 잡힌 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - 로이터"
+    },
+    {
       "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786744860,
       "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
-    },
-    {
-      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
-      "datetime": 1786742602,
-      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786866145.8715496,
-  "_updated_label": "2026-08-16 16:42"
+  "_fetched_at": 1786869774.5247004,
+  "_updated_label": "2026-08-16 17:43"
 };
