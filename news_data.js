@@ -769,13 +769,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "AAPL": {
@@ -1313,13 +1313,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "GOOGL": {
@@ -1849,13 +1849,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "MSFT": {
@@ -1925,7 +1925,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -1966,14 +1966,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57% IMRX 2.69% L",
-            "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
-            "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
+            "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1996,7 +1995,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -2081,7 +2080,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2202,14 +2201,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57% IMRX 2.69% L",
-            "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
-            "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
+            "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -2232,7 +2230,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -2372,13 +2370,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "AMZN": {
@@ -2936,13 +2934,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "TSM": {
@@ -3412,13 +3410,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "AVGO": {
@@ -3954,13 +3952,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "META": {
@@ -4779,13 +4777,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "TSLA": {
@@ -4837,8 +4835,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         },
@@ -5134,8 +5132,8 @@ const NEWS_DATA = {
             "자동차 매출총이익률·보증충당금",
             "판매량·주문 취소와 주가 반응"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 판매량·ASP(평균판매가격)·매출총이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla Cars Facing More Demand Than Stock? Buyers Face Extended Waits For Base Model 3, Model Y And Cybertruck' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: TSLA에 부담이 될 수 있는 뉴스입니다. 일회성 이슈인지 구조적 변화인지, 다음 실적에서 매출·EPS·영업이익률가 꺾이는지 확인하기 전에는 단정하지 않습니다.",
           "relevance": 1,
           "quality": "high"
         }
@@ -5486,13 +5484,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "MU": {
@@ -6062,13 +6060,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:28",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:35",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "AMD": {
@@ -6637,13 +6635,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "INTC": {
@@ -7281,13 +7279,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "AMAT": {
@@ -7352,14 +7350,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57",
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
-            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7382,7 +7379,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -7507,14 +7504,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90% RCL 1.57",
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
-            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7537,7 +7533,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -8014,18 +8010,63 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "QQQ": {
     "nextEarnings": null,
     "news": [
+      {
+        "headline": "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=807e5112a03651f0dde42473d4e728c22780cbd44f1f5949291393264e25f3bb",
+        "datetime": 1786812674,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low"
+        },
+        "headlineKo": "BWET ETF는 2026년에 1,600% 이상 상승: 이것이 QQQ와 SPY를 능가하는 이유는 다음과 같습니다."
+      },
       {
         "headline": "QUICK SPARK: $3.6B Flows Into SPY in One Day; QQQ, SOXX Lead ETF Redemptions",
         "source": "Benzinga",
@@ -8122,61 +8163,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
         "datetime": 1786459101,
         "relevance": 1.0,
-        "analysis": {
-          "version": 8,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QQQ에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1.0,
-          "quality": "high"
-        },
         "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
       },
       {
@@ -8186,17 +8172,54 @@ const NEWS_DATA = {
         "datetime": 1786024849,
         "relevance": 1.0,
         "headlineKo": "QYLD: QQQ 커버드콜 ETF 성과에 대한 여러 단서"
-      },
-      {
-        "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500, Nasdaq 100 Gains as US Says it Can Maintain Iran Blockade 'Indefinitely'—SanDisk, Workday, Applied Materials in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=eb1ce52df6cd12d9bc77ff0842861e4d0991401c2594028d1c101454f46b8435",
-        "datetime": 1786696466,
-        "relevance": 0.67,
-        "headlineKo": "오늘의 주식 시장: 미국이 이란 봉쇄를 '무기한' 유지할 수 있다고 말하면서 다우 존스 선물 하락, S&P 500, Nasdaq 100 상승—SanDisk, Workday, Applied Materials in Focus(업데이트됨)"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=807e5112a03651f0dde42473d4e728c22780cbd44f1f5949291393264e25f3bb",
+        "datetime": 1786812674,
+        "headlineKo": "BWET ETF는 2026년에 1,600% 이상 상승: 이것이 QQQ와 SPY를 능가하는 이유는 다음과 같습니다.",
+        "relevance": 1.0,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low"
+        }
+      },
       {
         "headline": "Stock Market Today: Dow Jones Futures Slip, S&P 500, Nasdaq 100 Gains as US Says it Can Maintain Iran Blockade 'Indefinitely'—SanDisk, Workday, Applied Materials in Focus (UPDATED)",
         "source": "Benzinga",
@@ -8456,13 +8479,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 12,
+      "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "SPY": {
@@ -8512,6 +8535,51 @@ const NEWS_DATA = {
           "quality": "low"
         },
         "headlineKo": "S&P 500 ETF 배당금: IVV, VOO, SPY: 2026년 3분기 DPS 예측"
+      },
+      {
+        "headline": "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=807e5112a03651f0dde42473d4e728c22780cbd44f1f5949291393264e25f3bb",
+        "datetime": 1786812674,
+        "relevance": 0.75,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low"
+        },
+        "headlineKo": "BWET ETF는 2026년에 1,600% 이상 상승: 이것이 QQQ와 SPY를 능가하는 이유는 다음과 같습니다."
       },
       {
         "headline": "QUICK SPARK: $3.6B Flows Into SPY in One Day; QQQ, SOXX Lead ETF Redemptions",
@@ -8564,15 +8632,34 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=cb953261297d4b48a1999ea05babfc77e57aaff47be5194901c06413a1e87b59",
         "datetime": 1786611579,
         "relevance": 0.75,
+        "headlineKo": "기술적 분석을 사용하여 SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META 및 TSLA를 거래하는 방법"
+      },
+      {
+        "headline": "SPYI’s 11.7% Yield Hides $2,927.50 Annual Fee Gap Versus SPY",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0141bb23a95c90e79bc2f1f3445d53a12113f7c9c45b3f5cf608a656112be94",
+        "datetime": 1786484757,
+        "relevance": 0.75,
+        "headlineKo": "SPYI의 11.7% 수익률은 SPY와 $2,927.50의 연간 수수료 격차를 숨깁니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=807e5112a03651f0dde42473d4e728c22780cbd44f1f5949291393264e25f3bb",
+        "datetime": 1786812674,
+        "headlineKo": "BWET ETF는 2026년에 1,600% 이상 상승: 이것이 QQQ와 SPY를 능가하는 이유는 다음과 같습니다.",
+        "relevance": 0.75,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA Using Technical Analysis",
+            "BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -8596,31 +8683,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'How To Trade SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META, And TSLA Using Technical Analysis' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 SPY의 사업과 관련된 'BWET ETF Up More Than1,600% in 2026:  Here's Why It's Beating QQQ and SPY' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.75,
           "quality": "low"
-        },
-        "headlineKo": "기술적 분석을 사용하여 SPY, QQQ, AAPL, MSFT, NVDA, GOOGL, META 및 TSLA를 거래하는 방법"
+        }
       },
-      {
-        "headline": "SPYI’s 11.7% Yield Hides $2,927.50 Annual Fee Gap Versus SPY",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b0141bb23a95c90e79bc2f1f3445d53a12113f7c9c45b3f5cf608a656112be94",
-        "datetime": 1786484757,
-        "relevance": 0.75,
-        "headlineKo": "SPYI의 11.7% 수익률은 SPY와 $2,927.50의 연간 수수료 격차를 숨깁니다."
-      },
-      {
-        "headline": "Navigating AI Waves: How Capital Rotation Will Propel SPY And QQQ",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d48f8d5ed24b3a324376539de786b6e3b8d0518e5d4c8ee2820437b78ebea300",
-        "datetime": 1786459101,
-        "relevance": 0.75,
-        "headlineKo": "AI 물결 탐색: 자본 순환이 SPY 및 QQQ를 추진하는 방법"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "QUICK SPARK: $3.6B Flows Into SPY in One Day; QQQ, SOXX Lead ETF Redemptions",
         "source": "Benzinga",
@@ -8964,13 +9032,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:25",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:32",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 21,
+      "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "ORCL": {
@@ -9502,13 +9570,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "CRM": {
@@ -9533,7 +9601,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90%",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP 1.15%",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9688,7 +9756,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.00% AMP 0.10% AVAX 0.90%",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending MELANIA 1.30% GSAT 0.27% XRP 1.15%",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10054,13 +10122,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "PLTR": {
@@ -10675,13 +10743,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:26",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "QCOM": {
@@ -11158,13 +11226,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "ARM": {
@@ -11593,13 +11661,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "MRVL": {
@@ -12050,13 +12118,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "ASML": {
@@ -12600,13 +12668,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:27",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:34",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "LRCX": {
@@ -13018,13 +13086,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:28",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:35",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "KLAC": {
@@ -13487,13 +13555,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:28",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:35",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "SNDK": {
@@ -14244,13 +14312,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:28",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:35",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   },
   "WDC": {
@@ -14684,13 +14752,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786821906.4914384,
-    "_updated_label": "2026-08-16 04:28",
+    "_fetched_at": 1786843931.732526,
+    "_updated_label": "2026-08-16 10:35",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-16 04:28"
+      "updated": "2026-08-16 10:35"
     }
   }
 };
