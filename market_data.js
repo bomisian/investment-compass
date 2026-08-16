@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4380.39990234375,
+      "current": 4437.2998046875,
       "prevClose": 4363.60009765625,
-      "changeAbs": 16.7998046875,
-      "changePct": 0.38499872379513894,
-      "pctRank": 91.16945107398568,
+      "changeAbs": 73.69970703125,
+      "changePct": 1.6889656563816455,
+      "pctRank": 91.64677804295943,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.63688359701262,
-      "ma20": 4174.625,
-      "ma60": 4215.023331705729,
-      "chg1m": 394.7998046875,
-      "chg3m": -297.7001953125,
-      "chg1mPct": 9.90565523419331,
-      "chg3mPct": -6.363698704558485,
+      "drawdown1y": -16.567014775777967,
+      "ma20": 4177.469995117188,
+      "ma60": 4215.971663411458,
+      "chg1m": 451.69970703125,
+      "chg3m": -240.80029296875,
+      "chg1mPct": 11.333292251193843,
+      "chg3mPct": -5.147395052307497,
       "lastDate": "2026-08-14",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - reuters.com",
+      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
       "datetime": 1786822125,
-      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 유해를 발견했다고 밝혔습니다."
+      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 시신을 발견했다고 밝혔습니다."
     },
     {
-      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - reuters.com",
+      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
       "datetime": 1786818830,
-      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - reuters.com"
+      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - 로이터 통신"
     },
     {
       "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - Reuters",
@@ -247,11 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - reuters.com"
     },
     {
-      "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - reuters.com",
+      "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
       "datetime": 1786805011,
-      "headlineKo": "이스라엘 공습으로 레바논 남부에서 7명 사망, 국영 뉴스 보도 - reuters.com"
+      "headlineKo": "이스라엘 공습으로 레바논 남부에서 7명 사망, 국영 뉴스 보도 - 로이터"
     },
     {
       "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
@@ -261,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "Intel과 Nvidia가 지난 주 시장에서 AI 거래를 촉진하면서 인플레이션이 완화되었습니다."
     },
     {
-      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - reuters.com",
+      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
       "datetime": 1786803225,
-      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - reuters.com"
+      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - Reuters"
     },
     {
       "headline": "Marijuana reform is emerging as a midterm elections issue on both sides of the aisle",
@@ -282,31 +282,31 @@ const MARKET_DATA = {
       "headlineKo": "알카에다의 말리 공세에 인질 몸값 5천만 달러 지원했다고 UN 발표 - 로이터 통신"
     },
     {
-      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - reuters.com",
+      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
       "datetime": 1786746966,
-      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협한 후 호르무즈 교통은 더욱 둔화됐다 - reuters.com"
+      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
     },
     {
-      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - reuters.com",
+      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
       "datetime": 1786744860,
       "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
     },
     {
-      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - reuters.com",
+      "headline": "Trump says USS Abraham Lincoln deployment 'not nearly long enough' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUzNsYmMxbVMzTEd5RnlEOUdmcmlRM1ZiaG1xTm93dXJUQ2otQ2trbUswV3hXeS16cldCbVNXeTFmV21PNlFrZXM3UmVoSHZRc01uNmJwWFZYeHB6RzhYYjFCWl90MXN1dzBUNnBCelhkSGF1bm1XTWZUdW91bElvVmFxYnhETTlWOGlrangzYzl6aDVNd1VsUUNNNEtwMUtlOWFlaVU5Q09CcWE2WUE?oc=5",
       "datetime": 1786742602,
-      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - reuters.com"
+      "headlineKo": "트럼프, USS 에이브러햄 링컨 배치 '충분히 길지 않다' - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786851398.4930782,
-  "_updated_label": "2026-08-16 12:37"
+  "_fetched_at": 1786855052.684404,
+  "_updated_label": "2026-08-16 13:38"
 };
