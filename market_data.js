@@ -219,39 +219,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
+      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
-      "datetime": 1786865905,
-      "headlineKo": "이란, 포로로 잡힌 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - 로이터"
+      "datetime": 1786868875,
+      "headlineKo": "이란, 체포된 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - reuters.com"
     },
     {
-      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
+      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
       "datetime": 1786822125,
-      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 시신을 발견했다고 밝혔습니다."
+      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 유해를 발견했다고 밝혔습니다."
     },
     {
-      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - Reuters",
+      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
       "datetime": 1786818830,
-      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - 로이터 통신"
+      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - reuters.com"
     },
     {
-      "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - Reuters",
+      "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2FPbFJIdUZSc2djcmg5V0I3VE9WY0pQaWRRdGxaM21PRXloRHluMFhBVk04SjlMVmxKdmFxblFJMFRQME5QTGFBODdSbC05LWtkNm9UM3M1Vl9kTkpTY3ppaFloSXAyV0hUU3lseUR3Rl94TlZsVDhmS0VJWE9Damc4dGRla1pRUHdENG02ZExWcnh4ZDIzbC1uUmN0cFljUDN6MGd0QlVoSVcyajZXNExMMzY4SHd6QmNoQWZDYm5udTEweGpR?oc=5",
       "datetime": 1786815000,
-      "headlineKo": "예멘 모카 항구는 후티 반군 공격 이후 운영을 중단했다고 항구 책임자가 밝혔습니다."
+      "headlineKo": "예멘 모카 항구, 후티 반군 공격 이후 운영 중단"
     },
     {
-      "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
+      "headline": "Taliban mark five years in power as aid groups warn of crisis - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
       "datetime": 1786807612,
-      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - Reuters"
+      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - reuters.com"
     },
     {
       "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
@@ -268,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "Intel과 Nvidia가 지난 주 시장에서 AI 거래를 촉진하면서 인플레이션이 완화되었습니다."
     },
     {
-      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
+      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
-      "datetime": 1786803225,
-      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - Reuters"
+      "datetime": 1786801320,
+      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - reuters.com"
     },
     {
       "headline": "Marijuana reform is emerging as a midterm elections issue on both sides of the aisle",
@@ -282,31 +282,31 @@ const MARKET_DATA = {
       "headlineKo": "마리화나 개혁이 여야 모두 중간선거 이슈로 떠오르고 있다"
     },
     {
-      "headline": "A $50 million hostage ransom funded al Qaeda's Mali offensive, UN says - Reuters",
+      "headline": "Alibaba AI models hit 3 billion downloads, passing Meta, Google",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-15/alibaba-ai-models-hit-3-billion-downloads-passing-meta-google",
+      "datetime": 1786788125,
+      "headlineKo": "알리바바 AI 모델, 메타·구글 제치고 30억 다운로드 돌파"
+    },
+    {
+      "headline": "Magnitude 7.7 quake kills 38 on Indonesia’s Flores island",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-14/powerful-7-7-magnitude-earthquake-strikes-near-indonesia",
+      "datetime": 1786786587,
+      "headlineKo": "인도네시아 플로레스섬에서 규모 7.7의 지진으로 38명이 사망"
+    },
+    {
+      "headline": "A $50 million hostage ransom funded al Qaeda's Mali offensive, UN says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdkV1RXpqWTJ3NU1pZTBVaFNfdFZQOW04NXJjVUptcEk0YjhxbDM3aWNJMi1yQ2l0ZzF2dkdwYU42R1ZXcUdLNzg0T1NvRFR6eVhiMmZJMFlxb045VlRlTHFBZFI4WW0yNUswWHJ0NFViZ3hHTS1GdEVDaHg5YmRPQ01uNU9ZOVdxMnlvaHRydzZJMWpES1V4c1pPTHR3anFTNnFFd1ZheWE5cmJoUTRxbTVqUjNRalJZWWhz?oc=5",
       "datetime": 1786749524,
-      "headlineKo": "알카에다의 말리 공세에 인질 몸값 5천만 달러 지원했다고 UN 발표 - 로이터 통신"
-    },
-    {
-      "headline": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
-      "datetime": 1786746966,
-      "headlineKo": "미국이 이란에 더 많은 경제적 압력을 가하겠다고 위협하자 호르무즈 교통은 더욱 둔화됐다."
-    },
-    {
-      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-      "datetime": 1786744860,
-      "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
+      "headlineKo": "알카에다의 말리 공격에 인질 몸값 5천만 달러 지원했다고 UN 발표 - reuters.com"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786873403.544091,
-  "_updated_label": "2026-08-16 18:43"
+  "_fetched_at": 1786877033.5237563,
+  "_updated_label": "2026-08-16 19:44"
 };
