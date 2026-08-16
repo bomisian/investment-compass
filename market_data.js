@@ -219,25 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/16/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "datetime": 1786896253,
-      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "Trump's envoys in Middle East to push for Gaza peace plan - reuters.com",
+      "headline": "Trump's envoys meet mediators, Israel strikes Gaza - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
-      "datetime": 1786890919,
-      "headlineKo": "중동 주재 트럼프 특사, 가자 평화 계획 추진 - reuters.com"
+      "datetime": 1786901250,
+      "headlineKo": "트럼프 특사들, 중재자들 만나, 이스라엘, 가자지구 공습 - 로이터 통신"
     },
     {
       "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
-      "datetime": 1786890823,
+      "datetime": 1786898624,
       "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
+    },
+    {
+      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1786896253,
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
     },
     {
       "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786902696.5038364,
-  "_updated_label": "2026-08-17 02:52"
+  "_fetched_at": 1786906328.5020874,
+  "_updated_label": "2026-08-17 03:52"
 };
