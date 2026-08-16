@@ -219,18 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
+      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "datetime": 1786896253,
+      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
+    },
+    {
+      "headline": "Trump's envoys in Middle East to push for Gaza peace plan - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
+      "datetime": 1786890919,
+      "headlineKo": "중동 주재 트럼프 특사, 가자 평화 계획 추진 - reuters.com"
+    },
+    {
+      "headline": "Iranian parliament advances bill to curb foreign influence - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
       "datetime": 1786890823,
-      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
+      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - reuters.com"
     },
     {
-      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
+      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
       "datetime": 1786886264,
-      "headlineKo": "이란 회담 중단, 호르무즈 교란에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다."
+      "headlineKo": "이란 회담 중단, 호르무즈 차질에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다 - reuters.com"
     },
     {
       "headline": "Pope calls for an end to West Bank violence against Palestinians - Reuters",
@@ -240,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "교황, 팔레스타인에 대한 서안 지구의 폭력 중단 촉구 - 로이터"
     },
     {
-      "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
+      "headline": "Trump wants more economic pressure on Iran. What are his options? - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
       "datetime": 1786880097,
-      "headlineKo": "트럼프는 이란에 더 많은 경제적 압력을 가하길 원한다. 그의 선택은 무엇입니까? - 로이터"
+      "headlineKo": "트럼프는 이란에 더 많은 경제적 압력을 가하길 원한다. 그의 선택은 무엇입니까? -reuters.com"
     },
     {
-      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
+      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
       "datetime": 1786879677,
-      "headlineKo": "이란, 포로로 잡힌 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - 로이터"
+      "headlineKo": "이란, 체포된 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - reuters.com"
     },
     {
       "headline": "Ukrainian drones strike Moscow region, killing one - Reuters",
@@ -261,52 +275,38 @@ const MARKET_DATA = {
       "headlineKo": "우크라이나 드론, 모스크바 지역 공습, 1명 사망 - 로이터 통신"
     },
     {
-      "headline": "Iran executes man convicted of running over police during January protests - Reuters",
+      "headline": "Iran executes man convicted of running over police during January protests - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
       "datetime": 1786877426,
-      "headlineKo": "이란, 1월 시위 중 경찰을 덮쳐 유죄판결 받은 남성 처형 - 로이터"
+      "headlineKo": "이란, 1월 시위 중 경찰 추격 혐의로 유죄판결 받은 남성 처형 - reuters.com"
     },
     {
-      "headline": "India sets targets for oil companies to boost cooking gas output amid Middle East war - Reuters",
+      "headline": "India sets targets for oil companies to boost cooking gas output amid Middle East war - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdDN3YTl5QWtjWjg5VTZtSEVzZnNheklhcUxHb0Q5M2I5dElCOUdDbkFpR0xrX2JzTEtsMzRIVFpWRjJZeG1zTTFIckVpdy1xNnNpaDltN1BCeklreVNFSU5wZlprUnJvWkxiQXVfOTlQcTVxckkwQ0hnVEpsSnhYem1yclNkMjNLTUVYd1pMc2tnVkRESk82QjNCMG9KeFh4bGdiTVpVYUhEWDBwLUFTS2tnVkZsUWpTSmU0eFZiZjFHejJrQUJzUFpn?oc=5",
       "datetime": 1786873904,
-      "headlineKo": "인도, 중동 전쟁 속에서 석유 회사들이 요리용 가스 생산량을 늘리기 위한 목표 설정 - Reuters"
+      "headlineKo": "인도, 중동 전쟁 속에서 석유 회사들이 요리용 가스 생산량을 늘리기 위한 목표 설정 - reuters.com"
     },
     {
-      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
+      "headline": "Democrats pick South Carolina as first 2028 primary state​​ - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcUdUWnZta0dqWnVmdERxVEg1ay1leG1IZWQyUVJ2U1Y2cVJSNjg2X1BZWHRBOV9ZemJnT1pVeGpoRUt4ekFaTER1NUhVcEtObFd2X1doR2x2SnpGaDNGTEFOaUNDdUpZOVJPQ1Z5Q1d0YkQ3YlE0NGl4a0xrZ2VrdjBOdlpfdnN3aEsxZHJCcFd5M1lOZHRmWnVrd0NiaUYt?oc=5",
+      "datetime": 1786824465,
+      "headlineKo": "민주당, 2028년 첫 예비선거 주로 사우스캐롤라이나 선택 - reuters.com"
+    },
+    {
+      "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU82UzByeVFKQzJGdkhlQ0Y0YjkxQk1mZlVYdVMyV3d4TVhLRXJXa19JcU51TUJnZEFoaFpiUkkxT2tuY3hkVUY2Q2xYeU5Bd3ZHVlZlM3dCU09jMXoxR0Ntb0xTZThlREdtS0VMRXFZa3IzdDJEWnhyRE11U3VMbVFkUUs4UXVRQ1hPTU1laDZ4UUhqTmhuc282dXBZN2ExX0pyajFhRnJ0Y2p2MDJTNkhWS2pyWXAw?oc=5",
       "datetime": 1786822125,
-      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 시신을 발견했다고 밝혔습니다."
-    },
-    {
-      "headline": "Lebanon says Israeli strikes in south of the country kill at least 11​​​ - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVXM0UF9hbGcwOHNUVUZ1Zms5RDF1UWhGVWVyRHRSbm5zdXpSSmxoMGhsLWNhUE90YkVCU2tESnBPTUFURDFFTkpzUFhRRElKdkJNQmpZV0RhOEhLS0FhSVFNUkd0dDhON0dicVl4OTc0X2RzN1gxVlJMbzJqMlNpRTl0QlVtdWp4eHQ3ZklZRXZsU205NG1Bdl9jXzhTa0xDcExkLUVQY0tUcXBpOWlHMk5n?oc=5",
-      "datetime": 1786818830,
-      "headlineKo": "레바논 \"이스라엘, 남부 지역 공습으로 최소 11명 사망\" - 로이터 통신"
-    },
-    {
-      "headline": "Yemen's Mocha port halts operations after Houthi attacks, port director says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV2FPbFJIdUZSc2djcmg5V0I3VE9WY0pQaWRRdGxaM21PRXloRHluMFhBVk04SjlMVmxKdmFxblFJMFRQME5QTGFBODdSbC05LWtkNm9UM3M1Vl9kTkpTY3ppaFloSXAyV0hUU3lseUR3Rl94TlZsVDhmS0VJWE9Damc4dGRla1pRUHdENG02ZExWcnh4ZDIzbC1uUmN0cFljUDN6MGd0QlVoSVcyajZXNExMMzY4SHd6QmNoQWZDYm5udTEweGpR?oc=5",
-      "datetime": 1786815000,
-      "headlineKo": "예멘 모카 항구는 후티 반군 공격 이후 운영을 중단했다고 항구 책임자가 밝혔습니다."
-    },
-    {
-      "headline": "Palestinians in Qusra say they have faced militant settler attacks for months - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMVIzMUNoVC03bVZyb0I2ckIyY3JhMWpNMm56VFBHSk1jUG1kOTdxbkNrZ2p1NWdoYTA5SGxraWpBTUExbnVoeWwxQU5IOW5mYzEtNTh5bExJZ01VUHZjdS1QRWVyNHBodDU3RGdnUV9ldl9SYTVFLWljMWZta3VvZTliRWg5Mm9xVXFVOUNUSXBNRG1WNlRDbXdLMlNEbVFRNW1tVW9OQ2FvUDh2ZUdMeXhQMFBpS0dPd1pUVEMtNm5IUQ?oc=5",
-      "datetime": 1786810721,
-      "headlineKo": "쿠스라(Qusra)의 팔레스타인인들은 몇 달 동안 정착민들의 호전적인 공격을 받았다고 말했습니다. - 로이터"
+      "headlineKo": "카타르는 이란 조종사 구금 사실을 부인하고 한 명의 유해를 발견했다고 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786895433.526468,
-  "_updated_label": "2026-08-17 00:50"
+  "_fetched_at": 1786899062.553248,
+  "_updated_label": "2026-08-17 01:51"
 };
