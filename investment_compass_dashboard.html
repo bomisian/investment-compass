@@ -578,7 +578,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-14b';
+const DASHBOARD_VERSION = '2026-08-14c';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -1368,6 +1368,15 @@ function computeFairValue(ticker, price, fund, est){
     const pe1y = price / eps1;              // 주가가 그대로일 때 내년 PER - "가만히 있어도 싸지는가"
     const growth = eps1/eps0 - 1;
     const mid = eps1 * anchorPe;
+    // 2026-08-14 추가(사용자 지적: "보수/낙관 20%가 모든 종목에 똑같이 적용되는데, 종목마다 실제
+    // 데이터로 계산해야 한다") - 기존 0.64/1.55는 대형주 13종목 13년치를 풀링한 '전체 통계'라
+    // 26종목 전부에 동일 적용됐음. buy_signal_telegram.py가 Finnhub series.annual.pe(이 종목
+    // 자신의 과거 연간 트레일링 PER, 추가 호출 없이 이미 받아오던 데이터)로 그 종목 고유의
+    // 20/80백분위 배수를 미리 계산해 fundamentals_data.js에 넣어둠(perBandLow/High) - 상장
+    // 이력이 5년 미만이라 자체 분포가 부족한 종목(PLTR·ARM·SNDK, 실측 확인)만 전체 통계로 폴백함.
+    const hasOwnBand = fund && fund.perBandSource==='ticker' && fund.perBandLow!=null && fund.perBandHigh!=null;
+    const bandLow = hasOwnBand ? fund.perBandLow : PE_BAND_LOW;
+    const bandHigh = hasOwnBand ? fund.perBandHigh : PE_BAND_HIGH;
     const cautions = [];
     if(growth < 0) cautions.push(`내년 EPS가 <b>올해보다 ${Math.abs(growth*100).toFixed(0)}% 줄어들 것으로</b> 예상돼요 - 실적이 꺾이는 국면이라 이 시나리오 가격도 현재가보다 낮게 나와요.`);
     // 이익이 급증하는 국면에서는 '지금 PER 유지' 가정이 과하게 낙관적임.
@@ -1377,9 +1386,10 @@ function computeFairValue(ticker, price, fund, est){
     if(anchorPe > PE_FRAGILE_ABS) cautions.push(`현재 PER이 <b>${anchorPe.toFixed(0)}배</b>로 매우 높아요. 이익이 조금만 어긋나도 이 시나리오 가격이 크게 흔들리니 참고만 하세요.`);
     if(nAnalysts!=null && nAnalysts < 15) cautions.push(`추정에 참여한 애널리스트가 <b>${nAnalysts}명</b>뿐이라 컨센서스가 흔들릴 수 있어요.`);
     out.fwd = {
-      low: mid*PE_BAND_LOW, mid, high: mid*PE_BAND_HIGH,
+      low: mid*bandLow, mid, high: mid*bandHigh,
       eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions,
       endDate0, endDate1, consensusAsOf,
+      bandLow, bandHigh, bandSource: hasOwnBand ? 'ticker' : 'universal', bandYears: fund?.perBandYears ?? null,
     };
   }
 
@@ -1403,7 +1413,9 @@ function computeFairValue(ticker, price, fund, est){
   }
 
   // (3) 하방 시나리오 - 밸류에이션이 과거 하위 20% 수준으로 압축될 때. 항상 산출 가능.
-  if(price) out.downside = price * PE_BAND_LOW;
+  // 이 종목 고유의 하위 20% 배수(perBandLow)가 있으면 그걸 쓰고, 없으면 전체 통계로 폴백(위 (1)과 동일 원칙).
+  const downsideBand = (fund && fund.perBandSource==='ticker' && fund.perBandLow!=null) ? fund.perBandLow : PE_BAND_LOW;
+  if(price) out.downside = price * downsideBand;
   return out;
 }
 
@@ -2131,9 +2143,9 @@ function renderFairValueSection(r){
       </div>`;
     perBlock = compareLine + `
       ${pricePositionBar(price, w.low, w.mid, w.high)}
-      <div class="fund-row"><span>보수적 (PER이 하위 20% 수준으로 눌리면)</span><span class="v">$${w.low.toFixed(0)} · ${rel(w.low)}</span></div>
+      <div class="fund-row"><span>보수적 (PER이 하위 20% 수준으로 눌리면 · ${w.bandLow.toFixed(2)}배)</span><span class="v">$${w.low.toFixed(0)} · ${rel(w.low)}</span></div>
       <div class="fund-row"><span><b>기준 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
-      <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
+      <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면 · ${w.bandHigh.toFixed(2)}배)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
       ${w.cautions.map(c=>`<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ ${c}</div>`).join('')}
       <details style="margin-top:8px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거 자세히 보기</summary>
@@ -2147,7 +2159,9 @@ function renderFairValueSection(r){
             기준연도: 올해=${w.endDate0?esc(w.endDate0)+' 마감 회계연도':'-'} · 내년=${w.endDate1?esc(w.endDate1)+' 마감 회계연도':'-'}
             ${w.consensusAsOf?` · 컨센서스 조회일 ${esc(w.consensusAsOf)}`:''}</div>` : ''}
           <div class="sub" style="margin-top:2px;color:var(--sub);font-size:11px;">
-            산출식: 보수적=기준가×0.64, 낙관적=기준가×1.55. 이 두 배수는 대형주 13종목 13년치의 <b>과거 PER 분포</b>(트레일링PER÷3년평균PER)의 20/80백분위 실측값이에요 — <b>26개 종목 전부에 똑같이 적용하는 통계적 기준</b>이에요${r.avgPe3Y!=null?` (참고로 이 종목의 3년평균 PER은 <b>${r.avgPe3Y.toFixed(1)}배</b>예요, 02 가치 탭에도 있어요)`:''}.
+            ${w.bandSource==='ticker'
+              ? `산출식: 보수적=기준가×${w.bandLow.toFixed(2)}, 낙관적=기준가×${w.bandHigh.toFixed(2)}. <b>이 배수는 이 종목 자신의 과거 ${w.bandYears}개년 연간 트레일링 PER 분포</b>(이 종목만의 실제 이력, 자기 평균 대비 비율의 20/80백분위)에서 계산했어요 - 종목마다 다르게 나와요(예: 변동성이 큰 종목일수록 범위가 넓어져요).`
+              : `산출식: 보수적=기준가×${w.bandLow.toFixed(2)}, 낙관적=기준가×${w.bandHigh.toFixed(2)}. 이 종목은 상장 이력이 ${w.bandYears}개년뿐이라 <b>자체 분포로 계산하기엔 데이터가 부족해서(5개년 미만)</b>, 대형주 13종목 13년치 과거 PER 분포(트레일링PER÷3년평균PER)의 20/80백분위 실측값 - <b>다른 종목들에도 공통 적용하는 전체 통계 기준</b> - 을 대신 썼어요${r.avgPe3Y!=null?` (참고로 이 종목의 3년평균 PER은 <b>${r.avgPe3Y.toFixed(1)}배</b>예요, 02 가치 탭에도 있어요)`:''}.`}
           </div>
           ${fv.analyst && fv.analyst.impliedPeLow!=null && fv.analyst.impliedPeHigh!=null ? `
           <div class="sub" style="margin-top:6px;padding:7px 9px;background:var(--panel-2);border-radius:8px;">
