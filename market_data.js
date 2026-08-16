@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Believe the unbelievable in this market — things can be different this time",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/16/cramer-believe-the-unbelievable-in-this-market-things-can-be-different.html",
+      "datetime": 1786915945,
+      "headlineKo": "이 시장의 믿을 수 없는 사실을 믿으십시오. 이번에는 상황이 다를 수 있습니다"
+    },
+    {
       "headline": "Top U.S. commander acknowledges mental health issues on USS Lincoln",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/16/top-us-commander-acknowledges-mental-health-issues-on-uss-lincoln.html",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdDN3YTl5QWtjWjg5VTZtSEVzZnNheklhcUxHb0Q5M2I5dElCOUdDbkFpR0xrX2JzTEtsMzRIVFpWRjJZeG1zTTFIckVpdy1xNnNpaDltN1BCeklreVNFSU5wZlprUnJvWkxiQXVfOTlQcTVxckkwQ0hnVEpsSnhYem1yclNkMjNLTUVYd1pMc2tnVkRESk82QjNCMG9KeFh4bGdiTVpVYUhEWDBwLUFTS2tnVkZsUWpTSmU0eFZiZjFHejJrQUJzUFpn?oc=5",
       "datetime": 1786873904,
       "headlineKo": "인도, 중동 전쟁 속에서 석유 회사들이 요리용 가스 생산량을 늘리기 위한 목표 설정 - Reuters"
-    },
-    {
-      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-      "datetime": 1786832209,
-      "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786913791.5017798,
-  "_updated_label": "2026-08-17 05:56"
+  "_fetched_at": 1786917419.4691854,
+  "_updated_label": "2026-08-17 06:57"
 };
