@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Pope calls for an end to West Bank violence against Palestinians - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGQ4SWdqSHFLZE1qOUNXWDhnLVlQa09TeGtURVpuZC1BWjFPNE1CalBpTU5NM3c2Uy1qSi1mSnlmRjB6UTlab1hMd19Zd2tubTFLNUZoSWZqUWdyN2V3UFZXWlY3c3d6RGlNbGduMjRWMlZ5cDcyU3U4R3VfXzVUZlZ3T3A0TnBHdnZmWHQ2VmxLdmdSVFBBQVdrckZULUFJNEEyc0Q2cko1WmprZVdNeA?oc=5",
+      "datetime": 1786883023,
+      "headlineKo": "교황, 팔레스타인에 대한 서안 지구의 폭력 중단 촉구 - 로이터"
+    },
+    {
+      "headline": "Iranian parliament votes to further criminalise interviews with 'hostile media' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
+      "datetime": 1786882712,
+      "headlineKo": "이란 의회, '적대적 언론' 인터뷰 범죄화 법안 통과 - 로이터 통신"
+    },
+    {
       "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
@@ -240,11 +254,25 @@ const MARKET_DATA = {
       "headlineKo": "우크라이나 드론, 모스크바 지역 공습, 1명 사망 - 로이터 통신"
     },
     {
+      "headline": "Iran executes man convicted of running over police during January protests - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
+      "datetime": 1786877426,
+      "headlineKo": "이란, 1월 시위 중 경찰을 덮쳐 유죄판결 받은 남성 처형 - 로이터"
+    },
+    {
       "headline": "India sets targets for oil companies to boost cooking gas output amid Middle East war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdDN3YTl5QWtjWjg5VTZtSEVzZnNheklhcUxHb0Q5M2I5dElCOUdDbkFpR0xrX2JzTEtsMzRIVFpWRjJZeG1zTTFIckVpdy1xNnNpaDltN1BCeklreVNFSU5wZlprUnJvWkxiQXVfOTlQcTVxckkwQ0hnVEpsSnhYem1yclNkMjNLTUVYd1pMc2tnVkRESk82QjNCMG9KeFh4bGdiTVpVYUhEWDBwLUFTS2tnVkZsUWpTSmU0eFZiZjFHejJrQUJzUFpn?oc=5",
       "datetime": 1786873904,
       "headlineKo": "인도, 중동 전쟁 속에서 석유 회사들이 요리용 가스 생산량을 늘리기 위한 목표 설정 - Reuters"
+    },
+    {
+      "headline": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
+      "datetime": 1786832209,
+      "headlineKo": "UAE는 이란이 호르무즈에서 ADNOC 선박을 공격했다고 밝혔으며 수로 재개를 촉구했습니다."
     },
     {
       "headline": "Qatar denies detaining Iranian pilots, says it found remains of one - Reuters",
@@ -273,40 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMVIzMUNoVC03bVZyb0I2ckIyY3JhMWpNMm56VFBHSk1jUG1kOTdxbkNrZ2p1NWdoYTA5SGxraWpBTUExbnVoeWwxQU5IOW5mYzEtNTh5bExJZ01VUHZjdS1QRWVyNHBodDU3RGdnUV9ldl9SYTVFLWljMWZta3VvZTliRWg5Mm9xVXFVOUNUSXBNRG1WNlRDbXdLMlNEbVFRNW1tVW9OQ2FvUDh2ZUdMeXhQMFBpS0dPd1pUVEMtNm5IUQ?oc=5",
       "datetime": 1786810721,
       "headlineKo": "쿠스라(Qusra)의 팔레스타인인들은 몇 달 동안 정착민들의 호전적인 공격을 받았다고 말했습니다. - 로이터"
-    },
-    {
-      "headline": "Taliban mark five years in power as aid groups warn of crisis - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORTh4U3hRdlRhY1RmYWJDa0o1RWZEcFUxMkJ1RkhMVE9NUnZUc2ZudjBhM0pKZEhfdVpzeWdTZ1BLaGVLUXd4Z0haUmZOTHktT0Q4dzlUQmFwRmZ4RzE2REZDN2JrWXI5Nm9jWlJRQXhXd3k5ekhTdEtyYWpjSDloSDV1cFZqTEVCT2w4QS1jX3gybktmQzFRekZYcTJVX3BkNVE?oc=5",
-      "datetime": 1786807612,
-      "headlineKo": "구호 단체들이 위기를 경고하면서 탈레반 집권 5주년을 맞았습니다 - Reuters"
-    },
-    {
-      "headline": "Israeli strike kills seven in south Lebanon, state news reports​ - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcEtfNkx3SnBiVWQ4b2g4MTFYRjVKOFVnNWFzcjJWUUJFWDRaWHo0YzRYTXdTdXdJUjNLZk5rNC1WTEJSbGNVTWFpRTF1Rko1OVdrUmt1NlpCNlpJbU5NQ0dPVEFxQjdrRUtzQUF4Q19NQThGeGdhTFQ2LWltSEcxX01DYUZTQUNNd2dnd1c5UV82Unp2U0tubzZHeElSblhxbXVnOVdENUFXbmUwdDNiYVl0Yw?oc=5",
-      "datetime": 1786805011,
-      "headlineKo": "이스라엘 공습으로 레바논 남부에서 7명 사망, 국영 뉴스 보도 - 로이터"
-    },
-    {
-      "headline": "Inflation moderated as Intel and Nvidia fueled the AI trade in last week's market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/15/inflation-moderated-as-intel-and-nvidia-fueled-the-ai-trade-in-last-week-market.html",
-      "datetime": 1786803774,
-      "headlineKo": "Intel과 Nvidia가 지난 주 시장에서 AI 거래를 촉진하면서 인플레이션이 완화되었습니다."
-    },
-    {
-      "headline": "PODCAST: Indonesia quake, Jason Arday dies, gas prices and Mount Etna - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYnF1MHYyczd3ZFU2MEswRTgyUWhkZnZuTlBNNk1CdXFteXRrbE5yZ1hpNWp4V25famJCczJYdURXU0V1Vy1GRm16V2g0UmY2M2Nnc2l2dTZ2N2pCUjZFeUVLV014dGYtR1lkZTlhRVY5Sk5tbUpQN0YzNHBVR0ZkaTJOS1BPVUZDRlctYm5Idk5UUnZLZ29MXzlR?oc=5",
-      "datetime": 1786801320,
-      "headlineKo": "팟캐스트: 인도네시아 지진, 제이슨 아데이(Jason Arday) 사망, 휘발유 가격, 에트나 산 - Reuters"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786888152.7820482,
-  "_updated_label": "2026-08-16 22:49"
+  "_fetched_at": 1786891804.4646344,
+  "_updated_label": "2026-08-16 23:50"
 };
