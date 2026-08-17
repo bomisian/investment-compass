@@ -25,7 +25,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
+            "Skip to content S&P 500 7,796.00 +0.12% Dow Jones 53,707.10 -0.02% Nasdaq 100 30,149.60 +0.28% Russell 2000 3,066.78 +0.05% FTSE 100 10,771.80 +0.12% Nikkei 225 68,705.50 -0.05% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -478,7 +478,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
+            "Skip to content S&P 500 7,796.00 +0.12% Dow Jones 53,707.10 -0.02% Nasdaq 100 30,149.60 +0.28% Russell 2000 3,066.78 +0.05% FTSE 100 10,771.80 +0.12% Nikkei 225 68,705.50 -0.05% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -769,13 +769,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "AAPL": {
@@ -845,7 +845,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT memory chips for iPhones and MacBooks amid shortage | Fox Business Recommended Videos Left Arrow The Strait of Hormuz is ‘very clearly’ under US control, former energy secretary says Chicago taxpayer-backed grocery model fa",
+            "Apple tests CXMT memory chips for iPhones and MacBooks amid shortage | Fox Business Recommended Videos Left Arrow ‘We’ve reached a tipping point’: Real estate titans reveal why Florida is still a bargain play over NYC The Strait of Hormuz i",
             "Apple is reportedly in the process of testing memory chips made by Chinese company CXMT across its lineup of devices, including in iPhones and MacBooks, as it looks at options to address the shortage of memory chips.",
             "The Wall Street Journal on Sunday reported that Apple has held early talks with CXMT about the company providing chips that would be used in devices sold in China, citing people familiar with the matter."
           ],
@@ -891,9 +891,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
-            "Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-driven component shortage By Cris Tolomia · 2 min read · Updat",
-            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China."
+            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-dr",
+            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China.",
+            "Apple is also seeking White House approval to use the chips in China-market products, according to Semafor ."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1022,7 +1022,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT memory chips for iPhones and MacBooks amid shortage | Fox Business Recommended Videos Left Arrow The Strait of Hormuz is ‘very clearly’ under US control, former energy secretary says Chicago taxpayer-backed grocery model fa",
+            "Apple tests CXMT memory chips for iPhones and MacBooks amid shortage | Fox Business Recommended Videos Left Arrow ‘We’ve reached a tipping point’: Real estate titans reveal why Florida is still a bargain play over NYC The Strait of Hormuz i",
             "Apple is reportedly in the process of testing memory chips made by Chinese company CXMT across its lineup of devices, including in iPhones and MacBooks, as it looks at options to address the shortage of memory chips.",
             "The Wall Street Journal on Sunday reported that Apple has held early talks with CXMT about the company providing chips that would be used in devices sold in China, citing people familiar with the matter."
           ],
@@ -1090,9 +1090,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
-            "Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-driven component shortage By Cris Tolomia · 2 min read · Updat",
-            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China."
+            "Apple tests CXMT Chinese memory chips for iPhones, MacBooks Tech & Innovation Apple is testing Chinese memory chips for iPhones and MacBooks Apple is seeking White House approval to use chips from CXMT in devices sold in China amid an AI-dr",
+            "The company has held early talks with CXMT about supplying components, with an initial focus on devices sold in China.",
+            "Apple is also seeking White House approval to use the chips in China-market products, according to Semafor ."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -1313,13 +1313,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "GOOGL": {
@@ -1849,13 +1849,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "MSFT": {
@@ -1925,7 +1925,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 1",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO ",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -1971,7 +1971,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% ICP 0.20% TAO 0.30% HBAR 0.90% AVAX 2.50% MAGS",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO 0.43% AVT 28.90% BB 0.67% HEL",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2081,7 +2081,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 1",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO ",
             "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
             "Screens show the logo of Microsoft and its AI service Copilot."
           ],
@@ -2207,7 +2207,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% ICP 0.20% TAO 0.30% HBAR 0.90% AVAX 2.50% MAGS",
+            "MSFT Stock Hits Highest Level This Year – Microsoft To Reportedly Hike Production Of AI Chips New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO 0.43% AVT 28.90% BB 0.67% HEL",
             "MSFT Stock Hits Highest Level This Year: Microsoft To Reportedly Hike Production Of AI Chips Microsoft is ramping up its custom silicon strategy by preparing to unveil the Maia 300 AI chip this fall while securing TSMC manufacturing capacit",
             "Visitors explore the Microsoft pavilion during the AI Impact Summit at Bharat Mandapam in New Delhi, India, on February 20, 2026."
           ],
@@ -2372,13 +2372,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:52",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "AMZN": {
@@ -2936,13 +2936,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "TSM": {
@@ -3412,13 +3412,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "AVGO": {
@@ -3954,13 +3954,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "META": {
@@ -4779,13 +4779,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "TSLA": {
@@ -5486,13 +5486,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "MU": {
@@ -6062,13 +6062,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "AMD": {
@@ -6637,13 +6637,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "INTC": {
@@ -6714,7 +6714,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing Intel Is Up 176% This Year.",
+            "Skip to content S&P 500 7,794.80 +0.11% Dow Jones 53,706.10 -0.03% Nasdaq 100 30,152.20 +0.29% Russell 2000 3,066.83 +0.05% FTSE 100 10,770.40 +0.11% Nikkei 225 68,625.50 -0.16% Investing Intel Is Up 176% This Year.",
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
@@ -6869,7 +6869,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing Intel Is Up 176% This Year.",
+            "Skip to content S&P 500 7,794.80 +0.11% Dow Jones 53,706.10 -0.03% Nasdaq 100 30,152.20 +0.29% Russell 2000 3,066.83 +0.05% FTSE 100 10,770.40 +0.11% Nikkei 225 68,625.50 -0.16% Investing Intel Is Up 176% This Year.",
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
@@ -7281,13 +7281,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "AMAT": {
@@ -7357,7 +7357,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% AVAX 2.50",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.03% QQQ 0.17% Trending NLST 18.55% LUNR AVGO 0.42% AVT 16.40% BB 0",
             "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
             "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
@@ -7512,7 +7512,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% AVAX 2.50",
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.03% QQQ 0.17% Trending NLST 18.55% LUNR AVGO 0.42% AVT 16.40% BB 0",
             "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
             "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
           ],
@@ -8014,13 +8014,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "QQQ": {
@@ -8483,13 +8483,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:52",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 10:59",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "SPY": {
@@ -9036,13 +9036,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:52",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 10:59",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "ORCL": {
@@ -9574,13 +9574,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "CRM": {
@@ -9605,7 +9605,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% ",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO 0.43% ",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -9760,7 +9760,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.21% SPY 0.20% QQQ 0.14% Trending AVT 72.80% MAGS 0.34% MRAM 12.18% ",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.12% SPY 0.04% QQQ 0.17% Trending NLST 18.55% LUNR 0.42% AVGO 0.43% ",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10126,13 +10126,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:53",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "PLTR": {
@@ -10747,13 +10747,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "QCOM": {
@@ -11238,13 +11238,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "ARM": {
@@ -11673,13 +11673,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "MRVL": {
@@ -12130,13 +12130,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:54",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "ASML": {
@@ -12680,13 +12680,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "LRCX": {
@@ -13098,13 +13098,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "KLAC": {
@@ -13567,13 +13567,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "SNDK": {
@@ -13600,7 +13600,7 @@ const NEWS_DATA = {
           "facts": [
             "A Top Analyst Says SanDisk Could Buy Back $100 Billion in Stock.",
             "If He Is Right, Memory Investors Are Badly Underpricing SNDK Stock - 24/7 Wall St.",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
+            "Skip to content S&P 500 7,794.80 +0.11% Dow Jones 53,702.10 -0.03% Nasdaq 100 30,134.00 +0.23% Russell 2000 3,065.68 +0.01% FTSE 100 10,765.10 +0.06% Nikkei 225 68,550.50 -0.27% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -13755,7 +13755,7 @@ const NEWS_DATA = {
           "facts": [
             "A Top Analyst Says SanDisk Could Buy Back $100 Billion in Stock.",
             "If He Is Right, Memory Investors Are Badly Underpricing SNDK Stock - 24/7 Wall St.",
-            "Skip to content S&P 500 7,786.40 -0.29% Dow Jones 53,720.10 -0.31% Nasdaq 100 30,066.20 -0.22% Russell 2000 3,065.32 +0.35% FTSE 100 10,758.80 -0.37% Nikkei 225 68,738.00 -0.56% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
+            "Skip to content S&P 500 7,794.80 +0.11% Dow Jones 53,702.10 -0.03% Nasdaq 100 30,134.00 +0.23% Russell 2000 3,065.68 +0.01% FTSE 100 10,765.10 +0.06% Nikkei 225 68,550.50 -0.27% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -14324,13 +14324,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:55",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   },
   "WDC": {
@@ -14772,13 +14772,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1786909956.4345345,
-    "_updated_label": "2026-08-17 04:56",
+    "_fetched_at": 1786931980.4648964,
+    "_updated_label": "2026-08-17 11:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-17 04:56"
+      "updated": "2026-08-17 11:03"
     }
   }
 };

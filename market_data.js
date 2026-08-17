@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.12999725341797,
+      "current": 82.55000305175781,
       "prevClose": 82.4000015258789,
-      "changeAbs": -0.2700042724609375,
-      "changePct": -0.3276750818701608,
-      "pctRank": 68.91891891891892,
+      "changeAbs": 0.15000152587890625,
+      "changePct": 0.18204068337522555,
+      "pctRank": 70.19077901430842,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.286410382947658,
-      "ma20": 82.45049934387207,
-      "ma60": 81.55683314005533,
-      "chg1m": -0.3600006103515625,
-      "chg3m": -23.290000915527344,
-      "chg1mPct": -0.43641728654920786,
-      "chg3mPct": -22.09258330492755,
+      "drawdown1y": -26.914559289819874,
+      "ma20": 82.47149963378907,
+      "ma60": 81.56383323669434,
+      "chg1m": 0.06000518798828125,
+      "chg3m": -22.8699951171875,
+      "chg1mPct": 0.07274238033970923,
+      "chg3mPct": -21.69417142327798,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.54000091552734,
+      "current": 99.51699829101562,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.12999725341796875,
-      "changePct": -0.13042766710762582,
-      "pctRank": 31.63751987281399,
+      "changeAbs": -0.1529998779296875,
+      "changePct": -0.15350645203218077,
+      "pctRank": 31.39904610492846,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.037200750310142,
-      "ma20": 100.33200035095214,
-      "ma60": 100.33400026957194,
-      "chg1m": -1.2099990844726562,
-      "chg3m": 0.2700042724609375,
-      "chg1mPct": -1.2009916471192619,
-      "chg3mPct": 0.27198980718389715,
+      "drawdown1y": -2.059838900466171,
+      "ma20": 100.33085021972656,
+      "ma60": 100.33361689249675,
+      "chg1m": -1.233001708984375,
+      "chg3m": 0.24700164794921875,
+      "chg1mPct": -1.2238230362127793,
+      "chg3mPct": 0.2488180279055855,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4451.7001953125,
+      "current": 4454.89990234375,
       "prevClose": 4380.39990234375,
-      "changeAbs": 71.30029296875,
-      "changePct": 1.6277119568603886,
+      "changeAbs": 74.5,
+      "changePct": 1.7007579595675382,
       "pctRank": 91.97138314785374,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.296249303278355,
-      "ma20": 4196.695007324219,
-      "ma60": 4213.696671549479,
-      "chg1m": 439.000244140625,
-      "chg3m": -104.099609375,
-      "chg1mPct": 10.940270877029286,
-      "chg3mPct": -2.2849908652239517,
+      "drawdown1y": -16.236086339040934,
+      "ma20": 4196.854992675781,
+      "ma60": 4213.75,
+      "chg1m": 442.199951171875,
+      "chg3m": -100.89990234375,
+      "chg1mPct": 11.020010380859258,
+      "chg3mPct": -2.214757159432977,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,11 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump instructs Pentagon to reduce military exercises with South Korea - reuters.com",
+      "headline": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
+      "datetime": 1786927192,
+      "headlineKo": "미국-이란 평화 회담이 중단되고 호르무즈 해운이 둔화되면서 석유는 물 위를 걷고 있습니다 - Reuters"
+    },
+    {
+      "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
+      "datetime": 1786924491,
+      "headlineKo": "유조선 공격 후 호르무즈 해협 통과 속도 둔화 - 데이터에 따르면 - 로이터 통신"
+    },
+    {
+      "headline": "Trump instructs Pentagon to reduce military exercises with South Korea - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
-      "datetime": 1786920866,
-      "headlineKo": "트럼프, 미 국방부에 한국과의 군사훈련 축소 지시 - reuters.com"
+      "datetime": 1786923039,
+      "headlineKo": "트럼프, 미 국방부에 한국과의 군사훈련 축소 지시 - 로이터"
     },
     {
       "headline": "Believe the unbelievable in this market — things can be different this time",
@@ -240,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "미 최고 사령관, USS 링컨의 정신 건강 문제 인정"
     },
     {
-      "headline": "Trump's envoys meet mediators, Israel strikes Gaza - reuters.com",
+      "headline": "Trump's envoys meet mediators, Israel strikes Gaza - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
       "datetime": 1786910163,
-      "headlineKo": "트럼프 특사단, 중재자 만나 이스라엘 가자지구 공습 - reuters.com"
+      "headlineKo": "트럼프 특사들, 중재자들 만나, 이스라엘, 가자지구 공습 - 로이터 통신"
     },
     {
-      "headline": "Iranian parliament advances bill to curb foreign influence - reuters.com",
+      "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
       "datetime": 1786898624,
-      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - reuters.com"
+      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
     },
     {
       "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
@@ -261,52 +275,38 @@ const MARKET_DATA = {
       "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
     },
     {
-      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - reuters.com",
+      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
       "datetime": 1786886264,
-      "headlineKo": "이란 회담 중단, 호르무즈 차질에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다 - reuters.com"
+      "headlineKo": "이란 회담 중단, 호르무즈 교란에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다."
     },
     {
-      "headline": "Pope calls for an end to West Bank violence against Palestinians - reuters.com",
+      "headline": "Pope calls for an end to West Bank violence against Palestinians - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdGQ4SWdqSHFLZE1qOUNXWDhnLVlQa09TeGtURVpuZC1BWjFPNE1CalBpTU5NM3c2Uy1qSi1mSnlmRjB6UTlab1hMd19Zd2tubTFLNUZoSWZqUWdyN2V3UFZXWlY3c3d6RGlNbGduMjRWMlZ5cDcyU3U4R3VfXzVUZlZ3T3A0TnBHdnZmWHQ2VmxLdmdSVFBBQVdrckZULUFJNEEyc0Q2cko1WmprZVdNeA?oc=5",
       "datetime": 1786883023,
-      "headlineKo": "교황, 팔레스타인에 대한 서안지구 폭력 중단 촉구 - reuters.com"
+      "headlineKo": "교황, 팔레스타인에 대한 서안 지구의 폭력 중단 촉구 - 로이터"
     },
     {
-      "headline": "Trump wants more economic pressure on Iran. What are his options? - reuters.com",
+      "headline": "Trump wants more economic pressure on Iran. What are his options? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
       "datetime": 1786880097,
-      "headlineKo": "트럼프는 이란에 더 많은 경제적 압력을 가하길 원한다. 그의 선택은 무엇입니까? -reuters.com"
+      "headlineKo": "트럼프는 이란에 더 많은 경제적 압력을 가하길 원한다. 그의 선택은 무엇입니까? - 로이터"
     },
     {
-      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - reuters.com",
+      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
       "datetime": 1786879677,
-      "headlineKo": "이란, 체포된 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - reuters.com"
-    },
-    {
-      "headline": "Ukrainian drones strike Moscow region, killing one - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYUVQMGdnUEljNGo4eDhSbHFoSUtDZ2FVLU5hTHNmZXUwMFVDTTdneTR3S2owc1pSZjBtcHNtVkZKU25oLXlNbWxENHVhM2F1ZUtnUVVicEMzai1MMVgyZk5JLVJPRjRDUklLc21zcjJycVM5endpS2plUjRHS3FhMmFIa29MUlRjRzRpNDlTdnRLS0JuTUE?oc=5",
-      "datetime": 1786879274,
-      "headlineKo": "우크라이나 드론, 모스크바 지역 공습, 1명 사망 - 로이터 통신"
-    },
-    {
-      "headline": "Iran executes man convicted of running over police during January protests - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTVdhVzI2TzFiQUNlclh3TzduWm5TYmRQbVY5bE0zQ3ZMbEVFQ1ZqUWRGN24tQjFRT1dfaUMxSHd1VHVFQURUVXdDOWJlNWhBeU56eHlYX0l3bkJST0JsVmY4RWVwcmNpZTVLdHpXV2lhRFMxc1RoQV8tRHpPUEpHZXhXeXJ2WG84QWwwWndlZ3BDMG51c3o3bE8xRFhLdEpaQ19NLVF4QXBUNTVFUk0yX1U5N3VQVjV3am1GdEJCWE85N00?oc=5",
-      "datetime": 1786877426,
-      "headlineKo": "이란, 1월 시위 중 경찰 추격 혐의로 유죄판결 받은 남성 처형 - reuters.com"
+      "headlineKo": "이란, 포로로 잡힌 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786928347.7693248,
-  "_updated_label": "2026-08-17 09:59"
+  "_fetched_at": 1786932189.7007174,
+  "_updated_label": "2026-08-17 11:03"
 };
