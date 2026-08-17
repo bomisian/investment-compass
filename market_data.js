@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.87000274658203,
+      "current": 82.41000366210938,
       "prevClose": 82.4000015258789,
-      "changeAbs": 0.470001220703125,
-      "changePct": 0.5703898203879455,
-      "pctRank": 71.59904534606206,
+      "changeAbs": 0.01000213623046875,
+      "changePct": 0.0121385146180215,
+      "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.63124835270594,
-      "ma20": 82.48749961853028,
-      "ma60": 81.56916656494141,
-      "chg1m": 0.3800048828125,
-      "chg3m": -22.54999542236328,
-      "chg1mPct": 0.46066782961986485,
-      "chg3mPct": -21.390623993585,
+      "drawdown1y": -27.03850740264061,
+      "ma20": 82.46449966430664,
+      "ma60": 81.56149991353352,
+      "chg1m": -0.07999420166015625,
+      "chg3m": -23.009994506835938,
+      "chg1mPct": -0.0969744256658425,
+      "chg3mPct": -21.826972971447304,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.45700073242188,
+      "current": 99.43800354003906,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.2129974365234375,
-      "changePct": -0.21370265921184917,
+      "changeAbs": -0.23199462890625,
+      "changePct": -0.23276275024406867,
       "pctRank": 30.867143993635644,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.1188858035597224,
-      "ma20": 100.32785034179688,
-      "ma60": 100.33261693318686,
-      "chg1m": -1.292999267578125,
-      "chg3m": 0.18700408935546875,
-      "chg1mPct": -1.2833739628566998,
-      "chg3mPct": 0.188379264308689,
+      "drawdown1y": -2.137581987270676,
+      "ma20": 100.32690048217773,
+      "ma60": 100.33230031331381,
+      "chg1m": -1.3119964599609375,
+      "chg3m": 0.16800689697265625,
+      "chg1mPct": -1.302229736933933,
+      "chg3mPct": 0.1692423719693868,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4457.39990234375,
+      "current": 4452.10009765625,
       "prevClose": 4380.39990234375,
-      "changeAbs": 77.0,
-      "changePct": 1.7578303743181267,
+      "changeAbs": 71.7001953125,
+      "changePct": 1.6368413138292812,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.189079719645918,
-      "ma20": 4196.979992675781,
-      "ma60": 4213.791666666667,
-      "chg1m": 444.699951171875,
-      "chg3m": -98.39990234375,
-      "chg1mPct": 11.082312572162396,
-      "chg3mPct": -2.1598820528177187,
+      "drawdown1y": -16.288730080371217,
+      "ma20": 4196.715002441406,
+      "ma60": 4213.703336588542,
+      "chg1m": 439.400146484375,
+      "chg3m": -103.69970703125,
+      "chg1mPct": 10.95023679395844,
+      "chg3mPct": -2.2762129917243623,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,18 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "Santoli: 시장을 기록으로 끌어올린 수익 노다지는 보이는 것이 전부가 아닐 수도 있습니다."
     },
     {
-      "headline": "Iran says two French embassy employees barred from returning - Reuters",
+      "headline": "Iran says two French embassy employees barred from returning - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZkRXBDZ3pPWVFROGdBUVlseGpmSEpONkJ2MEdvQjFjajdMYmtLSVNOc1ZjeHg0WGZwNWZpM3ZjV1A2S2FNeHFrZTlRUFRKZGo4SUdwNDBoMUs3UEhwZTMxMzNXRDJEeEdzd0NTTVRaZF9JZFItWUduXzlsMEptODRYR2hFdVRKaDk1Sm83NFFMaTI0SFo5d3ExOTNIZ1M2TGsxWEdtRHRCdFB0eWc?oc=5",
       "datetime": 1786959713,
-      "headlineKo": "이란, 프랑스 대사관 직원 2명 귀국 금지 발표 - 로이터"
+      "headlineKo": "이란, 프랑스 대사관 직원 2명 귀국 금지 발표 - reuters.com"
     },
     {
-      "headline": "Drones target office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
+      "headline": "Drones target office of Iraqi Kurdistan's PM, no casualties reported - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
       "datetime": 1786957852,
-      "headlineKo": "이라크 쿠르디스탄 총리 사무실 표적으로 드론, 사상자는 보고되지 않음 - 로이터 통신"
+      "headlineKo": "이라크 쿠르디스탄 총리 사무실 표적으로 드론, 사상자는 보고되지 않음 - reuters.com"
     },
     {
       "headline": "Trump envoy discusses Gaza plan with Netanyahu after rare Hamas meeting - Reuters",
@@ -261,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "WEEKAHEAD 인도 루피는 범위 제한을 받을 것으로 예상되고 채권 거래자들은 정책 의사록을 기다리고 있습니다 - Reuters"
     },
     {
-      "headline": "Indian shares fall as crude remains at elevated levels - Reuters",
+      "headline": "Indian shares fall as crude remains at elevated levels - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQUZOZ3VuQ2NHZWRMbVF4TE5WRlFMeWp5c3N6SlY4T2Y3ajV1YjdjaE9JLU5tTHVlaENLbV81NUxncUdhRWcxQXg1bUVIVlF0cHRJYzQ2RFB1VTRwMlNWRlNQbXpMSUhtMTFFcUtJaUJfRU5GUU9iQkl4QXRqM0dnYk9YS25NUDFBeFo2N0tST1c5elFsMDRXM1pPNnNCUW03eWRPNlFFZ2R1V2M?oc=5",
       "datetime": 1786933260,
-      "headlineKo": "인도 주가는 원유 가격이 여전히 상승하면서 하락했습니다. - Reuters"
+      "headlineKo": "인도 증시는 원유 가격이 상승하면서 하락했습니다 - reuters.com"
     },
     {
       "headline": "Asian shares mark time as Gulf war keeps oil prices up - Reuters",
@@ -275,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "걸프전으로 인해 유가가 상승하면서 아시아 증시는 적기입니다 - Reuters"
     },
     {
-      "headline": "Oil prices mixed amid Iran war stalemate, near-term potential for gains seen limited - Reuters",
+      "headline": "Oil rises on Iran war stalemate; near-term potential for further gains seen limited - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
       "datetime": 1786926660,
-      "headlineKo": "이란 전쟁 교착상태로 인한 유가 혼조세, 단기 상승 가능성은 제한적 - Reuters"
+      "headlineKo": "이란 전쟁 교착상태로 석유 가격 상승; 단기적인 추가 상승 가능성은 제한적임 - reuters.com"
     },
     {
       "headline": "Japan Q2 growth misses forecasts on weaker spending, investment - Reuters",
@@ -289,24 +289,24 @@ const MARKET_DATA = {
       "headlineKo": "일본 2분기 성장, 지출 및 투자 둔화로 예상치 하회 - Reuters"
     },
     {
-      "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - Reuters",
+      "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
       "datetime": 1786924491,
-      "headlineKo": "유조선 공격 후 호르무즈 해협 통과 속도 둔화 - 데이터에 따르면 - 로이터 통신"
+      "headlineKo": "유조선 공격 후 호르무즈 해협 통과 속도 둔화 - 데이터에 따르면 reuters.com"
     },
     {
-      "headline": "Trump orders Pentagon to cut back military exercises with South Korea - Reuters",
+      "headline": "Trump orders Pentagon to cut back military exercises with South Korea - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
       "datetime": 1786916340,
-      "headlineKo": "트럼프, 국방부에 한국과의 군사훈련 축소 지시 - 로이터"
+      "headlineKo": "트럼프, 미 국방부에 한국과의 군사훈련 축소 지시 - reuters.com"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786965181.5260746,
-  "_updated_label": "2026-08-17 20:13"
+  "_fetched_at": 1786968812.5352824,
+  "_updated_label": "2026-08-17 21:14"
 };
