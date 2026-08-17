@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.44999694824219,
+      "current": 83.04000091552734,
       "prevClose": 82.4000015258789,
-      "changeAbs": 0.04999542236328125,
-      "changePct": 0.06067405514255903,
-      "pctRank": 69.76929196499603,
+      "changeAbs": 0.6399993896484375,
+      "changePct": 0.7766982740254398,
+      "pctRank": 71.91726332537789,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -27.003099445833733,
-      "ma20": 82.46649932861328,
-      "ma60": 81.56216646830241,
-      "chg1m": -0.04000091552734375,
-      "chg3m": -22.970001220703125,
-      "chg1mPct": -0.04849183726905219,
-      "chg3mPct": -21.789035875234575,
+      "drawdown1y": -26.480740894947253,
+      "ma20": 82.49599952697754,
+      "ma60": 81.57199986775716,
+      "chg1m": 0.5500030517578125,
+      "chg3m": -22.37999725341797,
+      "chg1mPct": 0.6667512013591402,
+      "chg3mPct": -21.22936600468533,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.41500091552734,
+      "current": 99.43399810791016,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.25499725341796875,
-      "changePct": -0.2558415351686236,
-      "pctRank": 30.787589498806682,
+      "changeAbs": -0.23600006103515625,
+      "changePct": -0.2367814441364041,
+      "pctRank": 30.867143993635644,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.160220137426716,
-      "ma20": 100.32575035095215,
-      "ma60": 100.33191693623861,
-      "chg1m": -1.3349990844726562,
-      "chg3m": 0.1450042724609375,
-      "chg1mPct": -1.3250611260274503,
-      "chg3mPct": 0.14607059269107514,
+      "drawdown1y": -2.1415239537157627,
+      "ma20": 100.32670021057129,
+      "ma60": 100.33223355611166,
+      "chg1m": -1.3160018920898438,
+      "chg3m": 0.16400146484375,
+      "chg1mPct": -1.306205351950217,
+      "chg3mPct": 0.16520748503037733,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4451.5,
+      "current": 4451.0,
       "prevClose": 4380.39990234375,
-      "changeAbs": 71.10009765625,
-      "changePct": 1.623141704897939,
+      "changeAbs": 70.60009765625,
+      "changePct": 1.6117272219478211,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.3000135052221,
-      "ma20": 4196.684997558594,
-      "ma60": 4213.693334960937,
-      "chg1m": 438.800048828125,
-      "chg3m": -104.2998046875,
-      "chg1mPct": 10.93528183436634,
-      "chg3mPct": -2.2893851608708764,
+      "drawdown1y": -16.309414829101097,
+      "ma20": 4196.659997558594,
+      "ma60": 4213.685001627604,
+      "chg1m": 438.300048828125,
+      "chg3m": -104.7998046875,
+      "chg1mPct": 10.92282139610571,
+      "chg3mPct": -2.3003601821939283,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,11 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Drones attack the Kurdistan Regional Government prime minister's office in Iraq - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
+      "datetime": 1786957460,
+      "headlineKo": "이라크 쿠르디스탄 지방정부 총리실, 드론 공격 - 로이터 통신"
+    },
+    {
       "headline": "Kushner to hold talks with Netanyahu after rare meeting with Hamas - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcEx3MFJPNUM1WXN5SzhvTjJKMjk5aXZHWkxtMlBSaS14RTZpaDZsV3cweGdLdGo3dWJDU1ZCZVlob1NESk1CT0l3OFh6OGRXVFVVLXRtb3d0UGRNMlpkSGFobzk4c1dmZ0dtRUxQcEtVQ0tLVWZZbENQRlRSR0FkNWw4eDNtcTk2bkpRNXEyNDN2OFp6clItN0ZPRWUwbmFVQlZUdEdRVmU2R2NiY2hLTFRTOWJGM1VL?oc=5",
       "datetime": 1786947420,
       "headlineKo": "쿠슈너, 하마스와 이례적인 회담 후 네타냐후와 회담 예정 - 로이터"
+    },
+    {
+      "headline": "Trump seeks cuts to US-South Korea drills, reviving earlier objections - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFVPX2pQSTZzb1l1ekdiT1JMWGdmeEhFbVIzeHpoYjlDY0Q2QV9TZ1ZsbXdMY2ZlOGlNc0QwS2dqaE1mT25seDhUTTBFNkFnNFNGSEQ4OHcwMjVMSHZDVGtYWnhCZUZoSkRqaDhuZk1nYm1YcjBEWEpmTDJfQ2hJOHNSQzlEV3ZBU3dyTkZLQnNReENoYXg0M084N3dmc3FxZEdsc2ZzU0lLVW5lU1NWZTA4RWs5ZGUyVS1lel9n?oc=5",
+      "datetime": 1786947000,
+      "headlineKo": "트럼프, 한미 훈련 축소 추진…초기 반발 다시 되살려 - 로이터 통신"
     },
     {
       "headline": "Indian shares fall as crude remains at elevated levels - Reuters",
@@ -240,11 +254,11 @@ const MARKET_DATA = {
       "headlineKo": "걸프전으로 인해 유가가 상승하면서 아시아 증시는 적기입니다 - Reuters"
     },
     {
-      "headline": "Oil struggles for direction as US-Iran talks stall, Hormuz shipping slows - Reuters",
+      "headline": "Oil prices mixed amid Iran war stalemate, near-term potential for gains seen limited - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
       "datetime": 1786926660,
-      "headlineKo": "미국-이란 회담이 교착되고 호르무즈 해운이 둔화되면서 석유는 방향을 찾기 위해 고군분투하고 있습니다 - Reuters"
+      "headlineKo": "이란 전쟁 교착상태로 인한 유가 혼조세, 단기 상승 가능성은 제한적 - Reuters"
     },
     {
       "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - Reuters",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
       "datetime": 1786898624,
       "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
-    },
-    {
-      "headline": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/16/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "datetime": 1786896253,
-      "headlineKo": "다음 주에 주식 시장에서 우리가 주목해야 할 2가지 주요 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "Most Gulf bourses gain despite stalled Iran talks, Hormuz disruption - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYi10SGhJbU9xNklLZmFwR2ZoNkJtTW85b0hhbW05T3FMUzdiVDR1cXNqZ1l0VlBNeUVOb1RjZzhKWGtEWFd2WnpXbTQxS2tNczg1eGlWUlR4Uy1VNmVtNFpoTkdTZ1JiQTVYby1mU0NMZE1hV2Nid21nR2x0VjRjY3ZFNHRSZnlDRlJxZEVYMFFpZ0pOMGh1NG52RFpWTGsyZEd1VXVyczFkT1cwSkFZb0FTdV92dWt1R19V?oc=5",
-      "datetime": 1786886264,
-      "headlineKo": "이란 회담 중단, 호르무즈 교란에도 불구하고 대부분의 걸프 증시는 상승세를 보이고 있습니다."
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786957904.5465086,
-  "_updated_label": "2026-08-17 18:12"
+  "_fetched_at": 1786961532.5001705,
+  "_updated_label": "2026-08-17 19:12"
 };
