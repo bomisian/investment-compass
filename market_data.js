@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.199999809265137,
+      "current": 15.1899995803833,
       "prevClose": 14.25,
-      "changeAbs": 0.9499998092651367,
-      "changePct": 6.666665328176398,
-      "pctRank": 22.85031847133758,
+      "changeAbs": 0.9399995803833008,
+      "changePct": 6.596488283391584,
+      "pctRank": 22.770700636942674,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.04669828422161,
-      "ma20": 16.45899987220764,
-      "ma60": 16.994833278656007,
-      "chg1m": -3.570000648498535,
-      "chg3m": -2.619999885559082,
-      "chg1mPct": -19.01971529799248,
-      "chg3mPct": -14.702580978831643,
+      "drawdown1y": -51.07890514131519,
+      "ma20": 16.45849986076355,
+      "ma60": 16.994666608174644,
+      "chg1m": -3.580000877380371,
+      "chg3m": -2.630000114440918,
+      "chg1mPct": -19.072993021156833,
+      "chg3mPct": -14.75869898698593,
       "lastDate": "2026-08-17",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.36000061035156,
+      "current": 84.72000122070312,
       "prevClose": 82.4000015258789,
-      "changeAbs": 1.9599990844726562,
-      "changePct": 2.378639621574631,
-      "pctRank": 74.7016706443914,
+      "changeAbs": 2.3199996948242188,
+      "changePct": 2.815533558085663,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.3120824350191,
-      "ma20": 82.56199951171875,
-      "ma60": 81.5939998626709,
-      "chg1m": 1.8700027465820312,
-      "chg3m": -21.05999755859375,
-      "chg1mPct": 2.266944835748815,
-      "chg3mPct": -19.97723195255909,
+      "drawdown1y": -24.99335678643274,
+      "ma20": 82.57999954223632,
+      "ma60": 81.59999987284343,
+      "chg1m": 2.2300033569335938,
+      "chg3m": -20.699996948242188,
+      "chg1mPct": 2.703362122298023,
+      "chg3mPct": -19.63574018951179,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.62100219726562,
+      "current": 99.59400177001953,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.0489959716796875,
-      "changePct": -0.04915819462205371,
-      "pctRank": 32.617342879872716,
+      "changeAbs": -0.07599639892578125,
+      "changePct": -0.07624801878391108,
+      "pctRank": 32.060461416070005,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9574829260293414,
-      "ma20": 100.33605041503907,
-      "ma60": 100.33535029093424,
-      "chg1m": -1.128997802734375,
-      "chg3m": 0.35100555419921875,
-      "chg1mPct": -1.1205933525899503,
-      "chg3mPct": 0.3535867493390663,
+      "drawdown1y": -1.9840555341229416,
+      "ma20": 100.33470039367675,
+      "ma60": 100.33490028381348,
+      "chg1m": -1.1559982299804688,
+      "chg3m": 0.324005126953125,
+      "chg1mPct": -1.1473927840997207,
+      "chg3mPct": 0.3263877686206766,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4462.2001953125,
+      "current": 4474.10009765625,
       "prevClose": 4380.39990234375,
-      "changeAbs": 81.80029296875,
-      "changePct": 1.86741609881286,
+      "changeAbs": 93.7001953125,
+      "changePct": 2.1390785636344605,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.09882150181926,
-      "ma20": 4197.220007324218,
-      "ma60": 4213.871671549479,
-      "chg1m": 449.500244140625,
-      "chg3m": -93.599609375,
-      "chg1mPct": 11.201940080502462,
-      "chg3mPct": -2.054515417439866,
+      "drawdown1y": -15.87507182969502,
+      "ma20": 4197.815002441406,
+      "ma60": 4214.070003255209,
+      "chg1m": 461.400146484375,
+      "chg3m": -81.69970703125,
+      "chg1mPct": 11.498496077426049,
+      "chg3mPct": -1.7933120535100884,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -164,23 +164,23 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 53511.078125,
+      "current": 53459.78125,
       "prevClose": 53732.41015625,
-      "changeAbs": -221.33203125,
-      "changePct": -0.4119153237429371,
-      "pctRank": 99.20318725099602,
+      "changeAbs": -272.62890625,
+      "changePct": -0.5073826122022346,
+      "pctRank": 99.20255183413079,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -1.54196232042908,
-      "ma20": 53075.18828125,
-      "ma60": 52123.755533854164,
-      "chg1m": 1364.65625,
-      "chg3m": 3984.90625,
-      "chg1mPct": 2.6169700641612814,
-      "chg3mPct": 8.046061504728403,
+      "drawdown1y": -1.6363463214353113,
+      "ma20": 53072.6234375,
+      "ma60": 52122.9005859375,
+      "chg1m": 1313.359375,
+      "chg3m": 3933.609375,
+      "chg1mPct": 2.5185992207638885,
+      "chg3mPct": 7.942486217041179,
       "lastDate": "2026-08-17",
-      "bars": 1255,
+      "bars": 1254,
       "symbol": "^DJI",
       "label": "다우존스 지수",
       "unit": "",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.580797305539465,
-        "ret3m": 0.1432386234101024,
-        "ret6m": 11.281944980407953,
-        "ret1y": 4.3072828072869385,
+        "ret1m": 6.232784873206554,
+        "ret3m": -0.18375360160695076,
+        "ret6m": 10.91858214839283,
+        "ret1y": 3.9666939571609827,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 9.231405425640782,
-        "ret3m": 16.781237922741067,
-        "ret6m": 83.58949223968236,
-        "ret1y": 242.36069025273977,
+        "ret1m": 9.654341143910038,
+        "ret3m": 17.233406019899267,
+        "ret6m": 84.30033683116693,
+        "ret1y": 243.68628488255317,
         "winRate": 71.5,
         "count": 15
       }
@@ -211,13 +211,62 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.17468308667920243,
-    "corrPctRank": 1.2552301255230125,
+    "corr60": 0.17201737483517718,
+    "corrPctRank": 1.0887772194304857,
     "corrMin5y": 0.11496792019743005,
-    "corrMedian5y": 0.7115782038222396,
+    "corrMedian5y": 0.7115784818334243,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
+    {
+      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
+      "datetime": 1786996362,
+      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
+    },
+    {
+      "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
+      "datetime": 1786995832,
+      "headlineKo": "드론이 이라크 쿠르디스탄 총리 사무실을 표적으로 삼았지만 사상자는 보고되지 않았습니다 - 로이터 통신"
+    },
+    {
+      "headline": "US railroad Union Pacific turned charges meant to cover fuel cost spike from Iran war into profit - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTBtTmZiNU1ldVB5OEZrTGJ4QXp0M1BwVG90ZXVxa3FRN0F3NVRTTC1fNDA3SE51Q0FrcFhGLXVUU3VCN2U0SFBYZ0VOeHBISVJfZWRRdTVQOU1aRTkxMXVfQ0tQWFdFLTVZVXk4OWtBTHBPRERnN2NJRjk3c213T2c0QVh6QWRQU2s0MVQxZVJrQUc5d2E3aDd5ZTczWHQtaHQwVkRLSHVYVUhXaU1Hbm9pME02QjE2V2ZJdVBGbG83U3J0V0RkWg?oc=5",
+      "datetime": 1786995012,
+      "headlineKo": "미국 철도 유니언 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비 급증을 충당하기 위한 비용을 이익으로 전환했습니다. - Reuters"
+    },
+    {
+      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+      "datetime": 1786994823,
+      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
+    },
+    {
+      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
+      "datetime": 1786993372,
+      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
+    },
+    {
+      "headline": "Wall Street indexes slip with Iran, retail results in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
+      "datetime": 1786993136,
+      "headlineKo": "월스트리트 지수는 이란과 함께 하락하고 소매 결과에 초점이 맞춰져 있음 - Reuters"
+    },
+    {
+      "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
+      "datetime": 1786992652,
+      "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - Reuters"
+    },
     {
       "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
       "source": "CNBC",
@@ -231,20 +280,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/17/eli-lilly-and-jj-bounce-on-new-data-as-software-gives-up-gains.html",
       "datetime": 1786992174,
       "headlineKo": "소프트웨어 주식이 지난주 상승세를 포기함에 따라 Eli Lilly와 J&J는 새로운 데이터에 반등했습니다."
-    },
-    {
-      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
-      "datetime": 1786990672,
-      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
-    },
-    {
-      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
-      "datetime": 1786989825,
-      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
     },
     {
       "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - Reuters",
@@ -261,52 +296,17 @@ const MARKET_DATA = {
       "headlineKo": "분석가 업그레이드 후 Apple에 대한 Cramer의 조언. 게다가 2개의 칩 제조사가 크게 성장하는 이유"
     },
     {
-      "headline": "Wall St mixed as Middle East tensions eclipse tech strength - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
-      "datetime": 1786982519,
-      "headlineKo": "중동 긴장으로 뒤섞인 월스트리트가 기술 강점을 잠식하다 - 로이터 통신"
-    },
-    {
       "headline": "Gold shows early signs of reclaiming safe-haven appeal after Iran war selloff - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
       "datetime": 1786981547,
       "headlineKo": "금은 이란 전쟁 매각 이후 안전 피난처 매력을 되찾을 초기 조짐을 보여줍니다 - Reuters"
-    },
-    {
-      "headline": "Kushner, Netanyahu agree on path forward for Gaza, Board of Peace official says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdTFvcy1GOW8tU0NlQkU1UEREal9sZVJ0ZmZqTGpidDZ0emx6X18wT2RtbF8wVl9GR3hjZFFQWEtYT2xPc1lUa2ZCZ1oxYlJKSnJobDh4OGRtalVsdW52YnNrYjRhZkZpN0s1MFUxMjMwSUF1RldMdkJmbEtFbkdSMnRMbUtDbXZxejRERm8tVk1ta1UxdlNma3BQZGk3NnBTcHZGVWpPb2hHczRUX0xubm1PMmFRM25oUkhJT2JR?oc=5",
-      "datetime": 1786980609,
-      "headlineKo": "쿠슈너와 네타냐후는 가자 지구를 위한 진전에 동의한다고 평화위원회 관계자가 밝혔습니다. - 로이터 통신"
-    },
-    {
-      "headline": "Israeli flags on Lebanon road violate UN resolution, UNIFIL says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHFhSUE0cmdLNk9NZUN6OVNHb1VTOTVtc3gyZ1d1SzZUbWVQRFVjTng5ZHV0bXZ4cC1UYkhlbGd2REsxdTUxV2hjZEJwZlFBMVA3MDhmR2tuMmRDbThnTVkxTm5ETzBWNFBIQ1F2aHQ4Q2t5SC1RbkE2YWticzhvNi1fbHVTRXpXYUhiRU9qSEFYSm1TQWRROWRrN3F1RUZEVlRFdHJ4OVJReFJNdnhkTXN6NW4?oc=5",
-      "datetime": 1786978857,
-      "headlineKo": "UNIFIL은 레바논 도로에 이스라엘 국기가 유엔 결의안을 위반했다고 밝혔습니다."
-    },
-    {
-      "headline": "Trump says Iran should surrender, threatens to bomb Oman - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
-      "datetime": 1786977965,
-      "headlineKo": "트럼프, 이란이 항복해야 한다고 말하며 오만을 폭격하겠다고 위협 - 로이터"
-    },
-    {
-      "headline": "Supreme Court again rejects Trump bid to overturn E. Jean Carroll verdict",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/trump-supreme-court-e-jean-carroll.html",
-      "datetime": 1786975928,
-      "headlineKo": "대법원은 E. Jean Carroll의 판결을 뒤집으려는 트럼프의 제안을 다시 거부했습니다."
     }
   ],
   "fgi": {
-    "score": 60.8285714285714,
+    "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786994516.547626,
-  "_updated_label": "2026-08-18 04:22"
+  "_fetched_at": 1786998389.9906483,
+  "_updated_label": "2026-08-18 05:26"
 };
