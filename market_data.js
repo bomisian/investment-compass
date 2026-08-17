@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.55000305175781,
+      "current": 82.51000213623047,
       "prevClose": 82.4000015258789,
-      "changeAbs": 0.15000152587890625,
-      "changePct": 0.18204068337522555,
-      "pctRank": 70.19077901430842,
+      "changeAbs": 0.1100006103515625,
+      "changePct": 0.1334958838769138,
+      "pctRank": 70.03179650238474,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.914559289819874,
-      "ma20": 82.47149963378907,
-      "ma60": 81.56383323669434,
-      "chg1m": 0.06000518798828125,
-      "chg3m": -22.8699951171875,
-      "chg1mPct": 0.07274238033970923,
-      "chg3mPct": -21.69417142327798,
+      "drawdown1y": -26.949974001292297,
+      "ma20": 82.4694995880127,
+      "ma60": 81.56316655476888,
+      "chg1m": 0.0200042724609375,
+      "chg3m": -22.909996032714844,
+      "chg1mPct": 0.02425054307065704,
+      "chg3mPct": -21.732115756632297,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.51699829101562,
+      "current": 99.53399658203125,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.1529998779296875,
-      "changePct": -0.15350645203218077,
-      "pctRank": 31.39904610492846,
+      "changeAbs": -0.1360015869140625,
+      "changePct": -0.13645188061861246,
+      "pctRank": 31.63751987281399,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.059838900466171,
-      "ma20": 100.33085021972656,
-      "ma60": 100.33361689249675,
-      "chg1m": -1.233001708984375,
-      "chg3m": 0.24700164794921875,
-      "chg1mPct": -1.2238230362127793,
-      "chg3mPct": 0.2488180279055855,
+      "drawdown1y": -2.0431099457239976,
+      "ma20": 100.33170013427734,
+      "ma60": 100.333900197347,
+      "chg1m": -1.21600341796875,
+      "chg3m": 0.26399993896484375,
+      "chg1mPct": -1.2069512833436724,
+      "chg3mPct": 0.2659413195248486,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4454.89990234375,
+      "current": 4446.7001953125,
       "prevClose": 4380.39990234375,
-      "changeAbs": 74.5,
-      "changePct": 1.7007579595675382,
-      "pctRank": 91.97138314785374,
+      "changeAbs": 66.30029296875,
+      "changePct": 1.5135671273592115,
+      "pctRank": 91.7329093799682,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.236086339040934,
-      "ma20": 4196.854992675781,
-      "ma60": 4213.75,
-      "chg1m": 442.199951171875,
-      "chg3m": -100.89990234375,
-      "chg1mPct": 11.020010380859258,
-      "chg3mPct": -2.214757159432977,
+      "drawdown1y": -16.390262542068402,
+      "ma20": 4196.445007324219,
+      "ma60": 4213.613338216146,
+      "chg1m": 434.000244140625,
+      "chg3m": -109.099609375,
+      "chg1mPct": 10.815666494423011,
+      "chg3mPct": -2.3947410784544685,
       "lastDate": "2026-08-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,11 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows - Reuters",
+      "headline": "Asian shares mark time as Gulf war keeps oil prices up - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNl9yb3JkT21xaHcxVWgydjJJc1lLNU5LNDBicTBWTm1YekxBb0VJRUI5MWo2Qm9Ic0NfY3p4LU9BcXVQeUpZVkZ4Uk50dERwb01aOW0tM1ZVaHlDa2VIaEVOSmlGWG9PYWxNNDdRbDJtQzVrQ29RZVV5a3dBb1l0NGozaw?oc=5",
+      "datetime": 1786929420,
+      "headlineKo": "걸프전으로 인해 유가가 상승하면서 아시아 증시는 적기입니다 - Reuters"
+    },
+    {
+      "headline": "Oil hangs onto gains as US-Iran peace talks stall, Hormuz shipping slows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
-      "datetime": 1786927192,
-      "headlineKo": "미국-이란 평화 회담이 중단되고 호르무즈 해운이 둔화되면서 석유는 물 위를 걷고 있습니다 - Reuters"
+      "datetime": 1786926660,
+      "headlineKo": "미국-이란 평화 회담이 교착되고 호르무즈 해운이 둔화되면서 유가 상승세 유지 - Reuters"
     },
     {
       "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - Reuters",
@@ -233,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "유조선 공격 후 호르무즈 해협 통과 속도 둔화 - 데이터에 따르면 - 로이터 통신"
     },
     {
-      "headline": "Trump instructs Pentagon to reduce military exercises with South Korea - Reuters",
+      "headline": "Trump orders Pentagon to cut back military exercises with South Korea - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
-      "datetime": 1786923039,
-      "headlineKo": "트럼프, 미 국방부에 한국과의 군사훈련 축소 지시 - 로이터"
+      "datetime": 1786916340,
+      "headlineKo": "트럼프, 국방부에 한국과의 군사훈련 축소 지시 - 로이터"
     },
     {
       "headline": "Believe the unbelievable in this market — things can be different this time",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcF9Wa1NYT2dtVW52UTI3RWVFeS1MbVdwY0RvZC1kWDJYd1BEdlUzanc4Z09Gbmd6cG9NMHhWTVJxYVM1N0pqMHZCOUhHdHdRZUdBeWhzZVVhN3VBYnlOZjY5NmJmWE41UWVHeXljWUlkMFloZnh2VUxCajE0dlFTTjFOTk9ZRVVMSVJXd0thR05XbktGWlBPYmJ1S0U0bDdkQlZLWlBxb2VIUlZO?oc=5",
       "datetime": 1786880097,
       "headlineKo": "트럼프는 이란에 더 많은 경제적 압력을 가하길 원한다. 그의 선택은 무엇입니까? - 로이터"
-    },
-    {
-      "headline": "Iran disputes Qatar, Kuwait accounts of captured Iranian personnel - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRUtLNEdDbkQxTWtlR1o5NHFQWkg3NkI2ZzBzeWZ5bWJsX2k0Ymh1UTEzRlpjTkFYRjQ5R3gtN084LWVoNGFZeXpIaTgwYTl6WnlNSGY0bnpyS1NablA1Y3dWSHJUTThrYzVzUmpVUW9IbGk1X095eDVISEEzaG45Y3N6bS1Db3gzc3RKN012TGVJR2w2aW1oTjhudE0waDRfX0wyajcwdGNCQ1JObzh3U2Z1TWNBdzR3RU9lRVQ0ekRHWHNQb2k0?oc=5",
-      "datetime": 1786879677,
-      "headlineKo": "이란, 포로로 잡힌 이란인에 대한 카타르와 쿠웨이트의 기록에 대해 이의 제기 - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786932189.7007174,
-  "_updated_label": "2026-08-17 11:03"
+  "_fetched_at": 1786935906.1257694,
+  "_updated_label": "2026-08-17 12:05"
 };
