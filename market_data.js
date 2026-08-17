@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.970000267028809,
+      "current": 14.920000076293945,
       "prevClose": 14.25,
-      "changeAbs": 0.7200002670288086,
-      "changePct": 5.052633452833744,
-      "pctRank": 20.85987261146497,
+      "changeAbs": 0.6700000762939453,
+      "changePct": 4.70175492136102,
+      "pctRank": 20.621019108280255,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.78743756888415,
-      "ma20": 16.447499895095824,
-      "ma60": 16.990999952952066,
-      "chg1m": -3.8000001907348633,
-      "chg3m": -2.84999942779541,
-      "chg1mPct": -20.245072445712715,
-      "chg3mPct": -15.993263056133422,
+      "drawdown1y": -51.948468782937084,
+      "ma20": 16.44499988555908,
+      "ma60": 16.99016661643982,
+      "chg1m": -3.8500003814697266,
+      "chg3m": -2.8999996185302734,
+      "chg1mPct": -20.51145598069117,
+      "chg3mPct": -16.273847745197056,
       "lastDate": "2026-08-17",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.04000091552734,
+      "current": 82.87000274658203,
       "prevClose": 82.4000015258789,
-      "changeAbs": 0.6399993896484375,
-      "changePct": 0.7766982740254398,
-      "pctRank": 71.91726332537789,
+      "changeAbs": 0.470001220703125,
+      "changePct": 0.5703898203879455,
+      "pctRank": 71.59904534606206,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.480740894947253,
-      "ma20": 82.49599952697754,
-      "ma60": 81.57199986775716,
-      "chg1m": 0.5500030517578125,
-      "chg3m": -22.37999725341797,
-      "chg1mPct": 0.6667512013591402,
-      "chg3mPct": -21.22936600468533,
+      "drawdown1y": -26.63124835270594,
+      "ma20": 82.48749961853028,
+      "ma60": 81.56916656494141,
+      "chg1m": 0.3800048828125,
+      "chg3m": -22.54999542236328,
+      "chg1mPct": 0.46066782961986485,
+      "chg3mPct": -21.390623993585,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.43399810791016,
+      "current": 99.45700073242188,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.23600006103515625,
-      "changePct": -0.2367814441364041,
+      "changeAbs": -0.2129974365234375,
+      "changePct": -0.21370265921184917,
       "pctRank": 30.867143993635644,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.1415239537157627,
-      "ma20": 100.32670021057129,
-      "ma60": 100.33223355611166,
-      "chg1m": -1.3160018920898438,
-      "chg3m": 0.16400146484375,
-      "chg1mPct": -1.306205351950217,
-      "chg3mPct": 0.16520748503037733,
+      "drawdown1y": -2.1188858035597224,
+      "ma20": 100.32785034179688,
+      "ma60": 100.33261693318686,
+      "chg1m": -1.292999267578125,
+      "chg3m": 0.18700408935546875,
+      "chg1mPct": -1.2833739628566998,
+      "chg3mPct": 0.188379264308689,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4451.0,
+      "current": 4457.39990234375,
       "prevClose": 4380.39990234375,
-      "changeAbs": 70.60009765625,
-      "changePct": 1.6117272219478211,
+      "changeAbs": 77.0,
+      "changePct": 1.7578303743181267,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.309414829101097,
-      "ma20": 4196.659997558594,
-      "ma60": 4213.685001627604,
-      "chg1m": 438.300048828125,
-      "chg3m": -104.7998046875,
-      "chg1mPct": 10.92282139610571,
-      "chg3mPct": -2.3003601821939283,
+      "drawdown1y": -16.189079719645918,
+      "ma20": 4196.979992675781,
+      "ma60": 4213.791666666667,
+      "chg1m": 444.699951171875,
+      "chg3m": -98.39990234375,
+      "chg1mPct": 11.082312572162396,
+      "chg3mPct": -2.1598820528177187,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,18 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Drones attack the Kurdistan Regional Government prime minister's office in Iraq - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
-      "datetime": 1786957460,
-      "headlineKo": "이라크 쿠르디스탄 지방정부 총리실, 드론 공격 - 로이터 통신"
+      "headline": "Santoli: Earnings bonanza that lifted market to record may not be all that it appears to be",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/17/santoli-earnings-bonanza-that-lifted-market-to-record-may-not-be-all-that-it-appears-to-be.html",
+      "datetime": 1786962693,
+      "headlineKo": "Santoli: 시장을 기록으로 끌어올린 수익 노다지는 보이는 것이 전부가 아닐 수도 있습니다."
     },
     {
-      "headline": "Kushner to hold talks with Netanyahu after rare meeting with Hamas - Reuters",
+      "headline": "Iran says two French embassy employees barred from returning - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkZkRXBDZ3pPWVFROGdBUVlseGpmSEpONkJ2MEdvQjFjajdMYmtLSVNOc1ZjeHg0WGZwNWZpM3ZjV1A2S2FNeHFrZTlRUFRKZGo4SUdwNDBoMUs3UEhwZTMxMzNXRDJEeEdzd0NTTVRaZF9JZFItWUduXzlsMEptODRYR2hFdVRKaDk1Sm83NFFMaTI0SFo5d3ExOTNIZ1M2TGsxWEdtRHRCdFB0eWc?oc=5",
+      "datetime": 1786959713,
+      "headlineKo": "이란, 프랑스 대사관 직원 2명 귀국 금지 발표 - 로이터"
+    },
+    {
+      "headline": "Drones target office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
+      "datetime": 1786957852,
+      "headlineKo": "이라크 쿠르디스탄 총리 사무실 표적으로 드론, 사상자는 보고되지 않음 - 로이터 통신"
+    },
+    {
+      "headline": "Trump envoy discusses Gaza plan with Netanyahu after rare Hamas meeting - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcEx3MFJPNUM1WXN5SzhvTjJKMjk5aXZHWkxtMlBSaS14RTZpaDZsV3cweGdLdGo3dWJDU1ZCZVlob1NESk1CT0l3OFh6OGRXVFVVLXRtb3d0UGRNMlpkSGFobzk4c1dmZ0dtRUxQcEtVQ0tLVWZZbENQRlRSR0FkNWw4eDNtcTk2bkpRNXEyNDN2OFp6clItN0ZPRWUwbmFVQlZUdEdRVmU2R2NiY2hLTFRTOWJGM1VL?oc=5",
       "datetime": 1786947420,
-      "headlineKo": "쿠슈너, 하마스와 이례적인 회담 후 네타냐후와 회담 예정 - 로이터"
+      "headlineKo": "트럼프 특사, 하마스 회담 후 네타냐후와 가자 계획 논의 - 로이터"
     },
     {
       "headline": "Trump seeks cuts to US-South Korea drills, reviving earlier objections - Reuters",
@@ -238,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTFVPX2pQSTZzb1l1ekdiT1JMWGdmeEhFbVIzeHpoYjlDY0Q2QV9TZ1ZsbXdMY2ZlOGlNc0QwS2dqaE1mT25seDhUTTBFNkFnNFNGSEQ4OHcwMjVMSHZDVGtYWnhCZUZoSkRqaDhuZk1nYm1YcjBEWEpmTDJfQ2hJOHNSQzlEV3ZBU3dyTkZLQnNReENoYXg0M084N3dmc3FxZEdsc2ZzU0lLVW5lU1NWZTA4RWs5ZGUyVS1lel9n?oc=5",
       "datetime": 1786947000,
       "headlineKo": "트럼프, 한미 훈련 축소 추진…초기 반발 다시 되살려 - 로이터 통신"
+    },
+    {
+      "headline": "WEEKAHEAD Indian rupee expected to be rangebound, bond traders await policy minutes - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDFjUnFHUE1WM1psUjhsS0N3R0plSTRER2cyeTVlQl9wSDBLankxeEkyT2w1cGlrZWJNaUxZcktrVU96QU1rd0lkdjh1ZjVmR2dqRDBSNFdNNVdpV1c2MkVqbXFBWjdPTURwVjBnazA4OGdyOXZDMWtlOEo2ajJsQVpRV2kwUHFCRnc5MDBnbS1vdm5xcWpXRHJRNURnRjVpQ3NzNklpVGtUc3RDajdWREVSLXN0cWlGWTlJQmppeENNb0w3RGc?oc=5",
+      "datetime": 1786933920,
+      "headlineKo": "WEEKAHEAD 인도 루피는 범위 제한을 받을 것으로 예상되고 채권 거래자들은 정책 의사록을 기다리고 있습니다 - Reuters"
     },
     {
       "headline": "Indian shares fall as crude remains at elevated levels - Reuters",
@@ -261,6 +282,13 @@ const MARKET_DATA = {
       "headlineKo": "이란 전쟁 교착상태로 인한 유가 혼조세, 단기 상승 가능성은 제한적 - Reuters"
     },
     {
+      "headline": "Japan Q2 growth misses forecasts on weaker spending, investment - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU21ldTFQWE1HaTVtdWZqVW5QTllNV3p1ckpqcFNnYXAxUzBZVTVkNGFYWmduXy1UQWJ2ZUJyQmZxTkt1RldUTWNtUTltLTBJb2h2My1zbGltQWp2V0NNRGpBZ0k1dFVOSjlwZkUyZmFVWEJNQTd1S3RITFJ4bzdxRmhNVjlVQUhnX3hKbnRsYWpkQ0wwQWZSZm5XTTNhczlJZlFUZm1tdWppc1E?oc=5",
+      "datetime": 1786925940,
+      "headlineKo": "일본 2분기 성장, 지출 및 투자 둔화로 예상치 하회 - Reuters"
+    },
+    {
       "headline": "Shipping slows through Strait of Hormuz after tanker attacks, data shows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOS011b1NvcmEzQUNzX2dVdzFyUmg1UnpkLXZqNW5nUFFxNGZpaE51amZaZWJDZnNTQi1yZDE2cGxwU09PdzhMWWJiV1lpMk0xSmJmb0dQNVdGN1F3RHBTaVQtRzlsU2Nwa2RER0ZlbngzOWc3aDV2MmMwRmNfZ2xXclpHRzE0RkFzeDZ3MjY2QTAwMlFPSEVTeTRQM0JDQ2VtQjVPQTFPZWxRaXB4YzBTbjBVSXlxQTBoMUE?oc=5",
@@ -273,40 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaGdQYThHbnV2b3NnalEycy1sZGpyNGNLaGNYODl2TmhhUnNma2ZhMk1MTURNQWxMalB3OUswYk10R2RJZGlBNnJoUkZzRGxGcE8xQklBZnlZYUs1d004Q09uUWdDeV96aFlJc0o2Nzh1aHZvRVBhZTV2SGU4RnZremZXWkw0YUp3SENRTDNFNkFyOWNVS2ROSEpCaVhpSmV2QWhMUGI5aVo3aUc3Z2pkWDBIQ2lRdw?oc=5",
       "datetime": 1786916340,
       "headlineKo": "트럼프, 국방부에 한국과의 군사훈련 축소 지시 - 로이터"
-    },
-    {
-      "headline": "Believe the unbelievable in this market — things can be different this time",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/16/cramer-believe-the-unbelievable-in-this-market-things-can-be-different.html",
-      "datetime": 1786915945,
-      "headlineKo": "이 시장의 믿을 수 없는 사실을 믿으십시오. 이번에는 상황이 다를 수 있습니다"
-    },
-    {
-      "headline": "Top U.S. commander acknowledges mental health issues on USS Lincoln",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/16/top-us-commander-acknowledges-mental-health-issues-on-uss-lincoln.html",
-      "datetime": 1786910312,
-      "headlineKo": "미 최고 사령관, USS 링컨의 정신 건강 문제 인정"
-    },
-    {
-      "headline": "Trump's envoys meet mediators, Israel strikes Gaza - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
-      "datetime": 1786910163,
-      "headlineKo": "트럼프 특사들, 중재자들 만나, 이스라엘, 가자지구 공습 - 로이터 통신"
-    },
-    {
-      "headline": "Iranian parliament advances bill to curb foreign influence - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
-      "datetime": 1786898624,
-      "headlineKo": "이란 의회, 외국 영향력 억제 법안 추진 - 로이터"
     }
   ],
   "fgi": {
     "score": 64.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786961532.5001705,
-  "_updated_label": "2026-08-17 19:12"
+  "_fetched_at": 1786965181.5260746,
+  "_updated_label": "2026-08-17 20:13"
 };
