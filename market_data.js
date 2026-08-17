@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.229999542236328,
+      "current": 15.119999885559082,
       "prevClose": 14.25,
-      "changeAbs": 0.9799995422363281,
-      "changePct": 6.877189770079497,
-      "pctRank": 23.00955414012739,
+      "changeAbs": 0.869999885559082,
+      "changePct": 6.105262354800576,
+      "pctRank": 22.372611464968152,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.95008078435583,
-      "ma20": 16.460499858856203,
-      "ma60": 16.995333274205525,
-      "chg1m": -3.5400009155273438,
-      "chg3m": -2.5900001525878906,
-      "chg1mPct": -18.859887209342734,
-      "chg3mPct": -14.534232306076586,
+      "drawdown1y": -51.304346998140325,
+      "ma20": 16.454999876022338,
+      "ma60": 16.993499946594238,
+      "chg1m": -3.65000057220459,
+      "chg3m": -2.6999998092651367,
+      "chg1mPct": -19.445926921620675,
+      "chg3mPct": -15.151514340650332,
       "lastDate": "2026-08-17",
       "bars": 1256,
       "symbol": "^VIX",
@@ -26,21 +26,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us10y": {
-      "current": 4.711999893188477,
+      "current": 4.723999977111816,
       "prevClose": 4.696000099182129,
-      "changeAbs": 0.015999794006347656,
-      "changePct": 0.3407111087824345,
-      "pctRank": 98.08764940239044,
+      "changeAbs": 0.0279998779296875,
+      "changePct": 0.596249517425778,
+      "pctRank": 98.32669322709164,
       "min5y": 1.2419999837875366,
       "max5y": 4.98799991607666,
       "high1y": 4.744999885559082,
-      "drawdown1y": -0.6954687706323792,
-      "ma20": 4.665799975395203,
-      "ma60": 4.5535166501998905,
-      "chg1m": 0.17100000381469727,
-      "chg3m": 0.11700010299682617,
-      "chg1mPct": 3.765690552313112,
-      "chg3mPct": 2.546248277237599,
+      "drawdown1y": -0.44256920871962313,
+      "ma20": 4.66639997959137,
+      "ma60": 4.553716651598612,
+      "chg1m": 0.1830000877380371,
+      "chg3m": 0.12900018692016602,
+      "chg1mPct": 4.029951380669897,
+      "chg3mPct": 2.807403543206378,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^TNX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 83.30999755859375,
+      "current": 84.7300033569336,
       "prevClose": 82.4000015258789,
-      "changeAbs": 0.9099960327148438,
-      "changePct": 1.1043640969218262,
-      "pctRank": 72.63325377883851,
+      "changeAbs": 2.3300018310546875,
+      "changePct": 2.827672072703684,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.241700035840253,
-      "ma20": 82.50949935913086,
-      "ma60": 81.57649981180826,
-      "chg1m": 0.8199996948242188,
-      "chg3m": -22.110000610351562,
-      "chg1mPct": 0.9940595418349152,
-      "chg3mPct": -20.973250800970643,
+      "drawdown1y": -24.98450141989824,
+      "ma20": 82.58049964904785,
+      "ma60": 81.60016657511393,
+      "chg1m": 2.2400054931640625,
+      "chg3m": -20.68999481201172,
+      "chg1mPct": 2.7154873938333512,
+      "chg3mPct": -19.62625229688781,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.50199890136719,
+      "current": 99.60800170898438,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.167999267578125,
-      "changePct": -0.16855550382709789,
-      "pctRank": 31.34447096260939,
+      "changeAbs": -0.0619964599609375,
+      "changePct": -0.06220172679831958,
+      "pctRank": 32.4582338902148,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0746006262395644,
-      "ma20": 100.33010025024414,
-      "ma60": 100.33336690266927,
-      "chg1m": -1.2480010986328125,
-      "chg3m": 0.23200225830078125,
-      "chg1mPct": -1.2387107678737594,
-      "chg3mPct": 0.23370833700636137,
+      "drawdown1y": -1.9702774228339437,
+      "ma20": 100.335400390625,
+      "ma60": 100.33513361612955,
+      "chg1m": -1.141998291015625,
+      "chg3m": 0.33800506591796875,
+      "chg1mPct": -1.1334970630428038,
+      "chg3mPct": 0.3404906591598812,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4479.89990234375,
+      "current": 4467.60009765625,
       "prevClose": 4380.39990234375,
-      "changeAbs": 99.5,
-      "changePct": 2.2714821070734232,
-      "pctRank": 92.12410501193318,
+      "changeAbs": 87.2001953125,
+      "changePct": 1.9906902852829305,
+      "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.766020145090708,
-      "ma20": 4198.104992675781,
-      "ma60": 4214.166666666667,
-      "chg1m": 467.199951171875,
-      "chg3m": -75.89990234375,
-      "chg1mPct": 11.64303229389063,
-      "chg3mPct": -1.6660060932803933,
+      "drawdown1y": -15.997289040122077,
+      "ma20": 4197.490002441406,
+      "ma60": 4213.961669921875,
+      "chg1m": 454.900146484375,
+      "chg3m": -88.19970703125,
+      "chg1mPct": 11.336510380037891,
+      "chg3mPct": -1.9359873307097601,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -141,21 +141,21 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.293999671936035,
+      "current": 5.310999870300293,
       "prevClose": 5.264999866485596,
-      "changeAbs": 0.028999805450439453,
-      "changePct": 0.5508035362932862,
+      "changeAbs": 0.046000003814697266,
+      "changePct": 0.8736943016373221,
       "pctRank": 99.9203187250996,
       "min5y": 1.6779999732971191,
-      "max5y": 5.293999671936035,
-      "high1y": 5.293999671936035,
+      "max5y": 5.310999870300293,
+      "high1y": 5.310999870300293,
       "drawdown1y": 0.0,
-      "ma20": 5.198699998855591,
-      "ma60": 5.062666702270508,
-      "chg1m": 0.22999954223632812,
-      "chg3m": 0.1659998893737793,
-      "chg1mPct": 4.541854983127084,
-      "chg3mPct": 3.2371274651426725,
+      "ma20": 5.199550008773803,
+      "ma60": 5.0629500389099125,
+      "chg1m": 0.24699974060058594,
+      "chg3m": 0.1830000877380371,
+      "chg1mPct": 4.877561893254393,
+      "chg3mPct": 3.5686446079878595,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^TYX",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 53544.171875,
+      "current": 53464.5390625,
       "prevClose": 53732.41015625,
-      "changeAbs": -188.23828125,
-      "changePct": -0.35032540081975955,
+      "changeAbs": -267.87109375,
+      "changePct": -0.4985279703088882,
       "pctRank": 99.20318725099602,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -1.4810712713486107,
-      "ma20": 53076.84296875,
-      "ma60": 52124.30709635417,
-      "chg1m": 1397.75,
-      "chg3m": 4018.0,
-      "chg1mPct": 2.6804331912754082,
-      "chg3mPct": 8.112882235560429,
+      "drawdown1y": -1.6275921550306771,
+      "ma20": 53072.861328125,
+      "ma60": 52122.9798828125,
+      "chg1m": 1318.1171875,
+      "chg3m": 3938.3671875,
+      "chg1mPct": 2.5277231689254807,
+      "chg3mPct": 7.952092880184877,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^DJI",
@@ -187,22 +187,22 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0149998664855957,
+  "yieldSpread": 1.0269999504089355,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.124572015834429,
-        "ret3m": -0.28543032266646895,
-        "ret6m": 10.805596155186814,
-        "ret1y": 3.8607894283654076,
+        "ret1m": 6.232725969788433,
+        "ret3m": -0.1838089472152027,
+        "ret6m": 10.918520646817509,
+        "ret1y": 3.9666363102335067,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 10.008568915599447,
-        "ret3m": 17.612117229585778,
-        "ret6m": 84.8957012914908,
-        "ret1y": 244.79653027351657,
+        "ret1m": 9.732299812850687,
+        "ret3m": 17.316753019145704,
+        "ret6m": 84.43136501294968,
+        "ret1y": 243.93062838070466,
         "winRate": 71.5,
         "count": 15
       }
@@ -211,7 +211,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.17028481202120743,
+    "corr60": 0.17175848552765371,
     "corrPctRank": 1.0878661087866108,
     "corrMin5y": 0.11496792019743005,
     "corrMedian5y": 0.7115782038222396,
@@ -219,11 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
+      "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - reuters.com",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
-      "datetime": 1786984414,
-      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUR0RjdfMVp0QlRfby1EcmdQSzZvZ2hzT0xJZVdKUjF2QlRhS2p1WGU0dC1xalpqSVp0dV9HYURDTF9yNnVHLTRwZktnZlZXVjNsaWRwTGpIYWdkYUNjV2FaREZmbEpJeUcwZU4zaUVhQm4zQ3VrcDNrWjFxdHQwRXk4SzZwUU9yLWFpMUhrSlJTTFZvNUxOREc4OXY?oc=5",
+      "datetime": 1786983504,
+      "headlineKo": "FTSE 100은 소비재 주가 하락으로 인해 6일 연속 하락했습니다. - reuters.com"
     },
     {
       "headline": "Cramer's advice on Apple after analyst upgrade. Plus, why 2 chipmakers are up big",
@@ -233,25 +233,32 @@ const MARKET_DATA = {
       "headlineKo": "분석가 업그레이드 후 Apple에 대한 Cramer의 조언. 게다가 2개의 칩 제조사가 크게 성장하는 이유"
     },
     {
-      "headline": "Wall St mixed as Middle East tensions eclipse tech strength - Reuters",
+      "headline": "Wall St mixed as Middle East tensions eclipse tech strength - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
       "datetime": 1786982519,
-      "headlineKo": "중동 긴장으로 뒤섞인 월스트리트가 기술 강점을 잠식하다 - 로이터 통신"
+      "headlineKo": "중동 긴장이 기술 강점을 약화시키면서 월스트리트가 뒤섞였습니다 - reuters.com"
     },
     {
-      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
+      "headline": "Gold shows early signs of reclaiming safe-haven appeal after Iran war selloff - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
+      "datetime": 1786981547,
+      "headlineKo": "금은 이란 전쟁 매각 이후 안전자산 매력을 되찾을 초기 조짐을 보여줌 - reuters.com"
+    },
+    {
+      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
       "datetime": 1786980574,
-      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
+      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - reuters.com"
     },
     {
-      "headline": "Trump says Iran should surrender, threatens to bomb Oman - Reuters",
+      "headline": "Trump says Iran should surrender, threatens to bomb Oman - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
       "datetime": 1786977965,
-      "headlineKo": "트럼프, 이란이 항복해야 한다고 말하며 오만을 폭격하겠다고 위협 - 로이터"
+      "headlineKo": "트럼프, 이란이 항복해야 한다고 말하며 오만을 폭격하겠다고 위협 - reuters.com"
     },
     {
       "headline": "Supreme Court again rejects Trump bid to overturn E. Jean Carroll verdict",
@@ -268,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "Nvidia, 오하이오의 OpenAI 데이터 센터에 대한 자금 조달 지원"
     },
     {
-      "headline": "Iran says it will escalate if US does not honour deal within weeks - Reuters",
+      "headline": "Iran says it will escalate if US does not honour deal within weeks - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5",
       "datetime": 1786974121,
-      "headlineKo": "이란은 미국이 몇 주 안에 합의를 이행하지 않으면 상황이 확대될 것이라고 말했습니다 - 로이터"
+      "headlineKo": "이란, 미국이 몇 주 안에 합의를 이행하지 않으면 격화할 것이라고 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
@@ -282,31 +289,24 @@ const MARKET_DATA = {
       "headlineKo": "짐 크레이머(Jim Cramer)가 월요일 주식 시장에서 주목해야 할 10가지 항목"
     },
     {
-      "headline": "US awards Raytheon $22.9 billion seven-year deal to boost Tomahawk output - Reuters",
+      "headline": "US awards Raytheon $22.9 billion seven-year deal to boost Tomahawk output - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ0hQT00ybHQzbWM2bDJBam45dVpTWmdscVpRM2t1YnItV0RXbmNPUW14Qml5dVNTdGtvSUx0VVk5Sk41ZFdVdjhuSmt5eFRHVzFkc1lsUndIYU5Jd05FcXlmaHhLaFpvR0RKVEhXeFFwczhZUVJtaENuWXhId0Y2NWN6VkdnRXV4dDdrWG9tLU4wcVZzWUNvYjVQR2ZRSTRFdFYxQWNtdGRzczRXell5UkUzOWh5dkhrYmh1cFlFa3M2TXU0dnZ0Qw?oc=5",
       "datetime": 1786973048,
-      "headlineKo": "미국, 토마호크 생산량 증대를 위해 레이시언과 7년 229억 달러 계약 체결 - Reuters"
+      "headlineKo": "미국, 토마호크 생산량 증대를 위해 레이시언과 7년 229억 달러 계약 체결 - reuters.com"
     },
     {
-      "headline": "Most Gulf markets ease as Iran tensions, Hormuz shipping disruptions weigh - Reuters",
+      "headline": "Most Gulf markets ease as Iran tensions, Hormuz shipping disruptions weigh - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNU9NOVk5OEQ2MTFBZ3MyTlFITGJvOFF2R08wR1hyanE3TlJEZ3VlWjk2M191ZGZkc1UyOTdCUEloLXdDZnhnLVFlUkIwY3I4RjZuV3pLMW5BRFVsMjNTWmxDb0tiNU5xYmVDNTVkWlgxOTRIc2tnejNQX0d6OUdNOHJ1T2lKeXVlU08wdmtpU2F1U3g5TmVPUGRkRk1xdnJIcjdiQW9iUzJxaVZyVm5uNFVENDdraW9na29LMFhsbl9nQQ?oc=5",
       "datetime": 1786972352,
-      "headlineKo": "이란의 긴장과 호르무즈 해운 중단으로 인해 대부분의 걸프 시장은 완화되었습니다 - Reuters"
-    },
-    {
-      "headline": "Houthis say they attacked Saudi vessels off Yemen’s Mocha - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEViWjVJeVRDNlYyWjhiN2VaLVltUW9OcUJLRGJfU055NkVreDRrUHNxUDlZS3VFVVVDMUhJZk1tNE9JMlhUeGctaWlzY0VtSFo0ekZrRGFfYWU3elI3dVNNX0J1b0k4NTRsQzdTOHlvZEtrTFBvUXRBa1dIaHlONUNjY0NmUjlKV19FRDh6TTl6R0FqbGZpWHJXRDFFZzBBaDJpUE5wS3lDSDlHQUZB?oc=5",
-      "datetime": 1786970187,
-      "headlineKo": "후티 반군은 예멘 모카 앞바다에서 사우디 선박을 공격했다고 밝혔습니다."
+      "headlineKo": "이란 긴장으로 대부분의 걸프 시장은 완화되고 호르무즈 해운 중단은 부담 - reuters.com"
     }
   ],
   "fgi": {
-    "score": 61.6285714285714,
+    "score": 60.9142857142857,
     "rating": "greed"
   },
-  "_fetched_at": 1786987234.4535003,
-  "_updated_label": "2026-08-18 02:21"
+  "_fetched_at": 1786990873.5020275,
+  "_updated_label": "2026-08-18 03:21"
 };
