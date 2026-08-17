@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.94999694824219,
+      "current": 85.30999755859375,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.5499954223632812,
-      "changePct": 3.094654581483738,
-      "pctRank": 75.33810660302306,
+      "changeAbs": 2.9099960327148438,
+      "changePct": 3.5315485179947688,
+      "pctRank": 75.89498806682577,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.78973063879818,
-      "ma20": 82.59149932861328,
-      "ma60": 81.60383313496908,
-      "chg1m": 2.4599990844726562,
-      "chg3m": -20.470001220703125,
-      "chg1mPct": 2.9821786255047456,
-      "chg3mPct": -19.417569319151433,
+      "drawdown1y": -24.47100499021181,
+      "ma20": 82.60949935913087,
+      "ma60": 81.60983314514161,
+      "chg1m": 2.8199996948242188,
+      "chg3m": -20.110000610351562,
+      "chg1mPct": 3.418595912053953,
+      "chg3mPct": -19.07607755610413,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.56300354003906,
+      "current": 99.58100128173828,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.10699462890625,
-      "changePct": -0.10734888218307088,
-      "pctRank": 31.901352426412092,
+      "changeAbs": -0.08899688720703125,
+      "changePct": -0.08929155096017696,
+      "pctRank": 31.980906921241047,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0145626001541017,
-      "ma20": 100.33315048217773,
-      "ma60": 100.33438364664714,
-      "chg1m": -1.1869964599609375,
-      "chg3m": 0.29300689697265625,
-      "chg1mPct": -1.1781602580257444,
-      "chg3mPct": 0.2951615864622088,
+      "drawdown1y": -1.9968500309275439,
+      "ma20": 100.3340503692627,
+      "ma60": 100.33468360900879,
+      "chg1m": -1.1689987182617188,
+      "chg3m": 0.311004638671875,
+      "chg1mPct": -1.1602964945525744,
+      "chg3mPct": 0.3132916784414915,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4473.10009765625,
+      "current": 4472.2001953125,
       "prevClose": 4380.39990234375,
-      "changeAbs": 92.7001953125,
-      "changePct": 2.116249597734225,
+      "changeAbs": 91.80029296875,
+      "changePct": 2.0957057578152147,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.893874477453029,
-      "ma20": 4197.765002441406,
-      "ma60": 4214.053336588541,
-      "chg1m": 460.400146484375,
-      "chg3m": -82.69970703125,
-      "chg1mPct": 11.473575200904794,
-      "chg3mPct": -1.8152620961561918,
+      "drawdown1y": -15.910795024239166,
+      "ma20": 4197.720007324218,
+      "ma60": 4214.038338216146,
+      "chg1m": 459.500244140625,
+      "chg3m": -83.599609375,
+      "chg1mPct": 11.451148845715013,
+      "chg3mPct": -1.8350149909788325,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
+      "datetime": 1787001474,
+      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
+    },
+    {
+      "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
+      "datetime": 1786998923,
+      "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
+    },
+    {
       "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
@@ -226,25 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 이란은 필요하다고 생각하는 협상 안 할 것이라며 오만을 폭격하겠다고 위협 - 로이터"
     },
     {
-      "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
-      "datetime": 1786997612,
-      "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
-    },
-    {
       "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
       "datetime": 1786997350,
       "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - Reuters"
-    },
-    {
-      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
-      "datetime": 1786996362,
-      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
     },
     {
       "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787002039.5170727,
-  "_updated_label": "2026-08-18 06:27"
+  "_fetched_at": 1787005668.6163075,
+  "_updated_label": "2026-08-18 07:28"
 };
