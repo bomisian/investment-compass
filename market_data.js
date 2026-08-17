@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.30999755859375,
+      "current": 85.04000091552734,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.9099960327148438,
-      "changePct": 3.5315485179947688,
-      "pctRank": 75.89498806682577,
+      "changeAbs": 2.6399993896484375,
+      "changePct": 3.2038826950983825,
+      "pctRank": 75.41766109785203,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.47100499021181,
-      "ma20": 82.60949935913087,
-      "ma60": 81.60983314514161,
-      "chg1m": 2.8199996948242188,
-      "chg3m": -20.110000610351562,
-      "chg1mPct": 3.418595912053953,
-      "chg3mPct": -19.07607755610413,
+      "drawdown1y": -24.710045849318806,
+      "ma20": 82.59599952697754,
+      "ma60": 81.60533320109049,
+      "chg1m": 2.5500030517578125,
+      "chg3m": -20.37999725341797,
+      "chg1mPct": 3.0912875715781785,
+      "chg3mPct": -19.33219275981881,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4472.2001953125,
+      "current": 4473.89990234375,
       "prevClose": 4380.39990234375,
-      "changeAbs": 91.80029296875,
-      "changePct": 2.0957057578152147,
+      "changeAbs": 93.5,
+      "changePct": 2.134508311672011,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.910795024239166,
-      "ma20": 4197.720007324218,
-      "ma60": 4214.038338216146,
-      "chg1m": 459.500244140625,
-      "chg3m": -83.599609375,
-      "chg1mPct": 11.451148845715013,
-      "chg3mPct": -1.8350149909788325,
+      "drawdown1y": -15.878836031638755,
+      "ma20": 4197.804992675781,
+      "ma60": 4214.066666666667,
+      "chg1m": 461.199951171875,
+      "chg3m": -81.89990234375,
+      "chg1mPct": 11.493507034763102,
+      "chg3mPct": -1.7977063491570133,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -222,15 +222,36 @@ const MARKET_DATA = {
       "headline": "Pictures of the Day | August 17, 2026 - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
-      "datetime": 1787001474,
+      "datetime": 1787006874,
       "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
     },
     {
       "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
-      "datetime": 1786998923,
+      "datetime": 1787006667,
       "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
+    },
+    {
+      "headline": "Iran threatens new offensive while US rules out extending ceasefire deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+      "datetime": 1787006591,
+      "headlineKo": "이란, 미국이 휴전 협정 연장을 배제하는 동안 새로운 공격 위협 - 로이터 통신"
+    },
+    {
+      "headline": "US railroad Union Pacific turned charges meant to cover fuel costs from Iran war into profit - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTBtTmZiNU1ldVB5OEZrTGJ4QXp0M1BwVG90ZXVxa3FRN0F3NVRTTC1fNDA3SE51Q0FrcFhGLXVUU3VCN2U0SFBYZ0VOeHBISVJfZWRRdTVQOU1aRTkxMXVfQ0tQWFdFLTVZVXk4OWtBTHBPRERnN2NJRjk3c213T2c0QVh6QWRQU2s0MVQxZVJrQUc5d2E3aDd5ZTczWHQtaHQwVkRLSHVYVUhXaU1Hbm9pME02QjE2V2ZJdVBGbG83U3J0V0RkWg?oc=5",
+      "datetime": 1787001115,
+      "headlineKo": "미국 철도 유니온 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비를 충당하기 위한 비용을 이익으로 전환했습니다. - 로이터"
+    },
+    {
+      "headline": "Battered by war, Iran’s rulers wary of more economic pain and unrest if US tightens pressure - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVEdqbXFtRnNWUFI5Z2k5QkEtMEUwbnR3emVxRTUyMS1IS0pXSWZZdC03aVpWNTFtSzlfN0kzQ3VCUVRpSzZQVGlpeFAyeVJKVGlBVlJicHpPcnBWSkJPcUpIazRPMkJabGJHMl9iRTRMUFRwZ0kxeVV3Sk16Mkx4ei1faDM2S2VDUXI0VHB0R1hyQVFGdU5IU3Nzby1xX2RFaVV4dmtzdmhhSGdKcjRYdDJlYlNLMmI4bGFqcDdZa0x4V0ZfQ3RN?oc=5",
+      "datetime": 1786999929,
+      "headlineKo": "전쟁으로 피해를 입은 이란 통치자들은 미국이 압박을 강화할 경우 더 많은 경제적 고통과 불안을 경계합니다 - 로이터"
     },
     {
       "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - Reuters",
@@ -254,18 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "드론이 이라크 쿠르디스탄 총리 사무실을 표적으로 삼았지만 사상자는 보고되지 않았습니다 - 로이터 통신"
     },
     {
-      "headline": "US railroad Union Pacific turned charges meant to cover fuel cost spike from Iran war into profit - Reuters",
+      "headline": "US diesel crack surpasses $100 a barrel for the first time on supply disruptions - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTBtTmZiNU1ldVB5OEZrTGJ4QXp0M1BwVG90ZXVxa3FRN0F3NVRTTC1fNDA3SE51Q0FrcFhGLXVUU3VCN2U0SFBYZ0VOeHBISVJfZWRRdTVQOU1aRTkxMXVfQ0tQWFdFLTVZVXk4OWtBTHBPRERnN2NJRjk3c213T2c0QVh6QWRQU2s0MVQxZVJrQUc5d2E3aDd5ZTczWHQtaHQwVkRLSHVYVUhXaU1Hbm9pME02QjE2V2ZJdVBGbG83U3J0V0RkWg?oc=5",
-      "datetime": 1786995012,
-      "headlineKo": "미국 철도 유니언 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비 급증을 충당하기 위한 비용을 이익으로 전환했습니다. - Reuters"
-    },
-    {
-      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
-      "datetime": 1786994823,
-      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
+      "datetime": 1786994023,
+      "headlineKo": "미국 디젤 크랙, 공급 중단으로 처음으로 배럴당 100달러 돌파 - Reuters"
     },
     {
       "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUR0RjdfMVp0QlRfby1EcmdQSzZvZ2hzT0xJZVdKUjF2QlRhS2p1WGU0dC1xalpqSVp0dV9HYURDTF9yNnVHLTRwZktnZlZXVjNsaWRwTGpIYWdkYUNjV2FaREZmbEpJeUcwZU4zaUVhQm4zQ3VrcDNrWjFxdHQwRXk4SzZwUU9yLWFpMUhrSlJTTFZvNUxOREc4OXY?oc=5",
       "datetime": 1786983504,
       "headlineKo": "FTSE 100은 소비재 주가 하락으로 인해 6일 연속 하락했습니다. - Reuters"
-    },
-    {
-      "headline": "Cramer's advice on Apple after analyst upgrade. Plus, why 2 chipmakers are up big",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/cramers-advice-on-apple-after-upgrade-plus-why-2-semis-are-up-big.html",
-      "datetime": 1786983146,
-      "headlineKo": "분석가 업그레이드 후 Apple에 대한 Cramer의 조언. 게다가 2개의 칩 제조사가 크게 성장하는 이유"
-    },
-    {
-      "headline": "Gold shows early signs of reclaiming safe-haven appeal after Iran war selloff - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
-      "datetime": 1786981547,
-      "headlineKo": "금은 이란 전쟁 매각 이후 안전 피난처 매력을 되찾을 초기 조짐을 보여줍니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787005668.6163075,
-  "_updated_label": "2026-08-18 07:28"
+  "_fetched_at": 1787009383.4311125,
+  "_updated_label": "2026-08-18 08:30"
 };
