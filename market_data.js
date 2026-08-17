@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.119999885559082,
+      "current": 15.199999809265137,
       "prevClose": 14.25,
-      "changeAbs": 0.869999885559082,
-      "changePct": 6.105262354800576,
-      "pctRank": 22.372611464968152,
+      "changeAbs": 0.9499998092651367,
+      "changePct": 6.666665328176398,
+      "pctRank": 22.85031847133758,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.304346998140325,
-      "ma20": 16.454999876022338,
-      "ma60": 16.993499946594238,
-      "chg1m": -3.65000057220459,
-      "chg3m": -2.6999998092651367,
-      "chg1mPct": -19.445926921620675,
-      "chg3mPct": -15.151514340650332,
+      "drawdown1y": -51.04669828422161,
+      "ma20": 16.45899987220764,
+      "ma60": 16.994833278656007,
+      "chg1m": -3.570000648498535,
+      "chg3m": -2.619999885559082,
+      "chg1mPct": -19.01971529799248,
+      "chg3mPct": -14.702580978831643,
       "lastDate": "2026-08-17",
       "bars": 1256,
       "symbol": "^VIX",
@@ -49,21 +49,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.697000026702881,
+      "current": 3.7029998302459717,
       "prevClose": 3.697000026702881,
-      "changeAbs": 0.0,
-      "changePct": 0.0,
-      "pctRank": 35.61752988047809,
+      "changeAbs": 0.00599980354309082,
+      "changePct": 0.16228843656356864,
+      "pctRank": 36.09561752988048,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
       "high1y": 4.127999782562256,
-      "drawdown1y": -10.44088610857079,
-      "ma20": 3.725149989128113,
-      "ma60": 3.678933334350586,
-      "chg1m": -0.009999990463256836,
-      "chg3m": 0.10899996757507324,
-      "chg1mPct": -0.26975965516454065,
-      "chg3mPct": 3.0379031710933027,
+      "drawdown1y": -10.295542022836202,
+      "ma20": 3.7254499793052673,
+      "ma60": 3.679033331076304,
+      "chg1m": -0.004000186920166016,
+      "chg3m": 0.11499977111816406,
+      "chg1mPct": -0.10790900732781783,
+      "chg3mPct": 3.2051217732175536,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^IRX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.7300033569336,
+      "current": 84.36000061035156,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.3300018310546875,
-      "changePct": 2.827672072703684,
-      "pctRank": 75.17899761336515,
+      "changeAbs": 1.9599990844726562,
+      "changePct": 2.378639621574631,
+      "pctRank": 74.7016706443914,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.98450141989824,
-      "ma20": 82.58049964904785,
-      "ma60": 81.60016657511393,
-      "chg1m": 2.2400054931640625,
-      "chg3m": -20.68999481201172,
-      "chg1mPct": 2.7154873938333512,
-      "chg3mPct": -19.62625229688781,
+      "drawdown1y": -25.3120824350191,
+      "ma20": 82.56199951171875,
+      "ma60": 81.5939998626709,
+      "chg1m": 1.8700027465820312,
+      "chg3m": -21.05999755859375,
+      "chg1mPct": 2.266944835748815,
+      "chg3mPct": -19.97723195255909,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.60800170898438,
+      "current": 99.62100219726562,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.0619964599609375,
-      "changePct": -0.06220172679831958,
-      "pctRank": 32.4582338902148,
+      "changeAbs": -0.0489959716796875,
+      "changePct": -0.04915819462205371,
+      "pctRank": 32.617342879872716,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9702774228339437,
-      "ma20": 100.335400390625,
-      "ma60": 100.33513361612955,
-      "chg1m": -1.141998291015625,
-      "chg3m": 0.33800506591796875,
-      "chg1mPct": -1.1334970630428038,
-      "chg3mPct": 0.3404906591598812,
+      "drawdown1y": -1.9574829260293414,
+      "ma20": 100.33605041503907,
+      "ma60": 100.33535029093424,
+      "chg1m": -1.128997802734375,
+      "chg3m": 0.35100555419921875,
+      "chg1mPct": -1.1205933525899503,
+      "chg3mPct": 0.3535867493390663,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4467.60009765625,
+      "current": 4462.2001953125,
       "prevClose": 4380.39990234375,
-      "changeAbs": 87.2001953125,
-      "changePct": 1.9906902852829305,
+      "changeAbs": 81.80029296875,
+      "changePct": 1.86741609881286,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.997289040122077,
-      "ma20": 4197.490002441406,
-      "ma60": 4213.961669921875,
-      "chg1m": 454.900146484375,
-      "chg3m": -88.19970703125,
-      "chg1mPct": 11.336510380037891,
-      "chg3mPct": -1.9359873307097601,
+      "drawdown1y": -16.09882150181926,
+      "ma20": 4197.220007324218,
+      "ma60": 4213.871671549479,
+      "chg1m": 449.500244140625,
+      "chg3m": -93.599609375,
+      "chg1mPct": 11.201940080502462,
+      "chg3mPct": -2.054515417439866,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -141,21 +141,21 @@ const MARKET_DATA = {
       "digits": 0
     },
     "us30y": {
-      "current": 5.310999870300293,
+      "current": 5.309000015258789,
       "prevClose": 5.264999866485596,
-      "changeAbs": 0.046000003814697266,
-      "changePct": 0.8736943016373221,
+      "changeAbs": 0.04400014877319336,
+      "changePct": 0.8357103492685101,
       "pctRank": 99.9203187250996,
       "min5y": 1.6779999732971191,
-      "max5y": 5.310999870300293,
-      "high1y": 5.310999870300293,
+      "max5y": 5.309000015258789,
+      "high1y": 5.309000015258789,
       "drawdown1y": 0.0,
-      "ma20": 5.199550008773803,
-      "ma60": 5.0629500389099125,
-      "chg1m": 0.24699974060058594,
-      "chg3m": 0.1830000877380371,
-      "chg1mPct": 4.877561893254393,
-      "chg3mPct": 3.5686446079878595,
+      "ma20": 5.1994500160217285,
+      "ma60": 5.062916707992554,
+      "chg1m": 0.24499988555908203,
+      "chg3m": 0.1810002326965332,
+      "chg1mPct": 4.838070286021308,
+      "chg3mPct": 3.5296458730755766,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^TYX",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 53464.5390625,
+      "current": 53511.078125,
       "prevClose": 53732.41015625,
-      "changeAbs": -267.87109375,
-      "changePct": -0.4985279703088882,
+      "changeAbs": -221.33203125,
+      "changePct": -0.4119153237429371,
       "pctRank": 99.20318725099602,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -1.6275921550306771,
-      "ma20": 53072.861328125,
-      "ma60": 52122.9798828125,
-      "chg1m": 1318.1171875,
-      "chg3m": 3938.3671875,
-      "chg1mPct": 2.5277231689254807,
-      "chg3mPct": 7.952092880184877,
+      "drawdown1y": -1.54196232042908,
+      "ma20": 53075.18828125,
+      "ma60": 52123.755533854164,
+      "chg1m": 1364.65625,
+      "chg3m": 3984.90625,
+      "chg1mPct": 2.6169700641612814,
+      "chg3mPct": 8.046061504728403,
       "lastDate": "2026-08-17",
       "bars": 1255,
       "symbol": "^DJI",
@@ -187,22 +187,22 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0269999504089355,
+  "yieldSpread": 1.0210001468658447,
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.232725969788433,
-        "ret3m": -0.1838089472152027,
-        "ret6m": 10.918520646817509,
-        "ret1y": 3.9666363102335067,
+        "ret1m": 6.580797305539465,
+        "ret3m": 0.1432386234101024,
+        "ret6m": 11.281944980407953,
+        "ret1y": 4.3072828072869385,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 9.732299812850687,
-        "ret3m": 17.316753019145704,
-        "ret6m": 84.43136501294968,
-        "ret1y": 243.93062838070466,
+        "ret1m": 9.231405425640782,
+        "ret3m": 16.781237922741067,
+        "ret6m": 83.58949223968236,
+        "ret1y": 242.36069025273977,
         "winRate": 71.5,
         "count": 15
       }
@@ -211,19 +211,47 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.17175848552765371,
-    "corrPctRank": 1.0878661087866108,
+    "corr60": 0.17468308667920243,
+    "corrPctRank": 1.2552301255230125,
     "corrMin5y": 0.11496792019743005,
     "corrMedian5y": 0.7115782038222396,
     "corrMax5y": 0.9346528705205663
   },
   "news": [
     {
-      "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - reuters.com",
+      "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
+      "datetime": 1786992636,
+      "headlineKo": "디즈니의 새로운 공원 사장은 열성팬을 중심으로 투자 전략을 설명합니다."
+    },
+    {
+      "headline": "Eli Lilly and J&J bounce on new data, as software stocks give up last week's gains",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/17/eli-lilly-and-jj-bounce-on-new-data-as-software-gives-up-gains.html",
+      "datetime": 1786992174,
+      "headlineKo": "소프트웨어 주식이 지난주 상승세를 포기함에 따라 Eli Lilly와 J&J는 새로운 데이터에 반등했습니다."
+    },
+    {
+      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
+      "datetime": 1786990672,
+      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
+    },
+    {
+      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
+      "datetime": 1786989825,
+      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
+    },
+    {
+      "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUR0RjdfMVp0QlRfby1EcmdQSzZvZ2hzT0xJZVdKUjF2QlRhS2p1WGU0dC1xalpqSVp0dV9HYURDTF9yNnVHLTRwZktnZlZXVjNsaWRwTGpIYWdkYUNjV2FaREZmbEpJeUcwZU4zaUVhQm4zQ3VrcDNrWjFxdHQwRXk4SzZwUU9yLWFpMUhrSlJTTFZvNUxOREc4OXY?oc=5",
       "datetime": 1786983504,
-      "headlineKo": "FTSE 100은 소비재 주가 하락으로 인해 6일 연속 하락했습니다. - reuters.com"
+      "headlineKo": "FTSE 100은 소비재 주가 하락으로 인해 6일 연속 하락했습니다. - Reuters"
     },
     {
       "headline": "Cramer's advice on Apple after analyst upgrade. Plus, why 2 chipmakers are up big",
@@ -233,32 +261,39 @@ const MARKET_DATA = {
       "headlineKo": "분석가 업그레이드 후 Apple에 대한 Cramer의 조언. 게다가 2개의 칩 제조사가 크게 성장하는 이유"
     },
     {
-      "headline": "Wall St mixed as Middle East tensions eclipse tech strength - reuters.com",
+      "headline": "Wall St mixed as Middle East tensions eclipse tech strength - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
       "datetime": 1786982519,
-      "headlineKo": "중동 긴장이 기술 강점을 약화시키면서 월스트리트가 뒤섞였습니다 - reuters.com"
+      "headlineKo": "중동 긴장으로 뒤섞인 월스트리트가 기술 강점을 잠식하다 - 로이터 통신"
     },
     {
-      "headline": "Gold shows early signs of reclaiming safe-haven appeal after Iran war selloff - reuters.com",
+      "headline": "Gold shows early signs of reclaiming safe-haven appeal after Iran war selloff - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY3R1eTV5bGh0UnI2d3NXVXBfRVZLQ2ltUUlJS3ozTTg5c0dySDZMN1VGSXZaT1RDSVB2S2ZVc2xtaWFmbGgyUlF5YTVteFZNNU43VHBBVHZDbXNKcFZlWlNFME94M2xUNTU4T3VGa2F4N214dEprVXF6bVJucm50TTVQTjJPVzk3TEhsVDZ4RTUxcmw4V1pHN2Zwbk84aXdRdkZpSHBpSTZmU2xEaGx1YzFXVFF2eThra3c2bi1jZw?oc=5",
       "datetime": 1786981547,
-      "headlineKo": "금은 이란 전쟁 매각 이후 안전자산 매력을 되찾을 초기 조짐을 보여줌 - reuters.com"
+      "headlineKo": "금은 이란 전쟁 매각 이후 안전 피난처 매력을 되찾을 초기 조짐을 보여줍니다 - Reuters"
     },
     {
-      "headline": "Iran threatens to go on offensive in Strait of Hormuz if diplomacy with US fails - reuters.com",
+      "headline": "Kushner, Netanyahu agree on path forward for Gaza, Board of Peace official says - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
-      "datetime": 1786980574,
-      "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdTFvcy1GOW8tU0NlQkU1UEREal9sZVJ0ZmZqTGpidDZ0emx6X18wT2RtbF8wVl9GR3hjZFFQWEtYT2xPc1lUa2ZCZ1oxYlJKSnJobDh4OGRtalVsdW52YnNrYjRhZkZpN0s1MFUxMjMwSUF1RldMdkJmbEtFbkdSMnRMbUtDbXZxejRERm8tVk1ta1UxdlNma3BQZGk3NnBTcHZGVWpPb2hHczRUX0xubm1PMmFRM25oUkhJT2JR?oc=5",
+      "datetime": 1786980609,
+      "headlineKo": "쿠슈너와 네타냐후는 가자 지구를 위한 진전에 동의한다고 평화위원회 관계자가 밝혔습니다. - 로이터 통신"
     },
     {
-      "headline": "Trump says Iran should surrender, threatens to bomb Oman - reuters.com",
+      "headline": "Israeli flags on Lebanon road violate UN resolution, UNIFIL says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHFhSUE0cmdLNk9NZUN6OVNHb1VTOTVtc3gyZ1d1SzZUbWVQRFVjTng5ZHV0bXZ4cC1UYkhlbGd2REsxdTUxV2hjZEJwZlFBMVA3MDhmR2tuMmRDbThnTVkxTm5ETzBWNFBIQ1F2aHQ4Q2t5SC1RbkE2YWticzhvNi1fbHVTRXpXYUhiRU9qSEFYSm1TQWRROWRrN3F1RUZEVlRFdHJ4OVJReFJNdnhkTXN6NW4?oc=5",
+      "datetime": 1786978857,
+      "headlineKo": "UNIFIL은 레바논 도로에 이스라엘 국기가 유엔 결의안을 위반했다고 밝혔습니다."
+    },
+    {
+      "headline": "Trump says Iran should surrender, threatens to bomb Oman - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
       "datetime": 1786977965,
-      "headlineKo": "트럼프, 이란이 항복해야 한다고 말하며 오만을 폭격하겠다고 위협 - reuters.com"
+      "headlineKo": "트럼프, 이란이 항복해야 한다고 말하며 오만을 폭격하겠다고 위협 - 로이터"
     },
     {
       "headline": "Supreme Court again rejects Trump bid to overturn E. Jean Carroll verdict",
@@ -266,47 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/17/trump-supreme-court-e-jean-carroll.html",
       "datetime": 1786975928,
       "headlineKo": "대법원은 E. Jean Carroll의 판결을 뒤집으려는 트럼프의 제안을 다시 거부했습니다."
-    },
-    {
-      "headline": "Nvidia backs financing for OpenAI data center in Ohio",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-      "datetime": 1786975816,
-      "headlineKo": "Nvidia, 오하이오의 OpenAI 데이터 센터에 대한 자금 조달 지원"
-    },
-    {
-      "headline": "Iran says it will escalate if US does not honour deal within weeks - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZ19NRUJoZTZ6N2V4Q2RUejU0UTRHc2dqa0ltemFkMUpKSkNEVmlPTmZxcUg2VkxycU1TN1l6STVpeXFvTTJHNlR4S3lnVTBkVmVUVExtUm1faHVrR0lmdWJyc0kzSjVBU0xBWEc4TFBlMmlvLU1NcHg5aDNBaDJUcWpETTJldHRoQzdhT2FUa3dINjVDd2J1UGFNcVd0VEp6cW43T3AxbmNjbzBfc3JCRWxjWGZEVWtFZEIwdQ?oc=5",
-      "datetime": 1786974121,
-      "headlineKo": "이란, 미국이 몇 주 안에 합의를 이행하지 않으면 격화할 것이라고 밝혔습니다 - reuters.com"
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Monday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/jim-cramers-top-10-things-to-watch-in-the-stock-market-monday.html",
-      "datetime": 1786973365,
-      "headlineKo": "짐 크레이머(Jim Cramer)가 월요일 주식 시장에서 주목해야 할 10가지 항목"
-    },
-    {
-      "headline": "US awards Raytheon $22.9 billion seven-year deal to boost Tomahawk output - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ0hQT00ybHQzbWM2bDJBam45dVpTWmdscVpRM2t1YnItV0RXbmNPUW14Qml5dVNTdGtvSUx0VVk5Sk41ZFdVdjhuSmt5eFRHVzFkc1lsUndIYU5Jd05FcXlmaHhLaFpvR0RKVEhXeFFwczhZUVJtaENuWXhId0Y2NWN6VkdnRXV4dDdrWG9tLU4wcVZzWUNvYjVQR2ZRSTRFdFYxQWNtdGRzczRXell5UkUzOWh5dkhrYmh1cFlFa3M2TXU0dnZ0Qw?oc=5",
-      "datetime": 1786973048,
-      "headlineKo": "미국, 토마호크 생산량 증대를 위해 레이시언과 7년 229억 달러 계약 체결 - reuters.com"
-    },
-    {
-      "headline": "Most Gulf markets ease as Iran tensions, Hormuz shipping disruptions weigh - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNU9NOVk5OEQ2MTFBZ3MyTlFITGJvOFF2R08wR1hyanE3TlJEZ3VlWjk2M191ZGZkc1UyOTdCUEloLXdDZnhnLVFlUkIwY3I4RjZuV3pLMW5BRFVsMjNTWmxDb0tiNU5xYmVDNTVkWlgxOTRIc2tnejNQX0d6OUdNOHJ1T2lKeXVlU08wdmtpU2F1U3g5TmVPUGRkRk1xdnJIcjdiQW9iUzJxaVZyVm5uNFVENDdraW9na29LMFhsbl9nQQ?oc=5",
-      "datetime": 1786972352,
-      "headlineKo": "이란 긴장으로 대부분의 걸프 시장은 완화되고 호르무즈 해운 중단은 부담 - reuters.com"
     }
   ],
   "fgi": {
-    "score": 60.9142857142857,
+    "score": 60.8285714285714,
     "rating": "greed"
   },
-  "_fetched_at": 1786990873.5020275,
-  "_updated_label": "2026-08-18 03:21"
+  "_fetched_at": 1786994516.547626,
+  "_updated_label": "2026-08-18 04:22"
 };
