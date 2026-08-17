@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.72000122070312,
+      "current": 84.94999694824219,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.3199996948242188,
-      "changePct": 2.815533558085663,
-      "pctRank": 75.17899761336515,
+      "changeAbs": 2.5499954223632812,
+      "changePct": 3.094654581483738,
+      "pctRank": 75.33810660302306,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.99335678643274,
-      "ma20": 82.57999954223632,
-      "ma60": 81.59999987284343,
-      "chg1m": 2.2300033569335938,
-      "chg3m": -20.699996948242188,
-      "chg1mPct": 2.703362122298023,
-      "chg3mPct": -19.63574018951179,
+      "drawdown1y": -24.78973063879818,
+      "ma20": 82.59149932861328,
+      "ma60": 81.60383313496908,
+      "chg1m": 2.4599990844726562,
+      "chg3m": -20.470001220703125,
+      "chg1mPct": 2.9821786255047456,
+      "chg3mPct": -19.417569319151433,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.59400177001953,
+      "current": 99.56300354003906,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.07599639892578125,
-      "changePct": -0.07624801878391108,
-      "pctRank": 32.060461416070005,
+      "changeAbs": -0.10699462890625,
+      "changePct": -0.10734888218307088,
+      "pctRank": 31.901352426412092,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9840555341229416,
-      "ma20": 100.33470039367675,
-      "ma60": 100.33490028381348,
-      "chg1m": -1.1559982299804688,
-      "chg3m": 0.324005126953125,
-      "chg1mPct": -1.1473927840997207,
-      "chg3mPct": 0.3263877686206766,
+      "drawdown1y": -2.0145626001541017,
+      "ma20": 100.33315048217773,
+      "ma60": 100.33438364664714,
+      "chg1m": -1.1869964599609375,
+      "chg3m": 0.29300689697265625,
+      "chg1mPct": -1.1781602580257444,
+      "chg3mPct": 0.2951615864622088,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4474.10009765625,
+      "current": 4473.10009765625,
       "prevClose": 4380.39990234375,
-      "changeAbs": 93.7001953125,
-      "changePct": 2.1390785636344605,
+      "changeAbs": 92.7001953125,
+      "changePct": 2.116249597734225,
       "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.87507182969502,
-      "ma20": 4197.815002441406,
-      "ma60": 4214.070003255209,
-      "chg1m": 461.400146484375,
-      "chg3m": -81.69970703125,
-      "chg1mPct": 11.498496077426049,
-      "chg3mPct": -1.7933120535100884,
+      "drawdown1y": -15.893874477453029,
+      "ma20": 4197.765002441406,
+      "ma60": 4214.053336588541,
+      "chg1m": 460.400146484375,
+      "chg3m": -82.69970703125,
+      "chg1mPct": 11.473575200904794,
+      "chg3mPct": -1.8152620961561918,
       "lastDate": "2026-08-17",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
+      "datetime": 1786997885,
+      "headlineKo": "트럼프, 이란은 필요하다고 생각하는 협상 안 할 것이라며 오만을 폭격하겠다고 위협 - 로이터"
+    },
+    {
+      "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
+      "datetime": 1786997612,
+      "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
+    },
+    {
+      "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
+      "datetime": 1786997350,
+      "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - Reuters"
+    },
+    {
       "headline": "Pictures of the Day | August 17, 2026 - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
@@ -245,27 +266,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
       "datetime": 1786994823,
       "headlineKo": "이란, 미국과 외교 실패하면 호르무즈 해협 공격 위협 - 로이터"
-    },
-    {
-      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
-      "datetime": 1786993372,
-      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
-    },
-    {
-      "headline": "Wall Street indexes slip with Iran, retail results in focus - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
-      "datetime": 1786993136,
-      "headlineKo": "월스트리트 지수는 이란과 함께 하락하고 소매 결과에 초점이 맞춰져 있음 - Reuters"
-    },
-    {
-      "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
-      "datetime": 1786992652,
-      "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - Reuters"
     },
     {
       "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
@@ -307,6 +307,6 @@ const MARKET_DATA = {
     "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1786998389.9906483,
-  "_updated_label": "2026-08-18 05:26"
+  "_fetched_at": 1787002039.5170727,
+  "_updated_label": "2026-08-18 06:27"
 };
