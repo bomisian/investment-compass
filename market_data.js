@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.949999809265137,
+      "current": 15.859999656677246,
       "prevClose": 14.25,
-      "changeAbs": 1.6999998092651367,
-      "changePct": 11.92982322291324,
-      "pctRank": 29.322709163346612,
+      "changeAbs": 1.609999656677246,
+      "changePct": 11.298243204752605,
+      "pctRank": 28.52589641434263,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.631239287672535,
-      "ma20": 16.496499872207643,
-      "ma60": 17.007333278656006,
-      "chg1m": -2.820000648498535,
-      "chg3m": -1.869999885559082,
-      "chg1mPct": -15.023977515845626,
-      "chg3mPct": -10.493826698000559,
+      "drawdown1y": -48.92109485868481,
+      "ma20": 16.491999864578247,
+      "ma60": 17.005833276112874,
+      "chg1m": -2.910000801086426,
+      "chg3m": -1.9600000381469727,
+      "chg1mPct": -15.503466862638183,
+      "chg3mPct": -10.998878067973541,
       "lastDate": "2026-08-18",
       "bars": 1255,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.08000183105469,
+      "current": 83.9000015258789,
       "prevClose": 84.5,
-      "changeAbs": -0.4199981689453125,
-      "changePct": -0.4970392531897189,
-      "pctRank": 74.46300715990454,
+      "changeAbs": -0.5999984741210938,
+      "changePct": -0.7100573658237795,
+      "pctRank": 74.30389817024661,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.559978660660597,
-      "ma20": 82.52749938964844,
-      "ma60": 81.3918332417806,
-      "chg1m": 0.8499984741210938,
-      "chg3m": -24.580001831054688,
-      "chg1mPct": 1.0212644957802748,
-      "chg3mPct": -22.62102061719876,
+      "drawdown1y": -25.719341484953784,
+      "ma20": 82.51849937438965,
+      "ma60": 81.38883323669434,
+      "chg1m": 0.6699981689453125,
+      "chg3m": -24.76000213623047,
+      "chg1mPct": 0.8049959653035353,
+      "chg3mPct": -22.786675227091386,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.63800048828125,
+      "current": 99.63999938964844,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.0319976806640625,
-      "changePct": -0.0321036232084854,
+      "changeAbs": -0.029998779296875,
+      "changePct": -0.03009810358983419,
       "pctRank": 32.64331210191082,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.940753971287168,
-      "ma20": 100.33690032958984,
-      "ma60": 100.3356335957845,
-      "chg1m": -1.11199951171875,
-      "chg3m": 0.36800384521484375,
-      "chg1mPct": -1.1037215997208436,
-      "chg3mPct": 0.37071004095832943,
+      "drawdown1y": -1.938786742318388,
+      "ma20": 100.33700027465821,
+      "ma60": 100.33566691080729,
+      "chg1m": -1.1100006103515625,
+      "chg3m": 0.37000274658203125,
+      "chg1mPct": -1.101737578512717,
+      "chg3mPct": 0.37272364167836847,
       "lastDate": "2026-08-18",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4443.89990234375,
+      "current": 4454.7001953125,
       "prevClose": 4417.7998046875,
-      "changeAbs": 26.10009765625,
-      "changePct": 0.5907940334588391,
-      "pctRank": 91.64677804295943,
+      "changeAbs": 36.900390625,
+      "changePct": 0.8352662469188146,
+      "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.442915464379038,
-      "ma20": 4213.639978027344,
-      "ma60": 4211.533333333334,
-      "chg1m": 433.599853515625,
-      "chg3m": -108.60009765625,
-      "chg1mPct": 10.812154907020734,
-      "chg3mPct": -2.3855046162822626,
+      "drawdown1y": -16.239841360004327,
+      "ma20": 4214.179992675781,
+      "ma60": 4211.7133382161455,
+      "chg1m": 444.400146484375,
+      "chg3m": -97.7998046875,
+      "chg1mPct": 11.08146874481963,
+      "chg3mPct": -2.1482658909939594,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,11 +226,25 @@ const MARKET_DATA = {
       "headlineKo": "프리미어 리그 클럽의 손실이 급증하더라도 투자자들이 축구에서 이익을 얻는 방법"
     },
     {
-      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
+      "headline": "Eight Israeli airstrikes hit Syria's Abu al-Duhur airbase, no casualties, state TV reports - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
-      "datetime": 1787037219,
-      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdGU5SDV5WlhteEdoT2hlZTBkZzY2N1hnYU5sZHF1N3FqTGc1UEd1Mm9MTjk5V24telp3cWVsc08yU3dqU3lJemxZaGhXb0t4UUNBdkpXTFFUckwzRDZ2cDFOenpsN013aW5RRDVWSUxHRHpkVTBzeTV6NmRRR2NhWGtoeEpjLURMTEY5bjlyck5zLXQ5cU9KVTRwNDFQUjZuWU9lRU1vRnBORm5zdi1zTVpIb3VqY0FLRjZZUzBQYktDOEs3Rl9nOHBOZF9zQQ?oc=5",
+      "datetime": 1787041124,
+      "headlineKo": "이스라엘, 시리아 아부 알 두후르 공군기지 8차례 공습, 사상자 없음, 국영 TV 보도 - 로이터"
+    },
+    {
+      "headline": "China's state shippers deploy oil tankers outside Gulf, avoid chokepoints, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWW02TjlHQUZwRXJZd29PczBMRFpLUkhMbk9oVWNnSXg2X0NLOVhxUF9YQTJvRENzcGo4WnBsbnFEZGNlZ1dHcm1KWnhqSjllU2RjTXBOd3VvQUpoN0dDeTYtSXYyNFhWWXdXLTR3M0c0Y0ZvSkFSSlhLT29iZk5DQ1BuVno4eERCSnVmQVluRElScUpxV2R5V2FKYVVBUVRIQnBxZkFSZnp2RUN2eU5OTnZ3aXZEU3ZQZTNqZ29qNlJ0b0l5ajdZYWNtaw?oc=5",
+      "datetime": 1787039978,
+      "headlineKo": "중국 국영 화주들이 걸프만 외곽에 유조선을 배치하고 관문을 피했다고 소식통이 전했습니다."
+    },
+    {
+      "headline": "European shares slip as oil prices and bond yields surge on Middle East fears - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQWJYWndUWEJjOWp1RXhHeWpQOFdFaTVhRFkzY3Rhc2pCYXJKcDRJWUlWeXlUZnhISjNiaXJVN0doZU9CdVZGcGhNRW5aUno1Vzc0U0xFNGpIbnRTV3BoWWtPNkE5ZXNrN0FDSlBOLVFrbHFDYjk5T0RJTGhGR2VtTmNxRzF1RUFNT3hJZnhCazgxdl96UFlJTzFnTE5CNkl1anFmYThZeXhodF9tX1MzbU1wRmZneU1EN3c?oc=5",
+      "datetime": 1787037447,
+      "headlineKo": "중동 우려로 유가와 채권 수익률 급등으로 유럽 증시 하락 - Reuters"
     },
     {
       "headline": "US 30-year yields hit highest level since 2007 as war, oil worries fester - Reuters",
@@ -275,38 +289,24 @@ const MARKET_DATA = {
       "headlineKo": "호르무즈 해협에서 선박이 알 수 없는 발사체에 충돌해 승무원 사상자가 보고됐다고 UKMTO가 밝혔습니다."
     },
     {
+      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
+      "datetime": 1787023723,
+      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
+    },
+    {
       "headline": "Hormuz crossings rise slightly from weekend, remain in single digits, data shows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmFuNHJUd0NQNEY5WUNVLWlIUnZwb2F5VVJxZkpiX1hCRjRqRk44UjRkTjE0STF4aUlqRkVNTElObWJpVmJJQkZnR0V4RzllVko3bHJCTDM3VU9yQTdxd1picWtid0FaRkJmcEQzTzBpaEdjenlpc0Fnd0xDdGE1Z0FYVENRVjlEb3hUbFVCUVJ3VG9SVTFwSEVabWRXT0ZGdml1R2Yya3NZWlBGV2xVT1JXRDVnR0FpSVhLVERkb2JqQQ?oc=5",
       "datetime": 1787022180,
       "headlineKo": "호르무즈 횡단 건수는 주말보다 소폭 증가해 한 자릿수 유지, 데이터 표시 - 로이터 통신"
-    },
-    {
-      "headline": "Indian shares dip as oil tops $91, US-Iran ceasefire expires - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcmdBR0dqOUx3OEJLUy1ZbDhBWFo2S2M1STJjYXk5cUlNZW1MTFlLdkhDc3FNOEhBYjVabjF3SE5QUE5ERnBPQWw1dTVLb0V2WDc5bDM4MURRc1FSVWJfMnFIT0doSDFMZHV1bTQxbU9tX3BrenFsdUhHSDBSQ2NnVll5OFBVTUN5M0dhS2psTlQ3MXIzSWptYm5OM0RrWWlpU0h2b2VKUUxkaEdqT2Fyc2VwVFA?oc=5",
-      "datetime": 1787019660,
-      "headlineKo": "유가가 91달러를 넘고 미국-이란 휴전이 만료되면서 인도 주가 하락 - 로이터"
-    },
-    {
-      "headline": "Dollar feeble as rate hike bets dwindle, Iran war worries jolt bonds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
-      "datetime": 1787017860,
-      "headlineKo": "금리 인상 베팅 감소로 달러 약세, 이란 전쟁 우려로 채권 충격 - Reuters"
-    },
-    {
-      "headline": "Bonds, stocks jolted as Middle East tensions shatter market calm - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IRXVLRUlydV9LUjVfX3hOQ0hKc2d0aE5MS0hqLXBrbTg2QXNhcEc2MnlhOU15dkxXSDV4V2hTM2lCR19Gc3BUWUpJYk0za3VXTTFTYTlDdXk3cjhoa19SdFJxcWk3N01rSGkwSmF3MUlMcm9BU09ZMW5QNA?oc=5",
-      "datetime": 1787015760,
-      "headlineKo": "중동 긴장으로 시장 안정이 무너지면서 채권과 주식이 흔들렸다 - 로이터"
     }
   ],
   "fgi": {
     "score": 59.4857142857143,
     "rating": "greed"
   },
-  "_fetched_at": 1787046816.5157256,
-  "_updated_label": "2026-08-18 18:54"
+  "_fetched_at": 1787050448.6166677,
+  "_updated_label": "2026-08-18 19:54"
 };
