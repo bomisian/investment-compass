@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.680000305175781,
+      "current": 15.84000015258789,
       "prevClose": 15.1899995803833,
-      "changeAbs": 0.49000072479248047,
-      "changePct": 3.2258113122351775,
-      "pctRank": 26.59235668789809,
+      "changeAbs": 0.6500005722045898,
+      "changePct": 4.2791348924328805,
+      "pctRank": 28.18471337579618,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.50080292929443,
-      "ma20": 16.389999914169312,
-      "ma60": 16.97766660054525,
-      "chg1m": -2.969999313354492,
-      "chg3m": -2.3799991607666016,
-      "chg1mPct": -15.924929619856718,
-      "chg3mPct": -13.178290316424501,
+      "drawdown1y": -48.98550550145701,
+      "ma20": 16.397999906539916,
+      "ma60": 16.980333264668783,
+      "chg1m": -2.809999465942383,
+      "chg3m": -2.219999313354492,
+      "chg1mPct": -15.06702157328959,
+      "chg3mPct": -12.292355365463745,
       "lastDate": "2026-08-18",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.13999938964844,
+      "current": 84.4800033569336,
       "prevClose": 84.5,
-      "changeAbs": -0.3600006103515625,
-      "changePct": -0.4260362252681213,
-      "pctRank": 74.46300715990454,
+      "changeAbs": -0.01999664306640625,
+      "changePct": -0.023664666350776627,
+      "pctRank": 74.86077963404932,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.506859970784724,
-      "ma20": 82.53049926757812,
-      "ma60": 81.3928332010905,
-      "chg1m": 0.9099960327148438,
-      "chg3m": -24.520004272460938,
-      "chg1mPct": 1.0933509503926209,
-      "chg3mPct": -22.565804754349795,
+      "drawdown1y": -25.2058383006018,
+      "ma20": 82.54749946594238,
+      "ma60": 81.39849993387858,
+      "chg1m": 1.25,
+      "chg3m": -24.18000030517578,
+      "chg1mPct": 1.5018622486885518,
+      "chg3mPct": -22.252898481732284,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.63899993896484,
+      "current": 99.67400360107422,
       "prevClose": 99.63999938964844,
-      "changeAbs": -0.00099945068359375,
-      "changePct": -0.001003061711878716,
-      "pctRank": 32.617342879872716,
+      "changeAbs": 0.03400421142578125,
+      "changePct": 0.03412706908277434,
+      "pctRank": 33.17422434367542,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9397703568027724,
-      "ma20": 100.25995025634765,
-      "ma60": 100.34315020243326,
-      "chg1m": -1.3509979248046875,
-      "chg3m": 0.6689987182617188,
-      "chg1mPct": -1.3377541869315774,
-      "chg3mPct": 0.6759611094374461,
+      "drawdown1y": -1.9053213243265255,
+      "ma20": 100.26170043945312,
+      "ma60": 100.34373359680175,
+      "chg1m": -1.3159942626953125,
+      "chg3m": 0.7040023803710938,
+      "chg1mPct": -1.3030936632660624,
+      "chg3mPct": 0.711329061016346,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4400.5,
+      "current": 4387.60009765625,
       "prevClose": 4417.7998046875,
-      "changeAbs": -17.2998046875,
-      "changePct": -0.3915932240556502,
-      "pctRank": 91.24900556881464,
+      "changeAbs": -30.19970703125,
+      "changePct": -0.6835915697041465,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.25894854088057,
-      "ma20": 4211.469982910156,
-      "ma60": 4210.810001627604,
-      "chg1m": 390.199951171875,
-      "chg3m": -152.0,
-      "chg1mPct": 9.729944054582594,
-      "chg3mPct": -3.3388248215266336,
+      "drawdown1y": -17.50150086076281,
+      "ma20": 4210.824987792968,
+      "ma60": 4210.595003255208,
+      "chg1m": 377.300048828125,
+      "chg3m": -164.89990234375,
+      "chg1mPct": 9.408274798250526,
+      "chg3mPct": -3.622183467188358,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 53343.640625,
+      "current": 53343.3984375,
       "prevClose": 53459.78125,
-      "changeAbs": -116.140625,
-      "changePct": -0.21724859751460357,
+      "changeAbs": -116.3828125,
+      "changePct": -0.2177016249949582,
       "pctRank": 99.12280701754386,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -1.850039979516116,
-      "ma20": 53128.5734375,
-      "ma60": 52173.866927083334,
-      "chg1m": 1504.37890625,
-      "chg3m": 3657.51953125,
-      "chg1mPct": 2.9020068117711517,
-      "chg3mPct": 7.361249883742843,
+      "drawdown1y": -1.8504855938979548,
+      "ma20": 53128.561328125,
+      "ma60": 52173.862890625,
+      "chg1m": 1504.13671875,
+      "chg3m": 3657.27734375,
+      "chg1mPct": 2.9015396224401884,
+      "chg3mPct": 7.36076244883211,
       "lastDate": "2026-08-18",
       "bars": 1254,
       "symbol": "^DJI",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 5.747645442645299,
-        "ret3m": -0.44252449214208234,
-        "ret6m": 10.962977724580348,
-        "ret1y": 3.232976195597259,
+        "ret1m": 5.771082890988843,
+        "ret3m": -0.42045900614792187,
+        "ret6m": 10.987571076494508,
+        "ret1y": 3.255856303582716,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 3.192433306826792,
-        "ret3m": 13.785337096600037,
-        "ret6m": 75.03380979503706,
-        "ret1y": 236.7314173323531,
+        "ret1m": 3.1948204887052745,
+        "ret3m": 13.787969327336814,
+        "ret6m": 75.03785890528161,
+        "ret1y": 236.73920704242786,
         "winRate": 71.5,
         "count": 15
       }
@@ -211,7 +211,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.17575381668902526,
+    "corr60": 0.17552864817331618,
     "corrPctRank": 1.340033500837521,
     "corrMin5y": 0.11496792019743005,
     "corrMedian5y": 0.7115784818334243,
@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Tech selloff pulls Wall Street to two-week lows as bond yields climb - Reuters",
+      "headline": "UAE says two missiles detected earlier were launched from Iran - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVFKQ0k0Vk10ckR0U1JfNHlsLW9nWUtrc09mMUx4UzFzRHJsVk4zYkJQT2NFNHVoVTRyYjE3OTJOcXVtcHFoWGRpQndUTXFnQjFKVGZQM1ZRTkpEeVVPZlF4ZXUydnRUckVmOHU2SEtXU000ZVFhVE8teGhQZFFPbnVFX3dBM1pNa0oxbnFoTmF2bUM3MjFj?oc=5",
+      "datetime": 1787083757,
+      "headlineKo": "UAE는 앞서 탐지된 미사일 두 발이 이란에서 발사됐다고 밝혔습니다."
+    },
+    {
+      "headline": "Tech selloff pulls Wall Street to two-week lows as bond yields climb - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
       "datetime": 1787079522,
-      "headlineKo": "채권수익률이 오르면서 기술주 매각으로 월스트리트가 2주 최저치로 하락 - Reuters"
-    },
-    {
-      "headline": "UAE says Iran launched two missiles at it - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVFKQ0k0Vk10ckR0U1JfNHlsLW9nWUtrc09mMUx4UzFzRHJsVk4zYkJQT2NFNHVoVTRyYjE3OTJOcXVtcHFoWGRpQndUTXFnQjFKVGZQM1ZRTkpEeVVPZlF4ZXUydnRUckVmOHU2SEtXU000ZVFhVE8teGhQZFFPbnVFX3dBM1pNa0oxbnFoTmF2bUM3MjFj?oc=5",
-      "datetime": 1787074069,
-      "headlineKo": "UAE는 이란이 미사일 두 발을 발사했다고 밝혔습니다."
+      "headlineKo": "채권 수익률이 오르면서 기술주 매각으로 월스트리트가 2주 최저치로 하락 - reuters.com"
     },
     {
       "headline": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
@@ -240,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "미국 정부 부채 수익률이 어려운 시기에 급등하고 있다. 이번 움직임의 배경은 다음과 같습니다"
     },
     {
-      "headline": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says - Reuters",
+      "headline": "Hormuz Strait to remain shut until U.S. meets interim deal conditions, Iran says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?oc=5",
       "datetime": 1787070227,
-      "headlineKo": "이란 \"미국이 임시 협정 조건 충족할 때까지 호르무즈 해협 폐쇄할 것\" - 로이터 통신"
+      "headlineKo": "이란 \"미국이 임시 협정 조건 충족할 때까지 호르무즈 해협 폐쇄할 것\""
     },
     {
       "headline": "Cyclospora is changing the American workplace lunch: 'We switched our marketing immediately,' says Saladworks CEO",
@@ -254,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "Cyclospora는 미국 직장 점심을 바꾸고 있습니다. Saladworks CEO는 '우리는 즉시 마케팅을 전환했습니다'라고 말했습니다."
     },
     {
-      "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
+      "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
       "datetime": 1787067165,
       "headlineKo": "트럼프 \"이란과 회담 계획 없다\""
     },
     {
-      "headline": "US housing market remains under pressure in July; factory output rises - Reuters",
+      "headline": "US housing market remains under pressure in July; factory output rises - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
       "datetime": 1787066609,
-      "headlineKo": "미국 주택시장은 7월에도 여전히 압박을 받고 있습니다. 공장 생산량 증가 - 로이터"
+      "headlineKo": "미국 주택시장은 7월에도 여전히 압박을 받고 있습니다. 공장 생산량 증가 - reuters.com"
     },
     {
       "headline": "We're adding to our position in a stock that's been hurt by rekindled Middle East tensions",
@@ -275,18 +275,25 @@ const MARKET_DATA = {
       "headlineKo": "우리는 중동 긴장이 다시 불붙으면서 타격을 입은 주식에서 우리의 포지션을 추가하고 있습니다."
     },
     {
-      "headline": "South African rand flat as pressure on currency persists - Reuters",
+      "headline": "South African rand flat as pressure on currency persists - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQazJZWmZPOTczR2lXTDd1RWpaUnFfSHpnaGkxbTQxM0gyX1FwdFFCWWlXcnVwbWxRaElZQWFrbG95NXpxdzY1cENxTlB2WE9CalFIU1BxS0txajVlSXpmTlVWaXJWR0M0UElYSFhub0ppUFY3WFppNVVYNGJJelR4WFVtSnlOZWxrMXl1M004dmhhcW9NRDJXQVdNZHBpbzhvQzJhR0MxdWV3RXBTSDVoQ0ZIZG1ZTVhuVVNBMw?oc=5",
       "datetime": 1787065660,
-      "headlineKo": "통화 압박이 지속되면서 남아공 랜드화 가치 하락 - Reuters"
+      "headlineKo": "통화 압박이 지속되면서 남아공 랜드화 가치 하락 - reuters.com"
     },
     {
-      "headline": "US yields rise amid Iran worries, broader selloff - Reuters",
+      "headline": "At a Gaza zoo, war takes its toll on the animals - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTFSYk0tRUo4VW10aGlEN2Uxa19MWi1MYkRyX01ZUWJvcFoyOVZyQjctNWdpRlpuMEZ4SlBGNTByS2h3MjBMeWhmUlplSk5Hd29qSW5zUThtQm1XSVJMZk5vSUhhRXA4d3RuQTJsTjFTSERscWJLYlliVUdDeW1yMk5BQXh6cm9HRTVPdi0xUi0xNWM?oc=5",
+      "datetime": 1787065535,
+      "headlineKo": "가자 동물원에서 전쟁이 동물들에게 큰 피해를 입혔습니다 - reuters.com"
+    },
+    {
+      "headline": "US yields rise amid Iran worries, broader selloff - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaERYcG1nTmtNcy1ia2hGekZQaVp4X1Y5RHlab3QydTVDV2tfSVZmQnctVC1iaWFmZ2xJRmN6U3pzNk1wdUx1VlpQWmF6WTZsdmtfdmF3SmpGUWYzMzluM3JEVVBVTmZXU2NfMG9lcjRzUktxWEZNZDZxbTE1Q2FkVmd4Mmd3ekpxeHY3RWtpRC14QmV0SktSNA?oc=5",
       "datetime": 1787065213,
-      "headlineKo": "이란 우려와 광범위한 매도 속에 미국 금리 상승 - Reuters"
+      "headlineKo": "이란 우려와 광범위한 매도 속에 미국 금리 상승 - reuters.com"
     },
     {
       "headline": "Millennials and Gen Z are landing fast-growing, high-paying AI jobs, according to LinkedIn study",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/18/millennials-and-gen-z-are-landing-fast-growing-high-paying-ai-jobs-linkedin-study.html",
       "datetime": 1787064601,
       "headlineKo": "LinkedIn 연구에 따르면 밀레니얼 세대와 Z세대는 빠르게 성장하고 급여가 높은 AI 일자리를 구하고 있습니다."
-    },
-    {
-      "headline": "Trump says no talks are taking place with Iran and none are scheduled - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSHhKekZqU0IxWEQwY2JOckhOeTBJd0FraHloM25INUJuQXNnRk5BM1JzU05UTl9RbDVSUnVkbWVzYlpaaV9lRG16bloxZGxRRXQ5dlV2a1plTkpHXzQ5Smg0Nlk0c3VjdFZLSjdkRHIxLVl6Sm5yamhoVWF3SlowaDVYV01QdGE0emdOd3N6cnFOeW5FbDRsdEExSTNNMFFMOUtYQjFDakRUbWdVbVNoWkNCcm02RkhYcjUw?oc=5",
-      "datetime": 1787063992,
-      "headlineKo": "트럼프 “이란과 어떤 회담도 진행되지 않으며 예정된 것도 없다” - 로이터"
     }
   ],
   "fgi": {
-    "score": 54.4571428571429,
+    "score": 54.4,
     "rating": "neutral"
   },
-  "_fetched_at": 1787083202.5921295,
-  "_updated_label": "2026-08-19 05:00"
+  "_fetched_at": 1787086802.6894312,
+  "_updated_label": "2026-08-19 06:00"
 };
