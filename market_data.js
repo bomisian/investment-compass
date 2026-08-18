@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.81999969482422,
+      "current": 85.0199966430664,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.4199981689453125,
-      "changePct": 2.936890927344555,
-      "pctRank": 75.17899761336515,
+      "changeAbs": 2.6199951171875,
+      "changePct": 3.1796056658623395,
+      "pctRank": 75.33810660302306,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.90482338508443,
-      "ma20": 82.58499946594239,
-      "ma60": 81.60166651407877,
-      "chg1m": 2.3300018310546875,
-      "chg3m": -20.599998474121094,
-      "chg1mPct": 2.8245870910345228,
-      "chg3mPct": -19.540882974696782,
+      "drawdown1y": -24.727756582387805,
+      "ma20": 82.59499931335449,
+      "ma60": 81.60499979654948,
+      "chg1m": 2.529998779296875,
+      "chg3m": -20.400001525878906,
+      "chg1mPct": 3.0670370285075217,
+      "chg3mPct": -19.351168545066766,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.54900360107422,
+      "current": 99.58399963378906,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.12099456787109375,
-      "changePct": -0.12139517416866236,
-      "pctRank": 31.742243436754176,
+      "changeAbs": -0.08599853515625,
+      "changePct": -0.08628327153220015,
+      "pctRank": 31.980906921241047,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0283407114430996,
-      "ma20": 100.33245048522949,
-      "ma60": 100.33415031433105,
-      "chg1m": -1.2009963989257812,
-      "chg3m": 0.2790069580078125,
-      "chg1mPct": -1.1920559790826613,
-      "chg3mPct": 0.2810586959230042,
+      "drawdown1y": -1.9938991874743683,
+      "ma20": 100.33420028686524,
+      "ma60": 100.33473358154296,
+      "chg1m": -1.1660003662109375,
+      "chg3m": 0.31400299072265625,
+      "chg1mPct": -1.1573204627403846,
+      "chg3mPct": 0.31631207952155005,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4489.2998046875,
+      "current": 4456.39990234375,
       "prevClose": 4380.39990234375,
-      "changeAbs": 108.89990234375,
-      "changePct": 2.4860721571444353,
-      "pctRank": 92.442322991249,
+      "changeAbs": 76.0,
+      "changePct": 1.7350014084178915,
+      "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.589277092361487,
-      "ma20": 4198.574987792968,
-      "ma60": 4214.323331705729,
-      "chg1m": 476.599853515625,
-      "chg3m": -66.5,
-      "chg1mPct": 11.87728609951108,
-      "chg3mPct": -1.4596778359658735,
+      "drawdown1y": -16.207882367403926,
+      "ma20": 4196.929992675781,
+      "ma60": 4213.775,
+      "chg1m": 443.699951171875,
+      "chg3m": -99.39990234375,
+      "chg1mPct": 11.05739169564114,
+      "chg3mPct": -2.181832095463822,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Pictures of the Day | August 17, 2026 - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
+      "datetime": 1787017674,
+      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - reuters.com"
+    },
+    {
       "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
@@ -254,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "미국 철도 유니언 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비를 충당하기 위한 비용을 이익으로 전환했습니다. - reuters.com"
     },
     {
-      "headline": "A Palestinian American's journey to his West Bank home under settler siege - reuters.com",
+      "headline": "A Palestinian American's journey to his West Bank home under settler siege - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemVlSmx3ZkppbzZ6WE9oMzdjekdXOEIzUTBldm5NbG1DY3ZaUkUwSjlwdHFFekRjRDl6elZGdlUxQ1F5YmxTUXlDQTM0RHhKbGNMRlJxN3VsWHI2cGZ6Yjc2V2NaenFxRENiS003SmVYZlhReXEzYW9reUd6UWhyQnJZT1RwZFZyUk1rUFVMTk1ZZVR0MXJxdG1TREs5Sy0xOFdYeFFTemVqejJsN1RmQVZEbGlZY3A4NzJSZW5EWQ?oc=5",
       "datetime": 1787000626,
-      "headlineKo": "정착민들의 포위 공격을 받고 서안지구의 집으로 향하는 팔레스타인계 미국인 - reuters.com"
+      "headlineKo": "정착민들의 포위 공격을 받고 서안지구의 집으로 향하는 팔레스타인계 미국인 - Reuters"
     },
     {
       "headline": "Battered by war, Iran’s rulers wary of more economic pain and unrest if US tightens pressure - reuters.com",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
       "datetime": 1786994023,
       "headlineKo": "미국 디젤 균열, 공급 중단으로 처음으로 배럴당 100달러 돌파 - reuters.com"
-    },
-    {
-      "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
-      "datetime": 1786992636,
-      "headlineKo": "디즈니의 새로운 공원 사장은 열성팬을 중심으로 투자 전략을 설명합니다."
     }
   ],
   "fgi": {
     "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787015831.9716475,
-  "_updated_label": "2026-08-18 10:17"
+  "_fetched_at": 1787019480.624228,
+  "_updated_label": "2026-08-18 11:18"
 };
