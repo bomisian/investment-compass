@@ -599,6 +599,18 @@ const longHistoryCache = {}; // ticker -> {closes, dates} (10년치, 최초 조�
 // 분리해서, 주/월/연봉이나 장기(10년) 일봉을 보고 싶을 때만 하락 리스크 프로필과 동일한
 // longHistoryCache/fetchLongHistory()를 재사용해 지연 로딩함(스캔 자체는 여전히 2y로 빠름).
 let chartTimeframe = 'D'; // 'D'|'W'|'M'|'Y' - openDetail()에서 종목 바뀔 때마다 'D'로 리셋
+// ⚠️ 2026-08-19 버그수정(사용자 리포트: WDC 차트가 실제 현재가($536)와 전혀 다른 옛날 가격대
+// ($41~49)를 보여줌 + 최근 매도가 표시도 안 됨): getChartSeries()가 예전엔 longHistoryCache에
+// 데이터가 "존재하기만 하면" 일봉도 장기(10년) 시리즈로 바꿔치기했는데, longHistoryCache는
+// 사용자가 주/월/연봉을 누르지 않아도 01탭을 열자마자 "하락 리스크 프로필" 섹션이 백그라운드로
+// 미리 채워둠(loadLongRiskProfile) - 그래서 그 백그라운드 조회가 끝난 뒤 차트를 탭/확대하면
+// (2y·약 500봉 기준으로 계산된) chartPinnedIdx/chartZoom.center가 10년·약 2500봉짜리 배열에
+// 그대로 재해석되면서 전혀 다른(훨씬 과거) 구간으로 튐 - 정보 패널(_readoutCtx.s, 고정된 500봉
+// 기준)은 안 바뀌어서 날짜/가격은 맞는데 차트만 틀리게 보였던 것. 매도 마커도 화면에 보이는
+// 날짜 구간 안의 것만 그리므로 구간이 옛날로 튀면 최근 매도 표시도 같이 사라짐 - 같은 원인.
+// 이제 "일봉인데 장기 데이터를 쓸지"를 이 플래그로 명시적으로만 결정함(주/월/연봉 버튼을 실제로
+// 눌렀을 때만 true) - 백그라운드 캐시가 채워진 것만으로는 절대 안 바뀜.
+let chartUseLongHistory = false;
 function resampleOHLC(s, mode){
   if(mode==='D') return s;
   const keyOf = d => mode==='Y' ? d.slice(0,4) : mode==='M' ? d.slice(0,7) : isoWeekKey(d);
@@ -636,7 +648,7 @@ function isoWeekKey(dateStr){
 function getChartSeries(ticker){
   const r = results[ticker];
   if(!r) return null;
-  if(chartTimeframe==='D' && !longHistoryCache[ticker]) return r.series; // 기본값(빠름, techSeries 포함)
+  if(chartTimeframe==='D' && !chartUseLongHistory) return r.series; // 기본값(빠름, techSeries 포함)
   const bundle = longHistoryCache[ticker];
   if(!bundle) return null;
   // 장기/리샘플 시리즈는 techSeries·fairValue가 없어서(원래 analyzeTicker 결과에만 있음)
@@ -647,6 +659,7 @@ function getChartSeries(ticker){
 }
 async function setChartTimeframe(ticker, tf){
   chartTimeframe = tf;
+  chartUseLongHistory = true; // 사용자가 일/주/월/연봉 버튼을 직접 눌렀을 때만 장기 데이터로 전환
   chartZoom = { span: null, center: null }; // 타임프레임이 바뀌면 인덱스 의미가 달라지므로 리셋
   chartPinnedIdx = null;
   if(!longHistoryCache[ticker]){
@@ -1875,6 +1888,7 @@ function openDetail(ticker){
   activeTab = '01';
   techViewOpen = false;
   chartTimeframe = 'D';
+  chartUseLongHistory = false;
   chartZoom = { span: null, center: null };
   chartPinnedIdx = null;
   renderTabs(ticker);
@@ -3528,7 +3542,9 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
       ctx.moveTo(cx, py+9); ctx.lineTo(cx-6, py-3); ctx.lineTo(cx+6, py-3);
       ctx.closePath(); ctx.fill();
       ctx.font = 'bold 22px sans-serif';
-      fillTextWithBg(ctx, `매도 $${sale.price.toFixed(0)}`, cx, py-14, 'center');
+      // 2026-08-19: 계좌 2개를 등록할 수 있게 되면서 같은 종목을 여러 계좌에서 매도했을 수 있어
+      // 어느 계좌인지 라벨에 병기함(account 필드 없으면 - 구버전 캐시 등 - 조용히 생략).
+      fillTextWithBg(ctx, `매도 $${sale.price.toFixed(0)}${sale.account?' ('+sale.account+')':''}`, cx, py-14, 'center');
     });
     ctx.restore();
   }

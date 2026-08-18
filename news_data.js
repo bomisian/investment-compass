@@ -25,7 +25,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,732.80 -0.22% Dow Jones 53,479.10 +0.03% Nasdaq 100 29,825.90 -0.58% Russell 2000 3,053.97 -0.13% FTSE 100 10,738.20 +0.02% Nikkei 225 68,051.20 -1.35% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
+            "Skip to content S&P 500 7,710.60 -0.51% Dow Jones 53,455.10 -0.02% Nasdaq 100 29,652.40 -1.16% Russell 2000 3,048.97 -0.29% FTSE 100 10,711.60 -0.23% Nikkei 225 67,173.70 -2.62% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -54,6 +54,51 @@ const NEWS_DATA = {
           "quality": "low"
         },
         "headlineKo": "Jim Cramer는 Nvidia GPU가 자동차보다 '고급 보석에 더 가깝다'고 말합니다. NVDA 투자자에게 이것이 중요한 이유는 다음과 같습니다."
+      },
+      {
+        "headline": "Samsung Has Thrived Without Directly Relying On Nvidia",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d25376564fce97dfc499e4d80f9a750601eb7177dbe4f86a5ea6cc1e4c5b9dd",
+        "datetime": 1787008594,
+        "relevance": 0.4,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Samsung Has Thrived Without Directly Relying On Nvidia",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Samsung Has Thrived Without Directly Relying On Nvidia' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low"
+        },
+        "headlineKo": "삼성은 엔비디아에 직접 의존하지 않고도 성공했다"
       },
       {
         "headline": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
@@ -106,6 +151,25 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=55b16960fc5530a3a894d5bd5a104f289290cc1784c955f3127ce2a195b4dc6b",
         "datetime": 1786973866,
         "relevance": 0.4,
+        "headlineKo": "Anthropic의 수익은 14배 증가합니다. 중국 AI, 엔비디아의 해자를 표적으로 삼다"
+      },
+      {
+        "headline": "Nvidia-OpenAI Deal Isn't 'Circular Financing,' Says Jensen Huang, Sees $600B Compute Opportunity",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=900390f49533645dc9b523a1294ebbc57eb9f6db3d302b21d82033ca7e266810",
+        "datetime": 1786972924,
+        "relevance": 0.4,
+        "headlineKo": "Jensen Huang은 Nvidia-OpenAI 거래는 '순환 금융'이 아니며 6000억 달러 규모의 컴퓨팅 기회를 보고 있다고 말합니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Samsung Has Thrived Without Directly Relying On Nvidia",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=8d25376564fce97dfc499e4d80f9a750601eb7177dbe4f86a5ea6cc1e4c5b9dd",
+        "datetime": 1787008594,
+        "headlineKo": "삼성은 엔비디아에 직접 의존하지 않고도 성공했다",
+        "relevance": 0.4,
         "analysis": {
           "version": 8,
           "importance": "low",
@@ -114,7 +178,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat",
+            "Samsung Has Thrived Without Directly Relying On Nvidia",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -138,31 +202,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Anthropic's Revenue Jumps 14x; Chinese AI Targets Nvidia's Moat' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 NVDA의 사업과 관련된 'Samsung Has Thrived Without Directly Relying On Nvidia' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "NVDA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low"
-        },
-        "headlineKo": "Anthropic의 수익은 14배 증가합니다. 중국 AI, 엔비디아의 해자를 표적으로 삼다"
+        }
       },
-      {
-        "headline": "Nvidia-OpenAI Deal Isn't 'Circular Financing,' Says Jensen Huang, Sees $600B Compute Opportunity",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=900390f49533645dc9b523a1294ebbc57eb9f6db3d302b21d82033ca7e266810",
-        "datetime": 1786972924,
-        "relevance": 0.4,
-        "headlineKo": "Jensen Huang은 Nvidia-OpenAI 거래는 '순환 금융'이 아니며 6000억 달러 규모의 컴퓨팅 기회를 보고 있다고 말합니다."
-      },
-      {
-        "headline": "Dan Loeb Exits Nvidia, Meta And Broadcom — Bets Big On Warner Bros. Discovery",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=39c45bd1c4671c997137747a4ebe9a9e60dd43b31069cf16dab7c70f771b3539",
-        "datetime": 1786970486,
-        "relevance": 0.4,
-        "headlineKo": "Dan Loeb, Nvidia, Meta 및 Broadcom 퇴사 — Warner Bros. Discovery에 큰 투자"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Nvidia Is the Best S&P 500 Stock of the Past 10, 15, 20 Years — but 4 Stocks Beat It Over the Past 5 Years",
         "source": "Benzinga",
@@ -619,7 +664,7 @@ const NEWS_DATA = {
           "facts": [
             "Jim Cramer Says Nvidia GPUs Are 'More Like Fine Jewelry' Than Cars.",
             "Here Is Why That Matters for NVDA Investors.",
-            "Skip to content S&P 500 7,732.80 -0.22% Dow Jones 53,479.10 +0.03% Nasdaq 100 29,825.90 -0.58% Russell 2000 3,053.97 -0.13% FTSE 100 10,738.20 +0.02% Nikkei 225 68,051.20 -1.35% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
+            "Skip to content S&P 500 7,710.60 -0.51% Dow Jones 53,455.10 -0.02% Nasdaq 100 29,652.40 -1.16% Russell 2000 3,048.97 -0.29% FTSE 100 10,711.60 -0.23% Nikkei 225 67,173.70 -2.62% Investing Jim Cramer Says Nvidia GPUs Are ‘More Like Fine Jewe"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -910,13 +955,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 37,
+      "checked": 38,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "AAPL": {
@@ -1454,13 +1499,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "GOOGL": {
@@ -1990,13 +2035,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:18",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "MSFT": {
@@ -2106,13 +2151,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.05% SPY 0.51% QQQ 1.16% Trending QQQ 1.16% DJT 0.48% NLST 2.5",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
+            "Screens show the logo of Microsoft and its AI service Copilot."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -2135,7 +2181,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -2268,13 +2314,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower New Connect your Agent Trending News Earnings All DIA 0.05% SPY 0.51% QQQ 1.16% Trending QQQ 1.16% DJT 0.48% NLST 2.5",
+            "Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower Microsoft is reportedly on track to make its first retreat from carbon removals since 2023, even as its AI-driven emi",
+            "Screens show the logo of Microsoft and its AI service Copilot."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -2297,7 +2344,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft Slashes Carbon Removal Purchases By 80% As AI Boom Drives Emissions Higher, Says Report — MSFT Stock Edges Lower' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
           "quality": "low"
@@ -2571,13 +2618,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:18",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "AMZN": {
@@ -3135,13 +3182,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "TSM": {
@@ -3692,13 +3739,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "AVGO": {
@@ -4234,13 +4281,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "META": {
@@ -5104,13 +5151,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "TSLA": {
@@ -5811,13 +5858,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "MU": {
@@ -6432,13 +6479,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "AMD": {
@@ -7007,13 +7054,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "INTC": {
@@ -7084,7 +7131,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,732.20 -0.23% Dow Jones 53,472.60 +0.02% Nasdaq 100 29,814.80 -0.62% Russell 2000 3,053.42 -0.14% FTSE 100 10,741.20 +0.04% Nikkei 225 68,023.70 -1.39% Investing Intel Is Up 176% This Year.",
+            "Skip to content S&P 500 7,710.40 -0.51% Dow Jones 53,431.10 -0.06% Nasdaq 100 29,654.80 -1.15% Russell 2000 3,048.22 -0.31% FTSE 100 10,715.00 -0.20% Nikkei 225 67,201.20 -2.58% Investing Intel Is Up 176% This Year.",
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
@@ -7239,7 +7286,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?",
-            "Skip to content S&P 500 7,732.20 -0.23% Dow Jones 53,472.60 +0.02% Nasdaq 100 29,814.80 -0.62% Russell 2000 3,053.42 -0.14% FTSE 100 10,741.20 +0.04% Nikkei 225 68,023.70 -1.39% Investing Intel Is Up 176% This Year.",
+            "Skip to content S&P 500 7,710.40 -0.51% Dow Jones 53,431.10 -0.06% Nasdaq 100 29,654.80 -1.15% Russell 2000 3,048.22 -0.31% FTSE 100 10,715.00 -0.20% Nikkei 225 67,201.20 -2.58% Investing Intel Is Up 176% This Year.",
             "Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?"
           ],
           "why": [
@@ -7651,13 +7698,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "AMAT": {
@@ -7722,14 +7769,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.49% SPY 0.75% QQQ 0.90% Trending SPY 0.75% SNDK 4.41% QQQ 0.90% NBIS 5.32% E",
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
-            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7752,7 +7798,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -7877,14 +7923,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ New Connect your Agent Trending News Earnings All DIA 0.49% SPY 0.75% QQQ 0.90% Trending SPY 0.75% SNDK 4.41% QQQ 0.90% NBIS 5.32% E",
-            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’ The company plans to double its quarterly equipment production capacity by 2028.",
-            "The Applied Materials logo is displayed on a smartphone screen placed on a reflective surface."
+            "AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7907,7 +7952,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Stock Extends Slide Overnight Despite Beat: Applied Materials’ DRAM Ramp Sends ‘Loudest Demand Signal’' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -8384,13 +8429,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "QQQ": {
@@ -8861,13 +8906,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:18",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "SPY": {
@@ -9459,13 +9504,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:18",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:50",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "ORCL": {
@@ -9997,13 +10042,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "CRM": {
@@ -10028,7 +10073,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 0.84% Trending SPY 0.74% SNDK 4.39% QQQ 0.84% NBI",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.05% SPY 0.51% QQQ 1.16% Trending QQQ 1.16% DJT 0.48% NLST 2.55% NBI",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10183,7 +10228,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.49% SPY 0.74% QQQ 0.84% Trending SPY 0.74% SNDK 4.39% QQQ 0.84% NBI",
+            "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.05% SPY 0.51% QQQ 1.16% Trending QQQ 1.16% DJT 0.48% NLST 2.55% NBI",
             "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
             "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
           ],
@@ -10549,13 +10594,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:19",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "PLTR": {
@@ -11170,13 +11215,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "QCOM": {
@@ -11669,13 +11714,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:51",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "ARM": {
@@ -12104,13 +12149,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "MRVL": {
@@ -12561,13 +12606,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:20",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "ASML": {
@@ -13111,13 +13156,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:52",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "LRCX": {
@@ -13537,13 +13582,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "KLAC": {
@@ -14006,13 +14051,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:21",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "SNDK": {
@@ -14084,7 +14129,7 @@ const NEWS_DATA = {
           "facts": [
             "A Top Analyst Says SanDisk Could Buy Back $100 Billion in Stock.",
             "If He Is Right, Memory Investors Are Badly Underpricing SNDK Stock - 24/7 Wall St.",
-            "Skip to content S&P 500 7,732.80 -0.22% Dow Jones 53,477.60 +0.02% Nasdaq 100 29,825.90 -0.58% Russell 2000 3,053.97 -0.13% FTSE 100 10,738.20 +0.02% Nikkei 225 68,051.20 -1.35% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
+            "Skip to content S&P 500 7,710.40 -0.51% Dow Jones 53,431.10 -0.06% Nasdaq 100 29,654.80 -1.15% Russell 2000 3,048.22 -0.31% FTSE 100 10,715.00 -0.20% Nikkei 225 67,201.20 -2.58% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -14239,7 +14284,7 @@ const NEWS_DATA = {
           "facts": [
             "A Top Analyst Says SanDisk Could Buy Back $100 Billion in Stock.",
             "If He Is Right, Memory Investors Are Badly Underpricing SNDK Stock - 24/7 Wall St.",
-            "Skip to content S&P 500 7,732.80 -0.22% Dow Jones 53,477.60 +0.02% Nasdaq 100 29,825.90 -0.58% Russell 2000 3,053.97 -0.13% FTSE 100 10,738.20 +0.02% Nikkei 225 68,051.20 -1.35% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
+            "Skip to content S&P 500 7,710.40 -0.51% Dow Jones 53,431.10 -0.06% Nasdaq 100 29,654.80 -1.15% Russell 2000 3,048.22 -0.31% FTSE 100 10,715.00 -0.20% Nikkei 225 67,201.20 -2.58% Investing A Top Analyst Says SanDisk Could Buy Back $100 Billi"
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -14808,13 +14853,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:22",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   },
   "WDC": {
@@ -15264,13 +15309,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787023110.4919195,
-    "_updated_label": "2026-08-18 12:22",
+    "_fetched_at": 1787046572.4327877,
+    "_updated_label": "2026-08-18 18:53",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-18 12:22"
+      "updated": "2026-08-18 18:53"
     }
   }
 };
