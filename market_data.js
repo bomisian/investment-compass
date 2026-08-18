@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.04000091552734,
+      "current": 84.81999969482422,
       "prevClose": 82.4000015258789,
-      "changeAbs": 2.6399993896484375,
-      "changePct": 3.2038826950983825,
-      "pctRank": 75.41766109785203,
+      "changeAbs": 2.4199981689453125,
+      "changePct": 2.936890927344555,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.710045849318806,
-      "ma20": 82.59599952697754,
-      "ma60": 81.60533320109049,
-      "chg1m": 2.5500030517578125,
-      "chg3m": -20.37999725341797,
-      "chg1mPct": 3.0912875715781785,
-      "chg3mPct": -19.33219275981881,
-      "lastDate": "2026-08-17",
+      "drawdown1y": -24.90482338508443,
+      "ma20": 82.58499946594239,
+      "ma60": 81.60166651407877,
+      "chg1m": 2.3300018310546875,
+      "chg3m": -20.599998474121094,
+      "chg1mPct": 2.8245870910345228,
+      "chg3mPct": -19.540882974696782,
+      "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.58100128173828,
+      "current": 99.54900360107422,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.08899688720703125,
-      "changePct": -0.08929155096017696,
-      "pctRank": 31.980906921241047,
+      "changeAbs": -0.12099456787109375,
+      "changePct": -0.12139517416866236,
+      "pctRank": 31.742243436754176,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9968500309275439,
-      "ma20": 100.3340503692627,
-      "ma60": 100.33468360900879,
-      "chg1m": -1.1689987182617188,
-      "chg3m": 0.311004638671875,
-      "chg1mPct": -1.1602964945525744,
-      "chg3mPct": 0.3132916784414915,
-      "lastDate": "2026-08-17",
+      "drawdown1y": -2.0283407114430996,
+      "ma20": 100.33245048522949,
+      "ma60": 100.33415031433105,
+      "chg1m": -1.2009963989257812,
+      "chg3m": 0.2790069580078125,
+      "chg1mPct": -1.1920559790826613,
+      "chg3mPct": 0.2810586959230042,
+      "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4473.89990234375,
+      "current": 4489.2998046875,
       "prevClose": 4380.39990234375,
-      "changeAbs": 93.5,
-      "changePct": 2.134508311672011,
-      "pctRank": 91.96499602227526,
+      "changeAbs": 108.89990234375,
+      "changePct": 2.4860721571444353,
+      "pctRank": 92.442322991249,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.878836031638755,
-      "ma20": 4197.804992675781,
-      "ma60": 4214.066666666667,
-      "chg1m": 461.199951171875,
-      "chg3m": -81.89990234375,
-      "chg1mPct": 11.493507034763102,
-      "chg3mPct": -1.7977063491570133,
-      "lastDate": "2026-08-17",
+      "drawdown1y": -15.589277092361487,
+      "ma20": 4198.574987792968,
+      "ma60": 4214.323331705729,
+      "chg1m": 476.599853515625,
+      "chg3m": -66.5,
+      "chg1mPct": 11.87728609951108,
+      "chg3mPct": -1.4596778359658735,
+      "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -219,67 +219,81 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Pictures of the Day | August 17, 2026 - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uVlZfdV8wakFJdkFCV0hYR1BmWWlvTF9vaDNpSlUyVE9uWWtyWlZ5dzltemVWQmdkeXp6YXVIcDE0LXJoeTNaTlBPbTg4RHl4RmdoUTNWb0xHUG1CSGRrV2RQNkY0SmhHaHJ5cldpYmxnS2YtUVVITFVjVHk?oc=5",
-      "datetime": 1787006874,
-      "headlineKo": "오늘의 사진 | 2026년 8월 17일 - 로이터"
-    },
-    {
-      "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - Reuters",
+      "headline": "Wall Street indexes slip as oil prices rise, retail results awaited - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
       "datetime": 1787006667,
-      "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
+      "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - reuters.com"
     },
     {
-      "headline": "Iran threatens new offensive while US rules out extending ceasefire deal - Reuters",
+      "headline": "Iran threatens new offensive while US rules out extending ceasefire deal - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcVl4WFplN0o4aVNSQ0REMXZlRmNzNTk4dURRMV8wUXhVQjNzVkZ0S3R4el9XSnE1MWZfLXc1RlZtZmJITURZRS1NaThGcXBKV0NZY2JXRGU1c093dzM1M0ZLcUtaRERHS1B4QUtXU3pwUk5XVWpSTEtXXzlTQ1BBZU85ZE50NHZQN2hXa1FTODlNRHU5UzhWS0tzMGktMktwMXI3X3pNYmRFMVIzSTlJbzl5SWRQa05qZ0lXWnM1bw?oc=5",
       "datetime": 1787006591,
-      "headlineKo": "이란, 미국이 휴전 협정 연장을 배제하는 동안 새로운 공격 위협 - 로이터 통신"
+      "headlineKo": "이란, 미국이 휴전 협정 연장을 배제하는 동안 새로운 공세 위협 - reuters.com"
     },
     {
-      "headline": "US railroad Union Pacific turned charges meant to cover fuel costs from Iran war into profit - Reuters",
+      "headline": "China surprises oil markets again with a return to stockpiling in July - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
+      "datetime": 1787004671,
+      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - reuters.com"
+    },
+    {
+      "headline": "US to announce steps to help refiners produce more fuel, energy chief Wright says - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkt2WFRJalFmY1h4S0lLcVFXcmtNN1o5U2J4RWVmWGdkVFdLdUYzUnRlTklFX3Nsd1FMaVVNbEdINlUyazI0ajM2dW5Qd0FJNXpac0V2NFp0Yk1sTWMtUVVxQU1MVk1WY0lsUU9fYjF1dXFIVjZzSWs2cUpPN3FHNGhDbXMtcHlLWWd3VmdhSndwOWl3VTkxNmVYSTd2T0tVX2MyT2c1dnJESmdJZ0FISERjQ3JrNEZy?oc=5",
+      "datetime": 1787002616,
+      "headlineKo": "미국, 정유업체가 더 많은 연료를 생산할 수 있도록 지원하는 조치 발표 예정"
+    },
+    {
+      "headline": "US railroad Union Pacific turned charges meant to cover fuel costs from Iran war into profit - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaTBtTmZiNU1ldVB5OEZrTGJ4QXp0M1BwVG90ZXVxa3FRN0F3NVRTTC1fNDA3SE51Q0FrcFhGLXVUU3VCN2U0SFBYZ0VOeHBISVJfZWRRdTVQOU1aRTkxMXVfQ0tQWFdFLTVZVXk4OWtBTHBPRERnN2NJRjk3c213T2c0QVh6QWRQU2s0MVQxZVJrQUc5d2E3aDd5ZTczWHQtaHQwVkRLSHVYVUhXaU1Hbm9pME02QjE2V2ZJdVBGbG83U3J0V0RkWg?oc=5",
       "datetime": 1787001115,
-      "headlineKo": "미국 철도 유니온 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비를 충당하기 위한 비용을 이익으로 전환했습니다. - 로이터"
+      "headlineKo": "미국 철도 유니언 퍼시픽(Union Pacific)은 이란 전쟁으로 인한 연료비를 충당하기 위한 비용을 이익으로 전환했습니다. - reuters.com"
     },
     {
-      "headline": "Battered by war, Iran’s rulers wary of more economic pain and unrest if US tightens pressure - Reuters",
+      "headline": "A Palestinian American's journey to his West Bank home under settler siege - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemVlSmx3ZkppbzZ6WE9oMzdjekdXOEIzUTBldm5NbG1DY3ZaUkUwSjlwdHFFekRjRDl6elZGdlUxQ1F5YmxTUXlDQTM0RHhKbGNMRlJxN3VsWHI2cGZ6Yjc2V2NaenFxRENiS003SmVYZlhReXEzYW9reUd6UWhyQnJZT1RwZFZyUk1rUFVMTk1ZZVR0MXJxdG1TREs5Sy0xOFdYeFFTemVqejJsN1RmQVZEbGlZY3A4NzJSZW5EWQ?oc=5",
+      "datetime": 1787000626,
+      "headlineKo": "정착민들의 포위 공격을 받고 서안지구의 집으로 향하는 팔레스타인계 미국인 - reuters.com"
+    },
+    {
+      "headline": "Battered by war, Iran’s rulers wary of more economic pain and unrest if US tightens pressure - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVEdqbXFtRnNWUFI5Z2k5QkEtMEUwbnR3emVxRTUyMS1IS0pXSWZZdC03aVpWNTFtSzlfN0kzQ3VCUVRpSzZQVGlpeFAyeVJKVGlBVlJicHpPcnBWSkJPcUpIazRPMkJabGJHMl9iRTRMUFRwZ0kxeVV3Sk16Mkx4ei1faDM2S2VDUXI0VHB0R1hyQVFGdU5IU3Nzby1xX2RFaVV4dmtzdmhhSGdKcjRYdDJlYlNLMmI4bGFqcDdZa0x4V0ZfQ3RN?oc=5",
       "datetime": 1786999929,
-      "headlineKo": "전쟁으로 피해를 입은 이란 통치자들은 미국이 압박을 강화할 경우 더 많은 경제적 고통과 불안을 경계합니다 - 로이터"
+      "headlineKo": "전쟁으로 피해를 입은 이란 통치자들은 미국이 압박을 강화할 경우 경제적 고통과 불안이 더 커질 것을 경계합니다 - reuters.com"
     },
     {
-      "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - Reuters",
+      "headline": "Trump says Iran won't make deal he thinks is needed, threatens to bomb Oman - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ3Rmc3puMlE0OGNHd3RFY2dEM3EzbkdKR3pxal9tVm1lWFliOE9Yc1NlVXN6aEx3SXJCSkVWVENjbjBJMWlXLThJdDE3NzF5aTRMbXJYdDNqRkRtYmlRUVhDcW02My04NWR1MXVianVOdDIwZXdsNGJ5a21walB1UjMxV2YyTGpfMFMzdHNZLW1YRjRaZENWZDE5akdRcFVibWlYcV9aTTM4UQ?oc=5",
       "datetime": 1786997885,
-      "headlineKo": "트럼프, 이란은 필요하다고 생각하는 협상 안 할 것이라며 오만을 폭격하겠다고 위협 - 로이터"
+      "headlineKo": "트럼프, 이란이 필요하다고 생각하는 협상 안 할 것이라며 오만을 폭격하겠다고 위협 - reuters.com"
     },
     {
-      "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - Reuters",
+      "headline": "EXCLUSIVE: Trump approval falls to 33%, lowest of his presidency, Reuters/Ipsos poll finds - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQi1faldMbmRDZnpQWWdTWWtyQmZZOVRnU01BVEt5aVdEQ0xxeGlWdmlNR1k4c2lWODJmcjNHUkFFc3BwLTgzVjQyd0dkTXJnUGdvN1hJeHZ0SC1aYzlVZC1DQW1ZM0NjdWhUby1JRzBjQmg1cDdjMEEydjRlVTlkT2Q4ODJad2s3eXhEaVlEY1JnVm01Y0FQb2lhLS10dGpPSlQ2aFBjQy1kTkdyOFhWWGtkMWM?oc=5",
       "datetime": 1786997350,
-      "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - Reuters"
+      "headlineKo": "독점: 트럼프 지지율은 33%로 하락해 대통령직 중 가장 낮은 것으로 로이터/입소스 여론조사 결과 - reuters.com"
     },
     {
-      "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
+      "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
       "datetime": 1786995832,
-      "headlineKo": "드론이 이라크 쿠르디스탄 총리 사무실을 표적으로 삼았지만 사상자는 보고되지 않았습니다 - 로이터 통신"
+      "headlineKo": "드론이 이라크 쿠르드족 총리 사무실을 표적으로 삼았지만 사상자는 보고되지 않았습니다 - reuters.com"
     },
     {
-      "headline": "US diesel crack surpasses $100 a barrel for the first time on supply disruptions - Reuters",
+      "headline": "US diesel crack surpasses $100 a barrel for the first time on supply disruptions - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2p1clBfdVhTak9ubTVGRFROZ3BqSlB0U1k5MzNUNzUzYjdLUzNWQWdEajJHdDZXTzdfVWJBYlJHSk9iNTZROEJyWG55ZFBUYkhUalF6aXl2Ynkzakppczk0N3RLal9zZ0JNOXZqX2c5eFFTMmtVTlJhYTRNMjd6dnNmRER4YkFmZmp3YXA2VGdBWE1BQUJaenBkZnh1QkE0aGQ2cDA5VkRod3ZUVmsxZWVibWJBSUZzZXc?oc=5",
       "datetime": 1786994023,
-      "headlineKo": "미국 디젤 크랙, 공급 중단으로 처음으로 배럴당 100달러 돌파 - Reuters"
+      "headlineKo": "미국 디젤 균열, 공급 중단으로 처음으로 배럴당 100달러 돌파 - reuters.com"
     },
     {
       "headline": "Disney's new parks boss outlines investment strategy, with superfans at the fore",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/17/disney-parks-strategy-superfans-mazloum.html",
       "datetime": 1786992636,
       "headlineKo": "디즈니의 새로운 공원 사장은 열성팬을 중심으로 투자 전략을 설명합니다."
-    },
-    {
-      "headline": "Eli Lilly and J&J bounce on new data, as software stocks give up last week's gains",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/17/eli-lilly-and-jj-bounce-on-new-data-as-software-gives-up-gains.html",
-      "datetime": 1786992174,
-      "headlineKo": "소프트웨어 주식이 지난주 상승세를 포기함에 따라 Eli Lilly와 J&J는 새로운 데이터에 반등했습니다."
-    },
-    {
-      "headline": "FTSE 100 falls for sixth day in a row as consumer stocks weigh - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUR0RjdfMVp0QlRfby1EcmdQSzZvZ2hzT0xJZVdKUjF2QlRhS2p1WGU0dC1xalpqSVp0dV9HYURDTF9yNnVHLTRwZktnZlZXVjNsaWRwTGpIYWdkYUNjV2FaREZmbEpJeUcwZU4zaUVhQm4zQ3VrcDNrWjFxdHQwRXk4SzZwUU9yLWFpMUhrSlJTTFZvNUxOREc4OXY?oc=5",
-      "datetime": 1786983504,
-      "headlineKo": "FTSE 100은 소비재 주가 하락으로 인해 6일 연속 하락했습니다. - Reuters"
     }
   ],
   "fgi": {
     "score": 59.9714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787009383.4311125,
-  "_updated_label": "2026-08-18 08:30"
+  "_fetched_at": 1787015831.9716475,
+  "_updated_label": "2026-08-18 10:17"
 };
