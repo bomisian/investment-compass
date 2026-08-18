@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.44999694824219,
+      "current": 84.48999786376953,
       "prevClose": 84.5,
-      "changeAbs": -0.0500030517578125,
-      "changePct": -0.059175209180843194,
-      "pctRank": 74.7016706443914,
+      "changeAbs": -0.01000213623046875,
+      "changePct": -0.01183684761002219,
+      "pctRank": 74.86077963404932,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.23240440020529,
-      "ma20": 82.5459991455078,
-      "ma60": 81.39799982706705,
-      "chg1m": 1.2199935913085938,
-      "chg3m": -24.210006713867188,
-      "chg1mPct": 1.4658098547426774,
-      "chg3mPct": -22.2805134345025,
+      "drawdown1y": -25.196989688732852,
+      "ma20": 82.54799919128418,
+      "ma60": 81.39866650899252,
+      "chg1m": 1.2599945068359375,
+      "chg3m": -24.170005798339844,
+      "chg1mPct": 1.5138705466974751,
+      "chg3mPct": -22.24370051882128,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4387.7998046875,
+      "current": 4382.7998046875,
       "prevClose": 4417.7998046875,
-      "changeAbs": -30.0,
-      "changePct": -0.6790710608517966,
-      "pctRank": 91.16945107398568,
+      "changeAbs": -35.0,
+      "changePct": -0.7922495709937626,
+      "pctRank": 91.08989657915673,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.497745839799418,
-      "ma20": 4210.834973144531,
-      "ma60": 4210.598331705729,
-      "chg1m": 377.499755859375,
-      "chg3m": -164.7001953125,
-      "chg1mPct": 9.413254650850542,
-      "chg3mPct": -3.6177967119714447,
+      "drawdown1y": -17.591759078589465,
+      "ma20": 4210.584973144531,
+      "ma60": 4210.514998372396,
+      "chg1m": 372.499755859375,
+      "chg3m": -169.7001953125,
+      "chg1mPct": 9.288575700669217,
+      "chg3mPct": -3.727626475837452,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-      "datetime": 1787089615,
+      "datetime": 1787089677,
       "headlineKo": "트럼프 \"이란과 회담 계획 없다\""
     },
     {
@@ -252,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
       "datetime": 1787084666,
       "headlineKo": "시장 가격이 비둘기파적인 연준의 대응으로 달러 범위 제한 - Reuters"
+    },
+    {
+      "headline": "France to expel two Iranian diplomats in coming days, foreign minister says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTmFLeHRiWmVCUHhXbVM1d1VIS1RlNlh5YVI3cnB3Rzh6emVZTEtuTENUeUp4R3RUbkhfOFhrTHo5bTRRUEZnc2plT3U4NFFWMHVyZENpUDR4ZnBUVVBobFY4TUs2eHU5dHR3Z0UtcE5EMzFpdDlwRHE5YWpKLXRweXhNeXZpUGRyQjJ4QTRXLUxDNS1JOGEwM2R0M3ltYVRnS2hCdnMxU09yUGl0dkpj?oc=5",
+      "datetime": 1787083918,
+      "headlineKo": "프랑스 외무장관 \"앞으로 이란 외교관 2명 추방할 것\" - 로이터 통신"
     },
     {
       "headline": "DOJ unseals new charges against 17 hackers in Iran-backed campaign - Reuters",
@@ -289,24 +296,17 @@ const MARKET_DATA = {
       "headlineKo": "Cyclospora는 미국 직장 점심을 바꾸고 있습니다. Saladworks CEO는 '우리는 즉시 마케팅을 전환했습니다'라고 말했습니다."
     },
     {
-      "headline": "US housing market remains under pressure in July; factory output rises - Reuters",
+      "headline": "FTSE 100 steady as energy stocks offset bond jitters - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
-      "datetime": 1787066609,
-      "headlineKo": "미국 주택시장은 7월에도 여전히 압박을 받고 있습니다. 공장 생산량 증가 - 로이터"
-    },
-    {
-      "headline": "We're adding to our position in a stock that's been hurt by rekindled Middle East tensions",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/18/were-adding-to-our-position-in-a-stock-thats-been-hurt-by-rekindled-middle-east-tensions-.html",
-      "datetime": 1787066599,
-      "headlineKo": "우리는 중동 긴장이 다시 불붙으면서 타격을 입은 주식에서 우리의 포지션을 추가하고 있습니다."
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
+      "datetime": 1787069716,
+      "headlineKo": "에너지 주식이 채권 불안을 상쇄함에 따라 FTSE 100은 안정되었습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 54.4,
     "rating": "neutral"
   },
-  "_fetched_at": 1787094003.020656,
-  "_updated_label": "2026-08-19 08:00"
+  "_fetched_at": 1787097278.7900958,
+  "_updated_label": "2026-08-19 08:55"
 };
