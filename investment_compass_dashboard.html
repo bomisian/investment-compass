@@ -363,6 +363,9 @@
 <!-- 종목 사업 핵심 요약(납품처·장점·위험도) - Claude가 WebSearch로 조사해 수동 작성, buy_signal_telegram.py
      자동 갱신 대상 아님(2026-08-10 파일럿 3종목만). 없어도 대시보드는 정상 동작함 -->
 <script src="business_notes_data.js" onerror="void 0"></script>
+<!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
+     appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
+<script src="kiwoom_sells_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
@@ -578,7 +581,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-14c';
+const DASHBOARD_VERSION = '2026-08-18b';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -1853,7 +1856,7 @@ function renderTabContent(ticker){
     if(activeTab==='01'){
       const c = document.getElementById('priceCanvas');
       const cs = getChartSeries(ticker) || r.series;
-      if(c){ drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen); setupPriceChartHover(c, cs, ticker); }
+      if(c){ drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen, ticker); setupPriceChartHover(c, cs, ticker); }
       if(techViewOpen){
         const rc = document.getElementById('techRsiCanvas');
         const mc = document.getElementById('techMacdCanvas');
@@ -3305,7 +3308,7 @@ function redrawCharts(ticker){
   if(!r) return;
   const c = document.getElementById('priceCanvas');
   const cs = getChartSeries(ticker) || r.series;
-  if(c) drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen);
+  if(c) drawCandleChart(c, cs, pinnedHoverIndex(cs), techViewOpen, ticker);
   if(techViewOpen){
     const rc = document.getElementById('techRsiCanvas');
     const mc = document.getElementById('techMacdCanvas');
@@ -3339,7 +3342,12 @@ function computeZigzagPivots(closes, thresholdPct){
   return pivots;
 }
 
-function drawCandleChart(canvas, s, hoverIndex, showSignals){
+function findChartIndexForDate(dates, targetDate){
+  // dates는 오름차순 정렬돼 있다고 가정. targetDate 이상인 첫 인덱스(그 날짜가 속한 봉)를 찾음.
+  for(let i=0;i<dates.length;i++){ if(dates[i] >= targetDate) return i; }
+  return dates.length - 1; // 전부 그 이전 날짜면 마지막 봉에 붙임
+}
+function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
   const fullLen = s.closes.length;
   const {start, end} = chartRange(fullLen, showSignals);
   const sl = arr => arr.slice(start, end);
@@ -3415,6 +3423,29 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals){
       ctx.moveTo(cx, ly-9); ctx.lineTo(cx-6, ly+3); ctx.lineTo(cx+6, ly+3);
       ctx.closePath(); ctx.fill();
     }
+  }
+
+  // 2026-08-18 추가(사용자 요청): 키움증권 실제 매도 내역을 차트에 ▼로 표기 - 나중에 재매수할 때
+  // 예전엔 얼마에 팔았는지 참고하기 위함. kiwoom_sells_data.js는 개인 실거래 정보라 로컬에만
+  // 있고 GitHub Pages 배포본엔 없음 - 파일이 없거나 이 종목 매도 기록이 없으면 조용히 건너뜀.
+  if(ticker && typeof KIWOOM_SELLS_DATA !== 'undefined' && KIWOOM_SELLS_DATA?.sells?.[ticker]?.length && n>0){
+    const sells = KIWOOM_SELLS_DATA.sells[ticker];
+    const chartDates = sl(s.dates);  // s.dates는 전체(미슬라이스) 배열이라 반드시 sl()로 화면 구간만 잘라 써야 함
+    const firstD = chartDates[0], lastD = chartDates[n-1];
+    ctx.save();
+    sells.forEach(sale => {
+      if(!(sale.date >= firstD && sale.date <= lastD)) return; // 지금 화면 구간 밖이면 생략
+      const idx = findChartIndexForDate(chartDates, sale.date);
+      const cx = x(idx);
+      const py = y(sale.price);
+      ctx.fillStyle = '#8e44ad';
+      ctx.beginPath();
+      ctx.moveTo(cx, py+9); ctx.lineTo(cx-6, py-3); ctx.lineTo(cx+6, py-3);
+      ctx.closePath(); ctx.fill();
+      ctx.font = 'bold 15px sans-serif'; ctx.textAlign = 'center';
+      ctx.fillText(`매도 $${sale.price.toFixed(0)}`, cx, py-12);
+    });
+    ctx.restore();
   }
 
   // 스윙 고점/저점 라벨 - 지그재그로 잡은 구간별 상승/하락 %를 캔들 위/아래에 표기
@@ -3665,7 +3696,7 @@ function setupPriceChartHover(canvas, s, ticker){
     const {start, dates, opens, highs, lows, closes, rsiArr} = currentSlice();
     const n = closes.length;
     const idx = chartIndexFromClientX(canvas, e.clientX, n);
-    drawCandleChart(canvas, s, idx, techViewOpen);
+    drawCandleChart(canvas, s, idx, techViewOpen, ticker);
     const o=opens[idx], h=highs[idx], l=lows[idx], c=closes[idx], rv=rsiArr[idx], d=dates[idx];
     let techLine = '';
     if(s.techSeries){   // ▲ 마커를 항상 그리므로, 그 사유도 토글과 무관하게 보여줌
@@ -3688,7 +3719,7 @@ function setupPriceChartHover(canvas, s, ticker){
     tooltip.style.left = left+'px';
     tooltip.style.top = top+'px';
   }
-  function onLeave(){ if(drag.active) panEnd(); tooltip.style.display='none'; drawCandleChart(canvas, s, pinnedHoverIndex(s), techViewOpen); }
+  function onLeave(){ if(drag.active) panEnd(); tooltip.style.display='none'; drawCandleChart(canvas, s, pinnedHoverIndex(s), techViewOpen, ticker); }
   function onMouseDown(e){ if(e.button!==0) return; panStart(e.clientX); }
   function onMouseUp(){ if(drag.active) panEnd(); }
   function onClick(e){
@@ -4890,6 +4921,12 @@ renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 �
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
+// 2026-08-18 추가(사용자 요청): "GPT 대시보드는 버튼 안 눌러도 바로 조회되던데 우리도 그렇게
+// 하면 안되나" - 페이지를 열면 버튼 클릭 없이 바로 전체 스캔을 시작함. gpt_dashboard와 달리
+// 이건 여전히 '조회 시점 실시간 계산'(CLAUDE.md 원칙)이라 완전한 사전계산·즉시표시는 아니고,
+// 스캔 자체를 자동으로 트리거해서 "버튼을 안 눌러도 된다"는 요청만 그대로 반영함 - 신선도나
+// 계산 방식은 기존과 동일(장중 실시간 프록시 조회), 버튼도 재실행용으로 그대로 남겨둠.
+scanAll();
 </script>
 </body>
 </html>
