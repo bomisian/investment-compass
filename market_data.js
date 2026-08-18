@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.41999816894531,
+      "current": 84.44999694824219,
       "prevClose": 84.5,
-      "changeAbs": -0.0800018310546875,
-      "changePct": -0.09467672314164202,
+      "changeAbs": -0.0500030517578125,
+      "changePct": -0.059175209180843194,
       "pctRank": 74.7016706443914,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.258963745143227,
-      "ma20": 82.54449920654297,
-      "ma60": 81.3974998474121,
-      "chg1m": 1.1899948120117188,
-      "chg3m": -24.240005493164062,
-      "chg1mPct": 1.4297666274365044,
-      "chg3mPct": -22.30812136592698,
+      "drawdown1y": -25.23240440020529,
+      "ma20": 82.5459991455078,
+      "ma60": 81.39799982706705,
+      "chg1m": 1.2199935913085938,
+      "chg3m": -24.210006713867188,
+      "chg1mPct": 1.4658098547426774,
+      "chg3mPct": -22.2805134345025,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.65299987792969,
+      "current": 99.64399719238281,
       "prevClose": 99.63999938964844,
-      "changeAbs": 0.01300048828125,
-      "changePct": 0.013047459214055973,
-      "pctRank": 33.0151153540175,
+      "changeAbs": 0.003997802734375,
+      "changePct": 0.004012246847514864,
+      "pctRank": 32.85600636435959,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9259922455137746,
-      "ma20": 100.26065025329589,
-      "ma60": 100.34338353474935,
-      "chg1m": -1.3369979858398438,
-      "chg3m": 0.6829986572265625,
-      "chg1mPct": -1.3238914883861939,
-      "chg3mPct": 0.690106748310001,
+      "drawdown1y": -1.934852284380817,
+      "ma20": 100.26020011901855,
+      "ma60": 100.34323348999024,
+      "chg1m": -1.3460006713867188,
+      "chg3m": 0.6739959716796875,
+      "chg1mPct": -1.3328059212382661,
+      "chg3mPct": 0.6810103701794207,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4389.5,
+      "current": 4387.7998046875,
       "prevClose": 4417.7998046875,
-      "changeAbs": -28.2998046875,
-      "changePct": -0.6405859463679756,
+      "changeAbs": -30.0,
+      "changePct": -0.6790710608517966,
       "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.465777666218663,
-      "ma20": 4210.919982910156,
-      "ma60": 4210.6266682942705,
-      "chg1m": 379.199951171875,
-      "chg3m": -163.0,
-      "chg1mPct": 9.455650364183683,
-      "chg3mPct": -3.5804503020318506,
+      "drawdown1y": -17.497745839799418,
+      "ma20": 4210.834973144531,
+      "ma60": 4210.598331705729,
+      "chg1m": 377.499755859375,
+      "chg3m": -164.7001953125,
+      "chg1mPct": 9.413254650850542,
+      "chg3mPct": -3.6177967119714447,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,11 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+      "datetime": 1787089615,
+      "headlineKo": "트럼프 \"이란과 회담 계획 없다\""
+    },
+    {
+      "headline": "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
+      "datetime": 1787089464,
+      "headlineKo": "채권수익률 상승으로 기술 매도가 월스트리트를 압박 - Reuters"
+    },
+    {
       "headline": "UAE says two missiles detected earlier were launched from Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaVFKQ0k0Vk10ckR0U1JfNHlsLW9nWUtrc09mMUx4UzFzRHJsVk4zYkJQT2NFNHVoVTRyYjE3OTJOcXVtcHFoWGRpQndUTXFnQjFKVGZQM1ZRTkpEeVVPZlF4ZXUydnRUckVmOHU2SEtXU000ZVFhVE8teGhQZFFPbnVFX3dBM1pNa0oxbnFoTmF2bUM3MjFj?oc=5",
       "datetime": 1787088064,
       "headlineKo": "UAE는 앞서 탐지된 미사일 두 발이 이란에서 발사됐다고 밝혔습니다."
+    },
+    {
+      "headline": "US yields edge lower despite Iran worries, broader sell-off - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaERYcG1nTmtNcy1ia2hGekZQaVp4X1Y5RHlab3QydTVDV2tfSVZmQnctVC1iaWFmZ2xJRmN6U3pzNk1wdUx1VlpQWmF6WTZsdmtfdmF3SmpGUWYzMzluM3JEVVBVTmZXU2NfMG9lcjRzUktxWEZNZDZxbTE1Q2FkVmd4Mmd3ekpxeHY3RWtpRC14QmV0SktSNA?oc=5",
+      "datetime": 1787088027,
+      "headlineKo": "이란 우려와 광범위한 매도에도 불구하고 미국 금리는 하락세 - Reuters"
     },
     {
       "headline": "Dollar range-bound as markets price dovish Fed response - Reuters",
@@ -233,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "시장 가격이 비둘기파적인 연준의 대응으로 달러 범위 제한 - Reuters"
     },
     {
+      "headline": "DOJ unseals new charges against 17 hackers in Iran-backed campaign - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYk0tOWhsY2J3Vnp5Q3B5ek1SaW9UOTVqbnFGU3pQREFHUERJSTFYWndYODZ3MDduQ2tuWUtOSjNGN29McFM4Zk81MDEzcHlNalE4aEpaWXRCUlVTSERDajdpSnU3SC16azNwSG8zRFZCVnJWbGF1QzlSZ2hqYl93RlNIcHc1VV9ra0tfTGp4c0ttQl82Z2JHc3A0ZC1Nd0pQV2RmbTVBcHFJdlpwS3RuLU5IQnB3UDg?oc=5",
+      "datetime": 1787083090,
+      "headlineKo": "DOJ, 이란 지원 캠페인에 참여한 해커 17명에 대한 새로운 혐의 공개 - Reuters"
+    },
+    {
       "headline": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlZuUXBialdJbERhTVMyN3NRUkxUY251V1g4c3RDS0EyUnNEVWhNcGVFTFNETFZRLTJFcUpWaEdwS0NuQ1FTck1mNURabzBNbnMtNV9RRDQzQ1d2RHlHUHFlNWdPUFlselFNSElSVmJ1ZklSUlUyaGdCbVEwMTE3YnlzMG0yUkQyNWJZSHpHVFgwZlhkTHlDaUxNMGlzQ1VVM01WaTRSVDNLZjJJT2Z3WkttVW5RZFM0R3h2M0tDSklkZGhoSkhJ?oc=5",
       "datetime": 1787082130,
       "headlineKo": "미국은 터키, 이스라엘, 시리아 간의 갈등 해소 메커니즘을 연구하고 있다고 미국 특사가 밝혔습니다. - 로이터 통신"
-    },
-    {
-      "headline": "Tech selloff pulls Wall Street to two-week lows as bond yields climb - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
-      "datetime": 1787079522,
-      "headlineKo": "채권수익률이 오르면서 기술주 매각으로 월스트리트가 2주 최저치로 하락 - Reuters"
     },
     {
       "headline": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
@@ -268,13 +289,6 @@ const MARKET_DATA = {
       "headlineKo": "Cyclospora는 미국 직장 점심을 바꾸고 있습니다. Saladworks CEO는 '우리는 즉시 마케팅을 전환했습니다'라고 말했습니다."
     },
     {
-      "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-      "datetime": 1787067165,
-      "headlineKo": "트럼프 \"이란과 회담 계획 없다\""
-    },
-    {
       "headline": "US housing market remains under pressure in July; factory output rises - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
@@ -287,26 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/18/were-adding-to-our-position-in-a-stock-thats-been-hurt-by-rekindled-middle-east-tensions-.html",
       "datetime": 1787066599,
       "headlineKo": "우리는 중동 긴장이 다시 불붙으면서 타격을 입은 주식에서 우리의 포지션을 추가하고 있습니다."
-    },
-    {
-      "headline": "South African rand flat as pressure on currency persists - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQazJZWmZPOTczR2lXTDd1RWpaUnFfSHpnaGkxbTQxM0gyX1FwdFFCWWlXcnVwbWxRaElZQWFrbG95NXpxdzY1cENxTlB2WE9CalFIU1BxS0txajVlSXpmTlVWaXJWR0M0UElYSFhub0ppUFY3WFppNVVYNGJJelR4WFVtSnlOZWxrMXl1M004dmhhcW9NRDJXQVdNZHBpbzhvQzJhR0MxdWV3RXBTSDVoQ0ZIZG1ZTVhuVVNBMw?oc=5",
-      "datetime": 1787065660,
-      "headlineKo": "통화 압박이 지속되면서 남아공 랜드화 가치 하락 - Reuters"
-    },
-    {
-      "headline": "At a Gaza zoo, war takes its toll on the animals - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTFSYk0tRUo4VW10aGlEN2Uxa19MWi1MYkRyX01ZUWJvcFoyOVZyQjctNWdpRlpuMEZ4SlBGNTByS2h3MjBMeWhmUlplSk5Hd29qSW5zUThtQm1XSVJMZk5vSUhhRXA4d3RuQTJsTjFTSERscWJLYlliVUdDeW1yMk5BQXh6cm9HRTVPdi0xUi0xNWM?oc=5",
-      "datetime": 1787065535,
-      "headlineKo": "가자 동물원에서 전쟁이 동물들에게 큰 피해를 입혔습니다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 54.4,
     "rating": "neutral"
   },
-  "_fetched_at": 1787090402.5899255,
-  "_updated_label": "2026-08-19 07:00"
+  "_fetched_at": 1787094003.020656,
+  "_updated_label": "2026-08-19 08:00"
 };
