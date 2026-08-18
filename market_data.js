@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.05999755859375,
+      "current": 85.55000305175781,
       "prevClose": 84.5,
-      "changeAbs": 0.55999755859375,
-      "changePct": 0.6627190042529586,
-      "pctRank": 75.49721559268099,
+      "changeAbs": 1.0500030517578125,
+      "changePct": 1.242607161843565,
+      "pctRank": 76.6109785202864,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.692341870915367,
-      "ma20": 82.5764991760254,
-      "ma60": 81.40816650390624,
-      "chg1m": 1.8299942016601562,
-      "chg3m": -23.600006103515625,
-      "chg1mPct": 2.1987193654338664,
-      "chg3mPct": -21.719128757718916,
+      "drawdown1y": -24.25851672137721,
+      "ma20": 82.60099945068359,
+      "ma60": 81.41633326212565,
+      "chg1m": 2.3199996948242188,
+      "chg3m": -23.110000610351562,
+      "chg1mPct": 2.7874559669003642,
+      "chg3mPct": -21.268175806633263,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.64800262451172,
+      "current": 99.68900299072266,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.02199554443359375,
-      "changePct": -0.02206837046019633,
-      "pctRank": 32.802547770700635,
+      "changeAbs": 0.01900482177734375,
+      "changePct": 0.019067745687252533,
+      "pctRank": 33.12101910828025,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.9309103179357412,
-      "ma20": 100.33740043640137,
-      "ma60": 100.33580029805502,
-      "chg1m": -1.1019973754882812,
-      "chg3m": 0.3780059814453125,
-      "chg1mPct": -1.09379392108018,
-      "chg3mPct": 0.38078573005745603,
+      "drawdown1y": -1.8905595985531432,
+      "ma20": 100.33945045471191,
+      "ma60": 100.33648363749187,
+      "chg1m": -1.0609970092773438,
+      "chg3m": 0.41900634765625,
+      "chg1mPct": -1.0530987685134925,
+      "chg3mPct": 0.42208760131505035,
       "lastDate": "2026-08-18",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4445.7998046875,
+      "current": 4452.7001953125,
       "prevClose": 4417.7998046875,
-      "changeAbs": 28.0,
-      "changePct": 0.63379965679501,
-      "pctRank": 91.72633253778838,
+      "changeAbs": 34.900390625,
+      "changePct": 0.789994842862028,
+      "pctRank": 91.96499602227526,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.40719226983489,
-      "ma20": 4213.734973144531,
-      "ma60": 4211.564998372396,
-      "chg1m": 435.499755859375,
-      "chg3m": -106.7001953125,
-      "chg1mPct": 10.85953047295389,
-      "chg3mPct": -2.3437714511257552,
+      "drawdown1y": -16.277446655520343,
+      "ma20": 4214.079992675781,
+      "ma60": 4211.680004882813,
+      "chg1m": 442.400146484375,
+      "chg3m": -99.7998046875,
+      "chg1mPct": 11.0315971647471,
+      "chg3mPct": -2.1921977965403623,
       "lastDate": "2026-08-18",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "The 30-year Treasury yield just hit a 19-year high. Three things could drive it even higher",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/18/30-year-treasury-yield-three-things-that-could-drive-it-even-higher.html",
+      "datetime": 1787033512,
+      "headlineKo": "30년 만기 국채 수익률이 19년 만에 최고치를 기록했습니다. 세 가지 요소로 인해 더욱 높아질 수 있습니다."
+    },
+    {
+      "headline": "Morning Bid: Bond investors in revolt as Iran threatens to go 'fully offensive' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45TkUySkxRRHMtX3JyMWRJOUFZbjZwMkFiTG1wRlctaWNpZXJXOFppdHlPTjBTT2ptNHJqOFRTRjdDOWUtNzZfY0tQVllfaFlxd3dJRWxncnFrcGdLR0xQVFVmLS1tUmFLYklQbzc3UF9wVmltRkdrcUpUbGNYeVU?oc=5",
+      "datetime": 1787027820,
+      "headlineKo": "아침 입찰: 이란이 '완전히 공세'하겠다고 위협하자 채권 투자자들이 반란을 일으켰습니다."
+    },
+    {
       "headline": "Vessel struck by unknown projectile in Strait of Hormuz, crew casualty reported, UKMTO says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdC1DbUtnYVo3NzVqcVBVR3FXcm1WQXBOWHI2b1d0SG5NOG1wS25jdjJJeUx3NFc0Ym13OTlZTzl5Q1hnR3dVWFpuTkF6cVlic0NNdXJDWHBIcGZlRVRLWUtJclYybUxvNTJ5RWFDZjJOaGR2aGFrS21Ibzg3b1FudnZjVkZTQV9ra2ZmMnNZNGZWWGdDZXpxUmpoMXEybC1oMjd2T3RYVjJwZ3NacE9XcERRWEZhcHZtbVE1VmhsaDNiWkhlV2hyei1QZ3c?oc=5",
@@ -226,18 +240,25 @@ const MARKET_DATA = {
       "headlineKo": "호르무즈 해협에서 선박이 알 수 없는 발사체에 충돌해 승무원 사상자가 보고됐다고 UKMTO가 밝혔습니다."
     },
     {
-      "headline": "Indian shares open lower as oil tops $91, US-Iran ceasefire expires - Reuters",
+      "headline": "Hormuz crossings rise slightly from weekend, remain in single digits, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObmFuNHJUd0NQNEY5WUNVLWlIUnZwb2F5VVJxZkpiX1hCRjRqRk44UjRkTjE0STF4aUlqRkVNTElObWJpVmJJQkZnR0V4RzllVko3bHJCTDM3VU9yQTdxd1picWtid0FaRkJmcEQzTzBpaEdjenlpc0Fnd0xDdGE1Z0FYVENRVjlEb3hUbFVCUVJ3VG9SVTFwSEVabWRXT0ZGdml1R2Yya3NZWlBGV2xVT1JXRDVnR0FpSVhLVERkb2JqQQ?oc=5",
+      "datetime": 1787022180,
+      "headlineKo": "호르무즈 횡단 건수는 주말보다 소폭 증가해 한 자릿수 유지, 데이터 표시 - 로이터 통신"
+    },
+    {
+      "headline": "Indian shares dip as oil tops $91, US-Iran ceasefire expires - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcmdBR0dqOUx3OEJLUy1ZbDhBWFo2S2M1STJjYXk5cUlNZW1MTFlLdkhDc3FNOEhBYjVabjF3SE5QUE5ERnBPQWw1dTVLb0V2WDc5bDM4MURRc1FSVWJfMnFIT0doSDFMZHV1bTQxbU9tX3BrenFsdUhHSDBSQ2NnVll5OFBVTUN5M0dhS2psTlQ3MXIzSWptYm5OM0RrWWlpU0h2b2VKUUxkaEdqT2Fyc2VwVFA?oc=5",
       "datetime": 1787019660,
-      "headlineKo": "인도 증시는 유가가 91달러를 넘고 미국-이란 휴전이 만료되면서 하락세로 출발 - Reuters"
+      "headlineKo": "유가가 91달러를 넘고 미국-이란 휴전이 만료되면서 인도 주가 하락 - 로이터"
     },
     {
-      "headline": "Dollar feeble as rate hike bets dwindle, Iran war worries grow - Reuters",
+      "headline": "Dollar feeble as rate hike bets dwindle, Iran war worries jolt bonds - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
       "datetime": 1787017860,
-      "headlineKo": "금리 인상 베팅 감소로 달러 약세, 이란 전쟁 우려 커져 - 로이터"
+      "headlineKo": "금리 인상 베팅 감소로 달러 약세, 이란 전쟁 우려로 채권 충격 - Reuters"
     },
     {
       "headline": "Bond yields jump, oil extends gains as US-Iran ceasefire expires - Reuters",
@@ -247,18 +268,25 @@ const MARKET_DATA = {
       "headlineKo": "미국-이란 휴전 만료로 채권수익률 급등, 원유 상승폭 확대 - Reuters"
     },
     {
-      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
-      "datetime": 1787015664,
-      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
-    },
-    {
       "headline": "Oil climbs as fading US-Iran peace hopes raise supply risks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
       "datetime": 1787015580,
       "headlineKo": "미국-이란 평화가 약화되면서 공급 위험이 높아질 것이라는 희망으로 유가 상승 - 로이터"
+    },
+    {
+      "headline": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSG9XMjZPS3g0am1fSnhSbndBTlUwbkxHN0FJanR5OFRlZUgwUzZPVjRxcnVGQjUtdmdnYVU5a0xNYXhFcGJNY0t2SlVvTHg3QW1yVFQyRTEyckdHU1hhTFhDRWwyMzZBeTQ0alMxUmJ1TmQ4bVp4aXFNdGljOVJ5WVRNbEptdWZqaVJPVFkydVNQYTBrRmRZMU5PLWZ0cW5qbFp3cTUwOVA1b1FpRnBBMlF2QXRFdw?oc=5",
+      "datetime": 1787015100,
+      "headlineKo": "금은 국채수익률 상승과 유가로 인해 하락했습니다. 연준의 초점 - 로이터"
+    },
+    {
+      "headline": "China surprises oil markets again with a return to stockpiling in July - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOOWM3eVRJMFNmUjRab1RyZFVmQU12ZUVkbDVIUnpRQ2o3WnhSWlJ2RHhFWXE5bDM0WDFydXd1X3haSFQ5WUFVa1lrcFZGVTlUUjREY0NGNHZ3YWxEWDlxQjdIN3F5QTdPVEk5OURMbW9QQ2d2cDJxSVBYZVpoMU9yUU84Y0JkNFZ6anZ1d0FGaHpmek40WUJKTWxpeVZId2tnc0FxNXlLRmZWQmdLZG43SXdHUlBHc2F3MmlSZEpDVnRaRjRUb1hjWnhvOA?oc=5",
+      "datetime": 1787012467,
+      "headlineKo": "중국, 7월 비축 재개로 석유시장 다시 놀라게 - Reuters"
     },
     {
       "headline": "Erdogan urges Trump to pursue talks with Iran, offers support - Reuters",
@@ -273,40 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNmVQMTVLQjc4cmxldlJTQjJiaXFrUFp0cXh6R2xQaGhRS3g2ZGFQbmRwM2pWZTRBQ08yTlhOZHNzVEExVWNVb0tHWmZRU0s5RHhuc3czT19MeXVBeThpejlsZ0puNnJ4UlNCTEg2NjNKYWVObzhDbnJ5UFBaeVFXYjlrZWJnZGhJRHc?oc=5",
       "datetime": 1787006667,
       "headlineKo": "유가 상승으로 월스트리트 지수 하락, 소매 실적 기대 - Reuters"
-    },
-    {
-      "headline": "US to announce steps to help refiners produce more fuel, energy chief Wright says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNkt2WFRJalFmY1h4S0lLcVFXcmtNN1o5U2J4RWVmWGdkVFdLdUYzUnRlTklFX3Nsd1FMaVVNbEdINlUyazI0ajM2dW5Qd0FJNXpac0V2NFp0Yk1sTWMtUVVxQU1MVk1WY0lsUU9fYjF1dXFIVjZzSWs2cUpPN3FHNGhDbXMtcHlLWWd3VmdhSndwOWl3VTkxNmVYSTd2T0tVX2MyT2c1dnJESmdJZ0FISERjQ3JrNEZy?oc=5",
-      "datetime": 1787002616,
-      "headlineKo": "미국, 정유업체가 더 많은 연료를 생산할 수 있도록 지원하는 조치 발표 예정"
-    },
-    {
-      "headline": "A Palestinian American's journey to his West Bank home under settler siege - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemVlSmx3ZkppbzZ6WE9oMzdjekdXOEIzUTBldm5NbG1DY3ZaUkUwSjlwdHFFekRjRDl6elZGdlUxQ1F5YmxTUXlDQTM0RHhKbGNMRlJxN3VsWHI2cGZ6Yjc2V2NaenFxRENiS003SmVYZlhReXEzYW9reUd6UWhyQnJZT1RwZFZyUk1rUFVMTk1ZZVR0MXJxdG1TREs5Sy0xOFdYeFFTemVqejJsN1RmQVZEbGlZY3A4NzJSZW5EWQ?oc=5",
-      "datetime": 1787000626,
-      "headlineKo": "정착민들의 포위 공격을 받고 서안지구의 집으로 향하는 팔레스타인계 미국인 - Reuters"
-    },
-    {
-      "headline": "Battered by war, Iran’s rulers wary of more economic pain and unrest if US tightens pressure - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVEdqbXFtRnNWUFI5Z2k5QkEtMEUwbnR3emVxRTUyMS1IS0pXSWZZdC03aVpWNTFtSzlfN0kzQ3VCUVRpSzZQVGlpeFAyeVJKVGlBVlJicHpPcnBWSkJPcUpIazRPMkJabGJHMl9iRTRMUFRwZ0kxeVV3Sk16Mkx4ei1faDM2S2VDUXI0VHB0R1hyQVFGdU5IU3Nzby1xX2RFaVV4dmtzdmhhSGdKcjRYdDJlYlNLMmI4bGFqcDdZa0x4V0ZfQ3RN?oc=5",
-      "datetime": 1786999929,
-      "headlineKo": "전쟁으로 피해를 입은 이란 통치자들은 미국이 압박을 강화할 경우 더 많은 경제적 고통과 불안을 경계합니다 - 로이터"
-    },
-    {
-      "headline": "Drone targets office of Iraqi Kurdistan's PM, no casualties reported - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5",
-      "datetime": 1786995832,
-      "headlineKo": "드론이 이라크 쿠르디스탄 총리 사무실을 표적으로 삼았지만 사상자는 보고되지 않았습니다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 59.9428571428571,
     "rating": "greed"
   },
-  "_fetched_at": 1787032040.455125,
-  "_updated_label": "2026-08-18 14:47"
+  "_fetched_at": 1787035670.6713939,
+  "_updated_label": "2026-08-18 15:48"
 };
