@@ -60,6 +60,11 @@
   .bucket.sell{background:var(--down-bg);color:#2a4fa0;border-color:#c3d3f5;}
   .rec-list{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px;}
   .rec-chip{background:var(--up-bg);color:var(--up);border:1px solid #f3c3bf;border-radius:999px;padding:7px 13px;font-size:12.5px;font-weight:800;cursor:pointer;}
+  /* 2026-08-19 추가: 요약 칩의 점수 숫자를 눌러 하단 비교 표로 바로 이동 + 그 기준 오름차순 정렬 */
+  .score-num{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;cursor:pointer;}
+  .score-num:hover{opacity:0.7;}
+  #resultTable tbody tr{transition:background-color .3s ease;}
+  #resultTable tbody tr.row-flash{background-color:#fff3b0 !important;}
   .env-table{width:100%;font-size:12.5px;border-collapse:collapse;}
   .env-table td{padding:8px 4px;border-bottom:1px solid var(--line);}
   .env-table td.v{text-align:right;font-family:var(--mono);font-weight:700;}
@@ -581,7 +586,7 @@ function renderHoldings(){
 // 데이터 기준일(renderDataAsOf)은 캐시가 언제 갱신됐는지만 보여주고, "판단 로직이나 설명 문구
 // 자체가 언제 바뀌었는지"는 안 보였음(사용자 지적: "문구가 바뀌었으면 바뀐 일자도 반영되면 좋겠다").
 // 배포 검증할 때도 git log 대신 이 값으로 "최신 코드가 실제로 떴는지" 빠르게 확인 가능.
-const DASHBOARD_VERSION = '2026-08-18b';
+const DASHBOARD_VERSION = '2026-08-19';
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
@@ -703,7 +708,17 @@ let _lastGoodProxy = null;
 // 오히려 폴백을 타느라 느려짐 - 5 정도가 안전하면서 체감 속도가 크게 개선됨.
 const SCAN_CONCURRENCY = 5;
 async function fetchYahooViaProxies(ticker, range='2y'){
-  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=${range}&interval=1d`;
+  // ⚠️ 2026-08-18 버그수정: range=2y처럼 "고정 문자열" 쿼리는 야후 자체 CDN 엣지에서
+  // 심볼+range+interval을 캐시 키로 써서 응답을 캐싱해버림 - 무료 CORS 프록시가 아니라
+  // 야후 쪽이 원인이었음(실측: 프록시에 더미 파라미터(_cb)를 붙여도 range=2y 응답은 계속
+  // 며칠 전 데이터로 캐시된 채였는데, range 대신 period1/period2를 explicit unix timestamp로
+  // 바꾸니 매번 새 쿼리로 인식돼 최신 거래일까지 정상 반영됨 - 두 방식을 직접 비교해 확인함).
+  // 그래서 range 문자열을 유지하되 내부적으로 period1(=now-일수)·period2(=now)로 변환해서 보냄.
+  const RANGE_DAYS = {'1mo':31,'3mo':93,'6mo':186,'1y':366,'2y':731,'5y':1827,'10y':3653};
+  const days = RANGE_DAYS[range] || 731;
+  const nowSec = Math.floor(Date.now()/1000);
+  const period1 = nowSec - days*86400;
+  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?period1=${period1}&period2=${nowSec}&interval=1d`;
   const mk = {
     allorigins: `https://api.allorigins.win/raw?url=${encodeURIComponent(yUrl)}`,
     codetabs:   `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(yUrl)}`,
@@ -732,6 +747,29 @@ async function fetchYahooViaProxies(ticker, range='2y'){
         opens.push(quote.open[i]); highs.push(quote.high[i]); lows.push(quote.low[i]); closes.push(closesRaw[i]);
         volumes.push(quote.volume?.[i] ?? null);
         dates.push(new Date(ts[i]*1000).toISOString().slice(0,10));
+      }
+      // ⚠️ 2026-08-18 추가 확인: 캐시버스팅(위 period1/period2)과는 별개로, 야후가 방금
+      // 마감된 거래일의 종가를 quote.close 배열엔 아직 못 채워넣는 지연이 실측으로 확인됨
+      // (실측: 월요일 장마감 12시간 넘게 지나서도 close[마지막]=null, 그래서 위 루프가
+      // 그 봉을 통째로 버려 "최신 데이터가 며칠 전"처럼 보임). 다만 result.meta의
+      // regularMarketTime/regularMarketPrice는 그 거래일 마감가를 이미 정확히 반영하고
+      // 있었음(실측: AAPL 8/17 종가가 close 배열엔 null인데 meta엔 $305.59로 들어있었고
+      // regularMarketTime도 정확히 그날 미 동부시간 16:00 마감 시각이었음) - meta로
+      // 마지막 봉을 보완함. meta엔 시가가 없어 종가로 근사(차트 캔들 모양에 약간의
+      // 근사 오차가 생길 수 있으나 매일 새 실제 봉이 들어오면 다음 조회부터는 정상 값으로
+      // 대체되므로 일시적 근사임).
+      const meta = result?.meta;
+      if(meta && typeof meta.regularMarketPrice === 'number' && meta.regularMarketTime){
+        const metaDate = new Date(meta.regularMarketTime*1000).toISOString().slice(0,10);
+        const lastDate = dates[dates.length-1];
+        if(!lastDate || metaDate > lastDate){
+          dates.push(metaDate);
+          closes.push(meta.regularMarketPrice);
+          highs.push(typeof meta.regularMarketDayHigh==='number' ? meta.regularMarketDayHigh : meta.regularMarketPrice);
+          lows.push(typeof meta.regularMarketDayLow==='number' ? meta.regularMarketDayLow : meta.regularMarketPrice);
+          opens.push(meta.regularMarketPrice);
+          volumes.push(typeof meta.regularMarketVolume==='number' ? meta.regularMarketVolume : null);
+        }
       }
       if(closes.length < 40) throw new Error('데이터 부족');
       _lastGoodProxy = name;
@@ -1645,7 +1683,7 @@ function renderSummary(){
   // 같이 보여줘서 첫 화면만 봐도 대략의 가격대를 알 수 있게 함. PER은 Finnhub 없는 종목(ETF 등)은 생략.
   const chipInfo = r => `$${r.price.toFixed(2)}${r.perNow!=null?' · PER '+r.perNow.toFixed(1)+'배':''}`;
   document.getElementById('recList').innerHTML = rec.length
-    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} ${r.score}점 · ${chipInfo(r)}</span>`).join('')
+    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}</span>`).join('')
       + (recAll.length > REC_VISIBLE ? `<span class="sub" style="align-self:center;">+${recAll.length-REC_VISIBLE}개 더 있어요 - 아래 비교 표에서 "판단(장기)" 헤더를 눌러 정렬해 보세요.</span>` : '')
     : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
 
@@ -1657,7 +1695,7 @@ function renderSummary(){
   if(box){
     const chips = fresh
       .sort((a,b)=>(b.techScore||0)-(a.techScore||0))
-      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker}${r.techScore>=2?' 강한':''} · ${chipInfo(r)}</span>`).join('');
+      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker} <span class="score-num" title="비교 표를 이 점수(단기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','techScore')">${r.techScore}점${r.techScore>=2?'(강한)':''}</span> · ${chipInfo(r)}</span>`).join('');
     // 2026-08-13 추가: 단타 신호는 종목당 연 3.2회뿐이라(14년치 검증) 대부분의 날엔 0개가 정상인데,
     // "신호가 없으니 아무것도 못 산다"고 오해할 수 있다는 지적이 있었음 - 단기 신호가 없어도 위 ①
     // 장기 눌림목 점수가 매수관심 이상이면 6~12개월 관점에서는 이미 "사도 되는 구간"이라는 걸
@@ -1678,7 +1716,7 @@ function renderSummary(){
         <b>단기 신호에 가장 가까운 종목</b> <span style="font-weight:400;">(RSI가 눌림목 기준까지 얼마나 남았는지 - 참고용, 그 자체로 신호는 아니에요)</span>
       </div>
       <div class="rec-list" style="margin-top:6px;">
-        ${watchList.map(({r,uptrend,gap})=>`<span class="rec-chip" style="background:var(--panel-2);color:var(--text);" onclick="openDetail('${r.ticker}')">${r.ticker} RSI ${r.rsi.toFixed(1)}${uptrend?'(우상향)':'(하락추세)'} · ${gap.toFixed(1)}pt 남음</span>`).join('')}
+        ${watchList.map(({r,uptrend,gap})=>`<span class="rec-chip" style="background:var(--panel-2);color:var(--text);" onclick="openDetail('${r.ticker}')">${r.ticker} RSI <span class="score-num" title="비교 표를 RSI 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','rsi')">${r.rsi.toFixed(1)}</span>${uptrend?'(우상향)':'(하락추세)'} · ${gap.toFixed(1)}pt 남음</span>`).join('')}
       </div>` : '';
     box.innerHTML = `
       <div class="sub" style="margin-bottom:4px;">오늘 새로 난 단타 진입 자리 <span style="font-weight:400;">(쿨다운을 넘긴 첫날만 · 검증 승률 66%의 기준)</span></div>
@@ -1716,6 +1754,26 @@ function renderThemeFilter(){
 
 // ============ 테이블 렌더 (정렬/필터) ============
 let sortKey = 'score', sortDir = -1;
+// 2026-08-19 추가(사용자 요청): 요약 카드의 점수 숫자를 클릭하면 하단 비교 표를 그 지표 기준
+// 오름차순으로 정렬하고 그 종목 행으로 스크롤 - "이 종목이 전체 중 어디쯤인지" 바로 보여줌.
+// 새 정렬 로직 아니고 기존 th 클릭 정렬(sortKey/sortDir)을 그대로 재사용함.
+function jumpToTickerInTable(ticker, key){
+  sortKey = key; sortDir = 1;
+  // 테마·판정·검색 필터가 걸려있으면 그 종목이 표에서 아예 안 보일 수 있어서 초기화함
+  const themeSel = document.getElementById('themeFilter');
+  const verdictSel = document.getElementById('verdictFilter');
+  const searchInput = document.getElementById('tickerSearch');
+  if(themeSel) themeSel.value = '';
+  if(verdictSel) verdictSel.value = '';
+  if(searchInput) searchInput.value = '';
+  renderTable();
+  const row = document.getElementById('tblrow-'+ticker);
+  if(row){
+    row.scrollIntoView({behavior:'smooth', block:'center'});
+    row.classList.add('row-flash');
+    setTimeout(()=>row.classList.remove('row-flash'), 1800);
+  }
+}
 function renderTable(){
   const table = document.getElementById('resultTable');
   const body = document.getElementById('resultBody');
@@ -1742,7 +1800,7 @@ function renderTable(){
   body.innerHTML = rows.map(r=>{
     const chCls = r.drawdownPct>=0?'pos':'neg';
     const capTxt = r.marketCap!=null ? '$'+fmtUsd(r.marketCap) : '-';
-    return `<tr onclick="openDetail('${r.ticker}')">
+    return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
       <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span></td>
@@ -3285,9 +3343,19 @@ function zoomChart(ticker, factor){
   const cur = chartZoom.span || chartWindowSize(techViewOpen);
   const span = Math.max(15, Math.min(fullLen, Math.round(cur * factor)));
   chartZoom.span = span;
-  // 최신 캔들을 보고 있었으면 확대/축소 후에도 계속 오른쪽 끝에 붙여둠(center=null이면 항상 끝에 맞춤)
-  if(atRightEdge) chartZoom.center = null;
-  else if(chartZoom.center!=null) chartZoom.center = clampChartCenter(chartZoom.center, span, fullLen);
+  // 2026-08-19 수정(모바일 사용자 지적: "확대를 누르고 차트를 선택하면 화면이 이상한 곳으로
+  // 바뀐다") - 예전엔 탭으로 찍어둔 봉(chartPinnedIdx)을 무시하고 무조건 '오른쪽 끝' 또는
+  // '이전 중심'으로만 재배치해서, 특정 구간을 보려고 탭한 뒤 확대 버튼을 누르면 그 자리가
+  // 아니라 엉뚱한 곳(대개 최신 날짜 쪽)으로 화면이 튀었음. 탭해서 찍어둔 봉이 있으면 그 봉을
+  // 중심으로 확대하는 걸 최우선으로 함 - 사용자가 보고 있던 자리를 그대로 유지.
+  if(chartPinnedIdx != null){
+    chartZoom.center = clampChartCenter(chartPinnedIdx, span, fullLen);
+  } else if(atRightEdge){
+    // 최신 캔들을 보고 있었으면 확대/축소 후에도 계속 오른쪽 끝에 붙여둠(center=null이면 항상 끝에 맞춤)
+    chartZoom.center = null;
+  } else if(chartZoom.center!=null){
+    chartZoom.center = clampChartCenter(chartZoom.center, span, fullLen);
+  }
   redrawCharts(ticker);
 }
 function zoomChartReset(ticker){
@@ -3346,6 +3414,23 @@ function findChartIndexForDate(dates, targetDate){
   // dates는 오름차순 정렬돼 있다고 가정. targetDate 이상인 첫 인덱스(그 날짜가 속한 봉)를 찾음.
   for(let i=0;i<dates.length;i++){ if(dates[i] >= targetDate) return i; }
   return dates.length - 1; // 전부 그 이전 날짜면 마지막 봉에 붙임
+}
+// 2026-08-19 추가(사용자 지적: "숫자나 목표 이런 텍스트가 잘 안보여"): 차트 위에 겹쳐 그리는
+// 라벨(PER유지/목표/하방 기준선, 매도가 마커 등)이 캔들·격자 위에 그냥 텍스트만 얹혀 있어서
+// 배경 색에 따라 대비가 약해 잘 안 보였음. ctx.font는 반드시 호출부에서 먼저 지정해야 함
+// (measureText가 현재 font를 기준으로 폭을 재기 때문) - 그 폭만큼 살짝 반투명 배경을 깔아줌.
+function fillTextWithBg(ctx, text, x, y, align){
+  ctx.textAlign = align || 'left';
+  const w = ctx.measureText(text).width;
+  const padX = 5, padY = 3;
+  let rx = x - padX;
+  if(ctx.textAlign === 'center') rx = x - w/2 - padX;
+  else if(ctx.textAlign === 'right') rx = x - w - padX;
+  const prevFill = ctx.fillStyle;
+  ctx.fillStyle = 'rgba(255,255,255,0.82)';
+  ctx.fillRect(rx, y - 13, w + padX*2, 17);
+  ctx.fillStyle = prevFill;
+  ctx.fillText(text, x, y);
 }
 function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
   const fullLen = s.closes.length;
@@ -3442,8 +3527,8 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
       ctx.beginPath();
       ctx.moveTo(cx, py+9); ctx.lineTo(cx-6, py-3); ctx.lineTo(cx+6, py-3);
       ctx.closePath(); ctx.fill();
-      ctx.font = 'bold 15px sans-serif'; ctx.textAlign = 'center';
-      ctx.fillText(`매도 $${sale.price.toFixed(0)}`, cx, py-12);
+      ctx.font = 'bold 22px sans-serif';
+      fillTextWithBg(ctx, `매도 $${sale.price.toFixed(0)}`, cx, py-14, 'center');
     });
     ctx.restore();
   }
@@ -3457,7 +3542,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
     pivots.forEach((p,k)=>{ const px=x(p.idx), py=y(p.price); if(k===0) ctx.moveTo(px,py); else ctx.lineTo(px,py); });
     ctx.stroke();
     ctx.setLineDash([]);
-    ctx.font = 'bold 16px monospace'; ctx.textAlign = 'center';
+    ctx.font = 'bold 21px monospace';
     for(let k=1;k<pivots.length;k++){
       const prev = pivots[k-1], cur = pivots[k];
       const pct = (cur.price - prev.price)/prev.price*100;
@@ -3466,7 +3551,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
       let py = cur.type==='high' ? y(wickPrice) - 14 : y(wickPrice) + 26;
       py = Math.max(pad*0.6+14, Math.min(H-pad*0.6, py));
       ctx.fillStyle = pct>=0 ? '#d8453e' : '#3b6fd8';
-      ctx.fillText((pct>=0?'+':'')+pct.toFixed(1)+'%', px, py);
+      fillTextWithBg(ctx, (pct>=0?'+':'')+pct.toFixed(1)+'%', px, py, 'center');
     }
     ctx.restore();
   }
@@ -3489,7 +3574,7 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
     const segStartIdx = Math.max(0, n-1-segLen);
     const segX = x(segStartIdx);
     ctx.save();
-    ctx.font = 'bold 17px monospace'; ctx.textAlign = 'left';
+    ctx.font = 'bold 22px monospace';
     let aboveSlot = 0, belowSlot = 0;
     lines.forEach(L=>{
       if(L.v >= min && L.v <= max){
@@ -3498,14 +3583,14 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
         ctx.beginPath(); ctx.moveTo(segX, py); ctx.lineTo(W-pad, py); ctx.stroke();
         ctx.setLineDash([]); ctx.globalAlpha = 1;
         ctx.fillStyle = L.color;
-        ctx.fillText(`${L.label}(오늘 기준) $${L.v.toFixed(0)}`, segX+4, py-5);
+        fillTextWithBg(ctx, `${L.label}(오늘 기준) $${L.v.toFixed(0)}`, segX+4, py-8, 'left');
       } else {
         // 범위 밖 - 가장자리에 방향 화살표로 표시
         const above = L.v > max;
-        const py = above ? pad*0.75 + aboveSlot*20 : H - pad*0.5 - belowSlot*20;
+        const py = above ? pad*0.75 + aboveSlot*26 : H - pad*0.5 - belowSlot*26;
         if(above) aboveSlot++; else belowSlot++;
         ctx.fillStyle = L.color; ctx.globalAlpha = 0.9;
-        ctx.fillText(`${above?'▲':'▼'} ${L.label}(오늘 기준) $${L.v.toFixed(0)} (차트 밖)`, segX+4, py);
+        fillTextWithBg(ctx, `${above?'▲':'▼'} ${L.label}(오늘 기준) $${L.v.toFixed(0)} (차트 밖)`, segX+4, py, 'left');
         ctx.globalAlpha = 1;
       }
     });
@@ -3516,8 +3601,8 @@ function drawCandleChart(canvas, s, hoverIndex, showSignals, ticker){
   // (밸류에이션 민감도 섹션과 동일 계산, computeFairValue 참고) - 새 계산 아니고 기존 값 재사용.
   if(fv && fv.fwd && fv.fwd.anchorPe!=null){
     ctx.save();
-    ctx.font = 'bold 19px monospace'; ctx.textAlign = 'right'; ctx.fillStyle = '#4b5157';
-    ctx.fillText(`올해 실적 기준 PER ${fv.fwd.anchorPe.toFixed(1)}배`, W-pad-4, pad*0.75);
+    ctx.font = 'bold 22px monospace'; ctx.fillStyle = '#4b5157';
+    fillTextWithBg(ctx, `올해 실적 기준 PER ${fv.fwd.anchorPe.toFixed(1)}배`, W-pad-4, pad*0.75, 'right');
     ctx.restore();
   }
 
