@@ -87,6 +87,13 @@
   .b-sell{background:var(--down-bg);color:#2a4fa0;border-color:#c3d3f5;}
   .pos{color:var(--up);} .neg{color:var(--down);}
   .new-badge{display:inline-block;background:var(--accent);color:#fff;font-size:9.5px;font-weight:800;letter-spacing:0.3px;padding:1px 5px;border-radius:5px;margin-left:5px;vertical-align:middle;}
+  /* 2026-08-19: 뉴스 헤드라인 자동 키워드 분류 태그 (gpt_dashboard의 analyzeNews()를 참고해 이식 -
+     실제 LLM 해석이 아니라 제목 키워드 매칭이라 정확도가 낮음을 태그 자체에 명시함) */
+  .news-auto-tag{display:inline-block;padding:1px 7px;border-radius:999px;font-size:10px;font-weight:800;font-family:var(--sans);white-space:nowrap;margin-left:6px;vertical-align:middle;}
+  .news-auto-positive{background:var(--up-bg);color:#a8322c;}
+  .news-auto-risk{background:var(--down-bg);color:#2a4fa0;}
+  .news-auto-mixed{background:var(--warn-bg);color:#876000;}
+  .news-auto-neutral{background:var(--panel-2);color:#626b76;}
 
   .glossary{font-size:12px;color:var(--sub);line-height:1.85;margin-top:4px;}
   .glossary b{color:var(--text);}
@@ -936,9 +943,11 @@ const HINTS = {
   marketDip: "미국 시장 전체(S&P500)가 고점 대비 8% 이상 빠져있으면 +1이에요. 시장 전체가 조정 중일 때가 우량주 매수엔 오히려 좋았어요(단 이건 표본이 적어 소폭만 반영).",
   fairValue: "'내년에 예상되는 이익(애널리스트 컨센서스)에 지금 시장이 이 회사에 매기는 PER을 그대로 적용하면 주가가 얼마일까'를 계산한 참고치예요. 기업의 절대적인 가치를 구하는 게 아니라 EPS·PER 가정을 하나씩 바꿔봤을 때 가격이 얼마나 민감하게 움직이는지 보여주는 '민감도 분석'이라서, '적정주가'보다 '밸류에이션 민감도(PER 유지 시나리오)'라는 이름이 더 정확해요. 보수/낙관 배수(0.64/1.55배)는 대형주 13년치 실측 PER 분포(20/80백분위)에서 가져왔어요. 단, 검증해보니 '이 값보다 싸다'가 이후 수익률을 예측하지 못했으니(오히려 반대) 매수 신호가 아니라 가격 눈금으로만 쓰세요.",
   signalHistory: "최근 단타 진입 신호가 언제·얼마에 떴는지, 그 뒤로 지금까지 얼마나 움직였는지예요. 늦게 확인했을 때 '아직 유효한 자리인지'를 판단하려고 넣었어요. 14년치 검증상 신호 당일 대신 다음날 사도 승률 차이가 1.3%p뿐이라, 하루이틀 늦은 건 큰 문제가 아니었어요.",
+  gptSignalCompare: "gpt_dashboard(별도 프로젝트, Codex/ChatGPT가 만듦)가 이 신호(클로드 규칙)와 자기네 신호(GPT 규칙)를 25종목·2016~2021 학습 → 2022~2026 검증으로 직접 비교해둔 결과예요. 우리 쪽에서 새로 돌린 백테스트가 아니라 gpt_dashboard 소스코드(gpt_signal_research_v3_results.json)에 있던 수치를 그대로 옮겨온 참고 자료라, 종목 구성·검증 기간이 이 대시보드의 공식 SIGNAL_STATS(14종목·14년치)와는 달라요. 두 도구를 오가며 신호를 확인할 때 참고하세요.",
   sellGuide: "흔히 쓰는 매도 규칙(RSI 과매수, 200일선 이탈, 신고가권)을 대형주 13년치로 검증했더니 전부 '계속 보유'보다 나을 게 없었어요. 특히 과매수에 팔면 가장 좋은 구간을 놓쳤어요. 그래서 매도는 주가 지표가 아니라 손절 규칙·펀더멘털 훼손으로 판단하라고 안내해요. 오른쪽은 이 점수에서 샀을 때 과거에 실제로 견뎌야 했던 하락폭과 기간이에요.",
   backtestReliability: "이 대시보드의 모든 검증 수치(승률·초과수익 등)가 얼마나 믿을 만한지 스스로 점검한 결과예요. 학습/검증 기간을 나누고 시기를 이동시켜(워크포워드) 재확인했고 미래 데이터를 미리 보지 않도록(look-ahead 방지) 만들었지만, 생존편향(지금 살아남은 우량주만 표본)과 배당·매매비용 미반영은 구조적 한계로 남아있어요. 승률 숫자 자체보다 '어떤 조건에서 얼마나 믿을 만한 숫자인지'를 함께 보는 용도예요.",
   news: "Finnhub이 제공하는 최근 헤드라인이에요. 주가가 갑자기 움직일 때 '왜?'를 빠르게 확인하는 용도예요. 제목만 보여주고 내용의 사실 여부나 중요도는 검증하지 않으니, 판단은 원문을 직접 읽고 하세요.",
+  newsAutoTag: "헤드라인 옆 색깔 태그는 gpt_dashboard를 참고해 만든 자동 분류예요. AI가 기사를 읽고 해석한 게 아니라, 제목에 '감원/투자/성장/하락' 같은 영어·한글 키워드가 있는지만 코드로 확인해서 붙인 거예요(실제로 LLM을 호출하지 않아요). 그래서 반어법이나 맥락은 전혀 못 읽고 틀리기 쉬워요 - 정말 중요한 뉴스는 이 태그가 아니라 06 뉴스 탭의 Claude 해석(newsLog)이나 원문을 직접 확인하세요.",
   riskProfile: "이 종목이 과거에 실제로 얼마나 빠졌고, 저점에서 전고점까지 회복하는 데 얼마나 걸렸는지예요. 예측이 아니라 이미 일어난 사실이에요. 분할매수(-10%/-19%/-27%) 계획이 이 종목에 현실적인지, 그리고 물렸을 때 얼마나 기다릴 각오를 해야 하는지 가늠하는 용도예요.",
   refIndicators: "PER·부채비율·EPS성장·RSI·VIX·F&G예요. 백테스트 결과 이들은 '매수 타이밍'을 예측하지 못하거나 오히려 반대여서 점수에는 안 넣었어요. 하지만 '어떤 우량주를 고를지' 판단할 때는 여전히 참고할 만해서 값만 보여줘요. (자세한 건 아래 '장기 판단 채점 기준' 카드 참고)",
   // 기술적 지표 뷰
@@ -2064,7 +2073,7 @@ function tabJudgement(r){
         ${techViewOpen ? '▲ 단타 신호 상세 닫기' : '▼ 단타 신호 상세 보기 (진입판단·RSI·MACD·과거 신호)'}
       </div>
     </div>
-    <div id="techSection">${techViewOpen ? renderTradePlan(r) + renderSignalHistory(r) + renderTechSection(r) : ''}</div>
+    <div id="techSection">${techViewOpen ? renderTradePlan(r) + renderSignalHistory(r) + renderGptSignalComparison() + renderTechSection(r) : ''}</div>
     ${renderFairValueSection(r)}
     ${renderRiskSection(r)}
     ${renderSellGuide(r)}
@@ -2662,6 +2671,46 @@ function renderSignalHistory(r){
     ${signalEventCheck(r, stillValid)}`;
 }
 
+// ---- GPT 신호와 비교 (2026-08-19, gpt_dashboard의 SignalComparison 결과를 참고자료로 이식) ----
+// [배경] 사용자가 "gpt_dashboard에서 보는 단타/장기 신호랑 우리 걸 승률로 비교해보자"고 요청함.
+// gpt_dashboard 소스(app/page.tsx의 computeSignalSeries/computeGptSignalSeries/SignalComparison)를
+// 열어보니 이미 그 대시보드 안에 "클로드 신호 vs GPT 신호" 비교 화면이 있었고, 그 수치는
+// gpt_signal_research_v3.py(25종목·2016~2021 학습→2022~2026 검증 out-of-sample 고정 워크포워드)가
+// 만든 gpt_signal_research_v3_results.json에서 나온 것이었음. 우리가 새로 백테스트를 돌린 게
+// 아니라 그 결과를 그대로 옮겨온 것이므로, 이 대시보드의 공식 SIGNAL_STATS(14종목·14년치)와는
+// 표본·기간이 다르다는 걸 카드에 명시함(다른 출처 숫자를 같은 신뢰도로 섞어 보여주면 안 됨).
+// GPT 신호 요약: 200일선 위는 RSI(2)≤5 급락 또는 볼린저 하단 재진입, 200일선 아래는 20일 고점대비
+// -8% 이상 급락 후 RSI(14) 반등(둘 다 쿨다운 5일). 클로드 신호는 이 대시보드의 기존 규칙과 동일
+// (RSI 30~38 우상향 눌림 또는 RSI<30 과매도+반등확인).
+const GPT_SIGNAL_RESEARCH = {
+  updated: '2026-08 (gpt_dashboard 소스 기준)',
+  method: '25종목 · next-open 진입 · 쿨다운 5일 · 2016~2021 학습 / 2022~2026 검증(out-of-sample)',
+  claude: {n:346, h10:61.8, h15:66.2, h20:61.6},
+  gpt:    {n:616, h10:60.4, h10avg:2.2, h15:63.0, h15avg:3.6, h20:62.8, h20avg:4.3},
+};
+function renderGptSignalComparison(){
+  const c = GPT_SIGNAL_RESEARCH.claude, g = GPT_SIGNAL_RESEARCH.gpt;
+  return `
+    <div class="chart-label" style="margin-top:18px;">GPT 신호와 비교 ${hintIcon('gptSignalCompare')}</div>
+    <div class="fund-grid">
+      <div class="fund-col">
+        <div class="sub" style="font-weight:700;margin-bottom:2px;">클로드 · 이 대시보드의 기존 신호</div>
+        <div class="fund-row"><span>검증구간 신호 수</span><span class="v">${c.n}건</span></div>
+        <div class="fund-row"><span>10일 승률</span><span class="v">${c.h10}%</span></div>
+        <div class="fund-row"><span>15일 승률</span><span class="v">${c.h15}%</span></div>
+        <div class="fund-row"><span>20일 승률</span><span class="v">${c.h20}%</span></div>
+      </div>
+      <div class="fund-col">
+        <div class="sub" style="font-weight:700;margin-bottom:2px;">GPT · gpt_dashboard의 추세별 2모드 신호</div>
+        <div class="fund-row"><span>검증구간 신호 수</span><span class="v">${g.n}건</span></div>
+        <div class="fund-row"><span>10일 승률</span><span class="v">${g.h10}% <span class="sub">(평균 +${g.h10avg}%)</span></span></div>
+        <div class="fund-row"><span>15일 승률</span><span class="v">${g.h15}% <span class="sub">(평균 +${g.h15avg}%)</span></span></div>
+        <div class="fund-row"><span>20일 승률</span><span class="v">${g.h20}% <span class="sub">(평균 +${g.h20avg}%)</span></span></div>
+      </div>
+    </div>
+    <div class="sub" style="margin-top:8px;">${esc(GPT_SIGNAL_RESEARCH.method)}. GPT 신호는 하락추세 회복(200일선 아래) 국면을 추가로 잡아내서 신호 수가 78% 더 많지만, 10일·15일 승률은 클로드 신호보다 낮고(60.4% vs 61.8%, 63.0% vs 66.2%) 20일만 근소 우위예요(62.8% vs 61.6%) - 신호가 많다고 더 좋은 건 아니라는 뜻이에요. 저희 쪽 공식 수치(SIGNAL_STATS, 14종목·14년치·10일 66%)와는 종목·기간이 달라 직접 비교는 참고만 하세요 - 우리가 새로 검증한 숫자가 아니라 gpt_dashboard 소스에 있던 결과를 그대로 옮겨온 거예요.</div>`;
+}
+
 // ---- 신호 × 이벤트/뉴스 교차 점검 ----
 // ⚠️ 정직하게: 과거 실적일·뉴스 이력은 Finnhub 무료 티어로 조회가 안 돼서(2015년 조회 0건, 최근 4분기만)
 // "뉴스 좋으면 매수" 같은 규칙은 백테스트로 검증할 수가 없음. 그래서 여기서는 뉴스로 신호를 바꾸지 않고,
@@ -3168,6 +3217,35 @@ function earningsBadge(ticker){
     ${soon?'<br>발표 직후엔 하루 ±10% 이상 움직이는 일이 흔해요. 지금 새로 진입한다면 발표 결과에 베팅하는 셈이니, 비중을 줄이거나 발표 뒤로 미루는 것도 방법이에요.':''}
   </div>`;
 }
+// ---- 뉴스 헤드라인 자동 키워드 분류 (2026-08-19, gpt_dashboard의 analyzeNews() 이식) ----
+// [배경] gpt_dashboard(Codex/ChatGPT가 만든 별도 프로젝트)에 뉴스 제목을 [핵심내용]/[왜 중요한가]/
+// [초보자용] 3단으로 "해석"해주는 기능이 있어서 사용자가 "우리도 적용해보자"고 요청함. 실제로
+// 코드를 열어보니 LLM을 호출하는 게 아니라 제목(영문+번역)에 키워드가 있는지만 보고 미리 써둔
+// 문장 중 하나를 고르는 규칙 기반 분류였음(진짜 "해석"이 아니라 톤 분류에 가까움).
+// 이 프로젝트는 이미 2026-08-13에 같은 요청("헤드라인 클릭하면 AI 해석")을 검토했고, 사용자가
+// "이상징후 자동감지 + 해석은 Claude가 세션에서 직접(비용 없이)" 방식을 선택해 자동 LLM 해석은
+// 안 쓰기로 확정한 바 있음(CLAUDE.md "TwelveData 키 등록 여부 배지 + 시장 이상징후 자동 로그"
+// 항목 참고) - 그 원칙(지어내지 않는다)과 gpt_dashboard 방식(제목만 보고 그럴듯한 문장을 고름)이
+// 충돌해서, 2026-08-19 세션에서 다시 사용자에게 확인함 → **"참고용 태그로만" 추가하기로 결정**.
+// 그래서 이건 newsLog(Claude가 실제로 조사해 쓴 해석)를 대체하지 않고, 그 옆에 붙는 가벼운 자동
+// 신호일 뿐임을 태그 자체와 hint에 명시함(정확도 낮음 표기).
+function autoNewsTone(headline, headlineKo){
+  const text = `${headline||''} ${headlineKo||''}`.toLowerCase();
+  const has = (...words) => words.some(w => text.includes(w));
+  const costCut = has('layoff','job cut','restructur','cost cut','workforce','감원','구조조정','인건비','비용 절감');
+  const aiInfra = has('ai','artificial intelligence','data center','datacenter','infrastructure','인프라','데이터센터','반도체');
+  const debtCash = has('debt','cash flow','free cash flow','capex','부채','현금흐름','잉여현금','설비투자');
+  const growth = has('beat','growth','record','raise','surge','expand','contract','성장','기록','상향','확대','계약');
+  const weak = has('weak','decline','drop','cut','warning','risk','lawsuit','shortage','constraint','하락','감소','경고','위험','소송','부족');
+  if(costCut && (aiInfra || debtCash)) return {tone:'mixed', label:'투자·비용 혼재'};
+  if(growth && !weak) return {tone:'positive', label:'성장·확대'};
+  if(weak) return {tone:'risk', label:'위험 요인'};
+  return {tone:'neutral', label:'중립'};
+}
+function newsAutoTagHtml(headline, headlineKo){
+  const r = autoNewsTone(headline, headlineKo);
+  return `<span class="news-auto-tag news-auto-${r.tone}" title="자동 키워드 분류(정확도 낮음) - 자세히는 ? 아이콘 참고">${esc(r.label)}</span>`;
+}
 function renderNewsSection(r){
   const e = newsEntry(r.ticker);
   if(!e || !(e.news||[]).length) return '';
@@ -3181,14 +3259,14 @@ function renderNewsSection(r){
       ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow" style="color:var(--text);">${shown}</a>`
       : shown;
     return `<div class="fund-row" style="align-items:flex-start;gap:10px;">
-      <span style="flex:1;">${link}${ko?`<div class="sub" style="font-size:10.5px;margin-top:2px;">${en}</div>`:''}</span>
+      <span style="flex:1;">${link}${newsAutoTagHtml(n.headline, n.headlineKo)}${ko?`<div class="sub" style="font-size:10.5px;margin-top:2px;">${en}</div>`:''}</span>
       <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;">${esc(n.source)} ${dt}</span>
     </div>`;
   }).join('');
   return `
     <div class="chart-label" style="margin-top:18px;">최근 뉴스 ${hintIcon('news')}</div>
     ${items}
-    <div class="sub" style="margin-top:6px;">Finnhub 제공 헤드라인 (${esc(e._updated_label||'')} 기준) · 제목만 표시하며 내용의 사실 여부는 검증하지 않아요. 링크는 새 창으로 열려요.</div>`;
+    <div class="sub" style="margin-top:6px;">Finnhub 제공 헤드라인 (${esc(e._updated_label||'')} 기준) · 제목만 표시하며 내용의 사실 여부는 검증하지 않아요. 색깔 태그는 자동 키워드 분류예요(AI 해석 아님) ${hintIcon('newsAutoTag')} · 링크는 새 창으로 열려요.</div>`;
 }
 
 // ============ 06 뉴스 탭 (2026-08-13 추가) ============
