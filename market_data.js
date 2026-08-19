@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.859999656677246,
+      "current": 15.819999694824219,
       "prevClose": 15.84000015258789,
-      "changeAbs": 0.01999950408935547,
-      "changePct": 0.1262594942973407,
-      "pctRank": 28.662420382165603,
+      "changeAbs": -0.020000457763671875,
+      "changePct": -0.12626551496847216,
+      "pctRank": 28.18471337579618,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.92109485868481,
-      "ma20": 16.358999919891357,
-      "ma60": 16.96816658973694,
-      "chg1m": -1.1899995803833008,
-      "chg3m": -1.580000877380371,
-      "chg1mPct": -6.979469991979068,
-      "chg3mPct": -9.059637780944298,
+      "drawdown1y": -49.04991921564417,
+      "ma20": 16.356999921798707,
+      "ma60": 16.967499923706054,
+      "chg1m": -1.2299995422363281,
+      "chg3m": -1.6200008392333984,
+      "chg1mPct": -7.214073884312867,
+      "chg3mPct": -9.288995353353275,
       "lastDate": "2026-08-19",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.01000213623047,
+      "current": 84.80000305175781,
       "prevClose": 84.94000244140625,
-      "changeAbs": 0.06999969482421875,
-      "changePct": 0.08241075207468507,
-      "pctRank": 75.33810660302306,
+      "changeAbs": -0.1399993896484375,
+      "changePct": -0.16482150414937013,
+      "pctRank": 75.0994431185362,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.736605194256754,
-      "ma20": 82.4794994354248,
-      "ma60": 81.21299997965495,
-      "chg1m": 0.09999847412109375,
-      "chg3m": -22.759994506835938,
-      "chg1mPct": 0.11776995619859751,
-      "chg3mPct": -21.119045389058428,
+      "drawdown1y": -24.922527363487866,
+      "ma20": 82.46899948120117,
+      "ma60": 81.20949999491374,
+      "chg1m": -0.1100006103515625,
+      "chg3m": -22.969993591308594,
+      "chg1mPct": -0.12954964739996785,
+      "chg3mPct": -21.313903968453367,
       "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.39299774169922,
+      "current": 99.39099884033203,
       "prevClose": 99.6500015258789,
-      "changeAbs": -0.2570037841796875,
-      "changePct": -0.25790645282924973,
+      "changeAbs": -0.259002685546875,
+      "changePct": -0.2599123748930526,
       "pctRank": 30.46937151949085,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.1818746730983496,
-      "ma20": 100.1731502532959,
-      "ma60": 100.34455019632975,
-      "chg1m": -1.7870025634765625,
-      "chg3m": 0.09299468994140625,
-      "chg1mPct": -1.7661618482769956,
-      "chg3mPct": 0.09365023875471075,
+      "drawdown1y": -2.1838419020671407,
+      "ma20": 100.17305030822754,
+      "ma60": 100.34451688130697,
+      "chg1m": -1.78900146484375,
+      "chg3m": 0.09099578857421875,
+      "chg1mPct": -1.7681374376831613,
+      "chg3mPct": 0.09163724650319428,
       "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4416.0,
+      "current": 4422.39990234375,
       "prevClose": 4366.0,
-      "changeAbs": 50.0,
-      "changePct": 1.1452130096197892,
-      "pctRank": 91.40811455847255,
+      "changeAbs": 56.39990234375,
+      "changePct": 1.291798038106963,
+      "pctRank": 91.48766905330152,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.967507500631417,
-      "ma20": 4223.199987792968,
-      "ma60": 4208.485001627604,
-      "chg1m": 344.89990234375,
-      "chg3m": -90.2998046875,
-      "chg1mPct": 8.47190916632854,
-      "chg3mPct": -2.0038570135428895,
+      "drawdown1y": -16.847172391176237,
+      "ma20": 4223.519982910157,
+      "ma60": 4208.591666666666,
+      "chg1m": 351.2998046875,
+      "chg3m": -83.89990234375,
+      "chg1mPct": 8.629112433018898,
+      "chg3mPct": -1.861835785015379,
       "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,74 +219,81 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "South Korea minister says Trump appears to be pressuring Seoul over Iran, investment - reuters.com",
+      "headline": "Turkey slams Israel's 'untenable' claims after strikes on Syrian base - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeTdCNlA1LTNVZ0ttZ2VXTGJLVnR5YjBnUnZMNFVWVzc5cUJEcHdxekdHLXBzcDNLUnp1TUx4N3J6SzJQQ0pOTEtSRFVWOTJpZC1xZEd4QTA1TkpEaG1mOXdTM2pQWU5kV3FqWTM3SlJUZEYyb180ZWxMRHlSZlVveDMtWkNJMTFwMWs0VTB6R1M1aHhNRVAzdXc2V29oOVBBRV8wM2FmWnE4OTNJVWpWU3E0Z0VBcnQ4?oc=5",
+      "datetime": 1787128629,
+      "headlineKo": "터키, 시리아 기지 공습 이후 이스라엘의 '옹호할 수 없는 주장' 비난 - 로이터"
+    },
+    {
+      "headline": "South Korea minister says Trump appears to be pressuring Seoul over Iran, investment - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQTVZrYXM5NGpibkZyR1hqU0JpVWV4S084VkR4UGhsUDItUlpodjhuSl90NkJXdXBSc3NEcFZ2QzVIZFpoLXpDNWliT014aW9IbnNOd2o4eWUyZ2gyOFU4bHhSam1uczNnMVRrdlhHcVBKZDNqdWk2eTBJUkdWcjdSZEJfZ0pwQ0YzVk9vbmU2RFdOOTdQVE53WDNyOFUzend2Z01CaHBGaVFWc2hrSWxPdXMzV3Zfa083S2poUTI4b3hhM3FtVURfWXRsTmp5cFNY?oc=5",
       "datetime": 1787116740,
-      "headlineKo": "한국 장관은 트럼프가이란과 투자에 대해 한국을 압박하는 것으로 보인다고 말했다 - reuters.com"
+      "headlineKo": "한국 장관은 트럼프가이란과 투자에 대해 한국을 압박하는 것으로 보인다고 말했다 - 로이터"
     },
     {
-      "headline": "Pictures of the Day | August 18, 2026 - reuters.com",
+      "headline": "Pictures of the Day | August 18, 2026 - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9LaVExX2JhY0VxcXFVanBJbWdlSk9OeGZTbnpsSTV5VmJkMjY1VHJIcWFHZGg3bDRjTWpGSHVNU3g5TmhsSE9kVE1URmdQbVJzRS1WaTFPZDBSaWZZZHJrdG1IbmpfX0x5ZVpMaUpvNXBUYlhYX251YzBpQlU?oc=5",
       "datetime": 1787112693,
-      "headlineKo": "오늘의 사진 | 2026년 8월 18일 - reuters.com"
+      "headlineKo": "오늘의 사진 | 2026년 8월 18일 - 로이터"
     },
     {
-      "headline": "Hormuz traffic slows as uncertainty over waterway persists - reuters.com",
+      "headline": "Hormuz traffic slows as uncertainty over waterway persists - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYldMdWw5dWFaM0VrQzE2U1ZvSTc2VHhrVmdJNmRDV3h6dUtUTGFmS01FRjdMeHJBaExMNEgzYWxGMlZEQlpQSEwycU5zMXZGckUtT3BHY1cwaTNiT0JhZVBIbnVZTFp5OTRwLUJmbFlpdWJMdlRiZjV5OWtYM3pBOUpXSFphWFlsRVF2YVhoWTBQcnQ0UFF2QXV2enNuRlZJa1ROMUtFaHhwN0M0ZVE?oc=5",
       "datetime": 1787110740,
-      "headlineKo": "수로 불확실성 지속으로 호르무즈 교통 둔화 - reuters.com"
+      "headlineKo": "수로 불확실성 지속으로 호르무즈 교통 둔화 - 로이터 통신"
     },
     {
-      "headline": "Oil hits three-week high on uncertainty over Hormuz - reuters.com",
+      "headline": "Oil hits three-week high on uncertainty over Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
       "datetime": 1787099940,
-      "headlineKo": "호르무즈 관련 불확실성으로 유가 3주 최고치 기록 - reuters.com"
+      "headlineKo": "호르무즈 사태 불확실성으로 유가 3주 최고치 기록 - Reuters"
     },
     {
-      "headline": "Tech selloff weighs down Wall Street as bond yields climb - reuters.com",
+      "headline": "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
       "datetime": 1787093934,
-      "headlineKo": "채권수익률 상승으로 기술주 매각으로 월스트리트 압박 - reuters.com"
+      "headlineKo": "채권수익률 상승으로 기술 매각으로 월스트리트 압박 - Reuters"
     },
     {
-      "headline": "US yields edge lower despite Iran worries, broader sell-off - reuters.com",
+      "headline": "US yields edge lower despite Iran worries, broader sell-off - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaERYcG1nTmtNcy1ia2hGekZQaVp4X1Y5RHlab3QydTVDV2tfSVZmQnctVC1iaWFmZ2xJRmN6U3pzNk1wdUx1VlpQWmF6WTZsdmtfdmF3SmpGUWYzMzluM3JEVVBVTmZXU2NfMG9lcjRzUktxWEZNZDZxbTE1Q2FkVmd4Mmd3ekpxeHY3RWtpRC14QmV0SktSNA?oc=5",
       "datetime": 1787088027,
-      "headlineKo": "이란 우려와 광범위한 매도세에도 불구하고 미국 금리는 하락세 - reuters.com"
+      "headlineKo": "이란 우려와 광범위한 매도에도 불구하고 미국 금리는 하락세 - Reuters"
     },
     {
-      "headline": "Iran says its ambassador met four nationals detained in Kuwait - reuters.com",
+      "headline": "Iran says its ambassador met four nationals detained in Kuwait - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOVdVSDlSYWtwSUJCQnpSakUyM0pJQW1EQTNCNjBUcENkaC1sNE1xVWpRNnB6YW9ZSWF4cnVhY3JmZmpjNFJ4eGpJN0pBdnVnWVNtdVhlX3FzUWdSTkRQZ1VyTWh6Y0JvU1VCWlZCMmhHM1ctSnU2VVgtTjNHWXBCQ0oyMU01M3VyZTdJWl9QWVRNeUE0ZG1lelZac0o0RUxMR1pLZ2ZtTWZMb1ZNVTVBSVQ3OA?oc=5",
       "datetime": 1787086339,
-      "headlineKo": "이란 대사는 쿠웨이트에 억류된 국민 4명을 만났다고 밝혔습니다."
+      "headlineKo": "이란 대사는 쿠웨이트에 억류된 국민 4명을 만났다고 밝혔습니다 - 로이터"
     },
     {
-      "headline": "France to expel two Iranian diplomats in coming days, foreign minister says - reuters.com",
+      "headline": "France to expel two Iranian diplomats in coming days, foreign minister says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTmFLeHRiWmVCUHhXbVM1d1VIS1RlNlh5YVI3cnB3Rzh6emVZTEtuTENUeUp4R3RUbkhfOFhrTHo5bTRRUEZnc2plT3U4NFFWMHVyZENpUDR4ZnBUVVBobFY4TUs2eHU5dHR3Z0UtcE5EMzFpdDlwRHE5YWpKLXRweXhNeXZpUGRyQjJ4QTRXLUxDNS1JOGEwM2R0M3ltYVRnS2hCdnMxU09yUGl0dkpj?oc=5",
       "datetime": 1787083918,
-      "headlineKo": "프랑스 외무장관 \"이란 외교관 2명 곧 추방할 것\" - reuters.com"
+      "headlineKo": "프랑스 외무장관 \"앞으로 이란 외교관 2명 추방할 것\" - 로이터 통신"
     },
     {
-      "headline": "DOJ unseals new charges against 17 hackers in Iran-backed campaign - reuters.com",
+      "headline": "DOJ unseals new charges against 17 hackers in Iran-backed campaign - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYk0tOWhsY2J3Vnp5Q3B5ek1SaW9UOTVqbnFGU3pQREFHUERJSTFYWndYODZ3MDduQ2tuWUtOSjNGN29McFM4Zk81MDEzcHlNalE4aEpaWXRCUlVTSERDajdpSnU3SC16azNwSG8zRFZCVnJWbGF1QzlSZ2hqYl93RlNIcHc1VV9ra0tfTGp4c0ttQl82Z2JHc3A0ZC1Nd0pQV2RmbTVBcHFJdlpwS3RuLU5IQnB3UDg?oc=5",
       "datetime": 1787083090,
-      "headlineKo": "DOJ, 이란 지원 캠페인에 참여한 해커 17명에 대한 새로운 혐의 공개 - reuters.com"
+      "headlineKo": "DOJ, 이란 지원 캠페인에 참여한 해커 17명에 대한 새로운 혐의 공개 - Reuters"
     },
     {
-      "headline": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says - reuters.com",
+      "headline": "US working on deconfliction mechanism among Turkey, Israel and Syria, US envoy says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVlZuUXBialdJbERhTVMyN3NRUkxUY251V1g4c3RDS0EyUnNEVWhNcGVFTFNETFZRLTJFcUpWaEdwS0NuQ1FTck1mNURabzBNbnMtNV9RRDQzQ1d2RHlHUHFlNWdPUFlselFNSElSVmJ1ZklSUlUyaGdCbVEwMTE3YnlzMG0yUkQyNWJZSHpHVFgwZlhkTHlDaUxNMGlzQ1VVM01WaTRSVDNLZjJJT2Z3WkttVW5RZFM0R3h2M0tDSklkZGhoSkhJ?oc=5",
       "datetime": 1787082130,
-      "headlineKo": "미국은 터키, 이스라엘, 시리아 간의 갈등 해소 메커니즘을 연구하고 있다고 미국 특사가 밝혔습니다 - reuters.com"
+      "headlineKo": "미국은 터키, 이스라엘, 시리아 간의 갈등 해소 메커니즘을 연구하고 있다고 미국 특사가 밝혔습니다. - 로이터 통신"
     },
     {
       "headline": "U.S. government debt yields are surging at a bad time. Here's what's behind the move",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/18/us-government-debt-yields-are-surging-at-a-bad-time-heres-whats-behind-the-move.html",
       "datetime": 1787073994,
       "headlineKo": "미국 정부 부채 수익률이 어려운 시기에 급등하고 있다. 이번 움직임의 배경은 다음과 같습니다"
-    },
-    {
-      "headline": "Israel kills six in Gaza on day after Kushner meeting with Netanyahu, medics say - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWUljaVdkdjZZMngxR1FnWEVjQ25STWQxNDRtVVNGV0dUdFkzN0tVWUh6UmtPTlZVZU14eTBuWW13Um9WUzZ1QzlBS0tHcFhhakc3aUZOVnc5QlJ2aFpqSF9fejNPd3ZUMFpMN2Q0RVhSVFM3ZHVJWHlka05acUpTY3lQdFFSSDZHbzJzLWxTOXdOdk9QbUI5Rm4yd1ZGUzJ1UTNwbjRhRXpNTkxnZG9LbzVTRGdfbEd0VGw3M1FGRzdoRW1CY3c?oc=5",
-      "datetime": 1787072520,
-      "headlineKo": "쿠슈너가 네타냐후를 만난 다음 날 이스라엘이 가자지구에서 6명을 살해했다고 의료진이 밝혔습니다 - reuters.com"
     }
   ],
   "fgi": {
     "score": 53.5714285714286,
     "rating": "neutral"
   },
-  "_fetched_at": 1787133954.3630085,
-  "_updated_label": "2026-08-19 19:06"
+  "_fetched_at": 1787137833.4997406,
+  "_updated_label": "2026-08-19 20:11"
 };
