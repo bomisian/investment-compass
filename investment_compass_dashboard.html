@@ -98,6 +98,30 @@
   .news-auto-mixed{background:var(--warn-bg);color:#876000;}
   .news-auto-neutral{background:var(--panel-2);color:#626b76;}
 
+  /* 2026-08-19 추가(사용자 요청 "뉴스는 gpt 이미지처럼은 안되는 거야?"): gpt_dashboard의
+     뉴스 카드 시각 디자인(왼쪽 색상바+톤별 배경 틴트, 3단 그리드, 강조 박스, 하단 액션 줄)을
+     실제 CSS까지 열어봐서 참고해 이식함 - 데이터/필드는 그대로, 시각적 레이아웃만 카드화. */
+  .news-card{margin:10px 0 16px;padding:16px;border:1px solid var(--line);border-left:4px solid var(--sub);border-radius:14px;background:var(--panel-2);}
+  .news-card.tone-positive{border-left-color:var(--up);background:var(--up-bg);}
+  .news-card.tone-risk{border-left-color:var(--down);background:var(--down-bg);}
+  .news-card.tone-mixed{border-left-color:var(--warn);background:var(--warn-bg);}
+  .news-card-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;font-size:11px;color:var(--sub);}
+  .news-card h3{margin:8px 0 12px;font-size:14.5px;line-height:1.5;color:var(--text);}
+  .news-card-columns{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;}
+  .news-card-columns>div{padding:10px;border-radius:10px;background:rgba(255,255,255,.65);}
+  .news-card-columns b{display:block;margin-bottom:5px;font-size:11px;color:var(--text);}
+  .news-card-columns ul{margin:0;padding-left:16px;color:#53615c;}
+  .news-card-columns li{margin:0 0 5px;font-size:12px;line-height:1.55;}
+  .news-card-columns li:last-child{margin-bottom:0;}
+  .news-card-interp{margin-top:10px;padding:10px;border-radius:10px;border:1px solid rgba(109,131,121,.18);background:rgba(255,255,255,.55);}
+  .news-card-interp b{display:block;margin-bottom:5px;font-size:11px;}
+  .news-card-interp p{margin:0 0 6px;font-size:12px;line-height:1.55;color:#53615c;}
+  .news-card-interp strong{display:block;font-size:12px;line-height:1.5;color:var(--text);}
+  .news-card-action{display:flex;gap:8px;align-items:baseline;margin-top:10px;padding-top:9px;border-top:1px solid rgba(109,131,121,.2);font-size:12px;line-height:1.55;color:#53615c;flex-wrap:wrap;}
+  .news-card-action b{flex:0 0 auto;color:var(--text);}
+  .news-importance-pill{display:inline-flex;align-items:center;margin-left:6px;padding:2px 7px;border-radius:999px;color:#9a6411;background:#fff1c9;font-size:10px;font-style:normal;font-weight:800;letter-spacing:.02em;vertical-align:middle;}
+  @media (max-width:700px){ .news-card-columns{grid-template-columns:1fr;} }
+
   .glossary{font-size:12px;color:var(--sub);line-height:1.85;margin-top:4px;}
   .glossary b{color:var(--text);}
 
@@ -4266,28 +4290,33 @@ function renderNewsLog(ticker){
     const facts = e.facts || (e.coreAnalysis ? [e.coreAnalysis] : []);
     const why = e.why || (e.whyItMatters ? [e.whyItMatters] : []);
     const beginner = e.beginner || (e.beginnerSummary ? [e.beginnerSummary] : []);
-    const li = arr => arr.length ? `<ul style="margin:2px 0 8px;padding-left:18px;">${arr.map(x=>`<li>${x}</li>`).join('')}</ul>` : '';
-    const toneTag = e.tone ? `<span class="news-auto-tag news-auto-${e.tone}">${TONE_LABEL[e.tone]||e.tone}</span>` : '';
-    const importanceTag = e.importance==='high' ? `<span class="badge b-strong-buy" style="margin-left:4px;">중요</span>` : '';
+    const li = arr => arr.length ? `<ul>${arr.map(x=>`<li>${x}</li>`).join('')}</ul>` : '<span class="sub" style="font-size:11.5px;">-</span>';
+    const tone = e.tone || 'neutral';
+    const importanceTag = e.importance==='high' ? `<em class="news-importance-pill">중요</em>` : '';
     return `
-      <div class="fund-col" style="margin-top:10px;">
-        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b>${e.horizon?` · 영향 기간: ${esc(e.horizon)}`:''}</div>
-        <div style="font-size:13px;font-weight:700;margin-bottom:6px;line-height:1.5;">${e.headline}${toneTag}${importanceTag}</div>
-        <div style="font-size:12.5px;line-height:1.7;">
-          <b>[핵심내용 분석]</b>${li(facts)}
-          <b>[왜 중요한가]</b>${li(why)}
-          <b>[초보자용 정리]</b>${li(beginner)}
-          ${e.interpretation ? `<b>[투자자용 해석]</b> ${e.interpretation}<br><br>` : ''}
-          ${e.decision ? `<div style="margin-bottom:6px;"><b>지금 판단:</b> ${e.decision}</div>` : ''}
-          ${(e.watch&&e.watch.length) ? `<div style="margin-bottom:6px;"><b>다음 확인 포인트:</b> ${e.watch.join(' · ')}</div>` : ''}
-          <span class="sub">신뢰도: ${esc(e.confidence||'-')}</span>
+      <article class="news-card tone-${tone}">
+        <div class="news-card-head">
+          <span>${esc(e.date)}${e.horizon?` · 영향 기간: ${esc(e.horizon)}`:''}</span>
+          <span class="news-auto-tag news-auto-${tone}">${TONE_LABEL[tone]||tone}</span>
         </div>
+        <h3>${e.headline}${importanceTag}</h3>
+        <div class="news-card-columns">
+          <div><b>핵심내용 분석</b>${li(facts)}</div>
+          <div><b>왜 중요한가</b>${li(why)}</div>
+          <div><b>초보자용 정리</b>${li(beginner)}</div>
+        </div>
+        ${(e.interpretation || e.decision) ? `<div class="news-card-interp">
+          ${e.interpretation ? `<b>투자자용 해석</b><p>${e.interpretation}</p>` : ''}
+          ${e.decision ? `<strong>${e.decision}</strong>` : ''}
+        </div>` : ''}
+        ${(e.watch&&e.watch.length) ? `<div class="news-card-action"><b>다음 확인 포인트</b><span>${e.watch.join(' · ')}</span></div>` : ''}
+        <div class="sub" style="margin-top:8px;">신뢰도: ${esc(e.confidence||'-')}</div>
         ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : `<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ 출처 링크 없음 - gpt_dashboard의 자동 분석과 달리 이 로그는 출처를 남기는 게 원칙이니, 다음에 갱신할 때 채워주세요.</div>`}
-      </div>`;
+      </article>`;
   }).join('');
   return `
     <div class="chart-label" style="margin-top:0;">${esc(ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
-    <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard 형식을 참고해 [투자자용 해석]·[다음 확인 포인트] 항목을 추가했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
+    <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard의 필드 구성과 카드 디자인을 참고해 이식했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
     ${entries}`;
 }
 
