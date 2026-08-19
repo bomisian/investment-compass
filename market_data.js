@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.55899810791016,
+      "current": 99.5260009765625,
       "prevClose": 99.6500015258789,
-      "changeAbs": -0.09100341796875,
-      "changePct": -0.09132304724061303,
-      "pctRank": 31.66268894192522,
+      "changeAbs": -0.12400054931640625,
+      "changePct": -0.12443607367552681,
+      "pctRank": 31.26491646778043,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0185045665991885,
-      "ma20": 100.18145027160645,
-      "ma60": 100.34731686909994,
-      "chg1m": -1.621002197265625,
-      "chg3m": 0.25899505615234375,
-      "chg1mPct": -1.6020974425542713,
-      "chg3mPct": 0.26082079374896755,
+      "drawdown1y": -2.05097886159914,
+      "ma20": 100.17980041503907,
+      "ma60": 100.34676691691081,
+      "chg1m": -1.6539993286132812,
+      "chg3m": 0.2259979248046875,
+      "chg1mPct": -1.6347097485911672,
+      "chg3mPct": 0.22759105524588086,
       "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4398.2998046875,
+      "current": 4389.5,
       "prevClose": 4366.0,
-      "changeAbs": 32.2998046875,
-      "changePct": 0.7398031307260651,
+      "changeAbs": 23.5,
+      "changePct": 0.538250114521301,
       "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.300318038340322,
-      "ma20": 4222.314978027343,
-      "ma60": 4208.189998372396,
-      "chg1m": 327.19970703125,
-      "chg3m": -108.0,
-      "chg1mPct": 8.037132450258845,
-      "chg3mPct": -2.3966448012992227,
+      "drawdown1y": -17.465777666218663,
+      "ma20": 4221.874987792969,
+      "ma60": 4208.0433349609375,
+      "chg1m": 318.39990234375,
+      "chg3m": -116.7998046875,
+      "chg1mPct": 7.820979457789658,
+      "chg3mPct": -2.5919226360839027,
       "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,11 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "오늘의 사진 | 2026년 8월 18일 - 로이터"
     },
     {
-      "headline": "Oil edges up on uncertainty over exports through Hormuz - Reuters",
+      "headline": "Hormuz traffic slows as uncertainty over waterway persists - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYldMdWw5dWFaM0VrQzE2U1ZvSTc2VHhrVmdJNmRDV3h6dUtUTGFmS01FRjdMeHJBaExMNEgzYWxGMlZEQlpQSEwycU5zMXZGckUtT3BHY1cwaTNiT0JhZVBIbnVZTFp5OTRwLUJmbFlpdWJMdlRiZjV5OWtYM3pBOUpXSFphWFlsRVF2YVhoWTBQcnQ0UFF2QXV2enNuRlZJa1ROMUtFaHhwN0M0ZVE?oc=5",
+      "datetime": 1787110740,
+      "headlineKo": "수로 불확실성 지속으로 호르무즈 교통 둔화 - 로이터 통신"
+    },
+    {
+      "headline": "Oil extends climb on prolonged Hormuz export uncertainty - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
       "datetime": 1787099940,
-      "headlineKo": "호르무즈를 통한 수출 불확실성으로 유가 상승 - Reuters"
+      "headlineKo": "호르무즈 수출 불확실성 장기화로 유가 상승폭 확대 - Reuters"
     },
     {
       "headline": "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSENtbzRKbGs1djM0OE56Z0w0ODhCSVBFdHBXeTFqUGo2dzVPZ25GQkhGUTNXQTFtY0tNNDFrTnlSN2ZtQ282M2pSbWZrMncwUGFOcEtyaTB6TXNLNDR4Y0gtMEloYUU2S185bVBjeEpnYTBEUF9peWhzeEV0NVR5TVU3d3psNnc2VHdzYTJ5ZlhUM3dVbXh0SlFQZmhUQl9wbzQ4WG5ETXp4UjZyeWRmV2FyekpaYTFiZ0djY1E5LTY0aXI4WjZn?oc=5",
       "datetime": 1787070227,
       "headlineKo": "이란 \"미국이 임시 협정 조건 충족할 때까지 호르무즈 해협 폐쇄할 것\" - 로이터 통신"
-    },
-    {
-      "headline": "Cyclospora is changing the American workplace lunch: 'We switched our marketing immediately,' says Saladworks CEO",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/18/cyclospora-outbreak-changing-american-workplace-salad-lunch.html",
-      "datetime": 1787069950,
-      "headlineKo": "Cyclospora는 미국 직장 점심을 바꾸고 있습니다. Saladworks CEO는 '우리는 즉시 마케팅을 전환했습니다'라고 말했습니다."
     }
   ],
   "fgi": {
     "score": 54.2857142857143,
     "rating": "neutral"
   },
-  "_fetched_at": 1787115675.8546896,
-  "_updated_label": "2026-08-19 14:01"
+  "_fetched_at": 1787119328.979182,
+  "_updated_label": "2026-08-19 15:02"
 };
