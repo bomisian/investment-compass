@@ -1449,7 +1449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "AAPL": {
@@ -2037,7 +2037,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "GOOGL": {
@@ -2573,7 +2573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "MSFT": {
@@ -3156,7 +3156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "AMZN": {
@@ -3728,7 +3728,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "TSM": {
@@ -4365,7 +4365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "AVGO": {
@@ -4915,7 +4915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "META": {
@@ -5857,7 +5857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "TSLA": {
@@ -6599,9 +6599,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-08-20 02:16",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 35,
-      "removed": 1,
-      "updated": "2026-08-20 02:19"
+      "checked": 34,
+      "removed": 0,
+      "updated": "2026-08-20 05:01"
     }
   },
   "MU": {
@@ -7222,7 +7222,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "AMD": {
@@ -7821,7 +7821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "INTC": {
@@ -8465,7 +8465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "AMAT": {
@@ -9198,7 +9198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "QQQ": {
@@ -9699,7 +9699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "SPY": {
@@ -10297,7 +10297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "ORCL": {
@@ -10835,7 +10835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "CRM": {
@@ -11432,7 +11432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "PLTR": {
@@ -12097,7 +12097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "QCOM": {
@@ -12640,7 +12640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "ARM": {
@@ -13075,7 +13075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "MRVL": {
@@ -13540,7 +13540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "ASML": {
@@ -14090,7 +14090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "LRCX": {
@@ -14516,7 +14516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "KLAC": {
@@ -14985,7 +14985,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "SNDK": {
@@ -15787,7 +15787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "WDC": {
@@ -16243,7 +16243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "ANET": {
@@ -16559,13 +16559,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:00",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "COHR": {
@@ -16585,13 +16585,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary' New Connect your Agent Trending News Earnings All DIA 0.22% SPY 0.18% QQQ 0.22% Trending MRNA 177.67% BT",
+            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary' Analysts at Needham, Raymond James, Rosenblatt, Northland and B.",
+            "Riley all raised their price targets on Coherent, with Rosenblatt setting the highest target at $500."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -16614,7 +16615,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 COHR의 사업과 관련된 'COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 COHR의 사업과 관련된 'COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "COHR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -16675,12 +16676,12 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "실적·수요 개선 가능성",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith New Connect your Agent Trending News Earnings All DIA 0.48% SPY 0.34% QQQ 0.27% Trending MRNA 111.20% MRVL 7.87% AVGO 4.76% BTC 0.80% TLT 1.52% WULF 3.39% TGT 5.88% TE",
+            "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith New Connect your Agent Trending News Earnings All DIA 0.22% SPY 0.18% QQQ 0.22% Trending MRNA 177.67% BTC 5.70% IOVA 13.37% VKTX 7.81% BULL 8.70% NVAX 10.97% WMT 0.76%",
             "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith The immediate reaction reflects investors’ ever-increasing expectations for optics suppliers.",
             "In this photo illustration, a Coherent Corp."
           ],
@@ -16740,13 +16741,14 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary' New Connect your Agent Trending News Earnings All DIA 0.22% SPY 0.18% QQQ 0.22% Trending MRNA 177.67% BT",
+            "COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary' Analysts at Needham, Raymond James, Rosenblatt, Northland and B.",
+            "Riley all raised their price targets on Coherent, with Rosenblatt setting the highest target at $500."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -16769,7 +16771,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 COHR의 사업과 관련된 'COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 COHR의 사업과 관련된 'COHR Stock Gets A Wave Of Price Target Hikes After ‘Beat And Raise’ Q4 — Needham Sees Coherent As 'Major AI Infrastructure Beneficiary'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "COHR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
@@ -16830,12 +16832,12 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "실적·수요 개선 가능성",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith New Connect your Agent Trending News Earnings All DIA 0.48% SPY 0.34% QQQ 0.27% Trending MRNA 111.20% MRVL 7.87% AVGO 4.76% BTC 0.80% TLT 1.52% WULF 3.39% TGT 5.88% TE",
+            "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith New Connect your Agent Trending News Earnings All DIA 0.22% SPY 0.18% QQQ 0.22% Trending MRNA 177.67% BTC 5.70% IOVA 13.37% VKTX 7.81% BULL 8.70% NVAX 10.97% WMT 0.76%",
             "COHR Stock Dips Overnight Despite Strong Q4: Retail Bulls Keep The Faith The immediate reaction reflects investors’ ever-increasing expectations for optics suppliers.",
             "In this photo illustration, a Coherent Corp."
           ],
@@ -16883,13 +16885,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:00",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "LITE": {
@@ -17205,13 +17207,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:00",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "GEV": {
@@ -17511,13 +17513,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:00",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 8,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "CEG": {
@@ -17573,51 +17575,6 @@ const NEWS_DATA = {
           "quality": "low"
         },
         "headlineKo": "Constellation Energy (CEG) 2026년 2분기 실적 통화 기록"
-      },
-      {
-        "headline": "Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=af546604142d92c324404f859d1cd66395c5ea5075800be31aa8debfb336adef",
-        "datetime": 1786274516,
-        "relevance": 1,
-        "analysis": {
-          "version": 8,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CEG",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation (CEG) Locks In More Power Deals As Nuclear Output Slips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low"
-        },
-        "headlineKo": "Constellation(CEG)은 원자력 생산량이 감소함에 따라 더 많은 전력 거래를 체결했습니다."
       }
     ],
     "newsHistory": [
@@ -17713,13 +17670,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:00",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 4,
+      "checked": 3,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "VST": {
@@ -18019,13 +17976,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 8,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "ETN": {
@@ -18037,13 +17994,13 @@ const NEWS_DATA = {
     },
     "news": [],
     "newsHistory": [],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "PWR": {
@@ -18147,13 +18104,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "HUBB": {
@@ -18257,13 +18214,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "VRT": {
@@ -18563,13 +18520,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 8,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "MOD": {
@@ -18581,13 +18538,13 @@ const NEWS_DATA = {
     },
     "news": [],
     "newsHistory": [],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "STX": {
@@ -18905,13 +18862,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "EME": {
@@ -18921,53 +18878,7 @@ const NEWS_DATA = {
       "epsEstimate": 8.4041,
       "revenueEstimate": 5240414997
     },
-    "news": [
-      {
-        "headline": "EMCOR Group (EME) Is Pursuing Acquisitions In Attractive End Markets",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0661b25cd8bd471c99f52802147c6c283888a7f9250ce02f53ce628a7fd5aba9",
-        "datetime": 1786237894,
-        "relevance": 1,
-        "analysis": {
-          "version": 8,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "EMCOR Group (EME) Is Pursuing Acquisitions In Attractive End Markets",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "EME",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 EME의 사업과 관련된 'EMCOR Group (EME) Is Pursuing Acquisitions In Attractive End Markets' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "EME 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low"
-        },
-        "headlineKo": "EMCOR 그룹(EME)은 매력적인 최종 시장에서 인수를 추구하고 있습니다."
-      }
-    ],
+    "news": [],
     "newsHistory": [
       {
         "headline": "EMCOR Group (EME) Is Pursuing Acquisitions In Attractive End Markets",
@@ -19015,13 +18926,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 2,
+      "checked": 1,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "FIX": {
@@ -19091,7 +19002,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis How To Bank 17% A Year On FIX Stock Without Selling A Share August 13th, 2026 · by Trefis Team FIX YTD +86.6% SPY YTD +12.8% XLI YTD +18.7% Analyze FIX → Here is a way to ",
+            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis Here is a way to get paid a meaningful income now on a stock you already own, cash you keep no matter what, in exchange for capping your gains at a higher price.",
             "Comfort Systems USA (FIX) has been on an absolute monster run, delivering a return of over one hundred fifty percent in the past year by building out the guts of the new data-center economy .",
             "But after that climb, the stock now trades about 16% below its 52-week high, leaving owners to wonder if the easy money has been made."
           ],
@@ -19230,7 +19141,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis How To Bank 17% A Year On FIX Stock Without Selling A Share August 13th, 2026 · by Trefis Team FIX YTD +86.6% SPY YTD +12.8% XLI YTD +18.7% Analyze FIX → Here is a way to ",
+            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis Here is a way to get paid a meaningful income now on a stock you already own, cash you keep no matter what, in exchange for capping your gains at a higher price.",
             "Comfort Systems USA (FIX) has been on an absolute monster run, delivering a return of over one hundred fifty percent in the past year by building out the guts of the new data-center economy .",
             "But after that climb, the stock now trades about 16% below its 52-week high, leaving owners to wonder if the easy money has been made."
           ],
@@ -19307,13 +19218,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 6,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   },
   "SBGSY": {
@@ -19325,13 +19236,13 @@ const NEWS_DATA = {
     },
     "news": [],
     "newsHistory": [],
-    "_fetched_at": 1787148011.8889863,
-    "_updated_label": "2026-08-19 23:01",
+    "_fetched_at": 1787169612.052283,
+    "_updated_label": "2026-08-20 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-20 02:19"
+      "updated": "2026-08-20 05:01"
     }
   }
 };
