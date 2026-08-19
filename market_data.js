@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.48999786376953,
+      "current": 84.7699966430664,
       "prevClose": 84.5,
-      "changeAbs": -0.01000213623046875,
-      "changePct": -0.01183684761002219,
-      "pctRank": 74.86077963404932,
+      "changeAbs": 0.26999664306640625,
+      "changePct": 0.31952265451645706,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.196989688732852,
-      "ma20": 82.54799919128418,
-      "ma60": 81.39866650899252,
-      "chg1m": 1.2599945068359375,
-      "chg3m": -24.170005798339844,
-      "chg1mPct": 1.5138705466974751,
-      "chg3mPct": -22.24370051882128,
-      "lastDate": "2026-08-18",
+      "drawdown1y": -24.949093463091355,
+      "ma20": 82.56199913024902,
+      "ma60": 81.40333315531413,
+      "chg1m": 1.5399932861328125,
+      "chg3m": -23.89000701904297,
+      "chg1mPct": 1.8502862237413584,
+      "chg3mPct": -21.986017130398466,
+      "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.64399719238281,
+      "current": 99.64199829101562,
       "prevClose": 99.63999938964844,
-      "changeAbs": 0.003997802734375,
-      "changePct": 0.004012246847514864,
+      "changeAbs": 0.0019989013671875,
+      "changePct": 0.002006123423757432,
       "pctRank": 32.85600636435959,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.934852284380817,
-      "ma20": 100.26020011901855,
-      "ma60": 100.34323348999024,
-      "chg1m": -1.3460006713867188,
-      "chg3m": 0.6739959716796875,
-      "chg1mPct": -1.3328059212382661,
-      "chg3mPct": 0.6810103701794207,
-      "lastDate": "2026-08-18",
+      "drawdown1y": -1.936819513349597,
+      "ma20": 100.26010017395019,
+      "ma60": 100.34320017496745,
+      "chg1m": -1.3479995727539062,
+      "chg3m": 0.6719970703125,
+      "chg1mPct": -1.3347852275155907,
+      "chg3mPct": 0.6789906658826308,
+      "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4382.7998046875,
+      "current": 4397.2998046875,
       "prevClose": 4417.7998046875,
-      "changeAbs": -35.0,
-      "changePct": -0.7922495709937626,
-      "pctRank": 91.08989657915673,
+      "changeAbs": -20.5,
+      "changePct": -0.46403189158206093,
+      "pctRank": 91.16945107398568,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.591759078589465,
-      "ma20": 4210.584973144531,
-      "ma60": 4210.514998372396,
-      "chg1m": 372.499755859375,
-      "chg3m": -169.7001953125,
-      "chg1mPct": 9.288575700669217,
-      "chg3mPct": -3.727626475837452,
-      "lastDate": "2026-08-18",
+      "drawdown1y": -17.319120686098334,
+      "ma20": 4211.309973144531,
+      "ma60": 4210.756665039063,
+      "chg1m": 386.999755859375,
+      "chg3m": -155.2001953125,
+      "chg1mPct": 9.650144656195057,
+      "chg3mPct": -3.4091201606260295,
+      "lastDate": "2026-08-19",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -219,17 +219,10 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-      "datetime": 1787089677,
-      "headlineKo": "트럼프 \"이란과 회담 계획 없다\""
-    },
-    {
       "headline": "Tech selloff weighs down Wall Street as bond yields climb - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUzFvaDFSek1CYmFoSHEzTG9feVA2blNkZE9LMy00ZnpQbnFmVXYwSDJkeDR5OEFNSExNcGdrWWNjdTNLQzlia0V4b0hvV2VaTTcyaXRFdldtaDJUcm9KcDAxQ3NNWV9MaDd2Q2NaVWtHVUEwS0YyU21ia3lJQVpMTjNBMGtlaXp0M0JWaTIxeExpYlpHOEN0b05NN00xRmhHSHc0bERMOG1COGVNYTEzSw?oc=5",
-      "datetime": 1787089464,
+      "datetime": 1787093934,
       "headlineKo": "채권수익률 상승으로 기술 매도가 월스트리트를 압박 - Reuters"
     },
     {
@@ -245,13 +238,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaERYcG1nTmtNcy1ia2hGekZQaVp4X1Y5RHlab3QydTVDV2tfSVZmQnctVC1iaWFmZ2xJRmN6U3pzNk1wdUx1VlpQWmF6WTZsdmtfdmF3SmpGUWYzMzluM3JEVVBVTmZXU2NfMG9lcjRzUktxWEZNZDZxbTE1Q2FkVmd4Mmd3ekpxeHY3RWtpRC14QmV0SktSNA?oc=5",
       "datetime": 1787088027,
       "headlineKo": "이란 우려와 광범위한 매도에도 불구하고 미국 금리는 하락세 - Reuters"
-    },
-    {
-      "headline": "Dollar range-bound as markets price dovish Fed response - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQclBwalB5bkFIQVRLaXc3bHdrSFEteXF1NllCaTVjU08zRnlNckhhSzlvT3lOQ1FpNTZhQzh1VFVBVjJzaVc3Wkd4WXhVcURZV1BtUGttNEdRUS1RNkxQYU1jNHptUGgtMEhaVGNQdkRLTVl4bnNTeDJHMG9pYkV0dld0OXVDT0ZERHV1eGM0WGw1VVlEeFVIWElYNFlCRUtBd1ItU2tCcXNheWs?oc=5",
-      "datetime": 1787084666,
-      "headlineKo": "시장 가격이 비둘기파적인 연준의 대응으로 달러 범위 제한 - Reuters"
     },
     {
       "headline": "France to expel two Iranian diplomats in coming days, foreign minister says - Reuters",
@@ -301,12 +287,26 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
       "datetime": 1787069716,
       "headlineKo": "에너지 주식이 채권 불안을 상쇄함에 따라 FTSE 100은 안정되었습니다 - Reuters"
+    },
+    {
+      "headline": "US housing market remains under pressure in July; factory output rises - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTnVKc1I4UWRkNWlXWm93ZGptQURzVVRySXZTSUQyX2RKejdFSUo1cDYwdEVUeWlZZE55dVVyOFZ2YklvZlFobVBiZmdHRFF2NG4yYUFydy0zWldPMFNjR21JcWlCMHFMU0E2R2pQLW9za285UG1NOEI4Q0xmX3M1THZuZG1NaGowSGtJX2ZfTXQ?oc=5",
+      "datetime": 1787066609,
+      "headlineKo": "미국 주택시장은 7월에도 여전히 압박을 받고 있습니다. 공장 생산량 증가 - 로이터"
+    },
+    {
+      "headline": "We're adding to our position in a stock that's been hurt by rekindled Middle East tensions",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/18/were-adding-to-our-position-in-a-stock-thats-been-hurt-by-rekindled-middle-east-tensions-.html",
+      "datetime": 1787066599,
+      "headlineKo": "우리는 중동 긴장이 다시 불붙으면서 타격을 입은 주식에서 우리의 포지션을 추가하고 있습니다."
     }
   ],
   "fgi": {
     "score": 54.4,
     "rating": "neutral"
   },
-  "_fetched_at": 1787097278.7900958,
-  "_updated_label": "2026-08-19 08:55"
+  "_fetched_at": 1787100911.0487642,
+  "_updated_label": "2026-08-19 09:55"
 };
