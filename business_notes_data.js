@@ -74,7 +74,7 @@ const BUSINESS_NOTES = {
     },
   },
   NVDA: {
-    updated: "2026-08-10",
+    updated: "2026-08-20",
     customers: [
       "매출의 약 90%가 데이터센터(AI 가속기)에서 발생하며, 소수 대형 클라우드 업체(하이퍼스케일러)에 집중 - 2026년 공시 기준 상위 4개 고객사가 전체 매출의 61%를 차지",
       "다만 고객 다각화도 진행 중: 상위 5개 하이퍼스케일러 이외 고객 비중이 약 40%까지 확대됐고, 국가 단위 AI 인프라 프로젝트('소버린 AI')향 매출만 2026 회계연도 300억달러 이상",
@@ -94,6 +94,21 @@ const BUSINESS_NOTES = {
       {title:"NVIDIA Customer Concentration: A Big 4 Earnings Preview (Daloopa)", url:"https://daloopa.com/blog/analyst-pov/nvidia-customer-concentration-a-big-4-earnings-preview"},
       {title:"Jensen Huang Admitted Nvidia's China Revenue Has Fallen to Zero (The Motley Fool, 2026-06-26)", url:"https://www.fool.com/investing/2026/06/26/jensen-huangs-nvidias-china-zero-20-billion-plan/"},
       {title:"NVIDIA Q1 FY 2026 Revenue Jumps 69% Despite China Export Setback (Futurum Group)", url:"https://futurumgroup.com/insights/nvidia-q1-fy-2026-revenue-jumps-69-despite-china-export-setback/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "OpenAI 오하이오 데이터센터에 $105B 규모 자금조달 후원 + SpaceX 지분 $21B 보유 공시 - AI 인프라 베팅 확대, 다만 AMD 경쟁 부각과 겹쳐 주가는 등락",
+        coreAnalysis: "엔비디아가 OpenAI의 오하이오 데이터센터 프로젝트에 약 $105B 규모의 자금조달을 후원하는 것으로 알려졌고, 2분기 말 기준 SpaceX 지분 $21B을 보유하고 있다는 사실도 공시됐다. 두 건 모두 엔비디아가 GPU 판매를 넘어 고객사·파트너사에 직접 자본을 투입하는 방식으로 AI 생태계 확장에 관여하고 있음을 보여준다. 같은 시기 AMD의 AI·서버 로드맵이 일부 영역에서 엔비디아를 앞설 수 있다는 경쟁 압력 보도가 겹쳤고, AI 칩 수요 지속가능성에 대한 우려로 주가는 최근 저점 대비 +18% 반등한 뒤 다시 -2.19% 조정을 보이는 등 방향이 엇갈렸다. 다음 실적(8/26) 발표를 앞두고 있다.",
+        whyItMatters: "OpenAI·SpaceX 같은 핵심 고객사에 자금까지 대는 구조는 GPU 수요를 자사 자본으로 뒷받침하는 셈이라 '벤더 파이낸싱(고객에게 돈을 빌려주고 그 돈으로 자사 제품을 사게 하는 구조)' 논란과 같은 맥락에서 봐야 한다 - 이게 실수요 확대라면 긍정적이지만, 자금 없이는 유지가 안 되는 수요라면 사이클이 꺾일 때 타격이 더 클 수 있다. 위 risks 항목의 '고객 집중 리스크'와 직접 연결되는 사안이라 향후 이 자금조달·지분투자가 실제 GPU 주문으로 이어지는지 확인이 중요하다.",
+        beginnerSummary: "엔비디아가 그래픽카드(GPU)를 파는 것뿐 아니라, 오픈AI 같은 큰 고객사가 데이터센터를 지을 돈까지 대주는 방식으로 AI 사업에 더 깊이 관여하고 있다는 소식이에요. 이건 고객이 돈이 있어야 엔비디아 제품을 계속 살 텐데, 아예 그 돈까지 챙겨준다는 뜻이라 수요를 인위적으로 떠받치는 것 아니냐는 우려도 같이 나와요. 동시에 경쟁사 AMD가 치고 올라온다는 뉴스도 겹쳐서 주가는 오르락내리락했어요.",
+        confidence: "OpenAI 자금조달 후원·SpaceX 지분 보유 공시는 복수 매체(Forbes 등) 보도 기준(신뢰도 높음) · '벤더 파이낸싱' 해석과 AMD 경쟁 영향의 정도는 Claude의 정성적 판단",
+        sources: [
+          {title:"Nvidia Stock Loses $130 Billion In Market Value As Firm Reportedly Enters $500 Billion AI Financing Deal (Forbes)", url:"https://www.forbes.com/sites/antoniopequenoiv/2026/08/10/nvidia-stock-loses-130-billion-in-market-value-as-firm-reportedly-enters-500-billion-ai-financing-deal/"},
+          {title:"Nvidia's stock has started to come alive. Here's 3 reasons why it can continue (CNBC)", url:"https://www.cnbc.com/2026/08/17/nvidias-stock-has-started-to-come-alive-heres-3-reasons-why-it-can-continue-.html"},
+          {title:"NVDA Stock Wobbles As AMD Challenge And Hedge Fund Exit Rattle AI Trade (StocksToTrade)", url:"https://stockstotrade.com/news/nvidia-corporation-nvda-news-2026_08_18/"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-11",
@@ -223,7 +238,7 @@ const BUSINESS_NOTES = {
     },
   },
   META: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "광고주 전반(Family of Apps: 페이스북·인스타그램·왓츠앱·메신저) - 매출 절대다수 비중",
       "리얼리티랩(Reality Labs) 소비자 - 퀘스트 VR 헤드셋, AI 글래스",
@@ -241,6 +256,20 @@ const BUSINESS_NOTES = {
       {title:"Meta Platforms (META): Navigating AI Spending Surge and Regulatory Challenges in 2026 (Tickeron)", url:"https://tickeron.com/blogs/meta-platforms-meta-navigating-ai-spending-surge-and-regulatory-challenges-in-2026-13247/"},
       {title:"Meta Q2 2026: Revenue Hits $60.8B, EPS Misses as Reality Labs Loses $4.6B (GamesReviews)", url:"https://gamesreviews.com/news/07/meta-q2-2026-revenue-hits-60-8b-eps-misses-as-reality-labs-loses-4-6b/"},
       {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "29개 주 검찰총장이 아동 안전 관련 소송 제기(최대 $1.4조 손해배상 주장) - 뉴멕시코주 패소($1B 배상 확정) 직후라 주가 이틀간 -7%",
+        coreAnalysis: "미국 29개 주 검찰총장이 메타가 아동의 데이터를 불법 수집하고 안전성에 대해 소비자를 오도했다고 주장하며 소송을 제기했다. 메타 측은 잠재적 손해배상액이 최대 $1.4조에 이를 수 있다고 밝혔고, 주 측 변호인단은 약 $2,000억이 더 현실적인 규모라고 언급했다. 이는 이달 초 뉴멕시코주에서 진행된 유사 소송에서 메타가 패소해 $10억 배상과 일부 정책 변경을 명령받은 직후에 나온 소식으로, 8/17(월) -4%, 8/18(화) -3%로 이틀 연속 하락했다.",
+        whyItMatters: "위 risks 항목의 'EU 규제 압박'이 유럽에 국한된 게 아니라 미국 주정부 차원으로도 확산되고 있다는 뜻 - 아동 데이터·안전 이슈는 여러 주가 동시에 제기하는 구조라 소송이 장기화·다발화될 가능성이 있다. 다만 회사가 언급한 $1.4조는 이론적 상한선(법정 최대 배상액을 위반 건수로 곱한 수치일 가능성)이고 주 측이 제시한 ~$2,000억이 더 현실적인 추정치라는 점에서, 실제 합의·배상 규모는 두 숫자 사이 어딘가로 좁혀질 가능성이 크다 - 이 격차 자체가 아직 불확실성이 크다는 신호다.",
+        beginnerSummary: "미국 29개 주 정부가 메타(페이스북·인스타그램)를 상대로 '아이들의 개인정보를 불법으로 모으고 안전하다고 거짓말했다'며 소송을 걸었어요. 메타는 최악의 경우 배상금이 1.4조 달러(우리 돈 약 1,900조원)까지 갈 수 있다고 했지만, 소송을 건 쪽은 실제로는 2,000억 달러 정도가 더 현실적이라고 봐요. 최근 다른 주(뉴멕시코)에서 이미 비슷한 소송에 져서 10억 달러를 물어준 직후라, 투자자들이 불안해하면서 주가가 이틀 만에 7% 가까이 빠졌어요.",
+        confidence: "소송 제기·뉴멕시코 판결·배상액 언급은 복수 매체(Benzinga·Motley Fool) 보도 기준(신뢰도 높음) · 최종 배상 규모는 소송이 진행 중이라 미확정(추정)",
+        sources: [
+          {title:"What's Going On With Meta Platforms Stock Tuesday? (Benzinga)", url:"https://www.benzinga.com/trading-ideas/movers/26/08/61279236/whats-going-on-with-meta-platforms-stock-tuesday-2"},
+          {title:"What's Going On With Meta Platforms Stock Monday? (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/08/61257572/whats-going-on-with-meta-platforms-stock-monday-3"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-11",
@@ -416,7 +445,7 @@ const BUSINESS_NOTES = {
   // 자동 탐지함(10종목 감지) - 그중 결정에 중요해 보이는 5개(메모리 3종목+MRVL+INTC)를 조사해
   // 추가함. 나머지(NVDA·META·PLTR)는 아직 미착수 - 필요시 요청.
   MU: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "AI 데이터센터 기업(클라우드메모리 부문, +100% YoY 최대 성장) - 엔비디아 등에 HBM(고대역폭메모리) 공급, 블랙웰 B200/B300 플랫폼에 탑재",
       "전략적 고객 16곳과 장기공급계약 체결 - D램 물량의 약 20%·낸드 물량의 약 3분의 1을 차지(대형고객 4곳+중견고객 3곳)",
@@ -434,6 +463,20 @@ const BUSINESS_NOTES = {
     sources: [
       {title:"Micron Technology Q1 FY 2026 Sets Records; Strong Q2 Outlook (Futurum Group)", url:"https://futurumgroup.com/insights/micron-technology-q1-fy-2026-sets-records-strong-q2-outlook/"},
       {title:"Micron Technology (MU): Sold-Out HBM Supply and AI Tailwinds Point to Strong 2026 Growth (Tickeron)", url:"https://tickeron.com/blogs/micron-technology-mu-sold-out-hbm-supply-and-ai-tailwinds-point-to-strong-2026-growth-12100/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "Netlist가 DDR5 RDIMM·MRDIMM 특허 침해로 ITC·연방법원 제소 - AI 메모리 슈퍼사이클 호재 속 주가 하루 -7%",
+        coreAnalysis: "특허관리회사 Netlist가 마이크론을 상대로 DDR5 RDIMM(서버용 D램 모듈)·MRDIMM 관련 특허를 침해했다며 미국 국제무역위원회(ITC)와 연방법원에 새로운 소송을 제기했다. 이 소식이 알려진 8/18(화) 마이크론 주가는 $1,011.75에서 $940.76로 -7.02% 하락했다 - 같은 주 초(월요일) 월스트리트가 AI 메모리 수요 가속을 이유로 목표주가를 대거 상향(New Street·UBS)했던 강세 흐름이 하루 만에 꺾인 것이다.",
+        whyItMatters: "위 risks 항목에 '메모리는 가격 변동성이 큰 상품(commodity) 사업'이라고 이미 적어뒀는데, 이번 건은 그와는 다른 종류의 리스크 - 사업 자체(가격 사이클)가 아니라 특허 소송이라는 법적 리스크다. ITC 제소는 승소 시 해당 제품의 미국 수입을 막을 수 있어(수입금지명령), 단순 손해배상 소송보다 잠재적 파급力이 크다. 다만 Netlist는 과거에도 삼성전자 등 여러 메모리 업체를 상대로 유사한 특허 소송을 반복해온 이력이 있는 특허관리전문회사(NPE)라, 이번 제소가 실제 매출에 타격을 줄지 아니면 초기 법적 절차 단계에서 소음으로 그칠지는 소송 진행 상황을 지켜봐야 한다.",
+        beginnerSummary: "Netlist라는 회사가 '마이크론이 우리 특허(서버용 메모리 관련 기술)를 허락 없이 썼다'며 미국 무역위원회와 법원에 소송을 걸었어요. 이 소식에 마이크론 주가가 하루 만에 7% 빠졌는데, 하필 그 전날 월스트리트가 'AI 메모리 수요가 폭발적'이라며 목표주가를 크게 올렸던 직후라 낙폭이 더 눈에 띄었어요. 다만 이 회사(Netlist)는 예전에도 다른 메모리 회사들에 비슷한 특허 소송을 여러 번 건 적이 있어서, 이번에도 실제 타격으로 이어질지 아니면 흔한 법적 다툼으로 끝날지는 좀 더 지켜봐야 해요.",
+        confidence: "소송 제기 사실과 주가 하락폭(-7.02%)은 매체 보도 기준(신뢰도 높음) · 최종 소송 결과와 매출 영향은 미확정(추정)",
+        sources: [
+          {title:"MU Stock Slides As Netlist Patent Fight Hits DDR5 Outlook (StocksToTrade)", url:"https://stockstotrade.com/news/micron-technology-inc-mu-news-2026_08_18-3/"},
+          {title:"Micron Technology Stock Extends Rally As Wall Street Chases AI Upside (StocksToTrade)", url:"https://stockstotrade.com/news/micron-technology-inc-mu-news-2026_08_17-3/"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-10",
@@ -478,7 +521,7 @@ const BUSINESS_NOTES = {
     },
   },
   SNDK: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "하이퍼스케일러(아마존·마이크로소프트·구글 등) - 엔터프라이즈·데이터센터向 고용량 SSD, 현재 최대 성장엔진",
       "PC 제조사(OEM), NAS(네트워크 스토리지) 업체 - USB드라이브·메모리카드·내장형 SSD",
@@ -495,6 +538,20 @@ const BUSINESS_NOTES = {
     sources: [
       {title:"Deep Dive: SanDisk (SNDK) and the 2026 NAND Flash Shortage (FinancialContent)", url:"https://www.financialcontent.com/article/finterra-2026-3-31-deep-dive-sandisk-sndk-and-the-2026-nand-flash-shortage"},
       {title:"SanDisk Stock Analysis 2026: NAND Supercycle, HBF & AI Storage (Market Digests)", url:"https://marketdigests.com/sandisk-stock-analysis-2026/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "2028~2030년 중고성장 가이던스 제시 + 키옥시아와 9세대 AI용 고성능 낸드 플랫폼 공개 - 6일 연속 상승 후 광범위 기술주 매도세에 하루 -5%",
+        coreAnalysis: "회사가 2028~2030 회계연도까지 매출이 중~고십대(mid-to-high-teens)% 성장할 것이라는 장기 가이던스를 제시하면서 8/17(월) 하루 +8.88%($1,641→$1,786), 6거래일 연속 상승을 기록했다. 같은 시기 키옥시아(Kioxia)와 공동으로 AI 인프라 스토리지 수요를 겨냥한 9세대 고성능 낸드 플랫폼('High Bandwidth Flash')을 공개했고, Bernstein의 5성 애널리스트가 이를 'AI용 게임체인저'로 평가했다. 다만 8/18(화)엔 기술주 전반의 위험회피 심리 속에 프리마켓 기준 -5% 하락했다 - 회사 고유 이슈가 아니라 지수 선물 약세 등 시장 전반의 매도세로 보인다.",
+        whyItMatters: "위 analystLog에서 이미 짚었듯 SNDK는 낸드 단일 사업이라 사이클에 민감한 구조인데, 이번 장기 가이던스(2028~2030년까지)는 '지금의 호황이 최소 몇 년은 이어질 것'이라는 회사 측 자신감의 표현이다 - 다만 이건 회사가 스스로 내놓은 전망치라 실현 여부는 지켜봐야 한다. High Bandwidth Flash는 HBM(고대역폭메모리)의 낸드 버전 격으로, 만약 AI 데이터센터의 스토리지 계층에서 자리 잡으면 SNDK가 현재의 '가격 사이클 수혜'를 넘어 '새 제품 카테고리'로 마진 구조를 넓힐 수 있는 재료다.",
+        beginnerSummary: "샌디스크가 '2028~2030년까지도 매출이 계속 두 자릿수로 늘 것'이라는 자신감 있는 전망을 내놓고, 키옥시아라는 회사와 함께 AI 데이터센터에 쓰일 새로운 고성능 저장장치 기술도 공개했어요. 이 소식에 주가가 하루 만에 9% 가까이 뛰며 6일 연속 상승했는데, 바로 다음 날 기술주 전체가 약세를 보이면서 다시 5% 정도 빠졌어요 - 회사에 나쁜 소식이 나온 게 아니라 시장 전체 분위기 탓으로 보여요.",
+        confidence: "가이던스 발표·HBF 공개·주가 등락폭은 복수 매체(Motley Fool·Benzinga·StocksToTrade) 보도 기준(신뢰도 높음) · 2028~2030년 성장 전망 자체는 회사 측 미래 예측이라 실현 여부 미확정",
+        sources: [
+          {title:"Why Sandisk Stock Rocketed Higher (Again) Today (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/17/why-sandisk-stock-rocketed-higher-again-today/"},
+          {title:"SNDK Stock Soars As Long-Term Growth Story Ignites (StocksToTrade)", url:"https://stockstotrade.com/news/sandisk-corporation-sndk-news-2026_08_17/"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-10",
@@ -597,7 +654,7 @@ const BUSINESS_NOTES = {
     },
   },
   MRVL: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "4대 하이퍼스케일러(구글·아마존·마이크로소프트 등으로 추정) - AI 커스텀 실리콘(XPU) 설계, 현재 활성 프로그램 18개 중 12개가 이들 대상",
       "신흥 AI 고객사 6곳 - 나머지 커스텀 실리콘 프로그램",
@@ -615,6 +672,21 @@ const BUSINESS_NOTES = {
     sources: [
       {title:"Is Surging AI Custom Silicon Demand Reshaping the Investment Case for Marvell Technology (Yahoo Finance)", url:"https://finance.yahoo.com/news/surging-ai-custom-silicon-demand-042534281.html"},
       {title:"Marvell Q1 FY 2026 Results Driven by Custom Silicon and Data Center Momentum (Futurum Group)", url:"https://futurumgroup.com/insights/marvell-q1-fy-2026-results-driven-by-custom-silicon-and-data-center-momentum/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "구글과 $12.2B 워런트 계약(TPU 커스텀칩 공동개발) 체결 + AI 메모리 인프라 신제품 출시(+14%) - 이번 주 최대 호재주, 경쟁사 AVGO(브로드컴)와의 관계 참고",
+        coreAnalysis: "마벨이 구글의 TPU 생태계 관련 커스텀 실리콘 프로그램에 참여하는 계약을 발표하며 구글에 마벨 주식 약 5,897만주를 주당 $206.58에 살 수 있는 워런트($12.2B 규모, FY2033까지 조달 목표와 연동)를 부여했다 - 8/19 주가가 +8~11%대로 급등했다(자세한 배경은 AVGO 항목의 newsLog 참고 - 브로드컴이 구글의 TPU 단독 공급사 지위를 잃게 된 계기). 같은 주에 AI 메모리 인프라 신제품(Bravera SC6 PCIe 6.0 SSD 컨트롤러, Structera X CXL 메모리 확장 플랫폼, Photonic Fabric 광연결 부품)을 공개하며 하루 +14% 급등도 있었다. 골드만삭스는 목표주가를 $195로 상향(중립 유지)했고, 미국 FCC의 중국산 광트랜시버 수입금지 검토 소식도 마벨에 우호적 재료로 거론됐다.",
+        whyItMatters: "위 customers 항목에 '4대 하이퍼스케일러'가 이미 핵심 고객으로 적혀 있었는데, 이번 계약으로 구글과의 관계가 단순 공급을 넘어 지분(워런트) 연계 파트너십으로 격상됐다 - 구글이 실제로 마벨 지분을 매입하면 장기적 이해관계가 더 강하게 묶이는 구조다. 다만 이 워런트는 '구매 목표(procurement goals) 달성'과 연동돼 있어, 실제 주문량이 목표에 못 미치면 구글이 워런트를 행사하지 않을 수도 있다는 점은 확정된 매출이 아니라 조건부 인센티브 구조임을 뜻한다. AVGO 입장에서는 독점 공급자 지위 상실이라는 리스크지만, 마벨 입장에서는 그동안 확보하지 못했던 구글 TPU 물량에 처음 진입했다는 점에서 명백한 사업 확대다.",
+        beginnerSummary: "마벨이 구글의 AI 반도체(TPU) 제작에 새로 참여하게 됐어요. 그 대가로 구글은 마벨 주식을 나중에 정해진 가격에 살 수 있는 권리(워런트)를 받았는데, 이게 약 122억 달러 규모예요. 이 소식에 마벨 주가가 하루 만에 8~11% 뛰었고, 같은 주에 AI 저장장치 관련 신제품도 발표하면서 또 한 번 14% 급등했어요. 다만 구글이 실제로 얼마나 주문할지에 따라 이 권리를 행사할지 말지가 갈리기 때문에, 지금 당장 확정된 매출이 늘었다는 뜻은 아니에요.",
+        confidence: "구글 워런트 계약 규모($12.2B)·주가 상승폭은 복수 매체(24/7 Wall St.·GuruFocus) 보도 기준(신뢰도 높음) · 실제 구매 목표 달성 여부·워런트 행사 여부는 향후 확인 필요(미확정)",
+        sources: [
+          {title:"Marvell Technology Rockets 13% on $12.2B Google Warrant; Broadcom Falls 3%, Alphabet Unmoved (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/08/19/marvell-technology-rockets-13-on-12-2b-google-warrant-broadcom-falls-3-alphabet-unmoved/"},
+          {title:"Marvell Technology (MRVL) Shares Surge on Google Investment Deal (GuruFocus)", url:"https://www.gurufocus.com/news/9043837/marvell-technology-mrvl-shares-surge-on-google-investment-deal"},
+          {title:"Marvell Technology Stock Jumps As AI Memory Push Accelerates (StocksToTrade)", url:"https://stockstotrade.com/news/marvell-technology-inc-mrvl-news-2026_08_19/"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-10",
@@ -658,7 +730,7 @@ const BUSINESS_NOTES = {
     },
   },
   INTC: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "PC 제조사·소비자(CCG 부문) - 유통사·OEM에 프로세서 공급, 매출 $77억(+1%)",
       "클라우드서비스사업자·기업(DCAI 부문) - 서버·통신·고성능컴퓨팅용, 매출 $51억(+22%, 하이퍼스케일러 서버 수요 견인)",
@@ -676,6 +748,20 @@ const BUSINESS_NOTES = {
     sources: [
       {title:"Intel Q2 FY 2026: Hyperscaler Server Demand Drives 59% DCAI Growth (Futurum Group)", url:"https://futurumgroup.com/insights/intel-q2-fy-2026-hyperscaler-server-demand-drives-59-dcai-growth/"},
       {title:"Intel Outlines Financial Framework for Foundry Business, Sets Path to Margin Expansion (Intel Newsroom)", url:"https://newsroom.intel.com/corporate/intel-outlines-financial-framework-for-foundry-business-sets-path-to-margin-expansion"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "$20B 규모 보통주 유상증자(주당 $95, 2.1억주 신주 발행) - 파운드리 턴어라운드 자금 확보, 기존 주주엔 희석 부담",
+        coreAnalysis: "인텔이 주당 $95에 신주 2.1억주를 발행하는 $20B 규모의 보통주 유상증자를 발표했다(8/12 마감, 순조달액 약 $19.7B 예상). 같은 주 인텔 주가는 첨단 반도체 제조 경쟁 심화 우려 속에 -4.51% 하락했다. 다만 최근 12개월 기준으로는 미국 정부의 지분 투자(10% 지분 확보)와 AI 인프라 확대 수혜로 주가가 +175~373%대로 급등한 상태였다.",
+        whyItMatters: "위 risks 항목의 '파운드리 턴어라운드 자금 소요'가 실제로 대형 증자로 이어진 사례 - 손상차손·구조조정 비용을 GAAP 손실로만 반영하던 것에서 나아가, 이제 신주 발행으로 직접 실탄을 확보한 것이다. 자금 자체는 파운드리 설비투자에 도움이 되지만, 신주 2.1억주 발행은 기존 주주의 지분율·주당순이익(EPS)을 그만큼 희석시킨다는 점에서 공짜가 아니다. 미국 정부 지분 참여, CHIPS Act 자금과 더불어 이번 증자까지 겹치면서 인텔의 자금조달 구조 자체가 '정부+시장' 복합 조달로 바뀌고 있다는 점도 함께 봐야 한다.",
+        beginnerSummary: "인텔이 공장(파운드리) 투자에 쓸 돈을 마련하려고 새 주식을 찍어서 팔았어요 - 주당 95달러에 2억 1천만 주를 팔아 약 200억 달러를 확보했어요. 돈이 생기는 건 좋지만, 새 주식이 많이 풀리면 기존 주주가 가진 주식의 가치(지분율)는 그만큼 옅어져요(희석). 최근 1년간 주가가 워낙 많이 올랐던(정부 지분 투자, AI 수요 등) 상황이라 이 정도 증자는 회사가 자신 있게 자금을 조달한 것으로 볼 수도 있어요.",
+        confidence: "증자 규모·발행가·순조달액은 CNBC 등 매체 보도 기준(신뢰도 높음) · 희석 효과의 구체적 EPS 영향은 다음 분기 실적에서 확인 필요",
+        sources: [
+          {title:"Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates (CNBC)", url:"https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html"},
+          {title:"Intel Stock Slips As $20B Upsized Share Sale Hits Tape (Timothy Sykes)", url:"https://www.timothysykes.com/news/intel-corporation-intc-news-2026_08_18-2/"},
+        ],
+      },
     ],
     analystLog: [{
       date: "2026-08-10",
@@ -937,7 +1023,7 @@ const BUSINESS_NOTES = {
     },
   },
   AAPL: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "전세계 소비자 - 활성기기 25억대 설치기반(아이폰이 매출의 절반 이상), 아이폰 고객 재구매율 89%로 업계 최고 수준(삼성 약 77%)",
       "서비스 구독자 - 앱스토어·아이클라우드·애플페이 등, 서비스가 매출 비중 2위(약 28%)로 확대 중",
@@ -981,6 +1067,17 @@ const BUSINESS_NOTES = {
           {title:"Apple Executive in Charge of Apple Pay and Wallet Services Is Leaving (Bloomberg)", url:"https://www.bloomberg.com/news/articles/2026-08-11/apple-executive-in-charge-of-apple-pay-and-wallet-services-is-leaving"},
           {title:"Apple Pay Chief Jennifer Bailey Retiring in October (MacRumors)", url:"https://www.macrumors.com/2026/08/11/apple-pay-chief-retiring/"},
           {title:"Apple Pay & Apple Card VP Jennifer Bailey is retiring (AppleInsider)", url:"https://appleinsider.com/articles/26/08/11/apple-pay-apple-card-vp-jennifer-bailey-is-retiring"},
+        ],
+      },
+      {
+        date: "2026-08-20",
+        headline: "EU와 앱스토어 수수료 관련 합의 후 요율 인상 + 미국 내 $60B 투자(텍사스 맥미니 생산 비중 확대)",
+        coreAnalysis: "애플이 유럽연합 집행위원회와의 디지털시장법(DMA) 관련 분쟁에서 합의에 이르며 EU 앱스토어 수수료를 인상했다. 동시에 미국 내 $60B 규모 투자 계획을 발표했는데, 상당 부분이 텍사스에서의 맥미니(Mac Mini) 생산 비중 확대에 투입된다.",
+        whyItMatters: "위 risks 항목에 'EU에서 이미 DMA 위반으로 벌금 부과됨'이라고 적혀 있던 규제 리스크가 이번 합의로 일부 정리된 것으로 보이는데, '합의 후 수수료를 인상'했다는 건 애플이 규제 준수 비용을 개발자·플랫폼 이용자에게 일부 전가했다는 뜻일 수 있어 EU와의 관계가 완전히 해소됐다고 보기는 이르다(합의의 구체적 조건은 원문 확인이 필요). $60B 규모 미국 투자·텍사스 생산 확대는 미중 관세·공급망 리스크(위 risks 항목)에 대응해 생산기지를 다변화하려는 움직임으로 해석되지만, 두 소식 모두 이번 조사에서는 헤드라인 수준까지만 확인됐고 구체적 수치(수수료 인상폭, 텍사스 투자 세부 내역)는 원문에서 추가 확인이 필요하다.",
+        beginnerSummary: "애플이 유럽연합과 앱스토어 수수료 문제로 다투다가 합의를 봤는데, 그 대신 수수료를 좀 올렸어요. 그리고 미국에다 60억 달러가 아니라 600억 달러(매우 큰 금액)를 투자해서 텍사스에서 맥미니(애플 컴퓨터의 한 종류)를 더 많이 만들기로 했어요 - 미중 갈등으로 중국 생산에 의존하는 리스크를 줄이려는 움직임으로 보여요.",
+        confidence: "두 사건의 발생 사실은 매체 보도 기준(신뢰도 중간) - 이번 조사에서는 headline 수준만 확인했고 합의 세부조건·투자 세부내역은 원문 추가 확인이 필요함(다음 갱신 때 더 깊이 확인할 것)",
+        sources: [
+          {title:"Interesting News for Apple Stock Investors (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/18/interesting-news-for-apple-stock-investors/"},
         ],
       },
     ],
@@ -1147,7 +1244,7 @@ const BUSINESS_NOTES = {
     },
   },
   AMD: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "클라우드·AI 기업(데이터센터 부문, 매출 최대 비중) - EPYC 서버CPU·Instinct AI가속기, 메타·오픈AI·오라클 등에 'Helios' AI시스템 출하 시작(newsLog 참고)",
       "PC 제조사·소비자(클라이언트 부문) - Ryzen 프로세서",
@@ -1179,6 +1276,17 @@ const BUSINESS_NOTES = {
         sources: [
           {title:"AMD Reports Second Quarter 2026 Financial Results (AMD IR, 공식)", url:"https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"},
           {title:"AMD earnings report Q2 2026 (CNBC)", url:"https://www.cnbc.com/2026/08/04/amd-earnings-report-q2-2026.html"},
+        ],
+      },
+      {
+        date: "2026-08-20",
+        headline: "$4.75B 규모 선순위채 발행 - 일반 운영자금 목적, 주가는 오히려 +5.6% 상승",
+        coreAnalysis: "AMD가 $4.75B 규모의 선순위채(senior notes)를 발행했다(결제일 8/17 예정). 회사는 조달한 현금을 일반 기업 운영 목적으로 사용할 계획이라고 밝혔다. 통상 대형 채권 발행은 주가에 부담(이자비용 증가, 재무 레버리지 확대)으로 작용하는 경우가 많은데, 이번엔 오히려 발표 당일 주가가 약 +5.6% 상승했다 - AI 수요 모멘텀에 대한 시장 신뢰가 채권 발행의 부담보다 우세했던 것으로 보인다.",
+        whyItMatters: "위 INTC(유상증자)·MRVL·AVGO 등 이 워치리스트의 여러 반도체 기업이 같은 시기에 대규모 자금조달(주식 또는 채권)에 나서고 있다는 공통된 흐름 중 하나로 볼 수 있다 - AI 인프라 투자 경쟁이 격화되면서 반도체 기업들이 앞다퉈 실탄을 확보하는 국면으로 해석할 여지가 있다. 다만 INTC의 유상증자(지분 희석)와 달리 AMD는 채권(부채) 발행이라 기존 주주 지분율에는 영향이 없고, 대신 향후 이자비용 부담이 재무제표에 반영된다는 점이 다르다. 구체적인 만기·금리 조건은 이번 조사에서 확인하지 못해 다음 갱신 때 보완이 필요하다.",
+        beginnerSummary: "AMD가 회사 운영자금을 마련하려고 약 47억5천만 달러어치의 채권(회사가 돈을 빌리고 나중에 갚기로 하는 증서)을 발행했어요. 보통 이런 소식은 회사가 빚을 늘린다는 뜻이라 주가에 부담이 될 수 있는데, 이번엔 오히려 주가가 5.6% 올랐어요 - AI 반도체 수요에 대한 투자자들의 믿음이 그만큼 강했다는 뜻으로 보여요.",
+        confidence: "채권 발행 규모·발표 당일 주가 반응은 매체 보도 기준(신뢰도 높음) · 구체적 만기·금리 조건은 이번 조사에서 미확인(다음 갱신 때 보완 필요)",
+        sources: [
+          {title:"AMD Stock Jumps 5.6% While $4.75 Billion Debt Deal Lands (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/amd-stock-jumps-5-6-191626837.html"},
         ],
       },
     ],
@@ -1468,7 +1576,7 @@ const BUSINESS_NOTES = {
     },
   },
   LRCX: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "메모리·파운드리·로직 제조사 - 3D낸드·D램·첨단 로직 생산업체가 핵심 고객, 아시아(대만·한국 등)에 고객이 집중",
     ],
@@ -1496,6 +1604,17 @@ const BUSINESS_NOTES = {
         sources: [
           {title:"Lam Research details 2026 chip equipment outlook (StockTitan, 10-K 기반)", url:"https://www.stocktitan.net/sec-filings/LRCX/10-k-lam-research-corp-files-annual-report-540ab6d528eb.html"},
           {title:"Why Lam Research (LRCX) Stock Is Up +34% in the Last... (Tickeron)", url:"https://tickeron.com/ticker/LRCX/"},
+        ],
+      },
+      {
+        date: "2026-08-20",
+        headline: "$3B+ 규모 R&D 확장 계획 발표(미국·아시아·유럽) - 실험 캐파 50%↑ 목표, AI 반도체 공정 개발 경쟁 대응",
+        coreAnalysis: "램리서치가 AI 반도체 생산을 뒷받침하기 위해 $3B 이상 규모의 R&D 확장 계획을 발표했다. 미국·아시아·유럽 여러 시설에 걸쳐 실험(공정 개발) 캐파를 50% 이상 늘리는 게 목표이며, 올해부터 시작된다.",
+        whyItMatters: "위 8/13 newsLog에서 다룬 뉴욕 인력양성 협약과 같은 맥락의 '선행 투자' 소식으로, 지금의 실적 호조(매출·EPS 서프라이즈)를 미래 공정 경쟁력으로 이어가려는 전략으로 보인다. 다만 이번 조사에서는 헤드라인 수준(총 투자 규모, 목표)만 확인했고, 구체적 집행 시점·시설별 배분 등은 원문에서 추가 확인이 필요하다 - 반도체장비 3사(AMAT·LRCX·KLAC) 모두 '실적은 좋은데 주가는 조정받는' 국면인 가운데, 이런 선제 투자가 다음 사이클에서 경쟁력 우위로 이어지는지가 지켜볼 포인트다.",
+        beginnerSummary: "램리서치가 AI 반도체를 만드는 데 필요한 새로운 기술을 개발하려고 30억 달러 넘는 돈을 미국·아시아·유럽 여러 곳의 연구시설에 투자하기로 했어요. 지금 당장 매출이 느는 소식은 아니고, 앞으로 더 좋은 장비를 만들기 위한 사전 투자예요.",
+        confidence: "투자 발표 사실과 규모는 매체(Benzinga) 보도 기준(신뢰도 중간) - 세부 집행 계획은 이번 조사에서 미확인",
+        sources: [
+          {title:"Lam Research Plans $3 Billion R&D Blitz As AI Raises The Stakes For Chipmakers (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/08/61203022/lam-research-plans-3-billion-rd-blitz-as-ai-raises-the-stakes-for-chipmakers"},
         ],
       },
     ],
@@ -1528,7 +1647,7 @@ const BUSINESS_NOTES = {
     },
   },
   KLAC: {
-    updated: "2026-08-13",
+    updated: "2026-08-20",
     customers: [
       "선단 로직·메모리 파운드리(TSMC·삼성 등) - 결함 검사·계측(공정관리) 장비, 반도체 패키징·PCB·컴포넌트 업체까지 폭넓게 포함",
     ],
@@ -1557,6 +1676,15 @@ const BUSINESS_NOTES = {
           {title:"KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/08/08/kla-corporation-has-had-a-rough-month-a-wall-street-pro-sees-70-upside-because-of-it/"},
           {title:"KLA Declares Regular Cash Dividend (PR Newswire, 공식)", url:"https://www.prnewswire.com/news-releases/kla-declares-regular-cash-dividend-302845379.html"},
         ],
+      },
+      {
+        date: "2026-08-20",
+        headline: "약 $2B 규모 금리스왑 익스포저 - SOFR 상승·거래상대방 리스크 노출 보도",
+        coreAnalysis: "KLA가 약 $2B 규모의 금리스왑(interest rate swap) 계약에 노출돼 있고, 기준금리(SOFR) 상승과 거래상대방(카운터파티) 리스크에 민감하다는 보도가 나왔다. 위 8/13 newsLog의 중국 수출규제 우려와는 별개로, 재무구조 측면의 금리 리스크가 새로 부각된 것이다.",
+        whyItMatters: "금리스왑 자체는 많은 대기업이 금리 변동 위험을 관리(헤지)하기 위해 쓰는 일반적인 금융 도구라 존재 자체가 이상 신호는 아니다. 다만 SOFR(미국 단기 기준금리) 상승 국면에서는 스왑 계약의 조건에 따라 KLA가 오히려 추가 비용을 부담하게 될 수도 있고, 거래상대방(금융기관)의 신용 문제가 생기면 헤지 효과 자체가 흔들릴 수 있다 - 이번 조사에서는 헤드라인 수준의 보도만 확인했고, 실제 계약 조건(고정금리 지급/변동금리 수취 여부 등)과 재무제표상 영향은 확인하지 못해 다음 갱신 때 10-Q 등 공시로 직접 확인이 필요하다.",
+        beginnerSummary: "KLA가 금리 변동 위험을 관리하기 위해 맺어둔 약 20억 달러 규모의 금융 계약(금리스왑)이 있는데, 최근 기준금리가 오르면서 이 계약 때문에 오히려 비용 부담이 생길 수 있다는 보도가 나왔어요. 이런 계약 자체는 큰 회사들이 흔히 쓰는 위험 관리 수단이라 있다는 사실만으로 나쁜 건 아니지만, 정확히 회사에 유리한 조건인지 불리한 조건인지는 이번 조사로는 확인하지 못했어요.",
+        confidence: "보도 사실 자체는 매체 보도 기준(신뢰도 중간) - 계약의 구체적 조건과 실제 재무 영향은 이번 조사에서 미확인(추측하지 않고 다음에 공시 원문으로 확인할 것)",
+        sources: [],
       },
     ],
     viewLog: [

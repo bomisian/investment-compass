@@ -906,7 +906,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-08-19 18:05"
   },
   "ANET": {
-    "forwardPE": 47.041233523514535,
+    "forwardPE": 45.40241220861002,
     "peTTM": 63.4947,
     "psTTM": 24.3635,
     "pb": 17.3548,
@@ -929,7 +929,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 256810.55,
     "52WeekHigh": 214.89,
     "52WeekLow": 114.52,
-    "beta": 1.609858,
+    "beta": 1.6035923,
     "avgPe3Y": 43.63783333333333,
     "peDeviation3Y": 45.50378685162341,
     "perBandYears": 12,
@@ -939,11 +939,11 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 30.78,
     "name": "Arista Networks Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:33"
   },
   "COHR": {
-    "forwardPE": 32.48523439395792,
+    "forwardPE": 30.46307971594638,
     "peTTM": 79.5299,
     "psTTM": 8.9938,
     "pb": 5.8714,
@@ -965,7 +965,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 64019.06,
     "52WeekHigh": 440,
     "52WeekLow": 84.35,
-    "beta": 2.120409,
+    "beta": 2.1102507,
     "avgPe3Y": 133.2929,
     "peDeviation3Y": -40.334481431494105,
     "perBandYears": 24,
@@ -975,8 +975,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 6.25,
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:33"
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1008,8 +1008,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 9.71,
     "name": "Lumentum Holdings Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:33"
   },
   "GEV": {
     "forwardPE": 45.54201,
@@ -1034,7 +1034,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 279495.8,
     "52WeekHigh": 1195.94,
     "52WeekLow": 530.16,
-    "beta": 0.6793955,
+    "beta": 0.7018895,
     "avgPe3Y": 47.368449999999996,
     "peDeviation3Y": -38.07228228916082,
     "perBandYears": 2,
@@ -1042,8 +1042,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 74.29,
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1069,7 +1069,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 98724.2,
     "52WeekHigh": 412.7,
     "52WeekLow": 228.63,
-    "beta": 1.1223586,
+    "beta": 1.125819,
     "avgPe3Y": 29.746333333333336,
     "peDeviation3Y": -4.217438563856614,
     "perBandYears": 3,
@@ -1077,8 +1077,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.690000000000001,
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "VST": {
     "forwardPE": 14.48324,
@@ -1114,8 +1114,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.94,
     "name": "Vistra Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "ETN": {
     "forwardPE": 26.51809,
@@ -1142,7 +1142,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 177257.98,
     "52WeekHigh": 478,
     "52WeekLow": 311.92,
-    "beta": 1.1519375,
+    "beta": 1.1490742,
     "avgPe3Y": 31.570800000000002,
     "peDeviation3Y": 46.55757852192531,
     "perBandYears": 27,
@@ -1152,8 +1152,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.9,
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "PWR": {
     "forwardPE": 42.20505,
@@ -1189,8 +1189,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.9,
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "HUBB": {
     "forwardPE": 21.9516,
@@ -1226,8 +1226,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 13.13,
     "name": "Hubbell Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "VRT": {
     "forwardPE": 28.86851,
@@ -1262,11 +1262,11 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.610000000000003,
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "MOD": {
-    "forwardPE": 26.250317565264076,
+    "forwardPE": 25.528191815437218,
     "peTTM": 74.5972,
     "psTTM": 3.1897,
     "pb": 8.9529,
@@ -1298,8 +1298,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.57,
     "name": "Modine Manufacturing Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "STX": {
     "forwardPE": 23.33973,
@@ -1335,8 +1335,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 50.519999999999996,
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1362,7 +1362,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 36934.105,
     "52WeekHigh": 951.96,
     "52WeekLow": 564.92,
-    "beta": 1.1485943,
+    "beta": 1.1441984,
     "avgPe3Y": 19.420066666666667,
     "peDeviation3Y": 32.150421728727316,
     "perBandYears": 26,
@@ -1372,8 +1372,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 38.43,
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:51"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "FIX": {
     "forwardPE": 30.83426,
@@ -1399,7 +1399,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 61247.105,
     "52WeekHigh": 2073.99,
     "52WeekLow": 655.96,
-    "beta": 1.6964275,
+    "beta": 1.6905203,
     "avgPe3Y": 27.932266666666663,
     "peDeviation3Y": 52.86514520840894,
     "perBandYears": 22,
@@ -1409,8 +1409,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:52"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   },
   "SBGSY": {
     "forwardPE": 26.51724,
@@ -1434,7 +1434,7 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 0.8067,
     "longTermDebt/equityQuarterly": 0.5668,
     "totalDebt/totalEquityQuarterly": 0.7704,
-    "beta": 1.3763313,
+    "beta": 1.4205582,
     "avgPe3Y": 29.958166666666667,
     "peDeviation3Y": 23.730201558840392,
     "perBandYears": 26,
@@ -1445,7 +1445,7 @@ const FUNDAMENTALS_DATA = {
     "name": "Schneider Electric SE",
     "theme": "AI 전력·인프라",
     "marketCapCurrencyNote": "EUR",
-    "_fetched_at": 1787125879.59421,
-    "_updated_label": "2026-08-19 16:52"
+    "_fetched_at": 1787200431.39296,
+    "_updated_label": "2026-08-20 13:34"
   }
 };
