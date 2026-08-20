@@ -1571,13 +1571,13 @@ const NEWS_DATA = {
         "headlineKo": "Mark Cuban은 Nvidia를 Dot-Com-Era IPO 기계에 비교하여 \"모든 사람과 누구에게나 자금을 지원합니다.\" AI 주식에 대한 의미는 다음과 같습니다."
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "AAPL": {
@@ -2309,13 +2309,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "GOOGL": {
@@ -2995,13 +2995,13 @@ const NEWS_DATA = {
         "headlineKo": "135억 달러 규모의 버크셔 해서웨이 미스터리: 그렉 아벨이 알파벳 외에 무엇을 구매하고 있는가?"
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "MSFT": {
@@ -3720,13 +3720,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "AMZN": {
@@ -4459,13 +4459,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "TSM": {
@@ -5133,13 +5133,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "AVGO": {
@@ -5834,13 +5834,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "META": {
@@ -5851,6 +5851,51 @@ const NEWS_DATA = {
       "revenueEstimate": 64544859918
     },
     "news": [
+      {
+        "headline": "Meta: The Drawdown Is An Opportunity",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052",
+        "datetime": 1787182806,
+        "relevance": 0.6,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Meta: The Drawdown Is An Opportunity",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "META",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 META의 사업과 관련된 'Meta: The Drawdown Is An Opportunity' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.6,
+          "quality": "low"
+        },
+        "headlineKo": "메타: 하락세는 기회입니다"
+      },
       {
         "headline": "Meta Stock Climbs as Landmark Trial Threatens $1.4 Trillion Penalties",
         "source": "Benzinga",
@@ -5947,16 +5992,35 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d8cee9a16c5f7c4549fe5b6eb1749be77671a6003810b4396a0c1804796221c6",
         "datetime": 1787125218,
         "relevance": 0.6,
+        "headlineKo": "소셜 미디어의 비즈니스 모델은 메타 재판에 달려 있습니다: Vanderbilt의 Rebecca Haw Allensworth"
+      },
+      {
+        "headline": "Meta's AI Payoff Has Already Begun",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=b6a7199220883383f51ad312554012cf201dbdd176417aa13df3ca3d0bef216f",
+        "datetime": 1787123125,
+        "relevance": 0.6,
+        "headlineKo": "Meta의 AI 보상은 이미 시작되었습니다"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Meta: The Drawdown Is An Opportunity",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=313505ed8bed4fc195d60a2aa914adc4d0273afec20216bdf86ef3c7d38b2052",
+        "datetime": 1787182806,
+        "headlineKo": "메타: 하락세는 기회입니다",
+        "relevance": 0.6,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·수요 개선 가능성",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The business model of social media is at stake in Meta trial: Vanderbilt's Rebecca Haw Allensworth Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video ",
-            "06:05 Wed, Aug 19 2026 7:40 AM EDT watch now watch now VIDEO 07:06 Inside crypto’s multiyear sponsorship rush into soccer 3 hours ago watch now watch now VIDEO 04:46 OpenAI 'will be a public company in 2027' or sooner, CFO Friar tells emplo"
+            "Meta: The Drawdown Is An Opportunity",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -5979,31 +6043,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 META의 사업과 관련된 'The business model of social media is at stake in Meta trial: Vanderbilt's Rebecca Haw Allensworth' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 META의 사업과 관련된 'Meta: The Drawdown Is An Opportunity' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "META 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.6,
           "quality": "low"
-        },
-        "headlineKo": "소셜 미디어의 비즈니스 모델은 메타 재판에 달려 있습니다: Vanderbilt의 Rebecca Haw Allensworth"
+        }
       },
-      {
-        "headline": "Meta's AI Payoff Has Already Begun",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b6a7199220883383f51ad312554012cf201dbdd176417aa13df3ca3d0bef216f",
-        "datetime": 1787123125,
-        "relevance": 0.6,
-        "headlineKo": "Meta의 AI 보상은 이미 시작되었습니다"
-      },
-      {
-        "headline": "Chamath Palihapitiya Says Mark Zuckerberg Knows ‘Great Engineers’ Want to Join ‘Space/Search/AI’ Companies, Not Meta’s Advertising Machine",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=82f09efc5f7ce5b056779030b8a76d104baea9e6b5b94fb46741bd0a036b085a",
-        "datetime": 1787121987,
-        "relevance": 0.6,
-        "headlineKo": "Chamath Palihapitiya는 Mark Zuckerberg가 Meta의 광고 기계가 아닌 '우주/검색/AI' 회사에 합류하기를 원하는 '훌륭한 엔지니어'를 알고 있다고 말합니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Meta Stock Climbs as Landmark Trial Threatens $1.4 Trillion Penalties",
         "source": "Benzinga",
@@ -6927,13 +6972,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 44,
+      "checked": 45,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "TSLA": {
@@ -6953,14 +6998,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Tesla: No One Is Paying Attention (NASDAQ:TSLA) | Seeking Alpha The Techie 5.35K Followers Follow Summary Tesla, Inc.",
-            "remains a Buy following a 25% YTD decline, as recent weakness is driven by macro factors and sentiment, not a broken thesis.",
-            "Q2 results showed strong revenue growth and record deliveries, but significant margin compression and elevated capex, especially for pre-revenue initiatives like Robotaxi and Optimus."
+            "Tesla: No One Is Paying Attention",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -6983,7 +7027,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla: No One Is Paying Attention' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla: No One Is Paying Attention' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low"
@@ -7126,14 +7170,13 @@ const NEWS_DATA = {
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Tesla: No One Is Paying Attention (NASDAQ:TSLA) | Seeking Alpha The Techie 5.35K Followers Follow Summary Tesla, Inc.",
-            "remains a Buy following a 25% YTD decline, as recent weakness is driven by macro factors and sentiment, not a broken thesis.",
-            "Q2 results showed strong revenue growth and record deliveries, but significant margin compression and elevated capex, especially for pre-revenue initiatives like Robotaxi and Optimus."
+            "Tesla: No One Is Paying Attention",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -7156,7 +7199,7 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla: No One Is Paying Attention' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 TSLA의 사업과 관련된 'Tesla: No One Is Paying Attention' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "TSLA 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.4,
           "quality": "low"
@@ -7862,13 +7905,13 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "MU": {
@@ -8634,13 +8677,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:51",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "AMD": {
@@ -9387,13 +9430,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "INTC": {
@@ -9508,9 +9551,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026 Markets Billionaire Stanley Druckenmiller bailed on Micron and Intel stocks and piled into Amazon The family office increased its Amazon stake by more than 1,000% while completely ex",
-            "According to the filing, Duquesne raised its Amazon .com position to 541,600 shares while also more than doubling the call options it held on the e-commerce giant.",
-            "Duquesne also built a new 336,300-share stake in Alphabet $GOOGL Class A and a 72,900-share stake in Advanced Micro Devices, alongside a modest increase to its existing Taiwan Semiconductor Manufacturing position."
+            "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026 Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Markets Billionaire Stanley Druckenmiller bailed on Micron and Intel stocks and piled into Amazon The family office increased its Amazon stake by more than 1,000% while completely exiting Broadcom, Intel, and Micron By Cris Tolomia · 2 min ",
+            "According to the filing, Duquesne raised its Amazon .com position to 541,600 shares while also more than doubling the call options it held on the e-commerce giant."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -9663,9 +9706,9 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026 Markets Billionaire Stanley Druckenmiller bailed on Micron and Intel stocks and piled into Amazon The family office increased its Amazon stake by more than 1,000% while completely ex",
-            "According to the filing, Duquesne raised its Amazon .com position to 541,600 shares while also more than doubling the call options it held on the e-commerce giant.",
-            "Duquesne also built a new 336,300-share stake in Alphabet $GOOGL Class A and a 72,900-share stake in Advanced Micro Devices, alongside a modest increase to its existing Taiwan Semiconductor Manufacturing position."
+            "Druckenmiller dumps Micron, Intel, buys Amazon in Q2 2026 Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Markets Billionaire Stanley Druckenmiller bailed on Micron and Intel stocks and piled into Amazon The family office increased its Amazon stake by more than 1,000% while completely exiting Broadcom, Intel, and Micron By Cris Tolomia · 2 min ",
+            "According to the filing, Duquesne raised its Amazon .com position to 541,600 shares while also more than doubling the call options it held on the e-commerce giant."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -10183,13 +10226,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "AMAT": {
@@ -11066,13 +11109,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "QQQ": {
@@ -11686,13 +11729,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:47",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "SPY": {
@@ -12435,13 +12478,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:48",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "ORCL": {
@@ -13122,13 +13165,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "CRM": {
@@ -13824,13 +13867,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "PLTR": {
@@ -14640,13 +14683,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "QCOM": {
@@ -15227,13 +15270,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:49",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "ARM": {
@@ -15350,8 +15393,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Great Company, Full Price: What Arm's Numbers Say About the Next 1 Year - 24/7 Wall St.",
-            "Skip to content S&P 500 7,725.80 +0.11% Dow Jones 53,510.10 +0.05% Nasdaq 100 29,584.40 +0.31% Russell 2000 3,037.50 +0.07% FTSE 100 10,755.30 +0.22% Nikkei 225 66,419.00 +0.32% Live: Will Webull Crush Q2 Earnings Tonight After Rising 7.5% ",
-            "Investing Great Company, Full Price: What Arm’s Numbers Say About the Next 1 Year By Vandita Jadeja Published Aug 13, 9:30AM EDT Quick Read ARM has posted three straight years of 20%+ revenue growth, but a 38% Q1 EPS miss and $50 million in"
+            "Skip to content S&P 500 7,728.80 +0.15% Dow Jones 53,518.60 +0.06% Nasdaq 100 29,603.60 +0.37% Russell 2000 3,041.50 +0.21% FTSE 100 10,766.20 +0.10% Nikkei 225 66,356.50 +0.22% Investing Great Company, Full Price: What Arm’s Numbers Say Ab",
+            "Wall Street targets $288 and our model projects $278, but the bull case reaches $426 if Arm's AGI CPU ramp materially beats forecasts."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -15506,8 +15549,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Great Company, Full Price: What Arm's Numbers Say About the Next 1 Year - 24/7 Wall St.",
-            "Skip to content S&P 500 7,725.80 +0.11% Dow Jones 53,510.10 +0.05% Nasdaq 100 29,584.40 +0.31% Russell 2000 3,037.50 +0.07% FTSE 100 10,755.30 +0.22% Nikkei 225 66,419.00 +0.32% Live: Will Webull Crush Q2 Earnings Tonight After Rising 7.5% ",
-            "Investing Great Company, Full Price: What Arm’s Numbers Say About the Next 1 Year By Vandita Jadeja Published Aug 13, 9:30AM EDT Quick Read ARM has posted three straight years of 20%+ revenue growth, but a 38% Q1 EPS miss and $50 million in"
+            "Skip to content S&P 500 7,728.80 +0.15% Dow Jones 53,518.60 +0.06% Nasdaq 100 29,603.60 +0.37% Russell 2000 3,041.50 +0.21% FTSE 100 10,766.20 +0.10% Nikkei 225 66,356.50 +0.22% Investing Great Company, Full Price: What Arm’s Numbers Say Ab",
+            "Wall Street targets $288 and our model projects $278, but the bull case reaches $426 if Arm's AGI CPU ramp materially beats forecasts."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -15717,13 +15760,13 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "MRVL": {
@@ -16334,13 +16377,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "ASML": {
@@ -16884,13 +16927,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "LRCX": {
@@ -17445,13 +17488,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:50",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "KLAC": {
@@ -18041,13 +18084,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:51",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "SNDK": {
@@ -18993,13 +19036,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:51",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "WDC": {
@@ -19600,13 +19643,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787186866.89554,
-    "_updated_label": "2026-08-20 09:51",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "ANET": {
@@ -19617,6 +19660,51 @@ const NEWS_DATA = {
       "revenueEstimate": 3326164593
     },
     "news": [
+      {
+        "headline": "Arista Networks: Q2 2026 Justifies A Higher Price Target",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=675e1e9e674200a232a55c60e058aa17abfd901e14ac97038c96be6448634147",
+        "datetime": 1787195037,
+        "relevance": 1,
+        "analysis": {
+          "version": 8,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arista Networks: Q2 2026 Justifies A Higher Price Target",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ANET",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks: Q2 2026 Justifies A Higher Price Target' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low"
+        },
+        "headlineKo": "Arista Networks: 2026년 2분기에는 더 높은 가격 목표가 정당화됩니다"
+      },
       {
         "headline": "Arista Networks, Inc. (ANET) Presents at Rosenblatt's 6th Annual Technology Summit: The Age of AI (Part II) Transcript",
         "source": "SeekingAlpha",
@@ -19713,17 +19801,35 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=0dc33e878cdc663bdae6aa6f812431e0a55b617f13004bc6be5a2a421edd2996",
         "datetime": 1786665524,
         "relevance": 1,
+        "headlineKo": "Arista Networks 주식은 최고 마진에 맞춰 가격이 책정됩니다."
+      },
+      {
+        "headline": "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e442cf56ac6bb4587e1429b72c27f090437cf8bcfac29c4ad019f286ca8e5ef3",
+        "datetime": 1786641780,
+        "relevance": 1.0,
+        "headlineKo": "CLS 대 ANET: 어떤 AI 주식이 더 나은 성장 기회를 제공합니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Arista Networks: Q2 2026 Justifies A Higher Price Target",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=675e1e9e674200a232a55c60e058aa17abfd901e14ac97038c96be6448634147",
+        "datetime": 1787195037,
+        "headlineKo": "Arista Networks: 2026년 2분기에는 더 높은 가격 목표가 정당화됩니다",
+        "relevance": 1,
         "analysis": {
           "version": 8,
           "importance": "low",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "실적·재무 부담 확인 필요",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arista Networks Stock Is Priced For Its Peak Margin | Trefis Arista Networks Stock Is Priced For Its Peak Margin August 13th, 2026 · by Trefis Team ANET YTD +47.4% SPY YTD +12.8% QQQ YTD +16.9% Analyze ANET → Arista Networks stock sits at i",
-            "Arista Networks (ANET) trades at $210, at its 52-week high, after a 49.0% gain over the past twelve months.",
-            "The biggest risk to a price like that is not demand."
+            "Arista Networks: Q2 2026 Justifies A Higher Price Target",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -19746,31 +19852,12 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks Stock Is Priced For Its Peak Margin' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ANET의 사업과 관련된 'Arista Networks: Q2 2026 Justifies A Higher Price Target' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ANET 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low"
-        },
-        "headlineKo": "Arista Networks 주식은 최고 마진에 맞춰 가격이 책정됩니다."
+        }
       },
-      {
-        "headline": "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e442cf56ac6bb4587e1429b72c27f090437cf8bcfac29c4ad019f286ca8e5ef3",
-        "datetime": 1786641780,
-        "relevance": 1.0,
-        "headlineKo": "CLS 대 ANET: 어떤 AI 주식이 더 나은 성장 기회를 제공합니까?"
-      },
-      {
-        "headline": "Cisco Says It's Taking Customers From Rivals. Is Arista's Lead Narrowing?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=6bb92e4830a805c86e73c94441c30f5cced92911b03c92bd40836214a61ebefd",
-        "datetime": 1786614833,
-        "relevance": 0.67,
-        "headlineKo": "Cisco는 경쟁사로부터 고객을 빼앗고 있다고 말합니다. Arista의 리드가 좁아지고 있습니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Arista Networks, Inc. (ANET) Presents at Rosenblatt's 6th Annual Technology Summit: The Age of AI (Part II) Transcript",
         "source": "SeekingAlpha",
@@ -19977,13 +20064,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187297.6519501,
-    "_updated_label": "2026-08-20 09:54",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 12,
+      "checked": 13,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "COHR": {
@@ -20454,13 +20541,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187304.1245296,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "LITE": {
@@ -20919,13 +21006,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187309.7787712,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "GEV": {
@@ -21041,8 +21128,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "GE Vernova and Blue Energy Move Forward With 2.5 GW Texas Gas-Nuclear Power Project Boards: Quotes: Favorites Popular Monitor Movers Level 2 News Menu Boards Stocks Commodities Forex Cryptocurrency The Lounge Advanced Search News All Compan",
-            "The planned development would combine GE Vernova’s gas turbine technology with small modular nuclear reactors to supply large-scale power demand, including a nearby data centre.",
-            "Agreement advances engineering and licensing work The latest agreement covers engineering design, regulatory licensing and safety analysis required to progress the Victoria project towards a potential construction decision."
+            "Get Started GE Vernova and Blue Energy Move Forward With 2.5 GW Texas Gas-Nuclear Power Project Fiona Craig NYSE:GEV Latest News August 13 2026 9:33AM © Adobe Stock Images Blue Energy and GE Vernova Hitachi Nuclear Energy (NYSE:GEV) have ag",
+            "The planned development would combine GE Vernova’s gas turbine technology with small modular nuclear reactors to supply large-scale power demand, including a nearby data centre."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -21196,8 +21283,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "GE Vernova and Blue Energy Move Forward With 2.5 GW Texas Gas-Nuclear Power Project Boards: Quotes: Favorites Popular Monitor Movers Level 2 News Menu Boards Stocks Commodities Forex Cryptocurrency The Lounge Advanced Search News All Compan",
-            "The planned development would combine GE Vernova’s gas turbine technology with small modular nuclear reactors to supply large-scale power demand, including a nearby data centre.",
-            "Agreement advances engineering and licensing work The latest agreement covers engineering design, regulatory licensing and safety analysis required to progress the Victoria project towards a potential construction decision."
+            "Get Started GE Vernova and Blue Energy Move Forward With 2.5 GW Texas Gas-Nuclear Power Project Fiona Craig NYSE:GEV Latest News August 13 2026 9:33AM © Adobe Stock Images Blue Energy and GE Vernova Hitachi Nuclear Energy (NYSE:GEV) have ag",
+            "The planned development would combine GE Vernova’s gas turbine technology with small modular nuclear reactors to supply large-scale power demand, including a nearby data centre."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -21296,13 +21383,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187320.086413,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "CEG": {
@@ -21663,13 +21750,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187326.685375,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "VST": {
@@ -22112,13 +22199,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187334.0155263,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "ETN": {
@@ -22434,13 +22521,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187340.0111065,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "PWR": {
@@ -22634,13 +22721,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187349.675938,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 4,
-      "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "checked": 5,
+      "removed": 1,
+      "updated": "2026-08-20 16:43"
     }
   },
   "HUBB": {
@@ -22744,13 +22831,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187354.7359786,
-    "_updated_label": "2026-08-20 09:55",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "VRT": {
@@ -22866,8 +22953,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Vertiv’s AI‑Driven Surge Has Analysts Calling for Even More Upside - 24/7 Wall St.",
-            "Skip to content S&P 500 7,726.00 +0.11% Dow Jones 53,501.60 +0.03% Nasdaq 100 29,587.00 +0.32% Russell 2000 3,039.20 +0.13% FTSE 100 10,754.70 -0.01% Nikkei 225 66,186.50 -0.03% Live: Will Webull Crush Q2 Earnings Tonight After Rising 7.5% ",
-            "Investing Vertiv’s AI‑Driven Surge Has Analysts Calling for Even More Upside By Joey Frenette Published Aug 13, 9:15AM EDT Quick Read Vertiv surged 280% in two years to a $111 billion valuation, with AI data centers driving explosive demand"
+            "Skip to content S&P 500 7,718.80 +0.02% Dow Jones 53,442.60 -0.08% Nasdaq 100 29,549.00 +0.19% Russell 2000 3,035.45 +0.01% FTSE 100 10,717.40 -0.35% Nikkei 225 66,044.00 -0.25% Investing Vertiv’s AI‑Driven Surge Has Analysts Calling for Ev",
+            "Morgan Stanley targets $350 for Vertiv, citing its swelling backlog as the AI bottleneck shifts from semiconductors to physical cooling infrastructure."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -23021,8 +23108,8 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Vertiv’s AI‑Driven Surge Has Analysts Calling for Even More Upside - 24/7 Wall St.",
-            "Skip to content S&P 500 7,726.00 +0.11% Dow Jones 53,501.60 +0.03% Nasdaq 100 29,587.00 +0.32% Russell 2000 3,039.20 +0.13% FTSE 100 10,754.70 -0.01% Nikkei 225 66,186.50 -0.03% Live: Will Webull Crush Q2 Earnings Tonight After Rising 7.5% ",
-            "Investing Vertiv’s AI‑Driven Surge Has Analysts Calling for Even More Upside By Joey Frenette Published Aug 13, 9:15AM EDT Quick Read Vertiv surged 280% in two years to a $111 billion valuation, with AI data centers driving explosive demand"
+            "Skip to content S&P 500 7,718.80 +0.02% Dow Jones 53,442.60 -0.08% Nasdaq 100 29,549.00 +0.19% Russell 2000 3,035.45 +0.01% FTSE 100 10,717.40 -0.35% Nikkei 225 66,044.00 -0.25% Investing Vertiv’s AI‑Driven Surge Has Analysts Calling for Ev",
+            "Morgan Stanley targets $350 for Vertiv, citing its swelling backlog as the AI bottleneck shifts from semiconductors to physical cooling infrastructure."
           ],
           "why": [
             "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
@@ -23113,13 +23200,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187364.3799875,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "MOD": {
@@ -23223,13 +23310,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187369.9402072,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "STX": {
@@ -23299,7 +23386,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Make Your STX Shares Pay You 26% Per Year While You Hold Them | Trefis Make Your STX Shares Pay You 26% Per Year While You Hold Them August 13th, 2026 · by Trefis Team STX YTD +229.0% SPY YTD +12.8% QQQ YTD +16.9% Analyze STX → Here is a wa",
+            "Make Your STX Shares Pay You 26% Per Year While You Hold Them | Trefis Make Your STX Shares Pay You 26% Per Year While You Hold Them August 13th, 2026 · by Trefis Team STX YTD +203.1% SPY YTD +13.1% QQQ YTD +16.7% Analyze STX → Here is a wa",
             "After a blistering 445% run over the past year, shares of Seagate Technology (STX) are taking a breather, now trading about 20% below their 52-week high.",
             "For investors sitting on a handsome gain, that raises a question: lock some of it in, or hold on for the next leg up?"
           ],
@@ -23454,7 +23541,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Make Your STX Shares Pay You 26% Per Year While You Hold Them | Trefis Make Your STX Shares Pay You 26% Per Year While You Hold Them August 13th, 2026 · by Trefis Team STX YTD +229.0% SPY YTD +12.8% QQQ YTD +16.9% Analyze STX → Here is a wa",
+            "Make Your STX Shares Pay You 26% Per Year While You Hold Them | Trefis Make Your STX Shares Pay You 26% Per Year While You Hold Them August 13th, 2026 · by Trefis Team STX YTD +203.1% SPY YTD +13.1% QQQ YTD +16.7% Analyze STX → Here is a wa",
             "After a blistering 445% run over the past year, shares of Seagate Technology (STX) are taking a breather, now trading about 20% below their 52-week high.",
             "For investors sitting on a handsome gain, that raises a question: lock some of it in, or hold on for the next leg up?"
           ],
@@ -23600,13 +23687,13 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1787187379.390891,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "EME": {
@@ -23935,13 +24022,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187388.2754285,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "FIX": {
@@ -24056,7 +24143,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis Here is a way to get paid a meaningful income now on a stock you already own, cash you keep no matter what, in exchange for capping your gains at a higher price.",
+            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis How To Bank 17% A Year On FIX Stock Without Selling A Share August 13th, 2026 · by Trefis Team FIX YTD +82.0% SPY YTD +13.1% XLI YTD +17.6% Analyze FIX → Here is a way to ",
             "Comfort Systems USA (FIX) has been on an absolute monster run, delivering a return of over one hundred fifty percent in the past year by building out the guts of the new data-center economy .",
             "But after that climb, the stock now trades about 16% below its 52-week high, leaving owners to wonder if the easy money has been made."
           ],
@@ -24211,7 +24298,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis Here is a way to get paid a meaningful income now on a stock you already own, cash you keep no matter what, in exchange for capping your gains at a higher price.",
+            "How To Bank 17% A Year On FIX Stock Without Selling A Share | Trefis How To Bank 17% A Year On FIX Stock Without Selling A Share August 13th, 2026 · by Trefis Team FIX YTD +82.0% SPY YTD +13.1% XLI YTD +17.6% Analyze FIX → Here is a way to ",
             "Comfort Systems USA (FIX) has been on an absolute monster run, delivering a return of over one hundred fifty percent in the past year by building out the guts of the new data-center economy .",
             "But after that climb, the stock now trades about 16% below its 52-week high, leaving owners to wonder if the easy money has been made."
           ],
@@ -24296,13 +24383,13 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787187395.6929202,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   },
   "SBGSY": {
@@ -24314,13 +24401,13 @@ const NEWS_DATA = {
     },
     "news": [],
     "newsHistory": [],
-    "_fetched_at": 1787187398.575812,
-    "_updated_label": "2026-08-20 09:56",
+    "_fetched_at": 1787211520.4114065,
+    "_updated_label": "2026-08-20 16:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-20 11:31"
+      "updated": "2026-08-20 16:43"
     }
   }
 };
