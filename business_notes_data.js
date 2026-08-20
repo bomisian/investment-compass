@@ -1215,7 +1215,10 @@ const BUSINESS_NOTES = {
     // 2026-08-13: newsLog 조사 당시엔 개별적으로 중요한 사건이 없어 뉴스 로그는 안 만들었지만
     // (이미 알려진 AI매출 성장 추세뿐이었음), 사업 핵심 요약(customers/strengths/risks)은
     // 뉴스 이벤트와 무관하게 항상 유효한 정적 정보라 여기서 별도로 작성함.
-    updated: "2026-08-13",
+    // 2026-08-20: 아래 risks에 이미 예견돼 있던 "구글 등 핵심 고객의 공급망 다변화" 리스크가
+    // 실제 사건(마벨-구글 TPU 계약)으로 확인돼 newsLog 추가함 - dashboard_improvement_plan_3.md
+    // item2/7 대응(WebSearch로 직접 조사, 자동 생성 아님).
+    updated: "2026-08-20",
     customers: [
       "클라우드·하이퍼스케일러(반도체 부문 최대 고객) - AI 커스텀칩(맞춤형 ASIC/TPU류) 설계, 핵심 고객사 단 6곳에 집중",
       "통신사·네트워크 장비사 - 이더넷 스위칭/라우팅 ASIC, 무선(5G)·광대역 부품",
@@ -1228,12 +1231,28 @@ const BUSINESS_NOTES = {
     ],
     risks: [
       "⚠️ 고객 집중 리스크가 매우 큼 - AI 매출 대부분이 핵심 고객 단 6곳에 의존, 유통사 한 곳이 매출의 42%·상위 5개 고객이 약 50%를 차지",
-      "구글 등 핵심 고객이 칩 공급망을 다변화하려는 움직임 - 브로드컴의 지배적 지위를 위협할 수 있음",
+      "⚠️ 2026-08-19 실현: 구글이 마벨과도 TPU 커스텀칩 계약을 체결하며 브로드컴의 단독 공급 지위가 깨짐 - 자세한 내용은 아래 newsLog 참고",
       "커스텀칩(TPU류) 비중이 커질수록 마진 압박 우려, 밸류에이션도 부담스러운 수준(선행 PER 약 39배)",
     ],
     sources: [
       {title:"The Real Risk Inside Broadcom Stock (Trefis)", url:"https://www.trefis.com/stock/avgo/articles-v3/607057/the-real-risk-inside-broadcom-stock/2026-07-14"},
       {title:"Broadcom Q2 FY 2026: VMware Stability Supports AI-Led Semiconductor Expansion (Futurum Group)", url:"https://futurumgroup.com/insights/broadcom-q2-fy-2026-vmware-stability-supports-ai-led-semiconductor-expansion/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-20",
+        headline: "마벨이 구글 TPU 커스텀칩 개발에 참여(122억달러 워런트 계약) - 브로드컴의 구글 단독 공급 지위 흔들리며 주가 5.4% 급락(4거래일 연속 하락)",
+        coreAnalysis: "2026-08-19(현지시간) 마벨이 구글 TPU(텐서처리장치) 생태계 관련 다수의 커스텀 실리콘 프로그램(메모리·스토리지 관련 포함)에 참여하는 계약을 발표했고, 그 대가로 구글에 마벨 주식 약 5,897만주를 주당 $206.58에 살 수 있는 워런트(총 약 $122억 규모)를 부여했다. 브로드컴은 구글의 TPU 커스텀칩 메인 파트너로 2031년까지 장기 공급계약을 맺어둔 상태였는데, 이번 계약으로 구글이 복수 공급사 체제로 전환한다는 게 확인된 것 - 브로드컴 주가는 8/19 하루 -5.4%(종가 $360 부근) 하락했고 이는 4거래일 연속 하락이었다.",
+        whyItMatters: "이 뉴스의 핵심은 '매출이 지금 당장 준다'가 아니라 '브로드컴이 구글 TPU 물량을 독점하던 구조가 깨졌다'는 것 - 위 risks 항목에 이미 '핵심 고객 단 6곳 집중, 구글 등이 공급망을 다변화하려는 움직임'이 리스크로 명시돼 있었는데 그게 실제 사건으로 확인된 케이스다. 다만 Bernstein 애널리스트 Stacy Rasgon은 'AI 커스텀 하드웨어 전체 수요가 생산능력(캐파)보다 커서 브로드컴·마벨이 같이 성장할 여지가 있다'는 반박 시각을 냈다 - '구글 물량을 얼마나 뺏기느냐'는 아직 확정된 게 아니라 향후 발주 분배로 확인해야 하는 사안이다. 같은 시점에 VMware 보안 이슈와 빅테크 재무제표 외 자금조달(off-balance-sheet) 우려(WSJ 보도: 주요 빅테크 9곳 합계 약 $3조 규모)까지 겹쳐 하락폭이 커졌을 가능성이 있어, 하락 전부를 마벨 계약 하나로만 설명하기는 어렵다. 참고로 브로드컴은 올해 주가가 +10%에 그친 반면 같은 기간 AMD +126%·마벨 +155%로, AI 반도체 매출이 143% 늘었음에도 주가가 그 성장을 이미 반영 못 하고 있었다는 지적도 있었다(주가 하락 이전부터 있던 밸류에이션 괴리).",
+        beginnerSummary: "구글이 AI 반도체(TPU)를 만들 때 그동안 브로드컴 한 곳에 거의 의존했는데, 이번에 마벨이라는 경쟁사도 같이 쓰기로 하면서 브로드컴의 '독점적 지위'가 깨졌다는 뉴스예요. 그래서 브로드컴 주가가 하루 만에 5.4% 빠졌어요(최근 4일 연속 하락). 다만 이게 곧바로 브로드컴 매출이 줄어든다는 확정된 얘기는 아니고, '앞으로 구글 주문을 두 회사가 어떻게 나눠 가질지' 지켜봐야 하는 상황이에요 - 일부 애널리스트는 'AI 칩 수요 자체가 워낙 커서 두 회사 다 성장할 수 있다'고 보기도 해요.",
+        confidence: "주가 하락폭(-5.4%)·계약 워런트 규모($12.2B)·구글과의 2031년 장기계약 존재는 복수 매체(TipRanks·24/7 Wall St.·Motley Fool 등) 보도 기준(신뢰도 높음) · '구글 물량이 실제로 얼마나 재분배될지'는 아직 미확정(추정)",
+        sources: [
+          {title:"Broadcom Stock (AVGO) Drops 5.4% as Marvell Secures $12 Billion Google Chip Partnership (TipRanks)", url:"https://www.tipranks.com/news/broadcom-stock-avgo-drops-5-4-as-marvell-secures-12-billion-google-chip-partnership"},
+          {title:"Broadcom Falls 5% as Marvell Lands Google Custom Chip Deal, VMware and Financing Concerns Persist (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/08/19/broadcom-falls-5-as-marvell-lands-google-custom-chip-deal-vmware-and-financing-concerns-persist/"},
+          {title:"Marvell Technology Rockets 13% on $12.2B Google Warrant; Broadcom Falls 3%, Alphabet Unmoved (24/7 Wall St.)", url:"https://247wallst.com/investing/2026/08/19/marvell-technology-rockets-13-on-12-2b-google-warrant-broadcom-falls-3-alphabet-unmoved/"},
+          {title:"Why Broadcom Stock Crashed Today (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/19/why-broadcom-stock-crashed-today/"},
+        ],
+      },
     ],
     viewLog: [
       {
