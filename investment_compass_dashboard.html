@@ -269,6 +269,11 @@
     <div id="earningsCalBox"></div>
   </div>
 
+  <div class="card" id="anomalyCard" style="display:none;">
+    <h2>⚠️ 주요 변동 알림 <span style="font-weight:400;font-size:12px;color:var(--sub);">(하루 5%↑ 급등락 · 전체 스캔 후 표시돼요)</span></h2>
+    <div id="anomalyBox"></div>
+  </div>
+
   <div class="card" id="summaryCard" style="display:none;">
     <h2>① 장기 매수 타이밍 <span style="font-weight:400;font-size:12px;color:var(--sub);">(6~12개월 저가매수 · 눌림목 강도 · 우량주 전제)</span></h2>
     <div class="summary-grid">
@@ -395,6 +400,8 @@
 <script src="estimates_data.js"></script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
 <script src="news_data.js" onerror="void 0"></script>
+<!-- 임원/이사 내부자 거래(Form 4, SEC 공개 공시) - 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
+<script src="insider_data.js" onerror="void 0"></script>
 <!-- 시장 환경 지표 + 시장 헤드라인 - 없으면 '오늘의 시장 환경' 카드만 숨겨짐 -->
 <script src="market_data.js" onerror="void 0"></script>
 <!-- 종목별 가격(OHLCV) - 실시간 조회 3곳이 다 실패했을 때만 쓰는 폴백. 없어도 대시보드는 정상 동작함 -->
@@ -1017,6 +1024,7 @@ const HINTS = {
   targetMean: "여러 애널리스트가 제시한 목표주가의 평균이에요.",
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
+  insiderTrading: "이 회사의 임원·이사가 최근 자기 회사 주식을 공개시장에서 직접 사거나 판 내역이에요(SEC Form 4 공시). 스톡옵션 행사 같은 항목은 빼고 '진짜로 시장에서 사고판' 거래만 모았어요. 매수는 자기 돈을 걸었다는 뜻이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·생활자금 등 회사 전망과 무관한 이유가 흔해서 매수만큼 의미 있게 보지는 않아요.",
   sectorFlow: "반도체 그룹과 빅테크·소프트웨어 그룹이 각각 얼마나 움직였는지예요. '신호 승률'은 5년치 실데이터로 잰 그 그룹의 단타 신호 10일 승률이라, 어느 쪽에서 이 신호가 잘 통했는지를 알 수 있어요. 상관계수는 두 그룹이 얼마나 같이 움직이는지인데, 1에 가까우면 같이 움직이고 0에 가까우면 따로 움직여요.",
   relStrength: "이 종목이 최근 20일 동안 같은 그룹(반도체 15종목 / 빅테크·SW 9종목) 평균보다 얼마나 앞섰는지·뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 뒤처진 상태의 신호는 전체 승률이 57%로 낮았어요(나머지 69%). 다만 그룹을 나눠 보면 빅테크·SW에서만 확실히 갈렸고(51% vs 60%) 반도체에서는 차이가 작아서(66% vs 70%), 반도체 종목에서는 참고 수준으로만 보세요.",
   marketNews: "시장 전체 헤드라인이에요(특정 종목이 아니라 시장 전반). 위 지표가 크게 움직인 날 '무슨 일이 있었는지'를 여기서 확인하세요. 이 도구는 뉴스를 읽고 원인을 자동으로 판단하지는 않아요 - 숫자가 어떻게 움직였는지만 보여주고, 이유는 직접 확인하시는 구조예요.",
@@ -1124,6 +1132,12 @@ const SIGNAL_COOLDOWN = 5;
 // 우상향 눌림목으로 인정할 RSI 상단. 2026-07 14년치(2013~2026, 빅테크14+QQQ) 재검증에서 40→38이
 // 워크포워드 4개 구간 모두에서 더 좋았음(10일 승률 64.3%→66.1%, 신호 후 최대낙폭 -3.01%→-2.87%).
 const RSI_PULLBACK_HI = 38;
+
+// 하루 종가 등락 폭이 이 값(%) 이상이면 '이상 변동'으로 보고 대시보드 상단에 알림 배너로 강조.
+// 2026-08-20 추가(배경: dashboard_improvement_plan_1.md) - AVGO가 마벨(MRVL)의 구글 TPU 공동계약
+// 뉴스 여파로 하루 5~6% 급락했는데 대시보드 어디에도 이 급락이 강조 표시되지 않아 사용자가 원인을
+// 대시보드에서 못 찾았던 사례. 검증된 매매 신호가 아니라 "확인해보라"는 안내용 임계치일 뿐임.
+const ANOMALY_THRESHOLD_PCT = 5;
 
 // 전체 시계열에 대해 매일의 단기 점수(0~2)를 계산 (백테스트/과거 신호 마커용)
 // 0=보류, 0.5=관심, 1=매수 신호, 2=강한 매수 신호(RSI<30 + 거래량 급증)
@@ -1555,6 +1569,9 @@ function computeRiskProfile(closes, dates){
 async function analyzeTicker(ticker, env){
   const {opens, highs, lows, closes, dates, volumes, source, dropped} = await fetchDailyCloses(ticker);
   const price = last(closes);
+  // 이상 변동 알림 배너용 - 방금 받은 실시간 종가의 최근 2봉 차이(전일대비 등락률)
+  const prevClose = closes.length>1 ? closes[closes.length-2] : null;
+  const changePct1d = (price!=null && prevClose) ? (price-prevClose)/prevClose*100 : null;
   const fund = FUNDAMENTALS_DATA[ticker] || {};
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[ticker] : null;
   // TSM처럼 현지 상장 기준으로 잡히면 Finnhub의 52주고저가/시가총액이 통화가 안 맞을 수 있어
@@ -1608,7 +1625,7 @@ async function analyzeTicker(ticker, env){
 
   return {
     ticker, theme: fund.theme || '기타', name: fund.name || ticker,
-    price, drawdownPct, ma200Pct, rsi: rsiVal,
+    price, changePct1d, drawdownPct, ma200Pct, rsi: rsiVal,
     forwardPE: fund.forwardPE ?? null, peDeviation3Y: fund.peDeviation3Y ?? null,
     perNow, perNowSource,
     peTTM: fund.peTTM ?? null, avgPe3Y: fund.avgPe3Y ?? null,
@@ -1662,6 +1679,7 @@ async function scanAll(){
       ? `<div class="err">완료 · ${list.length-failCount}개 성공 / ${failCount}개 실패</div>`
       : '';
     document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
+    renderAnomalyBanner();
     renderSummary();
     renderThemeFilter();
     renderTable();
@@ -2035,6 +2053,40 @@ function renderDataAsOf(r){
   </div>`;
 }
 
+// ============ 종합 요약 - "왜 지금 이 상황인가" (2026-08-20 추가) ============
+// [배경] dashboard_improvement_plan_1.md item4 - 밸류에이션(02 탭)·애널리스트 컨센서스(05 탭)·
+// 내부자 거래(05 탭)·전일 급등락(이상 변동 배너)이 전부 다른 탭/섹션에 흩어져 있어서, 한 종목을
+// 종합적으로 파악하려면 여러 탭을 다 열어봐야 했음. 01 판단 탭(가장 먼저 보는 화면)에 이미 계산된
+// 값만 모아 몇 줄로 요약함 - 새 판단·예측을 만들어내지 않고 다른 탭에 있는 사실을 인용만 함.
+function whyNowSummaryHtml(r){
+  const fund = FUNDAMENTALS_DATA[r.ticker] || {};
+  const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
+  const ins = insiderEntry(r.ticker);
+  const lines = [];
+  if(typeof fund.peTTM === 'number' && typeof fund.avgPe3Y === 'number' && fund.avgPe3Y>0){
+    const dev = (fund.peTTM/fund.avgPe3Y - 1)*100;
+    lines.push(`밸류에이션 - PER ${fund.peTTM.toFixed(1)}배는 3년 평균보다 ${Math.abs(dev)<3?'비슷한 수준':(dev>0?`${dev.toFixed(0)}% 높음(비싼 편)`:`${Math.abs(dev).toFixed(0)}% 낮음(싼 편)`)}`);
+  }
+  if(est && est.targetMean!=null){
+    const upside = (est.targetMean - r.price)/r.price*100;
+    lines.push(`애널리스트 - 평균 목표가 대비 ${upside>=0?'+':''}${upside.toFixed(0)}% (${est.analystCount ?? '-'}명 참여)`);
+  }
+  if(ins && ins.transactions && ins.transactions.length){
+    const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
+    const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
+    if(buyShares || sellShares){
+      lines.push(`내부자 - 최근 90일 ${buyShares>sellShares?'순매수':(sellShares>buyShares?'순매도':'매수·매도 균형')}`);
+    }
+  }
+  if(r.changePct1d!=null && Math.abs(r.changePct1d) >= ANOMALY_THRESHOLD_PCT){
+    lines.push(`전일 ${r.changePct1d>=0?'급등':'급락'} ${r.changePct1d>=0?'+':''}${r.changePct1d.toFixed(1)}% - 06 뉴스 탭에서 이유를 확인하세요`);
+  }
+  if(!lines.length) return '';
+  return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:10px;">
+    <b>요약</b> <span class="sub" style="font-weight:400;">(위 판정과 별개로 02·05·06 탭 수치를 한눈에 모은 것 - 새 판단은 아니에요)</span><br>
+    ${lines.map(l=>'· '+esc(l)).join('<br>')}
+  </div>`;
+}
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -2091,6 +2143,7 @@ function tabJudgement(r){
       </div>
     </div>
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
+    ${whyNowSummaryHtml(r)}
     <div style="margin-top:14px;">${renderViewLog(r.ticker)}</div>
     <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;flex-wrap:wrap;gap:6px;">
       <div class="chart-label" style="margin-top:0;">캔들차트${chartTimeframe==='D' ? ' · 20일 이동평균선(주황)' + (longHistoryCache[r.ticker] ? '' : ' · <span style="color:var(--green);">▲</span> 과거 단타 매수신호') : ` · ${{'W':'20주','M':'20개월','Y':'20년'}[chartTimeframe]} 이동평균선(주황, 매수신호 마커는 일봉에서만 표시돼요)`} — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
@@ -3099,6 +3152,56 @@ function renderEarningsCalendar(){
     ${visible.map(rowHtml).join('')}
     ${rest.length ? `<details><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${rest.length}건 더 보기</summary>${rest.map(rowHtml).join('')}</details>` : ''}`;
 }
+
+// ============ 주요 변동 알림 배너 (2026-08-20 추가) ============
+// [배경] dashboard_improvement_plan_1.md - AVGO가 마벨(MRVL)의 구글 TPU 공동계약 뉴스 여파로
+// 하루 5~6% 급락했는데 대시보드 어디에도 이 급락이 강조되지 않아 사용자가 원인을 못 찾았던 사례.
+// renderMarketCard의 매크로 bigMove 배지(하루 3%↑, 지표 단위)와 같은 아이디어를 종목 단위로 확장.
+// 별도 API 없이 analyzeTicker가 이미 받아온 실시간 종가 마지막 2봉 차이(changePct1d)로만 계산하고,
+// 옆에 news_data.js 최신 헤드라인을 붙여 "왜 움직였는지"를 바로 보여줌(원인을 지어내지 않고
+// 헤드라인 원문만 노출 - 위 renderMarketCard 설계 원칙과 동일).
+function renderAnomalyBanner(){
+  const card = document.getElementById('anomalyCard');
+  const box = document.getElementById('anomalyBox');
+  if(!card || !box) return;
+  const rows = Object.values(results)
+    .filter(r => !r.error && r.changePct1d!=null && Math.abs(r.changePct1d) >= ANOMALY_THRESHOLD_PCT)
+    .sort((a,b) => Math.abs(b.changePct1d) - Math.abs(a.changePct1d));
+  if(!rows.length){ card.style.display='none'; box.innerHTML=''; return; }
+  card.style.display = 'block';
+  const anomalyTickers = new Set(rows.map(r=>r.ticker));
+  const rowHtml = r => {
+    const up = r.changePct1d >= 0;
+    const chgTxt = `${up?'+':''}${r.changePct1d.toFixed(1)}%`;
+    const news = (newsEntry(r.ticker)||{}).news;
+    const top = news && news.length ? news[0] : null;
+    const headline = top ? (top.headlineKo || top.headline) : null;
+    // 2026-08-20: 06 뉴스탭(renderNewsSection)과 같은 자동 키워드 톤 태그를 여기도 붙임 -
+    // "성장·확대/위험 요인" 같은 참고용 분류가 뉴스탭에만 있고 정작 급락/급등을 처음 보는
+    // 이 배너엔 없어서 헤드라인만 읽고 판단해야 했던 것을 보완(정확도 낮은 참고용임은 동일).
+    const tagHtml = top ? newsAutoTagHtml(top.headline, top.headlineKo) : '';
+    // 연관 종목(공급망·경쟁사)도 같이 급변 중이면 - AVGO 급락 당일 MRVL 급등처럼 서로 연결된
+    // 이벤트일 수 있다는 힌트만 주고, 인과관계 단정은 하지 않음(원인 추정은 뉴스 헤드라인 몫).
+    const relHits = relatedTickers(r.ticker).filter(t => anomalyTickers.has(t) && t !== r.ticker);
+    const relNote = relHits.length
+      ? `<div class="sub" style="margin-top:2px;">↔ 연관 종목 <b>${esc(relHits.join(', '))}</b>도 오늘 크게 움직였어요 - 서로 관련된 이슈일 수 있어요</div>` : '';
+    return `<div class="fund-row" style="align-items:flex-start;gap:10px;cursor:pointer;flex-direction:column;" onclick="openDetailNews('${r.ticker}')">
+      <div style="display:flex;justify-content:space-between;width:100%;gap:10px;">
+        <span style="white-space:nowrap;"><b>${esc(r.ticker)}</b> <b style="color:${up?'var(--up)':'var(--down)'};">${up?'급등':'급락'} ${chgTxt}</b></span>
+        <span class="v" style="font-weight:400;font-size:11.5px;text-align:right;">${headline ? esc(headline)+tagHtml : '관련 뉴스 헤드라인 없음 - 06 뉴스 탭에서 직접 확인하세요'}</span>
+      </div>
+      ${relNote}
+    </div>`;
+  };
+  box.innerHTML = `
+    <div class="sub" style="margin-bottom:4px;">하루 ${ANOMALY_THRESHOLD_PCT}%↑ 움직인 종목이에요 - 급등락 자체가 매수/매도 신호는 아니고, 이유를 확인해보라는 안내예요.</div>
+    ${rows.map(rowHtml).join('')}`;
+}
+// 알림 배너/실적 캘린더에서 바로 06 뉴스 탭으로 진입 - 급등락 이유부터 확인하고 싶을 때 01 판단 탭을 거칠 필요 없게 함
+function openDetailNews(ticker){
+  openDetail(ticker);
+  switchTab(ticker, '06');
+}
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
   const body = document.getElementById('marketBody');
@@ -3353,13 +3456,101 @@ function renderNewsSection(r){
 // 뉴스는 그쪽으로 다 옮겨 놓자". Claude의 뉴스 해석(renderNewsLog)과 원문 헤드라인(renderNewsSection)
 // 둘 다 여기로 옮김 - 큐레이션된 해석을 먼저 보여주고 원문은 그 아래(기존 05 전망 탭의
 // renderAnalystLog+컨센서스 배치와 동일한 "해석 먼저, 원자료는 아래" 구조를 그대로 따름).
+// ============ 연관 종목 매핑 (2026-08-20 추가) ============
+// [배경] dashboard_improvement_plan_1.md - 마벨(MRVL)의 구글 TPU 공동계약 뉴스가 브로드컴(AVGO)
+// 주가 급락으로 이어졌는데, AVGO 뉴스탭엔 그 계약이 "MRVL 뉴스"라 안 뜨고 이 연결고리를 대시보드가
+// 전혀 못 잡아냈던 사례. theme(fundamentals_data.js)만으로는 부족함 - 같은 테마(반도체 설계)라도
+// 직접 경쟁 관계가 아닐 수 있고, 반대로 다른 테마(AVGO=반도체, GOOGL=빅테크)인데도 커스텀 실리콘
+// 고객사처럼 강하게 얽힌 경우가 있어서 자동 분류 대신 수동 큐레이션함(41종목 워치리스트 기준).
+// ⚠️ 완전한 경쟁사 목록이 아니라 "이 종목 뉴스탭에서 같이 확인하면 유용한 종목" 위주로 추림.
+const RELATED_TICKERS = {
+  // 빅테크·AI SW - 클라우드/AI 경쟁 + 커스텀 실리콘 발주처
+  MSFT: ['GOOGL','AMZN','ORCL','NVDA'],
+  GOOGL: ['MSFT','AMZN','META','AVGO','MRVL'],
+  AMZN: ['MSFT','GOOGL','AVGO','MRVL'],
+  META: ['GOOGL','MSFT','AVGO'],
+  AAPL: ['QCOM','TSM'],
+  TSLA: [],
+  ORCL: ['MSFT','GOOGL','AMZN'],
+  CRM: ['MSFT','ORCL'],
+  PLTR: ['MSFT'],
+  // 반도체 설계·파운드리 - AI 가속기/커스텀 실리콘 경쟁 + 파운드리 관계
+  NVDA: ['AMD','AVGO','MRVL','TSM'],
+  AMD: ['NVDA','INTC','TSM'],
+  AVGO: ['MRVL','NVDA','AMD','GOOGL','AMZN','META'],
+  QCOM: ['ARM','MRVL','AAPL'],
+  ARM: ['QCOM','NVDA','INTC'],
+  MRVL: ['AVGO','NVDA','GOOGL','AMZN'],
+  INTC: ['AMD','TSM','ARM'],
+  TSM: ['NVDA','AMD','AVGO','ASML','INTC'],
+  // 반도체 장비 - 동종 업계 + 파운드리 고객
+  ASML: ['AMAT','LRCX','KLAC','TSM'],
+  AMAT: ['LRCX','KLAC','ASML'],
+  LRCX: ['AMAT','KLAC','ASML'],
+  KLAC: ['AMAT','LRCX','ASML'],
+  // 메모리·스토리지 - 직접 경쟁
+  MU: ['SNDK','WDC','STX'],
+  SNDK: ['MU','WDC','STX'],
+  WDC: ['STX','MU','SNDK'],
+  STX: ['WDC','MU','SNDK'],
+  // AI 네트워킹·광통신
+  ANET: ['COHR','LITE','NVDA'],
+  COHR: ['LITE','ANET'],
+  LITE: ['COHR','ANET'],
+  // AI 전력·인프라 - 데이터센터 전력/건설 공급망
+  GEV: ['CEG','VST','ETN','VRT'],
+  CEG: ['GEV','VST'],
+  VST: ['CEG','GEV'],
+  ETN: ['HUBB','VRT','EME'],
+  PWR: ['EME','FIX','MOD'],
+  HUBB: ['ETN','VRT'],
+  VRT: ['ETN','HUBB','MOD'],
+  MOD: ['VRT','ETN'],
+  EME: ['PWR','FIX'],
+  FIX: ['EME','PWR'],
+  SBGSY: ['ETN','EME'],
+};
+function relatedTickers(ticker){ return RELATED_TICKERS[ticker] || []; }
+// 연관 종목의 최신 뉴스 중 최근 것만 모아 "왜 이 종목이 움직였는지" 밖에서 온 원인도 찾을 수 있게 함.
+// 원문 헤드라인만 그대로 보여주고 해석은 덧붙이지 않음(renderNewsSection과 동일 원칙).
+const RELATED_NEWS_WINDOW_DAYS = 5;
+function relatedNewsHtml(ticker){
+  const rel = relatedTickers(ticker).filter(t => allTickers().includes(t));
+  if(!rel.length) return '';
+  const cutoff = Date.now()/1000 - RELATED_NEWS_WINDOW_DAYS*86400;
+  const items = [];
+  rel.forEach(t=>{
+    const e = newsEntry(t);
+    const top = e && (e.news||[])[0];
+    if(top && top.datetime >= cutoff) items.push({ticker:t, n:top});
+  });
+  if(!items.length) return '';
+  items.sort((a,b)=>b.n.datetime - a.n.datetime);
+  const rows = items.map(({ticker:t, n})=>{
+    const dt = n.datetime ? new Date(n.datetime*1000).toISOString().slice(0,10) : '';
+    const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
+    const shown = esc(n.headlineKo || n.headline);
+    const link = safeUrl
+      ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow" style="color:var(--text);">${shown}</a>`
+      : shown;
+    return `<div class="fund-row" style="align-items:flex-start;gap:10px;">
+      <span style="flex:1;"><span class="badge b-sell-wait" style="padding:2px 7px;font-size:10.5px;cursor:pointer;" onclick="openDetail('${t}')" title="연관 종목 상세로 이동">${t}</span> ${link}${newsAutoTagHtml(n.headline, n.headlineKo)}</span>
+      <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;">${esc(n.source)} ${dt}</span>
+    </div>`;
+  }).join('');
+  return `
+    <div class="chart-label" style="margin-top:18px;">연관 종목 뉴스 <span style="font-weight:400;font-size:11px;color:var(--sub);">(${esc(rel.join(', '))} 최근 ${RELATED_NEWS_WINDOW_DAYS}일)</span></div>
+    ${rows}
+    <div class="sub" style="margin-top:6px;">경쟁사·공급망 관계의 종목 뉴스예요(Claude 수동 큐레이션, 자동 분류 아님) - 이 종목과의 인과관계는 직접 판단하세요.</div>`;
+}
 function tabNews(r){
   const logHtml = renderNewsLog(r.ticker);
   const rawHtml = renderNewsSection(r);
-  if(!logHtml && !rawHtml){
+  const relatedHtml = relatedNewsHtml(r.ticker);
+  if(!logHtml && !rawHtml && !relatedHtml){
     return `<div class="sub">이 종목은 뉴스 데이터가 없어요${isAdHocTicker(r.ticker) ? ' - 관심종목이 아니라 캐시가 없어요. 워치리스트에 추가하면 해결돼요.' : '.'}</div>`;
   }
-  return logHtml + rawHtml;
+  return logHtml + rawHtml + relatedHtml;
 }
 
 // ---- 하락 리스크 프로필 ----
@@ -5114,8 +5305,42 @@ function drawFinCfChart(canvas, data){
 
 // ---- 05 전망 ----
 const TREND_PERIOD_LABEL = {'0y':'올해', '+1y':'내년', '+2y':'내후년'};
+// ============ 내부자 거래 (2026-08-20 추가) ============
+// [배경] dashboard_improvement_plan_1.md item4 - 밸류에이션·애널리스트 컨센서스는 이미 있었지만
+// "경영진이 최근 자기 회사 주식을 사고팔았는지"는 대시보드에 전혀 없었음. buy_signal_telegram.py가
+// Finnhub insider-transactions(SEC Form 4, 공개시장 매수/매도만)를 최근 90일치 캐시해서
+// insider_data.js로 내려줌 - 공개 공시라 민감정보 아님. 애널리스트 컨센서스(est)와는 별개
+// 데이터라 est가 없어도(=조회 실패) 이 섹션은 독립적으로 보여야 해서 tabForecast의 두 return
+// 경로(조기 반환/정상 반환) 모두에 붙인다.
+function insiderEntry(ticker){
+  return (typeof INSIDER_DATA !== 'undefined' && INSIDER_DATA) ? INSIDER_DATA[ticker] : null;
+}
+function insiderTradingHtml(ticker){
+  const e = insiderEntry(ticker);
+  const txs = e && e.transactions;
+  if(!txs || !txs.length) return '';
+  const buyShares = txs.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
+  const sellShares = txs.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
+  const netLabel = buyShares>sellShares ? '순매수' : (sellShares>buyShares ? '순매도' : '매수·매도 균형');
+  const netColor = buyShares>sellShares ? 'var(--up)' : (sellShares>buyShares ? 'var(--down)' : 'var(--sub)');
+  const rows = txs.slice(0,10).map(t=>{
+    const isBuy = t.code==='P';
+    const amt = t.transactionPrice!=null ? '$'+fmtUsd(t.share*t.transactionPrice) : '-';
+    return `<div class="fund-row">
+      <span>${esc(t.name)} <span class="badge" style="padding:2px 7px;font-size:10.5px;background:${isBuy?'var(--up-bg)':'var(--warn-bg)'};color:${isBuy?'var(--up)':'#876000'};border-color:transparent;">${isBuy?'매수':'매도'}</span></span>
+      <span class="v" style="font-weight:400;font-size:11.5px;">${t.share.toLocaleString()}주 · ${amt} · ${esc(t.transactionDate||'')}</span>
+    </div>`;
+  }).join('');
+  return `
+    <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">
+    <div class="chart-label">내부자 거래(경영진 매수/매도) ${hintIcon('insiderTrading')}</div>
+    <div class="sub" style="margin-bottom:4px;">최근 90일 <b style="color:${netColor};">${netLabel}</b> (매수 ${buyShares.toLocaleString()}주 · 매도 ${sellShares.toLocaleString()}주) · SEC 공시(Form 4) 공개시장 거래만 - 스톡옵션 행사 등은 제외</div>
+    ${rows}
+    <div class="sub" style="margin-top:6px;">경영진 매수는 자기 돈을 회사에 거는 것이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·개인 자금 필요 등 회사 전망과 무관한 이유가 흔해 매수만큼 의미 있게 보지는 않아요 - 그 자체로 매매 신호는 아니에요.</div>`;
+}
 function tabForecast(r){
   const analystLogHtml = renderAnalystLog(r.ticker);
+  const insiderHtml = insiderTradingHtml(r.ticker);
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || est.targetMean==null){
     // 2026-08-11 수정: ttmFallbackHtml()과 동일한 이유로 - 관심종목이 아니라서 캐시가 아예
@@ -5123,7 +5348,7 @@ function tabForecast(r){
     const reason = isAdHocTicker(r.ticker)
       ? `이 종목은 관심종목이 아니라 애널리스트 컨센서스 캐시가 없어요 - 밸류에이션/실적/전망 같은 펀더멘털은 관심종목(워치리스트)만 서버에서 미리 조회해둬요. 이 종목을 계속 보고 싶으면 config.json의 워치리스트에 추가하는 게 방법이에요(요청하면 대신 추가해드려요).`
       : `이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).`;
-    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>`;
+    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>${insiderHtml}`;
   }
   const upside = (est.targetMean - r.price) / r.price * 100;
   const revCurrency = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
@@ -5166,6 +5391,7 @@ function tabForecast(r){
     <div class="glossary" style="margin-top:10px;">
       ※ Yahoo Finance 애널리스트 컨센서스 - 비로그인 접근이 막히면 조회 실패가 정상입니다. 매매 권유가 아닌 참고용 정보입니다.
     </div>
+    ${insiderHtml}
   `;
 }
 function setupForecastChart(ticker){

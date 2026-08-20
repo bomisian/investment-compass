@@ -1577,7 +1577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "AAPL": {
@@ -2315,7 +2315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "GOOGL": {
@@ -3001,7 +3001,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "MSFT": {
@@ -3726,7 +3726,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "AMZN": {
@@ -4465,7 +4465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "TSM": {
@@ -5139,7 +5139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "AVGO": {
@@ -5840,7 +5840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "META": {
@@ -6933,7 +6933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "TSLA": {
@@ -7868,7 +7868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "MU": {
@@ -8640,7 +8640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "AMD": {
@@ -9393,7 +9393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "INTC": {
@@ -10189,7 +10189,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "AMAT": {
@@ -11072,7 +11072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "QQQ": {
@@ -11692,7 +11692,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "SPY": {
@@ -12441,7 +12441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "ORCL": {
@@ -13128,7 +13128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "CRM": {
@@ -13830,7 +13830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "PLTR": {
@@ -14646,7 +14646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "QCOM": {
@@ -15233,7 +15233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "ARM": {
@@ -15723,7 +15723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "MRVL": {
@@ -16340,7 +16340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "ASML": {
@@ -16890,7 +16890,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "LRCX": {
@@ -17451,7 +17451,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "KLAC": {
@@ -18047,7 +18047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "SNDK": {
@@ -18999,7 +18999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "WDC": {
@@ -19606,7 +19606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "ANET": {
@@ -19866,6 +19866,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0dc33e878cdc663bdae6aa6f812431e0a55b617f13004bc6be5a2a421edd2996",
         "datetime": 1786665524,
+        "headlineKo": "Arista Networks 주식은 최고 마진에 맞춰 가격이 책정됩니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -19956,6 +19957,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6bb92e4830a805c86e73c94441c30f5cced92911b03c92bd40836214a61ebefd",
         "datetime": 1786614833,
+        "headlineKo": "Cisco는 경쟁사로부터 고객을 빼앗고 있다고 말합니다. Arista의 리드가 좁아지고 있습니까?",
         "relevance": 0.67
       },
       {
@@ -19981,7 +19983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "COHR": {
@@ -20151,6 +20153,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6f73bc54df5b1d32e4595b1db64d95d2eef2f57462d082e7067913d099ce889e",
         "datetime": 1787071547,
+        "headlineKo": "지난 20년 동안 일관된 주식을 소유하여 벌어들인 수익은 다음과 같습니다.",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20195,6 +20198,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=243f66202f5318fcd2bb54be24ece93941623c5771cd4711318fd9987e23581a",
         "datetime": 1787062471,
+        "headlineKo": "코히런트: AI 수요가 공장을 능가하고 있습니다.",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20239,6 +20243,7 @@ const NEWS_DATA = {
         "source": "CNBC",
         "url": "https://finnhub.io/api/news?id=c72c281529f57a71ec992c40b253a421c53b8fa4b522b66a5a9c0b159bc2e730",
         "datetime": 1787057783,
+        "headlineKo": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20284,6 +20289,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=28b3d27bf366ff2500f34b0d4399b3e7bbaec59f6fec34d02c74fa6563f4de28",
         "datetime": 1786693500,
+        "headlineKo": "코히런트: 실적 후 매도가 옳은 것처럼 보이는 이유",
         "relevance": 0.67
       },
       {
@@ -20291,6 +20297,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=74b6f870518e1862534826672f37691531a9f34364e281e5bea5114f85c59ac5",
         "datetime": 1786670618,
+        "headlineKo": "코히어런트 주식이 결과가 나오기 전에 급등한 이유",
         "relevance": 0.67
       },
       {
@@ -20453,7 +20460,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "LITE": {
@@ -20622,6 +20629,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=1e003c23c7b31959e594f897a343da851a6d9067571cda117eae5e45be949f0e",
         "datetime": 1787131800,
+        "headlineKo": "루멘텀: 나는 이 짐승을 정말 과소평가했습니다(업그레이드)",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20666,6 +20674,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=bd6c9f881646850fb77de7101295ec91a1bfab48195f2c13595f10972a40843c",
         "datetime": 1787066566,
+        "headlineKo": "루멘텀(Lumentum): 시력 부족이 점점 더 커지고 있습니다",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20710,6 +20719,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=661230a3453a874c604d2fdbf371a708d172445a4ecfc1a980ab72b9aa5fd6cd",
         "datetime": 1786773253,
+        "headlineKo": "Lumentum: 폭발적인 수익 증가는 프리미엄을 정당화할 수 있습니다",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -20799,6 +20809,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1bbefa4e5fd54613baf5cb54a9ad05cd623d69776681349f42b159030bbc8e6b",
         "datetime": 1786724250,
+        "headlineKo": "Corning, Lumentum 및 Applied Optoelectronics 주식이 이번 주를 마감할 것으로 예상됩니다",
         "relevance": 0.67
       },
       {
@@ -20914,7 +20925,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "GEV": {
@@ -21174,6 +21185,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3f3e9ce2217d0360a5ea341b991a062971eae46a13cf20342f5b2c94f342c665",
         "datetime": 1786628029,
+        "headlineKo": "GE Vernova와 Blue Energy, 2.5GW 텍사스 가스-원자력 발전 프로젝트 추진",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -21219,6 +21231,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=776f46bd4d1de542a6674f46e5faf68ab8d49641efb9ef04d733493ebb69b525",
         "datetime": 1786625400,
+        "headlineKo": "GE Vernova의 강력한 2분기 실적이 추가적인 수익 성장을 촉진할 수 있습니까?",
         "relevance": 1
       },
       {
@@ -21226,6 +21239,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=8f992485f3f6431b5099f842a84ba48c2897912125cdd7600959ab43e855ba27",
         "datetime": 1786558958,
+        "headlineKo": "GE Vernova: 이 AI 전력 주식 구매를 멈출 수 없습니다",
         "relevance": 1
       },
       {
@@ -21288,7 +21302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "CEG": {
@@ -21503,6 +21517,7 @@ const NEWS_DATA = {
         "source": "CNBC",
         "url": "https://finnhub.io/api/news?id=8160d27d235a7ffd71e18c693a020d2163acf9aed5d02608d4ad5aef6b2ae9ce",
         "datetime": 1786460324,
+        "headlineKo": "Constellation Energy의 원자력 용량을 통해 AI에서 성장 가능: Powers Advisory의 Matt Powers",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -21546,6 +21561,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=b770f80149dcb449e6c912fabf420895297d58d062a9df87ed35d7b7186970a1",
         "datetime": 1786446432,
+        "headlineKo": "별자리 에너지: 더 높은 유도와 핵 부족이 성과를 거두기 시작했습니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -21590,6 +21606,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=caf814c853b72f24172499ac7f10882d581c4b38415ef2e1a964073a267bf21d",
         "datetime": 1786439425,
+        "headlineKo": "Argus Research, Constellation Energy에 대한 매수 유지, 목표 가격을 325달러로 낮춤",
         "relevance": 1
       },
       {
@@ -21597,6 +21614,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=184a154fc9a00375db43eb5beb98ed9895ee392845334080ed6fa14e242eda7b",
         "datetime": 1786375721,
+        "headlineKo": "가장 큰 AI 전력 기회는 별자리 에너지에 숨어 있을 수 있습니다.",
         "relevance": 1
       },
       {
@@ -21651,7 +21669,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "VST": {
@@ -21820,6 +21838,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=82748335ce0d8f1683c5470bd53082ca21e0f1998152ec9f8d64721de3799677",
         "datetime": 1787136788,
+        "headlineKo": "TD Cowen, Vistra에 대한 매수 유지, 목표 가격을 221달러로 낮춤",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -21864,6 +21883,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=834bd6fdb949cd0d9b0dbb4dc49081ee3167cff4ee57db7b7d544c9a9cf52518",
         "datetime": 1787053534,
+        "headlineKo": "5년 전에 Vistra 주식에 100달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다.",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -21908,6 +21928,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d5229e09eb51df2c0c20d7ae09af1f8d1a0a9b7ce8664d8e5edbde7294a74d17",
         "datetime": 1786542480,
+        "headlineKo": "Vistra Q2 수익, 가격 및 Lotus 추정치 상회, 수익 감소",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -22097,7 +22118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "ETN": {
@@ -22266,6 +22287,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=139525a141b230e95982501bb8597e6c95e6d37989e47c104e905fdf5170aca2",
         "datetime": 1786960786,
+        "headlineKo": "Trane Tech와 Eaton이 Nvidia AI 데이터 센터 붐에 연결",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -22310,6 +22332,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5c42d54a070b06b70b801e32403c39d65dbb427851d4b3df69e487ef3ddd0bc0",
         "datetime": 1786948356,
+        "headlineKo": "Trane Technologies와 Eaton, 통합된 고급 열 관리 및 전기 시스템 아키텍처를 통해 AI 공장 효율성을 가속화하기 위해 협력",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -22354,6 +22377,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=4df1e863228d0aec8711b0cf9a004b85d882b89fecc63e90a3d9d5725f256c45",
         "datetime": 1786548077,
+        "headlineKo": "Eaton의 데이터 센터 성장이 가치 평가에 점점 더 반영되고 있습니다.",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -22398,6 +22422,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=56cbb6a11a5c6b1fa3e659478801a8793bda3a106689e2817d6320cfe39265f2",
         "datetime": 1786527600,
+        "headlineKo": "더 나은 AI 인프라 재고: Vertiv 대 Eaton",
         "relevance": 0.67
       },
       {
@@ -22405,6 +22430,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=298ee191f9830e528cb30a8c94b9e37bded0d59c082890c5610dcea9c632ded4",
         "datetime": 1786438211,
+        "headlineKo": "Evercore ISI 그룹, Eaton Corp 대비 우수한 실적 유지, 목표 가격 515달러로 인상",
         "relevance": 1
       }
     ],
@@ -22414,7 +22440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "PWR": {
@@ -22567,6 +22593,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8c882d9b27d96fb3546a5c0ea0da93f73b01bd4b89691f4a878481cd68085161",
         "datetime": 1786458480,
+        "headlineKo": "콴타 주식은 지난 3개월 동안 14% 하락: 지금 매수해야 할까요?",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -22613,7 +22640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 4,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "HUBB": {
@@ -22723,7 +22750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "VRT": {
@@ -22983,6 +23010,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=eeddc23e0b992d6b1d790d5fb321ee502e82be48c14f79e2d98197ab0baf4f1b",
         "datetime": 1786626926,
+        "headlineKo": "Vertiv의 AI 기반 급증으로 인해 분석가들은 훨씬 더 많은 상승 가능성을 요구하고 있습니다.",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -23028,6 +23056,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=92def4bb1acaa396f0c40206b42f6059b802cf2a41e8a1eccb3953cf9f837ebb",
         "datetime": 1786545180,
+        "headlineKo": "Zacks.com 주요 하이라이트에는 Interface, US Foods, Vertiv 및 Ryman Hospitality Properties가 포함됩니다.",
         "relevance": 0.67
       },
       {
@@ -23035,7 +23064,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6dddc2638d017cb8d7e83ad4c4f381765721fc9bb85f187e150b16b49e2914b0",
         "datetime": 1786533168,
-        "headlineKo": "더 강력한 결과, AI 거래 및 환매가 Vertiv Holdings Co(VRT)의 게임 체인저가 될 수 있습니다.",
+        "headlineKo": "더 강력한 결과, AI 거래 및 환매는 Vertiv Holdings Co(VRT)의 게임 체인저가 될 수 있습니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -23090,7 +23119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "MOD": {
@@ -23153,6 +23182,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=1b778b8a6bb62f85355d5093149c31ad193205e89990871a6d64af787cf8b02a",
         "datetime": 1786359619,
+        "headlineKo": "15년 전 Modine 제조에 투자한 1000달러는 오늘날 이 정도 가치가 있을 것입니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -23199,7 +23229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "STX": {
@@ -23369,6 +23399,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=e8969b1d687a214753d7f2ae2d4ae9696c1e42f68173f48e9e7c39900d65bba1",
         "datetime": 1786992335,
+        "headlineKo": "20년 전에 Seagate Technology Hldgs 주식에 1000달러를 투자했다면 오늘날 이 정도의 수익을 얻게 될 것입니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -23504,6 +23535,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a9f2be776401662e675a849a576d2d1678787bcefe93cdce4144900dbd4bd9d3",
         "datetime": 1786624203,
+        "headlineKo": "10년 전에 Seagate에 1,000달러를 투자했다면 얻게 될 금액은 다음과 같습니다.",
         "relevance": 0.67
       },
       {
@@ -23574,7 +23606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "EME": {
@@ -23727,6 +23759,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec94b89cbda4d5eb9b39e6dcb5be16de4d2e2d3166248e264e96653e5628bba5",
         "datetime": 1786633560,
+        "headlineKo": "RPO 상승이 EMCOR의 수익 성장 전망을 강화할 수 있습니까?",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -23771,6 +23804,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e50ab10b79d27529d130b17671836851b691839e6d8e1248d222c6c7639c2723",
         "datetime": 1786372620,
+        "headlineKo": "투자자들은 인상적인 2분기 수익을 낸 후 EMCOR 주식을 구매해야 합니까?",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -23815,6 +23849,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=ee1088afe051082bc4acbf14f0d5f08497bf1b0563c37d9e33c53aa08c669591",
         "datetime": 1786347594,
+        "headlineKo": "Cantor Fitzgerald는 EMCOR 그룹에 대한 비중확대를 유지하고 목표 가격을 $1047로 낮춥니다.",
         "relevance": 1,
         "analysis": {
           "version": 8,
@@ -23906,7 +23941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "FIX": {
@@ -24076,6 +24111,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b4d359d98671e039c5f38319a5f65bb406aa2f37239d036e43341f43784b5f3f",
         "datetime": 1787072794,
+        "headlineKo": "하원의원은 2020년에 컴포트 시스템을 매각하여 수백만 달러를 놓쳤습니다 — 이제 지난 5년 중 최고의 주식이 되었습니다",
         "relevance": 0.67,
         "analysis": {
           "version": 8,
@@ -24211,6 +24247,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=93370bb4f69093e41e5a9c07326bcec287679491a36480700ef7f08edb035ba6",
         "datetime": 1786634580,
+        "headlineKo": "기록 백로그가 Comfort Systems의 수익 가시성을 강화할 수 있습니까?",
         "relevance": 0.67
       },
       {
@@ -24265,7 +24302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   },
   "SBGSY": {
@@ -24283,7 +24320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-20 10:30"
+      "updated": "2026-08-20 11:31"
     }
   }
 };
