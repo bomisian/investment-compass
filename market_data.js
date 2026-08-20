@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 86.5999984741211,
+      "current": 86.45999908447266,
       "prevClose": 85.83000183105469,
-      "changeAbs": 0.7699966430664062,
-      "changePct": 0.8971182880574157,
-      "pctRank": 78.1225139220366,
+      "changeAbs": 0.6299972534179688,
+      "changePct": 0.7340058720469764,
+      "pctRank": 77.72474144789182,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -23.328905875221608,
-      "ma20": 82.24099922180176,
-      "ma60": 81.10516662597657,
-      "chg1m": -0.23000335693359375,
-      "chg3m": -11.660003662109375,
-      "chg1mPct": -0.264889268781903,
-      "chg3mPct": -11.866480163458183,
+      "drawdown1y": -23.452853988042357,
+      "ma20": 82.23399925231934,
+      "ma60": 81.10283330281575,
+      "chg1m": -0.37000274658203125,
+      "chg3m": -11.800003051757812,
+      "chg1mPct": -0.42612315879244866,
+      "chg3mPct": -12.008958676184387,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.88500213623047,
+      "current": 98.86599731445312,
       "prevClose": 98.83000183105469,
-      "changeAbs": 0.05500030517578125,
-      "changePct": 0.05565142583909057,
-      "pctRank": 25.218774860779636,
+      "changeAbs": 0.0359954833984375,
+      "changePct": 0.036421615634460995,
+      "pctRank": 25.139220365950678,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.681821137439777,
-      "ma20": 100.0177505493164,
-      "ma60": 100.33041699727376,
-      "chg1m": -2.2549972534179688,
-      "chg3m": -0.22499847412109375,
-      "chg1mPct": -2.229580054406017,
-      "chg3mPct": -0.22701894131316727,
+      "drawdown1y": -2.7005248296582463,
+      "ma20": 100.01680030822754,
+      "ma60": 100.33010025024414,
+      "chg1m": -2.2740020751953125,
+      "chg3m": -0.2440032958984375,
+      "chg1mPct": -2.2483706633560194,
+      "chg3mPct": -0.24619442477629502,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4586.89990234375,
+      "current": 4574.2001953125,
       "prevClose": 4489.39990234375,
-      "changeAbs": 97.5,
-      "changePct": 2.171782468055449,
+      "changeAbs": 84.80029296875,
+      "changePct": 1.888900405697405,
       "pctRank": 93.87430389817024,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -13.754136834983722,
-      "ma20": 4253.884973144532,
-      "ma60": 4211.15,
-      "chg1m": 440.0,
-      "chg3m": 55.60009765625,
-      "chg1mPct": 10.610335681151122,
-      "chg3mPct": 1.2270231512541565,
+      "drawdown1y": -13.992924952922225,
+      "ma20": 4253.249987792969,
+      "ma60": 4210.938338216146,
+      "chg1m": 427.30029296875,
+      "chg3m": 42.900390625,
+      "chg1mPct": 10.304089875119674,
+      "chg3mPct": 0.9467568352158198,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 9.167280638874576,
-        "ret3m": 0.2169316699117685,
-        "ret6m": 11.25344412274023,
-        "ret1y": 7.13302357715051,
+        "ret1m": 9.150841477895932,
+        "ret3m": 0.20184031412397996,
+        "ret6m": 11.236690812896288,
+        "ret1y": 7.116890748610616,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -4.577348630619593,
-        "ret3m": 7.619937634367524,
-        "ret6m": 74.1216836295709,
-        "ret1y": 249.59089421659266,
+        "ret1m": -4.578566091754155,
+        "ret3m": 7.618564552719764,
+        "ret6m": 74.11946207756557,
+        "ret1y": 249.5864339200006,
         "winRate": 71.5,
         "count": 16
       }
@@ -211,7 +211,7 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.15084562289105344,
+    "corr60": 0.15080853335013314,
     "corrPctRank": 0.6700167504187605,
     "corrMin5y": 0.11322641817101682,
     "corrMedian5y": 0.7060618343138602,
@@ -219,11 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "The Los Angeles Lakers sold for $12.5 billion. Here’s what every NBA team is now worth",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
+      "datetime": 1787257701,
+      "headlineKo": "LA 레이커스가 125억 달러에 매각됐다. 현재 모든 NBA 팀의 가치는 다음과 같습니다."
+    },
+    {
       "headline": "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
       "datetime": 1787255992,
       "headlineKo": "현대차, 새 조지아 공장에서 미국 생산량 늘릴 예정"
+    },
+    {
+      "headline": "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?oc=5",
+      "datetime": 1787250015,
+      "headlineKo": "미국, 이란 정부와의 관계 강조하며 새로운 제재로 헤즈볼라 공격 - 로이터 통신"
     },
     {
       "headline": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate - Reuters",
@@ -238,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/20/were-adding-two-new-stocks-to-our-bullpen-watchlist.html",
       "datetime": 1787248755,
       "headlineKo": "Bullpen 관심 목록에 두 개의 새로운 주식을 추가합니다."
+    },
+    {
+      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+      "datetime": 1787246194,
+      "headlineKo": "중국, 러시아산 원유 수입 늘려 인도 정유업체에 타격 - Reuters"
     },
     {
       "headline": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say - Reuters",
@@ -280,37 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemU0alhTVF8wYVhBNFUzbWN6TFhEU21UdTA1MHpEYkxrOE5jQ3d6OUNySnpQMXdnanlXV2s4Y3NsVFlJU0d6QmhsS3Qtei1NMVcwUzRielE2cFIydnNVWkR3Y0U1aDdQNmhrZ3YzMDBYRFlMR0t5Y0pGZElFbUwwMElZbndyMVVNS19FdA?oc=5",
       "datetime": 1787237760,
       "headlineKo": "해리와 메건: 사진으로 보는 그들의 삶 - 로이터 통신"
-    },
-    {
-      "headline": "California AG tells CNBC that settling Paramount-WBD lawsuit would require 'robust structural remedies'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/california-ag-bonta-paramount-wbd-lawsuit-remedies.html",
-      "datetime": 1787237548,
-      "headlineKo": "California AG는 CNBC에 Paramount-WBD 소송을 해결하려면 '강력한 구조적 구제책'이 필요하다고 말했습니다."
-    },
-    {
-      "headline": "Yemen's Houthis say they attacked Najran airport, Aramco facilities in Saudi Arabia - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaG03UE5RQVR1RzZTc3d2REJhZVRDUWZRbkZtcnZnUUFWMS1UenhvQnZ3SHozRTA2TEZoRW91X3pRQm5DbkdsYm5fRlJfN0I0YmZ3T3BlQ2YwUUQtS0JhWW44a0FTNThMcnVSU2xleExYVWJZV2VkVlNqUktGSHRpTjd1LXZBQjF2anhaazRHbDdySkNBQVM0U0JoVGxZT3cyUnJGZm0ta1c1TlljUVljMVR5NGdBSWotc2NxeW1FZ1ZGdE1nVXJwRVRsV2s?oc=5",
-      "datetime": 1787235146,
-      "headlineKo": "예멘 후티 반군이 나즈란 공항과 사우디아라비아 아람코 시설을 공격했다고 밝혔습니다."
-    },
-    {
-      "headline": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk15eGo2WTQ2MFVpa1ViTEt2aFhNMUd5OU0ybFNGanlqbFhPVzhOTlhOTU94MXM5MTc5M2lVRk1yYmhYYzMxR3NiZGdaS1NVWTlXTTFEaWZVRFF6TUozRUdTTnl4WUxxVGhjelJ0QTVIc0pRQnlPSUlncGRROWs4d3J1a0hCdmNTeHdwRWNNS0ZoYzJLeUQ0OW1vLWhEclZtVS1sYTl0bEoyaWN5a2tDQ2xGWnk2dGpPV3ZTSGU0UXZRSW9uNm5hd05n?oc=5",
-      "datetime": 1787233250,
-      "headlineKo": "허커비 미국 대사, 이스라엘 정착민들에게 팔레스타인계 미국인 땅을 빼앗지 말라고 지시 - 로이터 통신"
     }
   ],
   "fgi": {
-    "score": 52.8857142857143,
+    "score": 52.4857142857143,
     "rating": "neutral"
   },
-  "_fetched_at": 1787256310.095492,
-  "_updated_label": "2026-08-21 05:05",
-  "_last_attempt_at": 1787256310.095492,
-  "_last_success_at": 1787256310.095492,
+  "_fetched_at": 1787259618.488777,
+  "_updated_label": "2026-08-21 06:00",
+  "_last_attempt_at": 1787259618.488777,
+  "_last_success_at": 1787259618.488777,
   "_collection_status": "ok",
   "_collection_errors": []
 };
