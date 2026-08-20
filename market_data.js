@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.4800033569336,
+      "current": 84.5999984741211,
       "prevClose": 85.83000183105469,
-      "changeAbs": -1.3499984741210938,
-      "changePct": -1.5728748052206638,
-      "pctRank": 74.7016706443914,
+      "changeAbs": -1.2300033569335938,
+      "changePct": -1.4330692423317166,
+      "pctRank": 74.86077963404932,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.2058383006018,
-      "ma20": 82.13499946594239,
-      "ma60": 81.06983337402343,
-      "chg1m": -2.3499984741210938,
-      "chg3m": -13.779998779296875,
-      "chg1mPct": -2.7064360527061724,
-      "chg3mPct": -14.024016364453049,
+      "drawdown1y": -25.09960092085004,
+      "ma20": 82.14099922180176,
+      "ma60": 81.07183329264323,
+      "chg1m": -2.2300033569335938,
+      "chg3m": -13.660003662109375,
+      "chg1mPct": -2.5682405964617114,
+      "chg3mPct": -13.901896361828648,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.86599731445312,
+      "current": 98.82099914550781,
       "prevClose": 98.83000183105469,
-      "changeAbs": 0.0359954833984375,
-      "changePct": 0.036421615634460995,
-      "pctRank": 25.139220365950678,
+      "changeAbs": -0.009002685546875,
+      "changePct": -0.009109263766143275,
+      "pctRank": 24.741447891805887,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7005248296582463,
-      "ma20": 100.01680030822754,
-      "ma60": 100.33010025024414,
-      "chg1m": -2.2740020751953125,
-      "chg3m": -0.2440032958984375,
-      "chg1mPct": -2.2483706633560194,
-      "chg3mPct": -0.24619442477629502,
+      "drawdown1y": -2.7448100069784043,
+      "ma20": 100.01455039978028,
+      "ma60": 100.32935028076172,
+      "chg1m": -2.319000244140625,
+      "chg3m": -0.28900146484375,
+      "chg1mPct": -2.2928616354905498,
+      "chg3mPct": -0.2915966734577592,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4543.10009765625,
+      "current": 4551.0,
       "prevClose": 4489.39990234375,
-      "changeAbs": 53.7001953125,
-      "changePct": 1.1961553098547784,
-      "pctRank": 93.31742243436753,
+      "changeAbs": 61.60009765625,
+      "changePct": 1.3721232012343312,
+      "pctRank": 93.47653142402545,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -14.57768913439238,
-      "ma20": 4251.694982910156,
-      "ma60": 4210.420003255208,
-      "chg1m": 396.2001953125,
-      "chg3m": 11.80029296875,
-      "chg1mPct": 9.554129702734688,
-      "chg3mPct": 0.2604173962743082,
+      "drawdown1y": -14.429150053300177,
+      "ma20": 4252.089978027344,
+      "ma60": 4210.551668294271,
+      "chg1m": 404.10009765625,
+      "chg3m": 19.7001953125,
+      "chg1mPct": 9.744631102088096,
+      "chg3mPct": 0.434758152442721,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Hormuz shipping unchanged amid US-Iran stalemate, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2wyclNjWVpvOTM3X0dCUjJNdEhZYkYwOC0taHk5bnNRXzZ2d3R2V092Z0pNTlBiVDdzejJXS0ozSnc1aGRjenhxbXRUY3RsMjgzUV9wSkFlTEJxbk1VbUFvbDZMTjhwTXpzR2lJVndmanZhUDhudjFlMUNVdVptcjlQYXZ1UTczRnVNM3pIUTQzQ3ctcUxwd2VYalFHYXRXdzJHemNSOUE5Vmwzdzd0NFNEcw?oc=5",
+      "datetime": 1787194680,
+      "headlineKo": "미국-이란 교착상태에도 불구하고 호르무즈 배송은 변함이 없다고 데이터에 나와 있음 - Reuters"
+    },
+    {
       "headline": "Trump warns of economic consequences for any country that supports Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0t6ejR6ZDNSMllnR0lXWC1vV3ZyTXoxUDEyeHRXczFpRWtRbzEyWmdkRVRqWi1oZzJEaEF6UnAxcHItbXZ6Z1hKTzBQV2hPOUVFQml3Wk80T1F2UmFRSzIwakhFR2hKbmp3MFJ6LUFDX1BHV3BKeDZxYXdaT2wwWi1kaU5LbkFaX19IekRKSGNUT0VBc1FQeWVRdUxLd0U3V1I5WjZoMmtIcXZUQnRBczZKcTFZa19zUVE?oc=5",
@@ -226,11 +233,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 이란을 지원하는 모든 국가에 경제적 결과 경고 - 로이터"
     },
     {
-      "headline": "Oil prices steady as investors assess US-Iran war outlook - Reuters",
+      "headline": "Oil gains on Middle East supply concerns amid impasse in US-Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
       "datetime": 1787188260,
-      "headlineKo": "투자자들이 미-이란 전쟁 전망을 평가함에 따라 유가는 안정세를 유지했습니다 - Reuters"
+      "headlineKo": "미국-이란 전쟁이 교착상태에 빠진 가운데 중동 공급 우려로 석유 가격 상승 - 로이터"
     },
     {
       "headline": "US provides $206 million for Gaza force despite deadlocked peace plan - Reuters",
@@ -294,19 +301,12 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/19/hedge-funds-are-about-to-jump-in-big-to-prediction-markets.html",
       "datetime": 1787146724,
       "headlineKo": "헤지펀드, 예측 시장에 본격 진출"
-    },
-    {
-      "headline": "UAE stocks fall after missile scare; Qatar at over one-year low - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTFBZeTZITFl5NWRzUU9DUDZZZVM4ck5NQnY2bFdpZDRHUW9ZNGZRRHdSSjdpM3NUWlFSbnR1Rkl6ajFnbW51bktTY2VqWWdNeURtOVZXS1ZzOVNFRTE3dG5JdV9TbW0tTkh2VnRxblBiZmZRWmlueDQ1d3BFNVluSGExd1hVNS1JNjdUQmt0TG9WZ2s?oc=5",
-      "datetime": 1787145393,
-      "headlineKo": "UAE 주식은 미사일 공포로 인해 하락했습니다. 카타르, 1년 만에 최저치 - Reuters"
     }
   ],
   "fgi": {
     "score": 56.2,
     "rating": "greed"
   },
-  "_fetched_at": 1787204212.3985677,
-  "_updated_label": "2026-08-20 14:37"
+  "_fetched_at": 1787207875.2391646,
+  "_updated_label": "2026-08-20 15:38"
 };
