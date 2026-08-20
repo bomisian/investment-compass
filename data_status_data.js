@@ -124,9 +124,25 @@ const DATA_STATUS = {
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
       "lastError": null
+    },
+    "events": {
+      "label": "중요 이벤트",
+      "status": "ok",
+      "lastAttemptAt": 1787216341.1695697,
+      "lastSuccessAt": 1787216341.1695697,
+      "lastFetchedAt": 1787216341.1695697,
+      "oldestFetchedAt": 1787216341.1695697,
+      "dataAsOfLabel": "2026-08-20",
+      "expectedItems": 1,
+      "availableItems": 1,
+      "emptyItems": [],
+      "staleItems": [],
+      "warningAfterHours": 6,
+      "criticalAfterHours": 24,
+      "lastError": null
     }
   },
-  "generatedAt": 1787215514.7752159,
+  "generatedAt": 1787216341.1695697,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
