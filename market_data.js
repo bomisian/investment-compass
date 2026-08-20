@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 86.45999908447266,
+      "current": 86.20999908447266,
       "prevClose": 85.83000183105469,
-      "changeAbs": 0.6299972534179688,
-      "changePct": 0.7340058720469764,
-      "pctRank": 77.72474144789182,
+      "changeAbs": 0.37999725341796875,
+      "changePct": 0.44273243074833485,
+      "pctRank": 77.48607796340494,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -23.452853988042357,
-      "ma20": 82.23399925231934,
-      "ma60": 81.10283330281575,
-      "chg1m": -0.37000274658203125,
-      "chg3m": -11.800003051757812,
-      "chg1mPct": -0.42612315879244866,
-      "chg3mPct": -12.008958676184387,
+      "drawdown1y": -23.674190868745903,
+      "ma20": 82.22149925231933,
+      "ma60": 81.09866663614909,
+      "chg1m": -0.6200027465820312,
+      "chg3m": -12.050003051757812,
+      "chg1mPct": -0.7140420747524248,
+      "chg3mPct": -12.263385700980695,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.86599731445312,
+      "current": 98.86900329589844,
       "prevClose": 98.83000183105469,
-      "changeAbs": 0.0359954833984375,
-      "changePct": 0.036421615634460995,
+      "changeAbs": 0.03900146484375,
+      "changePct": 0.03946318336654612,
       "pctRank": 25.139220365950678,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7005248296582463,
-      "ma20": 100.01680030822754,
-      "ma60": 100.33010025024414,
-      "chg1m": -2.2740020751953125,
-      "chg3m": -0.2440032958984375,
-      "chg1mPct": -2.2483706633560194,
-      "chg3mPct": -0.24619442477629502,
+      "drawdown1y": -2.697566477697555,
+      "ma20": 100.0169506072998,
+      "ma60": 100.3301503499349,
+      "chg1m": -2.27099609375,
+      "chg3m": -0.240997314453125,
+      "chg1mPct": -2.2453985638271954,
+      "chg3mPct": -0.24316144987285368,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4574.2001953125,
+      "current": 4575.10009765625,
       "prevClose": 4489.39990234375,
-      "changeAbs": 84.80029296875,
-      "changePct": 1.888900405697405,
+      "changeAbs": 85.7001953125,
+      "changePct": 1.9089454532165668,
       "pctRank": 93.87430389817024,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -13.992924952922225,
-      "ma20": 4253.249987792969,
-      "ma60": 4210.938338216146,
-      "chg1m": 427.30029296875,
-      "chg3m": 42.900390625,
-      "chg1mPct": 10.304089875119674,
-      "chg3mPct": 0.9467568352158198,
+      "drawdown1y": -13.976004406136088,
+      "ma20": 4253.294982910156,
+      "ma60": 4210.953336588542,
+      "chg1m": 428.2001953125,
+      "chg3m": 43.80029296875,
+      "chg1mPct": 10.32579047954568,
+      "chg3mPct": 0.966616530723477,
       "lastDate": "2026-08-20",
       "bars": 1257,
       "symbol": "GC=F",
@@ -217,100 +217,15 @@ const MARKET_DATA = {
     "corrMedian5y": 0.7060618343138602,
     "corrMax5y": 0.9306761077384692
   },
-  "news": [
-    {
-      "headline": "The Los Angeles Lakers sold for $12.5 billion. Here’s what every NBA team is now worth",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/heres-how-the-los-angeles-lakers-12point5b-sale-impacts-the-value-of-all-30-nba-teams.html",
-      "datetime": 1787257701,
-      "headlineKo": "LA 레이커스가 125억 달러에 매각됐다. 현재 모든 NBA 팀의 가치는 다음과 같습니다."
-    },
-    {
-      "headline": "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
-      "datetime": 1787255992,
-      "headlineKo": "현대차, 새 조지아 공장에서 미국 생산량 늘릴 예정"
-    },
-    {
-      "headline": "US hits Hezbollah with fresh sanctions, emphasizing ties to Iranian government - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?oc=5",
-      "datetime": 1787250015,
-      "headlineKo": "미국, 이란 정부와의 관계 강조하며 새로운 제재로 헤즈볼라 공격 - 로이터 통신"
-    },
-    {
-      "headline": "Bessent says US will impose toughest ever sanctions on Iran, urges China to cooperate - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUlFnUHhPNjlxRW5kTy03TFctOE1ST1NabGVNalozY2hiR2RKcEtfV1ZRblJ1VlJXQXRNem1yZmpIRVVYUjJOd2pzWElTX0JVeXZVR1V1Tk5NOG5oWWUtRVZzWDNFOE5KbE1VNmtubXdodnVzQ1RZMFV3TnpUUXVHM1N5MXZqZTBtdW1iUG8xS18wdi1ranhQQXpfVDdiYnRsc09iN3JtbEhZTVIwS202X0lmSkF2V0c2dFV5NQ?oc=5",
-      "datetime": 1787249083,
-      "headlineKo": "베센트는 미국이 이란에 역대 가장 강력한 제재를 가할 것이라고 말하고 중국의 협조를 촉구했습니다."
-    },
-    {
-      "headline": "We're adding two new stocks to our Bullpen watchlist",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/were-adding-two-new-stocks-to-our-bullpen-watchlist.html",
-      "datetime": 1787248755,
-      "headlineKo": "Bullpen 관심 목록에 두 개의 새로운 주식을 추가합니다."
-    },
-    {
-      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-      "datetime": 1787246194,
-      "headlineKo": "중국, 러시아산 원유 수입 늘려 인도 정유업체에 타격 - Reuters"
-    },
-    {
-      "headline": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHNxUXpMLWp6eDNUendUcVlMS01NTnk0eVNqN1FlYnBwdlgwMElUTXlfR3paamtTNFhBXzJULXlfUDBkaHFuU3poamlYVHhBMGdEQ3ZiWTdtR2dpQng4aE1CMERFWFVGLXBtSTFLY2VpODJKN3paamJSUDV5U1JYUHZIVGNILWJiZzluejV5Vy12dURhVmRfVjdLVTFETXMyRE9hUG1Da2JUcGhISGM4clB0LV9CbXVfeVBlamhRNTA5cjQ1d1hpWA?oc=5",
-      "datetime": 1787244838,
-      "headlineKo": "사우디 아람코가 호르무즈 외곽에서 중국에 최소 400만 배럴의 원유를 판매했다고 소식통이 전했습니다."
-    },
-    {
-      "headline": "Gatekeeping bots, piles of slop: Welcome to the age of AI weirdness at work",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/gatekeeping-bots-piles-of-slop-welcome-to-the-age-of-ai-weirdness-at-work.html",
-      "datetime": 1787243401,
-      "headlineKo": "게이트키핑 봇, 쓰레기 더미: AI의 기이한 직장 시대에 오신 것을 환영합니다"
-    },
-    {
-      "headline": "U.S. sports fans spend about $2,000 a year on their favorite teams—many find themselves in debt as a result",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/americans-debt-sports-fans.html",
-      "datetime": 1787242501,
-      "headlineKo": "미국 스포츠 팬들은 자신이 좋아하는 팀에 연간 약 2,000달러를 지출합니다. 그 결과 많은 사람들이 빚을 지게 됩니다."
-    },
-    {
-      "headline": "Trump threatens to isolate Iran. Who are its trading partners? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUTliUERTQVlVWVpERU5Zd3V1dXdSY2JuZExLUjMtUkMxWXVoZFJzLUx1aTFITDQwdWY5RS1pR3pDNDVWMGlFS0t6cE9DQmYwNWRDeWViME50enF1X1RZWjNVYmF2ME9obUp6TTNLcG01ekdLS1liNUhmeDdmU1hYVnVpR21vTzlDYUJKY3EzYkItZThBZE9kYS1EV3FfYkx4MXZUVFloa2FYWG5jUVE?oc=5",
-      "datetime": 1787241262,
-      "headlineKo": "트럼프는 이란을 고립시키겠다고 위협했다. 거래 파트너는 누구입니까? - 로이터"
-    },
-    {
-      "headline": "Arctos agrees to buy 10% of Atlanta Falcons at $10.6 billion valuation, sources say",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/20/arctos-agrees-to-buy-10percent-of-atlanta-falcons-at-10point6-billion-valuation-sources.html",
-      "datetime": 1787238508,
-      "headlineKo": "Arctos는 Atlanta Falcons의 지분 10%를 106억 달러 가치로 구매하기로 합의했다고 소식통은 전합니다."
-    },
-    {
-      "headline": "Harry and Meghan: Their life together in photos - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNemU0alhTVF8wYVhBNFUzbWN6TFhEU21UdTA1MHpEYkxrOE5jQ3d6OUNySnpQMXdnanlXV2s4Y3NsVFlJU0d6QmhsS3Qtei1NMVcwUzRielE2cFIydnNVWkR3Y0U1aDdQNmhrZ3YzMDBYRFlMR0t5Y0pGZElFbUwwMElZbndyMVVNS19FdA?oc=5",
-      "datetime": 1787237760,
-      "headlineKo": "해리와 메건: 사진으로 보는 그들의 삶 - 로이터 통신"
-    }
-  ],
+  "news": [],
   "fgi": {
     "score": 52.4857142857143,
     "rating": "neutral"
   },
-  "_fetched_at": 1787259618.488777,
-  "_updated_label": "2026-08-21 06:00",
-  "_last_attempt_at": 1787259618.488777,
-  "_last_success_at": 1787259618.488777,
+  "_fetched_at": 1787263218.2903755,
+  "_updated_label": "2026-08-21 07:00",
+  "_last_attempt_at": 1787263218.2903755,
+  "_last_success_at": 1787263218.2903755,
   "_collection_status": "ok",
   "_collection_errors": []
 };
