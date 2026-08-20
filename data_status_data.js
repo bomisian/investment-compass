@@ -140,9 +140,25 @@ const DATA_STATUS = {
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
       "lastError": null
+    },
+    "eventAnalysis": {
+      "label": "뉴스 반영 기업분석",
+      "status": "ok",
+      "lastAttemptAt": 1787217278.1366413,
+      "lastSuccessAt": 1787217278.1366413,
+      "lastFetchedAt": 1787217278.1366413,
+      "oldestFetchedAt": 1787217278.1366413,
+      "dataAsOfLabel": "2026-08-20",
+      "expectedItems": 39,
+      "availableItems": 39,
+      "emptyItems": [],
+      "staleItems": [],
+      "warningAfterHours": 6,
+      "criticalAfterHours": 24,
+      "lastError": null
     }
   },
-  "generatedAt": 1787216341.1695697,
+  "generatedAt": 1787217278.1366413,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
