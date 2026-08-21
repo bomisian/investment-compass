@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787307900.628544,
+  "generatedAt": 1787311545.3323846,
   "events": [
     {
       "id": "da25f24dd41f17a50d51",
@@ -2278,6 +2278,68 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "2e59ff4c9a3f1304342c",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "AMAT",
+      "relatedTickers": [
+        "AMAT"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMAT SEC Form 10-Q filed",
+      "headlineKo": "AMAT SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
+        "publishedAt": 1787151600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMAT가 2026-08-20에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMAT",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
       "id": "db589d1617495ab5aeee",
       "schemaVersion": 1,
       "eventType": "major_customer_contract",
@@ -3674,6 +3736,133 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "d95ef4b690dc76b4e798",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form 8-K filed",
+      "headlineKo": "AMD SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+        "publishedAt": 1787065200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMD가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "b853cd77f81c66b56636",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "MRVL",
+      "relatedTickers": [
+        "MRVL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "MRVL SEC Form 8-K filed",
+      "headlineKo": "MRVL SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
+        "publishedAt": 1787065200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "MRVL가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 미등록 증권 발행·매각 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MRVL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
       "id": "c6839bdecffd2904108e",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -4276,6 +4465,69 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "81f1190433cb049b2da2",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMZN SEC Form 424B3 filed",
+      "headlineKo": "AMZN SEC Form 424B3 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
+        "publishedAt": 1786978800.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMZN가 2026-08-18에 SEC Form 424B3을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
       "id": "f800a666a0ea418973c5",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -4636,6 +4888,258 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "8edf9703516e14e277d1",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "NVDA",
+      "relatedTickers": [
+        "NVDA"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "NVDA SEC Form 8-K filed",
+      "headlineKo": "NVDA SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+        "publishedAt": 1786892400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 인수·매각"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "b5517d3723220c099708",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form 8-K filed",
+      "headlineKo": "AMD SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
+        "publishedAt": 1786892400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "9bfd5d4890acc33d83b2",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "SNDK",
+      "relatedTickers": [
+        "SNDK"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "SNDK SEC Form 10-K filed",
+      "headlineKo": "SNDK SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
+        "publishedAt": 1786892400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "SNDK가 2026-08-17에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SNDK",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
+      "id": "6c5e1c93ecb7dc96dc6e",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "LITE",
+      "relatedTickers": [
+        "LITE"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "LITE SEC Form 10-K filed",
+      "headlineKo": "LITE SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
+        "publishedAt": 1786892400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "LITE가 2026-08-17에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "LITE",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
     },
     {
       "id": "d7e2b9fc3fa2509620fa",
@@ -7067,6 +7571,255 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "d42bd2b7e7b98f79baa7",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form 424B5 filed",
+      "headlineKo": "AMD SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526352628/d173126d424b5.htm",
+        "publishedAt": 1786633200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "f7beb34b8c4ab4d90ad5",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/tsm-fsx20260814x6k.htm",
+        "publishedAt": 1786633200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "TSM가 2026-08-14에 SEC Form 6-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "b5ac926ef185c3fc6f5a",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "WDC",
+      "relatedTickers": [
+        "WDC"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "WDC SEC Form 10-K filed",
+      "headlineKo": "WDC SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
+        "publishedAt": 1786633200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "WDC가 2026-08-14에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "WDC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
+      "id": "a569bcdbdc06e58f6f0b",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "COHR",
+      "relatedTickers": [
+        "COHR"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "COHR SEC Form 10-K filed",
+      "headlineKo": "COHR SEC Form 10-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
+        "publishedAt": 1786633200.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "COHR가 2026-08-14에 SEC Form 10-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "COHR",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
       "id": "159efe2c95ce7f7f8f36",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -9128,6 +9881,195 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "6bef19f34c5e1f7e5250",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form 424B5 filed",
+      "headlineKo": "AMD SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348029/d173126d424b5.htm",
+        "publishedAt": 1786546800.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMD가 2026-08-13에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "3fd3b3e210e232955d80",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "AMD",
+      "relatedTickers": [
+        "AMD"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMD SEC Form S-3ASR filed",
+      "headlineKo": "AMD SEC Form S-3ASR 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348013/d97381ds3asr.htm",
+        "publishedAt": 1786546800.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMD가 2026-08-13에 SEC Form S-3ASR을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMD",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "1eb3897c85f78df77466",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
+      "primaryTicker": "AMAT",
+      "relatedTickers": [
+        "AMAT"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AMAT SEC Form 8-K filed",
+      "headlineKo": "AMAT SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/amat-20260813.htm",
+        "publishedAt": 1786546800.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMAT",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
       "id": "fb9cada5edd23c776102",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -11071,6 +12013,195 @@ const EVENT_DATA = {
         "영업현금흐름과 CAPEX",
         "회사 공식 가이던스",
         "주가 반응이 하루 이상 지속되는지"
+      ]
+    },
+    {
+      "id": "a652c982b0bd43af2d1a",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "INTC SEC Form 8-K filed",
+      "headlineKo": "INTC SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
+        "publishedAt": 1786460400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "INTC가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 기타 중요 사건 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "2b05b759ccf41af4ed39",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "INTC SEC Form 424B5 filed",
+      "headlineKo": "INTC SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm",
+        "publishedAt": 1786460400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "INTC가 2026-08-12에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "a1a151634101bb46047f",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
+      "primaryTicker": "COHR",
+      "relatedTickers": [
+        "COHR"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "COHR SEC Form 8-K filed",
+      "headlineKo": "COHR SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm",
+        "publishedAt": 1786460400.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료 · 규정 FD 공개"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "COHR",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
       ]
     },
     {
@@ -13376,6 +14507,195 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "7154ba9075f3fb096448",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000539/sonysemiconductorsolutions.htm",
+        "publishedAt": 1786374000.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "3df7c4c53d2030407c4b",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm",
+        "publishedAt": 1786374000.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 가이던스·전망"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "c034a4cec92feb979458",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
+      "primaryTicker": "LITE",
+      "relatedTickers": [
+        "LITE"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "LITE SEC Form 8-K filed",
+      "headlineKo": "LITE SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
+        "publishedAt": 1786374000.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "LITE",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
       "id": "8ff6c7e685643e9ea6c9",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -14666,6 +15986,382 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "a2ccdece8bb262a7701b",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "GOOGL",
+      "relatedTickers": [
+        "GOOGL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "GOOGL SEC Form 8-K filed",
+      "headlineKo": "GOOGL SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "GOOGL가 2026-08-10에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "GOOGL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "9763781dbb5a08504fd7",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "ARM",
+      "relatedTickers": [
+        "ARM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "ARM SEC Form 6-K filed",
+      "headlineKo": "ARM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000117/arm-20260810.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "ARM가 2026-08-10에 SEC Form 6-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ARM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "7a8b07c948fde9d90056",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "INTC SEC Form 424B5 filed",
+      "headlineKo": "INTC SEC Form 424B5 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341318/d98483d424b5.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "INTC가 2026-08-10에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "842b1c34ef9e0f1678cb",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "증권등록·투자설명서 제출",
+      "primaryTicker": "INTC",
+      "relatedTickers": [
+        "INTC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "INTC SEC Form S-3ASR filed",
+      "headlineKo": "INTC SEC Form S-3ASR 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341177/d120558ds3asr.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "INTC가 2026-08-10에 SEC Form S-3ASR을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "INTC",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "실제 발행 여부와 주식 수",
+        "발행가격·워런트·전환 조건",
+        "조달 자금 사용처와 완전희석 EPS"
+      ]
+    },
+    {
+      "id": "e6bbd93755feb2a10bc4",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "TSM가 2026-08-10에 SEC Form 6-K을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ]
+    },
+    {
+      "id": "3590ae64ba75ef6c4e10",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "VST",
+      "relatedTickers": [
+        "VST"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "VST SEC Form 10-Q filed",
+      "headlineKo": "VST SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000019/vistra-20260630.htm",
+        "publishedAt": 1786287600.0,
+        "collectedAt": 1787309670.9151723
+      },
+      "confirmedFacts": [
+        "VST가 2026-08-10에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "VST",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ]
+    },
+    {
       "id": "87d84b09948dc6fe6c9b",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -14912,919 +16608,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "1a66c340f3964c4a6f63",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "What Does Intel (INTC) Gain From Its Texas Chip Facility Joint Venture?",
-      "headlineKo": "Intel(INTC)은 텍사스 칩 시설 합작 투자를 통해 무엇을 얻습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=baf6fd986e5ab24950b3c5e1634aee35eee073d4f583b65101c3e0bfb1c64ed9",
-        "publishedAt": 1786155071,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Intel(INTC)은 텍사스 칩 시설 합작 투자를 통해 무엇을 얻습니까?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "5b010184eeba761a9fd7",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Amazon",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Amazon (AMZN) Q2 2026 Earnings Call Transcript",
-      "headlineKo": "Amazon (AMZN) 2026년 2분기 실적 통화 내용",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=151ec67fb79d4ce207815a65f52047f4d2bf9089056540fe1364ca0fe9120d8f",
-        "publishedAt": 1786152619,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Amazon (AMZN) Q2 2026 Earnings Call Transcript | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-        "Help Image source: The Motley Fool.",
-        "DATE Thursday, July 30, 2026 at 5:00 p.m."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 AMZN의 사업과 관련된 'Amazon (AMZN) 2026년 2분기 실적 통화 내용' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
-    },
-    {
-      "id": "2a62ff9b78ee18f9459e",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm (QCOM) Q3 2026 Earnings Call Transcript",
-      "headlineKo": "Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7c44e386f450a4c148f9cfdae52ffe279080241975db544a0d3b188f0b977d97",
-        "publishedAt": 1786147128,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Qualcomm (QCOM) Q3 2026 Earnings Call Transcript | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-        "Help Image source: The Motley Fool.",
-        "DATE Wednesday, July 29, 2026 at 2 p.m."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 QCOM의 사업과 관련된 'Qualcomm(QCOM) 2026년 3분기 실적 통화 녹취록' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
-    },
-    {
-      "id": "c5cf761e83894382be05",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Microsoft (MSFT) Q4 2026 Earnings Call Transcript",
-      "headlineKo": "Microsoft(MSFT) 2026년 4분기 실적 통화 기록",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b078e3db52c83ecd630a8924e6c7b4bca0f735d076b6ffed5c067a40b738f274",
-        "publishedAt": 1786147127,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Microsoft(MSFT) 2026년 4분기 실적 통화 기록"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MSFT",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "ae5ecae31203183b779b",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "ARM",
-      "relatedTickers": [
-        "ARM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Arm (ARM) Q1 2027 Earnings Call Transcript",
-      "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c7a671cf376f7cc02b1a7e0a59c945b63d1dd01ef4714ae8dccc2a4c730167b0",
-        "publishedAt": 1786147127,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ARM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "466cbe56f2dde46b1394",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "LRCX",
-      "relatedTickers": [
-        "LRCX"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Lam Research (LRCX) Q4 2026 Earnings Call Transcript",
-      "headlineKo": "Lam Research(LRCX) 2026년 4분기 실적 통화 기록",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e1a6b8cb7b6800f3681adbada1e760e93c95643bb9a9b9eaa6dd65e1d9460da4",
-        "publishedAt": 1786147127,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Lam Research(LRCX) 2026년 4분기 실적 통화 기록"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "LRCX",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "bcb15c849ec58d6f9396",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Bank of America doubles down on Sandisk stock after earnings",
-      "headlineKo": "Bank of America는 실적 후 Sandisk 주식을 두 배로 줄였습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d53d74c90e8cc492d9efa44175b6ef8bdd7f5e8e081908e0dfd4a75e63624f0c",
-        "publishedAt": 1786140420,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Bank of America는 실적 후 Sandisk 주식을 두 배로 줄였습니다.",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 SNDK의 사업과 관련된 'Bank of America는 실적 후 Sandisk 주식을 두 배로 줄였습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
-    },
-    {
-      "id": "dd5f17c57dc99608b9b2",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Apple App Store revenue ticks up despite falling downloads",
-      "headlineKo": "다운로드 감소에도 불구하고 Apple App Store 매출은 증가",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1a983ab8a1e7894ed408cf54013c665ee7233f4328bdb72384cbf8f4f8e84ba5",
-        "publishedAt": 1786045380,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "다운로드 감소에도 불구하고 Apple App Store 매출은 증가"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "851e3639d85604b93bca",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "WDC",
-      "relatedTickers": [
-        "WDC"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Western Digital (WDC) Stock May Be 49% Undervalued After AI Storage Deal Talks",
-      "headlineKo": "AI 스토리지 거래 협상 후 Western Digital(WDC) 주식은 49% 저평가될 수 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=392afc4b9af9cc8c00f82e75f5902de6113b3f8bb6110eb8d907a3d6193a6e60",
-        "publishedAt": 1786043455,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 스토리지 거래 협상 후 Western Digital(WDC) 주식은 49% 저평가될 수 있습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "WDC",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "ee66bc5a69428ce051ee",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "BMW",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 자동차 수주·매출 반영",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm’s (QCOM) BMW Deal Adds To A Bigger Diversification Push",
-      "headlineKo": "Qualcomm(QCOM)의 BMW 거래로 다각화에 박차를 가함",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=58260b94a197da7687acca00e9780366db549017fa3fdb4257e8b899a50f3f54",
-        "publishedAt": 1786022389,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "BMW 관련 자동차 칩 사업 확대를 다룬 뉴스입니다.",
-        "고객 계약·설계 채택은 긍정적 출발이지만 계약이 곧바로 매출로 잡히는 것은 아닙니다.",
-        "실제 차량 출시와 Qualcomm 칩 탑재 이후 매출·이익 반영 여부를 확인해야 합니다."
-      ],
-      "marketInterpretation": [
-        "QCOM이 스마트폰 의존도를 낮추고 자동차·IoT로 포트폴리오를 넓히는 흐름입니다.",
-        "자동차 사업은 수주부터 양산까지 시간이 걸리므로 단기 실적보다 수주잔고와 양산 일정이 중요합니다."
-      ],
-      "aiInference": [
-        "이 기사는 QCOM의 사업과 관련된 'Qualcomm(QCOM)의 BMW 거래로 다각화에 박차를 가함' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "BMW와 협력한다는 소식은 좋은 출발이지만, 계약만으로 바로 이익이 늘었다는 뜻은 아닙니다.",
-        "실제 자동차에 칩이 들어가고 판매가 시작되어야 매출로 확인됩니다.",
-        "장기 성장에는 긍정적이지만 오늘 바로 매수하라는 신호는 아닙니다."
-      ],
-      "whyItMatters": [
-        "QCOM이 스마트폰 의존도를 낮추고 자동차·IoT로 포트폴리오를 넓히는 흐름입니다.",
-        "자동차 사업은 수주부터 양산까지 시간이 걸리므로 단기 실적보다 수주잔고와 양산 일정이 중요합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "긍정",
-          "reason": "자동차 고객·설계 채택 확대 가능성",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "자동차 부문 매출과 신규 설계 채택 수",
-        "BMW 양산 시점·계약 규모",
-        "QCT 영업이익률과 현금흐름"
-      ]
-    },
-    {
-      "id": "fcfb580fbf09db337569",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "TSM",
-      "relatedTickers": [
-        "TSM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "$1000 Invested In Taiwan Semiconductor 10 Years Ago Would Be Worth This Much Today",
-      "headlineKo": "10년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다.",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7430f2fa11520bd620ede9e994fd0320828db78a433f877298d0e3319042fb4f",
-        "publishedAt": 1786018549,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "10년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "43c29d00433caad54608",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR"
-      ],
-      "relatedEntities": [],
-      "importance": "low",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Palantir: I Am Raising My Price Target As AIP Momentum Accelerates",
-      "headlineKo": "Palantir: AIP 모멘텀이 가속화됨에 따라 목표 가격을 높이고 있습니다.",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6843119011838dd7de7ce9f6d48972138513dacb5f931968d8a906341d8794b1",
-        "publishedAt": 1785977820,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Palantir: AIP 모멘텀이 가속화됨에 따라 목표 가격을 높이고 있습니다.",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 PLTR의 사업과 관련된 'Palantir: AIP 모멘텀이 가속화됨에 따라 목표 가격을 높이고 있습니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
-    },
-    {
-      "id": "e394f2f2a0c2977f339d",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm Could Be One AI Deal Away From A Major Re-Rating",
-      "headlineKo": "Qualcomm은 주요 재평가에서 하나의 AI 거래가 될 수 있습니다",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=84daa929718cdc9402d777fa025b69b6063afcb9f78591ee979e77c3d86e0a29",
-        "publishedAt": 1785926043,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Qualcomm은 주요 재평가에서 하나의 AI 거래가 될 수 있습니다"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "7ccdc553d5384f786905",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "ORCL",
-      "relatedTickers": [
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Oracle",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "다음 실적·현금흐름 확인까지",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Oracle: I See 64% Upside And A Whole Lot Of Fear",
-      "headlineKo": "오라클: 64%의 상승 여력과 많은 두려움이 있습니다",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=caee490f70734b98a7ba4db1a43f018625dbdaaae13bfd6aefb9cec774593cc6",
-        "publishedAt": 1785757564,
-        "collectedAt": 1787300231.2546573
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "기사 작성자가 Oracle의 상승 여력과 위험 요인을 함께 제시한 의견 기사입니다.",
-        "제목의 상승 여력은 애널리스트·작성자의 추정치이지 Oracle의 공식 가이던스가 아닙니다.",
-        "AI 클라우드 성장과 CAPEX·부채 부담이 동시에 언급되는지 원문에서 확인해야 합니다."
-      ],
-      "marketInterpretation": [
-        "Oracle은 AI 인프라 성장 기대가 큰 동시에 대규모 투자로 FCF 부담도 커질 수 있습니다.",
-        "성장률보다 CAPEX 이후 현금이 남는지가 장기 주가를 결정할 가능성이 큽니다."
-      ],
-      "aiInference": [
-        "이 기사는 ORCL의 사업과 관련된 '오라클: 64%의 상승 여력과 많은 두려움이 있습니다' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "‘64% 상승 여력’은 그 가격까지 반드시 오른다는 약속이 아니라 작성자의 계산입니다.",
-        "Oracle의 실제 클라우드 매출 성장과 FCF가 좋아지는지 확인해야 합니다.",
-        "전망이 좋아도 부채·투자 부담이 더 빨리 늘면 주가가 오르지 않을 수 있습니다."
-      ],
-      "whyItMatters": [
-        "Oracle은 AI 인프라 성장 기대가 큰 동시에 대규모 투자로 FCF 부담도 커질 수 있습니다.",
-        "성장률보다 CAPEX 이후 현금이 남는지가 장기 주가를 결정할 가능성이 큽니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ORCL",
-          "direction": "혼재",
-          "reason": "AI 클라우드 성장 기대와 CAPEX·부채 부담이 함께 존재",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "OCI 매출 성장률과 신규 계약",
-        "CAPEX 대비 영업현금흐름·FCF",
-        "부채·이자비용과 신용등급"
-      ]
     }
   ],
   "byTicker": {
@@ -15886,6 +16669,7 @@ const EVENT_DATA = {
       "f800a666a0ea418973c5",
       "f5b406a754cb9ac66bd2",
       "f1cc1da7ac46289240c2",
+      "8edf9703516e14e277d1",
       "cd2e7ecbfb7dbc8e4596",
       "f0a3b94e466980dad610",
       "f9fb7f87342c41ff9972",
@@ -15932,9 +16716,7 @@ const EVENT_DATA = {
       "3c173510c4bf5d9487e8",
       "ccd63433aa056ab856db",
       "9e19e0e9f0f7357c193b",
-      "76025d8f750cb4942db7",
-      "5b010184eeba761a9fd7",
-      "2a62ff9b78ee18f9459e"
+      "76025d8f750cb4942db7"
     ],
     "AMD": [
       "263f0693121d2a4d52d8",
@@ -15948,16 +16730,21 @@ const EVENT_DATA = {
       "c035ee54c03279533915",
       "71d150723dca23fbe3f8",
       "a6de8919bcdd1f1f8e86",
+      "d95ef4b690dc76b4e798",
       "c6839bdecffd2904108e",
       "803236e9c2b77ae14fbf",
       "f1cc1da7ac46289240c2",
+      "b5517d3723220c099708",
       "cd2e7ecbfb7dbc8e4596",
       "f0a3b94e466980dad610",
       "087660bb2be5dabe8cb5",
       "71162d5ca0dd0d996e6f",
+      "d42bd2b7e7b98f79baa7",
       "11ce3cc826b4233fee60",
       "af6938dfb18b2db7d1d3",
       "cb06c33ccc0e3e4e0b3c",
+      "6bef19f34c5e1f7e5250",
+      "3fd3b3e210e232955d80",
       "fb9cada5edd23c776102",
       "0b7329bb39af563ea655",
       "0f917609a87684f1aac0",
@@ -16051,12 +16838,12 @@ const EVENT_DATA = {
       "d75d48ab5148f28499ac",
       "1260edb76bf6c45b217f",
       "1365b368521f18237748",
-      "d33fc914f9bbe3149b2e",
-      "7ccdc553d5384f786905"
+      "d33fc914f9bbe3149b2e"
     ],
     "SNDK": [
       "cf6f2ed664d90f996020",
       "6983b352153d3b458e14",
+      "9bfd5d4890acc33d83b2",
       "36698686cfafd0052758",
       "3507ad90e1f4ec168451",
       "59198ef30c9489edce5c",
@@ -16064,8 +16851,7 @@ const EVENT_DATA = {
       "857490f774b5ced606db",
       "dee8f42c93a9a4affd22",
       "dd957c5d66d419f8ec0c",
-      "957e33e5ddd8565cc777",
-      "bcb15c849ec58d6f9396"
+      "957e33e5ddd8565cc777"
     ],
     "CRM": [
       "0adb305fd30d06727560",
@@ -16093,7 +16879,8 @@ const EVENT_DATA = {
       "b311878d8ee74eccbc2d",
       "9e19e0e9f0f7357c193b",
       "eec01f0baa6003dd4300",
-      "d0abbf5944627e041ce3"
+      "d0abbf5944627e041ce3",
+      "a2ccdece8bb262a7701b"
     ],
     "MRVL": [
       "1167a4f5402a87596d89",
@@ -16106,6 +16893,7 @@ const EVENT_DATA = {
       "27e4d337f5faf3af65b2",
       "62b916efd3248dd12ccb",
       "c944cc698ca3dfd70ec6",
+      "b853cd77f81c66b56636",
       "261df65e4bed24c1da2f",
       "0a6a598d607be5d1c162"
     ],
@@ -16114,11 +16902,11 @@ const EVENT_DATA = {
       "66b358c9f5adcc7972d9",
       "f12085e8fb8a9c6c37fd",
       "10a807dbf020115a473f",
+      "81f1190433cb049b2da2",
       "9e2b6f889088611db9ed",
       "1c103348277a2ba254f6",
       "9e19e0e9f0f7357c193b",
-      "74a343d810272bcade3a",
-      "5b010184eeba761a9fd7"
+      "74a343d810272bcade3a"
     ],
     "AAPL": [
       "936d88911278db315ec0",
@@ -16130,89 +16918,32 @@ const EVENT_DATA = {
       "4a50c58ef79c47b80bde",
       "e7ffd7ef8646b89eb67f",
       "2b49f3b84ef220e51323",
-      "972a5f8a7fe157a478d9",
-      "dd5f17c57dc99608b9b2"
+      "972a5f8a7fe157a478d9"
     ],
     "QCOM": [
       "936d88911278db315ec0",
       "ff2eb1eb0dfc36d120b8",
       "c9fb3a5275a1adab6d0c",
       "d33fc914f9bbe3149b2e",
-      "ddc498e28710dbcbbedb",
-      "2a62ff9b78ee18f9459e",
-      "ee66bc5a69428ce051ee",
-      "e394f2f2a0c2977f339d"
+      "ddc498e28710dbcbbedb"
     ],
     "WDC": [
       "936d88911278db315ec0",
       "59198ef30c9489edce5c",
       "8e99cde91279342fe095",
+      "b5ac926ef185c3fc6f5a",
       "d83aff1ebb3ad529cf90",
       "a9fc2c6fcee8f801d794",
       "cbe9d8eb4003b9eb6ca9",
       "957e33e5ddd8565cc777",
-      "24b2324e3adadafed221",
-      "851e3639d85604b93bca"
+      "24b2324e3adadafed221"
     ],
     "ANET": [
       "82debcfabdfadbc57d89",
       "36e9573aaa1cb8dae88d"
     ],
-    "VST": [
-      "564924f0ec80e54ac6e6",
-      "e01287a0ee0888a14d16",
-      "919e47878dae6f069d71",
-      "7f85fac5e9c769472145",
-      "157219626e0c154a40ad"
-    ],
-    "MSFT": [
-      "647268a1ae5381003afe",
-      "f20046d1524e1e46c369",
-      "05e05c7819322ec51447",
-      "1dfde99a633a1f24f312",
-      "9e2b6f889088611db9ed",
-      "ccd63433aa056ab856db",
-      "e702ffcb9fb09534d535",
-      "c5cf761e83894382be05"
-    ],
-    "TSLA": [
-      "71d150723dca23fbe3f8",
-      "0405e689846c8d38de6d",
-      "b0217c794322d8040f86",
-      "cb06c33ccc0e3e4e0b3c",
-      "274a48513430d3a625c8"
-    ],
-    "LITE": [
-      "d4b66a9978dbfea020ab",
-      "d7e2b9fc3fa2509620fa",
-      "cddbb666eaad35f5ea07",
-      "f37cc59256cc5fd85496",
-      "38d7241ba3dd84f22e73",
-      "d77dd36955dddea615a2"
-    ],
-    "COHR": [
-      "6983b352153d3b458e14",
-      "cddbb666eaad35f5ea07",
-      "c48a90c3ebe75a85acd9",
-      "159efe2c95ce7f7f8f36",
-      "7ccdcc4b96e15049cb33",
-      "6486fbafd9e8aa23a642",
-      "22d43ea119d6eb4f0a10",
-      "7417e25773267adf20a9"
-    ],
-    "TSM": [
-      "f1cc1da7ac46289240c2",
-      "b33a3085aa987ce766de",
-      "160ab68d66eb78c1da91",
-      "b94df8bfc37bb3ab2a65",
-      "ccd63433aa056ab856db",
-      "fcfb580fbf09db337569"
-    ],
-    "ETN": [
-      "2c2b67af7865a01bdc07",
-      "1820f960cfd967dd442b"
-    ],
     "AMAT": [
+      "2e59ff4c9a3f1304342c",
       "2047cf755050a4c3f3c7",
       "6939a40cb75660d05df0",
       "a647a6ac89b48f90bac2",
@@ -16224,9 +16955,71 @@ const EVENT_DATA = {
       "6fd710c45a5f0d8e9b6b",
       "b0217c794322d8040f86",
       "8b32775036a2f1bd26bf",
+      "1eb3897c85f78df77466",
       "fb9cada5edd23c776102",
       "f1ef79ef449f3c4158f5",
       "947b4f4a9a39cf74a2f6"
+    ],
+    "VST": [
+      "564924f0ec80e54ac6e6",
+      "e01287a0ee0888a14d16",
+      "919e47878dae6f069d71",
+      "7f85fac5e9c769472145",
+      "157219626e0c154a40ad",
+      "3590ae64ba75ef6c4e10"
+    ],
+    "MSFT": [
+      "647268a1ae5381003afe",
+      "f20046d1524e1e46c369",
+      "05e05c7819322ec51447",
+      "1dfde99a633a1f24f312",
+      "9e2b6f889088611db9ed",
+      "ccd63433aa056ab856db",
+      "e702ffcb9fb09534d535"
+    ],
+    "TSLA": [
+      "71d150723dca23fbe3f8",
+      "0405e689846c8d38de6d",
+      "b0217c794322d8040f86",
+      "cb06c33ccc0e3e4e0b3c",
+      "274a48513430d3a625c8"
+    ],
+    "LITE": [
+      "d4b66a9978dbfea020ab",
+      "6c5e1c93ecb7dc96dc6e",
+      "d7e2b9fc3fa2509620fa",
+      "cddbb666eaad35f5ea07",
+      "f37cc59256cc5fd85496",
+      "38d7241ba3dd84f22e73",
+      "d77dd36955dddea615a2",
+      "c034a4cec92feb979458"
+    ],
+    "COHR": [
+      "6983b352153d3b458e14",
+      "cddbb666eaad35f5ea07",
+      "c48a90c3ebe75a85acd9",
+      "a569bcdbdc06e58f6f0b",
+      "159efe2c95ce7f7f8f36",
+      "7ccdcc4b96e15049cb33",
+      "6486fbafd9e8aa23a642",
+      "22d43ea119d6eb4f0a10",
+      "7417e25773267adf20a9",
+      "a1a151634101bb46047f"
+    ],
+    "TSM": [
+      "f1cc1da7ac46289240c2",
+      "b33a3085aa987ce766de",
+      "f7beb34b8c4ab4d90ad5",
+      "160ab68d66eb78c1da91",
+      "b94df8bfc37bb3ab2a65",
+      "ccd63433aa056ab856db",
+      "7154ba9075f3fb096448",
+      "3df7c4c53d2030407c4b",
+      "e6bbd93755feb2a10bc4"
+    ],
+    "ETN": [
+      "2c2b67af7865a01bdc07",
+      "1820f960cfd967dd442b"
     ],
     "ASML": [
       "38b77cf95b1818eab8a4",
@@ -16236,8 +17029,7 @@ const EVENT_DATA = {
     ],
     "LRCX": [
       "ae1d0890eb1e81b6ac3e",
-      "eac6af73eb5b7c9d5eed",
-      "466cbe56f2dde46b1394"
+      "eac6af73eb5b7c9d5eed"
     ],
     "STX": [
       "bf526f71edcb59ccd854",
@@ -16254,7 +17046,7 @@ const EVENT_DATA = {
       "741cd2c933964ed84e9a",
       "29ab68548377ce8754a2",
       "36e9573aaa1cb8dae88d",
-      "ae5ecae31203183b779b"
+      "9763781dbb5a08504fd7"
     ],
     "FIX": [
       "824ac9c4bd376b3c82d2"
@@ -16282,6 +17074,8 @@ const EVENT_DATA = {
       "0b7329bb39af563ea655",
       "ff63299dd3c6a0f9ea21",
       "6fc436f12633afe7242a",
+      "a652c982b0bd43af2d1a",
+      "2b05b759ccf41af4ed39",
       "caf1f4262913095e2603",
       "3c173510c4bf5d9487e8",
       "d6a8f095f7cdaeffff64",
@@ -16291,7 +17085,8 @@ const EVENT_DATA = {
       "6d4b64e0156b5fb8544c",
       "36e9573aaa1cb8dae88d",
       "12f994e4f2ddb8465c2a",
-      "1a66c340f3964c4a6f63"
+      "7a8b07c948fde9d90056",
+      "842b1c34ef9e0f1678cb"
     ],
     "PLTR": [
       "5396773454a2abae6e25",
@@ -16301,8 +17096,7 @@ const EVENT_DATA = {
       "5276eb10acfa1ed513bf",
       "35027e48c3ea614f718c",
       "648639544ef74cadd5d9",
-      "12f994e4f2ddb8465c2a",
-      "43c29d00433caad54608"
+      "12f994e4f2ddb8465c2a"
     ],
     "PWR": [
       "55d7748c185d95b82748"
