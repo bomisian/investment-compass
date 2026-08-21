@@ -49,21 +49,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7029998302459717,
+      "current": 3.703000068664551,
       "prevClose": 3.700000047683716,
-      "changeAbs": 0.0029997825622558594,
-      "changePct": 0.08107520334043757,
+      "changeAbs": 0.003000020980834961,
+      "changePct": 0.08108164708573563,
       "pctRank": 35.93625498007968,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
       "high1y": 4.127999782562256,
-      "drawdown1y": -10.295542022836202,
-      "ma20": 3.7170999884605407,
-      "ma60": 3.685016663869222,
-      "chg1m": -0.04200005531311035,
-      "chg3m": 0.14599990844726562,
-      "chg1mPct": -1.1214968383594561,
-      "chg3mPct": 4.104580029718873,
+      "drawdown1y": -10.295536247192027,
+      "ma20": 3.71710000038147,
+      "ma60": 3.685016667842865,
+      "chg1m": -0.04199981689453125,
+      "chg3m": 0.14600014686584473,
+      "chg1mPct": -1.1214904720420626,
+      "chg3mPct": 4.104586732518546,
       "lastDate": "2026-08-20",
       "bars": 1255,
       "symbol": "^IRX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 86.38999938964844,
+      "current": 86.18000030517578,
       "prevClose": 87.83000183105469,
-      "changeAbs": -1.44000244140625,
-      "changePct": -1.6395336575036914,
-      "pctRank": 77.56563245823389,
+      "changeAbs": -1.6500015258789062,
+      "changePct": -1.878630868131786,
+      "pctRank": 77.40652346857597,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -23.514828044452727,
-      "ma20": 82.15649948120117,
-      "ma60": 81.0875,
-      "chg1m": -5.8000030517578125,
-      "chg3m": -9.959999084472656,
-      "chg1mPct": -6.291357954398749,
-      "chg3mPct": -10.337311097257402,
+      "drawdown1y": -23.70075021368384,
+      "ma20": 82.14599952697753,
+      "ma60": 81.0840000152588,
+      "chg1m": -6.010002136230469,
+      "chg3m": -10.169998168945312,
+      "chg1mPct": -6.519147388080699,
+      "chg3mPct": -10.555265521542172,
       "lastDate": "2026-08-21",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.74199676513672,
+      "current": 98.76100158691406,
       "prevClose": 98.9000015258789,
-      "changeAbs": -0.1580047607421875,
-      "changePct": -0.15976214186492485,
-      "pctRank": 23.627684964200476,
+      "changeAbs": -0.13899993896484375,
+      "changePct": -0.14054594218431027,
+      "pctRank": 23.707239459029434,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.822560602290425,
-      "ma20": 99.88210029602051,
-      "ma60": 100.32286694844564,
-      "chg1m": -2.6880035400390625,
-      "chg3m": -0.44800567626953125,
-      "chg1mPct": -2.6501070018254738,
-      "chg3mPct": -0.45166414481558076,
+      "drawdown1y": -2.8038569100719557,
+      "ma20": 99.88305053710937,
+      "ma60": 100.32318369547527,
+      "chg1m": -2.6689987182617188,
+      "chg3m": -0.4290008544921875,
+      "chg1mPct": -2.631370117550443,
+      "chg3mPct": -0.43250412736465843,
       "lastDate": "2026-08-21",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4594.0,
+      "current": 4591.2001953125,
       "prevClose": 4516.2998046875,
-      "changeAbs": 77.7001953125,
-      "changePct": 1.720439268266788,
-      "pctRank": 94.11296738265712,
+      "changeAbs": 74.900390625,
+      "changePct": 1.6584459372528888,
+      "pctRank": 94.03341288782816,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -13.620636199705782,
-      "ma20": 4276.674963378906,
-      "ma60": 4212.4149983723955,
-      "chg1m": 547.39990234375,
-      "chg3m": 54.2001953125,
-      "chg1mPct": 13.527402983576225,
-      "chg3mPct": 1.1938895467711248,
+      "drawdown1y": -13.673279941036077,
+      "ma20": 4276.534973144531,
+      "ma60": 4212.368334960937,
+      "chg1m": 544.60009765625,
+      "chg3m": 51.400390625,
+      "chg1mPct": 13.458213920660874,
+      "chg3mPct": 1.1322171204978537,
       "lastDate": "2026-08-21",
       "bars": 1257,
       "symbol": "GC=F",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 0.9930002689361572,
+  "yieldSpread": 0.9930000305175781,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -254,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "마이크론 CEO, 메모리 하락세에 대해 반박. Cramer의 대규모 인터뷰에서 얻은 3가지 핵심 내용"
     },
     {
-      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-      "datetime": 1787266132,
-      "headlineKo": "중국, 러시아산 원유 수입 늘려 인도 정유업체에 타격 - Reuters"
-    },
-    {
       "headline": "US envoy Huckabee tells Israeli settlers not to take Palestinian Americans' land - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNk15eGo2WTQ2MFVpa1ViTEt2aFhNMUd5OU0ybFNGanlqbFhPVzhOTlhOTU94MXM5MTc5M2lVRk1yYmhYYzMxR3NiZGdaS1NVWTlXTTFEaWZVRFF6TUozRUdTTnl4WUxxVGhjelJ0QTVIc0pRQnlPSUlncGRROWs4d3J1a0hCdmNTeHdwRWNNS0ZoYzJLeUQ0OW1vLWhEclZtVS1sYTl0bEoyaWN5a2tDQ2xGWnk2dGpPV3ZTSGU0UXZRSW9uNm5hd05n?oc=5",
       "datetime": 1787260945,
       "headlineKo": "허커비 미국 대사, 이스라엘 정착민들에게 팔레스타인계 미국인 땅을 빼앗지 말라고 지시 - 로이터 통신"
+    },
+    {
+      "headline": "China boosts imports of Russian crude, stymieing India's refiners - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+      "datetime": 1787259623,
+      "headlineKo": "중국, 러시아산 원유 수입 늘려 인도 정유업체에 타격 - Reuters"
     },
     {
       "headline": "Harry and Meghan: Their life together in photos - Reuters",
@@ -282,13 +282,6 @@ const MARKET_DATA = {
       "headlineKo": "LA 레이커스가 125억 달러에 매각됐다. 현재 모든 NBA 팀의 가치는 다음과 같습니다."
     },
     {
-      "headline": "Oil settles up more than 2% after Trump threatens countries supporting Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
-      "datetime": 1787257152,
-      "headlineKo": "트럼프가 이란을 지원하는 국가들을 위협한 후 유가는 2% 이상 상승했습니다 - Reuters"
-    },
-    {
       "headline": "Hyundai to increase U.S. production at new Georgia plant, CEO tells CNBC",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/20/hyundai-georgia-metaplant-us-production.html",
@@ -301,16 +294,23 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaTBkRFJMMmRQcUtXVlRSS01DTjdnZnVCZkZ2d0k5VkJ1QVQtOHRrOXR2RnNuZWRiMFBsMEMwT0JqV3VkUTJ6QlRnaUJrQXZRRXZUSlZvcy1ONWlqb3E4ZUxzcUZwV29BSU9qYUhwR1NSQmwyR1l3eGRseGJKSEhaYmE4RUxkbkNlOWs2U2tiZ2tTaUJYa0JoWmRTcnBidTZWNHYzeklGblFwcE5WSE9HdFNpTTBNQldaZG12N3NVNTRzMDBYcEVTMUhR?oc=5",
       "datetime": 1787250015,
       "headlineKo": "미국, 이란 정부와의 관계 강조하며 새로운 제재로 헤즈볼라 공격 - 로이터 통신"
+    },
+    {
+      "headline": "We're adding two new stocks to our Bullpen watchlist",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/20/were-adding-two-new-stocks-to-our-bullpen-watchlist.html",
+      "datetime": 1787248755,
+      "headlineKo": "Bullpen 관심 목록에 두 개의 새로운 주식을 추가합니다."
     }
   ],
   "fgi": {
     "score": 52.4571428571429,
     "rating": "neutral"
   },
-  "_fetched_at": 1787285965.395871,
-  "_updated_label": "2026-08-21 13:19",
-  "_last_attempt_at": 1787285965.395871,
-  "_last_success_at": 1787285965.395871,
+  "_fetched_at": 1787289622.1367881,
+  "_updated_label": "2026-08-21 14:20",
+  "_last_attempt_at": 1787289622.1367881,
+  "_last_success_at": 1787289622.1367881,
   "_collection_status": "ok",
   "_collection_errors": []
 };
