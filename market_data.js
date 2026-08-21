@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
-      "datetime": 1787345086,
+      "datetime": 1787353134,
       "headlineKo": "월 스트리트는 당일 상승하고 주중에는 하락합니다. 채권수익률과 이란에 주목 - Reuters"
     },
     {
@@ -268,6 +268,13 @@ const MARKET_DATA = {
       "headlineKo": "터키, 가자 소함대 사건에서 네타냐후에 대해 인터폴 통지 요청 - 로이터 통신"
     },
     {
+      "headline": "Iran-linked oil tanker falls victim to Somali piracy surge - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlBmdExCTDN4OFl6N05iSGtIRlNWVWFvUFpjSVQwdVFWQkl1aTBrQVl2R1NJTmViMERuSXJFZ3NtRXVHZ1JTZ1RBMDIxZzFrN01kT212NlNhYkg3NThNdVZwbnota0ZWMHFEaXkycFBZTG0wUDNXTXpVOHZleUx3a3dMWjN6RGM3YWZMaTJfQV9sRjlobEJILWQwQXczYjdCZ19fbGlYZTVYQUJ2VGc?oc=5",
+      "datetime": 1787326114,
+      "headlineKo": "이란 관련 유조선, 소말리아 불법 복제 급증 - 로이터 통신"
+    },
+    {
       "headline": "Iran says Tehran must overcome 'unjust sanctions' as US ramps up economic pressure - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
@@ -282,35 +289,28 @@ const MARKET_DATA = {
       "headlineKo": "Ken Griffin은 Citadel이 상황 인식 포트폴리오와 관련된 위험의 80% 이상을 해소했다고 말했습니다."
     },
     {
+      "headline": "Across Tehran, billboards threaten Trump, Israel - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTHlSZF9yRWg5VUF5TXFNTEprQW5QNUFFTmVGVVVsTWxxcDgxWS1QLTNOTVNZaWZablljSWpselpTUmstV2cxT0lzejN2RUJXcjVfdTRTMl9SWlJEa0xIRDFIMDMwUFdXdUdTWURHVENaZzdSMTRxZ29TUG1fRVlKRjdZUXQ5djFTcFlZQ3pWOWFIak43Snc?oc=5",
+      "datetime": 1787318940,
+      "headlineKo": "테헤란 전역, 트럼프와 이스라엘을 위협하는 광고판 - 로이터"
+    },
+    {
       "headline": "Here are the top 10 things we're watching in the stock market Friday",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/here-are-the-top-10-things-were-watching-in-the-stock-market-friday.html",
       "datetime": 1787317176,
       "headlineKo": "금요일 주식 시장에서 우리가 주목하는 상위 10가지 항목은 다음과 같습니다."
-    },
-    {
-      "headline": "South African rand hits strongest level since start of Iran war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHZPRld0NlUwNUZsYlNzalpPUEdZNHR0dU9VaWRDVmt5WDNaNDJpdm1ranFOdHM5WVdoOVcxaUZuLXVtV19zT3kxNEFaMEFlQ2JsVXhnTVBJcGZ1a3FtT0lQQjVUeXd5SDNuM1lxLU5FZmE5dzVvTlB6eHc1Q2R4aUxlSTVNYjVxbEt1b29kM2lNRUJKeFpjMS1uY2hCa1RyOGxyZGNpRlptTnU3M3ViWXRIS2NoZzFBZGRHeVpDMnE5T3c?oc=5",
-      "datetime": 1787316396,
-      "headlineKo": "남아프리카공화국 랜드화, 이란 전쟁 개시 이후 가장 높은 수준 기록 - 로이터"
-    },
-    {
-      "headline": "Wall Street's existential crisis over perpetual futures — the 24/7 security on steroids — just got urgent",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/wall-streets-existential-crisis-over-perpetual-futures-the-24/7-security-on-steroids-just-got-urgent.html",
-      "datetime": 1787315552,
-      "headlineKo": "영구 미래에 대한 월스트리트의 실존적 위기(스테로이드에 대한 연중무휴 24시간 보안)가 시급해졌습니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787352574.2309587,
-  "_updated_label": "2026-08-22 07:49",
-  "_last_attempt_at": 1787352574.2309587,
-  "_last_success_at": 1787352574.2309587,
+  "_fetched_at": 1787356225.202338,
+  "_updated_label": "2026-08-22 08:50",
+  "_last_attempt_at": 1787356225.202338,
+  "_last_success_at": 1787356225.202338,
   "_collection_status": "ok",
   "_collection_errors": []
 };
