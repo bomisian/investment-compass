@@ -2,21 +2,29 @@
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
   "modelVersion": "fundamental-v1.2",
-  "generatedAt": 1787300593.2126226,
+  "generatedAt": 1787304277.7341046,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.7,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.33,
       "priceDamage": 11.0,
-      "fundamentalDamage": 21.6,
+      "fundamentalDamage": 30.8,
       "thesisDamage": 70.0,
       "thesisStatus": "damaged",
-      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
+      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
           "score": 14.513333666666666,
@@ -42,6 +50,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 17.8256,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 4,
+        "aiInferences": 4
       },
       "evidence": [
         {
@@ -105,7 +139,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 14.5,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -117,7 +151,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 16.8,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -129,7 +163,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": -3.9,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -137,9 +171,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 24.7,
-        "base": 37.7,
-        "bear": 37.6
+        "bull": 25.4,
+        "base": 37.3,
+        "bear": 37.3
       },
       "alerts": [],
       "businessProfile": {
@@ -210,9 +244,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 400.0,
         "analystTargetHigh": 870.0,
         "evidenceWeights": {
-          "bull": 24.7,
-          "base": 37.7,
-          "bear": 37.6
+          "bull": 25.4,
+          "base": 37.3,
+          "bear": 37.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -230,17 +264,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 9.7,
-          "confidence": 70.0,
-          "fundamentalDamage": 21.6,
+          "confidence": 100,
+          "fundamentalDamage": 30.8,
           "thesisDamage": 70.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 24.7,
-            "base": 37.7,
-            "bear": 37.6
+            "bull": 25.4,
+            "base": 37.3,
+            "bear": 37.3
           },
           "currentPrice": 481.7799987792969,
           "valuationGap": -0.1639,
@@ -253,7 +287,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -271,11 +305,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 15.4,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.41,
       "priceDamage": 13.5,
       "fundamentalDamage": 0,
@@ -307,6 +349,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 19.4703,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -408,7 +476,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 14.9,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -420,7 +488,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 20.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -432,7 +500,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 14.7,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -440,9 +508,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.1,
-        "base": 39.3,
-        "bear": 26.6
+        "bull": 34.7,
+        "base": 38.9,
+        "bear": 26.4
       },
       "alerts": [],
       "businessProfile": {
@@ -565,9 +633,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 340.0,
         "analystTargetHigh": 515.0,
         "evidenceWeights": {
-          "bull": 34.1,
-          "base": 39.3,
-          "bear": 26.6
+          "bull": 34.7,
+          "base": 38.9,
+          "bear": 26.4
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -585,17 +653,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 15.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 34.1,
-            "base": 39.3,
-            "bear": 26.6
+            "bull": 34.7,
+            "base": 38.9,
+            "bear": 26.4
           },
           "currentPrice": 341.4800109863281,
           "valuationGap": 0.3892,
@@ -608,7 +676,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -626,11 +694,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 1.5,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.13,
       "priceDamage": 4.3,
       "fundamentalDamage": 0,
@@ -663,6 +739,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "Alphabet, Amazon, Meta Platform 및 Microsoft: 이러한 주식 중 하나는 향후 12개월 동안 상승 여력이 가장 적은 것처럼 보이지만 문제가 있습니다.",
@@ -691,7 +784,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 0.9,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -703,7 +796,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "weakening",
           "score": -18.3,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -715,7 +808,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.8,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -723,9 +816,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 30.8,
-        "base": 40.5,
-        "bear": 28.7
+        "bull": 31.4,
+        "base": 40.1,
+        "bear": 28.5
       },
       "alerts": [],
       "businessProfile": {
@@ -772,9 +865,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 230.0,
         "analystTargetHigh": 405.0,
         "evidenceWeights": {
-          "bull": 30.8,
-          "base": 40.5,
-          "bear": 28.7
+          "bull": 31.4,
+          "base": 40.1,
+          "bear": 28.5
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -792,17 +885,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 1.5,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 30.8,
-            "base": 40.5,
-            "bear": 28.7
+            "bull": 31.4,
+            "base": 40.1,
+            "bear": 28.5
           },
           "currentPrice": 262.4750061035156,
           "valuationGap": 0.1861,
@@ -815,7 +908,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -833,14 +926,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.3,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -1.73,
       "priceDamage": 57.8,
-      "fundamentalDamage": 6.8,
+      "fundamentalDamage": 9.7,
       "thesisDamage": 0,
       "thesisStatus": "intact",
       "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
@@ -869,6 +970,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 9.267299999999999,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 5,
+        "aiInferences": 5
       },
       "evidence": [
         {
@@ -943,7 +1070,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 10.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -955,7 +1082,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 12.6,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -967,7 +1094,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.1,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -975,9 +1102,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.8,
-        "base": 39.7,
-        "bear": 27.5
+        "bull": 33.4,
+        "base": 39.3,
+        "bear": 27.3
       },
       "alerts": [],
       "businessProfile": {
@@ -1064,9 +1191,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 580.0,
         "analystTargetHigh": 1000.0,
         "evidenceWeights": {
-          "bull": 32.8,
-          "base": 39.7,
-          "bear": 27.5
+          "bull": 33.4,
+          "base": 39.3,
+          "bear": 27.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -1084,17 +1211,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 9.3,
-          "confidence": 70.0,
-          "fundamentalDamage": 6.8,
+          "confidence": 100,
+          "fundamentalDamage": 9.7,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.8,
-            "base": 39.7,
-            "bear": 27.5
+            "bull": 33.4,
+            "base": 39.3,
+            "bear": 27.3
           },
           "currentPrice": 543.7100219726562,
           "valuationGap": -0.064,
@@ -1107,7 +1234,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -1125,11 +1252,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 8.4,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.1,
       "priceDamage": 3.4,
       "fundamentalDamage": 0,
@@ -1161,6 +1296,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 0.6904000000000003,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -1266,7 +1418,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 15.8,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -1278,7 +1430,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 15.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -1290,7 +1442,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": -3.0,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -1298,9 +1450,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 27.7,
-        "base": 38.6,
-        "bear": 33.7
+        "bull": 28.3,
+        "base": 38.2,
+        "bear": 33.5
       },
       "alerts": [],
       "businessProfile": {
@@ -1387,9 +1539,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 215.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 27.7,
-          "base": 38.6,
-          "bear": 33.7
+          "bull": 28.3,
+          "base": 38.2,
+          "bear": 33.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -1407,17 +1559,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 8.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 42.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 27.7,
-            "base": 38.6,
-            "bear": 33.7
+            "bull": 28.3,
+            "base": 38.2,
+            "bear": 33.5
           },
           "currentPrice": 317.0899963378906,
           "valuationGap": -0.0763,
@@ -1430,7 +1582,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -1448,11 +1600,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 14.2,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 1.33,
       "priceDamage": 44.3,
       "fundamentalDamage": 0,
@@ -1485,6 +1645,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "Tesla Optimus 라이벌 Unitree Robotics, 상하이 데뷔에서 629% 폭발, 일시적으로 660억 달러 가치 달성",
@@ -1513,7 +1699,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 14.8,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -1525,7 +1711,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 56.8,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -1537,7 +1723,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.3,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -1545,9 +1731,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.6,
-        "base": 39.5,
-        "bear": 26.9
+        "bull": 34.1,
+        "base": 39.2,
+        "bear": 26.7
       },
       "alerts": [],
       "businessProfile": {
@@ -1604,9 +1790,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 125.0,
         "analystTargetHigh": 600.0,
         "evidenceWeights": {
-          "bull": 33.6,
-          "base": 39.5,
-          "bear": 26.9
+          "bull": 34.1,
+          "base": 39.2,
+          "bear": 26.7
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -1624,17 +1810,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 14.2,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.6,
-            "base": 39.5,
-            "bear": 26.9
+            "bull": 34.1,
+            "base": 39.2,
+            "bear": 26.7
           },
           "currentPrice": 344.260009765625,
           "valuationGap": -0.1813,
@@ -1647,7 +1833,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -1665,11 +1851,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 28.7,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.24,
       "priceDamage": 7.9,
       "fundamentalDamage": 0,
@@ -1701,6 +1895,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": -7.078300000000002,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 6,
+        "aiInferences": 6
       },
       "evidence": [
         {
@@ -1782,7 +2002,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 47.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -1794,7 +2014,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -1806,7 +2026,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": -2.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -1814,9 +2034,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 37.0,
-        "base": 38.3,
-        "bear": 24.7
+        "bull": 37.6,
+        "base": 37.9,
+        "bear": 24.5
       },
       "alerts": [],
       "businessProfile": {
@@ -1940,9 +2160,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 110.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 37.0,
-          "base": 38.3,
-          "bear": 24.7
+          "bull": 37.6,
+          "base": 37.9,
+          "bear": 24.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -1960,17 +2180,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 28.7,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 37.0,
-            "base": 38.3,
-            "bear": 24.7
+            "bull": 37.6,
+            "base": 37.9,
+            "bear": 24.5
           },
           "currentPrice": 142.14999389648438,
           "valuationGap": -0.2622,
@@ -1983,7 +2203,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2001,11 +2221,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.7,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 1.67,
       "priceDamage": 55.5,
       "fundamentalDamage": 0,
@@ -2038,6 +2266,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
@@ -2066,7 +2311,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 6.4,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2078,7 +2323,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.9,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2090,7 +2335,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.2,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2098,9 +2343,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.6,
-        "base": 39.8,
-        "bear": 27.6
+        "bull": 33.2,
+        "base": 39.5,
+        "bear": 27.3
       },
       "alerts": [],
       "businessProfile": {
@@ -2166,9 +2411,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 160.0,
         "analystTargetHigh": 475.0,
         "evidenceWeights": {
-          "bull": 32.6,
-          "base": 39.8,
-          "bear": 27.6
+          "bull": 33.2,
+          "base": 39.5,
+          "bear": 27.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2186,17 +2431,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 9.7,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.6,
-            "base": 39.8,
-            "bear": 27.6
+            "bull": 33.2,
+            "base": 39.5,
+            "bear": 27.3
           },
           "currentPrice": 207.42999267578125,
           "valuationGap": -0.0888,
@@ -2209,7 +2454,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -2227,11 +2472,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 34.3,
-      "confidence": 60.0,
+      "confidence": 90.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.93,
       "priceDamage": 31.0,
       "fundamentalDamage": 0,
@@ -2263,6 +2516,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 20.0,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -2304,7 +2583,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 35.2,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2316,7 +2595,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 62.0,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2328,7 +2607,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.4,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2336,9 +2615,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 38.1,
-        "base": 38.0,
-        "bear": 23.9
+        "bull": 38.6,
+        "base": 37.7,
+        "bear": 23.7
       },
       "alerts": [],
       "businessProfile": {
@@ -2401,9 +2680,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 80.0,
         "analystTargetHigh": 255.0,
         "evidenceWeights": {
-          "bull": 38.1,
-          "base": 38.0,
-          "bear": 23.9
+          "bull": 38.6,
+          "base": 37.7,
+          "bear": 23.7
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2421,17 +2700,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 34.3,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 38.1,
-            "base": 38.0,
-            "bear": 23.9
+            "bull": 38.6,
+            "base": 37.7,
+            "bear": 23.7
           },
           "currentPrice": 175.60000610351562,
           "valuationGap": -0.3075,
@@ -2444,7 +2723,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -2462,11 +2741,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 28.1,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.4,
       "priceDamage": 13.4,
       "fundamentalDamage": 0,
@@ -2498,6 +2785,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 19.6103,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -2599,7 +2903,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 49.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2611,7 +2915,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 49.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2623,7 +2927,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.5,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2631,9 +2935,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 36.9,
-        "base": 38.3,
-        "bear": 24.8
+        "bull": 37.4,
+        "base": 38.1,
+        "bear": 24.5
       },
       "alerts": [],
       "businessProfile": {
@@ -2766,9 +3070,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 180.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 36.9,
-          "base": 38.3,
-          "bear": 24.8
+          "bull": 37.4,
+          "base": 38.1,
+          "bear": 24.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2786,17 +3090,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 28.1,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 36.9,
-            "base": 38.3,
-            "bear": 24.8
+            "bull": 37.4,
+            "base": 38.1,
+            "bear": 24.5
           },
           "currentPrice": 217.3000030517578,
           "valuationGap": -0.3072,
@@ -2809,7 +3113,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2827,11 +3131,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 40.9,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.9,
       "priceDamage": 29.9,
       "fundamentalDamage": 0,
@@ -2863,6 +3175,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 19.568,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -2964,7 +3302,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 78.8,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2976,7 +3314,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2988,7 +3326,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.5,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2996,9 +3334,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 39.8,
-        "base": 37.4,
-        "bear": 22.8
+        "bull": 40.3,
+        "base": 37.1,
+        "bear": 22.6
       },
       "alerts": [],
       "businessProfile": {
@@ -3095,9 +3433,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 365.0,
         "analystTargetHigh": 1250.0,
         "evidenceWeights": {
-          "bull": 39.8,
-          "base": 37.4,
-          "bear": 22.8
+          "bull": 40.3,
+          "base": 37.1,
+          "bear": 22.6
         },
         "integratedRead": "실적 기준 보수 가격 이하이면서 펀더멘털 훼손이 크지 않아 가격 부담이 낮은 후보입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -3115,17 +3453,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 40.9,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 39.8,
-            "base": 37.4,
-            "bear": 22.8
+            "bull": 40.3,
+            "base": 37.1,
+            "bear": 22.6
           },
           "currentPrice": 464.1619873046875,
           "valuationGap": -0.5111,
@@ -3138,7 +3476,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3156,14 +3494,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 24.5,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -1.61,
       "priceDamage": 53.6,
-      "fundamentalDamage": 14.4,
+      "fundamentalDamage": 20.6,
       "thesisDamage": 98.0,
       "thesisStatus": "damaged",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -3192,6 +3538,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 13.3382,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -3296,7 +3668,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 50.9,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -3308,7 +3680,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 39.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -3320,7 +3692,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "weakening",
           "score": -12.7,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -3328,9 +3700,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 24.5,
-        "base": 35.7,
-        "bear": 39.8
+        "bull": 25.1,
+        "base": 35.4,
+        "bear": 39.5
       },
       "alerts": [],
       "businessProfile": {
@@ -3417,9 +3789,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 215.88,
         "analystTargetHigh": 675.0,
         "evidenceWeights": {
-          "bull": 24.5,
-          "base": 35.7,
-          "bear": 39.8
+          "bull": 25.1,
+          "base": 35.4,
+          "bear": 39.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -3437,17 +3809,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 24.5,
-          "confidence": 70.0,
-          "fundamentalDamage": 14.4,
+          "confidence": 100,
+          "fundamentalDamage": 20.6,
           "thesisDamage": 98.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 24.5,
-            "base": 35.7,
-            "bear": 39.8
+            "bull": 25.1,
+            "base": 35.4,
+            "bear": 39.5
           },
           "currentPrice": 363.8299865722656,
           "valuationGap": -0.4048,
@@ -3460,7 +3832,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -3478,11 +3850,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 12.2,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.46,
       "priceDamage": 15.4,
       "fundamentalDamage": 0,
@@ -3514,6 +3894,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 9.781099999999999,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 5,
+        "aiInferences": 5
       },
       "evidence": [
         {
@@ -3587,7 +3993,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 13.0,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -3599,7 +4005,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.4,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -3611,7 +4017,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -3619,9 +4025,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.4,
-        "base": 39.5,
-        "bear": 27.1
+        "bull": 34.0,
+        "base": 39.1,
+        "bear": 26.9
       },
       "alerts": [],
       "businessProfile": {
@@ -3756,9 +4162,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 100.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 33.4,
-          "base": 39.5,
-          "bear": 27.1
+          "bull": 34.0,
+          "base": 39.1,
+          "bear": 26.9
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -3776,17 +4182,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 12.2,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 33.4,
-            "base": 39.5,
-            "bear": 27.1
+            "bull": 34.0,
+            "base": 39.1,
+            "bear": 26.9
           },
           "currentPrice": 163.63999938964844,
           "valuationGap": 0.0315,
@@ -3799,7 +4205,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3817,11 +4223,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 25.3,
-      "confidence": 60.0,
+      "confidence": 73.5,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.78,
       "priceDamage": 26.1,
       "fundamentalDamage": 0,
@@ -3853,6 +4267,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 19.9784,
           "applicable": true
         }
+      },
+      "officialEvidence": [],
+      "evidenceSummary": {
+        "confirmedFacts": 0,
+        "credibleReports": 0,
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -3894,7 +4315,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 27.1,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -3906,7 +4327,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -3918,7 +4339,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.7,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -3926,9 +4347,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 36.1,
-        "base": 38.6,
-        "bear": 25.3
+        "bull": 36.3,
+        "base": 38.5,
+        "bear": 25.2
       },
       "alerts": [],
       "businessProfile": {
@@ -4011,9 +4432,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 125.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 36.1,
-          "base": 38.6,
-          "bear": 25.3
+          "bull": 36.3,
+          "base": 38.5,
+          "bear": 25.2
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -4031,17 +4452,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 25.3,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 36.1,
-            "base": 38.6,
-            "bear": 25.3
+            "bull": 36.3,
+            "base": 38.5,
+            "bear": 25.2
           },
           "currentPrice": 247.99000549316406,
           "valuationGap": -0.272,
@@ -4054,7 +4475,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -4072,11 +4493,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 36.6,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 1.71,
       "priceDamage": 57.0,
       "fundamentalDamage": 0,
@@ -4108,6 +4537,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 15.7984,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -4211,7 +4666,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 53.1,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -4223,7 +4678,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 20.0,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -4235,7 +4690,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -4243,9 +4698,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 38.8,
-        "base": 37.7,
-        "bear": 23.5
+        "bull": 39.3,
+        "base": 37.4,
+        "bear": 23.3
       },
       "alerts": [],
       "businessProfile": {
@@ -4340,9 +4795,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 126.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 38.8,
-          "base": 37.7,
-          "bear": 23.5
+          "bull": 39.3,
+          "base": 37.4,
+          "bear": 23.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -4360,17 +4815,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 36.6,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 38.8,
-            "base": 37.7,
-            "bear": 23.5
+            "bull": 39.3,
+            "base": 37.4,
+            "bear": 23.3
           },
           "currentPrice": 243.07000732421875,
           "valuationGap": -0.3512,
@@ -4383,7 +4838,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -4401,14 +4856,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 8.7,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.62,
       "priceDamage": 20.7,
-      "fundamentalDamage": 45.6,
+      "fundamentalDamage": 65.2,
       "thesisDamage": 35.0,
       "thesisStatus": "damaged",
       "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
@@ -4437,6 +4900,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": -0.9457000000000004,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -4542,7 +5031,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 28.6,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -4554,7 +5043,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -54.2,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -4566,7 +5055,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": -0.3,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -4574,9 +5063,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 28.6,
-        "base": 38.7,
-        "bear": 32.7
+        "bull": 29.2,
+        "base": 38.4,
+        "bear": 32.4
       },
       "alerts": [],
       "businessProfile": {
@@ -4699,9 +5188,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 75.0,
         "analystTargetHigh": 200.0,
         "evidenceWeights": {
-          "bull": 28.6,
-          "base": 38.7,
-          "bear": 32.7
+          "bull": 29.2,
+          "base": 38.4,
+          "bear": 32.4
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -4719,17 +5208,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 8.7,
-          "confidence": 70.0,
-          "fundamentalDamage": 45.6,
+          "confidence": 100,
+          "fundamentalDamage": 65.2,
           "thesisDamage": 35.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 28.6,
-            "base": 38.7,
-            "bear": 32.7
+            "bull": 29.2,
+            "base": 38.4,
+            "bear": 32.4
           },
           "currentPrice": 92.05010223388672,
           "valuationGap": -0.2584,
@@ -4742,7 +5231,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -4760,11 +5249,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 21.6,
-      "confidence": 65.0,
+      "confidence": 78.5,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.24,
       "priceDamage": 7.9,
       "fundamentalDamage": 0,
@@ -4796,6 +5293,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 18.6257,
           "applicable": true
         }
+      },
+      "officialEvidence": [],
+      "evidenceSummary": {
+        "confirmedFacts": 0,
+        "credibleReports": 0,
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
         {
@@ -4848,7 +5352,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 25.9,
-          "confidence": 65.0,
+          "confidence": 78.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -4860,7 +5364,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.6,
-          "confidence": 65.0,
+          "confidence": 78.5,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -4872,7 +5376,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.2,
-          "confidence": 65.0,
+          "confidence": 78.5,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -4880,9 +5384,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 35.4,
-        "base": 38.8,
-        "bear": 25.8
+        "bull": 35.6,
+        "base": 38.7,
+        "bear": 25.7
       },
       "alerts": [],
       "businessProfile": {
@@ -4969,9 +5473,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 440.0,
         "analystTargetHigh": 700.0,
         "evidenceWeights": {
-          "bull": 35.4,
-          "base": 38.8,
-          "bear": 25.8
+          "bull": 35.6,
+          "base": 38.7,
+          "bear": 25.7
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -4989,17 +5493,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 21.6,
-          "confidence": 65.0,
+          "confidence": 78.5,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 35.4,
-            "base": 38.8,
-            "bear": 25.8
+            "bull": 35.6,
+            "base": 38.7,
+            "bear": 25.7
           },
           "currentPrice": 415.7799987792969,
           "valuationGap": -0.2242,
@@ -5012,7 +5516,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -5030,14 +5534,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 18.0,
-      "confidence": 60.0,
+      "confidence": 73.5,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.36,
       "priceDamage": 11.9,
-      "fundamentalDamage": 1.3,
+      "fundamentalDamage": 1.5,
       "thesisDamage": 7.0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -5066,6 +5578,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 16.112099999999998,
           "applicable": true
         }
+      },
+      "officialEvidence": [],
+      "evidenceSummary": {
+        "confirmedFacts": 0,
+        "credibleReports": 0,
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -5107,7 +5626,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 24.5,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -5119,7 +5638,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 30.7,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -5131,7 +5650,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.4,
-          "confidence": 60.0,
+          "confidence": 73.5,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -5139,9 +5658,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.6,
-        "base": 39.0,
-        "bear": 27.4
+        "bull": 33.9,
+        "base": 38.8,
+        "bear": 27.3
       },
       "alerts": [],
       "businessProfile": {
@@ -5196,9 +5715,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 905.1597,
         "analystTargetHigh": 2905.4954,
         "evidenceWeights": {
-          "bull": 33.6,
-          "base": 39.0,
-          "bear": 27.4
+          "bull": 33.9,
+          "base": 38.8,
+          "bear": 27.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5216,17 +5735,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 18.0,
-          "confidence": 60.0,
-          "fundamentalDamage": 1.3,
+          "confidence": 73.5,
+          "fundamentalDamage": 1.5,
           "thesisDamage": 7.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.6,
-            "base": 39.0,
-            "bear": 27.4
+            "bull": 33.9,
+            "base": 38.8,
+            "bear": 27.3
           },
           "currentPrice": 1758.199951171875,
           "valuationGap": -0.2605,
@@ -5239,7 +5758,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -5257,14 +5776,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 12.6,
-      "confidence": 60.0,
+      "confidence": 90.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.85,
       "priceDamage": 28.2,
-      "fundamentalDamage": 9.6,
+      "fundamentalDamage": 14.4,
       "thesisDamage": 42.0,
       "thesisStatus": "damaged",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -5293,6 +5820,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 15.82,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -5333,7 +5886,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 23.8,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -5345,7 +5898,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 8.1,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -5357,7 +5910,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.3,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -5365,9 +5918,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 28.4,
-        "base": 38.3,
-        "bear": 33.3
+        "bull": 29.0,
+        "base": 38.0,
+        "bear": 33.0
       },
       "alerts": [],
       "businessProfile": {
@@ -5422,9 +5975,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 358.0,
         "analystTargetHigh": 900.0,
         "evidenceWeights": {
-          "bull": 28.4,
-          "base": 38.3,
-          "bear": 33.3
+          "bull": 29.0,
+          "base": 38.0,
+          "bear": 33.0
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5442,17 +5995,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 12.6,
-          "confidence": 60.0,
-          "fundamentalDamage": 9.6,
+          "confidence": 90.0,
+          "fundamentalDamage": 14.4,
           "thesisDamage": 42.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 28.4,
-            "base": 38.3,
-            "bear": 33.3
+            "bull": 29.0,
+            "base": 38.0,
+            "bear": 33.0
           },
           "currentPrice": 494.04998779296875,
           "valuationGap": -0.3025,
@@ -5465,7 +6018,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -5483,14 +6036,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 12.4,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.08,
       "priceDamage": 2.5,
-      "fundamentalDamage": 6.9,
+      "fundamentalDamage": 10.7,
       "thesisDamage": 28.0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -5520,6 +6081,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보",
@@ -5548,7 +6135,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 11.6,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -5560,7 +6147,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 15.2,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -5572,7 +6159,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.6,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -5580,9 +6167,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.9,
-        "base": 38.8,
-        "bear": 31.3
+        "bull": 30.5,
+        "base": 38.5,
+        "bear": 31.0
       },
       "alerts": [],
       "businessProfile": {
@@ -5629,9 +6216,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 290.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 29.9,
-          "base": 38.8,
-          "bear": 31.3
+          "bull": 30.5,
+          "base": 38.5,
+          "bear": 31.0
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5649,17 +6236,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 12.4,
-          "confidence": 55.0,
-          "fundamentalDamage": 6.9,
+          "confidence": 85.0,
+          "fundamentalDamage": 10.7,
           "thesisDamage": 28.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.9,
-            "base": 38.8,
-            "bear": 31.3
+            "bull": 30.5,
+            "base": 38.5,
+            "bear": 31.0
           },
           "currentPrice": 308.9800109863281,
           "valuationGap": -0.1815,
@@ -5672,7 +6259,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -5690,11 +6277,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 16.3,
-      "confidence": 38.8,
+      "confidence": 68.8,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.69,
       "priceDamage": 23.0,
       "fundamentalDamage": 0,
@@ -5727,6 +6322,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -5742,7 +6363,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 12.7,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -5754,7 +6375,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 20.3,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -5766,7 +6387,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.9,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -5774,9 +6395,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.7,
-        "base": 39.6,
-        "bear": 26.7
+        "bull": 34.3,
+        "base": 39.2,
+        "bear": 26.5
       },
       "alerts": [],
       "businessProfile": {
@@ -5814,9 +6435,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 165.0,
         "analystTargetHigh": 325.0,
         "evidenceWeights": {
-          "bull": 33.7,
-          "base": 39.6,
-          "bear": 26.7
+          "bull": 34.3,
+          "base": 39.2,
+          "bear": 26.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5834,17 +6455,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 16.3,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.7,
-            "base": 39.6,
-            "bear": 26.7
+            "bull": 34.3,
+            "base": 39.2,
+            "bear": 26.5
           },
           "currentPrice": 187.25999450683594,
           "valuationGap": -0.1748,
@@ -5857,7 +6478,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -5875,11 +6496,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 55.1,
-      "confidence": 70.0,
+      "confidence": 100,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 1.08,
       "priceDamage": 36.1,
       "fundamentalDamage": 0,
@@ -5911,6 +6540,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 10.738800000000001,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
         {
@@ -6015,7 +6661,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 85.8,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6027,7 +6673,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6039,7 +6685,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.6,
-          "confidence": 70.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6047,9 +6693,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 43.1,
-        "base": 36.3,
-        "bear": 20.6
+        "bull": 43.6,
+        "base": 36.0,
+        "bear": 20.4
       },
       "alerts": [],
       "businessProfile": {
@@ -6144,9 +6790,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 361.0,
         "analystTargetHigh": 2200.0,
         "evidenceWeights": {
-          "bull": 43.1,
-          "base": 36.3,
-          "bear": 20.6
+          "bull": 43.6,
+          "base": 36.0,
+          "bear": 20.4
         },
         "integratedRead": "실적 기준 보수 가격 이하이면서 펀더멘털 훼손이 크지 않아 가격 부담이 낮은 후보입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6164,17 +6810,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 55.1,
-          "confidence": 70.0,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 43.1,
-            "base": 36.3,
-            "bear": 20.6
+            "bull": 43.6,
+            "base": 36.0,
+            "bear": 20.4
           },
           "currentPrice": 958.9149780273438,
           "valuationGap": -0.5282,
@@ -6187,7 +6833,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -6205,14 +6851,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 10.3,
-      "confidence": 65.0,
+      "confidence": 95.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 1.17,
       "priceDamage": 39.1,
-      "fundamentalDamage": 10.9,
+      "fundamentalDamage": 15.9,
       "thesisDamage": 28.0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -6241,6 +6895,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 12.149999999999999,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
         {
@@ -6293,7 +6973,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 13.9,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6305,7 +6985,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6317,7 +6997,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.0,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6325,9 +7005,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.6,
-        "base": 38.9,
-        "bear": 31.5
+        "bull": 30.3,
+        "base": 38.5,
+        "bear": 31.2
       },
       "alerts": [],
       "businessProfile": {
@@ -6398,9 +7078,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 1000.0,
         "analystTargetHigh": 3600.0,
         "evidenceWeights": {
-          "bull": 29.6,
-          "base": 38.9,
-          "bear": 31.5
+          "bull": 30.3,
+          "base": 38.5,
+          "bear": 31.2
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6418,17 +7098,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 10.3,
-          "confidence": 65.0,
-          "fundamentalDamage": 10.9,
+          "confidence": 95.0,
+          "fundamentalDamage": 15.9,
           "thesisDamage": 28.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.6,
-            "base": 38.9,
-            "bear": 31.5
+            "bull": 30.3,
+            "base": 38.5,
+            "bear": 31.2
           },
           "currentPrice": 1600.7900390625,
           "valuationGap": -0.1912,
@@ -6441,7 +7121,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -6459,14 +7139,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 33.3,
-      "confidence": 65.0,
+      "confidence": 95.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.56,
       "priceDamage": 18.6,
-      "fundamentalDamage": 1.0,
+      "fundamentalDamage": 1.4,
       "thesisDamage": 14.0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
@@ -6495,6 +7183,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 13.6817,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
         {
@@ -6547,7 +7261,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 33.0,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6559,7 +7273,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6571,7 +7285,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.6,
-          "confidence": 65.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6579,9 +7293,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 36.3,
-        "base": 37.6,
-        "bear": 26.1
+        "bull": 36.8,
+        "base": 37.3,
+        "bear": 25.9
       },
       "alerts": [],
       "businessProfile": {
@@ -6652,9 +7366,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 420.0,
         "analystTargetHigh": 1050.0,
         "evidenceWeights": {
-          "bull": 36.3,
-          "base": 37.6,
-          "bear": 26.1
+          "bull": 36.8,
+          "base": 37.3,
+          "bear": 25.9
         },
         "integratedRead": "실적 기준 보수 가격 이하이면서 펀더멘털 훼손이 크지 않아 가격 부담이 낮은 후보입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6672,17 +7386,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 33.3,
-          "confidence": 65.0,
-          "fundamentalDamage": 1.0,
+          "confidence": 95.0,
+          "fundamentalDamage": 1.4,
           "thesisDamage": 14.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 36.3,
-            "base": 37.6,
-            "bear": 26.1
+            "bull": 36.8,
+            "base": 37.3,
+            "bear": 25.9
           },
           "currentPrice": 468.6499938964844,
           "valuationGap": -0.3672,
@@ -6695,7 +7409,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -6713,11 +7427,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 16.3,
-      "confidence": 41.8,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.1,
       "priceDamage": 3.2,
       "fundamentalDamage": 0,
@@ -6750,6 +7472,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -6765,7 +7513,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 17.7,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6777,7 +7525,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.8,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6789,7 +7537,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.7,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6797,9 +7545,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.7,
-        "base": 39.6,
-        "bear": 26.7
+        "bull": 34.3,
+        "base": 39.2,
+        "bear": 26.5
       },
       "alerts": [],
       "businessProfile": {
@@ -6837,9 +7585,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 185.0,
         "analystTargetHigh": 289.0,
         "evidenceWeights": {
-          "bull": 33.7,
-          "base": 39.6,
-          "bear": 26.7
+          "bull": 34.3,
+          "base": 39.2,
+          "bear": 26.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6857,17 +7605,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 16.3,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.7,
-            "base": 39.6,
-            "bear": 26.7
+            "bull": 34.3,
+            "base": 39.2,
+            "bear": 26.5
           },
           "currentPrice": 186.11500549316406,
           "valuationGap": -0.2028,
@@ -6880,7 +7628,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -6898,11 +7646,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": -2.4,
-      "confidence": 38.8,
+      "fundamentalScore": -2.3,
+      "confidence": 68.8,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.42,
       "priceDamage": 14.1,
       "fundamentalDamage": 0,
@@ -6911,7 +7667,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 28.47,
+          "score": 28.596666,
           "applicable": true
         },
         "earningsQuality": {
@@ -6935,6 +7691,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q1'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -6949,8 +7731,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 28.5,
-          "confidence": 38.8,
+          "score": 28.6,
+          "confidence": 68.8,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6962,7 +7744,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6974,7 +7756,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.8,
-          "confidence": 38.8,
+          "confidence": 68.8,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6982,9 +7764,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.9,
-        "base": 40.5,
-        "bear": 29.6
+        "bull": 30.5,
+        "base": 40.2,
+        "bear": 29.3
       },
       "alerts": [],
       "businessProfile": {
@@ -7010,21 +7792,21 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 287.07,
-        "currentEps": 9.35217,
-        "nextEps": 13.94276,
-        "epsGrowth": 0.4909,
-        "marketPe": 30.7,
-        "conservative": 273.9,
-        "base": 427.97,
-        "optimistic": 663.36,
-        "currentVsBase": -0.3292,
-        "analystTargetMean": 410.76,
+        "currentEps": 9.40614,
+        "nextEps": 13.94894,
+        "epsGrowth": 0.483,
+        "marketPe": 30.52,
+        "conservative": 272.45,
+        "base": 425.71,
+        "optimistic": 659.84,
+        "currentVsBase": -0.3257,
+        "analystTargetMean": 416.09348,
         "analystTargetLow": 280.0,
-        "analystTargetHigh": 480.0,
+        "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 29.9,
-          "base": 40.5,
-          "bear": 29.6
+          "bull": 30.5,
+          "base": 40.2,
+          "bear": 29.3
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7042,20 +7824,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
-          "fundamentalScore": -2.4,
-          "confidence": 38.8,
+          "fundamentalScore": -2.3,
+          "confidence": 68.8,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.9,
-            "base": 40.5,
-            "bear": 29.6
+            "bull": 30.5,
+            "base": 40.2,
+            "bear": 29.3
           },
           "currentPrice": 287.06500244140625,
-          "valuationGap": -0.3292,
+          "valuationGap": -0.3257,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "damaged",
@@ -7065,7 +7847,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7083,20 +7865,28 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": -15.6,
-      "confidence": 60.0,
+      "fundamentalScore": 0.7,
+      "confidence": 90.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.61,
       "priceDamage": 20.3,
-      "fundamentalDamage": 15.1,
+      "fundamentalDamage": 22.7,
       "thesisDamage": 56.0,
       "thesisStatus": "damaged",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 34.686668000000004,
+          "score": 100,
           "applicable": true
         },
         "earningsQuality": {
@@ -7119,6 +7909,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 3.066700000000001,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q1'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -7158,8 +7974,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 34.7,
-          "confidence": 60.0,
+          "score": 100,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7171,7 +7987,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7183,7 +7999,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 1.0,
-          "confidence": 60.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7191,9 +8007,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 21.9,
-        "base": 37.7,
-        "bear": 40.4
+        "bull": 25.0,
+        "base": 38.4,
+        "bear": 36.6
       },
       "alerts": [],
       "businessProfile": {
@@ -7236,23 +8052,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 869.2,
-        "currentEps": 18.73451,
-        "nextEps": 29.84915,
-        "epsGrowth": 0.5933,
-        "marketPe": 46.4,
-        "conservative": 886.31,
-        "base": 1384.86,
-        "optimistic": 2146.54,
-        "currentVsBase": -0.3724,
-        "analystTargetMean": 1125.9277,
-        "analystTargetLow": 800.0,
+        "currentEps": 8.22662,
+        "nextEps": 33.01317,
+        "epsGrowth": 3.013,
+        "marketPe": 105.66,
+        "conservative": 2232.35,
+        "base": 3488.05,
+        "optimistic": 5406.48,
+        "currentVsBase": -0.7508,
+        "analystTargetMean": 1148.303,
+        "analystTargetLow": 820.0,
         "analystTargetHigh": 1400.0,
         "evidenceWeights": {
-          "bull": 21.9,
-          "base": 37.7,
-          "bear": 40.4
+          "bull": 25.0,
+          "base": 38.4,
+          "bear": 36.6
         },
-        "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
+        "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
         "notice": "가격 밴드는 매수 신호가 아니며 EPS 하향·기업 악재가 생기면 즉시 다시 계산합니다."
       },
@@ -7268,20 +8084,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
-          "fundamentalScore": -15.6,
-          "confidence": 60.0,
-          "fundamentalDamage": 15.1,
+          "fundamentalScore": 0.7,
+          "confidence": 90.0,
+          "fundamentalDamage": 22.7,
           "thesisDamage": 56.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 21.9,
-            "base": 37.7,
-            "bear": 40.4
+            "bull": 25.0,
+            "base": 38.4,
+            "bear": 36.6
           },
           "currentPrice": 869.1950073242188,
-          "valuationGap": -0.3724,
+          "valuationGap": -0.7508,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "damaged",
@@ -7291,7 +8107,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -7309,11 +8125,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 17.5,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -1.35,
       "priceDamage": 44.9,
       "fundamentalDamage": 0,
@@ -7322,7 +8146,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 0.9966669999999999,
+          "score": 0.8866670000000004,
           "applicable": true
         },
         "earningsQuality": {
@@ -7345,6 +8169,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 17.8967,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
       },
       "evidence": [
         {
@@ -7373,8 +8223,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 1.0,
-          "confidence": 55.0,
+          "score": 0.9,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7386,7 +8236,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 79.1,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7398,7 +8248,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.0,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7406,9 +8256,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.3,
-        "base": 39.3,
-        "bear": 26.4
+        "bull": 34.8,
+        "base": 39.0,
+        "bear": 26.2
       },
       "alerts": [],
       "businessProfile": {
@@ -7444,20 +8294,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "status": "available",
         "price": 947.94,
         "currentEps": 30.84574,
-        "nextEps": 24.86619,
-        "epsGrowth": -0.1939,
+        "nextEps": 24.78641,
+        "epsGrowth": -0.1964,
         "marketPe": 30.73,
-        "conservative": 489.07,
-        "base": 764.18,
-        "optimistic": 1184.48,
-        "currentVsBase": 0.2405,
-        "analystTargetMean": 1239.4622,
+        "conservative": 487.51,
+        "base": 761.73,
+        "optimistic": 1180.68,
+        "currentVsBase": 0.2445,
+        "analystTargetMean": 1236.4318,
         "analystTargetLow": 940.0,
         "analystTargetHigh": 1450.0,
         "evidenceWeights": {
-          "bull": 34.3,
-          "base": 39.3,
-          "bear": 26.4
+          "bull": 34.8,
+          "base": 39.0,
+          "bear": 26.2
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7475,20 +8325,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 17.5,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 34.3,
-            "base": 39.3,
-            "bear": 26.4
+            "bull": 34.8,
+            "base": 39.0,
+            "bear": 26.2
           },
           "currentPrice": 947.9400024414062,
-          "valuationGap": 0.2405,
+          "valuationGap": 0.2445,
           "theses": {
             "growth": "intact",
             "cashFlow": "strengthening",
@@ -7498,7 +8348,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7516,11 +8366,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": -4.8,
-      "confidence": 55.0,
+      "fundamentalScore": -5.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.46,
       "priceDamage": 15.4,
       "fundamentalDamage": 0,
@@ -7529,7 +8387,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 5.546666666666666,
+          "score": 4.813333333333333,
           "applicable": true
         },
         "earningsQuality": {
@@ -7552,6 +8410,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 13.0484,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
       },
       "evidence": [
         {
@@ -7580,8 +8464,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 5.5,
-          "confidence": 55.0,
+          "score": 4.8,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7593,7 +8477,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -42.8,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7605,7 +8489,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.3,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7613,9 +8497,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.9,
-        "base": 40.2,
-        "bear": 29.9
+        "bull": 30.4,
+        "base": 39.9,
+        "bear": 29.7
       },
       "alerts": [],
       "businessProfile": {
@@ -7678,21 +8562,21 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 273.57,
-        "currentEps": 11.90916,
-        "nextEps": 13.34315,
-        "epsGrowth": 0.1204,
-        "marketPe": 22.97,
-        "conservative": 196.16,
-        "base": 306.51,
-        "optimistic": 475.08,
-        "currentVsBase": -0.1075,
-        "analystTargetMean": 348.454,
+        "currentEps": 12.09575,
+        "nextEps": 13.30665,
+        "epsGrowth": 0.1001,
+        "marketPe": 22.62,
+        "conservative": 192.61,
+        "base": 300.95,
+        "optimistic": 466.47,
+        "currentVsBase": -0.091,
+        "analystTargetMean": 347.504,
         "analystTargetLow": 290.0,
         "analystTargetHigh": 441.0,
         "evidenceWeights": {
-          "bull": 29.9,
-          "base": 40.2,
-          "bear": 29.9
+          "bull": 30.4,
+          "base": 39.9,
+          "bear": 29.7
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7710,20 +8594,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
-          "fundamentalScore": -4.8,
-          "confidence": 55.0,
+          "fundamentalScore": -5.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.9,
-            "base": 40.2,
-            "bear": 29.9
+            "bull": 30.4,
+            "base": 39.9,
+            "bear": 29.7
           },
           "currentPrice": 273.56500244140625,
-          "valuationGap": -0.1075,
+          "valuationGap": -0.091,
           "theses": {
             "growth": "intact",
             "cashFlow": "damaged",
@@ -7733,7 +8617,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7751,11 +8635,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": -5.3,
-      "confidence": 41.8,
+      "fundamentalScore": -5.0,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -1.19,
       "priceDamage": 39.5,
       "fundamentalDamage": 0,
@@ -7764,7 +8656,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 6.91,
+          "score": 7.849999666666666,
           "applicable": true
         },
         "earningsQuality": {
@@ -7788,6 +8680,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -7802,8 +8720,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 6.9,
-          "confidence": 41.8,
+          "score": 7.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7815,7 +8733,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": -3.5,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7827,7 +8745,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": -4.4,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7835,9 +8753,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.5,
-        "base": 40.3,
-        "bear": 30.2
+        "bull": 30.2,
+        "base": 40.0,
+        "bear": 29.8
       },
       "alerts": [],
       "businessProfile": {
@@ -7873,21 +8791,21 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 139.18,
-        "currentEps": 9.60291,
-        "nextEps": 10.53237,
-        "epsGrowth": 0.0968,
-        "marketPe": 14.49,
-        "conservative": 97.7,
-        "base": 152.65,
-        "optimistic": 236.61,
-        "currentVsBase": -0.0882,
-        "analystTargetMean": 221.27779,
+        "currentEps": 9.23402,
+        "nextEps": 10.45682,
+        "epsGrowth": 0.1324,
+        "marketPe": 15.07,
+        "conservative": 100.87,
+        "base": 157.61,
+        "optimistic": 244.29,
+        "currentVsBase": -0.1169,
+        "analystTargetMean": 219.72221,
         "analystTargetLow": 106.0,
         "analystTargetHigh": 313.0,
         "evidenceWeights": {
-          "bull": 29.5,
-          "base": 40.3,
-          "bear": 30.2
+          "bull": 30.2,
+          "base": 40.0,
+          "bear": 29.8
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7905,20 +8823,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
-          "fundamentalScore": -5.3,
-          "confidence": 41.8,
+          "fundamentalScore": -5.0,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.5,
-            "base": 40.3,
-            "bear": 30.2
+            "bull": 30.2,
+            "base": 40.0,
+            "bear": 29.8
           },
           "currentPrice": 139.1790008544922,
-          "valuationGap": -0.0882,
+          "valuationGap": -0.1169,
           "theses": {
             "growth": "intact",
             "cashFlow": "intact",
@@ -7928,7 +8846,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7946,11 +8864,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 11.4,
-      "confidence": 52.1,
+      "confidence": 82.1,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.37,
       "priceDamage": 12.5,
       "fundamentalDamage": 0,
@@ -7959,7 +8885,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 12.856666666666667,
+          "score": 12.866666666666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -7982,6 +8908,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 10.8416,
           "applicable": true
         }
+      },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
       },
       "evidence": [
         {
@@ -8011,7 +8963,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 12.9,
-          "confidence": 52.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -8023,7 +8975,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 20.5,
-          "confidence": 52.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -8035,7 +8987,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.6,
-          "confidence": 52.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -8043,9 +8995,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.9,
-        "base": 39.8,
-        "bear": 27.3
+        "bull": 33.5,
+        "base": 39.4,
+        "bear": 27.1
       },
       "alerts": [],
       "businessProfile": {
@@ -8080,21 +9032,21 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 418.61,
-        "currentEps": 13.50587,
-        "nextEps": 16.02188,
-        "epsGrowth": 0.1863,
-        "marketPe": 30.99,
-        "conservative": 317.82,
-        "base": 496.59,
-        "optimistic": 769.72,
-        "currentVsBase": -0.157,
+        "currentEps": 13.51196,
+        "nextEps": 16.0337,
+        "epsGrowth": 0.1866,
+        "marketPe": 30.98,
+        "conservative": 317.91,
+        "base": 496.74,
+        "optimistic": 769.94,
+        "currentVsBase": -0.1573,
         "analystTargetMean": 476.42792,
         "analystTargetLow": 333.0,
         "analystTargetHigh": 534.0,
         "evidenceWeights": {
-          "bull": 32.9,
-          "base": 39.8,
-          "bear": 27.3
+          "bull": 33.5,
+          "base": 39.4,
+          "bear": 27.1
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -8112,20 +9064,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 11.4,
-          "confidence": 52.1,
+          "confidence": 82.1,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.9,
-            "base": 39.8,
-            "bear": 27.3
+            "bull": 33.5,
+            "base": 39.4,
+            "bear": 27.1
           },
           "currentPrice": 418.6099853515625,
-          "valuationGap": -0.157,
+          "valuationGap": -0.1573,
           "theses": {
             "growth": "intact",
             "cashFlow": "strengthening",
@@ -8135,7 +9087,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8153,11 +9105,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.2,
-      "confidence": 41.8,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.13,
       "priceDamage": 4.2,
       "fundamentalDamage": 0,
@@ -8190,6 +9150,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -8205,7 +9191,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 10.7,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -8217,7 +9203,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 24.9,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -8229,7 +9215,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.8,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -8237,9 +9223,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.2,
-        "base": 40.1,
-        "bear": 27.7
+        "bull": 32.8,
+        "base": 39.7,
+        "bear": 27.5
       },
       "alerts": [],
       "businessProfile": {
@@ -8277,9 +9263,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 410.0,
         "analystTargetHigh": 976.0,
         "evidenceWeights": {
-          "bull": 32.2,
-          "base": 40.1,
-          "bear": 27.7
+          "bull": 32.8,
+          "base": 39.7,
+          "bear": 27.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -8297,17 +9283,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 9.2,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.2,
-            "base": 40.1,
-            "bear": 27.7
+            "bull": 32.8,
+            "base": 39.7,
+            "bear": 27.5
           },
           "currentPrice": 666.9949951171875,
           "valuationGap": -0.1483,
@@ -8320,7 +9306,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8338,11 +9324,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.2,
-      "confidence": 41.8,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -1.25,
       "priceDamage": 41.8,
       "fundamentalDamage": 0,
@@ -8375,6 +9369,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -8390,7 +9410,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 7.2,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -8402,7 +9422,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 23.9,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -8414,7 +9434,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 2.5,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -8422,9 +9442,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.2,
-        "base": 40.1,
-        "bear": 27.7
+        "bull": 32.8,
+        "base": 39.7,
+        "bear": 27.5
       },
       "alerts": [],
       "businessProfile": {
@@ -8462,9 +9482,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 502.0,
         "analystTargetHigh": 630.0,
         "evidenceWeights": {
-          "bull": 32.2,
-          "base": 40.1,
-          "bear": 27.7
+          "bull": 32.8,
+          "base": 39.7,
+          "bear": 27.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -8482,17 +9502,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 9.2,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.2,
-            "base": 40.1,
-            "bear": 27.7
+            "bull": 32.8,
+            "base": 39.7,
+            "bear": 27.5
           },
           "currentPrice": 472.0199890136719,
           "valuationGap": -0.1057,
@@ -8505,7 +9525,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8523,11 +9543,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 18.7,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.58,
       "priceDamage": 19.2,
       "fundamentalDamage": 0,
@@ -8560,6 +9588,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2025",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "더 강력한 결과, AI 거래 및 환매는 Vertiv Holdings Co(VRT)의 게임 체인저가 될 수 있습니다.",
@@ -8588,7 +9642,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 25.9,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -8600,7 +9654,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 52.2,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -8612,7 +9666,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.8,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -8620,9 +9674,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.5,
-        "base": 39.2,
-        "bear": 26.3
+        "bull": 35.1,
+        "base": 38.9,
+        "bear": 26.0
       },
       "alerts": [],
       "businessProfile": {
@@ -8669,9 +9723,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 236.0,
         "analystTargetHigh": 427.0,
         "evidenceWeights": {
-          "bull": 34.5,
-          "base": 39.2,
-          "bear": 26.3
+          "bull": 35.1,
+          "base": 38.9,
+          "bear": 26.0
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -8689,17 +9743,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 18.7,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 34.5,
-            "base": 39.2,
-            "bear": 26.3
+            "bull": 35.1,
+            "base": 38.9,
+            "bear": 26.0
           },
           "currentPrice": 258.8599853515625,
           "valuationGap": -0.2628,
@@ -8712,7 +9766,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -8730,11 +9784,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 11.3,
       "confidence": 33.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.81,
       "priceDamage": 27.0,
       "fundamentalDamage": 0,
@@ -8766,6 +9828,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "score": 16.0436,
           "applicable": true
         }
+      },
+      "officialEvidence": [],
+      "evidenceSummary": {
+        "confirmedFacts": 0,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
       },
       "evidence": [],
       "topPositive": [],
@@ -8869,7 +9938,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 11.3,
           "confidence": 33.0,
@@ -8892,7 +9961,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8910,11 +9979,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 33.5,
-      "confidence": 55.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.03,
       "priceDamage": 0.9,
       "fundamentalDamage": 0,
@@ -8947,6 +10024,32 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-annual",
+          "kind": "confirmed_fact",
+          "label": "연간 재무 수치",
+          "source": "SEC Company Facts",
+          "period": "2026",
+          "detail": "매출·영업이익·순이익·현금흐름 핵심 항목을 SEC 원문 수치로 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        },
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 2,
+        "credibleReports": 0,
+        "needsConfirmation": 1,
+        "aiInferences": 1
+      },
       "evidence": [
         {
           "headline": "STX 주식을 보유하고 있는 동안 연간 26%의 이자를 지급하도록 하세요",
@@ -8975,7 +10078,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 32.3,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -8987,7 +10090,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -8999,7 +10102,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 1.7,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9007,9 +10110,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 37.8,
-        "base": 38.1,
-        "bear": 24.1
+        "bull": 38.4,
+        "base": 37.8,
+        "bear": 23.8
       },
       "alerts": [],
       "businessProfile": {
@@ -9056,9 +10159,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 700.0,
         "analystTargetHigh": 1600.0,
         "evidenceWeights": {
-          "bull": 37.8,
-          "base": 38.1,
-          "bear": 24.1
+          "bull": 38.4,
+          "base": 37.8,
+          "bear": 23.8
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9076,17 +10179,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 33.5,
-          "confidence": 55.0,
+          "confidence": 85.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 37.8,
-            "base": 38.1,
-            "bear": 24.1
+            "bull": 38.4,
+            "base": 37.8,
+            "bear": 23.8
           },
           "currentPrice": 854.010009765625,
           "valuationGap": -0.3538,
@@ -9099,7 +10202,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9117,11 +10220,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 8.5,
-      "confidence": 41.8,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.23,
       "priceDamage": 7.8,
       "fundamentalDamage": 0,
@@ -9154,6 +10265,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -9169,7 +10297,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 7.2,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9181,7 +10309,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": 14.6,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9193,7 +10321,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.7,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9201,9 +10329,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.1,
-        "base": 40.1,
-        "bear": 27.8
+        "bull": 32.7,
+        "base": 39.7,
+        "bear": 27.6
       },
       "alerts": [],
       "businessProfile": {
@@ -9241,9 +10369,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 885.0,
         "analystTargetHigh": 1200.0,
         "evidenceWeights": {
-          "bull": 32.1,
-          "base": 40.1,
-          "bear": 27.8
+          "bull": 32.7,
+          "base": 39.7,
+          "bear": 27.6
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9261,17 +10389,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 8.5,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.1,
-            "base": 40.1,
-            "bear": 27.8
+            "bull": 32.7,
+            "base": 39.7,
+            "bear": 27.6
           },
           "currentPrice": 787.280029296875,
           "valuationGap": -0.1059,
@@ -9284,7 +10412,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9302,11 +10430,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 15.9,
-      "confidence": 41.8,
+      "confidence": 71.7,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": -0.7,
       "priceDamage": 23.2,
       "fundamentalDamage": 0,
@@ -9339,6 +10475,23 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [
+        {
+          "id": "sec-quarterly",
+          "kind": "confirmed_fact",
+          "label": "분기 손익 수치",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "detail": "최근 분기 매출·영업이익·순이익을 SEC 3개월 보고값과 교차검증했습니다.",
+          "url": "https://data.sec.gov/api/xbrl/companyfacts/"
+        }
+      ],
+      "evidenceSummary": {
+        "confirmedFacts": 1,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -9354,7 +10507,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 13.8,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9366,7 +10519,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 39.9,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9378,7 +10531,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 6.6,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9386,9 +10539,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.7,
-        "base": 39.5,
-        "bear": 26.8
+        "bull": 34.2,
+        "base": 39.3,
+        "bear": 26.5
       },
       "alerts": [],
       "businessProfile": {
@@ -9426,9 +10579,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 1910.0,
         "analystTargetHigh": 2500.0,
         "evidenceWeights": {
-          "bull": 33.7,
-          "base": 39.5,
-          "bear": 26.8
+          "bull": 34.2,
+          "base": 39.3,
+          "bear": 26.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9446,17 +10599,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 15.9,
-          "confidence": 41.8,
+          "confidence": 71.7,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.7,
-            "base": 39.5,
-            "bear": 26.8
+            "bull": 34.2,
+            "base": 39.3,
+            "bear": 26.5
           },
           "currentPrice": 1668.699951171875,
           "valuationGap": -0.1844,
@@ -9469,7 +10622,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9487,11 +10640,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787300593.2126226,
+      "asOf": 1787304277.7341046,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 10.3,
-      "confidence": 41.8,
+      "confidence": 55.2,
       "fundamentalSigma": null,
+      "fundamentalSigmaProgress": {
+        "status": "collecting",
+        "collected": 1,
+        "required": 8,
+        "remaining": 7,
+        "expectedReadyDate": "2026-08-28",
+        "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
+      },
       "priceSigma": 0.32,
       "priceDamage": 10.6,
       "fundamentalDamage": 0,
@@ -9524,6 +10685,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         }
       },
+      "officialEvidence": [],
+      "evidenceSummary": {
+        "confirmedFacts": 0,
+        "credibleReports": 0,
+        "needsConfirmation": 0,
+        "aiInferences": 0
+      },
       "evidence": [],
       "topPositive": [],
       "topNegative": [],
@@ -9539,7 +10707,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
           "score": 11.3,
-          "confidence": 41.8,
+          "confidence": 55.2,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9551,7 +10719,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 25.1,
-          "confidence": 41.8,
+          "confidence": 55.2,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9563,7 +10731,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.4,
-          "confidence": 41.8,
+          "confidence": 55.2,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9571,9 +10739,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 32.5,
-        "base": 39.9,
-        "bear": 27.6
+        "bull": 32.7,
+        "base": 39.8,
+        "bear": 27.5
       },
       "alerts": [],
       "businessProfile": {
@@ -9611,9 +10779,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 76.0,
         "analystTargetHigh": 79.0,
         "evidenceWeights": {
-          "bull": 32.5,
-          "base": 39.9,
-          "bear": 27.6
+          "bull": 32.7,
+          "base": 39.8,
+          "bear": 27.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9631,17 +10799,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "fundamentalScore": 10.3,
-          "confidence": 41.8,
+          "confidence": 55.2,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 32.5,
-            "base": 39.9,
-            "bear": 27.6
+            "bull": 32.7,
+            "base": 39.8,
+            "bear": 27.5
           },
           "currentPrice": 68.6500015258789,
           "valuationGap": -0.1976,
@@ -9654,7 +10822,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787300593.2126226,
+          "asOf": 1787304277.7341046,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
