@@ -2,11 +2,11 @@
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
   "modelVersion": "fundamental-v1.2",
-  "generatedAt": 1787320815.1573756,
+  "generatedAt": 1787322807.1124883,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.7,
       "confidence": 100,
@@ -264,7 +264,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 9.7,
           "confidence": 100,
@@ -287,7 +287,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -305,9 +305,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": 15.4,
+      "fundamentalScore": 15.8,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -326,7 +326,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 14.860000000000001,
+          "score": 16.259999999999998,
           "applicable": true
         },
         "earningsQuality": {
@@ -475,7 +475,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 14.9,
+          "score": 16.3,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -508,9 +508,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.7,
+        "bull": 34.8,
         "base": 38.9,
-        "bear": 26.4
+        "bear": 26.3
       },
       "alerts": [],
       "businessProfile": {
@@ -633,9 +633,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 340.0,
         "analystTargetHigh": 515.0,
         "evidenceWeights": {
-          "bull": 34.7,
+          "bull": 34.8,
           "base": 38.9,
-          "bear": 26.4
+          "bear": 26.3
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -653,17 +653,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
-          "fundamentalScore": 15.4,
+          "fundamentalScore": 15.8,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 34.7,
+            "bull": 34.8,
             "base": 38.9,
-            "bear": 26.4
+            "bear": 26.3
           },
           "currentPrice": 340.6700134277344,
           "valuationGap": 0.3892,
@@ -676,7 +676,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -694,7 +694,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 0.8,
       "confidence": 90.0,
@@ -905,7 +905,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 0.8,
           "confidence": 90.0,
@@ -928,7 +928,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "weakening",
           "statuses": {
@@ -946,9 +946,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": 9.3,
+      "fundamentalScore": 10.6,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -961,13 +961,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -1.65,
       "priceDamage": 54.9,
-      "fundamentalDamage": 9.7,
+      "fundamentalDamage": 0,
       "thesisDamage": 0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 10.393333333333333,
+          "score": 12.513333333333334,
           "applicable": true
         },
         "earningsQuality": {
@@ -987,7 +987,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 9.267299999999999,
+          "score": 14.5173,
           "applicable": true
         }
       },
@@ -1014,20 +1014,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 5,
-        "aiInferences": 5
+        "needsConfirmation": 4,
+        "aiInferences": 4
       },
       "evidence": [
-        {
-          "headline": "Meta는 메모리를 통해 고정관념에서 벗어나 생각합니다.",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1787279244,
-          "sourceUrl": "https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "negative",
-          "impact": -4.0
-        },
         {
           "headline": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -1075,7 +1065,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
-        "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
@@ -1089,7 +1078,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 10.4,
+          "score": 12.5,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -1113,7 +1102,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 3.1,
+          "score": 4.8,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -1122,9 +1111,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.4,
-        "base": 39.3,
-        "bear": 27.3
+        "bull": 33.7,
+        "base": 39.2,
+        "bear": 27.1
       },
       "alerts": [],
       "businessProfile": {
@@ -1134,14 +1123,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
-          {
-            "headline": "Meta는 메모리를 통해 고정관념에서 벗어나 생각합니다.",
-            "eventLabel": "규제·소송·수출 제한",
-            "publishedAt": 1787279244,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=ccc06d31b06b868713cb2b564c749ada8b94f4337f4f90ccfeb3ec5836ac2867",
-            "reason": "회사 실적과의 연결고리 확인"
-          },
           {
             "headline": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
             "eventLabel": "AI·데이터센터 투자 변화",
@@ -1211,9 +1192,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 580.0,
         "analystTargetHigh": 1000.0,
         "evidenceWeights": {
-          "bull": 33.4,
-          "base": 39.3,
-          "bear": 27.3
+          "bull": 33.7,
+          "base": 39.2,
+          "bear": 27.1
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -1231,17 +1212,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
-          "fundamentalScore": 9.3,
+          "fundamentalScore": 10.6,
           "confidence": 100,
-          "fundamentalDamage": 9.7,
+          "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.4,
-            "base": 39.3,
-            "bear": 27.3
+            "bull": 33.7,
+            "base": 39.2,
+            "bear": 27.1
           },
           "currentPrice": 545.8300170898438,
           "valuationGap": -0.064,
@@ -1254,7 +1235,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -1272,7 +1253,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 8.4,
       "confidence": 100,
@@ -1579,7 +1560,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 8.4,
           "confidence": 100,
@@ -1602,7 +1583,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -1620,7 +1601,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 14.2,
       "confidence": 85.0,
@@ -1830,7 +1811,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 14.2,
           "confidence": 85.0,
@@ -1853,7 +1834,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -1871,7 +1852,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 28.7,
       "confidence": 100,
@@ -2200,7 +2181,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 28.7,
           "confidence": 100,
@@ -2223,7 +2204,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2241,7 +2222,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.7,
       "confidence": 85.0,
@@ -2451,7 +2432,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 9.7,
           "confidence": 85.0,
@@ -2474,7 +2455,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -2492,10 +2473,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": 34.3,
-      "confidence": 90.0,
+      "fundamentalScore": 34.7,
+      "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -2513,7 +2494,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 35.22333366666667,
+          "score": 36.62333366666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -2560,10 +2541,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 2,
-        "aiInferences": 2
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
+        {
+          "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787289244,
+          "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
         {
           "headline": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체",
           "eventLabel": "경쟁사 기술·시장 진입",
@@ -2586,6 +2577,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "topPositive": [
+        "사업·실적 연결 경로 확인 필요",
         "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
       ],
       "topNegative": [
@@ -2602,8 +2594,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 35.2,
-          "confidence": 90.0,
+          "score": 36.6,
+          "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2615,7 +2607,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 62.0,
-          "confidence": 90.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2627,7 +2619,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 3.4,
-          "confidence": 90.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2635,9 +2627,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 38.6,
-        "base": 37.7,
-        "bear": 23.7
+        "bull": 38.8,
+        "base": 37.6,
+        "bear": 23.6
       },
       "alerts": [],
       "businessProfile": {
@@ -2647,6 +2639,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787289244,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
           {
             "headline": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체",
             "eventLabel": "경쟁사 기술·시장 진입",
@@ -2700,9 +2700,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 80.0,
         "analystTargetHigh": 255.0,
         "evidenceWeights": {
-          "bull": 38.6,
-          "base": 37.7,
-          "bear": 23.7
+          "bull": 38.8,
+          "base": 37.6,
+          "bear": 23.6
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2720,17 +2720,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
-          "fundamentalScore": 34.3,
-          "confidence": 90.0,
+          "fundamentalScore": 34.7,
+          "confidence": 95.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 38.6,
-            "base": 37.7,
-            "bear": 23.7
+            "bull": 38.8,
+            "base": 37.6,
+            "bear": 23.6
           },
           "currentPrice": 173.9600067138672,
           "valuationGap": -0.3075,
@@ -2743,7 +2743,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -2761,7 +2761,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 28.1,
       "confidence": 100,
@@ -2824,6 +2824,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787289244,
+          "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
         {
           "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -2889,16 +2899,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787156452,
           "sourceUrl": "https://finnhub.io/api/news?id=da69e4b6f7750cb1bbe806db07447d752ca772be9efc07c6e091723c8a097974",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "수요일 AMD 주식에 무슨 일이 일어나고 있나요?",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787131813,
-          "sourceUrl": "https://finnhub.io/api/news?id=a4e1d89b47e11158614ea23439c8622abbb8fb1d63e7ce00d78c6704ec52140e",
           "verificationStatus": "needs_confirmation",
           "reason": "AI 컴퓨팅 수요 확대 가능성",
           "direction": "positive",
@@ -2996,6 +2996,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         ],
         "latestChanges": [
           {
+            "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787289244,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+            "reason": "AI 컴퓨팅 수요 확대 가능성"
+          },
+          {
             "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787242528,
@@ -3034,14 +3042,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=8cfc4b742ab1b52daa98e5678147ad342d5e9dcaefdd61ad243bcce4ee50dc4c",
             "reason": "회사 실적과의 연결고리 확인"
-          },
-          {
-            "headline": "'중국은 AI 경쟁이 확대됨에 따라 NVIDIA H200 칩에 대한 제한을 완화합니다. 베이징, 미국 라이벌을 따라잡기 위해 선도적인 기술 그룹을 돕기 위해 소규모 선적 허용 - Financial Times",
-            "eventLabel": "경쟁사 공급 계약",
-            "publishedAt": 1787157622,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=f3b54bed45cae16d5770db0c5b6a6167e474b3acd789e09a814bf92dc512a5f8",
-            "reason": "AI 컴퓨팅 수요 확대 가능성"
           }
         ],
         "status": "available",
@@ -3110,7 +3110,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 28.1,
           "confidence": 100,
@@ -3133,7 +3133,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3151,7 +3151,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 38.6,
       "confidence": 100,
@@ -3224,6 +3224,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787289244,
+          "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
           "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787242528,
@@ -3292,16 +3302,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "Tesla Optimus 라이벌 Unitree Robotics, 상하이 데뷔에서 629% 폭발, 일시적으로 660억 달러 가치 달성",
-          "eventLabel": "경쟁사 공급 계약",
-          "publishedAt": 1787108869,
-          "sourceUrl": "https://finnhub.io/api/news?id=f1e9f6f7defea1395e1ca247dcfabde935aa8775c4294cbe5f77f86a7ab1563e",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 3.0
         }
       ],
       "topPositive": [
@@ -3367,6 +3367,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787289244,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+          },
+          {
             "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787242528,
@@ -3404,14 +3412,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787157622,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=f3b54bed45cae16d5770db0c5b6a6167e474b3acd789e09a814bf92dc512a5f8",
-            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-          },
-          {
-            "headline": "AMD, 팀 라이언(Tim Ryan)을 이사회에 임명하고, 집주인 은퇴 후 KC McClure 감사 및 재무 위원회 의장으로 임명",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787156452,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=da69e4b6f7750cb1bbe806db07447d752ca772be9efc07c6e091723c8a097974",
             "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
           }
         ],
@@ -3473,7 +3473,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 38.6,
           "confidence": 100,
@@ -3496,7 +3496,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3514,7 +3514,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 24.5,
       "confidence": 100,
@@ -3829,7 +3829,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 24.5,
           "confidence": 100,
@@ -3852,7 +3852,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -3870,7 +3870,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 10.1,
       "confidence": 95.0,
@@ -4165,7 +4165,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 10.1,
           "confidence": 95.0,
@@ -4188,7 +4188,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -4206,7 +4206,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 25.3,
       "confidence": 78.5,
@@ -4453,7 +4453,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 25.3,
           "confidence": 78.5,
@@ -4476,7 +4476,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -4494,7 +4494,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 35.9,
       "confidence": 100,
@@ -4582,7 +4582,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "publishedAt": 1787221144,
           "sourceUrl": "https://finnhub.io/api/news?id=0cc7f51ab765279a8768d07c2f8734e8112595c50744b39a0c87b0b99b7ed788",
           "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
           "direction": "positive",
           "impact": 4.0
         },
@@ -4649,7 +4649,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "topPositive": [
         "사업·실적 연결 경로 확인 필요",
-        "회사 실적과의 연결고리 확인",
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
@@ -4725,7 +4725,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787221144,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=0cc7f51ab765279a8768d07c2f8734e8112595c50744b39a0c87b0b99b7ed788",
-            "reason": "회사 실적과의 연결고리 확인"
+            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           },
           {
             "headline": "Marvell: 거래와 희석은 모두 현실입니다",
@@ -4816,7 +4816,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 35.9,
           "confidence": 100,
@@ -4839,7 +4839,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -4857,7 +4857,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 7.3,
       "confidence": 100,
@@ -5209,7 +5209,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 7.3,
           "confidence": 100,
@@ -5232,7 +5232,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -5250,7 +5250,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 21.6,
       "confidence": 87.1,
@@ -5558,7 +5558,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 21.6,
           "confidence": 87.1,
@@ -5581,7 +5581,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -5599,7 +5599,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 18.0,
       "confidence": 73.5,
@@ -5800,7 +5800,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 18.0,
           "confidence": 73.5,
@@ -5823,7 +5823,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -5841,7 +5841,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 12.6,
       "confidence": 100,
@@ -6096,7 +6096,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 12.6,
           "confidence": 100,
@@ -6119,7 +6119,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -6137,7 +6137,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 12.4,
       "confidence": 85.0,
@@ -6337,7 +6337,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 12.4,
           "confidence": 85.0,
@@ -6360,7 +6360,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -6378,7 +6378,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 16.3,
       "confidence": 68.8,
@@ -6556,7 +6556,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 16.3,
           "confidence": 68.8,
@@ -6579,7 +6579,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -6597,7 +6597,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 55.1,
       "confidence": 100,
@@ -6660,6 +6660,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787289244,
+          "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "direction": "positive",
+          "impact": 2.0
+        },
         {
           "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -6729,16 +6739,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "AI 서버 메모리 수요와 가격 강세",
           "direction": "positive",
           "impact": 3.0
-        },
-        {
-          "headline": "AMD, 팀 라이언(Tim Ryan)을 이사회에 임명하고, 집주인 은퇴 후 KC McClure 감사 및 재무 위원회 의장으로 임명",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787156452,
-          "sourceUrl": "https://finnhub.io/api/news?id=da69e4b6f7750cb1bbe806db07447d752ca772be9efc07c6e091723c8a097974",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "direction": "positive",
-          "impact": 2.0
         }
       ],
       "topPositive": [
@@ -6807,6 +6807,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787289244,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+            "reason": "AI 서버 메모리 수요와 가격 강세"
+          },
+          {
             "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787242528,
@@ -6845,14 +6853,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=a03b08e1b2008c44e24564b7729d0b10f7da5eb33418846cce278009d8d4233d",
             "reason": "메모리 ASP와 이익률 개선 가능성"
-          },
-          {
-            "headline": "Micron의 500억 달러 규모의 Boise 증설이 어떻게 고향을 재편하고 있습니까?",
-            "eventLabel": "공급망 문제",
-            "publishedAt": 1787209201,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=98636f5c0886d4bbd536f226b881f9749309da395293b977b98142800972e949",
-            "reason": "회사 실적과의 연결고리 확인"
           }
         ],
         "status": "available",
@@ -6911,7 +6911,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 55.1,
           "confidence": 100,
@@ -6934,7 +6934,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -6952,10 +6952,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
-      "fundamentalScore": 10.3,
-      "confidence": 100,
+      "fundamentalScore": 11.6,
+      "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -6967,13 +6967,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 1.17,
       "priceDamage": 39.1,
-      "fundamentalDamage": 16.7,
-      "thesisDamage": 28.0,
+      "fundamentalDamage": 0,
+      "thesisDamage": 0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 13.890000333333333,
+          "score": 15.970000333333333,
           "applicable": true
         },
         "earningsQuality": {
@@ -6993,7 +6993,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 12.149999999999999,
+          "score": 17.4,
           "applicable": true
         }
       },
@@ -7020,20 +7020,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 3,
         "credibleReports": 0,
-        "needsConfirmation": 3,
-        "aiInferences": 4
+        "needsConfirmation": 2,
+        "aiInferences": 3
       },
       "evidence": [
-        {
-          "headline": "Sandisk: 강세론자들은 가치 평가와 순환성을 잘못 판단하고 있습니다",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1787239454,
-          "sourceUrl": "https://finnhub.io/api/news?id=c7c5b25c2eafdadc430f1ba94c14e82aa7f27535dadac8fe761bc841e68ba1d6",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "negative",
-          "impact": -4.0
-        },
         {
           "headline": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -7069,7 +7059,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
       ],
       "topNegative": [
-        "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
@@ -7083,8 +7072,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 13.9,
-          "confidence": 100,
+          "score": 16.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7096,7 +7085,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 100,
+          "confidence": 95.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7107,8 +7096,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 4.0,
-          "confidence": 100,
+          "score": 5.8,
+          "confidence": 95.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7116,9 +7105,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 30.4,
-        "base": 38.4,
-        "bear": 31.2
+        "bull": 33.8,
+        "base": 39.2,
+        "bear": 27.0
       },
       "alerts": [],
       "businessProfile": {
@@ -7128,14 +7117,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
-          {
-            "headline": "Sandisk: 강세론자들은 가치 평가와 순환성을 잘못 판단하고 있습니다",
-            "eventLabel": "규제·소송·수출 제한",
-            "publishedAt": 1787239454,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=c7c5b25c2eafdadc430f1ba94c14e82aa7f27535dadac8fe761bc841e68ba1d6",
-            "reason": "회사 실적과의 연결고리 확인"
-          },
           {
             "headline": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
             "eventLabel": "AI·데이터센터 투자 변화",
@@ -7197,9 +7178,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 1000.0,
         "analystTargetHigh": 3600.0,
         "evidenceWeights": {
-          "bull": 30.4,
-          "base": 38.4,
-          "bear": 31.2
+          "bull": 33.8,
+          "base": 39.2,
+          "bear": 27.0
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7217,17 +7198,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
-          "fundamentalScore": 10.3,
-          "confidence": 100,
-          "fundamentalDamage": 16.7,
-          "thesisDamage": 28.0,
+          "fundamentalScore": 11.6,
+          "confidence": 95.0,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 30.4,
-            "base": 38.4,
-            "bear": 31.2
+            "bull": 33.8,
+            "base": 39.2,
+            "bear": 27.0
           },
           "currentPrice": 1600.6199951171875,
           "valuationGap": -0.1912,
@@ -7240,7 +7221,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7258,7 +7239,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 32.3,
       "confidence": 95.0,
@@ -7503,7 +7484,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 32.3,
           "confidence": 95.0,
@@ -7526,7 +7507,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -7544,7 +7525,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 16.3,
       "confidence": 71.7,
@@ -7722,7 +7703,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 16.3,
           "confidence": 71.7,
@@ -7745,7 +7726,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -7763,7 +7744,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": -2.3,
       "confidence": 87.1,
@@ -7979,7 +7960,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": -2.3,
           "confidence": 87.1,
@@ -8002,7 +7983,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8020,7 +8001,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 0.7,
       "confidence": 100,
@@ -8275,7 +8256,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 0.7,
           "confidence": 100,
@@ -8298,7 +8279,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "damaged",
           "statuses": {
@@ -8316,7 +8297,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 17.5,
       "confidence": 85.0,
@@ -8516,7 +8497,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 17.5,
           "confidence": 85.0,
@@ -8539,7 +8520,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8557,7 +8538,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": -5.0,
       "confidence": 85.0,
@@ -8785,7 +8766,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": -5.0,
           "confidence": 85.0,
@@ -8808,7 +8789,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -8826,7 +8807,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": -5.0,
       "confidence": 85.0,
@@ -9034,7 +9015,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": -5.0,
           "confidence": 85.0,
@@ -9057,7 +9038,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9075,7 +9056,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 11.4,
       "confidence": 82.1,
@@ -9275,7 +9256,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 11.4,
           "confidence": 82.1,
@@ -9298,7 +9279,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9316,7 +9297,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -9494,7 +9475,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -9517,7 +9498,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9535,7 +9516,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -9713,7 +9694,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -9736,7 +9717,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -9754,7 +9735,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 18.7,
       "confidence": 85.0,
@@ -9954,7 +9935,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 18.7,
           "confidence": 85.0,
@@ -9977,7 +9958,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "strengthening",
           "statuses": {
@@ -9995,7 +9976,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 10.5,
       "confidence": 71.7,
@@ -10173,7 +10154,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 10.5,
           "confidence": 71.7,
@@ -10196,7 +10177,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -10214,7 +10195,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 33.5,
       "confidence": 85.0,
@@ -10414,7 +10395,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 33.5,
           "confidence": 85.0,
@@ -10437,7 +10418,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -10455,7 +10436,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 8.5,
       "confidence": 71.7,
@@ -10624,7 +10605,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 8.5,
           "confidence": 71.7,
@@ -10647,7 +10628,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -10665,7 +10646,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 15.9,
       "confidence": 71.7,
@@ -10834,7 +10815,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 15.9,
           "confidence": 71.7,
@@ -10857,7 +10838,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
@@ -10875,7 +10856,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787320815.1573756,
+      "asOf": 1787322807.1124883,
       "modelVersion": "fundamental-v1.2",
       "fundamentalScore": 10.3,
       "confidence": 55.2,
@@ -11034,7 +11015,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "history": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "fundamentalScore": 10.3,
           "confidence": 55.2,
@@ -11057,7 +11038,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "thesisHistory": [
         {
-          "asOf": 1787320815.1573756,
+          "asOf": 1787322807.1124883,
           "date": "2026-08-21",
           "overallStatus": "intact",
           "statuses": {
