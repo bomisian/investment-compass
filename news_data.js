@@ -1955,7 +1955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -2966,7 +2966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -3946,7 +3946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -4784,7 +4784,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -5781,7 +5781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -6522,7 +6522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -7517,7 +7517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -8972,7 +8972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -10089,7 +10089,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -11139,7 +11139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -12031,7 +12031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -12983,7 +12983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -13933,7 +13933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -14755,7 +14755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -15765,7 +15765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -16566,7 +16566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -17475,7 +17475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -18487,7 +18487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -19143,7 +19143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -19703,7 +19703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -20720,7 +20720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -21380,7 +21380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -21963,7 +21963,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -22626,7 +22626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -23735,7 +23735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -24409,7 +24409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -24850,7 +24850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -25373,7 +25373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -25950,7 +25950,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -26391,7 +26391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -26798,7 +26798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -27320,7 +27320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -27664,7 +27664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -27878,7 +27878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 4,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -28094,7 +28094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 4,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -28509,7 +28509,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -28525,11 +28525,11 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "$1000 Invested In Modine Manufacturing 15 Years Ago Would Be Worth This Much Today",
+        "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
         "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=1b778b8a6bb62f85355d5093149c31ad193205e89990871a6d64af787cf8b02a",
-        "datetime": 1786359619,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af",
+        "datetime": 1787308867,
+        "relevance": 0.67,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -28538,7 +28538,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "15년 전 Modine 제조에 투자한 1000달러는 오늘날 이 정도 가치가 있을 것입니다.",
+            "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -28562,18 +28562,66 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 MOD의 사업과 관련된 '15년 전 Modine 제조에 투자한 1000달러는 오늘날 이 정도 가치가 있을 것입니다.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787300473.847915
+          "analysisUpdatedAt": 1787337424.230836
         },
-        "headlineKo": "15년 전 Modine 제조에 투자한 1000달러는 오늘날 이 정도 가치가 있을 것입니다."
+        "headlineKo": "보고서에서 Google, Amazon을 데이터 센터 냉각 고객으로 명명한 후 Modine 주가 급등"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=f2a56f55ba0bcb8e9e16ead346c2fd3d19517078f981b77b2a54962f963be3af",
+        "datetime": 1787308867,
+        "headlineKo": "보고서에서 Google, Amazon을 데이터 센터 냉각 고객으로 명명한 후 Modine 주가 급등",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1787337424.230836
+        }
+      },
       {
         "headline": "$1000 Invested In Modine Manufacturing 15 Years Ago Would Be Worth This Much Today",
         "source": "Benzinga",
@@ -28623,19 +28671,18 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787233704.141633,
-    "_updated_label": "2026-08-20 22:52",
+    "_fetched_at": 1787337421.1524289,
+    "_updated_label": "2026-08-22 03:37",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 2,
+      "checked": 3,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
-    "_last_attempt_at": 1787335207.6289725,
+    "_last_attempt_at": 1787337421.1524289,
     "_earnings_status": "ok",
-    "_last_success_at": 1787233704.141633,
-    "_collection_status": "empty",
-    "_last_error": "뉴스 API가 빈 응답을 반환함"
+    "_last_success_at": 1787337421.1524289,
+    "_collection_status": "ok"
   },
   "STX": {
     "nextEarnings": {
@@ -29051,7 +29098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -29400,7 +29447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -29827,7 +29874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
     "_last_attempt_at": 1787322499.8367264,
     "_earnings_status": "ok",
@@ -29849,9 +29896,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-22 03:00"
+      "updated": "2026-08-22 03:37"
     },
-    "_last_attempt_at": 1787335207.6289725,
+    "_last_attempt_at": 1787337421.1524289,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_error": "뉴스 API가 빈 응답을 반환함"
