@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787322779.7633717,
+  "generatedAt": 1787324414.4580362,
   "events": [
     {
       "id": "b7de4fb6606e4067026b",
@@ -9919,7 +9919,7 @@ const EVENT_DATA = {
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 1회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
         "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
@@ -9944,8 +9944,8 @@ const EVENT_DATA = {
         "일회성 손익·OCF·FCF"
       ],
       "earningsEvidence": {
-        "version": 3,
-        "analyzedAt": 1787314525.3578224,
+        "version": 6,
+        "analyzedAt": 1787322911.847725,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -9974,6 +9974,7 @@ const EVENT_DATA = {
               "unit": "USD/share"
             }
           ],
+          "targetPeriod": null,
           "comparison": "no_prior_guidance"
         },
         "consensusComparison": {
@@ -9991,7 +9992,19 @@ const EVENT_DATA = {
         "exhibit": {
           "status": "available",
           "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
-        }
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-08-13",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+          }
+        ]
       }
     },
     {
@@ -12110,7 +12123,7 @@ const EVENT_DATA = {
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 1회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
         "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
@@ -12135,8 +12148,8 @@ const EVENT_DATA = {
         "일회성 손익·OCF·FCF"
       ],
       "earningsEvidence": {
-        "version": 3,
-        "analyzedAt": 1787314525.3578224,
+        "version": 6,
+        "analyzedAt": 1787322911.847725,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -12164,6 +12177,7 @@ const EVENT_DATA = {
               "unit": "USD/share"
             }
           ],
+          "targetPeriod": "first quarter 2027",
           "comparison": "no_prior_guidance"
         },
         "consensusComparison": {
@@ -12181,7 +12195,19 @@ const EVENT_DATA = {
         "exhibit": {
           "status": "available",
           "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
-        }
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-08-12",
+            "targetPeriod": "first quarter 2027",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
+          }
+        ]
       }
     },
     {
@@ -14656,7 +14682,7 @@ const EVENT_DATA = {
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 1회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
         "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
@@ -14681,8 +14707,8 @@ const EVENT_DATA = {
         "일회성 손익·OCF·FCF"
       ],
       "earningsEvidence": {
-        "version": 3,
-        "analyzedAt": 1787314525.3578224,
+        "version": 6,
+        "analyzedAt": 1787322911.847725,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14704,6 +14730,7 @@ const EVENT_DATA = {
               "unit": "billion"
             }
           ],
+          "targetPeriod": null,
           "comparison": "no_prior_guidance"
         },
         "consensusComparison": {
@@ -14721,7 +14748,19 @@ const EVENT_DATA = {
         "exhibit": {
           "status": "available",
           "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
-        }
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-08-11",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+          }
+        ]
       }
     },
     {
