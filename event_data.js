@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787313613.3903565,
+  "generatedAt": 1787315203.8853314,
   "events": [
     {
       "id": "da25f24dd41f17a50d51",
@@ -2337,7 +2337,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "db589d1617495ab5aeee",
@@ -3796,7 +3797,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "b853cd77f81c66b56636",
@@ -3860,7 +3862,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "c6839bdecffd2904108e",
@@ -4525,7 +4528,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "f800a666a0ea418973c5",
@@ -4951,7 +4955,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "b5517d3723220c099708",
@@ -5015,7 +5020,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "9bfd5d4890acc33d83b2",
@@ -5077,7 +5083,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "6c5e1c93ecb7dc96dc6e",
@@ -5139,7 +5146,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "d7e2b9fc3fa2509620fa",
@@ -7631,7 +7639,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "f7beb34b8c4ab4d90ad5",
@@ -7693,7 +7702,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "b5ac926ef185c3fc6f5a",
@@ -7755,7 +7765,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "a569bcdbdc06e58f6f0b",
@@ -7817,7 +7828,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "159efe2c95ce7f7f8f36",
@@ -9941,7 +9953,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "3fd3b3e210e232955d80",
@@ -10004,13 +10017,14 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "1eb3897c85f78df77466",
       "schemaVersion": 1,
       "eventType": "earnings_result",
-      "eventLabel": "실적·재무 공식 공시",
+      "eventLabel": "EPS",
       "primaryTicker": "AMAT",
       "relatedTickers": [
         "AMAT"
@@ -10037,23 +10051,27 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [
         "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료"
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $9.12B · 영업이익 $3.08B · 순이익 $2.54B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 10250.0 ± 500.0 (단위는 첨부표 확인 필요) · EPS 4.02 USD/share ± 0.2"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 부합: 실제 3.5 / 예상 3.4544 (+1.32%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -10064,10 +10082,60 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·OCF·FCF",
-        "가이던스와 위험요인 변화",
-        "일회성 손익·회계정책 변화"
-      ]
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 3,
+        "analyzedAt": 1787314525.3578224,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-07-26",
+          "metrics": {
+            "revenue": 9115000000,
+            "opIncome": 3075000000,
+            "netIncome": 2538000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "center": 10250.0,
+              "plusMinus": 500.0,
+              "unit": "unspecified",
+              "deltaUnit": "unspecified"
+            },
+            {
+              "metric": "eps",
+              "center": 4.02,
+              "plusMinus": 0.2,
+              "unit": "USD/share"
+            }
+          ],
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.5,
+          "estimate": 3.4544,
+          "providerPeriod": "2026-09-30",
+          "label": "in_line",
+          "surprisePct": 1.32,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+        }
+      }
     },
     {
       "id": "fb9cada5edd23c776102",
@@ -12076,7 +12144,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "2b05b759ccf41af4ed39",
@@ -12139,13 +12208,14 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "a1a151634101bb46047f",
       "schemaVersion": 1,
       "eventType": "earnings_result",
-      "eventLabel": "실적·재무 공식 공시",
+      "eventLabel": "EPS",
       "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR"
@@ -12172,23 +12242,27 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [
         "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료 · 규정 FD 공개"
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료 · 규정 FD 공개",
+        "SEC Company Facts Q1'26: 매출 $1.81B · 영업이익 $0.23B · 순이익 $0.19B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 2.2~2.4 billion · EPS 1.85~2.05 USD/share"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 1.74 / 예상 1.6474 (+5.62%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -12199,10 +12273,59 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·OCF·FCF",
-        "가이던스와 위험요인 변화",
-        "일회성 손익·회계정책 변화"
-      ]
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 3,
+        "analyzedAt": 1787314525.3578224,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q1'26",
+          "endDate": "2026-03-31",
+          "metrics": {
+            "revenue": 1805641000.0,
+            "opIncome": 226321000.0,
+            "netIncome": 191402000.0
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 2.2,
+              "high": 2.4,
+              "unit": "billion"
+            },
+            {
+              "metric": "eps",
+              "low": 1.85,
+              "high": 2.05,
+              "unit": "USD/share"
+            }
+          ],
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 1.74,
+          "estimate": 1.6474,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 5.62,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
+        }
+      }
     },
     {
       "id": "b33c93b831c050c52a12",
@@ -14567,7 +14690,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "3df7c4c53d2030407c4b",
@@ -14630,13 +14754,14 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "c034a4cec92feb979458",
       "schemaVersion": 1,
       "eventType": "earnings_result",
-      "eventLabel": "실적·재무 공식 공시",
+      "eventLabel": "매출",
       "primaryTicker": "LITE",
       "relatedTickers": [
         "LITE"
@@ -14663,23 +14788,27 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [
         "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료"
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q1'26: 매출 $0.81B · 영업이익 $0.17B · 순이익 $0.14B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 1.225~1.275 billion"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 3.23 / 예상 3.0312 (+6.56%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스 범위를 확인했습니다. 이전 공식 가이던스 기준점이 없어 상향·유지·하향으로는 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14690,10 +14819,53 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·OCF·FCF",
-        "가이던스와 위험요인 변화",
-        "일회성 손익·회계정책 변화"
-      ]
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 3,
+        "analyzedAt": 1787314525.3578224,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q1'26",
+          "endDate": "2026-03-31",
+          "metrics": {
+            "revenue": 808400000.0,
+            "opIncome": 174500000,
+            "netIncome": 144200000.0
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 1.225,
+              "high": 1.275,
+              "unit": "billion"
+            }
+          ],
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.23,
+          "estimate": 3.0312,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 6.56,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+        }
+      }
     },
     {
       "id": "8ff6c7e685643e9ea6c9",
@@ -16047,7 +16219,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "9763781dbb5a08504fd7",
@@ -16109,7 +16282,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "7a8b07c948fde9d90056",
@@ -16172,7 +16346,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "842b1c34ef9e0f1678cb",
@@ -16235,7 +16410,8 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "e6bbd93755feb2a10bc4",
@@ -16297,7 +16473,8 @@ const EVENT_DATA = {
         "공시 Item 번호와 첨부자료",
         "계약·재무·임원 변화의 실제 내용",
         "다음 실적과 현금흐름 영향"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "3590ae64ba75ef6c4e10",
@@ -16359,7 +16536,8 @@ const EVENT_DATA = {
         "매출·영업이익·OCF·FCF",
         "가이던스와 위험요인 변화",
         "일회성 손익·회계정책 변화"
-      ]
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "87d84b09948dc6fe6c9b",
