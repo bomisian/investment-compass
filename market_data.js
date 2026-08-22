@@ -261,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 외교정책 승리도 부족해 중간선거에 돌입 - 로이터"
     },
     {
-      "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions - Reuters",
+      "headline": "Iran condemns US plans to announce new sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
       "datetime": 1787360700,
-      "headlineKo": "미국과 이란, 새로운 제재를 앞두고 적대적인 수사 계속 - 로이터"
+      "headlineKo": "이란, 미국의 새로운 제재 발표 계획 비난 - 로이터"
     },
     {
       "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
@@ -282,6 +282,13 @@ const MARKET_DATA = {
       "headlineKo": "베센트 미국 재무장관, 월요일 기자회견 예정 - 로이터"
     },
     {
+      "headline": "US Army Secretary Driscoll is expected to step down by year's end, WSJ reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblVNM2JWT0l4cUVHSzdxOHRqaDg2QlEzaFh2V0FkQmdobHNQeHgwZUx0M2JrOFN4Rm9ia1ZlS0g3Y2VoNGFtbVlpaXlNczktaHRwM2NCZk9jU190SkFCZWJaUGRwLXdZUkdOeEpxTzJsd1BsUGlzR0xsZFBEVEtZOVI2T2d4OW9HRE9ZcU9ZUTB2QjFaWVdyUHV3NExhaUx6NVQxTllkZHdCeUVPWUdIdXVjaWxWUQ?oc=5",
+      "datetime": 1787348362,
+      "headlineKo": "WSJ는 드리스콜 미 육군장관이 올해 말 사임할 것으로 예상된다고 보도했다."
+    },
+    {
       "headline": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
       "datetime": 1787338505,
       "headlineKo": "간과된 AI 승자가 새로운 CFO를 임명했습니다. 게다가 Nvidia의 주요 수익도 불투명합니다."
-    },
-    {
-      "headline": "Jim Cramer looks at why our AI data center stocks are among the worst of the week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/cramer-on-why-our-ai-data-center-stocks-are-among-the-worst-of-the-week.html",
-      "datetime": 1787333893,
-      "headlineKo": "Jim Cramer가 AI 데이터 센터 주식이 이번 주 최악의 주식에 속하는 이유를 살펴봅니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787415531.860686,
-  "_updated_label": "2026-08-23 01:19",
-  "_last_attempt_at": 1787415531.860686,
-  "_last_success_at": 1787415531.860686,
+  "_fetched_at": 1787419174.7042596,
+  "_updated_label": "2026-08-23 02:20",
+  "_last_attempt_at": 1787419174.7042596,
+  "_last_success_at": 1787419174.7042596,
   "_collection_status": "ok",
   "_collection_errors": []
 };
