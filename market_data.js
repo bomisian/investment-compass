@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "For young Americans, the workplace is the new phoneless frontier. 'It allows us to hyper focus on the task at hand,' says employer",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
+      "datetime": 1787400001,
+      "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
+    },
+    {
       "headline": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUoyZkFhckp4LWRTcFQ5azZpNDRPZjdVNGNnUVBocG9kRkN4Yk5aSHZTczg0cWhudS1FRk1EbGhGemliM1VqZWVQMUphTkk4VmhyTVAzU2tOSVZ2WExhS0ExQnB6UlpDTmZ0UWJiU3ZpRFp6N2RjZkdsVTlJb2QzMmdfVXd5RlMyOXhSZ1ZRMkkzNDA4WFplS1ppeFg0QmNlUnNLM1M4OHlKam5VMnJF?oc=5",
       "datetime": 1787330017,
       "headlineKo": "터키, 가자 소함대 사건에서 네타냐후에 대해 인터폴 통지 요청 - 로이터 통신"
-    },
-    {
-      "headline": "Iran-linked oil tanker falls victim to Somali piracy surge - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlBmdExCTDN4OFl6N05iSGtIRlNWVWFvUFpjSVQwdVFWQkl1aTBrQVl2R1NJTmViMERuSXJFZ3NtRXVHZ1JTZ1RBMDIxZzFrN01kT212NlNhYkg3NThNdVZwbnota0ZWMHFEaXkycFBZTG0wUDNXTXpVOHZleUx3a3dMWjN6RGM3YWZMaTJfQV9sRjlobEJILWQwQXczYjdCZ19fbGlYZTVYQUJ2VGc?oc=5",
-      "datetime": 1787326114,
-      "headlineKo": "이란 관련 유조선, 소말리아 불법 복제 급증 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787400585.686285,
-  "_updated_label": "2026-08-22 21:10",
-  "_last_attempt_at": 1787400585.686285,
-  "_last_success_at": 1787400585.686285,
+  "_fetched_at": 1787404229.477393,
+  "_updated_label": "2026-08-22 22:10",
+  "_last_attempt_at": 1787404229.477393,
+  "_last_success_at": 1787404229.477393,
   "_collection_status": "ok",
   "_collection_errors": []
 };
