@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says Iran not ready to make the 'right deal' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
+      "datetime": 1787360700,
+      "headlineKo": "트럼프 \"이란은 '올바른 거래' 할 준비가 안 돼 있다\" - 로이터"
+    },
+    {
       "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTHlSZF9yRWg5VUF5TXFNTEprQW5QNUFFTmVGVVVsTWxxcDgxWS1QLTNOTVNZaWZablljSWpselpTUmstV2cxT0lzejN2RUJXcjVfdTRTMl9SWlJEa0xIRDFIMDMwUFdXdUdTWURHVENaZzdSMTRxZ29TUG1fRVlKRjdZUXQ5djFTcFlZQ3pWOWFIak43Snc?oc=5",
       "datetime": 1787318940,
       "headlineKo": "테헤란 전역, 트럼프와 이스라엘을 위협하는 광고판 - 로이터"
-    },
-    {
-      "headline": "Here are the top 10 things we're watching in the stock market Friday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/here-are-the-top-10-things-were-watching-in-the-stock-market-friday.html",
-      "datetime": 1787317176,
-      "headlineKo": "금요일 주식 시장에서 우리가 주목하는 상위 10가지 항목은 다음과 같습니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787367445.9013453,
-  "_updated_label": "2026-08-22 11:57",
-  "_last_attempt_at": 1787367445.9013453,
-  "_last_success_at": 1787367445.9013453,
+  "_fetched_at": 1787371146.1833742,
+  "_updated_label": "2026-08-22 12:59",
+  "_last_attempt_at": 1787371146.1833742,
+  "_last_success_at": 1787371146.1833742,
   "_collection_status": "ok",
   "_collection_errors": []
 };
