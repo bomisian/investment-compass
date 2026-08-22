@@ -3918,16 +3918,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787404215.5046358,
-    "_updated_label": "2026-08-22 22:10"
+    "_fetched_at": 1787407201.9818861,
+    "_updated_label": "2026-08-22 23:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787404215.5046358,
-    "_updated_label": "2026-08-22 22:10"
+    "_fetched_at": 1787407201.9818861,
+    "_updated_label": "2026-08-22 23:00"
   },
   "ORCL": {
     "annual": [
@@ -11340,13 +11340,13 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787404215.5046358,
-    "_updated_label": "2026-08-22 22:10",
+    "_fetched_at": 1787407201.9818861,
+    "_updated_label": "2026-08-22 23:00",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787404220.360782
+    "_yahoo_verified_at": 1787407206.9881124
   },
   "MOD": {
     "annual": [
