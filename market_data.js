@@ -219,18 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "For young Americans, the workplace is the new phoneless frontier. 'It allows us to hyper focus on the task at hand,' says employer",
+      "headline": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
-      "datetime": 1787400001,
-      "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
+      "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
+      "datetime": 1787407068,
+      "headlineKo": "미국-캐나다 무역협상 결렬, 새로운 관세 부과"
+    },
+    {
+      "headline": "How a physician with a 1 a.m. bedtime optimizes his health: I try to 'tick all the longevity boxes that I can'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/longevity-doctor-daily-habits-healthy-aging.html",
+      "datetime": 1787403901,
+      "headlineKo": "오전 1시에 취침하는 의사가 자신의 건강을 최적화하는 방법: 나는 '가능한 한 모든 장수 항목을 체크'하려고 노력합니다."
     },
     {
       "headline": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
-      "datetime": 1787388104,
+      "datetime": 1787401289,
       "headlineKo": "이란, 이라크 유조선 다수의 호르무즈 통과 허가 - 로이터"
+    },
+    {
+      "headline": "For young Americans, the workplace is the new phoneless frontier. 'It allows us to hyper focus on the task at hand,' says employer",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
+      "datetime": 1787400001,
+      "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
     },
     {
       "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/21/this-sleepy-sector-could-offer-big-returns-says-mike-khouw.html",
       "datetime": 1787333500,
       "headlineKo": "Mike Khouw는 이 잠잠한 부문이 큰 수익을 제공할 수 있다고 말합니다."
-    },
-    {
-      "headline": "NATO members discuss Strait of Hormuz options without alliance involvement - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeC1YSDVDa3NjOU9ndVc5Z2ZkNVp3Vjliay1ObVFfcUw3UGYtdFU0ZkpjVTkzNWVjQnN0dzNVaGMzUnFOeG04TkZFd21kN3FCRkVrNG9pdzg4VWQ4SHU1YkhBRTVJeF9xaFJTUlM1UnRBUVFYVHNjdk9uc1lkSF95OG5ZWTNWbkYtNVZCem9xWFdTTnBxc014Z0JTRktydjZ6TTY5MnBlcE40ZGhGUzQ4WngteHd4dzE0Y0JhcjNGaGhsS2c?oc=5",
-      "datetime": 1787331112,
-      "headlineKo": "NATO 회원국, 동맹 참여 없이 호르무즈 해협 옵션 논의 - 로이터"
-    },
-    {
-      "headline": "Turkey to seek Interpol notice for Netanyahu in Gaza flotilla case - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVUoyZkFhckp4LWRTcFQ5azZpNDRPZjdVNGNnUVBocG9kRkN4Yk5aSHZTczg0cWhudS1FRk1EbGhGemliM1VqZWVQMUphTkk4VmhyTVAzU2tOSVZ2WExhS0ExQnB6UlpDTmZ0UWJiU3ZpRFp6N2RjZkdsVTlJb2QzMmdfVXd5RlMyOXhSZ1ZRMkkzNDA4WFplS1ppeFg0QmNlUnNLM1M4OHlKam5VMnJF?oc=5",
-      "datetime": 1787330017,
-      "headlineKo": "터키, 가자 소함대 사건에서 네타냐후에 대해 인터폴 통지 요청 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787404229.477393,
-  "_updated_label": "2026-08-22 22:10",
-  "_last_attempt_at": 1787404229.477393,
-  "_last_success_at": 1787404229.477393,
+  "_fetched_at": 1787407873.3254104,
+  "_updated_label": "2026-08-22 23:11",
+  "_last_attempt_at": 1787407873.3254104,
+  "_last_success_at": 1787407873.3254104,
   "_collection_status": "ok",
   "_collection_errors": []
 };
