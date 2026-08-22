@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
+      "datetime": 1787413537,
+      "headlineKo": "미국 유조선 2대가 배치 후 이란을 화나게 한 지 한 달 만에 불가리아를 떠난다 - 로이터"
+    },
+    {
+      "headline": "Airbnb's new fee change frustrates hosts—what to know before renting out your home",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/airbnb-fee-change-frustrates-hosts-what-to-know-before-listing.html",
+      "datetime": 1787407201,
+      "headlineKo": "에어비앤비의 새로운 수수료 변경으로 인해 호스트가 당황스러워졌습니다. 집을 임대하기 전에 알아야 할 사항"
+    },
+    {
       "headline": "38-year-old runs a mobile pizzeria out of his Smart car in New York City: It's 'like a circus or a magic act'",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/22/bradley-alvelo-runs-pizza-pod-mobile-pizzeria-smart-car-new-york-city.html",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblVNM2JWT0l4cUVHSzdxOHRqaDg2QlEzaFh2V0FkQmdobHNQeHgwZUx0M2JrOFN4Rm9ia1ZlS0g3Y2VoNGFtbVlpaXlNczktaHRwM2NCZk9jU190SkFCZWJaUGRwLXdZUkdOeEpxTzJsd1BsUGlzR0xsZFBEVEtZOVI2T2d4OW9HRE9ZcU9ZUTB2QjFaWVdyUHV3NExhaUx6NVQxTllkZHdCeUVPWUdIdXVjaWxWUQ?oc=5",
       "datetime": 1787348362,
       "headlineKo": "WSJ는 드리스콜 미 육군장관이 올해 말 사임할 것으로 예상된다고 보도했다."
-    },
-    {
-      "headline": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-      "datetime": 1787340081,
-      "headlineKo": "Ray Dalio는 Bessent의 움직임이 부채 위기가 가까워지고 있다는 신호라고 말했습니다. 금과 비트코인을 추천합니다"
-    },
-    {
-      "headline": "An overlooked AI winner names a new CFO — plus, Nvidia's key earnings loom",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/an-overlooked-ai-winner-taps-new-cfo-as-street-awaits-nvidia.html",
-      "datetime": 1787338505,
-      "headlineKo": "간과된 AI 승자가 새로운 CFO를 임명했습니다. 게다가 Nvidia의 주요 수익도 불투명합니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787419174.7042596,
-  "_updated_label": "2026-08-23 02:20",
-  "_last_attempt_at": 1787419174.7042596,
-  "_last_success_at": 1787419174.7042596,
+  "_fetched_at": 1787422833.2399793,
+  "_updated_label": "2026-08-23 03:20",
+  "_last_attempt_at": 1787422833.2399793,
+  "_last_success_at": 1787422833.2399793,
   "_collection_status": "ok",
   "_collection_errors": []
 };
