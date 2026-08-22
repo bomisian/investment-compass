@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
+      "datetime": 1787388104,
+      "headlineKo": "이란, 이라크 유조선 다수의 호르무즈 통과 허가 - 로이터"
+    },
+    {
       "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPdlBmdExCTDN4OFl6N05iSGtIRlNWVWFvUFpjSVQwdVFWQkl1aTBrQVl2R1NJTmViMERuSXJFZ3NtRXVHZ1JTZ1RBMDIxZzFrN01kT212NlNhYkg3NThNdVZwbnota0ZWMHFEaXkycFBZTG0wUDNXTXpVOHZleUx3a3dMWjN6RGM3YWZMaTJfQV9sRjlobEJILWQwQXczYjdCZ19fbGlYZTVYQUJ2VGc?oc=5",
       "datetime": 1787326114,
       "headlineKo": "이란 관련 유조선, 소말리아 불법 복제 급증 - 로이터 통신"
-    },
-    {
-      "headline": "Iran says Tehran must overcome 'unjust sanctions' as US ramps up economic pressure - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
-      "datetime": 1787325499,
-      "headlineKo": "이란은 미국이 경제적 압박을 강화함에 따라 테헤란이 '부당한 제재'를 극복해야 한다고 말했습니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787389610.263602,
-  "_updated_label": "2026-08-22 18:07",
-  "_last_attempt_at": 1787389610.263602,
-  "_last_success_at": 1787389610.263602,
+  "_fetched_at": 1787393291.740535,
+  "_updated_label": "2026-08-22 19:08",
+  "_last_attempt_at": 1787393291.740535,
+  "_last_success_at": 1787393291.740535,
   "_collection_status": "ok",
   "_collection_errors": []
 };
