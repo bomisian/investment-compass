@@ -219,10 +219,17 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
+      "datetime": 1787375040,
+      "headlineKo": "트럼프, 외교정책 승리도 부족해 중간선거에 돌입 - 로이터"
+    },
+    {
       "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-      "datetime": 1787371863,
+      "datetime": 1787360700,
       "headlineKo": "미국과 이란, 새로운 제재를 앞두고 적대적인 수사 계속 - 로이터"
     },
     {
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ1k1ZnYtdXFiVWJvUVdmQlJLR1hWN1czeTU1Vkt5VFEyWkNISDhnUHVBY1hLb1JMdnp1dmRxU3Z6WG9wNlZRUmVZaUZxeVJVOERnX0QzeEVuU1FPbzByQ29EQXBvMzJrSkZWOWdkV0pHYUlfYkNTcFZDaTc3cUdLMzdmemlmV2hhUlYzdDFwUHpMcE9oSVZCbXlGYzM2LW9DcEFBdl9kSHRwOF9PdUtUMjdaWUZ5Rm90aFh4blpzaXhXUkZSU0ZPNzRvRQ?oc=5",
       "datetime": 1787325499,
       "headlineKo": "이란은 미국이 경제적 압박을 강화함에 따라 테헤란이 '부당한 제재'를 극복해야 한다고 말했습니다."
-    },
-    {
-      "headline": "Ken Griffin says Citadel unwound more than 80% of risk tied to Situational Awareness portfolio",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/citadel-situational-awareness-ken-griffin.html",
-      "datetime": 1787324880,
-      "headlineKo": "Ken Griffin은 Citadel이 상황 인식 포트폴리오와 관련된 위험의 80% 이상을 해소했다고 말했습니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787382092.751037,
-  "_updated_label": "2026-08-22 16:01",
-  "_last_attempt_at": 1787382092.751037,
-  "_last_success_at": 1787382092.751037,
+  "_fetched_at": 1787385731.553865,
+  "_updated_label": "2026-08-22 17:02",
+  "_last_attempt_at": 1787385731.553865,
+  "_last_success_at": 1787385731.553865,
   "_collection_status": "ok",
   "_collection_errors": []
 };
