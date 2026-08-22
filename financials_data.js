@@ -3918,16 +3918,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787396921.465,
-    "_updated_label": "2026-08-22 20:08"
+    "_fetched_at": 1787400001.398694,
+    "_updated_label": "2026-08-22 21:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787396921.465,
-    "_updated_label": "2026-08-22 20:08"
+    "_fetched_at": 1787400001.398694,
+    "_updated_label": "2026-08-22 21:00"
   },
   "ORCL": {
     "annual": [
@@ -11340,13 +11340,13 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787396921.465,
-    "_updated_label": "2026-08-22 20:08",
+    "_fetched_at": 1787400001.398694,
+    "_updated_label": "2026-08-22 21:00",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787396926.0424614
+    "_yahoo_verified_at": 1787400006.138633
   },
   "MOD": {
     "annual": [
@@ -11644,7 +11644,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787311136.111286,
-    "_updated_label": "2026-08-21 20:19",
+    "_updated_label": "2026-08-22 21:00",
     "_data_quality_version": 3,
     "_quarterly_eps_history": [
       {
@@ -11670,7 +11670,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787311146.4858222,
+    "_yahoo_verified_at": 1787400006.138633,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   }
 };
