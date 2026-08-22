@@ -2,11 +2,11 @@
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
   "modelVersion": "fundamental-v1.3",
-  "generatedAt": 1787410811.2071278,
+  "generatedAt": 1787411909.201723,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.2,
       "confidence": 100,
@@ -335,7 +335,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 8.2,
           "confidence": 100,
@@ -378,7 +378,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -396,9 +396,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 12.8,
+      "fundamentalScore": 13.8,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -417,7 +417,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 9.259999999999998,
+          "score": 14.860000000000001,
           "applicable": true
         },
         "earningsQuality": {
@@ -437,7 +437,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 11.6203,
+          "score": 9.0203,
           "applicable": true
         }
       },
@@ -468,6 +468,36 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+          "eventLabel": "워런트·신주·희석 가능성",
+          "publishedAt": 1787374021,
+          "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+          "verificationStatus": "needs_confirmation",
+          "reason": "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성",
+          "direction": "negative",
+          "impact": -5.0
+        },
+        {
+          "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787353957,
+          "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+          "verificationStatus": "needs_confirmation",
+          "reason": "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "Google AI 파트너십 확장 후 Marvell Technology(MRVL) 주식 공정 가치가 더 높아졌습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1787350242,
+          "sourceUrl": "https://finnhub.io/api/news?id=4606ed97a124a5f7d5e42efc68f840b45657a022b36e2d2ddae287c35651dd8e",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 4.0
+        },
         {
           "headline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -517,44 +547,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "회사 실적과의 연결고리 확인",
           "direction": "positive",
           "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Alphabet과의 새로운 AI 거래에도 불구하고 매우 위험합니다",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787148912,
-          "sourceUrl": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Alphabet의 거래를 따냈습니다. 모든 것이 변경됩니다(업그레이드)",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787147454,
-          "sourceUrl": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Google이 최대 122억 달러의 주식을 매입할 수 있는 AI 칩 거래에서 6%의 이익을 얻습니다.",
-          "eventLabel": "경쟁사 공급 계약",
-          "publishedAt": 1787137685,
-          "sourceUrl": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb",
-          "verificationStatus": "needs_confirmation",
-          "reason": "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성",
-          "direction": "positive",
-          "impact": 4.0
         }
       ],
       "topPositive": [
+        "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성",
         "사업·실적 연결 경로 확인 필요",
-        "사업·실적 연결 경로 확인 필요",
-        "회사 실적과의 연결고리 확인"
+        "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
+        "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성",
         "사업·실적 연결 경로 확인 필요",
         "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
       ],
@@ -570,7 +571,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 9.3,
+          "score": 14.9,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -594,7 +595,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 12.0,
+          "score": 11.2,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -603,9 +604,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.1,
+        "bull": 34.3,
         "base": 39.1,
-        "bear": 26.8
+        "bear": 26.6
       },
       "alerts": [],
       "businessProfile": {
@@ -615,6 +616,30 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+            "eventLabel": "워런트·신주·희석 가능성",
+            "publishedAt": 1787374021,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+            "reason": "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성"
+          },
+          {
+            "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787353957,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+            "reason": "TPU 공급업체 다변화와 특정 공급사 의존도 완화 가능성"
+          },
+          {
+            "headline": "Google AI 파트너십 확장 후 Marvell Technology(MRVL) 주식 공정 가치가 더 높아졌습니다.",
+            "eventLabel": "주요 고객 계약",
+            "publishedAt": 1787350242,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=4606ed97a124a5f7d5e42efc68f840b45657a022b36e2d2ddae287c35651dd8e",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
           {
             "headline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
             "eventLabel": "AI·데이터센터 투자 변화",
@@ -638,30 +663,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
             "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "Marvell Technology: Google과의 122억 달러 규모의 거래가 엄청나게 유익한 이유",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787221144,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=0cc7f51ab765279a8768d07c2f8734e8112595c50744b39a0c87b0b99b7ed788",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "Marvell, Google 거래에 뛰어들다",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787161425,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=51ace3d5fb5d7a5b702eb2d19980758b78e0c04d20dd7e908a3abb0d3b8ae002",
-            "reason": "회사 실적과의 연결고리 확인"
-          },
-          {
-            "headline": "Marvell은 Alphabet과의 새로운 AI 거래에도 불구하고 매우 위험합니다",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787148912,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918",
-            "reason": "회사 실적과의 연결고리 확인"
           }
         ],
         "status": "available",
@@ -738,9 +739,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 340.0,
         "analystTargetHigh": 515.0,
         "evidenceWeights": {
-          "bull": 34.1,
+          "bull": 34.3,
           "base": 39.1,
-          "bear": 26.8
+          "bear": 26.6
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -800,17 +801,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 12.8,
+          "fundamentalScore": 13.8,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 34.1,
+            "bull": 34.3,
             "base": 39.1,
-            "bear": 26.8
+            "bear": 26.6
           },
           "currentPrice": 344.82000732421875,
           "valuationGap": 0.3892,
@@ -843,7 +844,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -861,7 +862,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -0.7,
       "confidence": 95.0,
@@ -1144,7 +1145,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": -0.7,
           "confidence": 95.0,
@@ -1187,7 +1188,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -1205,7 +1206,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.1,
       "confidence": 100,
@@ -1582,7 +1583,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 9.1,
           "confidence": 100,
@@ -1625,7 +1626,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -1643,9 +1644,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 6.9,
+      "fundamentalScore": 3.9,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -1658,13 +1659,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -0.42,
       "priceDamage": 13.9,
-      "fundamentalDamage": 9.9,
-      "thesisDamage": 98.0,
+      "fundamentalDamage": 69.2,
+      "thesisDamage": 100,
       "thesisStatus": "damaged",
-      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
+      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": 11.596666499999998,
+          "score": -0.28333350000000007,
           "applicable": true
         },
         "earningsQuality": {
@@ -1702,10 +1703,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 1,
         "credibleReports": 0,
-        "needsConfirmation": 8,
-        "aiInferences": 8
+        "needsConfirmation": 5,
+        "aiInferences": 5
       },
       "evidence": [
+        {
+          "headline": "모든 S&P 500 인덱스 펀드 소유자는 Apple보다 Nvidia를 더 많이 보유하고 있습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1787391121,
+          "sourceUrl": "https://finnhub.io/api/news?id=bd4f750c40540d512caea103877ee7b76543da7f09a057e562044f77890fed31",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
           "eventLabel": "규제·소송·수출 제한",
@@ -1745,56 +1756,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "negative",
           "impact": -4.0
-        },
-        {
-          "headline": "보고된 Apple 공급업체 위협에도 불구하고 마이크론 주가 상승",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1786392471,
-          "sourceUrl": "https://finnhub.io/api/news?id=51fea410f251d2efb829da27462a179e0ef0fcf273b56fb0a616fd68fe522364",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "애플이 전 세계적인 부족 상황 속에서 아이폰, 맥북용 중국산 메모리 칩을 테스트하고 있는 것으로 알려졌습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1786385747,
-          "sourceUrl": "https://finnhub.io/api/news?id=29aaf140cb2ed909321ab2a99380f77b4f570ee5733f216a0da8df65ad82f421",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "negative",
-          "impact": -4.0
-        },
-        {
-          "headline": "MSFT 주식, 올해 최고 수준 기록: Microsoft, AI 칩 생산량 증가 보도",
-          "eventLabel": "실적 발표",
-          "publishedAt": 1786380865,
-          "sourceUrl": "https://finnhub.io/api/news?id=d83f4d38a5ddf96afc007fea6d9b45885d617167e90700791ab7fc9ecca51282",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "negative",
-          "impact": -2.0
-        },
-        {
-          "headline": "Apple, iPhone, MacBook용 CXMT 중국 메모리 칩 테스트",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1786368357,
-          "sourceUrl": "https://finnhub.io/api/news?id=6fa7b31205424356e183cae0c4e58fa7d136ba7b686dc4c903ac8ab01cb3be49",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "positive",
-          "impact": 4.0
         }
       ],
-      "topPositive": [
-        "사업·실적 연결 경로 확인 필요",
-        "회사 실적과의 연결고리 확인"
-      ],
+      "topPositive": [],
       "topNegative": [
+        "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요",
-        "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
-        "회사 실적과의 연결고리 확인"
+        "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
@@ -1808,7 +1776,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 11.6,
+          "score": -0.3,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -1841,9 +1809,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 21.6,
-        "base": 36.7,
-        "bear": 41.7
+        "bull": 20.8,
+        "base": 36.8,
+        "bear": 42.4
       },
       "alerts": [],
       "businessProfile": {
@@ -1853,6 +1821,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "모든 S&P 500 인덱스 펀드 소유자는 Apple보다 Nvidia를 더 많이 보유하고 있습니다.",
+            "eventLabel": "공급망 문제",
+            "publishedAt": 1787391121,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=bd4f750c40540d512caea103877ee7b76543da7f09a057e562044f77890fed31",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
             "eventLabel": "규제·소송·수출 제한",
@@ -1884,22 +1860,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=5dde94cd3b8300f913fde5fb98794701c69bc5e0d4e729aee0641f5b85b2c50e",
             "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "보고된 Apple 공급업체 위협에도 불구하고 마이크론 주가 상승",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1786392471,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=51fea410f251d2efb829da27462a179e0ef0fcf273b56fb0a616fd68fe522364",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "애플이 전 세계적인 부족 상황 속에서 아이폰, 맥북용 중국산 메모리 칩을 테스트하고 있는 것으로 알려졌습니다.",
-            "eventLabel": "공급망 문제",
-            "publishedAt": 1786385747,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=29aaf140cb2ed909321ab2a99380f77b4f570ee5733f216a0da8df65ad82f421",
-            "reason": "회사 실적과의 연결고리 확인"
           }
         ],
         "status": "available",
@@ -1940,9 +1900,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 215.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 21.6,
-          "base": 36.7,
-          "bear": 41.7
+          "bull": 20.8,
+          "base": 36.8,
+          "bear": 42.4
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2002,17 +1962,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 6.9,
+          "fundamentalScore": 3.9,
           "confidence": 100,
-          "fundamentalDamage": 9.9,
-          "thesisDamage": 98.0,
+          "fundamentalDamage": 69.2,
+          "thesisDamage": 100,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 21.6,
-            "base": 36.7,
-            "bear": 41.7
+            "bull": 20.8,
+            "base": 36.8,
+            "bear": 42.4
           },
           "currentPrice": 309.3500061035156,
           "valuationGap": -0.0763,
@@ -2045,7 +2005,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -2063,10 +2023,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 14.2,
-      "confidence": 85.0,
+      "fundamentalScore": 12.9,
+      "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -2078,13 +2038,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 2.18,
       "priceDamage": 72.6,
-      "fundamentalDamage": 0,
-      "thesisDamage": 0,
+      "fundamentalDamage": 7.5,
+      "thesisDamage": 7.0,
       "thesisStatus": "intact",
       "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
       "dimensions": {
         "growth": {
-          "score": 14.819999999999999,
+          "score": 12.74,
           "applicable": true
         },
         "earningsQuality": {
@@ -2104,7 +2064,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 19.0316,
+          "score": 13.781600000000001,
           "applicable": true
         }
       },
@@ -2131,10 +2091,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 1,
-        "aiInferences": 1
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
+        {
+          "headline": "미국 주식 지수는 장기 국채 수익률 상승으로 인한 압력으로 주말 하락세 — PSKY, MSTR, WMT, TSLA, NVDA 집중",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787352524,
+          "sourceUrl": "https://finnhub.io/api/news?id=c391ed03d42e61632a99f98d9ca8ec0f32a5195b33a7b6127966b427202f7024",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "Tesla Optimus 라이벌 Unitree Robotics, 상하이 데뷔에서 629% 폭발, 일시적으로 660억 달러 가치 달성",
           "eventLabel": "경쟁사 공급 계약",
@@ -2149,7 +2119,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topPositive": [
         "사업·실적 연결 경로 확인 필요"
       ],
-      "topNegative": [],
+      "topNegative": [
+        "회사 실적과의 연결고리 확인"
+      ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
         "공식 가이던스 대비 실제 매출 달성 여부",
@@ -2162,8 +2134,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 14.8,
-          "confidence": 85.0,
+          "score": 12.7,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2175,7 +2147,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 56.8,
-          "confidence": 85.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2186,8 +2158,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 6.3,
-          "confidence": 85.0,
+          "score": 4.6,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2195,9 +2167,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.1,
-        "base": 39.2,
-        "bear": 26.7
+        "bull": 33.1,
+        "base": 39.0,
+        "bear": 27.9
       },
       "alerts": [],
       "businessProfile": {
@@ -2207,6 +2179,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "미국 주식 지수는 장기 국채 수익률 상승으로 인한 압력으로 주말 하락세 — PSKY, MSTR, WMT, TSLA, NVDA 집중",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787352524,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=c391ed03d42e61632a99f98d9ca8ec0f32a5195b33a7b6127966b427202f7024",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "Tesla Optimus 라이벌 Unitree Robotics, 상하이 데뷔에서 629% 폭발, 일시적으로 660억 달러 가치 달성",
             "eventLabel": "경쟁사 공급 계약",
@@ -2264,9 +2244,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 125.0,
         "analystTargetHigh": 600.0,
         "evidenceWeights": {
-          "bull": 34.1,
-          "base": 39.2,
-          "bear": 26.7
+          "bull": 33.1,
+          "base": 39.0,
+          "bear": 27.9
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -2326,17 +2306,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 14.2,
-          "confidence": 85.0,
-          "fundamentalDamage": 0,
-          "thesisDamage": 0,
+          "fundamentalScore": 12.9,
+          "confidence": 90.0,
+          "fundamentalDamage": 7.5,
+          "thesisDamage": 7.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 34.1,
-            "base": 39.2,
-            "bear": 26.7
+            "bull": 33.1,
+            "base": 39.0,
+            "bear": 27.9
           },
           "currentPrice": 362.8599853515625,
           "valuationGap": -0.1813,
@@ -2369,7 +2349,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -2387,7 +2367,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 28.2,
       "confidence": 100,
@@ -2455,10 +2435,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 7,
-        "aiInferences": 7
+        "needsConfirmation": 8,
+        "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "Oracle의 VA 계약이 170억 달러 증가했습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1787344885,
+          "sourceUrl": "https://finnhub.io/api/news?id=b9983b40991e9ebf3fe564ca0e83bc6f35ad1292e859367d5059a557de848eb8",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
         {
           "headline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
           "eventLabel": "규제·소송·수출 제한",
@@ -2531,9 +2521,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "topPositive": [
+        "회사 실적과의 연결고리 확인",
         "OCI 서비스 범위 확대 가능성, 매출화 시점 불확실",
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "OCI 서비스 범위 확대 가능성, 매출화 시점 불확실"
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
       ],
       "topNegative": [
         "클라우드 수요와 자본 부담 동시 확대"
@@ -2596,6 +2586,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Oracle의 VA 계약이 170억 달러 증가했습니다.",
+            "eventLabel": "주요 고객 계약",
+            "publishedAt": 1787344885,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=b9983b40991e9ebf3fe564ca0e83bc6f35ad1292e859367d5059a557de848eb8",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
+          {
             "headline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
             "eventLabel": "규제·소송·수출 제한",
             "publishedAt": 1787301459,
@@ -2633,14 +2631,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1786536581,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=d79f08414cca50954c6b154b44a0879cf7c5103e710110d575988f156f77dc86",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
-          },
-          {
-            "headline": "Quantum Cloud 경쟁이 가열됨에 따라 Quantinuum, Oracle 계약 성사: '엔터프라이즈 컴퓨팅의 다음 단계'",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1786514798,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=22aa240f54a202d18a701589ae11d3cc64385d6f83e41a447c68b041e86befd6",
             "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           }
         ],
@@ -2781,7 +2771,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 28.2,
           "confidence": 100,
@@ -2824,7 +2814,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2842,10 +2832,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 9.7,
-      "confidence": 85.0,
+      "fundamentalScore": 9.1,
+      "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -2857,13 +2847,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 1.87,
       "priceDamage": 62.4,
-      "fundamentalDamage": 0,
+      "fundamentalDamage": 1.2,
       "thesisDamage": 0,
       "thesisStatus": "intact",
       "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
       "dimensions": {
         "growth": {
-          "score": 6.4433333333333325,
+          "score": 7.163333333333334,
           "applicable": true
         },
         "earningsQuality": {
@@ -2883,7 +2873,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 9.6734,
+          "score": 4.423400000000001,
           "applicable": true
         }
       },
@@ -2901,10 +2891,30 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 1,
         "credibleReports": 0,
-        "needsConfirmation": 1,
-        "aiInferences": 1
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
+        {
+          "headline": "Salesforce(CRM)는 AgentExchange에 코드 계약 관리 앱을 추가하지 않습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1787378897,
+          "sourceUrl": "https://finnhub.io/api/news?id=e1d5fa24a1b5d9aae612b93d57781a8f53af8ce1888ad84da28487ab921cbb64",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
+        {
+          "headline": "Arista Networks vs. Salesforce: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787361159,
+          "sourceUrl": "https://finnhub.io/api/news?id=6ea1b2100a38d7a49a7bdb4e6a2dfa06eaba295f18ed95892b4ec945feb3a97f",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
           "eventLabel": "애널리스트 목표주가 변경",
@@ -2917,9 +2927,12 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "topPositive": [
+        "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
-      "topNegative": [],
+      "topNegative": [
+        "회사 실적과의 연결고리 확인"
+      ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
         "공식 가이던스 대비 실제 매출 달성 여부",
@@ -2932,8 +2945,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 6.4,
-          "confidence": 85.0,
+          "score": 7.2,
+          "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -2945,7 +2958,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.9,
-          "confidence": 85.0,
+          "confidence": 95.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -2956,8 +2969,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 3.2,
-          "confidence": 85.0,
+          "score": 1.5,
+          "confidence": 95.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -2977,6 +2990,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Salesforce(CRM)는 AgentExchange에 코드 계약 관리 앱을 추가하지 않습니다.",
+            "eventLabel": "주요 고객 계약",
+            "publishedAt": 1787378897,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=e1d5fa24a1b5d9aae612b93d57781a8f53af8ce1888ad84da28487ab921cbb64",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
+          {
+            "headline": "Arista Networks vs. Salesforce: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787361159,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=6ea1b2100a38d7a49a7bdb4e6a2dfa06eaba295f18ed95892b4ec945feb3a97f",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
             "eventLabel": "애널리스트 목표주가 변경",
@@ -3105,11 +3134,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 9.7,
-          "confidence": 85.0,
-          "fundamentalDamage": 0,
+          "fundamentalScore": 9.1,
+          "confidence": 95.0,
+          "fundamentalDamage": 1.2,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
@@ -3148,7 +3177,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -3166,10 +3195,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 34.3,
-      "confidence": 95.0,
+      "fundamentalScore": 35.8,
+      "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -3183,7 +3212,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "priceDamage": 34.2,
       "fundamentalDamage": 0,
       "thesisDamage": 0,
-      "thesisStatus": "intact",
+      "thesisStatus": "strengthening",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
@@ -3199,7 +3228,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "competitivePosition": {
-          "score": -9.799999999999999,
+          "score": 0.0,
           "applicable": true
         },
         "customerDemand": {
@@ -3234,8 +3263,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 3,
-        "aiInferences": 3
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -3257,25 +3286,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체",
-          "eventLabel": "경쟁사 기술·시장 진입",
-          "publishedAt": 1786427893,
-          "sourceUrl": "https://finnhub.io/api/news?id=54ca110a49a968016a935b5cb0a0753251474f61448e8e40279b6248aefa4127",
-          "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "direction": "negative",
-          "impact": -4.0
         }
       ],
       "topPositive": [
         "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
-      "topNegative": [
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
-      ],
+      "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
         "공식 가이던스 대비 실제 매출 달성 여부",
@@ -3289,7 +3306,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 35.2,
-          "confidence": 95.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -3301,7 +3318,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 62.0,
-          "confidence": 95.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -3312,8 +3329,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 3.4,
-          "confidence": 95.0,
+          "score": 6.7,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -3321,9 +3338,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 38.7,
-        "base": 37.6,
-        "bear": 23.7
+        "bull": 39.0,
+        "base": 37.5,
+        "bear": 23.5
       },
       "alerts": [],
       "businessProfile": {
@@ -3348,14 +3365,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
             "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "비교 연구: Palantir 기술과 소프트웨어 산업의 업계 경쟁업체",
-            "eventLabel": "경쟁사 기술·시장 진입",
-            "publishedAt": 1786427893,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=54ca110a49a968016a935b5cb0a0753251474f61448e8e40279b6248aefa4127",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           }
         ],
         "status": "available",
@@ -3404,9 +3413,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 80.0,
         "analystTargetHigh": 255.0,
         "evidenceWeights": {
-          "bull": 38.7,
-          "base": 37.6,
-          "bear": 23.7
+          "bull": 39.0,
+          "base": 37.5,
+          "bear": 23.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -3466,17 +3475,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 34.3,
-          "confidence": 95.0,
+          "fundamentalScore": 35.8,
+          "confidence": 90.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
-          "thesisStatus": "intact",
+          "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 38.7,
-            "base": 37.6,
-            "bear": 23.7
+            "bull": 39.0,
+            "base": 37.5,
+            "bear": 23.5
           },
           "currentPrice": 179.94000244140625,
           "valuationGap": -0.3075,
@@ -3509,9 +3518,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "intact",
+          "overallStatus": "strengthening",
           "statuses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -3527,9 +3536,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 27.6,
+      "fundamentalScore": 26.2,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -3543,7 +3552,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "priceSigma": 0.14,
       "priceDamage": 4.6,
       "fundamentalDamage": 0,
-      "thesisDamage": 0,
+      "thesisDamage": 21.0,
       "thesisStatus": "strengthening",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
@@ -3568,7 +3577,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 16.1103,
+          "score": 7.360299999999999,
           "applicable": true
         }
       },
@@ -3591,6 +3600,46 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787398500,
+          "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "모든 S&P 500 인덱스 펀드 소유자는 Apple보다 Nvidia를 더 많이 보유하고 있습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1787391121,
+          "sourceUrl": "https://finnhub.io/api/news?id=bd4f750c40540d512caea103877ee7b76543da7f09a057e562044f77890fed31",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
+        {
+          "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1787357580,
+          "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 1.0
+        },
+        {
+          "headline": "미국 주식 지수는 장기 국채 수익률 상승으로 인한 압력으로 주말 하락세 — PSKY, MSTR, WMT, TSLA, NVDA 집중",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787352524,
+          "sourceUrl": "https://finnhub.io/api/news?id=c391ed03d42e61632a99f98d9ca8ec0f32a5195b33a7b6127966b427202f7024",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
+        {
           "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787324763,
@@ -3611,6 +3660,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "impact": -4.0
         },
         {
+          "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787300700,
+          "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
           "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787289244,
@@ -3619,64 +3678,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "AI 컴퓨팅 수요 확대 가능성",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787242528,
-          "sourceUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1787232003,
-          "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 1.0
-        },
-        {
-          "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787228312,
-          "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "Micron, 메모리 및 AI 발전을 위해 100억 달러 규모의 연구실 공개",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787220296,
-          "sourceUrl": "https://finnhub.io/api/news?id=51b5addae5e8d30c7c91c2a81c0092a081a4dbe5ff962ef44222663b91c57f83",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "CoreWeave, Nvidia 칩을 위한 월스트리트 경쟁으로 수십억 달러 규모의 Hudson River 거래 성사",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787219841,
-          "sourceUrl": "https://finnhub.io/api/news?id=8cfc4b742ab1b52daa98e5678147ad342d5e9dcaefdd61ad243bcce4ee50dc4c",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "positive",
-          "impact": 4.0
         }
       ],
       "topPositive": [
         "AI 컴퓨팅 수요 확대 가능성",
-        "AI 컴퓨팅 수요 확대 가능성",
+        "사업·실적 연결 경로 확인 필요",
         "AI 컴퓨팅 수요 확대 가능성"
       ],
       "topNegative": [
+        "사업·실적 연결 경로 확인 필요",
+        "사업·실적 연결 경로 확인 필요",
         "AI 컴퓨팅 수요 확대 가능성"
       ],
       "nextChecks": [
@@ -3715,7 +3726,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 5.4,
+          "score": 2.5,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -3724,11 +3735,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 37.3,
-        "base": 38.1,
-        "bear": 24.6
+        "bull": 34.6,
+        "base": 37.5,
+        "bear": 27.9
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "type": "thesis_damage",
+          "level": "중요",
+          "message": "Thesis 손상이 +21.0점 확대됐습니다."
+        }
+      ],
       "businessProfile": {
         "updatedAt": "2026-08-10",
         "customers": [
@@ -3765,6 +3782,38 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         ],
         "latestChanges": [
           {
+            "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787398500,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+            "reason": "AI 컴퓨팅 수요 확대 가능성"
+          },
+          {
+            "headline": "모든 S&P 500 인덱스 펀드 소유자는 Apple보다 Nvidia를 더 많이 보유하고 있습니다.",
+            "eventLabel": "공급망 문제",
+            "publishedAt": 1787391121,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=bd4f750c40540d512caea103877ee7b76543da7f09a057e562044f77890fed31",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
+            "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+            "eventLabel": "애널리스트 목표주가 변경",
+            "publishedAt": 1787357580,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
+            "headline": "미국 주식 지수는 장기 국채 수익률 상승으로 인한 압력으로 주말 하락세 — PSKY, MSTR, WMT, TSLA, NVDA 집중",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787352524,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=c391ed03d42e61632a99f98d9ca8ec0f32a5195b33a7b6127966b427202f7024",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787324763,
@@ -3778,38 +3827,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787301459,
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=78ec50cf42fcc10fcff5bdf09a62da923d9804a1534ff1738bdbbea873a9474a",
-            "reason": "AI 컴퓨팅 수요 확대 가능성"
-          },
-          {
-            "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787289244,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
-            "reason": "AI 컴퓨팅 수요 확대 가능성"
-          },
-          {
-            "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787242528,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
-            "reason": "AI 컴퓨팅 수요 확대 가능성"
-          },
-          {
-            "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-            "eventLabel": "애널리스트 목표주가 변경",
-            "publishedAt": 1787232003,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-            "reason": "AI 컴퓨팅 수요 확대 가능성"
-          },
-          {
-            "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787228312,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
             "reason": "AI 컴퓨팅 수요 확대 가능성"
           }
         ],
@@ -3869,9 +3886,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 180.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 37.3,
-          "base": 38.1,
-          "bear": 24.6
+          "bull": 34.6,
+          "base": 37.5,
+          "bear": 27.9
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -3931,17 +3948,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 27.6,
+          "fundamentalScore": 26.2,
           "confidence": 100,
           "fundamentalDamage": 0,
-          "thesisDamage": 0,
+          "thesisDamage": 21.0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 37.3,
-            "base": 38.1,
-            "bear": 24.6
+            "bull": 34.6,
+            "base": 37.5,
+            "bear": 27.9
           },
           "currentPrice": 214.72000122070312,
           "valuationGap": -0.3072,
@@ -3974,7 +3991,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3992,7 +4009,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 38.1,
       "confidence": 100,
@@ -4065,6 +4082,26 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787398500,
+          "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "Advanced Micro Devices와 Arm Holdings: 인공 지능 기업 간의 수익 추세 비교",
+          "eventLabel": "실적 발표",
+          "publishedAt": 1787346101,
+          "sourceUrl": "https://finnhub.io/api/news?id=00b00095b875a42cfd5f20d67e9a75de9328986f35d84ea949edb3554b8211f2",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
           "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787324763,
@@ -4085,10 +4122,30 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "impact": -4.0
         },
         {
+          "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787300700,
+          "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
           "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787289244,
           "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787256478,
+          "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
           "verificationStatus": "needs_confirmation",
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
           "direction": "positive",
@@ -4103,51 +4160,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1787232003,
-          "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 1.0
-        },
-        {
-          "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787228312,
-          "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "Micron, 메모리 및 AI 발전을 위해 100억 달러 규모의 연구실 공개",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787220296,
-          "sourceUrl": "https://finnhub.io/api/news?id=51b5addae5e8d30c7c91c2a81c0092a081a4dbe5ff962ef44222663b91c57f83",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "RBC Capital, Marvell Technology에 대한 우수한 성과 유지, $360 목표 가격 유지",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1787218279,
-          "sourceUrl": "https://finnhub.io/api/news?id=696e70aa6d42b97ca3cc4ffbebd4394239ab8ae1ab0be26558be876334ed35d1",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "direction": "positive",
-          "impact": 1.0
         }
       ],
       "topPositive": [
         "AI 가속기·서버 경쟁 수요 확대 가능성",
-        "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "사업·실적 연결 경로 확인 필요",
         "AI 가속기·서버 경쟁 수요 확대 가능성"
       ],
       "topNegative": [
@@ -4211,6 +4228,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787398500,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+          },
+          {
+            "headline": "Advanced Micro Devices와 Arm Holdings: 인공 지능 기업 간의 수익 추세 비교",
+            "eventLabel": "실적 발표",
+            "publishedAt": 1787346101,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=00b00095b875a42cfd5f20d67e9a75de9328986f35d84ea949edb3554b8211f2",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787324763,
@@ -4227,35 +4260,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
           },
           {
+            "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787300700,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
+            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+          },
+          {
             "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787289244,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
-            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-          },
-          {
-            "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787242528,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
-            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-          },
-          {
-            "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-            "eventLabel": "애널리스트 목표주가 변경",
-            "publishedAt": 1787232003,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-            "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-          },
-          {
-            "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787228312,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
             "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
           }
         ],
@@ -4369,7 +4386,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 38.1,
           "confidence": 100,
@@ -4412,7 +4429,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -4430,9 +4447,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 24.6,
+      "fundamentalScore": 21.5,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -4445,13 +4462,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -1.31,
       "priceDamage": 43.5,
-      "fundamentalDamage": 18.5,
+      "fundamentalDamage": 96.1,
       "thesisDamage": 100,
       "thesisStatus": "damaged",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 52.97666666666667,
+          "score": 43.21666666666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -4471,7 +4488,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 10.7382,
+          "score": 6.3382000000000005,
           "applicable": true
         }
       },
@@ -4503,14 +4520,24 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
-          "headline": "Broadcom의 최신 부채 거래",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787310979,
-          "sourceUrl": "https://finnhub.io/api/news?id=2c04227ae5351fa6a90d147eba0b15cb06cef2dd3553225b4a061c65c3016eeb",
+          "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+          "eventLabel": "워런트·신주·희석 가능성",
+          "publishedAt": 1787374021,
+          "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
           "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "direction": "positive",
-          "impact": 4.0
+          "reason": "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성",
+          "direction": "negative",
+          "impact": -5.0
+        },
+        {
+          "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787353957,
+          "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+          "verificationStatus": "needs_confirmation",
+          "reason": "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성",
+          "direction": "negative",
+          "impact": -4.0
         },
         {
           "headline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
@@ -4571,26 +4598,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
           "direction": "negative",
           "impact": -4.0
-        },
-        {
-          "headline": "SNDK, WDC, MU, SMCI 주식은 최고의 S&P 500 상승주입니다. SanDisk의 장밋빛 전망이 뒷받침하는 지속적인 기업 수요가 메모리 주식을 돕고 있습니다.",
-          "eventLabel": "실적 발표",
-          "publishedAt": 1786647929,
-          "sourceUrl": "https://finnhub.io/api/news?id=45f2789ca5cf4e831eafc73eb25852d2de89e03837693f4006bcebe38cb58c5e",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "negative",
-          "impact": -2.0
         }
       ],
       "topPositive": [
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
-        "사업·실적 연결 경로 확인 필요",
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성"
+        "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성",
+        "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성",
+        "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
@@ -4604,7 +4620,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 53.0,
+          "score": 43.2,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -4628,7 +4644,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "weakening",
-          "score": -13.5,
+          "score": -15.0,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -4637,9 +4653,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 24.9,
-        "base": 35.3,
-        "bear": 39.8
+        "bull": 24.3,
+        "base": 35.5,
+        "bear": 40.2
       },
       "alerts": [],
       "businessProfile": {
@@ -4650,12 +4666,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
-            "headline": "Broadcom의 최신 부채 거래",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787310979,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=2c04227ae5351fa6a90d147eba0b15cb06cef2dd3553225b4a061c65c3016eeb",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+            "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+            "eventLabel": "워런트·신주·희석 가능성",
+            "publishedAt": 1787374021,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+            "reason": "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성"
+          },
+          {
+            "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787353957,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+            "reason": "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성"
           },
           {
             "headline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
@@ -4688,14 +4712,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb",
             "reason": "Google 관련 고객 집중도와 AI 커스텀 실리콘 경쟁 심화 가능성"
-          },
-          {
-            "headline": "산업 비교: 반도체 및 반도체 장비 산업의 경쟁사와 Broadcom 평가",
-            "eventLabel": "경쟁사 기술·시장 진입",
-            "publishedAt": 1787119132,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=66c895b62d64dee0439b63f581116edbd2c44fce2e2d06a34d6b779ec506194a",
-            "reason": "회사 실적과의 연결고리 확인"
           }
         ],
         "status": "collecting",
@@ -4736,9 +4752,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 215.88,
         "analystTargetHigh": 675.0,
         "evidenceWeights": {
-          "bull": 24.9,
-          "base": 35.3,
-          "bear": 39.8
+          "bull": 24.3,
+          "base": 35.5,
+          "bear": 40.2
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -4798,17 +4814,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 24.6,
+          "fundamentalScore": 21.5,
           "confidence": 100,
-          "fundamentalDamage": 18.5,
+          "fundamentalDamage": 96.1,
           "thesisDamage": 100,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 24.9,
-            "base": 35.3,
-            "bear": 39.8
+            "bull": 24.3,
+            "base": 35.5,
+            "bear": 40.2
           },
           "currentPrice": 368.45001220703125,
           "valuationGap": -0.4048,
@@ -4841,7 +4857,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -4859,9 +4875,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 10.1,
+      "fundamentalScore": 9.5,
       "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -4880,7 +4896,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 4.626666666666668,
+          "score": 2.506666666666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -4932,6 +4948,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1787357580,
+          "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 1.0
+        },
+        {
           "headline": "Apple 제품을 구매하시나요? 비용을 지불하는 데 도움이 되는 4가지 도구",
           "eventLabel": "공급망 문제",
           "publishedAt": 1787212801,
@@ -4950,21 +4976,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "자동차 고객·설계 채택 확대 가능성",
           "direction": "positive",
           "impact": 4.0
-        },
-        {
-          "headline": "Matrix Asset의 David Katz는 지금이 Qualcomm을 인수하기에 좋은 시기라고 말합니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1786455466,
-          "sourceUrl": "https://finnhub.io/api/news?id=35e5940fda796b0603800d298b6751ee37ab5020ddb7526b898657638f9d07a0",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 2.0
         }
       ],
       "topPositive": [
-        "자동차 고객·설계 채택 확대 가능성",
-        "사업·실적 연결 경로 확인 필요"
+        "사업·실적 연결 경로 확인 필요",
+        "자동차 고객·설계 채택 확대 가능성"
       ],
       "topNegative": [
         "스마트폰 수요가 줄면 고객 칩 수요에 부담"
@@ -4981,7 +4997,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 4.6,
+          "score": 2.5,
           "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -5014,9 +5030,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.5,
-        "base": 39.3,
-        "bear": 27.2
+        "bull": 33.3,
+        "base": 39.4,
+        "bear": 27.3
       },
       "alerts": [],
       "businessProfile": {
@@ -5056,6 +5072,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         ],
         "latestChanges": [
           {
+            "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+            "eventLabel": "애널리스트 목표주가 변경",
+            "publishedAt": 1787357580,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "Apple 제품을 구매하시나요? 비용을 지불하는 데 도움이 되는 4가지 도구",
             "eventLabel": "공급망 문제",
             "publishedAt": 1787212801,
@@ -5070,14 +5094,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=2c735624fb50ccd89a37ffa477005a31cd44fe916a417b6d1b71673a990792f4",
             "reason": "자동차 고객·설계 채택 확대 가능성"
-          },
-          {
-            "headline": "Matrix Asset의 David Katz는 지금이 Qualcomm을 인수하기에 좋은 시기라고 말합니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1786455466,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=35e5940fda796b0603800d298b6751ee37ab5020ddb7526b898657638f9d07a0",
-            "reason": "사업·실적 연결 경로 확인 필요"
           }
         ],
         "status": "available",
@@ -5145,9 +5161,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 100.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 33.5,
-          "base": 39.3,
-          "bear": 27.2
+          "bull": 33.3,
+          "base": 39.4,
+          "bear": 27.3
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5207,17 +5223,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 10.1,
+          "fundamentalScore": 9.5,
           "confidence": 95.0,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.5,
-            "base": 39.3,
-            "bear": 27.2
+            "bull": 33.3,
+            "base": 39.4,
+            "bear": 27.3
           },
           "currentPrice": 160.75,
           "valuationGap": 0.0315,
@@ -5250,7 +5266,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -5268,9 +5284,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 25.3,
+      "fundamentalScore": 25.7,
       "confidence": 73.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -5289,7 +5305,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 27.146666,
+          "score": 28.546666000000002,
           "applicable": true
         },
         "earningsQuality": {
@@ -5322,6 +5338,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "ARM CFO는 칩 디자이너의 눈이 라이센스에서 칩 제조로 ​​이동함에 따라 '실리콘 제공이 확실히 더 복잡하다'고 말합니다: 보고서",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1786983815,
+          "sourceUrl": "https://finnhub.io/api/news?id=86b2c2b5374b53d7fe2a8a0338265f75e577ff8e8a9228a63f8d96027f522d00",
+          "verificationStatus": "needs_confirmation",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
+        {
           "headline": "훌륭한 회사, 정가: Arm의 수치가 향후 1년에 대해 말해주는 것",
           "eventLabel": "내부자 매도",
           "publishedAt": 1786627807,
@@ -5330,20 +5356,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "회사 실적과의 연결고리 확인",
           "direction": "negative",
           "impact": -3.0
-        },
-        {
-          "headline": "Arm Holdings(ARM)가 임베디드 AI 도구 거래 및 2026년 1분기 실적 이후 18.2% 상승한 이유",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1786381956,
-          "sourceUrl": "https://finnhub.io/api/news?id=69da1ad2660a9ed0f7f4fe85689ab1bf558c2fd0500dc843d1fbaf68788baecd",
-          "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
-          "direction": "positive",
-          "impact": 4.0
         }
       ],
       "topPositive": [
-        "회사 실적과의 연결고리 확인"
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
       ],
       "topNegative": [
         "회사 실적과의 연결고리 확인"
@@ -5360,7 +5376,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 27.1,
+          "score": 28.5,
           "confidence": 73.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -5393,9 +5409,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 36.3,
+        "bull": 36.4,
         "base": 38.5,
-        "bear": 25.2
+        "bear": 25.1
       },
       "alerts": [],
       "businessProfile": {
@@ -5406,19 +5422,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "ARM CFO는 칩 디자이너의 눈이 라이센스에서 칩 제조로 ​​이동함에 따라 '실리콘 제공이 확실히 더 복잡하다'고 말합니다: 보고서",
+            "eventLabel": "주요 고객 계약",
+            "publishedAt": 1786983815,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=86b2c2b5374b53d7fe2a8a0338265f75e577ff8e8a9228a63f8d96027f522d00",
+            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+          },
+          {
             "headline": "훌륭한 회사, 정가: Arm의 수치가 향후 1년에 대해 말해주는 것",
             "eventLabel": "내부자 매도",
             "publishedAt": 1786627807,
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=e5c68441c34702b7547b979a0f03e5f1f1106b77e3c372730060d55bc46c151e",
-            "reason": "회사 실적과의 연결고리 확인"
-          },
-          {
-            "headline": "Arm Holdings(ARM)가 임베디드 AI 도구 거래 및 2026년 1분기 실적 이후 18.2% 상승한 이유",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1786381956,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=69da1ad2660a9ed0f7f4fe85689ab1bf558c2fd0500dc843d1fbaf68788baecd",
             "reason": "회사 실적과의 연결고리 확인"
           }
         ],
@@ -5488,9 +5504,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 125.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 36.3,
+          "bull": 36.4,
           "base": 38.5,
-          "bear": 25.2
+          "bear": 25.1
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -5550,17 +5566,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 25.3,
+          "fundamentalScore": 25.7,
           "confidence": 73.5,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 36.3,
+            "bull": 36.4,
             "base": 38.5,
-            "bear": 25.2
+            "bear": 25.1
           },
           "currentPrice": 243.32000732421875,
           "valuationGap": -0.272,
@@ -5593,7 +5609,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -5611,9 +5627,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 35.8,
+      "fundamentalScore": 35.5,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -5632,7 +5648,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 52.72333266666667,
+          "score": 53.12333266666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -5652,7 +5668,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 10.7984,
+          "score": 8.148400000000002,
           "applicable": true
         }
       },
@@ -5683,6 +5699,36 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+          "eventLabel": "워런트·신주·희석 가능성",
+          "publishedAt": 1787374021,
+          "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -5.0
+        },
+        {
+          "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787353957,
+          "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+          "verificationStatus": "needs_confirmation",
+          "reason": "Google TPU 생태계 진입 가능성과 커스텀 실리콘 성장 기회",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "Google AI 파트너십 확장 후 Marvell Technology(MRVL) 주식 공정 가치가 더 높아졌습니다.",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1787350242,
+          "sourceUrl": "https://finnhub.io/api/news?id=4606ed97a124a5f7d5e42efc68f840b45657a022b36e2d2ddae287c35651dd8e",
+          "verificationStatus": "needs_confirmation",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
         {
           "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -5732,44 +5778,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "positive",
           "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Alphabet과의 새로운 AI 거래에도 불구하고 매우 위험합니다",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787148912,
-          "sourceUrl": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Alphabet의 거래를 따냈습니다. 모든 것이 변경됩니다(업그레이드)",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1787147454,
-          "sourceUrl": "https://finnhub.io/api/news?id=3d43c746f0dbb97241e734fe4bda17e4e10a8f572faa86b8719fb158727659c3",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "Marvell은 Google이 최대 122억 달러의 주식을 매입할 수 있는 AI 칩 거래에서 6%의 이익을 얻습니다.",
-          "eventLabel": "경쟁사 공급 계약",
-          "publishedAt": 1787137685,
-          "sourceUrl": "https://finnhub.io/api/news?id=c9b4190634fc00669c88233fc42770d49901fdc0f4b44de410eb9b78af92c5fb",
-          "verificationStatus": "needs_confirmation",
-          "reason": "Google TPU 생태계 진입 가능성과 커스텀 실리콘 성장 기회",
-          "direction": "positive",
-          "impact": 3.0
         }
       ],
       "topPositive": [
-        "사업·실적 연결 경로 확인 필요",
-        "회사 실적과의 연결고리 확인",
+        "Google TPU 생태계 진입 가능성과 커스텀 실리콘 성장 기회",
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
+        "회사 실적과의 연결고리 확인",
         "회사 실적과의 연결고리 확인"
       ],
       "nextChecks": [
@@ -5784,7 +5801,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 52.7,
+          "score": 53.1,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -5808,7 +5825,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 3.6,
+          "score": 2.7,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -5817,8 +5834,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 39.2,
-        "base": 37.4,
+        "bull": 39.1,
+        "base": 37.5,
         "bear": 23.4
       },
       "alerts": [],
@@ -5829,6 +5846,30 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+            "eventLabel": "워런트·신주·희석 가능성",
+            "publishedAt": 1787374021,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
+          {
+            "headline": "Broadcom(AVGO)은 Google이 Marvell과 AI 칩 관계를 확장한 후 6.2% 하락했습니다. - 변경된 사항",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787353957,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=385f87dc5a3077a001a300dcab06754fae86880aa05bd125bcc9fb850f436b75",
+            "reason": "Google TPU 생태계 진입 가능성과 커스텀 실리콘 성장 기회"
+          },
+          {
+            "headline": "Google AI 파트너십 확장 후 Marvell Technology(MRVL) 주식 공정 가치가 더 높아졌습니다.",
+            "eventLabel": "주요 고객 계약",
+            "publishedAt": 1787350242,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=4606ed97a124a5f7d5e42efc68f840b45657a022b36e2d2ddae287c35651dd8e",
+            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+          },
           {
             "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
             "eventLabel": "AI·데이터센터 투자 변화",
@@ -5851,30 +5892,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787218279,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=696e70aa6d42b97ca3cc4ffbebd4394239ab8ae1ab0be26558be876334ed35d1",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "Marvell: 거래와 희석은 모두 현실입니다",
-            "eventLabel": "워런트·신주·희석 가능성",
-            "publishedAt": 1787214238,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=b5fbd015aa9fe59291856988109e96ec2f864c527b3f49ec724d7fc320554a99",
-            "reason": "회사 실적과의 연결고리 확인"
-          },
-          {
-            "headline": "Marvell, Google 거래에 뛰어들다",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787161425,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=51ace3d5fb5d7a5b702eb2d19980758b78e0c04d20dd7e908a3abb0d3b8ae002",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "Marvell은 Alphabet과의 새로운 AI 거래에도 불구하고 매우 위험합니다",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1787148912,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=1fc826bb58c12a64eda93eedb38f7fef433fbd62aeeb51b0835e971898cc5918",
             "reason": "사업·실적 연결 경로 확인 필요"
           }
         ],
@@ -5924,8 +5941,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 126.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
-          "bull": 39.2,
-          "base": 37.4,
+          "bull": 39.1,
+          "base": 37.5,
           "bear": 23.4
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
@@ -5986,16 +6003,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 35.8,
+          "fundamentalScore": 35.5,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
-            "bull": 39.2,
-            "base": 37.4,
+            "bull": 39.1,
+            "base": 37.5,
             "bear": 23.4
           },
           "currentPrice": 237.0399932861328,
@@ -6029,7 +6046,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -6047,9 +6064,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 7.7,
+      "fundamentalScore": 9.3,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -6062,13 +6079,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -0.92,
       "priceDamage": 30.6,
-      "fundamentalDamage": 85.1,
+      "fundamentalDamage": 13.3,
       "thesisDamage": 28.0,
-      "thesisStatus": "damaged",
-      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
+      "thesisStatus": "intact",
+      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 27.169999333333333,
+          "score": 27.849999333333333,
           "applicable": true
         },
         "earningsQuality": {
@@ -6088,7 +6105,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": -5.045700000000002,
+          "score": 4.3043,
           "applicable": true
         }
       },
@@ -6113,12 +6130,72 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "evidenceSummary": {
-        "confirmedFacts": 4,
+        "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 6,
+        "needsConfirmation": 8,
         "aiInferences": 8
       },
       "evidence": [
+        {
+          "headline": "예측: 2030년 말까지 Palantir의 주가가 될 것입니다.",
+          "eventLabel": "실적 발표",
+          "publishedAt": 1787394900,
+          "sourceUrl": "https://finnhub.io/api/news?id=1a1e9cee3c5f01b21c88074e05d2c81bbf596cd5ce6df16601d859cf3bfeccf0",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
+          "eventLabel": "워런트·신주·희석 가능성",
+          "publishedAt": 1787374021,
+          "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -5.0
+        },
+        {
+          "headline": "인텔은 주당 95달러에 200억 달러 규모의 주식을 매각했습니다. 현재 $93 이하로 거래되고 있습니다.",
+          "eventLabel": "워런트·신주·희석 가능성",
+          "publishedAt": 1787362321,
+          "sourceUrl": "https://finnhub.io/api/news?id=df168fa33197a3cfe327cfb541dff88c722f6f5e002b77a51a8184aa265c1f3f",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -5.0
+        },
+        {
+          "headline": "Apple은 Siri 및 Vision Pro 팀의 인력 감축을 통해 AI 및 스마트 안경에 초점을 맞춘 것으로 알려졌습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787357701,
+          "sourceUrl": "https://finnhub.io/api/news?id=09e53b50ed5e0a2a9cbc83b8763d8c89305307a7897a706e836c8e4db69a32fa",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
+        {
+          "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+          "eventLabel": "애널리스트 목표주가 변경",
+          "publishedAt": 1787357580,
+          "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 1.0
+        },
+        {
+          "headline": "Advanced Micro Devices와 Arm Holdings: 인공 지능 기업 간의 수익 추세 비교",
+          "eventLabel": "실적 발표",
+          "publishedAt": 1787346101,
+          "sourceUrl": "https://finnhub.io/api/news?id=00b00095b875a42cfd5f20d67e9a75de9328986f35d84ea949edb3554b8211f2",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
         {
           "headline": "소식통에 따르면 브로드컴의 부채 거래 규모는 700억 달러 이상에 달할 것으로 예상됩니다.",
           "eventLabel": "경쟁사 공급 계약",
@@ -6130,74 +6207,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "impact": 3.0
         },
         {
-          "headline": "텐센트, 메타딜 청산으로 마누스 최대주주로 올라 텐센트, 페이스북 모기업 메타로부터 중국 인공지능 개발자 마누스 지분 인수해 최대 기업으로 성장",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1786621274,
-          "sourceUrl": "https://finnhub.io/api/news?id=d11879ecc00cfe961d0b9427413876c6169fb16bcb2b9b809664dd9b3c2a0d0d",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 4.0
-        },
-        {
-          "headline": "Alphabet, Amazon, Meta Platform 및 Microsoft: 이러한 주식 중 하나는 향후 12개월 동안 상승 여력이 가장 적은 것처럼 보이지만 문제가 있습니다.",
+          "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1786563660,
-          "sourceUrl": "https://finnhub.io/api/news?id=2743c4a0a093bef477eba4a0a9e9bc0ccb4677ce6623fa9695f0ae0caa6d1d6c",
+          "publishedAt": 1787300700,
+          "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
           "verificationStatus": "needs_confirmation",
           "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "분석가는 인텔의 200억 달러 자본 조달이 파운드리 사업에 대한 낙관적인 소식이라고 말합니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1786538449,
-          "sourceUrl": "https://finnhub.io/api/news?id=a56b79e8ef5dbb4aafe65515c8c15168b7e26bb4b9a60b5355b74b1b2aff97a5",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "인텔은 주식 공모를 200억 달러로 늘렸습니다. 이것이 ASML에게 좋은 소식인 이유.",
-          "eventLabel": "워런트·신주·희석 가능성",
-          "publishedAt": 1786480020,
-          "sourceUrl": "https://finnhub.io/api/news?id=a1496c06da8bffd21287216bd5731d6fa5deaa76fed8fba32205f989887bb8cb",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "negative",
-          "impact": -5.0
-        },
-        {
-          "headline": "INTC SEC Form 8-K 공식 제출",
-          "eventLabel": "중요사항 공시",
-          "publishedAt": 1786460400.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "mixed",
-          "impact": 0
-        },
-        {
-          "headline": "INTC SEC Form 424B5 공식 제출",
-          "eventLabel": "증권등록·투자설명서 제출",
-          "publishedAt": 1786460400.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "negative",
-          "impact": -5.0
-        },
-        {
-          "headline": "인텔이 주식 공모를 200억 달러로 늘리는 이유",
-          "eventLabel": "워런트·신주·희석 가능성",
-          "publishedAt": 1786437660,
-          "sourceUrl": "https://finnhub.io/api/news?id=cc3e9a957ec2390155fa739eefbc9e828aa31b53ed3f2e4c76dca4ccfd216c26",
-          "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "direction": "negative",
-          "impact": -5.0
         }
       ],
       "topPositive": [
@@ -6207,8 +6224,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "topNegative": [
         "사업·실적 연결 경로 확인 필요",
-        "SEC 제출 사실 확인, 세부 내용 분석 대기",
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        "회사 실적과의 연결고리 확인",
+        "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
@@ -6222,7 +6239,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 27.2,
+          "score": 27.8,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -6246,7 +6263,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": -1.7,
+          "score": 1.4,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -6255,9 +6272,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.8,
-        "base": 38.7,
-        "bear": 31.5
+        "bull": 30.1,
+        "base": 38.6,
+        "bear": 31.3
       },
       "alerts": [],
       "businessProfile": {
@@ -6268,52 +6285,52 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
-            "headline": "소식통에 따르면 브로드컴의 부채 거래 규모는 700억 달러 이상에 달할 것으로 예상됩니다.",
-            "eventLabel": "경쟁사 공급 계약",
-            "publishedAt": 1787313509,
+            "headline": "예측: 2030년 말까지 Palantir의 주가가 될 것입니다.",
+            "eventLabel": "실적 발표",
+            "publishedAt": 1787394900,
             "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=b3b41e43c9ac2b333f576f83346cbcd8b0303b5709bac4d8256b0d01b83dbd59",
+            "sourceUrl": "https://finnhub.io/api/news?id=1a1e9cee3c5f01b21c88074e05d2c81bbf596cd5ce6df16601d859cf3bfeccf0",
             "reason": "사업·실적 연결 경로 확인 필요"
           },
           {
-            "headline": "텐센트, 메타딜 청산으로 마누스 최대주주로 올라 텐센트, 페이스북 모기업 메타로부터 중국 인공지능 개발자 마누스 지분 인수해 최대 기업으로 성장",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1786621274,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=d11879ecc00cfe961d0b9427413876c6169fb16bcb2b9b809664dd9b3c2a0d0d",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "Alphabet, Amazon, Meta Platform 및 Microsoft: 이러한 주식 중 하나는 향후 12개월 동안 상승 여력이 가장 적은 것처럼 보이지만 문제가 있습니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1786563660,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=2743c4a0a093bef477eba4a0a9e9bc0ccb4677ce6623fa9695f0ae0caa6d1d6c",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "분석가는 인텔의 200억 달러 자본 조달이 파운드리 사업에 대한 낙관적인 소식이라고 말합니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1786538449,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=a56b79e8ef5dbb4aafe65515c8c15168b7e26bb4b9a60b5355b74b1b2aff97a5",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "인텔은 주식 공모를 200억 달러로 늘렸습니다. 이것이 ASML에게 좋은 소식인 이유.",
+            "headline": "Google은 Marvell의 칩 구매에 대해 Marvell 주식 영장으로 돈을 받고 있습니다.",
             "eventLabel": "워런트·신주·희석 가능성",
-            "publishedAt": 1786480020,
+            "publishedAt": 1787374021,
             "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=a1496c06da8bffd21287216bd5731d6fa5deaa76fed8fba32205f989887bb8cb",
+            "sourceUrl": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
             "reason": "사업·실적 연결 경로 확인 필요"
           },
           {
-            "headline": "INTC SEC Form 8-K 공식 제출",
-            "eventLabel": "중요사항 공시",
-            "publishedAt": 1786460400.0,
-            "direction": "mixed",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
-            "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
+            "headline": "인텔은 주당 95달러에 200억 달러 규모의 주식을 매각했습니다. 현재 $93 이하로 거래되고 있습니다.",
+            "eventLabel": "워런트·신주·희석 가능성",
+            "publishedAt": 1787362321,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=df168fa33197a3cfe327cfb541dff88c722f6f5e002b77a51a8184aa265c1f3f",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
+          {
+            "headline": "Apple은 Siri 및 Vision Pro 팀의 인력 감축을 통해 AI 및 스마트 안경에 초점을 맞춘 것으로 알려졌습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787357701,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=09e53b50ed5e0a2a9cbc83b8763d8c89305307a7897a706e836c8e4db69a32fa",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
+            "headline": "매수해야 할 최고의 반도체 주식은 AMD나 Qualcomm이 아닙니다. 바로 Nvidia이며, 우리의 데이터가 이를 증명합니다",
+            "eventLabel": "애널리스트 목표주가 변경",
+            "publishedAt": 1787357580,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=2ec3c53052e5e56bf744c5cccdbb59776bc76160fcad6a76ec0da00a099b49d6",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
+            "headline": "Advanced Micro Devices와 Arm Holdings: 인공 지능 기업 간의 수익 추세 비교",
+            "eventLabel": "실적 발표",
+            "publishedAt": 1787346101,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=00b00095b875a42cfd5f20d67e9a75de9328986f35d84ea949edb3554b8211f2",
+            "reason": "사업·실적 연결 경로 확인 필요"
           }
         ],
         "status": "available",
@@ -6390,9 +6407,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 75.0,
         "analystTargetHigh": 200.0,
         "evidenceWeights": {
-          "bull": 29.8,
-          "base": 38.7,
-          "bear": 31.5
+          "bull": 30.1,
+          "base": 38.6,
+          "bear": 31.3
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6452,17 +6469,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 7.7,
+          "fundamentalScore": 9.3,
           "confidence": 100,
-          "fundamentalDamage": 85.1,
+          "fundamentalDamage": 13.3,
           "thesisDamage": 28.0,
-          "thesisStatus": "damaged",
+          "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 29.8,
-            "base": 38.7,
-            "bear": 31.5
+            "bull": 30.1,
+            "base": 38.6,
+            "bear": 31.3
           },
           "currentPrice": 90.06999969482422,
           "valuationGap": -0.2584,
@@ -6495,9 +6512,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "damaged",
+          "overallStatus": "intact",
           "statuses": {
             "growth": "strengthening",
             "cashFlow": "damaged",
@@ -6513,10 +6530,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 21.6,
-      "confidence": 85.0,
+      "fundamentalScore": 21.2,
+      "confidence": 83.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -6530,11 +6547,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "priceDamage": 13.9,
       "fundamentalDamage": 0,
       "thesisDamage": 0,
-      "thesisStatus": "strengthening",
+      "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 25.896666666666665,
+          "score": 25.21666666666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -6554,18 +6571,38 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 18.6257,
+          "score": 16.8757,
           "applicable": true
         }
       },
       "officialEvidence": [],
       "evidenceSummary": {
-        "confirmedFacts": 3,
+        "confirmedFacts": 1,
         "credibleReports": 0,
-        "needsConfirmation": 3,
-        "aiInferences": 6
+        "needsConfirmation": 4,
+        "aiInferences": 5
       },
       "evidence": [
+        {
+          "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787256478,
+          "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "대만 반도체 대 ASML: 현재 어느 반도체 타이탄이 더 나은 구매인가요?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787219700,
+          "sourceUrl": "https://finnhub.io/api/news?id=1c69e4aaa4be8baa7aafad761b37f5892a77147655c0ac3ca8dc1af1d5ec17e8",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "20년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
@@ -6595,39 +6632,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "positive",
           "impact": 4.0
-        },
-        {
-          "headline": "MSFT 주식, 올해 최고 수준 기록: Microsoft, AI 칩 생산량 증가 보도",
-          "eventLabel": "실적 발표",
-          "publishedAt": 1786380865,
-          "sourceUrl": "https://finnhub.io/api/news?id=d83f4d38a5ddf96afc007fea6d9b45885d617167e90700791ab7fc9ecca51282",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "negative",
-          "impact": -2.0
-        },
-        {
-          "headline": "TSM SEC Form 6-K 공식 제출",
-          "eventLabel": "중요사항 공시",
-          "publishedAt": 1786374000.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000539/sonysemiconductorsolutions.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "mixed",
-          "impact": 0
-        },
-        {
-          "headline": "TSM SEC Form 6-K 공식 제출",
-          "eventLabel": "중요사항 공시",
-          "publishedAt": 1786374000.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "mixed",
-          "impact": 0
         }
       ],
       "topPositive": [
+        "사업·실적 연결 경로 확인 필요",
         "사업·실적 연결 경로 확인 필요",
         "사업·실적 연결 경로 확인 필요"
       ],
@@ -6646,8 +6654,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 25.9,
-          "confidence": 85.0,
+          "score": 25.2,
+          "confidence": 83.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -6659,7 +6667,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.6,
-          "confidence": 85.0,
+          "confidence": 83.5,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -6670,8 +6678,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 6.2,
-          "confidence": 85.0,
+          "score": 5.6,
+          "confidence": 83.5,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -6679,9 +6687,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 35.7,
+        "bull": 35.6,
         "base": 38.7,
-        "bear": 25.6
+        "bear": 25.7
       },
       "alerts": [],
       "businessProfile": {
@@ -6716,6 +6724,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         ],
         "latestChanges": [
           {
+            "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787256478,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
+            "headline": "대만 반도체 대 ASML: 현재 어느 반도체 타이탄이 더 나은 구매인가요?",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787219700,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=1c69e4aaa4be8baa7aafad761b37f5892a77147655c0ac3ca8dc1af1d5ec17e8",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "20년 전 대만 반도체에 투자한 1000달러가 오늘날 이 정도 가치가 될 것입니다.",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1786962640,
@@ -6738,30 +6762,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=14826e30a1bdde9f772f4961c2bcc688f62b80dd8111d0872189a8cd821cb167",
             "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "MSFT 주식, 올해 최고 수준 기록: Microsoft, AI 칩 생산량 증가 보도",
-            "eventLabel": "실적 발표",
-            "publishedAt": 1786380865,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=d83f4d38a5ddf96afc007fea6d9b45885d617167e90700791ab7fc9ecca51282",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "TSM SEC Form 6-K 공식 제출",
-            "eventLabel": "중요사항 공시",
-            "publishedAt": 1786374000.0,
-            "direction": "mixed",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000539/sonysemiconductorsolutions.htm",
-            "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-          },
-          {
-            "headline": "TSM SEC Form 6-K 공식 제출",
-            "eventLabel": "중요사항 공시",
-            "publishedAt": 1786374000.0,
-            "direction": "mixed",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm",
-            "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
           }
         ],
         "status": "available",
@@ -6802,9 +6802,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 440.0,
         "analystTargetHigh": 700.0,
         "evidenceWeights": {
-          "bull": 35.7,
+          "bull": 35.6,
           "base": 38.7,
-          "bear": 25.6
+          "bear": 25.7
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -6864,17 +6864,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 21.6,
-          "confidence": 85.0,
+          "fundamentalScore": 21.2,
+          "confidence": 83.5,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
-          "thesisStatus": "strengthening",
+          "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 35.7,
+            "bull": 35.6,
             "base": 38.7,
-            "bear": 25.6
+            "bear": 25.7
           },
           "currentPrice": 418.95001220703125,
           "valuationGap": -0.2242,
@@ -6907,9 +6907,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "strengthening",
+          "overallStatus": "intact",
           "statuses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -6925,10 +6925,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.1,
-      "confidence": 73.5,
+      "confidence": 78.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -6941,7 +6941,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "priceSigma": 0.42,
       "priceDamage": 14.0,
       "fundamentalDamage": 0,
-      "thesisDamage": 7.0,
+      "thesisDamage": 0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
@@ -6974,17 +6974,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 0,
         "credibleReports": 0,
-        "needsConfirmation": 2,
-        "aiInferences": 2
+        "needsConfirmation": 3,
+        "aiInferences": 3
       },
       "evidence": [
+        {
+          "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787256478,
+          "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 2.0
+        },
         {
           "headline": "ASML Holding N.V.(ASML) 대 Taiwan Semiconductor Manufacturing Company Limited(TSM): 주요 공급업체는 AI 붐을 따라잡을 수 있다고 말합니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1786541926,
           "sourceUrl": "https://finnhub.io/api/news?id=14826e30a1bdde9f772f4961c2bcc688f62b80dd8111d0872189a8cd821cb167",
           "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "reason": "회사 실적과의 연결고리 확인",
           "direction": "positive",
           "impact": 4.0
         },
@@ -7000,7 +7010,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "topPositive": [
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        "사업·실적 연결 경로 확인 필요",
+        "회사 실적과의 연결고리 확인"
       ],
       "topNegative": [
         "회사 실적과의 연결고리 확인"
@@ -7018,7 +7029,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 24.5,
-          "confidence": 73.5,
+          "confidence": 78.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -7030,7 +7041,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 30.7,
-          "confidence": 73.5,
+          "confidence": 78.5,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -7042,7 +7053,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.7,
-          "confidence": 73.5,
+          "confidence": 78.5,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -7050,9 +7061,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.9,
+        "bull": 34.9,
         "base": 38.9,
-        "bear": 27.2
+        "bear": 26.2
       },
       "alerts": [],
       "businessProfile": {
@@ -7063,12 +7074,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787256478,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "ASML Holding N.V.(ASML) 대 Taiwan Semiconductor Manufacturing Company Limited(TSM): 주요 공급업체는 AI 붐을 따라잡을 수 있다고 말합니다.",
             "eventLabel": "주요 고객 계약",
             "publishedAt": 1786541926,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=14826e30a1bdde9f772f4961c2bcc688f62b80dd8111d0872189a8cd821cb167",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+            "reason": "회사 실적과의 연결고리 확인"
           },
           {
             "headline": "인텔은 주식 공모를 200억 달러로 늘렸습니다. 이것이 ASML에게 좋은 소식인 이유.",
@@ -7117,9 +7136,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 903.4684,
         "analystTargetHigh": 2900.0664,
         "evidenceWeights": {
-          "bull": 33.9,
+          "bull": 34.9,
           "base": 38.9,
-          "bear": 27.2
+          "bear": 26.2
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7179,17 +7198,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 18.1,
-          "confidence": 73.5,
+          "confidence": 78.5,
           "fundamentalDamage": 0,
-          "thesisDamage": 7.0,
+          "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.9,
+            "bull": 34.9,
             "base": 38.9,
-            "bear": 27.2
+            "bear": 26.2
           },
           "currentPrice": 1763.760009765625,
           "valuationGap": -0.2605,
@@ -7222,7 +7241,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -7240,9 +7259,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 12.6,
+      "fundamentalScore": 11.4,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -7255,13 +7274,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -0.83,
       "priceDamage": 27.8,
-      "fundamentalDamage": 16.0,
-      "thesisDamage": 42.0,
+      "fundamentalDamage": 41.4,
+      "thesisDamage": 98.0,
       "thesisStatus": "damaged",
-      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
+      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": 23.783333333333335,
+          "score": 20.943333333333335,
           "applicable": true
         },
         "earningsQuality": {
@@ -7281,7 +7300,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 15.82,
+          "score": 12.32,
           "applicable": true
         }
       },
@@ -7308,10 +7327,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 4,
         "credibleReports": 0,
-        "needsConfirmation": 2,
-        "aiInferences": 4
+        "needsConfirmation": 4,
+        "aiInferences": 6
       },
       "evidence": [
+        {
+          "headline": "Applied Materials 4% 하락, Lam Research 및 Teradyne Sink 5%: 칩 장비 주식 매도를 촉진하는 요인은 무엇입니까?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787163259,
+          "sourceUrl": "https://finnhub.io/api/news?id=a19157318a679304836f7d2fc5d4ba80a2578ae575634b1681497cf3ab94884c",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "AMAT SEC Form 10-Q 공식 제출",
           "eventLabel": "정기 실적 공시",
@@ -7321,6 +7350,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "direction": "mixed",
           "impact": 0
+        },
+        {
+          "headline": "2026년 Applied Materials Rockets 98% 상승: AI Capex가 칩 기어 주식에 힘을 실어주기 때문에 AMAT는 Lam Research 및 KLA와 어떻게 비교됩니까?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787084558,
+          "sourceUrl": "https://finnhub.io/api/news?id=593fbaba321fa99b238fa918201b88d19e76993e3de6d0d47edbf81a58801ef5",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
         },
         {
           "headline": "Tesla 인수 후 스웨덴 연합이 거의 3 년간의 파업을 종료함에 따라 TSLA 주가 상승",
@@ -7356,6 +7395,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topPositive": [],
       "topNegative": [
         "사업·실적 연결 경로 확인 필요",
+        "사업·실적 연결 경로 확인 필요",
         "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
@@ -7370,7 +7410,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 23.8,
+          "score": 20.9,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -7394,7 +7434,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 5.3,
+          "score": 4.1,
           "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -7403,11 +7443,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 29.2,
-        "base": 37.9,
-        "bear": 32.9
+        "bull": 22.5,
+        "base": 36.3,
+        "bear": 41.2
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "type": "thesis_damage",
+          "level": "중요",
+          "message": "Thesis 손상이 +56.0점 확대됐습니다."
+        }
+      ],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -7416,12 +7462,28 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Applied Materials 4% 하락, Lam Research 및 Teradyne Sink 5%: 칩 장비 주식 매도를 촉진하는 요인은 무엇입니까?",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787163259,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=a19157318a679304836f7d2fc5d4ba80a2578ae575634b1681497cf3ab94884c",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "AMAT SEC Form 10-Q 공식 제출",
             "eventLabel": "정기 실적 공시",
             "publishedAt": 1787151600.0,
             "direction": "mixed",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
             "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
+          },
+          {
+            "headline": "2026년 Applied Materials Rockets 98% 상승: AI Capex가 칩 기어 주식에 힘을 실어주기 때문에 AMAT는 Lam Research 및 KLA와 어떻게 비교됩니까?",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787084558,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=593fbaba321fa99b238fa918201b88d19e76993e3de6d0d47edbf81a58801ef5",
+            "reason": "사업·실적 연결 경로 확인 필요"
           },
           {
             "headline": "Tesla 인수 후 스웨덴 연합이 거의 3 년간의 파업을 종료함에 따라 TSLA 주가 상승",
@@ -7486,9 +7548,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 358.0,
         "analystTargetHigh": 900.0,
         "evidenceWeights": {
-          "bull": 29.2,
-          "base": 37.9,
-          "bear": 32.9
+          "bull": 22.5,
+          "base": 36.3,
+          "bear": 41.2
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -7548,17 +7610,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 12.6,
+          "fundamentalScore": 11.4,
           "confidence": 100,
-          "fundamentalDamage": 16.0,
-          "thesisDamage": 42.0,
+          "fundamentalDamage": 41.4,
+          "thesisDamage": 98.0,
           "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 29.2,
-            "base": 37.9,
-            "bear": 32.9
+            "bull": 22.5,
+            "base": 36.3,
+            "bear": 41.2
           },
           "currentPrice": 492.32000732421875,
           "valuationGap": -0.3025,
@@ -7591,7 +7653,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -7609,9 +7671,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 12.4,
+      "fundamentalScore": 12.7,
       "confidence": 85.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -7650,7 +7712,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 13.8045,
+          "score": 15.5545,
           "applicable": true
         }
       },
@@ -7682,19 +7744,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
-          "headline": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1786439482,
-          "sourceUrl": "https://finnhub.io/api/news?id=0b8fba81d9e8efc083788830c1261fbe8d3e8364d9b983ce373d0708ac1c5995",
+          "headline": "2026년 Applied Materials Rockets 98% 상승: AI Capex가 칩 기어 주식에 힘을 실어주기 때문에 AMAT는 Lam Research 및 KLA와 어떻게 비교됩니까?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787084558,
+          "sourceUrl": "https://finnhub.io/api/news?id=593fbaba321fa99b238fa918201b88d19e76993e3de6d0d47edbf81a58801ef5",
           "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
+          "reason": "사업·실적 연결 경로 확인 필요",
           "direction": "negative",
           "impact": -4.0
         }
       ],
       "topPositive": [],
       "topNegative": [
-        "회사 실적과의 연결고리 확인"
+        "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
@@ -7732,7 +7794,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 4.6,
+          "score": 5.2,
           "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
@@ -7741,8 +7803,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 30.5,
-        "base": 38.5,
+        "bull": 30.6,
+        "base": 38.4,
         "bear": 31.0
       },
       "alerts": [],
@@ -7754,12 +7816,12 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
-            "headline": "Lam Research(LRCX), 고객 수요 급증으로 AI 공급망 순풍 확보",
-            "eventLabel": "공급망 문제",
-            "publishedAt": 1786439482,
+            "headline": "2026년 Applied Materials Rockets 98% 상승: AI Capex가 칩 기어 주식에 힘을 실어주기 때문에 AMAT는 Lam Research 및 KLA와 어떻게 비교됩니까?",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787084558,
             "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=0b8fba81d9e8efc083788830c1261fbe8d3e8364d9b983ce373d0708ac1c5995",
-            "reason": "회사 실적과의 연결고리 확인"
+            "sourceUrl": "https://finnhub.io/api/news?id=593fbaba321fa99b238fa918201b88d19e76993e3de6d0d47edbf81a58801ef5",
+            "reason": "사업·실적 연결 경로 확인 필요"
           }
         ],
         "status": "available",
@@ -7800,8 +7862,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 290.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 30.5,
-          "base": 38.5,
+          "bull": 30.6,
+          "base": 38.4,
           "bear": 31.0
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
@@ -7862,16 +7924,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 12.4,
+          "fundamentalScore": 12.7,
           "confidence": 85.0,
           "fundamentalDamage": 10.7,
           "thesisDamage": 28.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 30.5,
-            "base": 38.5,
+            "bull": 30.6,
+            "base": 38.4,
             "bear": 31.0
           },
           "currentPrice": 314.0,
@@ -7905,7 +7967,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -7923,7 +7985,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.3,
       "confidence": 68.8,
@@ -8154,7 +8216,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 16.3,
           "confidence": 68.8,
@@ -8197,7 +8259,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -8215,7 +8277,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 54.6,
       "confidence": 100,
@@ -8279,6 +8341,26 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787398500,
+          "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "SNDK, MU, BE, NBIS 주식 하락: Ken Griffin의 Citadel, 상황 인식 포트폴리오에서 40억 달러 손실",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1787355216,
+          "sourceUrl": "https://finnhub.io/api/news?id=06321b39f10122eebcadf0aebf8e66dbc9423feca1fb6851ccc0b7b0a9803206",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "positive",
+          "impact": 4.0
+        },
+        {
           "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787324763,
@@ -8299,10 +8381,30 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "impact": -4.0
         },
         {
+          "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787300700,
+          "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
           "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787289244,
           "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
+          "verificationStatus": "needs_confirmation",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "direction": "positive",
+          "impact": 2.0
+        },
+        {
+          "headline": "TSMC의 지출 예측이 850억 달러에 도달함에 따라 ASML이 이익을 얻습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787256478,
+          "sourceUrl": "https://finnhub.io/api/news?id=54269e0ef76fffb5e35aa26a20c5f9c1e274bdf1e56b5c04462f9ba85d9c4956",
           "verificationStatus": "needs_confirmation",
           "reason": "AI 서버 메모리 수요와 가격 강세",
           "direction": "positive",
@@ -8317,51 +8419,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "AI 서버 메모리 수요와 가격 강세",
           "direction": "positive",
           "impact": 2.0
-        },
-        {
-          "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1787232003,
-          "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "direction": "positive",
-          "impact": 1.0
-        },
-        {
-          "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787228312,
-          "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "Micron, 메모리 및 AI 발전을 위해 100억 달러 규모의 연구실 공개",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1787220296,
-          "sourceUrl": "https://finnhub.io/api/news?id=51b5addae5e8d30c7c91c2a81c0092a081a4dbe5ff962ef44222663b91c57f83",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "direction": "positive",
-          "impact": 2.0
-        },
-        {
-          "headline": "RBC Capital, Marvell Technology에 대한 우수한 성과 유지, $360 목표 가격 유지",
-          "eventLabel": "애널리스트 목표주가 변경",
-          "publishedAt": 1787218279,
-          "sourceUrl": "https://finnhub.io/api/news?id=696e70aa6d42b97ca3cc4ffbebd4394239ab8ae1ab0be26558be876334ed35d1",
-          "verificationStatus": "needs_confirmation",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "direction": "positive",
-          "impact": 1.0
         }
       ],
       "topPositive": [
         "AI 서버 메모리 수요와 가격 강세",
-        "AI 서버 메모리 수요와 가격 강세",
+        "사업·실적 연결 경로 확인 필요",
         "AI 서버 메모리 수요와 가격 강세"
       ],
       "topNegative": [
@@ -8425,6 +8487,22 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787398500,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
+            "reason": "AI 서버 메모리 수요와 가격 강세"
+          },
+          {
+            "headline": "SNDK, MU, BE, NBIS 주식 하락: Ken Griffin의 Citadel, 상황 인식 포트폴리오에서 40억 달러 손실",
+            "eventLabel": "장기 공급계약",
+            "publishedAt": 1787355216,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=06321b39f10122eebcadf0aebf8e66dbc9423feca1fb6851ccc0b7b0a9803206",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
+          {
             "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787324763,
@@ -8441,35 +8519,19 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "reason": "AI 서버 메모리 수요와 가격 강세"
           },
           {
+            "headline": "억만장자 투자자 스탠리 드러켄밀러(Stanley Druckenmiller)는 방금 인텔과 마이크론을 매각하고 로봇공학에 큰 투자를 하는 2개의 인공지능(AI) 주식에 투자했습니다.",
+            "eventLabel": "AI·데이터센터 투자 변화",
+            "publishedAt": 1787300700,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=167a50bb523e026e53bd063e915289e08c11244cfb3e2a5d015f2a3409802422",
+            "reason": "AI 서버 메모리 수요와 가격 강세"
+          },
+          {
             "headline": "Palantir: Michael Burry의 풋 매수가 소매 투자자를 방해해서는 안 되는 이유",
             "eventLabel": "AI·데이터센터 투자 변화",
             "publishedAt": 1787289244,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=fb6d0b4e229c71f8998c80f8371c3b91003c4401f6d439d64fb5bfb42f9d5191",
-            "reason": "AI 서버 메모리 수요와 가격 강세"
-          },
-          {
-            "headline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787242528,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
-            "reason": "AI 서버 메모리 수요와 가격 강세"
-          },
-          {
-            "headline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-            "eventLabel": "애널리스트 목표주가 변경",
-            "publishedAt": 1787232003,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-            "reason": "AI 서버 메모리 수요와 가격 강세"
-          },
-          {
-            "headline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
-            "eventLabel": "AI·데이터센터 투자 변화",
-            "publishedAt": 1787228312,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
             "reason": "AI 서버 메모리 수요와 가격 강세"
           }
         ],
@@ -8581,7 +8643,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 54.6,
           "confidence": 100,
@@ -8624,7 +8686,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -8642,9 +8704,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 12.0,
+      "fundamentalScore": 11.6,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -8663,7 +8725,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 17.370000333333333,
+          "score": 15.970000333333333,
           "applicable": true
         },
         "earningsQuality": {
@@ -8715,6 +8777,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "evidence": [
         {
+          "headline": "SNDK, MU, BE, NBIS 주식 하락: Ken Griffin의 Citadel, 상황 인식 포트폴리오에서 40억 달러 손실",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1787355216,
+          "sourceUrl": "https://finnhub.io/api/news?id=06321b39f10122eebcadf0aebf8e66dbc9423feca1fb6851ccc0b7b0a9803206",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
+        {
           "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1787324763,
@@ -8743,21 +8815,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "direction": "mixed",
           "impact": 0
-        },
-        {
-          "headline": "Sandisk: 순환 라벨의 가격은 책정되지만 계약은 무시됩니다(구매 시작).",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1786444989,
-          "sourceUrl": "https://finnhub.io/api/news?id=6961ffda41f1c85b42a6c9d98c2b6dd3bfcd29e2bbb196e3287a32fa4f81739f",
-          "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "direction": "positive",
-          "impact": 4.0
         }
       ],
       "topPositive": [
-        "사업·실적 연결 경로 확인 필요",
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        "회사 실적과의 연결고리 확인",
+        "사업·실적 연결 경로 확인 필요"
       ],
       "topNegative": [
         "사업·실적 연결 경로 확인 필요"
@@ -8774,7 +8836,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 17.4,
+          "score": 16.0,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -8807,8 +8869,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.0,
-        "base": 39.1,
+        "bull": 33.9,
+        "base": 39.2,
         "bear": 26.9
       },
       "alerts": [],
@@ -8819,6 +8881,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "SNDK, MU, BE, NBIS 주식 하락: Ken Griffin의 Citadel, 상황 인식 포트폴리오에서 40억 달러 손실",
+            "eventLabel": "장기 공급계약",
+            "publishedAt": 1787355216,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=06321b39f10122eebcadf0aebf8e66dbc9423feca1fb6851ccc0b7b0a9803206",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
             "eventLabel": "AI·데이터센터 투자 변화",
@@ -8842,14 +8912,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "direction": "mixed",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
             "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-          },
-          {
-            "headline": "Sandisk: 순환 라벨의 가격은 책정되지만 계약은 무시됩니다(구매 시작).",
-            "eventLabel": "주요 고객 계약",
-            "publishedAt": 1786444989,
-            "direction": "positive",
-            "sourceUrl": "https://finnhub.io/api/news?id=6961ffda41f1c85b42a6c9d98c2b6dd3bfcd29e2bbb196e3287a32fa4f81739f",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           }
         ],
         "status": "available",
@@ -8898,8 +8960,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 1000.0,
         "analystTargetHigh": 3600.0,
         "evidenceWeights": {
-          "bull": 34.0,
-          "base": 39.1,
+          "bull": 33.9,
+          "base": 39.2,
           "bear": 26.9
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
@@ -8960,16 +9022,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 12.0,
+          "fundamentalScore": 11.6,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 34.0,
-            "base": 39.1,
+            "bull": 33.9,
+            "base": 39.2,
             "bear": 26.9
           },
           "currentPrice": 1596.0799560546875,
@@ -9003,7 +9065,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -9021,10 +9083,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 32.3,
-      "confidence": 95.0,
+      "fundamentalScore": 33.0,
+      "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -9036,13 +9098,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -0.73,
       "priceDamage": 24.3,
-      "fundamentalDamage": 21.3,
-      "thesisDamage": 42.0,
-      "thesisStatus": "damaged",
+      "fundamentalDamage": 8.4,
+      "thesisDamage": 14.0,
+      "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 28.8,
+          "score": 31.600000000000005,
           "applicable": true
         },
         "earningsQuality": {
@@ -9089,10 +9151,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 3,
         "credibleReports": 0,
-        "needsConfirmation": 2,
-        "aiInferences": 3
+        "needsConfirmation": 3,
+        "aiInferences": 4
       },
       "evidence": [
+        {
+          "headline": "슈퍼마이크로 컴퓨터와 웨스턴 디지털: 최근 매출 동향 및 사업 규모 분석",
+          "eventLabel": "장기 공급계약",
+          "publishedAt": 1787234401,
+          "sourceUrl": "https://finnhub.io/api/news?id=c019df79aeb64a57110444a7f5ae48b96950fa80d5e4741bb27b74b09096dfe6",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "positive",
+          "impact": 4.0
+        },
         {
           "headline": "Apple 제품을 구매하시나요? 비용을 지불하는 데 도움이 되는 4가지 도구",
           "eventLabel": "공급망 문제",
@@ -9124,7 +9196,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "impact": 0
         }
       ],
-      "topPositive": [],
+      "topPositive": [
+        "회사 실적과의 연결고리 확인"
+      ],
       "topNegative": [
         "메모리·스토리지 가격 강세 수혜 가능성",
         "사업·실적 연결 경로 확인 필요"
@@ -9141,8 +9215,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 28.8,
-          "confidence": 95.0,
+          "score": 31.6,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9154,7 +9228,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 95.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9166,7 +9240,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 4.6,
-          "confidence": 95.0,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9174,9 +9248,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 33.3,
-        "base": 36.5,
-        "bear": 30.2
+        "bull": 36.9,
+        "base": 37.2,
+        "bear": 25.9
       },
       "alerts": [],
       "businessProfile": {
@@ -9186,6 +9260,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "슈퍼마이크로 컴퓨터와 웨스턴 디지털: 최근 매출 동향 및 사업 규모 분석",
+            "eventLabel": "장기 공급계약",
+            "publishedAt": 1787234401,
+            "direction": "positive",
+            "sourceUrl": "https://finnhub.io/api/news?id=c019df79aeb64a57110444a7f5ae48b96950fa80d5e4741bb27b74b09096dfe6",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "Apple 제품을 구매하시나요? 비용을 지불하는 데 도움이 되는 4가지 도구",
             "eventLabel": "공급망 문제",
@@ -9257,11 +9339,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 420.0,
         "analystTargetHigh": 1050.0,
         "evidenceWeights": {
-          "bull": 33.3,
-          "base": 36.5,
-          "bear": 30.2
+          "bull": 36.9,
+          "base": 37.2,
+          "bear": 25.9
         },
-        "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
+        "integratedRead": "실적 기준 보수 가격 이하이면서 펀더멘털 훼손이 크지 않아 가격 부담이 낮은 후보입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
         "notice": "가격 밴드는 매수 신호가 아니며 EPS 하향·기업 악재가 생기면 즉시 다시 계산합니다."
       },
@@ -9319,17 +9401,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 32.3,
-          "confidence": 95.0,
-          "fundamentalDamage": 21.3,
-          "thesisDamage": 42.0,
-          "thesisStatus": "damaged",
+          "fundamentalScore": 33.0,
+          "confidence": 100,
+          "fundamentalDamage": 8.4,
+          "thesisDamage": 14.0,
+          "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 33.3,
-            "base": 36.5,
-            "bear": 30.2
+            "bull": 36.9,
+            "base": 37.2,
+            "bear": 25.9
           },
           "currentPrice": 459.44000244140625,
           "valuationGap": -0.3672,
@@ -9362,9 +9444,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "damaged",
+          "overallStatus": "intact",
           "statuses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -9380,10 +9462,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 16.3,
-      "confidence": 71.7,
+      "fundamentalScore": 15.0,
+      "confidence": 85.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -9395,13 +9477,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 0.05,
       "priceDamage": 1.8,
-      "fundamentalDamage": 0,
-      "thesisDamage": 0,
+      "fundamentalDamage": 16.0,
+      "thesisDamage": 28.0,
       "thesisStatus": "intact",
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 17.666666666666668,
+          "score": 15.586666666666666,
           "applicable": true
         },
         "earningsQuality": {
@@ -9421,7 +9503,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 20.0,
+          "score": 14.75,
           "applicable": true
         }
       },
@@ -9448,12 +9530,25 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 0,
-        "aiInferences": 0
+        "needsConfirmation": 1,
+        "aiInferences": 1
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "headline": "Arista Networks vs. Salesforce: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787361159,
+          "sourceUrl": "https://finnhub.io/api/news?id=6ea1b2100a38d7a49a7bdb4e6a2dfa06eaba295f18ed95892b4ec945feb3a97f",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        }
+      ],
       "topPositive": [],
-      "topNegative": [],
+      "topNegative": [
+        "사업·실적 연결 경로 확인 필요"
+      ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
         "공식 가이던스 대비 실제 매출 달성 여부",
@@ -9466,8 +9561,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 17.7,
-          "confidence": 71.7,
+          "score": 15.6,
+          "confidence": 85.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9479,7 +9574,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 27.8,
-          "confidence": 71.7,
+          "confidence": 85.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9490,8 +9585,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 6.7,
-          "confidence": 71.7,
+          "score": 4.9,
+          "confidence": 85.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9499,18 +9594,33 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 34.3,
-        "base": 39.2,
-        "bear": 26.5
+        "bull": 31.0,
+        "base": 38.3,
+        "bear": 30.7
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "type": "thesis_damage",
+          "level": "중요",
+          "message": "Thesis 손상이 +28.0점 확대됐습니다."
+        }
+      ],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
         "strengths": [],
         "risks": [],
         "sources": [],
-        "latestChanges": [],
+        "latestChanges": [
+          {
+            "headline": "Arista Networks vs. Salesforce: 2026년에는 어떤 기술 주식을 구매하는 것이 더 나은가요?",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787361159,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=6ea1b2100a38d7a49a7bdb4e6a2dfa06eaba295f18ed95892b4ec945feb3a97f",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          }
+        ],
         "status": "collecting",
         "notice": "정성 사업정보는 마지막 확인일 이후의 구조화 중요 뉴스를 별도 변경 항목으로 덧붙입니다."
       },
@@ -9549,9 +9659,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 185.0,
         "analystTargetHigh": 289.0,
         "evidenceWeights": {
-          "bull": 34.3,
-          "base": 39.2,
-          "bear": 26.5
+          "bull": 31.0,
+          "base": 38.3,
+          "bear": 30.7
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9611,17 +9721,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 16.3,
-          "confidence": 71.7,
-          "fundamentalDamage": 0,
-          "thesisDamage": 0,
+          "fundamentalScore": 15.0,
+          "confidence": 85.0,
+          "fundamentalDamage": 16.0,
+          "thesisDamage": 28.0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 34.3,
-            "base": 39.2,
-            "bear": 26.5
+            "bull": 31.0,
+            "base": 38.3,
+            "bear": 30.7
           },
           "currentPrice": 188.64999389648438,
           "valuationGap": -0.2028,
@@ -9654,7 +9764,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -9672,10 +9782,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -2.3,
-      "confidence": 87.1,
+      "confidence": 82.1,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -9738,10 +9848,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "evidenceSummary": {
-        "confirmedFacts": 4,
+        "confirmedFacts": 3,
         "credibleReports": 0,
         "needsConfirmation": 0,
-        "aiInferences": 2
+        "aiInferences": 1
       },
       "evidence": [
         {
@@ -9749,16 +9859,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "eventLabel": "정기 실적 공시",
           "publishedAt": 1786633200.0,
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "mixed",
-          "impact": 0
-        },
-        {
-          "headline": "COHR SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
-          "publishedAt": 1786460400.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm",
           "verificationStatus": "confirmed",
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "direction": "mixed",
@@ -9780,7 +9880,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 28.6,
-          "confidence": 87.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -9792,7 +9892,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 87.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -9804,7 +9904,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
           "score": 5.8,
-          "confidence": 87.1,
+          "confidence": 82.1,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -9812,9 +9912,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 30.9,
+        "bull": 30.8,
         "base": 40.0,
-        "bear": 29.1
+        "bear": 29.2
       },
       "alerts": [],
       "businessProfile": {
@@ -9830,14 +9930,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1786633200.0,
             "direction": "mixed",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
-            "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-          },
-          {
-            "headline": "COHR SEC Form 8-K 공식 제출",
-            "eventLabel": "EPS",
-            "publishedAt": 1786460400.0,
-            "direction": "mixed",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm",
             "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
           }
         ],
@@ -9879,9 +9971,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 280.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
-          "bull": 30.9,
+          "bull": 30.8,
           "base": 40.0,
-          "bear": 29.1
+          "bear": 29.2
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -9941,17 +10033,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": -2.3,
-          "confidence": 87.1,
+          "confidence": 82.1,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 30.9,
+            "bull": 30.8,
             "base": 40.0,
-            "bear": 29.1
+            "bear": 29.2
           },
           "currentPrice": 289.5199890136719,
           "valuationGap": -0.3257,
@@ -9984,7 +10076,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -10002,10 +10094,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 0.7,
-      "confidence": 100,
+      "fundamentalScore": 1.3,
+      "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -10017,10 +10109,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 0.52,
       "priceDamage": 17.3,
-      "fundamentalDamage": 25.2,
-      "thesisDamage": 56.0,
-      "thesisStatus": "damaged",
-      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
+      "fundamentalDamage": 11.3,
+      "thesisDamage": 28.0,
+      "thesisStatus": "intact",
+      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
           "score": 100,
@@ -10043,7 +10135,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 3.066700000000001,
+          "score": 6.566700000000001,
           "applicable": true
         }
       },
@@ -10068,10 +10160,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "evidenceSummary": {
-        "confirmedFacts": 4,
+        "confirmedFacts": 3,
         "credibleReports": 0,
-        "needsConfirmation": 2,
-        "aiInferences": 4
+        "needsConfirmation": 1,
+        "aiInferences": 2
       },
       "evidence": [
         {
@@ -10080,7 +10172,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "publishedAt": 1787066566,
           "sourceUrl": "https://finnhub.io/api/news?id=bd6c9f881646850fb77de7101295ec91a1bfab48195f2c13595f10972a40843c",
           "verificationStatus": "needs_confirmation",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "reason": "회사 실적과의 연결고리 확인",
           "direction": "negative",
           "impact": -4.0
         },
@@ -10093,32 +10185,11 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
           "direction": "mixed",
           "impact": 0
-        },
-        {
-          "headline": "애플이 전 세계적인 부족 상황 속에서 아이폰, 맥북용 중국산 메모리 칩을 테스트하고 있는 것으로 알려졌습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1786385747,
-          "sourceUrl": "https://finnhub.io/api/news?id=29aaf140cb2ed909321ab2a99380f77b4f570ee5733f216a0da8df65ad82f421",
-          "verificationStatus": "needs_confirmation",
-          "reason": "사업·실적 연결 경로 확인 필요",
-          "direction": "negative",
-          "impact": -4.0
-        },
-        {
-          "headline": "LITE SEC Form 8-K 공식 제출",
-          "eventLabel": "매출",
-          "publishedAt": 1786374000.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
-          "verificationStatus": "confirmed",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "direction": "mixed",
-          "impact": 0
         }
       ],
       "topPositive": [],
       "topNegative": [
-        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-        "사업·실적 연결 경로 확인 필요"
+        "회사 실적과의 연결고리 확인"
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
@@ -10133,7 +10204,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
           "score": 100,
-          "confidence": 100,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -10145,7 +10216,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -100,
-          "confidence": 100,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -10156,8 +10227,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 1.0,
-          "confidence": 100,
+          "score": 2.2,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -10165,9 +10236,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 25.2,
-        "base": 38.3,
-        "bear": 36.5
+        "bull": 28.3,
+        "base": 39.2,
+        "bear": 32.5
       },
       "alerts": [],
       "businessProfile": {
@@ -10183,7 +10254,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787066566,
             "direction": "negative",
             "sourceUrl": "https://finnhub.io/api/news?id=bd6c9f881646850fb77de7101295ec91a1bfab48195f2c13595f10972a40843c",
-            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+            "reason": "회사 실적과의 연결고리 확인"
           },
           {
             "headline": "LITE SEC Form 10-K 공식 제출",
@@ -10191,22 +10262,6 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1786892400.0,
             "direction": "mixed",
             "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
-            "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
-          },
-          {
-            "headline": "애플이 전 세계적인 부족 상황 속에서 아이폰, 맥북용 중국산 메모리 칩을 테스트하고 있는 것으로 알려졌습니다.",
-            "eventLabel": "공급망 문제",
-            "publishedAt": 1786385747,
-            "direction": "negative",
-            "sourceUrl": "https://finnhub.io/api/news?id=29aaf140cb2ed909321ab2a99380f77b4f570ee5733f216a0da8df65ad82f421",
-            "reason": "사업·실적 연결 경로 확인 필요"
-          },
-          {
-            "headline": "LITE SEC Form 8-K 공식 제출",
-            "eventLabel": "매출",
-            "publishedAt": 1786374000.0,
-            "direction": "mixed",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
             "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기"
           }
         ],
@@ -10248,9 +10303,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 820.0,
         "analystTargetHigh": 1400.0,
         "evidenceWeights": {
-          "bull": 25.2,
-          "base": 38.3,
-          "bear": 36.5
+          "bull": 28.3,
+          "base": 39.2,
+          "bear": 32.5
         },
         "integratedRead": "현재 시장 PER이 유지된다는 가정의 기준가 아래입니다. 실적 전망 유지 여부를 확인하며 접근할 구간입니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -10310,17 +10365,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 0.7,
-          "confidence": 100,
-          "fundamentalDamage": 25.2,
-          "thesisDamage": 56.0,
-          "thesisStatus": "damaged",
+          "fundamentalScore": 1.3,
+          "confidence": 90.0,
+          "fundamentalDamage": 11.3,
+          "thesisDamage": 28.0,
+          "thesisStatus": "intact",
           "scenarioWeights": {
-            "bull": 25.2,
-            "base": 38.3,
-            "bear": 36.5
+            "bull": 28.3,
+            "base": 39.2,
+            "bear": 32.5
           },
           "currentPrice": 866.7100219726562,
           "valuationGap": -0.7508,
@@ -10353,9 +10408,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "damaged",
+          "overallStatus": "intact",
           "statuses": {
             "growth": "strengthening",
             "cashFlow": "damaged",
@@ -10371,10 +10426,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 18.9,
-      "confidence": 95.0,
+      "fundamentalScore": 18.2,
+      "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -10392,7 +10447,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 6.4866670000000015,
+          "score": 7.166667000000001,
           "applicable": true
         },
         "earningsQuality": {
@@ -10412,7 +10467,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 17.8967,
+          "score": 12.6467,
           "applicable": true
         }
       },
@@ -10439,17 +10494,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 3,
-        "aiInferences": 3
+        "needsConfirmation": 4,
+        "aiInferences": 4
       },
       "evidence": [
+        {
+          "headline": "GE Vernova, 퀸즈랜드 슈퍼노드 배터리 프로젝트 3단계 계약 체결",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787319770,
+          "sourceUrl": "https://finnhub.io/api/news?id=2b8291ab8a1fad046f97f122a145b5809ffca5f3df10cdd5326dca1cc4fdde8e",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "GE Vernova, 최대 배터리 프로젝트 중 하나에 전력을 공급하기 위해 호주와 주요 계약 체결",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1787302246,
           "sourceUrl": "https://finnhub.io/api/news?id=1940dd03378e1c2642650f3af5bf911668697efc181df0b8af99824be8e80fd4",
           "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
           "direction": "positive",
           "impact": 4.0
         },
@@ -10459,7 +10524,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "publishedAt": 1787292551,
           "sourceUrl": "https://finnhub.io/api/news?id=e39205d060bb77236887e7c66794f266631a1307a15269e401803f78edddb583",
           "verificationStatus": "needs_confirmation",
-          "reason": "회사 실적과의 연결고리 확인",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
           "direction": "positive",
           "impact": 4.0
         },
@@ -10475,11 +10540,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "topPositive": [
-        "회사 실적과의 연결고리 확인",
-        "회사 실적과의 연결고리 확인",
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
         "회사 실적과의 연결고리 확인"
       ],
-      "topNegative": [],
+      "topNegative": [
+        "회사 실적과의 연결고리 확인"
+      ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
         "공식 가이던스 대비 실제 매출 달성 여부",
@@ -10492,8 +10559,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 6.5,
-          "confidence": 95.0,
+          "score": 7.2,
+          "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -10505,7 +10572,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "strengthening",
           "score": 79.1,
-          "confidence": 95.0,
+          "confidence": 100,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -10516,8 +10583,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 6.0,
-          "confidence": 95.0,
+          "score": 4.2,
+          "confidence": 100,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -10526,8 +10593,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "scenarios": {
         "bull": 35.3,
-        "base": 38.8,
-        "bear": 25.9
+        "base": 38.7,
+        "bear": 26.0
       },
       "alerts": [],
       "businessProfile": {
@@ -10538,12 +10605,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "sources": [],
         "latestChanges": [
           {
+            "headline": "GE Vernova, 퀸즈랜드 슈퍼노드 배터리 프로젝트 3단계 계약 체결",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787319770,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=2b8291ab8a1fad046f97f122a145b5809ffca5f3df10cdd5326dca1cc4fdde8e",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
+          {
             "headline": "GE Vernova, 최대 배터리 프로젝트 중 하나에 전력을 공급하기 위해 호주와 주요 계약 체결",
             "eventLabel": "주요 고객 계약",
             "publishedAt": 1787302246,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=1940dd03378e1c2642650f3af5bf911668697efc181df0b8af99824be8e80fd4",
-            "reason": "회사 실적과의 연결고리 확인"
+            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           },
           {
             "headline": "Queensland의 슈퍼노드 배터리 에너지 저장 시스템 프로젝트 3단계에 GE Vernova가 Quinbrook에 의해 선정되었습니다. 공개되지 않은 약관",
@@ -10551,7 +10626,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "publishedAt": 1787292551,
             "direction": "positive",
             "sourceUrl": "https://finnhub.io/api/news?id=e39205d060bb77236887e7c66794f266631a1307a15269e401803f78edddb583",
-            "reason": "회사 실적과의 연결고리 확인"
+            "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
           },
           {
             "headline": "GE Vernova와 Blue Energy, 2.5GW 텍사스 가스-원자력 발전 프로젝트 추진",
@@ -10601,8 +10676,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetHigh": 1450.0,
         "evidenceWeights": {
           "bull": 35.3,
-          "base": 38.8,
-          "bear": 25.9
+          "base": 38.7,
+          "bear": 26.0
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -10662,17 +10737,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": 18.9,
-          "confidence": 95.0,
+          "fundamentalScore": 18.2,
+          "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
           "thesisStatus": "strengthening",
           "scenarioWeights": {
             "bull": 35.3,
-            "base": 38.8,
-            "bear": 25.9
+            "base": 38.7,
+            "bear": 26.0
           },
           "currentPrice": 956.8499755859375,
           "valuationGap": 0.2445,
@@ -10705,7 +10780,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -10723,10 +10798,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": -7.0,
-      "confidence": 85.0,
+      "fundamentalScore": -8.3,
+      "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -10738,13 +10813,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": 0.38,
       "priceDamage": 12.8,
-      "fundamentalDamage": 16.0,
-      "thesisDamage": 28.0,
-      "thesisStatus": "intact",
-      "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
+      "fundamentalDamage": 34.0,
+      "thesisDamage": 56.0,
+      "thesisStatus": "damaged",
+      "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": -0.06666666666666672,
+          "score": -2.186666666666667,
           "applicable": true
         },
         "earningsQuality": {
@@ -10764,7 +10839,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": 7.798400000000001,
+          "score": 2.548400000000001,
           "applicable": true
         }
       },
@@ -10791,10 +10866,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 1,
-        "aiInferences": 1
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
+        {
+          "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787318284,
+          "sourceUrl": "https://finnhub.io/api/news?id=fa80810a001357d7eb9d8985ade214e9e13891a64b16cbcc5bd5e764056ccd08",
+          "verificationStatus": "needs_confirmation",
+          "reason": "회사 실적과의 연결고리 확인",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
           "eventLabel": "규제·소송·수출 제한",
@@ -10808,6 +10893,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "topPositive": [],
       "topNegative": [
+        "회사 실적과의 연결고리 확인",
         "사업·실적 연결 경로 확인 필요"
       ],
       "nextChecks": [
@@ -10822,8 +10908,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": -0.1,
-          "confidence": 85.0,
+          "score": -2.2,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -10835,7 +10921,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "damaged",
           "score": -42.8,
-          "confidence": 85.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -10846,8 +10932,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": 2.6,
-          "confidence": 85.0,
+          "score": 0.8,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -10855,11 +10941,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 26.9,
-        "base": 38.9,
-        "bear": 34.2
+        "bull": 23.6,
+        "base": 37.9,
+        "bear": 38.5
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "type": "thesis_damage",
+          "level": "중요",
+          "message": "Thesis 손상이 +28.0점 확대됐습니다."
+        }
+      ],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -10867,6 +10959,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787318284,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=fa80810a001357d7eb9d8985ade214e9e13891a64b16cbcc5bd5e764056ccd08",
+            "reason": "회사 실적과의 연결고리 확인"
+          },
           {
             "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
             "eventLabel": "규제·소송·수출 제한",
@@ -10942,9 +11042,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 290.0,
         "analystTargetHigh": 441.0,
         "evidenceWeights": {
-          "bull": 26.9,
-          "base": 38.9,
-          "bear": 34.2
+          "bull": 23.6,
+          "base": 37.9,
+          "bear": 38.5
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -11004,17 +11104,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": -7.0,
-          "confidence": 85.0,
-          "fundamentalDamage": 16.0,
-          "thesisDamage": 28.0,
-          "thesisStatus": "intact",
+          "fundamentalScore": -8.3,
+          "confidence": 90.0,
+          "fundamentalDamage": 34.0,
+          "thesisDamage": 56.0,
+          "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 26.9,
-            "base": 38.9,
-            "bear": 34.2
+            "bull": 23.6,
+            "base": 37.9,
+            "bear": 38.5
           },
           "currentPrice": 272.8800048828125,
           "valuationGap": -0.091,
@@ -11047,9 +11147,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "intact",
+          "overallStatus": "damaged",
           "statuses": {
             "growth": "intact",
             "cashFlow": "damaged",
@@ -11065,10 +11165,10 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": -6.4,
-      "confidence": 85.0,
+      "fundamentalScore": -7.7,
+      "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
@@ -11080,13 +11180,13 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       },
       "priceSigma": -1.73,
       "priceDamage": 57.5,
-      "fundamentalDamage": 16.0,
-      "thesisDamage": 28.0,
-      "thesisStatus": "intact",
-      "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
+      "fundamentalDamage": 34.0,
+      "thesisDamage": 56.0,
+      "thesisStatus": "damaged",
+      "damageRead": "가격 하락과 펀더멘털 약화가 함께 나타났습니다. 단순 눌림목보다 Thesis 훼손 근거를 먼저 확인하세요.",
       "dimensions": {
         "growth": {
-          "score": 5.769999666666666,
+          "score": 3.649999666666666,
           "applicable": true
         },
         "earningsQuality": {
@@ -11106,7 +11206,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "applicable": true
         },
         "balanceSheet": {
-          "score": -18.3007,
+          "score": -23.5507,
           "applicable": true
         }
       },
@@ -11133,10 +11233,20 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "evidenceSummary": {
         "confirmedFacts": 2,
         "credibleReports": 0,
-        "needsConfirmation": 1,
-        "aiInferences": 1
+        "needsConfirmation": 2,
+        "aiInferences": 2
       },
       "evidence": [
+        {
+          "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
+          "eventLabel": "규제·소송·수출 제한",
+          "publishedAt": 1787318284,
+          "sourceUrl": "https://finnhub.io/api/news?id=fa80810a001357d7eb9d8985ade214e9e13891a64b16cbcc5bd5e764056ccd08",
+          "verificationStatus": "needs_confirmation",
+          "reason": "사업·실적 연결 경로 확인 필요",
+          "direction": "negative",
+          "impact": -4.0
+        },
         {
           "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
           "eventLabel": "규제·소송·수출 제한",
@@ -11150,6 +11260,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "topPositive": [],
       "topNegative": [
+        "사업·실적 연결 경로 확인 필요",
         "회사 실적과의 연결고리 확인"
       ],
       "nextChecks": [
@@ -11164,8 +11275,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 5.8,
-          "confidence": 85.0,
+          "score": 3.6,
+          "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
             "매출 둔화와 마진 하락이 동시에 확인"
@@ -11177,7 +11288,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "statement": "본업 성장이 영업현금과 잉여현금흐름으로 전환된다.",
           "status": "intact",
           "score": -3.5,
-          "confidence": 85.0,
+          "confidence": 90.0,
           "falsificationRules": [
             "FCF가 2개 연도 연속 감소",
             "OCF 감소와 CAPEX 부담 증가가 동시에 발생"
@@ -11188,8 +11299,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "경쟁·재무 Thesis",
           "statement": "경쟁·고객 집중·재무 부담이 장기 사업 경쟁력을 훼손하지 않는다.",
           "status": "intact",
-          "score": -6.1,
-          "confidence": 85.0,
+          "score": -7.9,
+          "confidence": 90.0,
           "falsificationRules": [
             "핵심 고객 이탈 또는 점유율 하락이 공식 수치로 확인",
             "부채 부담 상승과 사업 리스크 확대가 동시 발생"
@@ -11197,11 +11308,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         }
       ],
       "scenarios": {
-        "bull": 27.0,
-        "base": 38.9,
-        "bear": 34.1
+        "bull": 23.7,
+        "base": 38.0,
+        "bear": 38.3
       },
-      "alerts": [],
+      "alerts": [
+        {
+          "type": "thesis_damage",
+          "level": "중요",
+          "message": "Thesis 손상이 +28.0점 확대됐습니다."
+        }
+      ],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -11209,6 +11326,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "risks": [],
         "sources": [],
         "latestChanges": [
+          {
+            "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
+            "eventLabel": "규제·소송·수출 제한",
+            "publishedAt": 1787318284,
+            "direction": "negative",
+            "sourceUrl": "https://finnhub.io/api/news?id=fa80810a001357d7eb9d8985ade214e9e13891a64b16cbcc5bd5e764056ccd08",
+            "reason": "사업·실적 연결 경로 확인 필요"
+          },
           {
             "headline": "Constellation Energy vs. Vistra: AI 전력 수익 경쟁을 주도하는 사람은 누구입니까?",
             "eventLabel": "규제·소송·수출 제한",
@@ -11266,9 +11391,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "analystTargetLow": 106.0,
         "analystTargetHigh": 313.0,
         "evidenceWeights": {
-          "bull": 27.0,
-          "base": 38.9,
-          "bear": 34.1
+          "bull": 23.7,
+          "base": 38.0,
+          "bear": 38.3
         },
         "integratedRead": "현재 가격과 실적 기준가가 크게 어긋나지 않습니다. 다음 EPS 추정치와 PER 변화가 방향을 좌우합니다.",
         "formula": "기준=내년 예상 EPS×현재 시장 PER, 보수=기준×0.64, 낙관=기준×1.55",
@@ -11328,17 +11453,17 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "fundamentalScore": -6.4,
-          "confidence": 85.0,
-          "fundamentalDamage": 16.0,
-          "thesisDamage": 28.0,
-          "thesisStatus": "intact",
+          "fundamentalScore": -7.7,
+          "confidence": 90.0,
+          "fundamentalDamage": 34.0,
+          "thesisDamage": 56.0,
+          "thesisStatus": "damaged",
           "scenarioWeights": {
-            "bull": 27.0,
-            "base": 38.9,
-            "bear": 34.1
+            "bull": 23.7,
+            "base": 38.0,
+            "bear": 38.3
           },
           "currentPrice": 136.2100067138672,
           "valuationGap": -0.1169,
@@ -11371,9 +11496,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
-          "overallStatus": "intact",
+          "overallStatus": "damaged",
           "statuses": {
             "growth": "intact",
             "cashFlow": "intact",
@@ -11389,7 +11514,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.4,
       "confidence": 82.1,
@@ -11642,7 +11767,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 11.4,
           "confidence": 82.1,
@@ -11685,7 +11810,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -11703,7 +11828,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -11934,7 +12059,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -11977,7 +12102,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -11995,7 +12120,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -12226,7 +12351,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -12269,7 +12394,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12287,7 +12412,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.4,
       "confidence": 85.0,
@@ -12540,7 +12665,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 18.4,
           "confidence": 85.0,
@@ -12583,7 +12708,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12601,7 +12726,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.5,
       "confidence": 85.0,
@@ -12852,7 +12977,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 10.5,
           "confidence": 85.0,
@@ -12895,7 +13020,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12913,7 +13038,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 33.5,
       "confidence": 85.0,
@@ -13166,7 +13291,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 33.5,
           "confidence": 85.0,
@@ -13209,7 +13334,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13227,7 +13352,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.5,
       "confidence": 71.7,
@@ -13449,7 +13574,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 8.5,
           "confidence": 71.7,
@@ -13492,7 +13617,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13510,7 +13635,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 15.9,
       "confidence": 71.7,
@@ -13732,7 +13857,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 15.9,
           "confidence": 71.7,
@@ -13775,7 +13900,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13793,7 +13918,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787410811.2071278,
+      "asOf": 1787411909.201723,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.3,
       "confidence": 55.2,
@@ -14005,7 +14130,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "fundamentalScore": 10.3,
           "confidence": 55.2,
@@ -14048,7 +14173,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787410811.2071278,
+          "asOf": 1787411909.201723,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
