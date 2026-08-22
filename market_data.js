@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israel strikes southern Syria; Damascus condemns attack - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
+      "datetime": 1787424710,
+      "headlineKo": "이스라엘은 시리아 남부를 공격하고, 다마스쿠스는 공격을 비난한다. - 로이터"
+    },
+    {
       "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDcwRjI3TkpVODVXRkhpY1JhSXZIeHNkZW84RTdDaEFEdmlDUHZ1Uy1GNXdlOHpMaDVHdGl1RlZBSVFaSC1MbGxXcFRMdjl5Y19KUUpyNkJLaEl3NjlXZklHbkhDaWpLOFJ2Mmk2SWpmWFZuQ2ZQb2VXOUVpVElHQ18wTFBSSUFwODhSS29jLVFUWVM0M1RfRmhTVnBVOFVVUjV4dFpn?oc=5",
       "datetime": 1787350186,
       "headlineKo": "베센트 미국 재무장관, 월요일 기자회견 예정 - 로이터"
-    },
-    {
-      "headline": "US Army Secretary Driscoll is expected to step down by year's end, WSJ reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblVNM2JWT0l4cUVHSzdxOHRqaDg2QlEzaFh2V0FkQmdobHNQeHgwZUx0M2JrOFN4Rm9ia1ZlS0g3Y2VoNGFtbVlpaXlNczktaHRwM2NCZk9jU190SkFCZWJaUGRwLXdZUkdOeEpxTzJsd1BsUGlzR0xsZFBEVEtZOVI2T2d4OW9HRE9ZcU9ZUTB2QjFaWVdyUHV3NExhaUx6NVQxTllkZHdCeUVPWUdIdXVjaWxWUQ?oc=5",
-      "datetime": 1787348362,
-      "headlineKo": "WSJ는 드리스콜 미 육군장관이 올해 말 사임할 것으로 예상된다고 보도했다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787430118.372544,
-  "_updated_label": "2026-08-23 05:22",
-  "_last_attempt_at": 1787430118.372544,
-  "_last_success_at": 1787430118.372544,
+  "_fetched_at": 1787434058.9955053,
+  "_updated_label": "2026-08-23 06:28",
+  "_last_attempt_at": 1787434058.9955053,
+  "_last_success_at": 1787434058.9955053,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787432410.9323823,
+  "generatedAt": 1787434058.9364603,
   "records": {
     "MSFT": [
       {
@@ -52,6 +52,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1787434058.9364603,
+        "dataAsOf": 1787385601,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 3.67
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.92,
+            "after": -2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.88,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Meta는 법정에 상륙한 최신 기술 거인입니다. 이본느 곤잘레스 로저스 판사를 만나보세요",
+        "newsUrl": "https://finnhub.io/api/news?id=0c3e4671d412eba59683f5b4fd378521ca4434e4b991bed8d8da4491d9fa3690",
+        "eventId": "649ac909bfe61a7ed225",
+        "fingerprint": "{\"changes\": [{\"after\": 3.67, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.97, \"before\": -1.92, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 0.88, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"649ac909bfe61a7ed225\"}"
+      },
       {
         "changedAt": 1787411883.7019346,
         "dataAsOf": 1787374021,
@@ -418,6 +447,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "META": [
       {
+        "changedAt": 1787434058.9364603,
+        "dataAsOf": 1787385601,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 0.35
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.62,
+            "after": -3.67
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": -0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Meta는 법정에 상륙한 최신 기술 거인입니다. 이본느 곤잘레스 로저스 판사를 만나보세요",
+        "newsUrl": "https://finnhub.io/api/news?id=0c3e4671d412eba59683f5b4fd378521ca4434e4b991bed8d8da4491d9fa3690",
+        "eventId": "649ac909bfe61a7ed225",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.67, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"649ac909bfe61a7ed225\"}"
+      },
+      {
         "changedAt": 1787367445.8330786,
         "dataAsOf": 1787310979,
         "changes": [
@@ -669,6 +733,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AAPL": [
+      {
+        "changedAt": 1787434058.9364603,
+        "dataAsOf": 1787391121,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.57,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.15,
+            "after": -4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.92,
+            "after": -2.45
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "모든 S&P 500 인덱스 펀드 소유자는 Apple보다 Nvidia를 더 많이 보유하고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=bd4f750c40540d512caea103877ee7b76543da7f09a057e562044f77890fed31",
+        "eventId": "40591f6267cbe7055f16",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.45, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"40591f6267cbe7055f16\"}"
+      },
       {
         "changedAt": 1787411883.7019346,
         "dataAsOf": 1787391121,
@@ -922,6 +1015,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ORCL": [
+      {
+        "changedAt": 1787434058.9364603,
+        "dataAsOf": 1787344885,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.5,
+            "after": 2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.15,
+            "after": 2.62
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Oracle의 VA 계약이 170억 달러 증가했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b9983b40991e9ebf3fe564ca0e83bc6f35ad1292e859367d5059a557de848eb8",
+        "eventId": "e637620d54da6a921336",
+        "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 3.5, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.62, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e637620d54da6a921336\"}"
+      },
       {
         "changedAt": 1787411883.7019346,
         "dataAsOf": 1787344885,
