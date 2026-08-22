@@ -1,13 +1,13 @@
 // 자동 생성 파일 - 펀더멘털 인텔리전스 MVP
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
-  "modelVersion": "fundamental-v1.2",
-  "generatedAt": 1787356811.3011663,
+  "modelVersion": "fundamental-v1.3",
+  "generatedAt": 1787359917.041404,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.2,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -139,6 +139,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -253,6 +254,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 483.24,
@@ -309,7 +320,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 8.2,
           "confidence": 100,
@@ -342,7 +353,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -360,8 +371,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 13.9,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -525,6 +536,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -677,6 +689,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "일회성 이익의 존재와 규모는 회사 공식 실적발표 기준(신뢰도 높음) · 다음 분기 방향에 대한 해석은 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 344.82,
@@ -733,7 +755,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 13.9,
           "confidence": 100,
@@ -766,7 +788,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -784,8 +806,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -0.7,
       "confidence": 95.0,
       "fundamentalSigma": null,
@@ -887,6 +909,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -985,6 +1008,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 258.63,
@@ -1041,7 +1074,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": -0.7,
           "confidence": 95.0,
@@ -1074,7 +1107,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -1092,8 +1125,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.5,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -1257,6 +1290,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -1381,6 +1415,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "일회성 세금 항목의 존재·규모·직후 정상화는 회사 공식 발표 기준(신뢰도 높음)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 549.9,
@@ -1437,7 +1481,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 9.5,
           "confidence": 100,
@@ -1470,7 +1514,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -1488,8 +1532,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.4,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -1644,6 +1688,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -1760,6 +1805,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 309.35,
@@ -1816,7 +1871,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 8.4,
           "confidence": 100,
@@ -1849,7 +1904,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -1867,8 +1922,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.9,
       "confidence": 90.0,
       "fundamentalSigma": null,
@@ -1968,6 +2023,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -2062,6 +2118,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 362.86,
@@ -2118,7 +2184,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 12.9,
           "confidence": 90.0,
@@ -2151,7 +2217,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -2169,8 +2235,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 28.7,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -2310,6 +2376,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -2463,6 +2530,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 146.47,
@@ -2519,7 +2596,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 28.7,
           "confidence": 100,
@@ -2552,7 +2629,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2570,8 +2647,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.7,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -2650,6 +2727,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -2745,6 +2823,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 209.17,
@@ -2801,7 +2889,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 9.7,
           "confidence": 85.0,
@@ -2834,7 +2922,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -2852,8 +2940,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 34.3,
       "confidence": 95.0,
       "fundamentalSigma": null,
@@ -2964,6 +3052,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -3064,6 +3153,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "매출·마진 성장 숫자는 회사 공식 발표 기준(신뢰도 높음) · 밸류에이션 관련 해석은 일반적 시장 논리에 기반한 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 179.94,
@@ -3120,7 +3219,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 34.3,
           "confidence": 95.0,
@@ -3153,7 +3252,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -3171,8 +3270,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 28.1,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -3323,6 +3422,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -3485,6 +3585,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "마진 추이 숫자와 블랙웰 원가/판가 구조는 업계 보도 기준(신뢰도 높음) · 향후 지속 여부는 회사 가이던스 기반이라 상대적으로 신뢰도 중상"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 214.72,
@@ -3541,7 +3651,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 28.1,
           "confidence": 100,
@@ -3574,7 +3684,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3592,8 +3702,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 38.6,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -3753,6 +3863,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -3879,6 +3990,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 473.25,
@@ -3935,7 +4056,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 38.6,
           "confidence": 100,
@@ -3968,7 +4089,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3986,8 +4107,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 23.2,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -4149,6 +4270,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -4265,6 +4387,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 368.45,
@@ -4321,7 +4453,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 23.2,
           "confidence": 100,
@@ -4354,7 +4486,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -4372,8 +4504,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.1,
       "confidence": 95.0,
       "fundamentalSigma": null,
@@ -4484,6 +4616,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -4632,6 +4765,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "일회성 세금 항목의 존재와 규모는 회사 발표·언론 보도 기준(신뢰도 높음) · 다음 분기 매출 방향 예측은 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 160.75,
@@ -4688,7 +4831,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 10.1,
           "confidence": 95.0,
@@ -4721,7 +4864,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -4739,8 +4882,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 25.3,
       "confidence": 73.5,
       "fundamentalSigma": null,
@@ -4821,6 +4964,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -4933,6 +5077,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 243.32,
@@ -4989,7 +5143,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 25.3,
           "confidence": 73.5,
@@ -5022,7 +5176,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -5040,8 +5194,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 35.5,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -5204,6 +5358,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -5328,6 +5483,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "GAAP-비GAAP 괴리와 영업현금흐름 수치는 회사 공식 발표 기준(신뢰도 높음) · 향후 마진 추세 전망은 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 237.04,
@@ -5384,7 +5549,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 35.5,
           "confidence": 100,
@@ -5417,7 +5582,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -5435,8 +5600,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 7.7,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -5600,6 +5765,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -5752,6 +5918,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "손상차손·구조조정 비용 항목과 매출 성장률은 회사 공식 발표 기준(신뢰도 높음) · 향후 몇 분기 더 지속될지에 대한 전망은 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 90.07,
@@ -5808,7 +5984,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 7.7,
           "confidence": 100,
@@ -5841,7 +6017,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -5859,8 +6035,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 21.6,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -5982,6 +6158,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -6122,6 +6299,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 418.95,
@@ -6178,7 +6365,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 21.6,
           "confidence": 85.0,
@@ -6211,7 +6398,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -6229,8 +6416,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.1,
       "confidence": 73.5,
       "fundamentalSigma": null,
@@ -6311,6 +6498,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -6395,6 +6583,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 1763.76,
@@ -6451,7 +6649,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 18.1,
           "confidence": 73.5,
@@ -6484,7 +6682,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -6502,8 +6700,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.6,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -6622,6 +6820,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -6722,6 +6921,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 492.32,
@@ -6778,7 +6987,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 12.6,
           "confidence": 100,
@@ -6811,7 +7020,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -6829,8 +7038,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.4,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -6918,6 +7127,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -6994,6 +7204,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 314.0,
@@ -7050,7 +7270,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 12.4,
           "confidence": 85.0,
@@ -7083,7 +7303,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -7101,8 +7321,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.3,
       "confidence": 68.8,
       "fundamentalSigma": null,
@@ -7177,6 +7397,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -7244,6 +7465,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 183.99,
@@ -7300,7 +7531,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 16.3,
           "confidence": 68.8,
@@ -7333,7 +7564,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -7351,8 +7582,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 55.1,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -7506,6 +7737,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -7630,6 +7862,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "가격 급등이라는 산업 현상 자체는 여러 소스로 교차 확인됨(신뢰도 높음) · 사이클 정점 여부·다음 분기 방향은 추정(신뢰도 중간, 메모리 사이클 타이밍은 예측이 특히 어려운 영역)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 966.78,
@@ -7686,7 +7928,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 55.1,
           "confidence": 100,
@@ -7719,7 +7961,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -7737,8 +7979,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.6,
       "confidence": 95.0,
       "fundamentalSigma": null,
@@ -7848,6 +8090,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -7948,6 +8191,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "산업 가격 상승 현상은 신뢰도 높음 · 회사별 민감도 비교(SNDK가 더 크게 흔들릴 것이라는 판단)는 추정(신뢰도 중간)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 1596.08,
@@ -8004,7 +8257,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 11.6,
           "confidence": 95.0,
@@ -8037,7 +8290,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -8055,8 +8308,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 32.3,
       "confidence": 95.0,
       "fundamentalSigma": null,
@@ -8165,6 +8418,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -8265,6 +8519,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "confidence": "매출·순이익 숫자 자체는 캐시 데이터 기준(신뢰도 높음) · 96% 마진의 구체적 원인은 미확인(신뢰도 낮음 - 다음 갱신 때 우선 확인할 것)"
         }
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 459.44,
@@ -8321,7 +8585,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 32.3,
           "confidence": 95.0,
@@ -8354,7 +8618,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -8372,8 +8636,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.3,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -8448,6 +8712,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -8515,6 +8780,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 188.65,
@@ -8571,7 +8846,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 16.3,
           "confidence": 71.7,
@@ -8604,7 +8879,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -8622,8 +8897,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -2.3,
       "confidence": 87.1,
       "fundamentalSigma": null,
@@ -8719,6 +8994,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -8803,6 +9079,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익과 정상화이익 차이가 커 헤드라인 순이익을 그대로 본업 성과로 보기 어렵습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 289.52,
@@ -8859,7 +9145,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": -2.3,
           "confidence": 87.1,
@@ -8892,7 +9178,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -8910,8 +9196,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 0.7,
       "confidence": 100,
       "fundamentalSigma": null,
@@ -9030,6 +9316,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       ],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -9130,6 +9417,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 866.71,
@@ -9186,7 +9483,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 0.7,
           "confidence": 100,
@@ -9219,7 +9516,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "damaged",
           "statuses": {
@@ -9237,8 +9534,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.2,
       "confidence": 90.0,
       "fundamentalSigma": null,
@@ -9337,6 +9634,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -9421,6 +9719,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 956.85,
@@ -9477,7 +9785,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 18.2,
           "confidence": 90.0,
@@ -9510,7 +9818,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -9528,8 +9836,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -5.7,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -9604,6 +9912,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -9699,6 +10008,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 272.88,
@@ -9755,7 +10074,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": -5.7,
           "confidence": 71.7,
@@ -9788,7 +10107,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -9806,8 +10125,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -5.0,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -9882,6 +10201,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -9959,6 +10279,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익에 의미 있는 특이항목이 확인됩니다. 본업은 매출·영업이익·정상화이익을 우선해 읽어야 합니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 136.21,
@@ -10015,7 +10345,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": -5.0,
           "confidence": 71.7,
@@ -10048,7 +10378,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -10066,8 +10396,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.4,
       "confidence": 82.1,
       "fundamentalSigma": null,
@@ -10155,6 +10485,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -10231,6 +10562,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 419.2,
@@ -10287,7 +10628,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 11.4,
           "confidence": 82.1,
@@ -10320,7 +10661,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -10338,8 +10679,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -10414,6 +10755,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -10481,6 +10823,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 639.34,
@@ -10537,7 +10889,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -10570,7 +10922,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -10588,8 +10940,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -10664,6 +11016,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -10731,6 +11084,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 470.03,
@@ -10787,7 +11150,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -10820,7 +11183,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -10838,8 +11201,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.7,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -10927,6 +11290,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -11003,6 +11367,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 261.95,
@@ -11059,7 +11433,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 18.7,
           "confidence": 85.0,
@@ -11092,7 +11466,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "strengthening",
           "statuses": {
@@ -11110,8 +11484,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.5,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -11197,6 +11571,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -11273,6 +11648,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 197.68,
@@ -11329,7 +11714,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 10.5,
           "confidence": 85.0,
@@ -11362,7 +11747,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -11380,8 +11765,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 33.5,
       "confidence": 85.0,
       "fundamentalSigma": null,
@@ -11469,6 +11854,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -11545,6 +11931,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익과 정상화이익 차이가 커 헤드라인 순이익을 그대로 본업 성과로 보기 어렵습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 850.0,
@@ -11601,7 +11997,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 33.5,
           "confidence": 85.0,
@@ -11634,7 +12030,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -11652,8 +12048,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.5,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -11719,6 +12115,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -11786,6 +12183,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 776.62,
@@ -11842,7 +12249,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 8.5,
           "confidence": 71.7,
@@ -11875,7 +12282,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -11893,8 +12300,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 15.9,
       "confidence": 71.7,
       "fundamentalSigma": null,
@@ -11960,6 +12367,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -12027,6 +12435,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "현재 수집된 항목만 보면 최신 기간 순이익을 크게 왜곡하는 특이항목은 확인되지 않았습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 1655.61,
@@ -12083,7 +12501,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 15.9,
           "confidence": 71.7,
@@ -12116,7 +12534,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {
@@ -12134,8 +12552,8 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787356811.3011663,
-      "modelVersion": "fundamental-v1.2",
+      "asOf": 1787359917.041404,
+      "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.3,
       "confidence": 55.2,
       "fundamentalSigma": null,
@@ -12191,6 +12609,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "topNegative": [],
       "nextChecks": [
         "다음 실적의 매출·EPS·마진",
+        "공식 가이던스 대비 실제 매출 달성 여부",
         "핵심 고객 수요·CAPEX",
         "FCF와 부채·CAPEX 변화"
       ],
@@ -12258,6 +12677,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "coreRead": "보고 순이익과 정상화이익 차이가 커 헤드라인 순이익을 그대로 본업 성과로 보기 어렵습니다.",
         "manualContext": null
       },
+      "guidanceTrackRecord": {
+        "status": "collecting",
+        "settledCount": 0,
+        "metCount": 0,
+        "hitRate": null,
+        "confidenceAdjustment": 0.0,
+        "worseningTwo": false,
+        "recentOutcomes": [],
+        "notice": "SEC Company Facts의 분기 매출만 회사 공식 가이던스와 대조합니다. 2개 결과 전에는 신뢰도에 반영하지 않습니다."
+      },
       "valuationScenario": {
         "status": "available",
         "price": 69.22,
@@ -12314,7 +12743,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "fundamentalScore": 10.3,
           "confidence": 55.2,
@@ -12347,7 +12776,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787356811.3011663,
+          "asOf": 1787359917.041404,
           "date": "2026-08-22",
           "overallStatus": "intact",
           "statuses": {

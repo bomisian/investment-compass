@@ -2129,7 +2129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -3140,7 +3140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -4212,7 +4212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -5153,7 +5153,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -6252,7 +6252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -7041,7 +7041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -8210,7 +8210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -9773,7 +9773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -11076,7 +11076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -12208,7 +12208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -13194,7 +13194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -14146,7 +14146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -15096,7 +15096,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -15964,7 +15964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -17030,7 +17030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -17831,7 +17831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -18740,7 +18740,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -19854,7 +19854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -20510,7 +20510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -21054,7 +21054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -22179,7 +22179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -22831,7 +22831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -23414,7 +23414,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -24077,7 +24077,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -25234,7 +25234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -25908,7 +25908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -26349,7 +26349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -26872,7 +26872,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -27449,7 +27449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -27936,7 +27936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -28239,7 +28239,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -28753,7 +28753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -29145,7 +29145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -29263,7 +29263,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -29479,7 +29479,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 4,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -29894,7 +29894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -29953,9 +29953,57 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787337424.230836
+          "analysisUpdatedAt": 1787359881.1748695
         },
         "headlineKo": "보고서에서 Google, Amazon을 데이터 센터 냉각 고객으로 명명한 후 Modine 주가 급등"
+      },
+      {
+        "headline": "Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=89305336b90a88b0db001819070b539226301a08f7191a28c1279e8f271e0668",
+        "datetime": 1787305051,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1787359882.2768161
+        },
+        "headlineKo": "Modine Manufacturing 시청; Hunterbrook 미디어 이슈 보고서, \"Modine의 수십억 달러 고객은 Google과 Amazon입니다.\"; 상태 Hunterbrook Capital의 매수 $MOD"
       }
     ],
     "newsHistory": [
@@ -30004,7 +30052,55 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787337424.230836
+          "analysisUpdatedAt": 1787359881.1748695
+        }
+      },
+      {
+        "headline": "Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=89305336b90a88b0db001819070b539226301a08f7191a28c1279e8f271e0668",
+        "datetime": 1787305051,
+        "headlineKo": "Modine Manufacturing 시청; Hunterbrook 미디어 이슈 보고서, \"Modine의 수십억 달러 고객은 Google과 Amazon입니다.\"; 상태 Hunterbrook Capital의 매수 $MOD",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MOD의 사업과 관련된 'Watching Modine Manufacturing; Hunterbrook Media Issues Report Titled, “Modine's Anchor Multi-Billion Dollar Customers Are Google And Amazon.”; States Hunterbrook Capital Is Long $MOD' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MOD 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1787359882.2768161
         }
       },
       {
@@ -30056,17 +30152,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1787337421.1524289,
-    "_updated_label": "2026-08-22 03:37",
+    "_fetched_at": 1787359878.2205598,
+    "_updated_label": "2026-08-22 09:51",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 3,
+      "checked": 5,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
-    "_last_attempt_at": 1787337421.1524289,
+    "_last_attempt_at": 1787359878.2205598,
     "_earnings_status": "ok",
-    "_last_success_at": 1787337421.1524289,
+    "_last_success_at": 1787359878.2205598,
     "_collection_status": "ok"
   },
   "STX": {
@@ -30483,7 +30579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -30832,7 +30928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -31259,7 +31355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
     "_last_attempt_at": 1787344806.1791005,
     "_earnings_status": "ok",
@@ -31281,9 +31377,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-08-22 09:00"
+      "updated": "2026-08-22 09:51"
     },
-    "_last_attempt_at": 1787356807.6565793,
+    "_last_attempt_at": 1787359878.2205598,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_error": "뉴스 API가 빈 응답을 반환함"

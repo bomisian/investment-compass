@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787356810.9186919,
+  "generatedAt": 1787359886.9693356,
   "events": [
     {
       "id": "bb97018811997339facb",
@@ -11316,9 +11316,11 @@ const EVENT_DATA = {
             "filingDate": "2026-08-13",
             "targetPeriod": null,
             "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm",
+            "outcome": null
           }
-        ]
+        ],
+        "guidanceOutcome": null
       }
     },
     {
@@ -13531,9 +13533,11 @@ const EVENT_DATA = {
             "filingDate": "2026-08-12",
             "targetPeriod": "first quarter 2027",
             "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm",
+            "outcome": null
           }
-        ]
+        ],
+        "guidanceOutcome": null
       }
     },
     {
@@ -16084,9 +16088,11 @@ const EVENT_DATA = {
             "filingDate": "2026-08-11",
             "targetPeriod": null,
             "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+            "outcome": null
           }
-        ]
+        ],
+        "guidanceOutcome": null
       }
     },
     {
