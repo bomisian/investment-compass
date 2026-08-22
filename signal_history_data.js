@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787363532.0898347,
+  "generatedAt": 1787367445.8330786,
   "records": {
     "MSFT": [
       {
@@ -52,6 +52,47 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787301401,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.15,
+            "after": 2.62
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.03,
+            "after": 2.8
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.57,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 1.05
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150",
+        "eventId": "395303ef342f3de4c776",
+        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 3.15, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.8, \"before\": 4.03, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -1.57, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.4, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.05, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"395303ef342f3de4c776\"}"
+      },
       {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787319953,
@@ -336,6 +377,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "META": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787310979,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.88
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.27,
+            "after": -2.62
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.18
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Broadcom의 최신 부채 거래",
+        "newsUrl": "https://finnhub.io/api/news?id=2c04227ae5351fa6a90d147eba0b15cb06cef2dd3553225b4a061c65c3016eeb",
+        "eventId": "66d5920aa7c21a67b5e0",
+        "fingerprint": "{\"changes\": [{\"after\": 0.88, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.62, \"before\": -2.27, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.18, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"66d5920aa7c21a67b5e0\"}"
+      },
+      {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787310979,
         "changes": [
@@ -559,6 +629,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AAPL": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787301459,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.45,
+            "after": 2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.45,
+            "after": -3.15
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": -0.18
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
+        "newsUrl": "https://finnhub.io/api/news?id=78ec50cf42fcc10fcff5bdf09a62da923d9804a1534ff1738bdbbea873a9474a",
+        "eventId": "f81200ea6bc1cc4c3155",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.18, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f81200ea6bc1cc4c3155\"}"
+      },
+      {
         "changedAt": 1787256309.1436353,
         "dataAsOf": 1787212801,
         "changes": [
@@ -613,6 +712,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787108869,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.18,
+            "after": 0.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Tesla Optimus 라이벌 Unitree Robotics, 상하이 데뷔에서 629% 폭발, 일시적으로 660억 달러 가치 달성",
+        "newsUrl": "https://finnhub.io/api/news?id=f1e9f6f7defea1395e1ca247dcfabde935aa8775c4294cbe5f77f86a7ab1563e",
+        "eventId": "71d150723dca23fbe3f8",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"71d150723dca23fbe3f8\"}"
+      },
+      {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787323131,
         "changes": [
@@ -660,6 +788,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ORCL": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787301459,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.15,
+            "after": 2.8
+          }
+        ],
+        "cause": "클라우드 수요와 자본 부담 동시 확대",
+        "newsHeadline": "'애플은 법원의 체납금 판결 이후 아일랜드에 170억 달러의 세금을 납부했습니다' - Financial Times",
+        "newsUrl": "https://finnhub.io/api/news?id=78ec50cf42fcc10fcff5bdf09a62da923d9804a1534ff1738bdbbea873a9474a",
+        "eventId": "f81200ea6bc1cc4c3155",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.8, \"before\": 3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f81200ea6bc1cc4c3155\"}"
+      },
       {
         "changedAt": 1787256309.1436353,
         "dataAsOf": 1787219040,
@@ -810,6 +961,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787324763,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.7
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
+        "eventId": "665b5eae3853597a3de7",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
+      },
+      {
         "changedAt": 1787300499.2416117,
         "dataAsOf": 1787242528,
         "changes": [
@@ -896,6 +1064,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787324763,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.0,
+            "after": -3.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
+        "eventId": "665b5eae3853597a3de7",
+        "fingerprint": "{\"changes\": [{\"after\": -3.7, \"before\": -3.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
+      },
       {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787289244,
@@ -1042,6 +1233,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787301401,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.57,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.27,
+            "after": -1.23
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Broadcom보다 먼저 Marvell을 구입하는 것은 큰 실수입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=41a87a44b2d9db0343df5a3e124c0a41c98f2e1827eabeae6e09369b39409150",
+        "eventId": "395303ef342f3de4c776",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -1.57, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.52, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.23, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"395303ef342f3de4c776\"}"
+      },
       {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787319953,
@@ -1338,6 +1558,47 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MRVL": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787228312,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.92,
+            "after": 1.4
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.9
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.75,
+            "after": -2.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.88,
+            "after": -1.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.25,
+            "after": 0.27
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "분석가는 Marvell의 Google AI 거래로 1,200억 달러의 엄청난 기회를 얻을 수 있다고 말합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=a1db5cb0d5fde30c9941cc028cc4062f471dd101bfa5a86d3c6b5fb160f71f58",
+        "eventId": "1167a4f5402a87596d89",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.7, \"before\": -3.75, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.35, \"before\": -1.88, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.27, \"before\": -0.25, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1167a4f5402a87596d89\"}"
+      },
       {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787319953,
@@ -1854,6 +2115,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787324763,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.75,
+            "after": -2.45
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
+        "eventId": "665b5eae3853597a3de7",
+        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
+      },
+      {
         "changedAt": 1787300499.2416117,
         "dataAsOf": 1787242528,
         "changes": [
@@ -1906,6 +2184,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "SNDK": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787324763,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.52,
+            "after": 0.87
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
+        "eventId": "665b5eae3853597a3de7",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
+      },
       {
         "changedAt": 1787322779.8175497,
         "dataAsOf": 1787057783,
@@ -2130,6 +2431,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GEV": [
       {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1787302246,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 1.05
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.4,
+            "after": 2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 1.05
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "GE Vernova, 최대 배터리 프로젝트 중 하나에 전력을 공급하기 위해 호주와 주요 계약 체결",
+        "newsUrl": "https://finnhub.io/api/news?id=1940dd03378e1c2642650f3af5bf911668697efc181df0b8af99824be8e80fd4",
+        "eventId": "75cd65ee4b2194bc4cf4",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.1, \"before\": 1.4, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.05, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"75cd65ee4b2194bc4cf4\"}"
+      },
+      {
         "changedAt": 1787345086.9260807,
         "dataAsOf": 1787302246,
         "changes": [
@@ -2307,6 +2637,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1787367445.8330786,
+        "dataAsOf": 1786533168,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": 0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "더 강력한 결과, AI 거래 및 환매는 Vertiv Holdings Co(VRT)의 게임 체인저가 될 수 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=6dddc2638d017cb8d7e83ad4c4f381765721fc9bb85f187e150b16b49e2914b0",
+        "eventId": "dee895d66364a8201fd0",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.7, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"dee895d66364a8201fd0\"}"
+      },
       {
         "changedAt": 1787218520.0463588,
         "dataAsOf": 1786533168,
