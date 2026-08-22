@@ -49,21 +49,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7099997997283936,
+      "current": 3.7100000381469727,
       "prevClose": 3.703000068664551,
-      "changeAbs": 0.0069997310638427734,
-      "changePct": 0.18902865066289765,
+      "changeAbs": 0.006999969482421875,
+      "changePct": 0.18903508918773373,
       "pctRank": 36.41434262948207,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
       "high1y": 4.127999782562256,
-      "drawdown1y": -10.125969109775701,
-      "ma20": 3.7123499870300294,
-      "ma60": 3.6870999972025555,
-      "chg1m": -0.09000015258789062,
-      "chg3m": 0.12799978256225586,
-      "chg1mPct": -2.368425097822203,
-      "chg3mPct": 3.5734165814862715,
+      "drawdown1y": -10.125963334131526,
+      "ma20": 3.712349998950958,
+      "ma60": 3.6871000011761983,
+      "chg1m": -0.08999991416931152,
+      "chg3m": 0.12800002098083496,
+      "chg1mPct": -2.36841882364899,
+      "chg3mPct": 3.57342323750464,
       "lastDate": "2026-08-21",
       "bars": 1255,
       "symbol": "^IRX",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0280001163482666,
+  "yieldSpread": 1.0279998779296875,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-      "datetime": 1787371863,
+      "datetime": 1787360700,
       "headlineKo": "미국과 이란, 새로운 제재를 앞두고 적대적인 수사 계속 - 로이터"
     },
     {
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787374786.8614318,
-  "_updated_label": "2026-08-22 14:00",
-  "_last_attempt_at": 1787374786.8614318,
-  "_last_success_at": 1787374786.8614318,
+  "_fetched_at": 1787378449.1159325,
+  "_updated_label": "2026-08-22 15:01",
+  "_last_attempt_at": 1787378449.1159325,
+  "_last_success_at": 1787378449.1159325,
   "_collection_status": "ok",
   "_collection_errors": []
 };
