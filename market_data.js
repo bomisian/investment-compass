@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "38-year-old runs a mobile pizzeria out of his Smart car in New York City: It's 'like a circus or a magic act'",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/bradley-alvelo-runs-pizza-pod-mobile-pizzeria-smart-car-new-york-city.html",
+      "datetime": 1787407201,
+      "headlineKo": "38세의 뉴욕시 스마트카에서 이동식 피자 가게를 운영하는 모습: '서커스나 마술 행위와 같습니다.'"
+    },
+    {
       "headline": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/21/cramer-on-why-our-ai-data-center-stocks-are-among-the-worst-of-the-week.html",
       "datetime": 1787333893,
       "headlineKo": "Jim Cramer가 AI 데이터 센터 주식이 이번 주 최악의 주식에 속하는 이유를 살펴봅니다."
-    },
-    {
-      "headline": "This sleepy sector could offer big returns, says Mike Khouw",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/this-sleepy-sector-could-offer-big-returns-says-mike-khouw.html",
-      "datetime": 1787333500,
-      "headlineKo": "Mike Khouw는 이 잠잠한 부문이 큰 수익을 제공할 수 있다고 말합니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787411883.763703,
-  "_updated_label": "2026-08-23 00:18",
-  "_last_attempt_at": 1787411883.763703,
-  "_last_success_at": 1787411883.763703,
+  "_fetched_at": 1787415531.860686,
+  "_updated_label": "2026-08-23 01:19",
+  "_last_attempt_at": 1787415531.860686,
+  "_last_success_at": 1787415531.860686,
   "_collection_status": "ok",
   "_collection_errors": []
 };
