@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "US, Iran keep up hostile rhetoric ahead of new sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
-      "datetime": 1787360700,
+      "datetime": 1787371863,
       "headlineKo": "미국과 이란, 새로운 제재를 앞두고 적대적인 수사 계속 - 로이터"
     },
     {
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787378449.1159325,
-  "_updated_label": "2026-08-22 15:01",
-  "_last_attempt_at": 1787378449.1159325,
-  "_last_success_at": 1787378449.1159325,
+  "_fetched_at": 1787382092.751037,
+  "_updated_label": "2026-08-22 16:01",
+  "_last_attempt_at": 1787382092.751037,
+  "_last_success_at": 1787382092.751037,
   "_collection_status": "ok",
   "_collection_errors": []
 };
