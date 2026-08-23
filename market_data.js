@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
+      "datetime": 1787508976,
+      "headlineKo": "이란은 '절박한' 미국이 위협하는 새로운 제재는 실패할 것이라고 말한다. - 로이터"
+    },
+    {
       "headline": "Democratic House leader Jeffries meets with Jared Kushner as midterms loom",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/23/democratic-leader-jeffries-meets-with-jared-kushner-as-midterms-loom.html",
@@ -231,13 +238,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
       "datetime": 1787504162,
       "headlineKo": "다음은 이번 주 주식 시장에서 보고 있는 두 가지 주요 사항입니다."
-    },
-    {
-      "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
-      "datetime": 1787495225,
-      "headlineKo": "이란은 '절박한' 미국이 위협하는 새로운 제재는 실패할 것이라고 말한다. - 로이터"
     },
     {
       "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787511619.1293383,
-  "_updated_label": "2026-08-24 04:00",
-  "_last_attempt_at": 1787511619.1293383,
-  "_last_success_at": 1787511619.1293383,
+  "_fetched_at": 1787515213.3442042,
+  "_updated_label": "2026-08-24 05:00",
+  "_last_attempt_at": 1787515213.3442042,
+  "_last_success_at": 1787515213.3442042,
   "_collection_status": "ok",
   "_collection_errors": []
 };
