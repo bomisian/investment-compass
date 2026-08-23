@@ -268,6 +268,13 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘은 시리아 남부를 공격하고, 다마스쿠스는 공격을 비난한다. - 로이터"
     },
     {
+      "headline": "Allspring’s Miletti sees Jackson Hole as bigger risk than Nvidia",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/allspring-s-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia",
+      "datetime": 1787414820,
+      "headlineKo": "Allspring의 Miletti는 Jackson Hole이 Nvidia보다 더 큰 위험이라고 생각합니다."
+    },
+    {
       "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
       "datetime": 1787407068,
       "headlineKo": "미국-캐나다 무역협상 결렬, 새로운 관세 부과"
-    },
-    {
-      "headline": "How a physician with a 1 a.m. bedtime optimizes his health: I try to 'tick all the longevity boxes that I can'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/longevity-doctor-daily-habits-healthy-aging.html",
-      "datetime": 1787403901,
-      "headlineKo": "오전 1시에 취침하는 의사가 자신의 건강을 최적화하는 방법: 나는 '가능한 한 모든 장수 항목을 체크'하려고 노력합니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787500883.5191798,
-  "_updated_label": "2026-08-24 01:01",
-  "_last_attempt_at": 1787500883.5191798,
-  "_last_success_at": 1787500883.5191798,
+  "_fetched_at": 1787504413.1956832,
+  "_updated_label": "2026-08-24 02:00",
+  "_last_attempt_at": 1787504413.1956832,
+  "_last_success_at": 1787504413.1956832,
   "_collection_status": "ok",
   "_collection_errors": []
 };
