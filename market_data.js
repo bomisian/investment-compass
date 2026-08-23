@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
+      "datetime": 1787491783,
+      "headlineKo": "이란은 '절박한' 미국이 위협하는 새로운 제재는 실패할 것이라고 말한다. - 로이터"
+    },
+    {
+      "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
+      "datetime": 1787490787,
+      "headlineKo": "이란, 파키스탄군 참모총장, 월요일 테헤란 방문 예정 - 로이터"
+    },
+    {
       "headline": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
@@ -231,13 +245,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
       "datetime": 1787486401,
       "headlineKo": "유나이티드의 다음 결정: 몇 년 전에 주문한 모든 보잉 737 Max 10 좌석을 어떻게 해야 할까요?"
-    },
-    {
-      "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
-      "datetime": 1787483280,
-      "headlineKo": "이란, 파키스탄군 참모총장, 월요일 테헤란 방문 예정 - 로이터"
     },
     {
       "headline": "Syria foreign minister sees Israel security talks resuming despite no trust - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
       "datetime": 1787401289,
       "headlineKo": "이란, 이라크 유조선 다수의 호르무즈 통과 허가 - 로이터"
-    },
-    {
-      "headline": "For young Americans, the workplace is the new phoneless frontier. 'It allows us to hyper focus on the task at hand,' says employer",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
-      "datetime": 1787400001,
-      "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787493145.6749096,
-  "_updated_label": "2026-08-23 22:52",
-  "_last_attempt_at": 1787493145.6749096,
-  "_last_success_at": 1787493145.6749096,
+  "_fetched_at": 1787496861.1229348,
+  "_updated_label": "2026-08-23 23:54",
+  "_last_attempt_at": 1787496861.1229348,
+  "_last_success_at": 1787496861.1229348,
   "_collection_status": "ok",
   "_collection_errors": []
 };
