@@ -307,12 +307,10 @@ const MARKET_DATA = {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787478462.1633875,
-  "_updated_label": "2026-08-23 18:48",
-  "_last_attempt_at": 1787478462.1633875,
-  "_last_success_at": 1787470899.077496,
-  "_collection_status": "partial",
-  "_collection_errors": [
-    "WTI 유가"
-  ]
+  "_fetched_at": 1787482147.4508724,
+  "_updated_label": "2026-08-23 19:49",
+  "_last_attempt_at": 1787482147.4508724,
+  "_last_success_at": 1787482147.4508724,
+  "_collection_status": "ok",
+  "_collection_errors": []
 };
