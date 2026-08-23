@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787522809.9479446,
+  "generatedAt": 1787522977.7792985,
   "records": {
     "MSFT": [
       {
@@ -4197,6 +4197,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "WDC": [
       {
+        "changedAt": 1787522977.7792985,
+        "dataAsOf": 1787374212,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": -0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": -0.87
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Seagate: 총이익이 지속되지 않으면 주가가 공격적으로 하락할 수 있음",
+        "newsUrl": "https://finnhub.io/api/news?id=32b9407b3571fb8a740cc19340fcc20cf9675dfb9c6d8e5dada2ef078a7bebda",
+        "eventId": "ffea981cd31a70136c98",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.1, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.87, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"ffea981cd31a70136c98\"}"
+      },
+      {
         "changedAt": 1787522809.9479446,
         "dataAsOf": 1787234401,
         "changes": [
@@ -5012,6 +5047,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "STX": [
+      {
+        "changedAt": 1787522977.7792985,
+        "dataAsOf": 1787374212,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 0.18
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": -0.17
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Seagate: 총이익이 지속되지 않으면 주가가 공격적으로 하락할 수 있음",
+        "newsUrl": "https://finnhub.io/api/news?id=32b9407b3571fb8a740cc19340fcc20cf9675dfb9c6d8e5dada2ef078a7bebda",
+        "eventId": "ffea981cd31a70136c98",
+        "fingerprint": "{\"changes\": [{\"after\": 0.18, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.17, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ffea981cd31a70136c98\"}"
+      },
       {
         "changedAt": 1787522809.9479446,
         "dataAsOf": 1786650714,
