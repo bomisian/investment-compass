@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787500883.4551919,
+  "generatedAt": 1787501104.930333,
   "records": {
     "MSFT": [
       {
@@ -1627,6 +1627,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1787501104.930333,
+        "dataAsOf": 1787476868,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.62,
+            "after": 3.27
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "AMD 대 NVDA: 거북이는 토끼의 빠른 속도에 주의하지 않고 계속 앞서 나갑니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=11155d3408aa838914d6a94061caed3a78f8fe059a61db2e33a7df90d1b4da9b",
+        "eventId": "41f2013dd08ded2131e6",
+        "fingerprint": "{\"changes\": [{\"after\": 3.27, \"before\": 3.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"41f2013dd08ded2131e6\"}"
+      },
       {
         "changedAt": 1787500883.4551919,
         "dataAsOf": 1787476868,
