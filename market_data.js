@@ -282,6 +282,13 @@ const MARKET_DATA = {
       "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
     },
     {
+      "headline": "Nuclear power: Domestic companies to opt for locally-designed reactors to avoid delays",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-21/top-india-utilities-bank-on-local-reactors-for-nuclear-expansion",
+      "datetime": 1787388034,
+      "headlineKo": "원자력: 국내 기업들은 지연을 피하기 위해 현지 설계 원자로를 선택할 것"
+    },
+    {
       "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
@@ -294,22 +301,15 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXVJYmgzQ2hHN1JlVkg0MFl5eU1hVWtYWTN2OFNvUFV3b3NoS053LTdCMDVWNTBZMEdhUDV3ZEQ3QXBBYnpNRDZST0l3amt6V0luVGtJek1aZnlPZVpwMndfY0VjemxrTWxsdUlZQkZxMU03SHA4LXJ2OVdSemltdzJfUGJseElLR3BCUjlFT1JIcXdhUW9CZU1xdVctMEFjN1B5ekl0cmplQQ?oc=5",
       "datetime": 1787360700,
       "headlineKo": "이란, 미국의 새로운 제재 발표 계획 비난 - 로이터"
-    },
-    {
-      "headline": "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
-      "datetime": 1787354798,
-      "headlineKo": "트럼프가 이란 파트너에 대한 제재를 위협하면서 석유가 상승하고 있다. - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787474536.037252,
-  "_updated_label": "2026-08-23 17:42",
-  "_last_attempt_at": 1787474536.037252,
+  "_fetched_at": 1787478462.1633875,
+  "_updated_label": "2026-08-23 18:48",
+  "_last_attempt_at": 1787478462.1633875,
   "_last_success_at": 1787470899.077496,
   "_collection_status": "partial",
   "_collection_errors": [
