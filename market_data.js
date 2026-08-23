@@ -240,6 +240,20 @@ const MARKET_DATA = {
       "headlineKo": "다음은 이번 주 주식 시장에서 보고 있는 두 가지 주요 사항입니다."
     },
     {
+      "headline": "Iran says it discovered over 7.5 trillion cubic feet of gas - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSVR6WDVGa1pXVWw0aFNTbHNTcjZjeEZpS2dUYjZKdjlCcHB2VElmTFU2Vl90RTNPbWg2akxvdF8xcUV2S01JR1N3M0c2T1ZmeHM5V3BrUExMbE16dWRHSWw0QlBoYmFMVUxXUlNzT2lMYXJYNVZ0a1JHUW0xRjc3c1JOVWJlTGxSMGFiLXFVTUgtbWstY1ZHTm02a2N4UklmX0pyaG9uVlFDMVU?oc=5",
+      "datetime": 1787498642,
+      "headlineKo": "이란은 7조 5천억 입방 피트의 가스를 발견했다고 밝혔습니다. - 로이터"
+    },
+    {
+      "headline": "Gulf markets rise as oil gains lift sentiment - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWUctUXh6RjdKQkdiR0xZYTBaX0QwbXNLMUJ0NjNLX21UczhJUFozTDFWMzdkQlJaSnRuVTBFWDdLOG5nUTdHa2JXV3JLVW1oVld0MG9nUWFpRWlEUHJBWXpJLWVGQkx6YkgteHZMVVp0VHlJM0ZEU0xmcUE3dUVBMEJfc3VyMWJ4ekxwZF9XdUx3LUJ5YV9MTTN6NE0?oc=5",
+      "datetime": 1787490825,
+      "headlineKo": "석유가 상승함에 따라 걸프 시장이 상승하고 감정이 고조됨 - 로이터"
+    },
+    {
       "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.bloomberg.com/news/articles/2026-08-21/allspring-s-miletti-sees-jackson-hole-as-bigger-risk-than-nvidia",
       "datetime": 1787414820,
       "headlineKo": "Allspring의 Miletti는 Jackson Hole이 Nvidia보다 더 큰 위험이라고 생각합니다."
-    },
-    {
-      "headline": "Two US tanker aircraft leave Bulgaria a month after deployment upset Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR0xHczhyd0MwdmphVllPT2pTUXNMNDBtU29maGIxbGFNdWtjbnAzS1hsMVBXUnNnalVjbXlUQkpJWnZHelR5QkJyV2lLNGRuelVrYW1OQWJ6YTMteGZBbm9vX0lfY0ZZeE93NVVfZ0lsX3hjLXdVeV9qMG5hZ1Y2dU5FbWNQd0t0U0ZJcHV4MmFHbGhnSC1YMWdKaTBCRTQzR2ZzcDNMVnpFaHBCRVl0RXprMVIwMHg3bUI2Qk9IR05MQUM2R0k4QUFnY3VZbEk?oc=5",
-      "datetime": 1787413537,
-      "headlineKo": "미국 유조선 2대가 배치 후 이란을 화나게 한 지 한 달 만에 불가리아를 떠난다 - 로이터"
-    },
-    {
-      "headline": "Airbnb's new fee change frustrates hosts—what to know before renting out your home",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/airbnb-fee-change-frustrates-hosts-what-to-know-before-listing.html",
-      "datetime": 1787407201,
-      "headlineKo": "에어비앤비의 새로운 수수료 변경으로 인해 호스트가 당황스러워졌습니다. 집을 임대하기 전에 알아야 할 사항"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787518808.274726,
-  "_updated_label": "2026-08-24 06:00",
-  "_last_attempt_at": 1787518808.274726,
-  "_last_success_at": 1787518808.274726,
+  "_fetched_at": 1787522810.0185277,
+  "_updated_label": "2026-08-24 07:07",
+  "_last_attempt_at": 1787522810.0185277,
+  "_last_success_at": 1787522810.0185277,
   "_collection_status": "ok",
   "_collection_errors": []
 };
