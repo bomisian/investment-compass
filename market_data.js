@@ -289,28 +289,28 @@ const MARKET_DATA = {
       "headlineKo": "이란, 미국의 새로운 제재 발표 계획 비난 - 로이터"
     },
     {
+      "headline": "Oil rises as Trump threatens sanctions on Iran partners - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
+      "datetime": 1787354798,
+      "headlineKo": "트럼프가 이란 파트너에 대한 제재를 위협하면서 석유가 상승하고 있다. - 로이터"
+    },
+    {
       "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
       "datetime": 1787353134,
       "headlineKo": "월 스트리트는 당일 상승하고 주중에는 하락합니다. 채권수익률과 이란에 주목 - Reuters"
-    },
-    {
-      "headline": "US Treasury Secretary Bessent to hold press conference on Monday - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeDcwRjI3TkpVODVXRkhpY1JhSXZIeHNkZW84RTdDaEFEdmlDUHZ1Uy1GNXdlOHpMaDVHdGl1RlZBSVFaSC1MbGxXcFRMdjl5Y19KUUpyNkJLaEl3NjlXZklHbkhDaWpLOFJ2Mmk2SWpmWFZuQ2ZQb2VXOUVpVElHQ18wTFBSSUFwODhSS29jLVFUWVM0M1RfRmhTVnBVOFVVUjV4dFpn?oc=5",
-      "datetime": 1787350186,
-      "headlineKo": "베센트 미국 재무장관, 월요일 기자회견 예정 - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787441346.4711058,
-  "_updated_label": "2026-08-23 08:29",
-  "_last_attempt_at": 1787441346.4711058,
-  "_last_success_at": 1787441346.4711058,
+  "_fetched_at": 1787445000.3079689,
+  "_updated_label": "2026-08-23 09:30",
+  "_last_attempt_at": 1787445000.3079689,
+  "_last_success_at": 1787445000.3079689,
   "_collection_status": "ok",
   "_collection_errors": []
 };
