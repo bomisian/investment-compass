@@ -222,7 +222,7 @@ const MARKET_DATA = {
       "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
-      "datetime": 1787491783,
+      "datetime": 1787495225,
       "headlineKo": "이란은 '절박한' 미국이 위협하는 새로운 제재는 실패할 것이라고 말한다. - 로이터"
     },
     {
@@ -252,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUpvdEk0SVFqbENrNjRzRkFFODFJb2ZkczFRWVU1OFBTWG5Sd3JDbHRnajBMYzZHNlhGR0lVNFdTQlZIMFJVOTZadXBGWDdianhfWXBjcUVTZ0ppbllKZnBfU05zeU5ONS10M2dFOHRpbWZEeFItR2hSNk8xblFlaHRWVTdpUzRPUWt4eTI2UzBTNHpZbHVpemlmTEdMbzY5aTFqWUNCclJ6aVpSeklsa2xDc19jb0dzOGh6ZTNRUVRZT25xNjVZMA?oc=5",
       "datetime": 1787483149,
       "headlineKo": "시리아 외무장관, 불신임에도 불구하고 이스라엘 안보 회담 재개 기대 - 로이터"
+    },
+    {
+      "headline": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0hPR1JrMFBOb05wQlVBbnlyNmkwQnZHQnpXdWNaRllmT2dpNzFCcDI0allOU1NkOEtjVHBOZVVpb2NOd1VFcXJ6bzN4U0tJUXBXTDJOMEc3ZF82Rm80T3FnWHE1dGxqOHpfZDlIbzloVFg1LTlMTDhrb3ZpYTZpUHV4dklUeEFMaVNxMTZReXJQZExXYjB3UlFaRVdVVk8wOV80ZGV0alljTVc2Q3hRSzhJTWZsb1h5S1lUY2c0Nno?oc=5",
+      "datetime": 1787479663,
+      "headlineKo": "시노펙의 반기 이익은 이란 전쟁, 수요 감소에도 불구하고 전년 대비 19.3% 증가했다. - 로이터"
     },
     {
       "headline": "Israel strikes southern Syria; Damascus condemns attack - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/22/longevity-doctor-daily-habits-healthy-aging.html",
       "datetime": 1787403901,
       "headlineKo": "오전 1시에 취침하는 의사가 자신의 건강을 최적화하는 방법: 나는 '가능한 한 모든 장수 항목을 체크'하려고 노력합니다."
-    },
-    {
-      "headline": "Iran grants permission for a number of Iraqi oil tankers to pass through Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSEVXQTRoYlc4andBREZoNFdRM3NHMVRtbmdqRU9PQ1k0LWZWdEo5TFBIN0NHakJnc3lJVmlTZzJZM2d5djl4bHFMUEdXUWU4TXkzb2ppOWdnLUpWV1UxN29HN2dMZFJDY2M4eU9iMm40aTllUVBacnU0bGFtZ054YVRFeGFpSXo0bF80VWpsSDVNQlhPR2NkVEMySG9ucnZ3VEIxNmt1SE9UZzdrLW1DR0ZlZjMzaklxZEg0?oc=5",
-      "datetime": 1787401289,
-      "headlineKo": "이란, 이라크 유조선 다수의 호르무즈 통과 허가 - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787496861.1229348,
-  "_updated_label": "2026-08-23 23:54",
-  "_last_attempt_at": 1787496861.1229348,
-  "_last_success_at": 1787496861.1229348,
+  "_fetched_at": 1787500883.5191798,
+  "_updated_label": "2026-08-24 01:01",
+  "_last_attempt_at": 1787500883.5191798,
+  "_last_success_at": 1787500883.5191798,
   "_collection_status": "ok",
   "_collection_errors": []
 };
