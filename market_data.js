@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+      "datetime": 1787486401,
+      "headlineKo": "United에서 10년을 보낸 Scott Kirby CEO는 JFK에서 AI까지 자신의 항공사의 미래에 대해 크게 생각하고 있습니다."
+    },
+    {
+      "headline": "United's next decision: What to do with all those Boeing 737 Max 10 seats it ordered years ago",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/23/united-airlines-boeing-737-max-10-seats.html",
+      "datetime": 1787486401,
+      "headlineKo": "유나이티드의 다음 결정: 몇 년 전에 주문한 모든 보잉 737 Max 10 좌석을 어떻게 해야 할까요?"
+    },
+    {
       "headline": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
@@ -229,7 +243,7 @@ const MARKET_DATA = {
       "headline": "Syria foreign minister sees Israel security talks resuming despite no trust - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUpvdEk0SVFqbENrNjRzRkFFODFJb2ZkczFRWVU1OFBTWG5Sd3JDbHRnajBMYzZHNlhGR0lVNFdTQlZIMFJVOTZadXBGWDdianhfWXBjcUVTZ0ppbllKZnBfU05zeU5ONS10M2dFOHRpbWZEeFItR2hSNk8xblFlaHRWVTdpUzRPUWt4eTI2UzBTNHpZbHVpemlmTEdMbzY5aTFqWUNCclJ6aVpSeklsa2xDc19jb0dzOGh6ZTNRUVRZT25xNjVZMA?oc=5",
-      "datetime": 1787472254,
+      "datetime": 1787483149,
       "headlineKo": "시리아 외무장관, 불신임에도 불구하고 이스라엘 안보 회담 재개 기대 - 로이터"
     },
     {
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/22/is-workplace-new-phoneless-frontier-for-teens.html",
       "datetime": 1787400001,
       "headlineKo": "젊은 미국인들에게 직장은 전화 없는 새로운 개척지입니다. 고용주는 '이를 통해 당면한 작업에 더욱 집중할 수 있습니다.'라고 말합니다."
-    },
-    {
-      "headline": "Nuclear power: Domestic companies to opt for locally-designed reactors to avoid delays",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-21/top-india-utilities-bank-on-local-reactors-for-nuclear-expansion",
-      "datetime": 1787388034,
-      "headlineKo": "원자력: 국내 기업들은 지연을 피하기 위해 현지 설계 원자로를 선택할 것"
-    },
-    {
-      "headline": "Trump heads into midterms short on foreign policy wins - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
-      "datetime": 1787375040,
-      "headlineKo": "트럼프, 외교정책 승리도 부족해 중간선거에 돌입 - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787485786.661063,
-  "_updated_label": "2026-08-23 20:50",
-  "_last_attempt_at": 1787485786.661063,
-  "_last_success_at": 1787485786.661063,
+  "_fetched_at": 1787489487.3059158,
+  "_updated_label": "2026-08-23 21:51",
+  "_last_attempt_at": 1787489487.3059158,
+  "_last_success_at": 1787489487.3059158,
   "_collection_status": "ok",
   "_collection_errors": []
 };
