@@ -2,11 +2,11 @@
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
   "modelVersion": "fundamental-v1.3",
-  "generatedAt": 1787456276.3354175,
+  "generatedAt": 1787459979.0825555,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.2,
       "confidence": 100,
@@ -27,7 +27,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": 14.513333666666666,
+          "score": 14.453333,
           "applicable": true
         },
         "earningsQuality": {
@@ -261,15 +261,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 483.24,
-        "currentEps": 19.7106,
+        "currentEps": 19.72885,
         "nextEps": 23.57328,
-        "epsGrowth": 0.196,
-        "marketPe": 24.52,
-        "conservative": 369.88,
-        "base": 577.94,
-        "optimistic": 895.81,
-        "currentVsBase": -0.1639,
-        "analystTargetMean": 569.5583,
+        "epsGrowth": 0.1949,
+        "marketPe": 24.49,
+        "conservative": 369.54,
+        "base": 577.41,
+        "optimistic": 894.98,
+        "currentVsBase": -0.1631,
+        "analystTargetMean": 569.4537,
         "analystTargetLow": 400.0,
         "analystTargetHigh": 870.0,
         "evidenceWeights": {
@@ -335,7 +335,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 8.2,
           "confidence": 100,
@@ -348,7 +348,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 41.6
           },
           "currentPrice": 483.239990234375,
-          "valuationGap": -0.1639,
+          "valuationGap": -0.1631,
           "theses": {
             "growth": "intact",
             "cashFlow": "intact",
@@ -378,7 +378,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -396,7 +396,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.5,
       "confidence": 100,
@@ -417,7 +417,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 12.74,
+          "score": 12.770000666666666,
           "applicable": true
         },
         "earningsQuality": {
@@ -571,7 +571,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 12.7,
+          "score": 12.8,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -733,14 +733,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 344.82,
-        "currentEps": 20.6002,
-        "nextEps": 14.82873,
-        "epsGrowth": -0.2802,
+        "currentEps": 20.60434,
+        "nextEps": 14.83729,
+        "epsGrowth": -0.2799,
         "marketPe": 16.74,
-        "conservative": 158.86,
-        "base": 248.21,
-        "optimistic": 384.73,
-        "currentVsBase": 0.3892,
+        "conservative": 158.92,
+        "base": 248.31,
+        "optimistic": 384.88,
+        "currentVsBase": 0.3887,
         "analystTargetMean": 428.06668,
         "analystTargetLow": 340.0,
         "analystTargetHigh": 515.0,
@@ -807,7 +807,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 12.5,
           "confidence": 100,
@@ -820,7 +820,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 31.9
           },
           "currentPrice": 344.82000732421875,
-          "valuationGap": 0.3892,
+          "valuationGap": 0.3887,
           "theses": {
             "growth": "intact",
             "cashFlow": "strengthening",
@@ -850,7 +850,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -868,7 +868,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -0.7,
       "confidence": 95.0,
@@ -889,7 +889,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": 0.930000333333334,
+          "score": 0.8033333333333328,
           "applicable": true
         },
         "earningsQuality": {
@@ -981,7 +981,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 0.9,
+          "score": 0.8,
           "confidence": 95.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -1077,15 +1077,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 258.63,
-        "currentEps": 12.41515,
-        "nextEps": 10.46697,
-        "epsGrowth": -0.1569,
-        "marketPe": 20.83,
-        "conservative": 139.55,
-        "base": 218.05,
-        "optimistic": 337.97,
-        "currentVsBase": 0.1861,
-        "analystTargetMean": 326.83734,
+        "currentEps": 12.4927,
+        "nextEps": 10.48206,
+        "epsGrowth": -0.1609,
+        "marketPe": 20.7,
+        "conservative": 138.88,
+        "base": 217.0,
+        "optimistic": 336.36,
+        "currentVsBase": 0.1918,
+        "analystTargetMean": 327.004,
         "analystTargetLow": 230.0,
         "analystTargetHigh": 405.0,
         "evidenceWeights": {
@@ -1151,7 +1151,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": -0.7,
           "confidence": 95.0,
@@ -1164,7 +1164,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 35.8
           },
           "currentPrice": 258.6300048828125,
-          "valuationGap": 0.1861,
+          "valuationGap": 0.1918,
           "theses": {
             "growth": "intact",
             "cashFlow": "weakening",
@@ -1194,7 +1194,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -1212,7 +1212,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 7.7,
       "confidence": 100,
@@ -1595,7 +1595,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 7.7,
           "confidence": 100,
@@ -1638,7 +1638,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "weakening",
           "statuses": {
@@ -1656,7 +1656,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 2.6,
       "confidence": 100,
@@ -1677,7 +1677,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "펀더멘털 위험 신호가 가격에 충분히 반영되지 않았을 가능성이 있습니다.",
       "dimensions": {
         "growth": {
-          "score": -2.403333500000001,
+          "score": -2.3766668333333345,
           "applicable": true
         },
         "earningsQuality": {
@@ -1918,15 +1918,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 309.35,
-        "currentEps": 8.80532,
-        "nextEps": 9.53224,
-        "epsGrowth": 0.0826,
-        "marketPe": 35.13,
-        "conservative": 214.33,
-        "base": 334.89,
-        "optimistic": 519.08,
-        "currentVsBase": -0.0763,
-        "analystTargetMean": 326.3415,
+        "currentEps": 8.81249,
+        "nextEps": 9.53127,
+        "epsGrowth": 0.0816,
+        "marketPe": 35.1,
+        "conservative": 214.13,
+        "base": 334.58,
+        "optimistic": 518.6,
+        "currentVsBase": -0.0754,
+        "analystTargetMean": 324.45282,
         "analystTargetLow": 215.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
@@ -1992,7 +1992,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 2.6,
           "confidence": 100,
@@ -2005,7 +2005,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 42.5
           },
           "currentPrice": 309.3500061035156,
-          "valuationGap": -0.0763,
+          "valuationGap": -0.0754,
           "theses": {
             "growth": "intact",
             "cashFlow": "intact",
@@ -2035,7 +2035,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -2053,9 +2053,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 12.9,
+      "fundamentalScore": 12.8,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -2074,7 +2074,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
       "dimensions": {
         "growth": {
-          "score": 12.74,
+          "score": 12.61,
           "applicable": true
         },
         "earningsQuality": {
@@ -2164,7 +2164,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "intact",
-          "score": 12.7,
+          "score": 12.6,
           "confidence": 90.0,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -2262,15 +2262,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 362.86,
-        "currentEps": 1.78059,
-        "nextEps": 2.17498,
-        "epsGrowth": 0.2215,
-        "marketPe": 203.79,
-        "conservative": 283.67,
-        "base": 443.23,
-        "optimistic": 687.01,
-        "currentVsBase": -0.1813,
-        "analystTargetMean": 395.3405,
+        "currentEps": 1.77267,
+        "nextEps": 2.15858,
+        "epsGrowth": 0.2177,
+        "marketPe": 204.7,
+        "conservative": 282.79,
+        "base": 441.85,
+        "optimistic": 684.87,
+        "currentVsBase": -0.1788,
+        "analystTargetMean": 390.09283,
         "analystTargetLow": 125.0,
         "analystTargetHigh": 600.0,
         "evidenceWeights": {
@@ -2336,9 +2336,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
-          "fundamentalScore": 12.9,
+          "fundamentalScore": 12.8,
           "confidence": 90.0,
           "fundamentalDamage": 7.5,
           "thesisDamage": 7.0,
@@ -2349,7 +2349,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 27.9
           },
           "currentPrice": 362.8599853515625,
-          "valuationGap": -0.1813,
+          "valuationGap": -0.1788,
           "theses": {
             "growth": "intact",
             "cashFlow": "strengthening",
@@ -2379,7 +2379,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -2397,7 +2397,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 28.2,
       "confidence": 100,
@@ -2791,7 +2791,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 28.2,
           "confidence": 100,
@@ -2834,7 +2834,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -2852,7 +2852,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.1,
       "confidence": 95.0,
@@ -2873,7 +2873,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "가격 조정이 펀더멘털 변화보다 큽니다. 수급·멀티플 조정 가능성이 있으나, 다음 실적과 중요 뉴스를 확인해야 합니다.",
       "dimensions": {
         "growth": {
-          "score": 7.163333333333334,
+          "score": 7.173333133333333,
           "applicable": true
         },
         "earningsQuality": {
@@ -3080,15 +3080,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 209.17,
-        "currentEps": 14.13589,
-        "nextEps": 15.5141,
-        "epsGrowth": 0.0975,
+        "currentEps": 14.13597,
+        "nextEps": 15.51821,
+        "epsGrowth": 0.0978,
         "marketPe": 14.8,
-        "conservative": 146.92,
-        "base": 229.56,
-        "optimistic": 355.82,
-        "currentVsBase": -0.0888,
-        "analystTargetMean": 243.0798,
+        "conservative": 146.96,
+        "base": 229.62,
+        "optimistic": 355.92,
+        "currentVsBase": -0.0891,
+        "analystTargetMean": 243.98425,
         "analystTargetLow": 160.0,
         "analystTargetHigh": 475.0,
         "evidenceWeights": {
@@ -3154,7 +3154,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 9.1,
           "confidence": 95.0,
@@ -3167,7 +3167,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 27.3
           },
           "currentPrice": 209.1699981689453,
-          "valuationGap": -0.0888,
+          "valuationGap": -0.0891,
           "theses": {
             "growth": "intact",
             "cashFlow": "strengthening",
@@ -3197,7 +3197,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -3215,7 +3215,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 35.8,
       "confidence": 90.0,
@@ -3495,7 +3495,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 35.8,
           "confidence": 90.0,
@@ -3538,7 +3538,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -3556,9 +3556,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 26.2,
+      "fundamentalScore": 26.3,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -3577,7 +3577,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 49.37333266666667,
+          "score": 49.539999333333334,
           "applicable": true
         },
         "earningsQuality": {
@@ -3722,7 +3722,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 49.4,
+          "score": 49.5,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -3894,15 +3894,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 214.72,
-        "currentEps": 9.00521,
-        "nextEps": 12.99922,
-        "epsGrowth": 0.4435,
-        "marketPe": 23.84,
-        "conservative": 198.37,
-        "base": 309.95,
-        "optimistic": 480.43,
-        "currentVsBase": -0.3072,
-        "analystTargetMean": 304.1207,
+        "currentEps": 9.00898,
+        "nextEps": 13.02727,
+        "epsGrowth": 0.446,
+        "marketPe": 23.83,
+        "conservative": 198.71,
+        "base": 310.49,
+        "optimistic": 481.26,
+        "currentVsBase": -0.3085,
+        "analystTargetMean": 304.72882,
         "analystTargetLow": 180.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
@@ -3968,9 +3968,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
-          "fundamentalScore": 26.2,
+          "fundamentalScore": 26.3,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 21.0,
@@ -3981,7 +3981,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 27.9
           },
           "currentPrice": 214.72000122070312,
-          "valuationGap": -0.3072,
+          "valuationGap": -0.3085,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -4011,7 +4011,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -4029,7 +4029,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 38.1,
       "confidence": 100,
@@ -4050,7 +4050,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 78.82333200000001,
+          "score": 78.990002,
           "applicable": true
         },
         "earningsQuality": {
@@ -4202,7 +4202,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 78.8,
+          "score": 79.0,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -4332,15 +4332,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 473.25,
-        "currentEps": 7.56185,
-        "nextEps": 15.46743,
-        "epsGrowth": 1.0455,
-        "marketPe": 62.58,
-        "conservative": 619.53,
-        "base": 968.01,
-        "optimistic": 1500.42,
-        "currentVsBase": -0.5111,
-        "analystTargetMean": 614.434,
+        "currentEps": 7.56116,
+        "nextEps": 15.48597,
+        "epsGrowth": 1.0481,
+        "marketPe": 62.59,
+        "conservative": 620.33,
+        "base": 969.26,
+        "optimistic": 1502.35,
+        "currentVsBase": -0.5117,
+        "analystTargetMean": 613.0917,
         "analystTargetLow": 365.0,
         "analystTargetHigh": 1250.0,
         "evidenceWeights": {
@@ -4406,7 +4406,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 38.1,
           "confidence": 100,
@@ -4419,7 +4419,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 23.0
           },
           "currentPrice": 473.25,
-          "valuationGap": -0.5111,
+          "valuationGap": -0.5117,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -4449,7 +4449,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -4467,7 +4467,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 21.5,
       "confidence": 100,
@@ -4488,7 +4488,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 43.21666666666667,
+          "score": 43.056668,
           "applicable": true
         },
         "earningsQuality": {
@@ -4640,7 +4640,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 43.2,
+          "score": 43.1,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -4760,15 +4760,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 368.45,
-        "currentEps": 11.62599,
-        "nextEps": 19.53226,
-        "epsGrowth": 0.6801,
+        "currentEps": 11.62853,
+        "nextEps": 19.50413,
+        "epsGrowth": 0.6773,
         "marketPe": 31.69,
-        "conservative": 396.17,
-        "base": 619.01,
-        "optimistic": 959.47,
-        "currentVsBase": -0.4048,
-        "analystTargetMean": 527.88446,
+        "conservative": 395.51,
+        "base": 617.99,
+        "optimistic": 957.88,
+        "currentVsBase": -0.4038,
+        "analystTargetMean": 526.30005,
         "analystTargetLow": 215.88,
         "analystTargetHigh": 675.0,
         "evidenceWeights": {
@@ -4834,7 +4834,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 21.5,
           "confidence": 100,
@@ -4847,7 +4847,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 40.2
           },
           "currentPrice": 368.45001220703125,
-          "valuationGap": -0.4048,
+          "valuationGap": -0.4038,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -4877,7 +4877,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -4895,7 +4895,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.5,
       "confidence": 95.0,
@@ -5243,7 +5243,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 9.5,
           "confidence": 95.0,
@@ -5286,7 +5286,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -5304,7 +5304,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 25.7,
       "confidence": 73.5,
@@ -5325,7 +5325,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 28.546666000000002,
+          "score": 28.560001,
           "applicable": true
         },
         "earningsQuality": {
@@ -5396,7 +5396,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 28.5,
+          "score": 28.6,
           "confidence": 73.5,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -5512,15 +5512,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 243.32,
-        "currentEps": 2.22806,
-        "nextEps": 3.06033,
-        "epsGrowth": 0.3735,
-        "marketPe": 109.21,
-        "conservative": 213.89,
-        "base": 334.21,
-        "optimistic": 518.03,
-        "currentVsBase": -0.272,
-        "analystTargetMean": 286.0842,
+        "currentEps": 2.22863,
+        "nextEps": 3.06084,
+        "epsGrowth": 0.3734,
+        "marketPe": 109.18,
+        "conservative": 213.88,
+        "base": 334.18,
+        "optimistic": 517.98,
+        "currentVsBase": -0.2719,
+        "analystTargetMean": 285.72308,
         "analystTargetLow": 125.0,
         "analystTargetHigh": 500.0,
         "evidenceWeights": {
@@ -5586,7 +5586,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 25.7,
           "confidence": 73.5,
@@ -5599,7 +5599,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 25.1
           },
           "currentPrice": 243.32000732421875,
-          "valuationGap": -0.272,
+          "valuationGap": -0.2719,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -5629,7 +5629,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -5647,7 +5647,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 35.5,
       "confidence": 100,
@@ -5668,7 +5668,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 53.12333266666667,
+          "score": 53.176667333333334,
           "applicable": true
         },
         "earningsQuality": {
@@ -5821,7 +5821,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 53.1,
+          "score": 53.2,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -5949,15 +5949,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 237.04,
-        "currentEps": 4.05405,
-        "nextEps": 6.24898,
-        "epsGrowth": 0.5414,
-        "marketPe": 58.47,
-        "conservative": 233.84,
-        "base": 365.38,
-        "optimistic": 566.33,
-        "currentVsBase": -0.3512,
-        "analystTargetMean": 259.9142,
+        "currentEps": 4.05903,
+        "nextEps": 6.24592,
+        "epsGrowth": 0.5388,
+        "marketPe": 58.4,
+        "conservative": 233.44,
+        "base": 364.75,
+        "optimistic": 565.36,
+        "currentVsBase": -0.3501,
+        "analystTargetMean": 263.9407,
         "analystTargetLow": 126.0,
         "analystTargetHigh": 400.0,
         "evidenceWeights": {
@@ -6023,7 +6023,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 35.5,
           "confidence": 100,
@@ -6036,7 +6036,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 23.4
           },
           "currentPrice": 237.0399932861328,
-          "valuationGap": -0.3512,
+          "valuationGap": -0.3501,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "intact",
@@ -6066,7 +6066,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -6084,7 +6084,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.3,
       "confidence": 100,
@@ -6489,7 +6489,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 9.3,
           "confidence": 100,
@@ -6532,7 +6532,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -6550,7 +6550,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 21.2,
       "confidence": 83.5,
@@ -6884,7 +6884,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 21.2,
           "confidence": 83.5,
@@ -6927,7 +6927,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -6945,7 +6945,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.1,
       "confidence": 78.5,
@@ -6966,7 +6966,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 24.516666666666666,
+          "score": 24.546666000000002,
           "applicable": true
         },
         "earningsQuality": {
@@ -7144,14 +7144,14 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 1763.76,
-        "currentEps": 38.02898,
-        "nextEps": 51.42462,
-        "epsGrowth": 0.3522,
-        "marketPe": 46.38,
-        "conservative": 1526.43,
-        "base": 2385.04,
-        "optimistic": 3696.81,
-        "currentVsBase": -0.2605,
+        "currentEps": 38.18989,
+        "nextEps": 51.6893,
+        "epsGrowth": 0.3535,
+        "marketPe": 46.18,
+        "conservative": 1527.82,
+        "base": 2387.22,
+        "optimistic": 3700.18,
+        "currentVsBase": -0.2612,
         "analystTargetMean": 2195.9126,
         "analystTargetLow": 903.4684,
         "analystTargetHigh": 2900.0664,
@@ -7218,7 +7218,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 18.1,
           "confidence": 78.5,
@@ -7231,7 +7231,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 26.2
           },
           "currentPrice": 1763.760009765625,
-          "valuationGap": -0.2605,
+          "valuationGap": -0.2612,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -7261,7 +7261,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -7279,7 +7279,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.4,
       "confidence": 100,
@@ -7630,7 +7630,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 11.4,
           "confidence": 100,
@@ -7673,7 +7673,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -7691,7 +7691,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.7,
       "confidence": 85.0,
@@ -7944,7 +7944,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 12.7,
           "confidence": 85.0,
@@ -7987,7 +7987,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -8005,7 +8005,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.3,
       "confidence": 68.8,
@@ -8236,7 +8236,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 16.3,
           "confidence": 68.8,
@@ -8279,7 +8279,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -8297,9 +8297,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
-      "fundamentalScore": 54.6,
+      "fundamentalScore": 54.5,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
@@ -8318,7 +8318,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "damageRead": "현재 가격 변동과 펀더멘털 변화 사이에 큰 괴리는 확인되지 않았습니다.",
       "dimensions": {
         "growth": {
-          "score": 85.80999666666666,
+          "score": 85.49000000000001,
           "applicable": true
         },
         "earningsQuality": {
@@ -8461,7 +8461,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           "name": "성장 Thesis",
           "statement": "매출·EPS 성장 전망이 유지되고 본업 수익성이 함께 개선된다.",
           "status": "strengthening",
-          "score": 85.8,
+          "score": 85.5,
           "confidence": 100,
           "falsificationRules": [
             "내년 매출·EPS 추정치가 함께 하향",
@@ -8589,15 +8589,15 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
       "valuationScenario": {
         "status": "available",
         "price": 966.78,
-        "currentEps": 73.42721,
-        "nextEps": 155.63986,
-        "epsGrowth": 1.1196,
+        "currentEps": 73.40044,
+        "nextEps": 155.02524,
+        "epsGrowth": 1.112,
         "marketPe": 13.17,
-        "conservative": 1311.51,
-        "base": 2049.23,
-        "optimistic": 3176.31,
-        "currentVsBase": -0.5282,
-        "analystTargetMean": 1521.6232,
+        "conservative": 1306.81,
+        "base": 2041.89,
+        "optimistic": 3164.92,
+        "currentVsBase": -0.5265,
+        "analystTargetMean": 1515.1136,
         "analystTargetLow": 361.0,
         "analystTargetHigh": 2200.0,
         "evidenceWeights": {
@@ -8663,9 +8663,9 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
-          "fundamentalScore": 54.6,
+          "fundamentalScore": 54.5,
           "confidence": 100,
           "fundamentalDamage": 0,
           "thesisDamage": 0,
@@ -8676,7 +8676,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "bear": 20.5
           },
           "currentPrice": 966.780029296875,
-          "valuationGap": -0.5282,
+          "valuationGap": -0.5265,
           "theses": {
             "growth": "strengthening",
             "cashFlow": "strengthening",
@@ -8706,7 +8706,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -8724,7 +8724,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.9,
       "confidence": 95.0,
@@ -9023,7 +9023,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 10.9,
           "confidence": 95.0,
@@ -9066,7 +9066,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -9084,7 +9084,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 33.0,
       "confidence": 100,
@@ -9402,7 +9402,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 33.0,
           "confidence": 100,
@@ -9445,7 +9445,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -9463,7 +9463,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 15.0,
       "confidence": 85.0,
@@ -9722,7 +9722,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 15.0,
           "confidence": 85.0,
@@ -9765,7 +9765,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -9783,7 +9783,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -2.3,
       "confidence": 82.1,
@@ -10034,7 +10034,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": -2.3,
           "confidence": 82.1,
@@ -10077,7 +10077,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -10095,7 +10095,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 1.3,
       "confidence": 90.0,
@@ -10366,7 +10366,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 1.3,
           "confidence": 90.0,
@@ -10409,7 +10409,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -10427,7 +10427,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.2,
       "confidence": 100,
@@ -10738,7 +10738,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 18.2,
           "confidence": 100,
@@ -10781,7 +10781,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "strengthening",
           "statuses": {
@@ -10799,7 +10799,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -8.3,
       "confidence": 90.0,
@@ -11105,7 +11105,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": -8.3,
           "confidence": 90.0,
@@ -11148,7 +11148,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -11166,7 +11166,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -7.7,
       "confidence": 90.0,
@@ -11454,7 +11454,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": -7.7,
           "confidence": 90.0,
@@ -11497,7 +11497,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "damaged",
           "statuses": {
@@ -11515,7 +11515,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.4,
       "confidence": 82.1,
@@ -11768,7 +11768,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 11.4,
           "confidence": 82.1,
@@ -11811,7 +11811,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -11829,7 +11829,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -12060,7 +12060,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -12103,7 +12103,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12121,7 +12121,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
@@ -12352,7 +12352,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 9.2,
           "confidence": 71.7,
@@ -12395,7 +12395,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12413,7 +12413,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 18.4,
       "confidence": 85.0,
@@ -12666,7 +12666,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 18.4,
           "confidence": 85.0,
@@ -12709,7 +12709,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -12727,7 +12727,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.5,
       "confidence": 85.0,
@@ -12978,7 +12978,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 10.5,
           "confidence": 85.0,
@@ -13021,7 +13021,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13039,7 +13039,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 33.5,
       "confidence": 85.0,
@@ -13292,7 +13292,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 33.5,
           "confidence": 85.0,
@@ -13335,7 +13335,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13353,7 +13353,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.5,
       "confidence": 71.7,
@@ -13575,7 +13575,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 8.5,
           "confidence": 71.7,
@@ -13618,7 +13618,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13636,7 +13636,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 15.9,
       "confidence": 71.7,
@@ -13858,7 +13858,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 15.9,
           "confidence": 71.7,
@@ -13901,7 +13901,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
@@ -13919,7 +13919,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787456276.3354175,
+      "asOf": 1787459979.0825555,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.3,
       "confidence": 55.2,
@@ -14131,7 +14131,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "fundamentalScore": 10.3,
           "confidence": 55.2,
@@ -14174,7 +14174,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
           }
         },
         {
-          "asOf": 1787456276.3354175,
+          "asOf": 1787459979.0825555,
           "date": "2026-08-23",
           "overallStatus": "intact",
           "statuses": {
