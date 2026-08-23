@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4624.10009765625,
+      "current": 4680.60009765625,
       "prevClose": 4516.2998046875,
-      "changeAbs": 107.80029296875,
-      "changePct": 2.3869162285653247,
-      "pctRank": 94.5107398568019,
+      "changeAbs": 164.30029296875,
+      "changePct": 3.6379403510418316,
+      "pctRank": 95.22673031026252,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -13.054674665993637,
-      "ma20": 4278.179968261718,
-      "ma60": 4212.916666666667,
-      "chg1m": 577.5,
-      "chg3m": 84.30029296875,
-      "chg1mPct": 14.271239708971542,
-      "chg3mPct": 1.856916529264287,
+      "drawdown1y": -11.99232506766612,
+      "ma20": 4281.004968261719,
+      "ma60": 4213.858333333334,
+      "chg1m": 634.0,
+      "chg3m": 140.80029296875,
+      "chg1mPct": 15.6674735506285,
+      "chg3mPct": 3.1014648007907493,
       "lastDate": "2026-08-21",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,10 +219,17 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Syria foreign minister sees Israel security talks resuming despite no trust - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUpvdEk0SVFqbENrNjRzRkFFODFJb2ZkczFRWVU1OFBTWG5Sd3JDbHRnajBMYzZHNlhGR0lVNFdTQlZIMFJVOTZadXBGWDdianhfWXBjcUVTZ0ppbllKZnBfU05zeU5ONS10M2dFOHRpbWZEeFItR2hSNk8xblFlaHRWVTdpUzRPUWt4eTI2UzBTNHpZbHVpemlmTEdMbzY5aTFqWUNCclJ6aVpSeklsa2xDc19jb0dzOGh6ZTNRUVRZT25xNjVZMA?oc=5",
+      "datetime": 1787472254,
+      "headlineKo": "시리아 외무장관, 불신임에도 불구하고 이스라엘 안보 회담 재개 기대 - 로이터"
+    },
+    {
       "headline": "Israel strikes southern Syria; Damascus condemns attack - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdUlteHpodFpvY0RlTjBQVWdHWmFhTTAtU0VzVlRuY3hYRTA3NEFBSHcwN3pIR1ROYnBWVmFxWDVPTmVRcXZSaUM0YURHZHBmUDg0ekNFTDJ3NTd0S2NiR3loeDlXTlUzNzI1TjlKai1uNzh5TWRPeHJzd1UzNmM4TGRYLW1ET3ZnQ3hmeWNTNWF5ZVVReUtqTGFLdEtqVXZJWEw4RXk2TjE4YkFO?oc=5",
-      "datetime": 1787424710,
+      "datetime": 1787424660,
       "headlineKo": "이스라엘은 시리아 남부를 공격하고, 다마스쿠스는 공격을 비난한다. - 로이터"
     },
     {
@@ -294,23 +301,18 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbEh1QVJmcTNtSE1PMURxNmRBT3RIWHhVTmtwZDRiMk5yUzJtc2xuNHFlQXF1a3VJS3FQckxIY3Y2VjhFejlkNDZnLTY0R0prazZHb194Y19sRDdjUVJtNHlMT0lwSHRRcU5UM2VBTFZpVHBDZEl1OGFWbUkxX1pacWhMYUtFQ0pRbGVRYVNYcy1zSUNZVWtxNW4zczc0YVhZVkFWUHJwRWlFQl8zQUR3dFNIU1o?oc=5",
       "datetime": 1787354798,
       "headlineKo": "트럼프가 이란 파트너에 대한 제재를 위협하면서 석유가 상승하고 있다. - 로이터"
-    },
-    {
-      "headline": "Wall St rises on the day but falls for the week; bond yields and Iran in focus - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX2E3YkdBQXBjbW43VmpoeklMN0VYV0ZtV0xZeUNHQUx0aXAxLW16MjU5bWdkLVRxUzlpNGhWWEpCeUJDd3JYbTJkZE5KTll3R3JkZGJoamdUSnRPMmp1d21Tc2lUb3FVcldGcXBXamZZU0lqcEV1SDdwN09pOUl4cTM4WHBnWDVhNExtbzdkMXBYVTRmVjVXSjQyYjMyUXJt?oc=5",
-      "datetime": 1787353134,
-      "headlineKo": "월 스트리트는 당일 상승하고 주중에는 하락합니다. 채권수익률과 이란에 주목 - Reuters"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787470899.077496,
-  "_updated_label": "2026-08-23 16:42",
-  "_last_attempt_at": 1787470899.077496,
+  "_fetched_at": 1787474536.037252,
+  "_updated_label": "2026-08-23 17:42",
+  "_last_attempt_at": 1787474536.037252,
   "_last_success_at": 1787470899.077496,
-  "_collection_status": "ok",
-  "_collection_errors": []
+  "_collection_status": "partial",
+  "_collection_errors": [
+    "WTI 유가"
+  ]
 };
