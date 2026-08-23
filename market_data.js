@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Democratic House leader Jeffries meets with Jared Kushner as midterms loom",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/23/democratic-leader-jeffries-meets-with-jared-kushner-as-midterms-loom.html",
+      "datetime": 1787507886,
+      "headlineKo": "민주당 하원 지도자 제프리스는 제러드 쿠슈너와 중간 고사 직기로 만난다."
+    },
+    {
+      "headline": "Here are the 2 big things we're watching in the stock market this week",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
+      "datetime": 1787504162,
+      "headlineKo": "다음은 이번 주 주식 시장에서 보고 있는 두 가지 주요 사항입니다."
+    },
+    {
       "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/22/airbnb-fee-change-frustrates-hosts-what-to-know-before-listing.html",
       "datetime": 1787407201,
       "headlineKo": "에어비앤비의 새로운 수수료 변경으로 인해 호스트가 당황스러워졌습니다. 집을 임대하기 전에 알아야 할 사항"
-    },
-    {
-      "headline": "38-year-old runs a mobile pizzeria out of his Smart car in New York City: It's 'like a circus or a magic act'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/bradley-alvelo-runs-pizza-pod-mobile-pizzeria-smart-car-new-york-city.html",
-      "datetime": 1787407201,
-      "headlineKo": "38세의 뉴욕시 스마트카에서 이동식 피자 가게를 운영하는 모습: '서커스나 마술 행위와 같습니다.'"
-    },
-    {
-      "headline": "U.S.-Canada trade talks collapse, ushering in wave of new tariffs",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/us-canada-trade-talks-collapse-ushering-in-wave-of-new-tariffs.html",
-      "datetime": 1787407068,
-      "headlineKo": "미국-캐나다 무역협상 결렬, 새로운 관세 부과"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787508008.6076427,
-  "_updated_label": "2026-08-24 03:00",
-  "_last_attempt_at": 1787508008.6076427,
-  "_last_success_at": 1787508008.6076427,
+  "_fetched_at": 1787511619.1293383,
+  "_updated_label": "2026-08-24 04:00",
+  "_last_attempt_at": 1787511619.1293383,
+  "_last_success_at": 1787511619.1293383,
   "_collection_status": "ok",
   "_collection_errors": []
 };
