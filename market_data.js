@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.90999984741211,
+      "current": 15.989999771118164,
       "prevClose": 15.130000114440918,
-      "changeAbs": 0.7799997329711914,
-      "changePct": 5.155318751298065,
-      "pctRank": 29.378980891719745,
+      "changeAbs": 0.8599996566772461,
+      "changePct": 5.684069069215765,
+      "pctRank": 30.254777070063692,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.76006364463189,
-      "ma20": 15.865499925613403,
-      "ma60": 16.918833255767822,
-      "chg1m": -2.6700000762939453,
-      "chg3m": -0.6800003051757812,
-      "chg1mPct": -14.370291104723398,
-      "chg3mPct": -4.0988565335830165,
+      "drawdown1y": -48.50241493071318,
+      "ma20": 15.869499921798706,
+      "ma60": 16.92016658782959,
+      "chg1m": -2.5900001525878906,
+      "chg3m": -0.6000003814697266,
+      "chg1mPct": -13.939721007659061,
+      "chg3mPct": -3.616638794160179,
       "lastDate": "2026-08-24",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.02999877929688,
+      "current": 85.37000274658203,
       "prevClose": 87.05999755859375,
-      "changeAbs": -2.029998779296875,
-      "changePct": -2.3317239102041443,
-      "pctRank": 75.17899761336515,
+      "changeAbs": -1.6899948120117188,
+      "changePct": -1.9411840792601747,
+      "pctRank": 75.81543357199682,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.718901215853307,
-      "ma20": 82.31099929809571,
-      "ma60": 81.03416659037272,
-      "chg1m": -4.279998779296875,
-      "chg3m": -11.569999694824219,
-      "chg1mPct": -4.792295259541228,
-      "chg3mPct": -11.977225546151322,
+      "drawdown1y": -24.417879545670385,
+      "ma20": 82.32799949645997,
+      "ma60": 81.0398333231608,
+      "chg1m": -3.9399948120117188,
+      "chg3m": -11.229995727539062,
+      "chg1mPct": -4.411594356417712,
+      "chg3mPct": -11.625254559965185,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.97200012207031,
+      "current": 99.0,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.1719970703125,
-      "changePct": 0.1740860981779493,
-      "pctRank": 26.332537788385046,
+      "changeAbs": 0.1999969482421875,
+      "changePct": 0.20242605472129005,
+      "pctRank": 26.730310262529834,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5962016262526255,
-      "ma20": 99.75810050964355,
-      "ma60": 100.32303377787272,
-      "chg1m": -2.4980010986328125,
-      "chg3m": -0.34799957275390625,
-      "chg1mPct": -2.4618124259203618,
-      "chg3mPct": -0.35038217259684634,
+      "drawdown1y": -2.56864540367463,
+      "ma20": 99.75950050354004,
+      "ma60": 100.32350044250488,
+      "chg1m": -2.470001220703125,
+      "chg3m": -0.31999969482421875,
+      "chg1mPct": -2.4342181836883294,
+      "chg3mPct": -0.3221905918319235,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4702.2998046875,
+      "current": 4700.89990234375,
       "prevClose": 4624.10009765625,
-      "changeAbs": 78.19970703125,
-      "changePct": 1.6911335260862095,
+      "changeAbs": 76.7998046875,
+      "changePct": 1.660859476775306,
       "pctRank": 95.54494828957836,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.58431311990553,
-      "ma20": 4309.569958496094,
-      "ma60": 4216.3,
-      "chg1m": 634.69970703125,
-      "chg3m": 181.2998046875,
-      "chg1mPct": 15.603788273015425,
-      "chg3mPct": 4.010170419984517,
+      "drawdown1y": -11.610634990570679,
+      "ma20": 4309.499963378907,
+      "ma60": 4216.276668294271,
+      "chg1m": 633.2998046875,
+      "chg3m": 179.89990234375,
+      "chg1mPct": 15.569372344454587,
+      "chg3mPct": 3.9792059797334662,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,18 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "UPS is investing $2 billion in international, healthcare and supply chain businesses",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/ups-global-logistics-investment.html",
+      "datetime": 1787569201,
+      "headlineKo": "UPS는 국제, 의료 및 공급망 사업에 20억 달러 ($) 를 투자하고 있습니다."
+    },
+    {
+      "headline": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
+      "datetime": 1787568587,
+      "headlineKo": "이란, 벌금으로 45척 유조선 위협, 호르무즈 에스컬레이션 압수 - 로이터"
+    },
+    {
+      "headline": "Looming US sanctions on Iran put China oil buying in spotlight - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT1hfY2RieU1zQWlvd1p0M1ZhdzdkU2ZGYmZ4TUlUdG9IbXRZWjlTbTctdi1vMHBJTEtWTG40aW1sOHRqT25MaFNleGZIdUlyU1NnZC12Z3FZT2FSU0ZxNmNra0pCZXpOQl9DUmVOZ3l2MzZLc2pkZndoR2pVUUl6dEp1TXRHMkNBeXRXNkMyNzhXejZuSS1aZGpPWHJETTVuUWVqQUhyay1kcUhU?oc=5",
+      "datetime": 1787566208,
+      "headlineKo": "이란에 대한 미국의 제재가 커지면서 중국 석유 구매가 주목받고 있다. - 로이터"
+    },
+    {
       "headline": "Pakistan's Munir spoke to Trump ahead of Tehran visit, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEZ5bXpNWkVOd1I2LXFQZHl2ZldvaHo2ZnBnVTMtUjlicmxnRlBCVk5sMjlsM2RjTkk0TkY3SlYzSnVUOTRKYXc0aW9odE5GX2NUVVBLdS1NMkdEQlNCMVdKakRDbURxVDVpX0tra3lUVWtNT3pMaEtnMkc1a3BXdm1IRWtGWnFBUWZucWZiNUJsYzFBVGFaQ2xNQUdRRncxbHhGT1ROZEk3cTl3MnhmQi1rWQ?oc=5",
-      "datetime": 1787561195,
+      "datetime": 1787562868,
       "headlineKo": "소식통은 파키스탄의 무니르가 테헤란 방문을 앞두고 트럼프와 대화를 나눴다고 전했습니다. - 로이터"
-    },
-    {
-      "headline": "Iran warns vessels violating Hormuz transit rules of fines, detention - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
-      "datetime": 1787561106,
-      "headlineKo": "이란, 호르무즈 수송 규칙 위반 선박에 벌금, 구금 경고 - 로이터"
     },
     {
       "headline": "UK briefs energy chiefs after Iran-linked cyber attack reports - Reuters",
@@ -240,11 +254,25 @@ const MARKET_DATA = {
       "headlineKo": "영국, 이란과 연계된 사이버 공격 보고 후 에너지 책임자 브리핑 - 로이터"
     },
     {
+      "headline": "Alibaba launches Wan3.0 AI video model after $10 billion share sale - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZmdTM01hcWh5dzAtTzJPbUFQeFRaQjRsc0hUY0pvOGYzeWlQNWFFQUZDaGhoaXZvaVNuMmFSVlBrek9UZWhENW1qNEd4cFNNRHcxa0RJMDYzUzRXVXl5ZzBHTEJoYWRMUnZ3U0lvdFFMTjNxaVNNSWNuWUpJY3ZyZ2FQT0M0UFJvYUhXLTI1a2tKR1ByMzYyb053MVdTSjdjbVFPSlhBRXJhdDZnOGZXN3VULW53amRPQjRRV3lZX0Q4X3Bf?oc=5",
+      "datetime": 1787559824,
+      "headlineKo": "알리바바, $ 100억 규모의 주식 매각 후 Wan3.0 AI 비디오 모델 출시 - 로이터"
+    },
+    {
       "headline": "China vows to protect its rights as US readies Iran sanction - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQVl6Z2NfVHEtWVZtei15eVVoMG1mSHJQZXdJVnJFZlc3QklQS1c3NVcwWHhaYXlDYkNDbDNhM3pCNkV6ZmJTMXFMWGxUTVZCdXJ1aGlqckJibFo5cDFxYzlKYWVmaVNGeElSdHBLbkZvOWVGbUpvSjFUUGdtUGVHYXVSUTF3T0VQdDZESVBHSE1PQlZkS2ZiZmpxcXRObWYxV2FDdA?oc=5",
       "datetime": 1787558738,
       "headlineKo": "중국은 미국이 이란의 제재를 준비함에 따라 자국의 권리를 보호하겠다고 서약했다. - 로이터"
+    },
+    {
+      "headline": "European shares slip as tech drags; Iran sanctions in focus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUFOcHRycnRBVzJHNi1CM1o1TWo5dHJha2xIcmFFbEQyTy1PQ2x1WWFSdkpWYjQtQ1RxcW5TYlhJbXE3TGE5S3RqazhrT0dMRjdVbW5rMEdPUk5BUWNrMkJqY0NILVpTNkhQeEJhcjBkc0NwS1ZkVDUyM1BSZkhrakNPUERDNk54LS1kd1BxLWRuVWRiQ084SHhQOG1GVW9GNm1EckhR?oc=5",
+      "datetime": 1787556659,
+      "headlineKo": "유럽 증시는 기술 끌려 미끄러지고, 이란 제재 초점 - 로이터"
     },
     {
       "headline": "Germany's Wadephul to urge Rubio to take more active role on Ukraine - Reuters",
@@ -273,44 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
       "datetime": 1787546340,
       "headlineKo": "시장이 미국 인플레이션 데이터를 기다리면서 금은 3개월 이상 상승 - 로이터"
-    },
-    {
-      "headline": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zYlNwM05renFqUDNLaGZkdl9sa0cxLXJDTmhLcXYwRG1aYjlLR1c4QjlGbGtqY3pNaXhMR1E4cnJLLU1VcjNfR2h4anE4RTFqVDk2Y3AwWTY5TVZnZnFkRjZVR0tGaGQ0REJpZXljSElWQWFsRnZGY2NUT0t1M1k?oc=5",
-      "datetime": 1787546040,
-      "headlineKo": "아침 입찰: 경제 전쟁, 무역 전쟁 및 실제 전쟁 혼합 - 로이터"
-    },
-    {
-      "headline": "Father of sailor aboard USS Abraham Lincoln taken into US immigration detention - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZHpyNnV2YVZvT29oWXgzZlZpalBjRnhaSHNWN1hxNVRXZ2tzenZqUmhFYUtJcW51MjR6VExsMWtwenlWOXFRTHFUcVJJZEJNRnVZSjNxZ1VNWk55ODNNTGRLcUp6RDhXcXlYX2tHakNSVEZLYTFEc2ZoeFVyRVhEMWJ4djVxMUJuTnUyeFZ4WGFudVFKZVM4Q1VtVnBobmJuNmIxenVaUHJlMmFGQzJFTXVnWHI1UlA5dlB0QkdfVVlJSVNnUDlKQw?oc=5",
-      "datetime": 1787544000,
-      "headlineKo": "USS 에이브러햄 링컨호에 탑승한 선원의 아버지 - 로이터"
-    },
-    {
-      "headline": "Fewer than 20 ships transit key Strait of Hormuz over weekend, data shows - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXNxWm1BUVFUdWZuUDJoWi1GRUk1d0RXWTRwR0tQTXd6MXQ2V2RBSkRmMURzajdURDdIQnhEQlFTVVh4TG8yOTdfdWVIdmd4U3AyWm5pSlZ2Y0tSaDNKX1NjcGd1N2dqVmtPUU9rZjMwa3cxWDRLajBjYUhYUDkyY0owcm43TXcyNkp2WlJZUW9ONDA3ZlNlbHlOS19CSTRpYzlOU0pmcVhvaDB6SUsyVU5mM1cwQ2Q5TkwtTmlB?oc=5",
-      "datetime": 1787539320,
-      "headlineKo": "주말에 호르무즈 해협을 통과하는 20척 미만의 선박, 데이터 쇼 - 로이터"
-    },
-    {
-      "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
-      "datetime": 1787539218,
-      "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787567471.5588684,
-  "_updated_label": "2026-08-24 19:31",
-  "_last_attempt_at": 1787567471.5588684,
-  "_last_success_at": 1787567471.5588684,
+  "_fetched_at": 1787571237.8093264,
+  "_updated_label": "2026-08-24 20:34",
+  "_last_attempt_at": 1787571237.8093264,
+  "_last_success_at": 1787571237.8093264,
   "_collection_status": "ok",
   "_collection_errors": []
 };
