@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.90999984741211,
+      "current": 15.859999656677246,
       "prevClose": 15.130000114440918,
-      "changeAbs": 0.7799997329711914,
-      "changePct": 5.155318751298065,
-      "pctRank": 29.378980891719745,
+      "changeAbs": 0.7299995422363281,
+      "changePct": 4.824848226799257,
+      "pctRank": 28.82165605095541,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.76006364463189,
-      "ma20": 15.865499925613403,
-      "ma60": 16.918833255767822,
-      "chg1m": -2.6700000762939453,
-      "chg3m": -0.6800003051757812,
-      "chg1mPct": -14.370291104723398,
-      "chg3mPct": -4.0988565335830165,
+      "drawdown1y": -48.92109485868481,
+      "ma20": 15.86299991607666,
+      "ma60": 16.917999919255575,
+      "chg1m": -2.7200002670288086,
+      "chg3m": -0.7300004959106445,
+      "chg1mPct": -14.639398698588716,
+      "chg3mPct": -4.400244057844514,
       "lastDate": "2026-08-24",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.58000183105469,
+      "current": 85.04000091552734,
       "prevClose": 87.05999755859375,
-      "changeAbs": -1.4799957275390625,
-      "changePct": -1.699972167519285,
-      "pctRank": 76.53142402545744,
+      "changeAbs": -2.0199966430664062,
+      "changePct": -2.320235124871091,
+      "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.231957376439272,
-      "ma20": 82.3384994506836,
-      "ma60": 81.04333330790202,
-      "chg1m": -3.7299957275390625,
-      "chg3m": -11.019996643066406,
-      "chg1mPct": -4.176459332105477,
-      "chg3mPct": -11.407864199934368,
+      "drawdown1y": -24.710045849318806,
+      "ma20": 82.31149940490722,
+      "ma60": 81.03433329264323,
+      "chg1m": -4.269996643066406,
+      "chg3m": -11.55999755859375,
+      "chg1mPct": -4.781095912879163,
+      "chg3mPct": -11.966871367695358,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.99199676513672,
+      "current": 98.99500274658203,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.19199371337890625,
-      "changePct": 0.19432561482647684,
+      "changeAbs": 0.19499969482421875,
+      "changePct": 0.19736810607390906,
       "pctRank": 26.730310262529834,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5765218280572766,
-      "ma20": 99.75910034179688,
-      "ma60": 100.32336705525717,
-      "chg1m": -2.4780044555664062,
-      "chg3m": -0.3280029296875,
-      "chg1mPct": -2.4421054752690927,
-      "chg3mPct": -0.33024862132031696,
+      "drawdown1y": -2.5735634760965964,
+      "ma20": 99.75925064086914,
+      "ma60": 100.32341715494792,
+      "chg1m": -2.4749984741210938,
+      "chg3m": -0.3249969482421875,
+      "chg1mPct": -2.4391430416343733,
+      "chg3mPct": -0.3272220592436468,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4694.0,
+      "current": 4696.2998046875,
       "prevClose": 4624.10009765625,
-      "changeAbs": 69.89990234375,
-      "changePct": 1.511643365574615,
+      "changeAbs": 72.19970703125,
+      "changePct": 1.5613785494791692,
       "pctRank": 95.3062848050915,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.740371423904872,
-      "ma20": 4309.154968261719,
-      "ma60": 4216.161669921875,
-      "chg1m": 626.39990234375,
-      "chg3m": 173.0,
-      "chg1mPct": 15.399741550421375,
-      "chg3mPct": 3.8265870382658704,
+      "drawdown1y": -11.697129006453588,
+      "ma20": 4309.269958496094,
+      "ma60": 4216.2,
+      "chg1m": 628.69970703125,
+      "chg3m": 175.2998046875,
+      "chg1mPct": 15.456281147045567,
+      "chg3mPct": 3.877456418657377,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,11 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "China vows to protect its rights as US readies Iran sanction - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQVl6Z2NfVHEtWVZtei15eVVoMG1mSHJQZXdJVnJFZlc3QklQS1c3NVcwWHhaYXlDYkNDbDNhM3pCNkV6ZmJTMXFMWGxUTVZCdXJ1aGlqckJibFo5cDFxYzlKYWVmaVNGeElSdHBLbkZvOWVGbUpvSjFUUGdtUGVHYXVSUTF3T0VQdDZESVBHSE1PQlZkS2ZiZmpxcXRObWYxV2FDdA?oc=5",
+      "datetime": 1787558738,
+      "headlineKo": "중국은 미국이 이란의 제재를 준비함에 따라 자국의 권리를 보호하겠다고 서약했다. - 로이터"
+    },
+    {
+      "headline": "Germany's Wadephul to urge Rubio to take more active role on Ukraine - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeE5XaGVhS0hDUkZEZE92aDZSQ2JCRkdkSHRkQTE0TVVtSE11djNiZjZVUzZqSTFTWkdFZEFoXzlXMFY2Vk5jOHByQkJwMVNvZWZrSFZpYTd6M3NjNHpFY2FqWEt0UURtYktEZHJQZ3A2Q1JSd1ZoLUltRDJwTW1rMEpzc1ZiVWZ1bnRyMDFURm1wZHFpbTNjZ2ZJZ3JKMzNSSkE?oc=5",
+      "datetime": 1787553000,
+      "headlineKo": "독일의 Wadephul은 Rubio가 우크라이나에서보다 적극적인 역할을하도록 촉구했습니다. - 로이터"
+    },
+    {
       "headline": "US cancels joint marine drills with South Korea over Iran war-related force constraints - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd3JEYi12MkZSRkRCaEIwR2FaNjhzSUZueTgwQzhWSHlhSnpWRVU3ZkdrMXdrUTMxMjVmdi1NLVBleGFDTXFRRDFVWVA5RUdVV1Y0dXlUWlJTcmJ2eHZuYTR4Nkh1T3k3cXplTmc4MVJUSGl2bGpWMllzRnBMaV9oMXR3T0RGd2dRR0NWaEkyYUpXX0tBUnBTcVAwVlVQQjBvOURvN3RpOVo1b2RRVEFZSFR2dVRlSm9GZTNBUmttWUhibWl5X2JPc1FB?oc=5",
       "datetime": 1787550720,
       "headlineKo": "미국, 이란 전쟁 관련 전력 제약 문제로 한국과 합동 해상훈련 취소 - 로이터"
+    },
+    {
+      "headline": "Indian shares extend cautious trade on concerns over Iran sanctions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM09QeWVZWGJNRTU2Y2hDN2lmLVhsZDN1OHVDeG1GODlEY2M4cjdMOUM3YkJBbzRYTXJkMHVSSkdpdXE5dllmcy11WVRPU1MxMXVxcnZMZHFzYTFCdXpfYWZJNU51TC1jY0ZyQkltTVhYMTRsYWpYYXBVWWstalVXTktkTlBiblNrSE5iZjRnRXpsNnJQdDVUT2ExVVRKSlgwOWcyU2F1bVJ1dG9IRUdqVzd5Yw?oc=5",
+      "datetime": 1787546953,
+      "headlineKo": "인도 주식, 이란 제재 우려에 신중한 거래 확대 - 로이터"
     },
     {
       "headline": "Oman foreign minister to visit Tehran on Tuesday, Iranian foreign ministry says - Reuters",
@@ -261,11 +282,11 @@ const MARKET_DATA = {
       "headlineKo": "주말에 호르무즈 해협을 통과하는 20척 미만의 선박, 데이터 쇼 - 로이터"
     },
     {
-      "headline": "Indian shares extend cautious trade on concerns over Iran sanctions - Reuters",
+      "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM09QeWVZWGJNRTU2Y2hDN2lmLVhsZDN1OHVDeG1GODlEY2M4cjdMOUM3YkJBbzRYTXJkMHVSSkdpdXE5dllmcy11WVRPU1MxMXVxcnZMZHFzYTFCdXpfYWZJNU51TC1jY0ZyQkltTVhYMTRsYWpYYXBVWWstalVXTktkTlBiblNrSE5iZjRnRXpsNnJQdDVUT2ExVVRKSlgwOWcyU2F1bVJ1dG9IRUdqVzd5Yw?oc=5",
-      "datetime": 1787538120,
-      "headlineKo": "인도 주식, 이란 제재 우려에 신중한 거래 확대 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
+      "datetime": 1787539218,
+      "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
     },
     {
       "headline": "Dollar trading near multi-month lows, restrained by debt nerves - Reuters",
@@ -275,42 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "부채 신경으로 인해 달러 거래가 수개월 최저치에 근접했습니다 - Reuters"
     },
     {
-      "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
-      "datetime": 1787533671,
-      "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
-    },
-    {
       "headline": "Shares, oil slip awaiting US details of Iran sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
       "datetime": 1787532540,
       "headlineKo": "주식, 이란 제재에 대한 미국의 세부 정보를 기다리는 오일 슬립 - 로이터"
-    },
-    {
-      "headline": "Oil falls as US prepares to unveil new Iran sanctions - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONkR4RDVXMEFvZ0x5NGhmcVVWVnU0ckNHdF9UZVp4Z05rM2pTRkppNWxTREowb0xEbVVudzlBXzVuc2FkcFQ0TjFoUUduN3hEZlFoVGo0UTVyOG40RHBDNU5FUG1zSFI5MnFlbWEzdDNiMmRoa05GUGFsREZzaWZObUY0T2NGRlNVcVRvZU1xb2I2WFI2bGRlV3lXUWxWZzJILTdaMzk4TTJHVDFaUWZkUmNRdF9CdmJTT0E?oc=5",
-      "datetime": 1787527080,
-      "headlineKo": "미국이 새로운 이란 제재를 발표할 준비를 하면서 유가가 하락했습니다 - Reuters"
-    },
-    {
-      "headline": "Syria, Israel hold US-mediated talks to ease tensions, Syria news agency says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeVA3N0RmLUxielhCSXB5WE9MYU94X0h0dWNCZ0l2bzZMNkNIdkhEZy1xSDlpOTFpcWtBQ29SeURBR0NIQnRRem5EbExpTkI3ajZlaG1vazM4dFNoQlZ3WVd2OWtHb3RXZjYxXy1vTklDOXBZcktNTERTWTFWRlRnZTRDR0t1T2dJMVNnd1gzTVF4YkJwRWV4bzJnVE01VTVXVGdvV0h4WWJ4cXhsM3ItTXBuM0dfVjlFVmVzTGpyc1hpRURY?oc=5",
-      "datetime": 1787526752,
-      "headlineKo": "시리아, 이스라엘은 긴장을 완화하기 위해 미국이 중재하는 회담을 개최한다고 시리아 통신사가 말합니다. - Reuters"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787559835.8338537,
-  "_updated_label": "2026-08-24 17:24",
-  "_last_attempt_at": 1787559835.8338537,
-  "_last_success_at": 1787559835.8338537,
+  "_fetched_at": 1787563528.5625956,
+  "_updated_label": "2026-08-24 18:25",
+  "_last_attempt_at": 1787563528.5625956,
+  "_last_success_at": 1787563528.5625956,
   "_collection_status": "ok",
   "_collection_errors": []
 };
