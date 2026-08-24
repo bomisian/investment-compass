@@ -2,20 +2,20 @@
 const FUNDAMENTAL_INTELLIGENCE_DATA = {
   "schemaVersion": 2,
   "modelVersion": "fundamental-v1.3",
-  "generatedAt": 1787582269.4850764,
+  "generatedAt": 1787583609.0279908,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 6.5,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -373,6 +373,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 6.5,
+          "confidence": 100,
+          "fundamentalDamage": 69.2,
+          "thesisDamage": 100,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 21.3,
+            "base": 36.6,
+            "bear": 42.1
+          },
+          "currentPrice": 483.239990234375,
+          "valuationGap": -0.1631,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -415,6 +436,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -425,16 +456,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.7,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -870,6 +901,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 12.7,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 28.0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 30.9,
+            "base": 38.3,
+            "bear": 30.8
+          },
+          "currentPrice": 344.82000732421875,
+          "valuationGap": 0.3887,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -912,6 +964,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -922,16 +984,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 1.2,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -1283,6 +1345,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "weakening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 1.2,
+          "confidence": 100,
+          "fundamentalDamage": 11.2,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 31.7,
+            "base": 39.9,
+            "bear": 28.4
+          },
+          "currentPrice": 258.6300048828125,
+          "valuationGap": 0.1918,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "weakening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -1325,6 +1408,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "weakening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "weakening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -1335,16 +1428,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "META": {
       "ticker": "META",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 7.0,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -1752,6 +1845,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 7.0,
+          "confidence": 100,
+          "fundamentalDamage": 34.9,
+          "thesisDamage": 84.0,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 23.2,
+            "base": 37.1,
+            "bear": 39.7
+          },
+          "currentPrice": 549.9000244140625,
+          "valuationGap": -0.064,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -1794,6 +1908,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -1804,16 +1928,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 0.8,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -2200,6 +2324,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 0.8,
+          "confidence": 100,
+          "fundamentalDamage": 100,
+          "thesisDamage": 100,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 20.2,
+            "base": 37.0,
+            "bear": 42.8
+          },
+          "currentPrice": 309.3500061035156,
+          "valuationGap": -0.0754,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -2242,6 +2387,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -2252,16 +2407,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.8,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -2575,6 +2730,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 12.8,
+          "confidence": 90.0,
+          "fundamentalDamage": 7.5,
+          "thesisDamage": 7.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.1,
+            "base": 39.0,
+            "bear": 27.9
+          },
+          "currentPrice": 362.8599853515625,
+          "valuationGap": -0.1788,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -2617,6 +2793,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -2627,16 +2813,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 28.2,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -3061,6 +3247,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 28.2,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 37.5,
+            "base": 38.0,
+            "bear": 24.5
+          },
+          "currentPrice": 146.47000122070312,
+          "valuationGap": -0.2622,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -3103,6 +3310,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -3113,16 +3330,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.1,
       "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -3455,6 +3672,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 9.1,
+          "confidence": 95.0,
+          "fundamentalDamage": 1.2,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.2,
+            "base": 39.5,
+            "bear": 27.3
+          },
+          "currentPrice": 209.1699981689453,
+          "valuationGap": -0.0891,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -3497,6 +3735,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -3507,16 +3755,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 35.2,
       "confidence": 95.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -3847,6 +4095,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 35.2,
+          "confidence": 95.0,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 38.9,
+            "base": 37.6,
+            "bear": 23.5
+          },
+          "currentPrice": 179.94000244140625,
+          "valuationGap": -0.3075,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -3889,6 +4158,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -3899,16 +4178,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 24.5,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -4345,6 +4624,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 24.5,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 36.7,
+            "base": 38.2,
+            "bear": 25.1
+          },
+          "currentPrice": 214.72000122070312,
+          "valuationGap": -0.3085,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -4387,6 +4687,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -4397,16 +4707,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 38.6,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -4815,6 +5125,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 38.6,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 39.8,
+            "base": 37.2,
+            "bear": 23.0
+          },
+          "currentPrice": 473.25,
+          "valuationGap": -0.5117,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -4857,6 +5188,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -4867,16 +5208,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 20.8,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -5274,6 +5615,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "weakening"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 20.8,
+          "confidence": 100,
+          "fundamentalDamage": 88.4,
+          "thesisDamage": 100,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 24.1,
+            "base": 35.7,
+            "bear": 40.2
+          },
+          "currentPrice": 368.45001220703125,
+          "valuationGap": -0.4038,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "weakening"
+          }
         }
       ],
       "thesisHistory": [
@@ -5316,6 +5678,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "weakening"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "weakening"
+          }
         }
       ],
       "limitations": [
@@ -5326,16 +5698,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.5,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -5474,13 +5846,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "base": 38.9,
         "bear": 30.5
       },
-      "alerts": [
-        {
-          "type": "thesis_damage",
-          "level": "중요",
-          "message": "Thesis 손상이 +21.0점 확대됐습니다."
-        }
-      ],
+      "alerts": [],
       "businessProfile": {
         "updatedAt": "2026-08-10",
         "customers": [
@@ -5701,6 +6067,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 8.5,
+          "confidence": 90.0,
+          "fundamentalDamage": 13.8,
+          "thesisDamage": 21.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 30.6,
+            "base": 38.9,
+            "bear": 30.5
+          },
+          "currentPrice": 160.75,
+          "valuationGap": 0.0315,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -5743,6 +6130,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -5753,16 +6150,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 24.4,
       "confidence": 78.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -5893,13 +6290,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "base": 37.9,
         "bear": 28.4
       },
-      "alerts": [
-        {
-          "type": "thesis_damage",
-          "level": "중요",
-          "message": "Thesis 손상이 +21.0점 확대됐습니다."
-        }
-      ],
+      "alerts": [],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -6100,6 +6491,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 24.4,
+          "confidence": 78.5,
+          "fundamentalDamage": 5.6,
+          "thesisDamage": 21.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.7,
+            "base": 37.9,
+            "bear": 28.4
+          },
+          "currentPrice": 243.32000732421875,
+          "valuationGap": -0.2719,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -6142,6 +6554,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -6152,16 +6574,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 34.8,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -6569,6 +6991,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 34.8,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 38.9,
+            "base": 37.6,
+            "bear": 23.5
+          },
+          "currentPrice": 237.0399932861328,
+          "valuationGap": -0.3501,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -6611,6 +7054,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -6621,16 +7074,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 6.3,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -6832,13 +7285,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "base": 36.7,
         "bear": 42.1
       },
-      "alerts": [
-        {
-          "type": "thesis_damage",
-          "level": "중요",
-          "message": "Thesis 손상이 +72.0점 확대됐습니다."
-        }
-      ],
+      "alerts": [],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -7071,6 +7518,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 6.3,
+          "confidence": 100,
+          "fundamentalDamage": 36.4,
+          "thesisDamage": 100,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 21.2,
+            "base": 36.7,
+            "bear": 42.1
+          },
+          "currentPrice": 90.06999969482422,
+          "valuationGap": -0.2584,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -7113,6 +7581,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -7123,16 +7601,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 20.4,
       "confidence": 83.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -7516,6 +7994,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 20.4,
+          "confidence": 83.5,
+          "fundamentalDamage": 0.7,
+          "thesisDamage": 14.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.8,
+            "base": 38.3,
+            "bear": 27.9
+          },
+          "currentPrice": 418.95001220703125,
+          "valuationGap": -0.2242,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -7558,6 +8057,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -7568,16 +8077,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 17.7,
       "confidence": 68.5,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -7842,6 +8351,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 17.7,
+          "confidence": 68.5,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 34.6,
+            "base": 39.1,
+            "bear": 26.3
+          },
+          "currentPrice": 1763.760009765625,
+          "valuationGap": -0.2612,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -7884,6 +8414,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -7894,16 +8434,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 12.0,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -8243,6 +8783,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 12.0,
+          "confidence": 100,
+          "fundamentalDamage": 28.6,
+          "thesisDamage": 70.0,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 25.8,
+            "base": 37.2,
+            "bear": 37.0
+          },
+          "currentPrice": 492.32000732421875,
+          "valuationGap": -0.3025,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -8285,6 +8846,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -8295,16 +8866,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 13.3,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -8566,6 +9137,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 13.3,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.7,
+            "base": 39.4,
+            "bear": 26.9
+          },
+          "currentPrice": 314.0,
+          "valuationGap": -0.1815,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -8608,6 +9200,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -8618,16 +9220,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.3,
       "confidence": 68.8,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -8889,6 +9491,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 16.3,
+          "confidence": 68.8,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 34.3,
+            "base": 39.2,
+            "bear": 26.5
+          },
+          "currentPrice": 183.99000549316406,
+          "valuationGap": -0.1748,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -8931,6 +9554,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -8941,16 +9574,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 54.0,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -9347,6 +9980,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 54.0,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 43.4,
+            "base": 36.0,
+            "bear": 20.6
+          },
+          "currentPrice": 966.780029296875,
+          "valuationGap": -0.5265,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -9389,6 +10043,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -9399,16 +10063,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.1,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -9816,6 +10480,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 10.1,
+          "confidence": 100,
+          "fundamentalDamage": 15.3,
+          "thesisDamage": 14.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 31.9,
+            "base": 38.9,
+            "bear": 29.2
+          },
+          "currentPrice": 1596.0799560546875,
+          "valuationGap": -0.1912,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -9858,6 +10543,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -9868,16 +10563,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 31.6,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -10048,13 +10743,7 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         "base": 36.6,
         "bear": 30.2
       },
-      "alerts": [
-        {
-          "type": "thesis_damage",
-          "level": "중요",
-          "message": "Thesis 손상이 +28.0점 확대됐습니다."
-        }
-      ],
+      "alerts": [],
       "businessProfile": {
         "updatedAt": null,
         "customers": [],
@@ -10251,6 +10940,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 31.6,
+          "confidence": 100,
+          "fundamentalDamage": 27.2,
+          "thesisDamage": 42.0,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 33.2,
+            "base": 36.6,
+            "bear": 30.2
+          },
+          "currentPrice": 459.44000244140625,
+          "valuationGap": -0.3672,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -10293,6 +11003,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -10303,16 +11023,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 15.0,
       "confidence": 85.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -10596,6 +11316,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 15.0,
+          "confidence": 85.0,
+          "fundamentalDamage": 16.0,
+          "thesisDamage": 28.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 31.0,
+            "base": 38.3,
+            "bear": 30.7
+          },
+          "currentPrice": 188.64999389648438,
+          "valuationGap": -0.2028,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -10638,6 +11379,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -10648,16 +11399,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -2.3,
       "confidence": 82.1,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -10939,6 +11690,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": -2.3,
+          "confidence": 82.1,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 30.8,
+            "base": 40.0,
+            "bear": 29.2
+          },
+          "currentPrice": 289.5199890136719,
+          "valuationGap": -0.3257,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -10981,6 +11753,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -10991,16 +11773,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 1.3,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -11302,6 +12084,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 1.3,
+          "confidence": 90.0,
+          "fundamentalDamage": 11.3,
+          "thesisDamage": 28.0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 28.3,
+            "base": 39.2,
+            "bear": 32.5
+          },
+          "currentPrice": 866.7100219726562,
+          "valuationGap": -0.7508,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -11344,6 +12147,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -11354,16 +12167,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 17.3,
       "confidence": 100,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -11742,6 +12555,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 17.3,
+          "confidence": 100,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "strengthening",
+          "scenarioWeights": {
+            "bull": 35.1,
+            "base": 38.8,
+            "bear": 26.1
+          },
+          "currentPrice": 956.8499755859375,
+          "valuationGap": 0.2442,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -11784,6 +12618,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "strengthening",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -11794,16 +12638,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -7.7,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -12134,6 +12978,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": -7.7,
+          "confidence": 90.0,
+          "fundamentalDamage": 34.0,
+          "thesisDamage": 56.0,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 23.7,
+            "base": 38.0,
+            "bear": 38.3
+          },
+          "currentPrice": 272.8800048828125,
+          "valuationGap": -0.0879,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -12176,6 +13041,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "damaged",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "damaged",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -12186,16 +13061,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": -8.4,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -12508,6 +13383,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": -8.4,
+          "confidence": 90.0,
+          "fundamentalDamage": 34.0,
+          "thesisDamage": 56.0,
+          "thesisStatus": "damaged",
+          "scenarioWeights": {
+            "bull": 23.6,
+            "base": 37.9,
+            "bear": 38.5
+          },
+          "currentPrice": 136.2100067138672,
+          "valuationGap": -0.0745,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -12550,6 +13446,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "damaged",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -12560,16 +13466,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 11.4,
       "confidence": 82.1,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -12853,6 +13759,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 11.4,
+          "confidence": 82.1,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.5,
+            "base": 39.4,
+            "bear": 27.1
+          },
+          "currentPrice": 419.20001220703125,
+          "valuationGap": -0.1571,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -12895,6 +13822,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -12905,16 +13842,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -13176,6 +14113,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 9.2,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 32.8,
+            "base": 39.7,
+            "bear": 27.5
+          },
+          "currentPrice": 639.3400268554688,
+          "valuationGap": -0.1483,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -13218,6 +14176,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -13228,16 +14196,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 9.2,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -13499,6 +14467,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 9.2,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 32.8,
+            "base": 39.7,
+            "bear": 27.5
+          },
+          "currentPrice": 470.0299987792969,
+          "valuationGap": -0.1058,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -13541,6 +14530,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -13551,16 +14550,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 17.7,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -13822,6 +14821,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 17.7,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 34.6,
+            "base": 39.1,
+            "bear": 26.3
+          },
+          "currentPrice": 261.95001220703125,
+          "valuationGap": -0.2628,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -13864,6 +14884,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -13874,16 +14904,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.5,
       "confidence": 85.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -14165,6 +15195,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 10.5,
+          "confidence": 85.0,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 33.3,
+            "base": 39.5,
+            "bear": 27.2
+          },
+          "currentPrice": 197.67999267578125,
+          "valuationGap": -0.3164,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -14207,6 +15258,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -14217,16 +15278,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 32.2,
       "confidence": 90.0,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -14530,6 +15591,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 32.2,
+          "confidence": 90.0,
+          "fundamentalDamage": 4.3,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 38.2,
+            "base": 37.8,
+            "bear": 24.0
+          },
+          "currentPrice": 850.0,
+          "valuationGap": -0.3538,
+          "theses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -14572,6 +15654,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "strengthening",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -14582,16 +15674,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 8.5,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -14844,6 +15936,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 8.5,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 32.7,
+            "base": 39.7,
+            "bear": 27.6
+          },
+          "currentPrice": 776.6199951171875,
+          "valuationGap": -0.1061,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -14886,6 +15999,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "intact",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "intact",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -14896,16 +16019,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 16.0,
       "confidence": 71.7,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -15158,6 +16281,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 16.0,
+          "confidence": 71.7,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 34.3,
+            "base": 39.2,
+            "bear": 26.5
+          },
+          "currentPrice": 1655.6099853515625,
+          "valuationGap": -0.1856,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -15200,6 +16344,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "limitations": [
@@ -15210,16 +16364,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "asOf": 1787582269.4850764,
+      "asOf": 1787583609.0279908,
       "modelVersion": "fundamental-v1.3",
       "fundamentalScore": 10.3,
       "confidence": 55.2,
       "fundamentalSigma": null,
       "fundamentalSigmaProgress": {
         "status": "collecting",
-        "collected": 4,
+        "collected": 5,
         "required": 8,
-        "remaining": 4,
+        "remaining": 3,
         "expectedReadyDate": "2026-08-28",
         "notice": "같은 KST 날짜의 반복 실행은 한 건으로 교체하며, 임의 과거 점수를 만들어 채우지 않습니다."
       },
@@ -15462,6 +16616,27 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
             "cashFlow": "strengthening",
             "resilience": "intact"
           }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
+          "fundamentalScore": 10.3,
+          "confidence": 55.2,
+          "fundamentalDamage": 0,
+          "thesisDamage": 0,
+          "thesisStatus": "intact",
+          "scenarioWeights": {
+            "bull": 32.7,
+            "base": 39.8,
+            "bear": 27.5
+          },
+          "currentPrice": 69.22000122070312,
+          "valuationGap": -0.1976,
+          "theses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
         }
       ],
       "thesisHistory": [
@@ -15498,6 +16673,16 @@ const FUNDAMENTAL_INTELLIGENCE_DATA = {
         {
           "asOf": 1787582269.4850764,
           "date": "2026-08-24",
+          "overallStatus": "intact",
+          "statuses": {
+            "growth": "intact",
+            "cashFlow": "strengthening",
+            "resilience": "intact"
+          }
+        },
+        {
+          "asOf": 1787583609.0279908,
+          "date": "2026-08-25",
           "overallStatus": "intact",
           "statuses": {
             "growth": "intact",
