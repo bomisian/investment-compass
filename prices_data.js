@@ -80891,8 +80891,8 @@ const PRICES_DATA = {
       0,
       0
     ],
-    "_fetched_at": 1787463615.55328,
-    "_updated_label": "2026-08-23 14:40"
+    "_fetched_at": 1787537575.4698694,
+    "_updated_label": "2026-08-24 11:12"
   },
   "DIA": {
     "dates": [
