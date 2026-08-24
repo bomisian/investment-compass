@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.859999656677246,
+      "current": 15.90999984741211,
       "prevClose": 15.130000114440918,
-      "changeAbs": 0.7299995422363281,
-      "changePct": 4.824848226799257,
-      "pctRank": 28.82165605095541,
+      "changeAbs": 0.7799997329711914,
+      "changePct": 5.155318751298065,
+      "pctRank": 29.378980891719745,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.92109485868481,
-      "ma20": 15.86299991607666,
-      "ma60": 16.917999919255575,
-      "chg1m": -2.7200002670288086,
-      "chg3m": -0.7300004959106445,
-      "chg1mPct": -14.639398698588716,
-      "chg3mPct": -4.400244057844514,
+      "drawdown1y": -48.76006364463189,
+      "ma20": 15.865499925613403,
+      "ma60": 16.918833255767822,
+      "chg1m": -2.6700000762939453,
+      "chg3m": -0.6800003051757812,
+      "chg1mPct": -14.370291104723398,
+      "chg3mPct": -4.0988565335830165,
       "lastDate": "2026-08-24",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.04000091552734,
+      "current": 85.02999877929688,
       "prevClose": 87.05999755859375,
-      "changeAbs": -2.0199966430664062,
-      "changePct": -2.320235124871091,
+      "changeAbs": -2.029998779296875,
+      "changePct": -2.3317239102041443,
       "pctRank": 75.17899761336515,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.710045849318806,
-      "ma20": 82.31149940490722,
-      "ma60": 81.03433329264323,
-      "chg1m": -4.269996643066406,
-      "chg3m": -11.55999755859375,
-      "chg1mPct": -4.781095912879163,
-      "chg3mPct": -11.966871367695358,
+      "drawdown1y": -24.718901215853307,
+      "ma20": 82.31099929809571,
+      "ma60": 81.03416659037272,
+      "chg1m": -4.279998779296875,
+      "chg3m": -11.569999694824219,
+      "chg1mPct": -4.792295259541228,
+      "chg3mPct": -11.977225546151322,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.99500274658203,
+      "current": 98.97200012207031,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.19499969482421875,
-      "changePct": 0.19736810607390906,
-      "pctRank": 26.730310262529834,
+      "changeAbs": 0.1719970703125,
+      "changePct": 0.1740860981779493,
+      "pctRank": 26.332537788385046,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5735634760965964,
-      "ma20": 99.75925064086914,
-      "ma60": 100.32341715494792,
-      "chg1m": -2.4749984741210938,
-      "chg3m": -0.3249969482421875,
-      "chg1mPct": -2.4391430416343733,
-      "chg3mPct": -0.3272220592436468,
+      "drawdown1y": -2.5962016262526255,
+      "ma20": 99.75810050964355,
+      "ma60": 100.32303377787272,
+      "chg1m": -2.4980010986328125,
+      "chg3m": -0.34799957275390625,
+      "chg1mPct": -2.4618124259203618,
+      "chg3mPct": -0.35038217259684634,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4696.2998046875,
+      "current": 4702.2998046875,
       "prevClose": 4624.10009765625,
-      "changeAbs": 72.19970703125,
-      "changePct": 1.5613785494791692,
-      "pctRank": 95.3062848050915,
+      "changeAbs": 78.19970703125,
+      "changePct": 1.6911335260862095,
+      "pctRank": 95.54494828957836,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.697129006453588,
-      "ma20": 4309.269958496094,
-      "ma60": 4216.2,
-      "chg1m": 628.69970703125,
-      "chg3m": 175.2998046875,
-      "chg1mPct": 15.456281147045567,
-      "chg3mPct": 3.877456418657377,
+      "drawdown1y": -11.58431311990553,
+      "ma20": 4309.569958496094,
+      "ma60": 4216.3,
+      "chg1m": 634.69970703125,
+      "chg3m": 181.2998046875,
+      "chg1mPct": 15.603788273015425,
+      "chg3mPct": 4.010170419984517,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Pakistan's Munir spoke to Trump ahead of Tehran visit, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEZ5bXpNWkVOd1I2LXFQZHl2ZldvaHo2ZnBnVTMtUjlicmxnRlBCVk5sMjlsM2RjTkk0TkY3SlYzSnVUOTRKYXc0aW9odE5GX2NUVVBLdS1NMkdEQlNCMVdKakRDbURxVDVpX0tra3lUVWtNT3pMaEtnMkc1a3BXdm1IRWtGWnFBUWZucWZiNUJsYzFBVGFaQ2xNQUdRRncxbHhGT1ROZEk3cTl3MnhmQi1rWQ?oc=5",
+      "datetime": 1787561195,
+      "headlineKo": "소식통은 파키스탄의 무니르가 테헤란 방문을 앞두고 트럼프와 대화를 나눴다고 전했습니다. - 로이터"
+    },
+    {
+      "headline": "Iran warns vessels violating Hormuz transit rules of fines, detention - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
+      "datetime": 1787561106,
+      "headlineKo": "이란, 호르무즈 수송 규칙 위반 선박에 벌금, 구금 경고 - 로이터"
+    },
+    {
+      "headline": "UK briefs energy chiefs after Iran-linked cyber attack reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRy1UV0V0SjJTWmFRM0VUNXc2WHkyNjZEU3VVU01nWkNDODRBcEd6eFhMZlZZQVM0Unh6bFZzOE5HSXJHV0NxN1hhVF9RMTBOWEJ6OUN1cjRmZTBEQWpmQjlyWlQ1ZDlFVXFHLVh2b1NrcXFqNXF1R09JR2JFbDJjdi1keUdVN1BHRzhwWmMtUlBfMlZnQkpnZDZLNndkWXhZZ3dNOGhJUFRfLTJUMXdxYzBReWY?oc=5",
+      "datetime": 1787560519,
+      "headlineKo": "영국, 이란과 연계된 사이버 공격 보고 후 에너지 책임자 브리핑 - 로이터"
+    },
+    {
       "headline": "China vows to protect its rights as US readies Iran sanction - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQVl6Z2NfVHEtWVZtei15eVVoMG1mSHJQZXdJVnJFZlc3QklQS1c3NVcwWHhaYXlDYkNDbDNhM3pCNkV6ZmJTMXFMWGxUTVZCdXJ1aGlqckJibFo5cDFxYzlKYWVmaVNGeElSdHBLbkZvOWVGbUpvSjFUUGdtUGVHYXVSUTF3T0VQdDZESVBHSE1PQlZkS2ZiZmpxcXRObWYxV2FDdA?oc=5",
@@ -240,13 +261,6 @@ const MARKET_DATA = {
       "headlineKo": "미국, 이란 전쟁 관련 전력 제약 문제로 한국과 합동 해상훈련 취소 - 로이터"
     },
     {
-      "headline": "Indian shares extend cautious trade on concerns over Iran sanctions - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPM09QeWVZWGJNRTU2Y2hDN2lmLVhsZDN1OHVDeG1GODlEY2M4cjdMOUM3YkJBbzRYTXJkMHVSSkdpdXE5dllmcy11WVRPU1MxMXVxcnZMZHFzYTFCdXpfYWZJNU51TC1jY0ZyQkltTVhYMTRsYWpYYXBVWWstalVXTktkTlBiblNrSE5iZjRnRXpsNnJQdDVUT2ExVVRKSlgwOWcyU2F1bVJ1dG9IRUdqVzd5Yw?oc=5",
-      "datetime": 1787546953,
-      "headlineKo": "인도 주식, 이란 제재 우려에 신중한 거래 확대 - 로이터"
-    },
-    {
       "headline": "Oman foreign minister to visit Tehran on Tuesday, Iranian foreign ministry says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObkJfZGxYQ3dRdFhQNi12SXNHbmhYcjV4UHlnM1RwSm1Lcmt0ejJWTUh6OUlQRnBLbWh3YlM5V2dKVkNPNXBiVGI3b2Z6WUFGeWdCa0wwc1RTX2NHX0FaSzBGOVQ4dk1SRzFvejI3SXRUZVNVWWMybXVpWEJrY0poNExaQ2lEZjBvSDM2UWNhZGxtb3RFRWxZaFlYTk5EQXVmNFNEb0MxSWhVRl9tT2RJcjd5OUo3WTN3QlVPTFdFbno3Nk0xNHc?oc=5",
@@ -254,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "이란 외무부는 화요일에 오만 외무장관이 테헤란을 방문할 것이라고 밝혔습니다. - 로이터 통신"
     },
     {
-      "headline": "Gold hits over 3-month high ahead of US inflation data, Fed chair speech - Reuters",
+      "headline": "Gold climbs to more than three-month high as markets await US inflation data - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
       "datetime": 1787546340,
-      "headlineKo": "미국 인플레이션 데이터, 연준 의장 연설보다 3개월 이상 높은 골드 히트 - 로이터"
+      "headlineKo": "시장이 미국 인플레이션 데이터를 기다리면서 금은 3개월 이상 상승 - 로이터"
     },
     {
       "headline": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
       "datetime": 1787539218,
       "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
-    },
-    {
-      "headline": "Dollar trading near multi-month lows, restrained by debt nerves - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeWdQcUNEMGg5ZXdrRnBJRl9PLXZtbk9NYzdiZnEydGZBT21TOWRFaV9EQVBpYU9mcktFSV84c0JwcVBDdHVDSkkwUUpIWVM3ZVhYTWFrNFNWRlc3MUhMWVZ5V29JTXh5U01Ja0l3MzdGTTUweFo0Y0VVZjlfYXp5YjVfSU11NW5zdUtqM1l4cEtCV1JmU24xVmlBc1NtVkRHcnpxUFlxNkRZSUU?oc=5",
-      "datetime": 1787536080,
-      "headlineKo": "부채 신경으로 인해 달러 거래가 수개월 최저치에 근접했습니다 - Reuters"
-    },
-    {
-      "headline": "Shares, oil slip awaiting US details of Iran sanctions - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
-      "datetime": 1787532540,
-      "headlineKo": "주식, 이란 제재에 대한 미국의 세부 정보를 기다리는 오일 슬립 - 로이터"
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787563528.5625956,
-  "_updated_label": "2026-08-24 18:25",
-  "_last_attempt_at": 1787563528.5625956,
-  "_last_success_at": 1787563528.5625956,
+  "_fetched_at": 1787567471.5588684,
+  "_updated_label": "2026-08-24 19:31",
+  "_last_attempt_at": 1787567471.5588684,
+  "_last_success_at": 1787567471.5588684,
   "_collection_status": "ok",
   "_collection_errors": []
 };
