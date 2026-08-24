@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787530231.4579399,
+  "generatedAt": 1787533880.1828265,
   "events": [
     {
       "id": "75596211fbe0d7587c04",
@@ -8101,7 +8101,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm",
         "publishedAt": 1787238000.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "MOD가 2026-08-21에 SEC Form 8-K을 제출했습니다."
@@ -10435,7 +10435,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
         "publishedAt": 1787151600.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "AMAT가 2026-08-20에 SEC Form 10-Q을 제출했습니다."
@@ -12089,7 +12089,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "AMD가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -12153,7 +12153,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "MRVL가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -12887,7 +12887,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
         "publishedAt": 1786978800.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "AMZN가 2026-08-18에 SEC Form 424B3을 제출했습니다.",
@@ -13313,7 +13313,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -13378,7 +13378,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -13443,7 +13443,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "SNDK가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -13506,7 +13506,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "LITE가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -16008,7 +16008,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526352628/d173126d424b5.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다.",
@@ -16072,7 +16072,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/tsm-fsx20260814x6k.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "TSM가 2026-08-14에 SEC Form 6-K을 제출했습니다."
@@ -16135,7 +16135,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "WDC가 2026-08-14에 SEC Form 10-K을 제출했습니다."
@@ -16198,7 +16198,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1787511608.0868583
+        "collectedAt": 1787533867.4203863
       },
       "confirmedFacts": [
         "COHR가 2026-08-14에 SEC Form 10-K을 제출했습니다."
