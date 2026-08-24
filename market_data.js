@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.08000183105469,
+      "current": 85.19000244140625,
       "prevClose": 87.05999755859375,
-      "changeAbs": -1.9799957275390625,
-      "changePct": -2.2742887469144155,
-      "pctRank": 75.25855210819411,
+      "changeAbs": -1.8699951171875,
+      "changePct": -2.1479383983774434,
+      "pctRank": 75.57677008750994,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.674631137846383,
-      "ma20": 82.3134994506836,
-      "ma60": 81.03499997456869,
-      "chg1m": -4.2299957275390625,
-      "chg3m": -11.519996643066406,
-      "chg1mPct": -4.736307068829425,
-      "chg3mPct": -11.925462551795574,
+      "drawdown1y": -24.57724236996357,
+      "ma20": 82.31899948120117,
+      "ma60": 81.03683331807454,
+      "chg1m": -4.1199951171875,
+      "chg3m": -11.409996032714844,
+      "chg1mPct": -4.613139883342274,
+      "chg3mPct": -11.811590282552183,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.98400115966797,
+      "current": 98.98300170898438,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.18399810791015625,
-      "changePct": 0.18623289699066728,
+      "changeAbs": 0.1829986572265625,
+      "changePct": 0.18522130726119107,
       "pctRank": 26.412092283214,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5843907439324076,
-      "ma20": 99.75870056152344,
-      "ma60": 100.32323379516602,
-      "chg1m": -2.4860000610351562,
-      "chg3m": -0.33599853515625,
-      "chg1mPct": -2.449985247982763,
-      "chg3mPct": -0.3382989691790742,
+      "drawdown1y": -2.585374358416803,
+      "ma20": 99.75865058898925,
+      "ma60": 100.32321713765462,
+      "chg1m": -2.48699951171875,
+      "chg3m": -0.33699798583984375,
+      "chg1mPct": -2.450970219571972,
+      "chg3mPct": -0.3393052626614189,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4718.5,
+      "current": 4733.2001953125,
       "prevClose": 4624.10009765625,
-      "changeAbs": 94.39990234375,
-      "changePct": 2.04147618672003,
-      "pctRank": 95.70405727923628,
+      "changeAbs": 109.10009765625,
+      "changePct": 2.3593801032020902,
+      "pctRank": 96.0222752585521,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.279706553833647,
-      "ma20": 4310.379968261719,
-      "ma60": 4216.570003255209,
-      "chg1m": 650.89990234375,
-      "chg3m": 197.5,
-      "chg1mPct": 16.00206231479831,
-      "chg3mPct": 4.368502543685025,
+      "drawdown1y": -11.00330395939877,
+      "ma20": 4311.114978027344,
+      "ma60": 4216.815006510416,
+      "chg1m": 665.60009765625,
+      "chg3m": 212.2001953125,
+      "chg1mPct": 16.363459575088726,
+      "chg3mPct": 4.693656167053748,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Los Angeles Lakers worth 'every bit' of $12.5 billion price tag: 76ers and Commanders owner Josh Harris",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/los-angeles-lakers-worth-every-bit-of-12point5-billion-price-tag-76ers-and-commanders-owner-josh-harris.html",
+      "datetime": 1787611876,
+      "headlineKo": "$ 125억 가격표의 '모든 비트' 가치가 있는 로스앤젤레스 레이커스: 76ers and Commanders 소유주 Josh Harris"
+    },
+    {
+      "headline": "US threatens countries doing business with Iran, but holds off on penalties for now - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0FZaGVaRDU5ZGhzbm1uaHBtUDIwNEhOUk96ZkxVNlRubGFIbHdXTmZhTU1YM2lrclBjNkpkNmlQWnIwUW9pS0xkazBKU2VTZXZMR2RlR0RWTTBnRUVKb2J1SzdyOGNGRjBBWFo4ZnRVQ1dLNG9KT2hTNU5SUGRNNDFERkctaW5oYlhjbTF6VjZNZmZBZHNjemVYZzZCZkFRRkE3MFlJMFlrTl9qT3VaZWQzQ3NnYlE?oc=5",
+      "datetime": 1787611366,
+      "headlineKo": "미국, 이란과 거래하는 국가 위협했지만 제재는 보류 - 로이터"
+    },
+    {
+      "headline": "Here's what Jim Cramer says stock investors need to know about the bond market",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
+      "datetime": 1787611201,
+      "headlineKo": "다음은 Jim Cramer가 주식 투자자가 채권 시장에 대해 알아야 할 사항입니다."
+    },
+    {
+      "headline": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
+      "datetime": 1787610361,
+      "headlineKo": "S&P 500, 나스닥은 기술주 하락세, 투자자들은 이란의 움직임에 무게를 두고 있음 - Reuters"
+    },
+    {
       "headline": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can't clear it",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
@@ -233,6 +261,13 @@ const MARKET_DATA = {
       "headlineKo": "메인 스트리트 스포츠, 덜 지불 된 라이센스 수수료에 대한 Comcast, Charter 소송"
     },
     {
+      "headline": "TRADING DAY Tech, tariffs & Treasuries - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUmpoclpIbHRCNUVXQ0IyQ1ZQbDJoR0VQQ0JuN2k4YVJuekdBQ05YcHI5WnVtc0JNSzN6MDhFSzRSS2dvbWRzUnFxSEJ5TURVVEFuc3Vha0sxdGhSbUZ6TllJSkU0c0JrMFFOb2dsN3VLRTItYnE4MVNVWVJQR3o3alhlSFAzVXNla1pBcXNnTnNwencyLWtpRmJteWVFYnJtS0IzbzZR?oc=5",
+      "datetime": 1787606018,
+      "headlineKo": "거래일 기술, 관세 및 국채 - 로이터"
+    },
+    {
       "headline": "Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkRkNWJWcGl4bFZlUjZrZEpaMGJIMGljWUk3MTU4M2tuc1ZvcnZMMlNOMVM1NFlGUGp6eVRXbTBnSHVFVWV6YjJ1dmNGV1g3ajJJbWUzcGw4U0kyZDkzbjF5LTlxS1R2aUV0RkNKN1Z5QWVqY082ei1lMzFmSFZfVC1QLUUwbFY5SmlDdlZyZnhIRmN6Ul91cVhtbWRrdnl6S2ROc0JRMk9mdjZzaTBvMURfcXNMbE9OWnpkU0tMbw?oc=5",
@@ -240,18 +275,18 @@ const MARKET_DATA = {
       "headlineKo": "이란 전쟁에 대한 미국의 지지율이 하락함에 따라 트럼프의 승인은 사상 최저 수준으로 유지되고 있다고 로이터 입소스 (Reuters Ipsos) 여론 조사는 밝혔다. - 로이터"
     },
     {
-      "headline": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-      "datetime": 1787604609,
-      "headlineKo": "S&P 500, 나스닥은 기술주 하락세, 투자자들은 이란의 움직임에 무게를 두고 있음 - Reuters"
-    },
-    {
       "headline": "Here's what the charts say about Nvidia's stock heading into earnings",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/heres-what-the-charts-say-about-nvidias-stock-heading-into-earnings.html",
       "datetime": 1787601085,
       "headlineKo": "엔비디아의 주가가 수익으로 향하는 것에 대한 차트의 설명은 다음과 같습니다."
+    },
+    {
+      "headline": "US Treasury to stick to debt auction schedule despite bigger buybacks, Bessent says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNjNOaTQ3NkZ4V1N0SHI2ek42SEVXX0xHVVZXbHU1WGZXRFA5MHJ1YkdSLWxzREw2UnZURlFrVG1wWkZOVlU3VWg3dHVkeGpLbk1pMGJzRUVlLWpndGVoWlRwS2p2dlBXWXg5ZzR5UUVhd3g2RElhdklmbG1mNXZ5MDJrNUNROTZhcGY0ZC0yX21pblpqakFsY3VUaEhUelZfNllQemQ2QnR2Uk9sZW9IQjRJOFlBUkx3c3ZJd1JWMktDUQ?oc=5",
+      "datetime": 1787600623,
+      "headlineKo": "Bessent는 미국 재무부가 더 큰 매수에도 불구하고 부채 경매 일정을 고수해야한다고 말합니다. - Reuters"
     },
     {
       "headline": "US removes Syria from terrorism sponsor list, lifting major investment obstacle - Reuters",
@@ -266,51 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcndkRXBGZVdHbXo5ajBPN3B4UUZPV05GWVV1UWxYVmtaX0JOeXJiN0I2ZzYxQS1TbjRWa1BITmtxa1RWQ1FFOEczbFFaYWdud3dqdkdwU1lTazd3ekZtNXIyWnEtT3pSaXJMakR6WHo5ZFFMakIyMVlBSnFYM2Q1aS1ySExGSmpQcnpDZlpZRTFwMFlyeDVvMDJveHliVDZZemVZZ3UwWlE?oc=5",
       "datetime": 1787597662,
       "headlineKo": "이스라엘의 네타냐후는 이란이 그의 아들 중 한 명을 죽이려 했다고 말합니다. - 로이터"
-    },
-    {
-      "headline": "US threatens countries doing business with Iran, but holds off on penalties for now - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOb0FZaGVaRDU5ZGhzbm1uaHBtUDIwNEhOUk96ZkxVNlRubGFIbHdXTmZhTU1YM2lrclBjNkpkNmlQWnIwUW9pS0xkazBKU2VTZXZMR2RlR0RWTTBnRUVKb2J1SzdyOGNGRjBBWFo4ZnRVQ1dLNG9KT2hTNU5SUGRNNDFERkctaW5oYlhjbTF6VjZNZmZBZHNjemVYZzZCZkFRRkE3MFlJMFlrTl9qT3VaZWQzQ3NnYlE?oc=5",
-      "datetime": 1787597554,
-      "headlineKo": "미국, 이란과 거래하는 국가 위협했지만 제재는 보류 - 로이터"
-    },
-    {
-      "headline": "We're downgrading 2 AI stocks — plus, what we need to see to turn more positive",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/were-downgrading-2-ai-stocks-plus-what-we-need-to-see-.html",
-      "datetime": 1787596856,
-      "headlineKo": "우리는 2 개의 AI 주식을 다운 그레이드하고 있습니다. 또한 더 긍정적으로 전환하기 위해 확인해야 할 사항"
-    },
-    {
-      "headline": "France, Saudi Arabia agree on €6 billion Dragon Ball Z theme park project near Paris - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQU1pSUXpFN2gtY3ZBNHRubzJEOGZOSE1lR0NfQmh6OHRaT052MUJaUUZlbTBrOFNXZWZiRXhoVnl6UjRFTlFjbVJsVXZ5TWYtS1B4eFN4UlkwUG9FMGRLdEtZZk5xNVlVOTA3RnQxSGRESWFTOTFOUTdMNFZrVVBCdnAxeVJoUzkwUnViWDZsX0ZwaVNacnlDcTEtOUk5Qk54aVllTlBjNTlITWtLYlVrNHVZLUFSSGNleVhtZGtOSm1XQjJtT29GRW9lNVR0QQ?oc=5",
-      "datetime": 1787591263,
-      "headlineKo": "프랑스, 사우디아라비아, 파리 인근 € 60억 규모의 드래곤볼 Z 테마파크 프로젝트에 합의 - Reuters"
-    },
-    {
-      "headline": "European stocks flat as markets weigh Iran tensions, await economic data - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUFOcHRycnRBVzJHNi1CM1o1TWo5dHJha2xIcmFFbEQyTy1PQ2x1WWFSdkpWYjQtQ1RxcW5TYlhJbXE3TGE5S3RqazhrT0dMRjdVbW5rMEdPUk5BUWNrMkJqY0NILVpTNkhQeEJhcjBkc0NwS1ZkVDUyM1BSZkhrakNPUERDNk54LS1kd1BxLWRuVWRiQ084SHhQOG1GVW9GNm1EckhR?oc=5",
-      "datetime": 1787589983,
-      "headlineKo": "유럽 증시는 시장이 이란의 긴장을 무겁게 하고 경제 데이터를 기다리고 있기 때문에 평평합니다. - 로이터"
-    },
-    {
-      "headline": "Cramer says this stock tied to the AI data center trade may be up next for a trim",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/cramer-says-this-stock-tied-to-the-ai-data-center-trade-may-be-up-next-for-a-trim.html",
-      "datetime": 1787587795,
-      "headlineKo": "Cramer는 AI 데이터 센터 거래와 관련된 이 주식이 다음 단계로 정리될 수 있다고 말합니다."
     }
   ],
   "fgi": {
     "score": 55.0285714285714,
     "rating": "greed"
   },
-  "_fetched_at": 1787612237.5045474,
-  "_updated_label": "2026-08-25 07:57",
-  "_last_attempt_at": 1787612237.5045474,
-  "_last_success_at": 1787612237.5045474,
+  "_fetched_at": 1787615895.8996644,
+  "_updated_label": "2026-08-25 08:58",
+  "_last_attempt_at": 1787615895.8996644,
+  "_last_success_at": 1787615895.8996644,
   "_collection_status": "ok",
   "_collection_errors": []
 };
