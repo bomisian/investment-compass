@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.9800033569336,
+      "current": 85.08000183105469,
       "prevClose": 87.05999755859375,
-      "changeAbs": -2.0799942016601562,
-      "changePct": -2.3891503101183336,
-      "pctRank": 75.0994431185362,
+      "changeAbs": -1.9799957275390625,
+      "changePct": -2.2742887469144155,
+      "pctRank": 75.25855210819411,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.763164539194694,
-      "ma20": 82.30849952697754,
-      "ma60": 81.03333333333333,
-      "chg1m": -4.329994201660156,
-      "chg3m": -11.6199951171875,
-      "chg1mPct": -4.848274907654511,
-      "chg3mPct": -12.028980642583,
+      "drawdown1y": -24.674631137846383,
+      "ma20": 82.3134994506836,
+      "ma60": 81.03499997456869,
+      "chg1m": -4.2299957275390625,
+      "chg3m": -11.519996643066406,
+      "chg1mPct": -4.736307068829425,
+      "chg3mPct": -11.925462551795574,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.99099731445312,
+      "current": 98.98400115966797,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.1909942626953125,
-      "changePct": 0.19331402509700063,
-      "pctRank": 26.730310262529834,
+      "changeAbs": 0.18399810791015625,
+      "changePct": 0.18623289699066728,
+      "pctRank": 26.412092283214,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.577505442541672,
-      "ma20": 99.7590503692627,
-      "ma60": 100.32335039774577,
-      "chg1m": -2.47900390625,
-      "chg3m": -0.32900238037109375,
-      "chg1mPct": -2.4430904468583017,
-      "chg3mPct": -0.3312549148026616,
+      "drawdown1y": -2.5843907439324076,
+      "ma20": 99.75870056152344,
+      "ma60": 100.32323379516602,
+      "chg1m": -2.4860000610351562,
+      "chg3m": -0.33599853515625,
+      "chg1mPct": -2.449985247982763,
+      "chg3mPct": -0.3382989691790742,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4710.0,
+      "current": 4718.5,
       "prevClose": 4624.10009765625,
-      "changeAbs": 85.89990234375,
-      "changePct": 1.8576566365267229,
-      "pctRank": 95.62450278440731,
+      "changeAbs": 94.39990234375,
+      "changePct": 2.04147618672003,
+      "pctRank": 95.70405727923628,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.43952905977672,
-      "ma20": 4309.954968261719,
-      "ma60": 4216.428336588541,
-      "chg1m": 642.39990234375,
-      "chg3m": 189.0,
-      "chg1mPct": 15.793093886341007,
-      "chg3mPct": 4.180491041804911,
+      "drawdown1y": -11.279706553833647,
+      "ma20": 4310.379968261719,
+      "ma60": 4216.570003255209,
+      "chg1m": 650.89990234375,
+      "chg3m": 197.5,
+      "chg1mPct": 16.00206231479831,
+      "chg3mPct": 4.368502543685025,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,10 +219,31 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can't clear it",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
+      "datetime": 1787608585,
+      "headlineKo": "파라마운트 CEO 데이비드 엘리슨 (David Ellison) 은 WBD를 구입하기 전에 마지막 장애물에 있습니다. 지금까지 그는 그것을 지울 수 없습니다."
+    },
+    {
+      "headline": "Main Street Sports sues Comcast, Charter for underpaid licensing fees",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/main-street-sports-comcast-charter-lawsuit-payments.html",
+      "datetime": 1787608405,
+      "headlineKo": "메인 스트리트 스포츠, 덜 지불 된 라이센스 수수료에 대한 Comcast, Charter 소송"
+    },
+    {
+      "headline": "Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkRkNWJWcGl4bFZlUjZrZEpaMGJIMGljWUk3MTU4M2tuc1ZvcnZMMlNOMVM1NFlGUGp6eVRXbTBnSHVFVWV6YjJ1dmNGV1g3ajJJbWUzcGw4U0kyZDkzbjF5LTlxS1R2aUV0RkNKN1Z5QWVqY082ei1lMzFmSFZfVC1QLUUwbFY5SmlDdlZyZnhIRmN6Ul91cVhtbWRrdnl6S2ROc0JRMk9mdjZzaTBvMURfcXNMbE9OWnpkU0tMbw?oc=5",
+      "datetime": 1787605015,
+      "headlineKo": "이란 전쟁에 대한 미국의 지지율이 하락함에 따라 트럼프의 승인은 사상 최저 수준으로 유지되고 있다고 로이터 입소스 (Reuters Ipsos) 여론 조사는 밝혔다. - 로이터"
+    },
+    {
       "headline": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-      "datetime": 1787603776,
+      "datetime": 1787604609,
       "headlineKo": "S&P 500, 나스닥은 기술주 하락세, 투자자들은 이란의 움직임에 무게를 두고 있음 - Reuters"
     },
     {
@@ -238,13 +259,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORlU2M1F3TVF0MDVWdXBQMUs3bTdBTTRnWHhRYU85b2IyU04tVTYySkFMVGhtNDBhQUZUdGRKQUNDRnFtRlRDRF9xZFlYaklWemxNNEo0WWNaZWpoQ1JuVWV5Rm94QzRKZzcyZVJIUGlzamtwRkVkcEdWeUxOZTVKZkRJRkJ1cTFwVElRUF9KN05zdEpRRjlKbTZJek40LUJaVzRubzFyRTJmZmM?oc=5",
       "datetime": 1787600145,
       "headlineKo": "미국, 시리아를 테러지원자 명단에서 제외해 주요 투자 장애물 제거 - 로이터 통신"
-    },
-    {
-      "headline": "Trump's approval holds at record low as US support for Iran war falls, Reuters Ipsos poll finds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYkRkNWJWcGl4bFZlUjZrZEpaMGJIMGljWUk3MTU4M2tuc1ZvcnZMMlNOMVM1NFlGUGp6eVRXbTBnSHVFVWV6YjJ1dmNGV1g3ajJJbWUzcGw4U0kyZDkzbjF5LTlxS1R2aUV0RkNKN1Z5QWVqY082ei1lMzFmSFZfVC1QLUUwbFY5SmlDdlZyZnhIRmN6Ul91cVhtbWRrdnl6S2ROc0JRMk9mdjZzaTBvMURfcXNMbE9OWnpkU0tMbw?oc=5",
-      "datetime": 1787600139,
-      "headlineKo": "이란 전쟁에 대한 미국의 지지율이 하락함에 따라 트럼프의 승인은 사상 최저 수준으로 유지되고 있다고 로이터 입소스 (Reuters Ipsos) 여론 조사는 밝혔다. - 로이터"
     },
     {
       "headline": "Israel's Netanyahu says Iran tried to kill one of his sons - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/24/cramer-says-this-stock-tied-to-the-ai-data-center-trade-may-be-up-next-for-a-trim.html",
       "datetime": 1787587795,
       "headlineKo": "Cramer는 AI 데이터 센터 거래와 관련된 이 주식이 다음 단계로 정리될 수 있다고 말합니다."
-    },
-    {
-      "headline": "US eyes China overcapacity tariffs of 7.5% before Xi-Trump talks, Bloomberg News reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONVZLUTRjNDFCbG9qX21DUWdHYkNMb3hzYXREb3BhX0lXNGF6MEdxNExNZ1hqYkRxRWU3OUdGY3hKRHdnYm9YOEZkOVRhSnp4bG52bUtWSU10NjQyQTE3Z1ZFRlVRelBSMF9vTGswcTFJRDMzQnkwVGlpeThzeGRlZ3FSd1IwNlBmOVNWeERLaHQtWWZiazQ3OTJyaXJGQmpVb2FKN2RjTlNseDBoNXRrUFJrRnc2MWdoQUhwcnpiQQ?oc=5",
-      "datetime": 1787587455,
-      "headlineKo": "블룸버그 통신은 미국이 시진핑과 회담 전에 중국에 7.5%의 과잉 생산 관세를 부과할 것이라고 보도했다."
-    },
-    {
-      "headline": "What are Iran's options to escalate further in face of US economic threats? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUGFGMTVQeVJDUktZSTktQ3J4a290eEU1SWxLYk1pZEdjWENHYUtBUkt2dVA2MDBpbmwydUpoYi1xbWcxQzg3QTRDdXlvQ3hTUkZxWk11RlFzTjNncmszdWtEZTgyaS1jTXdVc0pjVF9pSDFZYkhOYXVYZndWWTd2endMTThjcVBuMjQzVDhVU3U0VFlFZ2REVmtIcS1PMUZ2ZzhKZkY1dnY2T2RyUEwxRDNvcW9ZdVZLRkE?oc=5",
-      "datetime": 1787586979,
-      "headlineKo": "미국의 경제적 위협에 맞서 이란이 더 심화시킬 수 있는 방안은 무엇인가? - 로이터"
     }
   ],
   "fgi": {
     "score": 55.0285714285714,
     "rating": "greed"
   },
-  "_fetched_at": 1787608251.6723716,
-  "_updated_label": "2026-08-25 06:51",
-  "_last_attempt_at": 1787608251.6723716,
-  "_last_success_at": 1787608251.6723716,
+  "_fetched_at": 1787612237.5045474,
+  "_updated_label": "2026-08-25 07:57",
+  "_last_attempt_at": 1787612237.5045474,
+  "_last_success_at": 1787612237.5045474,
   "_collection_status": "ok",
   "_collection_errors": []
 };
