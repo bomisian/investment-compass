@@ -7,7 +7,7 @@ const MARKET_DATA = {
       "prevClose": 16.010000228881836,
       "changeAbs": -0.880000114440918,
       "changePct": -5.496565283324662,
-      "pctRank": 22.531847133757964,
+      "pctRank": 22.54980079681275,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
@@ -19,7 +19,7 @@ const MARKET_DATA = {
       "chg1mPct": -19.09091177992747,
       "chg3mPct": -9.401201058521337,
       "lastDate": "2026-08-21",
-      "bars": 1256,
+      "bars": 1255,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
       "unit": "",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 85.37000274658203,
+      "current": 85.16000366210938,
       "prevClose": 87.05999755859375,
-      "changeAbs": -1.6899948120117188,
-      "changePct": -1.9411840792601747,
-      "pctRank": 75.81543357199682,
+      "changeAbs": -1.899993896484375,
+      "changePct": -2.182395991001065,
+      "pctRank": 75.57677008750994,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -24.417879545670385,
-      "ma20": 82.32799949645997,
-      "ma60": 81.0398333231608,
-      "chg1m": -3.9399948120117188,
-      "chg3m": -11.229995727539062,
-      "chg1mPct": -4.411594356417712,
-      "chg3mPct": -11.625254559965185,
+      "drawdown1y": -24.603801714901508,
+      "ma20": 82.31749954223633,
+      "ma60": 81.0363333384196,
+      "chg1m": -4.149993896484375,
+      "chg3m": -11.439994812011719,
+      "chg1mPct": -4.646729380729948,
+      "chg3mPct": -11.842644919996005,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.85600280761719,
+      "current": 98.90399932861328,
       "prevClose": 98.80000305175781,
-      "changeAbs": 0.055999755859375,
-      "changePct": 0.0566799130866815,
-      "pctRank": 24.98011137629276,
+      "changeAbs": 0.10399627685546875,
+      "changePct": 0.1052593862785498,
+      "pctRank": 25.29832935560859,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7103609745021573,
-      "ma20": 99.7523006439209,
-      "ma60": 100.3211004892985,
-      "chg1m": -2.6139984130859375,
-      "chg3m": -0.46399688720703125,
-      "chg1mPct": -2.5761292812053282,
-      "chg3mPct": -0.4671736695859164,
+      "drawdown1y": -2.6631249537288237,
+      "ma20": 99.7547004699707,
+      "ma60": 100.3219004313151,
+      "chg1m": -2.5660018920898438,
+      "chg3m": -0.4160003662109375,
+      "chg1mPct": -2.5288280883220264,
+      "chg3mPct": -0.4188485375444641,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4703.7001953125,
+      "current": 4704.2998046875,
       "prevClose": 4624.10009765625,
-      "changeAbs": 79.60009765625,
-      "changePct": 1.721418134884142,
+      "changeAbs": 80.19970703125,
+      "changePct": 1.7343851849552232,
       "pctRank": 95.54494828957836,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.557982068260042,
-      "ma20": 4309.639978027344,
-      "ma60": 4216.32333984375,
-      "chg1m": 636.10009765625,
-      "chg3m": 182.7001953125,
-      "chg1mPct": 15.638216205736907,
-      "chg3mPct": 4.041145660528644,
+      "drawdown1y": -11.546707824389513,
+      "ma20": 4309.669958496093,
+      "ma60": 4216.333333333333,
+      "chg1m": 636.69970703125,
+      "chg3m": 183.2998046875,
+      "chg1mPct": 15.65295731500538,
+      "chg3mPct": 4.054408420426896,
       "lastDate": "2026-08-24",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Oman foreign minister to visit Tehran on Tuesday, Iranian foreign ministry says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObkJfZGxYQ3dRdFhQNi12SXNHbmhYcjV4UHlnM1RwSm1Lcmt0ejJWTUh6OUlQRnBLbWh3YlM5V2dKVkNPNXBiVGI3b2Z6WUFGeWdCa0wwc1RTX2NHX0FaSzBGOVQ4dk1SRzFvejI3SXRUZVNVWWMybXVpWEJrY0poNExaQ2lEZjBvSDM2UWNhZGxtb3RFRWxZaFlYTk5EQXVmNFNEb0MxSWhVRl9tT2RJcjd5OUo3WTN3QlVPTFdFbno3Nk0xNHc?oc=5",
+      "datetime": 1787546520,
+      "headlineKo": "이란 외무부는 화요일에 오만 외무장관이 테헤란을 방문할 것이라고 밝혔습니다. - 로이터 통신"
+    },
+    {
       "headline": "Gold hits over 3-month high ahead of US inflation data, Fed chair speech - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUkZtQVBPdjlyb21JaVBxeFRicDFEeHVNQ21pZzdGQnlSMUpFYV80MEl3RjJUbF9tYWxmdkZqY2NpaXh5S0NPd1lhbFZxUHZMVVFkTHNyNktCX2hrUU5KN3hjcWRUVTlaQ0hwcmVoMV9VZjBmUkFjMGtTUUY5MXBwRDRFWXBwQnhZTzU1dV81LThOaTNZR1BLVDRGU1JtbDczRjVweFByWkVQbWhhX3VwYTlJZ0VYblU?oc=5",
@@ -226,11 +233,11 @@ const MARKET_DATA = {
       "headlineKo": "미국 인플레이션 데이터, 연준 의장 연설보다 3개월 이상 높은 골드 히트 - 로이터"
     },
     {
-      "headline": "Mixing economic wars, trade wars and actual wars - Reuters",
+      "headline": "Morning Bid: Mixing economic wars, trade wars and actual wars - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zYlNwM05renFqUDNLaGZkdl9sa0cxLXJDTmhLcXYwRG1aYjlLR1c4QjlGbGtqY3pNaXhMR1E4cnJLLU1VcjNfR2h4anE4RTFqVDk2Y3AwWTY5TVZnZnFkRjZVR0tGaGQ0REJpZXljSElWQWFsRnZGY2NUT0t1M1k?oc=5",
       "datetime": 1787546040,
-      "headlineKo": "경제 전쟁, 무역 전쟁 및 실제 전쟁 혼합 - 로이터"
+      "headlineKo": "아침 입찰: 경제 전쟁, 무역 전쟁 및 실제 전쟁 혼합 - 로이터"
     },
     {
       "headline": "Father of sailor aboard USS Abraham Lincoln taken into US immigration detention - Reuters",
@@ -238,6 +245,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZHpyNnV2YVZvT29oWXgzZlZpalBjRnhaSHNWN1hxNVRXZ2tzenZqUmhFYUtJcW51MjR6VExsMWtwenlWOXFRTHFUcVJJZEJNRnVZSjNxZ1VNWk55ODNNTGRLcUp6RDhXcXlYX2tHakNSVEZLYTFEc2ZoeFVyRVhEMWJ4djVxMUJuTnUyeFZ4WGFudVFKZVM4Q1VtVnBobmJuNmIxenVaUHJlMmFGQzJFTXVnWHI1UlA5dlB0QkdfVVlJSVNnUDlKQw?oc=5",
       "datetime": 1787544000,
       "headlineKo": "USS 에이브러햄 링컨호에 탑승한 선원의 아버지 - 로이터"
+    },
+    {
+      "headline": "Fewer than 20 ships transit key Strait of Hormuz over weekend, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTXNxWm1BUVFUdWZuUDJoWi1GRUk1d0RXWTRwR0tQTXd6MXQ2V2RBSkRmMURzajdURDdIQnhEQlFTVVh4TG8yOTdfdWVIdmd4U3AyWm5pSlZ2Y0tSaDNKX1NjcGd1N2dqVmtPUU9rZjMwa3cxWDRLajBjYUhYUDkyY0owcm43TXcyNkp2WlJZUW9ONDA3ZlNlbHlOS19CSTRpYzlOU0pmcVhvaDB6SUsyVU5mM1cwQ2Q5TkwtTmlB?oc=5",
+      "datetime": 1787539320,
+      "headlineKo": "주말에 호르무즈 해협을 통과하는 20척 미만의 선박, 데이터 쇼 - 로이터"
     },
     {
       "headline": "Indian shares extend cautious trade on concerns over Iran sanctions - Reuters",
@@ -254,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "부채 신경으로 인해 달러 거래가 수개월 최저치에 근접했습니다 - Reuters"
     },
     {
-      "headline": "Shares dither, oil slips in wait for US details of Iran sanctions - Reuters",
+      "headline": "Shares, oil slip awaiting US details of Iran sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMG83ZmMxSkVxZFI2eFdsTkhlblVtbE82OFd5SmxFekFOZmtQZEVLSzZOZU1tckZxd2QyOU9vYmRuWGhXeDIzVDhkQ1RaUF96T1hRZkg1SVRHWHAxcGVMTWxmMXBsSjVONURWaEFhMWp2dWdKM0piSGtyWVF1bkJ0YWFxWQ?oc=5",
       "datetime": 1787532540,
-      "headlineKo": "미국의 이란 제재 세부사항을 기다리며 주가가 흔들리고 유류 하락 - Reuters"
+      "headlineKo": "주식, 이란 제재에 대한 미국의 세부 정보를 기다리는 오일 슬립 - 로이터"
     },
     {
       "headline": "Oil falls as US prepares to unveil new Iran sanctions - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQjNIc3NxT3JYclN3cmRsSkVqeElsbHFRMk1fZmZqQ2xWWWJsY3oxUWpPd3BpZ3llYnA2X1hKa0dIREIxMWFPTk5TS1ZRcmVkZS1WNXN6R1pib1pUMGJDQnE0S1ZkNGV3blcydXp0d3pEa08welJreWF1TVFjY0U5a01qc2c5dGY4S3R5RjNXM0pna1dXSjRfMmdBdkhsUUhkY3Q1MFJ5RG90THFQYVdmUGg3ZUNOOFhKbHQ5bzR0YVdKYTFVdlE?oc=5",
       "datetime": 1787524920,
       "headlineKo": "이란 전쟁이 정제 마진을 높임에 따라 Ampol 이익이 거의 5배로 급증 - 로이터"
-    },
-    {
-      "headline": "Iran says new sanctions threatened by 'desperate' US will fail - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOakhmOU5UanRITUhNTk4zZUU4c0F6allnbnZWMC1mY1FsamNsYkRKVFpnbW5DR3hNdHItZm53ZzBNM01GRHB1M0xrYW1BTDBScUhQeTZJb0VnbVQzX1BoeElyNGJURG9DWEhnaEhINERMZjBRd3NpQ2g0d1EwWm1oM2dqWXRxbDVxY1ZPemxPX3F5alJwMmtzR081cjFZNzMtVzZrYlowMHBlblE3UGoyRGJnZG1hQQ?oc=5",
-      "datetime": 1787508976,
-      "headlineKo": "이란은 '절박한' 미국이 위협하는 새로운 제재는 실패할 것이라고 말한다. - 로이터"
-    },
-    {
-      "headline": "Democratic House leader Jeffries meets with Jared Kushner as midterms loom",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/23/democratic-leader-jeffries-meets-with-jared-kushner-as-midterms-loom.html",
-      "datetime": 1787507886,
-      "headlineKo": "민주당 하원 지도자 제프리스는 제러드 쿠슈너와 중간 고사 직기로 만난다."
     }
   ],
   "fgi": {
     "score": 55.1714285714286,
     "rating": "greed"
   },
-  "_fetched_at": 1787552521.4621253,
-  "_updated_label": "2026-08-24 15:22",
-  "_last_attempt_at": 1787552521.4621253,
-  "_last_success_at": 1787552521.4621253,
+  "_fetched_at": 1787556184.1716545,
+  "_updated_label": "2026-08-24 16:23",
+  "_last_attempt_at": 1787556184.1716545,
+  "_last_success_at": 1787556184.1716545,
   "_collection_status": "ok",
   "_collection_errors": []
 };
