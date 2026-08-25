@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.869999885559082,
+      "current": 15.8100004196167,
       "prevClose": 15.850000381469727,
-      "changeAbs": 0.01999950408935547,
-      "changePct": 0.12617983348907005,
-      "pctRank": 29.14012738853503,
+      "changeAbs": -0.039999961853027344,
+      "changePct": -0.252365683850654,
+      "pctRank": 28.18471337579618,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.88888800159123,
-      "ma20": 15.745499992370606,
-      "ma60": 16.926999934514363,
-      "chg1m": -2.8000001907348633,
-      "chg3m": -1.140000343322754,
-      "chg1mPct": -14.997322867128087,
-      "chg3mPct": -6.70194196345224,
+      "drawdown1y": -49.0821230013228,
+      "ma20": 15.742500019073486,
+      "ma60": 16.925999943415324,
+      "chg1m": -2.859999656677246,
+      "chg3m": -1.1999998092651367,
+      "chg1mPct": -15.318691189019884,
+      "chg3mPct": -7.054672505104484,
       "lastDate": "2026-08-25",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.58999633789062,
+      "current": 82.61000061035156,
       "prevClose": 85.01000213623047,
-      "changeAbs": -2.4200057983398438,
-      "changePct": -2.8467306640714223,
+      "changeAbs": -2.4000015258789062,
+      "changePct": -2.8231989949051512,
       "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.879151333012985,
-      "ma20": 82.47649917602538,
-      "ma60": 80.9543332417806,
-      "chg1m": -0.0200042724609375,
-      "chg3m": -11.300003051757812,
-      "chg1mPct": -0.0242153157161832,
-      "chg3mPct": -12.03536385687064,
+      "drawdown1y": -26.861440599943986,
+      "ma20": 82.47749938964844,
+      "ma60": 80.95466664632161,
+      "chg1m": 0.0,
+      "chg3m": -11.279998779296875,
+      "chg1mPct": 0.0,
+      "chg3mPct": -12.014057783176977,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.98500061035156,
+      "current": 99.02300262451172,
       "prevClose": 99.0,
-      "changeAbs": -0.0149993896484375,
-      "changePct": -0.015150898634785354,
-      "pctRank": 26.332537788385046,
+      "changeAbs": 0.02300262451171875,
+      "changePct": 0.023234974254261364,
+      "pctRank": 26.889419252187746,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.583407129448023,
-      "ma20": 99.63975067138672,
-      "ma60": 100.32475039164225,
-      "chg1m": -2.5250015258789062,
-      "chg3m": -0.18499755859375,
-      "chg1mPct": -2.4874411119509716,
-      "chg3mPct": -0.18654589292074955,
+      "drawdown1y": -2.5460072535186007,
+      "ma20": 99.64165077209472,
+      "ma60": 100.32538375854492,
+      "chg1m": -2.48699951171875,
+      "chg3m": -0.14699554443359375,
+      "chg1mPct": -2.4500043930460147,
+      "chg3mPct": -0.14822582146585622,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4690.5,
+      "current": 4696.2998046875,
       "prevClose": 4640.7998046875,
-      "changeAbs": 49.7001953125,
-      "changePct": 1.070940299176441,
+      "changeAbs": 55.5,
+      "changePct": 1.1959145478316369,
       "pctRank": 95.3062848050915,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.8061806910579,
-      "ma20": 4339.2049560546875,
-      "ma60": 4217.441666666667,
-      "chg1m": 616.0,
-      "chg3m": 190.10009765625,
-      "chg1mPct": 15.118419437967848,
-      "chg3mPct": 4.224071233253034,
+      "drawdown1y": -11.697129006453588,
+      "ma20": 4339.494946289063,
+      "ma60": 4217.538330078125,
+      "chg1m": 621.7998046875,
+      "chg3m": 195.89990234375,
+      "chg1mPct": 15.260763398883299,
+      "chg3mPct": 4.352944329274558,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "United Airlines adds 2027 flights spanning Sardinia to Okinawa. Here's what it says about travel today",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/united-airlines-2027-international-routes.html",
+      "datetime": 1787655601,
+      "headlineKo": "유나이티드 항공은 사르데냐에서 오키나와까지 2027편의 항공편을 추가합니다. 오늘의 여행에 대한 설명입니다."
+    },
+    {
+      "headline": "US prepares to send diplomats back to Middle East embassies after Iran war evacuations, NYT reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
+      "datetime": 1787651343,
+      "headlineKo": "미국이 이란 전쟁 피난 후 외교관을 중동 대사관으로 돌려보낼 준비를 하고 있다고 NYT가 보도했다. - 로이터"
+    },
+    {
+      "headline": "Iran vows to retaliate after US widens sanctions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5",
+      "datetime": 1787650404,
+      "headlineKo": "이란은 미국의 제재 확대 이후 보복하겠다고 약속했다. - 로이터"
+    },
+    {
       "headline": "BlackBerry CEO says robotics is one of its fastest-growing businesses",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/blackberry-qnx-robotics-physical-ai.html",
@@ -231,13 +252,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVRRRXpGLTQzSUFSbHE2c1c0RGxGTGRhOWpneHlwRTI5WlBDQWY1UWJBOWFITHFyZkxGQ2xGYzkxT1ZZLWtCM0ZRbVhncEUyeTM3aG05Y0gtekpwNE1vdjdkNjNUc1BiOUw1cDljM1gtX0p3Yi16elh6UTNYeGJlNXRiVlZRU0diWnlnVkVOVnVuY2JITnNKVHgzRnJGVzRsTW5jRXNB?oc=5",
       "datetime": 1787648935,
       "headlineKo": "이란 전쟁으로 인해 수십억 달러 규모의 탄자니아 LNG가 더욱 매력적이라고 ​​Equinor는 말했습니다 - Reuters"
-    },
-    {
-      "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
-      "datetime": 1787648121,
-      "headlineKo": "미국, 이란과 연계한 석유 거래업체 웰브레드 제재 - 로이터"
     },
     {
       "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
@@ -254,63 +268,49 @@ const MARKET_DATA = {
       "headlineKo": "거래자들이 더 많은 경제 데이터를 기다리면서 국채 수익률은 안정적으로 유지됩니다."
     },
     {
-      "headline": "Iran vows to retaliate after US widens sanctions - Reuters",
+      "headline": "European shares climb on Iran sanctions relief, defence gains - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5",
-      "datetime": 1787638607,
-      "headlineKo": "이란은 미국의 제재 확대 이후 보복하겠다고 약속했다. - 로이터"
-    },
-    {
-      "headline": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHhjc21qOU4yNWN3Mm9RUFl3X0txd1FlVVd2Y3FZalhRRHJXYkxLMzNOVGV6dXlCaVpzdUlPVGRuN2ZrMWlqNkgyWHlYSFhrMkxqY2liXzRKOXNZeVI5NmtXZm94ZnBncmNkWnUzNVJWbGh2OEQwZXFKdDhWeW5CSV9uZ1c4OGpTZ1pJekVKZFVxNzBQVlBuM0hER1czeU9OUmNUUTVsdnZwa0Q5Rld1dmJjVnJoZWI2QjdiMjg2Ylk?oc=5",
-      "datetime": 1787632168,
-      "headlineKo": "파키스탄과 이란은 갈등에 관한 회담에서 '상당한 진전' 을 이뤘다고 장관은 말합니다. - 로이터 통신"
-    },
-    {
-      "headline": "Dollar inches up as markets weigh Iran sanctions, Treasury buybacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORld4THVaUUFJWlFtRmRFeTI5SlliZ2ladnZNa2htLS1yeXBwcGY2UjFSVE5heHlycC11ay1KR0pLRTJKVGk4bUp2cVVwcXZsUE5kR0JCM0hTRGlRZk5WT1pDWnhfd0JKcjFkbUhlNHVRd3lpWkV4bmtDUG9CSGJCWFhuTFFfY04yb2FIOGtNYkxhS1N0SlJVaXhFTVN1ak51Z1lvaDVSaEVsb2J0UEFjM2w4THk1SzdY?oc=5",
-      "datetime": 1787621460,
-      "headlineKo": "시장이 이란 제재와 국채 환매를 고려하면서 달러는 소폭 상승했습니다 - Reuters"
-    },
-    {
-      "headline": "Shares drift ahead of Nvidia earnings; oil wobbles - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPREVmalQ3MXdwbVJUT3l4bktkT2xBLTVycVpRVkdzSUxPZ3lYdGZjTXpVWU5OckdENlF0R05kSm1CMUdPUDJwcXVxLWJaZ2VESzE1QTloUzdhTzZtMF9NM0FERmp3NWRJR3JudVN5UUttekdhTnV0UUExUFR2U0ZaS0J5TQ?oc=5",
-      "datetime": 1787621160,
-      "headlineKo": "주식은 엔비디아 수익보다 앞서고, 석유는 흔들린다 - 로이터"
-    },
-    {
-      "headline": "Oil hits one-week low as investors shrug off latest US sanctions on Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
-      "datetime": 1787620560,
-      "headlineKo": "투자자들이 최근 미국의 이란 제재를 무시하면서 유가가 일주일 최저치 기록 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYV9RU3NQS3FlMnJsNy1fRTVxZVJOX0htaElRYmMyRE5jazNycV9lbU9DN0dWaEZ4eUZQcW5sbll6YUlpaDk2ZE9wc1dRTERkM1JhYjFOWW1XcENBVXhTeXNvWjZZZ1hpTUlnbDF4VkJmUXRYNXNBTWM1a0NweVJUVXZfV3pxeS1IbUhVZVNaaU5hZEg2TjRDeXZwNUhudjVFVjBlVWxDcVBEX052?oc=5",
+      "datetime": 1787643224,
+      "headlineKo": "유럽 증시, 이란 제재 완화, 방위 이익 상승 - 로이터"
     },
     {
       "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
-      "datetime": 1787618594,
+      "datetime": 1787629885,
       "headlineKo": "Bessent의 D-Day 제재는 Anzio에 가깝지만 이란의 대응이 핵심입니다 - Reuters"
     },
     {
-      "headline": "Los Angeles Lakers worth 'every bit' of $12.5 billion price tag: 76ers and Commanders owner Josh Harris",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/los-angeles-lakers-worth-every-bit-of-12point5-billion-price-tag-76ers-and-commanders-owner-josh-harris.html",
-      "datetime": 1787611876,
-      "headlineKo": "$ 125억 가격표의 '모든 비트' 가치가 있는 로스앤젤레스 레이커스: 76ers and Commanders 소유주 Josh Harris"
+      "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
+      "datetime": 1787629200,
+      "headlineKo": "미국, 이란과 연계한 석유 거래업체 웰브레드 제재 - 로이터"
+    },
+    {
+      "headline": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHhjc21qOU4yNWN3Mm9RUFl3X0txd1FlVVd2Y3FZalhRRHJXYkxLMzNOVGV6dXlCaVpzdUlPVGRuN2ZrMWlqNkgyWHlYSFhrMkxqY2liXzRKOXNZeVI5NmtXZm94ZnBncmNkWnUzNVJWbGh2OEQwZXFKdDhWeW5CSV9uZ1c4OGpTZ1pJekVKZFVxNzBQVlBuM0hER1czeU9OUmNUUTVsdnZwa0Q5Rld1dmJjVnJoZWI2QjdiMjg2Ylk?oc=5",
+      "datetime": 1787629140,
+      "headlineKo": "파키스탄과 이란은 갈등에 관한 회담에서 '상당한 진전' 을 이뤘다고 장관은 말합니다. - 로이터 통신"
+    },
+    {
+      "headline": "Gold slips on profit-taking after rally to over three-month peak - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQa19NSUEzV2xqY0JpOW5BRUlWc1VQNHNxdFk1cjk2ZldBQnotS0VtRmo4MWRSdjdDMEhya0JXeURjRFVoRkpyeDVLSGxTcExWM0YxaDh4dFl5OGF6MmN3eU4zd0poVXRBMnlQRFFkUy1qQmNwck9nV01hd2RNSXlaR3lJMzFYRWt3TDFGVnJENVZEVXZDR1puXzV0dGtSdW8zZGFmYXFn?oc=5",
+      "datetime": 1787623800,
+      "headlineKo": "금은 랠리 후 수익에 미끄러져 3개월 넘게 정점을 찍음 - 로이터"
     }
   ],
   "fgi": {
     "score": 54.6285714285714,
     "rating": "neutral"
   },
-  "_fetched_at": 1787652995.1880865,
-  "_updated_label": "2026-08-25 19:17",
-  "_last_attempt_at": 1787652995.1880865,
-  "_last_success_at": 1787652995.1880865,
+  "_fetched_at": 1787656926.9626741,
+  "_updated_label": "2026-08-25 20:22",
+  "_last_attempt_at": 1787656926.9626741,
+  "_last_success_at": 1787656926.9626741,
   "_collection_status": "ok",
   "_collection_errors": []
 };
