@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.51000213623047,
+      "current": 81.11000061035156,
       "prevClose": 85.01000213623047,
-      "changeAbs": -4.5,
-      "changePct": -5.293494749933834,
-      "pctRank": 63.32537788385044,
+      "changeAbs": -3.9000015258789062,
+      "changePct": -4.587697244883096,
+      "pctRank": 65.63245823389022,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.720669046920744,
-      "ma20": 82.37249946594238,
-      "ma60": 80.91966667175294,
-      "chg1m": -2.0999984741210938,
-      "chg3m": -13.379997253417969,
-      "chg1mPct": -2.542063259418437,
-      "chg3mPct": -14.250716093723973,
+      "drawdown1y": -28.189461884165322,
+      "ma20": 82.40249938964844,
+      "ma60": 80.92966664632162,
+      "chg1m": -1.5,
+      "chg3m": -12.779998779296875,
+      "chg1mPct": -1.8157607903613069,
+      "chg3mPct": -13.611672022980006,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.87999725341797,
+      "current": 98.91200256347656,
       "prevClose": 99.0,
-      "changeAbs": -0.12000274658203125,
-      "changePct": -0.1212148955374053,
-      "pctRank": 24.98011137629276,
+      "changeAbs": -0.0879974365234375,
+      "changePct": -0.08888629951862374,
+      "pctRank": 25.45743834526651,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6867467183692484,
-      "ma20": 99.63450050354004,
-      "ma60": 100.32300033569337,
-      "chg1m": -2.6300048828125,
-      "chg3m": -0.29000091552734375,
-      "chg1mPct": -2.590882501689763,
-      "chg3mPct": -0.29242807389519176,
+      "drawdown1y": -2.655248529346177,
+      "ma20": 99.63610076904297,
+      "ma60": 100.32353375752767,
+      "chg1m": -2.5979995727539062,
+      "chg3m": -0.25799560546875,
+      "chg1mPct": -2.559353283499381,
+      "chg3mPct": -0.2601548958680331,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4721.2998046875,
+      "current": 4715.89990234375,
       "prevClose": 4640.7998046875,
-      "changeAbs": 80.5,
-      "changePct": 1.7346147946026444,
-      "pctRank": 95.86316626889419,
+      "changeAbs": 75.10009765625,
+      "changePct": 1.6182576455979456,
+      "pctRank": 95.70405727923628,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.227062812503352,
-      "ma20": 4340.744946289063,
-      "ma60": 4217.954996744792,
-      "chg1m": 646.7998046875,
-      "chg3m": 220.89990234375,
-      "chg1mPct": 15.874335616333294,
-      "chg3mPct": 4.908450518557433,
+      "drawdown1y": -11.328595274200538,
+      "ma20": 4340.474951171875,
+      "ma60": 4217.864998372396,
+      "chg1m": 641.39990234375,
+      "chg3m": 215.5,
+      "chg1mPct": 15.741806414130568,
+      "chg3mPct": 4.788463351618383,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "2 of our software stocks face major tests of whether their rallies are for real",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
+      "datetime": 1787689632,
+      "headlineKo": "우리의 소프트웨어 주식 중 2 개는 그들의 집회가 진짜인지 여부에 대한 주요 테스트에 직면 해 있습니다."
+    },
+    {
+      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "datetime": 1787689630,
+      "headlineKo": "이란 전쟁이 시작된 지 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 유입됩니다. - 로이터"
+    },
+    {
+      "headline": "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+      "datetime": 1787688311,
+      "headlineKo": "설명자: 채권 시장이 미국에 대한 기대치를 재설정하는 이유 - 로이터"
+    },
+    {
       "headline": "Kalshi traders see low likelihood of major crypto bill becoming law this year",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/kalshi-traders-see-low-likelihood-of-major-crypto-bill-becoming-law-this-year.html",
@@ -226,11 +247,25 @@ const MARKET_DATA = {
       "headlineKo": "칼시 거래자들은 올해 주요 암호화폐 청구서가 법이 될 가능성이 낮다고 보고 있습니다."
     },
     {
+      "headline": "U.S. Secret Service aware of Iranian video threat against Barron Trump - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkJKLVFhNWZCTm9nbWRDa0FEZklXZzJIa1pDQmF6aFFndlBpVHRMWnBsS2kzaGhjWXd2ZFBfN1A2czRPY2xmZ0lzVm12OHU2dXBWa3lvclpHZENUMFlEN1JMUW9kM3VMbmtnNTRNUmlzY1daSVJ0MjUzV2x2d2ZENS1VdklOZWtON3NRN2ZaRHdmeFR1Q2tDTWJVblFHNEE1YlBHZ3NaRkdPSkRIWWcwT0Rnd094UmNHTWZUVnQyZ1RFZw?oc=5",
+      "datetime": 1787687424,
+      "headlineKo": "Barron Trump에 대한 이란의 비디오 위협에 대한 미국 비밀 요원 인식 - Reuters"
+    },
+    {
       "headline": "Bond rout ending? Massive bets on bond rally dominate options market",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
       "datetime": 1787686937,
       "headlineKo": "채권 루트 종료? 채권 랠리에 대한 대규모 베팅이 옵션 시장을 지배합니다"
+    },
+    {
+      "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjQyS1RmdG5WZnRTRFNaQ0o2WXM0MVY4VHdvZzQwZTZjS1hVX2ZTdC1ORzh5U2pfTEZQeG5mWF93aGZsNGxOcXluSGtBRnhiYnNGRXNGaVE1cWhMbmprTXk1ODQxQjFWMlM0czJFa3pqWjhZZVh3bXlBMVVGVTRpTFlBRHQxcGpmOXIyRXN3Tjc1VVFUUVE?oc=5",
+      "datetime": 1787685390,
+      "headlineKo": "미 스파이 최고 책임자가 회의, 언론 보도를 위해 러시아를 방문하다 - 로이터"
     },
     {
       "headline": "OpenAI says its Broadcom custom chip is a winner. What does that mean for Nvidia?",
@@ -254,13 +289,6 @@ const MARKET_DATA = {
       "headlineKo": "미국이 이란 전쟁으로 대피한 후 직원들을 중동 대사관으로 돌려보내기 시작했다고 소식통들이 전하고 있다. - 로이터"
     },
     {
-      "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjQyS1RmdG5WZnRTRFNaQ0o2WXM0MVY4VHdvZzQwZTZjS1hVX2ZTdC1ORzh5U2pfTEZQeG5mWF93aGZsNGxOcXluSGtBRnhiYnNGRXNGaVE1cWhMbmprTXk1ODQxQjFWMlM0czJFa3pqWjhZZVh3bXlBMVVGVTRpTFlBRHQxcGpmOXIyRXN3Tjc1VVFUUVE?oc=5",
-      "datetime": 1787675867,
-      "headlineKo": "미 스파이 최고 책임자가 회의, 언론 보도를 위해 러시아를 방문하다 - 로이터"
-    },
-    {
       "headline": "We're trimming our position in an AI stock to protect our profits",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/were-trimming-our-position-in-an-ai-stock-to-protect-our-profits-.html",
@@ -273,44 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHZhOEZodlIwT1prS0U3TnlSaVdzcnJwMkcwOElIUXBfOVB6aWljYllncXJCMDhiQlhxRDRCX3pOblVnNWp1Ny1qRTlWZHBzZ3NLNnBzWTVRSnZjamdWTWdONkJ0TFRHZTA2Qmtpaks1N3gtcDhKTzFEYi0wdkFZOFNYVVFCNWtZZWZPd0ZYWFN4OUJFQWFZWVhiR0Y4SVBIcUxudTB6M2JSRVU?oc=5",
       "datetime": 1787671274,
       "headlineKo": "이라크는 미국이 이란의 무역 파트너를 어떻게 압박할 수 있는지 보여줄 수 있다. - 로이터"
-    },
-    {
-      "headline": "Trump says Strait of Hormuz has been demined, warns Iran not to plant more - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT20tcldmTnJoUWpfYlFMcnhIamdoZG5aenFWZDlLaGJFOG9mUVZQOENaU3hTNTlJOGpEUkg1QW9qVi1qUENRRGxLU3V2QW50cEs3YlE2LU1EZHhidlhheXpBeXBiX3FrT1dFeTFmQmo2cGpIdExvUUlET1d1eHJqc09lYVlvNjFPbEtmS0FaQ0xfYWlCdVl6WXQ3UjBMUUxZbWVNS0VXVTRfbzFwekE?oc=5",
-      "datetime": 1787670343,
-      "headlineKo": "트럼프는 호르무즈 해협이 폐허가 되었다고 말하며, 이란에 더 이상 식물을 심지 말라고 경고한다. - 로이터"
-    },
-    {
-      "headline": "Kenya Airways first-half pretax loss 15.92 billion shillings - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ1ZSMklueS1HV1psREVXanQ3SGhFa29LQzNfcE1iZGFVVXhqZGVnNXBWWjYtekNBZG5OYUdRc3VTenFSQlNyOW1URGxiand3MzM5T3hOemZRbnotekN0dU5rY0JSMHhOREl1VVVlQ0xrdjc5X1h6U0NiUE55d0I0b1dPV2lhdXBMTVE3ckVXcF94U3hMcUVKNnhmbUZnRi1wNHl4N1ZkU2ZEQzQ?oc=5",
-      "datetime": 1787663150,
-      "headlineKo": "케냐항공 상반기 세전 손실 159억 2천만 실링 - 로이터"
-    },
-    {
-      "headline": "To cram more AI skills onto LinkedIn profiles, more job seekers are turning to 'time travel,' say researchers",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/job-seekers-are-adding-ai-skills-on-linkedin-to-roles-they-held-pre-chatgpt-researchers.html",
-      "datetime": 1787662817,
-      "headlineKo": "연구원들은 더 많은 AI 기술을 LinkedIn 프로필에 적용하기 위해 더 많은 구직자들이 '시간 여행' 으로 전환하고 있다고 말합니다."
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/jim-cramers-top-10-things-to-watch-in-the-stock-market-tuesday.html",
-      "datetime": 1787662741,
-      "headlineKo": "짐 크레이머가 화요일 주식 시장에서 지켜봐야 할 10가지"
     }
   ],
   "fgi": {
     "score": 58.8,
     "rating": "greed"
   },
-  "_fetched_at": 1787690163.0401826,
-  "_updated_label": "2026-08-26 05:36",
-  "_last_attempt_at": 1787690163.0401826,
-  "_last_success_at": 1787690163.0401826,
+  "_fetched_at": 1787693829.451423,
+  "_updated_label": "2026-08-26 06:37",
+  "_last_attempt_at": 1787693829.451423,
+  "_last_success_at": 1787693829.451423,
   "_collection_status": "ok",
   "_collection_errors": []
 };
