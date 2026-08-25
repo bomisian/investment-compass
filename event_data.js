@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787688007.9951365,
+  "generatedAt": 1787690162.9455278,
   "events": [
     {
       "id": "73b09843491ea1cd4404",
@@ -1273,7 +1273,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000545/tsm-monthend6kx20260825.htm",
         "publishedAt": 1787583600.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "TSM가 2026-08-25에 SEC Form 6-K을 제출했습니다.",
@@ -11039,7 +11039,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm",
         "publishedAt": 1787238000.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "MOD가 2026-08-21에 SEC Form 8-K을 제출했습니다."
@@ -13361,7 +13361,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
         "publishedAt": 1787151600.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "AMAT가 2026-08-20에 SEC Form 10-Q을 제출했습니다."
@@ -15015,7 +15015,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "AMD가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -15079,7 +15079,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "MRVL가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -15813,7 +15813,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
         "publishedAt": 1786978800.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "AMZN가 2026-08-18에 SEC Form 424B3을 제출했습니다.",
@@ -16239,7 +16239,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -16304,7 +16304,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -16369,7 +16369,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "SNDK가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -16432,7 +16432,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787667873.3191955
+        "collectedAt": 1787690153.1028075
       },
       "confirmedFacts": [
         "LITE가 2026-08-17에 SEC Form 10-K을 제출했습니다."
