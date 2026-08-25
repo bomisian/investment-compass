@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 81.04000091552734,
+      "current": 81.01000213623047,
       "prevClose": 85.01000213623047,
-      "changeAbs": -3.970001220703125,
-      "changePct": -4.670040137560645,
-      "pctRank": 65.47334924423231,
+      "changeAbs": -4.0,
+      "changePct": -4.705328666607852,
+      "pctRank": 65.23468575974543,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.251435940575696,
-      "ma20": 82.39899940490723,
-      "ma60": 80.92849998474121,
-      "chg1m": -1.5699996948242188,
-      "chg3m": -12.849998474121094,
-      "chg1mPct": -1.9004959244940227,
-      "chg3mPct": -13.686227029135365,
+      "drawdown1y": -28.277995285513637,
+      "ma20": 82.39749946594239,
+      "ma60": 80.92800000508626,
+      "chg1m": -1.5999984741210938,
+      "chg3m": -12.879997253417969,
+      "chg1mPct": -1.936809662631335,
+      "chg3mPct": -13.718178013789629,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4723.7998046875,
+      "current": 4717.89990234375,
       "prevClose": 4640.7998046875,
-      "changeAbs": 83.0,
-      "changePct": 1.788484819279745,
-      "pctRank": 95.94272076372316,
+      "changeAbs": 77.10009765625,
+      "changePct": 1.6613536653396261,
+      "pctRank": 95.70405727923628,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.180056193108335,
-      "ma20": 4340.869946289063,
-      "ma60": 4217.996663411458,
-      "chg1m": 649.2998046875,
-      "chg3m": 223.39990234375,
-      "chg1mPct": 15.93569283807829,
-      "chg3mPct": 4.96400113748572,
+      "drawdown1y": -11.290989978684518,
+      "ma20": 4340.574951171875,
+      "ma60": 4217.898331705729,
+      "chg1m": 643.39990234375,
+      "chg3m": 217.5,
+      "chg1mPct": 15.790892191526568,
+      "chg3mPct": 4.832903846761013,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,25 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Why the bond market may be resetting expectations about the US - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+      "datetime": 1787693342,
+      "headlineKo": "채권 시장이 미국에 대한 기대치를 재설정할 수 있는 이유 - 로이터"
+    },
+    {
       "headline": "2 of our software stocks face major tests of whether their rallies are for real",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
       "datetime": 1787689632,
       "headlineKo": "우리의 소프트웨어 주식 중 2 개는 그들의 집회가 진짜인지 여부에 대한 주요 테스트에 직면 해 있습니다."
-    },
-    {
-      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
-      "datetime": 1787689630,
-      "headlineKo": "이란 전쟁이 시작된 지 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 유입됩니다. - 로이터"
-    },
-    {
-      "headline": "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
-      "datetime": 1787688311,
-      "headlineKo": "설명자: 채권 시장이 미국에 대한 기대치를 재설정하는 이유 - 로이터"
     },
     {
       "headline": "Kalshi traders see low likelihood of major crypto bill becoming law this year",
@@ -259,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
       "datetime": 1787686937,
       "headlineKo": "채권 루트 종료? 채권 랠리에 대한 대규모 베팅이 옵션 시장을 지배합니다"
+    },
+    {
+      "headline": "Syria's Kurdish-led SDF dissolves as part of integration with Damascus - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDhnT2QxNFlGZ3MzTE56cmZZNzQ0XzhxUmZRVURPb3h6Z3BDNW5LdlhLLW5SeGVCZ0tFS054U0UyV0I2UTl6VDJEeXFCQ0Q5d253RkN6dlNDbHFZUDBBdGxpczJTYkEyenVTWHNYSEZWZ2d2OGRQTTNraXhQenlnVGFyVjhDUFFsR2Y5d1IzUEZ2UmFkSVF0YUZ1LUtMLUlsU2RDeERJSTRtbnRLanJPQlF0b3o0aTZi?oc=5",
+      "datetime": 1787685584,
+      "headlineKo": "시리아의 쿠르드족 주도의 자위대가 다마스쿠스와의 통합의 일환으로 해체 - 로이터"
     },
     {
       "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 58.8,
     "rating": "greed"
   },
-  "_fetched_at": 1787697473.4218655,
-  "_updated_label": "2026-08-26 07:38",
-  "_last_attempt_at": 1787697473.4218655,
-  "_last_success_at": 1787697473.4218655,
+  "_fetched_at": 1787701465.8283908,
+  "_updated_label": "2026-08-26 08:44",
+  "_last_attempt_at": 1787701465.8283908,
+  "_last_success_at": 1787701465.8283908,
   "_collection_status": "ok",
   "_collection_errors": []
 };
