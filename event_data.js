@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1787666408.9143887,
+  "generatedAt": 1787667886.917336,
   "events": [
     {
       "id": "671e968e1652cf9749eb",
@@ -888,6 +888,70 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "375f36acf0e374440d57",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "TSM",
+      "relatedTickers": [
+        "TSM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "TSM SEC Form 6-K filed",
+      "headlineKo": "TSM SEC Form 6-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000545/tsm-monthend6kx20260825.htm",
+        "publishedAt": 1787583600.0,
+        "collectedAt": 1787667873.3191955
+      },
+      "confirmedFacts": [
+        "TSM가 2026-08-25에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 인수·매각"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "TSM",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "3e002d4bd4bee383e3e2",
@@ -11048,7 +11112,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm",
         "publishedAt": 1787238000.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "MOD가 2026-08-21에 SEC Form 8-K을 제출했습니다."
@@ -13370,7 +13434,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
         "publishedAt": 1787151600.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "AMAT가 2026-08-20에 SEC Form 10-Q을 제출했습니다."
@@ -15024,7 +15088,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "AMD가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -15088,7 +15152,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "MRVL가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -15822,7 +15886,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
         "publishedAt": 1786978800.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "AMZN가 2026-08-18에 SEC Form 424B3을 제출했습니다.",
@@ -16248,7 +16312,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -16313,7 +16377,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
@@ -16378,7 +16442,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "SNDK가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -16441,7 +16505,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1787645694.4453373
+        "collectedAt": 1787667873.3191955
       },
       "confirmedFacts": [
         "LITE가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -17491,76 +17555,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "dfe4c36459f819b1d982",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "CRM",
-      "relatedTickers": [
-        "CRM",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "low",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration",
-      "headlineKo": "CRM 주가 3주 연속 상승세: JPMorgan, Salesforce에서 강세 전환, H2 핵심 비즈니스 가속화 확인",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4d5038ea91b60f6de7dd1b9291282eef64d79dea197034ec7501d9578ec54779",
-        "publishedAt": 1786685229,
-        "collectedAt": 1787656633.6141074
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration New Connect your Agent Trending News Earnings All DIA 0.31% SPY 0.35% QQQ 0.23% Trending MRNA 161.26% BTC 7.20% SLS 7.98% B",
-        "CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration JPMorgan resumed coverage of Salesforce with an ‘Overweight’ rating and $250 price target, implying an upside of more than ",
-        "The Salesforce logo and lettering can be seen on the facade of the company's Munich headquarters on June 24, 2025, in Munich (Bavaria)."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 CRM의 사업과 관련된 'CRM Stock On Track For Third Week Of Gains: JPMorgan Turns Bullish On Salesforce, Sees H2 Core Business Acceleration' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CRM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
     }
   ],
   "byTicker": {
@@ -17614,8 +17608,7 @@ const EVENT_DATA = {
       "8cfc515781ecea050236",
       "0a8e1651fa4f0399016b",
       "fbbbd8f3a2720314cec8",
-      "36698686cfafd0052758",
-      "dfe4c36459f819b1d982"
+      "36698686cfafd0052758"
     ],
     "FIX": [
       "ec2be997df85cf7de347",
@@ -17923,6 +17916,15 @@ const EVENT_DATA = {
       "936d88911278db315ec0",
       "59198ef30c9489edce5c"
     ],
+    "TSM": [
+      "375f36acf0e374440d57",
+      "993b64250ade9b6d8981",
+      "4aa211b84fb6dff20dc4",
+      "9413195d1932dbcfbc8e",
+      "e84755db67438624264d",
+      "f1cc1da7ac46289240c2",
+      "b33a3085aa987ce766de"
+    ],
     "TSLA": [
       "3e002d4bd4bee383e3e2",
       "0dd95fd7ab7e7dd009c0",
@@ -17944,8 +17946,7 @@ const EVENT_DATA = {
       "0adb305fd30d06727560",
       "bf47510c1836dd374476",
       "55fc1d70554151e26426",
-      "5b072cd7ef9564c89254",
-      "dfe4c36459f819b1d982"
+      "5b072cd7ef9564c89254"
     ],
     "SPY": [
       "6ba70432cdbbc8dfb818",
@@ -17992,8 +17993,7 @@ const EVENT_DATA = {
       "e84755db67438624264d",
       "0a8e1651fa4f0399016b",
       "fbbbd8f3a2720314cec8",
-      "36698686cfafd0052758",
-      "dfe4c36459f819b1d982"
+      "36698686cfafd0052758"
     ],
     "MSFT": [
       "0b1a1e816c0c815b0943",
@@ -18046,14 +18046,6 @@ const EVENT_DATA = {
       "36698686cfafd0052758",
       "3507ad90e1f4ec168451",
       "59198ef30c9489edce5c"
-    ],
-    "TSM": [
-      "993b64250ade9b6d8981",
-      "4aa211b84fb6dff20dc4",
-      "9413195d1932dbcfbc8e",
-      "e84755db67438624264d",
-      "f1cc1da7ac46289240c2",
-      "b33a3085aa987ce766de"
     ],
     "META": [
       "66ddda975052640de7e1",
