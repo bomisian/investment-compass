@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.779999732971191,
+      "current": 15.869999885559082,
       "prevClose": 15.850000381469727,
-      "changeAbs": -0.07000064849853516,
-      "changePct": -0.44164445939302993,
-      "pctRank": 27.78662420382166,
+      "changeAbs": 0.01999950408935547,
+      "changePct": 0.12617983348907005,
+      "pctRank": 29.14012738853503,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.17874357260352,
-      "ma20": 15.740999984741212,
-      "ma60": 16.92549993197123,
-      "chg1m": -2.890000343322754,
-      "chg3m": -1.2300004959106445,
-      "chg1mPct": -15.47938045802316,
-      "chg3mPct": -7.231043382481479,
+      "drawdown1y": -48.88888800159123,
+      "ma20": 15.745499992370606,
+      "ma60": 16.926999934514363,
+      "chg1m": -2.8000001907348633,
+      "chg3m": -1.140000343322754,
+      "chg1mPct": -14.997322867128087,
+      "chg3mPct": -6.70194196345224,
       "lastDate": "2026-08-25",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 82.9000015258789,
+      "current": 82.58999633789062,
       "prevClose": 85.01000213623047,
-      "changeAbs": -2.1100006103515625,
-      "changePct": -2.482061589611818,
-      "pctRank": 71.1217183770883,
+      "changeAbs": -2.4200057983398438,
+      "changePct": -2.8467306640714223,
+      "pctRank": 69.68973747016707,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -26.604689007768002,
-      "ma20": 82.4919994354248,
-      "ma60": 80.95949999491374,
-      "chg1m": 0.29000091552734375,
-      "chg3m": -10.989997863769531,
-      "chg1mPct": 0.35104819438895485,
-      "chg3mPct": -11.705184721708711,
+      "drawdown1y": -26.879151333012985,
+      "ma20": 82.47649917602538,
+      "ma60": 80.9543332417806,
+      "chg1m": -0.0200042724609375,
+      "chg3m": -11.300003051757812,
+      "chg1mPct": -0.0242153157161832,
+      "chg3mPct": -12.03536385687064,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4681.89990234375,
+      "current": 4690.5,
       "prevClose": 4640.7998046875,
-      "changeAbs": 41.10009765625,
-      "changePct": 0.8856253099893754,
-      "pctRank": 95.22673031026252,
+      "changeAbs": 49.7001953125,
+      "changePct": 1.070940299176441,
+      "pctRank": 95.3062848050915,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.967885297972847,
-      "ma20": 4338.774951171875,
-      "ma60": 4217.298331705729,
-      "chg1m": 607.39990234375,
-      "chg3m": 181.5,
-      "chg1mPct": 14.907348198398576,
-      "chg3mPct": 4.032974934193674,
+      "drawdown1y": -11.8061806910579,
+      "ma20": 4339.2049560546875,
+      "ma60": 4217.441666666667,
+      "chg1m": 616.0,
+      "chg3m": 190.10009765625,
+      "chg1mPct": 15.118419437967848,
+      "chg3mPct": 4.224071233253034,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "BlackBerry CEO says robotics is one of its fastest-growing businesses",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/blackberry-qnx-robotics-physical-ai.html",
+      "datetime": 1787649965,
+      "headlineKo": "BlackBerry CEO는 로봇 공학이 가장 빠르게 성장하는 사업 중 하나라고 말합니다."
+    },
+    {
+      "headline": "Iran war makes multibillion-dollar Tanzania LNG more attractive, Equinor says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVRRRXpGLTQzSUFSbHE2c1c0RGxGTGRhOWpneHlwRTI5WlBDQWY1UWJBOWFITHFyZkxGQ2xGYzkxT1ZZLWtCM0ZRbVhncEUyeTM3aG05Y0gtekpwNE1vdjdkNjNUc1BiOUw1cDljM1gtX0p3Yi16elh6UTNYeGJlNXRiVlZRU0diWnlnVkVOVnVuY2JITnNKVHgzRnJGVzRsTW5jRXNB?oc=5",
+      "datetime": 1787648935,
+      "headlineKo": "이란 전쟁으로 인해 수십억 달러 규모의 탄자니아 LNG가 더욱 매력적이라고 ​​Equinor는 말했습니다 - Reuters"
+    },
+    {
+      "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
+      "datetime": 1787648121,
+      "headlineKo": "미국, 이란과 연계한 석유 거래업체 웰브레드 제재 - 로이터"
+    },
+    {
+      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "datetime": 1787644252,
+      "headlineKo": "이란 전쟁 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 흘러나온다 - 로이터"
+    },
+    {
       "headline": "Treasury yields steady as traders await more economic data",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/treasury-yields-steady-as-traders-await-more-economic-data-.html",
@@ -233,17 +261,10 @@ const MARKET_DATA = {
       "headlineKo": "이란은 미국의 제재 확대 이후 보복하겠다고 약속했다. - 로이터"
     },
     {
-      "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
-      "datetime": 1787629200,
-      "headlineKo": "미국, 이란과 연계한 석유 거래업체 웰브레드 제재 - 로이터"
-    },
-    {
       "headline": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUHhjc21qOU4yNWN3Mm9RUFl3X0txd1FlVVd2Y3FZalhRRHJXYkxLMzNOVGV6dXlCaVpzdUlPVGRuN2ZrMWlqNkgyWHlYSFhrMkxqY2liXzRKOXNZeVI5NmtXZm94ZnBncmNkWnUzNVJWbGh2OEQwZXFKdDhWeW5CSV9uZ1c4OGpTZ1pJekVKZFVxNzBQVlBuM0hER1czeU9OUmNUUTVsdnZwa0Q5Rld1dmJjVnJoZWI2QjdiMjg2Ylk?oc=5",
-      "datetime": 1787629140,
+      "datetime": 1787632168,
       "headlineKo": "파키스탄과 이란은 갈등에 관한 회담에서 '상당한 진전' 을 이뤘다고 장관은 말합니다. - 로이터 통신"
     },
     {
@@ -275,42 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "Bessent의 D-Day 제재는 Anzio에 가깝지만 이란의 대응이 핵심입니다 - Reuters"
     },
     {
-      "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
-      "datetime": 1787617980,
-      "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
-    },
-    {
-      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
-      "datetime": 1787617278,
-      "headlineKo": "이란 전쟁 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 흘러나온다 - 로이터"
-    },
-    {
       "headline": "Los Angeles Lakers worth 'every bit' of $12.5 billion price tag: 76ers and Commanders owner Josh Harris",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/24/los-angeles-lakers-worth-every-bit-of-12point5-billion-price-tag-76ers-and-commanders-owner-josh-harris.html",
       "datetime": 1787611876,
       "headlineKo": "$ 125억 가격표의 '모든 비트' 가치가 있는 로스앤젤레스 레이커스: 76ers and Commanders 소유주 Josh Harris"
-    },
-    {
-      "headline": "Here's what Jim Cramer says stock investors need to know about the bond market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
-      "datetime": 1787611201,
-      "headlineKo": "다음은 Jim Cramer가 주식 투자자가 채권 시장에 대해 알아야 할 사항입니다."
     }
   ],
   "fgi": {
     "score": 54.6285714285714,
     "rating": "neutral"
   },
-  "_fetched_at": 1787649353.3112745,
-  "_updated_label": "2026-08-25 18:16",
-  "_last_attempt_at": 1787649353.3112745,
-  "_last_success_at": 1787649353.3112745,
+  "_fetched_at": 1787652995.1880865,
+  "_updated_label": "2026-08-25 19:17",
+  "_last_attempt_at": 1787652995.1880865,
+  "_last_success_at": 1787652995.1880865,
   "_collection_status": "ok",
   "_collection_errors": []
 };
