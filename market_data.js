@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.800000190734863,
+      "current": 15.779999732971191,
       "prevClose": 15.850000381469727,
-      "changeAbs": -0.05000019073486328,
-      "changePct": -0.315458609031446,
-      "pctRank": 28.105095541401276,
+      "changeAbs": -0.07000064849853516,
+      "changePct": -0.44164445939302993,
+      "pctRank": 27.78662420382166,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.11432985841637,
-      "ma20": 15.742000007629395,
-      "ma60": 16.92583327293396,
-      "chg1m": -2.869999885559082,
-      "chg3m": -1.2100000381469727,
-      "chg1mPct": -15.372254278687642,
-      "chg3mPct": -7.113462797563483,
+      "drawdown1y": -49.17874357260352,
+      "ma20": 15.740999984741212,
+      "ma60": 16.92549993197123,
+      "chg1m": -2.890000343322754,
+      "chg3m": -1.2300004959106445,
+      "chg1mPct": -15.47938045802316,
+      "chg3mPct": -7.231043382481479,
       "lastDate": "2026-08-25",
       "bars": 1256,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 84.55000305175781,
+      "current": 82.9000015258789,
       "prevClose": 85.01000213623047,
-      "changeAbs": -0.45999908447265625,
-      "changePct": -0.5411117196956391,
-      "pctRank": 74.5425616547335,
+      "changeAbs": -2.1100006103515625,
+      "changePct": -2.482061589611818,
+      "pctRank": 71.1217183770883,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -25.143864244191427,
-      "ma20": 82.57449951171876,
-      "ma60": 80.98700002034505,
-      "chg1m": 1.94000244140625,
-      "chg3m": -9.339996337890625,
-      "chg1mPct": 2.348386910873785,
-      "chg3mPct": -9.947807432748135,
+      "drawdown1y": -26.604689007768002,
+      "ma20": 82.4919994354248,
+      "ma60": 80.95949999491374,
+      "chg1m": 0.29000091552734375,
+      "chg3m": -10.989997863769531,
+      "chg1mPct": 0.35104819438895485,
+      "chg3mPct": -11.705184721708711,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.072998046875,
+      "current": 98.98500061035156,
       "prevClose": 99.0,
-      "changeAbs": 0.072998046875,
-      "changePct": 0.07373540088383838,
-      "pctRank": 27.3667462211615,
+      "changeAbs": -0.0149993896484375,
+      "changePct": -0.015150898634785354,
+      "pctRank": 26.332537788385046,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.496804003776476,
-      "ma20": 99.64415054321289,
-      "ma60": 100.3262170155843,
-      "chg1m": -2.4370040893554688,
-      "chg3m": -0.0970001220703125,
-      "chg1mPct": -2.400752672711909,
-      "chg3mPct": -0.09781196315549363,
+      "drawdown1y": -2.583407129448023,
+      "ma20": 99.63975067138672,
+      "ma60": 100.32475039164225,
+      "chg1m": -2.5250015258789062,
+      "chg3m": -0.18499755859375,
+      "chg1mPct": -2.4874411119509716,
+      "chg3mPct": -0.18654589292074955,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4682.10009765625,
+      "current": 4681.89990234375,
       "prevClose": 4640.7998046875,
-      "changeAbs": 41.30029296875,
-      "changePct": 0.8899391205592213,
-      "pctRank": 95.3062848050915,
+      "changeAbs": 41.10009765625,
+      "changePct": 0.8856253099893754,
+      "pctRank": 95.22673031026252,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.964121096029102,
-      "ma20": 4338.7849609375,
-      "ma60": 4217.301668294271,
-      "chg1m": 607.60009765625,
-      "chg3m": 181.7001953125,
-      "chg1mPct": 14.912261569671125,
-      "chg3mPct": 4.0374233236000405,
+      "drawdown1y": -11.967885297972847,
+      "ma20": 4338.774951171875,
+      "ma60": 4217.298331705729,
+      "chg1m": 607.39990234375,
+      "chg3m": 181.5,
+      "chg1mPct": 14.907348198398576,
+      "chg3mPct": 4.032974934193674,
       "lastDate": "2026-08-25",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,11 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "거래자들이 더 많은 경제 데이터를 기다리면서 국채 수익률은 안정적으로 유지됩니다."
     },
     {
-      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "headline": "Iran vows to retaliate after US widens sanctions - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
-      "datetime": 1787634300,
-      "headlineKo": "이란 전쟁 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 흘러나온다 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5",
+      "datetime": 1787638607,
+      "headlineKo": "이란은 미국의 제재 확대 이후 보복하겠다고 약속했다. - 로이터"
+    },
+    {
+      "headline": "United States sanctions oil trader Wellbred over Iran links - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkRVSUpZLWl2T2ZNc1FtamVfUzBiRm5lZW43SHdvMHZFbVc0blFJMnFVaDVUM29rcTRURFF2X3R4NE5GYnlxWnNNYS1hS3hGS2RzZUY3MDVqVFFiSkJrRHVkNkpvWjkzOWlRbjllQ2JzYXFabDdYVUtfUURHbHBYb3NPcjFtWUhxMS16ZFppTUN3Q3J3VUdQU1ZoSHhZSk11cmJiV3VULVk3VVBWTzQxdw?oc=5",
+      "datetime": 1787629200,
+      "headlineKo": "미국, 이란과 연계한 석유 거래업체 웰브레드 제재 - 로이터"
     },
     {
       "headline": "Pakistan and Iran made 'significant progress' in talks on conflict, minister says - Reuters",
@@ -254,18 +261,18 @@ const MARKET_DATA = {
       "headlineKo": "주식은 엔비디아 수익보다 앞서고, 석유는 흔들린다 - 로이터"
     },
     {
-      "headline": "Oil extends fall as investors shrug off latest US sanctions on Iran - Reuters",
+      "headline": "Oil hits one-week low as investors shrug off latest US sanctions on Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWVpMEdoenRuUHdzUlpxOG1xdVdSMTItdmhxNk5MUGc3YmdGLXl0S2EwYkNYVDV6LUJtaE96QkVuUFhqQzdORlVFdmRJTDRFaTVtSlNTZlh6OE9rQ0ZqdzJOWmQzbjVtWHJxZjFZNmo0VVlzRDRnYzJ1UklrQ0lNOHNCZWdZRVgtdXFZVnZGNXdlQVd2TlN0UjFhS2NNYjByTHBnZTY1NVpXNExJeGdObFllQ2lSYjNzRGw3aGh1ZFBuNmFnaUE?oc=5",
       "datetime": 1787620560,
-      "headlineKo": "투자자들이 최근 미국의 이란 제재를 무시하면서 유가 하락폭 연장 - Reuters"
+      "headlineKo": "투자자들이 최근 미국의 이란 제재를 무시하면서 유가가 일주일 최저치 기록 - Reuters"
     },
     {
-      "headline": "Iran vows to retaliate after US widens sanctions - Reuters",
+      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV2NneVkxY2I3clNhUzloallHZTVKV2h5N2wxbGNwWVZlNEZMRzBwRnJXRGdmYjdHOVl0ZFZHYk1fR08xQmY4VnhEZjAxRURrUHRrLWV2NmlsMndTQ3UzN1VyR3luekZMUmUtUE9ON0FnMGxiektWdG9RUlBJOXVFQjVoa3JnUFp2MGlmamJuTDJEZF81Rkp3NA?oc=5",
-      "datetime": 1787619420,
-      "headlineKo": "이란은 미국의 제재 확대 이후 보복하겠다고 약속했다. - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
+      "datetime": 1787618594,
+      "headlineKo": "Bessent의 D-Day 제재는 Anzio에 가깝지만 이란의 대응이 핵심입니다 - Reuters"
     },
     {
       "headline": "The Hormuz crude volume debate masks the real shortage of refined fuels - Reuters",
@@ -273,6 +280,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdWt2QTd6U25aN2I3V1VZTmhVdVBPNTdYNUx5OXlNQWcxcFo4TEJwUEo3Z2R0MWRBRnVvT3FqMms2NURIQURVdWtZVlEtM1d3YlBEVDh4b0g1SmlFWVVGRDRJYVVvbUI5eFRGWmxDRXF6eWFVVXF5TktKWS11NFZhUkU4eVJNY2ljcThUQi1uZ21Zc0NhekVIMmxDcUhla0xPSFZlV0VlSTJJOTdQU1hXODZwMmxPM043dmV1SFdCSDRlZ3BNMXJLXw?oc=5",
       "datetime": 1787617980,
       "headlineKo": "호르무즈 원유 거래량 논쟁은 정제 연료의 실질적인 부족을 가려줍니다. - 로이터"
+    },
+    {
+      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "datetime": 1787617278,
+      "headlineKo": "이란 전쟁 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 흘러나온다 - 로이터"
     },
     {
       "headline": "Los Angeles Lakers worth 'every bit' of $12.5 billion price tag: 76ers and Commanders owner Josh Harris",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/08/24/jim-cramer-stock-investors-know-bond-market.html",
       "datetime": 1787611201,
       "headlineKo": "다음은 Jim Cramer가 주식 투자자가 채권 시장에 대해 알아야 할 사항입니다."
-    },
-    {
-      "headline": "S&P 500, Nasdaq end down on tech stocks, investors weigh Iran moves - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCQWYzaWpzTVpmVFJPV0xRdEtUcXg0N2JKZHB5Z2JFZWpWRHFwS0Q3R2NtVHp1c29rem5scXhwa0FZMFZJNGtqM3ZCRlVOa1doNGNtWEcxVVZCYXFDSXlEbmJwODhKbG5Kdk15RDJpbDFleUFpWkdmbWEtMkhGWnF0U1FWWVpmSnp4aXp4UzlPc2hzaFNTWllwSm5UVWlpNWtWQlkzX1dqOHJNbkg5ag?oc=5",
-      "datetime": 1787610361,
-      "headlineKo": "S&P 500, 나스닥은 기술주 하락세, 투자자들은 이란의 움직임에 무게를 두고 있음 - Reuters"
-    },
-    {
-      "headline": "Paramount CEO David Ellison is at the final hurdle before buying WBD. So far, he can't clear it",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/24/paramount-ceo-david-ellison-wbd-acquisition-final-hurdle.html",
-      "datetime": 1787608585,
-      "headlineKo": "파라마운트 CEO 데이비드 엘리슨 (David Ellison) 은 WBD를 구입하기 전에 마지막 장애물에 있습니다. 지금까지 그는 그것을 지울 수 없습니다."
     }
   ],
   "fgi": {
     "score": 54.6285714285714,
     "rating": "neutral"
   },
-  "_fetched_at": 1787645706.4982605,
-  "_updated_label": "2026-08-25 17:15",
-  "_last_attempt_at": 1787645706.4982605,
-  "_last_success_at": 1787645706.4982605,
+  "_fetched_at": 1787649353.3112745,
+  "_updated_label": "2026-08-25 18:16",
+  "_last_attempt_at": 1787649353.3112745,
+  "_last_success_at": 1787649353.3112745,
   "_collection_status": "ok",
   "_collection_errors": []
 };
