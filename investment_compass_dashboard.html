@@ -64,6 +64,12 @@
   /* 2026-08-19 추가: 요약 칩의 점수 숫자를 눌러 하단 비교 표로 바로 이동 + 그 기준 오름차순 정렬 */
   .score-num{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:2px;cursor:pointer;}
   .score-num:hover{opacity:0.7;}
+  /* 2026-08-26 추가: 눌림목 신호 옆에 방향성 체크(newsLog의 directionCheck 항목) 배지를 나란히 표시 -
+     통계적으로 검증된 신호가 아니라 최근 실적/뉴스가 그 방향을 지지하는지에 대한 정성적 참고용 표시임 */
+  .dir-badge{display:inline-flex;align-items:center;gap:3px;margin-left:5px;padding:1px 7px;border-radius:999px;font-size:10.5px;font-weight:700;cursor:pointer;vertical-align:middle;}
+  .dir-badge.dir-positive{background:var(--up-bg);color:var(--up);}
+  .dir-badge.dir-mixed{background:var(--warn-bg);color:var(--warn);}
+  .dir-badge.dir-risk{background:var(--down-bg);color:var(--down);}
   #resultTable tbody tr{transition:background-color .3s ease;}
   #resultTable tbody tr.row-flash{background-color:#fff3b0 !important;}
   .env-table{width:100%;font-size:12.5px;border-collapse:collapse;}
@@ -90,6 +96,9 @@
   .new-badge{display:inline-block;background:var(--accent);color:#fff;font-size:9.5px;font-weight:800;letter-spacing:0.3px;padding:1px 5px;border-radius:5px;margin-left:5px;vertical-align:middle;}
   /* 2026-08-19 추가: 종목별 역할 중요도 별점(Claude의 정성적 평가, 매수/매도 신호 아님) */
   .role-stars{display:inline-block;font-size:10.5px;color:#c98a1f;letter-spacing:0.5px;margin-left:5px;cursor:help;vertical-align:middle;}
+  /* 2026-08-26 추가: 별점(영향력)은 호버 툴팁에만 있어서 안 눌러보면 안 보인다는 지적 -
+     비교 표에서 종목명 아래에 주요사업 태그를 항상 보이는 텍스트로도 표시함 */
+  .role-tags-inline{display:block;font-size:10px;font-weight:500;color:var(--sub);margin-top:1px;white-space:normal;line-height:1.35;max-width:220px;}
   /* 2026-08-19: 뉴스 헤드라인 자동 키워드 분류 태그 (gpt_dashboard의 analyzeNews()를 참고해 이식 -
      실제 LLM 해석이 아니라 제목 키워드 매칭이라 정확도가 낮음을 태그 자체에 명시함) */
   .news-auto-tag{display:inline-block;padding:1px 7px;border-radius:999px;font-size:10px;font-weight:800;font-family:var(--sans);white-space:nowrap;margin-left:6px;vertical-align:middle;}
@@ -280,6 +289,7 @@
       <div>
         <div class="bucket-row" id="bucketRow"></div>
         <div class="sub" style="margin-top:10px;">지금 가장 눌린 종목 (눌림목 점수 상위, 매수 관심 이상)</div>
+<div class="sub" style="margin-top:2px;font-size:11px;">종목 옆 <span class="dir-badge dir-positive" style="cursor:default;">긍정</span><span class="dir-badge dir-mixed" style="cursor:default;">혼재</span><span class="dir-badge dir-risk" style="cursor:default;">우려</span> 배지 = 최근 실적·뉴스가 이 낙폭을 지지하는지 조사한 방향성 체크(정성적 참고용, 검증된 신호 아님) - 눌러서 근거 보기</div>
         <div class="rec-list" id="recList"></div>
       </div>
       <div>
@@ -1749,6 +1759,25 @@ async function lookupTicker(){
 }
 function isAdHocTicker(ticker){ return typeof FUNDAMENTALS_DATA === 'undefined' || typeof FUNDAMENTALS_DATA[ticker] === 'undefined'; }
 
+// 2026-08-26 추가: 눌림목 신호(낙폭과다+200일선)는 '싸다'만 알려줄 뿐 '왜 싸졌는지'는 말해주지 않음 -
+// BUSINESS_NOTES[ticker].newsLog 안에서 directionCheck:true로 표시해둔 항목(방향성 체크 조사 기록)을
+// 찾아 신호 칩 옆에 작은 배지로 나란히 보여줌. 통계적으로 검증된 신호가 아니라 최근 실적/뉴스가
+// 그 방향을 지지하는지에 대한 Claude의 정성적 판단이라 클릭하면 06 뉴스 탭에서 근거를 바로 확인.
+const DIR_LABEL = {positive:'긍정', mixed:'혼재', risk:'우려'};
+function getDirectionCheck(ticker){
+  const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
+  const log = n && n.newsLog;
+  if(!log || !log.length) return null;
+  return log.find(e=>e.directionCheck) || null;
+}
+function directionBadge(ticker){
+  const dc = getDirectionCheck(ticker);
+  if(!dc) return '';
+  const label = DIR_LABEL[dc.tone] || dc.tone;
+  const title = '방향성 체크(' + dc.date + '): ' + dc.headline.replace(/^\[방향성 체크\] /, '') + ' - 눌러서 06 뉴스 탭에서 근거 보기';
+  return `<span class="dir-badge dir-${dc.tone}" title="${esc(title)}" onclick="event.stopPropagation();openDetailNews('${ticker}')">${label}</span>`;
+}
+
 // ============ 요약 렌더 ============
 function renderSummary(){
   const card = document.getElementById('summaryCard');
@@ -1781,7 +1810,7 @@ function renderSummary(){
   // 같이 보여줘서 첫 화면만 봐도 대략의 가격대를 알 수 있게 함. PER은 Finnhub 없는 종목(ETF 등)은 생략.
   const chipInfo = r => `$${r.price.toFixed(2)}${r.perNow!=null?' · PER '+r.perNow.toFixed(1)+'배':''}`;
   document.getElementById('recList').innerHTML = rec.length
-    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}</span>`).join('')
+    ? rec.map(r=>`<span class="rec-chip" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}${directionBadge(r.ticker)}</span>`).join('')
       + (recAll.length > REC_VISIBLE ? `<span class="sub" style="align-self:center;">+${recAll.length-REC_VISIBLE}개 더 있어요 - 아래 비교 표에서 "판단(장기)" 헤더를 눌러 정렬해 보세요.</span>` : '')
     : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
 
@@ -1793,7 +1822,7 @@ function renderSummary(){
   if(box){
     const chips = fresh
       .sort((a,b)=>(b.techScore||0)-(a.techScore||0))
-      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker} <span class="score-num" title="비교 표를 이 점수(단기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','techScore')">${r.techScore}점${r.techScore>=2?'(강한)':''}</span> · ${chipInfo(r)}</span>`).join('');
+      .map(r=>`<span class="rec-chip" style="background:var(--green-bg);color:#0a6b45;" onclick="openDetail('${r.ticker}')">★ ${r.ticker} <span class="score-num" title="비교 표를 이 점수(단기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','techScore')">${r.techScore}점${r.techScore>=2?'(강한)':''}</span> · ${chipInfo(r)}${directionBadge(r.ticker)}</span>`).join('');
     // 2026-08-13 추가: 단타 신호는 종목당 연 3.2회뿐이라(14년치 검증) 대부분의 날엔 0개가 정상인데,
     // "신호가 없으니 아무것도 못 산다"고 오해할 수 있다는 지적이 있었음 - 단기 신호가 없어도 위 ①
     // 장기 눌림목 점수가 매수관심 이상이면 6~12개월 관점에서는 이미 "사도 되는 구간"이라는 걸
@@ -1921,7 +1950,7 @@ function renderTable(){
     const chCls = r.drawdownPct>=0?'pos':'neg';
     const capTxt = r.marketCap!=null ? '$'+fmtUsd(r.marketCap) : '-';
     return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
-      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}</td>
+      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}</td>
       <td>${r.fvUpsidePct!=null?`<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>`:'-'}</td>
@@ -3134,6 +3163,15 @@ function roleStarsBadge(ticker){
   const note = n.role.note || '';
   const title = `[역할] ${tags}${note ? ' - ' + note : ''} (별점은 Claude의 정성적 평가로, 매수/매도 신호가 아니에요)`;
   return `<span class="role-stars" title="${esc(title)}">${stars}</span>`;
+}
+// 비교 표처럼 세로 공간이 있는 곳에서는 별점 옆에 주요사업 태그를 항상 보이는 텍스트로도 붙여줌
+// (호버해야만 보이던 걸 개선 - 2026-08-26). 영향력(별점) 기준은 위 주석의 비공식 루브릭 참고:
+// ★★★★★=이 밸류체인에서 사실상 대체재가 거의 없음(TSM 파운드리 72%대·ASML EUV 90%대 등)
+function roleTagsInline(ticker){
+  const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
+  const role = n && n.role;
+  if(!role || !role.tags || !role.tags.length) return '';
+  return `<span class="role-tags-inline">${esc(role.tags.join(' · '))}</span>`;
 }
 
 // ============ 오늘의 시장 환경 (2026-07-28 추가) ============
