@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 81.01000213623047,
+      "current": 80.87999725341797,
       "prevClose": 85.01000213623047,
-      "changeAbs": -4.0,
-      "changePct": -4.705328666607852,
-      "pctRank": 65.23468575974543,
+      "changeAbs": -4.1300048828125,
+      "changePct": -4.8582575920820155,
+      "pctRank": 64.9164677804296,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.277995285513637,
-      "ma20": 82.39749946594239,
-      "ma60": 80.92800000508626,
-      "chg1m": -1.5999984741210938,
-      "chg3m": -12.879997253417969,
-      "chg1mPct": -1.936809662631335,
-      "chg3mPct": -13.718178013789629,
-      "lastDate": "2026-08-25",
+      "drawdown1y": -28.393094786465433,
+      "ma20": 82.39099922180176,
+      "ma60": 80.92583325703939,
+      "chg1m": -1.7300033569335938,
+      "chg3m": -13.010002136230469,
+      "chg1mPct": -2.0941815084756374,
+      "chg3mPct": -13.856643115139743,
+      "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.9020004272461,
+      "current": 98.9219970703125,
       "prevClose": 99.0,
-      "changeAbs": -0.09799957275390625,
-      "changePct": -0.09898946742818812,
-      "pctRank": 25.218774860779636,
+      "changeAbs": -0.0780029296875,
+      "changePct": -0.07879083806818181,
+      "pctRank": 25.616547334924423,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6650921826976037,
-      "ma20": 99.63560066223144,
-      "ma60": 100.32336705525717,
-      "chg1m": -2.608001708984375,
-      "chg3m": -0.26799774169921875,
-      "chg1mPct": -2.5692066339278887,
-      "chg3mPct": -0.27024074482955995,
-      "lastDate": "2026-08-25",
+      "drawdown1y": -2.645412384502255,
+      "ma20": 99.63660049438477,
+      "ma60": 100.32370033264161,
+      "chg1m": -2.5880050659179688,
+      "chg3m": -0.2480010986328125,
+      "chg1mPct": -2.5495074489750897,
+      "chg3mPct": -0.2500767401551421,
+      "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4717.89990234375,
+      "current": 4701.7998046875,
       "prevClose": 4640.7998046875,
-      "changeAbs": 77.10009765625,
-      "changePct": 1.6613536653396261,
-      "pctRank": 95.70405727923628,
+      "changeAbs": 61.0,
+      "changePct": 1.3144286021212586,
+      "pctRank": 95.54494828957836,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.290989978684518,
-      "ma20": 4340.574951171875,
-      "ma60": 4217.898331705729,
-      "chg1m": 643.39990234375,
-      "chg3m": 217.5,
-      "chg1mPct": 15.790892191526568,
-      "chg3mPct": 4.832903846761013,
-      "lastDate": "2026-08-25",
+      "drawdown1y": -11.593714443784531,
+      "ma20": 4339.769946289062,
+      "ma60": 4217.629996744791,
+      "chg1m": 627.2998046875,
+      "chg3m": 201.39990234375,
+      "chg1mPct": 15.395749286722296,
+      "chg3mPct": 4.47515569091679,
+      "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -219,6 +219,48 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjQyS1RmdG5WZnRTRFNaQ0o2WXM0MVY4VHdvZzQwZTZjS1hVX2ZTdC1ORzh5U2pfTEZQeG5mWF93aGZsNGxOcXluSGtBRnhiYnNGRXNGaVE1cWhMbmprTXk1ODQxQjFWMlM0czJFa3pqWjhZZVh3bXlBMVVGVTRpTFlBRHQxcGpmOXIyRXN3Tjc1VVFUUVE?oc=5",
+      "datetime": 1787700414,
+      "headlineKo": "미 스파이 최고 책임자가 회의, 언론 보도를 위해 러시아를 방문하다 - 로이터"
+    },
+    {
+      "headline": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "datetime": 1787699755,
+      "headlineKo": "이란 전쟁이 시작된 지 6개월, 전 세계 석유의 거의 절반이 전쟁 지역에서 유입됩니다. - 로이터"
+    },
+    {
+      "headline": "US oil prices extend losses on hopes of Iran-Oman talks on Strait of Hormuz - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
+      "datetime": 1787699178,
+      "headlineKo": "미국 유가는 호르무즈 해협에서 이란-오만 회담에 대한 희망으로 손실을 확대한다. - 로이터"
+    },
+    {
+      "headline": "Iraq may show how U.S. can squeeze Iran's trade partners - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHZhOEZodlIwT1prS0U3TnlSaVdzcnJwMkcwOElIUXBfOVB6aWljYllncXJCMDhiQlhxRDRCX3pOblVnNWp1Ny1qRTlWZHBzZ3NLNnBzWTVRSnZjamdWTWdONkJ0TFRHZTA2Qmtpaks1N3gtcDhKTzFEYi0wdkFZOFNYVVFCNWtZZWZPd0ZYWFN4OUJFQWFZWVhiR0Y4SVBIcUxudTB6M2JSRVU?oc=5",
+      "datetime": 1787698543,
+      "headlineKo": "이라크는 미국이 이란의 무역 파트너를 어떻게 압박할 수 있는지 보여줄 수 있다. - 로이터"
+    },
+    {
+      "headline": "ECB set for September rate hike with no appetite to signal more, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaS1YSEQ1R25MRlpTOGV2WjhEVjJMc1N3MjhGMnhCcUF0WGpMSTh1UTVUTGxIam1MNjh0dURNUWQtdGd5MGZpRTBIcUVuS0dobGhhNlY2UDN5OTYxZzJPTnp4Y0FVWUlzMUN2bGxQQWtnTUVMNENlbXI0bkdFSnFjaDZOdG12VGZLcFdUZUJHWElaVElqMmF0dmpCNTdNejM1UTdISUdGaVYwWW9kSUN4TVUzbw?oc=5",
+      "datetime": 1787698056,
+      "headlineKo": "소식통에 따르면 ECB는 더 많은 신호를 보내고 싶은 욕심 없이 9월 금리 인상을 설정했다. - Reuters"
+    },
+    {
+      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
+      "datetime": 1787695064,
+      "headlineKo": "베센트의 D-Day 제재는 더 안지오적이지만, 이란의 대응이 핵심 - 로이터"
+    },
+    {
       "headline": "Why the bond market may be resetting expectations about the US - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
@@ -259,58 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDhnT2QxNFlGZ3MzTE56cmZZNzQ0XzhxUmZRVURPb3h6Z3BDNW5LdlhLLW5SeGVCZ0tFS054U0UyV0I2UTl6VDJEeXFCQ0Q5d253RkN6dlNDbHFZUDBBdGxpczJTYkEyenVTWHNYSEZWZ2d2OGRQTTNraXhQenlnVGFyVjhDUFFsR2Y5d1IzUEZ2UmFkSVF0YUZ1LUtMLUlsU2RDeERJSTRtbnRLanJPQlF0b3o0aTZi?oc=5",
       "datetime": 1787685584,
       "headlineKo": "시리아의 쿠르드족 주도의 자위대가 다마스쿠스와의 통합의 일환으로 해체 - 로이터"
-    },
-    {
-      "headline": "US spy chief visits Russia for meetings, media reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVjQyS1RmdG5WZnRTRFNaQ0o2WXM0MVY4VHdvZzQwZTZjS1hVX2ZTdC1ORzh5U2pfTEZQeG5mWF93aGZsNGxOcXluSGtBRnhiYnNGRXNGaVE1cWhMbmprTXk1ODQxQjFWMlM0czJFa3pqWjhZZVh3bXlBMVVGVTRpTFlBRHQxcGpmOXIyRXN3Tjc1VVFUUVE?oc=5",
-      "datetime": 1787685390,
-      "headlineKo": "미 스파이 최고 책임자가 회의, 언론 보도를 위해 러시아를 방문하다 - 로이터"
-    },
-    {
-      "headline": "OpenAI says its Broadcom custom chip is a winner. What does that mean for Nvidia?",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/openai-says-its-broadcom-chip-is-a-big-advance-what-about-nvidia.html",
-      "datetime": 1787684515,
-      "headlineKo": "OpenAI는 Broadcom 맞춤형 칩이 승자라고 말합니다. 엔비디아에 어떤 의미가 있나요?"
-    },
-    {
-      "headline": "Are you richer than you think? How to find out—and what experts say to do if you are",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/how-to-find-missing-money-and-what-to-do-if-you-get-it.html",
-      "datetime": 1787684402,
-      "headlineKo": "당신은 생각보다 부자입니까? 확인 방법 및 전문가의 의견"
-    },
-    {
-      "headline": "US starts returning staff to Middle East embassies after Iran war evacuations, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
-      "datetime": 1787676537,
-      "headlineKo": "미국이 이란 전쟁으로 대피한 후 직원들을 중동 대사관으로 돌려보내기 시작했다고 소식통들이 전하고 있다. - 로이터"
-    },
-    {
-      "headline": "We're trimming our position in an AI stock to protect our profits",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/were-trimming-our-position-in-an-ai-stock-to-protect-our-profits-.html",
-      "datetime": 1787671663,
-      "headlineKo": "우리는 수익을 보호하기 위해 AI 주식의 지위를 다듬고 있습니다."
-    },
-    {
-      "headline": "Iraq may show how U.S. can squeeze Iran's trade partners - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHZhOEZodlIwT1prS0U3TnlSaVdzcnJwMkcwOElIUXBfOVB6aWljYllncXJCMDhiQlhxRDRCX3pOblVnNWp1Ny1qRTlWZHBzZ3NLNnBzWTVRSnZjamdWTWdONkJ0TFRHZTA2Qmtpaks1N3gtcDhKTzFEYi0wdkFZOFNYVVFCNWtZZWZPd0ZYWFN4OUJFQWFZWVhiR0Y4SVBIcUxudTB6M2JSRVU?oc=5",
-      "datetime": 1787671274,
-      "headlineKo": "이라크는 미국이 이란의 무역 파트너를 어떻게 압박할 수 있는지 보여줄 수 있다. - 로이터"
     }
   ],
   "fgi": {
     "score": 58.8,
     "rating": "greed"
   },
-  "_fetched_at": 1787701465.8283908,
-  "_updated_label": "2026-08-26 08:44",
-  "_last_attempt_at": 1787701465.8283908,
-  "_last_success_at": 1787701465.8283908,
+  "_fetched_at": 1787705119.0169532,
+  "_updated_label": "2026-08-26 09:46",
+  "_last_attempt_at": 1787705119.0169532,
+  "_last_success_at": 1787705119.0169532,
   "_collection_status": "ok",
   "_collection_errors": []
 };
