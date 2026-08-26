@@ -314,14 +314,17 @@
       </select>
       <span class="sub">헤더 클릭으로 정렬</span>
     </div>
-    <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)</div>
+    <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)<br>
+    <b>적정가 대비</b> = 우리 프로젝트 자체 계산식(내년 예상 EPS × 지금 PER, 증권사 목표주가·DCF 아님) 기준 할인/프리미엄 - 검증상 저평가일수록 오히려 수익률이 낮았던(밸류트랩) 지표라 매수 신호로 쓰지 마세요, 참고용 · <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
     <div style="overflow-x:auto;">
-    <table id="resultTable" style="display:none;min-width:1020px;">
+    <table id="resultTable" style="display:none;min-width:1220px;">
       <thead>
         <tr>
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
           <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
+          <th data-key="fvUpsidePct" title="자체 추정 적정가 대비 현재가 위치 - (내년 예상 EPS × 지금 시장이 매기는 PER) 기준, 우리 프로젝트 자체 계산식이에요(증권사 목표주가·DCF 아님). ⚠️ 검증 결과 저평가일수록 오히려 이후 수익률이 낮았어요(밸류트랩) - 매수 신호 아니고 참고용">적정가 대비</th>
+          <th data-key="relStrength20" title="같은 섹터 그룹(동일가중) 대비 최근 20일 수익률 차이. 뒤처짐(-11%p 이하)은 5년치 검증된 경고. 앞섬(+11%p 이상)은 2026-08-26 2년치 검증 결과 반도체 그룹에서만 방향성 확인(60일 승률 88.5% vs 78.5%, 실험적) - 다른 그룹은 아직 참고용">그룹대비강도(20일)</th>
           <th data-key="techScore" title="우상향 눌림목(RSI 30~38) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
           <th data-key="drawdownPct" title="최근 1년 &quot;종가&quot; 기준 최고가 대비 지금 얼마나 빠졌는지(일중 고가 아님 - 검증된 계산방식과 동일하게 종가로 통일)">고점대비 하락(종가)</th>
           <th data-key="price">현재가</th>
@@ -1658,6 +1661,8 @@ async function analyzeTicker(ticker, env){
     marketCap,
     epsGrowth: fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y ?? null,
     debtEquity: fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'] ?? null,
+    fvMid: (fairValue && fairValue.fwd && fairValue.fwd.mid!=null) ? fairValue.fwd.mid : null,
+    fvUpsidePct: (fairValue && fairValue.fwd && fairValue.fwd.mid!=null && price) ? (fairValue.fwd.mid/price - 1)*100 : null,
     score: breakdown.total, breakdown, verdict,
     techScore, techVerdict, entryStat, fairValue, risk,
     dataHealth: computeDataHealth(dates, source, dropped),
@@ -1890,6 +1895,12 @@ function renderTable(){
   const verdictFilter = document.getElementById('verdictFilter').value;
   const search = (document.getElementById('tickerSearch')?.value || '').trim().toUpperCase();
   let rows = Object.values(results).filter(r=>!r.error);
+  // 2026-08-26 추가(사용자 요청): '많이 떨어져서 싸다'가 아니라 '흐름이 바뀌면 같은 그룹 안에서
+  // 유독 힘이 좋은 종목'을 한눈에 보고 싶다는 요청 - 이미 있던 computeRelStrength()(같은 섹터
+  // 대비 최근 20일 상대수익률, 5년치 검증은 '많이 뒤처지면 나쁜 신호' 방향만 됐음)를 재사용해
+  // 모든 행에 계산해둠. ⚠️ '앞선다=계속 오른다'는 아직 별도 검증된 바 없음 - 정렬·참고용 설명으로만
+  // 쓰고, 매수 신호처럼 단정하지 않음(아래 표 안내문에도 명시).
+  rows.forEach(r=>{ if(r.relStrength20===undefined) r.relStrength20 = (computeRelStrength(r)||{}).rel ?? null; });
   if(themeFilter) rows = rows.filter(r=>r.theme===themeFilter);
   if(verdictFilter) rows = rows.filter(r=>r.verdict.label===verdictFilter);
   if(search) rows = rows.filter(r=>r.ticker.includes(search) || (r.name||'').toUpperCase().includes(search));
@@ -1912,7 +1923,9 @@ function renderTable(){
     return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
       <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}</td>
       <td class="theme">${r.theme}</td>
-      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span></td>
+      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}</td>
+      <td>${r.fvUpsidePct!=null?`<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>`:'-'}</td>
+      <td>${r.relStrength20!=null?`<span class="${r.relStrength20>=0?'pos':'neg'}">${r.relStrength20>=0?'+':''}${r.relStrength20.toFixed(1)}%p</span>${(r.relStrength20>=REL_STRONG_THRESHOLD && REL_STRONG_SECTORS.includes(THEME_TO_SECTOR[r.theme]))?`<span title="반도체 그룹 한정 검증(실험적): 지금처럼 앞선 종목은 60거래일 승률 88.5%였어요" style="margin-left:3px;cursor:help;">💪</span>`:''}`:'-'}</td>
       <td><span class="badge b-${r.techVerdict.cls}">${r.techVerdict.label}</span>${
         r.entryStat && r.entryStat.kind==='new'
           ? '<span title="오늘 새로 진입 자리가 난 종목(쿨다운을 넘긴 첫날)" style="color:var(--green);font-weight:800;margin-left:4px;">★</span>'
@@ -2513,6 +2526,25 @@ function computeDataHealth(dates, source, dropped){
   }
   return {source: source||'알 수 없음', bars: dates.length, lastDate: dates[dates.length-1], dropped: dropped||0, missing};
 }
+// 2026-08-26 추가(사용자 요청): 메인 비교표의 "판단(장기)" 배지만 보면 밸류에이션·데이터 상태
+// 경고가 눈에 안 띈다는 지적 - computeFairValue()의 cautions(예: 내년 EPS 감소 전망)와
+// computeDataHealth()의 데이터 누락/캐시폴백 경고를 행 클릭 없이도 작은 ⚠️ 배지로 미리 보여줌.
+// ⚠️ 이 배지는 점수를 바꾸지 않음 - 판단(장기)는 여전히 눌림목 강도(백테스트 검증)만 반영하고,
+// 이 배지는 그와 별개인 참고 정보(밸류에이션 주의점·데이터 신선도)가 있다는 신호일 뿐임.
+function verdictCautionBadge(r){
+  const fv = r.fairValue && r.fairValue.fwd;
+  const fvWarn = !!(fv && fv.cautions && fv.cautions.length);
+  const h = r.dataHealth;
+  const usedFallback = !!(h && /GitHubCache/.test(h.source));
+  const trueMissing = h ? h.missing.filter(m=>!m.holiday).length : 0;
+  const dataWarn = !!(h && (trueMissing || h.dropped || usedFallback));
+  if(!fvWarn && !dataWarn) return '';
+  const parts = [];
+  if(fvWarn) parts.push('적정가(밸류에이션) 참고사항 있음 - 상세보기에서 확인');
+  if(dataWarn) parts.push('가격 데이터 지연·누락 의심 - 상세보기에서 확인');
+  return `<span class="sub" style="color:var(--warn);font-size:11px;margin-left:4px;cursor:help;" title="${esc(parts.join(' · '))} — 이 배지는 판단(장기) 점수(눌림목 강도)와 무관한 별도 참고 정보예요.">⚠️</span>`;
+}
+
 function renderDataHealth(r){
   const h = r.dataHealth;
   if(!h) return '';
@@ -2542,6 +2574,28 @@ function renderDataHealth(r){
 // → 규칙으로 강제하지는 않고(표본이 작아 기존 검증치를 다시 산출해야 함) 경고로만 표시.
 const REL_WEAK_THRESHOLD = -11;   // %p. 이보다 뒤처지면 경고
 const REL_MIN_PEERS = 4;          // 바스켓이 이보다 작으면 비교가 노이즈라 표시 자체를 안 함
+
+// 2026-08-26 추가: '이미 그룹보다 앞서는 종목이 계속 앞서가는지'(모멘텀 지속) 검증.
+// [배경] 사용자가 "저평가냐 아니냐가 아니라, 지금 이 가격에 사도 괜찮을 만큼 흐름이 좋아서
+// 흐름이 바뀌면 다른 종목보다 더 오를 힘이 있는 종목"을 한눈에 보고 싶다고 요청함 - 위
+// -11%p 경고(뒤처지면 나쁨)의 반대 방향(앞서면 좋음, 모멘텀 지속)은 그동안 검증한 적이 없었음.
+// [방법] prices_cache.json 2년치(2024-08~2026-08, 501거래일) 일봉으로, 5거래일 간격 스냅샷마다
+// 같은 섹터(반도체 16종목/빅테크·SW 9종목/AI전력인프라 11종목, 동일가중 자기포함) 대비 20일
+// 상대강도(rel)를 구하고, 이후 5/10/20/60거래일 수익률·SPY 대비 초과수익과의 상관관계를 확인.
+// ⚠️ 한계: 이 프로젝트의 다른 백테스트(15년치·5년치)보다 훨씬 짧은 표본(2년)이고, 5일 간격
+// 스냅샷이라 인접 표본끼리 겹침(자기상관)이 있어 n이 커 보여도 실제 독립표본 수는 더 적음.
+// 데이터가 더 쌓이면(특히 하락장 포함) 재검증이 필요함 - 지금은 '방향성 참고'로만 쓸 것.
+// [결과 - 섹터마다 완전히 다름]
+//  · 반도체(16종목): 뚜렷하고 일관된 정방향 - 20일 rel과 60일 수익률 상관 +0.207(SPY대비 초과 +0.212).
+//    60일 기준 강한 리더십(rel≥+11) 승률 88.5%·평균+58.6%(n=156) vs 뒤처짐(rel≤-11) 승률 78.5%·
+//    평균+29.8%(n=186) - 상승장 구간이라 둘 다 플러스지만 격차가 뚜렷하고 20일(승률79.5% vs 69.4%)·
+//    10일(70.5% vs 65.1%)에서도 같은 방향. 전반기·후반기로 나눠도 방향 유지(견고함).
+//  · 빅테크·SW(9종목)·AI전력인프라(11종목): 뚜렷한 패턴 없음(상관 -0.04~+0.09로 사실상 0, 구간별
+//    순서도 안 뒤집힘) - 이 두 그룹에서는 '앞선다고 계속 앞서가는' 근거를 못 찾음.
+// [결론] '리더십이 이어진다'는 신호는 반도체 그룹에서만, 실험적으로 씀 - 다른 그룹은 여전히
+// 참고용 숫자로만 표시(매수 신호 아님).
+const REL_STRONG_THRESHOLD = 11;  // %p. 반도체 그룹 한정, 이 이상 앞서면 '리더십 신호'(실험적)
+const REL_STRONG_SECTORS = ['반도체'];  // 위 검증에서 정방향이 확인된 섹터만
 
 // 워치리스트 테마명 → 검증 당시 그룹명. 상대강도 비교와 그룹 승률 표시가 모두 이 매핑을 씀.
 // ⚠️ 상대강도는 반드시 이 '섹터(2그룹)' 단위로 계산할 것 - 검증을 이 단위로 했기 때문.
@@ -2595,6 +2649,7 @@ function renderRelStrength(r){
   const rs = computeRelStrength(r);
   if(!rs) return '';
   const weak = rs.rel <= REL_WEAK_THRESHOLD;
+  const strongLeader = rs.rel >= REL_STRONG_THRESHOLD && REL_STRONG_SECTORS.includes(rs.sector);
   const sign = v => (v>=0?'+':'')+v.toFixed(1)+'%';
   // 경고의 신뢰도는 그룹마다 다름(실측). 빅테크·SW에서만 확실히 갈렸고 반도체 쪽은 차이가 작았음 -
   // 같은 경고라도 근거의 세기가 다르므로 문구를 나눠서 정직하게 표시한다.
@@ -2609,7 +2664,7 @@ function renderRelStrength(r){
     ? `<br><span class="sub">참고(검증 안 됨 · 경고 기준 아님): ${extraWins.map(({w,r:e})=>`최근 ${winLabel[w]} ${sign(e.rel)}p ${e.rel>=0?'앞섬':'뒤처짐'}`).join(' · ')}</span>`
     : '';
   const asOfDate = r.series && r.series.dates ? r.series.dates[r.series.dates.length-1] : null;
-  return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':'var(--panel-2)'};color:${weak?'#876000':'#4b5157'};margin-top:8px;">
+  return `<div class="comment-box" style="background:${weak?'var(--warn-bg)':(strongLeader?'var(--up-bg)':'var(--panel-2)')};color:${weak?'#876000':(strongLeader?'#1a6b3c':'#4b5157')};margin-top:8px;">
     <b>같은 그룹 대비 ${hintIcon('relStrength')}</b> — 최근 20일(약 1개월): 이 종목 ${sign(rs.mine)} ·
     <b>${esc(rs.sector)}</b> 그룹 평균 ${sign(rs.bench)}(${rs.members}종목) →
     <b style="color:${rs.rel>=0?'var(--up)':'var(--down)'};">${sign(rs.rel)}p ${rs.rel>=0?'앞섬':'뒤처짐'}</b>
@@ -2617,8 +2672,8 @@ function renderRelStrength(r){
       눌림목이 아니라 종목 자체의 문제일 수 있어요 — 03 실적 탭에서 매출·이익이 꺾였는지 꼭 확인하세요.
       <br><span class="sub">${strongEvidence
         ? `5년치 검증에서 <b>빅테크·SW 그룹</b>은 이 구간의 신호 승률이 <b>51%</b>로, 그룹 평균(60%)보다 확실히 낮았어요(n=39).`
-        : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`
-    : ''}
+        : `다만 <b>반도체 그룹에서는 근거가 약해요</b> — 이 구간의 승률이 66%로 그룹 평균(70%)과 큰 차이가 없었어요(n=35). 참고만 하세요.`}</span>`    : (strongLeader ? `<br>💪 그룹보다 <b>확실히 앞서 있어요.</b> <b>반도체 그룹 한정 2년치 검증</b>에서, 지금처럼 20일 상대강도가 +11%p 이상인 종목은 이후 60거래일(약 3개월) 승률 <b>88.5%·평균수익률 +58.6%</b>였어요(뒤처진 종목은 승률 78.5%·+29.8%, n=156 vs 186) - <b>저평가 여부와 무관하게 "지금 흐름이 좋아서 계속 앞서갈 가능성"에 대한 신호</b>예요.
+      <br><span class="sub">⚠️ 다만 표본이 2년(501거래일)뿐이고 5일 간격 스냅샷이라 표본끼리 겹침이 있어요 - 이 프로젝트의 다른 15년치 검증만큼 견고하진 않아요. 이 신호는 <b>반도체 그룹에서만</b> 방향이 뚜렷했고(빅테크·SW·AI전력인프라는 근거를 못 찾음), 지금 데이터가 전부 상승장 구간이라 하락장 재검증이 필요해요. <b>실험적</b>으로 참고만 하세요.</span>` : '')}
     <br><span class="sub">계산 기준: <b>동일가중</b>(시가총액 가중 아님) · 이 종목 자신도 바스켓에 <b>포함</b> · <b>배당 미반영</b>(가격만) · <b>시장(SPY) 대비 조정 없음</b>. 그룹 구성(${rs.members}종목): ${rs.tickers.map(esc).join(', ')}</span>
     ${extraLine}
     <br><span class="sub">🕐 <b>${asOfDate?esc(asOfDate):'-'} 종가 기준으로 방금 계산된 값</b>이에요 - 저장된 캐시가 아니라 조회할 때마다 그 시점 가격으로 다시 계산돼요. 그래서 날짜가 바뀌거나 다시 스캔하면 이 숫자도 자동으로 바뀌어요(직접 수정할 필요 없음).</span>
