@@ -3087,10 +3087,6 @@ function roleStarsBadge(ticker){
 //   '왜 움직였는지(원인)'는 데이터만으로 알 수 없으므로 절대 지어내지 않고, 헤드라인을 옆에 붙여
 //   사용자가 직접 확인하게 한다.
 const MACRO_ORDER = ['us10y','us30y','oil','dollar','vix','gold','us3m'];
-// 시장 헤드라인 언어 토글(기본 한글). 기계번역 오역이 있을 수 있어 원문으로 전환 가능.
-let marketNewsShowEn = false;
-function toggleMarketNewsLang(){ marketNewsShowEn = !marketNewsShowEn; renderMarketCard(); }
-
 function levelLabel(pctRank){
   if(pctRank>=90) return {t:'매우 높은 편', c:'var(--up)'};
   if(pctRank>=70) return {t:'높은 편',      c:'var(--up)'};
@@ -3376,44 +3372,6 @@ function renderMarketCard(){
     </div>`;
   }
 
-  // 시장 헤드라인 - 외부 텍스트라 반드시 esc(), 링크는 http(s)만 허용.
-  // 한글은 기계번역이라 오역이 있을 수 있어 원문을 항상 같이 보관하고 토글로 볼 수 있게 함.
-  let newsBlock = '';
-  if((M.news||[]).length){
-    const hasKo = M.news.some(n=>n.headlineKo);
-    const newsItemHtml = n => {
-      const dt = n.datetime ? new Date(n.datetime*1000) : null;
-      const dtTxt = dt ? `${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')} ${String(dt.getHours()).padStart(2,'0')}:${String(dt.getMinutes()).padStart(2,'0')}` : '';
-      const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null;
-      const ko = n.headlineKo ? esc(n.headlineKo) : null;
-      const en = esc(n.headline);
-      const shown = (ko && !marketNewsShowEn) ? ko : en;
-      const link = safeUrl
-        ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow" style="color:var(--text);">${shown}</a>`
-        : shown;
-      // 한글을 보고 있을 땐 원문을 회색 작은 글씨로 같이 둠(오역 확인용)
-      const sub = (ko && !marketNewsShowEn)
-        ? `<div class="sub" style="font-size:10.5px;margin-top:2px;">${en}</div>` : '';
-      return `<div class="fund-row" style="align-items:flex-start;gap:10px;">
-        <span style="flex:1;">${link}${sub}</span>
-        <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;font-size:11px;">${esc(n.source)} ${dtTxt}</span>
-      </div>`;
-    };
-    const toggle = hasKo
-      ? `<span class="toggle-btn" style="margin-left:8px;padding:2px 8px;font-size:11px;" onclick="toggleMarketNewsLang()">${marketNewsShowEn?'한글로 보기':'원문만 보기'}</span>`
-      : '';
-    // 2026-08-13 압축: 12건을 한 번에 다 보여주면 카드가 길어진다는 지적 - 3건만 바로 보이고
-    // 나머지는 details로 접음(내용 삭제 아님, 클릭하면 그대로 다 있음).
-    const NEWS_VISIBLE = 3;
-    const visibleNews = M.news.slice(0, NEWS_VISIBLE).map(newsItemHtml).join('');
-    const restNews = M.news.slice(NEWS_VISIBLE).map(newsItemHtml).join('');
-    newsBlock = `
-      <div class="chart-label" style="margin-top:18px;">시장 헤드라인 ${hintIcon('marketNews')}${toggle}</div>
-      ${hasKo?`<div class="sub" style="margin-bottom:4px;">한글 제목은 <b>자동 기계번역</b>이라 금융 용어·회사 이름에서 어색하거나 틀릴 수 있어요. 아래 회색 글씨가 원문이고, 제목을 누르면 원문 기사로 갑니다.</div>`:''}
-      ${visibleNews}
-      ${restNews ? `<details><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${M.news.length - NEWS_VISIBLE}건 더 보기</summary>${restNews}</details>` : ''}`;
-  }
-
   body.innerHTML = `
     <div style="overflow-x:auto;">
       <table style="width:100%;border-collapse:collapse;font-size:12.5px;">
@@ -3441,7 +3399,6 @@ function renderMarketCard(){
         실제 매수 타이밍은 종목별 눌림목 점수와 단타 신호로 판단하시면 돼요.
       </div>
     </details>
-    ${newsBlock}
     ${renderNewsLog('MARKET', '오늘의 시장 헤드라인 해석')}
     <div class="sub" style="margin-top:10px;">지표 갱신: ${esc(M._updated_label||'-')} · 레벨은 최근 5년 일별 데이터 기준 백분위예요.</div>`;
 }
@@ -4532,7 +4489,7 @@ function renderNewsLog(ticker, label){
   const log = n && n.newsLog;
   if(!log || !log.length) return '';
   const TONE_LABEL = {positive:'긍정', risk:'위험', mixed:'혼재', neutral:'중립'};
-  const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
+  const cards = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
     const srcLinks = (e.sources||[]).map(s=>{
       const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
       return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
@@ -4569,7 +4526,11 @@ function renderNewsLog(ticker, label){
           ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : `<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ 출처 링크 없음 - gpt_dashboard의 자동 분석과 달리 이 로그는 출처를 남기는 게 원칙이니, 다음에 갱신할 때 채워주세요.</div>`}
         </details>
       </article>`;
-  }).join('');
+  });
+  const NEWSLOG_VISIBLE = 4;
+  const visibleCards = cards.slice(0, NEWSLOG_VISIBLE).join('');
+  const restCards = cards.slice(NEWSLOG_VISIBLE).join('');
+  const entries = visibleCards + (restCards ? `<details style="margin-top:6px;"><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${cards.length - NEWSLOG_VISIBLE}건 더 보기</summary>${restCards}</details>` : '');
   return `
     <div class="chart-label" style="margin-top:0;">${esc(label||ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
     <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard의 필드 구성과 카드 디자인을 참고해 이식했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
