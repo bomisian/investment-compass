@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.44999694824219,
+      "current": 80.7699966430664,
       "prevClose": 82.36000061035156,
-      "changeAbs": -1.910003662109375,
-      "changePct": -2.3190913646852414,
-      "pctRank": 63.16626889419253,
+      "changeAbs": -1.5900039672851562,
+      "changePct": -1.9305536127998932,
+      "pctRank": 64.35958631662689,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.77379449146217,
-      "ma20": 82.26449928283691,
-      "ma60": 80.7553332010905,
-      "chg1m": 1.1899948120117188,
-      "chg3m": -8.230003356933594,
-      "chg1mPct": 1.501381251499817,
-      "chg3mPct": -9.280563067897567,
+      "drawdown1y": -28.490483554348245,
+      "ma20": 82.28049926757812,
+      "ma60": 80.76066652933757,
+      "chg1m": 1.5099945068359375,
+      "chg3m": -7.910003662109375,
+      "chg1mPct": 1.9051154001239992,
+      "chg3mPct": -8.919715420487782,
       "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.0009994506836,
+      "current": 98.97599792480469,
       "prevClose": 98.91999816894531,
-      "changeAbs": 0.08100128173828125,
-      "changePct": 0.08188564823862945,
-      "pctRank": 26.730310262529834,
+      "changeAbs": 0.055999755859375,
+      "changePct": 0.05661115739583123,
+      "pctRank": 26.25298329355609,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5676617891902453,
-      "ma20": 99.54655036926269,
-      "ma60": 100.3203503926595,
-      "chg1m": -2.378997802734375,
-      "chg3m": -0.2089996337890625,
-      "chg1mPct": -2.3466145859006406,
-      "chg3mPct": -0.21066388037269218,
+      "drawdown1y": -2.5922671683150544,
+      "ma20": 99.54530029296875,
+      "ma60": 100.31993370056152,
+      "chg1m": -2.4039993286132812,
+      "chg3m": -0.23400115966796875,
+      "chg1mPct": -2.371275787869714,
+      "chg3mPct": -0.23586449130871145,
       "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4697.2001953125,
+      "current": 4695.89990234375,
       "prevClose": 4638.10009765625,
-      "changeAbs": 59.10009765625,
-      "changePct": 1.2742307499166476,
+      "changeAbs": 57.7998046875,
+      "changePct": 1.2461957152823784,
       "pctRank": 95.3062848050915,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.680199278687098,
-      "ma20": 4369.709973144531,
-      "ma60": 4220.268334960938,
-      "chg1m": 660.900146484375,
-      "chg3m": 249.7001953125,
-      "chg1mPct": 16.373910226923215,
-      "chg3mPct": 5.6143944983136596,
+      "drawdown1y": -11.704648229360714,
+      "ma20": 4369.644958496094,
+      "ma60": 4220.246663411458,
+      "chg1m": 659.599853515625,
+      "chg3m": 248.39990234375,
+      "chg1mPct": 16.3416952539772,
+      "chg3mPct": 5.585158006604834,
       "lastDate": "2026-08-26",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
+      "datetime": 1787714880,
+      "headlineKo": "베센트의 D-Day 제재는 더 안지오적이지만, 이란의 대응이 핵심 - 로이터"
+    },
+    {
       "headline": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlo4djdVdDNyZ2pOQWpMS2ZnblpzdUhoSzZRRGxpR29YSW1PUl9JUmNNYzgtSXZtbDh0a0xxekVuNlVYTWVGWS1RdkE2RXdqVGJFdGE0Z2l3V0ZvaE1hWGFjNHo2RXJjOGw1RFhOSkJnTGpuMHJId1BqcTRDRmhERkZWMGh0bDMzaWpHMTVHZ05UN29UbzZMTG5Valh1dkgwbFNRZFZqRmFZU3dVdXlpbkpZVm5vVzhQeEZEWEtaOHEzeTZ1VUE?oc=5",
@@ -226,32 +233,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프는 사우디 핵 협상을 의회에 보냈지만 리야드는 이스라엘을 인정해야 한다고 말했다 - 로이터"
     },
     {
-      "headline": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz - Reuters",
+      "headline": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
       "datetime": 1787698980,
-      "headlineKo": "호르무즈 해협 재개를 위한 이란-오만 회담으로 유가 2% 하락 - 로이터"
-    },
-    {
-      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
-      "datetime": 1787698837,
-      "headlineKo": "베센트의 D-Day 제재는 더 안지오적이지만, 이란의 대응이 핵심 - 로이터"
-    },
-    {
-      "headline": "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
-      "datetime": 1787698237,
-      "headlineKo": "설명: 채권시장이 미국에 대한 기대를 재설정하는 이유 - Reuters"
-    },
-    {
-      "headline": "ECB set for September rate hike with no appetite to signal more, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaS1YSEQ1R25MRlpTOGV2WjhEVjJMc1N3MjhGMnhCcUF0WGpMSTh1UTVUTGxIam1MNjh0dURNUWQtdGd5MGZpRTBIcUVuS0dobGhhNlY2UDN5OTYxZzJPTnp4Y0FVWUlzMUN2bGxQQWtnTUVMNENlbXI0bkdFSnFjaDZOdG12VGZLcFdUZUJHWElaVElqMmF0dmpCNTdNejM1UTdISUdGaVYwWW9kSUN4TVUzbw?oc=5",
-      "datetime": 1787698056,
-      "headlineKo": "소식통에 따르면 ECB는 더 많은 신호를 보내고 싶은 욕심 없이 9월 금리 인상을 설정했다. - Reuters"
+      "headlineKo": "호르무즈해협 재개를 위한 이란-오만 회담으로 유가 2달러 하락 - 로이터 통신"
     },
     {
       "headline": "US starts returning staff to Middle East missions after Iran war evacuations, sources say - Reuters",
@@ -296,21 +282,35 @@ const MARKET_DATA = {
       "headlineKo": "채권 루트 종료? 채권 랠리에 대한 대규모 베팅이 옵션 시장을 지배합니다"
     },
     {
+      "headline": "ECB set for September rate hike with no appetite to signal more, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaS1YSEQ1R25MRlpTOGV2WjhEVjJMc1N3MjhGMnhCcUF0WGpMSTh1UTVUTGxIam1MNjh0dURNUWQtdGd5MGZpRTBIcUVuS0dobGhhNlY2UDN5OTYxZzJPTnp4Y0FVWUlzMUN2bGxQQWtnTUVMNENlbXI0bkdFSnFjaDZOdG12VGZLcFdUZUJHWElaVElqMmF0dmpCNTdNejM1UTdISUdGaVYwWW9kSUN4TVUzbw?oc=5",
+      "datetime": 1787685720,
+      "headlineKo": "소식통에 따르면 ECB는 더 많은 신호를 보내고 싶은 욕심 없이 9월 금리 인상을 설정했다. - Reuters"
+    },
+    {
       "headline": "Syria's Kurdish-led SDF dissolves as part of integration with Damascus - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNDhnT2QxNFlGZ3MzTE56cmZZNzQ0XzhxUmZRVURPb3h6Z3BDNW5LdlhLLW5SeGVCZ0tFS054U0UyV0I2UTl6VDJEeXFCQ0Q5d253RkN6dlNDbHFZUDBBdGxpczJTYkEyenVTWHNYSEZWZ2d2OGRQTTNraXhQenlnVGFyVjhDUFFsR2Y5d1IzUEZ2UmFkSVF0YUZ1LUtMLUlsU2RDeERJSTRtbnRLanJPQlF0b3o0aTZi?oc=5",
       "datetime": 1787685584,
       "headlineKo": "시리아 쿠르드족 주도 SDF, 다마스쿠스 통합의 일환으로 해산 - 로이터"
+    },
+    {
+      "headline": "OpenAI says its Broadcom custom chip is a winner. What does that mean for Nvidia?",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/25/openai-says-its-broadcom-chip-is-a-big-advance-what-about-nvidia.html",
+      "datetime": 1787684515,
+      "headlineKo": "OpenAI는 Broadcom 맞춤형 칩이 승자라고 말합니다. 엔비디아에게 이는 무엇을 의미하나요?"
     }
   ],
   "fgi": {
     "score": 58.6,
     "rating": "greed"
   },
-  "_fetched_at": 1787720534.51733,
-  "_updated_label": "2026-08-26 14:02",
-  "_last_attempt_at": 1787720534.51733,
-  "_last_success_at": 1787720534.51733,
+  "_fetched_at": 1787724444.1893907,
+  "_updated_label": "2026-08-26 15:07",
+  "_last_attempt_at": 1787724444.1893907,
+  "_last_success_at": 1787724444.1893907,
   "_collection_status": "ok",
   "_collection_errors": []
 };
