@@ -2128,7 +2128,29 @@ const BUSINESS_NOTES = {
     },
   },
   ANET: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "클라우드 타이탄(Meta, Microsoft 등 대형 하이퍼스케일러)이 핵심 고객 - Microsoft 한 곳이 2025년 매출의 약 26%를 차지한 것으로 보도(고객 집중도 매우 높음).",
+      "2026년 1분기 매출 전년比 35.1% 증가한 27억 900만 달러, 2026 회계연도 매출 가이던스를 약 115억 달러로 상향.",
+      "AI 데이터센터向 이더넷 스위칭 수요 급증 - AI 백엔드 네트워크에서 InfiniBand를 대체하는 흐름 확대.",
+      "2026년 2분기 분기 매출이 사상 처음 30억 달러 돌파.",
+    ],
+    strengths: [
+      "데이터센터 스위칭 시장에서 AI 트렌드를 타고 Cisco를 제치고 1위 자리 유지.",
+      "EOS(Extensible Operating System) 기반 단일 소프트웨어 아키텍처로 고객 락인 효과, 고성능·저지연 스위칭 기술 우위.",
+      "대형 하이퍼스케일러들과의 장기 파트너십을 통해 차세대 AI 클러스터 설계 단계부터 공동 개발, 높은 전환비용.",
+    ],
+    risks: [
+      "⚠️ Microsoft, Meta 등 소수 대형 고객에 대한 매출 의존도가 매우 높아(Microsoft 단독 약 26%), 특정 고객의 설비투자 축소·자체 개발 전환 시 실적 직접 타격 가능.",
+      "Nvidia가 자체 네트워킹 솔루션(스위치·NIC)을 통해 데이터센터 네트워킹 시장에 본격 진출하며 새로운 경쟁자로 부상.",
+      "캠퍼스 네트워킹 등 비 AI 영역에서는 Cisco, HPE(Juniper) 등과의 경쟁이 여전히 치열.",
+    ],
+    sources: [
+      {title:"Microsoft Drives 26% Of Arista Revenue", url:"https://www.tradingview.com/news/gurufocus:09df08b61094b:0-microsoft-drives-26-of-arista-revenue/"},
+      {title:"'AI tailwind' keeps Arista at No. 1 spot in data center switching — now Nvidia looms", url:"https://www.fierce-network.com/cloud/arista-rides-ai-past-cisco-now-nvidia-looms"},
+      {title:"Arista Networks Just Delivered Its First $3 Billion Quarter", url:"https://www.theglobeandmail.com/investing/markets/stocks/MSFT/pressreleases/3662669/arista-networks-just-delivered-its-first-3-billion-quarter-heres-what-it-means-for-the-ai-networking-trade/"},
+      {title:"Arista Networks Raises AI Target As Ethernet Challenges InfiniBand In Cloud", url:"https://finance.yahoo.com/markets/stocks/articles/arista-networks-raises-ai-target-220451447.html"},
+    ],
     role: {
       tags: ["AI 데이터센터 이더넷 스위칭·네트워킹 장비"],
       stars: 4,
@@ -2136,6 +2158,27 @@ const BUSINESS_NOTES = {
     },
   },
   COHR: {
+    updated: "2026-08-26",
+    customers: [
+      "AI 데이터센터向 광트랜시버 및 레이저 부품이 핵심 성장 동력 - 하이퍼스케일 클라우드·AI 인프라 기업들이 주 고객.",
+      "2026회계연도 4분기에는 1.6T 트랜시버 출하가 본격 확대, CPO(Co-Packaged Optics) 관련 매출도 가시화.",
+      "OFC 2026(광통신 전시회)에서 AI 스케일 광학 혁신 제품을 대거 공개하며 업계 리더십 강조.",
+    ],
+    strengths: [
+      "800G/1.6T 등 최첨단 고속 트랜시버 라인업에서 Lumentum과 함께 선두권 형성, 수직계열화된 레이저·광학 부품 제조 역량.",
+      "2026년 8월 미국 FCC가 중국산 광트랜시버 수입 규제를 검토 중이라는 보도로 최대 경쟁사 중국 Innolight(점유율 약 27%)의 입지가 흔들릴 경우 반사이익 기대.",
+      "자체 레이저·광학 소재 생산 능력을 보유해 공급망 수직 통합에 따른 원가·품질 통제력 우위.",
+    ],
+    risks: [
+      "⚠️ 중국 Innolight 등이 이미 글로벌 광트랜시버 상위 10위 중 다수를 차지할 정도로 저가 공세 - 규제 향방에 따라 반사이익·역풍(공급망 내 중국산 인듐 등 소재 의존) 양쪽 시나리오.",
+      "Lumentum, Applied Optoelectronics 등과의 경쟁 심화, 고객사(하이퍼스케일러)의 자체 광학 설계 내재화 시도도 잠재적 위협.",
+      "AI 데이터센터 투자 사이클에 대한 매출 의존도가 높아 향후 AI 설비투자 둔화 시 실적 변동성.",
+    ],
+    sources: [
+      {title:"Coherent Q3 FY 2026: AI Data Center Demand Accelerates Optical Growth", url:"https://futurumgroup.com/insights/coherent-q3-fy-2026-ai-data-center-demand-accelerates-optical-growth/"},
+      {title:"The FCC Mulls Banning China-Sourced Optical Transceivers, Threatening Innolight's 27% Global Market Share", url:"https://wccftech.com/the-fcc-mulls-banning-china-sourced-optical-transceivers-threatening-innolights-27-global-market-share-as-coherent-and-lumentum-prepare-to-pounce/"},
+      {title:"FCC Transceiver Ban Would Cut 60% of AI Data Center Supply; Western Replacements Need Chinese Indium", url:"https://www.techtimes.com/articles/323104/20260805/fcc-transceiver-ban-would-cut-60-ai-data-center-supply-western-replacements-need-chinese-indium.htm"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2166,7 +2209,28 @@ const BUSINESS_NOTES = {
     },
   },
   LITE: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "AI/클라우드向 광트랜시버 및 광학 부품이 핵심 매출원 - Nvidia를 포함한 AI 인프라 및 하이퍼스케일 클라우드 업체가 주요 고객.",
+      "2026회계연도 3분기 매출 전년比 90% 급증한 8억 800만 달러, AI/클라우드 수요가 실적 견인, 영업이익률 2,140bp 확대.",
+      "Nvidia가 실리콘 포토닉스 관련 대규모 투자·파트너십을 추진하는 가운데 핵심 공급망 파트너 중 하나로 거론.",
+    ],
+    strengths: [
+      "800G/1.6T급 고속 광트랜시버 시장에서 Coherent와 함께 선두권 형성, AI 데이터센터 광학 부품 공급망 핵심 공급사.",
+      "Nvidia 등 최상위 AI 인프라 기업과의 긴밀한 파트너십을 통해 차세대 광학 기술(실리콘 포토닉스 등) 공동 개발.",
+      "중국산 광트랜시버(Innolight 등)에 대한 미국 규제 이슈로 반사이익 기대감 형성.",
+    ],
+    risks: [
+      "⚠️ 매출의 상당 부분이 AI/데이터센터 소수 대형 고객사(특히 Nvidia 생태계)에 집중돼 AI 설비투자 사이클 둔화·발주 변경 시 실적 변동성.",
+      "중국 Innolight 등 저가 경쟁사와의 가격 경쟁 지속, 규제 향방에 따라 공급망 내 중국산 소재 의존 리스크.",
+      "Coherent, Applied Optoelectronics 등과의 기술·가격 경쟁이 치열해 시장점유율 변동성 상존.",
+    ],
+    sources: [
+      {title:"[LITE Q3 2026 Earnings Call] Revenue Surges 90% to Record $808M", url:"https://finance.biggo.com/news/US_LITE_2026-05-05"},
+      {title:"Even Nvidia Sees Lumentum as Lighting the Way Forward", url:"https://finance.yahoo.com/news/even-nvidia-sees-lumentum-lighting-175906588.html"},
+      {title:"NVIDIA's $4B Photonics Play: Lumentum vs Coherent", url:"https://tech-insider.org/nvidia-silicon-photonics-lumentum-coherent-ai-data-center-2026/"},
+      {title:"Applied Optoelectronics Rockets 17%, Coherent Climbs 11%, Lumentum Gains 6% on Reported U.S. Ban of Chinese Optics", url:"https://247wallst.com/investing/2026/08/04/applied-optoelectronics-rockets-17-coherent-climbs-11-lumentum-gains-6-on-reported-u-s-ban-of-chinese-optics/"},
+    ],
     role: {
       tags: ["광통신 부품(레이저·옵틱스)"],
       stars: 4,
@@ -2174,6 +2238,29 @@ const BUSINESS_NOTES = {
     },
   },
   GEV: {
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터 전력 수요 급증으로 가스터빈 백로그가 2025년 100GW에서 2026년 116GW로 확대, 2031년 인도분까지 예약 - 유틸리티뿐 아니라 데이터센터 운영사가 직접 슬롯 확보 경쟁.",
+      "2026년 상반기 총 수주가 전년比 88% 급증, 총 백로그는 약 1,760억 달러 수준.",
+      "Power(가스터빈·원자력·증기), Electrification(변압기·송배전), Wind(풍력) 3개 사업부로 전력회사·산업체·재생에너지 개발사 등 폭넓은 고객군.",
+      "Electrification 부문은 변압기·스위치기어 수요 강세로 주문 견조, Wind 부문은 여전히 수익성 약함.",
+    ],
+    strengths: [
+      "대형 가스터빈(HA급 등) 시장에서 Siemens Energy, Mitsubishi Power와 함께 과점 구도 - 데이터센터發 수요 폭증으로 신규 발주 슬롯이 2030년까지 사실상 매진.",
+      "전력망 병목 해소에 필수적인 변압기·송전 장비(Electrification)에서도 강한 수주 모멘텀, 발전~송전 밸류체인 전반 포지션 보유.",
+      "서비스(유지보수·부품) 매출 비중이 높아 설치 기반에서 나오는 반복 매출 구조.",
+    ],
+    risks: [
+      "⚠️ 육상풍력 터빈 설계 결함을 둘러싼 소송 리스크 - Vineyard Wind가 해상풍력 터빈 철수 관련 소송, AEP 등도 결함 터빈 관련 소송 진행 중.",
+      "가스터빈 백로그가 2031년 인도분까지 예약된 만큼, 공급 능력 확장 속도가 수요를 못 따라가면 매출 인식 지연·고객 이탈 리스크.",
+      "Wind 사업부의 구조적 수익성 부진이 전체 이익률 개선을 제약.",
+    ],
+    sources: [
+      {title:"GE Vernova gas turbine backlog climbs to 116 GW", url:"https://www.utilitydive.com/news/ge-vernova-gas-turbine-backlog-climbs-to-116-gw/826039/"},
+      {title:"GE Vernova (NYSE: GEV) Eyes $200 Billion Backlog As AI Infrastructure Boom Drives Historic Energy Demand", url:"https://www.foreignpolicyjournal.com/2026/08/23/ge-vernova-nyse-gev-eyes-200-billion-backlog-as-ai-infrastructure-boom-drives-historic-energy-demand/"},
+      {title:"Vineyard Wind Sues GE Vernova Over Turbine Exit", url:"https://hoodline.com/2026/04/vineyard-wind-takes-ge-vernova-to-court-to-keep-offshore-turbines-spinning/"},
+      {title:"GE Vernova sued over 'onshore wind turbine failures' in US", url:"https://www.windpowermonthly.com/article/1879253/ge-vernova-sued-onshore-wind-turbine-failures-us"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2203,6 +2290,29 @@ const BUSINESS_NOTES = {
     },
   },
   CEG: {
+    updated: "2026-08-26",
+    customers: [
+      "미국 최대 원전 사업자(약 32GW 발전 포트폴리오) - 데이터센터·빅테크向 대규모 전력구매계약(PPA)이 핵심 성장 동력, 2025년 Meta와 20년 PPA, Microsoft와도 장기 계약.",
+      "2026년 8월 Walmart와 920MW 규모 신규 전력계약을 포함해 산업체·유통업체까지 고객군 확대.",
+      "Blue Energy 등 신규 원전/청정에너지 프로젝트에 투자하며 AI 데이터센터發 전력 수요 급증에 대응.",
+      "2026년 순이익 목표를 주당 12.50달러로 상향, 원전 기반 계약이 잇따라 성사되며 실적 가시성 상승.",
+    ],
+    strengths: [
+      "미국 내 최대 규모 원자력 발전 포트폴리오로 24시간 무탄소 기저전력을 안정적으로 공급 - AI 데이터센터가 요구하는 '24/7 카본프리 전력'에 가장 부합.",
+      "신규 원전 건설이 인허가·건설기간(10년 이상) 문제로 사실상 어려운 상황에서, 기존 가동 중인 원전 자산은 대체 불가능한 희소자원으로 평가('핵 스카시티 플레이').",
+      "빅테크와의 장기(20년 단위) PPA를 통해 향후 수익의 예측가능성·안정성 크게 향상.",
+    ],
+    risks: [
+      "⚠️ 규제·요금 승인 리스크 - 원전과 대형 고객(데이터센터) 간 직접 전력공급 계약 확대로 일반 소비자 요금 인상 우려에 따른 정치적·규제적 반발 가능성.",
+      "원전 운영 연장 인가, 안전 규제 등 정책 변화에 따른 비용 변동성.",
+      "데이터센터 고객 의존도가 커질수록 특정 대형 고객(빅테크) 집중 리스크.",
+    ],
+    sources: [
+      {title:"Constellation Signed 920 Megawatts of New Power Deals, Including a Walmart PPA", url:"https://www.fool.com/investing/2026/08/07/constellation-signed-920-megawatts-of-new-power-deals-including-a-walmart-ppa-heres-what-it-means-for-ceg-stock/"},
+      {title:"Constellation Invests in Blue Energy as Nuclear Demand From AI Data Centers Surges", url:"https://www.fool.com/investing/2026/07/19/constellation-invests-in-blue-energy-as-nuclear-demand-from-ai-data-centers-surges-heres-what-ceg-investors-need-to-know/"},
+      {title:"Constellation Energy Lifts 2026 Profit Target to $12.50 as Nuclear Deals Stack Up", url:"https://finance.biggo.com/news/28b747b3-5da3-402a-b6b7-db787b5e3465"},
+      {title:"CEG: The Nuclear Scarcity Play Powering the AI Demand Boom", url:"https://simplywall.st/community/narratives/us/utilities/nasdaq-ceg/constellation-energy/ehd5fv4c-constellation-energy-dollarceg-the-nuclear-scarcity-play-powering-the-ai-demand-boom"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2233,6 +2343,29 @@ const BUSINESS_NOTES = {
     },
   },
   VST: {
+    updated: "2026-08-26",
+    customers: [
+      "텍사스(ERCOT) 중심의 소매 전력 공급과 대규모 발전 포트폴리오(약 41~50GW) - 원전(Comanche Peak 등)·가스·석탄·배터리저장 등 다양한 발전원으로 데이터센터 수요 대응.",
+      "2026년 1월 Meta와 PJM 지역 원전 지원 계약 체결, Oklo·TerraPower와 함께 Meta의 최대 6.6GW 규모 원전 딜에 포함.",
+      "ERCOT·PJM 두 시장 모두에서 여유 용량을 활용해 유연하게 데이터센터向 전력을 공급할 수 있다는 입장.",
+      "'AI 전력 붐의 조용한 승자'로 평가받으며 2027~2028년 실적 성장 스토리가 부각.",
+    ],
+    strengths: [
+      "미국 최대 규모의 경쟁발전사업자 중 하나로, 원자력·가스·석탄·배터리를 아우르는 다변화된 발전 포트폴리오로 특정 연료가격 변동 노출을 분산.",
+      "Comanche Peak 원전은 2053년까지 운영 승인을 받아 장기간 안정적 무탄소 기저전력 공급 가능.",
+      "발전(도매)과 소매 전력판매를 수직계열화해 도소매 마진을 동시에 확보.",
+    ],
+    risks: [
+      "⚠️ ERCOT·PJM 등 도매전력시장 가격 변동성에 이익이 크게 노출돼, 전력가격 하락 국면에서는 실적 변동 폭이 커질 수 있음.",
+      "데이터센터 수요를 둘러싼 각 발전사업자 간 경쟁 심화(가스터빈 슬롯 품귀 등 공급망 병목까지 겹쳐) - 신규 용량 확보 비용 상승 가능성.",
+      "화석연료(가스·석탄) 비중이 여전히 상당해 향후 탄소 규제 강화 시 정책 리스크에 노출.",
+    ],
+    sources: [
+      {title:"Vistra and Meta Announce Agreements to Support Nuclear Plants in PJM", url:"https://investor.vistracorp.com/2026-01-09-Vistra-and-Meta-Announce-Agreements-to-Support-Nuclear-Plants-in-PJM-and-Add-New-Nuclear-Generation-to-the-Grid"},
+      {title:"Meta inks nuclear deals for up to 6.6 GW from Oklo, Vistra, TerraPower", url:"https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/"},
+      {title:"Vistra Is the Quietest Big Winner of the AI Power Boom. Here's Why.", url:"https://www.fool.com/investing/2026/08/23/vistra-is-the-quietest-big-winner-of-the-ai-power/"},
+      {title:"Vistra Receives Approval to Operate Comanche Peak Nuclear Plant Through 2053", url:"https://investor.vistracorp.com/2024-07-30-Vistra-Receives-Approval-to-Operate-Comanche-Peak-Nuclear-Plant-Through-2053"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2263,7 +2396,29 @@ const BUSINESS_NOTES = {
     },
   },
   ETN: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터 전력 인프라(변압기·UPS·배전반 등) 수요 급증이 핵심 성장 동력 - 2026년 1분기 전기(Electrical) 부문 백로그 전년比 48% 급증.",
+      "2026년 2분기 실적에서 데이터센터 관련 백로그가 307GW 돌파, 연간 이익 전망을 주당 13.50달러로 상향.",
+      "2025년 4분기 사상 최대 분기 매출과 함께 수주 가속화, 백로그 지속 성장.",
+      "데이터센터 고객 외에도 산업체·상업용 건물 등 폭넓은 전기 인프라 고객 보유.",
+    ],
+    strengths: [
+      "전력 관리 분야에서 Schneider Electric, ABB, Siemens 등과 경쟁하는 소수 글로벌 대형 업체 - 데이터센터 전력 인프라 슈퍼사이클의 직접적 수혜.",
+      "백로그가 사상 최고 수준으로 누적돼 향후 수년간 매출 가시성이 높음.",
+      "전기·유압·항공우주 등 다각화된 사업 포트폴리오로 특정 산업 사이클 의존도 완화.",
+    ],
+    risks: [
+      "⚠️ 관세(tariff) 및 원자재 비용 리스크 - 전기장비 산업 전반이 미국 관세 정책 변화에 노출.",
+      "Schneider Electric, ABB, Vertiv, Siemens 등과의 경쟁 심화로 대형 데이터센터 프로젝트 수주 경쟁 가능성.",
+      "데이터센터發 수요 의존도가 높아지는 만큼 AI 인프라 투자 사이클 둔화 시 백로그 성장세가 꺾일 리스크.",
+    ],
+    sources: [
+      {title:"Eaton (ETN) Posts Record Q1 Revenue as Electrical Backlog Surges 48% on Data Center Demand", url:"https://news.alphastreet.com/eaton-etn-posts-record-q1-revenue-as-electrical-backlog-surges-48-on-data-center-demand/amp/"},
+      {title:"[ETN Q2 2026 Earnings Call] Eaton Lifts Profit Outlook to $13.50 as Data Center Backlog Tops 307 GW", url:"https://finance.biggo.com/news/US_ETN_2026-07-31"},
+      {title:"Eaton Reports Record Fourth Quarter 2025 Results, with Accelerating Orders and Continued Backlog Growth", url:"https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-fourth-quarter-2025-results.html"},
+      {title:"Electrical Equipment Market Report with Impact Analysis of US Tariffs", url:"https://www.businesswire.com/news/home/20251121260415/en/Electrical-Equipment-Market-Report-with-Impact-Analysis-of-US-Tariffs-Featuring-Samsung-Mitsubishi-Fuji-Honeywell-ABB-Siemens-Schneider-Electric-Vertiv-Eaton-and-General-Electric---ResearchAndMarkets.com"},
+    ],
     role: {
       tags: ["전력관리 인프라", "변압기·배전 설비", "데이터센터 냉각(신규)"],
       stars: 4,
@@ -2271,6 +2426,24 @@ const BUSINESS_NOTES = {
     },
   },
   PWR: {
+    updated: "2026-08-26",
+    customers: [
+      "미국 대형 전력 유틸리티(AEP, NiSource 등)와 통신사가 핵심 고객 - AEP와 2025년 11월 전략적 파트너십을 체결해 송전망·전력 인프라 구축을 장기 공동 추진.",
+      "NiSource向 대형 전력 수요처(데이터센터 추정) 대상 발전·그리드 인프라 솔루션 공급자로도 선정.",
+      "2026년 2분기 기준 수주잔고가 484억 달러(1분기 기준)로 사상 최대치 경신 - AI発 전력수요·재생에너지 전환·노후 송전망 교체 수요 유입.",
+    ],
+    strengths: [
+      "미국 전역에 걸친 대규모 숙련 전기 시공인력 확보가 핵심 경쟁우위 - 업계 만성적 인력난 속에서 신규 수주를 소화할 수 있는 몇 안 되는 대형 시공사.",
+      "발전·송전·배전·재생에너지·통신 등 엔드투엔드 '토탈 솔루션' 제공 역량과 유틸리티들과의 수십 년간 관계·현장 이력이 진입장벽.",
+    ],
+    risks: [
+      "⚠️ 경쟁사 Dycom Industries가 계약 위반을 이유로 소송(수정 소장)을 제기하는 등 업계 내 법적 분쟁 리스크, 인력·자재 비용 상승이 마진을 압박할 가능성.",
+      "대규모 인프라 프로젝트의 수주·매출 인식 특성상 실적 변동성이 크고, 유틸리티 자본지출 계획 변경·금리 환경에 따라 발주 시점이 지연될 위험.",
+    ],
+    sources: [
+      {title:"Quanta Services Inc (PWR) (Q2 2026) Earnings Call Highlights", url:"https://finance.yahoo.com/markets/stocks/articles/quanta-services-inc-pwr-q2-010450600.html"},
+      {title:"Quanta projects 2026 revenue of $39.3B-$39.7B", url:"https://seekingalpha.com/news/4621968-quanta-projects-2026-revenue-of-39_3b-39_7b-as-record-53b-backlog-supports-raised-outlook"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2300,6 +2473,25 @@ const BUSINESS_NOTES = {
     },
   },
   HUBB: {
+    updated: "2026-08-26",
+    customers: [
+      "전력 유틸리티와 데이터센터 건설사가 양대 축 - 유틸리티(그리드 현대화 투자)와 데이터센터向 전기 인프라 수요가 동반 강세.",
+      "2026년 4월 실적 발표에서 데이터센터·유틸리티 수요 호조를 근거로 2026년 이익 가이던스 상향.",
+      "2025년 8월 DMC Power 인수를 통해 송전선 커넥터·부품 사업 확대, NSI 인수 등으로 유틸리티向 제품군 보강.",
+    ],
+    strengths: [
+      "138년 역사(1888년 설립)의 유틸리티·전기 커넥터 분야 브랜드력과 유틸리티 고객사와의 장기 납품 관계가 전환비용을 높임.",
+      "유틸리티 솔루션과 전기 솔루션 2개 사업부 포트폴리오로 그리드 노후화 교체 수요와 데이터센터 전력 인프라 수요 양쪽에 동시 노출.",
+    ],
+    risks: [
+      "⚠️ 관세(원자재·부품 수입) 노출에 따른 원가 상승 리스크가 최근 SWOT 분석에서 반복적으로 지적됨.",
+      "Eaton, Schneider Electric 등 대형 전기장비업체와 직접 경쟁 중이며 이들 대비 규모의 경제에서 열위라는 지적도 존재.",
+      "유틸리티 자본지출 사이클 둔화 시 매출 변동 위험.",
+    ],
+    sources: [
+      {title:"Hubbell Inc (HUBB) Q2 2026 Earnings Call Highlights", url:"https://finance.yahoo.com/markets/stocks/articles/hubbell-inc-hubb-q2-2026-010053485.html"},
+      {title:"Hubbell (HUBB) Powers Ahead with Strong Q2 2026 Earnings, Raised Guidance", url:"https://site.financialmodelingprep.com/market-news/hubbell-hubb-powers-ahead-strong-q2-2026-earnings-raised-guidance"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2330,6 +2522,23 @@ const BUSINESS_NOTES = {
     },
   },
   VRT: {
+    updated: "2026-08-26",
+    customers: [
+      "하이퍼스케일러·AI 데이터센터 사업자가 핵심 고객군 - 2026년 2분기 매출 전년比 24% 성장, 수주잔고가 150억 달러 수준(전년比 약 80% 급증).",
+      "2026년 실적 가이던스를 140억 달러 수준으로 상향하며 AI 인프라发 액체냉각·전력관리 수요 지속 확인.",
+    ],
+    strengths: [
+      "액체냉각 등 데이터센터 열관리·전력관리 분야에서 Schneider Electric과 함께 선두권 - 2분기 조정영업이익률 22.6%로 410bp 확대되는 등 가격전가력·원가통제력 입증.",
+      "관세 우려를 가격-원가 관리로 상쇄하며 조정 잉여현금흐름이 전년比 234% 급증(9억2,500만 달러)해 순현금 전환에 성공.",
+    ],
+    risks: [
+      "⚠️ nVent Electric, Schneider Electric 등 경쟁사들이 액체냉각 시장에 공격적으로 진입 - 경쟁 심화 우려.",
+      "매출이 소수 하이퍼스케일러·AI 데이터센터 발주에 집중돼 AI 설비투자 사이클 둔화 시 수주잔고 소진 속도가 급격히 꺾일 수 있는 고객·산업 집중 리스크.",
+    ],
+    sources: [
+      {title:"Vertiv Q2 2026 earnings: revenue miss sinks stock", url:"https://finance.yahoo.com/markets/stocks/articles/vertiv-q2-2026-earnings-revenue-121320056.html"},
+      {title:"Vertiv (VRT) Stock Sinks Despite Earnings Beat. What to Know.", url:"https://finance.yahoo.com/markets/stocks/articles/vertiv-vrt-stock-sinks-despite-193316117.html"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2360,7 +2569,23 @@ const BUSINESS_NOTES = {
     },
   },
   MOD: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터 냉각(Climate Solutions/CIC 부문, Airedale by Modine 브랜드)이 최근 최대 성장동력 - 2026년 한 대형 데이터센터 고객과 2029년까지 총 40억 달러 규모 장기 생산능력 계약 체결.",
+      "액체냉각 부문 수주가 약 90% 성장, 기존 상용차·산업용 열관리 고객군도 유지되나 성장축은 데이터센터로 이동.",
+    ],
+    strengths: [
+      "열교환기·냉각 기술에서 수십 년간 축적한 엔지니어링 역량을 자동차용에서 데이터센터용 액체냉각으로 빠르게 전환한 사업 재편 능력.",
+      "Gentherm 등 비핵심 자동차 사업 분사 추진을 통해 고성장 데이터센터 냉각 사업에 자본과 역량을 집중시키는 전략적 재포지셔닝.",
+    ],
+    risks: [
+      "⚠️ 데이터센터向 대형 계약 1건(40억 달러 규모)에 대한 의존도가 높아지면서 고객 집중 리스크 확대.",
+      "장기적으로 열관리 시장 내 경쟁 심화 우려, 기존 캐시카우인 자동차 부문은 전동화·수요 둔화로 구조적으로 축소되는 추세라 사업 전환기의 실적 변동성.",
+    ],
+    sources: [
+      {title:"Modine Q1 FY27 slides: 28% revenue surge masks margin pressure", url:"https://www.investing.com/news/company-news/modine-q1-fy27-slides-28-revenue-surge-masks-margin-pressure-93CH-4825724"},
+      {title:"Modine Manufacturing falls as investors revisit margin and execution concerns", url:"https://www.quiverquant.com/news/Modine+Manufacturing+falls+as+investors+appear+to+revisit+margin+and+execution+concerns"},
+    ],
     role: {
       tags: ["열관리·냉각 솔루션(데이터센터 포함)"],
       stars: 4,
@@ -2409,7 +2634,27 @@ const BUSINESS_NOTES = {
     ],
   },
   STX: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터/클라우드 하이퍼스케일러向 니어라인 HDD가 핵심 매출원 - 2026회계연도 4분기 기준 데이터센터 매출이 전년比 57% 증가, 엑사바이트 출하량도 43% 증가.",
+      "AI 학습·추론 데이터 저장 수요 확대로 대용량 HDD 수요가 공급을 초과하는 구조 지속, 안정적 가격 인상 기조 유지.",
+      "HAMR 기술 기반 신제품 채택률이 2026년 2분기 기준 약 40%까지 상승.",
+    ],
+    strengths: [
+      "Seagate와 Western Digital의 사실상 양강 체제로 니어라인 HDD 시장을 과점, 대체 공급자가 제한적.",
+      "HAMR 기술 로드맵에서 앞서 있다는 평가, 2026회계연도 4분기 총마진 52.7%로 13분기 연속 마진 확대.",
+      "영업이익률 목표를 50%까지 제시할 정도로 가격 결정력이 커진 상태 - SSD 대비 압도적인 GB당 원가 우위(대용량 저장 용도).",
+    ],
+    risks: [
+      "⚠️ 2023년 제기된 증권 집단소송(실적·수요 관련 허위·오도성 진술 의혹)이 2026년 8월 약 1억 7,500만 달러 규모 합의로 마무리되는 단계.",
+      "HDD 시장이 Seagate-Western Digital 양강 구도인 만큼, 경쟁사의 HAMR·기술 전환 속도에 따라 가격/마진 우위가 흔들릴 수 있음.",
+      "장기적으로 SSD 원가 하락 시 데이터센터의 일부 워크로드가 SSD로 전환될 가능성.",
+    ],
+    sources: [
+      {title:"[STX Q4 2026 Earnings Call] Seagate Blows Past Estimates with $3.6B Revenue, 52.7% Gross Margin", url:"https://finance.biggo.com/news/US_STX_2026-07-28"},
+      {title:"Seagate and Western Digital Are a Hard Disk Drive Duopoly", url:"https://www.barchart.com/story/news/1689529/seagate-and-western-digital-are-a-hard-disk-drive-duopoly-barchart-ranks-the-storage-stocks-here"},
+      {title:"Bernstein Litowitz / Motley Rice: Proposed Class Action Settlement (Seagate)", url:"https://www.globenewswire.com/news-release/2026/08/11/3342745/0/en/bernstein-litowitz-berger-grossmann-llp-and-motley-rice-llc-announce-proposed-class-action-settlement-on-behalf-of-purchasers-of-seagate-technology-holdings-plc-common-stock.html"},
+    ],
     role: {
       tags: ["HDD(하드디스크)", "엔터프라이즈 대용량 스토리지"],
       stars: 4,
@@ -2458,6 +2703,25 @@ const BUSINESS_NOTES = {
     ],
   },
   EME: {
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터(하이퍼스케일러 및 AI 인프라 구축) 발주가 최대 성장 동력 - 2026년 2분기 매출 전년比 20% 증가한 51.5억 달러, 수주잔고(RPO)는 사상 최대인 171.4억 달러.",
+      "산업·제조 시설, 병원·헬스케어 시설, 상업용 오피스 등 미국 내 전기·기계 설비공사 고객층도 안정적 유지.",
+      "영국 사업 철수 등 비핵심 부문 정리를 통해 미국 내 데이터센터·전력 인프라 수요에 자원을 집중.",
+    ],
+    strengths: [
+      "전기·기계 설비 시공 전문 인력과 프로젝트 관리 역량을 바탕으로 대형·복잡한 데이터센터 프로젝트 수행 이력이 풍부.",
+      "사상 최대 수준의 수주잔고(RPO 171.4억 달러)로 향후 매출 가시성이 높아 경기 변동에 대한 완충 역할.",
+    ],
+    risks: [
+      "⚠️ 매출 성장의 상당 부분이 데이터센터 부문에 집중되면서 AI 관련 설비투자 사이클 둔화 시 수주잔고 성장세가 급격히 꺾일 수 있는 부문 집중 리스크.",
+      "대형 프로젝트 특성상 인건비·자재비 상승 시 마진이 수주잔고 증가 속도만큼 따라가지 못할 수 있다는 우려.",
+      "건설·설비 인력 부족 및 숙련 인력 확보 경쟁이 프로젝트 지연 리스크로 작용 가능.",
+    ],
+    sources: [
+      {title:"EME Q2 Deep Dive: Data Center Demand and Strategic Acquisitions Drive Growth", url:"https://stockstory.org/us/stocks/nyse/eme/news/earnings-call/eme-q2-deep-dive-data-center-demand-and-strategic-acquisitions-drive-growth"},
+      {title:"EMCOR's Data Center Backlog: The Question Is Whether Margins Can Keep Pace", url:"https://www.barchart.com/story/news/1572207/emcor-s-data-center-backlog-the-question-is-whether-margins-can-keep-pace"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2488,6 +2752,25 @@ const BUSINESS_NOTES = {
     },
   },
   FIX: {
+    updated: "2026-08-26",
+    customers: [
+      "AI 데이터센터 및 첨단 반도체 제조시설 등 기술 부문 고객이 최근 성장의 핵심 - 2026년 2분기 매출 30억 달러 돌파, 수주잔고는 140억 달러 안팎까지 확대.",
+      "모듈형(prefabricated) 기계·배관 설비 솔루션에 대한 수요가 확대.",
+      "산업, 제조, 헬스케어, 교육시설 등 전통적 상업용 HVAC/배관 고객군도 유지되나 신규 수주 증가분은 데이터센터·테크 부문에 편중.",
+    ],
+    strengths: [
+      "모듈화(prefab) 설계·생산 역량을 통해 현장 시공기간 단축과 원가 절감을 실현, 대형 데이터센터 발주처들의 빠른 구축 요구에 대응할 수 있는 차별화된 실행력.",
+      "기록적 수준의 수주잔고(약 140억 달러)로 향후 매출에 대한 높은 가시성 확보.",
+    ],
+    risks: [
+      "⚠️ 최근 성장이 소수의 대형 테크/데이터센터 고객사에 집중되면서 고객 편중 리스크가 커지고 있다는 지적이 반복적으로 제기됨.",
+      "급증한 수주잔고를 실제 매출·이익으로 전환하는 실행 리스크(인력, 자재 조달, 프로젝트 관리 역량의 스케일업).",
+      "데이터센터 건설 붐이 진정되거나 경쟁사들의 시장 진입이 늘어날 경우 프로젝트 수주 경쟁 심화 가능성.",
+    ],
+    sources: [
+      {title:"Comfort Systems Q2 2026 slides: revenue tops $3B, backlog hits $14B", url:"https://www.investing.com/news/company-news/comfort-systems-q2-2026-slides-revenue-tops-3b-backlog-hits-14b-93CH-4812234"},
+      {title:"Comfort Systems' Tech Boom: Growth Engine or Concentration Risk?", url:"https://finance.yahoo.com/markets/stocks/articles/comfort-systems-tech-boom-growth-151400994.html"},
+    ],
     newsLog: [
       {
         date: "2026-08-26",
@@ -2517,7 +2800,27 @@ const BUSINESS_NOTES = {
     },
   },
   SBGSY: {
-    updated: "2026-08-19",
+    updated: "2026-08-26",
+    customers: [
+      "데이터센터/AI 인프라 부문이 최근 가장 두드러진 성장 산업 - 전력관리·자동화·산업용 소프트웨어 전 부문에서 관련 수요가 실적 견인.",
+      "2025~2026년 엔비디아와 협력을 확대해 대규모 'AI 팩토리' 구축을 위한 전력·냉각 설계 솔루션을 공동 개발·공급.",
+      "에너지 전환(전동화) 트렌드에 따라 산업체, 상업용 건물, 유틸리티 등 전방위 고객군에서 전력관리 제품 수요 확대.",
+    ],
+    strengths: [
+      "전력관리 및 산업 자동화 분야 글로벌 선도업체 - 데이터센터 전력 인프라(UPS, 배전, 냉각 통합 솔루션) 분야의 폭넓은 제품 포트폴리오.",
+      "엔비디아와의 전략적 파트너십을 통해 차세대 AI 데이터센터 표준 설계에 참여, 기술 표준 선점 효과 기대.",
+      "전동화·에너지 관리·산업 소프트웨어 등 다각화된 사업 포트폴리오로 특정 산업 사이클 의존도가 상대적으로 분산.",
+    ],
+    risks: [
+      "⚠️ 미국 시장에서 SBGSY는 스폰서되지 않은(unsponsored) OTC ADR로 거래되어 거래량이 얇고 유동성이 낮으며, 본주(파리 Euronext 상장) 대비 가격 갱신이 지연되거나 정보 신뢰성이 떨어질 수 있음 - 참고용으로만 보는 것을 권장.",
+      "데이터센터 전력 인프라에 대한 글로벌 경쟁(지멘스, ABB, 이튼 등)이 치열해지고 있어 시장 점유율 방어 부담.",
+      "AI 데이터센터 투자 사이클이 예상보다 둔화될 경우 최근 주가 모멘텀을 이끈 성장 기대치가 조정받을 가능성.",
+    ],
+    sources: [
+      {title:"Data centers remain standout industry for Schneider Electric", url:"https://www.utilitydive.com/news/data-centers-remain-standout-industry-for-schneider-electric/813629/"},
+      {title:"Schneider Electric Accelerates the Development and Deployment of AI Factories at Scale With NVIDIA", url:"https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-accelerates-the-development-and-deployment-of-ai-factories-at-scale-with-nvidia-684989e2ba4801b85e069b2b"},
+      {title:"SBGSY - Schneider Electric SE | Security Details", url:"https://www.otcmarkets.com/stock/SBGSY/security"},
+    ],
     role: {
       tags: ["전력관리·자동화(글로벌 종합 전기업체)"],
       stars: 5,
