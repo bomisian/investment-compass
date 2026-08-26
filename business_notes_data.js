@@ -6,6 +6,30 @@
 // ⚠️ 이 파일은 정확성이 생명이라 추측/일반 지식으로 채우지 말고, 반드시 WebSearch로 확인한
 // 내용만 넣을 것. 확인 못 한 부분은 억지로 채우지 말고 빼는 게 이 프로젝트의 원칙과 일치함.
 const BUSINESS_NOTES = {
+  MARKET: {
+    newsLog: [
+      {
+        date: "2026-08-26",
+        headline: "이란전쟁 6개월·호르무즈 협상 기대에 유가 하락 속, CIA 국장 모스크바 전격 방문",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "수일~수주 (호르무즈 협상 타결 여부와 러시아 방문 후속 보도에 좌우)",
+        facts: ["미국·이스라엘의 이란 공격 개시 6개월째, 전쟁지대에서 나오는 원유가 전 세계 생산량의 약 43%(하루 약 4,500만 배럴) 수준이며 걸프만 지역에서만 하루 약 500만~700만 배럴의 차질이 발생 중이라고 로이터가 보도했다(우크라이나·리비아·베네수엘라 수출 제한까지 겹친 결과).", "이란과 오만이 호르무즈 해협(세계 원유 물동량의 약 20% 통과) 재개통을 위한 협상을 막바지 단계로 진행 중이라는 소식에 WTI 유가가 하락세를 이어갔다(8/25~26 로이터·블룸버그 보도) - 앞서 트럼프 대통령이 이란 에너지시설 공격을 5일 연기하며 협상 진전 시 유가가 급락할 수 있다고 언급한 바 있다.", "CIA 국장 존 랫클리프가 8/25 사전예고 없이 미군 수송기 편으로 모스크바를 방문해 러시아 당국자들과 회동했다(CNN·CBS·Bloomberg 등 확인). 크렘린은 '미국과의 공식 회담'은 부인했고, 우크라이나 평화협상·이란 문제 관련 논의 가능성이 제기됐다. 정확한 의제와 이란/호르무즈 이슈와의 직접 연관성은 보도 시점 기준 추측 단계다."],
+        why: ["유가 하락은 전력·인프라 관련 종목(GEV·CEG·VST·ETN·PWR·HUBB·VRT·MOD·EME·FIX)의 연료·물류 비용 부담을 다소 낮추는 방향이지만, 이 종목군의 핵심 동력은 AI 전력수요이지 유가 자체가 아니라 영향은 제한적이다. 반면 지정학적 불확실성(이란전쟁·러시아 변수)이 장기화되면 시장 전반(QQQ/SPY)의 변동성·리스크프리미엄이 높아져 밸류에이션에 부담을 줄 수 있다."],
+        beginner: ["전쟁이나 외교 이슈로 원유 공급에 차질이 생기면 유가가 오르고, 기업들의 생산·운송비가 늘어 물가 압력이 커져요. 물가가 오르면 금리 인하가 늦어질 수 있고, 이는 주식시장 특히 금리에 민감한 성장주(AI·반도체)에 부담이 돼요. 반대로 오늘처럼 협상 기대로 유가가 내리면 이런 부담이 일시적으로 줄어드는 것으로 해석돼요. 다만 이런 지정학 뉴스는 하루하루 방향이 바뀌기 쉬워서 과도한 의미부여는 금물이에요."],
+        interpretation: "오늘 헤드라인은 '위험은 여전히 크지만 단기적으로는 완화 신호'로 요약된다 - 공급 차질(43%)이 반년째 이어지고 있다는 점에서 리스크는 구조적이나, 호르무즈 협상 진전 기대로 유가는 하락 중이고, CIA 국장의 모스크바 방문은 우크라이나·이란을 아우르는 외교적 움직임의 신호일 수 있다.",
+        decision: "이 대시보드는 개별 종목의 기술적 매수 타이밍(RSI/200일선)을 보는 도구이지 지정학 예측 도구가 아니다. 오늘 헤드라인만으로 워치리스트 종목을 사거나 팔 근거로 쓰지 말고, 평소처럼 단기 신호·장기 눌림목 점수를 그대로 참고하되 유가·VIX 급변 시에만 시장 전체 변동성이 커졌다는 배경 정보로 참고할 것.",
+        watch: ["이란-오만 호르무즈 협상 실제 타결 여부와 유가 방향 전환", "CIA 국장 모스크바 방문 후속 보도(우크라이나 휴전·이란 관련 실질 합의 여부)"],
+        confidence: "원유 공급 차질 규모(43%, 일 500~700만 배럴)와 CIA 국장의 모스크바 방문 사실 자체는 다수 매체가 교차 확인해 신뢰도가 높음. 방문의 정확한 의제, 호르무즈 협상의 최종 타결 여부, 두 사건 간의 연관성은 추측·미확정 단계로 신뢰도가 낮음.",
+        sources: [
+          {title:"Six months into Iran war, almost half of global oil flows from war zones (Reuters/Investing.com)", url:"https://www.investing.com/news/commodities-news/six-months-into-iran-war-almost-half-of-global-oil-flows-from-war-zones-4874470"},
+          {title:"Oil Extends Declines as Iran, Oman Push Talks to Reopen Hormuz (Bloomberg)", url:"https://www.bloomberg.com/news/articles/2026-08-25/latest-oil-market-news-and-analysis-for-aug-26"},
+          {title:"CIA director makes unannounced visit to Moscow to meet with Russian officials, source says (CNN)", url:"https://www.cnn.com/2026/08/25/politics/cia-director-visits-moscow"},
+          {title:"Kremlin denies US talks amid reports CIA Director Ratcliffe in Russia (Al Jazeera)", url:"https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia"},
+        ],
+      },
+    ],
+  },
   QCOM: {
     updated: "2026-08-10",
     customers: [
@@ -475,6 +499,25 @@ const BUSINESS_NOTES = {
         sources: [
           {title:"MU Stock Slides As Netlist Patent Fight Hits DDR5 Outlook (StocksToTrade)", url:"https://stockstotrade.com/news/micron-technology-inc-mu-news-2026_08_18-3/"},
           {title:"Micron Technology Stock Extends Rally As Wall Street Chases AI Upside (StocksToTrade)", url:"https://stockstotrade.com/news/micron-technology-inc-mu-news-2026_08_17-3/"},
+        ],
+      },
+      {
+        date: "2026-08-24",
+        headline: "Micron CEO, CNBC 인터뷰에서 'AI發 메모리 공급부족 2028년까지 못 따라잡을 수도' 경고 - MU 주가 4% 하락, 동종업계 WDC·SNDK는 급등",
+        importance: "high",
+        tone: "mixed",
+        horizon: "향후 2~3년(2028년까지 공급부족 지속 전망), 단기 주가는 즉시 반응",
+        facts: ["Micron CEO 산제이 므로트라가 CNBC 인터뷰(2026-08-22)에서 AI발 고성능·저전력 메모리 수요가 '일시적 붐이 아니라 구조적'이라며, 5년 단위 장기 고객계약이 이를 증명한다고 말했다. 이는 2026년 6월 실적발표 콜에서 '2028년 업계 공급이 점진적으로 개선될 전망이지만 언제 수요를 따라잡을지는 가늠할 수 없다'고 한 발언을 재확인·강조한 것이다. 별도 자료에서는 AI발 D램·낸드 수요가 올해 메모리 산업 전체 시장의 50%를 넘어설 것으로 전망됐고, 골드만삭스는 2026년 D램 공급부족률 5.0%, 2027년 5.9%(2017년 이후 최대)로 전망했다. 발언 직후 MU 주가는 4% 하락한 반면 SanDisk(SNDK)는 5% 이상, Western Digital(WDC)은 4% 급등했다."],
+        why: ["메모리는 대표적인 경기순환(사이클) 상품이라 공급이 늘면 가격이 폭락하는 게 보통인데, CEO는 이번 AI 수요를 '구조적'이라고 못박았다. 공급이 수요를 못 따라가는 상태가 오래 지속되면 메모리 가격이 높게 유지되고 Micron·SanDisk·WDC 등 제조사의 마진이 개선될 가능성이 커진다."],
+        beginner: ["메모리는 컴퓨터·서버의 '단기 기억장치'(D램)와 '저장장치'(낸드) 부품이에요. AI 서버를 만들려면 이 메모리가 훨씬 더 많이, 더 고성능으로 필요한데 공장 짓는 데 몇 년씩 걸려서 공급이 수요를 못 따라가고 있다는 얘기예요. 물건이 부족하면 값이 오르고, 값이 오르면 그 물건을 파는 회사(Micron, SanDisk, Western Digital)는 돈을 더 많이 벌어요."],
+        interpretation: "CEO 발언 자체는 6월 실적발표 내용의 재확인 수준이라 완전히 새로운 정보는 아니지만, '구조적 수요'·'2028년까지도 확신 없음'이라는 표현이 겹치며 메모리 업종 전반(MU·SNDK·WDC)의 장기 공급부족·가격강세 스토리를 강화했다. MU 주가는 오히려 하락하고 SNDK·WDC가 더 크게 오른 점은 시장이 이를 'Micron 개별 호재'가 아니라 '업종 전체 호재'로 해석했음을 시사한다.",
+        decision: "메모리 공급부족 내러티브는 여전히 유효하고 업종 전체(MU/SNDK/WDC)에 우호적이지만, CEO 발언 하나로 새로 매수 타이밍을 잡기보다는 이미 알려진 6월 가이던스의 재확인 수준으로 보고 밸류에이션과 나침반 점수를 함께 확인할 것.",
+        watch: ["다음 Micron 분기 실적에서 HBM·D램 계약가격·매출 비중이 실제로 개선되는지", "SanDisk·Western Digital 실적에도 동일한 낸드 가격강세가 반영되는지"],
+        confidence: "발언 자체(날짜·CNBC 인터뷰·6월 실적콜 인용·주가 반응)는 복수 매체에서 일관되게 확인돼 신뢰도가 높음. 다만 이는 회사 이해관계자인 CEO 본인의 발언으로 자사 제품 수요·가격 전망을 낙관적으로 포장할 유인이 있다는 점을 감안해야 함 - 골드만삭스의 D램 부족률 수치는 제3자 자료라 상대적으로 신뢰도가 더 높음.",
+        sources: [
+          {title:"Micron CEO Sounds Alarm on AI Memory Crunch — Supply May Not Catch Up Until 2028 as Demand Keeps Growing (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/micron-ceo-sounds-alarm-ai-223107015.html"},
+          {title:"Micron CEO Expects Memory Supply To Improve Gradually In 2028, But There's No 'Line Of Sight' When It Will Catch Up To Rising AI Demand (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/micron-ceo-expects-memory-supply-094604951.html"},
+          {title:"AI Memory Squeeze Runs To 2028: Goldman Stays Bullish (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/06/52907425/goldman-memory-shortage-2028-samsung-hynix-kioxia-sandisk-micron"},
         ],
       },
     ],
@@ -1802,6 +1845,27 @@ const BUSINESS_NOTES = {
       stars: 4,
       note: "원래는 자동차·산업용 열관리가 주력이었는데, 데이터센터 사업이 2026 회계연도 매출의 35%(+73% 성장)까지 커지며 빠르게 핵심 사업으로 전환 중이에요. 특히 데이터센터 액체냉각 매출이 +90% 급증했고, 한 전략 고객과 2027~2029년에 걸쳐 $40억 규모의 장기 공급계약까지 체결해 성장 가시성이 높아졌어요.",
     },
+    newsLog: [
+      {
+        date: "2026-08-21",
+        headline: "Hunterbrook 조사보고서 '모딘의 데이터센터 냉각 앵커고객은 구글·아마존' - 파이프라인 최대 $230억 주장, 주가 2.4%↑(단 발행사 이해상충 있음)",
+        importance: "high",
+        tone: "mixed",
+        horizon: "단기(수일~수주) 주가 변동성 + 향후 1~2개 분기 실적에서 확정 여부 확인 시까지",
+        facts: ["2026-08-21 Hunterbrook Media가 'Modine의 앵커 고객은 구글과 아마존'이라는 조사보고서를 발표했고 주가는 당일 약 2.4%(주당 $195.35 부근) 상승했다. 근거는 모딘 내부 데이터베이스로 추정되는 자료(구글 클라우드 이전 과정에서 SharePoint를 통해 노출됐다고 보도)이며, 구글 관련 확정 계약을 약 $40억(2027~2029년), 아마존 관련 총 예상 수요를 약 $123.8억(확정분 $7.41억 포함)으로, 전체 파이프라인을 약 $230억(아마존 클라우드 부문이 절반 이상)으로 제시했다. 다만 Hunterbrook Capital(관계사)이 MOD 주식을 매수 중임을 자체 공시한 이해상충이 함께 보도됐다. 한편 모딘은 별도로 최근 분기 데이터센터 매출이 전분기 대비 31% 증가했고 향후 2개 회계연도 연 50~70% 성장 가이던스를 제시했다."],
+        why: ["이 보도가 사실이면 모딘의 AI 데이터센터 냉각 사업이 빅테크와 직결된 수십억달러 규모 성장동력이 된다는 뜻이라 밸류에이션 재평가 요인이지만, 근거가 회사의 공식 발표가 아니라 이해관계 있는 제3자의 유출 자료 해석이라 확정성에 한계가 있다."],
+        beginner: ["모딘은 원래 자동차·산업용 열관리(라디에이터 같은 냉각장치) 회사인데, 최근 AI 서버를 식히는 데이터센터용 냉각장치로 주목받고 있어요. 이번 소식은 '한 리서치 회사가 모딘 내부 자료로 보이는 것을 입수해서 보니 실제 큰손 고객이 구글과 아마존이더라'는 내용이에요. 문제는 이 자료가 모딘이 공식 확인해준 게 아니라 제3자가 추정한 숫자라서 실제보다 부풀려졌을 가능성도 있다는 점이에요."],
+        interpretation: "구글향 확정 계약($40억)이 존재한다는 점은 모딘의 데이터센터 사업이 실질 규모에 도달했음을 뒷받침하지만, 파이프라인 전체($230억)의 상당 부분은 추정치이고 발표 주체가 해당 주식을 보유·매수 중인 이해관계자라는 점에서 숫자를 그대로 투자 근거로 삼기는 위험하다.",
+        decision: "호재 자체는 회사의 기존 가이던스(연 50~70% 성장)와 방향이 일치해 무시할 뉴스는 아니지만, '확정 vs 추정'을 구분해 다음 분기 실적에서 고객사·매출 숫자가 실제로 확인되는지 지켜본 뒤 판단할 것 - 이 보고서 하나로 추격 매수할 근거로는 약함.",
+        watch: ["다음 모딘 분기 실적에서 데이터센터 부문 매출·고객 관련 코멘트가 추정치와 부합하는지", "구글·아마존의 공식 확인 여부, Hunterbrook Capital의 MOD 포지션 변화"],
+        confidence: "주가 반응·보고서 발행 사실·구글향 $40억 '공식 발표' 계약 존재는 여러 매체가 일치해 신뢰도가 비교적 높음. $230억 전체 파이프라인·아마존 추정치는 이해상충 있는 제3자의 자체 분석이라 신뢰도가 낮음 - 확정 계약과 추정 수요를 반드시 구분해서 볼 것.",
+        sources: [
+          {title:"Modine Stock Jumps After Report Names Google, Amazon as Data Center Cooling Customers (Benzinga)", url:"https://www.benzinga.com/trading-ideas/movers/26/08/61357400/modine-stock-jumps-after-report-names-google-amazon-as-data-center-cooling-customers"},
+          {title:"BREAKING: Modine's Anchor Multi-Billion-Dollar Customers Are Google and Amazon (Hunterbrook)", url:"https://newsletter.hntrbrk.com/p/breaking-modines-anchor-multi-billion"},
+          {title:"Modine shares climb after Hunterbrook highlights data centre cooling opportunity (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/modine-shares-climb-hunterbrook-highlights-133102168.html"},
+        ],
+      },
+    ],
   },
   STX: {
     updated: "2026-08-19",
@@ -1810,6 +1874,27 @@ const BUSINESS_NOTES = {
       stars: 4,
       note: "WDC와 함께 HDD 시장을 양분하는 듀오폴리 업체예요(실측: WDC 약 47% · STX 약 42%, 3위 도시바는 격차가 큼). 2026년 하드드라이브 생산량을 이미 전부 AI 데이터센터에 판매 완료했고, 넘라인(고용량) 드라이브가 매출의 87%까지 확대될 만큼 AI 스토리지 슈퍼사이클의 직접 수혜주예요.",
     },
+    newsLog: [
+      {
+        date: "2026-08-25",
+        headline: "Seagate 임원 3인(CEO·CFO·법무총괄) 동시 매도·옵션행사 - 연중 100~290% 급등 후 조정 국면과 겹쳐",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "수주~1분기 내 추가 내부자 매도 지속 여부로 판단 가능, 단독으로는 장기 방향성 신호 아님",
+        facts: ["2026-08-25 같은 날 Seagate(STX) 임원 3명 관련 보도가 동시에 나왔다 - James C. Lee(최고법무책임자)가 약 $335만 상당 주식을 매도했고, CEO William D. Mosley는 스톡옵션을 행사해 차익을 실현했으며(다른 보도에서는 CEO의 매도 규모가 최대 $1,540만대로도 언급), CFO Gianluca Romano는 옵션을 행사했다. 같은 기간 집계로 Seagate 내부자 전체 매도 규모가 $2,600만을 넘는 것으로 보도됐다. Seagate는 2026년 들어 AI 스토리지(HAMR) 수요 기대로 연초 대비 100%대~한때 290%대까지 급등했다가, 8월 실적 발표 후 재차 급등한 뒤 8/18(-8.25%)·8/19(-6.52%)·8/24(-5.92%) 등 며칠 연속 큰 폭 조정을 겪었다 - 즉 이번 매도·옵션행사는 연중 대폭등 후 되밀리는 국면에서 나왔다."],
+        why: ["CEO·CFO급이 같은 날 동시에 매도·옵션행사를 하면 주목도는 높지만, 대부분 사전에 정해둔 Rule 10b5-1 매도계획이나 세금 원천징수용(옵션 행사에 따른 자동 매도)인 경우가 많아 '지금 회사 전망이 나쁘다고 봐서 판다'는 의미로 단정하기 어렵다. 다만 연간 100%가 넘는 급등 뒤에 여러 임원의 매도가 겹치는 것은 차익실현·분산투자 동기로 보는 게 자연스럽다."],
+        beginner: ["'옵션 행사'는 임원이 예전에 회사에서 받은 '싼 값에 주식을 살 수 있는 권리'를 실제로 사용해 주식을 손에 넣는 것이고, 이후 그 주식을 시장에 파는 게 '매도'예요. 많은 임원 매도는 'Rule 10b5-1 계획'이라는, 몇 달 전에 미리 정해둔 자동매도 프로그램에 따라 기계적으로 실행돼요 - 즉 오늘 아침에 즉흥적으로 결정한 게 아니라 이미 짜여진 스케줄대로 나가는 경우가 많다는 뜻이에요."],
+        interpretation: "3명의 임원이 같은 날 매도·옵션행사 필링을 낸 것은 헤드라인상 임팩트가 크지만, 최근 수개월간 Seagate 내부자 거래가 원래 매도 위주였고 이번 사건이 연중 대폭등 후 조정 구간과 겹친다는 점을 함께 보면 '경영진 이탈 신호'보다는 '급등 뒤 차익실현·세금처리성 매도'로 보는 게 더 타당하다.",
+        decision: "이 임원 매도·옵션행사만으로 매도·매수 판단을 바꾸지 말고, 최근 급등에 대한 자연스러운 차익실현 정도로 참고만 할 것.",
+        watch: ["향후 1~2개월간 추가 Form 4 필링에서 매도 규모·빈도가 더 늘어나는지", "8월 조정이 실적 펀더멘털 훼손 때문인지 단순 차익실현 때문인지 다음 분기 가이던스로 재확인"],
+        confidence: "매도 금액·3인의 매도/옵션행사 발생 사실·8월 중순 실적 서프라이즈 및 급락 수치는 복수 매체로 교차 확인돼 신뢰도가 높음. 다만 CEO의 정확한 매도 금액, '연초 대비 100~290%' 급등폭은 기사마다 인용 시점이 달라 편차가 있어 대략적 맥락으로만 신뢰할 것.",
+        sources: [
+          {title:"James C. Lee Executes Sell Order: Offloads $3.35M In Seagate Technology Hldgs Stock (Benzinga)", url:"https://www.benzinga.com/news/26/08/61412101/james-c-lee-executes-sell-order-offloads-3-35m-seagate-technology-hldgs-stock"},
+          {title:"Seagate Technology Insiders Sold Shares Worth Over $26M (TradingView News)", url:"https://www.tradingview.com/news/tradingview:dee8be871cdb2:0-seagate-technology-insiders-sold-shares-worth-over-26m/"},
+          {title:"Up 290% YTD, How High Can Seagate Rally? (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/290-ytd-high-seagate-rally-200746978.html"},
+        ],
+      },
+    ],
   },
   EME: {
     updated: "2026-08-19",

@@ -72,44 +72,44 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 80.44000244140625,
-      "prevClose": 85.01000213623047,
-      "changeAbs": -4.569999694824219,
-      "changePct": -5.375837642611383,
-      "pctRank": 63.086714399363565,
+      "current": 80.48999786376953,
+      "prevClose": 82.36000061035156,
+      "changeAbs": -1.8700027465820312,
+      "changePct": -2.2705229877657342,
+      "pctRank": 63.27503974562798,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -28.782643103331118,
-      "ma20": 82.36899948120117,
-      "ma60": 80.91850001017252,
-      "chg1m": -2.1699981689453125,
-      "chg3m": -13.449996948242188,
-      "chg1mPct": -2.626798393551153,
-      "chg3mPct": -14.32527109987933,
+      "drawdown1y": -28.73837977998973,
+      "ma20": 82.26649932861328,
+      "ma60": 80.75599988301595,
+      "chg1m": 1.2299957275390625,
+      "chg3m": -8.19000244140625,
+      "chg1mPct": 1.551849223300513,
+      "chg3mPct": -9.235456036560526,
       "lastDate": "2026-08-26",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 98.93699645996094,
+      "current": 98.94200134277344,
       "prevClose": 98.91999816894531,
-      "changeAbs": 0.016998291015625,
-      "changePct": 0.0171838772040752,
-      "pctRank": 25.914149443561207,
+      "changeAbs": 0.022003173828125,
+      "changePct": 0.022243402987680825,
+      "pctRank": 26.073131955484897,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6306506587288725,
-      "ma20": 99.54335021972656,
-      "ma60": 100.31928367614746,
-      "chg1m": -2.4430007934570312,
-      "chg3m": -0.27300262451171875,
-      "chg1mPct": -2.4097463598763977,
-      "chg3mPct": -0.27517652155129024,
+      "drawdown1y": -2.6257250777994012,
+      "ma20": 99.5436004638672,
+      "ma60": 100.31936709086101,
+      "chg1m": -2.4379959106445312,
+      "chg3m": -0.26799774169921875,
+      "chg1mPct": -2.4048096041572298,
+      "chg3mPct": -0.2701317852760297,
       "lastDate": "2026-08-26",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -118,23 +118,23 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4699.5,
-      "prevClose": 4640.7998046875,
-      "changeAbs": 58.7001953125,
-      "changePct": 1.2648723880140036,
-      "pctRank": 95.4653937947494,
+      "current": 4717.7998046875,
+      "prevClose": 4638.10009765625,
+      "changeAbs": 79.69970703125,
+      "changePct": 1.7183697064132852,
+      "pctRank": 95.70747217806041,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -11.636956861235815,
-      "ma20": 4339.654956054687,
-      "ma60": 4217.591666666666,
-      "chg1m": 625.0,
-      "chg3m": 199.10009765625,
-      "chg1mPct": 15.339305436249848,
-      "chg3mPct": 4.42405346139487,
+      "drawdown1y": -11.29287207965639,
+      "ma20": 4370.739953613282,
+      "ma60": 4220.611661783854,
+      "chg1m": 681.499755859375,
+      "chg3m": 270.2998046875,
+      "chg1mPct": 16.88426894965942,
+      "chg3mPct": 6.077567277965149,
       "lastDate": "2026-08-26",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -226,11 +226,25 @@ const MARKET_DATA = {
       "headlineKo": "미 스파이 최고 책임자가 회의, 언론 보도를 위해 러시아를 방문하다 - 로이터"
     },
     {
-      "headline": "US oil prices extend losses on hopes of Iran-Oman talks on Strait of Hormuz - Reuters",
+      "headline": "Trump sends Saudi nuclear deal to Congress but says Riyadh must recognize Israel - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQlo4djdVdDNyZ2pOQWpMS2ZnblpzdUhoSzZRRGxpR29YSW1PUl9JUmNNYzgtSXZtbDh0a0xxekVuNlVYTWVGWS1RdkE2RXdqVGJFdGE0Z2l3V0ZvaE1hWGFjNHo2RXJjOGw1RFhOSkJnTGpuMHJId1BqcTRDRmhERkZWMGh0bDMzaWpHMTVHZ05UN29UbzZMTG5Valh1dkgwbFNRZFZqRmFZU3dVdXlpbkpZVm5vVzhQeEZEWEtaOHEzeTZ1VUE?oc=5",
+      "datetime": 1787700240,
+      "headlineKo": "트럼프는 사우디 핵 협상을 의회에 보냈지만 리야드는 이스라엘을 인정해야 한다고 말했다 - 로이터"
+    },
+    {
+      "headline": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWGpaTWZvaVNwRmNHZEJSYm5oVkZEanpaNEMyLXlEQUZWM0dDSVVycmxLdlJXUXg0MVlCVTN4SUptQ3pqUWg1dlVYV1k3aTgwWlhYMTZHcURfcEZZR1BydDNIVVBQbXhkendYWnRzbWJSbWVndmpyYnljV3ZpVlE3X2dmNmxPMjYyMWJQQ1VCUWs1RmR1UWdIY1ZGTXRiNzlKbmN1WGtBX2Y3TG5LUDBfVW1Ud0ZkVWhMbWc?oc=5",
-      "datetime": 1787699178,
-      "headlineKo": "미국 유가는 호르무즈 해협에서 이란-오만 회담에 대한 희망으로 손실을 확대한다. - 로이터"
+      "datetime": 1787698980,
+      "headlineKo": "호르무즈 해협 재개를 위한 이란-오만 회담으로 유가 2% 하락 - 로이터"
+    },
+    {
+      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
+      "datetime": 1787698837,
+      "headlineKo": "베센트의 D-Day 제재는 더 안지오적이지만, 이란의 대응이 핵심 - 로이터"
     },
     {
       "headline": "Iraq may show how U.S. can squeeze Iran's trade partners - Reuters",
@@ -238,6 +252,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHZhOEZodlIwT1prS0U3TnlSaVdzcnJwMkcwOElIUXBfOVB6aWljYllncXJCMDhiQlhxRDRCX3pOblVnNWp1Ny1qRTlWZHBzZ3NLNnBzWTVRSnZjamdWTWdONkJ0TFRHZTA2Qmtpaks1N3gtcDhKTzFEYi0wdkFZOFNYVVFCNWtZZWZPd0ZYWFN4OUJFQWFZWVhiR0Y4SVBIcUxudTB6M2JSRVU?oc=5",
       "datetime": 1787698543,
       "headlineKo": "이라크는 미국이 이란의 무역 파트너를 어떻게 압박할 수 있는지 보여줄 수 있다. - 로이터"
+    },
+    {
+      "headline": "Explainer: Why the bond market may be resetting expectations about the US - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
+      "datetime": 1787698237,
+      "headlineKo": "설명: 채권시장이 미국에 대한 기대를 재설정하는 이유 - Reuters"
     },
     {
       "headline": "ECB set for September rate hike with no appetite to signal more, sources say - Reuters",
@@ -261,20 +282,6 @@ const MARKET_DATA = {
       "headlineKo": "이란과 오만, 임시 호르무즈 회랑에 대해 논의하다 미국과 교착 상태에 빠지다 - 로이터"
     },
     {
-      "headline": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
-      "datetime": 1787695064,
-      "headlineKo": "베센트의 D-Day 제재는 더 안지오적이지만, 이란의 대응이 핵심 - 로이터"
-    },
-    {
-      "headline": "Why the bond market may be resetting expectations about the US - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeEtCYVJGWXZVMG1WcGJUUnZCaXd2ZEJqZWVhbzlrYm4yMzc2MndzUV8td2pRbHVmRGprZmFhVmNUaHNkR2o1SFVpb2RIaFZIUy0zek1qdGl6WkhaVFRLdXpLQnVxemxpSW5VX3dTYnlpbkRPWkpBSDc0MkQ0Um84QklpNzdqSVdqeXFIa2NpalhxQjIyTW42WUZHOW91WVE4dktseW1EYUY0LXBpVmZv?oc=5",
-      "datetime": 1787693342,
-      "headlineKo": "채권 시장이 미국에 대한 기대치를 재설정할 수 있는 이유 - 로이터"
-    },
-    {
       "headline": "2 of our software stocks face major tests of whether their rallies are for real",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/08/25/2-of-our-software-stocks-face-major-tests-of-whether-their-rallies-are-for-real.html",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdkJKLVFhNWZCTm9nbWRDa0FEZklXZzJIa1pDQmF6aFFndlBpVHRMWnBsS2kzaGhjWXd2ZFBfN1A2czRPY2xmZ0lzVm12OHU2dXBWa3lvclpHZENUMFlEN1JMUW9kM3VMbmtnNTRNUmlzY1daSVJ0MjUzV2x2d2ZENS1VdklOZWtON3NRN2ZaRHdmeFR1Q2tDTWJVblFHNEE1YlBHZ3NaRkdPSkRIWWcwT0Rnd094UmNHTWZUVnQyZ1RFZw?oc=5",
       "datetime": 1787687424,
       "headlineKo": "Barron Trump에 대한 이란의 비디오 위협에 대한 미국 비밀 요원 인식 - Reuters"
-    },
-    {
-      "headline": "Bond rout ending? Massive bets on bond rally dominate options market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/25/bond-rout-ending-massive-bets-on-bond-rally-dominate-options-market-.html",
-      "datetime": 1787686937,
-      "headlineKo": "채권 루트 종료? 채권 랠리에 대한 대규모 베팅이 옵션 시장을 지배합니다"
     }
   ],
   "fgi": {
     "score": 58.8,
     "rating": "greed"
   },
-  "_fetched_at": 1787708777.9334428,
-  "_updated_label": "2026-08-26 10:46",
-  "_last_attempt_at": 1787708777.9334428,
-  "_last_success_at": 1787708777.9334428,
+  "_fetched_at": 1787712494.99754,
+  "_updated_label": "2026-08-26 11:48",
+  "_last_attempt_at": 1787712494.99754,
+  "_last_success_at": 1787712494.99754,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -3442,6 +3442,7 @@ function renderMarketCard(){
       </div>
     </details>
     ${newsBlock}
+    ${renderNewsLog('MARKET', '오늘의 시장 헤드라인 해석')}
     <div class="sub" style="margin-top:10px;">지표 갱신: ${esc(M._updated_label||'-')} · 레벨은 최근 5년 일별 데이터 기준 백분위예요.</div>`;
 }
 function earningsBadge(ticker){
@@ -4526,7 +4527,7 @@ function renderAnalystLog(ticker){
 // watch[](다음에 확인할 포인트, gpt의 watch와 동일 - renderViewLog의 watchNext와 같은 패턴).
 // 구형 항목(coreAnalysis/whyItMatters/beginnerSummary만 있는 기존 ORCL 등 15여개 로그)은 그대로
 // 두고 렌더러가 두 형식을 다 지원하도록 함 - 기존 데이터를 굳이 다시 쓸 필요 없게.
-function renderNewsLog(ticker){
+function renderNewsLog(ticker, label){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
   const log = n && n.newsLog;
   if(!log || !log.length) return '';
@@ -4565,7 +4566,7 @@ function renderNewsLog(ticker){
       </article>`;
   }).join('');
   return `
-    <div class="chart-label" style="margin-top:0;">${esc(ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
+    <div class="chart-label" style="margin-top:0;">${esc(label||ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
     <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard의 필드 구성과 카드 디자인을 참고해 이식했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
     ${entries}`;
 }
