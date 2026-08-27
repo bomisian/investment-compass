@@ -9,6 +9,25 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-08-27",
+        headline: "엔비디아 Q2(FY27) 실적 컨센서스 상회 - 매출 $962억·EPS $2.22, 3분기 가이던스 $1,080억도 예상 상회 (다만 시간외 주가는 초반 하락 후 반등하는 혼조 반응)",
+        importance: "high",
+        tone: "positive",
+        horizon: "즉시(시간외~다음날 정규장 변동성) 및 향후 1분기(3분기 가이던스 달성 여부)",
+        facts: ["엔비디아가 2026-08-26 장마감 후 발표한 2분기(FY27) 매출은 $962억으로 컨센서스($936억)를 웃돌았고, 데이터센터 매출은 $890억(예상 $854억 상회, YoY +117%)을 기록했다.", "비GAAP EPS는 $2.22로 예상($2.09~2.13)을 상회했고, GAAP EPS는 $2.46(YoY +128%)이었다.", "3분기 매출 가이던스로 $1,080억(±2%)을 제시해 월가 예상($1,039억)을 상회했다 - S&P500 기업 중 분기 매출 $1,000억을 넘긴 9번째 기업이 됐다.", "회사는 가이던스에 '중국向 데이터센터 매출을 전혀 반영하지 않았다'고 명시해 수출규제 리스크를 보수적으로 반영했다.", "시간외 주가는 발표 직후 -1.3% 하락했다가, CFO 콜레트 크레스의 컨퍼런스콜 코멘트 이후 반등해 한때 +5%까지 오르는 등 변동성이 컸다."],
+        why: ["매출·이익·가이던스 모두 상회한 '비트 앤 레이즈'였음에도 주가가 즉각 강하게 반응하지 않은 것은, 최근 몇 분기 연속 상회에도 주가가 정체된 패턴(Wedbush 분석)이 이어지며 시장이 '이 정도 상회는 이미 눈높이에 반영됐다'고 보고 있다는 신호로 해석된다."],
+        beginner: ["엔비디아가 발표한 성적표는 매출·이익·다음 분기 전망까지 전부 시장 예상보다 좋았어요. 그런데 주가는 발표 직후 잠깐 떨어졌다가 다시 오르는 등 왔다갔다했어요. 실적이 나빠서가 아니라, 이미 다들 '엔비디아는 잘할 것'이라고 기대하고 있었던 눈높이가 너무 높아져서, 예상보다 조금 잘한 정도로는 주가가 크게 안 움직이는 상황인 거예요.", "회사는 중국에 파는 매출은 아예 다음 분기 전망에 포함시키지 않았다고 밝혔는데, 이건 중국 수출 규제 리스크를 미리 보수적으로 깔아둔 것으로, 오히려 나중에 중국 매출이 재개되면 추가 상승 여력이 될 수도 있는 부분이에요."],
+        interpretation: "실적 자체의 펀더멘털은 훼손되지 않았고 오히려 데이터센터 성장률(+117% YoY)이 견조하다는 점이 확인됐다. 다만 '상회해도 주가가 크게 안 오르는' 최근 패턴이 반복되고 있어, 이번 실적을 다른 반도체·AI인프라 종목(TSM·AVGO·MU·AMD·ARM·MRVL 등)의 동반 매수 신호로 곧바로 해석하기보다는 향후 며칠간의 실제 주가 흐름을 확인하는 게 안전하다.",
+        decision: "실적 자체는 긍정적이나 시장 반응이 아직 명확하지 않으므로, 발표 다음날 정규장 마감 후 실제 주가 반응과 관련 종목 동반 흐름을 한 번 더 확인하고 판단할 것.",
+        watch: ["다음날 정규장에서 NVDA 실제 종가 반응(시간외 변동성이 정규장까지 이어지는지)", "TSM·AVGO·MU·AMD·ARM·MRVL 등 관련 종목의 동반 반응 여부", "중국向 매출 재개 관련 향후 코멘트(가이던스에 미반영된 업사이드 요인)"],
+        confidence: "매출·EPS·가이던스 수치는 회사 SEC 공식 발표(8-K) 기준으로 신뢰도 높음. 시간외 주가 변동폭과 애널리스트 코멘트는 Kiplinger·CoinDesk 등 복수 매체 보도 기준.",
+        sources: [
+          {title:"NVIDIA Q2 FY2027 Earnings Press Release (SEC 8-K)", url:"https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm"},
+          {title:"Nvidia tops earnings estimates, guides to $108 billion in revenue next quarter (CoinDesk)", url:"https://www.coindesk.com/markets/2026/08/26/nvidia-tops-earnings-estimates-guides-to-usd108-billion-in-revenue-next-quarter"},
+          {title:"Nvidia Earnings: Live Updates and Commentary August 2026 (Kiplinger)", url:"https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-august-2026"},
+        ],
+      },
+      {
         date: "2026-08-26",
         headline: "이란전쟁 6개월째, 전세계 원유 생산의 약 43%가 전쟁지대에서 산출 - 구조적 공급 리스크 지속",
         importance: "medium",
