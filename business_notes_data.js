@@ -526,6 +526,44 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    newsLog: [
+      {
+        date: "2026-08-23",
+        headline: "트럼프 측 신탁 계좌, 6월에 팔란티어 주식 매수한 사실이 재무공개서류로 드러남",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "수주~수개월, 정치적 논란이 잦아들면 영향력 감소",
+        facts: [
+          "미 정부윤리국(OGE) 재무공개서류에 따르면 트럼프 측 계좌가 6월 3일, 23일, 24일 세 차례에 걸쳐 팔란티어(PLTR) 주식을 매수한 것으로 확인됐어요.",
+          "6월 3일 매수분은 1,001~15,000달러 구간으로 신고됐고(공직자 재무공개는 정확한 금액 대신 구간으로 신고), 6월 23·24일 매수는 6월 14일 미국-이란 평화협정 발표 직후 이뤄졌지만 정확한 금액은 공개되지 않았어요.",
+          "이 소식이 보도된 8월 23일 기준 PLTR 주가는 8월 한 달간 +46%, 8월 3일 실적발표 이후로는 +43% 급등한 상태였어요.",
+          "같은 시기 애널리스트 평균 목표주가는 197.89달러(컨센서스 Moderate Buy, 매수 16·보유 4·매도 2)였고, 포워드 PER은 112.2배로 업종 중앙값 23.19배를 크게 웃돌았어요.",
+        ],
+        why: [
+          "팔란티어는 국방·정보 등 정부 계약 의존도가 높은 회사인데, 그 계약을 발주하는 행정부의 수장 측이 개인적으로 주식을 보유하고 있다는 사실은 이해상충 논란을 키울 수 있어요.",
+          "이미 트레일링 PER 150배 이상으로 밸류에이션이 높은 상태에서 주가가 최근 한 달 새 추가로 46% 뛴 만큼, 정치적 뒷받침에 대한 기대가 일부 반영돼 있다면 그 기대가 흔들릴 때 변동성이 커질 수 있어요.",
+        ],
+        beginner: [
+          "미국 대통령 쪽 계좌가 6월에 팔란티어 주식을 샀다는 게 정부의 공개 신고서를 통해 알려졌어요.",
+          "정확히 얼마를 샀는지는 세세히 안 밝혀졌고(가장 작은 건은 100만원~2천만원 정도 구간), 그 자체가 불법은 아니지만 '정부와 계약이 많은 회사 주식을 정부 관계자가 산다'는 점에서 뒷말이 나올 수 있는 사안이에요.",
+          "이 소식이 나온 시점에 팔란티어 주가는 이미 실적발표 이후 한 달 새 40% 넘게 오른 상태였어요.",
+        ],
+        interpretation: "직접적인 실적 재료는 아니지만, 정부 의존도가 높은 팔란티어에 정치적 이해상충 프레임이 씌워질 수 있는 뉴스로, 밸류에이션이 이미 부담스러운 상황에서 헤드라인 리스크 하나가 추가된 셈이에요.",
+        decision: "이 뉴스만으로 매매 판단을 바꿀 필요는 없지만, 이미 고평가 구간에서 정치적 논란까지 겹치면 단기 변동성이 커질 수 있다는 점을 감안해 포지션 크기를 관리하는 게 좋아요.",
+        watch: [
+          "추가 재무공개(향후 분기 OGE 신고)에서 매도·매수 내역이 더 나오는지",
+          "이해상충 관련 의회나 언론의 후속 문제 제기 여부",
+          "포워드 PER 112배 수준에서 밸류에이션 되돌림이 나오는지",
+        ],
+        confidence: "매수 날짜(6/3, 6/23, 6/24)와 6/3 매수분의 금액 구간($1,001~$15,000)은 OGE 재무공개서류를 인용한 TipRanks 기사에 직접 기재된 확인된 사실이에요. 정치적 함의(이해상충 논란, 주가에 미친 영향)에 대한 해석은 제 판단이 섞인 부분이니 구분해서 봐 주세요.",
+        sources: [
+          {
+            title: "Trump's Accounts Bought Palantir Stock in June. Is PLTR Still a Buy After a 46% Rally?",
+            url: "https://www.tipranks.com/news/trumps-accounts-bought-palantir-stock-in-june-is-pltr-still-a-buy-after-a-46-rally",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["정부·상업 AI 데이터분석 플랫폼(Gotham·Foundry·AIP)"],
       stars: 4,
@@ -587,6 +625,39 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익률 수치는 SEC 공시 기반 캐시 데이터(다만 20-F/IFRS라 SEC us-gaap 검증은 적용 안 됨, Finnhub/Yahoo 폴백 기준) · CAPEX·가이던스·최대고객 관련 사실관계는 WebSearch로 확인(newsLog 참고) · 지정학 리스크 판단은 일반적으로 알려진 사실이며 Claude가 새로 조사한 건 아님",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 1조 2,703.8억 대만달러(약 402.0억 달러)로 전년 대비 36.0%, 전분기 대비 12.0% 증가하며 시장 컨센서스(약 1조 2,640억 대만달러)를 웃돌았고, 순이익은 7,065.6억 대만달러(EPS 27.25대만달러, ADR 기준 주당 4.31달러)로 전년 대비 77.4% 급증했어요.",
+        oneTime: "공식 실적발표 자료(2Q26 Earnings Release, SEC 제출본)에는 손상차손이나 환헤지 손익 같은 일회성 항목이 별도로 공시되지 않았어요. 다만 2나노 초기 램프업에 따른 3~4%p 수준의 매출총이익률 희석은 일회성이 아니라 신규 공정 초기에 반복적으로 나타나는 구조적 비용이라 구분해서 봐야 해요.",
+        coreRead: "7나노 이하 첨단 공정이 웨이퍼 매출의 77%(3나노 30%, 2나노 3%)를 차지했고 HPC(AI 포함) 매출은 전분기 대비 20% 늘며 전체 매출의 66%까지 올라왔어요. 매출총이익률은 2분기 67.7%에서 3분기 가이던스 66% 중간값으로 낮아지는데, 이는 수요 둔화가 아니라 2나노 램프업 초기 원가 부담 때문이라고 회사가 명시했어요. 2026년 연간 매출 성장 가이던스를 '전년 대비 40%대 초반'으로 재상향했고(기존 대비 상향), 2026년 자본지출 가이던스도 520~560억 달러에서 600~640억 달러로 올렸어요. 애리조나에는 기존 확약분 위에 1,000억 달러를 추가 투자해 총 2,650억 달러 규모로 늘리고, 2나노 양산 가능한 팹과 첨단 패키징까지 포함해 최대 12개 공장(기존 8개+신규 4개)을 검토 중이라고 밝혔지만, 유의미한 생산 비중을 갖기까지는 여전히 시간이 걸릴 사안이에요. CEO는 가격을 '한 번에 4~5배' 올리는 방식이 아니라 고객과의 장기 파트너십을 우선한다고 밝혀, 가격 결정력은 있지만 공격적으로 쓰기보다 물량 확대와 첨단 공정 믹스 개선으로 마진을 지키는 전략으로 읽혀요.",
+        forecast: "3분기 매출은 회사 가이던스(446억~458억 달러) 상단에 근접하거나 소폭 상회하고, 2나노 램프 디스카운트에도 매출총이익률은 가이던스 중간값(66%) 이상을 지킬 거라고 봐요. 만약 3분기 매출이 440억 달러를 밑돌거나 매출총이익률이 65% 아래로 떨어지면 이 예상은 틀린 걸로 봐주세요.",
+        confidence: "매출·순이익·EPS·기술노드별 매출 비중·가이던스 수치는 TSMC 공식 실적발표 자료와 SEC 제출본에 근거한 확인된 사실이에요. 애리조나 투자 확대(1,000억 달러 추가, 총 2,650억 달러)와 팹 개수, 2026년 자본지출 상향폭, HPC 매출 비중은 실적 컨퍼런스콜과 보도를 종합한 것으로 역시 확인된 수치예요. 반면 가격 결정력에 대한 해석과 3분기 실적 전망은 제 개인적인 판단이라 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "TSMC Reports Second Quarter EPS of NT$27.25",
+            url: "https://pr.tsmc.com/english/news/3326",
+          },
+          {
+            title: "TSMC Q2 2026 earnings: Record profit, $100 billion Arizona investment",
+            url: "https://finance.yahoo.com/markets/stocks/articles/tsmc-q2-2026-earnings-record-112109987.html",
+          },
+          {
+            title: "TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%",
+            url: "https://www.cnbc.com/2026/07/16/tsmc-second-quarter-profit-.html",
+          },
+          {
+            title: "Taiwan Semiconductor Reports Q2 2026 Results: Full Earnings Call Transcript",
+            url: "https://www.benzinga.com/news/26/07/60504620/taiwan-semiconductor-reports-q2-2026-results-full-earnings-call-transcript",
+          },
+          {
+            title: "Taiwan Semiconductor Manufacturing Co Ltd",
+            url: "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000451/a2q26e_withguidancexfinal.htm",
+          },
+        ],
       },
     ],
     role: {
@@ -1168,6 +1239,35 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-05-31 마감 분기 (FY26 4분기, 6월 10일 발표)",
+        headline: "FY26 4분기 매출이 192억 달러(전년비 +21%)로 시장 예상을 웃돌았고, 비GAAP EPS도 2.11달러(+24%)로 컨센서스 1.96달러를 상회했어요.",
+        oneTime: "비GAAP EPS 2.11달러에는 특정 거래에서 나온 일회성 순투자이익이 섞여 있어서, 이를 빼면 실질 성장률은 24%가 아니라 20%(EPS 약 2.03달러)로 낮아져요. GAAP 기준으로는 순이익 42억 달러(+23%), 희석 EPS 1.45달러(+21%)였어요.",
+        coreRead: "RPO가 6,380억 달러(전년비 +363%, 전분기 대비 +850억 달러)로 다시 폭증했고, 이 중 750억 달러는 고객이 선불하거나 하드웨어를 직접 대는 부분이라 오라클이 전부 자기 돈으로 짓는 건 아니에요. 다만 FY26 잉여현금흐름은 -237억 달러 적자(영업현금흐름은 320억 달러, +54%로 견조)였고, FY26 한 해에만 부채 430억 달러·신주 50억 달러를 새로 조달했어요. 7월 9일 S&P가 신용등급을 BBB에서 BBB-로 한 단계 강등(정크본드 바로 위 등급)하면서, FY27 capex가 기존 가이던스 600억 달러대에서 900~950억 달러로 뛰고 FCF 적자도 -420억 달러로 거의 두 배가 될 거라 지적했고, 오픈AI 한 곳이 RPO의 약 50%를 차지하는 고객 집중 리스크도 강등 사유로 꼽았어요. 총부채는 약 1,670억 달러 수준이에요.",
+        forecast: "FY27 1분기(2026년 8월 마감, 9월 중순 발표 예정) 실적에서는 매출 성장률이 회사 가이던스 27~29%대를 유지하되, OCI 매출 증가율은 이번 분기 93%에서 70~80%대로 다소 둔화될 것으로 봐요. 잉여현금흐름은 계속 마이너스를 유지하고, FY27 전체 400억 달러 규모 자금조달(부채+지분, 그중 200억 달러는 ATM 증자) 중 일부가 이 분기 내 실행되는지가 관전 포인트예요.",
+        confidence: "매출·EPS·RPO·GAAP/비GAAP 수치, capex·자금조달 가이던스, S&P 강등 날짜(7/9)와 등급(BBB-)은 오라클 공식 발표와 S&P 발표에 기반한 확인된 사실이에요. FY27 1분기 OCI 성장률 둔화 전망과 자금조달 실행 시점 예측은 제 해석이니 실제와 다를 수 있어요.",
+        sources: [
+          {
+            title: "Oracle - Oracle Announces Record Q4 and FY 2026 Results Driven by Cloud Infrastructure & Cloud Applications",
+            url: "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Record-Q4-and-FY-2026-Results-Driven-by-Cloud-Infrastructure--Cloud-Applications/default.aspx",
+          },
+          {
+            title: "Oracle Q4 FY2026: Record Revenue $19.2B, OCI Surges 93%, But Financing Risk Drives Stock Down to $142",
+            url: "https://www.tradingkey.com/analysis/stocks/us-stocks/262124382-oracle-orcl-q4-fy2026-19-2b-revenue-oci-5-8b-93-rpo-638b-fy2027-90b-capex-financing-risk-tradingkey",
+          },
+          {
+            title: "Oracle Q4 2026 Earnings: $638B Backlog Turns AI Cloud Growth into Funding Test",
+            url: "https://erp.today/oracle-q4-2026-earnings-ai-cloud-backlog-funding/",
+          },
+          {
+            title: "Oracle stock shrugs off S&P downgrade to 'BBB-', but $160B debt shadow looms",
+            url: "https://finance.yahoo.com/markets/stocks/articles/oracle-stock-shrugs-off-p-185346661.html",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["기업 DB·ERP(레거시)", "OCI 클라우드(AI 인프라)"],
       stars: 3,
@@ -1244,6 +1344,43 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY2026 4분기)",
+        headline: "매출 900억 달러(전년비 +18%)로 컨센서스 874.4억 달러를 2.9% 상회했고, GAAP EPS $4.81은 컨센서스 $4.21 대비 14.3%나 웃돌았어요 (7/29 발표 후 시간외 주가 +7~8%).",
+        oneTime: "GAAP EPS $4.81 vs 비GAAP(조정) EPS $4.74로 차이가 꽤 커요 — 앤스로픽 투자 지분평가익 32억 달러, 예상보다 적었던 자발적 퇴직 프로그램(VRP) 비용이 플러스 요인이었고, 반대로 정리해고 관련 비용과 Xbox 상각(impairment)이 마이너스로 상쇄해서 순 디스크리트 항목이 EPS를 $0.27 끌어올렸다고 회사가 직접 밝혔어요. 즉 이번 분기 GAAP 서프라이즈의 상당 부분은 일회성이라 액면 그대로 보면 안 돼요.",
+        coreRead: "일회성 빼고 봐도 본업은 탄탄해요. Azure가 전년비 43% 성장(직전 분기 40%에서 가속)하면서 연환산 매출이 처음으로 1000억 달러를 돌파했고(FY26 전체로는 +41%), Intelligent Cloud 부문 매출 393억 달러(+32%)로 컨센서스 381.6억 달러를 상회했어요. Copilot은 유료 시트가 한 분기 만에 2000만→3000만 개로 뛰어서 역대 최대 분기 순증을 기록했고요(단, 시트당 매출·활성사용률은 아직 공개 안 함 — 대형 기업 딜에 할인이 꼈다는 얘기도 있어요). 반면 More Personal Computing은 129억 달러(-4%)로 Windows OEM·Xbox가 부진했고 Xbox는 매출 -10%(약 49.8억 달러)에 상각까지 겹쳤어요. 다만 설비투자(Capex)가 이번 분기만 410억 달러로 계속 불어나고 있어서, 클라우드 성장의 질은 좋아도 잉여현금흐름 압박은 여전히 관전 포인트예요.",
+        forecast: "다음 분기(2026-09-30 마감, FY2027 1분기)는 회사 가이던스 기준 매출 898.5~909.5억 달러(+16~17%), Azure 성장률 약 45% 근방(가이던스 상단 포함하면 43~46% 밴드)으로 예상해요. Copilot 유료 시트는 순증 속도가 계속 붙어서 3500만~4000만 개 구간 진입 가능성이 있다고 봐요. 다만 Capex가 500억 달러를 넘을 것으로 가이던스가 나와서(리스 재분류 영향 포함), 매출 서프라이즈가 나와도 잉여현금흐름/마진 우려로 주가는 실적 발표 직후 변동성이 클 걸로 예상해요 — 이 capex 숫자와 시장 반응이 맞았는지가 다음 검증 포인트예요.",
+        confidence: "매출 900억 달러, GAAP 순이익 358억 달러(+31%)·EPS $4.81, 비GAAP EPS $4.74, 부문별 매출(Productivity & Business Processes 378억 달러 +14%, Intelligent Cloud 393억 달러 +32%, More Personal Computing 129억 달러 -4%), Azure +43%, Copilot 유료 시트 3000만 개, $0.27 디스크리트 항목 효과, Capex 410억 달러, 다음 분기 가이던스(매출 898.5~909.5억 달러·Azure ~45%·Capex 500억 달러 초과)는 마이크로소프트 공식 실적발표 자료 기준 확정 사실이에요. 컨센서스 대비 서프라이즈 폭(매출 +2.9%, EPS +14.3%, 애널리스트 예상치 수치)은 언론 보도(Shacknews) 인용치라 출처사마다 약간 다를 수 있고, '다음 분기 예측' 부분은 전적으로 제 해석이라 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "Microsoft (MSFT) Q4 FY26 earnings results beat revenue and EPS expectations",
+            url: "https://www.shacknews.com/article/150182/microsoft-msft-q4-fy26-earnings-results",
+          },
+          {
+            title: "FY26 Q4 - Press Releases - Investor Relations - Microsoft",
+            url: "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          },
+          {
+            title: "[MSFT Q4 2026 Earnings Call] Azure Accelerates to 43%, Guides 45% Next Quarter; Copilot Paid Seats Double to Over 30 Million — BigGo Finance",
+            url: "https://finance.biggo.com/news/US_MSFT_2026-07-29",
+          },
+          {
+            title: "Azure Tops $100B, Copilot Paid Seats Jump to 30M in Microsoft Blowout Quarter",
+            url: "https://www.techtimes.com/articles/322143/20260729/azure-tops-100b-copilot-paid-seats-jump-30m-microsoft-blowout-quarter.htm",
+          },
+          {
+            title: "XBOX + Microsoft FY26 Q4 Results: Total -10% ($4.983B), Content and Services -10%, Hardware -13%",
+            url: "https://www.installbaseforum.com/forums/threads/xbox-microsoft-fy26-q4-results-total-10-4-983b-content-and-services-10-hardware-13.4724/",
+          },
+          {
+            title: "Microsoft (MSFT) Q4 2026 Preview: EPS Est. $4.24, Reports July 29 - Alphastreet",
+            url: "https://news.alphastreet.com/microsoft-msft-q4-2026-preview-eps-est-4-24-reports-july-29/",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["기업용 클라우드(Azure)", "오피스365·M365 구독", "AI(Copilot)", "게임(엑스박스)"],
       stars: 4,
@@ -1308,6 +1445,43 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익·OCF 수치는 SEC 공시 기반 캐시 데이터 · 감원 규모·CAPEX 가이던스는 복수매체 보도 기준(newsLog 참고) · '투자 확대가 이익률에 미칠 영향'에 대한 판단은 Claude의 정성적 해석",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 $200.6B(+20% YoY)로 사상 처음 $200B 돌파하며 시장 예상치를 상회했고, 영업이익 $27.5B(+43% YoY), GAAP 희석EPS $5.75로 컨센서스(약 $1.7~1.8 추정)를 거의 3배 웃돌았어요.",
+        oneTime: "GAAP 순이익 $62.6B(전년 $18.2B 대비 +245%) 중 상당 부분은 영업외 비영업이익 $53.4B(주로 앤트로픽 지분 재평가 이익)에서 나온 거예요. 이게 없으면 순이익 증가율은 영업이익 증가율(+43%)에 훨씬 가까웠을 거고요. 로컬 데이터에서 올해 컨센서스 EPS($12.49)가 내년($10.48)보다 높게 잡힌 이유도 바로 이 2분기 일회성 지분평가익(주당 약 $5 이상 기여 추정) 때문일 가능성이 커요 — 내년엔 이 정도 규모의 재평가 이익이 반복될 근거가 없거든요.",
+        coreRead: "핵심 사업은 진짜 좋아요. AWS 매출 $42.2B(+37% YoY, 18분기 만에 최고 성장률)에 영업이익률 39.4%, 전사 영업이익의 60.5%를 AWS 혼자 만들어내고 있어요(매출 비중은 21.1%뿐인데도). 광고 매출도 $19.8B(+26%)로 고마진 성장 지속, 북미 매출 +16%($116.2B, 영업이익 $9.1B), 인터내셔널은 +15%($42.2B)에 영업이익 $1.7B(마진 4.1%)로 흑자 기조 굳혔어요. 다만 2026년 capex를 $220B로 상향(메모리 가격 상승 영향 포함)했고 TTM capex가 $173B(+$66.1B YoY)까지 늘어서, AI 인프라 투자 사이클이 당분간 감가상각 부담으로 이어질 걸로 보여요.",
+        forecast: "3분기(2026-09-30 마감) 가이던스는 매출 $197~202B(+9~12% YoY), 영업이익 $22.5~26.5B로 2분기보다 낮게 잡혔어요. 앤트로픽 같은 대형 비영업 재평가 이익이 3분기에 다시 나올 근거는 없으니, GAAP EPS는 2분기 $5.75보다 크게 낮아지고(대략 $1대 초중반 예상) 대신 영업이익 기준 성장(전년比 두 자릿수%)은 이어질 거라고 봐요. AWS 성장률은 33~37% 밴드를 유지할 걸로 예상하고요.",
+        confidence: "매출/영업이익/순이익/EPS 수치와 세그먼트 실적, $53.4B 비영업이익 규모, 3분기 가이던스는 Amazon 공식 2분기 실적발표 및 SEC 제출자료 기준 확정 사실이에요. 다만 '내년 EPS가 낮은 이유가 이 일회성 이익 때문'이라는 연결과 3분기 GAAP EPS 구체 수치 예측은 제 해석이고, 실제 컨센서스 산정 근거를 직접 확인한 건 아니라서 다를 수 있어요.",
+        sources: [
+          {
+            title: "Amazon Q2 2026 earnings report: Read the release",
+            url: "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+          },
+          {
+            title: "AMAZON.COM ANNOUNCES SECOND QUARTER RESULTS",
+            url: "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+          },
+          {
+            title: "Amazon Q2 2026 Earnings: AWS Accelerates 37% as a $53B Anthropic Gain Rewrites Profit | Beancount.io",
+            url: "https://beancount.io/blog/2026/07/31/amazon-fy2026-q2-earnings-analysis",
+          },
+          {
+            title: "Amazon's $53.4B Anthropic Gain Distorts Big Tech Q2 Earnings | AI Weekly",
+            url: "https://aiweekly.co/alerts/amazons-534b-anthropic-gain-distorts-big-tech-q2-earnings",
+          },
+          {
+            title: "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+            url: "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+          },
+          {
+            title: "Amazon Q2 2026: EPS Triples Estimates at $5.75, Revenue Tops $200B First Time - GamesReviews.com",
+            url: "https://gamesreviews.com/news/07/amazon-q2-2026-eps-triples-estimates-at-5-75-revenue-tops-200b-first-time/",
+          },
+        ],
       },
     ],
     role: {
@@ -1401,6 +1575,51 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-27 마감 분기 (FY26 3분기, 팀 쿡의 마지막 실적 발표)",
+        headline: "매출 1,094억 달러(전년비 +16%)·순이익 298억 달러(EPS +29%)로 컨센서스를 웃돌았는데도, 다음 분기(9월 마감) 가이던스가 기대에 못 미치고 메모리 공급 제약 경고가 겹치면서 발표 직후 주가는 6% 넘게 급락했어요.",
+        oneTime: "이번 분기 GAAP 이익에는 관세 환급금 약 22억 달러(2.2B)가 일회성으로 반영돼 마진을 끌어올렸어요 — 이걸 빼고 보면 실질 이익 개선폭은 헤드라인보다 완만해요.",
+        coreRead: "아이폰·맥·서비스 매출이 모두 6월 분기 기준 사상 최대치를 찍었지만, 서비스 매출은 '기록'과 별개로 애널리스트 컨센서스에는 못 미쳤다는 평가가 다수예요 — 서비스 성장 둔화 시그널로 봐요. 중국 매출 성장도 둔화됐고, 다음 분기엔 D램·낸드 등 메모리 공급 제약이 '상당히(significantly)' 심해질 거라고 회사가 직접 경고했어요. 이번이 팀 쿡의 마지막 실적 발표였다는 점에서, 존 터너스 체제로의 전환이 임박했고 시리 2.0 타이밍 이슈는 여전히 해소되지 않은 채 다음 CEO에게 넘어가는 그림이에요.",
+        forecast: "다음 분기(2026년 9월 마감, FY26 4Q) 실적에서는 메모리 공급 제약이 실제로 아이폰/맥 출하량과 마진을 눌러 매출 가이던스 하단 근처이거나 소폭 미달할 가능성에 무게를 둬요. 관세 환급 같은 일회성 요인 없이도 로컬 컨센서스 EPS 트랙(연 8.81달러 수준)을 유지하는지가 핵심 체크포인트고, 이 예측은 틀릴 수 있어요.",
+        confidence: "매출 1,094억 달러, 순이익 298억 달러, EPS +29%, 관세 환급 22억 달러, 발표 후 주가 6%+ 하락, 이번이 팀 쿡의 마지막 실적발표라는 점은 복수 매체가 보도한 확인된 사실이에요. '서비스 매출이 컨센서스에 못 미쳤다', '가이던스가 약하다'는 평가는 애널리스트·매체의 해석이고, 이를 시리 2.0/CEO 전환 이슈와 연결한 coreRead·forecast 부분은 제 해석이에요.",
+        sources: [
+          {
+            title: "Apple Reports 3Q 2026 Results: $29.8B Profit on $109.4B Revenue",
+            url: "https://www.macrumors.com/2026/07/30/apple-3q-2026-earnings/",
+          },
+          {
+            title: "Apple reports third quarter results",
+            url: "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+          },
+          {
+            title: "Apple Reported a Massive Quarter – But a $2.19B Tariff Refund Did the Heavy Lifting",
+            url: "https://finance.yahoo.com/markets/stocks/articles/apple-reported-massive-quarter-2-160630119.html",
+          },
+          {
+            title: "Apple Q3 2026 earnings beat estimates but services revenue misses",
+            url: "https://finance.yahoo.com/markets/stocks/articles/apple-q3-2026-earnings-beat-211056445.html",
+          },
+          {
+            title: "Apple warns supply constraints will increase 'significantly' next quarter",
+            url: "https://9to5mac.com/2026/07/30/apple-warns-supply-constraints-will-increase-significantly-next-quarter/",
+          },
+          {
+            title: "Apple Q3 2026 Earnings: Record Revenue, Worsening Mac Supply, and a Below-Consensus Q4 Outlook",
+            url: "https://www.techtimes.com/articles/322442/20260731/apple-q3-2026-earnings-record-revenue-worsening-mac-supply-below-consensus-q4-outlook.htm",
+          },
+          {
+            title: "iPhone, Mac and Services revenue set new June quarter records",
+            url: "https://www.mactech.com/2026/07/30/iphone-mac-and-services-revenue-set-new-june-quarter-records/",
+          },
+          {
+            title: "One last time, this is Tim: Final transcript of Apple's Q3 2026 earnings call",
+            url: "https://sixcolors.com/post/2026/07/one-last-time-this-is-tim-transcript-of-apples-q3-2026-financial-call/",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["프리미엄 스마트폰(아이폰)", "생태계 서비스(앱스토어 등)", "소비자 락인"],
       stars: 4,
@@ -1484,6 +1703,27 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익률·FCF 수치는 SEC 공시 기반 캐시 데이터(이번 세션에 Q1'23 등 과거 매출 오류를 수정한 뒤의 정확한 값) · 보상안 승인·로보택시 지연은 복수매체 확인 · '점수는 높지만 밸류에이션은 여전히 비싸다'는 구분은 Claude의 정성적 해석이자 이 종목 판단의 핵심 포인트",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026 회계연도 2분기)",
+        headline: "매출은 282.4억 달러로 시장 예상(약 264억 달러)을 웃돌았지만 비GAAP EPS는 0.33달러로 컨센서스 0.53달러를 크게 밑돌았고 전년 대비로도 -18%예요.",
+        oneTime: "규제 크레딧 매출이 전년 4.39억 달러에서 1.46억 달러로 67% 급감했는데(2025년 9월 연방 EV 세액공제 만료·연비 벌금 폐지 영향으로 경쟁사들이 크레딧을 살 이유가 사라짐), 여기에 머스크 2025년 CEO 보상 패키지에 따른 주식보상비용(세후 약 9.89억 달러)이 겹치면서 영업비용이 47% 급증(43.5억 달러)했어요. GAAP 영업이익은 이 두 요인으로 57% 급감했어요.",
+        coreRead: "GAAP 영업마진이 1.4%(전년 4.1%)까지 내려앉았지만 이는 규제크레딧 소멸+주식보상비용이라는 일회성·구조적 성격이 섞인 요인이 커요. 반대로 오토모티브 매출은 205.2억 달러(+23%)에 480,126대 인도로 분기 기록을 세웠고, 매출총이익률은 16.8%로 41bp 하락에 그쳐 판매가 압박은 제한적이에요. 특히 영업현금흐름은 47.0억 달러(+85%)로 오히려 크게 늘었는데, 설비투자가 57.9억 달러(+142%)로 급증하면서 잉여현금흐름만 -10.9억 달러로 2024년 초 이후 처음 마이너스 전환됐어요 — 이건 이익 훼손이라기보다 AI·로보택시·옵티머스 투자 사이클로 읽는 게 맞아요. 에너지 저장은 13.5GWh 배치(+40%)로 여전히 가장 빠르게 크는 사업인데, 이번 분기는 벤더 셀 이슈로 인한 워런티 비용이 일부 마진을 깎았어요.",
+        forecast: "3분기(2026-09-30 마감)에는 규제크레딧이 이미 바닥권이라 추가 급감 폭은 크지 않겠지만, 옵티머스·로보택시 투자로 영업비용 증가세는 이어져 비GAAP EPS는 0.35~0.45달러 구간에 머물 것으로 봐요. 오토모티브 인도량은 계절적 성수기 효과로 490,000~510,000대 사이로 소폭 늘어날 것으로 예상해요.",
+        confidence: "매출·이익·마진·현금흐름·인도량 수치는 테슬라 공식 IR 실적 발표(2026년 7월 22일 발표, 2분기 실적)를 인용한 확인된 사실이고, 3분기 EPS·인도량 전망치와 '투자 사이클'이라는 해석은 제 판단이에요.",
+        sources: [
+          {
+            title: "Tesla (TSLA) releases Q2 2026 financial results: record revenue, big profit miss",
+            url: "https://electrek.co/2026/07/22/tesla-tsla-q2-2026-financial-results/",
+          },
+          {
+            title: "Tesla Q2 Earnings: Revenue $28.2B, Income Falls 57% | TSLA Stock News",
+            url: "https://www.stocktitan.net/news/TSLA/tesla-releases-second-quarter-2026-financial-opf5vkit2vhk.html",
+          },
+        ],
       },
     ],
     role: {
@@ -1571,6 +1811,43 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-04-30 마감 분기 (FY27 1분기, 2026-05-27 발표)",
+        headline: "1분기 매출 111억 달러로 전년 대비 13%(환율 제외 12%) 늘며 시장 예상을 웃돌았고 비GAAP EPS도 3.88달러로 컨센서스 3.12달러를 크게 상회했지만, 2분기(113.5억 달러) 및 FY27 연간(462억 달러) 매출 가이던스 상단이 컨센서스(각각 113.6억, 461.2억 달러)에 못 미쳐 발표 후 시간외 주가 반응은 미온적이었어요.",
+        oneTime: "비GAAP 조정 폭이 꽤 커요 — 1분기 스톡기반보상(SBC)만 8.7억 달러(구조조정 관련 제외)에, 별도로 구조조정·인수 관련 비용 9600만 달러가 더 반영됐어요. 그 결과 GAAP 영업이익률(21.1%)과 비GAAP 영업이익률(34.8%) 사이 격차가 13.7%p나 벌어지고, GAAP EPS(2.42달러)가 비GAAP EPS(3.88달러)의 62%밖에 안 돼요.",
+        coreRead: "핵심은 Agentforce예요 — 출시 14개월 만에 연환산매출(ARR) 12억 달러를 돌파(+205% YoY)했고 Data Cloud와 합치면 34억 달러(+200% YoY)까지 커졌어요. 다만 전체 고객 기반 대비 실제 도입률은 아직 한 자릿수(약 6%)라는 추정도 같이 나와 초기 단계 느낌이에요. GAAP 이익보다 훨씬 덜 왜곡된 지표인 영업활동현금흐름은 67억 달러(+3% YoY), 잔여계약이행의무(cRPO)는 336억 달러(+14% YoY)로 핵심 구독 비즈니스 자체는 여전히 견조해 보여요. 다만 실적콜에서 마케팅·커머스 클라우드 부진, Tableau 매출 둔화, Informatica 인수 관련 라이선스 매출 변동성을 '가이던스를 끌어내리는 세 가지 요인'으로 콕 집어 언급한 건 성장 둔화 신호로 봐야 해요.",
+        forecast: "다음 실적(FY27 2분기, 2026-07-31 마감분기, 통상 9월 초 발표)에서 매출은 가이던스 상단인 113.5억 달러 안팎에서 나오고, Agentforce+Data Cloud 합산 ARR은 40억 달러를 넘어설 것으로 예상해요. 반면 마케팅·커머스 부문 매출 증가율은 한 자릿수 초반에 머물러 전체 성장률(10~11%)을 계속 끌어내릴 가능성이 높다고 봐요 — 만약 이 부문이 두 자릿수 성장으로 반등하거나 전체 매출 성장률이 12%를 넘으면 이 예측은 틀린 걸로 봐주세요.",
+        confidence: "매출·GAAP/비GAAP EPS·영업이익률·SBC·영업현금흐름·RPO·가이던스 수치는 회사의 공식 실적 발표(SEC 8-K 첨부 보도자료)에 나온 확인된 사실이에요. Agentforce 실제 고객 도입률(~6%)이나 다음 분기 전망 부분은 여러 매체 해석과 제 추정이 섞여 있어 확정치는 아니라는 점 감안해주세요.",
+        sources: [
+          {
+            title: "Salesforce Delivers Record First Quarter Fiscal 2027 Results",
+            url: "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/crm-q1fy27xexhibit991.htm",
+          },
+          {
+            title: "Salesforce Delivers Record First Quarter Fiscal 2027 Results",
+            url: "https://www.salesforce.com/news/press-releases/2026/05/27/fy27-q1-earnings/",
+          },
+          {
+            title: "Salesforce Q1 FY2027 earnings beat, guidance disappoints",
+            url: "https://finance.yahoo.com/markets/stocks/articles/salesforce-q1-fy2027-earnings-beat-114153377.html",
+          },
+          {
+            title: "Salesforce beats on earnings and revenue but full-year guidance comes in light",
+            url: "https://www.cnbc.com/2026/05/27/salesforce-crm-q1-earnings-report-2027.html",
+          },
+          {
+            title: "Agentforce Hits $1.2B ARR at 6% Customer Adoption",
+            url: "https://ivristech.com/salesforce-q1-fy27-agentforce-arr-adoption-gap/",
+          },
+          {
+            title: "Salesforce raises full-year revenue guidance as 'Agentforce' ARR hits $1.2 billion",
+            url: "https://finance.yahoo.com/markets/stocks/articles/salesforce-raises-full-revenue-guidance-150244428.html",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["기업용 SaaS(영업·서비스·마케팅 클라우드)", "AI 에이전트(Agentforce)"],
       stars: 3,
@@ -1645,6 +1922,39 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익률 수치는 SEC 공시 기반 캐시 데이터 · 어닝비트 후 주가하락·Helios 출하 개시는 복수매체 확인(newsLog 참고) · '기대치 선반영' 해석은 Claude의 정성적 판단",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY2026 2분기)",
+        headline: "매출 115.4억 달러(+50% YoY)로 컨센서스 112.8억 달러 상회, 비GAAP EPS $1.66도 예상치 $1.62를 이겼고 3분기 매출가이던스(130억±3억 달러)도 컨센서스 125억 달러를 웃돌았지만, GAAP·비GAAP 마진이 각각 54%·56%로 시장 기대(56% 안팎)를 밑돌면서 실적 발표 후 주가가 시간외 8~9% 하락했어요.",
+        oneTime: "이번 분기엔 뚜렷한 일회성 항목이 없어요. 노트에 언급된 수출규제 관련 8억 달러 재고충당금은 전년동기인 2025년 2분기 실적에 반영됐던 것이고, 2026년 2분기 GAAP-비GAAP 차이(순이익 22.97억 달러 vs 27.60억 달러)는 주식보상비용·인수 관련 무형자산 상각 같은 통상적 항목 위주예요.",
+        coreRead: "데이터센터 매출이 67.2억 달러(+107% YoY, 전체 매출의 58%)로 성장 엔진 역할을 계속하고 있고, EPYC·Instinct GPU 수요가 견조해요. 다만 CFO Jean Hu가 마진 하락 원인으로 'Helios 램프'를 직접 지목했는데, 랙당 500만~550만 달러짜리 Helios 랙스케일 시스템(Anthropic·Meta·Microsoft·OpenAI·Oracle향)이 3분기부터 본격 양산에 들어가면서 초기 생산원가와 미성숙한 GPU 수율이 마진을 눌렀다는 거예요. 매출 성장은 확실히 진짜인데, 비GAAP 마진 가이던스가 3분기에도 56%로 '유지'만 되고 개선되지 않은 게 시장이 실망한 포인트예요 — 즉 지금 로컬데이터의 FY2027 EPS $15.49(전년비 2배 이상) 컨센서스는 매출 볼륨 증가뿐 아니라 이 마진 개선까지 함께 가정하고 있다는 뜻이라 달성 난이도가 꽤 높아 보여요.",
+        forecast: "3분기(9월 마감) 실적에서 매출은 가이던스 상단(약 133억 달러) 근처이거나 이를 넘어설 가능성이 높다고 봐요(최근 분기 연속 컨센서스 상회 흐름). 하지만 비GAAP 마진이 57% 이상으로 뚜렷하게 개선되지 못하면, 매출을 이겨도 주가는 이번처럼 또 한 번 실적 발표 직후 하락할 가능성이 크다고 예상해요. Helios 수율 이슈가 지속되면 마진 개선은 4분기 이후로 밀릴 수 있어요.",
+        confidence: "매출·EPS·가이던스 숫자와 데이터센터 매출 성장률, 마진 하락 원인(Helios 램프·GPU 수율)에 대한 CFO 발언은 AMD 공식 보도자료 및 실적콜 인용에 기반한 확인된 사실이에요. 컨센서스 대비 비교치와 '주가 하락 이유' 해석은 매체(TradingKey 등) 분석을 참고했고, forecast 항목은 제 개인적 추론이라 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "AMD Reports Second Quarter 2026 Financial Results :: Advanced Micro Devices, Inc. (AMD)",
+            url: "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          },
+          {
+            title: "AMD Beat on Revenue, Profit, and Guidance — So Why Did the Stock Drop 7%?",
+            url: "https://www.tradingkey.com/analysis/stocks/us-stocks/262074451-amd-q2-2026-earnings-double-beat-stock-falls-tradingkey",
+          },
+          {
+            title: "AMD Q2 2026: Record $11.5B Revenue, Data Center Up 107%, Stock Pulls Back to $485",
+            url: "https://www.tradingkey.com/analysis/stocks/us-stocks/262088719-amd-q2-2026-earnings-data-center-symmetrical-triangle-tradingkey",
+          },
+          {
+            title: "AMD Q2 2026: The Gross Margin Guide Stayed at 56% and the Stock Lost 8% | k4i.com",
+            url: "https://k4i.com/amd-q2-2026-the-gross-margin-guide-stayed-at-56-and-the-stock-lost-8/",
+          },
+          {
+            title: "AMD Reports Second Quarter 2026 Earnings - AMD Newsroom",
+            url: "https://newsroom.amd.com/news/amd-2q-2026-earnings/",
+          },
+        ],
       },
     ],
     role: {
@@ -1739,6 +2049,47 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-05-03 마감 분기 (FY2026 2분기, 6/3 발표) — 3분기(8/2 마감 추정)는 9/2 발표 예정",
+        headline: "2분기 매출 221.87억 달러(YoY +48%, 컨센서스 222.7억엔 근소 미달)에 비GAAP EPS $2.44(컨센서스 $2.40 상회)로 어닝은 비트했지만, 발표 다음날 주가는 13~14% 급락했어요.",
+        oneTime: "GAAP 순이익 $93.1억 vs 비GAAP 순이익 $120.74억 — 차이의 대부분은 인수자산 상각비 $19.67억(브로드컴·CA·VMware 인수 관련), 주식보상비용 $20.92억, 구조조정 등 기타비용 $0.81억이에요. 이번 분기 자료에는 VMware 통합 관련 비용이 별도 항목으로 크게 부각되진 않았어요.",
+        coreRead: "AI 반도체 매출은 $108억(YoY +143%)으로 여전히 고성장 중이고, 3분기 가이던스도 $160억(+200%대)·FY26 전체 $560억으로 기존 전망을 그대로 재확인했어요. 분기 수주(bookings)는 $300억+ 로 출하액의 3배에 달해 AI 쪽 수요 자체는 견조하고, 영업현금흐름 $104.93억·잉여현금흐름 $102.62억으로 GAAP 손익보다 현금창출력이 훨씬 안정적이에요. 다만 주가가 급락한 진짜 이유는 인프라 소프트웨어(VMware 포함) 매출 성장이 9%로 눈에 띄게 둔화된 것 — AI 외 캐시카우 성장 모멘텀이 약해진다는 우려예요. 핵심 고객 6곳(구글·메타·Anthropic·OpenAI+비공개 2곳) 집중 구조는 그대로인데, Hock Tan CEO가 실적콜(6/3)에서 「구글向 물량이 계속 크지만 성장 속도를 감안하면 구글이 공급처를 일부 다변화하는 것은 받아들인다」고 처음으로 공개 인정했어요. 이 발언은 마벨(Marvell)이 구글로부터 TPU 관련 $121.8억 규모 워런트(59M주, 행사가 $206.58, 2033년까지 성과연동 베스팅) 계약을 따낸 8/21 뉴스보다 이전 시점이라, 마벨 이슈 자체는 아직 브로드컴 공식 실적 코멘트에는 등장하지 않았어요. 참고로 마벨 딜 발표 당일 마벨 주가는 -6%(희석 우려)였는데 브로드컴은 오히려 +1% — 시장은 아직 이걸 브로드컴에 대한 실질적 위협으로 크게 보진 않는 분위기예요.",
+        forecast: "9/2 발표될 3분기 실적에서 AI 반도체 매출이 가이던스 $160억을 넘어 $165억 이상 나올 가능성이 높다고 봐요(수주잔고가 출하액의 3배라는 점 근거). 반대로 인프라 소프트웨어 성장률이 이번처럼 한 자릿수에 머물면, 이번 분기처럼 어닝 서프라이즈에도 주가가 급락하는 패턴이 반복될 수 있어요. 마벨-구글 워런트 딜에 대한 직접 언급이나 대응 코멘트가 3분기 실적콜에서 나올지도 지켜볼 포인트예요.",
+        confidence: "매출·이익·가이던스·현금흐름 수치와 Hock Tan 발언은 브로드컴 공식 보도자료(6/3)와 실적콜 스크립트 기준으로 확인된 사실이에요. 마벨-구글 워런트 규모($121.8억, 행사가 $206.58)도 복수 매체 보도로 교차 확인했어요. 다만 '3분기 AI매출 $165억 이상' 전망과 '마벨 이슈가 3분기 콜에서 언급될지'는 제 추정이니 참고만 해주세요.",
+        sources: [
+          {
+            title: "Broadcom Inc. Announces Second Quarter Fiscal Year 2026 Financial Results and Quarterly Dividend",
+            url: "https://www.broadcom.com/company/news/financial-releases/64371",
+          },
+          {
+            title: "Broadcom stock plunges on weak software sales, unchanged AI chip forecast for the year",
+            url: "https://www.cnbc.com/2026/06/03/broadcom-avgo-earnings-report-q2-2026.html",
+          },
+          {
+            title: "Broadcom Q2 2026 earnings: AI chip revenue doubles, stock sinks",
+            url: "https://finance.yahoo.com/markets/stocks/articles/broadcom-q2-2026-earnings-ai-111613207.html",
+          },
+          {
+            title: "Broadcom AI Revenue Surge Masks a VMware Warning",
+            url: "https://www.investing.com/analysis/broadcom-ai-revenue-surge-masks-a-vmware-warning-200681517",
+          },
+          {
+            title: "Broadcom (AVGO) Q2 2026 Earnings Transcript",
+            url: "https://www.fool.com/earnings/call-transcripts/2026/06/03/broadcom-avgo-q2-2026-earnings-transcript/",
+          },
+          {
+            title: "Marvell Sinks 6% as Google Warrant Dilution Overtakes the Deal Rally; Broadcom Ticks Up",
+            url: "https://finance.yahoo.com/markets/stocks/articles/marvell-sinks-6-google-warrant-160609078.html",
+          },
+          {
+            title: "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
+            url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announce-third-quarter-fiscal-year-2026-financial",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["커스텀 AI ASIC 설계", "네트워킹 반도체", "VMware(가상화 소프트웨어)"],
       stars: 4,
@@ -1821,6 +2172,35 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY2027 1분기, 7/29 발표)",
+        headline: "매출 12억9천만 달러(전년비 +22%)로 분기 최대 기록을 또 갈아치웠고 non-GAAP EPS도 0.45달러로 가이던스 상단을 넘었는데, 주가는 오히려 8% 빠졌어요 — 실적 자체보다 AI 반도체 업종 전반의 투심 냉각 탓이 컸어요.",
+        oneTime: "GAAP 순이익 2억7천만 달러(EPS 0.25달러) vs non-GAAP 순이익 4억8천만 달러(EPS 0.45달러)로 격차가 2억1천만 달러나 나요. 주범은 주식보상비용 3억4,300만 달러고, 관련 고용주 세금 9천만 달러도 더해져요. 반대로 지분투자 평가이익 1억2,800만 달러는 non-GAAP에서 빼고, 세금효과 조정 1억200만 달러, 구조조정·자산처분 비용 700만 달러도 껴 있어요. ARM 특유의 스톡옵션발 GAAP-비GAAP 괴리가 이번에도 여전해요.",
+        coreRead: "로열티 매출 7억1,500만 달러(+22%, 분기 사상 최대)에 라이선스 매출 5억7,400만 달러(+23%, 이 중 소프트뱅크向 계약분 1억9,300만 달러 포함)로 양쪽 다 튼튼했어요. 특히 데이터센터向 로열티가 전년비 2배 넘게 늘면서 기존 노트 흐름이 이번 분기에도 그대로 이어졌고, Neoverse 코어 누적 출하량이 15억 개를 넘었는데 최근 9개월 만에 5억 개가 새로 나갔다는 게(첫 10억 개는 6년 걸림) 채택 속도가 확 붙었다는 증거예요. 잉여현금흐름도 6억6,500만 달러로 GAAP 순이익 노이즈와 달리 현금창출력은 견조해요. 다만 이번 실적 자료에서 RISC-V 위협에 대한 직접 언급은 찾지 못했어요 — 조용하다고 위협이 사라진 건 아니니 계속 지켜봐야 해요.",
+        forecast: "회사는 2분기(9월 마감) 매출 13억8천만±5천만 달러(전년비 약 +22%, 컨센서스 13억4천만 상회), non-GAAP EPS 0.47달러(컨센서스 0.43 상회)로 가이던스를 냈는데, 로열티 매출 성장률은 13% 안팎(저두자릿수)으로 이번 분기 22%보다 확 둔화될 걸로 자체 가이드했어요 — 메모리 가격 인상이 스마트폰 제조사 판가에 전가되며 물량 증가를 눌렀다는 설명이에요. 반면 라이선스 매출은 30%대 중반 성장을 이어갈 거라 봤고요. 11월경 2분기 실적 발표 때 로열티 성장률이 실제로 10%대 중반 이하로 찍히면 이 가이던스가 보수적이지 않았다는 뜻이고, 20%를 다시 넘기면 데이터센터/AI 물량이 스마트폰 둔화를 압도했다는 뜻으로 해석할 만해요.",
+        confidence: "매출·로열티·라이선스 수치, GAAP/non-GAAP 순이익과 EPS, 주식보상비용 조정 내역, 2분기 가이던스 숫자는 회사 발표(뉴스룸 보도자료·SEC 6-K 공시) 기준 확정 사실이에요. 데이터센터 로열티 '2배 이상' 표현과 Neoverse 출하량은 회사 측 코멘트를 그대로 옮긴 거고, RISC-V 관련 '언급 없음'과 향후 로열티 성장률 방향에 대한 해석·예측 부분은 제 판단이 섞여 있어서 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "Arm delivers record first-quarter for total revenue",
+            url: "https://newsroom.arm.com/news/arm-q1-fye27-results",
+          },
+          {
+            title: "Arm Stock Fell 8% After Reporting Record Q1 Earnings Revenue of $1.29 Billion. Here's the Bigger Picture.",
+            url: "https://www.tikr.com/blog/arm-stock-fell-8-after-reporting-record-q1-earnings-revenue-of-1-29-billion-heres-the-bigger-picture",
+          },
+          {
+            title: "Arm Holdings (NASDAQ: ARM) delivers record Q1 FYE27 revenue and EPS",
+            url: "https://www.stocktitan.net/sec-filings/ARM/6-k-arm-holdings-plc-uk-current-report-foreign-issuer-c85c22de28cb.html",
+          },
+          {
+            title: "Arm Q1 FY2027 Earnings: Record Revenue and a Guidance Beat, but the Stock Sold Off",
+            url: "https://www.tradingkey.com/analysis/stocks/us-stocks/262078264-arm-holdings-q1-fy2027-earnings-stock-selloff-tradingkey",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["반도체 설계 IP 라이선싱(모바일·서버 아키텍처)"],
       stars: 4,
@@ -1879,6 +2259,35 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익률 수치는 SEC 공시 기반 캐시 데이터가 아니라 Finnhub/Yahoo 폴백 기준(해외 상장·IFRS라 SEC us-gaap 검증 미적용) · 중국 매출 비중·EUV 예외·수주 규모는 복수매체 확인(newsLog 참고) · '중국 리스크가 상대적으로 덜하다'는 판단은 Claude의 정성적 해석",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2026년 2분기 매출이 93억 유로(순이익 29억 유로, 매출총이익률 54.0%)로 직전 분기(매출 88억 유로, 순이익 28억 유로, 매출총이익률 53.0%) 대비 늘며 자체 가이던스와 시장 컨센서스를 모두 상회했고, 이 여세로 2026년 연간 매출 가이던스를 430억~450억 유로로 한 해 두 번째 상향했어요(직전 가이던스는 360억~400억 유로).",
+        oneTime: "순이익 29억 유로에는 IT·기술 트랜스포메이션 관련 비용 추정치가 반영돼 수익성에 다소 부담을 줬다고 경영진이 언급했어요. 다만 구체적 금액은 공개되지 않았고 실적 흐름 자체를 바꿀 만큼 큰 항목은 아니었어요.",
+        coreRead: "가장 눈에 띄는 건 수주 흐름이에요 — 경영진이 '2026년 상반기 내내 매우 강한 주문 예약'이 있었고 '2027년에 필요한 주문은 이미 거의 다 받았다'고 밝혔는데, AI 반도체발 수요가 1년 이상 앞서서 오더북을 채우고 있다는 뜻이에요. 중국 매출 비중은 전체의 약 20%로 전분기와 동일하게 유지됐고 성장은 주로 내수 주도 로직 반도체 쪽에서 나왔다고 하니, 최선단 EUV 수출 통제가 여전히 유효한 가운데서도 중국 매출이 급격히 무너지진 않고 있어요. High-NA EUV 쪽은 인텔이 자사 최선단 공정(18A, Core Ultra Series 3)에 실제 양산 투입했다고 밝혀 '장비 성숙도를 증명하는 중요한 이정표'로 평가됐고, 2026년 전체로는 High-NA 4~5대가 매출에 기여할 전망이며 2027년 EUV 생산능력을 30% 더 늘리는 계획도 함께 나왔어요. 다만 신규 리소그래피 시스템 판매가 86대(1분기 67대)로 늘긴 했지만, 설치기반 관리(서비스) 매출 28억 유로가 자체 가이던스보다 3억 유로 더 나온 것도 이번 호실적에 상당히 기여했다는 점은 참고할 만해요.",
+        forecast: "3분기(2026년 7~9월) 가이던스는 매출 110억~120억 유로, 매출총이익률 55~57%로 이미 제시돼 있어요. AI발 주문이 워낙 탄탄해서 10월 중순으로 예상되는 3분기 실적 발표에서 매출이 가이던스 상단인 120억 유로에 근접하거나 이를 넘어설 가능성이 높고, 연간 목표 High-NA 4~5대 중 최소 2~3대가 3분기까지 매출로 인식될 것으로 봐요. 반대로 매출총이익률이 55% 밑으로 미끄러지거나 중국 매출 비중이 20%에서 눈에 띄게 꺾이면 이 낙관적 그림이 깨지는 신호로 봐야 해요.",
+        confidence: "매출·순이익·매출총이익률·가이던스 수치, 신규 시스템 판매 대수, 중국 매출 비중 약 20%, 인텔의 High-NA 양산 투입 발언은 ASML 공식 보도자료와 실적 발표 컨퍼런스콜에서 직접 확인된 사실이에요. 반면 3분기 실적이 가이던스 상단을 넘어설 거라는 전망, High-NA 매출 인식 대수 배분 추정, '2027년 주문이 이미 거의 다 채워졌다'는 발언을 성장 가시성 신호로 해석한 부분은 제 개인적 판단이라 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
+            url: "https://www.asml.com/en/news/press-releases/2026/q2-2026-financial-results",
+          },
+          {
+            title: "Earnings call transcript: ASML Q2 2026 beats guidance as AI demand lifts outlook",
+            url: "https://www.investing.com/news/transcripts/earnings-call-transcript-asml-q2-2026-beats-guidance-as-ai-demand-lifts-outlook-93CH-4792156",
+          },
+          {
+            title: "ASML raises 2026 guidance second time, beats Q2 earnings",
+            url: "https://qz.com/asml-2026-guidance-raised-ai-chip-demand-q2-earnings-071526",
+          },
+          {
+            title: "ASML Q2 2026: EUV Demand Surges as Intel Leads High-NA Adoption",
+            url: "https://www.kad8.com/news/asml-q2-2026-euv-demand-surges-as-intel-leads-high-na-adoption/",
+          },
+        ],
       },
     ],
     role: {
@@ -1960,6 +2369,23 @@ const BUSINESS_NOTES = {
         ],
         confidence: "매출·영업이익률 수치는 SEC 공시 기반 캐시 데이터 · '실적은 좋은데 주가만 빠졌다'는 섹터 공통 패턴은 복수매체 확인(newsLog 참고) · '기대치 재평가가 원인'이라는 해석은 Claude의 정성적 판단",
         sources: [],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-07-31 마감 분기 (FY2026 3분기)",
+        headline: "8월 13일 발표된 3분기 매출이 91.15억 달러(+25% YoY)로 컨센서스 90억 달러를 넘었고, non-GAAP EPS 3.50달러도 컨센서스 3.39달러를 상회했어요.",
+        oneTime: "GAAP EPS(3.17달러)가 non-GAAP EPS(3.50달러)보다 낮은 건 미 상무부와의 법적합의금 2.53억 달러, 구조조정비용 1,200만 달러, 전략적 투자자산 관련 미실현평가손실 2.2억 달러가 반영됐기 때문이에요.",
+        coreRead: "중국 매출은 25.06억 달러로 전체의 28%를 차지해 작년 동기(35%)보다 비중이 줄었는데, 이는 수출규제 영향이 실적에 계속 반영되고 있다는 신호예요. 반면 반도체시스템 부문은 70.40억 달러 매출을 냈고, 12~16단 이상 HBM 스택을 지원하는 신제품 'Producer Avila 2 PECVD'를 내놓는 등 첨단 패키징/HBM 쪽 모멘텀은 살아있어요. GAAP 영업이익률도 33.7%로 견조해서, 일회성 비용을 걷어내고 보면 본업 수익성 자체는 탄탄한 편이에요.",
+        forecast: "회사가 제시한 4분기 가이던스(매출 102.5억±5억 달러, non-GAAP EPS 4.02±0.20달러)는 컨센서스(각각 95.4억 달러, 3.68달러)를 웃도는 수준이라, 그대로 달성되면 4개 분기 연속 어닝 서프라이즈가 될 걸로 봐요. 반대로 중국 매출 비중이 28%에서 25% 밑으로 더 줄어드는 게 확인되면 수출규제 타격이 심화되고 있다는 뜻으로 해석해야 해요.",
+        confidence: "매출·EPS·중국 매출 비중(28%, 25.06억 달러)·4분기 가이던스·일회성 비용 항목은 회사 공식 실적발표(2026-08-13) 기준 확인된 사실이고, HBM/첨단패키징 모멘텀 지속 여부와 다음 분기 전망 부분은 제 해석이 들어간 예측이에요.",
+        sources: [
+          {
+            title: "Applied Materials Announces Third Quarter 2026 Results",
+            url: "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-third-quarter-2026-results",
+          },
+        ],
       },
     ],
     role: {
@@ -2052,6 +2478,31 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-28 마감 분기 (FY2026 4분기)",
+        headline: "매출 67.2억 달러(전년동기 대비 +30%, 컨센서스 66.6억 달러 상회)에 non-GAAP EPS 1.82달러(컨센서스 1.69달러 대비 +0.13달러 상회, GAAP EPS는 1.81달러)로 어닝비트했고, 매출·영업마진(GAAP 37.4%, +240bp QoQ) 모두 사측 가이던스 상단 부근에서 마무리됐어요.",
+        oneTime: "GAAP-비GAAP 조정항목은 인수 무형자산 상각, 이연보상 조정, 인력 구조조정 비용, 부채할인 상각 정도인데 GAAP EPS(1.81달러)와 non-GAAP EPS(1.82달러) 차이가 0.01달러에 불과해서 이번 분기 실적을 왜곡할 만한 대형 일회성 항목은 사실상 없었어요.",
+        coreRead: "영업현금흐름은 14.6억 달러로 전분기(11.4억 달러) 대비는 개선됐지만 전년동기(25.5억 달러)보다는 줄었고, FY2026 연간 영업현금흐름도 58.6억 달러로 전년 61.7억 달러 대비 소폭 감소해서 매출 성장 속도만큼 현금창출력이 따라오진 못했어요. 지역별 매출은 대만 27%·중국 26%·한국 20%·일본 9%·미국 9% 순으로 중국 비중이 여전히 4분의 1을 넘고요. 이번 발표문에는 메모리(NAND/DRAM) vs 로직/파운드리 세부 스핏은 공개되지 않았지만, CEO 팀 아처가 'AI 주도 수요가 반도체 산업을 재편 중'이라며 2026년 3년 연속 아웃퍼폼을 예고한 점은 노트에 있는 3D 구조·GAA 전환 수혜 스토리와 방향이 일치해요.",
+        forecast: "회사는 다음 분기(9/27 마감)에 매출 81.0억 달러(±4억), 영업마진 39.5%(±1%), EPS 2.15달러(±0.15달러)로 전분기 대비 약 +20% 급성장을 가이던스로 제시했어요. 제 예상은, HBM·AI 데이터센터향 메모리 투자 사이클이 살아있는 한 실제 매출이 가이던스 상단인 82~84억 달러 근처 혹은 그 이상으로 나올 가능성이 크다는 쪽이에요 — 반대로 매출이 77억 달러를 밑돌면 반도체장비 섹터 재평가 우려(최근 한 달 -20% 조정)가 다시 불붙을 신호로 봐야 해요.",
+        confidence: "매출·EPS·가이던스 수치·지역별 매출 비중·영업현금흐름은 2026년 7월 29일 공식 실적발표(GAAP 기준) 및 컨센서스 대비 비교 데이터로 확인된 사실이고, 메모리·로직 믹스 해석과 다음 분기 상회 여부에 대한 전망은 제 자체 추정이라 실제와 다를 수 있어요.",
+        sources: [
+          {
+            title: "Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, 2026",
+            url: "https://newsroom.lamresearch.com/2026-07-29-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-June-28,-2026",
+          },
+          {
+            title: "Lam Research (LRCX) Earnings",
+            url: "https://www.marketbeat.com/stocks/NASDAQ/LRCX/earnings/",
+          },
+          {
+            title: "Lam Research (LRCX) News",
+            url: "https://www.stocktitan.net/news/LRCX/",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["식각(etch)·증착 장비"],
       stars: 4,
@@ -2140,6 +2591,31 @@ const BUSINESS_NOTES = {
         sources: [],
       },
     ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY2026 4분기, 회계연도 기준 마감)",
+        headline: "KLA가 2026년 7월 28일 발표한 FY2026 4분기 매출은 36.6억 달러, GAAP 희석 EPS 1.04달러(비GAAP 1.05달러)로, 발표 직후 Cantor Fitzgerald·UBS·Wells Fargo·Susquehanna·RBC·Bernstein·BofA·Morgan Stanley 등 다수 애널리스트가 목표주가를 상향 조정했어요(예: Berenberg는 매수 유지·목표가 230달러).",
+        oneTime: "FY2026 전체 기준으로 인수 관련 비용 1억 7,810만 달러가 GAAP 실적을 눌렀고, 이산적 세금 항목에서는 2,180만 달러 이익이 반영됐어요. 회사는 FY2026에 구조조정이나 영업권 손상 charge는 없었다고 밝혔어요.",
+        coreRead: "CEO Rick Wallace는 실적 발표에서 \"6월 분기 실적은 성장 동력이 강화되고 있음을 재확인시켜주며, 2026년 하반기와 2027년까지 모멘텀이 가속화되고 있다\"고 언급했어요. 성장 드라이버는 AI 인프라 확장에 따른 파운드리/로직 최선단 공정, 메모리 복잡도 증가, 신흥 어드밴스드 패키징 수요예요. 다만 이번 4분기 실적 발표 자료에는 지역별(중국 등) 매출 비중이 별도로 공개되지 않아서, 기존 노트의 '중국 매출 약 30%' 트렌드가 이번 분기에 실제로 어떻게 움직였는지는 이번 조사로 새로 확인하지 못했어요 — 다만 같은 시기(8월 5일) 로이터 보도로 '삼성·SK하이닉스가 미국발 리스크에 대한 헤지로 중국산 반도체 장비를 테스트 중'이라는 기사가 나와서, 중국의 자국산 장비 대체 시도라는 구조적 리스크는 여전히 살아있는 테마로 보여요.",
+        forecast: "회사가 제시한 FY2027 1분기(9월 마감) 가이던스는 매출 40억 달러(±2억 달러), 비GAAP EPS 1.16달러(±0.10달러)예요. 이는 직전 분기(36.6억 달러/1.05달러) 대비 매출 약 9%, EPS 약 10% 증가한 수치라서, 10월 말 실제 발표 때 매출이 38억~42억 달러 밴드 안에 들어오고 비GAAP EPS가 1.06~1.26달러 범위에서 나올지가 1차 체크포인트가 될 거예요. 만약 매출이 이 밴드 하단(38억 달러) 아래로 떨어지면 AI발 수요 가속 스토리에 제동이 걸린 신호로 봐야 해요.",
+        confidence: "매출/EPS 실적치와 FY2027 1분기 가이던스, 인수 관련 비용·세금 이연 항목 수치는 KLA 공식 보도자료(ir.kla.com)에서 확인한 사실이에요. 애널리스트 목표가 상향 정보는 investing.com 뉴스 피드로 확인했고, 중국 자국산 장비 테스트 관련 로이터 기사 제목은 확인했지만 본문 세부 내용까지는 직접 열람하지 못했어요. 중국 매출 비중이 이번 분기에 30%에서 변화했는지에 대한 정량적 확인은 실패했으므로 그 부분은 제 해석이 아니라 '미확인'으로 남겨둬요.",
+        sources: [
+          {
+            title: "KLA Corporation Reports Fiscal 2026 Fourth Quarter and Full Year Results",
+            url: "https://ir.kla.com/news-events/press-releases/detail/518/kla-corporation-reports-fiscal-2026-fourth-quarter-and-full",
+          },
+          {
+            title: "Kla-tencor Corp receives Investment Bank Analyst Rating Update (Berenberg maintains Buy, $230 price target)",
+            url: "https://www.investing.com/news/pro/berenberg-maintains-kla-corp-at-buy-with-a-price-target-of-23000-4823463",
+          },
+          {
+            title: "Samsung, SK Hynix test Chinese chip tools as hedge against US risks",
+            url: "https://www.investing.com/equities/kla-tencor-corp-news",
+          },
+        ],
+      },
+    ],
     role: {
       tags: ["검사·계측 장비(공정관리)"],
       stars: 4,
@@ -2169,6 +2645,96 @@ const BUSINESS_NOTES = {
       {title:"'AI tailwind' keeps Arista at No. 1 spot in data center switching — now Nvidia looms", url:"https://www.fierce-network.com/cloud/arista-rides-ai-past-cisco-now-nvidia-looms"},
       {title:"Arista Networks Just Delivered Its First $3 Billion Quarter", url:"https://www.theglobeandmail.com/investing/markets/stocks/MSFT/pressreleases/3662669/arista-networks-just-delivered-its-first-3-billion-quarter-heres-what-it-means-for-the-ai-networking-trade/"},
       {title:"Arista Networks Raises AI Target As Ethernet Challenges InfiniBand In Cloud", url:"https://finance.yahoo.com/markets/stocks/articles/arista-networks-raises-ai-target-220451447.html"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-27",
+        headline: "아리스타, 2분기 사상 첫 30억달러 매출 발표 후 주가 급등, JP모건 목표주가 220→250달러로 상향",
+        importance: "high",
+        tone: "positive",
+        horizon: "단기~중기 (다음 분기 실적까지 모멘텀 지속 여부 확인)",
+        facts: [
+          "8월 4일 발표된 2026년 2분기 실적에서 매출 30.36억달러(+37.7% YoY), 비GAAP EPS 1.02달러를 기록했고, 회사는 2026년 연간 매출 가이던스를 115억달러에서 126억달러로 상향했어요.",
+          "실적 발표 다음 날 주가는 하루 만에 약 12% 급등했고, 8월 5일 JP모건은 목표주가를 220달러에서 250달러로 올리며 비중확대(Overweight) 의견을 유지했어요.",
+          "IDC 집계 기준 2026년 1분기 데이터센터 이더넷 스위칭 시장 자체가 전년비 약 60%대 성장한 것으로 나타나 엔비디아·아리스타가 동반 성장하는 국면일 가능성을 시사해요.",
+        ],
+        why: [
+          "이번 실적은 강점 섹션의 '견조한 마진·현금흐름'과 '공급망 선제 대응'을 뒷받침하는 동시에, CEO가 언급한 '10% 이상 고객 1~2곳' 발언은 마이크로소프트·메타에 대한 고객 집중 리스크가 여전함을 보여줘요.",
+          "엔비디아 Spectrum-X와의 경쟁 구도 속에서도 아리스타가 37.7%의 자체 성장률을 유지하고 있다는 점은 시장 자체가 커지는 국면임을 시사해요.",
+        ],
+        beginner: [
+          "아리스타가 2026년 2분기에 분기 최초로 매출 30억달러를 넘겼고, 앞으로의 실적 전망(가이던스)도 크게 올려잡았어요.",
+          "실적이 예상보다 훨씬 좋아서 발표 다음 날 주가가 하루 만에 12%나 뛰었고, 월가의 큰 증권사인 JP모건도 목표주가를 올렸어요. 다만 이 성장의 상당 부분이 마이크로소프트·메타 같은 몇 안 되는 대형 고객에 쏠려 있다는 점은 계속 지켜봐야 해요.",
+        ],
+        interpretation: "실적·가이던스 모두 견조했고 시장 성장 자체가 뒷받침되고 있어 긍정적이지만, 고객 집중도와 엔비디아와의 경쟁 구도는 구조적으로 남아있는 리스크예요.",
+        decision: "실적 모멘텀은 긍정적이나 이미 주가에 상당 부분 반영된 만큼, 신규 매수보다는 다음 분기 실적에서 고객 다변화·점유율 방어가 확인되는지 지켜보는 게 좋아요.",
+        watch: [
+          "3분기(9월 마감) 실적에서 매출이 가이던스(약 33억달러)를 충족하는지",
+          "IDC/Dell'Oro 다음 분기 시장점유율 발표에서 아리스타 vs 엔비디아 Spectrum-X 순위 변동",
+        ],
+        confidence: "실적 수치와 가이던스는 회사의 공식 SEC 보도자료 기반 고신뢰 정보이고, JP모건 목표가 변경과 주가 급등폭은 2차 보도(Yahoo Finance, businesswire) 인용으로 중~고신뢰, 해석 부분은 제 판단이에요.",
+        sources: [
+          {
+            title: "JPMorgan Resets Arista Stock Target After AI Surge",
+            url: "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-resets-arista-stock-target-035711424.html",
+          },
+          {
+            title: "Arista Networks, Inc. Reports Second Quarter 2026 Financial Results",
+            url: "https://www.businesswire.com/news/home/20260804130700/en/Arista-Networks-Inc.-Reports-Second-Quarter-2026-Financial-Results",
+          },
+          {
+            title: "NVIDIA Becomes #1 in Datacenter Ethernet Switching as 1Q26 Market Surges 39.8% to $15.4 Billion",
+            url: "https://www.idc.com/resource-center/blog/nvidia-becomes-1-in-datacenter-ethernet-switching-as-1q26-market-surges-39-8-to-15-4-billion/",
+          },
+        ],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "매출 30.36억달러(+37.7% YoY)로 사상 첫 분기 매출 30억달러를 돌파하며 시장 예상치를 상회했고, 이를 바탕으로 회사는 2026년 연간 매출 가이던스를 115억달러에서 126억달러(+40% YoY)로 상향했어요.",
+        oneTime: "GAAP 순이익(12.13억달러)과 비GAAP 순이익(13.02억달러)의 차이는 주로 스톡옵션 보상비용(상반기 누적 2.413억달러), 자사주 보상 관련 세제 혜택(3090만달러), 전략적 투자 평가이익(600만달러) 조정 때문이며, 보도자료에서 대규모 손상차손이나 소송·구조조정 같은 왜곡성 일회성 항목은 확인되지 않았어요.",
+        coreRead: "상반기 영업현금흐름 27.77억달러, 비GAAP 총마진 63.4%, 3분기 비GAAP 영업이익률 가이던스도 48~49%로 유지되는 걸 보면 핵심 사업 수익성은 매우 건강해요. 다만 CEO의 '공급 부족이 2028년까지 이어질 것'이라는 발언을 감안하면 최근 매출 급증 중 일부는 순수 신규 수요 확대뿐 아니라 그동안 밀려있던 이연 주문이 풀리며 나타난 효과가 섞여 있을 수 있어요.",
+        forecast: "3분기(2026년 9월 마감) 가이던스는 매출 약 33억달러, 비GAAP EPS 1.06~1.08달러인데, 회사가 부품 구매약정을 97억달러로 늘리고 메모리를 2027년까지 확보해둔 만큼 3분기에도 가이던스 상단 또는 이를 소폭 상회하는 실적이 나올 가능성이 높다고 봐요. 반대로 3분기 매출이 33억달러를 밑돈다면 공급망 정상화 서사에 금이 가는 신호로 볼 수 있어요.",
+        confidence: "매출·EPS·가이던스 수치는 회사의 공식 실적발표(SEC 8-K 첨부 보도자료, businesswire)에 기반한 고신뢰 사실이고, 공급 부족이 2028년까지 이어진다는 코멘트는 CEO의 실적 콜 발언을 인용한 것으로 발언 자체는 고신뢰 인용이지만 그 예측의 정확성은 회사의 주관적 전망이에요. coreRead와 forecast의 해석 부분은 제 판단이라 상대적으로 신뢰도가 낮아요.",
+        sources: [
+          {
+            title: "Arista Networks, Inc. Reports Second Quarter 2026 Financial Results",
+            url: "https://www.businesswire.com/news/home/20260804130700/en/Arista-Networks-Inc.-Reports-Second-Quarter-2026-Financial-Results",
+          },
+          {
+            title: "Press release issued by Arista Networks, Inc. dated August 4, 2026 (SEC filing exhibit)",
+            url: "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm",
+          },
+          {
+            title: "[ANET Q2 2026 Earnings Call] Arista Networks Shatters $3B Quarterly Revenue for First Time, Raises 2026 Outlook to $12.6B",
+            url: "https://finance.biggo.com/news/US_ANET_2026-08-04",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "밸류에이션(forward PER 49.2배)은 여전히 부담스럽지만, 가이던스 상향과 견조한 현금흐름이 이를 상당 부분 뒷받침하는 국면",
+        view: "현재가 202.25달러 기준 아리스타의 forward PER은 약 49.2배로 3년 평균(43.6배)보다 높은 프리미엄 구간이에요. 하지만 2026년 2분기 매출이 37.7% 성장했고 회사가 연간 가이던스를 126억달러(+40%)로 올렸다는 점, 비GAAP 총마진 63.4%·영업이익률 가이던스 48~49%를 유지하고 있다는 점을 보면 밸류에이션 프리미엄이 최근 실적 모멘텀으로 어느 정도 정당화되는 국면이에요. 다만 IDC 집계 기준 2026년 1분기 데이터센터 이더넷 스위칭 시장에서 엔비디아 Spectrum-X(점유율 21.5%, YoY +192.7%)가 아리스타(약 20.7%, YoY +37.3%)를 근소하게 앞서기 시작했고, 마이크로소프트·메타 두 고객에 대한 매출 의존도가 40%를 넘는 것으로 추정되는 만큼, 단일 고객 이슈나 경쟁사의 추가 점유율 잠식이 밸류에이션에 빠르게 반영될 수 있는 구조예요.",
+        increaseIf: [
+          "2026년 3분기(9월 마감) 실적에서 매출이 가이던스 상단(약 33억달러)을 넘어서고 비GAAP 영업이익률이 48~49% 가이던스를 유지하거나 상회하는 경우",
+          "마이크로소프트·메타 외 신규 하이퍼스케일러나 엔터프라이즈/캠퍼스 부문에서 매출 비중이 눈에 띄게 확대되는 경우",
+        ],
+        wrongIf: [
+          "다음 IDC/Dell'Oro 분기 리포트에서 엔비디아의 데이터센터 이더넷 스위칭 점유율이 아리스타 대비 격차를 뚜렷하게(예: 5%p 이상) 벌리는 경우",
+          "마이크로소프트 또는 메타 중 한 곳이라도 발주를 유의미하게 줄이거나 자체 개발 네트워킹 칩으로 전환한다는 뉴스가 확인되는 경우",
+        ],
+        watchNext: [
+          "2026년 11월경 발표될 3분기 실적에서 매출/비GAAP EPS가 가이던스(매출 약 33억달러, EPS 1.06~1.08달러)를 충족하는지 여부",
+          "IDC/Dell'Oro의 다음 분기 데이터센터 이더넷 스위칭 시장점유율 발표에서 아리스타 vs 엔비디아 Spectrum-X 순위 변동",
+          "차기 10-Q/10-K에서 마이크로소프트·메타 매출 비중 변화 추이",
+        ],
+        confidence: "가격·PER·실적 숫자는 공식 자료 및 로컬 데이터 기반 고신뢰, 시장점유율 수치는 IDC 발표 기반 고신뢰이며, 향후 전망과 인과관계 해석 부분은 제 판단이라 낮은 신뢰도로 참고해주세요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["AI 데이터센터 이더넷 스위칭·네트워킹 장비"],
@@ -2221,6 +2787,65 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY26 4분기)",
+        headline: "4분기 매출 $20.45억(전년비 +34%, 전분기비 +13.3%)로 사상 최대치를 기록했고 비GAAP EPS $1.74로 컨센서스를 웃돌았으며, 다음 분기(FY27 1분기) 가이던스도 매출 $22~24억·비GAAP EPS $1.85~2.05로 시장 컨센서스($21.3억·$1.77)를 8~10% 상회하는 '비트 앤 레이즈'였어요.",
+        oneTime: "GAAP 순이익에는 4분기 기준 자산매각예정 손상차손 $44.3M, 구조조정비용 $6.1M, 주식보상비용 $53.9M, 지분투자 매각이익 $38.4M이 반영됐고, 연간으로는 항공우주·방산 및 뮌헨 공구사업 매각이익 $124.1M(주로 3분기 인식), 연간 구조조정비 $63.4M, 손상차손 $64.4M, 주식보상비용 $193.8M이 GAAP-비GAAP 차이를 만들었어요. GAAP EPS는 4분기 $1.19(전년동기 -$0.83)로 흑자전환했지만 이런 항목들이 섞여있어 추세 파악에는 비GAAP $1.74가 더 적합해요.",
+        coreRead: "진짜 주목할 부분은 현금흐름이에요. FY26 영업활동현금흐름이 $79.5M로 전년 $633.6M 대비 87% 급감했고, CapEx는 $1,103M로 150% 급증하면서 잉여현금흐름(FCF)이 -$1,023M까지 악화됐어요. 재고자산이 연간 약 $1.18B 늘어난 영향이 커서, AI 트랜시버 수요에 대비해 공격적으로 재고·생산능력을 쌓고 있다는 뜻이지만 동시에 지금의 이익 성장이 영업현금창출이 아니라 재고 선투자·자본조달로 뒷받침되고 있다는 의미이기도 해요. 비GAAP 지표만 보면 견조하지만 이 재고가 실제 매출로 얼마나 빨리 전환되는지가 관건이에요.",
+        forecast: "다음 분기(FY27 1분기, 2026년 9월 마감)에는 매출이 가이던스 범위($22~24억) 안에 들어오고 비GAAP EPS도 $1.85~2.05 범위를 지킬 것으로 보지만, 저마진 트랜시버 비중 확대로 비GAAP 총마진은 가이던스 상단(41.5%)보다 하단(39.5~40%)에 가깝게 나올 가능성이 높다고 봐요. 만약 영업현금흐름이 이번에도 큰 폭 마이너스를 유지하거나 총마진이 39.5% 밑으로 떨어지면 '재고투자→매출전환' 스토리에 균열이 생긴 것으로 판단할게요.",
+        confidence: "매출·EPS·현금흐름·가이던스 숫자는 2026년 8월 12일 발표된 공식 실적발표(보도자료/8-K) 기준의 확인된 사실이고, 다음 분기 마진 방향성 예측과 '재고→매출 전환 속도가 관건'이라는 해석은 제 판단이에요.",
+        sources: [
+          {
+            title: "Coherent Corp. Reports Fourth Quarter and Full Year Fiscal 2026 Results",
+            url: "https://www.coherent.com/news/press-releases/fourth-quarter-and-fiscal-year-2026-results",
+          },
+          {
+            title: "Coherent Corp. Reports Fourth Quarter and Full Year Fiscal 2026 Results",
+            url: "https://www.globenewswire.com/news-release/2026/08/12/3344051/11543/en/coherent-corp-reports-fourth-quarter-and-full-year-fiscal-2026-results.html",
+          },
+          {
+            title: "Coherent FY26 Earnings: Q4 Revenue Hits $2.05B | COHR Stock News",
+            url: "https://www.stocktitan.net/news/COHR/coherent-corp-reports-fourth-quarter-and-full-year-fiscal-2026-4dp7hm0orxpy.html",
+          },
+          {
+            title: "Coherent posts a blowout Q4 and aggressive guidance, yet shares take a 5% haircut",
+            url: "https://www.investing.com/news/stock-market-news/coherent-posts-a-blowout-q4-and-aggressive-guidance-yet-shares-take-a-5-haircut-4856014",
+          },
+          {
+            title: "Coherent (COHR) Cash Flow Statement",
+            url: "https://stockanalysis.com/stocks/cohr/financials/cash-flow-statement/",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "밸류에이션엔 이미 고성장이 반영돼 있어요 — 실적·가이던스는 좋았지만 현금흐름 정상화가 다음 관문이에요.",
+        view: "현재 주가 $294.37은 이번 회계연도(FY27, 2027-06-30 마감) 컨센서스 EPS $9.41(21명 추정) 기준 선행 PER 31.2배에 거래되고 있고, 다음 회계연도(FY28) 컨센서스 EPS $13.95(18명 추정) 기준으로는 약 21배로 낮아져요 — 시장은 향후 1년간 EPS가 약 48% 늘어날 것을 이미 가격에 반영하고 있다는 뜻이에요. 실제로 2026년 8월 12일 발표된 FY26 4분기 실적은 매출 $20.45억(+34% YoY)·비GAAP EPS $1.74로 컨센서스를 웃돌았고, 다음 분기 가이던스(매출 $22~24억, 비GAAP EPS $1.85~2.05)도 시장 예상치를 8~10% 상회하는 비트 앤 레이즈였는데도 주가는 실적 발표 후 약 8% 급락했어요 — 비GAAP 총마진 가이던스(39.5~41.5%)가 기대만큼 화끈하지 않았다는 게 표면적 이유였어요. 여기에 FY26 영업현금흐름이 전년 $633.6M에서 $79.5M로 급감하고 CapEx $1,103M(+150%)로 FCF가 -$1,023M을 기록한 점은, 지금의 이익 성장이 AI 데이터센터향 광트랜시버(800G·1.6T) 수요에 대응한 재고·설비 선투자로 뒷받침되고 있음을 보여줘요. 엔비디아의 $40억 전략투자(2026년 3월)로 확인된 전략적 지위와 애널리스트 컨센서스 목표주가 $416(22명 평균, 현재가 대비 +41%, 강력매수 13명·매수 4명·보류 5명)은 긍정적 재료지만, 루멘텀 등 경쟁 구도와 저마진 제품 믹스 확대는 마진 상단을 제한하는 요인으로 남아있어요.",
+        increaseIf: [
+          "다음 1~2개 분기(FY27 1~2분기) 안에 영업현금흐름이 플러스로 전환되고 쌓인 재고가 매출로 정상 전환되는 신호가 나오는 경우",
+          "비GAAP 총마진이 가이던스 상단(41.5%) 이상으로 개선되며 800G/1.6T 등 고마진 제품 비중이 늘어나는 경우",
+          "엔비디아 외 추가 하이퍼스케일러 대상 대형 수주나 장기 공급계약이 새로 공개되는 경우",
+        ],
+        wrongIf: [
+          "FCF 마이너스 기조가 2개 분기 이상 더 지속되며 재고가 매출로 전환되지 않는 경우 (수요보다 과잉투자였다는 신호)",
+          "비GAAP 총마진이 39.5% 밑으로 떨어지거나 향후 가이던스를 하회하는 경우",
+          "루멘텀 등 경쟁사에 점유율을 뺏기거나 트랜시버 가격 경쟁이 뚜렷하게 심화되는 경우",
+          "하이퍼스케일러들의 AI 데이터센터 CapEx 가이던스가 전반적으로 하향 조정되는 경우",
+        ],
+        watchNext: [
+          "2026년 11월경 예정된 FY27 1분기 실적 발표 — 영업현금흐름·재고 회전율 개선 여부",
+          "비GAAP 총마진 실제치가 가이던스(39.5~41.5%) 중 어느 쪽에 가깝게 나오는지",
+          "엔비디아 관련 신규 인증/설계 반영(design win) 뉴스와 800G→1.6T 전환 속도",
+          "COHR-루멘텀 경쟁구도 변화 및 트랜시버 가격 동향",
+        ],
+        confidence: "주가($294.37)·컨센서스 EPS·선행 PER은 제공된 로컬 데이터 기준이고, 4분기 실적·가이던스·현금흐름·애널리스트 목표주가 숫자는 2026년 8월 각각 공식 발표 및 컨센서스 집계 기준 확인된 사실이에요. 마진·수요 전환 속도에 대한 해석과 향후 시나리오는 제 판단이며, 실제 확률은 산정하지 않았으니 위 조건 충족 여부로 판단해주세요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["광통신 부품(레이저·옵틱스·트랜시버)"],
       stars: 4,
@@ -2249,6 +2874,111 @@ const BUSINESS_NOTES = {
       {title:"Even Nvidia Sees Lumentum as Lighting the Way Forward", url:"https://finance.yahoo.com/news/even-nvidia-sees-lumentum-lighting-175906588.html"},
       {title:"NVIDIA's $4B Photonics Play: Lumentum vs Coherent", url:"https://tech-insider.org/nvidia-silicon-photonics-lumentum-coherent-ai-data-center-2026/"},
       {title:"Applied Optoelectronics Rockets 17%, Coherent Climbs 11%, Lumentum Gains 6% on Reported U.S. Ban of Chinese Optics", url:"https://247wallst.com/investing/2026/08/04/applied-optoelectronics-rockets-17-coherent-climbs-11-lumentum-gains-6-on-reported-u-s-ban-of-chinese-optics/"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-27",
+        headline: "컨버터블 노트를 주식으로 맞바꾸며 발행주식수 +27% 급증, EPS 희석 리스크가 새로운 이슈로 떠올랐어요.",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "앞으로 1~3분기, 잔여 노트 전환이 마무리될 때까지 지속 관찰 필요",
+        facts: [
+          "2026/2028/2029년 만기 컨버터블 노트를 사모 방식으로 주식과 맞바꾸는 '이퀴티제이션'이 2026년 5월부터 이어졌고, 예를 들어 5/29 계약분은 2028년 만기 0.50% 노트 원금 $6.504억을 보통주 약 500만주로 교환했어요(현금 유입 없음, 잔여 원금 $1.722억).",
+          "그 결과 보통주 발행주식수는 2025년 6월 6,980만주에서 2026년 6월 8,860만주로 1년 새 +27%(순증 1,880만주) 늘었고, 이번 스왑으로 인한 회계상 비현금 부채소각손실 $78억이 4분기 GAAP EPS를 -$84.65까지 끌어내렸어요.",
+          "8/24에는 임원(부사장 Jae Kim 등)의 자사주 매도 공시도 있었지만 회사 측 설명은 '베스팅 지분에 대한 세금 원천징수용'으로, 스톡옵션 현금화와는 결이 다르다는 평가예요.",
+        ],
+        why: [
+          "이 이슈는 대시보드에 이미 반영된 강점(엔비디아 파트너십, AI向 수요 급증)과는 별개로, 자본구조 측면에서 주당 지표를 계속 오염시키는 구조적 리스크라는 점에서 기존 리스크(경쟁 구도) 항목에 추가로 봐야 할 변수예요.",
+          "잔여 노트가 남아있는 한(2028/2029년물) 추가 전환 가능성이 있고, 그때마다 발행주식수가 늘면서 이익 총액이 잘 나와도 EPS 서프라이즈 폭이 줄어들 수 있어요.",
+        ],
+        beginner: [
+          "회사가 빚(전환사채)을 현금으로 갚는 대신 '주식을 더 찍어서' 갚은 거예요. 빚은 줄었지만 그만큼 주식 수가 늘어서, 한 주당 돌아가는 이익 몫은 작아져요.",
+          "회계상으로는 이번 한 번에 큰 손실(-$78억)로 잡혔는데, 이건 실제 돈이 나간 게 아니라 '주식으로 갚은 값어치가 원래 빚보다 컸다'는 장부상 숫자라 회사가 실제로 그만큼 손해 본 건 아니에요.",
+        ],
+        interpretation: "사업 자체는 견조하지만 자본구조상 주당 지표가 계속 희석되는 국면이라, 순이익 총액 성장과 EPS 성장 사이에 괴리가 생길 수 있다는 점을 밸류에이션 판단에 반영해야 해요.",
+        decision: "매출·이익 총액 성장세는 그대로 신뢰하되, EPS 기반 밸류에이션 지표(PER 등)를 볼 때는 발행주식수 증가분을 감안해서 보수적으로 해석하는 게 좋아요.",
+        watch: [
+          "2028/2029년 만기 잔여 컨버터블 노트($1.722억 등) 추가 전환 공시 여부",
+          "다음 분기 실적에서 non-GAAP 희석주식수가 어디까지 늘어나는지",
+        ],
+        confidence: "발행주식수 변동과 스왑 조건은 회사 8-K 공시 기준으로 신뢰도가 높고, 임원 매도 관련 해석은 회사 설명을 그대로 인용한 것으로 별도 검증은 못 했어요.",
+        sources: [
+          {
+            title: "Lumentum Reduces Convertible Debt Through Private Share Exchange",
+            url: "https://www.tipranks.com/news/company-announcements/lumentum-reduces-convertible-debt-through-private-share-exchange",
+          },
+          {
+            title: "Lumentum swaps $474.6 million in convertible notes for roughly 5.7 million shares",
+            url: "https://www.msn.com/en-us/money/companies/lumentum-swaps-474-6-million-in-convertible-notes-for-roughly-5-7-million-shares/ar-AA20pSWn",
+          },
+          {
+            title: "Lumentum (LITE) revenue surges 83% in 2026 amid large non-cash debt loss",
+            url: "https://www.stocktitan.net/sec-filings/LITE/8-k-lumentum-holdings-inc-reports-material-event-21905826e626.html",
+          },
+          {
+            title: "This Lumentum Insider Sold $1.6 Million in Stock. Here's What Long-Term Investors Should Know",
+            url: "https://www.fool.com/coverage/filings/2026/08/24/this-lumentum-insider-sold-usd1-6-million-in-stock-here-s-what-long-term-investors-should-know/",
+          },
+        ],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-27 마감 4분기 (FY2026 Q4, 회계연도 마감 실적)",
+        headline: "4분기 매출 $10.06억로 전년비 +109.3%(전분기 +90%에서 가속), 가이던스 상단($9.6~10.1억) 턱걸이 부합, non-GAAP EPS $3.23으로 전년 $0.88 대비 급증했고 다음 분기(Q1 FY27) 가이던스도 매출 $12.25~12.75억·EPS $4.05~4.35로 컨센서스를 크게 웃돌게 제시했어요.",
+        oneTime: "GAAP EPS가 -$84.65(순손실 $71.6억)로 찍힌 건 영업 부진이 아니라 2026/2028/2029년 만기 컨버터블 노트를 주식으로 '이퀴티제이션(equitization)'하면서 발생한 $78억 규모의 비현금성 부채 소각손실(전환가치가 원금을 초과한 차액) 때문이에요. 이 스왑으로 보통주 발행주식수가 2025년 6월 6,980만주에서 2026년 6월 8,860만주로 1년 만에 +27% 늘었고, 여기에 잔여 컨버터블 물량에서 나오는 희석 주식 약 1,400만주(캡드콜 상쇄 -60만주)가 non-GAAP 희석주식수에 얹혀요. 이 외에 연간 기준 구조조정비용 $1,140만, 무형자산 상각 $250만도 있었지만 규모는 작아요.",
+        coreRead: "GAAP 손익은 노이즈이고 실질 체력은 non-GAAP 지표로 봐야 해요 — non-GAAP 매출총이익률 50.4%(전년 37.8%), 영업이익률 36.6%(전년 15.0%)로 레버리지가 뚜렷하고, non-GAAP 순이익은 $3.263억으로 전분기 대비도 개선됐어요. 다만 주당 지표는 노트 이퀴티제이션으로 분모(주식수)가 계속 커지고 있어서, 이익 총액 성장 속도보다 EPS 성장 속도가 구조적으로 낮게 나올 걸 감안해야 해요.",
+        forecast: "Q1 FY2027(2026년 9월 마감, 통상 11월 초 발표) 매출이 가이던스 상단인 $12.75억을 상회하고 non-GAAP EPS도 $4.35를 넘어설 걸로 봐요. 반대로 잔여 컨버터블 노트(2028년물 잔액 $1.722억 등)가 추가로 주식 전환되면서 희석주식수가 9,000만주를 넘어서면, 이익 총액이 잘 나와도 EPS 서프라이즈 폭은 좁아질 거예요 — 이 경우 제 forecast는 틀린 걸로 봐주세요.",
+        confidence: "매출·EPS 실적치, 가이던스, 주식수 변동(6,980만→8,860만주), $78억 손실의 회계적 원인은 회사 공식 실적발표·8-K 공시로 확인된 사실이에요. 반면 대시보드의 '이번연도' 컨센서스 EPS가 8/21 전후로 $18.73→$8.23(-56%)로 급변한 정확한 메커니즘은 데이터벤더가 공식 설명한 게 아니라, 위 사실들(FY2026 마감으로 4분기 실적치가 컨센서스에 확정 반영된 점 + 주식수 27% 증가)을 근거로 한 제 추정이에요 — 실적 부진이나 가이던스 컷 때문이 아니라는 점은 비교적 확신하지만, 벤더 데이터 자체의 처리 지연·오류 가능성도 배제 못 해요.",
+        sources: [
+          {
+            title: "Lumentum Announces Fourth Quarter and Full Fiscal Year 2026 Results",
+            url: "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Announces-Fourth-Quarter-and-Full-Fiscal-Year-2026-Results/default.aspx",
+          },
+          {
+            title: "Lumentum Q4 FY2026 earnings: Revenue doubles as margins expand",
+            url: "https://www.tradingkey.com/news/earnings/262097070-tradingkey",
+          },
+          {
+            title: "Lumentum (LITE) revenue surges 83% in 2026 amid large non-cash debt loss",
+            url: "https://www.stocktitan.net/sec-filings/LITE/8-k-lumentum-holdings-inc-reports-material-event-21905826e626.html",
+          },
+          {
+            title: "Lumentum anticipates $960M-$1.01B Q4 FY2026 revenue while targeting $2B quarterly revenue goal",
+            url: "https://seekingalpha.com/news/4586526-lumentum-anticipates-960m-1_01b-q4-fy2026-revenue-while-targeting-2b-quarterly-revenue-goal",
+          },
+          {
+            title: "Lumentum Q3 revenue jumps 90% to record $808M",
+            url: "https://www.stocktitan.net/news/LITE/lumentum-announces-third-quarter-of-fiscal-year-2026-financial-v6qfp5vq9146.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적·가이던스는 진짜로 좋은데, 주가는 이미 그 좋음을 상당 부분 반영한 구간이에요.",
+        view: "현재가 $939.03에 자체 6년 PER 밴드 기준 포워드 PER은 약 38.5배로, 이 종목 역사상 밴드 상단권이에요. 내년(FY2027, 2027-06-30 마감) 컨센서스 EPS $33.01(20개 기관) 기준으로도 밸류에이션이 결코 싸지 않은데, 이번연도(FY2026) 컨센서스 EPS $8.23은 8/21 전후 데이터 이상 플립($18.73→-56%) 때문에 대시보드의 'PER 그대로' 계산이 아예 막혀 있는 상태예요. 다만 펀더멘털 자체는 흔들리지 않아요 — 4분기 매출이 전년비 +109%, non-GAAP 영업이익률이 36.6%까지 올라왔고 Q1 FY2027 가이던스(매출 $12.25~12.75억, EPS $4.05~4.35)도 컨센서스를 상회하는 수준으로 제시됐어요. 엔비디아의 $20억 전략투자와 레이저 부품 대량구매 약정(2026년 3월)이 수요 측 안전판 역할을 하고 있고, 8/11 실적 발표 후 주가는 +15% 급등, 이후에도 8/25~26 이틀간 +5~6%씩 추가 상승하며 평균 목표주가 $1,117.73(범위 $600~1,400)까지 밀어올려졌어요. 리스크는 두 갈래예요. 하나는 COHR과의 직접 경쟁 구도(기존 노트에도 명시)이고, 다른 하나는 이번에 새로 확인된 자본구조 리스크 — 컨버터블 노트를 주식으로 계속 맞바꾸면서 발행주식수가 1년 새 6,980만→8,860만주(+27%)로 늘었고 잔여 물량(2028년물 잔액 $1.722억 등) 전환이 이어질수록 주당 지표 희석이 계속될 수 있다는 점이에요. 결국 '사업은 잘 되는데 주당 숫자는 주식수 증가로 계속 오염된다'는 구도라, PER만 보고 싸다/비싸다를 단순 판단하기 어려운 종목이에요.",
+        increaseIf: [
+          "Q1 FY2027 실적에서 매출이 가이던스 상단($12.75억) 이상, non-GAAP EPS가 $4.35 이상으로 실제 나오면서 이번연도 EPS 컨센서스 이상치가 데이터 오류였음이 확인되고 'PER 그대로' 계산이 재개되는 경우",
+          "엔비디아향 출하 물량이 실제 매출·수주잔고 숫자로 가시화되며 매출 성장률이 다음 1~2개 분기도 두 자릿수 후반~세자릿수%를 유지하는 경우",
+          "잔여 컨버터블 노트 전환이 소규모에 그쳐 희석주식수 증가가 연 10% 이내로 진정되는 경우",
+        ],
+        wrongIf: [
+          "Q1 FY2027 매출이 가이던스 하단($12.25억) 이하로 미스하거나 non-GAAP EPS가 $4.05를 밑도는 경우",
+          "잔여 컨버터블 노트(2028/2029년물)가 추가로 대규모 주식 전환되며 발행주식수가 9,000만주를 훌쩍 넘어 EPS 컨센서스가 추가 하향되는 경우",
+          "COHR 등 경쟁사가 유사한 AI 광부품 대형 계약을 따내며 점유율이나 마진에서 눈에 띄게 밀리는 정황이 나오는 경우",
+        ],
+        watchNext: [
+          "Q1 FY2027 실적 발표(통상 11월 초) — 매출·EPS 실제치와 가이던스 대비 방향",
+          "잔여 컨버터블 노트 잔액($1.722억 등) 추가 스왑 여부와 그때마다의 발행주식수 변화",
+          "대시보드 '이번연도' EPS 컨센서스 $8.23이 향후 며칠~몇 주 안에 재조정되거나 'PER 그대로' 계산 차단이 풀리는지 여부",
+          "평균 목표주가 $1,117.73 대비 실제 주가 갭이 좁혀지는지, 애널리스트 추가 상향/하향 여부",
+        ],
+        confidence: "가격·밸류에이션 숫자는 로컬 데이터 그대로이고, 실적·가이던스·주식수 관련 서술은 회사 공식 발표 기준이에요. 다만 이번연도 EPS 컨센서스 이상치의 정확한 발생 원인은 확정된 게 아니라 정황 추정이라, 확률을 숫자로 제시하지 않고 위 조건들로 판단 기준을 대신했어요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["광통신 부품(레이저·옵틱스)"],
@@ -2302,6 +3032,63 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2Q26)",
+        headline: "매출 111억 달러(+22% YoY)·수주 242억 달러(+88% 유기적)로 톱라인은 컨센서스를 넘겼지만, GAAP EPS $2.47(컨센서스 약 $3.17)·조정 EPS $2.41(컨센서스 약 $3.04)은 미스했고 EBIT 마진도 6%로 시장 기대치(약 9.2%)를 크게 밑돌았어요.",
+        oneTime: "2Q26 자체엔 대형 일회성 항목이 두드러지진 않지만, 직전 분기인 1Q26에 Prolec GE 잔여 지분 50% 인수(2/2 완료)에 따른 재평가 차익 39.92억 달러 + Proficy 소프트웨어 사업 매각 차익 3.3억 달러(세후 2.1억)가 'Other income (expense) – net'에 잡히면서 1Q26 순이익이 47.45억 달러, 희석 EPS가 $17.44(전년 동기 $0.91)까지 튀었어요. 이 약 43억 달러(주당 약 $16) 규모의 일회성 이익이 올해 컨센서스 EPS($30.79)를 크게 밀어올린 핵심 원인으로 보여요.",
+        coreRead: "GAAP 숫자는 이 일회성 이익 때문에 노이즈가 크니 현금흐름과 수주 지표로 보는 게 나아요. 2Q26 FCF는 51억 달러였고 이에 힘입어 회사는 연간 FCF 가이던스를 $65~75억에서 $115~125억으로 큰 폭 상향했어요. 가스터빈 백로그는 116GW(연말 125GW 목표)까지 쌓이고 총 백로그는 1,760억 달러로 늘어서, 성장 파이프라인은 여전히 견조해요. 다만 EBIT 마진이 기대에 못 미친 건 원자재·관세 비용과 신규 수주 확대에 따른 프로젝트 초기 비용 부담이 원인으로 지목되는데, 이게 실제 수익성 전환 속도를 가늠할 핵심 변수예요.",
+        forecast: "3Q26(9월 마감 분기)에는 일회성 항목 없이 조정 EBIT 마진이 2Q26의 6%보다는 개선되겠지만 가이던스 상단(14%)에는 못 미치는 8% 안팎에 머물 가능성이 높다고 봐요. 만약 3Q에도 EBIT 마진이 7% 미만에 머문다면 이 예측은 틀린 걸로 봐주세요.",
+        confidence: "매출·오더·백로그·가이던스 수치와 1Q26 Prolec·Proficy 차익 금액은 GE Vernova 공식 보도자료 및 10-Q 공시 기준으로 확인된 사실이에요. EBIT 마진 부진의 원인 해석과 3Q 마진 전망 수치는 제 추정이에요.",
+        sources: [
+          {
+            title: "GE Vernova reports second quarter 2026 financial results and raises 2026 financial guidance",
+            url: "https://www.gevernova.com/news/press-releases/ge-vernova-reports-second-quarter-2026-financial-results-raises-2026-financial",
+          },
+          {
+            title: "GEV Press Release 2Q'26",
+            url: "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm",
+          },
+          {
+            title: "GE Vernova's Q2 Earnings Beat on Revenue. EBIT Margin Told a Different Story.",
+            url: "https://www.tikr.com/blog/ge-vernovas-q2-earnings-beat-on-revenue-ebit-margin-told-a-different-story",
+          },
+          {
+            title: "Prolec deal boosts GE Vernova (NYSE: GEV) profit and $176B backlog",
+            url: "https://www.stocktitan.net/sec-filings/GEV/10-q-ge-vernova-inc-quarterly-earnings-report-2e29f22ab875.html",
+          },
+          {
+            title: "GE Vernova stock holds above $950 as fresh fund inflows follow earnings miss",
+            url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/ge-vernova-stock-holds-above-950-as-fresh-fund-inflows-follow-earnings/69986115",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "백로그는 진짜인데 마진 전환은 아직 증명 전 — 지금 배수는 일회성 이익이 낀 EPS로 계산된 착시라는 점을 감안해야 해요",
+        view: "현재가 $953.09 기준 자체 2년 밴드 포워드 PER은 45.5배인데, 이건 올해 컨센서스 EPS $30.79(20명 추정)를 쓴 값이고 이 EPS엔 1Q26에 Prolec GE 잔여 지분 재평가 차익(39.92억 달러)과 Proficy 매각 차익(3.3억 달러)을 합쳐 약 43억 달러(주당 약 $16)의 일회성 이익이 섞여 있어요. 실제로 내년 컨센서스 EPS는 27명 추정 기준 $24.74로 올해보다 오히려 낮은데, 이건 이익이 역성장하는 게 아니라 일회성 효과가 빠지면서 정상화되는 그림이에요. 즉 지금 45.5배라는 배수는 '지속 가능한 코어 이익' 기준으로 보면 실제로는 이보다 비싼 편이라고 봐야 해요. 한편 2Q26(6/30 마감) 실적은 매출 111억 달러(+22%)·수주 242억 달러(+88% 유기적)로 성장 스토리는 여전히 살아있고 가스터빈 백로그도 116GW(연말 125GW 목표, 연 생산능력 20GW 대비 약 5~6년치)까지 쌓였지만, 정작 수익성 지표인 EBIT 마진은 6%로 시장 기대(약 9.2%)를 크게 밑돌면서 조정 EPS $2.41도 컨센서스 $3.04를 놓쳤어요. '주문은 폭발하는데 마진 전환은 더디다'는 게 지금 주가에 걸려있는 핵심 질문이고, 월가 평균 목표주가는 대략 $1,230~1,280 선(현재가 대비 30%+ 상승여력)으로 매수 우위 컨센서스지만 이는 백로그가 실제 마진 있는 매출로 전환된다는 전제가 깔려 있어요.",
+        increaseIf: [
+          "3Q26·4Q26 실적에서 조정 EBIT 마진이 8~9% 이상으로 개선되며 연간 가이던스 상단(12~14%)에 대한 신뢰가 회복될 때",
+          "가스터빈 신규 수주가 계속 이어져 백로그가 125GW 목표를 실제로 넘어서고, 생산능력(연 20GW) 증설 계획이 구체적으로 발표될 때",
+          "2027년 컨센서스 EPS가 일회성 제외 기준으로 상향 조정되기 시작하며 '정상화 후 저성장' 우려가 해소될 때",
+        ],
+        wrongIf: [
+          "다음 2개 분기 연속으로 EBIT 마진이 6~7%대에 머물며 수익성 전환이 계속 지연될 때",
+          "관세·원자재 비용 상승으로 인한 마진 가이던스 추가 하향이 나올 때",
+          "가스터빈 백로그 증가세가 꺾이거나 대형 수주 취소가 발생해 AI 데이터센터발 수요 둔화 신호가 나타날 때",
+        ],
+        watchNext: [
+          "3Q26 실적 발표(대략 10월 하순 예상) 시 조정 EBIT 마진 추이와 연간 가이던스 유지 여부",
+          "가스터빈 백로그가 116GW에서 125GW로 가는 속도, 그리고 생산능력 증설(연 20GW 이상) 관련 발표",
+          "2027년 컨센서스 EPS가 일회성 제외 기준 실제 '코어 이익 성장'을 반영해 상향되는지 여부",
+        ],
+        confidence: "가격·가이던스·백로그·EPS 수치는 회사 공식 발표 및 컨센서스 데이터 기준이고, 밸류에이션 해석과 마진 전환 시점에 대한 판단은 제 개인적 종합 견해예요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["가스터빈", "발전", "변압", "송전", "Grid(전력망)"],
       stars: 5,
@@ -2355,6 +3142,52 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 75.04억 달러(컨센서스 74.7억 달러 상회), 조정영업EPS $2.55로 컨센서스 $2.36을 약 8% 상회했고 전년 동기 $1.91 대비 33.5% 늘었어요 - 다만 GAAP EPS는 $1.42로 작년 $2.67보다 오히려 줄었어요.",
+        oneTime: "GAAP과 조정이익 괴리 요인이 뚜렷해요 - 파생상품·유가증권 공정가치 평가손실 세후 3.4억 달러, 캘파인(Calpine) 인수로 취득한 상품계약 관련 비현금성 상각 세후 1.49억 달러, 캘파인 합병·통합비용 세후 0.84억 달러가 GAAP 순이익(5.13억 달러, 전년 8.39억 달러)을 끌어내렸어요.",
+        coreRead: "GAAP 숫자만 보면 이익이 줄어든 것처럼 보이지만 이건 대부분 비현금성 공정가치 변동과 캘파인 인수 관련 일회성 비용이라 영업의 질 저하로 보기는 어려워요. 조정영업EPS 기준으로는 매출 23% 성장(61.0억→75.0억 달러)에 캘파인 편입 효과가 온전히 반영됐고, 원전 가동률 저하라는 역풍을 뚫고도 서프라이즈를 냈다는 점이 핵심이에요. 회사는 이 실적을 바탕으로 2026년 연간 조정영업EPS 가이던스를 $11.50~$12.50로 상향했는데, 중간값 $12.00이 로컬 컨센서스 EPS $12.12(17개 기관)와 거의 일치해서 시장 기대와 가이던스가 크게 어긋나지 않아요.",
+        forecast: "3분기(2026-09-30 마감) 조정영업EPS가 $2.80~$3.00 구간으로 나오면 연간 가이던스 상단($12.50) 달성 궤도로 볼 수 있고, 반대로 $2.50를 밑돌면 원전 가동률 이슈나 캘파인 통합 비용이 예상보다 길어진다는 신호로 해석할게요. GAAP EPS는 공정가치 평가손익 변동성 때문에 예측이 사실상 무의미하다고 봐요.",
+        confidence: "매출·EPS·가이던스 숫자와 일회성 항목 세부내역은 8-K/보도자료 기반 확인된 사실이고, 3분기 전망 구간과 '영업의 질 저하 아님' 판단은 제 해석이에요.",
+        sources: [
+          {
+            title: "Constellation Reports Second Quarter 2026 Results",
+            url: "https://www.businesswire.com/news/home/20260805185047/en/Constellation-Reports-Second-Quarter-2026-Results",
+          },
+          {
+            title: "CEG Q2 Earnings Top Estimates on Calpine Contribution, View Raised",
+            url: "https://finance.yahoo.com/markets/stocks/articles/ceg-q2-earnings-top-estimates-154300717.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적은 견조한데 주가는 이미 AI 전력수요 스토리를 상당폭 선반영 - 밸류에이션 부담이 성장 서프라이즈보다 커 보여요.",
+        view: "현재가 $279.52는 자체 3년 PER 밴드 기준 포워드 20.8배로, 원전 특화 유틸리티치고는 낮지 않은 자리예요(짧은 상장 히스토리라 밴드 신뢰도는 제한적이지만요). 2분기 실적 자체는 나쁘지 않았어요 - 조정영업EPS $2.55가 컨센서스 $2.36을 8% 상회했고 매출도 75.04억 달러로 소폭 서프라이즈였으며, 이를 근거로 연간 가이던스를 $11.50~$12.50로 올렸어요. 이 가이던스 중간값 $12.00은 로컬 컨센서스 올해 EPS $12.12(17개 기관)와 정합적이고, 내년 컨센서스 $13.34(20개 기관, 2027-12-31 마감)는 전년 대비 약 10% 성장을 내포해요 - 성장률 자체는 준수하지만 20.8배 밸류에이션을 크게 정당화할 만큼 가속되는 그림은 아니에요. GAAP EPS가 $1.42로 전년 $2.67 대비 줄었지만 이건 파생상품 공정가치 손실(세후 3.4억 달러)과 캘파인 인수 관련 상각·통합비용(세후 약 2.3억 달러) 때문이라 일회성 노이즈로 봐야 해요. 최근 주가는 마이크로소프트 PPA에 이어 신규 920MW 장기 PPA(월마트 176MW 포함) 체결, AI 데이터센터發 전력수요 내러티브에 힘입어 $270 선을 웃도는 랠리를 이어가고 있는데, 이 내러티브가 이미 상당 부분 주가에 반영된 상태라서 추가 상승은 실적이 가이던스 상단을 넘어서거나 신규 대형 PPA가 계속 나와줘야 정당화될 것 같아요.",
+        increaseIf: [
+          "3분기 실적에서 조정영업EPS가 연간 가이던스 상단($12.50) 궤도를 재확인하거나 가이던스를 추가 상향할 때",
+          "마이크로소프트/월마트 건 이후 추가 대형 기업 고객과의 신규 원전 PPA가 체결되어 계약 파이프라인이 재확인될 때",
+          "원전 가동률이 2분기 부진에서 정상 수준으로 회복되는 신호가 나올 때",
+        ],
+        wrongIf: [
+          "원전 예정외 정지(unplanned outage)가 재발해 조정영업EPS가 분기 컨센서스를 하회할 때",
+          "캘파인 통합비용이나 상각 항목이 예상보다 길게 지속되며 GAAP-조정이익 괴리가 구조적으로 굳어질 때",
+          "PJM 등 용량시장(capacity market) 가격이 하락하거나 신규 원전 PPA 파이프라인이 마르는 신호가 나올 때",
+        ],
+        watchNext: [
+          "3분기(2026-09-30 마감) 실적 발표 - 통상 11월 초, 조정영업EPS와 가이던스 유지/추가 상향 여부",
+          "캘파인 인수 통합 진행 상황과 관련 일회성 비용의 소멸 시점",
+          "PJM 등 용량시장 경매 결과 및 신규 원전 재가동/PPA 계약 발표",
+          "원전 가동률(capacity factor) 지표 - 2분기 실적을 눌렀던 가동률 저하가 3분기에 정상화되는지",
+        ],
+        confidence: "밸류에이션·컨센서스 숫자는 로컬 데이터와 실적 발표 기준이고, 주가 상승 지속 여부에 대한 판단은 해석이에요 - 실제 확률을 뒷받침할 백테스트 통계는 없어서 위 조건들로 판단 근거를 대신할게요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["원자력 발전", "AI 데이터센터向 전력 공급 계약"],
       stars: 4,
@@ -2408,6 +3241,59 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기, 8/7 발표)",
+        headline: "GAAP 매출은 $40.2억으로 컨센서스 $62.9억을 36.2% 큰 폭으로 밑돌았지만 이는 파생상품 마크투마켓 손실 반영 탓이고, 조정 EPS는 $1.80로 컨센서스 $1.54를 16.9% 상회했으며 Ongoing Operations 조정 EBITDA는 $17.67억으로 전년동기($13.49억) 대비 31% 급증했어요.",
+        oneTime: "미래 결제 예정 상품 헤지에서 $4.72억 규모의 미실현(마크투마켓) 손실이 발생해 GAAP 순이익($3.05억, GAAP 희석 EPS $0.76·전년 $0.81)을 눌렀어요(전년 동기엔 오히려 $1,600만 이익). 매출 컨센서스와의 큰 괴리도 이 파생상품 시가평가 손실이 전년 대비 $6.11억 늘어난 영향이 커요.",
+        coreRead: "GAAP 숫자는 헤지 회계 때문에 분기마다 크게 출렁이므로, 실제 사업 체력은 조정 EBITDA와 잉여현금흐름으로 보는 게 맞아요. 회사는 2026년 가이던스(조정 EBITDA $68~76억, 조정 FCFbG $39.25~47.25억)를 그대로 재확인했고, 8월 3일 기준 2026년 예상 발전량의 약 100%를 헤지해놔서 하반기 실적 가시성이 높아요. 텍사스·동부 지역 도매가격 상승과 Lotus 가스발전 자산의 첫 온전한 분기 기여가 조정 EBITDA 31% 성장을 이끌었어요.",
+        forecast: "3분기(2026-09-30 마감)에는 여름 성수기 도매전력가격 강세와 코젠트릭스 가스자산 편입 효과 온기 반영으로 조정 EBITDA가 전년동기 대비 두 자릿수% 성장을 이어갈 걸로 봐요. 다만 파생상품 마크투마켓 손익 변동성 때문에 GAAP EPS는 컨센서스와 또 한 번 크게 어긋날 가능성이 높다고 봐요(제 추정이라 틀릴 수 있어요).",
+        confidence: "매출·EPS·조정 EBITDA 수치, 헤지 손실 규모, 가이던스 재확인 여부는 8/7 공식 실적발표(및 관련 8-K) 기준 확인된 사실이고, 3분기 방향성 전망과 GAAP 변동성 예측 부분은 제 해석이에요.",
+        sources: [
+          {
+            title: "Vistra Reports Second Quarter 2026 Results",
+            url: "https://www.prnewswire.com/news-releases/vistra-reports-second-quarter-2026-results-302845874.html",
+          },
+          {
+            title: "Vistra Q2 2026 earnings: Adjusted EBITDA rises 31% despite hedge losses",
+            url: "https://www.tradingkey.com/news/earnings/262088532-tradingkey",
+          },
+          {
+            title: "Vistra Corp. Q2 2026: Revenue $4.02B, EPS $0.76— 10-Q Summary",
+            url: "https://www.tradingview.com/news/tradingview:cbfaebad6fe5b:0-vistra-corp-q2-2026-revenue-4-02b-eps-0-76-10-q-summary/",
+          },
+          {
+            title: "Vistra Q2 Earnings Beat Estimates on Pricing and Lotus, Revenues Miss",
+            url: "https://www.tradingview.com/news/zacks:a9ffe855a094b:0-vistra-q2-earnings-beat-estimates-on-pricing-and-lotus-revenues-miss/",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "밸류에이션 부담은 있지만 헤지된 2026년 실적 가시성과 대형 PPA 파이프라인이 받쳐주는 '유지' 관점이에요.",
+        view: "현재 주가 $140.03 기준 올해(2026년 12월 결산) 컨센서스 EPS $9.59(9개 기관)에 대한 포워드 PER은 약 14.5배로, 자체 6년 밴드 상으로는 밸류에이션 부담이 크지 않은 구간이에요. 반면 트레일링 GAAP PER은 약 23.4배로 신재생 섹터 평균(16.8배)·동종업체(20.8배)보다 높게 잡히는데, 이건 2분기 GAAP 순이익($3.05억)이 헤지 회계상 미실현 손실 $4.72억에 눌린 왜곡이 커서예요. 실제 체력을 보여주는 Ongoing Operations 조정 EBITDA는 $17.67억으로 전년동기 대비 31% 늘었고, 2026년 조정 EBITDA $68~76억·조정 FCFbG $39.25~47.25억 가이던스를 그대로 재확인했으며 올해 발전량의 약 100%를 헤지해둬서 하반기 하방 리스크는 제한적이에요. 메타와의 20년 PPA(원전 3곳 2,600MW+ 증설)와 $47억 규모 코젠트릭스 가스자산 인수 같은 대형 전력 소비처向 장기계약 파이프라인이 내년(2027년 12월 결산) 컨센서스 EPS $10.35(10개 기관)로의 이익 성장 스토리를 뒷받침해요. 다만 데이터센터발 전력수요 기대가 이미 주가에 상당 부분 선반영돼 있어서, 실적이 가이던스 상단을 못 채우거나 PPA·증설 실행이 지연되면 밸류에이션 프리미엄이 빠르게 되돌려질 수 있는 구간이에요.",
+        increaseIf: [
+          "3분기(2026-09-30 마감) 실적에서 조정 EBITDA가 가이던스 상단($76억) 경로를 유지하거나 상향될 때",
+          "메타·AWS 외 추가 대형 하이퍼스케일러向 PPA가 체결되며 2027년 이후 계약 물량이 늘어날 때",
+          "코젠트릭스 5.5GW 자산 편입 이후 조정 FCFbG가 가이던스 상단에 근접해 자사주 매입 여력이 확인될 때",
+        ],
+        wrongIf: [
+          "3~4분기에 파생상품 마크투마켓 손실이 재차 확대되며 GAAP뿐 아니라 조정 EBITDA 가이던스 자체가 하향될 때",
+          "원전 3곳 2,600MW+ 출력증강 프로젝트가 인허가·규제 이슈로 지연·축소될 때",
+          "텍사스·동부 도매전력가격이 예상보다 빠르게 꺾여 실현 마진이 축소될 때",
+        ],
+        watchNext: [
+          "3분기(2026-09-30 마감) 실적에서 Ongoing Operations 조정 EBITDA·FCFbG 가이던스 재확인 여부",
+          "코젠트릭스 5.5GW 가스자산 인수 마무리 시점과 편입 후 EBITDA 기여도",
+          "메타 PPA 관련 원전 3곳 출력증강 인허가·공사 진행 상황 공시",
+        ],
+        confidence: "실적 수치와 가이던스는 8/7 공식 발표 기준 사실이고, 밸류에이션 프리미엄 해석과 향후 전망은 제 판단이에요. 별도의 확률 수치는 붙이지 않고 위 조건들로 판단 근거를 대신해요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["발전(원자력+가스+재생에너지)", "소매 전력 공급"],
       stars: 4,
@@ -2437,6 +3323,86 @@ const BUSINESS_NOTES = {
       {title:"[ETN Q2 2026 Earnings Call] Eaton Lifts Profit Outlook to $13.50 as Data Center Backlog Tops 307 GW", url:"https://finance.biggo.com/news/US_ETN_2026-07-31"},
       {title:"Eaton Reports Record Fourth Quarter 2025 Results, with Accelerating Orders and Continued Backlog Growth", url:"https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-fourth-quarter-2025-results.html"},
       {title:"Electrical Equipment Market Report with Impact Analysis of US Tariffs", url:"https://www.businesswire.com/news/home/20251121260415/en/Electrical-Equipment-Market-Report-with-Impact-Analysis-of-US-Tariffs-Featuring-Samsung-Mitsubishi-Fuji-Honeywell-ABB-Siemens-Schneider-Electric-Vertiv-Eaton-and-General-Electric---ResearchAndMarkets.com"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-27",
+        headline: "에버코어, 2분기 실적 서프라이즈 후 이튼 투자의견 상향·목표가 502달러로 올렸어요.",
+        importance: "medium",
+        tone: "positive",
+        horizon: "단기~중기 (수주~수개월간 주가 모멘텀에 영향)",
+        facts: [
+          "8/3(2026년) 에버코어ISI 애널리스트 데이비드 라소가 이튼 투자의견을 '인라인'에서 '아웃퍼폼'으로 상향하며 목표주가를 453달러에서 502달러로 올렸어요.",
+          "BMO캐피탈 애널리스트 대니얼 디시코도 아웃퍼폼 의견을 유지하며 목표주가를 477달러에서 487달러로 상향했어요.",
+          "두 상향 모두 7/30 발표된 2분기 조정 EPS 3.15달러(컨센서스 3.07달러 상회)와 2026년 전체 가이던스 상향(조정 EPS 13.40~13.60달러) 직후 나왔어요.",
+        ],
+        why: [
+          "목표가 502달러는 8/27 종가 419.44달러 대비 약 +20% 상승 여력을 시사하는 수준이라, 월가가 데이터센터發 성장 스토리를 실적으로 확인했다고 보고 있다는 뜻이에요.",
+          "기존에 지적된 '데이터센터 매출 21%, 주문 +240%' 같은 강점이 실제 가이던스 상향으로 뒷받침되면서 리레이팅 근거가 강화된 사례예요.",
+        ],
+        beginner: [
+          "애널리스트들이 회사가 실적을 잘 내니까 '앞으로 더 오를 수 있다'고 목표주가를 올려 잡은 거예요.",
+          "목표주가가 오른다고 주가가 바로 그만큼 오르는 건 아니고, 앞으로 실적이 계속 잘 나와야 그 목표가 현실이 돼요.",
+        ],
+        interpretation: "애널리스트 목표가 상향은 실적 발표라는 팩트에 대한 월가의 후행적 확인 성격이 강하므로, 이 자체를 매수 신호로 보기보다는 이미 진행 중인 데이터센터 성장 스토리가 시장 컨센서스에 반영되는 과정으로 해석하는 게 맞아요.",
+        decision: "이미 26.5배 선행 PER에 성장 기대가 상당 부분 반영돼 있는 만큼, 이번 목표가 상향을 추격 매수 근거로 삼기보다는 3분기 실적에서 유기성장률과 조정 EPS가 가이던스를 실제로 충족하는지 확인하는 게 우선이에요.",
+        watch: [
+          "다른 대형 증권사들의 후속 목표가 조정 여부",
+          "502달러 목표가와 실제 주가 흐름 간 갭이 좁혀지는 속도",
+        ],
+        confidence: "벤징가가 보도한 애널리스트 리포트 요약 기사 기준이며, 원 리포트 원문은 확인하지 못했어요 — 목표가 숫자 자체는 신뢰할 수 있는 2차 출처예요.",
+        sources: [
+          {
+            title: "Eaton Analysts Boost Their Forecasts After Strong Q2 Earnings",
+            url: "https://www.benzinga.com/analyst-stock-ratings/price-target/26/08/60877985/eaton-analysts-boost-their-forecasts-after-strong-q2-earnings",
+          },
+        ],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 85억 달러로 전년비 +21%(유기성장 +14%)를 기록해 가이던스 상단을 웃돌았고, 조정 EPS 3.15달러로 컨센서스 3.07달러를 상회했어요.",
+        oneTime: "GAAP 순이익은 8.21억 달러로 전년 9.82억 달러 대비 -16% 감소했는데, 세후 기준 4.07억 달러(전년 1.73억 달러)를 조정 대상으로 제외했어요 — 인수·매각 관련 비용 1.90억 달러, 무형자산상각 1.98억 달러, 구조조정 0.19억 달러가 포함됐고, 여기에 보이드써멀 인수 관련 부채로 순이자비용이 0.71억→2.01억 달러로 거의 3배 급증한 게 GAAP 이익을 크게 눌렀어요.",
+        coreRead: "유기성장률 14%가 가이던스 상단을 넘었고 전사 세그먼트마진 23.1%(가이던스 대비 +10bp), 특히 일렉트리컬 아메리카스 마진이 전분기 대비 +190bp 오른 27.5%를 기록해 본업 체력은 탄탄해요. GAAP 순이익 감소는 영업 부진이 아니라 보이드써멀 인수에 따른 무형자산상각·이자비용 증가가 원인이라 조정 EPS·현금흐름 기준 실질 수익력은 오히려 개선된 것으로 보여요. 회사는 2026년 전체 조정 EPS 가이던스를 13.40~13.60달러로 상향했는데, 이는 저희가 갖고 있는 컨센서스 13.52달러와 거의 정확히 일치해요.",
+        forecast: "3분기(9월 마감 분기) 매출은 전년비 +15% 안팎, 조정 EPS는 3.25~3.35달러 구간으로 예상돼요. 다만 보이드써멀 인수 관련 이자비용·무형자산상각 부담이 최소 2~3개 분기 더 이어지면서 GAAP EPS는 조정 EPS 대비 20% 이상 낮은 수준을 유지할 가능성이 높다고 봐요.",
+        confidence: "매출·EPS·가이던스·일회성 항목 금액은 이튼 공식 보도자료·8-K 기준 확정 사실이고, 3분기 전망치 구간과 'GAAP-조정 EPS 갭이 계속될 것'이라는 판단은 제 해석이에요.",
+        sources: [
+          {
+            title: "Eaton Reports Record Second Quarter 2026 Results, with Strong Organic Growth, Accelerating Orders and Backlog, and Raises Organic Growth Guidance",
+            url: "https://www.eaton.com/us/en-us/company/news-insights/news-releases/2026/eaton-reports-record-second-quarter-2026-results.html",
+          },
+          {
+            title: "Eaton Q2 2026 earnings: Organic growth lifted sales while GAAP profit fell",
+            url: "https://www.tradingkey.com/news/earnings/262067237-tradingkey",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "26.5배 선행 PER은 싸지 않지만, 14% 유기성장과 가이던스 상향이 뒷받침하는 밸류에이션이에요.",
+        view: "8/27 기준 종가 419.44달러에 올해(2026년 12월 마감, 애널리스트 24명) 컨센서스 EPS 13.52달러를 적용하면 약 31배, 내년(2027년 12월 마감, 22명) 컨센서스 EPS 16.03달러를 적용하면 약 26.5배 수준으로, 내년 실적 기준으로는 저희 27년치 자체 PER 밴드 안에서 크게 벗어나지 않는 구간이에요. 7/30 발표된 2분기 실적에서 매출 85억 달러(+21%, 유기 +14%)로 가이던스 상단을 넘었고 회사는 올해 조정 EPS 가이던스를 13.40~13.60달러로 올렸는데, 이는 저희 컨센서스 13.52달러와 거의 정확히 일치해 시장 기대가 현실적인 수준이라는 뜻이에요. 다만 GAAP EPS는 2.11달러로 전년비 -16% 감소했는데, 이는 보이드써멀(95억 달러) 인수에 따른 순이자비용 급증(0.71억→2.01억 달러)과 무형자산상각 때문이라 실적의 질보다는 재무구조 변화 문제로 봐야 해요. 여기에 6/11 발표된 모빌리티 사업부와 데이나(Dana)의 리버스모리스트러스트 합병(2027년 1분기 완료 목표, 이튼에 11억 달러 현금 유입)까지 진행 중이라 2027년부터는 전기·항공우주 중심의 더 슬림하고 고마진인 포트폴리오로 재편될 전망이에요. 데이터센터 매출 비중 21%, 1분기 데이터센터 주문 +240% 급증이라는 기존 성장 스토리에 8/3 에버코어의 투자의견 상향(목표가 502달러)까지 겹치면서 밸류에이션 프리미엄이 정당화되는 흐름이지만, 이미 상당 부분 주가에 반영돼 있어 추가 상승은 실적이 계속 기대치를 웃돌아야 나올 걸로 보여요.",
+        increaseIf: [
+          "3분기 이후에도 유기성장률이 두 자릿수(가이던스 11~13%)를 유지하고 데이터센터 수주·백로그가 계속 늘어날 때",
+          "보이드써멀 통합이 순조롭게 진행돼 마진이 훼손되지 않고 GAAP-조정 EPS 갭이 축소될 때",
+          "데이나와의 모빌리티 합병이 2027년 1분기 계획대로 종결돼 11억 달러 현금이 유입되고 전기·항공우주 중심 포트폴리오 재편이 완료될 때",
+        ],
+        wrongIf: [
+          "AI·데이터센터向 설비투자가 둔화되면서 유기성장률이 가이던스 하단(11%) 아래로 꺾일 때",
+          "보이드써멀 인수 관련 이자비용·상각 부담이 예상보다 오래 지속되며 GAAP 이익이 계속 부진할 때",
+          "데이나 합병이 주주 승인이나 규제 문제로 무산되거나 지연될 때",
+        ],
+        watchNext: [
+          "10월 말~11월 초 예정된 3분기(9월 마감) 실적에서 유기성장률과 조정 EPS 3.25~3.35달러 구간 달성 여부",
+          "데이나 인코퍼레이티드 주주총회 승인 및 규제 심사 진행 상황(2027년 1분기 종결 목표)",
+          "26.5배 선행 PER 대비 실제 EPS 서프라이즈 여부와 추가 애널리스트 목표가 조정",
+        ],
+        confidence: "가격·컨센서스 EPS·PER은 로컬 데이터 기준 확정치이고, 밸류에이션 해석과 시나리오는 제 판단이에요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["전력관리 인프라", "변압기·배전 설비", "데이터센터 냉각(신규)"],
@@ -2485,6 +3451,56 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출이 $95.6억으로 전년동기($67.7억) 대비 41% 급증했고 조정 EPS $4.24로 컨센서스를 크게 상회하면서, 회사가 2026년 매출 가이던스를 $393~397억, 조정 EPS 가이던스를 $16.45~16.95로 재차 상향했어요.",
+        oneTime: "GAAP 희석 EPS는 $2.96으로 조정 EPS($4.24) 대비 낮은데, 이는 일회성 손익이라기보다 무형자산 상각 $1.57억, 주식보상비용 $6.34천만, 인수·통합비용 $2.85천만, 우발부채 공정가치 증가 $6.5백만, 비연결 지분법 손실 $6.4백만 등 M&A·비현금성 항목이 계속 GAAP 수익을 눌러온 결과예요. 실적을 부풀리는 이례적 일회성 이익은 확인되지 않았어요.",
+        coreRead: "백로그가 1분기 $485억에서 2분기 $534억으로 한 분기 만에 또 사상 최대치를 갱신했고, 조정 EBITDA는 $11억(가이던스 기준 연간 $40.9~42.1억)으로 매출 대비 마진이 견조해요. 영업현금흐름 가이던스도 $29~34억으로 상향된 걸 보면 GAAP 순이익의 상각비 잡음을 걷어내면 현금창출력 자체는 매우 건강한 그림이에요.",
+        forecast: "3분기(9월 마감)는 계절적으로 시공 성수기라 조정 EPS가 $4.5~4.8 구간, 매출은 가이던스 상단을 향해 순차 확대될 것으로 봐요. 백로그도 $534억보다 늘어나 다시 사상 최대를 기록할 가능성이 높다고 판단해요(단, 이 구간 수치는 제 추정이라 빗나갈 수 있어요).",
+        confidence: "매출·EPS·백로그·가이던스 수치는 2026-07-30 발표된 공식 2분기 실적 보도자료 기준 확인된 사실이고, 3분기 전망치와 마진 해석은 그 위에 얹은 제 추정이에요.",
+        sources: [
+          {
+            title: "QUANTA SERVICES REPORTS SECOND QUARTER 2026 RESULTS",
+            url: "https://www.prnewswire.com/news-releases/quanta-services-reports-second-quarter-2026-results-302838646.html",
+          },
+          {
+            title: "Quanta projects 2026 revenue of $39.3B-$39.7B as record $53B backlog supports raised outlook (NYSE:PWR)",
+            url: "https://seekingalpha.com/news/4621968-quanta-projects-2026-revenue-of-39_3b-39_7b-as-record-53b-backlog-supports-raised-outlook",
+          },
+          {
+            title: "Quanta Services Q2 2026 Earnings: $9.6B Revenue | PWR Stock News",
+            url: "https://www.stocktitan.net/news/PWR/quanta-services-reports-second-quarter-2026-m6bhiva7pnxr.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "펀더멘털은 계속 상향, 주가는 이미 그 상향을 상당 부분 반영 - 신규 매수는 눌림목에서",
+        view: "현재가 $616.73 기준 선행 PER은 자체 밴드로 약 42.2배인데, 이는 올해 컨센서스 EPS $16.73(24개 증권사, 2026-12-31 마감 기준)과 내년 EPS $19.64(25개 증권사, 2027-12-31 마감) 모두를 반영해도 24년 밴드 상단권에 위치한 수준이에요. 그런데 2분기 실적은 그 프리미엄을 정당화하는 방향으로 나왔어요 - 매출 $95.6억(YoY +41%), 조정 EPS $4.24로 어닝서프라이즈를 냈고 백로그가 $534억으로 1분기 $485억에서 한 분기 만에 또 늘었으며, 회사는 2026년 매출 가이던스를 $393~397억, 조정 EPS를 $16.45~16.95로 상향했어요 - 컨센서스 EPS $16.73은 이 밴드 중상단에 위치해 무리한 눈높이는 아니에요. 다만 GAAP EPS($2.96)와 조정 EPS($4.24) 사이 괴리가 상각비·주식보상 등으로 계속 크게 벌어지고 있다는 점, 그리고 주가가 52주 밴드($363~$789) 상단권에 근접해 있다는 점은 신규 진입 타이밍상 부담이에요. 결국 그리드 현대화·데이터센터 전력 수요라는 구조적 성장 스토리는 확인되고 있지만, 42배 선행 PER은 '추가 서프라이즈가 계속돼야 유지되는' 밸류에이션이라 실적 모멘텀이 조금만 둔화돼도 멀티플 압박이 먼저 올 수 있어요.",
+        increaseIf: [
+          "3분기 실적에서 조정 EPS가 가이던스 상단($16.95 환산 페이스) 이상으로 트래킹되고 백로그가 $534억보다 추가로 늘어날 경우",
+          "데이터센터·그리드 현대화向 신규 대형 수주가 이어지며 조정 EBITDA 마진이 현재 가이던스(매출 대비 약 10.4%)보다 개선될 경우",
+          "GAAP과 조정 EPS 간 괴리(상각비·주식보상)가 축소되며 GAAP 이익의 질이 좋아질 경우",
+        ],
+        wrongIf: [
+          "인건비·자재비 상승이나 프로젝트 지연으로 3분기 매출 또는 조정 EPS가 가이던스 하단을 밑돌 경우",
+          "백로그 증가세가 꺾이거나 취소·연기 프로젝트가 나타나 $534억에서 정체·감소할 경우",
+          "42배 수준 선행 PER에서 시장이 성장 둔화를 조금이라도 감지해 리레이팅(멀티플 축소)이 시작될 경우",
+        ],
+        watchNext: [
+          "10월 말~11월 초 예정된 3분기 실적에서 매출·조정 EPS가 가이던스 상단 트렌드를 유지하는지",
+          "백로그가 $534억에서 추가로 늘어나는지, 특히 데이터센터/전력망 대형 프로젝트 신규 수주 여부",
+          "GAAP EPS($2.96)와 조정 EPS($4.24)의 괴리가 다음 분기에도 상각비·주식보상 중심으로 유지되는지, 아니면 축소되는지",
+          "선행 PER 42배가 실적 상향에도 밸류에이션 프리미엄으로 유지되는지, 주가가 52주 상단권($789 부근)을 재차 시험하는지",
+        ],
+        confidence: "2분기 실적·가이던스 수치는 2026-07-30 공식 보도자료 기준 확인된 사실이고, 밸류에이션에 대한 해석과 향후 조건부 시나리오는 제 판단이에요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["전력망·에너지 인프라 시공(EPC)"],
       stars: 4,
@@ -2534,6 +3550,55 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "매출 $17.12억으로 컨센서스 $16.5억 대비 +3.6% 서프라이즈, 조정 EPS $5.52로 컨센서스 $5.38 대비 +2.6% 상회했고 전사 매출은 전년비 +15%(유기 +10%) 성장했어요.",
+        oneTime: "GAAP 희석 EPS $4.52와 조정 EPS $5.52 사이 차이는 인수 관련 무형자산 상각 $39.1M(주당 $0.56)과 NSI Industries 인수(약 $30억, 텀론 $9억+선순위채 $19억으로 조달) 관련 거래·통합·분리비용 $28.0M(주당 $0.44)이 원인이에요.",
+        coreRead: "세그먼트별로 보면 Utility Solutions는 매출 +10%·조정영업마진 25.6%로 안정적인 반면, Electrical Solutions는 매출 +25%(유기 +18%)로 더 빠르게 크지만 조정영업마진이 21.2%로 전년비 130bp 하락했어요(원가 인플레이션+구조조정비용 증가). 회사는 이번 실적을 바탕으로 2026년 전체 가이던스를 조정 EPS $20.25~20.55(매출 성장 16~18%, 유기 9~11%)로 상향했는데, 이는 로컬 데이터의 올해 컨센서스 EPS $20.46과 거의 일치해요. 다만 NSI 인수로 연간 순이자비용이 $1.7억 늘고 capex 가이던스도 $1.55억→$1.75~1.9억으로 상향되면서 단기 현금전환에는 부담이 있어요.",
+        forecast: "3분기(9월 말 마감, 대략 10월 말~11월 초 발표 예상)에도 데이터센터·그리드 현대화 수요가 이어지며 유기 성장률은 8~10%대를 유지할 것으로 보이지만, Electrical Solutions 마진은 구조조정비용이 계속 반영되며 전년 대비 보합이거나 소폭 하락할 가능성이 높다고 봐요. NSI 통합비용은 조정 EPS 계산에서 계속 제외(add-back)될 가능성이 커요.",
+        confidence: "매출·EPS 실적치, 가이던스 수치, 세그먼트 마진, 일회성 항목 금액은 회사 공식 실적발표(2026-07-28) 기준 확인된 사실이에요. 3분기 마진·성장률 방향에 대한 전망은 제 해석이며 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "Hubbell Reports Second Quarter 2026 Results",
+            url: "https://www.globenewswire.com/news-release/2026/07/28/3334138/0/en/hubbell-reports-second-quarter-2026-results.html",
+          },
+          {
+            title: "Hubbell Q2 Earnings: $5.52 Adj. EPS; Outlook Raised | HUBB Stock News",
+            url: "https://www.stocktitan.net/news/HUBB/hubbell-reports-second-quarter-2026-iscakou2md9t.html",
+          },
+          {
+            title: "Earnings call transcript: Hubbell tops Q2 2026 estimates, but shares slip",
+            url: "https://www.investing.com/news/transcripts/earnings-call-transcript-hubbell-tops-q2-2026-estimates-but-shares-slip-93CH-4817458",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적은 컨센서스 상회, 주가는 오히려 하락 — 밸류에이션 부담과 마진 압박이 발목 잡는 국면이에요.",
+        view: "현재가는 $472.46, forward PE는 자체 27년 밴드 기준 약 22.0배로 산출돼요. 올해(2026-12-31 마감) 컨센서스 EPS $20.46(애널리스트 11명)은 회사가 2026-07-28 2분기 실적 발표에서 새로 제시한 자체 가이던스 $20.25~20.55와 거의 일치해서 신뢰도가 높은 숫자예요. 내년(2027-12-31 마감) 컨센서스 EPS $22.88(11명)을 적용하면 이익 성장률은 약 +11.8%, forward PE는 약 20.6배로 낮아지는 그림이에요. 2분기 실적 자체는 매출 $17.12억(+15%, 유기 +10%)과 조정 EPS $5.52 모두 컨센서스($16.5억/$5.38)를 상회했지만, 발표 후 주가는 오히려 -2.48% 빠졌어요. 이유는 (1) 트레일링 P/E 29배·PEG 2.12로 이미 상당한 성장을 선반영한 밸류에이션 부담, (2) Electrical Solutions 조정영업마진이 130bp 하락(21.2%)한 데 따른 근시일 수익성 우려, (3) 약 $30억 규모 NSI Industries 인수로 연간 순이자비용이 $1.7억 늘고 capex 가이던스가 $1.55억→$1.75~1.9억으로 상향되면서 생기는 현금흐름 압박 때문이에요. 그럼에도 애널리스트 평균 목표주가는 $564.82(13명 집계, 현재가 대비 +19.6%, 범위 $502~$630)로 매수 우위(strong buy 7 / hold 6) 컨센서스를 유지하고 있어서, '펀더멘털 성장 스토리는 살아있지만 단기 밸류에이션·마진 노이즈를 소화하는 구간'으로 보는 게 맞을 것 같아요.",
+        increaseIf: [
+          "Electrical Solutions 조정영업마진이 다음 분기 21%대 후반~22%로 회복되는 신호가 나올 경우",
+          "NSI Industries 통합 시너지가 예상보다 빨리 실현돼 순이자비용 부담이 가이던스보다 완화될 경우",
+          "데이터센터·그리드 인프라 수요가 강해 유기 성장률이 회사 가이던스(9~11%) 상단을 계속 상회할 경우",
+        ],
+        wrongIf: [
+          "Electrical Solutions 마진이 추가로 악화되거나 구조조정비용이 3~4분기까지 장기화될 경우",
+          "다음 분기 유기 성장률이 10% 아래로 뚜렷하게 둔화될 경우",
+          "NSI 인수 관련 이자비용이나 capex 부담이 가이던스($1.7억/$1.75~1.9억)를 초과해 조정 EPS 가이던스($20.25~20.55) 하향으로 이어질 경우",
+        ],
+        watchNext: [
+          "3분기(2026-09-30 마감) 실적 발표에서 Electrical Solutions 마진 반등 여부",
+          "NSI Industries 통합 진행 상황과 순이자비용 실제 반영치",
+          "연간 조정 EPS 가이던스($20.25~20.55) 대비 컨센서스($20.46) 트래킹 및 추가 상/하향 여부",
+        ],
+        confidence: "가격, PE, 컨센서스 EPS, 2분기 실적/가이던스 수치는 로컬 데이터 및 회사 공식 발표·애널리스트 집계 기준 확인된 사실이에요. 주가 반응의 원인 해석과 향후 방향성 판단은 제 종합적 의견이며, house rule에 따라 임의의 확률 수치는 제시하지 않았어요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["전기 배전·그리드 솔루션 장비"],
       stars: 3,
@@ -2581,6 +3646,62 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2026년 2분기 매출 32.74억 달러로 컨센서스(약 33.8억 달러)를 3.3% 하회했지만, 조정 EPS $1.52는 컨센서스 $1.42~1.43을 웃돌았고 회사는 2026년 연간 가이던스를 매출·마진·EPS·FCF 전 항목에서 상향했어요.",
+        oneTime: "GAAP 희석 EPS $1.27과 조정 EPS $1.52 사이 괴리는 무형자산 상각 7,370만 달러, PurgeRite 인수 관련 우발대가(contingent consideration) 2,880만 달러, M&A 비용 190만 달러가 비용으로 잡히고 구조조정 관련 390만 달러 환입(이익)이 상쇄한 결과예요. 영업권 손상 같은 대형 일회성 항목은 없었고, 괴리 대부분이 통상적인 인수 관련 비용이라 GAAP-조정 EPS 갭 자체는 새삼스러운 왜곡은 아니에요.",
+        coreRead: "매출 미스의 원인을 회사는 '공급망 일시 정체와 다단계 프로젝트 진행에 따른 타이밍 이슈'라고 설명했는데, 대차대조표가 이걸 어느 정도 뒷받침해요 — 이연수익(deferred revenue)이 2025년 말 18.15억 달러에서 2026년 6월 말 36.34억 달러로 반년 만에 2배 넘게 늘었고(2분기에만 +11.7억 달러), 재고도 73% 증가한 25.23억 달러예요. 이는 고객 선입금과 출하 대기 재고가 동시에 쌓이고 있다는 뜻이라 수요 자체가 꺾였다기보다 인식 시점이 밀린 쪽에 가까워 보여요. 다만 이번 분기 보도자료에서는 예전과 달리 백로그 수치를 아예 공개하지 않아서(과거엔 앞세우던 지표), 이 부분 투명성이 후퇴한 건 감점 요인이에요. 영업현금흐름은 11억 달러(+241% YoY), 조정 FCF는 9.25억 달러(+234% YoY)로 현금창출력 자체는 뚜렷하게 개선됐어요.",
+        forecast: "회사가 3분기 매출 성장률을 약 40% YoY로 가이던스했는데, 이는 2분기에 밀린 매출이 하반기에 그대로 인식된다는 전제예요. 저는 3분기 매출이 37~39억 달러 구간에서 나오고 조정 EPS도 컨센서스를 다시 상회(대략 $1.6 이상)할 가능성이 높다고 봐요. 반대로 3분기에도 매출이 컨센서스를 하회하거나 성장률이 35% 밑으로 떨어지면, '타이밍 이슈'라는 설명이 틀렸고 실제 수요 둔화 국면으로 해석을 바꿔야 해요 — 이건 제 해석이고 틀릴 수 있어요.",
+        confidence: "매출·EPS·가이던스 숫자와 이연수익·재고 수치는 공식 실적 발표(PR Newswire/투자자 IR 페이지) 기반 확인된 사실이고, '타이밍 이슈가 진짜 원인이다'라는 해석과 3분기 전망치는 제 판단이에요.",
+        sources: [
+          {
+            title: "Vertiv Reports Strong Second Quarter 2026 with Diluted EPS Growth of 53% (Adjusted Diluted EPS Growth of +60%); Raises Full Year 2026 Guidance Across All Key Metrics",
+            url: "https://www.prnewswire.com/news-releases/vertiv-reports-strong-second-quarter-2026-with-diluted-eps-growth-of-53-adjusted-diluted-eps-growth-of-60-raises-full-year-2026-guidance-across-all-key-metrics-302837598.html",
+          },
+          {
+            title: "Vertiv Q2 2026 earnings: revenue miss sinks stock",
+            url: "https://finance.yahoo.com/markets/stocks/articles/vertiv-q2-2026-earnings-revenue-121320056.html",
+          },
+          {
+            title: "VRT Stock After the Q2 Selloff: What Vertiv's Balance Sheet Says That Its Press Release Didn't",
+            url: "https://www.top1markets.com/news/vrt-stock-vertiv-q2-2026-backlog-analysis",
+          },
+          {
+            title: "Vertiv's Q2 Earnings Missed on Revenue. Every Other Number Beat.",
+            url: "https://www.tikr.com/blog/vertiv-q2-earnings-missed-on-revenue-every-other-number-beat",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적 펀더멘털은 여전히 견조한데 밸류에이션 부담과 매크로가 겹치며 조정 중이에요",
+        view: "현재가 $263.81은 52주 고점 $379.94 대비 약 31% 하락한 자리이고, 8월 13일 $287.07이었던 것과 비교해도 2주 새 추가로 8% 더 내렸어요. 로컬 기준 포워드 PER은 (내년 컨센서스 EPS $9.10 기준) 28.9배, 올해 컨센서스 EPS $6.71 기준으로는 약 39.3배인데, 이는 자체 5년 밴드 상 짧은 히스토리 안에서도 낮은 편은 아니에요. 2분기(6월 마감) 실적은 매출이 32.74억 달러로 컨센서스(33.8억 달러)를 하회했지만 조정 EPS $1.52는 컨센서스($1.42~1.43)를 웃돌았고, 회사는 2026년 연간 가이던스를 매출 138억~142억 달러, 조정 EPS $6.65~$6.75로 상향했어요 — 이 EPS 가이던스 상단이 로컬 데이터의 올해 컨센서스 EPS $6.71과 거의 일치해서 시장 기대치와 회사 가이던스가 수렴하는 모습이에요. 백로그 수치는 이번 분기부터 공개를 중단했지만, 이연수익이 반년 만에 18.15억→36.34억 달러로 2배 늘고 재고도 73% 증가한 걸 보면 수요 자체가 꺾인 것보다는 매출 인식 시점이 밀린 쪽에 가까워 보여요. 다만 8월 중순 이후 주가가 더 빠진 배경에는 회사 자체 문제보다 국채 금리 상승에 따른 AI 데이터센터 밸류에이션 전반의 멀티플 압축과 Citi·Goldman·RBC·Evercore 등의 목표주가 하향이 있었고, 이들은 '40배 넘는 포워드 PER이 AI 인프라 센티먼트 변화에 취약하다'는 점을 이유로 들었어요. AI 데이터센터 전력·냉각 인프라에서의 구조적 지위(엔비디아 GB200 NVL72 레퍼런스 아키텍처 공동개발)는 변함없지만, 지금은 그 스토리에 대한 프리미엄을 얼마나 지불할지의 문제로 넘어간 국면이에요.",
+        increaseIf: [
+          "3분기 실적에서 2분기에 밀렸던 매출이 실제로 인식되며 회사 가이던스대로 유기적 성장률 30~32%가 재확인되는 경우",
+          "이연수익·재고로 쌓인 물량이 다음 1~2분기에 실제 매출·현금흐름 전환으로 확인되는 경우",
+          "엔비디아 차세대(800V DC 등) 로드맵 관련 신규 대형 수주가 공개적으로 확인되는 경우",
+          "국채 금리가 안정되며 AI 인프라 섹터 전반의 밸류에이션 압박이 완화되는 경우",
+        ],
+        wrongIf: [
+          "3분기에도 매출이 컨센서스를 하회하고 회사의 '타이밍 이슈' 설명과 달리 성장률이 35% 밑으로 떨어지는 경우 (실제 수요 둔화 신호)",
+          "이연수익·재고가 매출 전환 없이 계속 쌓이기만 하거나 오히려 감소 반전하는 경우",
+          "경쟁사(Schneider Electric, Eaton 등)의 냉각·전력 인프라 점유율 잠식이 구체적으로 확인되는 경우",
+          "포워드 PER이 현재보다 추가로 크게 압축되며 실적과 무관한 디레이팅이 장기화되는 경우",
+        ],
+        watchNext: [
+          "3분기 실적 발표(대략 10월 말~11월 초) 시 매출이 회사 가이던스대로 약 40% YoY 성장하는지 여부",
+          "다음 분기 대차대조표에서 이연수익·재고 지표의 방향 (계속 증가 vs 정체/전환)",
+          "10년물 국채금리와 AI capex 관련 매크로 센티먼트, 이것이 VRT 포워드 멀티플에 미치는 영향",
+          "월가 주요 하우스(Citi, Goldman, RBC, Evercore 등)의 목표주가 추가 조정 여부",
+        ],
+        confidence: "가격·EPS·가이던스·이연수익 수치는 공식 실적자료 및 언론 보도 기반 확인된 사실이고, 매크로 요인과의 인과관계, 향후 전개에 대한 해석은 제 판단이에요. 확률(%)은 백테스트된 통계가 없어 임의로 붙이지 않았고, 대신 위 increaseIf/wrongIf 조건으로 판단 근거를 남겨뒀어요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["데이터센터 전력·냉각 인프라(UPS·열관리)"],
       stars: 5,
@@ -2604,6 +3725,64 @@ const BUSINESS_NOTES = {
     sources: [
       {title:"Modine Q1 FY27 slides: 28% revenue surge masks margin pressure", url:"https://www.investing.com/news/company-news/modine-q1-fy27-slides-28-revenue-surge-masks-margin-pressure-93CH-4825724"},
       {title:"Modine Manufacturing falls as investors revisit margin and execution concerns", url:"https://www.quiverquant.com/news/Modine+Manufacturing+falls+as+investors+appear+to+revisit+margin+and+execution+concerns"},
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (FY2027 1분기, 실적발표 2026-07-29)",
+        headline: "매출 8억7,410만 달러(+28% YoY)로 컨센서스($8억9,890만)를 약 2.8% 하회했지만, 조정 EPS $1.53은 컨센서스 $1.39를 $0.14 상회했고 발표 당일 주가는 +3.91% 상승했어요.",
+        oneTime: "GAAP 순이익 $7,430만(EPS $1.37)과 조정 EPS $1.53 사이에 약 $0.16 차이가 있는데, 이번 분기 구조조정 비용 $390만과 Performance Technologies 부문의 Gentherm 합병(스핀오프) 관련 처분 비용 $710만이 포함됐어요. 회사는 이 Gentherm 딜 관련 트랜잭션 비용이 회계연도 말까지 총 $2,500만~$3,500만 추가로 발생할 거라고 가이던스를 줬으니, 앞으로 몇 분기는 GAAP-조정 EPS 괴리가 계속 클 것 같아요.",
+        coreRead: "핵심은 마진이에요. 데이터센터 매출은 $3억4,860만로 +90% 급증했는데 이 부문 매출총이익률은 20.2%로 전년 대비 960bp나 빠졌고, 회사 설명으론 공급망 부족이 마진을 450~550bp 깎아먹었대요. 그 결과 조정 EBITDA는 $1억650만으로 +5%밖에 안 늘어서, 매출 +28% 성장과 괴리가 커요. 다만 주문 잔고(record order intake)가 3분기 연속 사상 최대치라고 밝혔고, 회사는 공급망이 정상화되면 2분기부터 데이터센터 마진이 개선될 거라고 밝혔어요(다만 구체적 목표 수치는 보도마다 표현이 조금씩 달라서 그대로 신뢰하긴 조심스러워요). FY27 가이던스는 매출 +20~35%, 조정 EBITDA $6.5~6.8억으로 유지됐고, 오히려 데이터센터 매출 성장 목표는 +60~80%로 상향됐어요 — 지금의 마진 압박을 일시적 공급망 이슈로 보고 있다는 신호로 읽혀요.",
+        forecast: "다음 분기(2026-09-30 마감, FY27 2분기) 실적에서 데이터센터 부문 매출총이익률이 22%대 이상으로 반등하면 공급망 정상화 스토리가 맞다고 볼 수 있고, 반대로 다시 20% 밑으로 내려가거나 960bp 갭이 그대로 유지되면 마진 정상화가 예상보다 늦춰지는 걸로 봐야 해요. 매출 쪽은 가이던스(+20~35%)를 지키려면 2분기 매출이 전년동기 대비 최소 +20% 이상은 나와야 한다고 봐요.",
+        confidence: "매출·EPS·세그먼트별 수치(데이터센터 +90%, 매출총이익률 20.2%, 조정 EBITDA $106.5M 등)는 회사 공식 실적발표(PRNewswire/8-K) 기준 확정치예요. 컨센서스 대비 비교치(EPS $1.39, 매출 $8억9,890만)는 Quiverquant 등 3자 애그리게이터 수치라 약간의 오차 가능성이 있고, 마진 회복 시점·폭에 대한 해석과 다음 분기 전망은 제 판단이 섞인 부분이에요.",
+        sources: [
+          {
+            title: "Modine Reports First Quarter Fiscal 2027 Results",
+            url: "https://www.prnewswire.com/news-releases/modine-reports-first-quarter-fiscal-2027-results-302838002.html",
+          },
+          {
+            title: "Modine Data Center Sales Rise 90% as Supply Limits Margins",
+            url: "https://www.stocktitan.net/news/MOD/modine-reports-first-quarter-fiscal-2027-knfnfe89uue3.html",
+          },
+          {
+            title: "Modine Q1 FY27 slides: data center sales surge 90% amid margin pressure",
+            url: "https://www.investing.com/news/company-news/modine-q1-fy27-slides-data-center-sales-surge-90-amid-margin-pressure-93CH-4825716",
+          },
+          {
+            title: "MODINE MANUFACTURING ($MOD) Releases Q1 2027 Earnings, Stock Rises",
+            url: "https://www.quiverquant.com/news/MODINE+MANUFACTURING+%28%24MOD%29+Releases+Q1+2027+Earnings%2C+Stock+Rises",
+          },
+          {
+            title: "Gentherm and Modine's Performance Technologies Business to Combine, Establishing a Scaled Leader in Thermal Management Solutions",
+            url: "https://ir.gentherm.com/news-releases/news-release-details/gentherm-and-modines-performance-technologies-business-combine",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "성장 스토리는 살아있지만 밸류에이션이 이미 그걸 상당 부분 반영 — 관건은 데이터센터 마진 정상화예요",
+        view: "현재가 $187.30 기준 올해(FY27, 2027-03-31 마감) 컨센서스 EPS $7.64로 forward PER 약 24.5배, 내년(FY28) 컨센서스 EPS $11.18 기준으로는 약 16.8배까지 낮아지는 구조예요. 즉 시장은 EPS가 1년 새 +46%($7.64→$11.18) 뛸 거라는 그림을 이미 주가에 담고 있고, 그 근거는 데이터센터 사업(FY26 매출의 35%, +73% 성장)이 FY27엔 +60~80% 성장 가이던스로 더 커지고, 8/21 Hunterbrook 보도대로 Google($4B, 2027~2029년 확정 계약)·Amazon(~$12.38B 파이프라인)이 앵커 고객으로 자리잡는 그림이에요. 다만 방금 나온 FY27 1분기 실적(2026-06-30 마감)을 보면 매출은 +28% 늘었지만 컨센서스($8.99억)엔 못 미쳤고, 데이터센터 매출총이익률이 960bp나 빠지면서 조정 EBITDA 증가율(+5%)이 매출 증가율(+28%)을 한참 밑돌았어요 — 성장은 확인됐는데 그 성장이 아직 이익으로 잘 전환되고 있진 않다는 뜻이에요. 여기에 Performance Technologies(자동차 부문, 이번 분기도 -3% 역성장)를 Gentherm과 리버스모리스트러스트 방식으로 합쳐 2026년 4분기 클로징을 목표로 스핀오프하는 딜이 진행 중이라, FY27 내내 트랜잭션 비용 $2,500만~$3,500만이 GAAP 실적을 계속 흐려놓을 거예요. 정리하면 밸류에이션(forward 24.5배)은 이미 낙관 시나리오를 상당 부분 가격에 반영했고, 남은 변수는 '데이터센터 마진이 공급망 정상화와 함께 실제로 회복되는가'와 'Gentherm 딜이 계획대로 마무리되는가' 두 가지로 좁혀지는 것 같아요.",
+        increaseIf: [
+          "다음 1~2개 분기 연속으로 데이터센터 매출총이익률이 22%대 이상으로 반등해 960bp 갭이 좁혀질 때",
+          "Google·Amazon 외 추가 앵커 고객向 장기 계약이 새로 공시되며 파이프라인이 더 확대될 때",
+          "Gentherm 합병이 2026년 4분기 목표대로 승인·클로징되며 트랜잭션 비용 노이즈가 사라질 때",
+        ],
+        wrongIf: [
+          "데이터센터 매출총이익률이 다음 분기에도 20% 밑에 머물거나 추가로 하락할 때",
+          "FY27 매출 가이던스(+20~35%) 혹은 조정 EBITDA 가이던스($6.5~6.8억)가 하향 조정될 때",
+          "Gentherm 딜이 주주총회·IRS 세금 재정·규제 이슈로 무산되거나 2026년 4분기 이후로 지연될 때",
+          "Performance Technologies 역성장(-3%)이 심화되며 스핀오프 전 잔여 실적이 전체 밸류에이션에 부담을 줄 때",
+        ],
+        watchNext: [
+          "2026년 10~11월경 발표될 FY27 2분기(2026-09-30 마감) 실적에서 데이터센터 매출총이익률 반등 여부",
+          "Gentherm 주주총회 승인 및 IRS 세금 재정 등 딜 클로징 마일스톤 진행 상황(목표: 2026년 4분기)",
+          "7명 애널리스트 목표주가 중간값 $325(Quiverquant 기준) 대비 현재가 $187.30의 괴리가 실적 발표 이후 좁혀지는지 여부",
+        ],
+        confidence: "확률 %를 따로 붙이기보다 위 increaseIf/wrongIf 조건으로 판단 기준을 명시했어요. 목표주가 중간값($325)은 Quiverquant가 집계한 3자 데이터라 실제 애널리스트 리포트 원문과는 다를 수 있어요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["열관리·냉각 솔루션(데이터센터 포함)"],
@@ -2673,6 +3852,59 @@ const BUSINESS_NOTES = {
       {title:"[STX Q4 2026 Earnings Call] Seagate Blows Past Estimates with $3.6B Revenue, 52.7% Gross Margin", url:"https://finance.biggo.com/news/US_STX_2026-07-28"},
       {title:"Seagate and Western Digital Are a Hard Disk Drive Duopoly", url:"https://www.barchart.com/story/news/1689529/seagate-and-western-digital-are-a-hard-disk-drive-duopoly-barchart-ranks-the-storage-stocks-here"},
       {title:"Bernstein Litowitz / Motley Rice: Proposed Class Action Settlement (Seagate)", url:"https://www.globenewswire.com/news-release/2026/08/11/3342745/0/en/bernstein-litowitz-berger-grossmann-llp-and-motley-rice-llc-announce-proposed-class-action-settlement-on-behalf-of-purchasers-of-seagate-technology-holdings-plc-common-stock.html"},
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026 회계연도 4분기(2026-07-03 마감, FY2026 종료 분기)",
+        headline: "매출 36.29억달러(+48% YoY)로 자체 가이던스 상단을 넘겼고 non-GAAP EPS 5.71달러는 컨센서스 5.10달러를 11.96%, 매출 컨센서스 34.9억달러를 3.85% 상회했어요.",
+        oneTime: "GAAP EPS(5.58달러)와 non-GAAP EPS(5.71달러)의 차이는 부채 관련 거래 순손실 1000만달러(-0.04달러/주)와 전략적 투자 평가이익 1400만달러(+0.06달러/주)가 섞인 결과이고, FY26 연간 기준으로는 소송합의금 1.05억달러(-0.46달러/주)·부채상환 관련 손실 1.51억달러(-0.66달러/주)가 GAAP 실적을 깎았어요. 4분기 단독으로는 대형 구조조정·소송 비용은 확인되지 않았어요.",
+        coreRead: "non-GAAP 매출총이익률이 52.7%(전분기 대비 +570bp, 전년동기 대비 +1,070bp)까지 올라갔고 분기 잉여현금흐름 11억달러는 10여년 만에 최대치라, GAAP 순이익(12.94억달러)보다 실제 현금창출력 개선 폭이 더 커요. 넘라인 엑사바이트 출하 중 모자이크(HAMR) 드라이브 비중이 40%까지 오른 게 마진 개선의 핵심 동력으로 보여요.",
+        forecast: "FY2027 1분기(2026년 9월 말 마감) 가이던스는 매출 41억달러(±1억달러, YoY +56%)·non-GAAP EPS 7.30달러(±0.20달러)예요. 실제 발표치가 매출 41억달러·EPS 7.30달러를 넘으면 AI 스토리지 타이트 공급이 최소 한 분기 더 이어진다는 뜻이고, 매출이 40억달러를 밑돌면 수요 둔화 신호로 해석할 수 있어요.",
+        confidence: "매출·EPS·가이던스·마진 수치는 시게이트 공식 실적발표 및 컨센서스 비교 기사에서 확인된 사실이고, 마진 개선 동력 해석과 다음 분기 판단 기준은 제 의견이에요.",
+        sources: [
+          {
+            title: "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
+            url: "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-Fourth-Quarter-and-Fiscal-Year-2026-Financial-Results/default.aspx",
+          },
+          {
+            title: "Seagate Fiscal 2026 Earnings: $12.2B Revenue | STX Stock News",
+            url: "https://www.stocktitan.net/news/STX/seagate-technology-reports-fiscal-fourth-quarter-and-fiscal-year-wl5kz6l3phn5.html",
+          },
+          {
+            title: "[STX Q4 2026 Earnings Call] Seagate Blows Past Estimates with $3.6B Revenue, 52.7% Gross Margin, and $7.30 EPS Guidance for Next Quarter as HAMR Adoption Hits 40% — BigGo Finance",
+            url: "https://finance.biggo.com/news/US_STX_2026-07-28",
+          },
+          {
+            title: "Seagate (STX) Surpasses Q4 Earnings and Revenue Estimates",
+            url: "https://finance.yahoo.com/markets/stocks/articles/seagate-stx-surpasses-q4-earnings-212006683.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적은 계속 어닝서프라이즈인데 주가가 이미 다 선반영 — 밸류에이션 부담 구간이에요.",
+        view: "8월27일 종가 846.37달러 기준 올해(FY2027, 2027-06-30 마감) 컨센서스 EPS 35.78달러(21명) 대비 PER은 약 23.3배, 내년(FY2028, 2028-06-30 마감) 컨센서스 EPS 55.37달러(19명) 대비로는 약 15.3배까지 낮아져요. 이 밸류에이션에는 방금 나온 FY26 4분기 실적(매출 36.29억달러, non-GAAP EPS 5.71달러로 컨센서스 대비 +11.96% 서프라이즈)과 FY27 1분기 가이던스(매출 41억달러·EPS 7.30달러, YoY 매출 +56%)가 이미 상당 부분 반영돼 있어요. 그런데 주가는 연초 대비 큰 폭으로 오른 뒤 8월25일 임원 대량 매도 소식과 겹쳐 조정을 받고 있는 상태라, 실적 자체는 나쁘지 않은데 '좋은 뉴스가 나와도 주가는 쉬어가는' 전형적인 구간으로 보여요. WDC와의 듀오폴리 구조(WDC 약47%·STX 약42%)에 넘라인 드라이브 매출 비중 87%, 모자이크(HAMR) 채택률 40%까지 감안하면 펀더멘털 훼손 신호는 없지만, 자체 22년치 PER밴드로 봐도 지금 23배 수준은 역사적 중간~상단 구간이라 '싸다'고 부르기는 어려워요.",
+        increaseIf: [
+          "FY27 1분기(9월 말 마감) 실적에서 매출이 가이던스 상단(약 42억달러) 이상, non-GAAP EPS가 7.50달러 이상으로 추가 서프라이즈가 날 때",
+          "8월 말 시작된 임원 매도세가 잦아들고 주가가 800달러 위에서 다시 안정될 때",
+          "넘라인 엑사바이트 중 모자이크(HAMR) 비중이 40%에서 50% 이상으로 빠르게 올라가며 non-GAAP 총이익률이 55%를 넘어설 때",
+        ],
+        wrongIf: [
+          "FY27 1분기 실적에서 매출이 가이던스 하단(약 40억달러) 밑으로 미달하거나 non-GAAP EPS가 7.10달러 아래로 나올 때",
+          "'2026년 생산량 완판' 스토리와 달리 AI 데이터센터向 넘라인 주문 취소·연기 뉴스가 나올 때",
+          "임원 매도 규모나 대상이 CEO/CFO급으로 확대되며 분기 순이익 대비 유의미한 비중까지 커질 때",
+        ],
+        watchNext: [
+          "10월 하순~11월 초로 예상되는 FY2027 1분기 실적 발표(가이던스 매출 41억±1억달러, EPS 7.30±0.20달러 달성 여부)",
+          "8월 임원 매도(CEO 포함)의 지속 여부와 신규 Form 4 공시",
+          "경쟁사 WDC 실적에서 나오는 넘라인 HDD 가격·물량 동향(듀오폴리 상대방 지표)",
+        ],
+        confidence: "가격·PER·컨센서스 EPS는 제공된 로컬 데이터 기준이고, 실적 수치는 8월27일 기준 공개된 FY26 4분기 발표 원문에서 확인했어요. house rule에 따라 확률을 임의로 붙이지 않고 위 조건들로 판단 근거를 대신해요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["HDD(하드디스크)", "엔터프라이즈 대용량 스토리지"],
@@ -2764,6 +3996,55 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 $51.5억(전년비 +19.8%), GAAP 희석 EPS $9.06(+34.8%)으로 컨센서스(매출 $47.3억·EPS $7.23)를 매출 9%, EPS 25% 넘게 큰 폭으로 상회했어요.",
+        oneTime: "이번 분기 자체엔 뚜렷한 일회성 항목이 없었어요. 다만 비교 대상인 2025년 상반기엔 Miller Electric 인수 관련 거래비용 $940만이 반영돼 당시 EPS를 $0.20 깎아먹었는데, 이 역기저효과가 이번 YoY 증가율을 다소 부풀린 면이 있어요. 회사가 발표한 자료 기준으로는 GAAP과 조정 실적 간 큰 괴리는 없었어요.",
+        coreRead: "영업이익률이 10.6%로 개선되면서 매출 증가가 마진 확장과 같이 갔고, 상반기 영업현금흐름은 $2.899억으로 전년 동기 $3.022억과 큰 차이가 없어 이익의 현금 전환력도 유지되고 있어요. 제일 눈여겨볼 숫자는 RPO(수주잔고) $171.4억(전년비 +43.9%, 사상 최대)인데, Network & Communications·Water & Wastewater·Institutional·Healthcare 등 여러 부문에서 고르게 늘었다는 점에서 데이터센터 단일 테마에만 기댄 숫자가 아니라는 근거가 돼요.",
+        forecast: "3분기(9월 마감)에도 매출 성장률 15% 이상, 영업이익률 9.5~10% 밴드 유지를 예상해요. 다만 회사가 이미 연간 가이던스를 매출 $200~205억, EPS $32.00~33.25로 큰 폭 상향했고 컨센서스도 이를 따라잡은 상태라, 2분기처럼 컨센서스를 20%p 이상 웃도는 서프라이즈 폭은 좁아질 가능성이 커요.",
+        confidence: "매출·EPS·RPO·가이던스 상향폭은 2026-07-30 EMCOR 2분기 실적 발표(Businesswire) 원자료에 나온 확정 수치예요. 컨센서스 대비 서프라이즈 폭은 Yahoo Finance 집계 기준이고, 3분기 전망과 '컨센서스가 가이던스를 따라잡았다'는 해석은 제 판단이라 틀릴 수 있어요.",
+        sources: [
+          {
+            title: "EMCOR Group, Inc. Reports Second Quarter 2026 Results",
+            url: "https://www.businesswire.com/news/home/20260730052970/en/EMCOR-Group-Inc.-Reports-Second-Quarter-2026-Results",
+          },
+          {
+            title: "Emcor Group (EME) Q2 Earnings: Taking a Look at Key Metrics Versus Estimates",
+            url: "https://finance.yahoo.com/markets/stocks/articles/emcor-group-eme-q2-earnings-133008997.html",
+          },
+          {
+            title: "EMCOR Q2 Earnings: Revenue $5.15B, EPS $9.06 | EME Stock News",
+            url: "https://www.stocktitan.net/news/EME/emcor-group-inc-reports-second-quarter-2026-ikwmpqrx1dng.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "실적·수주잔고는 이변 없는 호조, 남은 문제는 가격 — 좋은 소식이 상당 부분 선반영된 구간이에요.",
+        view: "현재가 $763.59는 52주 레인지($564.92~$951.96) 중간보다 위쪽이지만, 8월 초 찍었던 고점 $951.96에서는 약 20% 조정된 자리예요. forward PER은 자체 26년치 밴드 기준 약 25.6배, 컨센서스 EPS는 올해(2026-12 마감, 9명 추정) $32.85, 내년(2027-12 마감, 10명 추정) $36.75로 내년 이익 성장률은 +11.9%에 그쳐요 — 2분기에 찍힌 매출 +19.8%, RPO +43.9%라는 모멘텀에 비하면 낮은 숫자예요. 이는 두 가지로 읽을 수 있는데, ① 컨센서스가 아직 보수적이라 추가 상향 여지가 있거나, ② 이미 25배가 넘는 배수를 주고 있어서 그 성장의 상당 부분이 주가에 반영돼 있다는 뜻이에요. 7/30 실적에서 회사는 연간 매출 가이던스를 $185~192.5억에서 $200~205억으로, EPS 가이던스를 $28.25~29.75에서 $32.00~33.25로 크게 올렸고, 이 새 가이던스 상단이 지금 컨센서스 EPS $32.85와 거의 겹쳐요. 즉 애널리스트들은 이미 상향된 가이던스를 숫자에 반영해 놓은 상태라, 여기서 주가가 더 가려면 '가이던스를 다시 넘어서는' 서프라이즈가 필요한 구간이라고 봐요.",
+        increaseIf: [
+          "3분기 실적에서 RPO가 $171.4억보다 더 늘거나 매출 성장률 20%대를 유지하며 연간 가이던스를 재상향할 때",
+          "Network & Communications 부문(데이터센터 관련 핵심 축)의 신규 수주가 추가로 확인되며 전기부문 매출 비중(현재 32%)이 더 커질 때",
+          "forward PER이 20배 안팎까지 조정받아 지금의 밸류에이션 부담이 상당 부분 해소될 때",
+        ],
+        wrongIf: [
+          "다음 분기 RPO 증가율이 43.9%에서 뚜렷이 둔화되거나 신규 수주 < 소진분으로 순감 전환할 때",
+          "데이터센터 발주 둔화·전력망 병목 등으로 전기부문(매출 32%) 성장세가 꺾이면서 가이던스를 하향할 때",
+          "동일 시공 능력을 가진 경쟁사(예: Comfort Systems, Argan 등)와의 가격 경쟁으로 영업이익률(현재 10.6%)이 눈에 띄게 낮아질 때",
+        ],
+        watchNext: [
+          "2026년 10월경 발표될 3분기 실적에서 RPO $171.4억 유지·추가 증가 여부",
+          "연간 가이던스(매출 $200~205억, EPS $32.00~33.25, 영업이익률 9.5~9.8%) 재상향 또는 하향 여부",
+          "주가가 forward PER 25배 안팎에서 조정받는지, 아니면 52주 고점 $951.96을 다시 시도하는지",
+        ],
+        confidence: "실적·가이던스·RPO 수치는 2026-07-30 공식 발표 기준 확정 팩트고, 현재가·PER·52주 레인지는 2026-08-26 종가 기준 시세예요. '이미 선반영됐다'는 해석과 increaseIf/wrongIf 조건은 제 판단이며, 확률(%)로 표시하지 않고 조건으로만 제시해요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["전기·기계설비 시공(데이터센터 건설)"],
       stars: 3,
@@ -2812,6 +4093,58 @@ const BUSINESS_NOTES = {
       },
     ],
     updated: "2026-08-19",
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기, 2026-07-23 발표)",
+        headline: "2분기 매출이 $32.7억으로 전년 대비 +50% 급증하며 컨센서스($29.4억)를 약 11% 상회했고, GAAP 희석 EPS $12.53도 컨센서스 $10.38을 20.7% 웃돌며 전년 $6.53 대비 92% 늘었어요.",
+        oneTime: "이번 분기엔 GAAP을 크게 왜곡할 일회성 항목이 거의 없었어요 — 자산매각이익 $78.5만, 조건부 인수대금(earn-out) 공정가치 변동 손실 $200만 정도로 순이익 $4.416억 대비 미미한 수준이에요. 즉 이번 EPS 서프라이즈는 대부분 실제 영업실적에서 나온 걸로 보여요.",
+        coreRead: "조정 EBITDA가 $6.005억(마진 18.4%)으로 전년 $3.341억(15.4%)에서 확대됐고, 영업현금흐름은 2분기 $11.4억(상반기 누적 $15.3억)으로 전년 $2.525억 대비 4배 넘게 늘어난, CEO 표현으로 '전례 없는' 수준이었어요. 백로그도 6/30 기준 $140.6억으로 1분기 말 $124.5억, 전년동기 $81.2억 대비 계속 급증 중이라 데이터센터/반도체 기술 부문 수요가 실제 현금창출로 이어지고 있다는 신호로 읽혀요. 같은 날 분기배당 인상과 자사주매입 완료도 발표됐어요.",
+        forecast: "3분기(9월 마감) 실적은 10월 말~11월 초 발표될 텐데, 기저효과 때문에 매출 성장률이 2분기 +50%보다 낮은 +30~45% 구간으로 둔화되고 조정 EBITDA 마진은 17% 이상을 유지할 것으로 봐요. 백로그도 $145억 이상으로 더 늘어날 가능성이 높다고 예상해요 — 성장률이 +30% 밑으로 떨어지거나 마진이 16% 아래로 밀리면 이 전망은 틀린 거예요.",
+        confidence: "매출·EPS·백로그·현금흐름·컨센서스 대비 수치는 회사 보도자료(SEC 첨부, 2026-07-23)와 Zacks 컨센서스 비교 기사에서 확인한 사실이고, 3분기 전망 수치는 제 해석/추정이니 구분해서 봐주세요.",
+        sources: [
+          {
+            title: "Comfort Systems USA Reports Second Quarter 2026 Results",
+            url: "https://www.businesswire.com/news/home/20260723227439/en/Comfort-Systems-USA-Reports-Second-Quarter-2026-Results",
+          },
+          {
+            title: "Press Release of Comfort Systems USA, Inc. (Q2 2026 Ex-99.1)",
+            url: "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm",
+          },
+          {
+            title: "Comfort Systems Q2 Earnings & Revenues Beat Estimates, Backlog Up Y/Y",
+            url: "https://www.tradingview.com/news/zacks:9d3a1681e094b:0-comfort-systems-q2-earnings-revenues-beat-estimates-backlog-up-y-y/",
+          },
+          {
+            title: "Comfort Systems USA backlog rises to $14.06 billion by June 30",
+            url: "https://www.stocktitan.net/news/FIX/comfort-systems-usa-reports-second-quarter-2026-6pc4g0cg8jje.html",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "밸류에이션은 부담스럽지만 백로그·현금흐름 숫자가 이를 뒷받침 — 조정 매수 관점 유지",
+        view: "현재가 $1615.69 기준 forward PE는 30.8배로 자체 22년 밴드 상단권에 가까운 수준인데, 이는 올해 컨센서스 EPS $49.01(10명, FY2026-12 마감)에서 내년 $60.18(10명, FY2027-12 마감)로 +23% 성장을 이미 반영한 가격이에요. 2분기(6/30 마감) 매출이 전년비 +50% 급증했고 백로그가 $140.6억(1분기 $124.5억, 전년 $81.2억)까지 늘었으며 영업현금흐름이 $11.4억으로 4배 넘게 뛴 점을 보면 이 성장 스토리는 숫자로 확인되는 실체가 있어요. 애널리스트 11명 평균 목표가는 $2082.86(Strong Buy 1·Buy 9·Hold 1·Sell 0)로 현재가 대비 +28.7% 여지가 있고, 최저 목표가($1910)조차 현재가보다 높다는 점도 눈여겨볼 만해요. 다만 실적 발표 당일(7/23)엔 주가가 -1.7% 빠졌다가 배당 인상·자사주매입 완료 소식이 재평가되며 8/5까지 +9.2% 반등했는데, 이는 시장이 밸류에이션에 이미 예민하게 반응하고 있다는 뜻이고, 최근 6개월간 내부자 거래가 매도 13건·매수 0건이었다는 점도 고평가 경계 신호로 함께 봐야 해요.",
+        increaseIf: [
+          "3분기(9월 마감) 매출 성장률이 +40% 이상으로 유지되고 백로그가 $150억을 넘어설 때",
+          "forward PE가 25배 이하로 눌리면서 동시에 컨센서스 EPS(현재 FY26 $49.01, FY27 $60.18)가 상향 조정될 때 — 밸류에이션 매력이 회복되는 신호",
+        ],
+        wrongIf: [
+          "3분기 매출 성장률이 +25% 밑으로 급감하거나 조정 EBITDA 마진이 16% 아래로 후퇴할 때",
+          "데이터센터·반도체 발주가 꺾이면서 백로그가 전분기 대비 감소로 전환될 때",
+          "내부자 매도가 지속되는 가운데 주가가 애널리스트 목표가 하단($1910)마저 하회할 때",
+        ],
+        watchNext: [
+          "10월 말~11월 초 3분기 실적 발표 시 매출 성장률 둔화 폭과 조정 EBITDA 마진(2분기 18.4%) 방향",
+          "기술(데이터센터+반도체) 부문 매출 비중이 58%에서 더 올라가는지, 신규 수주가 백로그 증가세를 계속 뒷받침하는지",
+          "마이크로소프트·메타·아마존 등 하이퍼스케일러들의 데이터센터 capex 가이던스 변화 — FIX 수주 파이프라인의 선행지표",
+        ],
+        confidence: "목표가·컨센서스 수치는 2026년 8월 기준 애널리스트 11명 집계(마켓비트)와 로컬 데이터를 결합한 제 종합 판단이에요. 확률(%) 형태의 전망은 실제 백테스트 근거가 없어 제시하지 않았고, 대신 위 조건들로 판단 기준을 명확히 했어요.",
+        sources: [],
+      },
+    ],
     role: {
       tags: ["HVAC·기계설비 시공(데이터센터 건설)"],
       stars: 3,
@@ -2839,6 +4172,98 @@ const BUSINESS_NOTES = {
       {title:"Data centers remain standout industry for Schneider Electric", url:"https://www.utilitydive.com/news/data-centers-remain-standout-industry-for-schneider-electric/813629/"},
       {title:"Schneider Electric Accelerates the Development and Deployment of AI Factories at Scale With NVIDIA", url:"https://www.se.com/us/en/about-us/newsroom/news/press-releases/schneider-electric-accelerates-the-development-and-deployment-of-ai-factories-at-scale-with-nvidia-684989e2ba4801b85e069b2b"},
       {title:"SBGSY - Schneider Electric SE | Security Details", url:"https://www.otcmarkets.com/stock/SBGSY/security"},
+    ],
+    newsLog: [
+      {
+        date: "2026-08-27",
+        headline: "슈나이더 일렉트릭, 산업용 AI 소프트웨어 기업 Cognite를 31억 달러에 인수",
+        importance: "medium",
+        tone: "mixed",
+        horizon: "수개월~1~2년 (인수 종결 및 AVEVA·산업자동화 부문 통합 성과가 실적에 드러나는 시점까지)",
+        facts: [
+          "2026년 6월 30일 발표, 전액 현금(all-cash) 방식으로 노르웨이 산업용 데이터·AI 플랫폼 기업 Cognite를 31억 달러에 인수하기로 합의",
+          "Cognite의 2025년 매출은 1.7억 달러를 넘는 수준으로, 이를 기준으로 하면 약 18배의 매출 배수가 적용된 딜",
+          "Cognite는 인수 완료 후 슈나이더 산하 소프트웨어 자회사 AVEVA/산업자동화(Industrial Automation) 부문에 편입될 예정이며, 종결은 규제 승인을 거쳐 '향후 수 분기' 내로 안내됨",
+          "비슷한 시기(2026년 6~7월경) 전력망(grid) AI 분석 기업 AiDASH도 약 3.5억 달러 규모로 인수한 것으로 파악됨",
+        ],
+        why: [
+          "데이터센터 전력관리 1위(EcoStruxure IT·Galaxy UPS·APC)라는 기존 하드웨어 강점 위에, AI·소프트웨어 계층을 더해 경쟁사(ABB·이튼·버티브·델타) 대비 '전력+AI 데이터 플랫폼' 결합 우위를 노리는 행보로 해석돼요",
+          "다만 매출 대비 약 18배라는 배수는 결코 싸지 않은 가격이라, 통합이 지연되거나 시너지가 기대에 못 미치면 향후 손상차손(H1 2026에도 산업자동화 재편 관련 1.47억 유로 손상차손이 이미 반영된 전례가 있음) 리스크로 이어질 수 있어요",
+        ],
+        beginner: [
+          "슈나이더가 '공장·전력망 데이터를 AI로 분석해주는' 노르웨이 스타트업 Cognite를 3조 원이 넘는 돈을 주고 통째로 사들이기로 했다고 보면 돼요",
+          "지금까지는 UPS·전력장비 같은 '하드웨어'를 잘 만들어서 1등이었는데, 이제는 그 장비가 만들어내는 데이터를 AI로 분석해주는 '소프트웨어' 쪽으로도 영역을 넓히려는 시도예요",
+          "다만 매출 규모(연 1.7억 달러 남짓)에 비해 인수가(31억 달러)가 상당히 비싼 편이라, '비싸게 산 만큼 값을 할지'는 앞으로 지켜봐야 할 부분이에요",
+        ],
+        interpretation: "하드웨어 1위 지위를 지키면서 소프트웨어·AI 쪽으로 무게중심을 옮기려는 전략적 베팅이지만, 고배수 인수라 통합 실패 시 마진 훼손 리스크도 함께 커진 상태로 보여요.",
+        decision: "지금 당장 주가에 큰 영향을 주는 이벤트는 아니니 신규 매수/매도 판단의 근거로 쓰기보다는, 향후 분기 실적에서 산업자동화 부문 마진과 통합 비용이 어떻게 반영되는지를 확인하는 체크포인트로 삼는 걸 추천해요.",
+        watch: [
+          "Cognite 인수 종결 완료 시점(규제 승인 여부)",
+          "인수 완료 후 산업자동화(Industrial Automation)/AVEVA 부문 마진에 미치는 희석 효과",
+          "추가 AI·소프트웨어 M&A 발표 여부와 그때마다의 인수 배수(비싸게 사는 패턴이 반복되는지)",
+        ],
+        confidence: "인수 발표 자체(금액, 날짜, 대상 기업)는 회사 공식 발표와 블룸버그 등 복수 매체로 교차 확인된 사실이에요. 배수 계산(약 18배)은 공개된 Cognite 매출 추정치를 이용한 제 계산이라 참고용으로 봐주세요.",
+        sources: [
+          {
+            title: "Schneider Electric announces agreement to acquire Cognite",
+            url: "https://www.se.com/ww/en/assets/pdf/Schneider-Electric-announces-agreement-to-acquire-Cognite",
+          },
+          {
+            title: "Schneider to Buy Industrial AI Firm Cognite for $3.1 Billion",
+            url: "https://www.bloomberg.com/news/articles/2026-06-30/schneider-to-buy-industrial-ai-firm-cognite-for-3-1-billion",
+          },
+          {
+            title: "Schneider Electric announces agreement to acquire Cognite, unlocking a new level of strategic intelligence for Industrial AI",
+            url: "https://www.cognite.com/en/company/newsroom/schneider-electric-announces-agreement-to-acquire-cognite",
+          },
+        ],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026년 상반기(H1, 1~6월) 실적 - 2026년 7월 30일 발표분",
+        headline: "H1 2026 매출 212.3억 유로(유기 성장 +14%), 조정 EBITA 마진 19.3%(+120bp 유기)로 시장 기대를 웃돌면서 2026년 연간 가이던스를 매출 성장 10~13%(기존 7~10%), 조정 EBITA 성장 +14~19%(마진 +70~100bp 유기)로 상향했어요.",
+        oneTime: "전년 동기(H1 2025)에 프랑스 법적 합의금 2.07억 유로가 일회성 비용으로 반영돼 있어서, 이번 H1 2026의 순이익 +30.1%·잉여현금흐름(FCF) +244.1% 증가율은 기저효과로 부풀려진 측면이 있어요. 반대로 H1 2026 자체에도 구조조정 비용 1.27억 유로(전년비 +6,400만 유로)와 산업자동화(Industrial Automation) 사업 재편 관련 손상차손 1.47억 유로가 잡혀 있어서, 두 분기 모두 '깨끗한' 숫자는 아니에요.",
+        coreRead: "일회성 항목을 걷어내고 봐도 에너지 관리(Energy Management) 부문이 Q2 매출 96억 유로(+18% 유기)로 데이터센터·전력망 투자 수요를 실제로 흡수하고 있고, 산업자동화도 Q2 +11% 유기 성장으로 저점을 통과하는 흐름이에요. 조정 EPS는 4.79유로(+28.5% 유기)로 이익의 질도 나쁘지 않다고 판단돼요. 다만 같은 시기에 Cognite(31억 달러, 2025년 매출 대비 약 18배 배수)·AiDASH 등 AI·소프트웨어 M&A에 공격적으로 베팅하고 있어서, 앞으로는 유기 성장률만큼이나 인수 통합 비용과 상각이 마진에 잡음을 더할 가능성이 있어요.",
+        forecast: "2026년 하반기(H2)에도 데이터센터향 수요가 꺾이지 않는다면 연간 매출 성장률이 상향된 가이던스 10~13% 밴드의 상단(12~13%대)에 근접하고, 10월 발표될 Q3 매출에서도 두 자릿수 유기 성장이 유지될 것으로 봐요. 다만 Cognite 인수는 '향후 수 분기(coming quarters)' 종결로 안내돼 있어서, 2026년 안에 규제 승인까지 마무리되지 않을 가능성도 있다고 봐요 - 이 부분은 제 추정이고 틀릴 수 있어요.",
+        confidence: "매출·마진·EPS·가이던스 상향 수치, 일회성 항목 금액은 회사의 공식 반기 실적 발표 자료 기준 확인된 사실이에요. 하반기 전망과 M&A 종결 시점에 대한 추정은 제 해석이니 참고만 해주세요.",
+        sources: [
+          {
+            title: "Half Year 2026 Results – Record H1 driven by strong momentum",
+            url: "https://www.se.com/ww/en/assets/pdf/release-hy-results-2026",
+          },
+          {
+            title: "Earnings call transcript: Schneider Electric lifts 2026 outlook after strong H1",
+            url: "https://www.investing.com/news/transcripts/earnings-call-transcript-schneider-electric-lifts-2026-outlook-after-strong-h1-93CH-4822615",
+          },
+        ],
+      },
+    ],
+    viewLog: [
+      {
+        date: "2026-08-27",
+        headline: "가격은 이미 실적 호조를 상당 부분 반영한 구간, 하지만 유기 성장·가이던스 상향이 밸류에이션을 뒷받침하는 국면이에요",
+        view: "ADR(SBGSY) 종가 기준 $69.67, 포워드 PER 약 26.5배는 절대 수치로는 싸지 않지만, 회사가 7월 30일 발표한 H1 2026 실적(매출 212.3억 유로, 유기 성장 +14%, 조정 EBITA 마진 19.3%·+120bp)과 그에 따른 연간 가이던스 상향(매출 성장 10~13%, 조정 EBITA 성장 +14~19%)을 감안하면 프리미엄이 어느 정도 실적으로 뒷받침되고 있다고 볼 수 있어요. 다만 ADR의 올해 컨센서스 EPS $2.31, 내년 $2.88은 각각 애널리스트 2명·1명만 커버하는 수치라 신뢰도가 낮고, 회사가 유로화·IFRS 기준으로 발표하는 조정 EPS(H1 2026 기준 4.79유로, +28.5% 유기)와는 통화·회계 기준 자체가 달라서 직접 비교가 어렵다는 점도 감안해야 해요. 프라이머리 상장(Euronext Paris, SU)은 커버리지가 훨씬 두텁고 목표주가 컨센서스도 강세(예: 일부 집계 기준 목표가 331유로, Strong Buy 의견)로 나오지만, ADR은 거래량이 얇아 이런 프라이머리 시장 심리가 그대로, 또는 시차 없이 반영되지 않을 수 있어요. 종합하면 '실적은 진짜 좋아지고 있는데, 그 좋은 소식이 이미 상당 부분 주가에 반영된 상태에서 ADR이라는 유동성·데이터 신뢰도 핸디캡까지 얹혀 있는' 구도로 보여요.",
+        increaseIf: [
+          "2026년 3분기(10월 발표 예정) 매출도 두 자릿수 유기 성장을 유지하거나 가속하는 경우",
+          "데이터센터·전력 인프라향 수주 잔고(backlog)가 추가로 확대되며 2027년 이후 성장 가시성이 높아지는 경우",
+          "EUR/USD 환율이 유로 강세로 움직여 ADR 기준 환산 이익이 개선되는 경우",
+        ],
+        wrongIf: [
+          "AI 데이터센터 관련 캐펙스 사이클이 예상보다 빨리 꺾이면서 에너지 관리 부문 성장률이 한 자릿수로 급격히 둔화되는 경우",
+          "Cognite(31억 달러)·AiDASH 등 최근 인수의 통합 비용·상각이 예상보다 커지며 마진이 가이던스 하단을 밑도는 경우",
+          "ADR 유동성 부족으로 프라이머리 상장(Euronext Paris) 대비 괴리가 커지거나, 극소수 애널리스트 커버리지로 인해 컨센서스 EPS가 큰 폭으로 수정되는 경우",
+        ],
+        watchNext: [
+          "2026년 3분기 매출 발표(통상 10월 중) - 유기 성장률과 부문별(에너지관리 vs 산업자동화) 속도 차이",
+          "Cognite($3.1B, 2025년 매출 대비 약 18배 배수)·AiDASH 인수 종결 시점 및 종결 후 마진 희석 여부",
+          "EUR/USD 환율 흐름 - ADR 기준 밸류에이션과 컨센서스 EPS에 미치는 영향",
+          "ADR 커버 애널리스트 수(현재 당기 2명, 차기 1명) 증가 여부 - 늘어나면 컨센서스 신뢰도 개선 신호",
+        ],
+        confidence: "가격·PER·컨센서스 EPS·H1 실적 수치는 확인된 데이터이고, 밸류에이션에 대한 '비싸다/싸다' 판단과 방향성 해석은 제 관점이에요. 확률(%) 형태의 전망은 실제 백테스트 근거가 없어 제시하지 않고, 위 조건들로 판단 근거를 대신했어요.",
+        sources: [],
+      },
     ],
     role: {
       tags: ["전력관리·자동화(글로벌 종합 전기업체)"],
