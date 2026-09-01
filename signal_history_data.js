@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788260284.6981368,
+  "generatedAt": 1788262225.5814428,
   "records": {
     "MSFT": [
       {
@@ -4416,6 +4416,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1788262225.5814428,
+        "dataAsOf": 1788198351,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 4.55
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.1,
+            "after": 2.45
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia: 이 요새는 감정의 폭풍을 견딜 수 있습니다",
+        "newsUrl": "https://finnhub.io/api/news?id=8ebab418c29d8b95bd9d4fbaa3f279658429e6b5908b4d304bc969b388b9c729",
+        "eventId": "1c80bb1458e82f446d2b",
+        "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.45, \"before\": 2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1c80bb1458e82f446d2b\"}"
+      },
       {
         "changedAt": 1788233344.8593056,
         "dataAsOf": 1788198351,
@@ -9067,6 +9090,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1788262225.5814428,
+        "dataAsOf": 1788192988,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.7,
+            "after": -1.75
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Micron: 하이퍼스케일러는 Fab를 샀고 Bears는 동화를 샀습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ba94c10d144aa803f0b7952e56c7b6fb36f21512d3cf4f017ead8e8cf86d63de",
+        "eventId": "a92823784b7e70fbf659",
+        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"a92823784b7e70fbf659\"}"
+      },
+      {
         "changedAt": 1788260284.6981368,
         "dataAsOf": 1788188315,
         "changes": [
@@ -9380,6 +9420,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "SNDK": [
+      {
+        "changedAt": 1788262225.5814428,
+        "dataAsOf": 1787727600,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 1.23
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.22,
+            "after": -0.87
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "SNXX: Sandisk의 회복에 대한 레버리지 노출 그러나 단기 변동성으로 인해 주의가 요구됨",
+        "newsUrl": "https://finnhub.io/api/news?id=2655b5499832086dd089e5178af7978d49bb40a69b0518d9322e793fbb21256c",
+        "eventId": "34ab0e9e5bdac00081c5",
+        "fingerprint": "{\"changes\": [{\"after\": 1.23, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"34ab0e9e5bdac00081c5\"}"
+      },
       {
         "changedAt": 1788233344.8593056,
         "dataAsOf": 1787727600,

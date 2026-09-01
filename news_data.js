@@ -4518,7 +4518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -7088,7 +7088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -9276,7 +9276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -9335,7 +9335,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239038.9370513
+          "analysisUpdatedAt": 1788262130.40104
         },
         "headlineKo": "Amazon Web Services와 Microsoft가 멀티클라우드 네트워킹에 협력"
       },
@@ -9383,7 +9383,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239040.0361357
+          "analysisUpdatedAt": 1788262131.4974108
         },
         "headlineKo": "Bill Ackman은 차트가 나타나기 전에 Microsoft를 보았습니다."
       },
@@ -9430,7 +9430,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239041.117926
+          "analysisUpdatedAt": 1788262132.5534093
         },
         "headlineKo": "경쟁사 분석: 소프트웨어 산업의 Microsoft 및 경쟁사 평가"
       },
@@ -9497,7 +9497,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239038.9370513
+          "analysisUpdatedAt": 1788262130.40104
         }
       },
       {
@@ -9545,7 +9545,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239040.0361357
+          "analysisUpdatedAt": 1788262131.4974108
         }
       },
       {
@@ -9592,7 +9592,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239041.117926
+          "analysisUpdatedAt": 1788262132.5534093
         }
       },
       {
@@ -11279,17 +11279,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "AMZN": {
@@ -11343,7 +11343,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239045.8291883
+          "analysisUpdatedAt": 1788262136.7337003
         },
         "headlineKo": "아마존, 스폰서 광고 가격, 경매에 대해 오해의 소지가 있는 광고주에 대한 미국 연방 무역 위원회의 소송을 반박"
       },
@@ -11391,7 +11391,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239046.9269352
+          "analysisUpdatedAt": 1788262137.7685516
         },
         "headlineKo": "아마존 주식 하락, 무슨 일이 일어나고 있나요?"
       },
@@ -11439,7 +11439,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239047.7493665
+          "analysisUpdatedAt": 1788262138.539914
         },
         "headlineKo": "Amazon Web Services와 Microsoft가 멀티클라우드 네트워킹에 협력"
       },
@@ -11505,7 +11505,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239045.8291883
+          "analysisUpdatedAt": 1788262136.7337003
         }
       },
       {
@@ -11553,7 +11553,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239046.9269352
+          "analysisUpdatedAt": 1788262137.7685516
         }
       },
       {
@@ -11601,7 +11601,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239047.7493665
+          "analysisUpdatedAt": 1788262138.539914
         }
       },
       {
@@ -13946,17 +13946,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "TSM": {
@@ -14880,7 +14880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -14909,12 +14909,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 79 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
-            "Recent underperformance by AVGO is tied to VMware security flaws and risks to the software segment's 79% operating margin.",
-            "Key focus areas are FY2027 AI guidance, Q4 gross margin amid rising memory costs, and potential weakness in software renewals."
+            "Broadcom 주식: 3분기에 아무것도 바뀌지 않는 이유(NASDAQ:AVGO) | 알파 찾기 Zbigniew Budzinski, CFA 팔로워 84명 팔로우 요약 Broadcom은 현재 가치 평가가 346달러 범위의 업데이트된 모델과 일치하므로 '보류' 등급을 유지합니다.",
+            "최근 AVGO의 저조한 실적은 VMware 보안 결함 및 소프트웨어 부문의 79% 영업 이익률에 대한 위험과 관련이 있습니다.",
+            "주요 초점 영역은 FY2027 AI 지침, 메모리 비용 상승에 따른 4분기 총 마진, 소프트웨어 갱신의 잠재적 약점입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $346.03, $382.37., 79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -14943,11 +14944,11 @@ const NEWS_DATA = {
             "79%"
           ],
           "sourceExcerpt": [
-            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 79 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
+            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 84 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
             "Recent underperformance by AVGO is tied to VMware security flaws and risks to the software segment's 79% operating margin.",
             "Key focus areas are FY2027 AI guidance, Q4 gross margin amid rising memory costs, and potential weakness in software renewals."
           ],
-          "analysisUpdatedAt": 1788239065.0832763
+          "analysisUpdatedAt": 1788262156.0631962
         },
         "headlineKo": "Broadcom: Q3가 아무것도 바꾸지 않는 이유"
       },
@@ -14994,7 +14995,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239066.237635
+          "analysisUpdatedAt": 1788262157.1048794
         },
         "headlineKo": "Broadcom은 수익 후 1,390억 달러의 가치를 변동시킬 수 있습니다."
       },
@@ -15041,7 +15042,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239067.335367
+          "analysisUpdatedAt": 1788262158.2563422
         },
         "headlineKo": "반도체 및 반도체 장비 산업의 경쟁업체에 대한 Broadcom의 성과 평가"
       },
@@ -15078,12 +15079,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 79 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
-            "Recent underperformance by AVGO is tied to VMware security flaws and risks to the software segment's 79% operating margin.",
-            "Key focus areas are FY2027 AI guidance, Q4 gross margin amid rising memory costs, and potential weakness in software renewals."
+            "Broadcom 주식: 3분기에 아무것도 바뀌지 않는 이유(NASDAQ:AVGO) | 알파 찾기 Zbigniew Budzinski, CFA 팔로워 84명 팔로우 요약 Broadcom은 현재 가치 평가가 346달러 범위의 업데이트된 모델과 일치하므로 '보류' 등급을 유지합니다.",
+            "최근 AVGO의 저조한 실적은 VMware 보안 결함 및 소프트웨어 부문의 79% 영업 이익률에 대한 위험과 관련이 있습니다.",
+            "주요 초점 영역은 FY2027 AI 지침, 메모리 비용 상승에 따른 4분기 총 마진, 소프트웨어 갱신의 잠재적 약점입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $346.03, $382.37., 79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -15112,11 +15114,11 @@ const NEWS_DATA = {
             "79%"
           ],
           "sourceExcerpt": [
-            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 79 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
+            "Broadcom Stock: Why Q3 Is Not Going To Change Anything (NASDAQ:AVGO) | Seeking Alpha Zbigniew Budzinski, CFA 84 Followers Follow Summary Broadcom remains rated 'Hold' as its current valuation aligns with updated models, with a range of $346",
             "Recent underperformance by AVGO is tied to VMware security flaws and risks to the software segment's 79% operating margin.",
             "Key focus areas are FY2027 AI guidance, Q4 gross margin amid rising memory costs, and potential weakness in software renewals."
           ],
-          "analysisUpdatedAt": 1788239065.0832763
+          "analysisUpdatedAt": 1788262156.0631962
         }
       },
       {
@@ -15163,7 +15165,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239066.237635
+          "analysisUpdatedAt": 1788262157.1048794
         }
       },
       {
@@ -15210,7 +15212,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239067.335367
+          "analysisUpdatedAt": 1788262158.2563422
         }
       },
       {
@@ -17198,17 +17200,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "META": {
@@ -20001,7 +20003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -20030,9 +20032,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Trade Tracker: Bryn Talkington buys more Tesla Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video TSLA Share Share Article via Facebook Share Article ",
-            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House an hour ago watch now watch now VIDEO 00:40 Army Sec.",
-            "Dan Driscoll resigns after months of friction with Sec."
+            "무역 추적기: Bryn Talkington, Tesla 추가 구매 탐색 건너뛰기 시장 비즈니스 투자 기술 정치 및 정책 비디오 관심 목록 Investing Club PRO 라이브스트림 메뉴 지금 보기 이 비디오에서 TSLA 공유 공유 Facebook 기사를 통한 기사 공유 기사",
+            "01:11 2026년 8월 31일 월요일 오후 1:17 EDT 지금 보기 지금 보기 비디오 43:44 Anthony Scaramucci의 실패, 자아 및 백악관에서의 11일 보기 지금 보기 비디오 00:40 Army Sec.",
+            "Dan Driscoll은 Sec.와의 수개월 간의 마찰 끝에 사임했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -20061,10 +20063,10 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [
             "Trade Tracker: Bryn Talkington buys more Tesla Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video TSLA Share Share Article via Facebook Share Article ",
-            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House an hour ago watch now watch now VIDEO 00:40 Army Sec.",
+            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House watch now watch now VIDEO 00:40 Army Sec.",
             "Dan Driscoll resigns after months of friction with Sec."
           ],
-          "analysisUpdatedAt": 1788239056.8424609
+          "analysisUpdatedAt": 1788262145.3259757
         },
         "headlineKo": "거래 추적기: Bryn Talkington, Tesla 추가 구매"
       },
@@ -20112,7 +20114,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239057.8724847
+          "analysisUpdatedAt": 1788262146.4332068
         },
         "headlineKo": "Cybercab 이벤트를 앞두고 Tesla 주가 급등"
       },
@@ -20160,7 +20162,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239060.8159506
+          "analysisUpdatedAt": 1788262147.4939418
         },
         "headlineKo": "게리 블랙(Gary Black)은 월스트리트의 Tesla Robotaxi 회의론이 성장이 아닌 시장 점유율로 귀결된다고 말합니다. 자율성은 '빠르게 상품이 될 것'입니다."
       },
@@ -20197,9 +20199,9 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Trade Tracker: Bryn Talkington buys more Tesla Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video TSLA Share Share Article via Facebook Share Article ",
-            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House an hour ago watch now watch now VIDEO 00:40 Army Sec.",
-            "Dan Driscoll resigns after months of friction with Sec."
+            "무역 추적기: Bryn Talkington, Tesla 추가 구매 탐색 건너뛰기 시장 비즈니스 투자 기술 정치 및 정책 비디오 관심 목록 Investing Club PRO 라이브스트림 메뉴 지금 보기 이 비디오에서 TSLA 공유 공유 Facebook 기사를 통한 기사 공유 기사",
+            "01:11 2026년 8월 31일 월요일 오후 1:17 EDT 지금 보기 지금 보기 비디오 43:44 Anthony Scaramucci의 실패, 자아 및 백악관에서의 11일 보기 지금 보기 비디오 00:40 Army Sec.",
+            "Dan Driscoll은 Sec.와의 수개월 간의 마찰 끝에 사임했습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -20228,10 +20230,10 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [
             "Trade Tracker: Bryn Talkington buys more Tesla Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu watch now In this video TSLA Share Share Article via Facebook Share Article ",
-            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House an hour ago watch now watch now VIDEO 00:40 Army Sec.",
+            "01:11 Mon, Aug 31 2026 1:17 PM EDT watch now watch now VIDEO 43:44 Anthony Scaramucci on failure, ego and 11 days in the White House watch now watch now VIDEO 00:40 Army Sec.",
             "Dan Driscoll resigns after months of friction with Sec."
           ],
-          "analysisUpdatedAt": 1788239056.8424609
+          "analysisUpdatedAt": 1788262145.3259757
         }
       },
       {
@@ -20279,7 +20281,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239057.8724847
+          "analysisUpdatedAt": 1788262146.4332068
         }
       },
       {
@@ -20327,7 +20329,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239060.8159506
+          "analysisUpdatedAt": 1788262147.4939418
         }
       },
       {
@@ -22472,17 +22474,17 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "MU": {
@@ -22501,22 +22503,23 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Micron: 하이퍼스케일러는 Fab를 구입하고 Bears는 동화를 구입했습니다(NASDAQ:MU) | Alpha Esxeleryn Analytics 찾기 1.95K 팔로어 요약 팔로우 Micron Technology, Inc.",
+            "하이퍼스케일러가 SCA를 통해 수십억 달러를 조달하고 용량을 고정하고 주기적 경기 침체로부터 FCF를 보호함에 따라 매수 등급을 얻습니다.",
+            "MU가 에이전트 AI KV 캐시 수요와 HBM 웨이퍼 거래 비율에 힘입어 유사 SaaS 유료 징수 모델로 전환하면서 지속적인 높은 마진을 지원합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -22526,18 +22529,21 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MU 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "MU에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
+          "quality": "medium",
           "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239079.6592891
+          "sourceExcerpt": [
+            "Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales (NASDAQ:MU) | Seeking Alpha Esxeleryn Analytics 1.95K Followers Follow Summary Micron Technology, Inc.",
+            "earns a Buy rating as hyperscalers front billions via SCAs, locking in capacity and insulating FCF from cyclical downturns.",
+            "MU's shift to a quasi-SaaS toll-collector model, driven by agentic AI KV-cache demands and HBM wafer trade ratios, supports sustained high margins."
+          ],
+          "analysisUpdatedAt": 1788262175.4305508
         },
         "headlineKo": "Micron: 하이퍼스케일러는 Fab를 샀고 Bears는 동화를 샀습니다."
       },
@@ -22585,7 +22591,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239080.7930686
+          "analysisUpdatedAt": 1788262176.5297124
         },
         "headlineKo": "CXMT의 HBM3E 푸시가 Micron에 도전하다: 이 ETF는 AI 메모리 붐을 주도합니다"
       },
@@ -22603,9 +22609,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 283 Followers Follow Summary Micron Technology, Inc.",
-            "is transforming from a cyclical memory supplier to a mission-critical AI infrastructure provider, underpinned by historic Q3 FY2026 results.",
-            "MU’s growth is driven by surging demand for high-bandwidth memory (HBM), multi-year strategic customer agreements, and persistent supply constraints supporting pricing power."
+            "Micron Technology: 메모리 슈퍼사이클의 중력 중심(NASDAQ:MU) | 알파 추구 Chris Bazzle 팔로워 284명 팔로우 요약 Micron Technology, Inc.",
+            "2026년 3분기 실적을 바탕으로 순환 메모리 공급업체에서 미션 크리티컬 AI 인프라 제공업체로 변모하고 있습니다.",
+            "MU의 성장은 고대역폭 메모리(HBM)에 대한 수요 급증, 다년간의 전략적 고객 계약, 가격 결정력을 뒷받침하는 지속적인 공급 제약에 의해 주도됩니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -22633,11 +22639,11 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [],
           "sourceExcerpt": [
-            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 283 Followers Follow Summary Micron Technology, Inc.",
+            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 284 Followers Follow Summary Micron Technology, Inc.",
             "is transforming from a cyclical memory supplier to a mission-critical AI infrastructure provider, underpinned by historic Q3 FY2026 results.",
             "MU’s growth is driven by surging demand for high-bandwidth memory (HBM), multi-year strategic customer agreements, and persistent supply constraints supporting pricing power."
           ],
-          "analysisUpdatedAt": 1788239082.2424989
+          "analysisUpdatedAt": 1788262182.1682339
         },
         "headlineKo": "Micron 기술: 메모리 슈퍼사이클의 무게 중심"
       },
@@ -22668,22 +22674,23 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Micron: 하이퍼스케일러는 Fab를 구입하고 Bears는 동화를 구입했습니다(NASDAQ:MU) | Alpha Esxeleryn Analytics 찾기 1.95K 팔로어 요약 팔로우 Micron Technology, Inc.",
+            "하이퍼스케일러가 SCA를 통해 수십억 달러를 조달하고 용량을 고정하고 주기적 경기 침체로부터 FCF를 보호함에 따라 매수 등급을 얻습니다.",
+            "MU가 에이전트 AI KV 캐시 수요와 HBM 웨이퍼 거래 비율에 힘입어 유사 SaaS 유료 징수 모델로 전환하면서 지속적인 높은 마진을 지원합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -22693,18 +22700,21 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "이 기사는 MU의 사업과 관련된 'Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "MU 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "MU에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
+          "quality": "medium",
           "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239079.6592891
+          "sourceExcerpt": [
+            "Micron: Hyperscalers Bought The Fab, Bears Bought Fairy Tales (NASDAQ:MU) | Seeking Alpha Esxeleryn Analytics 1.95K Followers Follow Summary Micron Technology, Inc.",
+            "earns a Buy rating as hyperscalers front billions via SCAs, locking in capacity and insulating FCF from cyclical downturns.",
+            "MU's shift to a quasi-SaaS toll-collector model, driven by agentic AI KV-cache demands and HBM wafer trade ratios, supports sustained high margins."
+          ],
+          "analysisUpdatedAt": 1788262175.4305508
         }
       },
       {
@@ -22752,7 +22762,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239080.7930686
+          "analysisUpdatedAt": 1788262176.5297124
         }
       },
       {
@@ -22770,9 +22780,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 283 Followers Follow Summary Micron Technology, Inc.",
-            "is transforming from a cyclical memory supplier to a mission-critical AI infrastructure provider, underpinned by historic Q3 FY2026 results.",
-            "MU’s growth is driven by surging demand for high-bandwidth memory (HBM), multi-year strategic customer agreements, and persistent supply constraints supporting pricing power."
+            "Micron Technology: 메모리 슈퍼사이클의 중력 중심(NASDAQ:MU) | 알파 추구 Chris Bazzle 팔로워 284명 팔로우 요약 Micron Technology, Inc.",
+            "2026년 3분기 실적을 바탕으로 순환 메모리 공급업체에서 미션 크리티컬 AI 인프라 제공업체로 변모하고 있습니다.",
+            "MU의 성장은 고대역폭 메모리(HBM)에 대한 수요 급증, 다년간의 전략적 고객 계약, 가격 결정력을 뒷받침하는 지속적인 공급 제약에 의해 주도됩니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -22800,11 +22810,11 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [],
           "sourceExcerpt": [
-            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 283 Followers Follow Summary Micron Technology, Inc.",
+            "Micron Technology: The Center Of Gravity For The Memory Supercycle (NASDAQ:MU) | Seeking Alpha Chris Bazzle 284 Followers Follow Summary Micron Technology, Inc.",
             "is transforming from a cyclical memory supplier to a mission-critical AI infrastructure provider, underpinned by historic Q3 FY2026 results.",
             "MU’s growth is driven by surging demand for high-bandwidth memory (HBM), multi-year strategic customer agreements, and persistent supply constraints supporting pricing power."
           ],
-          "analysisUpdatedAt": 1788239082.2424989
+          "analysisUpdatedAt": 1788262182.1682339
         }
       },
       {
@@ -24994,17 +25004,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "AMD": {
@@ -27045,7 +27055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -28561,7 +28571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -29653,7 +29663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -31105,7 +31115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -31116,29 +31126,31 @@ const NEWS_DATA = {
     "nextEarnings": null,
     "news": [
       {
-        "headline": "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
+        "headline": "EWZ: A Brazilian Diversifier To Balance SPY's AI Risks",
         "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c3fec2e5de14a48db544d851b80967776b3b55d5ac26582026cef58a9c63dba2",
-        "datetime": 1788192031,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=4c44cfbbdfcca06c6aa2b1bf0f53d4595738e10f0071759212ec2688f8fd81c2",
+        "datetime": 1788244598,
+        "relevance": 0.75,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "EWZ: SPY의 AI 위험 균형을 맞추기 위한 브라질 다각화 도구(NYSEARCA:EWZ) | 알파 Chetan Woodun 추구 팔로워 8.72K 팔로우 요약 iShares MSCI Brazil ETF는 S&P 500에 많이 노출된 투자자에게 포트폴리오 다각화를 제공합니다.",
+            "EWZ는 상품, 금융 및 브라질 국내 부양 정책에 대한 상당한 노출을 통해 지리적, 부문별 및 통화 다각화를 제공합니다.",
+            "EWZ는 수익 8.8배로 SPY의 20배에 비해 상당히 할인된 가격에 거래되고 있으며 최근 최고치 대비 18.5% 상승 여력이 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 18.5%, $35.5, $42, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -31148,18 +31160,81 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "SPY에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "18.5%",
+            "$35.5",
+            "$42,",
+            "$770,"
+          ],
+          "sourceExcerpt": [
+            "EWZ: A Brazilian Diversifier To Balance SPY's AI Risks (NYSEARCA:EWZ) | Seeking Alpha Chetan Woodun 8.72K Followers Follow Summary The iShares MSCI Brazil ETF offers portfolio diversification for investors heavily exposed to the S&P 500 and",
+            "EWZ provides geographic, sectoral, and currency diversification, with significant exposure to commodities, financials, and domestic Brazilian stimulus policies.",
+            "At 8.8x earnings, EWZ trades at a substantial discount to SPY's 20x, with potential for an 18.5% upside to its recent high."
+          ],
+          "analysisUpdatedAt": 1788262118.8771923
+        },
+        "headlineKo": "EWZ: SPY의 AI 위험 균형을 맞추는 브라질 다각화 도구"
+      },
+      {
+        "headline": "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c3fec2e5de14a48db544d851b80967776b3b55d5ac26582026cef58a9c63dba2",
+        "datetime": 1788192031,
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500의 랠리를 탈선시킬 수 있는 요인은 다음과 같습니다 | 알파 찾기 Mike Zaccardi, CFA, CMT 9.66K 팔로워 팔로우 요약 8월에는 S&P 500이 2% 상승하고 Nasdaq 100 ETF(QQQ)가 대형주 강세를 능가하는 등 폭넓은 주가 상승을 보였습니다.",
+            "에너지는 MPC, PSX, VLO와 같은 소규모 정유업체를 중심으로 부문 실적을 주도했으며, 유틸리티 부문은 국채 수익률 상승으로 인해 부진했습니다.",
+            "노동 시장 불안, 완고한 근원 인플레이션, 9월 연준 금리 인상 가능성 등 거시적 리스크가 지속되고 있지만 S&P 500의 수익 모멘텀은 여전히 ​​견고합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "SPY",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239025.5223703
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Here’s What Could Derail The S&P 500's Rally | Seeking Alpha Mike Zaccardi, CFA, CMT 9.66K Followers Follow Summary August saw broad equity gains, with the S&P 500 up 2% and the Nasdaq 100 ETF (QQQ) outperforming on mega-cap strength.",
+            "Energy led sector performance, driven by smaller refiners like MPC, PSX, and VLO, while Utilities lagged amid rising Treasury yields.",
+            "Macro risks persist—labor market shakiness, stubborn core inflation, and near-even odds of a September Fed rate hike—yet S&P 500 earnings momentum remains robust."
+          ],
+          "analysisUpdatedAt": 1788262124.4330716
         },
         "headlineKo": "8월 주식은 강세를 보였습니다. S&P 500 랠리를 탈선시킬 수 있는 요인은 다음과 같습니다."
       },
@@ -31207,7 +31282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239033.004458
+          "analysisUpdatedAt": 1788262125.469661
         },
         "headlineKo": "Happy 50th, 인덱스 펀드: S&P 500을 소유하는 것만으로는 더 이상 충분하지 않은 이유"
       },
@@ -31217,20 +31292,40 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=3c62aaabe4bd6bede4acd00fd35aa087e69efd98d487a1df7a4086d047b4c1b7",
         "datetime": 1788174308,
         "relevance": 0.5,
+        "headlineKo": "금리 인상으로 S&P 500 거품이 터질 수 있음"
+      },
+      {
+        "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall as US-Iran Tensions Flare Up—WMT, RZLV, FNGR in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=9b0f6816b92992a29a46fd55746ede74d007ee5c9e263c4a969140337e1a5d99",
+        "datetime": 1788164934,
+        "relevance": 0.5,
+        "headlineKo": "오늘의 주식 시장: 미국-이란 긴장이 고조되면서 S&P 500, Nasdaq 100, Dow Jones Futures 하락 - WMT, RZLV, FNGR 초점(업데이트됨)"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "EWZ: A Brazilian Diversifier To Balance SPY's AI Risks",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=4c44cfbbdfcca06c6aa2b1bf0f53d4595738e10f0071759212ec2688f8fd81c2",
+        "datetime": 1788244598,
+        "headlineKo": "EWZ: SPY의 AI 위험 균형을 맞추는 브라질 다각화 도구",
+        "relevance": 0.75,
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Higher Rates Could Burst The S&P 500 Bubble | Seeking Alpha Damir Tokic 14.67K Followers Follow Summary The S&P 500 is trading with a Shiller PE reading of 42, just below the record high level reached at the peak of the 2000 dot-com bubble.",
-            "The Fed committed a policy error by easing prematurely, and now it needs to reinvert the yield curve to curb rising inflation - this could burst the bubble.",
-            "If the Fed commits another policy error now and acts too slowly, long-term rates could rise sharply, which could also burst the bubble."
+            "EWZ: SPY의 AI 위험 균형을 맞추기 위한 브라질 다각화 도구(NYSEARCA:EWZ) | 알파 Chetan Woodun 추구 팔로워 8.72K 팔로우 요약 iShares MSCI Brazil ETF는 S&P 500에 많이 노출된 투자자에게 포트폴리오 다각화를 제공합니다.",
+            "EWZ는 상품, 금융 및 브라질 국내 부양 정책에 대한 상당한 노출을 통해 지리적, 부문별 및 통화 다각화를 제공합니다.",
+            "EWZ는 수익 8.8배로 SPY의 20배에 비해 상당히 할인된 가격에 거래되고 있으며 최근 최고치 대비 18.5% 상승 여력이 있습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 18.5%, $35.5, $42, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -31249,38 +31344,24 @@ const NEWS_DATA = {
             "회사의 매출 영향 추정",
             "대체 제품·지역 판매"
           ],
-          "interpretation": "SPY에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "interpretation": "SPY에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
           "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
+          "relevance": 0.75,
           "quality": "medium",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [
-            "Higher Rates Could Burst The S&P 500 Bubble | Seeking Alpha Damir Tokic 14.67K Followers Follow Summary The S&P 500 is trading with a Shiller PE reading of 42, just below the record high level reached at the peak of the 2000 dot-com bubble.",
-            "The Fed committed a policy error by easing prematurely, and now it needs to reinvert the yield curve to curb rising inflation - this could burst the bubble.",
-            "If the Fed commits another policy error now and acts too slowly, long-term rates could rise sharply, which could also burst the bubble."
+          "verifiedNumbers": [
+            "18.5%",
+            "$35.5",
+            "$42,",
+            "$770,"
           ],
-          "analysisUpdatedAt": 1788239034.4014258
-        },
-        "headlineKo": "금리 인상으로 S&P 500 거품이 터질 수 있음"
+          "sourceExcerpt": [
+            "EWZ: A Brazilian Diversifier To Balance SPY's AI Risks (NYSEARCA:EWZ) | Seeking Alpha Chetan Woodun 8.72K Followers Follow Summary The iShares MSCI Brazil ETF offers portfolio diversification for investors heavily exposed to the S&P 500 and",
+            "EWZ provides geographic, sectoral, and currency diversification, with significant exposure to commodities, financials, and domestic Brazilian stimulus policies.",
+            "At 8.8x earnings, EWZ trades at a substantial discount to SPY's 20x, with potential for an 18.5% upside to its recent high."
+          ],
+          "analysisUpdatedAt": 1788262118.8771923
+        }
       },
-      {
-        "headline": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures Fall as US-Iran Tensions Flare Up—WMT, RZLV, FNGR in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=9b0f6816b92992a29a46fd55746ede74d007ee5c9e263c4a969140337e1a5d99",
-        "datetime": 1788164934,
-        "relevance": 0.5,
-        "headlineKo": "오늘의 주식 시장: 미국-이란 긴장이 고조되면서 S&P 500, Nasdaq 100, Dow Jones Futures 하락 - WMT, RZLV, FNGR 초점(업데이트됨)"
-      },
-      {
-        "headline": "S&P 500 Gets Rate Hike Reality Check From Fed's New Chief",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=7fc5137f704210aecc48522b22bd5b7848f3e1053b80b2d072eeb3f5089d05be",
-        "datetime": 1788163800,
-        "relevance": 0.5,
-        "headlineKo": "S&P 500, 연준 신임 국장으로부터 금리 인상 현실 확인 받아"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
         "source": "SeekingAlpha",
@@ -31290,22 +31371,24 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "S&P 500의 랠리를 탈선시킬 수 있는 요인은 다음과 같습니다 | 알파 찾기 Mike Zaccardi, CFA, CMT 9.66K 팔로워 팔로우 요약 8월에는 S&P 500이 2% 상승하고 Nasdaq 100 ETF(QQQ)가 대형주 강세를 능가하는 등 폭넓은 주가 상승을 보였습니다.",
+            "에너지는 MPC, PSX, VLO와 같은 소규모 정유업체를 중심으로 부문 실적을 주도했으며, 유틸리티 부문은 국채 수익률 상승으로 인해 부진했습니다.",
+            "노동 시장 불안, 완고한 근원 인플레이션, 9월 연준 금리 인상 가능성 등 거시적 리스크가 지속되고 있지만 S&P 500의 수익 모멘텀은 여전히 ​​견고합니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -31315,18 +31398,23 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'Stocks Were Strong In August. Here's What Could Derail The S&P 500's Rally' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239025.5223703
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%"
+          ],
+          "sourceExcerpt": [
+            "Here’s What Could Derail The S&P 500's Rally | Seeking Alpha Mike Zaccardi, CFA, CMT 9.66K Followers Follow Summary August saw broad equity gains, with the S&P 500 up 2% and the Nasdaq 100 ETF (QQQ) outperforming on mega-cap strength.",
+            "Energy led sector performance, driven by smaller refiners like MPC, PSX, and VLO, while Utilities lagged amid rising Treasury yields.",
+            "Macro risks persist—labor market shakiness, stubborn core inflation, and near-even odds of a September Fed rate hike—yet S&P 500 earnings momentum remains robust."
+          ],
+          "analysisUpdatedAt": 1788262124.4330716
         }
       },
       {
@@ -31374,7 +31462,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239033.004458
+          "analysisUpdatedAt": 1788262125.469661
         }
       },
       {
@@ -33157,17 +33245,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:03",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:28",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 58,
+      "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "ORCL": {
@@ -34742,7 +34830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -36461,7 +36549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -37906,7 +37994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -38934,7 +39022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -39721,7 +39809,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -42327,7 +42415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -43271,7 +43359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44340,7 +44428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44369,12 +44457,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Stock: The AI Yield Bottleneck Is Becoming More Valuable (NASDAQ:KLAC) | Seeking Alpha Simple Investment Ideas 10.95K Followers Follow Summary KLA is uniquely positioned to benefit from rising chip complexity, driving demand for advance",
-            "KLAC's embedded workflows, dominant market share, and expanding packaging/service revenues reinforce its technological moat and recurring revenue base.",
-            "I model fiscal 2027 revenue at $16.3B, gross margin at 62.2%, and EPS at $4.75, with growth driven by AI, packaging, and service expansion."
+            "KLA 주식: AI 수익률 병목 현상의 가치가 높아지고 있습니다(NASDAQ:KLAC) | 알파 단순 투자 아이디어 찾기 10.95K 팔로워 팔로우 요약 KLA는 칩 복잡성 증가로 이익을 얻을 수 있는 독보적인 위치에 있으며, 발전 수요를 주도합니다.",
+            "KLAC의 내장형 워크플로우, 지배적인 시장 점유율, 패키징/서비스 수익 확대는 기술 해자와 반복적인 수익 기반을 강화합니다.",
+            "저는 2027 회계연도 매출을 163억 달러, 총 마진 62.2%, EPS 4.75달러로 모델링하며, AI, 패키징, 서비스 확장에 따른 성장을 예상합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $16.3, 62.2%, $4.75, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -44407,7 +44496,7 @@ const NEWS_DATA = {
             "KLAC's embedded workflows, dominant market share, and expanding packaging/service revenues reinforce its technological moat and recurring revenue base.",
             "I model fiscal 2027 revenue at $16.3B, gross margin at 62.2%, and EPS at $4.75, with growth driven by AI, packaging, and service expansion."
           ],
-          "analysisUpdatedAt": 1788239073.7262251
+          "analysisUpdatedAt": 1788262165.8996131
         },
         "headlineKo": "KLA: 인공지능 수익률 병목 현상이 점점 더 가치 있게 되고 있습니다."
       },
@@ -44455,7 +44544,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239074.6336133
+          "analysisUpdatedAt": 1788262166.7732022
         },
         "headlineKo": "ASML과 KLA: 둘 다 인공지능 빌드아웃에서 승리 - 오직 전 (前) 만이 여전히 구매할 가치가 있습니다"
       },
@@ -44467,23 +44556,22 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC) | Seeking Alpha Himalayas Research 1.27K Followers Follow Summary KLA Corporation is rated 'Buy' after a sharp selloff, with fundamentals and 2027 outlook improving despite high m",
-            "KLAC delivered record Q4 revenue of $3.66B (+15.2% Y/Y) and strong free cash flow, supporting robust buybacks and dividend growth.",
-            "Management projects 2027 as an inflection year, driven by 1D DRAM/1.4nm process intensity and easing memory cost headwinds."
+            "KLA Corporation: Buy The 2027+ Double Tailwind",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -44493,27 +44581,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "KLAC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Corporation: Buy The 2027+ Double Tailwind' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$3.66",
-            "15.2%",
-            "33%",
-            "45%",
-            "44%"
-          ],
-          "sourceExcerpt": [
-            "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC) | Seeking Alpha Himalayas Research 1.27K Followers Follow Summary KLA Corporation is rated 'Buy' after a sharp selloff, with fundamentals and 2027 outlook improving despite high m",
-            "KLAC delivered record Q4 revenue of $3.66B (+15.2% Y/Y) and strong free cash flow, supporting robust buybacks and dividend growth.",
-            "Management projects 2027 as an inflection year, driven by 1D DRAM/1.4nm process intensity and easing memory cost headwinds."
-          ],
-          "analysisUpdatedAt": 1788239075.8404
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788262167.6722887
         },
         "headlineKo": "KLA Corporation: 2027 + 더블 테일윈드 구매"
       },
@@ -44550,12 +44629,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Stock: The AI Yield Bottleneck Is Becoming More Valuable (NASDAQ:KLAC) | Seeking Alpha Simple Investment Ideas 10.95K Followers Follow Summary KLA is uniquely positioned to benefit from rising chip complexity, driving demand for advance",
-            "KLAC's embedded workflows, dominant market share, and expanding packaging/service revenues reinforce its technological moat and recurring revenue base.",
-            "I model fiscal 2027 revenue at $16.3B, gross margin at 62.2%, and EPS at $4.75, with growth driven by AI, packaging, and service expansion."
+            "KLA 주식: AI 수익률 병목 현상의 가치가 높아지고 있습니다(NASDAQ:KLAC) | 알파 단순 투자 아이디어 찾기 10.95K 팔로워 팔로우 요약 KLA는 칩 복잡성 증가로 이익을 얻을 수 있는 독보적인 위치에 있으며, 발전 수요를 주도합니다.",
+            "KLAC의 내장형 워크플로우, 지배적인 시장 점유율, 패키징/서비스 수익 확대는 기술 해자와 반복적인 수익 기반을 강화합니다.",
+            "저는 2027 회계연도 매출을 163억 달러, 총 마진 62.2%, EPS 4.75달러로 모델링하며, AI, 패키징, 서비스 확장에 따른 성장을 예상합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $16.3, 62.2%, $4.75, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -44588,7 +44668,7 @@ const NEWS_DATA = {
             "KLAC's embedded workflows, dominant market share, and expanding packaging/service revenues reinforce its technological moat and recurring revenue base.",
             "I model fiscal 2027 revenue at $16.3B, gross margin at 62.2%, and EPS at $4.75, with growth driven by AI, packaging, and service expansion."
           ],
-          "analysisUpdatedAt": 1788239073.7262251
+          "analysisUpdatedAt": 1788262165.8996131
         }
       },
       {
@@ -44636,7 +44716,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239074.6336133
+          "analysisUpdatedAt": 1788262166.7732022
         }
       },
       {
@@ -44648,23 +44728,22 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC) | Seeking Alpha Himalayas Research 1.27K Followers Follow Summary KLA Corporation is rated 'Buy' after a sharp selloff, with fundamentals and 2027 outlook improving despite high m",
-            "KLAC delivered record Q4 revenue of $3.66B (+15.2% Y/Y) and strong free cash flow, supporting robust buybacks and dividend growth.",
-            "Management projects 2027 as an inflection year, driven by 1D DRAM/1.4nm process intensity and easing memory cost headwinds."
+            "KLA Corporation: Buy The 2027+ Double Tailwind",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "KLAC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -44674,27 +44753,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "KLAC에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 KLAC의 사업과 관련된 'KLA Corporation: Buy The 2027+ Double Tailwind' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "KLAC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$3.66",
-            "15.2%",
-            "33%",
-            "45%",
-            "44%"
-          ],
-          "sourceExcerpt": [
-            "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC) | Seeking Alpha Himalayas Research 1.27K Followers Follow Summary KLA Corporation is rated 'Buy' after a sharp selloff, with fundamentals and 2027 outlook improving despite high m",
-            "KLAC delivered record Q4 revenue of $3.66B (+15.2% Y/Y) and strong free cash flow, supporting robust buybacks and dividend growth.",
-            "Management projects 2027 as an inflection year, driven by 1D DRAM/1.4nm process intensity and easing memory cost headwinds."
-          ],
-          "analysisUpdatedAt": 1788239075.8404
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788262167.6722887
         }
       },
       {
@@ -45397,17 +45467,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "SNDK": {
@@ -47693,7 +47763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -48762,7 +48832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788246948.9262547,
     "_earnings_status": "ok",
@@ -49532,7 +49602,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -50155,7 +50225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51030,7 +51100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -52151,7 +52221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -52748,7 +52818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -53640,7 +53710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -53698,7 +53768,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239086.786223
+          "analysisUpdatedAt": 1788262186.4696007
         },
         "headlineKo": "Morgan Stanley는 Eaton Corp에서 과체중을 유지하고 가격 목표를 $ 520로 올립니다."
       }
@@ -53748,7 +53818,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239086.786223
+          "analysisUpdatedAt": 1788262186.4696007
         }
       },
       {
@@ -54112,17 +54182,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "PWR": {
@@ -54147,12 +54217,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Quanta Services Stock: Recent Selloff Creates Compelling Buy (NYSE:PWR) | Seeking Alpha Blake Winiecki 770 Followers Follow Summary Quanta Services is rated a buy, benefiting from surging electricity demand, grid modernization, and the AI-d",
-            "PWR posted record Q2 2026 results: $9.56B revenue (up 41% YoY), $4.24 adjusted EPS (up 71%), and raised full-year guidance materially.",
-            "Backlog reached a record $53.4B, with $23.5B expected to convert within 12 months, supporting strong forward visibility."
+            "Quanta Services 주식: 최근 매도세가 매력적인 매수 창출(NYSE:PWR) | Alpha Blake Winiecki를 찾고 있습니다. 팔로워 770명 팔로우 요약 Quanta Services는 전력 수요 급증, 그리드 현대화 및 AI-d의 혜택을 받아 구매 등급을 받았습니다.",
+            "PWR은 기록적인 2026년 2분기 실적을 기록했습니다. 매출 95억 6천만 달러(YoY 41% 증가), 조정 EPS 4.24달러(71% 증가), 연간 가이던스를 대폭 상향 조정했습니다.",
+            "백로그는 기록적인 534억 달러에 도달했으며, 12개월 이내에 235억 달러가 전환될 것으로 예상되어 강력한 전방 가시성을 지원합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $9.56, 41%, $4.24 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -54189,7 +54260,7 @@ const NEWS_DATA = {
             "PWR posted record Q2 2026 results: $9.56B revenue (up 41% YoY), $4.24 adjusted EPS (up 71%), and raised full-year guidance materially.",
             "Backlog reached a record $53.4B, with $23.5B expected to convert within 12 months, supporting strong forward visibility."
           ],
-          "analysisUpdatedAt": 1788239091.3016489
+          "analysisUpdatedAt": 1788262194.8822334
         },
         "headlineKo": "Quanta 서비스: 최근 판매로 매력적인 구매 창출"
       },
@@ -54207,12 +54278,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Quanta Services Stock Dropped But Earnings Just Changed The Narrative (NYSE:PWR) | Seeking Alpha Investor Overview 3K Followers Follow Summary Quanta Services delivered a robust Q2, with 41% revenue growth, 71% adjusted EPS growth, and a re",
-            "PWR raised its 2026 guidance significantly, now projecting $39.3–$39.7B in revenue and $16.45–$16.95 in adjusted EPS, driven by organic growth and recent acquisitions.",
-            "Valuation has improved after a 16% stock price decline, now at 36x 2026 earnings, but remains elevated; I maintain a Hold rating with a more constructive outlook."
+            "Quanta Services 주식은 하락했지만 수익은 내러티브를 변화시켰습니다(NYSE:PWR) | 알파 투자자 찾기 개요 3,000명의 팔로워 팔로우 요약 Quanta Services는 41%의 수익 성장, 71%의 조정 EPS 성장,",
+            "PWR은 유기적 성장과 최근 인수에 힘입어 2026년 지침을 대폭 상향 조정하여 현재 매출 393억~397억 달러, 조정 EPS 1645~16.95달러를 예상하고 있습니다.",
+            "주가가 16% 하락한 후 가치 평가가 개선되어 현재 2026년 수익은 36배이지만 여전히 높은 수준입니다. 나는 좀 더 건설적인 전망을 가지고 보류 등급을 유지합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 41%, 71%, $39.3 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -54250,7 +54322,7 @@ const NEWS_DATA = {
             "PWR raised its 2026 guidance significantly, now projecting $39.3–$39.7B in revenue and $16.45–$16.95 in adjusted EPS, driven by organic growth and recent acquisitions.",
             "Valuation has improved after a 16% stock price decline, now at 36x 2026 earnings, but remains elevated; I maintain a Hold rating with a more constructive outlook."
           ],
-          "analysisUpdatedAt": 1788239093.2463162
+          "analysisUpdatedAt": 1788262199.4813683
         },
         "headlineKo": "Quanta 서비스가 중단되었지만 수입이 내러티브를 변경했습니다"
       },
@@ -54298,7 +54370,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239094.496847
+          "analysisUpdatedAt": 1788262200.6289868
         },
         "headlineKo": "Quanta Services(NYSE:PWR)는 모든 성장 장애물을 제거합니다."
       },
@@ -54335,12 +54407,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Quanta Services Stock: Recent Selloff Creates Compelling Buy (NYSE:PWR) | Seeking Alpha Blake Winiecki 770 Followers Follow Summary Quanta Services is rated a buy, benefiting from surging electricity demand, grid modernization, and the AI-d",
-            "PWR posted record Q2 2026 results: $9.56B revenue (up 41% YoY), $4.24 adjusted EPS (up 71%), and raised full-year guidance materially.",
-            "Backlog reached a record $53.4B, with $23.5B expected to convert within 12 months, supporting strong forward visibility."
+            "Quanta Services 주식: 최근 매도세가 매력적인 매수 창출(NYSE:PWR) | Alpha Blake Winiecki를 찾고 있습니다. 팔로워 770명 팔로우 요약 Quanta Services는 전력 수요 급증, 그리드 현대화 및 AI-d의 혜택을 받아 구매 등급을 받았습니다.",
+            "PWR은 기록적인 2026년 2분기 실적을 기록했습니다. 매출 95억 6천만 달러(YoY 41% 증가), 조정 EPS 4.24달러(71% 증가), 연간 가이던스를 대폭 상향 조정했습니다.",
+            "백로그는 기록적인 534억 달러에 도달했으며, 12개월 이내에 235억 달러가 전환될 것으로 예상되어 강력한 전방 가시성을 지원합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $9.56, 41%, $4.24 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -54377,7 +54450,7 @@ const NEWS_DATA = {
             "PWR posted record Q2 2026 results: $9.56B revenue (up 41% YoY), $4.24 adjusted EPS (up 71%), and raised full-year guidance materially.",
             "Backlog reached a record $53.4B, with $23.5B expected to convert within 12 months, supporting strong forward visibility."
           ],
-          "analysisUpdatedAt": 1788239091.3016489
+          "analysisUpdatedAt": 1788262194.8822334
         }
       },
       {
@@ -54395,12 +54468,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Quanta Services Stock Dropped But Earnings Just Changed The Narrative (NYSE:PWR) | Seeking Alpha Investor Overview 3K Followers Follow Summary Quanta Services delivered a robust Q2, with 41% revenue growth, 71% adjusted EPS growth, and a re",
-            "PWR raised its 2026 guidance significantly, now projecting $39.3–$39.7B in revenue and $16.45–$16.95 in adjusted EPS, driven by organic growth and recent acquisitions.",
-            "Valuation has improved after a 16% stock price decline, now at 36x 2026 earnings, but remains elevated; I maintain a Hold rating with a more constructive outlook."
+            "Quanta Services 주식은 하락했지만 수익은 내러티브를 변화시켰습니다(NYSE:PWR) | 알파 투자자 찾기 개요 3,000명의 팔로워 팔로우 요약 Quanta Services는 41%의 수익 성장, 71%의 조정 EPS 성장,",
+            "PWR은 유기적 성장과 최근 인수에 힘입어 2026년 지침을 대폭 상향 조정하여 현재 매출 393억~397억 달러, 조정 EPS 1645~16.95달러를 예상하고 있습니다.",
+            "주가가 16% 하락한 후 가치 평가가 개선되어 현재 2026년 수익은 36배이지만 여전히 높은 수준입니다. 나는 좀 더 건설적인 전망을 가지고 보류 등급을 유지합니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 41%, 71%, $39.3 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -54438,7 +54512,7 @@ const NEWS_DATA = {
             "PWR raised its 2026 guidance significantly, now projecting $39.3–$39.7B in revenue and $16.45–$16.95 in adjusted EPS, driven by organic growth and recent acquisitions.",
             "Valuation has improved after a 16% stock price decline, now at 36x 2026 earnings, but remains elevated; I maintain a Hold rating with a more constructive outlook."
           ],
-          "analysisUpdatedAt": 1788239093.2463162
+          "analysisUpdatedAt": 1788262199.4813683
         }
       },
       {
@@ -54486,7 +54560,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239094.496847
+          "analysisUpdatedAt": 1788262200.6289868
         }
       },
       {
@@ -54844,17 +54918,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:04",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:30",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "HUBB": {
@@ -55273,9 +55347,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788260216.3428311,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
     "_last_success_at": 1788187127.1446443,
     "_collection_status": "empty",
@@ -55303,12 +55377,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis The Vertiv Stock Signal Was Never In The Demand Headline August 27th, 2026 · by Trefis Team VRT YTD +59.8% SPY YTD +12.8% XLI YTD +13.2% Analyze VRT → Before the stock more t",
-            "Vertiv (VRT) sells the power and cooling systems that data centers are built around, and its stock returned 111.2% between late August 2025 and late August 2026.",
-            "That reads as a bet on AI capital spending, a trade needing no signal to spot."
+            "Vertiv 주식 신호는 수요 헤드라인에 등장한 적이 없습니다 | Trefis 주식이 두 배 이상 증가하기 전에 Vertiv는 이미 출하할 수 있는 것보다 훨씬 더 많이 판매했으며 최근 분기별 마진은 반대 방향으로 가고 있었습니다.",
+            "Vertiv(VRT)는 데이터 센터 구축에 사용되는 전력 및 냉각 시스템을 판매하며, 해당 주식은 2025년 8월 말부터 2026년 8월 말 사이에 111.2%의 수익률을 기록했습니다.",
+            "이는 AI 자본 지출에 대한 베팅으로 읽히며, 발견할 신호가 필요하지 않은 거래입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 111.2%, 30%, 78% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -55332,21 +55407,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "59.8%",
-            "12.8%",
-            "13.2%",
             "111.2%",
             "30%",
             "78%",
             "69%",
-            "$3 billion"
+            "$119 billion",
+            "$3 billion",
+            "$8.5 billion",
+            "21%"
           ],
           "sourceExcerpt": [
-            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis The Vertiv Stock Signal Was Never In The Demand Headline August 27th, 2026 · by Trefis Team VRT YTD +59.8% SPY YTD +12.8% XLI YTD +13.2% Analyze VRT → Before the stock more t",
+            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis Before the stock more than doubled, Vertiv had already sold far more than it could ship, and its latest quarterly margin was going the other way.",
             "Vertiv (VRT) sells the power and cooling systems that data centers are built around, and its stock returned 111.2% between late August 2025 and late August 2026.",
             "That reads as a bet on AI capital spending, a trade needing no signal to spot."
           ],
-          "analysisUpdatedAt": 1788239108.2053385
+          "analysisUpdatedAt": 1788262213.5735562
         },
         "headlineKo": "Vertiv Stock Signal은 수요 헤드 라인에 없었습니다."
       },
@@ -55394,7 +55469,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239109.8217225
+          "analysisUpdatedAt": 1788262215.8132727
         },
         "headlineKo": "Vertiv (VRT) 는 놀라운 성장 주식입니다: 3가지 이유"
       },
@@ -55442,7 +55517,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239112.3222666
+          "analysisUpdatedAt": 1788262218.0393922
         },
         "headlineKo": "월스트리트 애널리스트들은 버티브 (VRT) 가 28.42% 상승할 수 있다고 믿고 있습니다. 거래 방법은 다음과 같습니다."
       },
@@ -55479,12 +55554,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis The Vertiv Stock Signal Was Never In The Demand Headline August 27th, 2026 · by Trefis Team VRT YTD +59.8% SPY YTD +12.8% XLI YTD +13.2% Analyze VRT → Before the stock more t",
-            "Vertiv (VRT) sells the power and cooling systems that data centers are built around, and its stock returned 111.2% between late August 2025 and late August 2026.",
-            "That reads as a bet on AI capital spending, a trade needing no signal to spot."
+            "Vertiv 주식 신호는 수요 헤드라인에 등장한 적이 없습니다 | Trefis 주식이 두 배 이상 증가하기 전에 Vertiv는 이미 출하할 수 있는 것보다 훨씬 더 많이 판매했으며 최근 분기별 마진은 반대 방향으로 가고 있었습니다.",
+            "Vertiv(VRT)는 데이터 센터 구축에 사용되는 전력 및 냉각 시스템을 판매하며, 해당 주식은 2025년 8월 말부터 2026년 8월 말 사이에 111.2%의 수익률을 기록했습니다.",
+            "이는 AI 자본 지출에 대한 베팅으로 읽히며, 발견할 신호가 필요하지 않은 거래입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 111.2%, 30%, 78% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -55508,21 +55584,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "59.8%",
-            "12.8%",
-            "13.2%",
             "111.2%",
             "30%",
             "78%",
             "69%",
-            "$3 billion"
+            "$119 billion",
+            "$3 billion",
+            "$8.5 billion",
+            "21%"
           ],
           "sourceExcerpt": [
-            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis The Vertiv Stock Signal Was Never In The Demand Headline August 27th, 2026 · by Trefis Team VRT YTD +59.8% SPY YTD +12.8% XLI YTD +13.2% Analyze VRT → Before the stock more t",
+            "The Vertiv Stock Signal Was Never In The Demand Headline | Trefis Before the stock more than doubled, Vertiv had already sold far more than it could ship, and its latest quarterly margin was going the other way.",
             "Vertiv (VRT) sells the power and cooling systems that data centers are built around, and its stock returned 111.2% between late August 2025 and late August 2026.",
             "That reads as a bet on AI capital spending, a trade needing no signal to spot."
           ],
-          "analysisUpdatedAt": 1788239108.2053385
+          "analysisUpdatedAt": 1788262213.5735562
         }
       },
       {
@@ -55570,7 +55646,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239109.8217225
+          "analysisUpdatedAt": 1788262215.8132727
         }
       },
       {
@@ -55618,7 +55694,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788239112.3222666
+          "analysisUpdatedAt": 1788262218.0393922
         }
       },
       {
@@ -56104,17 +56180,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788239021.3247433,
-    "_updated_label": "2026-09-01 14:05",
+    "_fetched_at": 1788262111.7157164,
+    "_updated_label": "2026-09-01 20:30",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788239021.3247433,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
-    "_last_success_at": 1788239021.3247433,
+    "_last_success_at": 1788262111.7157164,
     "_collection_status": "ok"
   },
   "MOD": {
@@ -56490,7 +56566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -57313,7 +57389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -57773,7 +57849,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -58515,7 +58591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -58635,16 +58711,16 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     },
-    "_last_attempt_at": 1788260216.3428311,
+    "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
     "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
-    "_last_attempt_at": 1788260216.3428311,
+    "_last_attempt_at": 1788262111.7157164,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -58660,7 +58736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-09-01 19:58"
+      "updated": "2026-09-01 20:30"
     }
   }
 };
