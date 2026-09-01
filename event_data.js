@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788267878.9227445,
+  "generatedAt": 1788269727.5140107,
   "events": [
     {
       "id": "dbf7d71c4be89e712afe",
@@ -4498,7 +4498,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=6f860c69843e52ad3fd24fe83b893eb42235aeb8ebaf9fd104dc1fc39deb1d6b",
         "publishedAt": 1787916676,
-        "collectedAt": 1788246948.9262547
+        "collectedAt": 1788269711.1669924
       },
       "confirmedFacts": [],
       "reportedClaims": [

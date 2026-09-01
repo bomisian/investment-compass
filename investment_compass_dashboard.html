@@ -4956,7 +4956,7 @@ function renderNewsLog(ticker, label){
   const log = n && n.newsLog;
   if(!log || !log.length) return '';
   const TONE_LABEL = {positive:'긍정', risk:'위험', mixed:'혼재', neutral:'중립'};
-  const cards = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
+  const renderCard = e => {
     const srcLinks = (e.sources||[]).map(s=>{
       const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
       return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
@@ -4993,14 +4993,29 @@ function renderNewsLog(ticker, label){
           ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : `<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ 출처 링크 없음 - gpt_dashboard의 자동 분석과 달리 이 로그는 출처를 남기는 게 원칙이니, 다음에 갱신할 때 채워주세요.</div>`}
         </details>
       </article>`;
-  });
-  const NEWSLOG_VISIBLE = 4;
-  const visibleCards = cards.slice(0, NEWSLOG_VISIBLE).join('');
-  const restCards = cards.slice(NEWSLOG_VISIBLE).join('');
-  const entries = visibleCards + (restCards ? `<details style="margin-top:6px;"><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${cards.length - NEWSLOG_VISIBLE}건 더 보기</summary>${restCards}</details>` : '');
+  };
+  // 2026-09-01 변경(사용자 요청): "최신 N건" 개수 기준 대신 "최근 7일" 날짜 기준으로 기본 노출을
+  // 나눔 - 오래된 뉴스가 메인 화면을 채우는 게 불편하다는 피드백. 최근 7일 안에 아무 것도 없으면
+  // (그 종목/시장에 최근 소식이 없었던 정상적인 경우) 화면이 텅 비어 보이지 않게 가장 최근 1건만
+  // 예외적으로 기본 노출.
+  const NEWSLOG_RECENT_DAYS = 7;
+  const sorted = [...log].sort((a,b)=> a.date < b.date ? 1 : -1);
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - NEWSLOG_RECENT_DAYS);
+  const cutoffStr = cutoff.toISOString().slice(0,10);
+  let recentEntries = sorted.filter(e => (e.date||'') >= cutoffStr);
+  let olderEntries = sorted.filter(e => (e.date||'') < cutoffStr);
+  if(!recentEntries.length && sorted.length){
+    recentEntries = sorted.slice(0, 1);
+    olderEntries = sorted.slice(1);
+  }
+  const visibleCards = recentEntries.map(renderCard).join('');
+  const restCards = olderEntries.map(renderCard).join('');
+  const moreLabel = olderEntries.length ? `${olderEntries.length}건 더 보기 (${NEWSLOG_RECENT_DAYS}일 이전 뉴스)` : '';
+  const entries = visibleCards + (restCards ? `<details style="margin-top:6px;"><summary style="cursor:pointer;color:var(--sub);font-size:11.5px;padding:4px 0;">${moreLabel}</summary>${restCards}</details>` : '');
   return `
     <div class="chart-label" style="margin-top:0;">${esc(label||ticker)} - 중요 뉴스 해석 (실험적) ${hintIcon('newsLog')}</div>
-    <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다. 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard의 필드 구성과 카드 디자인을 참고해 이식했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
+    <div class="sub" style="margin-bottom:6px;">실적과 무관하게 이 종목에 중요할 수 있는 개별 뉴스(감원·신용등급·대형 계약 등)가 나왔을 때 조사해서 정리한 기록이에요. <b>날짜순으로 계속 쌓아가는 로그</b>라 오래된 항목도 안 지웁니다(최근 7일치만 기본으로 펼쳐 보이고, 그 이전 것은 "더 보기"에 접어둬요). 자동 생성 아니고 Claude가 뉴스를 조사해서 씀(2026-08-19부터 gpt_dashboard의 필드 구성과 카드 디자인을 참고해 이식했지만, 자동 호출은 여전히 안 함) - 출처가 있는 항목만 신뢰도를 높게 보고, '왜 중요한가'·해석은 Claude의 판단이라 다르게 볼 여지가 있어요.</div>
     ${entries}`;
 }
 
