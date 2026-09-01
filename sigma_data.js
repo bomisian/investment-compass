@@ -483,7 +483,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "ARM": {
     "ticker": "ARM",
@@ -517,7 +517,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "MRVL": {
     "ticker": "MRVL",
@@ -647,7 +647,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "AMAT": {
     "ticker": "AMAT",
@@ -681,7 +681,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "LRCX": {
     "ticker": "LRCX",
@@ -715,7 +715,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "KLAC": {
     "ticker": "KLAC",
@@ -845,7 +845,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "ANET": {
     "ticker": "ANET",
@@ -879,7 +879,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "COHR": {
     "ticker": "COHR",
@@ -945,7 +945,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "GEV": {
     "ticker": "GEV",
@@ -979,7 +979,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "CEG": {
     "ticker": "CEG",
@@ -1013,7 +1013,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "VST": {
     "ticker": "VST",
@@ -1079,11 +1079,11 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "PWR": {
     "ticker": "PWR",
-    "currentPrice": 603.969970703125,
+    "currentPrice": 607.0900268554688,
     "anchorPrice": 621.8300170898438,
     "anchorDate": "2026-08-27",
     "impliedVolatility": null,
@@ -1110,8 +1110,8 @@ const SIGMA_DATA = {
     "lower2Sigma": null,
     "upper2Sigma": null,
     "unavailableReason": "옵션 IV 품질 기준 미충족",
-    "_fetched_at": 1788250707.5002694,
-    "_updated_label": "2026-09-01 17:18"
+    "_fetched_at": 1788266036.400867,
+    "_updated_label": "2026-09-01 21:33"
   },
   "HUBB": {
     "ticker": "HUBB",
@@ -1177,11 +1177,11 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "MOD": {
     "ticker": "MOD",
-    "currentPrice": 176.57000732421875,
+    "currentPrice": 178.42999267578125,
     "anchorPrice": 186.30999755859375,
     "anchorDate": "2026-08-27",
     "impliedVolatility": null,
@@ -1208,8 +1208,8 @@ const SIGMA_DATA = {
     "lower2Sigma": null,
     "upper2Sigma": null,
     "unavailableReason": "옵션 IV 품질 기준 미충족",
-    "_fetched_at": 1788250707.5002694,
-    "_updated_label": "2026-09-01 17:18"
+    "_fetched_at": 1788266036.400867,
+    "_updated_label": "2026-09-01 21:33"
   },
   "STX": {
     "ticker": "STX",
@@ -1243,11 +1243,11 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788189291.0682118,
-    "_updated_label": "2026-09-01 21:02"
+    "_updated_label": "2026-09-01 21:33"
   },
   "EME": {
     "ticker": "EME",
-    "currentPrice": 736.4000244140625,
+    "currentPrice": 734.5399780273438,
     "anchorPrice": 775.0399780273438,
     "anchorDate": "2026-08-27",
     "impliedVolatility": null,
@@ -1274,12 +1274,12 @@ const SIGMA_DATA = {
     "lower2Sigma": null,
     "upper2Sigma": null,
     "unavailableReason": "옵션 IV 품질 기준 미충족",
-    "_fetched_at": 1788250707.5002694,
-    "_updated_label": "2026-09-01 17:18"
+    "_fetched_at": 1788266036.400867,
+    "_updated_label": "2026-09-01 21:33"
   },
   "FIX": {
     "ticker": "FIX",
-    "currentPrice": 1513.875,
+    "currentPrice": 1545.6199951171875,
     "anchorPrice": 1614.97998046875,
     "anchorDate": "2026-08-27",
     "impliedVolatility": null,
@@ -1306,12 +1306,12 @@ const SIGMA_DATA = {
     "lower2Sigma": null,
     "upper2Sigma": null,
     "unavailableReason": "옵션 IV 품질 기준 미충족",
-    "_fetched_at": 1788250707.5002694,
-    "_updated_label": "2026-09-01 17:18"
+    "_fetched_at": 1788266036.400867,
+    "_updated_label": "2026-09-01 21:33"
   },
   "SBGSY": {
     "ticker": "SBGSY",
-    "currentPrice": 69.01000213623047,
+    "currentPrice": 68.37999725341797,
     "anchorPrice": 69.30999755859375,
     "anchorDate": "2026-08-27",
     "impliedVolatility": null,
@@ -1338,8 +1338,8 @@ const SIGMA_DATA = {
     "lower2Sigma": null,
     "upper2Sigma": null,
     "unavailableReason": "옵션 IV 품질 기준 미충족",
-    "_fetched_at": 1788250707.5002694,
-    "_updated_label": "2026-09-01 17:18"
+    "_fetched_at": 1788266036.400867,
+    "_updated_label": "2026-09-01 21:34"
   },
   "SOXX": {
     "ticker": "SOXX",

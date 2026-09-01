@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788264148.302942,
+  "generatedAt": 1788266010.676366,
   "events": [
     {
       "id": "dbf7d71c4be89e712afe",
@@ -2204,7 +2204,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3530,7 +3530,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=7c7d30418f174dc5e1357c5c66cdfd802fa6c1bb544f2f4c9bd57cf64c09523e",
         "publishedAt": 1787994001,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5726,7 +5726,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=c23072556bdd438138a5dc8e09adda7ebe6e2f3f8ab8da3b1bd9193cefbc1e60",
         "publishedAt": 1787762346,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5866,7 +5866,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5843e33ac4019ea505ee8907510f0d48d5b80a33ceaa9834ce0f9b8f39313c5d",
         "publishedAt": 1787760295,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5933,7 +5933,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=93dce494a1ee0ef31a468fa63cec25d697ba1c20602b08d1e94291c839bae855",
         "publishedAt": 1787760274,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5990,7 +5990,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6127b2d6711f47df6a09a0cfafa495f9a9975431930c4f857262553d154cf2d8",
         "publishedAt": 1787760232,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9274,7 +9274,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=84581a08f723cf3d04c44536d5b4c98e25be44e1169d1b168f91b7e54802dd5b",
         "publishedAt": 1787648908,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9964,6 +9964,76 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "01b3dd3f34c180411af4",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "CEG",
+      "relatedTickers": [
+        "CEG",
+        "QQQ"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Constellation Energy: The Scarcity Platform The Market Still Underestimates",
+      "headlineKo": "별자리 에너지: 시장이 여전히 과소평가하는 희소성 플랫폼",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d9c8a673bed5493b70572e5e71c7b7124b9b0791b095b3ecf2f74ac16a0468f5",
+        "publishedAt": 1787638204,
+        "collectedAt": 1788265975.4576845
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Constellation Energy: 시장이 여전히 과소평가하고 있는 희소성 플랫폼(NASDAQ:CEG) | 알파 단순 투자 아이디어 찾기 팔로워 10.95K 팔로우 요약 Constellation Energy는 타의 추종을 불허하는 원자력 및 가스 포트폴리오를 활용하여 수익 창출",
+        "CEG의 최근 Calpine 인수는 유연성을 향상시켜 깨끗하고 안정적인 전력 제공을 가능하게 하고 데이터 센터 수요가 급증하는 가운데 회사를 희소 플랫폼으로 자리매김했습니다.",
+        "경영진은 상업적 성과, 포트폴리오 최적화 및 적극적인 주식 환매를 주요 동인으로 언급하면서 2026년 조정 EPS 지침을 $11.50~$12.50으로 인상했습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $11.50, $12.50, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $11.50, $12.50, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CEG",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
       ]
     },
     {
@@ -11468,7 +11538,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d3bde0ff5073e01d5f7d622876a639af648b59960068b47f82b6e23556dfc694",
         "publishedAt": 1787570681,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12380,7 +12450,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=964704da21266be3695b7c7deb14b248b8e9c36dff799db06d6b685a5281c177",
         "publishedAt": 1787552629,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12890,7 +12960,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=8755df82a5e210604513df2d3bd41dec04f1c2e9507c540f608e4aa30de4f20a",
         "publishedAt": 1787504231,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15650,7 +15720,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e1d5fa24a1b5d9aae612b93d57781a8f53af8ce1888ad84da28487ab921cbb64",
         "publishedAt": 1787378897,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16052,7 +16122,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6ea1b2100a38d7a49a7bdb4e6a2dfa06eaba295f18ed95892b4ec945feb3a97f",
         "publishedAt": 1787361159,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17068,7 +17138,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=00b00095b875a42cfd5f20d67e9a75de9328986f35d84ea949edb3554b8211f2",
         "publishedAt": 1787346101,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17411,7 +17481,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2876384c9734f40acf96fd7aaed4b67835f5b432fcb635b39277d0ea72519a13",
         "publishedAt": 1787332963,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17485,7 +17555,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7a383cf6c858fe6b544498740da05ca612f2223839c5f083b53b7ba5945e8a11",
         "publishedAt": 1787332228,
-        "collectedAt": 1788243181.6398191
+        "collectedAt": 1788265975.4576845
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17653,100 +17723,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "665b5eae3853597a3de7",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "AMD",
-        "MU",
-        "NVDA",
-        "ORCL",
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Did Citadel’s $4 Billion AI Stock Selloff Weigh On MU, SNDK, NBIS?",
-      "headlineKo": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
-        "publishedAt": 1787324763,
-        "collectedAt": 1788262111.7157164
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 MU의 사업과 관련된 'Did Citadel’s $4 Billion AI Stock Selloff Weigh On MU, SNDK, NBIS?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -17844,6 +17820,7 @@ const EVENT_DATA = {
       "b3e1fca489b98b4a35c2",
       "872daef07ddeb7981bf6",
       "295a689d887a49c7dee4",
+      "01b3dd3f34c180411af4",
       "0249ab7077282660f38b",
       "0dd95fd7ab7e7dd009c0",
       "0b1a1e816c0c815b0943",
@@ -17938,8 +17915,7 @@ const EVENT_DATA = {
       "f1aba2e05fae72dfee11",
       "059dbce5349413805718",
       "0abf33c8d25f43db2c65",
-      "a77fc753c36ea4948e8f",
-      "665b5eae3853597a3de7"
+      "a77fc753c36ea4948e8f"
     ],
     "AVGO": [
       "66d71c864af7e9b41e56",
@@ -17984,8 +17960,7 @@ const EVENT_DATA = {
       "74946ea31bacb6a4754a",
       "e1cd0b773c16bd61ff1e",
       "26717142aa8ae30255d9",
-      "e637620d54da6a921336",
-      "665b5eae3853597a3de7"
+      "e637620d54da6a921336"
     ],
     "MRVL": [
       "af16bde21a9de5d05b27",
@@ -18048,8 +18023,7 @@ const EVENT_DATA = {
       "e1cd0b773c16bd61ff1e",
       "26717142aa8ae30255d9",
       "9274222bc6f4a3cf53cd",
-      "c4ed8baad3ca4c9f2d3a",
-      "665b5eae3853597a3de7"
+      "c4ed8baad3ca4c9f2d3a"
     ],
     "AMZN": [
       "f4db1be0e6cff3f47d76",
@@ -18097,8 +18071,7 @@ const EVENT_DATA = {
       "ebe3bdd6a9b14f168509",
       "f1aba2e05fae72dfee11",
       "0abf33c8d25f43db2c65",
-      "be381641c3e536144ba3",
-      "665b5eae3853597a3de7"
+      "be381641c3e536144ba3"
     ],
     "INTC": [
       "c2ebf782b459946b819a",
@@ -18272,12 +18245,14 @@ const EVENT_DATA = {
       "74946ea31bacb6a4754a",
       "e1cd0b773c16bd61ff1e",
       "c4ed8baad3ca4c9f2d3a",
-      "bfcd2882d00edbef5782",
-      "665b5eae3853597a3de7"
+      "bfcd2882d00edbef5782"
     ],
     "VST": [
       "0a08530127a14e920458",
       "58f9bb5887f9e21b3ab0"
+    ],
+    "CEG": [
+      "01b3dd3f34c180411af4"
     ],
     "FIX": [
       "ec2be997df85cf7de347"

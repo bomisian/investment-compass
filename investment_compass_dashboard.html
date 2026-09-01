@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>투자 나침반 · 종목 분석 대시보드</title>
+<!-- 2026-09-01 추가: 홈 화면에 앱처럼 설치할 수 있게 매니페스트·아이콘 연결(사용자 요청) -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#121e36">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="투자 나침반">
 <style>
   :root{
     --bg:#f5f4f0;
@@ -1777,7 +1786,7 @@ function loadScanCache(){
     return null;
   }
 }
-function restoreFromScanCache(cache){
+function restoreFromScanCache(cache, willRefresh){
   results = cache.results;
   marketEnv = cache.marketEnv;
   renderAnomalyBanner();
@@ -1785,8 +1794,11 @@ function restoreFromScanCache(cache){
   renderThemeFilter();
   renderTable();
   renderHoldings();
+  const suffix = willRefresh
+    ? ' (저장된 화면 · 새로 불러오는 중...)'
+    : ' (저장된 화면 · 30분 이내라 자동 재조회 생략 - 새로고침하려면 「전체 스캔 실행」을 누르세요)';
   document.getElementById('updatedAt').textContent =
-    '마지막 체크: ' + new Date(cache.ts).toLocaleString('ko-KR') + ' (저장된 화면 · 새로 불러오는 중...)';
+    '마지막 체크: ' + new Date(cache.ts).toLocaleString('ko-KR') + suffix;
 }
 
 async function scanAll(){
@@ -5954,8 +5966,10 @@ if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 // 재진입 시 "조회 중..."부터 다시 기다리지 않게), 그 뒤에도 scanAll()은 항상 그대로 실행해서
 // 최신 데이터로 조용히 갱신함 - 신선도·계산 방식은 기존과 동일, 체감 대기시간만 없앤 것.
 const _scanCache = loadScanCache();
-if(_scanCache) restoreFromScanCache(_scanCache);
-scanAll();
+const SCAN_CACHE_FRESH_MS = 30 * 60 * 1000; // 2026-09-01: 사용자 요청 - 30분 이내면 자동 재조회 생략
+const _scanCacheIsFresh = !!(_scanCache && (Date.now() - _scanCache.ts) < SCAN_CACHE_FRESH_MS);
+if(_scanCache) restoreFromScanCache(_scanCache, !_scanCacheIsFresh);
+if(!_scanCacheIsFresh) scanAll();
 </script>
 </body>
 </html>

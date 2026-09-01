@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788264148.378939,
+  "generatedAt": 1788266010.7266803,
   "records": {
     "MSFT": [
       {
@@ -4445,6 +4445,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1788266010.7266803,
+        "dataAsOf": 1788198351,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.55,
+            "after": 4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.45,
+            "after": 2.1
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia: 이 요새는 감정의 폭풍을 견딜 수 있습니다",
+        "newsUrl": "https://finnhub.io/api/news?id=8ebab418c29d8b95bd9d4fbaa3f279658429e6b5908b4d304bc969b388b9c729",
+        "eventId": "1c80bb1458e82f446d2b",
+        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.1, \"before\": 2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1c80bb1458e82f446d2b\"}"
+      },
       {
         "changedAt": 1788262225.5814428,
         "dataAsOf": 1788198351,
@@ -9484,6 +9507,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "SNDK": [
+      {
+        "changedAt": 1788266010.7266803,
+        "dataAsOf": 1787727600,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.23,
+            "after": 0.88
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -1.22
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "SNXX: Sandisk의 회복에 대한 레버리지 노출 그러나 단기 변동성으로 인해 주의가 요구됨",
+        "newsUrl": "https://finnhub.io/api/news?id=2655b5499832086dd089e5178af7978d49bb40a69b0518d9322e793fbb21256c",
+        "eventId": "34ab0e9e5bdac00081c5",
+        "fingerprint": "{\"changes\": [{\"after\": 0.88, \"before\": 1.23, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"34ab0e9e5bdac00081c5\"}"
+      },
       {
         "changedAt": 1788262225.5814428,
         "dataAsOf": 1787727600,

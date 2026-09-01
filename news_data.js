@@ -4518,7 +4518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -7088,7 +7088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -9276,7 +9276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -11285,7 +11285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -13952,7 +13952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -14880,7 +14880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -17206,7 +17206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -20003,7 +20003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -22480,7 +22480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -25010,7 +25010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -27055,7 +27055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -28571,7 +28571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -29663,7 +29663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -31115,7 +31115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -33251,7 +33251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -34830,7 +34830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -34888,7 +34888,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243188.012906
+          "analysisUpdatedAt": 1788265978.603387
         },
         "headlineKo": "Argus Research, Salesforce 매수 유지, 목표 가격 300달러로 인상"
       },
@@ -34936,7 +34936,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243189.1355898
+          "analysisUpdatedAt": 1788265979.7268987
         },
         "headlineKo": "이번 주 투자자들의 관심이 끊이지 않는 5가지 주식: NVDA, MRVL, CRM 등"
       },
@@ -34998,7 +34998,7 @@ const NEWS_DATA = {
             "It's not models Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points Salesforce's recent blowout earnings show why the balance of power may be shifting away from fro",
             "This is Economics 101: When an input becomes abundant and cheap, value migrates to its scarce complements."
           ],
-          "analysisUpdatedAt": 1788243193.1930332
+          "analysisUpdatedAt": 1788265982.6861491
         },
         "headlineKo": "논평: Salesforce가 방금 AI의 다음 전장을 공개했습니다. 이는 모델이 아닙니다."
       },
@@ -35064,7 +35064,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243188.012906
+          "analysisUpdatedAt": 1788265978.603387
         }
       },
       {
@@ -35112,7 +35112,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243189.1355898
+          "analysisUpdatedAt": 1788265979.7268987
         }
       },
       {
@@ -35174,7 +35174,7 @@ const NEWS_DATA = {
             "It's not models Skip Navigation Markets Business Investing Tech Politics & Policy Video Watchlist Investing Club PRO Livestream Menu Key Points Salesforce's recent blowout earnings show why the balance of power may be shifting away from fro",
             "This is Economics 101: When an input becomes abundant and cheap, value migrates to its scarce complements."
           ],
-          "analysisUpdatedAt": 1788243193.1930332
+          "analysisUpdatedAt": 1788265982.6861491
         }
       },
       {
@@ -36543,17 +36543,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788243181.6398191,
-    "_updated_label": "2026-09-01 15:13",
+    "_fetched_at": 1788265975.4576845,
+    "_updated_label": "2026-09-01 21:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
-    "_last_attempt_at": 1788243181.6398191,
+    "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
-    "_last_success_at": 1788243181.6398191,
+    "_last_success_at": 1788265975.4576845,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -37994,7 +37994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -39040,7 +39040,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -39099,7 +39099,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243202.2222936
+          "analysisUpdatedAt": 1788265986.7948542
         },
         "headlineKo": "목요일에 Arm 주식이 급등하는 이유는 무엇입니까?"
       },
@@ -39147,7 +39147,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243203.2800837
+          "analysisUpdatedAt": 1788265987.8535247
         },
         "headlineKo": "Arm Holdings(ARM) 주식이 영업시간 이후 추세를 보이는 이유"
       },
@@ -39195,7 +39195,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243205.620876
+          "analysisUpdatedAt": 1788265990.200157
         },
         "headlineKo": "Arm(ARM) 주식은 AI 발전 후에도 적정 가치 이상으로 보입니다."
       }
@@ -39246,7 +39246,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243202.2222936
+          "analysisUpdatedAt": 1788265986.7948542
         }
       },
       {
@@ -39294,7 +39294,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243203.2800837
+          "analysisUpdatedAt": 1788265987.8535247
         }
       },
       {
@@ -39342,7 +39342,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243205.620876
+          "analysisUpdatedAt": 1788265990.200157
         }
       },
       {
@@ -39821,17 +39821,17 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1788243181.6398191,
-    "_updated_label": "2026-09-01 15:13",
+    "_fetched_at": 1788265975.4576845,
+    "_updated_label": "2026-09-01 21:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
-    "_last_attempt_at": 1788243181.6398191,
+    "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
-    "_last_success_at": 1788243181.6398191,
+    "_last_success_at": 1788265975.4576845,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -42433,7 +42433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -43377,7 +43377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44446,7 +44446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -45491,7 +45491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -47781,7 +47781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -48850,7 +48850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788246948.9262547,
     "_earnings_status": "ok",
@@ -49620,7 +49620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -50243,7 +50243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51118,7 +51118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -52219,7 +52219,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -52242,22 +52242,24 @@ const NEWS_DATA = {
         "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy: The Scarcity Platform The Market Still Underestimates",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Constellation Energy: 시장이 여전히 과소평가하고 있는 희소성 플랫폼(NASDAQ:CEG) | 알파 단순 투자 아이디어 찾기 팔로워 10.95K 팔로우 요약 Constellation Energy는 타의 추종을 불허하는 원자력 및 가스 포트폴리오를 활용하여 수익 창출",
+            "CEG의 최근 Calpine 인수는 유연성을 향상시켜 깨끗하고 안정적인 전력 제공을 가능하게 하고 데이터 센터 수요가 급증하는 가운데 회사를 희소 플랫폼으로 자리매김했습니다.",
+            "경영진은 상업적 성과, 포트폴리오 최적화 및 적극적인 주식 환매를 주요 동인으로 언급하면서 2026년 조정 EPS 지침을 $11.50~$12.50으로 인상했습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $11.50, $12.50, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -52267,18 +52269,24 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation Energy: The Scarcity Platform The Market Still Underestimates' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243209.6833644
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$11.50",
+            "$12.50,"
+          ],
+          "sourceExcerpt": [
+            "Constellation Energy: The Scarcity Platform The Market Still Underestimates (NASDAQ:CEG) | Seeking Alpha Simple Investment Ideas 10.95K Followers Follow Summary Constellation Energy leverages its unmatched nuclear and gas portfolio to monet",
+            "CEG’s recent Calpine acquisition enhances flexibility, enabling clean-and-firm power offerings and positioning the company as a scarcity platform amid surging data center demand.",
+            "Management raised 2026 adjusted EPS guidance to $11.50–$12.50, citing commercial outperformance, portfolio optimization, and accretive share repurchases as key drivers."
+          ],
+          "analysisUpdatedAt": 1788265999.0761025
         },
         "headlineKo": "별자리 에너지: 시장이 여전히 과소평가하는 희소성 플랫폼"
       },
@@ -52326,7 +52334,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243210.7752168
+          "analysisUpdatedAt": 1788266000.3027756
         },
         "headlineKo": "2033년까지 수요가 1,100% 급증할 것으로 예상되는 AI의 다음 병목 현상은 칩이 아니라 전력입니다: CEG, VST, GEV 재고가 집중되는 이유"
       }
@@ -52341,22 +52349,24 @@ const NEWS_DATA = {
         "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy: The Scarcity Platform The Market Still Underestimates",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Constellation Energy: 시장이 여전히 과소평가하고 있는 희소성 플랫폼(NASDAQ:CEG) | 알파 단순 투자 아이디어 찾기 팔로워 10.95K 팔로우 요약 Constellation Energy는 타의 추종을 불허하는 원자력 및 가스 포트폴리오를 활용하여 수익 창출",
+            "CEG의 최근 Calpine 인수는 유연성을 향상시켜 깨끗하고 안정적인 전력 제공을 가능하게 하고 데이터 센터 수요가 급증하는 가운데 회사를 희소 플랫폼으로 자리매김했습니다.",
+            "경영진은 상업적 성과, 포트폴리오 최적화 및 적극적인 주식 환매를 주요 동인으로 언급하면서 2026년 조정 EPS 지침을 $11.50~$12.50으로 인상했습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $11.50, $12.50, — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -52366,18 +52376,24 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation Energy: The Scarcity Platform The Market Still Underestimates' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243209.6833644
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$11.50",
+            "$12.50,"
+          ],
+          "sourceExcerpt": [
+            "Constellation Energy: The Scarcity Platform The Market Still Underestimates (NASDAQ:CEG) | Seeking Alpha Simple Investment Ideas 10.95K Followers Follow Summary Constellation Energy leverages its unmatched nuclear and gas portfolio to monet",
+            "CEG’s recent Calpine acquisition enhances flexibility, enabling clean-and-firm power offerings and positioning the company as a scarcity platform amid surging data center demand.",
+            "Management raised 2026 adjusted EPS guidance to $11.50–$12.50, citing commercial outperformance, portfolio optimization, and accretive share repurchases as key drivers."
+          ],
+          "analysisUpdatedAt": 1788265999.0761025
         }
       },
       {
@@ -52425,7 +52441,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788243210.7752168
+          "analysisUpdatedAt": 1788266000.3027756
         }
       },
       {
@@ -52810,17 +52826,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788243181.6398191,
-    "_updated_label": "2026-09-01 15:13",
+    "_fetched_at": 1788265975.4576845,
+    "_updated_label": "2026-09-01 21:33",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
-    "_last_attempt_at": 1788243181.6398191,
+    "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
-    "_last_success_at": 1788243181.6398191,
+    "_last_success_at": 1788265975.4576845,
     "_collection_status": "ok"
   },
   "VST": {
@@ -53708,7 +53724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -54186,7 +54202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -54922,7 +54938,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -55345,9 +55361,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
-    "_last_attempt_at": 1788264138.9893644,
+    "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
     "_last_success_at": 1788187127.1446443,
     "_collection_status": "empty",
@@ -56184,7 +56200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -56564,7 +56580,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -57387,7 +57403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -57847,7 +57863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -58589,7 +58605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -58709,16 +58725,16 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     },
-    "_last_attempt_at": 1788264138.9893644,
+    "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
     "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
-    "_last_attempt_at": 1788264138.9893644,
+    "_last_attempt_at": 1788265975.4576845,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -58734,7 +58750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-09-01 21:02"
+      "updated": "2026-09-01 21:33"
     }
   }
 };
