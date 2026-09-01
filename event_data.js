@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788290508.2841294,
+  "generatedAt": 1788292374.7509828,
   "events": [
     {
       "id": "fdeb3e7e178fa0122308",
@@ -6917,6 +6917,77 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "6a25fc0177566499b6f0",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "WDC",
+      "relatedTickers": [
+        "QQQ",
+        "SPY",
+        "WDC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
+      "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
+        "publishedAt": 1787947276,
+        "collectedAt": 1788292355.855579
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Western Digital은 한 달 만에 13% 하락했습니다.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.21% S&P 500 7,633.40 −0.79% 다우존스 52,741.20 −0.93% 나스닥 100 29,096.80 −1.30% 러셀 2000 2,920.62 −1.",
+        "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.79%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.79%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "WDC",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
       "id": "fade39562bf3866d7b1b",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -7961,7 +8032,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=6f860c69843e52ad3fd24fe83b893eb42235aeb8ebaf9fd104dc1fc39deb1d6b",
         "publishedAt": 1787916676,
-        "collectedAt": 1788269711.1669924
+        "collectedAt": 1788292355.855579
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17509,82 +17580,6 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "4e8a36c484ff5a8144b8",
-      "schemaVersion": 1,
-      "eventType": "supply_chain",
-      "eventLabel": "공급망 문제",
-      "primaryTicker": "MU",
-      "relatedTickers": [
-        "INTC",
-        "MU",
-        "SNDK",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Micron vs. Sandisk: Which AI Memory Stock Should You Own?",
-      "headlineKo": "마이크론 vs. 샌디스크: 어떤 AI 메모리 스톡을 소유해야 할까요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a9f95a3ddc0f438beae6bdd8d5b0aef37b17bfc7403c2ad950068d215fca7ce1",
-        "publishedAt": 1787480100,
-        "collectedAt": 1788284700.8295999
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Sandisk: Which AI Memory Stock Should You Own?",
-        "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-        "Help Right now, there are two companies dominating the artificial intelligence (AI) memory discussion: Micron Technology ( MU -0.78% ) and Sandisk ( SNDK -0.28% ) ."
-      ],
-      "marketInterpretation": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MU에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
-        "MU의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MU",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "출하 지연 기간",
-        "재고와 리드타임",
-        "매출총이익률·대체 공급처"
-      ]
     }
   ],
   "byTicker": {
@@ -17700,6 +17695,7 @@ const EVENT_DATA = {
       "6fbd8d2e9fe0aacfe32b",
       "bab21abe6ae97cb68c3f",
       "5e217d76ddc07191ed5e",
+      "6a25fc0177566499b6f0",
       "978f127c1dcf179ad905",
       "a264c284da021e873ae7",
       "e520364f3c81789d511e",
@@ -17739,6 +17735,7 @@ const EVENT_DATA = {
       "75d85a8ee8467de30817",
       "b5651f804f3e6ea92fb5",
       "6fbd8d2e9fe0aacfe32b",
+      "6a25fc0177566499b6f0",
       "978f127c1dcf179ad905",
       "c382bb283b1aec06330c",
       "295a689d887a49c7dee4",
@@ -17750,8 +17747,7 @@ const EVENT_DATA = {
       "9a55c2b362d82cd124ea",
       "beefc36403b252c131be",
       "5e07841cef5fe94c78c3",
-      "d37c9afcd2168102b35a",
-      "4e8a36c484ff5a8144b8"
+      "d37c9afcd2168102b35a"
     ],
     "TSLA": [
       "8069e5fb8e0254ebc970",
@@ -17797,8 +17793,7 @@ const EVENT_DATA = {
       "bba999504e7424e5898b",
       "993b64250ade9b6d8981",
       "9174a0a66e4be50f4cbf",
-      "5f8be2a7ad25578f86cb",
-      "4e8a36c484ff5a8144b8"
+      "5f8be2a7ad25578f86cb"
     ],
     "ORCL": [
       "e144c536c0f8e5ffcefa",
@@ -17912,8 +17907,7 @@ const EVENT_DATA = {
       "d9e99302e869cf72fd20",
       "a907a46054bff96b5f17",
       "9a55c2b362d82cd124ea",
-      "d37c9afcd2168102b35a",
-      "4e8a36c484ff5a8144b8"
+      "d37c9afcd2168102b35a"
     ],
     "META": [
       "4d1c3fad725d3697dcbe",
@@ -18032,8 +18026,7 @@ const EVENT_DATA = {
       "986500052a65c604ca3e",
       "4a66df5c89e1f7d527ae",
       "ac69fd63efdf9046e805",
-      "27290a3b3124c8571445",
-      "4e8a36c484ff5a8144b8"
+      "27290a3b3124c8571445"
     ],
     "QCOM": [
       "f68478e0f50e9a3f9ea9",
@@ -18090,6 +18083,7 @@ const EVENT_DATA = {
       "bf0d91ba0f34aa862a60"
     ],
     "WDC": [
+      "6a25fc0177566499b6f0",
       "76ddf5fd1219db52812b",
       "701badfc640c40d23ccc"
     ],

@@ -4686,7 +4686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -7256,7 +7256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788271225.9803956,
     "_earnings_status": "ok",
@@ -9472,7 +9472,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -11670,7 +11670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -14522,7 +14522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -15450,7 +15450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -17977,7 +17977,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -20934,7 +20934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -23623,7 +23623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -26361,7 +26361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -28621,7 +28621,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -30321,7 +30321,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -31433,7 +31433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788271225.9803956,
     "_earnings_status": "ok",
@@ -32995,7 +32995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -35208,7 +35208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -36942,7 +36942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -38824,7 +38824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -40424,7 +40424,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -41733,7 +41733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -42732,7 +42732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -45526,7 +45526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -46588,7 +46588,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -47711,7 +47711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -48905,7 +48905,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -51383,7 +51383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -51398,6 +51398,116 @@ const NEWS_DATA = {
       "revenueEstimate": 4162115363
     },
     "news": [
+      {
+        "headline": "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d879218991c0ad5b32baecada77de7a82a53d238ea662c5b6956f3620abe3ab1",
+        "datetime": 1788059758,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788292360.751584
+        },
+        "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
+      },
+      {
+        "headline": "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
+        "datetime": 1787947276,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital은 한 달 만에 13% 하락했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.21% S&P 500 7,633.40 −0.79% 다우존스 52,741.20 −0.93% 나스닥 100 29,096.80 −1.30% 러셀 2000 2,920.62 −1.",
+            "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.79%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "13%",
+            "0.79%",
+            "0.93%",
+            "1.30%",
+            "1.21%",
+            "168%",
+            "$465.32",
+            "16%"
+          ],
+          "sourceExcerpt": [
+            "Western Digital Just Dropped 13% in a Month.",
+            "Skip to content ❚❚ At close S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.21% S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.",
+            "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
+          ],
+          "analysisUpdatedAt": 1788292366.1851363
+        },
+        "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
+      },
       {
         "headline": "Western Digital (NASDAQ:WDC) Clears All Eight Growth Screens with Accelerating Earnings and Margins",
         "source": "ChartMill",
@@ -51441,7 +51551,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788269714.3470447
+          "analysisUpdatedAt": 1788292367.7784142
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -51451,54 +51561,25 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d31d32ede9b71597578a6c47c61a165891499f53f5a3c00e5979c76b43d0393e",
         "datetime": 1787911728,
         "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'New Tech Tariff Uncertainty Puts Spotlight On Western Digital' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788269716.0107017
-        },
         "headlineKo": "새로운 기술 관세 불확실성으로 웨스턴 디지털이 주목받다"
       },
       {
-        "headline": "What's Going on With Western Digital Stock on Wednesday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0db5b73e7b3b3cdab319f31d8ed9c5e1bdcc0fb8cc121f9dd26fe72093c7afcc",
-        "datetime": 1787740255,
+        "headline": "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5a874a5685ad2a2bbd8d19822653d69c8968dc924f2e14535c8046a643a34a93",
+        "datetime": 1787904900,
         "relevance": 0.67,
+        "headlineKo": "Zacks 산업 전망 Western Digital, Sandisk 및 Super Micro Computer"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d879218991c0ad5b32baecada77de7a82a53d238ea662c5b6956f3620abe3ab1",
+        "datetime": 1788059758,
+        "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?",
+        "relevance": 1,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -51507,7 +51588,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What's Going on With Western Digital Stock on Wednesday?",
+            "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -51531,34 +51612,77 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'What's Going on With Western Digital Stock on Wednesday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788269717.118723
-        },
-        "headlineKo": "수요일에 Western Digital 주식에 무슨 일이 일어나고 있나요?"
+          "analysisUpdatedAt": 1788292360.751584
+        }
       },
       {
-        "headline": "What's Going On With Western Digital Stock Tuesday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=165194638c39b0b9f521a9f7daae819b5c122a5ce132eec43a465a79775a1e5e",
-        "datetime": 1787647108,
+        "headline": "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
+        "datetime": 1787947276,
+        "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?",
         "relevance": 0.67,
-        "headlineKo": "웨스턴 디지털 주식 화요일에는 무슨 일이 일어나고 있나요?"
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital은 한 달 만에 13% 하락했습니다.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.21% S&P 500 7,633.40 −0.79% 다우존스 52,741.20 −0.93% 나스닥 100 29,096.80 −1.30% 러셀 2000 2,920.62 −1.",
+            "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.79%, 0.93% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "13%",
+            "0.79%",
+            "0.93%",
+            "1.30%",
+            "1.21%",
+            "168%",
+            "$465.32",
+            "16%"
+          ],
+          "sourceExcerpt": [
+            "Western Digital Just Dropped 13% in a Month.",
+            "Skip to content ❚❚ At close S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.21% S&P 500 7,633.40 −0.79% Dow Jones 52,741.20 −0.93% Nasdaq 100 29,096.80 −1.30% Russell 2000 2,920.62 −1.",
+            "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
+          ],
+          "analysisUpdatedAt": 1788292366.1851363
+        }
       },
-      {
-        "headline": "Western Digital: Time To Jump In Before Beast Mode Arrives Again",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c72c61ce04ea31b071a3184cfbc25843550a08eb08495e6a3dc4031bd828ef5f",
-        "datetime": 1787586513,
-        "relevance": 0.67,
-        "headlineKo": "웨스턴 디지털: 비스트 모드가 다시 등장하기 전에 뛰어들 시간"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Western Digital (NASDAQ:WDC) Clears All Eight Growth Screens with Accelerating Earnings and Margins",
         "source": "ChartMill",
@@ -51603,7 +51727,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788269714.3470447
+          "analysisUpdatedAt": 1788292367.7784142
         }
       },
       {
@@ -51653,6 +51777,14 @@ const NEWS_DATA = {
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788269716.0107017
         }
+      },
+      {
+        "headline": "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5a874a5685ad2a2bbd8d19822653d69c8968dc924f2e14535c8046a643a34a93",
+        "datetime": 1787904900,
+        "headlineKo": "Zacks 산업 전망 Western Digital, Sandisk 및 Super Micro Computer",
+        "relevance": 0.67
       },
       {
         "headline": "What's Going on With Western Digital Stock on Wednesday?",
@@ -52446,17 +52578,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788269711.1669924,
-    "_updated_label": "2026-09-01 22:35",
+    "_fetched_at": 1788292355.855579,
+    "_updated_label": "2026-09-02 04:52",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 32,
+      "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
-    "_last_attempt_at": 1788269711.1669924,
+    "_last_attempt_at": 1788292355.855579,
     "_earnings_status": "ok",
-    "_last_success_at": 1788269711.1669924,
+    "_last_success_at": 1788292355.855579,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -53431,7 +53563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -54346,7 +54478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -55382,7 +55514,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -56699,7 +56831,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -57556,7 +57688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -58655,7 +58787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -59498,7 +59630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -60359,7 +60491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -60950,7 +61082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788274826.2408864,
     "_earnings_status": "ok",
@@ -61996,7 +62128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -62376,7 +62508,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -63378,7 +63510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -64109,7 +64241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -65009,7 +65141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -65129,9 +65261,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
-    "_last_attempt_at": 1788290504.2661798,
+    "_last_attempt_at": 1788292355.855579,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -65287,7 +65419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 04:21"
+      "updated": "2026-09-02 04:52"
     },
     "_fetched_at": 1788277200.1036966,
     "_updated_label": "2026-09-02 00:40",
