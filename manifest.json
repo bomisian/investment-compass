@@ -1,0 +1,15 @@
+{
+  "name": "투자 나침반 · 종목 분석 대시보드",
+  "short_name": "투자 나침반",
+  "start_url": "./investment_compass_dashboard.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#121e36",
+  "theme_color": "#121e36",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
