@@ -204,6 +204,11 @@
   .contrib-bar-fill{position:absolute;top:0;bottom:0;border-radius:4px;}
   .contrib-row .pt{text-align:right;font-family:var(--mono);font-weight:700;}
   .comment-box{margin-top:14px;padding:13px 15px;border-radius:12px;font-size:13px;line-height:1.6;}
+  /* 2026-09-01 추가: 종목 상세탭 맨 위 '한눈에 결론' 박스 */
+  .glance-box{margin-bottom:14px;padding:16px 18px;border-radius:14px;border:1.5px solid var(--line);}
+  .glance-box .glance-head{font-size:17px;font-weight:800;margin-bottom:6px;}
+  .glance-box .glance-line{font-size:13px;line-height:1.7;color:var(--text);}
+  .glance-box .glance-warn{margin-top:6px;font-size:12.5px;color:var(--warn);font-weight:700;}
 
   .fund-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
   @media (max-width:700px){ .fund-grid{grid-template-columns:1fr;} }
@@ -2398,6 +2403,49 @@ function whyNowSummaryHtml(r){
     ${lines.map(l=>'· '+esc(l)).join('<br>')}
   </div>`;
 }
+// ============ 한눈에 결론 (2026-09-01 추가) ============
+// [배경] 사용자 요청: "탭 내용이 디테일한 건 좋은데, 결론은 어차피 좋다/괜찮다/우려된다는 거니까
+// 한눈에 들어오게 정리해줬으면" - 01~06 탭에 흩어진 판단(장기점수ㆍ단기신호ㆍ적정가ㆍ뉴스방향성)을
+// 새로 계산하지 않고, 이미 검증돼 화면 각지에서 쓰이는 값(r.verdict.label, r.entryStat,
+// r.fairValue.fwd, getDirectionCheck)을 그대로 가져와 한 문장 헤드라인 + 짧은 이유 몇 줄로 압축해서
+// 01 탭 맨 위에 보여줌. 뉴스가 '우려'면 헤드라인이 좋아도 숨기지 않고 별도 줄로 그대로 보여줌
+// (원칙: 데이터를 숨기지 않고 그대로 보여준 뒤 참고하게 한다 - 메인 화면 종합 추천 카드와 동일 원칙).
+function buildAtAGlanceHtml(r){
+  const label = r.verdict.label; // '강한 매수기회' | '매수 관심' | '관망'
+  const entryStat = r.entryStat || {kind:'none'};
+  const dc = getDirectionCheck(r.ticker);
+  const isRisk = dc && dc.tone==='risk';
+  const fwd = r.fairValue && r.fairValue.fwd;
+  const hasFwd = fwd && fwd.mid!=null;
+  const belowFair = hasFwd && r.price < fwd.mid;
+
+  const TONE = {
+    '강한 매수기회': {bg:'var(--up-bg)', border:'#f3c3bf', color:'#a8322c', head:'📈 지금 좋아 보여요'},
+    '매수 관심':     {bg:'#fdf1ee', border:'#f0c9bd', color:'#b8543f', head:'🙂 나쁘지 않아 보여요'},
+    '관망':          {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'⏸ 아직은 관망이에요'},
+  }[label] || {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'-'};
+
+  const lines = [];
+  lines.push(`장기 점수 <b>${r.score}/5점</b>(${esc(label)})`);
+  if(entryStat.kind==='new') lines.push('오늘 새로운 단기 매수 신호(눌림목)가 떴어요');
+  else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
+  else if(entryStat.kind==='watch') lines.push('단기 매수 신호까진 아니지만 근접해서 지켜볼 만해요');
+  else lines.push('지금은 단기 매수 신호가 없어요');
+  if(hasFwd) lines.push(`계산된 적정가($${fwd.mid.toFixed(0)}) 대비 지금 가격이 <b>${belowFair?'낮은(저평가 쪽)':'높은(고평가 쪽)'}</b> 편이에요`);
+  if(dc && !isRisk) lines.push(`최근 뉴스 체크: <b>${esc(DIR_LABEL[dc.tone]||dc.tone)}</b>`);
+
+  const warnHtml = isRisk
+    ? `<div class="glance-warn">⚠️ 다만 최근 뉴스에 우려되는 부분이 있어요 - <span style="text-decoration:underline;cursor:pointer;" onclick="switchTab('${r.ticker}','06')">06 뉴스 탭에서 확인</span></div>`
+    : '';
+
+  return `<div class="glance-box" style="background:${TONE.bg};border-color:${TONE.border};">
+    <div class="glance-head" style="color:${TONE.color};">${TONE.head}</div>
+    <div class="glance-line">${lines.join(' · ')}</div>
+    ${warnHtml}
+    <div class="sub" style="margin-top:8px;">※ 새 지표가 아니라 아래 자세한 지표들을 요약한 거예요 - 자세한 근거는 그대로 아래에 있어요.</div>
+  </div>`;
+}
+
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -2434,6 +2482,7 @@ function tabJudgement(r){
   }
 
   return `
+    ${buildAtAGlanceHtml(r)}
     ${earningsBadge(r.ticker)}
     ${renderDataAsOf(r)}
     ${renderDataHealth(r)}
