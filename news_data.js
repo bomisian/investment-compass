@@ -4518,7 +4518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -7088,7 +7088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -9276,7 +9276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -11285,7 +11285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -13952,7 +13952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -14880,7 +14880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -17206,7 +17206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -20003,7 +20003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -22480,7 +22480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -25010,7 +25010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -27055,7 +27055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -28571,7 +28571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -29663,7 +29663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -31115,7 +31115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -33251,7 +33251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -34830,7 +34830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -36549,7 +36549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -37994,7 +37994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -38053,7 +38053,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241262.9732842
+          "analysisUpdatedAt": 1788264028.5677977
         },
         "headlineKo": "Qualcomm은 광범위한 시장 부진을 능가합니다: 분석가들은 4분기를 앞두고 데이터 센터 성장을 예상하고 있습니다."
       },
@@ -38101,7 +38101,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241265.607169
+          "analysisUpdatedAt": 1788264029.701355
         },
         "headlineKo": "퀄컴, 휴메인과 호라이즌 울트라 AI PC 출시"
       },
@@ -38113,22 +38113,24 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Qualcomm: 핸드셋 문제 지속 - 2027 회계연도 데이터 센터 변화(NASDAQ:QCOM) | 알파 병치 아이디어 추구 16.15K 팔로워 팔로우 요약 AAPL 감소 및 메모리/스토리지 공급 위기는 2026년 4분기 QCOM의 역풍을 강조합니다.",
+            "이는 2029 회계연도까지 400억 달러에 달하는 QCT 비핸드셋 매출 지침을 기반으로 데이터 센터/자동차 수익화 기회 가속화로 균형을 이룰 수 있습니다.",
+            "성공적인 M&A 노력을 뒷받침하는 다가오는 2027 회계연도 데이터 센터 활용과 함께 QCOM의 다각화 전략이 구체화되고 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $40, 68.9%, $271.30. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -38138,18 +38140,25 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QCOM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241266.4765098
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$40",
+            "68.9%",
+            "$271.30."
+          ],
+          "sourceExcerpt": [
+            "Qualcomm: Handset Pains Persist - Data Center Inflection In FY2027 (NASDAQ:QCOM) | Seeking Alpha Juxtaposed Ideas 16.15K Followers Follow Summary AAPL attrition and the memory/storage supply crunch underscore QCOM's headwinds, with FQ4'26 a",
+            "These may be balanced by the accelerating data center/automotive monetization opportunities, based on the $40B QCT non-handset revenue guidance by FY2029.",
+            "QCOM's diversification strategy is materializing, with the upcoming FY2027 data center inflection underscoring the successful M&A efforts."
+          ],
+          "analysisUpdatedAt": 1788264034.9405916
         },
         "headlineKo": "Qualcomm: 핸드셋 통증 지속 - 2027 회계연도 데이터 센터 굴절"
       },
@@ -38216,7 +38225,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241262.9732842
+          "analysisUpdatedAt": 1788264028.5677977
         }
       },
       {
@@ -38264,7 +38273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241265.607169
+          "analysisUpdatedAt": 1788264029.701355
         }
       },
       {
@@ -38276,22 +38285,24 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Qualcomm: 핸드셋 문제 지속 - 2027 회계연도 데이터 센터 변화(NASDAQ:QCOM) | 알파 병치 아이디어 추구 16.15K 팔로워 팔로우 요약 AAPL 감소 및 메모리/스토리지 공급 위기는 2026년 4분기 QCOM의 역풍을 강조합니다.",
+            "이는 2029 회계연도까지 400억 달러에 달하는 QCT 비핸드셋 매출 지침을 기반으로 데이터 센터/자동차 수익화 기회 가속화로 균형을 이룰 수 있습니다.",
+            "성공적인 M&A 노력을 뒷받침하는 다가오는 2027 회계연도 데이터 센터 활용과 함께 QCOM의 다각화 전략이 구체화되고 있습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $40, 68.9%, $271.30. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -38301,18 +38312,25 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "QCOM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241266.4765098
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$40",
+            "68.9%",
+            "$271.30."
+          ],
+          "sourceExcerpt": [
+            "Qualcomm: Handset Pains Persist - Data Center Inflection In FY2027 (NASDAQ:QCOM) | Seeking Alpha Juxtaposed Ideas 16.15K Followers Follow Summary AAPL attrition and the memory/storage supply crunch underscore QCOM's headwinds, with FQ4'26 a",
+            "These may be balanced by the accelerating data center/automotive monetization opportunities, based on the $40B QCT non-handset revenue guidance by FY2029.",
+            "QCOM's diversification strategy is materializing, with the upcoming FY2027 data center inflection underscoring the successful M&A efforts."
+          ],
+          "analysisUpdatedAt": 1788264034.9405916
         }
       },
       {
@@ -39016,17 +39034,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788241259.9800453,
-    "_updated_label": "2026-09-01 14:41",
+    "_fetched_at": 1788264025.3865328,
+    "_updated_label": "2026-09-01 21:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
-    "_last_attempt_at": 1788241259.9800453,
+    "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
-    "_last_success_at": 1788241259.9800453,
+    "_last_success_at": 1788264025.3865328,
     "_collection_status": "ok"
   },
   "ARM": {
@@ -39809,7 +39827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -42415,7 +42433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -43359,7 +43377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44428,7 +44446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -45473,7 +45491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -47763,7 +47781,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -48832,7 +48850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788246948.9262547,
     "_earnings_status": "ok",
@@ -49602,7 +49620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -50225,7 +50243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51100,7 +51118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51159,7 +51177,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241273.914355
+          "analysisUpdatedAt": 1788264039.2336018
         },
         "headlineKo": "Elon Musk는 GE Vernova의 AI 전력 병목 현상을 해결하려고 노력하고 있습니다."
       },
@@ -51171,24 +51189,22 @@ const NEWS_DATA = {
         "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GE Vernova 주식: 2030년까지 매진(NYSE:GEV) | Seeking Alpha Deep Value Investing 14.46K 팔로워 팔로우 요약 제목은 기본적으로 GE Vernova의 강세 사례의 핵심 기둥입니다.",
-            "Gas Power는 116GW 계약으로 2분기를 마감했으며 경영진은 연말까지 최소 125GW를 예상하고 있습니다.",
-            "해당 사업은 2030년까지 사실상 매각된다."
+            "GE Vernova: Sold Out Through 2030",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 20%, $45, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -51198,26 +51214,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "GEV에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 GEV의 사업과 관련된 'GE Vernova: Sold Out Through 2030' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GEV 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "20%",
-            "$45",
-            "14%",
-            "$100"
-          ],
-          "sourceExcerpt": [
-            "GE Vernova Stock: Sold Out Through 2030 (NYSE:GEV) | Seeking Alpha Deep Value Investing 14.46K Followers Follow Summary The title is basically the core pillar of the bull case on GE Vernova.",
-            "Gas Power exited Q2 with 116 GW contracted, and management expects at least 125 GW by year-end.",
-            "The business is effectively sold out through 2030."
-          ],
-          "analysisUpdatedAt": 1788241277.0417304
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788264040.1591756
         },
         "headlineKo": "GE 베르노바: 2030년까지 매진"
       },
@@ -51265,7 +51273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241278.1060324
+          "analysisUpdatedAt": 1788264041.9551346
         },
         "headlineKo": "GE Vernova, 2027년 1월 1일부터 CFO로 Claire McDonough 임명 발표"
       },
@@ -51332,7 +51340,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241273.914355
+          "analysisUpdatedAt": 1788264039.2336018
         }
       },
       {
@@ -51344,24 +51352,22 @@ const NEWS_DATA = {
         "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GE Vernova 주식: 2030년까지 매진(NYSE:GEV) | Seeking Alpha Deep Value Investing 14.46K 팔로워 팔로우 요약 제목은 기본적으로 GE Vernova의 강세 사례의 핵심 기둥입니다.",
-            "Gas Power는 116GW 계약으로 2분기를 마감했으며 경영진은 연말까지 최소 125GW를 예상하고 있습니다.",
-            "해당 사업은 2030년까지 사실상 매각된다."
+            "GE Vernova: Sold Out Through 2030",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 20%, $45, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -51371,26 +51377,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "GEV에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 GEV의 사업과 관련된 'GE Vernova: Sold Out Through 2030' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GEV 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "20%",
-            "$45",
-            "14%",
-            "$100"
-          ],
-          "sourceExcerpt": [
-            "GE Vernova Stock: Sold Out Through 2030 (NYSE:GEV) | Seeking Alpha Deep Value Investing 14.46K Followers Follow Summary The title is basically the core pillar of the bull case on GE Vernova.",
-            "Gas Power exited Q2 with 116 GW contracted, and management expects at least 125 GW by year-end.",
-            "The business is effectively sold out through 2030."
-          ],
-          "analysisUpdatedAt": 1788241277.0417304
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788264040.1591756
         }
       },
       {
@@ -51438,7 +51436,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241278.1060324
+          "analysisUpdatedAt": 1788264041.9551346
         }
       },
       {
@@ -52215,17 +52213,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788241259.9800453,
-    "_updated_label": "2026-09-01 14:41",
+    "_fetched_at": 1788264025.3865328,
+    "_updated_label": "2026-09-01 21:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
-    "_last_attempt_at": 1788241259.9800453,
+    "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
-    "_last_success_at": 1788241259.9800453,
+    "_last_success_at": 1788264025.3865328,
     "_collection_status": "ok"
   },
   "CEG": {
@@ -52818,7 +52816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -53710,7 +53708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -54188,7 +54186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -54924,7 +54922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -55347,9 +55345,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
-    "_last_attempt_at": 1788262111.7157164,
+    "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
     "_last_success_at": 1788187127.1446443,
     "_collection_status": "empty",
@@ -56186,7 +56184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -56255,7 +56253,7 @@ const NEWS_DATA = {
             "MOD secured a $4 billion hyperscaler contract, is spinning off its low-margin segment, and expects significant gross margin improvement post-spin-off.",
             "Q1 FY27 saw 28% sales growth, with data center revenue up 90%, though temporary operational inefficiencies compressed gross margins."
           ],
-          "analysisUpdatedAt": 1788241293.932427
+          "analysisUpdatedAt": 1788264050.390047
         },
         "headlineKo": "모딘: 중장기 고위험 투자"
       },
@@ -56303,7 +56301,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241295.0208201
+          "analysisUpdatedAt": 1788264053.2552347
         },
         "headlineKo": "5년 전에 모딘 제조 주식에 $ 100를 투자했다면, 오늘 이 정도를 갖게 될 것입니다."
       }
@@ -56364,7 +56362,7 @@ const NEWS_DATA = {
             "MOD secured a $4 billion hyperscaler contract, is spinning off its low-margin segment, and expects significant gross margin improvement post-spin-off.",
             "Q1 FY27 saw 28% sales growth, with data center revenue up 90%, though temporary operational inefficiencies compressed gross margins."
           ],
-          "analysisUpdatedAt": 1788241293.932427
+          "analysisUpdatedAt": 1788264050.390047
         }
       },
       {
@@ -56412,7 +56410,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788241295.0208201
+          "analysisUpdatedAt": 1788264053.2552347
         }
       },
       {
@@ -56560,17 +56558,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788241259.9800453,
-    "_updated_label": "2026-09-01 14:41",
+    "_fetched_at": 1788264025.3865328,
+    "_updated_label": "2026-09-01 21:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
-    "_last_attempt_at": 1788241259.9800453,
+    "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
-    "_last_success_at": 1788241259.9800453,
+    "_last_success_at": 1788264025.3865328,
     "_collection_status": "ok"
   },
   "STX": {
@@ -57389,7 +57387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -57849,7 +57847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -58591,7 +58589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -58711,16 +58709,16 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     },
-    "_last_attempt_at": 1788262111.7157164,
+    "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
     "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
-    "_last_attempt_at": 1788262111.7157164,
+    "_last_attempt_at": 1788264025.3865328,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -58736,7 +58734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-09-01 20:30"
+      "updated": "2026-09-01 21:01"
     }
   }
 };

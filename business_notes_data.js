@@ -4377,4 +4377,34 @@ const BUSINESS_NOTES = {
       note: "데이터센터 전력관리 시장에서 EcoStruxure IT·Galaxy UPS·APC 브랜드를 앞세워 슈나이더·ABB·이튼·버티브·델타 5개사(합산 점유율 41~43%) 중 1위를 차지하는 것으로 파악돼요. ⚠️ 다만 미국 primary 상장이 아니라 OTC ADR(SBGSY)이라 거래량이 얇고 데이터 신뢰도가 다른 종목보다 낮을 수 있어요 - 참고용으로만 보는 걸 추천해요.",
     },
   },
+  BE: {
+    updated: "2026-09-01",
+    customers: [
+      "AI 데이터센터向 온사이트(자가발전) 전력 공급이 핵심 성장축 - Oracle·Equinix(100MW 이상 누적 배치)·CoreWeave 등 하이퍼스케일러·코로케이션 업체에 고체산화물 연료전지(SOFC)를 공급.",
+      "美 유틸리티 AEP(아메리칸 일렉트릭 파워)와 파트너십을 맺어 AWS向 전력 공급망에도 간접 참여.",
+      "2025년 10월 브룩필드와 최대 50억 달러 규모 파트너십을 체결 - 브룩필드의 1조 달러 인프라 포트폴리오 전반에 '온사이트 전력 공급사' 역할로 참여하는 대형 계약.",
+    ],
+    strengths: [
+      "연료전지가 동일 출력 기준 가스터빈 대비 연료를 15~20% 덜 사용한다고 주장 - 데이터센터 전력망 병목(그리드 연결 대기)을 우회하는 온사이트 발전 수요의 핵심 수혜.",
+      "2026년 말까지 연간 생산능력을 2GW로 확대 목표(2025년 대비 2배) - 이미 9개국 1,000곳 이상에 누적 약 1.4GW를 배치한 실적.",
+      "전통적으로 전기요금이 비싼 지역을 넘어 미드웨스트·미드애틀랜틱·텍사스 등 신규 지역의 AI 데이터센터 전력 수요까지 영업망을 확대 중.",
+    ],
+    risks: [
+      "⚠️ 총 200억 달러 규모 수주잔고(backlog) 중 약 70%가 '서비스 계약'인데, 이 서비스 매출이 실제로 안정적 현금흐름(예: 배당 재원)으로 이어질지는 아직 증명되지 않음 - 제품 판매와 달리 수익성·갱신율 데이터가 공개되지 않고 있음.",
+      "2026년 들어 주가가 급등(52주 저점 $48.87→고점 $351.28)하며 forward PER 약 81배까지 밸류에이션이 높아진 상태 - 성장 기대가 이미 주가에 상당 부분 반영돼 있어, 실적이 기대에 못 미치면 변동성이 클 수 있음.",
+      "CEO도 '소프트웨어 회사처럼 빠르게 스케일업할 수 없다'고 언급할 만큼 제조 능력이 병목 - 수요가 강해도 공급(생산능력) 제약이 매출 성장 속도를 제한할 수 있음.",
+    ],
+    sources: [
+      {title:"Bloom Energy says it's on track for 2 GW annual production capacity (Utility Dive)", url:"https://www.utilitydive.com/news/bloom-energy-says-its-on-track-for-2-gw-annual-production-capacity/804291/"},
+      {title:"I Wouldn't Touch This Hydrogen Stock Yet -- Here's the One Number That Could Change My Mind (The Motley Fool)", url:"https://www.fool.com/investing/2026/08/29/i-wouldnt-touch-this-hydrogen-stock-yet-heres-the/"},
+      {title:"Bloom Energy Stock Has Surged 150% in 2026. Is It Still a Buy? (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-surged-150-142500309.html"},
+    ],
+    role: {
+      tags: ["연료전지(고체산화물)", "데이터센터 온사이트 전력"],
+      stars: 3,
+      note: "그리드 연결 대기 없이 데이터센터 부지에 바로 전력을 공급하는 온사이트 발전 테마의 대표 종목 중 하나예요. 수주잔고와 대형 파트너십(브룩필드 50억 달러 등)은 매력적이지만, 수주잔고의 70%가 아직 실적으로 증명 안 된 서비스 계약이고 밸류에이션(forward PER ~81배)도 이미 높아 변동성이 큰 종목이에요.",
+    },
+    newsLog: [],
+  },
+
 };

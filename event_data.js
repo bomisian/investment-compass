@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788262225.5148187,
+  "generatedAt": 1788264060.6495233,
   "events": [
     {
       "id": "dbf7d71c4be89e712afe",
@@ -4776,7 +4776,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=9acfc02476ed3b2a72733aaa0a06aeb185080661e233b770a789c5abb45150f8",
         "publishedAt": 1787912154,
-        "collectedAt": 1788241259.9800453
+        "collectedAt": 1788264025.3865328
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5099,75 +5099,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "6b6cbd5cd6003e021adf",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "GEV",
-      "relatedTickers": [
-        "GEV"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "GE Vernova: Sold Out Through 2030",
-      "headlineKo": "GE 베르노바: 2030년까지 매진",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c3d61cd93ae43e3d95f406503c53632572b3cbd740e17001e2d44067f73d21bf",
-        "publishedAt": 1787895398,
-        "collectedAt": 1788241259.9800453
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "GE Vernova 주식: 2030년까지 매진(NYSE:GEV) | Seeking Alpha Deep Value Investing 14.46K 팔로워 팔로우 요약 제목은 기본적으로 GE Vernova의 강세 사례의 핵심 기둥입니다.",
-        "Gas Power는 116GW 계약으로 2분기를 마감했으며 경영진은 연말까지 최소 125GW를 예상하고 있습니다.",
-        "해당 사업은 2030년까지 사실상 매각된다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 20%, $45, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "GEV에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 20%, $45, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "GEV",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
-    },
-    {
       "id": "19b6f90ae2097a53bf3d",
       "schemaVersion": 1,
       "eventType": "regulatory_legal_export",
@@ -5370,6 +5301,83 @@ const EVENT_DATA = {
         "일회성 손익·회계정책 변화"
       ],
       "earningsEvidence": null
+    },
+    {
+      "id": "d47e3edaaa6e746703d5",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "QCOM",
+      "relatedTickers": [
+        "AAPL",
+        "QCOM",
+        "QQQ"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Qualcomm",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Qualcomm: Handset Pains Persist - Data Center Inflection In FY 2027",
+      "headlineKo": "Qualcomm: 핸드셋 통증 지속 - 2027 회계연도 데이터 센터 굴절",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6a1f65b2b906390ebf59dfa48d25cb0470b02a79966351cfb5ea59eb0622f27a",
+        "publishedAt": 1787829307,
+        "collectedAt": 1788264025.3865328
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Qualcomm: 핸드셋 문제 지속 - 2027 회계연도 데이터 센터 변화(NASDAQ:QCOM) | 알파 병치 아이디어 추구 16.15K 팔로워 팔로우 요약 AAPL 감소 및 메모리/스토리지 공급 위기는 2026년 4분기 QCOM의 역풍을 강조합니다.",
+        "이는 2029 회계연도까지 400억 달러에 달하는 QCT 비핸드셋 매출 지침을 기반으로 데이터 센터/자동차 수익화 기회 가속화로 균형을 이룰 수 있습니다.",
+        "성공적인 M&A 노력을 뒷받침하는 다가오는 2027 회계연도 데이터 센터 활용과 함께 QCOM의 다각화 전략이 구체화되고 있습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $40, 68.9%, $271.30. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "QCOM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $40, 68.9%, $271.30. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "QCOM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
     },
     {
       "id": "e8bffdc7ddaa2b96f696",
@@ -14496,7 +14504,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=aaade768f9f996e2350da0fbe381bfc606abd645683aedcf32005330567aaca0",
         "publishedAt": 1787444700,
-        "collectedAt": 1788241259.9800453
+        "collectedAt": 1788264025.3865328
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17832,6 +17840,7 @@ const EVENT_DATA = {
       "e520364f3c81789d511e",
       "e8b539a446990e9de047",
       "76ddf5fd1219db52812b",
+      "d47e3edaaa6e746703d5",
       "b3e1fca489b98b4a35c2",
       "872daef07ddeb7981bf6",
       "295a689d887a49c7dee4",
@@ -18167,6 +18176,7 @@ const EVENT_DATA = {
       "67617fc04b8ab86cafda",
       "6fbd8d2e9fe0aacfe32b",
       "23a348918ccb8f9e1124",
+      "d47e3edaaa6e746703d5",
       "d4e8a00177166f2d3a1d",
       "afa2160e94cdfee476fa",
       "793da6349f6097241ad7",
@@ -18220,17 +18230,16 @@ const EVENT_DATA = {
       "036fcff437adefe47750",
       "d9950ac75b92a238cbc9"
     ],
-    "GEV": [
-      "6b6cbd5cd6003e021adf",
-      "fa137cefdf21cd107824",
-      "d8eca2f40c9ac026d891"
-    ],
     "PLTR": [
       "19b6f90ae2097a53bf3d",
       "66ddda975052640de7e1",
       "d403b5d28dfd51800e12",
       "955fe598721329b733bb",
       "41160fd8cd7397d809f0"
+    ],
+    "QCOM": [
+      "d47e3edaaa6e746703d5",
+      "f1aba2e05fae72dfee11"
     ],
     "PWR": [
       "e8bffdc7ddaa2b96f696",
@@ -18248,6 +18257,10 @@ const EVENT_DATA = {
     "AMAT": [
       "437ebc3c071f1823cd7e",
       "e06bbfff733e09e0560d"
+    ],
+    "GEV": [
+      "fa137cefdf21cd107824",
+      "d8eca2f40c9ac026d891"
     ],
     "SNDK": [
       "34ab0e9e5bdac00081c5",
@@ -18274,9 +18287,6 @@ const EVENT_DATA = {
     ],
     "ASML": [
       "9f2c52ad1f7a0eaaa537"
-    ],
-    "QCOM": [
-      "f1aba2e05fae72dfee11"
     ],
     "ARM": [
       "be381641c3e536144ba3"
