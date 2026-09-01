@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788296116.6743488,
+  "generatedAt": 1788296442.2750645,
   "events": [
     {
       "id": "5e2eb3fff7d616b63452",
@@ -8959,7 +8959,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8037798c577a9bf7db87d4bbdb4d7b6682706f6db7c7c2356cade7c413262fca",
         "publishedAt": 1787879697,
-        "collectedAt": 1788274826.2408864
+        "collectedAt": 1788296427.1602583
       },
       "confirmedFacts": [],
       "reportedClaims": [
