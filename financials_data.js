@@ -134,13 +134,6 @@ const FINANCIALS_DATA = {
     ],
     "quarterly": [
       {
-        "period": "Q3'23",
-        "revenue": 13507000000,
-        "netIncome": 6188000000,
-        "opIncome": 6800000000,
-        "endDate": "2023-07-30"
-      },
-      {
         "period": "Q4'23",
         "revenue": 18120000000.0,
         "netIncome": 9243000000.0,
@@ -264,14 +257,22 @@ const FINANCIALS_DATA = {
         "unusualTaxEffect": 0.0,
         "otherNonOperating": 15929000000.0,
         "stockComp": 1928000000.0
+      },
+      {
+        "period": "Q3'26",
+        "revenue": 96221000000,
+        "netIncome": 59688000000,
+        "opIncome": 63734000000,
+        "endDate": "2026-07-26"
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788179552.5656211,
+    "_updated_label": "2026-08-31 21:33",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -296,7 +297,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788179586.010639,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AAPL": {
@@ -552,9 +553,10 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788169686.2897692,
+    "_updated_label": "2026-08-31 18:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -579,7 +581,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788169739.7669396,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GOOGL": {
@@ -862,9 +864,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -889,7 +892,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MSFT": {
@@ -1174,9 +1177,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1201,7 +1205,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMZN": {
@@ -1471,9 +1475,10 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788181440.4803486,
+    "_updated_label": "2026-08-31 22:04",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1498,7 +1503,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788181473.5597098,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -1728,9 +1733,10 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788181440.4803486,
+    "_updated_label": "2026-08-31 22:04",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -1755,7 +1761,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405
+    "_yahoo_verified_at": 1788181473.5597098
   },
   "AVGO": {
     "annual": [
@@ -2046,9 +2052,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788171841.1601536,
+    "_updated_label": "2026-08-31 19:24",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -2073,7 +2080,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788171876.9823184,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "META": {
@@ -2348,9 +2355,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788169686.2897692,
+    "_updated_label": "2026-08-31 18:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2375,7 +2383,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788169739.7669396,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSLA": {
@@ -2667,9 +2675,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -2694,7 +2703,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MU": {
@@ -2969,9 +2978,10 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788177625.379462,
+    "_updated_label": "2026-08-31 21:01",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-05-31",
@@ -2996,7 +3006,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788177669.93614,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -3267,9 +3277,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788179552.5656211,
+    "_updated_label": "2026-08-31 21:33",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3294,7 +3305,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788179586.010639,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "INTC": {
@@ -3577,9 +3588,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788177625.379462,
+    "_updated_label": "2026-08-31 21:01",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -3604,7 +3616,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788177669.93614,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -3883,9 +3895,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788179552.5656211,
+    "_updated_label": "2026-08-31 21:33",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -3910,7 +3923,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788179586.010639,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QQQ": {
@@ -3918,16 +3931,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787811002.4460618,
-    "_updated_label": "2026-08-27 15:10"
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:20"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1787811002.4460618,
-    "_updated_label": "2026-08-27 15:10"
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:20"
   },
   "ORCL": {
     "annual": [
@@ -4218,9 +4231,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788171841.1601536,
+    "_updated_label": "2026-08-31 19:24",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-02-28",
@@ -4245,7 +4259,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788171876.9823184,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CRM": {
@@ -4380,13 +4394,6 @@ const FINANCIALS_DATA = {
       }
     ],
     "quarterly": [
-      {
-        "period": "Q2'23",
-        "revenue": 8247000000.0,
-        "netIncome": 199000000.0,
-        "endDate": "2023-04-30",
-        "opIncome": 412000000
-      },
       {
         "period": "Q3'23",
         "revenue": 8603000000.0,
@@ -4532,14 +4539,22 @@ const FINANCIALS_DATA = {
         "otherNonOperating": 133000000.0,
         "restructuring": 80000000.0,
         "stockComp": 857000000.0
+      },
+      {
+        "period": "Q3'26",
+        "revenue": 11345000000,
+        "netIncome": 3526000000,
+        "opIncome": 2331000000,
+        "endDate": "2026-07-31"
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788177625.379462,
+    "_updated_label": "2026-08-31 21:01",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -4564,7 +4579,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788177669.93614,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PLTR": {
@@ -4818,9 +4833,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -4845,7 +4861,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QCOM": {
@@ -5129,9 +5145,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788181440.4803486,
+    "_updated_label": "2026-08-31 22:04",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -5156,7 +5173,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788181473.5597098,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ARM": {
@@ -5408,9 +5425,10 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788175746.3855,
+    "_updated_label": "2026-08-31 20:29",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -5435,7 +5453,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405
+    "_yahoo_verified_at": 1788175789.6039112
   },
   "MRVL": {
     "annual": [
@@ -5566,13 +5584,6 @@ const FINANCIALS_DATA = {
       }
     ],
     "quarterly": [
-      {
-        "period": "Q3'23",
-        "revenue": 1340900000.0,
-        "netIncome": -207500000.0,
-        "endDate": "2023-07-29",
-        "opIncome": -205700000
-      },
       {
         "period": "Q4'23",
         "revenue": 1418600000.0,
@@ -5712,15 +5723,23 @@ const FINANCIALS_DATA = {
         "specialIncomeCharges": -10700000.0,
         "restructuring": 10700000.0,
         "stockComp": 207600000.0
+      },
+      {
+        "period": "Q3'26",
+        "revenue": 2739300000,
+        "netIncome": 308000000,
+        "opIncome": 459700000,
+        "endDate": "2026-08-01"
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-04-30",
@@ -5745,7 +5764,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -5997,9 +6016,10 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788165063.8056893,
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -6024,7 +6044,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405
+    "_yahoo_verified_at": 1788252549.9062395
   },
   "LRCX": {
     "annual": [
@@ -6314,9 +6334,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788175746.3855,
+    "_updated_label": "2026-08-31 20:29",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -6341,7 +6362,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788175789.6039112,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "KLAC": {
@@ -6626,9 +6647,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788167610.862411,
+    "_updated_label": "2026-09-01 18:21",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -6653,7 +6675,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788254463.8877451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SNDK": {
@@ -6917,9 +6939,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:21",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -6944,7 +6967,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788254463.8877451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -7237,9 +7260,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787282123.4886072,
-    "_updated_label": "2026-08-26 16:08",
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:21",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -7264,7 +7288,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787728086.3653405,
+    "_yahoo_verified_at": 1788254463.8877451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -7525,7 +7549,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:10",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7552,7 +7576,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "COHR": {
@@ -7841,7 +7865,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7868,7 +7892,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "LITE": {
@@ -8159,7 +8183,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -8186,7 +8210,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GEV": {
@@ -8425,7 +8449,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -8452,7 +8476,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CEG": {
@@ -8714,7 +8738,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -8741,7 +8765,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
@@ -9034,7 +9058,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9061,7 +9085,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
@@ -9316,7 +9340,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9343,7 +9367,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
@@ -9636,7 +9660,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9663,7 +9687,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "HUBB": {
@@ -9949,7 +9973,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9976,7 +10000,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VRT": {
@@ -10265,7 +10289,7 @@ const FINANCIALS_DATA = {
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10292,7 +10316,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "STX": {
@@ -10586,8 +10610,8 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:21",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10614,7 +10638,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788254463.8877451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
@@ -10888,7 +10912,7 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10915,7 +10939,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "FIX": {
@@ -11207,7 +11231,7 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
     "_fetched_at": 1787731791.4154286,
-    "_updated_label": "2026-08-26 17:11",
+    "_updated_label": "2026-09-01 17:49",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -11234,7 +11258,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787731858.5988777,
+    "_yahoo_verified_at": 1788252549.9062395,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SBGSY": {
@@ -11353,13 +11377,13 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1787811002.4460618,
-    "_updated_label": "2026-08-27 15:10",
+    "_fetched_at": 1788254444.4071076,
+    "_updated_label": "2026-09-01 18:21",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787811007.4874423
+    "_yahoo_verified_at": 1788254463.8877451
   },
   "MOD": {
     "annual": [
@@ -11656,9 +11680,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1787311136.111286,
-    "_updated_label": "2026-08-26 22:20",
+    "_fetched_at": 1788169686.2897692,
+    "_updated_label": "2026-08-31 18:49",
     "_data_quality_version": 3,
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -11683,7 +11708,320 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1787750439.3859265,
+    "_yahoo_verified_at": 1788169739.7669396,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
+  },
+  "BE": {
+    "annual": [
+      {
+        "period": "2018",
+        "revenue": 742038000,
+        "netIncome": -273540000,
+        "opIncome": -165009000,
+        "eps": -4,
+        "ocf": -91948000,
+        "capex": -45205000,
+        "fcf": -137153000,
+        "endDate": "2018-12-31"
+      },
+      {
+        "period": "2019",
+        "revenue": 785177000,
+        "netIncome": -304414000,
+        "opIncome": -232804000,
+        "eps": -2,
+        "ocf": 163770000,
+        "capex": -51053000,
+        "fcf": 112717000,
+        "endDate": "2019-12-31"
+      },
+      {
+        "period": "2020",
+        "revenue": 794247000.0,
+        "netIncome": -157553000.0,
+        "opIncome": -80785000.0,
+        "eps": -1.14,
+        "ocf": -98796000.0,
+        "capex": -37913000.0,
+        "fcf": -136709000.0,
+        "endDate": "2020-12-31"
+      },
+      {
+        "period": "2021",
+        "revenue": 972176000.0,
+        "netIncome": -164445000.0,
+        "opIncome": -114502000.0,
+        "eps": -0.95,
+        "ocf": -60681000.0,
+        "capex": -49810000.0,
+        "fcf": -110491000.0,
+        "endDate": "2021-12-31"
+      },
+      {
+        "period": "2022",
+        "revenue": 1199125000.0,
+        "netIncome": -301708000,
+        "opIncome": -260992000,
+        "eps": -1.62,
+        "ocf": -191723000,
+        "capex": -116823000,
+        "fcf": -308546000,
+        "endDate": "2022-12-31",
+        "pretaxIncome": -313989000.0,
+        "taxProvision": 1097000.0,
+        "normalizedIncome": -294780690.0,
+        "unusualItems": -8389000.0,
+        "unusualItemsExGoodwill": -8389000.0,
+        "unusualTaxEffect": -1761690.0,
+        "specialIncomeCharges": -8955000.0,
+        "otherNonOperating": 4998000.0,
+        "stockComp": 112259000.0
+      },
+      {
+        "period": "2023",
+        "revenue": 1333470000.0,
+        "netIncome": -302116000,
+        "opIncome": -208907000,
+        "eps": -1.42,
+        "ocf": -372531000,
+        "capex": -83739000,
+        "fcf": -456270000,
+        "endDate": "2023-12-31",
+        "pretaxIncome": -306043000.0,
+        "taxProvision": 1894000.0,
+        "normalizedIncome": -297432090.0,
+        "unusualItems": -5929000.0,
+        "unusualItemsExGoodwill": -5929000.0,
+        "unusualTaxEffect": -1245090.0,
+        "specialIncomeCharges": -4288000.0,
+        "otherNonOperating": -2793000.0,
+        "stockComp": 84480000.0
+      },
+      {
+        "period": "2024",
+        "revenue": 1473856000.0,
+        "netIncome": -27203000.0,
+        "opIncome": 22909000,
+        "eps": -0.13,
+        "ocf": 91998000,
+        "capex": -58852000,
+        "fcf": 33146000,
+        "endDate": "2024-12-31",
+        "pretaxIncome": -26357000.0,
+        "taxProvision": 846000.0,
+        "normalizedIncome": -7204960.0,
+        "unusualItems": -27876000.0,
+        "unusualItemsExGoodwill": -27876000.0,
+        "unusualTaxEffect": -5853960.0,
+        "specialIncomeCharges": -27182000.0,
+        "otherNonOperating": 15904000.0,
+        "stockComp": 82424000.0
+      },
+      {
+        "period": "2025",
+        "revenue": 2023994000.0,
+        "netIncome": -87140000.0,
+        "opIncome": 72802000,
+        "eps": -0.37,
+        "ocf": 113949000,
+        "capex": -56759000,
+        "fcf": 57190000,
+        "endDate": "2025-12-31",
+        "pretaxIncome": -84404000.0,
+        "taxProvision": 2736000.0,
+        "normalizedIncome": -10130780.0,
+        "unusualItems": -99118000.0,
+        "unusualItemsExGoodwill": -99118000.0,
+        "unusualTaxEffect": -20814780.0,
+        "specialIncomeCharges": -98581000.0,
+        "otherNonOperating": 2151000.0,
+        "stockComp": 139406000.0
+      }
+    ],
+    "quarterly": [
+      {
+        "period": "Q3'23",
+        "revenue": 400268000.0,
+        "netIncome": -168078000.0,
+        "endDate": "2023-09-30",
+        "opIncome": -103708000
+      },
+      {
+        "period": "Q4'23",
+        "revenue": 356916000.0,
+        "netIncome": 4117000.0,
+        "endDate": "2023-12-31"
+      },
+      {
+        "period": "Q1'24",
+        "revenue": 235298000.0,
+        "netIncome": -56543000.0,
+        "endDate": "2024-03-31",
+        "opIncome": -49017000
+      },
+      {
+        "period": "Q2'24",
+        "revenue": 335767000.0,
+        "netIncome": -61185000.0,
+        "endDate": "2024-06-30",
+        "opIncome": -23128000
+      },
+      {
+        "period": "Q3'24",
+        "revenue": 330399000,
+        "netIncome": -14632000.0,
+        "endDate": "2024-09-30",
+        "opIncome": -9651000
+      },
+      {
+        "period": "Q4'24",
+        "revenue": 572393000.0,
+        "netIncome": 105157000.0,
+        "endDate": "2024-12-31",
+        "specialIncomeCharges": 0.0
+      },
+      {
+        "period": "Q1'25",
+        "revenue": 326021000.0,
+        "netIncome": -23814000,
+        "endDate": "2025-03-31",
+        "opIncome": -19070000
+      },
+      {
+        "period": "Q2'25",
+        "revenue": 401242000.0,
+        "netIncome": -42192000.0,
+        "endDate": "2025-06-30",
+        "opIncome": -3503000,
+        "eps": -0.18,
+        "ocf": -213111000.0,
+        "capex": -7245000.0,
+        "fcf": -220356000.0,
+        "pretaxIncome": -41175000.0,
+        "taxProvision": 1017000.0,
+        "normalizedIncome": -17158880.0,
+        "unusualItems": -32228000.0,
+        "unusualItemsExGoodwill": -32228000.0,
+        "unusualTaxEffect": -6767880.0,
+        "specialIncomeCharges": -32340000.0,
+        "otherNonOperating": 2373000.0,
+        "stockComp": 29284000.0
+      },
+      {
+        "period": "Q3'25",
+        "revenue": 519048000.0,
+        "netIncome": -22960000.0,
+        "endDate": "2025-09-30",
+        "opIncome": 7846000,
+        "eps": -0.1,
+        "ocf": 19669000.0,
+        "capex": -12301000.0,
+        "fcf": 7368000.0,
+        "pretaxIncome": -22624000.0,
+        "taxProvision": 336000.0,
+        "normalizedIncome": -22768310.0,
+        "unusualItems": -411000.0,
+        "unusualItemsExGoodwill": -411000.0,
+        "unusualTaxEffect": -86310.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -1362000.0,
+        "stockComp": 37255000.0
+      },
+      {
+        "period": "Q4'25",
+        "revenue": 777683000.0,
+        "netIncome": 1426000.0,
+        "endDate": "2025-12-31",
+        "opIncome": 87529000.0,
+        "eps": 0.0,
+        "ocf": 418073000.0,
+        "capex": -22954000.0,
+        "fcf": 395119000.0,
+        "pretaxIncome": 2378000.0,
+        "taxProvision": 952000.0,
+        "normalizedIncome": 40917600.0,
+        "unusualItems": -66376000.0,
+        "unusualItemsExGoodwill": -66376000.0,
+        "unusualTaxEffect": -26550400.0,
+        "specialIncomeCharges": -66241000.0,
+        "otherNonOperating": -908000.0,
+        "stockComp": 42813000.0
+      },
+      {
+        "period": "Q1'26",
+        "revenue": 751054000.0,
+        "netIncome": 70653000,
+        "endDate": "2026-03-31",
+        "opIncome": 72190000,
+        "eps": 0.23,
+        "ocf": 73610000.0,
+        "capex": -26182000.0,
+        "fcf": 47428000.0,
+        "pretaxIncome": 74136000.0,
+        "taxProvision": 445000.0,
+        "normalizedIncome": 69903524.0,
+        "unusualItems": 754000.0,
+        "unusualItemsExGoodwill": 754000.0,
+        "unusualTaxEffect": 4524.0,
+        "otherNonOperating": 6197000.0,
+        "stockComp": 45125000.0
+      },
+      {
+        "period": "Q2'26",
+        "endDate": "2026-06-30",
+        "revenue": 1065365000.0,
+        "netIncome": 196290000.0,
+        "opIncome": 182237000.0,
+        "eps": 0.62,
+        "ocf": 226432000.0,
+        "capex": -51641000.0,
+        "fcf": 174791000.0,
+        "pretaxIncome": 200326000.0,
+        "taxProvision": 1470000.0,
+        "normalizedIncome": 196825044.796981,
+        "unusualItems": -539000.0,
+        "unusualItemsExGoodwill": -539000.0,
+        "unusualTaxEffect": -3955.203019,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 2307000.0,
+        "impairment": null,
+        "restructuring": null,
+        "stockComp": 57229000.0
+      }
+    ],
+    "_currency": "USD",
+    "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
+    "_quarterly_verified_source": "SEC Company Facts",
+    "_fetched_at": 1788167610.862411,
+    "_updated_label": "2026-09-01 18:21",
+    "_data_quality_version": 3,
+    "_collection_status": "ok",
+    "_quarterly_eps_history": [
+      {
+        "endDate": "2025-06-30",
+        "eps": -0.18
+      },
+      {
+        "endDate": "2025-09-30",
+        "eps": -0.1
+      },
+      {
+        "endDate": "2025-12-31",
+        "eps": 0.0
+      },
+      {
+        "endDate": "2026-03-31",
+        "eps": 0.23
+      },
+      {
+        "endDate": "2026-06-30",
+        "eps": 0.62
+      }
+    ],
+    "_special_items_version": 1,
+    "_yahoo_enrich_version": 2,
+    "_yahoo_verified_at": 1788254463.8877451,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   }
 };

@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "MSFT": {
     "transactions": [
@@ -45,18 +45,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-08",
         "filingDate": "2026-06-10",
         "code": "S"
-      },
-      {
-        "name": "Althoff Judson",
-        "share": 15500,
-        "transactionPrice": 460.988,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788248841.538479,
+    "_updated_label": "2026-09-01"
   },
   "GOOGL": {
     "transactions": [
@@ -221,46 +213,174 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "AMZN": {
     "transactions": [
       {
-        "name": "Herrington Douglas J",
-        "share": 1000,
-        "transactionPrice": 278.39,
-        "transactionDate": "2026-08-03",
-        "filingDate": "2026-08-05",
+        "name": "Zapolsky David",
+        "share": 9258,
+        "transactionPrice": 259.77,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
-        "name": "BEZOS JEFFREY P",
-        "share": 1209649,
-        "transactionPrice": 286.4083,
-        "transactionDate": "2026-08-03",
-        "filingDate": "2026-08-05",
+        "name": "Garman Matthew S",
+        "share": 1951,
+        "transactionPrice": 260.3396,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Garman Matthew S",
+        "share": 5240,
+        "transactionPrice": 259.5702,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Garman Matthew S",
+        "share": 5191,
+        "transactionPrice": 258.6595,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Garman Matthew S",
+        "share": 2159,
+        "transactionPrice": 257.5954,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "Herrington Douglas J",
-        "share": 1000,
-        "transactionPrice": 239.77,
-        "transactionDate": "2026-07-01",
-        "filingDate": "2026-07-02",
+        "share": 2412,
+        "transactionPrice": 260.3251,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "Herrington Douglas J",
-        "share": 1000,
-        "transactionPrice": 266.19,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-03",
+        "share": 2125,
+        "transactionPrice": 258.5805,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Herrington Douglas J",
+        "share": 1825,
+        "transactionPrice": 257.7656,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Olsavsky Brian T",
+        "share": 6172,
+        "transactionPrice": 260.31,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Zapolsky David",
+        "share": 1119,
+        "transactionPrice": 260.449,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Zapolsky David",
+        "share": 2133,
+        "transactionPrice": 259.6335,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Zapolsky David",
+        "share": 1782,
+        "transactionPrice": 258.6357,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Zapolsky David",
+        "share": 1138,
+        "transactionPrice": 257.7019,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Reynolds Shelley",
+        "share": 888,
+        "transactionPrice": 260.3252,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Reynolds Shelley",
+        "share": 780,
+        "transactionPrice": 258.5812,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Reynolds Shelley",
+        "share": 675,
+        "transactionPrice": 257.7656,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Jassy Andrew R",
+        "share": 1811,
+        "transactionPrice": 260.3925,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Jassy Andrew R",
+        "share": 7514,
+        "transactionPrice": 259.6068,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Jassy Andrew R",
+        "share": 7478,
+        "transactionPrice": 258.6654,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Jassy Andrew R",
+        "share": 3197,
+        "transactionPrice": 257.6343,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "META": {
     "transactions": [
@@ -425,11 +545,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "AAPL": {
     "transactions": [
+      {
+        "name": "Newstead Jennifer",
+        "share": 1439,
+        "transactionPrice": 310.95,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
       {
         "name": "Newstead Jennifer",
         "share": 1439,
@@ -439,8 +567,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "TSLA": {
     "transactions": [
@@ -453,8 +581,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "ORCL": {
     "transactions": [
@@ -547,13 +675,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "CRM": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788248841.538479,
+    "_updated_label": "2026-09-01"
   },
   "PLTR": {
     "transactions": [
@@ -718,8 +846,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788246964.736249,
+    "_updated_label": "2026-09-01"
   },
   "NVDA": {
     "transactions": [
@@ -762,184 +890,176 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-03",
         "filingDate": "2026-06-05",
         "code": "S"
-      },
-      {
-        "name": "STEVENS MARK A",
-        "share": 500000,
-        "transactionPrice": 222.3774,
-        "transactionDate": "2026-06-02",
-        "filingDate": "2026-06-04",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "AMD": {
     "transactions": [
       {
-        "name": "Hahn Ava",
-        "share": 143,
-        "transactionPrice": 474.75,
-        "transactionDate": "2026-08-11",
-        "filingDate": "2026-08-13",
+        "name": "Hu Jean X.",
+        "share": 100,
+        "transactionPrice": 477.84,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Papermaster Mark D",
-        "share": 6000,
-        "transactionPrice": 556.43,
-        "transactionDate": "2026-07-15",
-        "filingDate": "2026-07-17",
+        "name": "Hu Jean X.",
+        "share": 3100,
+        "transactionPrice": 476.53,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Papermaster Mark D",
-        "share": 6000,
-        "transactionPrice": 536.33,
-        "transactionDate": "2026-06-15",
-        "filingDate": "2026-06-17",
+        "name": "Hu Jean X.",
+        "share": 1429,
+        "transactionPrice": 475.7,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 500,
-        "transactionPrice": 476.43,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Hu Jean X.",
+        "share": 3831,
+        "transactionPrice": 474.43,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 1300,
-        "transactionPrice": 475.48,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Hu Jean X.",
+        "share": 2327,
+        "transactionPrice": 473.43,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 3855,
-        "transactionPrice": 474.53,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Hu Jean X.",
+        "share": 2513,
+        "transactionPrice": 472.39,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 3700,
-        "transactionPrice": 473.61,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Hu Jean X.",
+        "share": 800,
+        "transactionPrice": 471.14,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 3509,
-        "transactionPrice": 472.57,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 5376,
-        "transactionPrice": 471.52,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 7426,
-        "transactionPrice": 470.6,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 6814,
-        "transactionPrice": 469.55,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 5002,
-        "transactionPrice": 468.61,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 3679,
-        "transactionPrice": 467.48,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 3337,
-        "transactionPrice": 466.31,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 1100,
-        "transactionPrice": 465.38,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 400,
-        "transactionPrice": 464.1,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
-        "share": 1900,
-        "transactionPrice": 462.81,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
-      },
-      {
-        "name": "Su Lisa T",
+        "name": "Hu Jean X.",
         "share": 900,
-        "transactionPrice": 461.67,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "transactionPrice": 470.13,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 1700,
-        "transactionPrice": 460.45,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Norrod Forrest Eugene",
+        "share": 2589,
+        "transactionPrice": 468.14,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Su Lisa T",
-        "share": 2891,
-        "transactionPrice": 459.41,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
+        "name": "Norrod Forrest Eugene",
+        "share": 600,
+        "transactionPrice": 466.26,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 1455,
+        "transactionPrice": 465.43,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 321,
+        "transactionPrice": 464.27,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 301,
+        "transactionPrice": 462.59,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 1500,
+        "transactionPrice": 460.64,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 1630,
+        "transactionPrice": 459.68,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 400,
+        "transactionPrice": 458.26,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 1904,
+        "transactionPrice": 457.44,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 2312,
+        "transactionPrice": 456.49,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 2125,
+        "transactionPrice": 455.62,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Norrod Forrest Eugene",
+        "share": 1182,
+        "transactionPrice": 454.18,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "AVGO": {
     "transactions": [
@@ -1104,8 +1224,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788245099.1510518,
+    "_updated_label": "2026-09-01"
   },
   "QCOM": {
     "transactions": [
@@ -1270,38 +1390,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "ARM": {
-    "transactions": [
-      {
-        "name": "Bartels Laura Kathleen",
-        "share": 11306,
-        "transactionPrice": 392.7,
-        "transactionDate": "2026-06-02",
-        "filingDate": "2026-06-04",
-        "code": "S"
-      },
-      {
-        "name": "Abbey William",
-        "share": 3922,
-        "transactionPrice": 415.52,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-03",
-        "code": "S"
-      },
-      {
-        "name": "Abbey William",
-        "share": 2644,
-        "transactionPrice": 383.73,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-03",
-        "code": "S"
-      }
-    ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "transactions": [],
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "MRVL": {
     "transactions": [
@@ -1352,32 +1447,15 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-15",
         "filingDate": "2026-06-16",
         "code": "S"
-      },
-      {
-        "name": "Koopmans Chris",
-        "share": 10000,
-        "transactionPrice": 205.87,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-01",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788252641.5971968,
+    "_updated_label": "2026-09-01"
   },
   "INTC": {
-    "transactions": [
-      {
-        "name": "Chandrasekaran Nagasubramaniyan",
-        "share": 21024,
-        "transactionPrice": 118.279,
-        "transactionDate": "2026-05-29",
-        "filingDate": "2026-06-02",
-        "code": "S"
-      }
-    ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "transactions": [],
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "TSM": {
     "transactions": [
@@ -1542,16 +1620,24 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "AMAT": {
     "transactions": [
+      {
+        "name": "Hill Brice",
+        "share": 7500,
+        "transactionPrice": 479.2501,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
       {
         "name": "DICKERSON GARY E",
         "share": 30,
@@ -1703,18 +1789,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-16",
         "filingDate": "2026-06-17",
         "code": "S"
-      },
-      {
-        "name": "DICKERSON GARY E",
-        "share": 4682,
-        "transactionPrice": 593.51,
-        "transactionDate": "2026-06-16",
-        "filingDate": "2026-06-17",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788245099.1510518,
+    "_updated_label": "2026-09-01"
   },
   "LRCX": {
     "transactions": [
@@ -1879,8 +1957,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788254478.815044,
+    "_updated_label": "2026-09-01"
   },
   "KLAC": {
     "transactions": [
@@ -2013,174 +2091,174 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788246964.736249,
+    "_updated_label": "2026-09-01"
   },
   "MU": {
     "transactions": [
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1002,
-        "transactionPrice": 965.85,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 258,
+        "transactionPrice": 989.59,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 316,
-        "transactionPrice": 960,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 351,
+        "transactionPrice": 988.1,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 405,
-        "transactionPrice": 956.68,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 341,
+        "transactionPrice": 986.24,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1523,
-        "transactionPrice": 956.18,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 84,
+        "transactionPrice": 985.4,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 725,
-        "transactionPrice": 954.19,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 637,
+        "transactionPrice": 984.12,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1,
-        "transactionPrice": 952.04,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 1354,
+        "transactionPrice": 983.11,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 108,
-        "transactionPrice": 950.77,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 716,
+        "transactionPrice": 981.92,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1207,
-        "transactionPrice": 948.24,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 458,
+        "transactionPrice": 980,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 797,
-        "transactionPrice": 946.78,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 1091,
+        "transactionPrice": 979.2,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 955,
-        "transactionPrice": 945.87,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 664,
+        "transactionPrice": 978.02,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 626,
-        "transactionPrice": 944.99,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 1127,
+        "transactionPrice": 976.8,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1050,
-        "transactionPrice": 942.87,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 863,
+        "transactionPrice": 975.75,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 236,
-        "transactionPrice": 941.6,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 337,
+        "transactionPrice": 974.17,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1248,
-        "transactionPrice": 940.14,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 301,
+        "transactionPrice": 972.78,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 970,
-        "transactionPrice": 938.77,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 1047,
+        "transactionPrice": 971.78,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 2572,
-        "transactionPrice": 937.78,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 1023,
+        "transactionPrice": 970.71,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1009,
-        "transactionPrice": 936.4,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 862,
+        "transactionPrice": 970.08,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1277,
-        "transactionPrice": 935.58,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 2847,
+        "transactionPrice": 968.77,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 2628,
-        "transactionPrice": 934.4,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 5252,
+        "transactionPrice": 967.75,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       },
       {
         "name": "MEHROTRA SANJAY",
-        "share": 1903,
-        "transactionPrice": 933.17,
-        "transactionDate": "2026-07-24",
-        "filingDate": "2026-07-28",
+        "share": 2938,
+        "transactionPrice": 966.85,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788245099.1510518,
+    "_updated_label": "2026-09-01"
   },
   "SNDK": {
     "transactions": [
@@ -2207,37 +2285,29 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-03",
         "filingDate": "2026-06-05",
         "code": "S"
-      },
-      {
-        "name": "Ilkbahar Alper",
-        "share": 600,
-        "transactionPrice": 1758.3967,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
-      },
-      {
-        "name": "Ilkbahar Alper",
-        "share": 401,
-        "transactionPrice": 1757,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
-      },
-      {
-        "name": "Ilkbahar Alper",
-        "share": 999,
-        "transactionPrice": 1755.3132,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "WDC": {
     "transactions": [
+      {
+        "name": "Tregillis Cynthia L",
+        "share": 1007,
+        "transactionPrice": 478.36,
+        "transactionDate": "2026-08-27",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Tregillis Cynthia L",
+        "share": 476,
+        "transactionPrice": 450.78,
+        "transactionDate": "2026-08-26",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
       {
         "name": "Tregillis Cynthia L",
         "share": 684,
@@ -2381,29 +2451,77 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-09",
         "filingDate": "2026-06-11",
         "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 16,
-        "transactionPrice": 525.56,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 524.72,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "ANET": {
     "transactions": [
+      {
+        "name": "Ullal Jayshree",
+        "share": 400,
+        "transactionPrice": 192.6375,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Ullal Jayshree",
+        "share": 10128,
+        "transactionPrice": 191.9859,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Ullal Jayshree",
+        "share": 3281,
+        "transactionPrice": 191.1012,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Battles Kelly Bodnar",
+        "share": 213,
+        "transactionPrice": 188.692,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Battles Kelly Bodnar",
+        "share": 40,
+        "transactionPrice": 187.7738,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Battles Kelly Bodnar",
+        "share": 35,
+        "transactionPrice": 186.926,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Battles Kelly Bodnar",
+        "share": 64,
+        "transactionPrice": 185.6091,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
+      {
+        "name": "Battles Kelly Bodnar",
+        "share": 70,
+        "transactionPrice": 184.7679,
+        "transactionDate": "2026-08-21",
+        "filingDate": "2026-08-25",
+        "code": "S"
+      },
       {
         "name": "Duda Kenneth",
         "share": 472,
@@ -2499,74 +2617,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-20",
         "filingDate": "2026-08-24",
         "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 2022,
-        "transactionPrice": 211.3693,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 44147,
-        "transactionPrice": 210.9749,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 8085,
-        "transactionPrice": 209.1476,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 117662,
-        "transactionPrice": 208.2931,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 227485,
-        "transactionPrice": 207.4275,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 2554,
-        "transactionPrice": 207.4275,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 1321,
-        "transactionPrice": 208.2931,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
-      },
-      {
-        "name": "Ullal Jayshree",
-        "share": 91,
-        "transactionPrice": 209.1476,
-        "transactionDate": "2026-08-12",
-        "filingDate": "2026-08-14",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "COHR": {
     "transactions": [
@@ -2579,44 +2633,179 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "LITE": {
     "transactions": [
       {
-        "name": "Harris Isaac Hosojiro",
-        "share": 1416,
-        "transactionPrice": 1000.081,
-        "transactionDate": "2026-06-02",
-        "filingDate": "2026-06-04",
+        "name": "HURLSTON MICHAEL E.",
+        "share": 548,
+        "transactionPrice": 958.66,
+        "transactionDate": "2026-08-27",
+        "filingDate": "2026-08-27",
         "code": "S"
       },
       {
-        "name": "Harris Isaac Hosojiro",
-        "share": 4000,
-        "transactionPrice": 860,
-        "transactionDate": "2026-05-29",
-        "filingDate": "2026-06-01",
+        "name": "Wupen Yuen",
+        "share": 500,
+        "transactionPrice": 958.66,
+        "transactionDate": "2026-08-27",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Wupen Yuen",
+        "share": 500,
+        "transactionPrice": 882.15,
+        "transactionDate": "2026-08-26",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 2302,
+        "transactionPrice": 860.052,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 188,
+        "transactionPrice": 858.8163,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 3511,
+        "transactionPrice": 857.95,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 4676,
+        "transactionPrice": 856.7089,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 800,
+        "transactionPrice": 855.8411,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 3486,
+        "transactionPrice": 854.8859,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 2465,
+        "transactionPrice": 853.6179,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 3711,
+        "transactionPrice": 852.6005,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 4426,
+        "transactionPrice": 851.6762,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 3017,
+        "transactionPrice": 850.6556,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 1528,
+        "transactionPrice": 849.7055,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 1102,
+        "transactionPrice": 848.6576,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 2121,
+        "transactionPrice": 847.516,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 2073,
+        "transactionPrice": 846.4448,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 631,
+        "transactionPrice": 845.6299,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 1053,
+        "transactionPrice": 844.6082,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
+      {
+        "name": "Retort Vincent",
+        "share": 1213,
+        "transactionPrice": 843.6014,
+        "transactionDate": "2026-08-25",
+        "filingDate": "2026-08-27",
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "GEV": {
-    "transactions": [
-      {
-        "name": "Abate Victor",
-        "share": 4819,
-        "transactionPrice": 948.08,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-03",
-        "code": "S"
-      }
-    ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "transactions": [],
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "CEG": {
     "transactions": [
@@ -2629,8 +2818,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "VST": {
     "transactions": [
@@ -2681,18 +2870,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-12",
         "filingDate": "2026-06-16",
         "code": "S"
-      },
-      {
-        "name": "Montemayor Margaret",
-        "share": 4600,
-        "transactionPrice": 160,
-        "transactionDate": "2026-06-02",
-        "filingDate": "2026-06-04",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788254478.815044,
+    "_updated_label": "2026-09-01"
   },
   "ETN": {
     "transactions": [
@@ -2729,13 +2910,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "HUBB": {
     "transactions": [
@@ -2748,13 +2929,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788243222.81359,
+    "_updated_label": "2026-09-01"
   },
   "VRT": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788248841.538479,
+    "_updated_label": "2026-09-01"
   },
   "MOD": {
     "transactions": [
@@ -2901,192 +3082,176 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-16",
         "filingDate": "2026-06-18",
         "code": "S"
-      },
-      {
-        "name": "Laszlo Arthur Jr.",
-        "share": 900,
-        "transactionPrice": 295.7601,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
-      },
-      {
-        "name": "McGinnis Eric S",
-        "share": 1800,
-        "transactionPrice": 290.7921,
-        "transactionDate": "2026-06-01",
-        "filingDate": "2026-06-02",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   },
   "STX": {
     "transactions": [
       {
-        "name": "Teh Ban Seng",
-        "share": 80,
-        "transactionPrice": 868,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 40,
+        "transactionPrice": 816.96,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
+        "name": "Lee James CI",
+        "share": 40,
+        "transactionPrice": 814.27,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 40,
+        "transactionPrice": 812.72,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
         "share": 120,
-        "transactionPrice": 865.7667,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "transactionPrice": 809.61,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 360,
-        "transactionPrice": 863.2139,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 1759,
-        "transactionPrice": 861.8099,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 221,
-        "transactionPrice": 861.2562,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 500,
-        "transactionPrice": 860.5,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
+        "name": "Lee James CI",
         "share": 80,
-        "transactionPrice": 859.295,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "transactionPrice": 804.865,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 280,
-        "transactionPrice": 858.2257,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 720,
-        "transactionPrice": 857.156,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 240,
-        "transactionPrice": 855.1758,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 160,
-        "transactionPrice": 854.21,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 510,
-        "transactionPrice": 852.9009,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
-        "share": 560,
-        "transactionPrice": 851.7121,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
-        "code": "S"
-      },
-      {
-        "name": "Teh Ban Seng",
+        "name": "Lee James CI",
         "share": 440,
-        "transactionPrice": 850.63,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "transactionPrice": 803.5727,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 267,
-        "transactionPrice": 849.2728,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 593,
+        "transactionPrice": 802.6653,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 520,
-        "transactionPrice": 848.4662,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 200,
+        "transactionPrice": 801.602,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 920,
-        "transactionPrice": 847.3613,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 480,
+        "transactionPrice": 800.4167,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 360,
-        "transactionPrice": 846.3944,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 567,
+        "transactionPrice": 799.4369,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
-        "share": 228,
-        "transactionPrice": 845.1461,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "name": "Lee James CI",
+        "share": 600,
+        "transactionPrice": 798.4913,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       },
       {
-        "name": "Teh Ban Seng",
+        "name": "Lee James CI",
+        "share": 600,
+        "transactionPrice": 797.3873,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 845,
+        "transactionPrice": 795.8967,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 968,
+        "transactionPrice": 794.768,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 480,
+        "transactionPrice": 793.6608,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
         "share": 120,
-        "transactionPrice": 843.6433,
-        "transactionDate": "2026-08-21",
-        "filingDate": "2026-08-24",
+        "transactionPrice": 792.3867,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 440,
+        "transactionPrice": 791.8009,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 280,
+        "transactionPrice": 790.3429,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 560,
+        "transactionPrice": 789.2521,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
+        "code": "S"
+      },
+      {
+        "name": "Lee James CI",
+        "share": 200,
+        "transactionPrice": 788.028,
+        "transactionDate": "2026-08-24",
+        "filingDate": "2026-08-26",
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "EME": {
     "transactions": [
@@ -3099,11 +3264,19 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
   },
   "FIX": {
     "transactions": [
+      {
+        "name": "Lane Brian E.",
+        "share": 16024,
+        "transactionPrice": 1608.2079,
+        "transactionDate": "2026-08-26",
+        "filingDate": "2026-08-27",
+        "code": "S"
+      },
       {
         "name": "MYERS FRANKLIN",
         "share": 6700,
@@ -3113,12 +3286,50 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788245099.1510518,
+    "_updated_label": "2026-09-01"
   },
   "SBGSY": {
     "transactions": [],
-    "_fetched_at": 1787787345.5919633,
-    "_updated_label": "2026-08-27"
+    "_fetched_at": 1788239132.2505672,
+    "_updated_label": "2026-09-01"
+  },
+  "BE": {
+    "transactions": [
+      {
+        "name": "CHAMBERS JOHN T",
+        "share": 15000,
+        "transactionPrice": 250,
+        "transactionDate": "2026-08-13",
+        "filingDate": "2026-08-14",
+        "code": "S"
+      },
+      {
+        "name": "CHAMBERS JOHN T",
+        "share": 15000,
+        "transactionPrice": 205.58,
+        "transactionDate": "2026-08-03",
+        "filingDate": "2026-08-04",
+        "code": "S"
+      },
+      {
+        "name": "Joshi Aman",
+        "share": 8343,
+        "transactionPrice": 300.37,
+        "transactionDate": "2026-07-01",
+        "filingDate": "2026-07-02",
+        "code": "S"
+      },
+      {
+        "name": "SODERBERG SHAWN MARIE",
+        "share": 2842,
+        "transactionPrice": 288.63,
+        "transactionDate": "2026-06-16",
+        "filingDate": "2026-06-17",
+        "code": "S"
+      }
+    ],
+    "_fetched_at": 1788241309.1920202,
+    "_updated_label": "2026-09-01"
   }
 };

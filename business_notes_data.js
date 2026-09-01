@@ -9,6 +9,25 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-08-31",
+        headline: "미-이란, 한 달 만에 재충돌 - 라라크섬 발사대 타격에 이란은 요르단 미군기지 미사일 보복, 유가 $90 돌파",
+        tone: "mixed",
+        importance: "medium",
+        horizon: "단기(수일~수주, 추가 확전 여부에 좌우)",
+        facts: ["2026-08-31(현지시간 일요일 밤~월요일) 미군이 호르무즈 해협 인근 이란 라라크섬의 로켓 발사대 두 곳을 타격했다. 미 중부사령부(CENTCOM)는 이란군이 해협에 기뢰를 살포하려는 정황을 포착해 가한 '제한적이고 정밀한' 타격이라고 밝혔다.", "앞서 이란 혁명수비대(IRGC)는 일요일 미군 드론 공격으로 라라크섬에서 자국군이 사망했다고 주장했다.", "이란은 요르단 내 미군기지를 향해 탄도미사일로 보복했다 - 요르단군은 자국 영공에 진입한 미사일 8발을 요격했다고 발표했고, UAE 국방부도 이란발 드론을 요격했다고 밝혔다.", "별도로 호르무즈 해협에서 초대형 유조선이 기뢰 2발에 맞아 화재가 발생했다 - 이란군은 해당 선박이 허가 없이 해협을 통과하려 했다고 주장했다.", "이는 지난 7월 29일 이후 한 달여 만에 재개된 첫 무력 충돌이다.", "이 소식에 WTI 원유는 배럴당 $90를 넘어섰고, 다우존스는 -0.70%(374포인트↓, 53,185.90), S&P500은 -0.33%(7,686.14), 나스닥은 -0.12%(26,370.89) 하락 마감했다. 10년물 국채금리는 4.76%로 2025년 1월 이후 최고치를 기록했다.", "다만 개별 종목 반응은 엇갈렸다 - 엔비디아(+1.5%)·테슬라(+5.5%)는 상승한 반면, 애플(-0.9%)·아마존(-2.5%)·구글(-2.2%)·메타(-1.0%)·마이크로소프트(-1.2%)는 하락했다."],
+        why: ["한 달간 소강상태였던 미-이란 무력충돌이 재점화됐다는 신호로, 유가 급등과 국채금리 상승이 동시에 나타나며 인플레이션 우려가 다시 불거졌다 - 이는 9월 연준 금리결정 경로에도 부담 요인이 될 수 있다.", "다만 이번 지수 낙폭은 1% 미만으로 제한적이었고 엔비디아·테슬라 등 워치리스트 핵심 종목은 오히려 상승해, 이번 사건만으로 'AI/반도체 랠리 훼손' 국면이라고 보기는 이르다."],
+        beginner: ["미국과 이란이 한 달 만에 다시 무력 충돌을 벌였어요. 미군이 이란 섬의 미사일 발사대를 공격했고, 이란은 요르단 미군기지로 미사일을 쐈어요.", "중동에서 싸움이 다시 커지면 원유 공급이 끊길까봐 걱정돼서 기름값이 확 올라요(배럴당 $90 이상). 기름값이 오르면 물가가 오를 수 있어서 주식시장 전체가 약간 떨어졌어요.", "그런데 엔비디아나 테슬라 같은 몇몇 대형 기술주는 오히려 올랐어요 - 이번 하락은 '기술주 자체가 나빠서'가 아니라 '중동 리스크 + 기름값' 때문이라는 뜻이에요."],
+        watch: ["이란의 추가 보복 여부 및 확전 조짐", "WTI 유가·10년물 국채금리 추이", "호르무즈 해협 실제 통항 차질(유조선 피격 후속 상황) 여부", "9월 FOMC에서 유가발 인플레이션 우려가 금리 결정에 반영되는지"],
+        interpretation: "이번 충돌은 규모·시장 반응 모두 '심각한 확전'보다는 '한 달간 소강상태의 재발'에 가깝다. 다우/S&P 낙폭이 1% 미만으로 제한적이고 워치리스트 핵심종목인 엔비디아·테슬라가 오히려 상승했다는 점에서, 이 사건 자체를 워치리스트 종목에 대한 직접적 매도 신호로 보기는 어렵다. 다만 유가($90+)와 국채금리(4.76%, 2025년 1월 이후 최고) 동반 상승은 인플레이션·금리 경로에 계속 부담을 주는 요인으로 MARKET 뉴스로 계속 추적할 사안이다.",
+        decision: "이 사건 자체로 워치리스트 종목 포지션을 조정할 근거는 약하다. 다만 유가·금리가 추가로 오르거나 확전 조짐(추가 공격, 호르무즈 통항 차질 심화)이 나오면 인플레이션/금리 경로 재평가가 필요할 수 있으니 후속 보도를 지켜볼 것.",
+        confidence: "타격·보복 사실관계(라라크섬 타격, 요르단 미사일 요격, 유조선 피격)는 NPR·Arab News·France24 등 복수 매체가 교차 확인해 신뢰도가 높음. 시장 지표(지수·유가·금리·개별종목 등락)는 Motley Fool 기사(Xignite/Polygon.io 데이터 기반)로 신뢰도 높음.",
+        sources: [
+          { title: "U.S. and Iran exchange fire for the first time in a month (NPR)", url: "https://www.npr.org/2026/08/31/nx-s1-5949884/u-s-and-iran-exchange-fire-for-the-first-time-in-a-month" },
+          { title: "Stock Market Today, Aug. 31: Stocks Edge Lower as Oil Prices Surge Again (The Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/08/31/stock-market-today-aug-31-stocks-edge-lower-as-oil-prices-surge-again/" },
+          { title: "US, Iran exchange fire in flare-up; Bessent signals more sanctions (Arab News)", url: "https://www.arabnews.com/node/2656366/middle-east" },
+        ],
+      },
+      {
         date: "2026-08-27",
         headline: "엔비디아 Q2(FY27) 실적 컨센서스 상회 - 매출 $962억·EPS $2.22, 3분기 가이던스 $1,080억도 예상 상회 (다만 시간외 주가는 초반 하락 후 반등하는 혼조 반응)",
         importance: "high",
@@ -980,6 +999,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-08-27",
+        headline: "Q2(FY27) 실적 서프라이즈(매출 27.4억·EPS $0.94, 사상 최대)에도 시간외 -7% 하락 - 구글 파트너십 매출 기여가 FY2029로 지연된다는 소식이 실망 매물 촉발",
+        importance: "high",
+        tone: "mixed",
+        horizon: "단기(정규장 반응·가이던스 신뢰 회복 여부)",
+        facts: ["Marvell이 2026-08-27 장마감 후 발표한 2분기(FY27) 매출은 $27.39억으로 전년 대비 +37%, 전분기 대비 +13% 증가한 사상 최대치를 기록했다.", "데이터센터 부문 매출은 YoY +46% 성장하며 전체 성장을 견인했다.", "비GAAP EPS는 $0.94로 예상치를 $0.01 상회했고, GAAP EPS는 $0.33(순이익 $3.08억)이었다.", "3분기 가이던스로 매출 중간값 $31.5억, 비GAAP EPS $1.05~1.15를 제시했고, FY2027 매출 전망을 약 $120억(+45%)으로, FY2028 전망을 $180억으로 각각 상향했다.", "실적 발표 후 시간외 주가는 정규장 종가 대비 약 -7.1%~7.6% 하락(주가 $224.34 부근)했다.", "경영진은 컨퍼런스콜에서 8/20 공개했던 구글과의 커스텀칩(TPU) 파트너십에서 유의미한 매출 기여 시점이 FY2029로 지연될 것이라고 밝혔고, 비GAAP 매출총이익률 가이던스도 전분기 대비 90bp 하락했다."],
+        why: ["매출·EPS·가이던스 모두 상회한 '어닝비트'였음에도 주가가 하락한 것은, 연초 대비 165%+ 급등한 주가에 이미 높은 기대가 반영돼 있었고, 특히 8/20 워치리스트에 기록했던 '구글 워런트 계약'發 기대감이 즉시 매출로 이어지지 않고 몇 년 뒤(FY2029)로 미뤄진다는 점에 투자자들이 실망했기 때문이다."],
+        beginner: ["마벨이 낸 성적표는 매출도 이익도 역대 최고였는데, 발표 후 오히려 주가가 7% 넘게 떨어졌어요. 최근 주가가 워낙 많이 올라 있어서(연초 대비 거의 2.5배) 눈높이가 너무 높아진 상태였는데, 지난주 나온 '구글과 손잡고 큰돈을 벌 것'이라는 기대가 실제로는 한참 뒤(2029 회계연도)에나 실현된다는 얘기가 나오면서 실망 매물이 나온 거예요."],
+        interpretation: "펀더멘털(매출 성장률, 가이던스 상향)은 훼손되지 않았으나, 8/20 기록했던 구글 파트너십 호재가 '즉시 현실화'가 아닌 장기(2029년) 이벤트임이 이번에 재확인됐다. 단기 주가 조정을 실적 악화 신호로 오인하지 말고 데이터센터 매출 성장(YoY+46%)의 지속 여부를 지켜볼 필요가 있다.",
+        decision: "실적 자체는 견조하므로 이번 하락만으로 매도 근거를 삼기보다는, 최근 급등에 따른 밸류에이션 조정 국면으로 보고 정규장 마감 후 실제 종가 반응과 애널리스트 목표주가 조정을 확인한 뒤 판단할 것.",
+        watch: ["정규장 마감 후 실제 종가 반응(시간외 낙폭 유지·축소 여부)", "애널리스트 목표주가 조정 방향", "구글 TPU 파트너십 매출 기여 관련 후속 타임라인 코멘트"],
+        confidence: "매출·EPS·가이던스 수치는 회사 공식 보도자료(Businesswire) 기준으로 신뢰도 높음. 시간외 하락폭과 원인 해석은 SiliconANGLE·TradingKey 등 복수 매체 보도 기준.",
+        sources: [
+        {title:"Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results (Businesswire)", url:"https://www.businesswire.com/news/home/20260827816134/en/Marvell-Technology-Inc.-Reports-Second-Quarter-of-Fiscal-Year-2027-Financial-Results"},
+        {title:"Marvell's stock sinks despite earnings beat and strong guidance (SiliconANGLE)", url:"https://siliconangle.com/2026/08/27/marvells-stock-sinks-despite-earnings-beat-and-strong-guidance/"},
+        {title:"Marvell Stock Forecast: Revenue Hits Record High Yet Shares Drop Over 7% Post-Market (TradingKey)", url:"https://www.tradingkey.com/analysis/stocks/us-stocks/262137633-mrvl-stock-price-forecast-record-high-revenue-leads-after-hours-decline-can-mrvl-continue-rise-tradingkey"},
+        ],
+      },
+      {
         date: "2026-08-26",
         headline: "[방향성 체크] 사상 최대 매출(+28%)·가이던스 상향에도 7월 -37% 폭락 - 업종 전체 회의론이 원인, 8/27 실적 대기",
         importance: "medium",
@@ -1513,6 +1551,23 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-09",
+        headline: "[예정] 애플 아이폰 18 Pro 론칭 행사(9/9 10AM PT) - 신임 CEO 존 터너스 첫 제품 사이클 + 폴더블 iPhone 첫 공개",
+        facts: ["애플이 2026년 9월 9일(화요일) 미국 태평양 시간 10AM에 캘리포니아 쿠퍼티노 Apple Park에서 iPhone 신제품 행사 개최 예정(발표 후 YouTube 생중계 예정)", "행사 슬로건은 'Surprise and Shine' - 역대 애플 행사 레이아웃 기준 혁신 제품 강조 의지", "예상 출시 제품: iPhone 18 Pro, iPhone 18 Pro Max(신규), 애플 최초 폴더블 아이폰(신규), Apple Watch Series 12(세라믹 케이스 옵션), Apple Watch Ultra 4, AirPods 5", "주목점: 2011년 이후 처음 CEO가 바뀐 직후 존 터너스가 주최하는 첫 제품 론칭(앞서 팀 쿡은 9월 1일부로 Executive Chairman으로 물러남)", "스탠다드 iPhone 18·iPhone 18e·iPhone Air 2는 2027년 봄에 출시될 예정으로, 이번 행사는 프리미엄 라인 집중"],
+        why: ["신임 CEO의 첫 제품 사이클은 새 리더십의 전략 방향(AI 강조·설계 철학 변화)을 시장에 신호하는 기회 - 애플이 AI 경쟁에서 '뒤처졌다'는 평가(Needham 등)를 받는 상황에서 iPhone 18의 AI 기능이 시장의 신뢰도에 영향", "폴더블 iPhone은 삼성·구글의 기술과 비교되는 지점으로 기술력·설계 철학을 보여주는 신호", "중국 매출 비중(18%, $205B 2026 2분기)이 큼에도 미중 갈등·관세 우려가 높아, 새 CEO 체제의 공급망 관리 능력이 테스트되는 시점", "최근 메모리 반도체 부족(D램·낸드)으로 애플이 MacBook Air 공급 부족을 겪고 있는데, 신제품 출시 시즌에 공급망 안정화가 과제"],
+        beginner: ["9월 9일 애플이 새로운 아이폰 몇 개를 공식 발표해요. 지금까지는 팀 쿡이 이런 행사를 진행했는데, 이번부터는 새 CEO인 존 터누스가 진행해요.", "새로운 물건들 중에 특히 '폴더블(접히는) 아이폰'이 처음 나온대요 - 지금까지 삼성이나 구글만 접히는 휴대폰을 만들었는데, 애플도 이제 낸다는 뜻이에요.", "새 CEO는 하드웨어 엔지니어로 25년 일해온 사람이라서 '디자인·기술'을 중시할 가능성이 높아요. 애플이 AI 분야에서 경쟁사보다 뒤처진다는 평가를 받고 있어서, 이번 아이폰에 AI 기능이 얼마나 들어가느냐가 관전 포인트예요."],
+        watch: ["iPhone 18 Pro 실제 스펙 - 특히 AI 기능(시리 2.0·온디바이스 처리 능력) 공개 수준", "폴더블 iPhone 기술·가격·출시 일정 - 삼성/구글 제품과의 가격·성능 비교", "신제품 사전예약(9/9~9/16) 수량·고객 평가 - 시장 수요 신호", "중국·인도 등 해외 시장 반응(특히 프리미엄 제품 수요 변화)", "신제품 로드맵에서 새 CEO(존 터누스)의 설계 철학 변화 신호 여부"],
+        interpretation: "존 터누스는 '엔지니어 CEO'로 하드웨어 설계에 강점이 있으나, 현재 애플의 핵심 과제는 AI 경쟁력임. 폴더블 아이폰 같은 혁신은 긍정적 신호지만, 시리 2.0 같은 소프트웨어 AI 기능이 경쟁사 수준으로 구체화되지 않으면 '혁신 기업' 이미지 회복이 제한적일 수 있음. 신제품 발표보다는 '고객 실제 구매 의향'을 측정하는 9월 중후반 사전예약 데이터가 더 중요.",
+        decision: "행사 자체는 이미 정해진 일정이므로, 중요한 건 실제 공개 제품의 기술 수준·가격·AI 기능 정도. 현재 AAPL은 눌림목 점수 1/5점(관망 구간)이므로, 행사 후 실제 수요 신호(사전예약 수량·중국 반응)를 기다린 후 진입 판단. 메모리 반도체 공급 부족 이슈도 함께 모니터링 필요.",
+        confidence: "행사 일정(9/9 10AM PT), 예상 제품(iPhone 18 Pro/Max·폴더블·Watch Series 12·AirPods 5)은 복수 매체(MacRumors, Tom's Guide, Business Today 등) 교차 확인 - 신뢰도 높음. 신임 CEO(존 터누스) 첫 제품 사이클이라는 맥락은 AAPL newsLog 기존 항목에서 확인 가능(8/13 CEO 교체 예정 보도). 실제 제품 성능·기능·가격은 행사 당일까지 미정.",
+        sources: [
+          { title: "Apple event 2026 announced for September 9: iPhone 18 Pro series, iPhone Ultra and more to debut (Business Today)", url: "https://www.businesstoday.in/technology/news/story/apple-event-2026-announced-for-september-9-iphone-18-pro-series-iphone-ultra-and-more-to-debut-551631-2026-08-26" },
+          { title: "Apple iPhone 18 event — all the new products expected to launch in September (Tom's Guide)", url: "https://www.tomsguide.com/phones/iphones/apple-iphone-18-event-all-the-new-products-expected-to-launch-in-september" },
+          { title: "Apple's September 2026 event: Everything we know about the iPhone 18 Pro and iPhone Ultra launch event (Digital Trends)", url: "https://www.digitaltrends.com/phones/apples-september-2026-event-everything-we-know-about-the-iphone-18-pro-and-iphone-ultra-launch-event/" },
+          { title: "Tim Cook to become Apple Executive Chairman, John Ternus to become Apple CEO (Apple Newsroom - 기존 공개)", url: "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/" },
+        ],
+      },
+      {
         date: "2026-08-13",
         headline: "팀 쿡 → 존 터너스 CEO 교체 9월 1일 시행 - 2011년 팀 쿡 취임 이후 첫 애플 CEO 교체",
         coreAnalysis: "애플이 2026년 4월 발표한 대로, 팀 쿡이 이사회 의장(Executive Chairman)으로 물러나고 존 터너스(하드웨어 엔지니어링 담당 수석부사장, 입사 25년차로 아이패드·에어팟·최근 아이폰 모델들의 하드웨어 개발을 총괄해온 인물)가 2026년 9월 1일부로 신임 CEO에 취임함 - 이사회 만장일치 승인. 조니 스로우지(기존 하드웨어 기술 담당 수석부사장)가 최고하드웨어책임자(Chief Hardware Officer)로 승진해 터너스의 기존 역할을 확대 승계함.",
@@ -1649,6 +1704,22 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-08-31",
+        headline: "테슬라 주가 5.5% 급등 - Cybercab 행사(9/3) 임박 + 네바다 로보택시 승인(연 5,000대)",
+        facts: ["테슬라 주가가 8월 31일(금) +5.5% 상승해 $367.95로 마감했고, 거래량은 60.9M으로 3개월 평균(41.6M) 대비 46% 초과", "상승 배경은 9월 3일(화) 예정된 Cybercab 행사 기대감과 함께 로보택시 사업의 구체적 진전 신호", "네바다 자동차국이 클락 카운티에서 테슬라 로보택시를 자율주행 네트워크사(autonomous vehicle network company)로 정식 승인했고, 1년차에 최대 5,000대의 완전 자율주행 차량 운영 허가", "머스크가 텍사스 austin 시설에서의 AI 전력 수요 충족을 위해 SpaceX와 협력해 가스터빈 부품 생산 추진 중이라는 보도도 있음"],
+        why: ["네바다 로보택시 정식 승인은 로보택시 사업의 '규제 리스크 해소'로 평가됨 - 기존 신뢰도 논쟁(머스크가 일정을 계속 미루는 현상)에 비해 정부 공식 승인은 실행 가능성을 높여줌", "9월 3일 Cybercab 행사는 로보택시·FSD 로드맵 공개와 실제 기술 시연의 기회라 시장의 기대가 높은 상태", "주가가 $365 이상 돌파한 것은 기술적 저항선 제거로 추가 상승 여지가 있을 수 있다는 기술적 해석도 있음", "8월 말 시점에 '모멘텀이 돌아왔다'는 신호로 해석되는데, TSLA 자체는 저평가(눌림목 4/5점)와 고이익배수(PER 192배)의 괴리가 있어 투자자 심리가 중요한 변수임"],
+        beginner: ["테슬라 주가가 하루에 5% 이상 크게 올랐어요. 이유는 다음주 화요일(9월 3일)에 무인택시(로보택시) 행사가 있을 거라는 기대감 때문이에요.", "더 중요한 건, 미국 네바다 주에서 테슬라의 로보택시를 공식 승인해줬다는 거예요. 이제 네바다 주에서 연 5,000대까지 무인 상태로 운행할 수 있다는 뜻이에요.", "지금까지 테슬라는 '로보택시를 곧 낸다'고 계속 말해왔는데 미뤄졌거든요. 이제 정부가 공식 허가를 내줘서 '진짜 하나 봅시다'라는 신호가 나온 거라고 봐요."],
+        watch: ["9월 3일 Cybercab 행사 내용 - 로보택시 기술 시연, FSD 로드맵, 실제 상용화 일정 공개 여부", "네바다 외 다른 주의 로보택시 승인 진행 여부", "로보택시 매출 확대 시점 및 실제 운영 시작", "다음 분기 실적에서 영업이익률 회복 신호(현재 1.4%, 로보택시 투자로 압박 중)"],
+        interpretation: "9월 3일 행사 결과가 핵심. 기술 시연이 시장 기대(무인주행 신뢰도)를 충족시키고 상용화 일정이 구체적으로 제시된다면 단기 모멘텀 지속 가능. 다만 TSLA는 '기대주'로서 기대를 못 충족시키면 급락하는 패턴이 있어 행사 이후 실제 업적(매출 확대·마진 개선) 신호까지 지켜봐야 함.",
+        decision: "단기 모멘텀(9/3 행사 전후)에 따라 변동성 클 것으로 예상. 현재 주가 $367.95는 기술적 저항선을 뚫었으나 여전히 PER 기준 고평가 상태이므로, 실제 로보택시 매출·영업이익 개선 확인 전까지는 관심은 높지만 신규 진입은 신중하게.",
+        confidence: "네바다 로보택시 승인, 9/3 행사 예정, 주가 상승폭(+5.5%, 거래량 초과)는 복수 매체(Motley Fool, FX Leaders 등) 교차 확인 - 신뢰도 높음. 행사 결과 전망은 시장 예상이므로 실제 결과는 다를 수 있음.",
+        sources: [
+          { title: "Stock Market Today, Aug. 31: Tesla Stock Surges on Cybercab Event Anticipation and Autonomy Focus (Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/08/31/stock-market-today-aug-31-tesla-surges-on-cybercab-event-anticipation-and-autonomy-focus/" },
+          { title: "Tesla TSLA Stock Breaks $365 Resistance as Musk Pushes SpaceX to Build Gas Turbine Parts (FX Leaders)", url: "https://www.fxleaders.com/news/2026/08/31/tesla-tsla-stock-breaks-365-resistance-as-musk-pushes-spacex-to-build-gas-turbine-parts/" },
+          { title: "Tesla Stock Extends Rally As Robotaxi And Optimus Bets Accelerate (Timothy Sykes)", url: "https://www.timothysykes.com/news/tesla-inc-tsla-news-2026_08_31/" },
+        ],
+      },
+      {
         date: "2026-08-26",
         headline: "[방향성 체크] 매출은 사상 최고인데 영업이익률 1.4%로 급락 - 수익성 악화가 핵심 우려",
         importance: "medium",
@@ -1754,6 +1825,25 @@ const BUSINESS_NOTES = {
       {title:"Salesforce Agentforce Guide 2026: Products, AI Agents & Use Cases (Vantage Point)", url:"https://vantagepoint.io/blog/sf/the-complete-guide-to-salesforces-agentforce-ecosystem-understanding-the-full-product-portfolio-in-2026"},
     ],
     newsLog: [
+      {
+        date: "2026-08-26",
+        headline: "Q2(FY27) 실적 서프라이즈 + 앤스로픽 파트너십 발표에 주가 +23% 급등 - Agentforce 매출 YoY +240%로 'AI 성장 증거 부족' 우려 반박",
+        importance: "high",
+        tone: "positive",
+        horizon: "즉시~단기(반등 지속 여부)",
+        facts: ["Salesforce가 2026-08-26 장마감 후 발표한 2분기(FY27) 매출은 $113.45억으로 YoY +10.8%, 시장 예상에 부합했다.", "조정(비GAAP) EPS는 $5.90으로 시장 예상을 크게 상회했고, 순이익은 $48.44억(YoY +73.3%)으로 앤스로픽 지분 투자 평가이익 약 $26억이 반영됐다.", "잔여계약금액(cRPO)은 통화중립 기준 YoY +14%로 가이던스를 상회했고, 최근 4년 중 최대 순신규계약(net new ARR) 분기를 기록했다.", "Agentforce 연환산 매출이 $15억을 돌파(YoY +240%)했고, Agentic Workforce Units(AWU)는 +97% 성장했다.", "FY2027 매출 가이던스를 약 $3억 상향(신규 범위 $461억~$464억)했고, 조정 EPS 가이던스도 $16.67~16.71로 상향(기존 시장 예상 $14.16을 크게 상회)했다.", "실적 발표 다음날인 2026-08-27 정규장에서 주가가 +22.6%~23% 급등해 $252.10에 마감했다.", "실적 발표와 함께 앤스로픽과의 AI 협력 파트너십도 공개됐다."],
+        why: ["8/13 경영진 교체(엔지니어링·고객성공 총괄 사임), 8/26 직전 'Agentforce 성장 증거 부족' 애널리스트 연속 하향 등으로 주가가 눌려 있었는데, 이번 실적에서 Agentforce 매출이 YoY +240%로 급성장하고 있다는 게 숫자로 확인되면서 그간의 AI 성장 둔화 우려가 정면으로 반박됐다."],
+        beginner: ["세일즈포스 성적표에서 이익이 예상보다 훨씬 잘 나왔고, 특히 AI 서비스(Agentforce)로 버는 돈이 1년 만에 3배 넘게 늘었다는 게 확인됐어요. 최근까지 'AI로 돈을 잘 못 벌고 있는 것 아니냐'는 걱정이 많았는데, 실제 숫자로 그게 틀렸다는 게 드러나면서 주가가 하루 만에 23%나 뛰었어요. 클로드를 만드는 AI 회사 앤스로픽과 협력한다는 소식도 함께 나와서 힘을 보탰어요."],
+        interpretation: "8/26 직전 기록됐던 'AI 성장 증거 부족' 우려와 경영진 공백발 불안이 이번 실적으로 상당 부분 해소됐다. Agentforce의 실질적 매출 기여(+240% YoY)가 숫자로 증명된 점이 핵심이며, 단순 반등이 아니라 그간의 우려가 과도했음을 보여주는 사례로 볼 수 있다.",
+        decision: "하루 +23% 급등 이후 단기 과열 가능성이 있으므로 추격매수보다는 상승분이 며칠간 유지되는지, cRPO·Agentforce 성장률이 다음 분기에도 이어지는지 확인 후 판단할 것.",
+        watch: ["앤스로픽 파트너십 구체 내용(투자 규모·협력 범위) 후속 발표", "다음 분기 Agentforce/AWU 성장률 지속 여부", "8/5 사임한 엔지니어링·고객성공 총괄 후임 관련 소식"],
+        confidence: "매출·EPS·가이던스·Agentforce 성장률 수치는 회사 공식 보도자료(salesforce.com) 기준으로 신뢰도 높음. 주가 반응폭(+22.6~23%)은 Yahoo Finance·Motley Fool·Seeking Alpha 등 복수 매체 교차 확인.",
+        sources: [
+        {title:"Salesforce Delivers Record Second Quarter Fiscal 2027 Results (Salesforce Newsroom)", url:"https://www.salesforce.com/news/press-releases/2026/08/26/fy27-q2-earnings/"},
+        {title:"Stock Market Today, Aug. 27: Salesforce Surges 23% on Anthropic Partnership and Q2 Earnings Beat (Motley Fool)", url:"https://www.fool.com/coverage/stock-market-today/2026/08/27/stock-market-today-aug-27-salesforce-surges-23-on-anthropic-partnership-and-q2-earnings-beat/"},
+        {title:"Salesforce soars 23% on earnings beat and AI partnership (Seeking Alpha)", url:"https://seekingalpha.com/news/4637700-salesforce-soars-23-on-earnings-beat-and-ai-partnership"},
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] AI(Agentforce) 성장 증거 부족으로 애널리스트 연속 하향 - 낙폭과다가 정당화되는 우려 사례",
@@ -1991,6 +2081,22 @@ const BUSINESS_NOTES = {
       {title:"Broadcom Q2 FY 2026: VMware Stability Supports AI-Led Semiconductor Expansion (Futurum Group)", url:"https://futurumgroup.com/insights/broadcom-q2-fy-2026-vmware-stability-supports-ai-led-semiconductor-expansion/"},
     ],
     newsLog: [
+      {
+        date: "2026-09-02",
+        headline: "[예정] Broadcom Q3 FY2026 실적 발표 - AI 반도체 매출 $160억(+200% YoY) 가이던스 vs 구글 공급 다변화 우려",
+        facts: ["Broadcom이 2026년 9월 2일(내일) 오후 미국 시장 마감 후 Q3 FY2026(5월 3일 마감) 실적을 발표할 예정", "회사가 사전 제시한 Q3 가이던스는 매출 $29.43억(YoY 연 84% 성장), AI 반도체 부문만 $160억(+200%대 추정) 등 극도로 공격적인 성장", "8월 20일 Marvell이 구글 TPU 커스텀칩 파트너로 진입한 워런트 계약($121.8억 규모) 발표로 Broadcom의 구글 단독 지위가 흔들린 상태", "인프라 소프트웨어(VMware 포함) 부문 성장률이 Q2에서 9%로 둔화돼, 미래 성장성에 대한 의문 제기", "고객사 집중도(상위 6곳이 전체 의존, 구글·메타·Anthropic·OpenAI+비공개 2곳)는 여전히 높은 리스크"],
+        why: ["AI 반도체 가이던스($160억, +200%)는 시장이 이미 상당 부분 반영한 상태(주가 +10% YTD vs 경쟁사 AMD +126%, Marvell +155%)라 '기대에 부응'하면 제한적 반응, '미달'하면 급락 위험", "Marvell 계약 이후 처음 나오는 공식 실적 발표이므로, CEO Hock Tan이 구글 공급 재분배 현황을 얼마나 구체적으로 설명할지가 시장 심리에 큰 영향", "인프라 소프트웨어 성장률 개선 여부가 핵심 - AI 외 사업이 둔화되면 '일시적 AI 특수'라는 평가로 이어져 밸류에이션 재평가 압박", "9월 금리 결정(FOMC 9/16~17) 앞두고 있어, 가이던스 제시 방식(보수적 vs 적극적)이 경제 전망과 결합돼 시장 해석에 영향"],
+        beginner: ["Broadcom은 AI 칩을 설계해서 구글·메타 같은 큰 회사들에 팔아요. 내일 '지난 3개월 동안 얼마나 잘 팔렸는지'를 공식으로 알려주는데(실적발표), 시장이 매우 큰 기대를 품고 있어요.", "좋은 소식은 AI 칩 주문이 엄청 많다는 것(+200% 성장). 나쁜 소식은 그동안 단독으로 구글에 팔던 칩을 이제 경쟁사(Marvell)도 팔아줄 수 있게 됐다는 것(지난 주에 터짐).", "만약 내일 실적이 기대만큼 좋으면 이미 반영됐다고 봐서 주가가 안 오를 수 있어요. 기대보다 못 좋으면 크게 떨어질 수 있고요."],
+        watch: ["Q3 AI 반도체 매출이 가이던스 $160억을 달성·초과하는지 확인", "구글·메타 등 핵심 고객사별 매출 기여도 변화(Marvell 진입으로 인한 재분배 규모)", "인프라 소프트웨어 부문 성장률(Q2에서 9%였음) 개선 여부", "Q4(8월 마감) 가이던스 - 보수적 가이던스는 '경고' 신호, 적극적 가이던스는 '자신감' 신호", "실적콜에서 Marvell 계약에 대한 CEO 코멘트(영향도 평가)"],
+        interpretation: "이번 실적 발표는 '아직 고성장 추세가 유효한가'를 시장이 확인하는 계기. Marvell 계약이 발표된 직후 첫 실적이라 CEO의 설명이 구체적일수록 시장 불확실성이 낮아짐. 다만 AI 반도체 매출 자체는 매우 높은 기대(+200%)에 이미 충분히 반영돼 있어, '상회'하지 않는 한 주가 모멘텀은 제한적일 가능성 높음.",
+        decision: "실적 발표 직후 2~3거래일이 변동성 클 시간대. 기대를 충족하면 기존 추세 연장, 미달하면 구글 공급 리스크 재평가 중심으로 하락. 현재 PER 33.8배(3년 평균 77.4배 대비 싸 보이나 과거 이익 왜곡 영향) 상태이므로, 실적 발표 후 시장 반응 방향 확인 후 판단.",
+        confidence: "Q3 실적 발표 일정(9/2), 가이던스($29.43B 매출, AI 부문 고성장)는 회사 공식 발표 기준 확정. Marvell 계약은 8/20 발표된 확인된 사실. CEO의 구체적 코멘트와 가이던스 방향은 아직 발표 전이므로 예측 성격.",
+        sources: [
+          { title: "Broadcom Q3 Earnings Preview: I See Continued Margin Contraction (SeekingAlpha)", url: "https://seekingalpha.com/article/4940074-broadcom-q3-earnings-preview-i-see-continued-margin-contraction" },
+          { title: "Broadcom Inc. Financial Results - Q2 FY2026 (Official)", url: "https://www.broadcom.com/company/news/financial-releases/64371" },
+          { title: "Broadcom stock struggles after credit concerns as AI growth outlook stays strong (Ad-hoc-news)", url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/broadcom-stock-struggles-after-credit-concerns-as-ai-growth-outlook-stays/69956521" },
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] 구글 발주 이전 우려 vs Anthropic·OpenAI 신규 AI 칩 계약 - 고객사 변동성과 수주 확대가 공존",

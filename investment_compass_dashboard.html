@@ -227,6 +227,7 @@
     </div>
     <div class="updated" id="updatedAt">아직 체크 안 함</div>
   </header>
+  <div id="dataStatusLine" class="sub" style="margin:-8px 0 12px;"></div>
 
   <div class="page-tabs" id="pageTabs">
     <div class="ptab active" onclick="switchPage('dashboard')">📊 대시보드</div>
@@ -326,6 +327,7 @@
     </div>
     <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)<br>
     <b>적정가 대비</b> = 우리 프로젝트 자체 계산식(내년 예상 EPS × 지금 PER, 증권사 목표주가·DCF 아님) 기준 할인/프리미엄 - 검증상 저평가일수록 오히려 수익률이 낮았던(밸류트랩) 지표라 매수 신호로 쓰지 마세요, 참고용 · <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
+    <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1220px;">
       <thead>
@@ -413,8 +415,20 @@
 <script src="estimates_data.js"></script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
 <script src="news_data.js" onerror="void 0"></script>
+<!-- 데이터 상태 진단(각 소스 최신성·오류) - buy_signal_telegram.py가 매 실행마다 기록해왔는데
+     화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
+<script src="data_status_data.js" onerror="void 0"></script>
+<!-- 자동 뉴스 기반 이벤트분석·변경이력 - Claude가 직접 조사하기 전 보조용(analystLog가
+     있으면 이게 아니라 그걸 우선 보여줌). 2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
+<script src="event_data.js" onerror="void 0"></script>
+<script src="event_analysis_data.js" onerror="void 0"></script>
+<script src="signal_history_data.js" onerror="void 0"></script>
 <!-- 임원/이사 내부자 거래(Form 4, SEC 공개 공시) - 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
 <script src="insider_data.js" onerror="void 0"></script>
+<!-- 내부자 거래 정밀분석(반복매도·동시매도·레벨 분류) - buy_signal_telegram.py가 위 원본
+     거래 위에 규칙 기반으로 한 단계 더 분석해서 저장해왔는데 화면 연결이 안 돼 있었음.
+     2026-08-28 화면 연결함. 없어도 대시보드는 정상 동작함 -->
+<script src="insider_analysis_data.js" onerror="void 0"></script>
 <!-- 시장 환경 지표 + 시장 헤드라인 - 없으면 '오늘의 시장 환경' 카드만 숨겨짐 -->
 <script src="market_data.js" onerror="void 0"></script>
 <!-- 종목별 가격(OHLCV) - 실시간 조회 3곳이 다 실패했을 때만 쓰는 폴백. 없어도 대시보드는 정상 동작함 -->
@@ -425,6 +439,14 @@
 <!-- Fundamental 관찰 점수(7D/30D/90D) - SEC 공시 매출·영업이익률 변화 기반, buy_signal_telegram.py가
      매시간 자동 갱신함(뉴스·API 추가 호출 없이 로컬 캐시만 사용). 없어도 대시보드는 정상 동작함 -->
 <script src="fundamental_window_scores_data.js" onerror="void 0"></script>
+<!-- 옵션 IV 기반 이번 주 예상 변동범위(시그마 밴드) - sigma_calc.py가 Yahoo 옵션체인으로 매시간
+     계산해서 저장해왔는데(2026-08-20 추가) 화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결함.
+     없어도 대시보드는 정상 동작함 -->
+<script src="sigma_data.js" onerror="void 0"></script>
+<!-- EPS 컨센서스 최근 변화 방향 - eps_revision_collector.py가 Alpha Vantage로 수집해왔는데
+     (수동 실행, 2026-08-27부터) 화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결 + 자동
+     순환 갱신 파이프라인에 연결함. 없어도 대시보드는 정상 동작함 -->
+<script src="eps_data.js" onerror="void 0"></script>
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
 <script src="kiwoom_sells_data.js" onerror="void 0"></script>
@@ -1041,7 +1063,11 @@ const HINTS = {
   targetRange: "가장 낮게/높게 제시된 목표가예요. 범위가 넓을수록 애널리스트들 의견이 엇갈린다는 뜻이에요.",
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
   insiderTrading: "이 회사의 임원·이사가 최근 자기 회사 주식을 공개시장에서 직접 사거나 판 내역이에요(SEC Form 4 공시). 스톡옵션 행사 같은 항목은 빼고 '진짜로 시장에서 사고판' 거래만 모았어요. 매수는 자기 돈을 걸었다는 뜻이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·생활자금 등 회사 전망과 무관한 이유가 흔해서 매수만큼 의미 있게 보지는 않아요.",
+  insiderAnalysis: "위 원본 거래 내역을 규칙대로 한 단계 더 분석한 거예요 - 같은 사람이 반복해서 팔았는지, 여러 명이 비슷한 시기에 같이 팔았는지, 총 매도금액이 얼마인지를 계산해서 '주의/관찰/특이 신호 없음' 3단계로 나눴어요. 확률을 새로 만든 게 아니라 이미 있는 매매 기록을 규칙대로 분류만 한 결과예요. '주의'도 그 자체로 매매 신호는 아니고, 반복·동시 매도가 있었다는 사실을 알려주는 참고 정보예요.",
+  dataStatus: "펀더멘털·실적·뉴스·시그마 등 이 도구가 쓰는 데이터 소스 12개가 최근에 정상적으로 갱신됐는지 보여줘요. 파이프라인이 통째로 멈추는 심각한 경우는 이미 별도로 텔레그램 알림이 가고, 이건 그보다 가벼운 '특정 소스 하나만 최근에 실패했다' 같은 상황을 화면에서 바로 볼 수 있게 하는 참고용 표시예요.",
   fundamentalWindow: "SEC 공시(10-Q/10-K)의 매출·영업이익률이 전년 동기 대비 크게 바뀐 적이 있으면(매출 +10%↑ 또는 -5%↓, 영업이익률 ±2%p 이상), 그 공시일로부터 7일·30일·90일 동안만 점수에 반영돼요. 뉴스 감성이나 추정이 아니라 실제 공시된 숫자만 근거로 쓰고, 90일이 지나면 자동으로 빠져요. 매매 신호가 아니라 '최근에 확인된 펀더멘털 변화가 있었는지'만 보는 참고 지표예요.",
+  sigmaBand: "이번 주(옵션 만기까지) 옵션 시장이 내재변동성(IV)으로 암묵적으로 예상하는 가격 변동 범위예요. 현재가가 ±1σ 범위 안에 있으면 흔한 변동 폭 안이라는 뜻이고, ±2σ를 벗어나 있으면 옵션 시장 기준으로 이례적으로 크게 움직인 상태예요. 그 자체로 매수·매도 신호는 아니고, 지금 변동성이 평소보다 큰지 참고하는 지표예요. 옵션 거래가 얇은 종목은 신뢰할 만한 호가를 못 구해서 계산 자체가 안 될 수 있어요.",
+  epsRevision: "이 종목의 예상 EPS(주당순이익)를 애널리스트들이 최근 7·30·90일 동안 올리는 중인지 내리는 중인지 보여줘요. 위 '예상 실적 컨센서스' 표는 지금 시점 숫자만 보여주는데, 이 카드는 그 숫자가 최근에 어느 방향으로 바뀌어왔는지를 따로 봐요. Alpha Vantage 무료 API 한도 때문에 관심종목 전체를 매일 갱신하지 못하고 며칠에 걸쳐 순환 갱신돼요(카드에 갱신일이 같이 표시돼요). 매매 신호가 아니라 참고용이에요.",
   sectorFlow: "반도체 그룹과 빅테크·소프트웨어 그룹이 각각 얼마나 움직였는지예요. '신호 승률'은 5년치 실데이터로 잰 그 그룹의 단타 신호 10일 승률이라, 어느 쪽에서 이 신호가 잘 통했는지를 알 수 있어요. 상관계수는 두 그룹이 얼마나 같이 움직이는지인데, 1에 가까우면 같이 움직이고 0에 가까우면 따로 움직여요.",
   relStrength: "이 종목이 최근 20일 동안 같은 그룹(반도체 15종목 / 빅테크·SW 9종목) 평균보다 얼마나 앞섰는지·뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 뒤처진 상태의 신호는 전체 승률이 57%로 낮았어요(나머지 69%). 다만 그룹을 나눠 보면 빅테크·SW에서만 확실히 갈렸고(51% vs 60%) 반도체에서는 차이가 작아서(66% vs 70%), 반도체 종목에서는 참고 수준으로만 보세요.",
   marketNews: "시장 전체 헤드라인이에요(특정 종목이 아니라 시장 전반). 위 지표가 크게 움직인 날 '무슨 일이 있었는지'를 여기서 확인하세요. 이 도구는 뉴스를 읽고 원인을 자동으로 판단하지는 않아요 - 숫자가 어떻게 움직였는지만 보여주고, 이유는 직접 확인하시는 구조예요.",
@@ -1723,6 +1749,46 @@ async function analyzeTicker(ticker, env){
   };
 }
 
+// ============ 스캔 결과 로컬 캐시 (2026-08-28 추가) ============
+// [배경] 사용자 리포트: "크롬으로 접속해두고 잠깐 다른 거 하다가 나갔다 들어오면 다시 '시장
+// 환경 조회 중...'부터 다시 기다려야 해서 불편하다." 페이지에 visibilitychange 리스너는 없어서
+// JS가 재조회를 시키는 게 아니라, 크롬이 백그라운드 탭을 메모리 절약 목적으로 통째로 버렸다가
+// (탭 디스카딩) 다시 보면 페이지 전체를 처음부터 새로 불러오는 것 - 그래서 매번 스캔 41종목을
+// 처음부터 다시 기다리게 됨. 근본 원인(크롬의 탭 관리)은 이 페이지 코드로 막을 수 없어서,
+// 대신 "다시 열렸을 때 마지막으로 성공한 결과를 즉시 보여주고, 뒤에서 조용히 새로고침"하는
+// 방식으로 체감 대기시간을 없앰. localStorage 용량 제한(브라우저마다 다름, 보통 5~10MB)을
+// 넘으면 저장이 조용히 실패할 수 있는데, 그래도 이후 스캔은 항상 정상 동작함(캐시는 보너스).
+const SCAN_CACHE_KEY = 'compass_scan_cache_v1';
+function saveScanCache(){
+  try{
+    localStorage.setItem(SCAN_CACHE_KEY, JSON.stringify({results, marketEnv, ts: Date.now()}));
+  }catch(e){
+    console.warn('스캔 결과 캐시 저장 실패(다음 스캔엔 영향 없음):', e);
+  }
+}
+function loadScanCache(){
+  try{
+    const raw = localStorage.getItem(SCAN_CACHE_KEY);
+    if(!raw) return null;
+    const parsed = JSON.parse(raw);
+    if(!parsed || !parsed.results || !parsed.marketEnv || !parsed.ts) return null;
+    return parsed;
+  }catch(e){
+    return null;
+  }
+}
+function restoreFromScanCache(cache){
+  results = cache.results;
+  marketEnv = cache.marketEnv;
+  renderAnomalyBanner();
+  renderSummary();
+  renderThemeFilter();
+  renderTable();
+  renderHoldings();
+  document.getElementById('updatedAt').textContent =
+    '마지막 체크: ' + new Date(cache.ts).toLocaleString('ko-KR') + ' (저장된 화면 · 새로 불러오는 중...)';
+}
+
 async function scanAll(){
   const btn = document.getElementById('scanBtn');
   const status = document.getElementById('scanStatus');
@@ -1768,6 +1834,7 @@ async function scanAll(){
     renderThemeFilter();
     renderTable();
     renderHoldings();
+    saveScanCache();
   }catch(e){
     status.innerHTML = `<div class="err">전체 스캔 실패: ${e.message}</div>`;
   }finally{
@@ -1822,6 +1889,64 @@ function directionBadge(ticker){
 }
 
 // ============ 요약 렌더 ============
+// ============ 최근 단타 신호 로그 - 전 종목 (2026-08-28 추가) ============
+// [배경] 사용자 요청: "그날 확인 못 하면 놓쳐서, 다음날 많이 안 올랐거나 마이너스로 갔을 때
+// 그때라도 들어갈 수 있게" 최근 신호를 며칠간 화면에 남겨달라고 함. 기존 '오늘 새로 난 단타
+// 진입 자리'는 그날 하루만 칩으로 보이고, 다음날부턴 '지난 신호의 연장 N개(이름만)'로 뭉개지거나
+// 아예 사라졌음. 새 신호 판정 로직을 새로 만들지 않고, 이미 검증된 entryFlags(쿨다운 적용된
+// 실제 진입 시점, 66% 승률의 근거)를 종목별 상세 탭의 '최근 단타 신호'와 동일하게 재사용해서
+// 전 종목 기준으로 모아 첫 화면에 보여줌.
+// 표시 기간은 검증된 평가기간과 맞춤(10거래일 - 그 뒤로도 안 팔았다고 가정한 승률 66%의 기준
+// 그 자체). 사용자가 말한 "1주일 정도"보다 며칠 더 긴데, 임의로 자르지 않고 이미 검증된 평가
+// 기간을 그대로 써서 "그 신호가 검증 기준으로 아직 유효한 기간인지"를 정확히 보여주려 함.
+// 상태 판정도 새 확률을 지어내지 않고 이미 있는 값만 사용:
+//  · 10거래일 이내면 '진행 중'
+//  · 그중 '우상향 눌림목'으로 잡힌 신호가 그 사이 200일선 아래로 내려가 우상향 전제 자체가
+//    깨지면 '중단(조건 깨짐)' - 사용자가 말한 "시점이 변화가 생기면"에 해당하는, 신호 정의에
+//    이미 들어있던 전제가 무너진 경우만 표시(임의의 손절 % 같은 새 기준을 만들지 않음)
+//  · 10거래일이 지나면 '평가 종료'로 표기하고 최종 결과(%)를 그대로 보여줌
+const RECENT_SIGNAL_LOG_MAX = 20;
+function buildRecentSignalLogHtml(scored){
+  const items = [];
+  scored.forEach(r=>{
+    const ts = r.series && r.series.techSeries;
+    if(!ts || !ts.entryFlags) return;
+    const closes = r.series.closes, dates = r.series.dates, ma200 = ts.ma200;
+    const lastIdx = closes.length - 1;
+    for(let i=0;i<ts.entryFlags.length;i++){
+      if(!ts.entryFlags[i]) continue;
+      const ago = lastIdx - i;
+      if(ago > 10) continue;  // 검증된 평가기간(10거래일)을 넘으면 로그에서 자연스럽게 빠짐
+      const since = (closes[lastIdx]-closes[i])/closes[i]*100;
+      const wasUptrend = ma200 && ma200[i]!=null && closes[i]>ma200[i];
+      const nowUptrend = r.ma200Pct!=null && r.ma200Pct>=0;
+      const strong = ts.scores[i]>=2;
+      let status, statusColor;
+      if(ago>=10){ status = '평가 종료(10거래일)'; statusColor = 'var(--sub)'; }
+      else if(wasUptrend && !nowUptrend){ status = '중단(우상향 전제 깨짐)'; statusColor = 'var(--down)'; }
+      else{ status = '진행 중'; statusColor = 'var(--up)'; }
+      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor});
+    }
+  });
+  const head = `<div class="sub" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line);margin-bottom:4px;">
+    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요)</span>
+  </div>`;
+  if(!items.length){
+    return `${head}<div class="sub">최근 10거래일 안에는 단타 진입 신호가 없었어요.</div>`;
+  }
+  items.sort((a,b)=> a.ago - b.ago);
+  const rows = items.slice(0, RECENT_SIGNAL_LOG_MAX).map(it=>`
+    <div class="fund-row" style="align-items:flex-start;">
+      <span style="flex:1;">
+        <b style="cursor:pointer;" onclick="openDetail('${it.ticker}')">${it.ticker}</b> · ${it.date} · $${it.price.toFixed(2)}
+        ${it.strong?'<span class="badge b-strong-buy" style="margin-left:4px;">강한</span>':''}
+        <span class="sub" style="display:block;">${it.ago===0?'오늘':`${it.ago}거래일 전`} · <span style="color:${it.statusColor};font-weight:600;">${it.status}</span></span>
+      </span>
+      <span class="v" style="text-align:right;white-space:nowrap;color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%</span>
+    </div>`).join('');
+  return `${head}${rows}
+    ${items.length>RECENT_SIGNAL_LOG_MAX ? `<div class="sub" style="margin-top:4px;">+${items.length-RECENT_SIGNAL_LOG_MAX}개 더 있어요 - 아래 비교 표에서 개별 종목을 확인하세요.</div>` : ''}`;
+}
 function renderSummary(){
   const card = document.getElementById('summaryCard');
   card.style.display = 'block';
@@ -1894,6 +2019,7 @@ function renderSummary(){
         ? `<div class="rec-list">${chips}</div>`
         : `<span class="sub">오늘은 새로 난 진입 자리가 없어요 - 종목당 연 3.2회뿐인 희귀 신호라 흔한 일이에요. <b>단기 신호가 없어도 위 ① 장기 눌림목 점수가 매수관심 이상이면 6~12개월 관점에서는 이미 매수를 고려할 구간</b>이에요 - 단기 신호는 그 안에서 타이밍을 더 좁혀주는 보조 지표일 뿐, 없다고 매수관심 종목까지 거를 필요는 없어요.</span>`}
       ${cont.length ? `<div class="sub" style="margin-top:6px;">조건은 유지 중이지만 <b>지난 신호의 연장</b>인 종목 ${cont.length}개(${cont.map(r=>r.ticker).join(', ')}) — 새 진입 자리는 아니에요.</div>` : ''}
+      ${buildRecentSignalLogHtml(scored)}
       ${watchHtml}`;
   }
 
@@ -1960,7 +2086,29 @@ function jumpToTickerInTable(ticker, key){
     setTimeout(()=>row.classList.remove('row-flash'), 1800);
   }
 }
+// ============ 시장 전체 시그마 요약 (2026-08-28 추가) ============
+// [배경] gpt_dashboard의 MarketSigmaSummary 개념 - 개별 종목 카드(renderSigmaBand)만으로는
+// "관심종목 전체를 봤을 때 지금 시장이 한쪽으로 몰려있는지"를 한눈에 보기 어려워서, 비교
+// 테이블 위에 요약 한 줄을 추가함. 필터·클릭 인터랙션 없이 숫자만 보여주는 참고용 - 매매
+// 신호 아님. 옵션 거래가 얇아 계산 자체가 안 된 종목은 분모(계산 가능 종목수)에서만 빠짐.
+function renderMarketSigmaSummary(){
+  const el = document.getElementById('marketSigmaSummary');
+  if(!el) return;
+  if(typeof SIGMA_DATA === 'undefined'){ el.innerHTML = ''; return; }
+  const rows = Object.values(results).filter(r=>!r.error);
+  const scored = rows.map(r=>SIGMA_DATA[r.ticker]).filter(s=>s && s.sigmaScore!=null);
+  if(!rows.length || !scored.length){ el.innerHTML = ''; return; }
+  const avg = scored.reduce((a,s)=>a+s.sigmaScore,0) / scored.length;
+  const below1 = scored.filter(s=>s.sigmaScore<=-1).length;
+  const below15 = scored.filter(s=>s.sigmaScore<=-1.5).length;
+  const above1 = scored.filter(s=>s.sigmaScore>=1).length;
+  const read = below15 >= Math.max(3, Math.round(scored.length*0.2))
+    ? '여러 종목이 동시에 이번 주 옵션 IV 기준 이례적 하락 구간이에요 - 개별 악재만이 아니라 시장 공통 원인도 같이 확인해보세요.'
+    : '지금은 시장 전체가 한쪽으로 크게 몰린 상태는 아니에요.';
+  el.innerHTML = `<b>시장 전체 시그마 요약</b>(옵션 IV로 계산 가능했던 ${scored.length}/${rows.length}종목 기준) ${hintIcon('sigmaBand')} · 평균 ${avg>=0?'+':''}${avg.toFixed(2)}σ · -1σ 이하 ${below1}개 · -1.5σ 이하 ${below15}개 · +1σ 이상 ${above1}개<br>${read}`;
+}
 function renderTable(){
+  renderMarketSigmaSummary();
   const table = document.getElementById('resultTable');
   const body = document.getElementById('resultBody');
   const themeFilter = document.getElementById('themeFilter').value;
@@ -2256,6 +2404,7 @@ function tabJudgement(r){
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
     ${whyNowSummaryHtml(r)}
     <div style="margin-top:14px;">${renderViewLog(r.ticker)}</div>
+    ${renderSigmaBand(r.ticker)}
     <div class="row" style="justify-content:space-between;align-items:baseline;margin-top:14px;flex-wrap:wrap;gap:6px;">
       <div class="chart-label" style="margin-top:0;">캔들차트${chartTimeframe==='D' ? ' · 20일 이동평균선(주황)' + (longHistoryCache[r.ticker] ? '' : ' · <span style="color:var(--green);">▲</span> 과거 단타 매수신호') : ` · ${{'W':'20주','M':'20개월','Y':'20년'}[chartTimeframe]} 이동평균선(주황, 매수신호 마커는 일봉에서만 표시돼요)`} — ${IS_TOUCH ? '차트를 톡 누르면 그날 정보가 아래에 나와요 (끌면 좌우 이동)' : '차트를 클릭하면 그 구간이 확대돼요'}</div>
       <div class="toggle-row" style="margin-top:0;">
@@ -3398,6 +3547,45 @@ function renderAnomalyBanner(){
 function openDetailNews(ticker){
   openDetail(ticker);
   switchTab(ticker, '06');
+}
+// ============ 데이터 상태 표시 (2026-08-28 화면 연결) ============
+// [배경] DATA_STATUS(data_status_data.js)는 buy_signal_telegram.py가 매 실행마다 "각 데이터
+// 소스가 최근에 정상적으로 갱신됐는지"를 기록해온 진단 파일(펀더멘털·실적·뉴스·시그마 등 12개
+// 소스)인데 화면에 연결이 안 돼 있어서, 사용자가 뭔가 이상하다고 느끼면 매번 물어봐야만 확인할
+// 수 있었음. 파이프라인이 통째로 멈추는 심각한 경우는 이미 텔레그램 하트비트 알림(2026-08-28
+// 추가)이 잡아주므로, 이건 그보다 가벼운 "소스 하나만 부분 실패" 같은 경우를 화면에서 바로
+// 볼 수 있게 하는 보완재 - 새 판정 기준을 만들지 않고 각 소스에 이미 있는
+// warningAfterHours/criticalAfterHours 임계값을 그대로 사용함.
+function sourceHealthLevel(src){
+  const now = Date.now()/1000;
+  const last = src.lastSuccessAt || src.lastAttemptAt;
+  const hoursSince = last ? (now-last)/3600 : Infinity;
+  if(src.status === 'error' || hoursSince > (src.criticalAfterHours ?? Infinity)) return 'critical';
+  if(src.status === 'partial' || hoursSince > (src.warningAfterHours ?? Infinity)) return 'warning';
+  return 'ok';
+}
+function renderDataStatusLine(){
+  const el = document.getElementById('dataStatusLine');
+  if(!el) return;
+  if(typeof DATA_STATUS === 'undefined' || !DATA_STATUS || !DATA_STATUS.sources){ el.innerHTML = ''; return; }
+  const sources = Object.values(DATA_STATUS.sources);
+  if(!sources.length){ el.innerHTML = ''; return; }
+  const withLevel = sources.map(s=>({...s, level: sourceHealthLevel(s)}));
+  const bad = withLevel.filter(s=>s.level!=='ok');
+  const fmtAgo = s=>{
+    const last = s.lastSuccessAt || s.lastAttemptAt;
+    if(!last) return '기록 없음';
+    const h = (Date.now()/1000 - last)/3600;
+    return h<1 ? '1시간 이내' : `${Math.round(h)}시간 전`;
+  };
+  if(!bad.length){
+    el.innerHTML = `<span style="color:var(--up);">●</span> 데이터 상태: 전체 정상(${sources.length}개 소스) ${hintIcon('dataStatus')}`;
+    return;
+  }
+  const worst = bad.some(s=>s.level==='critical') ? 'critical' : 'warning';
+  const color = worst==='critical' ? 'var(--down)' : '#876000';
+  const items = bad.map(s=>`${esc(s.label)}(${fmtAgo(s)}${s.lastError?' · '+esc(s.lastError):''})`).join(', ');
+  el.innerHTML = `<span style="color:${color};">●</span> 데이터 상태: ${bad.length}개 소스 지연·부분실패 - ${items} ${hintIcon('dataStatus')}`;
 }
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
@@ -4546,6 +4734,50 @@ function dataQualityNotes(ticker, fund){
 // 7/30/90일 동안만 점수에 반영됨(지나면 자동으로 빠짐). 계산은 fundamental_window_scoring.py.
 // ⚠️ 이 프로젝트 캐시엔 매출총이익(gross profit)이 없어서 영업이익률로 대체함(요약 문구에 명시).
 // 공시가 없으면 점수를 추측하지 않고 그대로 0/보류로 둠 - 매매 신호 아님.
+// ============ 옵션 IV 기반 이번 주 예상 변동범위 (2026-08-20 계산 시작, 2026-08-28 화면 연결) ============
+// [배경] sigma_calc.py가 Yahoo 옵션체인 내재변동성(IV)으로 "이번 주 옵션 만기까지 정상적으로
+// 예상되는 가격 변동 범위(±1σ/1.5σ/2σ)"를 매시간 계산해서 sigma_data.js에 저장해왔는데, sigma
+// 데이터가 6개 종목(PWR·HUBB·MOD·EME·FIX·SBGSY)에서만 계속 비어있는 걸 조사하다가, 사실은
+// 이 계산 결과 자체가 39종목 전체 기준으로 대시보드 화면 어디에도 연결이 안 돼 있었다는 걸
+// 발견함(그 6종목만 안 보인 게 아니라 전부 다 안 보이고 있었음). 계산은 이미 잘 되고 있었으므로
+// 화면에 보여주는 렌더 함수만 새로 추가함.
+// ============ EPS 컨센서스 최근 변화 방향 (2026-08-28 화면 연결) ============
+// [배경] eps_revision_collector.py가 Alpha Vantage 무료 API로 "지금 EPS 전망치가 최근
+// 7/30/90일 동안 오르는 중인지 내리는 중인지"를 이미 수집해서 eps_data.js에 저장해왔는데
+// (2026-08-27부터), 화면 어디에도 연결이 안 돼 있었음(sigma와 같은 패턴). 05 전망 탭의
+// "예상 실적 컨센서스" 표는 지금 시점 스냅샷만 보여주므로, 이 카드는 그 숫자가 "최근에 어느
+// 방향으로 움직여왔는지"를 보여주는 서로 다른 정보로 같이 둠. 무료 API 하루 한도(25회) 때문에
+// 관심종목 41개를 하루에 다 못 받아서 며칠에 걸쳐 순환 갱신되므로 갱신일을 같이 보여줌.
+function renderEpsRevision(ticker){
+  const e = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
+  if(!e || e.epsNow == null) return '';
+  const arrow = {'상향':'▲','하향':'▼','보합':'－','혼조':'?','정보없음':''}[e.direction] || '';
+  const color = e.direction==='상향' ? 'var(--up)' : (e.direction==='하향' ? 'var(--down)' : 'var(--sub)');
+  const trail = [e.eps90d, e.eps60d, e.eps30d, e.epsNow].map(v=>v!=null?'$'+v.toFixed(2):'-').join(' → ');
+  const chg = e.change90dPct!=null ? `${e.change90dPct>=0?'+':''}${e.change90dPct.toFixed(1)}%` : '-';
+  let updLabel = '';
+  try{
+    const days = Math.floor((Date.now() - new Date(e.updatedAt).getTime()) / 86400000);
+    updLabel = days<=0 ? '오늘 갱신' : `${days}일 전 갱신`;
+  }catch(err){}
+  return `<div class="chart-label">EPS 컨센서스 최근 변화 방향 (${esc(e.targetLabel||'')}) ${hintIcon('epsRevision')}</div>
+    <div class="sub" style="margin-bottom:10px;">3개월 추이 ${trail} <span style="color:${color};font-weight:600;">${arrow} ${esc(e.note||'')}</span> · 3개월 변화 ${chg} · 최근 30일 상향 ${e.revisionUp30}명 / 하향 ${e.revisionDown30}명 · ${updLabel}</div>`;
+}
+function renderSigmaBand(ticker){
+  const s = (typeof SIGMA_DATA !== 'undefined') ? SIGMA_DATA[ticker] : null;
+  if(!s) return '';
+  if(s.status === 'unavailable' || s.impliedVolatility == null){
+    return `<div class="sub" style="margin:10px 0;">이번 주 옵션 IV 기반 예상 변동범위: ${esc(s.unavailableReason || '옵션 데이터 부족으로 계산 불가')}${s.qualityDetail ? ' - ' + esc(s.qualityDetail) : ''}</div>`;
+  }
+  const fmt = v => v!=null ? '$'+v.toFixed(2) : '-';
+  const scoreLabel = s.sigmaScore!=null ? `${s.sigmaScore>=0?'+':''}${s.sigmaScore.toFixed(2)}σ` : '-';
+  const attention = s.status === '관심';
+  const statusColor = attention ? 'var(--down)' : 'var(--sub)';
+  return `<div class="sub" style="margin:10px 0 4px;">이번 주 예상 변동범위(옵션 IV 기준${s.expirationDate?', '+esc(s.expirationDate)+' 만기':''}) ${hintIcon('sigmaBand')}</div>
+    <div class="fund-row"><span>±1σ 범위</span><span class="v">${fmt(s.lower1Sigma)} ~ ${fmt(s.upper1Sigma)}</span></div>
+    <div class="fund-row"><span>±2σ 범위</span><span class="v">${fmt(s.lower2Sigma)} ~ ${fmt(s.upper2Sigma)}</span></div>
+    <div class="fund-row"><span>현재 위치</span><span class="v" style="color:${statusColor};">${scoreLabel}${attention ? ' · 평소보다 크게 움직인 상태' : ''}</span></div>`;
+}
 function renderFundamentalWindowScores(ticker){
   const rec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[ticker] : null;
   if(!rec) return '';
@@ -4623,11 +4855,44 @@ function renderBusinessNotes(ticker){
 // 자동 매일 갱신 아님 - business_notes_data.js와 동일하게 Claude가 세션에서 조사해 수동으로 추가.
 // 날짜순으로 계속 쌓아가는 로그 방식이라(덮어쓰지 않음) 이 자체가 "업데이트 내역"이기도 함.
 // 가독성보다 정보 밀도를 우선한 문체로 씀(사용자 요청 - 본인과 Claude만 이해하면 된다고 명시함).
+// ============ 자동 뉴스 기반 관찰 (2026-08-28 화면 연결, 보완용) ============
+// [배경] event_analysis_data.js/signal_history_data.js는 뉴스를 자동 분류해서 "장기 경쟁력·
+// 성장성·리스크" 같은 항목별 점수를 매기고, 그 점수가 바뀔 때마다 계기(뉴스)를 기록해온
+// 자동화 파이프라인인데(update_event_analysis/update_signal_history, buy_signal_telegram.py)
+// 화면에 연결이 안 돼 있었음. Claude가 직접 조사해서 쓰는 「실적 해석·전망」(analystLog)이
+// 더 신뢰도 높은 1차 정보라 그게 있으면 이 자동 관찰은 안 보여주고, Claude가 아직 조사하지
+// 않은 종목(예: 막 추가한 신규 관심종목)에서만 빈 자리를 채우는 보조 정보로 보여줌.
+// ⚠️ netScore·factors는 뉴스를 규칙대로 가중합산한 값이라 백테스트로 검증된 승률이 아님 -
+// 그 자체를 매매 신호로 쓰면 안 되고 "최근 뉴스 흐름이 어느 쪽으로 쏠렸는지" 참고만 하도록
+// 문구에 명시함.
+function autoSignalNoteHtml(ticker){
+  const rec = (typeof EVENT_ANALYSIS_DATA !== 'undefined' && EVENT_ANALYSIS_DATA && EVENT_ANALYSIS_DATA.records) ? EVENT_ANALYSIS_DATA.records[ticker] : null;
+  if(!rec) return '';
+  const history = (typeof SIGNAL_HISTORY_DATA !== 'undefined' && SIGNAL_HISTORY_DATA && SIGNAL_HISTORY_DATA.records) ? (SIGNAL_HISTORY_DATA.records[ticker] || []) : [];
+  const latest = history[0];
+  const topFactors = Object.values(rec.factors || {})
+    .filter(f => Math.abs(f.score) >= 1)
+    .sort((a,b) => Math.abs(b.score) - Math.abs(a.score))
+    .slice(0, 3);
+  const factorTxt = topFactors.length
+    ? topFactors.map(f => `${esc(f.label)} ${f.score>=0?'+':''}${f.score.toFixed(1)}`).join(' · ')
+    : '두드러진 항목 없음';
+  const newsLink = (latest && latest.newsUrl && /^https?:\/\//i.test(latest.newsUrl))
+    ? ` - <a href="${esc(latest.newsUrl)}" target="_blank" rel="noopener noreferrer nofollow">${esc(latest.newsHeadline||'원문')}</a>`
+    : (latest && latest.newsHeadline ? ` - ${esc(latest.newsHeadline)}` : '');
+  const causeTxt = latest ? `<div class="sub" style="margin-top:4px;">최근 변화 계기: ${esc(latest.cause||'-')}${newsLink}</div>` : '';
+  return `<div class="sub" style="margin-bottom:12px;padding:8px 10px;background:var(--panel-2);border-radius:8px;">
+    <b>자동 뉴스 기반 관찰</b> <span style="font-weight:400;">(Claude가 아직 직접 조사하지 않은 종목이라 참고용 - 뉴스를 규칙대로 점수화한 값이고 검증된 승률은 아니에요)</span>
+    <div style="margin-top:6px;">${esc(rec.signal||'-')} · ${esc(rec.summary||'')}</div>
+    <div class="sub" style="margin-top:4px;">두드러진 항목: ${factorTxt}</div>
+    ${causeTxt}
+  </div>`;
+}
 function renderAnalystLog(ticker){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
   const log = n && n.analystLog;
   if(!log || !log.length){
-    return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(QQQ·SPY 같은 ETF는 대상이 아니에요). 필요하면 요청해서 추가할 수 있어요.</div>`;
+    return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(QQQ·SPY 같은 ETF는 대상이 아니에요). 필요하면 요청해서 추가할 수 있어요.</div>${autoSignalNoteHtml(ticker)}`;
   }
   const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
     const srcLinks = (e.sources||[]).map(s=>{
@@ -5532,6 +5797,30 @@ const TREND_PERIOD_LABEL = {'0y':'올해', '+1y':'내년', '+2y':'내후년'};
 function insiderEntry(ticker){
   return (typeof INSIDER_DATA !== 'undefined' && INSIDER_DATA) ? INSIDER_DATA[ticker] : null;
 }
+// ============ 내부자 거래 정밀분석 (2026-08-28 화면 연결) ============
+// [배경] insider_analysis_data.js가 raw Form 4 거래 내역(아래 원본 목록) 위에 한 단계 더
+// 분석해서 "같은 사람이 반복해서 파는지·여러 명이 동시에 파는지·총 매도금액이 얼마인지"를
+// 계산해 '주의/관찰/특이 신호 없음' 3단계로 분류해왔는데(update_insider_analysis,
+// buy_signal_telegram.py), 화면 어디에도 연결이 안 돼 있었음(sigma·EPS와 같은 패턴).
+// 확률을 새로 만든 게 아니라 이미 있는 매매 기록을 규칙대로 분류만 한 결과라 그대로 노출함.
+function insiderAnalysisHtml(ticker){
+  const rec = (typeof INSIDER_ANALYSIS_DATA !== 'undefined' && INSIDER_ANALYSIS_DATA && INSIDER_ANALYSIS_DATA.records) ? INSIDER_ANALYSIS_DATA.records[ticker] : null;
+  if(!rec || !rec.saleCount) return '';
+  const levelStyle = {
+    '주의': {color:'var(--down)', bg:'var(--warn-bg)'},
+    '관찰': {color:'#876000', bg:'var(--warn-bg)'},
+  }[rec.level] || {color:'var(--sub)', bg:'var(--panel-2)'};
+  const repeatedTxt = (rec.repeatedSellers && rec.repeatedSellers.length)
+    ? `${esc(rec.repeatedSellers.join(', '))} - 반복 매도`
+    : '반복 매도자 없음';
+  return `<div class="sub" style="margin-bottom:4px;">
+      <span class="badge" style="background:${levelStyle.bg};color:${levelStyle.color};border-color:transparent;padding:2px 8px;">${esc(rec.level)}</span>
+      최근 90일 매도 ${rec.saleCount}건 · 총 $${fmtUsd(rec.totalSaleValue)} · 매도자 ${rec.peopleCount}명 ${hintIcon('insiderAnalysis')}
+    </div>
+    <div class="sub" style="margin-bottom:4px;">${repeatedTxt}${rec.simultaneous ? ' · 여러 명이 비슷한 시기에 동시 매도' : ''}</div>
+    <div class="sub" style="margin-bottom:6px;">${esc(rec.interpretation)}</div>
+    ${(rec.limitations && rec.limitations.length) ? `<details style="margin-bottom:8px;"><summary style="cursor:pointer;" class="sub">분석의 한계 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;color:var(--sub);">${rec.limitations.map(l=>`<li>${esc(l)}</li>`).join('')}</ul></details>` : ''}`;
+}
 function insiderTradingHtml(ticker){
   const e = insiderEntry(ticker);
   const txs = e && e.transactions;
@@ -5552,12 +5841,14 @@ function insiderTradingHtml(ticker){
     <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">
     <div class="chart-label">내부자 거래(경영진 매수/매도) ${hintIcon('insiderTrading')}</div>
     <div class="sub" style="margin-bottom:4px;">최근 90일 <b style="color:${netColor};">${netLabel}</b> (매수 ${buyShares.toLocaleString()}주 · 매도 ${sellShares.toLocaleString()}주) · SEC 공시(Form 4) 공개시장 거래만 - 스톡옵션 행사 등은 제외</div>
+    ${insiderAnalysisHtml(ticker)}
     ${rows}
     <div class="sub" style="margin-top:6px;">경영진 매수는 자기 돈을 회사에 거는 것이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·개인 자금 필요 등 회사 전망과 무관한 이유가 흔해 매수만큼 의미 있게 보지는 않아요 - 그 자체로 매매 신호는 아니에요.</div>`;
 }
 function tabForecast(r){
   const analystLogHtml = renderAnalystLog(r.ticker);
   const insiderHtml = insiderTradingHtml(r.ticker);
+  const epsRevisionHtml = renderEpsRevision(r.ticker);
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || est.targetMean==null){
     // 2026-08-11 수정: ttmFallbackHtml()과 동일한 이유로 - 관심종목이 아니라서 캐시가 아예
@@ -5565,7 +5856,7 @@ function tabForecast(r){
     const reason = isAdHocTicker(r.ticker)
       ? `이 종목은 관심종목이 아니라 애널리스트 컨센서스 캐시가 없어요 - 밸류에이션/실적/전망 같은 펀더멘털은 관심종목(워치리스트)만 서버에서 미리 조회해둬요. 이 종목을 계속 보고 싶으면 config.json의 워치리스트에 추가하는 게 방법이에요(요청하면 대신 추가해드려요).`
       : `이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).`;
-    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>${insiderHtml}`;
+    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>${epsRevisionHtml}${insiderHtml}`;
   }
   const upside = (est.targetMean - r.price) / r.price * 100;
   const revCurrency = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
@@ -5597,6 +5888,7 @@ function tabForecast(r){
       </div>
     </div>
     ${forecastComment(est, r)}
+    ${epsRevisionHtml}
     <div class="chart-label">예상 실적 · 컨센서스</div>
     <div style="overflow-x:auto;">
     <table style="min-width:560px;">
@@ -5649,6 +5941,7 @@ renderTdKeyStatus();
 renderCustomTickerList();
 renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
 if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
@@ -5657,6 +5950,11 @@ if(savedFgi) document.getElementById('fgiManualInput').value = savedFgi;
 // 이건 여전히 '조회 시점 실시간 계산'(CLAUDE.md 원칙)이라 완전한 사전계산·즉시표시는 아니고,
 // 스캔 자체를 자동으로 트리거해서 "버튼을 안 눌러도 된다"는 요청만 그대로 반영함 - 신선도나
 // 계산 방식은 기존과 동일(장중 실시간 프록시 조회), 버튼도 재실행용으로 그대로 남겨둠.
+// 2026-08-28 추가: 저장된 스캔 캐시가 있으면 먼저 그걸로 즉시 화면을 채우고(크롬 탭 디스카딩 후
+// 재진입 시 "조회 중..."부터 다시 기다리지 않게), 그 뒤에도 scanAll()은 항상 그대로 실행해서
+// 최신 데이터로 조용히 갱신함 - 신선도·계산 방식은 기존과 동일, 체감 대기시간만 없앤 것.
+const _scanCache = loadScanCache();
+if(_scanCache) restoreFromScanCache(_scanCache);
 scanAll();
 </script>
 </body>
