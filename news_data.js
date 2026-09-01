@@ -4686,7 +4686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -4702,11 +4702,73 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple Alleges Defendant In Trade Secret Case Against OpenAI Accessed Power Converter Circuit Schematic While At OpenAI; Alleges Defendant In Trade Secret Case Against OpenAI Trained AI Agent Using Pro",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=577062a90969964beaea43743d931e622f2a563a24c7878335925ff6b13fb032",
-        "datetime": 1788192877,
-        "relevance": 0.29,
+        "headline": "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
+        "datetime": 1788292404,
+        "relevance": 0.71,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AAPL 주식, 한 달 만에 최고의 날 기록 – CEO John Ternus는 직원들에게 첫 번째 메모로 '경이로운' iPhone 출시를 선전했다고 합니다. 신규 에이전트 연결 Trending News Earnings All DIA 0.84% ​​SPY 0.81% QQQ 1.35% Trending DELL 7.32% QQQ 1.35%",
+            "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. John Ternus CEO는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 선전했다고 합니다. John Ternus가 9월 1일 Tim Cook에서 Apple의 CEO로 취임했습니다.",
+            "Apple의 CEO인 Tim Cook(오른쪽)이 2026년 7월 7일 Sun Valley Lodge에서 열린 Allen & Company Sun Valley 컨퍼런스에 도착하여 Apple의 차기 CEO인 John Ternus와 함께 걷고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.84%, 0.81%, 1.35% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.71,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.84%",
+            "0.81%",
+            "1.35%",
+            "7.32%",
+            "2.52%",
+            "5.40%",
+            "7.90%",
+            "8.77%"
+          ],
+          "sourceExcerpt": [
+            "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees New Connect your Agent Trending News Earnings All DIA 0.84% SPY 0.81% QQQ 1.35% Trending DELL 7.32% QQQ 1.35% ",
+            "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees John Ternus took over as CEO of Apple from Tim Cook on September 1.",
+            "Tim Cook (R), CEO of Apple, walks with John Ternus, incoming CEO of Apple, arrive at the Allen & Company Sun Valley Conference at the Sun Valley Lodge on July 7, 2026."
+          ],
+          "analysisUpdatedAt": 1788292842.9088662
+        },
+        "headlineKo": "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. CEO John Ternus는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 홍보했다고 합니다."
+      },
+      {
+        "headline": "Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=410ff3fbd068200e89a64174191e34fa62b9d2f01108c32223d53aa39fd8a29e",
+        "datetime": 1788290442,
+        "relevance": 0.57,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -4715,7 +4777,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple Alleges Defendant In Trade Secret Case Against OpenAI Accessed Power Converter Circuit Schematic While At OpenAI; Alleges Defendant In Trade Secret Case Against OpenAI Trained AI Agent Using Pro",
+            "Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -4739,130 +4801,312 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Alleges Defendant In Trade Secret Case Against OpenAI Accessed Power Converter Circuit Schematic While At OpenAI; Alleges Defendant In Trade Secret Case Against OpenAI Trained AI Agent Using Pro' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
+          "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788271229.1753037
+          "analysisUpdatedAt": 1788292845.0908456
         },
-        "headlineKo": "Apple은 OpenAI에 있는 동안 OpenAI 액세스 전력 변환기 회로도에 대한 영업 비밀 케이스에서 피고인을 고발합니다. Pro를 사용하여 OpenAI 훈련된 AI 에이전트에 대한 영업 비밀 케이스에서 피고인을 고발합니다."
+        "headlineKo": "애플 신임 CEO 테르누스, 첫 번째 메모에서 '경이로운' 아이폰 출시 예고"
       },
       {
-        "headline": "Tim Cook Leaves Apple 13 Times Bigger Than He Found It: 5 Milestones From His 15 Years",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=1eb2750aaf5ef074cadf4b6bba6f7bb22cde586ff9700717ec8bb6e95325a7c1",
-        "datetime": 1788190866,
+        "headline": "Apple shares climb as Ternus era begins",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
+        "datetime": 1788290100,
         "relevance": 0.29,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
-            "Tim Cook Leaves Apple 13 Times Bigger Than He Found It: 5 Milestones From His 15 Years",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 2.7%, $4.5 trillion, $32 million, $285, 4%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
           ],
           "impacts": [
             {
               "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook Leaves Apple 13 Times Bigger Than He Found It: 5 Milestones From His 15 Years' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788271230.2578886
-        },
-        "headlineKo": "팀 쿡, 발견한 것보다 13배 더 큰 사과를 남기다: 15년 동안의 5가지 이정표"
-      },
-      {
-        "headline": "QUICK SPARK: Tim Cook Sends 'Lots of Love' on Last Day as Apple CEO",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=5b660fe51012576b101bb0fd205d9a499e1923facdd09cec9f2a3d856ddce616",
-        "datetime": 1788186169,
-        "relevance": 0.29,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "QUICK SPARK: Tim Cook Sends 'Lots of Love' on Last Day as Apple CEO",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
             {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'QUICK SPARK: Tim Cook Sends 'Lots of Love' on Last Day as Apple CEO' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple shares climb as Ternus era begins' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788271231.7075105
+          "quality": "high",
+          "verifiedNumbers": [
+            "2.7%",
+            "$4.5 trillion",
+            "$32 million",
+            "$285",
+            "4%"
+          ],
+          "sourceExcerpt": [
+            "Apple shares climb as Ternus era begins | NASDAQ:AAPL, XETRA:APC What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Hardware & Electrical Equipment Written by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About this con",
+            "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
+          ],
+          "analysisUpdatedAt": 1788292847.0054345
         },
-        "headlineKo": "빠른 스파크: 팀 쿡이 애플 CEO로서 마지막 날에 '많은 사랑' 을 보냄"
+        "headlineKo": "Ternus 시대가 시작되면서 Apple 주가 상승"
       },
       {
-        "headline": "'Apple’s Phil Schiller Steps Down from Running App Store, Product Events' - Bloomberg",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f9400be64e9826a0be74e14bcfa1378e2aff2c7b3bca9382fb07c420583c6bef",
-        "datetime": 1788179608,
+        "headline": "Why Is Apple Stock Up Today?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1405a452eed0c74567b87f6ae44d6571d7219b96ceef0b279ca811678f548f2d",
+        "datetime": 1788289408,
         "relevance": 0.29,
-        "headlineKo": "'애플의 필 쉴러가 앱스토어, 제품 이벤트 실행에서 물러나다' - 블룸버그"
+        "headlineKo": "오늘 Apple 주식이 상승하는 이유는 무엇입니까?"
       },
       {
-        "headline": "End of an era at Apple: Tim Cook's last day as CEO",
-        "source": "CNBC",
-        "url": "https://finnhub.io/api/news?id=ef431aa85514a3f4392c6880b48b8cbec15a10ef463b014e9387c1256ab35d9c",
-        "datetime": 1788168521,
+        "headline": "Market Chatter: Apple Reshapes Leadership as Maestri Steps Away From Corporate Role",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=29ed8151fdc1d523f65757d242496f87efe1f39bfea30fbdc9c4adc29046e8df",
+        "datetime": 1788289111,
         "relevance": 0.29,
-        "headlineKo": "Apple 시대의 종말: 팀 쿡의 CEO로서의 마지막 날"
+        "headlineKo": "시장 잡담: Apple은 Maestri가 기업 역할에서 물러나면서 리더십을 재편합니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
+        "datetime": 1788292404,
+        "headlineKo": "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. CEO John Ternus는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 홍보했다고 합니다.",
+        "relevance": 0.71,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AAPL 주식, 한 달 만에 최고의 날 기록 – CEO John Ternus는 직원들에게 첫 번째 메모로 '경이로운' iPhone 출시를 선전했다고 합니다. 신규 에이전트 연결 Trending News Earnings All DIA 0.84% ​​SPY 0.81% QQQ 1.35% Trending DELL 7.32% QQQ 1.35%",
+            "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. John Ternus CEO는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 선전했다고 합니다. John Ternus가 9월 1일 Tim Cook에서 Apple의 CEO로 취임했습니다.",
+            "Apple의 CEO인 Tim Cook(오른쪽)이 2026년 7월 7일 Sun Valley Lodge에서 열린 Allen & Company Sun Valley 컨퍼런스에 도착하여 Apple의 차기 CEO인 John Ternus와 함께 걷고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.84%, 0.81%, 1.35% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.71,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.84%",
+            "0.81%",
+            "1.35%",
+            "7.32%",
+            "2.52%",
+            "5.40%",
+            "7.90%",
+            "8.77%"
+          ],
+          "sourceExcerpt": [
+            "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees New Connect your Agent Trending News Earnings All DIA 0.84% SPY 0.81% QQQ 1.35% Trending DELL 7.32% QQQ 1.35% ",
+            "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees John Ternus took over as CEO of Apple from Tim Cook on September 1.",
+            "Tim Cook (R), CEO of Apple, walks with John Ternus, incoming CEO of Apple, arrive at the Allen & Company Sun Valley Conference at the Sun Valley Lodge on July 7, 2026."
+          ],
+          "analysisUpdatedAt": 1788292842.9088662
+        }
+      },
+      {
+        "headline": "Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=410ff3fbd068200e89a64174191e34fa62b9d2f01108c32223d53aa39fd8a29e",
+        "datetime": 1788290442,
+        "headlineKo": "애플 신임 CEO 테르누스, 첫 번째 메모에서 '경이로운' 아이폰 출시 예고",
+        "relevance": 0.57,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple new CEO Ternus teases \"phenomenal\" iPhone launch in first memo' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788292845.0908456
+        }
+      },
+      {
+        "headline": "Apple shares climb as Ternus era begins",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
+        "datetime": 1788290100,
+        "headlineKo": "Ternus 시대가 시작되면서 Apple 주가 상승",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 2.7%, $4.5 trillion, $32 million, $285, 4%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple shares climb as Ternus era begins' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "2.7%",
+            "$4.5 trillion",
+            "$32 million",
+            "$285",
+            "4%"
+          ],
+          "sourceExcerpt": [
+            "Apple shares climb as Ternus era begins | NASDAQ:AAPL, XETRA:APC What are you searching for?",
+            "Companies News See all companies matching See all news matching Tech Hardware & Electrical Equipment Written by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About this con",
+            "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
+          ],
+          "analysisUpdatedAt": 1788292847.0054345
+        }
+      },
+      {
+        "headline": "Why Is Apple Stock Up Today?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1405a452eed0c74567b87f6ae44d6571d7219b96ceef0b279ca811678f548f2d",
+        "datetime": 1788289408,
+        "headlineKo": "오늘 Apple 주식이 상승하는 이유는 무엇입니까?",
+        "relevance": 0.29
+      },
+      {
+        "headline": "Market Chatter: Apple Reshapes Leadership as Maestri Steps Away From Corporate Role",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=29ed8151fdc1d523f65757d242496f87efe1f39bfea30fbdc9c4adc29046e8df",
+        "datetime": 1788289111,
+        "headlineKo": "시장 잡담: Apple은 Maestri가 기업 역할에서 물러나면서 리더십을 재편합니다.",
+        "relevance": 0.29
+      },
       {
         "headline": "Apple Alleges Defendant In Trade Secret Case Against OpenAI Accessed Power Converter Circuit Schematic While At OpenAI; Alleges Defendant In Trade Secret Case Against OpenAI Trained AI Agent Using Pro",
         "source": "Benzinga",
@@ -7250,17 +7494,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788271225.9803956,
-    "_updated_label": "2026-09-01 23:00",
+    "_fetched_at": 1788292833.532955,
+    "_updated_label": "2026-09-02 05:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 77,
+      "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
-    "_last_attempt_at": 1788271225.9803956,
+    "_last_attempt_at": 1788292833.532955,
     "_earnings_status": "ok",
-    "_last_success_at": 1788271225.9803956,
+    "_last_success_at": 1788292833.532955,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -9472,7 +9716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -11670,7 +11914,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -14522,7 +14766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -15450,7 +15694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -17977,7 +18221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -20934,7 +21178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -23623,7 +23867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -26361,7 +26605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -28621,7 +28865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -30321,7 +30565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -30337,77 +30581,29 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Mizuho Maintains Outperform on Applied Materials, Lowers Price Target to $590",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=476f8ed9eff94cdebe7505aae5669d818448c18493e4591af7e88fe62c4947b8",
-        "datetime": 1787642277,
+        "headline": "Is Applied Materials Stock Outperforming the Dow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6c7bc9771884074d6d81819e877898f393c91d17c9ae5cd9bae26c9df6b048e",
+        "datetime": 1788203588,
         "relevance": 0.67,
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Mizuho Maintains Outperform on Applied Materials, Lowers Price Target to $590",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788271235.9057796
-        },
-        "headlineKo": "Mizuho는 적용 재료에 대한 우위를 유지하고 가격 목표를 $ 590로 낮 춥니 다."
-      },
-      {
-        "headline": "Applied Materials: I Am Reiterating My Strong Buy As AI Manufacturing Demand Accelerates",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=d4190a7ca2c5393cc9d6cf000487c83682a6016a360ecf67f0de76c21fdad620",
-        "datetime": 1787382293,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "어플라이드 머티어리얼즈: AI 제조 수요가 가속화됨에 따라 강력한 매수 의지를 거듭 밝혔습니다 | Seeking Alpha The Curious Analyst 팔로워 5.3K 팔로우 요약 Applied Materials의 투자의견을 Strong Buy로 거듭 밝히고 목표가격을 수정했습니다.",
-            "2026년 3분기 결과는 AI 기반 수요가 반도체 장비를 단순한 용량 주기가 아닌 구조적 성장 주기로 변화시키고 있다는 내 주장을 뒷받침해 줍니다.",
-            "AMAT는 최첨단 파운드리 로직, DRAM 및 고급 패키징이 2027년까지 WFE 성장의 80%를 주도할 것으로 예상되기 때문에 좋은 위치에 있습니다."
+            "Applied Materials 주식이 Dow를 능가합니까?",
+            "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] 라이브 시청: 선택하신 브라우저는 Barchart.com 사용에 대한 테스트를 거치지 않았습니다.",
+            "문제가 있는 경우 여기에 나열된 브라우저 중 하나를 다운로드하세요."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $680, $802, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -30418,31 +30614,366 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "Is Applied Materials Stock Outperforming the Dow?",
+            "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] WATCH LIVE : Your browser of choice has not been tested for use with Barchart.com.",
+            "If you have issues, please download one of the browsers listed here ."
+          ],
+          "analysisUpdatedAt": 1788292856.0809686
+        },
+        "headlineKo": "Applied Materials 주식이 Dow를 능가합니까?"
+      },
+      {
+        "headline": "How Far Applied Materials Stock Can Move On You In A Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd799aa910ce974cfa9a87ecabcd706eb5349312c007280438eecca3821f86ff",
+        "datetime": 1787931724,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials 주식이 1년 동안 얼마나 움직일 수 있습니까 | Trefis 응용 재료 재고가 1년 동안 얼마나 멀리 움직일 수 있는지 2026년 8월 28일 · Trefis 팀 AMAT YTD +79.0% SPY YTD +12.8% QQQ YTD +16.8% AMAT 분석 → 옵션 시장",
+            "Applied Materials(AMAT)는 현재 약 482달러에 거래되고 있으며 옵션 시장은 이미 주식이 얼마나 멀리 이동할 수 있다고 생각하는지 가격을 책정했습니다.",
+            "1년만 지나면 그 범위는 약 270달러에서 약 875달러까지입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 79.0%, 12.8%, 16.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "$680",
-            "$802",
-            "80%",
-            "$802,"
+            "79.0%",
+            "12.8%",
+            "16.8%",
+            "$482",
+            "$270",
+            "$875.",
+            "$392",
+            "$212"
           ],
           "sourceExcerpt": [
-            "Applied Materials: I Am Reiterating My Strong Buy As AI Manufacturing Demand Accelerates | Seeking Alpha The Curious Analyst 5.3K Followers Follow Summary I'm reiterating Applied Materials as a Strong Buy rating, with the price target revis",
-            "Q3 2026 results reinforce my thesis that AI-driven demand is transforming semiconductor equipment into a structural growth cycle, not just a capacity cycle.",
-            "AMAT is well-positioned, as leading-edge foundry logic, DRAM, and advanced packaging are set to drive 80% of WFE growth through 2027."
+            "How Far Applied Materials Stock Can Move On You In A Year | Trefis How Far Applied Materials Stock Can Move On You In A Year August 28th, 2026 · by Trefis Team AMAT YTD +79.0% SPY YTD +12.8% QQQ YTD +16.8% Analyze AMAT → The options market ",
+            "Applied Materials (AMAT) trades near $482 today, and the options market has already priced how far it thinks the stock can travel.",
+            "Looking just over a year out, that range runs from about $270 to roughly $875."
           ],
-          "analysisUpdatedAt": 1788271240.9478168
+          "analysisUpdatedAt": 1788292863.2869372
         },
-        "headlineKo": "어플라이드 머티어리얼즈: AI 제조 수요가 가속화됨에 따라 강력한 매수 의지를 거듭 밝혔습니다."
+        "headlineKo": "Applied Materials 재고가 1년 동안 얼마나 멀리 움직일 수 있는지"
+      },
+      {
+        "headline": "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d13d62850b1ddf6358d0cf3674ce6dde1b3dc6db681957119485c58ff4e0bb1f",
+        "datetime": 1787875983,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788292866.1676776
+        },
+        "headlineKo": "AMAT(Applied Materials) AI 기반 백로그, 새로운 Fab 및 EPIC Center Bet에 대한 투자자의 반응"
+      },
+      {
+        "headline": "What Does Applied Materials (AMAT) Gain From Its New Board Appointment?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=980aa9b8267e76a947fcf8f31d9ab415e496cfadbdfee1c18ad1d5f4e5cc740b",
+        "datetime": 1787872424,
+        "relevance": 1,
+        "headlineKo": "Applied Materials(AMAT)는 새로운 이사회 임명을 통해 무엇을 얻나요?"
+      },
+      {
+        "headline": "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d8cac8423c0a2d73aad3ff7d36b26d4b366e76c1f1183bfc86f10e8741c264a9",
+        "datetime": 1787866556,
+        "relevance": 1,
+        "headlineKo": "AI 구축은 응용 재료(AMAT)를 수익 기계로 전환하고 있습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Is Applied Materials Stock Outperforming the Dow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6c7bc9771884074d6d81819e877898f393c91d17c9ae5cd9bae26c9df6b048e",
+        "datetime": 1788203588,
+        "headlineKo": "Applied Materials 주식이 Dow를 능가합니까?",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials 주식이 Dow를 능가합니까?",
+            "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] 라이브 시청: 선택하신 브라우저는 Barchart.com 사용에 대한 테스트를 거치지 않았습니다.",
+            "문제가 있는 경우 여기에 나열된 브라우저 중 하나를 다운로드하세요."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "Is Applied Materials Stock Outperforming the Dow?",
+            "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] WATCH LIVE : Your browser of choice has not been tested for use with Barchart.com.",
+            "If you have issues, please download one of the browsers listed here ."
+          ],
+          "analysisUpdatedAt": 1788292856.0809686
+        }
+      },
+      {
+        "headline": "How Far Applied Materials Stock Can Move On You In A Year",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd799aa910ce974cfa9a87ecabcd706eb5349312c007280438eecca3821f86ff",
+        "datetime": 1787931724,
+        "headlineKo": "Applied Materials 재고가 1년 동안 얼마나 멀리 움직일 수 있는지",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials 주식이 1년 동안 얼마나 움직일 수 있습니까 | Trefis 응용 재료 재고가 1년 동안 얼마나 멀리 움직일 수 있는지 2026년 8월 28일 · Trefis 팀 AMAT YTD +79.0% SPY YTD +12.8% QQQ YTD +16.8% AMAT 분석 → 옵션 시장",
+            "Applied Materials(AMAT)는 현재 약 482달러에 거래되고 있으며 옵션 시장은 이미 주식이 얼마나 멀리 이동할 수 있다고 생각하는지 가격을 책정했습니다.",
+            "1년만 지나면 그 범위는 약 270달러에서 약 875달러까지입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 79.0%, 12.8%, 16.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "79.0%",
+            "12.8%",
+            "16.8%",
+            "$482",
+            "$270",
+            "$875.",
+            "$392",
+            "$212"
+          ],
+          "sourceExcerpt": [
+            "How Far Applied Materials Stock Can Move On You In A Year | Trefis How Far Applied Materials Stock Can Move On You In A Year August 28th, 2026 · by Trefis Team AMAT YTD +79.0% SPY YTD +12.8% QQQ YTD +16.8% Analyze AMAT → The options market ",
+            "Applied Materials (AMAT) trades near $482 today, and the options market has already priced how far it thinks the stock can travel.",
+            "Looking just over a year out, that range runs from about $270 to roughly $875."
+          ],
+          "analysisUpdatedAt": 1788292863.2869372
+        }
+      },
+      {
+        "headline": "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d13d62850b1ddf6358d0cf3674ce6dde1b3dc6db681957119485c58ff4e0bb1f",
+        "datetime": 1787875983,
+        "headlineKo": "AMAT(Applied Materials) AI 기반 백로그, 새로운 Fab 및 EPIC Center Bet에 대한 투자자의 반응",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AMAT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 1,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788292866.1676776
+        }
+      },
+      {
+        "headline": "What Does Applied Materials (AMAT) Gain From Its New Board Appointment?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=980aa9b8267e76a947fcf8f31d9ab415e496cfadbdfee1c18ad1d5f4e5cc740b",
+        "datetime": 1787872424,
+        "headlineKo": "Applied Materials(AMAT)는 새로운 이사회 임명을 통해 무엇을 얻나요?",
+        "relevance": 1
+      },
+      {
+        "headline": "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d8cac8423c0a2d73aad3ff7d36b26d4b366e76c1f1183bfc86f10e8741c264a9",
+        "datetime": 1787866556,
+        "headlineKo": "AI 구축은 응용 재료(AMAT)를 수익 기계로 전환하고 있습니다.",
+        "relevance": 1
+      },
       {
         "headline": "Mizuho Maintains Outperform on Applied Materials, Lowers Price Target to $590",
         "source": "Benzinga",
@@ -31427,17 +31958,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788271225.9803956,
-    "_updated_label": "2026-09-01 23:00",
+    "_fetched_at": 1788292833.532955,
+    "_updated_label": "2026-09-02 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 32,
+      "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
-    "_last_attempt_at": 1788271225.9803956,
+    "_last_attempt_at": 1788292833.532955,
     "_earnings_status": "ok",
-    "_last_success_at": 1788271225.9803956,
+    "_last_success_at": 1788292833.532955,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -32995,7 +33526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -35208,7 +35739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -36942,7 +37473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -38824,7 +39355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -40424,7 +40955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -41733,7 +42264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -42732,7 +43263,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -45526,7 +46057,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -46588,7 +47119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -47711,7 +48242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -48905,7 +49436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -51383,7 +51914,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -52584,7 +53115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788292355.855579,
     "_earnings_status": "ok",
@@ -53563,7 +54094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -54478,7 +55009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -55514,7 +56045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -56831,7 +57362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -57688,7 +58219,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -58787,7 +59318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -59630,7 +60161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -60491,7 +61022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -61082,7 +61613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788274826.2408864,
     "_earnings_status": "ok",
@@ -62128,7 +62659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788284700.8295999,
     "_earnings_status": "ok",
@@ -62508,7 +63039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788285626.9007306,
     "_earnings_status": "ok",
@@ -63510,7 +64041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -64241,7 +64772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788282027.5587816,
     "_earnings_status": "ok",
@@ -65141,7 +65672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_last_attempt_at": 1788278427.8524213,
     "_earnings_status": "ok",
@@ -65261,9 +65792,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
-    "_last_attempt_at": 1788292355.855579,
+    "_last_attempt_at": 1788292833.532955,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -65419,7 +65950,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 04:52"
+      "updated": "2026-09-02 05:01"
     },
     "_fetched_at": 1788277200.1036966,
     "_updated_label": "2026-09-02 00:40",
