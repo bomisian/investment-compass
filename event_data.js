@@ -1,8 +1,103 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788275352.861129,
+  "generatedAt": 1788277211.0243835,
   "events": [
+    {
+      "id": "d07939fbac8873f36991",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "BE",
+      "relatedTickers": [
+        "AMD",
+        "BE",
+        "MU",
+        "NVDA",
+        "ORCL",
+        "VRT"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "low",
+        "score": 42,
+        "kind": "reported",
+        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "낮음·확인 필요",
+      "verificationStatus": "needs_confirmation",
+      "headline": "NVDA Is Booming, But BlackRock Sounds the Alarm on a $100 Billion AI Debt Problem: Are AI Bottleneck Plays BE, VRT, MU the Next Winners?",
+      "headlineKo": "NVDA는 호황을 누리고 있지만 BlackRock은 1000억 달러 규모의 AI 부채 문제에 대해 경고합니다. AI 병목 현상 플레이가 BE, VRT, MU가 다음 승자가 될까요?",
+      "source": {
+        "name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=b61277ffeb68645f1ac6247887f96e447e1946211065fea69ac920df725df94a",
+        "publishedAt": 1788247323,
+        "collectedAt": 1788277200.1036966
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 BE의 사업과 관련된 'NVDA Is Booming, But BlackRock Sounds the Alarm on a $100 Billion AI Debt Problem: Are AI Bottleneck Plays BE, VRT, MU the Next Winners?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
+    },
     {
       "id": "dbf7d71c4be89e712afe",
       "schemaVersion": 1,
@@ -17645,72 +17740,176 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
-    },
-    {
-      "id": "a77fc753c36ea4948e8f",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "CRM",
-      "relatedTickers": [
-        "CRM",
-        "NVDA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "AI Chip Titan Nvidia Headlines Earnings Calendar; Salesforce, Intuit Also On Deck",
-      "headlineKo": "AI 칩 타이탄 Nvidia, 수익 달력 헤드라인; 세일즈포스(Salesforce), 인튜이트(Intuit)도 등장",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7a383cf6c858fe6b544498740da05ca612f2223839c5f083b53b7ba5945e8a11",
-        "publishedAt": 1787332228,
-        "collectedAt": 1788265975.4576845
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 칩 타이탄 Nvidia, 수익 달력 헤드라인; 세일즈포스(Salesforce), 인튜이트(Intuit)도 등장"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
+    "AMD": [
+      "d07939fbac8873f36991",
+      "c2ebf782b459946b819a",
+      "c928b7bc676dd70cff71",
+      "8e525a09e0111c458074",
+      "7a2b579ed7dfcef1db7a",
+      "aeb50a507e2b94a53da7",
+      "b2df436b97fe71911f33",
+      "a8277fd427961d636cbb",
+      "c07e647f0219a2fc08b9",
+      "986500052a65c604ca3e",
+      "0101e5fdf4177e058904",
+      "d46f696c3f04367773db",
+      "98df8fa767f0713581ce",
+      "2b44c6ce927d537c9229",
+      "6d38a6f33bc14bb1a7ec",
+      "defd46a5766c56b00a23",
+      "993b64250ade9b6d8981",
+      "5f8be2a7ad25578f86cb",
+      "d37c9afcd2168102b35a",
+      "41f2013dd08ded2131e6",
+      "edd1dce8f2aa962cdd91",
+      "74946ea31bacb6a4754a",
+      "e1cd0b773c16bd61ff1e",
+      "26717142aa8ae30255d9",
+      "ebe3bdd6a9b14f168509",
+      "f1aba2e05fae72dfee11",
+      "0abf33c8d25f43db2c65",
+      "be381641c3e536144ba3"
+    ],
+    "BE": [
+      "d07939fbac8873f36991"
+    ],
+    "MU": [
+      "d07939fbac8873f36991",
+      "a92823784b7e70fbf659",
+      "c928b7bc676dd70cff71",
+      "4bdff85c3176072538d6",
+      "177a3aab9d629950e09e",
+      "7a2b579ed7dfcef1db7a",
+      "f213eee3b688a3f65b2f",
+      "050a5d8c7f4c0fcffd92",
+      "aeb50a507e2b94a53da7",
+      "7f32eb0bc7b27b1e0b59",
+      "b2df436b97fe71911f33",
+      "875baf9070786a5d102d",
+      "986500052a65c604ca3e",
+      "ba1b6d3a48be1a9a4ff5",
+      "d46f696c3f04367773db",
+      "98df8fa767f0713581ce",
+      "3044789fbcb18b289f48",
+      "2b44c6ce927d537c9229",
+      "6d38a6f33bc14bb1a7ec",
+      "defd46a5766c56b00a23",
+      "8b4716f5ff20baa5ddf9",
+      "f1d3897e2e91cf194066",
+      "bba999504e7424e5898b",
+      "993b64250ade9b6d8981",
+      "9174a0a66e4be50f4cbf",
+      "5f8be2a7ad25578f86cb",
+      "4e8a36c484ff5a8144b8",
+      "47bca6669f909d78f2e8",
+      "edd1dce8f2aa962cdd91",
+      "74946ea31bacb6a4754a",
+      "e1cd0b773c16bd61ff1e",
+      "26717142aa8ae30255d9",
+      "9274222bc6f4a3cf53cd",
+      "c4ed8baad3ca4c9f2d3a"
+    ],
+    "NVDA": [
+      "d07939fbac8873f36991",
+      "76cb7f5bef75106419be",
+      "1c80bb1458e82f446d2b",
+      "5971244267261c0821f6",
+      "7e073c3dd570e58cd39b",
+      "a6339a0ab8299a98c8cf",
+      "c928b7bc676dd70cff71",
+      "b6a4f5f5f8d71c599576",
+      "2412915696ba01e29a80",
+      "54c7f5dc1d7281b699f2",
+      "219beaf953067561b00b",
+      "7a2b579ed7dfcef1db7a",
+      "8dcae7c2e78ca564e8f4",
+      "e8b539a446990e9de047",
+      "aeb50a507e2b94a53da7",
+      "ee928201e80103f69388",
+      "f9223d48ea3d5188940a",
+      "a91a3208dacc5783a627",
+      "27fcd6ff0e875828211a",
+      "b2df436b97fe71911f33",
+      "07873f765493418e0e36",
+      "47e000c7b485cc5c9e6b",
+      "b428029c3ee2b5258bf4",
+      "a8277fd427961d636cbb",
+      "fa86d03334ea265db8bf",
+      "515b3734bcb10d894b30",
+      "b41569f194537cd2d02d",
+      "a8af2623e0a17c9822c8",
+      "6cb098f9baf9bf4e22a6",
+      "ae6c3a94ed184ac46756",
+      "f271cdceec7e8f1b202f",
+      "3bc381129996e9c6aa02",
+      "986500052a65c604ca3e",
+      "cbbb7fb149dd10440c2b",
+      "d46f696c3f04367773db",
+      "e66f4892ca4f3e8f75ca",
+      "3336a14aa584bb7a197e",
+      "9d5cc7889e507851b63c",
+      "98df8fa767f0713581ce",
+      "3c97fce1bb55c6fefc1d",
+      "2b44c6ce927d537c9229",
+      "6d38a6f33bc14bb1a7ec",
+      "0b1a1e816c0c815b0943",
+      "defd46a5766c56b00a23",
+      "2ea2782ccff5de5a9d6c",
+      "75596211fbe0d7587c04",
+      "993b64250ade9b6d8981",
+      "a907a46054bff96b5f17",
+      "92327917c606609aac4d",
+      "9a55c2b362d82cd124ea",
+      "5f8be2a7ad25578f86cb",
+      "d37c9afcd2168102b35a",
+      "41f2013dd08ded2131e6",
+      "954c653698524c9065de",
+      "edd1dce8f2aa962cdd91",
+      "74946ea31bacb6a4754a",
+      "e1cd0b773c16bd61ff1e",
+      "26717142aa8ae30255d9",
+      "41107bf10cad0239bc00",
+      "25b1c05070a9c3ef0abb",
+      "40591f6267cbe7055f16",
+      "f1aba2e05fae72dfee11",
+      "059dbce5349413805718",
+      "0abf33c8d25f43db2c65"
+    ],
+    "ORCL": [
+      "d07939fbac8873f36991",
+      "0e891ad4686defdef1fd",
+      "c928b7bc676dd70cff71",
+      "7a2b579ed7dfcef1db7a",
+      "8dcae7c2e78ca564e8f4",
+      "b5e0ff3e25321c0311a4",
+      "798019b01d10733ce3ab",
+      "aeb50a507e2b94a53da7",
+      "37cf64d6776cdffade5d",
+      "b2df436b97fe71911f33",
+      "986500052a65c604ca3e",
+      "d46f696c3f04367773db",
+      "98df8fa767f0713581ce",
+      "2b44c6ce927d537c9229",
+      "6d38a6f33bc14bb1a7ec",
+      "defd46a5766c56b00a23",
+      "9c82f665511ef98a944a",
+      "993b64250ade9b6d8981",
+      "92327917c606609aac4d",
+      "5f8be2a7ad25578f86cb",
+      "edd1dce8f2aa962cdd91",
+      "74946ea31bacb6a4754a",
+      "e1cd0b773c16bd61ff1e",
+      "26717142aa8ae30255d9",
+      "e637620d54da6a921336"
+    ],
+    "VRT": [
+      "d07939fbac8873f36991",
+      "d55a86e34a0170f8ac35",
+      "e18f9bdf9f418b407605"
+    ],
     "SPY": [
       "dbf7d71c4be89e712afe",
       "75d85a8ee8467de30817",
@@ -17836,72 +18035,6 @@ const EVENT_DATA = {
       "bec0478fe9fa24e04eff",
       "ae3e13a03bd198d385cc"
     ],
-    "NVDA": [
-      "76cb7f5bef75106419be",
-      "1c80bb1458e82f446d2b",
-      "5971244267261c0821f6",
-      "7e073c3dd570e58cd39b",
-      "a6339a0ab8299a98c8cf",
-      "c928b7bc676dd70cff71",
-      "b6a4f5f5f8d71c599576",
-      "2412915696ba01e29a80",
-      "54c7f5dc1d7281b699f2",
-      "219beaf953067561b00b",
-      "7a2b579ed7dfcef1db7a",
-      "8dcae7c2e78ca564e8f4",
-      "e8b539a446990e9de047",
-      "aeb50a507e2b94a53da7",
-      "ee928201e80103f69388",
-      "f9223d48ea3d5188940a",
-      "a91a3208dacc5783a627",
-      "27fcd6ff0e875828211a",
-      "b2df436b97fe71911f33",
-      "07873f765493418e0e36",
-      "47e000c7b485cc5c9e6b",
-      "b428029c3ee2b5258bf4",
-      "a8277fd427961d636cbb",
-      "fa86d03334ea265db8bf",
-      "515b3734bcb10d894b30",
-      "b41569f194537cd2d02d",
-      "a8af2623e0a17c9822c8",
-      "6cb098f9baf9bf4e22a6",
-      "ae6c3a94ed184ac46756",
-      "f271cdceec7e8f1b202f",
-      "3bc381129996e9c6aa02",
-      "986500052a65c604ca3e",
-      "cbbb7fb149dd10440c2b",
-      "d46f696c3f04367773db",
-      "e66f4892ca4f3e8f75ca",
-      "3336a14aa584bb7a197e",
-      "9d5cc7889e507851b63c",
-      "98df8fa767f0713581ce",
-      "3c97fce1bb55c6fefc1d",
-      "2b44c6ce927d537c9229",
-      "6d38a6f33bc14bb1a7ec",
-      "0b1a1e816c0c815b0943",
-      "defd46a5766c56b00a23",
-      "2ea2782ccff5de5a9d6c",
-      "75596211fbe0d7587c04",
-      "993b64250ade9b6d8981",
-      "a907a46054bff96b5f17",
-      "92327917c606609aac4d",
-      "9a55c2b362d82cd124ea",
-      "5f8be2a7ad25578f86cb",
-      "d37c9afcd2168102b35a",
-      "41f2013dd08ded2131e6",
-      "954c653698524c9065de",
-      "edd1dce8f2aa962cdd91",
-      "74946ea31bacb6a4754a",
-      "e1cd0b773c16bd61ff1e",
-      "26717142aa8ae30255d9",
-      "41107bf10cad0239bc00",
-      "25b1c05070a9c3ef0abb",
-      "40591f6267cbe7055f16",
-      "f1aba2e05fae72dfee11",
-      "059dbce5349413805718",
-      "0abf33c8d25f43db2c65",
-      "a77fc753c36ea4948e8f"
-    ],
     "AVGO": [
       "66d71c864af7e9b41e56",
       "698649ae67bebca5dee5",
@@ -17920,32 +18053,6 @@ const EVENT_DATA = {
       "778edd0b083374fb357d",
       "cffed85e9c93ffc3d2e0",
       "262754c46c0a95aef371"
-    ],
-    "ORCL": [
-      "0e891ad4686defdef1fd",
-      "c928b7bc676dd70cff71",
-      "7a2b579ed7dfcef1db7a",
-      "8dcae7c2e78ca564e8f4",
-      "b5e0ff3e25321c0311a4",
-      "798019b01d10733ce3ab",
-      "aeb50a507e2b94a53da7",
-      "37cf64d6776cdffade5d",
-      "b2df436b97fe71911f33",
-      "986500052a65c604ca3e",
-      "d46f696c3f04367773db",
-      "98df8fa767f0713581ce",
-      "2b44c6ce927d537c9229",
-      "6d38a6f33bc14bb1a7ec",
-      "defd46a5766c56b00a23",
-      "9c82f665511ef98a944a",
-      "993b64250ade9b6d8981",
-      "92327917c606609aac4d",
-      "5f8be2a7ad25578f86cb",
-      "edd1dce8f2aa962cdd91",
-      "74946ea31bacb6a4754a",
-      "e1cd0b773c16bd61ff1e",
-      "26717142aa8ae30255d9",
-      "e637620d54da6a921336"
     ],
     "MRVL": [
       "af16bde21a9de5d05b27",
@@ -17974,41 +18081,6 @@ const EVENT_DATA = {
       "262754c46c0a95aef371",
       "ebc15695cf2b9ca79c6c"
     ],
-    "MU": [
-      "a92823784b7e70fbf659",
-      "c928b7bc676dd70cff71",
-      "4bdff85c3176072538d6",
-      "177a3aab9d629950e09e",
-      "7a2b579ed7dfcef1db7a",
-      "f213eee3b688a3f65b2f",
-      "050a5d8c7f4c0fcffd92",
-      "aeb50a507e2b94a53da7",
-      "7f32eb0bc7b27b1e0b59",
-      "b2df436b97fe71911f33",
-      "875baf9070786a5d102d",
-      "986500052a65c604ca3e",
-      "ba1b6d3a48be1a9a4ff5",
-      "d46f696c3f04367773db",
-      "98df8fa767f0713581ce",
-      "3044789fbcb18b289f48",
-      "2b44c6ce927d537c9229",
-      "6d38a6f33bc14bb1a7ec",
-      "defd46a5766c56b00a23",
-      "8b4716f5ff20baa5ddf9",
-      "f1d3897e2e91cf194066",
-      "bba999504e7424e5898b",
-      "993b64250ade9b6d8981",
-      "9174a0a66e4be50f4cbf",
-      "5f8be2a7ad25578f86cb",
-      "4e8a36c484ff5a8144b8",
-      "47bca6669f909d78f2e8",
-      "edd1dce8f2aa962cdd91",
-      "74946ea31bacb6a4754a",
-      "e1cd0b773c16bd61ff1e",
-      "26717142aa8ae30255d9",
-      "9274222bc6f4a3cf53cd",
-      "c4ed8baad3ca4c9f2d3a"
-    ],
     "AMZN": [
       "f4db1be0e6cff3f47d76",
       "4c0b19c9c108c1b72007",
@@ -18027,35 +18099,6 @@ const EVENT_DATA = {
       "5e07841cef5fe94c78c3",
       "5f8be2a7ad25578f86cb",
       "26717142aa8ae30255d9"
-    ],
-    "AMD": [
-      "c2ebf782b459946b819a",
-      "c928b7bc676dd70cff71",
-      "8e525a09e0111c458074",
-      "7a2b579ed7dfcef1db7a",
-      "aeb50a507e2b94a53da7",
-      "b2df436b97fe71911f33",
-      "a8277fd427961d636cbb",
-      "c07e647f0219a2fc08b9",
-      "986500052a65c604ca3e",
-      "0101e5fdf4177e058904",
-      "d46f696c3f04367773db",
-      "98df8fa767f0713581ce",
-      "2b44c6ce927d537c9229",
-      "6d38a6f33bc14bb1a7ec",
-      "defd46a5766c56b00a23",
-      "993b64250ade9b6d8981",
-      "5f8be2a7ad25578f86cb",
-      "d37c9afcd2168102b35a",
-      "41f2013dd08ded2131e6",
-      "edd1dce8f2aa962cdd91",
-      "74946ea31bacb6a4754a",
-      "e1cd0b773c16bd61ff1e",
-      "26717142aa8ae30255d9",
-      "ebe3bdd6a9b14f168509",
-      "f1aba2e05fae72dfee11",
-      "0abf33c8d25f43db2c65",
-      "be381641c3e536144ba3"
     ],
     "INTC": [
       "c2ebf782b459946b819a",
@@ -18160,8 +18203,7 @@ const EVENT_DATA = {
       "58a94c4f1f8b014ee421",
       "a540fc650ec5344487fd",
       "d9950ac75b92a238cbc9",
-      "e0d5664181a84b32966a",
-      "a77fc753c36ea4948e8f"
+      "e0d5664181a84b32966a"
     ],
     "LITE": [
       "235959fa6b3d57be3284",
@@ -18204,10 +18246,6 @@ const EVENT_DATA = {
     "PWR": [
       "e8bffdc7ddaa2b96f696",
       "628d24854e208cadd616"
-    ],
-    "VRT": [
-      "d55a86e34a0170f8ac35",
-      "e18f9bdf9f418b407605"
     ],
     "KLAC": [
       "b3e1fca489b98b4a35c2",
