@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788273467.8710089,
+  "generatedAt": 1788274850.579072,
   "events": [
     {
       "id": "dbf7d71c4be89e712afe",
@@ -5171,6 +5171,62 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
+    },
+    {
+      "id": "6a0245b6544d3258642d",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "HUBB",
+      "relatedTickers": [
+        "HUBB"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Hubbell (HUBB) Stock Looks Overvalued On Cash Flow But Fair On Earnings",
+      "headlineKo": "Hubbell (HUBB) 주식은 현금 흐름에서 과대 평가되었지만 수익에서는 공정한 것으로 보입니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8037798c577a9bf7db87d4bbdb4d7b6682706f6db7c7c2356cade7c413262fca",
+        "publishedAt": 1787879697,
+        "collectedAt": 1788274826.2408864
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Hubbell (HUBB) 주식은 현금 흐름에서 과대 평가되었지만 수익에서는 공정한 것으로 보입니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "HUBB",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
     },
     {
       "id": "99c63b2fbbbec623f124",
@@ -17652,73 +17708,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "6b3fdff0089c532babbe",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "PWR",
-      "relatedTickers": [
-        "PWR"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Is Quanta's Capital Strategy Creating More Than Earnings Growth?",
-      "headlineKo": "Quanta의 자본 전략은 수익 성장 이상의 것을 창출하고 있습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=09891b5c3cfe053b7cd323e5b7eed1de298235ea19ab5a0229a42d8834a8fd66",
-        "publishedAt": 1787328960,
-        "collectedAt": 1788262111.7157164
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Is Quanta's Capital Strategy Creating More Than Earnings Growth?",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PWR에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "PWR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PWR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
     }
   ],
   "byTicker": {
@@ -18205,14 +18194,16 @@ const EVENT_DATA = {
       "955fe598721329b733bb",
       "41160fd8cd7397d809f0"
     ],
+    "HUBB": [
+      "6a0245b6544d3258642d"
+    ],
     "QCOM": [
       "d47e3edaaa6e746703d5",
       "f1aba2e05fae72dfee11"
     ],
     "PWR": [
       "e8bffdc7ddaa2b96f696",
-      "628d24854e208cadd616",
-      "6b3fdff0089c532babbe"
+      "628d24854e208cadd616"
     ],
     "VRT": [
       "d55a86e34a0170f8ac35",

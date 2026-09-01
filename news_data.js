@@ -4518,7 +4518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -7088,7 +7088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788271225.9803956,
     "_earnings_status": "ok",
@@ -9276,7 +9276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -11285,7 +11285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -13952,7 +13952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -14880,7 +14880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -17206,7 +17206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -20003,7 +20003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -22480,7 +22480,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -25010,7 +25010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -27055,7 +27055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -28571,7 +28571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -29683,7 +29683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788271225.9803956,
     "_earnings_status": "ok",
@@ -31135,7 +31135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -33271,7 +33271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -34850,7 +34850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -36569,7 +36569,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
@@ -38014,7 +38014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -39060,7 +39060,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -39847,7 +39847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
@@ -42453,7 +42453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -43397,7 +43397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44466,7 +44466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -45511,7 +45511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -47801,7 +47801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -48870,7 +48870,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788269711.1669924,
     "_earnings_status": "ok",
@@ -49640,7 +49640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -50263,7 +50263,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51138,7 +51138,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -52239,7 +52239,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -52852,7 +52852,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788265975.4576845,
     "_earnings_status": "ok",
@@ -53744,7 +53744,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -54222,7 +54222,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -54958,7 +54958,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -54974,106 +54974,10 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "If You Invested $100 In Hubbell Stock 5 Years Ago, You Would Have This Much Today",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f162f20ad8239619a32c6e73332054776347ff8f2167cd898f017d3ac96d6048",
-        "datetime": 1787338836,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "If You Invested $100 In Hubbell Stock 5 Years Ago, You Would Have This Much Today",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "HUBB",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 HUBB의 사업과 관련된 'If You Invested $100 In Hubbell Stock 5 Years Ago, You Would Have This Much Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788187325.1531446
-        },
-        "headlineKo": "5년 전에 허벨 주식에 100달러를 투자했다면 지금은 이 정도의 주식을 갖게 될 것입니다."
-      },
-      {
-        "headline": "Eaton vs. Hubbell: Which Electrification Stock Has an Edge?",
+        "headline": "Hubbell Inc's Dividend Analysis",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0c0d2dff9aeb24ae7bf96ef627d6d93a4a909694c613dd1194998e1f9c310f5f",
-        "datetime": 1787336400,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Eaton vs. Hubbell: Which Electrification Stock Has an Edge?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "HUBB",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Eaton vs. Hubbell: Which Electrification Stock Has an Edge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788187330.2886894
-        },
-        "headlineKo": "Eaton 대 Hubbell: 어느 전기화 주식에 우위가 있습니까?"
-      },
-      {
-        "headline": "Baird Initiates Coverage of Hubbell (HUBB) with Outperform Recommendation",
-        "source": "Fintel",
-        "url": "https://finnhub.io/api/news?id=b166218baa7becfc5ba9e6146f517721e1e6a7e4df6a663ffc195b41e04682d2",
-        "datetime": 1787312487,
+        "url": "https://finnhub.io/api/news?id=5c0bf951faf37d3551d5a54d7d02687dfc477632d897778a75fb766413125256",
+        "datetime": 1788177936,
         "relevance": 1,
         "analysis": {
           "version": 9,
@@ -55083,7 +54987,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Baird Initiates Coverage of Hubbell (HUBB) with Outperform Recommendation",
+            "Hubbell Inc's Dividend Analysis",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -55107,26 +55011,290 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Baird Initiates Coverage of Hubbell (HUBB) with Outperform Recommendation' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell Inc's Dividend Analysis' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788187337.2812881
+          "analysisUpdatedAt": 1788274831.213339
         },
-        "headlineKo": "Baird, Outperform 추천으로 Hubbell(HUBB)의 커버리지 시작"
+        "headlineKo": "Hubbell Inc의 배당 분석"
       },
       {
-        "headline": "Baird Initiates Coverage On Hubbell with Outperform Rating, Announces Price Target of $550",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=f25a9ca9bd51ecc39ded013a72bfe18c5bceef6e550e6a40f152c6e28b0b176d",
-        "datetime": 1787290546,
+        "headline": "Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=522cacbd356e5d55bc6aa080f8a1d9292118257aec401f9d0ac9e3e4362094bf",
+        "datetime": 1787918824,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788274833.5376048
+        },
+        "headlineKo": "Hubbell (HUBB)은 더 높은 연간 지침을 발표했는데 상승세가 이미 가격에 반영되어 있습니까?"
+      },
+      {
+        "headline": "Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c208b95cb75bb2d189b717a3907280b095b5b63aa8c4f972e4f52a618eb49d7",
+        "datetime": 1787911661,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788274835.8388422
+        },
+        "headlineKo": "강력한 2분기 매출 성장과 더 높은 가이던스가 Hubbell(HUBB)의 상승세를 바꿀까요?"
+      },
+      {
+        "headline": "Hubbell (HUBB) Stock Looks Overvalued On Cash Flow But Fair On Earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8037798c577a9bf7db87d4bbdb4d7b6682706f6db7c7c2356cade7c413262fca",
+        "datetime": 1787879697,
+        "relevance": 1,
+        "headlineKo": "Hubbell (HUBB) 주식은 현금 흐름에서 과대 평가되었지만 수익에서는 공정한 것으로 보입니다."
+      },
+      {
+        "headline": "Hubbell Stock: Analyst Estimates & Ratings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2cfab9ef72f94ba73d4046196a93e9be98805aefbf728665757a35c1761ee70",
+        "datetime": 1787839146,
         "relevance": 0.67,
-        "headlineKo": "Baird, 우수한 평가를 받아 Hubbell에 대한 보도 개시, 목표 가격 550달러 발표"
+        "headlineKo": "허벨 주식: 분석가 추정 및 등급"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Hubbell Inc's Dividend Analysis",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c0bf951faf37d3551d5a54d7d02687dfc477632d897778a75fb766413125256",
+        "datetime": 1788177936,
+        "headlineKo": "Hubbell Inc의 배당 분석",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell Inc's Dividend Analysis",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell Inc's Dividend Analysis' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788274831.213339
+        }
+      },
+      {
+        "headline": "Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=522cacbd356e5d55bc6aa080f8a1d9292118257aec401f9d0ac9e3e4362094bf",
+        "datetime": 1787918824,
+        "headlineKo": "Hubbell (HUBB)은 더 높은 연간 지침을 발표했는데 상승세가 이미 가격에 반영되어 있습니까?",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell (HUBB) Issued Higher Full Year Guidance, Is The Upside Already Priced In?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788274833.5376048
+        }
+      },
+      {
+        "headline": "Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c208b95cb75bb2d189b717a3907280b095b5b63aa8c4f972e4f52a618eb49d7",
+        "datetime": 1787911661,
+        "headlineKo": "강력한 2분기 매출 성장과 더 높은 가이던스가 Hubbell(HUBB)의 상승세를 바꿀까요?",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Does Strong Q2 Sales Growth And Higher Guidance Change The Bull Case For Hubbell (HUBB)?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788274835.8388422
+        }
+      },
+      {
+        "headline": "Hubbell (HUBB) Stock Looks Overvalued On Cash Flow But Fair On Earnings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8037798c577a9bf7db87d4bbdb4d7b6682706f6db7c7c2356cade7c413262fca",
+        "datetime": 1787879697,
+        "headlineKo": "Hubbell (HUBB) 주식은 현금 흐름에서 과대 평가되었지만 수익에서는 공정한 것으로 보입니다.",
+        "relevance": 1
+      },
+      {
+        "headline": "Hubbell Stock: Analyst Estimates & Ratings",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d2cfab9ef72f94ba73d4046196a93e9be98805aefbf728665757a35c1761ee70",
+        "datetime": 1787839146,
+        "headlineKo": "허벨 주식: 분석가 추정 및 등급",
+        "relevance": 0.67
+      },
       {
         "headline": "If You Invested $100 In Hubbell Stock 5 Years Ago, You Would Have This Much Today",
         "source": "Benzinga",
@@ -55375,19 +55543,18 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788187127.1446443,
-    "_updated_label": "2026-08-31 23:42",
+    "_fetched_at": 1788274826.2408864,
+    "_updated_label": "2026-09-02 00:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 10,
+      "checked": 16,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
-    "_last_attempt_at": 1788273457.790761,
+    "_last_attempt_at": 1788274826.2408864,
     "_earnings_status": "ok",
-    "_last_success_at": 1788187127.1446443,
-    "_collection_status": "empty",
-    "_last_error": "뉴스 API가 빈 응답을 반환함"
+    "_last_success_at": 1788274826.2408864,
+    "_collection_status": "ok"
   },
   "VRT": {
     "nextEarnings": {
@@ -56220,7 +56387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788262111.7157164,
     "_earnings_status": "ok",
@@ -56600,7 +56767,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788264025.3865328,
     "_earnings_status": "ok",
@@ -57423,7 +57590,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -57883,7 +58050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
@@ -58625,7 +58792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -58745,16 +58912,16 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     },
-    "_last_attempt_at": 1788273457.790761,
+    "_last_attempt_at": 1788274826.2408864,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
     "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
-    "_last_attempt_at": 1788273457.790761,
+    "_last_attempt_at": 1788274826.2408864,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -58770,7 +58937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-09-01 23:37"
+      "updated": "2026-09-02 00:00"
     }
   }
 };
