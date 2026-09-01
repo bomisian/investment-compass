@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788258363.094958,
+  "generatedAt": 1788260284.6371453,
   "events": [
     {
       "id": "609b18da9dcd2a231855",
@@ -547,11 +547,6 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         },
         {
-          "name": "Alphabet",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
           "name": "Marvell",
           "role": "기사에 직접 언급",
           "verification": "headline_or_analysis"
@@ -574,16 +569,17 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=5b4a71f6c01dc5299eafffd7f57c6315118979a3a2767dca80452da6a9f002aa",
         "publishedAt": 1788193597,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Marvell Technology: Greater Clarity Does Not Impress (NASDAQ:MRVL) | Seeking Alpha The Value Investor Investing Group Leader Follow Summary Marvell Technology, Inc.'s shares dropped 10% post earnings as ambiguity around the Alphabet/Google ",
-        "Q2 sales grew 37% to $2.74B, with Q3 guidance at $3.15B and 50% YoY growth expected, but valuation has expanded to 20x sales at recent peaks.",
-        "The Google agreement could drive up to $20B in annual product sales, yet guidance implies a more modest $6B incremental revenue, disappointing some expectations."
+        "Marvell 기술: 선명도가 높아도 인상적이지 않습니다(NASDAQ:MRVL) | 알파 추구 가치 투자자 투자 그룹 리더 팔로우 요약 Marvell Technology, Inc.의 주가는 알파벳/구글에 대한 모호함으로 인해 수익 후 10% 하락했습니다.",
+        "2분기 매출은 37% 증가한 27억 4천만 달러로 3분기 지침은 31억 5천만 달러, 전년 대비 50% 성장이 예상되었지만 최근 최고점에서 가치 평가는 매출 20배로 확대되었습니다.",
+        "Google 계약으로 인해 연간 제품 매출이 최대 200억 달러까지 증가할 수 있지만 지침에 따르면 약간의 60억 달러 증가 수익이 예상되어 일부 기대를 실망시켰습니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 10%, 37%, $2.74 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -598,6 +594,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 10%, 37%, $2.74 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -647,16 +644,17 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=16bb3d49b6611e263d23a47d594b1f25483f338ceab03bc5ab3c421ddd9af491",
         "publishedAt": 1788192438,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Marvell: Why I Think The Stock Is Ready For Another Leg Higher (Rating Upgrade) (MRVL) | Seeking Alpha The J Thesis 2.34K Followers Follow Summary Marvell Technology, Inc.",
-        "is upgraded to Strong Buy after a 28% pullback, with valuation now seen as attractive.",
-        "MRVL has delivered four consecutive double-beat quarters, reinforcing confidence in its AI-driven growth trajectory."
+        "Marvell: 주식이 또 한 단계 더 높아질 준비가 되어 있다고 생각하는 이유(등급 업그레이드)(MRVL) | 알파 추구 The J Thesis 팔로워 2.34K 팔로우 요약 Marvell Technology, Inc.",
+        "28% 하락한 후 Strong Buy로 업그레이드되었으며 현재 밸류에이션이 매력적으로 보입니다.",
+        "MRVL은 4회 연속 더블비트 분기를 달성하며 AI 기반 성장 궤도에 대한 자신감을 강화했습니다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 28%, 7%, 31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -671,6 +669,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 28%, 7%, 31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -2814,7 +2813,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=3b007c538c1fc7a3b43563051c1cb3819993afbb0f92b26a6ffbc956cf84161f",
         "publishedAt": 1788121044,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3537,16 +3536,17 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=3baec9f3bd95ec4772f4db50c064d8f96dcd76b25511666d2555485eeaac9d92",
         "publishedAt": 1787971200,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Jackson Hole And The Nasdaq-100: Does The Market Overprice The Weekend Risk?",
-        "(NDX) | Seeking Alpha Russell Rhoads 5 Followers Follow Summary Traders tend to brace for market reactions around to news coming out of Jackson Hole and the Nasdaq-100 (NDX) is the most economically sensitive broad-based index.",
-        "The average move for the three trading days that overlap with the Jackson Hole meeting is +/-1.22%, with the biggest gain in 2018 (+1.81%) and the largest loss in 2022, with NDX giving up 3.36%."
+        "잭슨홀과 나스닥-100: 시장이 주말 위험을 과대평가하는가?",
+        "(NDX) | Alpha Russell Rhoads 5 추종자 팔로우 요약 거래자들은 Jackson Hole에서 나오는 뉴스에 대한 시장 반응에 대비하는 경향이 있으며 Nasdaq-100(NDX)은 경제적으로 가장 민감한 광범위한 지수입니다.",
+        "잭슨홀 미팅과 겹치는 3거래일의 평균 움직임은 +/-1.22%로, 2018년에 가장 큰 상승폭(+1.81%)과 2022년에 가장 큰 손실률을 기록했으며, NDX는 3.36%를 포기했습니다."
       ],
       "marketInterpretation": [
         "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.22%, 1.81%, 3.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -3561,6 +3561,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.22%, 1.81%, 3.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -3967,7 +3968,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b08217ded0dff378d0511c5bb2358f96aabdce2cce59925968cb48d8418113a8",
         "publishedAt": 1787923963,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4275,7 +4276,6 @@ const EVENT_DATA = {
       "eventLabel": "규제·소송·수출 제한",
       "primaryTicker": "STX",
       "relatedTickers": [
-        "MU",
         "NVDA",
         "QQQ",
         "STX"
@@ -4298,16 +4298,17 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=4385ee1e34b196366d48f723daeea011b4a89385d39f461274bcbb10b907f8f3",
         "publishedAt": 1787919234,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Seagate: Not A Time To Be Greedy - More Consolidation Ahead (NASDAQ:STX) | Seeking Alpha Juxtaposed Ideas 16.15K Followers Follow Summary NVDA feds the AI exuberance by guiding double digits growth through FY2028, with STX likely to be a mu",
-        "The fully contracted 2027 capacity and long-term supply agreements support their robust profitable growth prospects and richer cash flow generations.",
-        "STX may also escape the cyclical boom/bust pains with a focus on aerial density instead of volume growth, aided by the HAMR technology advances."
+        "Seagate: 욕심을 부릴 때가 아닙니다. 앞으로 더 많은 통합이 예상됩니다(NASDAQ:STX) | 알파 병치 아이디어 찾기 16.15K 팔로워 팔로우 요약 NVDA는 FY2028까지 두 자릿수 성장을 유도하여 AI에 활기를 불어넣고 STX는 뮤가 될 가능성이 높습니다.",
+        "완전히 계약된 2027년 용량 및 장기 공급 계약은 강력한 수익성 있는 성장 전망과 풍부한 현금 흐름 창출을 지원합니다.",
+        "STX는 또한 HAMR 기술 발전에 힘입어 물량 성장 대신 대기밀도에 초점을 맞춰 주기적 호황/불황의 고통에서 벗어날 수 있습니다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -4322,6 +4323,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -5136,7 +5138,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=81ac3ae056abd0aeff19be3eb6c666186fbd81ee85b6f02de3daf41c426b7114",
         "publishedAt": 1787891396,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6042,7 +6044,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5de354d13730a93ee429314425e07f00cd7acbab3adf57ab4bc021f564f1d6f0",
         "publishedAt": 1787758215,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9264,7 +9266,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=78c9bd2f08b93810cca8c19a95ca9eb360863dabf6fef63e08e0d909dec2dc83",
         "publishedAt": 1787650323,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9545,7 +9547,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=3a3a496794d16f5dc1a9bced42f1f6886f6f8b46da7729dc4c271328153c2cbb",
         "publishedAt": 1787646495,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9725,7 +9727,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=6be231b94874b1d3ca9a29d7386fa435866c2af0d08dda2b453c8a0d4a1383a7",
         "publishedAt": 1787644329,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11381,7 +11383,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=0a4ec708cf1633f6022156cd16c8d802ad0269bc6e869def3c990ac973645595",
         "publishedAt": 1787572597,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11454,7 +11456,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=f318437ce676e5179a51dbbe09bf41282cedf5d2d652b7b182e90d8740baf497",
         "publishedAt": 1787571043,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11719,7 +11721,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=26602875106f79b17596fa5d04bb2a9ba22d60309426ab387984cbe14e9570fd",
         "publishedAt": 1787568072,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12104,7 +12106,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=d465dfca3a909d25a1f9630c0ceb17dd36079b1adaecfbf032e9a891ecc98a29",
         "publishedAt": 1787560385,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14376,17 +14378,10 @@ const EVENT_DATA = {
       "eventLabel": "실적 발표",
       "primaryTicker": "PLTR",
       "relatedTickers": [
-        "INTC",
         "PLTR",
         "SPY"
       ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
+      "relatedEntities": [],
       "importance": "high",
       "sourceReliability": {
         "level": "medium",
@@ -14404,16 +14399,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d2ec5c00db1df302373f5a9efafef31d30058f44460268739459ffa06f96978e",
         "publishedAt": 1787453881,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-        "Help Palantir Technologies ( PLTR +0.05% ) took in $1.94 billion of revenue in the second quarter and kept $1.06 billion of it as net income.",
-        "Out of every dollar the artificial intelligence (AI) software specialist collected, 55 cents dropped to the bottom line."
+        "Palantir는 모든 수익의 55센트를 이익으로 유지합니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "Palantir Technologies(PLTR +0.05%)가 2분기에 19억 4천만 달러의 수익을 올렸고 그 중 10억 6천만 달러를 순이익으로 유지했습니다.",
+        "인공지능(AI) 소프트웨어 전문가가 수집한 1달러 중 55센트가 순익으로 떨어졌습니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.05%, $1.94 billion, $1.06 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -14428,6 +14424,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.05%, $1.94 billion, $1.06 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -14701,7 +14698,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=15f1670bbdc24b40cb41c83b37f90403c53024b5a1c3128e6de13a2ef973beb5",
         "publishedAt": 1787429580,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14787,7 +14784,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b3823748f09349ce02b5ea4ecf5c32ee421449de52fa4e7800bb5233d0896f24",
         "publishedAt": 1787417327,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14854,7 +14851,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7c3e425ab26bbb23316d43782f4430325805db39a2197d383621c5731c40ece7",
         "publishedAt": 1787407705,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15264,7 +15261,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1a1e9cee3c5f01b21c88074e05d2c81bbf596cd5ce6df16601d859cf3bfeccf0",
         "publishedAt": 1787394900,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15804,7 +15801,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6caf38ab8ba9a2f6e73801672417a6805cfa580a5d37e9b2fab25f94c2f75c24",
         "publishedAt": 1787374021,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16045,7 +16042,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=3a13ec5d8b96e4090b06fef861716004198b53e96b80957597f7cbc14620f360",
         "publishedAt": 1787361786,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16799,7 +16796,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4606ed97a124a5f7d5e42efc68f840b45657a022b36e2d2ddae287c35651dd8e",
         "publishedAt": 1787350242,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17337,7 +17334,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=14f023fd8ba210b0fc4332c47cff9eb4e8f317a895ba39657e8911942893f1f9",
         "publishedAt": 1787336837,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17676,7 +17673,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=b255f7b6b3eefc41f53c79d1e733b43c556c3c85cbbb8165941e2c8613fec009",
         "publishedAt": 1787327861,
-        "collectedAt": 1788237137.3703926
+        "collectedAt": 1788260216.3428311
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17996,7 +17993,6 @@ const EVENT_DATA = {
       "9a55c2b362d82cd124ea",
       "d37c9afcd2168102b35a",
       "4e8a36c484ff5a8144b8",
-      "d403b5d28dfd51800e12",
       "26717142aa8ae30255d9",
       "955fe598721329b733bb",
       "778edd0b083374fb357d",
@@ -18010,7 +18006,6 @@ const EVENT_DATA = {
       "4bdff85c3176072538d6",
       "177a3aab9d629950e09e",
       "7a2b579ed7dfcef1db7a",
-      "e8b539a446990e9de047",
       "f213eee3b688a3f65b2f",
       "050a5d8c7f4c0fcffd92",
       "aeb50a507e2b94a53da7",

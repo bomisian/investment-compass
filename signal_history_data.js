@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788258363.146822,
+  "generatedAt": 1788260284.6981368,
   "records": {
     "MSFT": [
       {
@@ -7210,6 +7210,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1788260284.6981368,
+        "dataAsOf": 1788189545,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.75,
+            "after": -1.23
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.5,
+            "after": -2.97
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMD: 아직도 인텔의 점심을 먹고 있다",
+        "newsUrl": "https://finnhub.io/api/news?id=f98b088261d3a83eaf699b4660bb59129dc2f89466316756897a3e101aa6a75b",
+        "eventId": "c2ebf782b459946b819a",
+        "fingerprint": "{\"changes\": [{\"after\": -1.23, \"before\": -1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.97, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c2ebf782b459946b819a\"}"
+      },
+      {
         "changedAt": 1788219827.9575884,
         "dataAsOf": 1788189545,
         "changes": [
@@ -9043,6 +9066,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788260284.6981368,
+        "dataAsOf": 1788188315,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.75,
+            "after": -0.7
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "억만장자 투자자, 이익 77% 급증, 수익 36% 증가로 TSMC 지분 67% 인상",
+        "newsUrl": "https://finnhub.io/api/news?id=588551889f11d42fff4cd1fb39ae978e4eab4a5e5345f412c9f30956b8920882",
+        "eventId": "c928b7bc676dd70cff71",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"c928b7bc676dd70cff71\"}"
+      },
       {
         "changedAt": 1788239132.204182,
         "dataAsOf": 1788188315,

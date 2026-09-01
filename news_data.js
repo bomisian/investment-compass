@@ -4518,7 +4518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -7088,7 +7088,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -9276,7 +9276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -11285,7 +11285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -13952,7 +13952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -14880,7 +14880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -17204,7 +17204,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -20001,7 +20001,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -22478,7 +22478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -25000,7 +25000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -27045,7 +27045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -28561,7 +28561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -29653,7 +29653,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788248820.7465343,
     "_earnings_status": "ok",
@@ -29707,7 +29707,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237140.7024345
+          "analysisUpdatedAt": 1788260219.5115492
         },
         "headlineKo": "Stock Market Today: S&P 500, Nasdaq 100, Dow Jones Futures, US-Iran Tensions Flare Up—WMT, RZLV, FNGR in Focus (업데이트)"
       },
@@ -29725,9 +29725,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SCHD And QQQ: The New 60-40 Portfolio (Bitcoin And Gold Edition) (NYSEARCA:SCHD) | Seeking Alpha Blue Harbinger Investing Group Leader Follow Summary US policies have pushed many investors into a new and riskier version of the classic 60-40",
-            "Further, bitcoin and gold are increasingly the \"protest assets\" of choice for many investors fed up with government debt and inflation risks.",
-            "After reviewing the impacts of DC's behavior, we conclude with a strong opinion about investing (and allocating assets to SCHD and QQQ-type stocks) in this new and riskier market paradigm."
+            "SCHD 및 QQQ: 새로운 60-40 포트폴리오(비트코인 및 골드 에디션)(NYSEARCA:SCHD) | Alpha Blue Harbinger Investing Group 리더 찾기 요약 미국 정책으로 인해 많은 투자자들이 고전적인 60-40의 새롭고 위험한 버전으로 밀려났습니다.",
+            "게다가, 비트코인과 금은 점점 더 정부 부채와 인플레이션 위험에 지친 많은 투자자들이 선택하는 \"항의 자산\"이 되고 있습니다.",
+            "DC의 행동이 미치는 영향을 검토한 후, 우리는 이 새롭고 위험한 시장 패러다임에 대한 투자(및 SCHD 및 QQQ 유형 주식에 자산 할당)에 대한 강력한 의견으로 결론을 내립니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -29759,7 +29759,7 @@ const NEWS_DATA = {
             "Further, bitcoin and gold are increasingly the \"protest assets\" of choice for many investors fed up with government debt and inflation risks.",
             "After reviewing the impacts of DC's behavior, we conclude with a strong opinion about investing (and allocating assets to SCHD and QQQ-type stocks) in this new and riskier market paradigm."
           ],
-          "analysisUpdatedAt": 1788237142.0843487
+          "analysisUpdatedAt": 1788260223.235132
         },
         "headlineKo": "SCHD 및 QQQ: 새로운 60-40 포트폴리오(비트코인 및 골드 에디션)"
       },
@@ -29777,12 +29777,13 @@ const NEWS_DATA = {
           "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Jackson Hole And The Nasdaq-100: Does The Market Overprice The Weekend Risk?",
-            "(NDX) | Seeking Alpha Russell Rhoads 5 Followers Follow Summary Traders tend to brace for market reactions around to news coming out of Jackson Hole and the Nasdaq-100 (NDX) is the most economically sensitive broad-based index.",
-            "The average move for the three trading days that overlap with the Jackson Hole meeting is +/-1.22%, with the biggest gain in 2018 (+1.81%) and the largest loss in 2022, with NDX giving up 3.36%."
+            "잭슨홀과 나스닥-100: 시장이 주말 위험을 과대평가하는가?",
+            "(NDX) | Alpha Russell Rhoads 5 추종자 팔로우 요약 거래자들은 Jackson Hole에서 나오는 뉴스에 대한 시장 반응에 대비하는 경향이 있으며 Nasdaq-100(NDX)은 경제적으로 가장 민감한 광범위한 지수입니다.",
+            "잭슨홀 미팅과 겹치는 3거래일의 평균 움직임은 +/-1.22%로, 2018년에 가장 큰 상승폭(+1.81%)과 2022년에 가장 큰 손실률을 기록했으며, NDX는 3.36%를 포기했습니다."
           ],
           "why": [
             "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.22%, 1.81%, 3.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -29816,7 +29817,7 @@ const NEWS_DATA = {
             "(NDX) | Seeking Alpha Russell Rhoads 5 Followers Follow Summary Traders tend to brace for market reactions around to news coming out of Jackson Hole and the Nasdaq-100 (NDX) is the most economically sensitive broad-based index.",
             "The average move for the three trading days that overlap with the Jackson Hole meeting is +/-1.22%, with the biggest gain in 2018 (+1.81%) and the largest loss in 2022, with NDX giving up 3.36%."
           ],
-          "analysisUpdatedAt": 1788237143.5292735
+          "analysisUpdatedAt": 1788260227.7611296
         },
         "headlineKo": "잭슨홀과 나스닥-100: 시장이 주말 위험을 과대평가하는가?"
       },
@@ -29883,7 +29884,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237140.7024345
+          "analysisUpdatedAt": 1788260219.5115492
         }
       },
       {
@@ -29901,9 +29902,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "SCHD And QQQ: The New 60-40 Portfolio (Bitcoin And Gold Edition) (NYSEARCA:SCHD) | Seeking Alpha Blue Harbinger Investing Group Leader Follow Summary US policies have pushed many investors into a new and riskier version of the classic 60-40",
-            "Further, bitcoin and gold are increasingly the \"protest assets\" of choice for many investors fed up with government debt and inflation risks.",
-            "After reviewing the impacts of DC's behavior, we conclude with a strong opinion about investing (and allocating assets to SCHD and QQQ-type stocks) in this new and riskier market paradigm."
+            "SCHD 및 QQQ: 새로운 60-40 포트폴리오(비트코인 및 골드 에디션)(NYSEARCA:SCHD) | Alpha Blue Harbinger Investing Group 리더 찾기 요약 미국 정책으로 인해 많은 투자자들이 고전적인 60-40의 새롭고 위험한 버전으로 밀려났습니다.",
+            "게다가, 비트코인과 금은 점점 더 정부 부채와 인플레이션 위험에 지친 많은 투자자들이 선택하는 \"항의 자산\"이 되고 있습니다.",
+            "DC의 행동이 미치는 영향을 검토한 후, 우리는 이 새롭고 위험한 시장 패러다임에 대한 투자(및 SCHD 및 QQQ 유형 주식에 자산 할당)에 대한 강력한 의견으로 결론을 내립니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -29935,7 +29936,7 @@ const NEWS_DATA = {
             "Further, bitcoin and gold are increasingly the \"protest assets\" of choice for many investors fed up with government debt and inflation risks.",
             "After reviewing the impacts of DC's behavior, we conclude with a strong opinion about investing (and allocating assets to SCHD and QQQ-type stocks) in this new and riskier market paradigm."
           ],
-          "analysisUpdatedAt": 1788237142.0843487
+          "analysisUpdatedAt": 1788260223.235132
         }
       },
       {
@@ -29953,12 +29954,13 @@ const NEWS_DATA = {
           "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Jackson Hole And The Nasdaq-100: Does The Market Overprice The Weekend Risk?",
-            "(NDX) | Seeking Alpha Russell Rhoads 5 Followers Follow Summary Traders tend to brace for market reactions around to news coming out of Jackson Hole and the Nasdaq-100 (NDX) is the most economically sensitive broad-based index.",
-            "The average move for the three trading days that overlap with the Jackson Hole meeting is +/-1.22%, with the biggest gain in 2018 (+1.81%) and the largest loss in 2022, with NDX giving up 3.36%."
+            "잭슨홀과 나스닥-100: 시장이 주말 위험을 과대평가하는가?",
+            "(NDX) | Alpha Russell Rhoads 5 추종자 팔로우 요약 거래자들은 Jackson Hole에서 나오는 뉴스에 대한 시장 반응에 대비하는 경향이 있으며 Nasdaq-100(NDX)은 경제적으로 가장 민감한 광범위한 지수입니다.",
+            "잭슨홀 미팅과 겹치는 3거래일의 평균 움직임은 +/-1.22%로, 2018년에 가장 큰 상승폭(+1.81%)과 2022년에 가장 큰 손실률을 기록했으며, NDX는 3.36%를 포기했습니다."
           ],
           "why": [
             "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.22%, 1.81%, 3.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -29992,7 +29994,7 @@ const NEWS_DATA = {
             "(NDX) | Seeking Alpha Russell Rhoads 5 Followers Follow Summary Traders tend to brace for market reactions around to news coming out of Jackson Hole and the Nasdaq-100 (NDX) is the most economically sensitive broad-based index.",
             "The average move for the three trading days that overlap with the Jackson Hole meeting is +/-1.22%, with the biggest gain in 2018 (+1.81%) and the largest loss in 2022, with NDX giving up 3.36%."
           ],
-          "analysisUpdatedAt": 1788237143.5292735
+          "analysisUpdatedAt": 1788260227.7611296
         }
       },
       {
@@ -31097,17 +31099,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788237137.3703926,
-    "_updated_label": "2026-09-01 13:32",
+    "_fetched_at": 1788260216.3428311,
+    "_updated_label": "2026-09-01 19:57",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788237137.3703926,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788237137.3703926,
+    "_last_success_at": 1788260216.3428311,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -33161,7 +33163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -34740,7 +34742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -36459,7 +36461,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -36517,7 +36519,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237151.4298759
+          "analysisUpdatedAt": 1788260231.802822
         },
         "headlineKo": "메타, 팔란티르, 파라마운트 스카이댄스 헤지 트럼프, 중간고사로 인해 하우스 플립 가능성이 높아짐에 따라 민주당에 구애됨: 보고서"
       },
@@ -36565,7 +36567,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237152.610124
+          "analysisUpdatedAt": 1788260232.9476907
         },
         "headlineKo": "오늘날 Palantir Stock의 하락과 관련하여 어떤 일이 일어나고 있습니까?"
       },
@@ -36583,12 +36585,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Palantir Technologies ( PLTR +0.05% ) took in $1.94 billion of revenue in the second quarter and kept $1.06 billion of it as net income.",
-            "Out of every dollar the artificial intelligence (AI) software specialist collected, 55 cents dropped to the bottom line."
+            "Palantir는 모든 수익의 55센트를 이익으로 유지합니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "Palantir Technologies(PLTR +0.05%)가 2분기에 19억 4천만 달러의 수익을 올렸고 그 중 10억 6천만 달러를 순이익으로 유지했습니다.",
+            "인공지능(AI) 소프트웨어 전문가가 수집한 1달러 중 55센트가 순익으로 떨어졌습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.05%, $1.94 billion, $1.06 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -36626,7 +36629,7 @@ const NEWS_DATA = {
             "Help Palantir Technologies ( PLTR +0.05% ) took in $1.94 billion of revenue in the second quarter and kept $1.06 billion of it as net income.",
             "Out of every dollar the artificial intelligence (AI) software specialist collected, 55 cents dropped to the bottom line."
           ],
-          "analysisUpdatedAt": 1788237153.7767868
+          "analysisUpdatedAt": 1788260238.1989267
         },
         "headlineKo": "Palantir는 모든 수익 달러의 55 센트를 이익으로 유지합니다"
       },
@@ -36684,7 +36687,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237151.4298759
+          "analysisUpdatedAt": 1788260231.802822
         }
       },
       {
@@ -36732,7 +36735,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237152.610124
+          "analysisUpdatedAt": 1788260232.9476907
         }
       },
       {
@@ -36750,12 +36753,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Palantir Keeps 55 Cents of Every Revenue Dollar as Profit | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Palantir Technologies ( PLTR +0.05% ) took in $1.94 billion of revenue in the second quarter and kept $1.06 billion of it as net income.",
-            "Out of every dollar the artificial intelligence (AI) software specialist collected, 55 cents dropped to the bottom line."
+            "Palantir는 모든 수익의 55센트를 이익으로 유지합니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "Palantir Technologies(PLTR +0.05%)가 2분기에 19억 4천만 달러의 수익을 올렸고 그 중 10억 6천만 달러를 순이익으로 유지했습니다.",
+            "인공지능(AI) 소프트웨어 전문가가 수집한 1달러 중 55센트가 순익으로 떨어졌습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.05%, $1.94 billion, $1.06 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -36793,7 +36797,7 @@ const NEWS_DATA = {
             "Help Palantir Technologies ( PLTR +0.05% ) took in $1.94 billion of revenue in the second quarter and kept $1.06 billion of it as net income.",
             "Out of every dollar the artificial intelligence (AI) software specialist collected, 55 cents dropped to the bottom line."
           ],
-          "analysisUpdatedAt": 1788237153.7767868
+          "analysisUpdatedAt": 1788260238.1989267
         }
       },
       {
@@ -37896,17 +37900,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788237137.3703926,
-    "_updated_label": "2026-09-01 13:32",
+    "_fetched_at": 1788260216.3428311,
+    "_updated_label": "2026-09-01 19:57",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788237137.3703926,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788237137.3703926,
+    "_last_success_at": 1788260216.3428311,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -38930,7 +38934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -39717,7 +39721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -39746,12 +39750,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell Technology: Greater Clarity Does Not Impress (NASDAQ:MRVL) | Seeking Alpha The Value Investor Investing Group Leader Follow Summary Marvell Technology, Inc.'s shares dropped 10% post earnings as ambiguity around the Alphabet/Google ",
-            "Q2 sales grew 37% to $2.74B, with Q3 guidance at $3.15B and 50% YoY growth expected, but valuation has expanded to 20x sales at recent peaks.",
-            "The Google agreement could drive up to $20B in annual product sales, yet guidance implies a more modest $6B incremental revenue, disappointing some expectations."
+            "Marvell 기술: 선명도가 높아도 인상적이지 않습니다(NASDAQ:MRVL) | 알파 추구 가치 투자자 투자 그룹 리더 팔로우 요약 Marvell Technology, Inc.의 주가는 알파벳/구글에 대한 모호함으로 인해 수익 후 10% 하락했습니다.",
+            "2분기 매출은 37% 증가한 27억 4천만 달러로 3분기 지침은 31억 5천만 달러, 전년 대비 50% 성장이 예상되었지만 최근 최고점에서 가치 평가는 매출 20배로 확대되었습니다.",
+            "Google 계약으로 인해 연간 제품 매출이 최대 200억 달러까지 증가할 수 있지만 지침에 따르면 약간의 60억 달러 증가 수익이 예상되어 일부 기대를 실망시켰습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 37%, $2.74 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -39789,7 +39794,7 @@ const NEWS_DATA = {
             "Q2 sales grew 37% to $2.74B, with Q3 guidance at $3.15B and 50% YoY growth expected, but valuation has expanded to 20x sales at recent peaks.",
             "The Google agreement could drive up to $20B in annual product sales, yet guidance implies a more modest $6B incremental revenue, disappointing some expectations."
           ],
-          "analysisUpdatedAt": 1788237158.1229606
+          "analysisUpdatedAt": 1788260247.3039415
         },
         "headlineKo": "Marvell 기술: 더 높은 선명도는 인상적이지 않습니다."
       },
@@ -39807,12 +39812,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell: Why I Think The Stock Is Ready For Another Leg Higher (Rating Upgrade) (MRVL) | Seeking Alpha The J Thesis 2.34K Followers Follow Summary Marvell Technology, Inc.",
-            "is upgraded to Strong Buy after a 28% pullback, with valuation now seen as attractive.",
-            "MRVL has delivered four consecutive double-beat quarters, reinforcing confidence in its AI-driven growth trajectory."
+            "Marvell: 주식이 또 한 단계 더 높아질 준비가 되어 있다고 생각하는 이유(등급 업그레이드)(MRVL) | 알파 추구 The J Thesis 팔로워 2.34K 팔로우 요약 Marvell Technology, Inc.",
+            "28% 하락한 후 Strong Buy로 업그레이드되었으며 현재 밸류에이션이 매력적으로 보입니다.",
+            "MRVL은 4회 연속 더블비트 분기를 달성하며 AI 기반 성장 궤도에 대한 자신감을 강화했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 28%, 7%, 31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -39846,7 +39852,7 @@ const NEWS_DATA = {
             "is upgraded to Strong Buy after a 28% pullback, with valuation now seen as attractive.",
             "MRVL has delivered four consecutive double-beat quarters, reinforcing confidence in its AI-driven growth trajectory."
           ],
-          "analysisUpdatedAt": 1788237159.3150098
+          "analysisUpdatedAt": 1788260252.6327841
         },
         "headlineKo": "Marvell: 주식이 또 한 번 더 상승할 준비가 되어 있다고 생각하는 이유(등급 업그레이드)"
       },
@@ -39864,9 +39870,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling (NASDAQ:MRVL) | Seeking Alpha JR Research Investing Group Leader Follow Summary Marvell Technology, Inc.",
-            "is navigating a lack of conviction post-earnings even as its multi-year Google partnership signals a transformative revenue opportunity beyond its Amazon relationship.",
-            "MRVL's valuation has reset from 70x to 40x forward earnings, reflecting high perceived execution risks and market skepticism on deal accretion timing."
+            "Marvell: 알파벳 거래의 잠재력에 대한 시장의 근시안은 당황스럽습니다(NASDAQ:MRVL) | 알파 찾기 JR 연구 투자 그룹 리더 팔로우 요약 Marvell Technology, Inc.",
+            "다년간의 Google 파트너십을 통해 Amazon 관계를 넘어 혁신적인 수익 기회를 얻을 수 있다는 신호를 보내고 있음에도 불구하고 수익 후 확신이 부족한 상황을 헤쳐나가고 있습니다.",
+            "MRVL의 가치 평가는 높은 인식된 실행 위험과 거래 증가 시기에 대한 시장 회의론을 반영하여 향후 수익 70배에서 40배로 재설정되었습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -39898,7 +39904,7 @@ const NEWS_DATA = {
             "is navigating a lack of conviction post-earnings even as its multi-year Google partnership signals a transformative revenue opportunity beyond its Amazon relationship.",
             "MRVL's valuation has reset from 70x to 40x forward earnings, reflecting high perceived execution risks and market skepticism on deal accretion timing."
           ],
-          "analysisUpdatedAt": 1788237162.9179037
+          "analysisUpdatedAt": 1788260255.4705439
         },
         "headlineKo": "Marvell: 알파벳 거래의 잠재력에 대한 시장의 근시안은 당황스럽습니다"
       },
@@ -39935,12 +39941,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell Technology: Greater Clarity Does Not Impress (NASDAQ:MRVL) | Seeking Alpha The Value Investor Investing Group Leader Follow Summary Marvell Technology, Inc.'s shares dropped 10% post earnings as ambiguity around the Alphabet/Google ",
-            "Q2 sales grew 37% to $2.74B, with Q3 guidance at $3.15B and 50% YoY growth expected, but valuation has expanded to 20x sales at recent peaks.",
-            "The Google agreement could drive up to $20B in annual product sales, yet guidance implies a more modest $6B incremental revenue, disappointing some expectations."
+            "Marvell 기술: 선명도가 높아도 인상적이지 않습니다(NASDAQ:MRVL) | 알파 추구 가치 투자자 투자 그룹 리더 팔로우 요약 Marvell Technology, Inc.의 주가는 알파벳/구글에 대한 모호함으로 인해 수익 후 10% 하락했습니다.",
+            "2분기 매출은 37% 증가한 27억 4천만 달러로 3분기 지침은 31억 5천만 달러, 전년 대비 50% 성장이 예상되었지만 최근 최고점에서 가치 평가는 매출 20배로 확대되었습니다.",
+            "Google 계약으로 인해 연간 제품 매출이 최대 200억 달러까지 증가할 수 있지만 지침에 따르면 약간의 60억 달러 증가 수익이 예상되어 일부 기대를 실망시켰습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 10%, 37%, $2.74 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -39978,7 +39985,7 @@ const NEWS_DATA = {
             "Q2 sales grew 37% to $2.74B, with Q3 guidance at $3.15B and 50% YoY growth expected, but valuation has expanded to 20x sales at recent peaks.",
             "The Google agreement could drive up to $20B in annual product sales, yet guidance implies a more modest $6B incremental revenue, disappointing some expectations."
           ],
-          "analysisUpdatedAt": 1788237158.1229606
+          "analysisUpdatedAt": 1788260247.3039415
         }
       },
       {
@@ -39996,12 +40003,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell: Why I Think The Stock Is Ready For Another Leg Higher (Rating Upgrade) (MRVL) | Seeking Alpha The J Thesis 2.34K Followers Follow Summary Marvell Technology, Inc.",
-            "is upgraded to Strong Buy after a 28% pullback, with valuation now seen as attractive.",
-            "MRVL has delivered four consecutive double-beat quarters, reinforcing confidence in its AI-driven growth trajectory."
+            "Marvell: 주식이 또 한 단계 더 높아질 준비가 되어 있다고 생각하는 이유(등급 업그레이드)(MRVL) | 알파 추구 The J Thesis 팔로워 2.34K 팔로우 요약 Marvell Technology, Inc.",
+            "28% 하락한 후 Strong Buy로 업그레이드되었으며 현재 밸류에이션이 매력적으로 보입니다.",
+            "MRVL은 4회 연속 더블비트 분기를 달성하며 AI 기반 성장 궤도에 대한 자신감을 강화했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 28%, 7%, 31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -40035,7 +40043,7 @@ const NEWS_DATA = {
             "is upgraded to Strong Buy after a 28% pullback, with valuation now seen as attractive.",
             "MRVL has delivered four consecutive double-beat quarters, reinforcing confidence in its AI-driven growth trajectory."
           ],
-          "analysisUpdatedAt": 1788237159.3150098
+          "analysisUpdatedAt": 1788260252.6327841
         }
       },
       {
@@ -40053,9 +40061,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Marvell: Market's Myopia On Alphabet Deal's Potential Is Baffling (NASDAQ:MRVL) | Seeking Alpha JR Research Investing Group Leader Follow Summary Marvell Technology, Inc.",
-            "is navigating a lack of conviction post-earnings even as its multi-year Google partnership signals a transformative revenue opportunity beyond its Amazon relationship.",
-            "MRVL's valuation has reset from 70x to 40x forward earnings, reflecting high perceived execution risks and market skepticism on deal accretion timing."
+            "Marvell: 알파벳 거래의 잠재력에 대한 시장의 근시안은 당황스럽습니다(NASDAQ:MRVL) | 알파 찾기 JR 연구 투자 그룹 리더 팔로우 요약 Marvell Technology, Inc.",
+            "다년간의 Google 파트너십을 통해 Amazon 관계를 넘어 혁신적인 수익 기회를 얻을 수 있다는 신호를 보내고 있음에도 불구하고 수익 후 확신이 부족한 상황을 헤쳐나가고 있습니다.",
+            "MRVL의 가치 평가는 높은 인식된 실행 위험과 거래 증가 시기에 대한 시장 회의론을 반영하여 향후 수익 70배에서 40배로 재설정되었습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -40087,7 +40095,7 @@ const NEWS_DATA = {
             "is navigating a lack of conviction post-earnings even as its multi-year Google partnership signals a transformative revenue opportunity beyond its Amazon relationship.",
             "MRVL's valuation has reset from 70x to 40x forward earnings, reflecting high perceived execution risks and market skepticism on deal accretion timing."
           ],
-          "analysisUpdatedAt": 1788237162.9179037
+          "analysisUpdatedAt": 1788260255.4705439
         }
       },
       {
@@ -42313,17 +42321,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788237137.3703926,
-    "_updated_label": "2026-09-01 13:32",
+    "_fetched_at": 1788260216.3428311,
+    "_updated_label": "2026-09-01 19:57",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788237137.3703926,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788237137.3703926,
+    "_last_success_at": 1788260216.3428311,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -43263,7 +43271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -44332,7 +44340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -45395,7 +45403,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -47685,7 +47693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -48754,7 +48762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788246948.9262547,
     "_earnings_status": "ok",
@@ -49524,7 +49532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -50147,7 +50155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -51022,7 +51030,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -52143,7 +52151,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -52740,7 +52748,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788243181.6398191,
     "_earnings_status": "ok",
@@ -53632,7 +53640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -54110,7 +54118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -54842,7 +54850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -55265,9 +55273,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788258353.721352,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
     "_last_success_at": 1788187127.1446443,
     "_collection_status": "empty",
@@ -56102,7 +56110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788239021.3247433,
     "_earnings_status": "ok",
@@ -56482,7 +56490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788241259.9800453,
     "_earnings_status": "ok",
@@ -56511,12 +56519,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Seagate: Not A Time To Be Greedy - More Consolidation Ahead (NASDAQ:STX) | Seeking Alpha Juxtaposed Ideas 16.15K Followers Follow Summary NVDA feds the AI exuberance by guiding double digits growth through FY2028, with STX likely to be a mu",
-            "The fully contracted 2027 capacity and long-term supply agreements support their robust profitable growth prospects and richer cash flow generations.",
-            "STX may also escape the cyclical boom/bust pains with a focus on aerial density instead of volume growth, aided by the HAMR technology advances."
+            "Seagate: 욕심을 부릴 때가 아닙니다. 앞으로 더 많은 통합이 예상됩니다(NASDAQ:STX) | 알파 병치 아이디어 찾기 16.15K 팔로워 팔로우 요약 NVDA는 FY2028까지 두 자릿수 성장을 유도하여 AI에 활기를 불어넣고 STX는 뮤가 될 가능성이 높습니다.",
+            "완전히 계약된 2027년 용량 및 장기 공급 계약은 강력한 수익성 있는 성장 전망과 풍부한 현금 흐름 창출을 지원합니다.",
+            "STX는 또한 HAMR 기술 발전에 힘입어 물량 성장 대신 대기밀도에 초점을 맞춰 주기적 호황/불황의 고통에서 벗어날 수 있습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -56547,7 +56556,7 @@ const NEWS_DATA = {
             "The fully contracted 2027 capacity and long-term supply agreements support their robust profitable growth prospects and richer cash flow generations.",
             "STX may also escape the cyclical boom/bust pains with a focus on aerial density instead of volume growth, aided by the HAMR technology advances."
           ],
-          "analysisUpdatedAt": 1788237177.5948534
+          "analysisUpdatedAt": 1788260266.3486092
         },
         "headlineKo": "씨게이트: 욕심을 부릴 때가 아닙니다 - 더 많은 통합을 앞두고 있습니다"
       },
@@ -56595,7 +56604,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237178.6247993
+          "analysisUpdatedAt": 1788260269.7429314
         },
         "headlineKo": "Change Agent가 Seagate 파트너 프로그램에 참여하여 AI 기반 자율 방어 기술 발전"
       },
@@ -56643,7 +56652,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237179.7921505
+          "analysisUpdatedAt": 1788260272.2554705
         },
         "headlineKo": "James C. Lee, 판매 주문 실행: Seagate Technology Hldgs Stock에서 $ 3.35 M을 오프로드합니다."
       },
@@ -56680,12 +56689,13 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Seagate: Not A Time To Be Greedy - More Consolidation Ahead (NASDAQ:STX) | Seeking Alpha Juxtaposed Ideas 16.15K Followers Follow Summary NVDA feds the AI exuberance by guiding double digits growth through FY2028, with STX likely to be a mu",
-            "The fully contracted 2027 capacity and long-term supply agreements support their robust profitable growth prospects and richer cash flow generations.",
-            "STX may also escape the cyclical boom/bust pains with a focus on aerial density instead of volume growth, aided by the HAMR technology advances."
+            "Seagate: 욕심을 부릴 때가 아닙니다. 앞으로 더 많은 통합이 예상됩니다(NASDAQ:STX) | 알파 병치 아이디어 찾기 16.15K 팔로워 팔로우 요약 NVDA는 FY2028까지 두 자릿수 성장을 유도하여 AI에 활기를 불어넣고 STX는 뮤가 될 가능성이 높습니다.",
+            "완전히 계약된 2027년 용량 및 장기 공급 계약은 강력한 수익성 있는 성장 전망과 풍부한 현금 흐름 창출을 지원합니다.",
+            "STX는 또한 HAMR 기술 발전에 힘입어 물량 성장 대신 대기밀도에 초점을 맞춰 주기적 호황/불황의 고통에서 벗어날 수 있습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -56716,7 +56726,7 @@ const NEWS_DATA = {
             "The fully contracted 2027 capacity and long-term supply agreements support their robust profitable growth prospects and richer cash flow generations.",
             "STX may also escape the cyclical boom/bust pains with a focus on aerial density instead of volume growth, aided by the HAMR technology advances."
           ],
-          "analysisUpdatedAt": 1788237177.5948534
+          "analysisUpdatedAt": 1788260266.3486092
         }
       },
       {
@@ -56764,7 +56774,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237178.6247993
+          "analysisUpdatedAt": 1788260269.7429314
         }
       },
       {
@@ -56812,7 +56822,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237179.7921505
+          "analysisUpdatedAt": 1788260272.2554705
         }
       },
       {
@@ -57297,17 +57307,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788237137.3703926,
-    "_updated_label": "2026-09-01 13:32",
+    "_fetched_at": 1788260216.3428311,
+    "_updated_label": "2026-09-01 19:57",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788237137.3703926,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788237137.3703926,
+    "_last_success_at": 1788260216.3428311,
     "_collection_status": "ok"
   },
   "EME": {
@@ -57361,7 +57371,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237185.2263844
+          "analysisUpdatedAt": 1788260277.2268057
         },
         "headlineKo": "EMCOR 그룹 (EME) 주식은 현금 흐름과 수익에서 여전히 저렴해 보입니다."
       }
@@ -57411,7 +57421,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788237185.2263844
+          "analysisUpdatedAt": 1788260277.2268057
         }
       },
       {
@@ -57757,17 +57767,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788237137.3703926,
-    "_updated_label": "2026-09-01 13:33",
+    "_fetched_at": 1788260216.3428311,
+    "_updated_label": "2026-09-01 19:57",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788237137.3703926,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788237137.3703926,
+    "_last_success_at": 1788260216.3428311,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -58505,7 +58515,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
     "_last_attempt_at": 1788256349.2971172,
     "_earnings_status": "ok",
@@ -58625,16 +58635,16 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     },
-    "_last_attempt_at": 1788258353.721352,
+    "_last_attempt_at": 1788260216.3428311,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
     "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
-    "_last_attempt_at": 1788258353.721352,
+    "_last_attempt_at": 1788260216.3428311,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -58650,7 +58660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 0,
       "removed": 0,
-      "updated": "2026-09-01 19:26"
+      "updated": "2026-09-01 19:58"
     }
   }
 };
