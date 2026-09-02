@@ -9,8 +9,8 @@ const INSIDER_DATA = {
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "MSFT": {
     "transactions": [
@@ -52,6 +52,14 @@ const INSIDER_DATA = {
   },
   "GOOGL": {
     "transactions": [
+      {
+        "name": "ARNOLD FRANCES",
+        "share": 82,
+        "transactionPrice": 337.71,
+        "transactionDate": "2026-08-28",
+        "filingDate": "2026-08-31",
+        "code": "S"
+      },
       {
         "name": "ARNOLD FRANCES",
         "share": 82,
@@ -203,18 +211,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-15",
         "filingDate": "2026-06-18",
         "code": "S"
-      },
-      {
-        "name": "Hennessy John L.",
-        "share": 177,
-        "transactionPrice": 369.21,
-        "transactionDate": "2026-06-15",
-        "filingDate": "2026-06-18",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "AMZN": {
     "transactions": [
@@ -379,8 +379,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "META": {
     "transactions": [
@@ -567,8 +567,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "TSLA": {
     "transactions": [
@@ -882,18 +882,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-04",
         "filingDate": "2026-06-04",
         "code": "S"
-      },
-      {
-        "name": "Neal Stephen C",
-        "share": 15500,
-        "transactionPrice": 215.7331,
-        "transactionDate": "2026-06-03",
-        "filingDate": "2026-06-05",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "AMD": {
     "transactions": [
@@ -1394,9 +1386,18 @@ const INSIDER_DATA = {
     "_updated_label": "2026-09-02"
   },
   "ARM": {
-    "transactions": [],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "transactions": [
+      {
+        "name": "Child Jason",
+        "share": 10400,
+        "transactionPrice": 255.33,
+        "transactionDate": "2026-08-27",
+        "filingDate": "2026-08-31",
+        "code": "S"
+      }
+    ],
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "MRVL": {
     "transactions": [
@@ -2907,8 +2908,8 @@ const INSIDER_DATA = {
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "HUBB": {
     "transactions": [
@@ -3076,8 +3077,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   },
   "STX": {
     "transactions": [
@@ -3321,7 +3322,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788241309.1920202,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788315114.2115486,
+    "_updated_label": "2026-09-02"
   }
 };

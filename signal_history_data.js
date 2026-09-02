@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788313180.9194736,
+  "generatedAt": 1788315114.1186442,
   "records": {
     "MSFT": [
       {
@@ -2895,6 +2895,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AAPL": [
       {
+        "changedAt": 1788315114.1186442,
+        "dataAsOf": 1788292404,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": -0.18,
+            "after": 0.17
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.87,
+            "after": 1.57
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.05,
+            "after": -0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. CEO John Ternus는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 홍보했다고 합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
+        "eventId": "f5a4ac9ec2cf9aeff842",
+        "fingerprint": "{\"changes\": [{\"after\": 0.17, \"before\": -0.18, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.57, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"f5a4ac9ec2cf9aeff842\"}"
+      },
+      {
         "changedAt": 1788307509.638985,
         "dataAsOf": 1788290100,
         "changes": [
@@ -5393,6 +5428,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788315114.1186442,
+        "dataAsOf": 1788291300,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.85,
+            "after": 3.5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": -0.52
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia는 AI 붐의 두뇌를 판매합니다. 뭔가 다른 것이 인기를 끌고 있지만 월스트리트의 레이더에는 없습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=99be8f57191c0c8d6a52fcc0e4ac2336cfc50e21c4243622efd96ad584760f40",
+        "eventId": "4fa5eae7bcd88ece6fca",
+        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 3.85, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"4fa5eae7bcd88ece6fca\"}"
+      },
+      {
         "changedAt": 1788311290.060257,
         "dataAsOf": 1788291300,
         "changes": [
@@ -6196,6 +6260,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1788315114.1186442,
+        "dataAsOf": 1788284641,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.33,
+            "after": 2.98
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMD의 Instinct 시스템이 이제 사우디아라비아에 출시되었습니다. 다음 250메가와트의 주식 가치는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=3c2c7e8525a1f3f4b9011f9f61f6ebe2e1a4e2309ce9cb831645fea2bf5d1870",
+        "eventId": "f77ce872a6e2c3d93af5",
+        "fingerprint": "{\"changes\": [{\"after\": 2.98, \"before\": 3.33, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f77ce872a6e2c3d93af5\"}"
+      },
       {
         "changedAt": 1788311290.060257,
         "dataAsOf": 1788284641,
@@ -10681,6 +10762,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMAT": [
       {
+        "changedAt": 1788315114.1186442,
+        "dataAsOf": 1787756400.0,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+        "newsHeadline": "AMAT SEC Form 8-K 공식 제출",
+        "newsUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059257/amat-20260827.htm",
+        "eventId": "437ebc3c071f1823cd7e",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"437ebc3c071f1823cd7e\"}"
+      },
+      {
         "changedAt": 1788292873.5446005,
         "dataAsOf": 1787875983,
         "changes": [
@@ -11290,6 +11394,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788315114.1186442,
+        "dataAsOf": 1788290100,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.72,
+            "after": 4.38
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.98,
+            "after": 2.62
+          }
+        ],
+        "cause": "메모리 ASP와 이익률 개선 가능성",
+        "newsHeadline": "Ternus 시대가 시작되면서 Apple 주가 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
+        "eventId": "4771c7405feee78cc629",
+        "fingerprint": "{\"changes\": [{\"after\": 4.38, \"before\": 4.72, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.62, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4771c7405feee78cc629\"}"
+      },
       {
         "changedAt": 1788311290.060257,
         "dataAsOf": 1788290100,
