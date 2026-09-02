@@ -47,8 +47,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788248841.538479,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788322600.736162,
+    "_updated_label": "2026-09-02"
   },
   "GOOGL": {
     "transactions": [
@@ -680,8 +680,8 @@ const INSIDER_DATA = {
   },
   "CRM": {
     "transactions": [],
-    "_fetched_at": 1788248841.538479,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788322600.736162,
+    "_updated_label": "2026-09-02"
   },
   "PLTR": {
     "transactions": [
@@ -2927,8 +2927,8 @@ const INSIDER_DATA = {
   },
   "VRT": {
     "transactions": [],
-    "_fetched_at": 1788248841.538479,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788322600.736162,
+    "_updated_label": "2026-09-02"
   },
   "MOD": {
     "transactions": [
