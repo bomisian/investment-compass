@@ -111,8 +111,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 44.84,
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:42"
   },
   "MSFT": {
     "forwardPE": 22.94147,
@@ -652,8 +652,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.24,
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:42"
   },
   "ARM": {
     "forwardPE": 98.30982,
@@ -943,7 +943,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-09-02 11:10"
   },
   "COHR": {
-    "forwardPE": 29.423457812821354,
+    "forwardPE": 28.809211491997957,
     "peTTM": 79.5299,
     "psTTM": 8.9938,
     "pb": 5.8714,
@@ -975,8 +975,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 6.25,
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:43"
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1042,8 +1042,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 74.29,
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:43"
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1325,7 +1325,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 208823.47,
     "52WeekHigh": 1145,
     "52WeekLow": 163.86,
-    "beta": 2.100721,
+    "beta": 2.1044369,
     "avgPe3Y": 47.641533333333335,
     "peDeviation3Y": 37.66412500017492,
     "perBandYears": 22,
@@ -1335,8 +1335,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 50.519999999999996,
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:43"
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1449,7 +1449,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-09-02 09:36"
   },
   "BE": {
-    "forwardPE": 77.25417033964125,
+    "forwardPE": 79.9990713022664,
     "peTTM": 11588.5016,
     "psTTM": 28.5474,
     "pb": 75.8717,
@@ -1475,7 +1475,7 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 0.21,
     "name": "Bloom Energy Corp",
     "theme": "Electrical Equipment",
-    "_fetched_at": 1788243126.8079429,
-    "_updated_label": "2026-09-01 15:12"
+    "_fetched_at": 1788316967.414049,
+    "_updated_label": "2026-09-02 11:43"
   }
 };

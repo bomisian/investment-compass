@@ -2922,8 +2922,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788243222.81359,
-    "_updated_label": "2026-09-01"
+    "_fetched_at": 1788317023.502223,
+    "_updated_label": "2026-09-02"
   },
   "VRT": {
     "transactions": [],
