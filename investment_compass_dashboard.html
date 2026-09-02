@@ -1630,12 +1630,18 @@ function computeFairValue(ticker, price, fund, est){
       if(peg <= 1) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요 - 그래서 '보수적' 가격도 절대적으로는 여전히 비싸 보일 수 있어요. 다만 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로(1 이하면 성장성 대비 저평가), 지금 성장 속도가 이 PER을 상당히 뒷받침하는 편이에요.`);
       else if(peg >= 2) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요. 성장률까지 감안한 <b>PEG도 ${peg.toFixed(2)}배</b>로 높은 편이라(2 이상이면 성장성 대비 고평가), 위 숫자를 절대적인 '싸다'로 보기보다는 참고만 하세요.`);
     }
+    // ⚠️ price를 mid/low/high와 직접 비교해서 조건을 걸지 않음 - mid=eps1*anchorPe라
+    // mid/price=eps1/eps0(=1+growth)이 기계적으로 성립하고 low/high도 여기서 파생돼서,
+    // "가격이 밴드 어디쯤"이 실제 밸류 위치가 아니라 성장률 부호의 재진술이 되기 쉬움(예:
+    // growth>0이면 거의 항상 price<mid, bandLow<1이면 price<=low는 growth가 아주 커야만 성립).
+    // 그래서 PEG 교차검증은 가격 위치 조건 없이, PEG 값 자체가 극단적일 때만 참고 문구로 붙임.
+    const low = mid*bandLow, high = mid*bandHigh;
     if(hasOwnBand && peg!=null){
-      if(peg >= 2 && price < mid) cautions.push(`PER 밴드만 보면 지금 가격이 이 종목 자체의 저평가 쪽에 가까운데, 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 높은 편이에요(2 이상이면 성장성 대비 고평가) - 이익 성장이 둔화되고 있을 수 있으니, 밸류트랩은 아닌지 EPS 컨센서스 개정 방향이나 03 실적 탭도 같이 확인해보세요.`);
-      else if(peg <= 1 && price > mid) cautions.push(`PER 밴드만 보면 지금 가격이 이 종목 자체의 고평가 쪽에 가까운데, 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 낮은 편이에요(1 이하면 성장성 대비 저평가) - 성장 속도가 높은 PER을 뒷받침하고 있어서, 단순히 '비싸다'로만 보기는 이를 수 있어요.`);
+      if(peg >= 2) cautions.push(`참고로 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 높은 편이에요(2 이상이면 성장성 대비 고평가) - 위 PER 기준 시나리오가 얼마나 싸 보이든, 이익 성장이 그만큼 뒷받침되지 않으면 밸류트랩일 수 있으니 EPS 컨센서스 개정 방향이나 03 실적 탭도 같이 확인해보세요.`);
+      else if(peg <= 1) cautions.push(`참고로 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 낮은 편이에요(1 이하면 성장성 대비 저평가) - 위 PER 기준 시나리오가 비싸 보이더라도, 성장 속도가 그 가격을 뒷받침하고 있다는 뜻이라 단순히 '비싸다'로만 보기는 이를 수 있어요.`);
     }
     out.fwd = {
-      low: mid*bandLow, mid, high: mid*bandHigh,
+      low, mid, high,
       eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions, peg,
       endDate0, endDate1, consensusAsOf,
       bandLow, bandHigh, bandSource: hasOwnBand ? 'ticker' : 'universal', bandYears: fund?.perBandYears ?? null,

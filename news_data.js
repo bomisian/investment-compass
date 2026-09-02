@@ -4967,7 +4967,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -7779,7 +7779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -10287,7 +10287,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -12659,7 +12659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -15735,7 +15735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -16663,7 +16663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -19312,7 +19312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -22478,7 +22478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -25299,7 +25299,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -28197,7 +28197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -30656,7 +30656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -32542,7 +32542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -33969,7 +33969,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -33993,9 +33993,9 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C. 추구",
-            "Barry 3 팔로워 팔로우 요약 TappAlpha Innovation 100 성장 및 일일 소득 ETF는 2025년 9월 4일부터 2026년 8월 25일까지 총 수익률 24.54% 를 기록하여 QQQ의 총 수익률 24.15% 를 39 베이시스 포인",
-            "이 차이는 356일과 244건의 공유 거래 세션 가격 기록에 걸쳐 있으며, QQQ가 하룻밤 사이에 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
+            "TDAQ: 17% 수익률의 커버드 콜 ETF는 실제로 QQQ보다 나은 성과를 낼 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C를 찾고 있습니다.",
+            "Barry 15명의 팔로워 팔로우 요약 TappAlpha Innovation 100 Growth & Daily Income ETF는 2025년 9월 4일부터 2026년 8월 25일까지 출시된 이래 총 수익률 24.54%를 기록했으며, 이는 QQQ의 총 수익률 24.15%를 39bp만큼 앞섰습니다.",
+            "이 차이는 356일과 244개의 공유 거래 세션 가격 기록에 걸쳐 발생했으며 QQQ가 밤새 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -34034,10 +34034,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run | Seeking Alpha Benjamin C.",
-            "Barry 3 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poin",
+            "Barry 15 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poi",
             "The difference spans 356 calendar days and 244 shared trading-session price records, and it occurred along a path where QQQ was up 28.17% overnight but down 3.13% during the regular session."
           ],
-          "analysisUpdatedAt": 1788303725.261528
+          "analysisUpdatedAt": 1788326515.8264134
         },
         "headlineKo": "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다."
       },
@@ -34085,7 +34085,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303726.307947
+          "analysisUpdatedAt": 1788326516.8923242
         },
         "headlineKo": "글로벌 본드 루트 스파크 기술 매도: 화요일에 5% 하락한 5개의 나스닥 주식"
       },
@@ -34133,7 +34133,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303727.1201205
+          "analysisUpdatedAt": 1788326517.7090325
         },
         "headlineKo": "오늘의 주식 시장: S&P 500, 다우, 나스닥 100 선물 하락 트럼프가 이란이 ‘완전히 패배했다‘ 고 말한 후, Brent Tops $ 92 — CBRS, PXS, PANW, DELL in Focus (업데이트됨)"
       },
@@ -34170,9 +34170,9 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C. 추구",
-            "Barry 3 팔로워 팔로우 요약 TappAlpha Innovation 100 성장 및 일일 소득 ETF는 2025년 9월 4일부터 2026년 8월 25일까지 총 수익률 24.54% 를 기록하여 QQQ의 총 수익률 24.15% 를 39 베이시스 포인",
-            "이 차이는 356일과 244건의 공유 거래 세션 가격 기록에 걸쳐 있으며, QQQ가 하룻밤 사이에 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
+            "TDAQ: 17% 수익률의 커버드 콜 ETF는 실제로 QQQ보다 나은 성과를 낼 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C를 찾고 있습니다.",
+            "Barry 15명의 팔로워 팔로우 요약 TappAlpha Innovation 100 Growth & Daily Income ETF는 2025년 9월 4일부터 2026년 8월 25일까지 출시된 이래 총 수익률 24.54%를 기록했으며, 이는 QQQ의 총 수익률 24.15%를 39bp만큼 앞섰습니다.",
+            "이 차이는 356일과 244개의 공유 거래 세션 가격 기록에 걸쳐 발생했으며 QQQ가 밤새 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -34211,10 +34211,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run | Seeking Alpha Benjamin C.",
-            "Barry 3 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poin",
+            "Barry 15 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poi",
             "The difference spans 356 calendar days and 244 shared trading-session price records, and it occurred along a path where QQQ was up 28.17% overnight but down 3.13% during the regular session."
           ],
-          "analysisUpdatedAt": 1788303725.261528
+          "analysisUpdatedAt": 1788326515.8264134
         }
       },
       {
@@ -34262,7 +34262,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303726.307947
+          "analysisUpdatedAt": 1788326516.8923242
         }
       },
       {
@@ -34310,7 +34310,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303727.1201205
+          "analysisUpdatedAt": 1788326517.7090325
         }
       },
       {
@@ -35635,17 +35635,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788303715.7155588,
-    "_updated_label": "2026-09-02 08:02",
+    "_fetched_at": 1788326507.0994282,
+    "_updated_label": "2026-09-02 14:21",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788303715.7155588,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
-    "_last_success_at": 1788303715.7155588,
+    "_last_success_at": 1788326507.0994282,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -37874,7 +37874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -39966,7 +39966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -42028,7 +42028,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788311242.889294,
     "_earnings_status": "ok",
@@ -42044,124 +42044,30 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
+        "headline": "Palantir Is Priced for Perfection. These 2 Defense Stocks Are Priced for Pessimism.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=577ad108d548df8c262a6d300e5b267729ec498a91d7256a9ed988258c4d888f",
-        "datetime": 1788290304,
+        "url": "https://finnhub.io/api/news?id=587555ad3d6028ee1b076f137d160f4ef00a366929a6ba92b2b8077b81d7c56a",
+        "datetime": 1788317400,
         "relevance": 0.67,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "이 2가지 방산주는 비관론으로 가격이 책정되었습니다.",
+            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "Palantir Technologies( PLTR -3.47% )는 현재 국방 분야에서 가장 많이 회자되는 이름 중 하나입니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303736.069075
-        },
-        "headlineKo": "다우 존스 소프트웨어 자이언트 마이크로소프트, AI 리더 팔란티르 아이 최신 항목"
-      },
-      {
-        "headline": "Can Palantir's Customer Surge Sustain Its AI-Driven Growth Momentum?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ba53b995f6537eb3589d5b46c514d45b622df3dae008ddd97485736762332073",
-        "datetime": 1788289980,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Can Palantir's Customer Surge Sustain Its AI-Driven Growth Momentum?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Can Palantir's Customer Surge Sustain Its AI-Driven Growth Momentum?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303738.0626519
-        },
-        "headlineKo": "Palantir의 고객 급증은 AI 주도 성장 모멘텀을 유지할 수 있습니까?"
-      },
-      {
-        "headline": "Palantir Technologies' Subsidiary, Palantir USG, Awarded Prime Agreement For The Production And Delivery Of The Tactical Intelligence Targeting Access Node Ground Station System From Army Contracting ",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=0c208a02c9869a5043187cbd17fbf04d9d1add5c8684c3095e8290220eb432db",
-        "datetime": 1788282506,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "고객 계약 · 매출 연결 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir Technologies' Subsidiary, Palantir USG, Awarded Prime Agreement For The Production And Delivery Of The Tactical Intelligence Targeting Access Node Ground Station System From Army Contracting ",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.47%, 159 times, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -42172,38 +42078,313 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "계약 금액·기간·취소 조건",
-            "수주잔고와 매출 인식 시점",
-            "관련 사업부 매출총이익률"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "PLTR에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.47%",
+            "159 times",
+            "0.36%",
+            "1.12%",
+            "$1.58",
+            "$21 million",
+            "4.2%",
+            "27%"
+          ],
+          "sourceExcerpt": [
+            "These 2 Defense Stocks Are Priced for Pessimism.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help Palantir Technologies ( PLTR -3.47% ) is one of the most talked-about names in the defense space right now."
+          ],
+          "analysisUpdatedAt": 1788326523.9501607
+        },
+        "headlineKo": "Palantir는 완벽함을 위해 가격을 책정합니다. 이 2가지 방산주는 비관론으로 가격이 책정되었습니다."
+      },
+      {
+        "headline": "As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=497fe702abcbc9e46e39ed07d114d3f5e1d2fe640a71366a5a8cf198b76c0e54",
+        "datetime": 1788303711,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303738.8677251
+          "analysisUpdatedAt": 1788326526.0948155
         },
-        "headlineKo": "Palantir Technologies의 자회사인 Palantir USG는 육군 계약으로부터 접근 거점 지상국 시스템을 목표로 하는 전술 정보 생산 및 제공에 대한 프라임 계약을 체결했습니다."
+        "headlineKo": "AI 모델이 상품화됨에 따라 Palantir는 자사의 온톨로지가 새로운 해자라고 확신합니다."
       },
       {
-        "headline": "Cathie Wood Sold $26 Million of Palantir to Buy These Two Stocks",
+        "headline": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f0516ce1cf48c2f7de40f1b05d61747adf22f55fe3163625008e19b6d6b3eaea",
-        "datetime": 1788274124,
+        "url": "https://finnhub.io/api/news?id=44fd76d744709e51c79642b1e2836e329d347a3da94da93916bd42fbe91d8714",
+        "datetime": 1788300120,
         "relevance": 0.67,
-        "headlineKo": "캐시 우드는 이 두 주식을 사기 위해 $ 26M의 팔란티르를 판매했습니다"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir to Deliver Eight TITAN Systems to the U.S. Army' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326528.2422025
+        },
+        "headlineKo": "Palantir, 미 육군에 TITAN 시스템 8대 납품 예정"
       },
       {
-        "headline": "The Zacks Analyst Blog Highlights Broadcom, Nvidia, Palantir, Fortinet and Quanta Services",
+        "headline": "Prediction: Palantir's Commercial Revenue Passes Its Government Revenue Before 2027, and the Stock's Growth Math Changes With It.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5ed5c6e10dcbd017c36fafb43aca43011911b0e0c906f1bee2d19722faf6325f",
-        "datetime": 1788271440,
+        "url": "https://finnhub.io/api/news?id=294cbed66554e58fd12846d45d155f85cbb23cde53c1e288c84a3102a48f8483",
+        "datetime": 1788292621,
         "relevance": 0.67,
-        "headlineKo": "Zacks 애널리스트 블로그는 Broadcom, Nvidia, Palantir, Fortinet 및 Quanta 서비스를 강조합니다."
+        "headlineKo": "예측: Palantir의 상업 수익은 2027년 이전에 정부 수익을 추월하고 이에 따라 주식의 성장 수학도 변경됩니다."
+      },
+      {
+        "headline": "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=577ad108d548df8c262a6d300e5b267729ec498a91d7256a9ed988258c4d888f",
+        "datetime": 1788290304,
+        "relevance": 0.67,
+        "headlineKo": "다우 존스 소프트웨어 자이언트 마이크로소프트, AI 리더 팔란티르 아이 최신 항목"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Palantir Is Priced for Perfection. These 2 Defense Stocks Are Priced for Pessimism.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=587555ad3d6028ee1b076f137d160f4ef00a366929a6ba92b2b8077b81d7c56a",
+        "datetime": 1788317400,
+        "headlineKo": "Palantir는 완벽함을 위해 가격을 책정합니다. 이 2가지 방산주는 비관론으로 가격이 책정되었습니다.",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "이 2가지 방산주는 비관론으로 가격이 책정되었습니다.",
+            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "Palantir Technologies( PLTR -3.47% )는 현재 국방 분야에서 가장 많이 회자되는 이름 중 하나입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 3.47%, 159 times, 0.36% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "3.47%",
+            "159 times",
+            "0.36%",
+            "1.12%",
+            "$1.58",
+            "$21 million",
+            "4.2%",
+            "27%"
+          ],
+          "sourceExcerpt": [
+            "These 2 Defense Stocks Are Priced for Pessimism.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help Palantir Technologies ( PLTR -3.47% ) is one of the most talked-about names in the defense space right now."
+          ],
+          "analysisUpdatedAt": 1788326523.9501607
+        }
+      },
+      {
+        "headline": "As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=497fe702abcbc9e46e39ed07d114d3f5e1d2fe640a71366a5a8cf198b76c0e54",
+        "datetime": 1788303711,
+        "headlineKo": "AI 모델이 상품화됨에 따라 Palantir는 자사의 온톨로지가 새로운 해자라고 확신합니다.",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'As AI Models Become Commoditized, Palantir Is Betting Its Ontology Is the New Moat' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326526.0948155
+        }
+      },
+      {
+        "headline": "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=44fd76d744709e51c79642b1e2836e329d347a3da94da93916bd42fbe91d8714",
+        "datetime": 1788300120,
+        "headlineKo": "Palantir, 미 육군에 TITAN 시스템 8대 납품 예정",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir to Deliver Eight TITAN Systems to the U.S. Army",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir to Deliver Eight TITAN Systems to the U.S. Army' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326528.2422025
+        }
+      },
+      {
+        "headline": "Prediction: Palantir's Commercial Revenue Passes Its Government Revenue Before 2027, and the Stock's Growth Math Changes With It.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=294cbed66554e58fd12846d45d155f85cbb23cde53c1e288c84a3102a48f8483",
+        "datetime": 1788292621,
+        "headlineKo": "예측: Palantir의 상업 수익은 2027년 이전에 정부 수익을 추월하고 이에 따라 주식의 성장 수학도 변경됩니다.",
+        "relevance": 0.67
+      },
       {
         "headline": "Dow Jones Software Giant Microsoft, AI Leader Palantir Eye Latest Entries",
         "source": "Yahoo",
@@ -43764,17 +43945,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788303715.7155588,
-    "_updated_label": "2026-09-02 08:02",
+    "_fetched_at": 1788326507.0994282,
+    "_updated_label": "2026-09-02 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 57,
+      "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788303715.7155588,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
-    "_last_success_at": 1788303715.7155588,
+    "_last_success_at": 1788326507.0994282,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -45109,7 +45290,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
@@ -46166,7 +46347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788311242.889294,
     "_earnings_status": "ok",
@@ -46181,6 +46362,101 @@ const NEWS_DATA = {
       "revenueEstimate": 3094505090
     },
     "news": [
+      {
+        "headline": "Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f708467f3e935e644fbf925520b1dd905ef9b7aeb3fb3f306658c35633c22545",
+        "datetime": 1788318701,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326535.7892368
+        },
+        "headlineKo": "Marvell Technology(MRVL)가 AI 포토닉스에 더 깊이 박차를 가하는 이유는 무엇입니까?"
+      },
+      {
+        "headline": "Marvell Technology (MRVL) Could Be 25% Below Fair Value After Raised Revenue Outlook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c1b48dc9f76a72d7861538e604660b96dbb021197270a617ccb7fbd2f8da34e",
+        "datetime": 1788314888,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell Technology (MRVL) Could Be 25% Below Fair Value After Raised Revenue Outlook",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MRVL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326538.0183969
+        },
+        "headlineKo": "Marvell Technology(MRVL)는 수익 증가 전망 후 공정 가치보다 25% 낮을 수 있습니다."
+      },
       {
         "headline": "Marvell’s $120B AI deal came with an unexpected catch",
         "source": "Yahoo",
@@ -46224,152 +46500,123 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303748.8954842
+          "analysisUpdatedAt": 1788326538.7319868
         },
         "headlineKo": "Marvell의 $ 120B AI 거래는 예기치 않게"
       },
       {
-        "headline": "I Keep Buying Marvell Technology Because Its Type Historically Wins",
+        "headline": "Marvell Stock: The AI Growth Story Is Getting Bigger, But the Google Deal Is Still a Problem",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b3fc12b56e290dd8a4eb6c48e32ece5d1d1f98d48429eeba2403314eb1986cf",
-        "datetime": 1788274167,
-        "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "나는 Marvell 기술을 역사적으로 승리했기 때문에 계속 구매합니다 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,638.00 − 0.02% Dow Jones 52,778.70 − 0.01% Nasdaq 100 29,095.80 − 0.01% Russell 2000 2,921.54 − 0.04% S&P 500 7,638.00 − 0.02% Dow Jones 52,778.70 − 0.01% Nasdaq 100 29,095.80 − 0.01% Russell 2000 2,921.54 − 0.",
-            "Alex Sirois 작성 2026년 9월 1일 오전 9시 49분 (동부 표준시) · 3분 읽기 중앙 처리 장치 및 상호 연결된 네트워크의 이 추상적인 표현은 Marvell Technology가 AI 및"
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.02%, 0.01%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.02%",
-            "0.01%",
-            "0.04%",
-            "$2.17 billion",
-            "46%",
-            "79%",
-            "36.6%",
-            "38%"
-          ],
-          "sourceExcerpt": [
-            "I Keep Buying Marvell Technology Because Its Type Historically Wins - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,638.00 −0.02% Dow Jones 52,778.70 −0.01% Nasdaq 100 29,095.80 −0.01% Russell 2000 2,921.54 −0.04% S&P 500 7,638.00 −0.02% Dow Jones 52,778.70 −0.01% Nasdaq 100 29,095.80 −0.01% Russell 2000 2,921.54 −0.",
-            "By Alex Sirois Published September 1, 2026, 9:49am ET · 3 min read 𝕏 f ⧉ This abstract representation of a central processing unit and interconnected networks embodies the advanced technology Marvell Technology provides for powering AI and "
-          ],
-          "analysisUpdatedAt": 1788303756.0746236
-        },
-        "headlineKo": "나는 Marvell Technology가 역사적으로 승리했기 때문에 계속 구매하고 있습니다."
-      },
-      {
-        "headline": "Custom Silicon Kings: When to Choose Broadcom and When to Choose Marvell Technology",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0c14a3448264e7514848c4de6ff4f6feca055bbcd705d6548fe098c3304ffe93",
-        "datetime": 1788266483,
-        "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "맞춤형 실리콘 킹스: Broadcom을 선택할 때와 Marvell 기술을 선택할 때 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,638.00 − 0.02% Dow Jones 52,778.70 − 0.01% Nasdaq 100 29,095.80 − 0.01% Russell 2000 2,921.54 − 0.04% S&P 500 7,638.00 − 0.02% Dow Jones 52,778.70 − 0.01% Nasdaq 100 29,095.80 − 0.01% Russell 2000 2,921.54 − 0.",
-            "그렇다면 리스크 프로파일, 밸류에이션 및 투자자 논제가 완전히 반대 방향을 가리키는 이유는 무엇입니까?"
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.02%, 0.01%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.02%",
-            "0.01%",
-            "0.04%",
-            "$22.2 billion",
-            "$2.739 billion",
-            "$10.8 billion",
-            "143%",
-            "$30 billion"
-          ],
-          "sourceExcerpt": [
-            "Custom Silicon Kings: When to Choose Broadcom and When to Choose Marvell Technology - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,638.00 −0.02% Dow Jones 52,778.70 −0.01% Nasdaq 100 29,095.80 −0.01% Russell 2000 2,921.54 −0.04% S&P 500 7,638.00 −0.02% Dow Jones 52,778.70 −0.01% Nasdaq 100 29,095.80 −0.01% Russell 2000 2,921.54 −0.",
-            "So why do their risk profiles, valuations, and investor theses point in completely opposite directions?"
-          ],
-          "analysisUpdatedAt": 1788303763.4611797
-        },
-        "headlineKo": "맞춤형 실리콘 킹: Broadcom을 선택할 때와 Marvell Technology를 선택할 때"
-      },
-      {
-        "headline": "Sandisk, Marvell, Robinhood, Novartis, Dell, and More Stocks That Explain Today’s Market",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f320cea6a87dacd3004fcdcfb39a544b313211e73ce25c022d506374a0ef4486",
-        "datetime": 1788264480,
+        "url": "https://finnhub.io/api/news?id=6341e9e2db2653878ddc79acd53362995a0de174d18b2125d7c454d4aac78421",
+        "datetime": 1788275998,
         "relevance": 0.67,
-        "headlineKo": "샌디스크, 마벨, 로빈후드, 노바티스, 델 등 오늘날의 시장을 설명하는 다양한 주식"
+        "headlineKo": "Marvell Stock: AI 성장 스토리가 점점 커지고 있지만 Google 거래는 여전히 문제입니다"
       },
       {
-        "headline": "Marvell’s (MRVL) Data Center Machine Keeps Rewriting Its Own Forecast",
+        "headline": "Why Marvell Stock’s Post-Earnings Malaise Offers Another Shot",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a2423c9163a2ae1367bccf2ad47b344b736b2a1699db41b81e31cef577be9f45",
-        "datetime": 1788259381,
-        "relevance": 1,
-        "headlineKo": "Marvell (MRVL) 의 데이터 센터 머신은 자체 예측을 계속 다시 작성합니다."
+        "url": "https://finnhub.io/api/news?id=f69476786adaa6eacb8f32faa64895dc8c80a3a6a7358dfa9fad73395c6a9406",
+        "datetime": 1788274338,
+        "relevance": 0.67,
+        "headlineKo": "Marvell Stock의 수익 후 불쾌감이 또 다른 기회를 제공하는 이유"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f708467f3e935e644fbf925520b1dd905ef9b7aeb3fb3f306658c35633c22545",
+        "datetime": 1788318701,
+        "headlineKo": "Marvell Technology(MRVL)가 AI 포토닉스에 더 깊이 박차를 가하는 이유는 무엇입니까?",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Why Is Marvell Technology (MRVL) Pushing Deeper Into AI Photonics?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326535.7892368
+        }
+      },
+      {
+        "headline": "Marvell Technology (MRVL) Could Be 25% Below Fair Value After Raised Revenue Outlook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0c1b48dc9f76a72d7861538e604660b96dbb021197270a617ccb7fbd2f8da34e",
+        "datetime": 1788314888,
+        "headlineKo": "Marvell Technology(MRVL)는 수익 증가 전망 후 공정 가치보다 25% 낮을 수 있습니다.",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell Technology (MRVL) Could Be 25% Below Fair Value After Raised Revenue Outlook",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "MRVL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788326538.0183969
+        }
+      },
       {
         "headline": "Marvell’s $120B AI deal came with an unexpected catch",
         "source": "Yahoo",
@@ -46414,8 +46661,24 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303748.8954842
+          "analysisUpdatedAt": 1788326538.7319868
         }
+      },
+      {
+        "headline": "Marvell Stock: The AI Growth Story Is Getting Bigger, But the Google Deal Is Still a Problem",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6341e9e2db2653878ddc79acd53362995a0de174d18b2125d7c454d4aac78421",
+        "datetime": 1788275998,
+        "headlineKo": "Marvell Stock: AI 성장 스토리가 점점 커지고 있지만 Google 거래는 여전히 문제입니다",
+        "relevance": 0.67
+      },
+      {
+        "headline": "Why Marvell Stock’s Post-Earnings Malaise Offers Another Shot",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f69476786adaa6eacb8f32faa64895dc8c80a3a6a7358dfa9fad73395c6a9406",
+        "datetime": 1788274338,
+        "headlineKo": "Marvell Stock의 수익 후 불쾌감이 또 다른 기회를 제공하는 이유",
+        "relevance": 0.67
       },
       {
         "headline": "I Keep Buying Marvell Technology Because Its Type Historically Wins",
@@ -49000,17 +49263,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788303715.7155588,
-    "_updated_label": "2026-09-02 08:02",
+    "_fetched_at": 1788326507.0994282,
+    "_updated_label": "2026-09-02 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 75,
+      "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788303715.7155588,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
-    "_last_success_at": 1788303715.7155588,
+    "_last_success_at": 1788326507.0994282,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -50116,7 +50379,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -51411,7 +51674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -52605,7 +52868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -55375,7 +55638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -56576,7 +56839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -57635,7 +57898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -58582,7 +58845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -59712,7 +59975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -61091,7 +61354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
@@ -61996,7 +62259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788311242.889294,
     "_earnings_status": "ok",
@@ -63095,7 +63358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -63976,7 +64239,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -64837,7 +65100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -65428,7 +65691,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788318872.1928744,
     "_earnings_status": "ok",
@@ -66508,7 +66771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -66888,7 +67151,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
@@ -66947,7 +67210,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303770.6112292
+          "analysisUpdatedAt": 1788326546.2197425
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -66995,7 +67258,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303772.902736
+          "analysisUpdatedAt": 1788326548.0087497
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -67061,7 +67324,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303775.3993843
+          "analysisUpdatedAt": 1788326550.0897546
         },
         "headlineKo": "Seagate Technology Holdings (STX), 투자자들의 요청에 따라 AI Summit으로 향하다"
       },
@@ -67128,7 +67391,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303770.6112292
+          "analysisUpdatedAt": 1788326546.2197425
         }
       },
       {
@@ -67176,7 +67439,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303772.902736
+          "analysisUpdatedAt": 1788326548.0087497
         }
       },
       {
@@ -67242,7 +67505,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303775.3993843
+          "analysisUpdatedAt": 1788326550.0897546
         }
       },
       {
@@ -67933,17 +68196,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788303715.7155588,
-    "_updated_label": "2026-09-02 08:02",
+    "_fetched_at": 1788326507.0994282,
+    "_updated_label": "2026-09-02 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788303715.7155588,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
-    "_last_success_at": 1788303715.7155588,
+    "_last_success_at": 1788326507.0994282,
     "_collection_status": "ok"
   },
   "EME": {
@@ -67998,7 +68261,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303782.537287
+          "analysisUpdatedAt": 1788326555.4568162
         },
         "headlineKo": "EMCOR 그룹 (EME), 데이터 센터 수요와 공정 가치에 다시 집중"
       },
@@ -68045,7 +68308,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303784.6942644
+          "analysisUpdatedAt": 1788326557.4948347
         },
         "headlineKo": "데이터 센터 수요에 대한 지침이 제기된 후 EMCOR 그룹 (EME) 의 불 사례가 변경될 수 있음"
       },
@@ -68093,7 +68356,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303787.2081466
+          "analysisUpdatedAt": 1788326559.706579
         },
         "headlineKo": "EMCOR vs. Granite: 지금 구매하는 것이 더 나은 건설 재고는 무엇입니까?"
       },
@@ -68160,7 +68423,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303782.537287
+          "analysisUpdatedAt": 1788326555.4568162
         }
       },
       {
@@ -68207,7 +68470,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303784.6942644
+          "analysisUpdatedAt": 1788326557.4948347
         }
       },
       {
@@ -68255,7 +68518,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788303787.2081466
+          "analysisUpdatedAt": 1788326559.706579
         }
       },
       {
@@ -68664,17 +68927,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788303715.7155588,
-    "_updated_label": "2026-09-02 08:03",
+    "_fetched_at": 1788326507.0994282,
+    "_updated_label": "2026-09-02 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788303715.7155588,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
-    "_last_success_at": 1788303715.7155588,
+    "_last_success_at": 1788326507.0994282,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -69740,7 +70003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -69860,9 +70123,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
-    "_last_attempt_at": 1788324458.6987462,
+    "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -70018,7 +70281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 13:50"
+      "updated": "2026-09-02 14:22"
     },
     "_fetched_at": 1788322592.0993013,
     "_updated_label": "2026-09-02 13:16",

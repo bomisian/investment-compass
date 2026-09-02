@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788324659.0746624,
+  "generatedAt": 1788326564.4593241,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788326564.4593241,
+        "dataAsOf": 1788273359,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": -0.7,
+            "after": -0.35
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -2.8,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.45,
+            "after": -2.1
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Microsoft와 Tesla는 모멘텀을 가지고 9월을 맞이하지만 어느 것이 더 낫습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=dadf44465f03f95c4e25fcc4d6ae8569d942346851708542ebfac061500c0d45",
+        "eventId": "16a618a026a6ea68ec5d",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": -0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.1, \"before\": -2.8, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -2.1, \"before\": -2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"16a618a026a6ea68ec5d\"}"
+      },
       {
         "changedAt": 1788307414.6287165,
         "dataAsOf": 1788273359,
@@ -511,6 +540,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1788326564.4593241,
+        "dataAsOf": 1788304031,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.15,
+            "after": 3.67
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 1.23
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "오늘, 9월 1일 주식 시장: Fervo Energy, 396MW Google Power Deal에서 28% 급등",
+        "newsUrl": "https://finnhub.io/api/news?id=bbdaf020b03e8f2d56de2cf7a71b02c31193ce46aed64227bf173c2e432d9e27",
+        "eventId": "a42fb94afe58839852bb",
+        "fingerprint": "{\"changes\": [{\"after\": 3.67, \"before\": 3.15, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.23, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a42fb94afe58839852bb\"}"
+      },
       {
         "changedAt": 1788324659.0746624,
         "dataAsOf": 1788304031,
@@ -2941,6 +2999,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AAPL": [
+      {
+        "changedAt": 1788326564.4593241,
+        "dataAsOf": 1788319062,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.17,
+            "after": 0.52
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -1.4,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.05
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "ORCL 주식은 분석가가 목표 가격을 인하한 후 밤새 하락세를 연장하고 분석가의 날을 주요 촉매제로 표시: 소매 시계는 조심스럽게",
+        "newsUrl": "https://finnhub.io/api/news?id=1ccc9bfc154c5c563a9600955c92176f315bd0bcf19c8eb437b8b2b32931aaaa",
+        "eventId": "a6237d2bd84aa4ea3ec3",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.17, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": -1.4, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a6237d2bd84aa4ea3ec3\"}"
+      },
       {
         "changedAt": 1788324659.0746624,
         "dataAsOf": 1788319062,
@@ -8427,6 +8514,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MRVL": [
+      {
+        "changedAt": 1788326564.4593241,
+        "dataAsOf": 1788292020,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.1,
+            "after": 2.62
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.15,
+            "after": 4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -0.17
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Marvell의 $ 120B AI 거래는 예기치 않게",
+        "newsUrl": "https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941",
+        "eventId": "97be8d3d31896fd2d1f8",
+        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.2, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"97be8d3d31896fd2d1f8\"}"
+      },
       {
         "changedAt": 1788324659.0746624,
         "dataAsOf": 1788292020,
@@ -14999,6 +15121,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "FIX": [
+      {
+        "changedAt": 1788326564.4593241,
+        "dataAsOf": 1788319200,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.52,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": -1.05
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Comfort Systems USA 주식을 사상 최고치보다 20% 이상 낮게 구매한 사례",
+        "newsUrl": "https://finnhub.io/api/news?id=6c853288785a53f7c60023d60171af4151fdeb33b9b60f0d01f78adae047748f",
+        "eventId": "8b06659042eb85e02bbb",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.52, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"8b06659042eb85e02bbb\"}"
+      },
       {
         "changedAt": 1788324659.0746624,
         "dataAsOf": 1788319200,
