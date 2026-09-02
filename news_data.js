@@ -4858,7 +4858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -7672,7 +7672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788292833.532955,
     "_earnings_status": "ok",
@@ -9991,7 +9991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -12363,7 +12363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -15439,7 +15439,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -16367,7 +16367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -19016,7 +19016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -22182,7 +22182,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -25003,7 +25003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -27901,7 +27901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -30360,7 +30360,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -32136,7 +32136,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -33535,7 +33535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788292833.532955,
     "_earnings_status": "ok",
@@ -35207,7 +35207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788303715.7155588,
     "_earnings_status": "ok",
@@ -37440,7 +37440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -39391,7 +39391,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -41273,7 +41273,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -43015,7 +43015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788303715.7155588,
     "_earnings_status": "ok",
@@ -43030,6 +43030,54 @@ const NEWS_DATA = {
       "revenueEstimate": 10333103798
     },
     "news": [
+      {
+        "headline": "Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5aa50a97f17574f0446ed1bc8da1b9ca366089733bd86dc91c7669f36f0052f0",
+        "datetime": 1788281100,
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788307459.3876297
+        },
+        "headlineKo": "QUALCOMM의 Tie-Up With HUMAIN이 AI PC의 지분을 끌어올릴 수 있을까요?"
+      },
       {
         "headline": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
         "source": "CNBC",
@@ -43102,7 +43150,7 @@ const NEWS_DATA = {
             "The two companies will work on integrating Nvidia technology with MediaTek's custom AI chip business as well as other areas such as PCs and cars.",
             "MediaTek, which is the main rival to Qualcomm, has looked to diversify its business into data centers."
           ],
-          "analysisUpdatedAt": 1788285630.3935723
+          "analysisUpdatedAt": 1788307460.9100237
         },
         "headlineKo": "Qualcomm의 경쟁사인 MediaTek은 35억 달러 규모의 Nvidia AI 칩 거래 이후 10% 상승"
       },
@@ -43120,13 +43168,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-            "내용으로 건너뛰기 종가 S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13% S&P 500 7,635.10 −0.77% 다우존스 52,746.80 −0.92% 나스닥 100 29,089.00 −1.33% 러셀 2000 2,922.87 −1.13%",
-            "Qualcomm 주가는 실적 붕괴 이후 일부 회복되었지만, 회복으로 인해 휴대폰 축소, 입증되지 않은 데이터 센터 베팅, 다음 움직임을 전혀 명백하게 만들지 않는 마진 압박 등의 복잡한 혼합이 숨겨져 있습니다."
+            "Qualcomm은 한 달 만에 15% 의 수익을 올렸습니다. 수익을 올리시겠습니까, 아니면 더 구매하시겠습니까?",
+            "콘텐츠로 건너뛰기 닫기 ❚❚ S&P 500 7,639.20 − 0.01% Dow Jones 52,775.70 − 0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 − 0.03% S&P 500 7,639.20 − 0.01% Dow Jones 52,775.70 − 0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 − 0.",
+            "Qualcomm 주식은 수익 창출 후의 붕괴와 그 후의 일부로 인해 다시 회복되었지만, 회복에는 수축하는 단말기, 입증되지 않은 데이터 센터 베팅 및 마진 압력의 복잡한 혼합이 숨겨져 있어 다음 단계가 분명해집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 15%, 0.77%, 0.92% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 15%, 0.01%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -43151,20 +43199,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "15%",
-            "0.77%",
-            "0.92%",
-            "1.33%",
-            "1.13%",
+            "0.01%",
+            "0.03%",
             "4%",
             "$170.26",
-            "0.8%"
+            "0.8%",
+            "$164.60,",
+            "$147.61."
           ],
           "sourceExcerpt": [
             "Qualcomm Just Gained 15% in a Month: Take Profits, or Buy More?",
-            "Skip to content At close S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13% S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13%",
+            "Skip to content ❚❚ At close S&P 500 7,639.20 −0.01% Dow Jones 52,775.70 −0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 −0.03% S&P 500 7,639.20 −0.01% Dow Jones 52,775.70 −0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 −0.",
             "Qualcomm stock has clawed back from a post-earnings collapse and then some, but the recovery hides a complicated mix of shrinking handsets, unproven data center bets, and margin pressure that makes the next move anything but obvious."
           ],
-          "analysisUpdatedAt": 1788285634.4693875
+          "analysisUpdatedAt": 1788307468.59408
         },
         "headlineKo": "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?"
       },
@@ -43174,64 +43222,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=8ff77c13f33727e57f05fef07440facc6e9187870390de88c9e840e49779bf5c",
         "datetime": 1788206826,
         "relevance": 0.75,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 QCOM의 사업과 관련된 'How Investors May Respond To QCOM Naming Sergio Buniac To Lead Mobile, Compute And Personal AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: QCOM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 0.75,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788285636.8952394
-        },
         "headlineKo": "QCOM이 모바일, 컴퓨팅 및 개인 AI를 주도할 Sergio Buniac을 지명한 것에 투자자들이 반응할 수 있는 방법"
       },
       {
@@ -43241,17 +43231,57 @@ const NEWS_DATA = {
         "datetime": 1788184321,
         "relevance": 0.5,
         "headlineKo": "Qualcomm 대 Sandisk: 점진적인 수익 감소와 빠른 수익 가속화 비교"
-      },
-      {
-        "headline": "Qualcomm Outperforms Broader Market Slump: Analysts Eye Data Center Growth Ahead of Q4",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e0819d121226080bcaf0220003b16b7c55c72562daa63df71a653f6d429a47b7",
-        "datetime": 1788182287,
-        "relevance": 0.5,
-        "headlineKo": "Qualcomm은 광범위한 시장 부진을 능가합니다: 분석가들은 4분기를 앞두고 데이터 센터 성장을 예상하고 있습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5aa50a97f17574f0446ed1bc8da1b9ca366089733bd86dc91c7669f36f0052f0",
+        "datetime": 1788281100,
+        "headlineKo": "QUALCOMM의 Tie-Up With HUMAIN이 AI PC의 지분을 끌어올릴 수 있을까요?",
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QCOM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QCOM의 사업과 관련된 'Can Qualcomm's Tie-Up With HUMAIN for AI PC Lift Its Shares?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QCOM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788307459.3876297
+        }
+      },
       {
         "headline": "Qualcomm rival MediaTek jumps 10% after $3.5 billion Nvidia AI chip deal",
         "source": "CNBC",
@@ -43325,7 +43355,7 @@ const NEWS_DATA = {
             "The two companies will work on integrating Nvidia technology with MediaTek's custom AI chip business as well as other areas such as PCs and cars.",
             "MediaTek, which is the main rival to Qualcomm, has looked to diversify its business into data centers."
           ],
-          "analysisUpdatedAt": 1788285630.3935723
+          "analysisUpdatedAt": 1788307460.9100237
         }
       },
       {
@@ -43343,13 +43373,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-            "내용으로 건너뛰기 종가 S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13% S&P 500 7,635.10 −0.77% 다우존스 52,746.80 −0.92% 나스닥 100 29,089.00 −1.33% 러셀 2000 2,922.87 −1.13%",
-            "Qualcomm 주가는 실적 붕괴 이후 일부 회복되었지만, 회복으로 인해 휴대폰 축소, 입증되지 않은 데이터 센터 베팅, 다음 움직임을 전혀 명백하게 만들지 않는 마진 압박 등의 복잡한 혼합이 숨겨져 있습니다."
+            "Qualcomm은 한 달 만에 15% 의 수익을 올렸습니다. 수익을 올리시겠습니까, 아니면 더 구매하시겠습니까?",
+            "콘텐츠로 건너뛰기 닫기 ❚❚ S&P 500 7,639.20 − 0.01% Dow Jones 52,775.70 − 0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 − 0.03% S&P 500 7,639.20 − 0.01% Dow Jones 52,775.70 − 0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 − 0.",
+            "Qualcomm 주식은 수익 창출 후의 붕괴와 그 후의 일부로 인해 다시 회복되었지만, 회복에는 수축하는 단말기, 입증되지 않은 데이터 센터 베팅 및 마진 압력의 복잡한 혼합이 숨겨져 있어 다음 단계가 분명해집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 15%, 0.77%, 0.92% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 15%, 0.01%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -43374,20 +43404,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "15%",
-            "0.77%",
-            "0.92%",
-            "1.33%",
-            "1.13%",
+            "0.01%",
+            "0.03%",
             "4%",
             "$170.26",
-            "0.8%"
+            "0.8%",
+            "$164.60,",
+            "$147.61."
           ],
           "sourceExcerpt": [
             "Qualcomm Just Gained 15% in a Month: Take Profits, or Buy More?",
-            "Skip to content At close S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13% S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13%",
+            "Skip to content ❚❚ At close S&P 500 7,639.20 −0.01% Dow Jones 52,775.70 −0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 −0.03% S&P 500 7,639.20 −0.01% Dow Jones 52,775.70 −0.01% Nasdaq 100 29,102.80 +0.01% Russell 2000 2,921.99 −0.",
             "Qualcomm stock has clawed back from a post-earnings collapse and then some, but the recovery hides a complicated mix of shrinking handsets, unproven data center bets, and margin pressure that makes the next move anything but obvious."
           ],
-          "analysisUpdatedAt": 1788285634.4693875
+          "analysisUpdatedAt": 1788307468.59408
         }
       },
       {
@@ -44318,17 +44348,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788285626.9007306,
-    "_updated_label": "2026-09-02 03:00",
+    "_fetched_at": 1788307455.622753,
+    "_updated_label": "2026-09-02 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 32,
+      "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
-    "_last_attempt_at": 1788285626.9007306,
+    "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
-    "_last_success_at": 1788285626.9007306,
+    "_last_success_at": 1788307455.622753,
     "_collection_status": "ok"
   },
   "ARM": {
@@ -45323,7 +45353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -48163,7 +48193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788303715.7155588,
     "_earnings_status": "ok",
@@ -49273,7 +49303,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -50404,7 +50434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -51598,7 +51628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -54178,7 +54208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -55379,7 +55409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788292355.855579,
     "_earnings_status": "ok",
@@ -56404,7 +56434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -57351,7 +57381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -58481,7 +58511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -58496,6 +58526,68 @@ const NEWS_DATA = {
       "revenueEstimate": 12120637007
     },
     "news": [
+      {
+        "headline": "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3840aabb197925b02a8da4e84ed20cf657f97b8ebf1d8299c2f75c8675bb7f49",
+        "datetime": 1788287700,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "장기 공급계약 · 매출 가시성 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool 가입 회사 검색 접근성...",
+            "도움말 전 General Electric 대기업이 2024년 4월 GE Vernova (GEV +0.00%) 로 에너지 사업의 분사를 완료했을 때, 풍력 구성 요소는 매출의 거의 3분의 1을 차지했습니다.",
+            "그 이후로 그 사업은 계속 감소했지만 GE Vernova 주주들은 크게 신경 쓰지 않을 것입니다."
+          ],
+          "why": [
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "GEV",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
+          ],
+          "interpretation": "GEV에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "40%",
+            "0.00%",
+            "15%",
+            "88%",
+            "50%",
+            "0.00 %",
+            "$ 0.00",
+            "$ 898.53"
+          ],
+          "sourceExcerpt": [
+            "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +0.00% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
+            "That business has continued to decline since then, but GE Vernova shareholders probably don't mind too much."
+          ],
+          "analysisUpdatedAt": 1788307481.480065
+        },
+        "headlineKo": "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40%"
+      },
       {
         "headline": "GE Vernova (GEV) Stock Looks Near Fair Value Despite AI Power Demand",
         "source": "Yahoo",
@@ -58540,7 +58632,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788285644.440054
+          "analysisUpdatedAt": 1788307483.8762643
         },
         "headlineKo": "GE Vernova(GEV) 주식은 AI 전력 수요에도 불구하고 공정 가치에 가까워 보입니다."
       },
@@ -58555,20 +58647,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?",
-            "신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.74% SPY 0.67% QQQ 1.21% 동향 AAPL 2.65% DELL 5.08% USO 4.53% QQQ 1.21% FRVO 28.22% CRDO 6.83% PANW 6.12% ORCL 5.29% CCL 1.80% MDB 3.96% 홈 뉴스 시장 주식 XOM, CVX, G인 이유",
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
+            "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?",
+            "새로운 상담원 연결 동향 뉴스 수입 전체 직경 0.73% 스파이 0.68% QQQ 1.24% 동향 DELL 1.15% AAPL 2.54% SOFI 4.47% CRDO 17.55% GOOG 1.01% MDB 17.51% PANW 6.84% GTLB 13.43% AFRM 6.06% ORCL 5.21% 홈 뉴스 시장 주식 왜 XOM, C인가?",
+            "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?"
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.74%, 0.67%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.73%, 0.68%, 1.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -58579,30 +58671,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "GEV에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "GEV에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.74%",
-            "0.67%",
-            "1.21%",
-            "2.65%",
-            "5.08%",
-            "4.53%",
-            "28.22%",
-            "6.83%"
+            "0.73%",
+            "0.68%",
+            "1.24%",
+            "1.15%",
+            "2.54%",
+            "4.47%",
+            "17.55%",
+            "1.01%"
           ],
           "sourceExcerpt": [
             "Why Are XOM, CVX, GEV Stocks Rising Overnight?",
-            "New Connect your Agent Trending News Earnings All DIA 0.74% SPY 0.67% QQQ 1.21% Trending AAPL 2.65% DELL 5.08% USO 4.53% QQQ 1.21% FRVO 28.22% CRDO 6.83% PANW 6.12% ORCL 5.29% CCL 1.80% MDB 3.96% Home News Markets Equity Why Are XOM, CVX, G",
+            "New Connect your Agent Trending News Earnings All DIA 0.73% SPY 0.68% QQQ 1.24% Trending DELL 1.15% AAPL 2.54% SOFI 4.47% CRDO 17.55% GOOG 1.01% MDB 17.51% PANW 6.84% GTLB 13.43% AFRM 6.06% ORCL 5.21% Home News Markets Equity Why Are XOM, C",
             "Why Are XOM, CVX, GEV Stocks Rising Overnight?"
           ],
-          "analysisUpdatedAt": 1788285649.1012423
+          "analysisUpdatedAt": 1788307490.8903046
         },
         "headlineKo": "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
       },
@@ -58612,25 +58704,44 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=46094728f5108389c3fd0b9ecfd1e447a724965775c32a5ce45f05667232668f",
         "datetime": 1788232129,
         "relevance": 1.0,
+        "headlineKo": "GEV 스톡 뒤에 있는 엔진에는 실제 부품이 있습니다"
+      },
+      {
+        "headline": "Venezuela’s Energy Reopening Could Benefit Chevron (CVX) and GE Vernova (GEV), But Risks Remain",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2e9b3d261e95238f75fff64f51c9df9a89abcd0a49e6e442383f1758f5a08a85",
+        "datetime": 1788223631,
+        "relevance": 1,
+        "headlineKo": "베네수엘라의 에너지 재개는 Chevron(CVX)과 GE Vernova(GEV)에 도움이 될 수 있지만 위험은 여전히 ​​남아 있습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3840aabb197925b02a8da4e84ed20cf657f97b8ebf1d8299c2f75c8675bb7f49",
+        "datetime": 1788287700,
+        "headlineKo": "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40%",
+        "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "장기 공급계약 · 매출 가시성 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "GEV 주식의 엔진에는 실제 부품이 있습니다 | Trefis GEV 주식의 엔진에는 실제 부품이 있습니다. 2026년 8월 31일 · 작성자: Trefis Team GEV YTD +37.7% SPY YTD +12.8% XLI YTD +13.2% GEV 분석 → 강력한 비즈니스 엔진이 역사적인 상황을 맞이하고 있습니다.",
-            "GE Vernova(GEV)는 에너지 전환의 중철을 만듭니다.",
-            "AI 데이터 센터 붐을 촉진하는 대형 가스 터빈부터 글로벌 전력 현대화에 필요한 그리드 장비에 이르기까지 회사는 지출 슈퍼 사이클의 중심에 있습니다."
+            "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool 가입 회사 검색 접근성...",
+            "도움말 전 General Electric 대기업이 2024년 4월 GE Vernova (GEV +0.00%) 로 에너지 사업의 분사를 완료했을 때, 풍력 구성 요소는 매출의 거의 3분의 1을 차지했습니다.",
+            "그 이후로 그 사업은 계속 감소했지만 GE Vernova 주주들은 크게 신경 쓰지 않을 것입니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 37.7%, 12.8%, 13.2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -58641,51 +58752,32 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "계약 기간·최소구매 조건",
+            "연도별 매출 인식",
+            "수주잔고·취소 조건"
           ],
-          "interpretation": "GEV에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
+          "interpretation": "GEV에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "37.7%",
-            "12.8%",
-            "13.2%",
-            "17%",
-            "$176 billion",
-            "$5 billion",
-            "13.0%",
-            "8.3%"
+            "40%",
+            "0.00%",
+            "15%",
+            "88%",
+            "50%",
+            "0.00 %",
+            "$ 0.00",
+            "$ 898.53"
           ],
           "sourceExcerpt": [
-            "The Engine Behind GEV Stock Has Real Parts | Trefis The Engine Behind GEV Stock Has Real Parts August 31st, 2026 · by Trefis Team GEV YTD +37.7% SPY YTD +12.8% XLI YTD +13.2% Analyze GEV → A powerful business engine is meeting a historic su",
-            "GE Vernova (GEV) builds the heavy iron of the energy transition.",
-            "From the large gas turbines powering the AI data center boom to the grid equipment needed to modernize global electricity, the company is at the center of a spending super cycle."
+            "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +0.00% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
+            "That business has continued to decline since then, but GE Vernova shareholders probably don't mind too much."
           ],
-          "analysisUpdatedAt": 1788285654.3999605
-        },
-        "headlineKo": "GEV 스톡 뒤에 있는 엔진에는 실제 부품이 있습니다"
+          "analysisUpdatedAt": 1788307481.480065
+        }
       },
-      {
-        "headline": "Venezuela’s Energy Reopening Could Benefit Chevron (CVX) and GE Vernova (GEV), But Risks Remain",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e9b3d261e95238f75fff64f51c9df9a89abcd0a49e6e442383f1758f5a08a85",
-        "datetime": 1788223631,
-        "relevance": 1,
-        "headlineKo": "베네수엘라의 에너지 재개는 Chevron(CVX)과 GE Vernova(GEV)에 도움이 될 수 있지만 위험은 여전히 ​​남아 있습니다."
-      },
-      {
-        "headline": "GE Vernova Stock Drops. Is SpaceX Coming for Them Too?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1bcee44710386b088ef25e01a768477b71f252c1114e39987e07c63ce8cfe5e8",
-        "datetime": 1788211560,
-        "relevance": 1,
-        "headlineKo": "GE Vernova 주식 하락. SpaceX가 그들에게도 다가오나요?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "GE Vernova (GEV) Stock Looks Near Fair Value Despite AI Power Demand",
         "source": "Yahoo",
@@ -58731,7 +58823,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788285644.440054
+          "analysisUpdatedAt": 1788307483.8762643
         }
       },
       {
@@ -58746,20 +58838,20 @@ const NEWS_DATA = {
           "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?",
-            "신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.74% SPY 0.67% QQQ 1.21% 동향 AAPL 2.65% DELL 5.08% USO 4.53% QQQ 1.21% FRVO 28.22% CRDO 6.83% PANW 6.12% ORCL 5.29% CCL 1.80% MDB 3.96% 홈 뉴스 시장 주식 XOM, CVX, G인 이유",
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
+            "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?",
+            "새로운 상담원 연결 동향 뉴스 수입 전체 직경 0.73% 스파이 0.68% QQQ 1.24% 동향 DELL 1.15% AAPL 2.54% SOFI 4.47% CRDO 17.55% GOOG 1.01% MDB 17.51% PANW 6.84% GTLB 13.43% AFRM 6.06% ORCL 5.21% 홈 뉴스 시장 주식 왜 XOM, C인가?",
+            "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?"
           ],
           "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.74%, 0.67%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.73%, 0.68%, 1.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -58770,30 +58862,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
           ],
-          "interpretation": "GEV에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "GEV에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1.0,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.74%",
-            "0.67%",
-            "1.21%",
-            "2.65%",
-            "5.08%",
-            "4.53%",
-            "28.22%",
-            "6.83%"
+            "0.73%",
+            "0.68%",
+            "1.24%",
+            "1.15%",
+            "2.54%",
+            "4.47%",
+            "17.55%",
+            "1.01%"
           ],
           "sourceExcerpt": [
             "Why Are XOM, CVX, GEV Stocks Rising Overnight?",
-            "New Connect your Agent Trending News Earnings All DIA 0.74% SPY 0.67% QQQ 1.21% Trending AAPL 2.65% DELL 5.08% USO 4.53% QQQ 1.21% FRVO 28.22% CRDO 6.83% PANW 6.12% ORCL 5.29% CCL 1.80% MDB 3.96% Home News Markets Equity Why Are XOM, CVX, G",
+            "New Connect your Agent Trending News Earnings All DIA 0.73% SPY 0.68% QQQ 1.24% Trending DELL 1.15% AAPL 2.54% SOFI 4.47% CRDO 17.55% GOOG 1.01% MDB 17.51% PANW 6.84% GTLB 13.43% AFRM 6.06% ORCL 5.21% Home News Markets Equity Why Are XOM, C",
             "Why Are XOM, CVX, GEV Stocks Rising Overnight?"
           ],
-          "analysisUpdatedAt": 1788285649.1012423
+          "analysisUpdatedAt": 1788307490.8903046
         }
       },
       {
@@ -59792,17 +59884,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788285626.9007306,
-    "_updated_label": "2026-09-02 03:00",
+    "_fetched_at": 1788307455.622753,
+    "_updated_label": "2026-09-02 09:04",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 31,
+      "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
-    "_last_attempt_at": 1788285626.9007306,
+    "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
-    "_last_success_at": 1788285626.9007306,
+    "_last_success_at": 1788307455.622753,
     "_collection_status": "ok"
   },
   "CEG": {
@@ -60655,7 +60747,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788288579.6381502,
     "_earnings_status": "ok",
@@ -61754,7 +61846,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -62635,7 +62727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -63496,7 +63588,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -64087,7 +64179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788296427.1602583,
     "_earnings_status": "ok",
@@ -65167,7 +65259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788307225.5069225,
     "_earnings_status": "ok",
@@ -65196,9 +65288,9 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Modine: 중기적, 고위험 베팅(NYSE:MOD) | Alpha Balakumaran Kannan을 찾고 있습니다 팔로워 11명 팔로우 요약 저는 데이터 센터 냉각 슈퍼사이클과 전략적 sh에 힘입어 Modine Manufacturing Company에 최종 매수 등급을 지정합니다.",
-            "MOD는 40억 달러 규모의 하이퍼스케일러 계약을 체결하고 수익성이 낮은 부문을 분사하고 있으며 분사 후 상당한 총이익 개선을 기대하고 있습니다.",
-            "2027 회계연도 1분기에는 매출이 28% 증가했고 데이터 센터 매출은 90% 증가했지만 일시적인 운영 비효율성으로 인해 총 마진이 감소했습니다."
+            "Modine: A Medium-Term, High-Stakes Bet (NYSE: MOD) | Seeking Alpha Balakumaran Kannan 11 Followers Follow Summary I assign a definitive Buy rating to Modine Manufacturing Company, driven by a data center cooling supercycle and a strategic sh",
+            "MOD는 $ 40억의 하이퍼스케일러 계약을 확보했으며, 저마진 부문에서 벗어나고 있으며, 스핀오프 후 상당한 매출총이익 개선을 기대하고 있습니다.",
+            "27년 1분기 매출은 28% 성장했고, 데이터 센터 매출은 90% 증가했지만, 일시적인 운영 비효율은 매출 총이익을 압축했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -65236,7 +65328,7 @@ const NEWS_DATA = {
             "MOD secured a $4 billion hyperscaler contract, is spinning off its low-margin segment, and expects significant gross margin improvement post-spin-off.",
             "Q1 FY27 saw 28% sales growth, with data center revenue up 90%, though temporary operational inefficiencies compressed gross margins."
           ],
-          "analysisUpdatedAt": 1788285664.8277695
+          "analysisUpdatedAt": 1788307503.733428
         },
         "headlineKo": "모딘: 중장기 고위험 투자"
       },
@@ -65284,7 +65376,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788285666.1208463
+          "analysisUpdatedAt": 1788307504.936154
         },
         "headlineKo": "5년 전에 모딘 제조 주식에 $ 100를 투자했다면, 오늘 이 정도를 갖게 될 것입니다."
       }
@@ -65305,9 +65397,9 @@ const NEWS_DATA = {
           "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Modine: 중기적, 고위험 베팅(NYSE:MOD) | Alpha Balakumaran Kannan을 찾고 있습니다 팔로워 11명 팔로우 요약 저는 데이터 센터 냉각 슈퍼사이클과 전략적 sh에 힘입어 Modine Manufacturing Company에 최종 매수 등급을 지정합니다.",
-            "MOD는 40억 달러 규모의 하이퍼스케일러 계약을 체결하고 수익성이 낮은 부문을 분사하고 있으며 분사 후 상당한 총이익 개선을 기대하고 있습니다.",
-            "2027 회계연도 1분기에는 매출이 28% 증가했고 데이터 센터 매출은 90% 증가했지만 일시적인 운영 비효율성으로 인해 총 마진이 감소했습니다."
+            "Modine: A Medium-Term, High-Stakes Bet (NYSE: MOD) | Seeking Alpha Balakumaran Kannan 11 Followers Follow Summary I assign a definitive Buy rating to Modine Manufacturing Company, driven by a data center cooling supercycle and a strategic sh",
+            "MOD는 $ 40억의 하이퍼스케일러 계약을 확보했으며, 저마진 부문에서 벗어나고 있으며, 스핀오프 후 상당한 매출총이익 개선을 기대하고 있습니다.",
+            "27년 1분기 매출은 28% 성장했고, 데이터 센터 매출은 90% 증가했지만, 일시적인 운영 비효율은 매출 총이익을 압축했습니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -65345,7 +65437,7 @@ const NEWS_DATA = {
             "MOD secured a $4 billion hyperscaler contract, is spinning off its low-margin segment, and expects significant gross margin improvement post-spin-off.",
             "Q1 FY27 saw 28% sales growth, with data center revenue up 90%, though temporary operational inefficiencies compressed gross margins."
           ],
-          "analysisUpdatedAt": 1788285664.8277695
+          "analysisUpdatedAt": 1788307503.733428
         }
       },
       {
@@ -65393,7 +65485,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788285666.1208463
+          "analysisUpdatedAt": 1788307504.936154
         }
       },
       {
@@ -65541,17 +65633,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788285626.9007306,
-    "_updated_label": "2026-09-02 03:01",
+    "_fetched_at": 1788307455.622753,
+    "_updated_label": "2026-09-02 09:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
-    "_last_attempt_at": 1788285626.9007306,
+    "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
-    "_last_success_at": 1788285626.9007306,
+    "_last_success_at": 1788307455.622753,
     "_collection_status": "ok"
   },
   "STX": {
@@ -66598,7 +66690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788303715.7155588,
     "_earnings_status": "ok",
@@ -67329,7 +67421,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788303715.7155588,
     "_earnings_status": "ok",
@@ -68323,7 +68415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_last_attempt_at": 1788301685.9475815,
     "_earnings_status": "ok",
@@ -68443,9 +68535,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
-    "_last_attempt_at": 1788307225.5069225,
+    "_last_attempt_at": 1788307455.622753,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -68601,7 +68693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 09:03"
+      "updated": "2026-09-02 09:05"
     },
     "_fetched_at": 1788299825.3541136,
     "_updated_label": "2026-09-02 06:57",

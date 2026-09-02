@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788307414.573575,
+  "generatedAt": 1788307509.5839684,
   "events": [
     {
       "id": "5e2eb3fff7d616b63452",
@@ -678,6 +678,76 @@ const EVENT_DATA = {
         "신규 주식 수·행사가격",
         "조달 자금 사용처",
         "완전희석 주식수와 EPS"
+      ]
+    },
+    {
+      "id": "808227852b54d16a303b",
+      "schemaVersion": 1,
+      "eventType": "long_term_supply",
+      "eventLabel": "장기 공급계약",
+      "primaryTicker": "GEV",
+      "relatedTickers": [
+        "GEV",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40%",
+      "headlineKo": "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40%",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3840aabb197925b02a8da4e84ed20cf657f97b8ebf1d8299c2f75c8675bb7f49",
+        "publishedAt": 1788287700,
+        "collectedAt": 1788307455.622753
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool 가입 회사 검색 접근성...",
+        "도움말 전 General Electric 대기업이 2024년 4월 GE Vernova (GEV +0.00%) 로 에너지 사업의 분사를 완료했을 때, 풍력 구성 요소는 매출의 거의 3분의 1을 차지했습니다.",
+        "그 이후로 그 사업은 계속 감소했지만 GE Vernova 주주들은 크게 신경 쓰지 않을 것입니다."
+      ],
+      "marketInterpretation": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "GEV에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "GEV",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 기간·최소구매 조건",
+        "연도별 매출 인식",
+        "수주잔고·취소 조건"
       ]
     },
     {
@@ -3634,17 +3704,16 @@ const EVENT_DATA = {
       "watch": []
     },
     {
-      "id": "94ff0bdcbbd5e747251b",
+      "id": "0df27c7ea30f852ddbf7",
       "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
       "primaryTicker": "GEV",
       "relatedTickers": [
         "AAPL",
         "GEV",
         "ORCL",
-        "QQQ",
-        "SPY"
+        "QQQ"
       ],
       "relatedEntities": [],
       "importance": "medium",
@@ -3664,32 +3733,32 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e3a52cfeaef2d2df657c92719bd6173fc4aaa904812ca392747f7e2a7c78824a",
         "publishedAt": 1788249807,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?",
-        "신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.74% SPY 0.67% QQQ 1.21% 동향 AAPL 2.65% DELL 5.08% USO 4.53% QQQ 1.21% FRVO 28.22% CRDO 6.83% PANW 6.12% ORCL 5.29% CCL 1.80% MDB 3.96% 홈 뉴스 시장 주식 XOM, CVX, G인 이유",
-        "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
+        "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?",
+        "새로운 상담원 연결 동향 뉴스 수입 전체 직경 0.73% 스파이 0.68% QQQ 1.24% 동향 DELL 1.15% AAPL 2.54% SOFI 4.47% CRDO 17.55% GOOG 1.01% MDB 17.51% PANW 6.84% GTLB 13.43% AFRM 6.06% ORCL 5.21% 홈 뉴스 시장 주식 왜 XOM, C인가?",
+        "XOM, CVX, GEV 주식이 하룻밤 사이에 상승하는 이유는 무엇입니까?"
       ],
       "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.74%, 0.67%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.73%, 0.68%, 1.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
-        "GEV에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "GEV에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
         "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.74%, 0.67%, 1.21% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.73%, 0.68%, 1.24% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -3701,9 +3770,9 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
       ]
     },
     {
@@ -4113,7 +4182,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=a391a6562161c9049791ec5f8b17bf02953dc5fa902c118f9753e107ad84483b",
         "publishedAt": 1788235223,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4548,93 +4617,12 @@ const EVENT_DATA = {
       "watch": []
     },
     {
-      "id": "74c92b7045d29a618169",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "QCOM",
-        "QQQ",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm Just Gained 15% in a Month: Take Profits, or Buy More?",
-      "headlineKo": "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bc96d09a6ca81a61d78dc8c1085161fc271e07e7384c29343191ce93720fe16c",
-        "publishedAt": 1788207955,
-        "collectedAt": 1788285626.9007306
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-        "내용으로 건너뛰기 종가 S&P 500 7,635.10 −0.77% Dow Jones 52,746.80 −0.92% Nasdaq 100 29,089.00 −1.33% Russell 2000 2,922.87 −1.13% S&P 500 7,635.10 −0.77% 다우존스 52,746.80 −0.92% 나스닥 100 29,089.00 −1.33% 러셀 2000 2,922.87 −1.13%",
-        "Qualcomm 주가는 실적 붕괴 이후 일부 회복되었지만, 회복으로 인해 휴대폰 축소, 입증되지 않은 데이터 센터 베팅, 다음 움직임을 전혀 명백하게 만들지 않는 마진 압박 등의 복잡한 혼합이 숨겨져 있습니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 15%, 0.77%, 0.92% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "QCOM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 15%, 0.77%, 0.92% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "QCOM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
       "id": "cc33a54583070082b1ba",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "QCOM",
       "relatedTickers": [
-        "AMD",
-        "MU",
-        "NVDA",
-        "ORCL",
         "QCOM"
       ],
       "relatedEntities": [],
@@ -4645,8 +4633,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "How Investors May Respond To QCOM Naming Sergio Buniac To Lead Mobile, Compute And Personal AI",
@@ -4655,67 +4643,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8ff77c13f33727e57f05fef07440facc6e9187870390de88c9e840e49779bf5c",
         "publishedAt": 1788206826,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+        "QCOM이 모바일, 컴퓨팅 및 개인 AI를 주도할 Sergio Buniac을 지명한 것에 투자자들이 반응할 수 있는 방법"
       ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "이 기사는 QCOM의 사업과 관련된 'How Investors May Respond To QCOM Naming Sergio Buniac To Lead Mobile, Compute And Personal AI' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
+          "ticker": "QCOM",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
+      "watch": []
     },
     {
       "id": "76cb7f5bef75106419be",
@@ -6473,7 +6428,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6d22192571a8df0cd2dd3d0240473f79c8655b7659e6f8eb2f0a6631f2a8cb00",
         "publishedAt": 1788184321,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10390,13 +10345,13 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=9acfc02476ed3b2a72733aaa0a06aeb185080661e233b770a789c5abb45150f8",
         "publishedAt": 1787912154,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Modine: 중기적, 고위험 베팅(NYSE:MOD) | Alpha Balakumaran Kannan을 찾고 있습니다 팔로워 11명 팔로우 요약 저는 데이터 센터 냉각 슈퍼사이클과 전략적 sh에 힘입어 Modine Manufacturing Company에 최종 매수 등급을 지정합니다.",
-        "MOD는 40억 달러 규모의 하이퍼스케일러 계약을 체결하고 수익성이 낮은 부문을 분사하고 있으며 분사 후 상당한 총이익 개선을 기대하고 있습니다.",
-        "2027 회계연도 1분기에는 매출이 28% 증가했고 데이터 센터 매출은 90% 증가했지만 일시적인 운영 비효율성으로 인해 총 마진이 감소했습니다."
+        "Modine: A Medium-Term, High-Stakes Bet (NYSE: MOD) | Seeking Alpha Balakumaran Kannan 11 Followers Follow Summary I assign a definitive Buy rating to Modine Manufacturing Company, driven by a data center cooling supercycle and a strategic sh",
+        "MOD는 $ 40억의 하이퍼스케일러 계약을 확보했으며, 저마진 부문에서 벗어나고 있으며, 스핀오프 후 상당한 매출총이익 개선을 기대하고 있습니다.",
+        "27년 1분기 매출은 28% 성장했고, 데이터 센터 매출은 90% 증가했지만, 일시적인 운영 비효율은 매출 총이익을 압축했습니다."
       ],
       "marketInterpretation": [
         "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
@@ -11201,7 +11156,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=6a1f65b2b906390ebf59dfa48d25cb0470b02a79966351cfb5ea59eb0622f27a",
         "publishedAt": 1787829307,
-        "collectedAt": 1788285626.9007306
+        "collectedAt": 1788307455.622753
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17361,7 +17316,7 @@ const EVENT_DATA = {
       "4771c7405feee78cc629",
       "7160f861c2eabe939843",
       "25bc0168b90ac2fc9ffe",
-      "94ff0bdcbbd5e747251b",
+      "0df27c7ea30f852ddbf7",
       "ab92edebe33adb10466f",
       "3659cb922df651988f47",
       "78e4b843d5367bd1c43d",
@@ -17391,10 +17346,9 @@ const EVENT_DATA = {
       "331811bd05bf7fe6cbea",
       "af5e7a4c2cf9cf3251b9",
       "b76f2a087c30405b4ab0",
-      "94ff0bdcbbd5e747251b",
+      "0df27c7ea30f852ddbf7",
       "ab92edebe33adb10466f",
       "e6997ce545527599be5f",
-      "74c92b7045d29a618169",
       "76cb7f5bef75106419be",
       "e077aa84cd24ea0010ef",
       "0e891ad4686defdef1fd",
@@ -17433,6 +17387,7 @@ const EVENT_DATA = {
       "cce272cb64500427f8f9",
       "c28464c23a4646a11b6b",
       "93f3c913a8138abfc386",
+      "808227852b54d16a303b",
       "b970246492fec105c56a",
       "66ba290b30f3117a4897",
       "f77ce872a6e2c3d93af5",
@@ -17448,10 +17403,8 @@ const EVENT_DATA = {
       "1d5c4cc7fe92dfe56aa5",
       "af5e7a4c2cf9cf3251b9",
       "b76f2a087c30405b4ab0",
-      "94ff0bdcbbd5e747251b",
       "dbf7d71c4be89e712afe",
       "ab92edebe33adb10466f",
-      "74c92b7045d29a618169",
       "e077aa84cd24ea0010ef",
       "8fa943c36d2b51ed9f4d",
       "75d85a8ee8467de30817",
@@ -17493,7 +17446,6 @@ const EVENT_DATA = {
       "1d128098b61f7774187d",
       "d07939fbac8873f36991",
       "f68478e0f50e9a3f9ea9",
-      "cc33a54583070082b1ba",
       "76cb7f5bef75106419be",
       "ea0f2927241104aa1220",
       "1c80bb1458e82f446d2b",
@@ -17545,7 +17497,6 @@ const EVENT_DATA = {
       "d07939fbac8873f36991",
       "ab92edebe33adb10466f",
       "f68478e0f50e9a3f9ea9",
-      "cc33a54583070082b1ba",
       "ea0f2927241104aa1220",
       "a92823784b7e70fbf659",
       "c928b7bc676dd70cff71",
@@ -17569,7 +17520,6 @@ const EVENT_DATA = {
     "QCOM": [
       "4771c7405feee78cc629",
       "f68478e0f50e9a3f9ea9",
-      "74c92b7045d29a618169",
       "cc33a54583070082b1ba",
       "b23b54deaa5530b1d077",
       "d47e3edaaa6e746703d5"
@@ -17631,6 +17581,11 @@ const EVENT_DATA = {
       "1d38271ae482f5f2a27a",
       "288d98be5265084eda16"
     ],
+    "GEV": [
+      "808227852b54d16a303b",
+      "0df27c7ea30f852ddbf7",
+      "fa137cefdf21cd107824"
+    ],
     "INTC": [
       "b970246492fec105c56a",
       "fd6f4c11637a7bd55bfd",
@@ -17648,7 +17603,6 @@ const EVENT_DATA = {
       "99944096f91bdcda7225",
       "f68478e0f50e9a3f9ea9",
       "98d1fb3f436ad2e77d71",
-      "cc33a54583070082b1ba",
       "ea0f2927241104aa1220",
       "c2ebf782b459946b819a",
       "c928b7bc676dd70cff71",
@@ -17671,10 +17625,9 @@ const EVENT_DATA = {
       "e144c536c0f8e5ffcefa",
       "9b609fa951a5397d050a",
       "e56e56cabafdba720a43",
-      "94ff0bdcbbd5e747251b",
+      "0df27c7ea30f852ddbf7",
       "d07939fbac8873f36991",
       "f68478e0f50e9a3f9ea9",
-      "cc33a54583070082b1ba",
       "ea0f2927241104aa1220",
       "0e891ad4686defdef1fd",
       "c928b7bc676dd70cff71",
@@ -17797,10 +17750,6 @@ const EVENT_DATA = {
       "ddeada5adecc3bc0b3e1",
       "3c12b3ed30f374110ff0",
       "b3e1fca489b98b4a35c2"
-    ],
-    "GEV": [
-      "94ff0bdcbbd5e747251b",
-      "fa137cefdf21cd107824"
     ],
     "VRT": [
       "d07939fbac8873f36991",
