@@ -1,8 +1,135 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788377669.060933,
+  "generatedAt": 1788379263.1752057,
   "events": [
+    {
+      "id": "6e5f3fd14d560d5d94da",
+      "schemaVersion": 1,
+      "eventType": "long_term_supply",
+      "eventLabel": "장기 공급계약",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce: Its Biggest AI Threat Just Became Its Partner",
+      "headlineKo": "Salesforce: 가장 큰 AI 위협이 파트너가 되었습니다",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
+        "publishedAt": 1788371400,
+        "collectedAt": 1788379224.672145
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce: 가장 큰 AI 위협이 파트너가 되었습니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "도움말 지난주 Salesforce( CRM -0.24% )는 강력한 2분기 실적을 보고했지만 더 큰 이야기는 Anthropic의 Claude를 Salesforce 제품 내부의 기본 추론 엔진으로 만드는 거래였습니다.",
+        "Claude는 Agentforce, Slack 및 Slack의 코딩 제품에서 실행되므로 Salesforce 고객은 에코시스템을 떠나지 않고도 선도적인 모델을 얻을 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.24%, 23%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.24%, 23%, 60% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 기간·최소구매 조건",
+        "연도별 매출 인식",
+        "수주잔고·취소 조건"
+      ]
+    },
+    {
+      "id": "218d3602bd588615b442",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "MSFT"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "NOW Broadens Aramco AI Footprint as CRM & MSFT Expand AI Ambitions",
+      "headlineKo": "NOW, CRM 및 MSFT로 AI 야망 확대로 Aramco AI 입지 확대",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db3cb47d63115c1b6a04add08beb42df00719dd82a4063eb32d1790b9d7c7883",
+        "publishedAt": 1788368700,
+        "collectedAt": 1788379224.672145
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "NOW, CRM 및 MSFT로 AI 야망 확대로 Aramco AI 입지 확대"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
     {
       "id": "64a12357069e5865547f",
       "schemaVersion": 1,
@@ -2551,17 +2678,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM -2.93%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
+        "접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM( ARM +0.31% )은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
         "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.93%, 7.6%, $ 234.82 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.31%, 7.6%, $ 235.55 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -2576,7 +2703,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.93%, 7.6%, $ 234.82 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.31%, 7.6%, $ 235.55 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -4359,7 +4486,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6963,7 +7090,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8987,7 +9114,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
         "publishedAt": 1788201060,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11106,7 +11233,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12684,7 +12811,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=7c7d30418f174dc5e1357c5c66cdfd802fa6c1bb544f2f4c9bd57cf64c09523e",
         "publishedAt": 1787994001,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13092,7 +13219,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=90e5e71fbbd9c0375003e00188014b10e349c7bd1fde80a0deef05c2760df6b0",
         "publishedAt": 1787945400,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15519,7 +15646,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=80e89ea81005b77faf1a63391a2a3a5c42f3d2a9e55268cacc87a0afa5b01625",
         "publishedAt": 1787779500,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15575,7 +15702,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=c23072556bdd438138a5dc8e09adda7ebe6e2f3f8ab8da3b1bd9193cefbc1e60",
         "publishedAt": 1787762346,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15715,7 +15842,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5843e33ac4019ea505ee8907510f0d48d5b80a33ceaa9834ce0f9b8f39313c5d",
         "publishedAt": 1787760295,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15782,7 +15909,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=93dce494a1ee0ef31a468fa63cec25d697ba1c20602b08d1e94291c839bae855",
         "publishedAt": 1787760274,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15839,7 +15966,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6127b2d6711f47df6a09a0cfafa495f9a9975431930c4f857262553d154cf2d8",
         "publishedAt": 1787760232,
-        "collectedAt": 1788356781.164971
+        "collectedAt": 1788379224.672145
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17250,149 +17377,85 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
-    },
-    {
-      "id": "8226704045e4e70472fe",
-      "schemaVersion": 1,
-      "eventType": "long_term_supply",
-      "eventLabel": "장기 공급계약",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "MSFT"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Microsoft Expands Middle East AI Footprint Through Long-Term HUMAIN Deal",
-      "headlineKo": "Microsoft, 장기 HUMAIN 거래를 통해 중동 AI 입지 확장",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ccd74fc2c117b4b6acc7a504cc535ecf7cdc01bec7f5626690ced1879d7d8419",
-        "publishedAt": 1787731686,
-        "collectedAt": 1788375624.468897
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Microsoft Expands Middle East AI Footprint Through Long-Term HUMAIN Deal",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MSFT에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MSFT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 기간·최소구매 조건",
-        "연도별 매출 인식",
-        "수주잔고·취소 조건"
-      ]
-    },
-    {
-      "id": "34ab0e9e5bdac00081c5",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "SNXX: Leveraged Exposure To Sandisk's Recovery But Near-Term Volatility Warrants Caution",
-      "headlineKo": "SNXX: Sandisk의 회복에 대한 레버리지 노출 그러나 단기 변동성으로 인해 주의가 요구됨",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=2655b5499832086dd089e5178af7978d49bb40a69b0518d9322e793fbb21256c",
-        "publishedAt": 1787727600,
-        "collectedAt": 1788369951.3182576
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "SNXX: Leveraged Exposure To Sandisk's Recovery But Near-Term Volatility Warrants Caution",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SNDK에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "SNDK의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "신규 주식 수·행사가격",
-        "조달 자금 사용처",
-        "완전희석 주식수와 EPS"
-      ]
     }
   ],
   "byTicker": {
+    "CRM": [
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442",
+      "1d5d318e3be777905f5c",
+      "25bc0168b90ac2fc9ffe",
+      "5d4d7592477eab90150c",
+      "bd6b87e4edf671f3f374",
+      "b3634d900eefec19e38f",
+      "6d84d2021fea3950e5ca",
+      "08a80f1bb976cf9492ce",
+      "cf8178ad53a9793f8303",
+      "50b22c5e8494cfb63372",
+      "37cf64d6776cdffade5d"
+    ],
+    "SPY": [
+      "6e5f3fd14d560d5d94da",
+      "64a12357069e5865547f",
+      "c89b54469e1b3165018a",
+      "0185e62e8f2998d0cde4",
+      "388a4c1f87b01fd02a81",
+      "6e579d028458c17a9586",
+      "6a75d70f33eda6db5b27",
+      "95dd616ac52237323664",
+      "a769ecfdd2d29de5114d",
+      "8b06659042eb85e02bbb",
+      "49a367f7507f259b1ae9",
+      "a42fb94afe58839852bb",
+      "a8d4152b20b5b524ffa5",
+      "2a475fab7e03b917f384",
+      "4fa5eae7bcd88ece6fca",
+      "cce272cb64500427f8f9",
+      "c28464c23a4646a11b6b",
+      "478a335bfebc6836d50c",
+      "b970246492fec105c56a",
+      "66ba290b30f3117a4897",
+      "f77ce872a6e2c3d93af5",
+      "d0a189fca84ff4a89328",
+      "aef74eeadca73c1b354c",
+      "8069e5fb8e0254ebc970",
+      "b56ec895241b583044e5",
+      "6187cd7d0e0009c42d02",
+      "5a862643b98d77ca70e7",
+      "0a6cd4892cdef50f2191",
+      "16a618a026a6ea68ec5d",
+      "1d128098b61f7774187d",
+      "1d5c4cc7fe92dfe56aa5",
+      "af5e7a4c2cf9cf3251b9",
+      "b76f2a087c30405b4ab0",
+      "94ff0bdcbbd5e747251b",
+      "dbf7d71c4be89e712afe",
+      "ab92edebe33adb10466f",
+      "89a6d2a75ad7e2e0cb99",
+      "74c92b7045d29a618169",
+      "e077aa84cd24ea0010ef",
+      "75d85a8ee8467de30817",
+      "b5651f804f3e6ea92fb5",
+      "6fbd8d2e9fe0aacfe32b",
+      "6a25fc0177566499b6f0",
+      "978f127c1dcf179ad905"
+    ],
+    "MSFT": [
+      "218d3602bd588615b442",
+      "d82653e93b3b94039b41",
+      "99c84182ef22525cd118",
+      "16a618a026a6ea68ec5d",
+      "9b609fa951a5397d050a",
+      "e0a78f9ed708066cb097",
+      "d80496fe71fac7718962",
+      "1d279150f84d72c7bd5a",
+      "5ae8df2fdb7624e86806",
+      "d9e99302e869cf72fd20",
+      "bab21abe6ae97cb68c3f",
+      "e520364f3c81789d511e",
+      "741796c3cc0dcd3ac93e",
+      "9faab8aabe78cb7c1704"
+    ],
     "GOOGL": [
       "64a12357069e5865547f",
       "027eefd79e80fe66e6db",
@@ -17497,51 +17560,6 @@ const EVENT_DATA = {
       "76ddf5fd1219db52812b",
       "d47e3edaaa6e746703d5",
       "b3e1fca489b98b4a35c2"
-    ],
-    "SPY": [
-      "64a12357069e5865547f",
-      "c89b54469e1b3165018a",
-      "0185e62e8f2998d0cde4",
-      "388a4c1f87b01fd02a81",
-      "6e579d028458c17a9586",
-      "6a75d70f33eda6db5b27",
-      "95dd616ac52237323664",
-      "a769ecfdd2d29de5114d",
-      "8b06659042eb85e02bbb",
-      "49a367f7507f259b1ae9",
-      "a42fb94afe58839852bb",
-      "a8d4152b20b5b524ffa5",
-      "2a475fab7e03b917f384",
-      "4fa5eae7bcd88ece6fca",
-      "cce272cb64500427f8f9",
-      "c28464c23a4646a11b6b",
-      "478a335bfebc6836d50c",
-      "b970246492fec105c56a",
-      "66ba290b30f3117a4897",
-      "f77ce872a6e2c3d93af5",
-      "d0a189fca84ff4a89328",
-      "aef74eeadca73c1b354c",
-      "8069e5fb8e0254ebc970",
-      "b56ec895241b583044e5",
-      "6187cd7d0e0009c42d02",
-      "5a862643b98d77ca70e7",
-      "0a6cd4892cdef50f2191",
-      "16a618a026a6ea68ec5d",
-      "1d128098b61f7774187d",
-      "1d5c4cc7fe92dfe56aa5",
-      "af5e7a4c2cf9cf3251b9",
-      "b76f2a087c30405b4ab0",
-      "94ff0bdcbbd5e747251b",
-      "dbf7d71c4be89e712afe",
-      "ab92edebe33adb10466f",
-      "89a6d2a75ad7e2e0cb99",
-      "74c92b7045d29a618169",
-      "e077aa84cd24ea0010ef",
-      "75d85a8ee8467de30817",
-      "b5651f804f3e6ea92fb5",
-      "6fbd8d2e9fe0aacfe32b",
-      "6a25fc0177566499b6f0",
-      "978f127c1dcf179ad905"
     ],
     "AVGO": [
       "c89b54469e1b3165018a",
@@ -17784,8 +17802,7 @@ const EVENT_DATA = {
       "331811bd05bf7fe6cbea",
       "ab92edebe33adb10466f",
       "6c0ea1ff5b490565ec97",
-      "b23b54deaa5530b1d077",
-      "34ab0e9e5bdac00081c5"
+      "b23b54deaa5530b1d077"
     ],
     "SBGSY": [
       "ef0940f7bec43eec2f1b"
@@ -17805,22 +17822,6 @@ const EVENT_DATA = {
     ],
     "MOD": [
       "54d9e45cffdcb5a06b32"
-    ],
-    "MSFT": [
-      "d82653e93b3b94039b41",
-      "99c84182ef22525cd118",
-      "16a618a026a6ea68ec5d",
-      "9b609fa951a5397d050a",
-      "e0a78f9ed708066cb097",
-      "d80496fe71fac7718962",
-      "1d279150f84d72c7bd5a",
-      "5ae8df2fdb7624e86806",
-      "d9e99302e869cf72fd20",
-      "bab21abe6ae97cb68c3f",
-      "e520364f3c81789d511e",
-      "741796c3cc0dcd3ac93e",
-      "9faab8aabe78cb7c1704",
-      "8226704045e4e70472fe"
     ],
     "FIX": [
       "8b06659042eb85e02bbb",
@@ -17883,18 +17884,6 @@ const EVENT_DATA = {
       "478a335bfebc6836d50c",
       "94ff0bdcbbd5e747251b",
       "fa137cefdf21cd107824"
-    ],
-    "CRM": [
-      "1d5d318e3be777905f5c",
-      "25bc0168b90ac2fc9ffe",
-      "5d4d7592477eab90150c",
-      "bd6b87e4edf671f3f374",
-      "b3634d900eefec19e38f",
-      "6d84d2021fea3950e5ca",
-      "08a80f1bb976cf9492ce",
-      "cf8178ad53a9793f8303",
-      "50b22c5e8494cfb63372",
-      "37cf64d6776cdffade5d"
     ],
     "LRCX": [
       "0c459e3765f0ddc83390",
