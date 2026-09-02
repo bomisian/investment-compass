@@ -5005,7 +5005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -5021,78 +5021,30 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple: Cook Avoided The AI Trap, Ternus Should Too",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=06b9638cb2f707a82fd7785e8603cbf8f6f6621012fefa9405c891b32c311ebf",
-        "datetime": 1788312085,
+        "headline": "Apple stock becomes hedge as AI trade wobbles in 2026",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817",
+        "datetime": 1788359363,
         "relevance": 0.29,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple: Cook Avoided The AI Trap, Ternus Should Too",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple: Cook Avoided The AI Trap, Ternus Should Too' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337886.5982144
-        },
-        "headlineKo": "애플: 쿡은 AI 함정을 피했고, 터너스도 피해야 한다"
-      },
-      {
-        "headline": "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=48291c326e886a71c9c803ea8015b48064c86d0ee1cd96b07907e8bae99d53d5",
-        "datetime": 1788310867,
-        "relevance": 0.43,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
+          "importance": "medium",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 미국-이란 교착 상태에서 지수 하락 후 하락 — DELL, PANW, FRVO, AAPL, TTWO 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.04% SPY 0.05% QQQ 0.15% 추세 USO 0.60% UCO 0.91% DELL 10.08%",
-            "S&P 500, 다우, 나스닥 선물은 미국-이란 교착상태로 지수가 하락한 후 하락세를 보임 — DELL, PANW, FRVO, AAPL, TTWO In Focus",
-            "군은 화요일 이란에 있는 이슬람혁명수비대(IRGC) 표적을 공격하기 시작했다고 밝혔습니다."
+            "CNBC 분석에 따르면 2026년 AI 거래가 흔들리면서 애플 주식은 헤지 역할을 하고 있습니다. CNBC 분석에 따르면 애플 주식은 AI 거래가 흔들리면서 투자자들의 헤지 수단이 되고 있습니다.",
+            "ThinkOrSwim 데이터를 사용한 CNBC 분석에 따르면, 애플과 나스닥 $NDAQ -100 간의 30일 상관관계는 지난 목요일 -0.86으로 바닥을 치고 수요일 현재 -0.82에 머물고 있습니다. 이는 두 t 사이의 어느 정도 역전된 움직임입니다.",
+            "Apple은 Nasdaq -100에서 7.5%의 비중을 차지하고 있습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.04%, 0.05%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.6%, 7.5%, 7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -5103,39 +5055,101 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.43,
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.04%",
-            "0.05%",
-            "0.15%",
-            "0.60%",
-            "0.91%",
-            "10.08%",
-            "0.14%",
-            "1.02%"
+            "2.6%",
+            "7.5%",
+            "7%",
+            "1%",
+            "20%",
+            "15%",
+            "$700 billion",
+            "70%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus New Connect your Agent Trending News Earnings All DIA 0.04% SPY 0.05% QQQ 0.15% Trending USO 0.60% UCO 0.91% DELL 10.08% ",
-            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus The ‌U.S.",
-            "military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in ⁠Iran."
+            "Apple stock becomes hedge as AI trade wobbles in 2026 Markets Apple stock is becoming investors' go-to hedge as the AI trade wobbles Apple's 30-day correlation to the Nasdaq-100 hit its most inverse level since 2005, according to a CNBC ana",
+            "According to a CNBC analysis using ThinkOrSwim data, the 30-day correlation between Apple and the Nasdaq $NDAQ -100 bottomed out at -0.86 last Thursday and was sitting at -0.82 as of Wednesday, a degree of inverse movement between the two t",
+            "Apple commands a 7.5% weighting in the Nasdaq -100."
           ],
-          "analysisUpdatedAt": 1788337890.4498992
+          "analysisUpdatedAt": 1788360548.6859665
         },
-        "headlineKo": "S&P 500, 다우, 나스닥 선물은 미국-이란 교착상태로 지수가 하락한 후 하락세를 보임 — DELL, PANW, FRVO, AAPL, TTWO 집중"
+        "headlineKo": "2026년 AI 거래가 흔들리면서 애플 주식이 헤지가 된다"
       },
       {
-        "headline": "John Ternus takes over as Apple enters era of AI, foldable phones",
+        "headline": "Apple’s New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dca870f642e8b5e6093ed42072436c67cd1e7808034dcfb53a12bfbba65770c1",
-        "datetime": 1788309614,
+        "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242",
+        "datetime": 1788359137,
         "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다. - 연중무휴 24시간 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.02% S&P 500 7,675.80 +0.47% 다우존스 53,143.80 +0.69% 나스닥 100 29,170.50 +0.25% 러셀 2000 2,952.74 +1.",
+            "(사진: Apple 뉴스룸) © Apple 뉴스룸 / 보도 자료 John Ternus가 Apple( NASDAQ:AAPL | AAPL Price Prediction )의 CEO로 취임하여 주가가 사상 최고치에 근접했으며, 그가 연설할 9월 하드웨어 행사까지 약 8일 남았습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.47%, 0.69%, 0.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.47%",
+            "0.69%",
+            "0.25%",
+            "1.02%",
+            "2.61%",
+            "$325.13,",
+            "40.58%",
+            "19.92%"
+          ],
+          "sourceExcerpt": [
+            "Apple's New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.02% S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.",
+            "(Photo: Apple Newsroom) © Apple Newsroom / Press John Ternus starts as Apple ( NASDAQ:AAPL | AAPL Price Prediction ) CEO with the stock near a historic high, and roughly 8 days remain before a September hardware event where he will address "
+          ],
+          "analysisUpdatedAt": 1788360554.0455291
+        },
+        "headlineKo": "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다."
+      },
+      {
+        "headline": "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7b1c61ebbcbda489f02d27036e53c78bcd5341d9dcfd19a087f318d5e480ce30",
+        "datetime": 1788358740,
+        "relevance": 0.57,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -5144,7 +5158,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "John Ternus takes over as Apple enters era of AI, foldable phones",
+            "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5168,34 +5182,222 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'John Ternus takes over as Apple enters era of AI, foldable phones' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
+          "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337892.2772417
+          "analysisUpdatedAt": 1788360556.313138
         },
-        "headlineKo": "애플이 폴더블폰 AI 시대로 진입하면서 존 터너스(John Ternus) 인수"
+        "headlineKo": "Apple의 연례 iPhone 이벤트가 일주일 앞으로 다가왔습니다. 그 어느 때보다 중요한 이유."
       },
       {
-        "headline": "John Ternus Takes Over Apple with Just Eight Days Until His First Big Test",
+        "headline": "Could Apple’s foldable iPhone be a $14B opportunity? Morgan Stanley weighs in",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=34ffc6eb46de1f5c5cd378fbab67cc185920624014598b02230b7be5c4cf1fec",
-        "datetime": 1788305465,
+        "url": "https://finnhub.io/api/news?id=0060d5e4656d7e596fec6320e9969925535286d8a15985494f4040f30cbca308",
+        "datetime": 1788358500,
+        "relevance": 0.57,
+        "headlineKo": "Apple의 폴더블 iPhone이 140억 달러의 기회가 될 수 있을까요? 모건스탠리는 무게를 두고 있다"
+      },
+      {
+        "headline": "Apple CEO John Ternus pay package: $58 million in fiscal 2027",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6224a23c9e6f459a84505d14c981ce0a85ba5b6fe66f237e5c07ef700f2aa2f1",
+        "datetime": 1788357734,
         "relevance": 0.29,
-        "headlineKo": "John Ternus, 첫 번째 대규모 테스트까지 단 8일 만에 Apple 인수"
-      },
-      {
-        "headline": "AAPL Stock Sees Best Day In Over A Month – CEO John Ternus Reportedly Touts 'Phenomenal' iPhone Launch In First Memo To Employees",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
-        "datetime": 1788292404,
-        "relevance": 0.71,
-        "headlineKo": "AAPL 주식은 한 달 만에 최고의 날을 맞이했습니다. CEO John Ternus는 직원들에게 보낸 첫 번째 메모에서 '경이로운' iPhone 출시를 홍보했다고 합니다."
+        "headlineKo": "Apple CEO John Ternus 급여 패키지: 2027 회계연도에 5,800만 달러"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple stock becomes hedge as AI trade wobbles in 2026",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817",
+        "datetime": 1788359363,
+        "headlineKo": "2026년 AI 거래가 흔들리면서 애플 주식이 헤지가 된다",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CNBC 분석에 따르면 2026년 AI 거래가 흔들리면서 애플 주식은 헤지 역할을 하고 있습니다. CNBC 분석에 따르면 애플 주식은 AI 거래가 흔들리면서 투자자들의 헤지 수단이 되고 있습니다.",
+            "ThinkOrSwim 데이터를 사용한 CNBC 분석에 따르면, 애플과 나스닥 $NDAQ -100 간의 30일 상관관계는 지난 목요일 -0.86으로 바닥을 치고 수요일 현재 -0.82에 머물고 있습니다. 이는 두 t 사이의 어느 정도 역전된 움직임입니다.",
+            "Apple은 Nasdaq -100에서 7.5%의 비중을 차지하고 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.6%, 7.5%, 7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2.6%",
+            "7.5%",
+            "7%",
+            "1%",
+            "20%",
+            "15%",
+            "$700 billion",
+            "70%"
+          ],
+          "sourceExcerpt": [
+            "Apple stock becomes hedge as AI trade wobbles in 2026 Markets Apple stock is becoming investors' go-to hedge as the AI trade wobbles Apple's 30-day correlation to the Nasdaq-100 hit its most inverse level since 2005, according to a CNBC ana",
+            "According to a CNBC analysis using ThinkOrSwim data, the 30-day correlation between Apple and the Nasdaq $NDAQ -100 bottomed out at -0.86 last Thursday and was sitting at -0.82 as of Wednesday, a degree of inverse movement between the two t",
+            "Apple commands a 7.5% weighting in the Nasdaq -100."
+          ],
+          "analysisUpdatedAt": 1788360548.6859665
+        }
+      },
+      {
+        "headline": "Apple’s New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242",
+        "datetime": 1788359137,
+        "headlineKo": "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다.",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다. - 연중무휴 24시간 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.02% S&P 500 7,675.80 +0.47% 다우존스 53,143.80 +0.69% 나스닥 100 29,170.50 +0.25% 러셀 2000 2,952.74 +1.",
+            "(사진: Apple 뉴스룸) © Apple 뉴스룸 / 보도 자료 John Ternus가 Apple( NASDAQ:AAPL | AAPL Price Prediction )의 CEO로 취임하여 주가가 사상 최고치에 근접했으며, 그가 연설할 9월 하드웨어 행사까지 약 8일 남았습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.47%, 0.69%, 0.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.47%",
+            "0.69%",
+            "0.25%",
+            "1.02%",
+            "2.61%",
+            "$325.13,",
+            "40.58%",
+            "19.92%"
+          ],
+          "sourceExcerpt": [
+            "Apple's New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.02% S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.",
+            "(Photo: Apple Newsroom) © Apple Newsroom / Press John Ternus starts as Apple ( NASDAQ:AAPL | AAPL Price Prediction ) CEO with the stock near a historic high, and roughly 8 days remain before a September hardware event where he will address "
+          ],
+          "analysisUpdatedAt": 1788360554.0455291
+        }
+      },
+      {
+        "headline": "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7b1c61ebbcbda489f02d27036e53c78bcd5341d9dcfd19a087f318d5e480ce30",
+        "datetime": 1788358740,
+        "headlineKo": "Apple의 연례 iPhone 이벤트가 일주일 앞으로 다가왔습니다. 그 어느 때보다 중요한 이유.",
+        "relevance": 0.57,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple’s Annual iPhone Event Is a Week Away. Why It’s More Important Than Ever.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788360556.313138
+        }
+      },
+      {
+        "headline": "Could Apple’s foldable iPhone be a $14B opportunity? Morgan Stanley weighs in",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0060d5e4656d7e596fec6320e9969925535286d8a15985494f4040f30cbca308",
+        "datetime": 1788358500,
+        "headlineKo": "Apple의 폴더블 iPhone이 140억 달러의 기회가 될 수 있을까요? 모건스탠리는 무게를 두고 있다",
+        "relevance": 0.57
+      },
+      {
+        "headline": "Apple CEO John Ternus pay package: $58 million in fiscal 2027",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6224a23c9e6f459a84505d14c981ce0a85ba5b6fe66f237e5c07ef700f2aa2f1",
+        "datetime": 1788357734,
+        "headlineKo": "Apple CEO John Ternus 급여 패키지: 2027 회계연도에 5,800만 달러",
+        "relevance": 0.29
+      },
       {
         "headline": "Apple: Cook Avoided The AI Trap, Ternus Should Too",
         "source": "SeekingAlpha",
@@ -7950,17 +8152,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788337883.622363,
-    "_updated_label": "2026-09-02 17:31",
+    "_fetched_at": 1788360541.387746,
+    "_updated_label": "2026-09-02 23:49",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 86,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
-    "_last_attempt_at": 1788337883.622363,
+    "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788337883.622363,
+    "_last_success_at": 1788360541.387746,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -10464,7 +10666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -12836,7 +13038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -15912,7 +16114,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -16896,7 +17098,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -19714,7 +19916,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -22880,7 +23082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -25881,7 +26083,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -28953,7 +29155,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -31394,7 +31596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -33280,7 +33482,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -33295,6 +33497,54 @@ const NEWS_DATA = {
       "revenueEstimate": 10513249854
     },
     "news": [
+      {
+        "headline": "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=efb16a6745b014354a9cd222d3fb0b43e68bf26fc6ab653ff7833c1bafcab134",
+        "datetime": 1788353160,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788360563.3581548
+        },
+        "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
+      },
       {
         "headline": "Applied Materials’ stock buybacks: History & investor impact explained",
         "source": "Yahoo",
@@ -33357,7 +33607,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337897.7855992
+          "analysisUpdatedAt": 1788360564.1201856
         },
         "headlineKo": "어플라이드 머티리얼즈 자사주 매입: 역사 및 투자자 영향 설명"
       },
@@ -33405,7 +33655,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337900.1756954
+          "analysisUpdatedAt": 1788360566.2097032
         },
         "headlineKo": "Entegris, Penguin Solutions, Teradyne, Applied Materials 및 KLA Corporation 주식 거래 하락, 알아야 할 사항"
       },
@@ -33415,45 +33665,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=aeb77d3c62cfcdd6caf431a48b5bb3af48b11f7000207d081807ba17d61cc753",
         "datetime": 1788253639,
         "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "UBS Maintains Buy on Applied Materials, Raises Price Target to $695",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337901.2573113
-        },
         "headlineKo": "UBS는 적용 재료에 대한 구매를 유지하고 가격 목표를 $ 695로 올립니다."
       },
       {
@@ -33463,17 +33674,57 @@ const NEWS_DATA = {
         "datetime": 1788203588,
         "relevance": 0.67,
         "headlineKo": "Applied Materials 주식이 Dow를 능가합니까?"
-      },
-      {
-        "headline": "How Far Applied Materials Stock Can Move On You In A Year",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cd799aa910ce974cfa9a87ecabcd706eb5349312c007280438eecca3821f86ff",
-        "datetime": 1787931724,
-        "relevance": 0.67,
-        "headlineKo": "Applied Materials 재고가 1년 동안 얼마나 멀리 움직일 수 있는지"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=efb16a6745b014354a9cd222d3fb0b43e68bf26fc6ab653ff7833c1bafcab134",
+        "datetime": 1788353160,
+        "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788360563.3581548
+        }
+      },
       {
         "headline": "Applied Materials’ stock buybacks: History & investor impact explained",
         "source": "Yahoo",
@@ -33537,7 +33788,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337897.7855992
+          "analysisUpdatedAt": 1788360564.1201856
         }
       },
       {
@@ -33585,7 +33836,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337900.1756954
+          "analysisUpdatedAt": 1788360566.2097032
         }
       },
       {
@@ -34815,17 +35066,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788337883.622363,
-    "_updated_label": "2026-09-02 17:31",
+    "_fetched_at": 1788360541.387746,
+    "_updated_label": "2026-09-02 23:49",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 43,
+      "checked": 44,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
-    "_last_attempt_at": 1788337883.622363,
+    "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788337883.622363,
+    "_last_success_at": 1788360541.387746,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -36465,7 +36716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -38812,7 +39063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -40874,7 +41125,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -43018,7 +43269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -44941,7 +45192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -46280,7 +46531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -47461,7 +47712,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -50383,7 +50634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -51493,7 +51744,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -52762,7 +53013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -54004,7 +54255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -56774,7 +57025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -56833,7 +57084,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337907.413894
+          "analysisUpdatedAt": 1788360571.6942317
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -56852,12 +57103,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.10% S&P 500 7,636.80 −0.04% 다우존스 52,819.70 +0.07% 나스닥 100 29,069.80 −0.10% 러셀 2000 2,925.69 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.94% S&P 500 7,678.30 +0.51% 다우존스 53,200.80 +0.79% 나스닥 100 29,140.60 +0.14% 러셀 2000 2,950.24 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.04%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.51%, 0.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -56882,20 +57133,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.04%",
-            "0.07%",
-            "0.10%",
+            "0.51%",
+            "0.79%",
+            "0.14%",
+            "0.94%",
             "168%",
             "$465.32",
-            "16%",
-            "17%"
+            "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.10% S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.94% S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788337911.2800913
+          "analysisUpdatedAt": 1788360576.3298512
         },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
@@ -56942,7 +57193,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337912.4152284
+          "analysisUpdatedAt": 1788360577.4349046
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -57009,7 +57260,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337907.413894
+          "analysisUpdatedAt": 1788360571.6942317
         }
       },
       {
@@ -57028,12 +57279,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.10% S&P 500 7,636.80 −0.04% 다우존스 52,819.70 +0.07% 나스닥 100 29,069.80 −0.10% 러셀 2000 2,925.69 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.94% S&P 500 7,678.30 +0.51% 다우존스 53,200.80 +0.79% 나스닥 100 29,140.60 +0.14% 러셀 2000 2,950.24 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.04%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.51%, 0.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -57058,20 +57309,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.04%",
-            "0.07%",
-            "0.10%",
+            "0.51%",
+            "0.79%",
+            "0.14%",
+            "0.94%",
             "168%",
             "$465.32",
-            "16%",
-            "17%"
+            "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.10% S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.94% S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788337911.2800913
+          "analysisUpdatedAt": 1788360576.3298512
         }
       },
       {
@@ -57118,7 +57369,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788337912.4152284
+          "analysisUpdatedAt": 1788360577.4349046
         }
       },
       {
@@ -57969,17 +58220,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788337883.622363,
-    "_updated_label": "2026-09-02 17:31",
+    "_fetched_at": 1788360541.387746,
+    "_updated_label": "2026-09-02 23:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
-    "_last_attempt_at": 1788337883.622363,
+    "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788337883.622363,
+    "_last_success_at": 1788360541.387746,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -59034,7 +59285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -60029,7 +60280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -61159,7 +61410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -62538,7 +62789,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -63443,7 +63694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -64542,7 +64793,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -65423,7 +65674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -66284,7 +66535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -66875,7 +67126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788341670.1721408,
     "_earnings_status": "ok",
@@ -67955,7 +68206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -68315,7 +68566,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -69366,7 +69617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -70097,7 +70348,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -71167,7 +71418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -71287,9 +71538,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
-    "_last_attempt_at": 1788358693.7985723,
+    "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -71445,7 +71696,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 23:18"
+      "updated": "2026-09-02 23:49"
     },
     "_fetched_at": 1788345392.6233885,
     "_updated_label": "2026-09-02 19:36",

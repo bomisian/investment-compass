@@ -1,8 +1,161 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788358697.436103,
+  "generatedAt": 1788360582.0378282,
   "events": [
+    {
+      "id": "9edc6bd37fd15af1ebc7",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "QQQ"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple stock becomes hedge as AI trade wobbles in 2026",
+      "headlineKo": "2026년 AI 거래가 흔들리면서 애플 주식이 헤지가 된다",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817",
+        "publishedAt": 1788359363,
+        "collectedAt": 1788360541.387746
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "CNBC 분석에 따르면 2026년 AI 거래가 흔들리면서 애플 주식은 헤지 역할을 하고 있습니다. CNBC 분석에 따르면 애플 주식은 AI 거래가 흔들리면서 투자자들의 헤지 수단이 되고 있습니다.",
+        "ThinkOrSwim 데이터를 사용한 CNBC 분석에 따르면, 애플과 나스닥 $NDAQ -100 간의 30일 상관관계는 지난 목요일 -0.86으로 바닥을 치고 수요일 현재 -0.82에 머물고 있습니다. 이는 두 t 사이의 어느 정도 역전된 움직임입니다.",
+        "Apple은 Nasdaq -100에서 7.5%의 비중을 차지하고 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2.6%, 7.5%, 7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2.6%, 7.5%, 7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "6e579d028458c17a9586",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple’s New CEO Has 8 Days to Answer the AI Question That Could Redefine Computing",
+      "headlineKo": "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242",
+        "publishedAt": 1788359137,
+        "collectedAt": 1788360541.387746
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Apple의 신임 CEO는 컴퓨팅을 재정의할 수 있는 AI 질문에 8일 동안 답변해야 합니다. - 연중무휴 24시간 월스트리트",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,675.80 +0.47% Dow Jones 53,143.80 +0.69% Nasdaq 100 29,170.50 +0.25% Russell 2000 2,952.74 +1.02% S&P 500 7,675.80 +0.47% 다우존스 53,143.80 +0.69% 나스닥 100 29,170.50 +0.25% 러셀 2000 2,952.74 +1.",
+        "(사진: Apple 뉴스룸) © Apple 뉴스룸 / 보도 자료 John Ternus가 Apple( NASDAQ:AAPL | AAPL Price Prediction )의 CEO로 취임하여 주가가 사상 최고치에 근접했으며, 그가 연설할 9월 하드웨어 행사까지 약 8일 남았습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.47%, 0.69%, 0.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.47%, 0.69%, 0.25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "8b06659042eb85e02bbb",
       "schemaVersion": 1,
@@ -171,7 +324,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5e9cf7661d15f873fa05ed31caef7ac055d8ac9497816dd1916c155a9e296d6a",
         "publishedAt": 1788319010,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1216,7 +1369,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
         "publishedAt": 1788292404,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1443,7 +1596,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
         "publishedAt": 1788290100,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1682,7 +1835,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=29ed8151fdc1d523f65757d242496f87efe1f39bfea30fbdc9c4adc29046e8df",
         "publishedAt": 1788289111,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5247,8 +5400,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "속보·의견 성격이 강해 원문 재확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "mixed",
+      "expectedHorizon": "단기",
       "impactProbability": "낮음·확인 필요",
       "verificationStatus": "needs_confirmation",
       "headline": "UBS Maintains Buy on Applied Materials, Raises Price Target to $695",
@@ -5257,45 +5410,35 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=aeb77d3c62cfcdd6caf431a48b5bb3af48b11f7000207d081807ba17d61cc753",
         "publishedAt": 1788253639,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "UBS Maintains Buy on Applied Materials, Raises Price Target to $695",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "UBS는 적용 재료에 대한 구매를 유지하고 가격 목표를 $ 695로 올립니다."
       ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "AMAT에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
         "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "AMAT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
+      "watch": []
     },
     {
       "id": "c16f5b53f364388701f3",
@@ -8298,7 +8441,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=f9400be64e9826a0be74e14bcfa1378e2aff2c7b3bca9382fb07c420583c6bef",
         "publishedAt": 1788179608,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8644,7 +8787,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=ef431aa85514a3f4392c6880b48b8cbec15a10ef463b014e9387c1256ab35d9c",
         "publishedAt": 1788168521,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8919,7 +9062,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=f9117493efd2da8cbb8a9bb1378bc33ca9e5e39da9eddff09ab73c63c02a109c",
         "publishedAt": 1788158834,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10725,17 +10868,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
         "publishedAt": 1787947276,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Western Digital은 한 달 만에 13% 하락했습니다.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,636.80 −0.04% Dow Jones 52,819.70 +0.07% Nasdaq 100 29,069.80 −0.10% Russell 2000 2,925.69 +0.10% S&P 500 7,636.80 −0.04% 다우존스 52,819.70 +0.07% 나스닥 100 29,069.80 −0.10% 러셀 2000 2,925.69 +0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,678.30 +0.51% Dow Jones 53,200.80 +0.79% Nasdaq 100 29,140.60 +0.14% Russell 2000 2,950.24 +0.94% S&P 500 7,678.30 +0.51% 다우존스 53,200.80 +0.79% 나스닥 100 29,140.60 +0.14% 러셀 2000 2,950.24 +0.",
         "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 13%, 0.04%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.51%, 0.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -10750,7 +10893,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 13%, 0.04%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.51%, 0.79% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -10928,7 +11071,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=98eb184f79a545094c1e06eee59ec48c1e7256708f357f5a14a466d081163dab",
         "publishedAt": 1787934956,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11801,7 +11944,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=6f860c69843e52ad3fd24fe83b893eb42235aeb8ebaf9fd104dc1fc39deb1d6b",
         "publishedAt": 1787916676,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12493,7 +12636,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d13d62850b1ddf6358d0cf3674ce6dde1b3dc6db681957119485c58ff4e0bb1f",
         "publishedAt": 1787875983,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14470,7 +14613,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=4942d9a7f5815c778c5a27132015237bc6f89e39775703f8ed408d24f3ed324b",
         "publishedAt": 1787747077,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16898,7 +17041,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=a7ff5dcc42a625cae9e085a8cce28c6ff2b713534fb0a8a0e99cb5054e003202",
         "publishedAt": 1787648401,
-        "collectedAt": 1788337883.622363
+        "collectedAt": 1788360541.387746
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17185,144 +17328,82 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "61e2267125e636aad70b",
-      "schemaVersion": 1,
-      "eventType": "guidance_change",
-      "eventLabel": "실적 전망 변경",
-      "primaryTicker": "MRVL",
-      "relatedTickers": [
-        "MRVL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Marvell",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Marvell: Another Guidance Raise Could Signal A Stronger Growth Trajectory",
-      "headlineKo": "Marvell: 또 다른 가이던스 인상은 더 강력한 성장 궤적을 나타낼 수 있음",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6be231b94874b1d3ca9a29d7386fa435866c2af0d08dda2b453c8a0d4a1383a7",
-        "publishedAt": 1787644329,
-        "collectedAt": 1788349233.0413587
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Marvell: Another Guidance Raise Could Signal A Stronger Growth Trajectory",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MRVL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MRVL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
-    },
-    {
-      "id": "4a66df5c89e1f7d527ae",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "SNDK",
-      "relatedTickers": [
-        "SNDK"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Mizuho Maintains Outperform on SanDisk, Lowers Price Target to $1875",
-      "headlineKo": "Mizuho는 SanDisk에서 우위를 유지하여 가격 목표를 $ 1875로 낮춥니다.",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=ab9c3216c508281ab90f29cdcb92750b3a5054dcfdf4b1620563cfda83857bf7",
-        "publishedAt": 1787642759,
-        "collectedAt": 1788347252.1598117
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Mizuho는 SanDisk에서 우위를 유지하여 가격 목표를 $ 1875로 낮춥니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SNDK",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
-    "FIX": [
-      "8b06659042eb85e02bbb",
-      "c52a349a2c43da2fb76d"
+    "AAPL": [
+      "9edc6bd37fd15af1ebc7",
+      "6e579d028458c17a9586",
+      "f5a4ac9ec2cf9aeff842",
+      "4771c7405feee78cc629",
+      "7160f861c2eabe939843",
+      "25bc0168b90ac2fc9ffe",
+      "94ff0bdcbbd5e747251b",
+      "ab92edebe33adb10466f",
+      "3659cb922df651988f47",
+      "78e4b843d5367bd1c43d",
+      "67617fc04b8ab86cafda",
+      "6fbd8d2e9fe0aacfe32b",
+      "23a348918ccb8f9e1124",
+      "d47e3edaaa6e746703d5",
+      "d4e8a00177166f2d3a1d",
+      "afa2160e94cdfee476fa"
+    ],
+    "QQQ": [
+      "9edc6bd37fd15af1ebc7",
+      "6e579d028458c17a9586",
+      "a42fb94afe58839852bb",
+      "a8d4152b20b5b524ffa5",
+      "f5a4ac9ec2cf9aeff842",
+      "99026eec57ccbd99b7f0",
+      "cce272cb64500427f8f9",
+      "89c598b05d545ff7f100",
+      "d0a189fca84ff4a89328",
+      "8069e5fb8e0254ebc970",
+      "6187cd7d0e0009c42d02",
+      "5a862643b98d77ca70e7",
+      "0a6cd4892cdef50f2191",
+      "16a618a026a6ea68ec5d",
+      "1d128098b61f7774187d",
+      "1d5c4cc7fe92dfe56aa5",
+      "331811bd05bf7fe6cbea",
+      "af5e7a4c2cf9cf3251b9",
+      "b76f2a087c30405b4ab0",
+      "94ff0bdcbbd5e747251b",
+      "ab92edebe33adb10466f",
+      "e6997ce545527599be5f",
+      "74c92b7045d29a618169",
+      "76cb7f5bef75106419be",
+      "e077aa84cd24ea0010ef",
+      "0e891ad4686defdef1fd",
+      "1c80bb1458e82f446d2b",
+      "af16bde21a9de5d05b27",
+      "a92823784b7e70fbf659",
+      "f4db1be0e6cff3f47d76",
+      "c2ebf782b459946b819a",
+      "a6339a0ab8299a98c8cf",
+      "4bdff85c3176072538d6",
+      "9644714a19036971fdc4",
+      "2412915696ba01e29a80",
+      "54c7f5dc1d7281b699f2",
+      "219beaf953067561b00b",
+      "b0f7c85204f372b5f47b",
+      "6fbd8d2e9fe0aacfe32b",
+      "bab21abe6ae97cb68c3f",
+      "5e217d76ddc07191ed5e",
+      "6a25fc0177566499b6f0",
+      "978f127c1dcf179ad905",
+      "a264c284da021e873ae7",
+      "e520364f3c81789d511e",
+      "e8b539a446990e9de047",
+      "76ddf5fd1219db52812b",
+      "d47e3edaaa6e746703d5",
+      "b3e1fca489b98b4a35c2",
+      "872daef07ddeb7981bf6",
+      "295a689d887a49c7dee4"
     ],
     "SPY": [
+      "6e579d028458c17a9586",
       "8b06659042eb85e02bbb",
       "49a367f7507f259b1ae9",
       "a42fb94afe58839852bb",
@@ -17360,6 +17441,10 @@ const EVENT_DATA = {
       "978f127c1dcf179ad905",
       "c382bb283b1aec06330c",
       "295a689d887a49c7dee4"
+    ],
+    "FIX": [
+      "8b06659042eb85e02bbb",
+      "c52a349a2c43da2fb76d"
     ],
     "ORCL": [
       "a6237d2bd84aa4ea3ec3",
@@ -17511,8 +17596,7 @@ const EVENT_DATA = {
       "10b435a91ddf9d3a56b2",
       "f38e3eb137af6ef4160e",
       "c07e647f0219a2fc08b9",
-      "7b518c59cae71f78ab25",
-      "61e2267125e636aad70b"
+      "7b518c59cae71f78ab25"
     ],
     "ARM": [
       "49a367f7507f259b1ae9",
@@ -17526,8 +17610,7 @@ const EVENT_DATA = {
       "6c0ea1ff5b490565ec97",
       "b23b54deaa5530b1d077",
       "34ab0e9e5bdac00081c5",
-      "986500052a65c604ca3e",
-      "4a66df5c89e1f7d527ae"
+      "986500052a65c604ca3e"
     ],
     "AVGO": [
       "ee0b92aebeb481d58fb7",
@@ -17574,57 +17657,6 @@ const EVENT_DATA = {
       "3eba4d011c7063433a3b",
       "7b518c59cae71f78ab25"
     ],
-    "QQQ": [
-      "a42fb94afe58839852bb",
-      "a8d4152b20b5b524ffa5",
-      "f5a4ac9ec2cf9aeff842",
-      "99026eec57ccbd99b7f0",
-      "cce272cb64500427f8f9",
-      "89c598b05d545ff7f100",
-      "d0a189fca84ff4a89328",
-      "8069e5fb8e0254ebc970",
-      "6187cd7d0e0009c42d02",
-      "5a862643b98d77ca70e7",
-      "0a6cd4892cdef50f2191",
-      "16a618a026a6ea68ec5d",
-      "1d128098b61f7774187d",
-      "1d5c4cc7fe92dfe56aa5",
-      "331811bd05bf7fe6cbea",
-      "af5e7a4c2cf9cf3251b9",
-      "b76f2a087c30405b4ab0",
-      "94ff0bdcbbd5e747251b",
-      "ab92edebe33adb10466f",
-      "e6997ce545527599be5f",
-      "74c92b7045d29a618169",
-      "76cb7f5bef75106419be",
-      "e077aa84cd24ea0010ef",
-      "0e891ad4686defdef1fd",
-      "1c80bb1458e82f446d2b",
-      "af16bde21a9de5d05b27",
-      "a92823784b7e70fbf659",
-      "f4db1be0e6cff3f47d76",
-      "c2ebf782b459946b819a",
-      "a6339a0ab8299a98c8cf",
-      "4bdff85c3176072538d6",
-      "9644714a19036971fdc4",
-      "2412915696ba01e29a80",
-      "54c7f5dc1d7281b699f2",
-      "219beaf953067561b00b",
-      "b0f7c85204f372b5f47b",
-      "6fbd8d2e9fe0aacfe32b",
-      "bab21abe6ae97cb68c3f",
-      "5e217d76ddc07191ed5e",
-      "6a25fc0177566499b6f0",
-      "978f127c1dcf179ad905",
-      "a264c284da021e873ae7",
-      "e520364f3c81789d511e",
-      "e8b539a446990e9de047",
-      "76ddf5fd1219db52812b",
-      "d47e3edaaa6e746703d5",
-      "b3e1fca489b98b4a35c2",
-      "872daef07ddeb7981bf6",
-      "295a689d887a49c7dee4"
-    ],
     "TSLA": [
       "e66aef4a24b3b0f2ecc0",
       "8069e5fb8e0254ebc970",
@@ -17667,22 +17699,6 @@ const EVENT_DATA = {
       "1bfd3e95def9c94ccc03",
       "fd6f4c11637a7bd55bfd",
       "19b6f90ae2097a53bf3d"
-    ],
-    "AAPL": [
-      "f5a4ac9ec2cf9aeff842",
-      "4771c7405feee78cc629",
-      "7160f861c2eabe939843",
-      "25bc0168b90ac2fc9ffe",
-      "94ff0bdcbbd5e747251b",
-      "ab92edebe33adb10466f",
-      "3659cb922df651988f47",
-      "78e4b843d5367bd1c43d",
-      "67617fc04b8ab86cafda",
-      "6fbd8d2e9fe0aacfe32b",
-      "23a348918ccb8f9e1124",
-      "d47e3edaaa6e746703d5",
-      "d4e8a00177166f2d3a1d",
-      "afa2160e94cdfee476fa"
     ],
     "QCOM": [
       "4771c7405feee78cc629",
