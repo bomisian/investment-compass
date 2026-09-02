@@ -1920,14 +1920,22 @@ function directionBadge(ticker){
 // 조합만 해서 셋이 겹치는 종목만 상단에 별도로 모아 보여줌. 뉴스가 '우려'여도 숨기지 않고
 // 배지를 그대로 붙여서 보여줌(원칙: 데이터를 숨기지 않고 그대로 보여준 뒤 참고하게 한다).
 function buildComboPickHtml(scored){
+  // 2026-09-02 추가: 뉴스 리스크뿐 아니라 '같은 그룹 대비 크게 뒤처짐'(REL_WEAK_THRESHOLD, 5년치
+  // 검증에서 10일 승률이 낮게 나온 상태)도 같은 방식으로 tier를 낮추는 리스크 요인에 포함시킴.
+  // 근거 없는 새 규칙이 아니라 이미 renderRelStrength()에서 경고로 쓰고 있는 바로 그 기준을
+  // 재사용한 것 - '지금 사도 되나' 종합 판단에는 이미 검증된 리스크 신호를 다 모아 보여줘야
+  // 한눈에 보는 의미가 있다는 사용자 요청에 따름.
   const picks = scored
     .filter(r=>r.verdict.label!=='관망' && r.entryStat && (r.entryStat.kind==='new'||r.entryStat.kind==='cooldown'))
     .map(r=>{
       const dc = getDirectionCheck(r.ticker);
+      const rs = computeRelStrength(r);
       const isStrong = r.verdict.label==='강한 매수기회';
-      const isRisk = dc && dc.tone==='risk';
+      const isNewsRisk = dc && dc.tone==='risk';
+      const isWeakSector = !!(rs && rs.rel <= REL_WEAK_THRESHOLD);
+      const isRisk = isNewsRisk || isWeakSector;
       const tier = (isStrong && !isRisk) ? 0 : (isRisk ? 2 : 1);
-      return {r, dc, isStrong, isRisk, tier};
+      return {r, dc, rs, isStrong, isNewsRisk, isWeakSector, isRisk, tier};
     })
     .sort((a,b)=> a.tier-b.tier || b.r.score-a.r.score || (b.r.techScore||0)-(a.r.techScore||0));
 
@@ -1936,10 +1944,11 @@ function buildComboPickHtml(scored){
   if(!picks.length){
     return `<div class="combo-box combo-empty">${head}<div class="sub" style="margin-top:6px;">지금은 장기ㆍ단기 신호가 동시에 겹치는 종목이 없어요 - 흔한 일이 아니니 걱정 마시고, 아래 ①ㆍ② 목록을 참고하세요.</div></div>`;
   }
-  const chips = picks.map(({r,dc,isStrong})=>{
+  const chips = picks.map(({r,dc,rs,isStrong,isNewsRisk,isWeakSector})=>{
     const entryLabel = r.entryStat.kind==='new' ? '오늘 새 진입' : '신호 유지 중';
     const dirHtml = dc ? `<span class="dir-badge dir-${dc.tone}" title="${esc('방향성 체크(' + dc.date + '): ' + dc.headline.replace(/^\[방향성 체크\] /, '') + ' - 눌러서 06 뉴스 탭에서 근거 보기')}" onclick="event.stopPropagation();openDetailNews('${r.ticker}')">${DIR_LABEL[dc.tone]||dc.tone}</span>` : '';
-    return `<span class="rec-chip combo-chip ${isStrong?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${isStrong?'⭐ ':''}${r.ticker} <span class="score-num" title="장기 ${r.score}점 · 단기 ${r.techScore}점">${r.score}점</span> · ${entryLabel} · $${r.price.toFixed(2)}${dirHtml}</span>`;
+    const weakHtml = isWeakSector ? `<span class="dir-badge dir-risk" title="${esc('같은 그룹(' + (rs?rs.sector:'') + ') 대비 최근 20일 크게 뒤처져 있어요 - 그룹이 같이 빠진 게 아니라 이 종목만 유독 빠졌을 수 있어요(5년치 검증에서 이 상태의 신호 승률이 더 낮았음). 종목 상세에서 자세히 보기')}" onclick="event.stopPropagation();openDetail('${r.ticker}')">⚠ 그룹뒤처짐</span>` : '';
+    return `<span class="rec-chip combo-chip ${isStrong?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${isStrong?'⭐ ':''}${r.ticker} <span class="score-num" title="장기 ${r.score}점 · 단기 ${r.techScore}점">${r.score}점</span> · ${entryLabel} · $${r.price.toFixed(2)}${dirHtml}${weakHtml}</span>`;
   }).join('');
   return `<div class="combo-box">${head}<div class="rec-list" style="margin-top:8px;">${chips}</div></div>`;
 }
@@ -2418,6 +2427,13 @@ function buildAtAGlanceHtml(r){
   const fwd = r.fairValue && r.fairValue.fwd;
   const hasFwd = fwd && fwd.mid!=null;
   const belowFair = hasFwd && r.price < fwd.mid;
+  // 2026-09-02 추가: '저평가냐 아니냐'만으론 지금 사도 되는지 판단하기 부족하다는 사용자 논의에 따라,
+  // 이미 따로 계산되고 있던 두 가지 맥락 정보(EPS 컨센서스 최근 개정 방향, 같은 그룹 대비 상대강도)를
+  // 요약에 같이 묶어서 보여줌. 둘 다 새로 만든 신호가 아니라 05 전망 탭(EPS_DATA)과 이 탭 아래
+  // '같은 그룹 대비' 박스(computeRelStrength)에 이미 있는 값을 그대로 재사용한 것.
+  const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+  const rs = computeRelStrength(r);
+  const isWeakSector = !!(rs && rs.rel <= REL_WEAK_THRESHOLD);
 
   const TONE = {
     '강한 매수기회': {bg:'var(--up-bg)', border:'#f3c3bf', color:'#a8322c', head:'📈 지금 좋아 보여요'},
@@ -2432,11 +2448,13 @@ function buildAtAGlanceHtml(r){
   else if(entryStat.kind==='watch') lines.push('단기 매수 신호까진 아니지만 근접해서 지켜볼 만해요');
   else lines.push('지금은 단기 매수 신호가 없어요');
   if(hasFwd) lines.push(`계산된 적정가($${fwd.mid.toFixed(0)}) 대비 지금 가격이 <b>${belowFair?'낮은(저평가 쪽)':'높은(고평가 쪽)'}</b> 편이에요`);
+  if(eps && eps.epsNow!=null && (eps.direction==='상향' || eps.direction==='하향')) lines.push(`최근 애널리스트 EPS 전망은 <b>${esc(eps.direction)}</b> 중이에요`);
   if(dc && !isRisk) lines.push(`최근 뉴스 체크: <b>${esc(DIR_LABEL[dc.tone]||dc.tone)}</b>`);
 
-  const warnHtml = isRisk
-    ? `<div class="glance-warn">⚠️ 다만 최근 뉴스에 우려되는 부분이 있어요 - <span style="text-decoration:underline;cursor:pointer;" onclick="switchTab('${r.ticker}','06')">06 뉴스 탭에서 확인</span></div>`
-    : '';
+  const warnParts = [];
+  if(isRisk) warnParts.push(`⚠️ 다만 최근 뉴스에 우려되는 부분이 있어요 - <span style="text-decoration:underline;cursor:pointer;" onclick="switchTab('${r.ticker}','06')">06 뉴스 탭에서 확인</span>`);
+  if(isWeakSector) warnParts.push(`⚠️ 같은 그룹(${esc(rs.sector)}) 대비 최근 20일 크게 뒤처져 있어요 - 그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황일 수 있어요(자세히는 아래 '같은 그룹 대비'에서 확인)`);
+  const warnHtml = warnParts.map(w=>`<div class="glance-warn">${w}</div>`).join('');
 
   return `<div class="glance-box" style="background:${TONE.bg};border-color:${TONE.border};">
     <div class="glance-head" style="color:${TONE.color};">${TONE.head}</div>
