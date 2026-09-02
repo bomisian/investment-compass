@@ -5005,7 +5005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -7956,7 +7956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -10464,7 +10464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -12836,7 +12836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -15912,7 +15912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -16896,7 +16896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -19714,7 +19714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -22880,7 +22880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -25881,7 +25881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -28953,7 +28953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -31394,7 +31394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -33280,7 +33280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -34821,7 +34821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -34839,24 +34839,22 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TDAQ: 17% 수익률의 커버드 콜 ETF는 실제로 QQQ보다 나은 성과를 낼 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C를 찾고 있습니다.",
-            "Barry 15명의 팔로워 팔로우 요약 TappAlpha Innovation 100 Growth & Daily Income ETF는 2025년 9월 4일부터 2026년 8월 25일까지 출시된 이래 총 수익률 24.54%를 기록했으며, 이는 QQQ의 총 수익률 24.15%를 39bp만큼 앞섰습니다.",
-            "이 차이는 356일과 244개의 공유 거래 세션 가격 기록에 걸쳐 발생했으며 QQQ가 밤새 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
+            "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 17%, 24.54%, 24.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -34866,30 +34864,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "17%",
-            "24.54%",
-            "24.15%",
-            "28.17%",
-            "3.13%",
-            "$4.12",
-            "6.51%",
-            "0.83%"
-          ],
-          "sourceExcerpt": [
-            "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run | Seeking Alpha Benjamin C.",
-            "Barry 15 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poi",
-            "The difference spans 356 calendar days and 244 shared trading-session price records, and it occurred along a path where QQQ was up 28.17% overnight but down 3.13% during the regular session."
-          ],
-          "analysisUpdatedAt": 1788326515.8264134
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788349236.010013
         },
         "headlineKo": "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다."
       },
@@ -34937,7 +34923,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326516.8923242
+          "analysisUpdatedAt": 1788349237.1561158
         },
         "headlineKo": "글로벌 본드 루트 스파크 기술 매도: 화요일에 5% 하락한 5개의 나스닥 주식"
       },
@@ -34985,7 +34971,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326517.7090325
+          "analysisUpdatedAt": 1788349238.2151258
         },
         "headlineKo": "오늘의 주식 시장: S&P 500, 다우, 나스닥 100 선물 하락 트럼프가 이란이 ‘완전히 패배했다‘ 고 말한 후, Brent Tops $ 92 — CBRS, PXS, PANW, DELL in Focus (업데이트됨)"
       },
@@ -35016,24 +35002,22 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "TDAQ: 17% 수익률의 커버드 콜 ETF는 실제로 QQQ보다 나은 성과를 낼 수 있지만 장기적으로는 그렇지 않습니다 | 알파 벤자민 C를 찾고 있습니다.",
-            "Barry 15명의 팔로워 팔로우 요약 TappAlpha Innovation 100 Growth & Daily Income ETF는 2025년 9월 4일부터 2026년 8월 25일까지 출시된 이래 총 수익률 24.54%를 기록했으며, 이는 QQQ의 총 수익률 24.15%를 39bp만큼 앞섰습니다.",
-            "이 차이는 356일과 244개의 공유 거래 세션 가격 기록에 걸쳐 발생했으며 QQQ가 밤새 28.17% 상승했지만 정규 세션 동안 3.13% 하락한 경로를 따라 발생했습니다."
+            "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 17%, 24.54%, 24.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -35043,30 +35027,18 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "17%",
-            "24.54%",
-            "24.15%",
-            "28.17%",
-            "3.13%",
-            "$4.12",
-            "6.51%",
-            "0.83%"
-          ],
-          "sourceExcerpt": [
-            "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run | Seeking Alpha Benjamin C.",
-            "Barry 15 Followers Follow Summary The TappAlpha Innovation 100 Growth & Daily Income ETF has posted a 24.54% total return since its inception on September 4, 2025 through August 25, 2026, beating QQQ’s total return of 24.15% by 39 basis poi",
-            "The difference spans 356 calendar days and 244 shared trading-session price records, and it occurred along a path where QQQ was up 28.17% overnight but down 3.13% during the regular session."
-          ],
-          "analysisUpdatedAt": 1788326515.8264134
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788349236.010013
         }
       },
       {
@@ -35114,7 +35086,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326516.8923242
+          "analysisUpdatedAt": 1788349237.1561158
         }
       },
       {
@@ -35162,7 +35134,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326517.7090325
+          "analysisUpdatedAt": 1788349238.2151258
         }
       },
       {
@@ -36487,17 +36459,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788326507.0994282,
-    "_updated_label": "2026-09-02 14:21",
+    "_fetched_at": 1788349233.0413587,
+    "_updated_label": "2026-09-02 20:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788326507.0994282,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
-    "_last_success_at": 1788326507.0994282,
+    "_last_success_at": 1788349233.0413587,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -38840,7 +38812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -40902,7 +40874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -42964,7 +42936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -43037,7 +43009,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Palantir Technologies ( PLTR -3.47% ) is one of the most talked-about names in the defense space right now."
           ],
-          "analysisUpdatedAt": 1788326523.9501607
+          "analysisUpdatedAt": 1788349243.8475833
         },
         "headlineKo": "Palantir는 완벽함을 위해 가격을 책정합니다. 이 2가지 방산주는 비관론으로 가격이 책정되었습니다."
       },
@@ -43085,7 +43057,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326526.0948155
+          "analysisUpdatedAt": 1788349246.3376698
         },
         "headlineKo": "AI 모델이 상품화됨에 따라 Palantir는 자사의 온톨로지가 새로운 해자라고 확신합니다."
       },
@@ -43133,7 +43105,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326528.2422025
+          "analysisUpdatedAt": 1788349248.3312774
         },
         "headlineKo": "Palantir, 미 육군에 TITAN 시스템 8대 납품 예정"
       },
@@ -43214,7 +43186,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Palantir Technologies ( PLTR -3.47% ) is one of the most talked-about names in the defense space right now."
           ],
-          "analysisUpdatedAt": 1788326523.9501607
+          "analysisUpdatedAt": 1788349243.8475833
         }
       },
       {
@@ -43262,7 +43234,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326526.0948155
+          "analysisUpdatedAt": 1788349246.3376698
         }
       },
       {
@@ -43310,7 +43282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326528.2422025
+          "analysisUpdatedAt": 1788349248.3312774
         }
       },
       {
@@ -44881,17 +44853,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788326507.0994282,
-    "_updated_label": "2026-09-02 14:22",
+    "_fetched_at": 1788349233.0413587,
+    "_updated_label": "2026-09-02 20:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788326507.0994282,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
-    "_last_success_at": 1788326507.0994282,
+    "_last_success_at": 1788349233.0413587,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -46226,7 +46198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -47359,7 +47331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -47418,7 +47390,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326535.7892368
+          "analysisUpdatedAt": 1788349253.4935913
         },
         "headlineKo": "Marvell Technology(MRVL)가 AI 포토닉스에 더 깊이 박차를 가하는 이유는 무엇입니까?"
       },
@@ -47465,7 +47437,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326538.0183969
+          "analysisUpdatedAt": 1788349255.6191642
         },
         "headlineKo": "Marvell Technology(MRVL)는 수익 증가 전망 후 공정 가치보다 25% 낮을 수 있습니다."
       },
@@ -47512,7 +47484,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326538.7319868
+          "analysisUpdatedAt": 1788349256.3094828
         },
         "headlineKo": "Marvell의 $ 120B AI 거래는 예기치 않게"
       },
@@ -47579,7 +47551,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326535.7892368
+          "analysisUpdatedAt": 1788349253.4935913
         }
       },
       {
@@ -47626,7 +47598,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326538.0183969
+          "analysisUpdatedAt": 1788349255.6191642
         }
       },
       {
@@ -47673,7 +47645,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326538.7319868
+          "analysisUpdatedAt": 1788349256.3094828
         }
       },
       {
@@ -50275,17 +50247,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788326507.0994282,
-    "_updated_label": "2026-09-02 14:22",
+    "_fetched_at": 1788349233.0413587,
+    "_updated_label": "2026-09-02 20:40",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788326507.0994282,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
-    "_last_success_at": 1788326507.0994282,
+    "_last_success_at": 1788349233.0413587,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -51391,7 +51363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -52660,7 +52632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -53902,7 +53874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -56672,7 +56644,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -57873,7 +57845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -58932,7 +58904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -59927,7 +59899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -61057,7 +61029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -62436,7 +62408,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -63341,7 +63313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -64440,7 +64412,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -65321,7 +65293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -66182,7 +66154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -66773,7 +66745,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788341670.1721408,
     "_earnings_status": "ok",
@@ -67853,7 +67825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -68233,7 +68205,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -68292,7 +68264,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326546.2197425
+          "analysisUpdatedAt": 1788349272.8809996
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -68340,7 +68312,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326548.0087497
+          "analysisUpdatedAt": 1788349275.0392888
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -68406,7 +68378,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326550.0897546
+          "analysisUpdatedAt": 1788349276.8968885
         },
         "headlineKo": "Seagate Technology Holdings (STX), 투자자들의 요청에 따라 AI Summit으로 향하다"
       },
@@ -68473,7 +68445,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326546.2197425
+          "analysisUpdatedAt": 1788349272.8809996
         }
       },
       {
@@ -68521,7 +68493,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326548.0087497
+          "analysisUpdatedAt": 1788349275.0392888
         }
       },
       {
@@ -68587,7 +68559,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326550.0897546
+          "analysisUpdatedAt": 1788349276.8968885
         }
       },
       {
@@ -69278,17 +69250,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788326507.0994282,
-    "_updated_label": "2026-09-02 14:22",
+    "_fetched_at": 1788349233.0413587,
+    "_updated_label": "2026-09-02 20:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788326507.0994282,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
-    "_last_success_at": 1788326507.0994282,
+    "_last_success_at": 1788349233.0413587,
     "_collection_status": "ok"
   },
   "EME": {
@@ -69343,7 +69315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326555.4568162
+          "analysisUpdatedAt": 1788349281.9314895
         },
         "headlineKo": "EMCOR 그룹 (EME), 데이터 센터 수요와 공정 가치에 다시 집중"
       },
@@ -69390,7 +69362,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326557.4948347
+          "analysisUpdatedAt": 1788349284.0635934
         },
         "headlineKo": "데이터 센터 수요에 대한 지침이 제기된 후 EMCOR 그룹 (EME) 의 불 사례가 변경될 수 있음"
       },
@@ -69438,7 +69410,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326559.706579
+          "analysisUpdatedAt": 1788349286.5904777
         },
         "headlineKo": "EMCOR vs. Granite: 지금 구매하는 것이 더 나은 건설 재고는 무엇입니까?"
       },
@@ -69505,7 +69477,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326555.4568162
+          "analysisUpdatedAt": 1788349281.9314895
         }
       },
       {
@@ -69552,7 +69524,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326557.4948347
+          "analysisUpdatedAt": 1788349284.0635934
         }
       },
       {
@@ -69600,7 +69572,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788326559.706579
+          "analysisUpdatedAt": 1788349286.5904777
         }
       },
       {
@@ -70009,17 +69981,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788326507.0994282,
-    "_updated_label": "2026-09-02 14:22",
+    "_fetched_at": 1788349233.0413587,
+    "_updated_label": "2026-09-02 20:41",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788326507.0994282,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
-    "_last_success_at": 1788326507.0994282,
+    "_last_success_at": 1788349233.0413587,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -71085,7 +71057,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -71205,9 +71177,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
-    "_last_attempt_at": 1788347252.1598117,
+    "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -71363,7 +71335,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 20:09"
+      "updated": "2026-09-02 20:41"
     },
     "_fetched_at": 1788345392.6233885,
     "_updated_label": "2026-09-02 19:36",
