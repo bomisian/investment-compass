@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 90.68000030517578,
+      "current": 90.62999725341797,
       "prevClose": 90.22000122070312,
-      "changeAbs": 0.45999908447265625,
-      "changePct": 0.5098637533238013,
-      "pctRank": 84.24821002386635,
+      "changeAbs": 0.40999603271484375,
+      "changePct": 0.4544402872616681,
+      "pctRank": 84.1686555290374,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -19.716686361019853,
-      "ma20": 84.05350036621094,
-      "ma60": 80.26716664632161,
-      "chg1m": 14.910003662109375,
-      "chg3m": -5.339996337890625,
-      "chg1mPct": 19.677978517468716,
-      "chg3mPct": -5.561337767736972,
+      "drawdown1y": -19.760956439026778,
+      "ma20": 84.05100021362304,
+      "ma60": 80.26633326212566,
+      "chg1m": 14.860000610351562,
+      "chg3m": -5.3899993896484375,
+      "chg1mPct": 19.611985309110317,
+      "chg3mPct": -5.61341343270881,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.55500030517578,
+      "current": 99.56400299072266,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.11499786376953125,
-      "changePct": -0.11537861531270874,
-      "pctRank": 31.528662420382165,
+      "changeAbs": -0.10599517822265625,
+      "changePct": -0.10634612237374527,
+      "pctRank": 31.60828025477707,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0224390245367485,
-      "ma20": 99.46275024414062,
-      "ma60": 100.31625035603841,
-      "chg1m": -0.404998779296875,
-      "chg3m": 0.33499908447265625,
-      "chg1mPct": -0.40516084734517144,
-      "chg3mPct": 0.3376326147461846,
+      "drawdown1y": -2.0135789856697173,
+      "ma20": 99.46320037841797,
+      "ma60": 100.31640040079752,
+      "chg1m": -0.39599609375,
+      "chg3m": 0.34400177001953125,
+      "chg1mPct": -0.3961545592005835,
+      "chg3mPct": 0.3467060731579111,
       "lastDate": "2026-09-02",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4437.10009765625,
+      "current": 4434.2998046875,
       "prevClose": 4348.0,
-      "changeAbs": 89.10009765625,
-      "changePct": 2.0492202772826587,
-      "pctRank": 91.01034208432776,
+      "changeAbs": 86.2998046875,
+      "changePct": 1.9848161151678934,
+      "pctRank": 90.85123309466985,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.57076979674136,
-      "ma20": 4453.7550048828125,
-      "ma60": 4222.441674804688,
-      "chg1m": 341.7001953125,
-      "chg3m": 0.39990234375,
-      "chg1mPct": 8.343512317733586,
-      "chg3mPct": 0.009013508376619819,
+      "drawdown1y": -16.623422719051995,
+      "ma20": 4453.614990234375,
+      "ma60": 4222.395003255208,
+      "chg1m": 338.89990234375,
+      "chg3m": -2.400390625,
+      "chg1mPct": 8.275135772450488,
+      "chg3mPct": -0.05410306126918562,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html",
+      "datetime": 1788382777,
+      "headlineKo": "NBA, 카와이 레너드 연봉 상한선 조사에서 클리퍼스 구단주 발머를 1년 정직"
+    },
+    {
+      "headline": "J&J's run to record highs hasn't reached the finish line yet. Here are the key drivers",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/02/jjs-run-to-record-highs-hasnt-reached-the-finish-line-yet-here-are-the-key-drivers.html",
+      "datetime": 1788382388,
+      "headlineKo": "J&J의 최고 기록 달성은 아직 결승선에 도달하지 못했습니다. 주요 동인은 다음과 같습니다."
+    },
+    {
       "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
@@ -226,11 +240,32 @@ const MARKET_DATA = {
       "headlineKo": "약한 지침이 실적을 가리면서 Broadcom의 주가는 5% 하락"
     },
     {
+      "headline": "Wall St ends higher as stocks reclaim some shine - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo?oc=5",
+      "datetime": 1788380374,
+      "headlineKo": "주식이 다시 빛을 발하면서 월스트리트가 상승 마감했습니다 - Reuters"
+    },
+    {
+      "headline": "Trump says renewed US campaign against Iran won't last long - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZkprNWZWZmliWmh1WXZLMk5HVUY0VDVUWkE1dU15a2xyeVJkWDNsS25aQnRqUVo1Zmh4OUxCMkk1RkFHRThST0JZQlpHNGJnSjB2aGpoanJWWXNBakVMcEhMUzNsSW5iZUM2SEJ0VXZuclFLM0laLXlGdHdQRVNNZGdwdmZ6YmhzSDhWNFZWRFR4S0pIWWVIb2pxUG4yalQ5cXhTU1dR?oc=5",
+      "datetime": 1788379861,
+      "headlineKo": "트럼프 \"이란에 대한 미국의 새로운 캠페인은 오래 가지 않을 것\" - 로이터"
+    },
+    {
       "headline": "Judge refuses to block Arkansas news reporting on Google data center energy documents",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/google-data-center-arkansas-entergy-court.html",
       "datetime": 1788379050,
       "headlineKo": "판사는 Google 데이터 센터 에너지 문서에 대한 아칸소 뉴스 보도 차단을 거부했습니다."
+    },
+    {
+      "headline": "Stocks rise after recent declines; Japanese yen jumps against US dollar - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+      "datetime": 1788366494,
+      "headlineKo": "최근 하락 이후 주가는 상승합니다. 일본 엔화가 미국 달러 대비 급등 - Reuters"
     },
     {
       "headline": "We're starting positions in 2 more defensive stocks to balance our AI exposure",
@@ -247,6 +282,13 @@ const MARKET_DATA = {
       "headlineKo": "Broadcom의 향후 수입에서 지켜봐야 할 사항 및 Nvidia가 운영되는 이유"
     },
     {
+      "headline": "Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMDJDS3ZmaHY1S0hTTlJiUUVPQ081YTU5bWV3NmJJLTRTNDdNQUhKNWdFTXd4TzVVRkRiRXd6SV9xZ1hmbHVxMFVGOUhXMkJLTkdaN0VWa3g3aEZ1aWZDbnlNTkRoUk5zY2ltOW9PNVk1SlFJVU1mNzZFSE9GTGpGbmhwdW1sMFNuTFhwcTVmSlFUNUIwM3lOV3ZpQ0NCX3B2TmMwbXZB?oc=5",
+      "datetime": 1788364372,
+      "headlineKo": "트럼프 보좌관들은 이란 전쟁에서 '조용함'을 추구하지만 11월 선거 이후 공격이 강화될 수 있다고 말했습니다 - 로이터"
+    },
+    {
       "headline": "These women were laid off while on maternity leave. Yes, it's legal, and probably more common than you thought",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/getting-laid-off-on-maternity-leave.html",
@@ -254,63 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "이 여성들은 출산 휴가 중에 해고되었습니다. 예, 합법적이며 아마도 생각보다 더 일반적일 것입니다."
     },
     {
-      "headline": "Private equity funds are losing to the S&P 500 of late—why investments for the wealthy aren't necessarily better",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/why-funds-meant-for-wealthier-investors-dont-always-perform-better.html",
-      "datetime": 1788358128,
-      "headlineKo": "사모펀드가 최근 S&P 500에 지고 있습니다. 부유한 사람들을 위한 투자가 반드시 더 나은 것은 아닌 이유"
-    },
-    {
-      "headline": "American Airlines continues premium push with redesigned Boeing planes",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html",
-      "datetime": 1788357601,
-      "headlineKo": "아메리칸 항공, 재설계된 보잉 항공기로 프리미엄 추진 지속"
-    },
-    {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Wednesday",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/jim-cramers-top-10-things-to-watch-in-the-stock-market-wednesday.html",
-      "datetime": 1788353488,
-      "headlineKo": "짐 크레이머가 수요일 주식시장에서 주목해야 할 10가지"
-    },
-    {
-      "headline": "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
-      "datetime": 1788351005,
-      "headlineKo": "애플 주가는 지난 20년 동안 해보지 못한 일을 하고 있다. 무슨 일이 일어나고 있나요?"
-    },
-    {
-      "headline": "OpenAI says Astra AI model is its first that crosses 'Critical' cybersecurity capability",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/01/open-ai-astra-cyber-model.html",
-      "datetime": 1788293555,
-      "headlineKo": "OpenAI는 Astra AI 모델이 '중요한' 사이버 보안 기능을 넘나드는 최초의 모델이라고 말합니다."
-    },
-    {
-      "headline": "Stan Kroenke buys controlling stake in MLB's Los Angeles Angels",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/01/stan-kroenke-controlling-stake-los-angeles-angels.html",
-      "datetime": 1788291610,
-      "headlineKo": "스탠 크론케(Stan Kroenke), MLB 로스앤젤레스 에인절스 지배 지분 매입"
-    },
-    {
-      "headline": "We're sitting on more cash than at any time this year. Here's why",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/01/were-sitting-on-more-cash-than-at-any-time-this-year-heres-why.html",
-      "datetime": 1788285734,
-      "headlineKo": "우리는 올해 어느 때보다 더 많은 현금을 보유하고 있습니다. 이유는 다음과 같습니다."
+      "headline": "Iran blacklists more ships trying to sail through Hormuz, govt website shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVmhMd2p2Z3VsWGROU3BobXFXeEV3ZVZwZ3JLbzNUWUtIY1pwUTljaEFMWHBOV0RJamJuNXlrd0dRNnJQY3I3S1ZTenZtSzhoYm11WTBKUkhsTkJUb3hkVVNVUXdsTTZxYkk5c2VsS3ZBeDVNTjFPTnlsQ0RXb0N1ZHFJQnV2VnZPSk5ua2ZUMG9qajVYZF9rUFhEZWlZZGV0bFFPVS1Ud09DZlpRYl8xWnNVYTk3ZmtCaHRSbnY3Mm1pQQ?oc=5",
+      "datetime": 1788363129,
+      "headlineKo": "이란 정부 웹사이트에 따르면 호르무즈를 통과하려는 선박이 더 많이 블랙리스트에 올라 있다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 33.2285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788382860.7254102,
-  "_updated_label": "2026-09-03 06:01",
-  "_last_attempt_at": 1788382860.7254102,
-  "_last_success_at": 1788382860.7254102,
+  "_fetched_at": 1788386438.4409013,
+  "_updated_label": "2026-09-03 07:01",
+  "_last_attempt_at": 1788386438.4409013,
+  "_last_success_at": 1788386438.4409013,
   "_collection_status": "ok",
   "_collection_errors": []
 };
