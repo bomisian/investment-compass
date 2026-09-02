@@ -63,7 +63,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 4430136,
     "52WeekHigh": 344.5699,
     "52WeekLow": 225.95,
-    "beta": 1.0859048,
+    "beta": 1.0926106,
     "avgPe3Y": 32.996199999999995,
     "peDeviation3Y": 4.135627738951768,
     "perBandYears": 25,
@@ -73,8 +73,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 70.25,
     "name": "Apple Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788318829.4782286,
-    "_updated_label": "2026-09-02 12:13"
+    "_fetched_at": 1788392448.4758213,
+    "_updated_label": "2026-09-03 08:40"
   },
   "GOOGL": {
     "forwardPE": 19.28932,
@@ -176,7 +176,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 2859775.5,
     "52WeekHigh": 287.2,
     "52WeekLow": 196,
-    "beta": 1.4652463,
+    "beta": 1.502895,
     "avgPe3Y": 40.77086666666667,
     "peDeviation3Y": -48.15047672929854,
     "perBandYears": 20,
@@ -186,8 +186,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.19,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788318829.4782286,
-    "_updated_label": "2026-09-02 12:13"
+    "_fetched_at": 1788392448.4758213,
+    "_updated_label": "2026-09-03 08:40"
   },
   "TSM": {
     "forwardPE": 21.36449,
@@ -824,7 +824,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 273198.94,
     "52WeekHigh": 307.3743,
     "52WeekLow": 83.22,
-    "beta": 1.4508892,
+    "beta": 1.4596123,
     "avgPe3Y": 50.367533333333334,
     "peDeviation3Y": 12.282449143826774,
     "perBandYears": 26,
@@ -834,8 +834,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 41.85,
     "name": "KLA Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1788318829.4782286,
-    "_updated_label": "2026-09-02 12:13"
+    "_fetched_at": 1788392448.4758213,
+    "_updated_label": "2026-09-03 08:40"
   },
   "SNDK": {
     "forwardPE": 6.50255,
@@ -1069,7 +1069,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 98724.2,
     "52WeekHigh": 412.7,
     "52WeekLow": 228.63,
-    "beta": 1.1270022,
+    "beta": 1.1267521,
     "avgPe3Y": 29.746333333333336,
     "peDeviation3Y": -4.217438563856614,
     "perBandYears": 3,
@@ -1077,8 +1077,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.690000000000001,
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788318829.4782286,
-    "_updated_label": "2026-09-02 12:14"
+    "_fetched_at": 1788392448.4758213,
+    "_updated_label": "2026-09-03 08:40"
   },
   "VST": {
     "forwardPE": 14.48324,

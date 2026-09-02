@@ -10,6 +10,25 @@ const BUSINESS_NOTES = {
     newsLog: [
       {
         date: "2026-09-01",
+        headline: "Anthropic, NVIDIA 지원 클라우드 Lambda와 6년 $35B 거래 체결 - AI 모델 추론용 대규모 인프라 확충",
+        tone: "positive",
+        importance: "high",
+        horizon: "중장기(AI 인프라 투자 흐름, 데이터센터 수요 확인, 6년 계약)",
+        facts: ["Anthropic이 2026-09-01 NVIDIA 지원 클라우드 서비스 제공사 Lambda와 6년 계약 기반 약 $35B 규모 클라우드 컴퓨팅 거래를 체결했다고 Bloomberg·WSJ 등이 보도했다.", "이 계약은 Anthropic의 Claude 등 AI 모델의 추론(inference) 작업용 데이터센터 인프라를 급속 확충하는 것을 목표로 한다.", "인프라는 미국 텍사스 Nueces County에 위치하며, Bitcoin 채굴에서 데이터센터로 전환 중인 Hut 8이 건설·운영한다.", "NVIDIA는 이 시설의 임차료를 담당하고 Lambda에 칩을 공급하며, Lambda가 이를 Anthropic에 재판매하는 구조다.", "Anthropic과 Lambda는 아직 공식 발표를 하지 않았으며, 정확한 계약 내용과 향후 일정은 공개되지 않음.", "이는 OpenAI-Microsoft, Google-TPU/GCP, Amazon-Trainium/Inferentia 등 Big Tech의 AI 인프라 수직통합 움직임과 유사한 흐름으로, AI 모델 개발사들이 클라우드 인프라 의존도를 높이고 있다는 신호다."],
+        why: ["AI 모델의 추론 비용이 전체 운영비에서 점점 더 큰 비중을 차지하는 상황에서, Anthropic이 대규모 장기 계약으로 인프라를 자체 확보하려는 움직임은 'AI 생산 비용 절감 경쟁'의 가시화를 의미한다.", "NVIDIA가 직접 시설 임차료를 담당하고 칩을 공급하는 구조는 NVIDIA의 AI 데이터센터 인프라 사업이 단순 '칩 판매'를 넘어 '전체 시스템 솔루션'으로 진화하고 있음을 시사한다.", "$35B라는 규모는 6년 계약 기준이지만, Anthropic 같은 AI 모델사가 한 업체에 이 정도 규모를 약정한다는 것은 (1) 추론 수요가 매우 크다는 신호, (2) AI 인프라 투자 흐름이 계속될 것이라는 시장 신호로 해석된다.", "워치리스트의 인프라·전력 관련 종목(ETN, PWR, HUBB, VST 등)과 반도체·AI 서버 종목(NVDA, AVGO, AMAT 등)이 이 대규모 투자 사이클에서 수혜를 받을 가능성이 높다."],
+        beginner: ["ChatGPT 같은 AI를 사용할 때 두 가지 작업이 필요해요:", "1) 처음 학습할 때 - '엄청 비싼' 작업", "2) 사용자가 질문할 때마다 답변하는 것 - 학습보다는 싸지만 자주 일어나는 작업", "Anthropic은 (2번) 답변 작업을 많은 사람들이 하고 있으니, 이걸 빠르고 저렴하게 처리할 수 있는 자기만의 컴퓨터 센터를 6년 동안 빌리기로 계약한 거예요.", "규모가 아주 커서 ($35B) 이건 'AI 서비스를 하려는 회사들이 컴퓨터 인프라에 엄청 많이 투자하고 있다'는 신호가 되고, 이는 반도체·전력·컴퓨터 장비 만드는 회사들이 당분간 계속 장사가 잘될 거란 뜻이에요."],
+        watch: ["Anthropic의 실제 Claude 사용자 수·트래픽 증가 추이 및 인프라 투자 강도 변화", "Lambda 및 Hut 8의 추가 계약 체결 여부 (다른 AI 모델사 고객 확보)", "NVIDIA의 AI 데이터센터 인프라 사업(칩 판매 이외의 수익)에 대한 향후 공시·가이던스", "6년 계약 기간 동안 GPU 기술 진화·가격 하락이 실제 비용 절감으로 이어질지 여부"],
+        interpretation: "이 계약은 단순 '클라우드 구매'가 아니라 'Big Tech의 AI 인프라 수직통합' 추세의 연장선으로 봐야 한다. OpenAI가 Microsoft와 수십억 규모 계약을 했고, Google/Amazon도 자체 AI 칩 투자를 늘리고 있는 가운데, Anthropic이 NVIDIA-Lambda를 통해 인프라 확보에 나선 것은 (1) AI 추론 수요가 지속될 것이라는 시장 신호, (2) NVIDIA의 '칩 공급자'에서 '인프라 사업자'로의 역할 확대 신호, (3) 향후 수년간 데이터센터 투자 사이클의 지속 신호를 모두 담고 있다.",
+        decision: "이 뉴스 자체로 NVDA를 당장 매수할 근거는 아니지만, NVDA의 '장기 수익 엔진'으로서의 입지 확인 및 AI 인프라 투자 사이클의 지속성을 재확인하는 긍정적 신호로 기록할 것. 반도체·전력인프라 종목(AVGO, AMAT, ETN, PWR 등)도 관심 주시 대상.",
+        confidence: "계약 발표 사실과 규모($35B)는 Bloomberg·WSJ 등 신뢰도 높은 매체가 보도했으나, Anthropic과 Lambda가 공식 발표하지 않아 세부 조건(정산 방식, 기간 중 가격 조정 여부 등)은 추측 단계. 계약 존재 사실과 규모는 신뢰도 높음.",
+        sources: [
+          { title: "Anthropic Seals $35 Billion Cloud Deal With Nvidia-Backed Lambda (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-08-31/anthropic-seals-35-billion-cloud-deal-with-nvidia-backed-lambda" },
+          { title: "Anthropic signs $35 billion cloud deal with Nvidia-backed Lambda (Yahoo Finance/WSJ)", url: "https://finance.yahoo.com/technology/ai/articles/anthropic-signs-35-billion-lambda-144113886.html" },
+          { title: "Anthropic inks $35B deal with Nvidia-backed cloud provider Lambda (CNBC)", url: "https://www.cnbc.com/video/2026/09/01/anthropic-inks-35b-deal-with-nvidia-backed-cloud-provider-lambda-report.html" },
+        ],
+      },
+      {
+        date: "2026-09-01",
         headline: "글로벌 국채금리 급등 - 미 10년물 4.79%(2025년 1월來 최고), 일본·독일 10년물도 수십년래 최고, 유가 $92 돌파에 나스닥 -1.03% 이틀 연속 하락",
         tone: "risk",
         importance: "medium",
@@ -160,6 +179,26 @@ const BUSINESS_NOTES = {
   QCOM: {
     newsLog: [
       {
+        date: "2026-09-02",
+        headline: "Qualcomm, AI 칩 설계사 Tenstorrent 인수 협상 진행 중 - $8~10B 규모 (RISC-V 데이터센터 전략 강화)",
+        tone: "positive",
+        importance: "high",
+        horizon: "중기(데이터센터 사업 다각화 신호, 반도체 경쟁 구도 변화, 1~2년 통합)",
+        facts: ["Qualcomm이 AI 칩 설계 스타트업 Tenstorrent를 인수하는 것을 검토 중이며, 거래 규모는 $8~10B 범위로 예상된다고 The Information·Reuters 등이 2026-09-02 근처에 보도했다.", "협상은 진행 중(advanced talks)이나, 양사 모두 아직 공식 확인 없음. Tenstorrent는 '코멘트 없음' 입장이고, Qualcomm은 '루머에 코멘트하지 않는다'고 했다.", "Tenstorrent는 2016년 설립되었으며, Mobileye 창업자 Amnon Shashua의 지분 참여로 알려져 있다.", "Tenstorrent의 주요 기술은 RISC-V 기반 확장성 높은 AI 가속기 설계로, 엔비디아 GPU 중심의 시장에서 '오픈 표준' 대안을 제공한다.", "협상 이전에 Qualcomm은 Investor Day(2026-06-24)에서 데이터센터 CPU 'Dragonfly C1000'을 공개했으며, Meta가 2028년 양산 시 사용하기로 계약했다."],
+        why: ["Qualcomm의 핵심 고객이었던 Apple이 자체 모뎀(C1 시리즈)으로 전환 중인 상황에서, QCOM은 매출 대체 사업으로 '자동차'와 '데이터센터'에 투자하고 있다. 이 인수는 그 데이터센터 전략의 가속화를 의미한다.", "Tenstorrent의 RISC-V 기술 인수를 통해 Qualcomm은 엔비디아 중심의 CUDA 생태계를 우회할 수 있는 기술 자산을 획득한다. 즉, '엔비디아 종속 회피'라는 전략적 가치가 크다.", "$8~10B 규모는 Qualcomm이 이 인수를 '미래 성장 동력' 수준으로 평가한다는 뜻이며, 단순 기술 추가가 아니라 'AI 데이터센터 시장 진출'의 신호다.", "시장 측면에서, Tenstorrent 인수는 '엔비디아 이외의 AI 칩 대안'을 찾는 Big Tech와 엔터프라이즈의 수요를 반영한다. 앞서 OpenAI-Broadcom 협업, Google TPU, Amazon Trainium 등이 모두 '엔비디아 의존도 감소' 전략을 펼쳤기 때문이다."],
+        beginner: ["Qualcomm은 원래 휴대폰용 칩(모뎀)을 주로 만드는 회사였는데, 최근 애플이 자기 칩을 써서 주문이 줄고 있어요.", "그래서 새로운 사업을 찾고 있는데, '자동차', '데이터센터' 이 두 군데에 집중하고 있어요.", "이번 인수는 'Tenstorrent'라는 회사를 매수해서 'AI를 돌리는 칩 설계' 기술을 빨리 확보하려는 거예요.", "왜냐하면 엔비디아 칩이 너무 비싸고 구하기도 어려워서, 다른 좋은 AI 칩을 찾는 고객(Meta, Google 등)들이 많아졌기 때문이에요.", "돈은 8~10조 정도(약 $8~10B) 들 것으로 예상되는데, Qualcomm이 이 정도 큰 돈을 들인다는 건 '이 사업이 정말 중요하다'는 신호예요."],
+        watch: ["Qualcomm의 실제 인수 계약 체결 일정 및 규제 승인 여부", "Tenstorrent 기술의 엔비디아 대비 성능·가격 경쟁력 (실제 벤치마크 공개 여부)", "Meta의 Dragonfly C1000 사용 계획 실현 여부 (2028년 양산 시작 관련)", "AMD, Broadcom 등 다른 반도체사의 유사 AI 칩 진출 경쟁 추이", "Qualcomm의 다음 분기(Q4 FY27) 실적 콜에서 데이터센터 사업 진행 현황·가이던스"],
+        interpretation: "이 인수는 Qualcomm의 '사업 구조 전환'을 나타낸다. Apple 의존도 감소(향후 최대 50% 축소)를 데이터센터·자동차 성장으로 메우겠다는 전략이 구체화되는 모습이다. RISC-V 기반 Tenstorrent 인수를 통해 Qualcomm은 (1) 엔비디아 CUDA 생태계 탈출 경로 확보, (2) Meta·Amazon 등 Big Tech 고객 확보 가능성, (3) 향후 2~3년 내 AI 데이터센터 시장 진입 기반 마련을 노린다. 다만 아직 초기 단계(협상 단계)이고 기술 통합·시장 진출까지는 시간이 필요하므로, 실제 수익화까지는 1~2년 이상 걸릴 것으로 예상된다.",
+        decision: "이 인수는 QCOM의 중기 전략 신호로 긍정적이나, 아직 '협상 단계'이고 실제 매출 기여까지는 시간이 필요하다. QCOM 자체가 Apple 매출 손실을 빨리 메워야 하는 상황에서, 이 인수가 단기 실적을 개선할 가능성은 낮다. 따라서 지금은 '향후 성장성 확인' 수준으로만 기록하고, 계약 체결·기술 공개 이후 실제 평가 여부를 재판단하는 것이 안전.",
+        confidence: "인수 협상 진행과 예상 규모($8~10B)는 The Information 등 신뢰도 높은 정보사가 보도했으나, 양사 공식 발표가 없어 최종 여부·조건은 미확정. 협상이 결렬될 가능성도 존재함(신뢰도 70% 정도).",
+        sources: [
+          { title: "Qualcomm in talks to acquire AI chipmaker Tenstorrent, The Information reports (Reuters/TradingView)", url: "https://www.tradingview.com/news/reuters.com,2026:newsml_L4N42N1X5:0-qualcomm-in-talks-to-buy-tenstorrent-the-information-reports/" },
+          { title: "Qualcomm Is Reportedly Chasing Tenstorrent In A Multibillion (Simply Wall St)", url: "https://simplywall.st/stocks/us/semiconductors/nasdaq-qcom/qualcomm/news/qualcomm-qcom-is-reportedly-chasing-tenstorrent-in-a-multibi" },
+          { title: "Qualcomm in talks to buy Tenstorrent to expand AI chip capabilities (The Information)", url: "https://www.theinformation.com/articles/qualcomm-talks-buy-tenstorrent-expand-ai-chip-capabilities" },
+          { title: "Qualcomm considering acquiring AI chipmaker Tenstorrent for up to $10 billion (Yahoo Finance)", url: "https://finance.yahoo.com/technology/ai/articles/qualcomm-talks-acquire-ai-chip-230401789.html" },
+        ],
+      },
+      {
         date: "2026-08-26",
         headline: "[방향성 체크] 자동차·AI 데이터센터 성장 vs 휴대폰(Apple) 매출 축소 - 상반된 신호 공존",
         importance: "medium",
@@ -269,6 +308,26 @@ const BUSINESS_NOTES = {
       {title:"NVIDIA Q1 FY 2026 Revenue Jumps 69% Despite China Export Setback (Futurum Group)", url:"https://futurumgroup.com/insights/nvidia-q1-fy-2026-revenue-jumps-69-despite-china-export-setback/"},
     ],
     newsLog: [
+      {
+        date: "2026-09-02",
+        headline: "NVIDIA, 오픈소스 AI 플랫폼 Hugging Face를 $12.9~14B에 인수 예정 - 이번 주 서명 목표 (1B 직원 유지 패키지 포함)",
+        tone: "positive",
+        importance: "high",
+        horizon: "중장기(AI 생태계 통합, 데이터센터+소프트웨어 수직통합 신호, 향후 1~2년 통합 효과)",
+        facts: ["NVIDIA가 오픈소스 AI 모델 저장소 Hugging Face를 인수하기로 합의했으며, 규모는 $12.9B 또는 $14B(Bloomberg)로 보도되고 있다.", "NVIDIA 역사상 최대 규모 인수합병(M&A) 중 하나가 될 전망이며, 합의 체결은 2026년 9월 초 이번 주가 목표다.", "계약에는 Hugging Face 직원 유지를 위해 약 $1B의 인센티브 패키지(리텐션 보너스)가 포함될 것으로 예상된다.", "Hugging Face는 사용자 60만 명 이상, 모델 60만 개 이상을 보유한 AI 커뮤니티로, 기업 및 개발자들이 오픈소스 AI 모델을 공유·활용하는 핵심 플랫폼이다.", "NVIDIA와 Hugging Face는 아직 공식 발표를 하지 않았으며, 보도는 주로 The Information·Bloomberg 등 정보사 기반이다."],
+        why: ["NVIDIA가 지금까지 '칩 설계·제조'에 집중했다면, 이 인수는 NVIDIA가 'AI 소프트웨어 스택 전체'로 사업을 확장하려는 전략 신호다. 즉 '칩만 팔기'에서 '칩+소프트웨어+개발자 커뮤니티'의 일원화 방향으로 나아가는 것이다.", "Hugging Face의 60만+ 모델과 60만+ 사용자 커뮤니티는 NVIDIA GPU 생태계에 '잠금 효과(lock-in effect)'를 강화하는 자산이다. 더 많은 개발자가 Hugging Face를 통해 NVIDIA GPU에 최적화된 모델을 배포하게 되고, 이는 NVIDIA 칩 수요를 장기적으로 견고히 한다.", "$12.9~14B라는 규모가 큰 이유는, NVIDIA가 이 인수를 통해 'AI 표준 플랫폼'의 패권을 선점하려는 의도를 보여주기 때문이다. OpenAI가 ChatGPT 앱스토어 전략을 추진했듯이, NVIDIA도 이제 'NVIDIA 칩 기반 AI 모델 마켓플레이스' 구축을 목표로 하는 것으로 해석된다.", "시장 측면에서, NVIDIA의 인수 발표는 NVIDIA의 '성장 경로 재확인' 신호로도 작용할 수 있다. 최근 AI 반도체 성장률 둔화 우려 속에서, NVIDIA가 소프트웨어·플랫폼 수익화로 '칩 의존도 분산'을 시도한다는 메시지를 전달한다."],
+        beginner: ["NVIDIA는 지금까지 AI를 돌리는 '컴퓨터 칩'을 만들어 팔았어요.", "Hugging Face는 '사람들이 AI 모델을 만들고 공유하고 다운로드하는 커뮤니티 사이트' 같은 거고, 지금은 별도 회사예요.", "NVIDIA가 이걸 인수하면, Hugging Face 사이트는 자동으로 'NVIDIA의 칩으로 움직이도록 최적화된 모델들만 모아놓는 플랫폼'이 되는 거죠.", "그럼 더 많은 개발자들이 NVIDIA 칩을 써야 하니까, NVIDIA의 칩 매출이 자연스럽게 늘어나는 구조가 되는 거예요.", "큰 돈(약 13~14조원)을 들이는 이유는, NVIDIA가 단순 '칩 회사'에서 'AI 생태계 전체를 장악하는 회사'로 커지려고 하기 때문이에요."],
+        watch: ["실제 인수 계약 체결 일정 및 규제 승인 여부 (특히 중국·EU 규제 당국의 반독점 심사)", "NVIDIA가 Hugging Face 플랫폼 운영을 어떻게 통합할지 (API 통합, 칩 최적화 강제 여부 등)", "인수 후 Hugging Face의 개발자 커뮤니티 규모 변화 및 타 플랫폼(GitHub, Kaggle 등)으로의 이탈 우려", "NVIDIA의 Q3/Q4 실적 가이던스에서 이 인수 관련 발언 및 향후 소프트웨어/플랫폼 수익 기여도 공시"],
+        interpretation: "이 인수는 NVIDIA 칩 사업의 '방어적 움직임'이자 동시에 '공격적 포지셔닝'이다. 방어 측면에서는, 오픈소스 커뮤니티에서 NVIDIA 의존도를 높여 경쟁사(AMD, Qualcomm의 Tenstorrent 등)로부터 사용자를 보호한다는 의미고, 공격 측면에서는 NVIDIA가 '칩 판매'에서 'AI 생태계 플랫폼'으로 사업 범위를 확장하려는 신호다. 시장에서는 이를 긍정적으로 해석할 수도, 부정적으로(독점 우려) 해석할 수도 있는 복합적 신호로 받아들여질 전망이다.",
+        decision: "인수 공식 발표 및 계약 체결 후 실제 통합 내용이 공개될 때까지는 '긍정적 신호'로만 기록하되, 규제 당국의 반독점 심사나 사업 통합 과정에서 부작용(개발자 이탈, 플랫폼 개방성 축소)이 나타날 가능성도 주의할 것. NVDA 매수 신호로 보기는 이르고, 확정 후 시장 반응을 한 번 더 지켜보는 것이 안전.",
+        confidence: "인수 의도·규모·직원 유지 패키지는 Bloomberg, The Information 등 신뢰도 높은 정보사가 보도했으나, NVIDIA와 Hugging Face가 공식 발표하지 않아 최종 계약 조건(가격, 종료 조건 등)은 아직 미확정. 인수 자체의 존재 확률은 높으나(70~80%), 정확한 규모와 일정은 변동 가능성 있음.",
+        sources: [
+          { title: "Nvidia agrees to buy Hugging Face for $12.9 billion (CNBC)", url: "https://www.cnbc.com/2026/08/27/nvidia-hugging-face-acquisition.html" },
+          { title: "Nvidia Nears $14 Billion Hugging Face Deal This Week (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-02/nvidia-nears-14-billion-hugging-face-deal-this-week" },
+          { title: "Nvidia Agrees to Buy Open Source AI Platform Hugging Face For $12.9 Billion (TheInformation)", url: "https://www.theinformation.com/articles/nvidia-agrees-buy-open-source-model-repository-hugging-face-12-9-billion" },
+          { title: "Nvidia nears $12.9 billion deal to buy open-source AI platform (Fortune)", url: "https://fortune.com/2026/08/27/nvidia-hugging-face-billion-dollar-deal-open-source-ai/" },
+        ],
+      },
       {
         date: "2026-08-20",
         headline: "OpenAI 오하이오 데이터센터에 $105B 규모 자금조달 후원 + SpaceX 지분 $21B 보유 공시 - AI 인프라 베팅 확대, 다만 AMD 경쟁 부각과 겹쳐 주가는 등락",
