@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 90.62999725341797,
+      "current": 90.7699966430664,
       "prevClose": 90.22000122070312,
-      "changeAbs": 0.40999603271484375,
-      "changePct": 0.4544402872616681,
-      "pctRank": 84.1686555290374,
+      "changeAbs": 0.5499954223632812,
+      "changePct": 0.6096158445152755,
+      "pctRank": 84.3277645186953,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -19.760956439026778,
-      "ma20": 84.05100021362304,
-      "ma60": 80.26633326212566,
-      "chg1m": 14.860000610351562,
-      "chg3m": -5.3899993896484375,
-      "chg1mPct": 19.611985309110317,
-      "chg3mPct": -5.61341343270881,
+      "drawdown1y": -19.63700832620604,
+      "ma20": 84.05800018310546,
+      "ma60": 80.26866658528645,
+      "chg1m": 15.0,
+      "chg3m": -5.25,
+      "chg1mPct": 19.796754209533972,
+      "chg3mPct": -5.467611105544756,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.56400299072266,
+      "current": 99.5770034790039,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.10599517822265625,
-      "changePct": -0.10634612237374527,
+      "changeAbs": -0.09299468994140625,
+      "changePct": -0.09330259019747938,
       "pctRank": 31.60828025477707,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0135789856697173,
-      "ma20": 99.46320037841797,
-      "ma60": 100.31640040079752,
-      "chg1m": -0.39599609375,
-      "chg3m": 0.34400177001953125,
-      "chg1mPct": -0.3961545592005835,
-      "chg3mPct": 0.3467060731579111,
+      "drawdown1y": -2.000784488865104,
+      "ma20": 99.46385040283204,
+      "ma60": 100.31661707560221,
+      "chg1m": -0.38299560546875,
+      "chg3m": 0.35700225830078125,
+      "chg1mPct": -0.38314886852399227,
+      "chg3mPct": 0.35980876225416697,
       "lastDate": "2026-09-02",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4434.2998046875,
+      "current": 4430.0,
       "prevClose": 4348.0,
-      "changeAbs": 86.2998046875,
-      "changePct": 1.9848161151678934,
-      "pctRank": 90.85123309466985,
+      "changeAbs": 82.0,
+      "changePct": 1.8859245630174795,
+      "pctRank": 90.77167859984088,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.623422719051995,
-      "ma20": 4453.614990234375,
-      "ma60": 4222.395003255208,
-      "chg1m": 338.89990234375,
-      "chg3m": -2.400390625,
-      "chg1mPct": 8.275135772450488,
-      "chg3mPct": -0.05410306126918562,
+      "drawdown1y": -16.704270432019296,
+      "ma20": 4453.4,
+      "ma60": 4222.32333984375,
+      "chg1m": 334.60009765625,
+      "chg3m": -6.7001953125,
+      "chg1mPct": 8.170144690015796,
+      "chg3mPct": -0.15101753595113204,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Wall St ends higher as stocks reclaim some shine - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo?oc=5",
+      "datetime": 1788387572,
+      "headlineKo": "주식이 다시 빛을 발하면서 월스트리트가 상승 마감했습니다 - Reuters"
+    },
+    {
+      "headline": "Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMDJDS3ZmaHY1S0hTTlJiUUVPQ081YTU5bWV3NmJJLTRTNDdNQUhKNWdFTXd4TzVVRkRiRXd6SV9xZ1hmbHVxMFVGOUhXMkJLTkdaN0VWa3g3aEZ1aWZDbnlNTkRoUk5zY2ltOW9PNVk1SlFJVU1mNzZFSE9GTGpGbmhwdW1sMFNuTFhwcTVmSlFUNUIwM3lOV3ZpQ0NCX3B2TmMwbXZB?oc=5",
+      "datetime": 1788383284,
+      "headlineKo": "트럼프 보좌관들은 이란 전쟁에서 '조용함'을 추구하지만 11월 선거 이후 공격이 강화될 수 있다고 말했습니다 - 로이터"
+    },
+    {
       "headline": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html",
@@ -240,13 +254,6 @@ const MARKET_DATA = {
       "headlineKo": "약한 지침이 실적을 가리면서 Broadcom의 주가는 5% 하락"
     },
     {
-      "headline": "Wall St ends higher as stocks reclaim some shine - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUmZ3SUhHbXJYY2d1bWZHdjZ4MHIzLWdpTzFRWGdWU0pfZDhpV3ZoWVJnY194WF9PR0UxQjRES2NjOHBIbkpTcW9iY1l0Y05uYS1kd1Fha2lnYXNVS1VyZ0xlWGVPaF9Qamh6R2lLZDF5bDBLUFdaTU1RNmtoMVhhcEFCdWJvZWlxNUpYc2FuSG0zb2hFRW1IUW9OZWVOUFNwbWF3V1ZWS2xoaFQ5ZV9CdFpGVEo?oc=5",
-      "datetime": 1788380374,
-      "headlineKo": "주식이 다시 빛을 발하면서 월스트리트가 상승 마감했습니다 - Reuters"
-    },
-    {
       "headline": "Trump says renewed US campaign against Iran won't last long - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZkprNWZWZmliWmh1WXZLMk5HVUY0VDVUWkE1dU15a2xyeVJkWDNsS25aQnRqUVo1Zmh4OUxCMkk1RkFHRThST0JZQlpHNGJnSjB2aGpoanJWWXNBakVMcEhMUzNsSW5iZUM2SEJ0VXZuclFLM0laLXlGdHdQRVNNZGdwdmZ6YmhzSDhWNFZWRFR4S0pIWWVIb2pxUG4yalQ5cXhTU1dR?oc=5",
@@ -259,13 +266,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/02/google-data-center-arkansas-entergy-court.html",
       "datetime": 1788379050,
       "headlineKo": "판사는 Google 데이터 센터 에너지 문서에 대한 아칸소 뉴스 보도 차단을 거부했습니다."
-    },
-    {
-      "headline": "Stocks rise after recent declines; Japanese yen jumps against US dollar - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
-      "datetime": 1788366494,
-      "headlineKo": "최근 하락 이후 주가는 상승합니다. 일본 엔화가 미국 달러 대비 급등 - Reuters"
     },
     {
       "headline": "We're starting positions in 2 more defensive stocks to balance our AI exposure",
@@ -282,13 +282,6 @@ const MARKET_DATA = {
       "headlineKo": "Broadcom의 향후 수입에서 지켜봐야 할 사항 및 Nvidia가 운영되는 이유"
     },
     {
-      "headline": "Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMDJDS3ZmaHY1S0hTTlJiUUVPQ081YTU5bWV3NmJJLTRTNDdNQUhKNWdFTXd4TzVVRkRiRXd6SV9xZ1hmbHVxMFVGOUhXMkJLTkdaN0VWa3g3aEZ1aWZDbnlNTkRoUk5zY2ltOW9PNVk1SlFJVU1mNzZFSE9GTGpGbmhwdW1sMFNuTFhwcTVmSlFUNUIwM3lOV3ZpQ0NCX3B2TmMwbXZB?oc=5",
-      "datetime": 1788364372,
-      "headlineKo": "트럼프 보좌관들은 이란 전쟁에서 '조용함'을 추구하지만 11월 선거 이후 공격이 강화될 수 있다고 말했습니다 - 로이터"
-    },
-    {
       "headline": "These women were laid off while on maternity leave. Yes, it's legal, and probably more common than you thought",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/getting-laid-off-on-maternity-leave.html",
@@ -301,16 +294,23 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVmhMd2p2Z3VsWGROU3BobXFXeEV3ZVZwZ3JLbzNUWUtIY1pwUTljaEFMWHBOV0RJamJuNXlrd0dRNnJQY3I3S1ZTenZtSzhoYm11WTBKUkhsTkJUb3hkVVNVUXdsTTZxYkk5c2VsS3ZBeDVNTjFPTnlsQ0RXb0N1ZHFJQnV2VnZPSk5ua2ZUMG9qajVYZF9rUFhEZWlZZGV0bFFPVS1Ud09DZlpRYl8xWnNVYTk3ZmtCaHRSbnY3Mm1pQQ?oc=5",
       "datetime": 1788363129,
       "headlineKo": "이란 정부 웹사이트에 따르면 호르무즈를 통과하려는 선박이 더 많이 블랙리스트에 올라 있다 - 로이터 통신"
+    },
+    {
+      "headline": "UK bond yields hit fresh 19-year high, adding to pressure on Healey - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
+      "datetime": 1788363018,
+      "headlineKo": "영국 채권 수익률이 19년 만에 최고치를 기록해 힐리에게 압력을 가중 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 33.2285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788386438.4409013,
-  "_updated_label": "2026-09-03 07:01",
-  "_last_attempt_at": 1788386438.4409013,
-  "_last_success_at": 1788386438.4409013,
+  "_fetched_at": 1788390051.8669107,
+  "_updated_label": "2026-09-03 08:01",
+  "_last_attempt_at": 1788390051.8669107,
+  "_last_success_at": 1788390051.8669107,
   "_collection_status": "ok",
   "_collection_errors": []
 };
