@@ -1686,7 +1686,17 @@ function computeFairValue(ticker, price, fund, est){
         // 아예 없다"로 오해할 수 있음. 왜 못 했는지와, 대신 뭘 보면 되는지를 명시함.
         cautions.push(`이 종목은 과거 3·5년 EPS 성장률 데이터가 없어서 '역산 기대성장률'은 계산하지 못했어요(상장 이력이 짧거나 최근에야 흑자 전환한 종목에서 흔해요) - 대신 위 PEG 교차검증과 PER 밴드는 그대로 참고하세요.`);
       } else if(!(histGrowth>=3)){
-        cautions.push(`이 종목은 과거 ${hgYears}년 EPS 성장률이 0%에 가깝거나 마이너스라서(${histGrowth.toFixed(0)}%), 성장률로 나누는 '역산 기대성장률' 계산 자체가 불안정해져 보류했어요 - 이런 저성장·경기민감 종목은 성장 대비 밸류보다 배당·자사주매입이나 현금흐름 수익률(P/FCF) 같은 다른 잣대가 더 적합할 수 있어요(이 지표는 대시보드에 아직 없어요).`);
+        // 2026-09-02 수정(사용자 요청: "계산 안 되는 종목엔 다른 판단 방법을 알려줘야") - 예전엔
+        // "P/FCF가 더 적합할 수 있다(이 지표는 대시보드에 아직 없어요)"는 말만 하고 끝났는데, 마침
+        // pfcfShareTTM은 이미 수집돼 있던 필드라(새 데이터 수집 없이) 실제 동종업계 P/FCF 비교를
+        // 만들 수 있었음. 배당수익률은 이 파이프라인이 아직 수집하지 않는 필드라(Finnhub 필드명을
+        // 이 세션에서 실시간으로 검증할 네트워크 접근이 없었음) 여기 넣지 않음 - 추측으로 만들지
+        // 않는다는 원칙 유지.
+        const pfcfPeer = computePeerPFCF(ticker);
+        const pfcfNote = pfcfPeer
+          ? ` 대신 <b>P/FCF(주가/잉여현금흐름, 현재 ${fund.pfcfShareTTM.toFixed(1)}배)</b>로 보면 같은 테마 중앙값(${pfcfPeer.peerMedian.toFixed(1)}배)보다 ${Math.abs(pfcfPeer.diffPct)<8?'비슷한 수준이에요':(pfcfPeer.diffPct>0?`${pfcfPeer.diffPct.toFixed(0)}% 높아요(비싼 편)`:`${Math.abs(pfcfPeer.diffPct).toFixed(0)}% 낮아요(싼 편)`)} - 성장률이 아니라 지금 벌어들이는 현금 대비로 값을 매기는 잣대라 이런 저성장 국면에 더 적합할 수 있어요(02 탭 '동종업계 비교' 박스와 같은 계산, 참고용).`
+          : ` 이런 저성장·경기민감 종목은 성장 대비 밸류보다 현금흐름 수익률(P/FCF)이나 배당 같은 다른 잣대가 더 적합할 수 있는데, 이 종목은 같은 테마 안에 비교할 종목 수가 부족하거나(P/FCF) 배당 데이터 자체를 아직 이 대시보드가 안 모으고 있어요.`;
+        cautions.push(`이 종목은 과거 ${hgYears}년 EPS 성장률이 0%에 가깝거나 마이너스라서(${histGrowth.toFixed(0)}%), 성장률로 나누는 '역산 기대성장률' 계산 자체가 불안정해져 보류했어요.${pfcfNote}`);
       } else if(fund.avgPe3Y!=null){
         const historicalPEG = fund.avgPe3Y / histGrowth;
         if(!(historicalPEG>=0.2 && historicalPEG<=15)){
@@ -3086,6 +3096,53 @@ function computeRelStrength(r){
   const bench = group.reduce((a,x)=>a+ret20(x.series),0) / group.length;
   return {rel:(mine-bench)*100, mine:mine*100, bench:bench*100,
           members:group.length, sector, theme:r.theme, tickers:group.map(x=>x.ticker)};
+}
+// ============ 02 탭 - 동종업계(Peer) PER 비교 (2026-09-02 추가) ============
+// [배경] 사용자 요청: historyCompareBlock의 '3년 평균 대비'는 이 종목 자기 자신의 과거와만 비교해서,
+// "이 업종 자체가 원래 배수가 높은 업종인지"는 알려주지 못함(예: 반도체 설계주는 원래 배수가 높은
+// 편). computeRelStrength()가 이미 같은 테마(fund.theme)로 종목을 묶어 가격 모멘텀을 비교하고
+// 있으므로, 같은 테마 정의를 재사용해 forwardPE 중앙값을 비교한다. 새 데이터 수집 없이 기존
+// FUNDAMENTALS_DATA.forwardPE만 재사용(중앙값을 쓰는 이유: ARM·TSLA처럼 그룹 안에 이상치가 섞여
+// 있으면 평균은 쉽게 왜곡되기 때문 - computeRelStrength가 20일 수익률에 평균을 쓰는 것과 표본 성격이
+// 다름).
+// 주의: 여기 '테마'는 이 대시보드 관심종목 42개 한정으로 나눈 대분류라 세부 사업 모델까지 정교하게
+// 나뉘어 있지 않음(예: 'AI 전력·인프라'엔 규제 유틸리티와 EPC·장비업체가 섞여 있음) - 그래서 항상
+// "참고용" 문구를 붙이고, 표본이 REL_MIN_PEERS 미만이면 아예 표시하지 않는다(기존 관행과 동일).
+// 2026-09-02 수정: 처음엔 results(그 시점까지 스캔된 종목)를 피어 표본으로 썼는데, computeFairValue
+// (개별 종목 계산 도중, 아직 다른 종목이 results에 안 쌓였을 수 있음)에서도 재사용하려면 스캔 순서에
+// 관계없이 항상 전체 42종목이 다 들어있는 FUNDAMENTALS_DATA(페이지 로드시 이미 로딩됨)를 쓰는 게 더
+// 안전함 - '전체 스캔'을 아직 안 돌렸어도(단일 종목 조회만 해도) 바로 동작한다는 장점도 있음.
+function computePeerMultiple(ticker, field){
+  const fund = (typeof FUNDAMENTALS_DATA !== 'undefined') ? FUNDAMENTALS_DATA[ticker] : null;
+  if(!fund || !fund.theme || fund.theme==='기타') return null;
+  const mine = (typeof fund[field] === 'number' && isFinite(fund[field]) && fund[field]>0) ? fund[field] : null;
+  if(mine==null) return null;
+  const peers = Object.keys(FUNDAMENTALS_DATA).filter(t => {
+    const f = FUNDAMENTALS_DATA[t];
+    return t !== ticker && f && f.theme === fund.theme &&
+      typeof f[field] === 'number' && isFinite(f[field]) && f[field] > 0;
+  }).map(t => ({ticker:t, v:FUNDAMENTALS_DATA[t][field]}));
+  if(peers.length < REL_MIN_PEERS) return null;
+  const vals = peers.map(p=>p.v).sort((a,b)=>a-b);
+  const mid = vals.length/2;
+  const median = Number.isInteger(mid) ? (vals[mid-1]+vals[mid])/2 : vals[Math.floor(mid)];
+  return {theme:fund.theme, myValue:mine, peerMedian:median, diffPct:(mine/median-1)*100,
+          peerCount:peers.length, tickers:peers.map(p=>p.ticker)};
+}
+function computePeerPER(r){ return r ? computePeerMultiple(r.ticker, 'forwardPE') : null; }
+function computePeerPFCF(ticker){ return computePeerMultiple(ticker, 'pfcfShareTTM'); }
+function peerCompareBlock(r){
+  const peer = computePeerPER(r);
+  if(!peer) return '';
+  const dev = peer.diffPct;
+  const tone = Math.abs(dev)<8 ? '비슷한 수준이에요' : (dev>0
+    ? `<b style="color:var(--warn)">${dev.toFixed(0)}% 높아요(비싼 편)</b>`
+    : `<b style="color:var(--up)">${Math.abs(dev).toFixed(0)}% 낮아요(싼 편)</b>`);
+  return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:12px;">
+    <b>동종업계(Peer) 비교</b><br>
+    · <b>PER(포워드)</b> ${peer.myValue.toFixed(1)}배는 같은 테마 <b>${esc(peer.theme)}</b>(${peer.peerCount}종목: ${peer.tickers.map(esc).join(', ')}) 중앙값 <b>${peer.peerMedian.toFixed(1)}배</b>보다 ${tone}.
+    <div class="sub" style="margin-top:6px;">※ 여기 "같은 테마"는 관심종목 안에서 나눈 대분류라 세부 사업 구조까지 정확히 일치하진 않아요(예: 유틸리티와 장비업체가 한 그룹에 섞여있을 수 있음) - 참고용으로만 보세요. 중앙값을 쓴 건 그룹 안에 유난히 높거나 낮은 종목(이상치) 하나 때문에 평균이 왜곡되는 걸 막기 위해서예요. 같은 테마 종목 수(${peer.peerCount}개)가 적을수록 신뢰도도 낮아져요.</div>
+  </div>`;
 }
 // 2026-08-06 추가: 60일/120일 상대강도 - 참고용(정보 제공)일 뿐, -11%p 경고 임계값(REL_WEAK_THRESHOLD)은
 // 5년치 검증이 20일 수익률로만 이뤄졌어서 60/120일에는 그대로 적용하면 안 됨. 그래서 여기는 경고 배지
@@ -5333,6 +5390,7 @@ function tabValueQuality(r){
       <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
     </div>
     ${historyCompareBlock(r.ticker, fund)}
+    ${peerCompareBlock(r)}
     ${dataQualityNotes(r.ticker, fund)}
     ${updated}
     ${currencyNote}
