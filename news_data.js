@@ -5005,7 +5005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -7956,7 +7956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -10464,7 +10464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -10523,7 +10523,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330281.9080167
+          "analysisUpdatedAt": 1788352996.6697938
         },
         "headlineKo": "다우 존스 소프트웨어 자이언트 마이크로소프트, AI 리더 팔란티르 아이 최신 항목"
       },
@@ -10542,12 +10542,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "사람들은 아마존의 6000억 달러 규모의 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊어버립니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% 다우존스 52,756.20 −0.05% 나스닥 100 29,020.60 −0.27% 러셀 2000 2,917.19 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "각 부문의 실제 가치를 이해하면 주식을 보는 방식에 대한 모든 것이 달라집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.14%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -10572,20 +10572,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "$600 Billion",
-            "0.14%",
-            "0.05%",
-            "0.27%",
-            "0.19%",
+            "0.06%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "$700 billion",
             "$750 billion",
             "$35 billion"
           ],
           "sourceExcerpt": [
             "People Forget Amazon's $600 Billion E-Commerce Business Is Bigger Than Microsoft - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Understanding what each division is actually worth changes everything about how you see the stock."
           ],
-          "analysisUpdatedAt": 1788330286.3800716
+          "analysisUpdatedAt": 1788353000.2657466
         },
         "headlineKo": "아마존의 6000억 달러 ($) 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊은 사람들"
       },
@@ -10633,7 +10633,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330288.6273067
+          "analysisUpdatedAt": 1788353001.926156
         },
         "headlineKo": "Broadcom, Nutanix 및 Microsoft에 도전하기 위한 VMware AI 추진 강화"
       },
@@ -10700,7 +10700,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330281.9080167
+          "analysisUpdatedAt": 1788352996.6697938
         }
       },
       {
@@ -10719,12 +10719,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "사람들은 아마존의 6000억 달러 규모의 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊어버립니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% 다우존스 52,756.20 −0.05% 나스닥 100 29,020.60 −0.27% 러셀 2000 2,917.19 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "각 부문의 실제 가치를 이해하면 주식을 보는 방식에 대한 모든 것이 달라집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.14%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -10749,20 +10749,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "$600 Billion",
-            "0.14%",
-            "0.05%",
-            "0.27%",
-            "0.19%",
+            "0.06%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "$700 billion",
             "$750 billion",
             "$35 billion"
           ],
           "sourceExcerpt": [
             "People Forget Amazon's $600 Billion E-Commerce Business Is Bigger Than Microsoft - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Understanding what each division is actually worth changes everything about how you see the stock."
           ],
-          "analysisUpdatedAt": 1788330286.3800716
+          "analysisUpdatedAt": 1788353000.2657466
         }
       },
       {
@@ -10810,7 +10810,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330288.6273067
+          "analysisUpdatedAt": 1788353001.926156
         }
       },
       {
@@ -12830,17 +12830,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:24",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "AMZN": {
@@ -12866,12 +12866,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "사람들은 아마존의 6000억 달러 규모의 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊어버립니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% 다우존스 52,756.20 −0.05% 나스닥 100 29,020.60 −0.27% 러셀 2000 2,917.19 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "각 부문의 실제 가치를 이해하면 주식을 보는 방식에 대한 모든 것이 달라집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.14%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -12896,20 +12896,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "$600 Billion",
-            "0.14%",
-            "0.05%",
-            "0.27%",
-            "0.19%",
+            "0.06%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "$700 billion",
             "$750 billion",
             "$35 billion"
           ],
           "sourceExcerpt": [
             "People Forget Amazon's $600 Billion E-Commerce Business Is Bigger Than Microsoft - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Understanding what each division is actually worth changes everything about how you see the stock."
           ],
-          "analysisUpdatedAt": 1788330294.1664574
+          "analysisUpdatedAt": 1788353007.3613427
         },
         "headlineKo": "아마존의 6000억 달러 ($) 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊은 사람들"
       },
@@ -12971,7 +12971,7 @@ const NEWS_DATA = {
             "Here's Why I'd Still Buy and Hold It Forever.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788330296.7793856
+          "analysisUpdatedAt": 1788353012.8154147
         },
         "headlineKo": "아마존은 배당금을 지급하지 않으며 지속적으로 주주를 희석시킵니다. 제가 그것을 영원히 사서 보유해야 하는 이유는 다음과 같습니다."
       },
@@ -13033,7 +13033,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help As the digital economy continues to evolve, investors often weigh the massive scale of Amazon.com ( AMZN -1.87% ) against the high-growth merchant platform offered by Shopify ( SHOP -5.12% ) to see which stock is the better buy."
           ],
-          "analysisUpdatedAt": 1788330301.6783612
+          "analysisUpdatedAt": 1788353015.404848
         },
         "headlineKo": "Amazon vs. Shopify: 2026년에는 어떤 소비자 주식이 더 나은 구매입니까?"
       },
@@ -13071,12 +13071,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "사람들은 아마존의 6000억 달러 규모의 전자상거래 사업이 마이크로소프트보다 크다는 사실을 잊어버립니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% 다우존스 52,756.20 −0.05% 나스닥 100 29,020.60 −0.27% 러셀 2000 2,917.19 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "각 부문의 실제 가치를 이해하면 주식을 보는 방식에 대한 모든 것이 달라집니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.14%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $600 Billion, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -13101,20 +13101,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "$600 Billion",
-            "0.14%",
-            "0.05%",
-            "0.27%",
-            "0.19%",
+            "0.06%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "$700 billion",
             "$750 billion",
             "$35 billion"
           ],
           "sourceExcerpt": [
             "People Forget Amazon's $600 Billion E-Commerce Business Is Bigger Than Microsoft - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.19% S&P 500 7,628.60 −0.14% Dow Jones 52,756.20 −0.05% Nasdaq 100 29,020.60 −0.27% Russell 2000 2,917.19 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Understanding what each division is actually worth changes everything about how you see the stock."
           ],
-          "analysisUpdatedAt": 1788330294.1664574
+          "analysisUpdatedAt": 1788353007.3613427
         }
       },
       {
@@ -13176,7 +13176,7 @@ const NEWS_DATA = {
             "Here's Why I'd Still Buy and Hold It Forever.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788330296.7793856
+          "analysisUpdatedAt": 1788353012.8154147
         }
       },
       {
@@ -13238,7 +13238,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help As the digital economy continues to evolve, investors often weigh the massive scale of Amazon.com ( AMZN -1.87% ) against the high-growth merchant platform offered by Shopify ( SHOP -5.12% ) to see which stock is the better buy."
           ],
-          "analysisUpdatedAt": 1788330301.6783612
+          "analysisUpdatedAt": 1788353015.404848
         }
       },
       {
@@ -15906,17 +15906,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:25",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "TSM": {
@@ -16896,7 +16896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -16954,7 +16954,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330315.4200506
+          "analysisUpdatedAt": 1788353026.9592078
         },
         "headlineKo": "Broadcom의 수익이 다가오고 있지만 이번 공개가 먼저 나왔습니다."
       },
@@ -17016,7 +17016,7 @@ const NEWS_DATA = {
             "Institutional money is leaving AVGO, even as AI chips drive more than half of quarterly sales.",
             "The stock needs to clear $376.28 for bullish confirmation, while a drop below $356.62 could open further downside."
           ],
-          "analysisUpdatedAt": 1788330319.8391747
+          "analysisUpdatedAt": 1788353029.2780752
         },
         "headlineKo": "28명의 분석가가 3분기 실적 전 Broadcom 주식 예측을 공유합니다."
       },
@@ -17063,7 +17063,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330322.2882614
+          "analysisUpdatedAt": 1788353031.6641557
         },
         "headlineKo": "Broadcom, AI 칩 판매 143% 급증 후 중요한 수익 테스트 직면"
       },
@@ -17129,7 +17129,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330315.4200506
+          "analysisUpdatedAt": 1788353026.9592078
         }
       },
       {
@@ -17191,7 +17191,7 @@ const NEWS_DATA = {
             "Institutional money is leaving AVGO, even as AI chips drive more than half of quarterly sales.",
             "The stock needs to clear $376.28 for bullish confirmation, while a drop below $356.62 could open further downside."
           ],
-          "analysisUpdatedAt": 1788330319.8391747
+          "analysisUpdatedAt": 1788353029.2780752
         }
       },
       {
@@ -17238,7 +17238,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330322.2882614
+          "analysisUpdatedAt": 1788353031.6641557
         }
       },
       {
@@ -19708,17 +19708,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:25",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "META": {
@@ -22880,7 +22880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -22957,7 +22957,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330305.613727
+          "analysisUpdatedAt": 1788353019.1740413
         },
         "headlineKo": "Tesla 주식 투자자들은 미국 전력망에서 이익을 얻을 것입니다"
       },
@@ -23005,7 +23005,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330307.5513477
+          "analysisUpdatedAt": 1788353021.2974381
         },
         "headlineKo": "Tesla, Apple, Nvidia, Medtronic, Alumis, Robinhood, Fervo 및 오늘날 시장을 설명하는 기타 주식"
       },
@@ -23053,7 +23053,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330310.0821257
+          "analysisUpdatedAt": 1788353023.2281036
         },
         "headlineKo": "Tesla의 프랑스 등록은 거의 4배 증가한 반면 노르웨이는 79% 감소했습니다."
       },
@@ -23138,7 +23138,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330305.613727
+          "analysisUpdatedAt": 1788353019.1740413
         }
       },
       {
@@ -23186,7 +23186,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330307.5513477
+          "analysisUpdatedAt": 1788353021.2974381
         }
       },
       {
@@ -23234,7 +23234,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330310.0821257
+          "analysisUpdatedAt": 1788353023.2281036
         }
       },
       {
@@ -25875,17 +25875,17 @@ const NEWS_DATA = {
         "headlineKo": "Tesla의 새로운 6인승 Model Y는 호주의 전기 판매가 50%에 가까워지면서 7월 최고의 성적을 거두었습니다."
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:25",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "MU": {
@@ -25940,7 +25940,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330350.7599928
+          "analysisUpdatedAt": 1788353054.8023262
         },
         "headlineKo": "오늘 주식 시장: 나스닥은 유가가 $90를 넘어서면서 하락세를 마감했습니다. 마이크론, 엔비디아 주식이 빨간색으로 포장되었습니다."
       },
@@ -25988,7 +25988,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330352.9073665
+          "analysisUpdatedAt": 1788353057.0632145
         },
         "headlineKo": "약 10,000명의 대만 근로자가 파업을 추진함에 따라 마이크론 주가 하락"
       },
@@ -26050,7 +26050,7 @@ const NEWS_DATA = {
             "Help Micron Technology 's ( MU -2.64% ) stock price has cooled off this summer after rising over 1,000% in the last three years.",
             "Comments from the artificial intelligence (AI) market may indicate it is set to go even higher."
           ],
-          "analysisUpdatedAt": 1788330357.7241886
+          "analysisUpdatedAt": 1788353059.8272905
         },
         "headlineKo": "예측: 이는 2027년 말까지 Micron의 주가가 될 수 있습니다(힌트: 2,000달러 이상)"
       },
@@ -26117,7 +26117,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330350.7599928
+          "analysisUpdatedAt": 1788353054.8023262
         }
       },
       {
@@ -26165,7 +26165,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330352.9073665
+          "analysisUpdatedAt": 1788353057.0632145
         }
       },
       {
@@ -26227,7 +26227,7 @@ const NEWS_DATA = {
             "Help Micron Technology 's ( MU -2.64% ) stock price has cooled off this summer after rising over 1,000% in the last three years.",
             "Comments from the artificial intelligence (AI) market may indicate it is set to go even higher."
           ],
-          "analysisUpdatedAt": 1788330357.7241886
+          "analysisUpdatedAt": 1788353059.8272905
         }
       },
       {
@@ -28947,17 +28947,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:26",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:44",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "AMD": {
@@ -31394,7 +31394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -33280,7 +33280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -34821,7 +34821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -36465,7 +36465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -36483,23 +36483,23 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 미국-이란 교착 상태에서 지수 하락 후 하락 — DELL, PANW, FRVO, AAPL, TTWO In Focus 신규 에이전트 연결 동향 뉴스 수익 전체 DIA 0.09% SPY 0.16% QQQ 0.33% 추세 DELL 9.58% 4CHAN 3.55% AAPL 0.31",
+            "S&P 500, Dow, Nasdaq 선물은 미국-이란 교착 상태에서 지수 하락 후 하락 — DELL, PANW, FRVO, AAPL, TTWO In Focus 신규 에이전트 연결 동향 뉴스 수익 전체 DIA 0.20% SPY 0.03% QQQ 0.14% 추세 FCEL 13.23% DELL 8.56% SOFI 0.29",
             "S&P 500, 다우, 나스닥 선물은 미국-이란 교착상태로 지수가 하락한 후 하락세를 보임 — DELL, PANW, FRVO, AAPL, TTWO In Focus",
             "군은 화요일 이란에 있는 이슬람혁명수비대(IRGC) 표적을 공격하기 시작했다고 밝혔습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.16%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.20%, 0.03%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -36510,30 +36510,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "SPY에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.09%",
-            "0.16%",
-            "0.33%",
-            "9.58%",
-            "3.55%",
-            "0.31%",
-            "0.60%",
-            "0.02%"
+            "0.20%",
+            "0.03%",
+            "0.14%",
+            "13.23%",
+            "8.56%",
+            "0.29%",
+            "8.70%",
+            "25.11%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus New Connect your Agent Trending News Earnings All DIA 0.09% SPY 0.16% QQQ 0.33% Trending DELL 9.58% 4CHAN 3.55% AAPL 0.31",
+            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus New Connect your Agent Trending News Earnings All DIA 0.20% SPY 0.03% QQQ 0.14% Trending FCEL 13.23% DELL 8.56% SOFI 0.29",
             "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus The ‌U.S.",
             "military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in ⁠Iran."
           ],
-          "analysisUpdatedAt": 1788330271.4360428
+          "analysisUpdatedAt": 1788352986.351748
         },
         "headlineKo": "S&P 500, 다우, 나스닥 선물은 미국-이란 교착상태로 지수가 하락한 후 하락세를 보임 — DELL, PANW, FRVO, AAPL, TTWO 집중"
       },
@@ -36581,7 +36581,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330273.9526541
+          "analysisUpdatedAt": 1788352988.6437812
         },
         "headlineKo": "전쟁은 처음에는 시장을 동요시킬 수 있지만 이 자산 관리자는 S&P 500이 역사적으로 갈등을 장기적인 '자산 소유자를 위한 부양'으로 전환했다고 말합니다."
       },
@@ -36629,7 +36629,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330275.8426213
+          "analysisUpdatedAt": 1788352990.4079027
         },
         "headlineKo": "8월의 ETF 자산 흐름: S&P 500 상위권"
       },
@@ -36660,23 +36660,23 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "analysis": {
           "version": 9,
-          "importance": "medium",
+          "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow, Nasdaq 선물은 미국-이란 교착 상태에서 지수 하락 후 하락 — DELL, PANW, FRVO, AAPL, TTWO In Focus 신규 에이전트 연결 동향 뉴스 수익 전체 DIA 0.09% SPY 0.16% QQQ 0.33% 추세 DELL 9.58% 4CHAN 3.55% AAPL 0.31",
+            "S&P 500, Dow, Nasdaq 선물은 미국-이란 교착 상태에서 지수 하락 후 하락 — DELL, PANW, FRVO, AAPL, TTWO In Focus 신규 에이전트 연결 동향 뉴스 수익 전체 DIA 0.20% SPY 0.03% QQQ 0.14% 추세 FCEL 13.23% DELL 8.56% SOFI 0.29",
             "S&P 500, 다우, 나스닥 선물은 미국-이란 교착상태로 지수가 하락한 후 하락세를 보임 — DELL, PANW, FRVO, AAPL, TTWO In Focus",
             "군은 화요일 이란에 있는 이슬람혁명수비대(IRGC) 표적을 공격하기 시작했다고 밝혔습니다."
           ],
           "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.09%, 0.16%, 0.33% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.20%, 0.03%, 0.14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -36687,30 +36687,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "SPY에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.09%",
-            "0.16%",
-            "0.33%",
-            "9.58%",
-            "3.55%",
-            "0.31%",
-            "0.60%",
-            "0.02%"
+            "0.20%",
+            "0.03%",
+            "0.14%",
+            "13.23%",
+            "8.56%",
+            "0.29%",
+            "8.70%",
+            "25.11%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus New Connect your Agent Trending News Earnings All DIA 0.09% SPY 0.16% QQQ 0.33% Trending DELL 9.58% 4CHAN 3.55% AAPL 0.31",
+            "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus New Connect your Agent Trending News Earnings All DIA 0.20% SPY 0.03% QQQ 0.14% Trending FCEL 13.23% DELL 8.56% SOFI 0.29",
             "S&P 500, Dow, Nasdaq Futures Flat After Indices End Lower On US-Iran Stalemate — DELL, PANW, FRVO, AAPL, TTWO In Focus The ‌U.S.",
             "military on Tuesday said it began striking Islamic Revolutionary Guard Corps (IRGC) targets in ⁠Iran."
           ],
-          "analysisUpdatedAt": 1788330271.4360428
+          "analysisUpdatedAt": 1788352986.351748
         }
       },
       {
@@ -36758,7 +36758,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330273.9526541
+          "analysisUpdatedAt": 1788352988.6437812
         }
       },
       {
@@ -36806,7 +36806,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330275.8426213
+          "analysisUpdatedAt": 1788352990.4079027
         }
       },
       {
@@ -38806,17 +38806,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:24",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "ORCL": {
@@ -40874,7 +40874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -42936,7 +42936,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -44859,7 +44859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -44918,7 +44918,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330328.6451042
+          "analysisUpdatedAt": 1788353036.6502237
         },
         "headlineKo": "QUALCOMM의 Tie-Up With HUMAIN이 AI PC의 지분을 끌어올릴 수 있을까요?"
       },
@@ -44994,7 +44994,7 @@ const NEWS_DATA = {
             "The two companies will work on integrating Nvidia technology with MediaTek's custom AI chip business as well as other areas such as PCs and cars.",
             "MediaTek, which is the main rival to Qualcomm, has looked to diversify its business into data centers."
           ],
-          "analysisUpdatedAt": 1788330329.654186
+          "analysisUpdatedAt": 1788353038.8035107
         },
         "headlineKo": "Qualcomm의 경쟁사인 MediaTek은 35억 달러 규모의 Nvidia AI 칩 거래 이후 10% 상승"
       },
@@ -45013,12 +45013,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.21% S&P 500 7,626.00 −0.18% 다우존스 52,751.70 −0.06% 나스닥 100 29,007.80 −0.31% 러셀 2000 2,916.59 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "Qualcomm 주가는 실적 붕괴 이후 일부 회복되었지만, 회복으로 인해 휴대폰 축소, 입증되지 않은 데이터 센터 베팅, 다음 움직임을 전혀 명백하게 만들지 않는 마진 압박 등의 복잡한 혼합이 숨겨져 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 15%, 0.18%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 15%, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -45043,20 +45043,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "15%",
-            "0.18%",
             "0.06%",
-            "0.31%",
-            "0.21%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "4%",
             "$170.26",
             "0.8%"
           ],
           "sourceExcerpt": [
             "Qualcomm Just Gained 15% in a Month: Take Profits, or Buy More?",
-            "Skip to content ❚❚ At close S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.21% S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Qualcomm stock has clawed back from a post-earnings collapse and then some, but the recovery hides a complicated mix of shrinking handsets, unproven data center bets, and margin pressure that makes the next move anything but obvious."
           ],
-          "analysisUpdatedAt": 1788330333.5839226
+          "analysisUpdatedAt": 1788353041.3223133
         },
         "headlineKo": "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?"
       },
@@ -45123,7 +45123,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330328.6451042
+          "analysisUpdatedAt": 1788353036.6502237
         }
       },
       {
@@ -45199,7 +45199,7 @@ const NEWS_DATA = {
             "The two companies will work on integrating Nvidia technology with MediaTek's custom AI chip business as well as other areas such as PCs and cars.",
             "MediaTek, which is the main rival to Qualcomm, has looked to diversify its business into data centers."
           ],
-          "analysisUpdatedAt": 1788330329.654186
+          "analysisUpdatedAt": 1788353038.8035107
         }
       },
       {
@@ -45218,12 +45218,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Qualcomm은 한 달 만에 15%의 이익을 얻었습니다. 이익을 얻습니까, 아니면 더 많이 사야 합니까?",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.21% S&P 500 7,626.00 −0.18% 다우존스 52,751.70 −0.06% 나스닥 100 29,007.80 −0.31% 러셀 2000 2,916.59 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% 다우존스 52,904.70 +0.23% 나스닥 100 29,077.20 −0.08% 러셀 2000 2,927.69 +0.",
             "Qualcomm 주가는 실적 붕괴 이후 일부 회복되었지만, 회복으로 인해 휴대폰 축소, 입증되지 않은 데이터 센터 베팅, 다음 움직임을 전혀 명백하게 만들지 않는 마진 압박 등의 복잡한 혼합이 숨겨져 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 15%, 0.18%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 15%, 0.06%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QCOM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -45248,20 +45248,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "15%",
-            "0.18%",
             "0.06%",
-            "0.31%",
-            "0.21%",
+            "0.23%",
+            "0.08%",
+            "0.17%",
             "4%",
             "$170.26",
             "0.8%"
           ],
           "sourceExcerpt": [
             "Qualcomm Just Gained 15% in a Month: Take Profits, or Buy More?",
-            "Skip to content ❚❚ At close S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.21% S&P 500 7,626.00 −0.18% Dow Jones 52,751.70 −0.06% Nasdaq 100 29,007.80 −0.31% Russell 2000 2,916.59 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.17% S&P 500 7,644.00 +0.06% Dow Jones 52,904.70 +0.23% Nasdaq 100 29,077.20 −0.08% Russell 2000 2,927.69 +0.",
             "Qualcomm stock has clawed back from a post-earnings collapse and then some, but the recovery hides a complicated mix of shrinking handsets, unproven data center bets, and margin pressure that makes the next move anything but obvious."
           ],
-          "analysisUpdatedAt": 1788330333.5839226
+          "analysisUpdatedAt": 1788353041.3223133
         }
       },
       {
@@ -46192,17 +46192,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:25",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:44",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "ARM": {
@@ -47331,7 +47331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -50253,7 +50253,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -51363,7 +51363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -52632,7 +52632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -52691,7 +52691,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330339.758955
+          "analysisUpdatedAt": 1788353046.1573188
         },
         "headlineKo": "Entegris, Penguin Solutions, Teradyne, Applied Materials 및 KLA Corporation 주식 거래 하락, 알아야 할 사항"
       },
@@ -52738,7 +52738,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330343.2509248
+          "analysisUpdatedAt": 1788353047.2240784
         },
         "headlineKo": "UBS는 KLA에 대해 중립을 유지하고 목표 가격을 200달러로 낮췄습니다."
       },
@@ -52786,7 +52786,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330345.1205702
+          "analysisUpdatedAt": 1788353049.6282165
         },
         "headlineKo": "KLA Corporation(KLAC): 우리가 이 주식을 좋아하는 3가지 이유"
       },
@@ -52853,7 +52853,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330339.758955
+          "analysisUpdatedAt": 1788353046.1573188
         }
       },
       {
@@ -52900,7 +52900,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330343.2509248
+          "analysisUpdatedAt": 1788353047.2240784
         }
       },
       {
@@ -52948,7 +52948,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788330345.1205702
+          "analysisUpdatedAt": 1788353049.6282165
         }
       },
       {
@@ -53868,17 +53868,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788330264.9024725,
-    "_updated_label": "2026-09-02 15:25",
+    "_fetched_at": 1788352979.5287268,
+    "_updated_label": "2026-09-02 21:44",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
-    "_last_success_at": 1788330264.9024725,
+    "_last_success_at": 1788352979.5287268,
     "_collection_status": "ok"
   },
   "SNDK": {
@@ -56644,7 +56644,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -57845,7 +57845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -58904,7 +58904,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -59899,7 +59899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -61029,7 +61029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -62408,12 +62408,13 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_last_success_at": 1788330264.9024725,
-    "_collection_status": "ok"
+    "_collection_status": "empty",
+    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "CEG": {
     "nextEarnings": {
@@ -63313,7 +63314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
@@ -64412,7 +64413,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -65293,12 +65294,13 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_last_success_at": 1788330264.9024725,
-    "_collection_status": "ok"
+    "_collection_status": "empty",
+    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "PWR": {
     "nextEarnings": {
@@ -66154,12 +66156,13 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_last_success_at": 1788330264.9024725,
-    "_collection_status": "ok"
+    "_collection_status": "empty",
+    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "HUBB": {
     "nextEarnings": {
@@ -66745,7 +66748,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788341670.1721408,
     "_earnings_status": "ok",
@@ -67825,12 +67828,13 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_last_success_at": 1788330264.9024725,
-    "_collection_status": "ok"
+    "_collection_status": "empty",
+    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "MOD": {
     "nextEarnings": {
@@ -68205,12 +68209,13 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788330264.9024725,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_last_success_at": 1788330264.9024725,
-    "_collection_status": "ok"
+    "_collection_status": "empty",
+    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "STX": {
     "nextEarnings": {
@@ -69256,7 +69261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -69987,7 +69992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -71057,7 +71062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -71177,9 +71182,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
-    "_last_attempt_at": 1788351148.615535,
+    "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -71335,7 +71340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 21:12"
+      "updated": "2026-09-02 21:44"
     },
     "_fetched_at": 1788345392.6233885,
     "_updated_label": "2026-09-02 19:36",

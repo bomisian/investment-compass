@@ -432,6 +432,7 @@
 </div>
 
 <script src="fundamentals_data.js"></script>
+<script src="fundamentals_history_data.js" onerror="void 0"></script>
 <script src="financials_data.js"></script>
 <script src="estimates_data.js"></script>
 <!-- 뉴스/실적일정 - 이 파일이 없어도 대시보드는 정상 동작함(해당 섹션만 안 보임) -->
@@ -4942,6 +4943,30 @@ function rangePositionLabel(current, min, max, median){
   const pos = range>0 ? (current-min)/range : 0.5;
   return pos>=0.66 ? '상위권' : (pos<=0.33 ? '하위권' : '중간');
 }
+
+// 2026-09-02 추가: ROE·ROIC·PSR·PBR·EV/EBITDA는 과거로 소급할 방법이 없어서(Finnhub가 "지금" 값만 줌),
+// buy_signal_telegram.py가 이날부터 매일 스냅샷 1건씩을 fundamentals_history_data.js에 쌓기 시작함.
+// 그래서 처음 몇 주~몇 달은 비교 자체가 아직 안 나타나는 게 정상이고(억지로 만들지 않음), 최소
+// HISTORY_MIN_DAYS일치가 모이면 자동으로 표시되기 시작한다. 그 전까지는 "며칠치 모였는지"를
+// 그대로 보여줘서 진행 상황을 숨기지 않는다.
+const HISTORY_MIN_DAYS = 40;
+const RATIO_HISTORY_FIELDS = [
+  ['roeTTM','ROE','%'], ['roicTTM','ROIC(근사)','%'], ['psTTM','PSR','배'],
+  ['pb','PBR','배'], ['evEbitdaTTM','EV/EBITDA','배'],
+];
+function ratioHistoryRows(ticker, field){
+  if(typeof FUNDAMENTALS_HISTORY_DATA === 'undefined') return null;
+  const rows = (FUNDAMENTALS_HISTORY_DATA[ticker]||[]).filter(r=>typeof r[field]==='number');
+  return rows.length ? rows : null;
+}
+function ratioHistoryStat(ticker, field){
+  const rows = ratioHistoryRows(ticker, field);
+  if(!rows || rows.length < HISTORY_MIN_DAYS) return null;
+  const vals = rows.map(r=>r[field]);
+  return {min:Math.min(...vals), max:Math.max(...vals),
+          median: vals.slice().sort((a,b)=>a-b)[Math.floor(vals.length/2)],
+          days: rows.length, dateFrom: rows[0].date, dateTo: rows[rows.length-1].date};
+}
 function historyCompareBlock(ticker, fund){
   const lines = [];
   if(typeof fund.peTTM === 'number' && typeof fund.avgPe3Y === 'number' && fund.avgPe3Y>0){
@@ -4960,10 +4985,29 @@ function historyCompareBlock(ticker, fund){
       lines.push(`<b>순이익률</b> ${netNow.toFixed(1)}%는 같은 기간 범위 <b>${hist.net.min.toFixed(1)}%~${hist.net.max.toFixed(1)}%</b>(중앙값 ${hist.net.median.toFixed(1)}%) 중 <b>${label}</b>이에요.`);
     }
   }
+  let ratioHistShown = false;
+  RATIO_HISTORY_FIELDS.forEach(([field,label,unit])=>{
+    const now = fund[field];
+    if(typeof now !== 'number') return;
+    const stat = ratioHistoryStat(ticker, field);
+    if(!stat) return;
+    ratioHistShown = true;
+    const pos = rangePositionLabel(now, stat.min, stat.max, stat.median);
+    lines.push(`<b>${label}</b> ${now.toFixed(1)}${unit}는 최근 ${stat.days}일간(${stat.dateFrom}~${stat.dateTo}) 자체 수집된 범위 <b>${stat.min.toFixed(1)}${unit}~${stat.max.toFixed(1)}${unit}</b>(중앙값 ${stat.median.toFixed(1)}${unit}) 중 <b>${pos}</b>이에요.`);
+  });
   if(!lines.length) return '';
+  const collected = (typeof FUNDAMENTALS_HISTORY_DATA !== 'undefined') ? (FUNDAMENTALS_HISTORY_DATA[ticker]||[]).length : 0;
+  let footnote;
+  if(ratioHistShown){
+    footnote = '※ 위 ROE·ROIC·PSR·PBR·EV/EBITDA 비교는 2026-09-02부터 이 대시보드가 직접 매일 수집한 값 기준이에요 - 아직 다년간의 호황·불황 사이클을 다 담지는 못했을 수 있어요(PER의 3년 평균과는 근거 기간이 달라요).';
+  } else if(collected > 0){
+    footnote = `※ ROE·ROIC·PSR·PBR·EV/EBITDA 비교는 2026-09-02부터 매일 자동으로 수집을 시작했어요(현재 <b>${collected}일치</b> 모임, 최소 <b>${HISTORY_MIN_DAYS}일</b>치가 모이면 표시돼요) - 억지로 만들지 않고 데이터가 쌓일 때까지 기다립니다.`;
+  } else {
+    footnote = '※ ROE·ROIC·PSR·PBR·EV/EBITDA 등 나머지 지표는 <b>과거 스냅샷을 따로 저장해두지 않아서</b> 아직 비교를 못 만들어요(지금 값만 있어요) - 억지로 만들지 않고 정직하게 비워둡니다.';
+  }
   return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:12px;">
     <b>과거 대비 비교</b><br>${lines.map(l=>'· '+l).join('<br>')}
-    <div class="sub" style="margin-top:6px;">※ ROE·ROIC·PSR·PBR·EV/EBITDA 등 나머지 지표는 <b>과거 스냅샷을 따로 저장해두지 않아서</b> 아직 비교를 못 만들어요(지금 값만 있어요) - 억지로 만들지 않고 정직하게 비워둡니다.</div>
+    <div class="sub" style="margin-top:6px;">${footnote}</div>
   </div>`;
 }
 
