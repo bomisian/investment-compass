@@ -1,19 +1,19 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788375720.130671,
+  "generatedAt": 1788375821.942873,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788329286,
       "signal": "주의 강화",
-      "netScore": -10,
+      "netScore": -9.16,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "growth": {
@@ -33,7 +33,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "competitiveRisk": {
           "label": "경쟁 심화 리스크",
-          "score": -2.1,
+          "score": -1.4,
           "level": "주의"
         },
         "businessRisk": {
@@ -43,7 +43,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.98,
+          "score": -2.62,
           "level": "주의"
         },
         "insiderSignal": {
@@ -194,29 +194,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "be963e21eb7b2ee85a86",
-          "headline": "Microsoft를 소프트웨어 산업의 업계 경쟁사와 비교",
-          "eventLabel": "경쟁사 기술·시장 진입",
-          "publishedAt": 1787723905,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=26d046a2282eca44949316d830a89a9a68252a0edcb298be9b887c2793f1d97d",
-          "factorChanges": {
-            "competitiveRisk": -2,
-            "longTermCompetitiveness": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 10,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788361242,
       "signal": "우호적 변화",
       "netScore": 3.27,
@@ -438,7 +424,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788337808,
       "signal": "주의 강화",
       "netScore": -4.83,
@@ -646,7 +632,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788289026,
       "signal": "주의 강화",
       "netScore": -7.14,
@@ -825,7 +811,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788292404,
       "signal": "중립·확인 대기",
       "netScore": -0.01,
@@ -975,7 +961,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788304020,
       "signal": "주의 강화",
       "netScore": -2.44,
@@ -1072,7 +1058,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788282824,
       "signal": "주의 강화",
       "netScore": -2.59,
@@ -1197,7 +1183,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1787762346,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -1290,7 +1276,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788282506,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -1373,11 +1359,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788355620,
-      "signal": "중립·확인 대기",
-      "netScore": -0.05,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "signal": "우호적 변화",
+      "netScore": 2.5,
+      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -1386,7 +1372,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 3.85,
+          "score": 5,
           "level": "우호적"
         },
         "valuationBurden": {
@@ -1411,8 +1397,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.7,
-          "level": "중립"
+          "score": 2.1,
+          "level": "우호적"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -1428,6 +1414,45 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1788355620,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=ffa1ff2780a4397efd1c6b3878cabb3067edbc1bbc113a8a27f9656421319068",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
+        {
+          "eventId": "34335ee341cff1df990f",
+          "headline": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353880,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
+        {
+          "eventId": "ef0940f7bec43eec2f1b",
+          "headline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353340,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
+        {
+          "eventId": "570e12f738ae57a4edc4",
+          "headline": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788352200,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -1540,57 +1565,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "30a934e066e5e114aa0e",
-          "headline": "채권 매도가 부채 기반 AI 구축을 테스트함에 따라 Oracle은 4% 하락하고 Nebius는 미끄러짐",
-          "eventLabel": "장기 공급계약",
-          "publishedAt": 1788282824,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=080d937249bd77c901ae5bf56b2b93380ea4f0f5bb7081fc5e6493a2bffd0b4f",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성"
-        },
-        {
-          "eventId": "fdeb3e7e178fa0122308",
-          "headline": "미국이 G20에게 알릴 것: Nvidia의 Jensen Huang이 회담에 참여함에 따라 AI를 덜 규제하고 미국 칩을 구입하십시오",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1788276007,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=2d0eef0e462099f2dfe0a9f35992668adeede5c322453bbae332728dd807f0de",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "6187cd7d0e0009c42d02",
-          "headline": "Cramer는 NVIDIA가 큰 이익을 얻은 다음 날 거의 10% 손실을 입은 AI 칩 제조업체에 대해 베팅하지 말라고 말했습니다.",
-          "eventLabel": "워런트·신주·희석 가능성",
-          "publishedAt": 1788274838,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=50c760b6bcdb378a60b16aecbf0d448b2e86203bb9fe3beda9429a7bf6010f6b",
-          "factorChanges": {
-            "valuationBurden": -2,
-            "businessRisk": -1,
-            "shortTermMomentum": -2
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 27,
+      "unverifiedEvidenceCount": 31,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788355620,
       "signal": "우호적 변화",
       "netScore": 10,
@@ -1645,6 +1628,45 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1788355620,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=ffa1ff2780a4397efd1c6b3878cabb3067edbc1bbc113a8a27f9656421319068",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
+        {
+          "eventId": "34335ee341cff1df990f",
+          "headline": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353880,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
+        {
+          "eventId": "ef0940f7bec43eec2f1b",
+          "headline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353340,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
+        {
+          "eventId": "570e12f738ae57a4edc4",
+          "headline": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788352200,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -1756,63 +1778,23 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "f68478e0f50e9a3f9ea9",
-          "headline": "Qualcomm의 경쟁사인 MediaTek은 35억 달러 규모의 Nvidia AI 칩 거래 이후 10% 상승",
-          "eventLabel": "경쟁사 공급 계약",
-          "publishedAt": 1788235223,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=a391a6562161c9049791ec5f8b17bf02953dc5fa902c118f9753e107ad84483b",
-          "factorChanges": {
-            "growth": 2,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "ea0f2927241104aa1220",
-          "headline": "ARM 대 NVDA: 어떤 AI 칩 디자이너에 투자할 가치가 있나요?",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1788201060,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "c2ebf782b459946b819a",
-          "headline": "AMD: 아직도 인텔의 점심을 먹고 있다",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1788189545,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=f98b088261d3a83eaf699b4660bb59129dc2f89466316756897a3e101aa6a75b",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 18,
+      "unverifiedEvidenceCount": 22,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788361221,
       "signal": "주의 강화",
-      "netScore": -7.27,
+      "netScore": -6.01,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": -0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "growth": {
@@ -1832,8 +1814,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "competitiveRisk": {
           "label": "경쟁 심화 리스크",
-          "score": -1.4,
-          "level": "주의"
+          "score": -0.7,
+          "level": "중립"
         },
         "businessRisk": {
           "label": "사업 리스크",
@@ -1842,7 +1824,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.62,
+          "score": -2.27,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1933,29 +1915,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "사업·실적 연결 경로 확인 필요"
-        },
-        {
-          "eventId": "4b57ae92922de7ed91f2",
-          "headline": "성능 비교: Broadcom과 반도체 및 반도체 장비 산업의 경쟁업체",
-          "eventLabel": "경쟁사 기술·시장 진입",
-          "publishedAt": 1787723914,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=94ef2ff6f34b60cb54311b1a8b97f72dfb3c8740b26914dc9c404085950c2192",
-          "factorChanges": {
-            "competitiveRisk": -2,
-            "longTermCompetitiveness": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 7,
+      "unverifiedEvidenceCount": 6,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788290100,
       "signal": "우호적 변화",
       "netScore": 3.88,
@@ -2065,7 +2033,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788201060,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -2133,7 +2101,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788361242,
       "signal": "주의 강화",
       "netScore": -4.63,
@@ -2356,7 +2324,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788360181,
       "signal": "중립·확인 대기",
       "netScore": -0.49,
@@ -2509,7 +2477,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788188400.0,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -2587,7 +2555,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2641,7 +2609,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788319010,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -2732,7 +2700,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788278554,
       "signal": "주의 강화",
       "netScore": -2.79,
@@ -2824,7 +2792,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2878,10 +2846,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788360120,
       "signal": "우호적 변화",
-      "netScore": 7.24,
+      "netScore": 7.86,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2916,7 +2884,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 4.38,
+          "score": 5,
           "level": "우호적"
         },
         "insiderSignal": {
@@ -2947,6 +2915,45 @@ const EVENT_ANALYSIS_DATA = {
           "publishedAt": 1788355620,
           "verificationStatus": "needs_confirmation",
           "sourceUrl": "https://finnhub.io/api/news?id=ffa1ff2780a4397efd1c6b3878cabb3067edbc1bbc113a8a27f9656421319068",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "34335ee341cff1df990f",
+          "headline": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353880,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "ef0940f7bec43eec2f1b",
+          "headline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353340,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "570e12f738ae57a4edc4",
+          "headline": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788352200,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
           "factorChanges": {
             "growth": 1,
             "shortTermMomentum": 1
@@ -3044,57 +3051,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "메모리 ASP와 이익률 개선 가능성"
-        },
-        {
-          "eventId": "c28464c23a4646a11b6b",
-          "headline": "$ 1,000를 받으셨나요? 마이크론에 대한 투자는 2027년까지 이 정도의 가치가 있을 수 있습니다. (힌트: $ 3,000 이상입니다.)",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1788288540,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=7c7cf6ab604f4f7e0342b4fe99585f3e621ee3813d5f4ea06e4aed5d946dcd0f",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "b56ec895241b583044e5",
-          "headline": "23% 하락, 마이크론은 여전히 ​​백만장자 주식인가?",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1788275100,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=a6e302ff840a8c5799bc1adbd50c4e0dc130734036ecac88fe7c3e00d9150c2a",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "5a862643b98d77ca70e7",
-          "headline": "Micron은 더 이상 예전의 상태가 아니므로 계속 로드 중입니다.",
-          "eventLabel": "장기 공급계약",
-          "publishedAt": 1788274357,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=62a04e51d0bd475619459336070d171ab9eca4072d222e585f81ad2da6150291",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 24,
+      "unverifiedEvidenceCount": 28,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788343357,
       "signal": "중립·확인 대기",
       "netScore": 0.42,
@@ -3231,7 +3196,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788290100,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3300,7 +3265,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1787955941,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3369,7 +3334,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788350591,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -3461,7 +3426,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788289235,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -3543,7 +3508,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788287700,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3622,7 +3587,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1787779500,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3691,7 +3656,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3745,11 +3710,11 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1788375720.130671,
-      "dataAsOf": 1788205299,
-      "signal": "주의 강화",
-      "netScore": -2.31,
-      "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
+      "updatedAt": 1788375821.942873,
+      "dataAsOf": 1788352200,
+      "signal": "중립·확인 대기",
+      "netScore": -0.91,
+      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
@@ -3758,7 +3723,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": 0.7,
           "level": "중립"
         },
         "valuationBurden": {
@@ -3783,8 +3748,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -1.05,
-          "level": "주의"
+          "score": -0.35,
+          "level": "중립"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -3793,6 +3758,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "570e12f738ae57a4edc4",
+          "headline": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788352200,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
         {
           "eventId": "8fa943c36d2b51ed9f4d",
           "headline": "이튼 주식은 1년 전보다 더 위험한가?",
@@ -3806,15 +3784,28 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "b63fb9526fdee061881a",
+          "headline": "Eaton의 AI 데이터 센터 및 헬스케어 거래가 Trane Signal과 함께 ETN 투자자에게 전략적 변화를 가져올까요?",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1787998011,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=acc2e54c59021eff636643208dfbff6cdb90c84f29e4f12a85c0e69941353d2f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 1,
+      "unverifiedEvidenceCount": 3,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3868,7 +3859,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3922,21 +3913,21 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1788375720.130671,
-      "dataAsOf": 1788274800.0,
-      "signal": "중립·확인 대기",
-      "netScore": 0.7,
-      "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
+      "updatedAt": 1788375821.942873,
+      "dataAsOf": 1788358304,
+      "signal": "우호적 변화",
+      "netScore": 5.59,
+      "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.0,
+          "score": 0.87,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 0.35,
-          "level": "중립"
+          "score": 2.8,
+          "level": "우호적"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -3960,8 +3951,8 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.35,
-          "level": "중립"
+          "score": 1.92,
+          "level": "우호적"
         },
         "insiderSignal": {
           "label": "내부자 거래 신호",
@@ -3970,6 +3961,60 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "40d7f8b7dbe63c703c0f",
+          "headline": "Vertiv, 최대 26억 달러 규모의 유틸리티 혁신 인수",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1788358304,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=19ae97de5f9b26a23671ed1b2e1006cf03c210fb21fb574f7a61717f45ce2572",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        },
+        {
+          "eventId": "34335ee341cff1df990f",
+          "headline": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353880,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "ef0940f7bec43eec2f1b",
+          "headline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353340,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "e8ea1860280b2c814abd",
+          "headline": "Vertiv, AI 데이터 센터의 전력 공급 시간을 단축하기 위해 UtilityInnovation Group 인수 계약 발표",
+          "eventLabel": "주요 고객 계약",
+          "publishedAt": 1788348600,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=9b01f058ce0a82d79dc0911b51cd28472afe5f758c27cb9948e24eb56d5b44b2",
+          "factorChanges": {
+            "growth": 2,
+            "longTermCompetitiveness": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
+        },
         {
           "eventId": "d99316498a06134022f9",
           "headline": "VRT SEC Form 8-K 공식 제출",
@@ -4005,15 +4050,15 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 2,
-      "unverifiedEvidenceCount": 1,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1788375720.130671,
-      "dataAsOf": 0,
+      "updatedAt": 1788375821.942873,
+      "dataAsOf": 1788346043,
       "signal": "중립·확인 대기",
-      "netScore": 0.0,
+      "netScore": -1.26,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -4023,7 +4068,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "valuationBurden": {
@@ -4043,12 +4088,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": 0.0,
+          "score": -0.7,
           "level": "중립"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": -0.35,
           "level": "중립"
         },
         "insiderSignal": {
@@ -4057,14 +4102,29 @@ const EVENT_ANALYSIS_DATA = {
           "level": "중립"
         }
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "eventId": "54d9e45cffdcb5a06b32",
+          "headline": "Modine: 구매할 가치가 있는 붕괴 - 임시 공급망/마진/실행 위험",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1788346043,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cf363cd44249a0720d734a06850f2b6cef625f9d7f57e3fad8d19fb20c41829e",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "회사 실적과의 연결고리 확인"
+        }
+      ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 0,
+      "unverifiedEvidenceCount": 1,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788154225,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -4146,7 +4206,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4200,7 +4260,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 1788319200,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -4269,10 +4329,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SBGSY": {
       "ticker": "SBGSY",
-      "updatedAt": 1788375720.130671,
-      "dataAsOf": 0,
+      "updatedAt": 1788375821.942873,
+      "dataAsOf": 1788353340,
       "signal": "중립·확인 대기",
-      "netScore": 0.0,
+      "netScore": 0.7,
       "summary": "뉴스 방향이 엇갈리거나 확인 강도가 낮아 기존 장기 판단을 바꿀 근거가 아직 부족합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -4282,7 +4342,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": 0.0,
+          "score": 0.35,
           "level": "중립"
         },
         "valuationBurden": {
@@ -4307,7 +4367,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": 0.0,
+          "score": 0.35,
           "level": "중립"
         },
         "insiderSignal": {
@@ -4316,14 +4376,28 @@ const EVENT_ANALYSIS_DATA = {
           "level": "중립"
         }
       },
-      "evidence": [],
+      "evidence": [
+        {
+          "eventId": "ef0940f7bec43eec2f1b",
+          "headline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788353340,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        }
+      ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 0,
+      "unverifiedEvidenceCount": 1,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1788375720.130671,
+      "updatedAt": 1788375821.942873,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

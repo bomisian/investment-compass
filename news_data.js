@@ -5143,7 +5143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -8296,7 +8296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -10978,7 +10978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -13496,7 +13496,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -16738,7 +16738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -17722,7 +17722,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -20706,7 +20706,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -23906,7 +23906,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -27077,7 +27077,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -30355,7 +30355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -32876,7 +32876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -34872,7 +34872,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -36462,7 +36462,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -38154,7 +38154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
@@ -40631,7 +40631,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -42894,7 +42894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -45038,7 +45038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -47107,7 +47107,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
@@ -48446,7 +48446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -49627,7 +49627,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -52787,7 +52787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
@@ -53897,7 +53897,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -55215,7 +55215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -56505,7 +56505,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788375624.468897,
     "_earnings_status": "ok",
@@ -59489,7 +59489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -60690,7 +60690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -61749,7 +61749,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -62828,7 +62828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -64004,7 +64004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -64020,6 +64020,54 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f2dd86c5508912a20d2f6a2d4e8835b71aa075625d906a92cb2ad87b235586a",
+        "datetime": 1788356280,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GEV",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GEV의 사업과 관련된 'GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GEV 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375769.472435
+        },
+        "headlineKo": "GEV 주가는 YTD 37.5% 상승: 이익을 확정할 때인가 아니면 파도를 탈 때인가?"
+      },
+      {
         "headline": "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40%",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3840aabb197925b02a8da4e84ed20cf657f97b8ebf1d8299c2f75c8675bb7f49",
@@ -64034,12 +64082,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "나는 풍력 사업이 40% 하락한 후에도 GE Vernova를 팔지 않을 것입니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "이전 General Electric 대기업이 2024년 4월 GE Vernova(GEV +0.00%)로 에너지 사업 분사를 완료했을 때 풍력 부품이 매출의 거의 3분의 1을 차지했습니다.",
+            "이전 General Electric 대기업이 2024년 4월 GE Vernova(GEV +1.67%)로 에너지 사업 분사를 완료했을 때 풍력 부품이 매출의 거의 3분의 1을 차지했습니다.",
             "그 사업은 그 이후로 계속 쇠퇴해 왔지만 GE Vernova 주주들은 아마도 크게 개의치 않을 것입니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 1.67%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -64064,20 +64112,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "40%",
-            "0.00%",
+            "1.67%",
             "15%",
             "88%",
             "50%",
-            "0.00 %",
-            "$ 0.00",
-            "$ 898.53"
+            "1.67 %",
+            "$ 14.97",
+            "$ 913.50"
           ],
           "sourceExcerpt": [
             "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +0.00% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
+            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +1.67% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
             "That business has continued to decline since then, but GE Vernova shareholders probably don't mind too much."
           ],
-          "analysisUpdatedAt": 1788354033.2172494
+          "analysisUpdatedAt": 1788375773.4035218
         },
         "headlineKo": "I Wouldn 't Sell GE Vernova, Even After the Wind Business Fell 40%"
       },
@@ -64125,7 +64173,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354035.4925668
+          "analysisUpdatedAt": 1788375775.5399644
         },
         "headlineKo": "GE Vernova(GEV) 주식은 AI 전력 수요에도 불구하고 공정 가치에 가까워 보입니다."
       },
@@ -64135,60 +64183,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=e3a52cfeaef2d2df657c92719bd6173fc4aaa904812ca392747f7e2a7c78824a",
         "datetime": 1788249807,
         "relevance": 1.0,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?",
-            "신규 에이전트 연결 트렌드 뉴스 수입 전체 DIA 0.20% SPY 0.05% QQQ 0.27% Trending FCEL 13.35% DELL 9.05% SOFI 0.23% CRDO 8.58% GTLB 25.50% SLS 0.73% MDB 12.09% TSLA 0.24% AAPL 0.54% USO 0.89% 홈 뉴스 시장 주식 XOM, CVX인 이유",
-            "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.20%, 0.05%, 0.27% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "GEV",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "GEV에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.20%",
-            "0.05%",
-            "0.27%",
-            "13.35%",
-            "9.05%",
-            "0.23%",
-            "8.58%",
-            "25.50%"
-          ],
-          "sourceExcerpt": [
-            "Why Are XOM, CVX, GEV Stocks Rising Overnight?",
-            "New Connect your Agent Trending News Earnings All DIA 0.20% SPY 0.05% QQQ 0.27% Trending FCEL 13.35% DELL 9.05% SOFI 0.23% CRDO 8.58% GTLB 25.50% SLS 0.73% MDB 12.09% TSLA 0.24% AAPL 0.54% USO 0.89% Home News Markets Equity Why Are XOM, CVX",
-            "Why Are XOM, CVX, GEV Stocks Rising Overnight?"
-          ],
-          "analysisUpdatedAt": 1788354039.4440267
-        },
         "headlineKo": "XOM, CVX, GEV 주식이 밤새 상승하는 이유는 무엇입니까?"
       },
       {
@@ -64198,17 +64192,57 @@ const NEWS_DATA = {
         "datetime": 1788232129,
         "relevance": 1.0,
         "headlineKo": "GEV 스톡 뒤에 있는 엔진에는 실제 부품이 있습니다"
-      },
-      {
-        "headline": "Venezuela’s Energy Reopening Could Benefit Chevron (CVX) and GE Vernova (GEV), But Risks Remain",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2e9b3d261e95238f75fff64f51c9df9a89abcd0a49e6e442383f1758f5a08a85",
-        "datetime": 1788223631,
-        "relevance": 1,
-        "headlineKo": "베네수엘라의 에너지 재개는 Chevron(CVX)과 GE Vernova(GEV)에 도움이 될 수 있지만 위험은 여전히 ​​남아 있습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f2dd86c5508912a20d2f6a2d4e8835b71aa075625d906a92cb2ad87b235586a",
+        "datetime": 1788356280,
+        "headlineKo": "GEV 주가는 YTD 37.5% 상승: 이익을 확정할 때인가 아니면 파도를 탈 때인가?",
+        "relevance": 1.0,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "GEV",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 GEV의 사업과 관련된 'GEV Stock Rises 37.5% YTD: Time to Lock in Gains or Ride the Wave?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "GEV 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375769.472435
+        }
+      },
       {
         "headline": "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40%",
         "source": "Yahoo",
@@ -64225,12 +64259,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "나는 풍력 사업이 40% 하락한 후에도 GE Vernova를 팔지 않을 것입니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "이전 General Electric 대기업이 2024년 4월 GE Vernova(GEV +0.00%)로 에너지 사업 분사를 완료했을 때 풍력 부품이 매출의 거의 3분의 1을 차지했습니다.",
+            "이전 General Electric 대기업이 2024년 4월 GE Vernova(GEV +1.67%)로 에너지 사업 분사를 완료했을 때 풍력 부품이 매출의 거의 3분의 1을 차지했습니다.",
             "그 사업은 그 이후로 계속 쇠퇴해 왔지만 GE Vernova 주주들은 아마도 크게 개의치 않을 것입니다."
           ],
           "why": [
             "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 40%, 0.00%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 1.67%, 15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "GEV의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -64255,20 +64289,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "40%",
-            "0.00%",
+            "1.67%",
             "15%",
             "88%",
             "50%",
-            "0.00 %",
-            "$ 0.00",
-            "$ 898.53"
+            "1.67 %",
+            "$ 14.97",
+            "$ 913.50"
           ],
           "sourceExcerpt": [
             "I Wouldn't Sell GE Vernova, Even After the Wind Business Fell 40% | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +0.00% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
+            "Help When the former General Electric conglomerate completed the spin-off of its energy business as GE Vernova ( GEV +1.67% ) in April 2024, its wind component accounted for nearly one-third of revenue.",
             "That business has continued to decline since then, but GE Vernova shareholders probably don't mind too much."
           ],
-          "analysisUpdatedAt": 1788354033.2172494
+          "analysisUpdatedAt": 1788375773.4035218
         }
       },
       {
@@ -64316,7 +64350,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354035.4925668
+          "analysisUpdatedAt": 1788375775.5399644
         }
       },
       {
@@ -65377,17 +65411,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788354028.4424174,
-    "_updated_label": "2026-09-02 22:00",
+    "_fetched_at": 1788375765.371174,
+    "_updated_label": "2026-09-03 04:02",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 32,
+      "checked": 33,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788354028.4424174,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
-    "_last_success_at": 1788354028.4424174,
+    "_last_success_at": 1788375765.371174,
     "_collection_status": "ok"
   },
   "CEG": {
@@ -66288,7 +66322,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -67387,7 +67421,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -67402,6 +67436,120 @@ const NEWS_DATA = {
       "revenueEstimate": 8526011495
     },
     "news": [
+      {
+        "headline": "Eaton expands manufacturing for modular electrical enclosures with $242+ million investment in new Arkansas facility to support the next generation of critical infrastructure development",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
+        "datetime": 1788352200,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ETN의 사업과 관련된 'Eaton expands manufacturing for modular electrical enclosures with $242+ million investment in new Arkansas facility to support the next generation of critical infrastructure development' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ETN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375781.5670042
+        },
+        "headlineKo": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다."
+      },
+      {
+        "headline": "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7fb33ea201a637ea663f90ac11e22ca5274cde194b5e9795eb7ac8929369866b",
+        "datetime": 1788352080,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ETN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ETN의 사업과 관련된 'Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ETN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375783.6417964
+        },
+        "headlineKo": "Vertiv, Schneider Electric 및 Eaton의 프로필을 특징으로 하는 모듈형 데이터 센터 구조용 강철 스키드 시장 전망 2026-2030 - AI 및 엣지 컴퓨팅으로 모듈형 데이터 센터 구축 가속화"
+      },
       {
         "headline": "Is Eaton Corporation Stock Underperforming the Nasdaq?",
         "source": "Yahoo",
@@ -67450,7 +67598,7 @@ const NEWS_DATA = {
             "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] WATCH LIVE : Your browser of choice has not been tested for use with Barchart.com.",
             "If you have issues, please download one of the browsers listed here ."
           ],
-          "analysisUpdatedAt": 1788354045.6754637
+          "analysisUpdatedAt": 1788375786.9045362
         },
         "headlineKo": "이튼 코퍼레이션 주식이 나스닥에서 저조한 실적을 기록하고 있습니까?"
       },
@@ -67460,60 +67608,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=252010de3040dbb18d1303b66707f40318a8328d2d3a8474a3ff6deb1d0057cb",
         "datetime": 1788205299,
         "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "이튼 주식은 1년 전보다 더 위험한가?",
-            "| Trefis Debt는 과거보다 Eaton의 자산에서 훨씬 더 큰 비중을 차지하며, 주주들은 이튼의 모든 자산을 뒷받침합니다.",
-            "Eaton(ETN)은 데이터 센터 내부에 들어가는 스위치기어와 액체 냉각 장치를 판매하고 있으며, 공장에서 출하할 수 있는 것보다 수요가 앞서고 있습니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 38.0%, 24.8%, 26.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ETN",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "ETN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "38.0%",
-            "24.8%",
-            "26.8%",
-            "38%",
-            "3.4%",
-            "2.7%",
-            "$1 billion",
-            "17.7%"
-          ],
-          "sourceExcerpt": [
-            "Is Eaton Stock Riskier Than It Was A Year Ago?",
-            "| Trefis Debt takes a far bigger share of Eaton’s assets than it historically has, and shareholders stand behind every dollar of it.",
-            "Eaton (ETN) sells the switchgear and liquid cooling that go inside a data center, and demand is running ahead of what its factories can ship."
-          ],
-          "analysisUpdatedAt": 1788354049.2584279
-        },
         "headlineKo": "이튼 주식은 1년 전보다 더 위험한가?"
       },
       {
@@ -67522,26 +67616,101 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=fa14e44a200c7d7882cd1e27e71f9c436c39ddff4022b4cb06049439c7aea8d4",
         "datetime": 1788187697,
         "relevance": 0.67,
+        "headlineKo": "GE Vernova 슬라이드 3%, Vertiv Holdings 및 Eaton이 매도세 유지: Rivian CFO 핸드오프가 여전히 하락세를 주도하고 있습니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Eaton expands manufacturing for modular electrical enclosures with $242+ million investment in new Arkansas facility to support the next generation of critical infrastructure development",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
+        "datetime": 1788352200,
+        "headlineKo": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+        "relevance": 0.67,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
           "facts": [
-            "GE Vernova 슬라이드 3%, Vertiv Holdings 및 Eaton이 매도세 유지: Rivian CFO 핸드오프가 여전히 하락세를 주도하고 있습니까?",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,637.00 −0.03% Dow Jones 52,873.20 +0.17% Nasdaq 100 29,022.40 −0.26% Russell 2000 2,924.69 +0.06% S&P 500 7,637.00 −0.03% 다우존스 52,873.20 +0.17% 나스닥 100 29,022.40 −0.26% 러셀 2000 2,924.69 +0.",
-            "GE Vernova는 월요일 아침 Vertiv와 Eaton이 거의 움츠러들지 않는 동안 3% 하락했으며, 그 분할의 이유는 투자자들에게 이번 매도가 실제로 무엇인지에 대한 중요한 사실을 알려줍니다."
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 3%, 0.03%, 0.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ETN의 사업과 관련된 'Eaton expands manufacturing for modular electrical enclosures with $242+ million investment in new Arkansas facility to support the next generation of critical infrastructure development' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ETN에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375781.5670042
+        }
+      },
+      {
+        "headline": "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7fb33ea201a637ea663f90ac11e22ca5274cde194b5e9795eb7ac8929369866b",
+        "datetime": 1788352080,
+        "headlineKo": "Vertiv, Schneider Electric 및 Eaton의 프로필을 특징으로 하는 모듈형 데이터 센터 구조용 강철 스키드 시장 전망 2026-2030 - AI 및 엣지 컴퓨팅으로 모듈형 데이터 센터 구축 가속화",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -67551,51 +67720,20 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "ETN에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 ETN의 사업과 관련된 'Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ETN 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "3%",
-            "0.03%",
-            "0.17%",
-            "0.26%",
-            "0.06%",
-            "$886.81",
-            "0.2%",
-            "$256.35"
-          ],
-          "sourceExcerpt": [
-            "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
-            "Skip to content ❚❚ At close S&P 500 7,637.00 −0.03% Dow Jones 52,873.20 +0.17% Nasdaq 100 29,022.40 −0.26% Russell 2000 2,924.69 +0.06% S&P 500 7,637.00 −0.03% Dow Jones 52,873.20 +0.17% Nasdaq 100 29,022.40 −0.26% Russell 2000 2,924.69 +0.",
-            "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is."
-          ],
-          "analysisUpdatedAt": 1788354052.7036757
-        },
-        "headlineKo": "GE Vernova 슬라이드 3%, Vertiv Holdings 및 Eaton이 매도세 유지: Rivian CFO 핸드오프가 여전히 하락세를 주도하고 있습니까?"
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375783.6417964
+        }
       },
-      {
-        "headline": "Should Eaton’s AI Data Center and Healthcare Deals With Trane Signal a Strategic Shift for ETN Investors?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=acc2e54c59021eff636643208dfbff6cdb90c84f29e4f12a85c0e69941353d2f",
-        "datetime": 1787998011,
-        "relevance": 1,
-        "headlineKo": "Eaton의 AI 데이터 센터 및 헬스케어 거래가 Trane Signal과 함께 ETN 투자자에게 전략적 변화를 가져올까요?"
-      },
-      {
-        "headline": "Eaton Stock Can Swing Far More Than Its Steady Story Suggests",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bf20236ab2771c3f312d92f1a758e6ab730c6d1a2e6b7f501448fad7a4f053ab",
-        "datetime": 1787951761,
-        "relevance": 0.67,
-        "headlineKo": "이튼 주식은 꾸준한 이야기가 제안하는 것보다 훨씬 더 많이 흔들릴 수 있습니다"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Is Eaton Corporation Stock Underperforming the Nasdaq?",
         "source": "Yahoo",
@@ -67645,7 +67783,7 @@ const NEWS_DATA = {
             "'MARKET ON CLOSE' : 'FREE WEBINAR' ]] [[ timeLabel ]] WATCH LIVE : Your browser of choice has not been tested for use with Barchart.com.",
             "If you have issues, please download one of the browsers listed here ."
           ],
-          "analysisUpdatedAt": 1788354045.6754637
+          "analysisUpdatedAt": 1788375786.9045362
         }
       },
       {
@@ -68262,17 +68400,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788354028.4424174,
-    "_updated_label": "2026-09-02 22:00",
+    "_fetched_at": 1788375765.371174,
+    "_updated_label": "2026-09-03 04:03",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 22,
+      "checked": 24,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788354028.4424174,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
-    "_last_success_at": 1788354028.4424174,
+    "_last_success_at": 1788375765.371174,
     "_collection_status": "ok"
   },
   "PWR": {
@@ -68327,7 +68465,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354057.8728943
+          "analysisUpdatedAt": 1788375792.9178236
         },
         "headlineKo": "Zacks 분석가 블로그에서는 Broadcom, Nvidia, Palantir, Fortinet 및 Quanta Services를 강조합니다."
       },
@@ -68375,7 +68513,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354060.5019684
+          "analysisUpdatedAt": 1788375795.10796
         },
         "headlineKo": "Quanta 대 Jacobs: 지금 구매하는 것이 더 나은 인프라 주식은 무엇입니까?"
       },
@@ -68423,7 +68561,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354062.411597
+          "analysisUpdatedAt": 1788375797.6973526
         },
         "headlineKo": "Quanta Services(PWR)에 새로운 관심을 끄는 것은 무엇입니까?"
       },
@@ -68490,7 +68628,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354057.8728943
+          "analysisUpdatedAt": 1788375792.9178236
         }
       },
       {
@@ -68538,7 +68676,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354060.5019684
+          "analysisUpdatedAt": 1788375795.10796
         }
       },
       {
@@ -68586,7 +68724,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354062.411597
+          "analysisUpdatedAt": 1788375797.6973526
         }
       },
       {
@@ -69123,17 +69261,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788354028.4424174,
-    "_updated_label": "2026-09-02 22:01",
+    "_fetched_at": 1788375765.371174,
+    "_updated_label": "2026-09-03 04:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788354028.4424174,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
-    "_last_success_at": 1788354028.4424174,
+    "_last_success_at": 1788375765.371174,
     "_collection_status": "ok"
   },
   "HUBB": {
@@ -69720,7 +69858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788364302.633793,
     "_earnings_status": "ok",
@@ -69736,29 +69874,29 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?",
+        "headline": "Vertiv to Acquire Utility Innovation in Up to $2.6 Billion Deal",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c9db9de0ff561d65a80734e72973f800ad504977e91ff37bc5af5516498a7867",
-        "datetime": 1788286020,
+        "url": "https://finnhub.io/api/news?id=19ae97de5f9b26a23671ed1b2e1006cf03c210fb21fb574f7a61717f45ce2572",
+        "datetime": 1788358304,
         "relevance": 0.67,
         "analysis": {
           "version": 9,
-          "importance": "low",
+          "importance": "medium",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "고객 계약 · 매출 연결 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?",
+            "Vertiv to Acquire Utility Innovation in Up to $2.6 Billion Deal",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -69768,27 +69906,26 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
           ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "VRT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "VRT에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354067.467872
+          "analysisUpdatedAt": 1788375802.640026
         },
-        "headlineKo": "Vertiv, 3개월 만에 20% 급락: 주식 매수, 매도 또는 보유?"
+        "headlineKo": "Vertiv, 최대 26억 달러 규모의 유틸리티 혁신 인수"
       },
       {
-        "headline": "NVDA Is Booming, But BlackRock Sounds the Alarm on a $100 Billion AI Debt Problem: Are AI Bottleneck Plays BE, VRT, MU the Next Winners?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=b61277ffeb68645f1ac6247887f96e447e1946211065fea69ac920df725df94a",
-        "datetime": 1788247323,
-        "relevance": 1.0,
+        "headline": "The Anti-Datacenter Sentiment Behind Vertiv’s $1.45 Billion Deal for Microgrid Provider",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+        "datetime": 1788353880,
+        "relevance": 0.67,
         "analysis": {
           "version": 9,
           "importance": "medium",
@@ -69839,39 +69976,124 @@ const NEWS_DATA = {
             "CAPEX 대비 영업현금흐름",
             "금리와 프로젝트 부채 비용"
           ],
-          "interpretation": "이 기사는 VRT의 사업과 관련된 'NVDA Is Booming, But BlackRock Sounds the Alarm on a $100 Billion AI Debt Problem: Are AI Bottleneck Plays BE, VRT, MU the Next Winners?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 비용·CAPEX·영업현금흐름·FCF·부채가 실제로 개선되는지를 확인해야 합니다.",
-          "relevance": 1.0,
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'The Anti-Datacenter Sentiment Behind Vertiv’s $1.45 Billion Deal for Microgrid Provider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354068.6364849
+          "analysisUpdatedAt": 1788375804.758052
         },
-        "headlineKo": "NVDA는 호황을 누리고 있지만 BlackRock은 1000억 달러 규모의 AI 부채 문제에 대해 경고합니다. AI 병목 현상 플레이가 BE, VRT, MU가 다음 승자가 될까요?"
+        "headlineKo": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서"
       },
       {
-        "headline": "Vertiv (VRT) Stock May Be Fairly Valued On Raised AI Guidance",
+        "headline": "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accele",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fd6779b6ffeb13a476430677de13d058f7eadabd930828223b8349296980ad2c",
-        "datetime": 1788228470,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+        "datetime": 1788353340,
+        "relevance": 0.67,
         "analysis": {
           "version": 9,
           "importance": "medium",
           "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accele' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375806.741066
+        },
+        "headlineKo": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것"
+      },
+      {
+        "headline": "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7fb33ea201a637ea663f90ac11e22ca5274cde194b5e9795eb7ac8929369866b",
+        "datetime": 1788352080,
+        "relevance": 0.67,
+        "headlineKo": "Vertiv, Schneider Electric 및 Eaton의 프로필을 특징으로 하는 모듈형 데이터 센터 구조용 강철 스키드 시장 전망 2026-2030 - AI 및 엣지 컴퓨팅으로 모듈형 데이터 센터 구축 가속화"
+      },
+      {
+        "headline": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b01f058ce0a82d79dc0911b51cd28472afe5f758c27cb9948e24eb56d5b44b2",
+        "datetime": 1788348600,
+        "relevance": 0.67,
+        "headlineKo": "Vertiv, AI 데이터 센터의 전력 공급 시간을 단축하기 위해 UtilityInnovation Group 인수 계약 발표"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Vertiv to Acquire Utility Innovation in Up to $2.6 Billion Deal",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=19ae97de5f9b26a23671ed1b2e1006cf03c210fb21fb574f7a61717f45ce2572",
+        "datetime": 1788358304,
+        "headlineKo": "Vertiv, 최대 26억 달러 규모의 유틸리티 혁신 인수",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "label": "고객 계약 · 매출 연결 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Vertiv (VRT) Stock May Be Fairly Valued On Raised AI Guidance",
+            "Vertiv to Acquire Utility Innovation in Up to $2.6 Billion Deal",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
             "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -69882,38 +70104,167 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
           ],
-          "interpretation": "VRT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
+          "interpretation": "VRT에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354070.9171927
-        },
-        "headlineKo": "Vertiv(VRT) 주식은 AI 지침 상승으로 인해 공정하게 평가될 수 있습니다."
+          "analysisUpdatedAt": 1788375802.640026
+        }
       },
       {
-        "headline": "Vertiv Stock Nearly Doubled On The Same Projects That Delayed Its Revenue",
+        "headline": "The Anti-Datacenter Sentiment Behind Vertiv’s $1.45 Billion Deal for Microgrid Provider",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c915295779ab74e0c09f5a0fc122c30bee50ad6dc273711b3131e32188effc4f",
-        "datetime": 1788212426,
+        "url": "https://finnhub.io/api/news?id=726ad06e9f39d610b2467131c426f62dc375f99ec353b0d00f50c7f72cfa9405",
+        "datetime": 1788353880,
+        "headlineKo": "Vertiv의 마이크로그리드 공급업체에 대한 14억 5천만 달러 규모의 거래 이면에 숨어 있는 데이터 센터 방지 정서",
         "relevance": 0.67,
-        "headlineKo": "Vertiv 주식은 수익이 지연된 동일한 프로젝트에서 거의 두 배 증가했습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'The Anti-Datacenter Sentiment Behind Vertiv’s $1.45 Billion Deal for Microgrid Provider' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375804.758052
+        }
       },
       {
-        "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
+        "headline": "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accele",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fa14e44a200c7d7882cd1e27e71f9c436c39ddff4022b4cb06049439c7aea8d4",
-        "datetime": 1788187697,
-        "relevance": 1,
-        "headlineKo": "GE Vernova 슬라이드 3%, Vertiv Holdings 및 Eaton이 매도세 유지: Rivian CFO 핸드오프가 여전히 하락세를 주도하고 있습니까?"
-      }
-    ],
-    "newsHistory": [
+        "url": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+        "datetime": 1788353340,
+        "headlineKo": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 VRT의 사업과 관련된 'Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accele' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: VRT에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375806.741066
+        }
+      },
+      {
+        "headline": "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7fb33ea201a637ea663f90ac11e22ca5274cde194b5e9795eb7ac8929369866b",
+        "datetime": 1788352080,
+        "headlineKo": "Vertiv, Schneider Electric 및 Eaton의 프로필을 특징으로 하는 모듈형 데이터 센터 구조용 강철 스키드 시장 전망 2026-2030 - AI 및 엣지 컴퓨팅으로 모듈형 데이터 센터 구축 가속화",
+        "relevance": 0.67
+      },
+      {
+        "headline": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b01f058ce0a82d79dc0911b51cd28472afe5f758c27cb9948e24eb56d5b44b2",
+        "datetime": 1788348600,
+        "headlineKo": "Vertiv, AI 데이터 센터의 전력 공급 시간을 단축하기 위해 UtilityInnovation Group 인수 계약 발표",
+        "relevance": 0.67
+      },
       {
         "headline": "Vertiv Plunges 20% in Three Months: Buy, Sell, or Hold the Stock?",
         "source": "Yahoo",
@@ -70794,17 +71145,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788354028.4424174,
-    "_updated_label": "2026-09-02 22:01",
+    "_fetched_at": 1788375765.371174,
+    "_updated_label": "2026-09-03 04:03",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 28,
+      "checked": 33,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788354028.4424174,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
-    "_last_success_at": 1788354028.4424174,
+    "_last_success_at": 1788375765.371174,
     "_collection_status": "ok"
   },
   "MOD": {
@@ -70815,6 +71166,53 @@ const NEWS_DATA = {
       "revenueEstimate": 978233106
     },
     "news": [
+      {
+        "headline": "Modine: A Meltdown Worth Buying - Temporary Supply Chain/Margin/Execution Risks",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cf363cd44249a0720d734a06850f2b6cef625f9d7f57e3fad8d19fb20c41829e",
+        "datetime": 1788346043,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modine: A Meltdown Worth Buying - Temporary Supply Chain/Margin/Execution Risks",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "MOD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "MOD에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375814.8645763
+        },
+        "headlineKo": "Modine: 구매할 가치가 있는 붕괴 - 임시 공급망/마진/실행 위험"
+      },
       {
         "headline": "Modine: A Medium-Term, High-Stakes Bet",
         "source": "SeekingAlpha",
@@ -70859,7 +71257,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354074.8579116
+          "analysisUpdatedAt": 1788375815.7079225
         },
         "headlineKo": "모딘: 중장기 고위험 투자"
       },
@@ -70907,12 +71305,59 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354079.5383925
+          "analysisUpdatedAt": 1788375816.8027527
         },
         "headlineKo": "5년 전에 모딘 제조 주식에 $ 100를 투자했다면, 오늘 이 정도를 갖게 될 것입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Modine: A Meltdown Worth Buying - Temporary Supply Chain/Margin/Execution Risks",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=cf363cd44249a0720d734a06850f2b6cef625f9d7f57e3fad8d19fb20c41829e",
+        "datetime": 1788346043,
+        "headlineKo": "Modine: 구매할 가치가 있는 붕괴 - 임시 공급망/마진/실행 위험",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "공급망 · 생산 차질 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Modine: A Meltdown Worth Buying - Temporary Supply Chain/Margin/Execution Risks",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다.",
+            "MOD의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "주문은 있어도 부품이나 생산 문제로 제때 팔지 못할 수 있다는 뉴스입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MOD",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "출하 지연 기간",
+            "재고와 리드타임",
+            "매출총이익률·대체 공급처"
+          ],
+          "interpretation": "MOD에 대한 공급망 · 생산 차질 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 부품 부족과 생산 지연은 출하량·재고·마진에 순차적으로 반영될 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788375814.8645763
+        }
+      },
       {
         "headline": "Modine: A Medium-Term, High-Stakes Bet",
         "source": "SeekingAlpha",
@@ -70958,7 +71403,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354074.8579116
+          "analysisUpdatedAt": 1788375815.7079225
         }
       },
       {
@@ -71006,7 +71451,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788354079.5383925
+          "analysisUpdatedAt": 1788375816.8027527
         }
       },
       {
@@ -71154,17 +71599,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788354028.4424174,
-    "_updated_label": "2026-09-02 22:01",
+    "_fetched_at": 1788375765.371174,
+    "_updated_label": "2026-09-03 04:03",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 7,
+      "checked": 9,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788354028.4424174,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
-    "_last_success_at": 1788354028.4424174,
+    "_last_success_at": 1788375765.371174,
     "_collection_status": "ok"
   },
   "STX": {
@@ -72211,7 +72656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
@@ -72942,7 +73387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
@@ -74012,7 +74457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -74132,9 +74577,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
-    "_last_attempt_at": 1788375624.468897,
+    "_last_attempt_at": 1788375765.371174,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -74290,7 +74735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 04:01"
+      "updated": "2026-09-03 04:03"
     },
     "_fetched_at": 1788368039.020139,
     "_updated_label": "2026-09-03 01:54",

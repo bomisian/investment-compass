@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788375720.130671,
+  "generatedAt": 1788375821.942873,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788329286,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -2.1,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.98,
+            "after": -2.62
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "Opera는 한때 €561M의 Microsoft 벌금을 부과하는 데 도움을 주었습니다. 이제 Edge에 대한 EU 독점 금지 싸움에서 패했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=cd75fc4bb310944e142653ad32dbd9867ab91a20d63c030341bd0545a5bb3fc8",
+        "eventId": "99c84182ef22525cd118",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -2.1, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -2.62, \"before\": -2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"99c84182ef22525cd118\"}"
+      },
       {
         "changedAt": 1788375720.130671,
         "dataAsOf": 1788329286,
@@ -6104,6 +6133,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788355620,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.85,
+            "after": 5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 2.1
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "억만장자 David Tepper는 Micron과 Sandisk를 매각하고 최대 고객 중 한 곳을 상대로 헤징하고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ffa1ff2780a4397efd1c6b3878cabb3067edbc1bbc113a8a27f9656421319068",
+        "eventId": "bc40ecde4d85b2bee1d9",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 3.85, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.1, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"bc40ecde4d85b2bee1d9\"}"
+      },
+      {
         "changedAt": 1788375720.130671,
         "dataAsOf": 1788355620,
         "changes": [
@@ -7782,6 +7840,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788361221,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -1.4,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.62,
+            "after": -2.27
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Marvell 대 Broadcom: 현재 하나의 AI 주식이 더 매력적으로 보입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49",
+        "eventId": "c89b54469e1b3165018a",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": -1.4, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -2.27, \"before\": -2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c89b54469e1b3165018a\"}"
+      },
       {
         "changedAt": 1788375720.130671,
         "dataAsOf": 1788361221,
@@ -12863,6 +12950,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788360120,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.38,
+            "after": 5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Dell은 메모리 칩 부족을 지적했습니다. 마이크론 스톡은 어깨를 으쓱합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=9acb9cfa57abbdd01129b242d71c149557e85169830fcb6e397e34bc406577d0",
+        "eventId": "12d88406bfdded99a78b",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.38, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"12d88406bfdded99a78b\"}"
+      },
+      {
         "changedAt": 1788375720.130671,
         "dataAsOf": 1788360120,
         "changes": [
@@ -15886,6 +15990,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ETN": [
       {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788352200,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": 0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.05,
+            "after": -0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Eaton은 차세대 중요 인프라 개발을 지원하기 위해 새로운 아칸소 시설에 2억 4200만 달러 이상을 투자하여 모듈식 전기 인클로저 제조를 확장했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=20f87beb5fc3c063cec875d031989fa083df8691dc4df3082248b2ca966a90a2",
+        "eventId": "570e12f738ae57a4edc4",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"570e12f738ae57a4edc4\"}"
+      },
+      {
         "changedAt": 1788307414.6287165,
         "dataAsOf": 1788205299,
         "changes": [
@@ -16036,6 +16169,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "VRT": [
       {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788358304,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.0,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 2.8
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 1.92
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv, 최대 26억 달러 규모의 유틸리티 혁신 인수",
+        "newsUrl": "https://finnhub.io/api/news?id=19ae97de5f9b26a23671ed1b2e1006cf03c210fb21fb574f7a61717f45ce2572",
+        "eventId": "40d7f8b7dbe63c703c0f",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.8, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.92, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"40d7f8b7dbe63c703c0f\"}"
+      },
+      {
         "changedAt": 1788277211.0786126,
         "dataAsOf": 1788247323,
         "changes": [
@@ -16141,6 +16309,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MOD": [
+      {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788346043,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": -0.35
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": -0.35
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Modine: 구매할 가치가 있는 붕괴 - 임시 공급망/마진/실행 위험",
+        "newsUrl": "https://finnhub.io/api/news?id=cf363cd44249a0720d734a06850f2b6cef625f9d7f57e3fad8d19fb20c41829e",
+        "eventId": "54d9e45cffdcb5a06b32",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"54d9e45cffdcb5a06b32\"}"
+      },
       {
         "changedAt": 1788354084.2828186,
         "dataAsOf": 0,
@@ -16710,6 +16907,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "SBGSY": [
+      {
+        "changedAt": 1788375821.942873,
+        "dataAsOf": 1788353340,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Schneider Electric, Vertiv 및 Huawei의 프로필을 포함하는 2025~2035년 컨테이너형 데이터센터 시장 전망 - 클라우드, 엣지 컴퓨팅 및 AI 수요가 가속화됨에 따라 업계는 2035년까지 1,113억 6천만 달러에 도달할 것",
+        "newsUrl": "https://finnhub.io/api/news?id=498fe99a3bfb9e109034ebddb99c25befca485bd095eeacc151215725eec6cc9",
+        "eventId": "ef0940f7bec43eec2f1b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ef0940f7bec43eec2f1b\"}"
+      },
       {
         "changedAt": 1787218520.0463588,
         "dataAsOf": 0,
