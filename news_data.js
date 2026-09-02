@@ -5143,7 +5143,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -8296,7 +8296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -10978,7 +10978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -13350,7 +13350,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -16426,7 +16426,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -17410,7 +17410,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -20228,7 +20228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -23428,7 +23428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -26429,7 +26429,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -29501,7 +29501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -32022,7 +32022,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -34018,7 +34018,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -35608,7 +35608,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -35662,7 +35662,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371986.1699343
+          "analysisUpdatedAt": 1788372029.4974825
         },
         "headlineKo": "오늘의 주식 시장: 미국-이란 긴장이 고조되면서 Dow Jones, S&P 500 선물 상승, Nasdaq 100 하락 - DELL, PANW, MDB, AVGO 초점(업데이트됨)"
       },
@@ -35710,7 +35710,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371987.3177247
+          "analysisUpdatedAt": 1788372030.5043404
         },
         "headlineKo": "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다."
       },
@@ -35758,7 +35758,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371988.5003247
+          "analysisUpdatedAt": 1788372031.3245044
         },
         "headlineKo": "글로벌 본드 루트 스파크 기술 매도: 화요일에 5% 하락한 5개의 나스닥 주식"
       },
@@ -35825,7 +35825,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371986.1699343
+          "analysisUpdatedAt": 1788372029.4974825
         }
       },
       {
@@ -35873,7 +35873,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371987.3177247
+          "analysisUpdatedAt": 1788372030.5043404
         }
       },
       {
@@ -35921,7 +35921,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371988.5003247
+          "analysisUpdatedAt": 1788372031.3245044
         }
       },
       {
@@ -37294,17 +37294,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788371983.0318413,
-    "_updated_label": "2026-09-03 02:59",
+    "_fetched_at": 1788372026.3073199,
+    "_updated_label": "2026-09-03 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
-    "_last_success_at": 1788371983.0318413,
+    "_last_success_at": 1788372026.3073199,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -39647,7 +39647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -41910,7 +41910,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -44054,7 +44054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -44113,7 +44113,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371994.77373
+          "analysisUpdatedAt": 1788372037.50027
         },
         "headlineKo": "Palantir CEO Alex Karp는 국방 기술에 두 배로 투자하고 있습니다."
       },
@@ -44161,7 +44161,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371996.8773522
+          "analysisUpdatedAt": 1788372039.6223137
         },
         "headlineKo": "Michael Burry AI 단기 베팅은 Palantir, Nvidia, Micron Soar로 무너졌습니다."
       },
@@ -44209,7 +44209,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371997.6357021
+          "analysisUpdatedAt": 1788372040.3807302
         },
         "headlineKo": "AIG 자피노 회장 사임, 팰런티어 합류"
       },
@@ -44276,7 +44276,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371994.77373
+          "analysisUpdatedAt": 1788372037.50027
         }
       },
       {
@@ -44324,7 +44324,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371996.8773522
+          "analysisUpdatedAt": 1788372039.6223137
         }
       },
       {
@@ -44372,7 +44372,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788371997.6357021
+          "analysisUpdatedAt": 1788372040.3807302
         }
       },
       {
@@ -46117,17 +46117,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788371983.0318413,
+    "_fetched_at": 1788372026.3073199,
     "_updated_label": "2026-09-03 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
-    "_last_success_at": 1788371983.0318413,
+    "_last_success_at": 1788372026.3073199,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -47462,7 +47462,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -48643,7 +48643,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -48716,7 +48716,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.00% S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.",
             "By Joel South Published September 2, 2026, 10:00am ET · 2 min read 𝕏 f ⧉ An investor shows visible stress as a market chart plunges, a sentiment that might resonate with MongoDB shareholders after the stock's unexpected decline."
           ],
-          "analysisUpdatedAt": 1788372008.9407573
+          "analysisUpdatedAt": 1788372050.27482
         },
         "headlineKo": "Jim Cramer는 Marvell의 120억 달러 규모의 Google 거래를 응원했지만 주가는 거의 10% 하락했습니다."
       },
@@ -48778,7 +48778,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.00% S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.",
             "Broadcom: One AI Stock Looks More Attractive Right Now Marvell and Broadcom both rode the AI wave to blowout quarters, but the businesses behind the tickers are built on completely different gambles, and only one of them offers a cushion if"
           ],
-          "analysisUpdatedAt": 1788372013.9330971
+          "analysisUpdatedAt": 1788372053.25187
         },
         "headlineKo": "Marvell 대 Broadcom: 현재 하나의 AI 주식이 더 매력적으로 보입니다."
       },
@@ -48840,7 +48840,7 @@ const NEWS_DATA = {
             "A 59-million-share warrant issued to a major customer equates to 6.4% dilution and could reduce reported revenue by up to $7 billion if fully vested.",
             "Revenue concentration has worsened, with one distributor at 44% and four customers comprising 72% of receivables, raising durability and geopolitical risk concerns."
           ],
-          "analysisUpdatedAt": 1788372018.7869213
+          "analysisUpdatedAt": 1788372055.5631328
         },
         "headlineKo": "Marvell Technology: 잘못된 이유로 주식이 하락함(강한 매도 반복)"
       },
@@ -48921,7 +48921,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.00% S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.",
             "By Joel South Published September 2, 2026, 10:00am ET · 2 min read 𝕏 f ⧉ An investor shows visible stress as a market chart plunges, a sentiment that might resonate with MongoDB shareholders after the stock's unexpected decline."
           ],
-          "analysisUpdatedAt": 1788372008.9407573
+          "analysisUpdatedAt": 1788372050.27482
         }
       },
       {
@@ -48983,7 +48983,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.00% S&P 500 7,670.30 +0.40% Dow Jones 53,024.80 +0.46% Nasdaq 100 29,130.00 +0.11% Russell 2000 2,952.05 +1.",
             "Broadcom: One AI Stock Looks More Attractive Right Now Marvell and Broadcom both rode the AI wave to blowout quarters, but the businesses behind the tickers are built on completely different gambles, and only one of them offers a cushion if"
           ],
-          "analysisUpdatedAt": 1788372013.9330971
+          "analysisUpdatedAt": 1788372053.25187
         }
       },
       {
@@ -49045,7 +49045,7 @@ const NEWS_DATA = {
             "A 59-million-share warrant issued to a major customer equates to 6.4% dilution and could reduce reported revenue by up to $7 billion if fully vested.",
             "Revenue concentration has worsened, with one distributor at 44% and four customers comprising 72% of receivables, raising durability and geopolitical risk concerns."
           ],
-          "analysisUpdatedAt": 1788372018.7869213
+          "analysisUpdatedAt": 1788372055.5631328
         }
       },
       {
@@ -51797,17 +51797,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788371983.0318413,
+    "_fetched_at": 1788372026.3073199,
     "_updated_label": "2026-09-03 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
-    "_last_success_at": 1788371983.0318413,
+    "_last_success_at": 1788372026.3073199,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -52913,7 +52913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -54231,7 +54231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -55473,7 +55473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -58457,7 +58457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -59658,7 +59658,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788360541.387746,
     "_earnings_status": "ok",
@@ -60717,7 +60717,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -61796,7 +61796,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -62972,7 +62972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -64351,7 +64351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -65256,7 +65256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
@@ -66355,7 +66355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -67236,7 +67236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -68097,7 +68097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -68688,7 +68688,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788364302.633793,
     "_earnings_status": "ok",
@@ -69768,7 +69768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -70128,7 +70128,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -70187,7 +70187,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372027.209599
+          "analysisUpdatedAt": 1788372062.4032173
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -70235,7 +70235,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372028.95917
+          "analysisUpdatedAt": 1788372064.506389
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -70301,7 +70301,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372031.205937
+          "analysisUpdatedAt": 1788372066.5043814
         },
         "headlineKo": "Seagate Technology Holdings (STX), 투자자들의 요청에 따라 AI Summit으로 향하다"
       },
@@ -70368,7 +70368,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372027.209599
+          "analysisUpdatedAt": 1788372062.4032173
         }
       },
       {
@@ -70416,7 +70416,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372028.95917
+          "analysisUpdatedAt": 1788372064.506389
         }
       },
       {
@@ -70482,7 +70482,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372031.205937
+          "analysisUpdatedAt": 1788372066.5043814
         }
       },
       {
@@ -71173,17 +71173,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788371983.0318413,
-    "_updated_label": "2026-09-03 03:00",
+    "_fetched_at": 1788372026.3073199,
+    "_updated_label": "2026-09-03 03:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
-    "_last_success_at": 1788371983.0318413,
+    "_last_success_at": 1788372026.3073199,
     "_collection_status": "ok"
   },
   "EME": {
@@ -71238,7 +71238,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372036.1393692
+          "analysisUpdatedAt": 1788372071.5021415
         },
         "headlineKo": "EMCOR 그룹 (EME), 데이터 센터 수요와 공정 가치에 다시 집중"
       },
@@ -71285,7 +71285,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372038.3625154
+          "analysisUpdatedAt": 1788372073.3300235
         },
         "headlineKo": "데이터 센터 수요에 대한 지침이 제기된 후 EMCOR 그룹 (EME) 의 불 사례가 변경될 수 있음"
       },
@@ -71333,7 +71333,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372040.3367217
+          "analysisUpdatedAt": 1788372074.927672
         },
         "headlineKo": "EMCOR vs. Granite: 지금 구매하는 것이 더 나은 건설 재고는 무엇입니까?"
       },
@@ -71400,7 +71400,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372036.1393692
+          "analysisUpdatedAt": 1788372071.5021415
         }
       },
       {
@@ -71447,7 +71447,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372038.3625154
+          "analysisUpdatedAt": 1788372073.3300235
         }
       },
       {
@@ -71495,7 +71495,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788372040.3367217
+          "analysisUpdatedAt": 1788372074.927672
         }
       },
       {
@@ -71904,17 +71904,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788371983.0318413,
-    "_updated_label": "2026-09-03 03:00",
+    "_fetched_at": 1788372026.3073199,
+    "_updated_label": "2026-09-03 03:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
-    "_last_success_at": 1788371983.0318413,
+    "_last_success_at": 1788372026.3073199,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -72980,7 +72980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_last_attempt_at": 1788369951.3182576,
     "_earnings_status": "ok",
@@ -73100,9 +73100,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
-    "_last_attempt_at": 1788371983.0318413,
+    "_last_attempt_at": 1788372026.3073199,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -73258,7 +73258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 03:00"
+      "updated": "2026-09-03 03:01"
     },
     "_fetched_at": 1788368039.020139,
     "_updated_label": "2026-09-03 01:54",
