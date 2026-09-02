@@ -1618,9 +1618,25 @@ function computeFairValue(ticker, price, fund, est){
     if(growth > 0.5) cautions.push(`내년 이익이 <b>+${(growth*100).toFixed(0)}%</b> 급증할 것으로 예상돼요. 이런 국면에선 시장이 <b>PER을 오히려 낮춰서</b> 반응하는 경우가 많아요 — 메모리·반도체처럼 사이클을 타는 업종은 <b>이익이 가장 좋을 때 PER이 가장 낮아지거든요</b>. "PER 그대로" 가정이 과하게 낙관적일 수 있으니 위 <b>보수적</b> 값을 더 무겁게 보세요.`);
     if(anchorPe > PE_FRAGILE_ABS) cautions.push(`현재 PER이 <b>${anchorPe.toFixed(0)}배</b>로 매우 높아요. 이익이 조금만 어긋나도 이 시나리오 가격이 크게 흔들리니 참고만 하세요.`);
     if(nAnalysts!=null && nAnalysts < 15) cautions.push(`추정에 참여한 애널리스트가 <b>${nAnalysts}명</b>뿐이라 컨센서스가 흔들릴 수 있어요.`);
+    // 2026-09-02 추가: 사용자 질문(팔란티어처럼 상장 이력이 짧아 자기 고유 PER 역사가 없는 종목은,
+    // 전체 통계 폴백 배율(0.64~1.55배)을 이미 매우 높은 현재 PER에 곱하다 보니 '보수적' 시나리오도
+    // 절대적으로는 여전히 비싼 PER로 나옴 - 이걸 캐치할 방법이 있냐는 요청)에 대한 대응.
+    // 새 API 호출 없이 fund에 이미 들어있던 forwardPEG(PER÷성장률)를 성장성 대비 교차검증으로 붙임.
+    // 실측: PLTR forwardPE 67배·PEG 1.21배(성장이 PER을 상당히 뒷받침) / QCOM PER 14~19배로
+    // 밴드상 안 비싸 보여도 PEG 8.47배(이익이 줄고 있어 저평가로 보기 어려움). 새 임계값을 지어내지
+    // 않고 이 화면에 이미 있던 PEG 힌트 문구 기준(1 이하 저평가/2 이상 고평가)을 그대로 재사용함.
+    const peg = (fund && fund.forwardPEG!=null && isFinite(fund.forwardPEG)) ? fund.forwardPEG : null;
+    if(peg!=null && !hasOwnBand){
+      if(peg <= 1) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요 - 그래서 '보수적' 가격도 절대적으로는 여전히 비싸 보일 수 있어요. 다만 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로(1 이하면 성장성 대비 저평가), 지금 성장 속도가 이 PER을 상당히 뒷받침하는 편이에요.`);
+      else if(peg >= 2) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요. 성장률까지 감안한 <b>PEG도 ${peg.toFixed(2)}배</b>로 높은 편이라(2 이상이면 성장성 대비 고평가), 위 숫자를 절대적인 '싸다'로 보기보다는 참고만 하세요.`);
+    }
+    if(hasOwnBand && peg!=null){
+      if(peg >= 2 && price < mid) cautions.push(`PER 밴드만 보면 지금 가격이 이 종목 자체의 저평가 쪽에 가까운데, 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 높은 편이에요(2 이상이면 성장성 대비 고평가) - 이익 성장이 둔화되고 있을 수 있으니, 밸류트랩은 아닌지 EPS 컨센서스 개정 방향이나 03 실적 탭도 같이 확인해보세요.`);
+      else if(peg <= 1 && price > mid) cautions.push(`PER 밴드만 보면 지금 가격이 이 종목 자체의 고평가 쪽에 가까운데, 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로 낮은 편이에요(1 이하면 성장성 대비 저평가) - 성장 속도가 높은 PER을 뒷받침하고 있어서, 단순히 '비싸다'로만 보기는 이를 수 있어요.`);
+    }
     out.fwd = {
       low: mid*bandLow, mid, high: mid*bandHigh,
-      eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions,
+      eps0, eps1, growth, anchorPe, pe1y, analysts:nAnalysts, cautions, peg,
       endDate0, endDate1, consensusAsOf,
       bandLow, bandHigh, bandSource: hasOwnBand ? 'ticker' : 'universal', bandYears: fund?.perBandYears ?? null,
     };
