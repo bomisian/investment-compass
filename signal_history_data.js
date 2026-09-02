@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788309414.8841152,
+  "generatedAt": 1788311290.060257,
   "records": {
     "MSFT": [
       {
@@ -5393,6 +5393,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788311290.060257,
+        "dataAsOf": 1788291300,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.2,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": -0.17
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia는 AI 붐의 두뇌를 판매합니다. 뭔가 다른 것이 인기를 끌고 있지만 월스트리트의 레이더에는 없습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=99be8f57191c0c8d6a52fcc0e4ac2336cfc50e21c4243622efd96ad584760f40",
+        "eventId": "4fa5eae7bcd88ece6fca",
+        "fingerprint": "{\"changes\": [{\"after\": 3.85, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4fa5eae7bcd88ece6fca\"}"
+      },
+      {
         "changedAt": 1788307509.638985,
         "dataAsOf": 1788291300,
         "changes": [
@@ -6173,6 +6196,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1788311290.060257,
+        "dataAsOf": 1788284641,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.68,
+            "after": 3.33
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMD의 Instinct 시스템이 이제 사우디아라비아에 출시되었습니다. 다음 250메가와트의 주식 가치는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=3c2c7e8525a1f3f4b9011f9f61f6ebe2e1a4e2309ce9cb831645fea2bf5d1870",
+        "eventId": "f77ce872a6e2c3d93af5",
+        "fingerprint": "{\"changes\": [{\"after\": 3.33, \"before\": 3.68, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f77ce872a6e2c3d93af5\"}"
+      },
       {
         "changedAt": 1788307509.638985,
         "dataAsOf": 1788284641,
@@ -7718,6 +7758,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ARM": [
+      {
+        "changedAt": 1788311290.060257,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
+      },
       {
         "changedAt": 1788288631.006216,
         "dataAsOf": 1788201060,
@@ -11227,6 +11290,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788311290.060257,
+        "dataAsOf": 1788290100,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.72
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.33,
+            "after": 2.98
+          }
+        ],
+        "cause": "메모리 ASP와 이익률 개선 가능성",
+        "newsHeadline": "Ternus 시대가 시작되면서 Apple 주가 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
+        "eventId": "4771c7405feee78cc629",
+        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.98, \"before\": 3.33, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4771c7405feee78cc629\"}"
+      },
       {
         "changedAt": 1788307509.638985,
         "dataAsOf": 1788290100,
