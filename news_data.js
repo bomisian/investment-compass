@@ -5005,7 +5005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -7956,7 +7956,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -10464,7 +10464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -12836,7 +12836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -15912,7 +15912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -16896,7 +16896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -19714,7 +19714,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -22880,7 +22880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -25881,7 +25881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -28953,7 +28953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -31394,7 +31394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -33280,7 +33280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -34821,7 +34821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -36465,7 +36465,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -38812,7 +38812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -40874,7 +40874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -40889,6 +40889,102 @@ const NEWS_DATA = {
       "revenueEstimate": 11548517558
     },
     "news": [
+      {
+        "headline": "Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=02903d17c498bc06b33e08af437865b1df539b96b18201277a8c8c6199aecbba",
+        "datetime": 1788339163,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788356786.7751913
+        },
+        "headlineKo": "Salesforce: Agentforce가 AI 위협을 성장 촉매제로 바꾸고 있습니다."
+      },
+      {
+        "headline": "Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fd9e8951d13fb72b8c8e084fb407c91d00372816f9ce55f4620be42ea3aea5f6",
+        "datetime": 1788336932,
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788356787.724158
+        },
+        "headlineKo": "Salesforce: SaaSpocalypse는 FUD이며 여전히 구매입니다"
+      },
       {
         "headline": "Salesforce (CRM) Backs Workforce AI And Adds New AgentExchange Email Tool",
         "source": "Yahoo",
@@ -40933,7 +41029,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334104.074833
+          "analysisUpdatedAt": 1788356790.182763
         },
         "headlineKo": "Salesforce(CRM), Workforce AI를 지원하고 새로운 AgentExchange 이메일 도구 추가"
       },
@@ -40943,60 +41039,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "datetime": 1788285729,
         "relevance": 1.0,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Agentforce 채택 및 결과 가격 책정으로 Salesforce AI ARR 급증 주요 콘텐츠로 건너뛰기 → 약속한 주식 기호는 다음과 같습니다(Stansberry Research에서) (광고) Salesforce AI ARR이 Agentforce 채택 및 결과 가격 상승으로 급증",
-            "MarketBeat Media, LLC의 이미지를 닫습니다.",
-            "요점 Salesforce의 AI 채택이 가속화되고 있습니다. 10,000명 이상의 고객이 하나 이상의 AI 제품을 사용하고 있으며 Agentforce 및 데이터 ARR은 200% 이상 증가하여 39억 달러를 기록했고 Agentforce ARR은 15억 달러에 도달했습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 200%, $3.9 billion, $1.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "200%",
-            "$3.9 billion",
-            "$1.5 billion",
-            "97%",
-            "$7 billion",
-            "6%",
-            "93%",
-            "7%"
-          ],
-          "sourceExcerpt": [
-            "Salesforce AI ARR Surges as Agentforce Adoption and Outcome Pricing Gain Momentum Skip to main content → Here’s the stock symbol I’ve promised (From Stansberry Research) (Ad) Salesforce AI ARR Surges as Agentforce Adoption and Outcome Prici",
-            "Close Image from MarketBeat Media, LLC.",
-            "Key Points Salesforce’s AI adoption is accelerating: More than 10,000 customers use at least one AI product, while Agentforce and data ARR rose over 200% to $3.9 billion and Agentforce ARR reached $1.5 billion."
-          ],
-          "analysisUpdatedAt": 1788334107.9047725
-        },
         "headlineKo": "Agentforce 채택 및 결과 가격 책정이 모멘텀을 얻으면서 Salesforce AI ARR 급증"
       },
       {
@@ -41005,15 +41047,26 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=1e21e3f370091fb017ae9d76df8e15169a0227d3cf239d7f0edc7dd5f0e89013",
         "datetime": 1788282381,
         "relevance": 0.5,
+        "headlineKo": "Salesforce 주식에 무슨 일이 일어나고 있나요?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=02903d17c498bc06b33e08af437865b1df539b96b18201277a8c8c6199aecbba",
+        "datetime": 1788339163,
+        "headlineKo": "Salesforce: Agentforce가 AI 위협을 성장 촉매제로 바꾸고 있습니다.",
+        "relevance": 1.0,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What's Going On With Salesforce Stock?",
+            "Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -41037,34 +41090,63 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'What's Going On With Salesforce Stock?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce: Agentforce Is Turning The AI Threat Into A Growth Catalyst' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788356786.7751913
+        }
+      },
+      {
+        "headline": "Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=fd9e8951d13fb72b8c8e084fb407c91d00372816f9ce55f4620be42ea3aea5f6",
+        "datetime": 1788336932,
+        "headlineKo": "Salesforce: SaaSpocalypse는 FUD이며 여전히 구매입니다",
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce: The SaaSpocalypse Is FUD, It Is Still A Buy' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334110.055944
-        },
-        "headlineKo": "Salesforce 주식에 무슨 일이 일어나고 있나요?"
+          "analysisUpdatedAt": 1788356787.724158
+        }
       },
-      {
-        "headline": "Salesforce, Inc. (CRM) Discusses AI Monetization, Product Momentum and Platform Integration Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=1802fb70bf93d526ab595ec4ae25e59980be93a519d7b9e67b35e07edea64c7c",
-        "datetime": 1788281082,
-        "relevance": 1,
-        "headlineKo": "Salesforce, Inc.(CRM), AI 수익화, 제품 모멘텀 및 플랫폼 통합 대본에 대해 논의"
-      },
-      {
-        "headline": "Agentforce: Scaling the Next Generation of Salesforce (CRM)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=66749c930107ae138a4cf8272330d8fabd14703510f78b4f058eb04ae9b25ccf",
-        "datetime": 1788277169,
-        "relevance": 1,
-        "headlineKo": "Agentforce: 차세대 Salesforce(CRM) 확장"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Salesforce (CRM) Backs Workforce AI And Adds New AgentExchange Email Tool",
         "source": "Yahoo",
@@ -41110,7 +41192,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334104.074833
+          "analysisUpdatedAt": 1788356790.182763
         }
       },
       {
@@ -42930,17 +43012,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788334100.1838396,
-    "_updated_label": "2026-09-02 16:28",
+    "_fetched_at": 1788356781.164971,
+    "_updated_label": "2026-09-02 22:46",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 63,
+      "checked": 65,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
-    "_last_attempt_at": 1788334100.1838396,
+    "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
-    "_last_success_at": 1788334100.1838396,
+    "_last_success_at": 1788356781.164971,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -44859,7 +44941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -46198,7 +46280,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -46213,6 +46295,54 @@ const NEWS_DATA = {
       "revenueEstimate": 1389198904
     },
     "news": [
+      {
+        "headline": "Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=d5c4bbb89645605ea218a3152c90363794d78fec8fbe9c53a467cf46f7be4ada",
+        "datetime": 1788337946,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788356799.209546
+        },
+        "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
+      },
       {
         "headline": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
         "source": "Yahoo",
@@ -46271,7 +46401,7 @@ const NEWS_DATA = {
             "Help ARM: Examining the Relatively Steady Revenue Generation Trends Over the Past Year ARM ( ARM -2.93% ) primarily generates revenue through licensing and royalty collection on its proprietary chip designs.",
             "It conceptualizes, engineers, and licenses its core processing unit (CPU) designs, system intellectual property solutions, graphics processing units (GPUs), and supplementary software development tools to original equipment makers globally."
           ],
-          "analysisUpdatedAt": 1788334115.3718207
+          "analysisUpdatedAt": 1788356801.737084
         },
         "headlineKo": "ARM 대 Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교"
       },
@@ -46333,7 +46463,7 @@ const NEWS_DATA = {
             "Help Shares of Arm Holdings ( ARM -2.93% ) slipped on Tuesday, falling as much as 5.1%.",
             "The catalyst that drove the semiconductor specialist lower was concern about an insider stock sale -- but the devil's in the details."
           ],
-          "analysisUpdatedAt": 1788334117.961183
+          "analysisUpdatedAt": 1788356804.3846333
         },
         "headlineKo": "Arm Holdings 주가가 화요일에 하락한 이유"
       },
@@ -46343,15 +46473,34 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=99e75bcb552600996bbda8ebaf673730516775d32babc2d4941c20b9444577af",
         "datetime": 1788235071,
         "relevance": 0.75,
+        "headlineKo": "ARM 주식 월요일에 무슨 일이 일어나고 있나요?"
+      },
+      {
+        "headline": "Arm Holdings (ARM) Heads To TestMu Conference, Is The AI Story Fully Priced?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8a829ba4db97cbc1b732b6cec7513fa53c74f5b2d1f689b9ead342d85b266745",
+        "datetime": 1788206727,
+        "relevance": 1,
+        "headlineKo": "Arm Holdings(ARM)가 TestMu 컨퍼런스로 향합니다. AI 스토리에 완전 가격이 책정되어 있나요?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=d5c4bbb89645605ea218a3152c90363794d78fec8fbe9c53a467cf46f7be4ada",
+        "datetime": 1788337946,
+        "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식",
+        "relevance": 1,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What's Going On With ARM Stock Monday",
+            "Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -46375,34 +46524,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ARM의 사업과 관련된 'What's Going On With ARM Stock Monday' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.75,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334120.0831919
-        },
-        "headlineKo": "ARM 주식 월요일에 무슨 일이 일어나고 있나요?"
+          "analysisUpdatedAt": 1788356799.209546
+        }
       },
-      {
-        "headline": "Arm Holdings (ARM) Heads To TestMu Conference, Is The AI Story Fully Priced?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8a829ba4db97cbc1b732b6cec7513fa53c74f5b2d1f689b9ead342d85b266745",
-        "datetime": 1788206727,
-        "relevance": 1,
-        "headlineKo": "Arm Holdings(ARM)가 TestMu 컨퍼런스로 향합니다. AI 스토리에 완전 가격이 책정되어 있나요?"
-      },
-      {
-        "headline": "ARM vs. NVDA: Which AI Chip Designer is Worth Investing in?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
-        "datetime": 1788201060,
-        "relevance": 0.75,
-        "headlineKo": "ARM 대 NVDA: 어떤 AI 칩 디자이너에 투자할 가치가 있나요?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
         "source": "Yahoo",
@@ -46462,7 +46592,7 @@ const NEWS_DATA = {
             "Help ARM: Examining the Relatively Steady Revenue Generation Trends Over the Past Year ARM ( ARM -2.93% ) primarily generates revenue through licensing and royalty collection on its proprietary chip designs.",
             "It conceptualizes, engineers, and licenses its core processing unit (CPU) designs, system intellectual property solutions, graphics processing units (GPUs), and supplementary software development tools to original equipment makers globally."
           ],
-          "analysisUpdatedAt": 1788334115.3718207
+          "analysisUpdatedAt": 1788356801.737084
         }
       },
       {
@@ -46524,7 +46654,7 @@ const NEWS_DATA = {
             "Help Shares of Arm Holdings ( ARM -2.93% ) slipped on Tuesday, falling as much as 5.1%.",
             "The catalyst that drove the semiconductor specialist lower was concern about an insider stock sale -- but the devil's in the details."
           ],
-          "analysisUpdatedAt": 1788334117.961183
+          "analysisUpdatedAt": 1788356804.3846333
         }
       },
       {
@@ -47325,17 +47455,17 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1788334100.1838396,
-    "_updated_label": "2026-09-02 16:28",
+    "_fetched_at": 1788356781.164971,
+    "_updated_label": "2026-09-02 22:46",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 31,
+      "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
-    "_last_attempt_at": 1788334100.1838396,
+    "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
-    "_last_success_at": 1788334100.1838396,
+    "_last_success_at": 1788356781.164971,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -50253,7 +50383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -51363,7 +51493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -52632,7 +52762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -53874,7 +54004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788352979.5287268,
     "_earnings_status": "ok",
@@ -56644,7 +56774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -57845,7 +57975,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788337883.622363,
     "_earnings_status": "ok",
@@ -58904,7 +59034,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -59899,7 +60029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -61029,7 +61159,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -62408,7 +62538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -62467,7 +62597,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334125.267045
+          "analysisUpdatedAt": 1788356810.1903977
         },
         "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
       },
@@ -62491,7 +62621,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.02%, 0.72%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.34%, 0.45%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -62515,8 +62645,8 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "2.02%",
-            "0.72%",
+            "0.34%",
+            "0.45%",
             "80%",
             "$25.5 billion",
             "8.3%",
@@ -62529,7 +62659,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788334127.919027
+          "analysisUpdatedAt": 1788356812.7789567
         },
         "headlineKo": "Constellation Energy vs. NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?"
       },
@@ -62577,7 +62707,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334129.8663614
+          "analysisUpdatedAt": 1788356814.8221042
         },
         "headlineKo": "CEG 대 VST: 투자자에게 어떤 원자력 유틸리티 주식이 눈에 띄는가?"
       },
@@ -62644,7 +62774,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334125.267045
+          "analysisUpdatedAt": 1788356810.1903977
         }
       },
       {
@@ -62668,7 +62798,7 @@ const NEWS_DATA = {
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.02%, 0.72%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.34%, 0.45%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -62692,8 +62822,8 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "2.02%",
-            "0.72%",
+            "0.34%",
+            "0.45%",
             "80%",
             "$25.5 billion",
             "8.3%",
@@ -62706,7 +62836,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788334127.919027
+          "analysisUpdatedAt": 1788356812.7789567
         }
       },
       {
@@ -62754,7 +62884,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788334129.8663614
+          "analysisUpdatedAt": 1788356814.8221042
         }
       },
       {
@@ -63307,17 +63437,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788334100.1838396,
-    "_updated_label": "2026-09-02 16:28",
+    "_fetched_at": 1788356781.164971,
+    "_updated_label": "2026-09-02 22:46",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
-    "_last_attempt_at": 1788334100.1838396,
+    "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
-    "_last_success_at": 1788334100.1838396,
+    "_last_success_at": 1788356781.164971,
     "_collection_status": "ok"
   },
   "VST": {
@@ -64412,7 +64542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -65293,7 +65423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -66154,7 +66284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -66745,7 +66875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788341670.1721408,
     "_earnings_status": "ok",
@@ -67825,7 +67955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -68185,7 +68315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788354028.4424174,
     "_earnings_status": "ok",
@@ -69236,7 +69366,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -69967,7 +70097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788349233.0413587,
     "_earnings_status": "ok",
@@ -71037,7 +71167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_last_attempt_at": 1788347252.1598117,
     "_earnings_status": "ok",
@@ -71157,9 +71287,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
-    "_last_attempt_at": 1788354934.063383,
+    "_last_attempt_at": 1788356781.164971,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -71315,7 +71445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 22:15"
+      "updated": "2026-09-02 22:46"
     },
     "_fetched_at": 1788345392.6233885,
     "_updated_label": "2026-09-02 19:36",

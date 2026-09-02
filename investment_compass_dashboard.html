@@ -5090,8 +5090,27 @@ function renderEpsRevision(ticker){
     const days = Math.floor((Date.now() - new Date(e.updatedAt).getTime()) / 86400000);
     updLabel = days<=0 ? '오늘 갱신' : `${days}일 전 갱신`;
   }catch(err){}
+  // 2026-09-02 추가: Alpha Vantage 응답이 원래 현재/다음(+가끔 그다음) 회계연도까지 같이 주는데,
+  // 예전엔 '다음 회계연도' 한 줄만 쓰고 나머지는 버렸음. 새 API 호출 없이 이미 받던 응답을 더
+  // 활용하는 것뿐 - 몇 개년치가 실제로 왔는지에 맞춰서만 표시하고(2개면 2개, 3개면 3개), 억지로
+  // 특정 연도를 채워 넣지 않음.
+  const fyRows = Array.isArray(e.fiscalYears) ? e.fiscalYears.filter(fy=>fy.epsAvg!=null) : [];
+  const fyTableHtml = fyRows.length > 1 ? `
+    <div style="overflow-x:auto;">
+    <table style="min-width:420px;margin-top:6px;margin-bottom:10px;">
+      <thead><tr><th>회계연도</th><th>EPS 평균</th><th>Low~High</th><th>애널리스트</th></tr></thead>
+      <tbody>${fyRows.map(fy=>`
+        <tr>
+          <td>${esc(fy.label)}${fy.date?` <span class="sub" style="font-weight:400;">(${esc(fy.date)})</span>`:''}</td>
+          <td>$${fy.epsAvg.toFixed(2)}</td>
+          <td>${fy.epsLow!=null&&fy.epsHigh!=null?`$${fy.epsLow.toFixed(2)}~$${fy.epsHigh.toFixed(2)}`:'-'}</td>
+          <td>${fy.analystCount!=null?fy.analystCount+'명':'-'}</td>
+        </tr>`).join('')}</tbody>
+    </table>
+    </div>` : '';
   return `<div class="chart-label">EPS 컨센서스 최근 변화 방향 (${esc(e.targetLabel||'')}) ${hintIcon('epsRevision')}</div>
-    <div class="sub" style="margin-bottom:10px;">3개월 추이 ${trail} <span style="color:${color};font-weight:600;">${arrow} ${esc(e.note||'')}</span> · 3개월 변화 ${chg} · 최근 30일 상향 ${e.revisionUp30}명 / 하향 ${e.revisionDown30}명 · ${updLabel}</div>`;
+    <div class="sub" style="margin-bottom:10px;">3개월 추이 ${trail} <span style="color:${color};font-weight:600;">${arrow} ${esc(e.note||'')}</span> · 3개월 변화 ${chg} · 최근 30일 상향 ${e.revisionUp30}명 / 하향 ${e.revisionDown30}명 · ${updLabel}</div>
+    ${fyTableHtml}`;
 }
 function renderSigmaBand(ticker){
   const s = (typeof SIGMA_DATA !== 'undefined') ? SIGMA_DATA[ticker] : null;

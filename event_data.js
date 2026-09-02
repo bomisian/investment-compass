@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788354937.7770517,
+  "generatedAt": 1788356819.4760385,
   "events": [
     {
       "id": "8b06659042eb85e02bbb",
@@ -335,7 +335,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2107,7 +2107,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4643,7 +4643,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6702,8 +6702,11 @@ const EVENT_DATA = {
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "ARM",
       "relatedTickers": [
+        "AMD",
         "ARM",
-        "NVDA"
+        "MU",
+        "NVDA",
+        "ORCL"
       ],
       "relatedEntities": [],
       "importance": "medium",
@@ -6713,8 +6716,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "ARM vs. NVDA: Which AI Chip Designer is Worth Investing in?",
@@ -6723,34 +6726,67 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
         "publishedAt": 1788201060,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "ARM 대 NVDA: 어떤 AI 칩 디자이너에 투자할 가치가 있나요?"
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "이 기사는 ARM의 사업과 관련된 'ARM vs. NVDA: Which AI Chip Designer is Worth Investing in?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
       ],
       "impacts": [
         {
-          "ticker": "ARM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
     },
     {
       "id": "0e891ad4686defdef1fd",
@@ -8809,7 +8845,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10350,7 +10386,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=7c7d30418f174dc5e1357c5c66cdfd802fa6c1bb544f2f4c9bd57cf64c09523e",
         "publishedAt": 1787994001,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10758,7 +10794,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=90e5e71fbbd9c0375003e00188014b10e349c7bd1fde80a0deef05c2760df6b0",
         "publishedAt": 1787945400,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13185,7 +13221,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=80e89ea81005b77faf1a63391a2a3a5c42f3d2a9e55268cacc87a0afa5b01625",
         "publishedAt": 1787779500,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13241,7 +13277,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=c23072556bdd438138a5dc8e09adda7ebe6e2f3f8ab8da3b1bd9193cefbc1e60",
         "publishedAt": 1787762346,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13381,7 +13417,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=5843e33ac4019ea505ee8907510f0d48d5b80a33ceaa9834ce0f9b8f39313c5d",
         "publishedAt": 1787760295,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13448,7 +13484,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=93dce494a1ee0ef31a468fa63cec25d697ba1c20602b08d1e94291c839bae855",
         "publishedAt": 1787760274,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13505,7 +13541,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=6127b2d6711f47df6a09a0cfafa495f9a9975431930c4f857262553d154cf2d8",
         "publishedAt": 1787760232,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16789,7 +16825,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=84581a08f723cf3d04c44536d5b4c98e25be44e1169d1b168f91b7e54802dd5b",
         "publishedAt": 1787648908,
-        "collectedAt": 1788334100.1838396
+        "collectedAt": 1788356781.164971
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17336,6 +17372,7 @@ const EVENT_DATA = {
       "e56e56cabafdba720a43",
       "d07939fbac8873f36991",
       "f68478e0f50e9a3f9ea9",
+      "ea0f2927241104aa1220",
       "0e891ad4686defdef1fd",
       "c928b7bc676dd70cff71",
       "83b60256ba0d24822cee",
@@ -17365,6 +17402,7 @@ const EVENT_DATA = {
       "99944096f91bdcda7225",
       "f68478e0f50e9a3f9ea9",
       "98d1fb3f436ad2e77d71",
+      "ea0f2927241104aa1220",
       "c2ebf782b459946b819a",
       "c928b7bc676dd70cff71",
       "8e525a09e0111c458074",
@@ -17390,6 +17428,7 @@ const EVENT_DATA = {
       "d07939fbac8873f36991",
       "ab92edebe33adb10466f",
       "f68478e0f50e9a3f9ea9",
+      "ea0f2927241104aa1220",
       "a92823784b7e70fbf659",
       "c928b7bc676dd70cff71",
       "4bdff85c3176072538d6",
