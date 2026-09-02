@@ -4967,7 +4967,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -7779,7 +7779,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -10287,7 +10287,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -12659,7 +12659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -15735,7 +15735,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -16663,7 +16663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -19481,7 +19481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -22647,7 +22647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -25648,7 +25648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -28720,7 +28720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -31179,7 +31179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -33065,7 +33065,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -34492,7 +34492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -36164,7 +36164,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
@@ -38511,7 +38511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -40603,7 +40603,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -40662,7 +40662,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311247.9462173
+          "analysisUpdatedAt": 1788334104.074833
         },
         "headlineKo": "Salesforce(CRM), Workforce AI를 지원하고 새로운 AgentExchange 이메일 도구 추가"
       },
@@ -40680,7 +40680,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Agentforce 채택 및 결과 가격 상승으로 Salesforce AI ARR 급증 메인 콘텐츠로 건너뛰기 → 이러한 상징적인 주식의 종말이 가까울 수 있음(Chaikin Analytics에서) (광고) Agentforce 채택 및 결과 P로 Salesforce AI ARR 급증",
+            "Agentforce 채택 및 결과 가격 책정으로 Salesforce AI ARR 급증 주요 콘텐츠로 건너뛰기 → 약속한 주식 기호는 다음과 같습니다(Stansberry Research에서) (광고) Salesforce AI ARR이 Agentforce 채택 및 결과 가격 상승으로 급증",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 Salesforce의 AI 채택이 가속화되고 있습니다. 10,000명 이상의 고객이 하나 이상의 AI 제품을 사용하고 있으며 Agentforce 및 데이터 ARR은 200% 이상 증가하여 39억 달러를 기록했고 Agentforce ARR은 15억 달러에 도달했습니다."
           ],
@@ -40720,11 +40720,11 @@ const NEWS_DATA = {
             "7%"
           ],
           "sourceExcerpt": [
-            "Salesforce AI ARR Surges as Agentforce Adoption and Outcome Pricing Gain Momentum Skip to main content → The end may be near for these iconic stocks (From Chaikin Analytics) (Ad) Salesforce AI ARR Surges as Agentforce Adoption and Outcome P",
+            "Salesforce AI ARR Surges as Agentforce Adoption and Outcome Pricing Gain Momentum Skip to main content → Here’s the stock symbol I’ve promised (From Stansberry Research) (Ad) Salesforce AI ARR Surges as Agentforce Adoption and Outcome Prici",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points Salesforce’s AI adoption is accelerating: More than 10,000 customers use at least one AI product, while Agentforce and data ARR rose over 200% to $3.9 billion and Agentforce ARR reached $1.5 billion."
           ],
-          "analysisUpdatedAt": 1788311254.5842316
+          "analysisUpdatedAt": 1788334107.9047725
         },
         "headlineKo": "Agentforce 채택 및 결과 가격 책정이 모멘텀을 얻으면서 Salesforce AI ARR 급증"
       },
@@ -40772,7 +40772,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311256.3205583
+          "analysisUpdatedAt": 1788334110.055944
         },
         "headlineKo": "Salesforce 주식에 무슨 일이 일어나고 있나요?"
       },
@@ -40839,7 +40839,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311247.9462173
+          "analysisUpdatedAt": 1788334104.074833
         }
       },
       {
@@ -40857,7 +40857,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Agentforce 채택 및 결과 가격 상승으로 Salesforce AI ARR 급증 메인 콘텐츠로 건너뛰기 → 이러한 상징적인 주식의 종말이 가까울 수 있음(Chaikin Analytics에서) (광고) Agentforce 채택 및 결과 P로 Salesforce AI ARR 급증",
+            "Agentforce 채택 및 결과 가격 책정으로 Salesforce AI ARR 급증 주요 콘텐츠로 건너뛰기 → 약속한 주식 기호는 다음과 같습니다(Stansberry Research에서) (광고) Salesforce AI ARR이 Agentforce 채택 및 결과 가격 상승으로 급증",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 Salesforce의 AI 채택이 가속화되고 있습니다. 10,000명 이상의 고객이 하나 이상의 AI 제품을 사용하고 있으며 Agentforce 및 데이터 ARR은 200% 이상 증가하여 39억 달러를 기록했고 Agentforce ARR은 15억 달러에 도달했습니다."
           ],
@@ -40897,11 +40897,11 @@ const NEWS_DATA = {
             "7%"
           ],
           "sourceExcerpt": [
-            "Salesforce AI ARR Surges as Agentforce Adoption and Outcome Pricing Gain Momentum Skip to main content → The end may be near for these iconic stocks (From Chaikin Analytics) (Ad) Salesforce AI ARR Surges as Agentforce Adoption and Outcome P",
+            "Salesforce AI ARR Surges as Agentforce Adoption and Outcome Pricing Gain Momentum Skip to main content → Here’s the stock symbol I’ve promised (From Stansberry Research) (Ad) Salesforce AI ARR Surges as Agentforce Adoption and Outcome Prici",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points Salesforce’s AI adoption is accelerating: More than 10,000 customers use at least one AI product, while Agentforce and data ARR rose over 200% to $3.9 billion and Agentforce ARR reached $1.5 billion."
           ],
-          "analysisUpdatedAt": 1788311254.5842316
+          "analysisUpdatedAt": 1788334107.9047725
         }
       },
       {
@@ -40949,7 +40949,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311256.3205583
+          "analysisUpdatedAt": 1788334110.055944
         }
       },
       {
@@ -42659,17 +42659,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788311242.889294,
-    "_updated_label": "2026-09-02 10:07",
+    "_fetched_at": 1788334100.1838396,
+    "_updated_label": "2026-09-02 16:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
-    "_last_attempt_at": 1788311242.889294,
+    "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
-    "_last_success_at": 1788311242.889294,
+    "_last_success_at": 1788334100.1838396,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -44588,7 +44588,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
@@ -45927,7 +45927,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -45942,6 +45942,68 @@ const NEWS_DATA = {
       "revenueEstimate": 1389198904
     },
     "news": [
+      {
+        "headline": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
+        "datetime": 1788312901,
+        "relevance": 0.75,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM -2.93%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
+            "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.93%, 7.6%, $ 234.82 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "ARM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2.93%",
+            "7.6%",
+            "$ 234.82",
+            "2.93 %",
+            "$ 7.09",
+            "$ 1536.87",
+            "1.90 %",
+            "$ 29.83"
+          ],
+          "sourceExcerpt": [
+            "Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help ARM: Examining the Relatively Steady Revenue Generation Trends Over the Past Year ARM ( ARM -2.93% ) primarily generates revenue through licensing and royalty collection on its proprietary chip designs.",
+            "It conceptualizes, engineers, and licenses its core processing unit (CPU) designs, system intellectual property solutions, graphics processing units (GPUs), and supplementary software development tools to original equipment makers globally."
+          ],
+          "analysisUpdatedAt": 1788334115.3718207
+        },
+        "headlineKo": "ARM 대 Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교"
+      },
       {
         "headline": "Why Arm Holdings Stock Fell on Tuesday",
         "source": "Yahoo",
@@ -46000,7 +46062,7 @@ const NEWS_DATA = {
             "Help Shares of Arm Holdings ( ARM -2.93% ) slipped on Tuesday, falling as much as 5.1%.",
             "The catalyst that drove the semiconductor specialist lower was concern about an insider stock sale -- but the devil's in the details."
           ],
-          "analysisUpdatedAt": 1788311268.3511384
+          "analysisUpdatedAt": 1788334117.961183
         },
         "headlineKo": "Arm Holdings 주가가 화요일에 하락한 이유"
       },
@@ -46048,7 +46110,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311270.2705803
+          "analysisUpdatedAt": 1788334120.0831919
         },
         "headlineKo": "ARM 주식 월요일에 무슨 일이 일어나고 있나요?"
       },
@@ -46058,46 +46120,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=8a829ba4db97cbc1b732b6cec7513fa53c74f5b2d1f689b9ead342d85b266745",
         "datetime": 1788206727,
         "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Arm Holdings (ARM) Heads To TestMu Conference, Is The AI Story Fully Priced?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings (ARM) Heads To TestMu Conference, Is The AI Story Fully Priced?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311272.667822
-        },
         "headlineKo": "Arm Holdings(ARM)가 TestMu 컨퍼런스로 향합니다. AI 스토리에 완전 가격이 책정되어 있나요?"
       },
       {
@@ -46107,17 +46129,71 @@ const NEWS_DATA = {
         "datetime": 1788201060,
         "relevance": 0.75,
         "headlineKo": "ARM 대 NVDA: 어떤 AI 칩 디자이너에 투자할 가치가 있나요?"
-      },
-      {
-        "headline": "IBM Introduces New Mainframe Processor Combining Its Own Tech With Arm Architecture",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1cac6bc5d1b48b51b3241f189efddbd062ff705a579968fa932f227e9ac1e42c",
-        "datetime": 1787976048,
-        "relevance": 0.75,
-        "headlineKo": "IBM, 자체 기술과 Arm 아키텍처를 결합한 새로운 메인프레임 프로세서 출시"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
+        "datetime": 1788312901,
+        "headlineKo": "ARM 대 Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교",
+        "relevance": 0.75,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM -2.93%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
+            "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.93%, 7.6%, $ 234.82 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "ARM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2.93%",
+            "7.6%",
+            "$ 234.82",
+            "2.93 %",
+            "$ 7.09",
+            "$ 1536.87",
+            "1.90 %",
+            "$ 29.83"
+          ],
+          "sourceExcerpt": [
+            "Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help ARM: Examining the Relatively Steady Revenue Generation Trends Over the Past Year ARM ( ARM -2.93% ) primarily generates revenue through licensing and royalty collection on its proprietary chip designs.",
+            "It conceptualizes, engineers, and licenses its core processing unit (CPU) designs, system intellectual property solutions, graphics processing units (GPUs), and supplementary software development tools to original equipment makers globally."
+          ],
+          "analysisUpdatedAt": 1788334115.3718207
+        }
+      },
       {
         "headline": "Why Arm Holdings Stock Fell on Tuesday",
         "source": "Yahoo",
@@ -46177,7 +46253,7 @@ const NEWS_DATA = {
             "Help Shares of Arm Holdings ( ARM -2.93% ) slipped on Tuesday, falling as much as 5.1%.",
             "The catalyst that drove the semiconductor specialist lower was concern about an insider stock sale -- but the devil's in the details."
           ],
-          "analysisUpdatedAt": 1788311268.3511384
+          "analysisUpdatedAt": 1788334117.961183
         }
       },
       {
@@ -46225,7 +46301,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311270.2705803
+          "analysisUpdatedAt": 1788334120.0831919
         }
       },
       {
@@ -46978,17 +47054,17 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1788311242.889294,
-    "_updated_label": "2026-09-02 10:07",
+    "_fetched_at": 1788334100.1838396,
+    "_updated_label": "2026-09-02 16:28",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 30,
+      "checked": 31,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
-    "_last_attempt_at": 1788311242.889294,
+    "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
-    "_last_success_at": 1788311242.889294,
+    "_last_success_at": 1788334100.1838396,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -49906,7 +49982,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
@@ -51016,7 +51092,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -52311,7 +52387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -53553,7 +53629,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -56323,7 +56399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -57524,7 +57600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788315058.9634683,
     "_earnings_status": "ok",
@@ -58583,7 +58659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -59530,7 +59606,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -60660,7 +60736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -62039,7 +62115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -62098,7 +62174,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311278.1304204
+          "analysisUpdatedAt": 1788334125.267045
         },
         "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
       },
@@ -62160,7 +62236,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788311281.5736117
+          "analysisUpdatedAt": 1788334127.919027
         },
         "headlineKo": "Constellation Energy vs. NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?"
       },
@@ -62208,7 +62284,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311283.8977683
+          "analysisUpdatedAt": 1788334129.8663614
         },
         "headlineKo": "CEG 대 VST: 투자자에게 어떤 원자력 유틸리티 주식이 눈에 띄는가?"
       },
@@ -62275,7 +62351,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311278.1304204
+          "analysisUpdatedAt": 1788334125.267045
         }
       },
       {
@@ -62337,7 +62413,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788311281.5736117
+          "analysisUpdatedAt": 1788334127.919027
         }
       },
       {
@@ -62385,7 +62461,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788311283.8977683
+          "analysisUpdatedAt": 1788334129.8663614
         }
       },
       {
@@ -62938,17 +63014,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788311242.889294,
-    "_updated_label": "2026-09-02 10:08",
+    "_fetched_at": 1788334100.1838396,
+    "_updated_label": "2026-09-02 16:28",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
-    "_last_attempt_at": 1788311242.889294,
+    "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
-    "_last_success_at": 1788311242.889294,
+    "_last_success_at": 1788334100.1838396,
     "_collection_status": "ok"
   },
   "VST": {
@@ -64043,7 +64119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -64924,7 +65000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -65785,7 +65861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -66376,7 +66452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788318872.1928744,
     "_earnings_status": "ok",
@@ -67456,7 +67532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -67836,7 +67912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 7,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788330264.9024725,
     "_earnings_status": "ok",
@@ -68887,7 +68963,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
@@ -69618,7 +69694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788326507.0994282,
     "_earnings_status": "ok",
@@ -70688,7 +70764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_last_attempt_at": 1788324458.6987462,
     "_earnings_status": "ok",
@@ -70808,9 +70884,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
-    "_last_attempt_at": 1788332270.0017345,
+    "_last_attempt_at": 1788334100.1838396,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -70966,7 +71042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-02 15:57"
+      "updated": "2026-09-02 16:28"
     },
     "_fetched_at": 1788322592.0993013,
     "_updated_label": "2026-09-02 13:16",
