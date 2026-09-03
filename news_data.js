@@ -5869,7 +5869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -5885,77 +5885,20 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
+        "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
-        "datetime": 1788443718,
-        "relevance": 0.29,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "앱 추적 규칙에 대한 소송 사이트맵 접근성 정보 개인정보 보호 서비스 약관 광고 개인정보 보호 및 쿠키 설정 © 2026 Quartz Media, Inc.",
-            "비즈니스 뉴스 Apple이 영국에서 소송을 당했습니다.",
-            "앱 추적 규칙에 대해 27억 달러에 대한 소송 런던 경쟁 항소 법원에 제기된 집단 소송에서는 Apple이 자체 서비스보다 제3자 개발자에게 더 엄격한 추적 규칙을 부과했다고 비난했습니다. 작성자: Cris Tolomia · 2분 읽기"
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $2.7 billion, €98.6 million, €150 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "AAPL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$2.7 billion",
-            "€98.6 million",
-            "€150 million"
-          ],
-          "sourceExcerpt": [
-            "lawsuit over app tracking rules Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
-            "Business News Apple is being sued in the U.K.",
-            "for $2.7 billion over its app tracking rules A collective action filed at London's Competition Appeal Tribunal accuses Apple of imposing stricter tracking rules on third-party developers than on its own services By Cris Tolomia · 2 min read"
-          ],
-          "analysisUpdatedAt": 1788451233.3934605
-        },
-        "headlineKo": "애플, 앱 추적 규칙과 관련해 영국에서 27억 달러 규모의 소송에 직면"
-      },
-      {
-        "headline": "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a54cfa3dd98f7c777e75f09b63c5e245cc3345604cd12ccf5a7ffc85a0088808",
-        "datetime": 1788443482,
-        "relevance": 0.29,
+        "url": "https://finnhub.io/api/news?id=7d3a3c69682920997c04ef30b0652d6cb53cd913b1854b9e0e452cfd10b9c33a",
+        "datetime": 1788460163,
+        "relevance": 1.0,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "risk",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적·재무 부담 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
+            "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5979,21 +5922,21 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
+          "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451235.8596504
+          "analysisUpdatedAt": 1788472840.2900898
         },
-        "headlineKo": "Apple의 앱 규칙으로 인해 27억 달러의 법적 위험이 발생했습니다."
+        "headlineKo": "애플(AAPL), 폴더블 아이폰 출시를 앞두고 엇갈린 전망에 직면"
       },
       {
-        "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+        "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb",
-        "datetime": 1788443100,
+        "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
+        "datetime": 1788457675,
         "relevance": 0.29,
         "analysis": {
           "version": 9,
@@ -6003,7 +5946,7 @@ const NEWS_DATA = {
           "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+            "Apple faces £2 bn lawsuit in UK over app privacy feature",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -6027,34 +5970,242 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple faces £2 bn lawsuit in UK over app privacy feature' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451237.8857334
+          "analysisUpdatedAt": 1788472842.6401706
         },
-        "headlineKo": "Apple CEO로서 Tim Cook의 마지막 경고: 미국은 이제 '100년 홍수' 위험에 처해 있습니다. 심지어 Elon Musk도 걱정하고 있습니다."
+        "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면"
       },
       {
-        "headline": "Apple faces £2bn UK lawsuit over app tracking rules",
+        "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
-        "datetime": 1788440638,
-        "relevance": 0.29,
-        "headlineKo": "Apple, 앱 추적 규칙과 관련해 영국에서 20억 파운드 규모의 소송에 직면"
+        "url": "https://finnhub.io/api/news?id=b3b1ef4df8c77bd564b8c103e476159f06b03899b3c6c49a40a0d45a15c635c7",
+        "datetime": 1788457020,
+        "relevance": 0.57,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stryker Launches FDA-Cleared Apple Vision Pro Surgical App' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788472845.2268748
+        },
+        "headlineKo": "Stryker, FDA 승인 Apple Vision Pro 수술용 앱 출시"
       },
       {
-        "headline": "How Apple's John Ternus inherited a 'reckoning' with China",
+        "headline": "Jefferies Revamps Apple Stock Target On Setback",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=acf888a42e84acadf62f2555323a8a72152b373a1479558ec4e7379e6fb8c882",
-        "datetime": 1788440400,
+        "url": "https://finnhub.io/api/news?id=1a800aba3c78a0b856ff68de59d86ce52797b9c05f8dcde4953056f8acbea50e",
+        "datetime": 1788450466,
         "relevance": 0.29,
-        "headlineKo": "애플의 존 터너스는 어떻게 중국과의 '계산'을 이어받았나"
+        "headlineKo": "Jefferies, 좌절에 대한 Apple 주식 목표 개편"
+      },
+      {
+        "headline": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35e25ea8262576508856dd2df825305289c33deba6a4216d48d33d132b172dc7",
+        "datetime": 1788447658,
+        "relevance": 0.29,
+        "headlineKo": "애플은 AI에 늦었다. 그것이 가장 큰 기회가 될 수 있다"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7d3a3c69682920997c04ef30b0652d6cb53cd913b1854b9e0e452cfd10b9c33a",
+        "datetime": 1788460163,
+        "headlineKo": "애플(AAPL), 폴더블 아이폰 출시를 앞두고 엇갈린 전망에 직면",
+        "relevance": 1.0,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788472840.2900898
+        }
+      },
+      {
+        "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
+        "datetime": 1788457675,
+        "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple faces £2 bn lawsuit in UK over app privacy feature",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple faces £2 bn lawsuit in UK over app privacy feature' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788472842.6401706
+        }
+      },
+      {
+        "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b3b1ef4df8c77bd564b8c103e476159f06b03899b3c6c49a40a0d45a15c635c7",
+        "datetime": 1788457020,
+        "headlineKo": "Stryker, FDA 승인 Apple Vision Pro 수술용 앱 출시",
+        "relevance": 0.57,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stryker Launches FDA-Cleared Apple Vision Pro Surgical App' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788472845.2268748
+        }
+      },
+      {
+        "headline": "Jefferies Revamps Apple Stock Target On Setback",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1a800aba3c78a0b856ff68de59d86ce52797b9c05f8dcde4953056f8acbea50e",
+        "datetime": 1788450466,
+        "headlineKo": "Jefferies, 좌절에 대한 Apple 주식 목표 개편",
+        "relevance": 0.29
+      },
+      {
+        "headline": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=35e25ea8262576508856dd2df825305289c33deba6a4216d48d33d132b172dc7",
+        "datetime": 1788447658,
+        "headlineKo": "애플은 AI에 늦었다. 그것이 가장 큰 기회가 될 수 있다",
+        "relevance": 0.29
+      },
       {
         "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
         "source": "Yahoo",
@@ -9373,17 +9524,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788451227.936509,
-    "_updated_label": "2026-09-04 01:00",
+    "_fetched_at": 1788472834.9208727,
+    "_updated_label": "2026-09-04 07:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 102,
+      "checked": 107,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
-    "_last_attempt_at": 1788451227.936509,
+    "_last_attempt_at": 1788472834.9208727,
     "_earnings_status": "ok",
-    "_last_success_at": 1788451227.936509,
+    "_last_success_at": 1788472834.9208727,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -12772,7 +12923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -16016,7 +16167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -19925,7 +20076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -21021,7 +21172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -24806,7 +24957,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -28446,7 +28597,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -32304,7 +32455,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -36266,7 +36417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -39196,7 +39347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -41424,7 +41575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -41440,6 +41591,116 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49291445a910a64dff658f6c375ffbb74e26d4e247e1d1cfe53c0adf46afcb6a",
+        "datetime": 1788470093,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
+            "| Trefis Applied Materials(AMAT) 주식은 지난 1년 동안 약 180%의 수익률을 올렸으며, S&P 500의 약 5분의 1 수익률을 기록했습니다.",
+            "후행 수익에는 그런 것이 없습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 180%, 7.8%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "180%",
+            "7.8%",
+            "20%",
+            "30%",
+            "52%",
+            "70%",
+            "31%",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
+            "| Trefis Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500.",
+            "Nothing in the trailing revenue looks like that."
+          ],
+          "analysisUpdatedAt": 1788472855.8850083
+        },
+        "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
+      },
+      {
+        "headline": "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ece9bf3aeee76cf8c0133d03aa688e025190b2bac57e1016a5d8968a19b0eee4",
+        "datetime": 1788448740,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788472858.7215245
+        },
+        "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
+      },
+      {
         "headline": "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1dbff8ff1f49c6f0b1d11db31ee010885a09b7250bab7dacfcff7dd0a191c94b",
@@ -41454,12 +41715,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -41484,20 +41745,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
+            "1.04%",
             "1.08%",
-            "1.17%",
-            "1.24%",
-            "0.40%",
+            "1.23%",
+            "0.32%",
             "$437.31",
             "0.7%",
             "178%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788451246.881895
+          "analysisUpdatedAt": 1788472862.717827
         },
         "headlineKo": "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다. 지금 판매하시겠습니까, 아니면 추가 구매하시겠습니까?"
       },
@@ -41507,46 +41768,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=148578eba2ae40184d1d8a225944e7b0e93436f29297e06a3d29f075c22fed17",
         "datetime": 1788365280,
         "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451248.944517
-        },
         "headlineKo": "YTD 72.5% 상승 후 AMAT 주식을 매수, 매도 또는 보유해야 합니까?"
       },
       {
@@ -41555,6 +41776,79 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=efb16a6745b014354a9cd222d3fb0b43e68bf26fc6ab653ff7833c1bafcab134",
         "datetime": 1788353160,
         "relevance": 0.67,
+        "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=49291445a910a64dff658f6c375ffbb74e26d4e247e1d1cfe53c0adf46afcb6a",
+        "datetime": 1788470093,
+        "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
+            "| Trefis Applied Materials(AMAT) 주식은 지난 1년 동안 약 180%의 수익률을 올렸으며, S&P 500의 약 5분의 1 수익률을 기록했습니다.",
+            "후행 수익에는 그런 것이 없습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 180%, 7.8%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "180%",
+            "7.8%",
+            "20%",
+            "30%",
+            "52%",
+            "70%",
+            "31%",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
+            "| Trefis Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500.",
+            "Nothing in the trailing revenue looks like that."
+          ],
+          "analysisUpdatedAt": 1788472855.8850083
+        }
+      },
+      {
+        "headline": "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ece9bf3aeee76cf8c0133d03aa688e025190b2bac57e1016a5d8968a19b0eee4",
+        "datetime": 1788448740,
+        "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?",
+        "relevance": 1,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -41563,7 +41857,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
+            "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -41587,34 +41881,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451250.8610463
-        },
-        "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
+          "analysisUpdatedAt": 1788472858.7215245
+        }
       },
-      {
-        "headline": "Applied Materials’ stock buybacks: History & investor impact explained",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5e9cf7661d15f873fa05ed31caef7ac055d8ac9497816dd1916c155a9e296d6a",
-        "datetime": 1788319010,
-        "relevance": 0.67,
-        "headlineKo": "어플라이드 머티리얼즈 자사주 매입: 역사 및 투자자 영향 설명"
-      },
-      {
-        "headline": "Entegris, Penguin Solutions, Teradyne, Applied Materials, and KLA Corporation Stocks Trade Down, What You Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ff477924050e7d9848b283bc4d6c315d51490eec550bbf98c32fe0b0dc77c5d3",
-        "datetime": 1788303260,
-        "relevance": 0.67,
-        "headlineKo": "Entegris, Penguin Solutions, Teradyne, Applied Materials 및 KLA Corporation 주식 거래 하락, 알아야 할 사항"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
         "source": "Yahoo",
@@ -41631,12 +41906,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -41661,20 +41936,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
+            "1.04%",
             "1.08%",
-            "1.17%",
-            "1.24%",
-            "0.40%",
+            "1.23%",
+            "0.32%",
             "$437.31",
             "0.7%",
             "178%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788451246.881895
+          "analysisUpdatedAt": 1788472862.717827
         }
       },
       {
@@ -43114,17 +43389,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788451227.936509,
-    "_updated_label": "2026-09-04 01:00",
+    "_fetched_at": 1788472834.9208727,
+    "_updated_label": "2026-09-04 07:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 46,
+      "checked": 48,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
-    "_last_attempt_at": 1788451227.936509,
+    "_last_attempt_at": 1788472834.9208727,
     "_earnings_status": "ok",
-    "_last_success_at": 1788451227.936509,
+    "_last_success_at": 1788472834.9208727,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -44908,7 +45183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
@@ -47565,7 +47840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -50324,7 +50599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -53074,7 +53349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788469225.0494318,
     "_earnings_status": "ok",
@@ -55752,7 +56027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
@@ -57303,7 +57578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -58550,7 +58825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788469225.0494318,
     "_earnings_status": "ok",
@@ -61903,7 +62178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
@@ -63013,7 +63288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -64475,7 +64750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -65870,7 +66145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -69322,7 +69597,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -69381,7 +69656,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451256.5236363
+          "analysisUpdatedAt": 1788472869.6434104
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -69400,12 +69675,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -69430,20 +69705,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
+            "1.04%",
             "1.08%",
-            "1.17%",
-            "1.24%",
-            "0.40%",
+            "1.23%",
+            "0.32%",
             "168%",
             "$465.32",
             "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788451259.3086672
+          "analysisUpdatedAt": 1788472873.9312818
         },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
@@ -69490,7 +69765,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451260.9023516
+          "analysisUpdatedAt": 1788472875.5738342
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -69557,7 +69832,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451256.5236363
+          "analysisUpdatedAt": 1788472869.6434104
         }
       },
       {
@@ -69576,12 +69851,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -69606,20 +69881,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
+            "1.04%",
             "1.08%",
-            "1.17%",
-            "1.24%",
-            "0.40%",
+            "1.23%",
+            "0.32%",
             "168%",
             "$465.32",
             "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788451259.3086672
+          "analysisUpdatedAt": 1788472873.9312818
         }
       },
       {
@@ -69666,7 +69941,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788451260.9023516
+          "analysisUpdatedAt": 1788472875.5738342
         }
       },
       {
@@ -70517,17 +70792,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788451227.936509,
-    "_updated_label": "2026-09-04 01:01",
+    "_fetched_at": 1788472834.9208727,
+    "_updated_label": "2026-09-04 07:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
-    "_last_attempt_at": 1788451227.936509,
+    "_last_attempt_at": 1788472834.9208727,
     "_earnings_status": "ok",
-    "_last_success_at": 1788451227.936509,
+    "_last_success_at": 1788472834.9208727,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -71801,7 +72076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -73099,7 +73374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -74344,7 +74619,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -75913,7 +76188,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -76894,7 +77169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788469225.0494318,
     "_earnings_status": "ok",
@@ -78109,7 +78384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -79220,7 +79495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -80225,7 +80500,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -80862,7 +81137,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788454892.8085349,
     "_earnings_status": "ok",
@@ -82645,7 +82920,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -83145,7 +83420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788465637.3087497,
     "_earnings_status": "ok",
@@ -84196,7 +84471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
@@ -85024,7 +85299,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
@@ -86094,7 +86369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -86214,9 +86489,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
-    "_last_attempt_at": 1788471738.5075643,
+    "_last_attempt_at": 1788472834.9208727,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -86372,7 +86647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 06:42"
+      "updated": "2026-09-04 07:01"
     },
     "_fetched_at": 1788458426.6748347,
     "_updated_label": "2026-09-04 03:04",

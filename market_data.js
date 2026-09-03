@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.70999908447266,
+      "current": 91.66999816894531,
       "prevClose": 91.01000213623047,
-      "changeAbs": 0.6999969482421875,
-      "changePct": 0.7691428763998716,
+      "changeAbs": 0.6599960327148438,
+      "changePct": 0.7251906573157895,
       "pctRank": 85.44152744630071,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.804779493267688,
-      "ma20": 84.79100036621094,
-      "ma60": 80.33116671244304,
-      "chg1m": 16.48999786376953,
-      "chg3m": -1.3300018310546875,
-      "chg1mPct": 21.922357878440074,
-      "chg3mPct": -1.4294946452786683,
+      "drawdown1y": -18.840194204740122,
+      "ma20": 84.78900032043457,
+      "ma60": 80.33050003051758,
+      "chg1m": 16.449996948242188,
+      "chg3m": -1.3700027465820312,
+      "chg1mPct": 21.869179315719798,
+      "chg3mPct": -1.4724878902633296,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.98799896240234,
+      "current": 99.00299835205078,
       "prevClose": 99.55999755859375,
-      "changeAbs": -0.5719985961914062,
-      "changePct": -0.5745265269364532,
-      "pctRank": 25.855210819411294,
+      "changeAbs": -0.5569992065429688,
+      "changePct": -0.5594608479325842,
+      "pctRank": 26.25298329355609,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5804562859948477,
-      "ma20": 99.41439971923828,
-      "ma60": 100.29513346354166,
-      "chg1m": -0.7020034790039062,
-      "chg3m": -0.42200469970703125,
-      "chg1mPct": -0.7041864397751575,
-      "chg3mPct": -0.4245092889659358,
+      "drawdown1y": -2.5656945602214543,
+      "ma20": 99.4151496887207,
+      "ma60": 100.29538345336914,
+      "chg1m": -0.6870040893554688,
+      "chg3m": -0.40700531005859375,
+      "chg1mPct": -0.689140407794916,
+      "chg3mPct": -0.40942087824680956,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4520.5,
+      "current": 4520.2998046875,
       "prevClose": 4366.2998046875,
-      "changeAbs": 154.2001953125,
-      "changePct": 3.531598887161992,
+      "changeAbs": 154.0,
+      "changePct": 3.5270138764789176,
       "pctRank": 92.52187748607797,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.00263080991946,
-      "ma20": 4464.139990234375,
-      "ma60": 4225.603336588541,
-      "chg1m": 274.7001953125,
-      "chg3m": 44.7001953125,
-      "chg1mPct": 6.469928115998831,
-      "chg3mPct": 0.9987085496023645,
+      "drawdown1y": -15.006395011863205,
+      "ma20": 4464.12998046875,
+      "ma60": 4225.6,
+      "chg1m": 274.5,
+      "chg3m": 44.5,
+      "chg1mPct": 6.4652129781753525,
+      "chg3mPct": 0.9942357107526392,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -226,18 +226,18 @@ const MARKET_DATA = {
       "headlineKo": "Adobe, Shantanu Narayen을 대신하여 Anil Chakravarthy를 CEO로 지명"
     },
     {
-      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - Reuters",
+      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
       "datetime": 1788466437,
-      "headlineKo": "투자자들이 중동 에스컬레이션에 무게를 두면서 혼합된 유가, 러시아-우크라이나 평화협정 가능성 - 로이터"
+      "headlineKo": "투자자들이 중동 사태와 러시아-우크라이나 평화 협상 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - reuters.com"
     },
     {
-      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
+      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
       "datetime": 1788460292,
-      "headlineKo": "밴스: 이란이 웨딩 파티를 열었다고 말하는 미국의 탐사 공습 - 로이터"
+      "headlineKo": "밴스: 미국, 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습 조사 중 - reuters.com"
     },
     {
       "headline": "We're lifting our price targets on 2 stocks that have shaken off AI disruption concerns",
@@ -268,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "자동차 제조업체들은 의회에 미국 내 중국산 커넥티드 차량을 영구적으로 금지할 것을 촉구했습니다."
     },
     {
-      "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - Reuters",
+      "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5",
       "datetime": 1788451140,
-      "headlineKo": "트럼프 \"우크라이나 원조 대가로 유럽에 돈 돌려줄 것\" - 로이터 통신"
+      "headlineKo": "트럼프 \"우크라이나 원조 대가로 유럽에 돈 돌려줄 것\" - reuters.com"
     },
     {
       "headline": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
@@ -282,21 +282,21 @@ const MARKET_DATA = {
       "headlineKo": "Cramer의 사상 최대 실망을 포함하여 12개의 주식 청산에서 얻은 큰 교훈"
     },
     {
-      "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - Reuters",
+      "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
       "datetime": 1788447855,
-      "headlineKo": "제재와 봉쇄로 이란에 대한 미국의 압박이 시작됐다 - 로이터 통신"
+      "headlineKo": "제재와 봉쇄로 이란에 대한 미국의 압박이 시작됐다 - reuters.com"
     },
     {
-      "headline": "Number of Iranian military personnel reported killed by US strikes this week rises to 13 - Reuters",
+      "headline": "Number of Iranian military personnel reported killed by US strikes this week rises to 13 - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZEFUR1NFM2NFdGJWWkFPekhHWDNYTUplQWo3VXhsSUV1OW1BRjJFNllNSEpZV1VELTc2Nk1nSURYd3VfcURvVWVtY1F1OVNWa1ZPQzN0azFhc21KajhTU0pDWTd5LWYwMnFEV2ZyM1FTYTFNVFRLSmNqUnBsam5XUkcxTG50ZEFHeks1VlFEdkloWUdHdGF3UWhrLWhfTnBSSWdJVGVJZEc5YlhVb0hwamg5elVkaFFxTjRIcHpB?oc=5",
       "datetime": 1788443968,
-      "headlineKo": "이번 주 미국의 공습으로 사망한 이란 군인 수는 13명으로 증가 - 로이터"
+      "headlineKo": "이번 주 미국의 공습으로 사망한 이란 군인 수는 13명으로 증가 - reuters.com"
     },
     {
-      "headline": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah, sources say - Reuters",
+      "headline": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTXNYTGpEYldjZ00zSFctdU5VT1A3blcyNnhmalVSNEMwNVBEa09RWFF1Zk9ibGY2cmdmRVdid2dDbUJwaHhzcFVpVHVxUUQ1NFZRb3F2MkRHREtLZHNoSF9tZUdseGdQZ0hFdFk5eDNTT0VyQzRXLUVZYi1OanRIc3g3SE1RQUlRNGQ3TXBCbi1JZHNycUhXcHJSMXFMb21YZVNtb2cwZGVYWGQ1bGlmQTJtNHZPSi1HZU96S1QwTldxV2NLYllz?oc=5",
       "datetime": 1788442905,
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 35.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788469288.2567759,
-  "_updated_label": "2026-09-04 06:01",
-  "_last_attempt_at": 1788469288.2567759,
-  "_last_success_at": 1788469288.2567759,
+  "_fetched_at": 1788472883.2392194,
+  "_updated_label": "2026-09-04 07:01",
+  "_last_attempt_at": 1788472883.2392194,
+  "_last_success_at": 1788472883.2392194,
   "_collection_status": "ok",
   "_collection_errors": []
 };
