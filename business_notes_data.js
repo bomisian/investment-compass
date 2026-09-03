@@ -9,6 +9,26 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-03",
+        headline: "이란, 요르단·쿠웨이트·바레인 동시 공격에도 - 연준 월러 '9월 금리동결 지지' 발언에 나스닥 +1.4% 급반등(최근 한달래 최대 상승)",
+        tone: "positive",
+        importance: "medium",
+        horizon: "단기(9월 CPI·고용지표, FOMC 결과 확인까지)",
+        facts: ["2026-09-02(현지시간) 이란이 요르단·쿠웨이트·바레인을 향해 미사일·드론 공격을 감행했다 - 요르단군은 자국 영공에 진입한 미사일 13발 중 10발을 요격했고 3발은 외곽 지역에 낙하했으며 인명피해는 없었다고 밝혔다. 쿠웨이트·바레인도 자국 방공망이 적대적 미사일·드론을 요격했다고 발표했고 UAE는 이 공격들을 강력 규탄했다.", "이는 9/1 미군의 이란 타격에 대한 보복 성격으로, 8/31 라라크섬 충돌 이후 이어지는 미-이란 무력충돌의 연장선이다.", "그럼에도 2026-09-03 미국 증시는 급등했다 - 다우존스 +624.16포인트(+1.18%) 53,686.11 마감, S&P500 +1.06% 7,747.71 마감, 나스닥종합 +1.4% 26,584.06 마감. CNBC는 이날을 8/4 이후 다우 최고 상승일로 평가했다.", "급등의 직접 계기는 연준(Fed) 이사 크리스토퍼 월러의 발언이다 - 그는 로이터 인터뷰에서 '향후 2주간 발표될 지표에서 (디스인플레이션) 흐름이 이어진다면 현재 금리 수준 동결을 지지하는 쪽으로 기울 것'이라고 밝혔고, 최근 지표에서 '마침내 디스인플레이션 조짐이 보인다'고 언급했다.", "이 발언 이후 CME FedWatch 기준 9월 FOMC 금리인상 가능성은 전일 63.2%에서 50.4%로 낮아졌다.", "미 10년물 국채금리는 전일 4.79%(2025년 1월래 최고 수준)에서 이 발언 이후 약 4.75%로 소폭 하락했다.", "WTI 원유는 +0.32% $91.30, 브렌트유는 -0.12% $95.52로 중동 긴장에도 큰 변동은 없었다."],
+        why: ["8/31~9/1 이틀 연속 하락을 이끌었던 핵심 우려가 '유가발 인플레이션 → 연준 금리인상'이었는데, 월러 이사의 발언은 이 우려의 정반대 방향(금리인상이 아니라 동결)을 시사해 시장이 안도 랠리를 보인 것이다.", "이란의 실제 공격(요르단·쿠웨이트·바레인)이 동시에 있었음에도 증시가 하락이 아니라 급등했다는 것은, 현재 시장이 지정학 리스크보다 금리 경로에 더 민감하게 반응하고 있다는 신호다.", "다만 월러의 발언은 '앞으로 2주 지표가 계속 개선되면'이라는 조건부 표현이라, 이번 주 발표되는 CPI·고용지표 결과에 따라 이 안도감이 뒤집힐 수 있다."],
+        beginner: ["이란이 요르단·쿠웨이트·바레인 세 나라를 동시에 공격했는데도 미국 증시는 오히려 크게 올랐어요(나스닥 +1.4%). 좀 의아하게 느껴질 수 있는데, 이유는 따로 있어요.", "연준(미국 중앙은행)의 월러 이사가 '물가가 계속 진정되면 이번 달 금리를 더 안 올리고 그대로 둘 것 같다'고 말했어요. 그동안 시장은 '기름값이 올라서 물가가 오르고, 그러면 금리를 또 올릴 수도 있다'는 걱정을 하고 있었는데, 이 말 한마디로 그 걱정이 줄어든 거예요.", "즉 이번 상승은 '중동 상황이 좋아져서'가 아니라 '금리를 더 안 올릴 수도 있다는 안도감' 때문이에요. 다만 월러 이사도 '앞으로 2주 지표가 계속 좋으면'이라는 단서를 달았기 때문에, 이번 주 나오는 물가·고용 지표가 이 안도감을 계속 뒷받침해줄지가 중요해요."],
+        interpretation: "이번 급등은 펀더멘털 개선이 아니라 '금리인상 공포의 일시적 해소'에 가깝다. 8/31~9/1 이틀간 하락을 이끈 핵심 변수(유가발 인플레이션 우려→금리인상 가능성)가 월러의 조건부 발언 하나로 절반 가까이(63.2%→50.4%) 되돌려졌다는 것은, 시장이 여전히 데이터에 따라 방향을 크게 바꿀 만큼 민감한 상태라는 뜻이다. 이란의 실제 공격이 동시에 있었는데도 증시가 이를 사실상 무시했다는 점은 지정학 리스크의 시장 영향력이 최근 며칠새 옅어졌다는 신호이지만, 확전 여부는 계속 지켜볼 사안이다.", "decision": "이 랠리 자체를 특정 종목 매수 근거로 쓰기보다, 이번 주 CPI·고용지표 발표 결과가 월러의 '디스인플레이션 조짐'을 뒷받침하는지 확인 후 판단할 것. 지표가 어긋나면 8/31~9/1의 하락 압력이 재현될 수 있다.", "watch": ["이번 주 발표되는 미국 CPI·고용보고서 결과 (월러의 '디스인플레이션 조짐' 발언 뒷받침 여부)", "9월 FOMC에서 실제 금리동결 여부 및 파월 등 다른 위원들의 후속 발언", "이란의 추가 보복이나 확전 조짐 여부", "10년물 국채금리가 4.75% 아래로 추가 하락하는지, 아니면 다시 4.8%대로 반등하는지"],
+        confidence: "지수 등락률·종가(다우 53,686.11·S&P 7,747.71·나스닥 26,584.06)와 월러 발언 인용은 CNBC·Yahoo Finance·Investing.com 등 복수 매체가 교차 확인해 신뢰도 높음. FedWatch 확률(63.2%→50.4%) 수치는 Yahoo Finance 보도 기준. 이란의 요르단·쿠웨이트·바레인 공격 사실관계는 Al Jazeera·The National 등 복수 매체 교차 확인.",
+        sources: [
+          { title: "Stock Market Today (Sept. 3, 2026): Nasdaq (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-03-2026" },
+          { title: "Stock Market Midday, Sept. 3: Stocks Rally as Treasury Yields Fall (Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/09/03/stock-market-midday-sept-3-stocks-rally-as-treasury-yields-fall-broadcom-falls-despite-earnings-beat/" },
+          { title: "Stocks Rally, Yields Retreat after Waller Signals a September Hold (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/articles/stocks-rally-yields-retreat-waller-162644511.html" },
+          { title: "Fed's Waller open to leaving rates unchanged at September meeting if inflation cools (Investing.com)", url: "https://www.investing.com/news/economy-news/feds-waller-open-to-leaving-rates-unchanged-at-september-meeting-if-inflation-cools-4887866" },
+          { title: "Iran attacks Bahrain, Kuwait and Jordan after US hits Iranian nuclear... (Al Jazeera)", url: "https://www.aljazeera.com/news/2026/9/1/us-military-says-launching-new-attacks-on-iran" },
+          { title: "Iran war latest: Kuwait and Jordan intercept Iranian missiles after... (The National)", url: "https://www.thenationalnews.com/news/mena/2026/09/02/live-kuwait-jordan-us-iran-strikes/" },
+        ],
+      },
+      {
         date: "2026-09-01",
         headline: "Anthropic, NVIDIA 지원 클라우드 Lambda와 6년 $35B 거래 체결 - AI 모델 추론용 대규모 인프라 확충",
         tone: "positive",
