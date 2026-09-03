@@ -2568,7 +2568,7 @@ function buildAtAGlanceHtml(r){
   else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
   else if(entryStat.kind==='watch') lines.push('단기 매수 신호까진 아니지만 근접해서 지켜볼 만해요');
   else lines.push('지금은 단기 매수 신호가 없어요');
-  if(hasFwd) lines.push(`계산된 적정가($${fwd.mid.toFixed(0)}) 대비 지금 가격이 <b>${belowFair?'낮은(저평가 쪽)':'높은(고평가 쪽)'}</b> 편이에요`);
+  if(hasFwd) lines.push(`계산된 적정가($${fwd.mid.toFixed(0)}) 대비 지금 가격이 <b>${belowFair?'낮은(저평가 쪽)':'높은(고평가 쪽)'}</b> 편이에요<span class="sub" style="font-weight:400;"> (참고용 · 매수신호 아님, 검증상 오히려 반대로 나왔어요)</span>`);
   if(eps && eps.epsNow!=null && (eps.direction==='상향' || eps.direction==='하향')) lines.push(`최근 애널리스트 EPS 전망은 <b>${esc(eps.direction)}</b> 중이에요`);
   if(dc && !isRisk) lines.push(`최근 뉴스 체크: <b>${esc(DIR_LABEL[dc.tone]||dc.tone)}</b>`);
 
@@ -5426,8 +5426,8 @@ function valueQualityComment(r, fund){
 
   const dev = fund.peDeviation3Y; // % - 표에 이미 있는 "3Y 평균 PER 대비 괴리" 값 재사용
   if(dev != null){
-    if(dev <= -15) items.push(`지금 PER이 최근 3년 평균보다 <b>${Math.abs(dev).toFixed(0)}% 낮아요</b> - 밸류에이션만 보면 저평가 쪽이에요.`);
-    else if(dev >= 15){ items.push(`지금 PER이 최근 3년 평균보다 <b>${dev.toFixed(0)}% 높아요</b> - 밸류에이션만 보면 고평가 쪽이에요.`); tone='warn'; }
+    if(dev <= -15) items.push(`지금 PER이 최근 3년 평균보다 <b>${Math.abs(dev).toFixed(0)}% 낮아요</b> - 밸류에이션만 보면 저평가 쪽이에요. <span class="sub" style="font-weight:400;">(참고용 · 매수신호 아님)</span>`);
+    else if(dev >= 15){ items.push(`지금 PER이 최근 3년 평균보다 <b>${dev.toFixed(0)}% 높아요</b> - 밸류에이션만 보면 고평가 쪽이에요. <span class="sub" style="font-weight:400;">(참고용 · 매수·매도 신호 아님, 검증 결과 이 지표는 예측력이 없었어요)</span>`); }
     else items.push(`지금 PER은 최근 3년 평균과 비슷한 수준이에요(괴리 ${dev>=0?'+':''}${dev.toFixed(0)}%).`);
   }
 
