@@ -1942,8 +1942,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788326564.5105624,
-    "_updated_label": "2026-09-02"
+    "_fetched_at": 1788400170.238233,
+    "_updated_label": "2026-09-03"
   },
   "KLAC": {
     "transactions": [
@@ -2849,8 +2849,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788326564.5105624,
-    "_updated_label": "2026-09-02"
+    "_fetched_at": 1788400170.238233,
+    "_updated_label": "2026-09-03"
   },
   "ETN": {
     "transactions": [

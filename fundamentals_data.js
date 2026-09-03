@@ -288,7 +288,13 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 1515689.6,
     "52WeekHigh": 790.8,
     "52WeekLow": 520.26,
-    "beta": 1.219481,
+    "beta": 1.2865841,
+    "_dividendFieldsRaw": {
+      "currentDividendYieldTTM": 0.3541,
+      "dividendIndicatedAnnual": 2.1,
+      "dividendPerShareAnnual": 2.1027,
+      "dividendPerShareTTM": 2.1197
+    },
     "avgPe3Y": 24.829233333333335,
     "peDeviation3Y": -10.357683214812651,
     "perBandYears": 14,
@@ -298,8 +304,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.74,
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788326466.4430988,
-    "_updated_label": "2026-09-02 14:21"
+    "_fetched_at": 1788400135.4294784,
+    "_updated_label": "2026-09-03 10:48"
   },
   "TSLA": {
     "forwardPE": 145.90287,
@@ -402,6 +408,9 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 584.73,
     "52WeekLow": 149.22,
     "beta": 2.5383658,
+    "_dividendFieldsRaw": {
+      "dividendIndicatedAnnual": 0
+    },
     "avgPe3Y": 160.30326666666667,
     "peDeviation3Y": -23.093831733102547,
     "perBandYears": 14,
@@ -411,8 +420,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 9.59,
     "name": "Advanced Micro Devices Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788326466.4430988,
-    "_updated_label": "2026-09-02 14:21"
+    "_fetched_at": 1788400135.4294784,
+    "_updated_label": "2026-09-03 10:49"
   },
   "INTC": {
     "forwardPE": 51.38288,
@@ -1400,6 +1409,14 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 2073.99,
     "52WeekLow": 670.19,
     "beta": 1.6218792,
+    "_dividendFieldsRaw": {
+      "currentDividendYieldTTM": 0.1495,
+      "dividendGrowthRate5Y": 35.55,
+      "dividendIndicatedAnnual": 3.6,
+      "dividendPerShareAnnual": 1.9461,
+      "dividendPerShareTTM": 2.5988,
+      "dividendYieldIndicatedAnnual": 0.50297
+    },
     "avgPe3Y": 27.932266666666663,
     "peDeviation3Y": 52.86514520840894,
     "perBandYears": 22,
@@ -1409,8 +1426,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788326466.4430988,
-    "_updated_label": "2026-09-02 14:21"
+    "_fetched_at": 1788400135.4294784,
+    "_updated_label": "2026-09-03 10:49"
   },
   "SBGSY": {
     "forwardPE": 26.51724,
