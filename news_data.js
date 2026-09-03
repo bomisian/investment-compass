@@ -5711,7 +5711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -9042,7 +9042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
@@ -12267,7 +12267,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -15170,7 +15170,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -18718,7 +18718,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -19814,7 +19814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -23210,7 +23210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -26632,7 +26632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -30099,7 +30099,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -33772,7 +33772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -36488,7 +36488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -38622,7 +38622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -40318,7 +40318,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
@@ -42010,7 +42010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -44549,7 +44549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -44665,7 +44665,47 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d9b9969eb017ff24c18bf8c79a3e75dc5993816ea177ad40314f8a57de40858a",
         "datetime": 1788383160,
         "relevance": 0.5,
-        "headlineKo": "HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화"
+        "headlineKo": "HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ORCL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788437989.820536
+        }
       },
       {
         "headline": "Oracle Is Down 25%. Jefferies Says the Worst May Be Priced In",
@@ -44787,7 +44827,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "HPE and Oracle Deepen Networking Collaboration to Accelerate Gigawatt-Scale AI Infrastructure",
+            "HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -44811,13 +44851,13 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 ORCL의 사업과 관련된 'HPE and Oracle Deepen Networking Collaboration to Accelerate Gigawatt-Scale AI Infrastructure' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 ORCL의 사업과 관련된 'HPE와 Oracle, 네트워킹 협업을 강화하여 기가와트 규모의 AI 인프라 가속화' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "ORCL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788415043.0203264
+          "analysisUpdatedAt": 1788437989.820536
         }
       },
       {
@@ -47041,9 +47081,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-03 21:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 67,
-      "removed": 1,
-      "updated": "2026-09-03 21:04"
+      "checked": 66,
+      "removed": 0,
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -49457,7 +49497,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -51808,7 +51848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -53229,7 +53269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -54410,7 +54450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -57624,7 +57664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -58734,7 +58774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -60148,7 +60188,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -61487,7 +61527,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -64909,7 +64949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -66110,7 +66150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
@@ -67231,7 +67271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -68367,7 +68407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -69543,7 +69583,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -71036,7 +71076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -71941,7 +71981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -73156,7 +73196,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -74185,7 +74225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -75142,7 +75182,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -75733,7 +75773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788432417.8738093,
     "_earnings_status": "ok",
@@ -77207,7 +77247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -77715,7 +77755,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -78766,7 +78806,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -79545,7 +79585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -80615,7 +80655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -80735,9 +80775,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
-    "_last_attempt_at": 1788436826.463211,
+    "_last_attempt_at": 1788437988.1665385,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -80893,7 +80933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 21:04"
+      "updated": "2026-09-03 21:19"
     },
     "_fetched_at": 1788436120.4948645,
     "_updated_label": "2026-09-03 20:48",
