@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 90.7699966430664,
+      "current": 90.61000061035156,
       "prevClose": 90.22000122070312,
-      "changeAbs": 0.5499954223632812,
-      "changePct": 0.6096158445152755,
-      "pctRank": 84.3277645186953,
+      "changeAbs": 0.3899993896484375,
+      "changePct": 0.4322759746969975,
+      "pctRank": 84.1686555290374,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -19.63700832620604,
-      "ma20": 84.05800018310546,
-      "ma60": 80.26866658528645,
-      "chg1m": 15.0,
-      "chg3m": -5.25,
-      "chg1mPct": 19.796754209533972,
-      "chg3mPct": -5.467611105544756,
+      "drawdown1y": -19.778660417430228,
+      "ma20": 84.05000038146973,
+      "ma60": 80.26599998474121,
+      "chg1m": 14.840003967285156,
+      "chg3m": -5.409996032714844,
+      "chg1mPct": 19.58559406725689,
+      "chg3mPct": -5.6342389313189996,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.5770034790039,
+      "current": 99.60099792480469,
       "prevClose": 99.66999816894531,
-      "changeAbs": -0.09299468994140625,
-      "changePct": -0.09330259019747938,
-      "pctRank": 31.60828025477707,
+      "changeAbs": -0.069000244140625,
+      "changePct": -0.06922870011863184,
+      "pctRank": 32.1656050955414,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.000784488865104,
-      "ma20": 99.46385040283204,
-      "ma60": 100.31661707560221,
-      "chg1m": -0.38299560546875,
-      "chg3m": 0.35700225830078125,
-      "chg1mPct": -0.38314886852399227,
-      "chg3mPct": 0.35980876225416697,
+      "drawdown1y": -1.977170232732195,
+      "ma20": 99.46505012512208,
+      "ma60": 100.31701698303223,
+      "chg1m": -0.35900115966796875,
+      "chg3m": 0.3809967041015625,
+      "chg1mPct": -0.35914482088439154,
+      "chg3mPct": 0.38399183573287865,
       "lastDate": "2026-09-02",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4430.0,
+      "current": 4431.89990234375,
       "prevClose": 4348.0,
-      "changeAbs": 82.0,
-      "changePct": 1.8859245630174795,
-      "pctRank": 90.77167859984088,
+      "changeAbs": 83.89990234375,
+      "changePct": 1.9296205690834864,
+      "pctRank": 90.85123309466985,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.704270432019296,
-      "ma20": 4453.4,
-      "ma60": 4222.32333984375,
-      "chg1m": 334.60009765625,
-      "chg3m": -6.7001953125,
-      "chg1mPct": 8.170144690015796,
-      "chg3mPct": -0.15101753595113204,
+      "drawdown1y": -16.668547237475153,
+      "ma20": 4453.4949951171875,
+      "ma60": 4222.355004882813,
+      "chg1m": 336.5,
+      "chg3m": -4.80029296875,
+      "chg1mPct": 8.216535821261923,
+      "chg3mPct": -0.10819511703363789,
       "lastDate": "2026-09-02",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.8577906593237454,
-        "ret3m": 1.7263926415477249,
-        "ret6m": 13.220143051428735,
-        "ret1y": 12.317828668099985,
+        "ret1m": 8.315986567829526,
+        "ret3m": -0.6095739792630228,
+        "ret6m": 15.031579079072266,
+        "ret1y": 11.528156799457513,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -5.562531492441936,
-        "ret3m": -15.82422703101285,
-        "ret6m": 72.73252180543854,
-        "ret1y": 237.5648449179575,
+        "ret1m": 0.8827059444120211,
+        "ret3m": -14.205674603621986,
+        "ret6m": 77.3937084315874,
+        "ret1y": 232.8972043561122,
         "winRate": 71.5,
         "count": 16
       }
@@ -211,13 +211,20 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.10865023612377744,
-    "corrPctRank": 0.08375209380234507,
+    "corr60": 0.10129683065128146,
+    "corrPctRank": 0.0,
     "corrMin5y": 0.10129683065128146,
     "corrMedian5y": 0.7050009580856722,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Jim Cramer says investors aren't ditching tech — they just want cheaper stocks",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/02/cramer-says-investors-arent-ditching-tech-they-want-cheaper-stocks.html",
+      "datetime": 1788390549,
+      "headlineKo": "Jim Cramer는 투자자들이 기술을 버리는 것이 아니라 단지 더 저렴한 주식을 원한다고 말합니다."
+    },
     {
       "headline": "Wall St ends higher as stocks reclaim some shine - Reuters",
       "source": "Reuters",
@@ -226,11 +233,32 @@ const MARKET_DATA = {
       "headlineKo": "주식이 다시 빛을 발하면서 월스트리트가 상승 마감했습니다 - Reuters"
     },
     {
+      "headline": "Stocks climb and US yields ease; yen jumps against dollar - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0WUhpSzJRLUpQRnRFZFhzQTlMckJ1alJaa1RQaGo0RjdoZ0h3Y0VQd1I0NkxvS3AzWElTTTJFSF9KMEQ1U1lWVlNDZ2lud19wMW85LWpyQWJoNzltaFctdkdtRzMyWVZDam5yZWtxRHlzcUJBR3R4VHNHWQ?oc=5",
+      "datetime": 1788386510,
+      "headlineKo": "주식은 상승하고 미국 수익률은 완화됩니다. 엔화는 달러 대비 급등 - 로이터"
+    },
+    {
+      "headline": "Bond selloff deepens as oil prices and public debt fears jolt markets - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSkJqeC1yeWhxa0NETU9oT1R3YUdoYm9fNE4zamM3MlhJTUFkZ3gwWDliZmFZRHpXaEFOLW1JMHN4dEhkTTlfY282eG9yWlJZRVpaR281SlMtWkpuLTRXYnQ4dkt0VnlwckFQU0JUR21WM2VBZTRYb3VKM0M0Zlg3aF83SUY0WERMb2dWdWlLQ3U2ZmlON1pJdU5WMTdEVUZoNlowM0ZhZDJNeEdFcUE?oc=5",
+      "datetime": 1788384827,
+      "headlineKo": "유가와 공공 부채로 인한 시장 충격으로 채권 매도 심화 - Reuters"
+    },
+    {
       "headline": "Trump aides seek 'quiet' in Iran war but say attacks may intensify after November elections - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMDJDS3ZmaHY1S0hTTlJiUUVPQ081YTU5bWV3NmJJLTRTNDdNQUhKNWdFTXd4TzVVRkRiRXd6SV9xZ1hmbHVxMFVGOUhXMkJLTkdaN0VWa3g3aEZ1aWZDbnlNTkRoUk5zY2ltOW9PNVk1SlFJVU1mNzZFSE9GTGpGbmhwdW1sMFNuTFhwcTVmSlFUNUIwM3lOV3ZpQ0NCX3B2TmMwbXZB?oc=5",
       "datetime": 1788383284,
       "headlineKo": "트럼프 보좌관들은 이란 전쟁에서 '조용함'을 추구하지만 11월 선거 이후 공격이 강화될 수 있다고 말했습니다 - 로이터"
+    },
+    {
+      "headline": "US-Iran strikes raise fears of renewed war across the Middle East - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
+      "datetime": 1788383172,
+      "headlineKo": "미국-이란 공습으로 중동 전역에 전쟁 재개 우려 - 로이터 통신"
     },
     {
       "headline": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
@@ -268,49 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "판사는 Google 데이터 센터 에너지 문서에 대한 아칸소 뉴스 보도 차단을 거부했습니다."
     },
     {
-      "headline": "We're starting positions in 2 more defensive stocks to balance our AI exposure",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/were-starting-positions-in-2-more-defensive-stocks-to-balance-our-ai-exposure.html",
-      "datetime": 1788365942,
-      "headlineKo": "우리는 AI 노출의 균형을 맞추기 위해 2 개의 방어적인 주식에서 포지션을 시작하고 있습니다"
-    },
-    {
-      "headline": "What to watch in Broadcom’s upcoming earnings – and why Nvidia is running",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/what-to-watch-in-broadcoms-upcoming-earnings-and-why-nvidia-is-running-.html",
-      "datetime": 1788364463,
-      "headlineKo": "Broadcom의 향후 수입에서 지켜봐야 할 사항 및 Nvidia가 운영되는 이유"
-    },
-    {
-      "headline": "These women were laid off while on maternity leave. Yes, it's legal, and probably more common than you thought",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/getting-laid-off-on-maternity-leave.html",
-      "datetime": 1788363858,
-      "headlineKo": "이 여성들은 출산 휴가 중에 해고되었습니다. 예, 합법적이며 아마도 생각보다 더 일반적일 것입니다."
-    },
-    {
-      "headline": "Iran blacklists more ships trying to sail through Hormuz, govt website shows - Reuters",
+      "headline": "Oil settles 1% higher, as US-Iran strikes threaten supplies - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVmhMd2p2Z3VsWGROU3BobXFXeEV3ZVZwZ3JLbzNUWUtIY1pwUTljaEFMWHBOV0RJamJuNXlrd0dRNnJQY3I3S1ZTenZtSzhoYm11WTBKUkhsTkJUb3hkVVNVUXdsTTZxYkk5c2VsS3ZBeDVNTjFPTnlsQ0RXb0N1ZHFJQnV2VnZPSk5ua2ZUMG9qajVYZF9rUFhEZWlZZGV0bFFPVS1Ud09DZlpRYl8xWnNVYTk3ZmtCaHRSbnY3Mm1pQQ?oc=5",
-      "datetime": 1788363129,
-      "headlineKo": "이란 정부 웹사이트에 따르면 호르무즈를 통과하려는 선박이 더 많이 블랙리스트에 올라 있다 - 로이터 통신"
-    },
-    {
-      "headline": "UK bond yields hit fresh 19-year high, adding to pressure on Healey - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQlF1REpnZkFBOEQ5aWtMa2dFUExMOFRLMUxBQzgzeTdfYTByQ0dfbldMajJEVVloel9vb19MMEVkSHgtVTFaTGhhcjZRQURfOWREdkZoZGNtR2tvYmYzWkpIbTNzNGxQSGIwcDhsRnNubGhTN254TEMtek5Xdjhhbi03aDRWVG11RVQxbTNGVm80Ny1sRUVlRzFvVGlaNlVMWk1POEJxdkM5SjdGR3RoeG1lQ3M?oc=5",
-      "datetime": 1788363018,
-      "headlineKo": "영국 채권 수익률이 19년 만에 최고치를 기록해 힐리에게 압력을 가중 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTRkVWlBVVJQeFBDbXB5UzFkd05qc05KVXhja1h2cC1aMUZxOTRGQTY4a0ZHeWpiSzl0UE50MjRTTjFVREhMUGJhd29Ka21tTTlISE9yd3pSSHFESEtVOTBzb2c0dEVFakx5eEJLamxsMUJxZ0NOSTBpNll2a2Z5eVBncmR6S3MtSW1ITE9hN01KbUljNlcwNlB3aw?oc=5",
+      "datetime": 1788377446,
+      "headlineKo": "미국-이란 파업으로 공급 위협에 석유 가격 1% 상승 - Reuters"
     }
   ],
   "fgi": {
     "score": 33.2285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788390051.8669107,
-  "_updated_label": "2026-09-03 08:01",
-  "_last_attempt_at": 1788390051.8669107,
-  "_last_success_at": 1788390051.8669107,
+  "_fetched_at": 1788393694.7797053,
+  "_updated_label": "2026-09-03 09:02",
+  "_last_attempt_at": 1788393694.7797053,
+  "_last_success_at": 1788393694.7797053,
   "_collection_status": "ok",
   "_collection_errors": []
 };

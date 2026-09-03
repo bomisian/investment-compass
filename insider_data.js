@@ -846,8 +846,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788320762.0525813,
-    "_updated_label": "2026-09-02"
+    "_fetched_at": 1788393692.1660476,
+    "_updated_label": "2026-09-03"
   },
   "NVDA": {
     "transactions": [
@@ -2076,8 +2076,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788320762.0525813,
-    "_updated_label": "2026-09-02"
+    "_fetched_at": 1788393692.1660476,
+    "_updated_label": "2026-09-03"
   },
   "MU": {
     "transactions": [
