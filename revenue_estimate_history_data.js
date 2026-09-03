@@ -152,5 +152,37 @@ const REVENUE_ESTIMATE_HISTORY_DATA = {
       "analystCount": 26.0,
       "fiscalDate": "2026-12-31"
     }
+  ],
+  "TSM": [
+    {
+      "date": "2026-09-03",
+      "revenueAvg": 5435176569510.0,
+      "analystCount": 12.0,
+      "fiscalDate": "2026-12-31"
+    }
+  ],
+  "ASML": [
+    {
+      "date": "2026-09-03",
+      "revenueAvg": 43311939400.0,
+      "analystCount": 32.0,
+      "fiscalDate": "2026-12-31"
+    }
+  ],
+  "AMAT": [
+    {
+      "date": "2026-09-03",
+      "revenueAvg": 34177828999.0,
+      "analystCount": 27.0,
+      "fiscalDate": "2026-10-31"
+    }
+  ],
+  "LRCX": [
+    {
+      "date": "2026-09-03",
+      "revenueAvg": 34792865450.0,
+      "analystCount": 29.0,
+      "fiscalDate": "2027-06-30"
+    }
   ]
 };
