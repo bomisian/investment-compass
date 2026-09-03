@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788413155.56032,
+  "generatedAt": 1788415173.6386437,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788369561,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": -0.35,
+            "after": 0.0
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -1.4,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.98,
+            "after": -2.62
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "업데이트: Microsoft Edge는 유럽 법원 판결에서 게이트키퍼 지정에서 제외됩니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=1cf508982dc12839bec64eaea4ef7b342fb5b8ee42112d187332bb94ec5e22aa",
+        "eventId": "7402d83c7f05d0dfdae6",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.35, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": -1.4, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -2.62, \"before\": -2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7402d83c7f05d0dfdae6\"}"
+      },
       {
         "changedAt": 1788398304.4420795,
         "dataAsOf": 1788369561,
@@ -754,6 +783,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788399542,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 3.67,
+            "after": 4.37
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.37,
+            "after": 5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": 0.0
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "더 큰 지열 베팅: Google의 Fervo 거래가 의미할 수 있는 것",
+        "newsUrl": "https://finnhub.io/api/news?id=3ed43ebc363cb54823932b266f707ca0d332a93c3e8c5b38aaea6e061a1cb073",
+        "eventId": "a13ff18325cd9f1fbe41",
+        "fingerprint": "{\"changes\": [{\"after\": 4.37, \"before\": 3.67, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 4.37, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a13ff18325cd9f1fbe41\"}"
+      },
       {
         "changedAt": 1788392659.914276,
         "dataAsOf": 1788380786,
@@ -1950,6 +2008,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788374011,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 1.4
+          },
+          {
+            "key": "competitiveRisk",
+            "label": "경쟁 심화 리스크",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.92,
+            "after": -1.57
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "Amazon, Walmart, DOJ 쇠고기 독점금지 조사에서 데이터 요청",
+        "newsUrl": "https://finnhub.io/api/news?id=3438c0eceb1ec6c11c81ea637891cc8def662ece9a3eee6692584395cdf7ce54",
+        "eventId": "c5314d9fe1e8777a3ccd",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": -0.7, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}, {\"after\": -1.57, \"before\": -1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c5314d9fe1e8777a3ccd\"}"
+      },
+      {
         "changedAt": 1788398304.4420795,
         "dataAsOf": 1788374011,
         "changes": [
@@ -2689,6 +2776,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "META": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788289026,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.05,
+            "after": -0.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.9,
+            "after": -4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.05
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "PJM이 메타 지원을 받는 오하이오 프로젝트를 추진함에 따라 Oklo가 5% 하락하고 NuScale Power는 거의 예산을 유지하지 못함",
+        "newsUrl": "https://finnhub.io/api/news?id=481a968aceed238ff759767244ad77eafcff2c65bec52c42a104e54084cd65fc",
+        "eventId": "cce272cb64500427f8f9",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -4.9, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.05, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cce272cb64500427f8f9\"}"
+      },
       {
         "changedAt": 1788392659.914276,
         "dataAsOf": 1788289026,
@@ -5147,6 +5263,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ORCL": [
       {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788383234,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.75
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.92,
+            "after": 2.62
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": -0.17
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Oracle AI 데이터 센터 거래 중 HPE 수익 최고 추정치",
+        "newsUrl": "https://finnhub.io/api/news?id=822979e0be99a83a36517cfb40988fdf9d4f04dddf1f0f683954c4ff5ef362dd",
+        "eventId": "ab9bb62c536081fe2e18",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.62, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ab9bb62c536081fe2e18\"}"
+      },
+      {
         "changedAt": 1788393692.1045432,
         "dataAsOf": 1788376023,
         "changes": [
@@ -6253,6 +6398,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "PLTR": [
       {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788384739,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 1.4
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Palantir 주가는 1억 9200만 달러 규모의 육군 계약에도 불구하고 하락",
+        "newsUrl": "https://finnhub.io/api/news?id=da6278cd27393f4f00d3af0202e77e5818bb723976c46352215a52efb9d8621d",
+        "eventId": "42a4fa5288053a9d34ef",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.7, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"42a4fa5288053a9d34ef\"}"
+      },
+      {
         "changedAt": 1788393692.1045432,
         "dataAsOf": 1788384739,
         "changes": [
@@ -6585,6 +6765,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788405833,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.22,
+            "after": 1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.28,
+            "after": 3.67
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "억만장자 Dan Loeb는 Nvidia와 Broadcom을 떠났습니다. 그는 AI 칩의 최고라고 부르고 있습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=2c8c88244c26033b707b730a9c0166ebdf6e1fd2884f6dc35bfb58d7b0991e98",
+        "eventId": "5a8ad5e841d509fad5c3",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.67, \"before\": 2.28, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5a8ad5e841d509fad5c3\"}"
+      },
       {
         "changedAt": 1788398304.4420795,
         "dataAsOf": 1788380786,
@@ -8368,6 +8571,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788405833,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 1.22
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "억만장자 Dan Loeb는 Nvidia와 Broadcom을 떠났습니다. 그는 AI 칩의 최고라고 부르고 있습니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=2c8c88244c26033b707b730a9c0166ebdf6e1fd2884f6dc35bfb58d7b0991e98",
+        "eventId": "5a8ad5e841d509fad5c3",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"5a8ad5e841d509fad5c3\"}"
+      },
       {
         "changedAt": 1788398304.4420795,
         "dataAsOf": 1788385577,
@@ -12862,6 +13082,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMAT": [
       {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
+      },
+      {
         "changedAt": 1788382860.6534662,
         "dataAsOf": 1787875983,
         "changes": [
@@ -14307,6 +14550,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "SNDK": [
+      {
+        "changedAt": 1788415173.6386437,
+        "dataAsOf": 1788405452,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.1,
+            "after": 2.45
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": 0.87
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Leopold Aschenbrenner의 AI 펀드가 강제로 매각되었습니다. Micron과 SanDisk는 틀렸는가? 아니면 단지 레버리지만 있었는가?",
+        "newsUrl": "https://finnhub.io/api/news?id=665448d42f78e46e1e76524f9b023f91df352d9f1e664660c0594888cca4a72b",
+        "eventId": "4e2980d96fa059a8405f",
+        "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4e2980d96fa059a8405f\"}"
+      },
       {
         "changedAt": 1788392659.914276,
         "dataAsOf": 1788377520,
