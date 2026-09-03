@@ -5711,7 +5711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -5727,76 +5727,30 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple's new CEO faces his first big test",
+        "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=358b62a4865f367adef972e881b5a2c8c296e5ec645d6764f9af30a785cc44bf",
-        "datetime": 1788391020,
+        "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
+        "datetime": 1788443718,
         "relevance": 0.29,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple's new CEO faces his first big test",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "앱 추적 규칙에 대한 소송 사이트맵 접근성 정보 개인정보 보호 서비스 약관 광고 개인정보 보호 및 쿠키 설정 © 2026 Quartz Media, Inc.",
+            "비즈니스 뉴스 Apple이 영국에서 소송을 당했습니다.",
+            "앱 추적 규칙에 대해 27억 달러에 대한 소송 런던 경쟁 항소 법원에 제기된 집단 소송에서는 Apple이 자체 서비스보다 제3자 개발자에게 더 엄격한 추적 규칙을 부과했다고 비난했습니다. 작성자: Cris Tolomia · 2분 읽기"
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's new CEO faces his first big test' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428613.144784
-        },
-        "headlineKo": "애플의 새 CEO, 첫 번째 큰 시험에 직면하다"
-      },
-      {
-        "headline": "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b58667a6474fcee5cfd88598166841eb9e2f7dfad86491bc0555454d88ee979a",
-        "datetime": 1788381206,
-        "relevance": 0.57,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple May Need a Foldable iPhone to Avoid a Revenue Slowdown Next Year",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $2.7 billion, €98.6 million, €150 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -5807,35 +5761,43 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
           ],
-          "interpretation": "AAPL에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.57,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428615.9010577
+          "interpretation": "AAPL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$2.7 billion",
+            "€98.6 million",
+            "€150 million"
+          ],
+          "sourceExcerpt": [
+            "lawsuit over app tracking rules Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Business News Apple is being sued in the U.K.",
+            "for $2.7 billion over its app tracking rules A collective action filed at London's Competition Appeal Tribunal accuses Apple of imposing stricter tracking rules on third-party developers than on its own services By Cris Tolomia · 2 min read"
+          ],
+          "analysisUpdatedAt": 1788451233.3934605
         },
-        "headlineKo": "애플은 내년 매출 둔화를 피하기 위해 폴더블 아이폰이 필요할 수도 있다"
+        "headlineKo": "애플, 앱 추적 규칙과 관련해 영국에서 27억 달러 규모의 소송에 직면"
       },
       {
-        "headline": "Apple CEO John Ternus Has a Big AI Opportunity: BofA Sees ‘Device Dominance’ Ahead, Eyes Nearly 20% Upside for AAPL",
+        "headline": "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5cf4bc787602863b983521c2789bec1fa8252deb432f2951c00227b9236443b9",
-        "datetime": 1788381042,
-        "relevance": 0.71,
+        "url": "https://finnhub.io/api/news?id=a54cfa3dd98f7c777e75f09b63c5e245cc3345604cd12ccf5a7ffc85a0088808",
+        "datetime": 1788443482,
+        "relevance": 0.29,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "risk",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple CEO John Ternus Has a Big AI Opportunity: BofA Sees ‘Device Dominance’ Ahead, Eyes Nearly 20% Upside for AAPL",
+            "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -5859,34 +5821,251 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple CEO John Ternus Has a Big AI Opportunity: BofA Sees ‘Device Dominance’ Ahead, Eyes Nearly 20% Upside for AAPL' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.71,
+          "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428618.117764
+          "analysisUpdatedAt": 1788451235.8596504
         },
-        "headlineKo": "Apple CEO John Ternus는 큰 AI 기회를 가지고 있습니다. BofA는 '기기 지배력'을 앞두고 AAPL의 약 20% 상승 여력을 보고 있습니다."
+        "headlineKo": "Apple의 앱 규칙으로 인해 27억 달러의 법적 위험이 발생했습니다."
       },
       {
-        "headline": "Apple’s New CEO Has Millions Riding on the Stock Beating the Market",
+        "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=76f4f452dfbfa8c18c5f1c5cbec25f921b41c3210bb09b4e496a721e51af0535",
-        "datetime": 1788378420,
+        "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb",
+        "datetime": 1788443100,
         "relevance": 0.29,
-        "headlineKo": "Apple의 새로운 CEO는 시장을 이기는 주식에 수백만 달러를 투자하고 있습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788451237.8857334
+        },
+        "headlineKo": "Apple CEO로서 Tim Cook의 마지막 경고: 미국은 이제 '100년 홍수' 위험에 처해 있습니다. 심지어 Elon Musk도 걱정하고 있습니다."
       },
       {
-        "headline": "Tim Cook's Final Earnings Call as Apple CEO Came the Same Week Apple Hit a $5 Trillion Market Cap. Here's What Investors Should Watch Under His Successor.",
+        "headline": "Apple faces £2bn UK lawsuit over app tracking rules",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c1ea91f450e7cafd6ed6c51b2713de374166a2ca146f126b38d4050507ef317e",
-        "datetime": 1788376800,
+        "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
+        "datetime": 1788440638,
         "relevance": 0.29,
-        "headlineKo": "같은 주에 Apple CEO인 Tim Cook의 최종 수익 보고가 나왔습니다. Apple은 시가총액 5조 달러를 달성했습니다. 그의 후계자 밑에서 투자자들이 주목해야 할 사항은 다음과 같습니다."
+        "headlineKo": "Apple, 앱 추적 규칙과 관련해 영국에서 20억 파운드 규모의 소송에 직면"
+      },
+      {
+        "headline": "How Apple's John Ternus inherited a 'reckoning' with China",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=acf888a42e84acadf62f2555323a8a72152b373a1479558ec4e7379e6fb8c882",
+        "datetime": 1788440400,
+        "relevance": 0.29,
+        "headlineKo": "애플의 존 터너스는 어떻게 중국과의 '계산'을 이어받았나"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
+        "datetime": 1788443718,
+        "headlineKo": "애플, 앱 추적 규칙과 관련해 영국에서 27억 달러 규모의 소송에 직면",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "앱 추적 규칙에 대한 소송 사이트맵 접근성 정보 개인정보 보호 서비스 약관 광고 개인정보 보호 및 쿠키 설정 © 2026 Quartz Media, Inc.",
+            "비즈니스 뉴스 Apple이 영국에서 소송을 당했습니다.",
+            "앱 추적 규칙에 대해 27억 달러에 대한 소송 런던 경쟁 항소 법원에 제기된 집단 소송에서는 Apple이 자체 서비스보다 제3자 개발자에게 더 엄격한 추적 규칙을 부과했다고 비난했습니다. 작성자: Cris Tolomia · 2분 읽기"
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $2.7 billion, €98.6 million, €150 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "AAPL에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$2.7 billion",
+            "€98.6 million",
+            "€150 million"
+          ],
+          "sourceExcerpt": [
+            "lawsuit over app tracking rules Sitemap About Accessibility Privacy Terms of Service Advertising Privacy and Cookie Settings © 2026 Quartz Media, Inc.",
+            "Business News Apple is being sued in the U.K.",
+            "for $2.7 billion over its app tracking rules A collective action filed at London's Competition Appeal Tribunal accuses Apple of imposing stricter tracking rules on third-party developers than on its own services By Cris Tolomia · 2 min read"
+          ],
+          "analysisUpdatedAt": 1788451233.3934605
+        }
+      },
+      {
+        "headline": "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a54cfa3dd98f7c777e75f09b63c5e245cc3345604cd12ccf5a7ffc85a0088808",
+        "datetime": 1788443482,
+        "headlineKo": "Apple의 앱 규칙으로 인해 27억 달러의 법적 위험이 발생했습니다.",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's App Rules Just Picked Up a $2.7 Billion Legal Risk' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788451235.8596504
+        }
+      },
+      {
+        "headline": "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6c50c78ad57eb38566a9071f35dbfb92db0432f7432a70989a970ad4e43078cb",
+        "datetime": 1788443100,
+        "headlineKo": "Apple CEO로서 Tim Cook의 마지막 경고: 미국은 이제 '100년 홍수' 위험에 처해 있습니다. 심지어 Elon Musk도 걱정하고 있습니다.",
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook’s final words of warning as Apple CEO: US now at risk from ‘hundred-year flood’ — even Elon Musk is worried' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788451237.8857334
+        }
+      },
+      {
+        "headline": "Apple faces £2bn UK lawsuit over app tracking rules",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
+        "datetime": 1788440638,
+        "headlineKo": "Apple, 앱 추적 규칙과 관련해 영국에서 20억 파운드 규모의 소송에 직면",
+        "relevance": 0.29
+      },
+      {
+        "headline": "How Apple's John Ternus inherited a 'reckoning' with China",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=acf888a42e84acadf62f2555323a8a72152b373a1479558ec4e7379e6fb8c882",
+        "datetime": 1788440400,
+        "headlineKo": "애플의 존 터너스는 어떻게 중국과의 '계산'을 이어받았나",
+        "relevance": 0.29
+      },
       {
         "headline": "Apple's new CEO faces his first big test",
         "source": "Yahoo",
@@ -9036,17 +9215,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788428610.377202,
-    "_updated_label": "2026-09-03 18:43",
+    "_fetched_at": 1788451227.936509,
+    "_updated_label": "2026-09-04 01:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 97,
+      "checked": 102,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
-    "_last_attempt_at": 1788428610.377202,
+    "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
-    "_last_success_at": 1788428610.377202,
+    "_last_success_at": 1788451227.936509,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -12267,7 +12446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -15331,7 +15510,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -19023,7 +19202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -20119,7 +20298,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -23683,7 +23862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -27105,7 +27284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -30761,7 +30940,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -34542,7 +34721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -37258,7 +37437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -39392,7 +39571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -39422,12 +39601,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -39452,20 +39631,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
-            "0.14%",
-            "0.15%",
+            "1.08%",
+            "1.17%",
+            "1.24%",
+            "0.40%",
             "$437.31",
             "0.7%",
-            "178%",
-            "$9.1 billion",
-            "5%"
+            "178%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788428624.632155
+          "analysisUpdatedAt": 1788451246.881895
         },
         "headlineKo": "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다. 지금 판매하시겠습니까, 아니면 추가 구매하시겠습니까?"
       },
@@ -39513,7 +39692,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428626.82015
+          "analysisUpdatedAt": 1788451248.944517
         },
         "headlineKo": "YTD 72.5% 상승 후 AMAT 주식을 매수, 매도 또는 보유해야 합니까?"
       },
@@ -39561,7 +39740,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428628.9201176
+          "analysisUpdatedAt": 1788451250.8610463
         },
         "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
       },
@@ -39599,12 +39778,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -39629,20 +39808,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
-            "0.14%",
-            "0.15%",
+            "1.08%",
+            "1.17%",
+            "1.24%",
+            "0.40%",
             "$437.31",
             "0.7%",
-            "178%",
-            "$9.1 billion",
-            "5%"
+            "178%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788428624.632155
+          "analysisUpdatedAt": 1788451246.881895
         }
       },
       {
@@ -39690,7 +39869,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428626.82015
+          "analysisUpdatedAt": 1788451248.944517
         }
       },
       {
@@ -39738,7 +39917,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428628.9201176
+          "analysisUpdatedAt": 1788451250.8610463
         }
       },
       {
@@ -41082,17 +41261,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788428610.377202,
-    "_updated_label": "2026-09-03 18:43",
+    "_fetched_at": 1788451227.936509,
+    "_updated_label": "2026-09-04 01:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
-    "_last_attempt_at": 1788428610.377202,
+    "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
-    "_last_success_at": 1788428610.377202,
+    "_last_success_at": 1788451227.936509,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -42780,7 +42959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788439820.9811935,
     "_earnings_status": "ok",
@@ -45429,7 +45608,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -47963,7 +48142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 66,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -50557,7 +50736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -53061,7 +53240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788439820.9811935,
     "_earnings_status": "ok",
@@ -54516,7 +54695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -55697,7 +55876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -58911,7 +59090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788439820.9811935,
     "_earnings_status": "ok",
@@ -60021,7 +60200,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -61435,7 +61614,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -62774,7 +62953,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -66196,7 +66375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -66255,7 +66434,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428633.7505908
+          "analysisUpdatedAt": 1788451256.5236363
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -66274,12 +66453,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -66304,20 +66483,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.14%",
-            "0.15%",
+            "1.08%",
+            "1.17%",
+            "1.24%",
+            "0.40%",
             "168%",
             "$465.32",
-            "16%",
-            "17%",
-            "1%"
+            "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788428636.6915011
+          "analysisUpdatedAt": 1788451259.3086672
         },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
@@ -66364,7 +66543,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428637.771102
+          "analysisUpdatedAt": 1788451260.9023516
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -66431,7 +66610,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428633.7505908
+          "analysisUpdatedAt": 1788451256.5236363
         }
       },
       {
@@ -66450,12 +66629,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% 다우존스 53,701.00 +1.17% 나스닥 100 29,476.60 +1.24% 러셀 2000 2,967.82 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 1.08%, 1.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -66480,20 +66659,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.14%",
-            "0.15%",
+            "1.08%",
+            "1.17%",
+            "1.24%",
+            "0.40%",
             "168%",
             "$465.32",
-            "16%",
-            "17%",
-            "1%"
+            "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
+            "Skip to content ❚❚ At close S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.40% S&P 500 7,746.10 +1.08% Dow Jones 53,701.00 +1.17% Nasdaq 100 29,476.60 +1.24% Russell 2000 2,967.82 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788428636.6915011
+          "analysisUpdatedAt": 1788451259.3086672
         }
       },
       {
@@ -66540,7 +66719,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788428637.771102
+          "analysisUpdatedAt": 1788451260.9023516
         }
       },
       {
@@ -67391,17 +67570,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788428610.377202,
-    "_updated_label": "2026-09-03 18:43",
+    "_fetched_at": 1788451227.936509,
+    "_updated_label": "2026-09-04 01:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
-    "_last_attempt_at": 1788428610.377202,
+    "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
-    "_last_success_at": 1788428610.377202,
+    "_last_success_at": 1788451227.936509,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -68518,7 +68697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -69654,7 +69833,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -70830,7 +71009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -72399,7 +72578,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -73304,7 +73483,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -74519,7 +74698,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -75596,7 +75775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -76601,7 +76780,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -77192,7 +77371,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788432417.8738093,
     "_earnings_status": "ok",
@@ -78836,7 +79015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -79344,7 +79523,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -80395,7 +80574,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788439820.9811935,
     "_earnings_status": "ok",
@@ -81174,7 +81353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788439820.9811935,
     "_earnings_status": "ok",
@@ -82244,7 +82423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_last_attempt_at": 1788436826.463211,
     "_earnings_status": "ok",
@@ -82364,9 +82543,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
-    "_last_attempt_at": 1788449363.9864726,
+    "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -82522,7 +82701,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 00:29"
+      "updated": "2026-09-04 01:01"
     },
     "_fetched_at": 1788436120.4948645,
     "_updated_label": "2026-09-03 20:48",
