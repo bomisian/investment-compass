@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788465807.40069,
+  "generatedAt": 1788466176.3432796,
   "records": {
     "MSFT": [
       {
@@ -18815,6 +18815,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ETN": [
+      {
+        "changedAt": 1788466176.3432796,
+        "dataAsOf": 1788446391,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.87,
+            "after": 0.53
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -0.87
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "이튼: 강력한 장기적 성장, 하지만 가치 평가로 인해 상승 여력이 제한됨",
+        "newsUrl": "https://finnhub.io/api/news?id=432fe54b22c7ca04284cc63a81672e7326c80808f6e9683a811482f581953a32",
+        "eventId": "915de130d26772a54f9a",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.53, \"before\": 0.87, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.87, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"915de130d26772a54f9a\"}"
+      },
       {
         "changedAt": 1788465807.40069,
         "dataAsOf": 1788446391,

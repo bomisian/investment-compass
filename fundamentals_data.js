@@ -1461,7 +1461,15 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 101949.99,
     "52WeekHigh": 379.935,
     "52WeekLow": 118.7,
-    "beta": 2.1115434,
+    "beta": 2.1109886,
+    "_dividendFieldsRaw": {
+      "currentDividendYieldTTM": 0.0844,
+      "dividendGrowthRate5Y": 77.87,
+      "dividendIndicatedAnnual": 0.25,
+      "dividendPerShareAnnual": 0.1745,
+      "dividendPerShareTTM": 0.2243,
+      "dividendYieldIndicatedAnnual": 0.10348967173076128
+    },
     "avgPe3Y": 57.4307,
     "peDeviation3Y": 2.493265796864741,
     "perBandYears": 5,
@@ -1471,8 +1479,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.610000000000003,
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788393602.3680036,
-    "_updated_label": "2026-09-03 09:00"
+    "_fetched_at": 1788466144.379118,
+    "_updated_label": "2026-09-04 05:09"
   },
   "MOD": {
     "forwardPE": 23.79523717237458,
