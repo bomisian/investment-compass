@@ -358,7 +358,7 @@
     <b>적정가 대비</b> = 우리 프로젝트 자체 계산식(내년 예상 EPS × 지금 PER, 증권사 목표주가·DCF 아님) 기준 할인/프리미엄 - 검증상 저평가일수록 오히려 수익률이 낮았던(밸류트랩) 지표라 매수 신호로 쓰지 마세요, 참고용 · <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
     <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
     <div style="overflow-x:auto;">
-    <table id="resultTable" style="display:none;min-width:1320px;">
+    <table id="resultTable" style="display:none;min-width:1420px;">
       <thead>
         <tr>
           <th data-key="ticker">종목</th>
@@ -366,6 +366,7 @@
           <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
           <th data-key="fvUpsidePct" title="자체 추정 적정가 대비 현재가 위치 - (내년 예상 EPS × 지금 시장이 매기는 PER) 기준, 우리 프로젝트 자체 계산식이에요(증권사 목표주가·DCF 아님). ⚠️ 검증 결과 저평가일수록 오히려 이후 수익률이 낮았어요(밸류트랩) - 매수 신호 아니고 참고용">적정가 대비</th>
           <th data-key="valuationGap" title="이 종목 자신의 3·5년 평균 PER·성장률로 역산한 '역산 기대성장률'(없으면 PEG로 대체) 기준 저평가/적정/고평가 - 아직 승률 검증이 안 된 참고용 지표예요, 매수·매도 신호로 쓰지 마세요. 종목을 열면 '가격 타당성 체크' 카드에서 근거를 자세히 볼 수 있어요">가격 타당성</th>
+          <th data-key="auxScore" title="가격 타당성·EPS 전망·애널리스트 목표가·내부자 매매·뉴스 방향성·그룹대비강도를 모아 긍정/조심 개수만 센 거예요. 새로 만든 예측이 아니라 이미 이 표·상세 화면에 있는 값들을 모은 참고용 요약이에요 - 매수·매도 신호 아니에요. 종목을 열면 '보조 근거 체크' 카드에서 자세히 볼 수 있어요">보조 근거</th>
           <th data-key="relStrength20" title="같은 섹터 그룹(동일가중) 대비 최근 20일 수익률 차이. 뒤처짐(-11%p 이하)은 5년치 검증된 경고. 앞섬(+11%p 이상)은 2026-08-26 10년치 재검증 결과 반도체 그룹에서도 사이클 전체로는 근거가 약함(2021-2023 구간은 오히려 역방향) - AI 강세장 국면 한정 효과로 판단해 신호로 쓰지 않음, 참고용 숫자만">그룹대비강도(20일)</th>
           <th data-key="techScore" title="우상향 눌림목(RSI 30~38) 또는 과매도(RSI<30, 하락추세면 당일 반등 확인) + 거래량 급증시 강한신호, 뭉침제거 쿨다운. 백테스트 검증 규칙 기준 단타용 판단">단기판단</th>
           <th data-key="drawdownPct" title="최근 1년 &quot;종가&quot; 기준 최고가 대비 지금 얼마나 빠졌는지(일중 고가 아님 - 검증된 계산방식과 동일하게 종가로 통일)">고점대비 하락(종가)</th>
@@ -2341,6 +2342,7 @@ function renderTable(){
   // 모든 행에 계산해둠. ⚠️ '앞선다=계속 오른다'는 아직 별도 검증된 바 없음 - 정렬·참고용 설명으로만
   // 쓰고, 매수 신호처럼 단정하지 않음(아래 표 안내문에도 명시).
   rows.forEach(r=>{ if(r.relStrength20===undefined) r.relStrength20 = (computeRelStrength(r)||{}).rel ?? null; });
+  rows.forEach(r=>{ if(r._auxEvidence===undefined){ r._auxEvidence = computeAuxiliaryEvidence(r); r.auxScore = r._auxEvidence.posCount - r._auxEvidence.negCount; } });
   if(themeFilter) rows = rows.filter(r=>r.theme===themeFilter);
   if(verdictFilter) rows = rows.filter(r=>r.verdict.label===verdictFilter);
   if(search) rows = rows.filter(r=>r.ticker.includes(search) || (r.name||'').toUpperCase().includes(search));
@@ -2366,6 +2368,7 @@ function renderTable(){
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}</td>
       <td>${r.fvUpsidePct!=null?`<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>`:'-'}</td>
       <td>${valuationBadgeHtml(r)}</td>
+      <td>${auxiliaryEvidenceBadgeHtml(r._auxEvidence)}</td>
       <td>${r.relStrength20!=null?`<span class="${r.relStrength20>=0?'pos':'neg'}">${r.relStrength20>=0?'+':''}${r.relStrength20.toFixed(1)}%p</span>`:'-'}</td>
       <td><span class="badge b-${r.techVerdict.cls}">${r.techVerdict.label}</span>${
         r.entryStat && r.entryStat.kind==='new'
@@ -2391,7 +2394,7 @@ function renderTable(){
   if(errRows.length){
     body.innerHTML += errRows.map(r=>`<tr>
       <td class="name">${r.ticker}</td>
-      <td colspan="12" class="err">
+      <td colspan="13" class="err">
         조회 실패: ${r.msg}
         <button class="secondary" style="padding:4px 10px;font-size:11.5px;margin-left:8px;" onclick="event.stopPropagation();retryTicker('${r.ticker}')">↻ 재조회</button>
       </td>
@@ -2819,7 +2822,10 @@ function buildValuationReasonablenessHtml(r){
 // 뉴스·같은 그룹 대비)가 같은 방향을 가리키는지 엇갈리는지 표시해달라"(오라클처럼 특정 리스크가
 // 있는 경우를 예로 듦). 새 확률·점수를 만들지 않고, 이미 화면 곳곳에 흩어져 계산돼 있는 값들을
 // 한 곳에 모아 "긍정/조심" 개수만 세어 장기 점수(검증된 지표) 바로 아래에 보여줌.
-function auxiliaryEvidenceHtml(r){
+// 2026-09-03 리팩터: 근거 수집 로직을 별도 함수로 분리 - 종목 상세 카드(auxiliaryEvidenceHtml)와
+// 메인 목록 배지(auxiliaryEvidenceBadgeHtml)가 같은 계산을 공유하게 함(사용자 요청: "메인 목록에도
+// 보조 근거 요약이 있으면 좋겠다" - 종목 하나씩 안 열어도 여러 종목을 한 화면에서 비교할 수 있게).
+function computeAuxiliaryEvidence(r){
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   const ins = insiderEntry(r.ticker);
@@ -2860,10 +2866,13 @@ function auxiliaryEvidenceHtml(r){
   if(rs && rs.rel <= REL_WEAK_THRESHOLD){
     items.push({label:`같은 그룹(${rs.sector}) 대비 뒤처짐`, tone:'negative'});
   }
-
-  if(!items.length) return '';
   const posCount = items.filter(i=>i.tone==='positive').length;
   const negCount = items.filter(i=>i.tone==='negative').length;
+  return {items, posCount, negCount};
+}
+function auxiliaryEvidenceHtml(r){
+  const {items, posCount, negCount} = computeAuxiliaryEvidence(r);
+  if(!items.length) return '';
   const toneColor = t => t==='positive' ? 'var(--green)' : (t==='negative' ? 'var(--warn)' : 'var(--sub)');
   const toneBg = t => t==='positive' ? 'var(--green-bg)' : (t==='negative' ? 'var(--warn-bg)' : 'var(--panel-2)');
   const chipsHtml = items.map(i=>`<span style="display:inline-block;margin:2px 6px 2px 0;padding:2px 8px;border-radius:999px;font-size:11.5px;background:${toneBg(i.tone)};color:${toneColor(i.tone)};">${esc(i.label)}</span>`).join('');
@@ -2877,6 +2886,18 @@ function auxiliaryEvidenceHtml(r){
     <div>${chipsHtml}</div>
     <div class="sub" style="margin-top:6px;">${summary}</div>
   </div>`;
+}
+// 메인 목록용 압축 배지 - 카드와 같은 계산을 재사용, 표에서는 개수만 짧게 보여주고 마우스 오버(title)로
+// 근거 목록을 다 보여줌. 정렬용 숫자(auxScore = 긍정개수-조심개수)는 renderTable()에서 미리 계산해둠.
+function auxiliaryEvidenceBadgeHtml(ev){
+  if(!ev || !ev.items.length) return '<span class="sub">-</span>';
+  const title = ev.items.map(i=>i.label).join(' · ') + ' (참고용 - 새로 만든 예측 아님, 있는 값을 모은 것)';
+  let label, color, bg;
+  if(ev.posCount>0 && ev.negCount===0){ label = `🟢 긍정 ${ev.posCount}`; color='var(--green)'; bg='var(--green-bg)'; }
+  else if(ev.negCount>0 && ev.posCount===0){ label = `🟡 조심 ${ev.negCount}`; color='var(--warn)'; bg='var(--warn-bg)'; }
+  else if(ev.posCount>0 && ev.negCount>0){ label = `엇갈림 ${ev.posCount}/${ev.negCount}`; color='var(--sub)'; bg='var(--panel-2)'; }
+  else { label='-'; color='var(--sub)'; bg='var(--panel-2)'; }
+  return `<span class="val-badge" style="background:${bg};color:${color};font-weight:700;" title="${esc(title)}">${esc(label)}</span>`;
 }
 
 function tabJudgement(r){

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788426780.862342,
+  "generatedAt": 1788428642.4683042,
   "events": [
     {
       "id": "c457a803662d9433981d",
@@ -1808,7 +1808,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b58667a6474fcee5cfd88598166841eb9e2f7dfad86491bc0555454d88ee979a",
         "publishedAt": 1788381206,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2245,7 +2245,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c1ea91f450e7cafd6ed6c51b2713de374166a2ca146f126b38d4050507ef317e",
         "publishedAt": 1788376800,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2307,7 +2307,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c6c0c5437b9506db8713b53dcc20ad94e43d7f2bffb33d7d45f614ffe5c4aa29",
         "publishedAt": 1788376149,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3779,7 +3779,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817",
         "publishedAt": 1788359363,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3929,7 +3929,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242",
         "publishedAt": 1788359137,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6015,7 +6015,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5e9cf7661d15f873fa05ed31caef7ac055d8ac9497816dd1916c155a9e296d6a",
         "publishedAt": 1788319010,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7015,7 +7015,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
         "publishedAt": 1788292404,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7242,7 +7242,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
         "publishedAt": 1788290100,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7470,7 +7470,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=29ed8151fdc1d523f65757d242496f87efe1f39bfea30fbdc9c4adc29046e8df",
         "publishedAt": 1788289111,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11417,7 +11417,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=aeb77d3c62cfcdd6caf431a48b5bb3af48b11f7000207d081807ba17d61cc753",
         "publishedAt": 1788253639,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14373,7 +14373,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=f9400be64e9826a0be74e14bcfa1378e2aff2c7b3bca9382fb07c420583c6bef",
         "publishedAt": 1788179608,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14719,7 +14719,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=ef431aa85514a3f4392c6880b48b8cbec15a10ef463b014e9387c1256ab35d9c",
         "publishedAt": 1788168521,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14994,7 +14994,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=f9117493efd2da8cbb8a9bb1378bc33ca9e5e39da9eddff09ab73c63c02a109c",
         "publishedAt": 1788158834,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16837,17 +16837,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
         "publishedAt": 1787947276,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Western Digital은 한 달 만에 13% 하락했습니다.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.02% S&P 500 7,672.40 +0.12% 다우존스 53,108.90 +0.05% 나스닥 100 29,155.80 +0.14% 러셀 2000 2,956.62 +0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
         "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 13%, 0.12%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -16862,7 +16862,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 13%, 0.12%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -17040,7 +17040,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=98eb184f79a545094c1e06eee59ec48c1e7256708f357f5a14a466d081163dab",
         "publishedAt": 1787934956,
-        "collectedAt": 1788405728.041137
+        "collectedAt": 1788428610.377202
       },
       "confirmedFacts": [],
       "reportedClaims": [

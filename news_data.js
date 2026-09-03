@@ -5513,7 +5513,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -5572,7 +5572,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405731.0272522
+          "analysisUpdatedAt": 1788428613.144784
         },
         "headlineKo": "애플의 새 CEO, 첫 번째 큰 시험에 직면하다"
       },
@@ -5619,7 +5619,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405733.2407057
+          "analysisUpdatedAt": 1788428615.9010577
         },
         "headlineKo": "애플은 내년 매출 둔화를 피하기 위해 폴더블 아이폰이 필요할 수도 있다"
       },
@@ -5667,7 +5667,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405735.6720915
+          "analysisUpdatedAt": 1788428618.117764
         },
         "headlineKo": "Apple CEO John Ternus는 큰 AI 기회를 가지고 있습니다. BofA는 '기기 지배력'을 앞두고 AAPL의 약 20% 상승 여력을 보고 있습니다."
       },
@@ -5734,7 +5734,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405731.0272522
+          "analysisUpdatedAt": 1788428613.144784
         }
       },
       {
@@ -5781,7 +5781,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405733.2407057
+          "analysisUpdatedAt": 1788428615.9010577
         }
       },
       {
@@ -5829,7 +5829,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405735.6720915
+          "analysisUpdatedAt": 1788428618.117764
         }
       },
       {
@@ -8838,17 +8838,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788405728.041137,
-    "_updated_label": "2026-09-03 12:22",
+    "_fetched_at": 1788428610.377202,
+    "_updated_label": "2026-09-03 18:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
-    "_last_attempt_at": 1788405728.041137,
+    "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
-    "_last_success_at": 1788405728.041137,
+    "_last_success_at": 1788428610.377202,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -11889,7 +11889,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -14792,7 +14792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -18340,7 +18340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -19436,7 +19436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -22832,7 +22832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -26254,7 +26254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -29721,7 +29721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -33394,7 +33394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -36110,7 +36110,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -38168,7 +38168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -38198,12 +38198,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.01% S&P 500 7,671.00 +0.10% 다우존스 53,103.90 +0.04% 나스닥 100 29,149.20 +0.12% 러셀 2000 2,956.32 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 0.10%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -38228,20 +38228,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
-            "0.10%",
-            "0.04%",
-            "0.12%",
-            "0.01%",
+            "0.14%",
+            "0.15%",
             "$437.31",
             "0.7%",
-            "178%"
+            "178%",
+            "$9.1 billion",
+            "5%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.01% S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788405744.105733
+          "analysisUpdatedAt": 1788428624.632155
         },
         "headlineKo": "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다. 지금 판매하시겠습니까, 아니면 추가 구매하시겠습니까?"
       },
@@ -38289,7 +38289,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405746.3855217
+          "analysisUpdatedAt": 1788428626.82015
         },
         "headlineKo": "YTD 72.5% 상승 후 AMAT 주식을 매수, 매도 또는 보유해야 합니까?"
       },
@@ -38337,7 +38337,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405748.5998838
+          "analysisUpdatedAt": 1788428628.9201176
         },
         "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
       },
@@ -38375,12 +38375,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.01% S&P 500 7,671.00 +0.10% 다우존스 53,103.90 +0.04% 나스닥 100 29,149.20 +0.12% 러셀 2000 2,956.32 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
             "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 0.10%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 14%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -38405,20 +38405,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "14%",
-            "0.10%",
-            "0.04%",
-            "0.12%",
-            "0.01%",
+            "0.14%",
+            "0.15%",
             "$437.31",
             "0.7%",
-            "178%"
+            "178%",
+            "$9.1 billion",
+            "5%"
           ],
           "sourceExcerpt": [
             "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.01% S&P 500 7,671.00 +0.10% Dow Jones 53,103.90 +0.04% Nasdaq 100 29,149.20 +0.12% Russell 2000 2,956.32 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
             "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
           ],
-          "analysisUpdatedAt": 1788405744.105733
+          "analysisUpdatedAt": 1788428624.632155
         }
       },
       {
@@ -38466,7 +38466,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405746.3855217
+          "analysisUpdatedAt": 1788428626.82015
         }
       },
       {
@@ -38514,7 +38514,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405748.5998838
+          "analysisUpdatedAt": 1788428628.9201176
         }
       },
       {
@@ -39858,17 +39858,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788405728.041137,
-    "_updated_label": "2026-09-03 12:22",
+    "_fetched_at": 1788428610.377202,
+    "_updated_label": "2026-09-03 18:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
-    "_last_attempt_at": 1788405728.041137,
+    "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
-    "_last_success_at": 1788405728.041137,
+    "_last_success_at": 1788428610.377202,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -41556,7 +41556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -44095,7 +44095,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-03 18:12"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -46581,7 +46581,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -48995,7 +48995,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -51346,7 +51346,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -52767,7 +52767,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -53948,7 +53948,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -57162,7 +57162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -58272,7 +58272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -59686,7 +59686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -61025,7 +61025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -64340,7 +64340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -64399,7 +64399,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405753.812361
+          "analysisUpdatedAt": 1788428633.7505908
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -64418,12 +64418,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.02% S&P 500 7,672.40 +0.12% 다우존스 53,108.90 +0.05% 나스닥 100 29,155.80 +0.14% 러셀 2000 2,956.62 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.12%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -64448,20 +64448,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.12%",
-            "0.05%",
             "0.14%",
-            "0.02%",
+            "0.15%",
             "168%",
             "$465.32",
-            "16%"
+            "16%",
+            "17%",
+            "1%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.02% S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788405757.4492333
+          "analysisUpdatedAt": 1788428636.6915011
         },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
@@ -64508,7 +64508,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405758.534369
+          "analysisUpdatedAt": 1788428637.771102
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -64575,7 +64575,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405753.812361
+          "analysisUpdatedAt": 1788428633.7505908
         }
       },
       {
@@ -64594,12 +64594,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.02% S&P 500 7,672.40 +0.12% 다우존스 53,108.90 +0.05% 나스닥 100 29,155.80 +0.14% 러셀 2000 2,956.62 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% 다우존스 53,153.90 +0.14% 나스닥 100 29,155.20 +0.14% 러셀 2000 2,951.67 −0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.12%, 0.05% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.14%, 0.15% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -64624,20 +64624,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "0.12%",
-            "0.05%",
             "0.14%",
-            "0.02%",
+            "0.15%",
             "168%",
             "$465.32",
-            "16%"
+            "16%",
+            "17%",
+            "1%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.02% S&P 500 7,672.40 +0.12% Dow Jones 53,108.90 +0.05% Nasdaq 100 29,155.80 +0.14% Russell 2000 2,956.62 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.15% S&P 500 7,674.00 +0.14% Dow Jones 53,153.90 +0.14% Nasdaq 100 29,155.20 +0.14% Russell 2000 2,951.67 −0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788405757.4492333
+          "analysisUpdatedAt": 1788428636.6915011
         }
       },
       {
@@ -64684,7 +64684,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788405758.534369
+          "analysisUpdatedAt": 1788428637.771102
         }
       },
       {
@@ -65535,17 +65535,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788405728.041137,
-    "_updated_label": "2026-09-03 12:22",
+    "_fetched_at": 1788428610.377202,
+    "_updated_label": "2026-09-03 18:43",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
-    "_last_attempt_at": 1788405728.041137,
+    "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
-    "_last_success_at": 1788405728.041137,
+    "_last_success_at": 1788428610.377202,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -66662,7 +66662,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -67798,7 +67798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -68974,7 +68974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -70467,7 +70467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -71372,7 +71372,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788424801.6357214,
     "_earnings_status": "ok",
@@ -72587,7 +72587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -73616,7 +73616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -74573,7 +74573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -75164,7 +75164,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788409449.617742,
     "_earnings_status": "ok",
@@ -76638,7 +76638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -77146,7 +77146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788420892.8294735,
     "_earnings_status": "ok",
@@ -78197,7 +78197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -78976,7 +78976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788417001.817562,
     "_earnings_status": "ok",
@@ -80046,7 +80046,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_last_attempt_at": 1788415009.7313259,
     "_earnings_status": "ok",
@@ -80166,9 +80166,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
-    "_last_attempt_at": 1788426776.978399,
+    "_last_attempt_at": 1788428610.377202,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -80324,7 +80324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-03 18:13"
+      "updated": "2026-09-03 18:44"
     },
     "_fetched_at": 1788413147.799591,
     "_updated_label": "2026-09-03 14:25",
