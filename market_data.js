@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.66999816894531,
+      "current": 91.77999877929688,
       "prevClose": 91.01000213623047,
-      "changeAbs": 0.6599960327148438,
-      "changePct": 0.7251906573157895,
-      "pctRank": 85.44152744630071,
+      "changeAbs": 0.7699966430664062,
+      "changePct": 0.8460571640398586,
+      "pctRank": 85.60063643595863,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.840194204740122,
-      "ma20": 84.78900032043457,
-      "ma60": 80.33050003051758,
-      "chg1m": 16.449996948242188,
-      "chg3m": -1.3700027465820312,
-      "chg1mPct": 21.869179315719798,
-      "chg3mPct": -1.4724878902633296,
+      "drawdown1y": -18.742805436857324,
+      "ma20": 84.79450035095215,
+      "ma60": 80.33233337402343,
+      "chg1m": 16.55999755859375,
+      "chg3m": -1.2600021362304688,
+      "chg1mPct": 22.01541782750712,
+      "chg3mPct": -1.3542585165862657,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4520.2998046875,
+      "current": 4521.7001953125,
       "prevClose": 4366.2998046875,
-      "changeAbs": 154.0,
-      "changePct": 3.5270138764789176,
-      "pctRank": 92.52187748607797,
+      "changeAbs": 155.400390625,
+      "changePct": 3.5590865853546703,
+      "pctRank": 92.60143198090692,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.006395011863205,
-      "ma20": 4464.12998046875,
-      "ma60": 4225.6,
-      "chg1m": 274.5,
-      "chg3m": 44.5,
-      "chg1mPct": 6.4652129781753525,
-      "chg3mPct": 0.9942357107526392,
+      "drawdown1y": -14.980063960217716,
+      "ma20": 4464.2,
+      "ma60": 4225.62333984375,
+      "chg1m": 275.900390625,
+      "chg3m": 45.900390625,
+      "chg1mPct": 6.498195942267393,
+      "chg3mPct": 1.0255237639746213,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US diesel prices hit record high as conflicts intensify supply crunch - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5",
+      "datetime": 1788470483,
+      "headlineKo": "분쟁으로 공급 부족이 심화되면서 미국 디젤 가격이 사상 최고치를 기록했습니다."
+    },
+    {
+      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
+      "datetime": 1788468810,
+      "headlineKo": "밴스 \"이란 분쟁은 전쟁이 아니다\""
+    },
+    {
+      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
+      "datetime": 1788467976,
+      "headlineKo": "밴스: 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습을 미국이 조사 중 - 로이터 통신"
+    },
+    {
       "headline": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
@@ -226,18 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "Adobe, Shantanu Narayen을 대신하여 Anil Chakravarthy를 CEO로 지명"
     },
     {
-      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - reuters.com",
+      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
       "datetime": 1788466437,
-      "headlineKo": "투자자들이 중동 사태와 러시아-우크라이나 평화 협상 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - reuters.com"
-    },
-    {
-      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
-      "datetime": 1788460292,
-      "headlineKo": "밴스: 미국, 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습 조사 중 - reuters.com"
+      "headlineKo": "투자자들이 중동 사태의 고조와 러시아-우크라이나 평화 협정의 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - Reuters"
     },
     {
       "headline": "We're lifting our price targets on 2 stocks that have shaken off AI disruption concerns",
@@ -268,11 +282,11 @@ const MARKET_DATA = {
       "headlineKo": "자동차 제조업체들은 의회에 미국 내 중국산 커넥티드 차량을 영구적으로 금지할 것을 촉구했습니다."
     },
     {
-      "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - reuters.com",
+      "headline": "US to seek back payment from Europe for Ukraine aid, Trump says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5",
       "datetime": 1788451140,
-      "headlineKo": "트럼프 \"우크라이나 원조 대가로 유럽에 돈 돌려줄 것\" - reuters.com"
+      "headlineKo": "트럼프 \"우크라이나 원조 대가로 유럽에 돈 돌려줄 것\" - 로이터 통신"
     },
     {
       "headline": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
@@ -282,35 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "Cramer의 사상 최대 실망을 포함하여 12개의 주식 청산에서 얻은 큰 교훈"
     },
     {
-      "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - reuters.com",
+      "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
       "datetime": 1788447855,
-      "headlineKo": "제재와 봉쇄로 이란에 대한 미국의 압박이 시작됐다 - reuters.com"
-    },
-    {
-      "headline": "Number of Iranian military personnel reported killed by US strikes this week rises to 13 - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZEFUR1NFM2NFdGJWWkFPekhHWDNYTUplQWo3VXhsSUV1OW1BRjJFNllNSEpZV1VELTc2Nk1nSURYd3VfcURvVWVtY1F1OVNWa1ZPQzN0azFhc21KajhTU0pDWTd5LWYwMnFEV2ZyM1FTYTFNVFRLSmNqUnBsam5XUkcxTG50ZEFHeks1VlFEdkloWUdHdGF3UWhrLWhfTnBSSWdJVGVJZEc5YlhVb0hwamg5elVkaFFxTjRIcHpB?oc=5",
-      "datetime": 1788443968,
-      "headlineKo": "이번 주 미국의 공습으로 사망한 이란 군인 수는 13명으로 증가 - reuters.com"
-    },
-    {
-      "headline": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah, sources say - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTXNYTGpEYldjZ00zSFctdU5VT1A3blcyNnhmalVSNEMwNVBEa09RWFF1Zk9ibGY2cmdmRVdid2dDbUJwaHhzcFVpVHVxUUQ1NFZRb3F2MkRHREtLZHNoSF9tZUdseGdQZ0hFdFk5eDNTT0VyQzRXLUVZYi1OanRIc3g3SE1RQUlRNGQ3TXBCbi1JZHNycUhXcHJSMXFMb21YZVNtb2cwZGVYWGQ1bGlmQTJtNHZPSi1HZU96S1QwTldxV2NLYllz?oc=5",
-      "datetime": 1788442905,
-      "headlineKo": "이란은 헤즈볼라가 점령한 레바논 남부 능선에 대한 이스라엘의 공격에 대해 미국에 경고했다고 소식통은 전했습니다."
+      "headlineKo": "제재와 봉쇄로 이란에 대한 미국의 압박이 시작됐다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 35.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788472883.2392194,
-  "_updated_label": "2026-09-04 07:01",
-  "_last_attempt_at": 1788472883.2392194,
-  "_last_success_at": 1788472883.2392194,
+  "_fetched_at": 1788476429.0890028,
+  "_updated_label": "2026-09-04 08:00",
+  "_last_attempt_at": 1788476429.0890028,
+  "_last_success_at": 1788476429.0890028,
   "_collection_status": "ok",
   "_collection_errors": []
 };
