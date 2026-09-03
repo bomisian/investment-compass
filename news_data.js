@@ -5869,7 +5869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -9379,7 +9379,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
@@ -12772,7 +12772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -15836,7 +15836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -19528,7 +19528,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -20624,7 +20624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -24188,7 +24188,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -27828,7 +27828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -31484,7 +31484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -35265,7 +35265,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -38195,7 +38195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -40423,7 +40423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -42119,7 +42119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
@@ -42129,6 +42129,102 @@ const NEWS_DATA = {
   "QQQ": {
     "nextEarnings": null,
     "news": [
+      {
+        "headline": "QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=776803b1c4a286ba08f23c098c8df25210d11e610b2d925ed31290f8002f547e",
+        "datetime": 1788424791,
+        "relevance": 1.0,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462077.617385
+        },
+        "headlineKo": "빠른 스파크: 투자자들이 금과 국채로 전환함에 따라 QQQ, VOO Lead ETF 유입"
+      },
+      {
+        "headline": "Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1b7fc1dc7a06ea9b36ed411d329723b7ee673479eff50d3c34e8e1099399cc18",
+        "datetime": 1788424788,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462078.9254272
+        },
+        "headlineKo": "오늘의 주식 시장: Nasdaq 100 선물 하락, Dow Jones는 '시장은 상승할 것'이라는 트럼프 발언에 따라 상승 — AVGO, SNOW, HPE, LULU 초점(업데이트됨)"
+      },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq 100 Falls as US-Iran Tensions Escalate— DELL, PANW, MDB, AVGO in Focus (UPDATED)",
         "source": "Benzinga",
@@ -42173,7 +42269,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439824.2237859
+          "analysisUpdatedAt": 1788462080.0901718
         },
         "headlineKo": "오늘의 주식 시장: 미국-이란 긴장이 고조되면서 Dow Jones, S&P 500 선물 상승, Nasdaq 100 하락 - DELL, PANW, MDB, AVGO 초점(업데이트됨)"
       },
@@ -42183,46 +42279,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=7dc35d9831e555543973e7e149ad431ac71011e36314221ef3c3bdbdf855b9e9",
         "datetime": 1788287454,
         "relevance": 1.0,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'TDAQ: A 17% Yielding Covered Call ETF Really Can Outperform QQQ, But Not In The Long Run' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439825.1495705
-        },
         "headlineKo": "TDAQ: 17% 의 수익률을 내는 커버드 콜 ETF는 QQQ를 능가할 수 있지만 장기적으로는 그렇지 않습니다."
       },
       {
@@ -42231,6 +42287,17 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=35b0b835ad7dcf811613b19856f4baa74f3fbaa587c9571f3d12aae18644e96e",
         "datetime": 1788261922,
         "relevance": 0.67,
+        "headlineKo": "글로벌 본드 루트 스파크 기술 매도: 화요일에 5% 하락한 5개의 나스닥 주식"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=776803b1c4a286ba08f23c098c8df25210d11e610b2d925ed31290f8002f547e",
+        "datetime": 1788424791,
+        "headlineKo": "빠른 스파크: 투자자들이 금과 국채로 전환함에 따라 QQQ, VOO Lead ETF 유입",
+        "relevance": 1.0,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -42239,7 +42306,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Global Bond Rout Sparks Tech Selloff: 5 Nasdaq Stocks Falling 5% On Tuesday",
+            "QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -42263,34 +42330,63 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Global Bond Rout Sparks Tech Selloff: 5 Nasdaq Stocks Falling 5% On Tuesday' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462077.617385
+        }
+      },
+      {
+        "headline": "Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1b7fc1dc7a06ea9b36ed411d329723b7ee673479eff50d3c34e8e1099399cc18",
+        "datetime": 1788424788,
+        "headlineKo": "오늘의 주식 시장: Nasdaq 100 선물 하락, Dow Jones는 '시장은 상승할 것'이라는 트럼프 발언에 따라 상승 — AVGO, SNOW, HPE, LULU 초점(업데이트됨)",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'Stock Market Today: Nasdaq 100 Futures Fall, Dow Jones Gains Following Trump Comments Saying 'Market Will Go Up' — AVGO, SNOW, HPE, LULU in Focus (UPDATED)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439826.227858
-        },
-        "headlineKo": "글로벌 본드 루트 스파크 기술 매도: 화요일에 5% 하락한 5개의 나스닥 주식"
+          "analysisUpdatedAt": 1788462078.9254272
+        }
       },
-      {
-        "headline": "Stock Market Today: S&P 500, Dow, Nasdaq 100 Futures Drop After Trump Says Iran Is ‘Totally Defeated’, Brent Tops $92 — CBRS, PXS, PANW, DELL in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7485774bda7b869bd9e40a4b09e852fe09a21965555ec6bdfa917c5c196ff350",
-        "datetime": 1788251668,
-        "relevance": 0.67,
-        "headlineKo": "오늘의 주식 시장: S&P 500, 다우, 나스닥 100 선물 하락 트럼프가 이란이 ‘완전히 패배했다‘ 고 말한 후, Brent Tops $ 92 — CBRS, PXS, PANW, DELL in Focus (업데이트됨)"
-      },
-      {
-        "headline": "Goldman Sachs Is Buying Into High Income ETFs, but What Are Nasdaq Investors Giving Up for Those Payouts?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2fea76a9a89cb3cab324be36f26ad494bb9a1cd9c2a39f9e333d80a945afaf11",
-        "datetime": 1788206292,
-        "relevance": 0.67,
-        "headlineKo": "골드만 삭스는 고소득 ETF로 매수하고 있지만, 나스닥 투자자들은 그 대금을 위해 무엇을 포기하고 있습니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500 Futures Rise, Nasdaq 100 Falls as US-Iran Tensions Escalate— DELL, PANW, MDB, AVGO in Focus (UPDATED)",
         "source": "Benzinga",
@@ -42336,7 +42432,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439824.2237859
+          "analysisUpdatedAt": 1788462080.0901718
         }
       },
       {
@@ -43805,17 +43901,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788439820.9811935,
-    "_updated_label": "2026-09-03 21:50",
+    "_fetched_at": 1788462072.7950153,
+    "_updated_label": "2026-09-04 04:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 41,
+      "checked": 43,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788439820.9811935,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
-    "_last_success_at": 1788439820.9811935,
+    "_last_success_at": 1788462072.7950153,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -46460,7 +46556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -49219,7 +49315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -51813,7 +51909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -51829,72 +51925,10 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus",
+        "headline": "The $1 Trillion Question Hanging Over Palantir Stock",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e5f39bc962bac2dde06a97ade39c5515e7ee6591fd5ec1c1bbd0d710d55109ef",
-        "datetime": 1788424715,
-        "relevance": 1.0,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nasdaq, S&P 500 선물이 시장 전 상승하는 이유는 무엇입니까?",
-            "TSLA, AVGO, SNOW, HPE, PLTR, LULU 주요 주식 신규 에이전트 연결 동향 뉴스 수익 모든 DIA 0.45% SPY 0.22% QQQ 0.06% 동향 AVGO 3.06% HPE 4.01% SNOW 23.66% RARE 47.23% TSLA 1.72% SOXL 2.50% CIEN 3.06% TGTX 0.91% VSXY 11.57%",
-            "TSLA, AVGO, SNOW, HPE, PLTR, LULU 주식 집중 광고 | 광고를 제거하세요."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.45%, 0.22%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.45%",
-            "0.22%",
-            "0.06%",
-            "3.06%",
-            "4.01%",
-            "23.66%",
-            "47.23%",
-            "1.72%"
-          ],
-          "sourceExcerpt": [
-            "Why Are Nasdaq, S&P 500 Futures Rising Premarket?",
-            "TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus New Connect your Agent Trending News Earnings All DIA 0.45% SPY 0.22% QQQ 0.06% Trending AVGO 3.06% HPE 4.01% SNOW 23.66% RARE 47.23% TSLA 1.72% SOXL 2.50% CIEN 3.06% TGTX 0.91% VSXY 11.57% ",
-            "TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus Advertisement | Remove ads."
-          ],
-          "analysisUpdatedAt": 1788439834.0122576
-        },
-        "headlineKo": "Nasdaq, S&P 500 선물이 시장 전 상승하는 이유는 무엇입니까? TSLA, AVGO, SNOW, HPE, PLTR, LULU 주식에 집중"
-      },
-      {
-        "headline": "‘Big Short’ Michael Burry Calls Palantir An ‘AI FOMO’ Consultant — Warns Market Cap Could Crash Below $100B",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b2c9f1b7bd3d55abe5fd8638e26058c67ed954125391b9cb91a5d2ee5657634c",
-        "datetime": 1788416999,
+        "url": "https://finnhub.io/api/news?id=db0908f319d462ebb96eb0a10573879f2ca42eff057944ceff1ca770c26d5e07",
+        "datetime": 1788456654,
         "relevance": 0.67,
         "analysis": {
           "version": 9,
@@ -51904,13 +51938,13 @@ const NEWS_DATA = {
           "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "'빅 쇼트' Michael Burry는 Palantir를 4,070억 달러 가치 평가 문제로 'AI FOMO' 플레이로 비난합니다. 새로운 하락세를 경고합니다 에이전트 연결 트렌드 뉴스 수익 전체 DIA 0.45% SPY 0.22% QQQ 0.04% 트렌드 AVGO 3.06% HPE 4.01% SNOW 23.38% R",
-            "'빅쇼트' Michael Burry는 Palantir를 'AI FOMO' 컨설턴트로 부름 — 시가총액이 1,000억 달러 이하로 추락할 수 있다고 경고 Burry는 또한 2025년 Karp의 항공기에 지출된 1,720만 달러를 공격하여 \"1,720만 달러 마일 높이의 클럽\"이라고 불렀습니다. 알렉스 카프, CE",
-            "(사진 제공: Kevin Dietsch/Getty Images) Deepti Sri · Stocktwits 게시일: 2026년 9월 3일 | 오전 2:29 EDT 공유 · Burry가 표시한 미수금이 14억 9천만 달러로 증가했으며, 한 고객이 10% 미만 기여에도 불구하고 27%를 차지합니다."
+            "Palantir 주식에 걸려 있는 1조 달러 규모의 질문 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "그 긴장이 다음과 같이 해결되는지 여부... 작성자 Vandita Jadeja 2026년 9월 3일 게시, 오후 12시 30분(ET) · 3분 읽기 𝕏 f ⧉ © Palantir pavilion, 세계 경제 포럼, 스위스 다보스( BY-SA 2.0 ) 작성자: gruntzooki Palantir( NASDAQ:PLTR | PLTR 가격 사전"
           ],
           "why": [
             "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $407, 0.45%, 0.22% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $1 Trillion, 1.18%, 1.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -51934,45 +51968,93 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "$407",
-            "0.45%",
-            "0.22%",
-            "0.04%",
-            "3.06%",
-            "4.01%",
-            "23.38%",
-            "47.23%"
+            "$1 Trillion",
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "8%",
+            "$387 billion",
+            "$219.66"
           ],
           "sourceExcerpt": [
-            "‘Big Short’ Michael Burry Slams Palantir As An ‘AI FOMO’ Play With A $407B Valuation Problem — Warns Of An Epic Fall New Connect your Agent Trending News Earnings All DIA 0.45% SPY 0.22% QQQ 0.04% Trending AVGO 3.06% HPE 4.01% SNOW 23.38% R",
-            "‘Big Short’ Michael Burry Calls Palantir An ‘AI FOMO’ Consultant — Warns Market Cap Could Crash Below $100B Burry also attacked the $17.2 million spent on Karp’s aircraft in 2025, dubbing it the “$17.2 million mile-high club.” Alex Karp, CE",
-            "(Photo by Kevin Dietsch/Getty Images) Deepti Sri · Stocktwits Published Sep 03, 2026 | 2:29 AM EDT Share · Add us on Burry flagged receivables rising to $1.49 billion, with one customer accounting for 27% despite contributing less than 10% "
+            "The $1 Trillion Question Hanging Over Palantir Stock - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "Whether that tension resolves as… By Vandita Jadeja Published September 3, 2026, 12:30pm ET · 3 min read 𝕏 f ⧉ © Palantir pavilion, World Economic Forum, Davos, Switzerland ( BY-SA 2.0 ) by gruntzooki Palantir ( NASDAQ:PLTR | PLTR Price Pre"
           ],
-          "analysisUpdatedAt": 1788439841.1746316
+          "analysisUpdatedAt": 1788462090.2583487
         },
-        "headlineKo": "'빅쇼트' 마이클 버리, 팰런티어를 'AI FOMO' 컨설턴트로 불러 시가총액 1000억 달러 이하로 추락할 수 있다고 경고"
+        "headlineKo": "Palantir 주식에 걸려 있는 1조 달러 규모의 문제"
       },
       {
-        "headline": "Prediction: Here's Where Palantir Stock Will Be in 3 Years",
+        "headline": "Michael Burry Just Put a $100 Billion Warning on Palantir",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0068ab03a3c18c991e2cdb71aafdd42960c01b8d616d80660aaaa6aa20251f1b",
-        "datetime": 1788414840,
+        "url": "https://finnhub.io/api/news?id=91cdec64b25fe00906e46c1c27d8d190d21b7561479b4cc62819c6a2fe5673cc",
+        "datetime": 1788450070,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Michael Burry Just Put a $100 Billion Warning on Palantir",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Michael Burry Just Put a $100 Billion Warning on Palantir' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462092.064817
+        },
+        "headlineKo": "마이클 버리(Michael Burry)가 팰런티어에 1000억 달러 경고를 내놨다"
+      },
+      {
+        "headline": "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=279792a7fe645e5e8b153e61061e3ca8ad0dd300ddbe4ebaf26d13e66d9411eb",
+        "datetime": 1788448260,
         "relevance": 0.67,
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "예측: 3년 후 Palantir 주식의 위치는 다음과 같습니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "Help Palantir(PLTR -5.81%)는 시장 최고의 AI 회사 중 하나입니다.",
-            "지난 몇 년 동안 주가가 급격하게 올랐고, 사업 성장이 이를 뒷받침하고 있습니다."
+            "Palantir는 PwC Alliance가 Michael Burry Bear Case에 맞서 7% 상승하고 ServiceNow는 5% 상승하고 Salesforce는 3% 상승 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "그 응답이 Burry가 지적한 채권 품질 문제를 실제로 해결하는지 여부는 완전히 다른 질문입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5.81%, 5.81 %, $ 169.46 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -51996,42 +52078,230 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "5.81%",
-            "5.81 %",
-            "$ 169.46",
-            "$407",
-            "$ 165.71",
-            "$ 177.57",
-            "$ 106.37",
-            "$ 207.52"
+            "7%",
+            "5%",
+            "3%",
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "4%"
           ],
           "sourceExcerpt": [
-            "Prediction: Here's Where Palantir Stock Will Be in 3 Years | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Palantir ( PLTR -5.81% ) is one of the top AI companies in the market.",
-            "Its stock price has risen dramatically over the past few years, and its business growth is to credit for that."
+            "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "Whether that response actually addresses the receivables quality problem Burry flagged is a different question entirely."
           ],
-          "analysisUpdatedAt": 1788439845.8635356
+          "analysisUpdatedAt": 1788462095.0004034
         },
-        "headlineKo": "예측: 3년 후 Palantir 재고가 있을 곳입니다"
+        "headlineKo": "Palantir는 PwC Alliance가 Michael Burry Bear Case에 대응하면서 7% 상승, ServiceNow는 5% 상승, Salesforce는 3% 상승"
       },
       {
-        "headline": "Jim Cramer explains Palantir, Salesforce rebound",
+        "headline": "Why Palantir Stock Bounced Back Today",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b8825161aec7289d838ef900d367d7539778b98f2407f1d8a8279cae4af8a92",
-        "datetime": 1788398220,
+        "url": "https://finnhub.io/api/news?id=14ad47c360f66d86ba50ff45a945edff02c9622f6ec4f362b94bf59e0e64e7e3",
+        "datetime": 1788446851,
         "relevance": 0.67,
-        "headlineKo": "짐 크레이머 (Jim Cramer) 가 세일즈포스 리바운드 (Salesforce rebound)"
+        "headlineKo": "Palantir 주식이 오늘 반등한 이유"
       },
       {
-        "headline": "Palantir Shares Sink Despite $192 Million Army Contract",
+        "headline": "Palantir CEO just made bet that could reshape defense-tech race",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=da6278cd27393f4f00d3af0202e77e5818bb723976c46352215a52efb9d8621d",
-        "datetime": 1788384739,
+        "url": "https://finnhub.io/api/news?id=92f43e0a5e3cb0994a3c746d3e31e09952e8e9cf23b31efca100c3375bbb404e",
+        "datetime": 1788445020,
         "relevance": 0.67,
-        "headlineKo": "Palantir 주가는 1억 9200만 달러 규모의 육군 계약에도 불구하고 하락"
+        "headlineKo": "Palantir CEO는 방위 기술 경쟁을 재편할 수 있는 내기를 걸었습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "The $1 Trillion Question Hanging Over Palantir Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=db0908f319d462ebb96eb0a10573879f2ca42eff057944ceff1ca770c26d5e07",
+        "datetime": 1788456654,
+        "headlineKo": "Palantir 주식에 걸려 있는 1조 달러 규모의 문제",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir 주식에 걸려 있는 1조 달러 규모의 질문 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "그 긴장이 다음과 같이 해결되는지 여부... 작성자 Vandita Jadeja 2026년 9월 3일 게시, 오후 12시 30분(ET) · 3분 읽기 𝕏 f ⧉ © Palantir pavilion, 세계 경제 포럼, 스위스 다보스( BY-SA 2.0 ) 작성자: gruntzooki Palantir( NASDAQ:PLTR | PLTR 가격 사전"
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $1 Trillion, 1.18%, 1.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "PLTR에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$1 Trillion",
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "8%",
+            "$387 billion",
+            "$219.66"
+          ],
+          "sourceExcerpt": [
+            "The $1 Trillion Question Hanging Over Palantir Stock - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "Whether that tension resolves as… By Vandita Jadeja Published September 3, 2026, 12:30pm ET · 3 min read 𝕏 f ⧉ © Palantir pavilion, World Economic Forum, Davos, Switzerland ( BY-SA 2.0 ) by gruntzooki Palantir ( NASDAQ:PLTR | PLTR Price Pre"
+          ],
+          "analysisUpdatedAt": 1788462090.2583487
+        }
+      },
+      {
+        "headline": "Michael Burry Just Put a $100 Billion Warning on Palantir",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=91cdec64b25fe00906e46c1c27d8d190d21b7561479b4cc62819c6a2fe5673cc",
+        "datetime": 1788450070,
+        "headlineKo": "마이클 버리(Michael Burry)가 팰런티어에 1000억 달러 경고를 내놨다",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Michael Burry Just Put a $100 Billion Warning on Palantir",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Michael Burry Just Put a $100 Billion Warning on Palantir' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462092.064817
+        }
+      },
+      {
+        "headline": "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3%",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=279792a7fe645e5e8b153e61061e3ca8ad0dd300ddbe4ebaf26d13e66d9411eb",
+        "datetime": 1788448260,
+        "headlineKo": "Palantir는 PwC Alliance가 Michael Burry Bear Case에 대응하면서 7% 상승, ServiceNow는 5% 상승, Salesforce는 3% 상승",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir는 PwC Alliance가 Michael Burry Bear Case에 맞서 7% 상승하고 ServiceNow는 5% 상승하고 Salesforce는 3% 상승 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "그 응답이 Burry가 지적한 채권 품질 문제를 실제로 해결하는지 여부는 완전히 다른 질문입니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "7%",
+            "5%",
+            "3%",
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "4%"
+          ],
+          "sourceExcerpt": [
+            "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "Whether that response actually addresses the receivables quality problem Burry flagged is a different question entirely."
+          ],
+          "analysisUpdatedAt": 1788462095.0004034
+        }
+      },
+      {
+        "headline": "Why Palantir Stock Bounced Back Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=14ad47c360f66d86ba50ff45a945edff02c9622f6ec4f362b94bf59e0e64e7e3",
+        "datetime": 1788446851,
+        "headlineKo": "Palantir 주식이 오늘 반등한 이유",
+        "relevance": 0.67
+      },
+      {
+        "headline": "Palantir CEO just made bet that could reshape defense-tech race",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=92f43e0a5e3cb0994a3c746d3e31e09952e8e9cf23b31efca100c3375bbb404e",
+        "datetime": 1788445020,
+        "headlineKo": "Palantir CEO는 방위 기술 경쟁을 재편할 수 있는 내기를 걸었습니다.",
+        "relevance": 0.67
+      },
       {
         "headline": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus",
         "source": "Yahoo",
@@ -54311,17 +54581,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788439820.9811935,
-    "_updated_label": "2026-09-03 21:50",
+    "_fetched_at": 1788462072.7950153,
+    "_updated_label": "2026-09-04 04:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 75,
+      "checked": 80,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788439820.9811935,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
-    "_last_success_at": 1788439820.9811935,
+    "_last_success_at": 1788462072.7950153,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -55772,7 +56042,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -56953,7 +57223,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -56969,208 +57239,347 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e25d0b2dc64863e174d24e92e1d9f4b5c0c1e8c72000cae37254f54e33eb760b",
+        "datetime": 1788456688,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462104.4097285
+        },
+        "headlineKo": "Jim Cramer가 아직 Marvell(MRVL) 주식에 대한 방아쇠를 당길 준비가 되지 않은 이유를 설명합니다."
+      },
+      {
+        "headline": "Marvell Technology Knows Synopsys Is a Huge Threat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=38acf07709bd251eb353fc4c38bee193bbd5d3acd534eeae8e6a3bbf261d6d01",
+        "datetime": 1788441732,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell Technology는 Synopsys가 거대한 위협임을 알고 있습니다 - 연중무휴 월 스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "이들 사이의 긴장감은 맞춤형 실리콘 머니가 실제로 어디로 흐르는지에 대한 불편한 점을 드러낸다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.18%, 1.12%, 1.42% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "$2.739 billion",
+            "36.55%",
+            "46%",
+            "79%"
+          ],
+          "sourceExcerpt": [
+            "Marvell Technology Knows Synopsys Is a Huge Threat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "The tension between them reveals something uncomfortable about where custom silicon money actually flows."
+          ],
+          "analysisUpdatedAt": 1788462108.7987902
+        },
+        "headlineKo": "Marvell Technology는 Synopsys가 거대한 위협이라는 것을 알고 있습니다."
+      },
+      {
+        "headline": "Marvell's Next AI Growth Phase",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e61b90ab789bc61a7bc149f872d35391838f35ed41510d151926d38f794f0802",
+        "datetime": 1788432084,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell's Next AI Growth Phase",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Marvell's Next AI Growth Phase' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462110.3197467
+        },
+        "headlineKo": "Marvell의 다음 AI 성장 단계"
+      },
+      {
+        "headline": "What's Going on With Marvell Stock on Thursday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7bedfb6c035c02bddf98e822621c589b1c2a3dfac9109dd7cbf55a06e4ca6726",
+        "datetime": 1788426371,
+        "relevance": 0.67,
+        "headlineKo": "목요일에 Marvell 주식에 무슨 일이 일어나고 있나요?"
+      },
+      {
         "headline": "The Real Price of Marvell Stock's Growth",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ae848204d58c4538d993f95803cb180e378dac1c46ba495a05668d4df689e74",
         "datetime": 1788383013,
         "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Marvell 주식 성장의 실제 가격 | Trefis Marvell 주식 성장의 실제 가격 2026년 9월 2일 · Trefis Team MRVL YTD +143.3% SPY YTD +12.5% ​​QQQ YTD +15.6% MRVL 분석 → Marvell Technology(MRVL) 주식을 보유하고 있다면",
-            "회사는 강력한 성장세를 보이고 있으며, 내년 매출 전망을 단일 분기에 15억 달러 증가시켰습니다.",
-            "하지만 주가는 고점에서 크게 벗어나고 있으며, 이러한 결과를 보고한 후에도 최근에는 하락했습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 143.3%, 12.5%, 15.6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "MRVL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "143.3%",
-            "12.5%",
-            "15.6%",
-            "$1.5 billion",
-            "57.5%",
-            "58.5%",
-            "58.9%"
-          ],
-          "sourceExcerpt": [
-            "The Real Price of Marvell Stock’s Growth | Trefis The Real Price of Marvell Stock’s Growth September 2nd, 2026 · by Trefis Team MRVL YTD +143.3% SPY YTD +12.5% QQQ YTD +15.6% Analyze MRVL → If you hold Marvell Technology (MRVL) stock, you’v",
-            "The company is posting strong growth, raising its revenue outlook for next year by $1.5 billion in a single quarter.",
-            "Yet the stock is well off its highs , and it recently dropped even after reporting those results."
-          ],
-          "analysisUpdatedAt": 1788439856.172238
-        },
         "headlineKo": "마블 주식 성장의 실제 가격"
-      },
-      {
-        "headline": "Jim Cramer Cheered Marvell’s $12 Billion Google Deal but the Stock Just Fell Nearly 10%",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cb3d6e200c9f8bc12d0c4b8ce3847aa6c2a5e4d7f774b8042a98660acf6babb9",
-        "datetime": 1788361242,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Jim Cramer는 Marvell의 120억 달러 규모의 Google 거래를 응원했지만 주가는 거의 10% 하락했습니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.30% S&P 500 7,687.40 +0.31% 다우존스 53,294.40 +0.40% 나스닥 100 29,181.20 +0.23% 러셀 2000 2,965.07 +0.",
-            "작성자: Joel South 2026년 9월 2일 게시, 오전 10시(동부 표준시) · 2분 분량 𝕏 f ⧉ 투자자는 시장 차트가 급락하면서 눈에 띄는 스트레스를 보여주며, 이는 예상치 못한 주가 하락 후 MongoDB 주주들에게 반향을 일으킬 수 있는 정서입니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $12 Billion, 10%, 0.31% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$12 Billion",
-            "10%",
-            "0.31%",
-            "0.40%",
-            "0.23%",
-            "0.30%",
-            "6%",
-            "$12.2 billion"
-          ],
-          "sourceExcerpt": [
-            "Jim Cramer Cheered Marvell's $12 Billion Google Deal but the Stock Just Fell Nearly 10% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.30% S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.",
-            "By Joel South Published September 2, 2026, 10:00am ET · 2 min read 𝕏 f ⧉ An investor shows visible stress as a market chart plunges, a sentiment that might resonate with MongoDB shareholders after the stock's unexpected decline."
-          ],
-          "analysisUpdatedAt": 1788439859.9626434
-        },
-        "headlineKo": "Jim Cramer는 Marvell의 120억 달러 규모의 Google 거래를 응원했지만 주가는 거의 10% 하락했습니다."
-      },
-      {
-        "headline": "Marvell vs. Broadcom: One AI Stock Looks More Attractive Right Now",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a0cbff147062f86b2c7f366c43d81f820f0ead453d1f145a70d48b48263a3e49",
-        "datetime": 1788361221,
-        "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Broadcom: 현재 하나의 AI 주식이 더 매력적으로 보입니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.30% S&P 500 7,687.40 +0.31% 다우존스 53,294.40 +0.40% 나스닥 100 29,181.20 +0.23% 러셀 2000 2,965.07 +0.",
-            "Broadcom: 현재 하나의 AI 주식이 더 매력적으로 보입니다. Marvell과 Broadcom은 모두 AI 물결을 타고 폭발적인 분기를 기록했지만, 티커 뒤의 사업은 완전히 다른 도박을 기반으로 하고 있으며, 그 중 단 하나만이 쿠션을 제공합니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.31%, 0.40%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.31%",
-            "0.40%",
-            "0.23%",
-            "0.30%",
-            "$2.74 billion",
-            "$22.19 billion",
-            "$2.17 billion",
-            "46%"
-          ],
-          "sourceExcerpt": [
-            "Broadcom: One AI Stock Looks More Attractive Right Now - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.30% S&P 500 7,687.40 +0.31% Dow Jones 53,294.40 +0.40% Nasdaq 100 29,181.20 +0.23% Russell 2000 2,965.07 +0.",
-            "Broadcom: One AI Stock Looks More Attractive Right Now Marvell and Broadcom both rode the AI wave to blowout quarters, but the businesses behind the tickers are built on completely different gambles, and only one of them offers a cushion if"
-          ],
-          "analysisUpdatedAt": 1788439862.4088442
-        },
-        "headlineKo": "Marvell 대 Broadcom: 현재 하나의 AI 주식이 더 매력적으로 보입니다."
-      },
-      {
-        "headline": "Marvell Technology: The Stock Fell For The Wrong Reason (Reiterating Strong Sell)",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=bb73080c2723a8ceb080e344b8b4015b9e68226d014f93a971bb53fc26bbb9f3",
-        "datetime": 1788353211,
-        "relevance": 1,
-        "headlineKo": "Marvell Technology: 잘못된 이유로 주식이 하락함(강한 매도 반복)"
-      },
-      {
-        "headline": "Marvell Beat and Raised Guidance. Why Its Google Deal Still Spooked Investors",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c15828a16cf06e9dbc94828c3fa3f74b84274ae70402d220ee56aa69f5fcc418",
-        "datetime": 1788348009,
-        "relevance": 0.67,
-        "headlineKo": "마벨 비트 및 레이즈드 가이던스. 구글의 거래가 여전히 투자자들을 겁먹게 만드는 이유"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e25d0b2dc64863e174d24e92e1d9f4b5c0c1e8c72000cae37254f54e33eb760b",
+        "datetime": 1788456688,
+        "headlineKo": "Jim Cramer가 아직 Marvell(MRVL) 주식에 대한 방아쇠를 당길 준비가 되지 않은 이유를 설명합니다.",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462104.4097285
+        }
+      },
+      {
+        "headline": "Marvell Technology Knows Synopsys Is a Huge Threat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=38acf07709bd251eb353fc4c38bee193bbd5d3acd534eeae8e6a3bbf261d6d01",
+        "datetime": 1788441732,
+        "headlineKo": "Marvell Technology는 Synopsys가 거대한 위협이라는 것을 알고 있습니다.",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell Technology는 Synopsys가 거대한 위협임을 알고 있습니다 - 연중무휴 월 스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% 다우존스 53,674.80 +1.12% 나스닥 100 29,528.40 +1.42% 러셀 2000 2,965.60 +0.",
+            "이들 사이의 긴장감은 맞춤형 실리콘 머니가 실제로 어디로 흐르는지에 대한 불편한 점을 드러낸다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 1.18%, 1.12%, 1.42% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "1.18%",
+            "1.12%",
+            "1.42%",
+            "0.32%",
+            "$2.739 billion",
+            "36.55%",
+            "46%",
+            "79%"
+          ],
+          "sourceExcerpt": [
+            "Marvell Technology Knows Synopsys Is a Huge Threat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.32% S&P 500 7,754.00 +1.18% Dow Jones 53,674.80 +1.12% Nasdaq 100 29,528.40 +1.42% Russell 2000 2,965.60 +0.",
+            "The tension between them reveals something uncomfortable about where custom silicon money actually flows."
+          ],
+          "analysisUpdatedAt": 1788462108.7987902
+        }
+      },
+      {
+        "headline": "Marvell's Next AI Growth Phase",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=e61b90ab789bc61a7bc149f872d35391838f35ed41510d151926d38f794f0802",
+        "datetime": 1788432084,
+        "headlineKo": "Marvell의 다음 AI 성장 단계",
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Marvell's Next AI Growth Phase",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Marvell's Next AI Growth Phase' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462110.3197467
+        }
+      },
+      {
+        "headline": "What's Going on With Marvell Stock on Thursday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=7bedfb6c035c02bddf98e822621c589b1c2a3dfac9109dd7cbf55a06e4ca6726",
+        "datetime": 1788426371,
+        "headlineKo": "목요일에 Marvell 주식에 무슨 일이 일어나고 있나요?",
+        "relevance": 0.67
+      },
       {
         "headline": "The Real Price of Marvell Stock's Growth",
         "source": "Yahoo",
@@ -60161,17 +60570,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788439820.9811935,
-    "_updated_label": "2026-09-03 21:51",
+    "_fetched_at": 1788462072.7950153,
+    "_updated_label": "2026-09-04 04:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 85,
+      "checked": 89,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788439820.9811935,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
-    "_last_success_at": 1788439820.9811935,
+    "_last_success_at": 1788462072.7950153,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -61277,7 +61686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -62739,7 +63148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -64078,7 +64487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -67530,7 +67939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -68731,7 +69140,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788451227.936509,
     "_earnings_status": "ok",
@@ -70009,7 +70418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -71307,7 +71716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -72552,7 +72961,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -74121,7 +74530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -75026,7 +75435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788447439.9097817,
     "_earnings_status": "ok",
@@ -76241,7 +76650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -77318,7 +77727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -78323,7 +78732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -78960,7 +79369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788454892.8085349,
     "_earnings_status": "ok",
@@ -80604,7 +81013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -81112,7 +81521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788443577.3931828,
     "_earnings_status": "ok",
@@ -81171,7 +81580,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439867.6425886
+          "analysisUpdatedAt": 1788462118.495463
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -81219,7 +81628,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439870.2195497
+          "analysisUpdatedAt": 1788462121.5571043
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -81285,7 +81694,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439872.483101
+          "analysisUpdatedAt": 1788462124.058218
         },
         "headlineKo": "Seagate Technology Holdings (STX), 투자자들의 요청에 따라 AI Summit으로 향하다"
       },
@@ -81352,7 +81761,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439867.6425886
+          "analysisUpdatedAt": 1788462118.495463
         }
       },
       {
@@ -81400,7 +81809,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439870.2195497
+          "analysisUpdatedAt": 1788462121.5571043
         }
       },
       {
@@ -81466,7 +81875,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439872.483101
+          "analysisUpdatedAt": 1788462124.058218
         }
       },
       {
@@ -82157,17 +82566,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788439820.9811935,
-    "_updated_label": "2026-09-03 21:51",
+    "_fetched_at": 1788462072.7950153,
+    "_updated_label": "2026-09-04 04:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788439820.9811935,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
-    "_last_success_at": 1788439820.9811935,
+    "_last_success_at": 1788462072.7950153,
     "_collection_status": "ok"
   },
   "EME": {
@@ -82178,6 +82587,54 @@ const NEWS_DATA = {
       "revenueEstimate": 5240414997
     },
     "news": [
+      {
+        "headline": "Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=580ecf7988fde4cfa250e1a62dbd5bbc512e7fe11db3b429de04dc6fdff9ae17",
+        "datetime": 1788372937,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "EME",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 EME의 사업과 관련된 'Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "EME 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462130.046104
+        },
+        "headlineKo": "10년 전 EMCOR 그룹에 투자한 100달러의 현재 가치는 다음과 같습니다."
+      },
       {
         "headline": "Can EMCOR's Building Services Growth Support Further Margin Expansion?",
         "source": "Yahoo",
@@ -82222,7 +82679,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439877.5173242
+          "analysisUpdatedAt": 1788462132.7475426
         },
         "headlineKo": "EMCOR의 건축 서비스 성장이 추가 마진 확대를 지원할 수 있습니까?"
       },
@@ -82270,7 +82727,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439879.3778975
+          "analysisUpdatedAt": 1788462135.3920906
         },
         "headlineKo": "EMCOR 그룹 (EME), 데이터 센터 수요와 공정 가치에 다시 집중"
       },
@@ -82280,45 +82737,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=767465efa6e7f3f423f971d0157a4761d35ff3492d30ea1659c6d5ea3f8d6020",
         "datetime": 1788214030,
         "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "The Bull Case For EMCOR Group (EME) Could Change Following Raised Guidance On Data Center Demand",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "EME의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "EME",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "EME에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439881.2593055
-        },
         "headlineKo": "데이터 센터 수요에 대한 지침이 제기된 후 EMCOR 그룹 (EME) 의 불 사례가 변경될 수 있음"
       },
       {
@@ -82328,17 +82746,57 @@ const NEWS_DATA = {
         "datetime": 1787930100,
         "relevance": 0.67,
         "headlineKo": "EMCOR vs. Granite: 지금 구매하는 것이 더 나은 건설 재고는 무엇입니까?"
-      },
-      {
-        "headline": "Here's How Much a $1000 Investment in Emcor Group Made 10 Years Ago Would Be Worth Today",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=59ecc7dce2fa92a39b8fd3237a9554ae91102c9c4466c04d9a942457370ddd1b",
-        "datetime": 1787837401,
-        "relevance": 1,
-        "headlineKo": "10년 전 Emcor Group에 대한 $ 1000의 투자가 얼마나 가치가 있었는지는 다음과 같습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=580ecf7988fde4cfa250e1a62dbd5bbc512e7fe11db3b429de04dc6fdff9ae17",
+        "datetime": 1788372937,
+        "headlineKo": "10년 전 EMCOR 그룹에 투자한 100달러의 현재 가치는 다음과 같습니다.",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "EME",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 EME의 사업과 관련된 'Here's How Much $100 Invested In EMCOR Group 10 Years Ago Would Be Worth Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "EME 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788462130.046104
+        }
+      },
       {
         "headline": "Can EMCOR's Building Services Growth Support Further Margin Expansion?",
         "source": "Yahoo",
@@ -82384,7 +82842,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439877.5173242
+          "analysisUpdatedAt": 1788462132.7475426
         }
       },
       {
@@ -82432,7 +82890,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788439879.3778975
+          "analysisUpdatedAt": 1788462135.3920906
         }
       },
       {
@@ -82936,17 +83394,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788439820.9811935,
-    "_updated_label": "2026-09-03 21:51",
+    "_fetched_at": 1788462072.7950153,
+    "_updated_label": "2026-09-04 04:02",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 21,
+      "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788439820.9811935,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
-    "_last_success_at": 1788439820.9811935,
+    "_last_success_at": 1788462072.7950153,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -84012,7 +84470,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_last_attempt_at": 1788458426.6748347,
     "_earnings_status": "ok",
@@ -84132,9 +84590,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
-    "_last_attempt_at": 1788460596.9172974,
+    "_last_attempt_at": 1788462072.7950153,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -84290,7 +84748,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 03:36"
+      "updated": "2026-09-04 04:02"
     },
     "_fetched_at": 1788458426.6748347,
     "_updated_label": "2026-09-04 03:04",
