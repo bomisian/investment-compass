@@ -2612,7 +2612,10 @@ function buildAtAGlanceHtml(r){
   // 새 지표를 만들지 않고, 이미 계산돼 있는 두 값(fwd.mid vs peDeviation3Y)의 방향이 서로
   // 반대일 때만 "왜 다르게 나오는지" 짧게 설명해줌 - 방향이 같으면 굳이 안 보여줌(불필요한 잡음 방지).
   const perDev = r.peDeviation3Y;
-  const perDevSignal = perDev!=null ? (perDev>=15 ? 'high' : perDev<=-15 ? 'low' : null) : null;
+  // 2026-09-03 수정: 이 아래 '밸류에이션' 요약 문구(whyNowSummaryHtml)는 |dev|>=3%부터 '비싼 편/싼 편'이라고
+  // 표시하는데, 여기 기준은 15%였음 - 그래서 dev가 3~15% 사이일 때(예: KLAC 12%) 위 문구는 '비싼 편'이라고
+  // 나오는데 이 불일치 설명은 안 떠서 사용자가 헷갈림. 기준을 whyNowSummaryHtml과 동일하게 맞춤.
+  const perDevSignal = perDev!=null ? (Math.abs(perDev)<3 ? null : (perDev>0 ? 'high' : 'low')) : null;
   const fairSignal = hasFwd ? (belowFair ? 'low' : 'high') : null;
   const mismatchNote = (fairSignal && perDevSignal && fairSignal!==perDevSignal)
     ? `<div class="sub" style="margin-top:8px;">ℹ️ 바로 위 '적정가 대비'는 <b>내년 예상 실적 기준</b> 계산이고, 02탭의 PER 비교는 <b>이 종목 자신의 최근 3년 평균</b>과 비교한 거예요 - 비교 기준이 서로 달라서 방향이 다르게 나올 수 있어요(계산이 틀린 게 아니에요). 자세한 건 02탭에서 확인하세요.</div>`
@@ -2661,6 +2664,49 @@ function valuationBadgeHtml(r){
   }
   return `<span class="val-badge val-unknown" title="이 판단에 필요한 성장률·PEG 데이터가 없어요">판단보류</span>`;
 }
+// 2026-09-03 추가: 사용자 질문 - "저평가라고 나오는 게, 성장할 걸로 예상돼서 저평가인지
+// 아니면 미래가 불확실해서 싸게 거래되는 건지 구분해서 보여주면 좋겠다". 새 지표를 만들지 않고
+// 이미 요약 박스(whyNowSummaryHtml)에 쓰이는 세 가지 값(EPS 컨센서스 방향, 애널리스트 목표가 괴리,
+// 내부자 매매)을 그대로 재사용해서 방향만 모아 보여줌 - 검증된 예측이 아니라 참고용 정황 정리.
+function undervaluationContextNote(r){
+  const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+  const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
+  const ins = insiderEntry(r.ticker);
+  const signals = [];
+  if(eps && (eps.direction==='상향' || eps.direction==='하향')){
+    signals.push({label: eps.direction==='상향' ? 'EPS 전망 최근 상향 중' : 'EPS 전망 최근 하향 중', tone: eps.direction==='상향' ? 'positive' : 'negative'});
+  }
+  if(est && est.targetMean!=null && r.price>0){
+    const upside = (est.targetMean - r.price)/r.price*100;
+    signals.push({label: `애널리스트 평균 목표가 대비 ${upside>=0?'+':''}${upside.toFixed(0)}%`, tone: upside>=10 ? 'positive' : (upside<=-5 ? 'negative' : 'neutral')});
+  }
+  if(ins && ins.transactions && ins.transactions.length){
+    const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
+    const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
+    if(buyShares || sellShares){
+      const tone = buyShares>sellShares ? 'positive' : (sellShares>buyShares ? 'negative' : 'neutral');
+      signals.push({label: buyShares>sellShares?'내부자 최근 90일 순매수':(sellShares>buyShares?'내부자 최근 90일 순매도':'내부자 매수·매도 균형'), tone});
+    }
+  }
+  if(!signals.length) return null;
+  const posCount = signals.filter(s=>s.tone==='positive').length;
+  const negCount = signals.filter(s=>s.tone==='negative').length;
+  let verdict, verdictColor;
+  if(posCount>0 && negCount===0){
+    verdict = '지금까지 나온 참고 지표들은 "성장 기대가 아직 가격에 다 반영되지 않았다" 쪽에 가까워요.';
+    verdictColor = '#0a6b45';
+  } else if(negCount>0 && posCount===0){
+    verdict = '지금까지 나온 참고 지표들은 "성장 기대보다 불확실성 때문에 싸게 거래되는 것일 수 있다" 쪽에 가까워요 - 조금 더 조심스럽게 봐도 될 것 같아요.';
+    verdictColor = '#9a6800';
+  } else {
+    verdict = '참고 지표들이 서로 엇갈려요 - 한쪽으로 단정하기보다 근거를 하나씩 직접 확인해보시는 걸 권해요.';
+    verdictColor = 'var(--sub)';
+  }
+  const toneColor = t => t==='positive' ? 'var(--green)' : (t==='negative' ? 'var(--warn)' : 'var(--sub)');
+  const signalsHtml = signals.map(s=>`<span style="color:${toneColor(s.tone)};">${esc(s.label)}</span>`).join(' · ');
+  return `<div style="margin-top:6px;font-size:12.5px;line-height:1.6;">${signalsHtml}<br><span style="color:${verdictColor};">${verdict}</span> <span class="sub" style="font-weight:400;">(참고용 - 새로 검증된 지표는 아니고, 이미 있는 값들을 모아 방향만 정리한 거예요)</span></div>`;
+}
+
 function buildValuationReasonablenessHtml(r){
   const fwd = r.fairValue && r.fairValue.fwd;
   if(!fwd || fwd.unavailable) return '';
@@ -2695,7 +2741,8 @@ function buildValuationReasonablenessHtml(r){
       zoneLabel = '기대 대비 여유(저평가 쪽)'; zoneColor = '#0a6b45';
       bandText = `지금 가격은 이미 '저평가' 경계보다 ${underTxt} 아래에 있어요(기대 대비 여유) - 대략 그만큼 올라야 '적정 범위'로 들어와요. <b>매수 신호는 아니에요</b> - 컨센서스 성장이 실제로 달성될지는 별개 문제예요.`;
     }
-    zoneHtml = `<div style="margin-top:8px;"><span style="font-weight:700;color:${zoneColor};">${zoneLabel}</span> · ${bandText}</div>`;
+    const ctxNote = undervaluationContextNote(r) || '';
+    zoneHtml = `<div style="margin-top:8px;"><span style="font-weight:700;color:${zoneColor};">${zoneLabel}</span> · ${bandText}${ctxNote}</div>`;
   } else {
     zoneHtml = `<div class="sub" style="margin-top:8px;">이 종목은 자기 자신의 3·5년 EPS 성장률 데이터가 없어서(상장 이력이 짧거나 최근 흑자전환한 경우 흔해요) 가격 밴드는 계산하지 못했어요 - 위 PEG와 EPS 개정 방향을 대신 참고하세요.</div>`;
   }

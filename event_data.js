@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788422962.5897093,
+  "generatedAt": 1788424847.4699068,
   "events": [
     {
       "id": "c457a803662d9433981d",
@@ -1714,75 +1714,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "dbe6f0e9ec7cc7e862f5",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "CRM",
-      "relatedTickers": [
-        "CRM"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Salesforce: Proving That AI Needs A Software Partner",
-      "headlineKo": "Salesforce: AI에 소프트웨어 파트너가 필요하다는 사실 입증",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=6385172d630b68ae98ba66d2c63bcfc1820d0d8a9212ea8b63db378cfc26e72b",
-        "publishedAt": 1788382930,
-        "collectedAt": 1788402001.3673806
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Salesforce 주식: AI에 소프트웨어 파트너가 필요하다는 사실 입증(NYSE:CRM) | 알파 찾기 Gary Alexander 34.42K 팔로워 팔로우 요약 Salesforce는 강력한 2분기 결과, 강력한 AI 모멘텀,",
-        "2분기 매출은 전년 대비 11% 증가한 113억 5천만 달러를 기록했으며, 현재 RPO는 전년 대비 14% 증가했으며 예상 EPS는 전년 대비 102% 급증한 5.90달러로 예상을 크게 웃돌았습니다.",
-        "Anthropic과 함께 Claudeforce 출시를 통해 CRM은 상당한 새로운 수익원을 창출하고 AI와의 관련성을 검증하며 신규 고객까지 도달 범위를 확장합니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 11%, $11.35, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 11%, $11.35, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "CRM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
-    },
-    {
       "id": "d59fd0b739e032f3e4bc",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -2946,7 +2877,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6215,13 +6146,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM +0.02%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
-        "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
+        "Sandisk: 급속한 순차적 수익 확대에 대한 꾸준한 역사적 수익 창출 비교 | The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % The Motley Fool 가입 회사 검색 접근성...",
+        "HELP ARM: ARM (ARM +0.02%) 은 독점 칩 디자인에 대한 라이선스 및 로열티 컬렉션을 통해 주로 수익을 창출합니다.",
+        "핵심 처리 장치 (CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치 (GPU) 및 보충 소프트웨어 개발 도구를 전 세계 오리지널 장비 제조업체에 개념화, 엔지니어링 및 라이선스합니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -7964,7 +7895,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10882,7 +10813,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12907,7 +12838,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
         "publishedAt": 1788201060,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14989,7 +14920,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16567,7 +16498,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=7c7d30418f174dc5e1357c5c66cdfd802fa6c1bb544f2f4c9bd57cf64c09523e",
         "publishedAt": 1787994001,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16975,7 +16906,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=90e5e71fbbd9c0375003e00188014b10e349c7bd1fde80a0deef05c2760df6b0",
         "publishedAt": 1787945400,
-        "collectedAt": 1788402001.3673806
+        "collectedAt": 1788424801.6357214
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17425,6 +17356,62 @@ const EVENT_DATA = {
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
       ]
+    },
+    {
+      "id": "812cbec4b91184b24406",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "STX",
+      "relatedTickers": [
+        "STX"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Change Agents Accepted into Seagate Partner Program, Expanding Access to AI Infrastructure Ecosystem",
+      "headlineKo": "Seagate 파트너 프로그램으로 승인된 에이전트를 변경하여 AI 인프라 생태계에 대한 액세스 확대",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f876cfe23907e83164011d626c1a899d3a7f375cad33ccac575a9dd9872f5f8e",
+        "publishedAt": 1787924700,
+        "collectedAt": 1788417001.817562
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Seagate 파트너 프로그램으로 승인된 에이전트를 변경하여 AI 인프라 생태계에 대한 액세스 확대"
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "STX",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
     }
   ],
   "byTicker": {
@@ -17817,15 +17804,6 @@ const EVENT_DATA = {
       "af5e7a4c2cf9cf3251b9",
       "bf54e0823235d899517a"
     ],
-    "CRM": [
-      "dbe6f0e9ec7cc7e862f5",
-      "6e5f3fd14d560d5d94da",
-      "218d3602bd588615b442",
-      "1d5d318e3be777905f5c",
-      "25bc0168b90ac2fc9ffe",
-      "5d4d7592477eab90150c",
-      "bd6b87e4edf671f3f374"
-    ],
     "AAPL": [
       "aeb6f0acff729cea07c9",
       "42c15f4f17ea94e5d18f",
@@ -17877,6 +17855,14 @@ const EVENT_DATA = {
       "570e12f738ae57a4edc4",
       "8fa943c36d2b51ed9f4d",
       "b63fb9526fdee061881a"
+    ],
+    "CRM": [
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442",
+      "1d5d318e3be777905f5c",
+      "25bc0168b90ac2fc9ffe",
+      "5d4d7592477eab90150c",
+      "bd6b87e4edf671f3f374"
     ],
     "MRVL": [
       "64a12357069e5865547f",
@@ -17978,7 +17964,8 @@ const EVENT_DATA = {
       "ba1b3c15186502f95921"
     ],
     "STX": [
-      "83b60256ba0d24822cee"
+      "83b60256ba0d24822cee",
+      "812cbec4b91184b24406"
     ],
     "VST": [
       "6697434a1229c4f4b837"

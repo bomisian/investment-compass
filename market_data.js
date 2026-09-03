@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.25,
+      "current": 15.180000305175781,
       "prevClose": 15.199999809265137,
-      "changeAbs": 0.05000019073486328,
-      "changePct": 0.3289486273834408,
-      "pctRank": 23.824701195219124,
+      "changeAbs": -0.01999950408935547,
+      "changePct": -0.1315756864494485,
+      "pctRank": 23.02788844621514,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.88566707016868,
-      "ma20": 15.200500011444092,
-      "ma60": 16.715333286921183,
-      "chg1m": -1.25,
-      "chg3m": -0.8099994659423828,
-      "chg1mPct": -7.575757575757576,
-      "chg3mPct": -5.043583392764782,
+      "drawdown1y": -51.11110892699382,
+      "ma20": 15.19700002670288,
+      "ma60": 16.71416662534078,
+      "chg1m": -1.3199996948242188,
+      "chg3m": -0.8799991607666016,
+      "chg1mPct": -7.9999981504498106,
+      "chg3mPct": -5.479447011394805,
       "lastDate": "2026-09-03",
       "bars": 1255,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 90.52999877929688,
+      "current": 90.70999908447266,
       "prevClose": 91.01000213623047,
-      "changeAbs": -0.48000335693359375,
-      "changePct": -0.5274182459803587,
-      "pctRank": 84.00954653937947,
+      "changeAbs": -0.3000030517578125,
+      "changePct": -0.3296374516163024,
+      "pctRank": 84.1686555290374,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -19.84948984037509,
-      "ma20": 84.73200035095215,
-      "ma60": 80.3115000406901,
-      "chg1m": 15.30999755859375,
-      "chg3m": -2.5100021362304688,
-      "chg1mPct": 20.35362577790003,
-      "chg3mPct": -2.6977666718956117,
+      "drawdown1y": -19.690127016081917,
+      "ma20": 84.74100036621094,
+      "ma60": 80.31450004577637,
+      "chg1m": 15.489997863769531,
+      "chg3m": -2.3300018310546875,
+      "chg1mPct": 20.592924238754403,
+      "chg3mPct": -2.5043011695261455,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.2490005493164,
+      "current": 99.27100372314453,
       "prevClose": 99.55999755859375,
-      "changeAbs": -0.31099700927734375,
-      "changePct": -0.3123714512892727,
-      "pctRank": 28.90127388535032,
+      "changeAbs": -0.28899383544921875,
+      "changePct": -0.2902710350903113,
+      "pctRank": 29.219745222929937,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.323590243925877,
-      "ma20": 99.44095001220703,
-      "ma60": 100.30298360188802,
-      "chg1m": -0.6409988403320312,
-      "chg3m": -0.28099822998046875,
-      "chg1mPct": -0.6417047194400701,
-      "chg3mPct": -0.28232516168674854,
+      "drawdown1y": -2.3019357082542324,
+      "ma20": 99.44205017089844,
+      "ma60": 100.30335032145182,
+      "chg1m": -0.6189956665039062,
+      "chg3m": -0.25899505615234375,
+      "chg1mPct": -0.6196773153329828,
+      "chg3mPct": -0.2602180843251623,
       "lastDate": "2026-09-03",
       "bars": 1256,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4472.60009765625,
+      "current": 4483.10009765625,
       "prevClose": 4366.2998046875,
-      "changeAbs": 106.30029296875,
-      "changePct": 2.4345623920425687,
-      "pctRank": 91.3285600636436,
+      "changeAbs": 116.80029296875,
+      "changePct": 2.675040610893404,
+      "pctRank": 91.80588703261733,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.903275801332029,
-      "ma20": 4461.7449951171875,
-      "ma60": 4224.805004882813,
-      "chg1m": 226.80029296875,
-      "chg3m": -3.19970703125,
-      "chg1mPct": 5.341756639546573,
-      "chg3mPct": -0.07148905605427103,
+      "drawdown1y": -15.705847999872935,
+      "ma20": 4462.269995117187,
+      "ma60": 4224.980004882813,
+      "chg1m": 237.30029296875,
+      "chg3m": 7.30029296875,
+      "chg1mPct": 5.589059868219948,
+      "chg3mPct": 0.16310588693230674,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,11 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran warns US against Israeli attack on south Lebanon ridge held by Hezbollah, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTXNYTGpEYldjZ00zSFctdU5VT1A3blcyNnhmalVSNEMwNVBEa09RWFF1Zk9ibGY2cmdmRVdid2dDbUJwaHhzcFVpVHVxUUQ1NFZRb3F2MkRHREtLZHNoSF9tZUdseGdQZ0hFdFk5eDNTT0VyQzRXLUVZYi1OanRIc3g3SE1RQUlRNGQ3TXBCbi1JZHNycUhXcHJSMXFMb21YZVNtb2cwZGVYWGQ1bGlmQTJtNHZPSi1HZU96S1QwTldxV2NLYllz?oc=5",
+      "datetime": 1788419853,
+      "headlineKo": "이란은 헤즈볼라가 보유한 남부 레바논 능선에 대한 이스라엘의 공격에 대해 미국에 경고한다고 소식통들은 말한다. - Reuters"
+    },
+    {
       "headline": "Iran war escalation raises concern over civilian death toll - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmJEcTdhQU9kcW41Z2J6enVZU2NHQ253eVV1VDJKOXBSTTJfbGhfVi1wbTQ0U1gzRllLb2xUUV9LRGRZaWpvaUlSWWRwQTdBaXdNY2x1Z3pxU1U1WjJSdzdKWGR6a2FLSXN6dnBPQ3NhM1hwUkxOZlIyd0dDX0ZycjdVSlpEUFN5N1NQbWR2UW1oRHNBU3BTZENPbGotQVFOSmdfUUFJNERYbEZTVzU3WDlrUQ?oc=5",
       "datetime": 1788414172,
       "headlineKo": "이란 전쟁 확대로 민간인 사망자 수에 대한 우려 제기 - 로이터"
+    },
+    {
+      "headline": "India's services growth picks up in August but stays near four-year low, PMI shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRF9tUFZTZkxnX3NpRmtxUlBhNW9YN1R6Rkp4WE5Ednh5REJXRVdBMUFVZWQ4WGk1N25YQ0hIemlxSkg1U2FqNzB3VnpxVGdORGs1Rk94RXRERFJSZFVGbHlaY2xidm9CMnFGSGpUV3VqV3Nnb09teUw5a3JvOTVLWHlCWWVvRlNOZWNoYV8xWjgwRXNSTHh6bHZUc0o3WU1xMFBJZXFsOFcwX3ZUUmU0c2h0d2ZSMVZ3X1FrNjB3?oc=5",
+      "datetime": 1788411960,
+      "headlineKo": "인도의 서비스 성장은 8월에 회복되지만, 4년 동안 낮은 수준에 머물러 있다고 PMI가 밝혔습니다. - Reuters"
     },
     {
       "headline": "Shares, bonds rally as markets await Fed signals; yen jumps - Reuters",
@@ -233,11 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "주식, 채권은 시장이 연방준비제도 (Fed) 신호를 기다리면서 랠리하고, 엔화는 뛰어오른다 - 로이터"
     },
     {
-      "headline": "Oil edges down as investors weigh uncertainty over U.S.-Iran strikes - Reuters",
+      "headline": "Oil falls from recent highs as investors weigh uncertainty over US-Iran strikes - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVk5vakhhby03N0RCUHNMTU1jY1F4OGdsMmt2cThTLW5hU0VNM181YUVwYW1wSlJsbGoweDQtd3ROSTFfMDhUSGpWMHI5WG9qeTByTGJpVTRZaER0dGlwZ1BULXVRUzlPemRSOC1ranltaDQ0QjJ4OWMwWTRrNjJ6eDdkaExIMjFiVDJlbUxZcTU2Sk1DRE1uNTR5SkdPM0VJanktVUI1RkNpcXoxRkxBN1lkUDRnUQ?oc=5",
       "datetime": 1788396360,
-      "headlineKo": "투자자들이 미국-이란 파업에 대한 불확실성을 우려하면서 유가 하락 - Reuters"
+      "headlineKo": "투자자들이 미국-이란 파업에 대한 불확실성에 무게를 두면서 최근 고점에서 석유 하락 - 로이터"
     },
     {
       "headline": "Ali al-Taher ridge emerges as flashpoint in Israel-Hezbollah war - Reuters",
@@ -275,13 +289,6 @@ const MARKET_DATA = {
       "headlineKo": "주식은 상승하고 미국 수익률은 완화됩니다. 엔화는 달러 대비 급등 - 로이터"
     },
     {
-      "headline": "US-Iran strikes raise fears of renewed war across the Middle East - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
-      "datetime": 1788383172,
-      "headlineKo": "미국과 이란의 파업은 중동 전역에서 재개된 전쟁에 대한 공포를 불러일으킨다. - 로이터"
-    },
-    {
       "headline": "NBA suspends Clippers owner Ballmer for one year in Kawhi Leonard salary cap probe",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/02/nba-suspends-clippers-ballmer-kawhi-leonard-salary-cap.html",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/02/jjs-run-to-record-highs-hasnt-reached-the-finish-line-yet-here-are-the-key-drivers.html",
       "datetime": 1788382388,
       "headlineKo": "J&J의 최고 기록 달성은 아직 결승선에 도달하지 못했습니다. 주요 동인은 다음과 같습니다."
-    },
-    {
-      "headline": "Broadcom's stock drops 5% as weak guidance overshadows earnings beat",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html",
-      "datetime": 1788380865,
-      "headlineKo": "약한 지침이 실적을 가리면서 Broadcom의 주가는 5% 하락"
     }
   ],
   "fgi": {
     "score": 33.0285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788421103.7696154,
-  "_updated_label": "2026-09-03 16:38",
-  "_last_attempt_at": 1788421103.7696154,
-  "_last_success_at": 1788421103.7696154,
+  "_fetched_at": 1788424847.6466267,
+  "_updated_label": "2026-09-03 17:41",
+  "_last_attempt_at": 1788424847.6466267,
+  "_last_success_at": 1788424847.6466267,
   "_collection_status": "ok",
   "_collection_errors": []
 };
