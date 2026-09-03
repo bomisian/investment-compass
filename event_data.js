@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788445594.92,
+  "generatedAt": 1788447482.5272353,
   "events": [
     {
       "id": "a272104596ec66b546ef",
@@ -543,6 +543,75 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "d36b654dd5a021d7ca75",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce Stock Up 22% in a Week After Anthropic Deal, Breaking 20-Month Downtrend",
+      "headlineKo": "Salesforce 재고는 인류애 거래 후 일주일 만에 22% 상승하여 20개월 하락세를 깨뜨렸습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
+        "publishedAt": 1788440400,
+        "collectedAt": 1788447439.9097817
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce 주식은 인류 거래 후 일주일 만에 22% 상승하여 20개월 하락세를 깨뜨렸습니다. 구독하기 영어 속보 뉴스 최신 뉴스 TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News Market Data Price Exchanges Co",
+        "24는 기록적인 분기 실적과 확장된 인류애 파트너십 이후 수년 만에 가장 높은 주간 상승률인 22.4%를 기록했습니다.",
+        "이번 랠리는 20개월간 하락세를 깨고 세일즈포스(CRM)를 2026년 최악의 다우 주식 자리에서 끌어올렸습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 22%, 22.4%, $1.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 22%, 22.4%, $1.5 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
       ]
     },
     {
@@ -4129,7 +4198,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7316,17 +7385,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Sandisk: 급속한 순차적 수익 확대에 대한 꾸준한 역사적 수익 창출 비교 | The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % The Motley Fool 가입 회사 검색 접근성...",
-        "HELP ARM: ARM (ARM +0.02%) 은 독점 칩 디자인에 대한 라이선스 및 로열티 컬렉션을 통해 주로 수익을 창출합니다.",
-        "핵심 처리 장치 (CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치 (GPU) 및 보충 소프트웨어 개발 도구를 전 세계 오리지널 장비 제조업체에 개념화, 엔지니어링 및 라이선스합니다."
+        "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM -1.75%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
+        "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.02%, 7.6%, $ 234.86 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.75%, 7.6%, $ 230.75 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -7341,7 +7410,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.02%, 7.6%, $ 234.86 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.75%, 7.6%, $ 230.75 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -9077,7 +9146,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11995,7 +12064,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14020,7 +14089,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
         "publishedAt": 1788201060,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16102,7 +16171,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788424801.6357214
+        "collectedAt": 1788447439.9097817
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17413,79 +17482,6 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
-    },
-    {
-      "id": "f728f8b33b4009a060cf",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AVGO",
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Broadcom",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach",
-      "headlineKo": "브로드컴 주식은 회계연도 3분기 실적 접근 방식에 따라 밸류에이션 테스트를 실시합니다.",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=57465e6b570887927c69c198fa50b0fec911d3b237cc3b4a0007f20fa1eb78e1",
-        "publishedAt": 1788027309,
-        "collectedAt": 1788443577.3931828
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Broadcom Stock Faces Valuation Test as Fiscal Q3 Earnings Approach",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "AVGO에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "AVGO의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
     }
   ],
   "byTicker": {
@@ -17784,8 +17780,7 @@ const EVENT_DATA = {
       "b76f2a087c30405b4ab0",
       "66d71c864af7e9b41e56",
       "698649ae67bebca5dee5",
-      "b0f7c85204f372b5f47b",
-      "f728f8b33b4009a060cf"
+      "b0f7c85204f372b5f47b"
     ],
     "TSLA": [
       "c2f282be06e174010844",
@@ -17818,6 +17813,14 @@ const EVENT_DATA = {
       "d80496fe71fac7718962",
       "fb277a9105e85e82ee78",
       "6fbd8d2e9fe0aacfe32b"
+    ],
+    "CRM": [
+      "d36b654dd5a021d7ca75",
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442",
+      "1d5d318e3be777905f5c",
+      "25bc0168b90ac2fc9ffe",
+      "5d4d7592477eab90150c"
     ],
     "GEV": [
       "faf85bda6709f6513b53",
@@ -17965,13 +17968,6 @@ const EVENT_DATA = {
       "72e4f9271a149b2fc540",
       "570e12f738ae57a4edc4",
       "8fa943c36d2b51ed9f4d"
-    ],
-    "CRM": [
-      "6e5f3fd14d560d5d94da",
-      "218d3602bd588615b442",
-      "1d5d318e3be777905f5c",
-      "25bc0168b90ac2fc9ffe",
-      "5d4d7592477eab90150c"
     ],
     "MRVL": [
       "64a12357069e5865547f",
