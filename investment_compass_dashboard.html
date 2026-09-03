@@ -478,6 +478,7 @@
      (수동 실행, 2026-08-27부터) 화면에 연결이 안 돼 있었음. 2026-08-28 화면 연결 + 자동
      순환 갱신 파이프라인에 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="eps_data.js" onerror="void 0"></script>
+<script src="guidance_history_data.js" onerror="void 0"></script>
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
 <script src="kiwoom_sells_data.js" onerror="void 0"></script>
@@ -6395,10 +6396,59 @@ function insiderTradingHtml(ticker){
     ${rows}
     <div class="sub" style="margin-top:6px;">경영진 매수는 자기 돈을 회사에 거는 것이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·개인 자금 필요 등 회사 전망과 무관한 이유가 흔해 매수만큼 의미 있게 보지는 않아요 - 그 자체로 매매 신호는 아니에요.</div>`;
 }
+// 2026-09-03 추가: 사용자 요청("기업 가이던스: 회사 전망과 시장 전망 비교, EPS 검증") 검토 중
+// 발견 - buy_signal_telegram.py가 SEC 8-K(Item 2.02) 공시에서 회사 공식 가이던스(매출·EPS
+// 범위)를 이미 자동으로 파싱해서 guidance_history_cache.json에 계속 쌓고 있었는데, 대시보드
+// 화면 어디에도 노출된 적이 없었음(새로 만든 게 아니라 이미 있던 걸 꺼내서 보여주는 것뿐).
+// 이력이 2026-08월부터 쌓이기 시작해서 아직 대부분 종목은 "직전 가이던스 없음"이고, 결과
+// 대조(outcome)도 아직 하나도 없음 - 시간이 지나야 채워지는 정직한 빈 상태를 그대로 보여줌.
+function guidanceMetricText(m){
+  const unitLabel = m.unit==='billion' ? 'B' : (m.unit==='million' ? 'M' : '');
+  const unitNote = (!m.unit || m.unit==='unspecified') ? '(단위 미확인)' : '';
+  if(m.low!=null && m.high!=null) return `$${m.low}~$${m.high}${unitLabel}${unitNote}`;
+  if(m.center!=null && m.plusMinus!=null) return `$${m.center}±${m.plusMinus}${unitLabel}${unitNote}`;
+  return '-';
+}
+function guidanceHistoryBlock(ticker){
+  const records = (typeof GUIDANCE_HISTORY_DATA !== 'undefined') ? GUIDANCE_HISTORY_DATA[ticker] : null;
+  if(!records || !records.length) return '';
+  const rows = [...records].reverse(); // 최신 공시가 먼저 오게
+  const latest = rows[0];
+  const g = latest.guidance || {};
+  const metricsText = (g.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'} ${guidanceMetricText(m)}`).join(' · ') || '-';
+  const cmp = latest.comparison || {};
+  const cmpLabel = {raised:'🟢 상향', lowered:'🔴 하향', maintained:'⚪ 유지', mixed:'🟡 지표별 혼재'}[cmp.overall];
+  const cmpText = cmp.status==='available'
+    ? `직전 같은 대상기간 가이던스 대비 <b>${cmpLabel}</b>`
+    : `직전 동일 대상기간 가이던스와 비교 불가(${esc(cmp.reason||'이전 기록 없음')})`;
+  const outcome = latest.outcome;
+  const outcomeText = outcome
+    ? (outcome.status==='met'
+        ? `✅ 실제 매출 $${outcome.actual}${outcome.unit==='billion'?'B':'M'}로 가이던스 범위 안에 들었어요(SEC 검증 매출 기준)`
+        : `⚠️ 실제 매출 $${outcome.actual}${outcome.unit==='billion'?'B':'M'}로 가이던스 범위를 벗어났어요(${outcome.variancePct>=0?'+':''}${outcome.variancePct}%, SEC 검증 매출 기준)`)
+    : `아직 이 대상기간의 실적이 SEC로 확정되지 않아 결과 대조 대기 중이에요`;
+
+  const historyRows = rows.slice(0,6).map(row=>{
+    const rg = row.guidance||{};
+    const mtext = (rg.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'} ${guidanceMetricText(m)}`).join(' · ') || '-';
+    const rc = row.comparison||{};
+    const rcLabel = {raised:'상향', lowered:'하향', maintained:'유지', mixed:'혼재'}[rc.overall] || '비교불가';
+    return `<div style="margin:4px 0;font-size:12.5px;">${esc(row.filingDate)} · ${esc(rg.targetPeriod||'-')} · ${mtext} · ${rcLabel}${row.sourceUrl?` · <a href="${esc(row.sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">SEC 원문</a>`:''}</div>`;
+  }).join('');
+
+  return `<div class="comment-box" style="background:var(--panel-2);color:var(--text);margin-top:12px;">
+    <div style="font-weight:700;margin-bottom:4px;">📋 회사 자체 가이던스 (SEC 공시 기반)</div>
+    <div style="font-size:13px;line-height:1.8;">최근 공식 가이던스(${esc(latest.filingDate)} 공시, 대상 ${esc(g.targetPeriod||'-')}): <b>${metricsText}</b><br>${cmpText}<br>${outcomeText}</div>
+    ${latest.sourceUrl ? `<div class="sub" style="margin-top:6px;"><a href="${esc(latest.sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">SEC 원문 보기</a></div>` : ''}
+    ${historyRows ? `<details style="margin-top:8px;"><summary style="cursor:pointer;font-size:12.5px;color:var(--accent);">이전 가이던스 이력 보기</summary><div style="margin-top:6px;">${historyRows}</div></details>` : ''}
+    <div class="sub" style="margin-top:8px;">※ 회사가 SEC에 공식 제출한 실적발표 자료(8-K)에서 자동으로 추출한 매출·EPS 가이던스예요 - 애널리스트 컨센서스가 아니라 회사 자신의 공식 전망치라 신뢰도가 높아요. 다만 이력이 2026-08월부터 쌓이기 시작해서 대부분 종목은 아직 비교할 이전 가이던스나 결과 대조가 없어요.</div>
+  </div>`;
+}
 function tabForecast(r){
   const analystLogHtml = renderAnalystLog(r.ticker);
   const insiderHtml = insiderTradingHtml(r.ticker);
   const epsRevisionHtml = renderEpsRevision(r.ticker);
+  const guidanceHtml = guidanceHistoryBlock(r.ticker);
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   if(!est || est.targetMean==null){
     // 2026-08-11 수정: ttmFallbackHtml()과 동일한 이유로 - 관심종목이 아니라서 캐시가 아예
@@ -6406,7 +6456,7 @@ function tabForecast(r){
     const reason = isAdHocTicker(r.ticker)
       ? `이 종목은 관심종목이 아니라 애널리스트 컨센서스 캐시가 없어요 - 밸류에이션/실적/전망 같은 펀더멘털은 관심종목(워치리스트)만 서버에서 미리 조회해둬요. 이 종목을 계속 보고 싶으면 config.json의 워치리스트에 추가하는 게 방법이에요(요청하면 대신 추가해드려요).`
       : `이 종목은 애널리스트 컨센서스를 조회하지 못했어요 (Yahoo Finance 비로그인 접근 제한으로 조회 실패가 정상일 수 있습니다).`;
-    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>${epsRevisionHtml}${insiderHtml}`;
+    return `${analystLogHtml}<hr style="margin:16px 0;border:none;border-top:1px solid var(--line);"><div class="sub">${reason}</div>${epsRevisionHtml}${guidanceHtml}${insiderHtml}`;
   }
   const upside = (est.targetMean - r.price) / r.price * 100;
   const revCurrency = est.financialCurrency && est.financialCurrency!=='USD' ? est.financialCurrency+' ' : '$';
@@ -6450,6 +6500,7 @@ function tabForecast(r){
     <div class="glossary" style="margin-top:10px;">
       ※ Yahoo Finance 애널리스트 컨센서스 - 비로그인 접근이 막히면 조회 실패가 정상입니다. 매매 권유가 아닌 참고용 정보입니다.
     </div>
+    ${guidanceHtml}
     ${insiderHtml}
   `;
 }
