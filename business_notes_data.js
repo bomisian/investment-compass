@@ -329,6 +329,23 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-03",
+        headline: "NVIDIA, AI 모델 플랫폼 Hugging Face 인수 발표 - $12.9B 역사상 2번째 대형 M&A",
+        facts: ["NVIDIA가 2026-09-03 AI 모델·데이터셋 호스팅 플랫폼 Hugging Face를 $12.93B에 인수하기로 발표했다(투자자 지분 $11.9B + 직원유지금 최대 $1B)", "Hugging Face는 300만 개 AI 모델, 100만 개 애플리케이션, 50만 개 데이터셋을 호스팅하며 1,800만 개발자와 20만 기업이 이용 중", "NVIDIA는 인수 후 'Hugging Face의 독립성·공개성·컴퓨팅 중립성을 유지'하겠다고 명시했고, 창립팀도 계속 경영에 참여하기로 함", "거래는 2027년 상반기 완료 예상(규제 승인 조건 충족 시)", "이는 NVIDIA 역사상 2번째 큰 인수로, 2024년 12월 Groq 자산 $20B 인수에 이은 것"],
+        why: ["NVIDIA의 'AI 칩→클라우드 인프라→소프트웨어/모델' 수직통합 전략의 핵심 단계다. 기존에 칩과 인프라 제공에 머물렀다면 이제 최종 사용자인 AI 개발자들이 쓰는 플랫폼까지 확보하려는 움직임으로, 에코시스템 영향력을 급진적으로 높이는 것이다.", "Hugging Face는 'AI 모델의 GitHub'로 불리며, 전 세계 AI 개발자 커뮤니티의 중심이다. 1,800만 개발자의 모델 개발·배포를 NVIDIA의 생태계 안으로 끌어들일 수 있다는 뜻이다.", "$12.9B라는 규모는 '현금 지출'이 아니라 '장기 전략 투자'의 신호로, NVIDIA 경영진이 생성형 AI 시장의 지속적 성장을 얼마나 강하게 확신하고 있는지 드러낸다.", "기존 독립 플랫폼 유지 약속은 표면적 안심용이고, 실제로는 NVIDIA의 칩·플랫폼과 Hugging Face의 모델 커뮤니티가 점진적으로 통합되며, 경쟁사(AMD, Intel 등) 칩 지원이 점차 약화될 가능성이 높다."],
+        beginner: ["AI 모델을 만드는 사람들이 모여서 모델을 공유하고 협력하는 '커뮤니티 센터' 같은 곳이 Hugging Face예요.", "NVIDIA는 AI 칩을 만드는 회사인데, 이제 '칩뿐 아니라 개발자들이 실제로 쓰는 플랫폼까지 자기들 소유로 만들려고' 하는 움직임이에요.", "쉽게 말해, 자동차 회사가 단순히 엔진만 팔다가, 나중에 주유소와 자동차 공유 앱까지 사는 것 같은 거죠. 그러면 고객들을 더 강하게 묶을 수 있어요.", "지금은 '다양한 칩(NVIDIA, AMD 등)과 호환되는 중립적 플랫폼이라고 약속'했지만, 시간이 지나면서 NVIDIA 칩에 최적화된 쪽으로 변할 가능성이 높아요."],
+        watch: ["규제 승인 진행 상황 및 완료 예상 시기", "인수 후 Hugging Face 플랫폼 정책 변화 (경쟁사 칩 지원 정책, 모델 배포 조건 등)", "1,800만 개발자 커뮤니티가 실제로 NVIDIA 칩·플랫폼으로 강하게 귀속되는 추이", "Meta/Google/OpenAI 등 경쟁 AI기업들의 대응 (독자 모델 플랫폼 강화 등)", "다른 칩 회사(AMD 등)의 Hugging Face 이탈·우회 플랫폼 구축 여부"],
+        interpretation: "이번 인수는 단순한 '플랫폼 사업 확장'이 아니라 NVIDIA의 장기 전략 신호다. AI 생태계에서 칩→인프라→소프트웨어→개발자커뮤니티까지 모든 레이어를 장악하려는 움직임으로, Microsoft-OpenAI 수직통합, Google-자체칩 전략과 유사한 맥락이다. 지금은 '독립성 유지' 약속을 했지만, 시간이 지나면서 NVIDIA 칩에 최적화되는 방향으로 진화할 가능성이 높다. 워치리스트의 반도체·AI 인프라 종목(NVDA 자체, AVGO/AMD/ARM/MRVL 등 경쟁사)에 영향을 미칠 수 있는 구조적 신호다.",
+        decision: "이 인수 자체로 NVDA를 당장 매수할 근거는 아니지만, NVDA의 '시장 지배력 강화' 신호로 기록. 단기적으로는 AVGO·AMD·ARM·MRVL 등 경쟁사의 오피니언 리스크(Hugging Face 접근성 약화 우려)로 작용할 수 있으니 주시할 것.",
+        confidence: "인수 발표 사실과 규모($12.93B)는 TechCrunch·CNBC·Bloomberg 등 신뢰도 높은 매체가 교차 확인했고, NVIDIA 공식 발표 기반이라 신뢰도 높음. 규제 승인은 미진행 단계라 불확실성 있음.",
+        sources: [
+          { title: "Nvidia confirms it will buy Hugging Face for $12.9 billion (TechCrunch)", url: "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/" },
+          { title: "Nvidia Pays $12.9 Billion to Buy and Expand Hugging Face (PYMNTS)", url: "https://www.pymnts.com/news/artificial-intelligence/2026/nvidia-pays-13-billion-dollars-buy-expand-hugging-face" },
+          { title: "Nvidia agrees to buy Hugging Face for $12.9 billion - Quartz", url: "https://qz.com/nvidia-hugging-face-acquisition-12-billion-082726" },
+          { title: "Nvidia Confirms $12.9B Hugging Face Deal as Huang Lauds 'Growth' (Benzinga)", url: "https://www.benzinga.com/markets/prediction-markets/26/09/61610151/nvidia-confirms-12-9b-hugging-face-deal" },
+        ],
+      },
+      {
         date: "2026-09-02",
         headline: "NVIDIA, 오픈소스 AI 플랫폼 Hugging Face를 $12.9~14B에 인수 예정 - 이번 주 서명 목표 (1B 직원 유지 패키지 포함)",
         tone: "positive",
@@ -660,6 +677,23 @@ const BUSINESS_NOTES = {
       },
     ],
     newsLog: [
+      {
+        date: "2026-09-03",
+        headline: "Palantir, PwC US와 AI 기반 딜 플랫폼 전략적 확대 - Foundry/AIP 기반 M&A 분석 도구 개발",
+        facts: ["Palantir Technologies가 2026-09-03 컨설팅 대형사 PwC US와의 전략적 제휴를 확대한다고 발표했다.", "양사는 Palantir의 Foundry(데이터 플랫폼)와 AIP(AI Platform)를 기반으로 'M&A/딜 인텔리전스' 전용 솔루션을 공동 개발하기로 했다 - 기업의 인수·합병 분석·의사결정 프로세스를 AI로 자동화하는 도구", "이는 기존 정부·공공부문 중심의 Palantir 고객 기반을 민간 엔터프라이즈(특히 금융·전략부서) 영역으로 확대하려는 움직임이다", "발표 당일 PLTR 주가는 +7% 상승했고, 이는 같은 날 Michael Burry의 공매도 리포트에 대한 '강한 반박' 신호로 해석되었다", "Palantir는 최근 Q2에서 YoY +93% 매출 성장 및 정부/상업 부문 균형 성장을 기록하며 몸집을 키우는 중이다"],
+        why: ["Palantir의 핵심 약점은 '정부 고객 의존도 과다'(역사적으로 수익의 70% 이상)였다. 이번 PwC 협력 확대는 이 위험을 '민간 엔터프라이즈로 분산'하려는 전략적 이동이다.", "M&A/딜 인텔리전스는 '고부가 가치 사용 케이스'로, (1) 고객당 계약 규모가 크고, (2) 반복적 갱신 가능성이 높으며, (3) 클라우드 기반(SaaS처럼 확장 가능)이다. 따라서 Palantir의 '느린 고객 확보'에서 탈피할 수 있는 기회다.", "PwC와의 파트너십은 'PwC의 3,000명+ M&A 전문가 네트워크'가 곧 Palantir의 판매 채널이 될 수 있다는 뜻으로, 고객 유입이 비용 효율적이 될 수 있다.", "이 발표는 '기술적으로 보면 평범한 수준의 협력'이지만, '투자자 심리'로는 Palantir가 '미래 성장 경로를 명확히 제시'하는 신호로 작용했고, 이것이 Michael Burry의 공매도 공격에 대한 '반박'이 되었다고 시장이 평가한 것 같다."],
+        beginner: ["Palantir는 원래 정부(FBI, CIA, 군부) 같은 곳을 주 고객으로 했어요. 이게 수익의 70~80%를 차지해서 '정부 회사'라는 꼬리표가 붙어있었거든요.", "이번에 PwC(회계·컨설팅 대기업)와 손잡고 기업들의 M&A(기업 인수·합병) 분석을 도와주는 AI 도구를 만들기로 했어요.", "쉽게 말해, '정부 고객'만 주로 했던 회사가 이제 '일반 기업들'도 정말 본격적으로 노린다는 신호예요.", "발표 당일 주가가 7% 올랐는데, 그 이유는 이전에 유명한 투자자가 'Palantir는 성장 한계가 있다'고 공격했는데, Palantir가 '아니다, 우리는 새로운 시장이 있다'고 답하는 느낌이라서예요."],
+        watch: ["PwC 협력을 통한 민간 부문 신규 고객 확보 실제 진행 현황 (향후 2~3분기 상업 고객 성장률 확인)", "M&A 인텔리전스 솔루션의 출시 시기 및 초기 채용 현황", "Palantir의 정부/상업 부문 매출 비율 변화 (정부 의존도 감소 추이)", "Michael Burry와 다른 공매도세의 추후 보고서 (이번 발표에 대한 재평가)", "PwC 외 다른 BigFour 컨설팅사(Deloitte, EY, KPMG)의 Palantir 도입 여부"],
+        interpretation: "이번 PwC 협력 확대 발표는 'Palantir의 정부 고객 의존도 감소 전략'의 구체적 사례로 보인다. 기술 수준은 이미 보유했고, 이제 '민간 고객에게 어떻게 판매할 것인가'라는 영업 문제를 PwC와의 전략적 제휴로 풀려는 움직임이다. 단기적으로는 '새로운 성장 경로 제시'로 투자자 신뢰도를 높였지만, 실제로는 향후 2~3분기 실적에서 상업 고객 성장이 실현되지 않으면 '기대 vs. 실망' 리스크가 있다.",
+        decision: "이 발표 자체는 Palantir의 장기 성장 잠재력 재확인 신호로 긍정적이나, 단기적으로는 이미 주가에 +7% 반응이 충분히 반영됐을 가능성이 높다. 실제 상업 고객 성장이 다음 분기부터 눈에 띄게 나타나는지 확인할 필요가 있으며, 만약 기대에 못 미친다면 이 발표 후 주가가 조정될 위험 있음. 단기 매수는 이미 할 만큼 했으니, 향후 실적 확인 후 재평가할 것.",
+        confidence: "PwC 협력 발표 사실과 솔루션 범위(M&A 인텔리전스)는 Palantir 공식 발표 및 복수 매체(247wallst, Cramer 코멘트 등) 보도로 신뢰도 높음. 구체적 계약 규모·타임라인·고객 확보 일정은 미공개되어 추정 단계.",
+        sources: [
+          { title: "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case (247wallst)", url: "https://247wallst.com/investing/2026/09/03/palantir-rallies-7-as-pwc-alliance-counters-michael-burry-bear-case-servicenow-climbs-5-salesforce-gains-3/" },
+          { title: "Jim Cramer explains Palantir, Salesforce rebound (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-palantir-salesforce-rebound-011700386.html" },
+          { title: "Palantir vs. Salesforce: Two Visions of Enterprise AI (247wallst)", url: "https://247wallst.com/investing/2026/08/09/palantir-vs-salesforce-two-visions-of-enterprise-ai-one-clear-winner/" },
+          { title: "Palantir Technologies Q2 2026 earnings: 93% sales growth, raised guidance (Palantir Investor Relations)", url: "https://investors.palantir.com" },
+        ],
+      },
       {
         date: "2026-08-23",
         headline: "트럼프 측 신탁 계좌, 6월에 팔란티어 주식 매수한 사실이 재무공개서류로 드러남",
@@ -1835,6 +1869,23 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-03",
+        headline: "Tesla Cybercab 프로덕션 모델 공개 - 조향장치·페달 제거, 완전 자율주행 택시 상용화 신호",
+        facts: ["Tesla가 2026-09-03 미국 텍사스 오스틴에서 Cybercab 프로덕션 모델(양산 모델) 공개 이벤트를 개최했다(현지시간 오후 5시 45분 시작)", "공개된 Cybercab은 '조향장치·페달 없는 완전 자동 주행 설계'로, 운전자 개입이 불가능한 구조로 설계되었다", "이는 Tesla가 2024년 10월 We, Robot 이벤트에서 공개한 Cybercab 컨셉의 완성본으로, 2년간의 설계·테스트를 거친 프로덕션 버전이다", "이벤트에서 Elon Musk는 'Cybercab 상용화 일정', '가격 공표', '규제 타임라인' 등을 발표할 예정으로 알려졌다", "이벤트 전 TSLA 주가는 +6% 상승해 $377까지 오른 상태(9월 3일 정규장 시작 전 기준)"],
+        why: ["Cybercab은 Tesla의 '완전 자율주행(Full Self-Driving) 전략'의 최종 형태로, 이를 성공적으로 상용화하면 (1) 신규 사업 부문(로보택시) 창출, (2) 기존 자동차 사업의 마진율 개선(운전자 비용 제거), (3) AI/자동화 기술에 대한 시장 신뢰도 급상승을 의미한다.", "2년간의 설계 진화를 거쳐 프로덕션 모델을 공개한다는 것은 '단순 개념 공개'가 아니라 '실제 대량생산 직전 단계'일 가능성을 시사한다. 규제 승인이 진행 중이거나 임박했을 수 있다는 뜻이다.", "완전 자율주행 기술 상용화는 자동차 산업 전체의 구조를 바꿀 가능성이 높아, Cybercab의 성공 여부는 (1) Tesla의 향후 밸류에이션, (2) 전통 자동차 OEM의 평가 절하, (3) 보험·운송 산업 구조 변화까지 영향을 미칠 수 있다.", "시장이 이미 Cybercab 발표 예상에 TSLA +6% 반응을 보인 것은, 성공적 공개 시 추가 상승, 실망스러운 세부 사항(지연, 비싼 가격 등) 노출 시 급락 가능성이 높다는 뜻이다."],
+        beginner: ["Cybercab은 운전대도 없고 가속·브레이크 페달도 없는 자동차예요. 사람이 직접 운전할 수 없고 AI가 완전히 자동으로 운전하는 거예요.", "Tesla는 2년 전에 '이런 차를 만들 거다'고 공개했고, 이제 2년 뒤 '진짜 이렇게 완성했다'고 보여주는 거거든요.", "이게 성공하면 '운전자 없는 택시'가 정말 현실이 되는 거라, 자동차 사업뿐 아니라 택시·운송 산업 전체를 바꿀 수 있는 수준의 큰 변화에요.", "시장은 이미 이 발표를 기대하고 있어서 주가가 6% 올라있어요. 만약 발표 내용이 기대에 못 미치면(예: 2030년까지 출시 연기, 가격이 기대보다 훨씬 비싸다 등) 주가가 크게 떨어질 수 있어요."],
+        watch: ["Cybercab 상용화 예정 시기 및 초기 가격 공표 내용", "규제 승인 일정 및 진행 상황 (특히 완전 자율주행 안전성 인증)", "이벤트 직후 TSLA 주가 반응 및 향후 1주일간의 동향", "경쟁사(Google Waymo, General Motors 등)의 대응 및 자체 로보택시 프로젝트 진행 상황", "보험/규제 기관의 완전 자율주행 택시 운영 승인 여부"],
+        interpretation: "Cybercab 프로덕션 공개는 Tesla의 가장 큰 장기 내러티브인 'AI/자동화 변화'가 단순 구호에서 물리적 상품으로 구체화되는 신호다. 성공적 상용화는 (1) 신규 사업 기여, (2) AI 기술 입증, (3) 향후 3~5년 수익 구조 변화를 의미하지만, 규제 승인·시장 수용 등 넘어야 할 장애물이 여전히 많다. 단기적으로는 이벤트 내용(구체적 일정·가격)에 따라 주가가 크게 변동할 수 있는 '변동성 이벤트'다.",
+        decision: "Cybercab 발표 자체는 Tesla의 장기 성장 내러티브 강화로 긍정적이나, 이벤트 후 구체적 세부사항(상용화 일정, 가격, 규제 로드맵)을 확인한 후 판단할 것. 이벤트 직후 주가 반응이 크게 변동할 수 있으므로 1~3일 후 시장 반응을 지켜본 후 포지션 조정 검토.",
+        confidence: "Cybercab 이벤트 개최 사실(일시, 장소)은 Tesla 공식 발표 및 복수 매체(Reuters·Yahoo Finance 등) 보도로 신뢰도 높음. 구체적 세부사항(상용화 일정, 가격, 규제 타임라인)은 이벤트 후 공개될 예정이라 현시점 미확정.",
+        sources: [
+          { title: "Tesla Cybercab to launch Sept. 3 as robotaxi bet ramps up (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/article/tesla-cybercab-to-launch-sept-3-as-robotaxi-bet-ramps-up-135557945.html" },
+          { title: "Tesla to hold the Cybercab Austin, Texas launch event on September 3 (Tesla Oracle)", url: "https://www.teslaoracle.com/2026/08/23/tesla-to-hold-the-cybercab-austin-texas-launch-event-on-september-3/" },
+          { title: "Tesla climbs 6% ahead of Cybercab event (SeekingAlpha)", url: "https://seekingalpha.com/news/4638507-tesla-climbs-6-ahead-of-cybercab-event" },
+          { title: "Tesla's Cybercab event set for Thursday, with few details (Reuters/Investing.com)", url: "https://www.investing.com/news/stock-market-news/teslas-cybercab-event-set-for-thursday-with-few-details-4887402" },
+        ],
+      },
+      {
         date: "2026-08-31",
         headline: "테슬라 주가 5.5% 급등 - Cybercab 행사(9/3) 임박 + 네바다 로보택시 승인(연 5,000대)",
         facts: ["테슬라 주가가 8월 31일(금) +5.5% 상승해 $367.95로 마감했고, 거래량은 60.9M으로 3개월 평균(41.6M) 대비 46% 초과", "상승 배경은 9월 3일(화) 예정된 Cybercab 행사 기대감과 함께 로보택시 사업의 구체적 진전 신호", "네바다 자동차국이 클락 카운티에서 테슬라 로보택시를 자율주행 네트워크사(autonomous vehicle network company)로 정식 승인했고, 1년차에 최대 5,000대의 완전 자율주행 차량 운영 허가", "머스크가 텍사스 austin 시설에서의 AI 전력 수요 충족을 위해 SpaceX와 협력해 가스터빈 부품 생산 추진 중이라는 보도도 있음"],
@@ -2212,6 +2263,23 @@ const BUSINESS_NOTES = {
       {title:"Broadcom Q2 FY 2026: VMware Stability Supports AI-Led Semiconductor Expansion (Futurum Group)", url:"https://futurumgroup.com/insights/broadcom-q2-fy-2026-vmware-stability-supports-ai-led-semiconductor-expansion/"},
     ],
     newsLog: [
+      {
+        date: "2026-09-02",
+        headline: "Broadcom Q3 FY2026 실적 발표 - AI칩 매출 $16.7B(YoY +221%), 역대 분기 매출 신기록 $29.6B",
+        facts: ["Broadcom이 2026-09-02(미국 현지시간) Q3 FY2026 실적을 발표했다. 종합 매출 $29.6B(YoY +86%, 기대 $29.36B 상회), 비GAAP EPS $3.32(기대 $3.24 상회)", "AI 칩 매출은 $16.7B로 YoY +221%, QoQ +54%를 기록했고, 전체 매출의 56%를 차지했다 (전년 동기 19%에서 급증)", "비AI 칩 매출은 여전히 견조해 $8.5B(YoY +29%), 그 외 부문(네트워킹 등)은 $4.4B(YoY -15% 정체) 기록", "Q4 가이던스: 종합 매출 $34.8B(YoY +93%), AI칩 매출 $21.7B(YoY +236%)로 제시 - 분기마다 AI 비중이 50%+로 계속 오를 것을 시사", "회사는 '9분기 연속 실적 비트'를 기록했으며, 이는 월가 기대치를 지속적으로 초과하는 추세를 의미한다"],
+        why: ["AI 칩 매출 YoY +221%는 단순한 '성장'이 아니라 '산업 구조 변화 속도'를 의미한다. 불과 3개월 전 분기(Q2)와 비교해도 QoQ +54%로 가속도가 붙고 있으며, Q4 가이던스 AI매출 $21.7B는 Q3 대비 +30%로 또 다시 급증할 것을 예고한다.", "AI 칩이 전체 매출의 56%에 달한다는 것은, 더 이상 Broadcom이 '종합 반도체 회사'가 아니라 '사실상 AI 인프라 회사'로 변모했다는 뜻이다. 이는 비AI 부문의 정체(네트워킹 -15%)와 대비되어 더욱 명확해진다.", "Q4 가이던스에서 AI매출 $21.7B는 Q3의 $16.7B 대비 +30% 성장을 의미하는데, 이 성장률이 계속 유지되면 반년 뒤 AVGO의 분기 AI매출이 $30B를 넘을 수 있다는 뜻이다 - 현재 NVDA의 전체 분기 매출($96.2B) 수준의 1/3을 AI칩 하나에서 벌어들이는 구조다.", "주가가 시간외 하락한 것은 '실적이 나쁜 것'이 아니라 '예상치를 이미 너무 높게 설정했기 때문'이며, 이는 월가가 AI 칩 기업에 대해 얼마나 높은 기대를 걸어두었는지를 반증한다. 반대로 Q4 가이던스가 기대를 크게 웃돈다면 추후 반등 여력이 있을 수 있다."],
+        beginner: ["Broadcom은 반도체 회사인데, 특히 AI 서버에 들어가는 칩을 많이 만들어요.", "이번 분기 매출이 $29.6B(역대 최대)였는데, 이 중 AI 칩이 $16.7B를 차지했어요. 지난해 같은 분기에는 AI 칩이 $5B 정도였으니까, 1년 사이에 3배 이상 뛴 거예요.", "다음 분기(Q4)에는 AI 칩 매출이 또 $21.7B까지 올 것 같다고 회사가 예상했어요. 계속 빨라지는 추세인 거죠.", "주가가 발표 직후 잠깐 떨어진 이유는 '실적이 나빠서'가 아니라 '기대치가 이미 너무 높아서' 더 이상 놀랄 게 없다는 뜻이에요. 반대로 앞으로 몇 분기간 이 성장을 유지하면 주가가 다시 오를 수 있어요."],
+        watch: ["Q4 가이던스 달성 여부 (AI매출 $21.7B 실제 기록 확인)", "Q4 실적 발표 이후 경쟁사(NVDA, AMD 등)의 AI 칩 성장률과 비교 분석", "AI 칩 고객 집중도 (특정 클라우드 회사 의존도) 변화 추이", "마진율 변화 (AI 칩 고성장 속에서 마진 유지 또는 개선 여부)", "비AI 부문(네트워킹 -15%, 그 외)의 회복 신호 여부"],
+        interpretation: "Broadcom의 Q3 실적과 Q4 가이던스는 AI 인프라 투자 사이클의 지속·가속 신호를 명확히 보여준다. 단순한 '한 회사의 좋은 실적'이 아니라 (1) NVIDIA와는 다른 포지션(칩셋·연결성 중심)에서 AI 수요 급증을 뼈저리게 포착 중, (2) 이 성장이 최소 향후 2~3분기는 계속될 것 같다는 시장 신호를 담고 있다. 다만 정규장 주가 반응은 '시간외 하락'으로 시작해, 실제로는 '기대가 너무 높아서 반응이 제한적'이라는 보수적 신호다.",
+        decision: "Q3 실적 자체는 긍정적이나, 주가 반응의 약함(시간외 하락 개시)은 (1) AI 성장이 이미 충분히 반영됐다는 신호, (2) 월가 컨센서스의 '기대 과다'에 대한 경고 신호로 해석된다. 단기적으로는 정규장 오픈 후 실제 주가 반응을 확인할 필요가 있으며, 중기적으로는 Q4 가이던스 달성 여부가 판단 기준이 될 것. 워치리스트 내 경쟁사(AMD, ARM, MRVL 등)도 AVGO의 이 성장세에 얼마나 뒤따라가는지 확인할 포인트.",
+        confidence: "Q3 매출·EPS·Q4 가이던스는 Broadcom 공식 SEC 제출 자료(8-K) 및 earnings call 기반이라 신뢰도 높음. 실제 비즈니스 성과(AI 칩 YoY +221%, Q4 가이던스)는 확실함. 다만 주가 반응 해석('기대 과다 vs. 실망')에는 해석 여지 있음.",
+        sources: [
+          { title: "Broadcom Inc. Announces Third Quarter Fiscal Year 2026 Financial Results (Broadcom Investor Relations)", url: "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial" },
+          { title: "Broadcom's Q3 Beats the Street — But Only Just Barely (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/articles/broadcom-q3-beats-street-only-155715232.html" },
+          { title: "Broadcom Q3 2026 Earnings Call Transcript (Benzinga)", url: "https://www.benzinga.com/news/26/09/61592658/broadcom-q3-2026-earnings-call-transcript" },
+          { title: "Broadcom (AVGO) Q3 earnings report 2026 (CNBC)", url: "https://www.cnbc.com/2026/09/02/broadcom-avgo-q3-earnings-report-2026.html" },
+        ],
+      },
       {
         date: "2026-09-02",
         headline: "Q3 FY2026 실적 발표 - 매출·EPS 컨센서스 상회했으나 시간외 -4%대 하락, Q4 매출 가이던스가 시장 기대 소폭 하회",
