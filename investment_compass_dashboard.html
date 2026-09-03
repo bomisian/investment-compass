@@ -2538,14 +2538,41 @@ function renderDataAsOf(r){
 // 내부자 거래(05 탭)·전일 급등락(이상 변동 배너)이 전부 다른 탭/섹션에 흩어져 있어서, 한 종목을
 // 종합적으로 파악하려면 여러 탭을 다 열어봐야 했음. 01 판단 탭(가장 먼저 보는 화면)에 이미 계산된
 // 값만 모아 몇 줄로 요약함 - 새 판단·예측을 만들어내지 않고 다른 탭에 있는 사실을 인용만 함.
+// 2026-09-03 추가: 사용자 질문 - "PER 56.6배(비싼 편)라고 나오는데 가격 타당성 체크는 왜 저평가로
+// 나오나요?" 두 기준이 다르다는 설명만으론 부족해서, 실제 데이터 조합(과거 PER 위치 + EPS 전망
+// 방향)을 보고 "왜" 그런 그림이 나오는지 구체적인 이야기를 붙여줌. 완전히 새로운 판단이 아니라
+// 이미 계산돼 있는 값들(peDeviation3Y, fairValue.fwd, EPS_DATA.direction)을 조합만 한 것.
+function perHistoryNarrative(r){
+  const perDev = r.peDeviation3Y;
+  if(perDev==null) return '';
+  const perDevSignal = Math.abs(perDev)<3 ? null : (perDev>0 ? 'high' : 'low');
+  const fwd = r.fairValue && r.fairValue.fwd;
+  const hasFwd = fwd && fwd.mid!=null;
+  const belowFair = hasFwd && r.price < fwd.mid;
+  const fairSignal = hasFwd ? (belowFair ? 'low' : 'high') : null;
+  if(!perDevSignal || !fairSignal || perDevSignal===fairSignal) return '';
+  const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+  if(perDevSignal==='high' && fairSignal==='low'){
+    const epsNote = (eps && eps.direction==='상향') ? ' 그 예상치 자체도 최근 상향되는 중이고요.' : '';
+    return `과거 3년 중엔 업황이 부진했던 시기가 섞여 있어서 평균 PER이 낮게 깔려 있어요. 반면 내년 실적은 다시 크게 늘 것으로 예상되고,${epsNote} 그 성장까지 감안하면 지금 가격이 아직 비싸지 않다는 계산이에요 - "업황 저점을 지나 재성장하는 국면"으로 볼 수 있는 그림이에요.`;
+  }
+  const epsNote = (eps && eps.direction==='하향') ? ' 게다가 이익 전망 자체도 최근 낮아지는 중이라 더 조심스럽게 볼 부분이에요.' : '';
+  return `지금 PER이 과거 3년 평균보다 낮아서 얼핏 싸 보이지만, 앞으로 기대되는 성장까지 감안하면 오히려 비싼 셈이에요.${epsNote} 단순히 PER이 낮다고 저평가로 보면 착각하기 쉬운 경우예요(이 프로젝트에서 검증한 결과로도, PER만 낮다고 들어간 경우가 오히려 이후 수익률이 더 안 좋았어요 - 이른바 '밸류트랩').`;
+}
+
 function whyNowSummaryHtml(r){
   const fund = FUNDAMENTALS_DATA[r.ticker] || {};
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
   const ins = insiderEntry(r.ticker);
   const lines = [];
+  let perBlockHtml = '';
   if(typeof fund.peTTM === 'number' && typeof fund.avgPe3Y === 'number' && fund.avgPe3Y>0){
     const dev = (fund.peTTM/fund.avgPe3Y - 1)*100;
-    lines.push(`밸류에이션 - PER ${fund.peTTM.toFixed(1)}배는 3년 평균보다 ${Math.abs(dev)<3?'비슷한 수준':(dev>0?`${dev.toFixed(0)}% 높음(비싼 편)`:`${Math.abs(dev).toFixed(0)}% 낮음(싼 편)`)}`);
+    const devText = `PER ${fund.peTTM.toFixed(1)}배는 3년 평균보다 ${Math.abs(dev)<3?'비슷한 수준':(dev>0?`${dev.toFixed(0)}% 높음(비싼 편)`:`${Math.abs(dev).toFixed(0)}% 낮음(싼 편)`)}`;
+    // 2026-09-03 수정: 사용자 요청 - 첫 화면은 미래 가치 기준(가격 타당성 체크)이 더 이해하기 쉬우니
+    // 과거 3년 평균 PER 비교는 접어두고, 펼쳤을 때 왜 다르게 나오는지 설명을 같이 보여줌.
+    const narrative = perHistoryNarrative(r) || '위 "가격 타당성 체크"와 비교 기준(과거 3년 평균 vs 내년 예상 실적)이 달라서 결과가 다르게 보일 수 있어요. 계산이 틀린 게 아니에요.';
+    perBlockHtml = `<details style="margin:2px 0;"><summary style="cursor:pointer;">· 밸류에이션 - ${esc(devText)} <span class="sub" style="font-weight:400;">(왜 다르게 보일 수 있는지 펼쳐보기)</span></summary><div style="margin:6px 0 6px 14px;font-size:12.5px;color:var(--sub);line-height:1.6;">${esc(narrative)}</div></details>`;
   }
   if(est && est.targetMean!=null){
     const upside = (est.targetMean - r.price)/r.price*100;
@@ -2561,9 +2588,10 @@ function whyNowSummaryHtml(r){
   if(r.changePct1d!=null && Math.abs(r.changePct1d) >= ANOMALY_THRESHOLD_PCT){
     lines.push(`전일 ${r.changePct1d>=0?'급등':'급락'} ${r.changePct1d>=0?'+':''}${r.changePct1d.toFixed(1)}% - 06 뉴스 탭에서 이유를 확인하세요`);
   }
-  if(!lines.length) return '';
+  if(!lines.length && !perBlockHtml) return '';
   return `<div class="comment-box" style="background:var(--panel-2);color:#30353b;margin-top:10px;">
     <b>요약</b> <span class="sub" style="font-weight:400;">(위 판정과 별개로 02·05·06 탭 수치를 한눈에 모은 것 - 새 판단은 아니에요)</span><br>
+    ${perBlockHtml}
     ${lines.map(l=>'· '+esc(l)).join('<br>')}
   </div>`;
 }
@@ -2707,6 +2735,33 @@ function undervaluationContextNote(r){
   return `<div style="margin-top:6px;font-size:12.5px;line-height:1.6;">${signalsHtml}<br><span style="color:${verdictColor};">${verdict}</span> <span class="sub" style="font-weight:400;">(참고용 - 새로 검증된 지표는 아니고, 이미 있는 값들을 모아 방향만 정리한 거예요)</span></div>`;
 }
 
+// 2026-09-03 추가: 사용자 질문 - "성장률(%) 자체가 예전보다 더 올라가고 있다면(=성장 기대가
+// 점점 커지고 있다면) 그것도 좋아지고 있다는 신호로 보여줄 수 있지 않나?" EPS 달러 금액이 상향
+// 중이라는 것과는 별개로, "내년 예상 성장률(%)" 그 자체가 최근 며칠/몇 주 사이 올라갔는지 내려갔는지를
+// 보여줌. 새로 수집한 데이터가 아니라 ESTIMATES_DATA._history(하루 한 번씩 이미 쌓아온 스냅샷)에서
+// epsGrowth1 값의 처음과 끝만 비교한 것. 아직 쌓인 기간이 20영업일 안팎으로 짧아서(2026-08-10부터
+// 수집 시작) 기간을 항상 실제 갯수 그대로 표시하고, 변화가 거의 없으면(1%p 미만) 굳이 표시하지 않음.
+function growthRateTrendNote(r){
+  const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
+  const hist = est && est._history;
+  if(!hist || hist.length < 5) return '';
+  const withGrowth = hist.filter(h => typeof h.epsGrowth1 === 'number' && typeof h.eps0 === 'number' && h.eps0 > 0).sort((a,b)=> a.date < b.date ? -1 : (a.date > b.date ? 1 : 0));
+  if(withGrowth.length < 5) return '';
+  // 2026-09-03 수정(실측 회귀테스트로 발견): 올해 기준 EPS(eps0)가 회계연도 롤오버 등으로 창 중간에
+  // 확 바뀌면(예: LITE 8/21에 18.7→8.2로 급락, 그 결과 성장률이 59%→301%로 튐) 그 앞뒤 성장률을
+  // 그대로 비교하면 안 됨 - 실제 성장 기대 변화가 아니라 기준 자체가 바뀐 착시라서. eps0가 창 안에서
+  // 15% 넘게 흔들리면(관심종목 정상 케이스는 대부분 5% 미만, 예외적으로 CRM만 14.2%였음) 비교를
+  // 보류함.
+  const eps0Vals = withGrowth.map(h=>h.eps0);
+  const eps0Min = Math.min(...eps0Vals), eps0Max = Math.max(...eps0Vals);
+  if((eps0Max/eps0Min - 1) > 0.15) return '';
+  const first = withGrowth[0], last = withGrowth[withGrowth.length-1];
+  const diff = (last.epsGrowth1 - first.epsGrowth1) * 100;
+  if(Math.abs(diff) < 1) return '';
+  const dir = diff > 0 ? '커지고' : '작아지고';
+  return ` <span class="sub" style="font-weight:400;">(최근 ${withGrowth.length}영업일간 ${(first.epsGrowth1*100).toFixed(1)}%→${(last.epsGrowth1*100).toFixed(1)}%로 성장 기대 자체가 ${dir} 있어요)</span>`;
+}
+
 function buildValuationReasonablenessHtml(r){
   const fwd = r.fairValue && r.fairValue.fwd;
   if(!fwd || fwd.unavailable) return '';
@@ -2715,7 +2770,7 @@ function buildValuationReasonablenessHtml(r){
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
 
   const lines = [];
-  lines.push(`Forward PER <b>${fwd.anchorPe.toFixed(0)}배</b> · 내년 예상 EPS 성장 <b>${fwd.growth>=0?'+':''}${(fwd.growth*100).toFixed(0)}%</b>`);
+  lines.push(`Forward PER <b>${fwd.anchorPe.toFixed(0)}배</b> · 내년 예상 EPS 성장 <b>${fwd.growth>=0?'+':''}${(fwd.growth*100).toFixed(0)}%</b>${growthRateTrendNote(r)}`);
   if(eps && (eps.direction==='상향' || eps.direction==='하향')){
     const chg = eps.change90dPct!=null ? `(최근 90일 ${eps.change90dPct>=0?'+':''}${eps.change90dPct.toFixed(1)}%)` : '';
     lines.push(`EPS 컨센서스는 최근 <b>${esc(eps.direction)}</b> 중이에요${chg}`);
@@ -2758,6 +2813,72 @@ function buildValuationReasonablenessHtml(r){
     ${detailToggle}
   </div>`;
 }
+// ============ 보조 근거 종합 (2026-09-03 추가) ============
+// [배경] 사용자 피드백: "52주 저점 대비 낙폭·200일선 위치가 제일 검증된 지표라면, 거기 해당하는
+// 종목을 무조건 다 추천하지 말고 그중에서도 다른 참고 지표(EPS 전망·밸류에이션·애널리스트·내부자·
+// 뉴스·같은 그룹 대비)가 같은 방향을 가리키는지 엇갈리는지 표시해달라"(오라클처럼 특정 리스크가
+// 있는 경우를 예로 듦). 새 확률·점수를 만들지 않고, 이미 화면 곳곳에 흩어져 계산돼 있는 값들을
+// 한 곳에 모아 "긍정/조심" 개수만 세어 장기 점수(검증된 지표) 바로 아래에 보여줌.
+function auxiliaryEvidenceHtml(r){
+  const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+  const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
+  const ins = insiderEntry(r.ticker);
+  const dc = getDirectionCheck(r.ticker);
+  const rs = computeRelStrength(r);
+  const fwd = r.fairValue && r.fairValue.fwd;
+  const items = [];
+
+  if(fwd && !fwd.unavailable){
+    const exp = fwd.expectations;
+    const peg = fwd.peg;
+    if(exp){
+      if(exp.gap >= EXPECTATION_GAP_THRESHOLD) items.push({label:'가격 타당성 - 저평가 쪽', tone:'positive'});
+      else if(exp.gap <= -EXPECTATION_GAP_THRESHOLD) items.push({label:'가격 타당성 - 고평가 쪽', tone:'neutral'});
+      else items.push({label:'가격 타당성 - 적정 범위', tone:'neutral'});
+    } else if(peg!=null){
+      if(peg<=1) items.push({label:'PEG 기준 저평가 쪽', tone:'positive'});
+      else if(peg>=2) items.push({label:'PEG 기준 고평가 쪽', tone:'neutral'});
+    }
+  }
+  if(eps && (eps.direction==='상향' || eps.direction==='하향')){
+    items.push({label:`EPS 전망 ${eps.direction} 중`, tone: eps.direction==='상향'?'positive':'negative'});
+  }
+  if(est && est.targetMean!=null && r.price>0){
+    const upside = (est.targetMean-r.price)/r.price*100;
+    items.push({label:`애널리스트 목표가 ${upside>=0?'+':''}${upside.toFixed(0)}%`, tone: upside>=10?'positive':(upside<=-5?'negative':'neutral')});
+  }
+  if(ins && ins.transactions && ins.transactions.length){
+    const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
+    const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
+    if(buyShares || sellShares){
+      items.push({label: buyShares>sellShares?'내부자 순매수':(sellShares>buyShares?'내부자 순매도':'내부자 매수·매도 균형'), tone: buyShares>sellShares?'positive':(sellShares>buyShares?'negative':'neutral')});
+    }
+  }
+  if(dc){
+    items.push({label:`최근 뉴스 방향성 - ${DIR_LABEL[dc.tone]||dc.tone}`, tone: dc.tone==='risk'?'negative':(dc.tone==='positive'?'positive':'neutral')});
+  }
+  if(rs && rs.rel <= REL_WEAK_THRESHOLD){
+    items.push({label:`같은 그룹(${rs.sector}) 대비 뒤처짐`, tone:'negative'});
+  }
+
+  if(!items.length) return '';
+  const posCount = items.filter(i=>i.tone==='positive').length;
+  const negCount = items.filter(i=>i.tone==='negative').length;
+  const toneColor = t => t==='positive' ? 'var(--green)' : (t==='negative' ? 'var(--warn)' : 'var(--sub)');
+  const toneBg = t => t==='positive' ? 'var(--green-bg)' : (t==='negative' ? 'var(--warn-bg)' : 'var(--panel-2)');
+  const chipsHtml = items.map(i=>`<span style="display:inline-block;margin:2px 6px 2px 0;padding:2px 8px;border-radius:999px;font-size:11.5px;background:${toneBg(i.tone)};color:${toneColor(i.tone)};">${esc(i.label)}</span>`).join('');
+  let summary;
+  if(posCount>0 && negCount===0) summary = `보조 근거 ${posCount}개가 대체로 같은 방향(긍정)을 가리켜요.`;
+  else if(negCount>0 && posCount===0) summary = `보조 근거 ${negCount}개가 조심할 부분을 가리키고 있어요 - 위 장기 점수가 높아도 이 부분은 따로 확인해보세요.`;
+  else if(posCount>0 && negCount>0) summary = `보조 근거가 엇갈려요(긍정 ${posCount}개 · 조심 ${negCount}개) - 장기 점수만 보고 판단하기보다 아래 근거를 같이 확인해보세요.`;
+  else summary = '참고할 만큼 뚜렷한 보조 근거가 아직 없어요.';
+  return `<div class="comment-box" style="background:var(--panel-2);color:var(--text);margin-top:10px;">
+    <div style="font-weight:700;margin-bottom:4px;">🔎 보조 근거 체크 <span style="font-weight:400;font-size:11px;color:var(--sub);">(장기 점수는 승률 검증된 지표, 아래는 참고용 - 새로 만든 예측이 아니라 이미 있는 값들을 모은 거예요)</span></div>
+    <div>${chipsHtml}</div>
+    <div class="sub" style="margin-top:6px;">${summary}</div>
+  </div>`;
+}
+
 function tabJudgement(r){
   const b = r.breakdown;
   const pct = Math.max(0, Math.min(100, r.score / 5 * 100)); // 새 점수 범위 0~5 -> 0~100%
@@ -2816,6 +2937,7 @@ function tabJudgement(r){
       </div>
     </div>
     <div class="comment-box" style="background:${bannerBg};color:${bannerColor};">${bannerText}</div>
+    ${auxiliaryEvidenceHtml(r)}
     ${whyNowSummaryHtml(r)}
     <div style="margin-top:14px;">${renderViewLog(r.ticker)}</div>
     ${renderSigmaBand(r.ticker)}
