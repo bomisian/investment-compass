@@ -74,11 +74,11 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1788458695.7607226,
-      "lastSuccessAt": 1788458695.7607226,
-      "lastPartialSuccessAt": 1788458695.7607226,
-      "lastFetchedAt": 1788458695.761069,
-      "oldestFetchedAt": 1788458695.761069,
+      "lastAttemptAt": 1788458723.6840851,
+      "lastSuccessAt": 1788458723.6840851,
+      "lastPartialSuccessAt": 1788458723.6840851,
+      "lastFetchedAt": 1788458723.6843753,
+      "oldestFetchedAt": 1788458723.6843753,
       "warningAfterHours": 6,
       "criticalAfterHours": 24,
       "lastError": null,
@@ -91,9 +91,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1788458725.542449,
-      "lastSuccessAt": 1788458725.542449,
-      "lastPartialSuccessAt": 1788458725.542449,
+      "lastAttemptAt": 1788458753.1837487,
+      "lastSuccessAt": 1788458753.1837487,
+      "lastPartialSuccessAt": 1788458753.1837487,
       "lastFetchedAt": 1788454941.3347993,
       "oldestFetchedAt": 1788440429.7049592,
       "warningAfterHours": 6,
@@ -108,8 +108,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "delayed",
-      "lastAttemptAt": 1788458725.7456777,
-      "lastSuccessAt": 1788458725.7456777,
+      "lastAttemptAt": 1788458753.3668504,
+      "lastSuccessAt": 1788458753.3668504,
       "lastFetchedAt": 1788398034.6827228,
       "oldestFetchedAt": 1788398034.6827228,
       "dataAsOfLabel": "2026-09-03 10:13",
@@ -158,9 +158,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "partial",
-      "lastAttemptAt": 1788458725.6302867,
+      "lastAttemptAt": 1788458753.2714446,
       "lastSuccessAt": null,
-      "lastPartialSuccessAt": 1788458725.6302867,
+      "lastPartialSuccessAt": 1788458753.2714446,
       "lastFetchedAt": 1788454942.267039,
       "oldestFetchedAt": 1788189291.0682118,
       "warningAfterHours": 6,
@@ -252,7 +252,7 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1788458725.7456777,
+  "generatedAt": 1788458753.3668504,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
