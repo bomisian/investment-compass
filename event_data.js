@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788400170.1288743,
+  "generatedAt": 1788402038.6305175,
   "events": [
     {
       "id": "0e6ec9f96211f80027fa",
@@ -278,6 +278,75 @@ const EVENT_DATA = {
         "계약 금액·기간·취소 조건",
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
+      ]
+    },
+    {
+      "id": "dbe6f0e9ec7cc7e862f5",
+      "schemaVersion": 1,
+      "eventType": "regulatory_legal_export",
+      "eventLabel": "규제·소송·수출 제한",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce: Proving That AI Needs A Software Partner",
+      "headlineKo": "Salesforce: AI에 소프트웨어 파트너가 필요하다는 사실 입증",
+      "source": {
+        "name": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=6385172d630b68ae98ba66d2c63bcfc1820d0d8a9212ea8b63db378cfc26e72b",
+        "publishedAt": 1788382930,
+        "collectedAt": 1788402001.3673806
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce 주식: AI에 소프트웨어 파트너가 필요하다는 사실 입증(NYSE:CRM) | 알파 찾기 Gary Alexander 34.42K 팔로워 팔로우 요약 Salesforce는 강력한 2분기 결과, 강력한 AI 모멘텀,",
+        "2분기 매출은 전년 대비 11% 증가한 113억 5천만 달러를 기록했으며, 현재 RPO는 전년 대비 14% 증가했으며 예상 EPS는 전년 대비 102% 급증한 5.90달러로 예상을 크게 웃돌았습니다.",
+        "Anthropic과 함께 Claudeforce 출시를 통해 CRM은 상당한 새로운 수익원을 창출하고 AI와의 관련성을 검증하며 신규 고객까지 도달 범위를 확장합니다."
+      ],
+      "marketInterpretation": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 11%, $11.35, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 11%, $11.35, 14% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 규제 적용일·대상 제품",
+        "회사의 매출 영향 추정",
+        "대체 제품·지역 판매"
       ]
     },
     {
@@ -1455,7 +1524,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4713,17 +4782,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM( ARM +0.31% )은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
+        "Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "ARM 도움말: 지난 해 상대적으로 안정적인 수익 창출 추세 조사 ARM(ARM +0.02%)은 주로 독점 칩 설계에 대한 라이선스 및 로열티 징수를 통해 수익을 창출합니다.",
         "이는 코어 처리 장치(CPU) 설계, 시스템 지적 재산권 솔루션, 그래픽 처리 장치(GPU) 및 보조 소프트웨어 개발 도구를 개념화하고 엔지니어링하며 전 세계 원래 장비 제조업체에 라이선스를 부여합니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.31%, 7.6%, $ 235.55 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.02%, 7.6%, $ 234.86 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -4738,7 +4807,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.31%, 7.6%, $ 235.55 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 0.02%, 7.6%, $ 234.86 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -6462,7 +6531,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9380,7 +9449,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11404,7 +11473,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a53b55e33d985976ef4eb6f8ea67c228996a484c07513b7eb8e797b29e93df11",
         "publishedAt": 1788201060,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13486,7 +13555,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=70baeb7021b5df8dc2fd1be6503ca9357c2b4cadd56d90ec958e8b935a900c3f",
         "publishedAt": 1788165208,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15064,7 +15133,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=7c7d30418f174dc5e1357c5c66cdfd802fa6c1bb544f2f4c9bd57cf64c09523e",
         "publishedAt": 1787994001,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15472,7 +15541,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=90e5e71fbbd9c0375003e00188014b10e349c7bd1fde80a0deef05c2760df6b0",
         "publishedAt": 1787945400,
-        "collectedAt": 1788379224.672145
+        "collectedAt": 1788402001.3673806
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17288,73 +17357,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "99c63b2fbbbec623f124",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "LITE",
-      "relatedTickers": [
-        "LITE"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Lumentum Holdings Inc. (LITE) Presents at Deutsche Bank 2026 Technology Conference Transcript",
-      "headlineKo": "Lumentum Holdings Inc. (LITE), Deutsche Bank 2026 기술 컨퍼런스 성적 증명서 발표",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=2d35c07467d2b18a11a1079dcd354eb648db0b3fe12670670e680bd966f2c151",
-        "publishedAt": 1787850558,
-        "collectedAt": 1788392482.954526
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "(LITE) Presents at Deutsche Bank 2026 Technology Conference Transcript | Seeking Alpha SA Transcripts 162.06K Followers Follow Lumentum Holdings Inc.",
-        "( LITE ) Deutsche Bank 2026 Technology Conference August 27, 2026 1:45 PM EDT Company Participants Michael E.",
-        "Hurlston - President, CEO & Director Conference Call Participants Gianmarco Conti - Deutsche Bank AG, Research Division Presentation Gianmarco Conti Deutsche Bank AG, Research Division All right."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "LITE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "LITE에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "LITE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "LITE",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
     }
   ],
   "byTicker": {
@@ -17387,6 +17389,15 @@ const EVENT_DATA = {
       "1bfd3e95def9c94ccc03",
       "fd6f4c11637a7bd55bfd",
       "19b6f90ae2097a53bf3d"
+    ],
+    "CRM": [
+      "dbe6f0e9ec7cc7e862f5",
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442",
+      "1d5d318e3be777905f5c",
+      "25bc0168b90ac2fc9ffe",
+      "5d4d7592477eab90150c",
+      "bd6b87e4edf671f3f374"
     ],
     "ORCL": [
       "d59fd0b739e032f3e4bc",
@@ -17761,14 +17772,6 @@ const EVENT_DATA = {
       "b63fb9526fdee061881a",
       "da74a7e41dedaf796747"
     ],
-    "CRM": [
-      "6e5f3fd14d560d5d94da",
-      "218d3602bd588615b442",
-      "1d5d318e3be777905f5c",
-      "25bc0168b90ac2fc9ffe",
-      "5d4d7592477eab90150c",
-      "bd6b87e4edf671f3f374"
-    ],
     "MRVL": [
       "64a12357069e5865547f",
       "c89b54469e1b3165018a",
@@ -17871,8 +17874,7 @@ const EVENT_DATA = {
       "98d93926b229539e9fcc",
       "8171fc027b5cb3973775",
       "235959fa6b3d57be3284",
-      "978f127c1dcf179ad905",
-      "99c63b2fbbbec623f124"
+      "978f127c1dcf179ad905"
     ],
     "LRCX": [
       "0c459e3765f0ddc83390",

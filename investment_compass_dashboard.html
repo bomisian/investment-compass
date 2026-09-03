@@ -2572,6 +2572,18 @@ function buildAtAGlanceHtml(r){
   if(eps && eps.epsNow!=null && (eps.direction==='상향' || eps.direction==='하향')) lines.push(`최근 애널리스트 EPS 전망은 <b>${esc(eps.direction)}</b> 중이에요`);
   if(dc && !isRisk) lines.push(`최근 뉴스 체크: <b>${esc(DIR_LABEL[dc.tone]||dc.tone)}</b>`);
 
+  // 2026-09-03 추가: 사용자 피드백 - "01탭은 적정가 대비 저평가라는데 02탭은 PER이 3년 평균보다
+  // 높아서 고평가라고 나오면 초보자는 헷갈린다". 두 값 모두 맞는 계산이지만 기준(비교 대상)이
+  // 다름 - ①적정가 대비: 내년 예상 실적 기준 ②02탭 PER 괴리: 이 종목 자신의 최근 3년 평균 대비.
+  // 새 지표를 만들지 않고, 이미 계산돼 있는 두 값(fwd.mid vs peDeviation3Y)의 방향이 서로
+  // 반대일 때만 "왜 다르게 나오는지" 짧게 설명해줌 - 방향이 같으면 굳이 안 보여줌(불필요한 잡음 방지).
+  const perDev = r.peDeviation3Y;
+  const perDevSignal = perDev!=null ? (perDev>=15 ? 'high' : perDev<=-15 ? 'low' : null) : null;
+  const fairSignal = hasFwd ? (belowFair ? 'low' : 'high') : null;
+  const mismatchNote = (fairSignal && perDevSignal && fairSignal!==perDevSignal)
+    ? `<div class="sub" style="margin-top:8px;">ℹ️ 바로 위 '적정가 대비'는 <b>내년 예상 실적 기준</b> 계산이고, 02탭의 PER 비교는 <b>이 종목 자신의 최근 3년 평균</b>과 비교한 거예요 - 비교 기준이 서로 달라서 방향이 다르게 나올 수 있어요(계산이 틀린 게 아니에요). 자세한 건 02탭에서 확인하세요.</div>`
+    : '';
+
   const warnParts = [];
   if(isRisk) warnParts.push(`⚠️ 다만 최근 뉴스에 우려되는 부분이 있어요 - <span style="text-decoration:underline;cursor:pointer;" onclick="switchTab('${r.ticker}','06')">06 뉴스 탭에서 확인</span>`);
   if(isWeakSector) warnParts.push(`⚠️ 같은 그룹(${esc(rs.sector)}) 대비 최근 20일 크게 뒤처져 있어요 - 그룹이 같이 빠진 게 아니라 이 종목만 유독 빠진 상황일 수 있어요(자세히는 아래 '같은 그룹 대비'에서 확인)`);
@@ -2581,6 +2593,7 @@ function buildAtAGlanceHtml(r){
     <div class="glance-head" style="color:${TONE.color};">${TONE.head}</div>
     <div class="glance-line">${lines.join(' · ')}</div>
     ${warnHtml}
+    ${mismatchNote}
     <div class="sub" style="margin-top:8px;">※ 새 지표가 아니라 아래 자세한 지표들을 요약한 거예요 - 자세한 근거는 그대로 아래에 있어요.</div>
   </div>`;
 }
