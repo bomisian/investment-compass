@@ -1099,7 +1099,7 @@ const HINTS = {
   insiderAnalysis: "위 원본 거래 내역을 규칙대로 한 단계 더 분석한 거예요 - 같은 사람이 반복해서 팔았는지, 여러 명이 비슷한 시기에 같이 팔았는지, 총 매도금액이 얼마인지를 계산해서 '주의/관찰/특이 신호 없음' 3단계로 나눴어요. 확률을 새로 만든 게 아니라 이미 있는 매매 기록을 규칙대로 분류만 한 결과예요. '주의'도 그 자체로 매매 신호는 아니고, 반복·동시 매도가 있었다는 사실을 알려주는 참고 정보예요.",
   dataStatus: "펀더멘털·실적·뉴스·시그마 등 이 도구가 쓰는 데이터 소스 12개가 최근에 정상적으로 갱신됐는지 보여줘요. 파이프라인이 통째로 멈추는 심각한 경우는 이미 별도로 텔레그램 알림이 가고, 이건 그보다 가벼운 '특정 소스 하나만 최근에 실패했다' 같은 상황을 화면에서 바로 볼 수 있게 하는 참고용 표시예요.",
   fundamentalWindow: "SEC 공시(10-Q/10-K)의 매출·영업이익률이 전년 동기 대비 크게 바뀐 적이 있으면(매출 +10%↑ 또는 -5%↓, 영업이익률 ±2%p 이상), 그 공시일로부터 7일·30일·90일 동안만 점수에 반영돼요. 뉴스 감성이나 추정이 아니라 실제 공시된 숫자만 근거로 쓰고, 90일이 지나면 자동으로 빠져요. 매매 신호가 아니라 '최근에 확인된 펀더멘털 변화가 있었는지'만 보는 참고 지표예요.",
-  sigmaBand: "이번 주(옵션 만기까지) 옵션 시장이 내재변동성(IV)으로 암묵적으로 예상하는 가격 변동 범위예요. 현재가가 ±1σ 범위 안에 있으면 흔한 변동 폭 안이라는 뜻이고, ±2σ를 벗어나 있으면 옵션 시장 기준으로 이례적으로 크게 움직인 상태예요. 그 자체로 매수·매도 신호는 아니고, 지금 변동성이 평소보다 큰지 참고하는 지표예요. 옵션 거래가 얇은 종목은 신뢰할 만한 호가를 못 구해서 계산 자체가 안 될 수 있어요.",
+  sigmaBand: "이번 주(옵션 만기까지) 옵션 시장이 내재변동성(IV)으로 암묵적으로 예상하는 가격 변동 범위예요. 현재가가 ±1σ 범위 안에 있으면 흔한 변동 폭 안이라는 뜻이고, ±2σ를 벗어나 있으면 옵션 시장 기준으로 이례적으로 크게 움직인 상태예요. 그 자체로 매수·매도 신호는 아니고, 지금 변동성이 평소보다 큰지 참고하는 지표예요. 옵션 거래가 얇은 종목은 신뢰할 만한 호가를 못 구해서 계산 자체가 안 될 수 있어요. 'IV 스냅샷' 날짜는 이 계산에 쓴 옵션 호가를 실제로 가져온 시점이에요 - 만기일과 다를 수 있고(예: 며칠 전 스냅샷), 주간 기준 가격(anchor)은 보통 매주 초에 한 번 고정돼서 한 주 내내 유지돼요.",
   epsRevision: "이 종목의 예상 EPS(주당순이익)를 애널리스트들이 최근 7·30·90일 동안 올리는 중인지 내리는 중인지 보여줘요. 위 '예상 실적 컨센서스' 표는 지금 시점 숫자만 보여주는데, 이 카드는 그 숫자가 최근에 어느 방향으로 바뀌어왔는지를 따로 봐요. Alpha Vantage 무료 API 한도 때문에 관심종목 전체를 매일 갱신하지 못하고 며칠에 걸쳐 순환 갱신돼요(카드에 갱신일이 같이 표시돼요). 매매 신호가 아니라 참고용이에요.",
   sectorFlow: "반도체 그룹과 빅테크·소프트웨어 그룹이 각각 얼마나 움직였는지예요. '신호 승률'은 5년치 실데이터로 잰 그 그룹의 단타 신호 10일 승률이라, 어느 쪽에서 이 신호가 잘 통했는지를 알 수 있어요. 상관계수는 두 그룹이 얼마나 같이 움직이는지인데, 1에 가까우면 같이 움직이고 0에 가까우면 따로 움직여요.",
   relStrength: "이 종목이 최근 20일 동안 같은 그룹(반도체 15종목 / 빅테크·SW 9종목) 평균보다 얼마나 앞섰는지·뒤처졌는지예요. 5년치 검증에서 그룹보다 11%p 이상 뒤처진 상태의 신호는 전체 승률이 57%로 낮았어요(나머지 69%). 다만 그룹을 나눠 보면 빅테크·SW에서만 확실히 갈렸고(51% vs 60%) 반도체에서는 차이가 작아서(66% vs 70%), 반도체 종목에서는 참고 수준으로만 보세요.",
@@ -5431,7 +5431,9 @@ function dataQualityNotes(ticker, fund){
 // 관심종목 41개를 하루에 다 못 받아서 며칠에 걸쳐 순환 갱신되므로 갱신일을 같이 보여줌.
 function renderEpsRevision(ticker){
   const e = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
-  if(!e || e.epsNow == null) return '';
+  if(!e || e.epsNow == null){
+    return `<div class="sub" style="margin:10px 0;">EPS 컨센서스 최근 변화 방향: 아직 데이터가 없어요(수집 실패 또는 이 종목은 애널리스트 커버리지가 부족해 Alpha Vantage에서 조회가 안 될 수 있어요).</div>`;
+  }
   const arrow = {'상향':'▲','하향':'▼','보합':'－','혼조':'?','정보없음':''}[e.direction] || '';
   const color = e.direction==='상향' ? 'var(--up)' : (e.direction==='하향' ? 'var(--down)' : 'var(--sub)');
   const trail = [e.eps90d, e.eps60d, e.eps30d, e.epsNow].map(v=>v!=null?'$'+v.toFixed(2):'-').join(' → ');
@@ -5473,7 +5475,8 @@ function renderSigmaBand(ticker){
   const scoreLabel = s.sigmaScore!=null ? `${s.sigmaScore>=0?'+':''}${s.sigmaScore.toFixed(2)}σ` : '-';
   const attention = s.status === '관심';
   const statusColor = attention ? 'var(--down)' : 'var(--sub)';
-  return `<div class="sub" style="margin:10px 0 4px;">이번 주 예상 변동범위(옵션 IV 기준${s.expirationDate?', '+esc(s.expirationDate)+' 만기':''}) ${hintIcon('sigmaBand')}</div>
+  const ivAsOfLabel = s.ivAsOf ? ` · IV 스냅샷 ${esc(String(s.ivAsOf).slice(0,10))}` : '';
+  return `<div class="sub" style="margin:10px 0 4px;">이번 주 예상 변동범위(옵션 IV 기준${s.expirationDate?', '+esc(s.expirationDate)+' 만기':''}${ivAsOfLabel}) ${hintIcon('sigmaBand')}</div>
     <div class="fund-row"><span>±1σ 범위</span><span class="v">${fmt(s.lower1Sigma)} ~ ${fmt(s.upper1Sigma)}</span></div>
     <div class="fund-row"><span>±2σ 범위</span><span class="v">${fmt(s.lower2Sigma)} ~ ${fmt(s.upper2Sigma)}</span></div>
     <div class="fund-row"><span>현재 위치</span><span class="v" style="color:${statusColor};">${scoreLabel}${attention ? ' · 평소보다 크게 움직인 상태' : ''}</span></div>`;
@@ -5533,7 +5536,7 @@ function renderBusinessNotes(ticker){
       </div>
     </div>
     <div class="sub" style="margin-top:8px;">
-      <b>최종 확인일: ${esc(n.updated)}</b> - Claude가 웹검색으로 조사해 작성한 정성적 요약이라 최신 소식이 반영 안 됐을 수 있어요. 자동 갱신되지 않으니 오래돼 보이면 다시 요청해서 갱신하세요.
+      <b>최종 확인일: ${esc(n.updated)}</b>${staleBadgeHtml(n.updated, true)} - Claude가 웹검색으로 조사해 작성한 정성적 요약이라 최신 소식이 반영 안 됐을 수 있어요. 자동 갱신되지 않으니 오래돼 보이면 다시 요청해서 갱신하세요.
       ${srcLinks ? `<details style="margin-top:4px;"><summary style="cursor:pointer;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;">${srcLinks}</ul></details>` : ''}
     </div>
     <hr style="margin:16px 0;border:none;border-top:1px solid var(--line);">`;
@@ -5588,20 +5591,33 @@ function autoSignalNoteHtml(ticker){
     ${causeTxt}
   </div>`;
 }
+function daysAgoFromDateStr(dateStr){
+  try{
+    const d = new Date(String(dateStr) + 'T00:00:00Z');
+    const days = Math.floor((Date.now() - d.getTime()) / 86400000);
+    return isNaN(days) ? null : days;
+  }catch(e){ return null; }
+}
+function staleBadgeHtml(dateStr, isLatest){
+  const days = daysAgoFromDateStr(dateStr);
+  if(days == null) return '';
+  if(isLatest && days >= 30) return ` · <span style="color:var(--warn);font-weight:700;">⚠️ 작성 후 ${days}일 경과 - 재검토 권장</span>`;
+  return ` · <span class="sub" style="font-weight:400;">${days}일 전</span>`;
+}
 function renderAnalystLog(ticker){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
   const log = n && n.analystLog;
   if(!log || !log.length){
     return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(QQQ·SPY 같은 ETF는 대상이 아니에요). 필요하면 요청해서 추가할 수 있어요.</div>${autoSignalNoteHtml(ticker)}`;
   }
-  const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map(e=>{
+  const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map((e,idx)=>{
     const srcLinks = (e.sources||[]).map(s=>{
       const safe = /^https?:\/\//i.test(s.url||'') ? s.url : null;
       return safe ? `<li><a href="${esc(safe)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.title)}</a></li>` : '';
     }).join('');
     return `
       <div class="fund-col" style="margin-top:10px;">
-        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b> · ${esc(e.period)}</div>
+        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b> · ${esc(e.period)}${staleBadgeHtml(e.date, idx===0)}</div>
         <div style="font-size:12.5px;line-height:1.7;">
           <b>헤드라인 숫자</b> — ${e.headline}<br>
           <b style="color:var(--warn);">⚠️ 1회성 항목 체크</b> — ${e.oneTime}<br>
@@ -5735,7 +5751,7 @@ function renderViewLog(ticker){
     const li = arr => (arr||[]).map(x=>`<li>${x}</li>`).join('');
     return `
       <div class="fund-col" style="margin-top:10px;${idx===0?'border-left:3px solid var(--accent);padding-left:10px;':''}">
-        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)} 작성</b>${idx===0?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}</div>
+        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)} 작성</b>${idx===0?' · <span style="color:var(--accent);font-weight:700;">최신</span>':''}${staleBadgeHtml(e.date, idx===0)}</div>
         <div style="font-size:14px;font-weight:700;margin-bottom:6px;">${e.headline}</div>
         <div style="font-size:12.5px;line-height:1.75;margin-bottom:8px;">${e.view}</div>
         <div class="fund-grid">
@@ -6409,9 +6425,13 @@ function bindFinChartClick(canvas, data){
   };
   canvas.style.cursor = 'pointer';
 }
+function normalizeAnnualFcf(annual){
+  (annual||[]).forEach(a=>{ if(typeof a.ocf==='number' && typeof a.capex==='number') a.fcf = a.ocf - Math.abs(a.capex); });
+  return annual;
+}
 function tabFinancials(r){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
-  const annual = fin?.annual || [];
+  const annual = normalizeAnnualFcf(fin?.annual || []);
   if(!annual.length){
     return ttmFallbackHtml(r);
   }
@@ -6452,7 +6472,7 @@ function tabFinancials(r){
 }
 function setupFinancialsChart(ticker){
   const fin = FINANCIALS_DATA[ticker];
-  const annual = fin?.annual || [];
+  const annual = normalizeAnnualFcf(fin?.annual || []);
   if(!annual.length) return;
   const incomeCanvas = document.getElementById('finIncomeCanvas');
   const cfCanvas = document.getElementById('finCfCanvas');
