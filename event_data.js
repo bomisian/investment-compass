@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788516999.8269198,
+  "generatedAt": 1788518878.6357417,
   "events": [
     {
       "id": "3b0f62bb79f7a275b575",
@@ -238,6 +238,104 @@ const EVENT_DATA = {
         "신규 주식 수·행사가격",
         "조달 자금 사용처",
         "완전희석 주식수와 EPS"
+      ]
+    },
+    {
+      "id": "d79a8daa76dde3162513",
+      "schemaVersion": 1,
+      "eventType": "supply_chain",
+      "eventLabel": "공급망 문제",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "MU",
+        "QCOM",
+        "WDC"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기 비용 부담 / 출시 후 수요 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100",
+      "headlineKo": "Apple 메모리 비용 400% 상승, iPhone 18 Pro 가격 100달러 상승 가능",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b0dddeca1009928774a28a221d266e1f13a5640e1ab2e232491e33fecb518085",
+        "publishedAt": 1788496678,
+        "collectedAt": 1788518844.4283063
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+        "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
+        "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+      ],
+      "marketInterpretation": [
+        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AAPL의 사업과 관련된 'Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+        "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+        "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+      ],
+      "whyItMatters": [
+        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "혼합",
+          "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "메모리 ASP와 이익률 개선 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "WDC",
+          "direction": "긍정",
+          "reason": "메모리·스토리지 가격 강세 수혜 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "QCOM",
+          "direction": "중립·확인",
+          "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "iPhone 18 실제 출고가·사전예약",
+        "애플 아이폰 출하량과 제품 믹스",
+        "메모리 현물·계약 가격",
+        "AAPL 매출총이익률과 MU/WDC 가이던스"
       ]
     },
     {
@@ -1872,6 +1970,7 @@ const EVENT_DATA = {
       "primaryTicker": "AMAT",
       "relatedTickers": [
         "AMAT",
+        "QQQ",
         "SPY"
       ],
       "relatedEntities": [],
@@ -1892,17 +1991,17 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49291445a910a64dff658f6c375ffbb74e26d4e247e1d1cfe53c0adf46afcb6a",
         "publishedAt": 1788470093,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
-        "| Trefis Applied Materials(AMAT) 주식은 지난 1년 동안 약 180%의 수익률을 올렸으며, S&P 500의 약 5분의 1 수익률을 기록했습니다.",
-        "후행 수익에는 그런 것이 없습니다."
+        "| Trefis Applied Materials 주가가 한 자릿수 후행 수익 성장에서 거의 3배나 증가한 이유는 무엇입니까?",
+        "2026년 9월 3일 · Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% AMAT 분석 → Applied Materials(AMAT) 주식은 S&P 500의 약 5분의 1에 비해 지난 1년 동안 약 180%의 수익률을 기록했습니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 180%, 7.8%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 70.2%, 13.7%, 17.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "aiInference": [
@@ -1917,7 +2016,7 @@ const EVENT_DATA = {
       ],
       "whyItMatters": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 180%, 7.8%, 20% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "이번 기사에서 확인된 구체적 수치: 70.2%, 13.7%, 17.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
         "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
@@ -2621,7 +2720,7 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -2629,7 +2728,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
+      "expectedHorizon": "단기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
@@ -2638,46 +2737,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
         "publishedAt": 1788457675,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Apple faces £2 bn lawsuit in UK over app privacy feature",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면"
       ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "이 기사는 AAPL의 사업과 관련된 'Apple faces £2 bn lawsuit in UK over app privacy feature' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "AAPL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "risk",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
+      "watch": []
     },
     {
       "id": "6fbdc1664f9422be410b",
@@ -4680,7 +4767,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
         "publishedAt": 1788443718,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5426,7 +5513,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
         "publishedAt": 1788440638,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8175,7 +8262,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b58667a6474fcee5cfd88598166841eb9e2f7dfad86491bc0555454d88ee979a",
         "publishedAt": 1788381206,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8612,7 +8699,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c1ea91f450e7cafd6ed6c51b2713de374166a2ca146f126b38d4050507ef317e",
         "publishedAt": 1788376800,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8674,7 +8761,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c6c0c5437b9506db8713b53dcc20ad94e43d7f2bffb33d7d45f614ffe5c4aa29",
         "publishedAt": 1788376149,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10210,7 +10297,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e2e11237e8c00fc0b86bed0b9caa99edc76fe23e781578a510a7b58c3fc1817",
         "publishedAt": 1788359363,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10360,7 +10447,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0a6c608189033e6f6c556545d32fd7d962026bd302223ecad40d4ecea3d8242",
         "publishedAt": 1788359137,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12462,7 +12549,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5e9cf7661d15f873fa05ed31caef7ac055d8ac9497816dd1916c155a9e296d6a",
         "publishedAt": 1788319010,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13493,7 +13580,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0d0fa081d258806db0b2c220e75bc4f240fc571c3b4b39d1cbf5e7f7527379a9",
         "publishedAt": 1788292404,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13720,7 +13807,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6dec1da8d8f0d2c53deb4b6a4d56130695ec1ecacda4749599c17b318b3b697a",
         "publishedAt": 1788290100,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13959,7 +14046,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=29ed8151fdc1d523f65757d242496f87efe1f39bfea30fbdc9c4adc29046e8df",
         "publishedAt": 1788289111,
-        "collectedAt": 1788495960.92005
+        "collectedAt": 1788518844.4283063
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17680,74 +17767,12 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "b3bbb76f44b420a36c3c",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "GOOGL",
-      "relatedTickers": [
-        "GOOGL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Google",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Fervo Energy Stock Jumps 24% After Google Signs Utah Geothermal Power Deal",
-      "headlineKo": "Google이 유타 지열 발전 계약을 체결한 후 Fervo Energy 주가가 24% 상승했습니다.",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=5d06f42dff4c616b8cdc3f566d32028e83bd87ccec4107a9811a97d668e327e9",
-        "publishedAt": 1788258706,
-        "collectedAt": 1788503399.4025524
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Google이 유타 지열 발전 계약을 체결한 후 Fervo Energy 주가가 24% 상승했습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "GOOGL",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
     "MU": [
       "3b0f62bb79f7a275b575",
+      "d79a8daa76dde3162513",
       "8a06286de161b53c7adf",
       "203ac7ae778c438d1109",
       "a679944bf3f827b85f28",
@@ -17946,8 +17971,7 @@ const EVENT_DATA = {
       "d0a189fca84ff4a89328",
       "0a0fd6abc3bfe250f1d3",
       "0d6d27f9be543a9f41f0",
-      "e0a78f9ed708066cb097",
-      "b3bbb76f44b420a36c3c"
+      "e0a78f9ed708066cb097"
     ],
     "MSFT": [
       "e4814d4b7067690f2446",
@@ -17976,6 +18000,7 @@ const EVENT_DATA = {
       "b1d7f34226d92a8c05bb",
       "ac9b4f817e3ee70d3430",
       "6adde239438c720992f8",
+      "54f5fa17bba83a058e79",
       "59c241266885f400538e",
       "58af2c520afb1464cd73",
       "882df5b08fb64b8a134c",
@@ -18086,6 +18111,32 @@ const EVENT_DATA = {
       "e144c536c0f8e5ffcefa",
       "9b609fa951a5397d050a",
       "e56e56cabafdba720a43"
+    ],
+    "AAPL": [
+      "d79a8daa76dde3162513",
+      "f190ccf52523b3f92b90",
+      "2825dc12fa38e7bc86df",
+      "c5efd581b708dd2ede88",
+      "aeb6f0acff729cea07c9",
+      "42c15f4f17ea94e5d18f",
+      "8d06174147545bcdc4cf",
+      "9edc6bd37fd15af1ebc7",
+      "6e579d028458c17a9586",
+      "f5a4ac9ec2cf9aeff842",
+      "4771c7405feee78cc629",
+      "7160f861c2eabe939843",
+      "98c0ee73ffcdabec5271",
+      "25bc0168b90ac2fc9ffe"
+    ],
+    "QCOM": [
+      "d79a8daa76dde3162513",
+      "d9142ee2620634fda8d4",
+      "4771c7405feee78cc629",
+      "98c0ee73ffcdabec5271"
+    ],
+    "WDC": [
+      "d79a8daa76dde3162513",
+      "4771c7405feee78cc629"
     ],
     "AMD": [
       "8a06286de161b53c7adf",
@@ -18267,26 +18318,6 @@ const EVENT_DATA = {
       "54f5fa17bba83a058e79",
       "be886586317106dbfc23"
     ],
-    "QCOM": [
-      "d9142ee2620634fda8d4",
-      "4771c7405feee78cc629",
-      "98c0ee73ffcdabec5271"
-    ],
-    "AAPL": [
-      "f190ccf52523b3f92b90",
-      "2825dc12fa38e7bc86df",
-      "c5efd581b708dd2ede88",
-      "aeb6f0acff729cea07c9",
-      "42c15f4f17ea94e5d18f",
-      "8d06174147545bcdc4cf",
-      "9edc6bd37fd15af1ebc7",
-      "6e579d028458c17a9586",
-      "f5a4ac9ec2cf9aeff842",
-      "4771c7405feee78cc629",
-      "7160f861c2eabe939843",
-      "98c0ee73ffcdabec5271",
-      "25bc0168b90ac2fc9ffe"
-    ],
     "ARM": [
       "985cf39f300a74ad5e01",
       "49a367f7507f259b1ae9"
@@ -18330,9 +18361,6 @@ const EVENT_DATA = {
     "FIX": [
       "8b06659042eb85e02bbb",
       "c52a349a2c43da2fb76d"
-    ],
-    "WDC": [
-      "4771c7405feee78cc629"
     ],
     "LITE": [
       "98d93926b229539e9fcc",
