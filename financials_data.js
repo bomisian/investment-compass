@@ -3931,16 +3931,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788480882.4275718,
-    "_updated_label": "2026-09-04 09:14"
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788480882.4275718,
-    "_updated_label": "2026-09-04 09:14"
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46"
   },
   "ORCL": {
     "annual": [
@@ -6939,10 +6939,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788480002.3661964,
-    "_updated_label": "2026-09-04 09:00",
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46",
     "_data_quality_version": 3,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -6967,10 +6967,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788480057.0080864,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1788480882.4275718
+    "_yahoo_verified_at": 1788482784.6602056,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
     "annual": [
@@ -7262,10 +7260,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788479045.45588,
-    "_updated_label": "2026-09-04 08:44",
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46",
     "_data_quality_version": 3,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -7290,10 +7288,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788479059.1634417,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1788480882.4275718
+    "_yahoo_verified_at": 1788482784.6602056,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
     "annual": [
@@ -10614,10 +10610,10 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788480002.3661964,
-    "_updated_label": "2026-09-04 09:00",
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46",
     "_data_quality_version": 3,
-    "_collection_status": "error",
+    "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
         "endDate": "2025-06-30",
@@ -10642,10 +10638,8 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788480057.0080864,
-    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완",
-    "_collection_error": "The read operation timed out",
-    "_last_attempt_at": 1788480882.4275718
+    "_yahoo_verified_at": 1788482784.6602056,
+    "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
     "annual": [
@@ -11383,13 +11377,13 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788480882.4275718,
-    "_updated_label": "2026-09-04 09:15",
+    "_fetched_at": 1788482765.1475832,
+    "_updated_label": "2026-09-04 09:46",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788480953.9760163
+    "_yahoo_verified_at": 1788482784.6602056
   },
   "MOD": {
     "annual": [
