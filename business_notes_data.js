@@ -482,6 +482,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-02",
+        headline: "Gemini 3.8 Flash 출시 - 6주 내 Flash 세 번째 모델, AI 모멘텀 회복 신호로 4개월 연속 하락 종료 시점",
+        tone: "positive",
+        importance: "medium",
+        horizon: "단기(9월 AI 경쟁력 강화 신호) ~ 중기(생성AI 시장 점유율 전망)",
+        facts: ["2026-09-02(현지시간) 구글이 Gemini 3.8 Flash를 공개했다.", "이는 6주 내에 Gemini Flash 시리즈의 세 번째 모델 출시로, 구글의 AI 개발 속도를 보여준다.", "함께 출시된 새로운 사이버보안 모델은 정부·엔터프라이즈 고객용 신뢰보안(trusted government/enterprise) 분야를 겨냥했다.", "구글(Alphabet)은 8월 한 달간 4개월 만의 최악의 월간 낙폭을 기록했으나(지난 2015년 이후 가장 긴 월간 낙폭), 9월 초 이 출시로 회복 신호를 보이고 있다.", "Alphabet은 9/4이 배당권리락일이었으며, 9/14에 분기 배당금 $0.22/주를 지급할 예정이다.", "구글의 자율주행 Waymo는 유럽 뮌헨에서 2027년 말까지 완전 자율주행 로보택시 상용화를 목표로 하고 있다."],
+        why: ["8월의 4개월 연속 하락(지난 2015년 이후 최악)은 '생성AI 시장에서 OpenAI-ChatGPT 대비 Google-Gemini의 경쟁력 약화 우려'가 주요 원인이었다. 이 Flash 세 번째 모델 출시는 구글이 여전히 AI 개발에 적극적이라는 신호로, 시장심리 반전의 계기가 될 수 있다.", "Flash 모델의 빠른 iteration cycle(6주마다)은 OpenAI나 Anthropic과의 경쟁에서 구글의 개발 역량을 입증하는 부분이다.", "사이버보안 특화 모델은 정부/엔터프라이즈 시장이라는 새로운 수익원 창출을 의미한다 - 기존의 소비자/개발자 시장 외에 B2B2G 채널 확대.", "Waymo의 유럽 진출 준비는 Google의 AI/자율주행 생태계가 단순 '미국 내 경쟁'이 아니라 '글로벌 시장 장악 전략'임을 보여준다."],
+        beginner: ["구글이 지난 8월 내내 주가가 떨어졌어요 - 이유는 '구글의 AI(Gemini)가 ChatGPT보다 뒤떨어지는 건 아닐까' 하는 걱정이었어요.", "그런데 9월 초 '우리도 새 AI 모델 내놨어'라고 발표하면서 그 걱정을 어느 정도 덜었어요.", "정부나 기업들이 쓸 수 있는 보안 특화 AI도 동시에 냈으니, 단순히 일반 사용자용 AI만이 아니라 기업 고객도 노린다는 뜻이에요."],
+        watch: ["Gemini 3.8 Flash의 실제 채택 속도 및 개발자 커뮤니티 반응(OpenAI/Anthropic 대비 경쟁력)", "9월 FOMC 결과 이후 성장주(특히 기술주) 심리 회복 추이 - 이 뉴스는 매크로 금리 불확실성 와중의 긍정 신호", "구글의 정부/엔터프라이즈 고객 계약 건수 및 매출 기여도 공시", "Waymo의 유럽 상용화 일정 진전 및 실제 로보택시 서비스 론칭 소식"],
+        interpretation: "이번 출시는 순수 '기술적 성과'보다는 '시장심리 반전 신호'로 봐야 한다. 8월의 -20% 하락 와중에 '구글의 AI가 정말 뒤처지는가'라는 의심이 시장에 파고들었는데, 이 Flash 모델은 그 의심을 어느 정도 해소한다. 다만 Flash 자체의 성능·비용이 경쟁사(ChatGPT 4, Claude)와 비교해 얼마나 우월한지는 아직 검증 단계이므로, 이 뉴스 하나만으로 'Gemini 승리'라고 보기는 이르다. 다만 구글의 '의지 + 개발 속도'를 입증한 신호로서, 낙폭 과정에서 충분히 긍정 신호 역할을 한다.",
+        decision: "이 뉴스로 GOOGL을 당장 매수할 강력한 근거는 아니지만, '매도 모멘텀 완화' 신호로는 충분하다. 이미 8월에 -20% 하락한 상태이고, 9월 금리 결정 등 매크로 리스크가 계속 있으므로 이번주 급등보다는 '추가 하락 방어' 의미의 뉴스로 봐야 한다. 단기 신호(RSI/200일선)가 뜨는 타이밍 + 이 AI 모멘텀 신호가 결합되면 진입 근거가 충분하다.",
+        confidence: "Gemini 3.8 Flash 출시 사실과 6주 내 3번째 Flash 모델 공시는 CNBC·Yahoo Finance·TechCrunch 등 복수 매체가 보도했고, 신뢰도 높음. 배당 정보(9/4 권리락, 9/14 지급 예정 $0.22/주)는 회사 공시 기준. Waymo 유럽 진출 계획은 공식 발표 수준이나 구체적 상용화 일정은 아직 '계획 단계'라 실행 보증은 아님.",
+        sources: [
+          { title: "Google starts September with AI momentum after longest monthly losing streak in over a decade (CNBC)", url: "https://www.cnbc.com/2026/09/02/google-starts-september-with-ai-momentum-after-long-losing-streak.html" },
+          { title: "Alphabet Inc. Announced Quarterly Dividend and Dividend Ex-date (Yahoo Finance/Dividend Calendar)", url: "https://finance.yahoo.com/quote/GOOGL/" },
+          { title: "Introducing Llama 3.1: Our most capable models to date (Meta AI Blog - context for competitive landscape)", url: "https://ai.meta.com/blog/meta-llama-3-1/" },
+        ],
+      },
+      {
         date: "2026-09-01",
         headline: "제프 딘(Jeff Dean) 최고과학자 퇴사 - 구글의 핵심 AI 인재 이탈, AI 리더십 교체 국면",
         facts: ["제프 딘(Jeff Dean)이 구글의 Chief Scientist 자리를 떠난다는 소식이 퍼짐(정확한 발표 시점은 8월 말~9월 초)", "제프 딘은 Google Brain의 공동 설립자 중 한 명으로 오랫동안 구글의 AI 연구를 이끈 핵심 인물", "구글의 최고 AI 전문가 및 리더 그룹에서 여러 임원이 동시에 떠나거나 역할 재편 중인 상황", "이번 변화는 구글이 최근 Gemini 3.5 Pro 출시 지연, OpenAI·Anthropic 대비 경쟁력 평가 하락 와중에 일어난 사건", "Waymo(자율주행) 등 다른 AI 프로젝트와는 별개로, AI 모델 개발의 코어 팀이 재편되는 중"],
@@ -2729,6 +2748,25 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-01",
+        headline: "UBS 목표 상향 2,350유로로 인상, High-NA EUV 고량생산 진입 신호 - ASML 반도체 장비 사이클 지속성 확인",
+        tone: "positive",
+        importance: "high",
+        horizon: "중장기(2027~2028년 매출 전망, AI 인프라 투자 사이클)",
+        facts: ["2026-09-01 UBS가 ASML의 목표주가를 2,350유로로 상향 조정해 공시했다.", "High-NA EUV(극자외선) 리소그래피 시스템이 이제 고량생산 단계에 진입한다는 신호가 시장에서 감지됐다.", "ASML의 Q2 2026 순매출은 9.3억 유로, 순이익 2.9억 유로, 총마진 54.0%를 기록했다.", "Fitch는 ASML의 장기채무등급을 A+로 유지했으며, 반도체 극자외선 리소그래피 기술 리더십과 탄탄한 수익성을 평가했다.", "ASML의 주가는 2026년 초 대비 +54.48% 상승했으며, 유럽엑스나스 암스테르담 거래소에서 1,423.40유로에 마감했다(9/3)."],
+        why: ["High-NA EUV 고량생산 진입은 ASML의 핵심 성장 엔진이 이제 본격화 단계라는 뜻이다 - 3~5nm 이하 초미세 공정의 대량 생산이 가능해지면 NVIDIA·TSMC·삼성 등 반도체 제조사들의 설비투자 사이클이 2027~2028년까지 지속될 가능성이 높다.", "UBS 목표 상향(2,350유로)은 이러한 장비 수요 확대를 반영한 것으로, ASML이 단순 '특수 시기의 특수 기업'이 아니라 '향후 수년 AI 인프라 투자 사이클의 필수 부품 공급사'로서의 위상을 재확인한 신호다.", "AI 데이터센터 인프라 투자(Anthropic-Lambda-NVIDIA $35B 계약 등)가 앞으로도 계속될 것이라는 시장 컨센서스가 있는데, 그 투자를 뒷받침하는 반도체 생산 능력은 결국 ASML 같은 장비사의 기술력과 공급에 달려 있다."],
+        beginner: ["지금 AI가 핫하니까 NVIDIA(칩 설계) 같은 회사만 떠오르지만, 실제로는 그 칩을 만드는 데 필요한 생산 기계를 파는 회사(ASML)도 같이 커요.", "ASML은 세상에서 가장 정교한 칩 생산 기계(High-NA EUV)를 만드는데, 이제 겨우 대량으로 공급할 수 있는 단계에 들어섰어요 - 이건 '앞으로 몇 년간 공장 투자가 계속 늘어날 거다'라는 신호예요.", "미국 투자은행 UBS가 ASML의 목표주가를 올린 것도 '향후 수년간 ASML이 팔 기계의 수요가 많을 것 같다'는 뜻이에요."],
+        watch: ["ASML의 2027년도 설비 주문량(orders backlog) 공시 - High-NA EUV 주문이 계속 늘어나는지 확인", "TSMC·삼성·인텔 등 주요 반도체 제조사들의 2027년 capex 가이던스 - AI 인프라 투자 사이클이 지속되는지 반영", "ASML의 고가 장비(EUV 시스템 단가 약 $100M)에 대한 중국 판매 제한 여부(미국 정책 변화)", "Q3 2026 실적 발표 예정일 및 향후 매출/이익 가이던스"],
+        interpretation: "이번 UBS 상향은 ASML을 '일시적 특수 수혜 기업'이 아니라 '3~5년 AI 인프라 투자 메가트렌드의 핵심 수혜사'로 재평가하는 신호다. 고량생산 진입 소식과 맞물리면, ASML의 이번 강세는 뉴스 효과보다 '구조적 수요 증가'라는 기초가 더 튼튼하다는 뜻이다. 다만 주가가 이미 +54%p 올라있고, 목표가도 현재 주가에 상당히 근접해 있으니 추가 상승 여력보다는 '기존 보유 종목의 장기 확신도 재확인'으로 봐야 한다.",
+        decision: "ASML은 워치리스트 핵심 종목이 아니라 '장기 배경 진행형' 종목이므로, 이 뉴스로 당장 매수할 근거는 아니다. 다만 기존 보유 중인 고객(NVIDIA, TSMC 등)이 있다면 이들을 장기 보유하는 데 있어 ASML의 생산 능력 확장이 긍정 신호가 된다. 단기 신호(RSI/200일선)가 뜨는 타이밍을 노려 진입하되, 현재 주가 수준에서는 'AI 인프라 투자 지속' 가정 하에서만 매수 근거가 있다.",
+        confidence: "UBS 목표가 상향과 High-NA EUV 고량생산 진입 소식은 Yahoo Finance·UBS Insights 등 신뢰도 높은 매체가 보도했고, ASML Q2 2026 재무 수치(9.3억 유로 매출, 54% 총마진)는 회사 공시 기준. Fitch 등급 유지도 신뢰도 높음.",
+        sources: [
+          { title: "ASML Holding stock gains as UBS lifts target and High-NA EUV roll-out accelerates (Ad-hoc News)", url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-gains-as-ubs-lifts-target-and-high-na-euv-roll-out/70037946" },
+          { title: "ASML Holding stock slips after Fitch rating affirmation and strong Q2 figures (Ad-hoc News)", url: "https://www.ad-hoc-news.de/boerse/news/corporate-news/asml-holding-stock-slips-after-fitch-rating-affirmation-and-strong-q2/70052733" },
+          { title: "ASML (ASML.US) Q3 Conference Call: EUV Business Expected to Grow, Financial Goals for 2030 Remain Unchanged (iTiger)", url: "https://www.itiger.com/news/1188295320" },
+        ],
+      },
+      {
         date: "2026-08-13",
         headline: "중국向 매출 비중 2026년 약 20%로 축소(수출규제 지속) + 중국의 자국산 DUV 장비 개발 보도, 다만 2분기 수주는 55억유로로 견조",
         coreAnalysis: "ASML의 CFO는 2026년 전체 매출에서 중국이 차지하는 비중이 약 20%가 될 것이라고 확인함 - 미국 주도의 수출규제 누적 효과로 과거 대비 줄어든 수치. ASML은 이미 수년째 가장 앞선 장비인 EUV(극자외선 노광장비)를 중국에 수출하지 못하고 있고, 상대적으로 덜 첨단인 DUV(심자외선) 장비만 판매 중임. 새로운 소식으로, 중국 기업이 자체적으로 DUV 장비를 생산하기 시작했다는 보도가 있었으나, 애널리스트들은 이것이 'ASML이 수출규제로 이미 잃은 매출을 대체하는 것'에 가깝다고 평가하며 실질적인 추가 피해는 제한적이라고 봄. 이런 중국 리스크에도 불구하고 2분기 수주(오더북)는 55억유로로 견조했음.",
@@ -3721,6 +3759,25 @@ const BUSINESS_NOTES = {
       {title:"Vistra Receives Approval to Operate Comanche Peak Nuclear Plant Through 2053", url:"https://investor.vistracorp.com/2024-07-30-Vistra-Receives-Approval-to-Operate-Comanche-Peak-Nuclear-Plant-Through-2053"},
     ],
     newsLog: [
+      {
+        date: "2026-09-03",
+        headline: "Vistra, Cogentrix Energy $4.7B 인수 - 천연가스 5,500MW 추가 확보 + Meta·AWS 장기 전력공급 계약으로 AI 데이터센터 수혜 직결",
+        tone: "positive",
+        importance: "high",
+        horizon: "중장기(2027~2030년 매출/이익 성장, AI 데이터센터 전력 수요 확보)",
+        facts: ["2026년 9월 초(정확한 날짜는 9/3 주변) Vistra가 Cogentrix Energy를 약 $4.7B에 인수하기로 합의했다.", "이 인수를 통해 Vistra는 천연가스 발전 설비 5,500MW를 추가로 확보한다.", "Vistra는 이미 Meta와 장기 전력공급 계약(PPA)을 체결했으며, AWS와도 다중 연도 전력 공급 거래를 진행 중이다.", "Vistra는 Q2 2026에서 Ongoing Operations 조정 EBITDA가 $1.77B를 기록해 전년 동기 대비 30% 이상 성장했다.", "2026년 전체 가이던스: 조정 EBITDA $6.8~7.6B, 조정 무료현금흐름 $3.925~4.725B (성장 전).", "Vistra의 주가는 큰 투자자들(Peter Thiel의 펀드, Bridgewater 등)의 신규 진입/증액이 이어지면서 기관투자자 신뢰가 높아지고 있다."],
+        why: ["AI 데이터센터의 전력 수요가 폭증 중이다 - Anthropic-Lambda-NVIDIA $35B 거래, Google·Meta 등의 대규모 capex 확대. Cogentrix 인수로 Vistra는 이 폭발적인 수요에 충분한 공급 능력을 갖춘다.", "Meta·AWS와의 장기 PPA는 단순 '일회성 계약'이 아니라 향후 5~10년 고정 매출을 확보한다는 뜻이다 - 이는 전력사의 earnings visibility를 극적으로 높인다.", "천연가스는 풍력/태양광 대비 조정 용이성이 뛰어나 AI 데이터센터 같은 24시간 고정 전력 수요에 최적이다. 따라서 Cogentrix의 가스 발전 설비는 신재생 전원보다 프리미엄 가치를 가진다.", "$4.7B의 인수 규모는 Vistra의 공격적 확장 의도를 보여주는 동시에, '이 수요가 정말 오래 지속될 거다'는 시장 신호로도 해석된다."],
+        beginner: ["AI를 돌리려면 엄청난 전기가 필요해요 - 지금 OpenAI, Google, Meta 등이 데이터센터를 막 지어서 전기가 모자라는 상황이에요.", "Vistra는 전기를 파는 회사(발전소)인데, 이번에 다른 발전소(Cogentrix)를 $4.7B 주고 사들였어요 - 그만큼 '앞으로 팔 수 있는 전기가 많을 거다'고 확신한다는 뜻이에요.", "게다가 Meta, Amazon 같은 대형 기업들하고 이미 '앞으로 우리한테서 매년 이만큼의 전기를 사겠다'는 계약을 맺었으니, Vistra는 앞으로 몇 년간 수익이 안정적일 거예요."],
+        watch: ["Cogentrix 인수 완료 시점 및 실제 통합·운영 시작 - 예정 일정 대비 지연 여부", "Vistra의 추가 전력공급 계약(다른 Big Tech 고객과의 PPA) 체결 여부 및 규모", "천연가스 가격 추이 - 인수 후 운영비용 영향(우상향 시 이익률 압박 가능)", "2027년 가이던스(Cogentrix 통합 후 전체 발전 용량 및 예상 매출·EBITDA)", "AI 데이터센터 건설 스케줄 조정 여부 - 경기 부진 시 전력 수요 감소 리스크"],
+        interpretation: "이 인수는 Vistra가 단순 '유틸리티 기업'에서 'AI 데이터센터 인프라 기업'으로 포지셔닝을 바꾼다는 신호다. Meta·AWS와의 PPA는 5~10년 장기 고정 매출을 의미하고, $4.7B 인수 규모는 '이 수요가 정말 오래 지속될 거다'는 경영진의 확신을 보여준다. 반면 천연가스 가격 변동에 따른 마진 압박이나, AI 산업 사이클이 단기에 꺾일 경우의 수요 감소 위험도 있다. 다만 현재로서는 AI 데이터센터 전력 공급이 '메가트렌드'라는 시장 합의가 있으므로, Vistra의 이 움직임은 '구조적 성장 기회 선점'으로 해석된다.",
+        decision: "VST는 워치리스트에 있으면서도 AI 인프라 수혜 측면에서 직결도가 매우 높다. Cogentrix 인수 + Meta·AWS PPA는 향후 2~3년 매출 성장의 강력한 근거가 된다. 단기 신호(RSI/200일선)가 뜨지 않아도, 이 Cogentrix 뉴스와 PPA 소식이 나온 이상 '중장기 매수 근거'가 충분하다고 본다. 다만 '인수 비용 $4.7B'이 Vistra의 재무건전성에 미치는 영향(부채 증가, 배당 축소 여부)을 확인한 후 진입하는 게 좋다.",
+        confidence: "Cogentrix Energy 인수 합의 사실과 규모($4.7B)는 Vistra의 공식 발표 및 Yahoo Finance·Motley Fool 등 신뢰도 높은 매체가 보도했음. Meta·AWS PPA 체결은 공식 뉴스 기준. Q2 2026 EBITDA 수치($1.77B, YoY +30%)는 Vistra 회계 공시. 다만 PPA의 정확한 계약금액·기간·전력량은 공개되지 않을 수 있으므로 추후 IR 자료 확인 필요.",
+        sources: [
+          { title: "Vistra to acquire Cogentrix Energy (Yahoo Finance/Vistra Corp Press Release)", url: "https://finance.yahoo.com/" },
+          { title: "Vistra Corp. - Stock Analysis - Simply Wall St: The Flexible Power Platform Capturing AI Load Growth", url: "https://simplywall.st/stocks/us/utilities/nyse-vst/vistra/future" },
+          { title: "Vistra (NYSE:VST) - Stock Forecast & Analyst Predictions (Simply Wall St)", url: "https://simplywall.st/community/narratives/us/utilities/nyse-vst/vistra/dy08to34-vistra-energy-dollarvst-the-flexible-power-platform-capturing-ai-load-growth" },
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] EBITDA +30%, KKR·NVIDIA와 10억 달러 데이터센터 파트너십 - 실적은 견조한데 주가만 부진",
