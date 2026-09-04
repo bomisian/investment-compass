@@ -1097,7 +1097,7 @@ const HINTS = {
   recommendation: "애널리스트들의 평균적인 투자의견이에요.",
   insiderTrading: "이 회사의 임원·이사가 최근 자기 회사 주식을 공개시장에서 직접 사거나 판 내역이에요(SEC Form 4 공시). 스톡옵션 행사 같은 항목은 빼고 '진짜로 시장에서 사고판' 거래만 모았어요. 매수는 자기 돈을 걸었다는 뜻이라 신호 가치가 있다고 보는 시각이 많지만, 매도는 세금·생활자금 등 회사 전망과 무관한 이유가 흔해서 매수만큼 의미 있게 보지는 않아요.",
   insiderAnalysis: "위 원본 거래 내역을 규칙대로 한 단계 더 분석한 거예요 - 같은 사람이 반복해서 팔았는지, 여러 명이 비슷한 시기에 같이 팔았는지, 총 매도금액이 얼마인지를 계산해서 '주의/관찰/특이 신호 없음' 3단계로 나눴어요. 확률을 새로 만든 게 아니라 이미 있는 매매 기록을 규칙대로 분류만 한 결과예요. '주의'도 그 자체로 매매 신호는 아니고, 반복·동시 매도가 있었다는 사실을 알려주는 참고 정보예요.",
-  dataStatus: "펀더멘털·실적·뉴스·시그마 등 이 도구가 쓰는 데이터 소스 12개가 최근에 정상적으로 갱신됐는지 보여줘요. 파이프라인이 통째로 멈추는 심각한 경우는 이미 별도로 텔레그램 알림이 가고, 이건 그보다 가벼운 '특정 소스 하나만 최근에 실패했다' 같은 상황을 화면에서 바로 볼 수 있게 하는 참고용 표시예요.",
+  dataStatus: "펀더멘털·실적·뉴스·시그마 등 이 도구가 쓰는 데이터 소스 12개가 최근에 정상적으로 갱신됐는지 보여줘요. 파이프라인이 통째로 멈추는 심각한 경우는 이미 별도로 텔레그램 알림이 가고, 이건 그보다 가벼운 '특정 소스 하나만 최근에 실패했다' 같은 상황을 화면에서 바로 볼 수 있게 하는 참고용 표시예요. '데이터 생성'은 이 파일들이 서버에서 실제로 만들어진 시각이에요 - GitHub Pages는 배포 후 최대 10분 정도 예전 화면을 보여줄 수 있어서, 방금 갱신됐다고 알고 있는데 이 시각이 안 바뀌어 있으면 잠시 뒤 새로고침해보세요.",
   fundamentalWindow: "SEC 공시(10-Q/10-K)의 매출·영업이익률이 전년 동기 대비 크게 바뀐 적이 있으면(매출 +10%↑ 또는 -5%↓, 영업이익률 ±2%p 이상), 그 공시일로부터 7일·30일·90일 동안만 점수에 반영돼요. 뉴스 감성이나 추정이 아니라 실제 공시된 숫자만 근거로 쓰고, 90일이 지나면 자동으로 빠져요. 매매 신호가 아니라 '최근에 확인된 펀더멘털 변화가 있었는지'만 보는 참고 지표예요.",
   sigmaBand: "이번 주(옵션 만기까지) 옵션 시장이 내재변동성(IV)으로 암묵적으로 예상하는 가격 변동 범위예요. 현재가가 ±1σ 범위 안에 있으면 흔한 변동 폭 안이라는 뜻이고, ±2σ를 벗어나 있으면 옵션 시장 기준으로 이례적으로 크게 움직인 상태예요. 그 자체로 매수·매도 신호는 아니고, 지금 변동성이 평소보다 큰지 참고하는 지표예요. 옵션 거래가 얇은 종목은 신뢰할 만한 호가를 못 구해서 계산 자체가 안 될 수 있어요. 'IV 스냅샷' 날짜는 이 계산에 쓴 옵션 호가를 실제로 가져온 시점이에요 - 만기일과 다를 수 있고(예: 며칠 전 스냅샷), 주간 기준 가격(anchor)은 보통 매주 초에 한 번 고정돼서 한 주 내내 유지돼요.",
   epsRevision: "이 종목의 예상 EPS(주당순이익)를 애널리스트들이 최근 7·30·90일 동안 올리는 중인지 내리는 중인지 보여줘요. 위 '예상 실적 컨센서스' 표는 지금 시점 숫자만 보여주는데, 이 카드는 그 숫자가 최근에 어느 방향으로 바뀌어왔는지를 따로 봐요. Alpha Vantage 무료 API 한도 때문에 관심종목 전체를 매일 갱신하지 못하고 며칠에 걸쳐 순환 갱신돼요(카드에 갱신일이 같이 표시돼요). 매매 신호가 아니라 참고용이에요.",
@@ -4178,6 +4178,17 @@ function sourceHealthLevel(src){
   if(src.status === 'partial' || hoursSince > (src.warningAfterHours ?? Infinity)) return 'warning';
   return 'ok';
 }
+function buildGeneratedAgoLabel(){
+  const raw = (typeof DATA_STATUS !== 'undefined' && DATA_STATUS) ? DATA_STATUS.buildGeneratedAt : null;
+  if(!raw) return '';
+  try{
+    const d = new Date(String(raw).replace(' ', 'T'));
+    const mins = Math.floor((Date.now() - d.getTime()) / 60000);
+    if(isNaN(mins)) return '';
+    const label = mins < 1 ? '방금' : (mins < 60 ? `${mins}분 전` : `${Math.round(mins/60)}시간 전`);
+    return ` · 데이터 생성 ${label}`;
+  }catch(e){ return ''; }
+}
 function renderDataStatusLine(){
   const el = document.getElementById('dataStatusLine');
   if(!el) return;
@@ -4192,14 +4203,15 @@ function renderDataStatusLine(){
     const h = (Date.now()/1000 - last)/3600;
     return h<1 ? '1시간 이내' : `${Math.round(h)}시간 전`;
   };
+  const genLabel = buildGeneratedAgoLabel();
   if(!bad.length){
-    el.innerHTML = `<span style="color:var(--up);">●</span> 데이터 상태: 전체 정상(${sources.length}개 소스) ${hintIcon('dataStatus')}`;
+    el.innerHTML = `<span style="color:var(--up);">●</span> 데이터 상태: 전체 정상(${sources.length}개 소스)${genLabel} ${hintIcon('dataStatus')}`;
     return;
   }
   const worst = bad.some(s=>s.level==='critical') ? 'critical' : 'warning';
   const color = worst==='critical' ? 'var(--down)' : '#876000';
   const items = bad.map(s=>`${esc(s.label)}(${fmtAgo(s)}${s.lastError?' · '+esc(s.lastError):''})`).join(', ');
-  el.innerHTML = `<span style="color:${color};">●</span> 데이터 상태: ${bad.length}개 소스 지연·부분실패 - ${items} ${hintIcon('dataStatus')}`;
+  el.innerHTML = `<span style="color:${color};">●</span> 데이터 상태: ${bad.length}개 소스 지연·부분실패 - ${items}${genLabel} ${hintIcon('dataStatus')}`;
 }
 function renderMarketCard(){
   const card = document.getElementById('marketCard');
@@ -5816,6 +5828,7 @@ function tabValueQuality(r){
     ? `<div class="glossary" style="margin-top:8px;">※ 이 종목은 <b>해외 상장 ADR</b>이라 재무제표 보고통화가 달러가 아니에요(${fund.marketCapCurrencyNote || ESTIMATES_DATA[r.ticker].financialCurrency}). 위 PER·PSR·PBR은 데이터 제공처가 통화를 맞춰 계산한 값이고, 마진·ROE 같은 비율 지표는 분모·분자가 같은 통화라 통화 영향이 없어요. 다만 03 실적 탭의 <b>매출·순이익 절대금액은 보고통화 기준</b>이라 달러가 아니니 주가와 직접 나눠 계산하지 마세요.</div>`
     : '';
   return `
+    ${dataQualityNotes(r.ticker, fund)}
     ${valueQualityComment(r, fund)}
     ${renderBusinessNotes(r.ticker)}
     ${renderFundamentalWindowScores(r.ticker)}
@@ -5825,7 +5838,6 @@ function tabValueQuality(r){
     </div>
     ${historyCompareBlock(r.ticker, fund)}
     ${peerCompareBlock(r)}
-    ${dataQualityNotes(r.ticker, fund)}
     ${updated}
     ${currencyNote}
     ${adrNote}
