@@ -6012,7 +6012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 171,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -6027,6 +6027,54 @@ const NEWS_DATA = {
       "revenueEstimate": 115064400597
     },
     "news": [
+      {
+        "headline": "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a8d7e43d1ed52f74f6a3b1a46d51d90c6e3a193bc3f4be8dc1d7d24b6e0aac3f",
+        "datetime": 1788472939,
+        "relevance": 0.29,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788495965.3499277
+        },
+        "headlineKo": "Dan Ives는 AI 군비 경쟁에서 Apple의 M&A가 '잃어버린 조각'이라고 말합니다. 새로운 CEO John Ternus는 마침내 Tim Cook의 플레이북을 뒤흔들 수 있습니다."
+      },
       {
         "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
         "source": "Yahoo",
@@ -6071,7 +6119,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472840.2900898
+          "analysisUpdatedAt": 1788495967.0379941
         },
         "headlineKo": "애플(AAPL), 폴더블 아이폰 출시를 앞두고 엇갈린 전망에 직면"
       },
@@ -6119,7 +6167,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472842.6401706
+          "analysisUpdatedAt": 1788495969.415859
         },
         "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면"
       },
@@ -6129,6 +6177,25 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=b3b1ef4df8c77bd564b8c103e476159f06b03899b3c6c49a40a0d45a15c635c7",
         "datetime": 1788457020,
         "relevance": 0.57,
+        "headlineKo": "Stryker, FDA 승인 Apple Vision Pro 수술용 앱 출시"
+      },
+      {
+        "headline": "Jefferies Revamps Apple Stock Target On Setback",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1a800aba3c78a0b856ff68de59d86ce52797b9c05f8dcde4953056f8acbea50e",
+        "datetime": 1788450466,
+        "relevance": 0.29,
+        "headlineKo": "Jefferies, 좌절에 대한 Apple 주식 목표 개편"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a8d7e43d1ed52f74f6a3b1a46d51d90c6e3a193bc3f4be8dc1d7d24b6e0aac3f",
+        "datetime": 1788472939,
+        "headlineKo": "Dan Ives는 AI 군비 경쟁에서 Apple의 M&A가 '잃어버린 조각'이라고 말합니다. 새로운 CEO John Ternus는 마침내 Tim Cook의 플레이북을 뒤흔들 수 있습니다.",
+        "relevance": 0.29,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -6137,7 +6204,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
+            "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -6161,34 +6228,15 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stryker Launches FDA-Cleared Apple Vision Pro Surgical App' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.57,
+          "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472845.2268748
-        },
-        "headlineKo": "Stryker, FDA 승인 Apple Vision Pro 수술용 앱 출시"
+          "analysisUpdatedAt": 1788495965.3499277
+        }
       },
-      {
-        "headline": "Jefferies Revamps Apple Stock Target On Setback",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1a800aba3c78a0b856ff68de59d86ce52797b9c05f8dcde4953056f8acbea50e",
-        "datetime": 1788450466,
-        "relevance": 0.29,
-        "headlineKo": "Jefferies, 좌절에 대한 Apple 주식 목표 개편"
-      },
-      {
-        "headline": "Apple Is Late to AI. That Could Be Its Biggest Opportunity",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=35e25ea8262576508856dd2df825305289c33deba6a4216d48d33d132b172dc7",
-        "datetime": 1788447658,
-        "relevance": 0.29,
-        "headlineKo": "애플은 AI에 늦었다. 그것이 가장 큰 기회가 될 수 있다"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
         "source": "Yahoo",
@@ -6234,7 +6282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472840.2900898
+          "analysisUpdatedAt": 1788495967.0379941
         }
       },
       {
@@ -6282,7 +6330,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472842.6401706
+          "analysisUpdatedAt": 1788495969.415859
         }
       },
       {
@@ -9667,17 +9715,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788472834.9208727,
-    "_updated_label": "2026-09-04 07:00",
+    "_fetched_at": 1788495960.92005,
+    "_updated_label": "2026-09-04 13:26",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 107,
+      "checked": 108,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788472834.9208727,
+    "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
-    "_last_success_at": 1788472834.9208727,
+    "_last_success_at": 1788495960.92005,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -13200,7 +13248,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -16635,7 +16683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -20688,7 +20736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -21784,7 +21832,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -25745,7 +25793,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -29537,7 +29585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -33527,7 +33575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -37551,7 +37599,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -40606,7 +40654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -42866,7 +42914,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -42881,6 +42929,54 @@ const NEWS_DATA = {
       "revenueEstimate": 10513249854
     },
     "news": [
+      {
+        "headline": "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9fe421825ed66a92f2a007b2da8b024f30e8082a99f099b2b2cf5ca40e02795a",
+        "datetime": 1788476916,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788495974.6913197
+        },
+        "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
+      },
       {
         "headline": "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
         "source": "Yahoo",
@@ -42939,7 +43035,7 @@ const NEWS_DATA = {
             "| Trefis Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500.",
             "Nothing in the trailing revenue looks like that."
           ],
-          "analysisUpdatedAt": 1788472855.8850083
+          "analysisUpdatedAt": 1788495978.3570592
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -42987,9 +43083,17 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472858.7215245
+          "analysisUpdatedAt": 1788495980.5022252
         },
         "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
+      },
+      {
+        "headline": "If You Invested $1000 In Applied Materials Stock 20 Years Ago, You Would Have This Much Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=53c031425c3b21e9cfaf5a94f1371865209933c5633397ef5ca2c9de1bd9cc80",
+        "datetime": 1788434121,
+        "relevance": 0.67,
+        "headlineKo": "20년 전 어플라이드 머티어리얼즈 주식에 1000달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다."
       },
       {
         "headline": "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
@@ -42997,26 +43101,35 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=1dbff8ff1f49c6f0b1d11db31ee010885a09b7250bab7dacfcff7dd0a191c94b",
         "datetime": 1788380449,
         "relevance": 0.67,
+        "headlineKo": "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다. 지금 판매하시겠습니까, 아니면 추가 구매하시겠습니까?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9fe421825ed66a92f2a007b2da8b024f30e8082a99f099b2b2cf5ca40e02795a",
+        "datetime": 1788476916,
+        "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?",
+        "relevance": 1,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
-            "Applied Materials는 방금 기록적인 매출을 기록하고 지침을 높였지만, 가장 가까운 동료들이 거의 움츠러들지 않는 동안 주가는 계속 하락하고 있습니다."
+            "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 14%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -43026,51 +43139,20 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "14%",
-            "1.04%",
-            "1.08%",
-            "1.23%",
-            "0.32%",
-            "$437.31",
-            "0.7%",
-            "178%"
-          ],
-          "sourceExcerpt": [
-            "Applied Materials Just Dropped 14% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
-            "Applied Materials just posted record revenue and raised its guidance, yet the stock keeps falling while its closest peers barely flinched."
-          ],
-          "analysisUpdatedAt": 1788472862.717827
-        },
-        "headlineKo": "어플라이드 머티리얼즈는 한 달 만에 14% 하락했습니다. 지금 판매하시겠습니까, 아니면 추가 구매하시겠습니까?"
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788495974.6913197
+        }
       },
-      {
-        "headline": "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=148578eba2ae40184d1d8a225944e7b0e93436f29297e06a3d29f075c22fed17",
-        "datetime": 1788365280,
-        "relevance": 1,
-        "headlineKo": "YTD 72.5% 상승 후 AMAT 주식을 매수, 매도 또는 보유해야 합니까?"
-      },
-      {
-        "headline": "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=efb16a6745b014354a9cd222d3fb0b43e68bf26fc6ab653ff7833c1bafcab134",
-        "datetime": 1788353160,
-        "relevance": 0.67,
-        "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
         "source": "Yahoo",
@@ -43130,7 +43212,7 @@ const NEWS_DATA = {
             "| Trefis Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500.",
             "Nothing in the trailing revenue looks like that."
           ],
-          "analysisUpdatedAt": 1788472855.8850083
+          "analysisUpdatedAt": 1788495978.3570592
         }
       },
       {
@@ -43178,8 +43260,16 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472858.7215245
+          "analysisUpdatedAt": 1788495980.5022252
         }
+      },
+      {
+        "headline": "If You Invested $1000 In Applied Materials Stock 20 Years Ago, You Would Have This Much Today",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=53c031425c3b21e9cfaf5a94f1371865209933c5633397ef5ca2c9de1bd9cc80",
+        "datetime": 1788434121,
+        "headlineKo": "20년 전 어플라이드 머티어리얼즈 주식에 1000달러를 투자했다면 지금은 이 정도의 수익을 얻게 될 것입니다.",
+        "relevance": 0.67
       },
       {
         "headline": "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
@@ -44680,17 +44770,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788472834.9208727,
-    "_updated_label": "2026-09-04 07:01",
+    "_fetched_at": 1788495960.92005,
+    "_updated_label": "2026-09-04 13:26",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 48,
+      "checked": 50,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788472834.9208727,
+    "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
-    "_last_success_at": 1788472834.9208727,
+    "_last_success_at": 1788495960.92005,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -46474,7 +46564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788484626.0672348,
     "_earnings_status": "ok",
@@ -49207,7 +49297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -52082,7 +52172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -52097,6 +52187,101 @@ const NEWS_DATA = {
       "revenueEstimate": 11548517558
     },
     "news": [
+      {
+        "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7428c8a120fe47b640795f50a9b484fee33d0b3b97e5c85a191d33502649dd6b",
+        "datetime": 1788472758,
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788492240.781568
+        },
+        "headlineKo": "Datadog, Amplitude, Zscaler, DocuSign 및 Salesforce 점유율 급등, 알아야 할 사항"
+      },
+      {
+        "headline": "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
+        "datetime": 1788471002,
+        "relevance": 0.5,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788492242.7592168
+        },
+        "headlineKo": "Snowflake를 통해 엔터프라이즈 AI 지출이 현실화되면서 Salesforce가 2.75% 이익을 얻습니다."
+      },
       {
         "headline": "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
         "source": "Yahoo",
@@ -52140,7 +52325,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469229.8033588
+          "analysisUpdatedAt": 1788492244.892689
         },
         "headlineKo": "VEEV, Vault CRM 및 AI 모멘텀이 빠르게 가속화됨에 따라 FY27 Outlook 제기"
       },
@@ -52150,60 +52335,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=279792a7fe645e5e8b153e61061e3ca8ad0dd300ddbe4ebaf26d13e66d9411eb",
         "datetime": 1788448260,
         "relevance": 0.5,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir Rallies 7%, PwC Alliance 카운터 Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,745.00 +1.06% Dow Jones 53,665.30 +1.10% Nasdaq 100 29,478.40 +1.25% Russell 2000 2,965.95 +0.33% S&P 500 7,745.00 +1.06% Dow Jones 53,665.30 +1.10% Nasdaq 100 29,478.40 +1.25% Russell 2000 2,965.95 +0.",
-            "그 응답이 실제로 Burry 플래그가 지정된 채권 품질 문제를 해결하는지 여부는 완전히 다른 질문입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "7%",
-            "5%",
-            "3%",
-            "1.06%",
-            "1.10%",
-            "1.25%",
-            "0.33%",
-            "4%"
-          ],
-          "sourceExcerpt": [
-            "Palantir Rallies 7% as PwC Alliance Counters Michael Burry Bear Case, ServiceNow Climbs 5%, Salesforce Gains 3% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,745.00 +1.06% Dow Jones 53,665.30 +1.10% Nasdaq 100 29,478.40 +1.25% Russell 2000 2,965.95 +0.33% S&P 500 7,745.00 +1.06% Dow Jones 53,665.30 +1.10% Nasdaq 100 29,478.40 +1.25% Russell 2000 2,965.95 +0.",
-            "Whether that response actually addresses the receivables quality problem Burry flagged is a different question entirely."
-          ],
-          "analysisUpdatedAt": 1788469236.9381645
-        },
         "headlineKo": "Palantir Rallies 7%, PwC Alliance가 Michael Burry Bear 케이스에 대응, ServiceNow가 5% 상승, Salesforce가 3% 상승"
       },
       {
@@ -52211,6 +52342,17 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=9cb7c70cf47e5a5464ed1e68c4d5af038492a935f19f8a89dc489e2b76fae741",
         "datetime": 1788443349,
+        "relevance": 0.5,
+        "headlineKo": "목요일에 Salesforce Stock은 어떻게 되나요?"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7428c8a120fe47b640795f50a9b484fee33d0b3b97e5c85a191d33502649dd6b",
+        "datetime": 1788472758,
+        "headlineKo": "Datadog, Amplitude, Zscaler, DocuSign 및 Salesforce 점유율 급등, 알아야 할 사항",
         "relevance": 0.5,
         "analysis": {
           "version": 9,
@@ -52220,7 +52362,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "What's Going On With Salesforce Stock on Thursday?",
+            "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -52244,34 +52386,62 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'What's Going On With Salesforce Stock on Thursday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469238.2218366
-        },
-        "headlineKo": "목요일에 Salesforce Stock은 어떻게 되나요?"
+          "analysisUpdatedAt": 1788492240.781568
+        }
       },
       {
-        "headline": "Globant Introduces MuleSoft AI Pod to Break through Integration Barriers and Scale Enterprise Agentic AI with Salesforce",
+        "headline": "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bce8dd62c97ff8539a1084dbd9e896fbbcf95d4d4a89d9eac4d4f1dda82756b7",
-        "datetime": 1788442200,
+        "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
+        "datetime": 1788471002,
+        "headlineKo": "Snowflake를 통해 엔터프라이즈 AI 지출이 현실화되면서 Salesforce가 2.75% 이익을 얻습니다.",
         "relevance": 0.5,
-        "headlineKo": "Globant, 통합 장벽을 극복하고 Salesforce를 통해 엔터프라이즈 에이전트 AI 확장을 위해 MuleSoft AI Pod 출시"
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788492242.7592168
+        }
       },
-      {
-        "headline": "Salesforce Stock Up 22% in a Week After Anthropic Deal, Breaking 20-Month Downtrend",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
-        "datetime": 1788440400,
-        "relevance": 0.5,
-        "headlineKo": "Salesforce 재고는 인류애 거래 후 일주일 만에 22% 상승하여 20개월 하락세를 깨뜨렸습니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
         "source": "Yahoo",
@@ -52316,7 +52486,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469229.8033588
+          "analysisUpdatedAt": 1788492244.892689
         }
       },
       {
@@ -54826,17 +54996,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788469225.0494318,
-    "_updated_label": "2026-09-04 06:00",
+    "_fetched_at": 1788492236.7788668,
+    "_updated_label": "2026-09-04 12:24",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 79,
+      "checked": 81,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788469225.0494318,
+    "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
-    "_last_success_at": 1788469225.0494318,
+    "_last_success_at": 1788492236.7788668,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -57660,7 +57830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788484626.0672348,
     "_earnings_status": "ok",
@@ -59287,7 +59457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -59346,7 +59516,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469249.4888585
+          "analysisUpdatedAt": 1788492250.8475912
         },
         "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
       },
@@ -59393,7 +59563,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469251.704546
+          "analysisUpdatedAt": 1788492252.9853766
         },
         "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
       },
@@ -59441,7 +59611,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469252.815004
+          "analysisUpdatedAt": 1788492254.134969
         },
         "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
       },
@@ -59508,7 +59678,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469249.4888585
+          "analysisUpdatedAt": 1788492250.8475912
         }
       },
       {
@@ -59555,7 +59725,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469251.704546
+          "analysisUpdatedAt": 1788492252.9853766
         }
       },
       {
@@ -59603,7 +59773,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469252.815004
+          "analysisUpdatedAt": 1788492254.134969
         }
       },
       {
@@ -60528,17 +60698,17 @@ const NEWS_DATA = {
         "headlineKo": "Arm (ARM) 2027년 1분기 실적 통화 녹취록"
       }
     ],
-    "_fetched_at": 1788469225.0494318,
-    "_updated_label": "2026-09-04 06:00",
+    "_fetched_at": 1788492236.7788668,
+    "_updated_label": "2026-09-04 12:24",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788469225.0494318,
+    "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
-    "_last_success_at": 1788469225.0494318,
+    "_last_success_at": 1788492236.7788668,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -63963,7 +64133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788484626.0672348,
     "_earnings_status": "ok",
@@ -65121,7 +65291,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -66583,7 +66753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -67978,7 +68148,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -71498,7 +71668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -71557,7 +71727,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472869.6434104
+          "analysisUpdatedAt": 1788495986.7505307
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -71576,12 +71746,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.05% S&P 500 7,749.00 +0.07% 다우존스 53,700.50 +0.08% 나스닥 100 29,503.80 +0.11% 러셀 2000 2,967.13 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.07%, 0.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -71606,20 +71776,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "1.04%",
-            "1.08%",
-            "1.23%",
-            "0.32%",
+            "0.07%",
+            "0.08%",
+            "0.11%",
+            "0.05%",
             "168%",
             "$465.32",
             "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.05% S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788472873.9312818
+          "analysisUpdatedAt": 1788495990.321943
         },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
@@ -71666,7 +71836,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472875.5738342
+          "analysisUpdatedAt": 1788495991.397732
         },
         "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
       },
@@ -71733,7 +71903,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472869.6434104
+          "analysisUpdatedAt": 1788495986.7505307
         }
       },
       {
@@ -71752,12 +71922,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% 다우존스 53,656.30 +1.08% 나스닥 100 29,472.70 +1.23% 러셀 2000 2,965.65 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.05% S&P 500 7,749.00 +0.07% 다우존스 53,700.50 +0.08% 나스닥 100 29,503.80 +0.11% 러셀 2000 2,967.13 +0.",
             "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 1.04%, 1.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 13%, 0.07%, 0.08% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -71782,20 +71952,20 @@ const NEWS_DATA = {
           "quality": "medium",
           "verifiedNumbers": [
             "13%",
-            "1.04%",
-            "1.08%",
-            "1.23%",
-            "0.32%",
+            "0.07%",
+            "0.08%",
+            "0.11%",
+            "0.05%",
             "168%",
             "$465.32",
             "16%"
           ],
           "sourceExcerpt": [
             "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.32% S&P 500 7,743.20 +1.04% Dow Jones 53,656.30 +1.08% Nasdaq 100 29,472.70 +1.23% Russell 2000 2,965.65 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.05% S&P 500 7,749.00 +0.07% Dow Jones 53,700.50 +0.08% Nasdaq 100 29,503.80 +0.11% Russell 2000 2,967.13 +0.",
             "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
           ],
-          "analysisUpdatedAt": 1788472873.9312818
+          "analysisUpdatedAt": 1788495990.321943
         }
       },
       {
@@ -71842,7 +72012,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788472875.5738342
+          "analysisUpdatedAt": 1788495991.397732
         }
       },
       {
@@ -72693,17 +72863,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788472834.9208727,
-    "_updated_label": "2026-09-04 07:01",
+    "_fetched_at": 1788495960.92005,
+    "_updated_label": "2026-09-04 13:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788472834.9208727,
+    "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
-    "_last_success_at": 1788472834.9208727,
+    "_last_success_at": 1788495960.92005,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -73977,7 +74147,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -75275,7 +75445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -76548,7 +76718,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -78166,7 +78336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -78195,9 +78365,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy | The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % The Motley Fool 가입 회사 검색 접근성...",
-            "AI 데이터 센터의 성장으로 전력 수요가 급증함에 따라 두 유틸리티 회사가 눈에 띕니다.",
-            "NextEra Energy (NEE +1.16%) 와 Constellation Energy (CEG -1.72%) 는 모두 믿을 수 없을 정도로 강력한 사업이지만 북미 전력의 새로운 장에 대해 다른 접근 방식을 취하고 있습니다."
+            "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
+            "NextEra Energy( NEE +1.16% )와 Constellation Energy( CEG -1.72% )는 모두 믿을 수 없을 정도로 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -78239,7 +78409,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE +1.16% ) and Constellation Energy ( CEG -1.72% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788469267.0920062
+          "analysisUpdatedAt": 1788492261.2975228
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -78287,7 +78457,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469269.4047809
+          "analysisUpdatedAt": 1788492263.6734824
         },
         "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
       },
@@ -78305,9 +78475,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "NextEra Energy: 2026년에는 어떤 유틸리티 주식이 더 나은 투자입니까?",
-            "| The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Join The Motley Fool 회사 검색 접근성...",
-            "기술과 녹색 에너지가 융합됨에 따라 투자자들이 성장을 위한 전력망을 점점 더 찾고 있습니다."
+            "NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?",
+            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "기술과 친환경 에너지가 융합됨에 따라 투자자들은 점점 더 성장을 위해 전력망에 눈을 돌리고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -78349,7 +78519,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788469276.8719964
+          "analysisUpdatedAt": 1788492267.6290603
         },
         "headlineKo": "Constellation Energy vs. NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?"
       },
@@ -78386,9 +78556,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy | The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % The Motley Fool 가입 회사 검색 접근성...",
-            "AI 데이터 센터의 성장으로 전력 수요가 급증함에 따라 두 유틸리티 회사가 눈에 띕니다.",
-            "NextEra Energy (NEE +1.16%) 와 Constellation Energy (CEG -1.72%) 는 모두 믿을 수 없을 정도로 강력한 사업이지만 북미 전력의 새로운 장에 대해 다른 접근 방식을 취하고 있습니다."
+            "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
+            "NextEra Energy( NEE +1.16% )와 Constellation Energy( CEG -1.72% )는 모두 믿을 수 없을 정도로 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -78430,7 +78600,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE +1.16% ) and Constellation Energy ( CEG -1.72% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788469267.0920062
+          "analysisUpdatedAt": 1788492261.2975228
         }
       },
       {
@@ -78478,7 +78648,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788469269.4047809
+          "analysisUpdatedAt": 1788492263.6734824
         }
       },
       {
@@ -78496,9 +78666,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "NextEra Energy: 2026년에는 어떤 유틸리티 주식이 더 나은 투자입니까?",
-            "| The Motley Fool 접근성 메뉴 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Join The Motley Fool 회사 검색 접근성...",
-            "기술과 녹색 에너지가 융합됨에 따라 투자자들이 성장을 위한 전력망을 점점 더 찾고 있습니다."
+            "NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?",
+            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "기술과 친환경 에너지가 융합됨에 따라 투자자들은 점점 더 성장을 위해 전력망에 눈을 돌리고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -78540,7 +78710,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
           ],
-          "analysisUpdatedAt": 1788469276.8719964
+          "analysisUpdatedAt": 1788492267.6290603
         }
       },
       {
@@ -79141,17 +79311,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788469225.0494318,
-    "_updated_label": "2026-09-04 06:01",
+    "_fetched_at": 1788492236.7788668,
+    "_updated_label": "2026-09-04 12:24",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788469225.0494318,
+    "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
-    "_last_success_at": 1788469225.0494318,
+    "_last_success_at": 1788492236.7788668,
     "_collection_status": "ok"
   },
   "VST": {
@@ -80362,7 +80532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -81536,7 +81706,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -82541,7 +82711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -83178,7 +83348,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788479060.7683976,
     "_earnings_status": "error",
@@ -85071,7 +85241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -85571,7 +85741,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -86622,7 +86792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788484626.0672348,
     "_earnings_status": "ok",
@@ -87450,7 +87620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788484626.0672348,
     "_earnings_status": "ok",
@@ -88569,7 +88739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_last_attempt_at": 1788480059.6420069,
     "_earnings_status": "ok",
@@ -88689,9 +88859,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
-    "_last_attempt_at": 1788490401.6953874,
+    "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -88847,7 +89017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 11:53"
+      "updated": "2026-09-04 13:26"
     },
     "_fetched_at": 1788480059.6420069,
     "_updated_label": "2026-09-04 09:04",

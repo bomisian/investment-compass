@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.83999633789062,
-      "prevClose": 91.01000213623047,
-      "changeAbs": 0.8299942016601562,
-      "changePct": 0.9119813011516688,
-      "pctRank": 85.68019093078759,
+      "current": 92.0999984741211,
+      "prevClose": 91.30000305175781,
+      "changeAbs": 0.7999954223632812,
+      "changePct": 0.8762271584041078,
+      "pctRank": 85.91885441527445,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.689686746981437,
-      "ma20": 84.79750022888183,
-      "ma60": 80.33333333333333,
-      "chg1m": 16.6199951171875,
-      "chg3m": -1.2000045776367188,
-      "chg1mPct": 22.095180600200663,
-      "chg3mPct": -1.289772749170783,
+      "drawdown1y": -18.45949449974339,
+      "ma20": 85.46650047302246,
+      "ma60": 80.35883344014486,
+      "chg1m": 14.80999755859375,
+      "chg3m": 1.55999755859375,
+      "chg1mPct": 19.161595786213095,
+      "chg3mPct": 1.7229926472490404,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.9729995727539,
-      "prevClose": 99.55999755859375,
-      "changeAbs": -0.5869979858398438,
-      "changePct": -0.5895922059403221,
-      "pctRank": 25.775656324582343,
-      "min5y": 92.04000091552734,
+      "current": 99.04399871826172,
+      "prevClose": 99.0,
+      "changeAbs": 0.04399871826171875,
+      "changePct": 0.04444314975931187,
+      "pctRank": 26.412092283214,
+      "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.59521801176823,
-      "ma20": 99.41364974975586,
-      "ma60": 100.2948834737142,
-      "chg1m": -0.7170028686523438,
-      "chg3m": -0.43700408935546875,
-      "chg1mPct": -0.7192324717553991,
-      "chg3mPct": -0.43959769968506207,
+      "drawdown1y": -2.5253438408388673,
+      "ma20": 99.3871997833252,
+      "ma60": 100.2802335103353,
+      "chg1m": -0.9260025024414062,
+      "chg3m": -1.0260009765625,
+      "chg1mPct": -0.9262803752468468,
+      "chg3mPct": -1.0252832813944401,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4525.0,
-      "prevClose": 4366.2998046875,
-      "changeAbs": 158.7001953125,
-      "changePct": 3.6346609809552075,
-      "pctRank": 92.60143198090692,
+      "current": 4514.89990234375,
+      "prevClose": 4491.7001953125,
+      "changeAbs": 23.19970703125,
+      "changePct": 0.5165016813780452,
+      "pctRank": 92.36276849642005,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -14.918018895008423,
-      "ma20": 4464.364990234375,
-      "ma60": 4225.678336588541,
-      "chg1m": 279.2001953125,
-      "chg3m": 49.2001953125,
-      "chg1mPct": 6.575915214001705,
-      "chg3mPct": 1.0992492394537552,
+      "drawdown1y": -15.107927473560379,
+      "ma20": 4471.409985351563,
+      "ma60": 4231.901668294271,
+      "chg1m": 272.89990234375,
+      "chg3m": 177.7998046875,
+      "chg1mPct": 6.433283883633899,
+      "chg3mPct": 4.0995089042003485,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.8577906593237454,
-        "ret3m": 1.7263926415477249,
-        "ret6m": 13.220143051428735,
-        "ret1y": 12.317828668099985,
+        "ret1m": 8.759143693628468,
+        "ret3m": 4.5445198983847135,
+        "ret6m": 16.52642359461305,
+        "ret1y": 14.451976238791332,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -5.792271641687474,
-        "ret3m": -16.029003323202485,
-        "ret6m": 72.3123115227374,
-        "ret1y": 236.74364334323204,
+        "ret1m": -3.7112790143504992,
+        "ret3m": -14.246492266083699,
+        "ret6m": 75.28417128255376,
+        "ret1y": 234.92339611817212,
         "winRate": 71.5,
         "count": 16
       }
@@ -211,68 +211,61 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.109018992867599,
-    "corrPctRank": 0.08382229673093043,
-    "corrMin5y": 0.10165206112090858,
+    "corr60": 0.10059471903703102,
+    "corrPctRank": 0.0,
+    "corrMin5y": 0.10059471903703102,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
+      "headline": "Oil set for steepest weekly gain since mid-July over intensifying US-Iran tensions - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
+      "datetime": 1788485280,
+      "headlineKo": "미국-이란 긴장 고조로 7월 중순 이후 가장 가파른 주간 상승세 예상 - reuters.com"
+    },
+    {
+      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
       "datetime": 1788479820,
-      "headlineKo": "분석 결과 미국 군수품의 직격탄을 맞았을 가능성이 있는 이란 웨딩 스트라이크를 미국 프로브 - 로이터"
+      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 파업이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - reuters.com"
     },
     {
-      "headline": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - Reuters",
+      "headline": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUEFXVU5xRXZGVUVkV3B2TUVQcTBseVZsSGd0blBwQktIaGlIc3R5TzMtNXFISkFTb1VOdlhWOXBmQ052RWFuT1pQaXJqQndNaXB3TmhLQTZPQXNQSFFXQ3JGY0NBdE1RY09razBPZFh2VnJiYmlBSld3akdLeHZxbVA5bWNqVWFycjFlUHFNd3VPdE4tYTFVaWxmdDBoOUlxUk80X0dkbkFqOV9SU3lxNkFsd0JGZnB5Qk9SV3JGWkxRWlhn?oc=5",
       "datetime": 1788477571,
-      "headlineKo": "이란 결혼식에 대한 치명적인 공격은 미국 군수품의 직접적인 타격일 가능성이 높다는 분석이 나왔습니다 - 로이터 통신"
+      "headlineKo": "이란 결혼식에 대한 치명적인 공격은 미국 군수품의 직접적인 타격일 가능성이 높다는 분석이 나왔습니다 - reuters.com"
     },
     {
-      "headline": "Bond yields fall, stocks rally as Fed's Waller comments curb rate hike bets - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZHUxMWV6alo1MWFYM191bnlDTlhjTlc0Y2t0UjE4TndrZW9PczcxTmg5a1M0ZWk5M2Fqb0RvVlNIQWFuNG1nb3BtbjhhM2NmbkhDVENZTF9qYU53UDBWR3ROTl9XSlFDVGNLUF9sN29rSlhZc0xfSGZKcWlFanB4b2R1bw?oc=5",
-      "datetime": 1788476304,
-      "headlineKo": "채권 수익률은 떨어지고, 주식은 Fed의 Waller가 금리 인상 베팅을 억제한다고 언급함에 따라 랠리 - Reuters"
-    },
-    {
-      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - Reuters",
+      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
       "datetime": 1788473423,
       "headlineKo": "밴스 \"이란 분쟁은 전쟁이 아니다\""
     },
     {
-      "headline": "South Korea prepares Hormuz military deployment, media reports say - Reuters",
+      "headline": "South Korea prepares Hormuz military deployment, media reports say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdWViay1UelBGa2N2MVRMeTBDRUFURDhZblFPbFcwLXc1VG92Y3ZTeE1ZZHU3b1JicEYxOHBEdWQzSEQ1aXZiNmNCZjBVcUl0Y19yOGRQZE5wZjRkdHFYbzJxZTE3QTZDdlRVUGtFSTRyR0JSNkxRU0dBZGRTT1BWalZjdGpKV1BCRjFQV0dXTzZwZEw4aElNSXhJVy1ldVRZV2VqTlYzejVUdzZ3bUhoMlRpbFFsV2FWUjNYUg?oc=5",
       "datetime": 1788473245,
-      "headlineKo": "한국, 호르무즈 군사 배치 준비, 언론 보도에 따르면 - 로이터"
+      "headlineKo": "한국, 호르무즈 군사 배치 준비, 언론 보도에 따르면 - reuters.com"
     },
     {
-      "headline": "US diesel prices hit record high as conflicts intensify supply crunch - Reuters",
+      "headline": "US diesel prices hit record high as conflicts intensify supply crunch - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5",
       "datetime": 1788470483,
-      "headlineKo": "분쟁으로 공급 부족이 심화되면서 미국 디젤 가격이 사상 최고치를 기록했습니다."
+      "headlineKo": "분쟁으로 공급 부족 심화로 미국 디젤 가격 사상 최고치 기록 - reuters.com"
     },
     {
-      "headline": "Iran buries victims of reported US wedding attack, fires on Kuwait - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmJEcTdhQU9kcW41Z2J6enVZU2NHQ253eVV1VDJKOXBSTTJfbGhfVi1wbTQ0U1gzRllLb2xUUV9LRGRZaWpvaUlSWWRwQTdBaXdNY2x1Z3pxU1U1WjJSdzdKWGR6a2FLSXN6dnBPQ3NhM1hwUkxOZlIyd0dDX0ZycjdVSlpEUFN5N1NQbWR2UW1oRHNBU3BTZENPbGotQVFOSmdfUUFJNERYbEZTVzU3WDlrUQ?oc=5",
-      "datetime": 1788469133,
-      "headlineKo": "이란, 쿠웨이트에서 미국 결혼식 공격 보고된 희생자 매장 - 로이터"
-    },
-    {
-      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
+      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
       "datetime": 1788467976,
-      "headlineKo": "밴스: 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습을 미국이 조사 중 - 로이터 통신"
+      "headlineKo": "밴스: 미국, 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습 조사 중 - reuters.com"
     },
     {
       "headline": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
@@ -282,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "Adobe, Shantanu Narayen을 대신하여 Anil Chakravarthy를 CEO로 지명"
     },
     {
-      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - Reuters",
+      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
       "datetime": 1788466437,
-      "headlineKo": "투자자들이 중동 사태의 고조와 러시아-우크라이나 평화 협정의 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - Reuters"
+      "headlineKo": "투자자들이 중동 사태와 러시아-우크라이나 평화 협상 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - reuters.com"
     },
     {
       "headline": "We're lifting our price targets on 2 stocks that have shaken off AI disruption concerns",
@@ -301,16 +294,23 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/03/whats-behind-nvidia-buying-hugging-face-look-to-microsoft.html",
       "datetime": 1788459270,
       "headlineKo": "Nvidia가 Hugging Face를 인수한 이유는 무엇입니까? 과거의 Microsoft 거래가 단서를 제공합니다"
+    },
+    {
+      "headline": "Options volume erupts in retail trading favorites as Robinhood, Tesla surge",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/03/options-volume-erupts-in-retail-trading-favorites-as-robinhood-tesla-surge.html",
+      "datetime": 1788458213,
+      "headlineKo": "Robinhood, Tesla 급등으로 소매 거래에서 선호하는 옵션 거래량이 급증했습니다."
     }
   ],
   "fgi": {
-    "score": 35.2571428571429,
+    "score": 35.2285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788488548.5725014,
-  "_updated_label": "2026-09-04 11:22",
-  "_last_attempt_at": 1788488548.5725014,
-  "_last_success_at": 1788488548.5725014,
+  "_fetched_at": 1788496001.265853,
+  "_updated_label": "2026-09-04 13:27",
+  "_last_attempt_at": 1788496001.265853,
+  "_last_success_at": 1788496001.265853,
   "_collection_status": "ok",
   "_collection_errors": []
 };

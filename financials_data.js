@@ -3931,16 +3931,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:52"
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:25"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:52"
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:25"
   },
   "ORCL": {
     "annual": [
@@ -6939,8 +6939,39 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:53",
+    "sharesOutstanding": [
+      {
+        "date": "2025-02-27",
+        "shares": 144863251
+      },
+      {
+        "date": "2025-05-05",
+        "shares": 145299218
+      },
+      {
+        "date": "2025-08-13",
+        "shares": 145805548
+      },
+      {
+        "date": "2025-10-31",
+        "shares": 146553179
+      },
+      {
+        "date": "2026-01-23",
+        "shares": 147567249
+      },
+      {
+        "date": "2026-04-24",
+        "shares": 148089758
+      },
+      {
+        "date": "2026-08-07",
+        "shares": 146419001
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:25",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -6967,7 +6998,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788490397.917664,
+    "_yahoo_verified_at": 1788495956.9283974,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -7260,8 +7291,107 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:53",
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-30",
+        "shares": 304245045
+      },
+      {
+        "date": "2021-01-29",
+        "shares": 306097179
+      },
+      {
+        "date": "2021-04-29",
+        "shares": 306452886
+      },
+      {
+        "date": "2021-08-18",
+        "shares": 308748049
+      },
+      {
+        "date": "2021-10-28",
+        "shares": 311622921
+      },
+      {
+        "date": "2022-01-27",
+        "shares": 312917687
+      },
+      {
+        "date": "2022-04-27",
+        "shares": 313167818
+      },
+      {
+        "date": "2022-08-11",
+        "shares": 314492541
+      },
+      {
+        "date": "2022-10-26",
+        "shares": 317650295
+      },
+      {
+        "date": "2023-01-25",
+        "shares": 319322335
+      },
+      {
+        "date": "2023-04-26",
+        "shares": 319937433
+      },
+      {
+        "date": "2023-08-04",
+        "shares": 321895961
+      },
+      {
+        "date": "2023-10-25",
+        "shares": 324243164
+      },
+      {
+        "date": "2024-01-24",
+        "shares": 325859745
+      },
+      {
+        "date": "2024-04-22",
+        "shares": 326524668
+      },
+      {
+        "date": "2024-08-07",
+        "shares": 343451583
+      },
+      {
+        "date": "2024-10-22",
+        "shares": 345708453
+      },
+      {
+        "date": "2025-01-22",
+        "shares": 347823902
+      },
+      {
+        "date": "2025-04-25",
+        "shares": 348878365
+      },
+      {
+        "date": "2025-07-23",
+        "shares": 346922126
+      },
+      {
+        "date": "2025-10-23",
+        "shares": 341899281
+      },
+      {
+        "date": "2026-01-22",
+        "shares": 339037922
+      },
+      {
+        "date": "2026-04-23",
+        "shares": 344682131
+      },
+      {
+        "date": "2026-08-07",
+        "shares": 360540944
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:25",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7288,7 +7418,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788490397.917664,
+    "_yahoo_verified_at": 1788495956.9283974,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -10610,8 +10740,107 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:53",
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-26",
+        "shares": 256932251
+      },
+      {
+        "date": "2021-01-25",
+        "shares": 236682057
+      },
+      {
+        "date": "2021-04-26",
+        "shares": 228873365
+      },
+      {
+        "date": "2021-08-02",
+        "shares": 227603061
+      },
+      {
+        "date": "2021-10-25",
+        "shares": 222635945
+      },
+      {
+        "date": "2022-01-24",
+        "shares": 218898339
+      },
+      {
+        "date": "2022-04-25",
+        "shares": 214843969
+      },
+      {
+        "date": "2022-08-01",
+        "shares": 208755418
+      },
+      {
+        "date": "2022-10-24",
+        "shares": 206454363
+      },
+      {
+        "date": "2023-01-23",
+        "shares": 206483864
+      },
+      {
+        "date": "2023-04-24",
+        "shares": 207082374
+      },
+      {
+        "date": "2023-07-31",
+        "shares": 207393242
+      },
+      {
+        "date": "2023-10-23",
+        "shares": 209183986
+      },
+      {
+        "date": "2024-01-22",
+        "shares": 209510729
+      },
+      {
+        "date": "2024-04-22",
+        "shares": 209988542
+      },
+      {
+        "date": "2024-07-30",
+        "shares": 210195239
+      },
+      {
+        "date": "2024-10-23",
+        "shares": 211529509
+      },
+      {
+        "date": "2025-01-22",
+        "shares": 211707393
+      },
+      {
+        "date": "2025-04-29",
+        "shares": 212217463
+      },
+      {
+        "date": "2025-07-29",
+        "shares": 212677178
+      },
+      {
+        "date": "2025-10-28",
+        "shares": 213558113
+      },
+      {
+        "date": "2026-01-27",
+        "shares": 218073067
+      },
+      {
+        "date": "2026-04-27",
+        "shares": 224228992
+      },
+      {
+        "date": "2026-07-31",
+        "shares": 226644518
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:25",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10638,7 +10867,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788490397.917664,
+    "_yahoo_verified_at": 1788495956.9283974,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
@@ -11377,13 +11606,13 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788490379.4348376,
-    "_updated_label": "2026-09-04 11:53",
+    "_fetched_at": 1788495938.5210626,
+    "_updated_label": "2026-09-04 13:26",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788490397.917664
+    "_yahoo_verified_at": 1788495956.9283974
   },
   "MOD": {
     "annual": [

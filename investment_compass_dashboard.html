@@ -480,6 +480,9 @@
      순환 갱신 파이프라인에 연결함. 없어도 대시보드는 정상 동작함 -->
 <script src="eps_data.js" onerror="void 0"></script>
 <script src="guidance_history_data.js" onerror="void 0"></script>
+<!-- 공매도(FINRA, 무료·비상업 이용) - 2026-09-04 추가. 격주 갱신이라 파일이 아직 없을 수 있어
+     onerror로 없어도 대시보드가 정상 동작하게 함(참고용 지표, 매수·매도 신호 아님) -->
+<script src="short_interest_data.js" onerror="void 0"></script>
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
 <script src="kiwoom_sells_data.js" onerror="void 0"></script>
@@ -5835,6 +5838,7 @@ function tabValueQuality(r){
     ${valueQualityComment(r, fund)}
     ${renderBusinessNotes(r.ticker)}
     ${renderFundamentalWindowScores(r.ticker)}
+    ${shortInterestComment(r.ticker)}
     <div class="fund-grid">
       <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS)}${marketCapRow}</div>
       <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
@@ -5900,6 +5904,70 @@ function missingNote(rows, fields){
     return have === 0 ? `<b>${f.label}</b>(전혀 없음)` : `<b>${f.label}</b>(${rows.length}년 중 ${have}년만)`;
   });
   return `<span class="sub">※ ${parts.join(' · ')} 항목은 이 회사의 공시 계정 이름이 달라 자동 추출이 안 됐어요 — 값이 없는 것이지 0이라는 뜻이 아니에요. 그래서 위 설명에서도 그 항목은 빼고 계산했어요.</span>`;
+}
+function shortInterestComment(ticker){
+  // 2026-09-04 추가(사용자 요청 "공매도 데이터를 무료로 구할 수 있는지 조사") - FINRA가 격주로
+  // 공개하는 무료 공매도 데이터(short_interest_data.js, 없으면 이 함수는 그냥 빈 문자열을
+  // 반환함). 공매도가 많다는 게 그 자체로 "곧 떨어진다"는 뜻은 아니라서(오히려 숏스퀴즈로
+  // 반등하는 경우도 있음) 방향성 있는 판단 문장은 만들지 않고, 숫자와 정의만 그대로 보여준다.
+  const rows = (typeof SHORT_INTEREST_DATA !== 'undefined' ? SHORT_INTEREST_DATA[ticker] : null) || [];
+  if(!rows.length) return '';
+  const sorted = [...rows].sort((a,b)=> a.settlementDate < b.settlementDate ? -1 : (a.settlementDate > b.settlementDate ? 1 : 0));
+  const last = sorted[sorted.length-1];
+  const prev = sorted.length > 1 ? sorted[sorted.length-2] : null;
+  if(last.shortShares == null) return '';
+  const fmtShares = n => (n/1e6).toFixed(1) + '백만주';
+  const items = [];
+  items.push(`가장 최근 정산일(${last.settlementDate}) 공매도 잔고는 <b>${fmtShares(last.shortShares)}</b>${last.daysToCover!=null?`, 일평균 거래량 기준 청산에 <b>${last.daysToCover.toFixed(1)}일</b>`:''} 걸리는 수준이에요.`);
+  if(prev && prev.shortShares != null && prev.shortShares !== 0){
+    const pct = (last.shortShares/prev.shortShares - 1) * 100;
+    items.push(Math.abs(pct) < 0.5
+      ? `직전 정산일(${prev.settlementDate})과 비슷한 수준이에요.`
+      : `직전 정산일(${prev.settlementDate}, ${fmtShares(prev.shortShares)})보다 ${pct>=0?'+':''}${pct.toFixed(1)}% ${pct>=0?'늘었어요':'줄었어요'}.`);
+  }
+  items.push(`<span class="sub">FINRA가 격주로 공개하는 공식 공매도 데이터예요(참고용) · 공매도가 많다고 곧 하락한다는 뜻은 아니고(숏스퀴즈로 반등하는 경우도 있어요), 적다고 안전하다는 뜻도 아니에요 - 아직 백테스트로 검증되지 않았고 그 자체로 매수·매도 신호는 아니에요.</span>`);
+  return cmtBox(items, 'plain');
+}
+function sharesOutstandingComment(fin){
+  // 2026-09-04 추가(사용자 요청 "유통주식수·자사주매입 데이터 확보 가능한지 조사") - SEC 공시
+  // 표지에 적힌 유통주식수(dei:EntityCommonStockSharesOutstanding)가 시간에 따라 줄면 자사주매입
+  // 등으로 주식수가 감소하는 추세, 늘면 신주발행 등으로 증가(희석)하는 추세라는 뜻이에요.
+  // 아직 백테스트로 검증되지 않은 새 참고 지표라 tone은 항상 'plain'(색상 강조 없음)으로 고정.
+  const rows = (fin?.sharesOutstanding || []).filter(d=>d && d.date && typeof d.shares === 'number' && d.shares > 0);
+  if(rows.length < 2) return '';
+  const sorted = [...rows].sort((a,b)=> a.date < b.date ? -1 : (a.date > b.date ? 1 : 0));
+  const last = sorted[sorted.length-1];
+  const lastDate = new Date(last.date);
+  function closestBeforeYears(years){
+    const target = new Date(lastDate); target.setFullYear(target.getFullYear() - years);
+    let best = null, bestDiff = Infinity;
+    for(const row of sorted){
+      const d = new Date(row.date);
+      if(d > lastDate) continue;
+      const diff = Math.abs(d - target);
+      if(diff < bestDiff){ bestDiff = diff; best = row; }
+    }
+    return (best && bestDiff <= 1000*60*60*24*200 && best.date !== last.date) ? best : null;
+  }
+  const y1 = closestBeforeYears(1);
+  const y3 = closestBeforeYears(3);
+  const fmtShares = n => (n/1e6).toFixed(1) + '백만주';
+  const items = [];
+  items.push(`가장 최근(${last.date}) 유통주식수는 <b>${fmtShares(last.shares)}</b>예요(SEC 공시 표지 기준).`);
+  if(y1){
+    const pct = (last.shares/y1.shares - 1) * 100;
+    items.push(Math.abs(pct) < 0.3
+      ? `1년 전(${y1.date})과 거의 같은 수준이에요(${pct>=0?'+':''}${pct.toFixed(1)}%).`
+      : (pct < 0
+        ? `1년 전(${y1.date}, ${fmtShares(y1.shares)})보다 <b>${Math.abs(pct).toFixed(1)}% 줄었어요</b> — 자사주매입 등으로 주식수가 감소하는 추세예요.`
+        : `1년 전(${y1.date}, ${fmtShares(y1.shares)})보다 <b>${pct.toFixed(1)}% 늘었어요</b> — 신주 발행 등으로 주식수가 증가하는 추세예요(주당 가치가 희석될 수 있어요).`));
+  }
+  if(y3){
+    const pct3 = (last.shares/y3.shares - 1) * 100;
+    items.push(`3년 전(${y3.date}, ${fmtShares(y3.shares)})과 비교하면 ${pct3>=0?'+':''}${pct3.toFixed(1)}%예요.`);
+  }
+  items.push(`<span class="sub">SEC 공시(dei:EntityCommonStockSharesOutstanding)에서 가져온 참고용 지표예요 · 아직 백테스트로 검증되지 않았고 그 자체로 매수·매도 신호는 아니에요.</span>`);
+  return cmtBox(items, 'plain');
 }
 function cmtBox(items, tone){
   if(!items.length) return '';
@@ -6471,6 +6539,7 @@ function tabFinancials(r){
     <canvas id="finCfCanvas"></canvas>
     <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
     ${cashflowComment(annual)}
+    ${sharesOutstandingComment(fin)}
     ${financialDirectionComment(r, fin)}
     <div style="overflow-x:auto;">
     <table style="min-width:640px;">
