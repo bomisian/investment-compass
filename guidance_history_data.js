@@ -92,7 +92,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "CRM": [
     {
-      "capturedAt": 1788458648.9315727,
+      "capturedAt": 1788480296.8910036,
       "filingDate": "2026-08-26",
       "accessionNumber": "0001108524-26-000187",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm",
@@ -117,7 +117,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "MRVL": [
     {
-      "capturedAt": 1788458648.9315727,
+      "capturedAt": 1788480296.8910036,
       "filingDate": "2026-08-27",
       "accessionNumber": "0001835632-26-000022",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm",

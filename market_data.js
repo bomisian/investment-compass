@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.77999877929688,
+      "current": 91.80000305175781,
       "prevClose": 91.01000213623047,
-      "changeAbs": 0.7699966430664062,
-      "changePct": 0.8460571640398586,
-      "pctRank": 85.60063643595863,
+      "changeAbs": 0.7900009155273438,
+      "changePct": 0.8680374650962124,
+      "pctRank": 85.68019093078759,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.742805436857324,
-      "ma20": 84.79450035095215,
-      "ma60": 80.33233337402343,
-      "chg1m": 16.55999755859375,
-      "chg3m": -1.2600021362304688,
-      "chg1mPct": 22.01541782750712,
-      "chg3mPct": -1.3542585165862657,
+      "drawdown1y": -18.725094703788326,
+      "ma20": 84.79550056457519,
+      "ma60": 80.33266677856446,
+      "chg1m": 16.580001831054688,
+      "chg3m": -1.2399978637695312,
+      "chg1mPct": 22.04201218025413,
+      "chg3mPct": -1.3327577940324262,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.00299835205078,
+      "current": 98.96800231933594,
       "prevClose": 99.55999755859375,
-      "changeAbs": -0.5569992065429688,
-      "changePct": -0.5594608479325842,
-      "pctRank": 26.25298329355609,
+      "changeAbs": -0.5919952392578125,
+      "changePct": -0.5946115445708074,
+      "pctRank": 25.69610182975338,
       "min5y": 92.04000091552734,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5656945602214543,
-      "ma20": 99.4151496887207,
-      "ma60": 100.29538345336914,
-      "chg1m": -0.6870040893554688,
-      "chg3m": -0.40700531005859375,
-      "chg1mPct": -0.689140407794916,
-      "chg3mPct": -0.40942087824680956,
+      "drawdown1y": -2.6001360841901966,
+      "ma20": 99.41339988708496,
+      "ma60": 100.29480018615723,
+      "chg1m": -0.7220001220703125,
+      "chg3m": -0.4420013427734375,
+      "chg1mPct": -0.7242452647091416,
+      "chg3mPct": -0.44462461169982687,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4521.7001953125,
+      "current": 4525.2001953125,
       "prevClose": 4366.2998046875,
-      "changeAbs": 155.400390625,
-      "changePct": 3.5590865853546703,
+      "changeAbs": 158.900390625,
+      "changePct": 3.6392459916382824,
       "pctRank": 92.60143198090692,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -14.980063960217716,
-      "ma20": 4464.2,
-      "ma60": 4225.62333984375,
-      "chg1m": 275.900390625,
-      "chg3m": 45.900390625,
-      "chg1mPct": 6.498195942267393,
-      "chg3mPct": 1.0255237639746213,
+      "drawdown1y": -14.914254693064677,
+      "ma20": 4464.375,
+      "ma60": 4225.681673177083,
+      "chg1m": 279.400390625,
+      "chg3m": 49.400390625,
+      "chg1mPct": 6.580630351825184,
+      "chg3mPct": 1.1037220783034807,
       "lastDate": "2026-09-03",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 8.75898002287916,
-        "ret3m": 4.5443625701884205,
-        "ret6m": 16.52624823494748,
-        "ret1y": 14.451804000944701,
+        "ret1m": 3.8577906593237454,
+        "ret3m": 1.7263926415477249,
+        "ret6m": 13.220143051428735,
+        "ret1y": 12.317828668099985,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -3.7112790143504992,
-        "ret3m": -14.246492266083699,
-        "ret6m": 75.28417128255376,
-        "ret1y": 234.92339611817212,
+        "ret1m": -5.792271641687474,
+        "ret3m": -16.029003323202485,
+        "ret6m": 72.3123115227374,
+        "ret1y": 236.74364334323204,
         "winRate": 71.5,
         "count": 16
       }
@@ -211,13 +211,27 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.10059492737054371,
-    "corrPctRank": 0.0,
-    "corrMin5y": 0.10059492737054371,
+    "corr60": 0.109018992867599,
+    "corrPctRank": 0.08382229673093043,
+    "corrMin5y": 0.10165206112090858,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUEFXVU5xRXZGVUVkV3B2TUVQcTBseVZsSGd0blBwQktIaGlIc3R5TzMtNXFISkFTb1VOdlhWOXBmQ052RWFuT1pQaXJqQndNaXB3TmhLQTZPQXNQSFFXQ3JGY0NBdE1RY09razBPZFh2VnJiYmlBSld3akdLeHZxbVA5bWNqVWFycjFlUHFNd3VPdE4tYTFVaWxmdDBoOUlxUk80X0dkbkFqOV9SU3lxNkFsd0JGZnB5Qk9SV3JGWkxRWlhn?oc=5",
+      "datetime": 1788477571,
+      "headlineKo": "이란 결혼식에 대한 치명적인 공격은 미국 군수품의 직접적인 타격일 가능성이 높다는 분석이 나왔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
+      "datetime": 1788473423,
+      "headlineKo": "밴스 \"이란 분쟁은 전쟁이 아니다\""
+    },
     {
       "headline": "US diesel prices hit record high as conflicts intensify supply crunch - Reuters",
       "source": "Reuters",
@@ -226,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "분쟁으로 공급 부족이 심화되면서 미국 디젤 가격이 사상 최고치를 기록했습니다."
     },
     {
-      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - Reuters",
+      "headline": "Iran buries victims of reported US wedding attack, fires on Kuwait - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
-      "datetime": 1788468810,
-      "headlineKo": "밴스 \"이란 분쟁은 전쟁이 아니다\""
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmJEcTdhQU9kcW41Z2J6enVZU2NHQ253eVV1VDJKOXBSTTJfbGhfVi1wbTQ0U1gzRllLb2xUUV9LRGRZaWpvaUlSWWRwQTdBaXdNY2x1Z3pxU1U1WjJSdzdKWGR6a2FLSXN6dnBPQ3NhM1hwUkxOZlIyd0dDX0ZycjdVSlpEUFN5N1NQbWR2UW1oRHNBU3BTZENPbGotQVFOSmdfUUFJNERYbEZTVzU3WDlrUQ?oc=5",
+      "datetime": 1788469133,
+      "headlineKo": "이란, 쿠웨이트에서 미국 결혼식 공격 보고된 희생자 매장 - 로이터"
     },
     {
       "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVJMTlRnNjZsN3VYWVl3N2NQYl9EMjBhcHR6Qzl0WDk4QTBSRnFPZFFBWnFMOW0zRE9uX1BJVmhGbnlPLUZkRG5UOXZ1LWhOdXctWFFGbmF2ZVVMcEZ4SVVtYnoweU0wa3lNMWI2Sm1iME9YcnpOYVlvSmh3OUUzYUZDUUpHN0NFVWNrNXVRVkNiS0E1amRfeXI0SXoxTEw3eWtTTXM2ZTJqMVdnaXVHelNtRQ?oc=5",
       "datetime": 1788451140,
       "headlineKo": "트럼프 \"우크라이나 원조 대가로 유럽에 돈 돌려줄 것\" - 로이터 통신"
-    },
-    {
-      "headline": "Big lessons from 12 stock exits, including Cramer's biggest-ever disappointment",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/03/big-lessons-from-12-stock-exits-including-cramers-biggest-ever-disappointment-.html",
-      "datetime": 1788450786,
-      "headlineKo": "Cramer의 사상 최대 실망을 포함하여 12개의 주식 청산에서 얻은 큰 교훈"
-    },
-    {
-      "headline": "US pressure on Iran starting to tell, as sanctions and blockade bite - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSFdWSEQ0NWhzbDhXcnU0Qkg3M2tkUTFVd3FORVkycWhEWWN4M0ZvM3gzaHRUb1c5dkw0Vm1iZXNfM1FiVUFFLURwUUhGektkY01rd0VYT1N2dXJTTks4OEhKN09lRExxZ1dCTDcwZ082XzRmMEMwNkpENlF1c1BnVFlBMmdmd1pRUC14cVZfMmpTdzVpTmpaVWtjdUszR1pxWExxX05Zb0hxSDQy?oc=5",
-      "datetime": 1788447855,
-      "headlineKo": "제재와 봉쇄로 이란에 대한 미국의 압박이 시작됐다 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 35.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788476429.0890028,
-  "_updated_label": "2026-09-04 08:00",
-  "_last_attempt_at": 1788476429.0890028,
-  "_last_success_at": 1788476429.0890028,
+  "_fetched_at": 1788480310.0874221,
+  "_updated_label": "2026-09-04 09:05",
+  "_last_attempt_at": 1788480310.0874221,
+  "_last_success_at": 1788480310.0874221,
   "_collection_status": "ok",
   "_collection_errors": []
 };
