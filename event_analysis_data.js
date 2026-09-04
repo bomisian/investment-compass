@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788535975.5139322,
+  "generatedAt": 1788537663.4386752,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788498512,
       "signal": "주의 강화",
       "netScore": -2.74,
@@ -167,7 +167,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788498512,
       "signal": "주의 강화",
       "netScore": -4.63,
@@ -388,7 +388,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788491864,
       "signal": "주의 강화",
       "netScore": -3.29,
@@ -581,7 +581,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788471160,
       "signal": "중립·확인 대기",
       "netScore": -0.98,
@@ -691,7 +691,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788496678,
       "signal": "주의 강화",
       "netScore": -8.19,
@@ -842,7 +842,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788535260,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1063,7 +1063,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788497674,
       "signal": "중립·확인 대기",
       "netScore": -0.49,
@@ -1230,7 +1230,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788440400,
       "signal": "우호적 변화",
       "netScore": 4.19,
@@ -1326,7 +1326,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788516240,
       "signal": "주의 강화",
       "netScore": -4.97,
@@ -1478,8 +1478,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1788535975.5139322,
-      "dataAsOf": 1788516240,
+      "updatedAt": 1788537663.4386752,
+      "dataAsOf": 1788525840,
       "signal": "우호적 변화",
       "netScore": 9.6,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -1526,6 +1526,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "4ac4dd5bd64db8ced620",
+          "headline": "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788525840,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
         {
           "eventId": "c6fb4293e7f004e8c532",
           "headline": "팔란티르 억만장자 피터 틸, 10년 만에 AI 주식 560% 증가 (힌트: 엔비디아 아님)",
@@ -1674,30 +1687,16 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 컴퓨팅 수요 확대 가능성"
-        },
-        {
-          "eventId": "10920d99d3f2df0e658d",
-          "headline": "엔비디아의 50억 달러 인텔 베팅은 6월까지 300억 달러 가치가 되었습니다. 파트너십 가격이 여전히 잘못 책정되어 있나요?",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1788471580,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=8316bfe61c35a3736280c7432450477ce7b65b3cb2e2b4370124e71ff192953e",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 1,
-      "unverifiedEvidenceCount": 48,
+      "unverifiedEvidenceCount": 49,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1788535975.5139322,
-      "dataAsOf": 1788516240,
+      "updatedAt": 1788537663.4386752,
+      "dataAsOf": 1788525840,
       "signal": "우호적 변화",
       "netScore": 10,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -1744,6 +1743,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "4ac4dd5bd64db8ced620",
+          "headline": "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788525840,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
         {
           "eventId": "c6fb4293e7f004e8c532",
           "headline": "팔란티르 억만장자 피터 틸, 10년 만에 AI 주식 560% 증가 (힌트: 엔비디아 아님)",
@@ -1887,28 +1899,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "5a8ad5e841d509fad5c3",
-          "headline": "억만장자 Dan Loeb는 Nvidia와 Broadcom을 떠났습니다. 그는 AI 칩의 최고라고 부르고 있습니까?",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1788405833,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=2c8c88244c26033b707b730a9c0166ebdf6e1fd2884f6dc35bfb58d7b0991e98",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 29,
+      "unverifiedEvidenceCount": 30,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788444356,
       "signal": "주의 강화",
       "netScore": -4.0,
@@ -2110,7 +2109,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788496678,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -2193,7 +2192,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2247,7 +2246,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788524785,
       "signal": "주의 강화",
       "netScore": -8.9,
@@ -2414,7 +2413,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788471580,
       "signal": "우호적 변화",
       "netScore": 7.04,
@@ -2634,7 +2633,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788524785,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -2716,7 +2715,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2770,7 +2769,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788319010,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -2838,7 +2837,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788278554,
       "signal": "중립·확인 대기",
       "netScore": -0.91,
@@ -2906,7 +2905,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2960,8 +2959,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1788535975.5139322,
-      "dataAsOf": 1788516240,
+      "updatedAt": 1788537663.4386752,
+      "dataAsOf": 1788525840,
       "signal": "우호적 변화",
       "netScore": 7.92,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -3008,6 +3007,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "4ac4dd5bd64db8ced620",
+          "headline": "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다.",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788525840,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
         {
           "eventId": "c6fb4293e7f004e8c532",
           "headline": "팔란티르 억만장자 피터 틸, 10년 만에 AI 주식 560% 증가 (힌트: 엔비디아 아님)",
@@ -3153,29 +3165,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "a794da85bd3224401c5f",
-          "headline": "연준의 9월 결정은 마이크론 자체 수익보다 더 큰 타격을 줄 수 있습니다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1788449700,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=d8239a05c5bbef1806c2de55b58a63fe0ad6c8988ceecff623bab1bdaaa4c857",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 39,
+      "unverifiedEvidenceCount": 40,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788405452,
       "signal": "우호적 변화",
       "netScore": 2.23,
@@ -3284,7 +3282,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788496678,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -3367,7 +3365,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3421,7 +3419,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788439557,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -3503,7 +3501,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788289235,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3571,7 +3569,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788523200,
       "signal": "중립·확인 대기",
       "netScore": 0.42,
@@ -3696,7 +3694,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3750,7 +3748,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3804,7 +3802,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788372720,
       "signal": "우호적 변화",
       "netScore": 2.1,
@@ -3886,7 +3884,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3940,7 +3938,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3994,7 +3992,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788450600,
       "signal": "우호적 변화",
       "netScore": 9.44,
@@ -4177,7 +4175,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788346043,
       "signal": "중립·확인 대기",
       "netScore": -1.26,
@@ -4246,7 +4244,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4300,7 +4298,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4354,7 +4352,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 1788319200,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -4423,7 +4421,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1788535975.5139322,
+      "updatedAt": 1788537663.4386752,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

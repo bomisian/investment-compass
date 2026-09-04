@@ -67,6 +67,9 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 344.5699,
     "52WeekLow": 225.95,
     "beta": 1.0942221,
+    "dividendYieldIndicatedAnnual": 0.50534,
+    "dividendPerShareTTM": 1.0616,
+    "dividendGrowthRate5Y": 4.95,
     "avgPe3Y": 32.996199999999995,
     "peDeviation3Y": 13.094538158939523,
     "perBandYears": 25,
@@ -76,11 +79,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 70.25,
     "name": "Apple Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00",
-    "dividendYieldIndicatedAnnual": 0.50534,
-    "dividendPerShareTTM": 1.0616,
-    "dividendGrowthRate5Y": 4.95
+    "_fetched_at": 1788537602.352438,
+    "_updated_label": "2026-09-05 01:00"
   },
   "GOOGL": {
     "forwardPE": 19.28932,
@@ -196,8 +196,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.19,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00"
+    "_fetched_at": 1788537602.352438,
+    "_updated_label": "2026-09-05 01:00"
   },
   "TSM": {
     "forwardPE": 21.36449,
@@ -842,11 +842,11 @@ const FUNDAMENTALS_DATA = {
   },
   "KLAC": {
     "forwardPE": 32.38702,
-    "peTTM": 56.5539,
-    "psTTM": 20.1185,
-    "pb": 43.0247,
-    "evEbitdaTTM": 45.7336,
-    "pfcfShareTTM": 72.5217,
+    "peTTM": 46.636,
+    "psTTM": 16.5903,
+    "pb": 35.4794,
+    "evEbitdaTTM": 37.8358,
+    "pfcfShareTTM": 59.8035,
     "forwardPEG": 1.13321,
     "operatingMarginTTM": 41.77,
     "revenueGrowthTTMYoy": 11.71,
@@ -862,12 +862,15 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 2.0287,
     "longTermDebt/equityQuarterly": 0.9272,
     "totalDebt/totalEquityQuarterly": 0.9272,
-    "marketCapitalization": 273198.94,
+    "marketCapitalization": 225287.84,
     "52WeekHigh": 307.3743,
     "52WeekLow": 83.22,
     "beta": 1.4580749,
+    "dividendYieldIndicatedAnnual": 1.04384,
+    "dividendPerShareTTM": 0.8055,
+    "dividendGrowthRate5Y": 17.29,
     "avgPe3Y": 50.367533333333334,
-    "peDeviation3Y": 12.282449143826774,
+    "peDeviation3Y": -7.408608455446824,
     "perBandYears": 26,
     "perBandLow": 0.7888900936747172,
     "perBandHigh": 1.902440634178307,
@@ -875,11 +878,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 41.85,
     "name": "KLA Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00",
-    "dividendYieldIndicatedAnnual": 1.04384,
-    "dividendPerShareTTM": 0.8055,
-    "dividendGrowthRate5Y": 17.29
+    "_fetched_at": 1788537602.352438,
+    "_updated_label": "2026-09-05 01:00"
   },
   "SNDK": {
     "forwardPE": 6.50255,
@@ -1120,6 +1120,8 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 412.7,
     "52WeekLow": 228.63,
     "beta": 1.1231574,
+    "dividendYieldIndicatedAnnual": 0.91071,
+    "dividendPerShareTTM": 7.5622,
     "avgPe3Y": 29.746333333333336,
     "peDeviation3Y": -4.217438563856614,
     "perBandYears": 3,
@@ -1127,10 +1129,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.690000000000001,
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00",
-    "dividendYieldIndicatedAnnual": 0.91071,
-    "dividendPerShareTTM": 7.5622
+    "_fetched_at": 1788537602.352438,
+    "_updated_label": "2026-09-05 01:00"
   },
   "VST": {
     "forwardPE": 14.48324,

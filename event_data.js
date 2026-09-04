@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788535975.4614966,
+  "generatedAt": 1788537663.388044,
   "events": [
     {
       "id": "b9919c73a92d6264545d",
@@ -154,6 +154,99 @@ const EVENT_DATA = {
         "공식 매출·EPS 가이던스",
         "컨센서스 추정치 변경",
         "마진·FCF 전망"
+      ]
+    },
+    {
+      "id": "4ac4dd5bd64db8ced620",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "AMD",
+        "CRM",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join",
+      "headlineKo": "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
+        "publishedAt": 1788525840,
+        "collectedAt": 1788537632.8362987
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "기사에서 언급된 규모: $25 Billion, 1.92%, $50 billion, $25 billion, 38%, 20%, 11%, 14%.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 CRM의 사업과 관련된 'Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
       ]
     },
     {
@@ -2603,8 +2696,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
@@ -2613,45 +2706,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
         "publishedAt": 1788471002,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "Snowflake를 통해 엔터프라이즈 AI 지출이 현실화되면서 Salesforce가 2.75% 이익을 얻습니다."
       ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
+      "watch": []
     },
     {
       "id": "449937cdd2c804fb1cee",
@@ -3474,15 +3556,15 @@ const EVENT_DATA = {
         "CRM"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
@@ -3491,34 +3573,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b9227a9a994e2901b52f76042bd10a151327a8cf995c860e2928c33dbe3d37d",
         "publishedAt": 1788459000,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "VEEV, Vault CRM 및 AI 모멘텀이 빠르게 가속화됨에 따라 FY27 Outlook 제기"
+        "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
     },
     {
       "id": "59c241266885f400538e",
@@ -3978,7 +4071,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
         "publishedAt": 1788457440,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6580,7 +6673,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
         "publishedAt": 1788440400,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10341,7 +10434,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13733,7 +13826,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15492,7 +15585,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788515115.7877812
+        "collectedAt": 1788537632.8362987
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17783,79 +17876,6 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "4d1c3fad725d3697dcbe",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "META",
-      "relatedTickers": [
-        "META"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Innovid Expands NIVO with Meta Ads MCP Integration to Bring Connected AI Workflows to Social Advertising",
-      "headlineKo": "Innovid, 메타 광고 MCP 통합으로 NIVO를 확장하여 연결된 AI 워크플로우를 소셜 광고에 도입",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e9bb5853976b306fd58ddd9abd913a11feff43b6fc8180ee2fe63b571ed2c3f1",
-        "publishedAt": 1788271200,
-        "collectedAt": 1788526236.2086499
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Innovid Expands NIVO with Meta Ads MCP Integration to Bring Connected AI Workflows to Social Advertising",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "META에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "META의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "META",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
@@ -18034,6 +18054,196 @@ const EVENT_DATA = {
       "e41e257986f33e4d3ebe",
       "0a6cd4892cdef50f2191"
     ],
+    "AMD": [
+      "4ac4dd5bd64db8ced620",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "8a06286de161b53c7adf",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "d7a6269695f185657405",
+      "62362d03cbbc263295bf",
+      "afc6ef41efa5323e7e01",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "86b649f3fc2b87a9ed44",
+      "8ecba0abad31ef65af5b",
+      "2a6c8c1433318f89e67b",
+      "840acf4171507b96946e",
+      "bc40ecde4d85b2bee1d9",
+      "34335ee341cff1df990f",
+      "ef0940f7bec43eec2f1b",
+      "570e12f738ae57a4edc4",
+      "89d6ef3b2acb9aed1af4",
+      "027eefd79e80fe66e6db",
+      "25fcbf2b872bc6e8c3b3",
+      "85815a920410528043f6",
+      "4386851795ae9f877900",
+      "be886586317106dbfc23",
+      "e66aef4a24b3b0f2ecc0",
+      "f77ce872a6e2c3d93af5",
+      "d0a189fca84ff4a89328",
+      "1d128098b61f7774187d"
+    ],
+    "CRM": [
+      "4ac4dd5bd64db8ced620",
+      "3c4d9c8e5500f277b4f2",
+      "6790c9bf31da64fc69a7",
+      "d36b654dd5a021d7ca75",
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442",
+      "1d5d318e3be777905f5c"
+    ],
+    "MU": [
+      "4ac4dd5bd64db8ced620",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "3b0f62bb79f7a275b575",
+      "d79a8daa76dde3162513",
+      "8a06286de161b53c7adf",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "1c87e702594bd6e0720c",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "a794da85bd3224401c5f",
+      "0489331a18d9e46cb6c8",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "aa6ba15ccc1d70ed81e3",
+      "86b649f3fc2b87a9ed44",
+      "2c20e5b2fa04a70423f4",
+      "8ecba0abad31ef65af5b",
+      "2a6c8c1433318f89e67b",
+      "840acf4171507b96946e",
+      "483da06cbebb29afc471",
+      "cb43821b18e87b0ae45e",
+      "12d88406bfdded99a78b",
+      "bc40ecde4d85b2bee1d9",
+      "34335ee341cff1df990f",
+      "ef0940f7bec43eec2f1b",
+      "570e12f738ae57a4edc4",
+      "89d6ef3b2acb9aed1af4",
+      "25fcbf2b872bc6e8c3b3",
+      "85815a920410528043f6",
+      "4386851795ae9f877900",
+      "be886586317106dbfc23",
+      "e66aef4a24b3b0f2ecc0",
+      "2a475fab7e03b917f384",
+      "a7bb3f52c79c36c766f6",
+      "4771c7405feee78cc629",
+      "c28464c23a4646a11b6b",
+      "588bcded752f6716329c",
+      "b56ec895241b583044e5",
+      "5a862643b98d77ca70e7"
+    ],
+    "NVDA": [
+      "4ac4dd5bd64db8ced620",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "a37d6ade7e65f3b25b96",
+      "3b0f62bb79f7a275b575",
+      "7d92dc5afd5a3bad6ca7",
+      "e4814d4b7067690f2446",
+      "8a06286de161b53c7adf",
+      "7d47ebbf47f40eeb974b",
+      "203ac7ae778c438d1109",
+      "b9df83f6fe28743d84a8",
+      "a679944bf3f827b85f28",
+      "10920d99d3f2df0e658d",
+      "821ae153d31f7b81a385",
+      "1ed72289d61d218e3acc",
+      "1c87e702594bd6e0720c",
+      "6fbdc1664f9422be410b",
+      "10bfe136926db68873a5",
+      "a7fbd993888bb773b0db",
+      "03daf22b336c78c03fb9",
+      "349d7baacda4201eb266",
+      "62362d03cbbc263295bf",
+      "0489331a18d9e46cb6c8",
+      "68d6214fa30957f966e1",
+      "a08e3a369108f9c0a316",
+      "69e1f2b58f7d72c7ad1d",
+      "d49961ea9a55b463e10e",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "4d7b69cb7b83acfb69b3",
+      "86b649f3fc2b87a9ed44",
+      "8ecba0abad31ef65af5b",
+      "2a6c8c1433318f89e67b",
+      "840acf4171507b96946e",
+      "c9e2117f74bdae994ea7",
+      "bc40ecde4d85b2bee1d9",
+      "34335ee341cff1df990f",
+      "ef0940f7bec43eec2f1b",
+      "570e12f738ae57a4edc4",
+      "89d6ef3b2acb9aed1af4",
+      "25fcbf2b872bc6e8c3b3",
+      "85815a920410528043f6",
+      "4386851795ae9f877900",
+      "be886586317106dbfc23",
+      "e66aef4a24b3b0f2ecc0",
+      "4fa5eae7bcd88ece6fca",
+      "99026eec57ccbd99b7f0",
+      "89c598b05d545ff7f100",
+      "30a934e066e5e114aa0e",
+      "fdeb3e7e178fa0122308",
+      "6187cd7d0e0009c42d02",
+      "1d128098b61f7774187d"
+    ],
+    "ORCL": [
+      "4ac4dd5bd64db8ced620",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "f7cf48f3dff4e76f521a",
+      "8a06286de161b53c7adf",
+      "b1d7f34226d92a8c05bb",
+      "7d47ebbf47f40eeb974b",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "ae597adae82c6229843c",
+      "f35e2b3cccf7140bfdf5",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "86b649f3fc2b87a9ed44",
+      "ab9bb62c536081fe2e18",
+      "d59fd0b739e032f3e4bc",
+      "8ecba0abad31ef65af5b",
+      "c5c4638e76e611f302f3",
+      "2a6c8c1433318f89e67b",
+      "d2e00861a5f580f67d9a",
+      "840acf4171507b96946e",
+      "6a75d70f33eda6db5b27",
+      "bc40ecde4d85b2bee1d9",
+      "34335ee341cff1df990f",
+      "ef0940f7bec43eec2f1b",
+      "570e12f738ae57a4edc4",
+      "89d6ef3b2acb9aed1af4",
+      "a769ecfdd2d29de5114d",
+      "25fcbf2b872bc6e8c3b3",
+      "85815a920410528043f6",
+      "4386851795ae9f877900",
+      "a6237d2bd84aa4ea3ec3",
+      "be886586317106dbfc23",
+      "e66aef4a24b3b0f2ecc0",
+      "30a934e066e5e114aa0e",
+      "465f729a7f5f503a83e0",
+      "e144c536c0f8e5ffcefa"
+    ],
     "TSM": [
       "5b82a5b5b975e9730dda",
       "ab814b505aa2e1d2af58",
@@ -18095,183 +18305,6 @@ const EVENT_DATA = {
       "42a4fa5288053a9d34ef",
       "1bfd3e95def9c94ccc03",
       "fd6f4c11637a7bd55bfd"
-    ],
-    "AMD": [
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "8a06286de161b53c7adf",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "d7a6269695f185657405",
-      "62362d03cbbc263295bf",
-      "afc6ef41efa5323e7e01",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "86b649f3fc2b87a9ed44",
-      "8ecba0abad31ef65af5b",
-      "2a6c8c1433318f89e67b",
-      "840acf4171507b96946e",
-      "bc40ecde4d85b2bee1d9",
-      "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "570e12f738ae57a4edc4",
-      "89d6ef3b2acb9aed1af4",
-      "027eefd79e80fe66e6db",
-      "25fcbf2b872bc6e8c3b3",
-      "85815a920410528043f6",
-      "4386851795ae9f877900",
-      "be886586317106dbfc23",
-      "e66aef4a24b3b0f2ecc0",
-      "f77ce872a6e2c3d93af5",
-      "d0a189fca84ff4a89328",
-      "1d128098b61f7774187d"
-    ],
-    "MU": [
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "3b0f62bb79f7a275b575",
-      "d79a8daa76dde3162513",
-      "8a06286de161b53c7adf",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "1c87e702594bd6e0720c",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "a794da85bd3224401c5f",
-      "0489331a18d9e46cb6c8",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "aa6ba15ccc1d70ed81e3",
-      "86b649f3fc2b87a9ed44",
-      "2c20e5b2fa04a70423f4",
-      "8ecba0abad31ef65af5b",
-      "2a6c8c1433318f89e67b",
-      "840acf4171507b96946e",
-      "483da06cbebb29afc471",
-      "cb43821b18e87b0ae45e",
-      "12d88406bfdded99a78b",
-      "bc40ecde4d85b2bee1d9",
-      "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "570e12f738ae57a4edc4",
-      "89d6ef3b2acb9aed1af4",
-      "25fcbf2b872bc6e8c3b3",
-      "85815a920410528043f6",
-      "4386851795ae9f877900",
-      "be886586317106dbfc23",
-      "e66aef4a24b3b0f2ecc0",
-      "2a475fab7e03b917f384",
-      "a7bb3f52c79c36c766f6",
-      "4771c7405feee78cc629",
-      "c28464c23a4646a11b6b",
-      "588bcded752f6716329c",
-      "b56ec895241b583044e5",
-      "5a862643b98d77ca70e7"
-    ],
-    "NVDA": [
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "a37d6ade7e65f3b25b96",
-      "3b0f62bb79f7a275b575",
-      "7d92dc5afd5a3bad6ca7",
-      "e4814d4b7067690f2446",
-      "8a06286de161b53c7adf",
-      "7d47ebbf47f40eeb974b",
-      "203ac7ae778c438d1109",
-      "b9df83f6fe28743d84a8",
-      "a679944bf3f827b85f28",
-      "10920d99d3f2df0e658d",
-      "821ae153d31f7b81a385",
-      "1ed72289d61d218e3acc",
-      "1c87e702594bd6e0720c",
-      "6fbdc1664f9422be410b",
-      "10bfe136926db68873a5",
-      "a7fbd993888bb773b0db",
-      "03daf22b336c78c03fb9",
-      "349d7baacda4201eb266",
-      "62362d03cbbc263295bf",
-      "0489331a18d9e46cb6c8",
-      "68d6214fa30957f966e1",
-      "a08e3a369108f9c0a316",
-      "69e1f2b58f7d72c7ad1d",
-      "d49961ea9a55b463e10e",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "4d7b69cb7b83acfb69b3",
-      "86b649f3fc2b87a9ed44",
-      "8ecba0abad31ef65af5b",
-      "2a6c8c1433318f89e67b",
-      "840acf4171507b96946e",
-      "c9e2117f74bdae994ea7",
-      "bc40ecde4d85b2bee1d9",
-      "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "570e12f738ae57a4edc4",
-      "89d6ef3b2acb9aed1af4",
-      "25fcbf2b872bc6e8c3b3",
-      "85815a920410528043f6",
-      "4386851795ae9f877900",
-      "be886586317106dbfc23",
-      "e66aef4a24b3b0f2ecc0",
-      "4fa5eae7bcd88ece6fca",
-      "99026eec57ccbd99b7f0",
-      "89c598b05d545ff7f100",
-      "30a934e066e5e114aa0e",
-      "fdeb3e7e178fa0122308",
-      "6187cd7d0e0009c42d02",
-      "1d128098b61f7774187d"
-    ],
-    "ORCL": [
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "f7cf48f3dff4e76f521a",
-      "8a06286de161b53c7adf",
-      "b1d7f34226d92a8c05bb",
-      "7d47ebbf47f40eeb974b",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "ae597adae82c6229843c",
-      "f35e2b3cccf7140bfdf5",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "86b649f3fc2b87a9ed44",
-      "ab9bb62c536081fe2e18",
-      "d59fd0b739e032f3e4bc",
-      "8ecba0abad31ef65af5b",
-      "c5c4638e76e611f302f3",
-      "2a6c8c1433318f89e67b",
-      "d2e00861a5f580f67d9a",
-      "840acf4171507b96946e",
-      "6a75d70f33eda6db5b27",
-      "bc40ecde4d85b2bee1d9",
-      "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "570e12f738ae57a4edc4",
-      "89d6ef3b2acb9aed1af4",
-      "a769ecfdd2d29de5114d",
-      "25fcbf2b872bc6e8c3b3",
-      "85815a920410528043f6",
-      "4386851795ae9f877900",
-      "a6237d2bd84aa4ea3ec3",
-      "be886586317106dbfc23",
-      "e66aef4a24b3b0f2ecc0",
-      "30a934e066e5e114aa0e",
-      "465f729a7f5f503a83e0",
-      "e144c536c0f8e5ffcefa"
     ],
     "INTC": [
       "4e0f9b4b4d2658fec1d8",
@@ -18412,16 +18445,7 @@ const EVENT_DATA = {
       "b7f32d6f1f59ffa40b47",
       "b0e556a8e1d47f09376f",
       "cce272cb64500427f8f9",
-      "aef74eeadca73c1b354c",
-      "4d1c3fad725d3697dcbe"
-    ],
-    "CRM": [
-      "3c4d9c8e5500f277b4f2",
-      "6790c9bf31da64fc69a7",
-      "d36b654dd5a021d7ca75",
-      "6e5f3fd14d560d5d94da",
-      "218d3602bd588615b442",
-      "1d5d318e3be777905f5c"
+      "aef74eeadca73c1b354c"
     ],
     "AMAT": [
       "54f5fa17bba83a058e79",
