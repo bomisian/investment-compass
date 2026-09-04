@@ -4,7 +4,7 @@
 const GUIDANCE_HISTORY_DATA = {
   "AMAT": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-14",
       "accessionNumber": "0000006951-24-000037",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695124000037/exhibit991q42024earningsre.htm",
@@ -42,12 +42,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 0.22,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-13",
       "accessionNumber": "0000006951-25-000005",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000005/exhibit991q12025earningsre.htm",
@@ -77,7 +77,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-15",
       "accessionNumber": "0000006951-25-000017",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
@@ -107,7 +107,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-14",
       "accessionNumber": "0000006951-25-000032",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000032/exhibit991q32025earningsre.htm",
@@ -137,7 +137,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-13",
       "accessionNumber": "0001628280-25-051998",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828025051998/exhibit991q42025earningsre.htm",
@@ -167,7 +167,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-12",
       "accessionNumber": "0001628280-26-007661",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/exhibit991q12026earningsre.htm",
@@ -197,7 +197,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-14",
       "accessionNumber": "0001628280-26-035071",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/exhibit991q22026earningsre.htm",
@@ -227,7 +227,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-13",
       "accessionNumber": "0001628280-26-056699",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm",
@@ -259,7 +259,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "COHR": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-06",
       "accessionNumber": "0001193125-24-252062",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312524252062/d857703dex992.htm",
@@ -288,7 +288,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-05",
       "accessionNumber": "0001193125-25-020821",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525020821/d835094dex992.htm",
@@ -325,12 +325,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 10.2,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-07",
       "accessionNumber": "0001193125-25-114882",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525114882/d930395dex992.htm",
@@ -367,12 +367,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 12.38,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-13",
       "accessionNumber": "0001193125-25-179833",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525179833/d22249dex992.htm",
@@ -409,12 +409,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 18.02,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-05",
       "accessionNumber": "0001193125-25-266951",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525266951/d27982dex992.htm",
@@ -443,7 +443,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-04",
       "accessionNumber": "0001193125-26-037556",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex992.htm",
@@ -472,7 +472,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-06",
       "accessionNumber": "0001193125-26-208972",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080dex992.htm",
@@ -501,7 +501,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-12",
       "accessionNumber": "0001193125-26-346860",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm",
@@ -532,7 +532,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "LITE": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-07",
       "accessionNumber": "0001628280-24-046302",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828024046302/lite_ex991xq1fy25.htm",
@@ -561,7 +561,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-03",
       "accessionNumber": "0001193125-25-019371",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000119312525019371/d842830dex991.htm",
@@ -590,7 +590,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-06",
       "accessionNumber": "0001628280-25-004265",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025004265/lite_ex991xq2fy25.htm",
@@ -627,12 +627,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "million",
         "variancePct": 27.86,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-06",
       "accessionNumber": "0001628280-25-022709",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025022709/lite_ex991xq3fy25.htm",
@@ -661,7 +661,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-12",
       "accessionNumber": "0001628280-25-039896",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025039896/lite_ex991xq4fy25.htm",
@@ -690,7 +690,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-04",
       "accessionNumber": "0001628280-25-048860",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025048860/lite_ex991xq1fy26.htm",
@@ -719,7 +719,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-03",
       "accessionNumber": "0001628280-26-005005",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite_ex991xq2fy26.htm",
@@ -748,7 +748,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-05",
       "accessionNumber": "0001628280-26-030530",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite_ex991xq3fy26.htm",
@@ -777,7 +777,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-11",
       "accessionNumber": "0001628280-26-055726",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
@@ -802,7 +802,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "CRM": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-12-03",
       "accessionNumber": "0001108524-24-000033",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852424000033/crm-q3fy25xexhibit991.htm",
@@ -825,7 +825,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-26",
       "accessionNumber": "0001108524-25-000002",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000002/crm-q4fy25xexhibit991.htm",
@@ -848,7 +848,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-28",
       "accessionNumber": "0001108524-25-000027",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000027/crm-q1fy26xexhibit991.htm",
@@ -871,7 +871,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-09-03",
       "accessionNumber": "0001108524-25-000083",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000083/crm-q2fy26xexhibit991.htm",
@@ -894,7 +894,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-12-03",
       "accessionNumber": "0001108524-25-000234",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000234/crm-q3fy26xexhibit991.htm",
@@ -917,7 +917,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-25",
       "accessionNumber": "0001108524-26-000056",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000056/crm-q4fy26xexhibit991.htm",
@@ -940,7 +940,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-27",
       "accessionNumber": "0001108524-26-000125",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000125/crm-q1fy27xexhibit991.htm",
@@ -963,7 +963,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-26",
       "accessionNumber": "0001108524-26-000187",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm",
@@ -988,7 +988,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "MRVL": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-12-03",
       "accessionNumber": "0001835632-24-000197",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563224000197/q325_8kx1122024ex-991.htm",
@@ -1012,7 +1012,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-03-05",
       "accessionNumber": "0001835632-25-000051",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000051/q425_8kx212025ex-991.htm",
@@ -1036,7 +1036,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-06",
       "accessionNumber": "0001193125-25-113881",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000119312525113881/d920821dex991.htm",
@@ -1068,12 +1068,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 18.33,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-29",
       "accessionNumber": "0001835632-25-000115",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000115/q126_8kx532025ex-991.htm",
@@ -1097,7 +1097,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-28",
       "accessionNumber": "0001835632-25-000187",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000187/q226_8kx822025ex-991.htm",
@@ -1121,7 +1121,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-12-02",
       "accessionNumber": "0001835632-25-000193",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563225000193/q326_8kx1112025ex-991.htm",
@@ -1145,7 +1145,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-03-05",
       "accessionNumber": "0001835632-26-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000006/q426_8kx1312026ex-991.htm",
@@ -1169,7 +1169,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-27",
       "accessionNumber": "0001835632-26-000014",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/q127_8kx522026ex-991.htm",
@@ -1193,7 +1193,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-27",
       "accessionNumber": "0001835632-26-000022",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm",
@@ -1219,7 +1219,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "META": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-30",
       "accessionNumber": "0001326801-24-000077",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000132680124000077/meta-09302024xexhibit991.htm",
@@ -1250,12 +1250,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 4.05,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-29",
       "accessionNumber": "0001326801-25-000014",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000014/meta-12312024xexhibit991.htm",
@@ -1278,7 +1278,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-30",
       "accessionNumber": "0001326801-25-000050",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000050/meta-03312025xexhibit991.htm",
@@ -1301,7 +1301,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-30",
       "accessionNumber": "0001628280-25-036719",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025036719/meta-06302025xexhibit991.htm",
@@ -1324,7 +1324,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-29",
       "accessionNumber": "0001628280-25-047114",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828025047114/meta-09302025xexhibit991.htm",
@@ -1353,7 +1353,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-28",
       "accessionNumber": "0001628280-26-003832",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003832/meta-12312025xexhibit991.htm",
@@ -1384,12 +1384,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.38,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-29",
       "accessionNumber": "0001628280-26-028364",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/meta-03312026xexhibit991.htm",
@@ -1420,12 +1420,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.19,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-29",
       "accessionNumber": "0001628280-26-050596",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-06302026xexhibit991.htm",
@@ -1450,7 +1450,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "PLTR": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-04",
       "accessionNumber": "0001321655-24-000207",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165524000207/a2024q3ex991earningsrelease.htm",
@@ -1473,7 +1473,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-03",
       "accessionNumber": "0001321655-25-000007",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000007/a2024q4ex991earningsrelease.htm",
@@ -1496,7 +1496,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-05",
       "accessionNumber": "0001321655-25-000063",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/a2025q1ex991pressrelease.htm",
@@ -1519,7 +1519,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-04",
       "accessionNumber": "0001321655-25-000105",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/a2025q2ex991pressrelease.htm",
@@ -1542,7 +1542,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-03",
       "accessionNumber": "0001321655-25-000130",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/a2025q3ex991earningsrelease.htm",
@@ -1565,7 +1565,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-02",
       "accessionNumber": "0001321655-26-000004",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/a2025q4ex991earningsrelease.htm",
@@ -1588,7 +1588,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-04",
       "accessionNumber": "0001321655-26-000026",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm",
@@ -1611,7 +1611,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-03",
       "accessionNumber": "0001321655-26-000039",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
@@ -1636,7 +1636,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "AMD": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-05",
       "accessionNumber": "0000002488-25-000106",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000106/amdq225earningsslidesfin.htm",
@@ -1668,12 +1668,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -11.67,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-04",
       "accessionNumber": "0000002488-25-000163",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000163/amdq325earningsslidesfin.htm",
@@ -1705,12 +1705,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -3.69,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-03",
       "accessionNumber": "0000002488-26-000014",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amdq425earningsslidesfin.htm",
@@ -1742,12 +1742,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 4.8,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-04",
       "accessionNumber": "0000002488-26-000121",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm",
@@ -1779,14 +1779,14 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -11.26,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
   ],
   "QCOM": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-06",
       "accessionNumber": "0000804328-24-000074",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432824000074/qcom092924erex991.htm",
@@ -1809,7 +1809,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-05",
       "accessionNumber": "0000804328-25-000010",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000010/qcom122924erex991.htm",
@@ -1832,7 +1832,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-30",
       "accessionNumber": "0000804328-25-000029",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000029/qcom033025erex991.htm",
@@ -1855,7 +1855,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-30",
       "accessionNumber": "0000804328-25-000044",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000044/qcom062925erex991.htm",
@@ -1878,7 +1878,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-05",
       "accessionNumber": "0000804328-25-000084",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432825000084/qcom092825erex991.htm",
@@ -1901,7 +1901,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-04",
       "accessionNumber": "0000804328-26-000016",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000016/qcom122825erex991.htm",
@@ -1924,7 +1924,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-29",
       "accessionNumber": "0000804328-26-000060",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000060/qcom032926erex991.htm",
@@ -1947,7 +1947,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-29",
       "accessionNumber": "0000804328-26-000085",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom062826erex991.htm",
@@ -1972,7 +1972,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "INTC": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-31",
       "accessionNumber": "0000050863-24-000147",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086324000147/q324_earningsrelease.htm",
@@ -1995,7 +1995,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-30",
       "accessionNumber": "0000050863-25-000004",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000004/q424_earningsrelease.htm",
@@ -2018,7 +2018,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-24",
       "accessionNumber": "0000050863-25-000070",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000070/q125_earningsrelease.htm",
@@ -2041,7 +2041,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-24",
       "accessionNumber": "0000050863-25-000107",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000107/q225_earningsrelease.htm",
@@ -2064,7 +2064,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-23",
       "accessionNumber": "0000050863-25-000169",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000169/q325earningsrelease.htm",
@@ -2087,7 +2087,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-22",
       "accessionNumber": "0000050863-26-000009",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000009/q425earningsrelease.htm",
@@ -2110,7 +2110,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-23",
       "accessionNumber": "0000050863-26-000077",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000077/q126earningsrelease.htm",
@@ -2133,7 +2133,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-23",
       "accessionNumber": "0000050863-26-000155",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/q226earningsrelease.htm",
@@ -2158,7 +2158,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "LRCX": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-23",
       "accessionNumber": "0000707549-24-000125",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754924000125/lrcx_exhibitx991xq1x2025.htm",
@@ -2182,7 +2182,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-29",
       "accessionNumber": "0000707549-25-000009",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000009/lrcx_exhibitx991xq2x2025.htm",
@@ -2206,7 +2206,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-23",
       "accessionNumber": "0000707549-25-000051",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000051/lrcx_exhibitx991xq3x2025.htm",
@@ -2230,7 +2230,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-30",
       "accessionNumber": "0000707549-25-000068",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000068/lrcx_exhibitx991xq4x2025.htm",
@@ -2254,7 +2254,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-22",
       "accessionNumber": "0000707549-25-000082",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754925000082/lrcx_exhibitx991xq1x2026.htm",
@@ -2278,7 +2278,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-28",
       "accessionNumber": "0000707549-26-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000006/lrcx_exhibitx991xq2x2026.htm",
@@ -2302,7 +2302,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-22",
       "accessionNumber": "0000707549-26-000020",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000020/lrcx_exhibitx991xq3x2026.htm",
@@ -2326,7 +2326,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-29",
       "accessionNumber": "0000707549-26-000033",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000033/lrcx_exhibitx991xq4x2026.htm",
@@ -2352,7 +2352,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "KLAC": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-30",
       "accessionNumber": "0000319201-24-000024",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920124000024/exhibit991earningsrelease0.htm",
@@ -2382,7 +2382,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-30",
       "accessionNumber": "0000319201-25-000004",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000004/exhibit991earningsrelease1.htm",
@@ -2420,12 +2420,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 6.99,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-30",
       "accessionNumber": "0000319201-25-000009",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000009/exhibit991earningsrelease0.htm",
@@ -2455,7 +2455,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-31",
       "accessionNumber": "0000319201-25-000020",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000020/exhibit991earningsrelease7.htm",
@@ -2485,7 +2485,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-29",
       "accessionNumber": "0000319201-25-000031",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920125000031/exhibit991earningsrelease0.htm",
@@ -2515,7 +2515,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-29",
       "accessionNumber": "0000319201-26-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000006/exhibit991earningsrelease1.htm",
@@ -2545,7 +2545,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-29",
       "accessionNumber": "0000319201-26-000014",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000014/exhibit991earningsrelease3.htm",
@@ -2575,7 +2575,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-28",
       "accessionNumber": "0000319201-26-000024",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000024/exhibit991earningsrelease7.htm",
@@ -2607,7 +2607,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "SNDK": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-07",
       "accessionNumber": "0002023554-25-000021",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000021/sndkq3fy25ex991-pressrelea.htm",
@@ -2638,12 +2638,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 28.22,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-08-14",
       "accessionNumber": "0001193125-25-180782",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000119312525180782/d926236dex991.htm",
@@ -2672,7 +2672,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-06",
       "accessionNumber": "0001628280-25-050180",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050180/sndkq1fy26ex991-pressrelea.htm",
@@ -2703,12 +2703,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 128.85,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-29",
       "accessionNumber": "0001628280-26-004121",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004121/sndkq2fy26ex991-pressrelea.htm",
@@ -2731,7 +2731,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-30",
       "accessionNumber": "0001628280-26-028879",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm",
@@ -2754,7 +2754,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-05",
       "accessionNumber": "0001628280-26-053346",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm",
@@ -2779,7 +2779,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "WDC": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-24",
       "accessionNumber": "0000106040-24-000037",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604024000037/a4ex991-pressreleaseq125.htm",
@@ -2816,12 +2816,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -39.42,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-29",
       "accessionNumber": "0000106040-25-000005",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000005/a4ex991-pressreleaseq225.htm",
@@ -2850,7 +2850,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-30",
       "accessionNumber": "0000106040-25-000020",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000020/a4ex991-pressreleaseq325.htm",
@@ -2880,7 +2880,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-30",
       "accessionNumber": "0000106040-25-000030",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000030/a4ex991-pressreleaseq425.htm",
@@ -2910,7 +2910,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-30",
       "accessionNumber": "0001628280-25-047539",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047539/a4ex991-pressreleaseq126.htm",
@@ -2934,7 +2934,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-29",
       "accessionNumber": "0001628280-26-004131",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026004131/a4ex991-pressreleaseq226.htm",
@@ -2958,7 +2958,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-30",
       "accessionNumber": "0001628280-26-028878",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/a4ex991-pressreleaseq326.htm",
@@ -2982,7 +2982,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-08-05",
       "accessionNumber": "0001628280-26-053305",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm",
@@ -3008,7 +3008,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "ANET": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-07",
       "accessionNumber": "0001596532-24-000366",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653224000366/ex991q324-earningsrelease.htm",
@@ -3039,12 +3039,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.96,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-18",
       "accessionNumber": "0001596532-25-000018",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000018/ex991q424-earningsrelease.htm",
@@ -3075,12 +3075,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.81,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-11-04",
       "accessionNumber": "0001596532-25-000284",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000284/ex991q325-earningsrelease.htm",
@@ -3111,14 +3111,14 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 5.86,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
   ],
   "GEV": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-23",
       "accessionNumber": "0001996810-24-000080",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681024000080/gev3q2024earningsrelease.htm",
@@ -3141,7 +3141,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-22",
       "accessionNumber": "0001996810-25-000004",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000004/gev4q2024earningsrelease.htm",
@@ -3164,7 +3164,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-23",
       "accessionNumber": "0001996810-25-000072",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000072/gevpressrelease1q25.htm",
@@ -3187,7 +3187,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-23",
       "accessionNumber": "0001996810-25-000132",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000132/gevpressrelease2q25.htm",
@@ -3218,12 +3218,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -75.04,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-22",
       "accessionNumber": "0001996810-25-000159",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681025000159/gevpressrelease3q25.htm",
@@ -3254,12 +3254,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -72.69,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-28",
       "accessionNumber": "0001996810-26-000012",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000012/gevpressrelease4q25.htm",
@@ -3290,12 +3290,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -75.38,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-22",
       "accessionNumber": "0001996810-26-000063",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000063/gevpressrelease1q26.htm",
@@ -3326,12 +3326,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -79.25,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-22",
       "accessionNumber": "0001996810-26-000147",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/gevpressrelease2q26.htm",
@@ -3356,7 +3356,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "CEG": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-11",
       "accessionNumber": "0001868275-26-000063",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511992.htm",
@@ -3381,7 +3381,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "VST": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-07",
       "accessionNumber": "0001193125-24-252608",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1692819/000119312524252608/d852941dex991.htm",
@@ -3412,14 +3412,14 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "million",
         "variancePct": 398.26,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
   ],
   "PWR": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-31",
       "accessionNumber": "0001193125-25-169944",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050915/000119312525169944/d28227dex992.htm",
@@ -3448,7 +3448,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-30",
       "accessionNumber": "0001193125-26-324855",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526324855/d56853dex991.htm",
@@ -3473,7 +3473,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "HUBB": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-29",
       "accessionNumber": "0001628280-24-044010",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828024044010/exhibit991_10292024.htm",
@@ -3496,7 +3496,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-04",
       "accessionNumber": "0001628280-25-003586",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828025003586/exhibit991_02042025.htm",
@@ -3519,7 +3519,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-05-01",
       "accessionNumber": "0001628280-25-021342",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828025021342/exhibit991_05012025.htm",
@@ -3542,7 +3542,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-29",
       "accessionNumber": "0001628280-25-036316",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828025036316/exhibit991_07292025.htm",
@@ -3571,7 +3571,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-28",
       "accessionNumber": "0001628280-25-046573",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828025046573/exhibit991_10282025.htm",
@@ -3600,7 +3600,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-03",
       "accessionNumber": "0001628280-26-004800",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828026004800/exhibit991_02032026.htm",
@@ -3623,7 +3623,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-30",
       "accessionNumber": "0001628280-26-028600",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828026028600/exhibit991_04302026.htm",
@@ -3646,7 +3646,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-28",
       "accessionNumber": "0001628280-26-049934",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/48898/000162828026049934/exhibit991_07282026.htm",
@@ -3671,7 +3671,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "VRT": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-23",
       "accessionNumber": "0001628280-24-043343",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828024043343/q32024exhibit991vrt102324.htm",
@@ -3694,7 +3694,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-12",
       "accessionNumber": "0001628280-25-005006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828025005006/exhibit991vrt02122025.htm",
@@ -3723,7 +3723,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-23",
       "accessionNumber": "0001628280-25-018915",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828025018915/q12025exhibit991vrt042325.htm",
@@ -3746,7 +3746,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-30",
       "accessionNumber": "0001674101-25-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000167410125000006/q22025exhibit991vrt7302025.htm",
@@ -3769,7 +3769,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-22",
       "accessionNumber": "0001674101-25-000020",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000167410125000020/q32025exhibit991vrt10222025.htm",
@@ -3792,7 +3792,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-11",
       "accessionNumber": "0001674101-26-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000167410126000006/exhibit991vrt02112026.htm",
@@ -3821,7 +3821,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-22",
       "accessionNumber": "0001628280-26-026379",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026026379/q12026exhibit991vrt04222026.htm",
@@ -3850,7 +3850,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-29",
       "accessionNumber": "0001628280-26-050323",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026050323/q22026exhibit991vrt07292026.htm",
@@ -3875,7 +3875,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "MOD": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-04",
       "accessionNumber": "0001558370-25-000627",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/67347/000155837025000627/tmb-20250204xex99d2.htm",
@@ -3898,7 +3898,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-05-26",
       "accessionNumber": "0001104659-26-066291",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/67347/000110465926066291/mod-20260526xex99d2.htm",
@@ -3921,7 +3921,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-29",
       "accessionNumber": "0001104659-26-088230",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/67347/000110465926088230/mod-20260729xex99d2.htm",
@@ -3946,7 +3946,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "STX": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-22",
       "accessionNumber": "0001137789-24-000141",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778924000141/stxq12025pressreleasefinan.htm",
@@ -3984,12 +3984,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 6.26,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-01-21",
       "accessionNumber": "0001137789-25-000006",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000006/stxq22025pressreleasefinan.htm",
@@ -4012,7 +4012,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-29",
       "accessionNumber": "0001137789-25-000070",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000070/stxq32025pressreleasefinan.htm",
@@ -4050,12 +4050,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 9.54,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-29",
       "accessionNumber": "0001137789-25-000148",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000148/stxq42025pressreleasefinan.htm",
@@ -4093,12 +4093,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 13.0,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-28",
       "accessionNumber": "0001137789-25-000283",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778925000283/stxq12026pressreleasefinan.htm",
@@ -4136,12 +4136,12 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 15.26,
         "source": "SEC Company Facts",
-        "settledAt": 1788495995.560851,
+        "settledAt": 1788497858.535386,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-01-27",
       "accessionNumber": "0001137789-26-000016",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000016/stxq22026pressreleasefinan.htm",
@@ -4171,7 +4171,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-28",
       "accessionNumber": "0001137789-26-000084",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000084/stxq32026pressreleasefinan.htm",
@@ -4201,7 +4201,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-28",
       "accessionNumber": "0001137789-26-000153",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000153/stxq42026pressreleasefinan.htm",
@@ -4233,7 +4233,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "EME": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-10-31",
       "accessionNumber": "0000105634-24-000039",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563424000039/eme-ex991_2024930xq3.htm",
@@ -4256,7 +4256,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-02-26",
       "accessionNumber": "0000105634-25-000019",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563425000019/eme-ex991_20241231xq4.htm",
@@ -4285,7 +4285,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-04-30",
       "accessionNumber": "0000105634-25-000032",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563425000032/eme-ex991_2025331xq1.htm",
@@ -4314,7 +4314,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-07-31",
       "accessionNumber": "0000105634-25-000049",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563425000049/eme-ex991_2025630xq2.htm",
@@ -4343,7 +4343,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2025-10-30",
       "accessionNumber": "0000105634-25-000082",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563425000082/eme-ex991_2025930xq3.htm",
@@ -4372,7 +4372,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-26",
       "accessionNumber": "0000105634-26-000027",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000027/eme-ex991_20251231xq4.htm",
@@ -4401,7 +4401,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-29",
       "accessionNumber": "0000105634-26-000048",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000048/eme-ex991_2026331xq1.htm",
@@ -4430,7 +4430,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-30",
       "accessionNumber": "0000105634-26-000112",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000112/eme-ex991_2026630xq2.htm",
@@ -4461,7 +4461,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "BE": [
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2024-11-07",
       "accessionNumber": "0001628280-24-046303",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828024046303/ex991_q32024financialresul.htm",
@@ -4484,7 +4484,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-02-05",
       "accessionNumber": "0001628280-26-005798",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026005798/ex991_q42025financialresul.htm",
@@ -4507,7 +4507,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-04-28",
       "accessionNumber": "0001628280-26-027913",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026027913/ex991_q126financialresults.htm",
@@ -4530,7 +4530,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1788495055.4008832,
+      "capturedAt": 1788497406.3788342,
       "filingDate": "2026-07-28",
       "accessionNumber": "0001628280-26-050150",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050150/ex991_q226financialresults.htm",
