@@ -108,6 +108,7 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 408.61,
     "52WeekLow": 224.79,
     "beta": 1.2150782,
+    "dividendPerShareTTM": 0.8468,
     "avgPe3Y": 25.200466666666667,
     "peDeviation3Y": -31.88935654630734,
     "perBandYears": 22,
@@ -117,9 +118,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 44.84,
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendPerShareTTM": 0.8468
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   },
   "MSFT": {
     "forwardPE": 22.94147,
@@ -672,6 +672,9 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 259.92,
     "52WeekLow": 121.99,
     "beta": 1.7202818,
+    "dividendYieldIndicatedAnnual": 2.50489,
+    "dividendPerShareTTM": 3.5731,
+    "dividendGrowthRate5Y": 6.56,
     "avgPe3Y": 22.58073333333333,
     "peDeviation3Y": -15.263159448615479,
     "perBandYears": 24,
@@ -681,11 +684,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.24,
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendYieldIndicatedAnnual": 2.50489,
-    "dividendPerShareTTM": 3.5731,
-    "dividendGrowthRate5Y": 6.56
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   },
   "ARM": {
     "forwardPE": 98.30982,
@@ -990,7 +990,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-09-05 00:00"
   },
   "COHR": {
-    "forwardPE": 28.083765406197916,
+    "forwardPE": 28.00221891188171,
     "peTTM": 65.3522,
     "psTTM": 7.3907,
     "pb": 4.8249,
@@ -1013,6 +1013,8 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 440,
     "52WeekLow": 87.15,
     "beta": 2.1834311,
+    "dividendPerShareTTM": 0.0651,
+    "dividendGrowthRate5Y": -20.51,
     "avgPe3Y": 133.293,
     "peDeviation3Y": -50.97101873316679,
     "perBandYears": 24,
@@ -1022,10 +1024,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 6.25,
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendPerShareTTM": 0.0651,
-    "dividendGrowthRate5Y": -20.51
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1084,6 +1084,7 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 1195.94,
     "52WeekLow": 530.16,
     "beta": 0.9827568,
+    "dividendPerShareTTM": 1.5189,
     "avgPe3Y": 47.368449999999996,
     "peDeviation3Y": -38.07228228916082,
     "perBandYears": 2,
@@ -1091,9 +1092,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 74.29,
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendPerShareTTM": 1.5189
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1370,11 +1370,11 @@ const FUNDAMENTALS_DATA = {
   },
   "STX": {
     "forwardPE": 23.33973,
-    "peTTM": 65.5853,
-    "psTTM": 17.1237,
-    "pb": 96.3652,
-    "evEbitdaTTM": 49.9371,
-    "pfcfShareTTM": 67.2539,
+    "peTTM": 56.8469,
+    "psTTM": 14.8422,
+    "pb": 83.5259,
+    "evEbitdaTTM": 43.3424,
+    "pfcfShareTTM": 58.2933,
     "forwardPEG": 0.40358,
     "operatingMarginTTM": 32.33,
     "revenueGrowthTTMYoy": 34.06,
@@ -1389,12 +1389,15 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.1673,
     "longTermDebt/equityQuarterly": 1.5598,
     "totalDebt/totalEquityQuarterly": 1.6451,
-    "marketCapitalization": 208823.47,
+    "marketCapitalization": 181000.58,
     "52WeekHigh": 1145,
     "52WeekLow": 170.01,
     "beta": 2.1579137,
+    "dividendYieldIndicatedAnnual": 3.68034,
+    "dividendPerShareTTM": 2.884,
+    "dividendGrowthRate5Y": 1.47,
     "avgPe3Y": 47.641533333333335,
-    "peDeviation3Y": 37.66412500017492,
+    "peDeviation3Y": 19.322146082619778,
     "perBandYears": 22,
     "perBandLow": 0.6958515840178605,
     "perBandHigh": 1.273835899551468,
@@ -1402,11 +1405,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 50.519999999999996,
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendYieldIndicatedAnnual": 3.68034,
-    "dividendPerShareTTM": 2.884,
-    "dividendGrowthRate5Y": 1.47
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1489,12 +1489,12 @@ const FUNDAMENTALS_DATA = {
     "dividendGrowthRate5Y": 35.55
   },
   "BE": {
-    "forwardPE": 88.51015272325395,
-    "peTTM": 11588.5016,
-    "psTTM": 28.5474,
-    "pb": 75.8717,
-    "evEbitdaTTM": 598.6506,
-    "pfcfShareTTM": 155.3925,
+    "forwardPE": 88.18444494527735,
+    "peTTM": 11541.8797,
+    "psTTM": 28.4326,
+    "pb": 75.5665,
+    "evEbitdaTTM": 596.2536,
+    "pfcfShareTTM": 154.7674,
     "operatingMarginTTM": 2.67,
     "revenueGrowthTTMYoy": 56.53,
     "roaTTM": 0.16999999999999998,
@@ -1506,17 +1506,17 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 4.0124,
     "longTermDebt/equityQuarterly": 2.8201,
     "totalDebt/totalEquityQuarterly": 3.0643,
-    "marketCapitalization": 69913.43,
+    "marketCapitalization": 69632.16,
     "52WeekHigh": 351.28,
     "52WeekLow": 48.87,
     "beta": 3.7146733,
+    "dividendPerShareTTM": 0.0037,
     "perBandYears": 0,
     "perBandSource": "universal",
     "roicTTM": 0.21,
     "name": "Bloom Energy Corp",
     "theme": "Electrical Equipment",
-    "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07",
-    "dividendPerShareTTM": 0.0037
+    "_fetched_at": 1788535936.432877,
+    "_updated_label": "2026-09-05 00:32"
   }
 };
