@@ -6495,7 +6495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -6511,99 +6511,33 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100",
+        "headline": "Apple Is at $325. Is This Overbought or the Start of a Re-Rating?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b0dddeca1009928774a28a221d266e1f13a5640e1ab2e232491e33fecb518085",
-        "datetime": 1788496678,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
-          "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
-          ],
-          "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-          ],
-          "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
-            }
-          ],
-          "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.57,
-          "quality": "high",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518847.3035345
-        },
-        "headlineKo": "Apple 메모리 비용 400% 상승, iPhone 18 Pro 가격 100달러 상승 가능"
-      },
-      {
-        "headline": "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a8d7e43d1ed52f74f6a3b1a46d51d90c6e3a193bc3f4be8dc1d7d24b6e0aac3f",
-        "datetime": 1788472939,
+        "url": "https://finnhub.io/api/news?id=b32f31cda5ccb21e4c683de47dd2f1d5cd1a9372cfe11498c296494463a4ce2a",
+        "datetime": 1788536529,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "과매수인가요, 아니면 재평가 시작인가요?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% 다우존스 53,408.00 −0.46% 나스닥 100 29,527.90 +0.19% 러셀 2000 2,972.94 +0.",
+            "과매수인가요, 아니면 재평가 시작인가요?"
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $325., 0.26%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -6613,27 +6547,103 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dan Ives Says M&A Is the ‘Missing Piece’ for Apple in AI Arms Race — New CEO John Ternus Could Finally Shake Up Tim Cook’s Playbook' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "AAPL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518849.431701
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$325.",
+            "0.26%",
+            "0.46%",
+            "0.19%",
+            "0.25%",
+            "40%",
+            "$328.21,",
+            "$325"
+          ],
+          "sourceExcerpt": [
+            "Is This Overbought or the Start of a Re-Rating?",
+            "Skip to content ❚❚ At close S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.",
+            "Is This Overbought or the Start of a Re-Rating?"
+          ],
+          "analysisUpdatedAt": 1788541228.362727
         },
-        "headlineKo": "Dan Ives는 AI 군비 경쟁에서 Apple의 M&A가 '잃어버린 조각'이라고 말합니다. 새로운 CEO John Ternus는 마침내 Tim Cook의 플레이북을 뒤흔들 수 있습니다."
+        "headlineKo": "애플의 주가는 325달러입니다. 과매수인가요, 아니면 재평가 시작인가요?"
       },
       {
-        "headline": "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
+        "headline": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d3a3c69682920997c04ef30b0652d6cb53cd913b1854b9e0e452cfd10b9c33a",
-        "datetime": 1788460163,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=2da3af33aa4555aededcd0604efcbd3c46d26c9dc1ff162141907f83c6a5bf52",
+        "datetime": 1788536261,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SCHG는 Tesla, Meta, Palantir를 합친 것보다 더 많은 Apple을 소유하고 있습니다.",
+            "이것이 성장 투자자들이 뒤처지는 이유입니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% 다우존스 53,408.00 −0.46% 나스닥 100 29,527.90 +0.19% 러셀 2000 2,972.94 +0."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.46%, 0.19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.26%",
+            "0.46%",
+            "0.19%",
+            "0.25%",
+            "9.83%",
+            "3.91%",
+            "3.45%",
+            "1.25%"
+          ],
+          "sourceExcerpt": [
+            "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined.",
+            "Is That Why Growth Investors Are Falling Behind?",
+            "Skip to content ❚❚ At close S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0."
+          ],
+          "analysisUpdatedAt": 1788541231.7009284
+        },
+        "headlineKo": "SCHG는 Tesla, Meta, Palantir를 합친 것보다 더 많은 Apple을 소유하고 있습니다. 이것이 성장 투자자들이 뒤처지는 이유입니까?"
+      },
+      {
+        "headline": "Apple's Foldable iPhone Runs Into Early Trouble",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=413bda02add77a312f0f5295935b46cd040866ce8e5b9b8f953180a6ddcfab98",
+        "datetime": 1788535257,
+        "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -6644,7 +6654,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch",
+            "Apple's Foldable iPhone Runs Into Early Trouble",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -6668,37 +6678,87 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Faces Mixed Outlook Ahead of Foldable iPhone Launch' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Foldable iPhone Runs Into Early Trouble' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518851.5317612
+          "analysisUpdatedAt": 1788541234.6569006
         },
-        "headlineKo": "애플(AAPL), 폴더블 아이폰 출시를 앞두고 엇갈린 전망에 직면"
+        "headlineKo": "Apple의 폴더블 iPhone이 초기 문제에 부딪혔습니다."
+      },
+      {
+        "headline": "Nvidia and Apple Are Both Winning in 2026 And Doing It Because Of This Contrarian AI Move",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=84c4a93da819c2975c2332a362765b745cfe44d87b80752e5b09f1a76a46f17f",
+        "datetime": 1788533049,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Nvidia와 Apple은 모두 2026년에 승리하고 있으며 이러한 역발상적인 AI 움직임 덕분에 성공하고 있습니다."
+      },
+      {
+        "headline": "Apple's Memory Costs Quadrupled and Ternus Sets the Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fa3f01f10a1f0d23e7f3e88f3d824c448afbe5ea98c18b48fcb8a04c9de12366",
+        "datetime": 1788532850,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Apple의 메모리 비용은 4배로 증가했으며 Ternus가 가격을 설정합니다."
       },
       {
         "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
         "datetime": 1788457675,
+        "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면",
         "relevance": 0.29,
         "keywordFlag": true,
         "flagTerms": [
           "lawsuit"
         ],
-        "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면"
-      },
-      {
-        "headline": "Stryker Launches FDA-Cleared Apple Vision Pro Surgical App",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b3b1ef4df8c77bd564b8c103e476159f06b03899b3c6c49a40a0d45a15c635c7",
-        "datetime": 1788457020,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Stryker, FDA 승인 Apple Vision Pro 수술용 앱 출시"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple faces £2 bn lawsuit in UK over app privacy feature",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple faces £2 bn lawsuit in UK over app privacy feature' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788495969.415859
+        }
       },
       {
         "headline": "Apple faces $2.7 billion U.K. lawsuit over app tracking rules",
@@ -6787,6 +6847,199 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple Is at $325. Is This Overbought or the Start of a Re-Rating?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b32f31cda5ccb21e4c683de47dd2f1d5cd1a9372cfe11498c296494463a4ce2a",
+        "datetime": 1788536529,
+        "headlineKo": "애플의 주가는 325달러입니다. 과매수인가요, 아니면 재평가 시작인가요?",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "과매수인가요, 아니면 재평가 시작인가요?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% 다우존스 53,408.00 −0.46% 나스닥 100 29,527.90 +0.19% 러셀 2000 2,972.94 +0.",
+            "과매수인가요, 아니면 재평가 시작인가요?"
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $325., 0.26%, 0.46% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AAPL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$325.",
+            "0.26%",
+            "0.46%",
+            "0.19%",
+            "0.25%",
+            "40%",
+            "$328.21,",
+            "$325"
+          ],
+          "sourceExcerpt": [
+            "Is This Overbought or the Start of a Re-Rating?",
+            "Skip to content ❚❚ At close S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.",
+            "Is This Overbought or the Start of a Re-Rating?"
+          ],
+          "analysisUpdatedAt": 1788541228.362727
+        }
+      },
+      {
+        "headline": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2da3af33aa4555aededcd0604efcbd3c46d26c9dc1ff162141907f83c6a5bf52",
+        "datetime": 1788536261,
+        "headlineKo": "SCHG는 Tesla, Meta, Palantir를 합친 것보다 더 많은 Apple을 소유하고 있습니다. 이것이 성장 투자자들이 뒤처지는 이유입니까?",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "SCHG는 Tesla, Meta, Palantir를 합친 것보다 더 많은 Apple을 소유하고 있습니다.",
+            "이것이 성장 투자자들이 뒤처지는 이유입니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% 다우존스 53,408.00 −0.46% 나스닥 100 29,527.90 +0.19% 러셀 2000 2,972.94 +0."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.26%, 0.46%, 0.19% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.26%",
+            "0.46%",
+            "0.19%",
+            "0.25%",
+            "9.83%",
+            "3.91%",
+            "3.45%",
+            "1.25%"
+          ],
+          "sourceExcerpt": [
+            "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined.",
+            "Is That Why Growth Investors Are Falling Behind?",
+            "Skip to content ❚❚ At close S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0.25% S&P 500 7,723.30 −0.26% Dow Jones 53,408.00 −0.46% Nasdaq 100 29,527.90 +0.19% Russell 2000 2,972.94 +0."
+          ],
+          "analysisUpdatedAt": 1788541231.7009284
+        }
+      },
+      {
+        "headline": "Apple's Foldable iPhone Runs Into Early Trouble",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=413bda02add77a312f0f5295935b46cd040866ce8e5b9b8f953180a6ddcfab98",
+        "datetime": 1788535257,
+        "headlineKo": "Apple의 폴더블 iPhone이 초기 문제에 부딪혔습니다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's Foldable iPhone Runs Into Early Trouble",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Foldable iPhone Runs Into Early Trouble' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788541234.6569006
+        }
+      },
+      {
+        "headline": "Nvidia and Apple Are Both Winning in 2026 And Doing It Because Of This Contrarian AI Move",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=84c4a93da819c2975c2332a362765b745cfe44d87b80752e5b09f1a76a46f17f",
+        "datetime": 1788533049,
+        "headlineKo": "Nvidia와 Apple은 모두 2026년에 승리하고 있으며 이러한 역발상적인 AI 움직임 덕분에 성공하고 있습니다.",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Apple's Memory Costs Quadrupled and Ternus Sets the Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=fa3f01f10a1f0d23e7f3e88f3d824c448afbe5ea98c18b48fcb8a04c9de12366",
+        "datetime": 1788532850,
+        "headlineKo": "Apple의 메모리 비용은 4배로 증가했으며 Ternus가 가격을 설정합니다.",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
       {
         "headline": "Apple's Memory Costs Jump 400%, iPhone 18 Pro Price May Rise $100",
         "source": "Yahoo",
@@ -10501,17 +10754,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788518844.4283063,
-    "_updated_label": "2026-09-04 19:47",
+    "_fetched_at": 1788541220.6304533,
+    "_updated_label": "2026-09-05 02:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 112,
+      "checked": 118,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
-    "_last_attempt_at": 1788518844.4283063,
+    "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
-    "_last_success_at": 1788518844.4283063,
+    "_last_success_at": 1788541220.6304533,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -14677,7 +14930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -18603,7 +18856,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 109,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -23146,7 +23399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -24274,7 +24527,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -28609,7 +28862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "error",
@@ -33005,7 +33258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -37497,7 +37750,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -42089,7 +42342,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -45312,7 +45565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -47764,7 +48017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -47825,7 +48078,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518856.748399
+          "analysisUpdatedAt": 1788541243.1935906
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -47889,7 +48142,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788518863.3336568
+          "analysisUpdatedAt": 1788541247.708853
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -47939,7 +48192,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518865.3737967
+          "analysisUpdatedAt": 1788541249.8410282
         },
         "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
       },
@@ -48011,7 +48264,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518856.748399
+          "analysisUpdatedAt": 1788541243.1935906
         }
       },
       {
@@ -48074,7 +48327,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788518863.3336568
+          "analysisUpdatedAt": 1788541247.708853
         }
       },
       {
@@ -48123,7 +48376,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518865.3737967
+          "analysisUpdatedAt": 1788541249.8410282
         }
       },
       {
@@ -49675,17 +49928,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788518844.4283063,
-    "_updated_label": "2026-09-04 19:47",
+    "_fetched_at": 1788541220.6304533,
+    "_updated_label": "2026-09-05 02:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
-    "_last_attempt_at": 1788518844.4283063,
+    "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
-    "_last_success_at": 1788518844.4283063,
+    "_last_success_at": 1788541220.6304533,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -51623,7 +51876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -54546,7 +54799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 75,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -57656,7 +57909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -60786,7 +61039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788537632.8362987,
     "_earnings_status": "ok",
@@ -64076,7 +64329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -65747,7 +66000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -67033,7 +67286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788537632.8362987,
     "_earnings_status": "ok",
@@ -70852,7 +71105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -72115,7 +72368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -73670,7 +73923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -75159,7 +75412,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -78880,7 +79133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -78895,6 +79148,105 @@ const NEWS_DATA = {
       "revenueEstimate": 4162115363
     },
     "news": [
+      {
+        "headline": "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=983bf5c9084a761d74427f3cb88fc950d11d7ed68da7f6adc8e30fedd3d93e46",
+        "datetime": 1788535835,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "WDC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788541254.8939788
+        },
+        "headlineKo": "웨스턴디지털(WDC)은 지난 수익 보고서 이후 2.2% 하락: 반등할 수 있을까?"
+      },
+      {
+        "headline": "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f1cb6112a8ee2bd659079c5ee33d592b04fafd4a0fdce70d42da902cb63b1234",
+        "datetime": 1788533100,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788541257.4818618
+        },
+        "headlineKo": "WDC 주식의 큰 반등: 6개월 동안 70% 급등한 후 매수, 매도 또는 보유하시겠습니까?"
+      },
       {
         "headline": "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
         "source": "Yahoo",
@@ -78941,7 +79293,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518869.8727102
+          "analysisUpdatedAt": 1788541259.7757823
         },
         "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
       },
@@ -78953,60 +79305,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Western Digital은 한 달 만에 13% 하락했습니다.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,752.40 +0.12% Dow Jones 53,633.50 −0.04% Nasdaq 100 29,636.00 +0.55% Russell 2000 2,964.83 −0.03% S&P 500 7,752.40 +0.12% 다우존스 53,633.50 −0.04% 나스닥 100 29,636.00 +0.55% 러셀 2000 2,964.83 −0.",
-            "Western Digital은 올해 168% 급등했으며 플래시와 DRAM 업계의 동종업체는 계속 상승하고 있지만 WDC 주가는 이를 설명하는 회사별 헤드라인 없이 13% 하락했습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 13%, 0.12%, 0.04% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "13%",
-            "0.12%",
-            "0.04%",
-            "0.55%",
-            "0.03%",
-            "168%",
-            "$465.32",
-            "16%"
-          ],
-          "sourceExcerpt": [
-            "Western Digital Just Dropped 13% in a Month.",
-            "Skip to content ❚❚ At close S&P 500 7,752.40 +0.12% Dow Jones 53,633.50 −0.04% Nasdaq 100 29,636.00 +0.55% Russell 2000 2,964.83 −0.03% S&P 500 7,752.40 +0.12% Dow Jones 53,633.50 −0.04% Nasdaq 100 29,636.00 +0.55% Russell 2000 2,964.83 −0.",
-            "Western Digital has surged 168% this year while peers in flash and DRAM keep climbing, yet WDC stock just shed 13% without a single company-specific headline to explain it."
-          ],
-          "analysisUpdatedAt": 1788518874.4826477
-        },
         "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
       {
@@ -79017,15 +79315,79 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
+      },
+      {
+        "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=d31d32ede9b71597578a6c47c61a165891499f53f5a3c00e5979c76b43d0393e",
+        "datetime": 1787911728,
+        "headlineKo": "새로운 기술 관세 불확실성으로 웨스턴 디지털이 주목받다",
+        "relevance": 0.67,
+        "keywordFlag": true,
+        "flagTerms": [
+          "tariff"
+        ],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'New Tech Tariff Uncertainty Puts Spotlight On Western Digital' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788269716.0107017
+        }
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=983bf5c9084a761d74427f3cb88fc950d11d7ed68da7f6adc8e30fedd3d93e46",
+        "datetime": 1788535835,
+        "headlineKo": "웨스턴디지털(WDC)은 지난 수익 보고서 이후 2.2% 하락: 반등할 수 있을까?",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
-          "tone": "positive",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "실적 발표 · 본업과 특이항목 분리",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Western Digital (NASDAQ:WDC) Clears All Eight Growth Screens with Accelerating Earnings and Margins",
+            "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -79054,34 +79416,58 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518875.5331812
-        },
-        "headlineKo": "Western Digital (NASDAQ: WDC), 수익 및 마진 증가와 함께 8개의 성장 화면 모두 삭제"
+          "analysisUpdatedAt": 1788541254.8939788
+        }
       },
       {
-        "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=d31d32ede9b71597578a6c47c61a165891499f53f5a3c00e5979c76b43d0393e",
-        "datetime": 1787911728,
-        "relevance": 0.67,
-        "keywordFlag": true,
-        "flagTerms": [
-          "tariff"
-        ],
-        "headlineKo": "새로운 기술 관세 불확실성으로 웨스턴 디지털이 주목받다"
-      },
-      {
-        "headline": "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
+        "headline": "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5a874a5685ad2a2bbd8d19822653d69c8968dc924f2e14535c8046a643a34a93",
-        "datetime": 1787904900,
-        "relevance": 0.67,
+        "url": "https://finnhub.io/api/news?id=f1cb6112a8ee2bd659079c5ee33d592b04fafd4a0fdce70d42da902cb63b1234",
+        "datetime": 1788533100,
+        "headlineKo": "WDC 주식의 큰 반등: 6개월 동안 70% 급등한 후 매수, 매도 또는 보유하시겠습니까?",
+        "relevance": 1.0,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Zacks 산업 전망 Western Digital, Sandisk 및 Super Micro Computer"
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1.0,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788541257.4818618
+        }
+      },
       {
         "headline": "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
         "source": "Yahoo",
@@ -79128,7 +79514,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788518869.8727102
+          "analysisUpdatedAt": 1788541259.7757823
         }
       },
       {
@@ -80120,17 +80506,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788518844.4283063,
-    "_updated_label": "2026-09-04 19:47",
+    "_fetched_at": 1788541220.6304533,
+    "_updated_label": "2026-09-05 02:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 35,
+      "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
-    "_last_attempt_at": 1788518844.4283063,
+    "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
-    "_last_success_at": 1788518844.4283063,
+    "_last_success_at": 1788541220.6304533,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -81440,7 +81826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -82777,7 +83163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -84088,7 +84474,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -85831,7 +86217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -86841,7 +87227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788537632.8362987,
     "_earnings_status": "ok",
@@ -88139,7 +88525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -89544,7 +89930,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -90627,7 +91013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -91286,7 +91672,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788523219.167506,
     "_earnings_status": "ok",
@@ -93452,7 +93838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -93965,7 +94351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788534056.9479449,
     "_earnings_status": "ok",
@@ -95048,7 +95434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -95903,7 +96289,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -97055,7 +97441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -97215,7 +97601,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-05 01:01"
+      "updated": "2026-09-05 02:01"
     },
     "_fetched_at": 1788526236.2086499,
     "_updated_label": "2026-09-04 21:53",
