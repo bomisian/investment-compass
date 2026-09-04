@@ -304,7 +304,8 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 1510289,
     "52WeekHigh": 790.8,
     "52WeekLow": 520.26,
-    "beta": 1.285106,
+    "beta": 1.287817,
+    "dividendPerShareTTM": 2.1197,
     "avgPe3Y": 24.829233333333335,
     "peDeviation3Y": -10.677064803987776,
     "perBandYears": 14,
@@ -314,9 +315,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.74,
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788472802.3168995,
-    "_updated_label": "2026-09-04 07:00",
-    "dividendPerShareTTM": 2.1197
+    "_fetched_at": 1788544802.3695972,
+    "_updated_label": "2026-09-05 03:00"
   },
   "TSLA": {
     "forwardPE": 145.90287,
@@ -421,7 +421,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 744188.2,
     "52WeekHigh": 584.73,
     "52WeekLow": 149.22,
-    "beta": 2.5386693,
+    "beta": 2.5362475,
     "avgPe3Y": 160.30326666666667,
     "peDeviation3Y": -27.84619901694663,
     "perBandYears": 14,
@@ -431,8 +431,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 9.59,
     "name": "Advanced Micro Devices Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788472802.3168995,
-    "_updated_label": "2026-09-04 07:00"
+    "_fetched_at": 1788544802.3695972,
+    "_updated_label": "2026-09-05 03:00"
   },
   "INTC": {
     "forwardPE": 51.38288,
@@ -1472,7 +1472,10 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 56341.19,
     "52WeekHigh": 2073.99,
     "52WeekLow": 682,
-    "beta": 1.6212993,
+    "beta": 1.6188763,
+    "dividendYieldIndicatedAnnual": 0.50297,
+    "dividendPerShareTTM": 2.5988,
+    "dividendGrowthRate5Y": 35.55,
     "avgPe3Y": 27.932266666666663,
     "peDeviation3Y": 40.62052488877859,
     "perBandYears": 22,
@@ -1482,11 +1485,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788472802.3168995,
-    "_updated_label": "2026-09-04 07:00",
-    "dividendYieldIndicatedAnnual": 0.50297,
-    "dividendPerShareTTM": 2.5988,
-    "dividendGrowthRate5Y": 35.55
+    "_fetched_at": 1788544802.3695972,
+    "_updated_label": "2026-09-05 03:00"
   },
   "BE": {
     "forwardPE": 88.18444494527735,
