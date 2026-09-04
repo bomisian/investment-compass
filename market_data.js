@@ -233,11 +233,18 @@ const MARKET_DATA = {
       "headlineKo": "트럼프 \"미국, 곧 이란 곡괭이산 공격할 것\" - 로이터"
     },
     {
-      "headline": "Trump says Witkoff, Kushner heading abroad to discuss Ukraine peace - Reuters",
+      "headline": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
-      "datetime": 1788550023,
-      "headlineKo": "트럼프, 위트코프·쿠슈너 우크라이나 평화 논의 위해 해외로 간다 - 로이터"
+      "datetime": 1788551051,
+      "headlineKo": "트럼프 “우크라이나 평화 논의 위해 해외로 간다” 위트코프·쿠슈너 - 로이터 통신"
+    },
+    {
+      "headline": "U.S. approves potential sale of Joint Direct Attack Munitions-Extend Range to Saudi Arabia for $5 billion - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS3hZQnZwRzktT3UxRlNtYk8wVi1LSmtMdmRlTHIyZ0k4cm00aGp3d1plVEs2YVl3b3JxcTJUWE85VzZhLWJ2SEQ0WHM2eGd3SWJCeDlNZkhRQlBQdU44WTZLS3pJNzJsVEJISGJLeFBhUHVHMzFmUldrMUIwbHdEQkt1elJVMWxfUTN2SVhQT1BRblp2clBaVk9EalNpTDBVRzN6R3lUNUFzdnpWNnJuWjM5cE5ISjhOaUgtQ2xjQUNPVjF1c0tWZA?oc=5",
+      "datetime": 1788549130,
+      "headlineKo": "미국, 사우디아라비아에 50억 달러에 합동직격공격탄-사거리 연장 잠재적 판매 승인 - 로이터"
     },
     {
       "headline": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/04/fall-travel-wealthy-europe.html",
       "datetime": 1788531022,
       "headlineKo": "노동절은 부유한 여행자들이 여름 인파를 피하면서 '낙상'의 시작을 의미합니다."
-    },
-    {
-      "headline": "Gloria Steinem hosted salons in her living room for decades—how to gather for conversation and connection, says expert",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/how-to-gather-and-connect-like-gloria-steinem-says-expert.html",
-      "datetime": 1788529092,
-      "headlineKo": "Gloria Steinem은 수십 년 동안 자신의 거실에서 미용실을 운영했습니다. 전문가는 대화와 연결을 위해 모이는 방법을 말합니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788559221.590955,
-  "_updated_label": "2026-09-05 07:00",
-  "_last_attempt_at": 1788559221.590955,
-  "_last_success_at": 1788559221.590955,
+  "_fetched_at": 1788562852.9581962,
+  "_updated_label": "2026-09-05 08:01",
+  "_last_attempt_at": 1788562852.9581962,
+  "_last_success_at": 1788562852.9581962,
   "_collection_status": "ok",
   "_collection_errors": []
 };
