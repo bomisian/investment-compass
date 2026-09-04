@@ -5908,6 +5908,28 @@ function missingNote(rows, fields){
   });
   return `<span class="sub">※ ${parts.join(' · ')} 항목은 이 회사의 공시 계정 이름이 달라 자동 추출이 안 됐어요 — 값이 없는 것이지 0이라는 뜻이 아니에요. 그래서 위 설명에서도 그 항목은 빼고 계산했어요.</span>`;
 }
+function prettifySegmentLabel(raw){
+  // 2026-09-04 수정: 파이썬 쪽에서 미리 만들어 저장해둔 segmentLabel을 실제 데이터로 확인해보니
+  // "US" -> "U S", "IPad" -> "I Pad"처럼 이상하게 나온 게 있었음(연속 대문자를 무조건 띄어쓰기
+  // 때문). 여기서 매번 원문(segmentRaw)으로 새로 계산해서 보여주면, 이 함수만 고쳐도 이미
+  // 저장된 데이터에 바로 반영돼서 파이썬 쪽을 다시 안 돌려도 됨.
+  try{
+    let parts = String(raw||'').split(/[;,]/).map(p=>p.trim()).filter(Boolean);
+    // ConsolidationItems(OperatingSegments 등)는 "이게 진짜 사업부 항목이다"라는 보조 표시일
+    // 뿐 사업부 이름 자체가 아님 - 다른 구체적인 축이 같이 있으면 생략하고 그것만 보여준다.
+    const specific = parts.filter(p => !p.startsWith('ConsolidationItems='));
+    if(specific.length) parts = specific;
+    const labels = parts.map(part=>{
+      let member = part.split('=').pop();
+      member = member.split(':').pop();
+      member = member.replace(/Member$/, '');
+      member = member.replace(/(?<=[a-z0-9])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])/g, ' ').trim();
+      member = member.replace(/^I ([A-Z])/, (m, c) => 'i'+c);
+      return member || part;
+    });
+    return labels.length ? labels.join(' · ') : String(raw||'');
+  }catch(e){ return String(raw||''); }
+}
 function segmentRevenueComment(ticker){
   // 2026-09-04 추가(사용자 요청: 전체 매출 성장률만이 아니라 핵심·신생 사업부별 성장도 보고
   // 싶다) - SEC가 분기마다 공개하는 전체 상장사 재무제표 원자료에서 뽑은 사업부별 매출이에요.
@@ -5916,8 +5938,16 @@ function segmentRevenueComment(ticker){
   const rows = (typeof SEGMENT_REVENUE_DATA !== 'undefined' ? SEGMENT_REVENUE_DATA[ticker] : null) || [];
   const valid = rows.filter(r => r && r.value != null && r.endDate);
   if(!valid.length) return '';
+  // 2026-09-04 추가: "ConsolidationItems=OperatingSegments;" 하나만 있는 행은 사실상 회사
+  // 전체 합계에 가까워(구체적 사업부 이름이 아님) 화면에서 제외한다 - 이미 저장된 데이터에도
+  // 바로 적용되게 여기(클라이언트 쪽)에서 걸러낸다.
+  const isRollupOnly = raw => {
+    const parts = String(raw||'').split(/[;,]/).map(p=>p.trim()).filter(Boolean);
+    return parts.length > 0 && parts.every(p => p.startsWith('ConsolidationItems='));
+  };
   const bySegment = {};
   for(const row of valid){
+    if(isRollupOnly(row.segmentRaw)) continue;
     const key = row.segmentRaw || row.segmentLabel;
     (bySegment[key] = bySegment[key] || []).push(row);
   }
@@ -5928,15 +5958,26 @@ function segmentRevenueComment(ticker){
     return '$'+Math.round(n).toLocaleString();
   };
   const segRows = Object.values(bySegment).map(list=>{
-    const sorted = [...list].sort((a,b)=> a.endDate < b.endDate ? -1 : (a.endDate > b.endDate ? 1 : 0));
-    const last = sorted[sorted.length-1];
-    const prev = sorted.length > 1 ? sorted[sorted.length-2] : null;
+    // 2026-09-04 수정: 같은 사업부라도 분기값(qtrs=1)과 연간누적값(qtrs=4)이 섞여 있으면
+    // 그 둘을 그냥 최근순으로만 비교하면 3개월치와 12개월치를 비교하는 셈이 돼서 증감률이
+    // 엉터리가 됨(실데이터로 확인: NVDA는 qtrs 1·3이 같은 날짜에 같이 있었음). 그래서 먼저
+    // qtrs(기간 길이)별로 나눠서, 그중 가장 최근 날짜를 가진 qtrs 그룹만 쓰고 그 안에서만
+    // 직전 값과 비교한다(기간 길이가 다른 값끼리는 비교하지 않음).
+    const byQtrs = {};
+    for(const row of list) (byQtrs[row.qtrs] = byQtrs[row.qtrs] || []).push(row);
+    let chosen = null;
+    for(const l of Object.values(byQtrs)){
+      const sorted = [...l].sort((a,b)=> a.endDate < b.endDate ? -1 : (a.endDate > b.endDate ? 1 : 0));
+      if(!chosen || sorted[sorted.length-1].endDate > chosen[chosen.length-1].endDate) chosen = sorted;
+    }
+    const last = chosen[chosen.length-1];
+    const prev = chosen.length > 1 ? chosen[chosen.length-2] : null;
     let growthStr = '-';
     if(prev && prev.value){
       const pct = (last.value/prev.value - 1) * 100;
       growthStr = `${pct>=0?'+':''}${pct.toFixed(1)}% (${prev.endDate} 대비)`;
     }
-    return {label: last.segmentLabel || last.segmentRaw || '(이름 미확인)', endDate: last.endDate, value: last.value, growthStr};
+    return {label: prettifySegmentLabel(last.segmentRaw) || last.segmentLabel || '(이름 미확인)', endDate: last.endDate, value: last.value, growthStr};
   }).sort((a,b)=> b.value - a.value);
   if(!segRows.length) return '';
   const tableRows = segRows.map(s => `

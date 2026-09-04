@@ -6228,7 +6228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -9937,7 +9937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -13632,7 +13632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -17067,7 +17067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -21120,7 +21120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -22216,7 +22216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -26177,7 +26177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -30009,7 +30009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -33999,7 +33999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -38023,7 +38023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -41154,7 +41154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -43525,7 +43525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -45387,7 +45387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -47175,7 +47175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
@@ -49908,7 +49908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -52933,7 +52933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -55763,7 +55763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -58702,7 +58702,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
@@ -60329,7 +60329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -61576,7 +61576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -65039,7 +65039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
@@ -66197,7 +66197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -67707,7 +67707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -69102,7 +69102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -72716,7 +72716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -73917,7 +73917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -75195,7 +75195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -76493,7 +76493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -77766,7 +77766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -79384,7 +79384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -80365,7 +80365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -81628,7 +81628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -82802,7 +82802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -83807,7 +83807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -84444,7 +84444,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788501558.2556894,
     "_earnings_status": "ok",
@@ -86337,7 +86337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -86837,7 +86837,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -87888,7 +87888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
@@ -88716,7 +88716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
@@ -89835,133 +89835,12 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
     "_last_success_at": 1788503399.4025524,
     "_collection_status": "ok"
-  },
-  "SBGSY": {
-    "nextEarnings": {
-      "date": "2026-10-29",
-      "hour": "",
-      "epsEstimate": null,
-      "revenueEstimate": null
-    },
-    "news": [
-      {
-        "headline": "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=017b3dbf8fe382163fd106a9346eca7fecc2df57e5cd33a9cd78d888e85963d8",
-        "datetime": 1786974003,
-        "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "SBGSY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 SBGSY의 사업과 관련된 'Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SBGSY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787796360.4953396
-        },
-        "headlineKo": "슈나이더 일렉트릭 (SBGSY) 의 재고가 올해 산업용 제품을 앞지르고 있습니까?"
-      }
-    ],
-    "newsHistory": [
-      {
-        "headline": "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=017b3dbf8fe382163fd106a9346eca7fecc2df57e5cd33a9cd78d888e85963d8",
-        "datetime": 1786974003,
-        "headlineKo": "슈나이더 일렉트릭 (SBGSY) 의 재고가 올해 산업용 제품을 앞지르고 있습니까?",
-        "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "SBGSY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 SBGSY의 사업과 관련된 'Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SBGSY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787796360.4953396
-        }
-      }
-    ],
-    "_fetched_at": 1787796356.237814,
-    "_updated_label": "2026-08-27 11:06",
-    "_relevance_audit": {
-      "ruleVersion": 3,
-      "checked": 2,
-      "removed": 0,
-      "updated": "2026-09-04 16:39"
-    },
-    "_last_attempt_at": 1788507541.678027,
-    "_earnings_status": "ok",
-    "_collection_status": "empty",
-    "_last_success_at": 1787796356.237814,
-    "_last_error": "뉴스 API가 빈 응답을 반환함"
   },
   "BE": {
     "_last_attempt_at": 1788503399.4025524,
@@ -90113,7 +89992,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 16:39"
+      "updated": "2026-09-04 17:09"
     },
     "_fetched_at": 1788503399.4025524,
     "_updated_label": "2026-09-04 15:33",

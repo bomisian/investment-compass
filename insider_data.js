@@ -3266,11 +3266,6 @@ const INSIDER_DATA = {
     "_fetched_at": 1788465807.4499931,
     "_updated_label": "2026-09-04"
   },
-  "SBGSY": {
-    "transactions": [],
-    "_fetched_at": 1788458690.3430362,
-    "_updated_label": "2026-09-04"
-  },
   "BE": {
     "transactions": [
       {

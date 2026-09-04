@@ -989,32 +989,6 @@ const FUNDAMENTALS_HISTORY_DATA = {
       "evEbitdaTTM": 31.0474
     }
   ],
-  "SBGSY": [
-    {
-      "date": "2026-09-02",
-      "roeTTM": 19.470000000000002,
-      "roicTTM": 11.12,
-      "psTTM": 4.1774,
-      "pb": 7.1792,
-      "evEbitdaTTM": 25.7216
-    },
-    {
-      "date": "2026-09-03",
-      "roeTTM": 19.470000000000002,
-      "roicTTM": 11.12,
-      "psTTM": 4.1774,
-      "pb": 7.1792,
-      "evEbitdaTTM": 25.7216
-    },
-    {
-      "date": "2026-09-04",
-      "roeTTM": 19.470000000000002,
-      "roicTTM": 11.12,
-      "psTTM": 4.1774,
-      "pb": 7.1792,
-      "evEbitdaTTM": 25.7216
-    }
-  ],
   "BE": [
     {
       "date": "2026-09-02",
