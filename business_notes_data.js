@@ -9,6 +9,26 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-04",
+        headline: "8월 비농업고용 16.2만명 서프라이즈(예상 5.5만명 3배) - 9월 금리인상 확률 50%대로 급등, 국채금리 뛰며 3대지수 동반 하락",
+        tone: "risk",
+        importance: "medium",
+        horizon: "단기(9월 16-17일 FOMC 결과 확인까지)",
+        facts: ["2026-09-04(현지시간 금요일) 발표된 8월 비농업고용이 16.2만명 증가해 시장 예상치 5.5만명을 3배 가까이 웃돌았다. 실업률은 예상대로 4.1%를 유지했다.", "전날(9/3) 연준 월러 이사의 '금리동결 지지' 발언으로 나스닥이 +1.4% 급등했었는데, 하루 만에 고용지표가 정반대 신호(경기 과열 우려)를 보이며 되돌림이 나타났다.", "이날 다우존스 -271.86포인트(-0.51%) 53,414.25 마감, S&P500 -0.38% 7,718.60 마감, 나스닥종합 -0.29% 26,506.99 마감.", "2년물 국채금리는 4.374%로 52주 최고치를 새로 썼고, 5년물도 4.545%로 52주 최고치 경신. 10년물은 4.78%로 소폭 상승.", "씨티이코노미스트 등 시장 참여자들은 이날 9월 FOMC 금리인상 확률을 종전 50%대에서 재차 끌어올렸다(TheStreet 인용 애널리스트 Kyle Rodda: '월러의 발언 이후 50%대로 되돌아왔던 인상 확률이 이날 고용지표로 다시 반등').", "트럼프 대통령은 이날 Truth Social을 통해 '금리를 낮추지 않으면 무역흑자국과의 거래를 끊겠다'며 연준(워시 의장)에 금리 인하를 압박하는 글을 올렸다.", "업종별로는 기술·산업재·유틸리티 3개 섹터만 상승, 나머지 대부분 하락 - 성장주보다 방어주 선호가 뚜렷했다.", "개별 종목: 메모리주(SanDisk, Micron)는 섹터 회복 기대로 매크로 악재 속에서도 상승. 반면 밸류에이션 부담이 큰 종목(TSLA -5.9%, AAPL -2.5%, MSFT -2.0%)은 금리 상승에 더 민감하게 반응하며 하락폭이 컸다."],
+        why: ["'좋은 고용지표가 오히려 증시에는 악재'인 전형적인 사례다 - 고용이 튼튼하면 연준이 인플레이션 억제에 집중할 여력이 커져 금리인상 가능성이 높아지고, 금리가 오르면 특히 성장주·고밸류에이션 종목의 미래 이익 가치가 할인된다.", "바로 전날 월러 이사의 비둘기파 발언으로 형성됐던 '금리동결' 기대가 하루 만에 뒤집혔다는 것은, 이번 달 CPI·PPI 등 남은 지표 하나하나에 따라 시장 방향이 계속 출렁일 수 있다는 의미다.", "트럼프 대통령의 연준 압박 발언은 통화정책 독립성 관련 불확실성을 추가하는 요인으로, 시장이 통상적인 경제지표 해석 외에 정치적 변수까지 함께 반영해야 하는 상황이 이어지고 있다."],
+        beginner: ["미국에서 한 달 동안 새로 생긴 일자리 수(고용지표)가 예상보다 3배나 많이 나왔어요. 보통 '일자리가 많이 늘었다'는 좋은 소식 같지만, 주식시장은 오히려 떨어졌어요.", "이유는 이래요: 일자리가 잘 늘면 경기가 괜찮다는 뜻이고, 그러면 중앙은행(연준)이 '물가를 잡기 위해 금리를 올려도 되겠다'고 판단할 가능성이 커져요. 금리가 오르면 특히 테슬라·애플처럼 '미래 성장 기대'로 비싸게 거래되는 주식들이 더 크게 흔들려요.", "바로 하루 전날에는 연준 관계자가 '금리를 그대로 둘 것 같다'고 말해서 주가가 크게 올랐었는데, 이 고용지표 하나로 분위기가 정반대로 바뀐 거예요. 그만큼 요즘 시장은 지표 하나하나에 예민하게 반응하고 있어요."],
+        interpretation: "이번 하락은 개별 기업 문제가 아니라 '금리 경로 불확실성'이라는 매크로 요인이다. 8/31~9/1 하락(유가발 인플레이션 우려) → 9/3 급등(월러의 비둘기파 발언) → 9/4 재하락(깜짝 고용지표)으로 최근 나흘간 지수가 널뛰기하고 있다는 것 자체가, 9월 16-17일 FOMC 전까지 시장이 방향을 정하지 못한 상태임을 보여준다. 워치리스트 대부분이 고밸류에이션 성장주·반도체주라 이 금리 변동성에 상대적으로 더 민감하게 노출돼 있다.",
+        decision: "이 하락 자체를 매수·매도 신호로 쓰기보다, 9월 중순 발표되는 CPI·PPI와 FOMC 결과를 확인할 것. 단기 신호(RSI/200일선 기반)가 뜨더라도 이 매크로 불확실성 구간에서는 분할매수 원칙을 더 보수적으로 지키는 게 합리적이다.",
+        watch: ["9월 CPI·PPI 발표 결과 및 시장의 금리인상 확률 반영 변화", "9월 16-17일 FOMC 결과 및 워시 의장 기자회견 발언", "트럼프 대통령의 연준 압박 발언이 실제 통화정책에 영향을 주는지 여부", "2년물 국채금리의 추가 상승 여부(현재 52주 최고치 경신 중)"],
+        confidence: "고용지표 수치(16.2만명, 예상 5.5만명)와 지수 종가(다우 53,414.25·S&P 7,718.60·나스닥 26,506.99)는 Labor Department 발표 및 TheStreet·Yahoo Finance·Motley Fool 등 복수 매체가 교차 확인해 신뢰도 높음. 금리인상 확률(50%대) 수치는 애널리스트 코멘트 인용으로 정확한 수치 소스는 매체마다 약간 다를 수 있어 참고용.",
+        sources: [
+          { title: "Stock Market Today (Sept. 4, 2026): Yields jump, stocks fall after jobs report surprises to upside (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-04-2026" },
+          { title: "Stock Market Midday, Sept. 4: Stocks Edge Lower on Strong Jobs Report as Lululemon Plummets (Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-midday-sept-4-stocks-edge-lower-on-strong-jobs-report-as-lululemon-plummets/" },
+          { title: "Why Did Tesla Stock Fall Today? (Motley Fool)", url: "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/" },
+          { title: "Trump threatens to end trade with countries with U.S. surpluses if Fed doesn't cut rates (CNBC via TheStreet)", url: "https://www.cnbc.com/2026/09/04/trump-fed-rates-jobs-trade.html" },
+        ],
+      },
+      {
         date: "2026-09-03",
         headline: "이란, 요르단·쿠웨이트·바레인 동시 공격에도 - 연준 월러 '9월 금리동결 지지' 발언에 나스닥 +1.4% 급반등(최근 한달래 최대 상승)",
         tone: "positive",
@@ -2026,6 +2046,22 @@ const BUSINESS_NOTES = {
       {title:"Tesla (TSLA) Stock in 2026: Robotaxis, Optimus, Declining EV Sales, and How to Trade (Phemex)", url:"https://phemex.com/academy/tesla-tsla-stock-2026"},
     ],
     newsLog: [
+      {
+        date: "2026-09-04",
+        headline: "Cybercab 공개 행사 '맹탕' 실망 + NHTSA 안전성 감사 착수 - 주가 -5.9% 급락",
+        facts: ["2026-09-03 테슬라가 Cybercab 프로덕션 모델 공개 행사를 열었으나, 머스크 CEO는 불참했고 참석자도 일부 주주·크리에이터로 제한(비밀유지계약 하에 진행)됐으며 라이브스트리밍도 하지 않았다.", "행사에서 가격·양산 일정·규제 승인 관련 구체적 정보가 공개되지 않았다 - RBC캐피털마켓은 '가격, 생산 속도, 규제 승인에 대한 핵심 질문들이 그대로 남았다'고 평가했다.", "2026-09-04 미국 도로교통안전국(NHTSA)이 테슬라가 Cybercab을 어떻게 자체 인증했는지, 조향장치·페달·후사경 등 일반 안전기준을 왜 적용받지 않기로 했는지에 대한 감사(audit query)에 착수했다고 발표했다.", "이 소식에 테슬라 주가는 2026-09-04 하루 만에 -5.9%($22.29) 하락한 $354.08로 마감했다(장중 -6.6%까지 하락).", "같은 날 S&P500(-0.38%)·나스닥(-0.29%) 대비 테슬라의 낙폭이 훨씬 컸다 - 강한 고용지표발 금리 우려에 더해 종목 고유 악재가 겹친 것으로 풀이된다.", "테슬라 주가는 현재 PER 320배 이상에서 거래 중이며, 이는 아직 실현되지 않은 로보택시·Cybercab 등 신사업 기대가 크게 반영된 밸류에이션이다."],
+        why: ["Cybercab은 스티어링휠·페달 없는 완전자율주행 전제의 차량으로, 기존 자동차 안전기준(FMVSS)의 예외 승인이 반드시 필요한데 NHTSA가 이 예외 근거 자체를 감사하기로 한 것은 규제 승인 지연 가능성을 키우는 사안이다.", "행사에서 가격·양산 일정이 전혀 공개되지 않았다는 것은, 테슬라가 예고해온 로보택시·Cybercab 사업화 시점이 시장 기대보다 더 늦어질 수 있다는 신호로 해석된다(8/13 newsLog의 '로보택시 매출 확대 지연' 우려와 같은 맥락).", "PER 320배가 넘는 밸류에이션은 이런 미래 사업의 성공을 상당 부분 미리 반영한 가격이라, 규제·일정 관련 부정적 뉴스 하나에도 주가가 크게 흔들리는 구조적 이유가 된다."],
+        beginner: ["테슬라가 운전대·페달이 없는 무인택시 'Cybercab'을 공개하는 행사를 열었는데, 정작 중요한 정보(가격이 얼마인지, 언제부터 실제로 팔지)는 하나도 안 알려줬어요. 머스크도 나오지 않았고요.", "설상가상으로 다음 날 미국 도로교통 규제기관(NHTSA)이 '운전대·페달도 없는 이 차가 왜 일반 안전기준을 안 지켜도 되는지' 조사를 시작했다고 발표했어요.", "이 두 가지가 겹치면서 테슬라 주가가 하루 만에 6% 가까이 떨어졌어요. 테슬라 주가는 원래 '앞으로 로보택시 사업이 잘될 것'이라는 기대감이 많이 반영된 비싼 가격(이익 대비 320배 이상)이었는데, 그 기대에 금이 간 셈이에요."],
+        interpretation: "이번 하락은 8/13·8/26 newsLog에서 이미 지적된 '로보택시 매출 확대 지연' 우려가 구체적 사건(맹탕 행사 + 규제 감사)으로 현실화된 사례다. 테슬라의 고밸류에이션은 로보택시·Cybercab 사업의 성공을 전제로 하는데, 이번 행사는 그 전제를 뒷받침할 만한 정보를 전혀 주지 못했고 오히려 규제 리스크만 키웠다. 다만 이는 '사업이 실패했다'는 뜻이 아니라 '사업화 시점과 방식에 대한 불확실성이 여전히 크다'는 재확인에 가깝다.",
+        decision: "규제 승인·가격·양산 일정 등 구체적 정보가 나오기 전까지는 이번 이슈만으로 매수·매도를 판단하기 이르다. NHTSA 감사 진행 상황과 다음 실적 발표에서 로보택시 관련 구체적 수치가 나오는지를 확인할 것.",
+        watch: ["NHTSA 감사 진행 상황 및 결과(안전기준 예외 승인 여부)", "테슬라의 Cybercab 가격·양산 일정 공식 발표 여부", "다음 분기 실적에서 로보택시 관련 매출·손익 기여도 공개 여부", "PER 320배대 밸류에이션과 실제 사업 진행 속도 간 괴리 지속 여부"],
+        confidence: "주가 하락폭(-5.9%, $354.08 마감)과 NHTSA 감사 착수, 행사 관련 사실관계(머스크 불참, 비공개 진행)는 Motley Fool·CNBC 등 복수 매체가 교차 확인해 신뢰도 높음. RBC 코멘트는 Motley Fool 인용 기준.",
+        sources: [
+          { title: "Why Did Tesla Stock Fall Today? (Motley Fool)", url: "https://www.fool.com/investing/2026/09/04/why-did-tesla-stock-fall-today/" },
+          { title: "Tesla's stock drops as Cybercab update 'underwhelms,' NHTSA probe (CNBC)", url: "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html" },
+          { title: "Stock Market Today, Sept. 4: Tesla Falls After Cybercab Launch Disappoints Investors (Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/09/04/stock-market-today-sept-4-tesla-falls-after-cybercab-launch-disappoints-investors/" },
+        ],
+      },
       {
         date: "2026-09-03",
         headline: "Tesla Cybercab 프로덕션 모델 공개 - 조향장치·페달 제거, 완전 자율주행 택시 상용화 신호",

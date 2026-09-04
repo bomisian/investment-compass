@@ -6703,7 +6703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -10968,7 +10968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
@@ -15374,7 +15374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -19463,7 +19463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -24216,7 +24216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -25393,7 +25393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -29837,7 +29837,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -34384,7 +34384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -39112,7 +39112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -43869,7 +43869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -47290,7 +47290,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -49922,7 +49922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -51839,7 +51839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
@@ -53830,7 +53830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788550723.3833165,
     "_earnings_status": "ok",
@@ -56888,7 +56888,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 78,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -60203,7 +60203,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -60218,6 +60218,106 @@ const NEWS_DATA = {
       "revenueEstimate": 11548517558
     },
     "news": [
+      {
+        "headline": "Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=503b81321b2ffd3a0a772e155a3eac66ea501ff47e8507ff588d1aa21dee3f6d",
+        "datetime": 1788539527,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788560068.5654874
+        },
+        "headlineKo": "Salesforce(CRM)는 Agentforce 및 Data 360 ARR을 200% 이상 증가시켰습니다. AI가 마침내 성장의 중요한 요소가 되고 있습니까?"
+      },
+      {
+        "headline": "Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc2b9aec298b36cc339efb5f7a295181c187487ee762a496f9bc28cf5063421d",
+        "datetime": 1788532800,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788560070.932414
+        },
+        "headlineKo": "소프트웨어 주식이 돌아왔습니다. 승자 2명, 패자 2명, 그리고 Salesforce."
+      },
       {
         "headline": "AI/R Everymind Recognized in Salesforce 2027 Partner of the Year Awards",
         "source": "Yahoo",
@@ -60264,7 +60364,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537637.264296
+          "analysisUpdatedAt": 1788560073.0022597
         },
         "headlineKo": "AI/R Everymind가 Salesforce 2027 올해의 파트너 상으로 선정되었습니다."
       },
@@ -60276,77 +60376,6 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: $25 Billion, 1.92%, $50 billion, $25 billion, 38%, 20%, 11%, 14%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: CRM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.5,
-          "quality": "high",
-          "verifiedNumbers": [
-            "$25 Billion",
-            "1.92%",
-            "$50 billion",
-            "$25 billion",
-            "38%",
-            "20%",
-            "11%",
-            "14%"
-          ],
-          "sourceExcerpt": [
-            "Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The M",
-            "Help The first half of 2026 was a tough time for software stock investors.",
-            "The sector experienced a massive sell-off, with top names, including Salesforce ( CRM -1.92% ) , dropping sharply as fears of AI displacing enterprise software led many investors to reevaluate the segment's top stocks."
-          ],
-          "analysisUpdatedAt": 1788537638.294218
-        },
         "headlineKo": "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다."
       },
       {
@@ -60357,15 +60386,27 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Salesforce가 AI 중단 위협에 대한 답을 찾았을 수도 있다고 Cantor는 말합니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=503b81321b2ffd3a0a772e155a3eac66ea501ff47e8507ff588d1aa21dee3f6d",
+        "datetime": 1788539527,
+        "headlineKo": "Salesforce(CRM)는 Agentforce 및 Data 360 ARR을 200% 이상 증가시켰습니다. AI가 마침내 성장의 중요한 요소가 되고 있습니까?",
+        "relevance": 1,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce May Have Found an Answer to the AI Disruption Threat, Cantor Says",
+            "Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -60389,38 +60430,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce May Have Found an Answer to the AI Disruption Threat, Cantor Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce (CRM) Grew Agentforce and Data 360 ARR More Than 200%. Is AI Finally Becoming Material to Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788560068.5654874
+        }
+      },
+      {
+        "headline": "Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=dc2b9aec298b36cc339efb5f7a295181c187487ee762a496f9bc28cf5063421d",
+        "datetime": 1788532800,
+        "headlineKo": "소프트웨어 주식이 돌아왔습니다. 승자 2명, 패자 2명, 그리고 Salesforce.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Software Stocks Are Back. 2 Winners, 2 Losers—and Salesforce.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537639.8292959
-        },
-        "headlineKo": "Salesforce가 AI 중단 위협에 대한 답을 찾았을 수도 있다고 Cantor는 말합니다."
+          "analysisUpdatedAt": 1788560070.932414
+        }
       },
-      {
-        "headline": "Datadog, Amplitude, Zscaler, DocuSign, and Salesforce Shares Skyrocket, What You Need To Know",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7428c8a120fe47b640795f50a9b484fee33d0b3b97e5c85a191d33502649dd6b",
-        "datetime": 1788472758,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Datadog, Amplitude, Zscaler, DocuSign 및 Salesforce 점유율 급등, 알아야 할 사항"
-      },
-      {
-        "headline": "Salesforce Gains 2.75% as Snowflake Makes Enterprise AI Spending Look Real",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
-        "datetime": 1788471002,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Snowflake를 통해 엔터프라이즈 AI 지출이 현실화되면서 Salesforce가 2.75% 이익을 얻습니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "AI/R Everymind Recognized in Salesforce 2027 Partner of the Year Awards",
         "source": "Yahoo",
@@ -60467,7 +60534,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537637.264296
+          "analysisUpdatedAt": 1788560073.0022597
         }
       },
       {
@@ -63327,17 +63394,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788537632.8362987,
-    "_updated_label": "2026-09-05 01:00",
+    "_fetched_at": 1788560063.8848746,
+    "_updated_label": "2026-09-05 07:14",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 84,
+      "checked": 86,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
-    "_last_attempt_at": 1788537632.8362987,
+    "_last_attempt_at": 1788560063.8848746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788537632.8362987,
+    "_last_success_at": 1788560063.8848746,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -66748,7 +66815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788550723.3833165,
     "_earnings_status": "ok",
@@ -68617,7 +68684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -68678,7 +68745,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537646.6428149
+          "analysisUpdatedAt": 1788560079.004833
         },
         "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
       },
@@ -68727,7 +68794,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537648.7919025
+          "analysisUpdatedAt": 1788560081.1136034
         },
         "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
       },
@@ -68777,7 +68844,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537649.8819644
+          "analysisUpdatedAt": 1788560082.197816
         },
         "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
       },
@@ -68849,7 +68916,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537646.6428149
+          "analysisUpdatedAt": 1788560079.004833
         }
       },
       {
@@ -68897,7 +68964,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537648.7919025
+          "analysisUpdatedAt": 1788560081.1136034
         }
       },
       {
@@ -68946,7 +69013,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537649.8819644
+          "analysisUpdatedAt": 1788560082.197816
         }
       },
       {
@@ -69897,17 +69964,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788537632.8362987,
-    "_updated_label": "2026-09-05 01:00",
+    "_fetched_at": 1788560063.8848746,
+    "_updated_label": "2026-09-05 07:14",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
-    "_last_attempt_at": 1788537632.8362987,
+    "_last_attempt_at": 1788560063.8848746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788537632.8362987,
+    "_last_success_at": 1788560063.8848746,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -73895,7 +73962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788550723.3833165,
     "_earnings_status": "ok",
@@ -75158,7 +75225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -76811,7 +76878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -78300,7 +78367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -82243,7 +82310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -83622,7 +83689,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788541220.6304533,
     "_earnings_status": "ok",
@@ -85104,7 +85171,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -86618,7 +86685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -88007,7 +88074,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -89750,7 +89817,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -89765,6 +89832,56 @@ const NEWS_DATA = {
       "revenueEstimate": 9411197170
     },
     "news": [
+      {
+        "headline": "Is Constellation Energy Stock Underperforming the Dow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=405670748c8d2ffff40c724d812a8abe6666f2420fe290a8c8f0e88c9e24ed3c",
+        "datetime": 1788537042,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Constellation Energy Stock Underperforming the Dow?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Is Constellation Energy Stock Underperforming the Dow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788560086.402782
+        },
+        "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
+      },
       {
         "headline": "Better Energy Play: NextEra vs. Constellation Energy",
         "source": "Yahoo",
@@ -89783,11 +89900,11 @@ const NEWS_DATA = {
           "facts": [
             "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
             "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
-            "NextEra Energy( NEE -0.52% )와 Constellation Energy( CEG +2.73% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
+            "NextEra Energy( NEE -0.75% )와 Constellation Energy( CEG +4.88% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.52%, 2.73%, 0.52 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.75%, 4.88%, 0.75 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -89811,21 +89928,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.52%",
-            "2.73%",
-            "0.52 %",
-            "$ 83.63",
+            "0.75%",
+            "4.88%",
+            "0.75 %",
+            "$ 83.43",
             "$175",
-            "$ 83.53",
+            "$ 83.23",
             "$ 84.12",
             "$ 69.24"
           ],
           "sourceExcerpt": [
             "Constellation Energy | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
-            "NextEra Energy ( NEE -0.52% ) and Constellation Energy ( CEG +2.73% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
+            "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788537656.2967916
+          "analysisUpdatedAt": 1788560089.4117417
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -89875,7 +89992,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537658.4752882
+          "analysisUpdatedAt": 1788560091.4382744
         },
         "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
       },
@@ -89887,60 +90004,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?",
-            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "기술과 친환경 에너지가 융합됨에 따라 투자자들은 점점 더 성장을 위해 전력망에 눈을 돌리고 있습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 2.73%, 0.52%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CEG",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "2.73%",
-            "0.52%",
-            "80%",
-            "$25.5 billion",
-            "8.3%",
-            "$2.3 billion",
-            "9.1%",
-            "15.9%"
-          ],
-          "sourceExcerpt": [
-            "NextEra Energy: Which Utilities Stock Is a Better Investment in 2026?",
-            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Investors are increasingly looking to the power grid for growth as technology and green energy converge."
-          ],
-          "analysisUpdatedAt": 1788537661.382335
-        },
         "headlineKo": "Constellation Energy vs. NextEra Energy: 2026년에는 어느 유틸리티 주식이 더 나은 투자입니까?"
       },
       {
@@ -89952,19 +90015,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "CEG 대 VST: 투자자에게 어떤 원자력 유틸리티 주식이 눈에 띄는가?"
-      },
-      {
-        "headline": "Constellation Energy (CEG) Stock Looks Discounted Against Fair Value",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=071df4fd485adc60acb1accbeebd2dc18af2b77656f826ee332950e1e3aba852",
-        "datetime": 1788154224,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Constellation Energy (CEG) 주식은 공정 가치에 비해 할인된 것으로 보입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Is Constellation Energy Stock Underperforming the Dow?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=405670748c8d2ffff40c724d812a8abe6666f2420fe290a8c8f0e88c9e24ed3c",
+        "datetime": 1788537042,
+        "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Constellation Energy Stock Underperforming the Dow?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Is Constellation Energy Stock Underperforming the Dow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788560086.402782
+        }
+      },
       {
         "headline": "Better Energy Play: NextEra vs. Constellation Energy",
         "source": "Yahoo",
@@ -89983,11 +90085,11 @@ const NEWS_DATA = {
           "facts": [
             "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
             "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
-            "NextEra Energy( NEE -0.52% )와 Constellation Energy( CEG +2.73% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
+            "NextEra Energy( NEE -0.75% )와 Constellation Energy( CEG +4.88% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.52%, 2.73%, 0.52 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.75%, 4.88%, 0.75 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -90011,21 +90113,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.52%",
-            "2.73%",
-            "0.52 %",
-            "$ 83.63",
+            "0.75%",
+            "4.88%",
+            "0.75 %",
+            "$ 83.43",
             "$175",
-            "$ 83.53",
+            "$ 83.23",
             "$ 84.12",
             "$ 69.24"
           ],
           "sourceExcerpt": [
             "Constellation Energy | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
-            "NextEra Energy ( NEE -0.52% ) and Constellation Energy ( CEG +2.73% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
+            "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788537656.2967916
+          "analysisUpdatedAt": 1788560089.4117417
         }
       },
       {
@@ -90074,7 +90176,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788537658.4752882
+          "analysisUpdatedAt": 1788560091.4382744
         }
       },
       {
@@ -90754,17 +90856,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788537632.8362987,
-    "_updated_label": "2026-09-05 01:01",
+    "_fetched_at": 1788560063.8848746,
+    "_updated_label": "2026-09-05 07:14",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 24,
+      "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
-    "_last_attempt_at": 1788537632.8362987,
+    "_last_attempt_at": 1788560063.8848746,
     "_earnings_status": "ok",
-    "_last_success_at": 1788537632.8362987,
+    "_last_success_at": 1788560063.8848746,
     "_collection_status": "ok"
   },
   "VST": {
@@ -92058,7 +92160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -93512,7 +93614,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -94595,7 +94697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -95254,7 +95356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788544831.1144285,
     "_earnings_status": "ok",
@@ -97420,7 +97522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -97933,7 +98035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788556269.3428748,
     "_earnings_status": "ok",
@@ -99016,7 +99118,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788550723.3833165,
     "_earnings_status": "ok",
@@ -99969,7 +100071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788550723.3833165,
     "_earnings_status": "ok",
@@ -101170,7 +101272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_last_attempt_at": 1788548422.2936773,
     "_earnings_status": "ok",
@@ -101330,7 +101432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-05 06:13"
+      "updated": "2026-09-05 07:14"
     },
     "_fetched_at": 1788548422.2936773,
     "_updated_label": "2026-09-05 04:03",
