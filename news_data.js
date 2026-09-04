@@ -6495,7 +6495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -10507,7 +10507,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788518844.4283063,
     "_earnings_status": "ok",
@@ -14677,7 +14677,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -18451,7 +18451,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -22941,7 +22941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -24069,7 +24069,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -28183,7 +28183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -32579,7 +32579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -36902,7 +36902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -41370,7 +41370,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -44593,7 +44593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -47045,7 +47045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -48962,7 +48962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788518844.4283063,
     "_earnings_status": "ok",
@@ -49019,7 +49019,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788528303.3948486
-        }
+        },
+        "headlineKo": "SPY와 QQQ가 단기 추세를 회복하면서 폭 회복이 기반을 다졌습니다."
       },
       {
         "headline": "QUICK SPARK: QQQ, VOO Lead ETF Inflows as Investors Rotate Into Gold and Treasurys",
@@ -50902,7 +50903,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -53764,7 +53765,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -56874,7 +56875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -59838,7 +59839,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 82,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788515115.7877812,
     "_earnings_status": "ok",
@@ -63128,7 +63129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 90,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -64794,7 +64795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -66075,7 +66076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788515115.7877812,
     "_earnings_status": "ok",
@@ -69894,7 +69895,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 95,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -71157,7 +71158,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -72712,7 +72713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -74196,7 +74197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -77917,7 +77918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -79163,7 +79164,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788518844.4283063,
     "_earnings_status": "ok",
@@ -80477,7 +80478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -81814,7 +81815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -83125,7 +83126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -84783,7 +84784,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -85788,7 +85789,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788515115.7877812,
     "_earnings_status": "ok",
@@ -87086,7 +87087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -88352,7 +88353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -89381,7 +89382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -90040,7 +90041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788523219.167506,
     "_earnings_status": "ok",
@@ -92089,7 +92090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -92599,7 +92600,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788511230.182238,
     "_earnings_status": "ok",
@@ -93682,7 +93683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -94537,7 +94538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788528300.1288922,
     "_earnings_status": "ok",
@@ -95689,7 +95690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_last_attempt_at": 1788526236.2086499,
     "_earnings_status": "ok",
@@ -95849,7 +95850,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 22:26"
+      "updated": "2026-09-04 23:00"
     },
     "_fetched_at": 1788526236.2086499,
     "_updated_label": "2026-09-04 21:53",
