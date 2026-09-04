@@ -4,7 +4,7 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "SPY": {
@@ -545,7 +545,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "AAPL": {
@@ -581,7 +581,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "ORCL": {
@@ -675,7 +675,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "CRM": {
@@ -1034,7 +1034,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "AVGO": {
@@ -1366,7 +1366,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "ARM": {
@@ -1439,7 +1439,7 @@ const INSIDER_DATA = {
   },
   "INTC": {
     "transactions": [],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "TSM": {
@@ -1605,12 +1605,12 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "AMAT": {
@@ -2264,7 +2264,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "WDC": {
@@ -2430,7 +2430,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "ANET": {
@@ -2596,7 +2596,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "COHR": {
@@ -2610,7 +2610,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "LITE": {
@@ -2776,12 +2776,12 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "CEG": {
@@ -2795,7 +2795,7 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "VST": {
@@ -2887,7 +2887,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "PWR": {
@@ -3227,7 +3227,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "EME": {
@@ -3241,7 +3241,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788458690.3430362,
+    "_fetched_at": 1788532084.0155032,
     "_updated_label": "2026-09-04"
   },
   "FIX": {
