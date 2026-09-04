@@ -4409,10 +4409,20 @@ function newsAutoTagHtml(headline, headlineKo){
   const r = autoNewsTone(headline, headlineKo);
   return `<span class="news-auto-tag news-auto-${r.tone}" title="자동 키워드 분류(정확도 낮음) - 자세히는 ? 아이콘 참고">${esc(r.label)}</span>`;
 }
+// 2026-09-04 추가(사용자 리포트: AMZN FTC 광고경매 소송 뉴스가 최신 5건 밖으로 밀려나
+// 화면에서 사라졌던 사례) - buy_signal_telegram.py의 keywordFlag는 소송·조사·리콜 등
+// 키워드가 제목에 있으면 기계적으로만 표시한 것(AI 해석 아님). 이 뱃지가 있으면 오래돼도
+// 목록에서 안 사라지게 서버 쪽에서 이미 "핀 고정"해뒀고(build_display_news), 여기선 왜
+// 이 항목이 최신순 밖인데도 보이는지 표시만 해준다.
+function keywordFlagBadgeHtml(n){
+  if(!n || !n.keywordFlag) return '';
+  const terms = (n.flagTerms||[]).join(', ');
+  return `<span class="news-auto-tag news-auto-risk" title="제목에 소송·조사·리콜 등 키워드 감지(기계적 매칭, AI 해석 아님) - 감지어: ${esc(terms)}">🔎 키워드 감지</span>`;
+}
 function renderNewsSection(r){
   const e = newsEntry(r.ticker);
   if(!e || !(e.news||[]).length) return '';
-  const items = e.news.slice(0,5).map(n=>{
+  const items = e.news.slice(0,10).map(n=>{
     const dt = n.datetime ? new Date(n.datetime*1000).toISOString().slice(0,10) : '';
     const safeUrl = /^https?:\/\//i.test(n.url||'') ? n.url : null; // http(s)만 링크 허용
     const en = esc(n.headline);
@@ -4422,14 +4432,14 @@ function renderNewsSection(r){
       ? `<a href="${esc(safeUrl)}" target="_blank" rel="noopener noreferrer nofollow" style="color:var(--text);">${shown}</a>`
       : shown;
     return `<div class="fund-row" style="align-items:flex-start;gap:10px;">
-      <span style="flex:1;">${link}${newsAutoTagHtml(n.headline, n.headlineKo)}${ko?`<div class="sub" style="font-size:10.5px;margin-top:2px;">${en}</div>`:''}</span>
+      <span style="flex:1;">${link}${newsAutoTagHtml(n.headline, n.headlineKo)}${keywordFlagBadgeHtml(n)}${ko?`<div class="sub" style="font-size:10.5px;margin-top:2px;">${en}</div>`:''}</span>
       <span class="v" style="white-space:nowrap;color:var(--sub);font-weight:400;">${esc(n.source)} ${dt}</span>
     </div>`;
   }).join('');
   return `
     <div class="chart-label" style="margin-top:18px;">최근 뉴스 ${hintIcon('news')}</div>
     ${items}
-    <div class="sub" style="margin-top:6px;">Finnhub 제공 헤드라인 (${esc(e._updated_label||'')} 기준) · 제목만 표시하며 내용의 사실 여부는 검증하지 않아요. 색깔 태그는 자동 키워드 분류예요(AI 해석 아님) ${hintIcon('newsAutoTag')} · 링크는 새 창으로 열려요.</div>`;
+    <div class="sub" style="margin-top:6px;">Finnhub 제공 헤드라인 (${esc(e._updated_label||'')} 기준) · 제목만 표시하며 내용의 사실 여부는 검증하지 않아요. 색깔 태그·🔎 뱃지는 전부 자동 키워드 분류예요(AI 해석 아님) ${hintIcon('newsAutoTag')} · 🔎 표시가 있으면 최신순 밖이어도 최근 14일 안엔 목록에서 안 사라져요 · 링크는 새 창으로 열려요.</div>`;
 }
 
 // ============ 06 뉴스 탭 (2026-08-13 추가) ============

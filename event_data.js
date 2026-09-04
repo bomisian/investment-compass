@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788513286.728295,
+  "generatedAt": 1788515146.0047073,
   "events": [
     {
       "id": "3b0f62bb79f7a275b575",
@@ -1489,7 +1489,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
         "publishedAt": 1788471002,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2263,15 +2263,15 @@ const EVENT_DATA = {
         "CRM"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
@@ -2280,45 +2280,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b9227a9a994e2901b52f76042bd10a151327a8cf995c860e2928c33dbe3d37d",
         "publishedAt": 1788459000,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "VEEV Raises FY27 Outlook as Vault CRM and AI Momentum Accelerate Fast",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+        "VEEV, Vault CRM 및 AI 모멘텀이 빠르게 가속화됨에 따라 FY27 Outlook 제기"
       ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
+      "watch": []
     },
     {
       "id": "59c241266885f400538e",
@@ -2790,7 +2779,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
         "publishedAt": 1788457440,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5493,7 +5482,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
         "publishedAt": 1788440400,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9254,7 +9243,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12636,7 +12625,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
         "publishedAt": 1788312901,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14395,7 +14384,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7aad304060901ecb8e4be788d79a7eb41f62fb4809c928587f50cd1523f23624",
         "publishedAt": 1788285729,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17292,7 +17281,7 @@ const EVENT_DATA = {
         "name": "CNBC",
         "url": "https://finnhub.io/api/news?id=85e4d19a31f2e30490e9a85a6b5e3f0d303371c61644aaaee5a7d62ebcdfdd26",
         "publishedAt": 1788268282,
-        "collectedAt": 1788492236.7788668
+        "collectedAt": 1788515115.7877812
       },
       "confirmedFacts": [],
       "reportedClaims": [

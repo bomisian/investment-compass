@@ -1575,7 +1575,7 @@ const BUSINESS_NOTES = {
     },
   },
   AMZN: {
-    updated: "2026-08-13",
+    updated: "2026-09-04",
     customers: [
       "전세계 소비자(온라인 리테일) - 매출 비중 약 74%로 여전히 핵심",
       "기업 고객(AWS 클라우드) - 매출 비중 약 17%, AI 워크로드 수요로 연 $1,470억까지 성장(+28%)",
@@ -1590,6 +1590,7 @@ const BUSINESS_NOTES = {
       "⚠️ 2026년 10월 FTC 독점 재판이 예정돼 있음 - 패소 시 3자 판매자(마켓플레이스) 생태계 강제 분리 등 사업구조 재편 리스크",
       "EU 디지털시장법(DMA)으로 이미 Buy Box 노출 방식·데이터 공유 방식이 강제 변경됨(2026-03) - 미준수 시 대규모 벌금 위험 지속",
       "2026년 설비투자 $2,000억(AI 데이터센터 + 위성인터넷 '프로젝트 리오') - 이 정도 규모의 투자는 2027~2028년까지 ROI가 안 나올 경우 마진 압박으로 이어질 수 있음(같은 맥락의 감원 소식은 위 newsLog 참고)",
+      "⚠️ 2026-08-31 FTC·22개 주가 스폰서 광고 경매가 조작(비공개 서차지) 혐의로 별도 소송 제기(광고주 약 $200억 과다청구 주장) - 10월 마켓플레이스 독점 재판과는 별개 사건이며, 자세한 내용은 아래 newsLog 참고",
     ],
     sources: [
       {title:"How Should Amazon Be Regulated? (GovFacts)", url:"https://govfacts.org/tech-innovation/tech-competition/platform-regulation/debating-how-to-regulate-amazon-antitrust-labor-practices-and-privacy/"},
@@ -1608,6 +1609,46 @@ const BUSINESS_NOTES = {
           {title:"Amazon confirms 16,000 more corporate job cuts, bringing total to 30,000 since October (GeekWire)", url:"https://www.geekwire.com/2026/amazon-confirms-16000-more-job-cuts-bringing-total-layoffs-to-30000-since-october/"},
           {title:"Amazon layoffs: 16,000 jobs to be cut in latest anti-bureaucracy push (CNBC)", url:"https://www.cnbc.com/2026/01/28/amazon-layoffs-anti-bureaucracy-ai.html"},
           {title:"Amazon Is Laying Off 16,000 Workers, in Latest Round of Cuts (Yahoo Finance)", url:"https://finance.yahoo.com/news/amazon-laying-off-16-000-173735652.html"},
+        ],
+      },
+      {
+        date: "2026-08-31",
+        headline: "FTC·22개 주, 아마존 스폰서 광고 경매가 조작(비공개 서차지) 혐의로 소송 - 광고주 약 $200억 과다청구 주장",
+        importance: "high",
+        tone: "risk",
+        horizon: "중장기(연방법원 소송 진행 상황에 따라 수개월~수년 소요 예상)",
+        facts: [
+          "FTC와 22개 주(알래스카·애리조나·캘리포니아·콜로라도·플로리다 등) 검찰총장이 2026-08-31 워싱턴주 서부지방법원에 아마존을 상대로 소송을 제기함 - 스폰서 상품 광고(Sponsored Products) 경매 가격 산정 방식이 광고주에게 알린 것과 다르게 운영됐다는 혐의.",
+          "아마존은 광고주들에게 '2등가 경매(second-price auction)'라서 낙찰자가 2등 입찰가보다 1센트만 더 내면 된다고 안내했지만, FTC는 2024년 기준 약 80%의 경우 아마존이 광고주의 '낙찰 입찰가 그대로'를 청구해 사실상 1등가 경매로 운영됐다고 주장함.",
+          "구체적으로는 2019년 도입된 비공개 '소프트 준비가(soft reserve price)' 서차지, 실제로는 존재하지 않는 '가상 경쟁 입찰자'·'2등가 대리 입찰' 등을 통해 사실상 셔츠 입찰(shill bid) 역할을 했고, 프라임데이·블랙프라이데이 같은 대목에 서차지를 더 올렸다는 혐의도 포함됨.",
+          "FTC는 이 방식으로 아마존이 100만 곳 이상의 광고주로부터 총 '수백억 달러' 규모(약 $200억으로 보도됨)를 추가로 받아갔다고 주장함. 소장 자체에는 소비자 피해 관련 근거가 거의 제시되지 않음(아마존 측도 이 점을 반박 근거로 지적).",
+          "아마존은 공식 입장문에서 이 소송이 '광고주가 실제로 어떻게 운영하는지를 오해한' 소송이라며 반박함 - 소장에 소비자·광고주 피해 증거가 없다는 점, 2019년부터 머신러닝 기반 경매로 전환하며 입찰가보다 '관련성'을 우선하는 방향으로 바꿨다는 점, 그 결과 2019~2025년 평균 낙찰 입찰가가 50% 낮아졌고 실제 낙찰 광고의 약 92%가 최고 입찰가가 아니었다는 통계, 2021~2025년 광고주가 총 $80억 이상을 절감했다는 자체 추산을 근거로 제시함. 다만 낡은 교육자료 일부에 부정확한 설명이 있었다는 점은 인정함(조회수 928회에 불과한 영상 등이라 영향은 제한적이라고 주장).",
+          "소식이 전해진 2026-08-31(현지시간) 장중부터 주가가 하락하기 시작해 다음날(9/1) 프리마켓까지 이틀 연속 하락(8/31 -2.5%, 9/1 프리마켓 추가 -0.8% 등, 매체별 수치 다소 상이)했음. Citi는 '매수(Buy)' 의견과 목표주가 $350(당시 종가 대비 +37% 이상 여력)을 유지하며 이번 하락을 단기 조정·매수 기회로 평가했고, 근거로 광고 사업 펀더멘털과 AWS의 AI 수요 가속을 제시함.",
+        ],
+        why: [
+          "아마존 광고 사업은 매출 비중은 약 9%로 작지만 고마진 사업이라 전체 수익성 개선에 기여하는 핵심 성장동력 중 하나예요 - 이 사업의 가격구조 신뢰성에 대한 소송이라 장기적으로는 가볍게 볼 사안이 아니에요.",
+          "이번 소송은 위 risks 항목의 '2026년 10월 FTC 독점 재판'(마켓플레이스 강제 분리 이슈)과는 별개 사건이에요 - 아마존은 지금 광고 부문(이번 건)과 마켓플레이스 부문(기존 독점소송) 두 갈래로 FTC의 규제 압박을 동시에 받고 있는 상태라는 점을 구분해서 봐야 해요.",
+          "초기 주가 반응(-2~3%대)은 크지 않았고, 애널리스트(Citi)는 오히려 매수 기회로 보고 있어요 - 시장은 아직 이 소송을 '사업구조를 즉시 흔들 리스크'라기보다는 '장기 소송 리스크(벌금·화해금 가능성)' 정도로 소화하는 분위기예요.",
+        ],
+        beginner: [
+          "아마존이 광고주들에게 '2등 입찰가보다 살짝만 더 내면 된다'고 안내해놓고, 실제로는 최고 입찰가를 거의 다 청구했다는 게 이번 소송의 핵심이에요 - 쉽게 말하면 '경매 규칙을 다르게 설명해놓고 실제로는 다르게 운영했다'는 혐의예요.",
+          "미국 FTC(연방거래위원회)와 22개 주가 함께 소송을 걸었고, 아마존은 '오해에서 비롯된 소송'이라며 강하게 반박하고 있어요. 아직 법원 판단이 나온 게 아니라 소송이 막 시작된 단계예요.",
+          "주가는 소식 이후 며칠간 조금씩 하락했지만 급락 수준은 아니었고, 일부 애널리스트는 오히려 '이 정도 하락이면 싸게 살 기회'라고 보고 있어요.",
+        ],
+        interpretation: "이번 FTC·22개 주 소송은 아마존의 핵심 고마진 사업(광고)의 운영 방식 자체를 정조준한 사안이라 가볍게 볼 수는 없지만, (1) 이제 막 소장이 제출된 초기 단계이고, (2) 아마존이 구체적인 반박 데이터(광고주 절감액 $80억, 낙찰 입찰가 50% 하락 등)로 맞서고 있으며, (3) 소장 자체에 소비자 피해 근거가 부족하다는 지적이 있고, (4) 초기 주가 반응도 -2~3%대로 제한적이었다는 점을 종합하면, 지금 시점에서는 '펀더멘털을 즉시 훼손하는 사건'이라기보다는 '수년에 걸쳐 지켜봐야 할 장기 법적 리스크' 성격에 가까워요. 다만 이미 예정된 2026년 10월 마켓플레이스 독점 재판과 겹치면서 '규제 리스크가 누적되는 국면'이라는 점은 계속 기록해둘 필요가 있어요.",
+        decision: "이번 소송 하나만으로 매도·매수 판단을 바꿀 근거는 부족하다고 봐요 - 10월 마켓플레이스 독점 재판 결과와 함께 '규제 리스크 누적' 항목으로 계속 추적할 것.",
+        watch: [
+          "법원의 기각(dismiss) 신청 인용 여부 및 본안 소송 일정",
+          "화해(settlement) 협상 여부와 규모(있을 경우)",
+          "2026년 10월 예정된 별도의 FTC 마켓플레이스 독점 재판 진행 상황과의 연계 여부",
+          "광고 부문 매출 성장률 둔화 여부(다음 분기 실적에서 광고주 이탈 조짐이 나타나는지)",
+        ],
+        confidence: "소송 제기 사실·혐의 내용·플레인티프(FTC+22개 주) 목록은 FTC 공식 보도자료 기준으로 신뢰도 높음. 아마존 측 반박 수치(광고주 절감액 $80억 등)는 아마존 공식 입장문 기준(회사측 주장이라 제3자 검증은 안 됨). 주가 반응·애널리스트(Citi) 코멘트는 Yahoo Finance 보도 기준.",
+        sources: [
+          {title:"FTC, States Sue Amazon Over Secret Ad Surcharge Scheme (FTC 공식 보도자료)", url:"https://www.ftc.gov/news-events/news/press-releases/2026/08/ftc-states-sue-amazon-over-secret-ad-surcharge-scheme"},
+          {title:"Amazon's response to the FTC's lawsuit regarding Sponsored Ads (Amazon 공식 입장문)", url:"https://www.aboutamazon.com/company-news/amazon-ftc-sponsored-ads-lawsuit-response"},
+          {title:"FTC accuses Amazon of running a 'secret ad surcharge scheme' in new lawsuit (TechCrunch)", url:"https://techcrunch.com/2026/08/31/ftc-accuses-amazon-of-running-a-secret-ad-surcharge-scheme-in-new-lawsuit/"},
+          {title:"AMZN Stock Slips On $20B FTC Ad Lawsuit: Citi Calls Pullback A Buying Opportunity (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/amzn-stock-slips-20b-ftc-115127923.html"},
         ],
       },
     ],
