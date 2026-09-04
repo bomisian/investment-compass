@@ -49,21 +49,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.7400002479553223,
+      "current": 3.740000009536743,
       "prevClose": 3.7720000743865967,
-      "changeAbs": -0.031999826431274414,
-      "changePct": -0.848351691416078,
-      "pctRank": 37.689243027888445,
+      "changeAbs": -0.032000064849853516,
+      "changePct": -0.8483580121630134,
+      "pctRank": 37.60956175298805,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
       "high1y": 3.997999906539917,
-      "drawdown1y": -6.453218224506696,
-      "ma20": 3.715500032901764,
-      "ma60": 3.703350015481313,
-      "chg1m": 0.015000343322753906,
-      "chg3m": 0.12000036239624023,
-      "chg1mPct": 0.4026937907863794,
-      "chg3mPct": 3.314927242814182,
+      "drawdown1y": -6.453224187953044,
+      "ma20": 3.715500020980835,
+      "ma60": 3.7033500115076703,
+      "chg1m": 0.015000104904174805,
+      "chg3m": 0.12000012397766113,
+      "chg1mPct": 0.4026873902874477,
+      "chg3mPct": 3.31492065666538,
       "lastDate": "2026-09-03",
       "bars": 1255,
       "symbol": "^IRX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.0999984741211,
+      "current": 91.54000091552734,
       "prevClose": 91.30000305175781,
-      "changeAbs": 0.7999954223632812,
-      "changePct": 0.8762271584041078,
-      "pctRank": 85.91885441527445,
+      "changeAbs": 0.23999786376953125,
+      "changePct": 0.26286731188111445,
+      "pctRank": 85.2824184566428,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.45949449974339,
-      "ma20": 85.46650047302246,
-      "ma60": 80.35883344014486,
-      "chg1m": 14.80999755859375,
-      "chg3m": 1.55999755859375,
-      "chg1mPct": 19.161595786213095,
-      "chg3mPct": 1.7229926472490404,
+      "drawdown1y": -18.955286951026373,
+      "ma20": 85.43850059509278,
+      "ma60": 80.34950014750163,
+      "chg1m": 14.25,
+      "chg3m": 1.0,
+      "chg1mPct": 18.43705502808089,
+      "chg3mPct": 1.104484194707472,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.04399871826172,
+      "current": 99.02799987792969,
       "prevClose": 99.0,
-      "changeAbs": 0.04399871826171875,
-      "changePct": 0.04444314975931187,
+      "changeAbs": 0.0279998779296875,
+      "changePct": 0.028282704979482324,
       "pctRank": 26.412092283214,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.5253438408388673,
-      "ma20": 99.3871997833252,
-      "ma60": 100.2802335103353,
-      "chg1m": -0.9260025024414062,
-      "chg3m": -1.0260009765625,
-      "chg1mPct": -0.9262803752468468,
-      "chg3mPct": -1.0252832813944401,
+      "drawdown1y": -2.541089181096645,
+      "ma20": 99.38639984130859,
+      "ma60": 100.27996686299642,
+      "chg1m": -0.9420013427734375,
+      "chg3m": -1.0419998168945312,
+      "chg1mPct": -0.9422840164758898,
+      "chg3mPct": -1.0412709304209433,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4514.89990234375,
+      "current": 4519.10009765625,
       "prevClose": 4491.7001953125,
-      "changeAbs": 23.19970703125,
-      "changePct": 0.5165016813780452,
-      "pctRank": 92.36276849642005,
+      "changeAbs": 27.39990234375,
+      "changePct": 0.6100118251958202,
+      "pctRank": 92.442322991249,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.107927473560379,
-      "ma20": 4471.409985351563,
-      "ma60": 4231.901668294271,
-      "chg1m": 272.89990234375,
-      "chg3m": 177.7998046875,
-      "chg1mPct": 6.433283883633899,
-      "chg3mPct": 4.0995089042003485,
+      "drawdown1y": -15.028952680584606,
+      "ma20": 4471.6199951171875,
+      "ma60": 4231.971671549479,
+      "chg1m": 277.10009765625,
+      "chg3m": 182.0,
+      "chg1mPct": 6.532298388879067,
+      "chg3mPct": 4.196352306887084,
       "lastDate": "2026-09-04",
       "bars": 1257,
       "symbol": "GC=F",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0219998359680176,
+  "yieldSpread": 1.0220000743865967,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -219,53 +219,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil set for steepest weekly gain since mid-July over intensifying US-Iran tensions - reuters.com",
+      "headline": "Oil set for steepest weekly gain since mid-July over intensifying US-Iran tensions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
       "datetime": 1788485280,
-      "headlineKo": "미국-이란 긴장 고조로 7월 중순 이후 가장 가파른 주간 상승세 예상 - reuters.com"
+      "headlineKo": "미국-이란 긴장 고조로 인해 7월 중순 이후 가장 가파른 주간 상승세 예상 - Reuters"
     },
     {
-      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - reuters.com",
+      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
       "datetime": 1788479820,
-      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 파업이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - reuters.com"
+      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 공격이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - 로이터 통신"
     },
     {
-      "headline": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - reuters.com",
+      "headline": "Deadly strike on Iranian wedding was likely a direct hit by a US munition, analysis shows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUEFXVU5xRXZGVUVkV3B2TUVQcTBseVZsSGd0blBwQktIaGlIc3R5TzMtNXFISkFTb1VOdlhWOXBmQ052RWFuT1pQaXJqQndNaXB3TmhLQTZPQXNQSFFXQ3JGY0NBdE1RY09razBPZFh2VnJiYmlBSld3akdLeHZxbVA5bWNqVWFycjFlUHFNd3VPdE4tYTFVaWxmdDBoOUlxUk80X0dkbkFqOV9SU3lxNkFsd0JGZnB5Qk9SV3JGWkxRWlhn?oc=5",
-      "datetime": 1788477571,
-      "headlineKo": "이란 결혼식에 대한 치명적인 공격은 미국 군수품의 직접적인 타격일 가능성이 높다는 분석이 나왔습니다 - reuters.com"
+      "datetime": 1788473580,
+      "headlineKo": "이란 결혼식에 대한 치명적인 공격은 미국 군수품의 직접적인 타격일 가능성이 높다는 분석이 나왔습니다 - 로이터 통신"
     },
     {
-      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - reuters.com",
+      "headline": "Vance says Iran conflict is not a war, declines to offer timeline for end - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWVqMkRjNklKdUhYTF9BTE5GN1ctUG5zaGI0cVdEcW9ReEhYMmxJREpHX1o5RE5mS1VZMHAwTlBTTmZhWURSV3dMUkY1YjhBMjZEN2hvZWhYc1hiaTk1MFRacnpEVDVYWnRuTEVrVW8yZnRnTVUxcTV0UEd5NXRRVDlzTmM0NFA5b3o3Q3JPMFhHMGFJb3JVN05DTVZSbUZlNHlNVFdMTmhmajRfR25zZ05LblhOZjg?oc=5",
       "datetime": 1788473423,
       "headlineKo": "밴스 \"이란 분쟁은 전쟁이 아니다\""
     },
     {
-      "headline": "South Korea prepares Hormuz military deployment, media reports say - reuters.com",
+      "headline": "South Korea reviewing military options for Hormuz, no decision made, official says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdWViay1UelBGa2N2MVRMeTBDRUFURDhZblFPbFcwLXc1VG92Y3ZTeE1ZZHU3b1JicEYxOHBEdWQzSEQ1aXZiNmNCZjBVcUl0Y19yOGRQZE5wZjRkdHFYbzJxZTE3QTZDdlRVUGtFSTRyR0JSNkxRU0dBZGRTT1BWalZjdGpKV1BCRjFQV0dXTzZwZEw4aElNSXhJVy1ldVRZV2VqTlYzejVUdzZ3bUhoMlRpbFFsV2FWUjNYUg?oc=5",
-      "datetime": 1788473245,
-      "headlineKo": "한국, 호르무즈 군사 배치 준비, 언론 보도에 따르면 - reuters.com"
+      "datetime": 1788472980,
+      "headlineKo": "한국 정부, 호르무즈에 대한 군사적 옵션 검토 중, 결정은 내려지지 않았다 - 로이터 통신"
     },
     {
-      "headline": "US diesel prices hit record high as conflicts intensify supply crunch - reuters.com",
+      "headline": "US diesel prices hit record high as conflicts intensify supply crunch - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5",
       "datetime": 1788470483,
-      "headlineKo": "분쟁으로 공급 부족 심화로 미국 디젤 가격 사상 최고치 기록 - reuters.com"
+      "headlineKo": "분쟁으로 공급 부족이 심화되면서 미국 디젤 가격이 사상 최고치를 기록했습니다."
     },
     {
-      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - reuters.com",
+      "headline": "Vance: US probing airstrike that Iran says hit a wedding party - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZGdyY0d2X01maFd2M2xxLVFCVEg2aUw4aGMwd3pzZHpOQWE2X1hXTG9OR0NMcmZnUDl1a00xRkRKMHhqRk9WYlcxZTBXbmZNZG9BLU0wWnJRRmFkYTlZd256cEZNOUo5YTN5b011OF9ZUWVWVEI0VTduM1FULWVzMnJCX1Jyb0xZTmlKOW5FWHhFR0dXUnBFZHdXY2t5SjZvcGpELWx0M3h5MzZPYlpYVVh0bw?oc=5",
       "datetime": 1788467976,
-      "headlineKo": "밴스: 미국, 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습 조사 중 - reuters.com"
+      "headlineKo": "밴스: 이란이 결혼식 파티에 타격을 줬다고 주장하는 공습을 미국이 조사 중 - 로이터 통신"
     },
     {
       "headline": "Adobe names Anil Chakravarthy as CEO, replacing Shantanu Narayen",
@@ -275,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "Adobe, Shantanu Narayen을 대신하여 Anil Chakravarthy를 CEO로 지명"
     },
     {
-      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - reuters.com",
+      "headline": "Oil prices mixed as investors weigh Middle East escalation, chance of Russia-Ukraine peace deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUUpNcGxHMWt3cDdxdFVCZUNrdTBGRlZSUEpJOEg1ZENWVkRPN2lWbTZxMUU3WG56bkZScmlMM3hpOWtzOEtFcWJUaXNqUklwZU9KVlFxd2FxUEtVV2pwYnh3cXo2Y3dhZkJNUDBoSHcxN1dRM3ZCU25QdG02N1JCOHk2SjFzN2Z3UnhKc3hWbDNnWWFp?oc=5",
       "datetime": 1788466437,
-      "headlineKo": "투자자들이 중동 사태와 러시아-우크라이나 평화 협상 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - reuters.com"
+      "headlineKo": "투자자들이 중동 사태의 고조와 러시아-우크라이나 평화 협정의 가능성을 고려하면서 유가는 혼조세를 보이고 있습니다 - Reuters"
     },
     {
       "headline": "We're lifting our price targets on 2 stocks that have shaken off AI disruption concerns",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 35.2285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788496001.265853,
-  "_updated_label": "2026-09-04 13:27",
-  "_last_attempt_at": 1788496001.265853,
-  "_last_success_at": 1788496001.265853,
+  "_fetched_at": 1788499699.5351844,
+  "_updated_label": "2026-09-04 14:28",
+  "_last_attempt_at": 1788499699.5351844,
+  "_last_success_at": 1788499699.5351844,
   "_collection_status": "ok",
   "_collection_errors": []
 };
