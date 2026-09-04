@@ -846,8 +846,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "NVDA": {
     "transactions": [
@@ -1200,8 +1200,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "QCOM": {
     "transactions": [
@@ -1776,8 +1776,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "LRCX": {
     "transactions": [
@@ -2076,8 +2076,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "MU": {
     "transactions": [
@@ -2242,8 +2242,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "SNDK": {
     "transactions": [
@@ -3263,8 +3263,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788465807.4499931,
-    "_updated_label": "2026-09-04"
+    "_fetched_at": 1788537816.747922,
+    "_updated_label": "2026-09-05"
   },
   "BE": {
     "transactions": [
