@@ -26,14 +26,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 236.54,
     "52WeekLow": 164.07,
     "beta": 2.2209277,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.1253,
-      "dividendGrowthRate5Y": 20.05,
-      "dividendIndicatedAnnual": 1,
-      "dividendPerShareAnnual": 0.0399,
-      "dividendPerShareTTM": 0.2795,
-      "dividendYieldIndicatedAnnual": 0.03349
-    },
     "avgPe3Y": 43.12543333333334,
     "peDeviation3Y": -34.98082724579387,
     "perBandYears": 25,
@@ -44,7 +36,10 @@ const FUNDAMENTALS_DATA = {
     "name": "NVIDIA Corp",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.03349,
+    "dividendPerShareTTM": 0.2795,
+    "dividendGrowthRate5Y": 20.05
   },
   "AAPL": {
     "forwardPE": 34.85022,
@@ -72,14 +67,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 344.5699,
     "52WeekLow": 225.95,
     "beta": 1.0942221,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.3251,
-      "dividendGrowthRate5Y": 4.95,
-      "dividendIndicatedAnnual": 1.08,
-      "dividendPerShareAnnual": 1.0318,
-      "dividendPerShareTTM": 1.0616,
-      "dividendYieldIndicatedAnnual": 0.50534
-    },
     "avgPe3Y": 32.996199999999995,
     "peDeviation3Y": 13.094538158939523,
     "perBandYears": 25,
@@ -90,7 +77,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Apple Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00"
+    "_updated_label": "2026-09-04 05:00",
+    "dividendYieldIndicatedAnnual": 0.50534,
+    "dividendPerShareTTM": 1.0616,
+    "dividendGrowthRate5Y": 4.95
   },
   "GOOGL": {
     "forwardPE": 19.28932,
@@ -118,12 +108,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 408.61,
     "52WeekLow": 224.79,
     "beta": 1.2150782,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.2458,
-      "dividendIndicatedAnnual": 0.88,
-      "dividendPerShareAnnual": 0.8271,
-      "dividendPerShareTTM": 0.8468
-    },
     "avgPe3Y": 25.200466666666667,
     "peDeviation3Y": -31.88935654630734,
     "perBandYears": 22,
@@ -134,7 +118,8 @@ const FUNDAMENTALS_DATA = {
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendPerShareTTM": 0.8468
   },
   "MSFT": {
     "forwardPE": 22.94147,
@@ -162,14 +147,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 553.72,
     "52WeekLow": 349.2,
     "beta": 1.0632268,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.7168,
-      "dividendGrowthRate5Y": 10.2,
-      "dividendIndicatedAnnual": 3.64,
-      "dividendPerShareAnnual": 3.559,
-      "dividendPerShareTTM": 3.559,
-      "dividendYieldIndicatedAnnual": 0.79485
-    },
     "avgPe3Y": 31.848833333333335,
     "peDeviation3Y": -13.394943823164645,
     "perBandYears": 27,
@@ -180,7 +157,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Microsoft Corp",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 0.79485,
+    "dividendPerShareTTM": 3.559,
+    "dividendGrowthRate5Y": 10.2
   },
   "AMZN": {
     "forwardPE": 24.69711,
@@ -207,9 +187,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 287.2,
     "52WeekLow": 196,
     "beta": 1.5033222,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 40.77086666666667,
     "peDeviation3Y": -50.135472551478756,
     "perBandYears": 20,
@@ -245,14 +222,6 @@ const FUNDAMENTALS_DATA = {
     "longTermDebt/equityQuarterly": 0.1267,
     "totalDebt/totalEquityQuarterly": 0.1527,
     "beta": 0.9821405,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.8595,
-      "dividendGrowthRate5Y": 12.47,
-      "dividendIndicatedAnnual": 24,
-      "dividendPerShareAnnual": 17.9997,
-      "dividendPerShareTTM": 20.5001,
-      "dividendYieldIndicatedAnnual": 1.99301
-    },
     "avgPe3Y": 21.6945,
     "peDeviation3Y": 25.81437691580814,
     "perBandYears": 27,
@@ -264,7 +233,10 @@ const FUNDAMENTALS_DATA = {
     "theme": "반도체 설계·파운드리",
     "marketCapCurrencyNote": "TWD",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 1.99301,
+    "dividendPerShareTTM": 20.5001,
+    "dividendGrowthRate5Y": 12.47
   },
   "AVGO": {
     "forwardPE": 22.42369,
@@ -292,14 +264,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 495,
     "52WeekLow": 289.96,
     "beta": 1.4839604,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.7166,
-      "dividendGrowthRate5Y": 11.45,
-      "dividendIndicatedAnnual": 2.6,
-      "dividendPerShareAnnual": 2.3638,
-      "dividendPerShareTTM": 2.5482,
-      "dividendYieldIndicatedAnnual": 1.87972
-    },
     "avgPe3Y": 77.41036666666666,
     "peDeviation3Y": -43.099093962867165,
     "perBandYears": 15,
@@ -310,7 +274,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 1.87972,
+    "dividendPerShareTTM": 2.5482,
+    "dividendGrowthRate5Y": 11.45
   },
   "META": {
     "forwardPE": 15.88975,
@@ -338,12 +305,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 790.8,
     "52WeekLow": 520.26,
     "beta": 1.285106,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.3554,
-      "dividendIndicatedAnnual": 2.1,
-      "dividendPerShareAnnual": 2.1027,
-      "dividendPerShareTTM": 2.1197
-    },
     "avgPe3Y": 24.829233333333335,
     "peDeviation3Y": -10.677064803987776,
     "perBandYears": 14,
@@ -354,7 +315,8 @@ const FUNDAMENTALS_DATA = {
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788472802.3168995,
-    "_updated_label": "2026-09-04 07:00"
+    "_updated_label": "2026-09-04 07:00",
+    "dividendPerShareTTM": 2.1197
   },
   "TSLA": {
     "forwardPE": 145.90287,
@@ -382,9 +344,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 498.83,
     "52WeekLow": 297.38,
     "beta": 1.7532953,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 209.56803333333335,
     "peDeviation3Y": 68.33769654118684,
     "perBandYears": 6,
@@ -422,14 +381,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 1255,
     "52WeekLow": 117.3,
     "beta": 2.3704646,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.0522,
-      "dividendGrowthRate5Y": 44.19,
-      "dividendIndicatedAnnual": 0.6,
-      "dividendPerShareAnnual": 0.468,
-      "dividendPerShareTTM": 0.5044,
-      "dividendYieldIndicatedAnnual": 0.59841
-    },
     "avgPe3Y": 53.1593,
     "peDeviation3Y": -59.49645687584299,
     "perBandYears": 17,
@@ -440,7 +391,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Micron Technology Inc",
     "theme": "메모리·스토리지",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.59841,
+    "dividendPerShareTTM": 0.5044,
+    "dividendGrowthRate5Y": 44.19
   },
   "AMD": {
     "forwardPE": 43.80533,
@@ -468,9 +422,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 584.73,
     "52WeekLow": 149.22,
     "beta": 2.5386693,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 160.30326666666667,
     "peDeviation3Y": -27.84619901694663,
     "perBandYears": 14,
@@ -505,13 +456,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 142.35,
     "52WeekLow": 23.72,
     "beta": 2.395181,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 2.6844,
-      "dividendIndicatedAnnual": 0,
-      "dividendPerShareAnnual": 0,
-      "dividendPerShareTTM": 3.0444,
-      "dividendYieldIndicatedAnnual": 1.1374
-    },
     "avgPe3Y": 49.891533333333335,
     "perBandYears": 25,
     "perBandLow": 0.6269118679148774,
@@ -521,7 +465,9 @@ const FUNDAMENTALS_DATA = {
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 1.1374,
+    "dividendPerShareTTM": 3.0444
   },
   "AMAT": {
     "forwardPE": 32.06094,
@@ -549,14 +495,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 739.67,
     "52WeekLow": 154.47,
     "beta": 1.6360894,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.4354,
-      "dividendGrowthRate5Y": 14.84,
-      "dividendIndicatedAnnual": 2.12,
-      "dividendPerShareAnnual": 1.7182,
-      "dividendPerShareTTM": 1.9054,
-      "dividendYieldIndicatedAnnual": 0.8514
-    },
     "avgPe3Y": 21.2038,
     "peDeviation3Y": 77.08335298389912,
     "perBandYears": 24,
@@ -567,7 +505,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Applied Materials Inc",
     "theme": "반도체 장비",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.8514,
+    "dividendPerShareTTM": 1.9054,
+    "dividendGrowthRate5Y": 14.84
   },
   "QQQ": {
     "52WeekHigh": 748.65,
@@ -617,14 +558,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 345.72,
     "52WeekLow": 114.5,
     "beta": 1.7762145,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 1.3784,
-      "dividendGrowthRate5Y": 14.35,
-      "dividendIndicatedAnnual": 2,
-      "dividendPerShareAnnual": 2.0366,
-      "dividendPerShareTTM": 2.0366,
-      "dividendYieldIndicatedAnnual": 1.37634
-    },
     "avgPe3Y": 36.69336666666666,
     "peDeviation3Y": -33.03939585810695,
     "perBandYears": 27,
@@ -635,7 +568,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Oracle Corp",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 1.37634,
+    "dividendPerShareTTM": 2.0366,
+    "dividendGrowthRate5Y": 14.35
   },
   "CRM": {
     "forwardPE": 12.19072,
@@ -663,12 +599,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 269.11,
     "52WeekLow": 146.32,
     "beta": 1.2386768,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.6918,
-      "dividendIndicatedAnnual": 1.76,
-      "dividendPerShareAnnual": 1.6785,
-      "dividendPerShareTTM": 1.708
-    },
     "avgPe3Y": 48.34823333333333,
     "peDeviation3Y": -53.12341643645028,
     "perBandYears": 17,
@@ -679,7 +609,8 @@ const FUNDAMENTALS_DATA = {
     "name": "Salesforce Inc",
     "theme": "빅테크·AI SW",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendPerShareTTM": 1.708
   },
   "PLTR": {
     "forwardPE": 67.03924,
@@ -705,9 +636,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 207.52,
     "52WeekLow": 106.37,
     "beta": 1.668296,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 270.4549333333334,
     "peDeviation3Y": -47.04311796617256,
     "perBandYears": 3,
@@ -744,14 +672,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 259.92,
     "52WeekLow": 121.99,
     "beta": 1.7202818,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 2.159,
-      "dividendGrowthRate5Y": 6.56,
-      "dividendIndicatedAnnual": 3.68,
-      "dividendPerShareAnnual": 3.4797,
-      "dividendPerShareTTM": 3.5731,
-      "dividendYieldIndicatedAnnual": 2.50489
-    },
     "avgPe3Y": 22.58073333333333,
     "peDeviation3Y": -15.263159448615479,
     "perBandYears": 24,
@@ -762,7 +682,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendYieldIndicatedAnnual": 2.50489,
+    "dividendPerShareTTM": 3.5731,
+    "dividendGrowthRate5Y": 6.56
   },
   "ARM": {
     "forwardPE": 98.30982,
@@ -789,9 +712,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 452.7,
     "52WeekLow": 100.02,
     "beta": 3.9123247,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 248.85296666666667,
     "peDeviation3Y": 11.760733145100795,
     "perBandYears": 3,
@@ -825,14 +745,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 329.88,
     "52WeekLow": 61.44,
     "beta": 2.314719,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.1156,
-      "dividendGrowthRate5Y": -0.04,
-      "dividendIndicatedAnnual": 0.24,
-      "dividendPerShareAnnual": 0.2394,
-      "dividendPerShareTTM": 0.2409,
-      "dividendYieldIndicatedAnnual": 0.42834
-    },
     "avgPe3Y": 18.762133333333335,
     "peDeviation3Y": 265.5597089172517,
     "perBandYears": 14,
@@ -843,7 +755,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Marvell Technology Inc",
     "theme": "반도체 설계·파운드리",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.42834,
+    "dividendPerShareTTM": 0.2409,
+    "dividendGrowthRate5Y": -0.04
   },
   "ASML": {
     "forwardPE": 42.12622,
@@ -868,14 +783,6 @@ const FUNDAMENTALS_DATA = {
     "longTermDebt/equityQuarterly": 0.0763,
     "totalDebt/totalEquityQuarterly": 0.1431,
     "beta": 2.2861626,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.5241,
-      "dividendGrowthRate5Y": 20.76,
-      "dividendIndicatedAnnual": 7.5,
-      "dividendPerShareAnnual": 6.5501,
-      "dividendPerShareTTM": 7.5028,
-      "dividendYieldIndicatedAnnual": 0.94259
-    },
     "avgPe3Y": 33.48223333333333,
     "peDeviation3Y": 58.33471881107095,
     "perBandYears": 23,
@@ -887,7 +794,10 @@ const FUNDAMENTALS_DATA = {
     "theme": "반도체 장비",
     "marketCapCurrencyNote": "EUR",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 0.94259,
+    "dividendPerShareTTM": 7.5028,
+    "dividendGrowthRate5Y": 20.76
   },
   "LRCX": {
     "forwardPE": 32.23672,
@@ -915,14 +825,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 438.5,
     "52WeekLow": 96.44,
     "beta": 1.9524047,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.3522,
-      "dividendGrowthRate5Y": 14.82,
-      "dividendIndicatedAnnual": 1.04,
-      "dividendPerShareAnnual": 1.0084,
-      "dividendPerShareTTM": 1.0084,
-      "dividendYieldIndicatedAnnual": 1.11498
-    },
     "avgPe3Y": 43.301066666666664,
     "peDeviation3Y": 14.679392039611047,
     "perBandYears": 24,
@@ -933,7 +835,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Lam Research Corp",
     "theme": "반도체 장비",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 1.11498,
+    "dividendPerShareTTM": 1.0084,
+    "dividendGrowthRate5Y": 14.82
   },
   "KLAC": {
     "forwardPE": 32.38702,
@@ -961,14 +866,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 307.3743,
     "52WeekLow": 83.22,
     "beta": 1.4580749,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.3872,
-      "dividendGrowthRate5Y": 17.29,
-      "dividendIndicatedAnnual": 0.92,
-      "dividendPerShareAnnual": 0.8055,
-      "dividendPerShareTTM": 0.8055,
-      "dividendYieldIndicatedAnnual": 1.04384
-    },
     "avgPe3Y": 50.367533333333334,
     "peDeviation3Y": 12.282449143826774,
     "perBandYears": 26,
@@ -979,7 +876,10 @@ const FUNDAMENTALS_DATA = {
     "name": "KLA Corp",
     "theme": "반도체 장비",
     "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00"
+    "_updated_label": "2026-09-04 05:00",
+    "dividendYieldIndicatedAnnual": 1.04384,
+    "dividendPerShareTTM": 0.8055,
+    "dividendGrowthRate5Y": 17.29
   },
   "SNDK": {
     "forwardPE": 6.50255,
@@ -1004,9 +904,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 2354.39,
     "52WeekLow": 50.65,
     "beta": 3.883238,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "perBandYears": 1,
     "perBandSource": "universal",
     "roicTTM": 89.56,
@@ -1040,14 +937,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 799.87,
     "52WeekLow": 83.34,
     "beta": 2.2715094,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.1189,
-      "dividendGrowthRate5Y": -23.08,
-      "dividendIndicatedAnnual": 0.6,
-      "dividendPerShareAnnual": 0.532,
-      "dividendPerShareTTM": 0.532,
-      "dividendYieldIndicatedAnnual": 0.1205012853470437
-    },
     "avgPe3Y": 13.868333333333334,
     "peDeviation3Y": 18.3884148539839,
     "perBandYears": 21,
@@ -1058,7 +947,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Western Digital Corp",
     "theme": "메모리·스토리지",
     "_fetched_at": 1788462001.7813742,
-    "_updated_label": "2026-09-04 04:00"
+    "_updated_label": "2026-09-04 04:00",
+    "dividendYieldIndicatedAnnual": 0.1205012853470437,
+    "dividendPerShareTTM": 0.532,
+    "dividendGrowthRate5Y": -23.08
   },
   "ANET": {
     "forwardPE": 46.59089193358046,
@@ -1121,12 +1013,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 440,
     "52WeekLow": 87.15,
     "beta": 2.1834311,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.0217,
-      "dividendGrowthRate5Y": -20.51,
-      "dividendPerShareAnnual": 0.0651,
-      "dividendPerShareTTM": 0.0651
-    },
     "avgPe3Y": 133.293,
     "peDeviation3Y": -50.97101873316679,
     "perBandYears": 24,
@@ -1137,7 +1023,9 @@ const FUNDAMENTALS_DATA = {
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendPerShareTTM": 0.0651,
+    "dividendGrowthRate5Y": -20.51
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1161,9 +1049,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 1085.68,
     "52WeekLow": 130.97,
     "beta": 1.6286501,
-    "_dividendFieldsRaw": {
-      "dividendIndicatedAnnual": 0
-    },
     "avgPe3Y": 99.72503333333334,
     "perBandYears": 6,
     "perBandLow": 0.4540146192605209,
@@ -1199,12 +1084,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 1195.94,
     "52WeekLow": 530.16,
     "beta": 0.9827568,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.1463,
-      "dividendIndicatedAnnual": 2,
-      "dividendPerShareAnnual": 1.0084,
-      "dividendPerShareTTM": 1.5189
-    },
     "avgPe3Y": 47.368449999999996,
     "peDeviation3Y": -38.07228228916082,
     "perBandYears": 2,
@@ -1213,7 +1092,8 @@ const FUNDAMENTALS_DATA = {
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendPerShareTTM": 1.5189
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1240,13 +1120,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 412.7,
     "52WeekLow": 228.63,
     "beta": 1.1231574,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 2.5546,
-      "dividendIndicatedAnnual": 1.706,
-      "dividendPerShareAnnual": 1.5552,
-      "dividendPerShareTTM": 7.5622,
-      "dividendYieldIndicatedAnnual": 0.91071
-    },
     "avgPe3Y": 29.746333333333336,
     "peDeviation3Y": -4.217438563856614,
     "perBandYears": 3,
@@ -1255,7 +1128,9 @@ const FUNDAMENTALS_DATA = {
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788465602.3139443,
-    "_updated_label": "2026-09-04 05:00"
+    "_updated_label": "2026-09-04 05:00",
+    "dividendYieldIndicatedAnnual": 0.91071,
+    "dividendPerShareTTM": 7.5622
   },
   "VST": {
     "forwardPE": 14.48324,
@@ -1282,14 +1157,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 219.82,
     "52WeekLow": 132.66,
     "beta": 1.3796073,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.9948,
-      "dividendGrowthRate5Y": 21.96,
-      "dividendIndicatedAnnual": 0.914,
-      "dividendPerShareAnnual": 1.4694,
-      "dividendPerShareTTM": 1.4511,
-      "dividendYieldIndicatedAnnual": 0.6190283945633158
-    },
     "avgPe3Y": 28.257066666666663,
     "peDeviation3Y": -21.897059378656888,
     "perBandYears": 6,
@@ -1300,7 +1167,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Vistra Corp",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.6190283945633158,
+    "dividendPerShareTTM": 1.4511,
+    "dividendGrowthRate5Y": 21.96
   },
   "ETN": {
     "forwardPE": 26.51809,
@@ -1328,14 +1198,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 478,
     "52WeekLow": 311.92,
     "beta": 1.1372598,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.9399,
-      "dividendGrowthRate5Y": 7.53,
-      "dividendIndicatedAnnual": 4.4,
-      "dividendPerShareAnnual": 4.165,
-      "dividendPerShareTTM": 4.2844,
-      "dividendYieldIndicatedAnnual": 1.50402
-    },
     "avgPe3Y": 31.570800000000002,
     "peDeviation3Y": 46.55757852192531,
     "perBandYears": 27,
@@ -1346,7 +1208,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 1.50402,
+    "dividendPerShareTTM": 4.2844,
+    "dividendGrowthRate5Y": 7.53
   },
   "PWR": {
     "forwardPE": 42.20505,
@@ -1373,14 +1238,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 788.75,
     "52WeekLow": 363.01,
     "beta": 1.3023828,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.0698,
-      "dividendGrowthRate5Y": 17.7,
-      "dividendIndicatedAnnual": 0.44,
-      "dividendPerShareAnnual": 0.3697,
-      "dividendPerShareTTM": 0.4271,
-      "dividendYieldIndicatedAnnual": 0.17527
-    },
     "avgPe3Y": 51.620133333333335,
     "peDeviation3Y": 33.50449824487086,
     "perBandYears": 24,
@@ -1391,7 +1248,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 0.17527,
+    "dividendPerShareTTM": 0.4271,
+    "dividendGrowthRate5Y": 17.7
   },
   "HUBB": {
     "forwardPE": 21.9516,
@@ -1418,14 +1278,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 565.4999,
     "52WeekLow": 403.82,
     "beta": 0.82686037,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 1.1017,
-      "dividendGrowthRate5Y": 7.69,
-      "dividendIndicatedAnnual": 5.68,
-      "dividendPerShareAnnual": 5.3563,
-      "dividendPerShareTTM": 5.5878,
-      "dividendYieldIndicatedAnnual": 1.6238
-    },
     "avgPe3Y": 26.328,
     "peDeviation3Y": 13.192418717714988,
     "perBandYears": 27,
@@ -1436,7 +1288,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Hubbell Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:00"
+    "_updated_label": "2026-09-04 02:00",
+    "dividendYieldIndicatedAnnual": 1.6238,
+    "dividendPerShareTTM": 5.5878,
+    "dividendGrowthRate5Y": 7.69
   },
   "VRT": {
     "forwardPE": 28.86851,
@@ -1462,14 +1317,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 379.935,
     "52WeekLow": 118.7,
     "beta": 2.1109886,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.0844,
-      "dividendGrowthRate5Y": 77.87,
-      "dividendIndicatedAnnual": 0.25,
-      "dividendPerShareAnnual": 0.1745,
-      "dividendPerShareTTM": 0.2243,
-      "dividendYieldIndicatedAnnual": 0.10348967173076128
-    },
     "avgPe3Y": 57.4307,
     "peDeviation3Y": 2.493265796864741,
     "perBandYears": 5,
@@ -1480,7 +1327,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788466144.379118,
-    "_updated_label": "2026-09-04 05:09"
+    "_updated_label": "2026-09-04 05:09",
+    "dividendYieldIndicatedAnnual": 0.10348967173076128,
+    "dividendPerShareTTM": 0.2243,
+    "dividendGrowthRate5Y": 77.87
   },
   "MOD": {
     "forwardPE": 23.79523717237458,
@@ -1543,14 +1393,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 1145,
     "52WeekLow": 170.01,
     "beta": 2.1579137,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.3036,
-      "dividendGrowthRate5Y": 1.47,
-      "dividendIndicatedAnnual": 2.96,
-      "dividendPerShareAnnual": 2.884,
-      "dividendPerShareTTM": 2.884,
-      "dividendYieldIndicatedAnnual": 3.68034
-    },
     "avgPe3Y": 47.641533333333335,
     "peDeviation3Y": 37.66412500017492,
     "perBandYears": 22,
@@ -1561,7 +1403,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendYieldIndicatedAnnual": 3.68034,
+    "dividendPerShareTTM": 2.884,
+    "dividendGrowthRate5Y": 1.47
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1588,14 +1433,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 951.96,
     "52WeekLow": 564.92,
     "beta": 1.1614097,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.157,
-      "dividendGrowthRate5Y": 25.6,
-      "dividendIndicatedAnnual": 1.6,
-      "dividendPerShareAnnual": 0.9969,
-      "dividendPerShareTTM": 1.3026,
-      "dividendYieldIndicatedAnnual": 0.33256
-    },
     "avgPe3Y": 19.420066666666667,
     "peDeviation3Y": 32.150421728727316,
     "perBandYears": 26,
@@ -1606,7 +1443,10 @@ const FUNDAMENTALS_DATA = {
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:01"
+    "_updated_label": "2026-09-04 02:01",
+    "dividendYieldIndicatedAnnual": 0.33256,
+    "dividendPerShareTTM": 1.3026,
+    "dividendGrowthRate5Y": 25.6
   },
   "FIX": {
     "forwardPE": 30.83426,
@@ -1633,14 +1473,6 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 2073.99,
     "52WeekLow": 682,
     "beta": 1.6212993,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.1626,
-      "dividendGrowthRate5Y": 35.55,
-      "dividendIndicatedAnnual": 3.6,
-      "dividendPerShareAnnual": 1.9461,
-      "dividendPerShareTTM": 2.5988,
-      "dividendYieldIndicatedAnnual": 0.50297
-    },
     "avgPe3Y": 27.932266666666663,
     "peDeviation3Y": 40.62052488877859,
     "perBandYears": 22,
@@ -1651,7 +1483,10 @@ const FUNDAMENTALS_DATA = {
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
     "_fetched_at": 1788472802.3168995,
-    "_updated_label": "2026-09-04 07:00"
+    "_updated_label": "2026-09-04 07:00",
+    "dividendYieldIndicatedAnnual": 0.50297,
+    "dividendPerShareTTM": 2.5988,
+    "dividendGrowthRate5Y": 35.55
   },
   "SBGSY": {
     "forwardPE": 26.51724,
@@ -1676,14 +1511,6 @@ const FUNDAMENTALS_DATA = {
     "longTermDebt/equityQuarterly": 0.5668,
     "totalDebt/totalEquityQuarterly": 0.7704,
     "beta": 1.4553336,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 1.4593,
-      "dividendGrowthRate5Y": 8.82,
-      "dividendIndicatedAnnual": 4.2,
-      "dividendPerShareAnnual": 3.9014,
-      "dividendPerShareTTM": 4.2072,
-      "dividendYieldIndicatedAnnual": 1.8944
-    },
     "avgPe3Y": 29.958166666666667,
     "peDeviation3Y": 14.082414923031559,
     "perBandYears": 26,
@@ -1695,7 +1522,10 @@ const FUNDAMENTALS_DATA = {
     "theme": "AI 전력·인프라",
     "marketCapCurrencyNote": "EUR",
     "_fetched_at": 1788454802.3057125,
-    "_updated_label": "2026-09-04 02:01"
+    "_updated_label": "2026-09-04 02:01",
+    "dividendYieldIndicatedAnnual": 1.8944,
+    "dividendPerShareTTM": 4.2072,
+    "dividendGrowthRate5Y": 8.82
   },
   "BE": {
     "forwardPE": 88.51015272325395,
@@ -1719,17 +1549,13 @@ const FUNDAMENTALS_DATA = {
     "52WeekHigh": 351.28,
     "52WeekLow": 48.87,
     "beta": 3.7146733,
-    "_dividendFieldsRaw": {
-      "currentDividendYieldTTM": 0.0014,
-      "dividendPerShareAnnual": 0.0037,
-      "dividendPerShareTTM": 0.0037
-    },
     "perBandYears": 0,
     "perBandSource": "universal",
     "roicTTM": 0.21,
     "name": "Bloom Energy Corp",
     "theme": "Electrical Equipment",
     "_fetched_at": 1788462422.3984568,
-    "_updated_label": "2026-09-04 04:07"
+    "_updated_label": "2026-09-04 04:07",
+    "dividendPerShareTTM": 0.0037
   }
 };
