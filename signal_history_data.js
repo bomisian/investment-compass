@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788534085.9076226,
+  "generatedAt": 1788534191.9518008,
   "records": {
     "MSFT": [
       {
@@ -5729,6 +5729,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "TSLA": [
+      {
+        "changedAt": 1788534191.9518008,
+        "dataAsOf": 1788535260,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.9,
+            "after": -5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Tesla가 핸들이 없는 자동차를 출시한 후 연방 규제 당국이 조사를 시작했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=52dc025bf393dbfa59260916be6506155ef425b970c55b65c75266d963797876",
+        "eventId": "b9919c73a92d6264545d",
+        "fingerprint": "{\"changes\": [{\"after\": -5, \"before\": -4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b9919c73a92d6264545d\"}"
+      },
       {
         "changedAt": 1788534085.9076226,
         "dataAsOf": 1788535260,
