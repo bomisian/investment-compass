@@ -3127,15 +3127,18 @@ function renderFairValueSection(r){
     // 예전엔 "이 시나리오 기준가"라고만 해서 그 기준이 남의 회사 평균인지 이 종목 고유값인지
     // 안 보였음. anchorPe = 이 종목의 '오늘' 가격 ÷ '이 종목' 올해 예상 EPS로, 다른 종목이나
     // 업종 평균이 아니라 지금 시장이 이 종목 하나에 실제로 매기고 있는 배수를 그대로 역산한 값 -
-    // 그 근거를 첫 문장에서 바로 밝힘. 저평가 쪽일 때는 "부담 없는 가격대로 볼 수 있다"는
-    // 긍정적 해석도 사용자 요청대로 추가하되, 예측력이 없다는 기존 경고는 그대로 유지.
+    // 그 근거를 첫 문장에서 바로 밝힘.
+    // 2026-09-04 수정(GPT 점검 지적): 저평가 쪽 문구가 "부담 없이 모아가는 자리로 볼 수 있어요"처럼
+    // 행동을 권하는 톤이었는데, 바로 아래 ⚠️ 경고에서 이 신호는 검증 결과 예측력이 없다(오히려 반대
+    // 방향)고 밝히고 있어서 같은 박스 안에서 메시지가 서로 부딪힘. 고평가 쪽과 동일하게 사실
+    // 서술("~보다 싸게/비싸게 거래되고 있다")로만 남기고, 판단은 아래 경고문에 맡김.
     const compareLine = `
       <div class="comment-box" style="background:${cheaper?'var(--up-bg)':'var(--down-bg)'};color:${cheaper?'#a8322c':'#2a4fa0'};margin-bottom:10px;">
         <span style="font-weight:400;">기준가 $${w.mid.toFixed(0)}는 <b>지금 시장이 이 종목에 실제로 매기고 있는 PER ${w.anchorPe.toFixed(1)}배</b>(오늘 주가 $${price.toFixed(2)} ÷ 올해 예상 EPS $${w.eps0.toFixed(2)}로 역산 - 다른 종목이나 업종 평균이 아니라 이 종목 자체 오늘 값)를 내년에도 그대로 유지한다고 가정하고, 거기에 내년 예상 EPS $${w.eps1.toFixed(2)}를 곱한 값이에요.</span><br>
         지금 주가 <b>$${price.toFixed(2)}</b>는 그 기준가보다
         <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요(저평가 쪽)':'높아요(고평가 쪽)'}</b>.
         <span style="font-weight:400;">${cheaper
-          ? `즉 지금 시장이 이 종목에 매기는 배수보다 <b>더 싸게</b> 살 수 있는 가격대라, 부담 없이 모아가는 자리로 볼 수 있어요(오른다는 보장은 아니에요).`
+          ? `즉 지금 시장이 이 종목에 매기는 배수보다 <b>더 싸게</b> 거래되고 있는 가격대예요.`
           : `즉 지금 시장이 이 종목에 매기는 배수보다 <b>더 비싸게</b> 거래되고 있는 가격대예요.`}</span>
         <br><span style="font-weight:400;color:var(--sub);">⚠️ 검증 결과 이 저평가/고평가 여부는 이후 수익률을 예측하지 못했어요(오히려 반대 방향이었음 - 아래 경고 참고) - "그래서 사야 한다"는 뜻은 아니에요.</span>
       </div>`;
@@ -4216,7 +4219,7 @@ function renderMarketCard(){
     const chg = m.changePct;
     const chgTxt = chg==null ? '-' : `${chg>=0?'+':''}${chg.toFixed(2)}%`;
     return `<tr>
-      <td style="padding:5px 8px 5px 0;white-space:nowrap;">${esc(m.label)}</td>
+      <td style="padding:5px 8px 5px 0;white-space:nowrap;">${esc(macroDisplayLabel(k, m.label))}</td>
       <td class="v" style="padding:5px 8px;font-family:var(--mono);font-weight:800;white-space:nowrap;">${fmt(m.current,m.digits,m.unit)}</td>
       <td style="padding:5px 8px;white-space:nowrap;"><b style="color:${lv.c};">${lv.t}</b></td>
       <td class="sub" style="padding:5px 8px;white-space:nowrap;">${trendLabel(m)}</td>
@@ -4238,7 +4241,7 @@ function renderMarketCard(){
       </div>`;
     return `<div class="fund-col" style="min-width:280px;">
       <div class="row" style="justify-content:space-between;align-items:baseline;">
-        <h3 style="margin:0;">${esc(m.label)}</h3>
+        <h3 style="margin:0;">${esc(macroDisplayLabel(k, m.label))}</h3>
         <span style="font-family:var(--mono);font-size:15px;font-weight:800;">${fmt(m.current,m.digits,m.unit)}</span>
       </div>
       <div class="sub" style="margin-top:2px;">
@@ -4275,7 +4278,7 @@ function renderMarketCard(){
     let corrNote;
     if(c==null) corrNote = '';
     else if(rank!=null && rank <= 10)
-      corrNote = `지금 두 그룹의 상관계수는 <b>${c.toFixed(2)}</b>로 <b>최근 5년 중 가장 낮은 축</b>(하위 ${rank.toFixed(0)}%)이에요 —
+      corrNote = `지금 두 그룹의 상관계수는 <b>${c.toFixed(2)}</b>로 <b>최근 5년 중 가장 낮은 축</b>(하위 ${rank < 1 ? rank.toFixed(2) : rank.toFixed(0)}%)이에요 —
         평소(중앙값 ${S.corrMedian5y!=null?S.corrMedian5y.toFixed(2):'-'})보다 <b>훨씬 따로 움직이는 국면</b>이에요.`;
     else
       corrNote = `지금 두 그룹의 상관계수는 <b>${c.toFixed(2)}</b>예요(5년 중앙값 ${S.corrMedian5y!=null?S.corrMedian5y.toFixed(2):'-'}).
@@ -5345,6 +5348,25 @@ function historyCompareBlock(ticker, fund){
 //      자산매각·법인세환입 등) 일회성 이익이 지배적이라는 뜻 -> 이 순이익률/PER을 '평상시 수익성'으로 믿으면 안 됨.
 //   B. Finnhub TTM 마진 vs SEC 공시 기반 TTM 마진 괴리(5%p↑): 위 (2)처럼 기준 시점이 다를 때 발생.
 const MARGIN_GAP_WARN_PP = 5;
+// 2026-09-04 추가(GPT 점검 지적 - PLTR 02탭 vs business_notes 05탭 불일치): 아래 A번 경고는 순이익률
+// >영업이익률 격차를 항상 "일회성 이익"이라고만 설명하는데, FINANCIALS_DATA의 분기별 otherNonOperating
+// (영업외손익)이 최근 분기들에 걸쳐 같은 방향(양수)으로 유의미하게 나오고 있다면 일회성이 아니라
+// 이자수익처럼 '반복되는' 비영업 이익일 가능성이 높음(예: PLTR은 -16.7M(작년말)→+68.2M→+91.8M로
+// 최근 2개 분기 연속 증가하는 양수 - 대규모 현금성자산에서 나오는 이자수익으로 추정됨). 최근 2개
+// 분기의 부호·크기(매출 대비 0.5%↑) 일관성을 확인해서 "일회성" 문구를 과잉 사용하지 않도록 함.
+function nonOperatingPattern(ticker){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const q = fin && fin.quarterly ? fin.quarterly : null;
+  if(!q || q.length < 2) return null;
+  const last2 = q.slice(-2).filter(x=>typeof x.otherNonOperating==='number' && typeof x.revenue==='number' && x.revenue>0);
+  if(last2.length < 2) return null;
+  const signs = last2.map(x=>Math.sign(x.otherNonOperating));
+  const sameSign = signs[0]===signs[1] && signs[0]!==0;
+  if(!sameSign) return {consistent:false};
+  const ratios = last2.map(x=>x.otherNonOperating/x.revenue*100);
+  const meaningfulEach = ratios.every(r=>Math.abs(r) >= 0.5);
+  return {consistent:true, direction: signs[0]>0?'positive':'negative', meaningful: meaningfulEach};
+}
 function secTtmFromFinancials(ticker){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
   const q = fin && fin.quarterly ? fin.quarterly : null;
@@ -5360,7 +5382,12 @@ function dataQualityNotes(ticker, fund){
   const notes = [];
   const op = fund.operatingMarginTTM, net = fund.netProfitMarginTTM;
   if(typeof op==='number' && typeof net==='number' && net > op + MARGIN_GAP_WARN_PP){
-    notes.push(`<b>순이익률(${net.toFixed(1)}%)이 영업이익률(${op.toFixed(1)}%)보다 높아요.</b> 세금을 내고도 이렇게 되는 건 본업이 아닌 <b>일회성 이익</b>(지분투자 평가익·자산매각·법인세 환입 등)이 크게 들어왔다는 뜻이에요. 이 순이익률과 PER은 '평상시 수익성'으로 보면 안 되고, <b>영업이익률(${op.toFixed(1)}%)</b> 쪽이 본업 실력에 가까워요.`);
+    const pat = nonOperatingPattern(ticker);
+    if(pat && pat.consistent && pat.direction==='positive' && pat.meaningful){
+      notes.push(`<b>순이익률(${net.toFixed(1)}%)이 영업이익률(${op.toFixed(1)}%)보다 높아요.</b> 다만 최근 분기들의 영업외손익을 보면 (+) 방향으로 꾸준히 늘고 있어서, 이번 한 번의 <b>일회성 이익</b>이라기보다 <b>이자수익 등 반복되는 비영업 이익</b>일 가능성이 높아요(현금성자산이 많은 회사에서 흔해요). 그래도 본업만의 수익성을 보려면 <b>영업이익률(${op.toFixed(1)}%)</b> 쪽을 기준으로 삼는 게 안전해요.`);
+    } else {
+      notes.push(`<b>순이익률(${net.toFixed(1)}%)이 영업이익률(${op.toFixed(1)}%)보다 높아요.</b> 세금을 내고도 이렇게 되는 건 본업이 아닌 <b>일회성 이익</b>(지분투자 평가익·자산매각·법인세 환입 등)일 가능성이 있어요. 이 순이익률과 PER은 '평상시 수익성'으로 보면 안 되고, <b>영업이익률(${op.toFixed(1)}%)</b> 쪽이 본업 실력에 가까워요.`);
+    }
   }
   const sec = secTtmFromFinancials(ticker);
   if(sec && typeof net==='number' && Math.abs(sec.margin - net) >= MARGIN_GAP_WARN_PP){
