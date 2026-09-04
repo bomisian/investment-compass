@@ -483,6 +483,9 @@
 <!-- 공매도(FINRA, 무료·비상업 이용) - 2026-09-04 추가. 격주 갱신이라 파일이 아직 없을 수 있어
      onerror로 없어도 대시보드가 정상 동작하게 함(참고용 지표, 매수·매도 신호 아님) -->
 <script src="short_interest_data.js" onerror="void 0"></script>
+<!-- 사업부별(세그먼트) 매출(SEC 공식 재무제표 데이터셋, 무료) - 2026-09-04 추가. 분기 단위로만
+     갱신되고 종목마다 잡히는 시점이 다를 수 있어 onerror로 없어도 정상 동작하게 함(참고용) -->
+<script src="segment_revenue_data.js" onerror="void 0"></script>
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
 <script src="kiwoom_sells_data.js" onerror="void 0"></script>
@@ -5905,6 +5908,48 @@ function missingNote(rows, fields){
   });
   return `<span class="sub">※ ${parts.join(' · ')} 항목은 이 회사의 공시 계정 이름이 달라 자동 추출이 안 됐어요 — 값이 없는 것이지 0이라는 뜻이 아니에요. 그래서 위 설명에서도 그 항목은 빼고 계산했어요.</span>`;
 }
+function segmentRevenueComment(ticker){
+  // 2026-09-04 추가(사용자 요청: 전체 매출 성장률만이 아니라 핵심·신생 사업부별 성장도 보고
+  // 싶다) - SEC가 분기마다 공개하는 전체 상장사 재무제표 원자료에서 뽑은 사업부별 매출이에요.
+  // 사업부 이름은 회사가 XBRL 공시에 붙인 표현을 최대한 다듬은 것이라 회사마다 표기가 다를 수
+  // 있고, 종목마다 최신 분기가 다 안 잡혔을 수도 있어요(참고용, 매수·매도 신호 아님).
+  const rows = (typeof SEGMENT_REVENUE_DATA !== 'undefined' ? SEGMENT_REVENUE_DATA[ticker] : null) || [];
+  const valid = rows.filter(r => r && r.value != null && r.endDate);
+  if(!valid.length) return '';
+  const bySegment = {};
+  for(const row of valid){
+    const key = row.segmentRaw || row.segmentLabel;
+    (bySegment[key] = bySegment[key] || []).push(row);
+  }
+  const fmtRev = n => {
+    const a = Math.abs(n);
+    if(a >= 1e9) return '$'+(n/1e9).toFixed(1)+'B';
+    if(a >= 1e6) return '$'+(n/1e6).toFixed(1)+'M';
+    return '$'+Math.round(n).toLocaleString();
+  };
+  const segRows = Object.values(bySegment).map(list=>{
+    const sorted = [...list].sort((a,b)=> a.endDate < b.endDate ? -1 : (a.endDate > b.endDate ? 1 : 0));
+    const last = sorted[sorted.length-1];
+    const prev = sorted.length > 1 ? sorted[sorted.length-2] : null;
+    let growthStr = '-';
+    if(prev && prev.value){
+      const pct = (last.value/prev.value - 1) * 100;
+      growthStr = `${pct>=0?'+':''}${pct.toFixed(1)}% (${prev.endDate} 대비)`;
+    }
+    return {label: last.segmentLabel || last.segmentRaw || '(이름 미확인)', endDate: last.endDate, value: last.value, growthStr};
+  }).sort((a,b)=> b.value - a.value);
+  if(!segRows.length) return '';
+  const tableRows = segRows.map(s => `
+    <tr><td class="name">${esc(s.label)}</td><td>${fmtRev(s.value)}</td><td>${esc(s.endDate)}</td><td>${esc(s.growthStr)}</td></tr>`).join('');
+  const items = [
+    `<div style="overflow-x:auto;"><table style="min-width:440px;">
+      <thead><tr><th>사업부</th><th>최근 매출</th><th>기준일</th><th>직전 대비</th></tr></thead>
+      <tbody>${tableRows}</tbody>
+    </table></div>`,
+    `<span class="sub">SEC 공식 재무제표 데이터셋에서 뽑은 사업부별 매출이에요(참고용) - 사업부 이름은 회사 공시 표현을 다듬은 것이라 회사마다 다를 수 있고, 분기마다 다 안 잡힐 수 있어요. 그 자체로 매수·매도 신호는 아니에요.</span>`,
+  ];
+  return cmtBox(items, 'plain');
+}
 function shortInterestComment(ticker){
   // 2026-09-04 추가(사용자 요청 "공매도 데이터를 무료로 구할 수 있는지 조사") - FINRA가 격주로
   // 공개하는 무료 공매도 데이터(short_interest_data.js, 없으면 이 함수는 그냥 빈 문자열을
@@ -6540,6 +6585,7 @@ function tabFinancials(r){
     <div class="sub" style="margin-top:2px;">막대·점을 누르면 아래 표에서 그 연도가 강조돼요 · 정확한 숫자는 표에서 확인하세요</div>
     ${cashflowComment(annual)}
     ${sharesOutstandingComment(fin)}
+    ${segmentRevenueComment(r.ticker)}
     ${financialDirectionComment(r, fin)}
     <div style="overflow-x:auto;">
     <table style="min-width:640px;">

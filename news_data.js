@@ -6228,7 +6228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -9937,7 +9937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 108,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -13632,7 +13632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -17067,7 +17067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -21120,7 +21120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -22216,7 +22216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -26177,7 +26177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 105,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -30009,7 +30009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -33999,7 +33999,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -38023,7 +38023,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -41154,7 +41154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -43525,7 +43525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -45387,7 +45387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -45441,7 +45441,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484629.539754
+          "analysisUpdatedAt": 1788506397.0377162
         },
         "headlineKo": "빠른 스파크: 투자자들이 금과 국채로 전환함에 따라 QQQ, VOO Lead ETF 유입"
       },
@@ -45489,7 +45489,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484630.3581688
+          "analysisUpdatedAt": 1788506398.123174
         },
         "headlineKo": "오늘의 주식 시장: Nasdaq 100 선물 하락, Dow Jones는 '시장은 상승할 것'이라는 트럼프 발언에 따라 상승 — AVGO, SNOW, HPE, LULU 초점(업데이트됨)"
       },
@@ -45537,7 +45537,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484631.5605233
+          "analysisUpdatedAt": 1788506399.3103757
         },
         "headlineKo": "오늘의 주식 시장: 미국-이란 긴장이 고조되면서 Dow Jones, S&P 500 선물 상승, Nasdaq 100 하락 - DELL, PANW, MDB, AVGO 초점(업데이트됨)"
       },
@@ -45604,7 +45604,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484629.539754
+          "analysisUpdatedAt": 1788506397.0377162
         }
       },
       {
@@ -45652,7 +45652,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484630.3581688
+          "analysisUpdatedAt": 1788506398.123174
         }
       },
       {
@@ -45700,7 +45700,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484631.5605233
+          "analysisUpdatedAt": 1788506399.3103757
         }
       },
       {
@@ -47169,17 +47169,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788484626.0672348,
-    "_updated_label": "2026-09-04 10:17",
+    "_fetched_at": 1788506393.769636,
+    "_updated_label": "2026-09-04 16:19",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788484626.0672348,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
-    "_last_success_at": 1788484626.0672348,
+    "_last_success_at": 1788506393.769636,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -49908,7 +49908,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 72,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -52933,7 +52933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -55763,7 +55763,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -55778,6 +55778,116 @@ const NEWS_DATA = {
       "revenueEstimate": 2220416029
     },
     "news": [
+      {
+        "headline": "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3",
+        "datetime": 1788491749,
+        "relevance": 0.67,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir 주식은 PwC AI 거래 확장 후 Michael Burry의 약세 베팅을 무시하고 한 달 만에 최고의 날을 기록했습니다. 에이전트 연결 동향 뉴스 수익 전체 DIA 0.03% SPY 0.07% QQQ 0.34% 추세 TSLA 1.39% LULU 18.04% ORCL 1.92% PL 8.23% MST",
+            "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다.",
+            "스마트폰에 팰런티어 로고가 삽입된 모습을 표현한 일러스트 사진입니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.03%, 0.07%, 0.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "PLTR에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.03%",
+            "0.07%",
+            "0.34%",
+            "1.39%",
+            "18.04%",
+            "1.92%",
+            "8.23%",
+            "1.88%"
+          ],
+          "sourceExcerpt": [
+            "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet New Connect your Agent Trending News Earnings All DIA 0.03% SPY 0.07% QQQ 0.34% Trending TSLA 1.39% LULU 18.04% ORCL 1.92% PL 8.23% MST",
+            "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet The AI software company’s latest consulting tie-up comes as Burry doubles down on his view that Palantir’s valuation and business model",
+            "An illustration photo shows Palantir logo in a smartphone."
+          ],
+          "analysisUpdatedAt": 1788506408.456171
+        },
+        "headlineKo": "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다."
+      },
+      {
+        "headline": "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0499bcfc1adfe33ffa9b4f24e1387385996c5a5f7f3cad2a2a87854da6fef200",
+        "datetime": 1788483984,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788506410.1571345
+        },
+        "headlineKo": "Palantir Technologies(PLTR)의 군대 작업 승리가 AI 성장에 어떤 의미가 있습니까?"
+      },
       {
         "headline": "Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know",
         "source": "Yahoo",
@@ -55822,7 +55932,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484636.873564
+          "analysisUpdatedAt": 1788506412.2110405
         },
         "headlineKo": "Palantir Technologies, Workiva, Elastic, RingCentral 및 8x8 주식 급증, 알아야 할 사항"
       },
@@ -55832,45 +55942,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=d12ad58548d6d49a0e0a7ae303f3b048ae90e2106241a6eb6f161b1b5f83689f",
         "datetime": 1788470930,
         "relevance": 0.67,
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir Stock Jumps on Expanded PwC AI Deal",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "PLTR에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484638.831958
-        },
         "headlineKo": "확장된 PwC AI 거래에서 Palantir Stock 점프"
       },
       {
@@ -55879,25 +55950,36 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c670f41e113be40dfa000d22fe72e8bbd4c24510a0a7d6e36b7becd36e7dc852",
         "datetime": 1788470626,
         "relevance": 0.67,
+        "headlineKo": "Palantir Stock, 붉은 깃발과 급등락에 저항하다 8% – 그 이유는 다음과 같습니다."
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3",
+        "datetime": 1788491749,
+        "headlineKo": "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다.",
+        "relevance": 0.67,
         "analysis": {
           "version": 9,
           "importance": "high",
           "tone": "risk",
           "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
+          "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Palantir Stock Defies Red Flag and Skyrockets 8% – Here's Why Subscribe English 속보 뉴스 최신 뉴스 TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF 미국 암호화폐 뉴스 시장 데이터 가격 교환 관심 목록 변환 Discov",
-            "마이클 버리 (Michael Burry) 는 매출의 10% 미만을 기여하면서 미수금의 25% 를 차지하는 고객을 인용했습니다.",
-            "Palantir와 PwC US는 AI 네이티브 거래 플랫폼을 중심으로 한 확장된 동맹을 발표했습니다."
+            "Palantir 주식은 PwC AI 거래 확장 후 Michael Burry의 약세 베팅을 무시하고 한 달 만에 최고의 날을 기록했습니다. 에이전트 연결 동향 뉴스 수익 전체 DIA 0.03% SPY 0.07% QQQ 0.34% 추세 TSLA 1.39% LULU 18.04% ORCL 1.92% PL 8.23% MST",
+            "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다.",
+            "스마트폰에 팰런티어 로고가 삽입된 모습을 표현한 일러스트 사진입니다."
           ],
           "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 8%, 6%, 25% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.03%, 0.07%, 0.34% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
             "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
@@ -55908,51 +55990,80 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
           ],
-          "interpretation": "PLTR에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "PLTR에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "8%",
-            "6%",
-            "25%",
-            "10%",
-            "$183.",
-            "$100 billion",
-            "50%",
-            "45%"
+            "0.03%",
+            "0.07%",
+            "0.34%",
+            "1.39%",
+            "18.04%",
+            "1.92%",
+            "8.23%",
+            "1.88%"
           ],
           "sourceExcerpt": [
-            "Palantir Stock Defies Red Flag and Skyrockets 8% – Here’s Why Subscribe English Breaking News News Latest News TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News Market Data Prices Exchanges Convert Watchlist Discov",
-            "Michael Burry cited a customer representing 25% of receivables while contributing less than 10% of revenue.",
-            "Palantir and PwC US announced an expanded alliance centered on an AI-native deals platform."
+            "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet New Connect your Agent Trending News Earnings All DIA 0.03% SPY 0.07% QQQ 0.34% Trending TSLA 1.39% LULU 18.04% ORCL 1.92% PL 8.23% MST",
+            "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet The AI software company’s latest consulting tie-up comes as Burry doubles down on his view that Palantir’s valuation and business model",
+            "An illustration photo shows Palantir logo in a smartphone."
           ],
-          "analysisUpdatedAt": 1788484645.889074
-        },
-        "headlineKo": "Palantir Stock, 붉은 깃발과 급등락에 저항하다 8% – 그 이유는 다음과 같습니다."
+          "analysisUpdatedAt": 1788506408.456171
+        }
       },
       {
-        "headline": "Why Palantir Stock Could Jump 50% From Here",
+        "headline": "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=84191ab9714db21f286d556f0c6fe38ad323027bcc4e5f0e5a88470f958f654d",
-        "datetime": 1788457175,
-        "relevance": 0.67,
-        "headlineKo": "Palantir 주식이 여기에서 50% 뛰어오를 수 있었던 이유"
+        "url": "https://finnhub.io/api/news?id=0499bcfc1adfe33ffa9b4f24e1387385996c5a5f7f3cad2a2a87854da6fef200",
+        "datetime": 1788483984,
+        "headlineKo": "Palantir Technologies(PLTR)의 군대 작업 승리가 AI 성장에 어떤 의미가 있습니까?",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'What Does Palantir Technologies (PLTR) Winning Army Work Mean For Its AI Growth?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788506410.1571345
+        }
       },
-      {
-        "headline": "The $1 Trillion Question Hanging Over Palantir Stock",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=db0908f319d462ebb96eb0a10573879f2ca42eff057944ceff1ca770c26d5e07",
-        "datetime": 1788456654,
-        "relevance": 0.67,
-        "headlineKo": "Palantir 주식에 걸려 있는 1조 달러 규모의 문제"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Palantir Technologies, Workiva, Elastic, RingCentral, and 8x8 Shares Skyrocket, What You Need To Know",
         "source": "Yahoo",
@@ -55998,7 +56109,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484636.873564
+          "analysisUpdatedAt": 1788506412.2110405
         }
       },
       {
@@ -58585,17 +58696,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788484626.0672348,
-    "_updated_label": "2026-09-04 10:17",
+    "_fetched_at": 1788506393.769636,
+    "_updated_label": "2026-09-04 16:20",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 84,
+      "checked": 86,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788484626.0672348,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
-    "_last_success_at": 1788484626.0672348,
+    "_last_success_at": 1788506393.769636,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -60218,7 +60329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -61465,7 +61576,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -61481,6 +61592,54 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=34e2e60420052a6c879f3b870fb3ba08349ac15433e4c96b3dba701e7cdcece1",
+        "datetime": 1788481263,
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788506418.3922958
+        },
+        "headlineKo": "Marvell(MRVL)은 AI 데이터 센터 타임라인 및 환매를 통해 인내심이나 긴급성을 나타냅니까?"
+      },
+      {
         "headline": "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fed7f650e1edb9385988469941a361630ab1832a2d80d3233bf03cedd534bc52",
@@ -61489,18 +61648,18 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "영업이익률이 계속 확대되기 때문에 Marvell 주식을 사야 할까요?",
-            "| Trefis 영업이익률이 계속 확대되고 있기 때문에 Marvell 주식을 구매해야 합니까?",
-            "2026년 9월 3일 · 작성자: Trefis Team MRVL YTD +143.3% SPY YTD +12.5% QQQ YTD +15.6% Analyze MRVL → Marvell Technology (MRVL) 는 8월 말 보고서에서 2027 회계연도와 2028 회계연도에 대한 매출 전망을 상향 조정했습니다."
+            "영업 이익률이 계속 확대되고 있으므로 Marvell 주식을 구입해야 합니까?",
+            "| Trefis Marvell Technology(MRVL)는 8월 말 보고서에서 2027회계연도와 2028회계연도 매출 전망을 상향 조정했습니다.",
+            "약 206달러의 주가는 지난 12개월 동안 220% 이상 상승했고 지난 3개월 동안 약 32% 하락했습니다."
           ],
           "why": [
             "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 143.3%, 12.5%, 15.6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $206,, 220%, 32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -61524,21 +61683,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "143.3%",
-            "12.5%",
-            "15.6%",
             "$206,",
             "220%",
             "32%",
             "57.5%",
-            "7.5%"
+            "7.5%",
+            "6.0%",
+            "16.8%",
+            "$9.5 billion"
           ],
           "sourceExcerpt": [
             "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-            "| Trefis Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-            "September 3rd, 2026 · by Trefis Team MRVL YTD +143.3% SPY YTD +12.5% QQQ YTD +15.6% Analyze MRVL → Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report."
+            "| Trefis Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report.",
+            "The stock, at about $206, is up more than 220% over the past twelve months and down about 32% over the past three months."
           ],
-          "analysisUpdatedAt": 1788484666.5253773
+          "analysisUpdatedAt": 1788506422.4565055
         },
         "headlineKo": "영업이익률이 계속 확대되기 때문에 Marvell 주식을 사야 할까요?"
       },
@@ -61586,7 +61745,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484668.2743018
+          "analysisUpdatedAt": 1788506424.4993374
         },
         "headlineKo": "Jim Cramer가 아직 Marvell(MRVL) 주식에 대한 방아쇠를 당길 준비가 되지 않은 이유를 설명합니다."
       },
@@ -61596,60 +61755,6 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=38acf07709bd251eb353fc4c38bee193bbd5d3acd534eeae8e6a3bbf261d6d01",
         "datetime": 1788441732,
         "relevance": 1,
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "주식 희석 · 주당가치 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Marvell Technology는 Synopsys가 거대한 위협임을 알고 있습니다 - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,748.80 +0.07% Dow Jones 53,698.50 +0.08% Nasdaq 100 29,501.40 +0.10% Russell 2000 2,968.48 +0.10% S&P 500 7,748.80 +0.07% Dow Jones 53,698.50 +0.08% Nasdaq 100 29,501.40 +0.10% Russell 2000 2,968.48 +0.",
-            "이들 사이의 긴장은 커스텀 실리콘 화폐가 실제로 어디로 흐르는지에 대해 불편함을 드러냅니다."
-          ],
-          "why": [
-            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.08%, 0.10% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "MRVL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "신규 주식 수·행사가격",
-            "조달 자금 사용처",
-            "완전희석 주식수와 EPS"
-          ],
-          "interpretation": "MRVL에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.07%",
-            "0.08%",
-            "0.10%",
-            "$2.739 billion",
-            "36.55%",
-            "46%",
-            "79%",
-            "$3.15 billion"
-          ],
-          "sourceExcerpt": [
-            "Marvell Technology Knows Synopsys Is a Huge Threat - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,748.80 +0.07% Dow Jones 53,698.50 +0.08% Nasdaq 100 29,501.40 +0.10% Russell 2000 2,968.48 +0.10% S&P 500 7,748.80 +0.07% Dow Jones 53,698.50 +0.08% Nasdaq 100 29,501.40 +0.10% Russell 2000 2,968.48 +0.",
-            "The tension between them reveals something uncomfortable about where custom silicon money actually flows."
-          ],
-          "analysisUpdatedAt": 1788484675.2042248
-        },
         "headlineKo": "Marvell Technology는 Synopsys가 거대한 위협이라는 것을 알고 있습니다."
       },
       {
@@ -61659,17 +61764,57 @@ const NEWS_DATA = {
         "datetime": 1788432084,
         "relevance": 0.67,
         "headlineKo": "Marvell의 다음 AI 성장 단계"
-      },
-      {
-        "headline": "What's Going on With Marvell Stock on Thursday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=7bedfb6c035c02bddf98e822621c589b1c2a3dfac9109dd7cbf55a06e4ca6726",
-        "datetime": 1788426371,
-        "relevance": 0.67,
-        "headlineKo": "목요일에 Marvell 주식에 무슨 일이 일어나고 있나요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=34e2e60420052a6c879f3b870fb3ba08349ac15433e4c96b3dba701e7cdcece1",
+        "datetime": 1788481263,
+        "headlineKo": "Marvell(MRVL)은 AI 데이터 센터 타임라인 및 환매를 통해 인내심이나 긴급성을 나타냅니까?",
+        "relevance": 1,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MRVL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MRVL의 사업과 관련된 'Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MRVL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788506418.3922958
+        }
+      },
       {
         "headline": "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
         "source": "Yahoo",
@@ -61680,18 +61825,18 @@ const NEWS_DATA = {
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "positive",
+          "tone": "risk",
           "certainty": "본문 기반 간이 분석",
           "label": "주식 희석 · 주당가치 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "영업이익률이 계속 확대되기 때문에 Marvell 주식을 사야 할까요?",
-            "| Trefis 영업이익률이 계속 확대되고 있기 때문에 Marvell 주식을 구매해야 합니까?",
-            "2026년 9월 3일 · 작성자: Trefis Team MRVL YTD +143.3% SPY YTD +12.5% QQQ YTD +15.6% Analyze MRVL → Marvell Technology (MRVL) 는 8월 말 보고서에서 2027 회계연도와 2028 회계연도에 대한 매출 전망을 상향 조정했습니다."
+            "영업 이익률이 계속 확대되고 있으므로 Marvell 주식을 구입해야 합니까?",
+            "| Trefis Marvell Technology(MRVL)는 8월 말 보고서에서 2027회계연도와 2028회계연도 매출 전망을 상향 조정했습니다.",
+            "약 206달러의 주가는 지난 12개월 동안 220% 이상 상승했고 지난 3개월 동안 약 32% 하락했습니다."
           ],
           "why": [
             "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 143.3%, 12.5%, 15.6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: $206,, 220%, 32% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -61715,21 +61860,21 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "143.3%",
-            "12.5%",
-            "15.6%",
             "$206,",
             "220%",
             "32%",
             "57.5%",
-            "7.5%"
+            "7.5%",
+            "6.0%",
+            "16.8%",
+            "$9.5 billion"
           ],
           "sourceExcerpt": [
             "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-            "| Trefis Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-            "September 3rd, 2026 · by Trefis Team MRVL YTD +143.3% SPY YTD +12.5% QQQ YTD +15.6% Analyze MRVL → Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report."
+            "| Trefis Marvell Technology (MRVL) lifted its revenue outlook for fiscal 2027 and fiscal 2028 in its late-August report.",
+            "The stock, at about $206, is up more than 220% over the past twelve months and down about 32% over the past three months."
           ],
-          "analysisUpdatedAt": 1788484666.5253773
+          "analysisUpdatedAt": 1788506422.4565055
         }
       },
       {
@@ -61777,7 +61922,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484668.2743018
+          "analysisUpdatedAt": 1788506424.4993374
         }
       },
       {
@@ -64888,17 +65033,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788484626.0672348,
-    "_updated_label": "2026-09-04 10:17",
+    "_fetched_at": 1788506393.769636,
+    "_updated_label": "2026-09-04 16:20",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 90,
+      "checked": 91,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788484626.0672348,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
-    "_last_success_at": 1788484626.0672348,
+    "_last_success_at": 1788506393.769636,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -66052,7 +66197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -67562,7 +67707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -68957,7 +69102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -72571,7 +72716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -73772,7 +73917,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788495960.92005,
     "_earnings_status": "ok",
@@ -75050,7 +75195,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -76348,7 +76493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -77621,7 +77766,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -79239,7 +79384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -80220,7 +80365,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788492236.7788668,
     "_earnings_status": "ok",
@@ -80402,6 +80547,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f8734c414d78b59ed97db9fb3ceeecbf96eb5cb4f5441e3ec06a0a7b3af48053",
         "datetime": 1788475269,
+        "headlineKo": "Vistra(VST)가 대규모 실행 후에도 여전히 저렴해 보일 수 있습니까?",
         "relevance": 1,
         "analysis": {
           "version": 9,
@@ -81482,7 +81628,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -82656,7 +82802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -83661,7 +83807,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -84298,7 +84444,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788501558.2556894,
     "_earnings_status": "ok",
@@ -86191,7 +86337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -86691,7 +86837,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788488391.7563577,
     "_earnings_status": "ok",
@@ -86750,7 +86896,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484683.1164172
+          "analysisUpdatedAt": 1788506429.961786
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -86798,7 +86944,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484686.0040267
+          "analysisUpdatedAt": 1788506432.0503337
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -86864,7 +87010,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484688.1642199
+          "analysisUpdatedAt": 1788506434.1944313
         },
         "headlineKo": "Seagate Technology Holdings (STX), 투자자들의 요청에 따라 AI Summit으로 향하다"
       },
@@ -86931,7 +87077,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484683.1164172
+          "analysisUpdatedAt": 1788506429.961786
         }
       },
       {
@@ -86979,7 +87125,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484686.0040267
+          "analysisUpdatedAt": 1788506432.0503337
         }
       },
       {
@@ -87045,7 +87191,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484688.1642199
+          "analysisUpdatedAt": 1788506434.1944313
         }
       },
       {
@@ -87736,17 +87882,17 @@ const NEWS_DATA = {
         "relevance": 1
       }
     ],
-    "_fetched_at": 1788484626.0672348,
-    "_updated_label": "2026-09-04 10:18",
+    "_fetched_at": 1788506393.769636,
+    "_updated_label": "2026-09-04 16:20",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788484626.0672348,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
-    "_last_success_at": 1788484626.0672348,
+    "_last_success_at": 1788506393.769636,
     "_collection_status": "ok"
   },
   "EME": {
@@ -87801,7 +87947,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484692.1647315
+          "analysisUpdatedAt": 1788506438.126868
         },
         "headlineKo": "10년 전 EMCOR 그룹에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
@@ -87849,7 +87995,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484694.5865185
+          "analysisUpdatedAt": 1788506440.2544432
         },
         "headlineKo": "EMCOR의 건축 서비스 성장이 추가 마진 확대를 지원할 수 있습니까?"
       },
@@ -87897,7 +88043,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484696.3946867
+          "analysisUpdatedAt": 1788506441.790434
         },
         "headlineKo": "EMCOR 그룹 (EME), 데이터 센터 수요와 공정 가치에 다시 집중"
       },
@@ -87964,7 +88110,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484692.1647315
+          "analysisUpdatedAt": 1788506438.126868
         }
       },
       {
@@ -88012,7 +88158,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484694.5865185
+          "analysisUpdatedAt": 1788506440.2544432
         }
       },
       {
@@ -88060,7 +88206,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788484696.3946867
+          "analysisUpdatedAt": 1788506441.790434
         }
       },
       {
@@ -88564,17 +88710,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788484626.0672348,
-    "_updated_label": "2026-09-04 10:18",
+    "_fetched_at": 1788506393.769636,
+    "_updated_label": "2026-09-04 16:20",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788484626.0672348,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
-    "_last_success_at": 1788484626.0672348,
+    "_last_success_at": 1788506393.769636,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -89689,7 +89835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_last_attempt_at": 1788503399.4025524,
     "_earnings_status": "ok",
@@ -89809,9 +89955,9 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
-    "_last_attempt_at": 1788505708.4644153,
+    "_last_attempt_at": 1788506393.769636,
     "_earnings_status": "ok",
     "_collection_status": "empty",
     "_last_success_at": 1787796356.237814,
@@ -89967,7 +90113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-04 16:08"
+      "updated": "2026-09-04 16:20"
     },
     "_fetched_at": 1788503399.4025524,
     "_updated_label": "2026-09-04 15:33",
