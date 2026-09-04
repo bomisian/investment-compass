@@ -1,8 +1,84 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788548884.2819412,
+  "generatedAt": 1788550779.0777392,
   "events": [
+    {
+      "id": "d96b53de3fc08f720e5c",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "MRVL",
+      "relatedTickers": [
+        "MRVL",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Marvell",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Why Marvell Stock Rallied Today",
+      "headlineKo": "Marvell 주식이 오늘 랠리를 펼친 이유",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ce55b4cdd787211b4d4caccd01fb09a47630bacd0000b8dafb7f9e6f16eb94d4",
+        "publishedAt": 1788542510,
+        "collectedAt": 1788550723.3833165
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Marvell 주식이 오늘 반등한 이유 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+        "Marvell Technology의 주식( MRVL +5.97% )은 금요일에 6.3%나 급등하여 급격히 상승했습니다.",
+        "반도체·인프라 전문기업이 상승세를 탄 계기는 또 다른 인공지능(AI) 칩 제조사의 주목할 만한 인수 소식이었다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 5.97%, 6.3%, 6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MRVL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 5.97%, 6.3%, 6% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MRVL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "63884840a6fb9c0c01f3",
       "schemaVersion": 1,
@@ -554,6 +630,163 @@ const EVENT_DATA = {
         "매출·영업이익 성장",
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "78b05e1316c24ed4c50c",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "MRVL",
+      "relatedTickers": [
+        "MRVL",
+        "QQQ"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Marvell",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Unpacking Q2 Earnings: Marvell Technology (NASDAQ:MRVL) In The Context Of Other Semiconductor Manufacturing Stocks",
+      "headlineKo": "2분기 수익 풀기: 다른 반도체 제조 주식의 맥락에서 Marvell Technology(NASDAQ:MRVL)",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5382e4026beed17c9df9b7b7a536d269e869c52366cc42eb156d5b5bae22e48d",
+        "publishedAt": 1788537970,
+        "collectedAt": 1788550723.3833165
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Unpacking Q2 Earnings: Marvell Technology (NASDAQ:MRVL) In The Context Of Other Semiconductor Manufacturing Stocks",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MRVL에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MRVL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "c102fb1c411610ba2375",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "MRVL",
+      "relatedTickers": [
+        "MRVL",
+        "QCOM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Marvell",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Qualcomm",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges",
+      "headlineKo": "무너진 AI 실리콘이 반등하면서 Marvell은 6% 상승하고 Qualcomm은 거의 버지 못합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5c5f1033f4c42345d20bf9c704f050455e74dfbce12245e557cb95efbbb770c9",
+        "publishedAt": 1788537738,
+        "collectedAt": 1788550723.3833165
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "무너진 AI 실리콘이 반등하면서 Marvell은 6% 상승하고 Qualcomm은 거의 버지하지 않습니다. - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,714.30 −0.37% Dow Jones 53,377.00 −0.52% Nasdaq 100 29,493.40 +0.07% Russell 2000 2,973.19 +0.25% S&P 500 7,714.30 −0.37% 다우존스 53,377.00 −0.52% 나스닥 100 29,493.40 +0.07% 러셀 2000 2,973.19 +0.",
+        "이러한 차이는 하이퍼스케일러 지출이 가속화될 때 어떤 회사가 실제로 이익을 얻을 수 있는지에 대한 중요한 사실을 드러냅니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 6%, 0.37%, 0.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "MRVL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 6%, 0.37%, 0.52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "MRVL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "MRVL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
       ]
     },
     {
@@ -1518,7 +1751,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2e6442ba7c783b9916f814fa38bf87fe47043e4959b7e9f602b17cea7895c89a",
         "publishedAt": 1788526380,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1689,7 +1922,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4573c14df2074810d02255c764ad9b85d8e4f7277498a39cadeb692b5120936a",
         "publishedAt": 1788524785,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1971,7 +2204,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f2293a72b12a628f436bae58709063402840fd88b0cdee44c0b33c6e526c0a87",
         "publishedAt": 1788516300,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2050,7 +2283,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2a903dd5b68bf809c45e58ea947afa4c20289169754c7dcc9819730ac46ff338",
         "publishedAt": 1788516240,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2935,62 +3168,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "7deb021a6d8ac94e2d29",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Palantir Stock Posts Best Day In A Month After Expanded PwC AI Deal, Defying Michael Burry’s Bearish Bet",
-      "headlineKo": "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3",
-        "publishedAt": 1788491749,
-        "collectedAt": 1788528300.1288922
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Palantir 주식은 PwC AI 거래 확장 후 한 달 만에 최고의 날을 기록하며 Michael Burry의 약세 베팅을 무시했습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "b1d7f34226d92a8c05bb",
       "schemaVersion": 1,
       "eventType": "dilution_warrant",
@@ -3021,7 +3198,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d91c654bfd19dedaa097db31f9bc7cb6790ab7b80072442a4369329de1c7e0c3",
         "publishedAt": 1788491749,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4115,7 +4292,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d12ad58548d6d49a0e0a7ae303f3b048ae90e2106241a6eb6f161b1b5f83689f",
         "publishedAt": 1788470930,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4255,7 +4432,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c670f41e113be40dfa000d22fe72e8bbd4c24510a0a7d6e36b7becd36e7dc852",
         "publishedAt": 1788470626,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4371,68 +4548,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "bc7ff5afc205f362afb3",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "MRVL",
-      "relatedTickers": [
-        "MRVL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Marvell",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-      "headlineKo": "영업이익률이 계속 확대되기 때문에 Marvell 주식을 사야 할까요?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fed7f650e1edb9385988469941a361630ab1832a2d80d3233bf03cedd534bc52",
-        "publishedAt": 1788470392,
-        "collectedAt": 1788528300.1288922
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "영업이익률이 계속 확대되기 때문에 Marvell 주식을 사야 할까요?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MRVL",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "fbb7a9c0283352091cc4",
       "schemaVersion": 1,
       "eventType": "dilution_warrant",
@@ -4465,7 +4580,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fed7f650e1edb9385988469941a361630ab1832a2d80d3233bf03cedd534bc52",
         "publishedAt": 1788470392,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5505,7 +5620,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=db0908f319d462ebb96eb0a10573879f2ca42eff057944ceff1ca770c26d5e07",
         "publishedAt": 1788456654,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7581,7 +7696,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=38acf07709bd251eb353fc4c38bee193bbd5d3acd534eeae8e6a3bbf261d6d01",
         "publishedAt": 1788441732,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8706,7 +8821,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b2c9f1b7bd3d55abe5fd8638e26058c67ed954125391b9cb91a5d2ee5657634c",
         "publishedAt": 1788416999,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10426,7 +10541,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=da6278cd27393f4f00d3af0202e77e5818bb723976c46352215a52efb9d8621d",
         "publishedAt": 1788384739,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14268,7 +14383,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c15828a16cf06e9dbc94828c3fa3f74b84274ae70402d220ee56aa69f5fcc418",
         "publishedAt": 1788348009,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15108,7 +15223,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0c1b48dc9f76a72d7861538e604660b96dbb021197270a617ccb7fbd2f8da34e",
         "publishedAt": 1788314888,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15981,7 +16096,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=294cbed66554e58fd12846d45d155f85cbb23cde53c1e288c84a3102a48f8483",
         "publishedAt": 1788292621,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16119,7 +16234,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8471d33a020d2e999e06df0373c13a11351cd1f84df5c7553cddf284f0be2941",
         "publishedAt": 1788292020,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17453,7 +17568,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=0c208a02c9869a5043187cbd17fbf04d9d1add5c8684c3095e8290220eb432db",
         "publishedAt": 1788282506,
-        "collectedAt": 1788528300.1288922
+        "collectedAt": 1788550723.3833165
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17856,142 +17971,30 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "0c459e3765f0ddc83390",
-      "schemaVersion": 1,
-      "eventType": "insider_sale",
-      "eventLabel": "내부자 매도",
-      "primaryTicker": "LRCX",
-      "relatedTickers": [
-        "LRCX"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "low",
-        "score": 42,
-        "kind": "reported",
-        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "낮음·확인 필요",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Lam Research Stock Slides: UBS Cut, Insider Sale, Rising Yields Weigh on LRCX",
-      "headlineKo": "Lam Research 주식 슬라이드: UBS 컷, 내부자 판매, 수익률 상승이 LRCX에 부담",
-      "source": {
-        "name": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=e69728715fee2dde3e1383ac97f7739e97b40fc726d3f3dcc4aa88692df8534e",
-        "publishedAt": 1788278554,
-        "collectedAt": 1788548422.2936773
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Lam Research Stock Slides: UBS Cut, Insider Sale, Rising Yields Weigh on LRCX",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "내부자 매도만으로 전망 악화를 단정할 수 없으며 옵션 행사·10b5-1 계획·보유비중을 함께 봐야 합니다.",
-        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "LRCX에 대한 내부자 매도 · 맥락 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "임원이 주식을 팔았다는 사실만으로 회사가 나빠졌다고 볼 수는 없습니다. 반복 여부와 보유 주식 중 얼마나 팔았는지가 중요합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "내부자 매도만으로 전망 악화를 단정할 수 없으며 옵션 행사·10b5-1 계획·보유비중을 함께 봐야 합니다.",
-        "LRCX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "LRCX",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "Form 4 거래 코드",
-        "전체 보유주식 대비 비율",
-        "여러 임원의 반복 매도"
-      ]
     }
   ],
   "byTicker": {
-    "MU": [
-      "63884840a6fb9c0c01f3",
-      "1128e721d972efc35cb6",
-      "54b750cc8db9bd930554",
-      "4ac4dd5bd64db8ced620",
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "3b0f62bb79f7a275b575",
-      "d79a8daa76dde3162513",
-      "8a06286de161b53c7adf",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "1c87e702594bd6e0720c",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "a794da85bd3224401c5f",
-      "0489331a18d9e46cb6c8",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "aa6ba15ccc1d70ed81e3",
-      "86b649f3fc2b87a9ed44",
-      "2c20e5b2fa04a70423f4",
-      "8ecba0abad31ef65af5b",
-      "2a6c8c1433318f89e67b",
-      "840acf4171507b96946e",
-      "483da06cbebb29afc471",
-      "cb43821b18e87b0ae45e",
-      "12d88406bfdded99a78b",
-      "bc40ecde4d85b2bee1d9",
-      "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "570e12f738ae57a4edc4",
-      "89d6ef3b2acb9aed1af4",
-      "25fcbf2b872bc6e8c3b3",
-      "85815a920410528043f6",
-      "4386851795ae9f877900",
-      "be886586317106dbfc23",
-      "e66aef4a24b3b0f2ecc0",
-      "2a475fab7e03b917f384",
-      "a7bb3f52c79c36c766f6",
-      "4771c7405feee78cc629",
-      "c28464c23a4646a11b6b",
-      "588bcded752f6716329c"
-    ],
-    "SNDK": [
-      "63884840a6fb9c0c01f3",
-      "df48f6bae44281cdf2cf",
-      "7fdfae0f9c9586f6fb26",
-      "3cb56d799ef545b4c40c",
-      "efbf58bb83907973e184",
-      "4e2980d96fa059a8405f",
-      "86b649f3fc2b87a9ed44",
-      "bf5375a671f25211ad82",
-      "483da06cbebb29afc471",
-      "bc40ecde4d85b2bee1d9",
-      "85815a920410528043f6",
-      "49a367f7507f259b1ae9"
+    "MRVL": [
+      "d96b53de3fc08f720e5c",
+      "78b05e1316c24ed4c50c",
+      "c102fb1c411610ba2375",
+      "32c14afa50c8b88c3955",
+      "5b82a5b5b975e9730dda",
+      "fbb7a9c0283352091cc4",
+      "6879de66abaf9265192f",
+      "64a12357069e5865547f",
+      "c89b54469e1b3165018a",
+      "d5c9def68365b6e2b14c",
+      "b544887807cf23e3ed3b",
+      "97be8d3d31896fd2d1f8"
     ],
     "SPY": [
+      "d96b53de3fc08f720e5c",
       "63884840a6fb9c0c01f3",
       "ae4bd9ec467cc872e7a7",
       "71af741db2d528d0ebb6",
       "d0148bb2156b37e1e7dd",
+      "c102fb1c411610ba2375",
       "24f6d74f0c8a1317c2e5",
       "285f88d9a19ce5a20677",
       "8337cbc7fc2ff63bc499",
@@ -18070,6 +18073,67 @@ const EVENT_DATA = {
       "f77ce872a6e2c3d93af5",
       "d0a189fca84ff4a89328",
       "aef74eeadca73c1b354c"
+    ],
+    "MU": [
+      "63884840a6fb9c0c01f3",
+      "1128e721d972efc35cb6",
+      "54b750cc8db9bd930554",
+      "4ac4dd5bd64db8ced620",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "3b0f62bb79f7a275b575",
+      "d79a8daa76dde3162513",
+      "8a06286de161b53c7adf",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "1c87e702594bd6e0720c",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "a794da85bd3224401c5f",
+      "0489331a18d9e46cb6c8",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "aa6ba15ccc1d70ed81e3",
+      "86b649f3fc2b87a9ed44",
+      "2c20e5b2fa04a70423f4",
+      "8ecba0abad31ef65af5b",
+      "2a6c8c1433318f89e67b",
+      "840acf4171507b96946e",
+      "483da06cbebb29afc471",
+      "cb43821b18e87b0ae45e",
+      "12d88406bfdded99a78b",
+      "bc40ecde4d85b2bee1d9",
+      "34335ee341cff1df990f",
+      "ef0940f7bec43eec2f1b",
+      "570e12f738ae57a4edc4",
+      "89d6ef3b2acb9aed1af4",
+      "25fcbf2b872bc6e8c3b3",
+      "85815a920410528043f6",
+      "4386851795ae9f877900",
+      "be886586317106dbfc23",
+      "e66aef4a24b3b0f2ecc0",
+      "2a475fab7e03b917f384",
+      "a7bb3f52c79c36c766f6",
+      "4771c7405feee78cc629",
+      "c28464c23a4646a11b6b",
+      "588bcded752f6716329c"
+    ],
+    "SNDK": [
+      "63884840a6fb9c0c01f3",
+      "df48f6bae44281cdf2cf",
+      "7fdfae0f9c9586f6fb26",
+      "3cb56d799ef545b4c40c",
+      "efbf58bb83907973e184",
+      "4e2980d96fa059a8405f",
+      "86b649f3fc2b87a9ed44",
+      "bf5375a671f25211ad82",
+      "483da06cbebb29afc471",
+      "bc40ecde4d85b2bee1d9",
+      "85815a920410528043f6",
+      "49a367f7507f259b1ae9"
     ],
     "AMZN": [
       "6d07dc02661b93d6a1b5",
@@ -18197,6 +18261,8 @@ const EVENT_DATA = {
     "QQQ": [
       "ae4bd9ec467cc872e7a7",
       "71af741db2d528d0ebb6",
+      "78b05e1316c24ed4c50c",
+      "c102fb1c411610ba2375",
       "24f6d74f0c8a1317c2e5",
       "285f88d9a19ce5a20677",
       "8337cbc7fc2ff63bc499",
@@ -18316,6 +18382,13 @@ const EVENT_DATA = {
       "71af741db2d528d0ebb6",
       "98d93926b229539e9fcc"
     ],
+    "QCOM": [
+      "c102fb1c411610ba2375",
+      "d79a8daa76dde3162513",
+      "f4b0f395a0ebf2288eab",
+      "4771c7405feee78cc629",
+      "98c0ee73ffcdabec5271"
+    ],
     "GOOGL": [
       "24f6d74f0c8a1317c2e5",
       "e4814d4b7067690f2446",
@@ -18375,7 +18448,6 @@ const EVENT_DATA = {
       "8337cbc7fc2ff63bc499",
       "df8b8b24313db1768811",
       "c6fb4293e7f004e8c532",
-      "7deb021a6d8ac94e2d29",
       "b1d7f34226d92a8c05bb",
       "449937cdd2c804fb1cee",
       "631bfa2bc237b9b6850a",
@@ -18413,18 +18485,6 @@ const EVENT_DATA = {
       "fc7b7a8d8be5cb668f5a",
       "b970246492fec105c56a",
       "fd6f4c11637a7bd55bfd"
-    ],
-    "MRVL": [
-      "32c14afa50c8b88c3955",
-      "5b82a5b5b975e9730dda",
-      "bc7ff5afc205f362afb3",
-      "fbb7a9c0283352091cc4",
-      "6879de66abaf9265192f",
-      "64a12357069e5865547f",
-      "c89b54469e1b3165018a",
-      "d5c9def68365b6e2b14c",
-      "b544887807cf23e3ed3b",
-      "97be8d3d31896fd2d1f8"
     ],
     "CRM": [
       "4ac4dd5bd64db8ced620",
@@ -18499,12 +18559,6 @@ const EVENT_DATA = {
       "d82653e93b3b94039b41",
       "99c84182ef22525cd118"
     ],
-    "QCOM": [
-      "d79a8daa76dde3162513",
-      "f4b0f395a0ebf2288eab",
-      "4771c7405feee78cc629",
-      "98c0ee73ffcdabec5271"
-    ],
     "VRT": [
       "8a06286de161b53c7adf",
       "b981a2f7783e2fccce20",
@@ -18543,9 +18597,6 @@ const EVENT_DATA = {
     "FIX": [
       "8b06659042eb85e02bbb",
       "c52a349a2c43da2fb76d"
-    ],
-    "LRCX": [
-      "0c459e3765f0ddc83390"
     ]
   }
 };
