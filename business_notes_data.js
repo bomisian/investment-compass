@@ -423,7 +423,7 @@ const BUSINESS_NOTES = {
     },
   },
   GOOGL: {
-    updated: "2026-08-13",
+    updated: "2026-09-04",
     customers: [
       "광고주 전반(검색+유튜브) - 매출의 절대다수 비중, 여전히 핵심 수익원",
       "기업 고객(구글 클라우드) - 백로그가 2026년 1분기에 전분기 대비 거의 2배로 늘어 $460B에 육박, AI 인프라 수요가 배경",
@@ -491,6 +491,45 @@ const BUSINESS_NOTES = {
           {title:"Kavukcuoglu Now Leads Gemini as Sole SVP Reporting to Pichai — With Brin Deeply Hands-On (FourWeekMBA)", url:"https://fourweekmba.com/ai-kavukcuoglu-gemini-lead-brin-hands-on-google-deepmind-restru/"},
         ],
       },
+      {
+        date: "2026-09-02",
+        headline: "광고기술 반독점 소송 '제재' 판결 - 강제매각(분할) 안 받고 행동규제만 부과, 주가 +1%",
+        importance: "high",
+        tone: "mixed",
+        horizon: "중기(행동규제 세부 이행 방식·항소 여부에 따라 영향 유동적)",
+        facts: [
+          "2026년 4월 이미 '구글이 광고기술 시장에서 불법 독점을 유지했다'는 책임(liability) 판결이 나온 상태였고, 이번 9/2 판결은 그 '제재(remedy)'를 정하는 두 번째 단계임 - 담당 판사는 리오니 브링키마(Leonie Brinkema, 버지니아 동부지법).",
+          "미 법무부(DOJ)는 구글의 광고거래소 AdX(및 퍼블리셔용 서버 DFP가 묶인 Google Ad Manager)를 강제 매각(분사)하라고 요구했으나, 브링키마 판사는 이를 기각함.",
+          "대신 '행동 규제(behavioral remedies)'를 명령함 - 오픈웹 디스플레이 광고의 실시간 입찰가를 경쟁 광고서버에도 공개, '통합 가격 규칙(Unified Pricing Rules)' 폐지, 퍼블리셔가 입찰자별로 다른 최저가를 설정할 수 있게 허용, 구글이 입찰가를 사후 조정할 수 있던 '퍼스트룩·라스트룩' 특혜 금지 등이 포함됨.",
+          "판결 발표 당일 GOOGL 주가는 약 +1% 상승 - 시장은 '최악(강제 분할)은 피했다'는 쪽으로 받아들임. 애널리스트 컨센서스는 '매수'(30명 기준 평균목표가 $422.59)로 우호적 유지.",
+          "다만 업계 반응은 엇갈림 - 경쟁 애드테크 업체(PubMatic 등)는 '공정경쟁 환경에 도움'이라며 긍정적이었지만, 일부 비평가(Jay Friedman 등)는 '퍼블리셔가 여전히 구글의 수요 쪽(디맨드 사이드)에 의존할 수밖에 없어 근본적 해결은 아니다'라고 지적함.",
+          "이번 결과는 앞선 구글 검색 독점 소송(강제분할 대신 행동규제로 마무리)과 같은 패턴 - 법원이 빅테크 반독점 사건에서 '구조적 분할'보다 '행동규제'를 선호하는 흐름이 이어지고 있음을 보여줌.",
+        ],
+        why: [
+          "이 광고거래소(AdX) 사업 자체는 구글 전체 매출에서 비중이 작아서, 설령 강제매각됐어도 재무적 충격은 제한적이었을 것 - 그보다는 '선례'로서의 의미(다른 반독점 소송·규제에 미칠 영향)가 더 컸음. 이번에 분할을 피한 건 향후 다른 규제 압박에도 '분할'보다 '행동규제'로 마무리될 가능성을 시사.",
+          "다만 행동규제 자체(가격 투명성 강화, 특혜 금지)는 구글이 광고 입찰에서 누리던 정보 우위·유연성을 일부 깎아내는 것이라, 장기적으로 광고 마진에 미세하게 불리하게 작용할 수 있음 - 다만 세부 이행 방식이 아직 공개되지 않아 영향 크기는 불확실.",
+          "위 risks 항목에 있는 '제미나이 3.5 프로 지연' 이슈와는 결이 다른 리스크(AI 경쟁력 vs 법적 규제)라는 점도 구분해서 봐야 함 - 이번 건은 오히려 우려가 줄어든 쪽.",
+        ],
+        beginner: [
+          "구글이 온라인 광고 시장에서 '불법으로 독점을 했다'는 판결은 이미 지난 4월에 나왔었고, 이번엔 '그럼 벌로 무엇을 시킬지'를 정하는 재판이었어요.",
+          "미국 정부는 구글한테 광고 관련 사업 일부를 강제로 팔라고 요구했는데, 판사가 그건 안 시키기로 했어요. 대신 '광고 입찰 방식을 더 투명하고 공정하게 바꿔라'는 정도의 숙제만 줬어요.",
+          "최악의 시나리오(사업 강제 매각)는 피했다는 뜻이라 주가는 소폭 올랐어요. 다만 '독점이었다'는 판결 자체는 그대로 남아있고, 항소 가능성도 있어요.",
+        ],
+        interpretation: "구글 입장에서는 최악의 결과(구조적 분할)를 피했다는 점에서 명확히 안도할 만한 결과다. 다만 (1) '불법 독점' 책임 판결 자체는 그대로 유지되고, (2) 행동규제의 구체적 이행 방식이 아직 공개되지 않아 실제 사업에 미칠 영향의 크기를 지금 정확히 가늠하기 어려우며, (3) 정부 측 항소 가능성도 남아있다. 시장의 +1% 반응은 '불확실성 해소'에 대한 반응에 가깝고, 광고 사업 펀더멘털 자체가 개선됐다는 신호로 보기는 이르다.",
+        decision: "구조적 리스크(사업 강제분할)는 사실상 해소된 것으로 봐도 되나, 행동규제 세부안이 공개되는 대로 광고 마진에 미치는 실질적 영향을 재점검할 것.",
+        watch: [
+          "행동규제(가격 공개·특혜 금지 등)의 구체적 이행 일정과 방식",
+          "DOJ·경쟁사의 항소 여부",
+          "다음 분기 광고(검색·유튜브) 매출·마진에 이번 규제가 미치는 실제 영향",
+        ],
+        confidence: "판결 내용(강제매각 기각, 행동규제 명령 항목)과 담당 판사·사건명은 CNBC·AdExchanger 등 복수 매체 보도 기준으로 신뢰도 높음. 주가 반응(+1%)과 애널리스트 목표가는 TipRanks 기준. 행동규제가 실제 매출·마진에 미칠 영향의 크기는 세부안이 미공개라 아직 추정 불가.",
+        sources: [
+          {title:"Google defeats U.S. bid to force ad tech sale (CNBC)", url:"https://www.cnbc.com/2026/09/02/google-defeats-us-bid-to-force-ad-tech-sale.html"},
+          {title:"Google Won't Have To Break Up Its Ad Tech Business, Judge Brinkema Rules (AdExchanger)", url:"https://www.adexchanger.com/antitrust/google-wont-have-to-break-up-its-ad-tech-business-judge-brinkema-rules/"},
+          {title:"Google Stock (GOOGL) Rises After Judge Rejects Ad Tech Sale Order (TipRanks)", url:"https://www.tipranks.com/news/google-stock-googl-rises-after-judge-rejects-ad-tech-sale-order"},
+          {title:"Google won't be forced to sell its ad exchange following antitrust ruling (Engadget)", url:"https://www.engadget.com/2249664/google-wont-be-forced-to-sell-its-ad-exchange-following-antitrust-ruling/"},
+        ],
+      },
     ],
     viewLog: [
       {
@@ -523,7 +562,7 @@ const BUSINESS_NOTES = {
     },
   },
   META: {
-    updated: "2026-08-20",
+    updated: "2026-09-04",
     customers: [
       "광고주 전반(Family of Apps: 페이스북·인스타그램·왓츠앱·메신저) - 매출 절대다수 비중",
       "리얼리티랩(Reality Labs) 소비자 - 퀘스트 VR 헤드셋, AI 글래스",
@@ -573,6 +612,46 @@ const BUSINESS_NOTES = {
         sources: [
           {title:"What's Going On With Meta Platforms Stock Tuesday? (Benzinga)", url:"https://www.benzinga.com/trading-ideas/movers/26/08/61279236/whats-going-on-with-meta-platforms-stock-tuesday-2"},
           {title:"What's Going On With Meta Platforms Stock Monday? (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/08/61257572/whats-going-on-with-meta-platforms-stock-monday-3"},
+        ],
+      },
+      {
+        date: "2026-08-26",
+        headline: "10대 안전 소송 $17B에 합의 - 바로 위 8/20 항목(29개 주 소송, 최대 $1.4조 주장)의 결말, 소송 불확실성 해소로 주가 +1.5%",
+        importance: "high",
+        tone: "mixed",
+        horizon: "장기(10년간 분할 이행 + 참여 유도 조항)",
+        facts: [
+          "47개 주 검찰총장 연합(초당적) 중 4개 주(캘리포니아·콜로라도·켄터키·뉴저지)가 오클랜드 연방법원에서 실제 재판까지 갔던 사건으로, 재판 도중 합의로 종결됨(마크 저커버그의 예정된 증언도 무산됨).",
+          "메타는 10년에 걸쳐 총 $17B를 청소년 온라인 안전 관련 사업에 지급하기로 함 - 주별 최소 배분액 예시: 캘리포니아 $15억, 뉴저지 $5.25억, 매사추세츠 $3.66억, 버지니아 $3.53억.",
+          "이 중 30%($5.3B)는 유튜브·틱톡이 메타와 비슷한 수준의 안전조치를 도입하고 매칭 지급에 동참하는 것을 조건으로 함 - 즉 업계 전체로 규제를 확산시키려는 조항.",
+          "메타는 제품 변경도 함께 이행해야 함: 청소년 대상 하루 사용시간 제한·일시정지 기능, 등교시간 중 푸시알림 금지, 연령확인·연령별 콘텐츠 제한, '좋아요' 수 등 사회적 비교 기능 제한, 부모 통제 기능 강화, 독립기관의 안전기능 효과 감사.",
+          "이 소식으로 주가는 발표 당일 오후 +1.5% 상승 - 바로 위 8/20 항목에서 다뤘던 '29개 주 소송·최대 $1.4조 배상 주장' 리스크가 실제로는 훨씬 관리 가능한 규모($17B, 10년 분할)로 마무리된 것.",
+          "애널리스트 반응은 엇갈림: Piper Sandler(비중확대, 목표가 $785, +38% 여력)·Evercore ISI(아웃퍼폼, 목표가 $860, +51% 여력)는 '법적 불확실성 해소'를 긍정 평가한 반면, Wells Fargo·BMO Capital(목표가 $580, +2%)은 '청소년 사용시간 제한이 인스타그램·틱톡 등의 참여도(engagement)·광고 노출·단가에 새로운 리스크가 될 수 있다'고 경고함.",
+        ],
+        why: [
+          "위 8/20 항목에서 예상했던 '실제 배상·합의 규모는 회사 주장($1.4조)과 원고 측 추정($2,000억) 사이 어딘가로 좁혀질 것'이라는 해석이 결과적으로 맞아떨어짐($17B는 원고 측 추정보다도 훨씬 작음) - 최악의 시나리오가 현실화되지 않은 사례로 참고할 만함.",
+          "다만 이번 합의의 핵심은 '돈'보다 '제품 변경 의무'에 있음 - 청소년 사용시간 제한·알림 제한은 인스타그램 등 핵심 앱의 참여도 지표에 실질적 영향을 줄 수 있어, 광고 매출에 미치는 영향은 앞으로 몇 분기 실적으로 확인이 필요함.",
+          "위 risks 항목의 'EU 규제 압박'과 함께 봤을 때, 메타는 이제 미국(주정부)·EU 양쪽에서 동시에 플랫폼 설계 규제를 받는 상황이 됨 - 규제 리스크가 사라진 게 아니라 '소송 불확실성'에서 '이행 의무 준수'로 성격이 바뀐 것.",
+        ],
+        beginner: [
+          "미국 여러 주 정부가 메타(페이스북·인스타그램)한테 '10대들 마음 건강을 해쳤다'며 걸었던 소송이 이번에 합의로 끝났어요. 재판까지 안 가고 돈을 내고 합의한 거예요.",
+          "메타가 10년 동안 총 170억 달러(약 23조원)를 내기로 했고, 동시에 10대 사용자를 위한 기능(하루 사용시간 제한, 학교 시간엔 알림 안 오게 하기 등)도 새로 넣어야 해요.",
+          "투자자들은 '최악의 상황(1조 달러가 넘는 배상)은 피했다'고 보고 주가가 소폭 올랐어요. 다만 일부 전문가는 '10대들이 앱을 덜 쓰게 되면 광고 수입이 줄 수도 있다'고 걱정하고 있어요.",
+        ],
+        interpretation: "이번 합의는 위 8/20 항목에서 이미 예견됐던 리스크의 '결말'로, 최악의 재무적 시나리오는 피했다는 점에서 법적 불확실성 해소 측면의 호재로 볼 수 있다. 다만 요구되는 제품 변경(특히 청소년 사용시간 제한)이 실제로 참여도·광고 매출에 어느 정도 영향을 줄지는 아직 숫자로 확인되지 않았고, 이 부분에서 애널리스트 의견이 갈리고 있다(Piper·Evercore는 낙관, Wells Fargo·BMO는 신중). 종합하면 '큰 꼬리 위험은 제거됐지만 새로운 운영상 제약이 생겼다'는 양면적 사건으로 보는 게 정확하다.",
+        decision: "소송 불확실성 해소 자체는 긍정적이나, 청소년 사용시간 제한 등 제품 변경이 실제 참여도·광고 매출에 미치는 영향은 앞으로 1~2분기 실적에서 확인 후 판단할 것.",
+        watch: [
+          "제품 변경(사용시간 제한 등) 시행 이후 인스타그램 등 앱의 사용자 참여도(DAU/시간) 변화",
+          "다음 분기 광고 노출수·평균단가 추이(이번 조치의 광고 매출 영향 신호)",
+          "유튜브·틱톡의 매칭 안전조치 도입 여부(30% 조건부 지급분 실현 여부)",
+          "EU 등 다른 지역 규제당국의 유사 조치 확산 여부",
+        ],
+        confidence: "합의 금액·주별 배분·제품 변경 의무 등 합의 조건은 NPR·PBS·CNN 등 복수 정론 매체 보도 기준으로 신뢰도 높음. 주가 반응(+1.5%)과 애널리스트 목표주가·의견은 Yahoo Finance·CNBC 보도 기준. 제품 변경이 실제 참여도·매출에 미칠 영향의 크기는 아직 실적으로 검증되지 않은 추정임.",
+        sources: [
+          {title:"Meta, states agree to $17 billion settlement in child safety trial (NPR)", url:"https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit"},
+          {title:"Meta reaches $17 billion settlement with states in landmark trial over teen social media addiction (PBS NewsHour)", url:"https://www.pbs.org/newshour/nation/meta-reaches-17-billion-settlement-with-states-in-landmark-trial-over-teen-social-media-addiction"},
+          {title:"META's $17B Settlement Clears Legal Overhang — Analysts See Upside (Yahoo Finance)", url:"https://finance.yahoo.com/markets/stocks/articles/meta-17b-settlement-clears-legal-185456691.html"},
+          {title:"What investors should do with Meta now that the child privacy case has settled (CNBC)", url:"https://www.cnbc.com/2026/08/26/what-investors-should-do-with-meta-now-that-privacy-case-has-settled.html"},
         ],
       },
     ],
@@ -839,7 +918,7 @@ const BUSINESS_NOTES = {
   // 자동 탐지함(10종목 감지) - 그중 결정에 중요해 보이는 5개(메모리 3종목+MRVL+INTC)를 조사해
   // 추가함. 나머지(NVDA·META·PLTR)는 아직 미착수 - 필요시 요청.
   MU: {
-    updated: "2026-08-20",
+    updated: "2026-09-04",
     customers: [
       "AI 데이터센터 기업(클라우드메모리 부문, +100% YoY 최대 성장) - 엔비디아 등에 HBM(고대역폭메모리) 공급, 블랙웰 B200/B300 플랫폼에 탑재",
       "전략적 고객 16곳과 장기공급계약 체결 - D램 물량의 약 20%·낸드 물량의 약 3분의 1을 차지(대형고객 4곳+중견고객 3곳)",
@@ -907,6 +986,43 @@ const BUSINESS_NOTES = {
           {title:"Micron CEO Sounds Alarm on AI Memory Crunch — Supply May Not Catch Up Until 2028 as Demand Keeps Growing (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/micron-ceo-sounds-alarm-ai-223107015.html"},
           {title:"Micron CEO Expects Memory Supply To Improve Gradually In 2028, But There's No 'Line Of Sight' When It Will Catch Up To Rising AI Demand (Yahoo Finance)", url:"https://finance.yahoo.com/technology/ai/articles/micron-ceo-expects-memory-supply-094604951.html"},
           {title:"AI Memory Squeeze Runs To 2028: Goldman Stays Bullish (Benzinga)", url:"https://www.benzinga.com/markets/tech/26/06/52907425/goldman-memory-shortage-2028-samsung-hynix-kioxia-sandisk-micron"},
+        ],
+      },
+      {
+        date: "2026-09-02",
+        headline: "대만 노조, 삼성·SK하이닉스 수준 이익분배 요구하며 파업 투표 임박(지지율 약 80%)",
+        importance: "medium",
+        tone: "risk",
+        horizon: "단기(9월 중 중재 결과·파업투표 여부에 따라 유동적)",
+        facts: [
+          "마이크론 대만 노조(조합원 약 1만명)가 현재의 성과급 제도(IPP, 연간 약 2.6개월치 급여 수준 상한)를 삼성전자(이익의 10.5%)·SK하이닉스(이익의 10%) 수준의 이익분배제로 바꿔달라고 요구 중.",
+          "노조 자체 설문에서 조합원의 약 80%가 파업에 찬성한다는 결과가 나옴.",
+          "8월 말~9월 중순 사이 중재(mediation) 협상이 예정돼 있고, 이 협상이 결렬되면 9월 중 실제 파업 투표가 이뤄질 수 있음.",
+          "회사 측의 공식 입장·반박은 현재까지 보도에서 확인되지 않음.",
+          "지금은 메모리 슈퍼사이클로 마이크론 실적(순이익률 68%)이 사상 최고 수준인 시점이라, 노조 측이 '경쟁사 대비 낮은 보상'을 요구할 명분이 상대적으로 강한 시기임.",
+        ],
+        why: [
+          "대만은 마이크론의 핵심 생산 거점 중 하나(D램 생산 비중이 높음)라, 실제 파업으로 이어질 경우 생산 차질 가능성이 있음 - 다만 현재는 파업이 아니라 '파업 투표 가능성' 단계임을 유의.",
+          "위 analystLog에서 확인한 '메모리 슈퍼사이클' 국면과 맞물려 있음 - 회사 이익이 급증하는 시기에 인건비 요구도 커지는 전형적인 패턴으로, 슈퍼사이클이 꺾이기 전에 노사 갈등이 먼저 불거질 수 있는 리스크로 볼 수 있음.",
+        ],
+        beginner: [
+          "마이크론 대만 공장 직원들이 '삼성이나 SK하이닉스만큼 성과급을 달라'고 요구하고 있어요. 지금 보너스는 연봉의 2.6개월치 정도인데, 경쟁사는 회사 이익의 10% 정도를 나눠줘서 차이가 커요.",
+          "설문에서 직원 80%가 '파업까지 갈 수 있다'고 답했어요. 다만 아직 실제 파업은 아니고, 회사와 대화(중재)가 9월 중순까지 예정돼 있어서 그 결과에 따라 달라질 수 있어요.",
+          "지금 마이크론은 메모리 가격이 폭등해서 돈을 엄청 잘 벌고 있는 시기라(순이익률 68%), 직원들 입장에서는 '우리도 그만큼 받아야 한다'고 요구하기 좋은 타이밍이에요.",
+        ],
+        interpretation: "아직 실제 파업이 아니라 '파업 투표 가능성' 단계이므로 지금 당장 생산 차질로 이어질 위험은 제한적이다. 다만 지지율이 80%로 높고, 중재 협상 결과에 따라 9월 중 상황이 빠르게 전개될 수 있어 단기적으로 지켜볼 필요가 있는 이슈다. 메모리 슈퍼사이클로 회사 실적이 역대 최고 수준인 시점에 나온 요구라는 점에서, 회사가 어느 정도 타협할 유인도 있다고 볼 수 있다.",
+        decision: "지금은 매수·매도 판단에 반영할 단계는 아니고, 9월 중순 중재 결과와 실제 파업 투표 여부를 확인할 것.",
+        watch: [
+          "8월 말~9월 중순 예정된 노사 중재 협상 결과",
+          "실제 파업 투표 실시 여부 및 가결 여부",
+          "회사 측의 공식 대응(성과급 제도 개선안 제시 여부)",
+          "대만 생산라인의 실제 가동률 변화 여부(파업 현실화 시)",
+        ],
+        confidence: "노조 요구사항·설문 지지율(80%)·중재 일정은 TrendForce·Taipei Times 등 현지 매체 보도 기준으로 신뢰도 높음. 다만 회사 측 공식 반응이 아직 보도되지 않아 한쪽 입장(노조 측) 위주 정보라는 점은 감안할 것.",
+        sources: [
+          {title:"Micron's Taiwan Unions Are Asking for a Bonus Worth 83 Months of Pay. A Strike Vote Could Come This Month. (The Motley Fool)", url:"https://www.fool.com/investing/2026/09/02/micron-s-taiwan-unions-are-asking-for-a-bonus-worth-83-months-of-pay-a-strike-vote-could-come-this-month/"},
+          {title:"News: Micron Taiwan Strike Vote Possible in Sept. as ~80% Union Back Action Over Bonus Gap with Samsung, SK hynix (TrendForce)", url:"https://www.trendforce.com/news/2026/08/28/news-micron-taiwan-strike-vote-possible-in-sept-as-80-union-back-action-over-bonus-gap-with-samsung-sk-hynix/"},
+          {title:"Micron's Taiwan unions threaten strike over bonus dispute (Taipei Times)", url:"https://www.taipeitimes.com/News/biz/archives/2026/09/02/2003863518"},
         ],
       },
     ],
