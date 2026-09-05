@@ -226,25 +226,25 @@ const MARKET_DATA = {
       "headlineKo": "판사, 올림픽 선수에 대한 반사 수영장 기물 파손 혐의 기각 방법 검토"
     },
     {
-      "headline": "Trump says US may hit Iran's Pickaxe Mountain soon - Reuters",
+      "headline": "Trump says US may hit Iran's Pickaxe Mountain soon - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmd2SXBwYUJhclYxN0pLMDhjUXVmeHhzUTRPY0FsM3hPZlN4YkprT2Y0R0l6Z3U5UXNWVjRDcFJUN2NNa1FsaXlIejlDUXVpbWh4UWJNdUZzZUZpdGN5WkxQa24zYkktU191MTZsV0VwNXcwRzVPRHA4YjlCUUwwajE4akV3Y3pLX0thQXEtTTlSRkJRMGc?oc=5",
       "datetime": 1788552703,
-      "headlineKo": "트럼프 \"미국, 곧 이란 곡괭이산 공격할 것\" - 로이터"
+      "headlineKo": "트럼프, 미국이 곧 이란 곡괭이산을 공격할 수도 있다고 말했다 - reuters.com"
     },
     {
-      "headline": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - Reuters",
+      "headline": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
       "datetime": 1788551051,
-      "headlineKo": "트럼프 “우크라이나 평화 논의 위해 해외로 간다” 위트코프·쿠슈너 - 로이터 통신"
+      "headlineKo": "트럼프, 위트코프·쿠슈너 우크라이나 평화 논의 위해 해외로 간다 - reuters.com"
     },
     {
-      "headline": "U.S. approves potential sale of Joint Direct Attack Munitions-Extend Range to Saudi Arabia for $5 billion - Reuters",
+      "headline": "U.S. approves potential sale of Joint Direct Attack Munitions-Extend Range to Saudi Arabia for $5 billion - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS3hZQnZwRzktT3UxRlNtYk8wVi1LSmtMdmRlTHIyZ0k4cm00aGp3d1plVEs2YVl3b3JxcTJUWE85VzZhLWJ2SEQ0WHM2eGd3SWJCeDlNZkhRQlBQdU44WTZLS3pJNzJsVEJISGJLeFBhUHVHMzFmUldrMUIwbHdEQkt1elJVMWxfUTN2SVhQT1BRblp2clBaVk9EalNpTDBVRzN6R3lUNUFzdnpWNnJuWjM5cE5ISjhOaUgtQ2xjQUNPVjF1c0tWZA?oc=5",
       "datetime": 1788549130,
-      "headlineKo": "미국, 사우디아라비아에 50억 달러에 합동직격공격탄-사거리 연장 잠재적 판매 승인 - 로이터"
+      "headlineKo": "미국, 사우디아라비아에 50억 달러에 합동직격공격탄-사거리 연장 잠재적 판매 승인 - reuters.com"
     },
     {
       "headline": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
@@ -254,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "강력한 일자리 데이터가 요율에 미치는 영향 - 게다가 이번 주에는 비호의적인 거래가 빛을 발합니다"
     },
     {
-      "headline": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters",
+      "headline": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
       "datetime": 1788546177,
-      "headlineKo": "미국, 최근 이란에 압력을 가하고 있는 터키 은행과 자회사 2곳을 제재 - 로이터"
+      "headlineKo": "미국, 최근 이란에 압력을 가하고 있는 터키 은행과 자회사 2곳을 제재 - reuters.com"
     },
     {
-      "headline": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - Reuters",
+      "headline": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
       "datetime": 1788545570,
-      "headlineKo": "이스라엘은 레바논 주요 능선 아래 터널에서 헤즈볼라 전사들을 제거했다고 밝혔습니다."
+      "headlineKo": "이스라엘, 레바논 주요 능선 아래 터널에서 헤즈볼라 전사들을 제거했다고 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Cybercabs are a game changer, says Mike Khouw. Here's how he's trading Tesla",
@@ -282,18 +282,18 @@ const MARKET_DATA = {
       "headlineKo": "WBNA 위원장 Cathy Engelbert, 2026년 말 은퇴 예정"
     },
     {
-      "headline": "US and allies push IAEA board to report Iran to UN Security Council, diplomats say - Reuters",
+      "headline": "US and allies push IAEA board to report Iran to UN Security Council, diplomats say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTWN6cU9lV0RMREdsVnRUZW1vS0tKZk9tZUJmMnFpTTdNM2c4c2J2bUtzOElSbjA2WnFCQzdZSnotczdsYnNPRWFLckFyV0EwNWg1akIyTFo4NDF4ODVMTnVSNnBjcWREd1Q4dWk3Q3FyWFkwMFdLbzY5YU9yLVkySDlEOGJBVktZQTJ1d2NJMkJSUGpKaks5dTNUb2xySnVBb3VGUUdILXZpaVZqeHVtcWR4Nm03M1oxNUFUNA?oc=5",
       "datetime": 1788536208,
-      "headlineKo": "미국과 동맹국들이 IAEA 이사회에 이란을 유엔 안전보장이사회에 보고하라고 압력을 가했다고 외교관들이 밝혔습니다. - 로이터 통신"
+      "headlineKo": "미국과 동맹국들이 IAEA 이사회에 이란을 유엔 안전보장이사회에 보고하라고 압력을 가했다고 외교관들이 밝혔습니다. - reuters.com"
     },
     {
-      "headline": "Only a quarter of Americans think Iran war is worthwhile, Reuters/Ipsos poll shows - Reuters",
+      "headline": "Only a quarter of Americans think Iran war is worthwhile, Reuters/Ipsos poll shows - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDktVk9zLXloNkRZVGMzYVRQWUVwOFZwYmdWVEVVeXAwcWNBWnNHYTBXdU44UUlOdkVKV0xwWEZfSUFDWkNHenVHemlDM1dWWWI3c3FiYmhhOE5HT1JhbHpRNUFOSVc3MFRjVTJwQTRrNjlteWE2MG50a2V0WnRVdnkwYjVxUFpFbWtZem44Y0M2bjVpTGRIUlNvcjY3V21jUTBGTVNoR2M1a1lRNXhPMVRMSk9VVVJE?oc=5",
       "datetime": 1788533815,
-      "headlineKo": "미국인 중 4분의 1만이 이란 전쟁이 가치 있다고 생각하는 것으로 나타났다. 로이터/입소스 여론조사 - Reuters"
+      "headlineKo": "미국인 중 4분의 1만이 이란 전쟁이 가치 있다고 생각하는 것으로 로이터/입소스 여론조사 결과 - reuters.com"
     },
     {
       "headline": "Labor Day marks the start of 'fallcations' as wealthy travelers avoid summer crowds",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788593745.6222587,
-  "_updated_label": "2026-09-05 16:36",
-  "_last_attempt_at": 1788593745.6222587,
-  "_last_success_at": 1788593745.6222587,
+  "_fetched_at": 1788597468.1907206,
+  "_updated_label": "2026-09-05 17:38",
+  "_last_attempt_at": 1788597468.1907206,
+  "_last_success_at": 1788597468.1907206,
   "_collection_status": "ok",
   "_collection_errors": []
 };
