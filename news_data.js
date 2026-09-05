@@ -6857,7 +6857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -6872,6 +6872,70 @@ const NEWS_DATA = {
       "revenueEstimate": 115064400597
     },
     "news": [
+      {
+        "headline": "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
+        "datetime": 1788600300,
+        "relevance": 0.71,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "연간 배당금 12,000달러에 필요한 Apple(AAPL) 주식의 주식 수는 다음과 같습니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "도움말 달콤한 소극적 소득을 위해 배당금 지급 주식에 투자하고 싶다면 좋습니다!",
+            "배당금은 주식을 팔지 않고도 현금을 모을 수 있는 좋은 방법입니다. 그리고 그 현금은 당신을 지원하거나 더 많은 주식을 구입하는 데 사용될 수 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $12,000, 2.51%, $0.27 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.71,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$12,000",
+            "2.51%",
+            "$0.27",
+            "$1.08",
+            "$1.08,",
+            "$325",
+            "$3,611,111.",
+            "2.51 %"
+          ],
+          "sourceExcerpt": [
+            "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help If you're looking to invest in dividend-paying stocks for that sweet passive income, good for you!",
+            "Dividends are a great way to collect cash without having to sell any stocks -- and that cash can help support you or can be deployed to buy more shares of stock."
+          ],
+          "analysisUpdatedAt": 1788608900.1040106
+        },
+        "headlineKo": "연간 배당금 12,000달러에 필요한 Apple(AAPL) 주식 수는 다음과 같습니다."
+      },
       {
         "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
         "source": "Yahoo",
@@ -6918,7 +6982,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586173.0217123
+          "analysisUpdatedAt": 1788608902.2168207
         },
         "headlineKo": "다우존스 선물: Nvidia, Micron, Sandisk Flash 구매 신호; 애플, 인플레이션 보고서 앞두고"
       },
@@ -6968,7 +7032,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586176.4971476
+          "analysisUpdatedAt": 1788608904.2450097
         },
         "headlineKo": "오늘날 Apple(AAPL)이 더 넓은 시장보다 더 많이 하락한 이유"
       },
@@ -6980,46 +7044,6 @@ const NEWS_DATA = {
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586178.430784
-        },
         "headlineKo": "애플의 존 터너스는 '팀 쿡 2'가 아닌 그 자신만의 CEO가 되어야 한다"
       },
       {
@@ -7031,16 +7055,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Apple, Broadcom 및 Shell에 대한 주요 연구 보고서"
-      },
-      {
-        "headline": "Why Apple Stock Sank on Friday",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8107a79080e10d92b606f3f37d8117abc39b832936ca03d2bd6a17f3dec40247",
-        "datetime": 1788546613,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "금요일에 애플 주식이 폭락한 이유"
       },
       {
         "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
@@ -7182,6 +7196,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
+        "datetime": 1788600300,
+        "headlineKo": "연간 배당금 12,000달러에 필요한 Apple(AAPL) 주식 수는 다음과 같습니다.",
+        "relevance": 0.71,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "연간 배당금 12,000달러에 필요한 Apple(AAPL) 주식의 주식 수는 다음과 같습니다 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
+            "도움말 달콤한 소극적 소득을 위해 배당금 지급 주식에 투자하고 싶다면 좋습니다!",
+            "배당금은 주식을 팔지 않고도 현금을 모을 수 있는 좋은 방법입니다. 그리고 그 현금은 당신을 지원하거나 더 많은 주식을 구입하는 데 사용될 수 있습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $12,000, 2.51%, $0.27 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.71,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$12,000",
+            "2.51%",
+            "$0.27",
+            "$1.08",
+            "$1.08,",
+            "$325",
+            "$3,611,111.",
+            "2.51 %"
+          ],
+          "sourceExcerpt": [
+            "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help If you're looking to invest in dividend-paying stocks for that sweet passive income, good for you!",
+            "Dividends are a great way to collect cash without having to sell any stocks -- and that cash can help support you or can be deployed to buy more shares of stock."
+          ],
+          "analysisUpdatedAt": 1788608900.1040106
+        }
+      },
+      {
         "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d03216108133aa4afcbdb834039cee863839189ba8da999efecd7e54466d934e",
@@ -7227,7 +7304,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586173.0217123
+          "analysisUpdatedAt": 1788608902.2168207
         }
       },
       {
@@ -7276,7 +7353,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586176.4971476
+          "analysisUpdatedAt": 1788608904.2450097
         }
       },
       {
@@ -11253,17 +11330,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788586168.4013493,
-    "_updated_label": "2026-09-05 14:29",
+    "_fetched_at": 1788608894.662311,
+    "_updated_label": "2026-09-05 20:48",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 123,
+      "checked": 124,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
-    "_last_attempt_at": 1788586168.4013493,
+    "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788586168.4013493,
+    "_last_success_at": 1788608894.662311,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -15768,7 +15845,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -20144,7 +20221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -25035,7 +25112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -26279,7 +26356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -30985,7 +31062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -35685,7 +35762,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -40792,7 +40869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -45759,7 +45836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -49227,7 +49304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -51943,7 +52020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -52004,7 +52081,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586183.2901263
+          "analysisUpdatedAt": 1788608909.7920196
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -52068,7 +52145,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788586188.0425892
+          "analysisUpdatedAt": 1788608913.1387563
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -52118,7 +52195,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586190.2133858
+          "analysisUpdatedAt": 1788608915.2264705
         },
         "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
       },
@@ -52190,7 +52267,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586183.2901263
+          "analysisUpdatedAt": 1788608909.7920196
         }
       },
       {
@@ -52253,7 +52330,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788586188.0425892
+          "analysisUpdatedAt": 1788608913.1387563
         }
       },
       {
@@ -52302,7 +52379,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586190.2133858
+          "analysisUpdatedAt": 1788608915.2264705
         }
       },
       {
@@ -53854,17 +53931,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788586168.4013493,
-    "_updated_label": "2026-09-05 14:29",
+    "_fetched_at": 1788608894.662311,
+    "_updated_label": "2026-09-05 20:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
-    "_last_attempt_at": 1788586168.4013493,
+    "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788586168.4013493,
+    "_last_success_at": 1788608894.662311,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -55851,7 +55928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -58986,7 +59063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -62517,7 +62594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -65714,7 +65791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -69309,7 +69386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -71178,7 +71255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -72464,7 +72541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -76540,7 +76617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -77978,7 +78055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -79631,7 +79708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -81120,7 +81197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -85191,7 +85268,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -85206,6 +85283,56 @@ const NEWS_DATA = {
       "revenueEstimate": 4162115363
     },
     "news": [
+      {
+        "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e1e9bf5e516af2021bb913894c2c790c7cab632dbbd4dc2071915afb97f48602",
+        "datetime": 1788587445,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788608920.804138
+        },
+        "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
+      },
       {
         "headline": "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
         "source": "Yahoo",
@@ -85252,7 +85379,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586195.0971465
+          "analysisUpdatedAt": 1788608922.6835022
         },
         "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다."
       },
@@ -85302,7 +85429,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586197.2122853
+          "analysisUpdatedAt": 1788608924.786752
         },
         "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항"
       },
@@ -85314,45 +85441,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "WDC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586199.4642262
-        },
         "headlineKo": "웨스턴디지털(WDC)은 지난 수익 보고서 이후 2.2% 하락: 반등할 수 있을까?"
       },
       {
@@ -85364,16 +85452,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "WDC 주식의 큰 반등: 6개월 동안 70% 급등한 후 매수, 매도 또는 보유하시겠습니까?"
-      },
-      {
-        "headline": "What's Going On With Western Digital Stock Friday?",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=2f9aab9e8cfab514ba540612880af03c997c86f83de616ef72c46feda5a5ee69",
-        "datetime": 1788524716,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "금요일에 Western Digital 주식에 무슨 일이 일어나고 있나요?"
       },
       {
         "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
@@ -85430,6 +85508,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e1e9bf5e516af2021bb913894c2c790c7cab632dbbd4dc2071915afb97f48602",
+        "datetime": 1788587445,
+        "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788608920.804138
+        }
+      },
+      {
         "headline": "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5ed9f9bd3b5c3d024bc63bf4eb49a51fe89a866867e545bdbb8c5603c46d72f8",
@@ -85475,7 +85602,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586195.0971465
+          "analysisUpdatedAt": 1788608922.6835022
         }
       },
       {
@@ -85524,7 +85651,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788586197.2122853
+          "analysisUpdatedAt": 1788608924.786752
         }
       },
       {
@@ -86711,17 +86838,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788586168.4013493,
-    "_updated_label": "2026-09-05 14:30",
+    "_fetched_at": 1788608894.662311,
+    "_updated_label": "2026-09-05 20:48",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 41,
+      "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
-    "_last_attempt_at": 1788586168.4013493,
+    "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
-    "_last_success_at": 1788586168.4013493,
+    "_last_success_at": 1788608894.662311,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -88277,7 +88404,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -89791,7 +89918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -91180,7 +91307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -92923,7 +93050,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -93968,7 +94095,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -95315,7 +95442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -96818,7 +96945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -97901,7 +98028,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -98560,7 +98687,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788589880.480441,
     "_earnings_status": "ok",
@@ -100791,7 +100918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -101304,7 +101431,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -102446,7 +102573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -103448,7 +103575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -104649,7 +104776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -105104,7 +105231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-05 19:45"
+      "updated": "2026-09-05 20:48"
     },
     "_fetched_at": 1788593562.5754642,
     "_updated_label": "2026-09-05 16:35",

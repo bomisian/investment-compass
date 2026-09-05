@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788607042.1279016,
+  "generatedAt": 1788608927.4229314,
   "records": {
     "MSFT": [
       {
@@ -1045,6 +1045,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1788608927.4229314,
+        "dataAsOf": 1788537013,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.22,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.02,
+            "after": -3.5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "월스트리트는 알파벳의 아킬레스건을 잘못 읽고 있다",
+        "newsUrl": "https://finnhub.io/api/news?id=ac887af7eb7a3fd8e798a3753a83e814fe4bb6c28da503d727af97aed919033d",
+        "eventId": "24f6d74f0c8a1317c2e5",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -1.22, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -4.02, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"24f6d74f0c8a1317c2e5\"}"
+      },
       {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788537013,
