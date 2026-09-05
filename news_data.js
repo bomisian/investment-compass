@@ -6857,7 +6857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -11259,7 +11259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
@@ -15768,7 +15768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -20144,7 +20144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -25035,7 +25035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -26279,7 +26279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -30985,7 +30985,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -35685,7 +35685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -40792,7 +40792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -45759,7 +45759,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -49227,7 +49227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -51943,7 +51943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -53860,7 +53860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
@@ -55851,7 +55851,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -58986,7 +58986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -62517,7 +62517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -62578,7 +62578,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582470.659372
+          "analysisUpdatedAt": 1788605086.886213
         },
         "headlineKo": "Salesforce(CRM)는 Agentforce 및 Data 360 ARR을 200% 이상 증가시켰습니다. AI가 마침내 성장의 중요한 요소가 되고 있습니까?"
       },
@@ -62628,7 +62628,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582472.7122564
+          "analysisUpdatedAt": 1788605088.915737
         },
         "headlineKo": "소프트웨어 주식이 돌아왔습니다. 승자 2명, 패자 2명, 그리고 Salesforce."
       },
@@ -62678,7 +62678,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582475.3295617
+          "analysisUpdatedAt": 1788605091.0037353
         },
         "headlineKo": "AI/R Everymind가 Salesforce 2027 올해의 파트너 상으로 선정되었습니다."
       },
@@ -62750,7 +62750,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582470.659372
+          "analysisUpdatedAt": 1788605086.886213
         }
       },
       {
@@ -62799,7 +62799,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582472.7122564
+          "analysisUpdatedAt": 1788605088.915737
         }
       },
       {
@@ -62848,7 +62848,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582475.3295617
+          "analysisUpdatedAt": 1788605091.0037353
         }
       },
       {
@@ -65708,17 +65708,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788582466.2323923,
-    "_updated_label": "2026-09-05 13:27",
+    "_fetched_at": 1788605082.5074475,
+    "_updated_label": "2026-09-05 19:44",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
-    "_last_attempt_at": 1788582466.2323923,
+    "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
-    "_last_success_at": 1788582466.2323923,
+    "_last_success_at": 1788605082.5074475,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -69309,7 +69309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -71178,7 +71178,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -71239,7 +71239,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582480.4024603
+          "analysisUpdatedAt": 1788605096.041279
         },
         "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
       },
@@ -71288,7 +71288,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582482.4697769
+          "analysisUpdatedAt": 1788605098.1011965
         },
         "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
       },
@@ -71338,7 +71338,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582483.537782
+          "analysisUpdatedAt": 1788605099.2124069
         },
         "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
       },
@@ -71410,7 +71410,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582480.4024603
+          "analysisUpdatedAt": 1788605096.041279
         }
       },
       {
@@ -71458,7 +71458,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582482.4697769
+          "analysisUpdatedAt": 1788605098.1011965
         }
       },
       {
@@ -71507,7 +71507,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582483.537782
+          "analysisUpdatedAt": 1788605099.2124069
         }
       },
       {
@@ -72458,17 +72458,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788582466.2323923,
-    "_updated_label": "2026-09-05 13:28",
+    "_fetched_at": 1788605082.5074475,
+    "_updated_label": "2026-09-05 19:44",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
-    "_last_attempt_at": 1788582466.2323923,
+    "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
-    "_last_success_at": 1788582466.2323923,
+    "_last_success_at": 1788605082.5074475,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -76540,7 +76540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -77978,7 +77978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -79631,7 +79631,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -81120,7 +81120,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -85191,7 +85191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -86717,7 +86717,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
@@ -88277,7 +88277,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -89791,7 +89791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -91180,7 +91180,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -92923,7 +92923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -92984,7 +92984,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582487.680733
+          "analysisUpdatedAt": 1788605103.2324905
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -93038,7 +93038,7 @@ const NEWS_DATA = {
             "4.88%",
             "0.75 %",
             "$ 83.43",
-            "$175",
+            "$174",
             "$ 83.23",
             "$ 84.12",
             "$ 69.24"
@@ -93048,7 +93048,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788582490.9133537
+          "analysisUpdatedAt": 1788605107.2014368
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -93098,7 +93098,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582493.6918058
+          "analysisUpdatedAt": 1788605109.5928605
         },
         "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
       },
@@ -93170,7 +93170,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582487.680733
+          "analysisUpdatedAt": 1788605103.2324905
         }
       },
       {
@@ -93223,7 +93223,7 @@ const NEWS_DATA = {
             "4.88%",
             "0.75 %",
             "$ 83.43",
-            "$175",
+            "$174",
             "$ 83.23",
             "$ 84.12",
             "$ 69.24"
@@ -93233,7 +93233,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788582490.9133537
+          "analysisUpdatedAt": 1788605107.2014368
         }
       },
       {
@@ -93282,7 +93282,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788582493.6918058
+          "analysisUpdatedAt": 1788605109.5928605
         }
       },
       {
@@ -93962,17 +93962,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788582466.2323923,
-    "_updated_label": "2026-09-05 13:28",
+    "_fetched_at": 1788605082.5074475,
+    "_updated_label": "2026-09-05 19:45",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
-    "_last_attempt_at": 1788582466.2323923,
+    "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
-    "_last_success_at": 1788582466.2323923,
+    "_last_success_at": 1788605082.5074475,
     "_collection_status": "ok"
   },
   "VST": {
@@ -95315,7 +95315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -96818,7 +96818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -97901,7 +97901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -98560,7 +98560,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788589880.480441,
     "_earnings_status": "ok",
@@ -100791,7 +100791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -101304,7 +101304,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -102446,7 +102446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -103448,7 +103448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788595593.6860275,
     "_earnings_status": "ok",
@@ -104649,7 +104649,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_last_attempt_at": 1788593562.5754642,
     "_earnings_status": "ok",
@@ -105104,7 +105104,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-05 18:43"
+      "updated": "2026-09-05 19:45"
     },
     "_fetched_at": 1788593562.5754642,
     "_updated_label": "2026-09-05 16:35",
