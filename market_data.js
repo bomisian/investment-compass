@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
+      "datetime": 1788632100,
+      "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
+    },
+    {
       "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
       "datetime": 1788625193,
       "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다."
-    },
-    {
-      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788623560,
-      "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788638602.4000046,
-  "_updated_label": "2026-09-06 05:03",
-  "_last_attempt_at": 1788638602.4000046,
-  "_last_success_at": 1788638602.4000046,
+  "_fetched_at": 1788642020.9741595,
+  "_updated_label": "2026-09-06 06:00",
+  "_last_attempt_at": 1788642020.9741595,
+  "_last_success_at": 1788642020.9741595,
   "_collection_status": "ok",
   "_collection_errors": []
 };
