@@ -1,9 +1,44 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788614490.9154823,
+  "generatedAt": 1788616523.1081147,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788616523.1081147,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -0.52
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788567034,
@@ -1045,6 +1080,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1788616523.1081147,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.75
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.5,
+            "after": -3.15
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.0, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.15, \"before\": -3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788608927.4229314,
         "dataAsOf": 1788537013,
@@ -2639,6 +2703,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1788616523.1081147,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.4,
+            "after": 1.75
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.15,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 1.4, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 3.15, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788571246.3606167,
         "dataAsOf": 1788550640,
@@ -9221,6 +9320,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788616523.1081147,
+        "dataAsOf": 1788599709,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.45,
+            "after": -3.5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "NVDX: Nvidia 주식에 대한 레버리지 플레이를 위한 좋은 설정",
+        "newsUrl": "https://finnhub.io/api/news?id=534096569206e7f5bd4d97078686e2330b58b918be5a5dfabfd65942bfdfbb21",
+        "eventId": "32cb35710ae36df4ba11",
+        "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"32cb35710ae36df4ba11\"}"
+      },
+      {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788567034,
         "changes": [
@@ -10576,23 +10692,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
         "eventId": "26717142aa8ae30255d9",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.45, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"26717142aa8ae30255d9\"}"
-      },
-      {
-        "changedAt": 1787367445.8330786,
-        "dataAsOf": 1787324763,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -0.7
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Citadel의 40억 달러 규모의 AI 주식 매도가 MU, SNDK, NBIS에 영향을 미쳤습니까?",
-        "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
-        "eventId": "665b5eae3853597a3de7",
-        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
       }
     ],
     "AMD": [
@@ -13588,6 +13687,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MRVL": [
+      {
+        "changedAt": 1788616523.1081147,
+        "dataAsOf": 1788537738,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": -0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.9,
+            "after": -5
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "무너진 AI 실리콘이 반등하면서 Marvell은 6% 상승하고 Qualcomm은 거의 버지 못합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=5c5f1033f4c42345d20bf9c704f050455e74dfbce12245e557cb95efbbb770c9",
+        "eventId": "c102fb1c411610ba2375",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -5, \"before\": -4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c102fb1c411610ba2375\"}"
+      },
       {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788566336,

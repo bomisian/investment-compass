@@ -2,11 +2,11 @@
 const FUNDAMENTAL_WINDOW_SCORES_DATA = {
   "schemaVersion": 1,
   "scoringVersion": "fundamental-window-v1",
-  "generatedAt": 1788614525.3060997,
+  "generatedAt": 1788616552.536252,
   "records": {
     "MSFT": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -74,7 +74,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GOOGL": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -142,7 +142,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMZN": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -240,7 +240,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "META": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -338,7 +338,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AAPL": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -376,7 +376,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSLA": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -474,7 +474,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ORCL": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -512,7 +512,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CRM": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -625,7 +625,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PLTR": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -723,7 +723,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "NVDA": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -836,7 +836,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMD": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -874,7 +874,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AVGO": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -912,7 +912,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "QCOM": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -950,7 +950,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ARM": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -988,7 +988,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MRVL": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1101,7 +1101,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "INTC": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1139,7 +1139,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSM": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1177,7 +1177,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ASML": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1215,8 +1215,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMAT": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
-      "hasConfirmedEvidence": true,
+      "calculatedAt": 1788616552.536252,
+      "hasConfirmedEvidence": false,
       "windows": {
         "7": {
           "overall": {
@@ -1229,106 +1229,31 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "30": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 0,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 0,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 0,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         },
         "90": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 0,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 0,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 0,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         }
       },
-      "events": [
-        {
-          "ticker": "AMAT",
-          "category": "Growth",
-          "eventType": "official_revenue_growth",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-26",
-          "periodKind": "quarter",
-          "filedAt": "2026-08-20",
-          "effectiveAt": 1787184000.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-          "form": "10-Q",
-          "summary": "2026-07-26 기준(10-Q, 2026-08-20 공시) 매출이 전년 동기 대비 +24.8% 변했어요.",
-          "evidence": {
-            "metric": "revenue",
-            "current": 9115000000,
-            "previous": 7302000000.0,
-            "changePct": 24.82881402355519,
-            "periodKind": "quarter"
-          }
-        },
-        {
-          "ticker": "AMAT",
-          "category": "Margin",
-          "eventType": "official_operating_margin_expansion",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-26",
-          "periodKind": "quarter",
-          "filedAt": "2026-08-20",
-          "effectiveAt": 1787184000.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
-          "form": "10-Q",
-          "summary": "2026-07-26 기준(10-Q, 2026-08-20 공시) 영업이익률이 전년 동기 대비 +3.2%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
-          "evidence": {
-            "metric": "operating_margin",
-            "currentOpIncome": 3075000000,
-            "currentRevenue": 9115000000,
-            "previousOpIncome": 2233000000,
-            "previousRevenue": 7302000000.0,
-            "changePercentagePoints": 3.1549378261548244,
-            "periodKind": "quarter"
-          }
-        }
-      ]
+      "events": []
     },
     "LRCX": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1366,7 +1291,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "KLAC": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1434,7 +1359,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MU": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1472,7 +1397,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "SNDK": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1510,7 +1435,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "WDC": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1548,7 +1473,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ANET": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1616,7 +1541,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "COHR": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1692,7 +1617,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LITE": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1730,7 +1655,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GEV": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1798,7 +1723,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CEG": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1896,7 +1821,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VST": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1934,7 +1859,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ETN": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2002,7 +1927,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PWR": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2070,7 +1995,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "HUBB": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2168,7 +2093,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VRT": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2266,7 +2191,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MOD": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2364,7 +2289,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "STX": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -2402,7 +2327,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "EME": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2470,7 +2395,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "FIX": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2568,7 +2493,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "BE": {
       "asOfDate": "2026-09-05",
-      "calculatedAt": 1788614525.3060997,
+      "calculatedAt": 1788616552.536252,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
