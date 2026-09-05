@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788647978.55076,
+  "generatedAt": 1788649248.3869307,
   "records": {
     "MSFT": [
       {
@@ -23100,6 +23100,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1788649248.3869307,
+        "dataAsOf": 1788574392,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.92,
+            "after": 1.4
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.37
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 3.5,
+            "after": 2.98
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의",
+        "newsUrl": "https://finnhub.io/api/news?id=fdf5335c10e11621038f4cafb4041e1163de35450be064a4856316c862ce12e4",
+        "eventId": "e799cbdf421216e4335e",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.37, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.98, \"before\": 3.5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e799cbdf421216e4335e\"}"
+      },
       {
         "changedAt": 1788601397.279551,
         "dataAsOf": 1788574392,

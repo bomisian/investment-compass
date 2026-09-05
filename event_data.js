@@ -1,8 +1,75 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788647978.4957378,
+  "generatedAt": 1788649248.3317928,
   "events": [
+    {
+      "id": "af585ca4f2f50f7a8389",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
+      "headlineKo": "Salesforce(CRM), 기업 고객 배포 전반에 걸쳐 Agentic AI 공간 확장",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
+        "publishedAt": 1788642449,
+        "collectedAt": 1788649220.1396534
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "23bb64bc332b943998df",
       "schemaVersion": 1,
@@ -733,7 +800,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5106,10 +5173,14 @@ const EVENT_DATA = {
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "CRM",
       "relatedTickers": [
-        "CRM"
+        "AMD",
+        "CRM",
+        "MU",
+        "NVDA",
+        "ORCL"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -5117,7 +5188,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "mixed",
-      "expectedHorizon": "중기·장기",
+      "expectedHorizon": "중기 투자 사이클",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join",
@@ -5126,34 +5197,67 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
         "publishedAt": 1788525840,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "올해 초 \"SaaSpocalypse\"에 대한 Marc Benioff의 250억 달러 베팅은 이제 Salesforce 투자자들에게 결실을 맺고 있으며 참여하기에 너무 늦지 않았습니다."
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "기사에서 언급된 규모: $25 Billion, 1.92%, $50 billion, $25 billion, 38%, 20%, 11%, 14%.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "이 기사는 CRM의 사업과 관련된 'Marc Benioff's $25 Billion Bet Against the \"SaaSpocalypse\" Earlier This Year Is Now Paying Off for Salesforce Investors, and It's Not Too Late to Join' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
       ],
       "impacts": [
         {
-          "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
     },
     {
       "id": "5b82a5b5b975e9730dda",
@@ -7809,7 +7913,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
         "publishedAt": 1788471002,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8625,7 +8729,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b9227a9a994e2901b52f76042bd10a151327a8cf995c860e2928c33dbe3d37d",
         "publishedAt": 1788459000,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9135,7 +9239,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
         "publishedAt": 1788457440,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11850,7 +11954,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
         "publishedAt": 1788440400,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15622,7 +15726,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=035327cba1dda3d6d12570b659dcbb4f2ad1e4b6e9d0dc4bfdf90a0a751ce940",
         "publishedAt": 1788371400,
-        "collectedAt": 1788627619.6594708
+        "collectedAt": 1788649220.1396534
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17933,65 +18037,20 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
-    },
-    {
-      "id": "e8ea1860280b2c814abd",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "VRT",
-      "relatedTickers": [
-        "VRT"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Vertiv Announces Agreement to Acquire UtilityInnovation Group to Accelerate Time to Power for AI Data Centers",
-      "headlineKo": "Vertiv, AI 데이터 센터의 전력 공급 시간을 단축하기 위해 UtilityInnovation Group 인수 계약 발표",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=9b01f058ce0a82d79dc0911b51cd28472afe5f758c27cb9948e24eb56d5b44b2",
-        "publishedAt": 1788348600,
-        "collectedAt": 1788646014.6380727
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Vertiv, AI 데이터 센터의 전력 공급 시간을 단축하기 위해 UtilityInnovation Group 인수 계약 발표"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "VRT",
-          "direction": "positive",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
+    "CRM": [
+      "af585ca4f2f50f7a8389",
+      "05e6ad8bd35770cf2cc8",
+      "4ac4dd5bd64db8ced620",
+      "3c4d9c8e5500f277b4f2",
+      "6790c9bf31da64fc69a7",
+      "cf40304f418ac01b0cf2",
+      "d36b654dd5a021d7ca75",
+      "6e5f3fd14d560d5d94da",
+      "218d3602bd588615b442"
+    ],
     "AMD": [
       "23bb64bc332b943998df",
       "ce2f204dad370a3aa984",
@@ -18002,6 +18061,7 @@ const EVENT_DATA = {
       "721df1f6dca6c980439b",
       "1128e721d972efc35cb6",
       "54b750cc8db9bd930554",
+      "4ac4dd5bd64db8ced620",
       "88a356a1f4609afca6b0",
       "c6fb4293e7f004e8c532",
       "4e0f9b4b4d2658fec1d8",
@@ -18100,6 +18160,7 @@ const EVENT_DATA = {
       "2f268375690c7e29b312",
       "75fa56cac137ddfebc9f",
       "54b750cc8db9bd930554",
+      "4ac4dd5bd64db8ced620",
       "88a356a1f4609afca6b0",
       "c6fb4293e7f004e8c532",
       "4e0f9b4b4d2658fec1d8",
@@ -18241,6 +18302,7 @@ const EVENT_DATA = {
       "63884840a6fb9c0c01f3",
       "1128e721d972efc35cb6",
       "54b750cc8db9bd930554",
+      "4ac4dd5bd64db8ced620",
       "88a356a1f4609afca6b0",
       "c6fb4293e7f004e8c532",
       "4e0f9b4b4d2658fec1d8",
@@ -18286,6 +18348,7 @@ const EVENT_DATA = {
       "1128e721d972efc35cb6",
       "4ba0fd408d8c0cffe5fd",
       "54b750cc8db9bd930554",
+      "4ac4dd5bd64db8ced620",
       "88a356a1f4609afca6b0",
       "c6fb4293e7f004e8c532",
       "4e0f9b4b4d2658fec1d8",
@@ -18406,16 +18469,6 @@ const EVENT_DATA = {
       "873903a69ebc2a43feb7",
       "d79a8daa76dde3162513"
     ],
-    "CRM": [
-      "05e6ad8bd35770cf2cc8",
-      "4ac4dd5bd64db8ced620",
-      "3c4d9c8e5500f277b4f2",
-      "6790c9bf31da64fc69a7",
-      "cf40304f418ac01b0cf2",
-      "d36b654dd5a021d7ca75",
-      "6e5f3fd14d560d5d94da",
-      "218d3602bd588615b442"
-    ],
     "MSFT": [
       "7155a2db9d9ccbb51a8c",
       "20058ef05e4a5636d589",
@@ -18446,8 +18499,7 @@ const EVENT_DATA = {
       "4afeff423b45c0835f54",
       "40d7f8b7dbe63c703c0f",
       "34335ee341cff1df990f",
-      "ef0940f7bec43eec2f1b",
-      "e8ea1860280b2c814abd"
+      "ef0940f7bec43eec2f1b"
     ],
     "MRVL": [
       "827bd1bf3f1f9b6cad08",
