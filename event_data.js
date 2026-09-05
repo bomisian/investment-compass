@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788633204.687622,
+  "generatedAt": 1788634829.6735935,
   "events": [
     {
       "id": "4abed4fa3c77710a8992",
@@ -16373,7 +16373,7 @@ const EVENT_DATA = {
         "name": "Benzinga",
         "url": "https://finnhub.io/api/news?id=2eee8363b629540630bb679f7f4fa13d7b34090802ff5f385fadb0ef15fd6357",
         "publishedAt": 1788356339,
-        "collectedAt": 1788612626.223686
+        "collectedAt": 1788634819.9818685
       },
       "confirmedFacts": [],
       "reportedClaims": [
