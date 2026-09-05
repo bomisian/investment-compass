@@ -3932,16 +3932,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788622088.4614732,
-    "_updated_label": "2026-09-06 00:28"
+    "_fetched_at": 1788624002.3882327,
+    "_updated_label": "2026-09-06 01:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788622088.4614732,
-    "_updated_label": "2026-09-06 00:28"
+    "_fetched_at": 1788624002.3882327,
+    "_updated_label": "2026-09-06 01:00"
   },
   "ORCL": {
     "annual": [
@@ -6834,7 +6834,6 @@ const FINANCIALS_DATA = {
         "unusualItems": -1839000000.0,
         "unusualItemsExGoodwill": -1839000000.0,
         "unusualTaxEffect": -386190000.0,
-        "specialIncomeCharges": -1839000000.0,
         "otherNonOperating": -10000000.0,
         "impairment": 1830000000.0,
         "restructuring": 0.0,
@@ -6933,7 +6932,9 @@ const FINANCIALS_DATA = {
         "netIncome": 3615000000.0,
         "endDate": "2026-06-30",
         "opIncome": 4111000000,
-        "eps": 43.97
+        "eps": 43.97,
+        "specialIncomeCharges": 0.0,
+        "impairment": 0.0
       }
     ],
     "_currency": "USD",
@@ -6971,8 +6972,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788622088.4614732,
-    "_updated_label": "2026-09-06 00:28",
+    "_fetched_at": 1788624002.3882327,
+    "_updated_label": "2026-09-06 01:00",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -6999,7 +7000,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788622102.4063091,
+    "_yahoo_verified_at": 1788624017.0242505,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -7190,7 +7191,6 @@ const FINANCIALS_DATA = {
         "unusualItemsExGoodwill": 201000000.0,
         "unusualTaxEffect": 42210000.0,
         "specialIncomeCharges": 201000000.0,
-        "otherNonOperating": -605000000.0,
         "restructuring": 0.0,
         "stockComp": 59000000.0
       },
@@ -7285,7 +7285,8 @@ const FINANCIALS_DATA = {
         "netIncome": 3205000000.0,
         "endDate": "2026-06-30",
         "opIncome": 1190000000,
-        "eps": 8.213368
+        "eps": 8.213368,
+        "otherNonOperating": -4810000000.0
       }
     ],
     "_currency": "USD",
@@ -7391,8 +7392,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788622088.4614732,
-    "_updated_label": "2026-09-06 00:28",
+    "_fetched_at": 1788624002.3882327,
+    "_updated_label": "2026-09-06 01:00",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7419,7 +7420,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788622102.4063091,
+    "_yahoo_verified_at": 1788624017.0242505,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -10840,8 +10841,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788622088.4614732,
-    "_updated_label": "2026-09-06 00:28",
+    "_fetched_at": 1788624002.3882327,
+    "_updated_label": "2026-09-06 01:00",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10868,7 +10869,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788622102.4063091,
+    "_yahoo_verified_at": 1788624017.0242505,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {

@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
+      "datetime": 1788619321,
+      "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
+    },
+    {
       "headline": "Icons Dolly Parton and Gloria Steinem never officially retired—why that's a choice for some and requirement for others",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/05/dolly-parton-gloria-steinem-never-retired.html",
       "datetime": 1788613201,
       "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
-    },
-    {
-      "headline": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788598309,
-      "headlineKo": "이란 카르그 섬 인근에서 미국의 공격으로 이란 유조선이 피격됐다고 타스님이 밝혔습니다."
     },
     {
       "headline": "Israel says it strikes southern Lebanon after Hezbollah drone launch - Reuters",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788620257.9668975,
-  "_updated_label": "2026-09-05 23:58",
-  "_last_attempt_at": 1788620257.9668975,
-  "_last_success_at": 1788620257.9668975,
+  "_fetched_at": 1788624061.767022,
+  "_updated_label": "2026-09-06 01:01",
+  "_last_attempt_at": 1788624061.767022,
+  "_last_success_at": 1788624061.767022,
   "_collection_status": "ok",
   "_collection_errors": []
 };

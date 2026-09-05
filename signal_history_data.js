@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788622106.8036237,
+  "generatedAt": 1788624061.6913495,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.15,
+            "after": -3.32
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": -0.87
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.32, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.87, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788616523.1081147,
         "dataAsOf": 1788601680,
@@ -7234,6 +7263,41 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ORCL": [
       {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788542377,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.85,
+            "after": -3.15
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.62,
+            "after": -2.27
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.27,
+            "after": -1.57
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "AI 매출 기회와 FCF·부채·신용 부담이 동시에 존재",
+        "newsHeadline": "AI 인프라 구축을 위한 자금 조달을 위한 오라클의 연속 해고로 인해 실행 위험이 발생한다고 RBC가 밝혔습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=d5dc831e4308213cc183335a68d41b9fc8c651b723cc01d46af7f36108576eed",
+        "eventId": "6d07dc02661b93d6a1b5",
+        "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -3.85, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.27, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.57, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"6d07dc02661b93d6a1b5\"}"
+      },
+      {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788567034,
         "changes": [
@@ -9366,6 +9430,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788609900,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.5,
+            "after": -4.2
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Nvidia와 SK Hynix의 최근 뉴스는 시장이 Micron Technology의 미래에 대해 무엇을 기대하는지 정확하게 보여줍니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=26483af76fc42582dd341a593e346c4ea82af57dda0fb958f5406f12a3a41cf7",
+        "eventId": "c4e5da7e7f840875b571",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.2, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"c4e5da7e7f840875b571\"}"
+      },
+      {
         "changedAt": 1788616523.1081147,
         "dataAsOf": 1788599709,
         "changes": [
@@ -10715,32 +10802,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=11155d3408aa838914d6a94061caed3a78f8fe059a61db2e33a7df90d1b4da9b",
         "eventId": "41f2013dd08ded2131e6",
         "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -2.45, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"41f2013dd08ded2131e6\"}"
-      },
+      }
+    ],
+    "AMD": [
       {
-        "changedAt": 1787411883.7019346,
-        "dataAsOf": 1787398500,
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788603901,
         "changes": [
           {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.92,
-            "after": 1.4
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
           },
           {
             "key": "businessRisk",
             "label": "사업 리스크",
-            "before": -0.7,
-            "after": -2.45
+            "before": -0.35,
+            "after": 0.0
           }
         ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Alphabet과 Amazon이 인공 지능(AI) 인프라에 4,200억 달러를 투자하고 있습니다. 하드웨어 주식 4곳이 흑자로 전환되었습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=45010cc5dfaaf75e827cb8825140c700529ba7fb5c0db0795bcec5c068e82173",
-        "eventId": "26717142aa8ae30255d9",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.45, \"before\": -0.7, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"26717142aa8ae30255d9\"}"
-      }
-    ],
-    "AMD": [
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
+        "eventId": "c6eb28448873372e603f",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 0.0, \"before\": -0.35, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"c6eb28448873372e603f\"}"
+      },
       {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788567034,
@@ -11510,6 +11597,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788586217,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.92,
+            "after": 2.27
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.8,
+            "after": -2.45
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Broadcom: 3,500억 달러 규모의 AI 신호에는 290억 달러의 각주가 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4a957a36461a14b44c31074dca27a2577e27ff6326f67b70ee770161e499b813",
+        "eventId": "9952f26e2bbd48af0e35",
+        "fingerprint": "{\"changes\": [{\"after\": 2.27, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -2.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"9952f26e2bbd48af0e35\"}"
+      },
       {
         "changedAt": 1788526443.962641,
         "dataAsOf": 1788444356,
@@ -17222,6 +17332,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMAT": [
       {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": null}"
+      },
+      {
         "changedAt": 1788472880.4840577,
         "dataAsOf": 1788319010,
         "changes": [
@@ -18074,6 +18207,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 1788609900,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.85,
+            "after": -5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia와 SK Hynix의 최근 뉴스는 시장이 Micron Technology의 미래에 대해 무엇을 기대하는지 정확하게 보여줍니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=26483af76fc42582dd341a593e346c4ea82af57dda0fb958f5406f12a3a41cf7",
+        "eventId": "c4e5da7e7f840875b571",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -5, \"before\": -3.85, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"c4e5da7e7f840875b571\"}"
+      },
       {
         "changedAt": 1788578793.9310231,
         "dataAsOf": 1788567034,
@@ -23351,6 +23507,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "FIX": [
+      {
+        "changedAt": 1788624061.6913495,
+        "dataAsOf": 0,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.52,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "중요 뉴스 분석 기준점 생성",
+        "newsHeadline": null,
+        "newsUrl": null,
+        "eventId": null,
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 0.0, \"before\": -0.52, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": null}"
+      },
       {
         "changedAt": 1788326564.4593241,
         "dataAsOf": 1788319200,
