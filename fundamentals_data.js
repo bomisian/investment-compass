@@ -146,7 +146,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 3689159.5,
     "52WeekHigh": 553.72,
     "52WeekLow": 349.2,
-    "beta": 1.0632268,
+    "beta": 1.0614009,
     "dividendYieldIndicatedAnnual": 0.79485,
     "dividendPerShareTTM": 3.559,
     "dividendGrowthRate5Y": 10.2,
@@ -159,8 +159,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 26.5,
     "name": "Microsoft Corp",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "AMZN": {
     "forwardPE": 24.69711,
@@ -263,7 +263,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 1685467.9,
     "52WeekHigh": 495,
     "52WeekLow": 289.96,
-    "beta": 1.4839604,
+    "beta": 1.4819163,
     "dividendYieldIndicatedAnnual": 1.87972,
     "dividendPerShareTTM": 2.5482,
     "dividendGrowthRate5Y": 11.45,
@@ -276,8 +276,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 25.34,
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "META": {
     "forwardPE": 15.88975,
@@ -320,11 +320,11 @@ const FUNDAMENTALS_DATA = {
   },
   "TSLA": {
     "forwardPE": 145.90287,
-    "peTTM": 352.782,
-    "psTTM": 12.9579,
-    "pb": 15.4584,
-    "evEbitdaTTM": 120.6108,
-    "pfcfShareTTM": 191.8126,
+    "peTTM": 390.56,
+    "psTTM": 14.3455,
+    "pb": 17.1138,
+    "evEbitdaTTM": 133.8639,
+    "pfcfShareTTM": 212.3531,
     "forwardPEG": 10.90999,
     "operatingMarginTTM": 4.22,
     "revenueGrowthTTMYoy": 11.75,
@@ -340,12 +340,12 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.344,
     "longTermDebt/equityQuarterly": 0.0912,
     "totalDebt/totalEquityQuarterly": 0.1076,
-    "marketCapitalization": 1342688.2,
+    "marketCapitalization": 1486471.5,
     "52WeekHigh": 498.83,
     "52WeekLow": 297.38,
-    "beta": 1.7532953,
+    "beta": 1.7507683,
     "avgPe3Y": 209.56803333333335,
-    "peDeviation3Y": 68.33769654118684,
+    "peDeviation3Y": 86.3643007895129,
     "perBandYears": 6,
     "perBandLow": 0.28166779786479,
     "perBandHigh": 2.108491259823105,
@@ -353,8 +353,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 4.14,
     "name": "Tesla Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "MU": {
     "forwardPE": 5.86615,
@@ -529,8 +529,8 @@ const FUNDAMENTALS_DATA = {
     "perBandSource": "universal",
     "name": null,
     "theme": "지수ETF",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "ORCL": {
     "forwardPE": 15.06497,
@@ -557,7 +557,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 419828.62,
     "52WeekHigh": 345.72,
     "52WeekLow": 114.5,
-    "beta": 1.7762145,
+    "beta": 1.7740684,
     "dividendYieldIndicatedAnnual": 1.37634,
     "dividendPerShareTTM": 2.0366,
     "dividendGrowthRate5Y": 14.35,
@@ -570,8 +570,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 11.200000000000001,
     "name": "Oracle Corp",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "CRM": {
     "forwardPE": 12.19072,
@@ -689,11 +689,11 @@ const FUNDAMENTALS_DATA = {
   },
   "ARM": {
     "forwardPE": 98.30982,
-    "peTTM": 278.1199,
-    "psTTM": 56.3144,
-    "pb": 33.6451,
-    "evEbitdaTTM": 251.8143,
-    "pfcfShareTTM": 197.2535,
+    "peTTM": 240.2591,
+    "psTTM": 48.6483,
+    "pb": 29.0649,
+    "evEbitdaTTM": 217.1722,
+    "pfcfShareTTM": 170.4011,
     "forwardPEG": 3.50731,
     "operatingMarginTTM": 17.01,
     "revenueGrowthTTMYoy": 25.12,
@@ -708,19 +708,19 @@ const FUNDAMENTALS_DATA = {
     "currentRatioQuarterly": 5.2519,
     "quickRatioQuarterly": 4.9553,
     "totalDebt/totalEquityQuarterly": 0.0024,
-    "marketCapitalization": 290357.16,
+    "marketCapitalization": 250830.48,
     "52WeekHigh": 452.7,
     "52WeekLow": 100.02,
-    "beta": 3.9123247,
+    "beta": 3.9082167,
     "avgPe3Y": 248.85296666666667,
-    "peDeviation3Y": 11.760733145100795,
+    "peDeviation3Y": -3.4533912863405756,
     "perBandYears": 3,
     "perBandSource": "universal",
     "roicTTM": 12.959999999999999,
     "name": "Arm Holdings PLC",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "MRVL": {
     "forwardPE": 35.87093,
@@ -796,8 +796,8 @@ const FUNDAMENTALS_DATA = {
     "name": "ASML Holding NV",
     "theme": "반도체 장비",
     "marketCapCurrencyNote": "EUR",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "LRCX": {
     "forwardPE": 32.23672,
@@ -823,8 +823,8 @@ const FUNDAMENTALS_DATA = {
     "totalDebt/totalEquityQuarterly": 0.2995,
     "marketCapitalization": 360780.9,
     "52WeekHigh": 438.5,
-    "52WeekLow": 96.44,
-    "beta": 1.9524047,
+    "52WeekLow": 97.16,
+    "beta": 1.9473149,
     "dividendYieldIndicatedAnnual": 1.11498,
     "dividendPerShareTTM": 1.0084,
     "dividendGrowthRate5Y": 14.82,
@@ -837,8 +837,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 48.57,
     "name": "Lam Research Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "KLAC": {
     "forwardPE": 32.38702,
@@ -883,11 +883,11 @@ const FUNDAMENTALS_DATA = {
   },
   "SNDK": {
     "forwardPE": 6.50255,
-    "peTTM": 19.7934,
-    "psTTM": 11.1763,
-    "pb": 14.3809,
-    "evEbitdaTTM": 17.6691,
-    "pfcfShareTTM": 19.6883,
+    "peTTM": 19.9143,
+    "psTTM": 11.2446,
+    "pb": 14.4687,
+    "evEbitdaTTM": 17.7794,
+    "pfcfShareTTM": 19.8086,
     "forwardPEG": 0.02039,
     "operatingMarginTTM": 61.19,
     "revenueGrowthTTMYoy": 175.3,
@@ -900,17 +900,17 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 1.8065,
     "longTermDebt/equityQuarterly": 0,
     "totalDebt/totalEquityQuarterly": 0,
-    "marketCapitalization": 226297.47,
+    "marketCapitalization": 227680.1,
     "52WeekHigh": 2354.39,
-    "52WeekLow": 50.65,
+    "52WeekLow": 55.55,
     "beta": 3.883238,
     "perBandYears": 1,
     "perBandSource": "universal",
     "roicTTM": 89.56,
     "name": "Sandisk Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "WDC": {
     "forwardPE": 28.73921,
@@ -935,8 +935,8 @@ const FUNDAMENTALS_DATA = {
     "totalDebt/totalEquityQuarterly": 0.1187,
     "marketCapitalization": 154727.8,
     "52WeekHigh": 799.87,
-    "52WeekLow": 83.34,
-    "beta": 2.2715094,
+    "52WeekLow": 85.92,
+    "beta": 2.2693202,
     "dividendYieldIndicatedAnnual": 0.1205012853470437,
     "dividendPerShareTTM": 0.532,
     "dividendGrowthRate5Y": -23.08,
@@ -949,11 +949,11 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 85.72999999999999,
     "name": "Western Digital Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "ANET": {
-    "forwardPE": 46.62011473847294,
+    "forwardPE": 47.18995943387634,
     "peTTM": 58.0314,
     "psTTM": 22.2672,
     "pb": 15.8615,
@@ -976,7 +976,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 234713.9,
     "52WeekHigh": 214.89,
     "52WeekLow": 114.52,
-    "beta": 1.5917438,
+    "beta": 1.5852159,
     "avgPe3Y": 43.63783333333333,
     "peDeviation3Y": 32.98414602008196,
     "perBandYears": 12,
@@ -986,8 +986,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 30.78,
     "name": "Arista Networks Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:16"
   },
   "COHR": {
     "forwardPE": 28.00221891188171,
@@ -1047,8 +1047,8 @@ const FUNDAMENTALS_DATA = {
     "totalDebt/totalEquityQuarterly": 0.3526,
     "marketCapitalization": 76213.6,
     "52WeekHigh": 1085.68,
-    "52WeekLow": 130.97,
-    "beta": 1.6286501,
+    "52WeekLow": 133.91,
+    "beta": 1.6218144,
     "avgPe3Y": 99.72503333333334,
     "perBandYears": 6,
     "perBandLow": 0.4540146192605209,
@@ -1057,8 +1057,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -134.05,
     "name": "Lumentum Holdings Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788534002.37014,
-    "_updated_label": "2026-09-05 00:00"
+    "_fetched_at": 1788606986.4295557,
+    "_updated_label": "2026-09-05 20:17"
   },
   "GEV": {
     "forwardPE": 45.54201,
