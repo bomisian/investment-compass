@@ -6816,7 +6816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -6877,7 +6877,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562825.0907955
+          "analysisUpdatedAt": 1788586173.0217123
         },
         "headlineKo": "다우존스 선물: Nvidia, Micron, Sandisk Flash 구매 신호; 애플, 인플레이션 보고서 앞두고"
       },
@@ -6927,7 +6927,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562827.0911798
+          "analysisUpdatedAt": 1788586176.4971476
         },
         "headlineKo": "오늘날 Apple(AAPL)이 더 넓은 시장보다 더 많이 하락한 이유"
       },
@@ -6977,7 +6977,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562829.20313
+          "analysisUpdatedAt": 1788586178.430784
         },
         "headlineKo": "애플의 존 터너스는 '팀 쿡 2'가 아닌 그 자신만의 CEO가 되어야 한다"
       },
@@ -7186,7 +7186,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562825.0907955
+          "analysisUpdatedAt": 1788586173.0217123
         }
       },
       {
@@ -7235,7 +7235,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562827.0911798
+          "analysisUpdatedAt": 1788586176.4971476
         }
       },
       {
@@ -7284,7 +7284,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562829.20313
+          "analysisUpdatedAt": 1788586178.430784
         }
       },
       {
@@ -11212,17 +11212,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788562820.7108018,
-    "_updated_label": "2026-09-05 08:00",
+    "_fetched_at": 1788586168.4013493,
+    "_updated_label": "2026-09-05 14:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
-    "_last_attempt_at": 1788562820.7108018,
+    "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
-    "_last_success_at": 1788562820.7108018,
+    "_last_success_at": 1788586168.4013493,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -15727,7 +15727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -20000,7 +20000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -24843,7 +24843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -26087,7 +26087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -30693,7 +30693,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -35393,7 +35393,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -40425,7 +40425,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -45357,7 +45357,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -48825,7 +48825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -51541,7 +51541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -51602,7 +51602,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562836.9966009
+          "analysisUpdatedAt": 1788586183.2901263
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -51624,11 +51624,11 @@ const NEWS_DATA = {
           "facts": [
             "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
             "| Trefis Applied Materials 주가가 한 자릿수 후행 수익 성장에서 거의 3배나 증가한 이유는 무엇입니까?",
-            "2026년 9월 3일 · Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% AMAT 분석 → Applied Materials(AMAT) 주식은 S&P 500의 약 5분의 1에 비해 지난 1년 동안 약 180%의 수익률을 기록했습니다."
+            "2026년 9월 3일 · Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% AMAT 분석 → Applied Materials(AMAT) 주식은 S&P 500의 약 5분의 1에 비해 지난 1년 동안 약 180%의 수익률을 기록했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 70.2%, 13.7%, 17.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 77.6%, 13.3%, 17.2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -51652,9 +51652,9 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "70.2%",
-            "13.7%",
-            "17.0%",
+            "77.6%",
+            "13.3%",
+            "17.2%",
             "180%",
             "7.8%",
             "20%",
@@ -51664,9 +51664,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
-            "September 3rd, 2026 · by Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
+            "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788562840.322635
+          "analysisUpdatedAt": 1788586188.0425892
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -51716,7 +51716,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562842.1626382
+          "analysisUpdatedAt": 1788586190.2133858
         },
         "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
       },
@@ -51788,7 +51788,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562836.9966009
+          "analysisUpdatedAt": 1788586183.2901263
         }
       },
       {
@@ -51809,11 +51809,11 @@ const NEWS_DATA = {
           "facts": [
             "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?",
             "| Trefis Applied Materials 주가가 한 자릿수 후행 수익 성장에서 거의 3배나 증가한 이유는 무엇입니까?",
-            "2026년 9월 3일 · Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% AMAT 분석 → Applied Materials(AMAT) 주식은 S&P 500의 약 5분의 1에 비해 지난 1년 동안 약 180%의 수익률을 기록했습니다."
+            "2026년 9월 3일 · Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% AMAT 분석 → Applied Materials(AMAT) 주식은 S&P 500의 약 5분의 1에 비해 지난 1년 동안 약 180%의 수익률을 기록했습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 70.2%, 13.7%, 17.0% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 77.6%, 13.3%, 17.2% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -51837,9 +51837,9 @@ const NEWS_DATA = {
           "relevance": 0.67,
           "quality": "medium",
           "verifiedNumbers": [
-            "70.2%",
-            "13.7%",
-            "17.0%",
+            "77.6%",
+            "13.3%",
+            "17.2%",
             "180%",
             "7.8%",
             "20%",
@@ -51849,9 +51849,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
-            "September 3rd, 2026 · by Trefis Team AMAT YTD +70.2% SPY YTD +13.7% QQQ YTD +17.0% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
+            "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788562840.322635
+          "analysisUpdatedAt": 1788586188.0425892
         }
       },
       {
@@ -51900,7 +51900,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562842.1626382
+          "analysisUpdatedAt": 1788586190.2133858
         }
       },
       {
@@ -53452,17 +53452,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788562820.7108018,
-    "_updated_label": "2026-09-05 08:00",
+    "_fetched_at": 1788586168.4013493,
+    "_updated_label": "2026-09-05 14:29",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
-    "_last_attempt_at": 1788562820.7108018,
+    "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
-    "_last_success_at": 1788562820.7108018,
+    "_last_success_at": 1788586168.4013493,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -55449,7 +55449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788573100.8544273,
     "_earnings_status": "ok",
@@ -58584,7 +58584,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -62115,7 +62115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -65312,7 +65312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788582466.2323923,
     "_earnings_status": "ok",
@@ -68858,7 +68858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788573100.8544273,
     "_earnings_status": "ok",
@@ -70727,7 +70727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -72013,7 +72013,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788582466.2323923,
     "_earnings_status": "ok",
@@ -76054,7 +76054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788573100.8544273,
     "_earnings_status": "ok",
@@ -77492,7 +77492,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -79145,7 +79145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -80634,7 +80634,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -84656,7 +84656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -84671,6 +84671,106 @@ const NEWS_DATA = {
       "revenueEstimate": 4162115363
     },
     "news": [
+      {
+        "headline": "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5ed9f9bd3b5c3d024bc63bf4eb49a51fe89a866867e545bdbb8c5603c46d72f8",
+        "datetime": 1788577815,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788586195.0971465
+        },
+        "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다."
+      },
+      {
+        "headline": "Micron and Western Digital Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3bd64836fe28da32bcb4241fa26b2ea7d21ff399d00a47f78da29aadf6d449b6",
+        "datetime": 1788574930,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Micron and Western Digital Shares Skyrocket, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Micron and Western Digital Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788586197.2122853
+        },
+        "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항"
+      },
       {
         "headline": "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
         "source": "Yahoo",
@@ -84716,7 +84816,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562847.2071474
+          "analysisUpdatedAt": 1788586199.4642262
         },
         "headlineKo": "웨스턴디지털(WDC)은 지난 수익 보고서 이후 2.2% 하락: 반등할 수 있을까?"
       },
@@ -84728,46 +84828,6 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562849.2249806
-        },
         "headlineKo": "WDC 주식의 큰 반등: 6개월 동안 70% 급등한 후 매수, 매도 또는 보유하시겠습니까?"
       },
       {
@@ -84778,67 +84838,7 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "What's Going On With Western Digital Stock Friday?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'What's Going On With Western Digital Stock Friday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562850.2935174
-        },
         "headlineKo": "금요일에 Western Digital 주식에 무슨 일이 일어나고 있나요?"
-      },
-      {
-        "headline": "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d879218991c0ad5b32baecada77de7a82a53d238ea662c5b6956f3620abe3ab1",
-        "datetime": 1788059758,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Western Digital(WDC)은 새로운 반도체 관세에 얼마나 노출되어 있나요?"
-      },
-      {
-        "headline": "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=037bcc57b9c3c06fa5a80f21dda96cb3a121a6899458d62070c98e73445d42ed",
-        "datetime": 1787947276,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Western Digital은 한 달 만에 13% 하락했습니다. 매도할 시간인가?"
       },
       {
         "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
@@ -84895,6 +84895,104 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5ed9f9bd3b5c3d024bc63bf4eb49a51fe89a866867e545bdbb8c5603c46d72f8",
+        "datetime": 1788577815,
+        "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다.",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788586195.0971465
+        }
+      },
+      {
+        "headline": "Micron and Western Digital Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=3bd64836fe28da32bcb4241fa26b2ea7d21ff399d00a47f78da29aadf6d449b6",
+        "datetime": 1788574930,
+        "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Micron and Western Digital Shares Skyrocket, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Micron and Western Digital Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788586197.2122853
+        }
+      },
+      {
         "headline": "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=983bf5c9084a761d74427f3cb88fc950d11d7ed68da7f6adc8e30fedd3d93e46",
@@ -84939,7 +85037,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788562847.2071474
+          "analysisUpdatedAt": 1788586199.4642262
         }
       },
       {
@@ -86078,17 +86176,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788562820.7108018,
-    "_updated_label": "2026-09-05 08:00",
+    "_fetched_at": 1788586168.4013493,
+    "_updated_label": "2026-09-05 14:30",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 39,
+      "checked": 41,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
-    "_last_attempt_at": 1788562820.7108018,
+    "_last_attempt_at": 1788586168.4013493,
     "_earnings_status": "ok",
-    "_last_success_at": 1788562820.7108018,
+    "_last_success_at": 1788586168.4013493,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -87644,7 +87742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -89158,7 +89256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -90547,7 +90645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -92290,7 +92388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -93335,7 +93433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788582466.2323923,
     "_earnings_status": "ok",
@@ -94633,7 +94731,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -96136,7 +96234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -97219,7 +97317,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -97878,7 +97976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788567404.628763,
     "_earnings_status": "ok",
@@ -100044,7 +100142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -100557,7 +100655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788578654.0871603,
     "_earnings_status": "ok",
@@ -101699,7 +101797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788573100.8544273,
     "_earnings_status": "ok",
@@ -102701,7 +102799,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788573100.8544273,
     "_earnings_status": "ok",
@@ -103902,7 +104000,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_last_attempt_at": 1788571061.59878,
     "_earnings_status": "ok",
@@ -104062,7 +104160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 2,
       "removed": 0,
-      "updated": "2026-09-05 13:28"
+      "updated": "2026-09-05 14:30"
     },
     "_fetched_at": 1788571061.59878,
     "_updated_label": "2026-09-05 10:20",
