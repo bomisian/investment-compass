@@ -222,8 +222,15 @@ const MARKET_DATA = {
       "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788619321,
+      "datetime": 1788623560,
       "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
+      "datetime": 1788617770,
+      "headlineKo": "미군, 이란 원유운반선 3척을 공격했다고 중부사령부가 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "Icons Dolly Parton and Gloria Steinem never officially retired—why that's a choice for some and requirement for others",
@@ -231,6 +238,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/05/dolly-parton-gloria-steinem-never-retired.html",
       "datetime": 1788613201,
       "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
+    },
+    {
+      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
+      "datetime": 1788558731,
+      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 공격이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - 로이터 통신"
     },
     {
       "headline": "Israel says it strikes southern Lebanon after Hezbollah drone launch - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
       "datetime": 1788546177,
       "headlineKo": "미국, 최근 이란에 압력을 가하고 있는 터키 은행과 자회사 2곳을 제재 - 로이터"
-    },
-    {
-      "headline": "Israel says it has cleared Hezbollah fighters from tunnels under key Lebanon ridge - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUDdsZzhvakd2emFpVk5wYkczLURIaUJBZUhKNDlsRjdRcGoxMWdqbWpsdXFNTWZDVk5FUS1nMXNxc0RwMktpbGNTb1RXSHRrYS1oU3BVZGNVMG13dThUQ0E0Ym9KVzVHc1VXRzZTc1RmeHhqR1c2WDBVTXptQXJfQjF2NnZuMjRQZ1JXRzU1dUl6WVQwQlpkYWpsSFZsdjY2SVFPWVJMRC1qVjNuUU0yUjVpRWFXV1NqZllXY19ianRINkpYT0VGN0U3dw?oc=5",
-      "datetime": 1788545570,
-      "headlineKo": "이스라엘은 레바논 주요 능선 아래 터널에서 헤즈볼라 전사들을 제거했다고 밝혔습니다."
-    },
-    {
-      "headline": "Cybercabs are a game changer, says Mike Khouw. Here's how he's trading Tesla",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html",
-      "datetime": 1788540988,
-      "headlineKo": "Cybercabs는 게임 체인저라고 Mike Khouw는 말합니다. 그가 Tesla를 거래하는 방법은 다음과 같습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788624061.767022,
-  "_updated_label": "2026-09-06 01:01",
-  "_last_attempt_at": 1788624061.767022,
-  "_last_success_at": 1788624061.767022,
+  "_fetched_at": 1788627647.9828022,
+  "_updated_label": "2026-09-06 02:01",
+  "_last_attempt_at": 1788627647.9828022,
+  "_last_success_at": 1788627647.9828022,
   "_collection_status": "ok",
   "_collection_errors": []
 };
