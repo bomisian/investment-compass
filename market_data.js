@@ -191,18 +191,18 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 7.560465212941092,
-        "ret3m": 7.134252654425288,
-        "ret6m": 15.63351734300178,
-        "ret1y": 12.060734082933289,
+        "ret1m": 8.759143693628468,
+        "ret3m": 4.5445198983847135,
+        "ret6m": 16.52642359461305,
+        "ret1y": 14.451976238791332,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 1.5583307515264933,
-        "ret3m": -0.0044025949266779385,
-        "ret6m": 89.74734409018066,
-        "ret1y": 238.99490150537304,
+        "ret1m": -3.7112790143504992,
+        "ret3m": -14.246492266083699,
+        "ret6m": 75.28417128255376,
+        "ret1y": 234.92339611817212,
         "winRate": 71.5,
         "count": 16
       }
@@ -211,13 +211,20 @@ const MARKET_DATA = {
       "빅테크·SW",
       "반도체"
     ],
-    "corr60": 0.06509823958334805,
+    "corr60": 0.10059471903703102,
     "corrPctRank": 0.0,
-    "corrMin5y": 0.06509823958334805,
-    "corrMedian5y": 0.7046101936389526,
+    "corrMin5y": 0.10059471903703102,
+    "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Oil ends week higher on renewed US-Iran strikes, diesel hits record - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
+      "datetime": 1788553821,
+      "headlineKo": "유가는 미국-이란의 파업 재개로 한주 상승세 마감, 디젤은 기록 경신 - 로이터 통신"
+    },
     {
       "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
       "source": "CNBC",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDktVk9zLXloNkRZVGMzYVRQWUVwOFZwYmdWVEVVeXAwcWNBWnNHYTBXdU44UUlOdkVKV0xwWEZfSUFDWkNHenVHemlDM1dWWWI3c3FiYmhhOE5HT1JhbHpRNUFOSVc3MFRjVTJwQTRrNjlteWE2MG50a2V0WnRVdnkwYjVxUFpFbWtZem44Y0M2bjVpTGRIUlNvcjY3V21jUTBGTVNoR2M1a1lRNXhPMVRMSk9VVVJE?oc=5",
       "datetime": 1788533815,
       "headlineKo": "미국인 중 4분의 1만이 이란 전쟁이 가치 있다고 생각하는 것으로 나타났다. 로이터/입소스 여론조사 - Reuters"
-    },
-    {
-      "headline": "Labor Day marks the start of 'fallcations' as wealthy travelers avoid summer crowds",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/fall-travel-wealthy-europe.html",
-      "datetime": 1788531022,
-      "headlineKo": "노동절은 부유한 여행자들이 여름 인파를 피하면서 '낙상'의 시작을 의미합니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788562852.9581962,
-  "_updated_label": "2026-09-05 08:01",
-  "_last_attempt_at": 1788562852.9581962,
-  "_last_success_at": 1788562852.9581962,
+  "_fetched_at": 1788566423.27676,
+  "_updated_label": "2026-09-05 09:00",
+  "_last_attempt_at": 1788566423.27676,
+  "_last_success_at": 1788566423.27676,
   "_collection_status": "ok",
   "_collection_errors": []
 };
