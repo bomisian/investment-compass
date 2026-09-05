@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788569237.9740522,
+  "generatedAt": 1788571246.3606167,
   "records": {
     "MSFT": [
       {
@@ -2553,6 +2553,47 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AMZN": [
       {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788550640,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.62,
+            "after": 3.15
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.1,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.2,
+            "after": -2.62
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": 0.0
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "주의 강화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon의 1000억 달러 규모 인류 계약으로 엔진 가격이 45% 저렴해졌습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=194d12b09b91aa6894ab1cfaffb277e2a1a6dfd30c53d527cf70044543ad37b9",
+        "eventId": "ddfd294de4a283ab6730",
+        "fingerprint": "{\"changes\": [{\"after\": 3.15, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.62, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"주의 강화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"ddfd294de4a283ab6730\"}"
+      },
+      {
         "changedAt": 1788556414.9837992,
         "dataAsOf": 1788550640,
         "changes": [
@@ -3588,6 +3629,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "META": [
+      {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788565700,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.88,
+            "after": 0.52
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": -1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Jim Cramer는 Meta Platforms, Inc.(NASDAQ: META)의 대규모 법원 승리가 아슬아슬한 상황이었다고 말했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=3fd8ebcf47ac803c19af2b5be8c23376d35a75ee74d7197f3ac7342fb9b3069a",
+        "eventId": "66797f47a5e1b0d990a5",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.88, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.75, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"66797f47a5e1b0d990a5\"}"
+      },
       {
         "changedAt": 1788556414.9837992,
         "dataAsOf": 1788471160,
@@ -8937,6 +9007,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788542377,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.2,
+            "after": -3.15
+          }
+        ],
+        "cause": "데이터센터 투자 지속 시 AI 컴퓨팅 수요 유지 가능성",
+        "newsHeadline": "AI 인프라 구축을 위한 자금 조달을 위한 오라클의 연속 해고로 인해 실행 위험이 발생한다고 RBC가 밝혔습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=d5dc831e4308213cc183335a68d41b9fc8c651b723cc01d46af7f36108576eed",
+        "eventId": "6d07dc02661b93d6a1b5",
+        "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"6d07dc02661b93d6a1b5\"}"
+      },
+      {
         "changedAt": 1788556414.9837992,
         "dataAsOf": 1788542377,
         "changes": [
@@ -10286,23 +10373,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
         "eventId": "263f0693121d2a4d52d8",
         "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"263f0693121d2a4d52d8\"}"
-      },
-      {
-        "changedAt": 1787256309.1436353,
-        "dataAsOf": 1787232003,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.1,
-            "after": 1.92
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-        "eventId": "0adb305fd30d06727560",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"0adb305fd30d06727560\"}"
       }
     ],
     "AMD": [
@@ -13241,6 +13311,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MRVL": [
       {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788566336,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -5,
+            "after": -4.55
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell은 전망을 높였지만 Google 칩 수익이 정체되면서 하락했습니다. AI 보상에 가격이 책정되었나요? (검토 준비 중)",
+        "newsUrl": "https://finnhub.io/api/news?id=c671bd5fcba653dfdc97d99024b47750c2036530faca328cad1456ce7b7e280b",
+        "eventId": "827bd1bf3f1f9b6cad08",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.55, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"827bd1bf3f1f9b6cad08\"}"
+      },
+      {
         "changedAt": 1788556414.9837992,
         "dataAsOf": 1788537738,
         "changes": [
@@ -14600,6 +14693,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "INTC": [
+      {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788471580,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.1,
+            "after": 1.75
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.55,
+            "after": 3.85
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.7,
+            "after": 0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "엔비디아의 50억 달러 인텔 베팅은 6월까지 300억 달러 가치가 되었습니다. 파트너십 가격이 여전히 잘못 책정되어 있나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=8316bfe61c35a3736280c7432450477ce7b65b3cb2e2b4370124e71ff192953e",
+        "eventId": "10920d99d3f2df0e658d",
+        "fingerprint": "{\"changes\": [{\"after\": 1.75, \"before\": 2.1, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.85, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"10920d99d3f2df0e658d\"}"
+      },
       {
         "changedAt": 1788556414.9837992,
         "dataAsOf": 1788471580,
@@ -17449,6 +17571,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788542400,
+        "changes": [
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -5,
+            "after": -4.55
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Micron vs. Sandisk: 어느 AI 메모리 주식이 더 나은 구매인가?",
+        "newsUrl": "https://finnhub.io/api/news?id=df7e6ecd63fbb15f388c10b48a656208c55bc1067164d604779a0949ffba0368",
+        "eventId": "63884840a6fb9c0c01f3",
+        "fingerprint": "{\"changes\": [{\"after\": -4.55, \"before\": -5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"63884840a6fb9c0c01f3\"}"
+      },
+      {
         "changedAt": 1788548637.6729646,
         "dataAsOf": 1788542400,
         "changes": [
@@ -20014,6 +20153,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "LITE": [
       {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788538833,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.17,
+            "after": -0.52
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.17,
+            "after": -0.52
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "GoPro는 Starman Optical Merger와 Markiplier 지분을 34% 확대했습니다. 일관된 등반 7%, Lumentum 3% 증가",
+        "newsUrl": "https://finnhub.io/api/news?id=f4cd1e985d5f0d0dd650f0ec64360c43779f228908471c2596d762cf8077d0f1",
+        "eventId": "71af741db2d528d0ebb6",
+        "fingerprint": "{\"changes\": [{\"after\": -0.52, \"before\": -0.17, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.52, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"71af741db2d528d0ebb6\"}"
+      },
+      {
         "changedAt": 1788548637.6729646,
         "dataAsOf": 1788538833,
         "changes": [
@@ -20311,6 +20473,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GEV": [
+      {
+        "changedAt": 1788571246.3606167,
+        "dataAsOf": 1788523200,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 1.57
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.1,
+            "after": -1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.53
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "GE Vernova, 스코틀랜드 ESB 풍력 발전 단지에 터빈 공급 계약 체결",
+        "newsUrl": "https://finnhub.io/api/news?id=485703247cec76fcd07b2f015353af4f6d3a2de4dd5f1c64fb122198c24fc7b0",
+        "eventId": "e83fb78d3e05f36c87f5",
+        "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.53, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"e83fb78d3e05f36c87f5\"}"
+      },
       {
         "changedAt": 1788534085.9076226,
         "dataAsOf": 1788523200,
