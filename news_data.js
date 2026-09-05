@@ -6951,7 +6951,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -11430,7 +11430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
@@ -16066,7 +16066,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -20442,7 +20442,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 119,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -25333,7 +25333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -26577,7 +26577,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -31283,7 +31283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -35983,7 +35983,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -41090,7 +41090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -46057,7 +46057,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -49525,7 +49525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -52241,7 +52241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -54158,7 +54158,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
@@ -54214,7 +54214,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595596.8369935
+          "analysisUpdatedAt": 1788618387.0978682
         },
         "headlineKo": "SPY와 QQQ가 단기 추세를 회복하면서 폭 회복이 기반을 다졌습니다."
       },
@@ -54264,7 +54264,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595597.9093282
+          "analysisUpdatedAt": 1788618388.17561
         },
         "headlineKo": "오늘의 주식 시장: Nasdaq 100, S&P 500 Futures 상승, Dow Jones Edges 하락, 8월 미국 일자리 162,000 반등 — LULU, PATH, DOCU in Focus(업데이트됨)"
       },
@@ -54314,7 +54314,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595598.9715056
+          "analysisUpdatedAt": 1788618389.6016026
         },
         "headlineKo": "빠른 스파크: 투자자들이 금과 국채로 전환함에 따라 QQQ, VOO Lead ETF 유입"
       },
@@ -54437,7 +54437,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595596.8369935
+          "analysisUpdatedAt": 1788618387.0978682
         }
       },
       {
@@ -54486,7 +54486,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595597.9093282
+          "analysisUpdatedAt": 1788618388.17561
         }
       },
       {
@@ -54535,7 +54535,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595598.9715056
+          "analysisUpdatedAt": 1788618389.6016026
         }
       },
       {
@@ -56143,17 +56143,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788595593.6860275,
-    "_updated_label": "2026-09-05 17:06",
+    "_fetched_at": 1788618383.7631693,
+    "_updated_label": "2026-09-05 23:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
-    "_last_attempt_at": 1788595593.6860275,
+    "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
-    "_last_success_at": 1788595593.6860275,
+    "_last_success_at": 1788618383.7631693,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -59284,7 +59284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -62815,7 +62815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -66012,7 +66012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -66027,6 +66027,136 @@ const NEWS_DATA = {
       "revenueEstimate": 2220416029
     },
     "news": [
+      {
+        "headline": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
+        "datetime": 1788611918,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "PLTR에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788618394.7981381
+        },
+        "headlineKo": "Globant가 Salesforce AI Pod를 출시함에 따라 Palantir는 확장된 PwC Alliance에서 7.7% 상승했습니다. 어떤 서비스 모델이 더 잘 확장됩니까?"
+      },
+      {
+        "headline": "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
+        "datetime": 1788603901,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 200,000%, $418 million, 0.15%, 28%, $716 billion, 0.15 %, $ 258.51, $2.8.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [
+            "200,000%",
+            "$418 million",
+            "0.15%",
+            "28%",
+            "$716 billion",
+            "0.15 %",
+            "$ 258.51",
+            "$2.8"
+          ],
+          "sourceExcerpt": [
+            "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help Peter Thiel is the name behind two massive tech success stories, and he's also demonstrated his ability to identify a top tech business, even in that company's earliest days."
+          ],
+          "analysisUpdatedAt": 1788618395.7914207
+        },
+        "headlineKo": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다."
+      },
       {
         "headline": "Palantir Won a $127 Million Army Production Order and Still Fell 6%. Is the Valuation Finally Catching Up?",
         "source": "Yahoo",
@@ -66073,7 +66203,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595604.5492454
+          "analysisUpdatedAt": 1788618397.7418735
         },
         "headlineKo": "Palantir는 1억 2,700만 달러 규모의 육군 생산 주문을 수주했지만 여전히 6% 하락했습니다. 밸류에이션이 마침내 따라잡았는가?"
       },
@@ -66085,45 +66215,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Palantir (PLTR) Stock Fair Value Edges Higher After Strong Q2 And Raised Guidance",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "PLTR",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "PLTR에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595606.8823578
-        },
         "headlineKo": "Palantir (PLTR) 주식 공정 가치는 강력한 2분기 이후 상승하고 지침을 높였습니다."
       },
       {
@@ -66134,24 +66225,36 @@ const NEWS_DATA = {
         "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "PLTR이 폭발적인 상승 잠재력을 가지고 있는 3가지 이유"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
+        "datetime": 1788611918,
+        "headlineKo": "Globant가 Salesforce AI Pod를 출시함에 따라 Palantir는 확장된 PwC Alliance에서 7.7% 상승했습니다. 어떤 서비스 모델이 더 잘 확장됩니까?",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
+          "importance": "medium",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "3 Reasons PLTR Has Explosive Upside Potential",
+            "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -66161,43 +66264,99 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 '3 Reasons PLTR Has Explosive Upside Potential' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1.0,
+          "interpretation": "PLTR에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595609.3567955
-        },
-        "headlineKo": "PLTR이 폭발적인 상승 잠재력을 가지고 있는 3가지 이유"
+          "analysisUpdatedAt": 1788618394.7981381
+        }
       },
       {
-        "headline": "Palantir just won the Army and lost Michael Burry",
+        "headline": "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=987bda87cebe56265d935a33135cdd2004bc7dcf681d075a0cf04680f4560f85",
-        "datetime": 1788546780,
+        "url": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
+        "datetime": 1788603901,
+        "headlineKo": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다.",
         "relevance": 0.67,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Palantir는 방금 육군에서 승리하고 Michael Burry를 잃었습니다."
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 200,000%, $418 million, 0.15%, 28%, $716 billion, 0.15 %, $ 258.51, $2.8.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: PLTR에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 매출·EPS·영업이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.67,
+          "quality": "high",
+          "verifiedNumbers": [
+            "200,000%",
+            "$418 million",
+            "0.15%",
+            "28%",
+            "$716 billion",
+            "0.15 %",
+            "$ 258.51",
+            "$2.8"
+          ],
+          "sourceExcerpt": [
+            "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
+            "Help Peter Thiel is the name behind two massive tech success stories, and he's also demonstrated his ability to identify a top tech business, even in that company's earliest days."
+          ],
+          "analysisUpdatedAt": 1788618395.7914207
+        }
       },
-      {
-        "headline": "SCHG Owns More Apple Than Tesla, Meta and Palantir Combined. Is That Why Growth Investors Are Falling Behind?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2da3af33aa4555aededcd0604efcbd3c46d26c9dc1ff162141907f83c6a5bf52",
-        "datetime": 1788536261,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SCHG는 Tesla, Meta, Palantir를 합친 것보다 더 많은 Apple을 소유하고 있습니다. 이것이 성장 투자자들이 뒤처지는 이유입니까?"
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Palantir Won a $127 Million Army Production Order and Still Fell 6%. Is the Valuation Finally Catching Up?",
         "source": "Yahoo",
@@ -66244,7 +66403,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595604.5492454
+          "analysisUpdatedAt": 1788618397.7418735
         }
       },
       {
@@ -69601,17 +69760,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788595593.6860275,
-    "_updated_label": "2026-09-05 17:06",
+    "_fetched_at": 1788618383.7631693,
+    "_updated_label": "2026-09-05 23:26",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 98,
+      "checked": 100,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
-    "_last_attempt_at": 1788595593.6860275,
+    "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
-    "_last_success_at": 1788595593.6860275,
+    "_last_success_at": 1788618383.7631693,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -71476,7 +71635,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -72762,7 +72921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -72823,7 +72982,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595614.5259223
+          "analysisUpdatedAt": 1788618403.795275
         },
         "headlineKo": "FormFactor, Entegris, Penguin Solutions, Teradyne 및 Marvell Technology 주식 거래, 알아야 할 사항"
       },
@@ -72872,7 +73031,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595616.8679166
+          "analysisUpdatedAt": 1788618405.8655412
         },
         "headlineKo": "Marvell은 전망을 높였지만 Google 칩 수익이 정체되면서 하락했습니다. AI 보상에 가격이 책정되었나요? (검토 준비 중)"
       },
@@ -72936,7 +73095,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788595621.3658328
+          "analysisUpdatedAt": 1788618409.1479728
         },
         "headlineKo": "Marvell 주식은 엄청난 한 해를 보냈고 여전히 최고치보다 훨씬 낮습니다."
       },
@@ -73060,7 +73219,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595614.5259223
+          "analysisUpdatedAt": 1788618403.795275
         }
       },
       {
@@ -73108,7 +73267,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595616.8679166
+          "analysisUpdatedAt": 1788618405.8655412
         }
       },
       {
@@ -73171,7 +73330,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788595621.3658328
+          "analysisUpdatedAt": 1788618409.1479728
         }
       },
       {
@@ -76832,17 +76991,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788595593.6860275,
-    "_updated_label": "2026-09-05 17:07",
+    "_fetched_at": 1788618383.7631693,
+    "_updated_label": "2026-09-05 23:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
-    "_last_attempt_at": 1788595593.6860275,
+    "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
-    "_last_success_at": 1788595593.6860275,
+    "_last_success_at": 1788618383.7631693,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -78214,7 +78373,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -79916,7 +80075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -81405,7 +81564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -85525,7 +85684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -87101,7 +87260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788608894.662311,
     "_earnings_status": "ok",
@@ -88661,7 +88820,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -90175,7 +90334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -91564,7 +91723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -93307,7 +93466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -94352,7 +94511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788605082.5074475,
     "_earnings_status": "ok",
@@ -95699,7 +95858,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -97202,7 +97361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -98285,7 +98444,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -98944,7 +99103,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788612626.223686,
     "_earnings_status": "ok",
@@ -101175,7 +101334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -101688,7 +101847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788601269.515982,
     "_earnings_status": "ok",
@@ -101763,7 +101922,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788595627.458333
+          "analysisUpdatedAt": 1788618414.699476
         },
         "headlineKo": "SK하이닉스, 메모리 입찰이 NAND를 넘어 확대되면서 7% 급등; 씨게이트 랠리 5%"
       },
@@ -101813,7 +101972,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595630.3556323
+          "analysisUpdatedAt": 1788618416.8302703
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -101863,7 +102022,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595632.4387224
+          "analysisUpdatedAt": 1788618418.804883
         },
         "headlineKo": "Seagate (STX) 주식은 AI 거품 공포에 대해 30% 저평가될 수 있습니다"
       },
@@ -101949,7 +102108,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788595627.458333
+          "analysisUpdatedAt": 1788618414.699476
         }
       },
       {
@@ -101998,7 +102157,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595630.3556323
+          "analysisUpdatedAt": 1788618416.8302703
         }
       },
       {
@@ -102047,7 +102206,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595632.4387224
+          "analysisUpdatedAt": 1788618418.804883
         }
       },
       {
@@ -102824,17 +102983,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788595593.6860275,
-    "_updated_label": "2026-09-05 17:07",
+    "_fetched_at": 1788618383.7631693,
+    "_updated_label": "2026-09-05 23:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
-    "_last_attempt_at": 1788595593.6860275,
+    "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
-    "_last_success_at": 1788595593.6860275,
+    "_last_success_at": 1788618383.7631693,
     "_collection_status": "ok"
   },
   "EME": {
@@ -102891,7 +103050,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595637.2145104
+          "analysisUpdatedAt": 1788618423.7860892
         },
         "headlineKo": "시장이 하락함에 따라 Emcor Group(EME) 상승: 주요 사실"
       },
@@ -102941,7 +103100,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595639.0868657
+          "analysisUpdatedAt": 1788618426.0829573
         },
         "headlineKo": "EMCOR는 연초 대비 21% 상승: 투자자는 지금 주식을 구매해야 할까요?"
       },
@@ -102991,7 +103150,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595641.2502122
+          "analysisUpdatedAt": 1788618428.2012029
         },
         "headlineKo": "월스트리트 분석가들이 낙관적으로 보이므로 Emcor Group(EME)을 매수해야 합니까?"
       },
@@ -103063,7 +103222,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595637.2145104
+          "analysisUpdatedAt": 1788618423.7860892
         }
       },
       {
@@ -103112,7 +103271,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595639.0868657
+          "analysisUpdatedAt": 1788618426.0829573
         }
       },
       {
@@ -103161,7 +103320,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788595641.2502122
+          "analysisUpdatedAt": 1788618428.2012029
         }
       },
       {
@@ -103826,17 +103985,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788595593.6860275,
-    "_updated_label": "2026-09-05 17:07",
+    "_fetched_at": 1788618383.7631693,
+    "_updated_label": "2026-09-05 23:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
-    "_last_attempt_at": 1788595593.6860275,
+    "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
-    "_last_success_at": 1788595593.6860275,
+    "_last_success_at": 1788618383.7631693,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -105033,7 +105192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -105488,7 +105647,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-05 22:55"
+      "updated": "2026-09-05 23:27"
     },
     "_fetched_at": 1788616352.305137,
     "_updated_label": "2026-09-05 22:55",

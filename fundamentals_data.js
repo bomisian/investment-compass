@@ -315,8 +315,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.74,
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788544802.3695972,
-    "_updated_label": "2026-09-05 03:00"
+    "_fetched_at": 1788618357.4691858,
+    "_updated_label": "2026-09-05 23:25"
   },
   "TSLA": {
     "forwardPE": 145.90287,
@@ -431,8 +431,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 9.59,
     "name": "Advanced Micro Devices Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788544802.3695972,
-    "_updated_label": "2026-09-05 03:00"
+    "_fetched_at": 1788618357.4691858,
+    "_updated_label": "2026-09-05 23:26"
   },
   "INTC": {
     "forwardPE": 51.38288,
@@ -1485,8 +1485,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788544802.3695972,
-    "_updated_label": "2026-09-05 03:00"
+    "_fetched_at": 1788618357.4691858,
+    "_updated_label": "2026-09-05 23:26"
   },
   "BE": {
     "forwardPE": 94.66865036430602,
