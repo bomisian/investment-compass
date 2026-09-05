@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Icons Dolly Parton and Gloria Steinem never officially retired—why that's a choice for some and requirement for others",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/05/dolly-parton-gloria-steinem-never-retired.html",
+      "datetime": 1788613201,
+      "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
+    },
+    {
       "headline": "Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/04/cybercabs-are-a-game-changer-says-mike-khouw-heres-how-hes-trading-tesla.html",
       "datetime": 1788540988,
       "headlineKo": "Cybercabs는 게임 체인저라고 Mike Khouw는 말합니다. 그가 Tesla를 거래하는 방법은 다음과 같습니다."
-    },
-    {
-      "headline": "WBNA Commissioner Cathy Engelbert to retire at the end of 2026",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/wbna-commissioner-cathy-engelbert-to-retire-at-the-end-of-2026-.html",
-      "datetime": 1788537367,
-      "headlineKo": "WBNA 위원장 Cathy Engelbert, 2026년 말 은퇴 예정"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788616523.1792836,
-  "_updated_label": "2026-09-05 22:55",
-  "_last_attempt_at": 1788616523.1792836,
-  "_last_success_at": 1788616523.1792836,
+  "_fetched_at": 1788620257.9668975,
+  "_updated_label": "2026-09-05 23:58",
+  "_last_attempt_at": 1788620257.9668975,
+  "_last_success_at": 1788620257.9668975,
   "_collection_status": "ok",
   "_collection_errors": []
 };
