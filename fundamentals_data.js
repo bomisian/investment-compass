@@ -1316,7 +1316,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 103496.375,
     "52WeekHigh": 379.935,
     "52WeekLow": 118.7,
-    "beta": 2.1109886,
+    "beta": 2.107142,
     "dividendYieldIndicatedAnnual": 0.10348967173076128,
     "dividendPerShareTTM": 0.2243,
     "dividendGrowthRate5Y": 77.87,
@@ -1329,8 +1329,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.610000000000003,
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788539646.4835322,
-    "_updated_label": "2026-09-05 01:34"
+    "_fetched_at": 1788612600.4471753,
+    "_updated_label": "2026-09-05 21:50"
   },
   "MOD": {
     "forwardPE": 25.910280628597835,
