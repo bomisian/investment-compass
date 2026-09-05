@@ -219,13 +219,6 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil ends week higher on renewed US-Iran strikes, diesel hits record - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQVZJdUE0TzFvS2xtSUJLOVUxZUVRZVRpMi1aUlNuSFZzX3h5TW4zSGJya0w3SjFlSno4QUlvdU90cHBBOS1xRllCZjR2aVRnUW16ZmQyN3M1SlRVSl9BYlk2Z2dvWGIzdEo3cXdTZjdWZkIzYXRNRzk3ZkM2cWMwN2ZWMVh1T09pNnRKVVAwRDhNSnJnSTFwVi1MZXdMNUNwOFJTU215REpkR1V0X1pVa09vNkVHeG9oX2lpVjdoTVl1ajI5MzU0dUN3?oc=5",
-      "datetime": 1788553821,
-      "headlineKo": "유가는 미국-이란의 파업 재개로 한주 상승세 마감, 디젤은 기록 경신 - 로이터 통신"
-    },
-    {
       "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html",
@@ -301,16 +294,23 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDktVk9zLXloNkRZVGMzYVRQWUVwOFZwYmdWVEVVeXAwcWNBWnNHYTBXdU44UUlOdkVKV0xwWEZfSUFDWkNHenVHemlDM1dWWWI3c3FiYmhhOE5HT1JhbHpRNUFOSVc3MFRjVTJwQTRrNjlteWE2MG50a2V0WnRVdnkwYjVxUFpFbWtZem44Y0M2bjVpTGRIUlNvcjY3V21jUTBGTVNoR2M1a1lRNXhPMVRMSk9VVVJE?oc=5",
       "datetime": 1788533815,
       "headlineKo": "미국인 중 4분의 1만이 이란 전쟁이 가치 있다고 생각하는 것으로 나타났다. 로이터/입소스 여론조사 - Reuters"
+    },
+    {
+      "headline": "Labor Day marks the start of 'fallcations' as wealthy travelers avoid summer crowds",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/04/fall-travel-wealthy-europe.html",
+      "datetime": 1788531022,
+      "headlineKo": "노동절은 부유한 여행자들이 여름 인파를 피하면서 '낙상'의 시작을 의미합니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788586202.6118171,
-  "_updated_label": "2026-09-05 14:30",
-  "_last_attempt_at": 1788586202.6118171,
-  "_last_success_at": 1788586202.6118171,
+  "_fetched_at": 1788589890.8627958,
+  "_updated_label": "2026-09-05 15:31",
+  "_last_attempt_at": 1788589890.8627958,
+  "_last_success_at": 1788589890.8627958,
   "_collection_status": "ok",
   "_collection_errors": []
 };
