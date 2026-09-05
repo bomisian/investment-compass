@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
+      "datetime": 1788625193,
+      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다."
+    },
+    {
       "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
@@ -240,11 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
     },
     {
-      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
+      "headline": "US ambassador to Israel says there is no plan to force Palestinians out of Gaza - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
-      "datetime": 1788558731,
-      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 공격이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTVYNkUxR29PRkZoM2ZrMGF0b0toaDNSbWthcG85cjNrZUpnZVMzUHpZRUpaMmpqNFBPSTRNUy16d2VyRUE5V1ExOUVuUDFWSFBzUW94bDY2U25yaGpiWWxWUjBsV0VIei1kZkdEMUw0S3VxVTAwZzcxVm1iU1NSeWotYm9KOTFWU3ZmSWFrekFiZHVfSEFpTUN0b2ttLVZNZTJQeHUwSGFvN2hwLWNiRWRGdG1oQjdrLU1jcXdwb0lqdw?oc=5",
+      "datetime": 1788606703,
+      "headlineKo": "이스라엘 주재 미국 대사 \"팔레스타인인들을 가자지구에서 쫓아낼 계획은 없다\" - 로이터 통신"
     },
     {
       "headline": "Israel says it strikes southern Lebanon after Hezbollah drone launch - Reuters",
@@ -252,13 +259,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?oc=5",
       "datetime": 1788556143,
       "headlineKo": "이스라엘, 헤즈볼라 드론 발사 후 레바논 남부 공습 - 로이터 통신"
-    },
-    {
-      "headline": "EXCLUSIVE: US military turns off ad trackers on devices amid Middle East targeting reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYjdmUFN3Ymp3TUZ5dnBMQnpFQzV4dGNNTlF1RWVnY0VScUZwU2RXZXh2LWQ1aElYUHdaTFFFNVp1VG5JN0xYdGdrZVhCQ1RDT0I4b0JUeXp1b29EYjcyMGt4bFlxdmdzUWN5ay1DaW5EX2NDQ2F5U3hHREZvUFEwVGdqNFI4Qzg3NDN5WmQxaGFZUl9HU2hwTGd0Qi1pWFE1YjRybjRWVnE2d0dJNEJNMGtZYjBFUmZUSkJpYVBrRlFQYnhoS0tYWnI1Xy1NbWVB?oc=5",
-      "datetime": 1788553496,
-      "headlineKo": "독점: 미군은 중동을 표적으로 삼는다는 보도가 나오는 가운데 기기에서 광고 추적기를 끕니다 - Reuters"
     },
     {
       "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788627647.9828022,
-  "_updated_label": "2026-09-06 02:01",
-  "_last_attempt_at": 1788627647.9828022,
-  "_last_success_at": 1788627647.9828022,
+  "_fetched_at": 1788631253.9756048,
+  "_updated_label": "2026-09-06 03:01",
+  "_last_attempt_at": 1788631253.9756048,
+  "_last_success_at": 1788631253.9756048,
   "_collection_status": "ok",
   "_collection_errors": []
 };

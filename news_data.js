@@ -6951,7 +6951,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -6966,6 +6966,86 @@ const NEWS_DATA = {
       "revenueEstimate": 115064400597
     },
     "news": [
+      {
+        "headline": "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
+        "datetime": 1788613800,
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: $14 billion, 0.38%, 0.00%, 0.51%, 0.45%, $200, 17%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$14 billion",
+            "0.38%",
+            "0.00%",
+            "0.51%",
+            "0.45%",
+            "$200",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue Boards: Quotes: Favorites Popular Monitor Movers Level 2 News Menu Boards Stocks Commodities Forex Cryptocurrency The Lounge Advanced Sear",
+            "Get Started Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue Fiona Craig NASDAQ:AAPL Latest News September 05 2026 9:10AM © Adobe Stock Images Morgan Stanley estimates that Apple’s (NASDA",
+            "“Apple’s first foldable iPhone is the biggest iPhone form-factor change since iPhone X,” analyst Erik Woodring wrote ahead of Apple’s Sept."
+          ],
+          "analysisUpdatedAt": 1788631224.511823
+        },
+        "headlineKo": "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다."
+      },
       {
         "headline": "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends",
         "source": "Yahoo",
@@ -7026,27 +7106,27 @@ const NEWS_DATA = {
             "Help If you're looking to invest in dividend-paying stocks for that sweet passive income, good for you!",
             "Dividends are a great way to collect cash without having to sell any stocks -- and that cash can help support you or can be deployed to buy more shares of stock."
           ],
-          "analysisUpdatedAt": 1788608900.1040106
+          "analysisUpdatedAt": 1788631226.9081306
         },
         "headlineKo": "연간 배당금 12,000달러에 필요한 Apple(AAPL) 주식 수는 다음과 같습니다."
       },
       {
-        "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d03216108133aa4afcbdb834039cee863839189ba8da999efecd7e54466d934e",
-        "datetime": 1788558766,
+        "headline": "Apple's Stellar Growth Comes At A Cost",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=08ff6abccb854e78961554204c817558f1e597e38ba505926c196605509b753d",
+        "datetime": 1788598063,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
-          "tone": "neutral",
+          "tone": "positive",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+            "Apple's Stellar Growth Comes At A Cost",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7070,14 +7150,24 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Stellar Growth Comes At A Cost' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608902.2168207
+          "analysisUpdatedAt": 1788631227.799995
         },
+        "headlineKo": "Apple의 뛰어난 성장은 비용으로 발생합니다."
+      },
+      {
+        "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d03216108133aa4afcbdb834039cee863839189ba8da999efecd7e54466d934e",
+        "datetime": 1788558766,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "다우존스 선물: Nvidia, Micron, Sandisk Flash 구매 신호; 애플, 인플레이션 보고서 앞두고"
       },
       {
@@ -7088,67 +7178,7 @@ const NEWS_DATA = {
         "relevance": 0.71,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why Apple (AAPL) Dipped More Than Broader Market Today",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Why Apple (AAPL) Dipped More Than Broader Market Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.71,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608904.2450097
-        },
         "headlineKo": "오늘날 Apple(AAPL)이 더 넓은 시장보다 더 많이 하락한 이유"
-      },
-      {
-        "headline": "Apple's John Ternus needs to be his own type of CEO and 'not Tim Cook 2'",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1d4bd0b4897745f3a22952da8fc4a48ef1e025aad70e9b517ea33bd0cb57526c",
-        "datetime": 1788557927,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "애플의 존 터너스는 '팀 쿡 2'가 아닌 그 자신만의 CEO가 되어야 한다"
-      },
-      {
-        "headline": "Top Research Reports for Apple, Broadcom & Shell",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d180a4b55542c389cf6aba25f41a111377c11d398072f9790814e4a23b323580",
-        "datetime": 1788556560,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Apple, Broadcom 및 Shell에 대한 주요 연구 보고서"
       },
       {
         "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
@@ -7290,6 +7320,85 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
+        "datetime": 1788613800,
+        "headlineKo": "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: $14 billion, 0.38%, 0.00%, 0.51%, 0.45%, $200, 17%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$14 billion",
+            "0.38%",
+            "0.00%",
+            "0.51%",
+            "0.45%",
+            "$200",
+            "17%"
+          ],
+          "sourceExcerpt": [
+            "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue Boards: Quotes: Favorites Popular Monitor Movers Level 2 News Menu Boards Stocks Commodities Forex Cryptocurrency The Lounge Advanced Sear",
+            "Get Started Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue Fiona Craig NASDAQ:AAPL Latest News September 05 2026 9:10AM © Adobe Stock Images Morgan Stanley estimates that Apple’s (NASDA",
+            "“Apple’s first foldable iPhone is the biggest iPhone form-factor change since iPhone X,” analyst Erik Woodring wrote ahead of Apple’s Sept."
+          ],
+          "analysisUpdatedAt": 1788631224.511823
+        }
+      },
+      {
         "headline": "Here's How Many Shares of Apple (AAPL) Stock You'd Need for $12,000 in Yearly Dividends",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
@@ -7349,7 +7458,56 @@ const NEWS_DATA = {
             "Help If you're looking to invest in dividend-paying stocks for that sweet passive income, good for you!",
             "Dividends are a great way to collect cash without having to sell any stocks -- and that cash can help support you or can be deployed to buy more shares of stock."
           ],
-          "analysisUpdatedAt": 1788608900.1040106
+          "analysisUpdatedAt": 1788631226.9081306
+        }
+      },
+      {
+        "headline": "Apple's Stellar Growth Comes At A Cost",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=08ff6abccb854e78961554204c817558f1e597e38ba505926c196605509b753d",
+        "datetime": 1788598063,
+        "headlineKo": "Apple의 뛰어난 성장은 비용으로 발생합니다.",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's Stellar Growth Comes At A Cost",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Stellar Growth Comes At A Cost' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788631227.799995
         }
       },
       {
@@ -11424,17 +11582,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788608894.662311,
-    "_updated_label": "2026-09-05 20:48",
+    "_fetched_at": 1788631219.6657183,
+    "_updated_label": "2026-09-06 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 124,
+      "checked": 126,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
-    "_last_attempt_at": 1788608894.662311,
+    "_last_attempt_at": 1788631219.6657183,
     "_earnings_status": "ok",
-    "_last_success_at": 1788608894.662311,
+    "_last_success_at": 1788631219.6657183,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -16066,7 +16224,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -20501,7 +20659,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -25602,7 +25760,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -26846,7 +27004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -31686,7 +31844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -36386,7 +36544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -41493,7 +41651,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -46663,7 +46821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -50131,7 +50289,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -52847,7 +53005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 83,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -52908,7 +53066,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608909.7920196
+          "analysisUpdatedAt": 1788631237.1727114
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -52972,7 +53130,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788608913.1387563
+          "analysisUpdatedAt": 1788631240.4916458
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -53022,7 +53180,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608915.2264705
+          "analysisUpdatedAt": 1788631242.6519537
         },
         "headlineKo": "AMAT는 AI 주도 WFE 수요를 활용합니다: 추진력을 유지할 수 있습니까?"
       },
@@ -53094,7 +53252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608909.7920196
+          "analysisUpdatedAt": 1788631237.1727114
         }
       },
       {
@@ -53157,7 +53315,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788608913.1387563
+          "analysisUpdatedAt": 1788631240.4916458
         }
       },
       {
@@ -53206,7 +53364,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608915.2264705
+          "analysisUpdatedAt": 1788631242.6519537
         }
       },
       {
@@ -54758,17 +54916,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788608894.662311,
-    "_updated_label": "2026-09-05 20:48",
+    "_fetched_at": 1788631219.6657183,
+    "_updated_label": "2026-09-06 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
-    "_last_attempt_at": 1788608894.662311,
+    "_last_attempt_at": 1788631219.6657183,
     "_earnings_status": "ok",
-    "_last_success_at": 1788608894.662311,
+    "_last_success_at": 1788631219.6657183,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -56755,7 +56913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
@@ -59862,7 +60020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 79,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -63393,7 +63551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -66637,7 +66795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788627619.6594708,
     "_earnings_status": "ok",
@@ -70391,7 +70549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
@@ -72295,7 +72453,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -73581,7 +73739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788627619.6594708,
     "_earnings_status": "ok",
@@ -77657,7 +77815,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
@@ -79033,7 +79191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -80735,7 +80893,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -82224,7 +82382,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -86344,7 +86502,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -86405,7 +86563,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608920.804138
+          "analysisUpdatedAt": 1788631247.4556031
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -86455,7 +86613,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608922.6835022
+          "analysisUpdatedAt": 1788631249.6582723
         },
         "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다."
       },
@@ -86505,7 +86663,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608924.786752
+          "analysisUpdatedAt": 1788631251.7470634
         },
         "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항"
       },
@@ -86629,7 +86787,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608920.804138
+          "analysisUpdatedAt": 1788631247.4556031
         }
       },
       {
@@ -86678,7 +86836,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608922.6835022
+          "analysisUpdatedAt": 1788631249.6582723
         }
       },
       {
@@ -86727,7 +86885,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788608924.786752
+          "analysisUpdatedAt": 1788631251.7470634
         }
       },
       {
@@ -87914,17 +88072,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788608894.662311,
-    "_updated_label": "2026-09-05 20:48",
+    "_fetched_at": 1788631219.6657183,
+    "_updated_label": "2026-09-06 03:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
-    "_last_attempt_at": 1788608894.662311,
+    "_last_attempt_at": 1788631219.6657183,
     "_earnings_status": "ok",
-    "_last_success_at": 1788608894.662311,
+    "_last_success_at": 1788631219.6657183,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -89480,7 +89638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -90994,7 +91152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -92383,7 +92541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -94126,7 +94284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -95171,7 +95329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788627619.6594708,
     "_earnings_status": "ok",
@@ -96518,7 +96676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -98021,7 +98179,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -99104,7 +99262,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -99763,7 +99921,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788612626.223686,
     "_earnings_status": "ok",
@@ -101994,7 +102152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -102594,7 +102752,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788624020.4680717,
     "_earnings_status": "ok",
@@ -103736,7 +103894,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
@@ -104738,7 +104896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788618383.7631693,
     "_earnings_status": "ok",
@@ -105939,7 +106097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_last_attempt_at": 1788616352.305137,
     "_earnings_status": "ok",
@@ -106394,7 +106552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-06 02:00"
+      "updated": "2026-09-06 03:00"
     },
     "_fetched_at": 1788616352.305137,
     "_updated_label": "2026-09-05 22:55",
