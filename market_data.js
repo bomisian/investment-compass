@@ -233,6 +233,13 @@ const MARKET_DATA = {
       "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
     },
     {
+      "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/05/nutritionist-from-japan-essential-anti-inflammatory-foods-i-swear-by.html",
+      "datetime": 1788622201,
+      "headlineKo": "나는 일본의 영양사입니다: 내가 맹세하는 7가지 '필수' 항염증 식품"
+    },
+    {
       "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
@@ -252,6 +259,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTVYNkUxR29PRkZoM2ZrMGF0b0toaDNSbWthcG85cjNrZUpnZVMzUHpZRUpaMmpqNFBPSTRNUy16d2VyRUE5V1ExOUVuUDFWSFBzUW94bDY2U25yaGpiWWxWUjBsV0VIei1kZkdEMUw0S3VxVTAwZzcxVm1iU1NSeWotYm9KOTFWU3ZmSWFrekFiZHVfSEFpTUN0b2ttLVZNZTJQeHUwSGFvN2hwLWNiRWRGdG1oQjdrLU1jcXdwb0lqdw?oc=5",
       "datetime": 1788606703,
       "headlineKo": "이스라엘 주재 미국 대사 \"팔레스타인인들을 가자지구에서 쫓아낼 계획은 없다\" - 로이터 통신"
+    },
+    {
+      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
+      "datetime": 1788558731,
+      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 공격이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - 로이터 통신"
     },
     {
       "headline": "Israel says it strikes southern Lebanon after Hezbollah drone launch - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS3hZQnZwRzktT3UxRlNtYk8wVi1LSmtMdmRlTHIyZ0k4cm00aGp3d1plVEs2YVl3b3JxcTJUWE85VzZhLWJ2SEQ0WHM2eGd3SWJCeDlNZkhRQlBQdU44WTZLS3pJNzJsVEJISGJLeFBhUHVHMzFmUldrMUIwbHdEQkt1elJVMWxfUTN2SVhQT1BRblp2clBaVk9EalNpTDBVRzN6R3lUNUFzdnpWNnJuWjM5cE5ISjhOaUgtQ2xjQUNPVjF1c0tWZA?oc=5",
       "datetime": 1788549130,
       "headlineKo": "미국, 사우디아라비아에 50억 달러에 합동직격공격탄-사거리 연장 잠재적 판매 승인 - 로이터"
-    },
-    {
-      "headline": "What strong jobs data means for rates — plus, an out-of-favor trade shines this week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/what-strong-jobs-data-means-for-rates-plus-an-out-of-favor-trade-shines-this-week.html",
-      "datetime": 1788547861,
-      "headlineKo": "강력한 일자리 데이터가 요율에 미치는 영향 - 게다가 이번 주에는 비호의적인 거래가 빛을 발합니다"
-    },
-    {
-      "headline": "US sanctions Turkish bank, two subsidiaries in latest pressure on Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSml5Y093OWVORkhPb29wMzl1QlYxcWtjWGYwUTNFSUh3bkNTU3NJZ0d3eG9UbUNxeXM4eGE3U2V5ejVqaThPemU1WDBoMndmY0NxOUhKamRhUExmMjBnMDY2RXQ1b2FBMFI4X1NOcjJZNDlaSDR1dGZSclJoM3FOOElibjhITXVjS1ZiVTBpeFNUVXZuaWlORUNENUw1YVJNcFRYUXNwRERJZTgxb1E?oc=5",
-      "datetime": 1788546177,
-      "headlineKo": "미국, 최근 이란에 압력을 가하고 있는 터키 은행과 자회사 2곳을 제재 - 로이터"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788634829.8004997,
-  "_updated_label": "2026-09-06 04:00",
-  "_last_attempt_at": 1788634829.8004997,
-  "_last_success_at": 1788634829.8004997,
+  "_fetched_at": 1788638602.4000046,
+  "_updated_label": "2026-09-06 05:03",
+  "_last_attempt_at": 1788638602.4000046,
+  "_last_success_at": 1788638602.4000046,
   "_collection_status": "ok",
   "_collection_errors": []
 };

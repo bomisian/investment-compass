@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788636851.388909,
+  "generatedAt": 1788638602.3281505,
   "records": {
     "MSFT": [
       {
@@ -2761,6 +2761,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1788638602.3281505,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.85,
+            "after": 3.5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": 0.0
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "우호적 변화",
+            "after": "중립·확인 대기"
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 3.85, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788616523.1081147,
         "dataAsOf": 1788601680,
@@ -13983,6 +14012,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MRVL": [
       {
+        "changedAt": 1788638602.3281505,
+        "dataAsOf": 1788566336,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.35,
+            "after": 0.35
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -5,
+            "after": -4.9
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell은 전망을 높였지만 Google 칩 수익이 정체되면서 하락했습니다. AI 보상에 가격이 책정되었나요? (검토 준비 중)",
+        "newsUrl": "https://finnhub.io/api/news?id=c671bd5fcba653dfdc97d99024b47750c2036530faca328cad1456ce7b7e280b",
+        "eventId": "827bd1bf3f1f9b6cad08",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": -0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.9, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"827bd1bf3f1f9b6cad08\"}"
+      },
+      {
         "changedAt": 1788616523.1081147,
         "dataAsOf": 1788537738,
         "changes": [
@@ -16666,6 +16718,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "TSM": [
+      {
+        "changedAt": 1788638602.3281505,
+        "dataAsOf": 1788524785,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.7,
+            "after": -0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell Technology와 Taiwan Semiconductor는 No-Brainer Picks입니다. 그들은 골드 러시에서 이기는 것을 가지고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=4573c14df2074810d02255c764ad9b85d8e4f7277498a39cadeb692b5120936a",
+        "eventId": "5b82a5b5b975e9730dda",
+        "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5b82a5b5b975e9730dda\"}"
+      },
       {
         "changedAt": 1788528376.9808605,
         "dataAsOf": 1788524785,
