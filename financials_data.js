@@ -3932,16 +3932,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788645602.3513234,
-    "_updated_label": "2026-09-06 07:00"
+    "_fetched_at": 1788645997.427444,
+    "_updated_label": "2026-09-06 07:06"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788645602.3513234,
-    "_updated_label": "2026-09-06 07:00"
+    "_fetched_at": 1788645997.427444,
+    "_updated_label": "2026-09-06 07:06"
   },
   "ORCL": {
     "annual": [
@@ -6972,8 +6972,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788645602.3513234,
-    "_updated_label": "2026-09-06 07:00",
+    "_fetched_at": 1788645997.427444,
+    "_updated_label": "2026-09-06 07:06",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7000,7 +7000,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788645616.5268257,
+    "_yahoo_verified_at": 1788646010.9185452,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -7392,8 +7392,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788645602.3513234,
-    "_updated_label": "2026-09-06 07:00",
+    "_fetched_at": 1788645997.427444,
+    "_updated_label": "2026-09-06 07:06",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7420,7 +7420,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788645616.5268257,
+    "_yahoo_verified_at": 1788646010.9185452,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -10658,7 +10658,7 @@ const FINANCIALS_DATA = {
         "revenue": 2629000000.0,
         "netIncome": 549000000.0,
         "opIncome": 707000000.0,
-        "eps": 2.43,
+        "eps": 2.430109,
         "ocf": 532000000.0,
         "capex": -105000000.0,
         "fcf": 427000000.0,
@@ -10841,8 +10841,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788645602.3513234,
-    "_updated_label": "2026-09-06 07:00",
+    "_fetched_at": 1788645997.427444,
+    "_updated_label": "2026-09-06 07:06",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -10852,7 +10852,7 @@ const FINANCIALS_DATA = {
       },
       {
         "endDate": "2025-09-30",
-        "eps": 2.43
+        "eps": 2.430109
       },
       {
         "endDate": "2025-12-31",
@@ -10869,7 +10869,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788645616.5268257,
+    "_yahoo_verified_at": 1788646010.9185452,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
