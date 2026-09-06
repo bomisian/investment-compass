@@ -219,11 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
+      "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788632100,
-      "headlineKo": "미 해군 함정에 대한 IRGC 공격 이후 미국, 이란 유조선 세 척을 공격했다고 중부 사령부가 밝혔습니다 - 로이터 통신"
+      "datetime": 1788644257,
+      "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
     },
     {
       "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788649248.4612956,
-  "_updated_label": "2026-09-06 08:01",
-  "_last_attempt_at": 1788649248.4612956,
-  "_last_success_at": 1788649248.4612956,
+  "_fetched_at": 1788652855.6229353,
+  "_updated_label": "2026-09-06 09:01",
+  "_last_attempt_at": 1788652855.6229353,
+  "_last_success_at": 1788652855.6229353,
   "_collection_status": "ok",
   "_collection_errors": []
 };
