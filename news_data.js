@@ -7134,7 +7134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -7209,7 +7209,7 @@ const NEWS_DATA = {
             "Help Amazon ( AMZN -0.15% ) is the world leader in cloud infrastructure services that are facilitating the artificial intelligence revolution.",
             "It's also the world leader in e-commerce."
           ],
-          "analysisUpdatedAt": 1788698692.7564914
+          "analysisUpdatedAt": 1788721229.5025828
         },
         "headlineKo": "예측: Amazon은 2029년 이전에 Nvidia, Apple, Alphabet과 함께 4조 달러 클럽에 합류할 것입니다."
       },
@@ -7290,7 +7290,7 @@ const NEWS_DATA = {
             "Here's Whether It's Finally Time to Buy the Stock.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788698693.9274282
+          "analysisUpdatedAt": 1788721230.2564597
         },
         "headlineKo": "새로운 CEO 존 터너스(John Ternus)가 이끄는 Apple의 첫 번째 iPhone이 9월 9일 출시됩니다. 이제 주식을 매입할 때가 되었는지 알아보겠습니다."
       },
@@ -7341,7 +7341,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698696.3266075
+          "analysisUpdatedAt": 1788721231.957611
         },
         "headlineKo": "Apple(AAPL), 더 넓은 유럽 지분을 대상으로 20억 파운드 규모의 새로운 영국 ATT 소송 제기"
       },
@@ -7564,7 +7564,7 @@ const NEWS_DATA = {
             "Help Amazon ( AMZN -0.15% ) is the world leader in cloud infrastructure services that are facilitating the artificial intelligence revolution.",
             "It's also the world leader in e-commerce."
           ],
-          "analysisUpdatedAt": 1788698692.7564914
+          "analysisUpdatedAt": 1788721229.5025828
         }
       },
       {
@@ -7644,7 +7644,7 @@ const NEWS_DATA = {
             "Here's Whether It's Finally Time to Buy the Stock.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788698693.9274282
+          "analysisUpdatedAt": 1788721230.2564597
         }
       },
       {
@@ -7695,7 +7695,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698696.3266075
+          "analysisUpdatedAt": 1788721231.957611
         }
       },
       {
@@ -11970,17 +11970,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788698687.9548266,
-    "_updated_label": "2026-09-06 21:44",
+    "_fetched_at": 1788721224.521656,
+    "_updated_label": "2026-09-07 04:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
-    "_last_attempt_at": 1788698687.9548266,
+    "_last_attempt_at": 1788721224.521656,
     "_earnings_status": "ok",
-    "_last_success_at": 1788698687.9548266,
+    "_last_success_at": 1788721224.521656,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -16844,7 +16844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -21279,7 +21279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -26443,7 +26443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -27863,7 +27863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -32895,7 +32895,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -37632,7 +37632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -43139,7 +43139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -48428,7 +48428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -52008,7 +52008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -54848,7 +54848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -54909,7 +54909,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698701.1789684
+          "analysisUpdatedAt": 1788721237.0450807
         },
         "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       },
@@ -54959,7 +54959,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698702.7863624
+          "analysisUpdatedAt": 1788721239.0916934
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -55023,7 +55023,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788698706.8317552
+          "analysisUpdatedAt": 1788721242.3680818
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -55095,7 +55095,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698701.1789684
+          "analysisUpdatedAt": 1788721237.0450807
         }
       },
       {
@@ -55144,7 +55144,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698702.7863624
+          "analysisUpdatedAt": 1788721239.0916934
         }
       },
       {
@@ -55207,7 +55207,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788698706.8317552
+          "analysisUpdatedAt": 1788721242.3680818
         }
       },
       {
@@ -56808,17 +56808,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788698687.9548266,
-    "_updated_label": "2026-09-06 21:45",
+    "_fetched_at": 1788721224.521656,
+    "_updated_label": "2026-09-07 04:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
-    "_last_attempt_at": 1788698687.9548266,
+    "_last_attempt_at": 1788721224.521656,
     "_earnings_status": "ok",
-    "_last_success_at": 1788698687.9548266,
+    "_last_success_at": 1788721224.521656,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -59108,7 +59108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
@@ -62312,7 +62312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -65943,7 +65943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -69234,7 +69234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788717584.6380136,
     "_earnings_status": "ok",
@@ -73169,7 +73169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
@@ -75097,7 +75097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -76383,7 +76383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788717584.6380136,
     "_earnings_status": "ok",
@@ -80459,7 +80459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
@@ -81972,7 +81972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -83674,7 +83674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -85163,7 +85163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -89381,7 +89381,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -89442,7 +89442,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698711.4265974
+          "analysisUpdatedAt": 1788721247.4914403
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -89492,7 +89492,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698713.8049908
+          "analysisUpdatedAt": 1788721249.8596637
         },
         "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다."
       },
@@ -89542,7 +89542,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698715.6812506
+          "analysisUpdatedAt": 1788721251.926721
         },
         "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항"
       },
@@ -89666,7 +89666,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698711.4265974
+          "analysisUpdatedAt": 1788721247.4914403
         }
       },
       {
@@ -89715,7 +89715,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698713.8049908
+          "analysisUpdatedAt": 1788721249.8596637
         }
       },
       {
@@ -89764,7 +89764,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788698715.6812506
+          "analysisUpdatedAt": 1788721251.926721
         }
       },
       {
@@ -90951,17 +90951,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788698687.9548266,
-    "_updated_label": "2026-09-06 21:45",
+    "_fetched_at": 1788721224.521656,
+    "_updated_label": "2026-09-07 04:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
-    "_last_attempt_at": 1788698687.9548266,
+    "_last_attempt_at": 1788721224.521656,
     "_earnings_status": "ok",
-    "_last_success_at": 1788698687.9548266,
+    "_last_success_at": 1788721224.521656,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -92517,7 +92517,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -94031,7 +94031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -95440,7 +95440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -97183,7 +97183,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -98228,7 +98228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788717584.6380136,
     "_earnings_status": "ok",
@@ -99575,7 +99575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -101078,7 +101078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -102259,7 +102259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -102918,7 +102918,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788702407.1930053,
     "_earnings_status": "ok",
@@ -105212,7 +105212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -105834,7 +105834,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788713707.6631093,
     "_earnings_status": "ok",
@@ -107025,7 +107025,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
@@ -108027,7 +108027,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
@@ -109228,7 +109228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -109655,7 +109655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-07 03:00"
+      "updated": "2026-09-07 04:00"
     },
     "_fetched_at": 1788706105.1860938,
     "_updated_label": "2026-09-06 23:51",
