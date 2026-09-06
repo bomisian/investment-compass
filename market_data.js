@@ -226,6 +226,13 @@ const MARKET_DATA = {
       "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
     },
     {
+      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
+      "datetime": 1788630274,
+      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - Reuters"
+    },
+    {
       "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
       "datetime": 1788551051,
       "headlineKo": "트럼프 “우크라이나 평화 논의 위해 해외로 간다” 위트코프·쿠슈너 - 로이터 통신"
-    },
-    {
-      "headline": "U.S. approves potential sale of Joint Direct Attack Munitions-Extend Range to Saudi Arabia for $5 billion - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS3hZQnZwRzktT3UxRlNtYk8wVi1LSmtMdmRlTHIyZ0k4cm00aGp3d1plVEs2YVl3b3JxcTJUWE85VzZhLWJ2SEQ0WHM2eGd3SWJCeDlNZkhRQlBQdU44WTZLS3pJNzJsVEJISGJLeFBhUHVHMzFmUldrMUIwbHdEQkt1elJVMWxfUTN2SVhQT1BRblp2clBaVk9EalNpTDBVRzN6R3lUNUFzdnpWNnJuWjM5cE5ISjhOaUgtQ2xjQUNPVjF1c0tWZA?oc=5",
-      "datetime": 1788549130,
-      "headlineKo": "미국, 사우디아라비아에 50억 달러에 합동직격공격탄-사거리 연장 잠재적 판매 승인 - 로이터"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788652855.6229353,
-  "_updated_label": "2026-09-06 09:01",
-  "_last_attempt_at": 1788652855.6229353,
-  "_last_success_at": 1788652855.6229353,
+  "_fetched_at": 1788657105.3884852,
+  "_updated_label": "2026-09-06 10:12",
+  "_last_attempt_at": 1788657105.3884852,
+  "_last_success_at": 1788657105.3884852,
   "_collection_status": "ok",
   "_collection_errors": []
 };
