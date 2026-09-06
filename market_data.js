@@ -254,6 +254,13 @@ const MARKET_DATA = {
       "headlineKo": "짜증을 잘 다스리는 부모는 5가지 일을 합니다. 심리학자는 자녀가 감정적으로 더 똑똑해진다고 말합니다."
     },
     {
+      "headline": "Gulf stocks end mixed as US-Iran tensions linger - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
+      "datetime": 1788700063,
+      "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - Reuters"
+    },
+    {
       "headline": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdS1pLU5lZ2t0OVdmLTlYbjA2QzlpOWhNOVdVampxQVNMWWhERU11UnB3RlBkWUtnUDhXVUhEX0t2SERmSjB2NnUxVTVaYzZ5SWZjZEFVRGREOVYzWlRTYndMSFZqX1VSa2dzMTVoZHlyVUM5elNKaXlCRmFndThaSGwyb2ZSYmlENHNxZUpUWEVPd25mWVZKZFd1MThJN2E5VHluVl9R?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
       "datetime": 1788647352,
       "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 가운데 팔레스타인 마을 방문 - 로이터 통신"
-    },
-    {
-      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
-      "datetime": 1788630274,
-      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - Reuters"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788721254.2122464,
-  "_updated_label": "2026-09-07 04:01",
-  "_last_attempt_at": 1788721254.2122464,
-  "_last_success_at": 1788721254.2122464,
+  "_fetched_at": 1788724834.898294,
+  "_updated_label": "2026-09-07 05:01",
+  "_last_attempt_at": 1788724834.898294,
+  "_last_success_at": 1788724834.898294,
   "_collection_status": "ok",
   "_collection_errors": []
 };
