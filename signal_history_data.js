@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788734171.73926,
+  "generatedAt": 1788735763.9262784,
   "records": {
     "MSFT": [
       {
@@ -2790,6 +2790,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1788735763.9262784,
+        "dataAsOf": 1788616200,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.75,
+            "after": 2.1
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.5,
+            "after": 4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon을 최고가에서 10% 할인된 가격으로 10,000달러에 구매한다면 10년 후 가치는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=179ce7ea60cb1e3a0b52854075f1d613a6a13b79a04020e734c882047162f692",
+        "eventId": "2bfe26d2b3f63acde48d",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.75, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.2, \"before\": 3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"2bfe26d2b3f63acde48d\"}"
+      },
       {
         "changedAt": 1788638602.3281505,
         "dataAsOf": 1788601680,
@@ -6624,6 +6659,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "TSLA": [
+      {
+        "changedAt": 1788735763.9262784,
+        "dataAsOf": 1788659400,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -4.55,
+            "after": -4.02
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Elon Musk는 자신의 새 주조소에서 가스 터빈을 18개월 더 빠르게 온라인에 구축할 수 있다고 말합니다. 이 \"심오한 게임 체인저\"가 SpaceX와 Tesla에 의미하는 바는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=a7ddfa76d72c5e3c87b19596fd4877ebbb7605cf8cac1b7c04c396777e01024d",
+        "eventId": "ecf752c89ea4b806ecf3",
+        "fingerprint": "{\"changes\": [{\"after\": -4.02, \"before\": -4.55, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"ecf752c89ea4b806ecf3\"}"
+      },
       {
         "changedAt": 1788691258.8472242,
         "dataAsOf": 1788659400,
@@ -23598,6 +23650,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1788735763.9262784,
+        "dataAsOf": 1788574392,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.97,
+            "after": 2.45
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": 0.0,
+            "after": -1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.92,
+            "after": 1.4
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의",
+        "newsUrl": "https://finnhub.io/api/news?id=fdf5335c10e11621038f4cafb4041e1163de35450be064a4856316c862ce12e4",
+        "eventId": "e799cbdf421216e4335e",
+        "fingerprint": "{\"changes\": [{\"after\": 2.45, \"before\": 2.97, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.4, \"before\": 1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e799cbdf421216e4335e\"}"
+      },
       {
         "changedAt": 1788706275.1732621,
         "dataAsOf": 1788574392,
