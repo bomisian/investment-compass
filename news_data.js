@@ -7134,7 +7134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -11976,7 +11976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788698687.9548266,
     "_earnings_status": "ok",
@@ -16844,7 +16844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -21279,7 +21279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -26443,7 +26443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -27863,7 +27863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -32895,7 +32895,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -37632,7 +37632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -43139,7 +43139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -48428,7 +48428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -52008,7 +52008,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -54848,7 +54848,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -56814,7 +56814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788698687.9548266,
     "_earnings_status": "ok",
@@ -56824,6 +56824,70 @@ const NEWS_DATA = {
   "QQQ": {
     "nextEarnings": null,
     "news": [
+      {
+        "headline": "It's Not Worth Buying VOO Or QQQ Anymore",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=44f3fe11fe61c2b78958df16f3840894fea030b437964de520df95e3c637730e",
+        "datetime": 1788687000,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "더 이상 VOO나 QQQ를 구매할 가치가 없습니다(NYSEARCA:VOO) | 알파 밀레니얼 배당금 추구 팔로워 10.28K 팔로우 요약 저는 수년간 Vanguard 500 Index ETF와 Invesco QQQ Trust ETF를 소유해 왔으며 현재는 각각 내 포트폴리오의 30%와 15%를 보유하고 있습니다.",
+            "19.6배의 포워드 P/E는 괜찮아 보이지만 Shiller의 CAPE는 42.38배로 2000년 이후 두 번째로 높습니다.",
+            "2분기 수익 증가율은 알파벳의 980억 달러와 아마존의 미실현 이익 534억 달러를 제외하면 52%에서 33.8%로 감소하여 향후 추정치의 기반이 평평해졌습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 30%, 15%, 52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "30%",
+            "15%",
+            "52%",
+            "33.8%",
+            "$98",
+            "$53.4",
+            "37%",
+            "46%"
+          ],
+          "sourceExcerpt": [
+            "It's Not Worth Buying VOO Or QQQ Anymore (NYSEARCA:VOO) | Seeking Alpha Millennial Dividends 10.28K Followers Follow Summary I've owned Vanguard 500 Index ETF and Invesco QQQ Trust ETF for years, now 30% and 15% of my portfolio, respectivel",
+            "The 19.6x forward P/E looks fine, yet Shiller's CAPE at 42.38x is the second highest since 2000.",
+            "Q2 earnings growth drops from 52% to 33.8% excluding Alphabet's $98B and Amazon's $53.4B unrealized gains, flattening the base for forward estimates."
+          ],
+          "analysisUpdatedAt": 1788708144.982818
+        },
+        "headlineKo": "더 이상 VOO나 QQQ를 구매할 가치가 없습니다."
+      },
       {
         "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
         "source": "Yahoo",
@@ -56840,7 +56904,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ZEC 16.02% DOT",
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ARB 38.51% ICP",
             "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
             "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
@@ -56873,18 +56937,18 @@ const NEWS_DATA = {
             "0.53%",
             "0.39%",
             "0.18%",
-            "16.02%",
-            "3.96%",
-            "0.63%",
-            "0.13%",
-            "1.69%"
+            "38.51%",
+            "2.77%",
+            "13.54%",
+            "1.38%",
+            "5.57%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ZEC 16.02% DOT ",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ARB 38.51% ICP ",
             "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
             "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
           ],
-          "analysisUpdatedAt": 1788685415.3523374
+          "analysisUpdatedAt": 1788708147.969596
         },
         "headlineKo": "S&P 500, 다우지수는 폭발적 일자리 보고로 하락 마감, 팬들은 인상 우려를 표명하고 칩 제조업체의 강세는 Nasdaq에 도움이 됨 —TSLA, NFLX, BE, NVDA 집중"
       },
@@ -56948,7 +57012,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "By Ryne Mauck Published September 4, 2026, 5:45pm ET · 4 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1788685418.338343
+          "analysisUpdatedAt": 1788708150.4932523
         },
         "headlineKo": "JEPQ는 잊어라: QQQ 뒤에 있는 회사는 자체 Nasdaq 소득 펀드를 운영합니다."
       },
@@ -56960,60 +57024,6 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "JEPQ 보유자들은 지난 1년 동안 월간 수표를 쫓아 나스닥-100을 따라갔습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% 다우존스 53,225.50 −0.80% 나스닥 100 29,489.00 +0.06% 러셀 2000 2,971.64 +0.",
-            "작성자 Ryne Mauck 2026년 9월 4일 오후 5시 15분(ET 기준) 게시 · 3분 읽기 ETF 심사관 데스크."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.45%, 0.80%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "QQQ에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.45%",
-            "0.80%",
-            "0.06%",
-            "0.20%",
-            "$0.68255",
-            "$40.66 billion",
-            "21.21%",
-            "25.89%"
-          ],
-          "sourceExcerpt": [
-            "JEPQ Holders Trailed the Nasdaq-100 Over the Past Year While Chasing a Monthly Check - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
-            "By Ryne Mauck Published September 4, 2026, 5:15pm ET · 3 min read The ETF Examiner desk."
-          ],
-          "analysisUpdatedAt": 1788685421.6272547
-        },
         "headlineKo": "JEPQ 보유자들은 월간 수표를 쫓아 지난 1년 동안 Nasdaq-100을 따라갔습니다."
       },
       {
@@ -57025,16 +57035,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Invesco는 QQQ ETF를 지원합니다. 그것이 주식을 현명한 구매로 만듭니다."
-      },
-      {
-        "headline": "Breadth Recovery Gains Ground as SPY and QQQ Reclaim Their Short-Term Trend",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=1f15112db5c49d086eb54dfb630667d3da111989ee152f2373f370b6d6b8e922",
-        "datetime": 1788519032,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "SPY와 QQQ가 단기 추세를 회복하면서 폭 회복이 기반을 다졌습니다."
       },
       {
         "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
@@ -57090,6 +57090,69 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "It's Not Worth Buying VOO Or QQQ Anymore",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=44f3fe11fe61c2b78958df16f3840894fea030b437964de520df95e3c637730e",
+        "datetime": 1788687000,
+        "headlineKo": "더 이상 VOO나 QQQ를 구매할 가치가 없습니다.",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "규제·법무 · 비선형 위험",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "더 이상 VOO나 QQQ를 구매할 가치가 없습니다(NYSEARCA:VOO) | 알파 밀레니얼 배당금 추구 팔로워 10.28K 팔로우 요약 저는 수년간 Vanguard 500 Index ETF와 Invesco QQQ Trust ETF를 소유해 왔으며 현재는 각각 내 포트폴리오의 30%와 15%를 보유하고 있습니다.",
+            "19.6배의 포워드 P/E는 괜찮아 보이지만 Shiller의 CAPE는 42.38배로 2000년 이후 두 번째로 높습니다.",
+            "2분기 수익 증가율은 알파벳의 980억 달러와 아마존의 미실현 이익 534억 달러를 제외하면 52%에서 33.8%로 감소하여 향후 추정치의 기반이 평평해졌습니다."
+          ],
+          "why": [
+            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 30%, 15%, 52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 규제 적용일·대상 제품",
+            "회사의 매출 영향 추정",
+            "대체 제품·지역 판매"
+          ],
+          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1.0,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "30%",
+            "15%",
+            "52%",
+            "33.8%",
+            "$98",
+            "$53.4",
+            "37%",
+            "46%"
+          ],
+          "sourceExcerpt": [
+            "It's Not Worth Buying VOO Or QQQ Anymore (NYSEARCA:VOO) | Seeking Alpha Millennial Dividends 10.28K Followers Follow Summary I've owned Vanguard 500 Index ETF and Invesco QQQ Trust ETF for years, now 30% and 15% of my portfolio, respectivel",
+            "The 19.6x forward P/E looks fine, yet Shiller's CAPE at 42.38x is the second highest since 2000.",
+            "Q2 earnings growth drops from 52% to 33.8% excluding Alphabet's $98B and Amazon's $53.4B unrealized gains, flattening the base for forward estimates."
+          ],
+          "analysisUpdatedAt": 1788708144.982818
+        }
+      },
+      {
         "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=edf096e6792c207b0d0c8ecea67ebbe33d0294943b3f3486d6969b08c6574e5d",
@@ -57105,7 +57168,7 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ZEC 16.02% DOT",
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ARB 38.51% ICP",
             "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
             "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
@@ -57138,18 +57201,18 @@ const NEWS_DATA = {
             "0.53%",
             "0.39%",
             "0.18%",
-            "16.02%",
-            "3.96%",
-            "0.63%",
-            "0.13%",
-            "1.69%"
+            "38.51%",
+            "2.77%",
+            "13.54%",
+            "1.38%",
+            "5.57%"
           ],
           "sourceExcerpt": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ZEC 16.02% DOT ",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ARB 38.51% ICP ",
             "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
             "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
           ],
-          "analysisUpdatedAt": 1788685415.3523374
+          "analysisUpdatedAt": 1788708147.969596
         }
       },
       {
@@ -57212,7 +57275,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "By Ryne Mauck Published September 4, 2026, 5:45pm ET · 4 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1788685418.338343
+          "analysisUpdatedAt": 1788708150.4932523
         }
       },
       {
@@ -59039,17 +59102,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788685408.9303644,
-    "_updated_label": "2026-09-06 18:03",
+    "_fetched_at": 1788708138.7668097,
+    "_updated_label": "2026-09-07 00:22",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 50,
+      "checked": 51,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
-    "_last_attempt_at": 1788685408.9303644,
+    "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
-    "_last_success_at": 1788685408.9303644,
+    "_last_success_at": 1788708138.7668097,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -62229,7 +62292,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 80,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -65860,7 +65923,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -69151,7 +69214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788694967.7604375,
     "_earnings_status": "ok",
@@ -69226,7 +69289,7 @@ const NEWS_DATA = {
             "Help Michael Burry is going after Palantir Technologies ( PLTR -4.49% ) again.",
             "The investor of The Big Short fame laid out an accounting case against the artificial intelligence (AI) software specialist in a February post titled \"Palantir: An Accounting.\" This week he pressed the case again, arguing that Palantir's fi"
           ],
-          "analysisUpdatedAt": 1788685432.4630733
+          "analysisUpdatedAt": 1788708156.3345852
         },
         "headlineKo": "Michael Burry는 Palantir의 책이 소프트웨어 회사의 책보다는 컨설턴트의 책과 더 비슷하다고 말합니다."
       },
@@ -69276,7 +69339,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685434.645828
+          "analysisUpdatedAt": 1788708158.0903475
         },
         "headlineKo": "Adobe와 Palantir가 침몰하는 동안 AI 하드웨어는 반등했습니다. 어느 쪽이 옳은가?"
       },
@@ -69344,7 +69407,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685436.5432837
+          "analysisUpdatedAt": 1788708160.1788325
         },
         "headlineKo": "AI의 다음 승자는? Snowflake, CrowdStrike 및 Palantir에 대한 투자자 베팅"
       },
@@ -69430,7 +69493,7 @@ const NEWS_DATA = {
             "Help Michael Burry is going after Palantir Technologies ( PLTR -4.49% ) again.",
             "The investor of The Big Short fame laid out an accounting case against the artificial intelligence (AI) software specialist in a February post titled \"Palantir: An Accounting.\" This week he pressed the case again, arguing that Palantir's fi"
           ],
-          "analysisUpdatedAt": 1788685432.4630733
+          "analysisUpdatedAt": 1788708156.3345852
         }
       },
       {
@@ -69479,7 +69542,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685434.645828
+          "analysisUpdatedAt": 1788708158.0903475
         }
       },
       {
@@ -69546,7 +69609,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685436.5432837
+          "analysisUpdatedAt": 1788708160.1788325
         }
       },
       {
@@ -73080,17 +73143,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788685408.9303644,
-    "_updated_label": "2026-09-06 18:03",
+    "_fetched_at": 1788708138.7668097,
+    "_updated_label": "2026-09-07 00:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
-    "_last_attempt_at": 1788685408.9303644,
+    "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
-    "_last_success_at": 1788685408.9303644,
+    "_last_success_at": 1788708138.7668097,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -74990,7 +75053,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -76276,7 +76339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788694967.7604375,
     "_earnings_status": "ok",
@@ -76337,7 +76400,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685442.268523
+          "analysisUpdatedAt": 1788708165.289502
         },
         "headlineKo": "FormFactor, Entegris, Penguin Solutions, Teradyne 및 Marvell Technology 주식 거래, 알아야 할 사항"
       },
@@ -76386,7 +76449,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685444.6578026
+          "analysisUpdatedAt": 1788708166.778584
         },
         "headlineKo": "Marvell은 전망을 높였지만 Google 칩 수익이 정체되면서 하락했습니다. AI 보상에 가격이 책정되었나요? (검토 준비 중)"
       },
@@ -76450,7 +76513,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788685447.9446797
+          "analysisUpdatedAt": 1788708170.017801
         },
         "headlineKo": "Marvell 주식은 엄청난 한 해를 보냈고 여전히 최고치보다 훨씬 낮습니다."
       },
@@ -76574,7 +76637,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685442.268523
+          "analysisUpdatedAt": 1788708165.289502
         }
       },
       {
@@ -76622,7 +76685,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685444.6578026
+          "analysisUpdatedAt": 1788708166.778584
         }
       },
       {
@@ -76685,7 +76748,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788685447.9446797
+          "analysisUpdatedAt": 1788708170.017801
         }
       },
       {
@@ -80346,17 +80409,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788685408.9303644,
-    "_updated_label": "2026-09-06 18:04",
+    "_fetched_at": 1788708138.7668097,
+    "_updated_label": "2026-09-07 00:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
-    "_last_attempt_at": 1788685408.9303644,
+    "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
-    "_last_success_at": 1788685408.9303644,
+    "_last_success_at": 1788708138.7668097,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -81865,7 +81928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -83567,7 +83630,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -85056,7 +85119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -89274,7 +89337,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -90850,7 +90913,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788698687.9548266,
     "_earnings_status": "ok",
@@ -92410,7 +92473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -93924,7 +93987,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -95333,7 +95396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -97076,7 +97139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -98121,7 +98184,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788694967.7604375,
     "_earnings_status": "ok",
@@ -99468,7 +99531,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -100971,7 +101034,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -102152,7 +102215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -102811,7 +102874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788702407.1930053,
     "_earnings_status": "ok",
@@ -105105,7 +105168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -105705,7 +105768,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788691091.8600762,
     "_earnings_status": "ok",
@@ -105780,7 +105843,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788685454.6171021
+          "analysisUpdatedAt": 1788708175.346286
         },
         "headlineKo": "SK하이닉스, 메모리 입찰이 NAND를 넘어 확대되면서 7% 급등; 씨게이트 랠리 5%"
       },
@@ -105830,7 +105893,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685455.6950803
+          "analysisUpdatedAt": 1788708176.3863854
         },
         "headlineKo": "5년 전 Seagate Technology Hldgs에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
@@ -105880,7 +105943,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685457.9202518
+          "analysisUpdatedAt": 1788708178.4125915
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -105966,7 +106029,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788685454.6171021
+          "analysisUpdatedAt": 1788708175.346286
         }
       },
       {
@@ -106015,7 +106078,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685455.6950803
+          "analysisUpdatedAt": 1788708176.3863854
         }
       },
       {
@@ -106064,7 +106127,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685457.9202518
+          "analysisUpdatedAt": 1788708178.4125915
         }
       },
       {
@@ -106890,17 +106953,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788685408.9303644,
-    "_updated_label": "2026-09-06 18:04",
+    "_fetched_at": 1788708138.7668097,
+    "_updated_label": "2026-09-07 00:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
-    "_last_attempt_at": 1788685408.9303644,
+    "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
-    "_last_success_at": 1788685408.9303644,
+    "_last_success_at": 1788708138.7668097,
     "_collection_status": "ok"
   },
   "EME": {
@@ -106957,7 +107020,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685463.0463483
+          "analysisUpdatedAt": 1788708183.423976
         },
         "headlineKo": "시장이 하락함에 따라 Emcor Group(EME) 상승: 주요 사실"
       },
@@ -107007,7 +107070,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685465.132322
+          "analysisUpdatedAt": 1788708185.2531223
         },
         "headlineKo": "EMCOR는 연초 대비 21% 상승: 투자자는 지금 주식을 구매해야 할까요?"
       },
@@ -107057,7 +107120,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685467.3177888
+          "analysisUpdatedAt": 1788708187.5503597
         },
         "headlineKo": "월스트리트 분석가들이 낙관적으로 보이므로 Emcor Group(EME)을 매수해야 합니까?"
       },
@@ -107129,7 +107192,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685463.0463483
+          "analysisUpdatedAt": 1788708183.423976
         }
       },
       {
@@ -107178,7 +107241,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685465.132322
+          "analysisUpdatedAt": 1788708185.2531223
         }
       },
       {
@@ -107227,7 +107290,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788685467.3177888
+          "analysisUpdatedAt": 1788708187.5503597
         }
       },
       {
@@ -107892,17 +107955,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788685408.9303644,
-    "_updated_label": "2026-09-06 18:04",
+    "_fetched_at": 1788708138.7668097,
+    "_updated_label": "2026-09-07 00:23",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
-    "_last_attempt_at": 1788685408.9303644,
+    "_last_attempt_at": 1788708138.7668097,
     "_earnings_status": "ok",
-    "_last_success_at": 1788685408.9303644,
+    "_last_success_at": 1788708138.7668097,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -109099,7 +109162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_last_attempt_at": 1788706105.1860938,
     "_earnings_status": "ok",
@@ -109526,7 +109589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-06 23:51"
+      "updated": "2026-09-07 00:23"
     },
     "_fetched_at": 1788706105.1860938,
     "_updated_label": "2026-09-06 23:51",
