@@ -219,11 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Four killed in Israeli strikes on southern Lebanon - Reuters",
+      "headline": "OPEC+ keeps oil output policy unchanged for October - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEdjS0pVMy1JLXZFN0V6ZFhjdjNOOXpjRnUtYXdYZEdjbzNaR2R6TGU4UTRDVEdLazJuMS12eHp6d0hWQjI0ZzdhRTUtbVBqR3NhSGRES0UxbG1TZ29QX1hjaWZFNWs1RWNWV1E0azdPVDNIR2x4TGJYMzdDZ3YtVUN1VzZEam5Tb3pXYy1TejN0VFMxYjI1U3ByeFZDZmZ1UnFYX053R3N3YzhST3dSWGdB?oc=5",
+      "datetime": 1788696209,
+      "headlineKo": "OPEC+, 10월 원유 생산량 정책 유지 - reuters.com"
+    },
+    {
+      "headline": "AI data centers are transforming rural land markets — and fueling a backlash",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
+      "datetime": 1788696001,
+      "headlineKo": "AI 데이터 센터는 농촌 토지 시장을 변화시키고 반발을 불러일으키고 있습니다."
+    },
+    {
+      "headline": "Four killed in Israeli strikes on southern Lebanon - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
       "datetime": 1788668100,
-      "headlineKo": "레바논 남부 이스라엘 공격으로 4명 사망 - 로이터"
+      "headlineKo": "이스라엘, 레바논 남부 공습으로 4명 사망 - reuters.com"
+    },
+    {
+      "headline": "US, Iranian forces fire at vessels in waters near Iran - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
+      "datetime": 1788649761,
+      "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했다 - reuters.com"
     },
     {
       "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
@@ -233,18 +254,18 @@ const MARKET_DATA = {
       "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 속에 팔레스타인 마을 방문 - 로이터 통신"
     },
     {
-      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
+      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
       "datetime": 1788630274,
-      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - Reuters"
+      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - reuters.com"
     },
     {
-      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
+      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
       "datetime": 1788625193,
-      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다."
+      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다 - reuters.com"
     },
     {
       "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
@@ -254,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "나는 일본의 영양사입니다: 내가 맹세하는 7가지 '필수' 항염증 식품"
     },
     {
-      "headline": "US military strikes three Iranian crude oil carriers, Central Command says - Reuters",
+      "headline": "US military strikes three Iranian crude oil carriers, Central Command says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYnduS0xfeWF0NWZJUEpneWJOWTU3ZXNmUEZrVUY2a0U2b0FPejBkR21SMGxfRjVhWENDdUJOMTJKVm9MbjBBTkVTeHRGZmRfVkhKNnlyR1dySzBPUXBEUm1CVlVsQkhCTnlhMXBPMFM0NEJ5QTE0aDNxLU5SbzRVX09fZ3NpbnIycXVzZG9XM0dnb1JaS3pvbnI3UDUxNG1VUVhTWWFfbGQ5T2NQR0N6WnRzbzhINGlVRmRPUHhKT0xGVmhWc1E?oc=5",
       "datetime": 1788617770,
-      "headlineKo": "미군, 이란 원유운반선 3척을 공격했다고 중부사령부가 밝혔습니다 - 로이터 통신"
+      "headlineKo": "미군, 이란 원유운반선 3척을 공격했다고 중부사령부가 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Icons Dolly Parton and Gloria Steinem never officially retired—why that's a choice for some and requirement for others",
@@ -268,11 +289,11 @@ const MARKET_DATA = {
       "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
     },
     {
-      "headline": "PODCAST: Kharg Island, OpenAI agents, Germany's election and the return of CDs - Reuters",
+      "headline": "PODCAST: Kharg Island, OpenAI agents, Germany's election and the return of CDs - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXdrVVUyTWhkMVdicnlOVkYxaHI5cjlpaFE5LS1IVFNHc3RVMms2TnY2U1lyNmhQMlhpY09RLVozbngwdGo1QWoxaEM2dTA0aUY3TV9ZNUtscVdBOVQ3VGRzYzE1T3BRTG1hZmFrSnZ2T3A5d1U4VUk1WTZ0SUZGZ1FWOFUxelBNZnFrcFViUDJ2bU4wUDFSWWQwZ0dPZGx1ZlE?oc=5",
       "datetime": 1788612175,
-      "headlineKo": "팟캐스트: Kharg Island, OpenAI 에이전트, 독일의 선거 및 CD 반환 - Reuters"
+      "headlineKo": "팟캐스트: 카르그 섬, OpenAI 에이전트, 독일의 선거와 CD의 반환 - reuters.com"
     },
     {
       "headline": "US ambassador to Israel says there is no plan to force Palestinians out of Gaza - Reuters",
@@ -280,37 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTVYNkUxR29PRkZoM2ZrMGF0b0toaDNSbWthcG85cjNrZUpnZVMzUHpZRUpaMmpqNFBPSTRNUy16d2VyRUE5V1ExOUVuUDFWSFBzUW94bDY2U25yaGpiWWxWUjBsV0VIei1kZkdEMUw0S3VxVTAwZzcxVm1iU1NSeWotYm9KOTFWU3ZmSWFrekFiZHVfSEFpTUN0b2ttLVZNZTJQeHUwSGFvN2hwLWNiRWRGdG1oQjdrLU1jcXdwb0lqdw?oc=5",
       "datetime": 1788606703,
       "headlineKo": "이스라엘 주재 미국 대사 \"팔레스타인인들을 가자지구에서 쫓아낼 계획은 없다\" - 로이터 통신"
-    },
-    {
-      "headline": "Nvidia partner Hon Hai’s sales climb 52% with AI server momentum",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/nvidia-partner-hon-hai-s-sales-climb-52-with-ai-server-momentum",
-      "datetime": 1788598296,
-      "headlineKo": "Nvidia 파트너인 Hon Hai의 매출은 AI 서버 모멘텀으로 52% 증가"
-    },
-    {
-      "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788592560,
-      "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
-    },
-    {
-      "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
-      "datetime": 1788558731,
-      "headlineKo": "미국, 분석에 따르면 이란의 결혼식 공격이 미국 군수품에 의해 직접 타격을 받았을 가능성이 있다고 조사 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788695002.0918245,
-  "_updated_label": "2026-09-06 20:43",
-  "_last_attempt_at": 1788695002.0918245,
-  "_last_success_at": 1788695002.0918245,
+  "_fetched_at": 1788698717.9880238,
+  "_updated_label": "2026-09-06 21:45",
+  "_last_attempt_at": 1788698717.9880238,
+  "_last_success_at": 1788698717.9880238,
   "_collection_status": "ok",
   "_collection_errors": []
 };
