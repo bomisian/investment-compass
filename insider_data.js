@@ -1434,8 +1434,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788618430.3792171,
-    "_updated_label": "2026-09-05"
+    "_fetched_at": 1788691258.907304,
+    "_updated_label": "2026-09-06"
   },
   "INTC": {
     "transactions": [],
@@ -1942,8 +1942,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788618430.3792171,
-    "_updated_label": "2026-09-05"
+    "_fetched_at": 1788691258.907304,
+    "_updated_label": "2026-09-06"
   },
   "KLAC": {
     "transactions": [
@@ -2849,8 +2849,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788618430.3792171,
-    "_updated_label": "2026-09-05"
+    "_fetched_at": 1788691258.907304,
+    "_updated_label": "2026-09-06"
   },
   "ETN": {
     "transactions": [
