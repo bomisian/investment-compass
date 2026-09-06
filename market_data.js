@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran's government to raise fuel price for heavy users - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
+      "datetime": 1788722037,
+      "headlineKo": "이란 정부, 중유 사용자에 대한 연료 가격 인상 - 로이터"
+    },
+    {
+      "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXNmc1lpWkNYV0VUaVR4bDNpWTNMcTQ1VkFPYk5tZGFHbzk3Q3pOX0JtRW9Gc01kVnJ4RjRRVVl2aVpfSU1jN1JtelYxZUNIZV9Qb3M1U3J5Y0FMdkN6SV9sd3dPckdaWFFMWktOejFtUldxdUFDd0tMbjBzRzE5R0ZsQ1pPMG1ZNHJWTXQwNWVTT05PNmNFMElJbGVLenhLbEJ3?oc=5",
+      "datetime": 1788721170,
+      "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
+    },
+    {
       "headline": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2c0azRZQ0hqbEdRWlhzYlBWRGxQUU9NUmdOUVVtSm1WemlRVnRXd05VT0U4MkcyQjJGWVpHV0hvZHdLb0dIc1FIVDZyYUZ6SjlTYlV0NUtGZnBWckhpaHVYX1JGd3ZNZ1pCRVF4Z213dXk4ZGFNNVZtV19nNDNQOHZVX21Kei16R3pOZzVwS2Y2Zng2eVloNTVmSUx3RnZ2U09Mc1pNTWJGVjFsZ2N5Tm1IVzdOWnU5WWNXOC11SEY1a0poMG53?oc=5",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc25LWXEwUFU4bnJKZk1QZWVPMHV4NjlMcDUydTJCTFd1RzYtTG5qM0xsa1M5dW1WOVZqYlFlRXVRYWFrMldheHQ1a0RUMXNLRUZrbzU4clpaVFoycWVicDh1TmloUDdDVm9VNEtaRTlvd080Y1liekQwQVYxM0RjczlOSXA2RXFhc1V6dGR0R1g5aXpXX0NoMDlGZ2VqQ0RTNnlLV2NaTHpsOHJoSVFiU29ONXNqcVRq?oc=5",
       "datetime": 1788694183,
       "headlineKo": "러시아 라브로프는 라이프치히 드론 사건에 모스크바가 연루됐다는 비난을 '실제 전쟁의 시작'이라고 TASS가 보도했다."
-    },
-    {
-      "headline": "Israeli strikes kill seven in southern Lebanon - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
-      "datetime": 1788668100,
-      "headlineKo": "이스라엘, 레바논 남부에서 7명 사망 - 로이터"
-    },
-    {
-      "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
-      "datetime": 1788647352,
-      "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 가운데 팔레스타인 마을 방문 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788724834.898294,
-  "_updated_label": "2026-09-07 05:01",
-  "_last_attempt_at": 1788724834.898294,
-  "_last_success_at": 1788724834.898294,
+  "_fetched_at": 1788728594.8511128,
+  "_updated_label": "2026-09-07 06:03",
+  "_last_attempt_at": 1788728594.8511128,
+  "_last_success_at": 1788728594.8511128,
   "_collection_status": "ok",
   "_collection_errors": []
 };
