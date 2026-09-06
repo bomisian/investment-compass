@@ -222,8 +222,15 @@ const MARKET_DATA = {
       "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788644257,
+      "datetime": 1788649761,
       "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
+    },
+    {
+      "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
+      "datetime": 1788647352,
+      "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 속에 팔레스타인 마을 방문 - 로이터 통신"
     },
     {
       "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmd2SXBwYUJhclYxN0pLMDhjUXVmeHhzUTRPY0FsM3hPZlN4YkprT2Y0R0l6Z3U5UXNWVjRDcFJUN2NNa1FsaXlIejlDUXVpbWh4UWJNdUZzZUZpdGN5WkxQa24zYkktU191MTZsV0VwNXcwRzVPRHA4YjlCUUwwajE4akV3Y3pLX0thQXEtTTlSRkJRMGc?oc=5",
       "datetime": 1788552703,
       "headlineKo": "트럼프 \"미국, 곧 이란 곡괭이산 공격할 것\" - 로이터"
-    },
-    {
-      "headline": "Witkoff, Kushner heading abroad to discuss Ukraine peace, Trump says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYnRXT21udjdNRHZzVDZKVFFwTlY2WjYzMUJxclJwRUl5Z2plWUpZUXkwb05XejNsbFhiY2oxRlZpRFU0b0FONjBTaVh6LTNzbW9oWENaaGY5cXlkdjduWWFNT0FhRUFwbXJqNVRIRklaY2hyTXp1MGs5OENrNlJ2N1F0YTgzYXJha2YtU1FneU1rNlBYa0c2NDE2Z01VTi11RGY2blZOT2hLdWtlTl82SW0tR1BIdEgxVFZFa1p3?oc=5",
-      "datetime": 1788551051,
-      "headlineKo": "트럼프 “우크라이나 평화 논의 위해 해외로 간다” 위트코프·쿠슈너 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788657105.3884852,
-  "_updated_label": "2026-09-06 10:12",
-  "_last_attempt_at": 1788657105.3884852,
-  "_last_success_at": 1788657105.3884852,
+  "_fetched_at": 1788660958.150438,
+  "_updated_label": "2026-09-06 11:16",
+  "_last_attempt_at": 1788660958.150438,
+  "_last_success_at": 1788660958.150438,
   "_collection_status": "ok",
   "_collection_errors": []
 };
