@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
+      "datetime": 1788703442,
+      "headlineKo": "이란, 경제 문제 해결 위해 \"추가 공격은 더 고통스러울 것\" - 로이터 통신"
+    },
+    {
       "headline": "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
@@ -226,11 +233,11 @@ const MARKET_DATA = {
       "headlineKo": "'누구나 AI 비밀을 갖고 있다': 이 아티스트는 1년 동안 수백 건의 익명 AI 고백을 수집하고 공유했습니다."
     },
     {
-      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - reuters.com",
+      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
       "datetime": 1788702373,
-      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - reuters.com"
+      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - 로이터 통신"
     },
     {
       "headline": "Parents who are really good at handling tantrums do 5 things—their kids become more emotionally intelligent, says psychologist",
@@ -240,18 +247,18 @@ const MARKET_DATA = {
       "headlineKo": "짜증을 잘 다스리는 부모는 5가지 일을 합니다. 심리학자는 자녀가 감정적으로 더 똑똑해진다고 말합니다."
     },
     {
-      "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - reuters.com",
+      "headline": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
-      "datetime": 1788700232,
-      "headlineKo": "이란, 경제 문제 해결 위해 추가 공격은 '더 고통스러울 것' - reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdS1pLU5lZ2t0OVdmLTlYbjA2QzlpOWhNOVdVampxQVNMWWhERU11UnB3RlBkWUtnUDhXVUhEX0t2SERmSjB2NnUxVTVaYzZ5SWZjZEFVRGREOVYzWlRTYndMSFZqX1VSa2dzMTVoZHlyVUM5elNKaXlCRmFndThaSGwyb2ZSYmlENHNxZUpUWEVPd25mWVZKZFd1MThJN2E5VHluVl9R?oc=5",
+      "datetime": 1788697272,
+      "headlineKo": "카보베르데 포고 섬에서 버스 충돌로 최소 25명 사망 - 로이터 통신"
     },
     {
-      "headline": "OPEC+ keeps oil output policy unchanged for October - reuters.com",
+      "headline": "OPEC+ keeps oil output policy unchanged for October - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWEdjS0pVMy1JLXZFN0V6ZFhjdjNOOXpjRnUtYXdYZEdjbzNaR2R6TGU4UTRDVEdLazJuMS12eHp6d0hWQjI0ZzdhRTUtbVBqR3NhSGRES0UxbG1TZ29QX1hjaWZFNWs1RWNWV1E0azdPVDNIR2x4TGJYMzdDZ3YtVUN1VzZEam5Tb3pXYy1TejN0VFMxYjI1U3ByeFZDZmZ1UnFYX053R3N3YzhST3dSWGdB?oc=5",
       "datetime": 1788696209,
-      "headlineKo": "OPEC+, 10월 원유 생산량 정책 유지 - reuters.com"
+      "headlineKo": "OPEC+, 10월 원유 생산량 정책 유지 - Reuters"
     },
     {
       "headline": "AI data centers are transforming rural land markets — and fueling a backlash",
@@ -261,56 +268,49 @@ const MARKET_DATA = {
       "headlineKo": "AI 데이터 센터는 농촌 토지 시장을 변화시키고 반발을 불러일으키고 있습니다."
     },
     {
-      "headline": "Russia's Lavrov calls accusations of Moscow's involvement in Leipzig drone incident 'start of real war', TASS reports - reuters.com",
+      "headline": "Russia's Lavrov calls accusations of Moscow's involvement in Leipzig drone incident 'start of real war', TASS reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc25LWXEwUFU4bnJKZk1QZWVPMHV4NjlMcDUydTJCTFd1RzYtTG5qM0xsa1M5dW1WOVZqYlFlRXVRYWFrMldheHQ1a0RUMXNLRUZrbzU4clpaVFoycWVicDh1TmloUDdDVm9VNEtaRTlvd080Y1liekQwQVYxM0RjczlOSXA2RXFhc1V6dGR0R1g5aXpXX0NoMDlGZ2VqQ0RTNnlLV2NaTHpsOHJoSVFiU29ONXNqcVRq?oc=5",
       "datetime": 1788694183,
-      "headlineKo": "러시아의 라브로프는 라이프치히 드론 사건에 모스크바가 개입했다는 비난을 '실제 전쟁의 시작'이라고 TASS가 보도했습니다. - reuters.com"
+      "headlineKo": "러시아 라브로프는 라이프치히 드론 사건에 모스크바가 연루됐다는 비난을 '실제 전쟁의 시작'이라고 TASS가 보도했다."
     },
     {
-      "headline": "Israeli strikes kill four in southern Lebanon - reuters.com",
+      "headline": "Israeli strikes kill four in southern Lebanon - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
       "datetime": 1788668100,
-      "headlineKo": "이스라엘, 레바논 남부서 공습으로 4명 사망 - reuters.com"
+      "headlineKo": "이스라엘, 레바논 남부서 공습으로 4명 사망 - 로이터"
     },
     {
-      "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - reuters.com",
+      "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcHpLU3NTaHlMWHZGRnJIYmY5RGkzZkNPbnJyVXJLSmN4M3NyMjhZaUlzbDFURzZ4VW1LOTc2SFhqc05SMURsMV84dHZhcHhLcUhlM1AyNHlyWmVlYmdSbWp0Vl9xbjBqSGllSjlCVGxySDJRMl95ZFI4V1FwVjAwT2tzWWNWdjJqWnpKMjA3V1c2QzkzWFphemhVdWRIRW53YWNjNFlkMGlMOTZMZTc5NXVtZ1NKblFMVUZObzYtSEpsODAxNDlr?oc=5",
       "datetime": 1788647352,
-      "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 가운데 팔레스타인 마을 방문 - reuters.com"
+      "headlineKo": "미국 대사, 서안지구 정착민 폭력 증가 가운데 팔레스타인 마을 방문 - 로이터 통신"
     },
     {
-      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - reuters.com",
+      "headline": "Americans hit with record-high Labor Day Weekend gasoline prices - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
       "datetime": 1788630274,
-      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - reuters.com"
+      "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - Reuters"
     },
     {
-      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - reuters.com",
+      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
       "datetime": 1788625193,
-      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다 - reuters.com"
-    },
-    {
-      "headline": "I'm a nutritionist from Japan: 7 'essential' anti-inflammatory foods that I swear by",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/05/nutritionist-from-japan-essential-anti-inflammatory-foods-i-swear-by.html",
-      "datetime": 1788622201,
-      "headlineKo": "나는 일본의 영양사입니다: 내가 맹세하는 7가지 '필수' 항염증 식품"
+      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788706275.2475724,
-  "_updated_label": "2026-09-06 23:51",
-  "_last_attempt_at": 1788706275.2475724,
-  "_last_success_at": 1788706275.2475724,
+  "_fetched_at": 1788710020.4396036,
+  "_updated_label": "2026-09-07 00:54",
+  "_last_attempt_at": 1788710020.4396036,
+  "_last_success_at": 1788710020.4396036,
   "_collection_status": "ok",
   "_collection_errors": []
 };
