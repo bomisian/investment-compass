@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2c0azRZQ0hqbEdRWlhzYlBWRGxQUU9NUmdOUVVtSm1WemlRVnRXd05VT0U4MkcyQjJGWVpHV0hvZHdLb0dIc1FIVDZyYUZ6SjlTYlV0NUtGZnBWckhpaHVYX1JGd3ZNZ1pCRVF4Z213dXk4ZGFNNVZtV19nNDNQOHZVX21Kei16R3pOZzVwS2Y2Zng2eVloNTVmSUx3RnZ2U09Mc1pNTWJGVjFsZ2N5Tm1IVzdOWnU5WWNXOC11SEY1a0poMG53?oc=5",
+      "datetime": 1788707025,
+      "headlineKo": "소식통은 이스라엘 네타냐후가 웨스트 뱅크 정착민 전초 기지를 철거하라고 명령했다고 전합니다. - 로이터"
+    },
+    {
       "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
@@ -275,11 +282,11 @@ const MARKET_DATA = {
       "headlineKo": "러시아 라브로프는 라이프치히 드론 사건에 모스크바가 연루됐다는 비난을 '실제 전쟁의 시작'이라고 TASS가 보도했다."
     },
     {
-      "headline": "Israeli strikes kill four in southern Lebanon - Reuters",
+      "headline": "Israeli strikes kill seven in southern Lebanon - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
       "datetime": 1788668100,
-      "headlineKo": "이스라엘, 레바논 남부서 공습으로 4명 사망 - 로이터"
+      "headlineKo": "이스라엘, 레바논 남부에서 7명 사망 - 로이터"
     },
     {
       "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTFRnN3lrWTZLMXNUSW1MWWwxemVSc1RuaDM1dnhkWlZpbDJZT2t5dGYxRWlMa1RiblhPN0ttUzRHUDcwUGRVVEsyb092RTAzR3lZeDN6dFpRVDN4SjhlYng0Y082RjJSVEVZWkg4SnZ2SGtaNW1DbExVTklPMXZHdnVWZTZqbUZ6QkRYMU1mLWhyeEF5VzQ2anpJaThuVmNxSF8xWTBDRkNJVzMybTV0Rlo5dlFiUFk?oc=5",
       "datetime": 1788630274,
       "headlineKo": "미국인 노동절 주말 휘발유 가격 사상 최고치 기록 - Reuters"
-    },
-    {
-      "headline": "Fuel tanker explosion after traffic accident kills 10 in Western Iran, state media says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORW1OZWlZUzItUmdsYlhnaXMzU2djTWZBVERaNG4zbzhvZTcxaWtPaGJWamowRDgwTTZRX3Ftekl0bDgxMkJEdTZJbmVzei1ya245RGdiUEx4cHltelZzVTdZVlVhVUEza0dNZ0hqbFR1cTNYMHllLTAwRGdxVVVOazdEb1poa3lyTld2V0ZxR0VHZUNONVJlWFlGaXhKU0ZkamxkZ1N4Vkt4N0YzVmhDM3RYWnlmeE9FbVZzeWFZT0pLaFlwalpnQUVrRDk?oc=5",
-      "datetime": 1788625193,
-      "headlineKo": "이란 서부에서 교통사고 후 연료탱크 폭발로 10명이 사망했다고 국영 언론이 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788710020.4396036,
-  "_updated_label": "2026-09-07 00:54",
-  "_last_attempt_at": 1788710020.4396036,
-  "_last_success_at": 1788710020.4396036,
+  "_fetched_at": 1788713897.4515288,
+  "_updated_label": "2026-09-07 01:58",
+  "_last_attempt_at": 1788713897.4515288,
+  "_last_success_at": 1788713897.4515288,
   "_collection_status": "ok",
   "_collection_errors": []
 };
