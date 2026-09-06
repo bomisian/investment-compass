@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788660958.150438,
-  "_updated_label": "2026-09-06 11:16",
-  "_last_attempt_at": 1788660958.150438,
-  "_last_success_at": 1788660958.150438,
+  "_fetched_at": 1788664682.1954498,
+  "_updated_label": "2026-09-06 12:18",
+  "_last_attempt_at": 1788664682.1954498,
+  "_last_success_at": 1788664682.1954498,
   "_collection_status": "ok",
   "_collection_errors": []
 };
