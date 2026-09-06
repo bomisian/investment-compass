@@ -219,18 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Israeli military says it strikes southern Lebanon after Hezbollah launched drones - Reuters",
+      "headline": "Four killed in Israeli strikes on southern Lebanon - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
       "datetime": 1788668100,
-      "headlineKo": "이스라엘군은 헤즈볼라가 드론을 발사한 후 레바논 남부를 공격했다고 밝혔습니다."
-    },
-    {
-      "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "datetime": 1788649761,
-      "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
+      "headlineKo": "레바논 남부 이스라엘 공격으로 4명 사망 - 로이터"
     },
     {
       "headline": "US ambassador visits Palestinian town amid rise in West Bank settler violence - Reuters",
@@ -296,6 +289,13 @@ const MARKET_DATA = {
       "headlineKo": "Nvidia 파트너인 Hon Hai의 매출은 AI 서버 모멘텀으로 52% 증가"
     },
     {
+      "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
+      "datetime": 1788592560,
+      "headlineKo": "미국과 이란군이 이란 인근 해역에서 선박에 총격을 가했습니다."
+    },
+    {
       "headline": "US probes Iran wedding strike that analysis shows was likely direct hit by US munition - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdWJyTEVVNzlNV2lCVktTZkk3dHZpYUFndlRkdTVXMzlnR0hEMXZYVnN5U3V5dC1JMEpWVDMwZng4YjhUc3pfOVpiNWNwdDRwbHY1TFhMLWZFZFh3YlF2SVEwYnJjNGkzTlpGR0hsRkwyMkQ4QVRSdmV4Ykxtd0xZamtOYkNNUV90TzhWdnF5ejhGRGhxSHgtcmp0SGdFVkhUa2owblM0QnN0aDRpeXlnRlBHUDdqZnE5TmRjd2FuR1dyVE5qY3VsNFJHWQ?oc=5",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788691262.7076213,
-  "_updated_label": "2026-09-06 19:41",
-  "_last_attempt_at": 1788691262.7076213,
-  "_last_success_at": 1788691262.7076213,
+  "_fetched_at": 1788695002.0918245,
+  "_updated_label": "2026-09-06 20:43",
+  "_last_attempt_at": 1788695002.0918245,
+  "_last_success_at": 1788695002.0918245,
   "_collection_status": "ok",
   "_collection_errors": []
 };
