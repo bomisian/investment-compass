@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli military says it strikes southern Lebanon after Hezbollah launched drones - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
+      "datetime": 1788668100,
+      "headlineKo": "이스라엘군은 헤즈볼라가 드론을 발사한 후 레바논 남부를 공격했다고 밝혔습니다."
+    },
+    {
       "headline": "US, Iranian forces fire at vessels in waters near Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQY2dOV1l1QTdWZWR1S3p6cVMzb01JV2dhV3d5OVRfTzZ1RXZOLXJ0Z2lEU2lLemhDVklwS0x0c2xPRWdzZG1sT2owUHZkVjF5dEFQU1FMVmwzSUFPbUJBLUkzd01DcnVXNVRsZVhKUk9DenpjMWZ1aFBTOThRMWdQWHJtdlM5VWYwT3MyNVJmazlzb3B6dHJzXzI5QnZqTzhROENzMUpKMXhnVDZob25fWkItbnhTUEZSM0Ezb0hYYw?oc=5",
       "datetime": 1788556143,
       "headlineKo": "이스라엘, 헤즈볼라 드론 발사 후 레바논 남부 공습 - 로이터 통신"
-    },
-    {
-      "headline": "Judge weighs how to dismiss Reflecting Pool vandalism charge against Olympian",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html",
-      "datetime": 1788553329,
-      "headlineKo": "판사, 올림픽 선수에 대한 반사 수영장 기물 파손 혐의 기각 방법 검토"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788675933.8355467,
-  "_updated_label": "2026-09-06 15:25",
-  "_last_attempt_at": 1788675933.8355467,
-  "_last_success_at": 1788675933.8355467,
+  "_fetched_at": 1788679691.7146358,
+  "_updated_label": "2026-09-06 16:28",
+  "_last_attempt_at": 1788679691.7146358,
+  "_last_success_at": 1788679691.7146358,
   "_collection_status": "ok",
   "_collection_errors": []
 };
