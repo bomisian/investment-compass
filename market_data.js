@@ -268,6 +268,13 @@ const MARKET_DATA = {
       "headlineKo": "아이콘 Dolly Parton과 Gloria Steinem은 공식적으로 은퇴한 적이 없습니다. 이것이 어떤 사람에게는 선택이고 다른 사람에게는 요구 사항인 이유입니다."
     },
     {
+      "headline": "PODCAST: Kharg Island, OpenAI agents, Germany's election and the return of CDs - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOTXdrVVUyTWhkMVdicnlOVkYxaHI5cjlpaFE5LS1IVFNHc3RVMms2TnY2U1lyNmhQMlhpY09RLVozbngwdGo1QWoxaEM2dTA0aUY3TV9ZNUtscVdBOVQ3VGRzYzE1T3BRTG1hZmFrSnZ2T3A5d1U4VUk1WTZ0SUZGZ1FWOFUxelBNZnFrcFViUDJ2bU4wUDFSWWQwZ0dPZGx1ZlE?oc=5",
+      "datetime": 1788612175,
+      "headlineKo": "팟캐스트: Kharg Island, OpenAI 에이전트, 독일의 선거 및 CD 반환 - Reuters"
+    },
+    {
       "headline": "US ambassador to Israel says there is no plan to force Palestinians out of Gaza - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQTVYNkUxR29PRkZoM2ZrMGF0b0toaDNSbWthcG85cjNrZUpnZVMzUHpZRUpaMmpqNFBPSTRNUy16d2VyRUE5V1ExOUVuUDFWSFBzUW94bDY2U25yaGpiWWxWUjBsV0VIei1kZkdEMUw0S3VxVTAwZzcxVm1iU1NSeWotYm9KOTFWU3ZmSWFrekFiZHVfSEFpTUN0b2ttLVZNZTJQeHUwSGFvN2hwLWNiRWRGdG1oQjdrLU1jcXdwb0lqdw?oc=5",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/04/reflecting-pool-hearn-doj-trump-pirro.html",
       "datetime": 1788553329,
       "headlineKo": "판사, 올림픽 선수에 대한 반사 수영장 기물 파손 혐의 기각 방법 검토"
-    },
-    {
-      "headline": "Trump says US may hit Iran's Pickaxe Mountain soon - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZmd2SXBwYUJhclYxN0pLMDhjUXVmeHhzUTRPY0FsM3hPZlN4YkprT2Y0R0l6Z3U5UXNWVjRDcFJUN2NNa1FsaXlIejlDUXVpbWh4UWJNdUZzZUZpdGN5WkxQa24zYkktU191MTZsV0VwNXcwRzVPRHA4YjlCUUwwajE4akV3Y3pLX0thQXEtTTlSRkJRMGc?oc=5",
-      "datetime": 1788552703,
-      "headlineKo": "트럼프 \"미국, 곧 이란 곡괭이산 공격할 것\" - 로이터"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788672230.4901156,
-  "_updated_label": "2026-09-06 14:24",
-  "_last_attempt_at": 1788672230.4901156,
-  "_last_success_at": 1788672230.4901156,
+  "_fetched_at": 1788675933.8355467,
+  "_updated_label": "2026-09-06 15:25",
+  "_last_attempt_at": 1788675933.8355467,
+  "_last_success_at": 1788675933.8355467,
   "_collection_status": "ok",
   "_collection_errors": []
 };
