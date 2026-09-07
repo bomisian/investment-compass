@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.17400360107422,
+      "current": 99.1719970703125,
       "prevClose": 99.16000366210938,
-      "changeAbs": 0.01399993896484375,
-      "changePct": 0.014118534134537704,
+      "changeAbs": 0.011993408203125,
+      "changePct": 0.012095005808988158,
       "pctRank": 27.90143084260731,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.397398872792822,
-      "ma20": 99.3612003326416,
-      "ma60": 100.27073364257812,
-      "chg1m": -0.425994873046875,
-      "chg3m": -0.8759994506835938,
-      "chg1mPct": -0.4277057023826768,
-      "chg3mPct": -0.8755616431420019,
+      "drawdown1y": -2.3993736102691177,
+      "ma20": 99.36110000610351,
+      "ma60": 100.27070020039876,
+      "chg1m": -0.42800140380859375,
+      "chg3m": -0.8780059814453125,
+      "chg1mPct": -0.4297202915317319,
+      "chg3mPct": -0.8775671710785484,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,46 +219,53 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Asia shares bounce, others cautious as oil rises - reuters.com",
+      "headline": "Asia tech shares rally, others hesitant as oil rises - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
-      "headlineKo": "아시아 증시는 반등했고, 유가 상승에 다른 증시는 조심스럽다 - reuters.com"
+      "headlineKo": "아시아 기술주 랠리, 유가 상승에 주저하는 일부 - Reuters"
     },
     {
-      "headline": "Oil extends gains after US and Iran strike ships - reuters.com",
+      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
+      "datetime": 1788742920,
+      "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
+    },
+    {
+      "headline": "Oil extends gains after US and Iran strike ships - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
       "datetime": 1788740100,
-      "headlineKo": "미국과 이란이 선박을 공격한 후 유가 상승폭 확대 - reuters.com"
+      "headlineKo": "미국과 이란이 선박을 공격한 후 유가 상승폭 확대 - Reuters"
     },
     {
-      "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - reuters.com",
+      "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
       "datetime": 1788737340,
-      "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - reuters.com"
+      "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - Reuters"
     },
     {
-      "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - reuters.com",
+      "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXNmc1lpWkNYV0VUaVR4bDNpWTNMcTQ1VkFPYk5tZGFHbzk3Q3pOX0JtRW9Gc01kVnJ4RjRRVVl2aVpfSU1jN1JtelYxZUNIZV9Qb3M1U3J5Y0FMdkN6SV9sd3dPckdaWFFMWktOejFtUldxdUFDd0tMbjBzRzE5R0ZsQ1pPMG1ZNHJWTXQwNWVTT05PNmNFMElJbGVLenhLbEJ3?oc=5",
       "datetime": 1788729582,
-      "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다 - reuters.com"
+      "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
     },
     {
-      "headline": "At least 5 killed in Amazon Prime Air cargo plane crash in Miami - reuters.com",
+      "headline": "At least 5 killed in Amazon Prime Air cargo plane crash in Miami - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUxSZmhjRHBaRS1KVTJfWmUyVXFzOGs3NENFMU4wZFprQWVkX19CMGxSWlh0cW1GZzhYMWpIaWFjVWpSTUl3alNMY0lHVmlQOXlHRGZmNVJ0NElhN2UyOUN1MnozaFp0amh0YzV3VnhDX1VENFdjMk1aNU1IXzM4dWJjaXBRSzIxd3ZhOEtPRlppR3VMR01YRm1ZMlE3aWpIN0xURFhLSVpqLUFfWi1SaWdiTzZ1YnRqZGtGOQ?oc=5",
       "datetime": 1788723360,
-      "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - reuters.com"
+      "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - 로이터 통신"
     },
     {
-      "headline": "Iran's government to raise fuel price for heavy users - reuters.com",
+      "headline": "Iran's government to raise fuel price for heavy users - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
       "datetime": 1788722037,
-      "headlineKo": "이란 정부, 중유 사용자에 대한 연료 가격 인상 - reuters.com"
+      "headlineKo": "이란 정부, 중유 사용자에 대한 연료 가격 인상 - 로이터"
     },
     {
       "headline": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say - Reuters",
@@ -282,35 +289,28 @@ const MARKET_DATA = {
       "headlineKo": "짜증을 잘 다스리는 부모는 5가지 일을 합니다. 심리학자는 자녀가 감정적으로 더 똑똑해진다고 말합니다."
     },
     {
-      "headline": "Gulf stocks end mixed as US-Iran tensions linger - reuters.com",
+      "headline": "Gulf stocks end mixed as US-Iran tensions linger - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
       "datetime": 1788700063,
-      "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - reuters.com"
+      "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - Reuters"
     },
     {
-      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - reuters.com",
+      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
       "datetime": 1788698880,
-      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - reuters.com"
-    },
-    {
-      "headline": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdS1pLU5lZ2t0OVdmLTlYbjA2QzlpOWhNOVdVampxQVNMWWhERU11UnB3RlBkWUtnUDhXVUhEX0t2SERmSjB2NnUxVTVaYzZ5SWZjZEFVRGREOVYzWlRTYndMSFZqX1VSa2dzMTVoZHlyVUM5elNKaXlCRmFndThaSGwyb2ZSYmlENHNxZUpUWEVPd25mWVZKZFd1MThJN2E5VHluVl9R?oc=5",
-      "datetime": 1788697272,
-      "headlineKo": "카보베르데 포고 섬에서 버스 충돌로 최소 25명 사망 - 로이터 통신"
+      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788754834.9294732,
-  "_updated_label": "2026-09-07 13:21",
-  "_last_attempt_at": 1788754834.9294732,
-  "_last_success_at": 1788754834.9294732,
+  "_fetched_at": 1788758675.6736164,
+  "_updated_label": "2026-09-07 14:25",
+  "_last_attempt_at": 1788758675.6736164,
+  "_last_success_at": 1788758675.6736164,
   "_collection_status": "ok",
   "_collection_errors": []
 };
