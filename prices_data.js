@@ -111387,8 +111387,8 @@ const PRICES_DATA = {
       598519,
       530780
     ],
-    "_fetched_at": 1788700578.44666,
-    "_updated_label": "2026-09-06 22:16"
+    "_fetched_at": 1788773778.786689,
+    "_updated_label": "2026-09-07 18:36"
   },
   "VRT": {
     "dates": [

@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.029999732971191,
+      "current": 15.0600004196167,
       "prevClose": 14.529999732971191,
-      "changeAbs": 0.5,
-      "changePct": 3.4411562917335075,
-      "pctRank": 21.877486077963404,
+      "changeAbs": 0.5300006866455078,
+      "changePct": 3.6476303949465367,
+      "pctRank": 22.195704057279237,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.5942025691526,
-      "ma20": 15.078000020980834,
-      "ma60": 16.407499933242796,
-      "chg1m": 0.13000011444091797,
-      "chg3m": -3.890000343322754,
-      "chg1mPct": 0.8724840118736936,
-      "chg3mPct": -20.560255431482684,
+      "drawdown1y": -51.497581997871876,
+      "ma20": 15.07950005531311,
+      "ma60": 16.40799994468689,
+      "chg1m": 0.16000080108642578,
+      "chg3m": -3.859999656677246,
+      "chg1mPct": 1.0738309072668832,
+      "chg3mPct": -20.401689435052813,
       "lastDate": "2026-09-07",
       "bars": 1257,
       "symbol": "^VIX",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.85299682617188,
+      "current": 98.93299865722656,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.3070068359375,
-      "changePct": -0.309607527833132,
-      "pctRank": 24.24483306836248,
+      "changeAbs": -0.2270050048828125,
+      "changePct": -0.22892799162890182,
+      "pctRank": 25.27821939586645,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7133193264628486,
-      "ma20": 99.34514999389648,
-      "ma60": 100.26538352966308,
-      "chg1m": -0.7470016479492188,
-      "chg3m": -1.1970062255859375,
-      "chg1mPct": -0.7500016660575662,
-      "chg3mPct": -1.1964079850819223,
+      "drawdown1y": -2.6345851166664436,
+      "ma20": 99.34915008544922,
+      "ma60": 100.266716893514,
+      "chg1m": -0.6669998168945312,
+      "chg3m": -1.11700439453125,
+      "chg1mPct": -0.6696785412781274,
+      "chg3mPct": -1.1164461373913221,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "UAE builds alternative trade, energy routes after Iran attacks, official says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
+      "datetime": 1788770783,
+      "headlineKo": "UAE는 이란 공격 이후 대체 무역과 에너지 경로를 구축했다고 관계자는 밝혔습니다."
+    },
+    {
+      "headline": "Iran says to announce new restricted zone in the Gulf in the coming days - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
+      "datetime": 1788764220,
+      "headlineKo": "이란은 앞으로 며칠 안에 걸프 지역에 새로운 제한 구역을 발표할 것이라고 밝혔습니다 - 로이터"
+    },
+    {
       "headline": "Morning Bid: Diesel the real spoiler for US inflation doves - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVEpMZWxDcWdjVkVYRGdtakVZSGxsWVZfR2N5eFR4UTBRTzZWTmxMZXF3REFZeHBkelU2YXJQb21JZEtGNVNqQld1eTYxV3VpLXFzT1VEVEtQVUNxa3VQTW5mdE1OQ2JocmNrdW80bktWQWxfY2w2SmoxV2dfOWs?oc=5",
@@ -233,6 +247,13 @@ const MARKET_DATA = {
       "headlineKo": "인도 중앙은행이 루피를 지원하기 위해 개입했을 가능성이 있다고 거래자들은 말합니다 - Reuters"
     },
     {
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788751959,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
       "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
@@ -240,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
     },
     {
-      "headline": "Asia tech shares rally, others hesitate as oil climbs - Reuters",
+      "headline": "Stocks rattled by inflation risk from rising oil, dicey geopolitics - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
-      "headlineKo": "아시아 기술주 랠리, 유가 상승에 다른 사람들은 주저 - Reuters"
+      "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식이 요동쳤습니다 - Reuters"
     },
     {
       "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
@@ -254,11 +275,11 @@ const MARKET_DATA = {
       "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
     },
     {
-      "headline": "Oil extends gains after US and Iran exchange attacks on ships - Reuters",
+      "headline": "Oil prices hold near 6-week highs on US-Iran attacks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
       "datetime": 1788740100,
-      "headlineKo": "미국과 이란이 선박에 대한 공격을 주고받은 후 유가 상승폭 확대 - Reuters"
+      "headlineKo": "미국-이란 공격으로 유가가 6주래 최고치에 근접 - Reuters"
     },
     {
       "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - Reuters",
@@ -275,42 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
     },
     {
-      "headline": "At least 5 killed in Amazon Prime Air cargo plane crash in Miami - Reuters",
+      "headline": "At least five killed in Amazon Prime Air cargo plane crash in Miami - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUxSZmhjRHBaRS1KVTJfWmUyVXFzOGs3NENFMU4wZFprQWVkX19CMGxSWlh0cW1GZzhYMWpIaWFjVWpSTUl3alNMY0lHVmlQOXlHRGZmNVJ0NElhN2UyOUN1MnozaFp0amh0YzV3VnhDX1VENFdjMk1aNU1IXzM4dWJjaXBRSzIxd3ZhOEtPRlppR3VMR01YRm1ZMlE3aWpIN0xURFhLSVpqLUFfWi1SaWdiTzZ1YnRqZGtGOQ?oc=5",
       "datetime": 1788723360,
       "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - 로이터 통신"
-    },
-    {
-      "headline": "Iran's government to raise fuel price for heavy users - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZzl2bnVkTGFvdGg5UXU3LXk1ZUNSWlVtajg2NFFCd1JkMzhHSVVfeVd0djRKSHpCa2xpVkVJTG1Ra0hwNWVNQkY3VVg0NmpXRXBFMFFSbFM1SERFb1Fna2V6a1h0WjhYWHQyYl84cWhQalRPamRqWVBUWVhWLXY1U2QzeUF5UjVfd3NEcHlLMUx3MDJSR0ZvcHRYYjFkdw?oc=5",
-      "datetime": 1788722037,
-      "headlineKo": "이란 정부, 중유 사용자에 대한 연료 가격 인상 - 로이터"
-    },
-    {
-      "headline": "Israel's Netanyahu orders West Bank settler outposts to be removed, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNN2c0azRZQ0hqbEdRWlhzYlBWRGxQUU9NUmdOUVVtSm1WemlRVnRXd05VT0U4MkcyQjJGWVpHV0hvZHdLb0dIc1FIVDZyYUZ6SjlTYlV0NUtGZnBWckhpaHVYX1JGd3ZNZ1pCRVF4Z213dXk4ZGFNNVZtV19nNDNQOHZVX21Kei16R3pOZzVwS2Y2Zng2eVloNTVmSUx3RnZ2U09Mc1pNTWJGVjFsZ2N5Tm1IVzdOWnU5WWNXOC11SEY1a0poMG53?oc=5",
-      "datetime": 1788707025,
-      "headlineKo": "소식통은 이스라엘 네타냐후가 웨스트 뱅크 정착민 전초 기지를 철거하라고 명령했다고 전합니다. - 로이터"
-    },
-    {
-      "headline": "'Everyone has an AI secret': This artist has spent a year collecting and sharing hundreds of anonymous AI confessions",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
-      "datetime": 1788703201,
-      "headlineKo": "'누구나 AI 비밀을 갖고 있다': 이 아티스트는 1년 동안 수백 건의 익명 AI 고백을 수집하고 공유했습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788769852.9219441,
-  "_updated_label": "2026-09-07 17:31",
-  "_last_attempt_at": 1788769852.9219441,
-  "_last_success_at": 1788769852.9219441,
+  "_fetched_at": 1788773748.8178687,
+  "_updated_label": "2026-09-07 18:36",
+  "_last_attempt_at": 1788773748.8178687,
+  "_last_success_at": 1788773748.8178687,
   "_collection_status": "ok",
   "_collection_errors": []
 };
