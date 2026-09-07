@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.0979995727539,
+      "current": 99.15599822998047,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.06200408935546875,
-      "changePct": -0.06252933346669641,
-      "pctRank": 27.027027027027028,
+      "changeAbs": -0.00400543212890625,
+      "changePct": -0.004039362627047572,
+      "pctRank": 27.58346581875994,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.472198624651667,
-      "ma20": 99.35740013122559,
-      "ma60": 100.26946690877278,
-      "chg1m": -0.5019989013671875,
-      "chg3m": -0.9520034790039062,
-      "chg1mPct": -0.5040149689335799,
-      "chg3mPct": -0.9515276861225245,
+      "drawdown1y": -2.4151189505268955,
+      "ma20": 99.36030006408691,
+      "ma60": 100.2704335530599,
+      "chg1m": -0.444000244140625,
+      "chg3m": -0.8940048217773438,
+      "chg1mPct": -0.4457833844806623,
+      "chg3mPct": -0.893558015500367,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,18 +219,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Oil extends gains after US and Iran strike ships - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
+      "datetime": 1788740100,
+      "headlineKo": "미국과 이란이 선박을 공격한 후 유가 상승폭 확대 - Reuters"
+    },
+    {
       "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXNmc1lpWkNYV0VUaVR4bDNpWTNMcTQ1VkFPYk5tZGFHbzk3Q3pOX0JtRW9Gc01kVnJ4RjRRVVl2aVpfSU1jN1JtelYxZUNIZV9Qb3M1U3J5Y0FMdkN6SV9sd3dPckdaWFFMWktOejFtUldxdUFDd0tMbjBzRzE5R0ZsQ1pPMG1ZNHJWTXQwNWVTT05PNmNFMElJbGVLenhLbEJ3?oc=5",
       "datetime": 1788729582,
       "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
-    },
-    {
-      "headline": "US envoys hope for new Ukraine-Russia talks soon after visits to both capitals - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnlRblpUWUNHMjMteEdBa0JYZk5MeFJQRjlEa3dUdGtDY0xfZEs5Y2dCcV8yNEhSTHYzem9SVVVYS1NBZnc4U29BSEcydHp4cUx5bFZSUmZ1QXFsNHlFRGgtbGJ2WmZMRTZzdjhrTWY1b1BDMlFnQTlWXzRLU056OGV2TUlRdkdTdjRkMFpTNi02X1Y4MU5sMEF4WF8wcVpDNmNJUmFvXzRZeV91N2dKUDNJN1FWdkg3RHpReHVoNA?oc=5",
-      "datetime": 1788725214,
-      "headlineKo": "미국 특사, 두 수도 방문 후 곧 새로운 우크라이나-러시아 회담 희망 - 로이터"
     },
     {
       "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788743367.3150384,
-  "_updated_label": "2026-09-07 10:09",
-  "_last_attempt_at": 1788743367.3150384,
-  "_last_success_at": 1788743367.3150384,
+  "_fetched_at": 1788747107.7257147,
+  "_updated_label": "2026-09-07 11:12",
+  "_last_attempt_at": 1788747107.7257147,
+  "_last_success_at": 1788747107.7257147,
   "_collection_status": "ok",
   "_collection_errors": []
 };
