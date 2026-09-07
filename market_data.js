@@ -3,23 +3,23 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 14.529999732971191,
-      "prevClose": 14.319999694824219,
-      "changeAbs": 0.21000003814697266,
-      "changePct": 1.466480744569251,
-      "pctRank": 17.51592356687898,
+      "current": 15.029999732971191,
+      "prevClose": 14.529999732971191,
+      "changeAbs": 0.5,
+      "changePct": 3.4411562917335075,
+      "pctRank": 21.877486077963404,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -53.20450856685199,
-      "ma20": 15.099500036239624,
-      "ma60": 16.48099994659424,
-      "chg1m": -0.619999885559082,
-      "chg3m": -6.9800004959106445,
-      "chg1mPct": -4.092408588583378,
-      "chg3mPct": -32.45002520519959,
-      "lastDate": "2026-09-04",
-      "bars": 1256,
+      "drawdown1y": -51.5942025691526,
+      "ma20": 15.078000020980834,
+      "ma60": 16.407499933242796,
+      "chg1m": 0.13000011444091797,
+      "chg3m": -3.890000343322754,
+      "chg1mPct": 0.8724840118736936,
+      "chg3mPct": -20.560255431482684,
+      "lastDate": "2026-09-07",
+      "bars": 1257,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
       "unit": "",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.11599731445312,
+      "current": 98.85299682617188,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.04400634765625,
-      "changePct": -0.04437913072916266,
-      "pctRank": 27.186009538950717,
+      "changeAbs": -0.3070068359375,
+      "changePct": -0.309607527833132,
+      "pctRank": 24.24483306836248,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.454486055425098,
-      "ma20": 99.35830001831054,
-      "ma60": 100.26976687113444,
-      "chg1m": -0.48400115966796875,
-      "chg3m": -0.9340057373046875,
-      "chg1mPct": -0.4859449468703817,
-      "chg3mPct": -0.9335389393456671,
+      "drawdown1y": -2.7133193264628486,
+      "ma20": 99.34514999389648,
+      "ma60": 100.26538352966308,
+      "chg1m": -0.7470016479492188,
+      "chg3m": -1.1970062255859375,
+      "chg1mPct": -0.7500016660575662,
+      "chg3mPct": -1.1964079850819223,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Morning Bid: Diesel the real spoiler for US inflation doves - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVEpMZWxDcWdjVkVYRGdtakVZSGxsWVZfR2N5eFR4UTBRTzZWTmxMZXF3REFZeHBkelU2YXJQb21JZEtGNVNqQld1eTYxV3VpLXFzT1VEVEtQVUNxa3VQTW5mdE1OQ2JocmNrdW80bktWQWxfY2w2SmoxV2dfOWs?oc=5",
+      "datetime": 1788755640,
+      "headlineKo": "아침 입찰: 디젤은 미국 인플레이션 비둘기의 진짜 스포일러입니다 - Reuters"
+    },
+    {
+      "headline": "Indian central bank likely intervened to support rupee, traders say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkppSlJtNjIzeHN6TVJMam0yMGZSSGhrVFlnTDhqY2pIeHpmdS13RGc0bUQ0TUQwQjdaRHJyalp0bE9JN01oR2xPLUlzU0R4NDhvSHgwVHNPbWZjcEF0QU1IdFVtajhHS2ZwdzVuSENObEo3dkVtcHZGQ3RXZVY1ejdHOVlFSlE3SlJ1Q1VOQ0NFRTdwU0JNNlQ4dHBsWjd6ZER5cm5CYjlEbUdUUU5JRw?oc=5",
+      "datetime": 1788752700,
+      "headlineKo": "인도 중앙은행이 루피를 지원하기 위해 개입했을 가능성이 있다고 거래자들은 말합니다 - Reuters"
+    },
+    {
       "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
@@ -226,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
     },
     {
-      "headline": "Asia tech shares rally, others hesitant as oil rises - Reuters",
+      "headline": "Asia tech shares rally, others hesitate as oil climbs - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
-      "headlineKo": "아시아 기술주 랠리, 유가 상승에 주저하는 일부 - Reuters"
+      "headlineKo": "아시아 기술주 랠리, 유가 상승에 다른 사람들은 주저 - Reuters"
     },
     {
       "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/06/artists-ai-secrets-project-collects-hundreds-of-anonymous-confessions.html",
       "datetime": 1788703201,
       "headlineKo": "'누구나 AI 비밀을 갖고 있다': 이 아티스트는 1년 동안 수백 건의 익명 AI 고백을 수집하고 공유했습니다."
-    },
-    {
-      "headline": "Parents who are really good at handling tantrums do 5 things—their kids become more emotionally intelligent, says psychologist",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/06/parents-who-are-really-good-at-handling-tantrums-do-things-psychologist.html",
-      "datetime": 1788701761,
-      "headlineKo": "짜증을 잘 다스리는 부모는 5가지 일을 합니다. 심리학자는 자녀가 감정적으로 더 똑똑해진다고 말합니다."
-    },
-    {
-      "headline": "Gulf stocks end mixed as US-Iran tensions linger - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
-      "datetime": 1788700063,
-      "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - Reuters"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788766155.02996,
-  "_updated_label": "2026-09-07 16:29",
-  "_last_attempt_at": 1788766155.02996,
-  "_last_success_at": 1788766155.02996,
+  "_fetched_at": 1788769852.9219441,
+  "_updated_label": "2026-09-07 17:31",
+  "_last_attempt_at": 1788769852.9219441,
+  "_last_success_at": 1788769852.9219441,
   "_collection_status": "ok",
   "_collection_errors": []
 };
