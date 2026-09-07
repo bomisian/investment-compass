@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788779454.5663602,
+  "generatedAt": 1788781446.319676,
   "records": {
     "MSFT": [
       {
@@ -6770,6 +6770,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1788781446.319676,
+        "dataAsOf": 1788659400,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -4.02,
+            "after": -4.55
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Elon Musk는 자신의 새 주조소에서 가스 터빈을 18개월 더 빠르게 온라인에 구축할 수 있다고 말합니다. 이 \"심오한 게임 체인저\"가 SpaceX와 Tesla에 의미하는 바는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=a7ddfa76d72c5e3c87b19596fd4877ebbb7605cf8cac1b7c04c396777e01024d",
+        "eventId": "ecf752c89ea4b806ecf3",
+        "fingerprint": "{\"changes\": [{\"after\": -4.55, \"before\": -4.02, \"key\": \"growth\", \"label\": \"성장성\"}], \"eventId\": \"ecf752c89ea4b806ecf3\"}"
+      },
+      {
         "changedAt": 1788735763.9262784,
         "dataAsOf": 1788659400,
         "changes": [
@@ -8686,6 +8703,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "CRM": [
+      {
+        "changedAt": 1788781446.319676,
+        "dataAsOf": 1788447600.0,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.75,
+            "after": 2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.87,
+            "after": 1.22
+          }
+        ],
+        "cause": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+        "newsHeadline": "CRM SEC Form 8-K 공식 제출",
+        "newsUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000197/crm-20260902.htm",
+        "eventId": "cf40304f418ac01b0cf2",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.22, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"cf40304f418ac01b0cf2\"}"
+      },
       {
         "changedAt": 1788758673.344052,
         "dataAsOf": 1788447600.0,
@@ -13501,6 +13541,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "QCOM": [
+      {
+        "changedAt": 1788781446.319676,
+        "dataAsOf": 1788696000,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.62,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -5,
+            "after": -4.2
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.62,
+            "after": -2.1
+          }
+        ],
+        "cause": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+        "newsHeadline": "이번 주 시장에서 기대할 사항: 새로운 인플레이션 데이터; Apple의 가을 출시 이벤트 및 Oracle 수익",
+        "newsUrl": "https://finnhub.io/api/news?id=a876fa71b6bc53ea066d0e2325f8fbe65043d92090aa2308363b37b4080eeba9",
+        "eventId": "ccbd6fbf419bb01004a5",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.2, \"before\": -5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.1, \"before\": -2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ccbd6fbf419bb01004a5\"}"
+      },
       {
         "changedAt": 1788750997.7770286,
         "dataAsOf": 1788696000,
@@ -24176,6 +24245,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1788781446.319676,
+        "dataAsOf": 1788574392,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.75,
+            "after": 2.27
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": 0.0
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 1.57
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의",
+        "newsUrl": "https://finnhub.io/api/news?id=fdf5335c10e11621038f4cafb4041e1163de35450be064a4856316c862ce12e4",
+        "eventId": "e799cbdf421216e4335e",
+        "fingerprint": "{\"changes\": [{\"after\": 2.27, \"before\": 1.75, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.0, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.57, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e799cbdf421216e4335e\"}"
+      },
       {
         "changedAt": 1788750997.7770286,
         "dataAsOf": 1788574392,
