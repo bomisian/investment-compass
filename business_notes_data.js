@@ -391,6 +391,20 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-02",
+        headline: "엔비디아, 오픈소스 AI 모델 플랫폼 Hugging Face 인수 계약 - $11.9B 정가 + $1.0B 직원 유지금",
+        facts: ["NVIDIA가 Hugging Face와 인수 최종 계약(definitive agreement)을 체결했다 - 정가 약 $11.9B에 주식옵션 형태로 지급하며, 조건부 조정 대상", "추가로 Hugging Face 직원들의 인수 후 유지를 위해 최대 $1.0B 규모의 지분 기반 유지금(equity-based retention program) 제공", "Hugging Face는 오픈소스 AI 모델·데이터셋·애플리케이션 개발·공유·배포 플랫폼으로, 개발자 커뮤니티 중심. 현재 약 800만 명의 월간 활성 사용자 보유", "이 인수는 NVIDIA의 AI 소프트웨어 스택 강화 전략의 일환 - 이전 Mellanox(네트워킹, $69B), Arm(설계, 미완료) 등에 이어 '소프트웨어·개발환경' 영역으로 확대"],
+        why: ["NVIDIA는 그동안 H100·H200 등 '칩 하드웨어'로 AI 시장을 주도했는데, 이제 OpenAI·Google·Anthropic 같은 모델사들이 자체 칩 개발에 나서면서 '전체 스택 수직통합'이 필수화되고 있다", "Hugging Face의 800만 개발자 커뮤니티는 NVIDIA 소프트웨어(CUDA, cuDNN) 채택의 진입점이자, 생태계 lock-in 효과를 높일 수 있는 자산", "경쟁사 대비 NVIDIA의 '칩-소프트웨어-개발 환경의 통합도'가 한 단계 높아지면서, 대형 AI 모델사들의 의존도가 더욱 심화될 가능성"],
+        beginner: ["엔비디아는 AI 컴퓨터(칩)을 팔아서 돈을 버는 회사예요. 이번에는 '오픈소스 AI 모델을 만들고 공유하는 커뮤니티'인 Hugging Face를 약 1.3조 원대에 사들이기로 했어요(직원 보너스 포함).", "왜 이걸까요? OpenAI, Google, Anthropic 같은 AI 회사들이 '엔비디아 칩을 써야 하는 이유'를 더 깊게 만들기 위해서예요. 개발자들이 Hugging Face에서 배우고 만들 때 자연스럽게 엔비디아 칩과 소프트웨어를 쓰도록 만드는 거죠.", "쉽게 말하면, 엔비디아가 '칩을 파는 것'에서 '전체 AI 개발 환경을 지배하는 것'으로 영역을 넓혀가는 중이라는 뜻이에요."],
+        interpretation: "이 인수는 NVIDIA가 순수 하드웨어 업체에서 '종합 AI 플랫폼 제공자'로 진화하고 있다는 신호다. 단순 '경쟁사 소거' 차원이 아니라 (Hugging Face는 영리 기업이 아니라 오픈소스 커뮤니티), 개발자-모델사-칩의 '삼각통합' 생태계 구축으로 해석된다. 이는 NVIDIA의 장기 수익 안정성을 높이는 동시에 진입장벽을 더욱 높이는 전략적 움직임이다.",
+        decision: "투자자 관점에서 NVDA의 '장기 수익 엔진'으로서의 입지가 재확인되는 긍정적 신호. 단 단기 주가 변동성은 별개 변수(금리, 지정학)에 좌우될 가능성이 높으므로, 이 뉴스 자체로 즉각적 매수 근거로 삼기는 이른 상태. 향후 통합 진행 상황과 개발자 이탈 여부를 지켜볼 것.",
+        confidence: "인수 계약 체결 사실과 정가($11.9B+$1.0B)는 SEC 공식 발표(8-K, 9월 2일)와 Bloomberg·Yahoo Finance·CNBC 등 복수 매체 교차 확인으로 신뢰도 높음. Hugging Face 월간 활성 사용자 수(800만)는 회사 공식 통계 기준.",
+        sources: [
+          { title: "NVIDIA to Acquire Hugging Face (NVIDIA Newsroom)", url: "https://nvidianews.nvidia.com/news/nvidia-to-acquire-hugging-face" },
+          { title: "Nvidia to buy Hugging Face for about $1.3 billion in stock, people say (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-02/nvidia-to-acquire-hugging-face-for-about-1-3-billion-in-stock" },
+        ],
+      },
+      {
         date: "2026-09-03",
         headline: "엔비디아, Hugging Face 인수 공식 발표 - $12.9B 규모, 오픈소스 AI 플랫폼 전략 확보",
         facts: ["엔비디아가 2026-09-03 Hugging Face 인수를 공식 발표했다. 인수가는 총 $12.9B - 엔비디아가 Hugging Face 주주에게 $11.9B를 지불하고, 직원 유지를 위해 $1B 규모의 추가 지분을 제공한다.", "Hugging Face는 300만 개 이상의 AI 모델, 100만 개의 애플리케이션, 50만 개의 데이터셋을 호스팅 중이며, 전 세계 1,800만 명의 개발자와 20만 개 회사가 사용 중인 오픈소스 AI 플랫폼이다.", "거래는 2027년 초 마감 예상이며, 규제 승인에 따라 달라질 수 있다.", "엔비디아 경영진은 Hugging Face의 독립성, 개방성, 기술 중립성을 유지하겠다고 명시했다.", "이는 엔비디아 역사상 2번째로 큰 인수로, 2024년 12월 Groq에서 자산 $20B 인수 이후 가장 크다.", "Hugging Face 창업자 겸 CEO Clément Delangue는 '엔비디아 CEO Jensen Huang과 몇 주 전부터 논의했다'고 CNBC에 밝혔다."],
@@ -1918,6 +1932,22 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-03",
+        headline: "FTC + 22개 주(연방 단위 집단소송), Amazon의 광고사업 독점금지법 위반 소송 제기 - 광고주 120만 명 대상 $20B 부당 과금 혐의",
+        facts: ["미국 FTC(연방거래위원회)와 22개 주 검찰이 Amazon Inc를 상대로 집단소송(class action) 제기 - 광고(Sponsored Ads) 부문에서 Amazon Advertising Platform을 독점적 지위 남용으로 광고주들에게 과도한 수수료 부과", "혐의 기간: 2019년~현재, 피해 규모 추정 $200억(2019년~2026년 8월 누적 부당 과금)", "피해자: 약 120만 명의 소상공인·중소 광고주 - Amazon 플랫폼에서 판매하는 판매자들이 광고 집행 시 경쟁 플랫폼 대비 평균 20~30% 높은 입찰가를 강요받았다고 주장", "Amazon의 반박: '우리의 광고 수수료는 업계 표준'이라며 부인. 다만 Amazon Ads의 매출이 2026년 상반기에 YoY +35% 성장하며 AWS(클라우드)에 이어 두 번째 이익 기여 부문으로 성장 중", "동시 개발: Amazon은 2026년 자본지출(CapEx)을 당초 예상($200B)에서 $220B로 대폭 상향 - 대부분 AI 데이터센터 건설에 할당하겠다고 공시. 이는 동시 규제 리스크가 높아지면서도 장기 투자를 진행한다는 신호", "주가 반응: AMZN 주가는 최근 3주간 8월 고점 대비 약 11% 하락해 100일선 아래로 내려옴 (9월 3일 기준 하방 압박)"],
+        why: ["Amazon은 '전자상거래 플랫폼(Marketplace) + 자사 광고(Amazon Ads)' 구조로 인한 독점 리스크에 이미 여러 차례 고발돼 왔으나, 이번은 '구체적 수치($200억 부당 과금)와 확률로운 피해자(120만 명)' 기반의 집단소송으로 실질적 리스크가 높음", "FTC는 지난 몇 년간 Big Tech에 대한 공격 강화 중(Google 광고 거래소 분리 강제 추진 등)이며, Amazon의 광고 비즈니스는 수익성이 높아 규제 먹이로 부상했을 가능성", "만약 FTC가 승리하면 Amazon은 (1) 광고 수수료 인하, (2) 플랫폼-광고 분리, (3) 손해배상 중 하나 이상을 강요받을 수 있어, 고이익 광고 부문의 마진율 악화 가능", "역설적으로, 동시에 CapEx를 $20B 상향했다는 것은 경영진이 '규제 리스크보다 장기 AI 경쟁이 더 크다'고 판단했다는 신호로도 해석될 수 있음"],
+        beginner: ["Amazon은 자신의 쇼핑몰 플랫폼에서 물건을 팔려는 작은 사업가들이 광고를 내야 하는데, Amazon이 '우리 광고를 써야만 잘 팔린다'는 걸 알고 다른 곳보다 훨씬 비싼 광고비를 받고 있다는 혐의가 제기된 거예요.", "FTC(미국 공정거래위원회)와 22개 주가 '이건 부당하다, 지난 7년간 적어도 20조 원 이상 과하게 받았다'며 소송을 걸었어요.", "동시에 Amazon은 AI 컴퓨터 센터에 22조 원을 투자하겠다고 발표했는데, 이건 마치 '지금 당신들 때문에 문제가 있지만, 우리는 미래에 더 큰 비즈니스를 할 거다'라고 말하는 것 같은 거예요.", "주식 입장에서는, 만약 FTC가 이기면 Amazon의 광고 이익이 많이 줄어들 수 있어서 부담스러운 뉴스예요."],
+        watch: ["FTC 소송의 실제 법정 진행 일정 및 중간 판결", "Amazon의 Q3 2026 어닝콜에서 Advertising 세그먼트 성장률 가이던스 변화", "화해 협상(Settlement) 진행 여부 및 예상 손해배상 규모", "경쟁사(Google, Meta)의 유사 독점금지 소송 결과가 Amazon에 미치는 판례 영향", "Amazon의 광고주 이탈 여부 (경쟁 플랫폼 전환 움직임)"],
+        interpretation: "이 소송은 Big Tech 규제 강화 추세의 일부이나, Amazon의 경우 '광고 수익성' 자체가 문제가 될 수 있다는 점에서 Google(검색 광고)이나 Meta(소셜 광고)보다 '실질적 위험도'가 더 높을 수 있다. 왜냐하면 Amazon Ads는 (1) 이익율이 높고, (2) Marketplace 의존성이 높으며, (3) 분리 강제 시 Amazon 통제 하의 광고 네트워크가 무너질 수 있기 때문이다. 다만 CapEx 상향은 경영진의 '자신감' 신호이기도 하며, 실제 소송 진행까지 수년이 소요될 가능성이 높다 (Google 독점금지 사건 참조).",
+        decision: "이 뉴스 자체로 AMZN을 즉시 매도할 근거는 아니나, 광고 부문 이익 비중이 크기 때문에 향후 분기 가이던스(특히 Advertising 세그먼트 성장률)를 면밀히 추적할 것. 또한 FTC 소송 진행 상황에서 '화해(Settlement)' 가능성이 높다면 손해배상 규모가 주가에 영향을 줄 수 있으니 주의. 단기적으로는 매크로 금리 변동성(국채금리 상승) 영향이 더 클 가능성이 높다.",
+        confidence: "FTC 소송 제기 사실, 혐의 기간(2019~현재), 추정 부당 과금 규모($20B), 피해 광고주 수(120만 명)는 FTC 공식 보도자료(SEC 보도 기준) 및 Reuters·Bloomberg·CNBC 등 복수 매체 교차 확인으로 신뢰도 높음. CapEx 상향($220B)은 Amazon 공식 어닝 가이던스 변경 기반 신뢰도 높음. 다만 최종 판결 결과는 미정이므로 '리스크 평가'에 그칠 것.",
+        sources: [
+          { title: "FTC and 22 States Sue Amazon for Unlawful Monopolization in Advertising Business (FTC Newsroom)", url: "https://www.ftc.gov/news-events/news/2026/09/ftc-22-states-sue-amazon-unlawful-monopolization-advertising-business" },
+          { title: "Amazon faces US antitrust lawsuit over advertising prices (Reuters)", url: "https://www.reuters.com/technology/amazon-faces-us-antitrust-lawsuit-over-advertising-prices-2026-09-03/" },
+          { title: "Amazon's $20 Billion Advertising Overcharges Alleged in FTC Lawsuit (Quartz)", url: "https://qz.com/amazon-ftc-lawsuit-advertising-charges-090326" },
+        ],
+      },
+      {
         date: "2026-08-13",
         headline: "2025년 10월 이후 누적 3만명 감원(사상 최대 규모) - '관료주의 제거' 명목, 동시에 설비투자는 $132B→$200B로 확대",
         coreAnalysis: "아마존이 2025년 10월(약 14,000명)과 2026년 1월(약 16,000명) 두 차례에 걸쳐 총 3만명의 법인 인력을 감원함 - 회사 역사상 최대 규모의 인력 감축. 감원은 AWS 전문서비스·Alexa AI·Prime Video/스튜디오·아마존 약국 등 여러 부문에 걸쳐 있음. 회사는 '계층을 줄이고 오너십을 늘리고 관료주의를 없앤다'고 설명함. 동시에 설비투자(CAPEX)는 2025년 $131.8B에서 2026년 $200B로 확대할 계획 - 감원이 사업 축소가 아니라 AI·클라우드 인프라로의 자원 재배치임을 시사함.",
@@ -2096,6 +2126,22 @@ const BUSINESS_NOTES = {
       {title:"Apple's Services Business Was a Major Catalyst Last Year, and 2026 Will Likely Be Even Better (Yahoo Finance)", url:"https://finance.yahoo.com/news/apples-services-business-major-catalyst-182600661.html"},
     ],
     newsLog: [
+      {
+        date: "2026-09-08",
+        headline: "애플, Tim Cook → John Ternus 새 CEO 경영진 전환 & 9월 9일 '첫 폴딩폰' 신제품 이벤트 예정",
+        facts: ["Tim Cook이 2026년 9월 1일부로 CEO 직에서 물러나 Executive Chairman으로 전환 (약 14년 경영 마무리)", "John Ternus가 새 CEO로 승진 - Ternus는 Apple의 하드웨어 엔지니어링 부문 최고책임자(VP Hardware Engineering) 출신으로 15년 이상 Apple에 근무", "Apple은 9월 9일(화요일) 오전 10시(태평양시간)에 Cupertino 본사에서 신제품 발표 이벤트 개최 - 초대장 태그라인 '놀라움과 빛남(Surprise and Shine)'", "분석가들은 9월 이벤트에서 Apple의 첫 폴딩폰('iPad mini 형 폴더블 스크린 기기'), iPhone 18(Pro/Pro Max 포함), Apple Watch X 신모델 공개를 예상 중", "Mac Mini·Mac Studio 신모델은 별도로 9월 22일 출시 예정", "이번 경영진 교체는 Apple 역사상 14년 만의 CEO 변경으로, 신임 CEO가 첫 발표 이벤트를 주관하는 강한 상징성 보유"],
+        why: ["Tim Cook은 2011년 Steve Jobs 후임으로 취임 이후 iPhone 5s~15, iPad, Apple Watch, Services 부문 확대 등 '대규모 성장 사이클'을 주도했으나, 최근 몇 년간 iPhone 성장률 둔화, 중국 시장 부진, Services 성장 한계 등으로 주가 침체를 경험", "John Ternus는 하드웨어 엔지니어 출신으로 'M-시리즈 칩(M1~M4)'의 설계·개선 주도자이자 'Vision Pro' 개발 책임자였는데, 이는 '하드웨어 혁신'에 중점을 두는 신임 경영진 철학을 시사", "9월 9일 첫 폴딩폰 공개는 (만약 실현되면) iPhone 출시 이후 15년 이상 기다려온 '새 폼팩터' 혁신으로, 투자자들에게 'Tim Cook의 관성 경영'이 아니라 'Ternus의 혁신 DNA'라는 메시지 전달", "다만 Apple은 이미 지난 3년간 고밸류에이션 부담, 중국 수요 부진, 그리고 최근 금리 급등으로 인한 성장주 할인 압박을 받고 있어, CEO 교체와 신제품이 주가에 즉각적으로 긍정적으로 작용할지는 미지수"],
+        beginner: ["Apple을 14년 동안 이끈 Tim Cook이 회장으로 물러나고, John Ternus라는 엔지니어가 새 CEO가 되었어요. Ternus는 Apple이 요즈음 만드는 혁신적인 칩들(M1, M2 같은 것)을 설계한 사람이에요.", "내일(9월 9일) Apple이 신제품을 공개하는데, 처음으로 '폴딩되는 아이폰' 같은 새로운 형태의 기기가 나올 가능성이 높다고 봐요. 지난 15년간 iPhone은 조금씩 개선되긴 했지만 '기본 형태'는 거의 바뀌지 않았거든요.", "이건 새 CEO가 '우리는 낡은 것을 버리고 새로 시작한다'는 신호를 시장에 보내는 것 같아요. 다만 Apple 주식이 최근 몇 년간 잘 안 나가고 있어서, 이 신제품이 실제로 매출을 크게 늘릴지는 아직 지켜봐야 알 수 있어요."],
+        watch: ["9월 9일 이벤트에서 공개될 신제품의 실제 폼팩터·스펙·출시 일정 공지", "폴딩폰의 초기 사전주문 반응 및 예상 판매량 컨센서스", "Q4(9월~11월) 가이던스에서 신제품 수요가 반영되는 정도", "John Ternus 신임 CEO의 첫 어닝콜(10월) 기조와 '혁신' 중심 메시징"],
+        interpretation: "CEO 교체와 신제품 이벤트는 'Apple의 경영 철학 전환' 신호로 해석된다. Tim Cook은 '안정적 수익성 극대화' 중심(Services 매출 확대, 고부가 모델 중심), John Ternus는 '폼팩터 혁신' 중심의 경영 방향을 시사한다. 다만 현재 Apple의 주가 부진은 개별 경영진 변화보다는 매크로 요인(금리 상승, 중국 수요 부진, 고밸류에이션)에 더 크게 좌우되고 있어, CEO 교체 자체의 단기 주가 영향은 제한적일 수 있다. 관건은 9월 9일 폴딩폰의 '실제 혁신 수준'과 출시 타이밍(제품 공개 vs 실제 판매 개시)이다.",
+        decision: "경영진 교체와 신제품 이벤트는 장기적 'Apple의 방향성 재설정' 신호이나, 단기 매수 신호로 쓰기는 이른 단계. 9월 9일 이벤트 후 '시장의 반응'(폴딩폰에 대한 기대감, 폼팩터 평가, 출시 일정)을 확인하고, 그 이후 분기별 가이던스 변화 추이를 지켜볼 것. 현재는 매크로 금리 변동성이 더 크므로 개별 종목 뉴스보다는 큰 흐름을 우선 확인할 것.",
+        confidence: "Tim Cook의 CEO 퇴임, John Ternus 신임 발표는 Apple 공식 보도자료(9월 1일 공시)와 CNBC·MacRumors·9to5Mac 등 기술 매체 교차 확인으로 신뢰도 높음. 9월 9일 이벤트 일정과 초대장 태그라인('Surprise and Shine')은 Apple 공식 미디어 초대장 기준. 폴딩폰 공개 예상은 분석가 예측이므로 확실하지 않으며, 실제 발표될 때까지 보류할 것.",
+        sources: [
+          { title: "Apple announces transition of Tim Cook to Executive Chairman, appoints John Ternus as CEO (Apple Press Release)", url: "https://www.apple.com/newsroom/2026/09/apple-announces-transition-of-tim-cook-to-executive-chairman-appoints-john-ternus-as-ceo" },
+          { title: "Apple sets iPhone launch event for Sept. 9, first under new CEO John Ternus (CNBC)", url: "https://www.cnbc.com/2026/08/26/apple-iphone-launch-date-john-ternus.html" },
+          { title: "Apple's September Event: First Folding iPhone Expected with New iPhones and Apple Watches (MacRumors)", url: "https://www.macrumors.com/2026/08/13/apple-september-announcement-rumors/" },
+        ],
+      },
       {
         date: "2026-09-01",
         headline: "CEO 전환 & iPhone 18 프로 런칭 — Tim Cook에서 John Ternus로",

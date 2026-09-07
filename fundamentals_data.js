@@ -159,8 +159,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 26.5,
     "name": "Microsoft Corp",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:47"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "AMZN": {
     "forwardPE": 24.69711,
@@ -276,8 +276,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 25.34,
     "name": "Broadcom Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:47"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "META": {
     "forwardPE": 15.88975,
@@ -353,8 +353,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 4.14,
     "name": "Tesla Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:47"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "MU": {
     "forwardPE": 5.86615,
@@ -529,8 +529,8 @@ const FUNDAMENTALS_DATA = {
     "perBandSource": "universal",
     "name": null,
     "theme": "지수ETF",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:47"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "ORCL": {
     "forwardPE": 15.06497,
@@ -570,8 +570,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 11.200000000000001,
     "name": "Oracle Corp",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:47"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "CRM": {
     "forwardPE": 12.19072,
@@ -719,8 +719,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.959999999999999,
     "name": "Arm Holdings PLC",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "MRVL": {
     "forwardPE": 35.87093,
@@ -796,8 +796,8 @@ const FUNDAMENTALS_DATA = {
     "name": "ASML Holding NV",
     "theme": "반도체 장비",
     "marketCapCurrencyNote": "EUR",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "LRCX": {
     "forwardPE": 32.23672,
@@ -837,8 +837,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 48.57,
     "name": "Lam Research Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "KLAC": {
     "forwardPE": 32.38702,
@@ -909,8 +909,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 89.56,
     "name": "Sandisk Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "WDC": {
     "forwardPE": 28.73921,
@@ -949,8 +949,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 85.72999999999999,
     "name": "Western Digital Corp",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "ANET": {
     "forwardPE": 47.18995943387634,
@@ -986,8 +986,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 30.78,
     "name": "Arista Networks Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "COHR": {
     "forwardPE": 29.850253101255543,
@@ -1057,8 +1057,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -134.05,
     "name": "Lumentum Holdings Inc",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788752861.4745314,
-    "_updated_label": "2026-09-07 12:48"
+    "_fetched_at": 1788825380.6564605,
+    "_updated_label": "2026-09-08 08:56"
   },
   "GEV": {
     "forwardPE": 45.54201,
