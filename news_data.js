@@ -7215,7 +7215,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -12227,7 +12227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
@@ -17225,7 +17225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -21660,7 +21660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -26824,7 +26824,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -28244,7 +28244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -33276,7 +33276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -38061,7 +38061,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -43568,7 +43568,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -48857,7 +48857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -52501,7 +52501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -55468,7 +55468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 87,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -57434,7 +57434,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
@@ -57454,77 +57454,13 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "더 이상 VOO나 QQQ를 구매할 가치가 없습니다(NYSEARCA:VOO) | 알파 밀레니얼 배당금 추구 팔로워 10.28K 팔로우 요약 저는 수년간 Vanguard 500 Index ETF와 Invesco QQQ Trust ETF를 소유해 왔으며 현재는 각각 내 포트폴리오의 30%와 15%를 보유하고 있습니다.",
-            "19.6배의 포워드 P/E는 괜찮아 보이지만 Shiller의 CAPE는 42.38배로 2000년 이후 두 번째로 높습니다.",
-            "2분기 수익 증가율은 알파벳의 980억 달러와 아마존의 미실현 이익 534억 달러를 제외하면 52%에서 33.8%로 감소하여 향후 추정치의 기반이 평평해졌습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 30%, 15%, 52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "30%",
-            "15%",
-            "52%",
-            "33.8%",
-            "$98",
-            "$53.4",
-            "37%",
-            "46%"
-          ],
-          "sourceExcerpt": [
-            "It's Not Worth Buying VOO Or QQQ Anymore (NYSEARCA:VOO) | Seeking Alpha Millennial Dividends 10.28K Followers Follow Summary I've owned Vanguard 500 Index ETF and Invesco QQQ Trust ETF for years, now 30% and 15% of my portfolio, respectivel",
-            "The 19.6x forward P/E looks fine, yet Shiller's CAPE at 42.38x is the second highest since 2000.",
-            "Q2 earnings growth drops from 52% to 33.8% excluding Alphabet's $98B and Amazon's $53.4B unrealized gains, flattening the base for forward estimates."
-          ],
-          "analysisUpdatedAt": 1788730467.8380132
-        },
-        "headlineKo": "더 이상 VOO나 QQQ를 구매할 가치가 없습니다."
-      },
-      {
-        "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=edf096e6792c207b0d0c8ecea67ebbe33d0294943b3f3486d6969b08c6574e5d",
-        "datetime": 1788560329,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
+            "It's Not Worth Buying VOO Or QQQ Anymore",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -57548,13 +57484,77 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'It's Not Worth Buying VOO Or QQQ Anymore' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
+          "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730468.5804498
+          "analysisUpdatedAt": 1788752925.8317518
+        },
+        "headlineKo": "더 이상 VOO나 QQQ를 구매할 가치가 없습니다."
+      },
+      {
+        "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=edf096e6792c207b0d0c8ecea67ebbe33d0294943b3f3486d6969b08c6574e5d",
+        "datetime": 1788560329,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 BA 0.83% DKNG 0",
+            "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
+            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "0.83%",
+            "0.74%",
+            "6.42%",
+            "2.63%",
+            "10.19%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending BA 0.83% DKNG 0",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
+            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
+          ],
+          "analysisUpdatedAt": 1788752929.6104994
         },
         "headlineKo": "S&P 500, 다우지수는 폭발적 일자리 보고로 하락 마감, 팬들은 인상 우려를 표명하고 칩 제조업체의 강세는 Nasdaq에 도움이 됨 —TSLA, NFLX, BE, NVDA 집중"
       },
@@ -57575,12 +57575,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "JEPQ는 잊어라: QQQ 뒤에 있는 회사는 자체 Nasdaq 소득 펀드를 운영합니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% 다우존스 53,225.50 −0.80% 나스닥 100 29,489.00 +0.06% 러셀 2000 2,971.64 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% 다우존스 53,237.50 +0.02% 나스닥 100 29,557.20 +0.23% 러셀 2000 2,974.29 +0.",
             "Ryne Mauck 작성 2026년 9월 4일 오후 5시 45분(ET) 게시 · 4분 분량 The ETF Examiner Desk."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.45%, 0.80%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.02%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -57604,10 +57604,10 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.45%",
-            "0.80%",
-            "0.06%",
-            "0.20%",
+            "0.07%",
+            "0.02%",
+            "0.23%",
+            "0.09%",
             "6.59%",
             "5.74%",
             "5.50%",
@@ -57615,10 +57615,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Forget JEPQ: The Company Behind QQQ Runs Its Own Nasdaq Income Fund - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.",
             "By Ryne Mauck Published September 4, 2026, 5:45pm ET · 4 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1788730471.1793294
+          "analysisUpdatedAt": 1788752932.5336478
         },
         "headlineKo": "JEPQ는 잊어라: QQQ 뒤에 있는 회사는 자체 Nasdaq 소득 펀드를 운영합니다."
       },
@@ -57705,76 +57705,13 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "더 이상 VOO나 QQQ를 구매할 가치가 없습니다(NYSEARCA:VOO) | 알파 밀레니얼 배당금 추구 팔로워 10.28K 팔로우 요약 저는 수년간 Vanguard 500 Index ETF와 Invesco QQQ Trust ETF를 소유해 왔으며 현재는 각각 내 포트폴리오의 30%와 15%를 보유하고 있습니다.",
-            "19.6배의 포워드 P/E는 괜찮아 보이지만 Shiller의 CAPE는 42.38배로 2000년 이후 두 번째로 높습니다.",
-            "2분기 수익 증가율은 알파벳의 980억 달러와 아마존의 미실현 이익 534억 달러를 제외하면 52%에서 33.8%로 감소하여 향후 추정치의 기반이 평평해졌습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 30%, 15%, 52% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "30%",
-            "15%",
-            "52%",
-            "33.8%",
-            "$98",
-            "$53.4",
-            "37%",
-            "46%"
-          ],
-          "sourceExcerpt": [
-            "It's Not Worth Buying VOO Or QQQ Anymore (NYSEARCA:VOO) | Seeking Alpha Millennial Dividends 10.28K Followers Follow Summary I've owned Vanguard 500 Index ETF and Invesco QQQ Trust ETF for years, now 30% and 15% of my portfolio, respectivel",
-            "The 19.6x forward P/E looks fine, yet Shiller's CAPE at 42.38x is the second highest since 2000.",
-            "Q2 earnings growth drops from 52% to 33.8% excluding Alphabet's $98B and Amazon's $53.4B unrealized gains, flattening the base for forward estimates."
-          ],
-          "analysisUpdatedAt": 1788730467.8380132
-        }
-      },
-      {
-        "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=edf096e6792c207b0d0c8ecea67ebbe33d0294943b3f3486d6969b08c6574e5d",
-        "datetime": 1788560329,
-        "headlineKo": "S&P 500, 다우지수는 폭발적 일자리 보고로 하락 마감, 팬들은 인상 우려를 표명하고 칩 제조업체의 강세는 Nasdaq에 도움이 됨 —TSLA, NFLX, BE, NVDA 집중",
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
           "importance": "low",
           "tone": "neutral",
           "certainty": "본문 확인 필요",
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
+            "It's Not Worth Buying VOO Or QQQ Anymore",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -57798,13 +57735,76 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 QQQ의 사업과 관련된 'S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 QQQ의 사업과 관련된 'It's Not Worth Buying VOO Or QQQ Anymore' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "QQQ 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.67,
+          "relevance": 1.0,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730468.5804498
+          "analysisUpdatedAt": 1788752925.8317518
+        }
+      },
+      {
+        "headline": "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=edf096e6792c207b0d0c8ecea67ebbe33d0294943b3f3486d6969b08c6574e5d",
+        "datetime": 1788560329,
+        "headlineKo": "S&P 500, 다우지수는 폭발적 일자리 보고로 하락 마감, 팬들은 인상 우려를 표명하고 칩 제조업체의 강세는 Nasdaq에 도움이 됨 —TSLA, NFLX, BE, NVDA 집중",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 BA 0.83% DKNG 0",
+            "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
+            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "QQQ",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "QQQ에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "0.83%",
+            "0.74%",
+            "6.42%",
+            "2.63%",
+            "10.19%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending BA 0.83% DKNG 0",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
+            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
+          ],
+          "analysisUpdatedAt": 1788752929.6104994
         }
       },
       {
@@ -57824,12 +57824,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "JEPQ는 잊어라: QQQ 뒤에 있는 회사는 자체 Nasdaq 소득 펀드를 운영합니다. - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% 다우존스 53,225.50 −0.80% 나스닥 100 29,489.00 +0.06% 러셀 2000 2,971.64 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% 다우존스 53,237.50 +0.02% 나스닥 100 29,557.20 +0.23% 러셀 2000 2,974.29 +0.",
             "Ryne Mauck 작성 2026년 9월 4일 오후 5시 45분(ET) 게시 · 4분 분량 The ETF Examiner Desk."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.45%, 0.80%, 0.06% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.02%, 0.23% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -57853,10 +57853,10 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.45%",
-            "0.80%",
-            "0.06%",
-            "0.20%",
+            "0.07%",
+            "0.02%",
+            "0.23%",
+            "0.09%",
             "6.59%",
             "5.74%",
             "5.50%",
@@ -57864,10 +57864,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Forget JEPQ: The Company Behind QQQ Runs Its Own Nasdaq Income Fund - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.",
             "By Ryne Mauck Published September 4, 2026, 5:45pm ET · 4 min read The ETF Examiner desk."
           ],
-          "analysisUpdatedAt": 1788730471.1793294
+          "analysisUpdatedAt": 1788752932.5336478
         }
       },
       {
@@ -59694,17 +59694,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788730462.8582666,
-    "_updated_label": "2026-09-07 06:34",
+    "_fetched_at": 1788752922.895819,
+    "_updated_label": "2026-09-07 12:48",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
-    "_last_attempt_at": 1788730462.8582666,
+    "_last_attempt_at": 1788752922.895819,
     "_earnings_status": "ok",
-    "_last_success_at": 1788730462.8582666,
+    "_last_success_at": 1788752922.895819,
     "_collection_status": "ok"
   },
   "SPY": {
@@ -62935,7 +62935,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -66771,7 +66771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -70062,7 +70062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -70077,6 +70077,106 @@ const NEWS_DATA = {
       "revenueEstimate": 2220416029
     },
     "news": [
+      {
+        "headline": "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9f32abbd15f04ac9e56aead36e4156917f49afc27cebde74575e2a9b91b1a218",
+        "datetime": 1788744613,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788752938.0959713
+        },
+        "headlineKo": "Palantir의 Alex Karp: 실제 AI 유출은 데이터가 아니라 '알파'입니다"
+      },
+      {
+        "headline": "Michael Burry sends a strong warning to Palantir stock investors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8dcfffec7892dec0dbfe7acac0a28a2a1f909d59d0b8250633bb5dedbf150a80",
+        "datetime": 1788709020,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Michael Burry sends a strong warning to Palantir stock investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Michael Burry sends a strong warning to Palantir stock investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788752938.7884881
+        },
+        "headlineKo": "Michael Burry는 Palantir 주식 투자자들에게 강력한 경고를 보냅니다."
+      },
       {
         "headline": "Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's",
         "source": "Yahoo",
@@ -70137,7 +70237,7 @@ const NEWS_DATA = {
             "Help Michael Burry is going after Palantir Technologies ( PLTR -4.49% ) again.",
             "The investor of The Big Short fame laid out an accounting case against the artificial intelligence (AI) software specialist in a February post titled \"Palantir: An Accounting.\" This week he pressed the case again, arguing that Palantir's fi"
           ],
-          "analysisUpdatedAt": 1788730476.7252486
+          "analysisUpdatedAt": 1788752941.1781485
         },
         "headlineKo": "Michael Burry는 Palantir의 책이 소프트웨어 회사의 책보다는 컨설턴트의 책과 더 비슷하다고 말합니다."
       },
@@ -70149,6 +70249,28 @@ const NEWS_DATA = {
         "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Adobe와 Palantir가 침몰하는 동안 AI 하드웨어는 반등했습니다. 어느 쪽이 옳은가?"
+      },
+      {
+        "headline": "AI’s Next Winners? Investor Bets on Snowflake, CrowdStrike and Palantir",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8f8a6b5f4133111819463fc584550cb7e590786996b6b8367da79bc9fb2e2bd6",
+        "datetime": 1788627609,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "AI의 다음 승자는? Snowflake, CrowdStrike 및 Palantir에 대한 투자자 베팅"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9f32abbd15f04ac9e56aead36e4156917f49afc27cebde74575e2a9b91b1a218",
+        "datetime": 1788744613,
+        "headlineKo": "Palantir의 Alex Karp: 실제 AI 유출은 데이터가 아니라 '알파'입니다",
+        "relevance": 0.67,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -70157,7 +70279,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI Hardware Rallied While Adobe and Palantir Sank. Which Side Is Right?",
+            "Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -70181,106 +70303,64 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'AI Hardware Rallied While Adobe and Palantir Sank. Which Side Is Right?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Palantir’s Alex Karp: The Real AI Leak Isn't Data, It's Your 'Alpha'' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730478.614998
-        },
-        "headlineKo": "Adobe와 Palantir가 침몰하는 동안 AI 하드웨어는 반등했습니다. 어느 쪽이 옳은가?"
+          "analysisUpdatedAt": 1788752938.0959713
+        }
       },
       {
-        "headline": "AI’s Next Winners? Investor Bets on Snowflake, CrowdStrike and Palantir",
+        "headline": "Michael Burry sends a strong warning to Palantir stock investors",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8f8a6b5f4133111819463fc584550cb7e590786996b6b8367da79bc9fb2e2bd6",
-        "datetime": 1788627609,
+        "url": "https://finnhub.io/api/news?id=8dcfffec7892dec0dbfe7acac0a28a2a1f909d59d0b8250633bb5dedbf150a80",
+        "datetime": 1788709020,
+        "headlineKo": "Michael Burry는 Palantir 주식 투자자들에게 강력한 경고를 보냅니다.",
         "relevance": 0.67,
         "keywordFlag": false,
-        "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "Michael Burry sends a strong warning to Palantir stock investors",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "PLTR",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 PLTR의 사업과 관련된 'AI’s Next Winners? Investor Bets on Snowflake, CrowdStrike and Palantir' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: PLTR에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "interpretation": "이 기사는 PLTR의 사업과 관련된 'Michael Burry sends a strong warning to Palantir stock investors' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "PLTR 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.67,
-          "quality": "high",
+          "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730480.7451494
-        },
-        "headlineKo": "AI의 다음 승자는? Snowflake, CrowdStrike 및 Palantir에 대한 투자자 베팅"
+          "analysisUpdatedAt": 1788752938.7884881
+        }
       },
-      {
-        "headline": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
-        "datetime": 1788611918,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Globant가 Salesforce AI Pod를 출시함에 따라 Palantir는 확장된 PwC Alliance에서 7.7% 상승했습니다. 어떤 서비스 모델이 더 잘 확장됩니까?"
-      },
-      {
-        "headline": "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
-        "datetime": 1788603901,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다."
-      }
-    ],
-    "newsHistory": [
       {
         "headline": "Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's",
         "source": "Yahoo",
@@ -70341,7 +70421,7 @@ const NEWS_DATA = {
             "Help Michael Burry is going after Palantir Technologies ( PLTR -4.49% ) again.",
             "The investor of The Big Short fame laid out an accounting case against the artificial intelligence (AI) software specialist in a February post titled \"Palantir: An Accounting.\" This week he pressed the case again, arguing that Palantir's fi"
           ],
-          "analysisUpdatedAt": 1788730476.7252486
+          "analysisUpdatedAt": 1788752941.1781485
         }
       },
       {
@@ -73991,17 +74071,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788730462.8582666,
-    "_updated_label": "2026-09-07 06:34",
+    "_fetched_at": 1788752922.895819,
+    "_updated_label": "2026-09-07 12:49",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 103,
+      "checked": 105,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
-    "_last_attempt_at": 1788730462.8582666,
+    "_last_attempt_at": 1788752922.895819,
     "_earnings_status": "ok",
-    "_last_success_at": 1788730462.8582666,
+    "_last_success_at": 1788752922.895819,
     "_collection_status": "ok"
   },
   "QCOM": {
@@ -75925,7 +76005,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -77211,7 +77291,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -77272,7 +77352,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730485.796686
+          "analysisUpdatedAt": 1788752948.3885443
         },
         "headlineKo": "FormFactor, Entegris, Penguin Solutions, Teradyne 및 Marvell Technology 주식 거래, 알아야 할 사항"
       },
@@ -77321,7 +77401,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730487.3908677
+          "analysisUpdatedAt": 1788752950.444753
         },
         "headlineKo": "Marvell은 전망을 높였지만 Google 칩 수익이 정체되면서 하락했습니다. AI 보상에 가격이 책정되었나요? (검토 준비 중)"
       },
@@ -77385,7 +77465,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788730492.0583885
+          "analysisUpdatedAt": 1788752954.5287073
         },
         "headlineKo": "Marvell 주식은 엄청난 한 해를 보냈고 여전히 최고치보다 훨씬 낮습니다."
       },
@@ -77509,7 +77589,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730485.796686
+          "analysisUpdatedAt": 1788752948.3885443
         }
       },
       {
@@ -77557,7 +77637,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730487.3908677
+          "analysisUpdatedAt": 1788752950.444753
         }
       },
       {
@@ -77620,7 +77700,7 @@ const NEWS_DATA = {
             "The company kept raising what it expects to sell, and buyers repriced it each time.",
             "Then the shares pulled back, and they now sit well below their best."
           ],
-          "analysisUpdatedAt": 1788730492.0583885
+          "analysisUpdatedAt": 1788752954.5287073
         }
       },
       {
@@ -81281,17 +81361,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788730462.8582666,
-    "_updated_label": "2026-09-07 06:34",
+    "_fetched_at": 1788752922.895819,
+    "_updated_label": "2026-09-07 12:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
-    "_last_attempt_at": 1788730462.8582666,
+    "_last_attempt_at": 1788752922.895819,
     "_earnings_status": "ok",
-    "_last_success_at": 1788730462.8582666,
+    "_last_success_at": 1788752922.895819,
     "_collection_status": "ok"
   },
   "ASML": {
@@ -82800,7 +82880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -84502,7 +84582,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -85991,7 +86071,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -90361,7 +90441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -91937,7 +92017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
@@ -93556,7 +93636,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -95070,7 +95150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -96518,7 +96598,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -98261,7 +98341,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -99306,7 +99386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -100653,7 +100733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -102156,7 +102236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -103337,7 +103417,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -103996,7 +104076,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788747097.7869275,
     "_earnings_status": "ok",
@@ -106304,7 +106384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -106926,7 +107006,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -106958,12 +107038,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "SK하이닉스, 메모리 입찰이 NAND를 넘어 확대되면서 7% 급등; Seagate Rally 5% - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% 다우존스 53,225.50 −0.80% 나스닥 100 29,489.00 +0.06% 러셀 2000 2,971.64 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% 다우존스 53,237.50 +0.02% 나스닥 100 29,557.20 +0.23% 러셀 2000 2,974.29 +0.",
             "𝕏 f ⧉ 현대 전자 제품의 핵심 구성 요소인 중요한 3D NAND 플래시 메모리 칩은 기사에서 논의된 메모리 및 스토리지 회사의 성과와 시장 동향의 기초가 됩니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -106989,19 +107069,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "7%",
             "5%",
-            "0.45%",
-            "0.80%",
-            "0.06%",
-            "0.20%",
+            "0.07%",
+            "0.02%",
+            "0.23%",
+            "0.09%",
             "$59,",
             "0.4%"
           ],
           "sourceExcerpt": [
             "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788730497.5073779
+          "analysisUpdatedAt": 1788752960.9506683
         },
         "headlineKo": "SK하이닉스, 메모리 입찰이 NAND를 넘어 확대되면서 7% 급등; 씨게이트 랠리 5%"
       },
@@ -107051,7 +107131,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730498.8476725
+          "analysisUpdatedAt": 1788752961.9763927
         },
         "headlineKo": "5년 전 Seagate Technology Hldgs에 투자한 100달러의 현재 가치는 다음과 같습니다."
       },
@@ -107101,7 +107181,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730501.0291102
+          "analysisUpdatedAt": 1788752964.0206358
         },
         "headlineKo": "Seagate의 YTD 이익은 업계의 두 배입니다: 주식은 여전히 매수입니까?"
       },
@@ -107144,12 +107224,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "SK하이닉스, 메모리 입찰이 NAND를 넘어 확대되면서 7% 급등; Seagate Rally 5% - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% 다우존스 53,225.50 −0.80% 나스닥 100 29,489.00 +0.06% 러셀 2000 2,971.64 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% 다우존스 53,237.50 +0.02% 나스닥 100 29,557.20 +0.23% 러셀 2000 2,974.29 +0.",
             "𝕏 f ⧉ 현대 전자 제품의 핵심 구성 요소인 중요한 3D NAND 플래시 메모리 칩은 기사에서 논의된 메모리 및 스토리지 회사의 성과와 시장 동향의 기초가 됩니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 0.45% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 5%, 0.07% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "STX의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -107175,19 +107255,19 @@ const NEWS_DATA = {
           "verifiedNumbers": [
             "7%",
             "5%",
-            "0.45%",
-            "0.80%",
-            "0.06%",
-            "0.20%",
+            "0.07%",
+            "0.02%",
+            "0.23%",
+            "0.09%",
             "$59,",
             "0.4%"
           ],
           "sourceExcerpt": [
             "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5% - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.20% S&P 500 7,708.20 −0.45% Dow Jones 53,225.50 −0.80% Nasdaq 100 29,489.00 +0.06% Russell 2000 2,971.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.09% S&P 500 7,713.80 +0.07% Dow Jones 53,237.50 +0.02% Nasdaq 100 29,557.20 +0.23% Russell 2000 2,974.29 +0.",
             "𝕏 f ⧉ The crucial 3D NAND Flash memory chip, a key component in modern electronics, underlies the performance and market trends of memory and storage companies discussed in the article."
           ],
-          "analysisUpdatedAt": 1788730497.5073779
+          "analysisUpdatedAt": 1788752960.9506683
         }
       },
       {
@@ -107236,7 +107316,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730498.8476725
+          "analysisUpdatedAt": 1788752961.9763927
         }
       },
       {
@@ -107285,7 +107365,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730501.0291102
+          "analysisUpdatedAt": 1788752964.0206358
         }
       },
       {
@@ -108111,17 +108191,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788730462.8582666,
-    "_updated_label": "2026-09-07 06:35",
+    "_fetched_at": 1788752922.895819,
+    "_updated_label": "2026-09-07 12:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
-    "_last_attempt_at": 1788730462.8582666,
+    "_last_attempt_at": 1788752922.895819,
     "_earnings_status": "ok",
-    "_last_success_at": 1788730462.8582666,
+    "_last_success_at": 1788752922.895819,
     "_collection_status": "ok"
   },
   "EME": {
@@ -108178,7 +108258,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730506.502202
+          "analysisUpdatedAt": 1788752969.0025733
         },
         "headlineKo": "시장이 하락함에 따라 Emcor Group(EME) 상승: 주요 사실"
       },
@@ -108228,7 +108308,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730508.876039
+          "analysisUpdatedAt": 1788752970.9469602
         },
         "headlineKo": "EMCOR는 연초 대비 21% 상승: 투자자는 지금 주식을 구매해야 할까요?"
       },
@@ -108278,7 +108358,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730511.4115973
+          "analysisUpdatedAt": 1788752972.7832046
         },
         "headlineKo": "월스트리트 분석가들이 낙관적으로 보이므로 Emcor Group(EME)을 매수해야 합니까?"
       },
@@ -108350,7 +108430,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730506.502202
+          "analysisUpdatedAt": 1788752969.0025733
         }
       },
       {
@@ -108399,7 +108479,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730508.876039
+          "analysisUpdatedAt": 1788752970.9469602
         }
       },
       {
@@ -108448,7 +108528,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788730511.4115973
+          "analysisUpdatedAt": 1788752972.7832046
         }
       },
       {
@@ -109113,17 +109193,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788730462.8582666,
-    "_updated_label": "2026-09-07 06:35",
+    "_fetched_at": 1788752922.895819,
+    "_updated_label": "2026-09-07 12:49",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
-    "_last_attempt_at": 1788730462.8582666,
+    "_last_attempt_at": 1788752922.895819,
     "_earnings_status": "ok",
-    "_last_success_at": 1788730462.8582666,
+    "_last_success_at": 1788752922.895819,
     "_collection_status": "ok"
   },
   "FIX": {
@@ -110320,7 +110400,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_last_attempt_at": 1788750810.714057,
     "_earnings_status": "ok",
@@ -110775,7 +110855,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-07 12:16"
+      "updated": "2026-09-07 12:49"
     },
     "_fetched_at": 1788750810.714057,
     "_updated_label": "2026-09-07 12:16",
