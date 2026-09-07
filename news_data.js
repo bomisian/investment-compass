@@ -7243,7 +7243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -12420,7 +12420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788788952.9004593,
     "_earnings_status": "ok",
@@ -17708,7 +17708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -17783,7 +17783,7 @@ const NEWS_DATA = {
             "This Number Will Determine If It Keeps Climbing - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788804036.3736525
+          "analysisUpdatedAt": 1788804151.22256
         },
         "headlineKo": "Microsoft는 새로운 사상 최고치에 가까워졌습니다. 이 숫자는 계속 상승할지 여부를 결정합니다"
       },
@@ -17835,7 +17835,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804038.724017
+          "analysisUpdatedAt": 1788804153.3714292
         },
         "headlineKo": "버니 샌더스는 초지능을 금지하고 싶어합니다. Microsoft와 Amazon에 미치는 영향"
       },
@@ -17899,7 +17899,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Azure just crossed a revenue milestone that caught Wall Street off guard, and Microsoft's backlog tells a story the headline numbers barely hint at."
           ],
-          "analysisUpdatedAt": 1788804041.708082
+          "analysisUpdatedAt": 1788804156.963259
         },
         "headlineKo": "Microsoft Stock은 수조 달러 규모의 AI 기회를 구축하고 있습니다. 다음은 600달러인가요?"
       },
@@ -18107,7 +18107,7 @@ const NEWS_DATA = {
             "This Number Will Determine If It Keeps Climbing - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788804036.3736525
+          "analysisUpdatedAt": 1788804151.22256
         }
       },
       {
@@ -18159,7 +18159,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804038.724017
+          "analysisUpdatedAt": 1788804153.3714292
         }
       },
       {
@@ -18222,7 +18222,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Azure just crossed a revenue milestone that caught Wall Street off guard, and Microsoft's backlog tells a story the headline numbers barely hint at."
           ],
-          "analysisUpdatedAt": 1788804041.708082
+          "analysisUpdatedAt": 1788804156.963259
         }
       },
       {
@@ -22448,17 +22448,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:00",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "AMZN": {
@@ -22517,7 +22517,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804049.4992564
+          "analysisUpdatedAt": 1788804164.623457
         },
         "headlineKo": "버니 샌더스는 초지능을 금지하고 싶어합니다. Microsoft와 Amazon에 미치는 영향"
       },
@@ -22567,7 +22567,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804051.4335725
+          "analysisUpdatedAt": 1788804166.6659665
         },
         "headlineKo": "올해 소매-도매 주식이 Amazon.com(AMZN)보다 뒤쳐지고 있습니까?"
       },
@@ -22617,7 +22617,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804053.5882852
+          "analysisUpdatedAt": 1788804168.4814718
         },
         "headlineKo": "Amazon.com, Inc.(AMZN)가 투자자의 관심을 끌고 있습니다: 알아야 할 사항은 다음과 같습니다."
       },
@@ -22914,7 +22914,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804049.4992564
+          "analysisUpdatedAt": 1788804164.623457
         }
       },
       {
@@ -22963,7 +22963,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804051.4335725
+          "analysisUpdatedAt": 1788804166.6659665
         }
       },
       {
@@ -23012,7 +23012,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804053.5882852
+          "analysisUpdatedAt": 1788804168.4814718
         }
       },
       {
@@ -27941,17 +27941,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:00",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "TSM": {
@@ -29613,7 +29613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -29688,7 +29688,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Picking the right one depends on what kind of risk you are actually willing to take."
           ],
-          "analysisUpdatedAt": 1788804077.7332656
+          "analysisUpdatedAt": 1788804189.2596655
         },
         "headlineKo": "Broadcom 대 Marvell: AI 칩 주식 중 하나가 확실한 승자입니다"
       },
@@ -29738,7 +29738,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804079.850376
+          "analysisUpdatedAt": 1788804191.1173108
         },
         "headlineKo": "Broadcom Inc.(AVGO)는 인기 주식입니다: 베팅하기 전에 알아야 할 사실"
       },
@@ -29802,7 +29802,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 8:47am ET · 3 min read 𝕏 f ⧉ © Justin Sullivan / Getty Images AMD ( NASDAQ: AMD | AMD Price Prediction ) and Broadcom ( NASDAQ: AVGO ) both just delivered blockbuster AI quarters, but the two chip"
           ],
-          "analysisUpdatedAt": 1788804082.3979871
+          "analysisUpdatedAt": 1788804194.0556068
         },
         "headlineKo": "AMD의 전체 AI 스토리에는 무시할 수 없는 위협이 하나 있습니다: Broadcom"
       },
@@ -29888,7 +29888,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Picking the right one depends on what kind of risk you are actually willing to take."
           ],
-          "analysisUpdatedAt": 1788804077.7332656
+          "analysisUpdatedAt": 1788804189.2596655
         }
       },
       {
@@ -29937,7 +29937,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804079.850376
+          "analysisUpdatedAt": 1788804191.1173108
         }
       },
       {
@@ -30000,7 +30000,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 8:47am ET · 3 min read 𝕏 f ⧉ © Justin Sullivan / Getty Images AMD ( NASDAQ: AMD | AMD Price Prediction ) and Broadcom ( NASDAQ: AVGO ) both just delivered blockbuster AI quarters, but the two chip"
           ],
-          "analysisUpdatedAt": 1788804082.3979871
+          "analysisUpdatedAt": 1788804194.0556068
         }
       },
       {
@@ -34930,17 +34930,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:01",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "META": {
@@ -39771,7 +39771,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 131,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -39832,7 +39832,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804061.351234
+          "analysisUpdatedAt": 1788804176.5284069
         },
         "headlineKo": "Tesla 주식이 폭락하고 있습니다. Robotaxi는 큰 장애물에 부딪히기를 희망합니다."
       },
@@ -39896,7 +39896,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Wall Street Is Split on Whether to Believe It Tesla posted record deliveries and 25% revenue growth in the same quarter it missed earnings by nearly 40% and burned over a billion in free cash flow."
           ],
-          "analysisUpdatedAt": 1788804066.4891443
+          "analysisUpdatedAt": 1788804179.0769475
         },
         "headlineKo": "Tesla는 이번에는 다르다고 말합니다. 월스트리트는 그것을 믿을지 여부에 대해 분열되어 있습니다."
       },
@@ -39960,7 +39960,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Ark Invest, Cathie Wood's investment firm, has traded in and out of Tesla ( TSLA -5.92% ) stock for nearly a decade."
           ],
-          "analysisUpdatedAt": 1788804069.8268776
+          "analysisUpdatedAt": 1788804181.2426984
         },
         "headlineKo": "Cathie Wood는 반복되는 Robotaxi 마감일 누락으로 인해 Tesla와 붙어 있습니다. 그녀가 여전히 구매하는 이유는 다음과 같습니다."
       },
@@ -40273,7 +40273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804061.351234
+          "analysisUpdatedAt": 1788804176.5284069
         }
       },
       {
@@ -40336,7 +40336,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Wall Street Is Split on Whether to Believe It Tesla posted record deliveries and 25% revenue growth in the same quarter it missed earnings by nearly 40% and burned over a billion in free cash flow."
           ],
-          "analysisUpdatedAt": 1788804066.4891443
+          "analysisUpdatedAt": 1788804179.0769475
         }
       },
       {
@@ -40399,7 +40399,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Ark Invest, Cathie Wood's investment firm, has traded in and out of Tesla ( TSLA -5.92% ) stock for nearly a decade."
           ],
-          "analysisUpdatedAt": 1788804069.8268776
+          "analysisUpdatedAt": 1788804181.2426984
         }
       },
       {
@@ -45635,17 +45635,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:01",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 162,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "MU": {
@@ -45716,7 +45716,7 @@ const NEWS_DATA = {
             "What Would It Take to Get MU Stock Up to $1,250?",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788804108.4231687
+          "analysisUpdatedAt": 1788804219.9691002
         },
         "headlineKo": "Micron은 2026년에 256% 급등했습니다. MU 주식을 1,250달러까지 얻으려면 무엇이 필요합니까?"
       },
@@ -45766,7 +45766,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804110.4584758
+          "analysisUpdatedAt": 1788804222.058854
         },
         "headlineKo": "Micron Stock은 $1,000를 회수했습니다. 다음 단계는 무엇입니까?"
       },
@@ -45816,7 +45816,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804112.001135
+          "analysisUpdatedAt": 1788804224.189915
         },
         "headlineKo": "Micron Technology(MU)의 리턴 드라이버가 앞으로 흔들릴 수 있다고 생각하십니까?"
       },
@@ -46176,7 +46176,7 @@ const NEWS_DATA = {
             "What Would It Take to Get MU Stock Up to $1,250?",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788804108.4231687
+          "analysisUpdatedAt": 1788804219.9691002
         }
       },
       {
@@ -46225,7 +46225,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804110.4584758
+          "analysisUpdatedAt": 1788804222.058854
         }
       },
       {
@@ -46274,7 +46274,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804112.001135
+          "analysisUpdatedAt": 1788804224.189915
         }
       },
       {
@@ -51321,17 +51321,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:01",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "AMD": {
@@ -55199,7 +55199,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -58301,7 +58301,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -60267,7 +60267,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788788952.9004593,
     "_earnings_status": "ok",
@@ -62533,7 +62533,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -62589,7 +62589,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804027.4694908
+          "analysisUpdatedAt": 1788804141.6956916
         },
         "headlineKo": "RDVI: 월별 배당금을 지불하면서 S&P 500을 이겼습니다."
       },
@@ -62639,7 +62639,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804028.3748324
+          "analysisUpdatedAt": 1788804142.6349535
         },
         "headlineKo": "그리고 S&P 500 배당금에 대해 8% 추가 배당을 목표로 하는 RDVI가 있습니다."
       },
@@ -62653,22 +62653,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ICP 12.95% DOT",
+            "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
+            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -62678,18 +62680,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804029.1056805
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "12.95%",
+            "14.16%",
+            "2.71%",
+            "6.55%",
+            "3.24%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ICP 12.95% DOT ",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
+            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
+          ],
+          "analysisUpdatedAt": 1788804145.6523728
         },
         "headlineKo": "S&P 500, 다우지수는 폭발적 일자리 보고로 하락 마감, 팬들은 인상 우려를 표명하고 칩 제조업체의 강세는 Nasdaq에 도움이 됨 —TSLA, NFLX, BE, NVDA 집중"
       },
@@ -62812,7 +62826,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804027.4694908
+          "analysisUpdatedAt": 1788804141.6956916
         }
       },
       {
@@ -62861,7 +62875,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804028.3748324
+          "analysisUpdatedAt": 1788804142.6349535
         }
       },
       {
@@ -62874,22 +62888,24 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "S&P 500, Dow는 폭발적 일자리 보고 팬 평가 상승 우려로 하락 마감, 칩 제조업체의 강점은 Nasdaq —TSLA, NFLX, BE, NVDA 초점 신규 에이전트 연결 동향 뉴스 수입 전체 DIA 0.53% SPY 0.39% QQQ 0.18% 추세 ICP 12.95% DOT",
+            "S&P 500, 다우지수는 일자리 폭등에 대한 팬들의 평가 인상 우려로 하락 마감, 칩 제조업체의 강점은 나스닥에 도움",
+            "트레이더들이 2026년 7월 23일 뉴욕시 뉴욕증권거래소(NYSE) 1층에서 일하고 있다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -62899,18 +62915,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 SPY의 사업과 관련된 'S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "SPY 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "SPY에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804029.1056805
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "12.95%",
+            "14.16%",
+            "2.71%",
+            "6.55%",
+            "3.24%"
+          ],
+          "sourceExcerpt": [
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending ICP 12.95% DOT ",
+            "S&P 500, Dow End Lower As Blowout Jobs Report Fans Rate Hike Fears, While Chipmaker Strength Aids Nasdaq —TSLA, NFLX, BE, NVDA In Focus Nonfarm payrolls grew by 162,000 in August, while the unemployment rate held steady at 4.1%.",
+            "Traders work on the floor of the New York Stock Exchange (NYSE) on July 23, 2026 in New York City."
+          ],
+          "analysisUpdatedAt": 1788804145.6523728
         }
       },
       {
@@ -65718,17 +65746,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:00",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "ORCL": {
@@ -69718,7 +69746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -73158,7 +73186,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788785216.5842948,
     "_earnings_status": "ok",
@@ -77236,7 +77264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -77297,7 +77325,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804088.6262283
+          "analysisUpdatedAt": 1788804200.2885497
         },
         "headlineKo": "Qualcomm: 인내심을 요구하는 장기적인 플레이"
       },
@@ -77347,7 +77375,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804090.6672685
+          "analysisUpdatedAt": 1788804202.6709862
         },
         "headlineKo": "Qualcomm(QCOM)이 스마트 링에 7천만 달러를 투자하는 이유는 무엇입니까?"
       },
@@ -77411,7 +77439,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "The divergence reveals something important about which companies actually benefit when hyperscaler spending accelerates."
           ],
-          "analysisUpdatedAt": 1788804093.1823847
+          "analysisUpdatedAt": 1788804205.147423
         },
         "headlineKo": "무너진 AI 실리콘이 반등하면서 Marvell은 6% 상승하고 Qualcomm은 거의 버지 못합니다."
       },
@@ -77483,7 +77511,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804088.6262283
+          "analysisUpdatedAt": 1788804200.2885497
         }
       },
       {
@@ -77532,7 +77560,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804090.6672685
+          "analysisUpdatedAt": 1788804202.6709862
         }
       },
       {
@@ -77595,7 +77623,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "The divergence reveals something important about which companies actually benefit when hyperscaler spending accelerates."
           ],
-          "analysisUpdatedAt": 1788804093.1823847
+          "analysisUpdatedAt": 1788804205.147423
         }
       },
       {
@@ -79134,17 +79162,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:01",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "ARM": {
@@ -80426,7 +80454,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788785216.5842948,
     "_earnings_status": "ok",
@@ -84565,7 +84593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -86113,7 +86141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -87864,7 +87892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -87925,7 +87953,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804097.659521
+          "analysisUpdatedAt": 1788804210.2294655
         },
         "headlineKo": "KLA(KLAC)는 최근 하락 후 26% 저평가될 수 있습니다."
       },
@@ -87975,7 +88003,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804099.1485143
+          "analysisUpdatedAt": 1788804211.9652672
         },
         "headlineKo": "Jim Cramer가 KLA(KLAC) 주식을 소액으로 구매하도록 권장하는 이유를 설명합니다."
       },
@@ -88025,7 +88053,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804101.328299
+          "analysisUpdatedAt": 1788804214.3099427
         },
         "headlineKo": "반도체 웨이퍼 검사 장비 시장 전망(2025~2035년) KLA Corporation, Applied Materials, Hitachi High-Tech Corporation 등의 프로필 포함"
       },
@@ -88097,7 +88125,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804097.659521
+          "analysisUpdatedAt": 1788804210.2294655
         }
       },
       {
@@ -88146,7 +88174,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804099.1485143
+          "analysisUpdatedAt": 1788804211.9652672
         }
       },
       {
@@ -88195,7 +88223,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804101.328299
+          "analysisUpdatedAt": 1788804214.3099427
         }
       },
       {
@@ -89347,17 +89375,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:01",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "SNDK": {
@@ -93837,7 +93865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -95462,7 +95490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788788952.9004593,
     "_earnings_status": "ok",
@@ -97081,7 +97109,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -98672,7 +98700,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -100197,7 +100225,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -100258,7 +100286,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804120.2381027
+          "analysisUpdatedAt": 1788804231.9939613
         },
         "headlineKo": "Rivian(RIVN)은 사상 최대 규모의 베팅 도중 CFO를 GE Vernova(GEV)에게 잃었습니다."
       },
@@ -100307,7 +100335,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804121.7235444
+          "analysisUpdatedAt": 1788804234.0007558
         },
         "headlineKo": "GE Vernova, 스코틀랜드 ESB 풍력 발전 단지에 터빈 공급 계약 체결"
       },
@@ -100356,7 +100384,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804123.8130243
+          "analysisUpdatedAt": 1788804236.0699108
         },
         "headlineKo": "시장의 대화: GE Vernova 거래, 6~12개월 내에 베네수엘라 전력망 안정화 목표"
       },
@@ -100428,7 +100456,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804120.2381027
+          "analysisUpdatedAt": 1788804231.9939613
         }
       },
       {
@@ -100476,7 +100504,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804121.7235444
+          "analysisUpdatedAt": 1788804234.0007558
         }
       },
       {
@@ -100524,7 +100552,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804123.8130243
+          "analysisUpdatedAt": 1788804236.0699108
         }
       },
       {
@@ -101983,17 +102011,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:02",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:03",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "CEG": {
@@ -103111,7 +103139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788785216.5842948,
     "_earnings_status": "ok",
@@ -104535,7 +104563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -104596,7 +104624,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804129.797933
+          "analysisUpdatedAt": 1788804241.539708
         },
         "headlineKo": "VWDRY 대 ETN: 어느 주식이 더 나은 가치 옵션입니까?"
       },
@@ -104646,7 +104674,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804130.9008906
+          "analysisUpdatedAt": 1788804242.5890408
         },
         "headlineKo": "5년 전 Eaton Corp에 투자한 100달러는 오늘날 이만큼의 가치가 있을 것입니다"
       },
@@ -104696,7 +104724,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804132.894732
+          "analysisUpdatedAt": 1788804244.980226
         },
         "headlineKo": "이튼, 2억 4200만 달러 규모의 아칸소 공장으로 미국 전력 용량 증대"
       },
@@ -104768,7 +104796,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804129.797933
+          "analysisUpdatedAt": 1788804241.539708
         }
       },
       {
@@ -104817,7 +104845,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804130.9008906
+          "analysisUpdatedAt": 1788804242.5890408
         }
       },
       {
@@ -104866,7 +104894,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804132.894732
+          "analysisUpdatedAt": 1788804244.980226
         }
       },
       {
@@ -106081,17 +106109,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:02",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "PWR": {
@@ -106148,7 +106176,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804138.9058547
+          "analysisUpdatedAt": 1788804250.5742254
         },
         "headlineKo": "Quanta Services (PWR) 주식은 공정 가치에 대한 프리미엄으로 거래됩니다."
       },
@@ -106198,7 +106226,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804140.817007
+          "analysisUpdatedAt": 1788804252.93788
         },
         "headlineKo": "PWR의 배당금을 둘러싼 분석가의 낙관론이 Quanta의 그리드 확장 투자 사례를 강화하고 있습니까?"
       },
@@ -106248,7 +106276,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804142.6476667
+          "analysisUpdatedAt": 1788804254.5678172
         },
         "headlineKo": "월스트리트 분석가들은 Quanta Services(PWR)를 매수로 보고 있습니다: 투자해야 할까요?"
       },
@@ -106320,7 +106348,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804138.9058547
+          "analysisUpdatedAt": 1788804250.5742254
         }
       },
       {
@@ -106369,7 +106397,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804140.817007
+          "analysisUpdatedAt": 1788804252.93788
         }
       },
       {
@@ -106418,7 +106446,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804142.6476667
+          "analysisUpdatedAt": 1788804254.5678172
         }
       },
       {
@@ -107262,17 +107290,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:02",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "HUBB": {
@@ -107927,7 +107955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788792718.6309414,
     "_earnings_status": "ok",
@@ -107988,7 +108016,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804147.594086
+          "analysisUpdatedAt": 1788804260.0192854
         },
         "headlineKo": "Vertiv Holdings Co.(VRT)가 투자자의 관심을 끌고 있습니다: 알아야 할 사항은 다음과 같습니다."
       },
@@ -108037,7 +108065,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804149.6228797
+          "analysisUpdatedAt": 1788804261.6809485
         },
         "headlineKo": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의"
       },
@@ -108087,7 +108115,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804150.5371118
+          "analysisUpdatedAt": 1788804262.5931256
         },
         "headlineKo": "Vertiv: AI 혁명의 중추"
       },
@@ -108159,7 +108187,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804147.594086
+          "analysisUpdatedAt": 1788804260.0192854
         }
       },
       {
@@ -108207,7 +108235,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804149.6228797
+          "analysisUpdatedAt": 1788804261.6809485
         }
       },
       {
@@ -108256,7 +108284,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804150.5371118
+          "analysisUpdatedAt": 1788804262.5931256
         }
       },
       {
@@ -110250,17 +110278,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:02",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "MOD": {
@@ -110317,7 +110345,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804156.094906
+          "analysisUpdatedAt": 1788804268.063136
         },
         "headlineKo": "월스트리트 분석가들은 Modine(MOD)이 좋은 투자라고 생각합니다: 그렇습니까?"
       },
@@ -110366,7 +110394,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804157.0323737
+          "analysisUpdatedAt": 1788804268.947346
         },
         "headlineKo": "Modine: 구매할 가치가 있는 붕괴 - 임시 공급망/마진/실행 위험"
       },
@@ -110415,7 +110443,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804159.5738971
+          "analysisUpdatedAt": 1788804269.9765363
         },
         "headlineKo": "Keybanc, Modine 제조에 대한 비중 확대 유지, $280 목표 가격 유지"
       },
@@ -110487,7 +110515,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804156.094906
+          "analysisUpdatedAt": 1788804268.063136
         }
       },
       {
@@ -110535,7 +110563,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804157.0323737
+          "analysisUpdatedAt": 1788804268.947346
         }
       },
       {
@@ -110583,7 +110611,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788804159.5738971
+          "analysisUpdatedAt": 1788804269.9765363
         }
       },
       {
@@ -110850,17 +110878,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788804024.2130926,
-    "_updated_label": "2026-09-08 03:02",
+    "_fetched_at": 1788804130.5453522,
+    "_updated_label": "2026-09-08 03:04",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
-    "_last_attempt_at": 1788804024.2130926,
+    "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
-    "_last_success_at": 1788804024.2130926,
+    "_last_success_at": 1788804130.5453522,
     "_collection_status": "ok"
   },
   "STX": {
@@ -112047,7 +112075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -113049,7 +113077,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -114250,7 +114278,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_last_attempt_at": 1788796446.869628,
     "_earnings_status": "ok",
@@ -114754,7 +114782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-08 03:02"
+      "updated": "2026-09-08 03:04"
     },
     "_fetched_at": 1788796446.869628,
     "_updated_label": "2026-09-08 00:57",
