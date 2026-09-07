@@ -4,8 +4,8 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "SPY": {
     "transactions": [],
@@ -537,8 +537,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "AAPL": {
     "transactions": [
@@ -564,8 +564,8 @@ const INSIDER_DATA = {
   },
   "TSLA": {
     "transactions": [],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "ORCL": {
     "transactions": [
@@ -658,8 +658,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "CRM": {
     "transactions": [],
@@ -1017,8 +1017,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "AVGO": {
     "transactions": [
@@ -1349,8 +1349,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "ARM": {
     "transactions": [
@@ -1422,8 +1422,8 @@ const INSIDER_DATA = {
   },
   "INTC": {
     "transactions": [],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "TSM": {
     "transactions": [
@@ -1588,13 +1588,13 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "AMAT": {
     "transactions": [
@@ -2247,8 +2247,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "WDC": {
     "transactions": [
@@ -2291,130 +2291,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-21",
         "filingDate": "2026-07-21",
         "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 16,
-        "transactionPrice": 544.95,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 543.92,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 542.7867,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 16,
-        "transactionPrice": 540.96,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 32,
-        "transactionPrice": 539.815,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 57,
-        "transactionPrice": 538.8116,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 71,
-        "transactionPrice": 537.7273,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 112,
-        "transactionPrice": 536.2686,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 16,
-        "transactionPrice": 534.9,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 533.9733,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 96,
-        "transactionPrice": 533.0133,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 531.6167,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 64,
-        "transactionPrice": 530.2675,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 48,
-        "transactionPrice": 528.0733,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
-      },
-      {
-        "name": "Cole Martin I",
-        "share": 128,
-        "transactionPrice": 527.2238,
-        "transactionDate": "2026-06-09",
-        "filingDate": "2026-06-11",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "ANET": {
     "transactions": [
@@ -2579,8 +2459,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "COHR": {
     "transactions": [
@@ -2593,8 +2473,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "LITE": {
     "transactions": [
@@ -2759,13 +2639,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "CEG": {
     "transactions": [
@@ -2778,8 +2658,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "VST": {
     "transactions": [
@@ -2870,8 +2750,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "PWR": {
     "transactions": [],
@@ -3210,8 +3090,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "EME": {
     "transactions": [
@@ -3224,8 +3104,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788750997.8390126,
-    "_updated_label": "2026-09-07"
+    "_fetched_at": 1788823518.2215762,
+    "_updated_label": "2026-09-08"
   },
   "FIX": {
     "transactions": [

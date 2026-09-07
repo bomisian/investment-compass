@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 91.4800033569336,
+      "current": 92.61000061035156,
       "prevClose": 91.4800033569336,
-      "changeAbs": 0.0,
-      "changePct": 0.0,
-      "pctRank": 85.13513513513513,
+      "changeAbs": 1.1299972534179688,
+      "changePct": 1.2352396282813671,
+      "pctRank": 86.56597774244833,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -19.00840564090226,
-      "ma20": 85.90300102233887,
-      "ma60": 80.41133359273275,
-      "chg1m": 13.300003051757812,
-      "chg3m": 0.18000030517578125,
-      "chg1mPct": 17.012027372526507,
-      "chg3mPct": 0.19715257301113057,
+      "drawdown1y": -18.00796537180178,
+      "ma20": 85.95950088500976,
+      "ma60": 80.43016688028972,
+      "chg1m": 14.430000305175781,
+      "chg3m": 1.30999755859375,
+      "chg1mPct": 18.457406304487396,
+      "chg3mPct": 1.4348275080025075,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4476.60009765625,
+      "current": 4455.5,
       "prevClose": 4429.7998046875,
-      "changeAbs": 46.80029296875,
-      "changePct": 1.0564877654115912,
-      "pctRank": 91.41494435612083,
+      "changeAbs": 25.7001953125,
+      "changePct": 0.5801660672183134,
+      "pctRank": 91.25596184419715,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.828065210299991,
-      "ma20": 4472.894995117187,
-      "ma60": 4236.921667480468,
-      "chg1m": 135.89990234375,
-      "chg3m": 140.7001953125,
-      "chg1mPct": 3.1308290420634814,
-      "chg3mPct": 3.2450056154766207,
+      "drawdown1y": -16.22480291419006,
+      "ma20": 4471.839990234375,
+      "ma60": 4236.5699991861975,
+      "chg1m": 114.7998046875,
+      "chg3m": 119.60009765625,
+      "chg1mPct": 2.6447301016428577,
+      "chg3mPct": 2.758368512880123,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,17 +219,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
-      "datetime": 1788806905,
-      "headlineKo": "이란, 최근 충돌 이후 걸프 지역의 미국 에너지 자산이 취약하다고 경고 - reuters.com"
-    },
-    {
-      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - reuters.com",
+      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
-      "datetime": 1788801218
+      "datetime": 1788801218,
+      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다고 유엔 전문가 \"로이터\""
     },
     {
       "headline": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
@@ -239,11 +233,11 @@ const MARKET_DATA = {
       "headlineKo": "다우닝 스트리트는 영국 번햄과 트럼프가 우크라이나-러시아 휴전을 위한 노력을 논의했다고 다우닝 스트리트가 밝혔습니다."
     },
     {
-      "headline": "Gulf equities mixed amid US-Iran flare-ups - reuters.com",
+      "headline": "Gulf equities mixed amid US-Iran flare-ups - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
       "datetime": 1788791258,
-      "headlineKo": "미국-이란 갈등 속에 걸프 증시 혼조세 - reuters.com"
+      "headlineKo": "미국-이란 갈등 속에 걸프 증시 혼조세 - Reuters"
     },
     {
       "headline": "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
@@ -253,61 +247,70 @@ const MARKET_DATA = {
       "headlineKo": "'아! 또 다시 거절당했다': 이 45세 청년이 어떻게 '사기 꺾이는' 구직활동을 원맨쇼로 만들었는지"
     },
     {
-      "headline": "UAE says its energy exports will not be 'held hostage' by Iran war - reuters.com",
+      "headline": "UAE says its energy exports will not be 'held hostage' by Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
       "datetime": 1788786803,
-      "headlineKo": "UAE는 에너지 수출이이란 전쟁에 '인질로 잡히지' 않을 것이라고 밝혔다 - reuters.com"
+      "headlineKo": "UAE는 에너지 수출이이란 전쟁에 '인질로 잡히지' 않을 것이라고 말했습니다 - Reuters"
     },
     {
-      "headline": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - reuters.com",
+      "headline": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEZFOFdkQkNyVk5LRXRVVEdIbWtYY0VkUENMOGFSMUhJdmxXWmFyR0d4UVQxRk4yVXd0N1BWR2ctQnVQSHlCOFV0OUd4UTczWTZmc2NJSXYtVnZJU2xpUkNDUG40aTU0M3dsa1BzTHVVZUF1NEtBdFBwazd3SWgtRll4bXZRWmtXQm9jaHRrVkxpaHQzVWhKZWo4dmJzaGdFV29qeDNONmpNQ0MzLXVCU3N3OUFmNmMtNzJF?oc=5",
       "datetime": 1788785385,
-      "headlineKo": "그로시 \"사우디, IAEA에 더 많은 간섭 권한 부여 준비 중\" - reuters.com"
+      "headlineKo": "그로시 \"사우디, IAEA에 더 많은 침해적 권한 부여 준비 중\" - 로이터 통신"
     },
     {
-      "headline": "Sweden to buy Lockheed Martin's Himars artillery rocket system in $729 mln deal - reuters.com",
+      "headline": "Sweden to buy Lockheed Martin's Himars artillery rocket system in $729 mln deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNkUwazJZZE4xSlNLRHJ5ZFMyOW9RM1NQUkdrOGxHZFNxN25DaGRMRjhlcmV6MmpQYmVBUURwME5vLVhGQUdRTjJDTk43YUEwcGRnSElubmR5RFZyakVpdjUyWE5DU2N5LVM2ckhRTy1mNFp2eHJiakZLSjY4Zk13b1ZtOUJoaUg5aTZlbU1BSnEzWWJVckJjamVNZENDWmdyQVBOMTR5bGsweVFkbWlHLWVvdXV1QTBGaXZFa2pQaU5UVnp2WExYSWoxSmJPaGs?oc=5",
-      "datetime": 1788783227
+      "datetime": 1788783227,
+      "headlineKo": "스웨덴, 록히드 마틴의 Himars 포병 로켓 시스템을 7억 2900만 달러에 구매 - Reuters"
     },
     {
-      "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - reuters.com",
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788780603,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
+      "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUp5ZGlTQWNQSDNtbzRnQzdZNTM4TXpLeFpjV1E3SElQRmxzSWVqRU5mODRJN0ZCTzdyaFZ2dW5GMEQxMVB6ZldNS2JOQzFpRk9KeGNMNFlZVnpMSDZ3MFJnRVByT0JCaEdyZHhONFRjTjgtVG8yeXVmQngxM2xSd3ZyeExZS0tZejN2QkhyQk44NTdlZTFscDZaTmF4Um41S3c4Q2tKaXkyMXFOa2JVTEZjdU9aSENuMV95Z2tFZnd4Yk5BQ1E?oc=5",
       "datetime": 1788779042,
       "headlineKo": "오만은 이란의 공격을 받은 사우디 시드르 선박의 선원 16명을 대피시켰다고 밝혔습니다."
     },
     {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - reuters.com",
+      "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788777003,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? -reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
+      "datetime": 1788764220,
+      "headlineKo": "이란, 최근 충돌 이후 걸프 지역의 미국 에너지 자산이 취약하다고 경고 - 로이터"
     },
     {
-      "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - reuters.com",
+      "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
       "datetime": 1788763680,
-      "headlineKo": "이스라엘, 레바논 남부 마을 공습…격화 우려로 12명 사망 - reuters.com"
+      "headlineKo": "이스라엘, 레바논 남부 마을 공습으로 12명 사망 - 확대 우려 - 로이터 통신"
     },
     {
       "headline": "Goldman sees $120/bbl oil risk if attacks on Middle East vessels intensify, Bloomberg reports - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR01kWlp4MnIxcG5yY0dWZ2NNX3FRVHV5Ny0yNG5kNGFQdVFYbmxoaXZIZ2t1WjExSU8zTDUzNXI4RDY0VVlVZ2RXSTZpSmFjWHRyMWcwdERLSl8weTEydUwyb0pHM3E3S3NKalpHUVdHR3R0ZUlRZDZjZzRRc1dqRWQ2cEpGMFVwMk0xNDRTZ2ZaemlwanlWeENGU2VNSjQ3cFBxLXZ1blhrSU4xS3ctRFc5RlJnb19LVVM5MTZHY0R0NE8wdHljTmlTaw?oc=5",
-      "datetime": 1788760140
+      "datetime": 1788760140,
+      "headlineKo": "Goldman은 중동 선박에 대한 공격이 강화될 경우 석유 위험이 $120/bbl이라고 Bloomberg가 보고했습니다. - reuters.com"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788819279.568696,
-  "_updated_label": "2026-09-08 07:15",
-  "_last_attempt_at": 1788819279.568696,
-  "_last_success_at": 1788819279.568696,
+  "_fetched_at": 1788823543.0578303,
+  "_updated_label": "2026-09-08 08:26",
+  "_last_attempt_at": 1788823543.0578303,
+  "_last_success_at": 1788823543.0578303,
   "_collection_status": "ok",
   "_collection_errors": []
 };
