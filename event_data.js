@@ -1,8 +1,70 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788741506.9293087,
+  "generatedAt": 1788743367.1792743,
   "events": [
+    {
+      "id": "e2ce79b41d4b087aae4e",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
+      "headlineKo": "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
+        "publishedAt": 1788729369,
+        "collectedAt": 1788743335.2964659
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
     {
       "id": "ff817e8bf898332cf916",
       "schemaVersion": 1,
@@ -1104,7 +1166,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c686985f2d1ee36acd57cf68fc1ec368cbd7560286e77ee01a4f48c461c0159b",
         "publishedAt": 1788633300,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1275,7 +1337,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c91b0250bd447583cf3e54e7a07aa669542e0140205e7d3070c6698ccefebf",
         "publishedAt": 1788627934,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1755,68 +1817,6 @@ const EVENT_DATA = {
       ]
     },
     {
-      "id": "776b83c28d6a65f9d9f8",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue",
-      "headlineKo": "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
-        "publishedAt": 1788613800,
-        "collectedAt": 1788721224.521656
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
       "id": "9531ad704c5fa19fe096",
       "schemaVersion": 1,
       "eventType": "supply_chain",
@@ -1852,7 +1852,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
         "publishedAt": 1788613800,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2570,7 +2570,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
         "publishedAt": 1788600300,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5564,7 +5564,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b32f31cda5ccb21e4c683de47dd2f1d5cd1a9372cfe11498c296494463a4ce2a",
         "publishedAt": 1788536529,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5875,7 +5875,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=983bf5c9084a761d74427f3cb88fc950d11d7ed68da7f6adc8e30fedd3d93e46",
         "publishedAt": 1788535835,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8037,7 +8037,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0dddeca1009928774a28a221d266e1f13a5640e1ab2e232491e33fecb518085",
         "publishedAt": 1788496678,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9852,7 +9852,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49291445a910a64dff658f6c375ffbb74e26d4e247e1d1cfe53c0adf46afcb6a",
         "publishedAt": 1788470093,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10611,7 +10611,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
         "publishedAt": 1788457675,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12665,7 +12665,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
         "publishedAt": 1788443718,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13481,7 +13481,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
         "publishedAt": 1788440638,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16241,7 +16241,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b58667a6474fcee5cfd88598166841eb9e2f7dfad86491bc0555454d88ee979a",
         "publishedAt": 1788381206,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16678,7 +16678,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c1ea91f450e7cafd6ed6c51b2713de374166a2ca146f126b38d4050507ef317e",
         "publishedAt": 1788376800,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16740,7 +16740,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c6c0c5437b9506db8713b53dcc20ad94e43d7f2bffb33d7d45f614ffe5c4aa29",
         "publishedAt": 1788376149,
-        "collectedAt": 1788721224.521656
+        "collectedAt": 1788743335.2964659
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18024,6 +18024,22 @@ const EVENT_DATA = {
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "e2ce79b41d4b087aae4e",
+      "1fd39215a412312fcfaa",
+      "8d8419343b08e02023cd",
+      "9531ad704c5fa19fe096",
+      "0dc5a39d4d42ab975e78",
+      "285f88d9a19ce5a20677",
+      "8337cbc7fc2ff63bc499",
+      "d79a8daa76dde3162513",
+      "f190ccf52523b3f92b90",
+      "2825dc12fa38e7bc86df",
+      "c5efd581b708dd2ede88",
+      "aeb6f0acff729cea07c9",
+      "42c15f4f17ea94e5d18f",
+      "8d06174147545bcdc4cf"
+    ],
     "SPY": [
       "ff817e8bf898332cf916",
       "0f154036fc741067c037",
@@ -18472,22 +18488,6 @@ const EVENT_DATA = {
       "75f885d5ba5676a2a7ff",
       "6aa68efb46fc95e76f04",
       "c89b54469e1b3165018a"
-    ],
-    "AAPL": [
-      "1fd39215a412312fcfaa",
-      "8d8419343b08e02023cd",
-      "776b83c28d6a65f9d9f8",
-      "9531ad704c5fa19fe096",
-      "0dc5a39d4d42ab975e78",
-      "285f88d9a19ce5a20677",
-      "8337cbc7fc2ff63bc499",
-      "d79a8daa76dde3162513",
-      "f190ccf52523b3f92b90",
-      "2825dc12fa38e7bc86df",
-      "c5efd581b708dd2ede88",
-      "aeb6f0acff729cea07c9",
-      "42c15f4f17ea94e5d18f",
-      "8d06174147545bcdc4cf"
     ],
     "QCOM": [
       "1fd39215a412312fcfaa",

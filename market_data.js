@@ -87,7 +87,7 @@ const MARKET_DATA = {
       "chg3m": 0.18000030517578125,
       "chg1mPct": 17.012027372526507,
       "chg3mPct": 0.19715257301113057,
-      "lastDate": "2026-09-06",
+      "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.15699768066406,
+      "current": 99.0979995727539,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.0030059814453125,
-      "changePct": -0.003031445476298559,
-      "pctRank": 27.58346581875994,
+      "changeAbs": -0.06200408935546875,
+      "changePct": -0.06252933346669641,
+      "pctRank": 27.027027027027028,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.4141353360425,
-      "ma20": 99.3603500366211,
-      "ma60": 100.27045021057128,
-      "chg1m": -0.44300079345703125,
-      "chg3m": -0.89300537109375,
-      "chg1mPct": -0.44477991992352833,
-      "chg3mPct": -0.8925590643228476,
-      "lastDate": "2026-09-06",
+      "drawdown1y": -2.472198624651667,
+      "ma20": 99.35740013122559,
+      "ma60": 100.26946690877278,
+      "chg1m": -0.5019989013671875,
+      "chg3m": -0.9520034790039062,
+      "chg1mPct": -0.5040149689335799,
+      "chg3mPct": -0.9515276861225245,
+      "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -133,7 +133,7 @@ const MARKET_DATA = {
       "chg3m": 140.7001953125,
       "chg1mPct": 3.1308290420634814,
       "chg3mPct": 3.2450056154766207,
-      "lastDate": "2026-09-06",
+      "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
@@ -226,6 +226,13 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
     },
     {
+      "headline": "US envoys hope for new Ukraine-Russia talks soon after visits to both capitals - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONnlRblpUWUNHMjMteEdBa0JYZk5MeFJQRjlEa3dUdGtDY0xfZEs5Y2dCcV8yNEhSTHYzem9SVVVYS1NBZnc4U29BSEcydHp4cUx5bFZSUmZ1QXFsNHlFRGgtbGJ2WmZMRTZzdjhrTWY1b1BDMlFnQTlWXzRLU056OGV2TUlRdkdTdjRkMFpTNi02X1Y4MU5sMEF4WF8wcVpDNmNJUmFvXzRZeV91N2dKUDNJN1FWdkg3RHpReHVoNA?oc=5",
+      "datetime": 1788725214,
+      "headlineKo": "미국 특사, 두 수도 방문 후 곧 새로운 우크라이나-러시아 회담 희망 - 로이터"
+    },
+    {
       "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
@@ -254,13 +261,6 @@ const MARKET_DATA = {
       "headlineKo": "'누구나 AI 비밀을 갖고 있다': 이 아티스트는 1년 동안 수백 건의 익명 AI 고백을 수집하고 공유했습니다."
     },
     {
-      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
-      "datetime": 1788702373,
-      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - 로이터 통신"
-    },
-    {
       "headline": "Parents who are really good at handling tantrums do 5 things—their kids become more emotionally intelligent, says psychologist",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/06/parents-who-are-really-good-at-handling-tantrums-do-things-psychologist.html",
@@ -273,6 +273,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
       "datetime": 1788700063,
       "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - Reuters"
+    },
+    {
+      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
+      "datetime": 1788698880,
+      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - 로이터 통신"
     },
     {
       "headline": "At least 25 killed in bus crash on Cape Verde's Fogo island, agency says - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/06/ai-data-centers-are-transforming-rural-land-markets-fueling-backlash.html",
       "datetime": 1788696001,
       "headlineKo": "AI 데이터 센터는 농촌 토지 시장을 변화시키고 반발을 불러일으키고 있습니다."
-    },
-    {
-      "headline": "Russia's Lavrov calls accusations of Moscow's involvement in Leipzig drone incident 'start of real war', TASS reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc25LWXEwUFU4bnJKZk1QZWVPMHV4NjlMcDUydTJCTFd1RzYtTG5qM0xsa1M5dW1WOVZqYlFlRXVRYWFrMldheHQ1a0RUMXNLRUZrbzU4clpaVFoycWVicDh1TmloUDdDVm9VNEtaRTlvd080Y1liekQwQVYxM0RjczlOSXA2RXFhc1V6dGR0R1g5aXpXX0NoMDlGZ2VqQ0RTNnlLV2NaTHpsOHJoSVFiU29ONXNqcVRq?oc=5",
-      "datetime": 1788694183,
-      "headlineKo": "러시아 라브로프는 라이프치히 드론 사건에 모스크바가 연루됐다는 비난을 '실제 전쟁의 시작'이라고 TASS가 보도했다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788739261.8174229,
-  "_updated_label": "2026-09-07 09:01",
-  "_last_attempt_at": 1788739261.8174229,
-  "_last_success_at": 1788739261.8174229,
+  "_fetched_at": 1788743367.3150384,
+  "_updated_label": "2026-09-07 10:09",
+  "_last_attempt_at": 1788743367.3150384,
+  "_last_success_at": 1788743367.3150384,
   "_collection_status": "ok",
   "_collection_errors": []
 };

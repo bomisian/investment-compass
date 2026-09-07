@@ -7132,7 +7132,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -7148,33 +7148,31 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",
+        "headline": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=372822162d1d5b0765b427b9a1dbf5610fd5ca95d7e01bdce5489b7ce7060f52",
-        "datetime": 1788637200,
+        "url": "https://finnhub.io/api/news?id=cffb60530c356ad83d70f5ba341f71adb8ce87c95dbba1f4ae5067ff4efff611",
+        "datetime": 1788741926,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "예측: Amazon은 2029년 이전에 Nvidia, Apple 및 Alphabet과 함께 4조 달러 클럽에 합류할 예정 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "Help Amazon( AMZN -0.15% )은 인공 지능 혁명을 촉진하는 클라우드 인프라 서비스 분야의 세계적 리더입니다.",
-            "또한 전자상거래 분야의 세계 선두주자이기도 합니다."
+            "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $4 Trillion, 0.15%, $716 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -7184,119 +7182,147 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$4 Trillion",
-            "0.15%",
-            "$716 billion",
-            "47%",
-            "46%",
-            "69%",
-            "71%",
-            "$4 trillion"
-          ],
-          "sourceExcerpt": [
-            "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029 | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Amazon ( AMZN -0.15% ) is the world leader in cloud infrastructure services that are facilitating the artificial intelligence revolution.",
-            "It's also the world leader in e-commerce."
-          ],
-          "analysisUpdatedAt": 1788721229.5025828
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743339.2270656
         },
-        "headlineKo": "예측: Amazon은 2029년 이전에 Nvidia, Apple, Alphabet과 함께 4조 달러 클럽에 합류할 것입니다."
+        "headlineKo": "다우존스 선물은 이란, 애플, 인플레이션에 초점을 맞춰 하락; Nvidia, Micron, Sandisk Flash 구매 신호"
       },
       {
-        "headline": "Apple's First iPhone Under New CEO John Ternus Launches Sept. 9. Here's Whether It's Finally Time to Buy the Stock.",
+        "headline": "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c686985f2d1ee36acd57cf68fc1ec368cbd7560286e77ee01a4f48c461c0159b",
-        "datetime": 1788633300,
-        "relevance": 0.57,
+        "url": "https://finnhub.io/api/news?id=cd4085b35dc05f3d1a4591900f30ac31c93a204ad4f8ee57e6cb163e4d750eaf",
+        "datetime": 1788738514,
+        "relevance": 0.71,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 2.51%, 8%, 30%, 21%, 16%, $109 billion, 27%, $29.4 billion.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+            "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
               "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's First iPhone Under New CEO John Ternus Launches Sept. 9. Here's Whether It's Finally Time to Buy the Stock.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.57,
-          "quality": "high",
-          "verifiedNumbers": [
-            "2.51%",
-            "8%",
-            "30%",
-            "21%",
-            "16%",
-            "$109 billion",
-            "27%",
-            "$29.4 billion"
-          ],
-          "sourceExcerpt": [
-            "Apple's First iPhone Under New CEO John Ternus Launches Sept.",
-            "Here's Whether It's Finally Time to Buy the Stock.",
-            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
-          ],
-          "analysisUpdatedAt": 1788721230.2564597
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.71,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743341.0841541
         },
-        "headlineKo": "새로운 CEO 존 터너스(John Ternus)가 이끄는 Apple의 첫 번째 iPhone이 9월 9일 출시됩니다. 이제 주식을 매입할 때가 되었는지 알아보겠습니다."
+        "headlineKo": "Apple(AAPL)이 미국에서 Apple TV와 Apple One 가격을 다시 인상합니다."
+      },
+      {
+        "headline": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0af492eafa8a1c2529e56b7c222f60c50e17739840635565e17003628c39c2fd",
+        "datetime": 1788737507,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743343.0942118
+        },
+        "headlineKo": "엔비디아(NVDA)의 사상 첫 연간 전망으로 애플과 알파벳을 앞지르는 길에 들어서다"
+      },
+      {
+        "headline": "Apple (AAPL) Sets iPhone Launch Event. The First Under New CEO John Ternus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d34c36072471d72c3064feeea58bf69eddbab6ca5c8008996575080b415e5196",
+        "datetime": 1788736345,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Apple(AAPL)이 iPhone 출시 이벤트를 개최합니다. 새로운 CEO John Ternus의 첫 번째 CEO"
+      },
+      {
+        "headline": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
+        "datetime": 1788729369,
+        "relevance": 0.71,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다."
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c91b0250bd447583cf3e54e7a07aa669542e0140205e7d3070c6698ccefebf",
         "datetime": 1788627934,
+        "headlineKo": "Apple(AAPL), 더 넓은 유럽 지분을 대상으로 20억 파운드 규모의 새로운 영국 ATT 소송 제기",
         "relevance": 0.71,
         "keywordFlag": true,
         "flagTerms": [
@@ -7340,28 +7366,7 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788721231.957611
-        },
-        "headlineKo": "Apple(AAPL), 더 넓은 유럽 지분을 대상으로 20억 파운드 규모의 새로운 영국 ATT 소송 제기"
-      },
-      {
-        "headline": "‘AI Laggard’ Apple Is Sitting Pretty, But AAPL Stock Might Be Running Out of Room to Outperform",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ec1f802aa86b804a088ed43f4a5896dc18c37aab22413911251ee4b2fecb5519",
-        "datetime": 1788620534,
-        "relevance": 0.71,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "'AI Laggard' Apple은 꽤 자리 잡고 있지만 AAPL 주식은 성과를 낼 여지가 부족할 수 있습니다"
-      },
-      {
-        "headline": "Morgan Stanley estimates Apple foldable iPhone could generate $14 billion in December-quarter revenue",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
-        "datetime": 1788613800,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다."
+        }
       },
       {
         "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
@@ -7502,6 +7507,171 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cffb60530c356ad83d70f5ba341f71adb8ce87c95dbba1f4ae5067ff4efff611",
+        "datetime": 1788741926,
+        "headlineKo": "다우존스 선물은 이란, 애플, 인플레이션에 초점을 맞춰 하락; Nvidia, Micron, Sandisk Flash 구매 신호",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743339.2270656
+        }
+      },
+      {
+        "headline": "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd4085b35dc05f3d1a4591900f30ac31c93a204ad4f8ee57e6cb163e4d750eaf",
+        "datetime": 1788738514,
+        "headlineKo": "Apple(AAPL)이 미국에서 Apple TV와 Apple One 가격을 다시 인상합니다.",
+        "relevance": 0.71,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple (AAPL) Raises Apple TV and Apple One Prices Again in the U.S.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.71,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743341.0841541
+        }
+      },
+      {
+        "headline": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0af492eafa8a1c2529e56b7c222f60c50e17739840635565e17003628c39c2fd",
+        "datetime": 1788737507,
+        "headlineKo": "엔비디아(NVDA)의 사상 첫 연간 전망으로 애플과 알파벳을 앞지르는 길에 들어서다",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788743343.0942118
+        }
+      },
+      {
+        "headline": "Apple (AAPL) Sets iPhone Launch Event. The First Under New CEO John Ternus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d34c36072471d72c3064feeea58bf69eddbab6ca5c8008996575080b415e5196",
+        "datetime": 1788736345,
+        "headlineKo": "Apple(AAPL)이 iPhone 출시 이벤트를 개최합니다. 새로운 CEO John Ternus의 첫 번째 CEO",
+        "relevance": 1.0,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
+        "datetime": 1788729369,
+        "headlineKo": "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다.",
+        "relevance": 0.71,
+        "keywordFlag": false
+      },
       {
         "headline": "Prediction: Amazon Will Join Nvidia, Apple, and Alphabet in the $4 Trillion Club Before 2029",
         "source": "Yahoo",
@@ -11968,17 +12138,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788721224.521656,
-    "_updated_label": "2026-09-07 04:00",
+    "_fetched_at": 1788743335.2964659,
+    "_updated_label": "2026-09-07 10:09",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 130,
+      "checked": 136,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
-    "_last_attempt_at": 1788721224.521656,
+    "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
-    "_last_success_at": 1788721224.521656,
+    "_last_success_at": 1788743335.2964659,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -16842,7 +17012,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -21277,7 +21447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 120,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -26441,7 +26611,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -27861,7 +28031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -32893,7 +33063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -37630,7 +37800,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -43137,7 +43307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -48426,7 +48596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 139,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -52006,7 +52176,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -54846,7 +55016,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -54907,7 +55077,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721237.0450807
+          "analysisUpdatedAt": 1788743350.559528
         },
         "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       },
@@ -54957,7 +55127,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721239.0916934
+          "analysisUpdatedAt": 1788743352.1864069
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -55021,7 +55191,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788721242.3680818
+          "analysisUpdatedAt": 1788743355.4588702
         },
         "headlineKo": "Applied Materials 주가가 한 자릿수 후행 수익 성장으로 거의 3배나 증가한 이유는 무엇입니까?"
       },
@@ -55093,7 +55263,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721237.0450807
+          "analysisUpdatedAt": 1788743350.559528
         }
       },
       {
@@ -55142,7 +55312,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721239.0916934
+          "analysisUpdatedAt": 1788743352.1864069
         }
       },
       {
@@ -55205,7 +55375,7 @@ const NEWS_DATA = {
             "| Trefis Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
             "September 3rd, 2026 · by Trefis Team AMAT YTD +77.6% SPY YTD +13.3% QQQ YTD +17.2% Analyze AMAT → Applied Materials (AMAT) stock has returned about 180% over the past year, against roughly a fifth for the S&P 500."
           ],
-          "analysisUpdatedAt": 1788721242.3680818
+          "analysisUpdatedAt": 1788743355.4588702
         }
       },
       {
@@ -56806,17 +56976,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788721224.521656,
-    "_updated_label": "2026-09-07 04:00",
+    "_fetched_at": 1788743335.2964659,
+    "_updated_label": "2026-09-07 10:09",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
-    "_last_attempt_at": 1788721224.521656,
+    "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
-    "_last_success_at": 1788721224.521656,
+    "_last_success_at": 1788743335.2964659,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -59078,7 +59248,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788730462.8582666,
     "_earnings_status": "ok",
@@ -62313,7 +62483,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -65962,7 +66132,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -69253,7 +69423,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 88,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -73188,7 +73358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788730462.8582666,
     "_earnings_status": "ok",
@@ -75116,7 +75286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -76402,7 +76572,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -80478,7 +80648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788730462.8582666,
     "_earnings_status": "ok",
@@ -81991,7 +82161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -83693,7 +83863,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -85182,7 +85352,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -89426,7 +89596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -89487,7 +89657,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721247.4914403
+          "analysisUpdatedAt": 1788743360.823084
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -89537,7 +89707,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721249.8596637
+          "analysisUpdatedAt": 1788743362.9383845
         },
         "headlineKo": "Western Digital (WDC) 주식은 가치 조사에서 저렴해 보이지만 주가는 무시하기 어려워 보입니다."
       },
@@ -89587,7 +89757,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721251.926721
+          "analysisUpdatedAt": 1788743365.0091248
         },
         "headlineKo": "Micron과 Western Digital의 주가 급등, 알아야 할 사항"
       },
@@ -89711,7 +89881,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721247.4914403
+          "analysisUpdatedAt": 1788743360.823084
         }
       },
       {
@@ -89760,7 +89930,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721249.8596637
+          "analysisUpdatedAt": 1788743362.9383845
         }
       },
       {
@@ -89809,7 +89979,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788721251.926721
+          "analysisUpdatedAt": 1788743365.0091248
         }
       },
       {
@@ -90996,17 +91166,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788721224.521656,
-    "_updated_label": "2026-09-07 04:00",
+    "_fetched_at": 1788743335.2964659,
+    "_updated_label": "2026-09-07 10:09",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
-    "_last_attempt_at": 1788721224.521656,
+    "_last_attempt_at": 1788743335.2964659,
     "_earnings_status": "ok",
-    "_last_success_at": 1788721224.521656,
+    "_last_success_at": 1788743335.2964659,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -92562,7 +92732,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -94076,7 +94246,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -95485,7 +95655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -97228,7 +97398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -98273,7 +98443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788739227.2970426,
     "_earnings_status": "ok",
@@ -99620,7 +99790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -101123,7 +101293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -102304,7 +102474,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -102963,7 +103133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 17,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788724825.2282867,
     "_earnings_status": "ok",
@@ -105271,7 +105441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -105893,7 +106063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788735624.180488,
     "_earnings_status": "ok",
@@ -107084,7 +107254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788730462.8582666,
     "_earnings_status": "ok",
@@ -108086,7 +108256,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788730462.8582666,
     "_earnings_status": "ok",
@@ -109287,7 +109457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_last_attempt_at": 1788728425.2469993,
     "_earnings_status": "ok",
@@ -109742,7 +109912,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-07 09:00"
+      "updated": "2026-09-07 10:09"
     },
     "_fetched_at": 1788728425.2469993,
     "_updated_label": "2026-09-07 06:03",
