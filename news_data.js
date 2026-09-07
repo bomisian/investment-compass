@@ -200,6 +200,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=609fd8dc7ca05cb32273a37e4bf4e411a5b7aaa02536fa011c5e01eb09f77ee1",
         "datetime": 1788796822,
+        "headlineKo": "모두가 Nvidia를 보고 있습니다. 하지만 이 메모리 주식은 다음 AI 승자가 될 수 있습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -262,6 +263,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dfd32d6523dd94c55deb552b3ac63439d8b04483f0fd0b24d6db0a6273308319",
         "datetime": 1788793620,
+        "headlineKo": "Nvidia의 투자 거대 기업이 거대 기업에서 거대 기업으로 도약할 수 있는 방법",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -7294,7 +7296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -12683,7 +12685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -17971,7 +17973,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -22717,7 +22719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -28210,7 +28212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -29876,7 +29878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -35199,7 +35201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -35709,6 +35711,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=86504825e6efde796f504b8ef1a886b1d8c5ef00fe719fb5c4de993acdb8fba8",
         "datetime": 1788749814,
+        "headlineKo": "Amazon, Meta는 이제 Uncle Sam과의 심각한 경쟁입니다: Big Tech의 AI 부채 붐 '드라이빙' 재무부 수익률이 더 높아진다고 시장 평론가가 말했습니다.",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -40082,7 +40085,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -45952,7 +45955,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 162,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -51638,7 +51641,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -51858,6 +51861,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ed58ccb2a6d417bdb7eafb56f307cb7f915d6a5ce939224d2e07ec6d5f917b32",
         "datetime": 1788795657,
+        "headlineKo": "AMD는 아무도 이야기하지 않는 AI 칩 전환 뒤에 있습니다",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -55586,7 +55590,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -55791,6 +55795,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b82267692fe3a5d79f70cf73457e49ff1548034f2375ca039bc025ca35ed546d",
         "datetime": 1788795052,
+        "headlineKo": "예측: 인텔 주식은 2026년에 크게 상승할 것입니다. 그러나 최고는 여전히 앞서 있을 수 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -58764,7 +58769,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -60765,7 +60770,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -63031,7 +63036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -66250,7 +66255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -66689,6 +66694,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=338b8cb8ffdc672d41de7b8e7b63ed5e3fedcc63e2c72033bd1c388af5cd99cf",
         "datetime": 1788760712,
+        "headlineKo": "Oracle은 '모든 컴퓨팅을 판매'할 수 있지만 AI 성장은 두 가지 큰 제약에 직면해 있으며 ORCL의 1분기 수익을 앞두고 분석가 Gil Luria에게 경고합니다.",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -70252,7 +70258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -73692,7 +73698,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -77770,7 +77776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -79674,7 +79680,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -81009,7 +81015,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -85148,7 +85154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -85342,6 +85348,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f85e8a7f5bdf1520e195f11f679ecf15bfc38c93d34c1441de5c1aa4cc10f954",
         "datetime": 1788798480,
+        "headlineKo": "ASML은 AI 및 용량 확장에 큰 투자: 주식을 구매해야 할까요?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -86713,7 +86720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -88464,7 +88471,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -89953,7 +89960,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -90241,6 +90248,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=aa0ce1786ce3585545d931bed4ef0320405eb65237b7020c53010bd5dcfbf3d6",
         "datetime": 1788782400,
+        "headlineKo": "Sandisk: 향후 3주가 모든 것을 결정합니다",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -94485,7 +94493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -96159,7 +96167,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -97778,7 +97786,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -99369,7 +99377,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -100894,7 +100902,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -102686,7 +102694,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -103808,7 +103816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -105232,7 +105240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -106784,7 +106792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -107965,7 +107973,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -108554,7 +108562,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788814824.777092,
     "_earnings_status": "ok",
@@ -110883,7 +110891,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -111483,7 +111491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -112674,7 +112682,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -113676,7 +113684,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -114877,7 +114885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -115381,7 +115389,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-08 07:54"
+      "updated": "2026-09-08 08:00"
     },
     "_fetched_at": 1788818997.1897414,
     "_updated_label": "2026-09-08 07:22",
