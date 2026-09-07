@@ -315,8 +315,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.74,
     "name": "Meta Platforms Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788691058.460099,
-    "_updated_label": "2026-09-06 19:37"
+    "_fetched_at": 1788764255.676297,
+    "_updated_label": "2026-09-07 15:57"
   },
   "TSLA": {
     "forwardPE": 145.90287,
@@ -421,7 +421,7 @@ const FUNDAMENTALS_DATA = {
     "marketCapitalization": 779621.06,
     "52WeekHigh": 584.73,
     "52WeekLow": 149.22,
-    "beta": 2.5379689,
+    "beta": 2.5357406,
     "avgPe3Y": 160.30326666666667,
     "peDeviation3Y": -24.410710698763054,
     "perBandYears": 14,
@@ -431,8 +431,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 9.59,
     "name": "Advanced Micro Devices Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788691058.460099,
-    "_updated_label": "2026-09-06 19:37"
+    "_fetched_at": 1788764255.676297,
+    "_updated_label": "2026-09-07 15:57"
   },
   "INTC": {
     "forwardPE": 51.38288,
@@ -1485,8 +1485,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 51.739999999999995,
     "name": "Comfort Systems USA Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788691058.460099,
-    "_updated_label": "2026-09-06 19:37"
+    "_fetched_at": 1788764255.676297,
+    "_updated_label": "2026-09-07 15:57"
   },
   "BE": {
     "forwardPE": 94.66865036430602,
