@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.88500213623047,
+      "current": 98.86900329589844,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.27500152587890625,
-      "changePct": -0.277331096937009,
-      "pctRank": 24.403815580286167,
+      "changeAbs": -0.2910003662109375,
+      "changePct": -0.29346546537304474,
+      "pctRank": 24.324324324324326,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.681821137439777,
-      "ma20": 99.34675025939941,
-      "ma60": 100.2659169514974,
-      "chg1m": -0.714996337890625,
-      "chg3m": -1.1650009155273438,
-      "chg1mPct": -0.7178678201249183,
-      "chg3mPct": -1.1644186706567776,
+      "drawdown1y": -2.697566477697555,
+      "ma20": 99.34595031738282,
+      "ma60": 100.26565030415853,
+      "chg1m": -0.7309951782226562,
+      "chg3m": -1.180999755859375,
+      "chg1mPct": -0.7339309130738486,
+      "chg3mPct": -1.180409515078596,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -240,6 +240,20 @@ const MARKET_DATA = {
       "headlineKo": "UAE는 에너지 수출이이란 전쟁에 '인질로 잡히지' 않을 것이라고 말했습니다 - Reuters"
     },
     {
+      "headline": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEZFOFdkQkNyVk5LRXRVVEdIbWtYY0VkUENMOGFSMUhJdmxXWmFyR0d4UVQxRk4yVXd0N1BWR2ctQnVQSHlCOFV0OUd4UTczWTZmc2NJSXYtVnZJU2xpUkNDUG40aTU0M3dsa1BzTHVVZUF1NEtBdFBwazd3SWgtRll4bXZRWmtXQm9jaHRrVkxpaHQzVWhKZWo4dmJzaGdFV29qeDNONmpNQ0MzLXVCU3N3OUFmNmMtNzJF?oc=5",
+      "datetime": 1788785385,
+      "headlineKo": "그로시 \"사우디, IAEA에 더 많은 침해적 권한 부여 준비 중\" - 로이터 통신"
+    },
+    {
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788779696,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
       "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUp5ZGlTQWNQSDNtbzRnQzdZNTM4TXpLeFpjV1E3SElQRmxzSWVqRU5mODRJN0ZCTzdyaFZ2dW5GMEQxMVB6ZldNS2JOQzFpRk9KeGNMNFlZVnpMSDZ3MFJnRVByT0JCaEdyZHhONFRjTjgtVG8yeXVmQngxM2xSd3ZyeExZS0tZejN2QkhyQk44NTdlZTFscDZaTmF4Um41S3c4Q2tKaXkyMXFOa2JVTEZjdU9aSENuMV95Z2tFZnd4Yk5BQ1E?oc=5",
@@ -254,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "이란, 미국 공습에 대응하겠다고 다짐…미국 에너지 기업 시설 '노출' - 로이터"
     },
     {
-      "headline": "Israeli strikes on southern Lebanese town kill 11, state news agency says - Reuters",
+      "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
       "datetime": 1788763680,
-      "headlineKo": "이스라엘이 레바논 남부 마을을 공습해 11명이 사망했다고 국영 통신사가 밝혔습니다."
+      "headlineKo": "이스라엘, 레바논 남부 마을 공습으로 12명 사망 - 확대 우려 - 로이터 통신"
     },
     {
       "headline": "Morning Bid: Diesel the real spoiler for US inflation doves - reuters.com",
@@ -266,13 +280,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVEpMZWxDcWdjVkVYRGdtakVZSGxsWVZfR2N5eFR4UTBRTzZWTmxMZXF3REFZeHBkelU2YXJQb21JZEtGNVNqQld1eTYxV3VpLXFzT1VEVEtQVUNxa3VQTW5mdE1OQ2JocmNrdW80bktWQWxfY2w2SmoxV2dfOWs?oc=5",
       "datetime": 1788755640,
       "headlineKo": "아침 입찰: 디젤은 미국 인플레이션 비둘기의 진짜 스포일러 - reuters.com"
-    },
-    {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788755221,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
     },
     {
       "headline": "Indian central bank likely intervened to support rupee, traders say - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
       "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식 하락 - Reuters"
-    },
-    {
-      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-      "datetime": 1788742920,
-      "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788796636.4853706,
-  "_updated_label": "2026-09-08 00:57",
-  "_last_attempt_at": 1788796636.4853706,
-  "_last_success_at": 1788796636.4853706,
+  "_fetched_at": 1788800413.5381,
+  "_updated_label": "2026-09-08 02:00",
+  "_last_attempt_at": 1788800413.5381,
+  "_last_success_at": 1788800413.5381,
   "_collection_status": "ok",
   "_collection_errors": []
 };
