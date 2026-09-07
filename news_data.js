@@ -69,7 +69,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "But This Memory Stock Could Be the Next AI Winner While investors pile into Nvidia, a quieter memory supplier has already outpaced it with gains topping 700% in a year, and analysts think the run is nowhere near finished."
           ],
-          "analysisUpdatedAt": 1788818636.8126469
+          "analysisUpdatedAt": 1788819164.5874727
         }
       },
       {
@@ -118,7 +118,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818639.3843284
+          "analysisUpdatedAt": 1788819166.6054053
         }
       },
       {
@@ -167,7 +167,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818641.095854
+          "analysisUpdatedAt": 1788819168.6447756
         },
         "headlineKo": "엔비디아(NVDA)의 강력한 결과로 장기 전망 강화"
       },
@@ -252,7 +252,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "But This Memory Stock Could Be the Next AI Winner While investors pile into Nvidia, a quieter memory supplier has already outpaced it with gains topping 700% in a year, and analysts think the run is nowhere near finished."
           ],
-          "analysisUpdatedAt": 1788818636.8126469
+          "analysisUpdatedAt": 1788819164.5874727
         }
       },
       {
@@ -300,7 +300,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818639.3843284
+          "analysisUpdatedAt": 1788819166.6054053
         }
       },
       {
@@ -349,7 +349,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818641.095854
+          "analysisUpdatedAt": 1788819168.6447756
         }
       },
       {
@@ -7286,17 +7286,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:04",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:13",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "AAPL": {
@@ -12681,7 +12681,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -12756,7 +12756,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Vandita Jadeja Published September 7, 2026, 9:50am ET · 3 min read 𝕏 f ⧉ The Google headquarters stand as the company navigates significant departures of its top AI researchers."
           ],
-          "analysisUpdatedAt": 1788818509.535672
+          "analysisUpdatedAt": 1788819039.3744206
         },
         "headlineKo": "알파벳은 주식 투자자들이 과소평가하는 Mag 7일 수 있습니다."
       },
@@ -12806,7 +12806,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818511.6378524
+          "analysisUpdatedAt": 1788819041.1507945
         },
         "headlineKo": "독점: Ineffable Intelligence에 6명의 '공동 창업자' 추가, Google DeepMind, InstaDeep 및 벤처 회사 Flying Fish의 베테랑 채용"
       },
@@ -12887,7 +12887,7 @@ const NEWS_DATA = {
             "Help Billionaire Bill Ackman runs Pershing Square, one of the 20 most successful hedge funds in the world as measured by net gains since inception, according to LCH Investments.",
             "That makes him a good source of inspiration for individual investors Ackman made a number of trades in the second quarter, but the two listed below warrant closer inspection: Ackman sold his stake in Alphabet ( GOOGL -1.11% ) ( GOOG -1.05% "
           ],
-          "analysisUpdatedAt": 1788818512.596661
+          "analysisUpdatedAt": 1788819042.1311357
         },
         "headlineKo": "억만장자 빌 애크먼(Bill Ackman)은 알파벳 주식을 매도하고 고점 대비 42% 하락한 메가캡 주식을 매입합니다."
       },
@@ -13277,7 +13277,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Vandita Jadeja Published September 7, 2026, 9:50am ET · 3 min read 𝕏 f ⧉ The Google headquarters stand as the company navigates significant departures of its top AI researchers."
           ],
-          "analysisUpdatedAt": 1788818509.535672
+          "analysisUpdatedAt": 1788819039.3744206
         }
       },
       {
@@ -13326,7 +13326,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818511.6378524
+          "analysisUpdatedAt": 1788819041.1507945
         }
       },
       {
@@ -13406,7 +13406,7 @@ const NEWS_DATA = {
             "Help Billionaire Bill Ackman runs Pershing Square, one of the 20 most successful hedge funds in the world as measured by net gains since inception, according to LCH Investments.",
             "That makes him a good source of inspiration for individual investors Ackman made a number of trades in the second quarter, but the two listed below warrant closer inspection: Ackman sold his stake in Alphabet ( GOOGL -1.11% ) ( GOOG -1.05% "
           ],
-          "analysisUpdatedAt": 1788818512.596661
+          "analysisUpdatedAt": 1788819042.1311357
         }
       },
       {
@@ -17963,17 +17963,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:01",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:10",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "MSFT": {
@@ -22715,7 +22715,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -28208,7 +28208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -28269,7 +28269,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818819.0260382
+          "analysisUpdatedAt": 1788819352.475026
         },
         "headlineKo": "대만 반도체, 파운드리 점유율 73% 유지: 주식은 매수인가?"
       },
@@ -28319,7 +28319,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818820.2338705
+          "analysisUpdatedAt": 1788819353.5292883
         },
         "headlineKo": "Taiwan Semiconductor(NYSE:TSM), 강력한 기술적 브레이크아웃 설정 표시"
       },
@@ -28383,7 +28383,7 @@ const NEWS_DATA = {
             "Help Taiwan Semiconductor Manufacturing ( TSM +2.85% ) is already worth about $2.2 trillion, with shares of the chip foundry trading at about $427 as of this writing.",
             "My prediction: The company's market value passes the $3 trillion mark before 2029."
           ],
-          "analysisUpdatedAt": 1788818860.3662214
+          "analysisUpdatedAt": 1788819391.9866803
         },
         "headlineKo": "예측: 대만 반도체의 시장 가치는 2029년 이전에 3조 달러를 넘을 것입니다."
       },
@@ -28457,7 +28457,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818819.0260382
+          "analysisUpdatedAt": 1788819352.475026
         }
       },
       {
@@ -28506,7 +28506,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818820.2338705
+          "analysisUpdatedAt": 1788819353.5292883
         }
       },
       {
@@ -28569,7 +28569,7 @@ const NEWS_DATA = {
             "Help Taiwan Semiconductor Manufacturing ( TSM +2.85% ) is already worth about $2.2 trillion, with shares of the chip foundry trading at about $427 as of this writing.",
             "My prediction: The company's market value passes the $3 trillion mark before 2029."
           ],
-          "analysisUpdatedAt": 1788818860.3662214
+          "analysisUpdatedAt": 1788819391.9866803
         }
       },
       {
@@ -29868,17 +29868,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:07",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:16",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "AVGO": {
@@ -35197,7 +35197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -35258,7 +35258,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818517.7459145
+          "analysisUpdatedAt": 1788819046.843882
         },
         "headlineKo": "Meta Platforms, Inc.(META)가 인기 주식인 이유 외에 알아야 할 사항은 다음과 같습니다."
       },
@@ -35308,7 +35308,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818518.8062773
+          "analysisUpdatedAt": 1788819047.9066484
         }
       },
       {
@@ -35356,7 +35356,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818520.6267996
+          "analysisUpdatedAt": 1788819050.2923226
         },
         "headlineKo": "Meta의 180억 달러 규모의 청소년 안전 거래로 TikTok과 YouTube Next에 압력이 가해짐"
       },
@@ -35698,7 +35698,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818517.7459145
+          "analysisUpdatedAt": 1788819046.843882
         }
       },
       {
@@ -35746,7 +35746,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818518.8062773
+          "analysisUpdatedAt": 1788819047.9066484
         }
       },
       {
@@ -35794,7 +35794,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818520.6267996
+          "analysisUpdatedAt": 1788819050.2923226
         }
       },
       {
@@ -40073,17 +40073,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:02",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:11",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "TSLA": {
@@ -45949,7 +45949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 162,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -51635,7 +51635,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -51710,7 +51710,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "One of those visions fits the next phase of the buildout far better than the market… By Alex Sirois Published September 7, 2026, 10:40am ET · 3 min read 𝕏 f ⧉ © AMD AMD ( NASDAQ: AMD | AMD Price Prediction ) and NVIDIA ( NASDAQ: NVDA ) both"
           ],
-          "analysisUpdatedAt": 1788818707.1597776
+          "analysisUpdatedAt": 1788819235.7544234
         }
       },
       {
@@ -51773,7 +51773,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 8:47am ET · 3 min read 𝕏 f ⧉ © Justin Sullivan / Getty Images AMD ( NASDAQ: AMD | AMD Price Prediction ) and Broadcom ( NASDAQ: AVGO ) both just delivered blockbuster AI quarters, but the two chip"
           ],
-          "analysisUpdatedAt": 1788818744.2375584
+          "analysisUpdatedAt": 1788819275.7806349
         },
         "headlineKo": "AMD의 전체 AI 스토리에는 무시할 수 없는 위협이 하나 있습니다: Broadcom"
       },
@@ -51823,7 +51823,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818744.994254
+          "analysisUpdatedAt": 1788819276.482322
         },
         "headlineKo": "Nvidia는 방금 AMD와 Intel 투자자들에게 강력한 신호를 보냈습니다."
       },
@@ -51908,7 +51908,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "One of those visions fits the next phase of the buildout far better than the market… By Alex Sirois Published September 7, 2026, 10:40am ET · 3 min read 𝕏 f ⧉ © AMD AMD ( NASDAQ: AMD | AMD Price Prediction ) and NVIDIA ( NASDAQ: NVDA ) both"
           ],
-          "analysisUpdatedAt": 1788818707.1597776
+          "analysisUpdatedAt": 1788819235.7544234
         }
       },
       {
@@ -51971,7 +51971,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 8:47am ET · 3 min read 𝕏 f ⧉ © Justin Sullivan / Getty Images AMD ( NASDAQ: AMD | AMD Price Prediction ) and Broadcom ( NASDAQ: AVGO ) both just delivered blockbuster AI quarters, but the two chip"
           ],
-          "analysisUpdatedAt": 1788818744.2375584
+          "analysisUpdatedAt": 1788819275.7806349
         }
       },
       {
@@ -52020,7 +52020,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818744.994254
+          "analysisUpdatedAt": 1788819276.482322
         }
       },
       {
@@ -55576,17 +55576,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:05",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:14",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "INTC": {
@@ -55657,7 +55657,7 @@ const NEWS_DATA = {
             "But the Best May Still Be Ahead - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788818801.0302415
+          "analysisUpdatedAt": 1788819332.7976027
         }
       },
       {
@@ -55706,7 +55706,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818801.7216845
+          "analysisUpdatedAt": 1788819333.4838521
         },
         "headlineKo": "Nvidia는 방금 AMD와 Intel 투자자들에게 강력한 신호를 보냈습니다."
       },
@@ -55755,7 +55755,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818802.6521592
+          "analysisUpdatedAt": 1788819334.5132825
         },
         "headlineKo": "인텔: 나는 기꺼이 받아들일 230억 달러의 희석"
       },
@@ -55840,7 +55840,7 @@ const NEWS_DATA = {
             "But the Best May Still Be Ahead - 24/7 Wall St.",
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
           ],
-          "analysisUpdatedAt": 1788818801.0302415
+          "analysisUpdatedAt": 1788819332.7976027
         }
       },
       {
@@ -55889,7 +55889,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818801.7216845
+          "analysisUpdatedAt": 1788819333.4838521
         }
       },
       {
@@ -55937,7 +55937,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818802.6521592
+          "analysisUpdatedAt": 1788819334.5132825
         }
       },
       {
@@ -58753,17 +58753,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:06",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:15",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "AMAT": {
@@ -60760,7 +60760,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -63026,7 +63026,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -66245,7 +66245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 81,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -66305,7 +66305,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818539.1291683
+          "analysisUpdatedAt": 1788819068.367768
         },
         "headlineKo": "Oracle 주식은 수익을 내기 전에 놀라운 신호를 깜박입니다."
       },
@@ -66355,7 +66355,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818542.4423487
+          "analysisUpdatedAt": 1788819070.2027178
         },
         "headlineKo": "BofA는 Adobe와 Oracle 사이에서 확실한 승자를 봅니다."
       },
@@ -66419,7 +66419,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 7:25am ET · 5 min read 𝕏 f ⧉ © HÃ¥kan DahlstrÃ¶m / Wikimedia Commons Oracle currently trades at $158.78, while the consensus Wall Street price target sits at $242.05."
           ],
-          "analysisUpdatedAt": 1788818582.392035
+          "analysisUpdatedAt": 1788819110.11366
         },
         "headlineKo": "오라클은 2026년에 거의 20% 하락했습니다: 한 월스트리트 회사는 두 배로 성장할 것이라고 말하고 일부는"
       },
@@ -66554,7 +66554,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818539.1291683
+          "analysisUpdatedAt": 1788819068.367768
         }
       },
       {
@@ -66603,7 +66603,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818542.4423487
+          "analysisUpdatedAt": 1788819070.2027178
         }
       },
       {
@@ -66666,7 +66666,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "By Alex Sirois Published September 7, 2026, 7:25am ET · 5 min read 𝕏 f ⧉ © HÃ¥kan DahlstrÃ¶m / Wikimedia Commons Oracle currently trades at $158.78, while the consensus Wall Street price target sits at $242.05."
           ],
-          "analysisUpdatedAt": 1788818582.392035
+          "analysisUpdatedAt": 1788819110.11366
         }
       },
       {
@@ -70240,17 +70240,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:03",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:12",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "CRM": {
@@ -73686,7 +73686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -77764,7 +77764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -79668,7 +79668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -81003,7 +81003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -85142,7 +85142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -85203,7 +85203,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818865.6392612
+          "analysisUpdatedAt": 1788819396.7594285
         }
       },
       {
@@ -85252,7 +85252,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818868.0202868
+          "analysisUpdatedAt": 1788819399.4638515
         },
         "headlineKo": "AI가 칩 복잡성을 촉진하는 ASML Holding N.V.(ASML)로 자리매김"
       },
@@ -85302,7 +85302,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818869.6727347
+          "analysisUpdatedAt": 1788819400.96379
         },
         "headlineKo": "ASML은 현재 자사주 매입 프로그램에 따른 거래를 보고합니다."
       },
@@ -85375,7 +85375,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818865.6392612
+          "analysisUpdatedAt": 1788819396.7594285
         }
       },
       {
@@ -85424,7 +85424,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818868.0202868
+          "analysisUpdatedAt": 1788819399.4638515
         }
       },
       {
@@ -85473,7 +85473,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818869.6727347
+          "analysisUpdatedAt": 1788819400.96379
         }
       },
       {
@@ -86700,17 +86700,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:08",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:16",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "LRCX": {
@@ -86767,7 +86767,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818887.5764506
+          "analysisUpdatedAt": 1788819419.2182646
         },
         "headlineKo": "Lam Research, 1년 만에 거의 3배 증가: 주식을 여전히 매수할 가치가 있나요?"
       },
@@ -86817,7 +86817,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818889.8812778
+          "analysisUpdatedAt": 1788819421.3098457
         },
         "headlineKo": "램리서치 법무실장, AI칩 수요 급증에 150만달러 매각. 신호가 약세인가요?"
       },
@@ -86867,7 +86867,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818892.3374956
+          "analysisUpdatedAt": 1788819423.4294908
         },
         "headlineKo": "Zacks.com의 주요 하이라이트에는 Fortinet, Brinker International, Lincoln Electric 및 Lam Research가 포함됩니다."
       },
@@ -86939,7 +86939,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818887.5764506
+          "analysisUpdatedAt": 1788819419.2182646
         }
       },
       {
@@ -86988,7 +86988,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818889.8812778
+          "analysisUpdatedAt": 1788819421.3098457
         }
       },
       {
@@ -87037,7 +87037,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818892.3374956
+          "analysisUpdatedAt": 1788819423.4294908
         }
       },
       {
@@ -88451,17 +88451,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:08",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:17",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "KLAC": {
@@ -89946,7 +89946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -90007,7 +90007,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818897.5431485
+          "analysisUpdatedAt": 1788819428.578562
         },
         "headlineKo": "나이키, 약 18년 만에 S&P 100에서 퇴출. Dell, SanDisk 및 2개의 거대 기술 기업이 자리를 잡습니다."
       },
@@ -90056,7 +90056,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818899.5703807
+          "analysisUpdatedAt": 1788819430.7100801
         },
         "headlineKo": "AI 스토리지 거래가 계속 진행되면서 Sandisk가 12% 상승"
       },
@@ -90106,7 +90106,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818900.5019217
+          "analysisUpdatedAt": 1788819431.6591172
         }
       },
       {
@@ -90177,7 +90177,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818897.5431485
+          "analysisUpdatedAt": 1788819428.578562
         }
       },
       {
@@ -90225,7 +90225,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818899.5703807
+          "analysisUpdatedAt": 1788819430.7100801
         }
       },
       {
@@ -90273,7 +90273,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818900.5019217
+          "analysisUpdatedAt": 1788819431.6591172
         }
       },
       {
@@ -94471,17 +94471,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:08",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:17",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "WDC": {
@@ -96151,7 +96151,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -96226,7 +96226,7 @@ const NEWS_DATA = {
             "Help Arista Networks: Steady and Reliable Quarterly Revenue Expansion Arista Networks ( ANET +1.22% ) primarily generates its operating income by designing advanced cloud networking solutions, delivering specialized high-performance switchi",
             "While launching new hardware platforms for data centers and simultaneously expanding its enterprise security portfolio during the summer of 2026, it reported a 45% operating margin for the quarter ended June 30, 2026."
           ],
-          "analysisUpdatedAt": 1788818956.648201
+          "analysisUpdatedAt": 1788819486.2072747
         },
         "headlineKo": "Arista Networks와 IBM: 인공 지능 거대 기업 간의 분기별 수익 추세 비교"
       },
@@ -96290,7 +96290,7 @@ const NEWS_DATA = {
             "| Trefis How Much Track Is Left For ANET Stock?",
             "September 4th, 2026 · by Trefis Team ANET YTD +47.9% SPY YTD +13.3% QQQ YTD +17.2% Analyze ANET → This AI networking star has a powerful business engine and a stock chart to match, but a recent pullback raises the question of whether the pr"
           ],
-          "analysisUpdatedAt": 1788818997.6855376
+          "analysisUpdatedAt": 1788819525.5852346
         },
         "headlineKo": "ANET 주식은 얼마나 남았나요?"
       },
@@ -96340,7 +96340,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818999.8564887
+          "analysisUpdatedAt": 1788819527.7245634
         },
         "headlineKo": "ANET은 6개월 만에 37.3% 상승: 성장할 여지가 더 있습니까?"
       },
@@ -96426,7 +96426,7 @@ const NEWS_DATA = {
             "Help Arista Networks: Steady and Reliable Quarterly Revenue Expansion Arista Networks ( ANET +1.22% ) primarily generates its operating income by designing advanced cloud networking solutions, delivering specialized high-performance switchi",
             "While launching new hardware platforms for data centers and simultaneously expanding its enterprise security portfolio during the summer of 2026, it reported a 45% operating margin for the quarter ended June 30, 2026."
           ],
-          "analysisUpdatedAt": 1788818956.648201
+          "analysisUpdatedAt": 1788819486.2072747
         }
       },
       {
@@ -96489,7 +96489,7 @@ const NEWS_DATA = {
             "| Trefis How Much Track Is Left For ANET Stock?",
             "September 4th, 2026 · by Trefis Team ANET YTD +47.9% SPY YTD +13.3% QQQ YTD +17.2% Analyze ANET → This AI networking star has a powerful business engine and a stock chart to match, but a recent pullback raises the question of whether the pr"
           ],
-          "analysisUpdatedAt": 1788818997.6855376
+          "analysisUpdatedAt": 1788819525.5852346
         }
       },
       {
@@ -96538,7 +96538,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788818999.8564887
+          "analysisUpdatedAt": 1788819527.7245634
         }
       },
       {
@@ -97764,17 +97764,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:09",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:18",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "COHR": {
@@ -97845,7 +97845,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "AI datacenter spending has turned optical networking into one of 2026's hottest trades, but the three biggest U.S."
           ],
-          "analysisUpdatedAt": 1788819040.9017622
+          "analysisUpdatedAt": 1788819567.3239565
         },
         "headlineKo": "2026년에는 Applied Optoelectronics, Lumentum 또는 Coherent 중 어느 광학 주식이 지배적이었습니까?"
       },
@@ -97909,7 +97909,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Here is what the move actually means against a backdrop of proven incumbents already delivering… By David Moadel Published September 4, 2026, 12:20pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1788819081.023612
+          "analysisUpdatedAt": 1788819607.4049652
         },
         "headlineKo": "GoPro는 Starman Optical Merger와 Markiplier 지분을 34% 확대했습니다. 일관된 등반 7%, Lumentum 3% 증가"
       },
@@ -97958,7 +97958,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819082.9635453
+          "analysisUpdatedAt": 1788819609.5103989
         },
         "headlineKo": "Coherent (COHR) 주식은 공정 가치 아래로 보이지만 수익은 공정해 보입니다."
       },
@@ -98044,7 +98044,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "AI datacenter spending has turned optical networking into one of 2026's hottest trades, but the three biggest U.S."
           ],
-          "analysisUpdatedAt": 1788819040.9017622
+          "analysisUpdatedAt": 1788819567.3239565
         }
       },
       {
@@ -98107,7 +98107,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Here is what the move actually means against a backdrop of proven incumbents already delivering… By David Moadel Published September 4, 2026, 12:20pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1788819081.023612
+          "analysisUpdatedAt": 1788819607.4049652
         }
       },
       {
@@ -98155,7 +98155,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819082.9635453
+          "analysisUpdatedAt": 1788819609.5103989
         }
       },
       {
@@ -99355,17 +99355,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:11",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:20",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "LITE": {
@@ -99436,7 +99436,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "AI datacenter spending has turned optical networking into one of 2026's hottest trades, but the three biggest U.S."
           ],
-          "analysisUpdatedAt": 1788819124.4076982
+          "analysisUpdatedAt": 1788819641.1451943
         },
         "headlineKo": "2026년에는 Applied Optoelectronics, Lumentum 또는 Coherent 중 어느 광학 주식이 지배적이었습니까?"
       },
@@ -99486,7 +99486,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819126.5574038
+          "analysisUpdatedAt": 1788819643.6794262
         },
         "headlineKo": "Lumentum (LITE) 주식은 새로운 AI 수요에도 불구하고 완전 가격이 책정될 수 있음"
       },
@@ -99550,7 +99550,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Here is what the move actually means against a backdrop of proven incumbents already delivering… By David Moadel Published September 4, 2026, 12:20pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1788819166.3762982
+          "analysisUpdatedAt": 1788819673.7976632
         },
         "headlineKo": "GoPro는 Starman Optical Merger와 Markiplier 지분을 34% 확대했습니다. 일관된 등반 7%, Lumentum 3% 증가"
       },
@@ -99636,7 +99636,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "AI datacenter spending has turned optical networking into one of 2026's hottest trades, but the three biggest U.S."
           ],
-          "analysisUpdatedAt": 1788819124.4076982
+          "analysisUpdatedAt": 1788819641.1451943
         }
       },
       {
@@ -99685,7 +99685,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819126.5574038
+          "analysisUpdatedAt": 1788819643.6794262
         }
       },
       {
@@ -99748,7 +99748,7 @@ const NEWS_DATA = {
             "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
             "Here is what the move actually means against a backdrop of proven incumbents already delivering… By David Moadel Published September 4, 2026, 12:20pm ET · 3 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1788819166.3762982
+          "analysisUpdatedAt": 1788819673.7976632
         }
       },
       {
@@ -100880,17 +100880,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:12",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:21",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "GEV": {
@@ -102678,7 +102678,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -103800,7 +103800,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788807624.5248208,
     "_earnings_status": "ok",
@@ -103875,7 +103875,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788819209.9148765
+          "analysisUpdatedAt": 1788819701.6197367
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -103925,7 +103925,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819211.756338
+          "analysisUpdatedAt": 1788819703.740959
         },
         "headlineKo": "Vistra의 CEO는 매각 후 117만 달러의 주식을 매입했습니다. AI 전력 수요의 가격이 잘못 책정되어 있나요?"
       },
@@ -103975,7 +103975,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819213.8121269
+          "analysisUpdatedAt": 1788819705.6506858
         },
         "headlineKo": "Vistra(VST)가 대규모 실행 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -104061,7 +104061,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788819209.9148765
+          "analysisUpdatedAt": 1788819701.6197367
         }
       },
       {
@@ -104110,7 +104110,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819211.756338
+          "analysisUpdatedAt": 1788819703.740959
         }
       },
       {
@@ -104159,7 +104159,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819213.8121269
+          "analysisUpdatedAt": 1788819705.6506858
         }
       },
       {
@@ -105218,17 +105218,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:13",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:21",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "ETN": {
@@ -106776,7 +106776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -107957,7 +107957,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -108546,7 +108546,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788814824.777092,
     "_earnings_status": "ok",
@@ -110875,7 +110875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -111475,7 +111475,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788804130.5453522,
     "_earnings_status": "ok",
@@ -112666,7 +112666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -113668,7 +113668,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
     "_last_attempt_at": 1788798514.0484915,
     "_earnings_status": "ok",
@@ -113729,7 +113729,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819218.6090176
+          "analysisUpdatedAt": 1788819710.656725
         },
         "headlineKo": "Comfort Systems USA(FIX)가 올해 다른 건설 주식을 능가했습니까?"
       },
@@ -113779,7 +113779,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819220.9941895
+          "analysisUpdatedAt": 1788819712.7110577
         },
         "headlineKo": "Comfort Systems(FIX)가 오늘날 주식 시장을 능가한 이유"
       },
@@ -113843,7 +113843,7 @@ const NEWS_DATA = {
             "Help Comfort Systems USA ( FIX +1.91% ) has been a linchpin for AI infrastructure .",
             "Data centers need HVAC, plumbing, piping, and electrical systems, which Comfort Systems USA provides."
           ],
-          "analysisUpdatedAt": 1788819259.5475292
+          "analysisUpdatedAt": 1788819737.480302
         },
         "headlineKo": "Comfort Systems USA 주식을 사상 최고치보다 20% 이상 낮게 구매한 사례"
       },
@@ -113915,7 +113915,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819218.6090176
+          "analysisUpdatedAt": 1788819710.656725
         }
       },
       {
@@ -113964,7 +113964,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819220.9941895
+          "analysisUpdatedAt": 1788819712.7110577
         }
       },
       {
@@ -114027,7 +114027,7 @@ const NEWS_DATA = {
             "Help Comfort Systems USA ( FIX +1.91% ) has been a linchpin for AI infrastructure .",
             "Data centers need HVAC, plumbing, piping, and electrical systems, which Comfort Systems USA provides."
           ],
-          "analysisUpdatedAt": 1788819259.5475292
+          "analysisUpdatedAt": 1788819737.480302
         }
       },
       {
@@ -114863,21 +114863,21 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:14",
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
-    "_last_success_at": 1788818470.823655,
+    "_last_success_at": 1788818997.1897414,
     "_collection_status": "ok"
   },
   "BE": {
-    "_last_attempt_at": 1788818470.823655,
+    "_last_attempt_at": 1788818997.1897414,
     "nextEarnings": {
       "date": "2026-10-26",
       "hour": "amc",
@@ -114932,7 +114932,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819263.5904832
+          "analysisUpdatedAt": 1788819741.5215774
         },
         "headlineKo": "Bloom Energy(NYSE:BE)는 펀더멘털이 가속화됨에 따라 8가지 성장 규칙을 모두 확인합니다."
       },
@@ -114982,7 +114982,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819265.450996
+          "analysisUpdatedAt": 1788819743.590849
         },
         "headlineKo": "Bloom Energy (BE)가 분기별 재조정을 통해 S&P 500에 합류할 예정"
       },
@@ -114996,22 +114996,24 @@ const NEWS_DATA = {
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending AERO 14.49% VET 2.26% WLD 14.13% HBAR 1.27% ADUR 2.16% ",
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips S&P said on Friday that Bloom Energy, Everpure (P) and Illumina (ILMN) will join the S&P 500 index.",
+            "In this photo illustration, the Bloom Energy logo is seen displayed on a smartphone screen."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -115021,18 +115023,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 BE의 사업과 관련된 'BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "BE에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819266.1207938
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "14.49%",
+            "2.26%",
+            "14.13%",
+            "1.27%",
+            "2.16%"
+          ],
+          "sourceExcerpt": [
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending AERO 14.49% VET 2.26% WLD 14.13% HBAR 1.27% ADUR 2.16% ",
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips S&P said on Friday that Bloom Energy, Everpure (P) and Illumina (ILMN) will join the S&P 500 index.",
+            "In this photo illustration, the Bloom Energy logo is seen displayed on a smartphone screen."
+          ],
+          "analysisUpdatedAt": 1788819775.6918418
         },
         "headlineKo": "BE, P, ILMN S&P 500에 가입; LNG 누락 — Cheniere Energy가 하락하는 동안 Bloom Energy 주가 상승"
       },
@@ -115105,7 +115119,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819263.5904832
+          "analysisUpdatedAt": 1788819741.5215774
         }
       },
       {
@@ -115154,7 +115168,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819265.450996
+          "analysisUpdatedAt": 1788819743.590849
         }
       },
       {
@@ -115167,22 +115181,24 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending AERO 14.49% VET 2.26% WLD 14.13% HBAR 1.27% ADUR 2.16% ",
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips S&P said on Friday that Bloom Energy, Everpure (P) and Illumina (ILMN) will join the S&P 500 index.",
+            "In this photo illustration, the Bloom Energy logo is seen displayed on a smartphone screen."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.53%, 0.39%, 0.18% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "BE의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -115192,18 +115208,30 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 BE의 사업과 관련된 'BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "BE 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "BE에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788819266.1207938
+          "quality": "medium",
+          "verifiedNumbers": [
+            "0.53%",
+            "0.39%",
+            "0.18%",
+            "14.49%",
+            "2.26%",
+            "14.13%",
+            "1.27%",
+            "2.16%"
+          ],
+          "sourceExcerpt": [
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips New Connect your Agent Trending News Earnings All DIA 0.53% SPY 0.39% QQQ 0.18% Trending AERO 14.49% VET 2.26% WLD 14.13% HBAR 1.27% ADUR 2.16% ",
+            "BE, P, ILMN Join S&P 500; LNG Misses Out — Bloom Energy Stock Gains While Cheniere Energy Slips S&P said on Friday that Bloom Energy, Everpure (P) and Illumina (ILMN) will join the S&P 500 index.",
+            "In this photo illustration, the Bloom Energy logo is seen displayed on a smartphone screen."
+          ],
+          "analysisUpdatedAt": 1788819775.6918418
         }
       },
       {
@@ -115345,10 +115373,10 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-08 07:14"
+      "updated": "2026-09-08 07:22"
     },
-    "_fetched_at": 1788818470.823655,
-    "_updated_label": "2026-09-08 07:14",
-    "_last_success_at": 1788818470.823655
+    "_fetched_at": 1788818997.1897414,
+    "_updated_label": "2026-09-08 07:22",
+    "_last_success_at": 1788818997.1897414
   }
 };
