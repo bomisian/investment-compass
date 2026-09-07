@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.13999938964844,
+      "current": 99.11599731445312,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.0200042724609375,
-      "changePct": -0.020173731063083303,
-      "pctRank": 27.58346581875994,
+      "changeAbs": -0.04400634765625,
+      "changePct": -0.04437913072916266,
+      "pctRank": 27.186009538950717,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.4308642907846734,
-      "ma20": 99.35950012207032,
-      "ma60": 100.27016690572103,
-      "chg1m": -0.45999908447265625,
-      "chg3m": -0.910003662109375,
-      "chg1mPct": -0.4618464774295926,
-      "chg3mPct": -0.9095488599221855,
+      "drawdown1y": -2.454486055425098,
+      "ma20": 99.35830001831054,
+      "ma60": 100.26976687113444,
+      "chg1m": -0.48400115966796875,
+      "chg3m": -0.9340057373046875,
+      "chg1mPct": -0.4859449468703817,
+      "chg3mPct": -0.9335389393456671,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
+      "datetime": 1788747360,
+      "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
+    },
+    {
       "headline": "Asia tech shares rally, others hesitant as oil rises - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
@@ -233,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
     },
     {
-      "headline": "Oil extends gains after US and Iran strike ships - Reuters",
+      "headline": "Oil extends gains after US and Iran exchange attacks on ships - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
       "datetime": 1788740100,
-      "headlineKo": "미국과 이란이 선박을 공격한 후 유가 상승폭 확대 - Reuters"
+      "headlineKo": "미국과 이란이 선박에 대한 공격을 주고받은 후 유가 상승폭 확대 - Reuters"
     },
     {
       "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ0p3Z1BrSWNCTWNSWDZpV2wwa3BDeThuSENKVmViTkt6c2t6ZVBzTXM3VEh4R3VqVVVqajVseFFmMEZrcl9tc2Z4YkZFM0lNTi0ycGxpSlF3cTRyaFNMNnh4UjBjZjhLejdnYVcxdWRHMnRsVGQ3UjhzVm5MTl9Ya1BVdllnNU9ZS0NLdE9ETVF4c0ZfMTZDMXRWM0JPSk9L?oc=5",
       "datetime": 1788700063,
       "headlineKo": "미국-이란 긴장이 지속되면서 걸프 증시는 혼조세 마감 - Reuters"
-    },
-    {
-      "headline": "Iran's Hormuz leverage wanes as US economic squeeze bites - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdaTTdQcUYwZTFzUm1OdFRGTGpYN012MkM3R0ZzZVZnV2dfTUxLbmF3RGdzakZiNWhhVEpqQzhyemo0am1yaDRmMlRJenQ5VzNJWmxGeWhOWVo5bW5FT1laODBqUkhGRlNCaWNLTHROWEVyVlk2Tmtxa3laLVJ4LVUwWTFXWlZrby13Vl95NVo4VDNCQkNmdHkyeXhIWU54NlNQc0Q0WXc?oc=5",
-      "datetime": 1788698880,
-      "headlineKo": "미국 경제 압박으로 이란 호르무즈 레버리지 약화 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788762425.438374,
-  "_updated_label": "2026-09-07 15:27",
-  "_last_attempt_at": 1788762425.438374,
-  "_last_success_at": 1788762425.438374,
+  "_fetched_at": 1788766155.02996,
+  "_updated_label": "2026-09-07 16:29",
+  "_last_attempt_at": 1788766155.02996,
+  "_last_success_at": 1788766155.02996,
   "_collection_status": "ok",
   "_collection_errors": []
 };
