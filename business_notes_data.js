@@ -9,6 +9,27 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-07",
+        headline: "이란, IRGC '항모 타격' 주장(미군 부인)·호르무즈 '금지구역' 선포 vs 이란-오만 협상 임박 - 브렌트유 $98 근접 후 소폭 반락",
+        tone: "mixed",
+        importance: "high",
+        horizon: "단기(9/8 화 미국 증시 재개장 반응 확인까지)",
+        facts: ["2026-09-06(현지시간 일요일) 이란 혁명수비대(IRGC)는 전날(9/5) 미 항공모함·구축함을 향한 미사일 공격과 관련해 '자체 항공우주군이 두 함정에 타격을 가해 교전구역에서 이탈시켰다'고 주장했다. 그러나 CENTCOM은 이를 부인하며 두 함정 모두 무피해 상태로 임무를 계속 수행 중이라고 재확인했다 - 이란 측 주장은 제3자에 의해 독립적으로 검증되지 않았다.", "같은 날 IRGC는 추가로 유조선 3척과 '미국과 연계된' 선박 3척을 호르무즈 해협 내 '비인가 항로'에서 공격했다고 발표했다.", "이란 최고안보관계자 모센 레자이는 9/6(일) 호르무즈 해협 인근에 '금지구역(prohibited zone)'을 설정하겠다고 발표했다 - 미 해군 봉쇄선부터 호르무즈 해협과 페르시아만 반대편까지 해당하며, 며칠 내 발효 예정. 사전 조율 없이 이 구역에 진입하는 선박은 이란의 제재 리스트에 올라 보험·향후 통항에 불이익을 받게 된다.", "이 여파로 브렌트유는 9/7(월, 미국 노동절 휴장) 장중 $97.89까지 오르며 한때 $98 근접(7월 이후 최고 수준 재경신).", "같은 날(9/7) 이란은 오만과 호르무즈 해협 임시 안전항로 관련 협상이 '며칠 내' 타결 임박이라고 밝혔다 - 이란 수역으로 진입해 오만 수역으로 빠지는 방식이며 국제해사기구(IMO)에 문서화할 예정. 이 소식이 나오며 브렌트유는 장중 고점 $97.93에서 되돌림, $96.15로 마감(-0.1%).", "미국 증시는 9/7(월) 노동절로 휴장하며, 9/5 이후 쌓인 이 모든 소식에 대한 실제 시장 반응은 9/8(화) 개장 후 확인 가능하다."],
+        why: ["이란이 미군 자산에 타격을 가했다는 주장 자체는 검증되지 않았지만, 공식적으로 '금지구역'을 선포하고 보험·통항 불이익까지 언급한 것은 기존의 '공격→보복' 패턴보다 한 단계 더 제도화된 압박 수단으로, 군사 충돌보다 오래 지속되며 해운·보험 업계에 실질적 영향을 줄 수 있다.", "동시에 이란-오만 협상이 임박했다는 소식으로 유가가 장중 고점에서 반락한 것은, 시장이 이 사태를 아직 '외교로 봉합될 여지가 있는 리스크'로 받아들이고 있다는 신호다 - 확전과 외교적 해법 시도가 동시에 진행 중인 혼재된 국면이다.", "노동절 연휴로 미국 증시가 이 모든 소식(금지구역 선언 + 오만 협상 임박)을 하루 더 소화한 뒤 화요일에 개장하므로, 실제 주가·유가 반응은 개장 후 확인이 필요하다."],
+        beginner: ["이란이 '우리가 미군 배를 맞춰서 쫓아냈다'고 주장했는데, 미군은 '우리 배는 멀쩡하고 임무를 계속하고 있다'고 반박했어요. 아직 어느 쪽 말이 맞는지 제3자가 확인해준 건 아니에요.", "이란이 호르무즈 해협 근처에 '우리 허락 없이 들어오면 불이익을 주는 구역'을 만들겠다고 발표했어요. 이렇게 되면 그 구역을 지나는 배들이 보험을 들기 어려워지거나 비싸질 수 있어서, 실제로 기름을 실어 나르는 배가 줄어들 위험이 있어요.", "이 소식으로 국제유가(브렌트유)가 $98 턱밑까지 올랐다가, 같은 날 '이란과 오만이 배가 안전하게 지나다닐 임시 통로에 곧 합의할 것 같다'는 소식이 나오면서 다시 살짝 내려왔어요. 긴장은 계속 고조되고 있지만 동시에 외교적으로 풀릴 여지도 남아있는 상황이에요.", "미국 증시는 월요일이 노동절 휴일이라 안 열렸어서, 이 모든 소식에 대한 실제 반응은 화요일(9/8) 개장 후에 봐야 알 수 있어요."],
+        interpretation: "9/5 항공모함 공격 이후 상황이 더 복잡해졌다. 이란은 (검증 안 된) 전과 주장과 함께 '금지구역'이라는 제도적 압박 카드를 새로 꺼냈고, 이는 군사 공격보다 오래 지속되며 해운·보험 업계에 실질적 영향을 줄 수 있는 조치다. 하지만 같은 시점에 오만 중재 협상이 '며칠 내' 타결 임박이라는 소식도 함께 나오며 유가가 고점에서 되돌림 - 시장은 아직 이 사태를 돌이킬 수 없는 전면 봉쇄로 보지 않고, 외교적 출구가 남아있는 것으로 평가하는 듯하다. 9/5 항목에서 예고한 화요일 개장 반응이 이제 핵심 확인 지점이다.",
+        decision: "9/5 항목과 마찬가지로 이 사태 자체를 매수·매도 근거로 쓰기는 이르다. 9/8(화) 개장 후 지수·유가·국채금리의 실제 반응, 그리고 이란-오만 협상이 실제로 타결되는지를 함께 확인할 것. 협상이 타결되면 유가 되돌림이 가속화되며 리스크가 완화될 수 있고, 반대로 '금지구역'이 실제 발효되며 통항 차질이 현실화되면 유가·인플레이션 압력이 재차 커질 수 있다.",
+        watch: ["9/8(화) 미국 증시 개장 후 3대 지수·유가·국채금리 반응", "이란-오만 임시 안전항로 협상의 실제 타결 여부 및 IMO 문서화 진행 상황", "이란이 예고한 '금지구역'의 실제 발효 시점과 세부 내용(제재 대상 범위 등)", "브렌트유 $98 재돌파 여부, 국제 해운·보험사들의 호르무즈 통항 기피 여부"],
+        confidence: "CENTCOM의 부인 및 '두 함정 무피해' 입장은 미군 공식 발표 기준으로 신뢰도 높음. 반면 IRGC의 '함정 타격·이탈시켰다'는 주장은 이란 측 일방 주장으로 독립적으로 검증되지 않아 '사실'이 아니라 '주장'으로 다뤄야 함. 이란의 '금지구역' 선언(모센 레자이 발표)은 Arab News·Al Jazeera·Washington Times 등 복수 매체가 교차 확인해 신뢰도 높음. 브렌트유 가격($97.89→$96.15 반락) 및 이란-오만 협상 임박 소식은 Bloomberg·Yahoo Finance 보도 기준으로 신뢰도 높음.",
+        sources: [
+          { title: "Iran says will declare 'prohibited zone' near Hormuz Strait in coming days (Arab News)", url: "https://www.arabnews.com/middle-east/iran-says-will-declare-prohibited-zone-near-hormuz-strait-in-coming-days-3000708" },
+          { title: "Iran war live: IRGC claims new attacks on US warships over naval blockade (Al Jazeera)", url: "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade" },
+          { title: "Security official says Tehran to set 'restricted zone' near Strait of Hormuz (Washington Times)", url: "https://www.washingtontimes.com/news/2026/sep/7/security-official-says-tehran-set-restricted-zone-near-stait-hormuz/" },
+          { title: "Iran Says Strait of Hormuz Deal With Oman Just Days Away (Bloomberg via Yahoo Finance)", url: "https://finance.yahoo.com/energy/articles/iran-says-strait-hormuz-deal-082152877.html" },
+          { title: "Brent, WTI Crude Oil Price Today: Hormuz Tanker Strikes (Vantage Markets)", url: "https://www.vantagemarkets.com/market-analysis/brent-wti-crude-oil-price-today-hormuz-tanker-strikes-september-7-2026/" },
+        ],
+      },
+      {
         date: "2026-09-05",
         headline: "이란, 미 항공모함·구축함에 탄도미사일 발사 - CENTCOM 이란 유조선 3척 파괴로 보복, 브렌트유 $96대(7월 이후 최고)·디젤 사상최고가",
         tone: "risk",
