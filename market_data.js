@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.86699676513672,
+      "current": 98.90699768066406,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.29300689697265625,
-      "changePct": -0.29548899369859427,
-      "pctRank": 24.324324324324326,
+      "changeAbs": -0.2530059814453125,
+      "changePct": -0.25514922559647923,
+      "pctRank": 24.562798092209857,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6995412151738507,
-      "ma20": 99.34584999084473,
-      "ma60": 100.26561686197917,
-      "chg1m": -0.733001708984375,
-      "chg3m": -1.1830062866210938,
-      "chg1mPct": -0.7359455022229038,
-      "chg3mPct": -1.1824150430151428,
+      "drawdown1y": -2.660174110275648,
+      "ma20": 99.3478500366211,
+      "ma60": 100.26628354390462,
+      "chg1m": -0.6930007934570312,
+      "chg3m": -1.14300537109375,
+      "chg1mPct": -0.6957839398331843,
+      "chg3mPct": -1.1424341191698426,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
+      "datetime": 1788801218,
+      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다고 유엔 전문가 \"로이터\""
+    },
+    {
       "headline": "Gulf equities mixed amid US-Iran flare-ups - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
@@ -250,7 +257,7 @@ const MARKET_DATA = {
       "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788779696,
+      "datetime": 1788780702,
       "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
     },
     {
@@ -261,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "오만은 이란의 공격을 받은 사우디 시드르 선박의 선원 16명을 대피시켰다고 밝혔습니다."
     },
     {
-      "headline": "Iran vows to respond to US strikes, says US energy companies' facilities are 'exposed' - Reuters",
+      "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
       "datetime": 1788764220,
-      "headlineKo": "이란, 미국 공습에 대응하겠다고 다짐…미국 에너지 기업 시설 '노출' - 로이터"
+      "headlineKo": "이란, 최근 충돌 이후 걸프 지역의 미국 에너지 자산이 취약하다고 경고 - 로이터"
     },
     {
       "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - Reuters",
@@ -289,28 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "인도 중앙은행이 루피를 지원하기 위해 개입했을 가능성이 있다고 거래자들은 말합니다 - Reuters"
     },
     {
-      "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
+      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
-      "datetime": 1788747360,
-      "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
-    },
-    {
-      "headline": "Stocks dented by inflation risk from rising oil, dicey geopolitics - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
-      "datetime": 1788743160,
-      "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식 하락 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
+      "datetime": 1788750811,
+      "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788800424.8067272,
-  "_updated_label": "2026-09-08 02:00",
-  "_last_attempt_at": 1788800424.8067272,
-  "_last_success_at": 1788800424.8067272,
+  "_fetched_at": 1788804162.850953,
+  "_updated_label": "2026-09-08 03:03",
+  "_last_attempt_at": 1788804162.850953,
+  "_last_success_at": 1788804162.850953,
   "_collection_status": "ok",
   "_collection_errors": []
 };

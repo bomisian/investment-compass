@@ -1,9 +1,44 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788802286.1317987,
+  "generatedAt": 1788804162.777472,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788601680,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.05,
+            "after": -0.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.57,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.0,
+            "after": 0.35
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "우호적 변화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Amazon, Alphabet 및 Microsoft: 두 개는 구매하고 하나는 판매합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b49a12a2280f98ea7df336d9d898d9719782308d1835256ed6df4f4f8eab6bd6",
+        "eventId": "7155a2db9d9ccbb51a8c",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.4, \"before\": -1.57, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 0.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"7155a2db9d9ccbb51a8c\"}"
+      },
       {
         "changedAt": 1788796636.4111593,
         "dataAsOf": 1788601680,
@@ -6857,6 +6892,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSLA": [
       {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788795806,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -4.55,
+            "after": -4.02
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.8,
+            "after": -3.85
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Tesla는 이번에는 다르다고 말합니다. 월스트리트는 그것을 믿을지 여부에 대해 분열되어 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b00df3789445700e3808c68150d32d8ac532b32ccdddb90f87bb0d2a86857517",
+        "eventId": "4b7c0e83a4149ec33334",
+        "fingerprint": "{\"changes\": [{\"after\": -4.02, \"before\": -4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.85, \"before\": -2.8, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"4b7c0e83a4149ec33334\"}"
+      },
+      {
         "changedAt": 1788781446.319676,
         "dataAsOf": 1788659400,
         "changes": [
@@ -7771,6 +7829,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ORCL": [
+      {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788699869,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.62,
+            "after": 2.97
+          },
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -3.15,
+            "after": -3.85
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.32,
+            "after": -2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.27,
+            "after": -2.62
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "인플레이션 데이터, 오라클 수익, 에너지 공급 경색: 이번 주에 주목해야 할 사항",
+        "newsUrl": "https://finnhub.io/api/news?id=a58caa30d9b5afdc47c26cfd32b5cd3a522c9e5ea5a1c9234bba7b0794c025f7",
+        "eventId": "b519b25a5c4aa593de71",
+        "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.85, \"before\": -3.15, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.97, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -2.62, \"before\": -2.27, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b519b25a5c4aa593de71\"}"
+      },
       {
         "changedAt": 1788798566.8550467,
         "dataAsOf": 1788699869,
@@ -10251,6 +10344,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788772081,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.7
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.2,
+            "after": -4.55
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "억만장자 빌 애크먼(Bill Ackman)은 알파벳 주식을 매도하고 고점 대비 42% 하락한 메가캡 주식을 매입합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=8d32481f9c84c3ca2b511a135e42cf9ce1e624a8a747641f58512160f1aedde3",
+        "eventId": "9336c45338c15729052a",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.55, \"before\": -4.2, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"9336c45338c15729052a\"}"
+      },
+      {
         "changedAt": 1788758673.344052,
         "dataAsOf": 1788739380,
         "changes": [
@@ -11594,32 +11710,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=903e5212809579008dc7e473dd0a14501e4d115a30dfe9b9eae22f6c1a3092ed",
         "eventId": "f271cdceec7e8f1b202f",
         "fingerprint": "{\"changes\": [{\"after\": 1.57, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -0.7, \"before\": 0.0, \"key\": \"competitiveRisk\", \"label\": \"경쟁 심화 리스크\"}], \"eventId\": \"f271cdceec7e8f1b202f\"}"
-      },
-      {
-        "changedAt": 1787656926.8844557,
-        "dataAsOf": 1787593932,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 2.45,
-            "after": 1.92
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -0.35,
-            "after": -1.4
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "Cowell은 여전히 Apple에 묶여 있지만 투자자들은 강력한 수입을 응원합니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=2f48d983bd7a3006b3e02d1bc4ccadf789ebd14740b2a1b1eea7f1de4f5449ee",
-        "eventId": "d46f696c3f04367773db",
-        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 2.45, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"d46f696c3f04367773db\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788772081,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.4,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -0.87,
+            "after": -1.22
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "억만장자 빌 애크먼(Bill Ackman)은 알파벳 주식을 매도하고 고점 대비 42% 하락한 메가캡 주식을 매입합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=8d32481f9c84c3ca2b511a135e42cf9ce1e624a8a747641f58512160f1aedde3",
+        "eventId": "9336c45338c15729052a",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -1.4, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.22, \"before\": -0.87, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"9336c45338c15729052a\"}"
+      },
       {
         "changedAt": 1788660958.0453053,
         "dataAsOf": 1788650220,
@@ -19603,6 +19719,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788772081,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.7
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "억만장자 빌 애크먼(Bill Ackman)은 알파벳 주식을 매도하고 고점 대비 42% 하락한 메가캡 주식을 매입합니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=8d32481f9c84c3ca2b511a135e42cf9ce1e624a8a747641f58512160f1aedde3",
+        "eventId": "9336c45338c15729052a",
+        "fingerprint": "{\"changes\": [{\"after\": -0.7, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"9336c45338c15729052a\"}"
+      },
+      {
         "changedAt": 1788758673.344052,
         "dataAsOf": 1788739380,
         "changes": [
@@ -24582,6 +24715,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1788804162.777472,
+        "dataAsOf": 1788574392,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.7,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.92,
+            "after": 2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.22,
+            "after": 1.75
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의",
+        "newsUrl": "https://finnhub.io/api/news?id=fdf5335c10e11621038f4cafb4041e1163de35450be064a4856316c862ce12e4",
+        "eventId": "e799cbdf421216e4335e",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.7, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 2.97, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 1.75, \"before\": 1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e799cbdf421216e4335e\"}"
+      },
       {
         "changedAt": 1788798566.8550467,
         "dataAsOf": 1788574392,
