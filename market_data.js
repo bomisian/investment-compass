@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.239999771118164,
+      "current": 15.300000190734863,
       "prevClose": 14.529999732971191,
-      "changeAbs": 0.7100000381469727,
-      "changePct": 4.886442196800971,
-      "pctRank": 23.86634844868735,
+      "changeAbs": 0.7700004577636719,
+      "changePct": 5.299383839742281,
+      "pctRank": 24.3436754176611,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.91787392726226,
-      "ma20": 15.088500022888184,
-      "ma60": 16.410999933878582,
-      "chg1m": 0.3400001525878906,
-      "chg3m": -3.6800003051757812,
-      "chg1mPct": 2.281880277131363,
-      "chg3mPct": -19.450318659283116,
+      "drawdown1y": -50.72463585611575,
+      "ma20": 15.091500043869019,
+      "ma60": 16.411999940872192,
+      "chg1m": 0.40000057220458984,
+      "chg3m": -3.619999885559082,
+      "chg1mPct": 2.684567667418811,
+      "chg3mPct": -19.13319170698528,
       "lastDate": "2026-09-07",
       "bars": 1257,
       "symbol": "^VIX",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.875,
+      "current": 98.88500213623047,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.285003662109375,
-      "changePct": -0.28741796246855067,
-      "pctRank": 24.324324324324326,
+      "changeAbs": -0.27500152587890625,
+      "changePct": -0.277331096937009,
+      "pctRank": 24.403815580286167,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.691664790791204,
-      "ma20": 99.34625015258788,
-      "ma60": 100.26575024922688,
-      "chg1m": -0.7249984741210938,
-      "chg3m": -1.1750030517578125,
-      "chg1mPct": -0.7279101257310451,
-      "chg3mPct": -1.1744158080134797,
+      "drawdown1y": -2.681821137439777,
+      "ma20": 99.34675025939941,
+      "ma60": 100.2659169514974,
+      "chg1m": -0.714996337890625,
+      "chg3m": -1.1650009155273438,
+      "chg1mPct": -0.7178678201249183,
+      "chg3mPct": -1.1644186706567776,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,6 +219,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Gulf equities mixed amid US-Iran flare-ups - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
+      "datetime": 1788791258,
+      "headlineKo": "미국-이란 갈등 속에 걸프 증시 혼조세 - Reuters"
+    },
+    {
+      "headline": "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/07/45-year-old-turns-job-search-into-a-one-man-show.html",
+      "datetime": 1788788701,
+      "headlineKo": "'아! 또 다시 거절당했다': 이 45세 청년이 어떻게 '사기 꺾이는' 구직활동을 원맨쇼로 만들었는지"
+    },
+    {
       "headline": "UAE says its energy exports will not be 'held hostage' by Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
@@ -226,11 +240,11 @@ const MARKET_DATA = {
       "headlineKo": "UAE는 에너지 수출이이란 전쟁에 '인질로 잡히지' 않을 것이라고 말했습니다 - Reuters"
     },
     {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788780305,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUp5ZGlTQWNQSDNtbzRnQzdZNTM4TXpLeFpjV1E3SElQRmxzSWVqRU5mODRJN0ZCTzdyaFZ2dW5GMEQxMVB6ZldNS2JOQzFpRk9KeGNMNFlZVnpMSDZ3MFJnRVByT0JCaEdyZHhONFRjTjgtVG8yeXVmQngxM2xSd3ZyeExZS0tZejN2QkhyQk44NTdlZTFscDZaTmF4Um41S3c4Q2tKaXkyMXFOa2JVTEZjdU9aSENuMV95Z2tFZnd4Yk5BQ1E?oc=5",
+      "datetime": 1788779042,
+      "headlineKo": "오만은 이란의 공격을 받은 사우디 시드르 선박의 선원 16명을 대피시켰다고 밝혔습니다."
     },
     {
       "headline": "Iran vows to respond to US strikes, says US energy companies' facilities are 'exposed' - Reuters",
@@ -254,6 +268,13 @@ const MARKET_DATA = {
       "headlineKo": "아침 입찰: 디젤은 미국 인플레이션 비둘기의 진짜 스포일러 - reuters.com"
     },
     {
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788755221,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
       "headline": "Indian central bank likely intervened to support rupee, traders say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQkppSlJtNjIzeHN6TVJMam0yMGZSSGhrVFlnTDhqY2pIeHpmdS13RGc0bUQ0TUQwQjdaRHJyalp0bE9JN01oR2xPLUlzU0R4NDhvSHgwVHNPbWZjcEF0QU1IdFVtajhHS2ZwdzVuSENObEo3dkVtcHZGQ3RXZVY1ejdHOVlFSlE3SlJ1Q1VOQ0NFRTdwU0JNNlQ4dHBsWjd6ZER5cm5CYjlEbUdUUU5JRw?oc=5",
@@ -268,11 +289,11 @@ const MARKET_DATA = {
       "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
     },
     {
-      "headline": "Asia shares bounce, others cautious as oil rises - Reuters",
+      "headline": "Stocks dented by inflation risk from rising oil, dicey geopolitics - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
-      "headlineKo": "아시아 증시는 반등했고, 유가 상승에 다른 증시는 조심스럽다 - Reuters"
+      "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식 하락 - Reuters"
     },
     {
       "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
@@ -280,37 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
       "datetime": 1788742920,
       "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
-    },
-    {
-      "headline": "Oil prices hold near six-week highs on US-Iran attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-      "datetime": 1788740100,
-      "headlineKo": "미국-이란 공격으로 유가가 6주래 최고치에 근접 - Reuters"
-    },
-    {
-      "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
-      "datetime": 1788737340,
-      "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - Reuters"
-    },
-    {
-      "headline": "At least five killed in Amazon Prime Air cargo plane crash in Miami - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUxSZmhjRHBaRS1KVTJfWmUyVXFzOGs3NENFMU4wZFprQWVkX19CMGxSWlh0cW1GZzhYMWpIaWFjVWpSTUl3alNMY0lHVmlQOXlHRGZmNVJ0NElhN2UyOUN1MnozaFp0amh0YzV3VnhDX1VENFdjMk1aNU1IXzM4dWJjaXBRSzIxd3ZhOEtPRlppR3VMR01YRm1ZMlE3aWpIN0xURFhLSVpqLUFfWi1SaWdiTzZ1YnRqZGtGOQ?oc=5",
-      "datetime": 1788723360,
-      "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788792728.6426737,
-  "_updated_label": "2026-09-07 23:52",
-  "_last_attempt_at": 1788792728.6426737,
-  "_last_success_at": 1788792728.6426737,
+  "_fetched_at": 1788796636.4853706,
+  "_updated_label": "2026-09-08 00:57",
+  "_last_attempt_at": 1788796636.4853706,
+  "_last_success_at": 1788796636.4853706,
   "_collection_status": "ok",
   "_collection_errors": []
 };
