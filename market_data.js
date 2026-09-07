@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.90699768066406,
+      "current": 98.91600036621094,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.2530059814453125,
-      "changePct": -0.25514922559647923,
-      "pctRank": 24.562798092209857,
+      "changeAbs": -0.2440032958984375,
+      "changePct": -0.24607027721568658,
+      "pctRank": 24.80127186009539,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.660174110275648,
-      "ma20": 99.3478500366211,
-      "ma60": 100.26628354390462,
-      "chg1m": -0.6930007934570312,
-      "chg3m": -1.14300537109375,
-      "chg1mPct": -0.6957839398331843,
-      "chg3mPct": -1.1424341191698426,
+      "drawdown1y": -2.651314071408606,
+      "ma20": 99.34830017089844,
+      "ma60": 100.26643358866373,
+      "chg1m": -0.6839981079101562,
+      "chg3m": -1.134002685546875,
+      "chg1mPct": -0.6867450987841917,
+      "chg3mPct": -1.13343593299066,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -268,11 +268,11 @@ const MARKET_DATA = {
       "headlineKo": "오만은 이란의 공격을 받은 사우디 시드르 선박의 선원 16명을 대피시켰다고 밝혔습니다."
     },
     {
-      "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - Reuters",
+      "headline": "Iran says to announce new restricted zone in the Gulf in the coming days - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
       "datetime": 1788764220,
-      "headlineKo": "이란, 최근 충돌 이후 걸프 지역의 미국 에너지 자산이 취약하다고 경고 - 로이터"
+      "headlineKo": "이란은 앞으로 며칠 안에 걸프 지역에 새로운 제한 구역을 발표할 것이라고 밝혔습니다 - 로이터"
     },
     {
       "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - Reuters",
@@ -296,21 +296,21 @@ const MARKET_DATA = {
       "headlineKo": "인도 중앙은행이 루피를 지원하기 위해 개입했을 가능성이 있다고 거래자들은 말합니다 - Reuters"
     },
     {
-      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
+      "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-      "datetime": 1788750811,
-      "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
+      "datetime": 1788747360,
+      "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788804162.850953,
-  "_updated_label": "2026-09-08 03:03",
-  "_last_attempt_at": 1788804162.850953,
-  "_last_success_at": 1788804162.850953,
+  "_fetched_at": 1788807654.0848415,
+  "_updated_label": "2026-09-08 04:01",
+  "_last_attempt_at": 1788807654.0848415,
+  "_last_success_at": 1788807654.0848415,
   "_collection_status": "ok",
   "_collection_errors": []
 };
