@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.18900299072266,
+      "current": 99.17400360107422,
       "prevClose": 99.16000366210938,
-      "changeAbs": 0.02899932861328125,
-      "changePct": 0.029244985419824423,
-      "pctRank": 28.060413354531,
+      "changeAbs": 0.01399993896484375,
+      "changePct": 0.014118534134537704,
+      "pctRank": 27.90143084260731,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.3826371470194285,
-      "ma20": 99.36195030212403,
-      "ma60": 100.2709836324056,
-      "chg1m": -0.4109954833984375,
-      "chg3m": -0.8610000610351562,
-      "chg1mPct": -0.41264607399088044,
-      "chg3mPct": -0.8605697498977029,
+      "drawdown1y": -2.397398872792822,
+      "ma20": 99.3612003326416,
+      "ma60": 100.27073364257812,
+      "chg1m": -0.425994873046875,
+      "chg3m": -0.8759994506835938,
+      "chg1mPct": -0.4277057023826768,
+      "chg3mPct": -0.8755616431420019,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -236,7 +236,7 @@ const MARKET_DATA = {
       "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
-      "datetime": 1788737378,
+      "datetime": 1788737340,
       "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - reuters.com"
     },
     {
@@ -247,11 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다 - reuters.com"
     },
     {
-      "headline": "Iran to tackle economic issues, says further attacks will be 'more painful' - reuters.com",
+      "headline": "At least 5 killed in Amazon Prime Air cargo plane crash in Miami - reuters.com",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2JCeUZJRmd5UEhfaFJjQ2U3UDRValp0Y0ZVOVBiWXE0YzBVZHhTd3RlR0FQMlZHMFRadXJvS01XOHBvb0p2Qzg0V1FYeDdUWC1uMDBFZU5JNnZCRVh1M1lLLWZCQ2Jhb1djdlJxTGEtNGNHWk96czEzUm13VE9wMVp1YjhEQ21WSVZwUlZOMEpBbkJVRm1tRV9wTy13Z0RaMXpvd29RMFdRUkg5ZjVUaTRuRkhCZ3doLTJtWnRoZFU?oc=5",
-      "datetime": 1788722600,
-      "headlineKo": "이란, 경제 문제 해결 위해 추가 공격은 '더 고통스러울 것' - reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUxSZmhjRHBaRS1KVTJfWmUyVXFzOGs3NENFMU4wZFprQWVkX19CMGxSWlh0cW1GZzhYMWpIaWFjVWpSTUl3alNMY0lHVmlQOXlHRGZmNVJ0NElhN2UyOUN1MnozaFp0amh0YzV3VnhDX1VENFdjMk1aNU1IXzM4dWJjaXBRSzIxd3ZhOEtPRlppR3VMR01YRm1ZMlE3aWpIN0xURFhLSVpqLUFfWi1SaWdiTzZ1YnRqZGtGOQ?oc=5",
+      "datetime": 1788723360,
+      "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - reuters.com"
     },
     {
       "headline": "Iran's government to raise fuel price for heavy users - reuters.com",
@@ -307,10 +307,10 @@ const MARKET_DATA = {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788751023.3687532,
-  "_updated_label": "2026-09-07 12:17",
-  "_last_attempt_at": 1788751023.3687532,
-  "_last_success_at": 1788751023.3687532,
+  "_fetched_at": 1788754834.9294732,
+  "_updated_label": "2026-09-07 13:21",
+  "_last_attempt_at": 1788754834.9294732,
+  "_last_success_at": 1788754834.9294732,
   "_collection_status": "ok",
   "_collection_errors": []
 };

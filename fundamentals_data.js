@@ -118,8 +118,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 44.84,
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:19"
   },
   "MSFT": {
     "forwardPE": 22.94147,
@@ -684,8 +684,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.24,
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:19"
   },
   "ARM": {
     "forwardPE": 98.30982,
@@ -1024,8 +1024,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 6.25,
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:20"
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1062,11 +1062,11 @@ const FUNDAMENTALS_DATA = {
   },
   "GEV": {
     "forwardPE": 45.54201,
-    "peTTM": 26.327,
-    "psTTM": 6.0637,
-    "pb": 20.9788,
-    "evEbitdaTTM": 34.0773,
-    "pfcfShareTTM": 20.161,
+    "peTTM": 26.3301,
+    "psTTM": 6.0644,
+    "pb": 20.9813,
+    "evEbitdaTTM": 34.0815,
+    "pfcfShareTTM": 20.1634,
     "forwardPEG": 1.06282,
     "operatingMarginTTM": 15.44,
     "revenueGrowthTTMYoy": 12.98,
@@ -1080,20 +1080,20 @@ const FUNDAMENTALS_DATA = {
     "quickRatioQuarterly": 0.6223,
     "longTermDebt/equityQuarterly": 0.2337,
     "totalDebt/totalEquityQuarterly": 0.2337,
-    "marketCapitalization": 250843.62,
+    "marketCapitalization": 250872.94,
     "52WeekHigh": 1195.94,
     "52WeekLow": 530.16,
     "beta": 0.9723862,
     "dividendPerShareTTM": 1.5189,
     "avgPe3Y": 47.368449999999996,
-    "peDeviation3Y": -44.42081174283726,
+    "peDeviation3Y": -44.4142673023922,
     "perBandYears": 2,
     "perBandSource": "universal",
     "roicTTM": 74.29,
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:20"
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1405,8 +1405,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 50.519999999999996,
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:20"
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1517,7 +1517,7 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 7.140000000000001,
     "name": "Bloom Energy Corp",
     "theme": "Electrical Equipment",
-    "_fetched_at": 1788681522.4919603,
-    "_updated_label": "2026-09-06 16:58"
+    "_fetched_at": 1788754793.4131367,
+    "_updated_label": "2026-09-07 13:20"
   }
 };
