@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.0600004196167,
+      "current": 15.039999961853027,
       "prevClose": 14.529999732971191,
-      "changeAbs": 0.5300006866455078,
-      "changePct": 3.6476303949465367,
-      "pctRank": 22.195704057279237,
+      "changeAbs": 0.5100002288818359,
+      "changePct": 3.509980992804517,
+      "pctRank": 22.11614956245028,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -51.497581997871876,
-      "ma20": 15.07950005531311,
-      "ma60": 16.40799994468689,
-      "chg1m": 0.16000080108642578,
-      "chg3m": -3.859999656677246,
-      "chg1mPct": 1.0738309072668832,
-      "chg3mPct": -20.401689435052813,
+      "drawdown1y": -51.56199571205903,
+      "ma20": 15.078500032424927,
+      "ma60": 16.407666603724163,
+      "chg1m": 0.1400003433227539,
+      "chg3m": -3.880000114440918,
+      "chg1mPct": 0.9395996436714235,
+      "chg3mPct": -20.507400099339392,
       "lastDate": "2026-09-07",
       "bars": 1257,
       "symbol": "^VIX",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.93299865722656,
+      "current": 98.9469985961914,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.2270050048828125,
-      "changePct": -0.22892799162890182,
-      "pctRank": 25.27821939586645,
+      "changeAbs": -0.21300506591796875,
+      "changePct": -0.21480945749436414,
+      "pctRank": 25.43720190779014,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6345851166664436,
-      "ma20": 99.34915008544922,
-      "ma60": 100.266716893514,
-      "chg1m": -0.6669998168945312,
-      "chg3m": -1.11700439453125,
-      "chg1mPct": -0.6696785412781274,
-      "chg3mPct": -1.1164461373913221,
+      "drawdown1y": -2.6208070053774457,
+      "ma20": 99.34985008239747,
+      "ma60": 100.26695022583007,
+      "chg1m": -0.6529998779296875,
+      "chg3m": -1.1030044555664062,
+      "chg1mPct": -0.655622377443465,
+      "chg3mPct": -1.1024531953245424,
       "lastDate": "2026-09-07",
       "bars": 1258,
       "symbol": "DX-Y.NYB",
@@ -219,25 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "UAE builds alternative trade, energy routes after Iran attacks, official says - Reuters",
+      "headline": "UAE builds alternative trade, energy routes after Iran attacks, official says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
       "datetime": 1788770783,
-      "headlineKo": "UAE는 이란 공격 이후 대체 무역과 에너지 경로를 구축했다고 관계자는 밝혔습니다."
+      "headlineKo": "UAE, 이란 공격 이후 대체 무역과 에너지 루트 구축"
     },
     {
-      "headline": "Iran says to announce new restricted zone in the Gulf in the coming days - Reuters",
+      "headline": "Iran says to announce new restricted zone in the Gulf in the coming days - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
       "datetime": 1788764220,
-      "headlineKo": "이란은 앞으로 며칠 안에 걸프 지역에 새로운 제한 구역을 발표할 것이라고 밝혔습니다 - 로이터"
+      "headlineKo": "이란, 앞으로 며칠 안에 걸프 지역에 새로운 제한 구역을 발표할 것이라고 밝혔습니다 - reuters.com"
     },
     {
-      "headline": "Morning Bid: Diesel the real spoiler for US inflation doves - Reuters",
+      "headline": "Israeli strikes on southern Lebanese town kill 11, state news agency says - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
+      "datetime": 1788763680,
+      "headlineKo": "이스라엘, 레바논 남부 마을 공습으로 11명 사망, 국영 통신사 발표 - reuters.com"
+    },
+    {
+      "headline": "Morning Bid: Diesel the real spoiler for US inflation doves - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkVEpMZWxDcWdjVkVYRGdtakVZSGxsWVZfR2N5eFR4UTBRTzZWTmxMZXF3REFZeHBkelU2YXJQb21JZEtGNVNqQld1eTYxV3VpLXFzT1VEVEtQVUNxa3VQTW5mdE1OQ2JocmNrdW80bktWQWxfY2w2SmoxV2dfOWs?oc=5",
       "datetime": 1788755640,
-      "headlineKo": "아침 입찰: 디젤은 미국 인플레이션 비둘기의 진짜 스포일러입니다 - Reuters"
+      "headlineKo": "아침 입찰: 디젤은 미국 인플레이션 비둘기의 진짜 스포일러 - reuters.com"
     },
     {
       "headline": "Indian central bank likely intervened to support rupee, traders say - Reuters",
@@ -247,70 +254,63 @@ const MARKET_DATA = {
       "headlineKo": "인도 중앙은행이 루피를 지원하기 위해 개입했을 가능성이 있다고 거래자들은 말합니다 - Reuters"
     },
     {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - reuters.com",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788751959,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
+      "datetime": 1788750811,
+      "headlineKo": "전쟁으로 인해 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - reuters.com"
     },
     {
-      "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - Reuters",
+      "headline": "Rupee shrugs off oil strain as RBI intervention holds firm - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYTBLY21ON1RJaktHeDh4TjNjTEEybTVsdmJDUjMyc0pTTTV0aUxtRXlDZ2Z0X1VLUWxXdGkyY1FKTkZWbUVabTVfZE9TM3BHS0gwaUJZREt0WUNVdnF1VjRWNG9oZm5DX2Q0SVpwMllLZFExZmJBWlZJZm9QdzFiTHhmWTFEUTI2QVBLZUhJWXBFU19JOEd3bGNnd0NBX2N0MjMtRg?oc=5",
       "datetime": 1788747360,
-      "headlineKo": "RBI 개입이 확고해지면서 루피는 석유 부담을 으쓱했습니다 - Reuters"
+      "headlineKo": "RBI 개입이 굳건해지자 루피는 석유 부담을 으쓱했다 - reuters.com"
     },
     {
-      "headline": "Stocks rattled by inflation risk from rising oil, dicey geopolitics - Reuters",
+      "headline": "Stocks rattled by inflation risk from rising oil, dicey geopolitics - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0pobHhGSWlxLVNZa2htLURrNldPaHUyOGVyQXVBeGtJOWJDUXpqMXFSTDBCaHNkeFI5Q0Y2NUdFNlJoWUZlVGQwR2pGZk5oc1R5TzFLbUdFMU1aY3NGTXVhOGFTeFZOenRpbUlNc0ZiTjQtMnNaRVUtTVNrWEpLeGprbw?oc=5",
       "datetime": 1788743160,
-      "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식이 요동쳤습니다 - Reuters"
+      "headlineKo": "유가 상승과 위태로운 지정학으로 인한 인플레이션 위험으로 주식이 요동쳤다 - reuters.com"
     },
     {
-      "headline": "Ship fuel shortage looms as refiners strained by war favour other products - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcjJsRnYxdWplZmMxWnZxd2JBRjdaR2YtV0VrMEJCNmFTUjF1U1oyaVhiZk5XZ2Rvc1lXVEdhQjd0bWxxZ1R6Sl9Eckl0S3NXSXpjbGZ5QjJ6dnVkbG9tc2RtRl8tNy1heW1RVHh1VlZ2ZUVtQnJTREdYRlJsRFo5VjRoNUhRTEV2c0dwd01fNWphVkg4LW9oeExqdm1jQW9nRFdGYm16WTRkUjkxUmpaN2NPdDZpUVl2Tk1KQ0xZZWY?oc=5",
-      "datetime": 1788742920,
-      "headlineKo": "전쟁으로 인해 어려움을 겪는 정유업체가 다른 제품을 선호함에 따라 선박 연료 부족이 예상됩니다 - Reuters"
-    },
-    {
-      "headline": "Oil prices hold near 6-week highs on US-Iran attacks - Reuters",
+      "headline": "Oil prices hold near 6-week highs on US-Iran attacks - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
       "datetime": 1788740100,
-      "headlineKo": "미국-이란 공격으로 유가가 6주래 최고치에 근접 - Reuters"
+      "headlineKo": "美-이란 공격으로 유가 6주래 최고치 경신 - reuters.com"
     },
     {
-      "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - Reuters",
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788739952,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? -reuters.com"
+    },
+    {
+      "headline": "Hormuz traffic dips to lowest since May after US, Iranian strikes on ships - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1Yzd0xQX3FmaWVJVjdQREFrMWR1ZEZfaHlPNmpTY1FJRFRNYmN0YWVTSHB6NVNvTnJ5R0VYaS1RLXg5TUh5cjEzMmFzV0Nyb0FWUmRZSXlBMUlSQjRZbGFzQll1X0kzcXdBdnVsT25ncEhNY2Z3ME5IQTMzSk9TZEdDbGx5RFh2VEJjMzdKMy1uUlBPbWZ0NWgyLTh3cmU0cTA1bTE1Rnh0cWhpd1dKaWZlTDhQeGJKVWxJeHVB?oc=5",
       "datetime": 1788737340,
-      "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - Reuters"
+      "headlineKo": "호르무즈 교통량, 미국과 이란의 선박 공습 이후 5월 이후 최저치 - reuters.com"
     },
     {
-      "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - Reuters",
+      "headline": "Israeli strike kills a man and his daughter in Gaza, medics say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWXNmc1lpWkNYV0VUaVR4bDNpWTNMcTQ1VkFPYk5tZGFHbzk3Q3pOX0JtRW9Gc01kVnJ4RjRRVVl2aVpfSU1jN1JtelYxZUNIZV9Qb3M1U3J5Y0FMdkN6SV9sd3dPckdaWFFMWktOejFtUldxdUFDd0tMbjBzRzE5R0ZsQ1pPMG1ZNHJWTXQwNWVTT05PNmNFMElJbGVLenhLbEJ3?oc=5",
       "datetime": 1788729582,
-      "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다."
-    },
-    {
-      "headline": "At least five killed in Amazon Prime Air cargo plane crash in Miami - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLUxSZmhjRHBaRS1KVTJfWmUyVXFzOGs3NENFMU4wZFprQWVkX19CMGxSWlh0cW1GZzhYMWpIaWFjVWpSTUl3alNMY0lHVmlQOXlHRGZmNVJ0NElhN2UyOUN1MnozaFp0amh0YzV3VnhDX1VENFdjMk1aNU1IXzM4dWJjaXBRSzIxd3ZhOEtPRlppR3VMR01YRm1ZMlE3aWpIN0xURFhLSVpqLUFfWi1SaWdiTzZ1YnRqZGtGOQ?oc=5",
-      "datetime": 1788723360,
-      "headlineKo": "마이애미에서 아마존 프라임 에어 화물기 추락으로 최소 5명 사망 - 로이터 통신"
+      "headlineKo": "이스라엘의 공습으로 가자지구에서 한 남자와 그의 딸이 사망했다고 의료진이 밝혔습니다 - reuters.com"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788773748.8178687,
-  "_updated_label": "2026-09-07 18:36",
-  "_last_attempt_at": 1788773748.8178687,
-  "_last_success_at": 1788773748.8178687,
+  "_fetched_at": 1788777592.9499176,
+  "_updated_label": "2026-09-07 19:40",
+  "_last_attempt_at": 1788777592.9499176,
+  "_last_success_at": 1788777592.9499176,
   "_collection_status": "ok",
   "_collection_errors": []
 };
