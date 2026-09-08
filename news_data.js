@@ -7302,7 +7302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -12926,7 +12926,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -18344,7 +18344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -23174,7 +23174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -29123,7 +29123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -31163,7 +31163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -36617,7 +36617,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -41703,7 +41703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -47933,7 +47933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -53880,7 +53880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -57941,7 +57941,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -61168,7 +61168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -63169,7 +63169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -65447,7 +65447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -68797,7 +68797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -72986,7 +72986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -73047,7 +73047,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851983.041807
+          "analysisUpdatedAt": 1788874705.906423
         },
         "headlineKo": "Palantir 주식, 8월 랠리 주도 - Nvidia, Salesforce 및 Super Micro Jump"
       },
@@ -73097,7 +73097,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851984.142858
+          "analysisUpdatedAt": 1788874707.0109532
         },
         "headlineKo": "Salesforce(NYSE:CRM), 고품질 복합 성장주 자격 획득"
       },
@@ -73147,7 +73147,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851986.2771351
+          "analysisUpdatedAt": 1788874709.1435702
         },
         "headlineKo": "Docusign은 모든 에이전트에게 AI 도구를 공개하고 있습니다. Salesforce에 미치는 영향"
       },
@@ -73219,7 +73219,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851983.041807
+          "analysisUpdatedAt": 1788874705.906423
         }
       },
       {
@@ -73268,7 +73268,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851984.142858
+          "analysisUpdatedAt": 1788874707.0109532
         }
       },
       {
@@ -73317,7 +73317,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851986.2771351
+          "analysisUpdatedAt": 1788874709.1435702
         }
       },
       {
@@ -76478,17 +76478,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788851978.6012242,
-    "_updated_label": "2026-09-08 16:19",
+    "_fetched_at": 1788874701.3555996,
+    "_updated_label": "2026-09-08 22:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
-    "_last_attempt_at": 1788851978.6012242,
+    "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
-    "_last_success_at": 1788851978.6012242,
+    "_last_success_at": 1788874701.3555996,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -80778,7 +80778,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -82791,7 +82791,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -82823,7 +82823,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.18%, 0.01%, 0.44%, 0.10%, 298 times, $2 billion, $1.29 billion, 22.4%.",
+            "기사에서 언급된 규모: 0.07%, 0.02%, 0.17%, 0.14%, 298 times, $2 billion, $1.29 billion, 22.4%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -82869,10 +82869,10 @@ const NEWS_DATA = {
           "relevance": 0.75,
           "quality": "high",
           "verifiedNumbers": [
-            "0.18%",
-            "0.01%",
-            "0.44%",
-            "0.10%",
+            "0.07%",
+            "0.02%",
+            "0.17%",
+            "0.14%",
             "298 times",
             "$2 billion",
             "$1.29 billion",
@@ -82880,10 +82880,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm Expands Into AI Accelerators With Samsung - But It's Not the Data Center Goldmine Investors Hope For - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,716.40 +0.18% Dow Jones 53,062.00 +0.01% Nasdaq 100 29,701.20 +0.44% Russell 2000 2,969.40 +0.10% S&P 500 7,716.40 +0.18% Dow Jones 53,062.00 +0.01% Nasdaq 100 29,701.20 +0.44% Russell 2000 2,969.40 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.14% S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.",
             "By Rich Duprey Published September 7, 2026, 12:24pm ET · 4 min read 𝕏 f ⧉ © genkur / iStock via Getty Images Arm Holdings ( NASDAQ:ARM | ARM Price Prediction ) is pushing deeper into AI silicon through a new collaboration with Samsung on a "
           ],
-          "analysisUpdatedAt": 1788851990.5015295
+          "analysisUpdatedAt": 1788874713.3125463
         },
         "headlineKo": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님"
       },
@@ -82933,7 +82933,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851993.0556383
+          "analysisUpdatedAt": 1788874715.381214
         },
         "headlineKo": "증가하는 CPU 수요로 인해 Arm Holdings(ARM)가 이익을 얻게 됩니다."
       },
@@ -82983,7 +82983,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851994.8906884
+          "analysisUpdatedAt": 1788874717.4511724
         },
         "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
       },
@@ -83026,7 +83026,7 @@ const NEWS_DATA = {
           "horizon": "중기 투자 사이클",
           "facts": [
             "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.18%, 0.01%, 0.44%, 0.10%, 298 times, $2 billion, $1.29 billion, 22.4%.",
+            "기사에서 언급된 규모: 0.07%, 0.02%, 0.17%, 0.14%, 298 times, $2 billion, $1.29 billion, 22.4%.",
             "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
           ],
           "why": [
@@ -83072,10 +83072,10 @@ const NEWS_DATA = {
           "relevance": 0.75,
           "quality": "high",
           "verifiedNumbers": [
-            "0.18%",
-            "0.01%",
-            "0.44%",
-            "0.10%",
+            "0.07%",
+            "0.02%",
+            "0.17%",
+            "0.14%",
             "298 times",
             "$2 billion",
             "$1.29 billion",
@@ -83083,10 +83083,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm Expands Into AI Accelerators With Samsung - But It's Not the Data Center Goldmine Investors Hope For - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,716.40 +0.18% Dow Jones 53,062.00 +0.01% Nasdaq 100 29,701.20 +0.44% Russell 2000 2,969.40 +0.10% S&P 500 7,716.40 +0.18% Dow Jones 53,062.00 +0.01% Nasdaq 100 29,701.20 +0.44% Russell 2000 2,969.40 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.14% S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.",
             "By Rich Duprey Published September 7, 2026, 12:24pm ET · 4 min read 𝕏 f ⧉ © genkur / iStock via Getty Images Arm Holdings ( NASDAQ:ARM | ARM Price Prediction ) is pushing deeper into AI silicon through a new collaboration with Samsung on a "
           ],
-          "analysisUpdatedAt": 1788851990.5015295
+          "analysisUpdatedAt": 1788874713.3125463
         }
       },
       {
@@ -83135,7 +83135,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851993.0556383
+          "analysisUpdatedAt": 1788874715.381214
         }
       },
       {
@@ -83184,7 +83184,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788851994.8906884
+          "analysisUpdatedAt": 1788874717.4511724
         }
       },
       {
@@ -84232,17 +84232,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788851978.6012242,
-    "_updated_label": "2026-09-08 16:19",
+    "_fetched_at": 1788874701.3555996,
+    "_updated_label": "2026-09-08 22:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
-    "_last_attempt_at": 1788851978.6012242,
+    "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
-    "_last_success_at": 1788851978.6012242,
+    "_last_success_at": 1788874701.3555996,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -88452,7 +88452,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -90018,7 +90018,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -91769,7 +91769,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -93258,7 +93258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -98009,7 +98009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -99683,7 +99683,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -101351,7 +101351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -102942,7 +102942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -104571,7 +104571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -106363,7 +106363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -106438,7 +106438,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788852000.507252
+          "analysisUpdatedAt": 1788874724.2470226
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -106488,7 +106488,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788852001.5748644
+          "analysisUpdatedAt": 1788874725.3247168
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -106552,7 +106552,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788852004.3729556
+          "analysisUpdatedAt": 1788874729.445877
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -106638,7 +106638,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788852000.507252
+          "analysisUpdatedAt": 1788874724.2470226
         }
       },
       {
@@ -106687,7 +106687,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788852001.5748644
+          "analysisUpdatedAt": 1788874725.3247168
         }
       },
       {
@@ -106750,7 +106750,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788852004.3729556
+          "analysisUpdatedAt": 1788874729.445877
         }
       },
       {
@@ -107479,17 +107479,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788851978.6012242,
-    "_updated_label": "2026-09-08 16:20",
+    "_fetched_at": 1788874701.3555996,
+    "_updated_label": "2026-09-08 22:38",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
-    "_last_attempt_at": 1788851978.6012242,
+    "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
-    "_last_success_at": 1788851978.6012242,
+    "_last_success_at": 1788874701.3555996,
     "_collection_status": "ok"
   },
   "VST": {
@@ -108909,7 +108909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -110461,7 +110461,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -111642,7 +111642,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -112231,7 +112231,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788859444.8493755,
     "_earnings_status": "ok",
@@ -114644,7 +114644,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -115244,7 +115244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -116435,7 +116435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -117437,7 +117437,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -118638,7 +118638,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -119226,7 +119226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 22:02"
+      "updated": "2026-09-08 22:38"
     },
     "_fetched_at": 1788866949.3954325,
     "_updated_label": "2026-09-08 20:34",
