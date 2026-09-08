@@ -1251,7 +1251,8 @@ function computeTechnicalSeries(closes, volumes, ma200){
   for(let i=0;i<closes.length;i++){
     const rsiVal = rsiArr[i];
     if(rsiVal==null) continue;
-    const uptrend = ma200Arr[i]!=null && closes[i] > ma200Arr[i];
+    if(ma200Arr[i]==null) continue; // 2026-09-08 수정: 200일선 미준비 구간에서 RSI만으로 신호가 나던 문제
+    const uptrend = closes[i] > ma200Arr[i];
     const upToday = i>=1 && closes[i] > closes[i-1];
     if(rsiVal<30){
       if(uptrend || upToday){
@@ -1399,7 +1400,7 @@ function backtestSignals(opens, closes, entryFlags, horizons=[5,10,20]){
   horizons.forEach(h=>{
     const rets = [];
     signalIdxs.forEach(i=>{
-      const entryIdx = i+1, exitIdx = entryIdx+h;
+      const entryIdx = i+1, exitIdx = entryIdx+h-1; // 진입일 포함 h세션 청산(2026-09-08 수정: 기존 entryIdx+h는 h+1세션이 되는 오류)
       if(entryIdx < opens.length && exitIdx < closes.length && opens[entryIdx]!=null){
         rets.push((closes[exitIdx]-opens[entryIdx])/opens[entryIdx]*100);
       }
@@ -1425,7 +1426,7 @@ function backtestSignals(opens, closes, entryFlags, horizons=[5,10,20]){
 //    에만 유효하고 '어떤 종목을 살까'는 판단 못 함. 실적으로 진짜 무너지는 기업엔 위험(그 판단은 02~05 탭 펀더멘털로).
 //    (2) 6~12개월짜리 신호 - 3개월 horizon에선 예측력 거의 0(그건 별도 '단기판단'이 담당).
 function scoreDrawdownLT(pct){ if(pct>=-8) return 0; if(pct>=-18) return 1; if(pct>=-28) return 2; return 3; }
-function scoreBelowMA200(pct){ return pct<=0 ? 1 : 0; }
+function scoreBelowMA200(pct){ return (pct!=null && pct<=0) ? 1 : 0; } // 2026-09-08 수정: pct===null(200일선 미준비)이면 0점
 function scoreMarketDip(pct){ return pct<=-8 ? 1 : 0; }
 
 function verdictFor(total){
@@ -1438,7 +1439,7 @@ function buildScoreBreakdown(ticker, tech, fund, env){
   // 점수 반영 지표(백테스트로 예측력 검증된 것만)
   const items = [];
   items.push({key:'drawdown', label:'52주 종가 고점대비 하락 깊이', hintKey:'drawdownLT', valueText:(tech.drawdownPct>=0?'+':'')+tech.drawdownPct.toFixed(1)+'%', points:scoreDrawdownLT(tech.drawdownPct), max:3, min:0});
-  items.push({key:'ma200', label:'200일선 아래 여부', hintKey:'belowMa', valueText:(tech.ma200Pct>=0?'+':'')+tech.ma200Pct.toFixed(1)+'%', points:scoreBelowMA200(tech.ma200Pct), max:1, min:0});
+  items.push({key:'ma200', label:'200일선 아래 여부', hintKey:'belowMa', valueText: tech.ma200Pct!=null ? (tech.ma200Pct>=0?'+':'')+tech.ma200Pct.toFixed(1)+'%' : '데이터 부족(200봉 미만)', points:scoreBelowMA200(tech.ma200Pct), max:1, min:0});
   items.push({key:'market', label:'시장(SPY) 조정 여부', hintKey:'marketDip', valueText:(env.spyDrawdownPct>=0?'+':'')+env.spyDrawdownPct.toFixed(1)+'%', points:scoreMarketDip(env.spyDrawdownPct), max:1, min:0});
   const total = items.reduce((a,b)=>a+(b.points||0),0);
 
@@ -1473,8 +1474,12 @@ async function fetchMarketEnv(){
     // 실시간 3곳이 다 실패하면 PC가 미리 받아둔 가격 캐시(prices_data.js)로 마지막 폴백.
     fetchYahooViaProxies('^VIX').catch(()=>fetchStooq('^VIX').catch(()=>pricesCacheFor('^VIX'))),
   ]);
-  const drawdownOf = b => (b && b.closes && b.closes.length) ? (last(b.closes) - Math.max(...b.closes)) / Math.max(...b.closes) * 100 : null;
-  const spyHigh = Math.max(...spyBundle.closes);
+  // 2026-09-08 수정: 개별 종목(line ~1891)은 최근 252거래일만으로 52주 최고가를 계산하는데
+  // 여기는 fetchDailyCloses가 주는 전체 범위(약 2년≈502봉)를 그대로 Math.max해서 "52주 최고가"라고
+  // 표시해왔음 - SPY/QQQ/DIA만 실제로는 최대 2년 최고가를 쓰고 있었던 버그. 252거래일로 통일.
+  const w52 = closes => closes.slice(-Math.min(252, closes.length));
+  const drawdownOf = b => (b && b.closes && b.closes.length) ? (last(b.closes) - Math.max(...w52(b.closes))) / Math.max(...w52(b.closes)) * 100 : null;
+  const spyHigh = Math.max(...w52(spyBundle.closes));
   const spyNow = last(spyBundle.closes);
   const spyDrawdownPct = (spyNow - spyHigh) / spyHigh * 100;
   const qqqDrawdownPct = drawdownOf(qqqBundle);
@@ -1898,7 +1903,7 @@ async function analyzeTicker(ticker, env){
   const ma20arr = sma(closes, 20);
   const ma200arr = sma(closes, 200);
   const ma200 = last(ma200arr);
-  const ma200Pct = ma200!=null ? (price-ma200)/ma200*100 : 0;
+  const ma200Pct = (ma200!=null && closes.length>=200) ? (price-ma200)/ma200*100 : null; // 2026-09-08 수정: 200봉 미준비 시 0으로 치환해 200일선 아래 조건이 잘못 충족되던 문제
   const rsiVal = last(rsi(closes));
 
   const tech = {price, drawdownPct, ma200Pct, rsi: rsiVal, dates, closes};
@@ -2404,7 +2409,7 @@ function renderTable(){
       <td>$${r.price.toFixed(2)}</td>
       <td>${r.perNow!=null?r.perNow.toFixed(1)+(r.perNowSource==='finnhub'?'*':''):'-'}</td>
       <td>${r.peDeviation3Y!=null?(r.peDeviation3Y>=0?'+':'')+r.peDeviation3Y.toFixed(1)+'%':'-'}</td>
-      <td>${(r.ma200Pct>=0?'+':'')+r.ma200Pct.toFixed(1)}%</td>
+      <td>${r.ma200Pct!=null?(r.ma200Pct>=0?'+':'')+r.ma200Pct.toFixed(1)+'%':'-'}</td>
       <td>${capTxt}</td>
       <td>${r.epsGrowth!=null?(r.epsGrowth>=0?'+':'')+r.epsGrowth.toFixed(1)+'%':'-'}</td>
       <td>${r.rsi.toFixed(1)}</td>
@@ -5051,7 +5056,8 @@ function technicalReasonAt(techSeries, closes, i){
   const rsiVal = techSeries.rsiArr[i];
   const reasons = [];
   const ma200 = techSeries.ma200?.[i];
-  const uptrend = ma200!=null && closes[i] > ma200;
+  if(ma200==null) return {score:null, reasons:['200일선 데이터 부족(200봉 미만) - 판단 보류']}; // 2026-09-08 추가
+  const uptrend = closes[i] > ma200;
   const upToday = closes[i] > closes[i-1];
   if(rsiVal!=null){
     if(rsiVal<30){
