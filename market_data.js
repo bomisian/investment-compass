@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.18000030517578,
+      "current": 94.25,
       "prevClose": 91.4800033569336,
-      "changeAbs": 2.6999969482421875,
-      "changePct": 2.951461356759499,
+      "changeAbs": 2.7699966430664062,
+      "changePct": 3.02798047815819,
       "pctRank": 87.66905330151154,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.61797003117008,
-      "ma20": 86.03800086975097,
-      "ma60": 80.45633354187012,
-      "chg1m": 16.0,
-      "chg3m": 2.8799972534179688,
-      "chg1mPct": 20.46559214318748,
-      "chg3mPct": 3.1544328117769105,
+      "drawdown1y": -16.555995974759707,
+      "ma20": 86.04150085449218,
+      "ma60": 80.45750020345052,
+      "chg1m": 16.06999969482422,
+      "chg3m": 2.9499969482421875,
+      "chg1mPct": 20.55512871846373,
+      "chg3mPct": 3.2311027925922846,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.86299896240234,
+      "current": 98.83899688720703,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.29700469970703125,
-      "changePct": -0.29952066230159036,
-      "pctRank": 24.26412092283214,
+      "changeAbs": -0.32100677490234375,
+      "changePct": -0.32372606196766973,
+      "pctRank": 24.025457438345267,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.703475673111422,
-      "ma20": 99.34565010070801,
-      "ma60": 100.26555023193359,
-      "chg1m": -0.73699951171875,
-      "chg3m": -1.1870040893554688,
-      "chg1mPct": -0.7399593604514395,
-      "chg3mPct": -1.1864108477252204,
+      "drawdown1y": -2.7270974377518464,
+      "ma20": 99.34444999694824,
+      "ma60": 100.26515019734701,
+      "chg1m": -0.7610015869140625,
+      "chg3m": -1.2110061645507812,
+      "chg1mPct": -0.7640578298922287,
+      "chg3mPct": -1.2104009271487022,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4396.2001953125,
+      "current": 4400.0,
       "prevClose": 4429.7998046875,
-      "changeAbs": -33.599609375,
-      "changePct": -0.7584904703694682,
-      "pctRank": 90.29435163086714,
+      "changeAbs": -29.7998046875,
+      "changePct": -0.6727122218021369,
+      "pctRank": 90.3739061256961,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.33979625384786,
-      "ma20": 4468.875,
-      "ma60": 4235.581669108073,
-      "chg1m": 55.5,
-      "chg3m": 60.30029296875,
-      "chg1mPct": 1.278595560687056,
-      "chg3mPct": 1.3907215186437991,
+      "drawdown1y": -17.268349864759568,
+      "ma20": 4469.064990234375,
+      "ma60": 4235.644999186198,
+      "chg1m": 59.2998046875,
+      "chg3m": 64.10009765625,
+      "chg1mPct": 1.3661345409558014,
+      "chg3mPct": 1.4783574136847808,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
+      "datetime": 1788899001,
+      "headlineKo": "이 대체 에너지 주식은 옵션 피트에서 SpaceX보다 더 인기가 있습니다. 이유는 다음과 같습니다."
+    },
+    {
       "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
@@ -249,6 +256,20 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
       "datetime": 1788898660,
       "headlineKo": "월스트리트 하락, 인플레이션 우려 속에 유가 급등, 중동 - Reuters"
+    },
+    {
+      "headline": "Huawei heads to trial in US over its business dealings in Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYnZfcVJUeEZKOFpSTE5oQk9WTU1GWE5fc1U2R1g3NGFuOGdnNnZfT29tOU4xbmFISzhvd2paSmIyb2Y1V05nTFRjTl9xejZrUGdoSTJHS3prREdOOVlSbkl2UkxFQlk3NFRvM3J6YUdBdklRZ2RmZ3gzVUd2NXFsN01PcUFTXzZmSU1SQ3NUakdWc1MxU2V5N0RGMzd1ejFydDNnR2ptdUlYZw?oc=5",
+      "datetime": 1788897616,
+      "headlineKo": "화웨이, 이란과의 사업 거래로 미국에서 재판 예정 - 로이터"
+    },
+    {
+      "headline": "Air traffic control issue disrupts flights at major UK airports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjFUM1NiblY2enh0S3E5UEZUV0hXby1vNTM3T2twdTVlSEtZeDAyclZmR2dNWHlJdXpDUzVVWXRkWWRLUTZ2WnNYazlQSHRpSU5icjEtZXR0T3A4MW8ySjZCY1ZkNlZ4TGdWOVdseWZ2cXZ4V0lPWjFTV2JlUnVIQnZ0cHdCa3Z6Q05zZHlpUXZuM0dSQU9YV0RyWVF5dnkyRGF2NFczVktWM0lvUHF0dUgwc2ZlZ19VS0E?oc=5",
+      "datetime": 1788896737,
+      "headlineKo": "항공 교통 통제 문제로 영국 주요 공항의 항공편이 중단되었습니다 - Reuters"
     },
     {
       "headline": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions - Reuters",
@@ -272,11 +293,11 @@ const MARKET_DATA = {
       "headlineKo": "누군가 당신에게 어려운 질문을 하면 Gloria Steinem의 강력한 트릭을 사용하여 그들의 '불공정한 프레이밍'을 거부하라고 전문가는 말합니다."
     },
     {
-      "headline": "EasyJet faces $72 million lawsuit over stranded Airbus planes, FT reports - reuters.com",
+      "headline": "EasyJet faces $72 million lawsuit over stranded Airbus planes, FT reports - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPXy1wYzNrampYR09qMHpOcUl0ZGJ1TU1JWHdWMkZRU2Nnd0ZHczRPNmlKRjhrN093MlFyRmVjby13SHZHYVBpMENvVUd6eVA0Q1FyU0dXRFNMX1JYU28tUUFqdHhyLUMtZElBNWItUzFZZWdwNXdjaXY2RzVOY3U3R3JfQ3ZtZXZoMnpTU091V1hhb2JuLW9VTVZ6d3FSM0dobXpFZktpT2d4bHczbzVjdVBOdmFiQ0xqNjhuZC1jS3gwbUpGYjNLaElFbFJBM0U?oc=5",
       "datetime": 1788888242,
-      "headlineKo": "이지젯, 좌초된 에어버스 비행기와 관련해 7,200만 달러 규모의 소송에 직면했다고 FT 보고서 - reuters.com"
+      "headlineKo": "EasyJet, 발이 묶인 에어버스 비행기와 관련해 7,200만 달러 규모의 소송에 직면했다고 FT 보고서 - Reuters"
     },
     {
       "headline": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains",
@@ -298,37 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/08/cramer-says-these-2-stocks-are-big-winners-from-openais-new-model-release-.html",
       "datetime": 1788885702,
       "headlineKo": "Cramer는 이 두 주식이 OpenAI의 새로운 모델 출시에서 큰 승리를 거두었다고 말합니다."
-    },
-    {
-      "headline": "UK publishes legislation for tougher sanctions on Iran over nuclear programme - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHhqMGdpaWtLcy1Pb3ExcFhZSmd4MUtieGtkb0tiLUtpeWhGZVNwRVJOR2FSTnBCLWFVSDdRSUpaS083WHNWZUk2ZDQ4SU1sSG9UNDFIYW9wSk5RUW1PRlhud3plZFdUdjBPeVRPRDVGWm5RYzh1d05lRnltVmNneXBNbkpUaFZwRzJaX0dvYWxSY1V1bkFibzcyRFkzWDBPV1U1ZDZ2blB1NkZObUZJ?oc=5",
-      "datetime": 1788884687,
-      "headlineKo": "영국, 이란 핵 프로그램에 대한 보다 강력한 제재 법안 발표 - 로이터"
-    },
-    {
-      "headline": "25 years after 9/11, Americans fear domestic extremists more than foreign attacks, Reuters/Ipsos poll finds - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU0JwamE0MHdKdGs4ektXZm9NMlpXUXVsVG42aTdQVFA5YTZZam9qc1d2ZzNFRVZnMkQyazNjdkJQb181dHNsVjFaRFg4OURFNVZyMUs0Sy1NVjROT2prU0l3a3gxQnJuRzVuYWpJVTM4N1BvT1dzR253RTByTXJxQVZTd1E2UFZ1anNzN2xYN201cGphd3JRNFNiblBaZVhHcjlyREt2eWZmYU5ZMXI4TUZUWHlPaldBMlE2bHlZVmRWdw?oc=5",
-      "datetime": 1788882943,
-      "headlineKo": "9/11 테러 이후 25년, 미국인들은 외국의 공격보다 국내 극단주의를 더 두려워한다고 로이터/입소스 여론조사 결과 - Reuters"
-    },
-    {
-      "headline": "Boeing August deliveries dip as 787 handovers fall - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbl9KQ1A0bVppSEcwNE1TWlNPN1BZN3BlU19QU3lZc1RGUDBRZHRNMFZwTlgyOVR1SjNuMlY3RFFiaTZ2bWxYZkViSmdXYTQxb0lDR2pmdXJLNjAyTGtTdnFJYmg1Vk5QdUt2M0FhRnMwbWVSazVmRUlQdzMyU3J3ZW1ybjR5bHhZVVl4RGcyWXZpS0hxSkIwWTJkankwcktMYUtKNGZneVQtWTV4OHhJ?oc=5",
-      "datetime": 1788879946,
-      "headlineKo": "보잉 787기 인수 감소로 8월 인도량 감소 - Reuters"
     }
   ],
   "fgi": {
     "score": 40.8,
     "rating": "fear"
   },
-  "_fetched_at": 1788901262.9787753,
-  "_updated_label": "2026-09-09 06:01",
-  "_last_attempt_at": 1788901262.9787753,
-  "_last_success_at": 1788901262.9787753,
+  "_fetched_at": 1788904831.5892293,
+  "_updated_label": "2026-09-09 07:01",
+  "_last_attempt_at": 1788904831.5892293,
+  "_last_success_at": 1788904831.5892293,
   "_collection_status": "ok",
   "_collection_errors": []
 };
