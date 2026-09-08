@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.91000366210938,
+      "current": 93.01000213623047,
       "prevClose": 91.4800033569336,
-      "changeAbs": 1.4300003051757812,
-      "changePct": 1.5631834856807498,
-      "pctRank": 86.80445151033386,
+      "changeAbs": 1.529998779296875,
+      "changePct": 1.6724953248276317,
+      "pctRank": 86.87350835322196,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.742358413091296,
-      "ma20": 85.97450103759766,
-      "ma60": 80.43516693115234,
-      "chg1m": 14.730003356933594,
-      "chg3m": 1.6100006103515625,
-      "chg1mPct": 18.841140060674082,
-      "chg3mPct": 1.7634179151547846,
+      "drawdown1y": -17.653825011742985,
+      "ma20": 85.97950096130371,
+      "ma60": 80.4368335723877,
+      "chg1m": 14.830001831054688,
+      "chg3m": 1.7099990844726562,
+      "chg1mPct": 18.969048059818043,
+      "chg3mPct": 1.8729452654051508,
       "lastDate": "2026-09-08",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 99.1760025024414,
+      "current": 98.81900024414062,
       "prevClose": 99.16000366210938,
-      "changeAbs": 0.01599884033203125,
-      "changePct": 0.01613436843603573,
-      "pctRank": 27.90143084260731,
+      "changeAbs": -0.34100341796875,
+      "changePct": -0.3438920990067015,
+      "pctRank": 23.707239459029434,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.395431643824031,
-      "ma20": 99.36130027770996,
-      "ma60": 100.27076695760091,
-      "chg1m": -0.4239959716796875,
-      "chg3m": -0.8740005493164062,
-      "chg1mPct": -0.4256987732684089,
-      "chg3mPct": -0.8735637407869632,
+      "drawdown1y": -2.7467772359471954,
+      "ma20": 99.34345016479492,
+      "ma60": 100.26481691996257,
+      "chg1m": -0.7809982299804688,
+      "chg3m": -1.2310028076171875,
+      "chg1mPct": -0.7841347810696947,
+      "chg3mPct": -1.2303875762805982,
       "lastDate": "2026-09-08",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4477.89990234375,
+      "current": 4481.5,
       "prevClose": 4429.7998046875,
-      "changeAbs": 48.10009765625,
-      "changePct": 1.0858300550140374,
-      "pctRank": 91.41494435612083,
+      "changeAbs": 51.7001953125,
+      "changePct": 1.167100040453119,
+      "pctRank": 91.56722354813047,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.803625440606728,
-      "ma20": 4472.959985351563,
-      "ma60": 4236.943330891927,
-      "chg1m": 137.19970703125,
-      "chg3m": 142.0,
-      "chg1mPct": 3.1607736277066834,
-      "chg3mPct": 3.2749833528961907,
+      "drawdown1y": -15.735934072481816,
+      "ma20": 4473.139990234375,
+      "ma60": 4237.003332519531,
+      "chg1m": 140.7998046875,
+      "chg3m": 145.60009765625,
+      "chg1mPct": 3.243711805748505,
+      "chg3mPct": 3.3580133521428057,
       "lastDate": "2026-09-08",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -219,6 +219,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudi-led coalition in Yemen says 73 injured in Houthi attacks on the kingdom - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXB6MGlpMW50OElMY1FiZ2hXYlNmbmI0ZG8xT2RLc0FOWG9IazNMVDdfdTdILUJINFYweFF5VFFOQldXU3k2T0NSekpIOVhyT050UXR3TzRGTEk4TGlnLVhJQ2s2LWRmamNyRGwyT3ZyU1gwQVlSYU5hQ3hBUHo2bTBwckJNQXlqSTQySzhhUV9WR0laNjZJVEktLXpiMF93N3hrYmRRejBXRFlPVmNrTTJJZ0w1NlhITEE?oc=5",
+      "datetime": 1788841140,
+      "headlineKo": "예멘에서 사우디 주도 연합군은 왕국에 대한 후티 공격으로 73명이 부상했다고 밝혔습니다."
+    },
+    {
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788839040,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
+      "headline": "Gold gains as dollar eases with US inflation data on radar - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZVFOMG93MEp4ZjJ0VUtRcWQxVTRKYTJOb3RwbTZpMnNyZlJ5eFdCRGhNTXF4b2MyRGpXWTh0T1N1d28tUGRfSW80bmFNT1RNelFYMTlLU2ctZEZpYmsyNjZRb2ROTnVqMkVuX2Z3UU12UDlCV2cxSmd1MzR2dktuNUtOR3ZXdjR2YnAyUlJDYjFtWmwybURmNEdLMHk3SFBQNVE?oc=5",
+      "datetime": 1788834480,
+      "headlineKo": "레이더에 대한 미국 인플레이션 데이터로 달러가 완화되면서 금 상승 - Reuters"
+    },
+    {
+      "headline": "Indian shares on track for muted open as oil climbs on rising Mideast risks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcTlsdDdCYlVfZ1VEeEUxRlczcDRrYkVhc2pQclVYTmpod3hUWmRWa01RbkhIVlQ1LXhVN3VZYW5ZWldxODFFSXU1NGhCV3NIczRnOXFrVFQ1dk5CbDV4c3FPMDFWN2hheGpzYVQ2c1dqeFE3LWtCX3o2ZldLR3lqcm1SLTczWXBFSXVNcFl3WkdQUzZxemsxaThrUmNXdlhsMFEzLXdleUgyaWdOd29n?oc=5",
+      "datetime": 1788833700,
+      "headlineKo": "증가하는 중동 위험으로 인해 석유 가격이 상승함에 따라 인도 주식은 소폭 공개될 예정입니다 - Reuters"
+    },
+    {
       "headline": "Explainer: Why isn't oil above $100 despite supply disruptions? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
@@ -226,11 +254,11 @@ const MARKET_DATA = {
       "headlineKo": "설명: 공급 중단에도 불구하고 유가가 100달러를 넘지 못하는 이유는 무엇입니까? - 로이터"
     },
     {
-      "headline": "Iran says it plans new Gulf 'exclusion zone', threatens US with new missiles - Reuters",
+      "headline": "Iran threatens US with new 'economic warfare' and missiles as Houthis attack Saudi Arabia - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "datetime": 1788832140,
-      "headlineKo": "이란, 걸프 지역에 새로운 '차단 구역' 계획 발표, 신형 미사일로 미국 위협 - 로이터"
+      "headlineKo": "이란, 후티 반군이 사우디아라비아 공격하자 새로운 '경제전'과 미사일로 미국 위협 - 로이터 통신"
     },
     {
       "headline": "Asia stocks waver as yen surges, Iran warns of retaliation - Reuters",
@@ -254,11 +282,11 @@ const MARKET_DATA = {
       "headlineKo": "엔화는 7개월 최고치까지 상승세를 이어갔습니다. CPI 앞두고 달러 하락세 - Reuters"
     },
     {
-      "headline": "Oil rises as risks of prolonged Mideast conflict heighten supply worries - Reuters",
+      "headline": "Oil rises as risks of prolonged Mideast conflict fan supply worries - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
       "datetime": 1788828600,
-      "headlineKo": "중동 갈등 장기화 위험으로 공급 우려 커져 유가 상승 - Reuters"
+      "headlineKo": "중동 분쟁 팬 공급 우려 장기화 위험으로 유가 상승 - Reuters"
     },
     {
       "headline": "Ukraine's prosecutor general submits resignation citing political conflict - Reuters",
@@ -273,44 +301,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/07/here-are-the-3-big-things-were-watching-in-this-holiday-shortened-trading-week.html",
       "datetime": 1788823885,
       "headlineKo": "이번 휴일 단축 거래 주간에 우리가 주목하는 3가지 주요 사항은 다음과 같습니다."
-    },
-    {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788822041,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
-    },
-    {
-      "headline": "Investigators recover black boxes from cargo plane crash in Miami - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVZXcnY2Ym5SNExDY0RsNmlYeV9qcVRrVGNNajFfQ0pkd3k5ZmZicVBfOUZQTjdjV0d0Z29LT2FnYnByR1RyVGxHTkhOX1lUWjJGd3dOQ210Vlo5UV93WlgySTg4TTgzX3VYcnZlQ3dHU2ZHX00teG84eUFOc3RGUDdOdUo4NzEtdjZqLUwzMHhnWmY5aHhTelJCQlVrbXJ5UmFGelVjcG5xdkJwV01TWUV1cFkyd3E3ZzVjQi1uRUdDOHVzekM4?oc=5",
-      "datetime": 1788820353,
-      "headlineKo": "수사관들이 마이애미 화물기 추락 사고에서 블랙박스를 회수했다 - reuters.com"
-    },
-    {
-      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
-      "datetime": 1788801218,
-      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다고 유엔 전문가 \"로이터\""
-    },
-    {
-      "headline": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmxrUWIzN25kQzlJZVBjcy11SXlFeWJQZElmWi1ocVU1Qm94T2w3OXV4djNYd2JKTEE0QTFaeWVvQ2I4MmZZOEhwZVc2U1JmUEJTbXQ4SjdBb3lYNklqZDZJZ2s5MndibnlnMGw2YVJZWnB3R2MxWVNoWTlSSFlHNDFKdWd0STNGRFBselBtUDVrbGlsLUthbl9iQTFTMkFNYXhxUGJJWjJrT0oyNjFfRlJKNV9wWUE?oc=5",
-      "datetime": 1788801091,
-      "headlineKo": "다우닝 스트리트는 영국 번햄과 트럼프가 우크라이나-러시아 휴전을 위한 노력을 논의했다고 다우닝 스트리트가 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788838693.8228402,
-  "_updated_label": "2026-09-08 12:38",
-  "_last_attempt_at": 1788838693.8228402,
-  "_last_success_at": 1788838693.8228402,
+  "_fetched_at": 1788844426.9495757,
+  "_updated_label": "2026-09-08 14:14",
+  "_last_attempt_at": 1788844426.9495757,
+  "_last_success_at": 1788844426.9495757,
   "_collection_status": "ok",
   "_collection_errors": []
 };
