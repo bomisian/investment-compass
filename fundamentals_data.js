@@ -79,8 +79,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 70.25,
     "name": "Apple Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788829274.494976,
-    "_updated_label": "2026-09-08 10:01"
+    "_fetched_at": 1788901576.6021733,
+    "_updated_label": "2026-09-09 06:06"
   },
   "GOOGL": {
     "forwardPE": 19.28932,
@@ -196,8 +196,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.19,
     "name": "Amazon.com Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788829274.494976,
-    "_updated_label": "2026-09-08 10:01"
+    "_fetched_at": 1788901576.6021733,
+    "_updated_label": "2026-09-09 06:06"
   },
   "TSM": {
     "forwardPE": 21.36449,
@@ -878,8 +878,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 41.85,
     "name": "KLA Corp",
     "theme": "반도체 장비",
-    "_fetched_at": 1788829274.494976,
-    "_updated_label": "2026-09-08 10:01"
+    "_fetched_at": 1788901576.6021733,
+    "_updated_label": "2026-09-09 06:06"
   },
   "SNDK": {
     "forwardPE": 6.50255,
@@ -1129,8 +1129,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.690000000000001,
     "name": "Constellation Energy Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788829274.494976,
-    "_updated_label": "2026-09-08 10:01"
+    "_fetched_at": 1788901576.6021733,
+    "_updated_label": "2026-09-09 06:06"
   },
   "VST": {
     "forwardPE": 14.48324,
