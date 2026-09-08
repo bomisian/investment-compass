@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.729999542236328,
+      "current": 15.869999885559082,
       "prevClose": 15.300000190734863,
-      "changeAbs": 0.42999935150146484,
-      "changePct": 2.810453242751312,
-      "pctRank": 28.003182179793157,
+      "changeAbs": 0.5699996948242188,
+      "changePct": 3.7254881550223136,
+      "pctRank": 29.832935560859188,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.33977478665644,
-      "ma20": 15.114000034332275,
-      "ma60": 16.379499928156534,
-      "chg1m": 0.26999950408935547,
-      "chg3m": -4.14000129699707,
-      "chg1mPct": 1.7464392200720686,
-      "chg3mPct": -20.835435944333835,
+      "drawdown1y": -48.88888800159123,
+      "ma20": 15.121000051498413,
+      "ma60": 16.381833267211913,
+      "chg1m": 0.4099998474121094,
+      "chg3m": -4.000000953674316,
+      "chg1mPct": 2.6520041811154598,
+      "chg3mPct": -20.130854477752706,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.43000030517578,
+      "current": 94.2699966430664,
       "prevClose": 91.4800033569336,
-      "changeAbs": 2.9499969482421875,
-      "changePct": 3.2247451246060725,
-      "pctRank": 88.06682577565633,
+      "changeAbs": 2.7899932861328125,
+      "changePct": 3.0498395100040723,
+      "pctRank": 87.66905330151154,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.39663315046652,
-      "ma20": 86.05050086975098,
-      "ma60": 80.46050020853679,
-      "chg1m": 16.25,
-      "chg3m": 3.1299972534179688,
-      "chg1mPct": 20.78536702042478,
-      "chg3mPct": 3.428255365603415,
+      "drawdown1y": -16.538291996356257,
+      "ma20": 86.04250068664551,
+      "ma60": 80.45783348083496,
+      "chg1m": 16.089996337890625,
+      "chg3m": 2.9699935913085938,
+      "chg1mPct": 20.580706414790605,
+      "chg3mPct": 3.253004920081886,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.94200134277344,
+      "current": 98.9800033569336,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.2180023193359375,
-      "changePct": -0.21984904324810917,
-      "pctRank": 25.37788385043755,
+      "changeAbs": -0.18000030517578125,
+      "changePct": -0.18152510944749212,
+      "pctRank": 25.616547334924423,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.6257250777994012,
-      "ma20": 99.34960021972657,
-      "ma60": 100.26686693827311,
-      "chg1m": -0.6579971313476562,
-      "chg3m": -1.108001708984375,
-      "chg1mPct": -0.6606397002291345,
-      "chg3mPct": -1.1074479512121396,
+      "drawdown1y": -2.5883252018699787,
+      "ma20": 99.35150032043457,
+      "ma60": 100.26750030517579,
+      "chg1m": -0.6199951171875,
+      "chg3m": -1.0699996948242188,
+      "chg1mPct": -0.6224850669536831,
+      "chg3mPct": -1.0694649297218783,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4436.10009765625,
+      "current": 4440.89990234375,
       "prevClose": 4429.7998046875,
-      "changeAbs": 6.30029296875,
-      "changePct": 0.14222523018045177,
-      "pctRank": 90.77167859984088,
+      "changeAbs": 11.10009765625,
+      "changePct": 0.25057786233373713,
+      "pctRank": 90.9307875894988,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.589572444499368,
-      "ma20": 4470.8699951171875,
-      "ma60": 4236.246667480469,
-      "chg1m": 95.39990234375,
-      "chg3m": 100.2001953125,
-      "chg1mPct": 2.1977998491296837,
-      "chg3mPct": 2.3109434620097495,
+      "drawdown1y": -16.499323407653065,
+      "ma20": 4471.1099853515625,
+      "ma60": 4236.32666422526,
+      "chg1m": 100.19970703125,
+      "chg3m": 105.0,
+      "chg1mPct": 2.308376587248646,
+      "chg3mPct": 2.4216426200992958,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,18 +219,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Hormuz traffic slows after Iran threatens retaliation for US attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLVZqbU1CYlBIcWpOcEhmWWNHbk1PaUxMa1REWVpsUnpHcEgySUVnWDZ5cFJJbG9tZ1IyV1A1UXFocFEzQkRZVmNNWVNkVlEzZWc4TExyVnNvdWJ2Tjg3a0swQUlKbXo3VzlncDNqZ2w2MUJVLVpJRVBFcXdlR3lpSW5CMVZneGtYcG51MWJZSkpLZmhpSzlrLUNoUXFXTlhQSm8xS25kdEhKM1VOa2pFdV85dnBRNENqWXc?oc=5",
-      "datetime": 1788842609,
-      "headlineKo": "이란이 미국의 공격에 대한 보복 위협으로 호르무즈 교통 둔화 - 로이터 통신"
-    },
-    {
       "headline": "Houthi attacks disrupt Saudi energy facilities, wound 73, authorities say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXB6MGlpMW50OElMY1FiZ2hXYlNmbmI0ZG8xT2RLc0FOWG9IazNMVDdfdTdILUJINFYweFF5VFFOQldXU3k2T0NSekpIOVhyT050UXR3TzRGTEk4TGlnLVhJQ2s2LWRmamNyRGwyT3ZyU1gwQVlSYU5hQ3hBUHo2bTBwckJNQXlqSTQySzhhUV9WR0laNjZJVEktLXpiMF93N3hrYmRRejBXRFlPVmNrTTJJZ0w1NlhITEE?oc=5",
       "datetime": 1788841140,
       "headlineKo": "후티 반군 공격으로 사우디 에너지 시설 파괴, 73명 부상했다고 당국 발표 - 로이터 통신"
+    },
+    {
+      "headline": "Rupee slips as oil nears six-week high, RBI intervention limits losses - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
+      "datetime": 1788836160,
+      "headlineKo": "유가가 6주 최고치에 가까워지면서 루피 하락, RBI 개입으로 손실 제한 - Reuters"
+    },
+    {
+      "headline": "Hormuz traffic slows after Iran threatens retaliation for US attacks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPLVZqbU1CYlBIcWpOcEhmWWNHbk1PaUxMa1REWVpsUnpHcEgySUVnWDZ5cFJJbG9tZ1IyV1A1UXFocFEzQkRZVmNNWVNkVlEzZWc4TExyVnNvdWJ2Tjg3a0swQUlKbXo3VzlncDNqZ2w2MUJVLVpJRVBFcXdlR3lpSW5CMVZneGtYcG51MWJZSkpLZmhpSzlrLUNoUXFXTlhQSm8xS25kdEhKM1VOa2pFdV85dnBRNENqWXc?oc=5",
+      "datetime": 1788835980,
+      "headlineKo": "이란이 미국의 공격에 대한 보복 위협으로 호르무즈 교통 둔화 - 로이터 통신"
     },
     {
       "headline": "Gold ticks up with US inflation data on radar - Reuters",
@@ -254,11 +261,11 @@ const MARKET_DATA = {
       "headlineKo": "공급 중단에도 불구하고 유가가 100달러를 넘지 못하는 이유는 무엇입니까? - 로이터"
     },
     {
-      "headline": "Iran threatens US with new 'economic warfare' and missiles as Houthis attack Saudi Arabia - Reuters",
+      "headline": "Iran-backed Houthis attack Saudi energy facilities, wounding dozens and sending oil prices higher - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "datetime": 1788832140,
-      "headlineKo": "이란, 후티 반군이 사우디아라비아 공격하자 새로운 '경제전'과 미사일로 미국 위협 - 로이터 통신"
+      "headlineKo": "이란의 지원을 받는 후티 반군이 사우디 에너지 시설을 공격해 수십 명이 부상을 입고 유가가 상승했습니다."
     },
     {
       "headline": "Asia stocks fall as yen surges, Iran warns US of retaliation - Reuters",
@@ -282,11 +289,11 @@ const MARKET_DATA = {
       "headlineKo": "엔화는 7개월 최고치까지 상승세를 이어갔습니다. CPI 앞두고 달러 하락세 - Reuters"
     },
     {
-      "headline": "Oil rises as risks of prolonged Mideast conflict fan supply worries - Reuters",
+      "headline": "Oil hits multi-week highs after Houthi attacks on Saudi energy facilities - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
       "datetime": 1788828600,
-      "headlineKo": "중동 분쟁 팬 공급 우려 장기화 위험으로 유가 상승 - Reuters"
+      "headlineKo": "후티 반군이 사우디 에너지 시설을 공격한 후 유가가 수주 최고치 기록 - Reuters"
     },
     {
       "headline": "Ukraine's prosecutor general submits resignation citing political conflict - Reuters",
@@ -294,23 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTHBvazNzS2NpNDU5WnFEcUZieHZrb2NNQ0s5VExqNmZHYkxkMEhTRVhIUlU3OGpnajl0bXVIdmFCUzJCM3JhOVdXYTNMZFBEOXlmNGNOU1FwOE90b0pDbndLa2ZXSG9Ua0FhTFdXRkhDM2xodXdYNzROYWZQMFpBeGFoUWd3MEQ4MklYQlpTbUhJbFItV2ROdG9zSU5xaHo0YjBTcnB1djFuaFRsUm91X2p0c2dZak5NYW82dURwSUZLbXAzVlVVam9vY0ZsMTFGbUE?oc=5",
       "datetime": 1788826440,
       "headlineKo": "우크라이나 검찰총장, 정치적 갈등 이유로 사임 제출 - 로이터"
-    },
-    {
-      "headline": "Here are the 3 big things we're watching in this holiday-shortened trading week",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/here-are-the-3-big-things-were-watching-in-this-holiday-shortened-trading-week.html",
-      "datetime": 1788823885,
-      "headlineKo": "이번 휴일 단축 거래 주간에 우리가 주목하는 3가지 주요 사항은 다음과 같습니다."
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788855748.045015,
-  "_updated_label": "2026-09-08 17:22",
-  "_last_attempt_at": 1788855748.045015,
-  "_last_success_at": 1788855748.045015,
+  "_fetched_at": 1788859452.6599598,
+  "_updated_label": "2026-09-08 18:24",
+  "_last_attempt_at": 1788859452.6599598,
+  "_last_success_at": 1788859452.6599598,
   "_collection_status": "ok",
   "_collection_errors": []
 };
