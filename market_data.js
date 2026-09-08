@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.600000381469727,
+      "current": 15.770000457763672,
       "prevClose": 15.300000190734863,
-      "changeAbs": 0.3000001907348633,
-      "changePct": 1.9607855359147823,
-      "pctRank": 26.889419252187746,
+      "changeAbs": 0.4700002670288086,
+      "changePct": 3.071897131827646,
+      "pctRank": 28.162291169451077,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -49.75845164321314,
-      "ma20": 15.107500076293945,
-      "ma60": 16.377333275477092,
-      "chg1m": 0.1400003433227539,
-      "chg3m": -4.270000457763672,
-      "chg1mPct": 0.9055649610433912,
-      "chg3mPct": -21.489684335254474,
+      "drawdown1y": -49.210947358282155,
+      "ma20": 15.116000080108643,
+      "ma60": 16.38016661008199,
+      "chg1m": 0.3100004196166992,
+      "chg3m": -4.100000381469727,
+      "chg1mPct": 2.005177353504429,
+      "chg3mPct": -20.634122839966164,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.05999755859375,
+      "current": 93.80000305175781,
       "prevClose": 91.4800033569336,
-      "changeAbs": 2.5799942016601562,
-      "changePct": 2.820282145807999,
-      "pctRank": 87.66905330151154,
+      "changeAbs": 2.3199996948242188,
+      "changePct": 2.536073032017852,
+      "pctRank": 87.50994431185362,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.72421416558738,
-      "ma20": 86.03200073242188,
-      "ma60": 80.45433349609375,
-      "chg1m": 15.879997253417969,
-      "chg3m": 2.7599945068359375,
-      "chg1mPct": 20.31209668896184,
-      "chg3mPct": 3.0229949776357636,
+      "drawdown1y": -16.95439965815989,
+      "ma20": 86.01900100708008,
+      "ma60": 80.45000025431315,
+      "chg1m": 15.620002746582031,
+      "chg3m": 2.5,
+      "chg1mPct": 19.9795378429385,
+      "chg3mPct": 2.7382255382650476,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.95899963378906,
+      "current": 98.97200012207031,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.2010040283203125,
-      "changePct": -0.20270675766132445,
-      "pctRank": 25.53699284009546,
+      "changeAbs": -0.1880035400390625,
+      "changePct": -0.18959614067753575,
+      "pctRank": 25.616547334924423,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.608996123057228,
-      "ma20": 99.35045013427734,
-      "ma60": 100.26715024312337,
-      "chg1m": -0.6409988403320312,
-      "chg3m": -1.09100341796875,
-      "chg1mPct": -0.6435731427230704,
-      "chg3mPct": -1.0904581556128017,
+      "drawdown1y": -2.5962016262526255,
+      "ma20": 99.35110015869141,
+      "ma60": 100.26736691792806,
+      "chg1m": -0.6279983520507812,
+      "chg3m": -1.0780029296875,
+      "chg1mPct": -0.6305204434455419,
+      "chg3mPct": -1.0774641647235415,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4442.39990234375,
+      "current": 4445.60009765625,
       "prevClose": 4429.7998046875,
-      "changeAbs": 12.60009765625,
-      "changePct": 0.2844394377126682,
-      "pctRank": 90.9307875894988,
+      "changeAbs": 15.80029296875,
+      "changePct": 0.3566818742470153,
+      "pctRank": 91.01034208432776,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.471119436016046,
-      "ma20": 4471.184985351562,
-      "ma60": 4236.351664225261,
-      "chg1m": 101.69970703125,
-      "chg3m": 106.5,
-      "chg1mPct": 2.3429332240239717,
-      "chg3mPct": 2.456237514672143,
+      "drawdown1y": -16.410947290798283,
+      "ma20": 4471.344995117188,
+      "ma60": 4236.405000813802,
+      "chg1m": 104.89990234375,
+      "chg3m": 109.7001953125,
+      "chg1mPct": 2.416658548706747,
+      "chg3mPct": 2.5300444609711144,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "GC=F",
@@ -219,6 +219,27 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Australia to let social media users 'opt out' of algorithm-based feeds in fresh blow to big tech",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/australia-social-media-algorithm-opt-out.html",
+      "datetime": 1788865917,
+      "headlineKo": "호주, 소셜 미디어 사용자가 알고리즘 기반 피드를 '옵트아웃' 하여 빅 테크에 새로운 타격을 입히도록 허용"
+    },
+    {
+      "headline": "Huawei heads to trial in US over its business dealings in Iran - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYnZfcVJUeEZKOFpSTE5oQk9WTU1GWE5fc1U2R1g3NGFuOGdnNnZfT29tOU4xbmFISzhvd2paSmIyb2Y1V05nTFRjTl9xejZrUGdoSTJHS3prREdOOVlSbkl2UkxFQlk3NFRvM3J6YUdBdklRZ2RmZ3gzVUd2NXFsN01PcUFTXzZmSU1SQ3NUakdWc1MxU2V5N0RGMzd1ejFydDNnR2ptdUlYZw?oc=5",
+      "datetime": 1788862719,
+      "headlineKo": "화웨이가 이란에서의 사업 거래를 놓고 미국에서 재판을 받다 - 로이터"
+    },
+    {
+      "headline": "Oil hits multi-week highs after Houthi attacks on Saudi energy facilities - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
+      "datetime": 1788861970,
+      "headlineKo": "후티 반군이 사우디 에너지 시설을 공격한 후 유가가 수주 최고치 기록 - Reuters"
+    },
+    {
       "headline": "Houthi attacks disrupt Saudi energy facilities, wound 73, authorities say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbXB6MGlpMW50OElMY1FiZ2hXYlNmbmI0ZG8xT2RLc0FOWG9IazNMVDdfdTdILUJINFYweFF5VFFOQldXU3k2T0NSekpIOVhyT050UXR3TzRGTEk4TGlnLVhJQ2s2LWRmamNyRGwyT3ZyU1gwQVlSYU5hQ3hBUHo2bTBwckJNQXlqSTQySzhhUV9WR0laNjZJVEktLXpiMF93N3hrYmRRejBXRFlPVmNrTTJJZ0w1NlhITEE?oc=5",
@@ -226,11 +247,11 @@ const MARKET_DATA = {
       "headlineKo": "후티 반군 공격으로 사우디 에너지 시설 파괴, 73명 부상했다고 당국 발표 - 로이터 통신"
     },
     {
-      "headline": "Rupee slips as oil nears six-week high, RBI intervention limits losses - Reuters",
+      "headline": "Rupee endures sharpest fall in over a month as Brent oil barrels towards $100 - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa05iLVFENGVBNnNsMDFGeFJfdFJOVXVGRFU5LUw1UUtLLXYzZ2gzZjBwaHkzZDN1SFRjNElJQnVvek9LOVpISW02UHpTRkk5ektMbXFYQ1VCTHI0QkRFY0kzSmtNZG52cTVpSjdEb3F1VlJ6RHI1YnVzNmMtZWNwSnA4ZTBtVlAwWXo0RG52dnQ4X0tQVVdrakpNS3UyeWhSZHJpLWVIR1NZdlAtaUpQMTA1MlU5NDVoNGk0RTBlVE8?oc=5",
       "datetime": 1788836160,
-      "headlineKo": "유가가 6주 최고치에 가까워지면서 루피 하락, RBI 개입으로 손실 제한 - Reuters"
+      "headlineKo": "Rupee는 Brent 석유 배럴이 $ 100를 향해 가면서 한 달 넘게 가장 급격한 하락을 견뎌냅니다. - Reuters"
     },
     {
       "headline": "Hormuz traffic slows after Iran threatens retaliation for US attacks - Reuters",
@@ -261,11 +282,11 @@ const MARKET_DATA = {
       "headlineKo": "공급 중단에도 불구하고 유가가 100달러를 넘지 못하는 이유는 무엇입니까? - 로이터"
     },
     {
-      "headline": "Iran-backed Houthis attack Saudi energy facilities, wounding dozens and sending oil prices higher - Reuters",
+      "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "datetime": 1788832140,
-      "headlineKo": "이란의 지원을 받는 후티 반군이 사우디 에너지 시설을 공격해 수십 명이 부상을 입고 유가가 상승했습니다."
+      "headlineKo": "이란의 지원을 받는 후티족이 사우디 4개 도시를 공격해 중동 전쟁이 확대되고 73명의 부상자가 발생했습니다. - 로이터"
     },
     {
       "headline": "Stocks fall as yen surges; Gulf attacks drive oil near $100 a barrel - Reuters",
@@ -280,37 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTEl5UFVvaWZBUmFEZkVObFBBRVk3MHRBV29pSnoxSDJXSFVxUTl0SGR6NjdlamEyWUF5WF9LQW5nWVFRUTZhTnRjalplVWVEc3NPTEk4NllZR1B6VWVJbE1UaDlPLUFycVpRenZNRWRnUGlvREIyNy1kLUYyVTl0WU9IaG91MlV2dFpfYnpUNk1idFVMbmI0T2pmWHRWalY3UHRvMU1aazJhejh2eGJnS1pqUXpnNWdXY2k4THEzdV82OURFWjFz?oc=5",
       "datetime": 1788831600,
       "headlineKo": "Nvidia가 지원하는 Firmus, 말레이시아 데이터 센터 용량을 위해 OpenAI와 계약 체결 - Reuters"
-    },
-    {
-      "headline": "Yen's rally to seven-month high weighs on dollar ahead of US CPI - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
-      "datetime": 1788828960,
-      "headlineKo": "엔화가 7개월 만에 최고치를 기록하며 미국 CPI를 앞지르는 달러에 부담 - Reuters"
-    },
-    {
-      "headline": "Oil hits multi-week highs after Houthi attacks on Saudi energy facilities - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
-      "datetime": 1788828600,
-      "headlineKo": "후티 반군이 사우디 에너지 시설을 공격한 후 유가가 수주 최고치 기록 - Reuters"
-    },
-    {
-      "headline": "Ukraine's prosecutor general submits resignation citing political conflict - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTHBvazNzS2NpNDU5WnFEcUZieHZrb2NNQ0s5VExqNmZHYkxkMEhTRVhIUlU3OGpnajl0bXVIdmFCUzJCM3JhOVdXYTNMZFBEOXlmNGNOU1FwOE90b0pDbndLa2ZXSG9Ua0FhTFdXRkhDM2xodXdYNzROYWZQMFpBeGFoUWd3MEQ4MklYQlpTbUhJbFItV2ROdG9zSU5xaHo0YjBTcnB1djFuaFRsUm91X2p0c2dZak5NYW82dURwSUZLbXAzVlVVam9vY0ZsMTFGbUE?oc=5",
-      "datetime": 1788826440,
-      "headlineKo": "우크라이나 검찰총장, 정치적 갈등 이유로 사임 제출 - 로이터"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788863261.8842425,
-  "_updated_label": "2026-09-08 19:28",
-  "_last_attempt_at": 1788863261.8842425,
-  "_last_success_at": 1788863261.8842425,
+  "_fetched_at": 1788867284.6551218,
+  "_updated_label": "2026-09-08 20:35",
+  "_last_attempt_at": 1788867284.6551218,
+  "_last_success_at": 1788867284.6551218,
   "_collection_status": "ok",
   "_collection_errors": []
 };
