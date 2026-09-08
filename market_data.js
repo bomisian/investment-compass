@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.52999877929688,
+      "current": 92.44000244140625,
       "prevClose": 91.4800033569336,
-      "changeAbs": 1.0499954223632812,
-      "changePct": 1.1477868209803672,
-      "pctRank": 86.56597774244833,
+      "changeAbs": 0.9599990844726562,
+      "changePct": 1.0494086677357939,
+      "pctRank": 86.48648648648648,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.078794794746656,
-      "ma20": 85.95550079345703,
-      "ma60": 80.4288335164388,
-      "chg1m": 14.349998474121094,
-      "chg3m": 1.2299957275390625,
-      "chg1mPct": 18.35507600167031,
-      "chg3mPct": 1.3472022852417431,
+      "drawdown1y": -18.158472829560466,
+      "ma20": 85.9510009765625,
+      "ma60": 80.42733357747396,
+      "chg1m": 14.260002136230469,
+      "chg3m": 1.1399993896484375,
+      "chg1mPct": 18.239961730067183,
+      "chg3mPct": 1.2486301769367671,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4474.0,
+      "current": 4480.60009765625,
       "prevClose": 4429.7998046875,
-      "changeAbs": 44.2001953125,
-      "changePct": 0.9977921635584636,
-      "pctRank": 91.25596184419715,
+      "changeAbs": 50.80029296875,
+      "changePct": 1.1467852997554076,
+      "pctRank": 91.49443561208267,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.876953930666893,
-      "ma20": 4472.764990234375,
-      "ma60": 4236.878332519531,
-      "chg1m": 133.2998046875,
-      "chg3m": 138.10009765625,
-      "chg1mPct": 3.0709286218718765,
-      "chg3mPct": 3.1850388792785704,
+      "drawdown1y": -15.752854619267953,
+      "ma20": 4473.094995117188,
+      "ma60": 4236.988334147135,
+      "chg1m": 139.89990234375,
+      "chg3m": 144.7001953125,
+      "chg1mPct": 3.2229800734643503,
+      "chg3mPct": 3.3372586676708798,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,11 +219,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Ukraine's prosecutor general submits resignation citing political conflict - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTHBvazNzS2NpNDU5WnFEcUZieHZrb2NNQ0s5VExqNmZHYkxkMEhTRVhIUlU3OGpnajl0bXVIdmFCUzJCM3JhOVdXYTNMZFBEOXlmNGNOU1FwOE90b0pDbndLa2ZXSG9Ua0FhTFdXRkhDM2xodXdYNzROYWZQMFpBeGFoUWd3MEQ4MklYQlpTbUhJbFItV2ROdG9zSU5xaHo0YjBTcnB1djFuaFRsUm91X2p0c2dZak5NYW82dURwSUZLbXAzVlVVam9vY0ZsMTFGbUE?oc=5",
+      "datetime": 1788826440,
+      "headlineKo": "우크라이나 검찰총장, 정치적 갈등 이유로 사임 제출 - 로이터"
+    },
+    {
       "headline": "Here are the 3 big things we're watching in this holiday-shortened trading week",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/07/here-are-the-3-big-things-were-watching-in-this-holiday-shortened-trading-week.html",
       "datetime": 1788823885,
       "headlineKo": "이번 휴일 단축 거래 주간에 우리가 주목하는 3가지 주요 사항은 다음과 같습니다."
+    },
+    {
+      "headline": "Investigators recover black boxes from cargo plane crash in Miami - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVZXcnY2Ym5SNExDY0RsNmlYeV9qcVRrVGNNajFfQ0pkd3k5ZmZicVBfOUZQTjdjV0d0Z29LT2FnYnByR1RyVGxHTkhOX1lUWjJGd3dOQ210Vlo5UV93WlgySTg4TTgzX3VYcnZlQ3dHU2ZHX00teG84eUFOc3RGUDdOdUo4NzEtdjZqLUwzMHhnWmY5aHhTelJCQlVrbXJ5UmFGelVjcG5xdkJwV01TWUV1cFkyd3E3ZzVjQi1uRUdDOHVzekM4?oc=5",
+      "datetime": 1788820353,
+      "headlineKo": "수사관들이 마이애미 화물기 추락 사고에서 블랙박스를 회수했다 - 로이터 통신"
+    },
+    {
+      "headline": "Oil prices rise to six-week highs on worsening Middle East conflict - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
+      "datetime": 1788803823,
+      "headlineKo": "중동 갈등 악화로 유가 6주 최고치로 상승 - 로이터"
     },
     {
       "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
@@ -280,37 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
       "datetime": 1788780603,
       "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
-    },
-    {
-      "headline": "Oman says it evacuated 16 crew members of Saudi Sidr vessel attacked by Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSUp5ZGlTQWNQSDNtbzRnQzdZNTM4TXpLeFpjV1E3SElQRmxzSWVqRU5mODRJN0ZCTzdyaFZ2dW5GMEQxMVB6ZldNS2JOQzFpRk9KeGNMNFlZVnpMSDZ3MFJnRVByT0JCaEdyZHhONFRjTjgtVG8yeXVmQngxM2xSd3ZyeExZS0tZejN2QkhyQk44NTdlZTFscDZaTmF4Um41S3c4Q2tKaXkyMXFOa2JVTEZjdU9aSENuMV95Z2tFZnd4Yk5BQ1E?oc=5",
-      "datetime": 1788779042,
-      "headlineKo": "오만은 이란의 공격을 받은 사우디 시드르 선박의 선원 16명을 대피시켰다고 밝혔습니다."
-    },
-    {
-      "headline": "Iran warns US energy assets in Gulf are vulnerable after latest clashes - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM292TDh2Uk9IeUlEeFNFY1UyeFM3OFZzd2w1S013bEtmVnhXYmdfT0ptV1ZfTlRTRXBLVzFZdmZ6T0d2cVdkZHAtbmhFTjlHUmJRQkRVZDhwMGJZZUM2MEpBS041SmhGcEhWZTlQemFBcjRaNkwyWkhhUlNFc1dNZEVyQ1R0YzFnRm5ZNHd3VU5NV01EeWZVZjJrUW5VWGF2X2R1U0xzSFEwbE9iY1E?oc=5",
-      "datetime": 1788764220,
-      "headlineKo": "이란, 최근 충돌 이후 걸프 지역의 미국 에너지 자산이 취약하다고 경고 - 로이터"
-    },
-    {
-      "headline": "Israeli strikes on southern Lebanese town kill 12 as fears of escalation mount - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSDNtVzFxN3MtVEs4UWxoWnA0ekJKVC1EWThJR1hiQ2FvN1d2LU40NXRDaUJGMGRLeF9KaHY1R3dTSmdTRHhHdG9uNTIzZXRRRWVoWW43d0dxM3ZoSTNMM2xEQlhlV011OWlpSHdxTDlmWjl4MW9VQ1ktN3hqU3lEU3dnVUV3XzQzWGZjU3ZBNnNBQVhOek9OeHZ1WnFZb2RacWhmVXdiSGM5Q3FwbmFtcGN6OTJpZF9kNk5YWGladzg?oc=5",
-      "datetime": 1788763680,
-      "headlineKo": "이스라엘, 레바논 남부 마을 공습으로 12명 사망 - 확대 우려 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788827439.4624815,
-  "_updated_label": "2026-09-08 09:31",
-  "_last_attempt_at": 1788827439.4624815,
-  "_last_success_at": 1788827439.4624815,
+  "_fetched_at": 1788831214.0783634,
+  "_updated_label": "2026-09-08 10:34",
+  "_last_attempt_at": 1788831214.0783634,
+  "_last_success_at": 1788831214.0783634,
   "_collection_status": "ok",
   "_collection_errors": []
 };
