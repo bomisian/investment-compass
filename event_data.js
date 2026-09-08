@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788850147.6488752,
+  "generatedAt": 1788852006.6607187,
   "events": [
     {
       "id": "86d1ed9927bfcfaca691",
@@ -1634,12 +1634,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: 0.02%, 0.05%, 0.03%, 298 times, $2 billion, $1.29 billion, 22.4%, $715 million.",
+        "기사에서 언급된 규모: 0.18%, 0.01%, 0.44%, 0.10%, 298 times, $2 billion, $1.29 billion, 22.4%.",
         "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
       ],
       "marketInterpretation": [
@@ -4656,8 +4656,8 @@ const EVENT_DATA = {
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
@@ -4666,34 +4666,45 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
         "publishedAt": 1788642449,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Salesforce(CRM), 기업 고객 배포 전반에 걸쳐 Agentic AI 공간 확장"
+        "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
     },
     {
       "id": "2f10ef61d397fe350663",
@@ -5690,7 +5701,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10484,7 +10495,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
         "publishedAt": 1788525840,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13200,7 +13211,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
         "publishedAt": 1788471002,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14001,7 +14012,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b9227a9a994e2901b52f76042bd10a151327a8cf995c860e2928c33dbe3d37d",
         "publishedAt": 1788459000,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14511,7 +14522,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
         "publishedAt": 1788457440,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17300,7 +17311,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4ec1ab8cc0ee8abd772773470c0cd1a42dd51f6b430654f44a7d55f9b3445343",
         "publishedAt": 1788440400,
-        "collectedAt": 1788829310.1241848
+        "collectedAt": 1788851978.6012242
       },
       "confirmedFacts": [],
       "reportedClaims": [
