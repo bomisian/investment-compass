@@ -7352,7 +7352,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -13045,7 +13045,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
@@ -18670,7 +18670,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -18811,7 +18811,47 @@ const NEWS_DATA = {
         "relevance": 0.4,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정"
+        "headlineKo": "Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정",
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897664.2667615
+        }
       },
       {
         "headline": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
@@ -19122,7 +19162,47 @@ const NEWS_DATA = {
         "datetime": 1788859667,
         "headlineKo": "Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정",
         "relevance": 0.4,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "MSFT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 MSFT의 사업과 관련된 'Microsoft 지원 OpenAI, AI 에이전트가 외부 위키를 오용했음을 인정' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "MSFT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.4,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897664.2667615
+        }
       },
       {
         "headline": "Nvidia, Microsoft at Center of $7 Trillion AI Boom",
@@ -23627,9 +23707,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-09 04:31",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 133,
-      "removed": 1,
-      "updated": "2026-09-09 04:34"
+      "checked": 132,
+      "removed": 0,
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -29745,7 +29825,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -31816,7 +31896,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -37463,7 +37543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -42773,7 +42853,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 141,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -49155,7 +49235,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -55296,7 +55376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -59546,7 +59626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -62953,7 +63033,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -64954,7 +65034,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
@@ -67316,7 +67396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -70863,7 +70943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 89,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -75217,7 +75297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -75233,10 +75313,74 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+        "headline": "Before You Chase Salesforce’s Rally, Take a Closer Look at Its Latest Earnings Beat",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9",
-        "datetime": 1788818335,
+        "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
+        "datetime": 1788874662,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+            "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "34.33%",
+            "$259.23.",
+            "$5.90",
+            "$3.27,",
+            "80.36%",
+            "$2.6 billion",
+            "$2.53",
+            "$2.43"
+          ],
+          "sourceExcerpt": [
+            "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.",
+            "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
+          ],
+          "analysisUpdatedAt": 1788897672.043786
+        },
+        "headlineKo": "Salesforce의 랠리를 쫓기 전에 최신 수익 비트를 자세히 살펴보세요"
+      },
+      {
+        "headline": "Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d002a04852af38c0c1ed4e988add1c1c857b5a6c5fea34cec075e5508110d23f",
+        "datetime": 1788872760,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -75248,7 +75392,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+            "Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -75272,14 +75416,88 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874705.906423
+          "analysisUpdatedAt": 1788897674.1107652
         },
+        "headlineKo": "Salesforce 주식은 한 달 만에 34% 상승합니다. 이익을 보유할 시간인가요, 아니면 예약할 시간인가요?"
+      },
+      {
+        "headline": "Why Salesforce Stock Skyrocketed 40% Last Month",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
+        "datetime": 1788866400,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.81% ) 8월 주가가 급등했습니다.",
+            "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
+            "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2%, $5.90, $11.35 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%",
+            "$5.90",
+            "$11.35 billion",
+            "$3.27",
+            "$11.32 billion",
+            "11%",
+            "87%",
+            "$3.53 billion"
+          ],
+          "sourceExcerpt": [
+            "Why Salesforce Stock Skyrocketed 40% Last Month | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce ( CRM -3.81% ) stock surged in August.",
+            "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
+            "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
+          ],
+          "analysisUpdatedAt": 1788897678.0965884
+        },
+        "headlineKo": "지난 달 세일즈포스 주가가 40% 급등한 이유"
+      },
+      {
+        "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=89ee1437c35b1ea43ff04c0695734f1b0ef289bd07ced8822ca70a45052719c9",
+        "datetime": 1788818335,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "Palantir 주식, 8월 랠리 주도 - Nvidia, Salesforce 및 Super Micro Jump"
       },
       {
@@ -75290,24 +75508,38 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "Salesforce(NYSE:CRM), 고품질 복합 성장주 자격 획득"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "Before You Chase Salesforce’s Rally, Take a Closer Look at Its Latest Earnings Beat",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
+        "datetime": 1788874662,
+        "headlineKo": "Salesforce의 랠리를 쫓기 전에 최신 수익 비트를 자세히 살펴보세요",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "실적·수요 개선 가능성",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce (NYSE:CRM) Qualifies as a High-Quality Compound Growth Stock",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+            "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -75317,29 +75549,40 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce (NYSE:CRM) Qualifies as a High-Quality Compound Growth Stock' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874707.0109532
-        },
-        "headlineKo": "Salesforce(NYSE:CRM), 고품질 복합 성장주 자격 획득"
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "34.33%",
+            "$259.23.",
+            "$5.90",
+            "$3.27,",
+            "80.36%",
+            "$2.6 billion",
+            "$2.53",
+            "$2.43"
+          ],
+          "sourceExcerpt": [
+            "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.",
+            "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
+          ],
+          "analysisUpdatedAt": 1788897672.043786
+        }
       },
       {
-        "headline": "Docusign Is Opening Its AI Tools to Every Agent. What It Means for Salesforce",
+        "headline": "Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d6a2082b1b185d9e2d9a53f03155aa1f4793a136ba580c894904651cb350ea4c",
-        "datetime": 1788752247,
+        "url": "https://finnhub.io/api/news?id=d002a04852af38c0c1ed4e988add1c1c857b5a6c5fea34cec075e5508110d23f",
+        "datetime": 1788872760,
+        "headlineKo": "Salesforce 주식은 한 달 만에 34% 상승합니다. 이익을 보유할 시간인가요, 아니면 예약할 시간인가요?",
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -75348,7 +75591,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Docusign Is Opening Its AI Tools to Every Agent. What It Means for Salesforce",
+            "Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -75372,38 +75615,78 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Docusign Is Opening Its AI Tools to Every Agent. What It Means for Salesforce' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Stock Gains 34% in a Month: Time to Hold or Book Profits?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874709.1435702
-        },
-        "headlineKo": "Docusign은 모든 에이전트에게 AI 도구를 공개하고 있습니다. Salesforce에 미치는 영향"
+          "analysisUpdatedAt": 1788897674.1107652
+        }
       },
       {
-        "headline": "Salesforce (CRM)’s AI Numbers Just Gave Benioff His Swagger Back",
+        "headline": "Why Salesforce Stock Skyrocketed 40% Last Month",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2a555bec7a2a618a50c3ad6facef9730c61e677c2f2611a8613a63bd8db69d74",
-        "datetime": 1788731814,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce(CRM)의 AI 수치로 Benioff가 다시 자신감을 되찾았습니다."
-      },
-      {
-        "headline": "Salesforce Stock Has Surged as AI and Anthropic Bets Pay Off, But Technical Risks Remain",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=c591486ef9c92f8390e26bce86ab9508d7e942aa3d7432673180cda4a5f03eb3",
-        "datetime": 1788711626,
+        "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
+        "datetime": 1788866400,
+        "headlineKo": "지난 달 세일즈포스 주가가 40% 급등한 이유",
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI와 인류애적 베팅이 성과를 거두면서 Salesforce 주가가 급등했지만 기술적 위험은 여전히 ​​남아 있습니다."
-      }
-    ],
-    "newsHistory": [
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.81% ) 8월 주가가 급등했습니다.",
+            "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
+            "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 2%, $5.90, $11.35 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "2%",
+            "$5.90",
+            "$11.35 billion",
+            "$3.27",
+            "$11.32 billion",
+            "11%",
+            "87%",
+            "$3.53 billion"
+          ],
+          "sourceExcerpt": [
+            "Why Salesforce Stock Skyrocketed 40% Last Month | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce ( CRM -3.81% ) stock surged in August.",
+            "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
+            "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
+          ],
+          "analysisUpdatedAt": 1788897678.0965884
+        }
+      },
       {
         "headline": "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
         "source": "Yahoo",
@@ -78709,17 +78992,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788874701.3555996,
-    "_updated_label": "2026-09-08 22:38",
+    "_fetched_at": 1788897662.6523955,
+    "_updated_label": "2026-09-09 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 93,
+      "checked": 96,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
-    "_last_attempt_at": 1788874701.3555996,
+    "_last_attempt_at": 1788897662.6523955,
     "_earnings_status": "ok",
-    "_last_success_at": 1788874701.3555996,
+    "_last_success_at": 1788897662.6523955,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -83255,7 +83538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -85390,7 +85673,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -85406,6 +85689,180 @@ const NEWS_DATA = {
     },
     "news": [
       {
+        "headline": "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
+        "datetime": 1788888627,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+            "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $264.43, $257., 3.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "ARM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$264.43",
+            "$257.",
+            "3.17%",
+            "90%",
+            "$257.00",
+            "135.11%",
+            "89.7%",
+            "6.4%"
+          ],
+          "sourceExcerpt": [
+            "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.",
+            "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
+          ],
+          "analysisUpdatedAt": 1788897685.512472
+        },
+        "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다."
+      },
+      {
+        "headline": "Arm Extends AI Reach From Data Centers To Edge Devices",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1369554d73a9d1f3ad13f924ae23dce65c026596bbfed0c513b2501bfef28ada",
+        "datetime": 1788878465,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm Extends AI Reach From Data Centers To Edge Devices",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Extends AI Reach From Data Centers To Edge Devices' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897687.2407026
+        },
+        "headlineKo": "Arm, AI 범위를 데이터 센터에서 엣지 장치로 확장"
+      },
+      {
+        "headline": "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=649b29b871f468e0579b3903f7d79c2aac4d143b682d97b799d70ef12858c5e5",
+        "datetime": 1788878206,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897689.1314383
+        },
+        "headlineKo": "Arm CEO는 AI가 결국 암과 신약 발견을 해독할 수 있다고 말하지만 이것이 방해가 되는 요인이라고 말합니다."
+      },
+      {
+        "headline": "What's Going On With Arm Holdings Stock Tuesday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1c83fea0b958898e6a6f30deb00344225f86cc65ee2af3502e544d5fef3a8b11",
+        "datetime": 1788860429,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "화요일 Arm Holdings 주식에 무슨 일이 일어나고 있나요?"
+      },
+      {
         "headline": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
@@ -85413,201 +85870,180 @@ const NEWS_DATA = {
         "relevance": 0.75,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
-          "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "기사에서 언급된 규모: 0.07%, 0.02%, 0.17%, 0.14%, 298 times, $2 billion, $1.29 billion, 22.4%.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-          ],
-          "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-          ],
-          "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
-            }
-          ],
-          "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
-          ],
-          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.75,
-          "quality": "high",
-          "verifiedNumbers": [
-            "0.07%",
-            "0.02%",
-            "0.17%",
-            "0.14%",
-            "298 times",
-            "$2 billion",
-            "$1.29 billion",
-            "22.4%"
-          ],
-          "sourceExcerpt": [
-            "Arm Expands Into AI Accelerators With Samsung - But It's Not the Data Center Goldmine Investors Hope For - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.14% S&P 500 7,707.80 +0.07% Dow Jones 53,048.50 −0.02% Nasdaq 100 29,620.00 +0.17% Russell 2000 2,970.50 +0.",
-            "By Rich Duprey Published September 7, 2026, 12:24pm ET · 4 min read 𝕏 f ⧉ © genkur / iStock via Getty Images Arm Holdings ( NASDAQ:ARM | ARM Price Prediction ) is pushing deeper into AI silicon through a new collaboration with Samsung on a "
-          ],
-          "analysisUpdatedAt": 1788874713.3125463
-        },
         "headlineKo": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님"
-      },
-      {
-        "headline": "Rising CPU Demand Positions Arm Holdings (ARM) for Gains",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=88da3b49a3b116b01a7abe571ae17ea786c88d06ec25454af8b4e1520bca21cd",
-        "datetime": 1788786552,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Rising CPU Demand Positions Arm Holdings (ARM) for Gains",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ARM의 사업과 관련된 'Rising CPU Demand Positions Arm Holdings (ARM) for Gains' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874715.381214
-        },
-        "headlineKo": "증가하는 CPU 수요로 인해 Arm Holdings(ARM)가 이익을 얻게 됩니다."
-      },
-      {
-        "headline": "Nvidia Sold Every Arm Share, but Its Vera CPU Still Uses Arm. Is That Really a Contradiction?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3d33868b9580f02f910669377a5eab29757afe0baf10450f44b01dcee35e104f",
-        "datetime": 1788464310,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Nvidia Sold Every Arm Share, but Its Vera CPU Still Uses Arm. Is That Really a Contradiction?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 ARM의 사업과 관련된 'Nvidia Sold Every Arm Share, but Its Vera CPU Still Uses Arm. Is That Really a Contradiction?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.75,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874717.4511724
-        },
-        "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
-      },
-      {
-        "headline": "Can ARM's AGI CPU Push Unlock $15B in Revenues by FY'31?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
-        "datetime": 1788457440,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
-      },
-      {
-        "headline": "Arm Holdings (NASDAQ:ARM): A Quality Growth Stock With a Demanding Price",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=d5c4bbb89645605ea218a3152c90363794d78fec8fbe9c53a467cf46f7be4ada",
-        "datetime": 1788337946,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
+        "datetime": 1788888627,
+        "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다.",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+            "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: $264.43, $257., 3.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "ARM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$264.43",
+            "$257.",
+            "3.17%",
+            "90%",
+            "$257.00",
+            "135.11%",
+            "89.7%",
+            "6.4%"
+          ],
+          "sourceExcerpt": [
+            "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.",
+            "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
+          ],
+          "analysisUpdatedAt": 1788897685.512472
+        }
+      },
+      {
+        "headline": "Arm Extends AI Reach From Data Centers To Edge Devices",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1369554d73a9d1f3ad13f924ae23dce65c026596bbfed0c513b2501bfef28ada",
+        "datetime": 1788878465,
+        "headlineKo": "Arm, AI 범위를 데이터 센터에서 엣지 장치로 확장",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm Extends AI Reach From Data Centers To Edge Devices",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Extends AI Reach From Data Centers To Edge Devices' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897687.2407026
+        }
+      },
+      {
+        "headline": "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=649b29b871f468e0579b3903f7d79c2aac4d143b682d97b799d70ef12858c5e5",
+        "datetime": 1788878206,
+        "headlineKo": "Arm CEO는 AI가 결국 암과 신약 발견을 해독할 수 있다고 말하지만 이것이 방해가 되는 요인이라고 말합니다.",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.75,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788897689.1314383
+        }
+      },
+      {
+        "headline": "What's Going On With Arm Holdings Stock Tuesday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=1c83fea0b958898e6a6f30deb00344225f86cc65ee2af3502e544d5fef3a8b11",
+        "datetime": 1788860429,
+        "headlineKo": "화요일 Arm Holdings 주식에 무슨 일이 일어나고 있나요?",
+        "relevance": 1,
+        "keywordFlag": false
+      },
       {
         "headline": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
         "source": "Yahoo",
@@ -86831,17 +87267,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788874701.3555996,
-    "_updated_label": "2026-09-08 22:38",
+    "_fetched_at": 1788897662.6523955,
+    "_updated_label": "2026-09-09 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 36,
+      "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
-    "_last_attempt_at": 1788874701.3555996,
+    "_last_attempt_at": 1788897662.6523955,
     "_earnings_status": "ok",
-    "_last_success_at": 1788874701.3555996,
+    "_last_success_at": 1788897662.6523955,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -91114,7 +91550,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -92978,7 +93414,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -94827,7 +95263,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -96463,7 +96899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -101387,7 +101823,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -103061,7 +103497,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
@@ -104729,7 +105165,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -106320,7 +106756,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -107962,7 +108398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -109804,7 +110240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -109836,12 +110272,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
-            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "Constellation Energy( CEG +4.88% )가 미국 최대 규모의 회사를 운영하도록 도와주세요."
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG +0.15% )는 미국 최대 규모를 운영하고 있습니다.",
+            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4.88%, 3.52%, 22.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.23%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -109865,21 +110301,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "4.88%",
-            "3.52%",
+            "2.23%",
             "22.4 times",
             "14.4 times",
-            "4.88 %",
-            "$ 13.91",
-            "$ 298.96",
-            "$106"
+            "0.15 %",
+            "$ 0.46",
+            "$ 299.42",
+            "$106",
+            "$ 296.63"
           ],
           "sourceExcerpt": [
             "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.15% ) operates the largest U.S.",
+            "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788874724.2470226
+          "analysisUpdatedAt": 1788897697.719992
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -109929,7 +110365,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874725.3247168
+          "analysisUpdatedAt": 1788897699.0154083
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -109949,13 +110385,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
-            "NextEra Energy( NEE -0.75% )와 Constellation Energy( CEG +4.88% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
+            "별자리 에너지 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
+            "NextEra Energy( NEE +0.92% )와 Constellation Energy( CEG +0.11% )는 모두 믿을 수 없을 정도로 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다.",
+            "Expand NYSE: NEE NextEra 에너지 프리미엄 기능 Moneyball Superscore 79 /100 오늘의 변동폭( 0.92 %) $ 0.77 현재 가격 $ 84.20 주요 데이터 포인트 시가 총액 $174B 시가 총액은 상장 주식 미결제만을 사용하여 계산되었습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.75%, 4.88%, 0.75 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.92%, 0.11%, 0.92 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -109979,21 +110415,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.75%",
-            "4.88%",
-            "0.75 %",
-            "$ 83.43",
+            "0.92%",
+            "0.11%",
+            "0.92 %",
+            "$ 0.77",
+            "$ 84.20",
             "$174",
-            "$ 83.23",
-            "$ 84.12",
-            "$ 69.24"
+            "$ 83.31",
+            "$ 84.38"
           ],
           "sourceExcerpt": [
-            "Constellation Energy | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
-            "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
+            "Constellation Energy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As electricity demand surges amid AI data center growth, two utility companies stand out.",
+            "NextEra Energy ( NEE +0.92% ) and Constellation Energy ( CEG +0.11% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power.",
+            "Expand NYSE : NEE NextEra Energy Premium Feature Moneyball Superscore 79 /100 Today's Change ( 0.92 %) $ 0.77 Current Price $ 84.20 Key Data Points Market Cap $174B Market cap calculated using publicly traded shares outstanding only."
           ],
-          "analysisUpdatedAt": 1788874729.445877
+          "analysisUpdatedAt": 1788897704.5510523
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -110036,12 +110472,12 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
-            "| 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "Constellation Energy( CEG +4.88% )가 미국 최대 규모의 회사를 운영하도록 도와주세요."
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG +0.15% )는 미국 최대 규모를 운영하고 있습니다.",
+            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 4.88%, 3.52%, 22.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 2.23%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -110065,21 +110501,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "4.88%",
-            "3.52%",
+            "2.23%",
             "22.4 times",
             "14.4 times",
-            "4.88 %",
-            "$ 13.91",
-            "$ 298.96",
-            "$106"
+            "0.15 %",
+            "$ 0.46",
+            "$ 299.42",
+            "$106",
+            "$ 296.63"
           ],
           "sourceExcerpt": [
             "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.15% ) operates the largest U.S.",
+            "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788874724.2470226
+          "analysisUpdatedAt": 1788897697.719992
         }
       },
       {
@@ -110128,7 +110564,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788874725.3247168
+          "analysisUpdatedAt": 1788897699.0154083
         }
       },
       {
@@ -110147,13 +110583,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "별자리 에너지 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-            "AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
-            "NextEra Energy( NEE -0.75% )와 Constellation Energy( CEG +4.88% )는 모두 믿을 수 없을 만큼 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다."
+            "별자리 에너지 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool AI 데이터센터 성장으로 전력 수요가 급증하면서 두 유틸리티 기업이 눈에 띈다.",
+            "NextEra Energy( NEE +0.92% )와 Constellation Energy( CEG +0.11% )는 모두 믿을 수 없을 정도로 강력한 기업이지만 북미 전력의 새로운 장에 대해 서로 다른 접근 방식을 취하고 있습니다.",
+            "Expand NYSE: NEE NextEra 에너지 프리미엄 기능 Moneyball Superscore 79 /100 오늘의 변동폭( 0.92 %) $ 0.77 현재 가격 $ 84.20 주요 데이터 포인트 시가 총액 $174B 시가 총액은 상장 주식 미결제만을 사용하여 계산되었습니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.75%, 4.88%, 0.75 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.92%, 0.11%, 0.92 % — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -110177,21 +110613,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.75%",
-            "4.88%",
-            "0.75 %",
-            "$ 83.43",
+            "0.92%",
+            "0.11%",
+            "0.92 %",
+            "$ 0.77",
+            "$ 84.20",
             "$174",
-            "$ 83.23",
-            "$ 84.12",
-            "$ 69.24"
+            "$ 83.31",
+            "$ 84.38"
           ],
           "sourceExcerpt": [
-            "Constellation Energy | The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
-            "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
-            "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
+            "Constellation Energy | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool As electricity demand surges amid AI data center growth, two utility companies stand out.",
+            "NextEra Energy ( NEE +0.92% ) and Constellation Energy ( CEG +0.11% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power.",
+            "Expand NYSE : NEE NextEra Energy Premium Feature Moneyball Superscore 79 /100 Today's Change ( 0.92 %) $ 0.77 Current Price $ 84.20 Key Data Points Market Cap $174B Market cap calculated using publicly traded shares outstanding only."
           ],
-          "analysisUpdatedAt": 1788874729.445877
+          "analysisUpdatedAt": 1788897704.5510523
         }
       },
       {
@@ -110920,17 +111356,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788874701.3555996,
-    "_updated_label": "2026-09-08 22:38",
+    "_fetched_at": 1788897662.6523955,
+    "_updated_label": "2026-09-09 05:01",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
-    "_last_attempt_at": 1788874701.3555996,
+    "_last_attempt_at": 1788897662.6523955,
     "_earnings_status": "ok",
-    "_last_success_at": 1788874701.3555996,
+    "_last_success_at": 1788897662.6523955,
     "_collection_status": "ok"
   },
   "VST": {
@@ -112399,7 +112835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -114075,7 +114511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -115256,7 +115692,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -115845,7 +116281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788882268.3931856,
     "_earnings_status": "ok",
@@ -118306,7 +118742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -118908,7 +119344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788895871.2895281,
     "_earnings_status": "ok",
@@ -120099,7 +120535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -121101,7 +121537,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -122337,7 +122773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_last_attempt_at": 1788889918.6945615,
     "_earnings_status": "ok",
@@ -122947,7 +123383,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 04:34"
+      "updated": "2026-09-09 05:01"
     },
     "_fetched_at": 1788889918.6945615,
     "_updated_label": "2026-09-09 02:56",

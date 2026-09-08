@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788896046.2774446,
+  "generatedAt": 1788897706.8878007,
   "records": {
     "MSFT": [
       {
@@ -5866,6 +5866,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "AAPL": [
       {
+        "changedAt": 1788897706.8878007,
+        "dataAsOf": 1788883086,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.45,
+            "after": -2.1
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.37,
+            "after": -4.02
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "AI가 휴대폰에서 메모리를 전환하고 Micron이 안정을 유지하고 Apple이 미끄러짐에 따라 SK 하이닉스는 7% 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=8c4ce9a3fb432f08151ecdb249e4b10cb962fcba637c6cfcd28a7b41e81530e9",
+        "eventId": "e3a8361107d278f73b6d",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.02, \"before\": -4.37, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e3a8361107d278f73b6d\"}"
+      },
+      {
         "changedAt": 1788896046.2774446,
         "dataAsOf": 1788883086,
         "changes": [
@@ -11375,6 +11398,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788897706.8878007,
+        "dataAsOf": 1788879632,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 5,
+            "after": 4.9
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "AMD에는 Nvidia에 없는 것이 있습니다. 주식이 마침내 돌파할 준비가 되었나요?",
+        "newsUrl": "https://finnhub.io/api/news?id=89c23297030cfebe3cc74c03310ad38c57335c1738cace218d230aa59fb472bf",
+        "eventId": "68224fa7e6b8f72b5db2",
+        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"68224fa7e6b8f72b5db2\"}"
+      },
+      {
         "changedAt": 1788872569.6770327,
         "dataAsOf": 1788856295,
         "changes": [
@@ -12718,23 +12758,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=e77e8cf70ecc98e852fe1fee5b1997608e093632fe46b11766d869fa1791065b",
         "eventId": "7a2b579ed7dfcef1db7a",
         "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"7a2b579ed7dfcef1db7a\"}"
-      },
-      {
-        "changedAt": 1787769060.9324665,
-        "dataAsOf": 1787734386,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.57,
-            "after": 1.05
-          }
-        ],
-        "cause": "AI 컴퓨팅 수요 확대 가능성",
-        "newsHeadline": "RBC Capital, Broadcom 부문에서 실적을 유지하고 목표 가격 400달러 유지",
-        "newsUrl": "https://finnhub.io/api/news?id=4481eba7a3af2264a31e545919a5f64097bc00f6a382588094477dc6abd03663",
-        "eventId": "b2df436b97fe71911f33",
-        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"b2df436b97fe71911f33\"}"
       }
     ],
     "AMD": [

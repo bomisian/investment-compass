@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788896046.220135,
+  "generatedAt": 1788897706.8286254,
   "events": [
     {
       "id": "de94cb545df45aea48bc",
@@ -80,6 +80,77 @@ const EVENT_DATA = {
         "계약 금액·기간·취소 조건",
         "수주잔고와 매출 인식 시점",
         "관련 사업부 매출총이익률"
+      ]
+    },
+    {
+      "id": "210c4dcf09e8f7c7753f",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "ARM",
+      "relatedTickers": [
+        "ARM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore",
+      "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
+        "publishedAt": 1788888627,
+        "collectedAt": 1788897662.6523955
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+        "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $264.43, $257., 3.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "ARM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: $264.43, $257., 3.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ARM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
       ]
     },
     {
@@ -1704,6 +1775,77 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "eda677ae8cdc25e4a1b8",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Before You Chase Salesforce’s Rally, Take a Closer Look at Its Latest Earnings Beat",
+      "headlineKo": "Salesforce의 랠리를 쫓기 전에 최신 수익 비트를 자세히 살펴보세요",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
+        "publishedAt": 1788874662,
+        "collectedAt": 1788897662.6523955
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+        "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
+    },
+    {
       "id": "85c131752a4ef95516d4",
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
@@ -2451,6 +2593,77 @@ const EVENT_DATA = {
         "계약 기간·최소구매 조건",
         "연도별 매출 인식",
         "수주잔고·취소 조건"
+      ]
+    },
+    {
+      "id": "ff270ce370ec2dac3d29",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Why Salesforce Stock Skyrocketed 40% Last Month",
+      "headlineKo": "지난 달 세일즈포스 주가가 40% 급등한 이유",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
+        "publishedAt": 1788866400,
+        "collectedAt": 1788897662.6523955
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.81% ) 8월 주가가 급등했습니다.",
+        "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
+        "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2%, $5.90, $11.35 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 2%, $5.90, $11.35 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
       ]
     },
     {
@@ -5169,11 +5382,7 @@ const EVENT_DATA = {
       "eventLabel": "AI·데이터센터 투자 변화",
       "primaryTicker": "ARM",
       "relatedTickers": [
-        "AMD",
-        "ARM",
-        "MU",
-        "NVDA",
-        "ORCL"
+        "ARM"
       ],
       "relatedEntities": [
         {
@@ -5182,7 +5391,7 @@ const EVENT_DATA = {
           "verification": "headline_or_analysis"
         }
       ],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
@@ -5190,7 +5399,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "mixed",
-      "expectedHorizon": "중기 투자 사이클",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
@@ -5199,67 +5408,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: 0.07%, 0.02%, 0.17%, 0.14%, 298 times, $2 billion, $1.29 billion, 22.4%.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+        "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님"
       ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "이 기사는 ARM의 사업과 관련된 'Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
+          "ticker": "ARM",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
+      "watch": []
     },
     {
       "id": "70c7aa9f52309fd8445e",
@@ -8329,7 +8505,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
         "publishedAt": 1788642449,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9364,7 +9540,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14241,7 +14417,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
         "publishedAt": 1788525840,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16946,7 +17122,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c167bd9759e09b1e53d0a91700043f50e869353202399a98c84d1cbb8d6efaf1",
         "publishedAt": 1788471002,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17747,7 +17923,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6b9227a9a994e2901b52f76042bd10a151327a8cf995c860e2928c33dbe3d37d",
         "publishedAt": 1788459000,
-        "collectedAt": 1788874701.3555996
+        "collectedAt": 1788897662.6523955
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18082,209 +18258,6 @@ const EVENT_DATA = {
         "정상화이익과 특이항목",
         "가이던스·OCF·FCF"
       ]
-    },
-    {
-      "id": "f190ccf52523b3f92b90",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Apple faces £2 bn lawsuit in UK over app privacy feature",
-      "headlineKo": "애플, 앱 개인정보 보호 기능 관련 영국에서 20억 파운드 규모 소송 직면",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
-        "publishedAt": 1788457675,
-        "collectedAt": 1788878502.6967206
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Apple faces £2 bn lawsuit in UK over app privacy feature",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "aiInference": [
-        "이 기사는 AAPL의 사업과 관련된 'Apple faces £2 bn lawsuit in UK over app privacy feature' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-      ],
-      "whyItMatters": [
-        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "다음 실적 매출·EPS",
-        "영업현금흐름과 CAPEX",
-        "회사 공식 가이던스",
-        "주가 반응이 하루 이상 지속되는지"
-      ]
-    },
-    {
-      "id": "6fbdc1664f9422be410b",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "NVDA",
-      "relatedTickers": [
-        "NVDA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "NVIDIA",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Nvidia Confirms $12.9B Hugging Face Deal as Huang Lauds 'Growth Driver'",
-      "headlineKo": "Nvidia, Huang이 '성장 동인'이라고 칭찬하면서 129억 달러 규모의 Hugging Face 거래 확정",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=83a1f11a644899da4dfcf19f93a9fb86c1c485cc2a803d801ee6207a3c314ea3",
-        "publishedAt": 1788457515,
-        "collectedAt": 1788889918.6945615
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Nvidia Confirms $12.9B Hugging Face Deal as Huang Lauds 'Growth Driver'",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "NVDA에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "NVDA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
-    },
-    {
-      "id": "985cf39f300a74ad5e01",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "ARM",
-      "relatedTickers": [
-        "ARM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Can ARM's AGI CPU Push Unlock $15B in Revenues by FY'31?",
-      "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=27592e1a9cc0cdec7e14b999c98de57822ec2f0111abac83c48071591967db9e",
-        "publishedAt": 1788457440,
-        "collectedAt": 1788874701.3555996
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ARM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
@@ -18336,7 +18309,13 @@ const EVENT_DATA = {
       "d79a8daa76dde3162513",
       "f4b0f395a0ebf2288eab"
     ],
+    "ARM": [
+      "210c4dcf09e8f7c7753f",
+      "07af5c52d130b6fbe04b",
+      "db45bb23bdd463844372"
+    ],
     "QQQ": [
+      "210c4dcf09e8f7c7753f",
       "61e8b5b87e47bcd39ecb",
       "5311c97673dbbe4b3080",
       "e3a8361107d278f73b6d",
@@ -18348,7 +18327,9 @@ const EVENT_DATA = {
       "35f40de9c05b45d75001",
       "81a2f2f86fd29d87bada",
       "47ef99a8e6acf4012bf7",
+      "eda677ae8cdc25e4a1b8",
       "85c131752a4ef95516d4",
+      "ff270ce370ec2dac3d29",
       "8262825b785fe4ee46f5",
       "3e75613086ca18ec677b",
       "e0a9cf6754a1d0f4ffca",
@@ -18400,6 +18381,7 @@ const EVENT_DATA = {
       "59c241266885f400538e"
     ],
     "SPY": [
+      "210c4dcf09e8f7c7753f",
       "61e8b5b87e47bcd39ecb",
       "5311c97673dbbe4b3080",
       "e3a8361107d278f73b6d",
@@ -18411,9 +18393,11 @@ const EVENT_DATA = {
       "35f40de9c05b45d75001",
       "81a2f2f86fd29d87bada",
       "47ef99a8e6acf4012bf7",
+      "eda677ae8cdc25e4a1b8",
       "85c131752a4ef95516d4",
       "2ea83ba5a7d0e9b39dfc",
       "2e31e49d8a1e4a76e3c5",
+      "ff270ce370ec2dac3d29",
       "8262825b785fe4ee46f5",
       "4144ce284b01fef9a47b",
       "4dde284e1f6f4ce4c978",
@@ -18534,8 +18518,7 @@ const EVENT_DATA = {
       "0dc5a39d4d42ab975e78",
       "285f88d9a19ce5a20677",
       "8337cbc7fc2ff63bc499",
-      "d79a8daa76dde3162513",
-      "f190ccf52523b3f92b90"
+      "d79a8daa76dde3162513"
     ],
     "MU": [
       "e3a8361107d278f73b6d",
@@ -18548,7 +18531,6 @@ const EVENT_DATA = {
       "ecfb6dd4ce84f59d8b3f",
       "ae8832686e60679b8335",
       "b0ba37f64b23edb6bcba",
-      "db45bb23bdd463844372",
       "828f02f6bf5df94b3fa3",
       "9336c45338c15729052a",
       "206b7a57481d4de918bd",
@@ -18582,11 +18564,6 @@ const EVENT_DATA = {
       "821ae153d31f7b81a385",
       "1c87e702594bd6e0720c"
     ],
-    "ARM": [
-      "07af5c52d130b6fbe04b",
-      "db45bb23bdd463844372",
-      "985cf39f300a74ad5e01"
-    ],
     "NVDA": [
       "07af5c52d130b6fbe04b",
       "68224fa7e6b8f72b5db2",
@@ -18603,7 +18580,6 @@ const EVENT_DATA = {
       "021501c06972380abcc9",
       "ae8832686e60679b8335",
       "4260051bc716a49e385f",
-      "db45bb23bdd463844372",
       "e18af593dd6c53c76d4f",
       "b6b859f3cb04f4165e41",
       "9336c45338c15729052a",
@@ -18643,8 +18619,7 @@ const EVENT_DATA = {
       "10920d99d3f2df0e658d",
       "821ae153d31f7b81a385",
       "1ed72289d61d218e3acc",
-      "1c87e702594bd6e0720c",
-      "6fbdc1664f9422be410b"
+      "1c87e702594bd6e0720c"
     ],
     "GOOGL": [
       "df194de52b4acf772502",
@@ -18678,7 +18653,6 @@ const EVENT_DATA = {
       "ecfb6dd4ce84f59d8b3f",
       "ae8832686e60679b8335",
       "4260051bc716a49e385f",
-      "db45bb23bdd463844372",
       "2931dc5efa872afdeb64",
       "256aa0db08ad7d4b1a41",
       "9336c45338c15729052a",
@@ -18726,7 +18700,6 @@ const EVENT_DATA = {
       "ecfb6dd4ce84f59d8b3f",
       "ae8832686e60679b8335",
       "bf4a92166f3c7d13e2cd",
-      "db45bb23bdd463844372",
       "b6b859f3cb04f4165e41",
       "9336c45338c15729052a",
       "c5db796f0656234c1d90",
@@ -18795,6 +18768,15 @@ const EVENT_DATA = {
       "b1d7f34226d92a8c05bb",
       "449937cdd2c804fb1cee",
       "631bfa2bc237b9b6850a"
+    ],
+    "CRM": [
+      "eda677ae8cdc25e4a1b8",
+      "ff270ce370ec2dac3d29",
+      "af585ca4f2f50f7a8389",
+      "05e6ad8bd35770cf2cc8",
+      "4ac4dd5bd64db8ced620",
+      "3c4d9c8e5500f277b4f2",
+      "6790c9bf31da64fc69a7"
     ],
     "ASML": [
       "85c131752a4ef95516d4",
@@ -18920,13 +18902,6 @@ const EVENT_DATA = {
       "3d0d6bb157915d5d927c",
       "54b750cc8db9bd930554",
       "35f5795cc72d6f13c7e1"
-    ],
-    "CRM": [
-      "af585ca4f2f50f7a8389",
-      "05e6ad8bd35770cf2cc8",
-      "4ac4dd5bd64db8ced620",
-      "3c4d9c8e5500f277b4f2",
-      "6790c9bf31da64fc69a7"
     ],
     "STX": [
       "888288408e644f6579ba"
