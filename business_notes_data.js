@@ -9,6 +9,27 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-08",
+        headline: "노동절 연휴 후 첫 개장, 이란 확전 우려 속 뉴욕 3대 지수 동반 하락 - 다우 -1.18%, 유가 6거래일 연속 상승·9월 금리인상 확률 60%",
+        tone: "risk",
+        importance: "high",
+        horizon: "단기(9/11 CPI·9/16-17 FOMC까지)",
+        facts: ["2026-09-08(화) 노동절 연휴 후 첫 정규장에서 다우존스는 628.18포인트(-1.18%) 내린 52,786.07로 마감, S&P500은 -0.58% 7,673.52, 나스닥종합은 -0.32% 26,421.41로 3대 지수가 모두 하락했다. 다우는 9/4(금) -272포인트에 이어 2거래일 연속 하락이다.", "WTI 원유는 6거래일 연속 상승(3월 이후 최장 랠리)하며 배럴당 $92.56(+1.07%)을 기록했고, 브렌트유도 $97.20(+0.20%)으로 올랐다 - 9/5(토) 이란의 미 항공모함·구축함 미사일 공격과 미군의 이란 유조선 3척 파괴 보복 이후 첫 정규장 반응이다.", "이란-오만 간 호르무즈 해협 임시 안전항로 협상은 9/7 시점과 동일하게 '며칠 내' 타결 임박 상태이며, 9/8까지 실제 타결 발표는 없었다.", "별도로 9/4(금) 발표된 8월 미국 비농업고용은 +16.2만명(시장 예상 5.3만명 상회), 실업률은 4.1%로 유지됐다. 시간당 임금 상승률은 전월비 +0.3%·전년비 +3.1%로 안정적이었다. 이 지표로 시장은 9월 FOMC 금리 인상 가능성을 약 60%로 반영 중이며, 다음 주 발표되는 9/11 CPI가 최종 판단에 더 중요한 변수로 지목되고 있다."],
+        why: ["9/7 항목에서 예고했던 '화요일 개장 반응'이 확인된 결과, 지수 하락폭이 -0.3~-1.2% 수준에 그쳐 패닉성 급락은 아니었다 - 시장은 이번 확전을 아직 전면전으로 보지 않되, 유가 상승이 물가·금리 경로에 주는 영향을 경계하는 모습이다.", "강한 고용지표(호재)가 역설적으로 '9월 금리인상' 우려를 키워 증시엔 부담으로 작용했다 - 이 조합은 지정학 리스크와 별개로 성장주·반도체 등 금리에 민감한 종목에 추가 부담이 될 수 있다.", "이란-오만 협상이 '며칠 내' 타결이라는 문구가 9/7과 9/8 사이 진전 없이 그대로 유지되고 있어, 협상 지연 자체도 유가 하방 요인이 늦어지고 있다는 신호로 볼 수 있다."],
+        beginner: ["연휴 끝나고 화요일에 미국 증시가 다시 열렸는데, 다우·S&P500·나스닥 세 지수 모두 떨어졌어요. 다만 급락은 아니고 완만한 하락이에요.", "기름값이 6거래일 연속 올랐어요 - 이란과 미국이 서로 공격을 주고받으면서 원유 공급이 끊길까봐 걱정하는 사람들이 늘었기 때문이에요.", "지난 금요일 나온 미국 고용지표는 예상보다 훨씬 좋게 나왔는데, 신기하게도 이게 주식시장엔 나쁜 소식으로 받아들여졌어요. '경제가 너무 뜨거우면 금리를 올려야 할 수도 있다'는 걱정이 커졌기 때문이에요. 지금 시장은 이번 달 금리를 올릴 확률을 60% 정도로 보고 있어요.", "이란과 오만이 배가 안전하게 지나다닐 통로에 합의할 거라는 얘기는 계속 나오고 있지만, 화요일까지도 실제 합의 발표는 없었어요."],
+        interpretation: "9/7 항목에서 예고한 화요일 개장 반응은 확인됐다 - 지수 하락폭이 크지 않아 시장이 이번 확전을 패닉으로 받아들이진 않았지만, 유가 6일 연속 상승과 예상 상회 고용지표가 겹치며 9월 FOMC 금리인상 가능성(약 60%)이 새로운 부담 요인으로 부각됐다. 지정학 리스크 자체보다 '유가→물가→금리' 경로가 앞으로 더 큰 변수가 될 가능성이 크다.",
+        decision: "이번 하락은 완만한 조정 수준으로 그 자체를 매수·매도 신호로 보기는 이르다. 9/11 CPI와 9/16-17 FOMC 결과가 실제 방향을 정할 핵심 변수이므로 그 전까지는 관망 권장. 유가가 $95(WTI)·$100(브렌트)을 넘는지, 이란-오만 협상이 실제로 타결되는지를 계속 확인할 것.",
+        watch: ["9/11 CPI 발표 결과 - 예상보다 높으면 금리인상 우려 재부각 가능", "9/16-17 FOMC 회의 및 실제 금리 결정", "WTI $95·브렌트 $100 돌파 여부", "이란-오만 호르무즈 안전항로 협상의 실제 타결 여부"],
+        confidence: "다우·S&P·나스닥 종가 및 WTI·브렌트 가격은 CNBC·Yahoo Finance·TheStreet 등 복수 매체가 일치해 신뢰도 높음. 8월 고용지표(+16.2만명, 실업률 4.1%)는 Bloomberg·CNBC 보도 기준 신뢰도 높음. 다만 '9월 금리인상 확률 60%'는 시장 선물가격 기반 추정치로 매일 변동 가능한 수치임에 유의.",
+        sources: [
+          { title: "Stock Market Today (Sept. 8, 2026): S&P 500 edges lower as oil prices climb, Mideast tensions rise (Yahoo Finance)", url: "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-8-133744027.html" },
+          { title: "Stock Market Today (Sept. 8, 2026): Dow futures edge lower as oil prices climb, Mideast tensions rise (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-08-2026" },
+          { title: "Stock market news for Sept. 8, 2026 (CNBC)", url: "https://www.cnbc.com/2026/09/07/stock-market-tuesday-live-updates.html" },
+          { title: "Fed Rate Decision Still Hangs on Inflation After Jobs Report (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-04/fed-rate-decision-still-hangs-on-inflation-after-jobs-report" },
+          { title: "What a Blowout August Jobs Report Means for a September Rate Hike (Kiplinger)", url: "https://www.kiplinger.com/investing/economy/jobs-report-august-2026-what-to-expect" },
+        ],
+      },
+      {
         date: "2026-09-07",
         headline: "이란, IRGC '항모 타격' 주장(미군 부인)·호르무즈 '금지구역' 선포 vs 이란-오만 협상 임박 - 브렌트유 $98 근접 후 소폭 반락",
         tone: "mixed",

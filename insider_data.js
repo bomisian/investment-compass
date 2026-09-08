@@ -29,18 +29,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-08-04",
         "filingDate": "2026-08-05",
         "code": "S"
-      },
-      {
-        "name": "Numoto Takeshi",
-        "share": 4500,
-        "transactionPrice": 402.84,
-        "transactionDate": "2026-06-10",
-        "filingDate": "2026-06-12",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788833118.103302,
-    "_updated_label": "2026-09-08"
+    "_fetched_at": 1788905282.6791253,
+    "_updated_label": "2026-09-09"
   },
   "GOOGL": {
     "transactions": [
@@ -663,8 +655,8 @@ const INSIDER_DATA = {
   },
   "CRM": {
     "transactions": [],
-    "_fetched_at": 1788833118.103302,
-    "_updated_label": "2026-09-08"
+    "_fetched_at": 1788905282.6791253,
+    "_updated_label": "2026-09-09"
   },
   "PLTR": {
     "transactions": [
@@ -2774,8 +2766,8 @@ const INSIDER_DATA = {
   },
   "VRT": {
     "transactions": [],
-    "_fetched_at": 1788833118.103302,
-    "_updated_label": "2026-09-08"
+    "_fetched_at": 1788905282.6791253,
+    "_updated_label": "2026-09-09"
   },
   "MOD": {
     "transactions": [
