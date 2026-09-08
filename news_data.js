@@ -7302,7 +7302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -7317,6 +7317,66 @@ const NEWS_DATA = {
       "revenueEstimate": 115064400597
     },
     "news": [
+      {
+        "headline": "Apple: Negatively Impacted By Hyperscaler Demand",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
+        "datetime": 1788850156,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple: 하이퍼스케일러 수요로 인해 부정적인 영향을 받음(NASDAQ:AAPL) | 알파 찾기 내부자 포럼 투자 그룹 리더 팔로우 요약 Apple Inc.",
+            "2026년 회계연도에는 강력한 실적을 거두었지만 마진 압박과 신중한 전망으로 인해 주가는 수익 후 7% 하락했습니다.",
+            "AAPL은 DRAM 가격 급등과 공급 제약으로 인해 총 마진 압박에 직면해 있으며 경영진은 FY26 4분기까지 마진이 추가 하락할 것으로 예상하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 13%, 49.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "7%",
+            "13%",
+            "49.3%",
+            "46.5%"
+          ],
+          "sourceExcerpt": [
+            "Apple: Negatively Impacted By Hyperscaler Demand (NASDAQ:AAPL) | Seeking Alpha The Insiders Forum Investing Group Leader Follow Summary Apple Inc.",
+            "delivered strong FY26 results, but shares dropped 7% post-earnings due to margin pressure and a cautious outlook.",
+            "AAPL faces gross margin compression from surging DRAM prices and supply constraints, with management forecasting further margin declines into 4Q FY26."
+          ],
+          "analysisUpdatedAt": 1788878509.7023091
+        },
+        "headlineKo": "Apple: 하이퍼스케일러 수요로 인해 부정적인 영향을 받음"
+      },
       {
         "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
         "source": "Yahoo",
@@ -7381,7 +7441,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855724.4795609
+          "analysisUpdatedAt": 1788878512.1182265
         },
         "headlineKo": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공"
       },
@@ -7402,7 +7462,7 @@ const NEWS_DATA = {
           "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
             "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 2,720%, 2.51%, 20%, $5 trillion, 2.51 %, $ 319.97, $4.7, $ 317.86.",
+            "기사 본문에서 언급된 수치: 2,720%, 1.33%, 20%, $5 trillion, 1.33 %, $ 315.71, $4.7, $ 315.52.",
             "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
@@ -7449,20 +7509,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "2,720%",
-            "2.51%",
+            "1.33%",
             "20%",
             "$5 trillion",
-            "2.51 %",
-            "$ 319.97",
+            "1.33 %",
+            "$ 315.71",
             "$4.7",
-            "$ 317.86"
+            "$ 315.52"
           ],
           "sourceExcerpt": [
             "Tim Cook Delivered a 2,720% Total Return Over 15 Years.",
             "Here's Whether John Ternus Can Do the Same for Apple Investors.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788855725.4473863
+          "analysisUpdatedAt": 1788878513.1351836
         },
         "headlineKo": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다."
       },
@@ -7474,46 +7534,6 @@ const NEWS_DATA = {
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's $320 Stock Faces Huawei's 68% Foldable Fortress' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855727.7484987
-        },
         "headlineKo": "Apple의 320달러 주식은 Huawei의 68% 폴더블 포트리스와 마주합니다."
       },
       {
@@ -7525,16 +7545,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Jim Cramer는 Nvidia가 5000억 달러를 다시 매입하길 원합니다. Apple의 플레이북이 작동할 수 있나요?"
-      },
-      {
-        "headline": "KeyBanc Delivers Stark Warning on Apple Stock Ahead of iPhone 18 Launch",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8546ddd568e345d2d91419c0766bc17e988f35fdb4026ed5c6f4615c62f520b1",
-        "datetime": 1788808433,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "KeyBanc, iPhone 18 출시를 앞두고 Apple 주식에 대해 엄중한 경고 전달"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7727,6 +7737,65 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Apple: Negatively Impacted By Hyperscaler Demand",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
+        "datetime": 1788850156,
+        "headlineKo": "Apple: 하이퍼스케일러 수요로 인해 부정적인 영향을 받음",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple: 하이퍼스케일러 수요로 인해 부정적인 영향을 받음(NASDAQ:AAPL) | 알파 찾기 내부자 포럼 투자 그룹 리더 팔로우 요약 Apple Inc.",
+            "2026년 회계연도에는 강력한 실적을 거두었지만 마진 압박과 신중한 전망으로 인해 주가는 수익 후 7% 하락했습니다.",
+            "AAPL은 DRAM 가격 급등과 공급 제약으로 인해 총 마진 압박에 직면해 있으며 경영진은 FY26 4분기까지 마진이 추가 하락할 것으로 예상하고 있습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 7%, 13%, 49.3% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "7%",
+            "13%",
+            "49.3%",
+            "46.5%"
+          ],
+          "sourceExcerpt": [
+            "Apple: Negatively Impacted By Hyperscaler Demand (NASDAQ:AAPL) | Seeking Alpha The Insiders Forum Investing Group Leader Follow Summary Apple Inc.",
+            "delivered strong FY26 results, but shares dropped 7% post-earnings due to margin pressure and a cautious outlook.",
+            "AAPL faces gross margin compression from surging DRAM prices and supply constraints, with management forecasting further margin declines into 4Q FY26."
+          ],
+          "analysisUpdatedAt": 1788878509.7023091
+        }
+      },
+      {
         "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
@@ -7790,7 +7859,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855724.4795609
+          "analysisUpdatedAt": 1788878512.1182265
         }
       },
       {
@@ -7810,7 +7879,7 @@ const NEWS_DATA = {
           "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
             "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: 2,720%, 2.51%, 20%, $5 trillion, 2.51 %, $ 319.97, $4.7, $ 317.86.",
+            "기사 본문에서 언급된 수치: 2,720%, 1.33%, 20%, $5 trillion, 1.33 %, $ 315.71, $4.7, $ 315.52.",
             "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
@@ -7857,20 +7926,20 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [
             "2,720%",
-            "2.51%",
+            "1.33%",
             "20%",
             "$5 trillion",
-            "2.51 %",
-            "$ 319.97",
+            "1.33 %",
+            "$ 315.71",
             "$4.7",
-            "$ 317.86"
+            "$ 315.52"
           ],
           "sourceExcerpt": [
             "Tim Cook Delivered a 2,720% Total Return Over 15 Years.",
             "Here's Whether John Ternus Can Do the Same for Apple Investors.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788855725.4473863
+          "analysisUpdatedAt": 1788878513.1351836
         }
       },
       {
@@ -12920,17 +12989,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788855720.0238218,
-    "_updated_label": "2026-09-08 17:22",
+    "_fetched_at": 1788878502.6967206,
+    "_updated_label": "2026-09-08 23:41",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 150,
+      "checked": 151,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
-    "_last_attempt_at": 1788855720.0238218,
+    "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
-    "_last_success_at": 1788855720.0238218,
+    "_last_success_at": 1788878502.6967206,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -18344,7 +18413,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -23174,7 +23243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -29123,7 +29192,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 151,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -31163,7 +31232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -36617,7 +36686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -41703,7 +41772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -47933,7 +48002,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -53880,7 +53949,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -57941,7 +58010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -61168,7 +61237,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -61229,7 +61298,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855732.703866
+          "analysisUpdatedAt": 1788878519.5448635
         },
         "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 좋은 투자라고 생각합니다. 그렇습니까?"
       },
@@ -61279,7 +61348,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855735.0589147
+          "analysisUpdatedAt": 1788878521.6061306
         },
         "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       },
@@ -61329,7 +61398,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855737.0463426
+          "analysisUpdatedAt": 1788878523.6978645
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -61401,7 +61470,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855732.703866
+          "analysisUpdatedAt": 1788878519.5448635
         }
       },
       {
@@ -61450,7 +61519,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855735.0589147
+          "analysisUpdatedAt": 1788878521.6061306
         }
       },
       {
@@ -61499,7 +61568,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855737.0463426
+          "analysisUpdatedAt": 1788878523.6978645
         }
       },
       {
@@ -63163,17 +63232,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788855720.0238218,
-    "_updated_label": "2026-09-08 17:22",
+    "_fetched_at": 1788878502.6967206,
+    "_updated_label": "2026-09-08 23:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
-    "_last_attempt_at": 1788855720.0238218,
+    "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
-    "_last_success_at": 1788855720.0238218,
+    "_last_success_at": 1788878502.6967206,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -65447,7 +65516,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -68797,7 +68866,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -72986,7 +73055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -76484,7 +76553,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
@@ -80778,7 +80847,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -82791,7 +82860,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -84238,7 +84307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
@@ -88452,7 +88521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -90018,7 +90087,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -91769,7 +91838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -93258,7 +93327,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -98009,7 +98078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 125,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -98070,7 +98139,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855741.977702
+          "analysisUpdatedAt": 1788878528.9555218
         },
         "headlineKo": "투자자들이 WDC(Western Digital Corporation)를 많이 검색합니다. 알아야 할 사항은 다음과 같습니다."
       },
@@ -98120,7 +98189,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855743.6545553
+          "analysisUpdatedAt": 1788878531.0835161
         },
         "headlineKo": "10년 전에 Western Digital에 투자한 1,000달러의 현재 가치는 다음과 같습니다."
       },
@@ -98170,7 +98239,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855745.6700053
+          "analysisUpdatedAt": 1788878533.1291223
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -98294,7 +98363,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855741.977702
+          "analysisUpdatedAt": 1788878528.9555218
         }
       },
       {
@@ -98343,7 +98412,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855743.6545553
+          "analysisUpdatedAt": 1788878531.0835161
         }
       },
       {
@@ -98392,7 +98461,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788855745.6700053
+          "analysisUpdatedAt": 1788878533.1291223
         }
       },
       {
@@ -99677,17 +99746,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788855720.0238218,
-    "_updated_label": "2026-09-08 17:22",
+    "_fetched_at": 1788878502.6967206,
+    "_updated_label": "2026-09-08 23:42",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
-    "_last_attempt_at": 1788855720.0238218,
+    "_last_attempt_at": 1788878502.6967206,
     "_earnings_status": "ok",
-    "_last_success_at": 1788855720.0238218,
+    "_last_success_at": 1788878502.6967206,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -101351,7 +101420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -102942,7 +103011,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -104571,7 +104640,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -106363,7 +106432,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -107485,7 +107554,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788874701.3555996,
     "_earnings_status": "ok",
@@ -108909,7 +108978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -110461,7 +110530,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -111642,7 +111711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -112231,7 +112300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788859444.8493755,
     "_earnings_status": "ok",
@@ -114644,7 +114713,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -115244,7 +115313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788872427.919195,
     "_earnings_status": "ok",
@@ -116435,7 +116504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -117437,7 +117506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -118638,7 +118707,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_last_attempt_at": 1788866949.3954325,
     "_earnings_status": "ok",
@@ -119226,7 +119295,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 22:38"
+      "updated": "2026-09-08 23:42"
     },
     "_fetched_at": 1788866949.3954325,
     "_updated_label": "2026-09-08 20:34",

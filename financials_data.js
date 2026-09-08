@@ -4943,16 +4943,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10"
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10"
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41"
   },
   "ORCL": {
     "annual": [
@@ -7048,96 +7048,96 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2021-06-02",
-        "shares": 819500000
+        "shares": 819500000.0
       },
       {
         "date": "2021-08-20",
-        "shares": 823600000
+        "shares": 823600000.0
       },
       {
         "date": "2021-11-26",
-        "shares": 843800000
+        "shares": 843800000.0
       },
       {
         "date": "2022-03-03",
-        "shares": 847800000
+        "shares": 847800000.0
       },
       {
         "date": "2022-05-20",
-        "shares": 849900000
+        "shares": 849900000.0
       },
       {
         "date": "2022-08-19",
-        "shares": 852600000
+        "shares": 852600000.0
       },
       {
         "date": "2022-11-25",
-        "shares": 853200000
+        "shares": 853200000.0
       },
       {
         "date": "2023-03-02",
-        "shares": 856900000
+        "shares": 856900000.0
       },
       {
         "date": "2023-05-19",
-        "shares": 860000000
+        "shares": 860000000.0
       },
       {
         "date": "2023-08-18",
-        "shares": 862800000
+        "shares": 862800000.0
       },
       {
         "date": "2023-11-24",
-        "shares": 864500000
+        "shares": 864500000.0
       },
       {
         "date": "2024-03-06",
-        "shares": 866000000
+        "shares": 866000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 865600000
+        "shares": 865600000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 866200000
+        "shares": 866200000.0
       },
       {
         "date": "2024-11-27",
-        "shares": 865300000
+        "shares": 865300000.0
       },
       {
         "date": "2025-03-05",
-        "shares": 866100000
+        "shares": 866100000.0
       },
       {
         "date": "2025-05-23",
-        "shares": 862200000
+        "shares": 862200000.0
       },
       {
         "date": "2025-08-22",
-        "shares": 862100000
+        "shares": 862100000.0
       },
       {
         "date": "2025-11-26",
-        "shares": 848100000
+        "shares": 848100000.0
       },
       {
         "date": "2026-03-04",
-        "shares": 874300000
+        "shares": 874300000.0
       },
       {
         "date": "2026-05-21",
-        "shares": 874800000
+        "shares": 874800000.0
       },
       {
         "date": "2026-08-21",
-        "shares": 876900000
+        "shares": 876900000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10",
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7164,7 +7164,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788876650.4437845,
+    "_yahoo_verified_at": 1788878498.1618738,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -8541,36 +8541,36 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2025-02-27",
-        "shares": 144863251
+        "shares": 144863251.0
       },
       {
         "date": "2025-05-05",
-        "shares": 145299218
+        "shares": 145299218.0
       },
       {
         "date": "2025-08-13",
-        "shares": 145805548
+        "shares": 145805548.0
       },
       {
         "date": "2025-10-31",
-        "shares": 146553179
+        "shares": 146553179.0
       },
       {
         "date": "2026-01-23",
-        "shares": 147567249
+        "shares": 147567249.0
       },
       {
         "date": "2026-04-24",
-        "shares": 148089758
+        "shares": 148089758.0
       },
       {
         "date": "2026-08-07",
-        "shares": 146419001
+        "shares": 146419001.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10",
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -8597,7 +8597,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788876650.4437845,
+    "_yahoo_verified_at": 1788878498.1618738,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -8893,104 +8893,104 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-30",
-        "shares": 304245045
+        "shares": 304245045.0
       },
       {
         "date": "2021-01-29",
-        "shares": 306097179
+        "shares": 306097179.0
       },
       {
         "date": "2021-04-29",
-        "shares": 306452886
+        "shares": 306452886.0
       },
       {
         "date": "2021-08-18",
-        "shares": 308748049
+        "shares": 308748049.0
       },
       {
         "date": "2021-10-28",
-        "shares": 311622921
+        "shares": 311622921.0
       },
       {
         "date": "2022-01-27",
-        "shares": 312917687
+        "shares": 312917687.0
       },
       {
         "date": "2022-04-27",
-        "shares": 313167818
+        "shares": 313167818.0
       },
       {
         "date": "2022-08-11",
-        "shares": 314492541
+        "shares": 314492541.0
       },
       {
         "date": "2022-10-26",
-        "shares": 317650295
+        "shares": 317650295.0
       },
       {
         "date": "2023-01-25",
-        "shares": 319322335
+        "shares": 319322335.0
       },
       {
         "date": "2023-04-26",
-        "shares": 319937433
+        "shares": 319937433.0
       },
       {
         "date": "2023-08-04",
-        "shares": 321895961
+        "shares": 321895961.0
       },
       {
         "date": "2023-10-25",
-        "shares": 324243164
+        "shares": 324243164.0
       },
       {
         "date": "2024-01-24",
-        "shares": 325859745
+        "shares": 325859745.0
       },
       {
         "date": "2024-04-22",
-        "shares": 326524668
+        "shares": 326524668.0
       },
       {
         "date": "2024-08-07",
-        "shares": 343451583
+        "shares": 343451583.0
       },
       {
         "date": "2024-10-22",
-        "shares": 345708453
+        "shares": 345708453.0
       },
       {
         "date": "2025-01-22",
-        "shares": 347823902
+        "shares": 347823902.0
       },
       {
         "date": "2025-04-25",
-        "shares": 348878365
+        "shares": 348878365.0
       },
       {
         "date": "2025-07-23",
-        "shares": 346922126
+        "shares": 346922126.0
       },
       {
         "date": "2025-10-23",
-        "shares": 341899281
+        "shares": 341899281.0
       },
       {
         "date": "2026-01-22",
-        "shares": 339037922
+        "shares": 339037922.0
       },
       {
         "date": "2026-04-23",
-        "shares": 344682131
+        "shares": 344682131.0
       },
       {
         "date": "2026-08-07",
-        "shares": 360540944
+        "shares": 360540944.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10",
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9017,7 +9017,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788876650.4437845,
+    "_yahoo_verified_at": 1788878498.1618738,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -12373,104 +12373,104 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-26",
-        "shares": 256932251
+        "shares": 256932251.0
       },
       {
         "date": "2021-01-25",
-        "shares": 236682057
+        "shares": 236682057.0
       },
       {
         "date": "2021-04-26",
-        "shares": 228873365
+        "shares": 228873365.0
       },
       {
         "date": "2021-08-02",
-        "shares": 227603061
+        "shares": 227603061.0
       },
       {
         "date": "2021-10-25",
-        "shares": 222635945
+        "shares": 222635945.0
       },
       {
         "date": "2022-01-24",
-        "shares": 218898339
+        "shares": 218898339.0
       },
       {
         "date": "2022-04-25",
-        "shares": 214843969
+        "shares": 214843969.0
       },
       {
         "date": "2022-08-01",
-        "shares": 208755418
+        "shares": 208755418.0
       },
       {
         "date": "2022-10-24",
-        "shares": 206454363
+        "shares": 206454363.0
       },
       {
         "date": "2023-01-23",
-        "shares": 206483864
+        "shares": 206483864.0
       },
       {
         "date": "2023-04-24",
-        "shares": 207082374
+        "shares": 207082374.0
       },
       {
         "date": "2023-07-31",
-        "shares": 207393242
+        "shares": 207393242.0
       },
       {
         "date": "2023-10-23",
-        "shares": 209183986
+        "shares": 209183986.0
       },
       {
         "date": "2024-01-22",
-        "shares": 209510729
+        "shares": 209510729.0
       },
       {
         "date": "2024-04-22",
-        "shares": 209988542
+        "shares": 209988542.0
       },
       {
         "date": "2024-07-30",
-        "shares": 210195239
+        "shares": 210195239.0
       },
       {
         "date": "2024-10-23",
-        "shares": 211529509
+        "shares": 211529509.0
       },
       {
         "date": "2025-01-22",
-        "shares": 211707393
+        "shares": 211707393.0
       },
       {
         "date": "2025-04-29",
-        "shares": 212217463
+        "shares": 212217463.0
       },
       {
         "date": "2025-07-29",
-        "shares": 212677178
+        "shares": 212677178.0
       },
       {
         "date": "2025-10-28",
-        "shares": 213558113
+        "shares": 213558113.0
       },
       {
         "date": "2026-01-27",
-        "shares": 218073067
+        "shares": 218073067.0
       },
       {
         "date": "2026-04-27",
-        "shares": 224228992
+        "shares": 224228992.0
       },
       {
         "date": "2026-07-31",
-        "shares": 226644518
+        "shares": 226644518.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788876631.6657615,
-    "_updated_label": "2026-09-08 23:10",
+    "_fetched_at": 1788878479.7136486,
+    "_updated_label": "2026-09-08 23:41",
     "_data_quality_version": 3,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -12497,7 +12497,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788876650.4437845,
+    "_yahoo_verified_at": 1788878498.1618738,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {

@@ -1516,7 +1516,7 @@ const FUNDAMENTALS_DATA = {
     "perBandSource": "universal",
     "roicTTM": 7.140000000000001,
     "name": "Bloom Energy Corp",
-    "theme": "Electrical Equipment",
+    "theme": "AI 전력·인프라",
     "_fetched_at": 1788827276.5996363,
     "_updated_label": "2026-09-08 09:28"
   }
