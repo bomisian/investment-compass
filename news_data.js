@@ -7291,7 +7291,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -7370,7 +7370,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833089.7311797
+          "analysisUpdatedAt": 1788855724.4795609
         },
         "headlineKo": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공"
       },
@@ -7451,7 +7451,7 @@ const NEWS_DATA = {
             "Here's Whether John Ternus Can Do the Same for Apple Investors.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788833090.7340715
+          "analysisUpdatedAt": 1788855725.4473863
         },
         "headlineKo": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다."
       },
@@ -7501,7 +7501,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833093.620691
+          "analysisUpdatedAt": 1788855727.7484987
         },
         "headlineKo": "Apple의 320달러 주식은 Huawei의 68% 폴더블 포트리스와 마주합니다."
       },
@@ -7779,7 +7779,7 @@ const NEWS_DATA = {
           "quality": "high",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833089.7311797
+          "analysisUpdatedAt": 1788855724.4795609
         }
       },
       {
@@ -7859,7 +7859,7 @@ const NEWS_DATA = {
             "Here's Whether John Ternus Can Do the Same for Apple Investors.",
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
           ],
-          "analysisUpdatedAt": 1788833090.7340715
+          "analysisUpdatedAt": 1788855725.4473863
         }
       },
       {
@@ -7908,7 +7908,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833093.620691
+          "analysisUpdatedAt": 1788855727.7484987
         }
       },
       {
@@ -12909,17 +12909,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788833085.322677,
-    "_updated_label": "2026-09-08 11:04",
+    "_fetched_at": 1788855720.0238218,
+    "_updated_label": "2026-09-08 17:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
-    "_last_attempt_at": 1788833085.322677,
+    "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
-    "_last_success_at": 1788833085.322677,
+    "_last_success_at": 1788855720.0238218,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -18333,7 +18333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -23163,7 +23163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -28881,7 +28881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -30840,7 +30840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -36245,7 +36245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -41282,7 +41282,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -47324,7 +47324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -53236,7 +53236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -57297,7 +57297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -60524,7 +60524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -60585,7 +60585,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833101.8478806
+          "analysisUpdatedAt": 1788855732.703866
         },
         "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 좋은 투자라고 생각합니다. 그렇습니까?"
       },
@@ -60635,7 +60635,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833104.1993787
+          "analysisUpdatedAt": 1788855735.0589147
         },
         "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       },
@@ -60685,7 +60685,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833106.2449067
+          "analysisUpdatedAt": 1788855737.0463426
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -60757,7 +60757,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833101.8478806
+          "analysisUpdatedAt": 1788855732.703866
         }
       },
       {
@@ -60806,7 +60806,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833104.1993787
+          "analysisUpdatedAt": 1788855735.0589147
         }
       },
       {
@@ -60855,7 +60855,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833106.2449067
+          "analysisUpdatedAt": 1788855737.0463426
         }
       },
       {
@@ -62519,17 +62519,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788833085.322677,
-    "_updated_label": "2026-09-08 11:05",
+    "_fetched_at": 1788855720.0238218,
+    "_updated_label": "2026-09-08 17:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
-    "_last_attempt_at": 1788833085.322677,
+    "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
-    "_last_success_at": 1788833085.322677,
+    "_last_success_at": 1788855720.0238218,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -64854,7 +64854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -68285,7 +68285,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -72474,7 +72474,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -75972,7 +75972,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -80201,7 +80201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -82105,7 +82105,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -83552,7 +83552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -87818,7 +87818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -89384,7 +89384,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -91135,7 +91135,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -92624,7 +92624,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -97254,7 +97254,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -97315,7 +97315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833111.4954412
+          "analysisUpdatedAt": 1788855741.977702
         },
         "headlineKo": "투자자들이 WDC(Western Digital Corporation)를 많이 검색합니다. 알아야 할 사항은 다음과 같습니다."
       },
@@ -97365,7 +97365,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833113.6368206
+          "analysisUpdatedAt": 1788855743.6545553
         },
         "headlineKo": "10년 전에 Western Digital에 투자한 1,000달러의 현재 가치는 다음과 같습니다."
       },
@@ -97415,7 +97415,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833115.734013
+          "analysisUpdatedAt": 1788855745.6700053
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -97539,7 +97539,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833111.4954412
+          "analysisUpdatedAt": 1788855741.977702
         }
       },
       {
@@ -97588,7 +97588,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833113.6368206
+          "analysisUpdatedAt": 1788855743.6545553
         }
       },
       {
@@ -97637,7 +97637,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788833115.734013
+          "analysisUpdatedAt": 1788855745.6700053
         }
       },
       {
@@ -98922,17 +98922,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788833085.322677,
-    "_updated_label": "2026-09-08 11:05",
+    "_fetched_at": 1788855720.0238218,
+    "_updated_label": "2026-09-08 17:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
-    "_last_attempt_at": 1788833085.322677,
+    "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
-    "_last_success_at": 1788833085.322677,
+    "_last_success_at": 1788855720.0238218,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -100596,7 +100596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -102187,7 +102187,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -103773,7 +103773,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -105565,7 +105565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -106687,7 +106687,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -108111,7 +108111,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -109663,7 +109663,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -110844,7 +110844,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -111433,7 +111433,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788836821.1750486,
     "_earnings_status": "ok",
@@ -113776,7 +113776,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -114398,7 +114398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -115589,7 +115589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -116591,7 +116591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -117792,7 +117792,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -118331,7 +118331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-08 16:20"
+      "updated": "2026-09-08 17:22"
     },
     "_fetched_at": 1788844182.7047231,
     "_updated_label": "2026-09-08 14:13",
