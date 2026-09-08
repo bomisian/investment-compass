@@ -7296,7 +7296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -12685,7 +12685,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -17973,7 +17973,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -22719,7 +22719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -28212,7 +28212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -29878,7 +29878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -35201,7 +35201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -40085,7 +40085,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -45964,7 +45964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -51699,7 +51699,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -55648,7 +55648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -58827,7 +58827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -60828,7 +60828,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -63094,7 +63094,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -66481,7 +66481,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -70484,7 +70484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -70545,7 +70545,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807627.8399446
+          "analysisUpdatedAt": 1788829313.3685594
         },
         "headlineKo": "Salesforce(NYSE:CRM), 고품질 복합 성장주 자격 획득"
       },
@@ -70595,7 +70595,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807630.042165
+          "analysisUpdatedAt": 1788829315.4547052
         },
         "headlineKo": "Docusign은 모든 에이전트에게 AI 도구를 공개하고 있습니다. Salesforce에 미치는 영향"
       },
@@ -70645,9 +70645,19 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807631.8629167
+          "analysisUpdatedAt": 1788829317.7871695
         },
         "headlineKo": "Salesforce(CRM)의 AI 수치로 Benioff가 다시 자신감을 되찾았습니다."
+      },
+      {
+        "headline": "Salesforce Stock Has Surged as AI and Anthropic Bets Pay Off, But Technical Risks Remain",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c591486ef9c92f8390e26bce86ab9508d7e942aa3d7432673180cda4a5f03eb3",
+        "datetime": 1788711626,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "AI와 인류애적 베팅이 성과를 거두면서 Salesforce 주가가 급등했지만 기술적 위험은 여전히 ​​남아 있습니다."
       },
       {
         "headline": "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
@@ -70658,16 +70668,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Salesforce(CRM), 기업 고객 배포 전반에 걸쳐 Agentic AI 공간 확장"
-      },
-      {
-        "headline": "Palantir Jumped 7.7% on an Expanded PwC Alliance as Globant Launched a Salesforce AI Pod. Which Services Model Scales Better?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
-        "datetime": 1788611918,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Globant가 Salesforce AI Pod를 출시함에 따라 Palantir는 확장된 PwC Alliance에서 7.7% 상승했습니다. 어떤 서비스 모델이 더 잘 확장됩니까?"
       }
     ],
     "newsHistory": [
@@ -70717,7 +70717,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807627.8399446
+          "analysisUpdatedAt": 1788829313.3685594
         }
       },
       {
@@ -70766,7 +70766,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807630.042165
+          "analysisUpdatedAt": 1788829315.4547052
         }
       },
       {
@@ -70815,8 +70815,17 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807631.8629167
+          "analysisUpdatedAt": 1788829317.7871695
         }
+      },
+      {
+        "headline": "Salesforce Stock Has Surged as AI and Anthropic Bets Pay Off, But Technical Risks Remain",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=c591486ef9c92f8390e26bce86ab9508d7e942aa3d7432673180cda4a5f03eb3",
+        "datetime": 1788711626,
+        "headlineKo": "AI와 인류애적 베팅이 성과를 거두면서 Salesforce 주가가 급등했지만 기술적 위험은 여전히 ​​남아 있습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
       },
       {
         "headline": "Salesforce (CRM) Expands Agentic AI Footprint Across Enterprise Customer Deployments",
@@ -73918,17 +73927,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788807624.5248208,
-    "_updated_label": "2026-09-08 04:00",
+    "_fetched_at": 1788829310.1241848,
+    "_updated_label": "2026-09-08 10:01",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 91,
+      "checked": 92,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
-    "_last_attempt_at": 1788807624.5248208,
+    "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
-    "_last_success_at": 1788807624.5248208,
+    "_last_success_at": 1788829310.1241848,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -78002,7 +78011,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -79906,7 +79915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -79921,6 +79930,87 @@ const NEWS_DATA = {
       "revenueEstimate": 1389198904
     },
     "news": [
+      {
+        "headline": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
+        "datetime": 1788798285,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.02%, 0.05%, 0.03%, 298 times, $2 billion, $1.29 billion, 22.4%, $715 million.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.75,
+          "quality": "high",
+          "verifiedNumbers": [
+            "0.02%",
+            "0.05%",
+            "0.03%",
+            "298 times",
+            "$2 billion",
+            "$1.29 billion",
+            "22.4%",
+            "$715 million"
+          ],
+          "sourceExcerpt": [
+            "Arm Expands Into AI Accelerators With Samsung - But It's Not the Data Center Goldmine Investors Hope For - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,703.80 +0.02% Dow Jones 53,069.50 +0.02% Nasdaq 100 29,554.80 −0.05% Russell 2000 2,965.50 −0.03% S&P 500 7,703.80 +0.02% Dow Jones 53,069.50 +0.02% Nasdaq 100 29,554.80 −0.05% Russell 2000 2,965.50 −0.",
+            "By Rich Duprey Published September 7, 2026, 12:24pm ET · 4 min read 𝕏 f ⧉ © genkur / iStock via Getty Images Arm Holdings ( NASDAQ:ARM | ARM Price Prediction ) is pushing deeper into AI silicon through a new collaboration with Samsung on a "
+          ],
+          "analysisUpdatedAt": 1788829322.3213196
+        },
+        "headlineKo": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님"
+      },
       {
         "headline": "Rising CPU Demand Positions Arm Holdings (ARM) for Gains",
         "source": "Yahoo",
@@ -79967,7 +80057,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807636.9523873
+          "analysisUpdatedAt": 1788829324.3974912
         },
         "headlineKo": "증가하는 CPU 수요로 인해 Arm Holdings(ARM)가 이익을 얻게 됩니다."
       },
@@ -80017,7 +80107,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807639.1149728
+          "analysisUpdatedAt": 1788829326.7672982
         },
         "headlineKo": "Nvidia는 모든 Arm 주식을 판매했지만 Vera CPU는 여전히 Arm을 사용합니다. 그게 정말 모순인가요?"
       },
@@ -80029,45 +80119,6 @@ const NEWS_DATA = {
         "relevance": 0.75,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Can ARM's AGI CPU Push Unlock $15B in Revenues by FY'31?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
-          ],
-          "interpretation": "ARM에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.75,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807641.5392213
-        },
         "headlineKo": "ARM의 AGI CPU 푸시는 FY '31까지 수익에서 $ 15B를 잠금 해제할 수 있습니까?"
       },
       {
@@ -80079,19 +80130,89 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Arm Holdings(NASDAQ:ARM): 높은 가격의 질적 성장 주식"
-      },
-      {
-        "headline": "ARM vs. Sandisk: Comparing Steady Historical Revenue Generation Against Rapid Sequential Revenue Expansion",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1deaf7a19bceba3d59398f2a9420a48afa5bd761a82f7d3b2e0969070279d62c",
-        "datetime": 1788312901,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "ARM 대 Sandisk: 꾸준한 역사적 수익 창출과 급속한 순차적 수익 확장 비교"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
+        "datetime": 1788798285,
+        "headlineKo": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: 0.02%, 0.05%, 0.03%, 298 times, $2 billion, $1.29 billion, 22.4%, $715 million.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Expands Into AI Accelerators With Samsung — But It’s Not the Data Center Goldmine Investors Hope For' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: ARM에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.75,
+          "quality": "high",
+          "verifiedNumbers": [
+            "0.02%",
+            "0.05%",
+            "0.03%",
+            "298 times",
+            "$2 billion",
+            "$1.29 billion",
+            "22.4%",
+            "$715 million"
+          ],
+          "sourceExcerpt": [
+            "Arm Expands Into AI Accelerators With Samsung - But It's Not the Data Center Goldmine Investors Hope For - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,703.80 +0.02% Dow Jones 53,069.50 +0.02% Nasdaq 100 29,554.80 −0.05% Russell 2000 2,965.50 −0.03% S&P 500 7,703.80 +0.02% Dow Jones 53,069.50 +0.02% Nasdaq 100 29,554.80 −0.05% Russell 2000 2,965.50 −0.",
+            "By Rich Duprey Published September 7, 2026, 12:24pm ET · 4 min read 𝕏 f ⧉ © genkur / iStock via Getty Images Arm Holdings ( NASDAQ:ARM | ARM Price Prediction ) is pushing deeper into AI silicon through a new collaboration with Samsung on a "
+          ],
+          "analysisUpdatedAt": 1788829322.3213196
+        }
+      },
       {
         "headline": "Rising CPU Demand Positions Arm Holdings (ARM) for Gains",
         "source": "Yahoo",
@@ -80138,7 +80259,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807636.9523873
+          "analysisUpdatedAt": 1788829324.3974912
         }
       },
       {
@@ -80187,7 +80308,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807639.1149728
+          "analysisUpdatedAt": 1788829326.7672982
         }
       },
       {
@@ -81235,17 +81356,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788807624.5248208,
-    "_updated_label": "2026-09-08 04:00",
+    "_fetched_at": 1788829310.1241848,
+    "_updated_label": "2026-09-08 10:02",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 35,
+      "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
-    "_last_attempt_at": 1788807624.5248208,
+    "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
-    "_last_success_at": 1788807624.5248208,
+    "_last_success_at": 1788829310.1241848,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -85380,7 +85501,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -86946,7 +87067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -88697,7 +88818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -90186,7 +90307,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -94719,7 +94840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -96393,7 +96514,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788811224.2439373,
     "_earnings_status": "ok",
@@ -98012,7 +98133,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -99603,7 +99724,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -101128,7 +101249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -102920,7 +103041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -102995,7 +103116,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788807648.072095
+          "analysisUpdatedAt": 1788829332.627594
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -103045,7 +103166,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807649.188011
+          "analysisUpdatedAt": 1788829333.7343483
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -103109,7 +103230,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788807651.8273458
+          "analysisUpdatedAt": 1788829336.1590042
         },
         "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
       },
@@ -103195,7 +103316,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ...",
             "Help Constellation Energy ( CEG +4.88% ) operates the largest U.S."
           ],
-          "analysisUpdatedAt": 1788807648.072095
+          "analysisUpdatedAt": 1788829332.627594
         }
       },
       {
@@ -103244,7 +103365,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788807649.188011
+          "analysisUpdatedAt": 1788829333.7343483
         }
       },
       {
@@ -103307,7 +103428,7 @@ const NEWS_DATA = {
             "Help As electricity demand surges amid AI data center growth, two utility companies stand out.",
             "NextEra Energy ( NEE -0.75% ) and Constellation Energy ( CEG +4.88% ) are both incredibly strong businesses, but are taking different approaches to this new chapter in North American power."
           ],
-          "analysisUpdatedAt": 1788807651.8273458
+          "analysisUpdatedAt": 1788829336.1590042
         }
       },
       {
@@ -104036,17 +104157,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788807624.5248208,
-    "_updated_label": "2026-09-08 04:00",
+    "_fetched_at": 1788829310.1241848,
+    "_updated_label": "2026-09-08 10:02",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
-    "_last_attempt_at": 1788807624.5248208,
+    "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
-    "_last_success_at": 1788807624.5248208,
+    "_last_success_at": 1788829310.1241848,
     "_collection_status": "ok"
   },
   "VST": {
@@ -105466,7 +105587,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -107018,7 +107139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -108199,7 +108320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -108788,7 +108909,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788814824.777092,
     "_earnings_status": "ok",
@@ -111117,7 +111238,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -111717,7 +111838,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -112908,7 +113029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -113910,7 +114031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -115111,7 +115232,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -115615,7 +115736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-08 09:30"
+      "updated": "2026-09-08 10:02"
     },
     "_fetched_at": 1788818997.1897414,
     "_updated_label": "2026-09-08 07:22",
