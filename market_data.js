@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 15.520000457763672,
+      "current": 15.720000267028809,
       "prevClose": 15.300000190734863,
-      "changeAbs": 0.2200002670288086,
-      "changePct": 1.437910224092892,
-      "pctRank": 26.650755767700872,
+      "changeAbs": 0.4200000762939453,
+      "changePct": 2.7450985036476174,
+      "pctRank": 27.923627684964202,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -50.01610035713184,
-      "ma20": 15.103500080108642,
-      "ma60": 16.375999943415323,
-      "chg1m": 0.06000041961669922,
-      "chg3m": -4.350000381469727,
-      "chg1mPct": 0.3881010314919173,
-      "chg3mPct": -21.892300944852668,
+      "drawdown1y": -49.371978572335074,
+      "ma20": 15.113500070571899,
+      "ma60": 16.379333273569742,
+      "chg1m": 0.26000022888183594,
+      "chg3m": -4.15000057220459,
+      "chg1mPct": 1.681760855370602,
+      "chg3mPct": -20.885759420857177,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.62000274658203,
+      "current": 94.18000030517578,
       "prevClose": 91.4800033569336,
-      "changeAbs": 2.1399993896484375,
-      "changePct": 2.3393083855699697,
-      "pctRank": 87.19172633253778,
+      "changeAbs": 2.6999969482421875,
+      "changePct": 2.951461356759499,
+      "pctRank": 87.66905330151154,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -17.113762482453065,
-      "ma20": 86.01000099182129,
-      "ma60": 80.44700024922689,
-      "chg1m": 15.44000244140625,
-      "chg3m": 2.3199996948242188,
-      "chg1mPct": 19.74929954097745,
-      "chg3mPct": 2.541072965253917,
+      "drawdown1y": -16.61797003117008,
+      "ma20": 86.03800086975097,
+      "ma60": 80.45633354187012,
+      "chg1m": 16.0,
+      "chg3m": 2.8799972534179688,
+      "chg1mPct": 20.46559214318748,
+      "chg3mPct": 3.1544328117769105,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.85700225830078,
+      "current": 98.86299896240234,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.30300140380859375,
-      "changePct": -0.30556816520608443,
-      "pctRank": 24.184566428003183,
+      "changeAbs": -0.29700469970703125,
+      "changePct": -0.29952066230159036,
+      "pctRank": 24.26412092283214,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.709377360017773,
-      "ma20": 99.34535026550293,
-      "ma60": 100.26545028686523,
-      "chg1m": -0.7429962158203125,
-      "chg3m": -1.1930007934570312,
-      "chg1mPct": -0.7459801477942432,
-      "chg3mPct": -1.192404554790337,
+      "drawdown1y": -2.703475673111422,
+      "ma20": 99.34565010070801,
+      "ma60": 100.26555023193359,
+      "chg1m": -0.73699951171875,
+      "chg3m": -1.1870040893554688,
+      "chg1mPct": -0.7399593604514395,
+      "chg3mPct": -1.1864108477252204,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4408.0,
+      "current": 4396.2001953125,
       "prevClose": 4429.7998046875,
-      "changeAbs": -21.7998046875,
-      "changePct": -0.4921171531145044,
-      "pctRank": 90.45346062052506,
+      "changeAbs": -33.599609375,
+      "changePct": -0.7584904703694682,
+      "pctRank": 90.29435163086714,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.117928682695492,
-      "ma20": 4469.464990234375,
-      "ma60": 4235.778332519531,
-      "chg1m": 67.2998046875,
-      "chg3m": 72.10009765625,
-      "chg1mPct": 1.5504366037575392,
-      "chg3mPct": 1.6628635180732987,
+      "drawdown1y": -17.33979625384786,
+      "ma20": 4468.875,
+      "ma60": 4235.581669108073,
+      "chg1m": 55.5,
+      "chg3m": 60.30029296875,
+      "chg1mPct": 1.278595560687056,
+      "chg3mPct": 1.3907215186437991,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "GC=F",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 52787.53125,
+      "current": 52786.0703125,
       "prevClose": 53414.25,
-      "changeAbs": -626.71875,
-      "changePct": -1.173317513584858,
+      "changeAbs": -628.1796875,
+      "changePct": -1.1760526217254759,
       "pctRank": 97.84688995215312,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -2.873256848176664,
-      "ma20": 53396.3728515625,
-      "ma60": 52751.77233072917,
-      "chg1m": -1249.3984375,
-      "chg3m": 2001.51953125,
-      "chg1mPct": -2.312119590667667,
-      "chg3mPct": 3.941084293711228,
+      "drawdown1y": -2.8759449091252165,
+      "ma20": 53396.2998046875,
+      "ma60": 52751.74798177083,
+      "chg1m": -1250.859375,
+      "chg3m": 2000.05859375,
+      "chg1mPct": -2.3148231815423683,
+      "chg3mPct": 3.9382076403758757,
       "lastDate": "2026-09-08",
       "bars": 1254,
       "symbol": "^DJI",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 4.904121159018171,
-        "ret3m": 7.136943755280578,
-        "ret6m": 14.991401084417056,
-        "ret1y": 10.842826781413685,
+        "ret1m": 4.9014133871083665,
+        "ret3m": 7.134178350036269,
+        "ret6m": 14.988432940913409,
+        "ret1y": 10.839965720385347,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 3.9283078164609853,
-        "ret3m": -2.5183326599657607,
-        "ret6m": 85.88797959397361,
-        "ret1y": 240.97917482570898,
+        "ret1m": 3.928160440346473,
+        "ret3m": -2.5184708943859047,
+        "ret6m": 85.887715994491,
+        "ret1y": 240.97869129829505,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -2.5544212014147916,
-        "ret3m": 2.8538765649766207,
-        "ret6m": 43.759770196999945,
-        "ret1y": 233.2841476830223,
+        "ret1m": -2.5537287742151027,
+        "ret3m": 2.8546074223701146,
+        "ret6m": 43.760791722823214,
+        "ret1y": 233.28651592806665,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 1.5158406351233555,
-        "ret3m": 0.24195403002615912,
-        "ret6m": 16.369881029592026,
-        "ret1y": 67.93404497335854,
+        "ret1m": 1.5043564621195715,
+        "ret3m": 0.23061396787313893,
+        "ret6m": 16.356716464950583,
+        "ret1y": 67.91504711436794,
         "winRate": null,
         "count": 12
       }
@@ -229,7 +229,7 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.07880598249677816,
+    "corr60": 0.0787886582315709,
     "corrPctRank": 0.08375209380234507,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
@@ -237,11 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Who are the Houthis, Iran’s allies in Yemen? - reuters.com",
+      "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788894454,
-      "headlineKo": "예멘에서 이란의 동맹세력인 후티 반군은 누구인가? -reuters.com"
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "datetime": 1788898904,
+      "headlineKo": "이란 지원 후티 반군, 중동 전쟁 확대로 사우디 도시 4곳 공격, 73명 부상 - 로이터"
+    },
+    {
+      "headline": "Wall Street slides, oil surges amid worries over inflation, Middle East - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "datetime": 1788898660,
+      "headlineKo": "월스트리트 하락, 인플레이션 우려 속에 유가 급등, 중동 - Reuters"
+    },
+    {
+      "headline": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
+      "datetime": 1788894429,
+      "headlineKo": "미 재무부, 새로운 항공 제재로 이란에 대한 압력 강화 - 로이터 통신"
     },
     {
       "headline": "Lilly perseveres in a bad day for drug stocks — plus, Boeing's mixed deliveries",
@@ -249,13 +263,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/08/lilly-perseveres-in-a-bad-day-for-drug-stocks-plus-boeings-mixed-deliveries.html",
       "datetime": 1788894186,
       "headlineKo": "Lilly는 의약품 재고가 좋지 않은 날에도 인내심을 갖고 있으며 Boeing의 혼합 배송도 있습니다."
-    },
-    {
-      "headline": "Oil prices hold near six-week high after Houthis hit Saudi sites - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
-      "datetime": 1788892726,
-      "headlineKo": "후티 반군이 사우디 지역을 공격한 후 유가가 6주 최고치 근처로 유지 - reuters.com"
     },
     {
       "headline": "When someone asks you a loaded question, use Gloria Steinem's powerful trick to reject their 'unfair framing,' says expert",
@@ -279,18 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "이 데이터 센터 재고는 지난 5년 동안 1000% 이상 상승했습니다. 트레이더 Mike Khouw는 더 많은 이익을 얻었습니다"
     },
     {
-      "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-      "datetime": 1788886832,
-      "headlineKo": "이란 지원 후티 반군, 중동 전쟁 확대로 사우디 4개 도시 공격, 73명 부상 - reuters.com"
-    },
-    {
-      "headline": "Netanyahu races to unify Israel's right wing in bid to avert election defeat - reuters.com",
+      "headline": "Netanyahu races to unify Israel's right wing in bid to avert election defeat - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2FPczJOb2lpcFNYMEVRVlpXaXJ5dllBZjFvMDhsbGEzVDV5dlQ4QVJjV1d0N1FPYmFrNzVRYkRvbzFmVXp5WFdxMXUwZ1VvNFdVVnkybnpFU19GVmdSaEpRaldoTWRsRGs5NVdhR09BNmNLZUtsYlI1TjE4cVpLeUs2NTZIcEpxS1F6NWlid0tHU05FNklhTUdLbkhPQjRQeTVxLWpzRlAzQ3pNSUlQazc4NV92V3FnNEpkeg?oc=5",
       "datetime": 1788886423,
-      "headlineKo": "네타냐후, 선거 패배 막기 위해 이스라엘 우익 통합 경쟁 - reuters.com"
+      "headlineKo": "네타냐후, 선거 패배를 막기 위해 이스라엘 우익 통합 경쟁 - 로이터"
     },
     {
       "headline": "Cramer says these 2 stocks are big winners from OpenAI's new model release",
@@ -300,18 +300,11 @@ const MARKET_DATA = {
       "headlineKo": "Cramer는 이 두 주식이 OpenAI의 새로운 모델 출시에서 큰 승리를 거두었다고 말합니다."
     },
     {
-      "headline": "UK publishes legislation for tougher sanctions on Iran over nuclear programme - reuters.com",
+      "headline": "UK publishes legislation for tougher sanctions on Iran over nuclear programme - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbHhqMGdpaWtLcy1Pb3ExcFhZSmd4MUtieGtkb0tiLUtpeWhGZVNwRVJOR2FSTnBCLWFVSDdRSUpaS083WHNWZUk2ZDQ4SU1sSG9UNDFIYW9wSk5RUW1PRlhud3plZFdUdjBPeVRPRDVGWm5RYzh1d05lRnltVmNneXBNbkpUaFZwRzJaX0dvYWxSY1V1bkFibzcyRFkzWDBPV1U1ZDZ2blB1NkZObUZJ?oc=5",
       "datetime": 1788884687,
-      "headlineKo": "영국, 이란 핵 프로그램에 대한 보다 강력한 제재 법안 발표 - reuters.com"
-    },
-    {
-      "headline": "US Treasury targets Iran's aviation sector with sweeping new sanctions - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
-      "datetime": 1788883724,
-      "headlineKo": "미 재무부, 전면적인 새로운 제재로 이란 항공 부문 겨냥 - reuters.com"
+      "headlineKo": "영국, 이란 핵 프로그램에 대한 보다 강력한 제재 법안 발표 - 로이터"
     },
     {
       "headline": "25 years after 9/11, Americans fear domestic extremists more than foreign attacks, Reuters/Ipsos poll finds - Reuters",
@@ -319,16 +312,23 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU0JwamE0MHdKdGs4ektXZm9NMlpXUXVsVG42aTdQVFA5YTZZam9qc1d2ZzNFRVZnMkQyazNjdkJQb181dHNsVjFaRFg4OURFNVZyMUs0Sy1NVjROT2prU0l3a3gxQnJuRzVuYWpJVTM4N1BvT1dzR253RTByTXJxQVZTd1E2UFZ1anNzN2xYN201cGphd3JRNFNiblBaZVhHcjlyREt2eWZmYU5ZMXI4TUZUWHlPaldBMlE2bHlZVmRWdw?oc=5",
       "datetime": 1788882943,
       "headlineKo": "9/11 테러 이후 25년, 미국인들은 외국의 공격보다 국내 극단주의를 더 두려워한다고 로이터/입소스 여론조사 결과 - Reuters"
+    },
+    {
+      "headline": "Boeing August deliveries dip as 787 handovers fall - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbl9KQ1A0bVppSEcwNE1TWlNPN1BZN3BlU19QU3lZc1RGUDBRZHRNMFZwTlgyOVR1SjNuMlY3RFFiaTZ2bWxYZkViSmdXYTQxb0lDR2pmdXJLNjAyTGtTdnFJYmg1Vk5QdUt2M0FhRnMwbWVSazVmRUlQdzMyU3J3ZW1ybjR5bHhZVVl4RGcyWXZpS0hxSkIwWTJkankwcktMYUtKNGZneVQtWTV4OHhJ?oc=5",
+      "datetime": 1788879946,
+      "headlineKo": "보잉 787기 인수 감소로 8월 인도량 감소 - Reuters"
     }
   ],
   "fgi": {
-    "score": 40.8857142857143,
+    "score": 40.8,
     "rating": "fear"
   },
-  "_fetched_at": 1788897720.8329484,
-  "_updated_label": "2026-09-09 05:02",
-  "_last_attempt_at": 1788897720.8329484,
-  "_last_success_at": 1788897720.8329484,
+  "_fetched_at": 1788901262.9787753,
+  "_updated_label": "2026-09-09 06:01",
+  "_last_attempt_at": 1788901262.9787753,
+  "_last_success_at": 1788901262.9787753,
   "_collection_status": "ok",
   "_collection_errors": []
 };
