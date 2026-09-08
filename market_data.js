@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.44000244140625,
+      "current": 92.43000030517578,
       "prevClose": 91.4800033569336,
-      "changeAbs": 0.9599990844726562,
-      "changePct": 1.0494086677357939,
+      "changeAbs": 0.9499969482421875,
+      "changePct": 1.0384749818334849,
       "pctRank": 86.48648648648648,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.158472829560466,
-      "ma20": 85.9510009765625,
-      "ma60": 80.42733357747396,
-      "chg1m": 14.260002136230469,
-      "chg3m": 1.1399993896484375,
-      "chg1mPct": 18.239961730067183,
-      "chg3mPct": 1.2486301769367671,
+      "drawdown1y": -18.167328196094967,
+      "ma20": 85.95050086975098,
+      "ma60": 80.42716687520345,
+      "chg1m": 14.25,
+      "chg3m": 1.1299972534179688,
+      "chg1mPct": 18.227168002526348,
+      "chg3mPct": 1.2376749349913772,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4480.60009765625,
+      "current": 4473.60009765625,
       "prevClose": 4429.7998046875,
-      "changeAbs": 50.80029296875,
-      "changePct": 1.1467852997554076,
-      "pctRank": 91.49443561208267,
+      "changeAbs": 43.80029296875,
+      "changePct": 0.9887646146537291,
+      "pctRank": 91.25596184419715,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.752854619267953,
-      "ma20": 4473.094995117188,
-      "ma60": 4236.988334147135,
-      "chg1m": 139.89990234375,
-      "chg3m": 144.7001953125,
-      "chg1mPct": 3.2229800734643503,
-      "chg3mPct": 3.3372586676708798,
+      "drawdown1y": -15.88447315357402,
+      "ma20": 4472.7449951171875,
+      "ma60": 4236.871667480469,
+      "chg1m": 132.89990234375,
+      "chg3m": 137.7001953125,
+      "chg1mPct": 3.0617157685128293,
+      "chg3mPct": 3.1758158263309264,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,6 +219,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Oil rises as risks of prolonged Mideast conflict heighten supply worries - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
+      "datetime": 1788828600,
+      "headlineKo": "중동 갈등 장기화 위험으로 공급 우려 커져 유가 상승 - Reuters"
+    },
+    {
       "headline": "Ukraine's prosecutor general submits resignation citing political conflict - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTHBvazNzS2NpNDU5WnFEcUZieHZrb2NNQ0s5VExqNmZHYkxkMEhTRVhIUlU3OGpnajl0bXVIdmFCUzJCM3JhOVdXYTNMZFBEOXlmNGNOU1FwOE90b0pDbndLa2ZXSG9Ua0FhTFdXRkhDM2xodXdYNzROYWZQMFpBeGFoUWd3MEQ4MklYQlpTbUhJbFItV2ROdG9zSU5xaHo0YjBTcnB1djFuaFRsUm91X2p0c2dZak5NYW82dURwSUZLbXAzVlVVam9vY0ZsMTFGbUE?oc=5",
@@ -233,25 +240,25 @@ const MARKET_DATA = {
       "headlineKo": "이번 휴일 단축 거래 주간에 우리가 주목하는 3가지 주요 사항은 다음과 같습니다."
     },
     {
-      "headline": "Investigators recover black boxes from cargo plane crash in Miami - Reuters",
+      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
+      "datetime": 1788822041,
+      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
+    },
+    {
+      "headline": "Investigators recover black boxes from cargo plane crash in Miami - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQVZXcnY2Ym5SNExDY0RsNmlYeV9qcVRrVGNNajFfQ0pkd3k5ZmZicVBfOUZQTjdjV0d0Z29LT2FnYnByR1RyVGxHTkhOX1lUWjJGd3dOQ210Vlo5UV93WlgySTg4TTgzX3VYcnZlQ3dHU2ZHX00teG84eUFOc3RGUDdOdUo4NzEtdjZqLUwzMHhnWmY5aHhTelJCQlVrbXJ5UmFGelVjcG5xdkJwV01TWUV1cFkyd3E3ZzVjQi1uRUdDOHVzekM4?oc=5",
       "datetime": 1788820353,
-      "headlineKo": "수사관들이 마이애미 화물기 추락 사고에서 블랙박스를 회수했다 - 로이터 통신"
+      "headlineKo": "수사관들이 마이애미 화물기 추락 사고에서 블랙박스를 회수했다 - reuters.com"
     },
     {
-      "headline": "Oil prices rise to six-week highs on worsening Middle East conflict - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNN2l5blJOWGZlTWtiTzJFdl80Vm9jb3QxSHp5YUpRR0l6THd2RmZ6cDd2OUtFakRhYkRXbWdSdUxUU0tYSVl1YTRTS1RzYTVQem1OOVFDR01ZRXNEeDBuWEwweHd0RDZnS1B0dE1PbFhXb3JMWjNGY1JLMHpvUkpGRDE0ZUtXZk10akVNOUhSVklQYjdHZ1JCS25ReUc?oc=5",
-      "datetime": 1788803823,
-      "headlineKo": "중동 갈등 악화로 유가 6주 최고치로 상승 - 로이터"
-    },
-    {
-      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
+      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
       "datetime": 1788801218,
-      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다고 유엔 전문가 \"로이터\""
+      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다 유엔 전문가 경고 - reuters.com"
     },
     {
       "headline": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
@@ -266,6 +273,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
       "datetime": 1788791258,
       "headlineKo": "미국-이란 갈등 속에 걸프 증시 혼조세 - Reuters"
+    },
+    {
+      "headline": "Syrian nuclear reactor could have been useful for weapons, IAEA chief says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHJMdjM1XzU0QWJDZXR0SFRSWkNKaGtZMzI2NURjQi1zNm12bDVIaHlGbDR3Tm5XZnk2RHoyZVZrQ21hR0hNSFdqZ1hWUVJWNEpCTkMwbzVfRTc1TkE0bmYxYUN0aVNtMWFsTEd4cktFWHV0RWdIRWdQZXZQVmpmY2x2RDh2VE02TzNwM0FqOElRXy15OG1IZ0F6bEI0dHJuRjNDYzMzWkpxVFlBbkpfTy1vX2VvRXM1eDJhWUtWVlk?oc=5",
+      "datetime": 1788790783,
+      "headlineKo": "IAEA 사무총장 \"시리아 원자로가 무기로 유용했을 수도\" - 로이터 통신"
     },
     {
       "headline": "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
@@ -287,30 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEZFOFdkQkNyVk5LRXRVVEdIbWtYY0VkUENMOGFSMUhJdmxXWmFyR0d4UVQxRk4yVXd0N1BWR2ctQnVQSHlCOFV0OUd4UTczWTZmc2NJSXYtVnZJU2xpUkNDUG40aTU0M3dsa1BzTHVVZUF1NEtBdFBwazd3SWgtRll4bXZRWmtXQm9jaHRrVkxpaHQzVWhKZWo4dmJzaGdFV29qeDNONmpNQ0MzLXVCU3N3OUFmNmMtNzJF?oc=5",
       "datetime": 1788785385,
       "headlineKo": "그로시 \"사우디, IAEA에 더 많은 침해적 권한 부여 준비 중\" - 로이터 통신"
-    },
-    {
-      "headline": "Sweden to buy Lockheed Martin's Himars artillery rocket system in $729 mln deal - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNkUwazJZZE4xSlNLRHJ5ZFMyOW9RM1NQUkdrOGxHZFNxN25DaGRMRjhlcmV6MmpQYmVBUURwME5vLVhGQUdRTjJDTk43YUEwcGRnSElubmR5RFZyakVpdjUyWE5DU2N5LVM2ckhRTy1mNFp2eHJiakZLSjY4Zk13b1ZtOUJoaUg5aTZlbU1BSnEzWWJVckJjamVNZENDWmdyQVBOMTR5bGsweVFkbWlHLWVvdXV1QTBGaXZFa2pQaU5UVnp2WExYSWoxSmJPaGs?oc=5",
-      "datetime": 1788783227,
-      "headlineKo": "스웨덴, 록히드 마틴의 Himars 포병 로켓 시스템을 7억 2900만 달러에 구매 - Reuters"
-    },
-    {
-      "headline": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
-      "datetime": 1788780603,
-      "headlineKo": "논평: 중국의 원유 수입은 8월에도 약세를 유지했습니다. 이것이 계속될 수 있습니까? - 로이터"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788831214.0783634,
-  "_updated_label": "2026-09-08 10:34",
-  "_last_attempt_at": 1788831214.0783634,
-  "_last_success_at": 1788831214.0783634,
+  "_fetched_at": 1788834955.1435459,
+  "_updated_label": "2026-09-08 11:36",
+  "_last_attempt_at": 1788834955.1435459,
+  "_last_success_at": 1788834955.1435459,
   "_collection_status": "ok",
   "_collection_errors": []
 };
