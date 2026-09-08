@@ -300,6 +300,7 @@
   <div class="card" id="marketCard" style="display:none;">
     <h2>오늘의 시장 환경 <span style="font-weight:400;font-size:12px;color:var(--sub);">(금리·유가·달러 등 · 스캔 없이 바로 보여요)</span></h2>
     <div id="marketBody"></div>
+    <div id="tripodBody" style="margin-top:14px;padding-top:12px;border-top:1px solid var(--line);"></div>
   </div>
 
   <div class="card" id="earningsCalCard" style="display:none;">
@@ -425,6 +426,20 @@
 
 </div>
 
+<div id="tripodOverlay" class="overlay" onclick="if(event.target===this) closeTripodHistory()">
+  <div class="detail-panel" style="max-width:560px;">
+    <div class="detail-head">
+      <div class="row" style="justify-content:space-between;align-items:flex-start;">
+        <div>
+          <h2 style="font-size:17px;margin:0;">트라이팟 신호 변경 이력</h2>
+          <div class="sub" style="margin-top:4px;">QLD 기준 0 / 1.0 / 2.0배 · 목표비중이 바뀐 시점만 기록</div>
+        </div>
+        <span class="remove" style="font-size:16px;" onclick="closeTripodHistory()">✕ 닫기</span>
+      </div>
+    </div>
+    <div class="detail-body" id="tripodHistoryBody" style="padding:14px 0;"></div>
+  </div>
+</div>
 <div id="detailOverlay" class="overlay" onclick="if(event.target===this) closeDetail()">
   <div class="detail-panel">
     <div class="detail-head">
@@ -463,6 +478,7 @@
 <script src="insider_analysis_data.js" onerror="void 0"></script>
 <!-- 시장 환경 지표 + 시장 헤드라인 - 없으면 '오늘의 시장 환경' 카드만 숨겨짐 -->
 <script src="market_data.js" onerror="void 0"></script>
+<script src="tripod_signal_data.js" onerror="void 0"></script>
 <!-- 종목별 가격(OHLCV) - 실시간 조회 3곳이 다 실패했을 때만 쓰는 폴백. 없어도 대시보드는 정상 동작함 -->
 <script src="prices_data.js" onerror="void 0"></script>
 <!-- 종목 사업 핵심 요약(납품처·장점·위험도) - Claude가 WebSearch로 조사해 수동 작성, buy_signal_telegram.py
@@ -4366,6 +4382,57 @@ function renderMarketCard(){
     ${renderNewsLog('MARKET', '오늘의 시장 헤드라인 해석', 2)}
     <div class="sub" style="margin-top:10px;">지표 갱신: ${esc(M._updated_label||'-')} · 레벨은 최근 5년 일별 데이터 기준 백분위예요.</div>`;
 }
+
+// ---- 트라이팟 신호 (2026-09-08 추가) ----
+// 나스닥100 250일선 추세 + VIX10일평균 + 52주 낙폭으로 QLD 목표비중(0/1.0/2.0배)을 계산하는
+// 별도 규칙(자세한 근거는 세션 로그 참고). 여기서는 "지금 목표비중이 얼마고 최근에 언제 바뀌었는지"만
+// 시장환경 카드 한 켠에 보여줌 - 매수/매도 자동실행은 아니고 참고용 알림임.
+const TRIPOD_LEV_LABEL = {0:'현금 100%', 1:'QLD 50%+현금 50%', 2:'QLD 100%'};
+function tripodLevColor(lev){ return lev>=2 ? 'var(--up)' : (lev<=0 ? 'var(--down)' : '#876000'); }
+function renderTripodCard(){
+  const el = document.getElementById('tripodBody');
+  if(!el) return;
+  const T = (typeof TRIPOD_SIGNAL_DATA !== 'undefined') ? TRIPOD_SIGNAL_DATA : null;
+  if(!T || !T.current){ el.innerHTML = ''; return; }
+  const cur = T.current;
+  const hist = (T.history||[]).slice().reverse();  // 최신순
+  const recent = hist.slice(0, 5);
+  const rows = recent.map(h => `<tr>
+      <td style="padding:4px 8px 4px 0;white-space:nowrap;">${esc(h.date)}</td>
+      <td style="padding:4px 8px;white-space:nowrap;">${h.state==='up'?'상승장':'하락장'}</td>
+      <td style="padding:4px 8px;white-space:nowrap;">VIX10 ${h.vix10!=null?h.vix10.toFixed(1):'-'}</td>
+      <td style="padding:4px 8px;white-space:nowrap;">낙폭 ${h.drawdown!=null?(h.drawdown*100).toFixed(1):'-'}%</td>
+      <td class="v" style="padding:4px 0 4px 8px;white-space:nowrap;"><b style="color:${tripodLevColor(h.target_lev)};">${TRIPOD_LEV_LABEL[h.target_lev]||h.target_lev+'배'}</b></td>
+    </tr>`).join('');
+  el.innerHTML = `
+    <div class="row" style="justify-content:space-between;align-items:baseline;">
+      <h3 style="margin:0;">트라이팟 신호 <span style="font-weight:400;font-size:12px;color:var(--sub);">(나스닥100·VIX 기반 QLD 비중조절, 참고용)</span></h3>
+      <span style="font-family:var(--mono);font-size:14px;font-weight:800;color:${tripodLevColor(cur.target_lev)};">${TRIPOD_LEV_LABEL[cur.target_lev]||cur.target_lev+'배'}</span>
+    </div>
+    <div class="sub" style="margin-top:4px;">기준일 ${esc(cur.date)} · ${cur.state==='up'?'상승장':'하락장'} · VIX10 ${cur.vix10!=null?cur.vix10.toFixed(1):'-'} · 52주 낙폭 ${cur.drawdown!=null?(cur.drawdown*100).toFixed(1):'-'}%</div>
+    <table style="margin-top:8px;font-size:12.5px;width:100%;">${rows}</table>
+    ${hist.length>5 ? `<div class="sub" style="margin-top:6px;"><span class="remove" style="cursor:pointer;" onclick="openTripodHistory()">전체 기록 보기 (${hist.length}건) →</span></div>` : ''}
+  `;
+}
+function openTripodHistory(){
+  const T = (typeof TRIPOD_SIGNAL_DATA !== 'undefined') ? TRIPOD_SIGNAL_DATA : null;
+  const body = document.getElementById('tripodHistoryBody');
+  if(!T || !body) return;
+  const hist = (T.history||[]).slice().reverse();
+  const rows = hist.map(h => `<tr>
+      <td style="padding:5px 8px 5px 0;white-space:nowrap;">${esc(h.date)}</td>
+      <td style="padding:5px 8px;white-space:nowrap;">${h.state==='up'?'상승장':'하락장'}</td>
+      <td style="padding:5px 8px;white-space:nowrap;">${h.vix10!=null?h.vix10.toFixed(1):'-'}</td>
+      <td style="padding:5px 8px;white-space:nowrap;">${h.drawdown!=null?(h.drawdown*100).toFixed(1):'-'}%</td>
+      <td class="v" style="padding:5px 0 5px 8px;white-space:nowrap;"><b style="color:${tripodLevColor(h.target_lev)};">${TRIPOD_LEV_LABEL[h.target_lev]||h.target_lev+'배'}</b></td>
+    </tr>`).join('');
+  body.innerHTML = `<table style="width:100%;font-size:12.5px;">
+    <thead><tr class="sub"><th style="text-align:left;padding:4px 8px 4px 0;">날짜</th><th style="text-align:left;padding:4px 8px;">상태</th><th style="text-align:left;padding:4px 8px;">VIX10</th><th style="text-align:left;padding:4px 8px;">낙폭</th><th style="text-align:left;padding:4px 0 4px 8px;">목표비중</th></tr></thead>
+    <tbody>${rows}</tbody></table>`;
+  document.getElementById('tripodOverlay').classList.add('open');
+}
+function closeTripodHistory(){ document.getElementById('tripodOverlay').classList.remove('open'); }
+
 function earningsBadge(ticker){
   const e = newsEntry(ticker);
   const ne = e && e.nextEarnings;
@@ -6967,6 +7034,7 @@ renderTdKeyStatus();
 renderCustomTickerList();
 renderHoldings();
 renderMarketCard();  // 시장 환경은 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
+renderTripodCard();  // 트라이팟 신호도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderDataStatusLine();  // 데이터 상태도 캐시 파일만 읽으므로 스캔 전에도 바로 표시됨
 renderEarningsCalendar();  // 다가오는 실적 발표도 news_data.js만 읽으므로 스캔 전에도 바로 표시됨
 const savedFgi = localStorage.getItem('compass_fgi_manual');
