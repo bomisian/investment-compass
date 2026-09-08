@@ -2,11 +2,11 @@
 const FUNDAMENTAL_WINDOW_SCORES_DATA = {
   "schemaVersion": 1,
   "scoringVersion": "fundamental-window-v1",
-  "generatedAt": 1788894023.0060017,
+  "generatedAt": 1788894026.0733466,
   "records": {
     "MSFT": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -74,7 +74,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GOOGL": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -112,7 +112,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMZN": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -210,7 +210,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "META": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -308,7 +308,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AAPL": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -346,7 +346,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSLA": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -384,7 +384,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ORCL": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -422,7 +422,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CRM": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -535,7 +535,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PLTR": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -633,7 +633,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "NVDA": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -671,7 +671,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMD": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -709,7 +709,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AVGO": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -747,7 +747,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "QCOM": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -785,7 +785,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ARM": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -823,8 +823,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MRVL": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
-      "hasConfirmedEvidence": true,
+      "calculatedAt": 1788894026.0733466,
+      "hasConfirmedEvidence": false,
       "windows": {
         "7": {
           "overall": {
@@ -837,106 +837,31 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "30": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         },
         "90": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         }
       },
-      "events": [
-        {
-          "ticker": "MRVL",
-          "category": "Growth",
-          "eventType": "official_revenue_growth",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-08-01",
-          "periodKind": "quarter",
-          "filedAt": "2026-08-28",
-          "effectiveAt": 1787875200.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-          "form": "10-Q",
-          "summary": "2026-08-01 기준(10-Q, 2026-08-28 공시) 매출이 전년 동기 대비 +36.5% 변했어요.",
-          "evidence": {
-            "metric": "revenue",
-            "current": 2739300000,
-            "previous": 2006100000.0,
-            "changePct": 36.54852699267235,
-            "periodKind": "quarter"
-          }
-        },
-        {
-          "ticker": "MRVL",
-          "category": "Margin",
-          "eventType": "official_operating_margin_expansion",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-08-01",
-          "periodKind": "quarter",
-          "filedAt": "2026-08-28",
-          "effectiveAt": 1787875200.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
-          "form": "10-Q",
-          "summary": "2026-08-01 기준(10-Q, 2026-08-28 공시) 영업이익률이 전년 동기 대비 +2.3%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
-          "evidence": {
-            "metric": "operating_margin",
-            "currentOpIncome": 459700000,
-            "currentRevenue": 2739300000,
-            "previousOpIncome": 290100000,
-            "previousRevenue": 2006100000.0,
-            "changePercentagePoints": 2.3207652755907553,
-            "periodKind": "quarter"
-          }
-        }
-      ]
+      "events": []
     },
     "INTC": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -974,7 +899,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSM": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1012,7 +937,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ASML": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1050,7 +975,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMAT": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1088,7 +1013,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LRCX": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1126,7 +1051,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "KLAC": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1194,7 +1119,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MU": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1232,8 +1157,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "SNDK": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
-      "hasConfirmedEvidence": true,
+      "calculatedAt": 1788894026.0733466,
+      "hasConfirmedEvidence": false,
       "windows": {
         "7": {
           "overall": {
@@ -1246,107 +1171,32 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "30": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         },
         "90": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         }
       },
-      "events": [
-        {
-          "ticker": "SNDK",
-          "category": "Growth",
-          "eventType": "official_revenue_growth",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-17",
-          "effectiveAt": 1786924800.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-17 공시) 매출이 전년 동기 대비 +175.3% 변했어요.",
-          "evidence": {
-            "metric": "revenue",
-            "current": 20248000000,
-            "previous": 7355000000.0,
-            "changePct": 175.29571719918425,
-            "periodKind": "annual"
-          }
-        },
-        {
-          "ticker": "SNDK",
-          "category": "Margin",
-          "eventType": "official_operating_margin_expansion",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-17",
-          "effectiveAt": 1786924800.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-17 공시) 영업이익률이 전년 동기 대비 +79.9%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
-          "evidence": {
-            "metric": "operating_margin",
-            "currentOpIncome": 12389000000,
-            "currentRevenue": 20248000000,
-            "previousOpIncome": -1377000000,
-            "previousRevenue": 7355000000.0,
-            "changePercentagePoints": 79.9082478557525,
-            "periodKind": "annual"
-          }
-        }
-      ]
+      "events": []
     },
     "WDC": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
-      "hasConfirmedEvidence": true,
+      "calculatedAt": 1788894026.0733466,
+      "hasConfirmedEvidence": false,
       "windows": {
         "7": {
           "overall": {
@@ -1359,106 +1209,31 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "30": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         },
         "90": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         }
       },
-      "events": [
-        {
-          "ticker": "WDC",
-          "category": "Growth",
-          "eventType": "official_revenue_growth",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-14",
-          "effectiveAt": 1786665600.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-14 공시) 매출이 전년 동기 대비 +35.7% 변했어요.",
-          "evidence": {
-            "metric": "revenue",
-            "current": 12919000000,
-            "previous": 9520000000.0,
-            "changePct": 35.70378151260505,
-            "periodKind": "annual"
-          }
-        },
-        {
-          "ticker": "WDC",
-          "category": "Margin",
-          "eventType": "official_operating_margin_expansion",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-14",
-          "effectiveAt": 1786665600.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-14 공시) 영업이익률이 전년 동기 대비 +10.0%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
-          "evidence": {
-            "metric": "operating_margin",
-            "currentOpIncome": 4453000000,
-            "currentRevenue": 12919000000,
-            "previousOpIncome": 2334000000,
-            "previousRevenue": 9520000000.0,
-            "changePercentagePoints": 9.951805398992173,
-            "periodKind": "annual"
-          }
-        }
-      ]
+      "events": []
     },
     "ANET": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1526,7 +1301,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "COHR": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1602,7 +1377,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LITE": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1640,7 +1415,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GEV": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1678,7 +1453,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "CEG": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1776,7 +1551,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VST": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1814,7 +1589,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ETN": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1882,7 +1657,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PWR": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1950,7 +1725,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "HUBB": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2048,7 +1823,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VRT": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2146,7 +1921,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MOD": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2244,8 +2019,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "STX": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
-      "hasConfirmedEvidence": true,
+      "calculatedAt": 1788894026.0733466,
+      "hasConfirmedEvidence": false,
       "windows": {
         "7": {
           "overall": {
@@ -2268,81 +2043,21 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "categories": {
-            "Growth": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            },
-            "Margin": {
-              "score": 2,
-              "change": 2,
-              "positiveEvents": 1,
-              "negativeEvents": 0,
-              "eventCount": 1
-            }
-          },
           "overall": {
-            "score": 4,
-            "change": 4,
-            "positiveEvents": 2,
+            "score": 0,
+            "change": -4,
+            "positiveEvents": 0,
             "negativeEvents": 0,
-            "eventCount": 2
-          }
+            "eventCount": 0
+          },
+          "categories": {}
         }
       },
-      "events": [
-        {
-          "ticker": "STX",
-          "category": "Growth",
-          "eventType": "official_revenue_growth",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-04",
-          "effectiveAt": 1785801600.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-04 공시) 매출이 전년 동기 대비 +34.1% 변했어요.",
-          "evidence": {
-            "metric": "revenue",
-            "current": 12195000000,
-            "previous": 9097000000.0,
-            "changePct": 34.05518302737167,
-            "periodKind": "annual"
-          }
-        },
-        {
-          "ticker": "STX",
-          "category": "Margin",
-          "eventType": "official_operating_margin_expansion",
-          "direction": 1,
-          "baseScore": 2,
-          "periodEnd": "2026-07-03",
-          "periodKind": "annual",
-          "filedAt": "2026-08-04",
-          "effectiveAt": 1785801600.0,
-          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000159/stx-20260703.htm",
-          "form": "10-K",
-          "summary": "2026-07-03 기준(10-K, 2026-08-04 공시) 영업이익률이 전년 동기 대비 +12.8%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
-          "evidence": {
-            "metric": "operating_margin",
-            "currentOpIncome": 4094000000,
-            "currentRevenue": 12195000000,
-            "previousOpIncome": 1890000000,
-            "previousRevenue": 9097000000.0,
-            "changePercentagePoints": 12.795055684974791,
-            "periodKind": "annual"
-          }
-        }
-      ]
+      "events": []
     },
     "EME": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2410,7 +2125,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "FIX": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -2448,7 +2163,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "BE": {
       "asOfDate": "2026-09-08",
-      "calculatedAt": 1788894023.0060017,
+      "calculatedAt": 1788894026.0733466,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
