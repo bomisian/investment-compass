@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 92.43000030517578,
+      "current": 92.91000366210938,
       "prevClose": 91.4800033569336,
-      "changeAbs": 0.9499969482421875,
-      "changePct": 1.0384749818334849,
-      "pctRank": 86.48648648648648,
+      "changeAbs": 1.4300003051757812,
+      "changePct": 1.5631834856807498,
+      "pctRank": 86.80445151033386,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -18.167328196094967,
-      "ma20": 85.95050086975098,
-      "ma60": 80.42716687520345,
-      "chg1m": 14.25,
-      "chg3m": 1.1299972534179688,
-      "chg1mPct": 18.227168002526348,
-      "chg3mPct": 1.2376749349913772,
+      "drawdown1y": -17.742358413091296,
+      "ma20": 85.97450103759766,
+      "ma60": 80.43516693115234,
+      "chg1m": 14.730003356933594,
+      "chg3m": 1.6100006103515625,
+      "chg1mPct": 18.841140060674082,
+      "chg3mPct": 1.7634179151547846,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4473.60009765625,
+      "current": 4477.89990234375,
       "prevClose": 4429.7998046875,
-      "changeAbs": 43.80029296875,
-      "changePct": 0.9887646146537291,
-      "pctRank": 91.25596184419715,
+      "changeAbs": 48.10009765625,
+      "changePct": 1.0858300550140374,
+      "pctRank": 91.41494435612083,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -15.88447315357402,
-      "ma20": 4472.7449951171875,
-      "ma60": 4236.871667480469,
-      "chg1m": 132.89990234375,
-      "chg3m": 137.7001953125,
-      "chg1mPct": 3.0617157685128293,
-      "chg3mPct": 3.1758158263309264,
+      "drawdown1y": -15.803625440606728,
+      "ma20": 4472.959985351563,
+      "ma60": 4236.943330891927,
+      "chg1m": 137.19970703125,
+      "chg3m": 142.0,
+      "chg1mPct": 3.1607736277066834,
+      "chg3mPct": 3.2749833528961907,
       "lastDate": "2026-09-08",
       "bars": 1258,
       "symbol": "GC=F",
@@ -219,6 +219,41 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Explainer: Why isn't oil above $100 despite supply disruptions? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbEwxQTVrUWVzenpNQVoxdkFTWDRCckVzNmNFR1B4bTJoSDhOVTZZZVlFb2FjMHdGWFU2WlpfbmE2eksxeXBSM1hhcnZwSDUyTVJ3M2dJaUtqejdmY3FBSWRvZmFkOVVGeVdZbmFrTUlpZ0lIWTdCYTdpcUx5MHV3ZFBnSFE3dGV4cG9JYWlpR2J5MDE0WjdueUV3V1FkaEc5ZUlR?oc=5",
+      "datetime": 1788832800,
+      "headlineKo": "설명: 공급 중단에도 불구하고 유가가 100달러를 넘지 못하는 이유는 무엇입니까? - 로이터"
+    },
+    {
+      "headline": "Iran says it plans new Gulf 'exclusion zone', threatens US with new missiles - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "datetime": 1788832140,
+      "headlineKo": "이란, 걸프 지역에 새로운 '차단 구역' 계획 발표, 신형 미사일로 미국 위협 - 로이터"
+    },
+    {
+      "headline": "Asia stocks waver as yen surges, Iran warns of retaliation - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
+      "datetime": 1788832080,
+      "headlineKo": "엔화 급등으로 아시아 증시 흔들리고 이란 보복 경고 - 로이터 통신"
+    },
+    {
+      "headline": "Nvidia-backed Firmus signs deal with OpenAI for Malaysia data centre capacity - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTEl5UFVvaWZBUmFEZkVObFBBRVk3MHRBV29pSnoxSDJXSFVxUTl0SGR6NjdlamEyWUF5WF9LQW5nWVFRUTZhTnRjalplVWVEc3NPTEk4NllZR1B6VWVJbE1UaDlPLUFycVpRenZNRWRnUGlvREIyNy1kLUYyVTl0WU9IaG91MlV2dFpfYnpUNk1idFVMbmI0T2pmWHRWalY3UHRvMU1aazJhejh2eGJnS1pqUXpnNWdXY2k4THEzdV82OURFWjFz?oc=5",
+      "datetime": 1788831600,
+      "headlineKo": "Nvidia가 지원하는 Firmus, 말레이시아 데이터 센터 용량을 위해 OpenAI와 계약 체결 - Reuters"
+    },
+    {
+      "headline": "Yen extends rally to new seven-month high; dollar subdued ahead of CPI - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
+      "datetime": 1788828960,
+      "headlineKo": "엔화는 7개월 최고치까지 상승세를 이어갔습니다. CPI 앞두고 달러 하락세 - Reuters"
+    },
+    {
       "headline": "Oil rises as risks of prolonged Mideast conflict heighten supply worries - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
@@ -254,11 +289,11 @@ const MARKET_DATA = {
       "headlineKo": "수사관들이 마이애미 화물기 추락 사고에서 블랙박스를 회수했다 - reuters.com"
     },
     {
-      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - reuters.com",
+      "headline": "Israeli clearance of Gaza rubble could destroy 'evidence', says UN expert - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdVVOUVVCYV9vTldTeTg1Y2gwQmFkM3VnYl9fNV9ldGZkNmZ4TEJib0xmd3RTNzlqSXdLRmdCX3VJdmZlRk9YN3JpbE5wakwtWk1HaTAzNWRBM2VKdzVqeUk3SzdpOWRBcWRHMktlTGJxZHN4aVVPSmEyUHI1MzEzbTViVjlfRXM4SkVMRDhGdHhRcUN0RTBjbWViUnU0RDBGT1VZYWE4c004RllSeEtyWVh4Yi1jSlJOdzBieFRB?oc=5",
       "datetime": 1788801218,
-      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다 유엔 전문가 경고 - reuters.com"
+      "headlineKo": "이스라엘 가자지구 잔해 제거, '증거' 파괴할 수 있다고 유엔 전문가 \"로이터\""
     },
     {
       "headline": "UK's Burnham, Trump discuss working towards Ukraine-Russia ceasefire, Downing Street says - Reuters",
@@ -266,51 +301,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmxrUWIzN25kQzlJZVBjcy11SXlFeWJQZElmWi1ocVU1Qm94T2w3OXV4djNYd2JKTEE0QTFaeWVvQ2I4MmZZOEhwZVc2U1JmUEJTbXQ4SjdBb3lYNklqZDZJZ2s5MndibnlnMGw2YVJZWnB3R2MxWVNoWTlSSFlHNDFKdWd0STNGRFBselBtUDVrbGlsLUthbl9iQTFTMkFNYXhxUGJJWjJrT0oyNjFfRlJKNV9wWUE?oc=5",
       "datetime": 1788801091,
       "headlineKo": "다우닝 스트리트는 영국 번햄과 트럼프가 우크라이나-러시아 휴전을 위한 노력을 논의했다고 다우닝 스트리트가 밝혔습니다."
-    },
-    {
-      "headline": "Gulf equities mixed amid US-Iran flare-ups - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdmdIRU5UbW8yRmxOUXhfR0trOVEtdHVrMC1Nc2N0OXVqcVhUbWtHc2hTVFZHd1NZNjVDdnF0VldrcXUwOHVQb2xxMXRRTVdBRjRHU252Ty1iR09JQi1QakZkV1hFVnd3WXBKNllJaWRoOUxYTW14dGhpaEM1WVpaeko2dmZVM1U5RG1fTGE4TzBCdlN3blQ0Vm5ISF9HOGl2eXdiOFg4REtmTHd0RXB2Z1pLZV9aSjc1eVE?oc=5",
-      "datetime": 1788791258,
-      "headlineKo": "미국-이란 갈등 속에 걸프 증시 혼조세 - Reuters"
-    },
-    {
-      "headline": "Syrian nuclear reactor could have been useful for weapons, IAEA chief says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUHJMdjM1XzU0QWJDZXR0SFRSWkNKaGtZMzI2NURjQi1zNm12bDVIaHlGbDR3Tm5XZnk2RHoyZVZrQ21hR0hNSFdqZ1hWUVJWNEpCTkMwbzVfRTc1TkE0bmYxYUN0aVNtMWFsTEd4cktFWHV0RWdIRWdQZXZQVmpmY2x2RDh2VE02TzNwM0FqOElRXy15OG1IZ0F6bEI0dHJuRjNDYzMzWkpxVFlBbkpfTy1vX2VvRXM1eDJhWUtWVlk?oc=5",
-      "datetime": 1788790783,
-      "headlineKo": "IAEA 사무총장 \"시리아 원자로가 무기로 유용했을 수도\" - 로이터 통신"
-    },
-    {
-      "headline": "'Ah! Rejected, yet again': How this 45-year-old turned his 'demoralizing' job search into a one-man show",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/07/45-year-old-turns-job-search-into-a-one-man-show.html",
-      "datetime": 1788788701,
-      "headlineKo": "'아! 또 다시 거절당했다': 이 45세 청년이 어떻게 '사기 꺾이는' 구직활동을 원맨쇼로 만들었는지"
-    },
-    {
-      "headline": "UAE says its energy exports will not be 'held hostage' by Iran war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2k1aEFKNWUzaXRzZXlkTVZNb3MyOTZoSjBoa2N5Zmtpd1Z2VVRWbV9JcnNHN0hkS1ZPRXEyb1UxdGMzN1pFNUFCUmpPVTNvQndsa3c1TzBwNEVvVXNLVXZjNGVnbzF6TUdGS2N5SVdLT2k2Nlk1TmREb0ZlTVp1cGlLRzJTMWJqLTN4VVRiY2s1emV6YldrQnJHQWRmZFBKRUdDalJjb1lFM1NxaHI2eDdWWFN1R0tydFJYOUh3Z0phb0paZUNRMw?oc=5",
-      "datetime": 1788786803,
-      "headlineKo": "UAE는 에너지 수출이이란 전쟁에 '인질로 잡히지' 않을 것이라고 말했습니다 - Reuters"
-    },
-    {
-      "headline": "Saudi Arabia preparing to grant IAEA more intrusive powers, Grossi says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTEZFOFdkQkNyVk5LRXRVVEdIbWtYY0VkUENMOGFSMUhJdmxXWmFyR0d4UVQxRk4yVXd0N1BWR2ctQnVQSHlCOFV0OUd4UTczWTZmc2NJSXYtVnZJU2xpUkNDUG40aTU0M3dsa1BzTHVVZUF1NEtBdFBwazd3SWgtRll4bXZRWmtXQm9jaHRrVkxpaHQzVWhKZWo4dmJzaGdFV29qeDNONmpNQ0MzLXVCU3N3OUFmNmMtNzJF?oc=5",
-      "datetime": 1788785385,
-      "headlineKo": "그로시 \"사우디, IAEA에 더 많은 침해적 권한 부여 준비 중\" - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 41.8571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788834955.1435459,
-  "_updated_label": "2026-09-08 11:36",
-  "_last_attempt_at": 1788834955.1435459,
-  "_last_success_at": 1788834955.1435459,
+  "_fetched_at": 1788838693.8228402,
+  "_updated_label": "2026-09-08 12:38",
+  "_last_attempt_at": 1788838693.8228402,
+  "_last_success_at": 1788838693.8228402,
   "_collection_status": "ok",
   "_collection_errors": []
 };
