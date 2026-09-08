@@ -12,7 +12,7 @@ const SIGMA_DATA = {
     "sigmaMove": 12.86126363602427,
     "sigmaScore": 0.07619628183385375,
     "zScore": 0.07619628183385375,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.07619628183385375,
     "sector": "지수ETF",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -35,7 +35,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "SPY": {
     "ticker": "SPY",
@@ -46,7 +46,7 @@ const SIGMA_DATA = {
     "sigmaMove": 9.355833071554802,
     "sigmaScore": -0.16246757713873952,
     "zScore": -0.16246757713873952,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.16246757713873952,
     "sector": "지수ETF",
     "benchmarkTicker": null,
     "expirationDays": 7,
@@ -69,7 +69,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "MSFT": {
     "ticker": "MSFT",
@@ -80,7 +80,7 @@ const SIGMA_DATA = {
     "sigmaMove": 13.841584872239444,
     "sigmaScore": -0.42781230592120867,
     "zScore": -0.42781230592120867,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.42781230592120867,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -103,7 +103,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "GOOGL": {
     "ticker": "GOOGL",
@@ -114,7 +114,7 @@ const SIGMA_DATA = {
     "sigmaMove": 10.598257111893574,
     "sigmaScore": -0.27079878199659213,
     "zScore": -0.27079878199659213,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.27079878199659213,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -137,7 +137,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "AMZN": {
     "ticker": "AMZN",
@@ -148,7 +148,7 @@ const SIGMA_DATA = {
     "sigmaMove": 8.943650068737526,
     "sigmaScore": -0.19678875538490748,
     "zScore": -0.19678875538490748,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.19678875538490748,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -171,7 +171,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "META": {
     "ticker": "META",
@@ -182,7 +182,7 @@ const SIGMA_DATA = {
     "sigmaMove": 24.76860616333687,
     "sigmaScore": 0.10860532173942275,
     "zScore": 0.10860532173942275,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.10860532173942275,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -205,7 +205,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "AAPL": {
     "ticker": "AAPL",
@@ -216,7 +216,7 @@ const SIGMA_DATA = {
     "sigmaMove": 11.529742079316968,
     "sigmaScore": -0.25412473719055,
     "zScore": -0.25412473719055,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.25412473719055,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -239,7 +239,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "TSLA": {
     "ticker": "TSLA",
@@ -250,7 +250,7 @@ const SIGMA_DATA = {
     "sigmaMove": 18.110006146073385,
     "sigmaScore": 0.38736078522496203,
     "zScore": 0.38736078522496203,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.38736078522496203,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -273,7 +273,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "ORCL": {
     "ticker": "ORCL",
@@ -284,7 +284,7 @@ const SIGMA_DATA = {
     "sigmaMove": 20.963301702389384,
     "sigmaScore": 0.42073560021384665,
     "zScore": 0.42073560021384665,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.42073560021384665,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -307,7 +307,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "CRM": {
     "ticker": "CRM",
@@ -318,7 +318,7 @@ const SIGMA_DATA = {
     "sigmaMove": 11.659239273501047,
     "sigmaScore": -0.9837705711693453,
     "zScore": -0.9837705711693453,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.9837705711693453,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -341,7 +341,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "PLTR": {
     "ticker": "PLTR",
@@ -352,7 +352,7 @@ const SIGMA_DATA = {
     "sigmaMove": 9.489587976934326,
     "sigmaScore": -0.09234299731455844,
     "zScore": -0.09234299731455844,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": -0.09234299731455844,
     "sector": "빅테크·AI SW",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -375,7 +375,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "NVDA": {
     "ticker": "NVDA",
@@ -386,7 +386,7 @@ const SIGMA_DATA = {
     "sigmaMove": 9.609193787457292,
     "sigmaScore": 0.05827726768552683,
     "zScore": 0.05827726768552683,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.05827726768552683,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -409,7 +409,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "AMD": {
     "ticker": "AMD",
@@ -420,7 +420,7 @@ const SIGMA_DATA = {
     "sigmaMove": 28.725082739773914,
     "sigmaScore": 0.6530870395743386,
     "zScore": 0.6530870395743386,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.6530870395743386,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -443,7 +443,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "AVGO": {
     "ticker": "AVGO",
@@ -454,7 +454,7 @@ const SIGMA_DATA = {
     "sigmaMove": 16.86695082032599,
     "sigmaScore": 0.7336832917712169,
     "zScore": 0.7336832917712169,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.7336832917712169,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -477,7 +477,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "QCOM": {
     "ticker": "QCOM",
@@ -488,7 +488,7 @@ const SIGMA_DATA = {
     "sigmaMove": 8.435089910833339,
     "sigmaScore": 1.0752691626654662,
     "zScore": 1.0752691626654662,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 1.0752691626654662,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -511,7 +511,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "ARM": {
     "ticker": "ARM",
@@ -522,7 +522,7 @@ const SIGMA_DATA = {
     "sigmaMove": 18.883117362522007,
     "sigmaScore": 0.3881783367184856,
     "zScore": 0.3881783367184856,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.3881783367184856,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -545,7 +545,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "MRVL": {
     "ticker": "MRVL",
@@ -556,7 +556,7 @@ const SIGMA_DATA = {
     "sigmaMove": 15.794861542556228,
     "sigmaScore": 0.1880359136229859,
     "zScore": 0.1880359136229859,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.1880359136229859,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -579,7 +579,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "INTC": {
     "ticker": "INTC",
@@ -590,7 +590,7 @@ const SIGMA_DATA = {
     "sigmaMove": 6.81163786765999,
     "sigmaScore": 0.7868886623875807,
     "zScore": 0.7868886623875807,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.7868886623875807,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -613,7 +613,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "TSM": {
     "ticker": "TSM",
@@ -624,7 +624,7 @@ const SIGMA_DATA = {
     "sigmaMove": 16.896325248288544,
     "sigmaScore": 0.5977634754952809,
     "zScore": 0.5977634754952809,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.5977634754952809,
     "sector": "반도체 설계·파운드리",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -647,7 +647,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "ASML": {
     "ticker": "ASML",
@@ -658,7 +658,7 @@ const SIGMA_DATA = {
     "sigmaMove": 89.53128072259226,
     "sigmaScore": 0.6116299166466285,
     "zScore": 0.6116299166466285,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.6116299166466285,
     "sector": "반도체 장비",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -681,7 +681,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "AMAT": {
     "ticker": "AMAT",
@@ -692,7 +692,7 @@ const SIGMA_DATA = {
     "sigmaMove": 28.476197822435495,
     "sigmaScore": 0.4213595626964405,
     "zScore": 0.4213595626964405,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.4213595626964405,
     "sector": "반도체 장비",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -715,7 +715,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "LRCX": {
     "ticker": "LRCX",
@@ -726,7 +726,7 @@ const SIGMA_DATA = {
     "sigmaMove": 20.865798258680453,
     "sigmaScore": 0.39370630521998246,
     "zScore": 0.39370630521998246,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.39370630521998246,
     "sector": "반도체 장비",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -749,7 +749,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "KLAC": {
     "ticker": "KLAC",
@@ -760,7 +760,7 @@ const SIGMA_DATA = {
     "sigmaMove": 12.412279987832505,
     "sigmaScore": 0.2739217855073618,
     "zScore": 0.2739217855073618,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.2739217855073618,
     "sector": "반도체 장비",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -783,7 +783,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "MU": {
     "ticker": "MU",
@@ -794,7 +794,7 @@ const SIGMA_DATA = {
     "sigmaMove": 68.96554478902978,
     "sigmaScore": 0.17533009964371601,
     "zScore": 0.17533009964371601,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.17533009964371601,
     "sector": "메모리·스토리지",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -817,7 +817,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "SNDK": {
     "ticker": "SNDK",
@@ -828,7 +828,7 @@ const SIGMA_DATA = {
     "sigmaMove": 158.5230725618066,
     "sigmaScore": 0.27992770568270825,
     "zScore": 0.27992770568270825,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.27992770568270825,
     "sector": "메모리·스토리지",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -851,7 +851,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "WDC": {
     "ticker": "WDC",
@@ -862,7 +862,7 @@ const SIGMA_DATA = {
     "sigmaMove": 38.68233771769987,
     "sigmaScore": 0.26756176491488104,
     "zScore": 0.26756176491488104,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.26756176491488104,
     "sector": "메모리·스토리지",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -885,7 +885,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "ANET": {
     "ticker": "ANET",
@@ -896,7 +896,7 @@ const SIGMA_DATA = {
     "sigmaMove": 11.894694635158038,
     "sigmaScore": 0.22909424639293563,
     "zScore": 0.22909424639293563,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.22909424639293563,
     "sector": "AI 네트워킹·광통신",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -919,7 +919,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "COHR": {
     "ticker": "COHR",
@@ -930,7 +930,7 @@ const SIGMA_DATA = {
     "sigmaMove": 24.83912402032977,
     "sigmaScore": 0.2862426172243988,
     "zScore": 0.2862426172243988,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.2862426172243988,
     "sector": "AI 네트워킹·광통신",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -953,7 +953,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "LITE": {
     "ticker": "LITE",
@@ -964,7 +964,7 @@ const SIGMA_DATA = {
     "sigmaMove": 72.50304482765978,
     "sigmaScore": 0.25178259652687374,
     "zScore": 0.25178259652687374,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.25178259652687374,
     "sector": "AI 네트워킹·광통신",
     "benchmarkTicker": "QQQ",
     "expirationDays": 7,
@@ -987,7 +987,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "GEV": {
     "ticker": "GEV",
@@ -998,7 +998,7 @@ const SIGMA_DATA = {
     "sigmaMove": 54.27426697689648,
     "sigmaScore": 0.27609742491669803,
     "zScore": 0.27609742491669803,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.27609742491669803,
     "sector": "AI 전력·인프라",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1021,7 +1021,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "CEG": {
     "ticker": "CEG",
@@ -1032,7 +1032,7 @@ const SIGMA_DATA = {
     "sigmaMove": 16.420335833373514,
     "sigmaScore": 0.1543819619667648,
     "zScore": 0.1543819619667648,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.1543819619667648,
     "sector": "AI 전력·인프라",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1055,7 +1055,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "VST": {
     "ticker": "VST",
@@ -1066,7 +1066,7 @@ const SIGMA_DATA = {
     "sigmaMove": 7.901202466513032,
     "sigmaScore": 0.4050012592139553,
     "zScore": 0.4050012592139553,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.4050012592139553,
     "sector": "AI 전력·인프라",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1089,7 +1089,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "ETN": {
     "ticker": "ETN",
@@ -1100,7 +1100,7 @@ const SIGMA_DATA = {
     "sigmaMove": 20.286081463896437,
     "sigmaScore": 0.6368890380899935,
     "zScore": 0.6368890380899935,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.6368890380899935,
     "sector": "AI 전력·인프라",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1123,7 +1123,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "PWR": {
     "ticker": "PWR",
@@ -1198,7 +1198,7 @@ const SIGMA_DATA = {
     "sigmaMove": 19.34179610606711,
     "sigmaScore": 0.2629017195297117,
     "zScore": 0.2629017195297117,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.2629017195297117,
     "sector": "AI 전력·인프라",
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1221,7 +1221,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "MOD": {
     "ticker": "MOD",
@@ -1264,7 +1264,7 @@ const SIGMA_DATA = {
     "sigmaMove": 67.83730020085122,
     "sigmaScore": 0.43906483684263,
     "zScore": 0.43906483684263,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.43906483684263,
     "sector": "메모리·스토리지",
     "benchmarkTicker": "SOXX",
     "expirationDays": 7,
@@ -1287,7 +1287,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "EME": {
     "ticker": "EME",
@@ -1362,7 +1362,7 @@ const SIGMA_DATA = {
     "sigmaMove": 22.548771993347195,
     "sigmaScore": 0.46477216173893143,
     "zScore": 0.46477216173893143,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.46477216173893143,
     "sector": null,
     "benchmarkTicker": null,
     "expirationDays": 7,
@@ -1385,7 +1385,7 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   },
   "BE": {
     "ticker": "BE",
@@ -1396,7 +1396,7 @@ const SIGMA_DATA = {
     "sigmaMove": 33.61017585384638,
     "sigmaScore": 0.4815505169914642,
     "zScore": 0.4815505169914642,
-    "previousSigmaScore": 0.0,
+    "previousSigmaScore": 0.4815505169914642,
     "sector": null,
     "benchmarkTicker": "SPY",
     "expirationDays": 7,
@@ -1419,6 +1419,6 @@ const SIGMA_DATA = {
     "captureTiming": "after_anchor",
     "optionSampleCount": 6,
     "_fetched_at": 1788541318.777095,
-    "_updated_label": "2026-09-08 22:39"
+    "_updated_label": "2026-09-08 23:00"
   }
 };
