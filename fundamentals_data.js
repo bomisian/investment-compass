@@ -118,8 +118,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 44.84,
     "name": "Alphabet Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:19"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:27"
   },
   "MSFT": {
     "forwardPE": 22.94147,
@@ -684,8 +684,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 23.24,
     "name": "Qualcomm Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:19"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:28"
   },
   "ARM": {
     "forwardPE": 98.30982,
@@ -1024,8 +1024,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 6.25,
     "name": "Coherent Corp",
     "theme": "AI 네트워킹·광통신",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:20"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:28"
   },
   "LITE": {
     "forwardPE": 38.46333,
@@ -1092,8 +1092,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 74.29,
     "name": "GE Vernova Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:20"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:28"
   },
   "CEG": {
     "forwardPE": 20.82629,
@@ -1405,8 +1405,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 50.519999999999996,
     "name": "Seagate Technology Holdings PLC",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:20"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:28"
   },
   "EME": {
     "forwardPE": 25.56801,
@@ -1517,7 +1517,7 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 7.140000000000001,
     "name": "Bloom Energy Corp",
     "theme": "Electrical Equipment",
-    "_fetched_at": 1788754793.4131367,
-    "_updated_label": "2026-09-07 13:20"
+    "_fetched_at": 1788827276.5996363,
+    "_updated_label": "2026-09-08 09:28"
   }
 };
