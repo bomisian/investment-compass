@@ -7296,7 +7296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -7312,10 +7312,159 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
+        "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3ee56adc580aeb1cfdce31ba37534e7d5f9b8531f9126d2dfb8877003cf73321",
-        "datetime": 1788793200,
+        "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+        "datetime": 1788818172,
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788833089.7311797
+        },
+        "headlineKo": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공"
+      },
+      {
+        "headline": "Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+        "datetime": 1788818100,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 2,720%, 2.51%, 20%, $5 trillion, 2.51 %, $ 319.97, $4.7, $ 317.86.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "2,720%",
+            "2.51%",
+            "20%",
+            "$5 trillion",
+            "2.51 %",
+            "$ 319.97",
+            "$4.7",
+            "$ 317.86"
+          ],
+          "sourceExcerpt": [
+            "Tim Cook Delivered a 2,720% Total Return Over 15 Years.",
+            "Here's Whether John Ternus Can Do the Same for Apple Investors.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
+          ],
+          "analysisUpdatedAt": 1788833090.7340715
+        },
+        "headlineKo": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다."
+      },
+      {
+        "headline": "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=93b928de6cf085ab63c387d28622e8c12a0bb9aa7cf6df89e6aaf8d2d6c224f7",
+        "datetime": 1788817347,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
@@ -7327,7 +7476,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
+            "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7351,163 +7500,35 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Is Apple Stock a Buy Now Ahead of its Product Launch Event?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's $320 Stock Faces Huawei's 68% Foldable Fortress' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811228.640585
+          "analysisUpdatedAt": 1788833093.620691
         },
-        "headlineKo": "Apple 주식은 제품 출시 행사를 앞두고 지금 구매하고 있습니까?"
+        "headlineKo": "Apple의 320달러 주식은 Huawei의 68% 폴더블 포트리스와 마주합니다."
       },
       {
-        "headline": "Apple Just Made a Move Most Investors Overlooked. This Is Why I Keep Buying The Stock",
+        "headline": "Jim Cramer Wants Nvidia to Buy Back $500 Billion. Can Apple’s Playbook Work?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa",
-        "datetime": 1788792695,
+        "url": "https://finnhub.io/api/news?id=6486d8c6fd056be68b84b2a39269d996bbdc4a3989a6fa078fc507cc3e82d371",
+        "datetime": 1788813255,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "장기 공급계약 · 매출 가시성 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple은 대부분의 투자자들이 간과했던 조치를 취했습니다.",
-            "이것이 내가 주식을 계속 구매하는 이유입니다 - 연중무휴 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% 다우존스 53,056.60 −0.32% 나스닥 100 29,570.90 +0.28% 러셀 2000 2,966.34 −0."
-          ],
-          "why": [
-            "장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.32%, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "오랫동안 공급하기로 한 계약입니다. 계약 기간 전체 금액이 한 번에 매출로 잡히는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "계약 기간·최소구매 조건",
-            "연도별 매출 인식",
-            "수주잔고·취소 조건"
-          ],
-          "interpretation": "AAPL에 대한 장기 공급계약 · 매출 가시성 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 장기 계약은 매출 가시성을 높일 수 있지만 최소구매 의무·취소 조건·실제 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.07%",
-            "0.32%",
-            "0.28%",
-            "0.18%",
-            "75.6%",
-            "$30.7 billion",
-            "12%",
-            "$109.42"
-          ],
-          "sourceExcerpt": [
-            "Apple Just Made a Move Most Investors Overlooked.",
-            "This Is Why I Keep Buying The Stock - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0."
-          ],
-          "analysisUpdatedAt": 1788811232.4422946
-        },
-        "headlineKo": "Apple은 대부분의 투자자들이 간과했던 조치를 취했습니다. 이것이 내가 계속 주식을 사는 이유이다"
+        "headlineKo": "Jim Cramer는 Nvidia가 5000억 달러를 다시 매입하길 원합니다. Apple의 플레이북이 작동할 수 있나요?"
       },
       {
-        "headline": "Why Apple May Be the Safest AI Stock Nobody Calls an AI Stock",
+        "headline": "KeyBanc Delivers Stark Warning on Apple Stock Ahead of iPhone 18 Launch",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755",
-        "datetime": 1788789628,
-        "relevance": 0.29,
+        "url": "https://finnhub.io/api/news?id=8546ddd568e345d2d91419c0766bc17e988f35fdb4026ed5c6f4615c62f520b1",
+        "datetime": 1788808433,
+        "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple이 가장 안전한 AI 주식인 이유 아무도 AI 주식이라고 부르지 않습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% 다우존스 53,056.60 −0.32% 나스닥 100 29,570.90 +0.28% 러셀 2000 2,966.34 −0.",
-            "작성자: Vandita Jadeja 2026년 9월 7일 오전 9시(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Apple Store의 IPhone 16 시리즈 Nagoya Sakae( CC BY-SA 4.0 ) by Kyu3a Apple( NASDAQ:AAPL | AAPL 가격 예측 )은 순수 플레이 AI 남과 거의 그룹화되지 않습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.07%, 0.32%, 0.28% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.07%",
-            "0.32%",
-            "0.28%",
-            "0.18%",
-            "$363.99",
-            "11.87%",
-            "$325.81.",
-            "90%"
-          ],
-          "sourceExcerpt": [
-            "Why Apple May Be the Safest AI Stock Nobody Calls an AI Stock - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.18% S&P 500 7,702.50 −0.07% Dow Jones 53,056.60 −0.32% Nasdaq 100 29,570.90 +0.28% Russell 2000 2,966.34 −0.",
-            "By Vandita Jadeja Published September 7, 2026, 9:00am ET · 3 min read 𝕏 f ⧉ © IPhone 16 series in Apple Store Nagoya Sakae ( CC BY-SA 4.0 ) by Kyu3a Apple ( NASDAQ:AAPL | AAPL Price Prediction ) rarely gets grouped with the pure-play AI nam"
-          ],
-          "analysisUpdatedAt": 1788811236.7591662
-        },
-        "headlineKo": "Apple이 가장 안전한 AI 주식일 수 있는 이유 아무도 AI 주식이라고 부르지 않습니다."
-      },
-      {
-        "headline": "Apple’s Sept. 9 Event Could Change Everything",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7c46515f3e0360d092fa73827d57f18f53306c6242bdeedafe81ba35a78d0a87",
-        "datetime": 1788789301,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "애플의 9월 9일 이벤트가 모든 것을 바꿀 수 있다"
-      },
-      {
-        "headline": "Apple Faces New Threat From Huawei and Xiaomi",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ec4157dfa918dafed3e01d6968018def9a0d43856d60776aedcc3b2962eee70d",
-        "datetime": 1788784686,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "애플, 화웨이와 샤오미로부터 새로운 위협에 직면하다"
+        "headlineKo": "KeyBanc, iPhone 18 출시를 앞두고 Apple 주식에 대해 엄중한 경고 전달"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7699,6 +7720,220 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+        "datetime": 1788818172,
+        "headlineKo": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788833089.7311797
+        }
+      },
+      {
+        "headline": "Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+        "datetime": 1788818100,
+        "headlineKo": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 2,720%, 2.51%, 20%, $5 trillion, 2.51 %, $ 319.97, $4.7, $ 317.86.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "2,720%",
+            "2.51%",
+            "20%",
+            "$5 trillion",
+            "2.51 %",
+            "$ 319.97",
+            "$4.7",
+            "$ 317.86"
+          ],
+          "sourceExcerpt": [
+            "Tim Cook Delivered a 2,720% Total Return Over 15 Years.",
+            "Here's Whether John Ternus Can Do the Same for Apple Investors.",
+            "| The Motley Fool Accessibility Menu ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Search for a company Accessibility ..."
+          ],
+          "analysisUpdatedAt": 1788833090.7340715
+        }
+      },
+      {
+        "headline": "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=93b928de6cf085ab63c387d28622e8c12a0bb9aa7cf6df89e6aaf8d2d6c224f7",
+        "datetime": 1788817347,
+        "headlineKo": "Apple의 320달러 주식은 Huawei의 68% 폴더블 포트리스와 마주합니다.",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's $320 Stock Faces Huawei's 68% Foldable Fortress",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's $320 Stock Faces Huawei's 68% Foldable Fortress' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788833093.620691
+        }
+      },
+      {
+        "headline": "Jim Cramer Wants Nvidia to Buy Back $500 Billion. Can Apple’s Playbook Work?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=6486d8c6fd056be68b84b2a39269d996bbdc4a3989a6fa078fc507cc3e82d371",
+        "datetime": 1788813255,
+        "headlineKo": "Jim Cramer는 Nvidia가 5000억 달러를 다시 매입하길 원합니다. Apple의 플레이북이 작동할 수 있나요?",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
+      {
+        "headline": "KeyBanc Delivers Stark Warning on Apple Stock Ahead of iPhone 18 Launch",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8546ddd568e345d2d91419c0766bc17e988f35fdb4026ed5c6f4615c62f520b1",
+        "datetime": 1788808433,
+        "headlineKo": "KeyBanc, iPhone 18 출시를 앞두고 Apple 주식에 대해 엄중한 경고 전달",
+        "relevance": 0.57,
+        "keywordFlag": false
+      },
       {
         "headline": "Is Apple Stock a Buy Now Ahead of its Product Launch Event?",
         "source": "Yahoo",
@@ -12679,17 +12914,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788811224.2439373,
-    "_updated_label": "2026-09-08 05:00",
+    "_fetched_at": 1788833085.322677,
+    "_updated_label": "2026-09-08 11:04",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 145,
+      "checked": 150,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
-    "_last_attempt_at": 1788811224.2439373,
+    "_last_attempt_at": 1788833085.322677,
     "_earnings_status": "ok",
-    "_last_success_at": 1788811224.2439373,
+    "_last_success_at": 1788833085.322677,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -17973,7 +18208,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -22719,7 +22954,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -28212,7 +28447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -29878,7 +30113,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -35201,7 +35436,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -40085,7 +40320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -45964,7 +46199,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -51699,7 +51934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -55648,7 +55883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 99,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -58827,7 +59062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -58888,7 +59123,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811243.566624
+          "analysisUpdatedAt": 1788833101.8478806
         },
         "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 좋은 투자라고 생각합니다. 그렇습니까?"
       },
@@ -58938,7 +59173,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811245.620992
+          "analysisUpdatedAt": 1788833104.1993787
         },
         "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       },
@@ -58988,7 +59223,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811247.6405942
+          "analysisUpdatedAt": 1788833106.2449067
         },
         "headlineKo": "Applied Materials(AMAT)가 237%의 수익을 낸 후에도 여전히 저렴해 보일 수 있습니까?"
       },
@@ -59060,7 +59295,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811243.566624
+          "analysisUpdatedAt": 1788833101.8478806
         }
       },
       {
@@ -59109,7 +59344,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811245.620992
+          "analysisUpdatedAt": 1788833104.1993787
         }
       },
       {
@@ -59158,7 +59393,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811247.6405942
+          "analysisUpdatedAt": 1788833106.2449067
         }
       },
       {
@@ -60822,17 +61057,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788811224.2439373,
-    "_updated_label": "2026-09-08 05:00",
+    "_fetched_at": 1788833085.322677,
+    "_updated_label": "2026-09-08 11:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
-    "_last_attempt_at": 1788811224.2439373,
+    "_last_attempt_at": 1788833085.322677,
     "_earnings_status": "ok",
-    "_last_success_at": 1788811224.2439373,
+    "_last_success_at": 1788833085.322677,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -63094,7 +63329,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -66481,7 +66716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 85,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -70484,7 +70719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 98,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -73933,7 +74168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 92,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
@@ -78011,7 +78246,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -79915,7 +80150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -81362,7 +81597,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
@@ -85501,7 +85736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -87067,7 +87302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -88818,7 +89053,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -90307,7 +90542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -94840,7 +95075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -94901,7 +95136,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811253.1151617
+          "analysisUpdatedAt": 1788833111.4954412
         },
         "headlineKo": "투자자들이 WDC(Western Digital Corporation)를 많이 검색합니다. 알아야 할 사항은 다음과 같습니다."
       },
@@ -94951,7 +95186,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811255.5093668
+          "analysisUpdatedAt": 1788833113.6368206
         },
         "headlineKo": "10년 전에 Western Digital에 투자한 1,000달러의 현재 가치는 다음과 같습니다."
       },
@@ -95001,7 +95236,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811257.6990557
+          "analysisUpdatedAt": 1788833115.734013
         },
         "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
@@ -95125,7 +95360,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811253.1151617
+          "analysisUpdatedAt": 1788833111.4954412
         }
       },
       {
@@ -95174,7 +95409,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811255.5093668
+          "analysisUpdatedAt": 1788833113.6368206
         }
       },
       {
@@ -95223,7 +95458,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788811257.6990557
+          "analysisUpdatedAt": 1788833115.734013
         }
       },
       {
@@ -96508,17 +96743,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788811224.2439373,
-    "_updated_label": "2026-09-08 05:00",
+    "_fetched_at": 1788833085.322677,
+    "_updated_label": "2026-09-08 11:05",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
-    "_last_attempt_at": 1788811224.2439373,
+    "_last_attempt_at": 1788833085.322677,
     "_earnings_status": "ok",
-    "_last_success_at": 1788811224.2439373,
+    "_last_success_at": 1788833085.322677,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -98133,7 +98368,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -99724,7 +99959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -101249,7 +101484,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -103041,7 +103276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -104163,7 +104398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788829310.1241848,
     "_earnings_status": "ok",
@@ -105587,7 +105822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -107139,7 +107374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -108320,7 +108555,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -108909,7 +109144,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788814824.777092,
     "_earnings_status": "ok",
@@ -111238,7 +111473,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -111838,7 +112073,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788827317.5082743,
     "_earnings_status": "ok",
@@ -113029,7 +113264,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -114031,7 +114266,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788821606.2483606,
     "_earnings_status": "ok",
@@ -115232,7 +115467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_last_attempt_at": 1788818997.1897414,
     "_earnings_status": "ok",
@@ -115736,7 +115971,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-08 10:02"
+      "updated": "2026-09-08 11:05"
     },
     "_fetched_at": 1788818997.1897414,
     "_updated_label": "2026-09-08 07:22",

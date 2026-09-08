@@ -1,8 +1,205 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788831213.936957,
+  "generatedAt": 1788833117.9842176,
   "events": [
+    {
+      "id": "820081e6789412d1565c",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "AMD",
+        "MU",
+        "NVDA",
+        "ORCL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "중기 투자 사이클",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze",
+      "headlineKo": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+        "publishedAt": 1788818172,
+        "collectedAt": 1788833085.322677
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AAPL의 사업과 관련된 'Apple's $54 Billion iPhone Engine Hits an AI Memory Squeeze' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+      ],
+      "whyItMatters": [
+        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "NVDA",
+          "direction": "긍정",
+          "reason": "AI 컴퓨팅 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "AMD",
+          "direction": "긍정",
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "AI 서버 메모리 수요와 가격 강세",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "ORCL",
+          "direction": "혼합",
+          "reason": "클라우드 수요와 자본 부담 동시 확대",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 수주·가동 데이터센터",
+        "관련 기업 매출·수주잔고",
+        "CAPEX 대비 영업현금흐름",
+        "금리와 프로젝트 부채 비용"
+      ]
+    },
+    {
+      "id": "25705c72e076e67971e7",
+      "schemaVersion": 1,
+      "eventType": "supply_chain",
+      "eventLabel": "공급망 문제",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "MU",
+        "QCOM",
+        "WDC"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기 비용 부담 / 출시 후 수요 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.",
+      "headlineKo": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+        "publishedAt": 1788818100,
+        "collectedAt": 1788833085.322677
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+        "기사 본문에서 언급된 수치: 2,720%, 2.51%, 20%, $5 trillion, 2.51 %, $ 319.97, $4.7, $ 317.86.",
+        "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+      ],
+      "marketInterpretation": [
+        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+      ],
+      "aiInference": [
+        "이 기사는 AAPL의 사업과 관련된 'Tim Cook Delivered a 2,720% Total Return Over 15 Years. Here's Whether John Ternus Can Do the Same for Apple Investors.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+        "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+        "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+      ],
+      "whyItMatters": [
+        "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+        "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+        "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "혼합",
+          "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "MU",
+          "direction": "긍정",
+          "reason": "메모리 ASP와 이익률 개선 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "WDC",
+          "direction": "긍정",
+          "reason": "메모리·스토리지 가격 강세 수혜 가능성",
+          "basis": "analysis"
+        },
+        {
+          "ticker": "QCOM",
+          "direction": "중립·확인",
+          "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "iPhone 18 실제 출고가·사전예약",
+        "애플 아이폰 출하량과 제품 믹스",
+        "메모리 현물·계약 가격",
+        "AAPL 매출총이익률과 MU/WDC 가이던스"
+      ]
+    },
     {
       "id": "a53a36d2951582a3ef2f",
       "schemaVersion": 1,
@@ -805,7 +1002,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa",
         "publishedAt": 1788792695,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -965,7 +1162,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755",
         "publishedAt": 1788789628,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2113,7 +2310,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
         "publishedAt": 1788729369,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3392,7 +3589,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c686985f2d1ee36acd57cf68fc1ec368cbd7560286e77ee01a4f48c461c0159b",
         "publishedAt": 1788633300,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3563,7 +3760,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c91b0250bd447583cf3e54e7a07aa669542e0140205e7d3070c6698ccefebf",
         "publishedAt": 1788627934,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4078,7 +4275,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
         "publishedAt": 1788613800,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4720,7 +4917,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
         "publishedAt": 1788600300,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7695,7 +7892,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b32f31cda5ccb21e4c683de47dd2f1d5cd1a9372cfe11498c296494463a4ce2a",
         "publishedAt": 1788536529,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8006,7 +8203,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=983bf5c9084a761d74427f3cb88fc950d11d7ed68da7f6adc8e30fedd3d93e46",
         "publishedAt": 1788535835,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10198,7 +10395,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b0dddeca1009928774a28a221d266e1f13a5640e1ab2e232491e33fecb518085",
         "publishedAt": 1788496678,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12011,7 +12208,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=49291445a910a64dff658f6c375ffbb74e26d4e247e1d1cfe53c0adf46afcb6a",
         "publishedAt": 1788470093,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12757,7 +12954,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b35e471fcbb7c23a13bab094d1acddbcd475b4fc166c778beea352f0d6ed066d",
         "publishedAt": 1788457675,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14815,7 +15012,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=63181b51f129fc19d9a97c51a01ffd846913f6a8e230b7fc0ead5e710a83cfe5",
         "publishedAt": 1788443718,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15631,7 +15828,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
         "publishedAt": 1788440638,
-        "collectedAt": 1788811224.2439373
+        "collectedAt": 1788833085.322677
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18011,138 +18208,233 @@ const EVENT_DATA = {
         "연도별 매출 인식",
         "수주잔고·취소 조건"
       ]
-    },
-    {
-      "id": "6aa68efb46fc95e76f04",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "AVGO",
-      "relatedTickers": [
-        "AVGO"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Broadcom",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Broadcom's price sinks over 6% after releasing Q3 earnings",
-      "headlineKo": "Broadcom의 3분기 실적 발표 후 가격이 6% 이상 하락했습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=eee6076aa4e6b3370ebe635b3d9f61100439093898b5e4f22fbb65a575fd03b8",
-        "publishedAt": 1788385278,
-        "collectedAt": 1788827317.5082743
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Broadcom의 3분기 실적 발표 후 가격이 6% 이상 하락했습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AVGO",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
-    },
-    {
-      "id": "42a4fa5288053a9d34ef",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "PLTR"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Palantir Shares Sink Despite $192 Million Army Contract",
-      "headlineKo": "Palantir 주가는 1억 9200만 달러 규모의 육군 계약에도 불구하고 하락",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=da6278cd27393f4f00d3af0202e77e5818bb723976c46352215a52efb9d8621d",
-        "publishedAt": 1788384739,
-        "collectedAt": 1788821606.2483606
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Palantir Shares Sink Despite $192 Million Army Contract",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PLTR에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "820081e6789412d1565c",
+      "25705c72e076e67971e7",
+      "c0fe715751d9d592be5d",
+      "5daa3cbb11d636cebb76",
+      "e2ce79b41d4b087aae4e",
+      "ccbd6fbf419bb01004a5",
+      "1fd39215a412312fcfaa",
+      "8d8419343b08e02023cd",
+      "9531ad704c5fa19fe096",
+      "0dc5a39d4d42ab975e78",
+      "285f88d9a19ce5a20677",
+      "8337cbc7fc2ff63bc499",
+      "d79a8daa76dde3162513",
+      "f190ccf52523b3f92b90",
+      "2825dc12fa38e7bc86df",
+      "c5efd581b708dd2ede88"
+    ],
+    "AMD": [
+      "820081e6789412d1565c",
+      "db45bb23bdd463844372",
+      "b6b859f3cb04f4165e41",
+      "9336c45338c15729052a",
+      "c5db796f0656234c1d90",
+      "206b7a57481d4de918bd",
+      "2b8860ed2405d4e2443e",
+      "7652b6bc6572aebcf538",
+      "f2a4842761cc8102121d",
+      "23bb64bc332b943998df",
+      "ce2f204dad370a3aa984",
+      "8cee827e6d2b6afff6ed",
+      "2c14c1f10228f7447468",
+      "c6eb28448873372e603f",
+      "9952f26e2bbd48af0e35",
+      "20058ef05e4a5636d589",
+      "721df1f6dca6c980439b",
+      "1128e721d972efc35cb6",
+      "4ac4dd5bd64db8ced620",
+      "88a356a1f4609afca6b0",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "8a06286de161b53c7adf",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "d7a6269695f185657405",
+      "62362d03cbbc263295bf",
+      "afc6ef41efa5323e7e01",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "86b649f3fc2b87a9ed44"
+    ],
+    "MU": [
+      "820081e6789412d1565c",
+      "25705c72e076e67971e7",
+      "db45bb23bdd463844372",
+      "828f02f6bf5df94b3fa3",
+      "9336c45338c15729052a",
+      "206b7a57481d4de918bd",
+      "2b8860ed2405d4e2443e",
+      "80e9cc04adbe6c137170",
+      "ccbd6fbf419bb01004a5",
+      "7652b6bc6572aebcf538",
+      "1fd39215a412312fcfaa",
+      "ce2f204dad370a3aa984",
+      "8cee827e6d2b6afff6ed",
+      "2c14c1f10228f7447468",
+      "9531ad704c5fa19fe096",
+      "c4e5da7e7f840875b571",
+      "8b75a18b4250ccf231bc",
+      "c6eb28448873372e603f",
+      "9952f26e2bbd48af0e35",
+      "20058ef05e4a5636d589",
+      "76e3d449b65924230214",
+      "63884840a6fb9c0c01f3",
+      "1128e721d972efc35cb6",
+      "4ac4dd5bd64db8ced620",
+      "88a356a1f4609afca6b0",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "3b0f62bb79f7a275b575",
+      "d79a8daa76dde3162513",
+      "8a06286de161b53c7adf",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "1c87e702594bd6e0720c",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "a794da85bd3224401c5f",
+      "0489331a18d9e46cb6c8",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "aa6ba15ccc1d70ed81e3",
+      "86b649f3fc2b87a9ed44",
+      "2c20e5b2fa04a70423f4"
+    ],
+    "NVDA": [
+      "820081e6789412d1565c",
+      "db45bb23bdd463844372",
+      "e18af593dd6c53c76d4f",
+      "b6b859f3cb04f4165e41",
+      "9336c45338c15729052a",
+      "206b7a57481d4de918bd",
+      "2b8860ed2405d4e2443e",
+      "3292fb8083f71a9436c0",
+      "7652b6bc6572aebcf538",
+      "23bb64bc332b943998df",
+      "ce2f204dad370a3aa984",
+      "8cee827e6d2b6afff6ed",
+      "2c14c1f10228f7447468",
+      "c4e5da7e7f840875b571",
+      "c6eb28448873372e603f",
+      "32cb35710ae36df4ba11",
+      "9952f26e2bbd48af0e35",
+      "20058ef05e4a5636d589",
+      "6d07dc02661b93d6a1b5",
+      "ae4bd9ec467cc872e7a7",
+      "1128e721d972efc35cb6",
+      "d0148bb2156b37e1e7dd",
+      "2f268375690c7e29b312",
+      "75fa56cac137ddfebc9f",
+      "4ac4dd5bd64db8ced620",
+      "88a356a1f4609afca6b0",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "a37d6ade7e65f3b25b96",
+      "3b0f62bb79f7a275b575",
+      "e4814d4b7067690f2446",
+      "8a06286de161b53c7adf",
+      "7d47ebbf47f40eeb974b",
+      "203ac7ae778c438d1109",
+      "b9df83f6fe28743d84a8",
+      "a679944bf3f827b85f28",
+      "10920d99d3f2df0e658d",
+      "821ae153d31f7b81a385",
+      "1ed72289d61d218e3acc",
+      "1c87e702594bd6e0720c",
+      "6fbdc1664f9422be410b",
+      "10bfe136926db68873a5",
+      "a7fbd993888bb773b0db",
+      "03daf22b336c78c03fb9",
+      "349d7baacda4201eb266",
+      "62362d03cbbc263295bf",
+      "0489331a18d9e46cb6c8",
+      "68d6214fa30957f966e1",
+      "a08e3a369108f9c0a316",
+      "69e1f2b58f7d72c7ad1d",
+      "d49961ea9a55b463e10e",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "4d7b69cb7b83acfb69b3",
+      "86b649f3fc2b87a9ed44"
+    ],
+    "ORCL": [
+      "820081e6789412d1565c",
+      "db45bb23bdd463844372",
+      "2931dc5efa872afdeb64",
+      "256aa0db08ad7d4b1a41",
+      "9336c45338c15729052a",
+      "f8e0cdef54f0b52ba02f",
+      "206b7a57481d4de918bd",
+      "2b8860ed2405d4e2443e",
+      "b519b25a5c4aa593de71",
+      "ccbd6fbf419bb01004a5",
+      "7652b6bc6572aebcf538",
+      "ce2f204dad370a3aa984",
+      "8cee827e6d2b6afff6ed",
+      "2c14c1f10228f7447468",
+      "e714a8376b35ebebd290",
+      "c6eb28448873372e603f",
+      "969d7bd1c45b16d66f5c",
+      "9952f26e2bbd48af0e35",
+      "20058ef05e4a5636d589",
+      "1f76d3ab4b5db38011e3",
+      "6d07dc02661b93d6a1b5",
+      "1128e721d972efc35cb6",
+      "4ba0fd408d8c0cffe5fd",
+      "4ac4dd5bd64db8ced620",
+      "88a356a1f4609afca6b0",
+      "c6fb4293e7f004e8c532",
+      "4e0f9b4b4d2658fec1d8",
+      "f7cf48f3dff4e76f521a",
+      "8a06286de161b53c7adf",
+      "b1d7f34226d92a8c05bb",
+      "7d47ebbf47f40eeb974b",
+      "203ac7ae778c438d1109",
+      "a679944bf3f827b85f28",
+      "821ae153d31f7b81a385",
+      "10bfe136926db68873a5",
+      "03daf22b336c78c03fb9",
+      "ae597adae82c6229843c",
+      "f35e2b3cccf7140bfdf5",
+      "69e1f2b58f7d72c7ad1d",
+      "23e5f460937b05342416",
+      "5a8ad5e841d509fad5c3",
+      "4e2980d96fa059a8405f",
+      "86b649f3fc2b87a9ed44"
+    ],
+    "QCOM": [
+      "25705c72e076e67971e7",
+      "ccbd6fbf419bb01004a5",
+      "1fd39215a412312fcfaa",
+      "9531ad704c5fa19fe096",
+      "c102fb1c411610ba2375",
+      "2a6252d52e93a2a68747",
+      "d79a8daa76dde3162513",
+      "f4b0f395a0ebf2288eab"
+    ],
+    "WDC": [
+      "25705c72e076e67971e7",
+      "ccbd6fbf419bb01004a5",
+      "1fd39215a412312fcfaa",
+      "9531ad704c5fa19fe096",
+      "873903a69ebc2a43feb7",
+      "d79a8daa76dde3162513"
+    ],
     "SPY": [
       "a53a36d2951582a3ef2f",
       "e87a184dffcbdbb943a2",
@@ -18326,192 +18618,9 @@ const EVENT_DATA = {
       "2f10ef61d397fe350663",
       "4e0c3522e9f24fdedce0"
     ],
-    "AMD": [
-      "db45bb23bdd463844372",
-      "b6b859f3cb04f4165e41",
-      "9336c45338c15729052a",
-      "c5db796f0656234c1d90",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e",
-      "7652b6bc6572aebcf538",
-      "f2a4842761cc8102121d",
-      "23bb64bc332b943998df",
-      "ce2f204dad370a3aa984",
-      "8cee827e6d2b6afff6ed",
-      "2c14c1f10228f7447468",
-      "c6eb28448873372e603f",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589",
-      "721df1f6dca6c980439b",
-      "1128e721d972efc35cb6",
-      "4ac4dd5bd64db8ced620",
-      "88a356a1f4609afca6b0",
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "8a06286de161b53c7adf",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "d7a6269695f185657405",
-      "62362d03cbbc263295bf",
-      "afc6ef41efa5323e7e01",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "86b649f3fc2b87a9ed44"
-    ],
     "ARM": [
       "db45bb23bdd463844372",
       "985cf39f300a74ad5e01"
-    ],
-    "MU": [
-      "db45bb23bdd463844372",
-      "828f02f6bf5df94b3fa3",
-      "9336c45338c15729052a",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e",
-      "80e9cc04adbe6c137170",
-      "ccbd6fbf419bb01004a5",
-      "7652b6bc6572aebcf538",
-      "1fd39215a412312fcfaa",
-      "ce2f204dad370a3aa984",
-      "8cee827e6d2b6afff6ed",
-      "2c14c1f10228f7447468",
-      "9531ad704c5fa19fe096",
-      "c4e5da7e7f840875b571",
-      "8b75a18b4250ccf231bc",
-      "c6eb28448873372e603f",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589",
-      "76e3d449b65924230214",
-      "63884840a6fb9c0c01f3",
-      "1128e721d972efc35cb6",
-      "4ac4dd5bd64db8ced620",
-      "88a356a1f4609afca6b0",
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "3b0f62bb79f7a275b575",
-      "d79a8daa76dde3162513",
-      "8a06286de161b53c7adf",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "1c87e702594bd6e0720c",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "a794da85bd3224401c5f",
-      "0489331a18d9e46cb6c8",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "aa6ba15ccc1d70ed81e3",
-      "86b649f3fc2b87a9ed44",
-      "2c20e5b2fa04a70423f4"
-    ],
-    "NVDA": [
-      "db45bb23bdd463844372",
-      "e18af593dd6c53c76d4f",
-      "b6b859f3cb04f4165e41",
-      "9336c45338c15729052a",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e",
-      "3292fb8083f71a9436c0",
-      "7652b6bc6572aebcf538",
-      "23bb64bc332b943998df",
-      "ce2f204dad370a3aa984",
-      "8cee827e6d2b6afff6ed",
-      "2c14c1f10228f7447468",
-      "c4e5da7e7f840875b571",
-      "c6eb28448873372e603f",
-      "32cb35710ae36df4ba11",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589",
-      "6d07dc02661b93d6a1b5",
-      "ae4bd9ec467cc872e7a7",
-      "1128e721d972efc35cb6",
-      "d0148bb2156b37e1e7dd",
-      "2f268375690c7e29b312",
-      "75fa56cac137ddfebc9f",
-      "4ac4dd5bd64db8ced620",
-      "88a356a1f4609afca6b0",
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "a37d6ade7e65f3b25b96",
-      "3b0f62bb79f7a275b575",
-      "e4814d4b7067690f2446",
-      "8a06286de161b53c7adf",
-      "7d47ebbf47f40eeb974b",
-      "203ac7ae778c438d1109",
-      "b9df83f6fe28743d84a8",
-      "a679944bf3f827b85f28",
-      "10920d99d3f2df0e658d",
-      "821ae153d31f7b81a385",
-      "1ed72289d61d218e3acc",
-      "1c87e702594bd6e0720c",
-      "6fbdc1664f9422be410b",
-      "10bfe136926db68873a5",
-      "a7fbd993888bb773b0db",
-      "03daf22b336c78c03fb9",
-      "349d7baacda4201eb266",
-      "62362d03cbbc263295bf",
-      "0489331a18d9e46cb6c8",
-      "68d6214fa30957f966e1",
-      "a08e3a369108f9c0a316",
-      "69e1f2b58f7d72c7ad1d",
-      "d49961ea9a55b463e10e",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "4d7b69cb7b83acfb69b3",
-      "86b649f3fc2b87a9ed44"
-    ],
-    "ORCL": [
-      "db45bb23bdd463844372",
-      "2931dc5efa872afdeb64",
-      "256aa0db08ad7d4b1a41",
-      "9336c45338c15729052a",
-      "f8e0cdef54f0b52ba02f",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e",
-      "b519b25a5c4aa593de71",
-      "ccbd6fbf419bb01004a5",
-      "7652b6bc6572aebcf538",
-      "ce2f204dad370a3aa984",
-      "8cee827e6d2b6afff6ed",
-      "2c14c1f10228f7447468",
-      "e714a8376b35ebebd290",
-      "c6eb28448873372e603f",
-      "969d7bd1c45b16d66f5c",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589",
-      "1f76d3ab4b5db38011e3",
-      "6d07dc02661b93d6a1b5",
-      "1128e721d972efc35cb6",
-      "4ba0fd408d8c0cffe5fd",
-      "4ac4dd5bd64db8ced620",
-      "88a356a1f4609afca6b0",
-      "c6fb4293e7f004e8c532",
-      "4e0f9b4b4d2658fec1d8",
-      "f7cf48f3dff4e76f521a",
-      "8a06286de161b53c7adf",
-      "b1d7f34226d92a8c05bb",
-      "7d47ebbf47f40eeb974b",
-      "203ac7ae778c438d1109",
-      "a679944bf3f827b85f28",
-      "821ae153d31f7b81a385",
-      "10bfe136926db68873a5",
-      "03daf22b336c78c03fb9",
-      "ae597adae82c6229843c",
-      "f35e2b3cccf7140bfdf5",
-      "69e1f2b58f7d72c7ad1d",
-      "23e5f460937b05342416",
-      "5a8ad5e841d509fad5c3",
-      "4e2980d96fa059a8405f",
-      "86b649f3fc2b87a9ed44"
     ],
     "TSLA": [
       "4b7c0e83a4149ec33334",
@@ -18551,22 +18660,6 @@ const EVENT_DATA = {
       "efbf58bb83907973e184",
       "0f2879b21dfc6022ebfc"
     ],
-    "AAPL": [
-      "c0fe715751d9d592be5d",
-      "5daa3cbb11d636cebb76",
-      "e2ce79b41d4b087aae4e",
-      "ccbd6fbf419bb01004a5",
-      "1fd39215a412312fcfaa",
-      "8d8419343b08e02023cd",
-      "9531ad704c5fa19fe096",
-      "0dc5a39d4d42ab975e78",
-      "285f88d9a19ce5a20677",
-      "8337cbc7fc2ff63bc499",
-      "d79a8daa76dde3162513",
-      "f190ccf52523b3f92b90",
-      "2825dc12fa38e7bc86df",
-      "c5efd581b708dd2ede88"
-    ],
     "AVGO": [
       "953642f384fc9fbade42",
       "3292fb8083f71a9436c0",
@@ -18603,8 +18696,7 @@ const EVENT_DATA = {
       "47693925bf8b7b6bd845",
       "e8e2ee05ec464a14345d",
       "0e6ec9f96211f80027fa",
-      "75f885d5ba5676a2a7ff",
-      "6aa68efb46fc95e76f04"
+      "75f885d5ba5676a2a7ff"
     ],
     "MRVL": [
       "953642f384fc9fbade42",
@@ -18655,8 +18747,7 @@ const EVENT_DATA = {
       "449937cdd2c804fb1cee",
       "631bfa2bc237b9b6850a",
       "58af2c520afb1464cd73",
-      "546083d1f4a2cc59a974",
-      "42a4fa5288053a9d34ef"
+      "546083d1f4a2cc59a974"
     ],
     "COHR": [
       "789954fabda2e167435b",
@@ -18716,22 +18807,6 @@ const EVENT_DATA = {
       "35f5795cc72d6f13c7e1",
       "882df5b08fb64b8a134c",
       "d509d44d54186179c269"
-    ],
-    "QCOM": [
-      "ccbd6fbf419bb01004a5",
-      "1fd39215a412312fcfaa",
-      "9531ad704c5fa19fe096",
-      "c102fb1c411610ba2375",
-      "2a6252d52e93a2a68747",
-      "d79a8daa76dde3162513",
-      "f4b0f395a0ebf2288eab"
-    ],
-    "WDC": [
-      "ccbd6fbf419bb01004a5",
-      "1fd39215a412312fcfaa",
-      "9531ad704c5fa19fe096",
-      "873903a69ebc2a43feb7",
-      "d79a8daa76dde3162513"
     ],
     "CRM": [
       "af585ca4f2f50f7a8389",

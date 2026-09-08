@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788831213.992475,
+  "generatedAt": 1788833118.038647,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788601680,
       "signal": "우호적 변화",
       "netScore": 2.16,
@@ -143,7 +143,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788743773,
       "signal": "중립·확인 대기",
       "netScore": -1.75,
@@ -365,7 +365,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788734581,
       "signal": "우호적 변화",
       "netScore": 5.84,
@@ -572,7 +572,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788743773,
       "signal": "중립·확인 대기",
       "netScore": 0.42,
@@ -696,8 +696,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788792695,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818172,
       "signal": "주의 강화",
       "netScore": -10,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
@@ -709,7 +709,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -3.5,
+          "score": -3.67,
           "level": "주의"
         },
         "valuationBurden": {
@@ -734,7 +734,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -4.9,
+          "score": -5,
           "level": "주의"
         },
         "insiderSignal": {
@@ -744,6 +744,33 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "820081e6789412d1565c",
+          "headline": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788818172,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "사업·실적 연결 경로 확인 필요"
+        },
+        {
+          "eventId": "25705c72e076e67971e7",
+          "headline": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1788818100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+        },
         {
           "eventId": "c0fe715751d9d592be5d",
           "headline": "Apple은 대부분의 투자자들이 간과했던 조치를 취했습니다. 이것이 내가 계속 주식을 사는 이유이다",
@@ -884,29 +911,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "c5efd581b708dd2ede88",
-          "headline": "Apple, 앱 추적 규칙과 관련해 영국에서 20억 파운드 규모의 소송에 직면",
-          "eventLabel": "규제·소송·수출 제한",
-          "publishedAt": 1788440638,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=00646846eda28b0ad4e5bf2efe0155917ead6122d9dca40bc15fcbef49c6271b",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 13,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788795806,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1126,7 +1139,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788699869,
       "signal": "주의 강화",
       "netScore": -4.76,
@@ -1293,7 +1306,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788447600.0,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -1372,21 +1385,21 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788666361,
       "signal": "주의 강화",
-      "netScore": -6.44,
+      "netScore": -7.84,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
           "label": "장기 사업 경쟁력",
-          "score": 0.35,
+          "score": 0.0,
           "level": "중립"
         },
         "growth": {
           "label": "성장성",
-          "score": 1.22,
-          "level": "우호적"
+          "score": 0.52,
+          "level": "중립"
         },
         "valuationBurden": {
           "label": "밸류에이션 부담",
@@ -1410,7 +1423,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.27,
+          "score": -2.62,
           "level": "주의"
         },
         "insiderSignal": {
@@ -1556,30 +1569,16 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -2
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "42a4fa5288053a9d34ef",
-          "headline": "Palantir 주가는 1억 9200만 달러 규모의 육군 계약에도 불구하고 하락",
-          "eventLabel": "주요 고객 계약",
-          "publishedAt": 1788384739,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=da6278cd27393f4f00d3af0202e77e5818bb723976c46352215a52efb9d8621d",
-          "factorChanges": {
-            "growth": 2,
-            "longTermCompetitiveness": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "회사 실적과의 연결고리 확인"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 11,
+      "unverifiedEvidenceCount": 10,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788798285,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818172,
       "signal": "우호적 변화",
       "netScore": 9.88,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -1626,6 +1625,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "820081e6789412d1565c",
+          "headline": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788818172,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 컴퓨팅 수요 확대 가능성"
+        },
         {
           "eventId": "db45bb23bdd463844372",
           "headline": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님",
@@ -1771,29 +1783,16 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": -1
           },
           "reason": "회사 실적과의 연결고리 확인"
-        },
-        {
-          "eventId": "c6eb28448873372e603f",
-          "headline": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1788603901,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 컴퓨팅 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 48,
+      "unverifiedEvidenceCount": 49,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788798285,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818172,
       "signal": "우호적 변화",
       "netScore": 7.13,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -1840,6 +1839,19 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "820081e6789412d1565c",
+          "headline": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788818172,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+        },
         {
           "eventId": "db45bb23bdd463844372",
           "headline": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님",
@@ -1986,28 +1998,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-        },
-        {
-          "eventId": "c6eb28448873372e603f",
-          "headline": "Palantir 억만장자 Peter Thiel은 IPO 이후 200,000% 상승한 이 AI 주식의 주식을 방금 구입했으며 이것이 그의 최고 위치입니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1788603901,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=7851080814ece1f2459e7b7035f5dc8898c0f342737d0ffa07834b75c6555933",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 31,
+      "unverifiedEvidenceCount": 32,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788791932,
       "signal": "주의 강화",
       "netScore": -3.16,
@@ -2227,10 +2226,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788696000,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818100,
       "signal": "주의 강화",
-      "netScore": -7.56,
+      "netScore": -9.24,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -2240,7 +2239,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -2.1,
+          "score": -2.62,
           "level": "주의"
         },
         "valuationBurden": {
@@ -2260,12 +2259,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -4.2,
+          "score": -5,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.1,
+          "score": -2.62,
           "level": "주의"
         },
         "insiderSignal": {
@@ -2275,6 +2274,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "25705c72e076e67971e7",
+          "headline": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1788818100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+        },
         {
           "eventId": "ccbd6fbf419bb01004a5",
           "headline": "이번 주 시장에서 기대할 사항: 새로운 인플레이션 데이터; Apple의 가을 출시 이벤트 및 Oracle 수익",
@@ -2333,12 +2346,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 4,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2392,7 +2405,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788791932,
       "signal": "주의 강화",
       "netScore": -9.1,
@@ -2531,7 +2544,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788776735,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -2725,7 +2738,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788524785,
       "signal": "중립·확인 대기",
       "netScore": -1.61,
@@ -2807,7 +2820,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2861,7 +2874,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2915,7 +2928,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2969,7 +2982,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3023,8 +3036,8 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788798285,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818172,
       "signal": "우호적 변화",
       "netScore": 6.14,
       "summary": "중요 뉴스가 성장 또는 경쟁력에 우호적으로 연결됩니다. 실제 공시 숫자로 확인될 때 신뢰도가 더 높아집니다.",
@@ -3071,6 +3084,33 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "820081e6789412d1565c",
+          "headline": "Apple의 540억 달러 규모 iPhone 엔진, AI 메모리 압박에 성공",
+          "eventLabel": "AI·데이터센터 투자 변화",
+          "publishedAt": 1788818172,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
+          "factorChanges": {
+            "growth": 1,
+            "shortTermMomentum": 1
+          },
+          "reason": "AI 서버 메모리 수요와 가격 강세"
+        },
+        {
+          "eventId": "25705c72e076e67971e7",
+          "headline": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1788818100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "메모리 ASP와 이익률 개선 가능성"
+        },
         {
           "eventId": "db45bb23bdd463844372",
           "headline": "Arm, 삼성과 함께 AI 가속기로 확장 - 그러나 Goldmine 투자자들이 희망하는 데이터 센터는 아님",
@@ -3203,42 +3243,15 @@ const EVENT_ANALYSIS_DATA = {
             "shortTermMomentum": 1
           },
           "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "2c14c1f10228f7447468",
-          "headline": "대부분의 투자자는 AI 과대광고에 너무 많은 비용을 지불합니다. 엔비디아는 예외입니다.",
-          "eventLabel": "AI·데이터센터 투자 변화",
-          "publishedAt": 1788618540,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=8653711909bcf63268b8735b727b4d523f28088f9484dfb08fc7e423bd8e422c",
-          "factorChanges": {
-            "growth": 1,
-            "shortTermMomentum": 1
-          },
-          "reason": "AI 서버 메모리 수요와 가격 강세"
-        },
-        {
-          "eventId": "9531ad704c5fa19fe096",
-          "headline": "모건스탠리는 애플의 폴더블 아이폰이 12월 분기 매출 140억 달러를 창출할 수 있을 것으로 예상했다.",
-          "eventLabel": "공급망 문제",
-          "publishedAt": 1788613800,
-          "verificationStatus": "needs_confirmation",
-          "sourceUrl": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
-          "factorChanges": {
-            "businessRisk": -2,
-            "growth": -1,
-            "shortTermMomentum": -1
-          },
-          "reason": "메모리 ASP와 이익률 개선 가능성"
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 39,
+      "unverifiedEvidenceCount": 41,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788536185,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -3320,10 +3333,10 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1788831213.992475,
-      "dataAsOf": 1788696000,
+      "updatedAt": 1788833118.038647,
+      "dataAsOf": 1788818100,
       "signal": "주의 강화",
-      "netScore": -7.56,
+      "netScore": -9.24,
       "summary": "경쟁·고객·재무 관련 위험 뉴스가 늘었습니다. 장기 경쟁력 훼손 여부는 다음 실적과 공시로 분리해 확인합니다.",
       "factors": {
         "longTermCompetitiveness": {
@@ -3333,7 +3346,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         "growth": {
           "label": "성장성",
-          "score": -2.1,
+          "score": -2.62,
           "level": "주의"
         },
         "valuationBurden": {
@@ -3353,12 +3366,12 @@ const EVENT_ANALYSIS_DATA = {
         },
         "businessRisk": {
           "label": "사업 리스크",
-          "score": -4.2,
+          "score": -5,
           "level": "주의"
         },
         "shortTermMomentum": {
           "label": "단기 뉴스 모멘텀",
-          "score": -2.1,
+          "score": -2.62,
           "level": "주의"
         },
         "insiderSignal": {
@@ -3368,6 +3381,20 @@ const EVENT_ANALYSIS_DATA = {
         }
       },
       "evidence": [
+        {
+          "eventId": "25705c72e076e67971e7",
+          "headline": "팀 쿡(Tim Cook)은 15년 동안 총 2,720%의 수익률을 달성했습니다. John Ternus가 Apple 투자자를 위해 동일한 작업을 수행할 수 있는지 여부는 다음과 같습니다.",
+          "eventLabel": "공급망 문제",
+          "publishedAt": 1788818100,
+          "verificationStatus": "needs_confirmation",
+          "sourceUrl": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
+          "factorChanges": {
+            "businessRisk": -2,
+            "growth": -1,
+            "shortTermMomentum": -1
+          },
+          "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+        },
         {
           "eventId": "ccbd6fbf419bb01004a5",
           "headline": "이번 주 시장에서 기대할 사항: 새로운 인플레이션 데이터; Apple의 가을 출시 이벤트 및 Oracle 수익",
@@ -3426,12 +3453,12 @@ const EVENT_ANALYSIS_DATA = {
         }
       ],
       "confirmedEvidenceCount": 0,
-      "unverifiedEvidenceCount": 4,
+      "unverifiedEvidenceCount": 5,
       "notice": "뉴스 오버레이는 검증된 장기 눌림목 점수와 별개입니다. 확인 필요 뉴스는 35% 가중치만 반영합니다."
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3485,7 +3512,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788538833,
       "signal": "주의 강화",
       "netScore": -4.19,
@@ -3568,7 +3595,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788787822,
       "signal": "주의 강화",
       "netScore": -5.04,
@@ -3666,7 +3693,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788523200,
       "signal": "중립·확인 대기",
       "netScore": 0.92,
@@ -3763,7 +3790,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3817,7 +3844,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3871,7 +3898,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3925,7 +3952,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3979,7 +4006,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4033,7 +4060,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788574392,
       "signal": "우호적 변화",
       "netScore": 5.94,
@@ -4143,7 +4170,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4197,7 +4224,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 1788447600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4262,7 +4289,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4316,7 +4343,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4370,7 +4397,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1788831213.992475,
+      "updatedAt": 1788833118.038647,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
