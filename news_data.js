@@ -7291,7 +7291,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -12915,7 +12915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -18333,7 +18333,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -23163,7 +23163,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -28881,7 +28881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -30840,7 +30840,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -36245,7 +36245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 136,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -41282,7 +41282,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -47324,7 +47324,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 168,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -53236,7 +53236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 153,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -57297,7 +57297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -60524,7 +60524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 94,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -62525,7 +62525,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -62732,57 +62732,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "JEPQ 보유자들은 월간 수표를 쫓아 지난 1년 동안 Nasdaq-100을 따라갔습니다."
-      },
-      {
-        "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=3a3a496794d16f5dc1a9bced42f1f6886f6f8b46da7729dc4c271328153c2cbb",
-        "datetime": 1787646495,
-        "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란에 대한 제재를 확대함에 따라 Dow Jones, S&P 500, Nasdaq 1000 선물 상승 - NTS, GRRR, REAX, ZM, LGVN 초점(업데이트됨)",
-        "relevance": 0.67,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanctions"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "QQQ의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "QQQ",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "QQQ에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.67,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787792284.4621112
-        }
       }
     ],
     "newsHistory": [
@@ -64852,9 +64801,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-08 14:09",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 52,
+      "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -65068,57 +65017,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "RDVI: 월별 배당금을 지불하면서 S&P 500을 이겼습니다."
-      },
-      {
-        "headline": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
-        "source": "Benzinga",
-        "url": "https://finnhub.io/api/news?id=3a3a496794d16f5dc1a9bced42f1f6886f6f8b46da7729dc4c271328153c2cbb",
-        "datetime": 1787646495,
-        "headlineKo": "오늘의 주식 시장: Scott Bessent가 이란에 대한 제재를 확대함에 따라 Dow Jones, S&P 500, Nasdaq 1000 선물 상승 - NTS, GRRR, REAX, ZM, LGVN 초점(업데이트됨)",
-        "relevance": 0.5,
-        "keywordFlag": true,
-        "flagTerms": [
-          "sanctions"
-        ],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "본문 확인 필요",
-          "label": "규제·법무 · 비선형 위험",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Stock Market Today: Dow Jones, S&P 500, Nasdaq 1000 Futures Advance as Scott Bessent Expands Sanctions on Iran—NTS, GRRR, REAX, ZM, LGVN in Focus (UPDATED)",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-            "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "SPY",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 규제 적용일·대상 제품",
-            "회사의 매출 영향 추정",
-            "대체 제품·지역 판매"
-          ],
-          "interpretation": "SPY에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1787678896.6864853
-        }
       }
     ],
     "newsHistory": [
@@ -68283,9 +68181,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-08 15:47",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 85,
+      "checked": 84,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -72474,7 +72372,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -75972,7 +75870,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 93,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -80201,7 +80099,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -82105,7 +82003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -83552,7 +83450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -87818,7 +87716,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -89384,7 +89282,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -91135,7 +91033,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -92624,7 +92522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -97254,7 +97152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -98928,7 +98826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788855720.0238218,
     "_earnings_status": "ok",
@@ -100596,7 +100494,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -102187,7 +102085,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -103773,7 +103671,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -105565,7 +105463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -106687,7 +106585,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 26,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788851978.6012242,
     "_earnings_status": "ok",
@@ -108111,7 +108009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 32,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -109663,7 +109561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -110844,7 +110742,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -111433,7 +111331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788836821.1750486,
     "_earnings_status": "ok",
@@ -113776,7 +113674,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -114398,7 +114296,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788850010.8761733,
     "_earnings_status": "ok",
@@ -115589,7 +115487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -116591,7 +116489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -117792,7 +117690,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_last_attempt_at": 1788844182.7047231,
     "_earnings_status": "ok",
@@ -118331,7 +118229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-08 17:22"
+      "updated": "2026-09-08 17:53"
     },
     "_fetched_at": 1788844182.7047231,
     "_updated_label": "2026-09-08 14:13",
