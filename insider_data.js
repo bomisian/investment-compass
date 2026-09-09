@@ -821,8 +821,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "NVDA": {
     "transactions": [
@@ -1175,8 +1175,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "QCOM": {
     "transactions": [
@@ -1735,8 +1735,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "LRCX": {
     "transactions": [
@@ -2025,18 +2025,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-01",
         "filingDate": "2026-07-02",
         "code": "S"
-      },
-      {
-        "name": "WALLACE RICHARD P",
-        "share": 4512,
-        "transactionPrice": 2213.37,
-        "transactionDate": "2026-06-11",
-        "filingDate": "2026-06-11",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "MU": {
     "transactions": [
@@ -2201,8 +2193,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "SNDK": {
     "transactions": [
@@ -3102,8 +3094,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788901612.2859511,
-    "_updated_label": "2026-09-09"
+    "_fetched_at": 1788973797.3787167,
+    "_updated_label": "2026-09-10"
   },
   "BE": {
     "transactions": [
