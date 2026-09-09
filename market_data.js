@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 93.95999908447266,
+      "current": 94.18000030517578,
       "prevClose": 93.02999877929688,
-      "changeAbs": 0.9300003051757812,
-      "changePct": 0.9996778645371173,
+      "changeAbs": 1.1500015258789062,
+      "changePct": 1.2361620347939104,
       "pctRank": 87.66905330151154,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.81274756693569,
-      "ma20": 86.51850090026855,
-      "ma60": 80.58850021362305,
-      "chg1m": 11.830001831054688,
-      "chg3m": 5.760002136230469,
-      "chg1mPct": 14.40399637973002,
-      "chg3mPct": 6.530614892890044,
+      "drawdown1y": -16.61797003117008,
+      "ma20": 86.52950096130371,
+      "ma60": 80.59216690063477,
+      "chg1m": 12.050003051757812,
+      "chg3m": 5.980003356933594,
+      "chg1mPct": 14.671865889118038,
+      "chg3mPct": 6.780049392113698,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.73600006103516,
+      "current": 98.63200378417969,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.10399627685546875,
-      "changePct": -0.10521679553685034,
-      "pctRank": 22.593476531424024,
+      "changeAbs": -0.2079925537109375,
+      "changePct": -0.2104335910737007,
+      "pctRank": 21.797931583134446,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.828462289196776,
-      "ma20": 99.29029998779296,
-      "ma60": 100.24826685587566,
-      "chg1m": -1.0739974975585938,
-      "chg3m": -1.1740036010742188,
-      "chg1mPct": -1.076042003636059,
-      "chg3mPct": -1.1750611130439352,
+      "drawdown1y": -2.930810755126101,
+      "ma20": 99.2851001739502,
+      "ma60": 100.24653358459473,
+      "chg1m": -1.1779937744140625,
+      "chg3m": -1.2779998779296875,
+      "chg1mPct": -1.1802362521074283,
+      "chg3mPct": -1.279151067046118,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4431.2001953125,
+      "current": 4444.89990234375,
       "prevClose": 4393.89990234375,
-      "changeAbs": 37.30029296875,
-      "changePct": 0.8489108490808734,
-      "pctRank": 90.77167859984088,
+      "changeAbs": 51.0,
+      "changePct": 1.1607000872458675,
+      "pctRank": 91.01034208432776,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.681703582317542,
-      "ma20": 4471.169995117188,
-      "ma60": 4239.146667480469,
-      "chg1m": 69.400390625,
-      "chg3m": 171.2001953125,
-      "chg1mPct": 1.591095275634095,
-      "chg3mPct": 4.018783927523474,
+      "drawdown1y": -16.42411281662103,
+      "ma20": 4471.85498046875,
+      "ma60": 4239.37499593099,
+      "chg1m": 83.10009765625,
+      "chg3m": 184.89990234375,
+      "chg1mPct": 1.9051790860952564,
+      "chg3mPct": 4.340373294454225,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -240,13 +240,29 @@ const MARKET_DATA = {
       "headline": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5",
-      "datetime": 1788926820
+      "datetime": 1788926820,
+      "headlineKo": "이란, 유조선 침몰 후 호르무즈 인근 선박과 요르단 미군 기지 공격 - 로이터 통신"
     },
     {
       "headline": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788926820
+      "datetime": 1788926820,
+      "headlineKo": "설명: 예멘에서 이란의 동맹국인 후티 반군은 누구입니까? - 로이터"
+    },
+    {
+      "headline": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
+      "datetime": 1788926072,
+      "headlineKo": "호르무즈 해협을 통한 해상 운송량이 10일 평균 이하로 유지되고 있는 것으로 나타났습니다. - Reuters"
+    },
+    {
+      "headline": "Oil nears $100 as fresh Middle East strikes raise supply risks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
+      "datetime": 1788920902,
+      "headlineKo": "새로운 중동 파업으로 공급 위험이 높아짐에 따라 유가가 100달러에 가까워졌습니다 - Reuters"
     },
     {
       "headline": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate - Reuters",
@@ -263,17 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "중동 긴장이 고조되면서 석유 가격이 상승함에 따라 인도인은 조용히 시작했습니다. - 로이터 통신"
     },
     {
-      "headline": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows - Reuters",
+      "headline": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
-      "datetime": 1788919680
-    },
-    {
-      "headline": "Oil nears $100 as fresh Middle East strikes raise supply risks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
-      "datetime": 1788913380,
-      "headlineKo": "새로운 중동 파업으로 공급 위험이 높아짐에 따라 유가가 100달러에 가까워졌습니다 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
+      "datetime": 1788919140,
+      "headlineKo": "달러가 흔들리고 석유가 100달러를 향한 오싹한 감정 속에서 엔화는 우뚝 솟아 있습니다. - Reuters"
     },
     {
       "headline": "US military says it destroyed five Iranian oil carriers after attempted missile attacks - Reuters",
@@ -309,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
       "datetime": 1788899001,
       "headlineKo": "이 대체 에너지 주식은 옵션 피트에서 SpaceX보다 더 인기가 있습니다. 이유는 다음과 같습니다."
-    },
-    {
-      "headline": "Iran retaliates against US allies after its oil tankers destroyed - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-      "datetime": 1788898860,
-      "headlineKo": "이란, 유조선 파괴 후 미국 동맹국에 보복 - 로이터"
     }
   ],
   "fgi": {
     "score": 40.4857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1788931413.3221655,
-  "_updated_label": "2026-09-09 14:24",
-  "_last_attempt_at": 1788931413.3221655,
-  "_last_success_at": 1788931413.3221655,
+  "_fetched_at": 1788935376.508189,
+  "_updated_label": "2026-09-09 15:30",
+  "_last_attempt_at": 1788935376.508189,
+  "_last_success_at": 1788935376.508189,
   "_collection_status": "ok",
   "_collection_errors": []
 };
