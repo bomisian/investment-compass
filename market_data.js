@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.139999389648438,
+      "current": 16.34000015258789,
       "prevClose": 15.720000267028809,
-      "changeAbs": 0.4199991226196289,
-      "changePct": 2.671750098506911,
-      "pctRank": 32.69689737470167,
+      "changeAbs": 0.619999885559082,
+      "changePct": 3.944019561243089,
+      "pctRank": 34.36754176610978,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -48.01932435996934,
-      "ma20": 15.193000030517577,
-      "ma60": 16.37833325068156,
-      "chg1m": 0.8599996566772461,
-      "chg3m": -6.079999923706055,
-      "chg1mPct": 5.62827010279024,
-      "chg3mPct": -27.362736775837345,
+      "drawdown1y": -47.37519950375763,
+      "ma20": 15.20300006866455,
+      "ma60": 16.38166659673055,
+      "chg1m": 1.0600004196166992,
+      "chg3m": -5.879999160766602,
+      "chg1mPct": 6.937175642283748,
+      "chg3mPct": -26.462643305450733,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 95.19000244140625,
+      "current": 95.55000305175781,
       "prevClose": 93.02999877929688,
-      "changeAbs": 2.160003662109375,
-      "changePct": 2.321835634152526,
-      "pctRank": 88.78281622911695,
+      "changeAbs": 2.5200042724609375,
+      "changePct": 2.708808239844614,
+      "pctRank": 88.94192521877487,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -15.723767141821366,
-      "ma20": 86.58000106811524,
-      "ma60": 80.60900026957194,
-      "chg1m": 13.060005187988281,
-      "chg3m": 6.9900054931640625,
-      "chg1mPct": 15.901626232484464,
-      "chg3mPct": 7.925176570318886,
+      "drawdown1y": -15.405041493234995,
+      "ma20": 86.5980010986328,
+      "ma60": 80.61500027974446,
+      "chg1m": 13.420005798339844,
+      "chg3m": 7.350006103515625,
+      "chg1mPct": 16.339956467953428,
+      "chg3mPct": 8.333340541756233,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.8030014038086,
+      "current": 98.6520004272461,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.03699493408203125,
-      "changePct": -0.037429113165445484,
-      "pctRank": 23.54813046937152,
+      "changeAbs": -0.18799591064453125,
+      "changePct": -0.19020226387084802,
+      "pctRank": 22.03659506762132,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.762522576204973,
-      "ma20": 99.29365005493165,
-      "ma60": 100.24938354492187,
-      "chg1m": -1.0069961547851562,
-      "chg3m": -1.1070022583007812,
-      "chg1mPct": -1.0089131143340586,
-      "chg3mPct": -1.1079994172001109,
+      "drawdown1y": -2.911130956930752,
+      "ma20": 99.28610000610351,
+      "ma60": 100.24686686197917,
+      "chg1m": -1.1579971313476562,
+      "chg3m": -1.2580032348632812,
+      "chg1mPct": -1.1602015426038363,
+      "chg3mPct": -1.2591364115226993,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4439.2001953125,
+      "current": 4447.60009765625,
       "prevClose": 4393.89990234375,
-      "changeAbs": 45.30029296875,
-      "changePct": 1.030981451001794,
-      "pctRank": 90.9307875894988,
+      "changeAbs": 53.7001953125,
+      "changePct": 1.222153360477233,
+      "pctRank": 91.08989657915673,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.531282400253467,
-      "ma20": 4471.569995117187,
-      "ma60": 4239.280000813802,
-      "chg1m": 77.400390625,
-      "chg3m": 179.2001953125,
-      "chg1mPct": 1.7745058024400855,
-      "chg3mPct": 4.206577354753521,
+      "drawdown1y": -16.373341995282264,
+      "ma20": 4471.989990234375,
+      "ma60": 4239.419999186198,
+      "chg1m": 85.80029296875,
+      "chg3m": 187.60009765625,
+      "chg1mPct": 1.967084616688343,
+      "chg3mPct": 4.403758160944836,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,6 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Two seriously injured in explosion at hydroelectric plant in Switzerland - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkJaQnBwa3dCSXY5NkZZUThSYXVtNENWTGVIcG9UbHlNakV5blBiS1lfZkxKNUw4cTNSdW9OcVhobmItZld1bjgyMmZaUlM2Y1h2bUVJQzgybW84bnNFWDRKOEtDcWFDOWdBZDlxeDZ4TUNqNEFLcHJvMWlyXzllNlBmSWh6LW9aak5JNWQyVDhvYW5TOEx3Wkh6dE51RlRERDNQWWYwNkVMSmlmLWNzLUk0NElFZw?oc=5",
+      "datetime": 1788952750,
+      "headlineKo": "스위스 수력발전소 폭발로 2명 중상 - Reuters"
+    },
+    {
+      "headline": "Brent crude rises above $100 a barrel as Middle East conflict intensifies - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
+      "datetime": 1788951119,
+      "headlineKo": "중동 분쟁이 심화됨에 따라 브렌트 원유가 배럴당 $ 100 이상으로 상승 - 로이터"
+    },
+    {
       "headline": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
@@ -244,25 +258,32 @@ const MARKET_DATA = {
       "headlineKo": "호르무즈 해협을 통한 해상 운송량이 10일 평균 이하로 유지되고 있는 것으로 나타났습니다. - Reuters"
     },
     {
-      "headline": "Brent crude rises above $100 a barrel as Middle East conflict intensifies - Reuters",
+      "headline": "Several merchant vessels hit by disabling fire in Gulf and Gulf of Oman - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
-      "datetime": 1788945003,
-      "headlineKo": "중동 분쟁이 심화됨에 따라 브렌트 원유가 배럴당 $ 100 이상으로 상승 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckd4WVFmZEhoNEFkVzRzdE9JMVJ2QVUwMmk3MDRuUTA3NHc3N0xrY2VLZl9GY2Q2WU1ybzBodjhINEQwaV9GQmpKS3FSdXpSY3B3M0VUY3V6NUJvSU1zR1NPYmpLMUtvN3ZrYlZEVlZVNmhZTWZhdnhpM2dEaEZJZzBlbDN3cE42cXNsbDdnYmNkT3ROZTVzVjdBZUJ0NjRCYW4tQUdQQk5NNTV4NFIw?oc=5",
+      "datetime": 1788946194,
+      "headlineKo": "걸프만과 오만만에서 여러 상선이 화재로 피해를 입었습니다 - 로이터 통신"
     },
     {
-      "headline": "Oil nears $100 as fresh Middle East strikes raise supply risks - Reuters",
+      "headline": "Silicon Valley-backed Covenant unveils low-cost, mass-producible cruise missile - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
-      "datetime": 1788943471,
-      "headlineKo": "새로운 중동 파업으로 공급 위험이 높아짐에 따라 유가가 100달러에 가까워졌습니다 - Reuters"
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZE5kcjA3d1MxbDhjSmJWd3U4N25rQ1dOMWZYVTl3T1BVZ3BIY2hLX1N4YkZpWmYtTS1Nc3BqUWxZOUlRaGVIRDRTancxU0hMMldsYURpRlQ3RF83R2hBODk2Nk03WG5HYUxTNE9zVHhTZ0FhQXpqeEk4N0d1dHFudXlRVkJ1b1hONnJmY2lKcHNHcG42a1RubllfZXZhOUdMUFgtUTFpY29FYm94RGNIeDIteUhZX1Z2VlJPWmptV1dwSnRfZ2xOdVpnM0JVS2xOQnhKZmNaYU0?oc=5",
+      "datetime": 1788945161,
+      "headlineKo": "실리콘 밸리가 지원하는 Covenant, 저가형 대량 생산 순항 미사일 공개 - Reuters"
     },
     {
-      "headline": "Saudi Arabia lifts alert in southern city a day after Houthi strikes - Reuters",
+      "headline": "Saudi Arabia lifts alert in southern city a day after Houthi strikes - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkFZWWVmRkxOZ0dqSFdYQnh1dkpQTkZBbFdyU2Rydm1aMUo5eDFhNGpTaURVcmZLN25rS0s0ZUlEd1hFdEJ1TXJjT01mVzYtS1I1X2duVjhXTTFseHZOVGNWLURySnN3M0d1aGpVdUZLUXBDT0NMUjlhYXRHdGo4ekY0Q2stN3VyY09XSFRFZTdka1BhMDJnTFR2NzB2eVVzSW9ENV8wYi1jcWZhdEl0VjQxd1l2VXFI?oc=5",
       "datetime": 1788941469,
-      "headlineKo": "사우디아라비아, 후티 폭격 하루 만에 남부 도시에서 경보 해제 - 로이터"
+      "headlineKo": "사우디아라비아, 후티 반군 공습 하루 만에 남부 도시에 경보 해제 - reuters.com"
+    },
+    {
+      "headline": "Oil vessel transit costs through Hormuz escalated after Iran war, ENOC exec says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdHlPZEpNUC1MaWVNQWdvWmhnbFNmQTRITnd3T0RaVVhJUVJuUHZQMzAzLWcyWm9pS2l0dDd5aEFYWjREcnlQU3NTTGVMVk1OZVgteXNNdUlKYjJ0dnhSak9KRDhGNUh3UTgzcGI2SGU4cHdEa3VtaFhpZHZkOXJ3Sm8xYjZlOHgwdlY4T2dZUHczZ3ZCSmRPUGlTQjhRZmJscFNiNjNTYURvaVpvZEZpa2JJa0Jnakg2NGJsWlBpNWNUQkFoTVBJQ3JYZ1pDUQ?oc=5",
+      "datetime": 1788934740,
+      "headlineKo": "이란 전쟁 이후 호르무즈를 통과하는 석유 선박 운송 비용이 증가했다고 ENOC 임원이 밝혔습니다."
     },
     {
       "headline": "COMMENTARY: Oil prices fly blind as the Hormuz enigma deepens - Reuters",
@@ -272,11 +293,18 @@ const MARKET_DATA = {
       "headlineKo": "논평: 호르무즈 수수께끼가 깊어짐에 따라 유가는 맹목적으로 날아간다. - 로이터"
     },
     {
-      "headline": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - Reuters",
+      "headline": "Morning Bid: $100 Brent in sight, yen defies gravity - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pZExCdjRUZTV3SXBlS3pmdE81QndXdmxLbGpXVDdKOEVVNVJfUF9xTDB2T3pWMlFDR3hsMi1TaGJaN1FUMXhWZkExbEd2Q19jdmNiLS0wR3RzSzg5MHNmRURCNVZpLVhsd0FQQjFwUjRRc0ZTbER0THlSY2tnYVU?oc=5",
+      "datetime": 1788928320,
+      "headlineKo": "오전 입찰: 브렌트 100달러 눈앞, 엔화는 중력을 거스른다 - Reuters"
+    },
+    {
+      "headline": "Iran and US hit tankers in biggest wave of attacks on shipping since war began - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5",
       "datetime": 1788926820,
-      "headlineKo": "이란, 유조선 침몰 후 호르무즈 인근 선박과 요르단 미군 기지 공격 - 로이터 통신"
+      "headlineKo": "이란과 미국은 전쟁 발발 이후 최대 규모의 선박 공격으로 유조선을 공격했습니다. - 로이터"
     },
     {
       "headline": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate - Reuters",
@@ -291,44 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUTJ5YTBDcXdScFdqQUJJNmpuSC1YYmZtQUJEbDdlV3dEazhPNWtIb3MwV2lqQTdqakNBZDhlZ21uMHMzNWp4ZFF2djRtZ3hnQnlnRnhzel9CbzJsXzJnSHg3aUlCUGZzZDc1RnpENVBQMEtUUXVYcThYUG1pU1dPdVpqR1BPWjlJSWYwRW02MU9nOVNxV3h5UTFRTHVaSnVPQmU1QW5mZGRWci1oZ2FqUG1TYU9fSGhzS1E?oc=5",
       "datetime": 1788920400,
       "headlineKo": "원유 스파이크에 대한 인도 주식 감소; 회장 퇴진 후 코포지 텀블링 - 로이터"
-    },
-    {
-      "headline": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788919835,
-      "headlineKo": "설명: 예멘에서 이란의 동맹국인 후티 반군은 누구입니까? - 로이터"
-    },
-    {
-      "headline": "Yen stands tall as dollar wobbles, oil's run towards $100 chills sentiment - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSEotZFlXVDdDeG05cmdnOVhQN0xrYXBpeUhaNDg2ZkQxNkdEZ0k2aVp6ZThfRWMwaHk4TUVPcTh1NHJ2S2VmQk1hZWdqM1Y2cXpqeGwtdHgxN291b0F2OGc3SGZMV0F2RUktY2g3RE1uVzhLSXVQMWc1OE9hSXhjNmxSTktoY2o3Uy01SjRYUVg1NjUxVHRPMndmODlpWW5OdEpPaUFpQjd3MHhfcmIxWGpZWFFhRnBSeEtIRFdDTTI?oc=5",
-      "datetime": 1788919140,
-      "headlineKo": "달러가 흔들리고 석유가 100달러를 향한 오싹한 감정 속에서 엔화는 우뚝 솟아 있습니다. - Reuters"
-    },
-    {
-      "headline": "US military says it destroyed five Iranian oil carriers after attempted missile attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkRzd0JMdW1lbUtzRVk1dFpYWGFpVEYwZkVnaVBYd0hINnRNSVdiUXlrVHBBbkExXzNpZTdTT1NFaHpMSVA1Slk1aUl0bFZPc3VhbUVyUE9rZFkzOFZqU0VoQ2ZaZ2lwNm1rNmZEUTU5REZ6WWJmSEp3TWlGLXliZTU4S2pQMVFFY0V0MHQzS1BSa3FJUlJ3RzlqaV9GLVluYzd4MTQ5Yms1eDg5aWM1Mmp1bi1aNk0tS2lJSW40dlJ5cmhkeVd6bWxERQ?oc=5",
-      "datetime": 1788908580,
-      "headlineKo": "미군, 미사일 공격 시도로 이란 석유 운반선 5척 파괴했다고 밝혔습니다 - 로이터 통신"
-    },
-    {
-      "headline": "Iran says it captured US submarine drone in Strait of Hormuz - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0VkUnd5VzlEZVhBUy1ja1Q0dFZ6RE0yZHp2dGdobTZHajY0ZTZ6MXdkVWtKV2hYal9nY2dRRUlxU0RlZmxyQ3dmMXpKMFVVNlh2Q25LRVp3LXZHWmtrbzZGM3djQlVtVWdQb0U5RFNTOVA2U1BUMlFWcDZqblV2MGZLdEZPQllselJKcm44eld0STZhTDdsd2R1RG1HT1RrNm53VTZXNXVWWDla?oc=5",
-      "datetime": 1788906660,
-      "headlineKo": "이란은 호르무즈 해협에서 미 잠수함 드론을 포획했다고 밝혔다. - 로이터"
     }
   ],
   "fgi": {
     "score": 39.4571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1788950674.6160605,
-  "_updated_label": "2026-09-09 19:45",
-  "_last_attempt_at": 1788950674.6160605,
-  "_last_success_at": 1788950674.6160605,
+  "_fetched_at": 1788954374.7746427,
+  "_updated_label": "2026-09-09 20:46",
+  "_last_attempt_at": 1788954374.7746427,
+  "_last_success_at": 1788954374.7746427,
   "_collection_status": "ok",
   "_collection_errors": []
 };

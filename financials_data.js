@@ -5037,16 +5037,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15"
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:45"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15"
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:45"
   },
   "ORCL": {
     "annual": [
@@ -7271,8 +7271,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15",
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:46",
     "_data_quality_version": 6,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -7299,7 +7299,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788952538.157302,
+    "_yahoo_verified_at": 1788954368.8957727,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -8735,8 +8735,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15",
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:46",
     "_data_quality_version": 6,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -8763,7 +8763,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788952538.157302,
+    "_yahoo_verified_at": 1788954368.8957727,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -9163,8 +9163,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15",
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:46",
     "_data_quality_version": 6,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -9191,7 +9191,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788952538.157302,
+    "_yahoo_verified_at": 1788954368.8957727,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -13619,8 +13619,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788952520.5514908,
-    "_updated_label": "2026-09-09 20:15",
+    "_fetched_at": 1788954350.6122756,
+    "_updated_label": "2026-09-09 20:46",
     "_data_quality_version": 6,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -13647,7 +13647,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788952538.157302,
+    "_yahoo_verified_at": 1788954368.8957727,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
