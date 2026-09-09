@@ -2175,6 +2175,12 @@ function epsFundamentalRiskBadges(ticker){
 // 표시하던 기존 자리를 그대로 쓰려고 하향/훼손만 담았는데, 심플 보기는 처음부터 "긍정도 같이
 // 보여달라"(EPS 상향중 포함)는 요청이라 방향 전체(상향/하향, 개선/훼손)를 다 보여주는 별도 함수로 둠.
 // 데이터 출처는 완전히 동일 - 그냥 표시 범위만 다름.
+// 2026-09-09 수정(봄이 검증 요청으로 발견) - 기존엔 EPS_DATA·Fundamental 관찰 점수가 그 종목에
+// 아예 없으면(데이터 미수집) 조용히 "위험 없음"과 동일하게 처리돼서, "확인해봤더니 위험 없음"과
+// "확인을 아예 못 함"이 구분 안 됐다("리스크 배지 없는 진짜 깨끗한 강한매수" 필터가 실제로는
+// 데이터 없는 종목까지 '클린'으로 잘못 셀 수 있었음). EPS_DATA·Fundamental 두 데이터의 존재
+// 여부를 별도로 추적해서, 필요한 데이터가 다 있고 그 위에서 위험이 없을 때만 '확인된 클린'으로
+// 치도록 바꾼다(뉴스 경고·그룹 상대강도는 원래부터 "해당 없음=null"이 정상 상태라 그대로 둠).
 function hasAnyRiskBadge(r){
   const dc = getDirectionCheck(r.ticker);
   if(dc && dc.tone==='risk') return true;
@@ -2182,6 +2188,15 @@ function hasAnyRiskBadge(r){
   if(rs && rs.rel <= REL_WEAK_THRESHOLD) return true;
   if(epsFundamentalRiskBadges(r.ticker)) return true;
   return false;
+}
+function riskDataCompleteness(ticker){
+  const epsRec = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
+  const epsAvailable = !!(epsRec && epsRec.direction);
+  const fundRec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[ticker] : null;
+  // hasConfirmedEvidence가 false인 건 "확인해봤는데 최근 90일 내 근거 공시가 없었다"는 정상적인
+  // 확인 완료 상태(위험 없음과 동일하게 취급 가능)이지, fundRec 자체가 없는 것과는 다르다.
+  const fundAvailable = !!fundRec;
+  return epsAvailable && fundAvailable;
 }
 function epsFundamentalDirectionBadges(ticker){
   const epsRec = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
@@ -2432,13 +2447,16 @@ function renderSummary(){
   // 2026-09-09 추가(사용자 요청): "리스크 배지 하나도 없는 진짜 깨끗한 강한매수만" 걸러 보는 토글.
   // 새 판정을 만들지 않고 이미 콤보 pick에서 쓰던 4개 리스크 신호(뉴스우려·그룹뒤처짐·EPS하향·
   // 실적훼손)를 그대로 재사용함 - hasAnyRiskBadge() 참고.
-  const cleanCount = scored.filter(r=>r.verdict.label==='강한 매수기회' && !hasAnyRiskBadge(r)).length;
+  // 2026-09-09 수정 - "클린"을 riskDataCompleteness()까지 확인된 종목으로만 한정(위 함수 설명 참고).
+  const strongStocks = scored.filter(r=>r.verdict.label==='강한 매수기회');
+  const cleanCount = strongStocks.filter(r=>riskDataCompleteness(r.ticker) && !hasAnyRiskBadge(r)).length;
+  const dataMissingCount = strongStocks.filter(r=>!riskDataCompleteness(r.ticker)).length;
   const strongCount = buckets['강한 매수기회'].n;
   const cleanRow = document.getElementById('cleanFilterRow');
   if(cleanRow){
     cleanRow.innerHTML = `<label class="sub" style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;">
       <input type="checkbox" id="cleanOnlyToggle" ${cleanOnlyFilter?'checked':''} onchange="cleanOnlyFilter=this.checked;renderSummary();">
-      ✨ 리스크 배지 없는 진짜 깨끗한 강한매수만 보기 <span style="font-weight:600;">(${cleanCount}/${strongCount}종목)</span>
+      ✨ 필수 데이터 확인 완료·리스크 없음만 보기 <span style="font-weight:600;">(${cleanCount}/${strongCount}종목${dataMissingCount?` · 데이터 부족이라 확인 못한 종목 ${dataMissingCount}개는 제외됨`:''})</span>
     </label>`;
   }
 
@@ -2451,7 +2469,7 @@ function renderSummary(){
   // 칩 개수를 늘리고, 그래도 넘치면 "+N개 더" 안내를 남겨서 표에서 직접 확인하도록 함.
   const recAll = scored
     .filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심')
-    .filter(r=> !cleanOnlyFilter || (r.verdict.label==='강한 매수기회' && !hasAnyRiskBadge(r)));
+    .filter(r=> !cleanOnlyFilter || (r.verdict.label==='강한 매수기회' && riskDataCompleteness(r.ticker) && !hasAnyRiskBadge(r)));
   const REC_VISIBLE = 16;
   const rec = recAll.slice(0, REC_VISIBLE);
   // 2026-08-10 추가: 칩에 점수만 있으면 클릭해서 열어봐야 가격을 알 수 있었음(사용자 요청) - 현재가·PER을
@@ -2460,7 +2478,7 @@ function renderSummary(){
   document.getElementById('recList').innerHTML = rec.length
     ? rec.map(r=>`<span class="rec-chip ${r.verdict.label==='강한 매수기회'?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}${directionBadge(r.ticker)}${epsFundamentalRiskBadges(r.ticker)}</span>`).join('')
       + (recAll.length > REC_VISIBLE ? `<span class="sub" style="align-self:center;">+${recAll.length-REC_VISIBLE}개 더 있어요 - 아래 비교 표에서 "판단(장기)" 헤더를 눌러 정렬해 보세요.</span>` : '')
-    : `<span class="sub">${cleanOnlyFilter ? '리스크 배지 없는 깨끗한 강한매수 종목이 지금은 없어요.' : '오늘은 눌린(매수 관심 이상) 종목이 없어요.'}</span>`;
+    : `<span class="sub">${cleanOnlyFilter ? '필수 데이터가 확인되고 리스크도 없는 강한매수 종목이 지금은 없어요.' : '오늘은 눌린(매수 관심 이상) 종목이 없어요.'}</span>`;
 
   // ---- 오늘의 단타 진입 자리 (26종목을 다 열어보지 않아도 되게 첫 화면에 모아줌) ----
   // '새 진입 자리'(쿨다운을 넘긴 첫날)만 추림 - 조건만 유지되는 '연장'은 따로 세어서 숫자만 알려줌.
