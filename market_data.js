@@ -72,22 +72,22 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.58999633789062,
+      "current": 94.52999877929688,
       "prevClose": 91.4800033569336,
-      "changeAbs": 3.1099929809570312,
-      "changePct": 3.399642399249337,
+      "changeAbs": 3.0499954223632812,
+      "changePct": 3.334056963752955,
       "pctRank": 88.14638027048528,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.254981059242336,
-      "ma20": 86.05850067138672,
-      "ma60": 80.46316680908203,
-      "chg1m": 16.409996032714844,
-      "chg3m": 3.2899932861328125,
-      "chg1mPct": 20.99001786730416,
-      "chg3mPct": 3.603497454723765,
-      "lastDate": "2026-09-08",
+      "drawdown1y": -16.30809974911821,
+      "ma20": 86.05550079345703,
+      "ma60": 80.46216684977213,
+      "chg1m": 16.349998474121094,
+      "chg3m": 3.2299957275390625,
+      "chg1mPct": 20.91327501956874,
+      "chg3mPct": 3.5377827158537807,
+      "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
@@ -95,22 +95,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.78199768066406,
+      "current": 98.7770004272461,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.3780059814453125,
-      "changePct": -0.38120811565656954,
-      "pctRank": 23.15035799522673,
+      "changeAbs": -0.38300323486328125,
+      "changePct": -0.3862477014103146,
+      "pctRank": 22.911694510739856,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7831934973922223,
-      "ma20": 99.34160003662109,
-      "ma60": 100.26420021057129,
-      "chg1m": -0.8180007934570312,
-      "chg3m": -1.26800537109375,
-      "chg1mPct": -0.8212859497880124,
-      "chg3mPct": -1.26737164659334,
-      "lastDate": "2026-09-08",
+      "drawdown1y": -2.788111569814178,
+      "ma20": 99.34135017395019,
+      "ma60": 100.26411692301433,
+      "chg1m": -0.822998046875,
+      "chg3m": -1.2730026245117188,
+      "chg1mPct": -0.8263032725736821,
+      "chg3mPct": -1.2723664024809374,
+      "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
@@ -118,22 +118,22 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4394.89990234375,
+      "current": 4400.89990234375,
       "prevClose": 4429.7998046875,
-      "changeAbs": -34.89990234375,
-      "changePct": -0.7878437826201496,
-      "pctRank": 90.29435163086714,
+      "changeAbs": -28.89990234375,
+      "changePct": -0.6523974811044253,
+      "pctRank": 90.3739061256961,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.364245204521488,
-      "ma20": 4468.809985351562,
-      "ma60": 4235.559997558594,
-      "chg1m": 54.19970703125,
-      "chg3m": 59.0,
-      "chg1mPct": 1.2486397261386535,
-      "chg3mPct": 1.3607325198653186,
-      "lastDate": "2026-09-08",
+      "drawdown1y": -17.251429317973432,
+      "ma20": 4469.1099853515625,
+      "ma60": 4235.659997558594,
+      "chg1m": 60.19970703125,
+      "chg3m": 65.0,
+      "chg1mPct": 1.3868662732399568,
+      "chg3mPct": 1.499112098156707,
+      "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
+      "datetime": 1788911747,
+      "headlineKo": "예멘에서 이란의 동맹인 후티족은 누구인가? - 로이터"
+    },
+    {
       "headline": "War expands as Houthis attack Saudi cities and US strikes Iranian tankers - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
@@ -244,11 +251,11 @@ const MARKET_DATA = {
       "headlineKo": "후티족이 사우디 도시를 공격하고 미국이 이란 유조선을 공격함에 따라 전쟁이 확대됩니다. - 로이터"
     },
     {
-      "headline": "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+      "headline": "Iran says it captured US submarine drone in Strait of Hormuz - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788905772,
-      "headlineKo": "예멘에서 이란의 동맹인 후티족은 누구인가? - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0VkUnd5VzlEZVhBUy1ja1Q0dFZ6RE0yZHp2dGdobTZHajY0ZTZ6MXdkVWtKV2hYal9nY2dRRUlxU0RlZmxyQ3dmMXpKMFVVNlh2Q25LRVp3LXZHWmtrbzZGM3djQlVtVWdQb0U5RFNTOVA2U1BUMlFWcDZqblV2MGZLdEZPQllselJKcm44eld0STZhTDdsd2R1RG1HT1RrNm53VTZXNXVWWDla?oc=5",
+      "datetime": 1788906835,
+      "headlineKo": "이란은 호르무즈 해협에서 미 잠수함 드론을 포획했다고 밝혔다. - 로이터"
     },
     {
       "headline": "COMMENTARY: TRADING DAY Roll out the $100 barrel - Reuters",
@@ -256,6 +263,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWhUQ1NpdmNLVzc0cWl4c0ZwUXZrV3dBeTBJVXF0ZnZQNDZlb3NXcnJlbUo3cUFQRV9nUE9VbGhfWXpzZTFaZGRMVkRrdUhhME5OYUs5Mm5PLWFmVTBvTk0teDdocVhhQXhNVVNWaXk0QmJpeXRTMDh5VzRTRTFjLTAxdkEwZDVPT3pxX2Zwd1N0RGdqVVhjVWI4bTVLZHotNjdwWHlB?oc=5",
       "datetime": 1788901686,
       "headlineKo": "해설: 트레이딩 데이 $ 100 배럴 출시 - 로이터"
+    },
+    {
+      "headline": "Ukraine contracting around 1,000 Patriot missiles from allies, defence chief says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbl9tbUR6b3BGWjVMaGtvUGtLeFVKNmpQckk0VDE2djhfTV8wNVREU2VKYUY3MEtHaUVLRlNwQUxrYzkxRjJRVmFNa0hJdHRzZ0tNa2pqUFo4endxQWpFR3REVG1pNTF2VE1KQW1kdkRzX054dmdZS3BpdW4xakJ6ejY0LWE2YzdJVm53WVFBVGRCcm5VeUowTFpoNVVzWFRBMWlOWmEzT1JwYzlNRHdEcVN3V3J2eTJjcGdsY3N3aXNESk02Q2NmRFlhMm9BLVgtMnR3?oc=5",
+      "datetime": 1788901568,
+      "headlineKo": "우크라이나가 동맹국으로부터 약 1,000개의 패트리어트 미사일을 계약했다고 국방부 장관이 말했습니다. - 로이터 통신"
     },
     {
       "headline": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
@@ -279,6 +293,13 @@ const MARKET_DATA = {
       "headlineKo": "항공 교통 통제 문제로 영국 주요 공항의 항공편이 중단되었습니다 - Reuters"
     },
     {
+      "headline": "Oil prices hit six-week high after Houthis attack Saudi sites - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
+      "datetime": 1788896631,
+      "headlineKo": "Houthis가 사우디 현장을 공격한 후 유가가 6주 만에 상승 - 로이터"
+    },
+    {
       "headline": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
@@ -298,37 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/08/when-someone-asks-loaded-question-use-gloria-steinem-powerful-trick-reject-unfair-framing.html",
       "datetime": 1788891466,
       "headlineKo": "누군가 당신에게 어려운 질문을 하면 Gloria Steinem의 강력한 트릭을 사용하여 그들의 '불공정한 프레이밍'을 거부하라고 전문가는 말합니다."
-    },
-    {
-      "headline": "EasyJet faces $72 million lawsuit over stranded Airbus planes, FT reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPXy1wYzNrampYR09qMHpOcUl0ZGJ1TU1JWHdWMkZRU2Nnd0ZHczRPNmlKRjhrN093MlFyRmVjby13SHZHYVBpMENvVUd6eVA0Q1FyU0dXRFNMX1JYU28tUUFqdHhyLUMtZElBNWItUzFZZWdwNXdjaXY2RzVOY3U3R3JfQ3ZtZXZoMnpTU091V1hhb2JuLW9VTVZ6d3FSM0dobXpFZktpT2d4bHczbzVjdVBOdmFiQ0xqNjhuZC1jS3gwbUpGYjNLaElFbFJBM0U?oc=5",
-      "datetime": 1788888242,
-      "headlineKo": "EasyJet, 발이 묶인 에어버스 비행기와 관련해 7,200만 달러 규모의 소송에 직면했다고 FT 보고서 - Reuters"
-    },
-    {
-      "headline": "This data center stock is up over 1000% in the last five years. Trader Mike Khouw sees more gains",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/08/this-data-center-stock-is-up-over-1000percent-in-the-last-five-years-trader-mike-khouw-sees-more-gains.html",
-      "datetime": 1788887199,
-      "headlineKo": "이 데이터 센터 재고는 지난 5년 동안 1000% 이상 상승했습니다. 트레이더 Mike Khouw는 더 많은 이익을 얻었습니다"
-    },
-    {
-      "headline": "Netanyahu races to unify Israel's right wing in bid to avert election defeat - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2FPczJOb2lpcFNYMEVRVlpXaXJ5dllBZjFvMDhsbGEzVDV5dlQ4QVJjV1d0N1FPYmFrNzVRYkRvbzFmVXp5WFdxMXUwZ1VvNFdVVnkybnpFU19GVmdSaEpRaldoTWRsRGs5NVdhR09BNmNLZUtsYlI1TjE4cVpLeUs2NTZIcEpxS1F6NWlid0tHU05FNklhTUdLbkhPQjRQeTVxLWpzRlAzQ3pNSUlQazc4NV92V3FnNEpkeg?oc=5",
-      "datetime": 1788886423,
-      "headlineKo": "네타냐후, 선거 패배를 막기 위해 이스라엘 우익 통합 경쟁 - 로이터"
     }
   ],
   "fgi": {
     "score": 40.6285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788912337.4544888,
-  "_updated_label": "2026-09-09 09:06",
-  "_last_attempt_at": 1788912337.4544888,
-  "_last_success_at": 1788912337.4544888,
+  "_fetched_at": 1788916283.0311198,
+  "_updated_label": "2026-09-09 10:12",
+  "_last_attempt_at": 1788916283.0311198,
+  "_last_success_at": 1788916283.0311198,
   "_collection_status": "ok",
   "_collection_errors": []
 };
