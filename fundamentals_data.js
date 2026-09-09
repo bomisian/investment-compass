@@ -1329,8 +1329,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 24.610000000000003,
     "name": "Vertiv Holdings Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788903426.5369155,
-    "_updated_label": "2026-09-09 06:37"
+    "_fetched_at": 1788975628.6230643,
+    "_updated_label": "2026-09-10 02:40"
   },
   "MOD": {
     "forwardPE": 25.602807350820886,
