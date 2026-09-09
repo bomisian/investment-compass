@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788987628.044875,
+  "generatedAt": 1788989117.608275,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1788989117.608275,
+        "dataAsOf": 1788976958,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -1.05,
+            "after": -0.7
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.87,
+            "after": 1.57
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Microsoft CFO, Goldman 컨퍼런스에서 AI 스택, Azure 효율성 및 에이전트 성장 발표",
+        "newsUrl": "https://finnhub.io/api/news?id=945bcbea9e766ac2534f5811dc639cbfdf20f037785d3c5fc14f448615ad178e",
+        "eventId": "80dadce986324e659d92",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -0.7, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 1.57, \"before\": 0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"80dadce986324e659d92\"}"
+      },
       {
         "changedAt": 1788987250.909649,
         "dataAsOf": 1788976958,
@@ -9117,6 +9146,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ORCL": [
       {
+        "changedAt": 1788989117.608275,
+        "dataAsOf": 1788972586,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.75,
+            "after": -1.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.67,
+            "after": -3.32
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Oracle의 파괴적인 성격은 매우 매력적입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=c5b94b4dfcc242a16664c1243c5ed5607d1a12fff13c8269217b59d4b9f4885f",
+        "eventId": "af543bdca1a1eb660b95",
+        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": -1.75, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.32, \"before\": -3.67, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -0.7, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"af543bdca1a1eb660b95\"}"
+      },
+      {
         "changedAt": 1788979660.6317592,
         "dataAsOf": 1788972586,
         "changes": [
@@ -12330,6 +12388,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1788989117.608275,
+        "dataAsOf": 1788961560,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "Arista 대 IBM: 투자자는 지금 어떤 클라우드 AI 주식을 구매해야 할까요?",
+        "newsUrl": "https://finnhub.io/api/news?id=4c6721f6863f81b0676afbb9dfe754f6ba86610426f9c0a38b666c45568ab23a",
+        "eventId": "6b1196410ac48bdc43a6",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"6b1196410ac48bdc43a6\"}"
+      },
+      {
         "changedAt": 1788979660.6317592,
         "dataAsOf": 1788961560,
         "changes": [
@@ -13643,32 +13718,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8ebab418c29d8b95bd9d4fbaa3f279658429e6b5908b4d304bc969b388b9c729",
         "eventId": "1c80bb1458e82f446d2b",
         "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 4.72, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.92, \"before\": -1.57, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 2.1, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"1c80bb1458e82f446d2b\"}"
-      },
-      {
-        "changedAt": 1788216094.9143708,
-        "dataAsOf": 1788188511,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.38,
-            "after": 4.72
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.62,
-            "after": 2.98
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "OpenAI는 Nvidia 지원 AI 데이터 센터 임대를 위해 SB 에너지 보증으로 55억 달러를 받았습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=7ec20d97d1eecd24fe43a985d3bf704b4b8e79d82435f4cd0a3b034fcc1aec9d",
-        "eventId": "5971244267261c0821f6",
-        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 4.38, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.98, \"before\": 2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5971244267261c0821f6\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1788989117.608275,
+        "dataAsOf": 1788965121,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -4.2,
+            "after": -3.5
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.72,
+            "after": -4.38
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "CFO가 AI 칩 시장 전망을 3조 달러로 높이면서 AMD 주가 3% 상승; 인텔이 주목하다",
+        "newsUrl": "https://finnhub.io/api/news?id=6fd36e837660d73978d3db29bcd873d62e28fff7c505e2c3b5d11b979819a06d",
+        "eventId": "1b68d303793ab4eb30fa",
+        "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -4.2, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -4.38, \"before\": -4.72, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"1b68d303793ab4eb30fa\"}"
+      },
       {
         "changedAt": 1788979660.6317592,
         "dataAsOf": 1788965121,
@@ -23348,6 +23423,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788989117.608275,
+        "dataAsOf": 1788967201,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.7,
+            "after": 0.0
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Goldman이 최악의 상황은 끝났다고 말하면서 메모리 주식 반등: SK Hynix 5% 상승, SanDisk 3% 상승, Micron 2% 상승",
+        "newsUrl": "https://finnhub.io/api/news?id=2a2f772375f30bb5c421e292a501701c5bb527cad99c636e7dfcc51f26b3b640",
+        "eventId": "8766466de73c61ecc430",
+        "fingerprint": "{\"changes\": [{\"after\": 0.0, \"before\": -0.7, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"8766466de73c61ecc430\"}"
+      },
       {
         "changedAt": 1788964425.160571,
         "dataAsOf": 1788960900,

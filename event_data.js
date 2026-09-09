@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788987627.99413,
+  "generatedAt": 1788989117.556656,
   "events": [
     {
       "id": "2cb6f9c91ed3f2904f79",
@@ -1558,6 +1558,73 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "4fc45c922623ad43b32c",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Agentforce ARR Hits $1.5B: Can It Boost Salesforce's Revenue Growth?",
+      "headlineKo": "Agentforce ARR이 15억 달러 달성: Salesforce의 수익 성장을 촉진할 수 있습니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ec65cf11e158efd3a89bf713755c235087e6ba69d6e86e447dafe85c63eaa5aa",
+        "publishedAt": 1788964020,
+        "collectedAt": 1788989082.1996906
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Agentforce ARR Hits $1.5B: Can It Boost Salesforce's Revenue Growth?",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
       "id": "5d66cebe0338e12a7816",
       "schemaVersion": 1,
       "eventType": "guidance_change",
@@ -2393,7 +2460,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6a1725f9349bd10a892af246c0a1f509d6c6609aab3e95c3d6cb07ab69b41f74",
         "publishedAt": 1788956919,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5582,11 +5649,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
         "publishedAt": 1788911881,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +5.04",
+        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +6.55",
         "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
         "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
       ],
@@ -7257,12 +7324,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,651.40 −0.30% Dow Jones 52,487.40 −0.52% Nasdaq 100 29,514.00 +0.04% Russell 2000 2,934.84 −0.89% S&P 500 7,651.40 −0.30% 다우존스 52,487.40 −0.52% 나스닥 100 29,514.00 +0.04% 러셀 2000 2,934.84 −0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.27% S&P 500 7,644.00 −0.40% 다우존스 52,439.90 −0.61% 나스닥 100 29,435.40 −0.22% 러셀 2000 2,923.40 −1.",
         "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
       ],
       "marketInterpretation": [
@@ -9574,18 +9641,20 @@ const EVENT_DATA = {
       "eventLabel": "실적 발표",
       "primaryTicker": "CRM",
       "relatedTickers": [
-        "CRM"
+        "CRM",
+        "QQQ",
+        "SPY"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "medium",
         "score": 65,
         "kind": "reported",
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Before You Chase Salesforce’s Rally, Take a Closer Look at Its Latest Earnings Beat",
@@ -9594,34 +9663,47 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Salesforce의 랠리를 쫓기 전에 최신 수익 비트를 자세히 살펴보세요"
+        "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+        "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
+        "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
       ],
-      "marketInterpretation": [],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
       "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+        "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
       ],
       "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 34.33%, $259.23., $5.90 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
       ],
       "impacts": [
         {
           "ticker": "CRM",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
         }
       ],
-      "watch": []
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
     },
     {
       "id": "85c131752a4ef95516d4",
@@ -10415,7 +10497,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13234,7 +13316,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16364,7 +16446,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
         "publishedAt": 1788642449,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17399,7 +17481,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788966094.6535394
+        "collectedAt": 1788989082.1996906
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18378,105 +18460,6 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
-    },
-    {
-      "id": "20058ef05e4a5636d589",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "AMD",
-        "MSFT",
-        "MU",
-        "NVDA",
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?",
-      "headlineKo": "ChronoScale은 50MW 규모의 Microsoft AI 배포를 계획하고 있다고 밝혔습니다. CHRN이 주주를 희석시키지 않고 건설 자금을 조달할 수 있습니까?",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7d2f2ebf4d76116c9839a16c7d0ac9322a0abf855fddaa7bd0d6c0eb4392f6f0",
-        "publishedAt": 1788567034,
-        "collectedAt": 1788987091.5899713
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 MSFT의 사업과 관련된 'ChronoScale Says It Plans a 50 MW Microsoft AI Deployment. Can CHRN Fund the Build Without Diluting Shareholders?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -18548,6 +18531,7 @@ const EVENT_DATA = {
       "35f40de9c05b45d75001",
       "81a2f2f86fd29d87bada",
       "47ef99a8e6acf4012bf7",
+      "eda677ae8cdc25e4a1b8",
       "85c131752a4ef95516d4",
       "ff270ce370ec2dac3d29",
       "8262825b785fe4ee46f5",
@@ -18642,6 +18626,7 @@ const EVENT_DATA = {
       "35f40de9c05b45d75001",
       "81a2f2f86fd29d87bada",
       "47ef99a8e6acf4012bf7",
+      "eda677ae8cdc25e4a1b8",
       "85c131752a4ef95516d4",
       "2ea83ba5a7d0e9b39dfc",
       "2e31e49d8a1e4a76e3c5",
@@ -18768,8 +18753,7 @@ const EVENT_DATA = {
       "bbcb8449ddc554720b18",
       "e87a184dffcbdbb943a2",
       "23a1dfd6c2ba88680d9a",
-      "7155a2db9d9ccbb51a8c",
-      "20058ef05e4a5636d589"
+      "7155a2db9d9ccbb51a8c"
     ],
     "AAPL": [
       "1d21c76dd5aca4de2ee1",
@@ -18846,8 +18830,7 @@ const EVENT_DATA = {
       "e714a8376b35ebebd290",
       "c6eb28448873372e603f",
       "969d7bd1c45b16d66f5c",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589"
+      "9952f26e2bbd48af0e35"
     ],
     "TSLA": [
       "52269353f42ebfb85658",
@@ -18966,8 +18949,7 @@ const EVENT_DATA = {
       "8cee827e6d2b6afff6ed",
       "2c14c1f10228f7447468",
       "c6eb28448873372e603f",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589"
+      "9952f26e2bbd48af0e35"
     ],
     "MU": [
       "8766466de73c61ecc430",
@@ -19012,8 +18994,7 @@ const EVENT_DATA = {
       "c4e5da7e7f840875b571",
       "8b75a18b4250ccf231bc",
       "c6eb28448873372e603f",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589"
+      "9952f26e2bbd48af0e35"
     ],
     "SNDK": [
       "8766466de73c61ecc430",
@@ -19024,6 +19005,14 @@ const EVENT_DATA = {
       "b0ba37f64b23edb6bcba",
       "14be8e4cf7005f7f8695",
       "cad78b608c11248bbe55"
+    ],
+    "CRM": [
+      "4fc45c922623ad43b32c",
+      "fe49fa2aa66732faa03c",
+      "eda677ae8cdc25e4a1b8",
+      "ff270ce370ec2dac3d29",
+      "af585ca4f2f50f7a8389",
+      "05e6ad8bd35770cf2cc8"
     ],
     "VST": [
       "5d66cebe0338e12a7816",
@@ -19085,8 +19074,7 @@ const EVENT_DATA = {
       "c4e5da7e7f840875b571",
       "c6eb28448873372e603f",
       "32cb35710ae36df4ba11",
-      "9952f26e2bbd48af0e35",
-      "20058ef05e4a5636d589"
+      "9952f26e2bbd48af0e35"
     ],
     "LITE": [
       "959b52be41f628107e25",
@@ -19119,13 +19107,6 @@ const EVENT_DATA = {
       "4144ce284b01fef9a47b",
       "e799cbdf421216e4335e",
       "e3b77a3d680e700d2406"
-    ],
-    "CRM": [
-      "fe49fa2aa66732faa03c",
-      "eda677ae8cdc25e4a1b8",
-      "ff270ce370ec2dac3d29",
-      "af585ca4f2f50f7a8389",
-      "05e6ad8bd35770cf2cc8"
     ],
     "PLTR": [
       "76ec4922ba02519db2fb",
