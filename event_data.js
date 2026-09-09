@@ -1,8 +1,82 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788989117.556656,
+  "generatedAt": 1788990983.4467812,
   "events": [
+    {
+      "id": "e1588490151bf5d0b812",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
+      "headlineKo": "오늘의 주식 시장: 다우(Dow)는 손실을 줄였습니다. Apple, 최저치 하락, AI 주식 최고 진입(실시간 보도)",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
+        "publishedAt": 1788983654,
+        "collectedAt": 1788990949.5375302
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "aiInference": [
+        "이 기사는 AAPL의 사업과 관련된 'Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+        "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+      ],
+      "whyItMatters": [
+        "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+        "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "다음 실적 매출·EPS",
+        "영업현금흐름과 CAPEX",
+        "회사 공식 가이던스",
+        "주가 반응이 하루 이상 지속되는지"
+      ]
+    },
     {
       "id": "2cb6f9c91ed3f2904f79",
       "schemaVersion": 1,
@@ -79,6 +153,62 @@ const EVENT_DATA = {
         "공급업체 수주·매출",
         "투자 기업 OCF·FCF·부채"
       ]
+    },
+    {
+      "id": "63442a4a2206bc3b1a77",
+      "schemaVersion": 1,
+      "eventType": "competitor_entry",
+      "eventLabel": "경쟁사 기술·시장 진입",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "중기·장기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Foldable iPhone Duo's software helps it 'shine' against competitors",
+      "headlineKo": "폴더블 iPhone Duo의 소프트웨어는 경쟁사 대비 '빛나는' 데 도움이 됩니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
+        "publishedAt": 1788982308,
+        "collectedAt": 1788990949.5375302
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "폴더블 iPhone Duo의 소프트웨어는 경쟁사 대비 '빛나는' 데 도움이 됩니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "risk",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
     },
     {
       "id": "a79a086f11e54b52c4a3",
@@ -5220,7 +5350,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5397,7 +5527,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7974,7 +8104,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9530,11 +9660,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f003b2078afff9dc3ad0bd452582ec7557e7b7f7ecc9f55b19060267b0c7b72",
         "publishedAt": 1788876202,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 이란 전쟁 충격: 내가 그 비공개 회의에서 들었던 내용(Banyan Hill Publishing에서) (광고) Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도한다고 말합니다",
+        "어플라이드 머티리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 Skip to main content → Trump's New Dollar (Porter & Company에서) (광고) 어플라이드 머티어리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Written b",
         "MarketBeat Media, LLC의 이미지를 닫습니다.",
         "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
       ],
@@ -10882,7 +11012,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
         "publishedAt": 1788850156,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11873,7 +12003,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
         "publishedAt": 1788818172,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11971,7 +12101,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
         "publishedAt": 1788818100,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14003,7 +14133,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa",
         "publishedAt": 1788792695,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14230,7 +14360,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755",
         "publishedAt": 1788789628,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15378,7 +15508,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
         "publishedAt": 1788729369,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16705,7 +16835,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c686985f2d1ee36acd57cf68fc1ec368cbd7560286e77ee01a4f48c461c0159b",
         "publishedAt": 1788633300,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16876,7 +17006,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c91b0250bd447583cf3e54e7a07aa669542e0140205e7d3070c6698ccefebf",
         "publishedAt": 1788627934,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17391,7 +17521,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
         "publishedAt": 1788613800,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18109,7 +18239,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
         "publishedAt": 1788600300,
-        "collectedAt": 1788968127.6113286
+        "collectedAt": 1788990949.5375302
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18324,145 +18454,35 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "e799cbdf421216e4335e",
-      "schemaVersion": 1,
-      "eventType": "major_customer_contract",
-      "eventLabel": "주요 고객 계약",
-      "primaryTicker": "VRT",
-      "relatedTickers": [
-        "VRT"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Vertiv Holdings Co (VRT) Agrees Utility Deal To Deepen AI Data Center Power Reach",
-      "headlineKo": "Vertiv Holdings Co(VRT), AI 데이터센터 전력 도달 범위를 심화하기 위한 유틸리티 계약에 합의",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=fdf5335c10e11621038f4cafb4041e1163de35450be064a4856316c862ce12e4",
-        "publishedAt": 1788574392,
-        "collectedAt": 1788987091.5899713
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Vertiv Holdings Co (VRT) Agrees Utility Deal To Deepen AI Data Center Power Reach",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "VRT에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
-        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "VRT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "계약 금액·기간·취소 조건",
-        "수주잔고와 매출 인식 시점",
-        "관련 사업부 매출총이익률"
-      ]
-    },
-    {
-      "id": "e3b77a3d680e700d2406",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "VRT",
-      "relatedTickers": [
-        "VRT"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Vertiv: The Backbone Of AI Revolution",
-      "headlineKo": "Vertiv: AI 혁명의 중추",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=002f2e572e0099d81d9d6b0f61f8c4c1471f3ea49f6efd90e8e0d06cbf60c4a3",
-        "publishedAt": 1788572194,
-        "collectedAt": 1788987091.5899713
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Vertiv Stock: AI 혁명의 중추(NYSE:VRT) | Seeking Alpha J 논문 2.38K 팔로워 팔로우 요약 Vertiv Holdings는 AI 및 데이터 센터 혁명의 중추에 서 있으며 앞으로 중요한 촉매제를 제시하고 있습니다.",
-        "지난 1년 동안 VRT가 100% 이상 급등했음에도 불구하고 강력한 업계 순풍과 Mag 7 설비 투자로 인해 추가 상승 가능성이 있다고 봅니다.",
-        "저는 데이터센터 시장이 초기 단계에 있을 수 있으며, 설비 투자가 가속화됨에 따라 시장 규모가 두 배로 커질 가능성이 있다고 믿습니다."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "VRT에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 비용·CAPEX·영업현금흐름·FCF·부채에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "VRT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "VRT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "e1588490151bf5d0b812",
+      "63442a4a2206bc3b1a77",
+      "1d21c76dd5aca4de2ee1",
+      "a6882d34e26af4d6edc2",
+      "ec840ea366a86511d1d6",
+      "66d41035c01340293828",
+      "2b95fdaee54122dac7c3",
+      "e08d294166d607e6fa00",
+      "e3a8361107d278f73b6d",
+      "9e39269dd7aca333bcf6",
+      "ccb5c941c14f53db1b2d",
+      "3e75613086ca18ec677b",
+      "4144ce284b01fef9a47b",
+      "dd85df54965f639f4c46",
+      "820081e6789412d1565c",
+      "25705c72e076e67971e7",
+      "c0fe715751d9d592be5d",
+      "5daa3cbb11d636cebb76",
+      "e2ce79b41d4b087aae4e",
+      "ccbd6fbf419bb01004a5",
+      "1fd39215a412312fcfaa",
+      "8d8419343b08e02023cd",
+      "9531ad704c5fa19fe096",
+      "0dc5a39d4d42ab975e78"
+    ],
     "AVGO": [
       "2cb6f9c91ed3f2904f79",
       "533f2ca44e5cd646c780",
@@ -18754,30 +18774,6 @@ const EVENT_DATA = {
       "e87a184dffcbdbb943a2",
       "23a1dfd6c2ba88680d9a",
       "7155a2db9d9ccbb51a8c"
-    ],
-    "AAPL": [
-      "1d21c76dd5aca4de2ee1",
-      "a6882d34e26af4d6edc2",
-      "ec840ea366a86511d1d6",
-      "66d41035c01340293828",
-      "2b95fdaee54122dac7c3",
-      "e08d294166d607e6fa00",
-      "e3a8361107d278f73b6d",
-      "9e39269dd7aca333bcf6",
-      "ccb5c941c14f53db1b2d",
-      "3e75613086ca18ec677b",
-      "4144ce284b01fef9a47b",
-      "dd85df54965f639f4c46",
-      "820081e6789412d1565c",
-      "25705c72e076e67971e7",
-      "c0fe715751d9d592be5d",
-      "5daa3cbb11d636cebb76",
-      "e2ce79b41d4b087aae4e",
-      "ccbd6fbf419bb01004a5",
-      "1fd39215a412312fcfaa",
-      "8d8419343b08e02023cd",
-      "9531ad704c5fa19fe096",
-      "0dc5a39d4d42ab975e78"
     ],
     "ORCL": [
       "1d21c76dd5aca4de2ee1",
@@ -19104,9 +19100,7 @@ const EVENT_DATA = {
       "baa0247c0d8303fdb48d",
       "a7fee38538a1544aa485",
       "0c9361dec8fe27099ca0",
-      "4144ce284b01fef9a47b",
-      "e799cbdf421216e4335e",
-      "e3b77a3d680e700d2406"
+      "4144ce284b01fef9a47b"
     ],
     "PLTR": [
       "76ec4922ba02519db2fb",

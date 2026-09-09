@@ -7358,7 +7358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -7374,10 +7374,10 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple Seen Unveiling First Foldable Phone, iPhone 18 Pro in New CEO's First Major Product Launch Event",
+        "headline": "What it’s like to use Apple’s iPhone Duo, the company’s first foldable",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=bb09e56ad8e437c2a4b72695c919148f6afd3cec5352b8acafdf6f12bf3a25e9",
-        "datetime": 1788961902,
+        "url": "https://finnhub.io/api/news?id=86b6bcb52e1bdec4c94d88397ab03b605a8ca2603119bf58380c9e373ceae838",
+        "datetime": 1788983764,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
@@ -7389,7 +7389,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple Seen Unveiling First Foldable Phone, iPhone 18 Pro in New CEO's First Major Product Launch Event",
+            "What it’s like to use Apple’s iPhone Duo, the company’s first foldable",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7413,97 +7413,33 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Seen Unveiling First Foldable Phone, iPhone 18 Pro in New CEO's First Major Product Launch Event' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'What it’s like to use Apple’s iPhone Duo, the company’s first foldable' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968132.50325
+          "analysisUpdatedAt": 1788990954.3841217
         },
-        "headlineKo": "Apple, 신임 CEO의 첫 주요 제품 출시 행사에서 최초의 폴더블폰인 iPhone 18 Pro 공개"
+        "headlineKo": "Apple 최초의 폴더블 제품인 iPhone Duo를 사용하는 느낌"
       },
       {
-        "headline": "Tech Analyst Paul Meeks Has A Warning for Apple in the Face of Its Biggest Launch Ever",
+        "headline": "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d6b7d5a456ca5edf216511a495731bf07d09ad45e9df5306c8fe6ed494130f66",
-        "datetime": 1788961474,
+        "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
+        "datetime": 1788983654,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
+          "importance": "low",
           "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "기술 분석가인 Paul Meeks는 사상 최대 규모의 출시를 앞두고 Apple에 경고를 했습니다. - 연중무휴 월스트리트",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,631.10 −0.56% Dow Jones 52,362.40 −0.76% Nasdaq 100 29,415.20 −0.29% Russell 2000 2,924.89 −1.22% S&P 500 7,631.10 −0.56% 다우존스 52,362.40 −0.76% 나스닥 100 29,415.20 −0.29% 러셀 2000 2,924.89 −1.",
-            "Gerelyn Terzo 작성 2026년 9월 9일 오전 9시 44분(동부 표준시) · 3분 읽음 𝕏 f ⧉ 뉴욕, 뉴욕 - 9월 20일: 2024년 9월 20일 뉴욕시에서 신제품 출시일에 Fifth Avenue Apple Store가 모습을 드러냈습니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $2,000, 90%, 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.29,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$2,000",
-            "90%",
-            "100%",
-            "$109.42 billion",
-            "16.4%",
-            "$2.02",
-            "6.80%",
-            "$54.25 billion"
-          ],
-          "sourceExcerpt": [
-            "Tech Analyst Paul Meeks Has A Warning for Apple in the Face of Its Biggest Launch Ever - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,631.10 −0.56% Dow Jones 52,362.40 −0.76% Nasdaq 100 29,415.20 −0.29% Russell 2000 2,924.89 −1.22% S&P 500 7,631.10 −0.56% Dow Jones 52,362.40 −0.76% Nasdaq 100 29,415.20 −0.29% Russell 2000 2,924.89 −1.",
-            "By Gerelyn Terzo Published September 9, 2026, 9:44am ET · 3 min read 𝕏 f ⧉ NEW YORK, NEW YORK - SEPTEMBER 20: The Fifth Avenue Apple Store is seen on new products launch day on September 20, 2024 in New York City."
-          ],
-          "analysisUpdatedAt": 1788968138.1574323
-        },
-        "headlineKo": "기술 분석가 Paul Meeks는 사상 최대 규모의 출시에 직면한 Apple에 대해 경고합니다."
-      },
-      {
-        "headline": "Stock Market Today: Dow Falls As Brent Crosses $100 A Barrel; Apple Dips Ahead Of iPhone Event (Live Coverage)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=42dd48069857fbe7b4bf8e486b33281cfbe66f13ba6807cec7526f55016c85f4",
-        "datetime": 1788961409,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "label": "실적·재무 부담 확인 필요",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Stock Market Today: Dow Falls As Brent Crosses $100 A Barrel; Apple Dips Ahead Of iPhone Event (Live Coverage)",
+            "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7527,35 +7463,85 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stock Market Today: Dow Falls As Brent Crosses $100 A Barrel; Apple Dips Ahead Of iPhone Event (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.57,
+          "relevance": 0.29,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968140.0881433
+          "analysisUpdatedAt": 1788990956.9110553
         },
-        "headlineKo": "오늘의 주식 시장: 브렌트유가 배럴당 100달러를 넘으면서 다우지수는 하락했습니다. Apple, iPhone 이벤트보다 앞서다(실시간 보도)"
+        "headlineKo": "오늘의 주식 시장: 다우(Dow)는 손실을 줄였습니다. Apple, 최저치 하락, AI 주식 최고 진입(실시간 보도)"
       },
       {
-        "headline": "Here is What to Know Beyond Why Apple Inc. (AAPL) is a Trending Stock",
+        "headline": "Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=eac523d8a2fa24e83f95c8e8ac4751fe5ab19675a9ed246b9f932b652398899b",
-        "datetime": 1788958803,
-        "relevance": 0.71,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Apple Inc.(AAPL)가 추세 주식인 이유 외에 알아야 할 사항은 다음과 같습니다."
-      },
-      {
-        "headline": "Apple Set to Unveil Device Meant to Silence Its Critics",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=057f1f921254a1dd07cc8fa085c2fb820f4cd7a17ce1e5ff748b7ad2d5a881a5",
-        "datetime": 1788958543,
+        "url": "https://finnhub.io/api/news?id=bd339a537cf6919ef5169140463cac77131c5781d38d6399b826efbc91cc2c85",
+        "datetime": 1788982620,
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "애플, 비판자들을 침묵시키려는 장치 공개 예정"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788990959.1557865
+        },
+        "headlineKo": "Apple, ServiceTitan, Meta, Micron, Casey's, Jersey Mike's 및 오늘날 시장을 설명하는 기타 주식"
+      },
+      {
+        "headline": "5 Takeaways From Today's Apple Event",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=650a85d692ef8014cd6be701834c6a8ace57a02b5e8780b6d183e30505835243",
+        "datetime": 1788982408,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "오늘 Apple 이벤트의 5가지 시사점"
+      },
+      {
+        "headline": "Foldable iPhone Duo's software helps it 'shine' against competitors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
+        "datetime": 1788982308,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "폴더블 iPhone Duo의 소프트웨어는 경쟁사 대비 '빛나는' 데 도움이 됩니다."
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7747,6 +7733,171 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "What it’s like to use Apple’s iPhone Duo, the company’s first foldable",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=86b6bcb52e1bdec4c94d88397ab03b605a8ca2603119bf58380c9e373ceae838",
+        "datetime": 1788983764,
+        "headlineKo": "Apple 최초의 폴더블 제품인 iPhone Duo를 사용하는 느낌",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What it’s like to use Apple’s iPhone Duo, the company’s first foldable",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'What it’s like to use Apple’s iPhone Duo, the company’s first foldable' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788990954.3841217
+        }
+      },
+      {
+        "headline": "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
+        "datetime": 1788983654,
+        "headlineKo": "오늘의 주식 시장: 다우(Dow)는 손실을 줄였습니다. Apple, 최저치 하락, AI 주식 최고 진입(실시간 보도)",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "risk",
+          "certainty": "본문 확인 필요",
+          "label": "실적·재무 부담 확인 필요",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Stock Market Today: Dow Cuts Losses; Apple Moves Off Lows, AI Stock Tops Entry (Live Coverage)' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788990956.9110553
+        }
+      },
+      {
+        "headline": "Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=bd339a537cf6919ef5169140463cac77131c5781d38d6399b826efbc91cc2c85",
+        "datetime": 1788982620,
+        "headlineKo": "Apple, ServiceTitan, Meta, Micron, Casey's, Jersey Mike's 및 오늘날 시장을 설명하는 기타 주식",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple, ServiceTitan, Meta, Micron, Casey’s, Jersey Mike’s, and More Stocks That Explain Today’s Market' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788990959.1557865
+        }
+      },
+      {
+        "headline": "5 Takeaways From Today's Apple Event",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=650a85d692ef8014cd6be701834c6a8ace57a02b5e8780b6d183e30505835243",
+        "datetime": 1788982408,
+        "headlineKo": "오늘 Apple 이벤트의 5가지 시사점",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Foldable iPhone Duo's software helps it 'shine' against competitors",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
+        "datetime": 1788982308,
+        "headlineKo": "폴더블 iPhone Duo의 소프트웨어는 경쟁사 대비 '빛나는' 데 도움이 됩니다.",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
       {
         "headline": "Apple Seen Unveiling First Foldable Phone, iPhone 18 Pro in New CEO's First Major Product Launch Event",
         "source": "Yahoo",
@@ -13728,17 +13879,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788968127.6113286,
-    "_updated_label": "2026-09-10 00:35",
+    "_fetched_at": 1788990949.5375302,
+    "_updated_label": "2026-09-10 06:56",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 169,
+      "checked": 174,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
-    "_last_attempt_at": 1788968127.6113286,
+    "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
-    "_last_success_at": 1788968127.6113286,
+    "_last_success_at": 1788990949.5375302,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -20065,7 +20216,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -25663,7 +25814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -32516,7 +32667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -34815,7 +34966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -41143,7 +41294,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -47063,7 +47214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -53931,7 +54082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -60557,7 +60708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -65497,7 +65648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 124,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -69509,7 +69660,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -69570,7 +69721,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968148.6517355
+          "analysisUpdatedAt": 1788990966.660629
         },
         "headlineKo": "Applied Materials, AMD, Broadcom, Lam Research 및 Marvell Technology의 주가 급등, 알아야 할 사항"
       },
@@ -69620,7 +69771,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968150.5082304
+          "analysisUpdatedAt": 1788990968.7259092
         },
         "headlineKo": "Capex Rebound는 Applied Materials(AMAT) 실적을 뒷받침합니다."
       },
@@ -69640,7 +69791,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 이란 전쟁 충격: 내가 그 비공개 회의에서 들었던 내용(Banyan Hill Publishing에서) (광고) Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도한다고 말합니다",
+            "어플라이드 머티리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 Skip to main content → Trump's New Dollar (Porter & Company에서) (광고) 어플라이드 머티어리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Written b",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
           ],
@@ -69680,11 +69831,11 @@ const NEWS_DATA = {
             "$10 billion"
           ],
           "sourceExcerpt": [
-            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Iran War Shock: What I Was Told In That Private Meeting (From Banyan Hill Publishing) (Ad) Applied Materials Says AI Boom Is Driving Semi",
+            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Trump's New Dollar (From Porter & Company) (Ad) Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Written b",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points AI investment is lifting semiconductor equipment demand: Applied Materials said customer spending forecasts have risen, with cloud providers’ capital expenditures expected to exceed $700 billion in the U.S."
           ],
-          "analysisUpdatedAt": 1788968154.574173
+          "analysisUpdatedAt": 1788990971.4185042
         },
         "headlineKo": "어플라이드 머티어리얼즈, AI 붐으로 반도체 장비 수요 증가"
       },
@@ -69756,7 +69907,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968148.6517355
+          "analysisUpdatedAt": 1788990966.660629
         }
       },
       {
@@ -69805,7 +69956,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968150.5082304
+          "analysisUpdatedAt": 1788990968.7259092
         }
       },
       {
@@ -69824,7 +69975,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 이란 전쟁 충격: 내가 그 비공개 회의에서 들었던 내용(Banyan Hill Publishing에서) (광고) Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도한다고 말합니다",
+            "어플라이드 머티리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 Skip to main content → Trump's New Dollar (Porter & Company에서) (광고) 어플라이드 머티어리얼즈는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Written b",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
           ],
@@ -69864,11 +70015,11 @@ const NEWS_DATA = {
             "$10 billion"
           ],
           "sourceExcerpt": [
-            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Iran War Shock: What I Was Told In That Private Meeting (From Banyan Hill Publishing) (Ad) Applied Materials Says AI Boom Is Driving Semi",
+            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Trump's New Dollar (From Porter & Company) (Ad) Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Written b",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points AI investment is lifting semiconductor equipment demand: Applied Materials said customer spending forecasts have risen, with cloud providers’ capital expenditures expected to exceed $700 billion in the U.S."
           ],
-          "analysisUpdatedAt": 1788968154.574173
+          "analysisUpdatedAt": 1788990971.4185042
         }
       },
       {
@@ -71735,17 +71886,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788968127.6113286,
-    "_updated_label": "2026-09-10 00:35",
+    "_fetched_at": 1788990949.5375302,
+    "_updated_label": "2026-09-10 06:56",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
-    "_last_attempt_at": 1788968127.6113286,
+    "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
-    "_last_success_at": 1788968127.6113286,
+    "_last_success_at": 1788990949.5375302,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -74313,7 +74464,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -78195,7 +78346,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 96,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -83315,7 +83466,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -87303,7 +87454,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788989082.1996906,
     "_earnings_status": "ok",
@@ -92392,7 +92543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 132,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -95305,7 +95456,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -97003,7 +97154,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788989082.1996906,
     "_earnings_status": "ok",
@@ -101668,7 +101819,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -103935,7 +104086,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -105931,7 +106082,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -107665,7 +107816,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -113078,7 +113229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -113139,7 +113290,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968160.8780713
+          "analysisUpdatedAt": 1788990976.5484445
         },
         "headlineKo": "Western Digital(WDC)의 가격이 너무 높나요?"
       },
@@ -113189,7 +113340,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968163.1666443
+          "analysisUpdatedAt": 1788990978.8318117
         },
         "headlineKo": "시장은 하락했지만 WDC(Western Digital)가 오늘 상승한 이유"
       },
@@ -113239,7 +113390,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968165.559373
+          "analysisUpdatedAt": 1788990981.0554683
         },
         "headlineKo": "Western Digital의 강력한 FCF가 자사주 매입과 배당을 유지할 수 있습니까?"
       },
@@ -113363,7 +113514,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968160.8780713
+          "analysisUpdatedAt": 1788990976.5484445
         }
       },
       {
@@ -113412,7 +113563,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968163.1666443
+          "analysisUpdatedAt": 1788990978.8318117
         }
       },
       {
@@ -113461,7 +113612,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788968165.559373
+          "analysisUpdatedAt": 1788990981.0554683
         }
       },
       {
@@ -114945,17 +115096,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788968127.6113286,
-    "_updated_label": "2026-09-10 00:36",
+    "_fetched_at": 1788990949.5375302,
+    "_updated_label": "2026-09-10 06:56",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
-    "_last_attempt_at": 1788968127.6113286,
+    "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
-    "_last_success_at": 1788968127.6113286,
+    "_last_success_at": 1788990949.5375302,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -116900,7 +117051,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -118576,7 +118727,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -120501,7 +120652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -122393,7 +122544,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -123578,7 +123729,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788989082.1996906,
     "_earnings_status": "ok",
@@ -125340,7 +125491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -127093,7 +127244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -128421,7 +128572,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -129109,7 +129260,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788973229.063872,
     "_earnings_status": "ok",
@@ -131829,7 +131980,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -132469,7 +132620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788987091.5899713,
     "_earnings_status": "ok",
@@ -133942,7 +134093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -135040,7 +135191,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -136276,7 +136427,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_last_attempt_at": 1788979360.5170846,
     "_earnings_status": "ok",
@@ -137014,7 +137165,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-10 06:25"
+      "updated": "2026-09-10 06:56"
     },
     "_fetched_at": 1788979360.5170846,
     "_updated_label": "2026-09-10 03:47",
