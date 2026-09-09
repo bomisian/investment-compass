@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.23999786376953,
+      "current": 93.95999908447266,
       "prevClose": 93.02999877929688,
-      "changeAbs": 1.2099990844726562,
-      "changePct": 1.3006547354077063,
+      "changeAbs": 0.9300003051757812,
+      "changePct": 0.9996778645371173,
       "pctRank": 87.66905330151154,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.564851341294208,
-      "ma20": 86.53250083923339,
-      "ma60": 80.59316685994466,
-      "chg1m": 12.110000610351562,
-      "chg3m": 6.040000915527344,
-      "chg1mPct": 14.74491783189191,
-      "chg3mPct": 6.848073837317428,
+      "drawdown1y": -16.81274756693569,
+      "ma20": 86.51850090026855,
+      "ma60": 80.58850021362305,
+      "chg1m": 11.830001831054688,
+      "chg3m": 5.760002136230469,
+      "chg1mPct": 14.40399637973002,
+      "chg3mPct": 6.530614892890044,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.75599670410156,
+      "current": 98.73600006103516,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.0839996337890625,
-      "changePct": -0.08498546833399767,
-      "pctRank": 22.673031026252982,
+      "changeAbs": -0.10399627685546875,
+      "changePct": -0.10521679553685034,
+      "pctRank": 22.593476531424024,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.808782491001427,
-      "ma20": 99.29129981994629,
-      "ma60": 100.2486001332601,
-      "chg1m": -1.0540008544921875,
-      "chg3m": -1.1540069580078125,
-      "chg1mPct": -1.0560072941324672,
-      "chg3mPct": -1.1550464575205164,
+      "drawdown1y": -2.828462289196776,
+      "ma20": 99.29029998779296,
+      "ma60": 100.24826685587566,
+      "chg1m": -1.0739974975585938,
+      "chg3m": -1.1740036010742188,
+      "chg1mPct": -1.076042003636059,
+      "chg3mPct": -1.1750611130439352,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4416.2998046875,
+      "current": 4431.2001953125,
       "prevClose": 4393.89990234375,
-      "changeAbs": 22.39990234375,
-      "changePct": 0.5097954628370498,
-      "pctRank": 90.53301511535402,
+      "changeAbs": 37.30029296875,
+      "changePct": 0.8489108490808734,
+      "pctRank": 90.77167859984088,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.961870378696165,
-      "ma20": 4470.424975585937,
-      "ma60": 4238.898327636719,
-      "chg1m": 54.5,
-      "chg3m": 156.2998046875,
-      "chg1mPct": 1.2494842138658089,
-      "chg3mPct": 3.669009499706573,
+      "drawdown1y": -16.681703582317542,
+      "ma20": 4471.169995117188,
+      "ma60": 4239.146667480469,
+      "chg1m": 69.400390625,
+      "chg3m": 171.2001953125,
+      "chg1mPct": 1.591095275634095,
+      "chg3mPct": 4.018783927523474,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,6 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran attacks US base in Jordan, ships near Hormuz after tankers sunk - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ2FPaUNRYjRBWnd2cmxkT044cmZYbENZYnhTWXAzUGxadUpEZ3N3aHpVSEtodVVsWUt6djBaeFhjUm5JOGVrNEE1SXlaUkxoSzBVaUpaWjZTdkdXZzItRTFOaGtMZWVtbEhpdUFSUWgwczNXa2VqZ3ktdzVhajBmYllFNVJIaUxnMDBLazE4S0VSTzZSbVFxMDZSUVY4aHIxVmhkcUpZeF85TzZYV2tqWkE5bVNWM29qWlE?oc=5",
+      "datetime": 1788926820
+    },
+    {
+      "headline": "Explainer: Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
+      "datetime": 1788926820
+    },
+    {
       "headline": "Oil heads for $100, Asia stocks subdued as Middle East tensions escalate - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV3luYTZkUFBsUEhrV1ByVUg5eTcwT0c4ODVwXzJZTHNvVzlhR1hwNVpLSzJ5MmVCT3VqV2wzMTdXb0ZZM00wY194Z3VCV2R2TUNxcGpVNVJrSk9JSS1XMllpQ0hrbEtFTFhaazN6NzFEaGxELW1NUnFFUFVvR1NjWkRrbw?oc=5",
@@ -251,11 +263,10 @@ const MARKET_DATA = {
       "headlineKo": "중동 긴장이 고조되면서 석유 가격이 상승함에 따라 인도인은 조용히 시작했습니다. - 로이터 통신"
     },
     {
-      "headline": "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+      "headline": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788920280,
-      "headlineKo": "예멘에서 이란의 동맹세력인 후티 반군은 누구인가? - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbXlWYlQ0MW1KT1g0U01lVldVbGtRWFU5U1FNVDllbEIwU3U2WElRSmw5QUg2Q2w3TUVUNDBUdWRSNWx1emlYRXdjLXY2NFk2VVgzTWExUHM0TTBHRGxKdlJ6Y0tPSUlvTXFoQzU5THV6b2dLbExKbkxaV1VtamZkRkdkMnpZTlAwNXlxVUxnNkZOdzRwX0MyTUNvN1lWVTV5WmtCX01iSmR2QkdESzl4VWlwbndRVkNfQUVBZm9DdDFFc1BK?oc=5",
+      "datetime": 1788919680
     },
     {
       "headline": "Oil nears $100 as fresh Middle East strikes raise supply risks - Reuters",
@@ -275,7 +286,7 @@ const MARKET_DATA = {
       "headline": "Iran says it captured US submarine drone in Strait of Hormuz - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0VkUnd5VzlEZVhBUy1ja1Q0dFZ6RE0yZHp2dGdobTZHajY0ZTZ6MXdkVWtKV2hYal9nY2dRRUlxU0RlZmxyQ3dmMXpKMFVVNlh2Q25LRVp3LXZHWmtrbzZGM3djQlVtVWdQb0U5RFNTOVA2U1BUMlFWcDZqblV2MGZLdEZPQllselJKcm44eld0STZhTDdsd2R1RG1HT1RrNm53VTZXNXVWWDla?oc=5",
-      "datetime": 1788906835,
+      "datetime": 1788906660,
       "headlineKo": "이란은 호르무즈 해협에서 미 잠수함 드론을 포획했다고 밝혔다. - 로이터"
     },
     {
@@ -305,30 +316,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "datetime": 1788898860,
       "headlineKo": "이란, 유조선 파괴 후 미국 동맹국에 보복 - 로이터"
-    },
-    {
-      "headline": "Huawei heads to trial in US over its business dealings in Iran - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYnZfcVJUeEZKOFpSTE5oQk9WTU1GWE5fc1U2R1g3NGFuOGdnNnZfT29tOU4xbmFISzhvd2paSmIyb2Y1V05nTFRjTl9xejZrUGdoSTJHS3prREdOOVlSbkl2UkxFQlk3NFRvM3J6YUdBdklRZ2RmZ3gzVUd2NXFsN01PcUFTXzZmSU1SQ3NUakdWc1MxU2V5N0RGMzd1ejFydDNnR2ptdUlYZw?oc=5",
-      "datetime": 1788897616,
-      "headlineKo": "화웨이, 이란과의 사업 거래로 미국에서 재판 예정 - 로이터"
-    },
-    {
-      "headline": "Air traffic control issue disrupts flights at major UK airports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjFUM1NiblY2enh0S3E5UEZUV0hXby1vNTM3T2twdTVlSEtZeDAyclZmR2dNWHlJdXpDUzVVWXRkWWRLUTZ2WnNYazlQSHRpSU5icjEtZXR0T3A4MW8ySjZCY1ZkNlZ4TGdWOVdseWZ2cXZ4V0lPWjFTV2JlUnVIQnZ0cHdCa3Z6Q05zZHlpUXZuM0dSQU9YV0RyWVF5dnkyRGF2NFczVktWM0lvUHF0dUgwc2ZlZ19VS0E?oc=5",
-      "datetime": 1788896737,
-      "headlineKo": "항공 교통 통제 문제로 영국 주요 공항의 항공편이 중단되었습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 40.4857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1788927712.950034,
-  "_updated_label": "2026-09-09 13:22",
-  "_last_attempt_at": 1788927712.950034,
-  "_last_success_at": 1788927712.950034,
+  "_fetched_at": 1788931413.3221655,
+  "_updated_label": "2026-09-09 14:24",
+  "_last_attempt_at": 1788931413.3221655,
+  "_last_success_at": 1788931413.3221655,
   "_collection_status": "ok",
   "_collection_errors": []
 };
