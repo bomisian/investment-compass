@@ -38,8 +38,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 101.59,
     "name": "NVIDIA Corp",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:27"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "AAPL": {
     "forwardPE": 34.85022,
@@ -235,8 +235,8 @@ const FUNDAMENTALS_DATA = {
     "name": "Taiwan Semiconductor Manufacturing Co Ltd",
     "theme": "반도체 설계·파운드리",
     "marketCapCurrencyNote": "TWD",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "AVGO": {
     "forwardPE": 22.42369,
@@ -393,8 +393,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 61.480000000000004,
     "name": "Micron Technology Inc",
     "theme": "메모리·스토리지",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "AMD": {
     "forwardPE": 43.80533,
@@ -466,8 +466,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": -7.42,
     "name": "Intel Corp",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "AMAT": {
     "forwardPE": 32.06094,
@@ -507,8 +507,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 31.47,
     "name": "Applied Materials Inc",
     "theme": "반도체 장비",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "QQQ": {
     "52WeekHigh": 748.65,
@@ -518,8 +518,8 @@ const FUNDAMENTALS_DATA = {
     "perBandSource": "universal",
     "name": null,
     "theme": "지수ETF",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:27"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "SPY": {
     "52WeekHigh": 779.37,
@@ -609,8 +609,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 13.18,
     "name": "Salesforce Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:27"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "PLTR": {
     "forwardPE": 67.03924,
@@ -643,8 +643,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 37.47,
     "name": "Palantir Technologies Inc",
     "theme": "빅테크·AI SW",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:27"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "QCOM": {
     "forwardPE": 14.40224,
@@ -757,8 +757,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 12.57,
     "name": "Marvell Technology Inc",
     "theme": "반도체 설계·파운드리",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:27"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "ASML": {
     "forwardPE": 42.12622,
@@ -1169,8 +1169,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.690000000000001,
     "name": "Vistra Corp",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "ETN": {
     "forwardPE": 26.51809,
@@ -1210,8 +1210,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 10.9,
     "name": "Eaton Corporation PLC",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "PWR": {
     "forwardPE": 42.20505,
@@ -1250,8 +1250,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.9,
     "name": "Quanta Services Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "HUBB": {
     "forwardPE": 21.9516,
@@ -1290,8 +1290,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 13.13,
     "name": "Hubbell Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:00"
   },
   "VRT": {
     "forwardPE": 28.86851,
@@ -1333,7 +1333,7 @@ const FUNDAMENTALS_DATA = {
     "_updated_label": "2026-09-09 06:37"
   },
   "MOD": {
-    "forwardPE": 25.910280628597835,
+    "forwardPE": 25.602807350820886,
     "peTTM": 71.6985,
     "psTTM": 3.0657,
     "pb": 8.605,
@@ -1365,8 +1365,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 8.57,
     "name": "Modine Manufacturing Co",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:01"
   },
   "STX": {
     "forwardPE": 23.33973,
@@ -1445,8 +1445,8 @@ const FUNDAMENTALS_DATA = {
     "roicTTM": 38.43,
     "name": "EMCOR Group Inc",
     "theme": "AI 전력·인프라",
-    "_fetched_at": 1788892063.499117,
-    "_updated_label": "2026-09-09 03:28"
+    "_fetched_at": 1788966001.8525593,
+    "_updated_label": "2026-09-10 00:01"
   },
   "FIX": {
     "forwardPE": 30.83426,
