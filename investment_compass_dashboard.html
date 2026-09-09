@@ -380,7 +380,7 @@
           <th data-key="marketCap" title="발행주식수 × 현재가 = 회사 전체 시장가치">시가총액</th>
           <th data-key="epsGrowth" title="작년 대비 주당순이익(EPS) 증가율">EPS 성장</th>
           <th data-key="rsi" title="0~100, 30 밑 과매도/70 위 과매수">RSI</th>
-          <th data-key="debtEquity" title="총부채 ÷ 자기자본 - 낮을수록 재무적으로 안전">부채비율</th>
+          <th data-key="debtEquity" title="총부채 ÷ 자기자본 - 낮을수록 재무적으로 안전. * 표시는 총부채 데이터가 없어 장기부채/자본으로 대체(실제보다 낮게 나올 수 있음)">부채비율</th>
         </tr>
       </thead>
       <tbody id="resultBody"></tbody>
@@ -1467,12 +1467,18 @@ function buildScoreBreakdown(ticker, tech, fund, env){
 
   // 참고 지표(점수 미반영) - 백테스트상 매수 타이밍 예측력은 없었지만, 어떤 우량주를 '고를지' 판단하는 맥락으로 표시
   const perDev = fund.peDeviation3Y;
-  const de = fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'];
+  // 2026-09-09 수정(META 리뷰) - totalDebt/totalEquity가 없을 때 longTermDebt/equity로
+  // 대체해 쓰면서도 라벨은 항상 "총부채/자본"으로 고정 표시하던 문제. 실제로 어느 필드에서
+  // 값이 왔는지 추적해 라벨을 다르게 보여준다(장기부채만 반영된 값은 실제보다 낮게 나올 수 있음).
+  const deTotal = fund['totalDebt/totalEquityQuarterly'];
+  const deLT = fund['longTermDebt/equityQuarterly'];
+  const de = deTotal ?? deLT;
+  const deLabel = deTotal != null ? '부채비율(총부채/자본)' : (deLT != null ? '부채비율(장기부채/자본, 총부채 데이터 없음)' : '부채비율(총부채/자본)');
   const eps = fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y;
   const refItems = [
     {label:'RSI(14)', valueText:tech.rsi.toFixed(1)},
     {label:'PER(트레일링) 자기이력 대비 괴리', valueText: perDev!=null ? (perDev>=0?'+':'')+perDev.toFixed(1)+'%' : '조회 불가'},
-    {label:'부채비율(총부채/자본)', valueText: de!=null ? de.toFixed(2) : '조회 불가'},
+    {label:deLabel, valueText: de!=null ? de.toFixed(2) : '조회 불가'},
     {label:'EPS 성장률(전년비)', valueText: eps!=null ? (eps>=0?'+':'')+eps.toFixed(1)+'%' : '조회 불가'},
     {label:'VIX (시장)', valueText: env.vix!=null ? env.vix.toFixed(2) : '조회 불가'},
     {label:'F&G Index (시장)', valueText: env.fgi!=null ? env.fgi.toFixed(0) : '조회 불가'},
@@ -1972,6 +1978,9 @@ async function analyzeTicker(ticker, env){
     marketCap,
     epsGrowth: fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y ?? null,
     debtEquity: fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'] ?? null,
+    // 2026-09-09 추가(META 리뷰) - 총부채 데이터가 없어 장기부채로 대체된 경우를 표에서
+    // 구분 표시하기 위한 플래그(실제보다 낮게 나올 수 있음).
+    debtEquityIsLtOnly: fund['totalDebt/totalEquityQuarterly'] == null && fund['longTermDebt/equityQuarterly'] != null,
     fvMid: (fairValue && fairValue.fwd && fairValue.fwd.mid!=null) ? fairValue.fwd.mid : null,
     fvUpsidePct: (fairValue && fairValue.fwd && fairValue.fwd.mid!=null && price) ? (fairValue.fwd.mid/price - 1)*100 : null,
     // 2026-09-03 추가: 종목 목록에서 '가격 타당성'을 한눈에 보려는 요청 - 이미 계산되던
@@ -2618,7 +2627,7 @@ function renderTable(){
       <td>${capTxt}</td>
       <td>${r.epsGrowth!=null?(r.epsGrowth>=0?'+':'')+r.epsGrowth.toFixed(1)+'%':'-'}</td>
       <td>${r.rsi.toFixed(1)}</td>
-      <td>${r.debtEquity!=null?r.debtEquity.toFixed(2):'-'}</td>
+      <td>${r.debtEquity!=null?(r.debtEquity.toFixed(2)+(r.debtEquityIsLtOnly?' <span title="총부채 데이터가 없어 장기부채/자본으로 대체 - 실제보다 낮게 나올 수 있음">*</span>':'')):'-'}</td>
     </tr>`;
   }).join('');
   table.style.display='table';
@@ -5807,12 +5816,19 @@ function renderFundamentalWindowScores(ticker){
   }
   const scoreColor = s => s>0 ? 'var(--up)' : (s<0 ? 'var(--down)' : 'var(--sub)');
   const boxes = ['7','30','90'].map(wd=>{
-    const w = (rec.windows[wd] || {}).overall || {score:0,change:0,eventCount:0};
+    const w = (rec.windows[wd] || {}).overall || {score:0,change:0,eventCount:0,positiveEvents:0,negativeEvents:0};
     const changeTxt = w.change ? `직전 대비 ${w.change>0?'+':''}${w.change}` : '변화 없음';
+    // 2026-09-09 수정(META 리뷰) - 점수가 0이어도 "근거가 없어서 0"인지 "긍정·부정 이벤트가
+    // 서로 상쇄돼서 0"인지가 화면상 구분이 안 됐음(둘 다 그냥 "0"으로만 보임). 후자인 경우
+    // 상쇄 내역을 같이 보여준다.
+    const isOffsetZero = w.score === 0 && (w.positiveEvents > 0 || w.negativeEvents > 0);
+    const evidenceTxt = isOffsetZero
+      ? `근거 ${w.eventCount}건(긍정 ${w.positiveEvents}건·부정 ${w.negativeEvents}건 상쇄) · ${changeTxt}`
+      : `근거 ${w.eventCount}건 · ${changeTxt}`;
     return `<div style="flex:1;min-width:80px;text-align:center;padding:8px 4px;border:1px solid var(--line);border-radius:8px;">
       <div class="sub" style="margin-bottom:2px;">${WINDOW_LABEL[wd]} Fundamental</div>
-      <div style="font-size:19px;font-weight:700;color:${scoreColor(w.score)};">${w.score>0?'+':''}${w.score}</div>
-      <div class="sub" style="font-size:10.5px;">근거 ${w.eventCount}건 · ${changeTxt}</div>
+      <div style="font-size:19px;font-weight:700;color:${scoreColor(w.score)};">${w.score>0?'+':''}${w.score}${isOffsetZero?' <span class="sub" style="font-size:10px;font-weight:400;">(상쇄)</span>':''}</div>
+      <div class="sub" style="font-size:10.5px;">${evidenceTxt}</div>
     </div>`;
   }).join('');
   const cats = ((rec.windows['90']||{}).categories) || {};
@@ -6783,6 +6799,19 @@ function forecastComment(est, r){
   if(est.analystCount != null && est.analystCount < 15){
     items.push(`참여 애널리스트가 <b>${est.analystCount}명</b>으로 적은 편이라 컨센서스가 흔들릴 수 있어요.`);
   }
+  // 2026-09-09 추가(META 리뷰) - 위 로직은 eps0Unreliable·성장률(g)·목표가 분산만 보고 tone을
+  // 정해서, "최근 30일간 EPS 전망치가 계속 하향 조정되는 중"이어도 다른 조건이 안 걸리면
+  // "컨센서스는 특별한 우려가 없어요"로 나올 수 있었다(실측: META - direction:'하향',
+  // change30dPct:-3.28, 하향 39건 vs 상향 8건). EPS_DATA의 최근 리비전 방향도 반영한다.
+  const epsRevision = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+  if(epsRevision && epsRevision.direction === '하향'){
+    const chg = epsRevision.change30dPct;
+    items.push(`최근 30일간 애널리스트 EPS 전망치가 <b>계속 하향 조정</b>되는 중이에요` +
+      (chg != null ? `(30일간 ${pctStr(chg,1)})` : '') +
+      (epsRevision.revisionDown30 != null && epsRevision.revisionUp30 != null
+        ? ` — 상향 ${epsRevision.revisionUp30}건 vs 하향 ${epsRevision.revisionDown30}건.` : ''));
+    tone = 'warn';
+  }
   if(!items.length) return '';
   // 2026-09-01 추가: 아래 문장들이 애널리스트 추정치를 조합한 설명이라 다소 자세함 - 맨 위에
   // "결국 긍정적인지 주의할 점이 있는지"부터 한 줄로 보여줌(tone은 이미 위에서 계산된 값 재사용).
@@ -6963,7 +6992,18 @@ function bindFinChartClick(canvas, data){
   canvas.style.cursor = 'pointer';
 }
 function normalizeAnnualFcf(annual){
-  (annual||[]).forEach(a=>{ if(typeof a.ocf==='number' && typeof a.capex==='number') a.fcf = a.ocf - Math.abs(a.capex); });
+  // 2026-09-09 수정: 기존에는 OCF-|CAPEX| 자체 계산값으로 a.fcf를 무조건 덮어써서,
+  // 백엔드가 이미 채워둔 회사(Yahoo) 기준 FCF 값이 있어도 항상 자체 계산값으로 대체되는
+  // 문제가 있었다. 이제는 fcf가 비어 있을 때만 자체 계산값으로 보충(fallback)하고,
+  // 그 경우에만 _fcfIsProxy 플래그를 남겨 표에서 구분 표시한다.
+  (annual||[]).forEach(a=>{
+    if(a.fcf==null && typeof a.ocf==='number' && typeof a.capex==='number'){
+      a.fcf = a.ocf - Math.abs(a.capex);
+      a._fcfIsProxy = true;
+    } else {
+      a._fcfIsProxy = false;
+    }
+  });
   return annual;
 }
 function tabFinancials(r){
@@ -6980,7 +7020,7 @@ function tabFinancials(r){
       <td>${a.netIncome!=null?'$'+fmtUsd(a.netIncome):'-'}</td>
       <td>${a.ocf!=null?'$'+fmtUsd(a.ocf):'-'}</td>
       <td>${a.capex!=null?'$'+fmtUsd(a.capex):'-'}</td>
-      <td>${a.fcf!=null?'$'+fmtUsd(a.fcf):'-'}</td>
+      <td>${a.fcf!=null?('$'+fmtUsd(a.fcf)+(a._fcfIsProxy?' <span title="회사가 공시한 FCF가 없어 OCF-|CAPEX|로 추정한 값입니다">*</span>':'')):'-'}</td>
     </tr>`).join('');
   return `
     <div class="chart-label">연도별 손익</div>
@@ -7005,7 +7045,7 @@ function tabFinancials(r){
     <div class="glossary" style="margin-top:10px;">
       ※ Finnhub SEC 공시를 기본으로 하되, 미국 제출기업의 연간 핵심 수치는 <b>SEC Company Facts로 재검증</b>하고 최신 누락 분기·현금흐름은 Yahoo 재무 시계열로 보완합니다. 출처끼리 충돌하면 SEC 공식 값을 우선합니다.<br>
       ※ EPS는 원본 데이터 정밀도 문제로 표에서 제외했습니다.<br>
-      ※ OCF=영업활동현금흐름, CAPEX=설비투자, FCF=OCF-|CAPEX| (잉여현금흐름)
+      ※ OCF=영업활동현금흐름, CAPEX=설비투자. FCF는 회사(Yahoo) 공시 기준값을 우선 사용하며, 해당 값이 없는 연도만 OCF-|CAPEX|로 추정해 <b>*</b> 표시합니다(리스료 등 회사 기준과 정의가 다를 수 있어 참고용입니다).
     </div>
   `;
 }
