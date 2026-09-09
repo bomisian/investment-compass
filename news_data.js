@@ -7349,7 +7349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -7365,81 +7365,33 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Apple to Unveil First Foldable Phone",
+        "headline": "Apple’s New CEO Gets $55 Million, Then Takes the Stage to Sell a $2,400 iPhone",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ce1e17f0a546f9ce3c4ab52c0728d73e2775164300d676758207395a1c580eff",
-        "datetime": 1788895766,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple to Unveil First Foldable Phone",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple to Unveil First Foldable Phone' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901229.239224
-        },
-        "headlineKo": "애플, 최초의 폴더블폰 공개"
-      },
-      {
-        "headline": "Apple Falls Before Ternus's First $54 Billion iPhone Test",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3f9726212b39259306b2d0278e91135a5c6c3a307066401f71025d6f84effea2",
-        "datetime": 1788886316,
+        "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
+        "datetime": 1788918883,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Apple Falls Before Ternus's First $54 Billion iPhone Test",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "Apple의 신임 CEO는 5,500만 달러를 받고 무대에 올라 2,400달러짜리 iPhone을 판매합니다 - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.02% S&P 500 7,682.40 +0.10% 다우존스 52,754.30 −0.02% 나스닥 100 29,592.20 +0.31% 러셀 2000 2,960.54 −0.",
+            "작성자: Gerelyn Terzo 2026년 9월 8일 오후 9시 54분(ET) 게시 · 2분 읽음 𝕏 f ⧉ © PhillDanze / iStock Editorial via Getty Images Apple 이사회는 새로운 최고 경영자 John Ternus를 구성했습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $55 Million, $2,400, $3 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -7449,27 +7401,39 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Falls Before Ternus's First $54 Billion iPhone Test' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 0.57,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901231.2447958
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$55 Million",
+            "$2,400",
+            "$3 million",
+            "$2.5 million",
+            "$55 million",
+            "$2 million",
+            "$45 million",
+            "$2,400,"
+          ],
+          "sourceExcerpt": [
+            "Apple's New CEO Gets $55 Million, Then Takes the Stage to Sell a $2,400 iPhone - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.02% S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.",
+            "By Gerelyn Terzo Published September 8, 2026, 9:54pm ET · 2 min read 𝕏 f ⧉ © PhillDanze / iStock Editorial via Getty Images Apple’s board built new chief executive John Ternus a pay structure that only compounds if consumers absorb the bold"
+          ],
+          "analysisUpdatedAt": 1788923977.799972
         },
-        "headlineKo": "Apple은 Ternus의 첫 540억 달러 iPhone 테스트 전에 하락했습니다."
+        "headlineKo": "Apple의 신임 CEO는 5,500만 달러를 받고 무대에 올라 2,400달러의 iPhone을 판매합니다."
       },
       {
-        "headline": "Apple expected to unveil first foldable iPhone as new CEO Ternus takes stage",
+        "headline": "Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
-        "datetime": 1788884340,
-        "relevance": 0.57,
+        "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
+        "datetime": 1788917238,
+        "relevance": 1.0,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -7481,7 +7445,7 @@ const NEWS_DATA = {
           "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
             "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: $2,099, $150, $200, 75%.",
+            "기사 본문에서 언급된 수치: 1.17%, $316.22, $366, $2,000., $2,980, $3,725., $1,540., 22.6%.",
             "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
@@ -7522,44 +7486,98 @@ const NEWS_DATA = {
             "메모리 현물·계약 가격",
             "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple expected to unveil first foldable iPhone as new CEO Ternus takes stage' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.57,
+          "relevance": 1.0,
           "quality": "high",
           "verifiedNumbers": [
-            "$2,099",
-            "$150",
-            "$200",
-            "75%"
+            "1.17%",
+            "$316.22",
+            "$366",
+            "$2,000.",
+            "$2,980",
+            "$3,725.",
+            "$1,540.",
+            "22.6%"
           ],
           "sourceExcerpt": [
-            "Apple expected to unveil first foldable iPhone as new CEO Ternus takes stage | NASDAQ:AAPL, XETRA:APC What are you searching for?",
-            "Companies News See all companies matching See all news matching Tech Hardware & Electrical Equipment Written by: Angela Harmantas Disclaimer No investment advice About this content Editorial Standards & Policies Share article About this con",
-            "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
+            "Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?",
+            "Subscribe English Breaking News News Latest News TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News Market Data Prices Exchanges Convert Watchlist Discover Crypto Rewards Product Reviews Newsletter Insights Opinion ",
+            "Prefer us on Google Written & Edited by Darryn Pollock 09 September 2026, 01:27 UTC • Updated 09 September 2026, 01:27 UTC Apple unveils its first foldable iPhone and iPhone 18 Pro lineup today."
           ],
-          "analysisUpdatedAt": 1788901232.7517142
+          "analysisUpdatedAt": 1788923978.5690258
         },
-        "headlineKo": "Apple, 새로운 CEO Ternus가 무대에 오르면서 최초의 폴더블 iPhone 공개 예정"
+        "headlineKo": "Apple의 폴더블 iPhone이 오늘 출시됩니다: AAPL 주식이 상승할까요?"
       },
       {
-        "headline": "SK Hynix Jumps 7% as AI Diverts Memory From Phones, Micron Holds Steady, Apple Slips",
+        "headline": "Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=8c4ce9a3fb432f08151ecdb249e4b10cb962fcba637c6cfcd28a7b41e81530e9",
-        "datetime": 1788883086,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI가 휴대폰에서 메모리를 전환하고 Micron이 안정을 유지하고 Apple이 미끄러짐에 따라 SK 하이닉스는 7% 상승"
-      },
-      {
-        "headline": "How Apple stock usually reacts to big iPhone reveal events",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=1355d69ee6ed1ecec7c65dc8e9f28beced04fa69aec18a23ca3816005928bf6b",
-        "datetime": 1788881355,
+        "url": "https://finnhub.io/api/news?id=cd6d68021a949cdb1ddc3c820f58998eda93e19230e21105b3368311d1bd49c6",
+        "datetime": 1788910819,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Apple 주가가 대규모 iPhone 공개 이벤트에 일반적으로 반응하는 방식"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788923980.7663634
+        },
+        "headlineKo": "Dow Jones Futures: Dow Skids이지만 AMD, HPE는 신규 매수 대상입니다. Apple iPhone 이벤트 예정"
+      },
+      {
+        "headline": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=47d7a5442d85da8949b607aaab8abb9b545af247f0005bb552c9baf620801bbd",
+        "datetime": 1788903736,
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Dow Jones Futures: Dow는 지원을 중단하지만 AMD, HPE는 신규 매수자입니다. Apple iPhone 이벤트 예정"
+      },
+      {
+        "headline": "Apple Is Set to Reveal New iPhones Wednesday—Here’s What You Need to Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5dd1ac7b2cf74b799c031f765d204a7960cb585a8d27a66aae0ee826aa9e5345",
+        "datetime": 1788900097,
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Apple은 수요일에 새로운 iPhone을 공개할 예정입니다. 여러분이 알아야 할 사항은 다음과 같습니다."
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7751,6 +7769,216 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple’s New CEO Gets $55 Million, Then Takes the Stage to Sell a $2,400 iPhone",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
+        "datetime": 1788918883,
+        "headlineKo": "Apple의 신임 CEO는 5,500만 달러를 받고 무대에 올라 2,400달러의 iPhone을 판매합니다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple의 신임 CEO는 5,500만 달러를 받고 무대에 올라 2,400달러짜리 iPhone을 판매합니다 - 연중무휴 월스트리트",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.02% S&P 500 7,682.40 +0.10% 다우존스 52,754.30 −0.02% 나스닥 100 29,592.20 +0.31% 러셀 2000 2,960.54 −0.",
+            "작성자: Gerelyn Terzo 2026년 9월 8일 오후 9시 54분(ET) 게시 · 2분 읽음 𝕏 f ⧉ © PhillDanze / iStock Editorial via Getty Images Apple 이사회는 새로운 최고 경영자 John Ternus를 구성했습니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $55 Million, $2,400, $3 million — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.57,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$55 Million",
+            "$2,400",
+            "$3 million",
+            "$2.5 million",
+            "$55 million",
+            "$2 million",
+            "$45 million",
+            "$2,400,"
+          ],
+          "sourceExcerpt": [
+            "Apple's New CEO Gets $55 Million, Then Takes the Stage to Sell a $2,400 iPhone - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.02% S&P 500 7,682.40 +0.10% Dow Jones 52,754.30 −0.02% Nasdaq 100 29,592.20 +0.31% Russell 2000 2,960.54 −0.",
+            "By Gerelyn Terzo Published September 8, 2026, 9:54pm ET · 2 min read 𝕏 f ⧉ © PhillDanze / iStock Editorial via Getty Images Apple’s board built new chief executive John Ternus a pay structure that only compounds if consumers absorb the bold"
+          ],
+          "analysisUpdatedAt": 1788923977.799972
+        }
+      },
+      {
+        "headline": "Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
+        "datetime": 1788917238,
+        "headlineKo": "Apple의 폴더블 iPhone이 오늘 출시됩니다: AAPL 주식이 상승할까요?",
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: 1.17%, $316.22, $366, $2,000., $2,980, $3,725., $1,540., 22.6%.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 1.0,
+          "quality": "high",
+          "verifiedNumbers": [
+            "1.17%",
+            "$316.22",
+            "$366",
+            "$2,000.",
+            "$2,980",
+            "$3,725.",
+            "$1,540.",
+            "22.6%"
+          ],
+          "sourceExcerpt": [
+            "Apple's Foldable iPhone Debuts Today: Will AAPL Stock Take Off?",
+            "Subscribe English Breaking News News Latest News TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News Market Data Prices Exchanges Convert Watchlist Discover Crypto Rewards Product Reviews Newsletter Insights Opinion ",
+            "Prefer us on Google Written & Edited by Darryn Pollock 09 September 2026, 01:27 UTC • Updated 09 September 2026, 01:27 UTC Apple unveils its first foldable iPhone and iPhone 18 Pro lineup today."
+          ],
+          "analysisUpdatedAt": 1788923978.5690258
+        }
+      },
+      {
+        "headline": "Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=cd6d68021a949cdb1ddc3c820f58998eda93e19230e21105b3368311d1bd49c6",
+        "datetime": 1788910819,
+        "headlineKo": "Dow Jones Futures: Dow Skids이지만 AMD, HPE는 신규 매수 대상입니다. Apple iPhone 이벤트 예정",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow Jones Futures: Dow Skids But AMD, HPE Are New Buys; Apple iPhone Event Due' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788923980.7663634
+        }
+      },
+      {
+        "headline": "Dow Jones Futures: Dow Breaks Support But AMD, HPE Are New Buys; Apple iPhone Event Due",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=47d7a5442d85da8949b607aaab8abb9b545af247f0005bb552c9baf620801bbd",
+        "datetime": 1788903736,
+        "headlineKo": "Dow Jones Futures: Dow는 지원을 중단하지만 AMD, HPE는 신규 매수자입니다. Apple iPhone 이벤트 예정",
+        "relevance": 0.57,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Apple Is Set to Reveal New iPhones Wednesday—Here’s What You Need to Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=5dd1ac7b2cf74b799c031f765d204a7960cb585a8d27a66aae0ee826aa9e5345",
+        "datetime": 1788900097,
+        "headlineKo": "Apple은 수요일에 새로운 iPhone을 공개할 예정입니다. 여러분이 알아야 할 사항은 다음과 같습니다.",
+        "relevance": 0.57,
+        "keywordFlag": false
+      },
       {
         "headline": "Apple to Unveil First Foldable Phone",
         "source": "Yahoo",
@@ -13196,17 +13424,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788901224.8735104,
-    "_updated_label": "2026-09-09 06:00",
+    "_fetched_at": 1788923969.5077567,
+    "_updated_label": "2026-09-09 12:19",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 156,
+      "checked": 161,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
-    "_last_attempt_at": 1788901224.8735104,
+    "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
-    "_last_success_at": 1788901224.8735104,
+    "_last_success_at": 1788923969.5077567,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -18982,7 +19210,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -24146,7 +24374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -30450,7 +30678,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -32521,7 +32749,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -38398,7 +38626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -43836,7 +44064,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -50363,7 +50591,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -56655,7 +56883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -61080,7 +61308,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -64636,7 +64864,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -64651,6 +64879,56 @@ const NEWS_DATA = {
       "revenueEstimate": 10513249854
     },
     "news": [
+      {
+        "headline": "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7faead45d0862b2bb97857274399d1789bc228c0e1d23f9985b3f2002a11ca1e",
+        "datetime": 1788917238,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788923988.3689163
+        },
+        "headlineKo": "Applied Materials, AMD, Broadcom, Lam Research 및 Marvell Technology의 주가 급등, 알아야 할 사항"
+      },
       {
         "headline": "Capex Rebound Powers Applied Materials’ (AMAT) Performance",
         "source": "Yahoo",
@@ -64697,7 +64975,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901240.162752
+          "analysisUpdatedAt": 1788923990.8868325
         },
         "headlineKo": "Capex Rebound는 Applied Materials(AMAT) 실적을 뒷받침합니다."
       },
@@ -64717,7 +64995,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다. Skip to main content → 이 5달러 이하의 주식은 SpaceX 및 Blue Origin 옆에 운영됩니다(Freedom Financial에서)(광고) Applied Materials는 AI 붐이 S를 주도하고 있다고 말합니다",
+            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 여기 제가 약속한 주식 기호가 있습니다(출처 Stansberry Research) (광고) Applied Materials는 AI 붐이 반도체 장비 D를 주도하고 있다고 말합니다",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
           ],
@@ -64757,11 +65035,11 @@ const NEWS_DATA = {
             "$10 billion"
           ],
           "sourceExcerpt": [
-            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → This sub-5 dollar stock operates next to SpaceX and Blue Origin (From Freedom Financial) (Ad) Applied Materials Says AI Boom Is Driving S",
+            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Here’s the stock symbol I’ve promised (From Stansberry Research) (Ad) Applied Materials Says AI Boom Is Driving Semiconductor Equipment D",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points AI investment is lifting semiconductor equipment demand: Applied Materials said customer spending forecasts have risen, with cloud providers’ capital expenditures expected to exceed $700 billion in the U.S."
           ],
-          "analysisUpdatedAt": 1788901244.5878932
+          "analysisUpdatedAt": 1788923994.9909518
         },
         "headlineKo": "어플라이드 머티어리얼즈, AI 붐으로 반도체 장비 수요 증가"
       },
@@ -64773,53 +65051,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "(AMAT), Citi의 2026 글로벌 TMT 컨퍼런스 성적표에서 발표 | Alpha SA 성적표 찾기 162.12K 팔로워 팔로우 Applied Materials, Inc.",
-            "( AMAT ) Citi의 2026 글로벌 TMT 컨퍼런스 2026년 9월 8일 오전 8:50 EDT 회사 참가자 Brice Hill - 수석 부사장, CFO 및 글로벌 정보 서비스 컨퍼런스 콜 책임자 Atif Malik - Citigroup Inc., 연구 부서 Presen",
-            "Citi Global TMT 컨퍼런스의 첫 번째 날에 오신 것을 환영합니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "30%"
-          ],
-          "sourceExcerpt": [
-            "(AMAT) Presents at Citi's 2026 Global TMT Conference Transcript | Seeking Alpha SA Transcripts 162.12K Followers Follow Applied Materials, Inc.",
-            "( AMAT ) Citi's 2026 Global TMT Conference September 8, 2026 8:50 AM EDT Company Participants Brice Hill - Senior VP, CFO & leads Global Information Services Conference Call Participants Atif Malik - Citigroup Inc., Research Division Presen",
-            "Welcome to day 1 of Citi Global TMT Conference."
-          ],
-          "analysisUpdatedAt": 1788901248.3592587
-        },
         "headlineKo": "Applied Materials, Inc.(AMAT), Citi의 2026년 글로벌 TMT 컨퍼런스 성적표에서 발표"
       },
       {
@@ -64831,19 +65062,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "월스트리트 분석가들은 AMAT(Applied Materials)가 좋은 투자라고 생각합니다. 그렇습니까?"
-      },
-      {
-        "headline": "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=27b75b9834e25d3398f459cdd2438a765a2e83308e0a0dab82c0c09e677149b0",
-        "datetime": 1788630646,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Jim Cramer가 AMAT(Applied Materials) 구매에 대한 플레이북을 공유합니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7faead45d0862b2bb97857274399d1789bc228c0e1d23f9985b3f2002a11ca1e",
+        "datetime": 1788917238,
+        "headlineKo": "Applied Materials, AMD, Broadcom, Lam Research 및 Marvell Technology의 주가 급등, 알아야 할 사항",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788923988.3689163
+        }
+      },
       {
         "headline": "Capex Rebound Powers Applied Materials’ (AMAT) Performance",
         "source": "Yahoo",
@@ -64890,7 +65160,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901240.162752
+          "analysisUpdatedAt": 1788923990.8868325
         }
       },
       {
@@ -64909,7 +65179,7 @@ const NEWS_DATA = {
           "label": "AI 투자 변화 · 수요와 현금 부담",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다. Skip to main content → 이 5달러 이하의 주식은 SpaceX 및 Blue Origin 옆에 운영됩니다(Freedom Financial에서)(광고) Applied Materials는 AI 붐이 S를 주도하고 있다고 말합니다",
+            "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 여기 제가 약속한 주식 기호가 있습니다(출처 Stansberry Research) (광고) Applied Materials는 AI 붐이 반도체 장비 D를 주도하고 있다고 말합니다",
             "MarketBeat Media, LLC의 이미지를 닫습니다.",
             "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
           ],
@@ -64949,11 +65219,11 @@ const NEWS_DATA = {
             "$10 billion"
           ],
           "sourceExcerpt": [
-            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → This sub-5 dollar stock operates next to SpaceX and Blue Origin (From Freedom Financial) (Ad) Applied Materials Says AI Boom Is Driving S",
+            "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Here’s the stock symbol I’ve promised (From Stansberry Research) (Ad) Applied Materials Says AI Boom Is Driving Semiconductor Equipment D",
             "Close Image from MarketBeat Media, LLC.",
             "Key Points AI investment is lifting semiconductor equipment demand: Applied Materials said customer spending forecasts have risen, with cloud providers’ capital expenditures expected to exceed $700 billion in the U.S."
           ],
-          "analysisUpdatedAt": 1788901244.5878932
+          "analysisUpdatedAt": 1788923994.9909518
         }
       },
       {
@@ -66820,17 +67090,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788901224.8735104,
-    "_updated_label": "2026-09-09 06:00",
+    "_fetched_at": 1788923969.5077567,
+    "_updated_label": "2026-09-09 12:19",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 55,
+      "checked": 56,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
-    "_last_attempt_at": 1788901224.8735104,
+    "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
-    "_last_success_at": 1788901224.8735104,
+    "_last_success_at": 1788923969.5077567,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -69272,7 +69542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -72957,7 +73227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -77488,7 +77758,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -81198,7 +81468,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -85862,7 +86132,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -88221,7 +88491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -89821,7 +90091,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -94175,7 +94445,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -96160,7 +96430,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -98009,7 +98279,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -99645,7 +99915,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -104720,7 +104990,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -104735,6 +105005,56 @@ const NEWS_DATA = {
       "revenueEstimate": 4162115363
     },
     "news": [
+      {
+        "headline": "Why the Market Dipped But Western Digital (WDC) Gained Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f497c42bd4d11b5ac15ed2293e8488e50d7785332692bbf88714fbed8bf9f020",
+        "datetime": 1788904205,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why the Market Dipped But Western Digital (WDC) Gained Today",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Why the Market Dipped But Western Digital (WDC) Gained Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788924000.7063053
+        },
+        "headlineKo": "시장은 하락했지만 WDC(Western Digital)가 오늘 상승한 이유"
+      },
       {
         "headline": "Can Western Digital's Strong FCF Sustain Buybacks and Dividends?",
         "source": "Yahoo",
@@ -104781,7 +105101,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901254.6307452
+          "analysisUpdatedAt": 1788924003.0605435
         },
         "headlineKo": "Western Digital의 강력한 FCF가 자사주 매입과 배당을 유지할 수 있습니까?"
       },
@@ -104791,10 +105111,8 @@ const NEWS_DATA = {
         "url": "https://finnhub.io/api/news?id=c3ad968405c12ac76047fc67d30a229c32b1b4ded38db44ebaf79a6b76f7dd4a",
         "datetime": 1788871140,
         "relevance": 1.0,
-        "keywordFlag": true,
-        "flagTerms": [
-          "explosion"
-        ],
+        "keywordFlag": false,
+        "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "low",
@@ -104833,7 +105151,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901256.660917
+          "analysisUpdatedAt": 1788924005.2775238
         },
         "headlineKo": "AI 데이터 폭발: WDC가 더 큰 스토리지의 승자가 될 수 있을까요?"
       },
@@ -104845,46 +105163,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901258.4362457
-        },
         "headlineKo": "투자자들이 WDC(Western Digital Corporation)를 많이 검색합니다. 알아야 할 사항은 다음과 같습니다."
       },
       {
@@ -104896,16 +105174,6 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "10년 전에 Western Digital에 투자한 1,000달러의 현재 가치는 다음과 같습니다."
-      },
-      {
-        "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e1e9bf5e516af2021bb913894c2c790c7cab632dbbd4dc2071915afb97f48602",
-        "datetime": 1788587445,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Western Digital Director는 4배 이상의 수익을 올린 후 250만 달러를 판매했습니다. AI 스토리지 모멘텀이 정점에 달하고 있나요?"
       },
       {
         "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
@@ -104962,6 +105230,55 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "Why the Market Dipped But Western Digital (WDC) Gained Today",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f497c42bd4d11b5ac15ed2293e8488e50d7785332692bbf88714fbed8bf9f020",
+        "datetime": 1788904205,
+        "headlineKo": "시장은 하락했지만 WDC(Western Digital)가 오늘 상승한 이유",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Why the Market Dipped But Western Digital (WDC) Gained Today",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'Why the Market Dipped But Western Digital (WDC) Gained Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1788924000.7063053
+        }
+      },
+      {
         "headline": "Can Western Digital's Strong FCF Sustain Buybacks and Dividends?",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6c8c000d483a6cedaf8ac1b71f67ac94fa7fe66968f6b9fae2ec9d6f8434bd1c",
@@ -105007,7 +105324,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901254.6307452
+          "analysisUpdatedAt": 1788924003.0605435
         }
       },
       {
@@ -105017,7 +105334,7 @@ const NEWS_DATA = {
         "datetime": 1788871140,
         "headlineKo": "AI 데이터 폭발: WDC가 더 큰 스토리지의 승자가 될 수 있을까요?",
         "relevance": 1.0,
-        "keywordFlag": true,
+        "keywordFlag": false,
         "flagTerms": [
           "explosion"
         ],
@@ -105059,7 +105376,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788901256.660917
+          "analysisUpdatedAt": 1788924005.2775238
         }
       },
       {
@@ -106491,17 +106808,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788901224.8735104,
-    "_updated_label": "2026-09-09 06:00",
+    "_fetched_at": 1788923969.5077567,
+    "_updated_label": "2026-09-09 12:20",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 46,
+      "checked": 47,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
-    "_last_attempt_at": 1788901224.8735104,
+    "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
-    "_last_success_at": 1788901224.8735104,
+    "_last_success_at": 1788923969.5077567,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -108235,7 +108552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -109876,7 +110193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -111626,7 +111943,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -113518,7 +113835,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -114703,7 +115020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -116288,7 +116605,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -117964,7 +118281,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -119194,7 +119511,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -119783,7 +120100,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788904824.4191115,
     "_earnings_status": "ok",
@@ -122293,7 +122610,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -122933,7 +123250,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -124124,7 +124441,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -125126,7 +125443,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -126362,7 +126679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -126976,7 +127293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 11:48"
+      "updated": "2026-09-09 12:20"
     },
     "_fetched_at": 1788912044.213875,
     "_updated_label": "2026-09-09 09:05",
