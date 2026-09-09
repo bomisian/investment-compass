@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788966278.1857588,
+  "generatedAt": 1788968168.3994346,
   "events": [
     {
       "id": "77b8d7f174b775696a9b",
@@ -3222,7 +3222,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3399,7 +3399,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5985,7 +5985,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7484,13 +7484,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f003b2078afff9dc3ad0bd452582ec7557e7b7f7ecc9f55b19060267b0c7b72",
         "publishedAt": 1788876202,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Applied Materials Says AI Boom Is Driving Semiconductor Equipment Demand Higher Skip to main content → Louis Navellier: My # 1 AI stock for 2026 (name & ticker inside) (From InvestorPlace) (Ad) Applied Materials Says AI Boom Is Driving Semic",
+        "Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도하고 있다고 말합니다 Skip to main content → 이란 전쟁 충격: 내가 그 비공개 회의에서 들었던 내용(Banyan Hill Publishing에서) (광고) Applied Materials는 AI 붐이 반도체 장비 수요 증가를 주도한다고 말합니다",
         "MarketBeat Media, LLC의 이미지를 닫습니다.",
-        "주요 포인트 인공지능 투자가 반도체 장비 수요를 줄이고 있다: 어플라이드 머티리얼즈 (Applied Materials) 는 고객 지출 예측이 상승했으며, 클라우드 제공업체의 자본 지출은 미국에서 7,000억 달러 ($) 를 초과할 것으로 예상된다고 말했다."
+        "요점 AI 투자가 반도체 장비 수요 증가: 어플라이드 머티어리얼즈는 고객 지출 예측이 증가했으며, 클라우드 제공업체의 자본 지출이 미국에서 7000억 달러를 초과할 것으로 예상된다고 밝혔습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -8821,7 +8821,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
         "publishedAt": 1788850156,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9808,7 +9808,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
         "publishedAt": 1788818172,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9906,7 +9906,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
         "publishedAt": 1788818100,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11938,7 +11938,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa",
         "publishedAt": 1788792695,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12165,7 +12165,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755",
         "publishedAt": 1788789628,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13313,7 +13313,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
         "publishedAt": 1788729369,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14626,7 +14626,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c686985f2d1ee36acd57cf68fc1ec368cbd7560286e77ee01a4f48c461c0159b",
         "publishedAt": 1788633300,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14797,7 +14797,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=05c91b0250bd447583cf3e54e7a07aa669542e0140205e7d3070c6698ccefebf",
         "publishedAt": 1788627934,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15312,7 +15312,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c22111359976c8182e714c1ffd434881519f76bc0943a0ddbf6303b437e103cc",
         "publishedAt": 1788613800,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16030,7 +16030,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f55710c788a3a48dcabeb2b5c7f7c414eee48831784de0bfb23197ced0a21370",
         "publishedAt": 1788600300,
-        "collectedAt": 1788946456.8096817
+        "collectedAt": 1788968127.6113286
       },
       "confirmedFacts": [],
       "reportedClaims": [
