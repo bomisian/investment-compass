@@ -1734,10 +1734,26 @@ function computeFairValue(ticker, price, fund, est){
     // 실측: PLTR forwardPE 67배·PEG 1.21배(성장이 PER을 상당히 뒷받침) / QCOM PER 14~19배로
     // 밴드상 안 비싸 보여도 PEG 8.47배(이익이 줄고 있어 저평가로 보기 어려움). 새 임계값을 지어내지
     // 않고 이 화면에 이미 있던 PEG 힌트 문구 기준(1 이하 저평가/2 이상 고평가)을 그대로 재사용함.
-    const peg = (fund && fund.forwardPEG!=null && isFinite(fund.forwardPEG)) ? fund.forwardPEG : null;
+    // 2026-09-09 수정(봄이 요청으로 "가격 타당성" 배지 로직 전수 검증 중 발견) - 이 파일의
+    // historicalPEG(역산 기대성장률 방식)는 이미 0.2~15배를 벗어나면 "데이터 왜곡 가능성"으로
+    // 보고 계산을 보류하는 안전장치가 있는데(아래쪽 "정상 범위를 크게 벗어나서" 문구 참고),
+    // 상장 이력이 짧은 종목의 PEG 대체 판정(valuationBadgeHtml의 "저평가*"/"고평가*")이 쓰는
+    // 이 원본 forwardPEG(Finnhub 제공)엔 같은 안전장치가 없었다. 실측 확인: SNDK forwardPEG가
+    // 0.02배로 나오는데, 이건 메모리 업사이클로 실적이 거의 0에 가까운 기저에서 급증할 걸로
+    // 예상되기 때문(전년 성장률 예상치가 비정상적으로 큼)이라 "매우 저평가"로 읽히면 오해임 -
+    // historicalPEG와 같은 이유(이익이 0에 가까운 기저 효과)로 같은 0.2~15배 범위 밖이면 이
+    // PEG도 신뢰 구간 밖으로 보고 사용하지 않는다(범위 밖이면 null 처리 → 판단보류로 떨어짐).
+    const pegRaw = (fund && fund.forwardPEG!=null && isFinite(fund.forwardPEG)) ? fund.forwardPEG : null;
+    const peg = (pegRaw!=null && pegRaw>=0.2 && pegRaw<=15) ? pegRaw : null;
+    const pegOutOfRange = (pegRaw!=null && (pegRaw<0.2 || pegRaw>15));
     if(peg!=null && !hasOwnBand){
       if(peg <= 1) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요 - 그래서 '보수적' 가격도 절대적으로는 여전히 비싸 보일 수 있어요. 다만 성장률까지 감안한 <b>PEG는 ${peg.toFixed(2)}배</b>로(1 이하면 성장성 대비 저평가), 지금 성장 속도가 이 PER을 상당히 뒷받침하는 편이에요.`);
       else if(peg >= 2) cautions.push(`이 종목은 상장 이력이 짧아 자기 고유 밸류에이션 역사가 없어서, 위 시나리오는 시장 전체 평균 배율을 지금 PER에 곱해 계산했어요. 성장률까지 감안한 <b>PEG도 ${peg.toFixed(2)}배</b>로 높은 편이라(2 이상이면 성장성 대비 고평가), 위 숫자를 절대적인 '싸다'로 보기보다는 참고만 하세요.`);
+    } else if(pegOutOfRange){
+      // 2026-09-09 추가(위 peg 계산 수정과 세트) - PEG가 정상 범위(0.2~15배)를 벗어나 계산에서
+      // 제외됐다는 사실 자체를 조용히 감추지 않고 알려준다(SNDK처럼 이익이 0에 가까운 기저에서
+      // 급증할 걸로 예상돼 PEG가 비정상적으로 작게/크게 나오는 경우).
+      cautions.push(`이 종목의 PEG(${pegRaw.toFixed(2)}배)는 정상 범위(0.2~15배)를 크게 벗어나 있어요 - 이익이 0에 가까운 기저에서 급증(또는 급감)할 것으로 예상되면 흔히 이렇게 왜곡돼요. 그래서 이 값은 밸류에이션 판단에 쓰지 않았어요 - "가격 타당성" 배지가 이 종목에서 판단보류로 나오는 이유예요.`);
     }
     // ⚠️ price를 mid/low/high와 직접 비교해서 조건을 걸지 않음 - mid=eps1*anchorPe라
     // mid/price=eps1/eps0(=1+growth)이 기계적으로 성립하고 low/high도 여기서 파생돼서,
