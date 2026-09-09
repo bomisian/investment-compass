@@ -137,55 +137,57 @@ const FINANCIALS_DATA = {
         "period": "Q4'23",
         "revenue": 18120000000.0,
         "netIncome": 9243000000.0,
-        "endDate": "2023-10-29",
-        "opIncome": 10417000000
+        "opIncome": 10417000000.0,
+        "endDate": "2023-10-29"
       },
       {
         "period": "Q1'24",
         "revenue": 22103000000.0,
         "netIncome": 12285000000.0,
+        "opIncome": 13614000000.0,
         "endDate": "2024-01-28"
       },
       {
         "period": "Q2'24",
         "revenue": 26044000000.0,
         "netIncome": 14881000000.0,
-        "endDate": "2024-04-28",
-        "opIncome": 16909000000
+        "opIncome": 16909000000.0,
+        "endDate": "2024-04-28"
       },
       {
         "period": "Q3'24",
         "revenue": 30040000000.0,
         "netIncome": 16599000000.0,
-        "endDate": "2024-07-28",
-        "opIncome": 18642000000
+        "opIncome": 18642000000.0,
+        "endDate": "2024-07-28"
       },
       {
         "period": "Q4'24",
         "revenue": 35082000000.0,
         "netIncome": 19309000000.0,
-        "endDate": "2024-10-27",
-        "opIncome": 21869000000
+        "opIncome": 21869000000,
+        "endDate": "2024-10-27"
       },
       {
         "period": "Q1'25",
         "revenue": 39331000000.0,
         "netIncome": 22091000000.0,
+        "opIncome": 24034000000.0,
         "endDate": "2025-01-26"
       },
       {
         "period": "Q2'25",
         "revenue": 44062000000.0,
         "netIncome": 18775000000.0,
-        "endDate": "2025-04-27",
-        "opIncome": 21638000000
+        "opIncome": 21638000000.0,
+        "endDate": "2025-04-27"
       },
       {
         "period": "Q3'25",
         "revenue": 46743000000.0,
         "netIncome": 26422000000.0,
+        "opIncome": 28440000000.0,
         "endDate": "2025-07-31",
-        "opIncome": 28440000000,
         "eps": 1.08,
         "ocf": 15365000000.0,
         "capex": -1895000000.0,
@@ -203,8 +205,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 57006000000.0,
         "netIncome": 31910000000.0,
-        "endDate": "2025-10-31",
         "opIncome": 36010000000,
+        "endDate": "2025-10-31",
         "eps": 1.3,
         "ocf": 23751000000.0,
         "capex": -1636000000.0,
@@ -220,8 +222,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 68127000000.0,
         "netIncome": 42960000000.0,
+        "opIncome": 44299000000,
         "endDate": "2026-01-31",
-        "opIncome": 44299000000.0,
         "eps": 1.76,
         "ocf": 36188000000.0,
         "capex": -1284000000.0,
@@ -237,8 +239,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 81615000000.0,
         "netIncome": 58321000000.0,
-        "endDate": "2026-04-30",
         "opIncome": 53536000000,
+        "endDate": "2026-04-30",
         "eps": 2.39,
         "ocf": 50344000000.0,
         "capex": -1757000000.0,
@@ -276,105 +278,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-13",
-        "shares": 619000000
+        "shares": 24760000000.0
       },
       {
         "date": "2021-02-19",
-        "shares": 620000000
+        "shares": 24800000000.0
       },
       {
         "date": "2021-05-21",
-        "shares": 623000000
+        "shares": 24920000000.0
       },
       {
         "date": "2021-08-13",
-        "shares": 2500000000
+        "shares": 25000000000.0
       },
       {
         "date": "2021-11-12",
-        "shares": 2500000000
+        "shares": 25000000000.0
       },
       {
         "date": "2022-03-11",
-        "shares": 2510000000
+        "shares": 25100000000.0
       },
       {
         "date": "2022-05-20",
-        "shares": 2500000000
+        "shares": 25000000000.0
       },
       {
         "date": "2022-08-19",
-        "shares": 2490000000
+        "shares": 24900000000.0
       },
       {
         "date": "2022-11-11",
-        "shares": 2460000000
+        "shares": 24600000000.0
       },
       {
         "date": "2023-02-17",
-        "shares": 2470000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-05-19",
-        "shares": 2470000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-08-18",
-        "shares": 2470000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-11-17",
-        "shares": 2470000000
+        "shares": 24700000000.0
       },
       {
         "date": "2024-02-16",
-        "shares": 2500000000
+        "shares": 25000000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 2460000000
+        "shares": 24600000000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 24530000000
+        "shares": 24530000000.0
       },
       {
         "date": "2024-11-15",
-        "shares": 24490000000
+        "shares": 24490000000.0
       },
       {
         "date": "2025-02-21",
-        "shares": 24400000000
+        "shares": 24400000000.0
       },
       {
         "date": "2025-05-23",
-        "shares": 24400000000
+        "shares": 24400000000.0
       },
       {
         "date": "2025-08-22",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2025-11-14",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2026-02-20",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2026-05-15",
-        "shares": 24200000000
+        "shares": 24200000000.0
       },
       {
         "date": "2026-08-21",
-        "shares": 24100000000
+        "shares": 24100000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788785177.5628808,
-    "_updated_label": "2026-09-08 22:00",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -400,7 +402,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788872420.8667676,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AAPL": {
@@ -523,56 +525,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 81797000000,
         "netIncome": 19881000000,
-        "endDate": "2023-07-01",
-        "opIncome": 22998000000
+        "opIncome": 22998000000,
+        "endDate": "2023-07-01"
       },
       {
         "period": "Q4'23",
         "revenue": 119575000000.0,
         "netIncome": 33916000000.0,
-        "endDate": "2023-12-30",
-        "opIncome": 40373000000
+        "opIncome": 40373000000.0,
+        "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
         "revenue": 90753000000.0,
         "netIncome": 23636000000.0,
-        "endDate": "2024-03-30",
-        "opIncome": 27900000000
+        "opIncome": 27900000000.0,
+        "endDate": "2024-03-30"
       },
       {
         "period": "Q2'24",
         "revenue": 85777000000.0,
         "netIncome": 21448000000.0,
-        "endDate": "2024-06-29",
-        "opIncome": 25352000000
+        "opIncome": 25352000000.0,
+        "endDate": "2024-06-29"
       },
       {
         "period": "Q3'24",
         "revenue": 94930000000.0,
         "netIncome": 14736000000.0,
+        "opIncome": 29591000000.0,
         "endDate": "2024-09-28"
       },
       {
         "period": "Q4'24",
         "revenue": 124300000000.0,
         "netIncome": 36330000000.0,
-        "endDate": "2024-12-28",
-        "opIncome": 42832000000
+        "opIncome": 42832000000.0,
+        "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
         "revenue": 95359000000.0,
         "netIncome": 24780000000.0,
-        "endDate": "2025-03-29",
-        "opIncome": 29589000000
+        "opIncome": 29589000000.0,
+        "endDate": "2025-03-29"
       },
       {
         "period": "Q2'25",
         "revenue": 94036000000.0,
         "netIncome": 23434000000.0,
+        "opIncome": 28202000000.0,
         "endDate": "2025-06-30",
-        "opIncome": 28202000000,
         "eps": 1.57,
         "ocf": 27867000000.0,
         "capex": -3462000000.0,
@@ -588,8 +591,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 102466000000.0,
         "netIncome": 27466000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 32427000000.0,
+        "endDate": "2025-09-30",
         "eps": 1.85,
         "ocf": 29728000000.0,
         "capex": -3242000000.0,
@@ -605,8 +608,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 143756000000.0,
         "netIncome": 42097000000.0,
+        "opIncome": 50852000000.0,
         "endDate": "2025-12-31",
-        "opIncome": 50852000000,
         "eps": 2.84,
         "ocf": 53925000000.0,
         "capex": -2373000000.0,
@@ -622,8 +625,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 111184000000.0,
         "netIncome": 29578000000.0,
+        "opIncome": 35885000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 35885000000,
         "eps": 2.01,
         "ocf": 28702000000.0,
         "capex": -1971000000.0,
@@ -659,105 +662,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-16",
-        "shares": 17001802000
+        "shares": 17001802000.0
       },
       {
         "date": "2021-01-15",
-        "shares": 16788096000
+        "shares": 16788096000.0
       },
       {
         "date": "2021-04-16",
-        "shares": 16687631000
+        "shares": 16687631000.0
       },
       {
         "date": "2021-07-16",
-        "shares": 16530166000
+        "shares": 16530166000.0
       },
       {
         "date": "2021-10-15",
-        "shares": 16406397000
+        "shares": 16406397000.0
       },
       {
         "date": "2022-01-14",
-        "shares": 16319441000
+        "shares": 16319441000.0
       },
       {
         "date": "2022-04-15",
-        "shares": 16185181000
+        "shares": 16185181000.0
       },
       {
         "date": "2022-07-15",
-        "shares": 16070752000
+        "shares": 16070752000.0
       },
       {
         "date": "2022-10-14",
-        "shares": 15908118000
+        "shares": 15908118000.0
       },
       {
         "date": "2023-01-20",
-        "shares": 15821946000
+        "shares": 15821946000.0
       },
       {
         "date": "2023-04-21",
-        "shares": 15728702000
+        "shares": 15728702000.0
       },
       {
         "date": "2023-07-21",
-        "shares": 15634232000
+        "shares": 15634232000.0
       },
       {
         "date": "2023-10-20",
-        "shares": 15552752000
+        "shares": 15552752000.0
       },
       {
         "date": "2024-01-19",
-        "shares": 15441881000
+        "shares": 15441881000.0
       },
       {
         "date": "2024-04-19",
-        "shares": 15334082000
+        "shares": 15334082000.0
       },
       {
         "date": "2024-07-19",
-        "shares": 15204137000
+        "shares": 15204137000.0
       },
       {
         "date": "2024-10-18",
-        "shares": 15115823000
+        "shares": 15115823000.0
       },
       {
         "date": "2025-01-17",
-        "shares": 15022073000
+        "shares": 15022073000.0
       },
       {
         "date": "2025-04-18",
-        "shares": 14935826000
+        "shares": 14935826000.0
       },
       {
         "date": "2025-07-18",
-        "shares": 14840390000
+        "shares": 14840390000.0
       },
       {
         "date": "2025-10-17",
-        "shares": 14776353000
+        "shares": 14776353000.0
       },
       {
         "date": "2026-01-16",
-        "shares": 14681140000
+        "shares": 14681140000.0
       },
       {
         "date": "2026-04-17",
-        "shares": 14687356000
+        "shares": 14687356000.0
       },
       {
         "date": "2026-07-17",
-        "shares": 14594180000
+        "shares": 14594180000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788775585.600831,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -783,7 +786,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GOOGL": {
@@ -918,40 +921,42 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 76693000000.0,
         "netIncome": 19689000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 21343000000
+        "opIncome": 21343000000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 86310000000.0,
         "netIncome": 20687000000.0,
+        "opIncome": 23697000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 80539000000.0,
         "netIncome": 23662000000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 25472000000
+        "opIncome": 25472000000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 84742000000.0,
         "netIncome": 23619000000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 27425000000
+        "opIncome": 27425000000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 88268000000.0,
         "netIncome": 26301000000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 28521000000
+        "opIncome": 28521000000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 96469000000.0,
         "netIncome": 26536000000.0,
+        "opIncome": 30972000000.0,
         "endDate": "2024-12-31",
         "specialIncomeCharges": -87000000.0
       },
@@ -959,16 +964,16 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 90234000000.0,
         "netIncome": 34540000000.0,
+        "opIncome": 30606000000.0,
         "endDate": "2025-03-31",
-        "opIncome": 30606000000,
         "specialIncomeCharges": -22000000.0
       },
       {
         "period": "Q2'25",
         "revenue": 96428000000.0,
         "netIncome": 28196000000.0,
+        "opIncome": 31271000000.0,
         "endDate": "2025-06-30",
-        "opIncome": 31271000000,
         "eps": 2.31,
         "ocf": 27747000000.0,
         "capex": -22446000000.0,
@@ -987,8 +992,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 102346000000,
         "netIncome": 34979000000.0,
+        "opIncome": 31228000000.0,
         "endDate": "2025-09-30",
-        "opIncome": 31228000000,
         "eps": 2.87,
         "ocf": 48414000000.0,
         "capex": -23953000000.0,
@@ -1007,8 +1012,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 113829000000.0,
         "netIncome": 34455000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 35934000000.0,
+        "endDate": "2025-12-31",
         "eps": 2.82,
         "ocf": 52402000000.0,
         "capex": -27851000000.0,
@@ -1027,8 +1032,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 109896000000.0,
         "netIncome": 62578000000.0,
+        "opIncome": 39696000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 39696000000,
         "eps": 5.11,
         "ocf": 45790000000.0,
         "capex": -35674000000.0,
@@ -1066,9 +1071,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788771686.5936604,
-    "_updated_label": "2026-09-08 18:23",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1094,7 +1099,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788859435.611091,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MSFT": {
@@ -1228,14 +1233,15 @@ const FINANCIALS_DATA = {
         "period": "Q2'23",
         "revenue": 56189000000.0,
         "netIncome": 20081000000.0,
+        "opIncome": 24254000000.0,
         "endDate": "2023-06-30"
       },
       {
         "period": "Q3'23",
         "revenue": 56517000000.0,
         "netIncome": 22291000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 26895000000
+        "opIncome": 26895000000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
@@ -1255,29 +1261,29 @@ const FINANCIALS_DATA = {
         "period": "Q3'24",
         "revenue": 65585000000.0,
         "netIncome": 24667000000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 30552000000
+        "opIncome": 30552000000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 69632000000.0,
         "netIncome": 24108000000.0,
-        "endDate": "2024-12-31",
-        "opIncome": 31653000000
+        "opIncome": 31653000000.0,
+        "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 70066000000.0,
         "netIncome": 25824000000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 32000000000
+        "opIncome": 32000000000.0,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 76441000000.0,
         "netIncome": 27233000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 34323000000.0,
+        "endDate": "2025-06-30",
         "eps": 3.65,
         "ocf": 42647000000.0,
         "capex": -17079000000.0,
@@ -1296,8 +1302,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 77673000000.0,
         "netIncome": 27747000000.0,
+        "opIncome": 37961000000.0,
         "endDate": "2025-09-30",
-        "opIncome": 37961000000,
         "eps": 3.72,
         "ocf": 45057000000.0,
         "capex": -19394000000.0,
@@ -1316,8 +1322,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 81273000000.0,
         "netIncome": 38458000000.0,
+        "opIncome": 38275000000.0,
         "endDate": "2025-12-31",
-        "opIncome": 38275000000,
         "eps": 5.16,
         "ocf": 35758000000.0,
         "capex": -29876000000.0,
@@ -1336,8 +1342,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 82886000000.0,
         "netIncome": 31778000000.0,
+        "opIncome": 38398000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 38398000000,
         "eps": 4.27,
         "ocf": 46679000000.0,
         "capex": -30876000000.0,
@@ -1382,105 +1388,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-22",
-        "shares": 7560495969
+        "shares": 7560495969.0
       },
       {
         "date": "2021-01-21",
-        "shares": 7542215767
+        "shares": 7542215767.0
       },
       {
         "date": "2021-04-22",
-        "shares": 7531574551
+        "shares": 7531574551.0
       },
       {
         "date": "2021-07-26",
-        "shares": 7514891248
+        "shares": 7514891248.0
       },
       {
         "date": "2021-10-21",
-        "shares": 7507980444
+        "shares": 7507980444.0
       },
       {
         "date": "2022-01-20",
-        "shares": 7496866428
+        "shares": 7496866428.0
       },
       {
         "date": "2022-04-21",
-        "shares": 7479033135
+        "shares": 7479033135.0
       },
       {
         "date": "2022-07-25",
-        "shares": 7457891872
+        "shares": 7457891872.0
       },
       {
         "date": "2022-10-20",
-        "shares": 7454473144
+        "shares": 7454473144.0
       },
       {
         "date": "2023-01-19",
-        "shares": 7443803533
+        "shares": 7443803533.0
       },
       {
         "date": "2023-04-20",
-        "shares": 7435487575
+        "shares": 7435487575.0
       },
       {
         "date": "2023-07-24",
-        "shares": 7429763722
+        "shares": 7429763722.0
       },
       {
         "date": "2023-10-19",
-        "shares": 7432262329
+        "shares": 7432262329.0
       },
       {
         "date": "2024-01-25",
-        "shares": 7430436229
+        "shares": 7430436229.0
       },
       {
         "date": "2024-04-22",
-        "shares": 7432305794
+        "shares": 7432305794.0
       },
       {
         "date": "2024-07-25",
-        "shares": 7433038381
+        "shares": 7433038381.0
       },
       {
         "date": "2024-10-24",
-        "shares": 7434880776
+        "shares": 7434880776.0
       },
       {
         "date": "2025-01-23",
-        "shares": 7433982235
+        "shares": 7433982235.0
       },
       {
         "date": "2025-04-24",
-        "shares": 7432543865
+        "shares": 7432543865.0
       },
       {
         "date": "2025-07-24",
-        "shares": 7433166379
+        "shares": 7433166379.0
       },
       {
         "date": "2025-10-23",
-        "shares": 7432377655
+        "shares": 7432377655.0
       },
       {
         "date": "2026-01-22",
-        "shares": 7425629076
+        "shares": 7425629076.0
       },
       {
         "date": "2026-04-23",
-        "shares": 7428434704
+        "shares": 7428434704.0
       },
       {
         "date": "2026-07-23",
-        "shares": 7425545491
+        "shares": 7425545491.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788771686.5936604,
-    "_updated_label": "2026-09-08 18:23",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1506,7 +1512,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788859435.611091,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMZN": {
@@ -1633,35 +1639,36 @@ const FINANCIALS_DATA = {
         "period": "Q2'23",
         "revenue": 134383000000.0,
         "netIncome": 6750000000.0,
-        "endDate": "2023-06-30",
-        "opIncome": 7681000000
+        "opIncome": 7681000000.0,
+        "endDate": "2023-06-30"
       },
       {
         "period": "Q3'23",
         "revenue": 143083000000.0,
         "netIncome": 9879000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 11188000000
+        "opIncome": 11188000000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 169961000000.0,
         "netIncome": 10624000000.0,
+        "opIncome": 13209000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 143313000000.0,
         "netIncome": 10431000000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 15307000000
+        "opIncome": 15307000000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 147977000000.0,
         "netIncome": 13485000000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 14672000000
+        "opIncome": 14672000000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
@@ -1674,8 +1681,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 155667000000.0,
         "netIncome": 17127000000.0,
+        "opIncome": 18405000000.0,
         "endDate": "2025-03-31",
-        "opIncome": 18405000000,
         "ocf": 17015000000.0,
         "capex": -25019000000.0,
         "fcf": -8004000000.0,
@@ -1692,8 +1699,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 167702000000.0,
         "netIncome": 18164000000.0,
+        "opIncome": 19171000000.0,
         "endDate": "2025-06-30",
-        "opIncome": 19171000000,
         "eps": 1.68,
         "ocf": 32515000000.0,
         "capex": -32183000000.0,
@@ -1711,8 +1718,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 180169000000.0,
         "netIncome": 21187000000.0,
+        "opIncome": 17422000000.0,
         "endDate": "2025-09-30",
-        "opIncome": 17422000000,
         "eps": 1.95,
         "ocf": 35525000000.0,
         "capex": -35095000000.0,
@@ -1730,8 +1737,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 213386000000.0,
         "netIncome": 21192000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 24977000000.0,
+        "endDate": "2025-12-31",
         "eps": 1.95,
         "ocf": 54459000000.0,
         "capex": -39522000000.0,
@@ -1749,8 +1756,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 181519000000.0,
         "netIncome": 30255000000.0,
+        "opIncome": 23852000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 23852000000,
         "eps": 2.78,
         "ocf": 26032000000.0,
         "capex": -44203000000.0,
@@ -1779,105 +1786,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-21",
-        "shares": 501751183
+        "shares": 9533272477.0
       },
       {
         "date": "2021-01-20",
-        "shares": 503564743
+        "shares": 9567730117.0
       },
       {
         "date": "2021-04-21",
-        "shares": 504323736
+        "shares": 9582150984.0
       },
       {
         "date": "2021-07-21",
-        "shares": 506440520
+        "shares": 9622369880.0
       },
       {
         "date": "2021-10-20",
-        "shares": 507147620
+        "shares": 9635804780.0
       },
       {
         "date": "2022-01-26",
-        "shares": 508844410
+        "shares": 9668043790.0
       },
       {
         "date": "2022-04-20",
-        "shares": 508720481
+        "shares": 9665689139.0
       },
       {
         "date": "2022-07-20",
-        "shares": 10187554818
+        "shares": 10187554818.0
       },
       {
         "date": "2022-10-19",
-        "shares": 10201654176
+        "shares": 10201654176.0
       },
       {
         "date": "2023-01-25",
-        "shares": 10247259757
+        "shares": 10247259757.0
       },
       {
         "date": "2023-04-19",
-        "shares": 10260353688
+        "shares": 10260353688.0
       },
       {
         "date": "2023-07-21",
-        "shares": 10317750796
+        "shares": 10317750796.0
       },
       {
         "date": "2023-10-18",
-        "shares": 10334030586
+        "shares": 10334030586.0
       },
       {
         "date": "2024-01-24",
-        "shares": 10387381291
+        "shares": 10387381291.0
       },
       {
         "date": "2024-04-24",
-        "shares": 10406627415
+        "shares": 10406627415.0
       },
       {
         "date": "2024-07-24",
-        "shares": 10495566881
+        "shares": 10495566881.0
       },
       {
         "date": "2024-10-18",
-        "shares": 10515011008
+        "shares": 10515011008.0
       },
       {
         "date": "2025-01-29",
-        "shares": 10597729352
+        "shares": 10597729352.0
       },
       {
         "date": "2025-04-23",
-        "shares": 10616352407
+        "shares": 10616352407.0
       },
       {
         "date": "2025-07-23",
-        "shares": 10664912097
+        "shares": 10664912097.0
       },
       {
         "date": "2025-10-22",
-        "shares": 10690216011
+        "shares": 10690216011.0
       },
       {
         "date": "2026-01-28",
-        "shares": 10734920870
+        "shares": 10734920870.0
       },
       {
         "date": "2026-04-22",
-        "shares": 10757109436
+        "shares": 10757109436.0
       },
       {
         "date": "2026-07-22",
-        "shares": 10786313572
+        "shares": 10786313572.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788787082.5375223,
-    "_updated_label": "2026-09-08 22:38",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1903,7 +1910,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788874693.6896138,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -2133,9 +2140,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788787082.5375223,
-    "_updated_label": "2026-09-08 22:38",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2161,7 +2168,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788874693.6896138
+    "_yahoo_verified_at": 1788943095.0431075
   },
   "AVGO": {
     "annual": [
@@ -2299,48 +2306,50 @@ const FINANCIALS_DATA = {
         "period": "Q4'23",
         "revenue": 9295000000.0,
         "netIncome": 3524000000.0,
+        "opIncome": 4240000000.0,
         "endDate": "2023-10-29"
       },
       {
         "period": "Q1'24",
         "revenue": 11961000000.0,
         "netIncome": 1325000000.0,
-        "endDate": "2024-02-04",
-        "opIncome": 2083000000
+        "opIncome": 2083000000.0,
+        "endDate": "2024-02-04"
       },
       {
         "period": "Q2'24",
         "revenue": 12487000000.0,
         "netIncome": 2121000000.0,
-        "endDate": "2024-05-05",
-        "opIncome": 2965000000
+        "opIncome": 2965000000.0,
+        "endDate": "2024-05-05"
       },
       {
         "period": "Q3'24",
         "revenue": 13072000000.0,
         "netIncome": -1875000000.0,
-        "endDate": "2024-08-04",
-        "opIncome": 3788000000
+        "opIncome": 3788000000.0,
+        "endDate": "2024-08-04"
       },
       {
         "period": "Q4'24",
         "revenue": 14054000000.0,
         "netIncome": 4324000000.0,
+        "opIncome": 4627000000.0,
         "endDate": "2024-11-03"
       },
       {
         "period": "Q1'25",
         "revenue": 14916000000.0,
         "netIncome": 5503000000.0,
-        "endDate": "2025-02-02",
-        "opIncome": 6260000000
+        "opIncome": 6260000000.0,
+        "endDate": "2025-02-02"
       },
       {
         "period": "Q2'25",
         "revenue": 15004000000.0,
         "netIncome": 4965000000.0,
+        "opIncome": 5829000000.0,
         "endDate": "2025-04-30",
-        "opIncome": 5829000000,
         "ocf": 6555000000.0,
         "capex": -144000000.0,
         "fcf": 6411000000.0,
@@ -2359,8 +2368,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 15952000000.0,
         "netIncome": 4140000000.0,
+        "opIncome": 5887000000.0,
         "endDate": "2025-07-31",
-        "opIncome": 5887000000,
         "eps": 0.85,
         "ocf": 7166000000.0,
         "capex": -142000000.0,
@@ -2380,8 +2389,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 18015000000.0,
         "netIncome": 8518000000.0,
+        "opIncome": 7508000000.0,
         "endDate": "2025-10-31",
-        "opIncome": 7654000000.0,
         "eps": 1.74,
         "ocf": 7703000000.0,
         "capex": -237000000.0,
@@ -2401,8 +2410,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 19311000000.0,
         "netIncome": 7349000000.0,
+        "opIncome": 8563000000.0,
         "endDate": "2026-01-31",
-        "opIncome": 8563000000,
         "eps": 1.5,
         "ocf": 8260000000.0,
         "capex": -250000000.0,
@@ -2422,8 +2431,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 22187000000.0,
         "netIncome": 9310000000.0,
+        "opIncome": 10788000000.0,
         "endDate": "2026-04-30",
-        "opIncome": 10788000000,
         "eps": 1.91,
         "ocf": 10493000000.0,
         "capex": -231000000.0,
@@ -2469,105 +2478,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-08-28",
-        "shares": 404501331
+        "shares": 4045013310.0
       },
       {
         "date": "2020-11-27",
-        "shares": 406713118
+        "shares": 4067131180.0
       },
       {
         "date": "2021-02-26",
-        "shares": 408302326
+        "shares": 4083023260.0
       },
       {
         "date": "2021-05-28",
-        "shares": 410260560
+        "shares": 4102605600.0
       },
       {
         "date": "2021-08-27",
-        "shares": 411616288
+        "shares": 4116162880.0
       },
       {
         "date": "2021-11-26",
-        "shares": 412873968
+        "shares": 4128739680.0
       },
       {
         "date": "2022-02-25",
-        "shares": 408281170
+        "shares": 4082811700.0
       },
       {
         "date": "2022-05-27",
-        "shares": 403817700
+        "shares": 4038177000.0
       },
       {
         "date": "2022-08-26",
-        "shares": 405001456
+        "shares": 4050014560.0
       },
       {
         "date": "2022-11-25",
-        "shares": 417886140
+        "shares": 4178861400.0
       },
       {
         "date": "2023-02-24",
-        "shares": 416923664
+        "shares": 4169236640.0
       },
       {
         "date": "2023-05-26",
-        "shares": 412685405
+        "shares": 4126854050.0
       },
       {
         "date": "2023-08-25",
-        "shares": 412735504
+        "shares": 4127355040.0
       },
       {
         "date": "2023-11-24",
-        "shares": 468140569
+        "shares": 4681405690.0
       },
       {
         "date": "2024-03-01",
-        "shares": 463421237
+        "shares": 4634212370.0
       },
       {
         "date": "2024-05-31",
-        "shares": 465488374
+        "shares": 4654883740.0
       },
       {
         "date": "2024-08-30",
-        "shares": 4670576083
+        "shares": 4670576083.0
       },
       {
         "date": "2024-11-29",
-        "shares": 4687356156
+        "shares": 4687356156.0
       },
       {
         "date": "2025-02-28",
-        "shares": 4701948717
+        "shares": 4701948717.0
       },
       {
         "date": "2025-05-30",
-        "shares": 4703470979
+        "shares": 4703470979.0
       },
       {
         "date": "2025-08-29",
-        "shares": 4722365022
+        "shares": 4722365022.0
       },
       {
         "date": "2025-11-28",
-        "shares": 4741273799
+        "shares": 4741273799.0
       },
       {
         "date": "2026-02-27",
-        "shares": 4734668184
+        "shares": 4734668184.0
       },
       {
         "date": "2026-05-29",
-        "shares": 4757580198
+        "shares": 4757580198.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788777551.5434163,
-    "_updated_label": "2026-09-08 19:58",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2593,7 +2602,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788865112.9502063,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "META": {
@@ -2725,40 +2734,42 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 34146000000.0,
         "netIncome": 11583000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 13748000000
+        "opIncome": 13748000000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 40111000000.0,
         "netIncome": 14017000000.0,
+        "opIncome": 16384000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 36455000000.0,
         "netIncome": 12369000000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 13818000000
+        "opIncome": 13818000000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 39071000000,
         "netIncome": 13465000000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 14847000000
+        "opIncome": 14847000000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 40589000000.0,
         "netIncome": 15688000000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 17350000000
+        "opIncome": 17350000000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 48385000000.0,
         "netIncome": 20838000000.0,
+        "opIncome": 23364000000.0,
         "endDate": "2024-12-31",
         "otherNonOperating": 93000000.0
       },
@@ -2766,16 +2777,16 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 42314000000.0,
         "netIncome": 16644000000.0,
+        "opIncome": 17555000000.0,
         "endDate": "2025-03-31",
-        "opIncome": 17555000000,
         "otherNonOperating": 177000000.0
       },
       {
         "period": "Q2'25",
         "revenue": 47516000000.0,
         "netIncome": 18337000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 20441000000,
+        "endDate": "2025-06-30",
         "eps": 7.14,
         "ocf": 25561000000.0,
         "capex": -16538000000.0,
@@ -2793,8 +2804,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 51242000000,
         "netIncome": 2709000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 20535000000,
+        "endDate": "2025-09-30",
         "eps": 1.05,
         "ocf": 29999000000.0,
         "capex": -18829000000.0,
@@ -2812,8 +2823,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 59893000000.0,
         "netIncome": 22768000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 24745000000.0,
+        "endDate": "2025-12-31",
         "eps": 8.88,
         "ocf": 36214000000.0,
         "capex": -21383000000.0,
@@ -2831,8 +2842,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 56311000000.0,
         "netIncome": 26773000000.0,
+        "opIncome": 22872000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 22872000000,
         "eps": 10.44,
         "ocf": 32226000000.0,
         "capex": -18997000000.0,
@@ -2868,9 +2879,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788775585.600831,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2896,7 +2907,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSLA": {
@@ -3035,55 +3046,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 23350000000.0,
         "netIncome": 1853000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 1764000000
+        "opIncome": 1764000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 25167000000.0,
         "netIncome": 7928000000.0,
+        "opIncome": 2064000000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 21301000000.0,
         "netIncome": 1390000000,
-        "endDate": "2024-03-31",
-        "opIncome": 1171000000
+        "opIncome": 1171000000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 25500000000.0,
         "netIncome": 1400000000,
-        "endDate": "2024-06-30",
-        "opIncome": 1605000000
+        "opIncome": 1605000000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 25182000000.0,
         "netIncome": 2173000000,
-        "endDate": "2024-09-30",
-        "opIncome": 2717000000
+        "opIncome": 2717000000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 25707000000.0,
         "netIncome": 2317000000.0,
+        "opIncome": 1583000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 19335000000.0,
         "netIncome": 409000000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 399000000
+        "opIncome": 399000000,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 22496000000.0,
         "netIncome": 1172000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 923000000,
+        "endDate": "2025-06-30",
         "eps": 0.33,
         "ocf": 2540000000.0,
         "capex": -2394000000.0,
@@ -3103,8 +3116,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 28095000000.0,
         "netIncome": 1373000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 1624000000,
+        "endDate": "2025-09-30",
         "eps": 0.39,
         "ocf": 6238000000.0,
         "capex": -2248000000.0,
@@ -3124,8 +3137,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 24901000000.0,
         "netIncome": 840000000.0,
+        "opIncome": 1409000000,
         "endDate": "2025-12-31",
-        "opIncome": 1571000000.0,
         "eps": 0.24,
         "ocf": 3813000000.0,
         "capex": -2393000000.0,
@@ -3145,8 +3158,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 22387000000.0,
         "netIncome": 477000000,
-        "endDate": "2026-03-31",
         "opIncome": 941000000,
+        "endDate": "2026-03-31",
         "eps": 0.13,
         "ocf": 3937000000.0,
         "capex": -2493000000.0,
@@ -3191,105 +3204,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-20",
-        "shares": 947900733
+        "shares": 2843702199.0
       },
       {
         "date": "2021-02-01",
-        "shares": 959853504
+        "shares": 2879560512.0
       },
       {
         "date": "2021-04-21",
-        "shares": 963330448
+        "shares": 2889991344.0
       },
       {
         "date": "2021-07-22",
-        "shares": 990015158
+        "shares": 2970045474.0
       },
       {
         "date": "2021-10-21",
-        "shares": 1004264852
+        "shares": 3012794556.0
       },
       {
         "date": "2022-01-31",
-        "shares": 1033507611
+        "shares": 3100522833.0
       },
       {
         "date": "2022-04-19",
-        "shares": 1036009925
+        "shares": 3108029775.0
       },
       {
         "date": "2022-07-19",
-        "shares": 1044490015
+        "shares": 3133470045.0
       },
       {
         "date": "2022-10-18",
-        "shares": 3157752449
+        "shares": 3157752449.0
       },
       {
         "date": "2023-01-25",
-        "shares": 3164102701
+        "shares": 3164102701.0
       },
       {
         "date": "2023-04-17",
-        "shares": 3169504301
+        "shares": 3169504301.0
       },
       {
         "date": "2023-07-17",
-        "shares": 3173994467
+        "shares": 3173994467.0
       },
       {
         "date": "2023-10-16",
-        "shares": 3178921391
+        "shares": 3178921391.0
       },
       {
         "date": "2024-01-22",
-        "shares": 3184790415
+        "shares": 3184790415.0
       },
       {
         "date": "2024-04-18",
-        "shares": 3189196167
+        "shares": 3189196167.0
       },
       {
         "date": "2024-07-18",
-        "shares": 3194640415
+        "shares": 3194640415.0
       },
       {
         "date": "2024-10-18",
-        "shares": 3210059659
+        "shares": 3210059659.0
       },
       {
         "date": "2025-01-22",
-        "shares": 3216517037
+        "shares": 3216517037.0
       },
       {
         "date": "2025-04-16",
-        "shares": 3220956211
+        "shares": 3220956211.0
       },
       {
         "date": "2025-07-17",
-        "shares": 3225448889
+        "shares": 3225448889.0
       },
       {
         "date": "2025-10-16",
-        "shares": 3325819167
+        "shares": 3325819167.0
       },
       {
         "date": "2026-01-23",
-        "shares": 3752431984
+        "shares": 3752431984.0
       },
       {
         "date": "2026-04-16",
-        "shares": 3755723871
+        "shares": 3755723871.0
       },
       {
         "date": "2026-07-16",
-        "shares": 3949547394
+        "shares": 3949547394.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788771686.5936604,
-    "_updated_label": "2026-09-08 18:23",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3315,7 +3328,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788859435.611091,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MU": {
@@ -3458,55 +3471,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 4010000000.0,
         "netIncome": -1430000000.0,
+        "opIncome": -1472000000.0,
         "endDate": "2023-08-31"
       },
       {
         "period": "Q4'23",
         "revenue": 4726000000.0,
         "netIncome": -1234000000.0,
-        "endDate": "2023-11-30",
-        "opIncome": -1128000000
+        "opIncome": -1128000000.0,
+        "endDate": "2023-11-30"
       },
       {
         "period": "Q1'24",
         "revenue": 5824000000.0,
         "netIncome": 793000000.0,
-        "endDate": "2024-02-29",
-        "opIncome": 191000000
+        "opIncome": 191000000.0,
+        "endDate": "2024-02-29"
       },
       {
         "period": "Q2'24",
         "revenue": 6811000000.0,
         "netIncome": 332000000.0,
-        "endDate": "2024-05-30",
-        "opIncome": 719000000
+        "opIncome": 719000000.0,
+        "endDate": "2024-05-30"
       },
       {
         "period": "Q3'24",
         "revenue": 7750000000.0,
         "netIncome": 887000000.0,
+        "opIncome": 1522000000.0,
         "endDate": "2024-08-29"
       },
       {
         "period": "Q4'24",
         "revenue": 8709000000.0,
         "netIncome": 1870000000.0,
-        "endDate": "2024-11-28",
-        "opIncome": 2174000000
+        "opIncome": 2174000000.0,
+        "endDate": "2024-11-28"
       },
       {
         "period": "Q1'25",
         "revenue": 8053000000.0,
         "netIncome": 1583000000.0,
-        "endDate": "2025-02-27",
-        "opIncome": 1773000000
+        "opIncome": 1773000000.0,
+        "endDate": "2025-02-27"
       },
       {
         "period": "Q2'25",
         "revenue": 9301000000.0,
         "netIncome": 1885000000.0,
+        "opIncome": 2169000000.0,
         "endDate": "2025-05-31",
-        "opIncome": 2169000000,
         "eps": 1.68,
         "ocf": 4609000000.0,
         "capex": -2938000000.0,
@@ -3522,8 +3537,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 11315000000.0,
         "netIncome": 3201000000.0,
+        "opIncome": 3654000000.0,
         "endDate": "2025-08-31",
-        "opIncome": 3693000000.0,
         "eps": 2.83,
         "ocf": 5730000000.0,
         "capex": -5658000000.0,
@@ -3539,8 +3554,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 13643000000.0,
         "netIncome": 5240000000.0,
+        "opIncome": 6136000000.0,
         "endDate": "2025-11-30",
-        "opIncome": 6136000000,
         "eps": 4.6,
         "ocf": 8411000000.0,
         "capex": -5389000000.0,
@@ -3556,8 +3571,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 23860000000.0,
         "netIncome": 13785000000.0,
+        "opIncome": 16135000000.0,
         "endDate": "2026-02-28",
-        "opIncome": 16135000000,
         "eps": 12.07,
         "ocf": 11903000000.0,
         "capex": -6387000000.0,
@@ -3573,8 +3588,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 41456000000.0,
         "netIncome": 28243000000.0,
+        "opIncome": 33318000000.0,
         "endDate": "2026-05-31",
-        "opIncome": 33318000000,
         "eps": 24.67,
         "ocf": 25388000000.0,
         "capex": -7826000000.0,
@@ -3593,105 +3608,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-09",
-        "shares": 1113221799
+        "shares": 1113221799.0
       },
       {
         "date": "2021-01-04",
-        "shares": 1118671492
+        "shares": 1118671492.0
       },
       {
         "date": "2021-03-25",
-        "shares": 1121415561
+        "shares": 1121415561.0
       },
       {
         "date": "2021-06-24",
-        "shares": 1125753560
+        "shares": 1125753560.0
       },
       {
         "date": "2021-10-01",
-        "shares": 1118623738
+        "shares": 1118623738.0
       },
       {
         "date": "2022-01-03",
-        "shares": 1119777110
+        "shares": 1119777110.0
       },
       {
         "date": "2022-03-24",
-        "shares": 1116666857
+        "shares": 1116666857.0
       },
       {
         "date": "2022-06-24",
-        "shares": 1103145108
+        "shares": 1103145108.0
       },
       {
         "date": "2022-09-30",
-        "shares": 1087168584
+        "shares": 1087168584.0
       },
       {
         "date": "2022-12-16",
-        "shares": 1091176552
+        "shares": 1091176552.0
       },
       {
         "date": "2023-03-23",
-        "shares": 1094394354
+        "shares": 1094394354.0
       },
       {
         "date": "2023-06-22",
-        "shares": 1095301608
+        "shares": 1095301608.0
       },
       {
         "date": "2023-09-29",
-        "shares": 1098034471
+        "shares": 1098034471.0
       },
       {
         "date": "2023-12-14",
-        "shares": 1103908880
+        "shares": 1103908880.0
       },
       {
         "date": "2024-03-14",
-        "shares": 1107368110
+        "shares": 1107368110.0
       },
       {
         "date": "2024-06-20",
-        "shares": 1108841326
+        "shares": 1108841326.0
       },
       {
         "date": "2024-09-27",
-        "shares": 1108742682
+        "shares": 1108742682.0
       },
       {
         "date": "2024-12-12",
-        "shares": 1114171932
+        "shares": 1114171932.0
       },
       {
         "date": "2025-03-13",
-        "shares": 1117571525
+        "shares": 1117571525.0
       },
       {
         "date": "2025-06-18",
-        "shares": 1119125101
+        "shares": 1119125101.0
       },
       {
         "date": "2025-09-26",
-        "shares": 1122466035
+        "shares": 1122466035.0
       },
       {
         "date": "2025-12-10",
-        "shares": 1125509261
+        "shares": 1125509261.0
       },
       {
         "date": "2026-03-11",
-        "shares": 1127734051
+        "shares": 1127734051.0
       },
       {
         "date": "2026-06-17",
-        "shares": 1129393151
+        "shares": 1129393151.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788783331.5738776,
-    "_updated_label": "2026-09-08 21:36",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3717,7 +3732,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788871003.6672976,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -3855,55 +3870,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 5800000000,
         "netIncome": 299000000,
-        "endDate": "2023-09-30",
-        "opIncome": 224000000
+        "opIncome": 224000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 6168000000.0,
         "netIncome": 667000000.0,
+        "opIncome": 342000000.0,
         "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
         "revenue": 5473000000.0,
         "netIncome": 123000000.0,
-        "endDate": "2024-03-30",
-        "opIncome": 36000000
+        "opIncome": 36000000.0,
+        "endDate": "2024-03-30"
       },
       {
         "period": "Q2'24",
         "revenue": 5835000000.0,
         "netIncome": 265000000.0,
-        "endDate": "2024-06-29",
-        "opIncome": 269000000
+        "opIncome": 269000000.0,
+        "endDate": "2024-06-29"
       },
       {
         "period": "Q3'24",
         "revenue": 6819000000.0,
         "netIncome": 771000000.0,
-        "endDate": "2024-09-28",
-        "opIncome": 724000000
+        "opIncome": 724000000.0,
+        "endDate": "2024-09-28"
       },
       {
         "period": "Q4'24",
         "revenue": 7658000000.0,
         "netIncome": 482000000.0,
+        "opIncome": 871000000.0,
         "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
         "revenue": 7438000000.0,
         "netIncome": 709000000.0,
-        "endDate": "2025-03-29",
-        "opIncome": 806000000
+        "opIncome": 806000000.0,
+        "endDate": "2025-03-29"
       },
       {
         "period": "Q2'25",
         "revenue": 7685000000.0,
         "netIncome": 872000000.0,
+        "opIncome": -134000000.0,
         "endDate": "2025-06-30",
-        "opIncome": -134000000,
         "eps": 0.54,
         "ocf": 2011000000.0,
         "capex": -282000000.0,
@@ -3919,8 +3936,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 9246000000.0,
         "netIncome": 1243000000.0,
+        "opIncome": 1270000000.0,
         "endDate": "2025-09-30",
-        "opIncome": 1270000000,
         "eps": 0.75,
         "ocf": 2159000000.0,
         "capex": -258000000.0,
@@ -3936,8 +3953,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 10270000000.0,
         "netIncome": 1511000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 1752000000.0,
+        "endDate": "2025-12-31",
         "eps": 0.92,
         "ocf": 2600000000.0,
         "capex": -222000000.0,
@@ -3953,8 +3970,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 10253000000.0,
         "netIncome": 1383000000.0,
+        "opIncome": 1476000000.0,
         "endDate": "2026-03-31",
-        "opIncome": 1476000000,
         "eps": 0.84,
         "ocf": 2955000000.0,
         "capex": -389000000.0,
@@ -3991,105 +4008,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 1202711638
+        "shares": 1202711638.0
       },
       {
         "date": "2021-01-22",
-        "shares": 1211280009
+        "shares": 1211280009.0
       },
       {
         "date": "2021-04-23",
-        "shares": 1215020976
+        "shares": 1215020976.0
       },
       {
         "date": "2021-07-23",
-        "shares": 1212965282
+        "shares": 1212965282.0
       },
       {
         "date": "2021-10-22",
-        "shares": 1207610455
+        "shares": 1207610455.0
       },
       {
         "date": "2022-01-28",
-        "shares": 1199303422
+        "shares": 1199303422.0
       },
       {
         "date": "2022-04-27",
-        "shares": 1620507904
+        "shares": 1620507904.0
       },
       {
         "date": "2022-07-28",
-        "shares": 1614320900
+        "shares": 1614320900.0
       },
       {
         "date": "2022-10-28",
-        "shares": 1612356162
+        "shares": 1612356162.0
       },
       {
         "date": "2023-02-22",
-        "shares": 1611388217
+        "shares": 1611388217.0
       },
       {
         "date": "2023-04-28",
-        "shares": 1610361870
+        "shares": 1610361870.0
       },
       {
         "date": "2023-07-28",
-        "shares": 1615671380
+        "shares": 1615671380.0
       },
       {
         "date": "2023-10-27",
-        "shares": 1615498891
+        "shares": 1615498891.0
       },
       {
         "date": "2024-01-25",
-        "shares": 1615786841
+        "shares": 1615786841.0
       },
       {
         "date": "2024-04-25",
-        "shares": 1616313871
+        "shares": 1616313871.0
       },
       {
         "date": "2024-07-24",
-        "shares": 1618481845
+        "shares": 1618481845.0
       },
       {
         "date": "2024-10-23",
-        "shares": 1622807346
+        "shares": 1622807346.0
       },
       {
         "date": "2025-01-30",
-        "shares": 1620477962
+        "shares": 1620477962.0
       },
       {
         "date": "2025-05-01",
-        "shares": 1621404195
+        "shares": 1621404195.0
       },
       {
         "date": "2025-07-30",
-        "shares": 1622843689
+        "shares": 1622843689.0
       },
       {
         "date": "2025-10-30",
-        "shares": 1628041540
+        "shares": 1628041540.0
       },
       {
         "date": "2026-01-30",
-        "shares": 1630410843
+        "shares": 1630410843.0
       },
       {
         "date": "2026-04-29",
-        "shares": 1630600639
+        "shares": 1630600639.0
       },
       {
         "date": "2026-07-29",
-        "shares": 1632475042
+        "shares": 1632475042.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788785177.5628808,
-    "_updated_label": "2026-09-08 22:00",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4115,7 +4132,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788872420.8667676,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "INTC": {
@@ -4250,55 +4267,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 14158000000,
         "netIncome": 297000000,
-        "endDate": "2023-09-30",
-        "opIncome": -8000000
+        "opIncome": -8000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 15406000000.0,
         "netIncome": 2669000000.0,
+        "opIncome": 2585000000.0,
         "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
         "revenue": 12724000000.0,
         "netIncome": -381000000.0,
-        "endDate": "2024-03-30",
-        "opIncome": -1069000000
+        "opIncome": -1069000000.0,
+        "endDate": "2024-03-30"
       },
       {
         "period": "Q2'24",
         "revenue": 12833000000.0,
         "netIncome": -1610000000.0,
-        "endDate": "2024-06-29",
-        "opIncome": -1964000000
+        "opIncome": -1964000000.0,
+        "endDate": "2024-06-29"
       },
       {
         "period": "Q3'24",
         "revenue": 13284000000.0,
         "netIncome": -16639000000.0,
-        "endDate": "2024-09-28",
-        "opIncome": -9057000000
+        "opIncome": -9057000000.0,
+        "endDate": "2024-09-28"
       },
       {
         "period": "Q4'24",
         "revenue": 14260000000.0,
         "netIncome": -126000000.0,
+        "opIncome": 412000000.0,
         "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
         "revenue": 12667000000.0,
         "netIncome": -821000000.0,
-        "endDate": "2025-03-29",
-        "opIncome": -301000000
+        "opIncome": -301000000.0,
+        "endDate": "2025-03-29"
       },
       {
         "period": "Q2'25",
         "revenue": 12859000000.0,
         "netIncome": -2918000000.0,
+        "opIncome": -3176000000.0,
         "endDate": "2025-06-30",
-        "opIncome": -3176000000,
         "eps": -0.67,
         "ocf": 2050000000.0,
         "capex": -3550000000.0,
@@ -4317,8 +4336,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 13653000000.0,
         "netIncome": 4063000000.0,
+        "opIncome": 683000000.0,
         "endDate": "2025-09-30",
-        "opIncome": 683000000,
         "eps": 0.9,
         "ocf": 2546000000.0,
         "capex": -2425000000.0,
@@ -4337,8 +4356,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 13674000000.0,
         "netIncome": -591000000.0,
+        "opIncome": 580000000.0,
         "endDate": "2025-12-31",
-        "opIncome": 550000000.0,
         "eps": -0.12,
         "ocf": 4288000000.0,
         "capex": -3488000000.0,
@@ -4357,8 +4376,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 13577000000.0,
         "netIncome": -3728000000.0,
+        "opIncome": -3136000000.0,
         "endDate": "2026-03-31",
-        "opIncome": -3136000000,
         "eps": -0.73,
         "ocf": 1096000000.0,
         "capex": -3636000000.0,
@@ -4401,105 +4420,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-09-26",
-        "shares": 4098000000
+        "shares": 4098000000.0
       },
       {
         "date": "2021-01-15",
-        "shares": 4063000000
+        "shares": 4063000000.0
       },
       {
         "date": "2021-03-27",
-        "shares": 4038000000
+        "shares": 4038000000.0
       },
       {
         "date": "2021-06-26",
-        "shares": 4057000000
+        "shares": 4057000000.0
       },
       {
         "date": "2021-09-25",
-        "shares": 4067000000
+        "shares": 4067000000.0
       },
       {
         "date": "2022-01-21",
-        "shares": 4072000000
+        "shares": 4072000000.0
       },
       {
         "date": "2022-04-02",
-        "shares": 4089000000
+        "shares": 4089000000.0
       },
       {
         "date": "2022-07-02",
-        "shares": 4106000000
+        "shares": 4106000000.0
       },
       {
         "date": "2022-10-01",
-        "shares": 4127000000
+        "shares": 4127000000.0
       },
       {
         "date": "2023-01-20",
-        "shares": 4137000000
+        "shares": 4137000000.0
       },
       {
         "date": "2023-04-21",
-        "shares": 4171000000
+        "shares": 4171000000.0
       },
       {
         "date": "2023-07-21",
-        "shares": 4188000000
+        "shares": 4188000000.0
       },
       {
         "date": "2023-10-20",
-        "shares": 4216000000
+        "shares": 4216000000.0
       },
       {
         "date": "2024-01-19",
-        "shares": 4228000000
+        "shares": 4228000000.0
       },
       {
         "date": "2024-04-19",
-        "shares": 4257000000
+        "shares": 4257000000.0
       },
       {
         "date": "2024-07-26",
-        "shares": 4276000000
+        "shares": 4276000000.0
       },
       {
         "date": "2024-10-25",
-        "shares": 4313000000
+        "shares": 4313000000.0
       },
       {
         "date": "2025-01-24",
-        "shares": 4330000000
+        "shares": 4330000000.0
       },
       {
         "date": "2025-04-18",
-        "shares": 4362000000
+        "shares": 4362000000.0
       },
       {
         "date": "2025-07-18",
-        "shares": 4377000000
+        "shares": 4377000000.0
       },
       {
         "date": "2025-10-17",
-        "shares": 4770000000
+        "shares": 4770000000.0
       },
       {
         "date": "2026-01-16",
-        "shares": 4995000000
+        "shares": 4995000000.0
       },
       {
         "date": "2026-04-17",
-        "shares": 5026000000
+        "shares": 5026000000.0
       },
       {
         "date": "2026-07-17",
-        "shares": 5044000000
+        "shares": 5044000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788783331.5738776,
-    "_updated_label": "2026-09-08 21:36",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4525,7 +4544,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788871003.6672976,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -4660,48 +4679,50 @@ const FINANCIALS_DATA = {
         "period": "Q4'23",
         "revenue": 6723000000.0,
         "netIncome": 2004000000.0,
+        "opIncome": 1971000000.0,
         "endDate": "2023-10-29"
       },
       {
         "period": "Q1'24",
         "revenue": 6707000000.0,
         "netIncome": 2019000000.0,
-        "endDate": "2024-01-28",
-        "opIncome": 1967000000
+        "opIncome": 1967000000.0,
+        "endDate": "2024-01-28"
       },
       {
         "period": "Q2'24",
         "revenue": 6646000000.0,
         "netIncome": 1722000000.0,
-        "endDate": "2024-04-28",
-        "opIncome": 1912000000
+        "opIncome": 1912000000.0,
+        "endDate": "2024-04-28"
       },
       {
         "period": "Q3'24",
         "revenue": 6778000000.0,
         "netIncome": 1705000000.0,
-        "endDate": "2024-07-28",
-        "opIncome": 1942000000
+        "opIncome": 1942000000.0,
+        "endDate": "2024-07-28"
       },
       {
         "period": "Q4'24",
         "revenue": 7045000000.0,
         "netIncome": 1731000000.0,
+        "opIncome": 2046000000.0,
         "endDate": "2024-10-27"
       },
       {
         "period": "Q1'25",
         "revenue": 7166000000.0,
         "netIncome": 1185000000.0,
-        "endDate": "2025-01-26",
-        "opIncome": 2175000000
+        "opIncome": 2175000000.0,
+        "endDate": "2025-01-26"
       },
       {
         "period": "Q2'25",
         "revenue": 7100000000.0,
         "netIncome": 2137000000.0,
+        "opIncome": 2169000000.0,
         "endDate": "2025-04-30",
-        "opIncome": 2169000000,
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
         "specialIncomeCharges": 0.0,
@@ -4711,8 +4732,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 7302000000.0,
         "netIncome": 1779000000.0,
+        "opIncome": 2233000000.0,
         "endDate": "2025-07-31",
-        "opIncome": 2233000000,
         "eps": 2.22,
         "ocf": 2634000000.0,
         "capex": -584000000.0,
@@ -4731,8 +4752,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 6800000000.0,
         "netIncome": 1897000000.0,
+        "opIncome": 1712000000.0,
         "endDate": "2025-10-31",
-        "opIncome": 1893000000.0,
         "eps": 2.38,
         "ocf": 2828000000.0,
         "capex": -785000000.0,
@@ -4747,8 +4768,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 7012000000.0,
         "netIncome": 2026000000.0,
+        "opIncome": 1831000000.0,
         "endDate": "2026-01-31",
-        "opIncome": 1831000000,
         "eps": 2.54,
         "ocf": 1686000000.0,
         "capex": -646000000.0,
@@ -4767,8 +4788,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 7910000000.0,
         "netIncome": 2806000000.0,
+        "opIncome": 2523000000.0,
         "endDate": "2026-04-30",
-        "opIncome": 2523000000,
         "eps": 3.51,
         "ocf": 845000000.0,
         "capex": -635000000.0,
@@ -4811,105 +4832,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-12-04",
-        "shares": 914344189
+        "shares": 914344189.0
       },
       {
         "date": "2021-01-31",
-        "shares": 917660832
+        "shares": 917660832.0
       },
       {
         "date": "2021-05-02",
-        "shares": 913980756
+        "shares": 913980756.0
       },
       {
         "date": "2021-08-01",
-        "shares": 902928500
+        "shares": 902928500.0
       },
       {
         "date": "2021-12-10",
-        "shares": 888513248
+        "shares": 888513248.0
       },
       {
         "date": "2022-01-30",
-        "shares": 883394639
+        "shares": 883394639.0
       },
       {
         "date": "2022-05-01",
-        "shares": 869947277
+        "shares": 869947277.0
       },
       {
         "date": "2022-07-31",
-        "shares": 860309377
+        "shares": 860309377.0
       },
       {
         "date": "2022-12-09",
-        "shares": 844139722
+        "shares": 844139722.0
       },
       {
         "date": "2023-01-29",
-        "shares": 845118427
+        "shares": 845118427.0
       },
       {
         "date": "2023-04-30",
-        "shares": 839747415
+        "shares": 839747415.0
       },
       {
         "date": "2023-07-30",
-        "shares": 836533852
+        "shares": 836533852.0
       },
       {
         "date": "2023-12-08",
-        "shares": 831067105
+        "shares": 831067105.0
       },
       {
         "date": "2024-01-28",
-        "shares": 830897356
+        "shares": 830897356.0
       },
       {
         "date": "2024-04-28",
-        "shares": 827974828
+        "shares": 827974828.0
       },
       {
         "date": "2024-07-28",
-        "shares": 824404088
+        "shares": 824404088.0
       },
       {
         "date": "2024-12-06",
-        "shares": 813684638
+        "shares": 813684638.0
       },
       {
         "date": "2025-01-26",
-        "shares": 812440849
+        "shares": 812440849.0
       },
       {
         "date": "2025-04-27",
-        "shares": 802498217
+        "shares": 802498217.0
       },
       {
         "date": "2025-07-27",
-        "shares": 796642427
+        "shares": 796642427.0
       },
       {
         "date": "2025-12-05",
-        "shares": 792943366
+        "shares": 792943366.0
       },
       {
         "date": "2026-01-25",
-        "shares": 793609867
+        "shares": 793609867.0
       },
       {
         "date": "2026-04-26",
-        "shares": 793959430
+        "shares": 793959430.0
       },
       {
         "date": "2026-07-26",
-        "shares": 793597443
+        "shares": 793597443.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788785177.5628808,
-    "_updated_label": "2026-09-08 22:00",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4935,7 +4956,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788872420.8667676,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QQQ": {
@@ -4943,16 +4964,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02"
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:45"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02"
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:45"
   },
   "ORCL": {
     "annual": [
@@ -5088,22 +5109,22 @@ const FINANCIALS_DATA = {
         "period": "Q1'23",
         "revenue": 12398000000.0,
         "netIncome": 1896000000,
-        "endDate": "2023-02-28",
-        "opIncome": 3260000000
+        "opIncome": 3260000000,
+        "endDate": "2023-02-28"
       },
       {
         "period": "Q3'23",
         "revenue": 12453000000.0,
         "netIncome": 2420000000.0,
-        "endDate": "2023-08-31",
-        "opIncome": 3296000000
+        "opIncome": 3296000000,
+        "endDate": "2023-08-31"
       },
       {
         "period": "Q4'23",
         "revenue": 12941000000.0,
         "netIncome": 2503000000.0,
-        "endDate": "2023-11-30",
-        "opIncome": 3622000000
+        "opIncome": 3622000000,
+        "endDate": "2023-11-30"
       },
       {
         "period": "Q1'24",
@@ -5116,30 +5137,30 @@ const FINANCIALS_DATA = {
         "period": "Q3'24",
         "revenue": 13307000000.0,
         "netIncome": 2929000000.0,
-        "endDate": "2024-08-31",
-        "opIncome": 3991000000
+        "opIncome": 3991000000,
+        "endDate": "2024-08-31"
       },
       {
         "period": "Q4'24",
         "revenue": 14059000000.0,
         "netIncome": 3151000000.0,
-        "endDate": "2024-11-30",
-        "opIncome": 4220000000
+        "opIncome": 4220000000,
+        "endDate": "2024-11-30"
       },
       {
         "period": "Q1'25",
         "revenue": 14130000000.0,
         "netIncome": 2936000000.0,
-        "endDate": "2025-02-28",
         "opIncome": 4358000000,
+        "endDate": "2025-02-28",
         "eps": 1.02
       },
       {
         "period": "Q2'25",
         "revenue": 15903000000.0,
         "netIncome": 3427000000.0,
+        "opIncome": 5109000000,
         "endDate": "2025-05-31",
-        "opIncome": 5191000000.0,
         "ocf": 6157000000.0,
         "capex": -9080000000.0,
         "fcf": -2923000000.0,
@@ -5158,8 +5179,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 14926000000.0,
         "netIncome": 2927000000.0,
-        "endDate": "2025-08-31",
         "opIncome": 4277000000,
+        "endDate": "2025-08-31",
         "eps": 1.01,
         "ocf": 8140000000.0,
         "capex": -8502000000.0,
@@ -5179,8 +5200,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 16058000000,
         "netIncome": 6135000000.0,
-        "endDate": "2025-11-30",
         "opIncome": 4731000000,
+        "endDate": "2025-11-30",
         "eps": 2.1,
         "ocf": 2066000000.0,
         "capex": -12033000000.0,
@@ -5200,8 +5221,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 17190000000.0,
         "netIncome": 3721000000.0,
-        "endDate": "2026-02-28",
         "opIncome": 5464000000,
+        "endDate": "2026-02-28",
         "eps": 1.27,
         "ocf": 7151000000.0,
         "capex": -18635000000.0,
@@ -5221,8 +5242,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 19184000000.0,
         "netIncome": 4304000000.0,
+        "opIncome": 6133000000,
         "endDate": "2026-05-31",
-        "opIncome": 6955000000.0,
         "eps": 1.45,
         "ocf": 14620000000.0,
         "capex": -16493000000.0,
@@ -5246,105 +5267,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-09-04",
-        "shares": 3007161000
+        "shares": 3007161000.0
       },
       {
         "date": "2020-12-04",
-        "shares": 2944034000
+        "shares": 2944034000.0
       },
       {
         "date": "2021-03-05",
-        "shares": 2883535000
+        "shares": 2883535000.0
       },
       {
         "date": "2021-06-15",
-        "shares": 2792000000
+        "shares": 2792000000.0
       },
       {
         "date": "2021-09-06",
-        "shares": 2738179000
+        "shares": 2738179000.0
       },
       {
         "date": "2021-12-06",
-        "shares": 2670447000
+        "shares": 2670447000.0
       },
       {
         "date": "2022-03-07",
-        "shares": 2668157000
+        "shares": 2668157000.0
       },
       {
         "date": "2022-06-13",
-        "shares": 2664926000
+        "shares": 2664926000.0
       },
       {
         "date": "2022-09-08",
-        "shares": 2695653000
+        "shares": 2695653000.0
       },
       {
         "date": "2022-12-07",
-        "shares": 2696253000
+        "shares": 2696253000.0
       },
       {
         "date": "2023-03-06",
-        "shares": 2699802000
+        "shares": 2699802000.0
       },
       {
         "date": "2023-06-12",
-        "shares": 2714259000
+        "shares": 2714259000.0
       },
       {
         "date": "2023-09-07",
-        "shares": 2739821000
+        "shares": 2739821000.0
       },
       {
         "date": "2023-12-07",
-        "shares": 2748922000
+        "shares": 2748922000.0
       },
       {
         "date": "2024-03-07",
-        "shares": 2748514000
+        "shares": 2748514000.0
       },
       {
         "date": "2024-06-13",
-        "shares": 2755860000
+        "shares": 2755860000.0
       },
       {
         "date": "2024-09-06",
-        "shares": 2770968000
+        "shares": 2770968000.0
       },
       {
         "date": "2024-12-06",
-        "shares": 2796956000
+        "shares": 2796956000.0
       },
       {
         "date": "2025-03-07",
-        "shares": 2804234000
+        "shares": 2804234000.0
       },
       {
         "date": "2025-06-13",
-        "shares": 2808833000
+        "shares": 2808833000.0
       },
       {
         "date": "2025-09-05",
-        "shares": 2841714000
+        "shares": 2841714000.0
       },
       {
         "date": "2025-12-05",
-        "shares": 2873130000
+        "shares": 2873130000.0
       },
       {
         "date": "2026-03-05",
-        "shares": 2876046000
+        "shares": 2876046000.0
       },
       {
         "date": "2026-06-12",
-        "shares": 2880471000
+        "shares": 2880471000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788777551.5434163,
-    "_updated_label": "2026-09-08 19:58",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5370,7 +5391,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788865112.9502063,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CRM": {
@@ -5509,56 +5530,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 8603000000.0,
         "netIncome": 1267000000.0,
-        "endDate": "2023-07-31",
-        "opIncome": 1476000000
+        "opIncome": 1476000000,
+        "endDate": "2023-07-31"
       },
       {
         "period": "Q4'23",
         "revenue": 8720000000.0,
         "netIncome": 1224000000.0,
-        "endDate": "2023-10-31",
-        "opIncome": 1501000000
+        "opIncome": 1501000000,
+        "endDate": "2023-10-31"
       },
       {
         "period": "Q1'24",
         "revenue": 9287000000.0,
         "netIncome": 1446000000.0,
+        "opIncome": 1622000000,
         "endDate": "2024-01-31"
       },
       {
         "period": "Q2'24",
         "revenue": 9133000000.0,
         "netIncome": 1533000000.0,
-        "endDate": "2024-04-30",
-        "opIncome": 1709000000
+        "opIncome": 1709000000,
+        "endDate": "2024-04-30"
       },
       {
         "period": "Q3'24",
         "revenue": 9325000000.0,
         "netIncome": 1429000000.0,
-        "endDate": "2024-07-31",
-        "opIncome": 1783000000
+        "opIncome": 1783000000,
+        "endDate": "2024-07-31"
       },
       {
         "period": "Q4'24",
         "revenue": 9444000000.0,
         "netIncome": 1527000000.0,
-        "endDate": "2024-10-31",
-        "opIncome": 1893000000
+        "opIncome": 1893000000,
+        "endDate": "2024-10-31"
       },
       {
         "period": "Q2'25",
         "revenue": 9829000000.0,
         "netIncome": 1541000000.0,
-        "endDate": "2025-04-30",
-        "opIncome": 1942000000
+        "opIncome": 1942000000,
+        "endDate": "2025-04-30"
       },
       {
         "period": "Q3'25",
         "revenue": 10236000000.0,
         "netIncome": 1887000000.0,
-        "endDate": "2025-07-31",
         "opIncome": 2332000000,
+        "endDate": "2025-07-31",
         "eps": 1.96,
         "ocf": 740000000.0,
         "capex": -135000000.0,
@@ -5578,8 +5600,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 10259000000.0,
         "netIncome": 2086000000.0,
-        "endDate": "2025-10-31",
         "opIncome": 2188000000,
+        "endDate": "2025-10-31",
         "eps": 2.19,
         "ocf": 2316000000.0,
         "capex": -139000000.0,
@@ -5599,8 +5621,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 13623000000.0,
         "netIncome": 2968000000.0,
+        "opIncome": 2946000000,
         "endDate": "2026-01-31",
-        "opIncome": 2155000000.0,
         "eps": 2.07,
         "ocf": 5464000000.0,
         "capex": -141000000.0,
@@ -5620,8 +5642,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 11133000000.0,
         "netIncome": 2107000000.0,
-        "endDate": "2026-04-30",
         "opIncome": 2347000000,
+        "endDate": "2026-04-30",
         "eps": 2.42,
         "ocf": 6701000000.0,
         "capex": -145000000.0,
@@ -5665,105 +5687,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-12-01",
-        "shares": 915000000
+        "shares": 915000000.0
       },
       {
         "date": "2021-03-15",
-        "shares": 921000000
+        "shares": 921000000.0
       },
       {
         "date": "2021-05-27",
-        "shares": 926000000
+        "shares": 926000000.0
       },
       {
         "date": "2021-08-25",
-        "shares": 979000000
+        "shares": 979000000.0
       },
       {
         "date": "2021-11-30",
-        "shares": 985000000
+        "shares": 985000000.0
       },
       {
         "date": "2022-03-01",
-        "shares": 990000000
+        "shares": 990000000.0
       },
       {
         "date": "2022-05-31",
-        "shares": 995000000
+        "shares": 995000000.0
       },
       {
         "date": "2022-08-24",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2022-11-29",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2023-03-07",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2023-05-30",
-        "shares": 974000000
+        "shares": 974000000.0
       },
       {
         "date": "2023-08-28",
-        "shares": 973000000
+        "shares": 973000000.0
       },
       {
         "date": "2023-11-27",
-        "shares": 968000000
+        "shares": 968000000.0
       },
       {
         "date": "2024-02-29",
-        "shares": 970000000
+        "shares": 970000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 969000000
+        "shares": 969000000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 956000000
+        "shares": 956000000.0
       },
       {
         "date": "2024-11-27",
-        "shares": 957000000
+        "shares": 957000000.0
       },
       {
         "date": "2025-02-28",
-        "shares": 961000000
+        "shares": 961000000.0
       },
       {
         "date": "2025-05-22",
-        "shares": 956000000
+        "shares": 956000000.0
       },
       {
         "date": "2025-08-28",
-        "shares": 952000000
+        "shares": 952000000.0
       },
       {
         "date": "2025-11-28",
-        "shares": 937000000
+        "shares": 937000000.0
       },
       {
         "date": "2026-02-25",
-        "shares": 923000000
+        "shares": 923000000.0
       },
       {
         "date": "2026-05-21",
-        "shares": 819000000
+        "shares": 819000000.0
       },
       {
         "date": "2026-08-20",
-        "shares": 823000000
+        "shares": 823000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788783331.5738776,
-    "_updated_label": "2026-09-08 21:36",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5789,7 +5811,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788871003.6672976,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PLTR": {
@@ -5910,55 +5932,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 558159000,
         "netIncome": 71505000,
-        "endDate": "2023-09-30",
-        "opIncome": 39983000
+        "opIncome": 39983000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 608350000,
         "netIncome": 93391000,
+        "opIncome": 65794000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 634338000,
         "netIncome": 105530000,
-        "endDate": "2024-03-31",
-        "opIncome": 80881000
+        "opIncome": 80881000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 678134000,
         "netIncome": 134126000,
-        "endDate": "2024-06-30",
-        "opIncome": 105339000
+        "opIncome": 105339000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 725516000,
         "netIncome": 143525000,
-        "endDate": "2024-09-30",
-        "opIncome": 113140000
+        "opIncome": 113140000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 827519000,
         "netIncome": 79009000,
+        "opIncome": 11043000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 883855000,
         "netIncome": 214031000,
-        "endDate": "2025-03-31",
-        "opIncome": 176048000
+        "opIncome": 176048000,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 1003697000,
         "netIncome": 326727000,
-        "endDate": "2025-06-30",
         "opIncome": 269317000,
+        "endDate": "2025-06-30",
         "eps": 0.13019,
         "ocf": 539251000.0,
         "capex": -7634000.0,
@@ -5974,8 +5998,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 1181092000,
         "netIncome": 475599000,
-        "endDate": "2025-09-30",
         "opIncome": 393256000,
+        "endDate": "2025-09-30",
         "eps": 0.180263,
         "ocf": 507664000.0,
         "capex": -6792000.0,
@@ -5991,8 +6015,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 1406802000,
         "netIncome": 608676000,
+        "opIncome": 575394000,
         "endDate": "2025-12-31",
-        "opIncome": 575394000.0,
         "eps": 0.24,
         "ocf": 777295000.0,
         "capex": -13272000.0,
@@ -6008,8 +6032,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 1632583000,
         "netIncome": 870527000,
-        "endDate": "2026-03-31",
         "opIncome": 753998000,
+        "endDate": "2026-03-31",
         "eps": 0.34,
         "ocf": 899165000.0,
         "capex": -7401000.0,
@@ -6043,9 +6067,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788771686.5936604,
-    "_updated_label": "2026-09-08 18:23",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6071,7 +6095,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788859435.611091,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QCOM": {
@@ -6207,55 +6231,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 8631000000.0,
         "netIncome": 1490000000.0,
+        "opIncome": 1410000000,
         "endDate": "2023-09-24"
       },
       {
         "period": "Q4'23",
         "revenue": 9935000000.0,
         "netIncome": 2767000000.0,
-        "endDate": "2023-12-24",
-        "opIncome": 2928000000
+        "opIncome": 2928000000,
+        "endDate": "2023-12-24"
       },
       {
         "period": "Q1'24",
         "revenue": 9389000000,
         "netIncome": 2326000000.0,
-        "endDate": "2024-03-24",
-        "opIncome": 2340000000
+        "opIncome": 2340000000,
+        "endDate": "2024-03-24"
       },
       {
         "period": "Q2'24",
         "revenue": 9393000000.0,
         "netIncome": 2129000000.0,
-        "endDate": "2024-06-23",
-        "opIncome": 2221000000
+        "opIncome": 2221000000,
+        "endDate": "2024-06-23"
       },
       {
         "period": "Q3'24",
         "revenue": 10244000000.0,
         "netIncome": 2920000000.0,
+        "opIncome": 2582000000,
         "endDate": "2024-09-29"
       },
       {
         "period": "Q4'24",
         "revenue": 11669000000.0,
         "netIncome": 3180000000.0,
-        "endDate": "2024-12-29",
-        "opIncome": 3555000000
+        "opIncome": 3555000000,
+        "endDate": "2024-12-29"
       },
       {
         "period": "Q1'25",
         "revenue": 10979000000,
         "netIncome": 2812000000.0,
-        "endDate": "2025-03-30",
-        "opIncome": 3120000000
+        "opIncome": 3120000000,
+        "endDate": "2025-03-30"
       },
       {
         "period": "Q2'25",
         "revenue": 10365000000,
         "netIncome": 2666000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 2762000000,
+        "endDate": "2025-06-30",
         "eps": 2.43,
         "ocf": 2875000000.0,
         "capex": -294000000.0,
@@ -6274,8 +6300,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 11271000000.0,
         "netIncome": -3117000000.0,
+        "opIncome": 2918000000,
         "endDate": "2025-09-30",
-        "opIncome": 2957000000.0,
         "eps": -2.89,
         "ocf": 3996000000.0,
         "capex": -407000000.0,
@@ -6294,8 +6320,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 12252000000.0,
         "netIncome": 3004000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 3366000000,
+        "endDate": "2025-12-31",
         "eps": 2.78,
         "ocf": 4965000000.0,
         "capex": -549000000.0,
@@ -6314,8 +6340,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 10599000000.0,
         "netIncome": 7370000000,
-        "endDate": "2026-03-31",
         "opIncome": 2309000000,
+        "endDate": "2026-03-31",
         "eps": 6.88,
         "ocf": 2449000000.0,
         "capex": -533000000.0,
@@ -6358,105 +6384,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-02",
-        "shares": 1131000000
+        "shares": 1131000000.0
       },
       {
         "date": "2021-02-01",
-        "shares": 1136000000
+        "shares": 1136000000.0
       },
       {
         "date": "2021-04-26",
-        "shares": 1128000000
+        "shares": 1128000000.0
       },
       {
         "date": "2021-07-26",
-        "shares": 1128000000
+        "shares": 1128000000.0
       },
       {
         "date": "2021-11-01",
-        "shares": 1120000000
+        "shares": 1120000000.0
       },
       {
         "date": "2022-01-31",
-        "shares": 1127000000
+        "shares": 1127000000.0
       },
       {
         "date": "2022-04-25",
-        "shares": 1120000000
+        "shares": 1120000000.0
       },
       {
         "date": "2022-07-25",
-        "shares": 1123000000
+        "shares": 1123000000.0
       },
       {
         "date": "2022-10-31",
-        "shares": 1121000000
+        "shares": 1121000000.0
       },
       {
         "date": "2023-01-31",
-        "shares": 1115000000
+        "shares": 1115000000.0
       },
       {
         "date": "2023-05-01",
-        "shares": 1114000000
+        "shares": 1114000000.0
       },
       {
         "date": "2023-07-31",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2023-10-30",
-        "shares": 1113000000
+        "shares": 1113000000.0
       },
       {
         "date": "2024-01-29",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2024-04-29",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2024-07-29",
-        "shares": 1114000000
+        "shares": 1114000000.0
       },
       {
         "date": "2024-11-04",
-        "shares": 1111000000
+        "shares": 1111000000.0
       },
       {
         "date": "2025-02-03",
-        "shares": 1106000000
+        "shares": 1106000000.0
       },
       {
         "date": "2025-04-28",
-        "shares": 1098000000
+        "shares": 1098000000.0
       },
       {
         "date": "2025-07-28",
-        "shares": 1079000000
+        "shares": 1079000000.0
       },
       {
         "date": "2025-11-03",
-        "shares": 1071000000
+        "shares": 1071000000.0
       },
       {
         "date": "2026-02-02",
-        "shares": 1067000000
+        "shares": 1067000000.0
       },
       {
         "date": "2026-04-27",
-        "shares": 1054000000
+        "shares": 1054000000.0
       },
       {
         "date": "2026-07-27",
-        "shares": 1050000000
+        "shares": 1050000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788787082.5375223,
-    "_updated_label": "2026-09-08 22:38",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6482,7 +6508,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788874693.6896138,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ARM": {
@@ -6734,9 +6760,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788781260.575283,
-    "_updated_label": "2026-09-08 21:00",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6762,7 +6788,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788868819.510369
+    "_yahoo_verified_at": 1788943095.0431075
   },
   "MRVL": {
     "annual": [
@@ -6897,55 +6923,57 @@ const FINANCIALS_DATA = {
         "period": "Q4'23",
         "revenue": 1418600000.0,
         "netIncome": -164300000.0,
-        "endDate": "2023-10-28",
-        "opIncome": -146300000
+        "opIncome": -146300000,
+        "endDate": "2023-10-28"
       },
       {
         "period": "Q1'24",
         "revenue": 1426500000.0,
         "netIncome": -392700000.0,
+        "opIncome": -33300000,
         "endDate": "2024-02-03"
       },
       {
         "period": "Q2'24",
         "revenue": 1160900000.0,
         "netIncome": -215600000.0,
-        "endDate": "2024-05-04",
-        "opIncome": -152300000
+        "opIncome": -152300000,
+        "endDate": "2024-05-04"
       },
       {
         "period": "Q3'24",
         "revenue": 1272900000.0,
         "netIncome": -193300000.0,
-        "endDate": "2024-08-03",
-        "opIncome": -100400000
+        "opIncome": -100400000,
+        "endDate": "2024-08-03"
       },
       {
         "period": "Q4'24",
         "revenue": 1516100000.0,
         "netIncome": -676300000.0,
-        "endDate": "2024-11-02",
-        "opIncome": -702800000
+        "opIncome": -702800000,
+        "endDate": "2024-11-02"
       },
       {
         "period": "Q1'25",
         "revenue": 1817400000.0,
         "netIncome": 200200000.0,
+        "opIncome": 235200000,
         "endDate": "2025-02-01"
       },
       {
         "period": "Q2'25",
         "revenue": 1895300000.0,
         "netIncome": 177900000.0,
-        "endDate": "2025-05-03",
-        "opIncome": 270600000
+        "opIncome": 270600000,
+        "endDate": "2025-05-03"
       },
       {
         "period": "Q3'25",
         "revenue": 2006100000.0,
         "netIncome": 194800000.0,
-        "endDate": "2025-07-31",
         "opIncome": 290100000,
+        "endDate": "2025-07-31",
         "eps": 0.22,
         "ocf": 461600000.0,
         "capex": -48600000.0,
@@ -6964,8 +6992,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2074500000.0,
         "netIncome": 1901300000.0,
-        "endDate": "2025-10-31",
         "opIncome": 357800000,
+        "endDate": "2025-10-31",
         "eps": 2.2,
         "ocf": 582300000.0,
         "capex": -74700000.0,
@@ -6984,8 +7012,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 2218700000.0,
         "netIncome": 396100000.0,
+        "opIncome": 404400000,
         "endDate": "2026-01-31",
-        "opIncome": 413900000.0,
         "eps": 0.46,
         "ocf": 373700000.0,
         "capex": -115400000.0,
@@ -7004,8 +7032,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 2417800000.0,
         "netIncome": 34500000.0,
-        "endDate": "2026-04-30",
         "opIncome": 339400000,
+        "endDate": "2026-04-30",
         "eps": 0.04,
         "ocf": 638800000.0,
         "capex": -156200000.0,
@@ -7136,9 +7164,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:46",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7164,7 +7192,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788940941.326191,
+    "_yahoo_verified_at": 1788943567.120046,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -7416,9 +7444,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788771686.5936604,
-    "_updated_label": "2026-09-08 18:24",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7444,7 +7472,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788859435.611091
+    "_yahoo_verified_at": 1788943095.0431075
   },
   "LRCX": {
     "annual": [
@@ -7581,42 +7609,43 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 3482062000.0,
         "netIncome": 887398000.0,
-        "endDate": "2023-09-24",
-        "opIncome": 1023029000
+        "opIncome": 1023029000,
+        "endDate": "2023-09-24"
       },
       {
         "period": "Q4'23",
         "revenue": 3758259000.0,
         "netIncome": 954266000.0,
-        "endDate": "2023-12-24",
-        "opIncome": 1057212000
+        "opIncome": 1057212000,
+        "endDate": "2023-12-24"
       },
       {
         "period": "Q1'24",
         "revenue": 3793558000.0,
         "netIncome": 965826000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 1057112000
+        "opIncome": 1057112000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 3871507000.0,
         "netIncome": 1020282000.0,
+        "opIncome": 1126560000,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 4167976000.0,
         "netIncome": 1116444000.0,
-        "endDate": "2024-09-29",
-        "opIncome": 1264197000
+        "opIncome": 1264197000,
+        "endDate": "2024-09-29"
       },
       {
         "period": "Q4'24",
         "revenue": 4376047000.0,
         "netIncome": 1191018000.0,
-        "endDate": "2024-12-31",
         "opIncome": 1333884000,
+        "endDate": "2024-12-31",
         "specialIncomeCharges": 0.0,
         "restructuring": 0.0
       },
@@ -7624,8 +7653,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 4720175000.0,
         "netIncome": 1330667000.0,
-        "endDate": "2025-03-31",
         "opIncome": 1561759000,
+        "endDate": "2025-03-31",
         "specialIncomeCharges": 0.0,
         "restructuring": 0.0
       },
@@ -7633,8 +7662,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 5171393000.0,
         "netIncome": 1720088000.0,
+        "opIncome": 1741128000,
         "endDate": "2025-06-30",
-        "opIncome": 1741128000.0,
         "eps": 1.35,
         "ocf": 2554188000.0,
         "capex": -172191000.0,
@@ -7654,8 +7683,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 5324173000.0,
         "netIncome": 1568660000.0,
-        "endDate": "2025-09-30",
         "opIncome": 1829088000,
+        "endDate": "2025-09-30",
         "eps": 1.24,
         "ocf": 1778964000.0,
         "capex": -185121000.0,
@@ -7673,8 +7702,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 5344791000.0,
         "netIncome": 1593994000.0,
-        "endDate": "2025-12-31",
         "opIncome": 1810203000,
+        "endDate": "2025-12-31",
         "eps": 1.26,
         "ocf": 1480045000.0,
         "capex": -260879000.0,
@@ -7692,8 +7721,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 5841488000.0,
         "netIncome": 1825460000.0,
-        "endDate": "2026-03-31",
         "opIncome": 2047016000,
+        "endDate": "2026-03-31",
         "eps": 1.45,
         "ocf": 1141420000.0,
         "capex": -331604000.0,
@@ -7737,105 +7766,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 144009220
+        "shares": 1440092200.0
       },
       {
         "date": "2021-01-29",
-        "shares": 142908315
+        "shares": 1429083150.0
       },
       {
         "date": "2021-04-26",
-        "shares": 142619346
+        "shares": 1426193460.0
       },
       {
         "date": "2021-08-12",
-        "shares": 141953681
+        "shares": 1419536810.0
       },
       {
         "date": "2021-10-22",
-        "shares": 140798697
+        "shares": 1407986970.0
       },
       {
         "date": "2022-01-28",
-        "shares": 139500143
+        "shares": 1395001430.0
       },
       {
         "date": "2022-04-22",
-        "shares": 138715027
+        "shares": 1387150270.0
       },
       {
         "date": "2022-08-22",
-        "shares": 136987792
+        "shares": 1369877920.0
       },
       {
         "date": "2022-10-20",
-        "shares": 136379336
+        "shares": 1363793360.0
       },
       {
         "date": "2023-01-26",
-        "shares": 134936209
+        "shares": 1349362090.0
       },
       {
         "date": "2023-04-20",
-        "shares": 134340474
+        "shares": 1343404740.0
       },
       {
         "date": "2023-08-10",
-        "shares": 132511701
+        "shares": 1325117010.0
       },
       {
         "date": "2023-10-19",
-        "shares": 131792000
+        "shares": 1317920000.0
       },
       {
         "date": "2024-01-25",
-        "shares": 131103000
+        "shares": 1311030000.0
       },
       {
         "date": "2024-04-25",
-        "shares": 130741000
+        "shares": 1307410000.0
       },
       {
         "date": "2024-08-22",
-        "shares": 129876000
+        "shares": 1298760000.0
       },
       {
         "date": "2024-10-24",
-        "shares": 1286685000
+        "shares": 1286685000.0
       },
       {
         "date": "2025-01-29",
-        "shares": 1283662000
+        "shares": 1283662000.0
       },
       {
         "date": "2025-04-23",
-        "shares": 1279118000
+        "shares": 1279118000.0
       },
       {
         "date": "2025-08-07",
-        "shares": 1265621000
+        "shares": 1265621000.0
       },
       {
         "date": "2025-10-22",
-        "shares": 1256030000
+        "shares": 1256030000.0
       },
       {
         "date": "2026-01-27",
-        "shares": 1248771000
+        "shares": 1248771000.0
       },
       {
         "date": "2026-04-21",
-        "shares": 1250571000
+        "shares": 1250571000.0
       },
       {
         "date": "2026-08-04",
-        "shares": 1251321000
+        "shares": 1251321000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788781260.575283,
-    "_updated_label": "2026-09-08 21:00",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7861,7 +7890,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788868819.510369,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "KLAC": {
@@ -7998,36 +8027,42 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 2396956000.0,
         "netIncome": 741375000.0,
+        "opIncome": null,
         "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 2486726000.0,
         "netIncome": 582534000.0,
+        "opIncome": null,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 2359830000.0,
         "netIncome": 601541000.0,
+        "opIncome": null,
         "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 2568735000.0,
         "netIncome": 836446000.0,
+        "opIncome": null,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 2841541000.0,
         "netIncome": 945851000.0,
+        "opIncome": null,
         "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 3076851000.0,
         "netIncome": 824527000.0,
+        "opIncome": null,
         "endDate": "2024-12-31",
         "impairment": 239100000.0
       },
@@ -8035,6 +8070,7 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 3063029000.0,
         "netIncome": 1088416000.0,
+        "opIncome": null,
         "endDate": "2025-03-31",
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
@@ -8045,8 +8081,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 3174741000.0,
         "netIncome": 1202849000.0,
-        "endDate": "2025-06-30",
         "opIncome": 1351760000.0,
+        "endDate": "2025-06-30",
         "eps": 0.906,
         "ocf": 1164991000.0,
         "capex": -102508000.0,
@@ -8066,8 +8102,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 3209696000.0,
         "netIncome": 1121040000.0,
-        "endDate": "2025-09-30",
         "opIncome": 1337177000.0,
+        "endDate": "2025-09-30",
         "eps": 0.847,
         "ocf": 1161591000.0,
         "capex": -95894000.0,
@@ -8083,8 +8119,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 3297146000.0,
         "netIncome": 1145682000.0,
-        "endDate": "2025-12-31",
         "opIncome": 1362146000.0,
+        "endDate": "2025-12-31",
         "eps": 0.868,
         "ocf": 1367607000.0,
         "capex": -105576000.0,
@@ -8103,8 +8139,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 3415078000.0,
         "netIncome": 1200990000.0,
-        "endDate": "2026-03-31",
         "opIncome": 1407509000.0,
+        "endDate": "2026-03-31",
         "eps": 0.912,
         "ocf": 707451000.0,
         "capex": -85187000.0,
@@ -8149,105 +8185,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-19",
-        "shares": 154459817
+        "shares": 1544598170.0
       },
       {
         "date": "2021-01-15",
-        "shares": 154074651
+        "shares": 1540746510.0
       },
       {
         "date": "2021-04-19",
-        "shares": 153281783
+        "shares": 1532817830.0
       },
       {
         "date": "2021-07-19",
-        "shares": 152737157
+        "shares": 1527371570.0
       },
       {
         "date": "2021-10-18",
-        "shares": 151622165
+        "shares": 1516221650.0
       },
       {
         "date": "2022-01-14",
-        "shares": 150715343
+        "shares": 1507153430.0
       },
       {
         "date": "2022-04-18",
-        "shares": 149235049
+        "shares": 1492350490.0
       },
       {
         "date": "2022-07-18",
-        "shares": 141803776
+        "shares": 1418037760.0
       },
       {
         "date": "2022-10-17",
-        "shares": 141718327
+        "shares": 1417183270.0
       },
       {
         "date": "2023-01-17",
-        "shares": 138479764
+        "shares": 1384797640.0
       },
       {
         "date": "2023-04-17",
-        "shares": 137198902
+        "shares": 1371989020.0
       },
       {
         "date": "2023-07-17",
-        "shares": 136720074
+        "shares": 1367200740.0
       },
       {
         "date": "2023-10-16",
-        "shares": 135932316
+        "shares": 1359323160.0
       },
       {
         "date": "2024-01-16",
-        "shares": 135233651
+        "shares": 1352336510.0
       },
       {
         "date": "2024-04-15",
-        "shares": 134639951
+        "shares": 1346399510.0
       },
       {
         "date": "2024-07-22",
-        "shares": 134425022
+        "shares": 1344250220.0
       },
       {
         "date": "2024-10-21",
-        "shares": 133759778
+        "shares": 1337597780.0
       },
       {
         "date": "2025-01-21",
-        "shares": 132886746
+        "shares": 1328867460.0
       },
       {
         "date": "2025-04-21",
-        "shares": 132241430
+        "shares": 1322414300.0
       },
       {
         "date": "2025-07-21",
-        "shares": 131961370
+        "shares": 1319613700.0
       },
       {
         "date": "2025-10-27",
-        "shares": 131392338
+        "shares": 1313923380.0
       },
       {
         "date": "2026-01-26",
-        "shares": 131076611
+        "shares": 1310766110.0
       },
       {
         "date": "2026-04-27",
-        "shares": 130627521
+        "shares": 1306275210.0
       },
       {
         "date": "2026-08-03",
-        "shares": 1306546783
+        "shares": 1306546783.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788773541.552424,
-    "_updated_label": "2026-09-08 18:55",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8273,7 +8309,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788861350.4671218,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SNDK": {
@@ -8380,12 +8416,14 @@ const FINANCIALS_DATA = {
         "period": "Q3'12",
         "revenue": 1273190000,
         "netIncome": 76507000,
+        "opIncome": 132073000,
         "endDate": "2012-09-30"
       },
       {
         "period": "Q4'12",
         "revenue": 1541503000,
         "netIncome": 213543000,
+        "opIncome": 335975000,
         "endDate": "2012-12-30"
       },
       {
@@ -8420,16 +8458,16 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 1695000000.0,
         "netIncome": -1933000000.0,
-        "endDate": "2025-03-31",
         "opIncome": -1881000000,
+        "endDate": "2025-03-31",
         "impairment": 1830000000.0
       },
       {
         "period": "Q2'25",
         "revenue": 1901000000.0,
         "netIncome": -23000000.0,
+        "opIncome": 18000000,
         "endDate": "2025-06-30",
-        "opIncome": 51000000.0,
         "eps": -0.16,
         "ocf": 94000000.0,
         "capex": -45000000.0,
@@ -8472,8 +8510,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2308000000.0,
         "netIncome": 112000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 176000000,
+        "endDate": "2025-12-31",
         "eps": 5.15,
         "ocf": 1019000000.0,
         "capex": -39000000.0,
@@ -8493,8 +8531,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 3025000000.0,
         "netIncome": 803000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 1065000000,
+        "endDate": "2026-03-31",
         "eps": 23.03,
         "ocf": 3038000000.0,
         "capex": -45000000.0,
@@ -8515,8 +8553,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 5950000000.0,
         "netIncome": 3615000000.0,
-        "endDate": "2026-06-30",
         "opIncome": 4111000000,
+        "endDate": "2026-06-30",
         "eps": 43.97,
         "ocf": 7126000000.0,
         "capex": -43000000.0,
@@ -8569,9 +8607,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:46",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8597,7 +8635,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788940941.326191,
+    "_yahoo_verified_at": 1788943567.120046,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -8735,35 +8773,36 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 2750000000.0,
         "netIncome": -685000000.0,
-        "endDate": "2023-09-29",
-        "opIncome": -596000000
+        "opIncome": -596000000,
+        "endDate": "2023-09-29"
       },
       {
         "period": "Q4'23",
         "revenue": 3032000000.0,
         "netIncome": -287000000.0,
-        "endDate": "2023-12-29",
-        "opIncome": -210000000
+        "opIncome": -210000000,
+        "endDate": "2023-12-29"
       },
       {
         "period": "Q1'24",
         "revenue": 3457000000.0,
         "netIncome": 135000000.0,
-        "endDate": "2024-03-29",
-        "opIncome": 94000000
+        "opIncome": 94000000,
+        "endDate": "2024-03-29"
       },
       {
         "period": "Q2'24",
         "revenue": 3764000000.0,
         "netIncome": 39000000.0,
+        "opIncome": 216000000,
         "endDate": "2024-06-28"
       },
       {
         "period": "Q3'24",
         "revenue": 4095000000.0,
         "netIncome": 493000000.0,
-        "endDate": "2024-09-27",
-        "opIncome": 334000000
+        "opIncome": 334000000,
+        "endDate": "2024-09-27"
       },
       {
         "period": "Q4'24",
@@ -8783,8 +8822,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 2605000000.0,
         "netIncome": 282000000.0,
+        "opIncome": 680000000,
         "endDate": "2025-06-30",
-        "opIncome": 681000000.0,
         "eps": 0.754144,
         "ocf": 746000000.0,
         "capex": -71000000.0,
@@ -8826,8 +8865,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2818000000.0,
         "netIncome": 1182000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 792000000,
+        "endDate": "2025-12-31",
         "eps": 4.73,
         "ocf": 745000000.0,
         "capex": -92000000.0,
@@ -8847,8 +8886,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 3017000000.0,
         "netIncome": 1842000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 908000000,
+        "endDate": "2026-03-31",
         "eps": 8.2,
         "ocf": 1123000000.0,
         "capex": -145000000.0,
@@ -8868,8 +8907,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 3337000000.0,
         "netIncome": 3205000000.0,
-        "endDate": "2026-06-30",
         "opIncome": 1190000000,
+        "endDate": "2026-06-30",
         "eps": 8.213368,
         "ocf": 1389000000.0,
         "capex": -108000000.0,
@@ -8989,9 +9028,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:46",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9017,7 +9056,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788940941.326191,
+    "_yahoo_verified_at": 1788943567.120046,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -9144,55 +9183,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1509456000.0,
         "netIncome": 545327000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 602695000
+        "opIncome": 602695000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 1540437000.0,
         "netIncome": 613636000.0,
+        "opIncome": 639914000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 1571400000,
         "netIncome": 637700000,
-        "endDate": "2024-03-31",
-        "opIncome": 660200000
+        "opIncome": 660200000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 1690400000.0,
         "netIncome": 665400000,
-        "endDate": "2024-06-30",
-        "opIncome": 699600000
+        "opIncome": 699600000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 1810936000.0,
         "netIncome": 748000000,
-        "endDate": "2024-09-30",
-        "opIncome": 785300000
+        "opIncome": 785300000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 1930436000.0,
         "netIncome": 800996000.0,
+        "opIncome": 799652000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 2004800000.0,
         "netIncome": 813800000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 858800000
+        "opIncome": 858800000,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 2204800000.0,
         "netIncome": 888800000.0,
-        "endDate": "2025-06-30",
         "opIncome": 986200000,
+        "endDate": "2025-06-30",
         "eps": 0.7,
         "ocf": 1200100000.0,
         "capex": -24000000.0,
@@ -9208,8 +9249,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 2308300000.0,
         "netIncome": 853000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 978200000,
+        "endDate": "2025-09-30",
         "eps": 0.67,
         "ocf": 1268200000.0,
         "capex": -30100000.0,
@@ -9225,8 +9266,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2487800000.0,
         "netIncome": 955800000.0,
+        "opIncome": 1032900000,
         "endDate": "2025-12-31",
-        "opIncome": 1032900000.0,
         "eps": 0.75,
         "ocf": 1261900000.0,
         "capex": -37000000.0,
@@ -9242,8 +9283,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 2709000000.0,
         "netIncome": 1022900000.0,
-        "endDate": "2026-03-31",
         "opIncome": 1157800000,
+        "endDate": "2026-03-31",
         "eps": 0.8,
         "ocf": 1693500000.0,
         "capex": -54500000.0,
@@ -9277,9 +9318,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-27",
+        "shares": 1210583424.0
+      },
+      {
+        "date": "2021-02-12",
+        "shares": 1221305168.0
+      },
+      {
+        "date": "2021-05-03",
+        "shares": 1221149040.0
+      },
+      {
+        "date": "2021-07-28",
+        "shares": 1227466128.0
+      },
+      {
+        "date": "2021-10-27",
+        "shares": 1229134320.0
+      },
+      {
+        "date": "2022-02-08",
+        "shares": 1231066312.0
+      },
+      {
+        "date": "2022-04-27",
+        "shares": 1233054152.0
+      },
+      {
+        "date": "2022-07-27",
+        "shares": 1217121832.0
+      },
+      {
+        "date": "2022-10-26",
+        "shares": 1222290464.0
+      },
+      {
+        "date": "2023-02-08",
+        "shares": 1225581536.0
+      },
+      {
+        "date": "2023-04-26",
+        "shares": 1233131196.0
+      },
+      {
+        "date": "2023-07-26",
+        "shares": 1238322520.0
+      },
+      {
+        "date": "2023-10-25",
+        "shares": 1244400568.0
+      },
+      {
+        "date": "2024-02-07",
+        "shares": 1250534448.0
+      },
+      {
+        "date": "2024-05-02",
+        "shares": 1253452388.0
+      },
+      {
+        "date": "2024-07-26",
+        "shares": 1256611500.0
+      },
+      {
+        "date": "2024-11-04",
+        "shares": 1259759532.0
+      },
+      {
+        "date": "2025-02-12",
+        "shares": 1261122596.0
+      },
+      {
+        "date": "2025-05-01",
+        "shares": 1255921431.0
+      },
+      {
+        "date": "2025-07-31",
+        "shares": 1256865381.0
+      },
+      {
+        "date": "2025-10-30",
+        "shares": 1259285070.0
+      },
+      {
+        "date": "2026-02-10",
+        "shares": 1256537906.0
+      },
+      {
+        "date": "2026-04-30",
+        "shares": 1259202593.0
+      },
+      {
+        "date": "2026-07-30",
+        "shares": 1261224648.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9305,7 +9445,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "COHR": {
@@ -9442,68 +9582,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1053083000.0,
         "netIncome": -67534000.0,
-        "endDate": "2023-09-30",
-        "opIncome": -21308000
+        "opIncome": -21308000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 1131434000.0,
         "netIncome": -26991000.0,
-        "endDate": "2023-12-31",
-        "opIncome": 31885000
+        "opIncome": 31885000,
+        "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 1208809000.0,
         "netIncome": -13187000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 22305000
+        "opIncome": 22305000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 1314362000.0,
         "netIncome": -48442000.0,
+        "opIncome": null,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 1348135000.0,
         "netIncome": 25887000.0,
+        "opIncome": null,
         "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 1434665000.0,
         "netIncome": 103385000.0,
+        "opIncome": null,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 1497879000.0,
         "netIncome": 15711000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 145520000.0,
-        "eps": -0.11,
-        "ocf": 162957000.0,
-        "capex": -111819000.0,
-        "fcf": 51138000.0,
-        "pretaxIncome": 9890000.0,
-        "taxProvision": 8125000.0,
-        "normalizedIncome": 73988510.0,
-        "unusualItems": -73769000.0,
-        "unusualItemsExGoodwill": -73769000.0,
-        "unusualTaxEffect": -15491490.0,
-        "specialIncomeCharges": -73769000.0,
-        "otherNonOperating": -4577000.0,
-        "restructuring": 73769000.0,
-        "stockComp": 40960000.0
+        "opIncome": null,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 1529436000.0,
         "netIncome": -95619000.0,
-        "endDate": "2025-06-30",
         "opIncome": 144978000.0,
+        "endDate": "2025-06-30",
         "eps": -0.83,
         "ocf": 130284000.0,
         "capex": -131350000.0,
@@ -9523,8 +9652,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 1581378000.0,
         "netIncome": 226349000.0,
-        "endDate": "2025-09-30",
         "opIncome": 172239000.0,
+        "endDate": "2025-09-30",
         "eps": 1.19,
         "ocf": 45955000.0,
         "capex": -103946000.0,
@@ -9544,8 +9673,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 1685629000.0,
         "netIncome": 146717000.0,
-        "endDate": "2025-12-31",
         "opIncome": 198624000.0,
+        "endDate": "2025-12-31",
         "eps": 0.76,
         "ocf": 57900000.0,
         "capex": -153598000.0,
@@ -9565,8 +9694,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 1805641000.0,
         "netIncome": 191402000.0,
-        "endDate": "2026-03-31",
         "opIncome": 226321000.0,
+        "endDate": "2026-03-31",
         "eps": 0.97,
         "ocf": -93797000.0,
         "capex": -289684000.0,
@@ -9609,9 +9738,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-11-03",
+        "shares": 103726262.0
+      },
+      {
+        "date": "2021-02-04",
+        "shares": 104762037.0
+      },
+      {
+        "date": "2021-05-07",
+        "shares": 104884278.0
+      },
+      {
+        "date": "2021-08-16",
+        "shares": 105718326.0
+      },
+      {
+        "date": "2021-11-05",
+        "shares": 106139773.0
+      },
+      {
+        "date": "2022-02-07",
+        "shares": 106334121.0
+      },
+      {
+        "date": "2022-05-06",
+        "shares": 106456567.0
+      },
+      {
+        "date": "2022-08-24",
+        "shares": 130874428.0
+      },
+      {
+        "date": "2022-11-07",
+        "shares": 138690024.0
+      },
+      {
+        "date": "2023-02-06",
+        "shares": 138962661.0
+      },
+      {
+        "date": "2023-05-08",
+        "shares": 139377779.0
+      },
+      {
+        "date": "2023-08-15",
+        "shares": 150397328.0
+      },
+      {
+        "date": "2023-11-03",
+        "shares": 151482324.0
+      },
+      {
+        "date": "2024-02-02",
+        "shares": 151813356.0
+      },
+      {
+        "date": "2024-05-03",
+        "shares": 152461013.0
+      },
+      {
+        "date": "2024-08-13",
+        "shares": 153300385.0
+      },
+      {
+        "date": "2024-11-04",
+        "shares": 154663982.0
+      },
+      {
+        "date": "2025-02-03",
+        "shares": 154967323.0
+      },
+      {
+        "date": "2025-05-05",
+        "shares": 155440611.0
+      },
+      {
+        "date": "2025-08-11",
+        "shares": 155805474.0
+      },
+      {
+        "date": "2025-11-03",
+        "shares": 157153611.0
+      },
+      {
+        "date": "2026-02-02",
+        "shares": 187481852.0
+      },
+      {
+        "date": "2026-05-04",
+        "shares": 195639321.0
+      },
+      {
+        "date": "2026-08-10",
+        "shares": 195832246.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9637,7 +9865,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "LITE": {
@@ -9775,70 +10003,58 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 317600000.0,
         "netIncome": -67900000.0,
-        "endDate": "2023-09-30",
-        "opIncome": -80800000
+        "opIncome": -80800000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 366800000.0,
         "netIncome": -99100000.0,
-        "endDate": "2023-12-30",
-        "opIncome": -105200000
+        "opIncome": -105200000,
+        "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
         "revenue": 366500000.0,
         "netIncome": -127000000.0,
-        "endDate": "2024-03-30",
-        "opIncome": -114600000
+        "opIncome": -114600000,
+        "endDate": "2024-03-30"
       },
       {
         "period": "Q2'24",
         "revenue": 308300000.0,
         "netIncome": -252500000.0,
+        "opIncome": -133400000,
         "endDate": "2024-06-29"
       },
       {
         "period": "Q3'24",
         "revenue": 336900000.0,
         "netIncome": -82400000.0,
-        "endDate": "2024-09-28",
-        "opIncome": -82400000
+        "opIncome": -82400000,
+        "endDate": "2024-09-28"
       },
       {
         "period": "Q4'24",
         "revenue": 402200000.0,
         "netIncome": -60900000.0,
-        "endDate": "2024-12-28",
-        "opIncome": -51600000
+        "opIncome": -51600000,
+        "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
         "revenue": 425200000.0,
         "netIncome": -44100000.0,
-        "endDate": "2025-03-31",
         "opIncome": -37700000,
-        "eps": -0.64,
-        "ocf": -1600000.0,
-        "capex": -62800000.0,
-        "fcf": -64400000.0,
-        "pretaxIncome": -39200000.0,
-        "taxProvision": 4900000.0,
-        "normalizedIncome": -65983000.0,
-        "unusualItems": 27700000.0,
-        "unusualItemsExGoodwill": 27700000.0,
-        "unusualTaxEffect": 5817000.0,
-        "specialIncomeCharges": 27700000.0,
-        "otherNonOperating": 4200000.0,
-        "restructuring": 7200000.0,
-        "stockComp": 62800000.0
+        "endDate": "2025-03-31",
+        "otherNonOperating": 4200000.0
       },
       {
         "period": "Q2'25",
         "revenue": 480700000.0,
         "netIncome": 213300000.0,
+        "opIncome": -8400000,
         "endDate": "2025-06-30",
-        "opIncome": -3200000.0,
         "eps": 2.96,
         "ocf": 64000000.0,
         "capex": -53900000.0,
@@ -9857,8 +10073,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 533800000.0,
         "netIncome": 4200000.0,
-        "endDate": "2025-09-30",
         "opIncome": 6700000,
+        "endDate": "2025-09-30",
         "eps": 0.05,
         "ocf": 57900000.0,
         "capex": -76200000.0,
@@ -9878,8 +10094,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 665500000.0,
         "netIncome": 78200000.0,
-        "endDate": "2025-12-31",
         "opIncome": 64300000,
+        "endDate": "2025-12-31",
         "eps": 0.89,
         "ocf": 126700000.0,
         "capex": -83600000.0,
@@ -9898,8 +10114,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 808400000.0,
         "netIncome": 144200000.0,
-        "endDate": "2026-03-31",
         "opIncome": 174500000,
+        "endDate": "2026-03-31",
         "eps": 1.5,
         "ocf": 203800000.0,
         "capex": -124700000.0,
@@ -9942,9 +10158,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-23",
+        "shares": 75500000.0
+      },
+      {
+        "date": "2021-01-26",
+        "shares": 75700000.0
+      },
+      {
+        "date": "2021-04-30",
+        "shares": 75900000.0
+      },
+      {
+        "date": "2021-08-23",
+        "shares": 72700000.0
+      },
+      {
+        "date": "2021-10-29",
+        "shares": 72300000.0
+      },
+      {
+        "date": "2022-01-28",
+        "shares": 72200000.0
+      },
+      {
+        "date": "2022-04-29",
+        "shares": 69000000.0
+      },
+      {
+        "date": "2022-08-17",
+        "shares": 68100000.0
+      },
+      {
+        "date": "2022-11-01",
+        "shares": 68200000.0
+      },
+      {
+        "date": "2023-02-02",
+        "shares": 68500000.0
+      },
+      {
+        "date": "2023-05-02",
+        "shares": 68700000.0
+      },
+      {
+        "date": "2023-08-16",
+        "shares": 66700000.0
+      },
+      {
+        "date": "2023-11-01",
+        "shares": 67000000.0
+      },
+      {
+        "date": "2024-02-01",
+        "shares": 67400000.0
+      },
+      {
+        "date": "2024-04-30",
+        "shares": 67600000.0
+      },
+      {
+        "date": "2024-08-14",
+        "shares": 68000000.0
+      },
+      {
+        "date": "2024-10-31",
+        "shares": 68700000.0
+      },
+      {
+        "date": "2025-01-30",
+        "shares": 69200000.0
+      },
+      {
+        "date": "2025-04-29",
+        "shares": 69400000.0
+      },
+      {
+        "date": "2025-08-12",
+        "shares": 69900000.0
+      },
+      {
+        "date": "2025-10-28",
+        "shares": 70900000.0
+      },
+      {
+        "date": "2026-01-27",
+        "shares": 71400000.0
+      },
+      {
+        "date": "2026-04-30",
+        "shares": 77800000.0
+      },
+      {
+        "date": "2026-08-14",
+        "shares": 89700000.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9970,7 +10285,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GEV": {
@@ -10087,28 +10402,29 @@ const FINANCIALS_DATA = {
         "period": "Q3'24",
         "revenue": 8913000000.0,
         "netIncome": -96000000.0,
-        "endDate": "2024-09-30",
-        "opIncome": -359000000
+        "opIncome": -359000000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 10559000000.0,
         "netIncome": 484000000.0,
+        "opIncome": 593000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 8032000000.0,
         "netIncome": 254000000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 43000000
+        "opIncome": 43000000,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 9111000000.0,
         "netIncome": 514000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 378000000,
+        "endDate": "2025-06-30",
         "eps": 1.86,
         "ocf": 367000000.0,
         "capex": -173000000.0,
@@ -10127,8 +10443,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 9969000000.0,
         "netIncome": 452000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 366000000,
+        "endDate": "2025-09-30",
         "eps": 1.64,
         "ocf": 980000000.0,
         "capex": -247000000.0,
@@ -10147,8 +10463,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 10956000000.0,
         "netIncome": 3664000000.0,
+        "opIncome": 601000000,
         "endDate": "2025-12-31",
-        "opIncome": 602000000.0,
         "eps": 13.39,
         "ocf": 2479000000.0,
         "capex": -671000000.0,
@@ -10167,8 +10483,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 9339000000.0,
         "netIncome": 4745000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 179000000,
+        "endDate": "2026-03-31",
         "eps": 17.44,
         "ocf": 5188000000.0,
         "capex": -397000000.0,
@@ -10208,9 +10524,52 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2024-04-26",
+        "shares": 274085523.0
+      },
+      {
+        "date": "2024-07-17",
+        "shares": 274802034.0
+      },
+      {
+        "date": "2024-10-16",
+        "shares": 275652970.0
+      },
+      {
+        "date": "2025-01-15",
+        "shares": 275900754.0
+      },
+      {
+        "date": "2025-03-31",
+        "shares": 272934744.0
+      },
+      {
+        "date": "2025-06-30",
+        "shares": 272223940.0
+      },
+      {
+        "date": "2025-09-30",
+        "shares": 271320459.0
+      },
+      {
+        "date": "2025-12-31",
+        "shares": 269529464.0
+      },
+      {
+        "date": "2026-03-31",
+        "shares": 268719995.0
+      },
+      {
+        "date": "2026-06-30",
+        "shares": 266333581.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10236,7 +10595,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CEG": {
@@ -10354,56 +10713,58 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 6111000000.0,
         "netIncome": 731000000,
-        "endDate": "2023-09-30",
-        "opIncome": 977000000
+        "opIncome": 977000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 5796000000.0,
         "netIncome": -37000000,
+        "opIncome": -67000000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 6161000000.0,
         "netIncome": 883000000,
-        "endDate": "2024-03-31",
-        "opIncome": 813000000
+        "opIncome": 813000000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 5475000000,
         "netIncome": 814000000,
-        "endDate": "2024-06-30",
-        "opIncome": 1100000000
+        "opIncome": 1100000000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 6550000000,
         "netIncome": 1200000000,
-        "endDate": "2024-09-30",
-        "opIncome": 1467000000
+        "opIncome": 1467000000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 5382000000.0,
         "netIncome": 852000000,
+        "opIncome": 972000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 6788000000.0,
         "netIncome": 118000000,
-        "endDate": "2025-03-31",
         "opIncome": 451000000,
+        "endDate": "2025-03-31",
         "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
         "revenue": 6101000000.0,
         "netIncome": 839000000,
-        "endDate": "2025-06-30",
         "opIncome": 951000000,
+        "endDate": "2025-06-30",
         "eps": 2.67,
         "ocf": 1477000000.0,
         "capex": -767000000.0,
@@ -10420,8 +10781,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 6570000000.0,
         "netIncome": 930000000,
-        "endDate": "2025-09-30",
         "opIncome": 1086000000,
+        "endDate": "2025-09-30",
         "eps": 2.97,
         "ocf": 1848000000.0,
         "capex": -390000000.0,
@@ -10439,8 +10800,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 6074000000.0,
         "netIncome": 432000000,
+        "opIncome": 598000000,
         "endDate": "2025-12-31",
-        "opIncome": 806000000.0,
         "eps": 1.38,
         "ocf": 805000000.0,
         "capex": -986000000.0,
@@ -10458,8 +10819,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 11122000000.0,
         "netIncome": 1590000000,
-        "endDate": "2026-03-31",
         "opIncome": 2332000000,
+        "endDate": "2026-03-31",
         "eps": 4.49,
         "ocf": 425000000.0,
         "capex": -1275000000.0,
@@ -10497,9 +10858,88 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2022-02-01",
+        "shares": 326663937.0
+      },
+      {
+        "date": "2022-03-31",
+        "shares": 326698937.0
+      },
+      {
+        "date": "2022-06-30",
+        "shares": 326845258.0
+      },
+      {
+        "date": "2022-09-30",
+        "shares": 327017895.0
+      },
+      {
+        "date": "2023-01-31",
+        "shares": 327131082.0
+      },
+      {
+        "date": "2023-04-28",
+        "shares": 324411457.0
+      },
+      {
+        "date": "2023-07-31",
+        "shares": 321591672.0
+      },
+      {
+        "date": "2023-10-31",
+        "shares": 319381684.0
+      },
+      {
+        "date": "2024-01-31",
+        "shares": 316666538.0
+      },
+      {
+        "date": "2024-04-30",
+        "shares": 315234850.0
+      },
+      {
+        "date": "2024-07-31",
+        "shares": 312689080.0
+      },
+      {
+        "date": "2024-10-31",
+        "shares": 312766599.0
+      },
+      {
+        "date": "2025-01-31",
+        "shares": 312847257.0
+      },
+      {
+        "date": "2025-04-30",
+        "shares": 313417370.0
+      },
+      {
+        "date": "2025-07-31",
+        "shares": 312405579.0
+      },
+      {
+        "date": "2025-10-31",
+        "shares": 312290080.0
+      },
+      {
+        "date": "2026-02-01",
+        "shares": 361990335.0
+      },
+      {
+        "date": "2026-04-30",
+        "shares": 361190063.0
+      },
+      {
+        "date": "2026-07-31",
+        "shares": 354307379.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10525,7 +10965,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
@@ -10664,21 +11104,22 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 4789000000,
         "netIncome": 502000000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 834000000
+        "opIncome": 834000000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 3078000000.0,
         "netIncome": -184000000.0,
+        "opIncome": 102000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 3159000000,
         "netIncome": -35000000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 86000000
+        "opIncome": 86000000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
@@ -10698,6 +11139,7 @@ const FINANCIALS_DATA = {
         "period": "Q4'24",
         "revenue": 4037000000.0,
         "netIncome": 441000000.0,
+        "opIncome": 599000000.0,
         "endDate": "2024-12-31",
         "impairment": 0.0
       },
@@ -10705,18 +11147,18 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 4250000000,
         "netIncome": -268000000.0,
-        "endDate": "2025-03-31",
         "opIncome": -120000000,
-        "eps": -0.93,
+        "endDate": "2025-03-31",
+        "eps": -0.93222,
         "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
         "revenue": 4250000000.0,
         "netIncome": 327000000.0,
-        "endDate": "2025-06-30",
         "opIncome": 515000000,
-        "eps": 0.81,
+        "endDate": "2025-06-30",
+        "eps": 0.825662,
         "ocf": 572000000.0,
         "capex": -690000000.0,
         "fcf": -118000000.0,
@@ -10735,9 +11177,9 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 4971000000.0,
         "netIncome": 652000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 1037000000,
-        "eps": 1.75,
+        "endDate": "2025-09-30",
+        "eps": 1.783396,
         "ocf": 1467000000.0,
         "capex": -458000000.0,
         "fcf": 1009000000.0,
@@ -10756,8 +11198,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 4584000000.0,
         "netIncome": 233000000.0,
+        "opIncome": 474000000,
         "endDate": "2025-12-31",
-        "opIncome": 629000000.0,
         "ocf": 1432000000.0,
         "capex": -836000000.0,
         "fcf": 596000000.0,
@@ -10776,9 +11218,9 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 5640000000.0,
         "netIncome": 1029000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 1499000000,
-        "eps": 2.87,
+        "endDate": "2026-03-31",
+        "eps": 2.898723,
         "ocf": 1199000000.0,
         "capex": -883000000.0,
         "fcf": 316000000.0,
@@ -10797,16 +11239,16 @@ const FINANCIALS_DATA = {
         "netIncome": 305000000,
         "opIncome": 553000000,
         "endDate": "2026-06-30",
-        "eps": 0.76,
+        "eps": 0.767946,
         "ocf": 1023000000.0,
         "capex": -689000000.0,
         "fcf": 334000000.0,
         "pretaxIncome": 427000000.0,
         "taxProvision": 122000000.0,
-        "normalizedIncome": 300000000.0,
+        "normalizedIncome": 300002000.0,
         "unusualItems": 7000000.0,
         "unusualItemsExGoodwill": 7000000.0,
-        "unusualTaxEffect": 2000000.0,
+        "unusualTaxEffect": 2002000.0,
         "specialIncomeCharges": 16000000.0,
         "otherNonOperating": 131000000.0,
         "impairment": 0.0,
@@ -10817,9 +11259,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-30",
+        "shares": 489133516.0
+      },
+      {
+        "date": "2021-02-23",
+        "shares": 483716012.0
+      },
+      {
+        "date": "2021-05-04",
+        "shares": 482055018.0
+      },
+      {
+        "date": "2021-08-03",
+        "shares": 482518768.0
+      },
+      {
+        "date": "2021-11-02",
+        "shares": 482627520.0
+      },
+      {
+        "date": "2022-02-22",
+        "shares": 448803986.0
+      },
+      {
+        "date": "2022-05-03",
+        "shares": 431822253.0
+      },
+      {
+        "date": "2022-08-02",
+        "shares": 416348199.0
+      },
+      {
+        "date": "2022-11-01",
+        "shares": 397953513.0
+      },
+      {
+        "date": "2023-02-23",
+        "shares": 381453001.0
+      },
+      {
+        "date": "2023-05-04",
+        "shares": 373027363.0
+      },
+      {
+        "date": "2023-08-04",
+        "shares": 367570248.0
+      },
+      {
+        "date": "2023-11-02",
+        "shares": 357552337.0
+      },
+      {
+        "date": "2024-02-23",
+        "shares": 347885110.0
+      },
+      {
+        "date": "2024-05-03",
+        "shares": 347460001.0
+      },
+      {
+        "date": "2024-08-05",
+        "shares": 343561403.0
+      },
+      {
+        "date": "2024-11-04",
+        "shares": 340226219.0
+      },
+      {
+        "date": "2025-02-24",
+        "shares": 338963642.0
+      },
+      {
+        "date": "2025-05-02",
+        "shares": 339331954.0
+      },
+      {
+        "date": "2025-08-01",
+        "shares": 338820324.0
+      },
+      {
+        "date": "2025-10-31",
+        "shares": 338825490.0
+      },
+      {
+        "date": "2026-02-18",
+        "shares": 336954256.0
+      },
+      {
+        "date": "2026-05-01",
+        "shares": 337182468.0
+      },
+      {
+        "date": "2026-08-03",
+        "shares": 335635195.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10845,7 +11386,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
@@ -10976,44 +11517,50 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 5880000000.0,
         "netIncome": 891000000.0,
+        "opIncome": null,
         "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 5967000000.0,
         "netIncome": 945000000.0,
+        "opIncome": null,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 5943000000.0,
         "netIncome": 821000000.0,
+        "opIncome": null,
         "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 6350000000.0,
         "netIncome": 993000000.0,
+        "opIncome": null,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 6345000000.0,
         "netIncome": 1009000000.0,
+        "opIncome": null,
         "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 6240000000.0,
         "netIncome": 971000000.0,
+        "opIncome": null,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 6377000000.0,
         "netIncome": 964000000.0,
-        "endDate": "2025-03-31",
         "opIncome": 1201000000.0,
+        "endDate": "2025-03-31",
         "ocf": 238000000.0,
         "capex": -147000000.0,
         "fcf": 91000000.0,
@@ -11027,8 +11574,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 7028000000,
         "netIncome": 982000000,
-        "endDate": "2025-06-30",
         "opIncome": 1256000000.0,
+        "endDate": "2025-06-30",
         "eps": 2.51,
         "ocf": 918000000.0,
         "capex": -202000000.0,
@@ -11043,8 +11590,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 6988000000,
         "netIncome": 1010000000.0,
-        "endDate": "2025-09-30",
         "opIncome": 1367000000.0,
+        "endDate": "2025-09-30",
         "eps": 2.59,
         "ocf": 1351000000.0,
         "capex": -178000000.0,
@@ -11059,8 +11606,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 7055000000.0,
         "netIncome": 1132000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 1386000000.0,
+        "endDate": "2025-12-31",
         "eps": 2.91,
         "ocf": 1965000000.0,
         "capex": -392000000.0,
@@ -11075,8 +11622,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 7451000000.0,
         "netIncome": 866000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 1172000000.0,
+        "endDate": "2026-03-31",
         "eps": 2.22,
         "ocf": 507000000.0,
         "capex": -193000000.0,
@@ -11099,9 +11646,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-09-30",
+        "shares": 398600000.0
+      },
+      {
+        "date": "2021-01-31",
+        "shares": 398100000.0
+      },
+      {
+        "date": "2021-03-31",
+        "shares": 398500000.0
+      },
+      {
+        "date": "2021-06-30",
+        "shares": 398600000.0
+      },
+      {
+        "date": "2021-09-30",
+        "shares": 398600000.0
+      },
+      {
+        "date": "2022-01-31",
+        "shares": 398800000.0
+      },
+      {
+        "date": "2022-03-31",
+        "shares": 399000000.0
+      },
+      {
+        "date": "2022-06-30",
+        "shares": 398300000.0
+      },
+      {
+        "date": "2022-09-30",
+        "shares": 397700000.0
+      },
+      {
+        "date": "2023-01-31",
+        "shares": 398000000.0
+      },
+      {
+        "date": "2023-03-31",
+        "shares": 398600000.0
+      },
+      {
+        "date": "2023-06-30",
+        "shares": 399000000.0
+      },
+      {
+        "date": "2023-09-30",
+        "shares": 399300000.0
+      },
+      {
+        "date": "2024-01-31",
+        "shares": 399500000.0
+      },
+      {
+        "date": "2024-03-31",
+        "shares": 399800000.0
+      },
+      {
+        "date": "2024-06-30",
+        "shares": 398100000.0
+      },
+      {
+        "date": "2024-09-30",
+        "shares": 395200000.0
+      },
+      {
+        "date": "2025-01-31",
+        "shares": 392000000.0
+      },
+      {
+        "date": "2025-03-31",
+        "shares": 391300000.0
+      },
+      {
+        "date": "2025-06-30",
+        "shares": 389300000.0
+      },
+      {
+        "date": "2025-09-30",
+        "shares": 388400000.0
+      },
+      {
+        "date": "2026-01-31",
+        "shares": 387900000.0
+      },
+      {
+        "date": "2026-03-31",
+        "shares": 388300000.0
+      },
+      {
+        "date": "2026-06-30",
+        "shares": 388400000.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11127,7 +11773,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
@@ -11266,55 +11912,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 5620822000.0,
         "netIncome": 272836000,
-        "endDate": "2023-09-30",
-        "opIncome": 400329000
+        "opIncome": 400329000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 5783948000.0,
         "netIncome": 210908000,
+        "opIncome": 322514000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 5031819000.0,
         "netIncome": 118360000,
-        "endDate": "2024-03-31",
-        "opIncome": 155354000
+        "opIncome": 155354000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 5594387000.0,
         "netIncome": 188159000,
-        "endDate": "2024-06-30",
-        "opIncome": 307230000
+        "opIncome": 307230000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 6493167000.0,
         "netIncome": 293185000,
-        "endDate": "2024-09-30",
-        "opIncome": 431161000
+        "opIncome": 431161000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 6553422000.0,
         "netIncome": 305120000,
+        "opIncome": 452723000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 6233334000.0,
         "netIncome": 144258000,
-        "endDate": "2025-03-31",
-        "opIncome": 239081000
+        "opIncome": 239081000.0,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 6773007000.0,
         "netIncome": 229250000,
+        "opIncome": 370282000.0,
         "endDate": "2025-06-30",
-        "opIncome": 370282000,
         "eps": 1.52,
         "ocf": 295711000.0,
         "capex": -140349000.0,
@@ -11334,8 +11982,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 7631408000.0,
         "netIncome": 339420000,
+        "opIncome": 517217000.0,
         "endDate": "2025-09-30",
-        "opIncome": 517217000,
         "eps": 2.24,
         "ocf": 563496000.0,
         "capex": -142449000.0,
@@ -11355,8 +12003,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 7841948000.0,
         "netIncome": 315450000,
+        "opIncome": 484929000.0,
         "endDate": "2025-12-31",
-        "opIncome": 480238000.0,
         "eps": 2.08,
         "ocf": 1127565000.0,
         "capex": -193594000.0,
@@ -11376,8 +12024,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 7874787000.0,
         "netIncome": 220625000,
+        "opIncome": 338779000.0,
         "endDate": "2026-03-31",
-        "opIncome": 338779000,
         "eps": 1.45,
         "ocf": 391744000.0,
         "capex": -220093000.0,
@@ -11419,9 +12067,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-27",
+        "shares": 138860900.0
+      },
+      {
+        "date": "2021-02-23",
+        "shares": 138365007.0
+      },
+      {
+        "date": "2021-05-04",
+        "shares": 139346092.0
+      },
+      {
+        "date": "2021-08-03",
+        "shares": 139152345.0
+      },
+      {
+        "date": "2021-11-02",
+        "shares": 142499280.0
+      },
+      {
+        "date": "2022-02-22",
+        "shares": 142690314.0
+      },
+      {
+        "date": "2022-05-02",
+        "shares": 143709009.0
+      },
+      {
+        "date": "2022-08-02",
+        "shares": 143022957.0
+      },
+      {
+        "date": "2022-11-01",
+        "shares": 142901156.0
+      },
+      {
+        "date": "2023-02-21",
+        "shares": 144000522.0
+      },
+      {
+        "date": "2023-05-02",
+        "shares": 145175564.0
+      },
+      {
+        "date": "2023-07-28",
+        "shares": 145198975.0
+      },
+      {
+        "date": "2023-10-27",
+        "shares": 145284890.0
+      },
+      {
+        "date": "2024-02-19",
+        "shares": 145748976.0
+      },
+      {
+        "date": "2024-04-29",
+        "shares": 146388455.0
+      },
+      {
+        "date": "2024-07-29",
+        "shares": 147329779.0
+      },
+      {
+        "date": "2024-10-28",
+        "shares": 147611595.0
+      },
+      {
+        "date": "2025-02-17",
+        "shares": 148198321.0
+      },
+      {
+        "date": "2025-04-28",
+        "shares": 148198715.0
+      },
+      {
+        "date": "2025-07-28",
+        "shares": 149005943.0
+      },
+      {
+        "date": "2025-10-27",
+        "shares": 149115887.0
+      },
+      {
+        "date": "2026-02-16",
+        "shares": 149619428.0
+      },
+      {
+        "date": "2026-04-27",
+        "shares": 150060149.0
+      },
+      {
+        "date": "2026-07-27",
+        "shares": 150343393.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11447,7 +12194,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "HUBB": {
@@ -11582,48 +12329,50 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1375800000.0,
         "netIncome": 200100000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 276300000
+        "opIncome": 276300000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 1345800000.0,
         "netIncome": 171000000.0,
+        "opIncome": 225600000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 1399100000.0,
         "netIncome": 147800000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 228500000
+        "opIncome": 228500000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 1452500000.0,
         "netIncome": 217500000,
-        "endDate": "2024-06-30",
-        "opIncome": 306300000
+        "opIncome": 306300000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 1442600000.0,
         "netIncome": 226200000,
-        "endDate": "2024-09-30",
-        "opIncome": 312700000
+        "opIncome": 312700000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 1334300000.0,
         "netIncome": 197000000.0,
+        "opIncome": 258100000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 1365200000.0,
         "netIncome": 163200000,
-        "endDate": "2025-03-31",
         "opIncome": 230400000,
+        "endDate": "2025-03-31",
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
         "specialIncomeCharges": 0.0
@@ -11632,8 +12381,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 1484300000.0,
         "netIncome": 244200000,
-        "endDate": "2025-06-30",
         "opIncome": 336300000,
+        "endDate": "2025-06-30",
         "eps": 4.56,
         "ocf": 260600000.0,
         "capex": -39900000.0,
@@ -11652,8 +12401,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 1502400000.0,
         "netIncome": 255500000.0,
+        "opIncome": 330600000.0,
         "endDate": "2025-09-30",
-        "opIncome": 330600000,
         "eps": 4.77,
         "ocf": 284300000.0,
         "capex": -30500000.0,
@@ -11672,8 +12421,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 1492700000.0,
         "netIncome": 224200000.0,
-        "endDate": "2025-12-31",
         "opIncome": 311500000.0,
+        "endDate": "2025-12-31",
         "eps": 4.19,
         "ocf": 447500000.0,
         "capex": -58700000.0,
@@ -11692,8 +12441,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 1516700000.0,
         "netIncome": 181800000.0,
+        "opIncome": 263800000.0,
         "endDate": "2026-03-31",
-        "opIncome": 263800000,
         "eps": 3.41,
         "ocf": 86600000.0,
         "capex": -40600000.0,
@@ -11732,9 +12481,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-07-29",
+        "shares": 54228170.0
+      },
+      {
+        "date": "2020-10-26",
+        "shares": 54236468.0
+      },
+      {
+        "date": "2021-02-09",
+        "shares": 54296993.0
+      },
+      {
+        "date": "2021-04-26",
+        "shares": 54316306.0
+      },
+      {
+        "date": "2021-07-26",
+        "shares": 54380483.0
+      },
+      {
+        "date": "2021-10-22",
+        "shares": 54410883.0
+      },
+      {
+        "date": "2022-02-08",
+        "shares": 54409067.0
+      },
+      {
+        "date": "2022-04-22",
+        "shares": 53661255.0
+      },
+      {
+        "date": "2022-07-22",
+        "shares": 53677757.0
+      },
+      {
+        "date": "2022-10-21",
+        "shares": 53705829.0
+      },
+      {
+        "date": "2023-02-03",
+        "shares": 53600592.0
+      },
+      {
+        "date": "2023-04-27",
+        "shares": 53588548.0
+      },
+      {
+        "date": "2023-07-19",
+        "shares": 53631016.0
+      },
+      {
+        "date": "2023-10-25",
+        "shares": 53622050.0
+      },
+      {
+        "date": "2024-02-01",
+        "shares": 53626956.0
+      },
+      {
+        "date": "2024-04-25",
+        "shares": 53685997.0
+      },
+      {
+        "date": "2024-07-25",
+        "shares": 53680930.0
+      },
+      {
+        "date": "2024-10-24",
+        "shares": 53670549.0
+      },
+      {
+        "date": "2025-02-06",
+        "shares": 53667674.0
+      },
+      {
+        "date": "2025-04-28",
+        "shares": 53372595.0
+      },
+      {
+        "date": "2025-07-24",
+        "shares": 53140009.0
+      },
+      {
+        "date": "2025-10-23",
+        "shares": 53144752.0
+      },
+      {
+        "date": "2026-02-05",
+        "shares": 53161602.0
+      },
+      {
+        "date": "2026-04-27",
+        "shares": 52841777.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11760,7 +12608,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VRT": {
@@ -11899,55 +12747,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1742600000.0,
         "netIncome": 94100000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 250900000
+        "opIncome": 250900000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 1865400000.0,
         "netIncome": 232600000.0,
+        "opIncome": 285200000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 1639100000.0,
         "netIncome": -5900000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 202600000
+        "opIncome": 202600000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 1952800000.0,
         "netIncome": 178100000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 336000000
+        "opIncome": 336000000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 2073500000.0,
         "netIncome": 176600000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 371600000
+        "opIncome": 371600000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 2346400000.0,
         "netIncome": 147000000.0,
+        "opIncome": 457200000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 2036000000.0,
         "netIncome": 164500000.0,
-        "endDate": "2025-03-31",
-        "opIncome": 290700000
+        "opIncome": 290700000.0,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 2638100000.0,
         "netIncome": 324200000.0,
+        "opIncome": 442400000.0,
         "endDate": "2025-06-30",
-        "opIncome": 442400000,
         "eps": 0.83,
         "ocf": 322900000.0,
         "capex": -45900000.0,
@@ -11966,8 +12816,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 2675800000.0,
         "netIncome": 398500000.0,
+        "opIncome": 516700000.0,
         "endDate": "2025-09-30",
-        "opIncome": 516700000,
         "eps": 1.02,
         "ocf": 508700000.0,
         "capex": -46700000.0,
@@ -11986,8 +12836,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2880000000.0,
         "netIncome": 445600000.0,
+        "opIncome": 579900000.0,
         "endDate": "2025-12-31",
-        "opIncome": 606900000.0,
         "eps": 1.14,
         "ocf": 978900000.0,
         "capex": -95000000.0,
@@ -12006,8 +12856,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 2649500000.0,
         "netIncome": 390100000.0,
+        "opIncome": 440100000.0,
         "endDate": "2026-03-31",
-        "opIncome": 440100000,
         "eps": 0.99,
         "ocf": 766800000.0,
         "capex": -114000000.0,
@@ -12048,9 +12898,108 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2021-02-22",
+        "shares": 351440743.0
+      },
+      {
+        "date": "2021-04-23",
+        "shares": 352205415.0
+      },
+      {
+        "date": "2021-04-30",
+        "shares": 352206525.0
+      },
+      {
+        "date": "2021-07-30",
+        "shares": 352427840.0
+      },
+      {
+        "date": "2021-10-29",
+        "shares": 352591505.0
+      },
+      {
+        "date": "2022-02-22",
+        "shares": 375991964.0
+      },
+      {
+        "date": "2022-04-29",
+        "shares": 376686144.0
+      },
+      {
+        "date": "2022-07-29",
+        "shares": 377038078.0
+      },
+      {
+        "date": "2022-10-28",
+        "shares": 377295546.0
+      },
+      {
+        "date": "2023-02-17",
+        "shares": 377640813.0
+      },
+      {
+        "date": "2023-04-24",
+        "shares": 379736270.0
+      },
+      {
+        "date": "2023-07-31",
+        "shares": 380527755.0
+      },
+      {
+        "date": "2023-10-23",
+        "shares": 381441500.0
+      },
+      {
+        "date": "2024-02-16",
+        "shares": 381970469.0
+      },
+      {
+        "date": "2024-04-22",
+        "shares": 374344987.0
+      },
+      {
+        "date": "2024-07-22",
+        "shares": 375147755.0
+      },
+      {
+        "date": "2024-10-21",
+        "shares": 375335992.0
+      },
+      {
+        "date": "2025-02-10",
+        "shares": 380775581.0
+      },
+      {
+        "date": "2025-04-21",
+        "shares": 381105178.0
+      },
+      {
+        "date": "2025-07-28",
+        "shares": 381866664.0
+      },
+      {
+        "date": "2025-10-20",
+        "shares": 382338313.0
+      },
+      {
+        "date": "2026-02-09",
+        "shares": 382598464.0
+      },
+      {
+        "date": "2026-04-20",
+        "shares": 384108816.0
+      },
+      {
+        "date": "2026-07-27",
+        "shares": 384988173.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12076,7 +13025,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "STX": {
@@ -12214,49 +13163,50 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1454000000.0,
         "netIncome": -184000000.0,
-        "endDate": "2023-09-29",
-        "opIncome": -129000000
+        "opIncome": -129000000,
+        "endDate": "2023-09-29"
       },
       {
         "period": "Q4'23",
         "revenue": 1555000000.0,
         "netIncome": -19000000.0,
-        "endDate": "2023-12-29",
-        "opIncome": 124000000
+        "opIncome": 124000000,
+        "endDate": "2023-12-29"
       },
       {
         "period": "Q1'24",
         "revenue": 1655000000.0,
         "netIncome": 25000000.0,
-        "endDate": "2024-03-29",
-        "opIncome": 143000000
+        "opIncome": 143000000,
+        "endDate": "2024-03-29"
       },
       {
         "period": "Q2'24",
         "revenue": 1887000000.0,
         "netIncome": 513000000.0,
+        "opIncome": 314000000,
         "endDate": "2024-06-28"
       },
       {
         "period": "Q3'24",
         "revenue": 2168000000.0,
         "netIncome": 305000000.0,
-        "endDate": "2024-09-27",
-        "opIncome": 403000000
+        "opIncome": 403000000,
+        "endDate": "2024-09-27"
       },
       {
         "period": "Q4'24",
         "revenue": 2325000000.0,
         "netIncome": 336000000.0,
-        "endDate": "2024-12-27",
-        "opIncome": 488000000
+        "opIncome": 488000000,
+        "endDate": "2024-12-27"
       },
       {
         "period": "Q1'25",
         "revenue": 2160000000.0,
         "netIncome": 340000000.0,
-        "endDate": "2025-03-28",
-        "opIncome": 431000000
+        "opIncome": 431000000,
+        "endDate": "2025-03-28"
       },
       {
         "period": "Q2'25",
@@ -12306,8 +13256,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2629000000.0,
         "netIncome": 549000000.0,
-        "endDate": "2025-12-31",
         "opIncome": 694000000,
+        "endDate": "2025-12-31",
         "eps": 2.600117,
         "ocf": 723000000.0,
         "capex": -116000000.0,
@@ -12327,8 +13277,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 2825000000.0,
         "netIncome": 593000000.0,
-        "endDate": "2026-03-31",
         "opIncome": 843000000,
+        "endDate": "2026-03-31",
         "eps": 3.270147,
         "ocf": 1114000000.0,
         "capex": -161000000.0,
@@ -12348,8 +13298,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 3112000000.0,
         "netIncome": 748000000.0,
-        "endDate": "2026-06-30",
         "opIncome": 998000000,
+        "endDate": "2026-06-30",
         "eps": 5.580251,
         "ocf": 1305000000.0,
         "capex": -187000000.0,
@@ -12469,9 +13419,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788940923.596877,
-    "_updated_label": "2026-09-09 17:02",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788943549.2028258,
+    "_updated_label": "2026-09-09 17:46",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12497,7 +13447,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788940941.326191,
+    "_yahoo_verified_at": 1788943567.120046,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
@@ -12634,40 +13584,42 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 3207598000.0,
         "netIncome": 169409000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 234983000
+        "opIncome": 234983000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 3439221000.0,
         "netIncome": 211517000.0,
+        "opIncome": 289196000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 3432276000.0,
         "netIncome": 197149000.0,
-        "endDate": "2024-03-31",
-        "opIncome": 259953000
+        "opIncome": 259953000.0,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 3666897000.0,
         "netIncome": 247572000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 332808000
+        "opIncome": 332808000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 3696924000.0,
         "netIncome": 270263000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 363538000
+        "opIncome": 363538000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 3770019000.0,
         "netIncome": 292161000.0,
+        "opIncome": 388564000.0,
         "endDate": "2024-12-31",
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
@@ -12679,16 +13631,16 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 3867372000.0,
         "netIncome": 240677000.0,
+        "opIncome": 318756000.0,
         "endDate": "2025-03-31",
-        "opIncome": 318756000,
         "otherNonOperating": 54000.0
       },
       {
         "period": "Q2'25",
         "revenue": 4304400000.0,
         "netIncome": 302160000.0,
+        "opIncome": 415212000.0,
         "endDate": "2025-06-30",
-        "opIncome": 415212000,
         "eps": 6.72,
         "ocf": 193687000.0,
         "capex": -28043000.0,
@@ -12704,8 +13656,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 4301529000.0,
         "netIncome": 295373000.0,
+        "opIncome": 405696000.0,
         "endDate": "2025-09-30",
-        "opIncome": 405696000,
         "eps": 6.57,
         "ocf": 475501000.0,
         "capex": -26657000.0,
@@ -12721,8 +13673,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 4513121000.0,
         "netIncome": 434607000.0,
+        "opIncome": 573754000.0,
         "endDate": "2025-12-31",
-        "opIncome": 428878000.0,
         "eps": 9.68,
         "ocf": 524404000.0,
         "capex": -31919000.0,
@@ -12738,8 +13690,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 4628233000.0,
         "netIncome": 305484000.0,
+        "opIncome": 403845000.0,
         "endDate": "2026-03-31",
-        "opIncome": 403845000,
         "eps": 6.84,
         "ocf": 558000.0,
         "capex": -28712000.0,
@@ -12770,9 +13722,108 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-23",
+        "shares": 54930617.0
+      },
+      {
+        "date": "2021-02-19",
+        "shares": 54796654.0
+      },
+      {
+        "date": "2021-04-27",
+        "shares": 54556403.0
+      },
+      {
+        "date": "2021-07-23",
+        "shares": 53753699.0
+      },
+      {
+        "date": "2021-10-22",
+        "shares": 53374384.0
+      },
+      {
+        "date": "2022-02-18",
+        "shares": 52666149.0
+      },
+      {
+        "date": "2022-04-22",
+        "shares": 51141944.0
+      },
+      {
+        "date": "2022-07-22",
+        "shares": 49348272.0
+      },
+      {
+        "date": "2022-10-21",
+        "shares": 47655251.0
+      },
+      {
+        "date": "2023-02-17",
+        "shares": 47687820.0
+      },
+      {
+        "date": "2023-04-21",
+        "shares": 47545740.0
+      },
+      {
+        "date": "2023-07-21",
+        "shares": 47135026.0
+      },
+      {
+        "date": "2023-10-23",
+        "shares": 47044440.0
+      },
+      {
+        "date": "2024-02-22",
+        "shares": 47064926.0
+      },
+      {
+        "date": "2024-04-19",
+        "shares": 46996241.0
+      },
+      {
+        "date": "2024-07-19",
+        "shares": 46657365.0
+      },
+      {
+        "date": "2024-10-25",
+        "shares": 46002059.0
+      },
+      {
+        "date": "2025-02-24",
+        "shares": 45472621.0
+      },
+      {
+        "date": "2025-04-24",
+        "shares": 44758004.0
+      },
+      {
+        "date": "2025-07-25",
+        "shares": 44764250.0
+      },
+      {
+        "date": "2025-10-24",
+        "shares": 44765864.0
+      },
+      {
+        "date": "2026-02-20",
+        "shares": 44532566.0
+      },
+      {
+        "date": "2026-04-23",
+        "shares": 44440278.0
+      },
+      {
+        "date": "2026-07-24",
+        "shares": 44109901.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12798,7 +13849,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "FIX": {
@@ -12937,55 +13988,57 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 1378124000.0,
         "netIncome": 105125000,
-        "endDate": "2023-09-30",
-        "opIncome": 135143000
+        "opIncome": 135143000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 1357566000.0,
         "netIncome": 91581000,
+        "opIncome": 120278000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 1537016000.0,
         "netIncome": 96319000,
-        "endDate": "2024-03-31",
-        "opIncome": 135460000
+        "opIncome": 135460000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 1810290000.0,
         "netIncome": 134009000,
-        "endDate": "2024-06-30",
-        "opIncome": 184670000
+        "opIncome": 184670000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 1812366000.0,
         "netIncome": 146235000,
-        "endDate": "2024-09-30",
-        "opIncome": 202884000
+        "opIncome": 202884000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 1867804000.0,
         "netIncome": 145870000,
+        "opIncome": 226355000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
         "revenue": 1831286000.0,
         "netIncome": 169289000,
-        "endDate": "2025-03-31",
-        "opIncome": 209098000
+        "opIncome": 209098000.0,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 2173319000.0,
         "netIncome": 230848000,
+        "opIncome": 299873000.0,
         "endDate": "2025-06-30",
-        "opIncome": 299873000,
         "eps": 6.53,
         "ocf": 252495000.0,
         "capex": -31273000.0,
@@ -13005,8 +14058,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 2450969000.0,
         "netIncome": 291615000,
+        "opIncome": 378874000.0,
         "endDate": "2025-09-30",
-        "opIncome": 378874000,
         "eps": 8.25,
         "ocf": 553271000.0,
         "capex": -35332000.0,
@@ -13026,8 +14079,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 2646067000.0,
         "netIncome": 330806000,
+        "opIncome": 426744000.0,
         "endDate": "2025-12-31",
-        "opIncome": 426350000.0,
         "eps": 9.37,
         "ocf": 468540000.0,
         "capex": -66090000.0,
@@ -13047,8 +14100,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 2865332000.0,
         "netIncome": 370378000,
+        "opIncome": 485718000.0,
         "endDate": "2026-03-31",
-        "opIncome": 485718000,
         "eps": 10.51,
         "ocf": 388828000.0,
         "capex": -147473000.0,
@@ -13089,9 +14142,108 @@ const FINANCIALS_DATA = {
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788337796.5482874,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "sharesOutstanding": [
+      {
+        "date": "2020-10-21",
+        "shares": 36394751.0
+      },
+      {
+        "date": "2021-02-19",
+        "shares": 36185179.0
+      },
+      {
+        "date": "2021-04-23",
+        "shares": 36285379.0
+      },
+      {
+        "date": "2021-07-23",
+        "shares": 36305194.0
+      },
+      {
+        "date": "2021-10-22",
+        "shares": 36041288.0
+      },
+      {
+        "date": "2022-02-18",
+        "shares": 35956839.0
+      },
+      {
+        "date": "2022-04-22",
+        "shares": 35983287.0
+      },
+      {
+        "date": "2022-07-22",
+        "shares": 35776204.0
+      },
+      {
+        "date": "2022-10-21",
+        "shares": 35760816.0
+      },
+      {
+        "date": "2023-02-16",
+        "shares": 35738041.0
+      },
+      {
+        "date": "2023-04-21",
+        "shares": 35767519.0
+      },
+      {
+        "date": "2023-07-21",
+        "shares": 35769739.0
+      },
+      {
+        "date": "2023-10-20",
+        "shares": 35714815.0
+      },
+      {
+        "date": "2024-02-16",
+        "shares": 35684609.0
+      },
+      {
+        "date": "2024-04-19",
+        "shares": 35721909.0
+      },
+      {
+        "date": "2024-07-19",
+        "shares": 35676594.0
+      },
+      {
+        "date": "2024-10-18",
+        "shares": 35592558.0
+      },
+      {
+        "date": "2025-02-14",
+        "shares": 35553062.0
+      },
+      {
+        "date": "2025-04-18",
+        "shares": 35274843.0
+      },
+      {
+        "date": "2025-07-18",
+        "shares": 35281452.0
+      },
+      {
+        "date": "2025-10-17",
+        "shares": 35271950.0
+      },
+      {
+        "date": "2026-02-13",
+        "shares": 35174967.0
+      },
+      {
+        "date": "2026-04-17",
+        "shares": 35202424.0
+      },
+      {
+        "date": "2026-07-17",
+        "shares": 35194329.0
+      }
+    ],
+    "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13117,7 +14269,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MOD": {
@@ -13258,48 +14410,50 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 620500000.0,
         "netIncome": 46500000.0,
-        "endDate": "2023-09-30",
-        "opIncome": 65700000
+        "opIncome": 65700000.0,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 561400000.0,
         "netIncome": 44400000.0,
-        "endDate": "2023-12-31",
-        "opIncome": 61700000
+        "opIncome": 61700000.0,
+        "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 603500000.0,
         "netIncome": 25800000.0,
+        "opIncome": 46800000.0,
         "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 661500000.0,
         "netIncome": 47300000.0,
-        "endDate": "2024-06-30",
-        "opIncome": 74400000
+        "opIncome": 74400000.0,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 658000000.0,
         "netIncome": 46100000.0,
-        "endDate": "2024-09-30",
-        "opIncome": 75300000
+        "opIncome": 75300000.0,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 616800000.0,
         "netIncome": 41000000.0,
+        "opIncome": 59300000.0,
         "endDate": "2024-12-31",
-        "opIncome": 59300000,
         "impairment": 0.0
       },
       {
         "period": "Q1'25",
         "revenue": 647200000.0,
         "netIncome": 49600000.0,
+        "opIncome": 74500000.0,
         "endDate": "2025-03-31",
         "otherNonOperating": -1100000.0
       },
@@ -13307,8 +14461,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'25",
         "revenue": 682800000.0,
         "netIncome": 51200000.0,
+        "opIncome": 75700000.0,
         "endDate": "2025-06-30",
-        "opIncome": 75700000,
         "eps": 0.95,
         "ocf": 27700000.0,
         "capex": -27500000.0,
@@ -13328,8 +14482,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 738900000.0,
         "netIncome": 44400000.0,
+        "opIncome": 73500000.0,
         "endDate": "2025-09-30",
-        "opIncome": 73500000,
         "eps": 0.83,
         "ocf": 1400000.0,
         "capex": -31900000.0,
@@ -13350,8 +14504,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 805000000.0,
         "netIncome": -47400000.0,
+        "opIncome": 89300000.0,
         "endDate": "2025-12-31",
-        "opIncome": 89300000,
         "eps": -0.9,
         "ocf": 24700000.0,
         "capex": -41800000.0,
@@ -13372,8 +14526,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 954400000.0,
         "netIncome": 73300000.0,
+        "opIncome": 103900000.0,
         "endDate": "2026-03-31",
-        "opIncome": 113000000.0,
         "eps": 1.36,
         "ocf": 194900000.0,
         "capex": -42100000.0,
@@ -13418,105 +14572,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-30",
-        "shares": 51147640
+        "shares": 51147640.0
       },
       {
         "date": "2021-01-29",
-        "shares": 51421276
+        "shares": 51421276.0
       },
       {
         "date": "2021-05-21",
-        "shares": 51626626
+        "shares": 51626626.0
       },
       {
         "date": "2021-07-30",
-        "shares": 51753022
+        "shares": 51753022.0
       },
       {
         "date": "2021-10-29",
-        "shares": 51853603
+        "shares": 51853603.0
       },
       {
         "date": "2022-01-28",
-        "shares": 51913896
+        "shares": 51913896.0
       },
       {
         "date": "2022-05-20",
-        "shares": 51970887
+        "shares": 51970887.0
       },
       {
         "date": "2022-07-29",
-        "shares": 52011473
+        "shares": 52011473.0
       },
       {
         "date": "2022-10-28",
-        "shares": 52099388
+        "shares": 52099388.0
       },
       {
         "date": "2023-01-27",
-        "shares": 52120189
+        "shares": 52120189.0
       },
       {
         "date": "2023-05-19",
-        "shares": 52065078
+        "shares": 52065078.0
       },
       {
         "date": "2023-07-28",
-        "shares": 52283256
+        "shares": 52283256.0
       },
       {
         "date": "2023-10-27",
-        "shares": 52242268
+        "shares": 52242268.0
       },
       {
         "date": "2024-01-26",
-        "shares": 52207750
+        "shares": 52207750.0
       },
       {
         "date": "2024-05-17",
-        "shares": 52322085
+        "shares": 52322085.0
       },
       {
         "date": "2024-07-26",
-        "shares": 52413580
+        "shares": 52413580.0
       },
       {
         "date": "2024-10-25",
-        "shares": 52503083
+        "shares": 52503083.0
       },
       {
         "date": "2025-01-31",
-        "shares": 52574000
+        "shares": 52574000.0
       },
       {
         "date": "2025-05-16",
-        "shares": 52391883
+        "shares": 52391883.0
       },
       {
         "date": "2025-07-25",
-        "shares": 52490229
+        "shares": 52490229.0
       },
       {
         "date": "2025-10-24",
-        "shares": 52648568
+        "shares": 52648568.0
       },
       {
         "date": "2026-01-30",
-        "shares": 52731197
+        "shares": 52731197.0
       },
       {
         "date": "2026-05-22",
-        "shares": 52815785
+        "shares": 52815785.0
       },
       {
         "date": "2026-07-24",
-        "shares": 53112708
+        "shares": 53112708.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788775585.600831,
-    "_updated_label": "2026-09-08 19:26",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13542,7 +14696,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788863183.2274134,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "BE": {
@@ -13677,40 +14831,42 @@ const FINANCIALS_DATA = {
         "period": "Q3'23",
         "revenue": 400268000.0,
         "netIncome": -168078000.0,
-        "endDate": "2023-09-30",
-        "opIncome": -103708000
+        "opIncome": -103708000,
+        "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
         "revenue": 356916000.0,
         "netIncome": 4117000.0,
+        "opIncome": 12938000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
         "revenue": 235298000.0,
         "netIncome": -56543000.0,
-        "endDate": "2024-03-31",
-        "opIncome": -49017000
+        "opIncome": -49017000,
+        "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
         "revenue": 335767000.0,
         "netIncome": -61185000.0,
-        "endDate": "2024-06-30",
-        "opIncome": -23128000
+        "opIncome": -23128000,
+        "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
         "revenue": 330399000,
         "netIncome": -14632000.0,
-        "endDate": "2024-09-30",
-        "opIncome": -9651000
+        "opIncome": -9651000,
+        "endDate": "2024-09-30"
       },
       {
         "period": "Q4'24",
         "revenue": 572393000.0,
         "netIncome": 105157000.0,
+        "opIncome": 104706000,
         "endDate": "2024-12-31",
         "specialIncomeCharges": 0.0
       },
@@ -13718,15 +14874,15 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 326021000.0,
         "netIncome": -23814000,
-        "endDate": "2025-03-31",
-        "opIncome": -19070000
+        "opIncome": -19070000,
+        "endDate": "2025-03-31"
       },
       {
         "period": "Q2'25",
         "revenue": 401242000.0,
         "netIncome": -42192000.0,
-        "endDate": "2025-06-30",
         "opIncome": -3503000,
+        "endDate": "2025-06-30",
         "eps": -0.18,
         "ocf": -213111000.0,
         "capex": -7245000.0,
@@ -13745,8 +14901,8 @@ const FINANCIALS_DATA = {
         "period": "Q3'25",
         "revenue": 519048000.0,
         "netIncome": -22960000.0,
-        "endDate": "2025-09-30",
         "opIncome": 7846000,
+        "endDate": "2025-09-30",
         "eps": -0.1,
         "ocf": 19669000.0,
         "capex": -12301000.0,
@@ -13765,8 +14921,8 @@ const FINANCIALS_DATA = {
         "period": "Q4'25",
         "revenue": 777683000.0,
         "netIncome": 1426000.0,
+        "opIncome": 87529000,
         "endDate": "2025-12-31",
-        "opIncome": 87529000.0,
         "eps": 0.0,
         "ocf": 418073000.0,
         "capex": -22954000.0,
@@ -13785,8 +14941,8 @@ const FINANCIALS_DATA = {
         "period": "Q1'26",
         "revenue": 751054000.0,
         "netIncome": 70653000,
-        "endDate": "2026-03-31",
         "opIncome": 72190000,
+        "endDate": "2026-03-31",
         "eps": 0.23,
         "ocf": 73610000.0,
         "capex": -26182000.0,
@@ -13830,53 +14986,53 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2023-11-01",
-        "shares": 224048769
+        "shares": 224048769.0
       },
       {
         "date": "2024-02-12",
-        "shares": 224973118
+        "shares": 224973118.0
       },
       {
         "date": "2024-05-07",
-        "shares": 227020024
+        "shares": 227020024.0
       },
       {
         "date": "2024-08-05",
-        "shares": 227643371
+        "shares": 227643371.0
       },
       {
         "date": "2024-11-04",
-        "shares": 228575978
+        "shares": 228575978.0
       },
       {
         "date": "2025-02-24",
-        "shares": 230398527
+        "shares": 230398527.0
       },
       {
         "date": "2025-04-25",
-        "shares": 232228606
+        "shares": 232228606.0
       },
       {
         "date": "2025-07-28",
-        "shares": 233997970
+        "shares": 233997970.0
       },
       {
         "date": "2025-10-22",
-        "shares": 236510755
+        "shares": 236510755.0
       },
       {
         "date": "2026-02-02",
-        "shares": 280548215
+        "shares": 280548215.0
       },
       {
         "date": "2026-04-24",
-        "shares": 284443868
+        "shares": 284443868.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788773541.552424,
-    "_updated_label": "2026-09-08 18:55",
-    "_data_quality_version": 3,
+    "_fetched_at": 1788942918.637417,
+    "_updated_label": "2026-09-09 17:38",
+    "_data_quality_version": 4,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13902,7 +15058,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788861350.4671218,
+    "_yahoo_verified_at": 1788943095.0431075,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   }
 };

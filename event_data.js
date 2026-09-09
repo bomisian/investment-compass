@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788941111.2008777,
+  "generatedAt": 1788943589.32066,
   "events": [
     {
       "id": "6f6bf1c515040cd0f8f4",
@@ -1284,6 +1284,7 @@ const EVENT_DATA = {
       "primaryTicker": "CEG",
       "relatedTickers": [
         "CEG",
+        "INTC",
         "META",
         "MSFT",
         "SPY"
@@ -1296,6 +1297,11 @@ const EVENT_DATA = {
         },
         {
           "name": "Meta",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Intel",
           "role": "기사에 직접 언급",
           "verification": "headline_or_analysis"
         }
@@ -1317,13 +1323,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
         "publishedAt": 1788911881,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META -0.53",
-        "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-        "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+        "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META -0.53",
+        "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
+        "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -3030,13 +3036,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-        "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+        "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+        "Skip to content ❚❚ At close S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.03% S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.",
+        "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -5165,13 +5171,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-        "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
+        "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+        "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
+        "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -5971,10 +5977,17 @@ const EVENT_DATA = {
       "primaryTicker": "CRM",
       "relatedTickers": [
         "CRM",
+        "INTC",
         "QQQ",
         "SPY"
       ],
-      "relatedEntities": [],
+      "relatedEntities": [
+        {
+          "name": "Intel",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
       "importance": "high",
       "sourceReliability": {
         "level": "medium",
@@ -5992,13 +6005,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.90% ) 8월 주가가 급등했습니다.",
-        "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
-        "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+        "Why Salesforce Stock Skyrocketed 40% Last Month | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce ( CRM -3.90% ) stock surged in August.",
+        "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
+        "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -8858,7 +8871,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11941,7 +11954,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
         "publishedAt": 1788642449,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12976,7 +12989,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17890,7 +17903,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
         "publishedAt": 1788525840,
-        "collectedAt": 1788920221.1685681
+        "collectedAt": 1788943132.2879486
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18646,11 +18659,13 @@ const EVENT_DATA = {
     ],
     "INTC": [
       "b54b2bcf45d80b733452",
+      "77971b9f71f162b25c53",
       "7bf7af3702ca5f729d0e",
       "0bc2606ab348dc670ab7",
       "a64dc11b6437ab1c8a7b",
       "85c131752a4ef95516d4",
       "2e31e49d8a1e4a76e3c5",
+      "ff270ce370ec2dac3d29",
       "8262825b785fe4ee46f5",
       "bbbe8d72d89c93623fe2",
       "6297cd2bd46a9a6ad3d0",

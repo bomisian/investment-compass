@@ -7407,7 +7407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -13488,7 +13488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -19415,7 +19415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -24577,9 +24577,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-09 17:02",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 136,
-      "removed": 1,
-      "updated": "2026-09-09 17:05"
+      "checked": 135,
+      "removed": 0,
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -31090,7 +31090,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -33354,7 +33354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -39334,7 +39334,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -44927,7 +44927,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -51529,7 +51529,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -57821,7 +57821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -62440,7 +62440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -66123,7 +66123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -68355,7 +68355,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -70878,7 +70878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -74551,7 +74551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -79245,7 +79245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -79276,9 +79276,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-            "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
+            "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
+            "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -79317,10 +79317,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
             "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
           ],
-          "analysisUpdatedAt": 1788920226.9138813
+          "analysisUpdatedAt": 1788943145.9073622
         },
         "headlineKo": "Salesforce의 랠리를 쫓기 전에 최신 수익 비트를 자세히 살펴보세요"
       },
@@ -79370,7 +79370,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920229.534389
+          "analysisUpdatedAt": 1788943147.741819
         },
         "headlineKo": "Salesforce 주식은 한 달 만에 34% 상승합니다. 이익을 보유할 시간인가요, 아니면 예약할 시간인가요?"
       },
@@ -79390,9 +79390,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.90% ) 8월 주가가 급등했습니다.",
-            "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
-            "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+            "Why Salesforce Stock Skyrocketed 40% Last Month | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce ( CRM -3.90% ) stock surged in August.",
+            "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
+            "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -79434,7 +79434,7 @@ const NEWS_DATA = {
             "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
             "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
           ],
-          "analysisUpdatedAt": 1788920232.0810966
+          "analysisUpdatedAt": 1788943152.999077
         },
         "headlineKo": "지난 달 세일즈포스 주가가 40% 급등한 이유"
       },
@@ -79476,9 +79476,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-            "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
+            "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
+            "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -79517,10 +79517,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Before You Chase Salesforce's Rally, Take a Closer Look at Its Latest Earnings Beat - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.01% S&P 500 7,680.20 +0.08% Dow Jones 52,787.30 +0.04% Nasdaq 100 29,544.60 +0.15% Russell 2000 2,960.94 −0.",
             "By Omor Ibne Ehsan Published September 8, 2026, 9:37am ET · 3 min read 𝕏 f ⧉ © Wikimedia Commons Salesforce ( NYSE:CRM | CRM Price Prediction ) shares have run hard since the company reported fiscal second-quarter results on August 26, 2026"
           ],
-          "analysisUpdatedAt": 1788920226.9138813
+          "analysisUpdatedAt": 1788943145.9073622
         }
       },
       {
@@ -79569,7 +79569,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920229.534389
+          "analysisUpdatedAt": 1788943147.741819
         }
       },
       {
@@ -79588,9 +79588,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.90% ) 8월 주가가 급등했습니다.",
-            "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
-            "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
+            "Why Salesforce Stock Skyrocketed 40% Last Month | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce ( CRM -3.90% ) stock surged in August.",
+            "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
+            "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -79632,7 +79632,7 @@ const NEWS_DATA = {
             "The company's share price rocketed higher by 40% across the period amid a 2.6% gain for the S&P 500 and a 3.9% gain for the Nasdaq Composite .",
             "Last month was generally a strong one for companies with positive exposure to artificial intelligence (AI) trends, and Salesforce's quarterly report finally helped investors see it as part of that category."
           ],
-          "analysisUpdatedAt": 1788920232.0810966
+          "analysisUpdatedAt": 1788943152.999077
         }
       },
       {
@@ -82949,17 +82949,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788920221.1685681,
-    "_updated_label": "2026-09-09 11:17",
+    "_fetched_at": 1788943132.2879486,
+    "_updated_label": "2026-09-09 17:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
-    "_last_attempt_at": 1788920221.1685681,
+    "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
-    "_last_success_at": 1788920221.1685681,
+    "_last_success_at": 1788943132.2879486,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -87666,7 +87666,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -90201,7 +90201,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -90232,9 +90232,9 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-            "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+            "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.03% S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.",
+            "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -90273,10 +90273,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.03% S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.",
             "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
-          "analysisUpdatedAt": 1788920243.031887
+          "analysisUpdatedAt": 1788943169.2012877
         },
         "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다."
       },
@@ -90326,7 +90326,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920245.4531455
+          "analysisUpdatedAt": 1788943171.203754
         },
         "headlineKo": "Arm, AI 범위를 데이터 센터에서 엣지 장치로 확장"
       },
@@ -90376,7 +90376,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920247.5890365
+          "analysisUpdatedAt": 1788943173.2706
         },
         "headlineKo": "Arm CEO는 AI가 결국 암과 신약 발견을 해독할 수 있다고 말하지만 이것이 방해가 되는 요인이라고 말합니다."
       },
@@ -90418,9 +90418,9 @@ const NEWS_DATA = {
           "label": "목표주가 변경 · 근거 확인",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
-            "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+            "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.03% S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.",
+            "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
           "why": [
             "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -90459,10 +90459,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.03% S&P 500 7,684.20 +0.13% Dow Jones 52,803.80 +0.07% Nasdaq 100 29,573.00 +0.24% Russell 2000 2,961.89 +0.",
             "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
-          "analysisUpdatedAt": 1788920243.031887
+          "analysisUpdatedAt": 1788943169.2012877
         }
       },
       {
@@ -90511,7 +90511,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920245.4531455
+          "analysisUpdatedAt": 1788943171.203754
         }
       },
       {
@@ -90560,7 +90560,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920247.5890365
+          "analysisUpdatedAt": 1788943173.2706
         }
       },
       {
@@ -91795,17 +91795,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788920221.1685681,
-    "_updated_label": "2026-09-09 11:17",
+    "_fetched_at": 1788943132.2879486,
+    "_updated_label": "2026-09-09 17:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
-    "_last_attempt_at": 1788920221.1685681,
+    "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
-    "_last_success_at": 1788920221.1685681,
+    "_last_success_at": 1788943132.2879486,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -96286,7 +96286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -98320,7 +98320,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -100218,7 +100218,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -101854,7 +101854,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -107006,7 +107006,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -108830,7 +108830,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -110645,7 +110645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -112286,7 +112286,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -114036,7 +114036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -115928,7 +115928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -115959,9 +115959,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META -0.53",
-            "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-            "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META -0.53",
+            "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
+            "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -116003,7 +116003,7 @@ const NEWS_DATA = {
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1788920258.4337654
+          "analysisUpdatedAt": 1788943180.7400322
         },
         "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
       },
@@ -116023,9 +116023,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG +0.03% )는 미국 최대 규모를 운영하고 있습니다.",
-            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
+            "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.03% ) operates the largest U.S.",
+            "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -116067,7 +116067,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.03% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788920261.8307025
+          "analysisUpdatedAt": 1788943186.0329077
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -116117,7 +116117,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920263.0790248
+          "analysisUpdatedAt": 1788943187.0825324
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -116159,9 +116159,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META -0.53",
-            "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-            "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META -0.53",
+            "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
+            "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -116203,7 +116203,7 @@ const NEWS_DATA = {
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1788920258.4337654
+          "analysisUpdatedAt": 1788943180.7400322
         }
       },
       {
@@ -116222,9 +116222,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG +0.03% )는 미국 최대 규모를 운영하고 있습니다.",
-            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
+            "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.03% ) operates the largest U.S.",
+            "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -116266,7 +116266,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG +0.03% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788920261.8307025
+          "analysisUpdatedAt": 1788943186.0329077
         }
       },
       {
@@ -116315,7 +116315,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788920263.0790248
+          "analysisUpdatedAt": 1788943187.0825324
         }
       },
       {
@@ -117107,17 +117107,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788920221.1685681,
-    "_updated_label": "2026-09-09 11:17",
+    "_fetched_at": 1788943132.2879486,
+    "_updated_label": "2026-09-09 17:39",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
-    "_last_attempt_at": 1788920221.1685681,
+    "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
-    "_last_success_at": 1788920221.1685681,
+    "_last_success_at": 1788943132.2879486,
     "_collection_status": "ok"
   },
   "VST": {
@@ -118698,7 +118698,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -120374,7 +120374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -121604,7 +121604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -122193,7 +122193,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788927704.958209,
     "_earnings_status": "ok",
@@ -124734,7 +124734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -125374,7 +125374,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -126642,7 +126642,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -127644,7 +127644,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -128880,7 +128880,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -129620,7 +129620,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-09 17:05"
+      "updated": "2026-09-09 17:39"
     },
     "_fetched_at": 1788935116.3151767,
     "_updated_label": "2026-09-09 15:29",
