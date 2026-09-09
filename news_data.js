@@ -7407,7 +7407,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -13488,7 +13488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -19415,7 +19415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -24579,7 +24579,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -24655,7 +24655,8 @@ const NEWS_DATA = {
             "Marvell Chairman and CEO Matt Murphy delivers a keynote speech during COMPUTEX on June 02, 2026 in Taipei, Taiwan."
           ],
           "analysisUpdatedAt": 1788940978.1177895
-        }
+        },
+        "headlineKo": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'"
       },
       {
         "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
@@ -24718,7 +24719,8 @@ const NEWS_DATA = {
             "The logo of the Qualcomm at the Mobile World Congress 2024."
           ],
           "analysisUpdatedAt": 1788940982.963603
-        }
+        },
+        "headlineKo": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'"
       },
       {
         "headline": "Jeff Bezos Remains Amazon's Largest Individual Shareholder With Roughly 900 Million Shares. Here's Why That Stake Still Anchors the Stock.",
@@ -24781,7 +24783,8 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool It's hard to remember that Amazon ( AMZN -0.60% ) started as an online bookseller in 1994."
           ],
           "analysisUpdatedAt": 1788940987.9341106
-        }
+        },
+        "headlineKo": "제프 베조스는 약 9억 주를 보유한 아마존 최대 개인 주주로 남아 있습니다. 그 스테이크가 여전히 주식을 고정하는 이유는 다음과 같습니다."
       },
       {
         "headline": "Jim Cramer Says Amazon and Alphabet Are Cheap. Their Cash Flows Complicate the Case",
@@ -31090,7 +31093,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -33354,7 +33357,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -33434,7 +33437,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788941011.1786308
-        }
+        },
+        "headlineKo": "Broadcom의 $ 230 Billion AI Bet Gets Real"
       },
       {
         "headline": "Applied Materials, AMD, Broadcom, Lam Research, and Marvell Technology Shares Skyrocket, What You Need To Know",
@@ -33483,7 +33487,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788941013.4930854
-        }
+        },
+        "headlineKo": "응용 재료, AMD, Broadcom, Lam Research 및 Marvell Technology 주식 급증, 알아야 할 사항"
       },
       {
         "headline": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus",
@@ -39334,7 +39339,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 149,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -44927,7 +44932,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -45003,7 +45008,8 @@ const NEWS_DATA = {
             "Visitors and pedestrians look at a new Tesla Cybercab outside ACL Live on Thursday, Sep."
           ],
           "analysisUpdatedAt": 1788941000.0082903
-        }
+        },
+        "headlineKo": "머스크가 사이버 캡 속도를 높이고 캐시 우드의 방주가 수조 달러를 앞당기면서 TSLA 주식은 하룻밤 사이에 미끄러집니다."
       },
       {
         "headline": "Tesla Cybercab Could Beat Waymo on Cost by Up to 30 Cents A Mile, Goldman Says",
@@ -51529,7 +51535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 183,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -57821,7 +57827,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -62440,7 +62446,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -66123,7 +66129,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 106,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -68355,7 +68361,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -70878,7 +70884,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -70935,7 +70941,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788940948.9924333
-        }
+        },
+        "headlineKo": "주식 시장: 오늘 S&P 500이 열릴까요? 아니면 열리지 않을까요?"
       },
       {
         "headline": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus",
@@ -74551,7 +74558,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -79245,7 +79252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 114,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -82955,7 +82962,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
@@ -87666,7 +87673,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -87742,7 +87749,8 @@ const NEWS_DATA = {
             "Marvell Chairman and CEO Matt Murphy delivers a keynote speech during COMPUTEX on June 02, 2026 in Taipei, Taiwan."
           ],
           "analysisUpdatedAt": 1788941028.5874712
-        }
+        },
+        "headlineKo": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'"
       },
       {
         "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
@@ -87805,7 +87813,8 @@ const NEWS_DATA = {
             "The logo of the Qualcomm at the Mobile World Congress 2024."
           ],
           "analysisUpdatedAt": 1788941033.8467655
-        }
+        },
+        "headlineKo": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'"
       },
       {
         "headline": "Intel, Amkor, Nova, Qualcomm, and FormFactor Stocks Trade Up, What You Need To Know",
@@ -87854,7 +87863,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788941035.4317405
-        }
+        },
+        "headlineKo": "Intel, Amkor, Nova, Qualcomm 및 FormFactor 주식 거래, 알아야 할 사항"
       },
       {
         "headline": "Qualcomm: The Market Is Underestimating Its AI Data Center Opportunity",
@@ -87863,7 +87873,8 @@ const NEWS_DATA = {
         "datetime": 1788915256,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Qualcomm: 시장은 AI 데이터 센터 기회를 과소평가하고 있습니다."
       },
       {
         "headline": "S&P 500, Dow End Lower As Middle East Tensions Spur Oil Rally Ahead Of Key Inflation Data — META, QCOM, BE, AMZN, AVGO In Focus",
@@ -90201,7 +90212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -91801,7 +91812,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
@@ -96286,7 +96297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 107,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -98320,7 +98331,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -100218,7 +100229,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -101854,7 +101865,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -107006,7 +107017,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -108830,7 +108841,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788923969.5077567,
     "_earnings_status": "ok",
@@ -110645,7 +110656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -112286,7 +112297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -114036,7 +114047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -115928,7 +115939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -117113,7 +117124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788943132.2879486,
     "_earnings_status": "ok",
@@ -118698,7 +118709,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -120374,7 +120385,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -121604,7 +121615,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -122193,7 +122204,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788927704.958209,
     "_earnings_status": "ok",
@@ -122254,7 +122265,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1788941096.1095653
-        }
+        },
+        "headlineKo": "Vertiv (VRT) 는 UtilityInnovation을 위해 최대 $ 26억 상당의 거래를 체결했습니다. 더 빠른 전력 배치가 임시 배려를 정당화할 수 있습니까?"
       },
       {
         "headline": "Vertiv Holdings Co (VRT) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
@@ -124734,7 +124746,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -125374,7 +125386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788940945.7406142,
     "_earnings_status": "ok",
@@ -126642,7 +126654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -127644,7 +127656,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -128880,7 +128892,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_last_attempt_at": 1788935116.3151767,
     "_earnings_status": "ok",
@@ -129620,7 +129632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-09 17:39"
+      "updated": "2026-09-09 18:11"
     },
     "_fetched_at": 1788935116.3151767,
     "_updated_label": "2026-09-09 15:29",

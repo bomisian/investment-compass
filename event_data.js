@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788943589.32066,
+  "generatedAt": 1788945086.635453,
   "events": [
     {
       "id": "6f6bf1c515040cd0f8f4",
@@ -192,7 +192,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
-      "headlineKo": "",
+      "headlineKo": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176",
@@ -574,7 +574,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vertiv (VRT) Signed a Deal Worth Up to $2.6B for UtilityInnovation. Can Faster Power Deployment Justify the Contingent Consideration?",
-      "headlineKo": "",
+      "headlineKo": "Vertiv (VRT) 는 UtilityInnovation을 위해 최대 $ 26억 상당의 거래를 체결했습니다. 더 빠른 전력 배치가 임시 배려를 정당화할 수 있습니까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6e4877c3a6239de203dfc5da8b185d6a273095e50eb3d947b4f534c80ceb293d",
@@ -728,7 +728,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
-      "headlineKo": "",
+      "headlineKo": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=3041b1c4bda12a438d0c620773885af635e1fc6f2d0a9574ac77211ba844c534",
@@ -806,7 +806,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "TSLA Stock Slips Overnight Even As Musk Hypes Cybercab Speed And Cathie Wood’s ARK Sees Trillions Ahead",
-      "headlineKo": "",
+      "headlineKo": "머스크가 사이버 캡 속도를 높이고 캐시 우드의 방주가 수조 달러를 앞당기면서 TSLA 주식은 하룻밤 사이에 미끄러집니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=201d0df4e84abddf20f34b946b134d6b411693a51a5e9b485b85e159085d9f00",
@@ -962,7 +962,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Broadcom's $230 Billion AI Bet Gets Real",
-      "headlineKo": "",
+      "headlineKo": "Broadcom의 $ 230 Billion AI Bet Gets Real",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=da14b8db1d35ac51598ece4512c2c3e61af41d763d7ddb78a3383312b647cab4",

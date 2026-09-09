@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788943589.397831,
+  "generatedAt": 1788945086.6899323,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788911881,
       "signal": "우호적 변화",
       "netScore": 5.45,
@@ -143,7 +143,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788903949,
       "signal": "주의 강화",
       "netScore": -2.86,
@@ -268,7 +268,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788920477,
       "signal": "우호적 변화",
       "netScore": 9.58,
@@ -318,7 +318,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7cad3b1e74bd6e47cf6a",
-          "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
+          "headline": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1788920477,
           "verificationStatus": "needs_confirmation",
@@ -489,7 +489,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788915628,
       "signal": "주의 강화",
       "netScore": -7.15,
@@ -680,7 +680,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788917238,
       "signal": "주의 강화",
       "netScore": -10,
@@ -902,7 +902,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788894831,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1121,7 +1121,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788912898,
       "signal": "우호적 변화",
       "netScore": 3.0,
@@ -1313,7 +1313,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -1367,7 +1367,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788906699,
       "signal": "중립·확인 대기",
       "netScore": 0.84,
@@ -1532,7 +1532,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788917798,
       "signal": "우호적 변화",
       "netScore": 8.24,
@@ -1582,7 +1582,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ee41ee3cd30ab9f96eb2",
-          "headline": "Broadcom's $230 Billion AI Bet Gets Real",
+          "headline": "Broadcom의 $ 230 Billion AI Bet Gets Real",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1788917798,
           "verificationStatus": "needs_confirmation",
@@ -1746,7 +1746,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788922133,
       "signal": "우호적 변화",
       "netScore": 4.19,
@@ -1809,7 +1809,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "ee41ee3cd30ab9f96eb2",
-          "headline": "Broadcom's $230 Billion AI Bet Gets Real",
+          "headline": "Broadcom의 $ 230 Billion AI Bet Gets Real",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1788917798,
           "verificationStatus": "needs_confirmation",
@@ -1961,7 +1961,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788917798,
       "signal": "주의 강화",
       "netScore": -2.8,
@@ -2011,7 +2011,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ee41ee3cd30ab9f96eb2",
-          "headline": "Broadcom's $230 Billion AI Bet Gets Real",
+          "headline": "Broadcom의 $ 230 Billion AI Bet Gets Real",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1788917798,
           "verificationStatus": "needs_confirmation",
@@ -2139,7 +2139,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788926319,
       "signal": "주의 강화",
       "netScore": -5.43,
@@ -2189,7 +2189,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "0ec669080706ad0f225b",
-          "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+          "headline": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1788926319,
           "verificationStatus": "needs_confirmation",
@@ -2201,7 +2201,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7cad3b1e74bd6e47cf6a",
-          "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
+          "headline": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1788920477,
           "verificationStatus": "needs_confirmation",
@@ -2358,7 +2358,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788926319,
       "signal": "중립·확인 대기",
       "netScore": 1.04,
@@ -2408,7 +2408,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "0ec669080706ad0f225b",
-          "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+          "headline": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1788926319,
           "verificationStatus": "needs_confirmation",
@@ -2420,7 +2420,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7cad3b1e74bd6e47cf6a",
-          "headline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
+          "headline": "QCOM Stock Extends Gains Overnight: 애널리스트, Amazon AI 거래 'Qualcomm의 미적분 변경'",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1788920477,
           "verificationStatus": "needs_confirmation",
@@ -2434,7 +2434,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "263d8b1c8f450828b155",
-          "headline": "TSLA Stock Slips Overnight Even As Musk Hypes Cybercab Speed And Cathie Wood’s ARK Sees Trillions Ahead",
+          "headline": "머스크가 사이버 캡 속도를 높이고 캐시 우드의 방주가 수조 달러를 앞당기면서 TSLA 주식은 하룻밤 사이에 미끄러집니다.",
           "eventLabel": "실적 발표",
           "publishedAt": 1788919508,
           "verificationStatus": "needs_confirmation",
@@ -2477,7 +2477,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788926319,
       "signal": "주의 강화",
       "netScore": -3.43,
@@ -2527,7 +2527,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "0ec669080706ad0f225b",
-          "headline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+          "headline": "CEO가 Qualcomm-Amazon의 위협을 뿌리치면서 MRVL 주식은 계속 상승하고 있습니다: '우리는 이 전체 시장의 스위스입니다'",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1788926319,
           "verificationStatus": "needs_confirmation",
@@ -2614,7 +2614,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788925507,
       "signal": "주의 강화",
       "netScore": -2.66,
@@ -2802,7 +2802,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788925507,
       "signal": "주의 강화",
       "netScore": -4.4,
@@ -2939,7 +2939,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788874341,
       "signal": "중립·확인 대기",
       "netScore": 0.21,
@@ -3023,7 +3023,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3077,7 +3077,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3131,7 +3131,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3185,7 +3185,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788917798,
       "signal": "우호적 변화",
       "netScore": 4.19,
@@ -3235,7 +3235,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "ee41ee3cd30ab9f96eb2",
-          "headline": "Broadcom's $230 Billion AI Bet Gets Real",
+          "headline": "Broadcom의 $ 230 Billion AI Bet Gets Real",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1788917798,
           "verificationStatus": "needs_confirmation",
@@ -3401,7 +3401,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788911158,
       "signal": "중립·확인 대기",
       "netScore": 0.92,
@@ -3498,7 +3498,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788917238,
       "signal": "주의 강화",
       "netScore": -10,
@@ -3637,7 +3637,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788531003,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3705,7 +3705,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788538833,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -3774,7 +3774,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788787822,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -3858,7 +3858,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788523200,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3927,7 +3927,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788911881,
       "signal": "우호적 변화",
       "netScore": 2.09,
@@ -3996,7 +3996,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788893400,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -4065,7 +4065,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4119,7 +4119,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4173,7 +4173,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4227,7 +4227,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788924655,
       "signal": "중립·확인 대기",
       "netScore": 1.12,
@@ -4277,7 +4277,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "a7fee38538a1544aa485",
-          "headline": "Vertiv (VRT) Signed a Deal Worth Up to $2.6B for UtilityInnovation. Can Faster Power Deployment Justify the Contingent Consideration?",
+          "headline": "Vertiv (VRT) 는 UtilityInnovation을 위해 최대 $ 26억 상당의 거래를 체결했습니다. 더 빠른 전력 배치가 임시 배려를 정당화할 수 있습니까?",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1788924655,
           "verificationStatus": "needs_confirmation",
@@ -4352,7 +4352,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4406,7 +4406,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 1788911862,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4475,7 +4475,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4529,7 +4529,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4583,7 +4583,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1788943589.397831,
+      "updatedAt": 1788945086.6899323,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
