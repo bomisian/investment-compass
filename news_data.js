@@ -7349,7 +7349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -13202,7 +13202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 156,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788901224.8735104,
     "_earnings_status": "ok",
@@ -18982,7 +18982,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -24146,7 +24146,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -30450,7 +30450,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -32521,7 +32521,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -32754,6 +32754,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5",
         "datetime": 1788907599,
+        "headlineKo": "S&P 500, 다우지수는 중동 긴장으로 주요 인플레이션 데이터에 앞서 유가 반등에 박차를 가하면서 하락 마감 — META, QCOM, BE, AMZN, AVGO 집중",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -32816,6 +32817,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dc40c139926b5ff2051be84ab554f3af3871e90861ea3a2942e216cc5dac9983",
         "datetime": 1788901937,
+        "headlineKo": "Nvidia와 Broadcom: 최근 분기별 수익 궤적 비교",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -32878,6 +32880,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7fff043b579798030768e1c5e453791e812be970d54e6fcf21b4aad8c3e576bf",
         "datetime": 1788901324,
+        "headlineKo": "Broadcom CEO, AI 가치가 프론티어 모델과 맞춤형 칩으로 흘러가는 것을 확인",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -32939,6 +32942,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d739d186225075e9056a68cc4ae547229f640d03a5923e585c062ac070f8f2e0",
         "datetime": 1788900585,
+        "headlineKo": "인텔, Qualcomm, AMD 및 Broadcom 주식 급등으로 칩 주식 랠리 주도",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -32947,6 +32951,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=cb79f84a803f9fe11e6c13ed9e2ec56c212ba128d14cee05b601b47ef9cb7fef",
         "datetime": 1788895530,
+        "headlineKo": "Broadcom Inc.(AVGO), Goldman Sachs Communacopia + Technology Conference 2026에서 발표",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -38393,7 +38398,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -43831,7 +43836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -50358,7 +50363,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -50824,6 +50829,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e840de6c3e3b8f8ad7453a5c1174ae3f5e3348e614cd098f6600218f0452b8ee",
         "datetime": 1788908442,
+        "headlineKo": "Druckenmiller는 Micron을 종료하고 Alphabet을 인수했습니다. AI 위험이 그와 함께 움직였습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -50872,6 +50878,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7331dd1d522511618aaef8ef85c9a8837a56e2d2cc0e1a4e32474fe9b0067faf",
         "datetime": 1788903907,
+        "headlineKo": "마이크론(MU)은 더 넓은 시장보다 더 가파르게 하락합니다: 투자자가 알아야 할 사항",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -50920,6 +50927,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d25a76745ee3c6e6a5a63128880017b026becb8db6e54b1b2af14f6030e27c10",
         "datetime": 1788903228,
+        "headlineKo": "Goldman이 새로운 메모리 주식 반등을 목격하면서 Micron과 Sandisk가 급등했습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -50968,6 +50976,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=978c5ad7fb30ebe61cedfa75169d8e1c7be1f3564078c6ea56e8d36a0832a2d2",
         "datetime": 1788903111,
+        "headlineKo": "Goldman은 Micron과 SanDisk의 최악의 상황이 끝났을 수 있다고 말합니다",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -50976,6 +50985,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f19ff9cc5d1c016329b626a5d120cd84c64374d18d22accf5c3b072231faf995",
         "datetime": 1788897000,
+        "headlineKo": "지금 마이크론 주식을 구매할 생각이신가요? 여기에 녹색 깃발 1개와 빨간색 깃발 1개가 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -56645,7 +56655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -61070,7 +61080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 111,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -64626,7 +64636,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -66816,7 +66826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788901224.8735104,
     "_earnings_status": "ok",
@@ -69262,7 +69272,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -72947,7 +72957,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 91,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -77478,7 +77488,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -81188,7 +81198,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -85852,7 +85862,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -86072,6 +86082,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a315f6709959f09b7975b57023eb1f1e42c8aa9255c8cb764863fc87b4c164c5",
         "datetime": 1788907599,
+        "headlineKo": "S&P 500, 다우지수는 중동 긴장으로 주요 인플레이션 데이터에 앞서 유가 반등에 박차를 가하면서 하락 마감 — META, QCOM, BE, AMZN, AVGO 집중",
         "relevance": 0.75,
         "keywordFlag": false,
         "analysis": {
@@ -86134,6 +86145,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d739d186225075e9056a68cc4ae547229f640d03a5923e585c062ac070f8f2e0",
         "datetime": 1788900585,
+        "headlineKo": "인텔, Qualcomm, AMD 및 Broadcom 주식 급등으로 칩 주식 랠리 주도",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -86182,6 +86194,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d074005398165f4fdce3ce9bd2a0c0cbfeb772fd357f06116a8d0623543ab3bf",
         "datetime": 1788900476,
+        "headlineKo": "오늘 Qualcomm 주식이 상승한 이유",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -86244,6 +86257,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0560608ed226a2e56da6e0c255e0c9f7fcda7e41cfca2b4816ce1de925aa4221",
         "datetime": 1788896700,
+        "headlineKo": "운영 방식: Qualcomm CEO Cristiano Amon",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -86252,6 +86266,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=bfed8d42d354572b8f6ff51f9f70c460c24667c11a9a2585a2c7bc939fe30fc3",
         "datetime": 1788896168,
+        "headlineKo": "퀄컴은 위기에 처해 있나요? QCOM의 2026년 컴백 내부 및 가장 많은 보유 ETF",
         "relevance": 1,
         "keywordFlag": false
       },
@@ -88206,7 +88221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 55,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -89806,7 +89821,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -94160,7 +94175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 104,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -96145,7 +96160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -97994,7 +98009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -99630,7 +99645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -104705,7 +104720,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 134,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -106482,7 +106497,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788901224.8735104,
     "_earnings_status": "ok",
@@ -108220,7 +108235,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -109861,7 +109876,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -111611,7 +111626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -111803,6 +111818,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=54f050183fb92f9af8d07c6a4f5d4443413f82cd862ee103022a11f618a6897d",
         "datetime": 1788908799,
+        "headlineKo": "Jim Cramer는 GE Vernova(GEV)와 NuScale Power(SMR)에 대해 의견을 제시합니다.",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -113502,7 +113518,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -114687,7 +114703,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788920221.1685681,
     "_earnings_status": "ok",
@@ -116272,7 +116288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -117948,7 +117964,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -118140,6 +118156,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=676c9ccc9ec1e45177660737b29962b48a52aa01820b0c79629df11068f9449b",
         "datetime": 1788904803,
+        "headlineKo": "시장 침체로 Quanta Services(PWR) 상승: 주요 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -119177,7 +119194,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -119766,7 +119783,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788904824.4191115,
     "_earnings_status": "ok",
@@ -119971,6 +119988,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=23705c21f69cbaa4ea4675360a1f43648d438eb7e1a15f05bca3b5745809c135",
         "datetime": 1788888334,
+        "headlineKo": "Vertiv Holdings Co(VRT), Goldman Sachs Communacopia + Technology Conference 2026에서 발표",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -122275,7 +122293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 54,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -122456,6 +122474,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ffc5831456b58d76ce2c11031c0cd8954b599e783d4dc9ad888c5158886512df",
         "datetime": 1788903902,
+        "headlineKo": "Modine(MOD)은 더 넓은 시장보다 더 심각한 하락을 보고 있습니다: 알아야 할 몇 가지 사실",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -122914,7 +122933,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788918161.13676,
     "_earnings_status": "ok",
@@ -124105,7 +124124,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -125107,7 +125126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -126343,7 +126362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_last_attempt_at": 1788912044.213875,
     "_earnings_status": "ok",
@@ -126957,7 +126976,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-09 11:17"
+      "updated": "2026-09-09 11:48"
     },
     "_fetched_at": 1788912044.213875,
     "_updated_label": "2026-09-09 09:05",
