@@ -1,8 +1,91 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788918371.869155,
+  "generatedAt": 1788920267.5268593,
   "events": [
+    {
+      "id": "77971b9f71f162b25c53",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "CEG",
+      "relatedTickers": [
+        "CEG",
+        "META",
+        "MSFT",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Microsoft",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Meta",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
+      "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
+        "publishedAt": 1788911881,
+        "collectedAt": 1788920221.1685681
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META -0.53",
+        "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
+        "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+      ],
+      "marketInterpretation": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $299, $412.70., 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $299, $412.70., 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CEG",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "공식 매출·EPS 가이던스",
+        "컨센서스 추정치 변경",
+        "마진·FCF 전망"
+      ]
+    },
     {
       "id": "2b2c3a2549b83c099888",
       "schemaVersion": 1,
@@ -682,7 +765,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Qualcomm Stock Is Up Today",
-      "headlineKo": "",
+      "headlineKo": "오늘 Qualcomm 주식이 상승한 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d074005398165f4fdce3ce9bd2a0c0cbfeb772fd357f06116a8d0623543ab3bf",
@@ -1356,12 +1439,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
         "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
       ],
       "marketInterpretation": [
@@ -3361,12 +3444,12 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "Salesforce의 반등을 쫓기 전에 최신 수익 기록을 자세히 살펴보세요 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,681.40 −0.27% Dow Jones 52,787.40 −0.51% Nasdaq 100 29,488.60 −0.28% Russell 2000 2,961.66 −0.16% S&P 500 7,681.40 −0.27% 다우존스 52,787.40 −0.51% 나스닥 100 29,488.60 −0.28% 러셀 2000 2,961.66 −0.",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,680.60 +0.08% Dow Jones 52,755.80 −0.02% Nasdaq 100 29,580.00 +0.27% Russell 2000 2,962.64 +0.05% S&P 500 7,680.60 +0.08% 다우존스 52,755.80 −0.02% 나스닥 100 29,580.00 +0.27% 러셀 2000 2,962.64 +0.",
         "작성자: Omor Ibne Ehsan 2026년 9월 8일 오전 9시 37분(ET) 게시 · 3분 읽기 𝕏 f ⧉ © Wikimedia Commons Salesforce( NYSE:CRM ​​| CRM Price Prediction ) 회사가 2026년 8월 26일 회계연도 2분기 실적을 보고한 이후 주가가 급등했습니다."
       ],
       "marketInterpretation": [
@@ -4188,11 +4271,11 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.81% ) 8월 주가가 급등했습니다.",
+        "지난 달 Salesforce 주가가 40% 급등한 이유 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Salesforce( CRM -3.90% ) 8월 주가가 급등했습니다.",
         "회사의 주가는 S&P 500이 2.6%, Nasdaq Composite가 3.9% 상승하는 가운데 해당 기간 동안 40% 급등했습니다.",
         "지난 달은 일반적으로 인공지능(AI) 트렌드에 긍정적인 노출을 보인 기업들에게 강세를 보였으며 Salesforce의 분기별 보고서는 마침내 투자자들이 이를 해당 카테고리의 일부로 인식하는 데 도움이 되었습니다."
       ],
@@ -6954,7 +7037,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10037,7 +10120,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6938233ad8573bf277fe21e879fa2c7e53cc3b56b81aea80cbee7462b30e9806",
         "publishedAt": 1788642449,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -11072,7 +11155,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e5a2f5b5946be969785ae2300e9a842b5f392385024dc2a85726f501ff38b8e1",
         "publishedAt": 1788611918,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15975,7 +16058,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c12bb948e77af759b1d49f4fea82ce4340113af33b5a56dd05619ccd94265b4b",
         "publishedAt": 1788525840,
-        "collectedAt": 1788897662.6523955
+        "collectedAt": 1788920221.1685681
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18221,142 +18304,14 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
-    },
-    {
-      "id": "0cecf0bbf3f58108140b",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "MSFT",
-      "relatedTickers": [
-        "MSFT",
-        "SPY"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Why Microsoft Stock Is Up Today",
-      "headlineKo": "오늘 Microsoft 주식이 상승한 이유",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5d1aefaa49dec1397eeeb379741fc0c1d31ff72cfacd148e83cbe4c8680c7da7",
-        "publishedAt": 1788477608,
-        "collectedAt": 1788918161.13676
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "오늘 Microsoft 주식이 상승한 이유 | 잡다한 바보 접근성 메뉴 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Motley Fool에 가입하세요. 회사 검색 접근성 ...",
-        "마이크로소프트(MSFT +2.68%)의 주식은 기술 대기업이 투자자들에게 빠르게 성장하는 클라우드 컴퓨팅 사업에 대한 추가 정보를 제공할 것이라고 발표한 후 목요일 상승했습니다.",
-        "Azure에 대한 AI의 영향 정량화 AI(인공 지능)는 클라우드에서 실행됩니다."
-      ],
-      "marketInterpretation": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.68%, 2.68 %, $ 13.30 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "MSFT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 2.68%, 2.68 %, $ 13.30 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "MSFT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "MSFT",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 CAPEX 집행",
-        "공급업체 수주·매출",
-        "투자 기업 OCF·FCF·부채"
-      ]
     }
   ],
   "byTicker": {
-    "AMZN": [
-      "2b2c3a2549b83c099888",
-      "f0227da0ddcb6b1e5b35",
-      "7bf7af3702ca5f729d0e",
-      "372f58c3ad258c44826a",
-      "de94cb545df45aea48bc",
-      "5311c97673dbbe4b3080",
-      "9e06a49b053b6bed148c",
-      "674fec75a4ca81db94e5",
-      "4277d3ea8c3c1a5d2291",
-      "df194de52b4acf772502",
-      "eb178d0b621fe527f313",
-      "40452814a24be6f5d240",
-      "e0a9cf6754a1d0f4ffca",
-      "4dde284e1f6f4ce4c978",
-      "3c2af4d028efca123411",
-      "ecfb6dd4ce84f59d8b3f",
-      "0bb24de11cca77a224a8",
-      "4260051bc716a49e385f",
-      "2b8860ed2405d4e2443e",
-      "2bfe26d2b3f63acde48d",
-      "7155a2db9d9ccbb51a8c",
-      "ddfd294de4a283ab6730",
-      "84997f1e85c5e6983ac4",
-      "6d07dc02661b93d6a1b5",
-      "2f268375690c7e29b312",
-      "b8022a098919904c087a",
-      "8ae685f5c68a22bc5a37",
-      "7d3fee91bc3a36a3cfce",
-      "7d47ebbf47f40eeb974b"
-    ],
-    "AVGO": [
-      "2b2c3a2549b83c099888",
-      "d89fd47fdef45cdcb479",
-      "50b6ee5c90cee35a80bf",
-      "40452814a24be6f5d240",
-      "f8f54ba36e88736935ee",
-      "b769097e86b1493c9352",
-      "b4e7224c2d103ba47f9a",
-      "953642f384fc9fbade42",
-      "3292fb8083f71a9436c0",
-      "23bb64bc332b943998df",
-      "382d60db5f10269885e2",
-      "b587cad0a13f48571266",
-      "9952f26e2bbd48af0e35",
-      "d2578150771be959dd5f",
-      "36e9b2c8e681a1d898cd",
-      "c61382a47e423e948f4f",
-      "c47ba145290ffcaad9ba",
-      "154148a5f24d74ea5879",
-      "e17b01bface06627ef63",
-      "73050bd9b3bc009c565d",
-      "4e0f9b4b4d2658fec1d8",
-      "a8e274c3b43ec9d750ec",
-      "a7aaa3ce76a1ece6b525"
+    "CEG": [
+      "77971b9f71f162b25c53"
     ],
     "META": [
+      "77971b9f71f162b25c53",
       "2b2c3a2549b83c099888",
       "5311c97673dbbe4b3080",
       "ccb5c941c14f53db1b2d",
@@ -18369,96 +18324,22 @@ const EVENT_DATA = {
       "01b66b7a762fcfab504a",
       "8337cbc7fc2ff63bc499"
     ],
-    "QCOM": [
-      "2b2c3a2549b83c099888",
-      "7bf7af3702ca5f729d0e",
-      "372f58c3ad258c44826a",
-      "de94cb545df45aea48bc",
-      "9e06a49b053b6bed148c",
-      "674fec75a4ca81db94e5",
-      "e08d294166d607e6fa00",
-      "4277d3ea8c3c1a5d2291",
-      "eb178d0b621fe527f313",
-      "40452814a24be6f5d240",
-      "1b7e5abf9a07220cea53",
-      "25705c72e076e67971e7",
-      "369524e40b4f3b079903",
-      "ccbd6fbf419bb01004a5",
-      "1fd39215a412312fcfaa",
-      "9531ad704c5fa19fe096",
-      "209a1b9f1001bf112e1f",
-      "c102fb1c411610ba2375",
-      "2a6252d52e93a2a68747",
-      "d79a8daa76dde3162513"
-    ],
-    "QQQ": [
-      "2b2c3a2549b83c099888",
-      "255ee8ee14336f532784",
-      "83ae83da2bde742479c3",
-      "210c4dcf09e8f7c7753f",
-      "61e8b5b87e47bcd39ecb",
-      "5311c97673dbbe4b3080",
-      "e3a8361107d278f73b6d",
-      "07af5c52d130b6fbe04b",
-      "df194de52b4acf772502",
-      "ccb5c941c14f53db1b2d",
-      "68224fa7e6b8f72b5db2",
-      "d5d36e4157fcf37df82d",
-      "35f40de9c05b45d75001",
-      "81a2f2f86fd29d87bada",
-      "47ef99a8e6acf4012bf7",
-      "eda677ae8cdc25e4a1b8",
-      "85c131752a4ef95516d4",
-      "ff270ce370ec2dac3d29",
-      "8262825b785fe4ee46f5",
-      "3e75613086ca18ec677b",
-      "e0a9cf6754a1d0f4ffca",
-      "bd5f35ecf60ff20643b4",
-      "4144ce284b01fef9a47b",
-      "b769097e86b1493c9352",
-      "dd85df54965f639f4c46",
-      "20617ef6104fc2f1f14d",
-      "bf4a92166f3c7d13e2cd",
+    "MSFT": [
+      "77971b9f71f162b25c53",
+      "4938bef0d9893ff34a72",
+      "40072ac7d04cdcd89511",
+      "2ea83ba5a7d0e9b39dfc",
+      "bbcb8449ddc554720b18",
       "e87a184dffcbdbb943a2",
-      "70c7aa9f52309fd8445e",
-      "e18af593dd6c53c76d4f",
-      "4b7c0e83a4149ec33334",
-      "b6b859f3cb04f4165e41",
-      "6297cd2bd46a9a6ad3d0",
       "23a1dfd6c2ba88680d9a",
-      "c0fe715751d9d592be5d",
-      "953642f384fc9fbade42",
-      "5daa3cbb11d636cebb76",
-      "9c9ce82500214bbb6b48",
-      "789954fabda2e167435b",
-      "256aa0db08ad7d4b1a41",
-      "209a1b9f1001bf112e1f",
-      "d2578150771be959dd5f",
-      "66797f47a5e1b0d990a5",
-      "36e2a17f3ac6649b95a1",
-      "65f0ea36084495f3b4b8",
-      "ca10da706df4abc931fa",
-      "866540147e3115cc0245",
-      "888288408e644f6579ba",
-      "ae4bd9ec467cc872e7a7",
-      "71af741db2d528d0ebb6",
-      "78b05e1316c24ed4c50c",
-      "c102fb1c411610ba2375",
-      "24f6d74f0c8a1317c2e5",
-      "826e6c9096fa16137222",
-      "285f88d9a19ce5a20677",
-      "8337cbc7fc2ff63bc499",
-      "b9919c73a92d6264545d",
-      "2a6252d52e93a2a68747",
-      "5b82a5b5b975e9730dda",
-      "e17b01bface06627ef63",
+      "7155a2db9d9ccbb51a8c",
+      "20058ef05e4a5636d589",
+      "88201b8973cf476e8a9e",
       "e4814d4b7067690f2446",
-      "f7cf48f3dff4e76f521a",
-      "b1d7f34226d92a8c05bb",
-      "ac9b4f817e3ee70d3430",
-      "6adde239438c720992f8"
+      "203ac7ae778c438d1109"
     ],
     "SPY": [
+      "77971b9f71f162b25c53",
       "2b2c3a2549b83c099888",
       "255ee8ee14336f532784",
       "d89fd47fdef45cdcb479",
@@ -18556,8 +18437,152 @@ const EVENT_DATA = {
       "b1d7f34226d92a8c05bb",
       "ac9b4f817e3ee70d3430",
       "6adde239438c720992f8",
-      "d065a9a372ac9eb0f080",
-      "0cecf0bbf3f58108140b"
+      "d065a9a372ac9eb0f080"
+    ],
+    "AMZN": [
+      "2b2c3a2549b83c099888",
+      "f0227da0ddcb6b1e5b35",
+      "7bf7af3702ca5f729d0e",
+      "372f58c3ad258c44826a",
+      "de94cb545df45aea48bc",
+      "5311c97673dbbe4b3080",
+      "9e06a49b053b6bed148c",
+      "674fec75a4ca81db94e5",
+      "4277d3ea8c3c1a5d2291",
+      "df194de52b4acf772502",
+      "eb178d0b621fe527f313",
+      "40452814a24be6f5d240",
+      "e0a9cf6754a1d0f4ffca",
+      "4dde284e1f6f4ce4c978",
+      "3c2af4d028efca123411",
+      "ecfb6dd4ce84f59d8b3f",
+      "0bb24de11cca77a224a8",
+      "4260051bc716a49e385f",
+      "2b8860ed2405d4e2443e",
+      "2bfe26d2b3f63acde48d",
+      "7155a2db9d9ccbb51a8c",
+      "ddfd294de4a283ab6730",
+      "84997f1e85c5e6983ac4",
+      "6d07dc02661b93d6a1b5",
+      "2f268375690c7e29b312",
+      "b8022a098919904c087a",
+      "8ae685f5c68a22bc5a37",
+      "7d3fee91bc3a36a3cfce",
+      "7d47ebbf47f40eeb974b"
+    ],
+    "AVGO": [
+      "2b2c3a2549b83c099888",
+      "d89fd47fdef45cdcb479",
+      "50b6ee5c90cee35a80bf",
+      "40452814a24be6f5d240",
+      "f8f54ba36e88736935ee",
+      "b769097e86b1493c9352",
+      "b4e7224c2d103ba47f9a",
+      "953642f384fc9fbade42",
+      "3292fb8083f71a9436c0",
+      "23bb64bc332b943998df",
+      "382d60db5f10269885e2",
+      "b587cad0a13f48571266",
+      "9952f26e2bbd48af0e35",
+      "d2578150771be959dd5f",
+      "36e9b2c8e681a1d898cd",
+      "c61382a47e423e948f4f",
+      "c47ba145290ffcaad9ba",
+      "154148a5f24d74ea5879",
+      "e17b01bface06627ef63",
+      "73050bd9b3bc009c565d",
+      "4e0f9b4b4d2658fec1d8",
+      "a8e274c3b43ec9d750ec",
+      "a7aaa3ce76a1ece6b525"
+    ],
+    "QCOM": [
+      "2b2c3a2549b83c099888",
+      "7bf7af3702ca5f729d0e",
+      "372f58c3ad258c44826a",
+      "de94cb545df45aea48bc",
+      "9e06a49b053b6bed148c",
+      "674fec75a4ca81db94e5",
+      "e08d294166d607e6fa00",
+      "4277d3ea8c3c1a5d2291",
+      "eb178d0b621fe527f313",
+      "40452814a24be6f5d240",
+      "1b7e5abf9a07220cea53",
+      "25705c72e076e67971e7",
+      "369524e40b4f3b079903",
+      "ccbd6fbf419bb01004a5",
+      "1fd39215a412312fcfaa",
+      "9531ad704c5fa19fe096",
+      "209a1b9f1001bf112e1f",
+      "c102fb1c411610ba2375",
+      "2a6252d52e93a2a68747",
+      "d79a8daa76dde3162513"
+    ],
+    "QQQ": [
+      "2b2c3a2549b83c099888",
+      "255ee8ee14336f532784",
+      "83ae83da2bde742479c3",
+      "210c4dcf09e8f7c7753f",
+      "61e8b5b87e47bcd39ecb",
+      "5311c97673dbbe4b3080",
+      "e3a8361107d278f73b6d",
+      "07af5c52d130b6fbe04b",
+      "df194de52b4acf772502",
+      "ccb5c941c14f53db1b2d",
+      "68224fa7e6b8f72b5db2",
+      "d5d36e4157fcf37df82d",
+      "35f40de9c05b45d75001",
+      "81a2f2f86fd29d87bada",
+      "47ef99a8e6acf4012bf7",
+      "eda677ae8cdc25e4a1b8",
+      "85c131752a4ef95516d4",
+      "ff270ce370ec2dac3d29",
+      "8262825b785fe4ee46f5",
+      "3e75613086ca18ec677b",
+      "e0a9cf6754a1d0f4ffca",
+      "bd5f35ecf60ff20643b4",
+      "4144ce284b01fef9a47b",
+      "b769097e86b1493c9352",
+      "dd85df54965f639f4c46",
+      "20617ef6104fc2f1f14d",
+      "bf4a92166f3c7d13e2cd",
+      "e87a184dffcbdbb943a2",
+      "70c7aa9f52309fd8445e",
+      "e18af593dd6c53c76d4f",
+      "4b7c0e83a4149ec33334",
+      "b6b859f3cb04f4165e41",
+      "6297cd2bd46a9a6ad3d0",
+      "23a1dfd6c2ba88680d9a",
+      "c0fe715751d9d592be5d",
+      "953642f384fc9fbade42",
+      "5daa3cbb11d636cebb76",
+      "9c9ce82500214bbb6b48",
+      "789954fabda2e167435b",
+      "256aa0db08ad7d4b1a41",
+      "209a1b9f1001bf112e1f",
+      "d2578150771be959dd5f",
+      "66797f47a5e1b0d990a5",
+      "36e2a17f3ac6649b95a1",
+      "65f0ea36084495f3b4b8",
+      "ca10da706df4abc931fa",
+      "866540147e3115cc0245",
+      "888288408e644f6579ba",
+      "ae4bd9ec467cc872e7a7",
+      "71af741db2d528d0ebb6",
+      "78b05e1316c24ed4c50c",
+      "c102fb1c411610ba2375",
+      "24f6d74f0c8a1317c2e5",
+      "826e6c9096fa16137222",
+      "285f88d9a19ce5a20677",
+      "8337cbc7fc2ff63bc499",
+      "b9919c73a92d6264545d",
+      "2a6252d52e93a2a68747",
+      "5b82a5b5b975e9730dda",
+      "e17b01bface06627ef63",
+      "e4814d4b7067690f2446",
+      "f7cf48f3dff4e76f521a",
+      "b1d7f34226d92a8c05bb",
+      "ac9b4f817e3ee70d3430",
+      "6adde239438c720992f8"
     ],
     "GOOGL": [
       "5b4cfbd1cdba2f1ad065",
@@ -18790,20 +18815,6 @@ const EVENT_DATA = {
       "b1d7f34226d92a8c05bb",
       "7d47ebbf47f40eeb974b",
       "203ac7ae778c438d1109"
-    ],
-    "MSFT": [
-      "4938bef0d9893ff34a72",
-      "40072ac7d04cdcd89511",
-      "2ea83ba5a7d0e9b39dfc",
-      "bbcb8449ddc554720b18",
-      "e87a184dffcbdbb943a2",
-      "23a1dfd6c2ba88680d9a",
-      "7155a2db9d9ccbb51a8c",
-      "20058ef05e4a5636d589",
-      "88201b8973cf476e8a9e",
-      "e4814d4b7067690f2446",
-      "203ac7ae778c438d1109",
-      "0cecf0bbf3f58108140b"
     ],
     "TSLA": [
       "83ae83da2bde742479c3",

@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.52999877929688,
-      "prevClose": 91.4800033569336,
-      "changeAbs": 3.0499954223632812,
-      "changePct": 3.334056963752955,
-      "pctRank": 88.14638027048528,
+      "current": 94.37000274658203,
+      "prevClose": 93.02999877929688,
+      "changeAbs": 1.3400039672851562,
+      "changePct": 1.4403998547438057,
+      "pctRank": 87.83783783783784,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.30809974911821,
-      "ma20": 86.05550079345703,
-      "ma60": 80.46216684977213,
-      "chg1m": 16.349998474121094,
-      "chg3m": 3.2299957275390625,
-      "chg1mPct": 20.91327501956874,
-      "chg3mPct": 3.5377827158537807,
+      "drawdown1y": -16.449751840342397,
+      "ma20": 86.53900108337402,
+      "ma60": 80.59533360799153,
+      "chg1m": 12.240005493164062,
+      "chg3m": 6.170005798339844,
+      "chg1mPct": 14.903209427119121,
+      "chg3mPct": 6.995471668735484,
       "lastDate": "2026-09-09",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 98.7770004272461,
-      "prevClose": 99.16000366210938,
-      "changeAbs": -0.38300323486328125,
-      "changePct": -0.3862477014103146,
-      "pctRank": 22.911694510739856,
+      "current": 98.7969970703125,
+      "prevClose": 98.83999633789062,
+      "changeAbs": -0.042999267578125,
+      "changePct": -0.043503914580418794,
+      "pctRank": 23.449920508744036,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.788111569814178,
-      "ma20": 99.34135017395019,
-      "ma60": 100.26411692301433,
-      "chg1m": -0.822998046875,
-      "chg3m": -1.2730026245117188,
-      "chg1mPct": -0.8263032725736821,
-      "chg3mPct": -1.2723664024809374,
+      "drawdown1y": -2.768431771618829,
+      "ma20": 99.29334983825683,
+      "ma60": 100.24928347269694,
+      "chg1m": -1.01300048828125,
+      "chg3m": -1.113006591796875,
+      "chg1mPct": -1.01492887792785,
+      "chg3mPct": -1.1140091592439607,
       "lastDate": "2026-09-09",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4400.89990234375,
-      "prevClose": 4429.7998046875,
-      "changeAbs": -28.89990234375,
-      "changePct": -0.6523974811044253,
-      "pctRank": 90.3739061256961,
+      "current": 4416.7998046875,
+      "prevClose": 4393.89990234375,
+      "changeAbs": 22.89990234375,
+      "changePct": 0.5211748754571074,
+      "pctRank": 90.54054054054053,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.251429317973432,
-      "ma20": 4469.1099853515625,
-      "ma60": 4235.659997558594,
-      "chg1m": 60.19970703125,
-      "chg3m": 65.0,
-      "chg1mPct": 1.3868662732399568,
-      "chg3mPct": 1.499112098156707,
+      "drawdown1y": -16.952469054817154,
+      "ma20": 4470.449975585938,
+      "ma60": 4238.906660970052,
+      "chg1m": 55.0,
+      "chg3m": 156.7998046875,
+      "chg1mPct": 1.2609473717911834,
+      "chg3mPct": 3.6807465889084505,
       "lastDate": "2026-09-09",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 7.560465212941092,
-        "ret3m": 7.134252654425288,
-        "ret6m": 15.63351734300178,
-        "ret1y": 12.060734082933289,
+        "ret1m": 4.9014133871083665,
+        "ret3m": 7.134178350036269,
+        "ret6m": 14.988432940913409,
+        "ret1y": 10.839965720385347,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 1.5584157001138355,
-        "ret3m": -0.004318953489490518,
-        "ret6m": 89.74750280457383,
-        "ret1y": 238.99518505806432,
+        "ret1m": 3.928160440346473,
+        "ret3m": -2.5184708943859047,
+        "ret6m": 85.887715994491,
+        "ret1y": 240.97869129829505,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -2.8573816523549067,
-        "ret3m": 0.5702706205811703,
-        "ret6m": 46.57553423440615,
-        "ret1y": 222.91565496841685,
+        "ret1m": -2.5537287742151027,
+        "ret3m": 2.8546074223701146,
+        "ret6m": 43.760791722823214,
+        "ret1y": 233.28651592806665,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -0.936113024514218,
-        "ret3m": -2.290290381105331,
-        "ret6m": 18.902151862791072,
-        "ret1y": 62.436051400834145,
+        "ret1m": 1.5043564621195715,
+        "ret3m": 0.23061396787313893,
+        "ret6m": 16.356716464950583,
+        "ret1y": 67.91504711436794,
         "winRate": null,
         "count": 12
       }
@@ -229,18 +229,25 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.06509786816673266,
-    "corrPctRank": 0.0,
+    "corr60": 0.0787886582315709,
+    "corrPctRank": 0.08375209380234507,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
+      "headline": "Oil jumps $1 in early trade after Iran launches missiles at Jordan - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzVwcURFOW5QT2VTVW5YdFV2a2NPRGh1YkFoaTV2VUE0MXhES2gwR1ptSldNN29OZUZOLUQ2NlFUZUNpYjRFV25nTTR5cW03ZEFmX1BzMzViNGI5VXhWMWhtZHU1SDNxQ1Iyc2lDcEZOYnVpU3JMUVE4Uk9IUkVyYUdjd2ppV01LbDZESEQzWDBaZHZyOEpCem9yRkw0YUhnTVpuSVlzc01jVWszdVJSWg?oc=5",
+      "datetime": 1788913380,
+      "headlineKo": "이란이 요르단에 미사일을 발사한 후 유가는 조기 거래에서 1달러 급등 - Reuters"
+    },
+    {
       "headline": "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
-      "datetime": 1788911747,
+      "datetime": 1788910971,
       "headlineKo": "예멘에서 이란의 동맹인 후티족은 누구인가? - 로이터"
     },
     {
@@ -249,6 +256,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
       "datetime": 1788908958,
       "headlineKo": "후티족이 사우디 도시를 공격하고 미국이 이란 유조선을 공격함에 따라 전쟁이 확대됩니다. - 로이터"
+    },
+    {
+      "headline": "US military says it destroyed five Iranian oil carriers after attempted missile attacks - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkRzd0JMdW1lbUtzRVk1dFpYWGFpVEYwZkVnaVBYd0hINnRNSVdiUXlrVHBBbkExXzNpZTdTT1NFaHpMSVA1Slk1aUl0bFZPc3VhbUVyUE9rZFkzOFZqU0VoQ2ZaZ2lwNm1rNmZEUTU5REZ6WWJmSEp3TWlGLXliZTU4S2pQMVFFY0V0MHQzS1BSa3FJUlJ3RzlqaV9GLVluYzd4MTQ5Yms1eDg5aWM1Mmp1bi1aNk0tS2lJSW40dlJ5cmhkeVd6bWxERQ?oc=5",
+      "datetime": 1788908745,
+      "headlineKo": "미군, 미사일 공격 시도로 이란 석유 운반선 5척 파괴했다고 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "Iran says it captured US submarine drone in Strait of Hormuz - Reuters",
@@ -268,7 +282,7 @@ const MARKET_DATA = {
       "headline": "Ukraine contracting around 1,000 Patriot missiles from allies, defence chief says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbl9tbUR6b3BGWjVMaGtvUGtLeFVKNmpQckk0VDE2djhfTV8wNVREU2VKYUY3MEtHaUVLRlNwQUxrYzkxRjJRVmFNa0hJdHRzZ0tNa2pqUFo4endxQWpFR3REVG1pNTF2VE1KQW1kdkRzX054dmdZS3BpdW4xakJ6ejY0LWE2YzdJVm53WVFBVGRCcm5VeUowTFpoNVVzWFRBMWlOWmEzT1JwYzlNRHdEcVN3V3J2eTJjcGdsY3N3aXNESk02Q2NmRFlhMm9BLVgtMnR3?oc=5",
-      "datetime": 1788901568,
+      "datetime": 1788901140,
       "headlineKo": "우크라이나가 동맹국으로부터 약 1,000개의 패트리어트 미사일을 계약했다고 국방부 장관이 말했습니다. - 로이터 통신"
     },
     {
@@ -293,13 +307,6 @@ const MARKET_DATA = {
       "headlineKo": "항공 교통 통제 문제로 영국 주요 공항의 항공편이 중단되었습니다 - Reuters"
     },
     {
-      "headline": "Oil prices hit six-week high after Houthis attack Saudi sites - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNTBHazRJMEhoZks2V2o5M2loY0UtV3pnUjMweXB6cXZuVjQtYmhTWV9oSnF0cDhRZGVybzBuNk9fYWRJU1diemp5VDFxZWdHYy16a0ctWG9ob0JfMUZqRTIwRnoyeHhxckI4NFZCVmM1MGVRaDFPeWh0MVFKTXYyVURKSWdJZGJ5ZWZWYzdHanhyQTBNTGYyRWF6bXVWSDRZdXdYN0pWdURYU0p6Z1lkVzlRWlF4UEIyY1E?oc=5",
-      "datetime": 1788896631,
-      "headlineKo": "Houthis가 사우디 현장을 공격한 후 유가가 6주 만에 상승 - 로이터"
-    },
-    {
       "headline": "US Treasury ratchets up pressure on Iran with sweeping new aviation sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaGdHdXJpOEljWVdDWlBhWFFpS2w2YmtsSm5hUmkyanBIUWV2eWdEX0trcFpIRU1abHpTNjdTcHlNYWNOMWFQTjBvUDdscjVKc2k4a0hWSmxvZ0c1UWo4YWtkaFF5alY3UXFuOUZpZHByRHFQVkdCU2ZZT29kRTBMcGZ4aFN2b1Z5b2FNQk56bjJrVGxFMzBEMk9kTGhxOG5EWU9lRlVfclhQTFgyMFh5cU5CdzVYaE1BelF0WEw4LU5GZw?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/08/lilly-perseveres-in-a-bad-day-for-drug-stocks-plus-boeings-mixed-deliveries.html",
       "datetime": 1788894186,
       "headlineKo": "Lilly는 의약품 재고가 좋지 않은 날에도 인내심을 갖고 있으며 Boeing의 혼합 배송도 있습니다."
-    },
-    {
-      "headline": "When someone asks you a loaded question, use Gloria Steinem's powerful trick to reject their 'unfair framing,' says expert",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/08/when-someone-asks-loaded-question-use-gloria-steinem-powerful-trick-reject-unfair-framing.html",
-      "datetime": 1788891466,
-      "headlineKo": "누군가 당신에게 어려운 질문을 하면 Gloria Steinem의 강력한 트릭을 사용하여 그들의 '불공정한 프레이밍'을 거부하라고 전문가는 말합니다."
     }
   ],
   "fgi": {
     "score": 40.6285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788916283.0311198,
-  "_updated_label": "2026-09-09 10:12",
-  "_last_attempt_at": 1788916283.0311198,
-  "_last_success_at": 1788916283.0311198,
+  "_fetched_at": 1788920267.7127628,
+  "_updated_label": "2026-09-09 11:18",
+  "_last_attempt_at": 1788920267.7127628,
+  "_last_success_at": 1788920267.7127628,
   "_collection_status": "ok",
   "_collection_errors": []
 };
