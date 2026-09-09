@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.360000610351562,
+      "current": 16.459999084472656,
       "prevClose": 15.720000267028809,
-      "changeAbs": 0.6400003433227539,
-      "changePct": 4.07124893416887,
-      "pctRank": 35.003977724741446,
+      "changeAbs": 0.7399988174438477,
+      "changePct": 4.7073715322761425,
+      "pctRank": 36.35640413683373,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -47.31078578957049,
-      "ma20": 15.204000091552734,
-      "ma60": 16.381999937693276,
-      "chg1m": 1.080000877380371,
-      "chg3m": -5.85999870300293,
-      "chg1mPct": 7.0680686927627665,
-      "chg3mPct": -26.37263224162657,
+      "drawdown1y": -46.98872950429451,
+      "ma20": 15.20900001525879,
+      "ma60": 16.38366657892863,
+      "chg1m": 1.1799993515014648,
+      "chg3m": -5.760000228881836,
+      "chg1mPct": 7.722508979861181,
+      "chg3mPct": -25.922594090360775,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.61000061035156,
+      "current": 96.68000030517578,
       "prevClose": 93.02999877929688,
-      "changeAbs": 3.5800018310546875,
-      "changePct": 3.8482230227131744,
+      "changeAbs": 3.6500015258789062,
+      "changePct": 3.9234672404308215,
       "pctRank": 90.45346062052506,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.466575280544902,
-      "ma20": 86.6510009765625,
-      "ma60": 80.63266690572102,
-      "chg1m": 14.480003356933594,
-      "chg3m": 8.410003662109375,
-      "chg1mPct": 17.63059033382713,
-      "chg3mPct": 9.535151874262038,
+      "drawdown1y": -14.404601224134527,
+      "ma20": 86.65450096130371,
+      "ma60": 80.63383356730144,
+      "chg1m": 14.550003051757812,
+      "chg3m": 8.480003356933594,
+      "chg1mPct": 17.715820696867603,
+      "chg3mPct": 9.614516610368884,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.81199645996094,
+      "current": 98.79299926757812,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.0279998779296875,
-      "changePct": -0.02832848944466589,
-      "pctRank": 23.627684964200476,
+      "changeAbs": -0.0469970703125,
+      "changePct": -0.047548636234098614,
+      "pctRank": 23.389021479713605,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.7536700458454466,
-      "ma20": 99.29409980773926,
-      "ma60": 100.24953346252441,
-      "chg1m": -0.9980010986328125,
-      "chg3m": -1.0980072021484375,
-      "chg1mPct": -0.9999009348206156,
-      "chg3mPct": -1.0989962585346738,
+      "drawdown1y": -2.7723662295564,
+      "ma20": 99.29314994812012,
+      "ma60": 100.24921684265136,
+      "chg1m": -1.016998291015625,
+      "chg3m": -1.11700439453125,
+      "chg1mPct": -1.018934291044936,
+      "chg3mPct": -1.1180105630952661,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4442.7998046875,
+      "current": 4445.39990234375,
       "prevClose": 4393.89990234375,
-      "changeAbs": 48.89990234375,
-      "changePct": 1.1129043317000986,
-      "pctRank": 90.9307875894988,
+      "changeAbs": 51.5,
+      "changePct": 1.1720794998659252,
+      "pctRank": 91.01034208432776,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.46360021310892,
-      "ma20": 4471.749975585937,
-      "ma60": 4239.3399943033855,
-      "chg1m": 81.0,
-      "chg3m": 182.7998046875,
-      "chg1mPct": 1.8570315839106517,
-      "chg3mPct": 4.291075227406103,
+      "drawdown1y": -16.41471149274202,
+      "ma20": 4471.87998046875,
+      "ma60": 4239.383329264323,
+      "chg1m": 83.60009765625,
+      "chg3m": 185.39990234375,
+      "chg1mPct": 1.9166422440206312,
+      "chg3mPct": 4.352110383656103,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -164,21 +164,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "dow": {
-      "current": 52381.078125,
+      "current": 52380.66015625,
       "prevClose": 52786.0703125,
-      "changeAbs": -404.9921875,
-      "changePct": -0.7672330694488085,
+      "changeAbs": -405.41015625,
+      "changePct": -0.7680248858267384,
       "pctRank": 96.96969696969697,
       "min5y": 28725.509765625,
       "max5y": 54349.12109375,
       "high1y": 54349.12109375,
-      "drawdown1y": -3.6211127781720864,
-      "ma20": 53325.7611328125,
-      "ma60": 52771.394921875,
-      "chg1m": -1594.90234375,
-      "chg3m": 1508.96875,
-      "chg1mPct": -2.95483718850348,
-      "chg3mPct": 2.966200475149847,
+      "drawdown1y": -3.621881822347206,
+      "ma20": 53325.740234375,
+      "ma60": 52771.387955729166,
+      "chg1m": -1595.3203125,
+      "chg3m": 1508.55078125,
+      "chg1mPct": -2.955611549147548,
+      "chg3mPct": 2.965378868271078,
       "lastDate": "2026-09-09",
       "bars": 1254,
       "symbol": "^DJI",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.5937070453591735,
-        "ret3m": 9.287478510483883,
-        "ret6m": 15.532965212240812,
-        "ret1y": 10.109286502568771,
+        "ret1m": 3.585473695078134,
+        "ret3m": 9.278792634501908,
+        "ret6m": 15.52378296170911,
+        "ret1y": 10.100535311489423,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 6.390493281935483,
-        "ret3m": -0.5963789025566713,
-        "ret6m": 83.60648823104853,
-        "ret1y": 237.75814596403006,
+        "ret1m": 6.38714375040581,
+        "ret3m": -0.5995084637867909,
+        "ret6m": 83.60070767958752,
+        "ret1y": 237.7475121985083,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 5.093752795304085,
-        "ret3m": 11.341438580398844,
-        "ret6m": 39.382380027873396,
-        "ret1y": 235.19355900575798,
+        "ret1m": 5.102945152704863,
+        "ret3m": 11.351177411392355,
+        "ret6m": 39.3945715484777,
+        "ret1y": 235.22287777029786,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -0.25480002193557505,
-        "ret3m": -2.129583770746357,
-        "ret6m": 12.6611660298241,
-        "ret1y": 63.03885642289,
+        "ret1m": -0.24141080372176438,
+        "ret3m": -2.1164462126497474,
+        "ret6m": 12.676289012549358,
+        "ret1y": 63.060741815133994,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,41 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.08328494826056829,
+    "corr60": 0.08328033879396612,
     "corrPctRank": 0.16750418760469013,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Trump says Iran war will end right after U.S. midterm elections - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUt1ZG9kcVg5Q3VMUjZuM0JScHFocjZZOFNvTjRsYWNRZ1lBQUlLUm45XzBJTEh2dnVLLXVqeDh1dlh2aGFObVVqN09PTHFtck02aUZrX3VZRWFLVURzeUt3eFFXc25NcFoxVFNSMHdLSmQ1alBaWGRsOHBpc2RTTy1ULWUyZEk4TXNKc0FxX3NlWXhYS3hVMERTb2R4RVo2UjJPRzRFN2w0a0hhbHE0d0EyZmZHUQ?oc=5",
+      "datetime": 1788984393,
+      "headlineKo": "트럼프 \"이란 전쟁은 미국 중간선거 직후 끝날 것\" - 로이터"
+    },
+    {
+      "headline": "Brent settles at over $100 a barrel as Middle East conflict intensifies - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
+      "datetime": 1788983769,
+      "headlineKo": "중동 분쟁 심화로 브렌트유는 배럴당 100달러 이상으로 합의 - Reuters"
+    },
+    {
+      "headline": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjRjUTJjbW9GMXo2aGNZTXVJTmxOQWhON20ycG5GTGxhcjlSZWJqOWFkSGdCZDVTTldYMnBSeHpYT09GTU5fS0ZVSTVLamF3cDFXc21KTzJaTE56cEdZc2JjNFk4WG53UTQ2OURwMTFrTUE5SHFjQS03M084UExUZlRTOWlURlpDVm1aRzBBc0QxeV9pQy1IUVlGN0xaVW5KMFc0Nm90VFhWNlk?oc=5",
+      "datetime": 1788982615,
+      "headlineKo": "독점: 파키스탄, 리야드의 반격에 대해 이란에게 후티 반군을 통제하라고 경고 - 로이터"
+    },
+    {
+      "headline": "Houthis attack southern Saudi cities for second day, Saudi-led coalition says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkFZWWVmRkxOZ0dqSFdYQnh1dkpQTkZBbFdyU2Rydm1aMUo5eDFhNGpTaURVcmZLN25rS0s0ZUlEd1hFdEJ1TXJjT01mVzYtS1I1X2duVjhXTTFseHZOVGNWLURySnN3M0d1aGpVdUZLUXBDT0NMUjlhYXRHdGo4ekY0Q2stN3VyY09XSFRFZTdka1BhMDJnTFR2NzB2eVVzSW9ENV8wYi1jcWZhdEl0VjQxd1l2VXFI?oc=5",
+      "datetime": 1788981329,
+      "headlineKo": "후티 반군, 사우디 주도 연합군 이틀째 사우디 남부 도시 공격 - 로이터 통신"
+    },
     {
       "headline": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks - Reuters",
       "source": "Reuters",
@@ -258,18 +286,18 @@ const MARKET_DATA = {
       "headlineKo": "UAE와 독일, 투자, 에너지, AI 거래로 협력 구축 모색 - Reuters"
     },
     {
-      "headline": "Brent crude oil rises above $100 a barrel as Middle East conflict intensifies - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
-      "datetime": 1788975932,
-      "headlineKo": "중동 분쟁 심화로 브렌트유 가격이 배럴당 100달러 이상 상승 - Reuters"
-    },
-    {
       "headline": "These are the top 10 U.S. states for workers' rights, says new report—8 of them have a minimum wage over $15",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/09/the-top-us-states-for-workers-in-2026-according-to-oxfam-report.html",
       "datetime": 1788975405,
       "headlineKo": "새로운 보고서에 따르면 미국 근로자 권리 상위 10개 주는 최저 임금이 15달러가 넘는 8개 주입니다."
+    },
+    {
+      "headline": "NEWSLETTER: The Gulf of uncertainty - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pb3BRNkJ2X2FQSWNZZGJDN3ppYl9ad0xnMThaNjAtUF9lcW9ZbWlsY2RTMlpucnRBRU1NRG1CN2x6S0oyQlFRcFF0OVNLcGhhcE0tc3Y3eXRLNXNoSG5ZeUhoaEFacGVnS3hYXzNnQkdIM19fM3FPandR?oc=5",
+      "datetime": 1788973500,
+      "headlineKo": "뉴스레터: 불확실성의 만 - Reuters"
     },
     {
       "headline": "GE Aerospace bets on 'black art' of castings to secure jet engine supply - Reuters",
@@ -279,56 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "GE 에어로스페이스, 제트 엔진 공급 확보를 위해 주조의 '마법'에 투자 - Reuters"
     },
     {
+      "headline": "Dow weighs exit from $20 billion partnership with Aramco, Bloomberg News reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOFVTQ01iclNnTEVHaExha0ppdTRYRmRVMVI5U3REeVNTcmU2QzEzYkoweGplVUdhWF9BNmxLcXdTSmk0RzdnXy0zZi1fVWRYS0ZOck8ycWt5NHdaVF90MTdPY3ItYjQzRjBaREZUNzBrQjYwSy00YU9VT3l3QkQ2dElSeVEtTEk1WHVWZC1RUGdLaTV0QldLNXBjcEtoendweTNFTENCVWhzX2dxV19oaGZiVEpKTmpGN1J4U0ZLNkJZeEd5Rmc?oc=5",
+      "datetime": 1788970688,
+      "headlineKo": "다우, 아람코와의 200억 달러 파트너십 종료 고려 중"
+    },
+    {
       "headline": "Why Cramer still recommends being 'a little more reserved' about data center stocks",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/09/why-cramer-still-recommends-being-a-little-more-reserved-about-data-center-stocks.html",
       "datetime": 1788970280,
       "headlineKo": "Cramer가 여전히 데이터 센터 주식에 대해 '조금 더 유보적' 인 것을 권장하는 이유"
-    },
-    {
-      "headline": "As Trump takes center stage in Dallas, Republicans debate a future without him - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NXWmxOTzBqLS1jVW1JTjBsMzgxS2VuQkFVRl9KeDlJR28taW9UWUE0YlZIRWprbEtoMDZXc2lpUDItLWVkWHdiQ19XRDNFUll4YnQ2ZmhfbGV1ZWxndXplbHNUM3NKdlNJVUNaY1Jqa2o4Z0hUb185Tk5CQk1jd1dBbzhZYjR3NXJnWE91NEVJQ3NidWV6ZTJGSTJmQURXcS1YMlJvUm9uSEtQdXlYMGtiT1M?oc=5",
-      "datetime": 1788969070,
-      "headlineKo": "트럼프가 댈러스에서 중심 무대에 오르자 공화당원들은 그가 없는 미래에 대해 토론한다 - 로이터 통신"
-    },
-    {
-      "headline": "LA Rams President Kevin Demoff touts Australia push ahead of historic NFL game",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/09/la-rams-kevin-demoff-australia.html",
-      "datetime": 1788968489,
-      "headlineKo": "LA Rams 회장 Kevin Demoff는 호주가 역사적인 NFL 경기를 앞두고 있다고 선전합니다."
-    },
-    {
-      "headline": "Meta shares are still cheap and worth buying. Here's why",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/09/meta-shares-are-still-cheap-and-worth-buying-heres-why.html",
-      "datetime": 1788968276,
-      "headlineKo": "메타 주식은 여전히 ​​저렴하고 구매할 가치가 있습니다. 이유는 다음과 같습니다."
-    },
-    {
-      "headline": "One third of Gulf oil is still missing despite 'dark crossings', data shows - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeHRKeTZua1NSdzMyanlSSGlkMXg0eWIxZmRWVlFxUWdSQmFrc2dsb2l5WTB2a0JGemdFY1hUeUFOSlFpYWUtSGNNWG1YbXNYa29KU0gzVlVFTUZmS0RsX3hCNlRwT0wxS3JqR085MTNyeU40czBWNUFtMEtiaXMwYmxieWt4NXJDeFpGT3RrVXRSdk9PSy1wSUZDUkhaVlBWNXBJTmdEMk9NRkN3dXJ1ajB2cFZGYnc5WWowX2Nn?oc=5",
-      "datetime": 1788967933,
-      "headlineKo": "데이터에 따르면 '암흑 횡단'에도 불구하고 걸프 석유의 3분의 1이 여전히 누락된 것으로 나타났습니다. - 로이터"
-    },
-    {
-      "headline": "Two killed in explosion at hydroelectric plant in Switzerland - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQkJaQnBwa3dCSXY5NkZZUThSYXVtNENWTGVIcG9UbHlNakV5blBiS1lfZkxKNUw4cTNSdW9OcVhobmItZld1bjgyMmZaUlM2Y1h2bUVJQzgybW84bnNFWDRKOEtDcWFDOWdBZDlxeDZ4TUNqNEFLcHJvMWlyXzllNlBmSWh6LW9aak5JNWQyVDhvYW5TOEx3Wkh6dE51RlRERDNQWWYwNkVMSmlmLWNzLUk0NElFZw?oc=5",
-      "datetime": 1788964121,
-      "headlineKo": "스위스 수력발전소 폭발로 2명 사망 - 로이터 통신"
     }
   ],
   "fgi": {
-    "score": 39.4857142857143,
+    "score": 39.0285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788984028.166873,
-  "_updated_label": "2026-09-10 05:01",
-  "_last_attempt_at": 1788984028.166873,
-  "_last_success_at": 1788984028.166873,
+  "_fetched_at": 1788987628.1274045,
+  "_updated_label": "2026-09-10 06:01",
+  "_last_attempt_at": 1788987628.1274045,
+  "_last_success_at": 1788987628.1274045,
   "_collection_status": "ok",
   "_collection_errors": []
 };
