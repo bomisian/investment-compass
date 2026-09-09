@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 94.19999694824219,
+      "current": 94.58999633789062,
       "prevClose": 91.4800033569336,
-      "changeAbs": 2.7199935913085938,
-      "changePct": 2.9733203886053814,
-      "pctRank": 87.66905330151154,
+      "changeAbs": 3.1099929809570312,
+      "changePct": 3.399642399249337,
+      "pctRank": 88.14638027048528,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -16.60026605276663,
-      "ma20": 86.0390007019043,
-      "ma60": 80.45666681925455,
-      "chg1m": 16.019996643066406,
-      "chg3m": 2.899993896484375,
-      "chg1mPct": 20.49116983951435,
-      "chg3mPct": 3.176334939266512,
+      "drawdown1y": -16.254981059242336,
+      "ma20": 86.05850067138672,
+      "ma60": 80.46316680908203,
+      "chg1m": 16.409996032714844,
+      "chg3m": 3.2899932861328125,
+      "chg1mPct": 20.99001786730416,
+      "chg3mPct": 3.603497454723765,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.83599853515625,
+      "current": 98.78199768066406,
       "prevClose": 99.16000366210938,
-      "changeAbs": -0.324005126953125,
-      "changePct": -0.32674981341991677,
-      "pctRank": 24.025457438345267,
+      "changeAbs": -0.3780059814453125,
+      "changePct": -0.38120811565656954,
+      "pctRank": 23.15035799522673,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.730048281205022,
-      "ma20": 99.3443000793457,
-      "ma60": 100.26510022481283,
-      "chg1m": -0.7639999389648438,
-      "chg3m": -1.2140045166015625,
-      "chg1mPct": -0.7670682235636305,
-      "chg3mPct": -1.2133977806812604,
+      "drawdown1y": -2.7831934973922223,
+      "ma20": 99.34160003662109,
+      "ma60": 100.26420021057129,
+      "chg1m": -0.8180007934570312,
+      "chg3m": -1.26800537109375,
+      "chg1mPct": -0.8212859497880124,
+      "chg3mPct": -1.26737164659334,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4395.89990234375,
+      "current": 4394.89990234375,
       "prevClose": 4429.7998046875,
-      "changeAbs": -33.89990234375,
-      "changePct": -0.7652693990341956,
+      "changeAbs": -34.89990234375,
+      "changePct": -0.7878437826201496,
       "pctRank": 90.29435163086714,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.34544255676348,
-      "ma20": 4468.8599853515625,
-      "ma60": 4235.57666422526,
-      "chg1m": 55.19970703125,
-      "chg3m": 60.0,
-      "chg1mPct": 1.2716774839888707,
-      "chg3mPct": 1.3837957829138834,
+      "drawdown1y": -17.364245204521488,
+      "ma20": 4468.809985351562,
+      "ma60": 4235.559997558594,
+      "chg1m": 54.19970703125,
+      "chg3m": 59.0,
+      "chg1mPct": 1.2486397261386535,
+      "chg3mPct": 1.3607325198653186,
       "lastDate": "2026-09-08",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 4.9014133871083665,
-        "ret3m": 7.134178350036269,
-        "ret6m": 14.988432940913409,
-        "ret1y": 10.839965720385347,
+        "ret1m": 7.560465212941092,
+        "ret3m": 7.134252654425288,
+        "ret6m": 15.63351734300178,
+        "ret1y": 12.060734082933289,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 3.928160440346473,
-        "ret3m": -2.5184708943859047,
-        "ret6m": 85.887715994491,
-        "ret1y": 240.97869129829505,
+        "ret1m": 1.5584157001138355,
+        "ret3m": -0.004318953489490518,
+        "ret6m": 89.74750280457383,
+        "ret1y": 238.99518505806432,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -2.5537287742151027,
-        "ret3m": 2.8546074223701146,
-        "ret6m": 43.760791722823214,
-        "ret1y": 233.28651592806665,
+        "ret1m": -2.8573816523549067,
+        "ret3m": 0.5702706205811703,
+        "ret6m": 46.57553423440615,
+        "ret1y": 222.91565496841685,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 1.5043564621195715,
-        "ret3m": 0.23061396787313893,
-        "ret6m": 16.356716464950583,
-        "ret1y": 67.91504711436794,
+        "ret1m": -0.936113024514218,
+        "ret3m": -2.290290381105331,
+        "ret6m": 18.902151862791072,
+        "ret1y": 62.436051400834145,
         "winRate": null,
         "count": 12
       }
@@ -229,33 +229,40 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.0787886582315709,
-    "corrPctRank": 0.08375209380234507,
+    "corr60": 0.06509786816673266,
+    "corrPctRank": 0.0,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
+      "headline": "War expands as Houthis attack Saudi cities and US strikes Iranian tankers - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
+      "datetime": 1788908958,
+      "headlineKo": "후티족이 사우디 도시를 공격하고 미국이 이란 유조선을 공격함에 따라 전쟁이 확대됩니다. - 로이터"
+    },
+    {
+      "headline": "Who are the Houthis, Iran’s allies in Yemen? - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN212czZZNnNEYmF3UzlicUQwSG1haUt0SDZLd3pQeHJTWTVmWHZ6NjBFQ0FlYUxyLXU5ZmJiaGpMMHVONXJrcHM5SV9GZVJiY25xdkw0SVB6cElieWJfckgzTGhYOG5XYXFvcjlvWkhhaUU5a0l1TUotVkczc2FCRXkzNHRVaXZCNVcwd1A1dUUtSEY2RnZvTUc0ZmNMM2xTWHhHNmIzd21EbUY3?oc=5",
+      "datetime": 1788905772,
+      "headlineKo": "예멘에서 이란의 동맹인 후티족은 누구인가? - 로이터"
+    },
+    {
+      "headline": "COMMENTARY: TRADING DAY Roll out the $100 barrel - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQeWhUQ1NpdmNLVzc0cWl4c0ZwUXZrV3dBeTBJVXF0ZnZQNDZlb3NXcnJlbUo3cUFQRV9nUE9VbGhfWXpzZTFaZGRMVkRrdUhhME5OYUs5Mm5PLWFmVTBvTk0teDdocVhhQXhNVVNWaXk0QmJpeXRTMDh5VzRTRTFjLTAxdkEwZDVPT3pxX2Zwd1N0RGdqVVhjVWI4bTVLZHotNjdwWHlB?oc=5",
+      "datetime": 1788901686,
+      "headlineKo": "해설: 트레이딩 데이 $ 100 배럴 출시 - 로이터"
+    },
+    {
       "headline": "This alternative energy stock is more popular than SpaceX in the options pits. Here's why",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/08/bloom-energy-is-trading-more-options-than-spacex.html",
       "datetime": 1788899001,
       "headlineKo": "이 대체 에너지 주식은 옵션 피트에서 SpaceX보다 더 인기가 있습니다. 이유는 다음과 같습니다."
-    },
-    {
-      "headline": "Iran-backed Houthis attack four Saudi cities in expansion of Middle East war, 73 hurt - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT2RnNWprQ01ScjN2Q05RSHRWdmRqVzh2U01LUVVPVmhiRDVYNER3anQxQlNWV24wS3RZR2ZqS1FxNnFKWFRqSmlYbnQwSFk1eU5Cbnh1SVpxbTZCWUwtelFqbFV6LTNLVHZZbGRaYTVucy1VT1JwNDZPM3gydkZRU2VCWHFoVnpTVU9ILXlfRHpKMnBsT3RJOUlkejRzT1FJa25YekFnMVl6dUJnbERxeXo1UnpOZTVaQ281aFJrbjFEWmN3T2c?oc=5",
-      "datetime": 1788898904,
-      "headlineKo": "이란 지원 후티 반군, 중동 전쟁 확대로 사우디 도시 4곳 공격, 73명 부상 - 로이터"
-    },
-    {
-      "headline": "Wall Street slides, oil surges amid worries over inflation, Middle East - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE82VU5LOUdHSU5uLWxoeWs1bi16RTM3dUozczYtZXhPUF9RRFEtUVNTQmphRjloY2k5dkxodEZ1eTZnRjF4NU90clpNZGZJTnk1SEJXME44NDIxT1JNNW5rWW80VGlNbDJXNDdjMHN4YXd4eTRLb3RJLW5Ybw?oc=5",
-      "datetime": 1788898660,
-      "headlineKo": "월스트리트 하락, 인플레이션 우려 속에 유가 급등, 중동 - Reuters"
     },
     {
       "headline": "Huawei heads to trial in US over its business dealings in Iran - Reuters",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2FPczJOb2lpcFNYMEVRVlpXaXJ5dllBZjFvMDhsbGEzVDV5dlQ4QVJjV1d0N1FPYmFrNzVRYkRvbzFmVXp5WFdxMXUwZ1VvNFdVVnkybnpFU19GVmdSaEpRaldoTWRsRGs5NVdhR09BNmNLZUtsYlI1TjE4cVpLeUs2NTZIcEpxS1F6NWlid0tHU05FNklhTUdLbkhPQjRQeTVxLWpzRlAzQ3pNSUlQazc4NV92V3FnNEpkeg?oc=5",
       "datetime": 1788886423,
       "headlineKo": "네타냐후, 선거 패배를 막기 위해 이스라엘 우익 통합 경쟁 - 로이터"
-    },
-    {
-      "headline": "Cramer says these 2 stocks are big winners from OpenAI's new model release",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/08/cramer-says-these-2-stocks-are-big-winners-from-openais-new-model-release-.html",
-      "datetime": 1788885702,
-      "headlineKo": "Cramer는 이 두 주식이 OpenAI의 새로운 모델 출시에서 큰 승리를 거두었다고 말합니다."
     }
   ],
   "fgi": {
-    "score": 40.8,
+    "score": 40.6285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788908426.3841622,
-  "_updated_label": "2026-09-09 08:01",
-  "_last_attempt_at": 1788908426.3841622,
-  "_last_success_at": 1788908426.3841622,
+  "_fetched_at": 1788912337.4544888,
+  "_updated_label": "2026-09-09 09:06",
+  "_last_attempt_at": 1788912337.4544888,
+  "_last_success_at": 1788912337.4544888,
   "_collection_status": "ok",
   "_collection_errors": []
 };
