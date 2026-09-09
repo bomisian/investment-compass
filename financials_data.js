@@ -8,7 +8,7 @@ const FINANCIALS_DATA = {
         "revenue": 11716000000,
         "netIncome": 4141000000,
         "opIncome": 3804000000,
-        "eps": 6,
+        "eps": 6.63,
         "ocf": 3743000000,
         "capex": -600000000,
         "fcf": 3143000000,
@@ -19,7 +19,7 @@ const FINANCIALS_DATA = {
         "revenue": 10918000000.0,
         "netIncome": 2796000000.0,
         "opIncome": 2846000000.0,
-        "eps": 4.52,
+        "eps": 1.13,
         "ocf": 4761000000,
         "capex": -489000000,
         "fcf": 4272000000,
@@ -30,7 +30,7 @@ const FINANCIALS_DATA = {
         "revenue": 16675000000.0,
         "netIncome": 4332000000.0,
         "opIncome": 4532000000.0,
-        "eps": 6.9,
+        "eps": 1.73,
         "ocf": 5822000000.0,
         "capex": null,
         "fcf": null,
@@ -56,7 +56,7 @@ const FINANCIALS_DATA = {
         "revenue": 26974000000.0,
         "netIncome": 4368000000.0,
         "opIncome": 4224000000.0,
-        "eps": 1.74,
+        "eps": 0.17,
         "ocf": 5641000000,
         "capex": -1833000000.0,
         "fcf": 3808000000.0,
@@ -77,7 +77,7 @@ const FINANCIALS_DATA = {
         "revenue": 60922000000.0,
         "netIncome": 29760000000.0,
         "opIncome": 32972000000.0,
-        "eps": 11.93,
+        "eps": 1.19,
         "ocf": 28090000000,
         "capex": -1069000000.0,
         "fcf": 27021000000.0,
@@ -138,7 +138,8 @@ const FINANCIALS_DATA = {
         "revenue": 18120000000.0,
         "netIncome": 9243000000.0,
         "opIncome": 10417000000.0,
-        "endDate": "2023-10-29"
+        "endDate": "2023-10-29",
+        "eps": 0.37
       },
       {
         "period": "Q1'24",
@@ -152,21 +153,24 @@ const FINANCIALS_DATA = {
         "revenue": 26044000000.0,
         "netIncome": 14881000000.0,
         "opIncome": 16909000000.0,
-        "endDate": "2024-04-28"
+        "endDate": "2024-04-28",
+        "eps": 0.6
       },
       {
         "period": "Q3'24",
         "revenue": 30040000000.0,
         "netIncome": 16599000000.0,
         "opIncome": 18642000000.0,
-        "endDate": "2024-07-28"
+        "endDate": "2024-07-28",
+        "eps": 0.67
       },
       {
         "period": "Q4'24",
         "revenue": 35082000000.0,
         "netIncome": 19309000000.0,
         "opIncome": 21869000000,
-        "endDate": "2024-10-27"
+        "endDate": "2024-10-27",
+        "eps": 0.78
       },
       {
         "period": "Q1'25",
@@ -180,7 +184,8 @@ const FINANCIALS_DATA = {
         "revenue": 44062000000.0,
         "netIncome": 18775000000.0,
         "opIncome": 21638000000.0,
-        "endDate": "2025-04-27"
+        "endDate": "2025-04-27",
+        "eps": 0.76
       },
       {
         "period": "Q3'25",
@@ -257,8 +262,8 @@ const FINANCIALS_DATA = {
         "revenue": 96221000000,
         "netIncome": 59688000000,
         "opIncome": 63734000000,
-        "endDate": "2026-07-31",
         "eps": 2.46,
+        "endDate": "2026-07-31",
         "ocf": 24077000000.0,
         "capex": -2677000000.0,
         "fcf": 21400000000.0,
@@ -274,6 +279,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -374,9 +380,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -402,7 +408,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AAPL": {
@@ -412,7 +418,7 @@ const FINANCIALS_DATA = {
         "revenue": 265595000000,
         "netIncome": 59531000000,
         "opIncome": 70898000000,
-        "eps": 11,
+        "eps": 2.98,
         "ocf": 77434000000,
         "capex": -13313000000,
         "fcf": 64121000000,
@@ -423,7 +429,7 @@ const FINANCIALS_DATA = {
         "revenue": 260174000000.0,
         "netIncome": 55256000000.0,
         "opIncome": 63930000000.0,
-        "eps": 11.89,
+        "eps": 2.97,
         "ocf": 69391000000,
         "capex": -10495000000,
         "fcf": 58896000000,
@@ -526,28 +532,32 @@ const FINANCIALS_DATA = {
         "revenue": 81797000000,
         "netIncome": 19881000000,
         "opIncome": 22998000000,
-        "endDate": "2023-07-01"
+        "endDate": "2023-07-01",
+        "eps": 1.26
       },
       {
         "period": "Q4'23",
         "revenue": 119575000000.0,
         "netIncome": 33916000000.0,
         "opIncome": 40373000000.0,
-        "endDate": "2023-12-30"
+        "endDate": "2023-12-30",
+        "eps": 2.18
       },
       {
         "period": "Q1'24",
         "revenue": 90753000000.0,
         "netIncome": 23636000000.0,
         "opIncome": 27900000000.0,
-        "endDate": "2024-03-30"
+        "endDate": "2024-03-30",
+        "eps": 1.53
       },
       {
         "period": "Q2'24",
         "revenue": 85777000000.0,
         "netIncome": 21448000000.0,
         "opIncome": 25352000000.0,
-        "endDate": "2024-06-29"
+        "endDate": "2024-06-29",
+        "eps": 1.4
       },
       {
         "period": "Q3'24",
@@ -561,14 +571,16 @@ const FINANCIALS_DATA = {
         "revenue": 124300000000.0,
         "netIncome": 36330000000.0,
         "opIncome": 42832000000.0,
-        "endDate": "2024-12-28"
+        "endDate": "2024-12-28",
+        "eps": 2.4
       },
       {
         "period": "Q1'25",
         "revenue": 95359000000.0,
         "netIncome": 24780000000.0,
         "opIncome": 29589000000.0,
-        "endDate": "2025-03-29"
+        "endDate": "2025-03-29",
+        "eps": 1.65
       },
       {
         "period": "Q2'25",
@@ -643,8 +655,8 @@ const FINANCIALS_DATA = {
         "revenue": 109417000000,
         "netIncome": 29789000000,
         "opIncome": 35695000000,
-        "endDate": "2026-06-30",
         "eps": 2.02,
+        "endDate": "2026-06-30",
         "ocf": 34369000000.0,
         "capex": -2455000000.0,
         "fcf": 31914000000.0,
@@ -658,6 +670,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -758,9 +771,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -786,7 +799,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GOOGL": {
@@ -796,7 +809,7 @@ const FINANCIALS_DATA = {
         "revenue": 136819000000,
         "netIncome": 30736000000,
         "opIncome": 27524000000,
-        "eps": 43,
+        "eps": 43.7,
         "ocf": 47971000000,
         "capex": -25139000000,
         "fcf": 22832000000,
@@ -807,7 +820,7 @@ const FINANCIALS_DATA = {
         "revenue": 161857000000.0,
         "netIncome": 34343000000.0,
         "opIncome": 34231000000.0,
-        "eps": 49,
+        "eps": 49.16,
         "ocf": 54520000000,
         "capex": -23548000000.0,
         "fcf": 30972000000.0,
@@ -818,7 +831,7 @@ const FINANCIALS_DATA = {
         "revenue": 182527000000.0,
         "netIncome": 40269000000.0,
         "opIncome": 41224000000.0,
-        "eps": 58,
+        "eps": 2.93,
         "ocf": 65124000000,
         "capex": -22281000000,
         "fcf": 42843000000,
@@ -829,7 +842,7 @@ const FINANCIALS_DATA = {
         "revenue": 257637000000.0,
         "netIncome": 76033000000.0,
         "opIncome": 78714000000.0,
-        "eps": 112,
+        "eps": 5.61,
         "ocf": 91652000000,
         "capex": -24640000000,
         "fcf": 67012000000,
@@ -840,7 +853,7 @@ const FINANCIALS_DATA = {
         "revenue": 282836000000.0,
         "netIncome": 59972000000.0,
         "opIncome": 74842000000.0,
-        "eps": 4,
+        "eps": 4.56,
         "ocf": 91495000000,
         "capex": -31485000000,
         "fcf": 60010000000,
@@ -860,7 +873,7 @@ const FINANCIALS_DATA = {
         "revenue": 307394000000.0,
         "netIncome": 73795000000.0,
         "opIncome": 84293000000.0,
-        "eps": 5,
+        "eps": 5.8,
         "ocf": 101746000000,
         "capex": -32251000000,
         "fcf": 69495000000,
@@ -922,7 +935,8 @@ const FINANCIALS_DATA = {
         "revenue": 76693000000.0,
         "netIncome": 19689000000.0,
         "opIncome": 21343000000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 1.55
       },
       {
         "period": "Q4'23",
@@ -936,21 +950,24 @@ const FINANCIALS_DATA = {
         "revenue": 80539000000.0,
         "netIncome": 23662000000.0,
         "opIncome": 25472000000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 1.89
       },
       {
         "period": "Q2'24",
         "revenue": 84742000000.0,
         "netIncome": 23619000000.0,
         "opIncome": 27425000000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 1.89
       },
       {
         "period": "Q3'24",
         "revenue": 88268000000.0,
         "netIncome": 26301000000.0,
         "opIncome": 28521000000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 2.12
       },
       {
         "period": "Q4'24",
@@ -966,6 +983,7 @@ const FINANCIALS_DATA = {
         "netIncome": 34540000000.0,
         "opIncome": 30606000000.0,
         "endDate": "2025-03-31",
+        "eps": 2.81,
         "specialIncomeCharges": -22000000.0
       },
       {
@@ -1052,8 +1070,8 @@ const FINANCIALS_DATA = {
         "revenue": 119796000000,
         "netIncome": 112193000000,
         "opIncome": 40770000000,
-        "endDate": "2026-06-30",
         "eps": 9.11,
+        "endDate": "2026-06-30",
         "ocf": 39069000000.0,
         "capex": -44924000000.0,
         "fcf": -5855000000.0,
@@ -1071,9 +1089,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1099,7 +1117,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MSFT": {
@@ -1109,7 +1127,7 @@ const FINANCIALS_DATA = {
         "revenue": 125843000000.0,
         "netIncome": 39240000000,
         "opIncome": 42959000000,
-        "eps": 5,
+        "eps": 5.06,
         "ocf": 52185000000,
         "capex": -13925000000,
         "fcf": 38260000000,
@@ -1213,6 +1231,7 @@ const FINANCIALS_DATA = {
         "revenue": 331839000000,
         "netIncome": 133749000000,
         "opIncome": 155237000000,
+        "eps": 17.95,
         "ocf": 182935000000,
         "capex": -115948000000,
         "fcf": 66987000000,
@@ -1241,13 +1260,15 @@ const FINANCIALS_DATA = {
         "revenue": 56517000000.0,
         "netIncome": 22291000000.0,
         "opIncome": 26895000000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 2.99
       },
       {
         "period": "Q4'23",
         "revenue": 62020000000,
         "netIncome": 21870000000,
         "opIncome": 27032000000,
+        "eps": 2.93,
         "endDate": "2023-12-31"
       },
       {
@@ -1255,6 +1276,7 @@ const FINANCIALS_DATA = {
         "revenue": 61858000000,
         "netIncome": 21939000000,
         "opIncome": 27581000000,
+        "eps": 2.94,
         "endDate": "2024-03-31"
       },
       {
@@ -1262,21 +1284,24 @@ const FINANCIALS_DATA = {
         "revenue": 65585000000.0,
         "netIncome": 24667000000.0,
         "opIncome": 30552000000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 3.3
       },
       {
         "period": "Q4'24",
         "revenue": 69632000000.0,
         "netIncome": 24108000000.0,
         "opIncome": 31653000000.0,
-        "endDate": "2024-12-31"
+        "endDate": "2024-12-31",
+        "eps": 3.23
       },
       {
         "period": "Q1'25",
         "revenue": 70066000000.0,
         "netIncome": 25824000000.0,
         "opIncome": 32000000000.0,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 3.46
       },
       {
         "period": "Q2'25",
@@ -1484,9 +1509,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1512,7 +1537,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMZN": {
@@ -1522,7 +1547,7 @@ const FINANCIALS_DATA = {
         "revenue": 232887000000,
         "netIncome": 10073000000,
         "opIncome": 12421000000,
-        "eps": 20,
+        "eps": 20.14,
         "ocf": 30723000000,
         "capex": -13427000000,
         "fcf": 17296000000,
@@ -1533,7 +1558,7 @@ const FINANCIALS_DATA = {
         "revenue": 280522000000.0,
         "netIncome": 11588000000.0,
         "opIncome": 14541000000.0,
-        "eps": 23,
+        "eps": 23.01,
         "ocf": 38514000000,
         "capex": -16861000000,
         "fcf": 21653000000,
@@ -1544,7 +1569,7 @@ const FINANCIALS_DATA = {
         "revenue": 386064000000.0,
         "netIncome": 21331000000.0,
         "opIncome": 22899000000.0,
-        "eps": 41.83,
+        "eps": 2.09,
         "ocf": 66064000000.0,
         "capex": -40140000000.0,
         "fcf": 25924000000.0,
@@ -1555,7 +1580,7 @@ const FINANCIALS_DATA = {
         "revenue": 469822000000.0,
         "netIncome": 33364000000.0,
         "opIncome": 24879000000.0,
-        "eps": 64.81,
+        "eps": 3.24,
         "ocf": 46327000000.0,
         "capex": -61053000000.0,
         "fcf": -14726000000.0,
@@ -1566,7 +1591,7 @@ const FINANCIALS_DATA = {
         "revenue": 513983000000.0,
         "netIncome": -2722000000.0,
         "opIncome": 12248000000.0,
-        "eps": 0,
+        "eps": -0.27,
         "ocf": 46752000000,
         "capex": -63645000000,
         "fcf": -16893000000,
@@ -1584,7 +1609,7 @@ const FINANCIALS_DATA = {
         "revenue": 574785000000.0,
         "netIncome": 30425000000.0,
         "opIncome": 36852000000.0,
-        "eps": 2,
+        "eps": 2.9,
         "ocf": 84946000000,
         "capex": -52729000000,
         "fcf": 32217000000,
@@ -1602,7 +1627,7 @@ const FINANCIALS_DATA = {
         "revenue": 637959000000.0,
         "netIncome": 59248000000.0,
         "opIncome": 68593000000.0,
-        "eps": 5,
+        "eps": 5.53,
         "ocf": 115877000000,
         "capex": -82999000000,
         "fcf": 32878000000,
@@ -1620,7 +1645,7 @@ const FINANCIALS_DATA = {
         "revenue": 716924000000.0,
         "netIncome": 77670000000.0,
         "opIncome": 79975000000.0,
-        "eps": 7,
+        "eps": 7.17,
         "ocf": 139514000000,
         "capex": -131819000000,
         "fcf": 7695000000,
@@ -1640,14 +1665,16 @@ const FINANCIALS_DATA = {
         "revenue": 134383000000.0,
         "netIncome": 6750000000.0,
         "opIncome": 7681000000.0,
-        "endDate": "2023-06-30"
+        "endDate": "2023-06-30",
+        "eps": 0.65
       },
       {
         "period": "Q3'23",
         "revenue": 143083000000.0,
         "netIncome": 9879000000.0,
         "opIncome": 11188000000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.94
       },
       {
         "period": "Q4'23",
@@ -1661,20 +1688,23 @@ const FINANCIALS_DATA = {
         "revenue": 143313000000.0,
         "netIncome": 10431000000.0,
         "opIncome": 15307000000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.98
       },
       {
         "period": "Q2'24",
         "revenue": 147977000000.0,
         "netIncome": 13485000000.0,
         "opIncome": 14672000000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 1.26
       },
       {
         "period": "Q3'24",
         "revenue": 158877000000,
         "netIncome": 15328000000,
         "opIncome": 17411000000,
+        "eps": 1.43,
         "endDate": "2024-09-30"
       },
       {
@@ -1683,6 +1713,7 @@ const FINANCIALS_DATA = {
         "netIncome": 17127000000.0,
         "opIncome": 18405000000.0,
         "endDate": "2025-03-31",
+        "eps": 1.59,
         "ocf": 17015000000.0,
         "capex": -25019000000.0,
         "fcf": -8004000000.0,
@@ -1776,12 +1807,13 @@ const FINANCIALS_DATA = {
         "revenue": 200606000000,
         "netIncome": 62647000000,
         "opIncome": 27461000000,
-        "endDate": "2026-06-30",
-        "eps": 5.75
+        "eps": 5.75,
+        "endDate": "2026-06-30"
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -1882,9 +1914,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1910,7 +1942,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -2140,9 +2172,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2168,7 +2200,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075
+    "_yahoo_verified_at": 1788946421.1381884
   },
   "AVGO": {
     "annual": [
@@ -2177,7 +2209,7 @@ const FINANCIALS_DATA = {
         "revenue": 20848000000,
         "netIncome": 12259000000,
         "opIncome": 5135000000,
-        "eps": 28,
+        "eps": 28.44,
         "ocf": 8880000000,
         "capex": -635000000,
         "fcf": 8245000000,
@@ -2221,7 +2253,7 @@ const FINANCIALS_DATA = {
         "revenue": 33203000000.0,
         "netIncome": 11495000000.0,
         "opIncome": 14225000000.0,
-        "eps": 26.53,
+        "eps": 2.65,
         "ocf": 16736000000,
         "capex": -424000000,
         "fcf": 16312000000,
@@ -2242,7 +2274,7 @@ const FINANCIALS_DATA = {
         "revenue": 35819000000.0,
         "netIncome": 14082000000.0,
         "opIncome": 16207000000.0,
-        "eps": 32.98,
+        "eps": 3.3,
         "ocf": 18085000000,
         "capex": -452000000,
         "fcf": 17633000000,
@@ -2314,21 +2346,24 @@ const FINANCIALS_DATA = {
         "revenue": 11961000000.0,
         "netIncome": 1325000000.0,
         "opIncome": 2083000000.0,
-        "endDate": "2024-02-04"
+        "endDate": "2024-02-04",
+        "eps": 0.28
       },
       {
         "period": "Q2'24",
         "revenue": 12487000000.0,
         "netIncome": 2121000000.0,
         "opIncome": 2965000000.0,
-        "endDate": "2024-05-05"
+        "endDate": "2024-05-05",
+        "eps": 0.44
       },
       {
         "period": "Q3'24",
         "revenue": 13072000000.0,
         "netIncome": -1875000000.0,
         "opIncome": 3788000000.0,
-        "endDate": "2024-08-04"
+        "endDate": "2024-08-04",
+        "eps": -0.4
       },
       {
         "period": "Q4'24",
@@ -2342,7 +2377,8 @@ const FINANCIALS_DATA = {
         "revenue": 14916000000.0,
         "netIncome": 5503000000.0,
         "opIncome": 6260000000.0,
-        "endDate": "2025-02-02"
+        "endDate": "2025-02-02",
+        "eps": 1.14
       },
       {
         "period": "Q2'25",
@@ -2350,6 +2386,7 @@ const FINANCIALS_DATA = {
         "netIncome": 4965000000.0,
         "opIncome": 5829000000.0,
         "endDate": "2025-04-30",
+        "eps": 1.03,
         "ocf": 6555000000.0,
         "capex": -144000000.0,
         "fcf": 6411000000.0,
@@ -2574,9 +2611,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2600,9 +2637,13 @@ const FINANCIALS_DATA = {
         "eps": 2.68
       }
     ],
+    "_latest_quarter_incomplete": {
+      "period": "Q3'26",
+      "endDate": "2026-07-31"
+    },
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "META": {
@@ -2612,7 +2653,7 @@ const FINANCIALS_DATA = {
         "revenue": 55838000000,
         "netIncome": 22112000000,
         "opIncome": 24913000000,
-        "eps": 7,
+        "eps": 7.57,
         "ocf": 29274000000,
         "capex": -13915000000,
         "fcf": 15359000000,
@@ -2623,7 +2664,7 @@ const FINANCIALS_DATA = {
         "revenue": 70697000000.0,
         "netIncome": 18485000000.0,
         "opIncome": 23986000000,
-        "eps": 6,
+        "eps": 6.43,
         "ocf": 36314000000,
         "capex": -15102000000,
         "fcf": 21212000000,
@@ -2634,7 +2675,7 @@ const FINANCIALS_DATA = {
         "revenue": 85965000000.0,
         "netIncome": 29146000000.0,
         "opIncome": 32671000000,
-        "eps": 10,
+        "eps": 10.09,
         "ocf": 38747000000,
         "capex": -15163000000,
         "fcf": 23584000000,
@@ -2645,7 +2686,7 @@ const FINANCIALS_DATA = {
         "revenue": 117929000000.0,
         "netIncome": 39370000000.0,
         "opIncome": 46753000000.0,
-        "eps": 13,
+        "eps": 13.77,
         "ocf": 57683000000,
         "capex": -18690000000,
         "fcf": 38993000000,
@@ -2657,7 +2698,7 @@ const FINANCIALS_DATA = {
         "revenue": 116609000000.0,
         "netIncome": 23200000000.0,
         "opIncome": 28944000000.0,
-        "eps": 8,
+        "eps": 8.59,
         "ocf": 50475000000,
         "capex": -31186000000,
         "fcf": 19289000000,
@@ -2676,7 +2717,7 @@ const FINANCIALS_DATA = {
         "revenue": 134902000000.0,
         "netIncome": 39098000000.0,
         "opIncome": 46751000000.0,
-        "eps": 14,
+        "eps": 14.87,
         "ocf": 71113000000,
         "capex": -27045000000,
         "fcf": 44068000000,
@@ -2735,7 +2776,8 @@ const FINANCIALS_DATA = {
         "revenue": 34146000000.0,
         "netIncome": 11583000000.0,
         "opIncome": 13748000000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 4.39
       },
       {
         "period": "Q4'23",
@@ -2749,21 +2791,24 @@ const FINANCIALS_DATA = {
         "revenue": 36455000000.0,
         "netIncome": 12369000000.0,
         "opIncome": 13818000000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 4.71
       },
       {
         "period": "Q2'24",
         "revenue": 39071000000,
         "netIncome": 13465000000.0,
         "opIncome": 14847000000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 5.16
       },
       {
         "period": "Q3'24",
         "revenue": 40589000000.0,
         "netIncome": 15688000000.0,
         "opIncome": 17350000000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 6.03
       },
       {
         "period": "Q4'24",
@@ -2779,6 +2824,7 @@ const FINANCIALS_DATA = {
         "netIncome": 16644000000.0,
         "opIncome": 17555000000.0,
         "endDate": "2025-03-31",
+        "eps": 6.43,
         "otherNonOperating": 177000000.0
       },
       {
@@ -2861,8 +2907,8 @@ const FINANCIALS_DATA = {
         "revenue": 60801000000,
         "netIncome": 15848000000,
         "opIncome": 18775000000,
-        "endDate": "2026-06-30",
         "eps": 6.18,
+        "endDate": "2026-06-30",
         "ocf": 31862000000.0,
         "capex": -30116000000.0,
         "fcf": 1746000000.0,
@@ -2879,9 +2925,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2907,7 +2953,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSLA": {
@@ -2917,7 +2963,7 @@ const FINANCIALS_DATA = {
         "revenue": 21461268000.0,
         "netIncome": -976000000,
         "opIncome": -388000000,
-        "eps": -5,
+        "eps": -1.14,
         "ocf": 2098000000,
         "capex": -2101000000,
         "fcf": -3000000,
@@ -2928,7 +2974,7 @@ const FINANCIALS_DATA = {
         "revenue": 24578000000.0,
         "netIncome": -862000000,
         "opIncome": -69000000,
-        "eps": -4,
+        "eps": -0.98,
         "ocf": 2405000000,
         "capex": -1327000000,
         "fcf": 1078000000,
@@ -2939,7 +2985,7 @@ const FINANCIALS_DATA = {
         "revenue": 31536000000.0,
         "netIncome": 721000000,
         "opIncome": 1994000000,
-        "eps": 0,
+        "eps": 0.21,
         "ocf": 5943000000,
         "capex": -3157000000,
         "fcf": 2786000000,
@@ -2950,7 +2996,7 @@ const FINANCIALS_DATA = {
         "revenue": 53823000000,
         "netIncome": 5519000000.0,
         "opIncome": 6523000000,
-        "eps": 4,
+        "eps": 1.63,
         "ocf": 11497000000,
         "capex": -6482000000,
         "fcf": 5015000000,
@@ -2961,7 +3007,7 @@ const FINANCIALS_DATA = {
         "revenue": 81462000000.0,
         "netIncome": 12556000000.0,
         "opIncome": 13656000000,
-        "eps": 3,
+        "eps": 3.62,
         "ocf": 14724000000,
         "capex": -7158000000,
         "fcf": 7566000000,
@@ -2982,7 +3028,7 @@ const FINANCIALS_DATA = {
         "revenue": 96773000000.0,
         "netIncome": 14997000000.0,
         "opIncome": 8891000000,
-        "eps": 4,
+        "eps": 4.3,
         "ocf": 13256000000,
         "capex": -8899000000,
         "fcf": 4357000000,
@@ -3003,7 +3049,7 @@ const FINANCIALS_DATA = {
         "revenue": 97690000000.0,
         "netIncome": 7091000000.0,
         "opIncome": 7076000000,
-        "eps": 2,
+        "eps": 2.04,
         "ocf": 14923000000,
         "capex": -11342000000,
         "fcf": 3581000000,
@@ -3024,7 +3070,7 @@ const FINANCIALS_DATA = {
         "revenue": 94827000000.0,
         "netIncome": 3794000000.0,
         "opIncome": 4355000000,
-        "eps": 1,
+        "eps": 1.08,
         "ocf": 14747000000,
         "capex": -8527000000,
         "fcf": 6220000000,
@@ -3047,7 +3093,8 @@ const FINANCIALS_DATA = {
         "revenue": 23350000000.0,
         "netIncome": 1853000000.0,
         "opIncome": 1764000000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.53
       },
       {
         "period": "Q4'23",
@@ -3061,21 +3108,24 @@ const FINANCIALS_DATA = {
         "revenue": 21301000000.0,
         "netIncome": 1390000000,
         "opIncome": 1171000000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.41
       },
       {
         "period": "Q2'24",
         "revenue": 25500000000.0,
         "netIncome": 1400000000,
         "opIncome": 1605000000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 0.4
       },
       {
         "period": "Q3'24",
         "revenue": 25182000000.0,
         "netIncome": 2173000000,
         "opIncome": 2717000000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 0.62
       },
       {
         "period": "Q4'24",
@@ -3089,7 +3139,8 @@ const FINANCIALS_DATA = {
         "revenue": 19335000000.0,
         "netIncome": 409000000.0,
         "opIncome": 399000000,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.12
       },
       {
         "period": "Q2'25",
@@ -3180,8 +3231,8 @@ const FINANCIALS_DATA = {
         "revenue": 28236000000,
         "netIncome": 1114000000,
         "opIncome": 398000000,
-        "endDate": "2026-06-30",
         "eps": 0.32,
+        "endDate": "2026-06-30",
         "ocf": 4697000000.0,
         "capex": -5796000000.0,
         "fcf": -1099000000.0,
@@ -3300,9 +3351,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3328,7 +3379,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MU": {
@@ -3338,7 +3389,7 @@ const FINANCIALS_DATA = {
         "revenue": 30391000000,
         "netIncome": 14135000000,
         "opIncome": 14994000000,
-        "eps": 11,
+        "eps": 11.51,
         "ocf": 17400000000,
         "capex": -8879000000,
         "fcf": 8521000000,
@@ -3349,7 +3400,7 @@ const FINANCIALS_DATA = {
         "revenue": 23406000000,
         "netIncome": 6313000000,
         "opIncome": 7376000000,
-        "eps": 5,
+        "eps": 5.51,
         "ocf": 13189000000,
         "capex": -9780000000,
         "fcf": 3409000000,
@@ -3479,21 +3530,24 @@ const FINANCIALS_DATA = {
         "revenue": 4726000000.0,
         "netIncome": -1234000000.0,
         "opIncome": -1128000000.0,
-        "endDate": "2023-11-30"
+        "endDate": "2023-11-30",
+        "eps": -1.12
       },
       {
         "period": "Q1'24",
         "revenue": 5824000000.0,
         "netIncome": 793000000.0,
         "opIncome": 191000000.0,
-        "endDate": "2024-02-29"
+        "endDate": "2024-02-29",
+        "eps": 0.71
       },
       {
         "period": "Q2'24",
         "revenue": 6811000000.0,
         "netIncome": 332000000.0,
         "opIncome": 719000000.0,
-        "endDate": "2024-05-30"
+        "endDate": "2024-05-30",
+        "eps": 0.3
       },
       {
         "period": "Q3'24",
@@ -3507,14 +3561,16 @@ const FINANCIALS_DATA = {
         "revenue": 8709000000.0,
         "netIncome": 1870000000.0,
         "opIncome": 2174000000.0,
-        "endDate": "2024-11-28"
+        "endDate": "2024-11-28",
+        "eps": 1.67
       },
       {
         "period": "Q1'25",
         "revenue": 8053000000.0,
         "netIncome": 1583000000.0,
         "opIncome": 1773000000.0,
-        "endDate": "2025-02-27"
+        "endDate": "2025-02-27",
+        "eps": 1.41
       },
       {
         "period": "Q2'25",
@@ -3604,6 +3660,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -3704,9 +3761,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3732,7 +3789,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -3742,7 +3799,7 @@ const FINANCIALS_DATA = {
         "revenue": 6475000000,
         "netIncome": 337000000,
         "opIncome": 451000000,
-        "eps": 0,
+        "eps": 0.32,
         "ocf": 34000000,
         "capex": -163000000,
         "fcf": -129000000,
@@ -3786,6 +3843,7 @@ const FINANCIALS_DATA = {
         "revenue": 23601000000,
         "netIncome": 1320000000,
         "opIncome": 1264000000,
+        "eps": 0.84,
         "ocf": 3565000000,
         "capex": -450000000,
         "fcf": 3115000000,
@@ -3871,7 +3929,8 @@ const FINANCIALS_DATA = {
         "revenue": 5800000000,
         "netIncome": 299000000,
         "opIncome": 224000000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.18
       },
       {
         "period": "Q4'23",
@@ -3885,21 +3944,24 @@ const FINANCIALS_DATA = {
         "revenue": 5473000000.0,
         "netIncome": 123000000.0,
         "opIncome": 36000000.0,
-        "endDate": "2024-03-30"
+        "endDate": "2024-03-30",
+        "eps": 0.07
       },
       {
         "period": "Q2'24",
         "revenue": 5835000000.0,
         "netIncome": 265000000.0,
         "opIncome": 269000000.0,
-        "endDate": "2024-06-29"
+        "endDate": "2024-06-29",
+        "eps": 0.16
       },
       {
         "period": "Q3'24",
         "revenue": 6819000000.0,
         "netIncome": 771000000.0,
         "opIncome": 724000000.0,
-        "endDate": "2024-09-28"
+        "endDate": "2024-09-28",
+        "eps": 0.47
       },
       {
         "period": "Q4'24",
@@ -3913,7 +3975,8 @@ const FINANCIALS_DATA = {
         "revenue": 7438000000.0,
         "netIncome": 709000000.0,
         "opIncome": 806000000.0,
-        "endDate": "2025-03-29"
+        "endDate": "2025-03-29",
+        "eps": 0.44
       },
       {
         "period": "Q2'25",
@@ -3988,8 +4051,8 @@ const FINANCIALS_DATA = {
         "revenue": 11536000000,
         "netIncome": 2297000000,
         "opIncome": 1990000000,
-        "endDate": "2026-06-30",
         "eps": 1.38,
+        "endDate": "2026-06-30",
         "ocf": 2366000000.0,
         "capex": -808000000.0,
         "fcf": 1558000000.0,
@@ -4104,9 +4167,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4132,7 +4195,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "INTC": {
@@ -4142,7 +4205,7 @@ const FINANCIALS_DATA = {
         "revenue": 70848000000,
         "netIncome": 21053000000,
         "opIncome": 23316000000,
-        "eps": 4,
+        "eps": 4.48,
         "ocf": 29432000000,
         "capex": -15181000000,
         "fcf": 14251000000,
@@ -4268,7 +4331,8 @@ const FINANCIALS_DATA = {
         "revenue": 14158000000,
         "netIncome": 297000000,
         "opIncome": -8000000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.07
       },
       {
         "period": "Q4'23",
@@ -4282,21 +4346,24 @@ const FINANCIALS_DATA = {
         "revenue": 12724000000.0,
         "netIncome": -381000000.0,
         "opIncome": -1069000000.0,
-        "endDate": "2024-03-30"
+        "endDate": "2024-03-30",
+        "eps": -0.09
       },
       {
         "period": "Q2'24",
         "revenue": 12833000000.0,
         "netIncome": -1610000000.0,
         "opIncome": -1964000000.0,
-        "endDate": "2024-06-29"
+        "endDate": "2024-06-29",
+        "eps": -0.38
       },
       {
         "period": "Q3'24",
         "revenue": 13284000000.0,
         "netIncome": -16639000000.0,
         "opIncome": -9057000000.0,
-        "endDate": "2024-09-28"
+        "endDate": "2024-09-28",
+        "eps": -3.88
       },
       {
         "period": "Q4'24",
@@ -4310,7 +4377,8 @@ const FINANCIALS_DATA = {
         "revenue": 12667000000.0,
         "netIncome": -821000000.0,
         "opIncome": -301000000.0,
-        "endDate": "2025-03-29"
+        "endDate": "2025-03-29",
+        "eps": -0.19
       },
       {
         "period": "Q2'25",
@@ -4397,8 +4465,8 @@ const FINANCIALS_DATA = {
         "revenue": 16128000000,
         "netIncome": -11033000000,
         "opIncome": 1796000000,
-        "endDate": "2026-06-30",
         "eps": -2.16,
+        "endDate": "2026-06-30",
         "ocf": 7006000000.0,
         "capex": -2556000000.0,
         "fcf": 4450000000.0,
@@ -4516,9 +4584,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4544,7 +4612,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -4554,7 +4622,7 @@ const FINANCIALS_DATA = {
         "revenue": 17253000000,
         "netIncome": 3038000000,
         "opIncome": 4491000000,
-        "eps": 3,
+        "eps": 2.96,
         "ocf": 3787000000,
         "capex": -622000000,
         "fcf": 3165000000,
@@ -4687,21 +4755,24 @@ const FINANCIALS_DATA = {
         "revenue": 6707000000.0,
         "netIncome": 2019000000.0,
         "opIncome": 1967000000.0,
-        "endDate": "2024-01-28"
+        "endDate": "2024-01-28",
+        "eps": 2.41
       },
       {
         "period": "Q2'24",
         "revenue": 6646000000.0,
         "netIncome": 1722000000.0,
         "opIncome": 1912000000.0,
-        "endDate": "2024-04-28"
+        "endDate": "2024-04-28",
+        "eps": 2.06
       },
       {
         "period": "Q3'24",
         "revenue": 6778000000.0,
         "netIncome": 1705000000.0,
         "opIncome": 1942000000.0,
-        "endDate": "2024-07-28"
+        "endDate": "2024-07-28",
+        "eps": 2.05
       },
       {
         "period": "Q4'24",
@@ -4715,7 +4786,8 @@ const FINANCIALS_DATA = {
         "revenue": 7166000000.0,
         "netIncome": 1185000000.0,
         "opIncome": 2175000000.0,
-        "endDate": "2025-01-26"
+        "endDate": "2025-01-26",
+        "eps": 1.45
       },
       {
         "period": "Q2'25",
@@ -4723,6 +4795,7 @@ const FINANCIALS_DATA = {
         "netIncome": 2137000000.0,
         "opIncome": 2169000000.0,
         "endDate": "2025-04-30",
+        "eps": 2.63,
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
         "specialIncomeCharges": 0.0,
@@ -4809,8 +4882,8 @@ const FINANCIALS_DATA = {
         "revenue": 9115000000,
         "netIncome": 2538000000,
         "opIncome": 3075000000,
-        "endDate": "2026-07-31",
         "eps": 3.17,
+        "endDate": "2026-07-31",
         "ocf": 3037000000.0,
         "capex": -707000000.0,
         "fcf": 2330000000.0,
@@ -4928,9 +5001,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4956,7 +5029,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QQQ": {
@@ -4964,16 +5037,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10"
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:30"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10"
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:30"
   },
   "ORCL": {
     "annual": [
@@ -4982,7 +5055,7 @@ const FINANCIALS_DATA = {
         "revenue": 39506000000,
         "netIncome": 11083000000,
         "opIncome": 13535000000,
-        "eps": null,
+        "eps": 2.97,
         "ocf": 14551000000,
         "capex": -1660000000,
         "fcf": 12891000000,
@@ -5026,6 +5099,7 @@ const FINANCIALS_DATA = {
         "revenue": 49954000000,
         "netIncome": 8503000000,
         "opIncome": 13093000000,
+        "eps": 3.07,
         "ocf": 17165000000,
         "capex": -8695000000,
         "fcf": 8470000000,
@@ -5046,6 +5120,7 @@ const FINANCIALS_DATA = {
         "revenue": 52961000000,
         "netIncome": 10467000000,
         "opIncome": 15353000000,
+        "eps": 3.71,
         "ocf": 18673000000,
         "capex": -6866000000,
         "fcf": 11807000000,
@@ -5110,27 +5185,31 @@ const FINANCIALS_DATA = {
         "revenue": 12398000000.0,
         "netIncome": 1896000000,
         "opIncome": 3260000000,
-        "endDate": "2023-02-28"
+        "endDate": "2023-02-28",
+        "eps": 0.68
       },
       {
         "period": "Q3'23",
         "revenue": 12453000000.0,
         "netIncome": 2420000000.0,
         "opIncome": 3296000000,
-        "endDate": "2023-08-31"
+        "endDate": "2023-08-31",
+        "eps": 0.86
       },
       {
         "period": "Q4'23",
         "revenue": 12941000000.0,
         "netIncome": 2503000000.0,
         "opIncome": 3622000000,
-        "endDate": "2023-11-30"
+        "endDate": "2023-11-30",
+        "eps": 0.89
       },
       {
         "period": "Q1'24",
         "revenue": 13280000000,
         "netIncome": 2401000000,
         "opIncome": 3750000000,
+        "eps": 0.85,
         "endDate": "2024-02-29"
       },
       {
@@ -5138,14 +5217,16 @@ const FINANCIALS_DATA = {
         "revenue": 13307000000.0,
         "netIncome": 2929000000.0,
         "opIncome": 3991000000,
-        "endDate": "2024-08-31"
+        "endDate": "2024-08-31",
+        "eps": 1.03
       },
       {
         "period": "Q4'24",
         "revenue": 14059000000.0,
         "netIncome": 3151000000.0,
         "opIncome": 4220000000,
-        "endDate": "2024-11-30"
+        "endDate": "2024-11-30",
+        "eps": 1.1
       },
       {
         "period": "Q1'25",
@@ -5363,9 +5444,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5391,7 +5472,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CRM": {
@@ -5401,7 +5482,7 @@ const FINANCIALS_DATA = {
         "revenue": 13282000000,
         "netIncome": 1110000000,
         "opIncome": 535000000,
-        "eps": 1,
+        "eps": 1.43,
         "ocf": 3398000000,
         "capex": -595000000,
         "fcf": 2803000000,
@@ -5445,7 +5526,7 @@ const FINANCIALS_DATA = {
         "revenue": 31352000000.0,
         "netIncome": 208000000.0,
         "opIncome": 1030000000,
-        "eps": 0,
+        "eps": 0.21,
         "ocf": 7111000000,
         "capex": -798000000,
         "fcf": 6313000000,
@@ -5466,7 +5547,7 @@ const FINANCIALS_DATA = {
         "revenue": 34857000000.0,
         "netIncome": 4136000000.0,
         "opIncome": 5011000000,
-        "eps": 4,
+        "eps": 4.2,
         "ocf": 10234000000,
         "capex": -736000000,
         "fcf": 9498000000,
@@ -5487,7 +5568,7 @@ const FINANCIALS_DATA = {
         "revenue": 37895000000.0,
         "netIncome": 6197000000.0,
         "opIncome": 7205000000,
-        "eps": 6,
+        "eps": 6.36,
         "ocf": 13092000000,
         "capex": -658000000,
         "fcf": 12434000000,
@@ -5508,7 +5589,7 @@ const FINANCIALS_DATA = {
         "revenue": 41525000000.0,
         "netIncome": 7457000000.0,
         "opIncome": 8331000000,
-        "eps": 7,
+        "eps": 7.8,
         "ocf": 14996000000,
         "capex": -594000000,
         "fcf": 14402000000,
@@ -5531,14 +5612,16 @@ const FINANCIALS_DATA = {
         "revenue": 8603000000.0,
         "netIncome": 1267000000.0,
         "opIncome": 1476000000,
-        "endDate": "2023-07-31"
+        "endDate": "2023-07-31",
+        "eps": 1.28
       },
       {
         "period": "Q4'23",
         "revenue": 8720000000.0,
         "netIncome": 1224000000.0,
         "opIncome": 1501000000,
-        "endDate": "2023-10-31"
+        "endDate": "2023-10-31",
+        "eps": 1.25
       },
       {
         "period": "Q1'24",
@@ -5552,28 +5635,32 @@ const FINANCIALS_DATA = {
         "revenue": 9133000000.0,
         "netIncome": 1533000000.0,
         "opIncome": 1709000000,
-        "endDate": "2024-04-30"
+        "endDate": "2024-04-30",
+        "eps": 1.56
       },
       {
         "period": "Q3'24",
         "revenue": 9325000000.0,
         "netIncome": 1429000000.0,
         "opIncome": 1783000000,
-        "endDate": "2024-07-31"
+        "endDate": "2024-07-31",
+        "eps": 1.47
       },
       {
         "period": "Q4'24",
         "revenue": 9444000000.0,
         "netIncome": 1527000000.0,
         "opIncome": 1893000000,
-        "endDate": "2024-10-31"
+        "endDate": "2024-10-31",
+        "eps": 1.58
       },
       {
         "period": "Q2'25",
         "revenue": 9829000000.0,
         "netIncome": 1541000000.0,
         "opIncome": 1942000000,
-        "endDate": "2025-04-30"
+        "endDate": "2025-04-30",
+        "eps": 1.59
       },
       {
         "period": "Q3'25",
@@ -5664,8 +5751,8 @@ const FINANCIALS_DATA = {
         "revenue": 11345000000,
         "netIncome": 3526000000,
         "opIncome": 2331000000,
-        "endDate": "2026-07-31",
         "eps": 4.29,
+        "endDate": "2026-07-31",
         "ocf": 1269000000.0,
         "capex": -171000000.0,
         "fcf": 1098000000.0,
@@ -5683,6 +5770,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -5783,9 +5871,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5811,7 +5899,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PLTR": {
@@ -5821,6 +5909,7 @@ const FINANCIALS_DATA = {
         "revenue": 595409000,
         "netIncome": -580027000,
         "opIncome": -623440000,
+        "eps": -1.17,
         "ocf": -39012000,
         "capex": -13004000,
         "fcf": -52016000,
@@ -5831,6 +5920,7 @@ const FINANCIALS_DATA = {
         "revenue": 742555000,
         "netIncome": -579646000,
         "opIncome": -576444000,
+        "eps": -1.02,
         "ocf": -165215000,
         "capex": -13096000,
         "fcf": -178311000,
@@ -5933,7 +6023,8 @@ const FINANCIALS_DATA = {
         "revenue": 558159000,
         "netIncome": 71505000,
         "opIncome": 39983000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.03
       },
       {
         "period": "Q4'23",
@@ -5947,21 +6038,24 @@ const FINANCIALS_DATA = {
         "revenue": 634338000,
         "netIncome": 105530000,
         "opIncome": 80881000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.04
       },
       {
         "period": "Q2'24",
         "revenue": 678134000,
         "netIncome": 134126000,
         "opIncome": 105339000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 0.06
       },
       {
         "period": "Q3'24",
         "revenue": 725516000,
         "netIncome": 143525000,
         "opIncome": 113140000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 0.06
       },
       {
         "period": "Q4'24",
@@ -5975,7 +6069,8 @@ const FINANCIALS_DATA = {
         "revenue": 883855000,
         "netIncome": 214031000,
         "opIncome": 176048000,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.08
       },
       {
         "period": "Q2'25",
@@ -5983,7 +6078,7 @@ const FINANCIALS_DATA = {
         "netIncome": 326727000,
         "opIncome": 269317000,
         "endDate": "2025-06-30",
-        "eps": 0.13019,
+        "eps": 0.13,
         "ocf": 539251000.0,
         "capex": -7634000.0,
         "fcf": 531617000.0,
@@ -6000,7 +6095,7 @@ const FINANCIALS_DATA = {
         "netIncome": 475599000,
         "opIncome": 393256000,
         "endDate": "2025-09-30",
-        "eps": 0.180263,
+        "eps": 0.18,
         "ocf": 507664000.0,
         "capex": -6792000.0,
         "fcf": 500872000.0,
@@ -6050,8 +6145,8 @@ const FINANCIALS_DATA = {
         "revenue": 1935464000,
         "netIncome": 1061890000,
         "opIncome": 912004000,
-        "endDate": "2026-06-30",
         "eps": 0.41,
+        "endDate": "2026-06-30",
         "ocf": 1216167000.0,
         "capex": -14554000.0,
         "fcf": 1201613000.0,
@@ -6067,9 +6162,9 @@ const FINANCIALS_DATA = {
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6095,7 +6190,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QCOM": {
@@ -6105,7 +6200,7 @@ const FINANCIALS_DATA = {
         "revenue": 22732000000,
         "netIncome": -4964000000,
         "opIncome": 621000000,
-        "eps": -3,
+        "eps": -3.39,
         "ocf": 3908000000,
         "capex": null,
         "fcf": null,
@@ -6116,7 +6211,7 @@ const FINANCIALS_DATA = {
         "revenue": 24273000000.0,
         "netIncome": 4386000000.0,
         "opIncome": 7667000000,
-        "eps": 3,
+        "eps": 3.59,
         "ocf": 7286000000,
         "capex": null,
         "fcf": null,
@@ -6127,7 +6222,7 @@ const FINANCIALS_DATA = {
         "revenue": 23531000000.0,
         "netIncome": 5198000000,
         "opIncome": 6255000000,
-        "eps": 4,
+        "eps": 4.52,
         "ocf": 5814000000,
         "capex": null,
         "fcf": null,
@@ -6149,7 +6244,7 @@ const FINANCIALS_DATA = {
         "revenue": 44200000000.0,
         "netIncome": 12936000000.0,
         "opIncome": 15860000000,
-        "eps": 11,
+        "eps": 11.37,
         "ocf": 9096000000,
         "capex": -2262000000.0,
         "fcf": 6834000000.0,
@@ -6169,7 +6264,7 @@ const FINANCIALS_DATA = {
         "revenue": 35820000000.0,
         "netIncome": 7232000000.0,
         "opIncome": 7788000000,
-        "eps": 6,
+        "eps": 6.42,
         "ocf": 11299000000,
         "capex": -1450000000.0,
         "fcf": 9849000000.0,
@@ -6189,7 +6284,7 @@ const FINANCIALS_DATA = {
         "revenue": 38962000000.0,
         "netIncome": 10142000000.0,
         "opIncome": 10071000000,
-        "eps": 8,
+        "eps": 8.97,
         "ocf": 12202000000,
         "capex": -1041000000.0,
         "fcf": 11161000000.0,
@@ -6209,7 +6304,7 @@ const FINANCIALS_DATA = {
         "revenue": 44284000000.0,
         "netIncome": 5541000000.0,
         "opIncome": 12355000000,
-        "eps": 5,
+        "eps": 5.01,
         "ocf": 14012000000,
         "capex": -1192000000.0,
         "fcf": 12820000000.0,
@@ -6239,21 +6334,24 @@ const FINANCIALS_DATA = {
         "revenue": 9935000000.0,
         "netIncome": 2767000000.0,
         "opIncome": 2928000000,
-        "endDate": "2023-12-24"
+        "endDate": "2023-12-24",
+        "eps": 2.46
       },
       {
         "period": "Q1'24",
         "revenue": 9389000000,
         "netIncome": 2326000000.0,
         "opIncome": 2340000000,
-        "endDate": "2024-03-24"
+        "endDate": "2024-03-24",
+        "eps": 2.06
       },
       {
         "period": "Q2'24",
         "revenue": 9393000000.0,
         "netIncome": 2129000000.0,
         "opIncome": 2221000000,
-        "endDate": "2024-06-23"
+        "endDate": "2024-06-23",
+        "eps": 1.88
       },
       {
         "period": "Q3'24",
@@ -6267,14 +6365,16 @@ const FINANCIALS_DATA = {
         "revenue": 11669000000.0,
         "netIncome": 3180000000.0,
         "opIncome": 3555000000,
-        "endDate": "2024-12-29"
+        "endDate": "2024-12-29",
+        "eps": 2.83
       },
       {
         "period": "Q1'25",
         "revenue": 10979000000,
         "netIncome": 2812000000.0,
         "opIncome": 3120000000,
-        "endDate": "2025-03-30"
+        "endDate": "2025-03-30",
+        "eps": 2.52
       },
       {
         "period": "Q2'25",
@@ -6361,8 +6461,8 @@ const FINANCIALS_DATA = {
         "revenue": 9947000000,
         "netIncome": 2002000000,
         "opIncome": 1626000000,
-        "endDate": "2026-06-30",
         "eps": 1.87,
+        "endDate": "2026-06-30",
         "ocf": 991000000.0,
         "capex": -496000000.0,
         "fcf": 495000000.0,
@@ -6480,9 +6580,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6508,7 +6608,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ARM": {
@@ -6760,9 +6860,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6788,7 +6888,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075
+    "_yahoo_verified_at": 1788946421.1381884
   },
   "MRVL": {
     "annual": [
@@ -6808,6 +6908,7 @@ const FINANCIALS_DATA = {
         "revenue": 2699161000,
         "netIncome": 1584391000,
         "opIncome": -243358000,
+        "eps": 2.34,
         "ocf": 360297000,
         "capex": -81921000,
         "fcf": 278376000,
@@ -6818,6 +6919,7 @@ const FINANCIALS_DATA = {
         "revenue": 2968900000,
         "netIncome": -277300000,
         "opIncome": -258400000,
+        "eps": -0.41,
         "ocf": 817300000,
         "capex": -106800000,
         "fcf": 710500000,
@@ -6924,7 +7026,8 @@ const FINANCIALS_DATA = {
         "revenue": 1418600000.0,
         "netIncome": -164300000.0,
         "opIncome": -146300000,
-        "endDate": "2023-10-28"
+        "endDate": "2023-10-28",
+        "eps": -0.19
       },
       {
         "period": "Q1'24",
@@ -6938,21 +7041,24 @@ const FINANCIALS_DATA = {
         "revenue": 1160900000.0,
         "netIncome": -215600000.0,
         "opIncome": -152300000,
-        "endDate": "2024-05-04"
+        "endDate": "2024-05-04",
+        "eps": -0.25
       },
       {
         "period": "Q3'24",
         "revenue": 1272900000.0,
         "netIncome": -193300000.0,
         "opIncome": -100400000,
-        "endDate": "2024-08-03"
+        "endDate": "2024-08-03",
+        "eps": -0.22
       },
       {
         "period": "Q4'24",
         "revenue": 1516100000.0,
         "netIncome": -676300000.0,
         "opIncome": -702800000,
-        "endDate": "2024-11-02"
+        "endDate": "2024-11-02",
+        "eps": -0.78
       },
       {
         "period": "Q1'25",
@@ -6966,7 +7072,8 @@ const FINANCIALS_DATA = {
         "revenue": 1895300000.0,
         "netIncome": 177900000.0,
         "opIncome": 270600000,
-        "endDate": "2025-05-03"
+        "endDate": "2025-05-03",
+        "eps": 0.2
       },
       {
         "period": "Q3'25",
@@ -7053,8 +7160,8 @@ const FINANCIALS_DATA = {
         "revenue": 2739300000,
         "netIncome": 308000000,
         "opIncome": 459700000,
-        "endDate": "2026-07-31",
         "eps": 0.33,
+        "endDate": "2026-07-31",
         "ocf": 605500000.0,
         "capex": -131200000.0,
         "fcf": 474300000.0,
@@ -7164,9 +7271,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7192,7 +7299,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788945050.9844785,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -7444,9 +7551,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7472,7 +7579,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075
+    "_yahoo_verified_at": 1788946421.1381884
   },
   "LRCX": {
     "annual": [
@@ -7525,7 +7632,7 @@ const FINANCIALS_DATA = {
         "revenue": 17428516000.0,
         "netIncome": 4510931000.0,
         "opIncome": 5174860000,
-        "eps": 33.21,
+        "eps": 3.32,
         "ocf": 5178938000,
         "capex": -501568000.0,
         "fcf": 4677370000.0,
@@ -7546,7 +7653,7 @@ const FINANCIALS_DATA = {
         "revenue": 14905386000.0,
         "netIncome": 3827772000.0,
         "opIncome": 4263913000,
-        "eps": 29.0,
+        "eps": 2.9,
         "ocf": 4652269000,
         "capex": -396670000.0,
         "fcf": 4255599000.0,
@@ -7588,6 +7695,7 @@ const FINANCIALS_DATA = {
         "revenue": 23232690000,
         "netIncome": 7265396000,
         "opIncome": 8199795000,
+        "eps": 5.76,
         "ocf": 5857657000,
         "endDate": "2026-06-30",
         "capex": -966405000.0,
@@ -7610,21 +7718,24 @@ const FINANCIALS_DATA = {
         "revenue": 3482062000.0,
         "netIncome": 887398000.0,
         "opIncome": 1023029000,
-        "endDate": "2023-09-24"
+        "endDate": "2023-09-24",
+        "eps": 0.67
       },
       {
         "period": "Q4'23",
         "revenue": 3758259000.0,
         "netIncome": 954266000.0,
         "opIncome": 1057212000,
-        "endDate": "2023-12-24"
+        "endDate": "2023-12-24",
+        "eps": 0.72
       },
       {
         "period": "Q1'24",
         "revenue": 3793558000.0,
         "netIncome": 965826000.0,
         "opIncome": 1057112000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.73
       },
       {
         "period": "Q2'24",
@@ -7638,7 +7749,8 @@ const FINANCIALS_DATA = {
         "revenue": 4167976000.0,
         "netIncome": 1116444000.0,
         "opIncome": 1264197000,
-        "endDate": "2024-09-29"
+        "endDate": "2024-09-29",
+        "eps": 0.86
       },
       {
         "period": "Q4'24",
@@ -7646,6 +7758,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1191018000.0,
         "opIncome": 1333884000,
         "endDate": "2024-12-31",
+        "eps": 0.92,
         "specialIncomeCharges": 0.0,
         "restructuring": 0.0
       },
@@ -7655,6 +7768,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1330667000.0,
         "opIncome": 1561759000,
         "endDate": "2025-03-31",
+        "eps": 1.03,
         "specialIncomeCharges": 0.0,
         "restructuring": 0.0
       },
@@ -7862,9 +7976,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:33",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7890,7 +8004,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "KLAC": {
@@ -7900,7 +8014,7 @@ const FINANCIALS_DATA = {
         "revenue": 4568904000,
         "netIncome": 1175617000,
         "opIncome": null,
-        "eps": 7,
+        "eps": 7.49,
         "ocf": 1152632000,
         "capex": -130498000,
         "fcf": 1022134000,
@@ -7965,7 +8079,7 @@ const FINANCIALS_DATA = {
         "revenue": 9812247000.0,
         "netIncome": 2761896000.0,
         "opIncome": null,
-        "eps": 20.28,
+        "eps": 2.03,
         "ocf": 3308575000,
         "capex": -277384000,
         "fcf": 3031191000,
@@ -7986,7 +8100,7 @@ const FINANCIALS_DATA = {
         "revenue": 12156162000.0,
         "netIncome": 4061643000.0,
         "opIncome": null,
-        "eps": 30.37,
+        "eps": 3.04,
         "ocf": 4081903000,
         "capex": -335259000,
         "fcf": 3746644000,
@@ -8006,6 +8120,7 @@ const FINANCIALS_DATA = {
         "period": "2026",
         "revenue": 13579476000,
         "netIncome": 4830771000,
+        "eps": 3.66,
         "ocf": 4143079000,
         "capex": -375945000,
         "fcf": 3767134000,
@@ -8028,21 +8143,24 @@ const FINANCIALS_DATA = {
         "revenue": 2396956000.0,
         "netIncome": 741375000.0,
         "opIncome": null,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 5.41
       },
       {
         "period": "Q4'23",
         "revenue": 2486726000.0,
         "netIncome": 582534000.0,
         "opIncome": null,
-        "endDate": "2023-12-31"
+        "endDate": "2023-12-31",
+        "eps": 4.28
       },
       {
         "period": "Q1'24",
         "revenue": 2359830000.0,
         "netIncome": 601541000.0,
         "opIncome": null,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 4.43
       },
       {
         "period": "Q2'24",
@@ -8056,7 +8174,8 @@ const FINANCIALS_DATA = {
         "revenue": 2841541000.0,
         "netIncome": 945851000.0,
         "opIncome": null,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 7.01
       },
       {
         "period": "Q4'24",
@@ -8064,6 +8183,7 @@ const FINANCIALS_DATA = {
         "netIncome": 824527000.0,
         "opIncome": null,
         "endDate": "2024-12-31",
+        "eps": 6.16,
         "impairment": 239100000.0
       },
       {
@@ -8072,6 +8192,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1088416000.0,
         "opIncome": null,
         "endDate": "2025-03-31",
+        "eps": 8.16,
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
         "specialIncomeCharges": 0.0,
@@ -8104,7 +8225,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1121040000.0,
         "opIncome": 1337177000.0,
         "endDate": "2025-09-30",
-        "eps": 0.847,
+        "eps": 8.47,
         "ocf": 1161591000.0,
         "capex": -95894000.0,
         "fcf": 1065697000.0,
@@ -8121,7 +8242,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1145682000.0,
         "opIncome": 1362146000.0,
         "endDate": "2025-12-31",
-        "eps": 0.868,
+        "eps": 8.68,
         "ocf": 1367607000.0,
         "capex": -105576000.0,
         "fcf": 1262031000.0,
@@ -8141,7 +8262,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1200990000.0,
         "opIncome": 1407509000.0,
         "endDate": "2026-03-31",
-        "eps": 0.912,
+        "eps": 9.12,
         "ocf": 707451000.0,
         "capex": -85187000.0,
         "fcf": 622264000.0,
@@ -8281,9 +8402,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8309,7 +8430,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SNDK": {
@@ -8330,6 +8451,7 @@ const FINANCIALS_DATA = {
         "revenue": 6086000000,
         "netIncome": -2143000000,
         "opIncome": -2035000000,
+        "eps": -14.78,
         "ocf": -713000000,
         "capex": -219000000,
         "fcf": -932000000,
@@ -8351,6 +8473,7 @@ const FINANCIALS_DATA = {
         "revenue": 6663000000,
         "netIncome": -672000000,
         "opIncome": -468000000,
+        "eps": -4.63,
         "ocf": -309000000,
         "capex": -166000000,
         "fcf": -475000000,
@@ -8394,6 +8517,7 @@ const FINANCIALS_DATA = {
         "revenue": 20248000000,
         "netIncome": 11433000000,
         "opIncome": 12389000000,
+        "eps": 73.76,
         "ocf": 11671000000,
         "capex": -177000000,
         "fcf": 11494000000,
@@ -8438,6 +8562,7 @@ const FINANCIALS_DATA = {
         "revenue": 1705000000,
         "netIncome": 27000000,
         "opIncome": 65000000,
+        "eps": 0.19,
         "endDate": "2024-03-29"
       },
       {
@@ -8445,6 +8570,7 @@ const FINANCIALS_DATA = {
         "revenue": 1883000000,
         "netIncome": 211000000,
         "opIncome": 291000000,
+        "eps": 1.46,
         "endDate": "2024-09-27"
       },
       {
@@ -8452,6 +8578,7 @@ const FINANCIALS_DATA = {
         "revenue": 1876000000,
         "netIncome": 104000000,
         "opIncome": 195000000,
+        "eps": 0.72,
         "endDate": "2024-12-27"
       },
       {
@@ -8460,6 +8587,7 @@ const FINANCIALS_DATA = {
         "netIncome": -1933000000.0,
         "opIncome": -1881000000,
         "endDate": "2025-03-31",
+        "eps": -13.33,
         "impairment": 1830000000.0
       },
       {
@@ -8512,7 +8640,7 @@ const FINANCIALS_DATA = {
         "netIncome": 112000000.0,
         "opIncome": 176000000,
         "endDate": "2025-12-31",
-        "eps": 5.15,
+        "eps": 0.75,
         "ocf": 1019000000.0,
         "capex": -39000000.0,
         "fcf": 980000000.0,
@@ -8533,7 +8661,7 @@ const FINANCIALS_DATA = {
         "netIncome": 803000000.0,
         "opIncome": 1065000000,
         "endDate": "2026-03-31",
-        "eps": 23.03,
+        "eps": 5.15,
         "ocf": 3038000000.0,
         "capex": -45000000.0,
         "fcf": 2993000000.0,
@@ -8555,7 +8683,7 @@ const FINANCIALS_DATA = {
         "netIncome": 3615000000.0,
         "opIncome": 4111000000,
         "endDate": "2026-06-30",
-        "eps": 43.97,
+        "eps": 23.03,
         "ocf": 7126000000.0,
         "capex": -43000000.0,
         "fcf": 7083000000.0,
@@ -8607,9 +8735,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8635,7 +8763,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788945050.9844785,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
@@ -8678,7 +8806,7 @@ const FINANCIALS_DATA = {
         "revenue": 18793000000.0,
         "netIncome": 1546000000,
         "opIncome": 2391000000.0,
-        "eps": 4.75,
+        "eps": 4.89,
         "ocf": 1880000000.0,
         "capex": -1122000000.0,
         "fcf": 758000000.0,
@@ -8689,7 +8817,7 @@ const FINANCIALS_DATA = {
         "revenue": 12318000000.0,
         "netIncome": -1684000000,
         "opIncome": -548000000,
-        "eps": -5.44,
+        "eps": -5.37,
         "ocf": -408000000,
         "capex": -821000000,
         "fcf": -1229000000,
@@ -8752,6 +8880,7 @@ const FINANCIALS_DATA = {
         "revenue": 12919000000,
         "netIncome": 9424000000,
         "opIncome": 4453000000,
+        "eps": 24.28,
         "ocf": 3929000000,
         "capex": -418000000,
         "fcf": 3511000000,
@@ -8774,21 +8903,24 @@ const FINANCIALS_DATA = {
         "revenue": 2750000000.0,
         "netIncome": -685000000.0,
         "opIncome": -596000000,
-        "endDate": "2023-09-29"
+        "endDate": "2023-09-29",
+        "eps": -2.17
       },
       {
         "period": "Q4'23",
         "revenue": 3032000000.0,
         "netIncome": -287000000.0,
         "opIncome": -210000000,
-        "endDate": "2023-12-29"
+        "endDate": "2023-12-29",
+        "eps": -0.93
       },
       {
         "period": "Q1'24",
         "revenue": 3457000000.0,
         "netIncome": 135000000.0,
         "opIncome": 94000000,
-        "endDate": "2024-03-29"
+        "endDate": "2024-03-29",
+        "eps": 0.34
       },
       {
         "period": "Q2'24",
@@ -8802,13 +8934,15 @@ const FINANCIALS_DATA = {
         "revenue": 4095000000.0,
         "netIncome": 493000000.0,
         "opIncome": 334000000,
-        "endDate": "2024-09-27"
+        "endDate": "2024-09-27",
+        "eps": 1.35
       },
       {
         "period": "Q4'24",
         "revenue": 4285000000,
         "netIncome": 594000000,
         "opIncome": 560000000,
+        "eps": 1.63,
         "endDate": "2024-12-27"
       },
       {
@@ -8816,6 +8950,7 @@ const FINANCIALS_DATA = {
         "revenue": 2294000000,
         "netIncome": 520000000,
         "opIncome": 760000000,
+        "eps": 1.42,
         "endDate": "2025-03-28"
       },
       {
@@ -8867,7 +9002,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1182000000.0,
         "opIncome": 792000000,
         "endDate": "2025-12-31",
-        "eps": 4.73,
+        "eps": 3.07,
         "ocf": 745000000.0,
         "capex": -92000000.0,
         "fcf": 653000000.0,
@@ -8888,7 +9023,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1842000000.0,
         "opIncome": 908000000,
         "endDate": "2026-03-31",
-        "eps": 8.2,
+        "eps": 4.73,
         "ocf": 1123000000.0,
         "capex": -145000000.0,
         "fcf": 978000000.0,
@@ -8909,7 +9044,7 @@ const FINANCIALS_DATA = {
         "netIncome": 3205000000.0,
         "opIncome": 1190000000,
         "endDate": "2026-06-30",
-        "eps": 8.213368,
+        "eps": 8.2,
         "ocf": 1389000000.0,
         "capex": -108000000.0,
         "fcf": 1281000000.0,
@@ -9028,9 +9163,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9056,7 +9191,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788945050.9844785,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -9066,7 +9201,7 @@ const FINANCIALS_DATA = {
         "revenue": 2151369000,
         "netIncome": 328115000,
         "opIncome": 273347000,
-        "eps": 4,
+        "eps": 4.06,
         "ocf": 503119000,
         "capex": -23830000,
         "fcf": 479289000,
@@ -9077,7 +9212,7 @@ const FINANCIALS_DATA = {
         "revenue": 2410706000.0,
         "netIncome": 859867000.0,
         "opIncome": 805774000,
-        "eps": 10.63,
+        "eps": 2.66,
         "ocf": 963034000,
         "capex": -15751000,
         "fcf": 947283000,
@@ -9088,7 +9223,7 @@ const FINANCIALS_DATA = {
         "revenue": 2317512000.0,
         "netIncome": 634557000.0,
         "opIncome": 699684000.0,
-        "eps": 7.99,
+        "eps": 2,
         "ocf": 735114000.0,
         "capex": null,
         "fcf": null,
@@ -9110,7 +9245,7 @@ const FINANCIALS_DATA = {
         "revenue": 4381310000.0,
         "netIncome": 1352446000.0,
         "opIncome": 1527106000,
-        "eps": 4.27,
+        "eps": 1.07,
         "ocf": 492813000,
         "capex": -44644000.0,
         "fcf": 448169000.0,
@@ -9129,7 +9264,7 @@ const FINANCIALS_DATA = {
         "revenue": 5860200000,
         "netIncome": 2087300000,
         "opIncome": 2257300000,
-        "eps": 6.58,
+        "eps": 1.65,
         "ocf": 2034000000,
         "capex": -34400000.0,
         "fcf": 1999600000.0,
@@ -9184,7 +9319,8 @@ const FINANCIALS_DATA = {
         "revenue": 1509456000.0,
         "netIncome": 545327000.0,
         "opIncome": 602695000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 1.72
       },
       {
         "period": "Q4'23",
@@ -9198,21 +9334,24 @@ const FINANCIALS_DATA = {
         "revenue": 1571400000,
         "netIncome": 637700000,
         "opIncome": 660200000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.5
       },
       {
         "period": "Q2'24",
         "revenue": 1690400000.0,
         "netIncome": 665400000,
         "opIncome": 699600000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 0.52
       },
       {
         "period": "Q3'24",
         "revenue": 1810936000.0,
         "netIncome": 748000000,
         "opIncome": 785300000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 0.58
       },
       {
         "period": "Q4'24",
@@ -9226,7 +9365,8 @@ const FINANCIALS_DATA = {
         "revenue": 2004800000.0,
         "netIncome": 813800000.0,
         "opIncome": 858800000,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.64
       },
       {
         "period": "Q2'25",
@@ -9301,8 +9441,8 @@ const FINANCIALS_DATA = {
         "revenue": 3035700000,
         "netIncome": 1212900000,
         "opIncome": 1378000000,
-        "endDate": "2026-06-30",
         "eps": 0.95,
+        "endDate": "2026-06-30",
         "ocf": 1083000000.0,
         "capex": -29700000.0,
         "fcf": 1053300000.0,
@@ -9417,9 +9557,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9445,7 +9585,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "COHR": {
@@ -9455,7 +9595,7 @@ const FINANCIALS_DATA = {
         "revenue": 1362496000,
         "netIncome": 107517000,
         "opIncome": 148668000,
-        "eps": 1,
+        "eps": 1.63,
         "ocf": 178475000,
         "capex": -137122000,
         "fcf": 41353000,
@@ -9561,6 +9701,7 @@ const FINANCIALS_DATA = {
         "period": "2026",
         "revenue": 7118181000,
         "netIncome": 804998000,
+        "eps": 4.12,
         "ocf": 79514000,
         "capex": -1102909000,
         "fcf": -1023395000,
@@ -9583,21 +9724,24 @@ const FINANCIALS_DATA = {
         "revenue": 1053083000.0,
         "netIncome": -67534000.0,
         "opIncome": -21308000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": -0.65
       },
       {
         "period": "Q4'23",
         "revenue": 1131434000.0,
         "netIncome": -26991000.0,
         "opIncome": 31885000,
-        "endDate": "2023-12-31"
+        "endDate": "2023-12-31",
+        "eps": -0.38
       },
       {
         "period": "Q1'24",
         "revenue": 1208809000.0,
         "netIncome": -13187000.0,
         "opIncome": 22305000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": -0.29
       },
       {
         "period": "Q2'24",
@@ -9611,21 +9755,24 @@ const FINANCIALS_DATA = {
         "revenue": 1348135000.0,
         "netIncome": 25887000.0,
         "opIncome": null,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": -0.04
       },
       {
         "period": "Q4'24",
         "revenue": 1434665000.0,
         "netIncome": 103385000.0,
         "opIncome": null,
-        "endDate": "2024-12-31"
+        "endDate": "2024-12-31",
+        "eps": 0.44
       },
       {
         "period": "Q1'25",
         "revenue": 1497879000.0,
         "netIncome": 15711000.0,
         "opIncome": null,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": -0.11
       },
       {
         "period": "Q2'25",
@@ -9837,9 +9984,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9865,7 +10012,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "LITE": {
@@ -9875,7 +10022,7 @@ const FINANCIALS_DATA = {
         "revenue": 1565300000,
         "netIncome": -36400000,
         "opIncome": -21600000,
-        "eps": 0,
+        "eps": -0.54,
         "ocf": 330100000,
         "capex": -166000000,
         "fcf": 164100000,
@@ -9982,6 +10129,7 @@ const FINANCIALS_DATA = {
         "revenue": 3014000000,
         "netIncome": -6935100000,
         "opIncome": 524800000,
+        "eps": -92.96,
         "ocf": 751400000,
         "capex": -451300000,
         "fcf": 300100000,
@@ -10004,21 +10152,24 @@ const FINANCIALS_DATA = {
         "revenue": 317600000.0,
         "netIncome": -67900000.0,
         "opIncome": -80800000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": -1.02
       },
       {
         "period": "Q4'23",
         "revenue": 366800000.0,
         "netIncome": -99100000.0,
         "opIncome": -105200000,
-        "endDate": "2023-12-30"
+        "endDate": "2023-12-30",
+        "eps": -1.47
       },
       {
         "period": "Q1'24",
         "revenue": 366500000.0,
         "netIncome": -127000000.0,
         "opIncome": -114600000,
-        "endDate": "2024-03-30"
+        "endDate": "2024-03-30",
+        "eps": -1.88
       },
       {
         "period": "Q2'24",
@@ -10032,14 +10183,16 @@ const FINANCIALS_DATA = {
         "revenue": 336900000.0,
         "netIncome": -82400000.0,
         "opIncome": -82400000,
-        "endDate": "2024-09-28"
+        "endDate": "2024-09-28",
+        "eps": -1.21
       },
       {
         "period": "Q4'24",
         "revenue": 402200000.0,
         "netIncome": -60900000.0,
         "opIncome": -51600000,
-        "endDate": "2024-12-28"
+        "endDate": "2024-12-28",
+        "eps": -0.88
       },
       {
         "period": "Q1'25",
@@ -10047,6 +10200,7 @@ const FINANCIALS_DATA = {
         "netIncome": -44100000.0,
         "opIncome": -37700000,
         "endDate": "2025-03-31",
+        "eps": -0.64,
         "otherNonOperating": 4200000.0
       },
       {
@@ -10257,9 +10411,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10285,7 +10439,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GEV": {
@@ -10295,6 +10449,7 @@ const FINANCIALS_DATA = {
         "revenue": 29654000000,
         "netIncome": -2736000000,
         "opIncome": -2881000000,
+        "eps": -10,
         "ocf": -114000000,
         "endDate": "2022-12-31",
         "capex": -513000000.0,
@@ -10314,6 +10469,7 @@ const FINANCIALS_DATA = {
         "revenue": 33239000000,
         "netIncome": -438000000,
         "opIncome": -923000000,
+        "eps": -1.6,
         "ocf": 1186000000,
         "endDate": "2023-12-31",
         "capex": -744000000.0,
@@ -10375,6 +10531,7 @@ const FINANCIALS_DATA = {
         "revenue": 8119000000,
         "netIncome": -150000000,
         "opIncome": -341000000,
+        "eps": -0.55,
         "endDate": "2023-06-30"
       },
       {
@@ -10382,6 +10539,7 @@ const FINANCIALS_DATA = {
         "revenue": 8253000000,
         "netIncome": -170000000,
         "opIncome": -307000000,
+        "eps": -0.62,
         "endDate": "2023-09-30"
       },
       {
@@ -10389,6 +10547,7 @@ const FINANCIALS_DATA = {
         "revenue": 7260000000,
         "netIncome": -130000000,
         "opIncome": -289000000,
+        "eps": -0.47,
         "endDate": "2024-03-31"
       },
       {
@@ -10396,6 +10555,7 @@ const FINANCIALS_DATA = {
         "revenue": 8204000000,
         "netIncome": 1294000000,
         "opIncome": 527000000,
+        "eps": 4.65,
         "endDate": "2024-06-30"
       },
       {
@@ -10403,7 +10563,8 @@ const FINANCIALS_DATA = {
         "revenue": 8913000000.0,
         "netIncome": -96000000.0,
         "opIncome": -359000000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": -0.35
       },
       {
         "period": "Q4'24",
@@ -10417,7 +10578,8 @@ const FINANCIALS_DATA = {
         "revenue": 8032000000.0,
         "netIncome": 254000000.0,
         "opIncome": 43000000,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.91
       },
       {
         "period": "Q2'25",
@@ -10504,8 +10666,8 @@ const FINANCIALS_DATA = {
         "revenue": 11104000000,
         "netIncome": 668000000,
         "opIncome": 653000000,
-        "endDate": "2026-06-30",
         "eps": 2.47,
+        "endDate": "2026-06-30",
         "ocf": 5492000000.0,
         "capex": -386000000.0,
         "fcf": 5106000000.0,
@@ -10567,9 +10729,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10595,7 +10757,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CEG": {
@@ -10616,6 +10778,7 @@ const FINANCIALS_DATA = {
         "revenue": 17603000000,
         "netIncome": 589000000,
         "opIncome": 256000000,
+        "eps": 0,
         "ocf": 584000000,
         "capex": -1747000000,
         "fcf": -1163000000,
@@ -10626,6 +10789,7 @@ const FINANCIALS_DATA = {
         "revenue": 19649000000,
         "netIncome": -205000000,
         "opIncome": -346000000,
+        "eps": 0,
         "ocf": -1338000000,
         "capex": -1329000000,
         "fcf": -2667000000,
@@ -10636,7 +10800,7 @@ const FINANCIALS_DATA = {
         "revenue": 24440000000,
         "netIncome": -160000000,
         "opIncome": 495000000,
-        "eps": null,
+        "eps": -0.49,
         "ocf": -2353000000,
         "capex": -1689000000,
         "fcf": -4042000000,
@@ -10655,7 +10819,7 @@ const FINANCIALS_DATA = {
         "revenue": 24918000000.0,
         "netIncome": 1623000000,
         "opIncome": 1610000000,
-        "eps": null,
+        "eps": 5.01,
         "ocf": -5301000000,
         "capex": -2422000000,
         "fcf": -7723000000,
@@ -10674,7 +10838,7 @@ const FINANCIALS_DATA = {
         "revenue": 23568000000.0,
         "netIncome": 3749000000,
         "opIncome": 4352000000,
-        "eps": null,
+        "eps": 11.89,
         "ocf": -2464000000,
         "capex": -2565000000,
         "fcf": -5029000000,
@@ -10693,7 +10857,7 @@ const FINANCIALS_DATA = {
         "revenue": 25533000000,
         "netIncome": 2319000000,
         "opIncome": 3086000000,
-        "eps": null,
+        "eps": 7.4,
         "ocf": 4237000000,
         "capex": -2949000000,
         "fcf": 1288000000,
@@ -10714,7 +10878,8 @@ const FINANCIALS_DATA = {
         "revenue": 6111000000.0,
         "netIncome": 731000000,
         "opIncome": 977000000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 2.26
       },
       {
         "period": "Q4'23",
@@ -10728,21 +10893,24 @@ const FINANCIALS_DATA = {
         "revenue": 6161000000.0,
         "netIncome": 883000000,
         "opIncome": 813000000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 2.78
       },
       {
         "period": "Q2'24",
         "revenue": 5475000000,
         "netIncome": 814000000,
         "opIncome": 1100000000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 2.58
       },
       {
         "period": "Q3'24",
         "revenue": 6550000000,
         "netIncome": 1200000000,
         "opIncome": 1467000000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 3.82
       },
       {
         "period": "Q4'24",
@@ -10757,6 +10925,7 @@ const FINANCIALS_DATA = {
         "netIncome": 118000000,
         "opIncome": 451000000,
         "endDate": "2025-03-31",
+        "eps": 0.38,
         "specialIncomeCharges": 0.0
       },
       {
@@ -10839,8 +11008,8 @@ const FINANCIALS_DATA = {
         "revenue": 7504000000,
         "netIncome": 513000000,
         "opIncome": 580000000,
-        "endDate": "2026-06-30",
         "eps": 1.42,
+        "endDate": "2026-06-30",
         "ocf": 1128000000.0,
         "capex": -1246000000.0,
         "fcf": -118000000.0,
@@ -10937,9 +11106,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10965,7 +11134,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
@@ -10975,7 +11144,7 @@ const FINANCIALS_DATA = {
         "revenue": 9797000000,
         "netIncome": -54000000,
         "opIncome": 491000000,
-        "eps": 0,
+        "eps": -0.11,
         "ocf": 1471000000,
         "capex": -530000000,
         "fcf": 941000000,
@@ -11105,7 +11274,8 @@ const FINANCIALS_DATA = {
         "revenue": 4789000000,
         "netIncome": 502000000.0,
         "opIncome": 834000000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 1.25
       },
       {
         "period": "Q4'23",
@@ -11119,13 +11289,15 @@ const FINANCIALS_DATA = {
         "revenue": 3159000000,
         "netIncome": -35000000.0,
         "opIncome": 86000000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": -0.24
       },
       {
         "period": "Q2'24",
         "revenue": 3845000000,
         "netIncome": 365000000,
         "opIncome": 808000000,
+        "eps": 0.9,
         "endDate": "2024-06-30"
       },
       {
@@ -11133,6 +11305,7 @@ const FINANCIALS_DATA = {
         "revenue": 6288000000,
         "netIncome": 1888000000,
         "opIncome": 2588000000,
+        "eps": 5.25,
         "endDate": "2024-09-30"
       },
       {
@@ -11149,7 +11322,7 @@ const FINANCIALS_DATA = {
         "netIncome": -268000000.0,
         "opIncome": -120000000,
         "endDate": "2025-03-31",
-        "eps": -0.93222,
+        "eps": -0.93,
         "specialIncomeCharges": 0.0
       },
       {
@@ -11158,7 +11331,7 @@ const FINANCIALS_DATA = {
         "netIncome": 327000000.0,
         "opIncome": 515000000,
         "endDate": "2025-06-30",
-        "eps": 0.825662,
+        "eps": 0.81,
         "ocf": 572000000.0,
         "capex": -690000000.0,
         "fcf": -118000000.0,
@@ -11179,7 +11352,7 @@ const FINANCIALS_DATA = {
         "netIncome": 652000000.0,
         "opIncome": 1037000000,
         "endDate": "2025-09-30",
-        "eps": 1.783396,
+        "eps": 1.75,
         "ocf": 1467000000.0,
         "capex": -458000000.0,
         "fcf": 1009000000.0,
@@ -11220,7 +11393,7 @@ const FINANCIALS_DATA = {
         "netIncome": 1029000000.0,
         "opIncome": 1499000000,
         "endDate": "2026-03-31",
-        "eps": 2.898723,
+        "eps": 2.87,
         "ocf": 1199000000.0,
         "capex": -883000000.0,
         "fcf": 316000000.0,
@@ -11238,8 +11411,8 @@ const FINANCIALS_DATA = {
         "revenue": 4401000000,
         "netIncome": 305000000,
         "opIncome": 553000000,
+        "eps": 0.76,
         "endDate": "2026-06-30",
-        "eps": 0.767946,
         "ocf": 1023000000.0,
         "capex": -689000000.0,
         "fcf": 334000000.0,
@@ -11358,9 +11531,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11386,7 +11559,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
@@ -11396,7 +11569,7 @@ const FINANCIALS_DATA = {
         "revenue": 21609000000,
         "netIncome": 2145000000,
         "opIncome": 3630000000,
-        "eps": 4,
+        "eps": 4.91,
         "ocf": 2658000000,
         "capex": -565000000,
         "fcf": 2093000000,
@@ -11518,7 +11691,8 @@ const FINANCIALS_DATA = {
         "revenue": 5880000000.0,
         "netIncome": 891000000.0,
         "opIncome": null,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 2.22
       },
       {
         "period": "Q4'23",
@@ -11532,21 +11706,24 @@ const FINANCIALS_DATA = {
         "revenue": 5943000000.0,
         "netIncome": 821000000.0,
         "opIncome": null,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 2.04
       },
       {
         "period": "Q2'24",
         "revenue": 6350000000.0,
         "netIncome": 993000000.0,
         "opIncome": null,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 2.48
       },
       {
         "period": "Q3'24",
         "revenue": 6345000000.0,
         "netIncome": 1009000000.0,
         "opIncome": null,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 2.53
       },
       {
         "period": "Q4'24",
@@ -11561,6 +11738,7 @@ const FINANCIALS_DATA = {
         "netIncome": 964000000.0,
         "opIncome": 1201000000.0,
         "endDate": "2025-03-31",
+        "eps": 2.45,
         "ocf": 238000000.0,
         "capex": -147000000.0,
         "fcf": 91000000.0,
@@ -11638,8 +11816,8 @@ const FINANCIALS_DATA = {
         "period": "Q2'26",
         "revenue": 8531000000,
         "netIncome": 821000000,
-        "endDate": "2026-06-30",
-        "eps": 2.11
+        "eps": 2.11,
+        "endDate": "2026-06-30"
       }
     ],
     "_currency": "USD",
@@ -11745,9 +11923,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11773,7 +11951,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
@@ -11783,7 +11961,7 @@ const FINANCIALS_DATA = {
         "revenue": 11171423000.0,
         "netIncome": 293346000,
         "opIncome": 540269000.0,
-        "eps": 1,
+        "eps": 1.9,
         "ocf": 358789000,
         "capex": -293595000,
         "fcf": 65194000,
@@ -11794,7 +11972,7 @@ const FINANCIALS_DATA = {
         "revenue": 12112153000.0,
         "netIncome": 402044000,
         "opIncome": 554874000.0,
-        "eps": 2,
+        "eps": 2.73,
         "ocf": 526551000,
         "capex": -261762000,
         "fcf": 264789000,
@@ -11828,7 +12006,7 @@ const FINANCIALS_DATA = {
         "revenue": 17073903000.0,
         "netIncome": 491189000,
         "opIncome": 872058000.0,
-        "eps": 3,
+        "eps": 3.32,
         "ocf": 1130312000,
         "capex": -427630000,
         "fcf": 702682000,
@@ -11870,7 +12048,7 @@ const FINANCIALS_DATA = {
         "revenue": 23672795000.0,
         "netIncome": 904824000,
         "opIncome": 1346468000.0,
-        "eps": 6,
+        "eps": 6.03,
         "ocf": 2081196000,
         "capex": -604078000,
         "fcf": 1477118000,
@@ -11891,7 +12069,7 @@ const FINANCIALS_DATA = {
         "revenue": 28479697000.0,
         "netIncome": 1028378000,
         "opIncome": 1611509000.0,
-        "eps": 6,
+        "eps": 6.8,
         "ocf": 2229970000,
         "capex": -609154000,
         "fcf": 1620816000,
@@ -11913,7 +12091,8 @@ const FINANCIALS_DATA = {
         "revenue": 5620822000.0,
         "netIncome": 272836000,
         "opIncome": 400329000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 1.83
       },
       {
         "period": "Q4'23",
@@ -11927,21 +12106,24 @@ const FINANCIALS_DATA = {
         "revenue": 5031819000.0,
         "netIncome": 118360000,
         "opIncome": 155354000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 0.79
       },
       {
         "period": "Q2'24",
         "revenue": 5594387000.0,
         "netIncome": 188159000,
         "opIncome": 307230000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 1.26
       },
       {
         "period": "Q3'24",
         "revenue": 6493167000.0,
         "netIncome": 293185000,
         "opIncome": 431161000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 1.95
       },
       {
         "period": "Q4'24",
@@ -11955,7 +12137,8 @@ const FINANCIALS_DATA = {
         "revenue": 6233334000.0,
         "netIncome": 144258000,
         "opIncome": 239081000.0,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.96
       },
       {
         "period": "Q2'25",
@@ -12046,8 +12229,8 @@ const FINANCIALS_DATA = {
         "revenue": 9556997000,
         "netIncome": 451381000,
         "opIncome": 694834000,
-        "endDate": "2026-06-30",
         "eps": 2.96,
+        "endDate": "2026-06-30",
         "ocf": 1095444000.0,
         "capex": -230955000.0,
         "fcf": 864489000.0,
@@ -12166,9 +12349,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12194,7 +12377,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "HUBB": {
@@ -12204,7 +12387,7 @@ const FINANCIALS_DATA = {
         "revenue": 4481700000,
         "netIncome": 360200000,
         "opIncome": 556900000,
-        "eps": 6,
+        "eps": 6.54,
         "ocf": 517100000,
         "capex": null,
         "fcf": null,
@@ -12268,7 +12451,7 @@ const FINANCIALS_DATA = {
         "revenue": 5372900000.0,
         "netIncome": 751400000,
         "opIncome": 1027400000,
-        "eps": 14.05,
+        "eps": 13.89,
         "ocf": 880800000,
         "capex": -165700000.0,
         "fcf": 715100000.0,
@@ -12288,7 +12471,7 @@ const FINANCIALS_DATA = {
         "revenue": 5628500000.0,
         "netIncome": 779000000,
         "opIncome": 1093100000,
-        "eps": 14.37,
+        "eps": 14.39,
         "ocf": 991200000,
         "capex": -180400000.0,
         "fcf": 810800000.0,
@@ -12330,7 +12513,8 @@ const FINANCIALS_DATA = {
         "revenue": 1375800000.0,
         "netIncome": 200100000.0,
         "opIncome": 276300000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 3.7
       },
       {
         "period": "Q4'23",
@@ -12344,21 +12528,24 @@ const FINANCIALS_DATA = {
         "revenue": 1399100000.0,
         "netIncome": 147800000.0,
         "opIncome": 228500000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 2.73
       },
       {
         "period": "Q2'24",
         "revenue": 1452500000.0,
         "netIncome": 217500000,
         "opIncome": 306300000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 4.01
       },
       {
         "period": "Q3'24",
         "revenue": 1442600000.0,
         "netIncome": 226200000,
         "opIncome": 312700000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 4.18
       },
       {
         "period": "Q4'24",
@@ -12373,6 +12560,7 @@ const FINANCIALS_DATA = {
         "netIncome": 163200000,
         "opIncome": 230400000,
         "endDate": "2025-03-31",
+        "eps": 3.03,
         "unusualItems": 0.0,
         "unusualItemsExGoodwill": 0.0,
         "specialIncomeCharges": 0.0
@@ -12580,9 +12768,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12608,7 +12796,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VRT": {
@@ -12618,7 +12806,7 @@ const FINANCIALS_DATA = {
         "revenue": 4285600000,
         "netIncome": -314000000,
         "opIncome": null,
-        "eps": 0.06,
+        "eps": -2.65,
         "ocf": -221900000,
         "capex": -64600000,
         "fcf": -286500000,
@@ -12629,7 +12817,7 @@ const FINANCIALS_DATA = {
         "revenue": 4431200000,
         "netIncome": -140800000,
         "opIncome": 206100000,
-        "eps": 0.05,
+        "eps": -1.19,
         "ocf": 57500000,
         "capex": -47600000,
         "fcf": 9900000,
@@ -12640,7 +12828,7 @@ const FINANCIALS_DATA = {
         "revenue": 4370600000.0,
         "netIncome": -327300000,
         "opIncome": 213500000,
-        "eps": -0.6,
+        "eps": -1.07,
         "ocf": 208900000.0,
         "capex": -44400000.0,
         "fcf": 164500000.0,
@@ -12748,7 +12936,8 @@ const FINANCIALS_DATA = {
         "revenue": 1742600000.0,
         "netIncome": 94100000.0,
         "opIncome": 250900000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.24
       },
       {
         "period": "Q4'23",
@@ -12762,21 +12951,24 @@ const FINANCIALS_DATA = {
         "revenue": 1639100000.0,
         "netIncome": -5900000.0,
         "opIncome": 202600000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": -0.02
       },
       {
         "period": "Q2'24",
         "revenue": 1952800000.0,
         "netIncome": 178100000.0,
         "opIncome": 336000000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 0.46
       },
       {
         "period": "Q3'24",
         "revenue": 2073500000.0,
         "netIncome": 176600000.0,
         "opIncome": 371600000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 0.46
       },
       {
         "period": "Q4'24",
@@ -12790,7 +12982,8 @@ const FINANCIALS_DATA = {
         "revenue": 2036000000.0,
         "netIncome": 164500000.0,
         "opIncome": 290700000.0,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 0.42
       },
       {
         "period": "Q2'25",
@@ -12877,8 +13070,8 @@ const FINANCIALS_DATA = {
         "revenue": 3274300000,
         "netIncome": 497800000,
         "opIncome": 637900000,
-        "endDate": "2026-06-30",
         "eps": 1.27,
+        "endDate": "2026-06-30",
         "ocf": 1099800000.0,
         "capex": -174500000.0,
         "fcf": 925300000.0,
@@ -12997,9 +13190,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13025,7 +13218,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "STX": {
@@ -13035,7 +13228,7 @@ const FINANCIALS_DATA = {
         "revenue": 10390000000,
         "netIncome": 2012000000,
         "opIncome": 1487000000,
-        "eps": 7,
+        "eps": 7.06,
         "ocf": 1761000000,
         "capex": -602000000,
         "fcf": 1159000000,
@@ -13142,6 +13335,7 @@ const FINANCIALS_DATA = {
         "revenue": 12195000000,
         "netIncome": 3184000000,
         "opIncome": 4094000000,
+        "eps": 13.9,
         "ocf": 3674000000,
         "capex": -569000000,
         "fcf": 3105000000,
@@ -13164,21 +13358,24 @@ const FINANCIALS_DATA = {
         "revenue": 1454000000.0,
         "netIncome": -184000000.0,
         "opIncome": -129000000,
-        "endDate": "2023-09-29"
+        "endDate": "2023-09-29",
+        "eps": -0.88
       },
       {
         "period": "Q4'23",
         "revenue": 1555000000.0,
         "netIncome": -19000000.0,
         "opIncome": 124000000,
-        "endDate": "2023-12-29"
+        "endDate": "2023-12-29",
+        "eps": -0.09
       },
       {
         "period": "Q1'24",
         "revenue": 1655000000.0,
         "netIncome": 25000000.0,
         "opIncome": 143000000,
-        "endDate": "2024-03-29"
+        "endDate": "2024-03-29",
+        "eps": 0.12
       },
       {
         "period": "Q2'24",
@@ -13192,21 +13389,24 @@ const FINANCIALS_DATA = {
         "revenue": 2168000000.0,
         "netIncome": 305000000.0,
         "opIncome": 403000000,
-        "endDate": "2024-09-27"
+        "endDate": "2024-09-27",
+        "eps": 1.41
       },
       {
         "period": "Q4'24",
         "revenue": 2325000000.0,
         "netIncome": 336000000.0,
         "opIncome": 488000000,
-        "endDate": "2024-12-27"
+        "endDate": "2024-12-27",
+        "eps": 1.55
       },
       {
         "period": "Q1'25",
         "revenue": 2160000000.0,
         "netIncome": 340000000.0,
         "opIncome": 431000000,
-        "endDate": "2025-03-28"
+        "endDate": "2025-03-28",
+        "eps": 1.57
       },
       {
         "period": "Q2'25",
@@ -13258,7 +13458,7 @@ const FINANCIALS_DATA = {
         "netIncome": 549000000.0,
         "opIncome": 694000000,
         "endDate": "2025-12-31",
-        "eps": 2.600117,
+        "eps": 2.43,
         "ocf": 723000000.0,
         "capex": -116000000.0,
         "fcf": 607000000.0,
@@ -13279,7 +13479,7 @@ const FINANCIALS_DATA = {
         "netIncome": 593000000.0,
         "opIncome": 843000000,
         "endDate": "2026-03-31",
-        "eps": 3.270147,
+        "eps": 2.6,
         "ocf": 1114000000.0,
         "capex": -161000000.0,
         "fcf": 953000000.0,
@@ -13300,7 +13500,7 @@ const FINANCIALS_DATA = {
         "netIncome": 748000000.0,
         "opIncome": 998000000,
         "endDate": "2026-06-30",
-        "eps": 5.580251,
+        "eps": 3.27,
         "ocf": 1305000000.0,
         "capex": -187000000.0,
         "fcf": 1118000000.0,
@@ -13419,9 +13619,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788945032.5745783,
-    "_updated_label": "2026-09-09 18:10",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13447,7 +13647,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788945050.9844785,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
@@ -13457,7 +13657,7 @@ const FINANCIALS_DATA = {
         "revenue": 8130631000,
         "netIncome": 283531000,
         "opIncome": 403083000,
-        "eps": 4,
+        "eps": 4.85,
         "ocf": 271011000,
         "capex": null,
         "fcf": null,
@@ -13585,7 +13785,8 @@ const FINANCIALS_DATA = {
         "revenue": 3207598000.0,
         "netIncome": 169409000.0,
         "opIncome": 234983000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 3.57
       },
       {
         "period": "Q4'23",
@@ -13599,21 +13800,24 @@ const FINANCIALS_DATA = {
         "revenue": 3432276000.0,
         "netIncome": 197149000.0,
         "opIncome": 259953000.0,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 4.17
       },
       {
         "period": "Q2'24",
         "revenue": 3666897000.0,
         "netIncome": 247572000.0,
         "opIncome": 332808000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 5.25
       },
       {
         "period": "Q3'24",
         "revenue": 3696924000.0,
         "netIncome": 270263000.0,
         "opIncome": 363538000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 5.8
       },
       {
         "period": "Q4'24",
@@ -13633,6 +13837,7 @@ const FINANCIALS_DATA = {
         "netIncome": 240677000.0,
         "opIncome": 318756000.0,
         "endDate": "2025-03-31",
+        "eps": 5.26,
         "otherNonOperating": 54000.0
       },
       {
@@ -13707,8 +13912,8 @@ const FINANCIALS_DATA = {
         "revenue": 5154892000,
         "netIncome": 403694000,
         "opIncome": 547340000,
-        "endDate": "2026-06-30",
         "eps": 9.06,
+        "endDate": "2026-06-30",
         "ocf": 289355000.0,
         "capex": -31148000.0,
         "fcf": 258207000.0,
@@ -13721,6 +13926,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -13821,9 +14027,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13849,7 +14055,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "FIX": {
@@ -13870,7 +14076,7 @@ const FINANCIALS_DATA = {
         "revenue": 2615277000.0,
         "netIncome": 114324000,
         "opIncome": 163639000,
-        "eps": 3,
+        "eps": 3.08,
         "ocf": 142028000,
         "capex": -31750000.0,
         "fcf": 110278000.0,
@@ -13903,7 +14109,7 @@ const FINANCIALS_DATA = {
         "revenue": 4140364000.0,
         "netIncome": 245947000,
         "opIncome": 253849000,
-        "eps": 6,
+        "eps": 6.82,
         "ocf": 301531000,
         "capex": -48359000.0,
         "fcf": 253172000.0,
@@ -13924,7 +14130,7 @@ const FINANCIALS_DATA = {
         "revenue": 5206760000.0,
         "netIncome": 323398000,
         "opIncome": 418388000,
-        "eps": 9,
+        "eps": 9.01,
         "ocf": 639568000,
         "capex": -94838000,
         "fcf": 544730000,
@@ -13945,7 +14151,7 @@ const FINANCIALS_DATA = {
         "revenue": 7027476000.0,
         "netIncome": 522433000,
         "opIncome": 749369000.0,
-        "eps": 14,
+        "eps": 14.6,
         "ocf": 849057000,
         "capex": -111071000,
         "fcf": 737986000,
@@ -13966,7 +14172,7 @@ const FINANCIALS_DATA = {
         "revenue": 9101641000.0,
         "netIncome": 1022558000,
         "opIncome": 1314589000.0,
-        "eps": 28,
+        "eps": 28.88,
         "ocf": 1186356000,
         "capex": -154903000,
         "fcf": 1031453000,
@@ -13989,7 +14195,8 @@ const FINANCIALS_DATA = {
         "revenue": 1378124000.0,
         "netIncome": 105125000,
         "opIncome": 135143000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 2.93
       },
       {
         "period": "Q4'23",
@@ -14003,21 +14210,24 @@ const FINANCIALS_DATA = {
         "revenue": 1537016000.0,
         "netIncome": 96319000,
         "opIncome": 135460000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": 2.69
       },
       {
         "period": "Q2'24",
         "revenue": 1810290000.0,
         "netIncome": 134009000,
         "opIncome": 184670000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 3.74
       },
       {
         "period": "Q3'24",
         "revenue": 1812366000.0,
         "netIncome": 146235000,
         "opIncome": 202884000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 4.09
       },
       {
         "period": "Q4'24",
@@ -14031,7 +14241,8 @@ const FINANCIALS_DATA = {
         "revenue": 1831286000.0,
         "netIncome": 169289000,
         "opIncome": 209098000.0,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": 4.75
       },
       {
         "period": "Q2'25",
@@ -14122,8 +14333,8 @@ const FINANCIALS_DATA = {
         "revenue": 3265656000,
         "netIncome": 441602000,
         "opIncome": 557966000,
-        "endDate": "2026-06-30",
         "eps": 12.53,
+        "endDate": "2026-06-30",
         "ocf": 1139426000.0,
         "capex": -141364000.0,
         "fcf": 998062000.0,
@@ -14141,6 +14352,7 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
+    "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
     "sharesOutstanding": [
       {
@@ -14241,9 +14453,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -14269,7 +14481,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MOD": {
@@ -14411,14 +14623,16 @@ const FINANCIALS_DATA = {
         "revenue": 620500000.0,
         "netIncome": 46500000.0,
         "opIncome": 65700000.0,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": 0.87
       },
       {
         "period": "Q4'23",
         "revenue": 561400000.0,
         "netIncome": 44400000.0,
         "opIncome": 61700000.0,
-        "endDate": "2023-12-31"
+        "endDate": "2023-12-31",
+        "eps": 0.83
       },
       {
         "period": "Q1'24",
@@ -14432,14 +14646,16 @@ const FINANCIALS_DATA = {
         "revenue": 661500000.0,
         "netIncome": 47300000.0,
         "opIncome": 74400000.0,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": 0.88
       },
       {
         "period": "Q3'24",
         "revenue": 658000000.0,
         "netIncome": 46100000.0,
         "opIncome": 75300000.0,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": 0.86
       },
       {
         "period": "Q4'24",
@@ -14447,6 +14663,7 @@ const FINANCIALS_DATA = {
         "netIncome": 41000000.0,
         "opIncome": 59300000.0,
         "endDate": "2024-12-31",
+        "eps": 0.76,
         "impairment": 0.0
       },
       {
@@ -14549,8 +14766,8 @@ const FINANCIALS_DATA = {
         "revenue": 874100000,
         "netIncome": 73900000,
         "opIncome": 74800000,
-        "endDate": "2026-06-30",
         "eps": 1.37,
+        "endDate": "2026-06-30",
         "ocf": 41400000.0,
         "capex": -46400000.0,
         "fcf": -5000000.0,
@@ -14668,9 +14885,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -14696,7 +14913,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "BE": {
@@ -14706,7 +14923,7 @@ const FINANCIALS_DATA = {
         "revenue": 742038000,
         "netIncome": -273540000,
         "opIncome": -165009000,
-        "eps": -4,
+        "eps": -5.14,
         "ocf": -91948000,
         "capex": -45205000,
         "fcf": -137153000,
@@ -14717,7 +14934,7 @@ const FINANCIALS_DATA = {
         "revenue": 785177000,
         "netIncome": -304414000,
         "opIncome": -232804000,
-        "eps": -2,
+        "eps": -2.67,
         "ocf": 163770000,
         "capex": -51053000,
         "fcf": 112717000,
@@ -14832,7 +15049,8 @@ const FINANCIALS_DATA = {
         "revenue": 400268000.0,
         "netIncome": -168078000.0,
         "opIncome": -103708000,
-        "endDate": "2023-09-30"
+        "endDate": "2023-09-30",
+        "eps": -0.8
       },
       {
         "period": "Q4'23",
@@ -14846,21 +15064,24 @@ const FINANCIALS_DATA = {
         "revenue": 235298000.0,
         "netIncome": -56543000.0,
         "opIncome": -49017000,
-        "endDate": "2024-03-31"
+        "endDate": "2024-03-31",
+        "eps": -0.25
       },
       {
         "period": "Q2'24",
         "revenue": 335767000.0,
         "netIncome": -61185000.0,
         "opIncome": -23128000,
-        "endDate": "2024-06-30"
+        "endDate": "2024-06-30",
+        "eps": -0.27
       },
       {
         "period": "Q3'24",
         "revenue": 330399000,
         "netIncome": -14632000.0,
         "opIncome": -9651000,
-        "endDate": "2024-09-30"
+        "endDate": "2024-09-30",
+        "eps": -60
       },
       {
         "period": "Q4'24",
@@ -14875,7 +15096,8 @@ const FINANCIALS_DATA = {
         "revenue": 326021000.0,
         "netIncome": -23814000,
         "opIncome": -19070000,
-        "endDate": "2025-03-31"
+        "endDate": "2025-03-31",
+        "eps": -0.1
       },
       {
         "period": "Q2'25",
@@ -14903,7 +15125,7 @@ const FINANCIALS_DATA = {
         "netIncome": -22960000.0,
         "opIncome": 7846000,
         "endDate": "2025-09-30",
-        "eps": -0.1,
+        "eps": -100,
         "ocf": 19669000.0,
         "capex": -12301000.0,
         "fcf": 7368000.0,
@@ -15030,9 +15252,9 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1788942918.637417,
-    "_updated_label": "2026-09-09 17:38",
-    "_data_quality_version": 4,
+    "_fetched_at": 1788946240.772416,
+    "_updated_label": "2026-09-09 18:34",
+    "_data_quality_version": 5,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -15058,7 +15280,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 2,
-    "_yahoo_verified_at": 1788943095.0431075,
+    "_yahoo_verified_at": 1788946421.1381884,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   }
 };
