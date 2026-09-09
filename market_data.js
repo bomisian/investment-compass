@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.66999816894531,
+      "current": 96.94999694824219,
       "prevClose": 93.02999877929688,
-      "changeAbs": 3.6399993896484375,
-      "changePct": 3.9127157233269703,
-      "pctRank": 90.45346062052506,
+      "changeAbs": 3.9199981689453125,
+      "changePct": 4.21369259419756,
+      "pctRank": 90.53301511535402,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.413456590669027,
-      "ma20": 86.65400085449218,
-      "ma60": 80.63366686503092,
-      "chg1m": 14.540000915527344,
-      "chg3m": 8.470001220703125,
-      "chg1mPct": 17.703642276601002,
-      "chg3mPct": 9.60317631946577,
+      "drawdown1y": -14.16556036502753,
+      "ma20": 86.66800079345703,
+      "ma60": 80.63833351135254,
+      "chg1m": 14.819999694824219,
+      "chg3m": 8.75,
+      "chg1mPct": 18.044563728762892,
+      "chg3mPct": 9.920635263893155,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.7699966430664,
+      "current": 98.78299713134766,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.06999969482421875,
-      "changePct": -0.07082122361166474,
-      "pctRank": 22.75258552108194,
+      "changeAbs": -0.05699920654296875,
+      "changePct": -0.05766815930275174,
+      "pctRank": 23.070803500397773,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.795004379712429,
-      "ma20": 99.29199981689453,
-      "ma60": 100.24883346557617,
-      "chg1m": -1.0400009155273438,
-      "chg3m": -1.1400070190429688,
-      "chg1mPct": -1.0419807043045042,
-      "chg3mPct": -1.1410339077740557,
+      "drawdown1y": -2.782209882907827,
+      "ma20": 99.29264984130859,
+      "ma60": 100.24905014038086,
+      "chg1m": -1.0270004272460938,
+      "chg3m": -1.1270065307617188,
+      "chg1mPct": -1.0289554677558128,
+      "chg3mPct": -1.1280217089904212,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4447.2001953125,
+      "current": 4444.2998046875,
       "prevClose": 4393.89990234375,
-      "changeAbs": 53.30029296875,
-      "changePct": 1.2130520529227145,
-      "pctRank": 91.01034208432776,
+      "changeAbs": 50.39990234375,
+      "changePct": 1.1470425695602713,
+      "pctRank": 90.9307875894988,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.38086121818939,
-      "ma20": 4471.969995117188,
-      "ma60": 4239.413334147135,
-      "chg1m": 85.400390625,
-      "chg3m": 187.2001953125,
-      "chg1mPct": 1.9579163292460757,
-      "chg3mPct": 4.394370781983568,
+      "drawdown1y": -16.4353962414719,
+      "ma20": 4471.824975585938,
+      "ma60": 4239.364994303385,
+      "chg1m": 82.5,
+      "chg3m": 184.2998046875,
+      "chg1mPct": 1.891421057686775,
+      "chg3mPct": 4.326286495011737,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,6 +237,48 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "NFL teams still 'undervalued,' says Jacksonville Jaguars owner Shad Khan",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/09/nfl-teams-still-undervalued-says-jacksonville-jaguars-owner-shad-khan.html",
+      "datetime": 1788992988,
+      "headlineKo": "잭슨빌 재규어스의 구단주 샤드 칸은 NFL 팀들이 여전히 '과소평가돼 있다'고 말했다."
+    },
+    {
+      "headline": "Trump departs DC on Qatar-gifted Air Force One after emergency slide deploys - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTDFmbU9kUFlkTGo3Qmg3SzFVajhJVVRYdnF4UWdWU3VId1c1TnJCZFpQZ1BTYzlMak94eFZ0WlhnMGxaVGEtWTctRUNmbV85cjhldmpSVDN4Y2hrbEJ1SWdaNzl2ODlZTE1vc0h5MlNDQ2xzbDRrNUc2RHRyMmRrQ1JsenFIUV9DQU1zUUk1TnlLOHh2QVoyajExU1I3ak1JZ2I3R21SeWtackpsYTgweEZR?oc=5",
+      "datetime": 1788991124,
+      "headlineKo": "트럼프, 긴급 슬라이드 배치 후 카타르에서 선물한 에어포스원을 타고 DC 출발 - 로이터"
+    },
+    {
+      "headline": "US trial against China's Huawei opens with prosecutor calling the company a criminal enterprise - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaC1UeHo4RkVJQXVPbGd0V1o0bWtBUDd0NGY2eUpBT3hoSTRvQlZ4S2hkQkFVVDhsUWlXbDNuUXY5WV9LWEMxMWhuQjFTMGUtbnZvNGRGQk40amRHR3BWRWh1MUpCNkRTMWNMN3FWRkFwb0JrQ2J0TGFwY2JhM201dFBFVnp5Vk9CQ0N2eEdIczIxZmlFVHJjNXRnaGxPcUZ1YWtLU05OUVBQX3F0dllWT2o5LWVCNXNLamMwNktDQVRid28?oc=5",
+      "datetime": 1788989553,
+      "headlineKo": "중국 화웨이에 대한 미국 재판이 시작되고 검찰은 이 회사를 범죄 기업으로 규정했습니다."
+    },
+    {
+      "headline": "As Trump takes center stage in Dallas, Republicans debate a future without him - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NXWmxOTzBqLS1jVW1JTjBsMzgxS2VuQkFVRl9KeDlJR28taW9UWUE0YlZIRWprbEtoMDZXc2lpUDItLWVkWHdiQ19XRDNFUll4YnQ2ZmhfbGV1ZWxndXplbHNUM3NKdlNJVUNaY1Jqa2o4Z0hUb185Tk5CQk1jd1dBbzhZYjR3NXJnWE91NEVJQ3NidWV6ZTJGSTJmQURXcS1YMlJvUm9uSEtQdXlYMGtiT1M?oc=5",
+      "datetime": 1788988584,
+      "headlineKo": "트럼프가 댈러스에서 중심 무대에 오르자 공화당원들은 그가 없는 미래에 대해 토론한다 - 로이터 통신"
+    },
+    {
+      "headline": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjRjUTJjbW9GMXo2aGNZTXVJTmxOQWhON20ycG5GTGxhcjlSZWJqOWFkSGdCZDVTTldYMnBSeHpYT09GTU5fS0ZVSTVLamF3cDFXc21KTzJaTE56cEdZc2JjNFk4WG53UTQ2OURwMTFrTUE5SHFjQS03M084UExUZlRTOWlURlpDVm1aRzBBc0QxeV9pQy1IUVlGN0xaVW5KMFc0Nm90VFhWNlk?oc=5",
+      "datetime": 1788987931,
+      "headlineKo": "독점: 파키스탄, 리야드의 반격에 대해 이란에게 후티 반군을 통제하라고 경고 - 로이터"
+    },
+    {
+      "headline": "US Treasury to buy up to $6 billion in Sept 10 buyback operation - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFtZW9VYi1jWGlldTlubUM4OU9MS0ozbXlHc0E3dEVDQjktaHhXdWhGVFlLMjRnaXZqanp6RnM1YndSUzdZN2s1SUNvZzlJSmNKclRnbmRaN19GeGxGeHV6eGtQd0JkNWVSMVg1SFZMNkN3Mkl4Nk9SaGpVd29mZXNJTEIyUnF1eG9yRkZtRlRTeFdtSTh3LTA2NEg?oc=5",
+      "datetime": 1788987881,
+      "headlineKo": "미국 재무부는 9월 10일 자사주 매입을 통해 최대 60억 달러를 매입할 예정 - Reuters"
+    },
+    {
       "headline": "Trump says Iran war will end right after U.S. midterm elections - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONUt1ZG9kcVg5Q3VMUjZuM0JScHFocjZZOFNvTjRsYWNRZ1lBQUlLUm45XzBJTEh2dnVLLXVqeDh1dlh2aGFObVVqN09PTHFtck02aUZrX3VZRWFLVURzeUt3eFFXc25NcFoxVFNSMHdLSmQ1alBaWGRsOHBpc2RTTy1ULWUyZEk4TXNKc0FxX3NlWXhYS3hVMERTb2R4RVo2UjJPRzRFN2w0a0hhbHE0d0EyZmZHUQ?oc=5",
@@ -249,13 +291,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcV81aHB4Z3dteWpsZGxOM01KRFFXZ3hhZlBUUlJUb3Y0QXVXaWpfSXJxRGx0R2Z2LXRrb25jYWJBTUNxc3llTFNVdmRoQzkxRjlLc0czRUxKczdyYU8temtJbXJRUXNOUGpuRkdXenNZTFVLX3ZhUkFQZ191cjV3amlwZ0RocHBoUHNZYzVfZy1pSlFNNGlma0NMMFVvRFIxSXNUOTRyYnNDWU1qc0JxWmpDRHMyTmVj?oc=5",
       "datetime": 1788983769,
       "headlineKo": "중동 분쟁 심화로 브렌트유는 배럴당 100달러 이상으로 합의 - Reuters"
-    },
-    {
-      "headline": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQjRjUTJjbW9GMXo2aGNZTXVJTmxOQWhON20ycG5GTGxhcjlSZWJqOWFkSGdCZDVTTldYMnBSeHpYT09GTU5fS0ZVSTVLamF3cDFXc21KTzJaTE56cEdZc2JjNFk4WG53UTQ2OURwMTFrTUE5SHFjQS03M084UExUZlRTOWlURlpDVm1aRzBBc0QxeV9pQy1IUVlGN0xaVW5KMFc0Nm90VFhWNlk?oc=5",
-      "datetime": 1788982615,
-      "headlineKo": "독점: 파키스탄, 리야드의 반격에 대해 이란에게 후티 반군을 통제하라고 경고 - 로이터"
     },
     {
       "headline": "Houthis attack southern Saudi cities for second day, Saudi-led coalition says - Reuters",
@@ -284,51 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHVyY1EyVkN0ejVTZnJMXzVmVGNCQTJzUmNmWTJkVi1ZWnRfRTJSd3NTT3V3ZmdUc2xXdGZhOHVpUnNtRVZNT1B4VkV3dWJhWFVZamJjT0FzdElsbGRvSk90UE1iSjFoR0txNmttdXFsUDNfcVVIWWlZeDhaMnFHYktsb2FuYm9qZGpUQXdCOERJcE5aWmQzWm9aS0JKMUM0YmxlY3NnSEEzUWFicThkU3VuNA?oc=5",
       "datetime": 1788977049,
       "headlineKo": "UAE와 독일, 투자, 에너지, AI 거래로 협력 구축 모색 - Reuters"
-    },
-    {
-      "headline": "These are the top 10 U.S. states for workers' rights, says new report—8 of them have a minimum wage over $15",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/09/the-top-us-states-for-workers-in-2026-according-to-oxfam-report.html",
-      "datetime": 1788975405,
-      "headlineKo": "새로운 보고서에 따르면 미국 근로자 권리 상위 10개 주는 최저 임금이 15달러가 넘는 8개 주입니다."
-    },
-    {
-      "headline": "NEWSLETTER: The Gulf of uncertainty - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pb3BRNkJ2X2FQSWNZZGJDN3ppYl9ad0xnMThaNjAtUF9lcW9ZbWlsY2RTMlpucnRBRU1NRG1CN2x6S0oyQlFRcFF0OVNLcGhhcE0tc3Y3eXRLNXNoSG5ZeUhoaEFacGVnS3hYXzNnQkdIM19fM3FPandR?oc=5",
-      "datetime": 1788973500,
-      "headlineKo": "뉴스레터: 불확실성의 만 - Reuters"
-    },
-    {
-      "headline": "US Treasury to buy up to $6 billion in Sept 10 buyback operation - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMVFtZW9VYi1jWGlldTlubUM4OU9MS0ozbXlHc0E3dEVDQjktaHhXdWhGVFlLMjRnaXZqanp6RnM1YndSUzdZN2s1SUNvZzlJSmNKclRnbmRaN19GeGxGeHV6eGtQd0JkNWVSMVg1SFZMNkN3Mkl4Nk9SaGpVd29mZXNJTEIyUnF1eG9yRkZtRlRTeFdtSTh3LTA2NEg?oc=5",
-      "datetime": 1788973140,
-      "headlineKo": "미국 재무부는 9월 10일 자사주 매입을 통해 최대 60억 달러를 매입할 예정 - Reuters"
-    },
-    {
-      "headline": "GE Aerospace bets on 'black art' of castings to secure jet engine supply - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSEZ2VlUxNWU2bFdQdGJtVWp6cHR0bTJoRW1hQVF5RThyMWJ4cGFESGVqelc0MXkyTHZjWWo0ZmRmUnFqN0tHci1OUHdBWDVfdVZPUVZnYmowc1J1QTVmbVZaZFZfbV9nRElDLVJMdERtMzZlVllfZ0oydTdjRm1LTlIwbkhKVGdBOWJTaGZOT2doeld3X1BVTks5VG1VTmcta3lhVmNXT2pvUnV3UG1IV3ctV3Nlc3ZhTlVIYXpoMGo?oc=5",
-      "datetime": 1788971248,
-      "headlineKo": "GE 에어로스페이스, 제트 엔진 공급 확보를 위해 주조의 '마법'에 투자 - Reuters"
-    },
-    {
-      "headline": "Dow weighs exit from $20 billion partnership with Aramco, Bloomberg News reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNOFVTQ01iclNnTEVHaExha0ppdTRYRmRVMVI5U3REeVNTcmU2QzEzYkoweGplVUdhWF9BNmxLcXdTSmk0RzdnXy0zZi1fVWRYS0ZOck8ycWt5NHdaVF90MTdPY3ItYjQzRjBaREZUNzBrQjYwSy00YU9VT3l3QkQ2dElSeVEtTEk1WHVWZC1RUGdLaTV0QldLNXBjcEtoendweTNFTENCVWhzX2dxV19oaGZiVEpKTmpGN1J4U0ZLNkJZeEd5Rmc?oc=5",
-      "datetime": 1788970688,
-      "headlineKo": "다우, 아람코와의 200억 달러 파트너십 종료 고려 중"
     }
   ],
   "fgi": {
     "score": 39.0285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788990983.5826476,
-  "_updated_label": "2026-09-10 06:56",
-  "_last_attempt_at": 1788990983.5826476,
-  "_last_success_at": 1788990983.5826476,
+  "_fetched_at": 1788994684.194106,
+  "_updated_label": "2026-09-10 07:58",
+  "_last_attempt_at": 1788994684.194106,
+  "_last_success_at": 1788994684.194106,
   "_collection_status": "ok",
   "_collection_errors": []
 };
