@@ -4470,7 +4470,31 @@ const BUSINESS_NOTES = {
           "메타 PPA 관련 원전 3곳 출력증강 인허가·공사 진행 상황 공시",
         ],
         confidence: "실적 수치와 가이던스는 8/7 공식 발표 기준 사실이고, 밸류에이션 프리미엄 해석과 향후 전망은 제 판단이에요. 별도의 확률 수치는 붙이지 않고 위 조건들로 판단 근거를 대신해요.",
-        sources: [],
+        sources: [
+          { title: "Vistra Reports Second Quarter 2026 Results (공식 실적 발표)", url: "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results" },
+        ],
+      },
+      {
+        // 2026-09-09 추가(봄이 검증 요청): "영업이익만 봐선 본업을 알기 부족하다"는 지적에 맞춰,
+        // GAAP 순이익·조정 EBITDA·영업현금흐름(OCF)·실제 capex·헤지 손익을 한 자리에 정리한 카드.
+        // 위 viewLog(08-27)에 이미 GAAP·조정EBITDA·헤지는 서술돼 있었지만 OCF·capex가 빠져 있었음 -
+        // 2분기 단독 OCF/capex는 회사가 따로 공시하지 않아 상반기(6개월) 누적치로 대체함.
+        date: "2026-09-09",
+        headline: "GAAP·조정EBITDA·현금흐름·헤지손익을 한 번에 - 2026년 상반기(6개월) 누적 기준",
+        view: "회사가 분기 단독으로 공시하지 않는 영업현금흐름(OCF)·capex는 상반기 누적으로 봐요: 2026년 상반기(1~6월) 영업현금흐름(OCF) $22.22억, capex $15.72억(원전연료·유지보수 계약 포함) - 회사가 발표한 FCFbG(성장투자 전 조정FCF) 가이던스와는 정의가 다른 별도 계산이니 섞어서 비교하면 안 돼요. 같은 기간 GAAP 순이익 $13.34억, 조정 EBITDA(연결) $32.19억·Ongoing Operations 기준 $32.61억. 헤지 쪽은 2분기 단독으로 미실현(마크투마켓) 상품헤지 손실 $4.72억이 GAAP 순이익을 눌렀고(실현손익과는 다른 회계상 평가손실), 상반기 누적으로는 미실현 상품헤지 손실 $2.51억·금리스왑 미실현 손실 $0.07억로 전년동기보다는 개선된 수치예요. 즉 GAAP 순이익만 보면 헤지 마크투마켓 변동 때문에 실제 현금창출력보다 왜곡돼 보일 수 있고, 조정 EBITDA·OCF가 본업 체력을 보는 데 더 적합해요.",
+        increaseIf: [
+          "OCF·조정EBITDA가 가이던스 경로를 유지하며 capex 대비 여유(FCFbG)가 가이던스 상단에 근접할 때",
+        ],
+        wrongIf: [
+          "미실현 헤지손실이 실현손실로 전환되며(=실제 현금 유출) OCF까지 같이 꺾일 때",
+        ],
+        watchNext: [
+          "3분기 실적에서 OCF·capex 개별 수치 공개 여부 및 상반기 대비 흐름",
+        ],
+        confidence: "8/7 공식 발표(6개월 누적치) 기준 사실이에요. 2분기 단독 OCF·capex는 회사가 공시하지 않아 표시하지 못했어요.",
+        sources: [
+          { title: "Vistra Reports Second Quarter 2026 Results (공식 실적 발표)", url: "https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results" },
+        ],
       },
     ],
     role: {
