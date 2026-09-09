@@ -259,6 +259,7 @@
 
   <div class="page-tabs" id="pageTabs">
     <div class="ptab active" onclick="switchPage('dashboard')">📊 대시보드</div>
+    <div class="ptab" onclick="switchPage('simple')">🔰 심플보기</div>
     <div class="ptab" onclick="switchPage('holdings')">💼 내 보유종목</div>
   </div>
 
@@ -319,8 +320,9 @@
     <div class="summary-grid">
       <div>
         <div class="bucket-row" id="bucketRow"></div>
+        <div id="cleanFilterRow" style="margin-top:6px;"></div>
         <div class="sub" style="margin-top:10px;">지금 가장 눌린 종목 (눌림목 점수 상위, 매수 관심 이상)</div>
-<div class="sub" style="margin-top:2px;font-size:11px;">종목 옆 <span class="dir-badge dir-positive" style="cursor:default;">긍정</span><span class="dir-badge dir-mixed" style="cursor:default;">혼재</span><span class="dir-badge dir-risk" style="cursor:default;">우려</span> 배지 = 최근 실적·뉴스가 이 낙폭을 지지하는지 조사한 방향성 체크(정성적 참고용, 검증된 신호 아님) - 눌러서 근거 보기</div>
+<div class="sub" style="margin-top:2px;font-size:11px;">종목 옆 <span class="dir-badge dir-positive" style="cursor:default;">긍정</span><span class="dir-badge dir-mixed" style="cursor:default;">혼재</span><span class="dir-badge dir-risk" style="cursor:default;">우려</span> 배지 = 최근 실적·뉴스가 이 낙폭을 지지하는지 조사한 방향성 체크(정성적 참고용, 검증된 신호 아님) - 눌러서 근거 보기 · <span class="dir-badge dir-risk" style="cursor:default;">⚠ EPS하향</span><span class="dir-badge dir-risk" style="cursor:default;">⚠ 실적훼손</span> = 애널리스트 EPS 추정치 하향 / SEC 공시 기준 매출·영업이익률 악화(둘 다 점수엔 미반영, 참고용 경고)</div>
         <div class="rec-list" id="recList"></div>
       </div>
       <div>
@@ -422,7 +424,24 @@
     <div id="holdingsBody"></div>
     <div class="sub" style="margin-top:8px;">이 정보는 <b>이 브라우저에만 저장</b>되고 어디로도 전송되지 않아요(GitHub에 올라가는 파일에도 안 들어감). 현재가는 "전체 스캔"이나 종목 조회를 한 뒤에 반영돼요.</div>
   </div>
+  </div><!-- /pageHoldings -->
+
+  <div id="pageSimple" style="display:none;">
+  <div class="card">
+    <h2>🔰 심플 보기 <span style="font-weight:400;font-size:12px;color:var(--sub);">(핵심만 한눈에 - 자세한 근거는 📊 대시보드 탭에서 종목을 눌러 확인하세요)</span></h2>
+    <div id="simpleEnvBody"></div>
+    <div id="simpleTripodBody" style="margin-top:14px;padding-top:12px;border-top:1px solid var(--line);"></div>
+    <div id="simpleEarningsBody" style="margin-top:14px;padding-top:12px;border-top:1px solid var(--line);"></div>
   </div>
+  <div class="card">
+    <h2>① 장기 매수 타이밍 <span style="font-weight:400;font-size:12px;color:var(--sub);">(눌림목 강도 매수관심 이상만)</span></h2>
+    <div id="simpleLongTermBody"></div>
+  </div>
+  <div class="card">
+    <h2>② 단기 매수 타이밍 <span style="font-weight:400;font-size:12px;color:var(--sub);">(최근 단타 신호 로그)</span></h2>
+    <div id="simpleShortTermBody"></div>
+  </div>
+  </div><!-- /pageSimple -->
 
 </div>
 
@@ -592,10 +611,12 @@ function bookmarkTicker(ticker){
 // 메인 화면 자체는 카드가 쭉 나열된 단일 페이지였음. 보유종목을 별도 "페이지"로 완전히 분리.
 function switchPage(id){
   document.getElementById('pageDashboard').style.display = id==='dashboard' ? '' : 'none';
+  document.getElementById('pageSimple').style.display = id==='simple' ? '' : 'none';
   document.getElementById('pageHoldings').style.display = id==='holdings' ? '' : 'none';
   document.querySelectorAll('#pageTabs .ptab').forEach((el,i)=>{
-    el.classList.toggle('active', (id==='dashboard' && i===0) || (id==='holdings' && i===1));
+    el.classList.toggle('active', (id==='dashboard' && i===0) || (id==='simple' && i===1) || (id==='holdings' && i===2));
   });
+  if(id==='simple') renderSimpleView();
 }
 
 // ============ 보유종목 트래커 (전부 브라우저 localStorage - 외부 전송 없음) ============
@@ -724,6 +745,7 @@ const DASHBOARD_VERSION = '2026-09-06';  // 2026-09-08 수정: 9/1~9/6 로직 �
 
 let results = {};       // ticker -> 계산 결과
 let marketEnv = null;   // {spyDrawdownPct, vix, fgi, fgiSource}
+let cleanOnlyFilter = false;  // 2026-09-09 추가: "리스크 배지 없는 진짜 깨끗한 강한매수만" 필터 상태
 let openTicker = null;  // 지금 상세 패널에 열려있는 티커(비동기 장기이력 로딩 후 화면이 그 사이 바뀌었는지 확인용)
 const longHistoryCache = {}; // ticker -> {closes, dates} (10년치, 최초 조회 후 세션 동안 재사용)
 // ============ 멀티 타임프레임 캔들차트 (2026-08-14 추가) ============
@@ -2000,6 +2022,7 @@ function restoreFromScanCache(cache, willRefresh){
   marketEnv = cache.marketEnv;
   renderAnomalyBanner();
   renderSummary();
+  renderSimpleView();
   renderThemeFilter();
   renderTable();
   renderHoldings();
@@ -2052,6 +2075,7 @@ async function scanAll(){
     document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
     renderAnomalyBanner();
     renderSummary();
+    renderSimpleView();
     renderThemeFilter();
     renderTable();
     renderHoldings();
@@ -2108,6 +2132,147 @@ function directionBadge(ticker){
   const title = '방향성 체크(' + dc.date + '): ' + dc.headline.replace(/^\[방향성 체크\] /, '') + ' - 눌러서 06 뉴스 탭에서 근거 보기';
   return `<span class="dir-badge dir-${dc.tone}" title="${esc(title)}" onclick="event.stopPropagation();openDetailNews('${ticker}')">${label}</span>`;
 }
+// 2026-09-09 추가(사용자 요청): "강한 매수기회" 점수(눌림목 강도)는 낙폭만 재는 점수라 falling
+// knife(펀더멘털이 실제로 훼손되는 중인 하락)를 못 걸러냄 - 이미 수집돼 있던 EPS 컨센서스 방향과
+// Fundamental 관찰 점수(SEC 공시 기준)를 새 지표 없이 그대로 재사용해 리스크 배지로 보여줌.
+// 점수 자체는 바꾸지 않고(백테스트 검증된 값 그대로), 메인 화면에서 한눈에 "이 4점은 그냥 가격만
+// 빠진 건지, 실적도 같이 나빠지는 중인지" 구분할 수 있게 하는 참고 배지임.
+function epsFundamentalRiskBadges(ticker){
+  const epsRec = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
+  const epsHtml = (epsRec && epsRec.direction === '하향') ? `<span class="dir-badge dir-risk" title="${esc('애널리스트들의 EPS(주당순이익) 예상치가 최근 하향 중이에요(3개월 변화 ' + (epsRec.change90dPct!=null?(epsRec.change90dPct>=0?'+':'')+epsRec.change90dPct.toFixed(1)+'%':'-') + ') - 가격만 빠진 게 아니라 실적 눈높이 자체가 낮아지는 중일 수 있어요. 종목 상세 05 탭에서 추이 확인')}" onclick="event.stopPropagation();openDetail('${ticker}')">⚠ EPS하향</span>` : '';
+  const fundRec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[ticker] : null;
+  const fund90 = fundRec && fundRec.hasConfirmedEvidence ? ((fundRec.windows['90']||{}).overall||{}) : null;
+  const fundHtml = (fund90 && fund90.score < 0) ? `<span class="dir-badge dir-risk" title="${esc('최근 90일 SEC 공시(10-Q/10-K) 기준 매출·영업이익률이 실제로 나빠진 것으로 확인됐어요(Fundamental 관찰 점수 ' + fund90.score + ') - 추정이 아니라 공시된 숫자예요. 종목 상세에서 근거 공시 확인')}" onclick="event.stopPropagation();openDetail('${ticker}')">⚠ 실적훼손</span>` : '';
+  return epsHtml + fundHtml;
+}
+
+// 2026-09-09 추가: 심플 보기 전용 - 위 epsFundamentalRiskBadges()는 상세 대시보드 칩에서 '리스크만'
+// 표시하던 기존 자리를 그대로 쓰려고 하향/훼손만 담았는데, 심플 보기는 처음부터 "긍정도 같이
+// 보여달라"(EPS 상향중 포함)는 요청이라 방향 전체(상향/하향, 개선/훼손)를 다 보여주는 별도 함수로 둠.
+// 데이터 출처는 완전히 동일 - 그냥 표시 범위만 다름.
+function hasAnyRiskBadge(r){
+  const dc = getDirectionCheck(r.ticker);
+  if(dc && dc.tone==='risk') return true;
+  const rs = (typeof computeRelStrength === 'function') ? computeRelStrength(r) : null;
+  if(rs && rs.rel <= REL_WEAK_THRESHOLD) return true;
+  if(epsFundamentalRiskBadges(r.ticker)) return true;
+  return false;
+}
+function epsFundamentalDirectionBadges(ticker){
+  const epsRec = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[ticker] : null;
+  let epsHtml = '';
+  if(epsRec && epsRec.direction === '하향'){
+    epsHtml = `<span class="dir-badge dir-risk" title="애널리스트 EPS 추정치 최근 하향 중">⚠ EPS하향</span>`;
+  }else if(epsRec && epsRec.direction === '상향'){
+    epsHtml = `<span class="dir-badge dir-positive" title="애널리스트 EPS 추정치 최근 상향 중">EPS상향중</span>`;
+  }
+  const fundRec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[ticker] : null;
+  const fund90 = fundRec && fundRec.hasConfirmedEvidence ? ((fundRec.windows['90']||{}).overall||{}) : null;
+  let fundHtml = '';
+  if(fund90 && fund90.score < 0){
+    fundHtml = `<span class="dir-badge dir-risk" title="최근 90일 SEC 공시 기준 매출·영업이익률 악화 확인됨">⚠ 실적훼손</span>`;
+  }else if(fund90 && fund90.score > 0){
+    fundHtml = `<span class="dir-badge dir-positive" title="최근 90일 SEC 공시 기준 매출·영업이익률 개선 확인됨">실적개선</span>`;
+  }
+  return (epsHtml || fundHtml) ? epsHtml + fundHtml : '<span class="sub">-</span>';
+}
+
+// ============ 심플 보기 (2026-09-09 추가) ============
+// [배경] 사용자가 직원에게 대시보드를 공유했더니 "복잡하다"는 피드백을 받음 - 기존 화면(📊 대시보드)의
+// 모든 지표·검증 근거·주의문구는 그대로 두되(제거하면 그동안 쌓아온 신뢰성 설계가 훼손됨), 초보자가
+// "지금 뭘 봐야 하는지"만 한눈에 보게 별도 페이지 탭으로 분리함. 새 계산은 하나도 추가하지 않고
+// 이미 검증/계산되어 있던 값만 골라서 더 단순한 표로 재구성함 - 자세한 근거가 필요하면 종목을 눌러
+// 기존 📊 대시보드의 상세 화면(01~06)으로 그대로 연결됨.
+function renderSimpleView(){
+  const envBox = document.getElementById('simpleEnvBody');
+  const tripodBox = document.getElementById('simpleTripodBody');
+  const earnBox = document.getElementById('simpleEarningsBody');
+  const ltBox = document.getElementById('simpleLongTermBody');
+  const stBox = document.getElementById('simpleShortTermBody');
+  if(!envBox) return;
+
+  // ---- 지표 값(전일 값만, 등급/퍼센타일 없이) ----
+  if(marketEnv){
+    const env = marketEnv;
+    const fmtDd = v => v!=null ? (v>=0?'+':'')+v.toFixed(1)+'%' : '조회 불가';
+    const rows = [
+      ['S&P500(SPY) 52주 고점대비', fmtDd(env.spyDrawdownPct)],
+      ['나스닥100(QQQ) 52주 고점대비', fmtDd(env.qqqDrawdownPct)],
+      ['다우30(DIA) 52주 고점대비', fmtDd(env.diaDrawdownPct)],
+      ['VIX(공포지수)', env.vix!=null?env.vix.toFixed(2):'조회 불가'],
+      ['F&G Index', env.fgi!=null?env.fgi.toFixed(0):'조회 불가'],
+    ];
+    envBox.innerHTML = `<div class="chart-label" style="margin-top:0;">📊 오늘의 지표 (전일 값)</div>
+      <table style="width:100%;">${rows.map(([l,v])=>`<tr><td>${l}</td><td class="v" style="text-align:right;font-weight:600;">${v}</td></tr>`).join('')}</table>`;
+  }else{
+    envBox.innerHTML = '<div class="sub">아직 시장 지표를 못 불러왔어요.</div>';
+  }
+
+  // ---- 트라이팟 신호 (3개 값만: 시장상태 · VIX10 · 목표비중) ----
+  const T = (typeof TRIPOD_SIGNAL_DATA !== 'undefined') ? TRIPOD_SIGNAL_DATA : null;
+  if(T && T.current){
+    const cur = T.current;
+    tripodBox.innerHTML = `<div class="chart-label" style="margin-top:0;">🎯 트라이팟 신호</div>
+      <table style="width:100%;">
+        <tr><td>시장 상태</td><td class="v" style="text-align:right;font-weight:600;">${cur.state==='up'?'상승장':'하락장'}</td></tr>
+        <tr><td>VIX 10일 평균</td><td class="v" style="text-align:right;font-weight:600;">${cur.vix10!=null?cur.vix10.toFixed(1):'-'}</td></tr>
+        <tr><td>목표 비중</td><td class="v" style="text-align:right;font-weight:700;color:${tripodLevColor(cur.target_lev)};">${TRIPOD_LEV_LABEL[cur.target_lev]||cur.target_lev+'배'}</td></tr>
+      </table>`;
+  }else{
+    tripodBox.innerHTML = '';
+  }
+
+  // ---- 실적발표만 (가까운 5건, D-day만) ----
+  if(typeof NEWS_DATA !== 'undefined' && NEWS_DATA && typeof allTickers === 'function'){
+    const todayStart = new Date(new Date().toDateString());
+    const rows = [];
+    allTickers().forEach(t=>{
+      const ne = (NEWS_DATA[t]||{}).nextEarnings;
+      if(!ne || !ne.date) return;
+      const d = new Date(ne.date+'T00:00:00');
+      const days = Math.round((d-todayStart)/86400000);
+      if(isNaN(days) || days<0 || days>35) return;
+      rows.push({ticker:t, date:ne.date, days});
+    });
+    rows.sort((a,b)=>a.days-b.days);
+    const visible = rows.slice(0,5);
+    earnBox.innerHTML = `<div class="chart-label" style="margin-top:0;">📅 다가오는 실적발표</div>
+      ${visible.length ? visible.map(r=>`<div class="fund-row" style="cursor:pointer;" onclick="openDetail('${r.ticker}')">
+          <b>${esc(r.ticker)}</b><span class="v">${r.days===0?'오늘':`D-${r.days}`} · ${esc(r.date)}</span>
+        </div>`).join('') : '<div class="sub">향후 5주 안에 예정된 실적발표가 없어요.</div>'}`;
+  }else{
+    earnBox.innerHTML = '';
+  }
+
+  // ---- 종목 리스트: 종목명 · 테마 · 적정가 · 가격타당성 · 뉴스방향성 · EPS/실적 ----
+  const scored = Object.values(results).filter(r=>!r.error);
+  const picks = scored.filter(r=>r.verdict && r.verdict.label!=='관망').sort((a,b)=>b.score-a.score);
+  if(!picks.length){
+    ltBox.innerHTML = '<div class="sub">아직 스캔 결과가 없거나, 지금은 매수관심 이상인 종목이 없어요.</div>';
+  }else{
+    const rows = picks.map(r=>{
+      const fwd = r.fairValue && r.fairValue.fwd;
+      const fairTxt = (fwd && !fwd.unavailable && fwd.mid!=null) ? '$'+fwd.mid.toFixed(0) : '-';
+      const dir = directionBadge(r.ticker) || '<span class="sub">-</span>';
+      return `<tr onclick="openDetail('${r.ticker}')" style="cursor:pointer;">
+        <td><b>${esc(r.ticker)}</b> <span class="badge ${r.verdict.label==='강한 매수기회'?'b-strong-buy':'b-buy-wait'}" style="font-size:10px;">${r.verdict.label==='강한 매수기회'?'강한':'관심'}</span></td>
+        <td class="sub">${esc(r.theme||'-')}</td>
+        <td class="v">${fairTxt}</td>
+        <td>${valuationBadgeHtml(r)}</td>
+        <td>${dir}</td>
+        <td>${epsFundamentalDirectionBadges(r.ticker)}</td>
+      </tr>`;
+    }).join('');
+    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 점수 높은 순. 적정가·가격타당성은 참고용이며 저평가라고 매수 신호는 아니에요(검증상 밸류트랩 위험).</div>
+      <div style="overflow-x:auto;"><table style="width:100%;min-width:520px;">
+        <thead><tr><th>종목</th><th>테마</th><th>적정가</th><th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table></div>`;
+  }
+
+  // ---- 단기 매수 타이밍(최근 단타 신호 로그만) ----
+  stBox.innerHTML = scored.length ? buildRecentSignalLogHtml(scored) : '<div class="sub">아직 스캔 결과가 없어요.</div>';
+}
 
 // ============ 종합 추천(최우선) - 장기+단기 신호 겹침 + 뉴스 방향성 (2026-09-01 추가) ============
 // [배경] 사용자 요청: "메인에 종목들만 봐도 매수를 해도 좋다는 게 보이면 좋겠다" - 기존엔 장기
@@ -2130,22 +2295,34 @@ function buildComboPickHtml(scored){
       const isStrong = r.verdict.label==='강한 매수기회';
       const isNewsRisk = dc && dc.tone==='risk';
       const isWeakSector = !!(rs && rs.rel <= REL_WEAK_THRESHOLD);
-      const isRisk = isNewsRisk || isWeakSector;
+      // 2026-09-09 추가(사용자 요청): "강한 매수기회"가 순수 낙폭 점수라 falling knife(펀더멘털이
+      // 실제로 훼손되는 중인 하락)를 못 걸러낸다는 지적 - 이미 수집돼 있던 EPS 컨센서스 방향(하향
+      // 중이면 애널리스트들도 실적 눈높이를 낮추는 중이라는 뜻)과 Fundamental 관찰 점수(SEC 공시
+      // 기준 매출·영업이익률이 실제로 나빠졌는지, 90D 누적)를 새 예측지표를 만들지 않고 그대로
+      // 리스크 신호로 추가함(기존 뉴스 리스크·그룹뒤처짐과 같은 패턴).
+      const epsRec = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
+      const isEpsDeclining = !!(epsRec && epsRec.direction === '하향');
+      const fundRec = (typeof FUNDAMENTAL_WINDOW_SCORES_DATA !== 'undefined' && FUNDAMENTAL_WINDOW_SCORES_DATA.records) ? FUNDAMENTAL_WINDOW_SCORES_DATA.records[r.ticker] : null;
+      const fund90 = fundRec && fundRec.hasConfirmedEvidence ? ((fundRec.windows['90']||{}).overall||{}) : null;
+      const isFundamentalNegative = !!(fund90 && fund90.score < 0);
+      const isRisk = isNewsRisk || isWeakSector || isEpsDeclining || isFundamentalNegative;
       const tier = (isStrong && !isRisk) ? 0 : (isRisk ? 2 : 1);
-      return {r, dc, rs, isStrong, isNewsRisk, isWeakSector, isRisk, tier};
+      return {r, dc, rs, isStrong, isNewsRisk, isWeakSector, isEpsDeclining, isFundamentalNegative, epsRec, fund90, isRisk, tier};
     })
     .sort((a,b)=> a.tier-b.tier || b.r.score-a.r.score || (b.r.techScore||0)-(a.r.techScore||0));
 
-  const head = `<div class="combo-head"><b>🎯 지금 사도 좋아 보이는 종목</b> <span style="font-weight:400;font-size:12px;color:var(--sub);">(장기 눌림목 점수 + 단기 진입 신호가 동시에 겹치는 종목만 - 새 지표가 아니라 이미 검증된 두 신호의 교집합이에요)</span></div>`;
+  const head = `<div class="combo-head"><b>🎯 지금 사도 좋아 보이는 종목</b> <span style="font-weight:400;font-size:12px;color:var(--sub);">(장기 눌림목 점수 + 단기 진입 신호가 동시에 겹치는 종목만 - 뉴스 방향성·그룹대비 뒤처짐·EPS 하향·실적 훼손, 4가지 리스크 신호가 하나라도 있으면 ⚠로 표시돼요. 새 예측지표가 아니라 이미 있던 신호들의 조합이에요)</span></div>`;
 
   if(!picks.length){
     return `<div class="combo-box combo-empty">${head}<div class="sub" style="margin-top:6px;">지금은 장기ㆍ단기 신호가 동시에 겹치는 종목이 없어요 - 흔한 일이 아니니 걱정 마시고, 아래 ①ㆍ② 목록을 참고하세요.</div></div>`;
   }
-  const chips = picks.map(({r,dc,rs,isStrong,isNewsRisk,isWeakSector})=>{
+  const chips = picks.map(({r,dc,rs,isStrong,isNewsRisk,isWeakSector,isEpsDeclining,isFundamentalNegative,epsRec,fund90})=>{
     const entryLabel = r.entryStat.kind==='new' ? '오늘 새 진입' : '신호 유지 중';
     const dirHtml = dc ? `<span class="dir-badge dir-${dc.tone}" title="${esc('방향성 체크(' + dc.date + '): ' + dc.headline.replace(/^\[방향성 체크\] /, '') + ' - 눌러서 06 뉴스 탭에서 근거 보기')}" onclick="event.stopPropagation();openDetailNews('${r.ticker}')">${DIR_LABEL[dc.tone]||dc.tone}</span>` : '';
     const weakHtml = isWeakSector ? `<span class="dir-badge dir-risk" title="${esc('같은 그룹(' + (rs?rs.sector:'') + ') 대비 최근 20일 크게 뒤처져 있어요 - 그룹이 같이 빠진 게 아니라 이 종목만 유독 빠졌을 수 있어요(5년치 검증에서 이 상태의 신호 승률이 더 낮았음). 종목 상세에서 자세히 보기')}" onclick="event.stopPropagation();openDetail('${r.ticker}')">⚠ 그룹뒤처짐</span>` : '';
-    return `<span class="rec-chip combo-chip ${isStrong?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${isStrong?'⭐ ':''}${r.ticker} <span class="score-num" title="장기 ${r.score}점 · 단기 ${r.techScore}점">${r.score}점</span> · ${entryLabel} · $${r.price.toFixed(2)}${dirHtml}${weakHtml}</span>`;
+    const epsHtml = isEpsDeclining ? `<span class="dir-badge dir-risk" title="${esc('애널리스트들의 EPS(주당순이익) 예상치가 최근 하향 중이에요(3개월 변화 ' + (epsRec.change90dPct!=null?(epsRec.change90dPct>=0?'+':'')+epsRec.change90dPct.toFixed(1)+'%':'-') + ') - 가격만 빠진 게 아니라 실적 눈높이 자체가 낮아지는 중일 수 있어요. 종목 상세 05 탭에서 추이 확인')}" onclick="event.stopPropagation();openDetail('${r.ticker}')">⚠ EPS하향</span>` : '';
+    const fundHtml = isFundamentalNegative ? `<span class="dir-badge dir-risk" title="${esc('최근 90일 SEC 공시(10-Q/10-K) 기준 매출·영업이익률이 실제로 나빠진 것으로 확인됐어요(Fundamental 관찰 점수 ' + fund90.score + ') - 추정이 아니라 공시된 숫자예요. 종목 상세에서 근거 공시 확인')}" onclick="event.stopPropagation();openDetail('${r.ticker}')">⚠ 실적훼손</span>` : '';
+    return `<span class="rec-chip combo-chip ${isStrong?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${isStrong?'⭐ ':''}${r.ticker} <span class="score-num" title="장기 ${r.score}점 · 단기 ${r.techScore}점">${r.score}점</span> · ${entryLabel} · $${r.price.toFixed(2)}${dirHtml}${weakHtml}${epsHtml}${fundHtml}</span>`;
   }).join('');
   return `<div class="combo-box">${head}<div class="rec-list" style="margin-top:8px;">${chips}</div></div>`;
 }
@@ -2227,6 +2404,19 @@ function renderSummary(){
       <div class="cnt">${b.n}종목</div>
     </div>`).join('');
 
+  // 2026-09-09 추가(사용자 요청): "리스크 배지 하나도 없는 진짜 깨끗한 강한매수만" 걸러 보는 토글.
+  // 새 판정을 만들지 않고 이미 콤보 pick에서 쓰던 4개 리스크 신호(뉴스우려·그룹뒤처짐·EPS하향·
+  // 실적훼손)를 그대로 재사용함 - hasAnyRiskBadge() 참고.
+  const cleanCount = scored.filter(r=>r.verdict.label==='강한 매수기회' && !hasAnyRiskBadge(r)).length;
+  const strongCount = buckets['강한 매수기회'].n;
+  const cleanRow = document.getElementById('cleanFilterRow');
+  if(cleanRow){
+    cleanRow.innerHTML = `<label class="sub" style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;">
+      <input type="checkbox" id="cleanOnlyToggle" ${cleanOnlyFilter?'checked':''} onchange="cleanOnlyFilter=this.checked;renderSummary();">
+      ✨ 리스크 배지 없는 진짜 깨끗한 강한매수만 보기 <span style="font-weight:600;">(${cleanCount}/${strongCount}종목)</span>
+    </label>`;
+  }
+
   scored.sort((a,b)=>b.score-a.score);
   document.getElementById('comboPickBox').innerHTML = buildComboPickHtml(scored);
   // 2026-08-13 수정: 칩을 6개로 잘라서 보여줬는데, 매수관심 이상 종목이 6개보다 많은 날엔(실측:
@@ -2234,16 +2424,18 @@ function renderSummary(){
   // "반도체 장비주(AMAT·LRCX 등, 둘 다 2점)로 재미를 봤는데 여긴 추천이 별로 없다"고 지적한 원인 중
   // 하나로 확인됨(장기 점수 자체는 이미 매수관심으로 잡고 있었는데 칩 목록에서만 잘려나갔던 것).
   // 칩 개수를 늘리고, 그래도 넘치면 "+N개 더" 안내를 남겨서 표에서 직접 확인하도록 함.
-  const recAll = scored.filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심');
+  const recAll = scored
+    .filter(r=>r.verdict.label==='강한 매수기회'||r.verdict.label==='매수 관심')
+    .filter(r=> !cleanOnlyFilter || (r.verdict.label==='강한 매수기회' && !hasAnyRiskBadge(r)));
   const REC_VISIBLE = 16;
   const rec = recAll.slice(0, REC_VISIBLE);
   // 2026-08-10 추가: 칩에 점수만 있으면 클릭해서 열어봐야 가격을 알 수 있었음(사용자 요청) - 현재가·PER을
   // 같이 보여줘서 첫 화면만 봐도 대략의 가격대를 알 수 있게 함. PER은 Finnhub 없는 종목(ETF 등)은 생략.
   const chipInfo = r => `$${r.price.toFixed(2)}${r.perNow!=null?' · PER '+r.perNow.toFixed(1)+'배':''}`;
   document.getElementById('recList').innerHTML = rec.length
-    ? rec.map(r=>`<span class="rec-chip ${r.verdict.label==='강한 매수기회'?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}${directionBadge(r.ticker)}</span>`).join('')
+    ? rec.map(r=>`<span class="rec-chip ${r.verdict.label==='강한 매수기회'?'tier-strong':''}" onclick="openDetail('${r.ticker}')">${r.ticker} <span class="score-num" title="비교 표를 이 점수(장기) 기준 오름차순으로 정렬해서 이 종목으로 이동해요" onclick="event.stopPropagation();jumpToTickerInTable('${r.ticker}','score')">${r.score}점</span> · ${chipInfo(r)}${directionBadge(r.ticker)}${epsFundamentalRiskBadges(r.ticker)}</span>`).join('')
       + (recAll.length > REC_VISIBLE ? `<span class="sub" style="align-self:center;">+${recAll.length-REC_VISIBLE}개 더 있어요 - 아래 비교 표에서 "판단(장기)" 헤더를 눌러 정렬해 보세요.</span>` : '')
-    : '<span class="sub">오늘은 눌린(매수 관심 이상) 종목이 없어요.</span>';
+    : `<span class="sub">${cleanOnlyFilter ? '리스크 배지 없는 깨끗한 강한매수 종목이 지금은 없어요.' : '오늘은 눌린(매수 관심 이상) 종목이 없어요.'}</span>`;
 
   // ---- 오늘의 단타 진입 자리 (26종목을 다 열어보지 않아도 되게 첫 화면에 모아줌) ----
   // '새 진입 자리'(쿨다운을 넘긴 첫날)만 추림 - 조건만 유지되는 '연장'은 따로 세어서 숫자만 알려줌.
@@ -2454,6 +2646,7 @@ async function retryTicker(ticker){
   }
   status.innerHTML = '';
   renderSummary();
+  renderSimpleView();
   renderTable();
 }
 document.querySelectorAll('#resultTable th').forEach(th=>{
