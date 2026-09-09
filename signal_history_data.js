@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1788939081.4700422,
+  "generatedAt": 1788941111.2532156,
   "records": {
     "MSFT": [
       {
@@ -3196,6 +3196,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788920477,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.98,
+            "after": 3.5
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "QCOM Stock Extends Gains Overnight: Analyst Says Amazon AI Deal 'Changes Calculus For Qualcomm'",
+        "newsUrl": "https://finnhub.io/api/news?id=3041b1c4bda12a438d0c620773885af635e1fc6f2d0a9574ac77211ba844c534",
+        "eventId": "7cad3b1e74bd6e47cf6a",
+        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 2.98, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7cad3b1e74bd6e47cf6a\"}"
+      },
       {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788907599,
@@ -10826,6 +10843,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "PLTR": [
       {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788906699,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.92,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.22,
+            "after": 0.7
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Palantir 주식은 기업 파트너십을 바탕으로 지속적으로 성장하고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=054d7fda339d0a09eb188afc35df465d2b09806fb847cd656d3798af7541c108",
+        "eventId": "f23fb60afda08860fad1",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.7, \"before\": 1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f23fb60afda08860fad1\"}"
+      },
+      {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788906699,
         "changes": [
@@ -11820,6 +11860,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "NVDA": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788917798,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.27,
+            "after": 2.8
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "Broadcom's $230 Billion AI Bet Gets Real",
+        "newsUrl": "https://finnhub.io/api/news?id=da14b8db1d35ac51598ece4512c2c3e61af41d763d7ddb78a3383312b647cab4",
+        "eventId": "ee41ee3cd30ab9f96eb2",
+        "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 2.27, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}], \"eventId\": \"ee41ee3cd30ab9f96eb2\"}"
+      },
       {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788902924,
@@ -13152,32 +13209,26 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=7ec20d97d1eecd24fe43a985d3bf704b4b8e79d82435f4cd0a3b034fcc1aec9d",
         "eventId": "5971244267261c0821f6",
         "fingerprint": "{\"changes\": [{\"after\": -1.57, \"before\": -0.87, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 3.15, \"before\": 3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5971244267261c0821f6\"}"
-      },
-      {
-        "changedAt": 1788202722.678831,
-        "dataAsOf": 1788150180,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 5,
-            "after": 4.9
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 4.2,
-            "after": 3.85
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "엔비디아: 주가가 수익 성장을 따라잡을 것",
-        "newsUrl": "https://finnhub.io/api/news?id=acf97cc25e2e683b51527b41f31cd317f3ee2460fb1fa882d0f00520063dc567",
-        "eventId": "54c7f5dc1d7281b699f2",
-        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 3.85, \"before\": 4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"54c7f5dc1d7281b699f2\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788922133,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 4.72
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "다우 선물 하락, S&P 500, 나스닥 선물은 유가가 배럴당 100달러에 가까워지면서 상승: ​​RKLB, AMD, ORCL, SMR 주식에 집중",
+        "newsUrl": "https://finnhub.io/api/news?id=d1e65b5930ff9ddbca54434e867cf7012f2b7eee11491b69230f332eed3e01db",
+        "eventId": "b2d60a26256caa490ea9",
+        "fingerprint": "{\"changes\": [{\"after\": 4.72, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b2d60a26256caa490ea9\"}"
+      },
       {
         "changedAt": 1788918371.9258187,
         "dataAsOf": 1788902924,
@@ -14096,6 +14147,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788917798,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.7,
+            "after": 1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.57,
+            "after": -1.22
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Broadcom's $230 Billion AI Bet Gets Real",
+        "newsUrl": "https://finnhub.io/api/news?id=da14b8db1d35ac51598ece4512c2c3e61af41d763d7ddb78a3383312b647cab4",
+        "eventId": "ee41ee3cd30ab9f96eb2",
+        "fingerprint": "{\"changes\": [{\"after\": 1.05, \"before\": 0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.22, \"before\": -1.57, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee41ee3cd30ab9f96eb2\"}"
+      },
       {
         "changedAt": 1788918371.9258187,
         "dataAsOf": 1788907599,
@@ -15639,6 +15713,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "QCOM": [
       {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788926319,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 2.97,
+            "after": 3.5
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.27,
+            "after": 3.32
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -5,
+            "after": -4.97
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+        "newsUrl": "https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176",
+        "eventId": "0ec669080706ad0f225b",
+        "fingerprint": "{\"changes\": [{\"after\": 3.5, \"before\": 2.97, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.32, \"before\": 2.27, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.97, \"before\": -5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0ec669080706ad0f225b\"}"
+      },
+      {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788917238,
         "changes": [
@@ -16580,6 +16683,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "ARM": [
       {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788926319,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.0,
+            "after": 0.52
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.35,
+            "after": 0.87
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.35,
+            "after": -0.35
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+        "newsUrl": "https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176",
+        "eventId": "0ec669080706ad0f225b",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 0.0, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 0.87, \"before\": 0.35, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.35, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0ec669080706ad0f225b\"}"
+      },
+      {
         "changedAt": 1788890198.0753438,
         "dataAsOf": 1788881679,
         "changes": [
@@ -17102,6 +17234,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MRVL": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788926319,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.75
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "MRVL Stock Keeps Climbing As CEO Shrugs Off Qualcomm-Amazon Threat: 'We Are The Switzerland Of This Entire Market'",
+        "newsUrl": "https://finnhub.io/api/news?id=8118bcc9942e673c9a18b59b8d19226a7edf1d28a8b3bbb3b6d85600c50f3176",
+        "eventId": "0ec669080706ad0f225b",
+        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0ec669080706ad0f225b\"}"
+      },
       {
         "changedAt": 1788912337.336323,
         "dataAsOf": 1788872401,
@@ -20310,6 +20459,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "TSM": [
       {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788925507,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.18,
+            "after": -0.17
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.22,
+            "after": -1.57
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "INTC 주식이 하룻밤 사이에 폭락했습니다: AMD는 인텔 파운드리 소문 속에서 TSMC 관계를 재확인했지만 공급업체 옵션은 계속 열어두었습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=0d1f8be4db92c0789a22133ca5542b7309d1e5bcf12c827c8bfd76a0b7bac735",
+        "eventId": "b54b2bcf45d80b733452",
+        "fingerprint": "{\"changes\": [{\"after\": -0.17, \"before\": 0.18, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.57, \"before\": -1.22, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"b54b2bcf45d80b733452\"}"
+      },
+      {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788925507,
         "changes": [
@@ -22174,6 +22346,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "MU": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788917798,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.9
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.55,
+            "after": 3.5
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "Broadcom's $230 Billion AI Bet Gets Real",
+        "newsUrl": "https://finnhub.io/api/news?id=da14b8db1d35ac51598ece4512c2c3e61af41d763d7ddb78a3383312b647cab4",
+        "eventId": "ee41ee3cd30ab9f96eb2",
+        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 3.5, \"before\": 4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ee41ee3cd30ab9f96eb2\"}"
+      },
       {
         "changedAt": 1788935376.3852985,
         "dataAsOf": 1788917238,
@@ -25973,6 +26168,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "GEV": [
       {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788523200,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.05,
+            "after": 0.52
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.1,
+            "after": 1.05
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.05,
+            "after": 0.52
+          }
+        ],
+        "cause": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+        "newsHeadline": "GE Vernova, 스코틀랜드 ESB 풍력 발전 단지에 터빈 공급 계약 체결",
+        "newsUrl": "https://finnhub.io/api/news?id=485703247cec76fcd07b2f015353af4f6d3a2de4dd5f1c64fb122198c24fc7b0",
+        "eventId": "e83fb78d3e05f36c87f5",
+        "fingerprint": "{\"changes\": [{\"after\": 0.52, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.05, \"before\": 2.1, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.52, \"before\": 1.05, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e83fb78d3e05f36c87f5\"}"
+      },
+      {
         "changedAt": 1788918371.9258187,
         "dataAsOf": 1788523200,
         "changes": [
@@ -27732,6 +27956,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VRT": [
+      {
+        "changedAt": 1788941111.2532156,
+        "dataAsOf": 1788924655,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 0.0,
+            "after": 1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.52,
+            "after": 0.18
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Vertiv (VRT) Signed a Deal Worth Up to $2.6B for UtilityInnovation. Can Faster Power Deployment Justify the Contingent Consideration?",
+        "newsUrl": "https://finnhub.io/api/news?id=6e4877c3a6239de203dfc5da8b185d6a273095e50eb3d947b4f534c80ceb293d",
+        "eventId": "a7fee38538a1544aa485",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.4, \"before\": 0.0, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.18, \"before\": -0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a7fee38538a1544aa485\"}"
+      },
       {
         "changedAt": 1788896046.2774446,
         "dataAsOf": 1788847964,
