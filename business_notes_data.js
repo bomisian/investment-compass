@@ -9,6 +9,26 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-09",
+        headline: "이란-미국 확전 심화로 브렌트유 실제 $100 돌파(+3.29%), 美 10년물 국채금리 2023년 11월來 최고 - 3대 지수 동반 하락",
+        tone: "risk",
+        importance: "high",
+        horizon: "단기(9/10 PPI·9/11 CPI·9/16-17 FOMC까지)",
+        facts: ["2026-09-09(수) 뉴욕증시 3대 지수 동반 하락: 다우존스 -404.99포인트(-0.77%) 52,381 마감, S&P500 -37.03(-0.48%) 7,636, 나스닥종합 -168.07(-0.64%) 26,253, 러셀2000 -38.98(-1.32%) 2,921.", "전날(9/8) 밤 미군이 이란 유조선 5척을 파괴(1척 격침)했고, 이란은 미군이 사용하는 요르단 내 기지를 보복 공격했다고 밝혔으며 호르무즈 해협을 건너려던 다수 선박을 공격했다고 발표. 요르단군은 자국으로 날아온 이란 미사일 18발을 요격했다고 발표(사상자 없음), 페르시아만 일대 여러 선박에서 화재가 발생한 것을 영국 해사기구(UKMTO)가 확인.", "WTI 원유는 +3.25%(+$3.02) $96.05, 브렌트유는 장중 $101.21까지 오르며 7월 이후 처음 $100을 돌파(+3.29%). 미 10년물 국채금리는 장중 4.85%를 상회, 종가 기준 4.832%로 2023년 11월 이후 최고치를 기록.", "재무부는 이날 장기채(10·20년물) 바이백 규모를 기존 발표(8/19, '최소 2배')에서 3배인 최대 60억 달러로 확대한다고 발표했으나, 시장이 기대했던 수준(약 2배)에 못 미쳐 국채금리 상승세를 막지 못함.", "8월 생산자물가(PPI)는 9/10(목) 발표 예정(헤드라인 전월비 +0.4% 예상, 전월 0.0%), 8월 소비자물가(CPI)는 9/11(금) 발표 예정."],
+        why: ["9/8 항목에서 예고했던 '유가 상승·금리인상 우려'가 하루 만에 실제 확전(유조선 파괴·미사일 보복)으로 구체화되며, 브렌트유가 추정이 아닌 실제로 $100을 돌파 - 인플레이션 우려가 현실화 단계로 진입했다.", "국채금리가 2023년 11월 이후 최고치를 기록한 것은 재무부의 사상 최대 규모(3배 확대) 바이백 발표 직후에도 나온 결과라, 시장이 '정부의 개입 능력'보다 '실제 인플레이션·재정적자' 우려를 더 크게 반영하고 있다는 신호다.", "9/10(PPI)-9/11(CPI)-9/16~17(FOMC)로 이어지는 이번 주가, 이번 유가 충격이 실제 물가 경로에 얼마나 반영되는지를 확인하는 핵심 구간이 된다."],
+        beginner: ["미국이 이란 유조선 5척을 부쉈고 이란도 보복 공격을 하면서 중동 갈등이 더 커졌어요. 그 여파로 기름값이 확 뛰어서 브렌트유가 배럴당 100달러를 넘었어요(7월 이후 처음이에요).", "기름값이 오르면 물가가 오를 가능성이 커지고, 물가가 오르면 금리를 낮추기 어려워져요. 그래서 미국 10년 만기 국채 금리가 2023년 11월 이후 가장 높은 수준까지 올랐어요.", "정부(재무부)가 '채권을 더 많이 사들여서 금리를 진정시키겠다'며 기존 계획보다 3배 늘려 발표했는데도 금리가 오히려 더 올랐어요 - 시장이 정부 대책보다 실제 물가·재정적자 걱정을 더 크게 보고 있다는 뜻이에요.", "이번 주 후반(9/10 생산자물가, 9/11 소비자물가)에 나오는 물가지표가 앞으로 금리 방향을 정하는 데 아주 중요해요."],
+        interpretation: "9/8에 예고했던 완만한 조정이 9/9 하루 만에 '유가 실제 $100 돌파 + 금리 2년래 최고'로 구체화됐다. 지정학 리스크가 우려 단계를 넘어 실질적인 인플레이션·금리 변수로 전환되는 국면이며, 재무부의 개입(바이백 3배 확대)도 금리 상승을 막지 못했다는 점이 부담이다. 반도체·성장주 등 금리 민감 섹터에 추가 압박이 이어질 가능성이 있다.",
+        decision: "이날 낙폭(-0.5~-1.3%)은 아직 패닉 매도 수준은 아니나, 이번 주 PPI(9/10)·CPI(9/11) 결과가 국채금리·주가 방향을 정할 핵심 변수다. 눌림목 매수를 고려한다면 지표 발표 후 시장 반응을 확인한 뒤 판단할 것을 권장. 브렌트유 추가 급등이나 호르무즈 해협 통행 실질 차질 여부를 계속 확인할 것.",
+        watch: ["9/10 8월 생산자물가(PPI) 발표", "9/11 8월 소비자물가(CPI) 발표", "9/16-17 FOMC 회의 결과", "브렌트유 $100 상회 지속 여부 및 호르무즈 해협 통행 차질 여부", "미 국채 10년물 금리 4.85% 상회 지속 여부"],
+        confidence: "지수 종가·유가·국채금리는 Investrade(Hammerstone Markets) 마감 리포트와 TheStreet 라이브 블로그가 일치해 신뢰도 높음. 이란-요르단 간 공격·요격 관련 사실관계는 CBS News 보도 기준. 재무부 바이백 확대 발표는 CNBC 보도 기준.",
+        sources: [
+          { title: "Stock Market Today (Sept. 9, 2026): S&P 500, Russell 2000 falls as U.S.-Iran tensions boost oil prices (TheStreet)", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026" },
+          { title: "Market Review: September 09, 2026 (Investrade)", url: "https://investrade.com/market-review-september-09-2026/" },
+          { title: "Iran War News: Jordan Fends Off Iranian Missile Attack as Vessels Burn in Persian Gulf (CBS News)", url: "https://www.cbsnews.com/live-updates/iran-war-us-tankers-attacks-strikes-strait-of-hormuz-oil-price/" },
+          { title: "Treasury Department to buy back $6 billion in longer-term debt, triple the normal level (CNBC)", url: "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html" },
+        ],
+      },
+      {
         date: "2026-09-08",
         headline: "노동절 연휴 후 첫 개장, 이란 확전 우려 속 뉴욕 3대 지수 동반 하락 - 다우 -1.18%, 유가 6거래일 연속 상승·9월 금리인상 확률 60%",
         tone: "risk",
@@ -2382,6 +2402,26 @@ const BUSINESS_NOTES = {
       {title:"Apple's Services Business Was a Major Catalyst Last Year, and 2026 Will Likely Be Even Better (Yahoo Finance)", url:"https://finance.yahoo.com/news/apples-services-business-major-catalyst-182600661.html"},
     ],
     newsLog: [
+      {
+        date: "2026-09-09",
+        headline: "애플 'Surprise and Shine' 행사 실제 개최 - 첫 폴더블 iPhone Duo($1,999~) 공개, 종가 -0.28%로 소폭 하락 마감",
+        tone: "mixed",
+        importance: "medium",
+        horizon: "중기(10/23 출시 및 다음 실적 발표까지)",
+        facts: ["2026-09-09(수) 오전 10시(태평양시간) 쿠퍼티노에서 신임 CEO John Ternus가 주관하는 첫 신제품 행사 'Surprise and Shine'이 열렸고, 예고됐던 대로 애플 최초의 폴더블 아이폰 'iPhone Duo'가 공개됐다.", "iPhone Duo는 256GB 기준 $1,999부터 시작(최대 2TB까지 확장), 10월 23일 출시 예정. 접었을 때 여권 크기, 펼치면 7.6인치 디스플레이(iPhone 18 Pro 대비 화면이 80% 큼). 애플 역대 가장 얇은 아이폰으로 소개됐고, Face ID 대신 Touch ID가 부활(접힌 상태·펼친 상태 모두에서 잠금해제 가능)했으며 자체 설계 A20 Pro 칩과 자체 통신모뎀 C2를 탑재했다.", "함께 공개된 iPhone 18 Pro/Pro Max는 배터리 수명 개선, 카메라 업그레이드, 더 강력한 칩, AirPods 노이즈 감소 개선을 갖췄고, Apple Watch는 심박 추적 강화·'준비도(readiness)' 지표·'건강 나이(health age)' 기능이 새로 탑재됐다. Apple Intelligence 측면에서는 Siri의 앱·기기 전반 AI 통합과, 옵트인 방식의 대화 녹음·요약 기능이 새로 도입됐다.", "주가는 행사 전 장중 한때 -1%대(약 $313)까지 하락했다가 행사 이후 반등했으나, 최종 종가는 $315.34로 -0.28% 소폭 하락 마감했다(Benzinga 기준)."],
+        why: ["9/8 항목에서 예고했던 '신임 CEO의 첫 신제품 행사'가 실제로 열렸고, 예상대로(분석가 전망과 대체로 일치) 첫 폴더블 아이폰이 공개됐다 - '서프라이즈' 요소는 제한적이었다는 평가다.", "종가 기준 주가가 소폭 하락(-0.28%)으로 마감한 것은, 폴더블폰이라는 15년 만의 폼팩터 혁신에도 불구하고 시장이 '$1,999라는 높은 가격에 소비자가 얼마나 반응할지'와 마진 압박 우려를 더 크게 반영했다는 신호로 해석된다.", "이날 뉴욕증시 전체가 이란 확전·유가 급등 여파로 하락한 장세(다우 -0.77%, 나스닥 -0.64%)였다는 점을 고려하면, AAPL의 -0.28% 하락은 시장 전체 대비로는 상대적으로 선방한 수준이다."],
+        beginner: ["애플이 새 CEO 존 터너스가 처음 주관하는 신제품 발표회를 열어서, 저번에 예고했던 대로 '접었다 펴는 아이폰'인 iPhone Duo를 처음으로 공개했어요.", "이 폰은 접으면 여권만 하고 펴면 7.6인치 화면이 나오는데, 가격은 256GB 기준 1,999달러(약 270만원)부터 시작해요. 10월 23일부터 살 수 있어요.", "신기하게도 이렇게 큰 혁신 제품을 공개했는데 주가는 오히려 살짝(-0.28%) 떨어졌어요. 시장이 '혁신적이긴 한데 저렇게 비싼 가격에 사람들이 얼마나 살까?'를 더 걱정한 것 같아요.", "다만 이날은 중동 정세 악화로 미국 증시 전체가 떨어진 날이라, 애플만 놓고 보면 시장 평균보다는 덜 떨어진 편이에요."],
+        interpretation: "9/8 항목에서 제기했던 '실제 혁신 수준과 시장 반응'이라는 관전 포인트가 확인됐다 - 폴더블폰 공개 자체는 예상과 대체로 일치해 '서프라이즈'는 제한적이었고, $1,999라는 고가 정책에 대한 소비자 반응 불확실성이 주가에 더 크게 반영됐다. 다만 시장 전체가 하락한 날 대비 완만한 하락에 그쳐, 제품 자체에 대한 극단적 실망은 아닌 것으로 보인다.",
+        decision: "이번 행사 결과만으로 단기 매매 판단을 내리기는 이르다. 관건은 10월 23일 실제 출시 이후 사전주문·판매량과, 다음 실적 발표(10월 예상)에서 나올 가이던스에 신제품 수요가 얼마나 반영되는지다. 그 전까지는 관망 권장.",
+        watch: ["10월 23일 iPhone Duo 실제 출시 및 초기 사전주문 반응", "iPhone 18 Pro/Pro Max 포함 신제품 라인업의 실제 판매 신호(통신사 재고·리드타임 등)", "다음 분기 실적 발표(10월 예상)에서 제시될 가이던스에 신제품 수요 반영 정도", "John Ternus 신임 CEO 체제의 첫 어닝콜 메시지"],
+        confidence: "행사 내용(iPhone Duo 스펙·가격·출시일)과 종가(-0.28%, $315.34)는 Benzinga·Motley Fool·CNN Business·Investrade 마감 리포트 교차 확인으로 신뢰도 높음. 장중 저점(-1% 안팎) 및 반등 흐름은 Investrade 마감 리포트 기준.",
+        sources: [
+          { title: "Apple Stock Rises on iPhone Duo Launch at $1,999 (Benzinga)", url: "https://www.benzinga.com/markets/tech/26/09/61699396/apple-stock-iphone-duo-foldable-launch-1999-price-preorder-october" },
+          { title: "Stock Market Today, Sept. 9: Apple Unveils iPhone Duo Foldable and iPhone 18 Pro with AI Upgrades (Motley Fool)", url: "https://www.fool.com/coverage/stock-market-today/2026/09/09/stock-market-today-sept-9-apple-unveils-iphone-duo-foldable-and-iphone-18-pro-with-ai-upgrades/" },
+          { title: "Apple event: CEO John Ternus reveals foldable iPhone Duo (CNN Business)", url: "https://www.cnn.com/2026/09/09/business/live-news/apple-event-foldable-iphone-ternus" },
+          { title: "Market Review: September 09, 2026 (Investrade)", url: "https://investrade.com/market-review-september-09-2026/" },
+        ],
+      },
       {
         date: "2026-09-08",
         headline: "애플, Tim Cook → John Ternus 새 CEO 경영진 전환 & 9월 9일 '첫 폴딩폰' 신제품 이벤트 예정",
