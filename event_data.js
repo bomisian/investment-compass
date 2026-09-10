@@ -1,8 +1,156 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789011951.242257,
+  "generatedAt": 1789013800.0543156,
   "events": [
+    {
+      "id": "a66e455b3f1e8dd64c22",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL",
+        "GOOGL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Google",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Samsung",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "iPhone Switchers Flock to Samsung Foldables: Will Apple's Duo Change That?",
+      "headlineKo": "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
+        "publishedAt": 1789008087,
+        "collectedAt": 1789013762.7746618
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?",
+        "구독하기 한국어 속보 뉴스 최신 뉴스 TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News 시장 데이터 가격 거래소 변환 관심 목록 암호화폐 보상 발견 제품 리뷰 뉴스레터 통찰력 의견",
+        "Google에서 추천해 주세요 작성 및 편집자: Darryn Pollock 2026년 9월 10일 02:41 UTC • 업데이트: 2026년 9월 10일 02:41 UTC Apple은 2026년 9월 10일 02:41 UTC에서 자사의 첫 번째 폴더블 제품인 iPhone Duo를 공개했습니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.6 times, 0.28%, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 1.6 times, 0.28%, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "65859915cf3e08a82fd7",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "AAPL Stock Gains Overnight: Analyst Doubles iPhone Duo Revenue Forecast And Says Apple Is ‘Likely To Outperform’ Next Week",
+      "headlineKo": "AAPL 주가 밤새 상승: 분석가는 iPhone Duo 수익 예측을 두 배로 늘리고 다음 주에 Apple이 '더 나은 성과를 낼 가능성이 높다'고 말합니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2c182360f32d3ddb962b86c103cbc57d2b43ff6659fa639b82bec1c6f07e0435",
+        "publishedAt": 1789004905,
+        "collectedAt": 1789013762.7746618
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "AAPL 주가 밤새 상승: 분석가는 iPhone Duo 수익 예측을 두 배로 늘리고 다음 주에 Apple이 '더 나은 성과를 낼 가능성이 높다'고 말합니다."
+      ],
+      "marketInterpretation": [],
+      "aiInference": [
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
+      ],
+      "whyItMatters": [
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "mixed",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
+        }
+      ],
+      "watch": []
+    },
     {
       "id": "2392d667122816e7803d",
       "schemaVersion": 1,
@@ -1897,7 +2045,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
         "publishedAt": 1788983654,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2172,7 +2320,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
         "publishedAt": 1788982308,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7881,7 +8029,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8058,7 +8206,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10702,7 +10850,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12322,7 +12470,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f003b2078afff9dc3ad0bd452582ec7557e7b7f7ecc9f55b19060267b0c7b72",
         "publishedAt": 1788876202,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13674,7 +13822,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
         "publishedAt": 1788850156,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14665,7 +14813,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
         "publishedAt": 1788818172,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14763,7 +14911,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
         "publishedAt": 1788818100,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16795,7 +16943,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=159511197735622223a1ac598a177a9d78adfa4368e7ee238e0652b15dcff7aa",
         "publishedAt": 1788792695,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17022,7 +17170,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e4892590c0acf4caf6687e6804e32ca4e16379ef5abc4560a18eb47e8d755755",
         "publishedAt": 1788789628,
-        "collectedAt": 1788990949.5375302
+        "collectedAt": 1789013762.7746618
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18037,170 +18185,56 @@ const EVENT_DATA = {
         "CAPEX 대비 영업현금흐름",
         "금리와 프로젝트 부채 비용"
       ]
-    },
-    {
-      "id": "2b8860ed2405d4e2443e",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMD",
-        "AMZN",
-        "MU",
-        "NVDA",
-        "ORCL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "AWS",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Anthropic Has Committed More Than $100 Billion to AWS, and Its Prospectus Could Reveal More Details About This Contract",
-      "headlineKo": "Anthropic은 AWS에 1,000억 달러 이상을 투자했으며 투자 설명서를 통해 이 계약에 대한 자세한 내용을 밝힐 수 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cd58e97c5c5b76bf4fccf8f4b286e1ba6f9c1d350d3666c39ad2a8a1c31456ab",
-        "publishedAt": 1788734581,
-        "collectedAt": 1789009930.7094223
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: $100 Billion, 0.15%, $100 billion, $496 billion, $364 billion, $195 billion, 154%, $132 billion.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 AMZN의 사업과 관련된 'Anthropic Has Committed More Than $100 Billion to AWS, and Its Prospectus Could Reveal More Details About This Contract' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
-    },
-    {
-      "id": "e2ce79b41d4b087aae4e",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "AAPL",
-      "relatedTickers": [
-        "AAPL"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Apple",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기·장기",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
-      "headlineKo": "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2b957ca41b2c23aecb883a704f63e36262ddf10475597d2f80d09a61aa6e8145",
-        "publishedAt": 1788729369,
-        "collectedAt": 1788990949.5375302
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Apple(AAPL)의 새로운 Mac Mini와 Studio는 온디바이스 AI에 큰 투자를 하고 있습니다."
-      ],
-      "marketInterpretation": [],
-      "aiInference": [
-        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AAPL",
-          "direction": "mixed",
-          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
-          "basis": "rule"
-        }
-      ],
-      "watch": []
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "a66e455b3f1e8dd64c22",
+      "65859915cf3e08a82fd7",
+      "167286f06cba9abc13f0",
+      "e1588490151bf5d0b812",
+      "63442a4a2206bc3b1a77",
+      "1d21c76dd5aca4de2ee1",
+      "7d0e76d9146d442821ca",
+      "a6882d34e26af4d6edc2",
+      "ec840ea366a86511d1d6",
+      "66d41035c01340293828",
+      "2b95fdaee54122dac7c3",
+      "e08d294166d607e6fa00",
+      "e3a8361107d278f73b6d",
+      "9e39269dd7aca333bcf6",
+      "ccb5c941c14f53db1b2d",
+      "3e75613086ca18ec677b",
+      "4144ce284b01fef9a47b",
+      "dd85df54965f639f4c46",
+      "820081e6789412d1565c",
+      "25705c72e076e67971e7",
+      "c0fe715751d9d592be5d",
+      "5daa3cbb11d636cebb76"
+    ],
+    "GOOGL": [
+      "a66e455b3f1e8dd64c22",
+      "3593aa1e7f4b6d6bbe0a",
+      "84c2b50b8f9a7d350a30",
+      "357e787aeb5840b8328d",
+      "0cd5e72a56016a8503e6",
+      "32914d6512b29df54d98",
+      "feb75025a3b2db548739",
+      "fe97d0c2e0220ac48117",
+      "41f26b8158c8eeae82e6",
+      "4d7d75cd442cdbf0e3da",
+      "ec840ea366a86511d1d6",
+      "5b4cfbd1cdba2f1ad065",
+      "df194de52b4acf772502",
+      "47ef99a8e6acf4012bf7",
+      "7b5166eee42a36ed558d",
+      "b769097e86b1493c9352",
+      "7d9e9a837f769ee7f38a",
+      "81abd3452e4dc92b96c5",
+      "9c9ce82500214bbb6b48",
+      "9336c45338c15729052a",
+      "20fb349b72177dd607ba"
+    ],
     "QCOM": [
       "2392d667122816e7803d",
       "167286f06cba9abc13f0",
@@ -18273,8 +18307,7 @@ const EVENT_DATA = {
       "b6b859f3cb04f4165e41",
       "9336c45338c15729052a",
       "c5db796f0656234c1d90",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e"
+      "206b7a57481d4de918bd"
     ],
     "CRM": [
       "56a1cac3074a99cfdcd0",
@@ -18320,8 +18353,7 @@ const EVENT_DATA = {
       "db45bb23bdd463844372",
       "828f02f6bf5df94b3fa3",
       "9336c45338c15729052a",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e"
+      "206b7a57481d4de918bd"
     ],
     "NVDA": [
       "56a1cac3074a99cfdcd0",
@@ -18368,8 +18400,7 @@ const EVENT_DATA = {
       "e18af593dd6c53c76d4f",
       "b6b859f3cb04f4165e41",
       "9336c45338c15729052a",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e"
+      "206b7a57481d4de918bd"
     ],
     "ORCL": [
       "56a1cac3074a99cfdcd0",
@@ -18419,8 +18450,7 @@ const EVENT_DATA = {
       "256aa0db08ad7d4b1a41",
       "9336c45338c15729052a",
       "f8e0cdef54f0b52ba02f",
-      "206b7a57481d4de918bd",
-      "2b8860ed2405d4e2443e"
+      "206b7a57481d4de918bd"
     ],
     "MRVL": [
       "6dff0babcde61d0dbeea",
@@ -18654,29 +18684,6 @@ const EVENT_DATA = {
       "b0ba37f64b23edb6bcba",
       "14be8e4cf7005f7f8695"
     ],
-    "AAPL": [
-      "167286f06cba9abc13f0",
-      "e1588490151bf5d0b812",
-      "63442a4a2206bc3b1a77",
-      "1d21c76dd5aca4de2ee1",
-      "7d0e76d9146d442821ca",
-      "a6882d34e26af4d6edc2",
-      "ec840ea366a86511d1d6",
-      "66d41035c01340293828",
-      "2b95fdaee54122dac7c3",
-      "e08d294166d607e6fa00",
-      "e3a8361107d278f73b6d",
-      "9e39269dd7aca333bcf6",
-      "ccb5c941c14f53db1b2d",
-      "3e75613086ca18ec677b",
-      "4144ce284b01fef9a47b",
-      "dd85df54965f639f4c46",
-      "820081e6789412d1565c",
-      "25705c72e076e67971e7",
-      "c0fe715751d9d592be5d",
-      "5daa3cbb11d636cebb76",
-      "e2ce79b41d4b087aae4e"
-    ],
     "AMZN": [
       "167286f06cba9abc13f0",
       "3593aa1e7f4b6d6bbe0a",
@@ -18715,8 +18722,7 @@ const EVENT_DATA = {
       "3c2af4d028efca123411",
       "ecfb6dd4ce84f59d8b3f",
       "0bb24de11cca77a224a8",
-      "4260051bc716a49e385f",
-      "2b8860ed2405d4e2443e"
+      "4260051bc716a49e385f"
     ],
     "META": [
       "167286f06cba9abc13f0",
@@ -18762,28 +18768,6 @@ const EVENT_DATA = {
       "bbbe8d72d89c93623fe2",
       "6297cd2bd46a9a6ad3d0",
       "73136971acb9ac4e0f7f"
-    ],
-    "GOOGL": [
-      "3593aa1e7f4b6d6bbe0a",
-      "84c2b50b8f9a7d350a30",
-      "357e787aeb5840b8328d",
-      "0cd5e72a56016a8503e6",
-      "32914d6512b29df54d98",
-      "feb75025a3b2db548739",
-      "fe97d0c2e0220ac48117",
-      "41f26b8158c8eeae82e6",
-      "4d7d75cd442cdbf0e3da",
-      "ec840ea366a86511d1d6",
-      "5b4cfbd1cdba2f1ad065",
-      "df194de52b4acf772502",
-      "47ef99a8e6acf4012bf7",
-      "7b5166eee42a36ed558d",
-      "b769097e86b1493c9352",
-      "7d9e9a837f769ee7f38a",
-      "81abd3452e4dc92b96c5",
-      "9c9ce82500214bbb6b48",
-      "9336c45338c15729052a",
-      "20fb349b72177dd607ba"
     ],
     "VST": [
       "324973e697903f59d1c4",
