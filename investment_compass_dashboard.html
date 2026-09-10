@@ -6434,7 +6434,9 @@ function shortInterestComment(ticker){
 }
 function sharesOutstandingComment(fin){
   // 2026-09-04 추가(사용자 요청 "유통주식수·자사주매입 데이터 확보 가능한지 조사") - SEC 공시
-  // 표지에 적힌 유통주식수(dei:EntityCommonStockSharesOutstanding)가 시간에 따라 줄면 자사주매입
+  // 표지에 적힌 값(dei:EntityCommonStockSharesOutstanding, 자기주식 제외 발행주식수 - free float과는
+  // 다름. 2026-09-10 외부 검토로 "유통주식수"라는 이름이 부정확하다는 지적을 받아 용어 정정함)이
+  // 시간에 따라 줄면 자사주매입
   // 등으로 주식수가 감소하는 추세, 늘면 신주발행 등으로 증가(희석)하는 추세라는 뜻이에요.
   // 아직 백테스트로 검증되지 않은 새 참고 지표라 tone은 항상 'plain'(색상 강조 없음)으로 고정.
   const rows = (fin?.sharesOutstanding || []).filter(d=>d && d.date && typeof d.shares === 'number' && d.shares > 0);
@@ -6457,7 +6459,7 @@ function sharesOutstandingComment(fin){
   const y3 = closestBeforeYears(3);
   const fmtShares = n => (n/1e6).toFixed(1) + '백만주';
   const items = [];
-  items.push(`가장 최근(${last.date}) 유통주식수는 <b>${fmtShares(last.shares)}</b>예요(SEC 공시 표지 기준).`);
+  items.push(`가장 최근(${last.date}) 발행주식수(자기주식 제외)는 <b>${fmtShares(last.shares)}</b>예요(SEC 공시 표지 기준 - free float·유통가능주식수와는 다른 개념이에요).`);
   if(y1){
     const pct = (last.shares/y1.shares - 1) * 100;
     items.push(Math.abs(pct) < 0.3
@@ -6470,7 +6472,7 @@ function sharesOutstandingComment(fin){
     const pct3 = (last.shares/y3.shares - 1) * 100;
     items.push(`3년 전(${y3.date}, ${fmtShares(y3.shares)})과 비교하면 ${pct3>=0?'+':''}${pct3.toFixed(1)}%예요.`);
   }
-  items.push(`<span class="sub">SEC 공시(dei:EntityCommonStockSharesOutstanding)에서 가져온 참고용 지표예요 · 아직 백테스트로 검증되지 않았고 그 자체로 매수·매도 신호는 아니에요.</span>`);
+  items.push(`<span class="sub">SEC 공시(dei:EntityCommonStockSharesOutstanding, 자기주식 제외 발행주식수)에서 가져온 참고용 지표예요 · 아직 백테스트로 검증되지 않았고 그 자체로 매수·매도 신호는 아니에요 · 감소·증가 추세의 원인(자사주매입·신주발행 등)을 이 숫자 하나로 확정할 수 없어요.</span>`);
   return cmtBox(items, 'plain');
 }
 function cmtBox(items, tone){
@@ -6626,9 +6628,30 @@ function incomeComment(annual){
   const gr = growth(last.revenue, rows[rows.length-2].revenue);
   const gn = growth(last.netIncome, rows[rows.length-2].netIncome);
   if(gr != null && gn != null && Math.abs(gr) > 1){
-    items.push(gn > gr
-      ? `순이익이 매출보다 빠르게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>수익성이 개선되는 방향</b>이에요.`
-      : `순이익이 매출보다 느리게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>비용 부담이 커졌다는 신호</b>일 수 있어요.`);
+    if(gn > gr){
+      items.push(`순이익이 매출보다 빠르게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>수익성이 개선되는 방향</b>이에요.`);
+    } else {
+      // 2026-09-10 추가(외부 검토로 발견) - "순이익이 매출보다 느리게 늘면 비용부담 증가"라고
+      // 단정했는데, 실제로는 영업이익·세전이익까지는 잘 늘었는데 법인세 비용만 커져서 순이익이
+      // 줄어드는 경우도 있다(실측: AMAT 2025 - 영업이익 78.67억→82.89억 증가, 세전이익
+      // 81.52억→92.71억 증가했는데 법인세가 9.75억→22.73억로 늘어서 순이익만 줄었음 - "본업이
+      // 나빠졌다"는 설명은 틀린 진단이었음). 영업이익 증가율도 같이 봐서, 영업이익은 매출만큼
+      // 잘 늘었는데 순이익만 처진 경우엔 "비용 부담"이 아니라 "세금·영업외 항목"을 원인으로 짚는다.
+      const go = growth(last.opIncome, rows[rows.length-2].opIncome);
+      const taxNow = (last.pretaxIncome!=null && last.netIncome!=null) ? last.pretaxIncome-last.netIncome : null;
+      const taxPrev = (rows[rows.length-2].pretaxIncome!=null && rows[rows.length-2].netIncome!=null) ? rows[rows.length-2].pretaxIncome-rows[rows.length-2].netIncome : null;
+      if(go != null && go >= gr - 1){
+        let s = `순이익이 매출보다 느리게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — 하지만 <b>영업이익은 매출만큼(또는 더) 늘었어요(${pctStr(go)})</b>. 본업 비용 부담이 커졌다기보다 `;
+        if(taxNow!=null && taxPrev!=null && taxNow > taxPrev){
+          s += `<b>법인세 비용이 $${fmtUsd(taxPrev)} → $${fmtUsd(taxNow)}로 늘어난 영향</b>이 커 보여요(영업외손익·일회성 항목도 같이 확인하세요).`;
+        } else {
+          s += `<b>영업이익 아래(세금·영업외손익) 항목의 영향</b>일 가능성이 높아요.`;
+        }
+        items.push(s);
+      } else {
+        items.push(`순이익이 매출보다 느리게 늘었어요(매출 ${pctStr(gr)} vs 순이익 ${pctStr(gn)}) — <b>비용 부담이 커졌다는 신호</b>일 수 있어요.`);
+      }
+    }
   }
   const losses = rows.filter(d=>d.netIncome!=null && d.netIncome<0).length;
   if(losses){ items.push(`표시된 기간 중 <b>${losses}개 연도가 적자</b>였어요.`); tone = 'warn'; }
