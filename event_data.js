@@ -1,8 +1,79 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789079429.9732406,
+  "generatedAt": 1789081268.7198627,
   "events": [
+    {
+      "id": "3909d56059b24e5312be",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AMAT",
+      "relatedTickers": [
+        "AMAT",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Is Applied Materials Stock Amplifying A Risk You Already Own?",
+      "headlineKo": "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d4d701f55bc401f0693322b42b74c3abb7844b0fc1bab9b1a7edd39f960be9ea",
+        "publishedAt": 1789070649,
+        "collectedAt": 1789081235.7720685
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
+        "| Trefis는 Applied Materials 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
+        "2026년 9월 10일 · Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 267%, 80%, $1.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMAT에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 267%, 80%, $1.8 billion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMAT",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "5571442d2d0704473243",
       "schemaVersion": 1,
@@ -2625,7 +2696,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=7dec1805e94945bc12a90e8830b680e791cb77de33f894dcc32e62f4dba29a60",
         "publishedAt": 1789041655,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3549,7 +3620,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
         "publishedAt": 1789029946,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3723,7 +3794,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
         "publishedAt": 1789029293,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -3824,7 +3895,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
         "publishedAt": 1789025364,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4291,7 +4362,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
         "publishedAt": 1789008087,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4366,7 +4437,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c182360f32d3ddb962b86c103cbc57d2b43ff6659fa639b82bec1c6f07e0435",
         "publishedAt": 1789004905,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6346,7 +6417,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
         "publishedAt": 1788983654,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6621,7 +6692,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
         "publishedAt": 1788982308,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12460,7 +12531,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12637,7 +12708,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15258,7 +15329,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16878,7 +16949,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f003b2078afff9dc3ad0bd452582ec7557e7b7f7ecc9f55b19060267b0c7b72",
         "publishedAt": 1788876202,
-        "collectedAt": 1789058728.7641485
+        "collectedAt": 1789081235.7720685
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17943,166 +18014,15 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
-    },
-    {
-      "id": "5c64b4c4481af21f5b9f",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "ETN",
-      "relatedTickers": [
-        "ETN"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Eaton Shares Rise After UBS Upgrade to Buy",
-      "headlineKo": "UBS 업그레이드 후 이튼 주가 상승",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dc1390fc43e9c5b1002d20e05f5bf1e572197bb312c252e423dbd1ac8ce3e21d",
-        "publishedAt": 1788862817,
-        "collectedAt": 1789077440.7281334
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "보드 구매를 위한 UBS 업그레이드 후 Eaton 주가 상승: 인용문: 즐겨찾기 인기 모니터 무버 레벨 2 뉴스 메뉴 보드 주식 원자재 외환 암호화폐 라운지 고급 검색 뉴스 모든 회사 뉴스 iHub 시장 뉴스 뉴스 스캐너 가격",
-        "시작하기 UBS가 Fiona Craig 구매를 위해 업그레이드한 후 Eaton 주가 상승 NYSE:ETN 최신 뉴스 2026년 9월 8일 오전 6:20 © Shutterstock Eaton(NYSE:ETN) UBS가 전력 관리 회사를 Buy fr로 업그레이드한 후 시판 전 거래에서 3.1% 상승",
-        "UBS는 개선된 마진과 수익 성장에 대한 기대를 바탕으로 수정된 평가를 기반으로 가격 책정 조치와 운영 실행이 2026년 3분기부터 마진 회복에 기여할 것이라고 예측했습니다."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.1%, $515, $450. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "ETN에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 3.1%, $515, $450. — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "ETN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "ETN",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
     }
   ],
   "byTicker": {
-    "AMZN": [
-      "5571442d2d0704473243",
-      "8a7bbc63ddddf5258849",
-      "be045fbb2728a062edd2",
-      "3803f433052fce0767d4",
-      "167286f06cba9abc13f0",
-      "3593aa1e7f4b6d6bbe0a",
-      "a79a086f11e54b52c4a3",
-      "e10ea018868c79bb36ff",
-      "7d0e76d9146d442821ca",
-      "3b36b219343d29b6a7b3",
-      "99cc2084d3c9ee2551f4",
-      "f07a68bace48308ab724",
-      "558952756c79036c8967",
-      "d85f0f2383ad88ff1364",
-      "feb75025a3b2db548739",
-      "3c65918f4135411b5b1f",
-      "e033fddb9c2fe7e94a0f",
-      "fb1ae537ea250c971cda",
-      "0ec669080706ad0f225b",
-      "489ffbf10c988f2e0bc2",
-      "7cad3b1e74bd6e47cf6a",
-      "2b2c3a2549b83c099888",
-      "f0227da0ddcb6b1e5b35",
-      "7bf7af3702ca5f729d0e",
-      "372f58c3ad258c44826a",
-      "de94cb545df45aea48bc",
-      "5311c97673dbbe4b3080",
-      "9e06a49b053b6bed148c",
-      "674fec75a4ca81db94e5",
-      "4277d3ea8c3c1a5d2291",
-      "df194de52b4acf772502",
-      "eb178d0b621fe527f313",
-      "f8330e09f37615ea58f2",
-      "0d79b595a1dbb0a899e0",
-      "40452814a24be6f5d240"
-    ],
-    "ORCL": [
-      "5571442d2d0704473243",
-      "c25a39baa7f8c002cfa3",
-      "c49c1cc524d3690a75af",
-      "bef9c60f5e81c7452a87",
-      "f9720ad7f82699456f1a",
-      "16f0c1932347fb123710",
-      "97c251bf655c8efd38eb",
-      "4faf99c06db8b1f5e2b0",
-      "e2b22001fd6c0cceba1b",
-      "ba68e681cd3a11b0af86",
-      "dc114c2498e1e47defdd",
-      "0b1926b2dc974afa68fc",
-      "6cdd66a58c67e4b8faad",
-      "56a1cac3074a99cfdcd0",
-      "085d2539fe8f8de5b50c",
-      "ef0274471843356cbac7",
-      "3593aa1e7f4b6d6bbe0a",
-      "439b219541349671293b",
-      "f7631ae2df876388e002",
-      "29504a40c2a11239025a",
-      "74d3d800ddf74692b3cb",
-      "04042e8d68aa8480836f",
-      "a9ef324c6e735ab939a1",
-      "1d21c76dd5aca4de2ee1",
-      "af543bdca1a1eb660b95",
-      "99cc2084d3c9ee2551f4",
-      "b037181fe4893b9d1f84",
-      "aac1345472f0f12eae51",
-      "d85f0f2383ad88ff1364",
-      "fe97d0c2e0220ac48117",
-      "41f26b8158c8eeae82e6",
-      "09be52ba7d15439a3b8c",
-      "40f7cfc02e6e6017c886",
-      "284166d2557ccb6fa65a",
-      "ec840ea366a86511d1d6",
-      "0c10e75a47210581768d",
-      "b2d60a26256caa490ea9",
-      "ee41ee3cd30ab9f96eb2",
-      "8c4f66a6bd5bf8e6c0a6",
-      "7f25b63d67ebe8703a02",
-      "f0227da0ddcb6b1e5b35",
-      "149257fa15496ad3d3e2",
-      "0bc2606ab348dc670ab7",
-      "c981ceb1c79cd0ebb2c5",
-      "1715737afe158786209d",
-      "8a3b8ade6d157ddf79e0",
-      "7b5166eee42a36ed558d",
-      "bbcb8449ddc554720b18"
+    "AMAT": [
+      "3909d56059b24e5312be",
+      "15b66957c5d164fbf2ed"
     ],
     "QQQ": [
+      "3909d56059b24e5312be",
       "5571442d2d0704473243",
       "8357bf3fd338a634f4a0",
       "a3c962e2ef105d1c61c9",
@@ -18179,6 +18099,7 @@ const EVENT_DATA = {
       "ff270ce370ec2dac3d29"
     ],
     "SPY": [
+      "3909d56059b24e5312be",
       "5571442d2d0704473243",
       "8357bf3fd338a634f4a0",
       "f027734a71c0c5becc0a",
@@ -18287,6 +18208,93 @@ const EVENT_DATA = {
       "2ea83ba5a7d0e9b39dfc",
       "2e31e49d8a1e4a76e3c5",
       "ff270ce370ec2dac3d29"
+    ],
+    "AMZN": [
+      "5571442d2d0704473243",
+      "8a7bbc63ddddf5258849",
+      "be045fbb2728a062edd2",
+      "3803f433052fce0767d4",
+      "167286f06cba9abc13f0",
+      "3593aa1e7f4b6d6bbe0a",
+      "a79a086f11e54b52c4a3",
+      "e10ea018868c79bb36ff",
+      "7d0e76d9146d442821ca",
+      "3b36b219343d29b6a7b3",
+      "99cc2084d3c9ee2551f4",
+      "f07a68bace48308ab724",
+      "558952756c79036c8967",
+      "d85f0f2383ad88ff1364",
+      "feb75025a3b2db548739",
+      "3c65918f4135411b5b1f",
+      "e033fddb9c2fe7e94a0f",
+      "fb1ae537ea250c971cda",
+      "0ec669080706ad0f225b",
+      "489ffbf10c988f2e0bc2",
+      "7cad3b1e74bd6e47cf6a",
+      "2b2c3a2549b83c099888",
+      "f0227da0ddcb6b1e5b35",
+      "7bf7af3702ca5f729d0e",
+      "372f58c3ad258c44826a",
+      "de94cb545df45aea48bc",
+      "5311c97673dbbe4b3080",
+      "9e06a49b053b6bed148c",
+      "674fec75a4ca81db94e5",
+      "4277d3ea8c3c1a5d2291",
+      "df194de52b4acf772502",
+      "eb178d0b621fe527f313",
+      "f8330e09f37615ea58f2",
+      "0d79b595a1dbb0a899e0",
+      "40452814a24be6f5d240"
+    ],
+    "ORCL": [
+      "5571442d2d0704473243",
+      "c25a39baa7f8c002cfa3",
+      "c49c1cc524d3690a75af",
+      "bef9c60f5e81c7452a87",
+      "f9720ad7f82699456f1a",
+      "16f0c1932347fb123710",
+      "97c251bf655c8efd38eb",
+      "4faf99c06db8b1f5e2b0",
+      "e2b22001fd6c0cceba1b",
+      "ba68e681cd3a11b0af86",
+      "dc114c2498e1e47defdd",
+      "0b1926b2dc974afa68fc",
+      "6cdd66a58c67e4b8faad",
+      "56a1cac3074a99cfdcd0",
+      "085d2539fe8f8de5b50c",
+      "ef0274471843356cbac7",
+      "3593aa1e7f4b6d6bbe0a",
+      "439b219541349671293b",
+      "f7631ae2df876388e002",
+      "29504a40c2a11239025a",
+      "74d3d800ddf74692b3cb",
+      "04042e8d68aa8480836f",
+      "a9ef324c6e735ab939a1",
+      "1d21c76dd5aca4de2ee1",
+      "af543bdca1a1eb660b95",
+      "99cc2084d3c9ee2551f4",
+      "b037181fe4893b9d1f84",
+      "aac1345472f0f12eae51",
+      "d85f0f2383ad88ff1364",
+      "fe97d0c2e0220ac48117",
+      "41f26b8158c8eeae82e6",
+      "09be52ba7d15439a3b8c",
+      "40f7cfc02e6e6017c886",
+      "284166d2557ccb6fa65a",
+      "ec840ea366a86511d1d6",
+      "0c10e75a47210581768d",
+      "b2d60a26256caa490ea9",
+      "ee41ee3cd30ab9f96eb2",
+      "8c4f66a6bd5bf8e6c0a6",
+      "7f25b63d67ebe8703a02",
+      "f0227da0ddcb6b1e5b35",
+      "149257fa15496ad3d3e2",
+      "0bc2606ab348dc670ab7",
+      "c981ceb1c79cd0ebb2c5",
+      "1715737afe158786209d",
+      "8a3b8ade6d157ddf79e0",
+      "7b5166eee42a36ed558d",
+      "bbcb8449ddc554720b18"
     ],
     "CRM": [
       "8357bf3fd338a634f4a0",
@@ -18686,8 +18694,7 @@ const EVENT_DATA = {
     ],
     "ETN": [
       "baa0247c0d8303fdb48d",
-      "c6befbfe11a2368293e9",
-      "5c64b4c4481af21f5b9f"
+      "c6befbfe11a2368293e9"
     ],
     "EME": [
       "c12812cbad654dc21086"
@@ -18703,9 +18710,6 @@ const EVENT_DATA = {
     "BE": [
       "5fcd2a07268def8d138b",
       "9e39269dd7aca333bcf6"
-    ],
-    "AMAT": [
-      "15b66957c5d164fbf2ed"
     ]
   }
 };
