@@ -1393,8 +1393,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788981521.5048199,
-    "_updated_label": "2026-09-10"
+    "_fetched_at": 1789055035.4755135,
+    "_updated_label": "2026-09-11"
   },
   "INTC": {
     "transactions": [],
@@ -1763,146 +1763,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-07-02",
         "filingDate": "2026-07-06",
         "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 1600,
-        "transactionPrice": 373.09,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 7700,
-        "transactionPrice": 372.23,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 8233,
-        "transactionPrice": 371.17,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 5037,
-        "transactionPrice": 370.27,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 4198,
-        "transactionPrice": 369.16,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 4030,
-        "transactionPrice": 368.03,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 5803,
-        "transactionPrice": 367.01,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 1200,
-        "transactionPrice": 365.16,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 2300,
-        "transactionPrice": 364.41,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 2345,
-        "transactionPrice": 363.33,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 2708,
-        "transactionPrice": 362.4,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 819,
-        "transactionPrice": 361.21,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 1906,
-        "transactionPrice": 360.15,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 3828,
-        "transactionPrice": 359.08,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 1100,
-        "transactionPrice": 357.98,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 1393,
-        "transactionPrice": 357.24,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
-      },
-      {
-        "name": "BRANDT ERIC",
-        "share": 300,
-        "transactionPrice": 355.71,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-15",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788981521.5048199,
-    "_updated_label": "2026-09-10"
+    "_fetched_at": 1789055035.4755135,
+    "_updated_label": "2026-09-11"
   },
   "KLAC": {
     "transactions": [
@@ -2670,18 +2534,10 @@ const INSIDER_DATA = {
         "transactionDate": "2026-06-15",
         "filingDate": "2026-06-16",
         "code": "S"
-      },
-      {
-        "name": "BARBAS PAUL M",
-        "share": 244,
-        "transactionPrice": 147.93,
-        "transactionDate": "2026-06-12",
-        "filingDate": "2026-06-16",
-        "code": "S"
       }
     ],
-    "_fetched_at": 1788981521.5048199,
-    "_updated_label": "2026-09-10"
+    "_fetched_at": 1789055035.4755135,
+    "_updated_label": "2026-09-11"
   },
   "ETN": {
     "transactions": [

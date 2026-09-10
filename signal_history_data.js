@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789053026.643562,
+  "generatedAt": 1789055035.405458,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789041600,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.57,
+            "after": 1.92
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 3.5,
+            "after": 4.55
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 1.92,
+            "after": 2.62
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Glassbox, Microsoft AI 클라우드 파트너 프로그램 내에서 금융 서비스 AI에 대한 인증 소프트웨어 지정을 통해 솔루션 파트너 획득",
+        "newsUrl": "https://finnhub.io/api/news?id=f6a31cd22ac49e2eba0cd6cae0338fa3501118594f608eb3808c9ca74f502017",
+        "eventId": "e2b22001fd6c0cceba1b",
+        "fingerprint": "{\"changes\": [{\"after\": 1.92, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 4.55, \"before\": 3.5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.62, \"before\": 1.92, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e2b22001fd6c0cceba1b\"}"
+      },
       {
         "changedAt": 1789047430.613066,
         "dataAsOf": 1789023600,
@@ -3340,6 +3369,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1788991309,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.97,
+            "after": 0.45
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "S&P 500, Dow, Nasdaq은 유가가 101달러를 넘으면서 하락 마감, Bessent의 확장된 환매 계획에 따라 팝 수익률 — AAPL, META, AMZN, CRM 집중",
+        "newsUrl": "https://finnhub.io/api/news?id=c3337d011ae7dd402563733535a14ca9a5cc988f69539437d6ff2872117c48d2",
+        "eventId": "167286f06cba9abc13f0",
+        "fingerprint": "{\"changes\": [{\"after\": 0.45, \"before\": 0.97, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"167286f06cba9abc13f0\"}"
+      },
       {
         "changedAt": 1789013800.1175673,
         "dataAsOf": 1788991309,
@@ -12942,6 +12988,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789044360,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -0.35,
+            "after": -1.4
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "억만장자 Stanley Druckenmiller는 Micron, Broadcom 및 Intel을 매각했습니다. 그의 포트폴리오에 남아 있는 가장 큰 AI 칩 디자이너는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=e3e97dcdd57beb975b1c2fa2fba7fb0a1680aeaf4c180f0508f6ebe396f6adc7",
+        "eventId": "4faf99c06db8b1f5e2b0",
+        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -0.35, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"4faf99c06db8b1f5e2b0\"}"
+      },
+      {
         "changedAt": 1789047430.613066,
         "dataAsOf": 1789039980,
         "changes": [
@@ -14201,41 +14264,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=2d0eef0e462099f2dfe0a9f35992668adeede5c322453bbae332728dd807f0de",
         "eventId": "fdeb3e7e178fa0122308",
         "fingerprint": "{\"changes\": [{\"after\": 2.28, \"before\": 1.93, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"우호적 변화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"fdeb3e7e178fa0122308\"}"
-      },
-      {
-        "changedAt": 1788278665.5943496,
-        "dataAsOf": 1788276007,
-        "changes": [
-          {
-            "key": "longTermCompetitiveness",
-            "label": "장기 사업 경쟁력",
-            "before": 1.05,
-            "after": 1.4
-          },
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.55,
-            "after": 5
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -1.92,
-            "after": -2.62
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.45,
-            "after": 1.93
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "미국이 G20에게 알릴 것: Nvidia의 Jensen Huang이 회담에 참여함에 따라 AI를 덜 규제하고 미국 칩을 구입하십시오",
-        "newsUrl": "https://finnhub.io/api/news?id=2d0eef0e462099f2dfe0a9f35992668adeede5c322453bbae332728dd807f0de",
-        "eventId": "fdeb3e7e178fa0122308",
-        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.05, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 5, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.62, \"before\": -1.92, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": 1.93, \"before\": 2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"fdeb3e7e178fa0122308\"}"
       }
     ],
     "AMD": [
@@ -15352,6 +15380,41 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AVGO": [
+      {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789030200,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -1.05,
+            "after": -2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.62,
+            "after": -3.15
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.87,
+            "after": -1.92
+          },
+          {
+            "key": "signal",
+            "label": "종합 시그널",
+            "before": "중립·확인 대기",
+            "after": "주의 강화"
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "엔비디아가 아닙니다. 브로드컴이 아닙니다. 하지만 이 반도체 주식은 2010년 말까지 다른 어떤 주요 AI 칩 제조업체보다 빠르게 성장할 것입니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b7d429b4e11a2c61494d8eda52080e14b16466380cda734b3a4ee2c4fd7b9e23",
+        "eventId": "948223b15a4004e1003f",
+        "fingerprint": "{\"changes\": [{\"after\": -2.1, \"before\": -1.05, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.15, \"before\": -2.62, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -1.92, \"before\": -0.87, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"주의 강화\", \"before\": \"중립·확인 대기\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"948223b15a4004e1003f\"}"
+      },
       {
         "changedAt": 1789047430.613066,
         "dataAsOf": 1788986580,
@@ -17057,6 +17120,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "QCOM": [
+      {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789029946,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.4,
+            "after": -1.92
+          }
+        ],
+        "cause": "스마트폰 수요가 줄면 고객 칩 수요에 부담",
+        "newsHeadline": "DOW, S&P 500, Nasdaq Futures Edge PPI보다 높음, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
+        "newsUrl": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
+        "eventId": "dc114c2498e1e47defdd",
+        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -1.4, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"dc114c2498e1e47defdd\"}"
+      },
       {
         "changedAt": 1789047430.613066,
         "dataAsOf": 1789029946,
@@ -24405,6 +24485,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789044360,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 4.9,
+            "after": 5
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "억만장자 Stanley Druckenmiller는 Micron, Broadcom 및 Intel을 매각했습니다. 그의 포트폴리오에 남아 있는 가장 큰 AI 칩 디자이너는 다음과 같습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=e3e97dcdd57beb975b1c2fa2fba7fb0a1680aeaf4c180f0508f6ebe396f6adc7",
+        "eventId": "4faf99c06db8b1f5e2b0",
+        "fingerprint": "{\"changes\": [{\"after\": 5, \"before\": 4.9, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"4faf99c06db8b1f5e2b0\"}"
+      },
+      {
         "changedAt": 1789036023.4683795,
         "dataAsOf": 1789029946,
         "changes": [
@@ -25514,23 +25611,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
         "eventId": "263f0693121d2a4d52d8",
         "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"263f0693121d2a4d52d8\"}"
-      },
-      {
-        "changedAt": 1787256309.1436353,
-        "dataAsOf": 1787232003,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": 0.0,
-            "after": -1.05
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "BMO Capital은 Salesforce에서 우수한 성과를 유지하고 목표 가격을 230달러로 높였습니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=577f00b4dc8186ab9553d9fc43ff117d55928e5bfa1319baa5b1f9729b9f1c4b",
-        "eventId": "0adb305fd30d06727560",
-        "fingerprint": "{\"changes\": [{\"after\": -1.05, \"before\": 0.0, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"0adb305fd30d06727560\"}"
       }
     ],
     "SNDK": [
@@ -26731,6 +26811,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "WDC": [
+      {
+        "changedAt": 1789055035.405458,
+        "dataAsOf": 1789046536,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.15,
+            "after": -3.5
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "금리 하락과 석유 늪으로 메모리 주가 하락 JPMorgan의 비중확대 주장: SK 하이닉스 5% 하락, Western Digital 하락 3%, Micron 하락",
+        "newsUrl": "https://finnhub.io/api/news?id=662ab8cf35c8ce268deb3690fc4c95df1f2eb40f34ace5f00fd4e388f89c06da",
+        "eventId": "1d04c202b32c40d46f4f",
+        "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -3.15, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1d04c202b32c40d46f4f\"}"
+      },
       {
         "changedAt": 1789036023.4683795,
         "dataAsOf": 1789029946,
