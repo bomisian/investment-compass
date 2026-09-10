@@ -7300,7 +7300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -14399,7 +14399,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
@@ -21343,7 +21343,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -27408,7 +27408,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 157,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -34856,7 +34856,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 187,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -37564,7 +37564,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -44593,7 +44593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -51119,7 +51119,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 172,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -58478,7 +58478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -65664,7 +65664,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -71052,7 +71052,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -75478,7 +75478,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 123,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -77822,7 +77822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
@@ -80604,7 +80604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -84790,7 +84790,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 101,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -90485,7 +90485,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 138,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -90501,10 +90501,74 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Salesforce Completes Acquisition of Fin",
+        "headline": "Salesforce Just Gained 23% in a Month: Take Profits, or Buy More?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=0eb75642b7864cba71b2d69df023a2401fef86c34b12dbd18fc277c590c4914b",
-        "datetime": 1789045200,
+        "url": "https://finnhub.io/api/news?id=4ce7561bd7c17367b95bce305d2d55478290487d938679961f00e9562825ab5a",
+        "datetime": 1789066875,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.17% S&P 500 7,596.80 −0.62% 다우존스 52,052.20 −0.74% 나스닥 100 29,113.70 −1.09% 러셀 2000 2,889.28 −1.",
+            "세일즈포스(Salesforce)는 폭발적인 분기를 기록하고 나머지 엔터프라이즈 소프트웨어가 하락하는 동안 급등했습니다. 그러나 실제로 수익을 앞지른 원인을 면밀히 살펴보면 모든 CRM 주주들이 다음 주 Dreamforce 이전에 대답해야 할 질문이 제기됩니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 23%, $242.40, 0.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "23%",
+            "$242.40",
+            "0.7%",
+            "4%",
+            "2%",
+            "9%",
+            "$247.50,",
+            "3%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce Just Gained 23% in a Month: Take Profits, or Buy More?",
+            "Skip to content ❚❚ At close S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.17% S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.",
+            "Salesforce just posted a blowout quarter and rocketed while the rest of enterprise software slid, but a closer look at what actually drove the earnings beat raises questions every CRM shareholder needs to answer before Dreamforce next week."
+          ],
+          "analysisUpdatedAt": 1789077607.6910465
+        },
+        "headlineKo": "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?"
+      },
+      {
+        "headline": "Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=651fd3af1f8ad0e9ef4b156ad33f7fcb060c7fdd4d991be0362a1246fac50b0a",
+        "datetime": 1789063200,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -90516,7 +90580,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce Completes Acquisition of Fin",
+            "Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -90540,42 +90604,44 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Completes Acquisition of Fin' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056009.4051251
+          "analysisUpdatedAt": 1789077609.5102398
         },
-        "headlineKo": "Salesforce, Fin 인수 완료"
+        "headlineKo": "Pimly는 Salesforce 2027 올해의 파트너상에서 혁신 및 규모 부문으로 선정되었습니다."
       },
       {
-        "headline": "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
+        "headline": "Is CRM Stock Getting Riskier As It Gets More Profitable?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a95966a13e40de17850285965629c3bba7a9df2ed508b78fedf080d42f90ac57",
-        "datetime": 1789043880,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=048cf9aad6e861041b283e1c87a7de6a9cbcc881efc6c5cab0bb0647a0f1faad",
+        "datetime": 1789058527,
+        "relevance": 0.75,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+            "CRM 주식은 수익성이 높아질수록 위험도 높아지나요?",
+            "| Trefis는 수익성이 높아질수록 CRM 주식이 더 위험해지고 있습니까?",
+            "2026년 9월 10일 · Trefis 팀 CRM YTD -7.4% SPY YTD +12.1% QQQ YTD +16.8% CRM 분석 → Salesforce(CRM) 주가는 지난 12개월 동안 본질적으로 보합세를 유지하며 2.3% 하락하고 전체 시장보다 약 20p 뒤처졌습니다."
           ],
           "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 7.4%, 12.1%, 16.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
           ],
           "impacts": [
             {
@@ -90585,93 +90651,248 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056012.2838645
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "7.4%",
+            "12.1%",
+            "16.8%",
+            "2.3%",
+            "38.1%",
+            "14.8%",
+            "$25 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Is CRM Stock Getting Riskier As It Gets More Profitable?",
+            "| Trefis Is CRM Stock Getting Riskier As It Gets More Profitable?",
+            "September 10th, 2026 · by Trefis Team CRM YTD -7.4% SPY YTD +12.1% QQQ YTD +16.8% Analyze CRM → Salesforce (CRM) shares have remained essentially flat over the past twelve months, slipping 2.3% and lagging the broader market by roughly 20 p"
+          ],
+          "analysisUpdatedAt": 1789077614.2940197
         },
-        "headlineKo": "Per Scholas, 혁신적인 새 Salesforce AI 펠로우십 파일럿 출시"
+        "headlineKo": "CRM 주식은 수익성이 높아질수록 위험도 높아지나요?"
       },
       {
-        "headline": "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
+        "headline": "Salesforce's Agentforce 360 Powers the Future of Chess with FIDE",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7b04bd613caa68ca00fc9116fcd138c8c9bb4334ef4ff65cfae90d14966c8a29",
-        "datetime": 1789031564,
+        "url": "https://finnhub.io/api/news?id=2453428aab7475b0db96dcba1fab2bb4ab4136c5b78a8ded90501d8272365ae1",
+        "datetime": 1789056000,
+        "relevance": 1.0,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "Salesforce의 Agentforce 360, FIDE와 함께 체스의 미래를 주도하다"
+      },
+      {
+        "headline": "Salesforce Just Gave Investors a Reason to Rethink This Beaten-Down Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d147705e7a105c0f7263fe2ac2984fe81eb2eb0ae404dbe058dbbfb8e4bb6f59",
+        "datetime": 1789050603,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056015.3338547
-        },
-        "headlineKo": "20억 달러 규모의 Salesforce, Listen Labs 인수 논의 - 에이전트 연구 스택 통합"
-      },
-      {
-        "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e3f35126d55bb947a5beb35c1309544e8afa332eec6d6dc5d6ef74db78ecf49a",
-        "datetime": 1789030800,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정"
-      },
-      {
-        "headline": "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
-        "datetime": 1789009326,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce는 Slack을 혁신하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다"
+        "headlineKo": "Salesforce는 투자자들에게 이 하락세 주식을 다시 생각해볼 이유를 제공했습니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Salesforce Just Gained 23% in a Month: Take Profits, or Buy More?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4ce7561bd7c17367b95bce305d2d55478290487d938679961f00e9562825ab5a",
+        "datetime": 1789066875,
+        "headlineKo": "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.17% S&P 500 7,596.80 −0.62% 다우존스 52,052.20 −0.74% 나스닥 100 29,113.70 −1.09% 러셀 2000 2,889.28 −1.",
+            "세일즈포스(Salesforce)는 폭발적인 분기를 기록하고 나머지 엔터프라이즈 소프트웨어가 하락하는 동안 급등했습니다. 그러나 실제로 수익을 앞지른 원인을 면밀히 살펴보면 모든 CRM 주주들이 다음 주 Dreamforce 이전에 대답해야 할 질문이 제기됩니다."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 23%, $242.40, 0.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "23%",
+            "$242.40",
+            "0.7%",
+            "4%",
+            "2%",
+            "9%",
+            "$247.50,",
+            "3%"
+          ],
+          "sourceExcerpt": [
+            "Salesforce Just Gained 23% in a Month: Take Profits, or Buy More?",
+            "Skip to content ❚❚ At close S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.17% S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.",
+            "Salesforce just posted a blowout quarter and rocketed while the rest of enterprise software slid, but a closer look at what actually drove the earnings beat raises questions every CRM shareholder needs to answer before Dreamforce next week."
+          ],
+          "analysisUpdatedAt": 1789077607.6910465
+        }
+      },
+      {
+        "headline": "Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=651fd3af1f8ad0e9ef4b156ad33f7fcb060c7fdd4d991be0362a1246fac50b0a",
+        "datetime": 1789063200,
+        "headlineKo": "Pimly는 Salesforce 2027 올해의 파트너상에서 혁신 및 규모 부문으로 선정되었습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Pimly Recognized in Salesforce 2027 Partner of the Year Awards for Transform & Scale' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077609.5102398
+        }
+      },
+      {
+        "headline": "Is CRM Stock Getting Riskier As It Gets More Profitable?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=048cf9aad6e861041b283e1c87a7de6a9cbcc881efc6c5cab0bb0647a0f1faad",
+        "datetime": 1789058527,
+        "headlineKo": "CRM 주식은 수익성이 높아질수록 위험도 높아지나요?",
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "CRM 주식은 수익성이 높아질수록 위험도 높아지나요?",
+            "| Trefis는 수익성이 높아질수록 CRM 주식이 더 위험해지고 있습니까?",
+            "2026년 9월 10일 · Trefis 팀 CRM YTD -7.4% SPY YTD +12.1% QQQ YTD +16.8% CRM 분석 → Salesforce(CRM) 주가는 지난 12개월 동안 본질적으로 보합세를 유지하며 2.3% 하락하고 전체 시장보다 약 20p 뒤처졌습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 7.4%, 12.1%, 16.8% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "CRM에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.75,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "7.4%",
+            "12.1%",
+            "16.8%",
+            "2.3%",
+            "38.1%",
+            "14.8%",
+            "$25 billion",
+            "14%"
+          ],
+          "sourceExcerpt": [
+            "Is CRM Stock Getting Riskier As It Gets More Profitable?",
+            "| Trefis Is CRM Stock Getting Riskier As It Gets More Profitable?",
+            "September 10th, 2026 · by Trefis Team CRM YTD -7.4% SPY YTD +12.1% QQQ YTD +16.8% Analyze CRM → Salesforce (CRM) shares have remained essentially flat over the past twelve months, slipping 2.3% and lagging the broader market by roughly 20 p"
+          ],
+          "analysisUpdatedAt": 1789077614.2940197
+        }
+      },
+      {
+        "headline": "Salesforce's Agentforce 360 Powers the Future of Chess with FIDE",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=2453428aab7475b0db96dcba1fab2bb4ab4136c5b78a8ded90501d8272365ae1",
+        "datetime": 1789056000,
+        "headlineKo": "Salesforce의 Agentforce 360, FIDE와 함께 체스의 미래를 주도하다",
+        "relevance": 1.0,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Salesforce Just Gave Investors a Reason to Rethink This Beaten-Down Stock",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=d147705e7a105c0f7263fe2ac2984fe81eb2eb0ae404dbe058dbbfb8e4bb6f59",
+        "datetime": 1789050603,
+        "headlineKo": "Salesforce는 투자자들에게 이 하락세 주식을 다시 생각해볼 이유를 제공했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false
+      },
       {
         "headline": "Salesforce Completes Acquisition of Fin",
         "source": "Yahoo",
@@ -94905,17 +95126,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1789056002.9754999,
-    "_updated_label": "2026-09-11 01:00",
+    "_fetched_at": 1789077602.97914,
+    "_updated_label": "2026-09-11 07:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 113,
+      "checked": 118,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
-    "_last_attempt_at": 1789056002.9754999,
+    "_last_attempt_at": 1789077602.97914,
     "_earnings_status": "ok",
-    "_last_success_at": 1789056002.9754999,
+    "_last_success_at": 1789077602.97914,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -100515,7 +100736,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 145,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -103601,7 +103822,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 74,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -103662,7 +103883,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056022.8891037
+          "analysisUpdatedAt": 1789077621.7494025
         },
         "headlineKo": "Arm Holdings(ARM): AI 인프라 및 CPU 수요가 낙관적인 전망을 주도합니다"
       },
@@ -103712,7 +103933,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056025.0510414
+          "analysisUpdatedAt": 1789077623.4559972
         },
         "headlineKo": "Arm's Rise는 2000억 달러 규모의 로봇 베팅을 숨겼습니다."
       },
@@ -103762,7 +103983,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056026.168583
+          "analysisUpdatedAt": 1789077624.3075297
         },
         "headlineKo": "Agentic AI를 위한 Arm 새로 고침"
       },
@@ -103834,7 +104055,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056022.8891037
+          "analysisUpdatedAt": 1789077621.7494025
         }
       },
       {
@@ -103883,7 +104104,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056025.0510414
+          "analysisUpdatedAt": 1789077623.4559972
         }
       },
       {
@@ -103932,7 +104153,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056026.168583
+          "analysisUpdatedAt": 1789077624.3075297
         }
       },
       {
@@ -105328,17 +105549,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789056002.9754999,
-    "_updated_label": "2026-09-11 01:00",
+    "_fetched_at": 1789077602.97914,
+    "_updated_label": "2026-09-11 07:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
-    "_last_attempt_at": 1789056002.9754999,
+    "_last_attempt_at": 1789077602.97914,
     "_earnings_status": "ok",
-    "_last_success_at": 1789056002.9754999,
+    "_last_success_at": 1789077602.97914,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -110465,7 +110686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 122,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -113055,7 +113276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -115198,7 +115419,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -116932,7 +117153,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -122653,7 +122874,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -124748,7 +124969,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
@@ -126876,7 +127097,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -128615,7 +128836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -130748,7 +130969,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -132738,7 +132959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -132754,139 +132975,11 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
+        "headline": "Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
-        "datetime": 1788911881,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "positive",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +0.03",
-            "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-            "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $299, $412.70., 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CEG",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$299",
-            "$412.70.",
-            "100%",
-            "$2.55",
-            "34%",
-            "$1.91",
-            "$11.50",
-            "$12.50"
-          ],
-          "sourceExcerpt": [
-            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META +0.03",
-            "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
-            "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
-          ],
-          "analysisUpdatedAt": 1789056036.725023
-        },
-        "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
-      },
-      {
-        "headline": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=063c5b4cd2692c2d40433156cbac158ff765447598d80685e6d1045ff7bdff24",
-        "datetime": 1788747720,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG -0.95% )는 미국 최대 규모를 운영하고 있습니다.",
-            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
-          ],
-          "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.87%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CEG",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
-          ],
-          "interpretation": "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "0.87%",
-            "22.4 times",
-            "14.4 times",
-            "0.95 %",
-            "$ 291.12",
-            "$104",
-            "$ 286.76",
-            "$ 294.84"
-          ],
-          "sourceExcerpt": [
-            "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -0.95% ) operates the largest U.S.",
-            "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
-          ],
-          "analysisUpdatedAt": 1789056039.9377763
-        },
-        "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
-      },
-      {
-        "headline": "Is Constellation Energy Stock Underperforming the Dow?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=405670748c8d2ffff40c724d812a8abe6666f2420fe290a8c8f0e88c9e24ed3c",
-        "datetime": 1788537042,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=9b438950c5ee05b457ff6a62c95d58a94ee365c2560be7cd03ccfde22566358f",
+        "datetime": 1789067400,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -132897,7 +132990,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Is Constellation Energy Stock Underperforming the Dow?",
+            "Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -132921,38 +133014,283 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CEG의 사업과 관련된 'Is Constellation Energy Stock Underperforming the Dow?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077629.5966756
+        },
+        "headlineKo": "Constellation, Shell로부터 로드아일랜드주 에너지센터(RISEC) 인수"
+      },
+      {
+        "headline": "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8a31ac44178fd76f791aa7af516ab96790cd3a3ba53f030e375f9f888c851049",
+        "datetime": 1789053168,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "CEG에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
           "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789056041.2938185
+          "analysisUpdatedAt": 1789077630.742407
         },
-        "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
+        "headlineKo": "쉘 에너지 북미 잉크(Shell Energy North America Inks), 펜실베이니아 소재 헌록 크릭 제너레이팅(Hunlock Creek Generation) 지분 100% 인수 계약; RISEC 지분을 Constellation Energy에 7억 1500만 달러에 매각"
       },
       {
-        "headline": "Better Energy Play: NextEra vs. Constellation Energy",
+        "headline": "Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3f26c33de08e964659ca99a1d282c97403b91c0a8695519e5ada6f11c3a61d2e",
+        "datetime": 1789053143,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077631.843549
+        },
+        "headlineKo": "Constellation은 Shell Energy North America로부터 7억 1500만 달러에 RISEC Holdings를 인수하기로 합의했습니다."
+      },
+      {
+        "headline": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=19c9550975bd4439dae72428ef3ace69f697fd2aa72c93f59dbfc3671f0e2a3f",
-        "datetime": 1788456900,
+        "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
+        "datetime": 1788911881,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "더 나은 에너지 플레이: 넥스트에라 vs. 별자리 에너지"
+        "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
       },
       {
-        "headline": "Can Rising C&I Demand Drive Constellation Energy's Long-Term Growth?",
+        "headline": "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=94f30fff40eb09c8b831c778f111cbe1404be9197eb531f208d1f21fdeb0dd59",
-        "datetime": 1788286920,
+        "url": "https://finnhub.io/api/news?id=063c5b4cd2692c2d40433156cbac158ff765447598d80685e6d1045ff7bdff24",
+        "datetime": 1788747720,
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "증가하는 C&I 수요가 Constellation Energy의 장기적인 성장을 이끌 수 있습니까?"
+        "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9b438950c5ee05b457ff6a62c95d58a94ee365c2560be7cd03ccfde22566358f",
+        "datetime": 1789067400,
+        "headlineKo": "Constellation, Shell로부터 로드아일랜드주 에너지센터(RISEC) 인수",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation to Acquire Rhode Island State Energy Center (RISEC) from Shell' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077629.5966756
+        }
+      },
+      {
+        "headline": "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8a31ac44178fd76f791aa7af516ab96790cd3a3ba53f030e375f9f888c851049",
+        "datetime": 1789053168,
+        "headlineKo": "쉘 에너지 북미 잉크(Shell Energy North America Inks), 펜실베이니아 소재 헌록 크릭 제너레이팅(Hunlock Creek Generation) 지분 100% 인수 계약; RISEC 지분을 Constellation Energy에 7억 1500만 달러에 매각",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "고객 계약 · 매출 연결 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+            "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "계약 금액·기간·취소 조건",
+            "수주잔고와 매출 인식 시점",
+            "관련 사업부 매출총이익률"
+          ],
+          "interpretation": "CEG에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077630.742407
+        }
+      },
+      {
+        "headline": "Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=3f26c33de08e964659ca99a1d282c97403b91c0a8695519e5ada6f11c3a61d2e",
+        "datetime": 1789053143,
+        "headlineKo": "Constellation은 Shell Energy North America로부터 7억 1500만 달러에 RISEC Holdings를 인수하기로 합의했습니다.",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CEG",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CEG의 사업과 관련된 'Constellation Agrees To Acquire RISEC Holdings From Shell Energy North America For $715M' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CEG 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789077631.843549
+        }
+      },
       {
         "headline": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
         "source": "Yahoo",
@@ -133917,17 +134255,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1789056002.9754999,
-    "_updated_label": "2026-09-11 01:00",
+    "_fetched_at": 1789077602.97914,
+    "_updated_label": "2026-09-11 07:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 27,
+      "checked": 30,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
-    "_last_attempt_at": 1789056002.9754999,
+    "_last_attempt_at": 1789077602.97914,
     "_earnings_status": "ok",
-    "_last_success_at": 1789056002.9754999,
+    "_last_success_at": 1789077602.97914,
     "_collection_status": "ok"
   },
   "VST": {
@@ -136071,7 +136409,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -137909,7 +138247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -139400,7 +139738,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -140038,7 +140376,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789064342.7641096,
     "_earnings_status": "ok",
@@ -142968,7 +143306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -143608,7 +143946,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789077440.7281334,
     "_earnings_status": "ok",
@@ -145177,7 +145515,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -146275,7 +146613,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -147560,7 +147898,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_last_attempt_at": 1789069858.7702956,
     "_earnings_status": "ok",
@@ -148396,7 +148734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-11 06:59"
+      "updated": "2026-09-11 07:00"
     },
     "_fetched_at": 1789069858.7702956,
     "_updated_label": "2026-09-11 04:55",

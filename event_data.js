@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789077585.1637957,
+  "generatedAt": 1789077636.5610468,
   "events": [
     {
       "id": "5571442d2d0704473243",
@@ -79,6 +79,77 @@ const EVENT_DATA = {
         "계약 기간·최소구매 조건",
         "연도별 매출 인식",
         "수주잔고·취소 조건"
+      ]
+    },
+    {
+      "id": "8357bf3fd338a634f4a0",
+      "schemaVersion": 1,
+      "eventType": "analyst_target_change",
+      "eventLabel": "애널리스트 목표주가 변경",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM",
+        "QQQ",
+        "SPY"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce Just Gained 23% in a Month: Take Profits, or Buy More?",
+      "headlineKo": "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4ce7561bd7c17367b95bce305d2d55478290487d938679961f00e9562825ab5a",
+        "publishedAt": 1789066875,
+        "collectedAt": 1789077602.97914
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce는 한 달 만에 23%의 이익을 얻었습니다. 이익을 얻겠습니까, 아니면 더 많이 사겠습니까?",
+        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.80 −0.62% Dow Jones 52,052.20 −0.74% Nasdaq 100 29,113.70 −1.09% Russell 2000 2,889.28 −1.17% S&P 500 7,596.80 −0.62% 다우존스 52,052.20 −0.74% 나스닥 100 29,113.70 −1.09% 러셀 2000 2,889.28 −1.",
+        "세일즈포스(Salesforce)는 폭발적인 분기를 기록하고 나머지 엔터프라이즈 소프트웨어가 하락하는 동안 급등했습니다. 그러나 실제로 수익을 앞지른 원인을 면밀히 살펴보면 모든 CRM 주주들이 다음 주 Dreamforce 이전에 대답해야 할 질문이 제기됩니다."
+      ],
+      "marketInterpretation": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 23%, $242.40, 0.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+        "이번 기사에서 확인된 구체적 수치: 23%, $242.40, 0.7% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "목표주가 산식의 EPS",
+        "적용 PER 변화",
+        "회사 공식 가이던스"
       ]
     },
     {
@@ -1695,6 +1766,73 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "ab7ae848ae04e75c642f",
+      "schemaVersion": 1,
+      "eventType": "major_customer_contract",
+      "eventLabel": "주요 고객 계약",
+      "primaryTicker": "CEG",
+      "relatedTickers": [
+        "CEG"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "low",
+        "score": 42,
+        "kind": "reported",
+        "reason": "속보·의견 성격이 강해 원문 재확인 필요"
+      },
+      "direction": "neutral",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "낮음·확인 필요",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+      "headlineKo": "쉘 에너지 북미 잉크(Shell Energy North America Inks), 펜실베이니아 소재 헌록 크릭 제너레이팅(Hunlock Creek Generation) 지분 100% 인수 계약; RISEC 지분을 Constellation Energy에 7억 1500만 달러에 매각",
+      "source": {
+        "name": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=8a31ac44178fd76f791aa7af516ab96790cd3a3ba53f030e375f9f888c851049",
+        "publishedAt": 1789053168,
+        "collectedAt": 1789077602.97914
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Shell Energy North America Inks Agreement To Acquire 100% Stake In Hunlock Creek Generating In Pennsylvania; To Sell Stake In RISEC To Constellation Energy For $715M",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CEG에 대한 고객 계약 · 매출 연결 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 새 고객을 확보했다는 뜻입니다. 발표 당일 매출이 생긴 것은 아니며 실제 주문과 매출 인식 시점을 봐야 합니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "계약 발표는 향후 매출 가시성을 높일 수 있지만 계약 금액·기간·매출 인식 시점이 확인돼야 합니다.",
+        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CEG",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "계약 금액·기간·취소 조건",
+        "수주잔고와 매출 인식 시점",
+        "관련 사업부 매출총이익률"
+      ]
     },
     {
       "id": "71b220123369b1270792",
@@ -3997,7 +4135,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
         "publishedAt": 1789009326,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4350,7 +4488,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
         "publishedAt": 1788998437,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8599,7 +8737,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec65cf11e158efd3a89bf713755c235087e6ba69d6e86e447dafe85c63eaa5aa",
         "publishedAt": 1788964020,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -9551,7 +9689,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6a1725f9349bd10a892af246c0a1f509d6c6609aab3e95c3d6cb07ab69b41f74",
         "publishedAt": 1788956919,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12717,23 +12855,9 @@ const EVENT_DATA = {
       "eventLabel": "주요 고객 계약",
       "primaryTicker": "CEG",
       "relatedTickers": [
-        "CEG",
-        "META",
-        "MSFT",
-        "SPY"
+        "CEG"
       ],
-      "relatedEntities": [
-        {
-          "name": "Microsoft",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        },
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
+      "relatedEntities": [],
       "importance": "high",
       "sourceReliability": {
         "level": "medium",
@@ -12742,7 +12866,7 @@ const EVENT_DATA = {
         "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
       },
       "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
+      "expectedHorizon": "중기·장기",
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027",
@@ -12751,47 +12875,34 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
         "publishedAt": 1788911881,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +0.03",
-        "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-        "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
       ],
-      "marketInterpretation": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $299, $412.70., 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
+      "marketInterpretation": [],
       "aiInference": [
-        "CEG에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+        "사업·실적 연결 경로는 다음 공시에서 확인합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
       ],
       "beginnerExplanation": [
-        "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+        "이 뉴스가 실제 매출·이익에 연결되는지 다음 공시에서 확인해야 합니다."
       ],
       "whyItMatters": [
-        "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: $299, $412.70., 100% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+        "일시적 주가 반응인지 구조적 사업 변화인지 구분해야 합니다."
       ],
       "impacts": [
         {
           "ticker": "CEG",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
+          "direction": "positive",
+          "reason": "기사 사건이 사업·실적에 연결되는지 다음 공시에서 확인",
+          "basis": "rule"
         }
       ],
-      "watch": [
-        "공식 매출·EPS 가이던스",
-        "컨센서스 추정치 변경",
-        "마진·FCF 전망"
-      ]
+      "watch": []
     },
     {
       "id": "0b40d822ba927bd88910",
@@ -14426,7 +14537,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16900,7 +17011,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17734,7 +17845,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1789056002.9754999
+        "collectedAt": 1789077602.97914
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17901,179 +18012,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "8262825b785fe4ee46f5",
-      "schemaVersion": 1,
-      "eventType": "analyst_target_change",
-      "eventLabel": "애널리스트 목표주가 변경",
-      "primaryTicker": "TSLA",
-      "relatedTickers": [
-        "INTC",
-        "NVDA",
-        "ORCL",
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Dow, S&P 500, Nasdaq Futures Slide As Iran Conflict Sends Oil Back Toward $100: TSLA,  NVDA, ORCL, INTC, BIDU, BABA, BE In Focus",
-      "headlineKo": "다우, S&P 500, 나스닥 선물은 이란 분쟁으로 석유가 100달러를 향해 되돌아가면서 하락: TSLA, NVDA, ORCL, INTC, BIDU, BABA, BE In Focus",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=d5a94a395e24ff1e3dacea1d66ee21aef24b3c94faaaa133f9831ebf2832e600",
-        "publishedAt": 1788856295,
-        "collectedAt": 1789077440.7281334
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "다우, S&P 500, 나스닥 선물 하락 이란 분쟁으로 석유가 100달러를 향해 되돌아감: TSLA, NVDA, ORCL, INTC, BIDU, BABA, BE In Focus New 에이전트 연결 동향 뉴스 수입 전체 DIA 0.64% SPY 0.12% QQQ 0.29% 추세 ORCL 5.09% IONQ 5.95% R",
-        "다우, S&P 500, 나스닥 선물은 이란 분쟁으로 석유가 100달러를 향해 되돌아가면서 하락: TSLA, NVDA, ORCL, INTC, BIDU, BABA, BE In Focus 거시적 역풍과 무역 관세 우려에도 불구하고 Stocktwits에 대한 소매 심리는 SPY에 대해 '강세'로 반전되었습니다.",
-        "노트북 키보드, 화면에 표시된 주식 그래프 예시 및 Nasdaq 로고."
-      ],
-      "marketInterpretation": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $100, 0.64%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "TSLA에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: $100, 0.64%, 0.12% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "목표주가 산식의 EPS",
-        "적용 PER 변화",
-        "회사 공식 가이던스"
-      ]
-    },
-    {
-      "id": "1b7e5abf9a07220cea53",
-      "schemaVersion": 1,
-      "eventType": "ai_investment_change",
-      "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "QCOM",
-      "relatedTickers": [
-        "AMD",
-        "MU",
-        "NVDA",
-        "ORCL",
-        "QCOM"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Qualcomm",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "중기 투자 사이클",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Qualcomm: Data Center Revenue To Reach $15 Billion In 3 Years",
-      "headlineKo": "Qualcomm: 데이터 센터 매출 3년 안에 150억 달러 달성",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=197e3e929cfdc3ec169569ff0658cbf20beda5eba399ae56d2b8670741df4808",
-        "publishedAt": 1788852632,
-        "collectedAt": 1789077440.7281334
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-        "기사에서 언급된 규모: $15 Billion, $15.",
-        "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
-      ],
-      "marketInterpretation": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "aiInference": [
-        "이 기사는 QCOM의 사업과 관련된 'Qualcomm: Data Center Revenue To Reach $15 Billion In 3 Years' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-        "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-        "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
-      ],
-      "whyItMatters": [
-        "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-        "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-        "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "NVDA",
-          "direction": "긍정",
-          "reason": "AI 컴퓨팅 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "AMD",
-          "direction": "긍정",
-          "reason": "AI 가속기·서버 경쟁 수요 확대 가능성",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "MU",
-          "direction": "긍정",
-          "reason": "AI 서버 메모리 수요와 가격 강세",
-          "basis": "analysis"
-        },
-        {
-          "ticker": "ORCL",
-          "direction": "혼합",
-          "reason": "클라우드 수요와 자본 부담 동시 확대",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "실제 수주·가동 데이터센터",
-        "관련 기업 매출·수주잔고",
-        "CAPEX 대비 영업현금흐름",
-        "금리와 프로젝트 부채 비용"
-      ]
     }
   ],
   "byTicker": {
@@ -18162,12 +18100,11 @@ const EVENT_DATA = {
       "1715737afe158786209d",
       "8a3b8ade6d157ddf79e0",
       "7b5166eee42a36ed558d",
-      "bbcb8449ddc554720b18",
-      "8262825b785fe4ee46f5",
-      "1b7e5abf9a07220cea53"
+      "bbcb8449ddc554720b18"
     ],
     "QQQ": [
       "5571442d2d0704473243",
+      "8357bf3fd338a634f4a0",
       "a3c962e2ef105d1c61c9",
       "917d980336044c494c97",
       "c49c1cc524d3690a75af",
@@ -18239,11 +18176,11 @@ const EVENT_DATA = {
       "47ef99a8e6acf4012bf7",
       "eda677ae8cdc25e4a1b8",
       "85c131752a4ef95516d4",
-      "ff270ce370ec2dac3d29",
-      "8262825b785fe4ee46f5"
+      "ff270ce370ec2dac3d29"
     ],
     "SPY": [
       "5571442d2d0704473243",
+      "8357bf3fd338a634f4a0",
       "f027734a71c0c5becc0a",
       "8a7bbc63ddddf5258849",
       "a3c962e2ef105d1c61c9",
@@ -18320,7 +18257,6 @@ const EVENT_DATA = {
       "263d8b1c8f450828b155",
       "66d41035c01340293828",
       "24260ff486f38668eea3",
-      "77971b9f71f162b25c53",
       "0b40d822ba927bd88910",
       "08177e8de32a88e5109c",
       "2b2c3a2549b83c099888",
@@ -18350,8 +18286,17 @@ const EVENT_DATA = {
       "85c131752a4ef95516d4",
       "2ea83ba5a7d0e9b39dfc",
       "2e31e49d8a1e4a76e3c5",
-      "ff270ce370ec2dac3d29",
-      "8262825b785fe4ee46f5"
+      "ff270ce370ec2dac3d29"
+    ],
+    "CRM": [
+      "8357bf3fd338a634f4a0",
+      "eeb449ab8d859a0a588a",
+      "56a1cac3074a99cfdcd0",
+      "167286f06cba9abc13f0",
+      "4fc45c922623ad43b32c",
+      "fe49fa2aa66732faa03c",
+      "eda677ae8cdc25e4a1b8",
+      "ff270ce370ec2dac3d29"
     ],
     "AVGO": [
       "f027734a71c0c5becc0a",
@@ -18395,8 +18340,7 @@ const EVENT_DATA = {
       "a64dc11b6437ab1c8a7b",
       "85c131752a4ef95516d4",
       "2e31e49d8a1e4a76e3c5",
-      "ff270ce370ec2dac3d29",
-      "8262825b785fe4ee46f5"
+      "ff270ce370ec2dac3d29"
     ],
     "MRVL": [
       "f027734a71c0c5becc0a",
@@ -18448,8 +18392,7 @@ const EVENT_DATA = {
       "68224fa7e6b8f72b5db2",
       "9e73d549f9981b691786",
       "2ea83ba5a7d0e9b39dfc",
-      "bbcb8449ddc554720b18",
-      "1b7e5abf9a07220cea53"
+      "bbcb8449ddc554720b18"
     ],
     "GOOGL": [
       "c25a39baa7f8c002cfa3",
@@ -18506,8 +18449,7 @@ const EVENT_DATA = {
       "e3a8361107d278f73b6d",
       "7b5166eee42a36ed558d",
       "bbcb8449ddc554720b18",
-      "2e31e49d8a1e4a76e3c5",
-      "1b7e5abf9a07220cea53"
+      "2e31e49d8a1e4a76e3c5"
     ],
     "NVDA": [
       "c25a39baa7f8c002cfa3",
@@ -18555,9 +18497,7 @@ const EVENT_DATA = {
       "50b6ee5c90cee35a80bf",
       "7b5166eee42a36ed558d",
       "911bcadc13c6477e9e02",
-      "bbcb8449ddc554720b18",
-      "8262825b785fe4ee46f5",
-      "1b7e5abf9a07220cea53"
+      "bbcb8449ddc554720b18"
     ],
     "META": [
       "1a4232af56d9ee3031ba",
@@ -18570,7 +18510,6 @@ const EVENT_DATA = {
       "ec840ea366a86511d1d6",
       "91d07c082729f1fc1037",
       "24260ff486f38668eea3",
-      "77971b9f71f162b25c53",
       "2b2c3a2549b83c099888",
       "5311c97673dbbe4b3080",
       "ccb5c941c14f53db1b2d",
@@ -18600,7 +18539,6 @@ const EVENT_DATA = {
       "80dadce986324e659d92",
       "32914d6512b29df54d98",
       "feb75025a3b2db548739",
-      "77971b9f71f162b25c53",
       "4938bef0d9893ff34a72",
       "40072ac7d04cdcd89511",
       "2ea83ba5a7d0e9b39dfc",
@@ -18609,6 +18547,10 @@ const EVENT_DATA = {
     "LITE": [
       "a8b3659f0eda88d80281",
       "959b52be41f628107e25"
+    ],
+    "CEG": [
+      "ab7ae848ae04e75c642f",
+      "77971b9f71f162b25c53"
     ],
     "STX": [
       "71b220123369b1270792",
@@ -18680,8 +18622,7 @@ const EVENT_DATA = {
       "e08d294166d607e6fa00",
       "4277d3ea8c3c1a5d2291",
       "eb178d0b621fe527f313",
-      "40452814a24be6f5d240",
-      "1b7e5abf9a07220cea53"
+      "40452814a24be6f5d240"
     ],
     "AAPL": [
       "ba68e681cd3a11b0af86",
@@ -18711,8 +18652,7 @@ const EVENT_DATA = {
       "76ec4922ba02519db2fb",
       "ec840ea366a86511d1d6",
       "263d8b1c8f450828b155",
-      "83ae83da2bde742479c3",
-      "8262825b785fe4ee46f5"
+      "83ae83da2bde742479c3"
     ],
     "TSM": [
       "dc114c2498e1e47defdd",
@@ -18725,15 +18665,6 @@ const EVENT_DATA = {
       "69a15643f2afe30afa65",
       "85c131752a4ef95516d4",
       "b66dec594615c0dbe6a0"
-    ],
-    "CRM": [
-      "eeb449ab8d859a0a588a",
-      "56a1cac3074a99cfdcd0",
-      "167286f06cba9abc13f0",
-      "4fc45c922623ad43b32c",
-      "fe49fa2aa66732faa03c",
-      "eda677ae8cdc25e4a1b8",
-      "ff270ce370ec2dac3d29"
     ],
     "VST": [
       "965594dc2c97ca7af01b",
@@ -18768,9 +18699,6 @@ const EVENT_DATA = {
       "2b2c3a2549b83c099888",
       "210c4dcf09e8f7c7753f",
       "07af5c52d130b6fbe04b"
-    ],
-    "CEG": [
-      "77971b9f71f162b25c53"
     ],
     "BE": [
       "5fcd2a07268def8d138b",

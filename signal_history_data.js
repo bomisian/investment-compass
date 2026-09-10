@@ -1,9 +1,38 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789077585.2185578,
+  "generatedAt": 1789077636.612407,
   "records": {
     "MSFT": [
+      {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789041600,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.92,
+            "after": 1.4
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 4.55,
+            "after": 3.5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 2.62,
+            "after": 2.1
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Glassbox, Microsoft AI 클라우드 파트너 프로그램 내에서 금융 서비스 AI에 대한 인증 소프트웨어 지정을 통해 솔루션 파트너 획득",
+        "newsUrl": "https://finnhub.io/api/news?id=f6a31cd22ac49e2eba0cd6cae0338fa3501118594f608eb3808c9ca74f502017",
+        "eventId": "e2b22001fd6c0cceba1b",
+        "fingerprint": "{\"changes\": [{\"after\": 1.4, \"before\": 1.92, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 3.5, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.1, \"before\": 2.62, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"e2b22001fd6c0cceba1b\"}"
+      },
       {
         "changedAt": 1789055035.405458,
         "dataAsOf": 1789041600,
@@ -5030,6 +5059,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "META": [
       {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789060696,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.87,
+            "after": 0.35
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -1.92,
+            "after": -2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -3.85,
+            "after": -4.38
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "지출할 현금 흐름을 위해 메타 주식을 구입해야 합니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801",
+        "eventId": "1a4232af56d9ee3031ba",
+        "fingerprint": "{\"changes\": [{\"after\": 0.35, \"before\": 0.87, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -2.97, \"before\": -1.92, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -4.38, \"before\": -3.85, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1a4232af56d9ee3031ba\"}"
+      },
+      {
         "changedAt": 1789074008.2294288,
         "dataAsOf": 1789060696,
         "changes": [
@@ -6745,23 +6803,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=8d5c160a2aa798312698cd93a58e5af7b0418e87757a159bb2f98d284d9e2924",
         "eventId": "aaab49e67ee6c093e8fc",
         "fingerprint": "{\"changes\": [{\"after\": 0.7, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.35, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.35, \"before\": 0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"aaab49e67ee6c093e8fc\"}"
-      },
-      {
-        "changedAt": 1787218520.0463588,
-        "dataAsOf": 1787057783,
-        "changes": [
-          {
-            "key": "baseline",
-            "label": "초기 기준점",
-            "before": "이력 없음",
-            "after": "중립·확인 대기"
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "정오에 가장 큰 움직임을 보이는 주식: Meta, Amylyx, Baidu, Klarna, Coherent, Sandisk 등",
-        "newsUrl": "https://finnhub.io/api/news?id=c72c281529f57a71ec992c40b253a421c53b8fa4b522b66a5a9c0b159bc2e730",
-        "eventId": "6983b352153d3b458e14",
-        "fingerprint": "{\"changes\": [{\"after\": \"중립·확인 대기\", \"before\": \"이력 없음\", \"key\": \"baseline\", \"label\": \"초기 기준점\"}], \"eventId\": \"6983b352153d3b458e14\"}"
       }
     ],
     "AAPL": [
@@ -9586,6 +9627,23 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "ORCL": [
+      {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789067866,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -1.75,
+            "after": -1.4
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "AMZN은 2억 3천만 달러의 투자로 전체 식품에 더 큰 투자를 하고 있지만 Amazon의 실제 매장은 활력을 잃고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ce60885893e1428e238dc0ba35bfaec010118efa1e0bd9e42b8465e6b3714a52",
+        "eventId": "5571442d2d0704473243",
+        "fingerprint": "{\"changes\": [{\"after\": -1.4, \"before\": -1.75, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5571442d2d0704473243\"}"
+      },
       {
         "changedAt": 1789077585.2185578,
         "dataAsOf": 1789067866,
@@ -20956,6 +21014,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789064227,
+        "changes": [
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.97,
+            "after": -2.62
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Marvell Technology와 Broadcom: 인공 지능 회사 간의 수익 추세 비교",
+        "newsUrl": "https://finnhub.io/api/news?id=e649459a66cef5d880c0b73b5ad92c514ef9f9e70d703bf837e45fa0f343c3f5",
+        "eventId": "f027734a71c0c5becc0a",
+        "fingerprint": "{\"changes\": [{\"after\": -2.62, \"before\": -2.97, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"f027734a71c0c5becc0a\"}"
+      },
+      {
         "changedAt": 1789077585.2185578,
         "dataAsOf": 1789064227,
         "changes": [
@@ -22695,41 +22770,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=1a1e9cee3c5f01b21c88074e05d2c81bbf596cd5ce6df16601d859cf3bfeccf0",
         "eventId": "955fe598721329b733bb",
         "fingerprint": "{\"changes\": [{\"after\": 2.97, \"before\": 3.32, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.8, \"before\": -2.45, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.75, \"before\": -1.4, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.53, \"before\": 0.88, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"955fe598721329b733bb\"}"
-      },
-      {
-        "changedAt": 1787478462.1125898,
-        "dataAsOf": 1787394900,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 2.97,
-            "after": 3.32
-          },
-          {
-            "key": "valuationBurden",
-            "label": "밸류에이션 부담",
-            "before": -3.5,
-            "after": -2.45
-          },
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.1,
-            "after": -1.4
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -0.17,
-            "after": 0.88
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "예측: 2030년 말까지 Palantir의 주가가 될 것입니다.",
-        "newsUrl": "https://finnhub.io/api/news?id=1a1e9cee3c5f01b21c88074e05d2c81bbf596cd5ce6df16601d859cf3bfeccf0",
-        "eventId": "955fe598721329b733bb",
-        "fingerprint": "{\"changes\": [{\"after\": 3.32, \"before\": 2.97, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -2.45, \"before\": -3.5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -1.4, \"before\": -2.1, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.88, \"before\": -0.17, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"955fe598721329b733bb\"}"
       }
     ],
     "TSM": [
@@ -24889,6 +24929,29 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "MU": [
       {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789062653,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 5,
+            "after": 4.9
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 5,
+            "after": 4.55
+          }
+        ],
+        "cause": "AI 서버 메모리 수요와 가격 강세",
+        "newsHeadline": "150억 달러 규모의 핵 베팅으로 AI 파워가 잠기면서 알파벳 가장자리가 더 높아졌습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ff3a802637a90748c5c85f5658206cc5b6a37b5ccb9c36920eeb41183714e722",
+        "eventId": "c25a39baa7f8c002cfa3",
+        "fingerprint": "{\"changes\": [{\"after\": 4.9, \"before\": 5, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 4.55, \"before\": 5, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"c25a39baa7f8c002cfa3\"}"
+      },
+      {
         "changedAt": 1789055035.405458,
         "dataAsOf": 1789044360,
         "changes": [
@@ -25998,23 +26061,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=db33e45db8700a7a0ad75086825d79953df31ab74d702f85ca90f0e2936ea34f",
         "eventId": "665b5eae3853597a3de7",
         "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -1.75, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"665b5eae3853597a3de7\"}"
-      },
-      {
-        "changedAt": 1787300499.2416117,
-        "dataAsOf": 1787242528,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -1.05,
-            "after": -1.75
-          }
-        ],
-        "cause": "AI 서버 메모리 수요와 가격 강세",
-        "newsHeadline": "'Broadcom, 최신 AI 부채 거래에서 600억 달러 이상 모색' - Bloomberg",
-        "newsUrl": "https://finnhub.io/api/news?id=be47314eef46f3b29cea6eeebfb187ebbd7607353b02e61277f02148e320b8f9",
-        "eventId": "263f0693121d2a4d52d8",
-        "fingerprint": "{\"changes\": [{\"after\": -1.75, \"before\": -1.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"263f0693121d2a4d52d8\"}"
       }
     ],
     "SNDK": [
@@ -29954,6 +30000,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "CEG": [
+      {
+        "changedAt": 1789077636.612407,
+        "dataAsOf": 1789053168,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 0.52,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.05,
+            "after": 1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.52,
+            "after": 0.87
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "쉘 에너지 북미 잉크(Shell Energy North America Inks), 펜실베이니아 소재 헌록 크릭 제너레이팅(Hunlock Creek Generation) 지분 100% 인수 계약; RISEC 지분을 Constellation Energy에 7억 1500만 달러에 매각",
+        "newsUrl": "https://finnhub.io/api/news?id=8a31ac44178fd76f791aa7af516ab96790cd3a3ba53f030e375f9f888c851049",
+        "eventId": "ab7ae848ae04e75c642f",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 0.52, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 1.05, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 0.87, \"before\": 0.52, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"ab7ae848ae04e75c642f\"}"
+      },
       {
         "changedAt": 1788920267.5886586,
         "dataAsOf": 1788911881,
