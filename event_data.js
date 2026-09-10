@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789073788.0003715,
+  "generatedAt": 1789074008.1784594,
   "events": [
     {
       "id": "c25a39baa7f8c002cfa3",
@@ -7338,6 +7338,108 @@ const EVENT_DATA = {
       "watch": []
     },
     {
+      "id": "aac1345472f0f12eae51",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
+      "primaryTicker": "ORCL",
+      "relatedTickers": [
+        "ORCL"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "ORCL SEC Form 8-K filed",
+      "headlineKo": "ORCL SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
+        "publishedAt": 1788966000.0,
+        "collectedAt": 1789074003.270795
+      },
+      "confirmedFacts": [
+        "ORCL가 2026-09-10에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 기타 중요 사건 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $19.18B · 영업이익 $6.13B · 순이익 $4.30B"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 1.92 / 예상 1.7766 (+8.07%). SEC 공식 수치와는 별도 출처입니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+      ],
+      "whyItMatters": [
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "ORCL",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
+      ],
+      "earningsEvidence": {
+        "version": 6,
+        "analyzedAt": 1789074003.270795,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-05-31",
+          "metrics": {
+            "revenue": 19184000000.0,
+            "opIncome": 6133000000,
+            "netIncome": 4304000000.0
+          }
+        },
+        "guidance": {
+          "status": "unavailable",
+          "metrics": [],
+          "targetPeriod": "q2 2027",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 1.92,
+          "estimate": 1.7766,
+          "providerPeriod": "2027-03-31",
+          "label": "beat",
+          "surprisePct": 8.07,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
+        }
+      }
+    },
+    {
       "id": "de0d69e7ecefe1341be9",
       "schemaVersion": 1,
       "eventType": "earnings_result",
@@ -7364,7 +7466,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789052403.252765
+        "collectedAt": 1789074003.270795
       },
       "confirmedFacts": [
         "AVGO가 2026-09-10에 SEC Form 10-Q을 제출했습니다."
@@ -18008,83 +18110,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "20617ef6104fc2f1f14d",
-      "schemaVersion": 1,
-      "eventType": "regulatory_legal_export",
-      "eventLabel": "규제·소송·수출 제한",
-      "primaryTicker": "PLTR",
-      "relatedTickers": [
-        "META",
-        "PLTR",
-        "QQQ"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Meta",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Palantir: Bears Cannot Trap AI Leader Of The Meta-Compute Layer (Rating Upgrade)",
-      "headlineKo": "Palantir: Bears Cannot Trap AI Leader Of The Meta-Compute Layer (등급 업그레이드)",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=c727a76a1377499e16b64f5c9cb5516a51ff89c7dc365bd7d55b39a80f0bf906",
-        "publishedAt": 1788829124,
-        "collectedAt": 1789069858.7702956
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Palantir: Bears Cannot Trap AI Leader Of The Meta-Compute Layer (NASDAQ: PLTR) | Seeking Alpha Esxeleryn Analytics 2.04 K Followers Follow Summary Palantir는 메타 컴퓨팅 계층 및 온톨로지 기반 AI 아키텍처로 '구매' 로 업그레이드되었습니다.",
-        "PLTR의 가치 기반 가격 모델은 AI 컴퓨팅 디플레이션으로 인한 경제적 잉여를 포착하여 전년 대비 271% 의 미국",
-        "상업용 TCV 성장과 62% 조정 영업이익률."
-      ],
-      "marketInterpretation": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 271%, 62% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "PLTR에 대한 규제·법무 · 비선형 위험 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "정부 규칙이나 소송 때문에 팔 수 있는 제품과 지역이 달라질 수 있다는 뜻입니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "규제와 수출 제한은 매출 시장·제품 출하·비용을 동시에 바꿀 수 있어 공식 문서의 적용 범위를 확인해야 합니다.",
-        "이번 기사에서 확인된 구체적 수치: 271%, 62% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "PLTR의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "PLTR",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "공식 규제 적용일·대상 제품",
-        "회사의 매출 영향 추정",
-        "대체 제품·지역 판매"
-      ]
     }
   ],
   "byTicker": {
@@ -18262,6 +18287,7 @@ const EVENT_DATA = {
       "af543bdca1a1eb660b95",
       "99cc2084d3c9ee2551f4",
       "b037181fe4893b9d1f84",
+      "aac1345472f0f12eae51",
       "d85f0f2383ad88ff1364",
       "fe97d0c2e0220ac48117",
       "41f26b8158c8eeae82e6",
@@ -18361,8 +18387,7 @@ const EVENT_DATA = {
       "bd5f35ecf60ff20643b4",
       "4144ce284b01fef9a47b",
       "b769097e86b1493c9352",
-      "dd85df54965f639f4c46",
-      "20617ef6104fc2f1f14d"
+      "dd85df54965f639f4c46"
     ],
     "SPY": [
       "a3c962e2ef105d1c61c9",
@@ -18522,8 +18547,7 @@ const EVENT_DATA = {
       "5311c97673dbbe4b3080",
       "ccb5c941c14f53db1b2d",
       "d5d36e4157fcf37df82d",
-      "19e74dad05c8d83109f7",
-      "20617ef6104fc2f1f14d"
+      "19e74dad05c8d83109f7"
     ],
     "PLTR": [
       "7e9cf5b92af4cb2a5982",
@@ -18535,8 +18559,7 @@ const EVENT_DATA = {
       "76ec4922ba02519db2fb",
       "e2d25f8e85acbd4b8a05",
       "f23fb60afda08860fad1",
-      "35f40de9c05b45d75001",
-      "20617ef6104fc2f1f14d"
+      "35f40de9c05b45d75001"
     ],
     "LITE": [
       "a8b3659f0eda88d80281",

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789073788.0561497,
+  "generatedAt": 1789074008.2294288,
   "records": {
     "MSFT": [
       {
@@ -5006,6 +5006,29 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "META": [
+      {
+        "changedAt": 1789074008.2294288,
+        "dataAsOf": 1789060696,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -2.45,
+            "after": -1.92
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.38,
+            "after": -3.85
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "지출할 현금 흐름을 위해 메타 주식을 구입해야 합니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=90591b88066e21ffa21ae683a8dfb3d3ac603a8323fda952241b93119d2c2801",
+        "eventId": "1a4232af56d9ee3031ba",
+        "fingerprint": "{\"changes\": [{\"after\": -1.92, \"before\": -2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.85, \"before\": -4.38, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1a4232af56d9ee3031ba\"}"
+      },
       {
         "changedAt": 1789070112.7793481,
         "dataAsOf": 1789060696,
@@ -11869,6 +11892,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "PLTR": [
+      {
+        "changedAt": 1789074008.2294288,
+        "dataAsOf": 1789059575,
+        "changes": [
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 1.57,
+            "after": 2.1
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.55,
+            "after": -3.5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -0.35,
+            "after": 0.18
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "Nvidia와 Palantir Land 역사적인 AI 파트너십",
+        "newsUrl": "https://finnhub.io/api/news?id=11299d49d2bba45acf05282b8e725c84ae731e45eb9e95f4c7edca57db16e3fb",
+        "eventId": "7e9cf5b92af4cb2a5982",
+        "fingerprint": "{\"changes\": [{\"after\": 2.1, \"before\": 1.57, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.5, \"before\": -4.55, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 0.18, \"before\": -0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"7e9cf5b92af4cb2a5982\"}"
+      },
       {
         "changedAt": 1789070112.7793481,
         "dataAsOf": 1789059575,
