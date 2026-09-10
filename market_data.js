@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 16.510000228881836,
+      "current": 16.65999984741211,
       "prevClose": 16.459999084472656,
-      "changeAbs": 0.05000114440917969,
-      "changePct": 0.3037736767333582,
-      "pctRank": 37.151949085123306,
+      "changeAbs": 0.20000076293945312,
+      "changePct": 1.2150715313715994,
+      "pctRank": 38.822593476531424,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -46.82769521882665,
-      "ma20": 15.303000020980836,
-      "ma60": 16.385333251953124,
-      "chg1m": 1.9600000381469727,
-      "chg3m": -2.9300003051757812,
-      "chg1mPct": 13.470790463597792,
-      "chg3mPct": -15.072017616679645,
+      "drawdown1y": -46.3446046480828,
+      "ma20": 15.310500001907348,
+      "ma60": 16.387833245595296,
+      "chg1m": 2.109999656677246,
+      "chg3m": -2.780000686645508,
+      "chg1mPct": 14.501715663349957,
+      "chg3mPct": -14.300414661898426,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 97.37999725341797,
+      "current": 97.47000122070312,
       "prevClose": 96.05000305175781,
-      "changeAbs": 1.3299942016601562,
-      "changePct": 1.3846893903204471,
+      "changeAbs": 1.4199981689453125,
+      "changePct": 1.4783947150736974,
       "pctRank": 90.69212410501193,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -13.784860660030795,
-      "ma20": 87.3285011291504,
-      "ma60": 80.9005002339681,
-      "chg1m": 14.180000305175781,
-      "chg3m": 7.349998474121094,
-      "chg1mPct": 17.043270222710472,
-      "chg3mPct": 8.163943767387105,
+      "drawdown1y": -13.705175870551422,
+      "ma20": 87.33300132751465,
+      "ma60": 80.90200030008951,
+      "chg1m": 14.270004272460938,
+      "chg3m": 7.44000244140625,
+      "chg1mPct": 17.151448071973068,
+      "chg3mPct": 8.263914853142415,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.7969970703125,
+      "current": 98.91899871826172,
       "prevClose": 98.7699966430664,
-      "changeAbs": 0.02700042724609375,
-      "changePct": 0.027336669194864414,
-      "pctRank": 23.389021479713605,
+      "changeAbs": 0.1490020751953125,
+      "changePct": 0.15085762909740097,
+      "pctRank": 24.741447891805887,
       "min5y": 92.48999786376953,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.768431771618829,
-      "ma20": 99.23134956359863,
-      "ma60": 100.23495012919108,
-      "chg1m": -1.0230026245117188,
-      "chg3m": -1.1529998779296875,
-      "chg1mPct": -1.0248473528744786,
-      "chg3mPct": -1.153576701484797,
+      "drawdown1y": -2.6483632279554303,
+      "ma20": 99.2374496459961,
+      "ma60": 100.23698348999024,
+      "chg1m": -0.9010009765625,
+      "chg3m": -1.0309982299804688,
+      "chg1mPct": -0.9026257055871518,
+      "chg3mPct": -1.0315140184690128,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4442.5,
+      "current": 4424.10009765625,
       "prevClose": 4416.0,
-      "changeAbs": 26.5,
-      "changePct": 0.6000905797101449,
-      "pctRank": 90.9307875894988,
+      "changeAbs": 8.10009765625,
+      "changePct": 0.18342612446218298,
+      "pctRank": 90.61256961018299,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.469237335044173,
-      "ma20": 4472.089990234375,
-      "ma60": 4240.8016642252605,
-      "chg1m": 59.5,
-      "chg3m": 334.2998046875,
-      "chg1mPct": 1.3575176819530002,
-      "chg3mPct": 8.137378627968024,
+      "drawdown1y": -16.81520421759548,
+      "ma20": 4471.169995117188,
+      "ma60": 4240.494999186198,
+      "chg1m": 41.10009765625,
+      "chg3m": 315.89990234375,
+      "chg1mPct": 0.9377161226614191,
+      "chg3mPct": 7.689496307998699,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,6 +237,34 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Macy's posts strong results, raises guidance as turnaround begins to take hold",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/10/macys-m-q2-2026-earnings.html",
+      "datetime": 1789037768,
+      "headlineKo": "Macy's는 강력한 결과를 발표하고 턴어라운드가 시작되면서 지침을 높였습니다."
+    },
+    {
+      "headline": "Treasury yields move higher as investors await key wholesale inflation data",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/10/us-treasurys-bonds-yield.html",
+      "datetime": 1789037047,
+      "headlineKo": "투자자들이 주요 도매 인플레이션 데이터를 기다리면서 국채 수익률이 상승합니다."
+    },
+    {
+      "headline": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
+      "datetime": 1789032594,
+      "headlineKo": "논평: 아시아 석유 산업은 트럼프가 걸프만에서 떠나길 원하지만 그렇지 않을 것으로 예상한다 - 로이터"
+    },
+    {
+      "headline": "Israeli strike kills parents and two children in Gaza, medics say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1BVbUJWZ3BnTEl4XzBYMjByVm0zb3dncFFidmQ4TWlrRVVOTkZYUGpzQllwVzQyUWZKUjBjQk12ZUxTM2FJTFRlb292d1JRZHZXMWREZ2Y4bVdMUGVXczRJa0NuYjZXQXd3dDJrajZFazAtcXNlQld6c0RjekV0N09RSU51Z3Fld1EwdFI5dm5tLU5aMERvTEVtcWlsOE5pS3BGQnRrZUt1U1FVSUZ1Xw?oc=5",
+      "datetime": 1789031263,
+      "headlineKo": "이스라엘의 공습으로 가자지구에서 부모와 두 자녀가 사망했다고 의료진이 밝혔습니다."
+    },
+    {
       "headline": "'Fear gauge' VIX is starting to attract hedges into historically volatile part of calendar",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/10/fear-gauge-vix-hedges-volatility-stocks.html",
@@ -251,11 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "밴스가 날개를 달고 기다리는 동안 공화당이 승리하면 트럼프는 $ 5,000의 배당을 선전한다. - 로이터"
     },
     {
-      "headline": "Trump says Iran war to end after US midterm elections, threatens to attack Pickaxe Mountain - Reuters",
+      "headline": "Trump says Iran war to end after US midterm vote, Houthis close in on key Strait, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX1VBYmFiQnhuQWRpWDFRNjQ3ZzBFUTEzUmxneFZQTmtfOHducTVIZlU3LXFwRjVSbS1EYTNjMVY1dGlzODdfblBPSzFqWm90bWhfeFBUVVlDdjN2YUFoS1VNekY4U1VHcW1WTXQzS1ZTYjI2YzZ1OFFaZzJMZm9DTEpWY25jMlJsOHNUYklSbkR3Z2pNc1ZUcUNhN3VnWHdIV2U5RklKVldodktsWE5rczRlMVFfZzJZV3VJSzlhdEpRV1VzLXc2Sw?oc=5",
       "datetime": 1789020780,
-      "headlineKo": "트럼프 대통령은 미국 중간선거 이후 이란 전쟁이 끝날 것이라고 말하며 곡괭이 산을 공격하겠다고 위협했다. - 로이터"
+      "headlineKo": "트럼프는 미국의 중간 투표 이후 이란 전쟁이 끝날 것이라고 말했고, 후티 반군은 주요 해협에 접근하고 있다고 소식통은 전했습니다."
     },
     {
       "headline": "EXCLUSIVE: How a billion-dollar sanctions dodge kept Chinese goods flowing to Iran - Reuters",
@@ -291,44 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU00zRjlwdjRLNzNsRDluVS1Rc0hCVmhNSTc0TThXMVUtMVgyYU1Mc3FVY1p4YlVIX0p2NzhYbEFCSkVUMEhHR2MtTlFRUHZlbXVGNkxINUVSc1FZNVB5S2hGOXdIUzMydEhHSllEcVVqbWM0VHlOajEzeHBQMlY4UW5nUnRNMm5NS1lvR3RYN2E5M1dIV3NMd3VuZDJOZDg2U0cxa1JR?oc=5",
       "datetime": 1789008960,
       "headlineKo": "달러 약세로 금값 상승, 미국 인플레이션 데이터에 초점 - Reuters"
-    },
-    {
-      "headline": "Trump says activity seen at Iran's Pickaxe Mountain, urges Tehran 'not to get cute' - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd2tWN0QxamFYdDVZNTZaaGFfa09OdmlPSVdBdWZYeElkZVgzeEZSTE5BdDR0R1pzR24yLU5CTXdqZVZmTUZHNlRIazNCdldxSXRTLUthV0lTS2NvRHRuWjVFTHp5UUtTRGFRZ2twWlYzdGlXQ1JmWnRrLS1UT1NaZjdYajEwcExlczVLWU55VVRSQjhsQm9aQTA4SnhrUE1SMmJaRUttMEs5T1B0OXAwR0NxZngtZw?oc=5",
-      "datetime": 1789007100,
-      "headlineKo": "트럼프, 이란 곡괭이산에서 목격된 활동에 대해 테헤란에 '귀엽지 말 것' 촉구 - 로이터"
-    },
-    {
-      "headline": "Multiple US military aircraft suffered damage in overnight strikes on Jordan air base, CBS says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYThzMWZWYWVaeVkzaGR4Z3AxbHpidm9CMTFNSTVKWmNvVGZoRkg5MjJRV1RvdW9wWWtWS3R6V1dNWmFQUEl1Y0Q4dWdYY19EMUk3RkE4aUlsYVRLbkxmemVJM1gxVzlSNGs5a24wbjg5dWxBZ2tRallJTTV0UExCUFZXWGxYZXhsZHA4clFtT2JPa3IxbHpnVnZnU2RMTnpsZDVLU0RMYW9RM0x6TlY5aUtXRU9tZzJRZ0hV?oc=5",
-      "datetime": 1789004520,
-      "headlineKo": "요르단 공군기지에 대한 밤새 공습으로 다수의 미군 항공기가 피해를 입었다고 CBS가 밝혔습니다 - 로이터"
-    },
-    {
-      "headline": "Brent holds above $100 as tanker attacks deepen supply fears - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVTlKVk5vOWlpYndFb2Flck9IczhtU2k5X1I3a0tlMjA2dkRmMEJncVFZdWctZW9wX05NaU9vUzNwMU5ld3UycklJMjhHaHB3WDdZVF81Z0t1WWNZak8tTFFwdDZtTHZvUnozMnVpUmtEanVsN2ZxM1A2QkxZS3IydDByTlQtd3RFYThzVnlwVmR0eGMyT1RQQldPZVp4VE1oSm5TcHBXVTd1dXM?oc=5",
-      "datetime": 1789003440,
-      "headlineKo": "탱커의 공격으로 공급에 대한 두려움이 심화됨에 따라 브렌트는 $ 100 이상을 보유하고 있습니다. - Reuters"
-    },
-    {
-      "headline": "Trump advisers warn Iran conflict may last through end of his term, WSJ reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRmcwY05mYjdLTzdPZ3BZemVsRWcwMFBUWnNHcndpVmFQc3pNNkZzczFEQ2dFMDdxeEVUUzJBb3JhdWh3RG45RzhTcjBXbjg3aFhUZTVkM1RfZ251a3l0amdVbUQtQ1A5LTNLRUZfOUJHUl9lYWM2QXFWMDhTRExBZkRPaUJQb0NWMDJiOGpPYnRxblFPbjZ4cWZ6QzhpejgyWS1IM0RhZ2NYWXpmWEcyUFBLN2tleUF4a2FzaA?oc=5",
-      "datetime": 1788997303,
-      "headlineKo": "트럼프 참모들은 이란 분쟁이 임기 끝까지 지속될 수 있다고 경고했다고 WSJ는 보도했다."
     }
   ],
   "fgi": {
     "score": 36.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1789036023.5566957,
-  "_updated_label": "2026-09-10 19:27",
-  "_last_attempt_at": 1789036023.5566957,
-  "_last_success_at": 1789036023.5566957,
+  "_fetched_at": 1789039788.6707242,
+  "_updated_label": "2026-09-10 20:30",
+  "_last_attempt_at": 1789039788.6707242,
+  "_last_success_at": 1789039788.6707242,
   "_collection_status": "ok",
   "_collection_errors": []
 };
