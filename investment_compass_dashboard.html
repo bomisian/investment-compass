@@ -5771,14 +5771,35 @@ function nonOperatingPattern(ticker){
   const meaningfulEach = ratios.every(r=>Math.abs(r) >= 0.5);
   return {consistent:true, direction: signs[0]>0?'positive':'negative', meaningful: meaningfulEach};
 }
+// 2026-09-10 수정(외부 검토로 발견, SNDK/WDC/STX 사례) - 예전엔 quarterly 배열의 마지막 4개
+// 행을 그냥 합산했는데, 분기 병합 로직 버그로 같은 분기가 두 행으로 중복되고 정작 최신 분기는
+// 빠지는 경우가 있었음(원인은 buy_signal_telegram.py 쪽에서 수정 - 날짜 근접 매칭으로 교체,
+// 재수집 필요). 화면 쪽에서도 마지막 방어선을 둔다: 4개 행이 실제로 연속된 서로 다른 분기인지
+// (종료일 중복 없음 + 인접 분기 간격이 130일을 넘지 않음, 즉 최근 90~100일 주기 보고에 큰
+// 공백이 없음) 확인하고, 깨져 있으면 계산 대신 invalid:true를 반환해서 화면이 "검증 필요"로
+// 표시하게 한다 - 잘못된 숫자를 그럴듯하게 보여주는 것보다 안전함.
 function secTtmFromFinancials(ticker){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
   const q = fin && fin.quarterly ? fin.quarterly : null;
   if(!q || q.length < 4) return null;
-  const last4 = q.slice(-4).filter(x=>typeof x.revenue==='number' && typeof x.netIncome==='number');
-  if(last4.length < 4) return null;
-  const rev = last4.reduce((a,b)=>a+b.revenue,0);
-  const ni = last4.reduce((a,b)=>a+b.netIncome,0);
+  const last4 = q.slice(-4);
+  const ends = last4.map(x=>x.endDate).filter(Boolean);
+  const hasDupEnd = new Set(ends).size !== ends.length;
+  let hasGap = false;
+  for(let i=1;i<last4.length;i++){
+    const d0 = last4[i-1].endDate ? new Date(last4[i-1].endDate) : null;
+    const d1 = last4[i].endDate ? new Date(last4[i].endDate) : null;
+    if(!d0 || !d1) { hasGap = true; continue; }
+    const days = (d1-d0)/86400000;
+    if(days <= 0 || days > 130) hasGap = true;  // 같은 분기 중복(<=0) 또는 큰 공백(>130일)
+  }
+  if(hasDupEnd || hasGap){
+    return {invalid:true, reason: hasDupEnd ? '같은 분기가 중복돼 있어요' : '분기 사이 공백이 있거나(최신 분기 누락) 순서가 이상해요', lastPeriod: q[q.length-1].period};
+  }
+  const complete = last4.filter(x=>typeof x.revenue==='number' && typeof x.netIncome==='number');
+  if(complete.length < 4) return null;
+  const rev = complete.reduce((a,b)=>a+b.revenue,0);
+  const ni = complete.reduce((a,b)=>a+b.netIncome,0);
   if(!rev) return null;
   return {revenue:rev, netIncome:ni, margin: ni/rev*100, lastPeriod: q[q.length-1].period};
 }
@@ -5794,7 +5815,13 @@ function dataQualityNotes(ticker, fund){
     }
   }
   const sec = secTtmFromFinancials(ticker);
-  if(sec && typeof net==='number' && Math.abs(sec.margin - net) >= MARGIN_GAP_WARN_PP){
+  // 2026-09-10 수정(외부 검토로 발견) - 예전엔 03 탭과 차이가 나면 원인 확인 없이 무조건
+  // "공시 제출 시점 차이"라고 자동으로 적었는데, SNDK 사례처럼 실제로는 분기 중복·누락(데이터
+  // 정합성 문제)이 원인인 경우도 있어서 이 설명이 틀릴 수 있었음. secTtmFromFinancials가
+  // invalid를 반환하면(분기 중복/공백 확인됨) 원인을 단정하지 않고 검증 필요로만 표시한다.
+  if(sec && sec.invalid){
+    notes.push(`<b>데이터 불일치 — 기간·중복·집계 기준 검증 필요.</b> 이 종목의 분기 재무 데이터에 ${sec.reason}(최근 4분기 기준). 이 상태에서 나온 최근 12개월 합계·순이익률은 신뢰할 수 없어서, 다음 데이터 재수집 전까지는 03 탭·최근 12개월 관련 해석을 참고하지 마세요.`);
+  } else if(sec && typeof net==='number' && Math.abs(sec.margin - net) >= MARGIN_GAP_WARN_PP){
     notes.push(`<b>왼쪽 지표(Finnhub 기준 ${net.toFixed(1)}%)와 03 실적 탭(SEC 공시 기준 ${sec.margin.toFixed(1)}%)의 순이익률이 달라요.</b> 둘 다 계산은 맞고, <b>기준 시점이 다른 것</b>이에요 — 실적 발표는 났지만 정식 공시서류(10-Q) 제출은 며칠~몇 주 뒤라, 왼쪽은 최신 분기가 반영된 반면 03 탭은 <b>${sec.lastPeriod}까지</b>만 반영돼 있어요. 최신치는 왼쪽, 검증된 확정치는 03 탭으로 보세요.`);
   }
   if(!notes.length) return '';
@@ -6639,16 +6666,38 @@ function earningsComment(data, mode){
 
 // ---- 04 재무제표: 손익 관점 ----
 function incomeComment(annual){
-  const rows = annual.filter(d=>d.revenue!=null);
-  if(rows.length < 2) return '';
+  const allRows = annual.filter(d=>d.revenue!=null);
+  if(allRows.length < 2) return '';
   const items = [];
   let tone = 'plain';
-  const first = rows[0], last = rows[rows.length-1];
-  const yrs = rows.length - 1;
+  const last = allRows[allRows.length-1];
+  // 2026-09-10 수정(외부 검토로 발견, SNDK 사례) - CAGR 계산에 두 가지 문제가 있었다.
+  // (1) 연차를 실제 경과 기간이 아니라 "행 개수-1"로 계산해서, 옛 법인 데이터(2012)가 섞여
+  // 배열에 [2012,2023,2024,2025,2026] 5개 행이 있으면 실제 14년 격차를 4년으로 잘못 나눠
+  // 연평균 41.5%라는 터무니없는 값이 나왔다. (2) 옛 SanDisk 법인(CIK 1000180, 현재 법인은
+  // CIK 2023554로 별개)의 2012년 실적이 현재 법인 시계열에 그대로 섞여 있어 법인·사업범위가
+  // 안 이어지는 비교였다. 두 문제를 한 번에 방어: 최신 행에서부터 거슬러 올라가며 인접 행
+  // 간격이 450일(약 15개월 - 회계연도 종료일이 몇 주 당겨지거나 미뤄져도 흡수할 여유)을
+  // 넘는 지점에서 끊어, 그 이후(최신 쪽)의 연속된 구간만 CAGR 계산에 쓴다 - 특정 종목을
+  // 하드코딩하지 않고 "장기간 공백이 있으면 연속된 시계열이 아니다"라는 일반 규칙으로 처리.
+  let cagrStart = allRows.length - 1;
+  for(let i=allRows.length-1;i>0;i--){
+    const d0 = allRows[i-1].endDate ? new Date(allRows[i-1].endDate) : null;
+    const d1 = allRows[i].endDate ? new Date(allRows[i].endDate) : null;
+    if(!d0 || !d1 || (d1-d0)/86400000 > 450) break;
+    cagrStart = i-1;
+  }
+  // CAGR 계산에만 쓰는 연속구간 - 옛 법인 데이터나 공백 이전 구간을 잘라낸다. 영업이익률·
+  // 레버리지 등 아래 나머지 계산은 원래대로 allRows(최근 2개 연도)를 그대로 쓴다 - 그쪽은
+  // 애초에 "행 개수-1년"이라는 CAGR 특유의 버그가 없었고, 이 구간분리와 무관하다.
+  const cagrRows = allRows.slice(cagrStart);
+  const rows = allRows;
+  const first = cagrRows[0];
+  const yrs = (first.endDate && last.endDate) ? (new Date(last.endDate)-new Date(first.endDate))/86400000/365.25 : (cagrRows.length-1);
   // 매출 연평균 성장률(CAGR)
-  if(first.revenue > 0 && last.revenue > 0 && yrs >= 1){
+  if(first.revenue > 0 && last.revenue > 0 && yrs >= 0.7){
     const cagr = (Math.pow(last.revenue/first.revenue, 1/yrs) - 1) * 100;
-    items.push(`최근 ${yrs+1}개 연도(${first.period}→${last.period}) 매출은 $${fmtUsd(first.revenue)} → $${fmtUsd(last.revenue)}로 <b>연평균 ${pctStr(cagr)}</b> 변했어요.`);
+    items.push(`최근 ${cagrRows.length}개 연도(${first.period}→${last.period}) 매출은 $${fmtUsd(first.revenue)} → $${fmtUsd(last.revenue)}로 <b>연평균 ${pctStr(cagr)}</b> 변했어요.${cagrStart>0 ? ' <span class="sub">(그 이전 연도는 데이터 공백/법인변경 등으로 연속된 비교가 어려워 제외)</span>' : ''}`);
     if(cagr < 0) tone = 'warn';
   }
   // 영업이익률 추이
@@ -6763,9 +6812,12 @@ function computeFinancialDirection(r, fin){
   if(annual.length < 2) return null;
   const lastA = annual[annual.length-1], prevA = annual[annual.length-2];
   const lastQ = quarterly[quarterly.length-1] || null;
-  const qMatch = lastQ && String(lastQ.period).match(/^Q([1-4])'(\d{2})$/);
-  const yoyLabel = qMatch ? `Q${qMatch[1]}'${String(Number(qMatch[2])-1).padStart(2,'0')}` : null;
-  const yoyQ = yoyLabel ? quarterly.find(d=>String(d.period)===yoyLabel) : null;
+  // 2026-09-10 수정(외부 검토로 발견) - 여기만 findYoYRow(날짜 기준 전년 동기, 2026-09-09에
+  // 03 탭 버그 수정하며 만든 함수)를 안 쓰고 분기 라벨 문자열의 연도만 1 빼는 옛 방식이 남아
+  // 있었다. 03 탭과 04 탭 종합진단이 같은 최신 분기를 두고 서로 다른 "전년 동기" 행을 찾아
+  // 성장률이 251.0%(03 탭) vs 213.0%(04 탭)처럼 갈리는 원인이었음(SNDK 실측 재현). 이제 같은
+  // findYoYRow를 재사용해서 모든 탭이 항상 같은 전년 동기를 가리키게 한다.
+  const yoyQ = lastQ ? findYoYRow(quarterly, quarterly.length-1, true) : null;
   const opm = d => d?.revenue && d.opIncome!=null ? d.opIncome/d.revenue*100 : null;
   const fcfm = d => d?.revenue && d.fcf!=null ? d.fcf/d.revenue*100 : null;
   const qRevG = lastQ && yoyQ ? growth(lastQ.revenue, yoyQ.revenue) : null;

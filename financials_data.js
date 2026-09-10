@@ -15369,7 +15369,7 @@ const FINANCIALS_DATA = {
         "netIncome": -14632000.0,
         "opIncome": -9651000,
         "endDate": "2024-09-30",
-        "eps": -60
+        "eps": -0.06
       },
       {
         "period": "Q4'24",
@@ -15413,7 +15413,7 @@ const FINANCIALS_DATA = {
         "netIncome": -22960000.0,
         "opIncome": 7846000,
         "endDate": "2025-09-30",
-        "eps": -100,
+        "eps": -0.1,
         "ocf": 19669000.0,
         "capex": -12301000.0,
         "fcf": 7368000.0,
