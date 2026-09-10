@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789022968.1054285,
+  "generatedAt": 1789024999.702858,
   "records": {
     "MSFT": [
       {
@@ -1527,6 +1527,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "GOOGL": [
+      {
+        "changedAt": 1789024999.702858,
+        "dataAsOf": 1789008087,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.57,
+            "after": 1.22
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": 2.45,
+            "after": 1.75
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.18,
+            "after": -0.17
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?",
+        "newsUrl": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
+        "eventId": "a66e455b3f1e8dd64c22",
+        "fingerprint": "{\"changes\": [{\"after\": 1.22, \"before\": 1.57, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.75, \"before\": 2.45, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.17, \"before\": 0.18, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"a66e455b3f1e8dd64c22\"}"
+      },
       {
         "changedAt": 1789013800.1175673,
         "dataAsOf": 1789008087,
@@ -3297,29 +3326,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=0c3e4671d412eba59683f5b4fd378521ca4434e4b991bed8d8da4491d9fa3690",
         "eventId": "649ac909bfe61a7ed225",
         "fingerprint": "{\"changes\": [{\"after\": 2.8, \"before\": 3.15, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": 1.92, \"before\": 2.62, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -1.05, \"before\": -0.7, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}, {\"after\": \"중립·확인 대기\", \"before\": \"우호적 변화\", \"key\": \"signal\", \"label\": \"종합 시그널\"}], \"eventId\": \"649ac909bfe61a7ed225\"}"
-      },
-      {
-        "changedAt": 1787478462.1125898,
-        "dataAsOf": 1787385601,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 3.67,
-            "after": 2.62
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 0.35,
-            "after": -0.7
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "Meta는 법정에 상륙한 최신 기술 거인입니다. 이본느 곤잘레스 로저스 판사를 만나보세요",
-        "newsUrl": "https://finnhub.io/api/news?id=0c3e4671d412eba59683f5b4fd378521ca4434e4b991bed8d8da4491d9fa3690",
-        "eventId": "649ac909bfe61a7ed225",
-        "fingerprint": "{\"changes\": [{\"after\": 2.62, \"before\": 3.67, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -0.7, \"before\": 0.35, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"649ac909bfe61a7ed225\"}"
       }
     ],
     "AMZN": [
@@ -4920,6 +4926,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "META": [
+      {
+        "changedAt": 1789024999.702858,
+        "dataAsOf": 1788991309,
+        "changes": [
+          {
+            "key": "longTermCompetitiveness",
+            "label": "장기 사업 경쟁력",
+            "before": 1.22,
+            "after": 0.87
+          },
+          {
+            "key": "growth",
+            "label": "성장성",
+            "before": -0.7,
+            "after": -1.4
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.97,
+            "after": -3.32
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "S&P 500, Dow, Nasdaq은 유가가 101달러를 넘으면서 하락 마감, Bessent의 확장된 환매 계획에 따라 팝 수익률 — AAPL, META, AMZN, CRM 집중",
+        "newsUrl": "https://finnhub.io/api/news?id=c3337d011ae7dd402563733535a14ca9a5cc988f69539437d6ff2872117c48d2",
+        "eventId": "167286f06cba9abc13f0",
+        "fingerprint": "{\"changes\": [{\"after\": 0.87, \"before\": 1.22, \"key\": \"longTermCompetitiveness\", \"label\": \"장기 사업 경쟁력\"}, {\"after\": -1.4, \"before\": -0.7, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": -3.32, \"before\": -2.97, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"167286f06cba9abc13f0\"}"
+      },
       {
         "changedAt": 1789010069.714424,
         "dataAsOf": 1788991309,
@@ -12728,6 +12763,23 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "NVDA": [
       {
+        "changedAt": 1789024999.702858,
+        "dataAsOf": 1788998437,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": 0.0,
+            "after": -0.35
+          }
+        ],
+        "cause": "AI 컴퓨팅 수요 확대 가능성",
+        "newsHeadline": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
+        "eventId": "56a1cac3074a99cfdcd0",
+        "fingerprint": "{\"changes\": [{\"after\": -0.35, \"before\": 0.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}], \"eventId\": \"56a1cac3074a99cfdcd0\"}"
+      },
+      {
         "changedAt": 1789010069.714424,
         "dataAsOf": 1788994932,
         "changes": [
@@ -14011,32 +14063,32 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=b61277ffeb68645f1ac6247887f96e447e1946211065fea69ac920df725df94a",
         "eventId": "d07939fbac8873f36991",
         "fingerprint": "{\"changes\": [{\"after\": 4.55, \"before\": 4.2, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.45, \"before\": 2.1, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"d07939fbac8873f36991\"}"
-      },
-      {
-        "changedAt": 1788266010.7266803,
-        "dataAsOf": 1788198351,
-        "changes": [
-          {
-            "key": "growth",
-            "label": "성장성",
-            "before": 4.55,
-            "after": 4.2
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": 2.45,
-            "after": 2.1
-          }
-        ],
-        "cause": "회사 실적과의 연결고리 확인",
-        "newsHeadline": "Nvidia: 이 요새는 감정의 폭풍을 견딜 수 있습니다",
-        "newsUrl": "https://finnhub.io/api/news?id=8ebab418c29d8b95bd9d4fbaa3f279658429e6b5908b4d304bc969b388b9c729",
-        "eventId": "1c80bb1458e82f446d2b",
-        "fingerprint": "{\"changes\": [{\"after\": 4.2, \"before\": 4.55, \"key\": \"growth\", \"label\": \"성장성\"}, {\"after\": 2.1, \"before\": 2.45, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"1c80bb1458e82f446d2b\"}"
       }
     ],
     "AMD": [
+      {
+        "changedAt": 1789024999.702858,
+        "dataAsOf": 1788998437,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.1,
+            "after": -2.45
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.5,
+            "after": -3.85
+          }
+        ],
+        "cause": "AI 가속기·서버 경쟁 수요 확대 가능성",
+        "newsHeadline": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
+        "eventId": "56a1cac3074a99cfdcd0",
+        "fingerprint": "{\"changes\": [{\"after\": -2.45, \"before\": -2.1, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.85, \"before\": -3.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}], \"eventId\": \"56a1cac3074a99cfdcd0\"}"
+      },
       {
         "changedAt": 1789010069.714424,
         "dataAsOf": 1788993660,
@@ -29231,6 +29283,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "VST": [
+      {
+        "changedAt": 1789024999.702858,
+        "dataAsOf": 1789008146,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -2.0,
+            "after": -3.05
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -2.05,
+            "after": -2.57
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -2.0,
+            "after": -3.05
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "줄어들고 있는 주식 수 때문에 Vistra 주식을 구입해야 합니까?",
+        "newsUrl": "https://finnhub.io/api/news?id=2160e9a78634d856fee5f5e417254484e9cde4b24fdeaf16edefd73c5b86885d",
+        "eventId": "965594dc2c97ca7af01b",
+        "fingerprint": "{\"changes\": [{\"after\": -3.05, \"before\": -2.0, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.57, \"before\": -2.05, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.05, \"before\": -2.0, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"965594dc2c97ca7af01b\"}"
+      },
       {
         "changedAt": 1788979660.6317592,
         "dataAsOf": 1788946435,

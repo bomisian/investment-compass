@@ -42,7 +42,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 0.22,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -325,7 +325,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 10.2,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -367,7 +367,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 12.38,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -409,7 +409,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 18.02,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -451,7 +451,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 25.49,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -640,7 +640,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "million",
         "variancePct": 27.86,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1081,7 +1081,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 18.33,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1206,7 +1206,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1789002352.2517457,
+      "capturedAt": 1789024982.848837,
       "filingDate": "2026-08-27",
       "accessionNumber": "0001835632-26-000022",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm",
@@ -1219,9 +1219,15 @@ const GUIDANCE_HISTORY_DATA = {
             "plusMinus": 5.0,
             "unit": "billion",
             "deltaUnit": "billion"
+          },
+          {
+            "metric": "eps",
+            "center": 3.15,
+            "plusMinus": 5.0,
+            "unit": "USD/share"
           }
         ],
-        "targetPeriod": null,
+        "targetPeriod": "second quarter 2027",
         "comparison": "no_prior_guidance"
       },
       "comparison": {
@@ -1263,7 +1269,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 4.05,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1397,7 +1403,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.38,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1433,7 +1439,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.19,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1681,7 +1687,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -11.67,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1718,7 +1724,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -3.69,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1755,7 +1761,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 4.8,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1792,7 +1798,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -11.26,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
@@ -2433,7 +2439,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 6.99,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2651,7 +2657,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 28.22,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2716,7 +2722,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 128.85,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2829,7 +2835,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -39.42,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3052,7 +3058,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.96,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3088,7 +3094,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 2.81,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3124,7 +3130,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 5.86,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
@@ -3231,7 +3237,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -75.04,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3267,7 +3273,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -72.69,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3303,7 +3309,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -75.38,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3339,7 +3345,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": -79.25,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3425,7 +3431,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "million",
         "variancePct": 398.26,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
@@ -3997,7 +4003,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 6.26,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4063,7 +4069,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 9.54,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4106,7 +4112,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 13.0,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4149,7 +4155,7 @@ const GUIDANCE_HISTORY_DATA = {
         "unit": "billion",
         "variancePct": 15.26,
         "source": "SEC Company Facts",
-        "settledAt": 1789022967.0816262,
+        "settledAt": 1789024982.848837,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
