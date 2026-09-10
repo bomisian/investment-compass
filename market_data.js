@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 103.87999725341797,
+      "current": 103.9000015258789,
       "prevClose": 96.05000305175781,
-      "changeAbs": 7.829994201660156,
-      "changePct": 8.151997868694352,
+      "changeAbs": 7.849998474121094,
+      "changePct": 8.172824804483367,
       "pctRank": 94.03341288782816,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -8.030101761738361,
-      "ma20": 87.65350112915038,
-      "ma60": 81.00883356730144,
-      "chg1m": 20.68000030517578,
-      "chg3m": 13.849998474121094,
-      "chg1mPct": 24.855770509271274,
-      "chg3mPct": 15.38375948229604,
+      "drawdown1y": -8.012391028669363,
+      "ma20": 87.65450134277344,
+      "ma60": 81.00916697184245,
+      "chg1m": 20.70000457763672,
+      "chg3m": 13.870002746582031,
+      "chg1mPct": 24.879814106861044,
+      "chg3mPct": 15.405979045477395,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Jim Cramer says this is the key force driving stocks right now",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/10/jim-cramer-key-force-driving-stocks-right-now.html",
+      "datetime": 1789080414,
+      "headlineKo": "Jim Cramer는 이것이 현재 주식을 움직이는 핵심 원동력이라고 말합니다."
+    },
+    {
       "headline": "US average diesel price crosses $6 a gallon for the first time, GasBuddy says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
       "datetime": 1789060349,
       "headlineKo": "OpenAI는 금융 서비스를 위한 새로운 ChatGPT를 통해 월스트리트 하급 은행가의 작업을 목표로 합니다."
-    },
-    {
-      "headline": "COMMENTARY: Asia's oil industry wants Trump to leave the Gulf, but expects he won't - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMm1IdXZwdFBoY28xel9yZ3VNRGs3a0RTbDhTb3ZDWEw0VFZqZE5mNVJ6b2theVp3Q2p0emhIWmZwLXc4ako5eDl3UzVWZkRaQ3RHX05VbkNhVkVxbk9ISXhLMjVaLTRHc1FDdHAxb1QxN2hYSldJUzVGYVhmeWNiRVV0UjNtcHdubFpKWVFYWDZ4OVBJRFRSREhvcVlYVjV0YnFwUTNKeDBvU2hYMEE5SWFubFFCZlhSMTFaUnJMY19oYnI5?oc=5",
-      "datetime": 1789059703,
-      "headlineKo": "논평: 아시아 석유 산업은 트럼프가 걸프만에서 떠나길 원하지만 그렇지 않을 것으로 예상한다 - 로이터"
     }
   ],
   "fgi": {
     "score": 33.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1789081241.0622258,
+  "_fetched_at": 1789081268.8585842,
   "_updated_label": "2026-09-11 08:01",
-  "_last_attempt_at": 1789081241.0622258,
-  "_last_success_at": 1789081241.0622258,
+  "_last_attempt_at": 1789081268.8585842,
+  "_last_success_at": 1789081268.8585842,
   "_collection_status": "ok",
   "_collection_errors": []
 };
