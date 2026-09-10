@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789055035.3537834,
+  "generatedAt": 1789056043.7650983,
   "events": [
     {
       "id": "3803f433052fce0767d4",
@@ -1802,7 +1802,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
         "publishedAt": 1789009326,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2166,7 +2166,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
         "publishedAt": 1788998437,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -6361,7 +6361,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec65cf11e158efd3a89bf713755c235087e6ba69d6e86e447dafe85c63eaa5aa",
         "publishedAt": 1788964020,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7370,7 +7370,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6a1725f9349bd10a892af246c0a1f509d6c6609aab3e95c3d6cb07ab69b41f74",
         "publishedAt": 1788956919,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10570,13 +10570,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
         "publishedAt": 1788911881,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy의 가장 큰 AI 파워 딜은 2027년 6월까지 지불을 시작하지 않습니다 | The Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool에 가입 작년 6월, Meta Platforms (META +6.55",
-        "이 계약은 1,121 메가와트의 원자력 발전을 다루며, Constellation이 다른 인공 지능 (AI) 구매자에게 약속한 것보다 더 많은 출력을 제공합니다.",
-        "다음으로 가장 큰 것은 Microsoft를 위해 Three Mile Island 장치를 다시 시작하는 약 835 메가와트 계약입니다."
+        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +0.03",
+        "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
+        "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -12245,7 +12245,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14725,7 +14725,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15559,7 +15559,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1789034123.7049592
+        "collectedAt": 1789056002.9754999
       },
       "confirmedFacts": [],
       "reportedClaims": [

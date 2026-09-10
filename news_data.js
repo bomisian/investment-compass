@@ -7310,7 +7310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -14293,7 +14293,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 184,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
@@ -21040,7 +21040,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -26986,7 +26986,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -34220,7 +34220,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -36928,7 +36928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -43753,7 +43753,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -50086,7 +50086,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 167,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -57300,9 +57300,9 @@ const NEWS_DATA = {
     "_updated_label": "2026-09-11 00:42",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 190,
-      "removed": 2,
-      "updated": "2026-09-11 00:43"
+      "checked": 188,
+      "removed": 0,
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -64340,7 +64340,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 179,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -69506,7 +69506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -73739,7 +73739,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -76006,7 +76006,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
@@ -78801,7 +78801,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -82938,7 +82938,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -88459,7 +88459,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -88475,70 +88475,11 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth",
+        "headline": "Salesforce Completes Acquisition of Fin",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
-        "datetime": 1789009326,
+        "url": "https://finnhub.io/api/news?id=0eb75642b7864cba71b2d69df023a2401fef86c34b12dbd18fc277c590c4914b",
+        "datetime": 1789045200,
         "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "AI 투자 변화 · 수요와 현금 부담",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Salesforce는 Slack을 변형하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다. 주요 콘텐츠로 건너뛰기 → BlackRock과 Vanguard는 이미 이것을 소유하고 있습니다 (Monument Traders Alliance에서) (광고) Salesforce는 Slack을 변형하고 Premium Gr을 주도하는 AI 에이전트를 봅니다.",
-            "MarketBeat Media, LLC의 이미지를 닫습니다.",
-            "핵심 포인트 Salesforce는 Anthropic과의 Claudeforce 파트너십을 통해 직원 생산성을 향상시키고 Salesforce 제품의 고객 사용을 확대하는 것을 목표로 AI 에이전트를 주요 성장 동력으로 포지셔닝하고 있습니다."
-          ],
-          "why": [
-            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 5%, 60%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "실제 CAPEX 집행",
-            "공급업체 수주·매출",
-            "투자 기업 OCF·FCF·부채"
-          ],
-          "interpretation": "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.5,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "5%",
-            "60%",
-            "80%"
-          ],
-          "sourceExcerpt": [
-            "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth Skip to main content → BlackRock and Vanguard already own THIS (From Monument Traders Alliance) (Ad) Salesforce Sees AI Agents Transforming Slack and Driving Premium Gr",
-            "Close Image from MarketBeat Media, LLC.",
-            "Key Points Salesforce is positioning AI agents as a major growth driver , with the Claudeforce partnership with Anthropic aimed at improving employee productivity and expanding customer use of Salesforce products."
-          ],
-          "analysisUpdatedAt": 1789034133.8904636
-        },
-        "headlineKo": "Salesforce는 Slack을 혁신하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다"
-      },
-      {
-        "headline": "Salesforce, Inc. (CRM) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=93b923b4972dc2773d6a034b2c681ceed63ccd49f37e7c23097e51ac4fe682ff",
-        "datetime": 1789004224,
-        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -88549,7 +88490,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce, Inc. (CRM) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
+            "Salesforce Completes Acquisition of Fin",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -88573,106 +88514,334 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce, Inc. (CRM) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Completes Acquisition of Fin' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034134.800506
+          "analysisUpdatedAt": 1789056009.4051251
         },
-        "headlineKo": "Salesforce, Inc. (CRM), Goldman Sachs Communacopia + Technology Conference 2026에서 발표"
+        "headlineKo": "Salesforce, Fin 인수 완료"
       },
       {
-        "headline": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+        "headline": "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
-        "datetime": 1788998437,
+        "url": "https://finnhub.io/api/news?id=a95966a13e40de17850285965629c3bba7a9df2ed508b78fedf080d42f90ac57",
+        "datetime": 1789043880,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "medium",
-          "tone": "positive",
-          "certainty": "전망·추정 포함",
-          "label": "AI 인프라 자금 유입 확대",
-          "horizon": "중기 투자 사이클",
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
-            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
-            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+            "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
-            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
-            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
-            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
-            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
-              "ticker": "NVDA",
-              "stance": "긍정",
-              "reason": "AI 컴퓨팅 수요 확대 가능성"
-            },
-            {
-              "ticker": "AMD",
-              "stance": "긍정",
-              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "AI 서버 메모리 수요와 가격 강세"
-            },
-            {
-              "ticker": "ORCL",
-              "stance": "혼합",
-              "reason": "클라우드 수요와 자본 부담 동시 확대"
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "실제 수주·가동 데이터센터",
-            "관련 기업 매출·수주잔고",
-            "CAPEX 대비 영업현금흐름",
-            "금리와 프로젝트 부채 비용"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
-          "quality": "high",
+          "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034136.9610887
+          "analysisUpdatedAt": 1789056012.2838645
         },
-        "headlineKo": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다."
+        "headlineKo": "Per Scholas, 혁신적인 새 Salesforce AI 펠로우십 파일럿 출시"
+      },
+      {
+        "headline": "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7b04bd613caa68ca00fc9116fcd138c8c9bb4334ef4ff65cfae90d14966c8a29",
+        "datetime": 1789031564,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056015.3338547
+        },
+        "headlineKo": "20억 달러 규모의 Salesforce, Listen Labs 인수 논의 - 에이전트 연구 스택 통합"
       },
       {
         "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be01483cc76350cabb8454f4d540d99659c450ada2d0d0ff35e4364f1b716e11",
-        "datetime": 1788998400,
+        "url": "https://finnhub.io/api/news?id=e3f35126d55bb947a5beb35c1309544e8afa332eec6d6dc5d6ef74db78ecf49a",
+        "datetime": 1789030800,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정"
       },
       {
-        "headline": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
+        "headline": "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=47971f33d35fed406b730a424111ed0f58ef3fd3a7bc00253b6fdb97a1b962c7",
-        "datetime": 1788991067,
-        "relevance": 1,
+        "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
+        "datetime": 1789009326,
+        "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Salesforce(CRM)의 Agentforce 성장이 F5(FFIV)의 AI 보안 모멘텀을 능가할 만큼 충분합니까?"
+        "headlineKo": "Salesforce는 Slack을 혁신하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Salesforce Completes Acquisition of Fin",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=0eb75642b7864cba71b2d69df023a2401fef86c34b12dbd18fc277c590c4914b",
+        "datetime": 1789045200,
+        "headlineKo": "Salesforce, Fin 인수 완료",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce Completes Acquisition of Fin",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Completes Acquisition of Fin' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056009.4051251
+        }
+      },
+      {
+        "headline": "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=a95966a13e40de17850285965629c3bba7a9df2ed508b78fedf080d42f90ac57",
+        "datetime": 1789043880,
+        "headlineKo": "Per Scholas, 혁신적인 새 Salesforce AI 펠로우십 파일럿 출시",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Per Scholas Launches Innovative New Salesforce AI Fellowship Pilot' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056012.2838645
+        }
+      },
+      {
+        "headline": "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=7b04bd613caa68ca00fc9116fcd138c8c9bb4334ef4ff65cfae90d14966c8a29",
+        "datetime": 1789031564,
+        "headlineKo": "20억 달러 규모의 Salesforce, Listen Labs 인수 논의 - 에이전트 연구 스택 통합",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce in $2B Talks to Acquire Listen Labs – Consolidating the Agentic Research Stack' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056015.3338547
+        }
+      },
+      {
+        "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=e3f35126d55bb947a5beb35c1309544e8afa332eec6d6dc5d6ef74db78ecf49a",
+        "datetime": 1789030800,
+        "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789011923.6754916
+        }
+      },
       {
         "headline": "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth",
         "source": "Yahoo",
@@ -88845,55 +89014,6 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789034136.9610887
-        }
-      },
-      {
-        "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=be01483cc76350cabb8454f4d540d99659c450ada2d0d0ff35e4364f1b716e11",
-        "datetime": 1788998400,
-        "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정",
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "CRM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.5,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789011923.6754916
         }
       },
       {
@@ -92759,17 +92879,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1789034123.7049592,
-    "_updated_label": "2026-09-10 18:55",
+    "_fetched_at": 1789056002.9754999,
+    "_updated_label": "2026-09-11 01:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 110,
+      "checked": 113,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
-    "_last_attempt_at": 1789034123.7049592,
+    "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
-    "_last_success_at": 1789034123.7049592,
+    "_last_success_at": 1789056002.9754999,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -98191,7 +98311,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -101229,7 +101349,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -101244,6 +101364,56 @@ const NEWS_DATA = {
       "revenueEstimate": 1389198904
     },
     "news": [
+      {
+        "headline": "Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4e752d0c16fed46470f1d1fe19a2598f289e82dd0175da50abe335107b450dfc",
+        "datetime": 1789041822,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056022.8891037
+        },
+        "headlineKo": "Arm Holdings(ARM): AI 인프라 및 CPU 수요가 낙관적인 전망을 주도합니다"
+      },
       {
         "headline": "Arm's Rise Hides a $200 Billion Robot Bet",
         "source": "Yahoo",
@@ -101290,7 +101460,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034147.4321523
+          "analysisUpdatedAt": 1789056025.0510414
         },
         "headlineKo": "Arm's Rise는 2000억 달러 규모의 로봇 베팅을 숨겼습니다."
       },
@@ -101340,7 +101510,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034148.3421514
+          "analysisUpdatedAt": 1789056026.168583
         },
         "headlineKo": "Agentic AI를 위한 Arm 새로 고침"
       },
@@ -101352,60 +101522,6 @@ const NEWS_DATA = {
         "relevance": 0.75,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Arm's Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 − 0.25% Russell 2000 2,922.65 − 0.03% S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 − 0.25% Russell 2000 2,922.65 − 0.",
-            "By Vandita Jadeja 2026 년 9 월 8 일 오후 1시 30 분 (동부 표준시) · 3 분 읽음 실리콘 밸리의 ARM 본사."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: $264.43, $257., 3.17% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "ARM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "ARM",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "ARM에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.75,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "$264.43",
-            "$257.",
-            "3.17%",
-            "90%",
-            "$257.00",
-            "135.11%",
-            "89.7%",
-            "6.4%"
-          ],
-          "sourceExcerpt": [
-            "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 −0.25% Russell 2000 2,922.65 −0.03% S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 −0.25% Russell 2000 2,922.65 −0.",
-            "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
-          ],
-          "analysisUpdatedAt": 1789034157.1464953
-        },
         "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다."
       },
       {
@@ -101417,19 +101533,58 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "Arm, AI 범위를 데이터 센터에서 엣지 장치로 확장"
-      },
-      {
-        "headline": "AI Could Eventually Crack Cancer and Drug Discovery, Says Arm CEO — But This Is What’s Holding It Back",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=649b29b871f468e0579b3903f7d79c2aac4d143b682d97b799d70ef12858c5e5",
-        "datetime": 1788878206,
-        "relevance": 0.75,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Arm CEO는 AI가 결국 암과 신약 발견을 해독할 수 있다고 말하지만 이것이 방해가 되는 요인이라고 말합니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=4e752d0c16fed46470f1d1fe19a2598f289e82dd0175da50abe335107b450dfc",
+        "datetime": 1789041822,
+        "headlineKo": "Arm Holdings(ARM): AI 인프라 및 CPU 수요가 낙관적인 전망을 주도합니다",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "ARM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 ARM의 사업과 관련된 'Arm Holdings (ARM): AI Infrastructure and CPU Demand Drive Upbeat Outlook' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "ARM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789056022.8891037
+        }
+      },
       {
         "headline": "Arm's Rise Hides a $200 Billion Robot Bet",
         "source": "Yahoo",
@@ -101476,7 +101631,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034147.4321523
+          "analysisUpdatedAt": 1789056025.0510414
         }
       },
       {
@@ -101525,7 +101680,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034148.3421514
+          "analysisUpdatedAt": 1789056026.168583
         }
       },
       {
@@ -102921,17 +103076,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789034123.7049592,
-    "_updated_label": "2026-09-10 18:55",
+    "_fetched_at": 1789056002.9754999,
+    "_updated_label": "2026-09-11 01:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 42,
+      "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
-    "_last_attempt_at": 1789034123.7049592,
+    "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
-    "_last_success_at": 1789034123.7049592,
+    "_last_success_at": 1789056002.9754999,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -107893,7 +108048,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -110293,7 +110448,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -112338,7 +112493,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -114072,7 +114227,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -119681,7 +119836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -121603,7 +121758,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
@@ -123731,7 +123886,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -125407,7 +125562,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -127416,7 +127571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -129406,7 +129561,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -129437,9 +129592,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy의 가장 큰 AI 파워 딜은 2027년 6월까지 지불을 시작하지 않습니다 | The Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool에 가입 작년 6월, Meta Platforms (META +6.55",
-            "이 계약은 1,121 메가와트의 원자력 발전을 다루며, Constellation이 다른 인공 지능 (AI) 구매자에게 약속한 것보다 더 많은 출력을 제공합니다.",
-            "다음으로 가장 큰 것은 Microsoft를 위해 Three Mile Island 장치를 다시 시작하는 약 835 메가와트 계약입니다."
+            "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +0.03",
+            "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
+            "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -129477,11 +129632,11 @@ const NEWS_DATA = {
             "$12.50"
           ],
           "sourceExcerpt": [
-            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META +6.55",
+            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META +0.03",
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1789034168.7543755
+          "analysisUpdatedAt": 1789056036.725023
         },
         "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
       },
@@ -129501,13 +129656,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "핵재고 페이스 오프: 별자리 에너지 또는 Vistra가 지금 구매하는 것이 더 낫습니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool Constellation Energy (CEG -1.72%) 에 가입하여 미국 최대 규모의",
-            "2025 회계연도 말에 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
+            "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG -0.95% )는 미국 최대 규모를 운영하고 있습니다.",
+            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.41%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -129531,21 +129686,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.41%",
+            "0.87%",
             "22.4 times",
             "14.4 times",
-            "1.72 %",
-            "$ 293.91",
+            "0.95 %",
+            "$ 291.12",
             "$104",
-            "$ 292.75",
-            "$ 298.08"
+            "$ 286.76",
+            "$ 294.84"
           ],
           "sourceExcerpt": [
             "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -1.72% ) operates the largest U.S.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -0.95% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1789034178.1464424
+          "analysisUpdatedAt": 1789056039.9377763
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -129595,7 +129750,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034179.204892
+          "analysisUpdatedAt": 1789056041.2938185
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -129637,9 +129792,9 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Constellation Energy의 가장 큰 AI 파워 딜은 2027년 6월까지 지불을 시작하지 않습니다 | The Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool에 가입 작년 6월, Meta Platforms (META +6.55",
-            "이 계약은 1,121 메가와트의 원자력 발전을 다루며, Constellation이 다른 인공 지능 (AI) 구매자에게 약속한 것보다 더 많은 출력을 제공합니다.",
-            "다음으로 가장 큰 것은 Microsoft를 위해 Three Mile Island 장치를 다시 시작하는 약 835 메가와트 계약입니다."
+            "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +0.03",
+            "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
+            "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -129677,11 +129832,11 @@ const NEWS_DATA = {
             "$12.50"
           ],
           "sourceExcerpt": [
-            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META +6.55",
+            "Constellation Energy's Biggest AI Power Deal Doesn't Start Paying Until June 2027 | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool In June of last year, Meta Platforms ( META +0.03",
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1789034168.7543755
+          "analysisUpdatedAt": 1789056036.725023
         }
       },
       {
@@ -129700,13 +129855,13 @@ const NEWS_DATA = {
           "label": "회사 전망 변경 · 추정치 재평가",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "핵재고 페이스 오프: 별자리 에너지 또는 Vistra가 지금 구매하는 것이 더 낫습니까?",
-            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool Constellation Energy (CEG -1.72%) 에 가입하여 미국 최대 규모의",
-            "2025 회계연도 말에 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
+            "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?",
+            "| Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy( CEG -0.95% )는 미국 최대 규모를 운영하고 있습니다.",
+            "2025년 회계연도 말 기준으로 22기가와트 이상의 용량을 갖춘 원자력 포트폴리오."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: 0.41%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "이번 기사에서 확인된 구체적 수치: 0.87%, 22.4 times, 14.4 times — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
             "CEG의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
           ],
           "beginner": [
@@ -129730,21 +129885,21 @@ const NEWS_DATA = {
           "relevance": 1,
           "quality": "medium",
           "verifiedNumbers": [
-            "0.41%",
+            "0.87%",
             "22.4 times",
             "14.4 times",
-            "1.72 %",
-            "$ 293.91",
+            "0.95 %",
+            "$ 291.12",
             "$104",
-            "$ 292.75",
-            "$ 298.08"
+            "$ 286.76",
+            "$ 294.84"
           ],
           "sourceExcerpt": [
             "Nuclear Stock Face-Off: Is Constellation Energy or Vistra the Better Buy Right Now?",
-            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -1.72% ) operates the largest U.S.",
+            "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -0.95% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1789034178.1464424
+          "analysisUpdatedAt": 1789056039.9377763
         }
       },
       {
@@ -129793,7 +129948,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789034179.204892
+          "analysisUpdatedAt": 1789056041.2938185
         }
       },
       {
@@ -130585,17 +130740,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1789034123.7049592,
-    "_updated_label": "2026-09-10 18:56",
+    "_fetched_at": 1789056002.9754999,
+    "_updated_label": "2026-09-11 01:00",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
-    "_last_attempt_at": 1789034123.7049592,
+    "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
-    "_last_success_at": 1789034123.7049592,
+    "_last_success_at": 1789056002.9754999,
     "_collection_status": "ok"
   },
   "VST": {
@@ -132578,7 +132733,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -134416,7 +134571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -135811,7 +135966,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -136499,7 +136654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789041638.421703,
     "_earnings_status": "ok",
@@ -139380,7 +139535,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -140020,7 +140175,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -141542,7 +141697,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -142640,7 +142795,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -143876,7 +144031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -144712,7 +144867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-11 00:43"
+      "updated": "2026-09-11 01:00"
     },
     "_fetched_at": 1789047192.3811722,
     "_updated_label": "2026-09-10 22:36",
