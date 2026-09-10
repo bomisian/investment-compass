@@ -7358,7 +7358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -7374,10 +7374,10 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "I Tried Apple’s First Folding iPhone. Here Are 3 Takeaways.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=cdeab036687102a4ef6e2a5724601ce3b440bc8097b05cd08ecfd4347574baba",
-        "datetime": 1789008240,
+        "headline": "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=12852a52d1475f1a060bce7bdcf6d14863fb505b5f4e25d864c4f7098c43fe0e",
+        "datetime": 1789031514,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
@@ -7389,7 +7389,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "I Tried Apple’s First Folding iPhone. Here Are 3 Takeaways.",
+            "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7413,163 +7413,183 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'I Tried Apple’s First Folding iPhone. Here Are 3 Takeaways.' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013767.1996338
+          "analysisUpdatedAt": 1789035991.9988923
         },
-        "headlineKo": "나는 Apple의 첫 번째 접이식 iPhone을 사용해 보았습니다. 여기에 3가지 요점이 있습니다."
+        "headlineKo": "Meta의 Muse는 석유가 $ 100 이상을 차지하고 Apple이 iPhone Duo를 펼치면서 AI 수익 창출 벽을 깨뜨립니다."
       },
       {
-        "headline": "iPhone Switchers Flock to Samsung Foldables: Will Apple's Duo Change That?",
+        "headline": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
-        "datetime": 1789008087,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "medium",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "목표주가 변경 · 근거 확인",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?",
-            "구독하기 한국어 속보 뉴스 최신 뉴스 TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News 시장 데이터 가격 거래소 변환 관심 목록 암호화폐 보상 발견 제품 리뷰 뉴스레터 통찰력 의견",
-            "Google에서 추천해 주세요 작성 및 편집자: Darryn Pollock 2026년 9월 10일 02:41 UTC • 업데이트: 2026년 9월 10일 02:41 UTC Apple은 2026년 9월 10일 02:41 UTC에서 자사의 첫 번째 폴더블 제품인 iPhone Duo를 공개했습니다."
-          ],
-          "why": [
-            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
-            "이번 기사에서 확인된 구체적 수치: 1.6 times, 0.28%, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-          ],
-          "beginner": [
-            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "목표주가 산식의 EPS",
-            "적용 PER 변화",
-            "회사 공식 가이던스"
-          ],
-          "interpretation": "AAPL에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 0.57,
-          "quality": "medium",
-          "verifiedNumbers": [
-            "1.6 times",
-            "0.28%",
-            "30%",
-            "$1,999",
-            "$3,199",
-            "32%",
-            "25%",
-            "$315.34,"
-          ],
-          "sourceExcerpt": [
-            "iPhone Switchers Flock to Samsung Foldables: Will Apple's Duo Change That?",
-            "Subscribe English Breaking News News Latest News TradFi Bitcoin Ripple Ethereum Altcoins Solana Memecoins ETF US Crypto News Market Data Prices Exchanges Convert Watchlist Discover Crypto Rewards Product Reviews Newsletter Insights Opinion ",
-            "Prefer us on Google Written & Edited by Darryn Pollock 10 September 2026, 02:41 UTC • Updated 10 September 2026, 02:41 UTC Apple unveiled the iPhone Duo, its first foldable, at a Sept."
-          ],
-          "analysisUpdatedAt": 1789013771.0440853
-        },
-        "headlineKo": "아이폰 전환자들이 삼성 폴더블에 몰려들다: 애플의 듀오가 이를 바꿀 것인가?"
-      },
-      {
-        "headline": "Dow, S&P 500 Futures Climb, Nasdaq Futures Slip Ahead Of Key Inflation Data Releases: AAPL, SKHY, PSKY, CHWY Stocks In Focus",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ecbe3f3b62bea0fc47a0920737fa8b945a486b75983b31e57cded2fe4c9207f4",
-        "datetime": 1789007244,
+        "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
+        "datetime": 1789029946,
         "relevance": 0.43,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
           "importance": "high",
-          "tone": "risk",
-          "certainty": "본문 기반 간이 분석",
-          "label": "회사 전망 변경 · 추정치 재평가",
-          "horizon": "다음 실적까지 확인",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
           "facts": [
-            "다우, S&P 500, 나스닥 선물은 주요 인플레이션 데이터에 앞서 어떻게 반응합니까?",
-            "신규 에이전트 연결 트렌드 뉴스 수입 전체 DIA 0.32% SPY 0.17% QQQ 0.07% Trending AAPL 0.66% DJT 0.12% SPY 0.17% META 0.72% NET 0.12% RKLB 0.36% ORCL 0.67% PR 0.13% GME 0.35% ALOY 1.78% 홈 뉴스 시장 주식 다우, S&P 500 선물 C",
-            "다우, S&P 500 선물 상승, 나스닥 선물이 주요 인플레이션 데이터 발표보다 앞서 하락: AAPL, SKHY, PSKY, CHWY 주식에 초점 노동통계국은 목요일에 생산자 물가 지수를 발표할 예정이며, 이어서 소비자 물가가 2019년에 발표될 예정입니다."
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: $100,, 4.85%, $101, 60%, $5,000, $1 trillion, $640 million, $17 billion.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
           ],
           "why": [
-            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
-            "이번 기사에서 확인된 구체적 수치: $101, $6 billion, 0.64% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
           ],
           "beginner": [
-            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
           ],
           "impacts": [
             {
               "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
             }
           ],
           "watch": [
-            "공식 매출·EPS 가이던스",
-            "컨센서스 추정치 변경",
-            "마진·FCF 전망"
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
           ],
-          "interpretation": "AAPL에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
           "relevance": 0.43,
-          "quality": "medium",
+          "quality": "high",
           "verifiedNumbers": [
+            "$100,",
+            "4.85%",
             "$101",
-            "$6 billion",
-            "0.64%",
-            "0.4%",
-            "0.1%",
-            "3.3%",
-            "3.4%",
-            "0.36%"
+            "60%",
+            "$5,000",
+            "$1 trillion",
+            "$640 million",
+            "$17 billion"
           ],
           "sourceExcerpt": [
-            "How Are Dow, S&P 500, Nasdaq Futures Reacting Ahead Of Key Inflation Data?",
-            "New Connect your Agent Trending News Earnings All DIA 0.32% SPY 0.17% QQQ 0.07% Trending AAPL 0.66% DJT 0.12% SPY 0.17% META 0.72% NET 0.12% RKLB 0.36% ORCL 0.67% PR 0.13% GME 0.35% ALOY 1.78% Home News Markets Equity Dow, S&P 500 Futures C",
-            "Dow, S&P 500 Futures Climb, Nasdaq Futures Slip Ahead Of Key Inflation Data Releases: AAPL, SKHY, PSKY, CHWY Stocks In Focus The Bureau of Labor Statistics will release the producer price index on Thursday, followed by the consumer price in"
+            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus New Connect your Agent Trending News Earnings All DIA 0.23% SPY 0.11% QQQ 0.17% Trending AVAV 6.53% UBER 0.66% SWMR 3.20%",
+            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus Retail sentiment on Stocktwits turned cautious, dipping to ‘neutral’ on SPY and ‘bearish’ on QQQ.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
           ],
-          "analysisUpdatedAt": 1789013776.8363996
+          "analysisUpdatedAt": 1789035993.3970745
         },
-        "headlineKo": "다우, S&P 500 선물 상승, 나스닥 선물이 주요 인플레이션 데이터 발표보다 앞서 하락: AAPL, SKHY, PSKY, CHWY 주식에 집중"
+        "headlineKo": "DOW, S&P 500, Nasdaq Futures Edge PPI보다 높음, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus"
       },
       {
-        "headline": "Gene Munster Says Apple Regained 'Device Design Mojo' With $1,999 iPhone Duo: 'They're Going to Sell More Than I Thought'",
+        "headline": "iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=dd822f4832db84d141ba19c8dee6d32ef15910897746f92f417d4b41ed52e0c1",
-        "datetime": 1789005989,
+        "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
+        "datetime": 1789029293,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Gene Munster는 Apple이 1,999달러 iPhone Duo로 '기기 디자인 모조'를 되찾았다고 말했습니다: '생각보다 더 많이 팔릴 것입니다'"
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789035994.1197977
+        },
+        "headlineKo": "애플이 15년 암호화폐 트렌드를 깨면서 비트코인과 이더리움의 아이폰 18 가격이 급등"
       },
       {
-        "headline": "AAPL Stock Gains Overnight: Analyst Doubles iPhone Duo Revenue Forecast And Says Apple Is ‘Likely To Outperform’ Next Week",
+        "headline": "The Zacks Analyst Blog Highlights AAPL, GXPT, VGT, FTEC, TRUT, TOPT, MGK",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=2c182360f32d3ddb962b86c103cbc57d2b43ff6659fa639b82bec1c6f07e0435",
-        "datetime": 1789004905,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=ed8a0ace3c5594eb73eb5c06899d629bf2ace0a20ad7833e776baa6cb21beb70",
+        "datetime": 1789026780,
+        "relevance": 0.43,
+        "keywordFlag": false,
+        "flagTerms": []
+      },
+      {
+        "headline": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
+        "datetime": 1789025364,
+        "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "AAPL 주가 밤새 상승: 분석가는 iPhone Duo 수익 예측을 두 배로 늘리고 다음 주에 Apple이 '더 나은 성과를 낼 가능성이 높다'고 말합니다."
+        "headlineKo": "아이폰 18 프로, 애플이 퀄컴에서 벗어나면서 C2 모뎀 출시 — 프로 맥스는 놓을 준비가 되지 않았습니다"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7761,6 +7781,219 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=12852a52d1475f1a060bce7bdcf6d14863fb505b5f4e25d864c4f7098c43fe0e",
+        "datetime": 1789031514,
+        "headlineKo": "Meta의 Muse는 석유가 $ 100 이상을 차지하고 Apple이 iPhone Duo를 펼치면서 AI 수익 창출 벽을 깨뜨립니다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789035991.9988923
+        }
+      },
+      {
+        "headline": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
+        "datetime": 1789029946,
+        "headlineKo": "DOW, S&P 500, Nasdaq Futures Edge PPI보다 높음, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
+        "relevance": 0.43,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "기사 본문에서 언급된 수치: $100,, 4.85%, $101, 60%, $5,000, $1 trillion, $640 million, $17 billion.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.43,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$100,",
+            "4.85%",
+            "$101",
+            "60%",
+            "$5,000",
+            "$1 trillion",
+            "$640 million",
+            "$17 billion"
+          ],
+          "sourceExcerpt": [
+            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus New Connect your Agent Trending News Earnings All DIA 0.23% SPY 0.11% QQQ 0.17% Trending AVAV 6.53% UBER 0.66% SWMR 3.20%",
+            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus Retail sentiment on Stocktwits turned cautious, dipping to ‘neutral’ on SPY and ‘bearish’ on QQQ.",
+            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
+          ],
+          "analysisUpdatedAt": 1789035993.3970745
+        }
+      },
+      {
+        "headline": "iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
+        "datetime": 1789029293,
+        "headlineKo": "애플이 15년 암호화폐 트렌드를 깨면서 비트코인과 이더리움의 아이폰 18 가격이 급등",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "mixed",
+          "certainty": "전망·추정 포함",
+          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
+          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "facts": [
+            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
+            "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
+            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+          ],
+          "why": [
+            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
+            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
+            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+          ],
+          "beginner": [
+            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
+            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
+            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "혼합",
+              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "메모리 ASP와 이익률 개선 가능성"
+            },
+            {
+              "ticker": "WDC",
+              "stance": "긍정",
+              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
+            },
+            {
+              "ticker": "QCOM",
+              "stance": "중립·확인",
+              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+            }
+          ],
+          "watch": [
+            "iPhone 18 실제 출고가·사전예약",
+            "애플 아이폰 출하량과 제품 믹스",
+            "메모리 현물·계약 가격",
+            "AAPL 매출총이익률과 MU/WDC 가이던스"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "relevance": 0.57,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789035994.1197977
+        }
+      },
+      {
+        "headline": "The Zacks Analyst Blog Highlights AAPL, GXPT, VGT, FTEC, TRUT, TOPT, MGK",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ed8a0ace3c5594eb73eb5c06899d629bf2ace0a20ad7833e776baa6cb21beb70",
+        "datetime": 1789026780,
+        "relevance": 0.43,
+        "keywordFlag": false
+      },
+      {
+        "headline": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
+        "datetime": 1789025364,
+        "headlineKo": "아이폰 18 프로, 애플이 퀄컴에서 벗어나면서 C2 모뎀 출시 — 프로 맥스는 놓을 준비가 되지 않았습니다",
+        "relevance": 0.57,
+        "keywordFlag": false
+      },
       {
         "headline": "I Tried Apple’s First Folding iPhone. Here Are 3 Takeaways.",
         "source": "Yahoo",
@@ -14100,17 +14333,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789013762.7746618,
-    "_updated_label": "2026-09-10 13:16",
+    "_fetched_at": 1789035988.712077,
+    "_updated_label": "2026-09-10 19:26",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 179,
+      "checked": 184,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
-    "_last_attempt_at": 1789013762.7746618,
+    "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
-    "_last_success_at": 1789013762.7746618,
+    "_last_success_at": 1789035988.712077,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -20678,7 +20911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -26381,7 +26614,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -33490,7 +33723,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -35981,7 +36214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -42628,7 +42861,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -48828,7 +49061,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 163,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -55957,7 +56190,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -62821,7 +63054,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -67952,7 +68185,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -72136,7 +72369,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -72197,7 +72430,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013784.1123827
+          "analysisUpdatedAt": 1789036009.013807
         },
         "headlineKo": "Applied Materials, Inc.(AMAT), Goldman Sachs Communacopia + Technology Conference 2026에서 발표"
       },
@@ -72247,7 +72480,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013785.9384882
+          "analysisUpdatedAt": 1789036011.1718614
         },
         "headlineKo": "Applied Materials, AMD, Broadcom, Lam Research 및 Marvell Technology의 주가 급등, 알아야 할 사항"
       },
@@ -72297,7 +72530,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013788.1418614
+          "analysisUpdatedAt": 1789036013.2754688
         },
         "headlineKo": "Capex Rebound는 Applied Materials(AMAT) 실적을 뒷받침합니다."
       },
@@ -72369,7 +72602,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013784.1123827
+          "analysisUpdatedAt": 1789036009.013807
         }
       },
       {
@@ -72418,7 +72651,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013785.9384882
+          "analysisUpdatedAt": 1789036011.1718614
         }
       },
       {
@@ -72467,7 +72700,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013788.1418614
+          "analysisUpdatedAt": 1789036013.2754688
         }
       },
       {
@@ -74397,17 +74630,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789013762.7746618,
-    "_updated_label": "2026-09-10 13:16",
+    "_fetched_at": 1789035988.712077,
+    "_updated_label": "2026-09-10 19:26",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
-    "_last_attempt_at": 1789013762.7746618,
+    "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
-    "_last_success_at": 1789013762.7746618,
+    "_last_success_at": 1789035988.712077,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -77198,7 +77431,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -81191,7 +81424,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -86471,7 +86704,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 128,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -90777,7 +91010,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 110,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789034123.7049592,
     "_earnings_status": "ok",
@@ -96025,7 +96258,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -98980,7 +99213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -100678,7 +100911,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789034123.7049592,
     "_earnings_status": "ok",
@@ -105581,7 +105814,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -107981,7 +108214,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -110026,7 +110259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -111760,7 +111993,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -117369,7 +117602,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -117430,7 +117663,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013792.8103423
+          "analysisUpdatedAt": 1789036017.050389
         },
         "headlineKo": "Western Digital Corporation(WDC), Citi의 2026 글로벌 TMT 컨퍼런스 성적표에서 발표"
       },
@@ -117480,7 +117713,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013794.9943616
+          "analysisUpdatedAt": 1789036019.0927198
         },
         "headlineKo": "Western Digital(WDC)의 가격이 너무 높나요?"
       },
@@ -117530,7 +117763,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013797.020427
+          "analysisUpdatedAt": 1789036020.9788265
         },
         "headlineKo": "시장은 하락했지만 WDC(Western Digital)가 오늘 상승한 이유"
       },
@@ -117654,7 +117887,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013792.8103423
+          "analysisUpdatedAt": 1789036017.050389
         }
       },
       {
@@ -117703,7 +117936,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013794.9943616
+          "analysisUpdatedAt": 1789036019.0927198
         }
       },
       {
@@ -117752,7 +117985,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789013797.020427
+          "analysisUpdatedAt": 1789036020.9788265
         }
       },
       {
@@ -119285,17 +119518,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789013762.7746618,
-    "_updated_label": "2026-09-10 13:16",
+    "_fetched_at": 1789035988.712077,
+    "_updated_label": "2026-09-10 19:27",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
-    "_last_attempt_at": 1789013762.7746618,
+    "_last_attempt_at": 1789035988.712077,
     "_earnings_status": "ok",
-    "_last_success_at": 1789013762.7746618,
+    "_last_success_at": 1789035988.712077,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -121419,7 +121652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -123095,7 +123328,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -125069,7 +125302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -127010,7 +127243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -128195,7 +128428,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789034123.7049592,
     "_earnings_status": "ok",
@@ -130147,7 +130380,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -131935,7 +132168,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -133330,7 +133563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -134018,7 +134251,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789019300.8901207,
     "_earnings_status": "ok",
@@ -136822,7 +137055,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -137462,7 +137695,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789031820.9965925,
     "_earnings_status": "ok",
@@ -138984,7 +139217,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -140082,7 +140315,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -141318,7 +141551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_last_attempt_at": 1789024775.7619138,
     "_earnings_status": "ok",
@@ -142154,7 +142387,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-10 18:56"
+      "updated": "2026-09-10 19:27"
     },
     "_fetched_at": 1789024775.7619138,
     "_updated_label": "2026-09-10 16:23",
