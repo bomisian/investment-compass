@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789032317.1064425,
+  "generatedAt": 1789034181.696199,
   "records": {
     "MSFT": [
       {
@@ -20241,6 +20241,35 @@ const SIGNAL_HISTORY_DATA = {
     ],
     "INTC": [
       {
+        "changedAt": 1789034181.696199,
+        "dataAsOf": 1788989390,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -4.2,
+            "after": -3.5
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -3.32,
+            "after": -2.97
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": -4.37,
+            "after": -3.67
+          }
+        ],
+        "cause": "사업·실적 연결 경로 확인 필요",
+        "newsHeadline": "Meta, 자동화된 비즈니스 메시징 강화를 위해 스웨덴 AI 스타트업 인수",
+        "newsUrl": "https://finnhub.io/api/news?id=d22aa0272d9035e92d7f7b24d9f4ddb003a454c5e657c603da3dbdfb0f3fccc9",
+        "eventId": "30be6fc1ca57d6b54525",
+        "fingerprint": "{\"changes\": [{\"after\": -3.5, \"before\": -4.2, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -2.97, \"before\": -3.32, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -3.67, \"before\": -4.37, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"30be6fc1ca57d6b54525\"}"
+      },
+      {
         "changedAt": 1789011951.2930255,
         "dataAsOf": 1788989390,
         "changes": [
@@ -22004,29 +22033,6 @@ const SIGNAL_HISTORY_DATA = {
         "newsUrl": "https://finnhub.io/api/news?id=d11879ecc00cfe961d0b9427413876c6169fb16bcb2b9b809664dd9b3c2a0d0d",
         "eventId": "0c86068003c54a67c471",
         "fingerprint": "{\"changes\": [{\"after\": -5, \"before\": -3.15, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -5, \"before\": -4.55, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0c86068003c54a67c471\"}"
-      },
-      {
-        "changedAt": 1787233987.153745,
-        "dataAsOf": 1786621274,
-        "changes": [
-          {
-            "key": "businessRisk",
-            "label": "사업 리스크",
-            "before": -2.97,
-            "after": -3.15
-          },
-          {
-            "key": "shortTermMomentum",
-            "label": "단기 뉴스 모멘텀",
-            "before": -4.2,
-            "after": -4.55
-          }
-        ],
-        "cause": "사업·실적 연결 경로 확인 필요",
-        "newsHeadline": "텐센트, 메타딜 청산으로 마누스 최대주주로 올라 텐센트, 페이스북 모기업 메타로부터 중국 인공지능 개발자 마누스 지분 인수해 최대 기업으로 성장",
-        "newsUrl": "https://finnhub.io/api/news?id=d11879ecc00cfe961d0b9427413876c6169fb16bcb2b9b809664dd9b3c2a0d0d",
-        "eventId": "0c86068003c54a67c471",
-        "fingerprint": "{\"changes\": [{\"after\": -3.15, \"before\": -2.97, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": -4.55, \"before\": -4.2, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"0c86068003c54a67c471\"}"
       }
     ],
     "TSM": [

@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789032317.0506825,
+  "generatedAt": 1789034181.6428971,
   "events": [
     {
       "id": "6cdd66a58c67e4b8faad",
@@ -69,6 +69,75 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "TSLA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
+    {
+      "id": "eeb449ab8d859a0a588a",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "CRM",
+      "relatedTickers": [
+        "CRM"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Salesforce Sees AI Agents Transforming Slack and Driving Premium Growth",
+      "headlineKo": "Salesforce는 Slack을 혁신하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f9335cd622e9b62f07e90003b18eabba31bd5fa9a9a4bd5ce2079cb2dcd7769d",
+        "publishedAt": 1789009326,
+        "collectedAt": 1789034123.7049592
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Salesforce는 Slack을 변형하고 프리미엄 성장을 주도하는 AI 에이전트를 봅니다. 주요 콘텐츠로 건너뛰기 → BlackRock과 Vanguard는 이미 이것을 소유하고 있습니다 (Monument Traders Alliance에서) (광고) Salesforce는 Slack을 변형하고 Premium Gr을 주도하는 AI 에이전트를 봅니다.",
+        "MarketBeat Media, LLC의 이미지를 닫습니다.",
+        "핵심 포인트 Salesforce는 Anthropic과의 Claudeforce 파트너십을 통해 직원 생산성을 향상시키고 Salesforce 제품의 고객 사용을 확대하는 것을 목표로 AI 에이전트를 주요 성장 동력으로 포지셔닝하고 있습니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 5%, 60%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "CRM에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: 5%, 60%, 80% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "CRM",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -402,7 +471,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
         "publishedAt": 1788998437,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4545,7 +4614,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ec65cf11e158efd3a89bf713755c235087e6ba69d6e86e447dafe85c63eaa5aa",
         "publishedAt": 1788964020,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5580,7 +5649,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6a1725f9349bd10a892af246c0a1f509d6c6609aab3e95c3d6cb07ab69b41f74",
         "publishedAt": 1788956919,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8780,13 +8849,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c3f7479f0ef0e61dc2f603c5537982ee47ceb78678bde79027b3c3042d7329dc",
         "publishedAt": 1788911881,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool 작년 6월 Meta Platforms ( META +6.55",
-        "이번 계약에는 1,121메가와트의 원자력 발전이 포함됩니다. 이는 Constellation이 다른 인공지능(AI) 구매자에게 약속한 것보다 더 많은 생산량입니다.",
-        "그 다음으로 큰 계약은 Microsoft를 위해 Three Mile Island 시설을 다시 시작하는 대략 835MW 규모의 계약입니다."
+        "Constellation Energy의 가장 큰 AI 파워 딜은 2027년 6월까지 지불을 시작하지 않습니다 | The Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + --- % | ▲ Stock Advisor + --- % Motley Fool에 가입 작년 6월, Meta Platforms (META +6.55",
+        "이 계약은 1,121 메가와트의 원자력 발전을 다루며, Constellation이 다른 인공 지능 (AI) 구매자에게 약속한 것보다 더 많은 출력을 제공합니다.",
+        "다음으로 가장 큰 것은 Microsoft를 위해 Three Mile Island 장치를 다시 시작하는 약 835 메가와트 계약입니다."
       ],
       "marketInterpretation": [
         "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -10455,13 +10524,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6f49544e65098cb7d3a1fd02aeb69a38107968980d61cf2e4ff311eaf8ce013a",
         "publishedAt": 1788888627,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.01% S&P 500 7,647.60 +0.05% 다우존스 52,520.00 +0.15% 나스닥 100 29,386.80 −0.17% 러셀 2000 2,923.65 +0.",
-        "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
+        "Arm's Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
+        "Skip to content ❚❚ At close S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 − 0.25% Russell 2000 2,922.65 − 0.03% S&P 500 7,645.20 +0.02% Dow Jones 52,466.00 +0.05% Nasdaq 100 29,360.40 − 0.25% Russell 2000 2,922.65 − 0.",
+        "By Vandita Jadeja 2026 년 9 월 8 일 오후 1시 30 분 (동부 표준시) · 3 분 읽음 실리콘 밸리의 ARM 본사."
       ],
       "marketInterpretation": [
         "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
@@ -12935,7 +13004,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a6edf8c1d1ea5f38bfc91bfff9029d5f6fa42152a98e35d47653acabd6d04abf",
         "publishedAt": 1788874662,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -13769,7 +13838,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51899971e35d2189a2b709d38a0ba5429ad9c4887359b14940936c952b8cf5ac",
         "publishedAt": 1788866400,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16588,7 +16657,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5dfb465de93e57439b0edc51fed4446e972ca8839601e2d555a4509470d8b577",
         "publishedAt": 1788798285,
-        "collectedAt": 1789011916.7857034
+        "collectedAt": 1789034123.7049592
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18040,79 +18109,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "73136971acb9ac4e0f7f",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "INTC",
-      "relatedTickers": [
-        "INTC"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Intel",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "neutral",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Intel: The $23 Billion Dilution I'm Willing To Accept",
-      "headlineKo": "인텔: 나는 기꺼이 받아들일 230억 달러의 희석",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=b2e480e2a3a316e2a1ff4ef0d5a74faa17d14b929cb0e7bdb578d9e25c76208b",
-        "publishedAt": 1788776735,
-        "collectedAt": 1789024775.7619138
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "Intel: The $23 Billion Dilution I'm Willing To Accept",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "INTC에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 다음 실적의 매출·이익·현금흐름에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "INTC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "INTC",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "신규 주식 수·행사가격",
-        "조달 자금 사용처",
-        "완전희석 주식수와 EPS"
-      ]
     }
   ],
   "byTicker": {
@@ -18258,6 +18254,15 @@ const EVENT_DATA = {
       "36ccb543e0375b1a3bf8",
       "c99deba1c784a6872bae",
       "4b7c0e83a4149ec33334"
+    ],
+    "CRM": [
+      "eeb449ab8d859a0a588a",
+      "56a1cac3074a99cfdcd0",
+      "167286f06cba9abc13f0",
+      "4fc45c922623ad43b32c",
+      "fe49fa2aa66732faa03c",
+      "eda677ae8cdc25e4a1b8",
+      "ff270ce370ec2dac3d29"
     ],
     "SPY": [
       "965594dc2c97ca7af01b",
@@ -18498,14 +18503,6 @@ const EVENT_DATA = {
       "db45bb23bdd463844372",
       "b6b859f3cb04f4165e41"
     ],
-    "CRM": [
-      "56a1cac3074a99cfdcd0",
-      "167286f06cba9abc13f0",
-      "4fc45c922623ad43b32c",
-      "fe49fa2aa66732faa03c",
-      "eda677ae8cdc25e4a1b8",
-      "ff270ce370ec2dac3d29"
-    ],
     "MU": [
       "56a1cac3074a99cfdcd0",
       "085d2539fe8f8de5b50c",
@@ -18711,8 +18708,7 @@ const EVENT_DATA = {
       "ff270ce370ec2dac3d29",
       "8262825b785fe4ee46f5",
       "bbbe8d72d89c93623fe2",
-      "6297cd2bd46a9a6ad3d0",
-      "73136971acb9ac4e0f7f"
+      "6297cd2bd46a9a6ad3d0"
     ],
     "PLTR": [
       "ee2bae2429247c2f7b1c",
