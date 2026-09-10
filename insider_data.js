@@ -9,7 +9,7 @@ const INSIDER_DATA = {
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "MSFT": {
@@ -197,7 +197,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "AMZN": {
@@ -363,7 +363,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "META": {
@@ -551,7 +551,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "TSLA": {
@@ -843,7 +843,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "AMD": {
@@ -1339,7 +1339,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "MRVL": {
@@ -2723,7 +2723,7 @@ const INSIDER_DATA = {
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "HUBB": {
@@ -2737,7 +2737,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "VRT": {
@@ -2892,7 +2892,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   },
   "STX": {
@@ -3132,7 +3132,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1788970050.0740445,
+    "_fetched_at": 1789043506.0422235,
     "_updated_label": "2026-09-10"
   }
 };
