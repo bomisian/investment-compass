@@ -2,11 +2,11 @@
 const FUNDAMENTAL_WINDOW_SCORES_DATA = {
   "schemaVersion": 1,
   "scoringVersion": "fundamental-window-v1",
-  "generatedAt": 1789007649.3746583,
+  "generatedAt": 1789007724.8431082,
   "records": {
     "MSFT": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -74,8 +74,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GOOGL": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -98,21 +98,51 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 2,
+            "change": 2,
+            "positiveEvents": 1,
+            "negativeEvents": 0,
+            "eventCount": 1
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "GOOGL",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-23",
+          "effectiveAt": 1784764800.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +24.2% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 119796000000,
+            "previous": 96428000000.0,
+            "changePct": 24.23362508814868,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "AMZN": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -210,7 +240,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "META": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -308,7 +338,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AAPL": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -406,8 +436,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "TSLA": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -430,22 +460,82 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            },
+            "Margin": {
+              "score": -2,
+              "change": -2,
+              "positiveEvents": 0,
+              "negativeEvents": 1,
+              "eventCount": 1
+            }
+          },
           "overall": {
             "score": 0,
             "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
-          },
-          "categories": {}
+            "positiveEvents": 1,
+            "negativeEvents": 1,
+            "eventCount": 2
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "TSLA",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-23",
+          "effectiveAt": 1784764800.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +25.5% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 28236000000,
+            "previous": 22496000000.0,
+            "changePct": 25.51564722617354,
+            "periodKind": "quarter"
+          }
+        },
+        {
+          "ticker": "TSLA",
+          "category": "Margin",
+          "eventType": "official_operating_margin_decline",
+          "direction": -1,
+          "baseScore": -2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-23",
+          "effectiveAt": 1784764800.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 영업이익률이 전년 동기 대비 -2.7%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
+          "evidence": {
+            "metric": "operating_margin",
+            "currentOpIncome": 398000000,
+            "currentRevenue": 28236000000,
+            "previousOpIncome": 923000000,
+            "previousRevenue": 22496000000.0,
+            "changePercentagePoints": -2.693403541215405,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "ORCL": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -468,21 +558,51 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 2,
+            "change": 2,
+            "positiveEvents": 1,
+            "negativeEvents": 0,
+            "eventCount": 1
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "ORCL",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-05-31",
+          "periodKind": "annual",
+          "filedAt": "2026-06-22",
+          "effectiveAt": 1782086400.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526277521/orcl-20260531.htm",
+          "form": "10-K",
+          "summary": "2026-05-31 기준(10-K, 2026-06-22 공시) 매출이 전년 동기 대비 +17.3% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 67357000000.0,
+            "previous": 57399000000.0,
+            "changePct": 17.34873429850694,
+            "periodKind": "annual"
+          }
+        }
+      ]
     },
     "CRM": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -595,7 +715,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PLTR": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -693,7 +813,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "NVDA": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -806,7 +926,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMD": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -904,7 +1024,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AVGO": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -938,11 +1058,56 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "AVGO",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-05-03",
+          "periodKind": "quarter",
+          "filedAt": "2026-06-09",
+          "effectiveAt": 1780963200.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+          "form": "10-Q",
+          "summary": "2026-05-03 기준(10-Q, 2026-06-09 공시) 매출이 전년 동기 대비 +47.9% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 22187000000.0,
+            "previous": 15004000000.0,
+            "changePct": 47.87390029325513,
+            "periodKind": "quarter"
+          }
+        },
+        {
+          "ticker": "AVGO",
+          "category": "Margin",
+          "eventType": "official_operating_margin_expansion",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-05-03",
+          "periodKind": "quarter",
+          "filedAt": "2026-06-09",
+          "effectiveAt": 1780963200.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000054/avgo-20260503.htm",
+          "form": "10-Q",
+          "summary": "2026-05-03 기준(10-Q, 2026-06-09 공시) 영업이익률이 전년 동기 대비 +9.8%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
+          "evidence": {
+            "metric": "operating_margin",
+            "currentOpIncome": 10788000000.0,
+            "currentRevenue": 22187000000.0,
+            "previousOpIncome": 5829000000.0,
+            "previousRevenue": 15004000000.0,
+            "changePercentagePoints": 9.773427466111501,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "QCOM": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1012,7 +1177,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ARM": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1110,7 +1275,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MRVL": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1223,8 +1388,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "INTC": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -1247,21 +1412,81 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            },
+            "Margin": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 4,
+            "change": 4,
+            "positiveEvents": 2,
+            "negativeEvents": 0,
+            "eventCount": 2
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "INTC",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-27",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-24",
+          "effectiveAt": 1784851200.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+          "form": "10-Q",
+          "summary": "2026-06-27 기준(10-Q, 2026-07-24 공시) 매출이 전년 동기 대비 +25.4% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 16128000000,
+            "previous": 12859000000.0,
+            "changePct": 25.421883505715837,
+            "periodKind": "quarter"
+          }
+        },
+        {
+          "ticker": "INTC",
+          "category": "Margin",
+          "eventType": "official_operating_margin_expansion",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-27",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-24",
+          "effectiveAt": 1784851200.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
+          "form": "10-Q",
+          "summary": "2026-06-27 기준(10-Q, 2026-07-24 공시) 영업이익률이 전년 동기 대비 +35.8%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
+          "evidence": {
+            "metric": "operating_margin",
+            "currentOpIncome": 1796000000,
+            "currentRevenue": 16128000000,
+            "previousOpIncome": -3176000000.0,
+            "previousRevenue": 12859000000.0,
+            "changePercentagePoints": 35.8345673371871,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "TSM": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1374,7 +1599,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ASML": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": false,
       "windows": {
         "7": {
@@ -1412,7 +1637,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "AMAT": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1525,7 +1750,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LRCX": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1623,7 +1848,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "KLAC": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1691,8 +1916,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MU": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -1715,21 +1940,81 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            },
+            "Margin": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 4,
+            "change": 4,
+            "positiveEvents": 2,
+            "negativeEvents": 0,
+            "eventCount": 2
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "MU",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-05-28",
+          "periodKind": "quarter",
+          "filedAt": "2026-06-25",
+          "effectiveAt": 1782345600.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+          "form": "10-Q",
+          "summary": "2026-05-28 기준(10-Q, 2026-06-25 공시) 매출이 전년 동기 대비 +345.7% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 41456000000.0,
+            "previous": 9301000000.0,
+            "changePct": 345.7155144608107,
+            "periodKind": "quarter"
+          }
+        },
+        {
+          "ticker": "MU",
+          "category": "Margin",
+          "eventType": "official_operating_margin_expansion",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-05-28",
+          "periodKind": "quarter",
+          "filedAt": "2026-06-25",
+          "effectiveAt": 1782345600.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+          "form": "10-Q",
+          "summary": "2026-05-28 기준(10-Q, 2026-06-25 공시) 영업이익률이 전년 동기 대비 +57.0%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
+          "evidence": {
+            "metric": "operating_margin",
+            "currentOpIncome": 33318000000.0,
+            "currentRevenue": 41456000000.0,
+            "previousOpIncome": 2169000000.0,
+            "previousRevenue": 9301000000.0,
+            "changePercentagePoints": 57.049475326478714,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "SNDK": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1842,7 +2127,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "WDC": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -1955,7 +2240,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ANET": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2023,7 +2308,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "COHR": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2099,7 +2384,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "LITE": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2212,8 +2497,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "GEV": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -2236,21 +2521,51 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 2,
+            "change": 2,
+            "positiveEvents": 1,
+            "negativeEvents": 0,
+            "eventCount": 1
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "GEV",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-22",
+          "effectiveAt": 1784678400.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000148/gev-20260630.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-22 공시) 매출이 전년 동기 대비 +21.9% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 11104000000,
+            "previous": 9111000000.0,
+            "changePct": 21.8746570080123,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "CEG": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2348,7 +2663,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VST": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2416,7 +2731,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "ETN": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2484,7 +2799,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "PWR": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2552,7 +2867,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "HUBB": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2650,7 +2965,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "VRT": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2748,7 +3063,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "MOD": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2846,7 +3161,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "STX": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -2944,7 +3259,7 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "EME": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
@@ -3012,8 +3327,8 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
     },
     "FIX": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
-      "hasConfirmedEvidence": false,
+      "calculatedAt": 1789007724.8431082,
+      "hasConfirmedEvidence": true,
       "windows": {
         "7": {
           "overall": {
@@ -3036,21 +3351,81 @@ const FUNDAMENTAL_WINDOW_SCORES_DATA = {
           "categories": {}
         },
         "90": {
-          "overall": {
-            "score": 0,
-            "change": 0,
-            "positiveEvents": 0,
-            "negativeEvents": 0,
-            "eventCount": 0
+          "categories": {
+            "Growth": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            },
+            "Margin": {
+              "score": 2,
+              "change": 2,
+              "positiveEvents": 1,
+              "negativeEvents": 0,
+              "eventCount": 1
+            }
           },
-          "categories": {}
+          "overall": {
+            "score": 4,
+            "change": 4,
+            "positiveEvents": 2,
+            "negativeEvents": 0,
+            "eventCount": 2
+          }
         }
       },
-      "events": []
+      "events": [
+        {
+          "ticker": "FIX",
+          "category": "Growth",
+          "eventType": "official_revenue_growth",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-23",
+          "effectiveAt": 1784764800.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 매출이 전년 동기 대비 +50.3% 변했어요.",
+          "evidence": {
+            "metric": "revenue",
+            "current": 3265656000,
+            "previous": 2173319000.0,
+            "changePct": 50.2612363854547,
+            "periodKind": "quarter"
+          }
+        },
+        {
+          "ticker": "FIX",
+          "category": "Margin",
+          "eventType": "official_operating_margin_expansion",
+          "direction": 1,
+          "baseScore": 2,
+          "periodEnd": "2026-06-30",
+          "periodKind": "quarter",
+          "filedAt": "2026-07-23",
+          "effectiveAt": 1784764800.0,
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086258/fix-20260630x10q.htm",
+          "form": "10-Q",
+          "summary": "2026-06-30 기준(10-Q, 2026-07-23 공시) 영업이익률이 전년 동기 대비 +3.3%p 변했어요(매출총이익 데이터가 없어 영업이익률로 대체).",
+          "evidence": {
+            "metric": "operating_margin",
+            "currentOpIncome": 557966000,
+            "currentRevenue": 3265656000,
+            "previousOpIncome": 299873000.0,
+            "previousRevenue": 2173319000.0,
+            "changePercentagePoints": 3.2879495762519224,
+            "periodKind": "quarter"
+          }
+        }
+      ]
     },
     "BE": {
       "asOfDate": "2026-09-10",
-      "calculatedAt": 1789007649.3746583,
+      "calculatedAt": 1789007724.8431082,
       "hasConfirmedEvidence": true,
       "windows": {
         "7": {
