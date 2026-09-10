@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789051127.998365,
+  "generatedAt": 1789052407.7987816,
   "events": [
     {
       "id": "c159085ef4a316443be1",
@@ -5392,6 +5392,69 @@ const EVENT_DATA = {
         }
       ],
       "watch": []
+    },
+    {
+      "id": "de0d69e7ecefe1341be9",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "정기 실적 공시",
+      "primaryTicker": "AVGO",
+      "relatedTickers": [
+        "AVGO"
+      ],
+      "relatedEntities": [],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "AVGO SEC Form 10-Q filed",
+      "headlineKo": "AVGO SEC Form 10-Q 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
+        "publishedAt": 1788966000.0,
+        "collectedAt": 1789052403.252765
+      },
+      "confirmedFacts": [
+        "AVGO가 2026-09-10에 SEC Form 10-Q을 제출했습니다."
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
+      ],
+      "whyItMatters": [
+        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AVGO",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "매출·영업이익·OCF·FCF",
+        "가이던스와 위험요인 변화",
+        "일회성 손익·회계정책 변화"
+      ],
+      "earningsEvidence": null
     },
     {
       "id": "f86b3b227df61c7eef51",
@@ -18058,83 +18121,6 @@ const EVENT_DATA = {
         "회사의 매출 영향 추정",
         "대체 제품·지역 판매"
       ]
-    },
-    {
-      "id": "4b7c0e83a4149ec33334",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "워런트·신주·희석 가능성",
-      "primaryTicker": "TSLA",
-      "relatedTickers": [
-        "QQQ",
-        "SPY",
-        "TSLA"
-      ],
-      "relatedEntities": [
-        {
-          "name": "Tesla",
-          "role": "기사에 직접 언급",
-          "verification": "headline_or_analysis"
-        }
-      ],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "risk",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "Tesla Says This Time Is Different. Wall Street Is Split on Whether to Believe It",
-      "headlineKo": "Tesla는 이번에는 다르다고 말합니다. 월스트리트는 그것을 믿을지 여부에 대해 분열되어 있습니다.",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=b00df3789445700e3808c68150d32d8ac532b32ccdddb90f87bb0d2a86857517",
-        "publishedAt": 1788795806,
-        "collectedAt": 1789031820.9965925
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "월스트리트는 믿을지 말지에 따라 갈린다 - 연중무휴 월스트리트",
-        "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,703.80 +0.02% Dow Jones 53,069.50 +0.02% Nasdaq 100 29,554.80 −0.05% Russell 2000 2,965.50 −0.03% S&P 500 7,703.80 +0.02% 다우존스 53,069.50 +0.02% 나스닥 100 29,554.80 −0.05% 러셀 2000 2,965.50 −0.",
-        "월스트리트는 믿을지 여부에 대해 분열되어 있습니다. Tesla는 같은 분기에 기록적인 납품과 25%의 매출 성장을 기록했습니다. 수익이 거의 40%나 줄었고 잉여 현금 흐름이 10억 달러 이상 소진되었습니다."
-      ],
-      "marketInterpretation": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.02%, 0.05%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "TSLA에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
-        "이번 기사에서 확인된 구체적 수치: 0.02%, 0.05%, 0.03% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
-        "TSLA의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSLA",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "신규 주식 수·행사가격",
-        "조달 자금 사용처",
-        "완전희석 주식수와 EPS"
-      ]
     }
   ],
   "byTicker": {
@@ -18260,8 +18246,7 @@ const EVENT_DATA = {
       "bf4a92166f3c7d13e2cd",
       "e87a184dffcbdbb943a2",
       "70c7aa9f52309fd8445e",
-      "e18af593dd6c53c76d4f",
-      "4b7c0e83a4149ec33334"
+      "e18af593dd6c53c76d4f"
     ],
     "SPY": [
       "1422518e247a82cf2390",
@@ -18366,8 +18351,7 @@ const EVENT_DATA = {
       "e87a184dffcbdbb943a2",
       "70c7aa9f52309fd8445e",
       "e18af593dd6c53c76d4f",
-      "93d75176f5ce923830dd",
-      "4b7c0e83a4149ec33334"
+      "93d75176f5ce923830dd"
     ],
     "AAPL": [
       "ba68e681cd3a11b0af86",
@@ -18597,8 +18581,7 @@ const EVENT_DATA = {
       "8262825b785fe4ee46f5",
       "bd5f35ecf60ff20643b4",
       "36ccb543e0375b1a3bf8",
-      "c99deba1c784a6872bae",
-      "4b7c0e83a4149ec33334"
+      "c99deba1c784a6872bae"
     ],
     "TSM": [
       "dc114c2498e1e47defdd",
@@ -18710,6 +18693,7 @@ const EVENT_DATA = {
       "c906731cde193e826a22",
       "2cb6f9c91ed3f2904f79",
       "533f2ca44e5cd646c780",
+      "de0d69e7ecefe1341be9",
       "77b8d7f174b775696a9b",
       "284166d2557ccb6fa65a",
       "e77eae8fc08248932692",
