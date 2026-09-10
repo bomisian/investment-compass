@@ -7310,7 +7310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -7326,11 +7326,11 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
-        "source": "ChartMill",
-        "url": "https://finnhub.io/api/news?id=12852a52d1475f1a060bce7bdcf6d14863fb505b5f4e25d864c4f7098c43fe0e",
-        "datetime": 1789031514,
-        "relevance": 0.57,
+        "headline": "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=97563fbaa2dbd24259c19e64e4d9220b1cbb22287d259fe6ec1f196cc5ecce93",
+        "datetime": 1789055298,
+        "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -7341,7 +7341,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
+            "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -7365,184 +7365,135 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058734.459164
+        },
+        "headlineKo": "Morgan Stanley는 Apple이 적당한 가격 전략으로 마진보다 거래량을 우선시한다고 말합니다."
+      },
+      {
+        "headline": "Apple's foldable iPhone is 'not new': AT&T CEO",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f27a3b867162c66c48985abd911dce642c349cb97348b3c001858f088c9574af",
+        "datetime": 1789054117,
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's foldable iPhone is 'not new': AT&T CEO",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's foldable iPhone is 'not new': AT&T CEO' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.57,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789035991.9988923
+          "analysisUpdatedAt": 1789058736.1970835
         },
-        "headlineKo": "Meta의 Muse는 석유가 $ 100 이상을 차지하고 Apple이 iPhone Duo를 펼치면서 AI 수익 창출 벽을 깨뜨립니다."
+        "headlineKo": "AT&T CEO, 애플의 폴더블 아이폰은 '새롭지 않다'"
       },
       {
-        "headline": "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus",
+        "headline": "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
-        "datetime": 1789029946,
-        "relevance": 0.43,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
-          "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "기사 본문에서 언급된 수치: $100,, 4.85%, $101, 60%, $5,000, $1 trillion, $640 million, $17 billion.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
-          ],
-          "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
-          ],
-          "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
-            }
-          ],
-          "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 매출·EPS·영업이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 매출·EPS·영업이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
-          "relevance": 0.43,
-          "quality": "high",
-          "verifiedNumbers": [
-            "$100,",
-            "4.85%",
-            "$101",
-            "60%",
-            "$5,000",
-            "$1 trillion",
-            "$640 million",
-            "$17 billion"
-          ],
-          "sourceExcerpt": [
-            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus New Connect your Agent Trending News Earnings All DIA 0.23% SPY 0.11% QQQ 0.17% Trending AVAV 6.53% UBER 0.66% SWMR 3.20%",
-            "Dow, S&P 500, Nasdaq Futures Edge Higher Ahead Of PPI, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus Retail sentiment on Stocktwits turned cautious, dipping to ‘neutral’ on SPY and ‘bearish’ on QQQ.",
-            "Nasdaq logo sign is seen in New York City, United States, on August 7, 2026."
-          ],
-          "analysisUpdatedAt": 1789035993.3970745
-        },
-        "headlineKo": "DOW, S&P 500, Nasdaq Futures Edge PPI보다 높음, Jobless Claims: NVDA, AAPL, META, ORCL, TSM, TSLA, SLS In Focus"
-      },
-      {
-        "headline": "iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
-        "datetime": 1789029293,
+        "url": "https://finnhub.io/api/news?id=107844787ab7b62e1b84256e1341454beecb25802216627e6f84dcc448d53628",
+        "datetime": 1789054096,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
           "version": 9,
-          "importance": "high",
-          "tone": "mixed",
-          "certainty": "전망·추정 포함",
-          "label": "애플 원가 부담 · 메모리 업종 수혜 가능성",
-          "horizon": "단기 비용 부담 / 출시 후 수요 확인",
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
           "facts": [
-            "메모리 공급 부족과 가격 급등이 iPhone 18 제조원가를 높일 수 있다는 내용입니다.",
-            "가격 인상 폭과 제조원가 변화는 시장조사업체·애널리스트 전망치입니다.",
-            "애플의 공식 판매가·출하량 확정치가 아니라 외부 전망과 업계 추정이 섞인 뉴스입니다."
+            "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "메모리 가격 상승이 반도체 업체 실적을 넘어 완제품 가격으로 전가되는지 확인하는 신호입니다.",
-            "애플이 가격을 올려도 판매량을 유지하면 가격 결정력을 확인하지만, 판매량이 줄면 매출 성장과 교체주기에 부담입니다.",
-            "메모리 업체는 스마트폰 고객까지 가격을 받아들이는 경우 메모리 가격 강세가 더 오래갈 수 있습니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "메모리 부품이 비싸져서 아이폰 가격이 오를 수 있다는 이야기입니다.",
-            "애플에는 비용 상승과 가격 인상 기회가 동시에 있어 무조건 호재나 악재가 아닙니다.",
-            "메모리 업체에는 가격 인상과 이익 개선 가능성이 더 직접적인 호재입니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
               "ticker": "AAPL",
-              "stance": "혼합",
-              "reason": "가격 전가 시 마진 방어, 판매량·교체주기 둔화 위험"
-            },
-            {
-              "ticker": "MU",
-              "stance": "긍정",
-              "reason": "메모리 ASP와 이익률 개선 가능성"
-            },
-            {
-              "ticker": "WDC",
-              "stance": "긍정",
-              "reason": "메모리·스토리지 가격 강세 수혜 가능성"
-            },
-            {
-              "ticker": "QCOM",
-              "stance": "중립·확인",
-              "reason": "스마트폰 수요가 줄면 고객 칩 수요에 부담"
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
             }
           ],
           "watch": [
-            "iPhone 18 실제 출고가·사전예약",
-            "애플 아이폰 출하량과 제품 믹스",
-            "메모리 현물·계약 가격",
-            "AAPL 매출총이익률과 MU/WDC 가이던스"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'iPhone 18 Price in Bitcoin and Ethereum Jumps as Apple Breaks a 15-Year Crypto Trend' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "현재 해석: AAPL에 기회와 부담이 함께 있습니다. 기사 속 전망만으로 매수·매도하지 말고, 판매량·ASP(평균판매가격)·매출총이익률 중 실제 숫자로 확인되는 부분을 우선 보세요.",
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.57,
-          "quality": "high",
+          "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789035994.1197977
+          "analysisUpdatedAt": 1789058737.7757046
         },
-        "headlineKo": "애플이 15년 암호화폐 트렌드를 깨면서 비트코인과 이더리움의 아이폰 18 가격이 급등"
+        "headlineKo": "Apple의 iPhone Duo, AI 전략이 성장 전망을 강화한다고 Morgan Stanley는 말합니다."
       },
       {
-        "headline": "The Zacks Analyst Blog Highlights AAPL, GXPT, VGT, FTEC, TRUT, TOPT, MGK",
+        "headline": "Apple dips its toe into AI, but will AI companies compete in hardware?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ed8a0ace3c5594eb73eb5c06899d629bf2ace0a20ad7833e776baa6cb21beb70",
-        "datetime": 1789026780,
-        "relevance": 0.43,
+        "url": "https://finnhub.io/api/news?id=9a9066757225997d62d6371c8d8353a4c2112309ab5c01c557af4bd85d3b413c",
+        "datetime": 1789053656,
+        "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Zacks 분석가 블로그에서는 AAPL, GXPT, VGT, FTEC, TRUT, TOPT, MGK를 강조합니다."
+        "headlineKo": "Apple은 AI에 발을 담그고 있지만 AI 회사는 하드웨어에서 경쟁할까요?"
       },
       {
-        "headline": "iPhone 18 Pro Debuts C2 Modem As Apple Keeps Weaning Off Qualcomm — Pro Max Isn't Ready to Let Go",
+        "headline": "Apple's Foldable iPhone Duo Is Here, What We Know",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
-        "datetime": 1789025364,
+        "url": "https://finnhub.io/api/news?id=b7e14d0d9eac6f072642d942f15a4049680c52401e8c432704380d5b8b6def11",
+        "datetime": 1789053490,
         "relevance": 0.57,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "아이폰 18 프로, 애플이 퀄컴에서 벗어나면서 C2 모뎀 출시 — 프로 맥스는 놓을 준비가 되지 않았습니다"
+        "headlineKo": "Apple의 폴더블 iPhone Duo 출시, 우리가 알고 있는 것"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7734,6 +7685,171 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=97563fbaa2dbd24259c19e64e4d9220b1cbb22287d259fe6ec1f196cc5ecce93",
+        "datetime": 1789055298,
+        "headlineKo": "Morgan Stanley는 Apple이 적당한 가격 전략으로 마진보다 거래량을 우선시한다고 말합니다.",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Prioritizing Volume Over Margins With Modest Pricing Strategy, Morgan Stanley Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.29,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058734.459164
+        }
+      },
+      {
+        "headline": "Apple's foldable iPhone is 'not new': AT&T CEO",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=f27a3b867162c66c48985abd911dce642c349cb97348b3c001858f088c9574af",
+        "datetime": 1789054117,
+        "headlineKo": "AT&T CEO, 애플의 폴더블 아이폰은 '새롭지 않다'",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's foldable iPhone is 'not new': AT&T CEO",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's foldable iPhone is 'not new': AT&T CEO' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058736.1970835
+        }
+      },
+      {
+        "headline": "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=107844787ab7b62e1b84256e1341454beecb25802216627e6f84dcc448d53628",
+        "datetime": 1789054096,
+        "headlineKo": "Apple의 iPhone Duo, AI 전략이 성장 전망을 강화한다고 Morgan Stanley는 말합니다.",
+        "relevance": 0.57,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple's iPhone Duo, AI Strategy Strengthen Growth Outlook, Morgan Stanley Says' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.57,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058737.7757046
+        }
+      },
+      {
+        "headline": "Apple dips its toe into AI, but will AI companies compete in hardware?",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=9a9066757225997d62d6371c8d8353a4c2112309ab5c01c557af4bd85d3b413c",
+        "datetime": 1789053656,
+        "headlineKo": "Apple은 AI에 발을 담그고 있지만 AI 회사는 하드웨어에서 경쟁할까요?",
+        "relevance": 0.29,
+        "keywordFlag": false
+      },
+      {
+        "headline": "Apple's Foldable iPhone Duo Is Here, What We Know",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b7e14d0d9eac6f072642d942f15a4049680c52401e8c432704380d5b8b6def11",
+        "datetime": 1789053490,
+        "headlineKo": "Apple의 폴더블 iPhone Duo 출시, 우리가 알고 있는 것",
+        "relevance": 0.57,
+        "keywordFlag": false
+      },
       {
         "headline": "Meta's Muse Cracks the AI-Monetization Wall as Oil Holds Above $100 and Apple Unfolds the iPhone Duo",
         "source": "ChartMill",
@@ -14287,17 +14403,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789035988.712077,
-    "_updated_label": "2026-09-10 19:26",
+    "_fetched_at": 1789058728.7641485,
+    "_updated_label": "2026-09-11 01:45",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 184,
+      "checked": 189,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
-    "_last_attempt_at": 1789035988.712077,
+    "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
-    "_last_success_at": 1789035988.712077,
+    "_last_success_at": 1789058728.7641485,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -21040,7 +21156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -26986,7 +27102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -34220,7 +34336,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 182,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -36928,7 +37044,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -43753,7 +43869,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 164,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -50086,7 +50202,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 167,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -57302,7 +57418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -64340,7 +64456,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 179,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -69506,7 +69622,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -73739,7 +73855,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 118,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -73754,6 +73870,70 @@ const NEWS_DATA = {
       "revenueEstimate": 10513249854
     },
     "news": [
+      {
+        "headline": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f99204a4ab3a7450c1952a7928ca1206b57c3ee9891b761f0fcb705097b279d",
+        "datetime": 1789034574,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "어플라이드 머티어리얼즈, AI로 칩 장비 수요 40% 가까이 성장 주목",
+            "(Cedar Gold Group에서) (광고) Applied Materials는 AI가 칩 장비 수요를 촉진함에 따라 약 40% 성장을 목표로 합니다. MarketBeat 작성 2026년 9월 10일 우선 소스로 추가 공유 공유 공유 이 기사 링크가 클립보드에 복사되었습니다.",
+            "MarketBeat Media, LLC의 이미지를 닫습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 20%, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "40%",
+            "20%",
+            "30%",
+            "80%",
+            "70%",
+            "50%",
+            "$2 billion",
+            "$3 billion"
+          ],
+          "sourceExcerpt": [
+            "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand Skip to main content → American retirees will miss THIS.",
+            "(From Cedar Gold Group) (Ad) Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand Written by MarketBeat September 10, 2026 Add As Preferred Source Share Share Share This Article Link copied to clipboard.",
+            "Close Image from MarketBeat Media, LLC."
+          ],
+          "analysisUpdatedAt": 1789058748.4468884
+        },
+        "headlineKo": "어플라이드 머티어리얼즈, AI로 칩 장비 수요 40% 가까이 성장 전망"
+      },
       {
         "headline": "Applied Materials, Inc. (AMAT) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
         "source": "SeekingAlpha",
@@ -73800,7 +73980,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036009.013807
+          "analysisUpdatedAt": 1789058750.0081317
         },
         "headlineKo": "Applied Materials, Inc.(AMAT), Goldman Sachs Communacopia + Technology Conference 2026에서 발표"
       },
@@ -73850,7 +74030,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036011.1718614
+          "analysisUpdatedAt": 1789058753.0389662
         },
         "headlineKo": "Applied Materials, AMD, Broadcom, Lam Research 및 Marvell Technology의 주가 급등, 알아야 할 사항"
       },
@@ -73862,46 +74042,6 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Capex Rebound Powers Applied Materials’ (AMAT) Performance",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AMAT",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AMAT의 사업과 관련된 'Capex Rebound Powers Applied Materials’ (AMAT) Performance' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 비용·CAPEX·영업현금흐름·FCF·부채 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AMAT 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036013.2754688
-        },
         "headlineKo": "Capex Rebound는 Applied Materials(AMAT) 실적을 뒷받침합니다."
       },
       {
@@ -73913,19 +74053,72 @@ const NEWS_DATA = {
         "keywordFlag": false,
         "flagTerms": [],
         "headlineKo": "어플라이드 머티어리얼즈, AI 붐으로 반도체 장비 수요 증가"
-      },
-      {
-        "headline": "Applied Materials, Inc. (AMAT) Presents at Citi's 2026 Global TMT Conference Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=a29426028fdde062369d7cea4302b95a1f2947266a772c2f588e14c4f07ace18",
-        "datetime": 1788866730,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Applied Materials, Inc.(AMAT), Citi의 2026년 글로벌 TMT 컨퍼런스 성적표에서 발표"
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=1f99204a4ab3a7450c1952a7928ca1206b57c3ee9891b761f0fcb705097b279d",
+        "datetime": 1789034574,
+        "headlineKo": "어플라이드 머티어리얼즈, AI로 칩 장비 수요 40% 가까이 성장 전망",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "회사 전망 변경 · 추정치 재평가",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "어플라이드 머티어리얼즈, AI로 칩 장비 수요 40% 가까이 성장 주목",
+            "(Cedar Gold Group에서) (광고) Applied Materials는 AI가 칩 장비 수요를 촉진함에 따라 약 40% 성장을 목표로 합니다. MarketBeat 작성 2026년 9월 10일 우선 소스로 추가 공유 공유 공유 이 기사 링크가 클립보드에 복사되었습니다.",
+            "MarketBeat Media, LLC의 이미지를 닫습니다."
+          ],
+          "why": [
+            "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: 40%, 20%, 30% — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMAT의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사가 앞으로 벌 돈의 예상치를 바꾼 뉴스입니다. 실제 실적이 새 전망을 달성하는지 확인해야 합니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMAT",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "공식 매출·EPS 가이던스",
+            "컨센서스 추정치 변경",
+            "마진·FCF 전망"
+          ],
+          "interpretation": "AMAT에 대한 회사 전망 변경 · 추정치 재평가 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "40%",
+            "20%",
+            "30%",
+            "80%",
+            "70%",
+            "50%",
+            "$2 billion",
+            "$3 billion"
+          ],
+          "sourceExcerpt": [
+            "Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand Skip to main content → American retirees will miss THIS.",
+            "(From Cedar Gold Group) (Ad) Applied Materials Eyes Nearly 40% Growth as AI Fuels Chip Equipment Demand Written by MarketBeat September 10, 2026 Add As Preferred Source Share Share Share This Article Link copied to clipboard.",
+            "Close Image from MarketBeat Media, LLC."
+          ],
+          "analysisUpdatedAt": 1789058748.4468884
+        }
+      },
       {
         "headline": "Applied Materials, Inc. (AMAT) Presents at Goldman Sachs Communacopia + Technology Conference 2026 Transcript",
         "source": "SeekingAlpha",
@@ -73972,7 +74165,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036009.013807
+          "analysisUpdatedAt": 1789058750.0081317
         }
       },
       {
@@ -74021,7 +74214,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036011.1718614
+          "analysisUpdatedAt": 1789058753.0389662
         }
       },
       {
@@ -76000,17 +76193,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789035988.712077,
-    "_updated_label": "2026-09-10 19:26",
+    "_fetched_at": 1789058728.7641485,
+    "_updated_label": "2026-09-11 01:45",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 57,
+      "checked": 58,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
-    "_last_attempt_at": 1789035988.712077,
+    "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
-    "_last_success_at": 1789035988.712077,
+    "_last_success_at": 1789058728.7641485,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -78801,7 +78994,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -82938,7 +83131,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 100,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -88459,7 +88652,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 133,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -92885,7 +93078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 113,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
@@ -98311,7 +98504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -101349,7 +101542,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -103082,7 +103275,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
@@ -108048,7 +108241,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 117,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -110448,7 +110641,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -112493,7 +112686,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -114227,7 +114420,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -119836,7 +120029,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 144,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -119852,11 +120045,124 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Western Digital Corporation (WDC) Presents at Citi's 2026 Global TMT Conference Transcript",
-        "source": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=86a8775ed5a6d0e026a64e29eaf0b445b153bcadd039fbffb3d6f18334684cf1",
-        "datetime": 1788981426,
+        "headline": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan’s Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=662ab8cf35c8ce268deb3690fc4c95df1f2eb40f34ace5f00fd4e388f89c06da",
+        "datetime": 1789046536,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "금리 하락과 석유 늪으로 메모리 주식 하락 JPMorgan의 비중확대 전망: SK 하이닉스 5% 하락, Western Digital 하락 3%, 마이크론 하락 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.91% S&P 500 7,597.60 −0.61% 다우존스 52,048.80 −0.75% 나스닥 100 29,165.80 −0.92% 러셀 2000 2,896.88 −0.",
+            "David Moadel 작성 2026년 9월 10일 오전 9시 22분(ET) 게시 · 2분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 3%, $189.47 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "5%",
+            "3%",
+            "$189.47",
+            "$245",
+            "40%",
+            "$999.24,",
+            "$465.50.",
+            "4.91%"
+          ],
+          "sourceExcerpt": [
+            "Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.91% S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.",
+            "By David Moadel Published September 10, 2026, 9:22am ET · 2 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1789058760.6206305
+        },
+        "headlineKo": "금리 하락과 석유 늪으로 메모리 주가 하락 JPMorgan의 비중확대 주장: SK 하이닉스 5% 하락, Western Digital 하락 3%, Micron 하락"
+      },
+      {
+        "headline": "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=7dec1805e94945bc12a90e8830b680e791cb77de33f894dcc32e62f4dba29a60",
+        "datetime": 1789041655,
         "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "WDC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058762.6624
+        },
+        "headlineKo": "Western Digital(NASDAQ:WDC): 향후 수익 가속화에 따른 합리적인 가격의 성장 후보"
+      },
+      {
+        "headline": "What's Going On With Western Digital Stock Thursday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=90e028643becb657aa4de4461ac639e0bb04df73426ea685ff7e78f4d55342ee",
+        "datetime": 1789029560,
+        "relevance": 0.67,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -119867,7 +120173,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Western Digital Corporation (WDC) Presents at Citi's 2026 Global TMT Conference Transcript",
+            "What's Going On With Western Digital Stock Thursday?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -119891,14 +120197,24 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'Western Digital Corporation (WDC) Presents at Citi's 2026 Global TMT Conference Transcript' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'What's Going On With Western Digital Stock Thursday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
+          "relevance": 0.67,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036017.050389
+          "analysisUpdatedAt": 1789058764.2561653
         },
+        "headlineKo": "목요일 Western Digital 주식에 무슨 일이 일어나고 있나요?"
+      },
+      {
+        "headline": "Western Digital Corporation (WDC) Presents at Citi's 2026 Global TMT Conference Transcript",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=86a8775ed5a6d0e026a64e29eaf0b445b153bcadd039fbffb3d6f18334684cf1",
+        "datetime": 1788981426,
+        "relevance": 1,
+        "keywordFlag": false,
+        "flagTerms": [],
         "headlineKo": "Western Digital Corporation(WDC), Citi의 2026 글로벌 TMT 컨퍼런스 성적표에서 발표"
       },
       {
@@ -119909,117 +120225,7 @@ const NEWS_DATA = {
         "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Is Western Digital (WDC) Priced Too High?",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'Is Western Digital (WDC) Priced Too High?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036019.0927198
-        },
         "headlineKo": "Western Digital(WDC)의 가격이 너무 높나요?"
-      },
-      {
-        "headline": "Why the Market Dipped But Western Digital (WDC) Gained Today",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=f497c42bd4d11b5ac15ed2293e8488e50d7785332692bbf88714fbed8bf9f020",
-        "datetime": 1788904205,
-        "relevance": 1,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Why the Market Dipped But Western Digital (WDC) Gained Today",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "WDC",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 WDC의 사업과 관련된 'Why the Market Dipped But Western Digital (WDC) Gained Today' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 1,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789036020.9788265
-        },
-        "headlineKo": "시장은 하락했지만 WDC(Western Digital)가 오늘 상승한 이유"
-      },
-      {
-        "headline": "Can Western Digital's Strong FCF Sustain Buybacks and Dividends?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6c8c000d483a6cedaf8ac1b71f67ac94fa7fe66968f6b9fae2ec9d6f8434bd1c",
-        "datetime": 1788883920,
-        "relevance": 0.67,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Western Digital의 강력한 FCF가 자사주 매입과 배당을 유지할 수 있습니까?"
-      },
-      {
-        "headline": "AI Data Explosion: Can WDC Become a Bigger Storage Winner?",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=c3ad968405c12ac76047fc67d30a229c32b1b4ded38db44ebaf79a6b76f7dd4a",
-        "datetime": 1788871140,
-        "relevance": 1.0,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "AI 데이터 폭발: WDC가 더 큰 스토리지의 승자가 될 수 있을까요?"
       },
       {
         "headline": "New Tech Tariff Uncertainty Puts Spotlight On Western Digital",
@@ -120075,6 +120281,166 @@ const NEWS_DATA = {
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Memory Stocks Slide as Rates and Oil Swamp JPMorgan’s Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=662ab8cf35c8ce268deb3690fc4c95df1f2eb40f34ace5f00fd4e388f89c06da",
+        "datetime": 1789046536,
+        "headlineKo": "금리 하락과 석유 늪으로 메모리 주가 하락 JPMorgan의 비중확대 주장: SK 하이닉스 5% 하락, Western Digital 하락 3%, Micron 하락",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "목표주가 변경 · 근거 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "금리 하락과 석유 늪으로 메모리 주식 하락 JPMorgan의 비중확대 전망: SK 하이닉스 5% 하락, Western Digital 하락 3%, 마이크론 하락 - 24/7 Wall St.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.91% S&P 500 7,597.60 −0.61% 다우존스 52,048.80 −0.75% 나스닥 100 29,165.80 −0.92% 러셀 2000 2,896.88 −0.",
+            "David Moadel 작성 2026년 9월 10일 오전 9시 22분(ET) 게시 · 2분 읽기 Market Movers 데스크."
+          ],
+          "why": [
+            "목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다.",
+            "이번 기사에서 확인된 구체적 수치: 5%, 3%, $189.47 — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "증권사가 생각하는 적정 가격을 바꾼 것입니다. 회사가 실제로 그 가격을 보장하는 것은 아닙니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "목표주가 산식의 EPS",
+            "적용 PER 변화",
+            "회사 공식 가이던스"
+          ],
+          "interpretation": "WDC에 대한 목표주가 변경 · 근거 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 목표주가 변경은 애널리스트의 EPS·PER 가정 변화이며 회사 공식 전망과는 구분해야 합니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.67,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "5%",
+            "3%",
+            "$189.47",
+            "$245",
+            "40%",
+            "$999.24,",
+            "$465.50.",
+            "4.91%"
+          ],
+          "sourceExcerpt": [
+            "Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.91% S&P 500 7,597.60 −0.61% Dow Jones 52,048.80 −0.75% Nasdaq 100 29,165.80 −0.92% Russell 2000 2,896.88 −0.",
+            "By David Moadel Published September 10, 2026, 9:22am ET · 2 min read Market Movers desk."
+          ],
+          "analysisUpdatedAt": 1789058760.6206305
+        }
+      },
+      {
+        "headline": "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+        "source": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=7dec1805e94945bc12a90e8830b680e791cb77de33f894dcc32e62f4dba29a60",
+        "datetime": 1789041655,
+        "headlineKo": "Western Digital(NASDAQ:WDC): 향후 수익 가속화에 따른 합리적인 가격의 성장 후보",
+        "relevance": 1,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적 발표 · 본업과 특이항목 분리",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+            "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "매출·영업이익 성장",
+            "정상화이익과 특이항목",
+            "가이던스·OCF·FCF"
+          ],
+          "interpretation": "WDC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058762.6624
+        }
+      },
+      {
+        "headline": "What's Going On With Western Digital Stock Thursday?",
+        "source": "Benzinga",
+        "url": "https://finnhub.io/api/news?id=90e028643becb657aa4de4461ac639e0bb04df73426ea685ff7e78f4d55342ee",
+        "datetime": 1789029560,
+        "headlineKo": "목요일 Western Digital 주식에 무슨 일이 일어나고 있나요?",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "What's Going On With Western Digital Stock Thursday?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "WDC",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 WDC의 사업과 관련된 'What's Going On With Western Digital Stock Thursday?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "WDC 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789058764.2561653
+        }
+      },
       {
         "headline": "Western Digital Corporation (WDC) Presents at Citi's 2026 Global TMT Conference Transcript",
         "source": "SeekingAlpha",
@@ -121752,17 +122118,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789035988.712077,
-    "_updated_label": "2026-09-10 19:27",
+    "_fetched_at": 1789058728.7641485,
+    "_updated_label": "2026-09-11 01:46",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 49,
+      "checked": 52,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
-    "_last_attempt_at": 1789035988.712077,
+    "_last_attempt_at": 1789058728.7641485,
     "_earnings_status": "ok",
-    "_last_success_at": 1789035988.712077,
+    "_last_success_at": 1789058728.7641485,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -123886,7 +124252,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -125562,7 +125928,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -127571,7 +127937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -129561,7 +129927,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -130746,7 +131112,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789056002.9754999,
     "_earnings_status": "ok",
@@ -132733,7 +133099,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -134571,7 +134937,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 40,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -135966,7 +136332,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -136654,7 +137020,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789041638.421703,
     "_earnings_status": "ok",
@@ -139535,7 +139901,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -140175,7 +140541,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789054861.9518685,
     "_earnings_status": "ok",
@@ -141697,7 +142063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -142795,7 +143161,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -144031,7 +144397,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_last_attempt_at": 1789047192.3811722,
     "_earnings_status": "ok",
@@ -144867,7 +145233,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-11 01:00"
+      "updated": "2026-09-11 01:46"
     },
     "_fetched_at": 1789047192.3811722,
     "_updated_label": "2026-09-10 22:36",

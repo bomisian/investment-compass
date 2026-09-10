@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789056902.991701,
+  "generatedAt": 1789058768.2164538,
   "events": [
     {
       "id": "3803f433052fce0767d4",
@@ -394,6 +394,74 @@ const EVENT_DATA = {
       "impacts": [
         {
           "ticker": "NVDA",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "매출·영업이익 성장",
+        "정상화이익과 특이항목",
+        "가이던스·OCF·FCF"
+      ]
+    },
+    {
+      "id": "ab83b16c13f689a0116b",
+      "schemaVersion": 1,
+      "eventType": "earnings_result",
+      "eventLabel": "실적 발표",
+      "primaryTicker": "WDC",
+      "relatedTickers": [
+        "QQQ",
+        "WDC"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+      "headlineKo": "Western Digital(NASDAQ:WDC): 향후 수익 가속화에 따른 합리적인 가격의 성장 후보",
+      "source": {
+        "name": "ChartMill",
+        "url": "https://finnhub.io/api/news?id=7dec1805e94945bc12a90e8830b680e791cb77de33f894dcc32e62f4dba29a60",
+        "publishedAt": 1789041655,
+        "collectedAt": 1789058728.7641485
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "Western Digital (NASDAQ:WDC): A Growth-at-a-Reasonable-Price Candidate as Forward Earnings Accelerate",
+        "제목만으로는 수치와 원인을 확정할 수 없습니다."
+      ],
+      "marketInterpretation": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "WDC에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
+        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
+      ],
+      "beginnerExplanation": [
+        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
+        "WDC의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "WDC",
           "direction": "확인 필요",
           "reason": "회사 실적과의 연결고리 확인",
           "basis": "analysis"
@@ -1216,7 +1284,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
         "publishedAt": 1789029946,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1390,7 +1458,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
         "publishedAt": 1789029293,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1491,7 +1559,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
         "publishedAt": 1789025364,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -1958,7 +2026,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
         "publishedAt": 1789008087,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -2033,7 +2101,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c182360f32d3ddb962b86c103cbc57d2b43ff6659fa639b82bec1c6f07e0435",
         "publishedAt": 1789004905,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4072,7 +4140,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
         "publishedAt": 1788983654,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -4347,7 +4415,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
         "publishedAt": 1788982308,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10141,7 +10209,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -10318,7 +10386,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -12972,7 +13040,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14592,7 +14660,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1f003b2078afff9dc3ad0bd452582ec7557e7b7f7ecc9f55b19060267b0c7b72",
         "publishedAt": 1788876202,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -15934,7 +16002,7 @@ const EVENT_DATA = {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c14a58686e15a43a89f9c93a4a57cfba6b6afc67aacdde4325d8da19235dc6cc",
         "publishedAt": 1788850156,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -16925,7 +16993,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1cc30c007c58834929bcda9920921d05fef698377528637e031ed829abbd720f",
         "publishedAt": 1788818172,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17023,7 +17091,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cd2a41f6926a62bd9c5b662619f4716a71fce858072a7778c6705182f3b13b4c",
         "publishedAt": 1788818100,
-        "collectedAt": 1789035988.712077
+        "collectedAt": 1789058728.7641485
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -18118,73 +18186,6 @@ const EVENT_DATA = {
         "적용 PER 변화",
         "회사 공식 가이던스"
       ]
-    },
-    {
-      "id": "a53a36d2951582a3ef2f",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "실적 발표",
-      "primaryTicker": "SPY",
-      "relatedTickers": [
-        "SPY"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "medium",
-        "score": 65,
-        "kind": "reported",
-        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
-      },
-      "direction": "positive",
-      "expectedHorizon": "다음 실적까지 확인",
-      "impactProbability": "보통",
-      "verificationStatus": "needs_confirmation",
-      "headline": "S&P 500 Earnings: Expected 2027 EPS Growth Might Make For A Tougher Year",
-      "headlineKo": "S&P 500 수익: 2027년 EPS 증가로 인해 더욱 힘든 한 해가 될 것으로 예상",
-      "source": {
-        "name": "SeekingAlpha",
-        "url": "https://finnhub.io/api/news?id=8be12f0f21332fc8c07b6661cc54f3e7cf4a37430e3e451f9f26ec36d9462c1e",
-        "publishedAt": 1788799800,
-        "collectedAt": 1789054861.9518685
-      },
-      "confirmedFacts": [],
-      "reportedClaims": [
-        "S&P 500 Earnings: Expected 2027 EPS Growth Might Make For A Tougher Year",
-        "제목만으로는 수치와 원인을 확정할 수 없습니다."
-      ],
-      "marketInterpretation": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "aiInference": [
-        "SPY에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
-      ],
-      "unverified": [
-        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다.",
-        "현재 캐시는 제목 또는 제한된 본문을 기반으로 하므로 세부 조건을 확정 사실로 저장하지 않습니다."
-      ],
-      "beginnerExplanation": [
-        "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
-      ],
-      "whyItMatters": [
-        "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-        "SPY의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "SPY",
-          "direction": "확인 필요",
-          "reason": "회사 실적과의 연결고리 확인",
-          "basis": "analysis"
-        }
-      ],
-      "watch": [
-        "매출·영업이익 성장",
-        "정상화이익과 특이항목",
-        "가이던스·OCF·FCF"
-      ]
     }
   ],
   "byTicker": {
@@ -18270,6 +18271,7 @@ const EVENT_DATA = {
     "QQQ": [
       "1d04c202b32c40d46f4f",
       "1730fbb9328cfe0198dc",
+      "ab83b16c13f689a0116b",
       "1a77753fb19341e0635c",
       "1422518e247a82cf2390",
       "a578610b818a3f2cffe1",
@@ -18445,11 +18447,11 @@ const EVENT_DATA = {
       "7d9e9a837f769ee7f38a",
       "0bb24de11cca77a224a8",
       "c99deba1c784a6872bae",
-      "bf4a92166f3c7d13e2cd",
-      "a53a36d2951582a3ef2f"
+      "bf4a92166f3c7d13e2cd"
     ],
     "WDC": [
       "1d04c202b32c40d46f4f",
+      "ab83b16c13f689a0116b",
       "dc114c2498e1e47defdd",
       "3df204073c0e790cd731",
       "167286f06cba9abc13f0",
