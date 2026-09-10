@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.58999633789062,
+      "current": 96.44000244140625,
       "prevClose": 93.02999877929688,
-      "changeAbs": 3.55999755859375,
-      "changePct": 3.826719988505472,
-      "pctRank": 90.3739061256961,
+      "changeAbs": 3.410003662109375,
+      "changePct": 3.665488236970982,
+      "pctRank": 90.21479713603819,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.48428601361389,
-      "ma20": 86.65000076293946,
-      "ma60": 80.63233350118001,
-      "chg1m": 14.459999084472656,
-      "chg3m": 8.389999389648438,
-      "chg1mPct": 17.606233493293928,
-      "chg3mPct": 9.512471292455809,
+      "drawdown1y": -14.617082738303589,
+      "ma20": 86.64250106811524,
+      "ma60": 80.62983360290528,
+      "chg1m": 14.310005187988281,
+      "chg3m": 8.240005493164062,
+      "chg1mPct": 17.423603636359246,
+      "chg3mPct": 9.34241017944648,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,44 +95,44 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.8010025024414,
-      "prevClose": 98.83999633789062,
+      "current": 98.73100280761719,
+      "prevClose": 98.7699966430664,
       "changeAbs": -0.03899383544921875,
-      "changePct": -0.03945147399228539,
-      "pctRank": 23.54813046937152,
+      "changePct": -0.03947943381038486,
+      "pctRank": 22.575516693163753,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.764489805173753,
-      "ma20": 99.29355010986328,
-      "ma60": 100.2493502298991,
-      "chg1m": -1.0089950561523438,
-      "chg3m": -1.1090011596679688,
-      "chg1mPct": -1.0109158208926017,
-      "chg3mPct": -1.1100001191257636,
+      "drawdown1y": -2.8333803616187314,
+      "ma20": 99.22804985046386,
+      "ma60": 100.23385022481283,
+      "chg1m": -1.0889968872070312,
+      "chg3m": -1.218994140625,
+      "chg1mPct": -1.090960619651752,
+      "chg3mPct": -1.2196039798342768,
       "lastDate": "2026-09-10",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4446.2998046875,
+      "current": 4456.5,
       "prevClose": 4393.89990234375,
-      "changeAbs": 52.39990234375,
-      "changePct": 1.1925602200405014,
-      "pctRank": 91.01034208432776,
+      "changeAbs": 62.60009765625,
+      "changePct": 1.4247046825727296,
+      "pctRank": 91.24900556881464,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.397790945955883,
-      "ma20": 4471.924975585937,
-      "ma60": 4239.398327636719,
-      "chg1m": 84.5,
-      "chg3m": 186.2998046875,
-      "chg1mPct": 1.9372736893882727,
-      "chg3mPct": 4.373234851819249,
+      "drawdown1y": -16.206000266432053,
+      "ma20": 4472.434985351562,
+      "ma60": 4239.568330891927,
+      "chg1m": 94.7001953125,
+      "chg3m": 196.5,
+      "chg1mPct": 2.171126588861975,
+      "chg3mPct": 4.612676056338028,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 4.9014133871083665,
-        "ret3m": 7.134178350036269,
-        "ret6m": 14.988432940913409,
-        "ret1y": 10.839965720385347,
+        "ret1m": 3.585473695078134,
+        "ret3m": 9.278792634501908,
+        "ret6m": 15.52378296170911,
+        "ret1y": 10.100535311489423,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 3.928160440346473,
-        "ret3m": -2.5184708943859047,
-        "ret6m": 85.887715994491,
-        "ret1y": 240.97869129829505,
+        "ret1m": 6.387209377379888,
+        "ret3m": -0.5994471466647222,
+        "ret6m": 83.6008209372468,
+        "ret1y": 237.74772054461516,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -2.5537287742151027,
-        "ret3m": 2.8546074223701146,
-        "ret6m": 43.760791722823214,
-        "ret1y": 233.28651592806665,
+        "ret1m": 5.102945152704863,
+        "ret3m": 11.351177411392355,
+        "ret6m": 39.3945715484777,
+        "ret1y": 235.22287777029786,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": 1.5043564621195715,
-        "ret3m": 0.23061396787313893,
-        "ret6m": 16.356716464950583,
-        "ret1y": 67.91504711436794,
+        "ret1m": -0.2978220631814299,
+        "ret3m": -2.1717971813635106,
+        "ret6m": 12.612573081664102,
+        "ret1y": 62.968534598809775,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,20 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.0787886582315709,
-    "corrPctRank": 0.08382229673093043,
+    "corr60": 0.08328028534828012,
+    "corrPctRank": 0.16750418760469013,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Iran likely to reverse-engineer captured US underwater drone - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSVJXWnFxd25USERSYUk0Nmt5N1RFUzMxbllBa2NqNkJGUVplYkFJVEJYRThSdkxCa3NhNDVLdV8wRGE5VGpGVlhhVzRKdUpOeHExUXRONFprbmtaTDZNaEhuZGZEdGhta3FrQ1FBZDAwSXQ0TV9wMWxGMExaT2FURVpsa0d5WjdwakhhT1ZOVDhzRGwwS0tUUmxxVUk3R2NrcGdlRGVDNjZCcS0xZTQ0cw?oc=5",
+      "datetime": 1788994741,
+      "headlineKo": "이란, 미국 수중 드론 포획한 리버스엔지니어링 가능성 - 로이터 통신"
+    },
     {
       "headline": "Bank of America CEO says the consumer remains resilient despite rising gas prices",
       "source": "CNBC",
@@ -249,6 +256,13 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/09/nfl-teams-still-undervalued-says-jacksonville-jaguars-owner-shad-khan.html",
       "datetime": 1788992988,
       "headlineKo": "잭슨빌 재규어스의 구단주 샤드 칸은 NFL 팀들이 여전히 '과소평가돼 있다'고 말했다."
+    },
+    {
+      "headline": "ECB set to hike as Iran war fuels fresh inflation fears - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZzZJOUlHUzJVTF9DZ2dQc2ZUMHlVckE0OFR5Rks1a1lMYUNfRUpEOXFObkp2VEFtTk1veHdKWHZrVTJBMlVBT2xucWZUVnVXVTZPMm4xbzdyX0QzN1RsM2x2WEhJcGt5UTRseDZBdTdZaVFzdWI1d2xlXzR5MVhrNWlQNnRDd1NOZTlxM2tDd0Nob0NfWDJkWk1FeDdUdmpCdzExdQ?oc=5",
+      "datetime": 1788992248,
+      "headlineKo": "이란 전쟁이 새로운 인플레이션 우려를 불러일으키면서 ECB는 금리를 인상할 예정입니다 - Reuters"
     },
     {
       "headline": "Trump departs DC on Qatar-gifted Air Force One after emergency slide accidentally deploys - Reuters",
@@ -268,7 +282,7 @@ const MARKET_DATA = {
       "headline": "US trial against China's Huawei opens with prosecutor calling the company a criminal enterprise - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaC1UeHo4RkVJQXVPbGd0V1o0bWtBUDd0NGY2eUpBT3hoSTRvQlZ4S2hkQkFVVDhsUWlXbDNuUXY5WV9LWEMxMWhuQjFTMGUtbnZvNGRGQk40amRHR3BWRWh1MUpCNkRTMWNMN3FWRkFwb0JrQ2J0TGFwY2JhM201dFBFVnp5Vk9CQ0N2eEdIczIxZmlFVHJjNXRnaGxPcUZ1YWtLU05OUVBQX3F0dllWT2o5LWVCNXNLamMwNktDQVRid28?oc=5",
-      "datetime": 1788989553,
+      "datetime": 1788988980,
       "headlineKo": "중국 화웨이에 대한 미국 재판이 시작되고 검찰은 이 회사를 범죄 기업으로 규정했습니다."
     },
     {
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVkFZWWVmRkxOZ0dqSFdYQnh1dkpQTkZBbFdyU2Rydm1aMUo5eDFhNGpTaURVcmZLN25rS0s0ZUlEd1hFdEJ1TXJjT01mVzYtS1I1X2duVjhXTTFseHZOVGNWLURySnN3M0d1aGpVdUZLUXBDT0NMUjlhYXRHdGo4ekY0Q2stN3VyY09XSFRFZTdka1BhMDJnTFR2NzB2eVVzSW9ENV8wYi1jcWZhdEl0VjQxd1l2VXFI?oc=5",
       "datetime": 1788981329,
       "headlineKo": "후티 반군, 사우디 주도 연합군 이틀째 사우디 남부 도시 공격 - 로이터 통신"
-    },
-    {
-      "headline": "Turkey takes note of US/Iran-related sanctions announcement, finance minister says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZEc2WXdwT28wZUJZR1NCTTYxbWdneDRaZy1fRlNodXVIQzBVNUt1NjF6N2ZGaWo5cjU2S040VnliY0R1djNtZlNNWm5ocFR0TmtHYnp6Z1NHLUlJZTlTVWJoRlRrVzFsLTVMdWRlbHFzQkR3R21GM2J0U3FVMWktakxteldKaGxUR3dBbVgydFVOMEp5RWpveVlfS09hTC0wM2VNZDFqLXpJSV9aUUtBT3hscDVDMmR3QmR3U2RZYW5yTnUtLXlaam9CNA?oc=5",
-      "datetime": 1788978752,
-      "headlineKo": "터키, 미국/이란 관련 제재 발표 주목"
-    },
-    {
-      "headline": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckd4WVFmZEhoNEFkVzRzdE9JMVJ2QVUwMmk3MDRuUTA3NHc3N0xrY2VLZl9GY2Q2WU1ybzBodjhINEQwaV9GQmpKS3FSdXpSY3B3M0VUY3V6NUJvSU1zR1NPYmpLMUtvN3ZrYlZEVlZVNmhZTWZhdnhpM2dEaEZJZzBlbDN3cE42cXNsbDdnYmNkT3ROZTVzVjdBZUJ0NjRCYW4tQUdQQk5NNTV4NFIw?oc=5",
-      "datetime": 1788977403,
-      "headlineKo": "미국-이란 공격에 선박이 붙잡혀 이라크 해역에서 유조선 피격 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 39.0285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1789002363.5324438,
-  "_updated_label": "2026-09-10 10:06",
-  "_last_attempt_at": 1789002363.5324438,
-  "_last_success_at": 1789002363.5324438,
+  "_fetched_at": 1789006255.729253,
+  "_updated_label": "2026-09-10 11:11",
+  "_last_attempt_at": 1789006255.729253,
+  "_last_success_at": 1789006255.729253,
   "_collection_status": "ok",
   "_collection_errors": []
 };
