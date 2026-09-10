@@ -72,9 +72,9 @@ const DATA_STATUS = {
     "market": {
       "label": "시장환경",
       "status": "ok",
-      "lastAttemptAt": 1789041675.1155834,
-      "lastSuccessAt": 1789041675.1155834,
-      "lastPartialSuccessAt": 1789041675.1155834,
+      "lastAttemptAt": 1789041696.9366922,
+      "lastSuccessAt": 1789041696.9366922,
+      "lastPartialSuccessAt": 1789041696.9366922,
       "lastFetchedAt": 1789039788.6707242,
       "oldestFetchedAt": 1789039788.6707242,
       "warningAfterHours": 6,
@@ -89,9 +89,9 @@ const DATA_STATUS = {
     "prices": {
       "label": "가격·차트",
       "status": "ok",
-      "lastAttemptAt": 1789041675.125675,
-      "lastSuccessAt": 1789041675.125675,
-      "lastPartialSuccessAt": 1789041675.125675,
+      "lastAttemptAt": 1789041696.9443643,
+      "lastSuccessAt": 1789041696.9443643,
+      "lastPartialSuccessAt": 1789041696.9443643,
       "lastFetchedAt": 1789021159.3674545,
       "oldestFetchedAt": 1788985230.5241108,
       "warningAfterHours": 6,
@@ -106,8 +106,8 @@ const DATA_STATUS = {
     "businessAnalysis": {
       "label": "기업분석",
       "status": "ok",
-      "lastAttemptAt": 1789041679.4374042,
-      "lastSuccessAt": 1789041679.4374042,
+      "lastAttemptAt": 1789041697.1687317,
+      "lastSuccessAt": 1789041697.1687317,
       "lastFetchedAt": 1789031093.8921306,
       "oldestFetchedAt": 1789031093.8921306,
       "dataAsOfLabel": "2026-09-10 18:04",
@@ -154,9 +154,9 @@ const DATA_STATUS = {
     "sigma": {
       "label": "시그마(옵션 IV)",
       "status": "partial",
-      "lastAttemptAt": 1789041675.2094412,
+      "lastAttemptAt": 1789041697.0318258,
       "lastSuccessAt": null,
-      "lastPartialSuccessAt": 1789041675.2094412,
+      "lastPartialSuccessAt": 1789041697.0318258,
       "lastFetchedAt": 1789041675.2430785,
       "oldestFetchedAt": 1788541318.777095,
       "warningAfterHours": 6,
@@ -241,10 +241,10 @@ const DATA_STATUS = {
       "lastError": null
     }
   },
-  "generatedAt": 1789041679.4374042,
+  "generatedAt": 1789041697.1687317,
   "timezoneGuide": {
     "collector": "Asia/Seoul",
     "market": "America/New_York"
   },
-  "buildGeneratedAt": "2026-09-10 21:01:19"
+  "buildGeneratedAt": "2026-09-10 21:01:37"
 };
