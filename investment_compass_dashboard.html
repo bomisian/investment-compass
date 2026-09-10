@@ -2223,6 +2223,11 @@ function epsFundamentalDirectionBadges(ticker){
 // "지금 뭘 봐야 하는지"만 한눈에 보게 별도 페이지 탭으로 분리함. 새 계산은 하나도 추가하지 않고
 // 이미 검증/계산되어 있던 값만 골라서 더 단순한 표로 재구성함 - 자세한 근거가 필요하면 종목을 눌러
 // 기존 📊 대시보드의 상세 화면(01~06)으로 그대로 연결됨.
+let simpleLtSortKey = null, simpleLtSortDir = -1;
+function sortSimpleLt(key){
+  if(simpleLtSortKey===key) simpleLtSortDir *= -1; else { simpleLtSortKey = key; simpleLtSortDir = -1; }
+  renderSimpleView();
+}
 function renderSimpleView(){
   const envBox = document.getElementById('simpleEnvBody');
   const tripodBox = document.getElementById('simpleTripodBody');
@@ -2284,28 +2289,52 @@ function renderSimpleView(){
     earnBox.innerHTML = '';
   }
 
-  // ---- 종목 리스트: 종목명 · 테마 · 적정가 · 가격타당성 · 뉴스방향성 · EPS/실적 ----
+  // ---- 종목 리스트: 종목명 · 테마 · 적정가 · 기준가 대비 · 가격타당성 · 뉴스방향성 · EPS/실적 ----
+  // 2026-09-10 수정(사용자 요청): 이 표엔 정렬 기능이 아예 없었음(#resultTable 전용 정렬 로직이라
+  // 심플보기엔 안 걸려 있었음) - 새 정렬 상태(simpleLtSortKey/Dir)를 따로 둬서 헤더 클릭으로
+  // 오름/내림 정렬 가능하게 하고, 기본은 기존과 동일하게 점수 높은 순. 같은 요청으로 main 표에
+  // 이미 있던 fvUpsidePct(기준가 대비 %, "적정가"가 아니라 참고용 지표라는 주석도 동일하게 적용)를
+  // 컬럼으로 추가함 - 새 계산 아니라 결과 객체에 이미 있는 값을 재사용.
   const scored = Object.values(results).filter(r=>!r.error);
-  const picks = scored.filter(r=>r.verdict && r.verdict.label!=='관망').sort((a,b)=>b.score-a.score);
+  let picks = scored.filter(r=>r.verdict && r.verdict.label!=='관망');
+  const fairMidOf = r => (r.fairValue && r.fairValue.fwd && !r.fairValue.fwd.unavailable && r.fairValue.fwd.mid!=null) ? r.fairValue.fwd.mid : null;
+  if(simpleLtSortKey){
+    picks = picks.slice().sort((a,b)=>{
+      let av, bv;
+      if(simpleLtSortKey==='ticker'){ av=a.ticker; bv=b.ticker; }
+      else if(simpleLtSortKey==='theme'){ av=a.theme||''; bv=b.theme||''; }
+      else if(simpleLtSortKey==='fairMid'){ av=fairMidOf(a); bv=fairMidOf(b); av=av==null?-Infinity:av; bv=bv==null?-Infinity:bv; }
+      else if(simpleLtSortKey==='fvUpsidePct'){ av=a.fvUpsidePct!=null?a.fvUpsidePct:-Infinity; bv=b.fvUpsidePct!=null?b.fvUpsidePct:-Infinity; }
+      else { av=a.score; bv=b.score; }
+      if(typeof av==='string') return simpleLtSortDir*av.localeCompare(bv);
+      return simpleLtSortDir*(av-bv);
+    });
+  }else{
+    picks = picks.slice().sort((a,b)=>b.score-a.score);
+  }
   if(!picks.length){
     ltBox.innerHTML = '<div class="sub">아직 스캔 결과가 없거나, 지금은 매수관심 이상인 종목이 없어요.</div>';
   }else{
+    const arrow = key => simpleLtSortKey===key ? (simpleLtSortDir===1?' ▲':' ▼') : '';
+    const th = (key,label) => `<th class="${simpleLtSortKey===key?'active':''}" style="cursor:pointer;" onclick="sortSimpleLt('${key}')" title="눌러서 정렬">${label}${arrow(key)}</th>`;
     const rows = picks.map(r=>{
       const fwd = r.fairValue && r.fairValue.fwd;
       const fairTxt = (fwd && !fwd.unavailable && fwd.mid!=null) ? '$'+fwd.mid.toFixed(0) : '-';
+      const upsideTxt = r.fvUpsidePct!=null ? `<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>` : '<span class="sub">-</span>';
       const dir = directionBadge(r.ticker) || '<span class="sub">-</span>';
       return `<tr onclick="openDetail('${r.ticker}')" style="cursor:pointer;">
         <td><b>${esc(r.ticker)}</b> <span class="badge ${r.verdict.label==='강한 매수기회'?'b-strong-buy':'b-buy-wait'}" style="font-size:10px;">${r.verdict.label==='강한 매수기회'?'강한':'관심'}</span></td>
         <td class="sub">${esc(r.theme||'-')}</td>
         <td class="v">${fairTxt}</td>
+        <td class="v">${upsideTxt}</td>
         <td>${valuationBadgeHtml(r)}</td>
         <td>${dir}</td>
         <td>${epsFundamentalDirectionBadges(r.ticker)}</td>
       </tr>`;
     }).join('');
-    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 점수 높은 순. 기준가·가격타당성은 참고용이며 낮다고 매수 신호는 아니에요(검증상 밸류트랩 위험). '기준가'는 "적정가"가 아니라 PER 유지 시나리오 가격이에요.</div>
-      <div style="overflow-x:auto;"><table style="width:100%;min-width:520px;">
-        <thead><tr><th>종목</th><th>테마</th><th>기준가</th><th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
+    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). 기준가·기준가 대비·가격타당성은 참고용이며 낮다고 매수 신호는 아니에요(검증상 밸류트랩 위험). '기준가'는 "적정가"가 아니라 PER 유지 시나리오 가격이고, '기준가 대비'는 그 기준가까지 남은 상승여력(%)이에요 - 가격이 비쌀수록 기준가도 같이 비싸지는 구조라 저평가·고평가를 증명하진 못해요.</div>
+      <div style="overflow-x:auto;"><table style="width:100%;min-width:600px;">
+        <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','기준가')}${th('fvUpsidePct','기준가 대비')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
   }
@@ -2392,6 +2421,15 @@ function buildRecentSignalLogHtml(scored){
     if(!ts || !ts.entryFlags) return;
     const closes = r.series.closes, dates = r.series.dates, ma200 = ts.ma200;
     const lastIdx = closes.length - 1;
+    // 2026-09-10 추가(사용자 요청): 장기 목록(①)엔 있던 참고 지표(기준가 대비·가격타당성·
+    // EPS상향하양·실적훼손·뉴스방향성 우려/혼재/긍정)가 단타 신호 로그(②)엔 없어서 종목별로
+    // 따로 눌러 확인해야 했음 - 새 판정을 만들지 않고 기존 함수(valuationBadgeHtml·
+    // epsFundamentalDirectionBadges·directionBadge, r.fvUpsidePct)를 그대로 재사용해서 종목당
+    // 한 번만 계산 후 그 종목의 모든 신호 항목에 공통으로 붙임.
+    const fvUpsideTxt = r.fvUpsidePct!=null ? `<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>` : '<span class="sub">-</span>';
+    const valBadge = valuationBadgeHtml(r);
+    const dirBadge = directionBadge(r.ticker);
+    const epsFundBadges = epsFundamentalDirectionBadges(r.ticker);
     for(let i=0;i<ts.entryFlags.length;i++){
       if(!ts.entryFlags[i]) continue;
       const ago = lastIdx - i;
@@ -2404,11 +2442,11 @@ function buildRecentSignalLogHtml(scored){
       if(ago>=10){ status = '평가 종료(10거래일)'; statusColor = 'var(--sub)'; }
       else if(wasUptrend && !nowUptrend){ status = '중단(우상향 전제 깨짐)'; statusColor = 'var(--down)'; }
       else{ status = '진행 중'; statusColor = 'var(--up)'; }
-      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor});
+      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor, fvUpsideTxt, valBadge, dirBadge, epsFundBadges});
     }
   });
   const head = `<div class="sub" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line);margin-bottom:4px;">
-    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요)</span>
+    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요. 기준가 대비·가격타당성·EPS·실적·뉴스방향성은 ①목록과 같은 참고 지표예요 - 매수 신호가 아니에요)</span>
   </div>`;
   if(!items.length){
     return `${head}<div class="sub">최근 10거래일 안에는 단타 진입 신호가 없었어요.</div>`;
@@ -2420,6 +2458,7 @@ function buildRecentSignalLogHtml(scored){
         <b style="cursor:pointer;" onclick="openDetail('${it.ticker}')">${it.ticker}</b> · ${it.date} · $${it.price.toFixed(2)}
         ${it.strong?'<span class="badge b-strong-buy" style="margin-left:4px;">강한</span>':''}
         <span class="sub" style="display:block;">${it.ago===0?'오늘':`${it.ago}거래일 전`} · <span style="color:${it.statusColor};font-weight:600;">${it.status}</span></span>
+        <span class="sub" style="display:block;margin-top:2px;">기준가 대비 ${it.fvUpsideTxt} · ${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
       </span>
       <span class="v" style="text-align:right;white-space:nowrap;color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%</span>
     </div>`).join('');
