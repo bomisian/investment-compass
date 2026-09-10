@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 96.94999694824219,
+      "current": 97.1500015258789,
       "prevClose": 93.02999877929688,
-      "changeAbs": 3.9199981689453125,
-      "changePct": 4.21369259419756,
-      "pctRank": 90.53301511535402,
+      "changeAbs": 4.120002746582031,
+      "changePct": 4.428681931251306,
+      "pctRank": 90.61256961018299,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -14.16556036502753,
-      "ma20": 86.66800079345703,
-      "ma60": 80.63833351135254,
-      "chg1m": 14.819999694824219,
-      "chg3m": 8.75,
-      "chg1mPct": 18.044563728762892,
-      "chg3mPct": 9.920635263893155,
+      "drawdown1y": -13.988486807665357,
+      "ma20": 86.67800102233886,
+      "ma60": 80.64166692097982,
+      "chg1m": 15.020004272460938,
+      "chg3m": 8.950004577636719,
+      "chg1mPct": 18.288085687030577,
+      "chg3mPct": 10.147397831418054,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 98.78299713134766,
+      "current": 98.76399993896484,
       "prevClose": 98.83999633789062,
-      "changeAbs": -0.05699920654296875,
-      "changePct": -0.05766815930275174,
-      "pctRank": 23.070803500397773,
+      "changeAbs": -0.07599639892578125,
+      "changePct": -0.07688830609218446,
+      "pctRank": 22.75258552108194,
       "min5y": 92.4800033569336,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.782209882907827,
-      "ma20": 99.29264984130859,
-      "ma60": 100.24905014038086,
-      "chg1m": -1.0270004272460938,
-      "chg3m": -1.1270065307617188,
-      "chg1mPct": -1.0289554677558128,
-      "chg3mPct": -1.1280217089904212,
+      "drawdown1y": -2.80090606661878,
+      "ma20": 99.29169998168945,
+      "ma60": 100.24873352050781,
+      "chg1m": -1.0459976196289062,
+      "chg3m": -1.1460037231445312,
+      "chg1mPct": -1.0479888239801332,
+      "chg3mPct": -1.1470360135510138,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4444.2998046875,
+      "current": 4437.7998046875,
       "prevClose": 4393.89990234375,
-      "changeAbs": 50.39990234375,
-      "changePct": 1.1470425695602713,
+      "changeAbs": 43.89990234375,
+      "changePct": 0.9991102054995235,
       "pctRank": 90.9307875894988,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -16.4353962414719,
-      "ma20": 4471.824975585938,
-      "ma60": 4239.364994303385,
-      "chg1m": 82.5,
-      "chg3m": 184.2998046875,
-      "chg1mPct": 1.891421057686775,
-      "chg3mPct": 4.326286495011737,
+      "drawdown1y": -16.557613451898966,
+      "ma20": 4471.499975585937,
+      "ma60": 4239.2566609700525,
+      "chg1m": 76.0,
+      "chg3m": 177.7998046875,
+      "chg1mPct": 1.7424000046569081,
+      "chg3mPct": 4.173704335387324,
       "lastDate": "2026-09-09",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.585473695078134,
-        "ret3m": 9.278792634501908,
-        "ret6m": 15.52378296170911,
-        "ret1y": 10.100535311489423,
+        "ret1m": 4.9014133871083665,
+        "ret3m": 7.134178350036269,
+        "ret6m": 14.988432940913409,
+        "ret1y": 10.839965720385347,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 6.38714375040581,
-        "ret3m": -0.5995084637867909,
-        "ret6m": 83.60070767958752,
-        "ret1y": 237.7475121985083,
+        "ret1m": 3.928160440346473,
+        "ret3m": -2.5184708943859047,
+        "ret6m": 85.887715994491,
+        "ret1y": 240.97869129829505,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 5.102945152704863,
-        "ret3m": 11.351177411392355,
-        "ret6m": 39.3945715484777,
-        "ret1y": 235.22287777029786,
+        "ret1m": -2.5537287742151027,
+        "ret3m": 2.8546074223701146,
+        "ret6m": 43.760791722823214,
+        "ret1y": 233.28651592806665,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -0.24141080372176438,
-        "ret3m": -2.1164462126497474,
-        "ret6m": 12.676289012549358,
-        "ret1y": 63.060741815133994,
+        "ret1m": 1.5043564621195715,
+        "ret3m": 0.23061396787313893,
+        "ret6m": 16.356716464950583,
+        "ret1y": 67.91504711436794,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,20 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.08328033879396612,
-    "corrPctRank": 0.16750418760469013,
+    "corr60": 0.0787886582315709,
+    "corrPctRank": 0.08382229673093043,
     "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Bank of America CEO says the consumer remains resilient despite rising gas prices",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/09/bank-of-america-ceo-consumer-resilient-despite-rising-gas.html",
+      "datetime": 1788994431,
+      "headlineKo": "Bank of America CEO는 휘발유 가격 상승에도 불구하고 소비자는 여전히 회복력을 유지하고 있다고 말했습니다."
+    },
     {
       "headline": "NFL teams still 'undervalued,' says Jacksonville Jaguars owner Shad Khan",
       "source": "CNBC",
@@ -244,11 +251,18 @@ const MARKET_DATA = {
       "headlineKo": "잭슨빌 재규어스의 구단주 샤드 칸은 NFL 팀들이 여전히 '과소평가돼 있다'고 말했다."
     },
     {
-      "headline": "Trump departs DC on Qatar-gifted Air Force One after emergency slide deploys - Reuters",
+      "headline": "Trump departs DC on Qatar-gifted Air Force One after emergency slide accidentally deploys - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTDFmbU9kUFlkTGo3Qmg3SzFVajhJVVRYdnF4UWdWU3VId1c1TnJCZFpQZ1BTYzlMak94eFZ0WlhnMGxaVGEtWTctRUNmbV85cjhldmpSVDN4Y2hrbEJ1SWdaNzl2ODlZTE1vc0h5MlNDQ2xzbDRrNUc2RHRyMmRrQ1JsenFIUV9DQU1zUUk1TnlLOHh2QVoyajExU1I3ak1JZ2I3R21SeWtackpsYTgweEZR?oc=5",
-      "datetime": 1788991124,
-      "headlineKo": "트럼프, 긴급 슬라이드 배치 후 카타르에서 선물한 에어포스원을 타고 DC 출발 - 로이터"
+      "datetime": 1788991282,
+      "headlineKo": "트럼프, 비상 슬라이드 실수로 전개된 후 카타르 선물 에어포스원 타고 DC 출발 - 로이터"
+    },
+    {
+      "headline": "As Trump takes center stage in Dallas, Republicans debate a future without him - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NXWmxOTzBqLS1jVW1JTjBsMzgxS2VuQkFVRl9KeDlJR28taW9UWUE0YlZIRWprbEtoMDZXc2lpUDItLWVkWHdiQ19XRDNFUll4YnQ2ZmhfbGV1ZWxndXplbHNUM3NKdlNJVUNaY1Jqa2o4Z0hUb185Tk5CQk1jd1dBbzhZYjR3NXJnWE91NEVJQ3NidWV6ZTJGSTJmQURXcS1YMlJvUm9uSEtQdXlYMGtiT1M?oc=5",
+      "datetime": 1788989865,
+      "headlineKo": "트럼프가 댈러스에서 중심 무대에 오르자 공화당원들은 그가 없는 미래에 대해 토론한다 - 로이터 통신"
     },
     {
       "headline": "US trial against China's Huawei opens with prosecutor calling the company a criminal enterprise - Reuters",
@@ -256,13 +270,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQaC1UeHo4RkVJQXVPbGd0V1o0bWtBUDd0NGY2eUpBT3hoSTRvQlZ4S2hkQkFVVDhsUWlXbDNuUXY5WV9LWEMxMWhuQjFTMGUtbnZvNGRGQk40amRHR3BWRWh1MUpCNkRTMWNMN3FWRkFwb0JrQ2J0TGFwY2JhM201dFBFVnp5Vk9CQ0N2eEdIczIxZmlFVHJjNXRnaGxPcUZ1YWtLU05OUVBQX3F0dllWT2o5LWVCNXNLamMwNktDQVRid28?oc=5",
       "datetime": 1788989553,
       "headlineKo": "중국 화웨이에 대한 미국 재판이 시작되고 검찰은 이 회사를 범죄 기업으로 규정했습니다."
-    },
-    {
-      "headline": "As Trump takes center stage in Dallas, Republicans debate a future without him - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NXWmxOTzBqLS1jVW1JTjBsMzgxS2VuQkFVRl9KeDlJR28taW9UWUE0YlZIRWprbEtoMDZXc2lpUDItLWVkWHdiQ19XRDNFUll4YnQ2ZmhfbGV1ZWxndXplbHNUM3NKdlNJVUNaY1Jqa2o4Z0hUb185Tk5CQk1jd1dBbzhZYjR3NXJnWE91NEVJQ3NidWV6ZTJGSTJmQURXcS1YMlJvUm9uSEtQdXlYMGtiT1M?oc=5",
-      "datetime": 1788988584,
-      "headlineKo": "트럼프가 댈러스에서 중심 무대에 오르자 공화당원들은 그가 없는 미래에 대해 토론한다 - 로이터 통신"
     },
     {
       "headline": "EXCLUSIVE: Pakistan warns Iran to rein in Houthis as Riyadh strikes back - Reuters",
@@ -300,35 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "후티 반군, 사우디 주도 연합군 이틀째 사우디 남부 도시 공격 - 로이터 통신"
     },
     {
+      "headline": "Turkey takes note of US/Iran-related sanctions announcement, finance minister says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZEc2WXdwT28wZUJZR1NCTTYxbWdneDRaZy1fRlNodXVIQzBVNUt1NjF6N2ZGaWo5cjU2S040VnliY0R1djNtZlNNWm5ocFR0TmtHYnp6Z1NHLUlJZTlTVWJoRlRrVzFsLTVMdWRlbHFzQkR3R21GM2J0U3FVMWktakxteldKaGxUR3dBbVgydFVOMEp5RWpveVlfS09hTC0wM2VNZDFqLXpJSV9aUUtBT3hscDVDMmR3QmR3U2RZYW5yTnUtLXlaam9CNA?oc=5",
+      "datetime": 1788978752,
+      "headlineKo": "터키, 미국/이란 관련 제재 발표 주목"
+    },
+    {
       "headline": "Oil tanker hit in Iraqi waters, as vessels get caught in US-Iran attacks - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckd4WVFmZEhoNEFkVzRzdE9JMVJ2QVUwMmk3MDRuUTA3NHc3N0xrY2VLZl9GY2Q2WU1ybzBodjhINEQwaV9GQmpKS3FSdXpSY3B3M0VUY3V6NUJvSU1zR1NPYmpLMUtvN3ZrYlZEVlZVNmhZTWZhdnhpM2dEaEZJZzBlbDN3cE42cXNsbDdnYmNkT3ROZTVzVjdBZUJ0NjRCYW4tQUdQQk5NNTV4NFIw?oc=5",
       "datetime": 1788977403,
       "headlineKo": "미국-이란 공격에 선박이 붙잡혀 이라크 해역에서 유조선 피격 - 로이터 통신"
-    },
-    {
-      "headline": "What a historic summer box office reveals about massive shifts in the theatrical industry",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/09/summer-box-theatrical-shifts.html",
-      "datetime": 1788977280,
-      "headlineKo": "역사적인 여름 박스오피스를 통해 연극 산업의 엄청난 변화가 밝혀졌습니다."
-    },
-    {
-      "headline": "UAE and Germany look to build ties with investment, energy and AI deals - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbHVyY1EyVkN0ejVTZnJMXzVmVGNCQTJzUmNmWTJkVi1ZWnRfRTJSd3NTT3V3ZmdUc2xXdGZhOHVpUnNtRVZNT1B4VkV3dWJhWFVZamJjT0FzdElsbGRvSk90UE1iSjFoR0txNmttdXFsUDNfcVVIWWlZeDhaMnFHYktsb2FuYm9qZGpUQXdCOERJcE5aWmQzWm9aS0JKMUM0YmxlY3NnSEEzUWFicThkU3VuNA?oc=5",
-      "datetime": 1788977049,
-      "headlineKo": "UAE와 독일, 투자, 에너지, AI 거래로 협력 구축 모색 - Reuters"
     }
   ],
   "fgi": {
     "score": 39.0285714285714,
     "rating": "fear"
   },
-  "_fetched_at": 1788994684.194106,
-  "_updated_label": "2026-09-10 07:58",
-  "_last_attempt_at": 1788994684.194106,
-  "_last_success_at": 1788994684.194106,
+  "_fetched_at": 1788998398.0263143,
+  "_updated_label": "2026-09-10 09:00",
+  "_last_attempt_at": 1788998398.0263143,
+  "_last_success_at": 1788998398.0263143,
   "_collection_status": "ok",
   "_collection_errors": []
 };

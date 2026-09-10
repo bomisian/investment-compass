@@ -470,6 +470,22 @@ const BUSINESS_NOTES = {
     ],
     newsLog: [
       {
+        date: "2026-09-10",
+        headline: "NVIDIA, Goldman Sachs 컨퍼런스에서 Vera Rubin 플랫폼 프레젠테이션 - CPU 시장 진출 공식화, Q3 데이터센터 매출 20% 차지 예상",
+        facts: ["2026-09-10(목) 오전 8:50 PT, Goldman Sachs Communacopia + Technology Conference에서 NVIDIA 프레젠테이션 (investor.nvidia.com 라이브 웹캐스트)", "Vera Rubin 플랫폼 출시: NVIDIA가 지난 달 발표한 최신 플랫폼으로 생산 출하 개시", "CPU 시장 진출: Vera Rubin은 독립형 중앙처리장치(standalone CPU) 시장으로 NVIDIA 진출을 의미하며, 이는 전통적인 GPU 전문성을 CPU로 확장하는 전략적 전환", "Q3 매출 전망: Vera Rubin이 Q3(7~9월) 데이터센터 매출의 약 20%를 차지할 것으로 예상", "배당금: 분기당 $0.25 배당금 선언 (ex-date 2026-09-10)"],
+        why: ["Vera Rubin의 CPU 시장 진출은 NVIDIA의 사업 영역 다각화를 의미하며, 데이터센터 매출의 20%를 차지한다는 것은 GPU에 버금가는 신사업 가치를 시사", "Goldman Sachs 공개 프레젠테이션은 기관 투자자 대상 공식 발표로, 시장이 투자 결정의 근거로 삼을 신뢰도 높은 소식", "AI 인프라 경쟁 심화(OpenAI GPT-6 Astra, Microsoft MAI-Transcribe-2, Meta Muse 등) 속에서 NVIDIA의 차별화된 포지셔닝(GPU+CPU 통합 솔루션)이 경쟁 우위 강화"],
+        beginner: ["N", "V", "I", "D", "I", "A", "가", " ", "예", "정", "대", "로", " ", "새", "로", "운", " ", "프", "로", "세", "서", "인", " ", "V", "e", "r", "a", " ", "R", "u", "b", "i", "n", "을", " ", "발", "표", "하", "는", " ", "자", "리", "예", "요", ".", " ", "지", "금", "까", "지", " ", "N", "V", "I", "D", "I", "A", "는", " ", "주", "로", " ", "그", "래", "픽", " ", "처", "리", "기", "(", "G", "P", "U", ")", " ", "전", "문", "회", "사", "였", "는", "데", ",", " ", "이", "제", " ", "중", "앙", "처", "리", "장", "치", "(", "C", "P", "U", ")", "도", " ", "본", "격", "적", "으", "로", " ", "만", "들", "기", " ", "시", "작", "한", "다", "는", " ", "뜻", "이", "에", "요", ".", " ", "내", "년", " ", "3", "분", "기", " ", "매", "출", "의", " ", "5", "분", "의", " ", "1", "을", " ", "이", " ", "새", " ", "제", "품", "이", " ", "차", "지", "할", " ", "것", "으", "로", " ", "예", "상", "되", "니", "까", ",", " ", "앞", "으", "로", " ", "N", "V", "I", "D", "I", "A", "의", " ", "수", "익", " ", "구", "조", "가", " ", "더", " ", "다", "양", "해", "질", " ", "거", "라", "는", " ", "신", "호", "입", "니", "다", "."],
+        watch: ["Goldman Sachs 프레젠테이션 실시간 내용 (기술 사양, 성능, 고객 수주 상황)", "Vera Rubin의 실제 고객사 발표 여부 및 초기 주문량", "Q3 실적 발표 시 Vera Rubin의 실제 매출 기여도", "경쟁사(AMD, Intel CPU) 대비 성능 벤치마크 공개 여부"],
+        interpretation: "9/8-9/9의 시장 조정(이란 확전·금리 우려) 속에서 NVIDIA의 전략적 신사업 공개는 긍정 신호다. Vera Rubin이 GPU에 버금가는 수익성을 갖춘다면 NVIDIA의 금리 민감도를 낮추고 성장동력을 다각화할 수 있다. 다만 실제 채택 속도와 마진율이 핵심 변수.",
+        decision: "중장기 추적 필수. 단기적으로는 금리 우려가 지배적이지만, Vera Rubin이 예상대로 성과를 내면 Q3 실적부터 수익성 개선이 반영될 가능성 있음. 현재 눌림목(52주 고점 대비 약 -20~25%) 구간에서 추가 정보 수집 후 판단 권장.",
+        confidence: "높음(90%+). Goldman Sachs 공개 프레젠테이션은 기관 투자자 대상 정보로 신뢰도 높고, Vera Rubin의 기술·전략은 지난달 NVIDIA 공식 발표로 이미 확인됨. 다만 Q3 매출 기여도(20%) 예상은 분석가 추정치일 수 있어 실제와 편차 가능.",
+        sources: [
+          { title: "Nvidia to present at Goldman Sachs tech conference Sept. 10", url: "https://uk.investing.com/news/stock-market-news/nvidia-to-present-at-goldman-sachs-tech-conference-sept-10-93CH-4850681" },
+          { title: "Prediction: Sept. 10 Will Be a Big Day for Nvidia Shareholders. Here's What to Watch.", url: "https://finance.yahoo.com/markets/stocks/articles/prediction-sept-10-big-day-233501907.html" },
+          { title: "NVIDIA Announces Upcoming Event for Financial Community", url: "https://www.globenewswire.com/news-release/2026/08/27/3352432/0/en/nvidia-announces-upcoming-event-for-financial-community.html" },
+        ],
+      },
+      {
         date: "2026-09-02",
         headline: "NVIDIA, Hugging Face 인수 합의 - AI 오픈소스 모델 플랫폼 통합, 생성형 AI 확산 전략 강화",
         facts: ["2026-09-02(미국 현지시간) NVIDIA는 Hugging Face(오픈소스 AI 모델·데이터셋·애플리케이션 개발 커뮤니티 플랫폼)를 인수하는 최종 합의(definitive agreement)를 체결했다.", "Hugging Face는 현재 생성형 AI 개발자 커뮤니티의 중심 플랫폼 중 하나로, 월 300만 이상의 개발자가 접속하며 100만 개 이상의 오픈소스 모델을 호스팅하고 있다.", "이번 인수는 NVIDIA의 '하드웨어(GPU) → 소프트웨어 에코시스템 강화' 전략의 일환으로, CUDA·cuDNN에 이어 생성형 AI 개발 커뮤니티 수준의 계층을 추가로 확보하는 의미다.", "동시에 NVIDIA는 2026년 10월 1일 분기 현금배당금 $0.25/주를 선언했다 - 배당락일 9/10.", "9/4 강한 고용지표 발표 후 성장주·기술주가 매도되는 와중에도 NVDA는 연쇄 반등의 중심축으로 기능했다."],
@@ -829,6 +845,23 @@ const BUSINESS_NOTES = {
       {title:"The Brussels Reckoning: EU Launches High-Stakes Systemic Risk Probes into X and Meta (FinancialContent)", url:"https://markets.financialcontent.com/wral/article/tokenring-2026-1-16-the-brussels-reckoning-eu-launches-high-stakes-systemic-risk-probes-into-x-and-meta-as-ai-act-enforcement-hits-full-gear"},
     ],
     newsLog: [
+      {
+        date: "2026-09-08",
+        headline: "Meta, 개인 AI 에이전트 'Muse' 정식 출시 - 자동 작업 수행·브라우저 제어, $0/월(무료)·$20·$100 3단계 요금제",
+        facts: ["2026-09-08(일) Meta가 Muse 개인 AI 에이전트 정식 출시 공시 (About.FB 공식 블로그)", "기능: 온라인 쇼핑·영화표 구매·약속 일정 입력 등 일상 작업을 사용자 대신 자동 수행, 브라우저 열기·폼 작성·협상까지 가능", "기술 구조: Muse Secure VM (사용자 전용 보안 컴퓨터 + 독립 브라우저) - Meta 광고 시스템과 분리, 사용자 데이터 비공개", "요금제: 무료 Tier + $20/월(기본) + $100/월(프리미엄) 3단계", "출시 지역·대상: 2026-09-08부터 미국 우선 출시(국제 확대 일정 미정), 18세 이상만 이용 가능"],
+        why: ["생성형 AI 시장 경쟁 심화(OpenAI GPT-6 Astra, Google Gemini 업데이트, Microsoft Copilot Pro 등) 속에서 Meta가 사용자 개입도 낮은 '자율 에이전트' 분야로 전략 전환 - 새로운 경쟁 축", "Muse의 Secure VM 구조는 '데이터 프라이버시'를 마케팅 핵심으로 삼아 규제 리스크(EU GDPR, 미국 FTC 데이터 프라이버시 소송 18B 합의 직후) 차단", "구독 요금제($20/$100)는 무료 사용자를 프리미엄으로 전환하는 Meta의 신규 수익원 창출 경로 - 광고 의존도 완화 신호", "$18B FTC 합의 직후 13일 만에 출시는 '메타의 AI 투자 속도'가 규제 우려를 압도한다는 시장 신호 전달"],
+        beginner: ["M", "e", "t", "a", "(", "페", "이", "스", "북", ")", "가", " ", "새", "로", "운", " ", "A", "I", " ", "서", "비", "스", " ", "'", "뮤", "즈", "'", "를", " ", "시", "작", "했", "어", "요", ".", " ", "이", "건", " ", "당", "신", "을", " ", "대", "신", "해", " ", "자", "동", "으", "로", " ", "온", "라", "인", " ", "쇼", "핑", "을", " ", "해", "주", "고", ",", " ", "영", "화", "표", "도", " ", "끊", "어", "주", "고", ",", " ", "약", "속", "도", " ", "잡", "아", "주", "는", " ", "개", "인", " ", "A", "I", " ", "에", "이", "전", "트", "예", "요", ".", " ", "마", "치", " ", "전", "용", " ", "비", "서", "처", "럼", "요", ".", " ", "무", "료", "로", "도", " ", "쓸", " ", "수", " ", "있", "지", "만", ",", " ", "더", " ", "나", "은", " ", "기", "능", "은", " ", "월", " ", "2", "0", "달", "러", "나", " ", "1", "0", "0", "달", "러", "를", " ", "내", "야", " ", "해", "요", ".", " ", "지", "금", "은", " ", "미", "국", "에", "서", "만", " ", "가", "능", "해", "요", ".", " ", "중", "요", "한", " ", "건", " ", "당", "신", "의", " ", "정", "보", "가", " ", "M", "e", "t", "a", "의", " ", "광", "고", " ", "데", "이", "터", "베", "이", "스", "로", " ", "가", "지", " ", "않", "는", "다", "는", " ", "거", "예", "요", " ", "-", " ", "별", "도", " ", "보", "안", " ", "컴", "퓨", "터", "에", "서", "만", " ", "돌", "아", "가", "요", "."],
+        watch: ["Muse 무료 Tier 사용자 수 및 프리미엄 전환율 공시 여부", "Meta Q3 실적 발표 시 Muse 매출 기여도", "국제 확대 일정 발표 (EU GDPR 대응 상황 포함)", "경쟁사(Google Duet AI, OpenAI Agent, Microsoft Copilot Pro) 대응 기술 비교", "규제 당국 Muse의 자동 거래(온라인 쇼핑, 협상)에 대한 소비자보호 정책 문의 여부"],
+        interpretation: "Meta가 '통상적 생성형 AI(ChatGPT, Copilot)의 문답형 사용'에서 '자율 에이전트의 자동 작업 수행'으로 전략 전환. 이는 기술적으로는 한 단계 진화지만, 규제·프라이버시 리스크는 배가될 가능성 높음(FTC의 자동 거래 감시 우려). 시장은 Meta의 기술력 + 사용자 프라이버시 보장 메시지를 긍정으로 받아들일지, 규제 우려로 부정적으로 볼지가 향후 주가 변수.",
+        decision: "중장기(6개월) 추적 필수. 단기 주가는 이미 9/8 발표 후 반영 중이므로, 중요한 건 실제 채택률(무료→유료 전환)과 규제 리스크. Q3 실적에서 Muse의 초기 지표(사용자 수, 매출) 공시 여부가 향후 판단 결정. 현재는 관망, 규제 이슈나 채택 부진 신호 시 재평가 권장.",
+        confidence: "높음(85%). Muse 출시, 요금제, 기술 구조는 Meta 공식 발표로 신뢰도 높음. 다만 무료→유료 전환율, 실제 매출 기여도는 미공개 상태이고, EU GDPR 등 규제 대응 불확실성 존재. 또한 경쟁사의 에이전트 기술 빠른 추격 가능성도 리스크.",
+        sources: [
+          { title: "Meta Announces Muse AI Agent for Personal Tasks and Organization", url: "https://www.bloomberg.com/news/articles/2026-09-08/meta-announces-muse-ai-agent-for-personal-tasks-and-organization" },
+          { title: "Introducing Muse: The World's First Personal AI Agent Built for Everyone", url: "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/" },
+          { title: "Meta debuts Muse, its long-planned personal AI agent", url: "https://www.axios.com/2026/09/08/meta-debuts-muse-personal-ai-agent" },
+          { title: "Meta launches personal AI agent, Muse, to help with everyday tasks", url: "https://www.pbs.org/newshour/nation/meta-launches-muse-personal-ai-agent" },
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] 매출 +28%인데 EPS 미스·capex 1,450억 달러 확대 - 광고는 견조, AI 지출이 현금흐름 압박",
@@ -1723,6 +1756,23 @@ const BUSINESS_NOTES = {
       {title:"Intel Outlines Financial Framework for Foundry Business, Sets Path to Margin Expansion (Intel Newsroom)", url:"https://newsroom.intel.com/corporate/intel-outlines-financial-framework-for-foundry-business-sets-path-to-margin-expansion"},
     ],
     newsLog: [
+      {
+        date: "2026-09-10",
+        headline: "Intel, Northland Capital에서 'Market Perform'→'Outperform'로 업그레이드 - SpaceX·Tesla Terafab 파트너십으로 서버 CPU 수급 주도권 확보",
+        facts: ["Northland Capital Markets 애널리스트가 Intel 투자등급을 'Market Perform'에서 'Outperform'으로 상향조정 (2026-09-10경 발표)", "업그레이드 근거: (1) 서버 CPU 공급 부족 상황, (2) SpaceX·Tesla와의 Terafab 파트너십 체결", "Terafab 프로젝트 내용: 2026년 4월 발표, 텍사스 그라임스 카운티 SpaceX 소유지에 100M 평방피트 규모 반도체 제조 시설, 총 투자규모 $20~25B", "Intel의 역할: 18A 공정 노드·고급 패키징 기술 공급, 텍사스 통합 제조 캠퍼스의 주 파운드리 파트너", "최종 용도: Tesla Optimus 휴머노이드·Cybercab 자율주행차 AI 칩, SpaceX 우주 기반 데이터센터 고전력 프로세서 전담 생산"],
+        why: ["서버 CPU 수급 부족은 Intel에게 가격 결정력과 점유율 확대 기회를 제공 - 경쟁사(AMD, NVIDIA CPU) 대비 우위 강화 신호", "Terafab는 Intel의 신규 고객(Tesla xAI, SpaceX)과의 장기 계약을 의미하며, 향후 10년 이상 지속적 수주 기대 가능", "AI 보급 확대(생성형 AI, 로봇, 자율주행)에 따른 AI 칩 수요 폭증 시대에 Intel이 단순 CPU 공급자가 아닌 '산업별 맞춤형 솔루션 제공자'로 포지셔닝 전환", "미국 정부의 반도체 국산화·공급망 안보 정책(CHIPS Act 등)과 부합 - 정부 지원 가능성 향상"],
+        beginner: ["인", "텔", "이", " ", "오", "랫", "동", "안", " ", "어", "려", "웠", "는", "데", "(", "경", "쟁", "사", " ", "A", "M", "D", "에", " ", "밀", "려", ",", " ", "공", "정", " ", "기", "술", " ", "뒤", "처", "짐", ")", ",", " ", "이", "번", " ", "업", "그", "레", "이", "드", "는", " ", "두", " ", "가", "지", " ", "이", "유", "예", "요", ".", " ", "첫", "째", ",", " ", "요", "즘", " ", "A", "I", " ", "서", "버", "용", " ", "처", "리", "기", "가", " ", "부", "족", "해", "서", " ", "인", "텔", "이", " ", "팔", " ", "수", " ", "있", "는", " ", "게", " ", "많", "아", "졌", "어", "요", ".", " ", "둘", "째", ",", " ", "테", "슬", "라", "와", " ", "S", "p", "a", "c", "e", "X", "가", " ", "만", "드", "는", " ", "거", "대", "한", " ", "반", "도", "체", " ", "공", "장", " ", "프", "로", "젝", "트", "에", " ", "인", "텔", "이", " ", "핵", "심", " ", "파", "트", "너", "로", " ", "선", "정", "됐", "어", "요", ".", " ", "테", "슬", "라", "의", " ", "로", "봇", "·", "자", "율", "주", "행", "차", ",", " ", "S", "p", "a", "c", "e", "X", "의", " ", "우", "주", " ", "데", "이", "터", "센", "터", " ", "같", "은", " ", "미", "래", " ", "먹", "거", "리", "를", " ", "함", "께", " ", "만", "드", "는", " ", "거", "죠", "."],
+        watch: ["Terafab 착공 일정 및 초기 생산 라인 가동 시기", "인텔의 18A 공정 기술 검증 상황 (yield, 성능)", "테슬라·SpaceX의 초기 주문량 및 납기 일정", "경쟁사(Samsung, TSMC, GF) Terafab 입찰 가능성", "인텔 Q3·Q4 실적에서 Terafab 관련 매출 또는 장기 계약 언급"],
+        interpretation: "Intel이 7년 이상 'Process Catch-Up' 전략(공정 기술 추격)으로 만회하지 못한 상황을 다른 방향(장기 계약·고객 다각화)으로 전환하는 신호. Terafab는 Tesla·SpaceX의 AI 칩 수직통합 전략에 필수 파트너이므로, 성공 시 인텔의 'Foundry 사업 실질적 진입'을 의미. 다만 18A 공정이 2026년 후반부터 실제 생산·검증 단계이므로 리스크도 존재.",
+        decision: "중장기(12~18개월) 추적 필수. Northland 업그레이드는 긍정적 신호이나, 현재는 공정 기술·생산 능력 검증 단계가 더 중요. 단기적으로는 금리 부담(반도체 제조 설비 투자 밀집)이 있으므로 관망. Terafab 착공 공식 발표 → 초기 생산 라인 가동 → 첫 매출 인식 등 각 단계별로 재평가 권장.",
+        confidence: "중상(75%). Northland의 업그레이드, Terafab 파트너십은 공식 발표된 사실이므로 신뢰도 높음. 다만 '서버 CPU 수급 부족'은 업계 추정치일 수 있고, 18A 공정의 실제 경제성(원가, 수익성)은 아직 검증 단계여서 불확실성 존재. Intel의 역사적 공정 지연(7세대 이상)도 리스크 요소.",
+        sources: [
+          { title: "Northland Capital Markets: Intel Outperform Upgrade", url: "https://www.cnbc.com/2026/09/07/stock-market-today-live-updates.html" },
+          { title: "Intel Foundry, Tesla, SpaceX, and xAI Partnership for Terafab", url: "https://futurumgroup.com/insights/can-intel-foundrys-advanced-packaging-bring-the-terafab-vision-to-the-stars/" },
+          { title: "Intel Joins Terafab: Chipmaker to Partner with SpaceX and Tesla on Texas Semiconductor Fab", url: "https://www.indexbox.io/blog/intel-joins-spacex-and-teslas-terafab-semiconductor-project-in-texas/" },
+          { title: "Terafab: Inside their AI chip manufacturing strategy", url: "https://manufacturing-today.com/news/tesla-and-spacex-terafab-inside-their-ai-chip-manufacturing-strategy/" },
+        ],
+      },
       {
         date: "2026-08-26",
         headline: "[방향성 체크] 본업 매출 +25%(15년來 최고)인데 파운드리發 순손실 110억 달러 - 본업과 파운드리 방향이 엇갈림",
