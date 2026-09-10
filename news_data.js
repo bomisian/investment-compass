@@ -7358,7 +7358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -13885,7 +13885,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 174,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
@@ -20457,7 +20457,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -26160,7 +26160,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 147,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -33269,7 +33269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -35760,7 +35760,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -42344,7 +42344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -48526,7 +48526,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 162,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -55504,7 +55504,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -62284,7 +62284,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -67415,7 +67415,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 129,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -71550,7 +71550,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 116,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -73782,7 +73782,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
@@ -76354,7 +76354,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -80347,7 +80347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 97,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -85648,7 +85648,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 127,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -85664,10 +85664,78 @@ const NEWS_DATA = {
     },
     "news": [
       {
-        "headline": "Salesforce Flatlines After GPT-6 Astra Erases 4%",
+        "headline": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=7517327a4d462e80e19c739080018194a20fbfe9a18bdd0d528293bea87ce0d3",
-        "datetime": 1788977653,
+        "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
+        "datetime": 1788998437,
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.5,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789011921.3487775
+        },
+        "headlineKo": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다."
+      },
+      {
+        "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=be01483cc76350cabb8454f4d540d99659c450ada2d0d0ff35e4364f1b716e11",
+        "datetime": 1788998400,
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
@@ -85679,7 +85747,7 @@ const NEWS_DATA = {
           "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Salesforce Flatlines After GPT-6 Astra Erases 4%",
+            "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -85703,22 +85771,22 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Salesforce Flatlines After GPT-6 Astra Erases 4%' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
           "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989086.8823
+          "analysisUpdatedAt": 1789011923.6754916
         },
-        "headlineKo": "GPT-6 Astra가 4%를 삭제한 후 Salesforce가 중단되었습니다."
+        "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정"
       },
       {
-        "headline": "Lightfield Raises $47 Million Series A to Build the CRM for Companies that Run on Agents",
+        "headline": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=3b3d05c413050fffc24e579ca2ed1ead09b2faaebd22f48e76d2ebf7d156cdec",
-        "datetime": 1788969600,
-        "relevance": 0.75,
+        "url": "https://finnhub.io/api/news?id=47971f33d35fed406b730a424111ed0f58ef3fd3a7bc00253b6fdb97a1b962c7",
+        "datetime": 1788991067,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
         "analysis": {
@@ -85729,7 +85797,7 @@ const NEWS_DATA = {
           "label": "실적·수요 개선 가능성",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Lightfield Raises $47 Million Series A to Build the CRM for Companies that Run on Agents",
+            "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
@@ -85753,42 +85821,131 @@ const NEWS_DATA = {
             "회사 공식 가이던스",
             "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "이 기사는 CRM의 사업과 관련된 'Lightfield Raises $47 Million Series A to Build the CRM for Companies that Run on Agents' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
           "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.75,
+          "relevance": 1,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989089.180378
+          "analysisUpdatedAt": 1789011926.0094407
         },
-        "headlineKo": "Lightfield는 에이전트로 운영되는 회사를 위한 CRM을 구축하기 위해 4,700만 달러의 시리즈 A를 모금했습니다."
+        "headlineKo": "Salesforce(CRM)의 Agentforce 성장이 F5(FFIV)의 AI 보안 모멘텀을 능가할 만큼 충분합니까?"
       },
       {
-        "headline": "Agentforce ARR Hits $1.5B: Can It Boost Salesforce's Revenue Growth?",
+        "headline": "CRM Stock Dips 2% — Salesforce Is Reportedly In Talks To Acquire AI Research Firm Listen Labs For $2B",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=ec65cf11e158efd3a89bf713755c235087e6ba69d6e86e447dafe85c63eaa5aa",
-        "datetime": 1788964020,
-        "relevance": 1.0,
+        "url": "https://finnhub.io/api/news?id=002bc2e733ab6d729a67d9cb43c2f9a9135adbf64cf3db41aa5c55a8843d11f7",
+        "datetime": 1788987118,
+        "relevance": 1,
         "keywordFlag": false,
         "flagTerms": [],
+        "headlineKo": "CRM 주가 2% 하락 - Salesforce가 AI 연구 회사 Listen Labs를 20억 달러에 인수하기 위해 협상 중인 것으로 알려짐"
+      },
+      {
+        "headline": "What CRM Shareholders Got Paid While The Stock Stood Still",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ad17d8c8833523230a4946eee40ecad5c33aa1f8519a01e929424c02a0b58f79",
+        "datetime": 1788985902,
+        "relevance": 0.75,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "headlineKo": "주식이 정체된 동안 CRM 주주들이 지불한 금액"
+      }
+    ],
+    "newsHistory": [
+      {
+        "headline": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b2c907e57a2108a79ff71459f4dcefee7104f52adc9852990f8235668aec4799",
+        "datetime": 1788998437,
+        "headlineKo": "AI 연구 스타트업 Listen Labs는 Salesforce 강연을 위해 15억 달러 자금 조달 라운드를 취소했습니다.",
+        "relevance": 0.5,
+        "keywordFlag": false,
         "analysis": {
           "version": 9,
           "importance": "medium",
           "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "구체적인 투자 규모와 집행 시점은 원문 확인이 필요합니다.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: CRM에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 다음 실적의 매출·이익·현금흐름가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.5,
+          "quality": "high",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789011921.3487775
+        }
+      },
+      {
+        "headline": "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=be01483cc76350cabb8454f4d540d99659c450ada2d0d0ff35e4364f1b716e11",
+        "datetime": 1788998400,
+        "headlineKo": "Bullhorn, 2027년 Salesforce '올해의 파트너' 상 수상자로 선정",
+        "relevance": 0.5,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
           "certainty": "본문 확인 필요",
-          "label": "실적 발표 · 본업과 특이항목 분리",
+          "label": "추가 확인이 필요한 뉴스",
           "horizon": "다음 실적까지 확인",
           "facts": [
-            "Agentforce ARR Hits $1.5B: Can It Boost Salesforce's Revenue Growth?",
+            "Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner",
             "제목만으로는 수치와 원인을 확정할 수 없습니다."
           ],
           "why": [
-            "매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다.",
-            "CRM의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
           ],
           "beginner": [
-            "순이익이 크게 변해도 세금이나 투자평가손익 때문일 수 있습니다. 매출과 영업이익이 함께 좋아졌는지 보세요.",
-            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
           ],
           "impacts": [
             {
@@ -85798,42 +85955,87 @@ const NEWS_DATA = {
             }
           ],
           "watch": [
-            "매출·영업이익 성장",
-            "정상화이익과 특이항목",
-            "가이던스·OCF·FCF"
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
           ],
-          "interpretation": "CRM에 대한 실적 발표 · 본업과 특이항목 분리 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
-          "decision": "현재 판단: 매출·영업이익·현금흐름과 순이익 특이항목을 분리해야 다음 실적의 반복 가능성을 판단할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
-          "relevance": 1.0,
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Bullhorn named 2027 Salesforce ‘Partner of the Year’ award winner' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.5,
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989091.7606401
-        },
-        "headlineKo": "Agentforce ARR이 15억 달러 달성: Salesforce의 수익 성장을 촉진할 수 있습니까?"
+          "analysisUpdatedAt": 1789011923.6754916
+        }
       },
       {
-        "headline": "LeanData Recognized in Salesforce 2027 Partner of the Year Awards",
+        "headline": "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=e041a83f8bf9350d7e384125f042af5acc33b81caa51e17506e722db1d52cbce",
-        "datetime": 1788958800,
-        "relevance": 0.5,
+        "url": "https://finnhub.io/api/news?id=47971f33d35fed406b730a424111ed0f58ef3fd3a7bc00253b6fdb97a1b962c7",
+        "datetime": 1788991067,
+        "headlineKo": "Salesforce(CRM)의 Agentforce 성장이 F5(FFIV)의 AI 보안 모멘텀을 능가할 만큼 충분합니까?",
+        "relevance": 1,
         "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce 2027 올해의 파트너 상에서 LeanData가 인정됨"
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "positive",
+          "certainty": "본문 확인 필요",
+          "label": "실적·수요 개선 가능성",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "CRM",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 CRM의 사업과 관련된 'Is Salesforce (CRM)’s Agentforce Growth Enough to Outpace F5 (FFIV)’s AI Security Momentum?' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "CRM 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 1,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789011926.0094407
+        }
       },
       {
-        "headline": "Salesforce is Nearly Fully Priced: Why Bulls Say This is Just the Beginning",
+        "headline": "CRM Stock Dips 2% — Salesforce Is Reportedly In Talks To Acquire AI Research Firm Listen Labs For $2B",
         "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=6a1725f9349bd10a892af246c0a1f509d6c6609aab3e95c3d6cb07ab69b41f74",
-        "datetime": 1788956919,
-        "relevance": 0.5,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Salesforce는 거의 정가로 책정되어 있습니다: Bulls가 이것이 단지 시작일 뿐이라고 말하는 이유"
-      }
-    ],
-    "newsHistory": [
+        "url": "https://finnhub.io/api/news?id=002bc2e733ab6d729a67d9cb43c2f9a9135adbf64cf3db41aa5c55a8843d11f7",
+        "datetime": 1788987118,
+        "headlineKo": "CRM 주가 2% 하락 - Salesforce가 AI 연구 회사 Listen Labs를 20억 달러에 인수하기 위해 협상 중인 것으로 알려짐",
+        "relevance": 1,
+        "keywordFlag": false
+      },
+      {
+        "headline": "What CRM Shareholders Got Paid While The Stock Stood Still",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=ad17d8c8833523230a4946eee40ecad5c33aa1f8519a01e929424c02a0b58f79",
+        "datetime": 1788985902,
+        "headlineKo": "주식이 정체된 동안 CRM 주주들이 지불한 금액",
+        "relevance": 0.75,
+        "keywordFlag": false
+      },
       {
         "headline": "Salesforce Flatlines After GPT-6 Astra Erases 4%",
         "source": "Yahoo",
@@ -89630,17 +89832,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788989082.1996906,
-    "_updated_label": "2026-09-10 06:24",
+    "_fetched_at": 1789011916.7857034,
+    "_updated_label": "2026-09-10 12:45",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 103,
+      "checked": 108,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
-    "_last_attempt_at": 1788989082.1996906,
+    "_last_attempt_at": 1789011916.7857034,
     "_earnings_status": "ok",
-    "_last_success_at": 1788989082.1996906,
+    "_last_success_at": 1789011916.7857034,
     "_collection_status": "ok"
   },
   "PLTR": {
@@ -94884,7 +95086,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -97839,7 +98041,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -97900,7 +98102,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989098.8276198
+          "analysisUpdatedAt": 1789011933.8400793
         },
         "headlineKo": "Arm's Rise는 2000억 달러 규모의 로봇 베팅을 숨겼습니다."
       },
@@ -97950,7 +98152,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989099.7786863
+          "analysisUpdatedAt": 1789011934.8853583
         },
         "headlineKo": "Agentic AI를 위한 Arm 새로 고침"
       },
@@ -97971,7 +98173,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.27% S&P 500 7,644.00 −0.40% 다우존스 52,439.90 −0.61% 나스닥 100 29,435.40 −0.22% 러셀 2000 2,923.40 −1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.01% S&P 500 7,647.60 +0.05% 다우존스 52,520.00 +0.15% 나스닥 100 29,386.80 −0.17% 러셀 2000 2,923.65 +0.",
             "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
           ],
           "why": [
@@ -98011,10 +98213,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.27% S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.",
+            "Skip to content ❚❚ At close S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.01% S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.",
             "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
-          "analysisUpdatedAt": 1788989103.733279
+          "analysisUpdatedAt": 1789011938.8539104
         },
         "headlineKo": "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다."
       },
@@ -98086,7 +98288,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989098.8276198
+          "analysisUpdatedAt": 1789011933.8400793
         }
       },
       {
@@ -98135,7 +98337,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989099.7786863
+          "analysisUpdatedAt": 1789011934.8853583
         }
       },
       {
@@ -98155,7 +98357,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "Arm의 가장 큰 성장 동력은 더 이상 스마트폰이 아닐 수도 있습니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.27% S&P 500 7,644.00 −0.40% 다우존스 52,439.90 −0.61% 나스닥 100 29,435.40 −0.22% 러셀 2000 2,923.40 −1.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.01% S&P 500 7,647.60 +0.05% 다우존스 52,520.00 +0.15% 나스닥 100 29,386.80 −0.17% 러셀 2000 2,923.65 +0.",
             "작성자 Vandita Jadeja 2026년 9월 8일 오후 1시 30분(ET) 게시 · 3분 읽기 𝕏 f ⧉ 실리콘 밸리에 있는 Arm 본사."
           ],
           "why": [
@@ -98195,10 +98397,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Arm’s Biggest Growth Driver May Not Be Smartphones Anymore - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.27% S&P 500 7,644.00 −0.40% Dow Jones 52,439.90 −0.61% Nasdaq 100 29,435.40 −0.22% Russell 2000 2,923.40 −1.",
+            "Skip to content ❚❚ At close S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.01% S&P 500 7,647.60 +0.05% Dow Jones 52,520.00 +0.15% Nasdaq 100 29,386.80 −0.17% Russell 2000 2,923.65 +0.",
             "By Vandita Jadeja Published September 8, 2026, 1:30pm ET · 3 min read 𝕏 f ⧉ Arm headquarters in Silicon Valley."
           ],
-          "analysisUpdatedAt": 1788989103.733279
+          "analysisUpdatedAt": 1789011938.8539104
         }
       },
       {
@@ -99531,17 +99733,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1788989082.1996906,
-    "_updated_label": "2026-09-10 06:25",
+    "_fetched_at": 1789011916.7857034,
+    "_updated_label": "2026-09-10 12:45",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
-    "_last_attempt_at": 1788989082.1996906,
+    "_last_attempt_at": 1789011916.7857034,
     "_earnings_status": "ok",
-    "_last_success_at": 1788989082.1996906,
+    "_last_success_at": 1789011916.7857034,
     "_collection_status": "ok"
   },
   "MRVL": {
@@ -104391,7 +104593,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -106791,7 +106993,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -108836,7 +109038,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -110570,7 +110772,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -116081,7 +116283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -117954,7 +118156,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1788990949.5375302,
     "_earnings_status": "ok",
@@ -120005,7 +120207,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -121681,7 +121883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -123655,7 +123857,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -125596,7 +125798,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -125671,7 +125873,7 @@ const NEWS_DATA = {
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1788989110.6406782
+          "analysisUpdatedAt": 1789011944.7709825
         },
         "headlineKo": "Constellation Energy의 최대 AI 전력 거래는 2027년 6월까지 지불을 시작하지 않습니다"
       },
@@ -125735,7 +125937,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -1.72% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788989113.8595746
+          "analysisUpdatedAt": 1789011947.5857537
         },
         "headlineKo": "원자력 재고 대결: 지금 당장 Constellation Energy나 Vistra가 더 나은 매수인가요?"
       },
@@ -125785,7 +125987,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989115.1510408
+          "analysisUpdatedAt": 1789011948.7539012
         },
         "headlineKo": "Constellation Energy 주식은 다우 성과를 저조합니까?"
       },
@@ -125871,7 +126073,7 @@ const NEWS_DATA = {
             "The agreement covers 1,121 megawatts of nuclear generation -- more output than Constellation has committed to any other artificial intelligence (AI) buyer.",
             "The next-biggest is the roughly 835-megawatt agreement that is restarting a Three Mile Island unit for Microsoft ."
           ],
-          "analysisUpdatedAt": 1788989110.6406782
+          "analysisUpdatedAt": 1789011944.7709825
         }
       },
       {
@@ -125934,7 +126136,7 @@ const NEWS_DATA = {
             "| The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Constellation Energy ( CEG -1.72% ) operates the largest U.S.",
             "nuclear power portfolio, with over 22 gigawatts of capacity at the end of fiscal 2025."
           ],
-          "analysisUpdatedAt": 1788989113.8595746
+          "analysisUpdatedAt": 1789011947.5857537
         }
       },
       {
@@ -125983,7 +126185,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1788989115.1510408
+          "analysisUpdatedAt": 1789011948.7539012
         }
       },
       {
@@ -126775,17 +126977,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1788989082.1996906,
-    "_updated_label": "2026-09-10 06:25",
+    "_fetched_at": 1789011916.7857034,
+    "_updated_label": "2026-09-10 12:45",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
-    "_last_attempt_at": 1788989082.1996906,
+    "_last_attempt_at": 1789011916.7857034,
     "_earnings_status": "ok",
-    "_last_success_at": 1788989082.1996906,
+    "_last_success_at": 1789011916.7857034,
     "_collection_status": "ok"
   },
   "VST": {
@@ -128606,7 +128808,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 41,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -130394,7 +130596,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 39,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -131789,7 +131991,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -132477,7 +132679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1788996552.619267,
     "_earnings_status": "ok",
@@ -135281,7 +135483,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 60,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -135921,7 +136123,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789009930.7094223,
     "_earnings_status": "ok",
@@ -137443,7 +137645,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 36,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -138541,7 +138743,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -139777,7 +139979,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 30,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_last_attempt_at": 1789002100.4245315,
     "_earnings_status": "ok",
@@ -140585,7 +140787,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-10 12:14"
+      "updated": "2026-09-10 12:45"
     },
     "_fetched_at": 1789002100.4245315,
     "_updated_label": "2026-09-10 10:05",
