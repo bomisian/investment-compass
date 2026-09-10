@@ -15367,7 +15367,8 @@ const FINANCIALS_DATA = {
         "netIncome": -14632000.0,
         "opIncome": -9651000,
         "endDate": "2024-09-30",
-        "eps": -60
+        "eps": null,
+        "_epsRemovedReason": "같은 배열 내 주식수 역산값이 중앙값보다 929배 작음 - 단위/스케일 오류 의심(원본 eps=-60)"
       },
       {
         "period": "Q4'24",
@@ -15411,7 +15412,7 @@ const FINANCIALS_DATA = {
         "netIncome": -22960000.0,
         "opIncome": 7846000,
         "endDate": "2025-09-30",
-        "eps": -100,
+        "eps": null,
         "ocf": 19669000.0,
         "capex": -12301000.0,
         "fcf": 7368000.0,
@@ -15423,7 +15424,8 @@ const FINANCIALS_DATA = {
         "unusualTaxEffect": -86310.0,
         "specialIncomeCharges": 0.0,
         "otherNonOperating": -1362000.0,
-        "stockComp": 37255000.0
+        "stockComp": 37255000.0,
+        "_epsRemovedReason": "같은 배열 내 주식수 역산값이 중앙값보다 987배 작음 - 단위/스케일 오류 의심(원본 eps=-100)"
       },
       {
         "period": "Q4'25",
