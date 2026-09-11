@@ -1480,6 +1480,15 @@ function scoreDrawdownLT(pct){ if(pct>=-8) return 0; if(pct>=-18) return 1; if(p
 function scoreBelowMA200(pct){ return (pct!=null && pct<=0) ? 1 : 0; } // 2026-09-08 수정: pct===null(200일선 미준비)이면 0점
 function scoreMarketDip(pct){ return pct<=-8 ? 1 : 0; }
 
+// 2026-09-11 추가(외부 검토로 발견, A2) - 이 0~5점(scoreDrawdownLT+scoreBelowMA200+
+// scoreMarketDip)은 순수 가격 지표(52주 하락 깊이·200일선·시장조정)만으로 계산되고
+// 실적·현금흐름·위험은 전혀 안 본다. 검토 문서 표현대로 "얼마나 빠졌는지"(가격 조정 정도)와
+// "지금 사도 되는지"(매수 판단)는 다른 질문인데, verdictFor가 이 점수 하나로 '강한
+// 매수기회'/'매수 관심'이라는 확정적 매수 판단 문구를 직접 반환해왔다(AMAT: -36.86% 하락
+// 하나만으로 3점 → '매수 관심' 재현됨). 라벨 자체를 당장 바꾸면 목록 필터·정렬·배지 스타일
+// 전체(39곳 이상)에 영향을 주는 큰 변경이라 이번엔 값과 표시 체계는 유지하되, 점수가 시사하는
+// 방향과 실적 방향이 실제로 어긋나는 경우 verdictCautionBadge()에서 그 사실을 바로 옆에
+// 표시하도록 확장했다(아래 참고) - 가격 점수가 만든 판단을 실적이 뒷받침하는지 즉시 보이게 함.
 function verdictFor(total){
   if(total>=4) return {label:'강한 매수기회', cls:'strong-buy'};
   if(total>=2) return {label:'매수 관심', cls:'buy-wait'};
@@ -3699,8 +3708,21 @@ function verdictCautionBadge(r){
   const usedFallback = !!(h && /GitHubCache/.test(h.source));
   const trueMissing = h ? h.missing.filter(m=>!m.holiday).length : 0;
   const dataWarn = !!(h && (trueMissing || h.dropped || usedFallback));
-  if(!fvWarn && !dataWarn) return '';
+  // 2026-09-11 추가(외부 검토로 발견, A2) - '판단(장기)' 점수는 가격 지표만 보고 실적·현금흐름은
+  // 전혀 안 보는데, 점수만으로 '강한 매수기회'/'매수 관심' 문구가 나간다. 그 점수가 매수 쪽을
+  // 가리키는데 실제 최근 실적 방향(computeFinancialDirection, 04 탭과 같은 계산)이 악화 중이면
+  // "가격만 보고 하는 판단이니 실적을 따로 확인하라"는 신호를 바로 옆에 띄운다 - 새 판정을
+  // 만들지 않고 이미 있는 두 계산(점수·실적방향)을 대조만 함.
+  const verdictSuggestsBuy = r.verdict && (r.verdict.label==='강한 매수기회' || r.verdict.label==='매수 관심');
+  let fundamentalMismatch = false;
+  if(verdictSuggestsBuy){
+    const fin = (typeof FINANCIALS_DATA!=='undefined') ? FINANCIALS_DATA[r.ticker] : null;
+    const fd = fin ? computeFinancialDirection(r, fin) : null;
+    if(fd && fd.verdict === '매출·수익성 동반 둔화') fundamentalMismatch = true;
+  }
+  if(!fvWarn && !dataWarn && !fundamentalMismatch) return '';
   const parts = [];
+  if(fundamentalMismatch) parts.push('이 판단은 가격 지표만 본 점수예요 - 최근 매출·수익성은 오히려 동반 둔화 중이니 실적을 따로 확인하세요');
   if(fvWarn) parts.push('기준가(밸류에이션) 참고사항 있음 - 상세보기에서 확인');
   if(dataWarn) parts.push('가격 데이터 지연·누락 의심 - 상세보기에서 확인');
   return `<span class="sub" style="color:var(--warn);font-size:11px;margin-left:4px;cursor:help;" title="${esc(parts.join(' · '))} — 이 배지는 판단(장기) 점수(눌림목 강도)와 무관한 별도 참고 정보예요.">⚠️</span>`;
