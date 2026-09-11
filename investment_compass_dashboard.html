@@ -6796,26 +6796,57 @@ function segmentRevenueComment(ticker){
       if(!chosen || sorted[sorted.length-1].endDate > chosen[chosen.length-1].endDate) chosen = sorted;
     }
     const last = chosen[chosen.length-1];
-    const prev = chosen.length > 1 ? chosen[chosen.length-2] : null;
+    // 2026-09-11 수정(외부 검토로 발견) - 분기 세그먼트(qtrs=1)는 그냥 "바로 직전 값"과
+    // 비교하면 전기 대비(QoQ)가 되는데, 계절성이 있는 사업부는 QoQ가 원래도 크게 출렁여서
+    // "성장/둔화"로 오인하기 쉽다. 같은 기간의 전년 동기(YoY)만 비교하도록, endDate가
+    // 최근 값보다 약 1년(350~380일) 전인 항목을 찾는다 - 연간(qtrs=4) 값은 항목 자체가
+    // 이미 1년 간격이라 기존처럼 바로 직전 값을 쓰면 된다.
+    const lastEndMs = new Date(last.endDate).getTime();
+    let prev;
+    if(String(last.qtrs) === '1'){
+      prev = null;
+      let bestDiff = Infinity;
+      for(let i=chosen.length-2; i>=0; i--){
+        const diffDays = Math.abs(lastEndMs - new Date(chosen[i].endDate).getTime()) / 86400000;
+        if(diffDays >= 350 && diffDays <= 380 && diffDays < bestDiff){ bestDiff = diffDays; prev = chosen[i]; }
+      }
+    } else {
+      prev = chosen.length > 1 ? chosen[chosen.length-2] : null;
+    }
     let growthStr = '-';
     if(prev && prev.value){
       const pct = (last.value/prev.value - 1) * 100;
-      growthStr = `${pct>=0?'+':''}${pct.toFixed(1)}% (${prev.endDate} 대비)`;
+      growthStr = `${pct>=0?'+':''}${pct.toFixed(1)}% (전년 동기 ${prev.endDate} 대비)`;
+    } else if(String(last.qtrs) === '1'){
+      growthStr = '전년 동기 데이터 없음';
     }
-    // 2026-09-08 추가: segmentRaw(예: "srt:ProductOrServiceAxis=nvda:ComputeMember")의 축(Axis) 이름으로
+    // 2026-09-08 추가, 2026-09-11 수정(외부 검토로 발견) - segmentRaw의 축(축약 dimension) 이름으로
     // 이 행이 "사업부문/제품/고객/지역" 중 어떤 분류축인지 구분한다. SEC 공시는 회사 매출을 여러
     // 서로 다른(중첩되는) 기준으로 각각 100% 나눠 보여주는데(예: 사업부문 기준 합계와 지역 기준 합계는
     // 둘 다 회사 전체 매출과 같아짐), 이걸 구분 없이 한 표에 섞으면 서로 다른 분류 기준의 항목을
     // 더하거나 비교하는 실수를 하기 쉬움(실측: NVDA가 Compute/Data Center(사업부문 축)와
     // Hyperscale/US(고객·지역 축)가 한 표에 섞여 있었음).
+    // 2026-09-11 수정(외부 검토로 발견, AMAT 사례) - 이 분류 로직은 원래 "us-gaap:StatementGeographical
+    // Axis=..." 같은 정식 XBRL 축 이름(...Axis= 접미사 포함)을 기대하고 매칭했는데, 실제
+    // segment_revenue_data.js(SEC "Financial Statement Data Sets" num.txt의 segments 컬럼 원문)는
+    // "Geographical=US;BusinessSegments=SemiconductorSystemsSegment;"처럼 "Axis" 접미사 없는
+    // 축약형이라 매칭이 단 한 건도 안 되고 있었음(전부 "기타 분류"로 뭉뚱그려져 AMAT처럼 사업부문+
+    // 지역 축을 둘 다 보고하는 종목의 화면이 지역 7개+사업부문 2개+법인조정 1개가 구분 없이 한
+    // 표에 뒤섞여 길게 반복되는 것처럼 보였음). prettifySegmentLabel과 동일하게 원문을 ;/,로 나눈
+    // 뒤 "=" 앞부분(축약 dimension 이름)으로 직접 매칭한다.
     const raw = String(last.segmentRaw || '');
+    const rawParts = raw.split(/[;,]/).map(p=>p.trim()).filter(Boolean);
+    const rawSpecific = rawParts.filter(p=>!p.startsWith('ConsolidationItems='));
+    const dimParts = rawSpecific.length ? rawSpecific : rawParts;
+    const dimNames = dimParts.map(p=>p.split('=')[0]);
     let category = '기타 분류';
-    const axisNames = (raw.match(/[A-Za-z:.]+Axis=/g) || []).map(a=>a.replace(/=$/,''));
-    if(axisNames.length > 1) category = '복합(2개 이상 축 결합)';
-    else if(/GeographicalAxis|GeographicAxis/i.test(raw)) category = '지역별';
-    else if(/ProductOrServiceAxis/i.test(raw)) category = '제품·서비스별';
-    else if(/MajorCustomersAxis|CustomerAxis/i.test(raw)) category = '고객별';
-    else if(/BusinessSegmentsAxis|SegmentAxis/i.test(raw)) category = '사업부문별';
+    if(dimNames.length > 1) category = '복합(2개 이상 축 결합)';
+    else if(dimNames.some(n=>/^Geographical/i.test(n))) category = '지역별';
+    else if(dimNames.some(n=>/^(ProductOrService|ProductsOrServicesSecondaryCategorization|RevenueType)/i.test(n))) category = '제품·서비스별';
+    else if(dimNames.some(n=>/^(MajorCustomers|CounterpartyName|ConcentrationRiskBy)/i.test(n))) category = '고객별';
+    // ConsolidationItems 하나만 남은 경우(=isRollupOnly를 통과한, 즉 예약된 합계 멤버가 아니라
+    // 회사가 실제 사업부 이름을 이 축의 값으로 쓴 경우 - GOOGL 사례)도 사업부문별로 분류한다.
+    else if(dimNames.some(n=>/^(BusinessSegments|Subsegments)/i.test(n)) || (dimNames.length===1 && dimNames[0]==='ConsolidationItems')) category = '사업부문별';
     return {label: prettifySegmentLabel(last.segmentRaw) || last.segmentLabel || '(이름 미확인)', endDate: last.endDate, value: last.value, growthStr, category};
   }).sort((a,b)=> b.value - a.value);
   if(!segRows.length) return '';
