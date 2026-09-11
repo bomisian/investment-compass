@@ -6224,10 +6224,35 @@ function staleBadgeHtml(dateStr, isLatest){
   if(isLatest && days >= 30) return ` · <span style="color:var(--warn);font-weight:700;">⚠️ 작성 후 ${days}일 경과 - 재검토 권장</span>`;
   return ` · <span class="sub" style="font-weight:400;">${days}일 전</span>`;
 }
+// 2026-09-11 수정(외부 검토로 발견, A8 - AMZN 09-06/09-02 사례) - analystLog는 원래
+// "실적 숫자가 흔들렸을 때"의 재무 해석(headline/oneTime/coreRead/forecast) 전용인데,
+// 실적과 무관한 개별 뉴스(항공기 사고, 파업 등, newsLog 스키마)가 실수로 이 배열에 섞여
+// 들어간 적이 있었다. 그 뉴스 항목엔 oneTime/coreRead/forecast 필드가 아예 없어서
+// 템플릿 문자열이 그대로 undefined 리터럴을 화면에 출력했다(사용자가 발견). 잘못 들어간
+// 항목은 실제 newsLog로 옮겼지만(데이터 수정), 렌더러 자체도 방어적으로 고친다 - 핵심
+// 필드(headline/oneTime/coreRead/forecast) 중 하나라도 없거나 undefined/null/NaN/빈
+// 문자열이면 그 행 전체를 실적 해석 목록에서 건너뛰고, 그런 항목이 있었다는 사실만 콘솔에
+// 남긴다 - 카드를 숨겨 정상으로 보이게 하지 않으면서도 undefined 노출은 막는다. 또한
+// 각 필드를 출력할 때도 esc()로 이스케이프한다(전에는 안 하고 있었음).
+function _analystLogFieldMissing(v){
+  return v===undefined || v===null || (typeof v==='number' && Number.isNaN(v)) || (typeof v==='string' && v.trim()==='');
+}
 function renderAnalystLog(ticker){
   const n = (typeof BUSINESS_NOTES !== 'undefined' && BUSINESS_NOTES) ? BUSINESS_NOTES[ticker] : null;
-  const log = n && n.analystLog;
-  if(!log || !log.length){
+  const rawLog = n && n.analystLog;
+  if(!rawLog || !rawLog.length){
+    return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(QQQ·SPY 같은 ETF는 대상이 아니에요). 필요하면 요청해서 추가할 수 있어요.</div>${autoSignalNoteHtml(ticker)}`;
+  }
+  const REQUIRED_FIELDS = ['headline','oneTime','coreRead','forecast'];
+  const log = rawLog.filter(e=>{
+    const missing = REQUIRED_FIELDS.filter(k=>_analystLogFieldMissing(e[k]));
+    if(missing.length){
+      console.warn(`[renderAnalystLog] ${ticker} ${e.date||'(날짜 없음)'} 항목이 실적 해석 스키마 필드(${missing.join(', ')})가 없어 표시에서 제외됨 - newsLog 등 다른 로그로 옮겨야 할 수 있어요.`, e);
+      return false;
+    }
+    return true;
+  });
+  if(!log.length){
     return `<div class="sub" style="margin-bottom:12px;">Claude의 실적 해석·전망은 아직 이 종목엔 없어요(QQQ·SPY 같은 ETF는 대상이 아니에요). 필요하면 요청해서 추가할 수 있어요.</div>${autoSignalNoteHtml(ticker)}`;
   }
   const entries = [...log].sort((a,b)=> a.date < b.date ? 1 : -1).map((e,idx)=>{
@@ -6237,12 +6262,12 @@ function renderAnalystLog(ticker){
     }).join('');
     return `
       <div class="fund-col" style="margin-top:10px;">
-        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b> · ${esc(e.period)}${staleBadgeHtml(e.date, idx===0)}</div>
+        <div class="sub" style="margin-bottom:4px;"><b>${esc(e.date)}</b> · ${esc(e.period||'-')}${staleBadgeHtml(e.date, idx===0)}</div>
         <div style="font-size:12.5px;line-height:1.7;">
-          <b>헤드라인 숫자</b> — ${e.headline}<br>
-          <b style="color:var(--warn);">⚠️ 1회성 항목 체크</b> — ${e.oneTime}<br>
-          <b>본업 실제 흐름</b> — ${e.coreRead}<br>
-          <b>Claude 전망(틀릴 수 있음)</b> — ${e.forecast}<br>
+          <b>헤드라인 숫자</b> — ${esc(e.headline)}<br>
+          <b style="color:var(--warn);">⚠️ 1회성 항목 체크</b> — ${esc(e.oneTime)}<br>
+          <b>본업 실제 흐름</b> — ${esc(e.coreRead)}<br>
+          <b>Claude 전망(틀릴 수 있음)</b> — ${esc(e.forecast)}<br>
           <span class="sub">신뢰도: ${esc(e.confidence||'-')}</span>
         </div>
         ${srcLinks ? `<details style="margin-top:6px;"><summary style="cursor:pointer;font-size:12px;">참고한 출처 보기</summary><ul style="margin:4px 0 0;padding-left:18px;font-size:12px;">${srcLinks}</ul></details>` : ''}

@@ -2482,43 +2482,6 @@ const BUSINESS_NOTES = {
         confidence: "매출·영업이익·OCF 수치는 SEC 공시 기반 캐시 데이터 · 감원 규모·CAPEX 가이던스는 복수매체 보도 기준(newsLog 참고) · '투자 확대가 이익률에 미칠 영향'에 대한 판단은 Claude의 정성적 해석",
         sources: [],
       },
-    ],
-    analystLog: [
-      {
-        date: "2026-08-27",
-        period: "2026-06-30 마감 분기 (2026년 2분기)",
-        headline: "2분기 매출 $200.6B(+20% YoY)로 사상 처음 $200B 돌파하며 시장 예상치를 상회했고, 영업이익 $27.5B(+43% YoY), GAAP 희석EPS $5.75로 컨센서스(약 $1.7~1.8 추정)를 거의 3배 웃돌았어요.",
-        oneTime: "GAAP 순이익 $62.6B(전년 $18.2B 대비 +245%) 중 상당 부분은 영업외 비영업이익 $53.4B(주로 앤트로픽 지분 재평가 이익)에서 나온 거예요. 이게 없으면 순이익 증가율은 영업이익 증가율(+43%)에 훨씬 가까웠을 거고요. 로컬 데이터에서 올해 컨센서스 EPS($12.49)가 내년($10.48)보다 높게 잡힌 이유도 바로 이 2분기 일회성 지분평가익(주당 약 $5 이상 기여 추정) 때문일 가능성이 커요 — 내년엔 이 정도 규모의 재평가 이익이 반복될 근거가 없거든요.",
-        coreRead: "핵심 사업은 진짜 좋아요. AWS 매출 $42.2B(+37% YoY, 18분기 만에 최고 성장률)에 영업이익률 39.4%, 전사 영업이익의 60.5%를 AWS 혼자 만들어내고 있어요(매출 비중은 21.1%뿐인데도). 광고 매출도 $19.8B(+26%)로 고마진 성장 지속, 북미 매출 +16%($116.2B, 영업이익 $9.1B), 인터내셔널은 +15%($42.2B)에 영업이익 $1.7B(마진 4.1%)로 흑자 기조 굳혔어요. 다만 2026년 capex를 $220B로 상향(메모리 가격 상승 영향 포함)했고 TTM capex가 $173B(+$66.1B YoY)까지 늘어서, AI 인프라 투자 사이클이 당분간 감가상각 부담으로 이어질 걸로 보여요.",
-        forecast: "3분기(2026-09-30 마감) 가이던스는 매출 $197~202B(+9~12% YoY), 영업이익 $22.5~26.5B로 2분기보다 낮게 잡혔어요. 앤트로픽 같은 대형 비영업 재평가 이익이 3분기에 다시 나올 근거는 없으니, GAAP EPS는 2분기 $5.75보다 크게 낮아지고(대략 $1대 초중반 예상) 대신 영업이익 기준 성장(전년比 두 자릿수%)은 이어질 거라고 봐요. AWS 성장률은 33~37% 밴드를 유지할 걸로 예상하고요.",
-        confidence: "매출/영업이익/순이익/EPS 수치와 세그먼트 실적, $53.4B 비영업이익 규모, 3분기 가이던스는 Amazon 공식 2분기 실적발표 및 SEC 제출자료 기준 확정 사실이에요. 다만 '내년 EPS가 낮은 이유가 이 일회성 이익 때문'이라는 연결과 3분기 GAAP EPS 구체 수치 예측은 제 해석이고, 실제 컨센서스 산정 근거를 직접 확인한 건 아니라서 다를 수 있어요.",
-        sources: [
-          {
-            title: "Amazon Q2 2026 earnings report: Read the release",
-            url: "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
-          },
-          {
-            title: "AMAZON.COM ANNOUNCES SECOND QUARTER RESULTS",
-            url: "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
-          },
-          {
-            title: "Amazon Q2 2026 Earnings: AWS Accelerates 37% as a $53B Anthropic Gain Rewrites Profit | Beancount.io",
-            url: "https://beancount.io/blog/2026/07/31/amazon-fy2026-q2-earnings-analysis",
-          },
-          {
-            title: "Amazon's $53.4B Anthropic Gain Distorts Big Tech Q2 Earnings | AI Weekly",
-            url: "https://aiweekly.co/alerts/amazons-534b-anthropic-gain-distorts-big-tech-q2-earnings",
-          },
-          {
-            title: "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
-            url: "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
-          },
-          {
-            title: "Amazon Q2 2026: EPS Triples Estimates at $5.75, Revenue Tops $200B First Time - GamesReviews.com",
-            url: "https://gamesreviews.com/news/07/amazon-q2-2026-eps-triples-estimates-at-5-75-revenue-tops-200b-first-time/",
-          },
-        ],
-      },
       {
         date: "2026-09-06",
         headline: "아마존 화물기(Prime Air) 마이애미공항 활주로 이탈 추락 - 지상 차량 덮쳐 5명 사망·5명 부상, NTSB 조사 착수",
@@ -2592,6 +2555,43 @@ const BUSINESS_NOTES = {
         sources: [
           { title: "Amazon Teamsters Launch One-Day ULP Strike at Company's Largest Facility (Teamsters.org)", url: "https://teamster.org/2026/09/amazon-teamsters-launch-one-day-ulp-strike-at-companys-largest-warehouse/" },
           { title: "AMAZON TEAMSTERS LAUNCH ONE-DAY ULP STRIKE AT COMPANY'S LARGEST WAREHOUSE (PR Newswire)", url: "http://www.prnewswire.com/news-releases/amazon-teamsters-launch-one-day-ulp-strike-at-companys-largest-warehouse-302867917.html" },
+        ],
+      },
+    ],
+    analystLog: [
+      {
+        date: "2026-08-27",
+        period: "2026-06-30 마감 분기 (2026년 2분기)",
+        headline: "2분기 매출 $200.6B(+20% YoY)로 사상 처음 $200B 돌파하며 시장 예상치를 상회했고, 영업이익 $27.5B(+43% YoY), GAAP 희석EPS $5.75로 컨센서스(약 $1.7~1.8 추정)를 거의 3배 웃돌았어요.",
+        oneTime: "GAAP 순이익 $62.6B(전년 $18.2B 대비 +245%) 중 상당 부분은 영업외 비영업이익 $53.4B(주로 앤트로픽 지분 재평가 이익)에서 나온 거예요. 이게 없으면 순이익 증가율은 영업이익 증가율(+43%)에 훨씬 가까웠을 거고요. 로컬 데이터에서 올해 컨센서스 EPS($12.49)가 내년($10.48)보다 높게 잡힌 이유도 바로 이 2분기 일회성 지분평가익(주당 약 $5 이상 기여 추정) 때문일 가능성이 커요 — 내년엔 이 정도 규모의 재평가 이익이 반복될 근거가 없거든요.",
+        coreRead: "핵심 사업은 진짜 좋아요. AWS 매출 $42.2B(+37% YoY, 18분기 만에 최고 성장률)에 영업이익률 39.4%, 전사 영업이익의 60.5%를 AWS 혼자 만들어내고 있어요(매출 비중은 21.1%뿐인데도). 광고 매출도 $19.8B(+26%)로 고마진 성장 지속, 북미 매출 +16%($116.2B, 영업이익 $9.1B), 인터내셔널은 +15%($42.2B)에 영업이익 $1.7B(마진 4.1%)로 흑자 기조 굳혔어요. 다만 2026년 capex를 $220B로 상향(메모리 가격 상승 영향 포함)했고 TTM capex가 $173B(+$66.1B YoY)까지 늘어서, AI 인프라 투자 사이클이 당분간 감가상각 부담으로 이어질 걸로 보여요.",
+        forecast: "3분기(2026-09-30 마감) 가이던스는 매출 $197~202B(+9~12% YoY), 영업이익 $22.5~26.5B로 2분기보다 낮게 잡혔어요. 앤트로픽 같은 대형 비영업 재평가 이익이 3분기에 다시 나올 근거는 없으니, GAAP EPS는 2분기 $5.75보다 크게 낮아지고(대략 $1대 초중반 예상) 대신 영업이익 기준 성장(전년比 두 자릿수%)은 이어질 거라고 봐요. AWS 성장률은 33~37% 밴드를 유지할 걸로 예상하고요.",
+        confidence: "매출/영업이익/순이익/EPS 수치와 세그먼트 실적, $53.4B 비영업이익 규모, 3분기 가이던스는 Amazon 공식 2분기 실적발표 및 SEC 제출자료 기준 확정 사실이에요. 다만 '내년 EPS가 낮은 이유가 이 일회성 이익 때문'이라는 연결과 3분기 GAAP EPS 구체 수치 예측은 제 해석이고, 실제 컨센서스 산정 근거를 직접 확인한 건 아니라서 다를 수 있어요.",
+        sources: [
+          {
+            title: "Amazon Q2 2026 earnings report: Read the release",
+            url: "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+          },
+          {
+            title: "AMAZON.COM ANNOUNCES SECOND QUARTER RESULTS",
+            url: "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+          },
+          {
+            title: "Amazon Q2 2026 Earnings: AWS Accelerates 37% as a $53B Anthropic Gain Rewrites Profit | Beancount.io",
+            url: "https://beancount.io/blog/2026/07/31/amazon-fy2026-q2-earnings-analysis",
+          },
+          {
+            title: "Amazon's $53.4B Anthropic Gain Distorts Big Tech Q2 Earnings | AI Weekly",
+            url: "https://aiweekly.co/alerts/amazons-534b-anthropic-gain-distorts-big-tech-q2-earnings",
+          },
+          {
+            title: "Amazon hikes 2026 capex to $220 billion due to higher memory costs",
+            url: "https://www.cnbc.com/2026/07/30/amazon-amzn-q2-earnings-report-2026.html",
+          },
+          {
+            title: "Amazon Q2 2026: EPS Triples Estimates at $5.75, Revenue Tops $200B First Time - GamesReviews.com",
+            url: "https://gamesreviews.com/news/07/amazon-q2-2026-eps-triples-estimates-at-5-75-revenue-tops-200b-first-time/",
+          },
         ],
       },
     ],
