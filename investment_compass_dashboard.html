@@ -358,7 +358,7 @@
       <span class="sub">헤더 클릭으로 정렬</span>
     </div>
     <div class="sub" style="margin-bottom:6px;">판단(장기) = <b>눌림목 강도(0~5)</b>, 실데이터 검증된 12개월 초과수익 예측 지표만 반영(52주 하락 깊이+200일선 아래+시장조정). 6~12개월·우량주 타이밍용 · 단기판단 = 우상향 눌림목(RSI 30~38) 또는 과매도(RSI&lt;30, 하락추세면 반등 확인)+쿨다운, 14년치 검증(현실 진입 기준 10일 승률 66%)<br>
-    <b>기준가 대비</b> = "적정가"가 아니라 내년 예상 EPS × 지금 PER을 그대로 곱한 시나리오 가격(우리 프로젝트 자체 계산식, 증권사 목표주가·DCF 아님) 기준 할인/프리미엄 - 지금 가격이 비쌀수록 이 기준가도 같이 비싸지는 구조라 저평가·고평가를 증명하는 지표가 아니고, 검증상 저평가일수록 오히려 수익률이 낮았던(밸류트랩) 지표라 매수 신호로 쓰지 마세요, 참고용 · <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
+    <b>그룹대비강도</b> = 같은 섹터 대비 최근 20일 상대수익률 - "많이 뒤처지면 나쁜 신호"만 검증됐고 "앞서면 좋다"는 아직 검증 전이라 참고용이에요</div>
     <div id="marketSigmaSummary" class="sub" style="margin-bottom:8px;"></div>
     <div style="overflow-x:auto;">
     <table id="resultTable" style="display:none;min-width:1420px;">
@@ -367,7 +367,6 @@
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
           <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
-          <th data-key="fvUpsidePct" title="지금 가격에서 기준가(내년 예상 EPS × 지금 시장이 매기는 PER을 그대로 곱한 시나리오 가격)까지 남은 상승여력(%) - 우리 프로젝트 자체 계산식이에요(증권사 목표주가·DCF 아님). '적정가'가 아니에요 - 가격이 비쌀수록 기준가도 같이 비싸지는 구조라 저평가·고평가를 증명할 수 없는 지표예요. ⚠️ 종목 상세의 '기준가보다 X% 높다/낮다' 문구는 분모가 반대(기준가 기준)라 이 표의 %와 절대값이 다르게 나와요 - 계산 기준이 다른 별개 지표이니 두 숫자를 직접 비교하지 마세요. 검증 결과 이 기준가보다 낮을수록 오히려 이후 수익률이 낮았어요(밸류트랩) - 매수 신호 아니고 참고용">기준가 대비</th>
           <th data-key="valuationGap" title="이 종목 자신의 3·5년 평균 PER·성장률로 역산한 '역산 기대성장률'(없으면 PEG로 대체) 기준 저평가/적정/고평가 - 아직 승률 검증이 안 된 참고용 지표예요, 매수·매도 신호로 쓰지 마세요. 종목을 열면 '가격 타당성 체크' 카드에서 근거를 자세히 볼 수 있어요">가격 타당성</th>
           <th data-key="auxScore" title="가격 타당성·EPS 전망·애널리스트 목표가·내부자 매매·뉴스 방향성·그룹대비강도를 모아 긍정/조심 개수만 센 거예요. 새로 만든 예측이 아니라 이미 이 표·상세 화면에 있는 값들을 모은 참고용 요약이에요 - 매수·매도 신호 아니에요. 종목을 열면 '보조 근거 체크' 카드에서 자세히 볼 수 있어요">보조 근거</th>
           <th data-key="relStrength20" title="같은 섹터 그룹(동일가중) 대비 최근 20일 수익률 차이. 뒤처짐(-11%p 이하)은 5년치 검증된 경고. 앞섬(+11%p 이상)은 2026-08-26 10년치 재검증 결과 반도체 그룹에서도 사이클 전체로는 근거가 약함(2021-2023 구간은 오히려 역방향) - AI 강세장 국면 한정 효과로 판단해 신호로 쓰지 않음, 참고용 숫자만">그룹대비강도(20일)</th>
@@ -2340,7 +2339,6 @@ function renderSimpleView(){
       if(simpleLtSortKey==='ticker'){ av=a.ticker; bv=b.ticker; }
       else if(simpleLtSortKey==='theme'){ av=a.theme||''; bv=b.theme||''; }
       else if(simpleLtSortKey==='fairMid'){ av=fairMidOf(a); bv=fairMidOf(b); av=av==null?-Infinity:av; bv=bv==null?-Infinity:bv; }
-      else if(simpleLtSortKey==='fvUpsidePct'){ av=a.fvUpsidePct!=null?a.fvUpsidePct:-Infinity; bv=b.fvUpsidePct!=null?b.fvUpsidePct:-Infinity; }
       else { av=a.score; bv=b.score; }
       if(typeof av==='string') return simpleLtSortDir*av.localeCompare(bv);
       return simpleLtSortDir*(av-bv);
@@ -2356,21 +2354,19 @@ function renderSimpleView(){
     const rows = picks.map(r=>{
       const fwd = r.fairValue && r.fairValue.fwd;
       const fairTxt = (fwd && !fwd.unavailable && fwd.mid!=null) ? '$'+fwd.mid.toFixed(0) : '-';
-      const upsideTxt = r.fvUpsidePct!=null ? `<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>` : '<span class="sub">-</span>';
       const dir = directionBadge(r.ticker) || '<span class="sub">-</span>';
       return `<tr onclick="openDetail('${r.ticker}')" style="cursor:pointer;">
         <td><b>${esc(r.ticker)}</b> <span class="badge ${r.verdict.label==='강한 매수기회'?'b-strong-buy':'b-buy-wait'}" style="font-size:10px;">${r.verdict.label==='강한 매수기회'?'강한':'관심'}</span></td>
         <td class="sub">${esc(r.theme||'-')}</td>
         <td class="v">${fairTxt}</td>
-        <td class="v">${upsideTxt}</td>
         <td>${valuationBadgeHtml(r)}</td>
         <td>${dir}</td>
         <td>${epsFundamentalDirectionBadges(r.ticker)}</td>
       </tr>`;
     }).join('');
-    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). 기준가·기준가 대비·가격타당성은 참고용이며 낮다고 매수 신호는 아니에요(검증상 밸류트랩 위험). '기준가'는 "적정가"가 아니라 PER 유지 시나리오 가격이고, '기준가 대비'는 그 기준가까지 남은 상승여력(%)이에요 - 가격이 비쌀수록 기준가도 같이 비싸지는 구조라 저평가·고평가를 증명하진 못해요.</div>
+    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). '기준가'는 "적정가"가 아니라 지금 PER을 그대로 유지한다고 가정했을 때의 시나리오 가격이라 참고용이며, 낮다고 매수 신호는 아니에요(검증상 밸류트랩 위험) - 목록 정렬에는 쓰지 않아요.</div>
       <div style="overflow-x:auto;"><table style="width:100%;min-width:600px;">
-        <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','기준가')}${th('fvUpsidePct','기준가 대비')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
+        <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','기준가')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
   }
@@ -2462,7 +2458,6 @@ function buildRecentSignalLogHtml(scored){
     // 따로 눌러 확인해야 했음 - 새 판정을 만들지 않고 기존 함수(valuationBadgeHtml·
     // epsFundamentalDirectionBadges·directionBadge, r.fvUpsidePct)를 그대로 재사용해서 종목당
     // 한 번만 계산 후 그 종목의 모든 신호 항목에 공통으로 붙임.
-    const fvUpsideTxt = r.fvUpsidePct!=null ? `<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>` : '<span class="sub">-</span>';
     const valBadge = valuationBadgeHtml(r);
     const dirBadge = directionBadge(r.ticker);
     const epsFundBadges = epsFundamentalDirectionBadges(r.ticker);
@@ -2478,11 +2473,11 @@ function buildRecentSignalLogHtml(scored){
       if(ago>=10){ status = '평가 종료(10거래일)'; statusColor = 'var(--sub)'; }
       else if(wasUptrend && !nowUptrend){ status = '중단(우상향 전제 깨짐)'; statusColor = 'var(--down)'; }
       else{ status = '진행 중'; statusColor = 'var(--up)'; }
-      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor, fvUpsideTxt, valBadge, dirBadge, epsFundBadges});
+      items.push({ticker:r.ticker, date:dates[i], price:closes[i], since, ago, strong, status, statusColor, valBadge, dirBadge, epsFundBadges});
     }
   });
   const head = `<div class="sub" style="margin-top:14px;padding-top:10px;border-top:1px solid var(--line);margin-bottom:4px;">
-    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요. 기준가 대비·가격타당성·EPS·실적·뉴스방향성은 ①목록과 같은 참고 지표예요 - 매수 신호가 아니에요)</span>
+    <b>최근 단타 신호 로그</b> ${hintIcon('signalHistory')} <span style="font-weight:400;">(최근 10거래일 · 전 종목 - 오늘 새 자리가 없어도 며칠 전 신호가 아직 유효할 수 있어요. 가격타당성·EPS·실적·뉴스방향성은 ①목록과 같은 참고 지표예요 - 매수 신호가 아니에요)</span>
   </div>`;
   if(!items.length){
     return `${head}<div class="sub">최근 10거래일 안에는 단타 진입 신호가 없었어요.</div>`;
@@ -2494,7 +2489,7 @@ function buildRecentSignalLogHtml(scored){
         <b style="cursor:pointer;" onclick="openDetail('${it.ticker}')">${it.ticker}</b> · ${it.date} · $${it.price.toFixed(2)}
         ${it.strong?'<span class="badge b-strong-buy" style="margin-left:4px;">강한</span>':''}
         <span class="sub" style="display:block;">${it.ago===0?'오늘':`${it.ago}거래일 전`} · <span style="color:${it.statusColor};font-weight:600;">${it.status}</span></span>
-        <span class="sub" style="display:block;margin-top:2px;">기준가 대비 ${it.fvUpsideTxt} · ${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
+        <span class="sub" style="display:block;margin-top:2px;">${it.valBadge}${it.dirBadge}${it.epsFundBadges}</span>
       </span>
       <span class="v" style="text-align:right;white-space:nowrap;color:${it.since>=0?'var(--up)':'var(--down)'}">${it.since>=0?'+':''}${it.since.toFixed(1)}%</span>
     </div>`).join('');
@@ -2718,7 +2713,6 @@ function renderTable(){
       <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}</td>
-      <td>${r.fvUpsidePct!=null?`<span class="${r.fvUpsidePct>=0?'pos':'neg'}">${r.fvUpsidePct>=0?'+':''}${r.fvUpsidePct.toFixed(0)}%</span>`:'-'}</td>
       <td>${valuationBadgeHtml(r)}</td>
       <td>${auxiliaryEvidenceBadgeHtml(r._auxEvidence)}</td>
       <td>${r.relStrength20!=null?`<span class="${r.relStrength20>=0?'pos':'neg'}">${r.relStrength20>=0?'+':''}${r.relStrength20.toFixed(1)}%p</span>`:'-'}</td>
@@ -3495,7 +3489,7 @@ function renderFairValueSection(r){
     // 서술("~보다 싸게/비싸게 거래되고 있다")로만 남기고, 판단은 아래 경고문에 맡김.
     const compareLine = `
       <div class="comment-box" style="background:${cheaper?'var(--up-bg)':'var(--down-bg)'};color:${cheaper?'#a8322c':'#2a4fa0'};margin-bottom:10px;">
-        <span style="font-weight:400;">기준가 $${w.mid.toFixed(0)}는 <b>지금 시장이 이 종목에 실제로 매기고 있는 PER ${w.anchorPe.toFixed(1)}배</b>(오늘 주가 $${price.toFixed(2)} ÷ 올해 예상 EPS $${w.eps0.toFixed(2)}로 역산 - 다른 종목이나 업종 평균이 아니라 이 종목 자체 오늘 값)를 내년에도 그대로 유지한다고 가정하고, 거기에 내년 예상 EPS $${w.eps1.toFixed(2)}를 곱한 값이에요.</span><br>
+        <span style="font-weight:400;">현재 PER 유지 시 가정 가격 $${w.mid.toFixed(0)}는 <b>지금 시장이 이 종목에 실제로 매기고 있는 PER ${w.anchorPe.toFixed(1)}배</b>(오늘 주가 $${price.toFixed(2)} ÷ 올해 예상 EPS $${w.eps0.toFixed(2)}로 역산 - 다른 종목이나 업종 평균이 아니라 이 종목 자체 오늘 값)를 내년에도 그대로 유지한다고 가정하고, 거기에 내년 예상 EPS $${w.eps1.toFixed(2)}를 곱한 값이에요.</span><br>
         지금 주가 <b>$${price.toFixed(2)}</b>는 그 기준가보다
         <b>${Math.abs(discountPct).toFixed(0)}% ${cheaper?'낮아요':'높아요'}</b>.
         <span style="font-weight:400;">${cheaper
@@ -3507,7 +3501,7 @@ function renderFairValueSection(r){
     perBlock = compareLine + `
       ${pricePositionBar(price, w.low, w.mid, w.high)}
       <div class="fund-row"><span>보수적 (PER이 하위 20% 수준으로 눌리면 · ${w.bandLow.toFixed(2)}배)</span><span class="v">$${w.low.toFixed(0)} · ${rel(w.low)}</span></div>
-      <div class="fund-row"><span><b>기준 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
+      <div class="fund-row"><span><b>현재 PER 유지 시 가정 가격 (PER 그대로 · 실적 성장분만)</b></span><span class="v"><b>$${w.mid.toFixed(0)} · ${rel(w.mid)}</b></span></div>
       <div class="fund-row"><span>낙관적 (PER이 상위 20% 수준으로 확장되면 · ${w.bandHigh.toFixed(2)}배)</span><span class="v">$${w.high.toFixed(0)} · ${rel(w.high)}</span></div>
       ${w.cautions.map(c=>`<div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ ${c}</div>`).join('')}
       <details style="margin-top:8px;">
