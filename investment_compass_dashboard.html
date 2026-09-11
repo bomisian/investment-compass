@@ -7617,13 +7617,23 @@ function guidanceMetricText(m){
   }
   return '-';
 }
+// 2026-09-11 추가(외부 검토로 발견, VRT·MU 사례) - 같은 가이던스에 GAAP·Non-GAAP(조정) EPS가
+// 나란히 있으면 이제 둘 다 별도 항목으로 저장되는데(extract_official_guidance 수정), 화면에서
+// "EPS $5.82~$5.92 · EPS $6.65~$6.75"처럼 어느 게 어느 기준인지 안 보이면 오히려 더 헷갈린다.
+// basis를 짧게 붙여서 구분한다.
+function guidanceBasisLabel(m){
+  const b = String(m.basis || '');
+  if(/non_gaap/.test(b)) return '(조정)';
+  if(/gaap_or_unspecified|^gaap$/.test(b)) return '(GAAP)';
+  return '';
+}
 function guidanceHistoryBlock(ticker){
   const records = (typeof GUIDANCE_HISTORY_DATA !== 'undefined') ? GUIDANCE_HISTORY_DATA[ticker] : null;
   if(!records || !records.length) return '';
   const rows = [...records].reverse(); // 최신 공시가 먼저 오게
   const latest = rows[0];
   const g = latest.guidance || {};
-  const metricsText = (g.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'} ${guidanceMetricText(m)}`).join(' · ') || '-';
+  const metricsText = (g.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'}${guidanceBasisLabel(m)} ${guidanceMetricText(m)}`).join(' · ') || '-';
   const cmp = latest.comparison || {};
   const cmpLabel = {raised:'🟢 상향', lowered:'🔴 하향', maintained:'⚪ 유지', mixed:'🟡 지표별 혼재'}[cmp.overall];
   const cmpText = cmp.status==='available'
@@ -7638,7 +7648,7 @@ function guidanceHistoryBlock(ticker){
 
   const historyRows = rows.slice(0,6).map(row=>{
     const rg = row.guidance||{};
-    const mtext = (rg.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'} ${guidanceMetricText(m)}`).join(' · ') || '-';
+    const mtext = (rg.metrics||[]).map(m=>`${m.metric==='revenue'?'매출':'EPS'}${guidanceBasisLabel(m)} ${guidanceMetricText(m)}`).join(' · ') || '-';
     const rc = row.comparison||{};
     const rcLabel = {raised:'상향', lowered:'하향', maintained:'유지', mixed:'혼재'}[rc.overall] || '비교불가';
     return `<div style="margin:4px 0;font-size:12.5px;">${esc(row.filingDate)} · ${esc(rg.targetPeriod||'-')} · ${mtext} · ${rcLabel}${row.sourceUrl?` · <a href="${esc(row.sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">SEC 원문</a>`:''}</div>`;
