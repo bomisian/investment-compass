@@ -3086,7 +3086,6 @@ function valuationBadgeHtml(r){
 function undervaluationContextNote(r){
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
-  const ins = insiderEntry(r.ticker);
   const signals = [];
   if(eps && (eps.direction==='상향' || eps.direction==='하향')){
     signals.push({label: eps.direction==='상향' ? 'EPS 전망 최근 상향 중' : 'EPS 전망 최근 하향 중', tone: eps.direction==='상향' ? 'positive' : 'negative'});
@@ -3095,13 +3094,9 @@ function undervaluationContextNote(r){
     const upside = (est.targetMean - r.price)/r.price*100;
     signals.push({label: `애널리스트 평균 목표가 대비 ${upside>=0?'+':''}${upside.toFixed(0)}%`, tone: upside>=10 ? 'positive' : (upside<=-5 ? 'negative' : 'neutral')});
   }
-  if(ins && ins.transactions && ins.transactions.length){
-    const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
-    const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
-    if(buyShares || sellShares){
-      const tone = buyShares>sellShares ? 'positive' : (sellShares>buyShares ? 'negative' : 'neutral');
-      signals.push({label: buyShares>sellShares?'내부자 최근 90일 순매수':(sellShares>buyShares?'내부자 최근 90일 순매도':'내부자 매수·매도 균형'), tone});
-    }
+  {
+    const insSignal = insiderNetSignal(r.ticker);
+    if(insSignal) signals.push(insSignal);
   }
   if(!signals.length) return null;
   const posCount = signals.filter(s=>s.tone==='positive').length;
@@ -3222,7 +3217,6 @@ function buildValuationReasonablenessHtml(r){
 function computeAuxiliaryEvidence(r){
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
   const est = (typeof ESTIMATES_DATA !== 'undefined') ? ESTIMATES_DATA[r.ticker] : null;
-  const ins = insiderEntry(r.ticker);
   const dc = getDirectionCheck(r.ticker);
   const rs = computeRelStrength(r);
   const fwd = r.fairValue && r.fairValue.fwd;
@@ -3247,12 +3241,9 @@ function computeAuxiliaryEvidence(r){
     const upside = (est.targetMean-r.price)/r.price*100;
     items.push({label:`애널리스트 목표가 ${upside>=0?'+':''}${upside.toFixed(0)}%`, tone: upside>=10?'positive':(upside<=-5?'negative':'neutral')});
   }
-  if(ins && ins.transactions && ins.transactions.length){
-    const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
-    const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
-    if(buyShares || sellShares){
-      items.push({label: buyShares>sellShares?'내부자 순매수':(sellShares>buyShares?'내부자 순매도':'내부자 매수·매도 균형'), tone: buyShares>sellShares?'positive':(sellShares>buyShares?'negative':'neutral')});
-    }
+  {
+    const insSignal = insiderNetSignal(r.ticker);
+    if(insSignal) items.push(insSignal);
   }
   if(dc){
     items.push({label:`최근 뉴스 방향성 - ${DIR_LABEL[dc.tone]||dc.tone}`, tone: dc.tone==='risk'?'negative':(dc.tone==='positive'?'positive':'neutral')});
@@ -7797,6 +7788,32 @@ const TREND_PERIOD_LABEL = {'0y':'올해', '+1y':'내년', '+2y':'내후년'};
 // 경로(조기 반환/정상 반환) 모두에 붙인다.
 function insiderEntry(ticker){
   return (typeof INSIDER_DATA !== 'undefined' && INSIDER_DATA) ? INSIDER_DATA[ticker] : null;
+}
+// 2026-09-11 추가(외부 검토로 발견) - "단순 순매도만으로 부정 점수 자동 부여 금지". 아래 세 곳
+// (undervaluationContextNote·computeAuxiliaryEvidence, 메인 목록 '보조 근거' 배지에도 쓰임)이
+// 전부 buyShares>sellShares만 보고 순매도면 무조건 tone:'negative'를 매겨왔는데, 이 섹션 자체의
+// 힌트 문구("매도는 세금·생활자금 등 회사 전망과 무관한 이유가 흔해서 매수만큼 의미 있게 보지는
+// 않아요")와 모순된다. 이미 계산돼 있는 정밀분석(INSIDER_ANALYSIS_DATA - 반복매도·동시매도·총
+// 매도금액을 규칙대로 분류한 '주의/관찰' 레벨)을 재사용해서, 정말 '주의'(반복·동시·대규모 매도)
+// 레벨일 때만 negative로 격상하고, 그냥 순매도(계획된 매도·1회성 등 포함)는 neutral로 둔다 -
+// 새 판정을 만드는 게 아니라 이미 있는 정밀분석 결과를 그대로 재사용하는 것.
+function insiderNetSignal(ticker){
+  const ins = insiderEntry(ticker);
+  if(!ins || !ins.transactions || !ins.transactions.length) return null;
+  const buyShares = ins.transactions.filter(t=>t.code==='P').reduce((a,t)=>a+t.share,0);
+  const sellShares = ins.transactions.filter(t=>t.code==='S').reduce((a,t)=>a+t.share,0);
+  if(!buyShares && !sellShares) return null;
+  if(buyShares > sellShares){
+    return {label:'내부자 최근 90일 순매수', tone:'positive'};
+  }
+  if(sellShares > buyShares){
+    const rec = (typeof INSIDER_ANALYSIS_DATA !== 'undefined' && INSIDER_ANALYSIS_DATA && INSIDER_ANALYSIS_DATA.records) ? INSIDER_ANALYSIS_DATA.records[ticker] : null;
+    if(rec && rec.level === '주의'){
+      return {label:'내부자 최근 90일 순매도(반복·동시 매도 등 주의 신호 있음)', tone:'negative'};
+    }
+    return {label:'내부자 최근 90일 순매도(계획된 매도·세금 등 사유일 수 있어 그 자체로 부정 신호 아님)', tone:'neutral'};
+  }
+  return {label:'내부자 매수·매도 균형', tone:'neutral'};
 }
 // ============ 내부자 거래 정밀분석 (2026-08-28 화면 연결) ============
 // [배경] insider_analysis_data.js가 raw Form 4 거래 내역(아래 원본 목록) 위에 한 단계 더
