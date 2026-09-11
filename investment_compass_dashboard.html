@@ -7456,7 +7456,7 @@ function tabEarnings(r){
       <div class="toggle-btn ${earningsMode==='quarterly'?'active':''}" onclick="setEarningsMode('${r.ticker}','quarterly')">분기별</div>
       <div class="toggle-btn ${earningsMode==='annual'?'active':''}" onclick="setEarningsMode('${r.ticker}','annual')">연도별</div>
     </div>
-    <div class="chart-label">매출(막대) · 순이익(선) — 단위 $ · 화면이 좁아 숫자가 겹칠 땐 생략되니 아래 표에서 보세요</div>
+    <div class="chart-label">매출(막대) · 순이익(선) — 단위 $ · <b>막대와 선은 서로 다른 축척(각자 자기 최댓값 기준)</b>이라 높이를 직접 비교하면 안 돼요 · 화면이 좁아 숫자가 겹칠 땐 생략되니 아래 표에서 보세요</div>
     <canvas id="earningsCanvas"></canvas>
     ${earningsComment(fin[earningsMode] || [], earningsMode)}
     ${earningsTable(fin[earningsMode] || [], earningsMode)}
@@ -7538,14 +7538,30 @@ function drawEarningsChart(canvas, data){
     ctx.fillStyle='#a8322c'; ctx.font=`bold ${fontSize}px monospace`; ctx.textAlign='center';
     if(fitsLabel(ctx, fmtUsd(d.revenue), bw)) ctx.fillText(fmtUsd(d.revenue), x(i), top-6);
   });
-  ctx.beginPath(); ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=3;
+  // 2026-09-11 수정(외부 검토로 발견) - 순이익 결측 구간을 그냥 건너뛰면(if(...) return) 앞뒤의
+  // 유효한 값끼리 선이 바로 이어져서, 마치 그 결측 기간에도 실제로 완만하게 변한 것처럼 보이는
+  // 착시가 생김("결측 연결 금지"). 결측을 만나면 진행 중이던 선을 끊고(stroke 후 다시 시작),
+  // 다음 유효한 값부터 새 선분으로 그린다 - 두 선분 사이가 비어 보이는 게 정직한 표시임.
+  ctx.strokeStyle='#3b6fd8'; ctx.lineWidth=3;
   let started=false;
   data.forEach((d,i)=>{
-    if(d.netIncome==null) return;
+    if(d.netIncome==null){ if(started){ctx.stroke();} started=false; return; }
     const px=x(i), py=yNi(d.netIncome);
-    if(!started){ctx.moveTo(px,py);started=true;} else ctx.lineTo(px,py);
+    if(!started){ ctx.beginPath(); ctx.moveTo(px,py); started=true; } else ctx.lineTo(px,py);
   });
-  ctx.stroke();
+  if(started) ctx.stroke();
+  // 순이익 축의 0선을 점선으로 표시 - 막대(매출)와 축척이 다르다는 걸 시각적으로도 드러내고,
+  // 순이익이 적자로 내려간 구간을 0선 위/아래로 바로 구분할 수 있게 함("0선 표시").
+  if(nis.length){
+    const zeroY = yNi(0);
+    ctx.save();
+    ctx.setLineDash([4*2,3*2]);
+    ctx.strokeStyle = '#9aa3ae'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(padSide, zeroY); ctx.lineTo(W-padSide, zeroY); ctx.stroke();
+    ctx.restore();
+    ctx.fillStyle = '#7f8791'; ctx.font = '18px monospace'; ctx.textAlign = 'left';
+    ctx.fillText('순이익 0', padSide, zeroY - 4);
+  }
   data.forEach((d,i)=>{
     if(d.netIncome==null) return;
     const px=x(i), py=yNi(d.netIncome);
