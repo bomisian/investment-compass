@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789094565.2769663,
+  "generatedAt": 1789096626.635331,
   "events": [
     {
       "id": "43aa0111c11bedb8d1c7",
@@ -9240,7 +9240,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789074003.270795
+        "collectedAt": 1789096621.9572067
       },
       "confirmedFacts": [
         "ORCL가 2026-09-10에 SEC Form 8-K을 제출했습니다.",
@@ -9279,7 +9279,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 7,
-        "analyzedAt": 1789090638.0973034,
+        "analyzedAt": 1789096621.9572067,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -9342,7 +9342,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789074003.270795
+        "collectedAt": 1789096621.9572067
       },
       "confirmedFacts": [
         "AVGO가 2026-09-10에 SEC Form 10-Q을 제출했습니다."

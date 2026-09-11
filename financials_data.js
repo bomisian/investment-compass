@@ -16,9 +16,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 10918000000,
-        "netIncome": 2796000000,
-        "opIncome": 2846000000,
+        "revenue": 10918000000.0,
+        "netIncome": 2796000000.0,
+        "opIncome": 2846000000.0,
         "eps": 0.11299999999999999,
         "ocf": 4761000000,
         "capex": -489000000,
@@ -27,240 +27,240 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 16675000000,
-        "netIncome": 4332000000,
-        "opIncome": 4532000000,
+        "revenue": 16675000000.0,
+        "netIncome": 4332000000.0,
+        "opIncome": 4532000000.0,
         "eps": 0.173,
-        "ocf": 5822000000,
+        "ocf": 5822000000.0,
         "capex": null,
         "fcf": null,
         "endDate": "2021-01-31"
       },
       {
         "period": "2022",
-        "revenue": 26914000000,
-        "netIncome": 9752000000,
-        "opIncome": 10041000000,
+        "revenue": 26914000000.0,
+        "netIncome": 9752000000.0,
+        "opIncome": 10041000000.0,
         "eps": 0.385,
-        "ocf": 9108000000,
+        "ocf": 9108000000.0,
         "capex": -976000000,
         "fcf": 8132000000,
         "endDate": "2022-01-30",
         "_fcfIsProxy": true,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0
       },
       {
         "period": "2023",
-        "revenue": 26974000000,
-        "netIncome": 4368000000,
-        "opIncome": 4224000000,
+        "revenue": 26974000000.0,
+        "netIncome": 4368000000.0,
+        "opIncome": 4224000000.0,
         "eps": 0.17,
         "ocf": 5641000000,
         "capex": -1833000000,
-        "fcf": 3808000000,
+        "fcf": 3808000000.0,
         "endDate": "2023-01-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4181000000,
-        "taxProvision": -187000000,
-        "normalizedIncome": 5436870000,
-        "unusualItems": -1353000000,
-        "unusualItemsExGoodwill": -1353000000,
-        "unusualTaxEffect": -284130000,
-        "specialIncomeCharges": -1353000000,
-        "otherNonOperating": -48000000,
-        "restructuring": 1353000000,
-        "stockComp": 2709000000
+        "pretaxIncome": 4181000000.0,
+        "taxProvision": -187000000.0,
+        "normalizedIncome": 5436870000.0,
+        "unusualItems": -1353000000.0,
+        "unusualItemsExGoodwill": -1353000000.0,
+        "unusualTaxEffect": -284130000.0,
+        "specialIncomeCharges": -1353000000.0,
+        "otherNonOperating": -48000000.0,
+        "restructuring": 1353000000.0,
+        "stockComp": 2709000000.0
       },
       {
         "period": "2024",
-        "revenue": 60922000000,
-        "netIncome": 29760000000,
-        "opIncome": 32972000000,
+        "revenue": 60922000000.0,
+        "netIncome": 29760000000.0,
+        "opIncome": 32972000000.0,
         "eps": 1.19,
         "ocf": 28090000000,
         "capex": -1069000000,
-        "fcf": 27021000000,
+        "fcf": 27021000000.0,
         "endDate": "2024-01-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 33818000000,
-        "taxProvision": 4058000000,
-        "normalizedIncome": 29760000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 237000000,
-        "restructuring": 0,
-        "stockComp": 3549000000
+        "pretaxIncome": 33818000000.0,
+        "taxProvision": 4058000000.0,
+        "normalizedIncome": 29760000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 237000000.0,
+        "restructuring": 0.0,
+        "stockComp": 3549000000.0
       },
       {
         "period": "2025",
-        "revenue": 130497000000,
-        "netIncome": 72880000000,
-        "opIncome": 81453000000,
+        "revenue": 130497000000.0,
+        "netIncome": 72880000000.0,
+        "opIncome": 81453000000.0,
         "eps": 2.94,
         "ocf": 64089000000,
         "capex": -3236000000,
-        "fcf": 60853000000,
+        "fcf": 60853000000.0,
         "endDate": "2025-01-26",
         "_fcfIsProxy": false,
-        "pretaxIncome": 84026000000,
-        "taxProvision": 11146000000,
-        "normalizedIncome": 72880000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 1034000000,
-        "restructuring": 0,
-        "stockComp": 4737000000
+        "pretaxIncome": 84026000000.0,
+        "taxProvision": 11146000000.0,
+        "normalizedIncome": 72880000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 1034000000.0,
+        "restructuring": 0.0,
+        "stockComp": 4737000000.0
       },
       {
         "period": "2026",
-        "revenue": 215938000000,
-        "netIncome": 120067000000,
+        "revenue": 215938000000.0,
+        "netIncome": 120067000000.0,
         "opIncome": 130387000000,
         "eps": 4.9,
         "ocf": 102718000000,
         "capex": -6042000000,
-        "fcf": 96676000000,
+        "fcf": 96676000000.0,
         "endDate": "2026-01-25",
         "_fcfIsProxy": false,
-        "pretaxIncome": 141450000000,
-        "taxProvision": 21383000000,
-        "normalizedIncome": 120067000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 9022000000,
-        "stockComp": 6386000000
+        "pretaxIncome": 141450000000.0,
+        "taxProvision": 21383000000.0,
+        "normalizedIncome": 120067000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 9022000000.0,
+        "stockComp": 6386000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q4'23",
-        "revenue": 18120000000,
-        "netIncome": 9243000000,
-        "opIncome": 10417000000,
+        "revenue": 18120000000.0,
+        "netIncome": 9243000000.0,
+        "opIncome": 10417000000.0,
         "endDate": "2023-10-29",
         "eps": 0.37
       },
       {
         "period": "Q1'24",
-        "revenue": 22103000000,
-        "netIncome": 12285000000,
-        "opIncome": 13614000000,
+        "revenue": 22103000000.0,
+        "netIncome": 12285000000.0,
+        "opIncome": 13614000000.0,
         "endDate": "2024-01-28"
       },
       {
         "period": "Q2'24",
-        "revenue": 26044000000,
-        "netIncome": 14881000000,
-        "opIncome": 16909000000,
+        "revenue": 26044000000.0,
+        "netIncome": 14881000000.0,
+        "opIncome": 16909000000.0,
         "endDate": "2024-04-28",
         "eps": 0.6
       },
       {
         "period": "Q3'24",
-        "revenue": 30040000000,
-        "netIncome": 16599000000,
-        "opIncome": 18642000000,
+        "revenue": 30040000000.0,
+        "netIncome": 16599000000.0,
+        "opIncome": 18642000000.0,
         "endDate": "2024-07-28",
         "eps": 0.67
       },
       {
         "period": "Q4'24",
-        "revenue": 35082000000,
-        "netIncome": 19309000000,
+        "revenue": 35082000000.0,
+        "netIncome": 19309000000.0,
         "opIncome": 21869000000,
         "endDate": "2024-10-27",
         "eps": 0.78
       },
       {
         "period": "Q1'25",
-        "revenue": 39331000000,
-        "netIncome": 22091000000,
-        "opIncome": 24034000000,
+        "revenue": 39331000000.0,
+        "netIncome": 22091000000.0,
+        "opIncome": 24034000000.0,
         "endDate": "2025-01-26"
       },
       {
         "period": "Q2'25",
-        "revenue": 44062000000,
-        "netIncome": 18775000000,
-        "opIncome": 21638000000,
+        "revenue": 44062000000.0,
+        "netIncome": 18775000000.0,
+        "opIncome": 21638000000.0,
         "endDate": "2025-04-27",
         "eps": 0.76
       },
       {
         "period": "Q3'25",
-        "revenue": 46743000000,
-        "netIncome": 26422000000,
-        "opIncome": 28440000000,
+        "revenue": 46743000000.0,
+        "netIncome": 26422000000.0,
+        "opIncome": 28440000000.0,
         "endDate": "2025-07-27",
         "eps": 1.08,
-        "ocf": 15365000000,
-        "capex": -1895000000,
-        "fcf": 13470000000,
-        "pretaxIncome": 31206000000,
-        "taxProvision": 4784000000,
-        "normalizedIncome": 24518791000,
-        "unusualItems": 2247000000,
-        "unusualItemsExGoodwill": 2247000000,
-        "unusualTaxEffect": 343791000,
-        "otherNonOperating": -11000000,
-        "stockComp": 1625000000
+        "ocf": 15365000000.0,
+        "capex": -1895000000.0,
+        "fcf": 13470000000.0,
+        "pretaxIncome": 31206000000.0,
+        "taxProvision": 4784000000.0,
+        "normalizedIncome": 24518791000.0,
+        "unusualItems": 2247000000.0,
+        "unusualItemsExGoodwill": 2247000000.0,
+        "unusualTaxEffect": 343791000.0,
+        "otherNonOperating": -11000000.0,
+        "stockComp": 1625000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 57006000000,
-        "netIncome": 31910000000,
+        "revenue": 57006000000.0,
+        "netIncome": 31910000000.0,
         "opIncome": 36010000000,
         "endDate": "2025-10-26",
         "eps": 1.3,
-        "ocf": 23751000000,
-        "capex": -1636000000,
-        "fcf": 22115000000,
-        "pretaxIncome": 37936000000,
-        "taxProvision": 6026000000,
-        "normalizedIncome": 31910000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 1363000000,
-        "stockComp": 1654000000
+        "ocf": 23751000000.0,
+        "capex": -1636000000.0,
+        "fcf": 22115000000.0,
+        "pretaxIncome": 37936000000.0,
+        "taxProvision": 6026000000.0,
+        "normalizedIncome": 31910000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 1363000000.0,
+        "stockComp": 1654000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 68127000000,
-        "netIncome": 42960000000,
+        "revenue": 68127000000.0,
+        "netIncome": 42960000000.0,
         "opIncome": 44299000000,
         "endDate": "2026-01-25",
         "eps": 1.76,
-        "ocf": 36188000000,
-        "capex": -1284000000,
-        "fcf": 34904000000,
-        "pretaxIncome": 50398000000,
-        "taxProvision": 7438000000,
-        "normalizedIncome": 42960000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 5604000000,
-        "stockComp": 1633000000
+        "ocf": 36188000000.0,
+        "capex": -1284000000.0,
+        "fcf": 34904000000.0,
+        "pretaxIncome": 50398000000.0,
+        "taxProvision": 7438000000.0,
+        "normalizedIncome": 42960000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 5604000000.0,
+        "stockComp": 1633000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 81615000000,
-        "netIncome": 58321000000,
+        "revenue": 81615000000.0,
+        "netIncome": 58321000000.0,
         "opIncome": 53536000000,
         "endDate": "2026-04-26",
         "eps": 2.39,
-        "ocf": 50344000000,
-        "capex": -1757000000,
-        "fcf": 48587000000,
-        "pretaxIncome": 69903000000,
-        "taxProvision": 11582000000,
-        "normalizedIncome": 58321000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 15929000000,
-        "stockComp": 1928000000
+        "ocf": 50344000000.0,
+        "capex": -1757000000.0,
+        "fcf": 48587000000.0,
+        "pretaxIncome": 69903000000.0,
+        "taxProvision": 11582000000.0,
+        "normalizedIncome": 58321000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 15929000000.0,
+        "stockComp": 1928000000.0
       },
       {
         "period": "Q3'26",
@@ -269,17 +269,17 @@ const FINANCIALS_DATA = {
         "opIncome": 63734000000,
         "eps": 2.46,
         "endDate": "2026-07-26",
-        "ocf": 24077000000,
-        "capex": -2677000000,
-        "fcf": 21400000000,
-        "pretaxIncome": 71507000000,
-        "taxProvision": 11819000000,
-        "normalizedIncome": 53199215000,
-        "unusualItems": 7771000000,
-        "unusualItemsExGoodwill": 7771000000,
-        "unusualTaxEffect": 1282215000,
-        "otherNonOperating": -267000000,
-        "stockComp": 2026000000
+        "ocf": 24077000000.0,
+        "capex": -2677000000.0,
+        "fcf": 21400000000.0,
+        "pretaxIncome": 71507000000.0,
+        "taxProvision": 11819000000.0,
+        "normalizedIncome": 53199215000.0,
+        "unusualItems": 7771000000.0,
+        "unusualItemsExGoodwill": 7771000000.0,
+        "unusualTaxEffect": 1282215000.0,
+        "otherNonOperating": -267000000.0,
+        "stockComp": 2026000000.0
       }
     ],
     "_currency": "USD",
@@ -289,105 +289,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-13",
-        "shares": 24760000000
+        "shares": 24760000000.0
       },
       {
         "date": "2021-02-19",
-        "shares": 24800000000
+        "shares": 24800000000.0
       },
       {
         "date": "2021-05-21",
-        "shares": 24920000000
+        "shares": 24920000000.0
       },
       {
         "date": "2021-08-13",
-        "shares": 25000000000
+        "shares": 25000000000.0
       },
       {
         "date": "2021-11-12",
-        "shares": 25000000000
+        "shares": 25000000000.0
       },
       {
         "date": "2022-03-11",
-        "shares": 25100000000
+        "shares": 25100000000.0
       },
       {
         "date": "2022-05-20",
-        "shares": 25000000000
+        "shares": 25000000000.0
       },
       {
         "date": "2022-08-19",
-        "shares": 24900000000
+        "shares": 24900000000.0
       },
       {
         "date": "2022-11-11",
-        "shares": 24600000000
+        "shares": 24600000000.0
       },
       {
         "date": "2023-02-17",
-        "shares": 24700000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-05-19",
-        "shares": 24700000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-08-18",
-        "shares": 24700000000
+        "shares": 24700000000.0
       },
       {
         "date": "2023-11-17",
-        "shares": 24700000000
+        "shares": 24700000000.0
       },
       {
         "date": "2024-02-16",
-        "shares": 25000000000
+        "shares": 25000000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 24600000000
+        "shares": 24600000000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 24530000000
+        "shares": 24530000000.0
       },
       {
         "date": "2024-11-15",
-        "shares": 24490000000
+        "shares": 24490000000.0
       },
       {
         "date": "2025-02-21",
-        "shares": 24400000000
+        "shares": 24400000000.0
       },
       {
         "date": "2025-05-23",
-        "shares": 24400000000
+        "shares": 24400000000.0
       },
       {
         "date": "2025-08-22",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2025-11-14",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2026-02-20",
-        "shares": 24300000000
+        "shares": 24300000000.0
       },
       {
         "date": "2026-05-15",
-        "shares": 24200000000
+        "shares": 24200000000.0
       },
       {
         "date": "2026-08-21",
-        "shares": 24100000000
+        "shares": 24100000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -412,8 +412,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AAPL": {
@@ -432,9 +432,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 260174000000,
-        "netIncome": 55256000000,
-        "opIncome": 63930000000,
+        "revenue": 260174000000.0,
+        "netIncome": 55256000000.0,
+        "opIncome": 63930000000.0,
         "eps": 2.97,
         "ocf": 69391000000,
         "capex": -10495000000,
@@ -444,9 +444,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 274515000000,
-        "netIncome": 57411000000,
-        "opIncome": 66288000000,
+        "revenue": 274515000000.0,
+        "netIncome": 57411000000.0,
+        "opIncome": 66288000000.0,
         "eps": 3.28,
         "ocf": 80674000000,
         "capex": -7309000000,
@@ -456,9 +456,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 365817000000,
-        "netIncome": 94680000000,
-        "opIncome": 108949000000,
+        "revenue": 365817000000.0,
+        "netIncome": 94680000000.0,
+        "opIncome": 108949000000.0,
         "eps": 5.61,
         "ocf": 104038000000,
         "capex": -11085000000,
@@ -468,199 +468,199 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 394328000000,
-        "netIncome": 99803000000,
-        "opIncome": 119437000000,
+        "revenue": 394328000000.0,
+        "netIncome": 99803000000.0,
+        "opIncome": 119437000000.0,
         "eps": 6.11,
         "ocf": 122151000000,
         "capex": -10708000000,
-        "fcf": 111443000000,
+        "fcf": 111443000000.0,
         "endDate": "2022-09-24",
         "_fcfIsProxy": false,
-        "pretaxIncome": 119103000000,
-        "taxProvision": 19300000000,
-        "normalizedIncome": 99803000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -334000000,
-        "stockComp": 9038000000
+        "pretaxIncome": 119103000000.0,
+        "taxProvision": 19300000000.0,
+        "normalizedIncome": 99803000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -334000000.0,
+        "stockComp": 9038000000.0
       },
       {
         "period": "2023",
-        "revenue": 383285000000,
-        "netIncome": 96995000000,
-        "opIncome": 114301000000,
+        "revenue": 383285000000.0,
+        "netIncome": 96995000000.0,
+        "opIncome": 114301000000.0,
         "eps": 6.13,
         "ocf": 110543000000,
         "capex": -10959000000,
-        "fcf": 99584000000,
+        "fcf": 99584000000.0,
         "endDate": "2023-09-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 113736000000,
-        "taxProvision": 16741000000,
-        "normalizedIncome": 96995000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -565000000,
-        "stockComp": 10833000000
+        "pretaxIncome": 113736000000.0,
+        "taxProvision": 16741000000.0,
+        "normalizedIncome": 96995000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -565000000.0,
+        "stockComp": 10833000000.0
       },
       {
         "period": "2024",
-        "revenue": 391035000000,
-        "netIncome": 93736000000,
-        "opIncome": 123216000000,
+        "revenue": 391035000000.0,
+        "netIncome": 93736000000.0,
+        "opIncome": 123216000000.0,
         "eps": 6.08,
         "ocf": 118254000000,
         "capex": -9447000000,
-        "fcf": 108807000000,
+        "fcf": 108807000000.0,
         "endDate": "2024-09-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 123485000000,
-        "taxProvision": 29749000000,
-        "normalizedIncome": 93736000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 269000000,
-        "stockComp": 11688000000
+        "pretaxIncome": 123485000000.0,
+        "taxProvision": 29749000000.0,
+        "normalizedIncome": 93736000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 269000000.0,
+        "stockComp": 11688000000.0
       },
       {
         "period": "2025",
-        "revenue": 416161000000,
-        "netIncome": 112010000000,
-        "opIncome": 133050000000,
+        "revenue": 416161000000.0,
+        "netIncome": 112010000000.0,
+        "opIncome": 133050000000.0,
         "eps": 7.46,
         "ocf": 111482000000,
         "capex": -12715000000,
-        "fcf": 98767000000,
+        "fcf": 98767000000.0,
         "endDate": "2025-09-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 132729000000,
-        "taxProvision": 20719000000,
-        "normalizedIncome": 112010000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -321000000,
-        "stockComp": 12863000000
+        "pretaxIncome": 132729000000.0,
+        "taxProvision": 20719000000.0,
+        "normalizedIncome": 112010000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -321000000.0,
+        "stockComp": 12863000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 89498000000,
-        "netIncome": 22956000000,
-        "opIncome": 26969000000,
+        "revenue": 89498000000.0,
+        "netIncome": 22956000000.0,
+        "opIncome": 26969000000.0,
         "endDate": "2023-09-30"
       },
       {
         "period": "Q4'23",
-        "revenue": 119575000000,
-        "netIncome": 33916000000,
-        "opIncome": 40373000000,
+        "revenue": 119575000000.0,
+        "netIncome": 33916000000.0,
+        "opIncome": 40373000000.0,
         "endDate": "2023-12-30",
         "eps": 2.18
       },
       {
         "period": "Q1'24",
-        "revenue": 90753000000,
-        "netIncome": 23636000000,
-        "opIncome": 27900000000,
+        "revenue": 90753000000.0,
+        "netIncome": 23636000000.0,
+        "opIncome": 27900000000.0,
         "endDate": "2024-03-30",
         "eps": 1.53
       },
       {
         "period": "Q2'24",
-        "revenue": 85777000000,
-        "netIncome": 21448000000,
-        "opIncome": 25352000000,
+        "revenue": 85777000000.0,
+        "netIncome": 21448000000.0,
+        "opIncome": 25352000000.0,
         "endDate": "2024-06-29",
         "eps": 1.4
       },
       {
         "period": "Q3'24",
-        "revenue": 94930000000,
-        "netIncome": 14736000000,
-        "opIncome": 29591000000,
+        "revenue": 94930000000.0,
+        "netIncome": 14736000000.0,
+        "opIncome": 29591000000.0,
         "endDate": "2024-09-28"
       },
       {
         "period": "Q4'24",
-        "revenue": 124300000000,
-        "netIncome": 36330000000,
-        "opIncome": 42832000000,
+        "revenue": 124300000000.0,
+        "netIncome": 36330000000.0,
+        "opIncome": 42832000000.0,
         "endDate": "2024-12-28",
         "eps": 2.4
       },
       {
         "period": "Q1'25",
-        "revenue": 95359000000,
-        "netIncome": 24780000000,
-        "opIncome": 29589000000,
+        "revenue": 95359000000.0,
+        "netIncome": 24780000000.0,
+        "opIncome": 29589000000.0,
         "endDate": "2025-03-29",
         "eps": 1.65
       },
       {
         "period": "Q2'25",
-        "revenue": 94036000000,
-        "netIncome": 23434000000,
-        "opIncome": 28202000000,
+        "revenue": 94036000000.0,
+        "netIncome": 23434000000.0,
+        "opIncome": 28202000000.0,
         "endDate": "2025-06-28",
         "eps": 1.57,
-        "ocf": 27867000000,
-        "capex": -3462000000,
-        "fcf": 24405000000,
-        "pretaxIncome": 28031000000,
-        "taxProvision": 4597000000,
-        "normalizedIncome": 23434000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -171000000,
-        "stockComp": 3168000000
+        "ocf": 27867000000.0,
+        "capex": -3462000000.0,
+        "fcf": 24405000000.0,
+        "pretaxIncome": 28031000000.0,
+        "taxProvision": 4597000000.0,
+        "normalizedIncome": 23434000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -171000000.0,
+        "stockComp": 3168000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 102466000000,
-        "netIncome": 27466000000,
-        "opIncome": 32427000000,
+        "revenue": 102466000000.0,
+        "netIncome": 27466000000.0,
+        "opIncome": 32427000000.0,
         "endDate": "2025-09-27",
         "eps": 1.85,
-        "ocf": 29728000000,
-        "capex": -3242000000,
-        "fcf": 26486000000,
-        "pretaxIncome": 32804000000,
-        "taxProvision": 5338000000,
-        "normalizedIncome": 27466000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 377000000,
-        "stockComp": 3183000000
+        "ocf": 29728000000.0,
+        "capex": -3242000000.0,
+        "fcf": 26486000000.0,
+        "pretaxIncome": 32804000000.0,
+        "taxProvision": 5338000000.0,
+        "normalizedIncome": 27466000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 377000000.0,
+        "stockComp": 3183000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 143756000000,
-        "netIncome": 42097000000,
-        "opIncome": 50852000000,
+        "revenue": 143756000000.0,
+        "netIncome": 42097000000.0,
+        "opIncome": 50852000000.0,
         "endDate": "2025-12-27",
         "eps": 2.84,
-        "ocf": 53925000000,
-        "capex": -2373000000,
-        "fcf": 51552000000,
-        "pretaxIncome": 51002000000,
-        "taxProvision": 8905000000,
-        "normalizedIncome": 42097000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 150000000,
-        "stockComp": 3594000000
+        "ocf": 53925000000.0,
+        "capex": -2373000000.0,
+        "fcf": 51552000000.0,
+        "pretaxIncome": 51002000000.0,
+        "taxProvision": 8905000000.0,
+        "normalizedIncome": 42097000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 150000000.0,
+        "stockComp": 3594000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 111184000000,
-        "netIncome": 29578000000,
-        "opIncome": 35885000000,
+        "revenue": 111184000000.0,
+        "netIncome": 29578000000.0,
+        "opIncome": 35885000000.0,
         "endDate": "2026-03-28",
         "eps": 2.01,
-        "ocf": 28702000000,
-        "capex": -1971000000,
-        "fcf": 26731000000,
-        "pretaxIncome": 35833000000,
-        "taxProvision": 6255000000,
-        "normalizedIncome": 29578000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -52000000,
-        "stockComp": 3528000000
+        "ocf": 28702000000.0,
+        "capex": -1971000000.0,
+        "fcf": 26731000000.0,
+        "pretaxIncome": 35833000000.0,
+        "taxProvision": 6255000000.0,
+        "normalizedIncome": 29578000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -52000000.0,
+        "stockComp": 3528000000.0
       },
       {
         "period": "Q2'26",
@@ -669,15 +669,15 @@ const FINANCIALS_DATA = {
         "opIncome": 35695000000,
         "eps": 2.02,
         "endDate": "2026-06-27",
-        "ocf": 34369000000,
-        "capex": -2455000000,
-        "fcf": 31914000000,
-        "pretaxIncome": 36267000000,
-        "taxProvision": 6478000000,
-        "normalizedIncome": 29789000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 572000000,
-        "stockComp": 3401000000
+        "ocf": 34369000000.0,
+        "capex": -2455000000.0,
+        "fcf": 31914000000.0,
+        "pretaxIncome": 36267000000.0,
+        "taxProvision": 6478000000.0,
+        "normalizedIncome": 29789000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 572000000.0,
+        "stockComp": 3401000000.0
       }
     ],
     "_currency": "USD",
@@ -687,105 +687,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-16",
-        "shares": 17001802000
+        "shares": 17001802000.0
       },
       {
         "date": "2021-01-15",
-        "shares": 16788096000
+        "shares": 16788096000.0
       },
       {
         "date": "2021-04-16",
-        "shares": 16687631000
+        "shares": 16687631000.0
       },
       {
         "date": "2021-07-16",
-        "shares": 16530166000
+        "shares": 16530166000.0
       },
       {
         "date": "2021-10-15",
-        "shares": 16406397000
+        "shares": 16406397000.0
       },
       {
         "date": "2022-01-14",
-        "shares": 16319441000
+        "shares": 16319441000.0
       },
       {
         "date": "2022-04-15",
-        "shares": 16185181000
+        "shares": 16185181000.0
       },
       {
         "date": "2022-07-15",
-        "shares": 16070752000
+        "shares": 16070752000.0
       },
       {
         "date": "2022-10-14",
-        "shares": 15908118000
+        "shares": 15908118000.0
       },
       {
         "date": "2023-01-20",
-        "shares": 15821946000
+        "shares": 15821946000.0
       },
       {
         "date": "2023-04-21",
-        "shares": 15728702000
+        "shares": 15728702000.0
       },
       {
         "date": "2023-07-21",
-        "shares": 15634232000
+        "shares": 15634232000.0
       },
       {
         "date": "2023-10-20",
-        "shares": 15552752000
+        "shares": 15552752000.0
       },
       {
         "date": "2024-01-19",
-        "shares": 15441881000
+        "shares": 15441881000.0
       },
       {
         "date": "2024-04-19",
-        "shares": 15334082000
+        "shares": 15334082000.0
       },
       {
         "date": "2024-07-19",
-        "shares": 15204137000
+        "shares": 15204137000.0
       },
       {
         "date": "2024-10-18",
-        "shares": 15115823000
+        "shares": 15115823000.0
       },
       {
         "date": "2025-01-17",
-        "shares": 15022073000
+        "shares": 15022073000.0
       },
       {
         "date": "2025-04-18",
-        "shares": 14935826000
+        "shares": 14935826000.0
       },
       {
         "date": "2025-07-18",
-        "shares": 14840390000
+        "shares": 14840390000.0
       },
       {
         "date": "2025-10-17",
-        "shares": 14776353000
+        "shares": 14776353000.0
       },
       {
         "date": "2026-01-16",
-        "shares": 14681140000
+        "shares": 14681140000.0
       },
       {
         "date": "2026-04-17",
-        "shares": 14687356000
+        "shares": 14687356000.0
       },
       {
         "date": "2026-07-17",
-        "shares": 14594180000
+        "shares": 14594180000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -810,8 +810,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GOOGL": {
@@ -830,21 +830,21 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 161857000000,
-        "netIncome": 34343000000,
-        "opIncome": 34231000000,
+        "revenue": 161857000000.0,
+        "netIncome": 34343000000.0,
+        "opIncome": 34231000000.0,
         "eps": 2.4579999999999997,
         "ocf": 54520000000,
-        "capex": -23548000000,
-        "fcf": 30972000000,
+        "capex": -23548000000.0,
+        "fcf": 30972000000.0,
         "endDate": "2019-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 182527000000,
-        "netIncome": 40269000000,
-        "opIncome": 41224000000,
+        "revenue": 182527000000.0,
+        "netIncome": 40269000000.0,
+        "opIncome": 41224000000.0,
         "eps": 2.93,
         "ocf": 65124000000,
         "capex": -22281000000,
@@ -854,9 +854,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 257637000000,
-        "netIncome": 76033000000,
-        "opIncome": 78714000000,
+        "revenue": 257637000000.0,
+        "netIncome": 76033000000.0,
+        "opIncome": 78714000000.0,
         "eps": 5.61,
         "ocf": 91652000000,
         "capex": -24640000000,
@@ -866,224 +866,224 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 282836000000,
-        "netIncome": 59972000000,
-        "opIncome": 74842000000,
+        "revenue": 282836000000.0,
+        "netIncome": 59972000000.0,
+        "opIncome": 74842000000.0,
         "eps": 4.56,
         "ocf": 91495000000,
         "capex": -31485000000,
-        "fcf": 60010000000,
+        "fcf": 60010000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 71328000000,
-        "taxProvision": 11356000000,
-        "normalizedIncome": 65163493000,
-        "unusualItems": -6173000000,
-        "unusualItemsExGoodwill": -6173000000,
-        "unusualTaxEffect": -981507000,
-        "specialIncomeCharges": -337000000,
-        "otherNonOperating": 1179000000,
-        "stockComp": 19362000000
+        "pretaxIncome": 71328000000.0,
+        "taxProvision": 11356000000.0,
+        "normalizedIncome": 65163493000.0,
+        "unusualItems": -6173000000.0,
+        "unusualItemsExGoodwill": -6173000000.0,
+        "unusualTaxEffect": -981507000.0,
+        "specialIncomeCharges": -337000000.0,
+        "otherNonOperating": 1179000000.0,
+        "stockComp": 19362000000.0
       },
       {
         "period": "2023",
-        "revenue": 307394000000,
-        "netIncome": 73795000000,
-        "opIncome": 84293000000,
+        "revenue": 307394000000.0,
+        "netIncome": 73795000000.0,
+        "opIncome": 84293000000.0,
         "eps": 5.8,
         "ocf": 101746000000,
         "capex": -32251000000,
-        "fcf": 69495000000,
+        "fcf": 69495000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 85717000000,
-        "taxProvision": 11922000000,
-        "normalizedIncome": 75569521000,
-        "unusualItems": -2061000000,
-        "unusualItemsExGoodwill": -2061000000,
-        "unusualTaxEffect": -286479000,
-        "specialIncomeCharges": -628000000,
-        "otherNonOperating": 556000000,
-        "stockComp": 22460000000
+        "pretaxIncome": 85717000000.0,
+        "taxProvision": 11922000000.0,
+        "normalizedIncome": 75569521000.0,
+        "unusualItems": -2061000000.0,
+        "unusualItemsExGoodwill": -2061000000.0,
+        "unusualTaxEffect": -286479000.0,
+        "specialIncomeCharges": -628000000.0,
+        "otherNonOperating": 556000000.0,
+        "stockComp": 22460000000.0
       },
       {
         "period": "2024",
-        "revenue": 350018000000,
-        "netIncome": 100118000000,
-        "opIncome": 112390000000,
+        "revenue": 350018000000.0,
+        "netIncome": 100118000000.0,
+        "opIncome": 112390000000.0,
         "eps": 8.04,
         "ocf": 125299000000,
         "capex": -52535000000,
-        "fcf": 72764000000,
+        "fcf": 72764000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 119815000000,
-        "taxProvision": 19697000000,
-        "normalizedIncome": 98226968000,
-        "unusualItems": 2262000000,
-        "unusualItemsExGoodwill": 2262000000,
-        "unusualTaxEffect": 370968000,
-        "specialIncomeCharges": -188000000,
-        "otherNonOperating": 1137000000,
-        "stockComp": 22785000000
+        "pretaxIncome": 119815000000.0,
+        "taxProvision": 19697000000.0,
+        "normalizedIncome": 98226968000.0,
+        "unusualItems": 2262000000.0,
+        "unusualItemsExGoodwill": 2262000000.0,
+        "unusualTaxEffect": 370968000.0,
+        "specialIncomeCharges": -188000000.0,
+        "otherNonOperating": 1137000000.0,
+        "stockComp": 22785000000.0
       },
       {
         "period": "2025",
-        "revenue": 402836000000,
-        "netIncome": 132170000000,
-        "opIncome": 129039000000,
+        "revenue": 402836000000.0,
+        "netIncome": 132170000000.0,
+        "opIncome": 129039000000.0,
         "eps": 10.81,
         "ocf": 164713000000,
         "capex": -91447000000,
-        "fcf": 73266000000,
+        "fcf": 73266000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 158826000000,
-        "taxProvision": 26656000000,
-        "normalizedIncome": 112003984000,
-        "unusualItems": 24238000000,
-        "unusualItemsExGoodwill": 24238000000,
-        "unusualTaxEffect": 4071984000,
-        "specialIncomeCharges": 281000000,
-        "otherNonOperating": 1667000000,
-        "stockComp": 24953000000
+        "pretaxIncome": 158826000000.0,
+        "taxProvision": 26656000000.0,
+        "normalizedIncome": 112003984000.0,
+        "unusualItems": 24238000000.0,
+        "unusualItemsExGoodwill": 24238000000.0,
+        "unusualTaxEffect": 4071984000.0,
+        "specialIncomeCharges": 281000000.0,
+        "otherNonOperating": 1667000000.0,
+        "stockComp": 24953000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 76693000000,
-        "netIncome": 19689000000,
-        "opIncome": 21343000000,
+        "revenue": 76693000000.0,
+        "netIncome": 19689000000.0,
+        "opIncome": 21343000000.0,
         "endDate": "2023-09-30",
         "eps": 1.55
       },
       {
         "period": "Q4'23",
-        "revenue": 86310000000,
-        "netIncome": 20687000000,
-        "opIncome": 23697000000,
+        "revenue": 86310000000.0,
+        "netIncome": 20687000000.0,
+        "opIncome": 23697000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 80539000000,
-        "netIncome": 23662000000,
-        "opIncome": 25472000000,
+        "revenue": 80539000000.0,
+        "netIncome": 23662000000.0,
+        "opIncome": 25472000000.0,
         "endDate": "2024-03-31",
         "eps": 1.89
       },
       {
         "period": "Q2'24",
-        "revenue": 84742000000,
-        "netIncome": 23619000000,
-        "opIncome": 27425000000,
+        "revenue": 84742000000.0,
+        "netIncome": 23619000000.0,
+        "opIncome": 27425000000.0,
         "endDate": "2024-06-30",
         "eps": 1.89
       },
       {
         "period": "Q3'24",
-        "revenue": 88268000000,
-        "netIncome": 26301000000,
-        "opIncome": 28521000000,
+        "revenue": 88268000000.0,
+        "netIncome": 26301000000.0,
+        "opIncome": 28521000000.0,
         "endDate": "2024-09-30",
         "eps": 2.12
       },
       {
         "period": "Q4'24",
-        "revenue": 96469000000,
-        "netIncome": 26536000000,
-        "opIncome": 30972000000,
+        "revenue": 96469000000.0,
+        "netIncome": 26536000000.0,
+        "opIncome": 30972000000.0,
         "endDate": "2024-12-31",
-        "specialIncomeCharges": -87000000
+        "specialIncomeCharges": -87000000.0
       },
       {
         "period": "Q1'25",
-        "revenue": 90234000000,
-        "netIncome": 34540000000,
-        "opIncome": 30606000000,
+        "revenue": 90234000000.0,
+        "netIncome": 34540000000.0,
+        "opIncome": 30606000000.0,
         "endDate": "2025-03-31",
         "eps": 2.81,
-        "specialIncomeCharges": -22000000
+        "specialIncomeCharges": -22000000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 96428000000,
-        "netIncome": 28196000000,
-        "opIncome": 31271000000,
+        "revenue": 96428000000.0,
+        "netIncome": 28196000000.0,
+        "opIncome": 31271000000.0,
         "endDate": "2025-06-30",
         "eps": 2.31,
-        "ocf": 27747000000,
-        "capex": -22446000000,
-        "fcf": 5301000000,
-        "pretaxIncome": 33933000000,
-        "taxProvision": 5737000000,
+        "ocf": 27747000000.0,
+        "capex": -22446000000.0,
+        "fcf": 5301000000.0,
+        "pretaxIncome": 33933000000.0,
+        "taxProvision": 5737000000.0,
         "normalizedIncome": 27047652609.55412,
-        "unusualItems": 1382000000,
-        "unusualItemsExGoodwill": 1382000000,
+        "unusualItems": 1382000000.0,
+        "unusualItemsExGoodwill": 1382000000.0,
         "unusualTaxEffect": 233652609.554121,
-        "specialIncomeCharges": 419000000,
-        "otherNonOperating": 72000000,
-        "stockComp": 5998000000
+        "specialIncomeCharges": 419000000.0,
+        "otherNonOperating": 72000000.0,
+        "stockComp": 5998000000.0
       },
       {
         "period": "Q3'25",
         "revenue": 102346000000,
-        "netIncome": 34979000000,
-        "opIncome": 31228000000,
+        "netIncome": 34979000000.0,
+        "opIncome": 31228000000.0,
         "endDate": "2025-09-30",
         "eps": 2.87,
-        "ocf": 48414000000,
-        "capex": -23953000000,
-        "fcf": 24461000000,
-        "pretaxIncome": 43987000000,
-        "taxProvision": 9008000000,
-        "normalizedIncome": 26462165000,
-        "unusualItems": 10713000000,
-        "unusualItemsExGoodwill": 10713000000,
-        "unusualTaxEffect": 2196165000,
-        "specialIncomeCharges": -30000000,
-        "otherNonOperating": 1143000000,
-        "stockComp": 6368000000
+        "ocf": 48414000000.0,
+        "capex": -23953000000.0,
+        "fcf": 24461000000.0,
+        "pretaxIncome": 43987000000.0,
+        "taxProvision": 9008000000.0,
+        "normalizedIncome": 26462165000.0,
+        "unusualItems": 10713000000.0,
+        "unusualItemsExGoodwill": 10713000000.0,
+        "unusualTaxEffect": 2196165000.0,
+        "specialIncomeCharges": -30000000.0,
+        "otherNonOperating": 1143000000.0,
+        "stockComp": 6368000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 113829000000,
-        "netIncome": 34455000000,
-        "opIncome": 35934000000,
+        "revenue": 113829000000.0,
+        "netIncome": 34455000000.0,
+        "opIncome": 35934000000.0,
         "endDate": "2025-12-31",
         "eps": 2.82,
-        "ocf": 52402000000,
-        "capex": -27851000000,
-        "fcf": 24551000000,
-        "pretaxIncome": 39117000000,
-        "taxProvision": 4662000000,
+        "ocf": 52402000000.0,
+        "capex": -27851000000.0,
+        "fcf": 24551000000.0,
+        "pretaxIncome": 39117000000.0,
+        "taxProvision": 4662000000.0,
         "normalizedIncome": 32438805123.092262,
-        "unusualItems": 2289000000,
-        "unusualItemsExGoodwill": 2289000000,
+        "unusualItems": 2289000000.0,
+        "unusualItemsExGoodwill": 2289000000.0,
         "unusualTaxEffect": 272805123.092262,
-        "specialIncomeCharges": -86000000,
-        "otherNonOperating": 69000000,
-        "stockComp": 7071000000
+        "specialIncomeCharges": -86000000.0,
+        "otherNonOperating": 69000000.0,
+        "stockComp": 7071000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 109896000000,
-        "netIncome": 62578000000,
-        "opIncome": 39696000000,
+        "revenue": 109896000000.0,
+        "netIncome": 62578000000.0,
+        "opIncome": 39696000000.0,
         "endDate": "2026-03-31",
         "eps": 5.11,
-        "ocf": 45790000000,
-        "capex": -35674000000,
-        "fcf": 10116000000,
-        "pretaxIncome": 77412000000,
-        "taxProvision": 14834000000,
+        "ocf": 45790000000.0,
+        "capex": -35674000000.0,
+        "fcf": 10116000000.0,
+        "pretaxIncome": 77412000000.0,
+        "taxProvision": 14834000000.0,
         "normalizedIncome": 32708508189.94471,
-        "unusualItems": 36950000000,
-        "unusualItemsExGoodwill": 36950000000,
+        "unusualItems": 36950000000.0,
+        "unusualItemsExGoodwill": 36950000000.0,
         "unusualTaxEffect": 7080508189.944711,
-        "otherNonOperating": -142000000,
-        "stockComp": 6751000000
+        "otherNonOperating": -142000000.0,
+        "stockComp": 6751000000.0
       },
       {
         "period": "Q2'26",
@@ -1092,26 +1092,26 @@ const FINANCIALS_DATA = {
         "opIncome": 40770000000,
         "eps": 9.11,
         "endDate": "2026-06-30",
-        "ocf": 39069000000,
-        "capex": -44924000000,
-        "fcf": -5855000000,
-        "pretaxIncome": 138753000000,
-        "taxProvision": 26560000000,
-        "normalizedIncome": 32232249000,
-        "unusualItems": 98839000000,
-        "unusualItemsExGoodwill": 98839000000,
-        "unusualTaxEffect": 18878249000,
-        "otherNonOperating": -973000000,
-        "stockComp": 7957000000
+        "ocf": 39069000000.0,
+        "capex": -44924000000.0,
+        "fcf": -5855000000.0,
+        "pretaxIncome": 138753000000.0,
+        "taxProvision": 26560000000.0,
+        "normalizedIncome": 32232249000.0,
+        "unusualItems": 98839000000.0,
+        "unusualItemsExGoodwill": 98839000000.0,
+        "unusualTaxEffect": 18878249000.0,
+        "otherNonOperating": -973000000.0,
+        "stockComp": 7957000000.0
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1136,15 +1136,15 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MSFT": {
     "annual": [
       {
         "period": "2019",
-        "revenue": 125843000000,
+        "revenue": 125843000000.0,
         "netIncome": 39240000000,
         "opIncome": 42959000000,
         "eps": 5.06,
@@ -1156,9 +1156,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 143015000000,
-        "netIncome": 44281000000,
-        "opIncome": 52959000000,
+        "revenue": 143015000000.0,
+        "netIncome": 44281000000.0,
+        "opIncome": 52959000000.0,
         "eps": 5.76,
         "ocf": 60675000000,
         "capex": -15441000000,
@@ -1168,9 +1168,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 168088000000,
-        "netIncome": 61271000000,
-        "opIncome": 69916000000,
+        "revenue": 168088000000.0,
+        "netIncome": 61271000000.0,
+        "opIncome": 69916000000.0,
         "eps": 8.05,
         "ocf": 76740000000,
         "capex": -20622000000,
@@ -1180,9 +1180,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 198270000000,
-        "netIncome": 72738000000,
-        "opIncome": 83383000000,
+        "revenue": 198270000000.0,
+        "netIncome": 72738000000.0,
+        "opIncome": 83383000000.0,
         "eps": 9.65,
         "ocf": 89035000000,
         "capex": -23886000000,
@@ -1192,66 +1192,66 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2023",
-        "revenue": 211915000000,
-        "netIncome": 72361000000,
-        "opIncome": 88523000000,
+        "revenue": 211915000000.0,
+        "netIncome": 72361000000.0,
+        "opIncome": 88523000000.0,
         "eps": 9.68,
         "ocf": 87582000000,
         "capex": -28107000000,
-        "fcf": 59475000000,
+        "fcf": 59475000000.0,
         "endDate": "2023-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 89311000000,
-        "taxProvision": 16950000000,
-        "normalizedIncome": 72373150000,
-        "unusualItems": -15000000,
-        "unusualItemsExGoodwill": -15000000,
-        "unusualTaxEffect": -2850000,
-        "specialIncomeCharges": -30000000,
-        "otherNonOperating": -223000000,
-        "stockComp": 9611000000
+        "pretaxIncome": 89311000000.0,
+        "taxProvision": 16950000000.0,
+        "normalizedIncome": 72373150000.0,
+        "unusualItems": -15000000.0,
+        "unusualItemsExGoodwill": -15000000.0,
+        "unusualTaxEffect": -2850000.0,
+        "specialIncomeCharges": -30000000.0,
+        "otherNonOperating": -223000000.0,
+        "stockComp": 9611000000.0
       },
       {
         "period": "2024",
-        "revenue": 245122000000,
-        "netIncome": 88136000000,
-        "opIncome": 109433000000,
+        "revenue": 245122000000.0,
+        "netIncome": 88136000000.0,
+        "opIncome": 109433000000.0,
         "eps": 11.8,
         "ocf": 118548000000,
         "capex": -44477000000,
-        "fcf": 74071000000,
+        "fcf": 74071000000.0,
         "endDate": "2024-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 107787000000,
-        "taxProvision": 19651000000,
+        "pretaxIncome": 107787000000.0,
+        "taxProvision": 19651000000.0,
         "normalizedIncome": 88584910016.97794,
-        "unusualItems": -549000000,
-        "unusualItemsExGoodwill": -549000000,
+        "unusualItems": -549000000.0,
+        "unusualItemsExGoodwill": -549000000.0,
         "unusualTaxEffect": -100089983.022071,
-        "specialIncomeCharges": -206000000,
-        "otherNonOperating": -1319000000,
-        "stockComp": 10734000000
+        "specialIncomeCharges": -206000000.0,
+        "otherNonOperating": -1319000000.0,
+        "stockComp": 10734000000.0
       },
       {
         "period": "2025",
-        "revenue": 281724000000,
-        "netIncome": 101832000000,
-        "opIncome": 128528000000,
+        "revenue": 281724000000.0,
+        "netIncome": 101832000000.0,
+        "opIncome": 128528000000.0,
         "eps": 13.64,
         "ocf": 136162000000,
         "capex": -64551000000,
-        "fcf": 71611000000,
+        "fcf": 71611000000.0,
         "endDate": "2025-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 123627000000,
-        "taxProvision": 21795000000,
+        "pretaxIncome": 123627000000.0,
+        "taxProvision": 21795000000.0,
         "normalizedIncome": 102192782159.23706,
-        "unusualItems": -438000000,
-        "unusualItemsExGoodwill": -438000000,
+        "unusualItems": -438000000.0,
+        "unusualItemsExGoodwill": -438000000.0,
         "unusualTaxEffect": -77217840.76294,
-        "specialIncomeCharges": -943000000,
-        "otherNonOperating": -4725000000,
-        "stockComp": 11974000000
+        "specialIncomeCharges": -943000000.0,
+        "otherNonOperating": -4725000000.0,
+        "stockComp": 11974000000.0
       },
       {
         "period": "2026",
@@ -1261,26 +1261,26 @@ const FINANCIALS_DATA = {
         "eps": 17.95,
         "ocf": 182935000000,
         "capex": -115948000000,
-        "fcf": 66987000000,
+        "fcf": 66987000000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-06-30",
-        "pretaxIncome": 165934000000,
-        "taxProvision": 32185000000,
-        "normalizedIncome": 129134650000,
-        "unusualItems": 5725000000,
-        "unusualItemsExGoodwill": 5725000000,
-        "unusualTaxEffect": 1110650000,
-        "specialIncomeCharges": -178000000,
-        "otherNonOperating": 4722000000,
-        "stockComp": 12405000000
+        "pretaxIncome": 165934000000.0,
+        "taxProvision": 32185000000.0,
+        "normalizedIncome": 129134650000.0,
+        "unusualItems": 5725000000.0,
+        "unusualItemsExGoodwill": 5725000000.0,
+        "unusualTaxEffect": 1110650000.0,
+        "specialIncomeCharges": -178000000.0,
+        "otherNonOperating": 4722000000.0,
+        "stockComp": 12405000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 56517000000,
-        "netIncome": 22291000000,
-        "opIncome": 26895000000,
+        "revenue": 56517000000.0,
+        "netIncome": 22291000000.0,
+        "opIncome": 26895000000.0,
         "endDate": "2023-09-30",
         "eps": 2.99
       },
@@ -1309,107 +1309,107 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 65585000000,
-        "netIncome": 24667000000,
-        "opIncome": 30552000000,
+        "revenue": 65585000000.0,
+        "netIncome": 24667000000.0,
+        "opIncome": 30552000000.0,
         "endDate": "2024-09-30",
         "eps": 3.3
       },
       {
         "period": "Q4'24",
-        "revenue": 69632000000,
-        "netIncome": 24108000000,
-        "opIncome": 31653000000,
+        "revenue": 69632000000.0,
+        "netIncome": 24108000000.0,
+        "opIncome": 31653000000.0,
         "endDate": "2024-12-31",
         "eps": 3.23
       },
       {
         "period": "Q1'25",
-        "revenue": 70066000000,
-        "netIncome": 25824000000,
-        "opIncome": 32000000000,
+        "revenue": 70066000000.0,
+        "netIncome": 25824000000.0,
+        "opIncome": 32000000000.0,
         "endDate": "2025-03-31",
         "eps": 3.46
       },
       {
         "period": "Q2'25",
-        "revenue": 76441000000,
-        "netIncome": 27233000000,
-        "opIncome": 34323000000,
+        "revenue": 76441000000.0,
+        "netIncome": 27233000000.0,
+        "opIncome": 34323000000.0,
         "endDate": "2025-06-30",
         "eps": 3.65,
-        "ocf": 42647000000,
-        "capex": -17079000000,
-        "fcf": 25568000000,
-        "pretaxIncome": 32616000000,
-        "taxProvision": 5383000000,
+        "ocf": 42647000000.0,
+        "capex": -17079000000.0,
+        "fcf": 25568000000.0,
+        "pretaxIncome": 32616000000.0,
+        "taxProvision": 5383000000.0,
         "normalizedIncome": 27230495125.09198,
-        "unusualItems": 3000000,
-        "unusualItemsExGoodwill": 3000000,
+        "unusualItems": 3000000.0,
+        "unusualItemsExGoodwill": 3000000.0,
         "unusualTaxEffect": 495125.091979,
-        "specialIncomeCharges": -45000000,
-        "otherNonOperating": -1864000000,
-        "stockComp": 3073000000
+        "specialIncomeCharges": -45000000.0,
+        "otherNonOperating": -1864000000.0,
+        "stockComp": 3073000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 77673000000,
-        "netIncome": 27747000000,
-        "opIncome": 37961000000,
+        "revenue": 77673000000.0,
+        "netIncome": 27747000000.0,
+        "opIncome": 37961000000.0,
         "endDate": "2025-09-30",
         "eps": 3.72,
-        "ocf": 45057000000,
-        "capex": -19394000000,
-        "fcf": 25663000000,
-        "pretaxIncome": 34301000000,
-        "taxProvision": 6554000000,
-        "normalizedIncome": 26949150000,
-        "unusualItems": 985000000,
-        "unusualItemsExGoodwill": 985000000,
-        "unusualTaxEffect": 187150000,
-        "specialIncomeCharges": -14000000,
-        "otherNonOperating": -4923000000,
-        "stockComp": 2983000000
+        "ocf": 45057000000.0,
+        "capex": -19394000000.0,
+        "fcf": 25663000000.0,
+        "pretaxIncome": 34301000000.0,
+        "taxProvision": 6554000000.0,
+        "normalizedIncome": 26949150000.0,
+        "unusualItems": 985000000.0,
+        "unusualItemsExGoodwill": 985000000.0,
+        "unusualTaxEffect": 187150000.0,
+        "specialIncomeCharges": -14000000.0,
+        "otherNonOperating": -4923000000.0,
+        "stockComp": 2983000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 81273000000,
-        "netIncome": 38458000000,
-        "opIncome": 38275000000,
+        "revenue": 81273000000.0,
+        "netIncome": 38458000000.0,
+        "opIncome": 38275000000.0,
         "endDate": "2025-12-31",
         "eps": 5.16,
-        "ocf": 35758000000,
-        "capex": -29876000000,
-        "fcf": 5882000000,
-        "pretaxIncome": 48246000000,
-        "taxProvision": 9788000000,
-        "normalizedIncome": 38197200000,
-        "unusualItems": 326000000,
-        "unusualItemsExGoodwill": 326000000,
-        "unusualTaxEffect": 65200000,
-        "specialIncomeCharges": -59000000,
-        "otherNonOperating": 9541000000,
-        "stockComp": 3219000000
+        "ocf": 35758000000.0,
+        "capex": -29876000000.0,
+        "fcf": 5882000000.0,
+        "pretaxIncome": 48246000000.0,
+        "taxProvision": 9788000000.0,
+        "normalizedIncome": 38197200000.0,
+        "unusualItems": 326000000.0,
+        "unusualItemsExGoodwill": 326000000.0,
+        "unusualTaxEffect": 65200000.0,
+        "specialIncomeCharges": -59000000.0,
+        "otherNonOperating": 9541000000.0,
+        "stockComp": 3219000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 82886000000,
-        "netIncome": 31778000000,
-        "opIncome": 38398000000,
+        "revenue": 82886000000.0,
+        "netIncome": 31778000000.0,
+        "opIncome": 38398000000.0,
         "endDate": "2026-03-31",
         "eps": 4.27,
-        "ocf": 46679000000,
-        "capex": -30876000000,
-        "fcf": 15803000000,
-        "pretaxIncome": 39340000000,
-        "taxProvision": 7562000000,
-        "normalizedIncome": 30578390000,
-        "unusualItems": 1481000000,
-        "unusualItemsExGoodwill": 1481000000,
-        "unusualTaxEffect": 281390000,
-        "specialIncomeCharges": -37000000,
-        "otherNonOperating": -491000000,
-        "stockComp": 3081000000
+        "ocf": 46679000000.0,
+        "capex": -30876000000.0,
+        "fcf": 15803000000.0,
+        "pretaxIncome": 39340000000.0,
+        "taxProvision": 7562000000.0,
+        "normalizedIncome": 30578390000.0,
+        "unusualItems": 1481000000.0,
+        "unusualItemsExGoodwill": 1481000000.0,
+        "unusualTaxEffect": 281390000.0,
+        "specialIncomeCharges": -37000000.0,
+        "otherNonOperating": -491000000.0,
+        "stockComp": 3081000000.0
       },
       {
         "period": "Q2'26",
@@ -1418,18 +1418,18 @@ const FINANCIALS_DATA = {
         "opIncome": 40603000000,
         "endDate": "2026-06-30",
         "eps": 4.81,
-        "ocf": 55441000000,
-        "capex": -35802000000,
-        "fcf": 19639000000,
-        "pretaxIncome": 44047000000,
-        "taxProvision": 8281000000,
+        "ocf": 55441000000.0,
+        "capex": -35802000000.0,
+        "fcf": 19639000000.0,
+        "pretaxIncome": 44047000000.0,
+        "taxProvision": 8281000000.0,
         "normalizedIncome": 33384414920.425907,
-        "unusualItems": 2933000000,
-        "unusualItemsExGoodwill": 2933000000,
+        "unusualItems": 2933000000.0,
+        "unusualItemsExGoodwill": 2933000000.0,
         "unusualTaxEffect": 551414920.425909,
-        "specialIncomeCharges": -68000000,
-        "otherNonOperating": 595000000,
-        "stockComp": 3122000000
+        "specialIncomeCharges": -68000000.0,
+        "otherNonOperating": 595000000.0,
+        "stockComp": 3122000000.0
       }
     ],
     "_currency": "USD",
@@ -1439,105 +1439,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-22",
-        "shares": 7560495969
+        "shares": 7560495969.0
       },
       {
         "date": "2021-01-21",
-        "shares": 7542215767
+        "shares": 7542215767.0
       },
       {
         "date": "2021-04-22",
-        "shares": 7531574551
+        "shares": 7531574551.0
       },
       {
         "date": "2021-07-26",
-        "shares": 7514891248
+        "shares": 7514891248.0
       },
       {
         "date": "2021-10-21",
-        "shares": 7507980444
+        "shares": 7507980444.0
       },
       {
         "date": "2022-01-20",
-        "shares": 7496866428
+        "shares": 7496866428.0
       },
       {
         "date": "2022-04-21",
-        "shares": 7479033135
+        "shares": 7479033135.0
       },
       {
         "date": "2022-07-25",
-        "shares": 7457891872
+        "shares": 7457891872.0
       },
       {
         "date": "2022-10-20",
-        "shares": 7454473144
+        "shares": 7454473144.0
       },
       {
         "date": "2023-01-19",
-        "shares": 7443803533
+        "shares": 7443803533.0
       },
       {
         "date": "2023-04-20",
-        "shares": 7435487575
+        "shares": 7435487575.0
       },
       {
         "date": "2023-07-24",
-        "shares": 7429763722
+        "shares": 7429763722.0
       },
       {
         "date": "2023-10-19",
-        "shares": 7432262329
+        "shares": 7432262329.0
       },
       {
         "date": "2024-01-25",
-        "shares": 7430436229
+        "shares": 7430436229.0
       },
       {
         "date": "2024-04-22",
-        "shares": 7432305794
+        "shares": 7432305794.0
       },
       {
         "date": "2024-07-25",
-        "shares": 7433038381
+        "shares": 7433038381.0
       },
       {
         "date": "2024-10-24",
-        "shares": 7434880776
+        "shares": 7434880776.0
       },
       {
         "date": "2025-01-23",
-        "shares": 7433982235
+        "shares": 7433982235.0
       },
       {
         "date": "2025-04-24",
-        "shares": 7432543865
+        "shares": 7432543865.0
       },
       {
         "date": "2025-07-24",
-        "shares": 7433166379
+        "shares": 7433166379.0
       },
       {
         "date": "2025-10-23",
-        "shares": 7432377655
+        "shares": 7432377655.0
       },
       {
         "date": "2026-01-22",
-        "shares": 7425629076
+        "shares": 7425629076.0
       },
       {
         "date": "2026-04-23",
-        "shares": 7428434704
+        "shares": 7428434704.0
       },
       {
         "date": "2026-07-23",
-        "shares": 7425545491
+        "shares": 7425545491.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1562,8 +1562,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMZN": {
@@ -1582,9 +1582,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 280522000000,
-        "netIncome": 11588000000,
-        "opIncome": 14541000000,
+        "revenue": 280522000000.0,
+        "netIncome": 11588000000.0,
+        "opIncome": 14541000000.0,
         "eps": 1.1505,
         "ocf": 38514000000,
         "capex": -16861000000,
@@ -1594,134 +1594,134 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 386064000000,
-        "netIncome": 21331000000,
-        "opIncome": 22899000000,
+        "revenue": 386064000000.0,
+        "netIncome": 21331000000.0,
+        "opIncome": 22899000000.0,
         "eps": 2.09,
-        "ocf": 66064000000,
-        "capex": -40140000000,
-        "fcf": 25924000000,
+        "ocf": 66064000000.0,
+        "capex": -40140000000.0,
+        "fcf": 25924000000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 469822000000,
-        "netIncome": 33364000000,
-        "opIncome": 24879000000,
+        "revenue": 469822000000.0,
+        "netIncome": 33364000000.0,
+        "opIncome": 24879000000.0,
         "eps": 3.24,
-        "ocf": 46327000000,
-        "capex": -61053000000,
-        "fcf": -14726000000,
+        "ocf": 46327000000.0,
+        "capex": -61053000000.0,
+        "fcf": -14726000000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 513983000000,
-        "netIncome": -2722000000,
-        "opIncome": 12248000000,
+        "revenue": 513983000000.0,
+        "netIncome": -2722000000.0,
+        "opIncome": 12248000000.0,
         "eps": -0.27,
         "ocf": 46752000000,
         "capex": -63645000000,
-        "fcf": -16893000000,
+        "fcf": -16893000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -5936000000,
-        "normalizedIncome": 10128140000,
-        "unusualItems": -16266000000,
-        "unusualItemsExGoodwill": -16266000000,
-        "unusualTaxEffect": -3415860000,
-        "otherNonOperating": -540000000,
-        "stockComp": 19621000000
+        "pretaxIncome": -5936000000.0,
+        "normalizedIncome": 10128140000.0,
+        "unusualItems": -16266000000.0,
+        "unusualItemsExGoodwill": -16266000000.0,
+        "unusualTaxEffect": -3415860000.0,
+        "otherNonOperating": -540000000.0,
+        "stockComp": 19621000000.0
       },
       {
         "period": "2023",
-        "revenue": 574785000000,
-        "netIncome": 30425000000,
-        "opIncome": 36852000000,
+        "revenue": 574785000000.0,
+        "netIncome": 30425000000.0,
+        "opIncome": 36852000000.0,
         "eps": 2.9,
         "ocf": 84946000000,
         "capex": -52729000000,
-        "fcf": 32217000000,
+        "fcf": 32217000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 37557000000,
+        "pretaxIncome": 37557000000.0,
         "normalizedIncome": 29574057432.702293,
-        "unusualItems": 1050000000,
-        "unusualItemsExGoodwill": 1050000000,
+        "unusualItems": 1050000000.0,
+        "unusualItemsExGoodwill": 1050000000.0,
         "unusualTaxEffect": 199057432.702293,
-        "otherNonOperating": -112000000,
-        "stockComp": 24023000000
+        "otherNonOperating": -112000000.0,
+        "stockComp": 24023000000.0
       },
       {
         "period": "2024",
-        "revenue": 637959000000,
-        "netIncome": 59248000000,
-        "opIncome": 68593000000,
+        "revenue": 637959000000.0,
+        "netIncome": 59248000000.0,
+        "opIncome": 68593000000.0,
         "eps": 5.53,
         "ocf": 115877000000,
         "capex": -82999000000,
-        "fcf": 32878000000,
+        "fcf": 32878000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 68614000000,
+        "pretaxIncome": 68614000000.0,
         "normalizedIncome": 60836083539.802376,
-        "unusualItems": -1836000000,
-        "unusualItemsExGoodwill": -1836000000,
+        "unusualItems": -1836000000.0,
+        "unusualItemsExGoodwill": -1836000000.0,
         "unusualTaxEffect": -247916460.197627,
-        "otherNonOperating": -414000000,
-        "stockComp": 22011000000
+        "otherNonOperating": -414000000.0,
+        "stockComp": 22011000000.0
       },
       {
         "period": "2025",
-        "revenue": 716924000000,
-        "netIncome": 77670000000,
-        "opIncome": 79975000000,
+        "revenue": 716924000000.0,
+        "netIncome": 77670000000.0,
+        "opIncome": 79975000000.0,
         "eps": 7.17,
         "ocf": 139514000000,
         "capex": -131819000000,
-        "fcf": 7695000000,
+        "fcf": 7695000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 97311000000,
+        "pretaxIncome": 97311000000.0,
         "normalizedIncome": 65354930994.440506,
-        "unusualItems": 15320000000,
-        "unusualItemsExGoodwill": 15320000000,
+        "unusualItems": 15320000000.0,
+        "unusualItemsExGoodwill": 15320000000.0,
         "unusualTaxEffect": 3004930994.440505,
-        "otherNonOperating": -91000000,
-        "stockComp": 19467000000
+        "otherNonOperating": -91000000.0,
+        "stockComp": 19467000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 143083000000,
-        "netIncome": 9879000000,
-        "opIncome": 11188000000,
+        "revenue": 143083000000.0,
+        "netIncome": 9879000000.0,
+        "opIncome": 11188000000.0,
         "endDate": "2023-09-30",
         "eps": 0.94
       },
       {
         "period": "Q4'23",
-        "revenue": 169961000000,
-        "netIncome": 10624000000,
-        "opIncome": 13209000000,
+        "revenue": 169961000000.0,
+        "netIncome": 10624000000.0,
+        "opIncome": 13209000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 143313000000,
-        "netIncome": 10431000000,
-        "opIncome": 15307000000,
+        "revenue": 143313000000.0,
+        "netIncome": 10431000000.0,
+        "opIncome": 15307000000.0,
         "endDate": "2024-03-31",
         "eps": 0.98
       },
       {
         "period": "Q2'24",
-        "revenue": 147977000000,
-        "netIncome": 13485000000,
-        "opIncome": 14672000000,
+        "revenue": 147977000000.0,
+        "netIncome": 13485000000.0,
+        "opIncome": 14672000000.0,
         "endDate": "2024-06-30",
         "eps": 1.26
       },
@@ -1742,98 +1742,98 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q1'25",
-        "revenue": 155667000000,
-        "netIncome": 17127000000,
-        "opIncome": 18405000000,
+        "revenue": 155667000000.0,
+        "netIncome": 17127000000.0,
+        "opIncome": 18405000000.0,
         "endDate": "2025-03-31",
         "eps": 1.59,
-        "ocf": 17015000000,
-        "capex": -25019000000,
-        "fcf": -8004000000,
-        "pretaxIncome": 21679000000,
-        "taxProvision": 4553000000,
+        "ocf": 17015000000.0,
+        "capex": -25019000000.0,
+        "fcf": -8004000000.0,
+        "pretaxIncome": 21679000000.0,
+        "taxProvision": 4553000000.0,
         "normalizedIncome": 14929272614.050465,
-        "unusualItems": 2782000000,
-        "unusualItemsExGoodwill": 2782000000,
+        "unusualItems": 2782000000.0,
+        "unusualItemsExGoodwill": 2782000000.0,
         "unusualTaxEffect": 584272614.050464,
-        "otherNonOperating": -33000000,
-        "stockComp": 3689000000
+        "otherNonOperating": -33000000.0,
+        "stockComp": 3689000000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 167702000000,
-        "netIncome": 18164000000,
-        "opIncome": 19171000000,
+        "revenue": 167702000000.0,
+        "netIncome": 18164000000.0,
+        "opIncome": 19171000000.0,
         "endDate": "2025-06-30",
         "eps": 1.68,
-        "ocf": 32515000000,
-        "capex": -32183000000,
-        "fcf": 332000000,
-        "pretaxIncome": 20857000000,
-        "taxProvision": 2678000000,
+        "ocf": 32515000000.0,
+        "capex": -32183000000.0,
+        "fcf": 332000000.0,
+        "pretaxIncome": 20857000000.0,
+        "taxProvision": 2678000000.0,
         "normalizedIncome": 17188677518.33917,
-        "unusualItems": 1119000000,
-        "unusualItemsExGoodwill": 1119000000,
+        "unusualItems": 1119000000.0,
+        "unusualItemsExGoodwill": 1119000000.0,
         "unusualTaxEffect": 143677518.339167,
-        "otherNonOperating": -2000000,
-        "stockComp": 6534000000
+        "otherNonOperating": -2000000.0,
+        "stockComp": 6534000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 180169000000,
-        "netIncome": 21187000000,
-        "opIncome": 17422000000,
+        "revenue": 180169000000.0,
+        "netIncome": 21187000000.0,
+        "opIncome": 17422000000.0,
         "endDate": "2025-09-30",
         "eps": 1.95,
-        "ocf": 35525000000,
-        "capex": -35095000000,
-        "fcf": 430000000,
-        "pretaxIncome": 28170000000,
-        "taxProvision": 6910000000,
+        "ocf": 35525000000.0,
+        "capex": -35095000000.0,
+        "fcf": 430000000.0,
+        "pretaxIncome": 28170000000.0,
+        "taxProvision": 6910000000.0,
         "normalizedIncome": 13492796947.106852,
-        "unusualItems": 10195000000,
-        "unusualItemsExGoodwill": 10195000000,
+        "unusualItems": 10195000000.0,
+        "unusualItemsExGoodwill": 10195000000.0,
         "unusualTaxEffect": 2500796947.106851,
-        "otherNonOperating": -9000000,
-        "stockComp": 4847000000
+        "otherNonOperating": -9000000.0,
+        "stockComp": 4847000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 213386000000,
-        "netIncome": 21192000000,
-        "opIncome": 24977000000,
+        "revenue": 213386000000.0,
+        "netIncome": 21192000000.0,
+        "opIncome": 24977000000.0,
         "endDate": "2025-12-31",
         "eps": 1.95,
-        "ocf": 54459000000,
-        "capex": -39522000000,
-        "fcf": 14937000000,
-        "pretaxIncome": 26605000000,
-        "taxProvision": 4946000000,
+        "ocf": 54459000000.0,
+        "capex": -39522000000.0,
+        "fcf": 14937000000.0,
+        "pretaxIncome": 26605000000.0,
+        "taxProvision": 4946000000.0,
         "normalizedIncome": 20195547603.833866,
-        "unusualItems": 1224000000,
-        "unusualItemsExGoodwill": 1224000000,
+        "unusualItems": 1224000000.0,
+        "unusualItemsExGoodwill": 1224000000.0,
         "unusualTaxEffect": 227547603.833866,
-        "otherNonOperating": -47000000,
-        "stockComp": 4397000000
+        "otherNonOperating": -47000000.0,
+        "stockComp": 4397000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 181519000000,
-        "netIncome": 30255000000,
-        "opIncome": 23852000000,
+        "revenue": 181519000000.0,
+        "netIncome": 30255000000.0,
+        "opIncome": 23852000000.0,
         "endDate": "2026-03-31",
         "eps": 2.78,
-        "ocf": 26032000000,
-        "capex": -44203000000,
-        "fcf": -18171000000,
-        "pretaxIncome": 39834000000,
-        "taxProvision": 9560000000,
+        "ocf": 26032000000.0,
+        "capex": -44203000000.0,
+        "fcf": -18171000000.0,
+        "pretaxIncome": 39834000000.0,
+        "taxProvision": 9560000000.0,
         "normalizedIncome": 18338137018.627304,
-        "unusualItems": 15680000000,
-        "unusualItemsExGoodwill": 15680000000,
+        "unusualItems": 15680000000.0,
+        "unusualItemsExGoodwill": 15680000000.0,
         "unusualTaxEffect": 3763137018.627303,
-        "otherNonOperating": -33000000,
-        "stockComp": 4032000000
+        "otherNonOperating": -33000000.0,
+        "stockComp": 4032000000.0
       },
       {
         "period": "Q2'26",
@@ -1851,105 +1851,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-21",
-        "shares": 9533272477
+        "shares": 9533272477.0
       },
       {
         "date": "2021-01-20",
-        "shares": 9567730117
+        "shares": 9567730117.0
       },
       {
         "date": "2021-04-21",
-        "shares": 9582150984
+        "shares": 9582150984.0
       },
       {
         "date": "2021-07-21",
-        "shares": 9622369880
+        "shares": 9622369880.0
       },
       {
         "date": "2021-10-20",
-        "shares": 9635804780
+        "shares": 9635804780.0
       },
       {
         "date": "2022-01-26",
-        "shares": 9668043790
+        "shares": 9668043790.0
       },
       {
         "date": "2022-04-20",
-        "shares": 9665689139
+        "shares": 9665689139.0
       },
       {
         "date": "2022-07-20",
-        "shares": 10187554818
+        "shares": 10187554818.0
       },
       {
         "date": "2022-10-19",
-        "shares": 10201654176
+        "shares": 10201654176.0
       },
       {
         "date": "2023-01-25",
-        "shares": 10247259757
+        "shares": 10247259757.0
       },
       {
         "date": "2023-04-19",
-        "shares": 10260353688
+        "shares": 10260353688.0
       },
       {
         "date": "2023-07-21",
-        "shares": 10317750796
+        "shares": 10317750796.0
       },
       {
         "date": "2023-10-18",
-        "shares": 10334030586
+        "shares": 10334030586.0
       },
       {
         "date": "2024-01-24",
-        "shares": 10387381291
+        "shares": 10387381291.0
       },
       {
         "date": "2024-04-24",
-        "shares": 10406627415
+        "shares": 10406627415.0
       },
       {
         "date": "2024-07-24",
-        "shares": 10495566881
+        "shares": 10495566881.0
       },
       {
         "date": "2024-10-18",
-        "shares": 10515011008
+        "shares": 10515011008.0
       },
       {
         "date": "2025-01-29",
-        "shares": 10597729352
+        "shares": 10597729352.0
       },
       {
         "date": "2025-04-23",
-        "shares": 10616352407
+        "shares": 10616352407.0
       },
       {
         "date": "2025-07-23",
-        "shares": 10664912097
+        "shares": 10664912097.0
       },
       {
         "date": "2025-10-22",
-        "shares": 10690216011
+        "shares": 10690216011.0
       },
       {
         "date": "2026-01-28",
-        "shares": 10734920870
+        "shares": 10734920870.0
       },
       {
         "date": "2026-04-22",
-        "shares": 10757109436
+        "shares": 10757109436.0
       },
       {
         "date": "2026-07-22",
-        "shares": 10786313572
+        "shares": 10786313572.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -1974,8 +1974,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSM": {
@@ -1983,94 +1983,94 @@ const FINANCIALS_DATA = {
       {
         "period": "2022",
         "endDate": "2022-12-31",
-        "revenue": 2263891300000,
-        "netIncome": 992923400000,
-        "opIncome": 1121226500000,
-        "eps": 196,
-        "ocf": 1610599200000,
-        "capex": -1089626400000,
-        "fcf": 520972800000,
+        "revenue": 2263891300000.0,
+        "netIncome": 992923400000.0,
+        "opIncome": 1121226500000.0,
+        "eps": 196.0,
+        "ocf": 1610599200000.0,
+        "capex": -1089626400000.0,
+        "fcf": 520972800000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 1144072200000,
-        "taxProvision": 150777500000,
+        "pretaxIncome": 1144072200000.0,
+        "taxProvision": 150777500000.0,
         "normalizedIncome": 989907933710.3375,
-        "unusualItems": 3473200000,
-        "unusualItemsExGoodwill": 3473200000,
+        "unusualItems": 3473200000.0,
+        "unusualItemsExGoodwill": 3473200000.0,
         "unusualTaxEffect": 457733710.337512,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 1020500000,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 1020500000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 302400000
+        "stockComp": 302400000.0
       },
       {
         "period": "2023",
         "endDate": "2023-12-31",
-        "revenue": 2161735800000,
-        "netIncome": 851740000000,
-        "opIncome": 921429900000,
+        "revenue": 2161735800000.0,
+        "netIncome": 851740000000.0,
+        "opIncome": 921429900000.0,
         "eps": 161.7,
-        "ocf": 1241967300000,
-        "capex": -955398400000,
-        "fcf": 286568900000,
+        "ocf": 1241967300000.0,
+        "capex": -955398400000.0,
+        "fcf": 286568900000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 979316500000,
-        "taxProvision": 128288800000,
+        "pretaxIncome": 979316500000.0,
+        "taxProvision": 128288800000.0,
         "normalizedIncome": 848803208766.3691,
-        "unusualItems": 3379500000,
-        "unusualItemsExGoodwill": 3379500000,
+        "unusualItems": 3379500000.0,
+        "unusualItemsExGoodwill": 3379500000.0,
         "unusualTaxEffect": 442708766.369197,
-        "specialIncomeCharges": 15700000,
-        "otherNonOperating": 1412400000,
+        "specialIncomeCharges": 15700000.0,
+        "otherNonOperating": 1412400000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 483000000
+        "stockComp": 483000000.0
       },
       {
         "period": "2024",
         "endDate": "2024-12-31",
-        "revenue": 2894307700000,
-        "netIncome": 1158380200000,
-        "opIncome": 1322003100000,
+        "revenue": 2894307700000.0,
+        "netIncome": 1158380200000.0,
+        "opIncome": 1322003100000.0,
         "eps": 226.25,
-        "ocf": 1826177100000,
-        "capex": -964981600000,
-        "fcf": 861195500000,
+        "ocf": 1826177100000.0,
+        "capex": -964981600000.0,
+        "fcf": 861195500000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 1405840000000,
-        "taxProvision": 248316100000,
+        "pretaxIncome": 1405840000000.0,
+        "taxProvision": 248316100000.0,
         "normalizedIncome": 1157457945319.2468,
-        "unusualItems": 1120100000,
-        "unusualItemsExGoodwill": 1120100000,
+        "unusualItems": 1120100000.0,
+        "unusualItemsExGoodwill": 1120100000.0,
         "unusualTaxEffect": 197845319.246856,
-        "specialIncomeCharges": 7100000,
-        "otherNonOperating": 1118100000,
+        "specialIncomeCharges": 7100000.0,
+        "otherNonOperating": 1118100000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 1242700000
+        "stockComp": 1242700000.0
       },
       {
         "period": "2025",
         "endDate": "2025-12-31",
-        "revenue": 3809054300000,
-        "netIncome": 1697604000000,
-        "opIncome": 1936095600000,
+        "revenue": 3809054300000.0,
+        "netIncome": 1697604000000.0,
+        "opIncome": 1936095600000.0,
         "eps": 331.25,
-        "ocf": 2274975600000,
-        "capex": -1282597200000,
-        "fcf": 992378400000,
+        "ocf": 2274975600000.0,
+        "capex": -1282597200000.0,
+        "fcf": 992378400000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 2041654700000,
-        "taxProvision": 346529800000,
+        "pretaxIncome": 2041654700000.0,
+        "taxProvision": 346529800000.0,
         "normalizedIncome": 1693137146735.3418,
-        "unusualItems": 5380000000,
-        "unusualItemsExGoodwill": 5380000000,
+        "unusualItems": 5380000000.0,
+        "unusualItemsExGoodwill": 5380000000.0,
         "unusualTaxEffect": 913146735.341681,
-        "specialIncomeCharges": -168000000,
-        "otherNonOperating": 1321900000,
+        "specialIncomeCharges": -168000000.0,
+        "otherNonOperating": 1321900000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 1246100000
+        "stockComp": 1246100000.0
       }
     ],
     "quarterly": [
@@ -2090,7 +2090,7 @@ const FINANCIALS_DATA = {
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
         "unusualTaxEffect": null,
-        "specialIncomeCharges": -167986000,
+        "specialIncomeCharges": -167986000.0,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
@@ -2099,119 +2099,119 @@ const FINANCIALS_DATA = {
       {
         "period": "Q2'25",
         "endDate": "2025-06-30",
-        "revenue": 933791869000,
-        "netIncome": 398273102000,
-        "opIncome": 463440498000,
+        "revenue": 933791869000.0,
+        "netIncome": 398273102000.0,
+        "opIncome": 463440498000.0,
         "eps": 76.8,
-        "ocf": 497064000000,
-        "capex": -297226000000,
-        "fcf": 199838000000,
-        "pretaxIncome": 493035204000,
-        "taxProvision": 95541780000,
+        "ocf": 497064000000.0,
+        "capex": -297226000000.0,
+        "fcf": 199838000000.0,
+        "pretaxIncome": 493035204000.0,
+        "taxProvision": 95541780000.0,
         "normalizedIncome": 393170838419.41125,
-        "unusualItems": 6328647000,
-        "unusualItemsExGoodwill": 6328647000,
+        "unusualItems": 6328647000.0,
+        "unusualItemsExGoodwill": 6328647000.0,
         "unusualTaxEffect": 1226383419.411284,
         "specialIncomeCharges": null,
-        "otherNonOperating": 544208000,
+        "otherNonOperating": 544208000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 344406000
+        "stockComp": 344406000.0
       },
       {
         "period": "Q3'25",
         "endDate": "2025-09-30",
-        "revenue": 989918318000,
-        "netIncome": 452301407000,
-        "opIncome": 500685080000,
+        "revenue": 989918318000.0,
+        "netIncome": 452301407000.0,
+        "opIncome": 500685080000.0,
         "eps": 87.2,
-        "ocf": 426829081000,
-        "capex": -288443339000,
-        "fcf": 138385742000,
-        "pretaxIncome": 525369023000,
-        "taxProvision": 73613661000,
+        "ocf": 426829081000.0,
+        "capex": -288443339000.0,
+        "fcf": 138385742000.0,
+        "pretaxIncome": 525369023000.0,
+        "taxProvision": 73613661000.0,
         "normalizedIncome": 452572205336.3112,
-        "unusualItems": -314925000,
-        "unusualItemsExGoodwill": -314925000,
+        "unusualItems": -314925000.0,
+        "unusualItemsExGoodwill": -314925000.0,
         "unusualTaxEffect": -44126663.688782,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 352353000,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 352353000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 273416000
+        "stockComp": 273416000.0
       },
       {
         "period": "Q4'25",
         "endDate": "2025-12-31",
-        "revenue": 1046090449000,
-        "netIncome": 485465363000,
-        "opIncome": 564880854000,
+        "revenue": 1046090449000.0,
+        "netIncome": 485465363000.0,
+        "opIncome": 564880854000.0,
         "eps": 97.5,
-        "ocf": 725508762000,
-        "capex": -361467698000,
-        "fcf": 364041064000,
-        "pretaxIncome": 592355061000,
-        "taxProvision": 107211608000,
+        "ocf": 725508762000.0,
+        "capex": -361467698000.0,
+        "fcf": 364041064000.0,
+        "pretaxIncome": 592355061000.0,
+        "taxProvision": 107211608000.0,
         "normalizedIncome": 486171967767.3727,
-        "unusualItems": -862757000,
-        "unusualItemsExGoodwill": -862757000,
+        "unusualItems": -862757000.0,
+        "unusualItemsExGoodwill": -862757000.0,
         "unusualTaxEffect": -156152232.627343,
-        "specialIncomeCharges": -14000,
-        "otherNonOperating": 398475000,
+        "specialIncomeCharges": -14000.0,
+        "otherNonOperating": 398475000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 173037000
+        "stockComp": 173037000.0
       },
       {
         "period": "Q1'26",
         "endDate": "2026-03-31",
-        "revenue": 1134103440000,
-        "netIncome": 572479752000,
-        "opIncome": 658948859000,
+        "revenue": 1134103440000.0,
+        "netIncome": 572479752000.0,
+        "opIncome": 658948859000.0,
         "eps": 110.4,
-        "ocf": 698976265000,
-        "capex": -351706028000,
-        "fcf": 347270237000,
-        "pretaxIncome": 687799687000,
-        "taxProvision": 114998383000,
+        "ocf": 698976265000.0,
+        "capex": -351706028000.0,
+        "fcf": 347270237000.0,
+        "pretaxIncome": 687799687000.0,
+        "taxProvision": 114998383000.0,
         "normalizedIncome": 571614658408.061,
-        "unusualItems": 1038774000,
-        "unusualItemsExGoodwill": 1038774000,
+        "unusualItems": 1038774000.0,
+        "unusualItemsExGoodwill": 1038774000.0,
         "unusualTaxEffect": 173680408.061078,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -18251000,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -18251000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 113979000
+        "stockComp": 113979000.0
       },
       {
         "period": "Q2'26",
         "endDate": "2026-06-30",
-        "revenue": 1270380250000,
-        "netIncome": 706561938000,
-        "opIncome": 766568191000,
+        "revenue": 1270380250000.0,
+        "netIncome": 706561938000.0,
+        "opIncome": 766568191000.0,
         "eps": 136.25,
-        "ocf": 783364977000,
-        "capex": -508395083000,
-        "fcf": 274969894000,
-        "pretaxIncome": 862430086000,
-        "taxProvision": 155649163000,
+        "ocf": 783364977000.0,
+        "capex": -508395083000.0,
+        "fcf": 274969894000.0,
+        "pretaxIncome": 862430086000.0,
+        "taxProvision": 155649163000.0,
         "normalizedIncome": 653125865193.6471,
-        "unusualItems": 65203906000,
-        "unusualItemsExGoodwill": 65203906000,
+        "unusualItems": 65203906000.0,
+        "unusualItemsExGoodwill": 65203906000.0,
         "unusualTaxEffect": 11767833193.647049,
-        "specialIncomeCharges": 63202285000,
-        "otherNonOperating": 2259846000,
+        "specialIncomeCharges": 63202285000.0,
+        "otherNonOperating": 2259846000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 123047000
+        "stockComp": 123047000.0
       }
     ],
     "_currency": "TWD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2236,8 +2236,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481
   },
   "AVGO": {
     "annual": [
@@ -2255,21 +2255,21 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 22597000000,
+        "revenue": 22597000000.0,
         "netIncome": 2695000000,
-        "opIncome": 3444000000,
+        "opIncome": 3444000000.0,
         "eps": 0.643,
-        "ocf": 9697000000,
-        "capex": -432000000,
-        "fcf": 9265000000,
+        "ocf": 9697000000.0,
+        "capex": -432000000.0,
+        "fcf": 9265000000.0,
         "endDate": "2019-11-03",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 23888000000,
+        "revenue": 23888000000.0,
         "netIncome": 2663000000,
-        "opIncome": 4014000000,
+        "opIncome": 4014000000.0,
         "eps": 0.633,
         "ocf": 12061000000,
         "capex": -463000000,
@@ -2279,256 +2279,256 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 27450000000,
+        "revenue": 27450000000.0,
         "netIncome": 6437000000,
-        "opIncome": 8519000000,
+        "opIncome": 8519000000.0,
         "eps": 1.5,
-        "ocf": 13764000000,
-        "capex": -443000000,
-        "fcf": 13321000000,
+        "ocf": 13764000000.0,
+        "capex": -443000000.0,
+        "fcf": 13321000000.0,
         "endDate": "2021-10-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 33203000000,
+        "revenue": 33203000000.0,
         "netIncome": 11223000000,
-        "opIncome": 14225000000,
+        "opIncome": 14225000000.0,
         "eps": 2.65,
         "ocf": 16736000000,
         "capex": -424000000,
-        "fcf": 16312000000,
+        "fcf": 16312000000.0,
         "endDate": "2022-10-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 12434000000,
-        "taxProvision": 939000000,
-        "normalizedIncome": 11704050000,
-        "unusualItems": -226000000,
-        "unusualItemsExGoodwill": -226000000,
-        "unusualTaxEffect": -16950000,
-        "specialIncomeCharges": -57000000,
-        "otherNonOperating": 15000000,
-        "restructuring": 57000000,
-        "stockComp": 1533000000
+        "pretaxIncome": 12434000000.0,
+        "taxProvision": 939000000.0,
+        "normalizedIncome": 11704050000.0,
+        "unusualItems": -226000000.0,
+        "unusualItemsExGoodwill": -226000000.0,
+        "unusualTaxEffect": -16950000.0,
+        "specialIncomeCharges": -57000000.0,
+        "otherNonOperating": 15000000.0,
+        "restructuring": 57000000.0,
+        "stockComp": 1533000000.0
       },
       {
         "period": "2023",
-        "revenue": 35819000000,
-        "netIncome": 14082000000,
-        "opIncome": 16207000000,
+        "revenue": 35819000000.0,
+        "netIncome": 14082000000.0,
+        "opIncome": 16207000000.0,
         "eps": 3.3,
         "ocf": 18085000000,
         "capex": -452000000,
-        "fcf": 17633000000,
+        "fcf": 17633000000.0,
         "endDate": "2023-10-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 15097000000,
-        "taxProvision": 1015000000,
-        "normalizedIncome": 14299389000,
-        "unusualItems": -233000000,
-        "unusualItemsExGoodwill": -233000000,
-        "unusualTaxEffect": -15611000,
-        "specialIncomeCharges": -244000000,
-        "otherNonOperating": -34000000,
-        "restructuring": 244000000,
-        "stockComp": 2171000000
+        "pretaxIncome": 15097000000.0,
+        "taxProvision": 1015000000.0,
+        "normalizedIncome": 14299389000.0,
+        "unusualItems": -233000000.0,
+        "unusualItemsExGoodwill": -233000000.0,
+        "unusualTaxEffect": -15611000.0,
+        "specialIncomeCharges": -244000000.0,
+        "otherNonOperating": -34000000.0,
+        "restructuring": 244000000.0,
+        "stockComp": 2171000000.0
       },
       {
         "period": "2024",
-        "revenue": 51574000000,
-        "netIncome": 5895000000,
-        "opIncome": 13463000000,
+        "revenue": 51574000000.0,
+        "netIncome": 5895000000.0,
+        "opIncome": 13463000000.0,
         "eps": 1.23,
         "ocf": 19962000000,
         "capex": -548000000,
-        "fcf": 19414000000,
+        "fcf": 19414000000.0,
         "endDate": "2024-11-03",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9916000000,
-        "taxProvision": 3748000000,
-        "normalizedIncome": 7128990000,
-        "unusualItems": -1545000000,
-        "unusualItemsExGoodwill": -1545000000,
-        "unusualTaxEffect": -584010000,
-        "specialIncomeCharges": -1533000000,
-        "otherNonOperating": -43000000,
-        "restructuring": 1533000000,
-        "stockComp": 5741000000
+        "pretaxIncome": 9916000000.0,
+        "taxProvision": 3748000000.0,
+        "normalizedIncome": 7128990000.0,
+        "unusualItems": -1545000000.0,
+        "unusualItemsExGoodwill": -1545000000.0,
+        "unusualTaxEffect": -584010000.0,
+        "specialIncomeCharges": -1533000000.0,
+        "otherNonOperating": -43000000.0,
+        "restructuring": 1533000000.0,
+        "stockComp": 5741000000.0
       },
       {
         "period": "2025",
-        "revenue": 63887000000,
-        "netIncome": 23126000000,
-        "opIncome": 25484000000,
+        "revenue": 63887000000.0,
+        "netIncome": 23126000000.0,
+        "opIncome": 25484000000.0,
         "eps": 4.77,
         "ocf": 27537000000,
         "capex": -623000000,
-        "fcf": 26914000000,
+        "fcf": 26914000000.0,
         "endDate": "2025-11-02",
         "_fcfIsProxy": false,
-        "pretaxIncome": 22729000000,
-        "taxProvision": -397000000,
-        "normalizedIncome": 23606320000,
-        "unusualItems": -608000000,
-        "unusualItemsExGoodwill": -608000000,
-        "unusualTaxEffect": -127680000,
-        "specialIncomeCharges": -591000000,
-        "otherNonOperating": 125000000,
-        "restructuring": 591000000,
-        "stockComp": 7568000000
+        "pretaxIncome": 22729000000.0,
+        "taxProvision": -397000000.0,
+        "normalizedIncome": 23606320000.0,
+        "unusualItems": -608000000.0,
+        "unusualItemsExGoodwill": -608000000.0,
+        "unusualTaxEffect": -127680000.0,
+        "specialIncomeCharges": -591000000.0,
+        "otherNonOperating": 125000000.0,
+        "restructuring": 591000000.0,
+        "stockComp": 7568000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q4'23",
-        "revenue": 9295000000,
-        "netIncome": 3524000000,
-        "opIncome": 4240000000,
+        "revenue": 9295000000.0,
+        "netIncome": 3524000000.0,
+        "opIncome": 4240000000.0,
         "endDate": "2023-10-29"
       },
       {
         "period": "Q1'24",
-        "revenue": 11961000000,
-        "netIncome": 1325000000,
-        "opIncome": 2083000000,
+        "revenue": 11961000000.0,
+        "netIncome": 1325000000.0,
+        "opIncome": 2083000000.0,
         "endDate": "2024-02-04",
         "eps": 0.28
       },
       {
         "period": "Q2'24",
-        "revenue": 12487000000,
-        "netIncome": 2121000000,
-        "opIncome": 2965000000,
+        "revenue": 12487000000.0,
+        "netIncome": 2121000000.0,
+        "opIncome": 2965000000.0,
         "endDate": "2024-05-05",
         "eps": 0.44
       },
       {
         "period": "Q3'24",
-        "revenue": 13072000000,
-        "netIncome": -1875000000,
-        "opIncome": 3788000000,
+        "revenue": 13072000000.0,
+        "netIncome": -1875000000.0,
+        "opIncome": 3788000000.0,
         "endDate": "2024-08-04",
         "eps": -0.4
       },
       {
         "period": "Q4'24",
-        "revenue": 14054000000,
-        "netIncome": 4324000000,
-        "opIncome": 4627000000,
+        "revenue": 14054000000.0,
+        "netIncome": 4324000000.0,
+        "opIncome": 4627000000.0,
         "endDate": "2024-11-03"
       },
       {
         "period": "Q1'25",
-        "revenue": 14916000000,
-        "netIncome": 5503000000,
-        "opIncome": 6260000000,
+        "revenue": 14916000000.0,
+        "netIncome": 5503000000.0,
+        "opIncome": 6260000000.0,
         "endDate": "2025-02-02",
         "eps": 1.14
       },
       {
         "period": "Q2'25",
-        "revenue": 15004000000,
-        "netIncome": 4965000000,
-        "opIncome": 5829000000,
+        "revenue": 15004000000.0,
+        "netIncome": 4965000000.0,
+        "opIncome": 5829000000.0,
         "endDate": "2025-05-04",
         "eps": 1.03,
-        "ocf": 6555000000,
-        "capex": -144000000,
-        "fcf": 6411000000,
-        "pretaxIncome": 5085000000,
-        "taxProvision": 120000000,
+        "ocf": 6555000000.0,
+        "capex": -144000000.0,
+        "fcf": 6411000000.0,
+        "pretaxIncome": 5085000000.0,
+        "taxProvision": 120000000.0,
         "normalizedIncome": 5048970501.474926,
-        "unusualItems": -86000000,
-        "unusualItemsExGoodwill": -86000000,
+        "unusualItems": -86000000.0,
+        "unusualItemsExGoodwill": -86000000.0,
         "unusualTaxEffect": -2029498.525074,
-        "specialIncomeCharges": -86000000,
-        "otherNonOperating": 25000000,
-        "restructuring": 86000000,
-        "stockComp": 1771000000
+        "specialIncomeCharges": -86000000.0,
+        "otherNonOperating": 25000000.0,
+        "restructuring": 86000000.0,
+        "stockComp": 1771000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 15952000000,
-        "netIncome": 4140000000,
-        "opIncome": 5887000000,
+        "revenue": 15952000000.0,
+        "netIncome": 4140000000.0,
+        "opIncome": 5887000000.0,
         "endDate": "2025-08-03",
         "eps": 0.85,
-        "ocf": 7166000000,
-        "capex": -142000000,
-        "fcf": 7024000000,
-        "pretaxIncome": 5285000000,
-        "taxProvision": 1145000000,
+        "ocf": 7166000000.0,
+        "capex": -142000000.0,
+        "fcf": 7024000000.0,
+        "pretaxIncome": 5285000000.0,
+        "taxProvision": 1145000000.0,
         "normalizedIncome": 4286486281.929991,
-        "unusualItems": -187000000,
-        "unusualItemsExGoodwill": -187000000,
+        "unusualItems": -187000000.0,
+        "unusualItemsExGoodwill": -187000000.0,
         "unusualTaxEffect": -40513718.070009,
-        "specialIncomeCharges": -187000000,
-        "otherNonOperating": 205000000,
-        "restructuring": 187000000,
-        "stockComp": 2322000000
+        "specialIncomeCharges": -187000000.0,
+        "otherNonOperating": 205000000.0,
+        "restructuring": 187000000.0,
+        "stockComp": 2322000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 18015000000,
-        "netIncome": 8518000000,
-        "opIncome": 7508000000,
+        "revenue": 18015000000.0,
+        "netIncome": 8518000000.0,
+        "opIncome": 7508000000.0,
         "endDate": "2025-11-02",
         "eps": 1.74,
-        "ocf": 7703000000,
-        "capex": -237000000,
-        "fcf": 7466000000,
-        "pretaxIncome": 6869000000,
-        "taxProvision": -1649000000,
-        "normalizedIncome": 8646770000,
-        "unusualItems": -163000000,
-        "unusualItemsExGoodwill": -163000000,
-        "unusualTaxEffect": -34230000,
-        "specialIncomeCharges": -146000000,
-        "otherNonOperating": -208000000,
-        "restructuring": 146000000,
-        "stockComp": 2195000000
+        "ocf": 7703000000.0,
+        "capex": -237000000.0,
+        "fcf": 7466000000.0,
+        "pretaxIncome": 6869000000.0,
+        "taxProvision": -1649000000.0,
+        "normalizedIncome": 8646770000.0,
+        "unusualItems": -163000000.0,
+        "unusualItemsExGoodwill": -163000000.0,
+        "unusualTaxEffect": -34230000.0,
+        "specialIncomeCharges": -146000000.0,
+        "otherNonOperating": -208000000.0,
+        "restructuring": 146000000.0,
+        "stockComp": 2195000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 19311000000,
-        "netIncome": 7349000000,
-        "opIncome": 8563000000,
+        "revenue": 19311000000.0,
+        "netIncome": 7349000000.0,
+        "opIncome": 8563000000.0,
         "endDate": "2026-02-01",
         "eps": 1.5,
-        "ocf": 8260000000,
-        "capex": -250000000,
-        "fcf": 8010000000,
-        "pretaxIncome": 8195000000,
-        "taxProvision": 846000000,
+        "ocf": 8260000000.0,
+        "capex": -250000000.0,
+        "fcf": 8010000000.0,
+        "pretaxIncome": 8195000000.0,
+        "taxProvision": 846000000.0,
         "normalizedIncome": 7441366931.055522,
-        "unusualItems": -103000000,
-        "unusualItemsExGoodwill": -103000000,
+        "unusualItems": -103000000.0,
+        "unusualItemsExGoodwill": -103000000.0,
         "unusualTaxEffect": -10633068.944478,
-        "specialIncomeCharges": -103000000,
-        "otherNonOperating": 433000000,
-        "restructuring": 103000000,
-        "stockComp": 2176000000
+        "specialIncomeCharges": -103000000.0,
+        "otherNonOperating": 433000000.0,
+        "restructuring": 103000000.0,
+        "stockComp": 2176000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 22187000000,
-        "netIncome": 9310000000,
-        "opIncome": 10788000000,
+        "revenue": 22187000000.0,
+        "netIncome": 9310000000.0,
+        "opIncome": 10788000000.0,
         "endDate": "2026-05-03",
         "eps": 1.91,
-        "ocf": 10493000000,
-        "capex": -231000000,
-        "fcf": 10262000000,
-        "pretaxIncome": 10130000000,
-        "taxProvision": 820000000,
+        "ocf": 10493000000.0,
+        "capex": -231000000.0,
+        "fcf": 10262000000.0,
+        "pretaxIncome": 10130000000.0,
+        "taxProvision": 820000000.0,
         "normalizedIncome": 9375252714.708786,
-        "unusualItems": -71000000,
-        "unusualItemsExGoodwill": -71000000,
+        "unusualItems": -71000000.0,
+        "unusualItemsExGoodwill": -71000000.0,
         "unusualTaxEffect": -5747285.291214,
-        "specialIncomeCharges": -71000000,
-        "otherNonOperating": 118000000,
-        "restructuring": 71000000,
-        "stockComp": 2092000000
+        "specialIncomeCharges": -71000000.0,
+        "otherNonOperating": 118000000.0,
+        "restructuring": 71000000.0,
+        "stockComp": 2092000000.0
       },
       {
         "period": "Q3'26",
@@ -2546,105 +2546,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-27",
-        "shares": 4067131180
+        "shares": 4067131180.0
       },
       {
         "date": "2021-02-26",
-        "shares": 4083023260
+        "shares": 4083023260.0
       },
       {
         "date": "2021-05-28",
-        "shares": 4102605600
+        "shares": 4102605600.0
       },
       {
         "date": "2021-08-27",
-        "shares": 4116162880
+        "shares": 4116162880.0
       },
       {
         "date": "2021-11-26",
-        "shares": 4128739680
+        "shares": 4128739680.0
       },
       {
         "date": "2022-02-25",
-        "shares": 4082811700
+        "shares": 4082811700.0
       },
       {
         "date": "2022-05-27",
-        "shares": 4038177000
+        "shares": 4038177000.0
       },
       {
         "date": "2022-08-26",
-        "shares": 4050014560
+        "shares": 4050014560.0
       },
       {
         "date": "2022-11-25",
-        "shares": 4178861400
+        "shares": 4178861400.0
       },
       {
         "date": "2023-02-24",
-        "shares": 4169236640
+        "shares": 4169236640.0
       },
       {
         "date": "2023-05-26",
-        "shares": 4126854050
+        "shares": 4126854050.0
       },
       {
         "date": "2023-08-25",
-        "shares": 4127355040
+        "shares": 4127355040.0
       },
       {
         "date": "2023-11-24",
-        "shares": 4681405690
+        "shares": 4681405690.0
       },
       {
         "date": "2024-03-01",
-        "shares": 4634212370
+        "shares": 4634212370.0
       },
       {
         "date": "2024-05-31",
-        "shares": 4654883740
+        "shares": 4654883740.0
       },
       {
         "date": "2024-08-30",
-        "shares": 4670576083
+        "shares": 4670576083.0
       },
       {
         "date": "2024-11-29",
-        "shares": 4687356156
+        "shares": 4687356156.0
       },
       {
         "date": "2025-02-28",
-        "shares": 4701948717
+        "shares": 4701948717.0
       },
       {
         "date": "2025-05-30",
-        "shares": 4703470979
+        "shares": 4703470979.0
       },
       {
         "date": "2025-08-29",
-        "shares": 4722365022
+        "shares": 4722365022.0
       },
       {
         "date": "2025-11-28",
-        "shares": 4741273799
+        "shares": 4741273799.0
       },
       {
         "date": "2026-02-27",
-        "shares": 4734668184
+        "shares": 4734668184.0
       },
       {
         "date": "2026-05-29",
-        "shares": 4757580198
+        "shares": 4757580198.0
       },
       {
         "date": "2026-08-28",
-        "shares": 4773629865
+        "shares": 4773629865.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2669,8 +2669,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "META": {
@@ -2689,8 +2689,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 70697000000,
-        "netIncome": 18485000000,
+        "revenue": 70697000000.0,
+        "netIncome": 18485000000.0,
         "opIncome": 23986000000,
         "eps": 6.43,
         "ocf": 36314000000,
@@ -2701,8 +2701,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 85965000000,
-        "netIncome": 29146000000,
+        "revenue": 85965000000.0,
+        "netIncome": 29146000000.0,
         "opIncome": 32671000000,
         "eps": 10.09,
         "ocf": 38747000000,
@@ -2713,229 +2713,229 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 117929000000,
-        "netIncome": 39370000000,
-        "opIncome": 46753000000,
+        "revenue": 117929000000.0,
+        "netIncome": 39370000000.0,
+        "opIncome": 46753000000.0,
         "eps": 13.77,
         "ocf": 57683000000,
         "capex": -18690000000,
         "fcf": 38993000000,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true,
-        "specialIncomeCharges": 0
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "2022",
-        "revenue": 116609000000,
-        "netIncome": 23200000000,
-        "opIncome": 28944000000,
+        "revenue": 116609000000.0,
+        "netIncome": 23200000000.0,
+        "opIncome": 28944000000.0,
         "eps": 8.59,
         "ocf": 50475000000,
         "capex": -31186000000,
-        "fcf": 19289000000,
+        "fcf": 19289000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 28819000000,
-        "taxProvision": 5619000000,
-        "normalizedIncome": 23265205000,
-        "unusualItems": -81000000,
-        "unusualItemsExGoodwill": -81000000,
-        "unusualTaxEffect": -15795000,
-        "otherNonOperating": -320000000,
-        "stockComp": 11992000000
+        "pretaxIncome": 28819000000.0,
+        "taxProvision": 5619000000.0,
+        "normalizedIncome": 23265205000.0,
+        "unusualItems": -81000000.0,
+        "unusualItemsExGoodwill": -81000000.0,
+        "unusualTaxEffect": -15795000.0,
+        "otherNonOperating": -320000000.0,
+        "stockComp": 11992000000.0
       },
       {
         "period": "2023",
-        "revenue": 134902000000,
-        "netIncome": 39098000000,
-        "opIncome": 46751000000,
+        "revenue": 134902000000.0,
+        "netIncome": 39098000000.0,
+        "opIncome": 46751000000.0,
         "eps": 14.87,
         "ocf": 71113000000,
         "capex": -27045000000,
-        "fcf": 44068000000,
+        "fcf": 44068000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 47428000000,
-        "taxProvision": 8330000000,
-        "normalizedIncome": 39399584000,
-        "unusualItems": -366000000,
-        "unusualItemsExGoodwill": -366000000,
-        "unusualTaxEffect": -64416000,
-        "otherNonOperating": -150000000,
-        "stockComp": 14027000000
+        "pretaxIncome": 47428000000.0,
+        "taxProvision": 8330000000.0,
+        "normalizedIncome": 39399584000.0,
+        "unusualItems": -366000000.0,
+        "unusualItemsExGoodwill": -366000000.0,
+        "unusualTaxEffect": -64416000.0,
+        "otherNonOperating": -150000000.0,
+        "stockComp": 14027000000.0
       },
       {
         "period": "2024",
-        "revenue": 164501000000,
-        "netIncome": 62360000000,
-        "opIncome": 69380000000,
+        "revenue": 164501000000.0,
+        "netIncome": 62360000000.0,
+        "opIncome": 69380000000.0,
         "eps": 23.86,
         "ocf": 91328000000,
         "capex": -37256000000,
-        "fcf": 54072000000,
+        "fcf": 54072000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 70663000000,
-        "taxProvision": 8303000000,
+        "pretaxIncome": 70663000000.0,
+        "taxProvision": 8303000000.0,
         "normalizedIncome": 62968924047.945885,
-        "unusualItems": -690000000,
-        "unusualItemsExGoodwill": -690000000,
+        "unusualItems": -690000000.0,
+        "unusualItemsExGoodwill": -690000000.0,
         "unusualTaxEffect": -81075952.054116,
-        "otherNonOperating": 171000000,
-        "stockComp": 16690000000
+        "otherNonOperating": 171000000.0,
+        "stockComp": 16690000000.0
       },
       {
         "period": "2025",
-        "revenue": 200966000000,
-        "netIncome": 60458000000,
-        "opIncome": 83276000000,
+        "revenue": 200966000000.0,
+        "netIncome": 60458000000.0,
+        "opIncome": 83276000000.0,
         "eps": 23.49,
         "ocf": 115800000000,
         "capex": -69691000000,
-        "fcf": 46109000000,
+        "fcf": 46109000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 85932000000,
-        "taxProvision": 25474000000,
+        "pretaxIncome": 85932000000.0,
+        "taxProvision": 25474000000.0,
         "normalizedIncome": 60210348182.28367,
-        "unusualItems": 352000000,
-        "unusualItemsExGoodwill": 352000000,
+        "unusualItems": 352000000.0,
+        "unusualItemsExGoodwill": 352000000.0,
         "unusualTaxEffect": 104348182.283666,
-        "otherNonOperating": 1346000000,
-        "stockComp": 20427000000
+        "otherNonOperating": 1346000000.0,
+        "stockComp": 20427000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 34146000000,
-        "netIncome": 11583000000,
-        "opIncome": 13748000000,
+        "revenue": 34146000000.0,
+        "netIncome": 11583000000.0,
+        "opIncome": 13748000000.0,
         "endDate": "2023-09-30",
         "eps": 4.39
       },
       {
         "period": "Q4'23",
-        "revenue": 40111000000,
-        "netIncome": 14017000000,
-        "opIncome": 16384000000,
+        "revenue": 40111000000.0,
+        "netIncome": 14017000000.0,
+        "opIncome": 16384000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 36455000000,
-        "netIncome": 12369000000,
-        "opIncome": 13818000000,
+        "revenue": 36455000000.0,
+        "netIncome": 12369000000.0,
+        "opIncome": 13818000000.0,
         "endDate": "2024-03-31",
         "eps": 4.71
       },
       {
         "period": "Q2'24",
         "revenue": 39071000000,
-        "netIncome": 13465000000,
-        "opIncome": 14847000000,
+        "netIncome": 13465000000.0,
+        "opIncome": 14847000000.0,
         "endDate": "2024-06-30",
         "eps": 5.16
       },
       {
         "period": "Q3'24",
-        "revenue": 40589000000,
-        "netIncome": 15688000000,
+        "revenue": 40589000000.0,
+        "netIncome": 15688000000.0,
         "opIncome": 17350000000,
         "endDate": "2024-09-30",
         "eps": 6.03
       },
       {
         "period": "Q4'24",
-        "revenue": 48385000000,
-        "netIncome": 20838000000,
-        "opIncome": 23364000000,
+        "revenue": 48385000000.0,
+        "netIncome": 20838000000.0,
+        "opIncome": 23364000000.0,
         "endDate": "2024-12-31",
-        "otherNonOperating": 93000000
+        "otherNonOperating": 93000000.0
       },
       {
         "period": "Q1'25",
-        "revenue": 42314000000,
-        "netIncome": 16644000000,
-        "opIncome": 17555000000,
+        "revenue": 42314000000.0,
+        "netIncome": 16644000000.0,
+        "opIncome": 17555000000.0,
         "endDate": "2025-03-31",
         "eps": 6.43,
-        "otherNonOperating": 177000000
+        "otherNonOperating": 177000000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 47516000000,
-        "netIncome": 18337000000,
+        "revenue": 47516000000.0,
+        "netIncome": 18337000000.0,
         "opIncome": 20441000000,
         "endDate": "2025-06-30",
         "eps": 7.14,
-        "ocf": 25561000000,
-        "capex": -16538000000,
-        "fcf": 9023000000,
-        "pretaxIncome": 20534000000,
-        "taxProvision": 2197000000,
-        "normalizedIncome": 18467830000,
-        "unusualItems": -147000000,
-        "unusualItemsExGoodwill": -147000000,
-        "unusualTaxEffect": -16170000,
-        "otherNonOperating": -343000000,
-        "stockComp": 4834000000
+        "ocf": 25561000000.0,
+        "capex": -16538000000.0,
+        "fcf": 9023000000.0,
+        "pretaxIncome": 20534000000.0,
+        "taxProvision": 2197000000.0,
+        "normalizedIncome": 18467830000.0,
+        "unusualItems": -147000000.0,
+        "unusualItemsExGoodwill": -147000000.0,
+        "unusualTaxEffect": -16170000.0,
+        "otherNonOperating": -343000000.0,
+        "stockComp": 4834000000.0
       },
       {
         "period": "Q3'25",
         "revenue": 51242000000,
-        "netIncome": 2709000000,
+        "netIncome": 2709000000.0,
         "opIncome": 20535000000,
         "endDate": "2025-09-30",
         "eps": 1.05,
-        "ocf": 29999000000,
-        "capex": -18829000000,
-        "fcf": 11170000000,
-        "pretaxIncome": 21663000000,
-        "taxProvision": 18954000000,
-        "normalizedIncome": 2675820000,
-        "unusualItems": 42000000,
-        "unusualItemsExGoodwill": 42000000,
-        "unusualTaxEffect": 8820000,
-        "otherNonOperating": 954000000,
-        "stockComp": 5556000000
+        "ocf": 29999000000.0,
+        "capex": -18829000000.0,
+        "fcf": 11170000000.0,
+        "pretaxIncome": 21663000000.0,
+        "taxProvision": 18954000000.0,
+        "normalizedIncome": 2675820000.0,
+        "unusualItems": 42000000.0,
+        "unusualItemsExGoodwill": 42000000.0,
+        "unusualTaxEffect": 8820000.0,
+        "otherNonOperating": 954000000.0,
+        "stockComp": 5556000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 59893000000,
-        "netIncome": 22768000000,
-        "opIncome": 24745000000,
+        "revenue": 59893000000.0,
+        "netIncome": 22768000000.0,
+        "opIncome": 24745000000.0,
         "endDate": "2025-12-31",
         "eps": 8.88,
-        "ocf": 36214000000,
-        "capex": -21383000000,
-        "fcf": 14831000000,
-        "pretaxIncome": 25354000000,
-        "taxProvision": 2586000000,
+        "ocf": 36214000000.0,
+        "capex": -21383000000.0,
+        "fcf": 14831000000.0,
+        "pretaxIncome": 25354000000.0,
+        "taxProvision": 2586000000.0,
         "normalizedIncome": 22873964502.642582,
-        "unusualItems": -118000000,
-        "unusualItemsExGoodwill": -118000000,
+        "unusualItems": -118000000.0,
+        "unusualItemsExGoodwill": -118000000.0,
         "unusualTaxEffect": -12035497.357419,
-        "otherNonOperating": 558000000,
-        "stockComp": 5890000000
+        "otherNonOperating": 558000000.0,
+        "stockComp": 5890000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 56311000000,
-        "netIncome": 26773000000,
-        "opIncome": 22872000000,
+        "revenue": 56311000000.0,
+        "netIncome": 26773000000.0,
+        "opIncome": 22872000000.0,
         "endDate": "2026-03-31",
         "eps": 10.44,
-        "ocf": 32226000000,
-        "capex": -18997000000,
-        "fcf": 13229000000,
-        "pretaxIncome": 21752000000,
-        "taxProvision": -5021000000,
-        "normalizedIncome": 27554200000,
-        "unusualItems": -1302000000,
-        "unusualItemsExGoodwill": -1302000000,
-        "unusualTaxEffect": -520800000,
-        "stockComp": 6032000000
+        "ocf": 32226000000.0,
+        "capex": -18997000000.0,
+        "fcf": 13229000000.0,
+        "pretaxIncome": 21752000000.0,
+        "taxProvision": -5021000000.0,
+        "normalizedIncome": 27554200000.0,
+        "unusualItems": -1302000000.0,
+        "unusualItemsExGoodwill": -1302000000.0,
+        "unusualTaxEffect": -520800000.0,
+        "stockComp": 6032000000.0
       },
       {
         "period": "Q2'26",
@@ -2944,25 +2944,25 @@ const FINANCIALS_DATA = {
         "opIncome": 18775000000,
         "eps": 6.18,
         "endDate": "2026-06-30",
-        "ocf": 31862000000,
-        "capex": -30116000000,
-        "fcf": 1746000000,
-        "pretaxIncome": 18756000000,
-        "taxProvision": 2908000000,
-        "normalizedIncome": 15927800000,
-        "unusualItems": -95000000,
-        "unusualItemsExGoodwill": -95000000,
-        "unusualTaxEffect": -15200000,
-        "stockComp": 7658000000
+        "ocf": 31862000000.0,
+        "capex": -30116000000.0,
+        "fcf": 1746000000.0,
+        "pretaxIncome": 18756000000.0,
+        "taxProvision": 2908000000.0,
+        "normalizedIncome": 15927800000.0,
+        "unusualItems": -95000000.0,
+        "unusualItemsExGoodwill": -95000000.0,
+        "unusualTaxEffect": -15200000.0,
+        "stockComp": 7658000000.0
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -2987,8 +2987,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "TSLA": {
@@ -3007,7 +3007,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 24578000000,
+        "revenue": 24578000000.0,
         "netIncome": -870000000,
         "opIncome": -69000000,
         "eps": -0.98,
@@ -3019,7 +3019,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 31536000000,
+        "revenue": 31536000000.0,
         "netIncome": 690000000,
         "opIncome": 1994000000,
         "eps": 0.21,
@@ -3031,7 +3031,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 53823000000,
+        "revenue": 53823000000.0,
         "netIncome": 5524000000,
         "opIncome": 6523000000,
         "eps": 1.63,
@@ -3043,97 +3043,97 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 81462000000,
+        "revenue": 81462000000.0,
         "netIncome": 12583000000,
         "opIncome": 13656000000,
         "eps": 3.62,
         "ocf": 14724000000,
         "capex": -7158000000,
-        "fcf": 7552000000,
+        "fcf": 7552000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 13719000000,
-        "taxProvision": 1132000000,
-        "normalizedIncome": 12744920000,
-        "unusualItems": -176000000,
-        "unusualItemsExGoodwill": -176000000,
-        "unusualTaxEffect": -14080000,
-        "specialIncomeCharges": -176000000,
-        "otherNonOperating": -43000000,
-        "restructuring": 176000000,
-        "stockComp": 1560000000
+        "pretaxIncome": 13719000000.0,
+        "taxProvision": 1132000000.0,
+        "normalizedIncome": 12744920000.0,
+        "unusualItems": -176000000.0,
+        "unusualItemsExGoodwill": -176000000.0,
+        "unusualTaxEffect": -14080000.0,
+        "specialIncomeCharges": -176000000.0,
+        "otherNonOperating": -43000000.0,
+        "restructuring": 176000000.0,
+        "stockComp": 1560000000.0
       },
       {
         "period": "2023",
-        "revenue": 96773000000,
+        "revenue": 96773000000.0,
         "netIncome": 14999000000,
         "opIncome": 8891000000,
         "eps": 4.3,
         "ocf": 13256000000,
         "capex": -8899000000,
-        "fcf": 4357000000,
+        "fcf": 4357000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9973000000,
-        "taxProvision": -5001000000,
-        "normalizedIncome": 14999000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 172000000,
-        "restructuring": 0,
-        "stockComp": 1812000000
+        "pretaxIncome": 9973000000.0,
+        "taxProvision": -5001000000.0,
+        "normalizedIncome": 14999000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 172000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1812000000.0
       },
       {
         "period": "2024",
-        "revenue": 97690000000,
+        "revenue": 97690000000.0,
         "netIncome": 7130000000,
         "opIncome": 7076000000,
         "eps": 2.04,
         "ocf": 14923000000,
         "capex": -11342000000,
-        "fcf": 3581000000,
+        "fcf": 3581000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 8990000000,
-        "taxProvision": 1837000000,
-        "normalizedIncome": 7677200000,
-        "unusualItems": -684000000,
-        "unusualItemsExGoodwill": -684000000,
-        "unusualTaxEffect": -136800000,
-        "specialIncomeCharges": -684000000,
-        "otherNonOperating": 695000000,
-        "restructuring": 684000000,
-        "stockComp": 1999000000
+        "pretaxIncome": 8990000000.0,
+        "taxProvision": 1837000000.0,
+        "normalizedIncome": 7677200000.0,
+        "unusualItems": -684000000.0,
+        "unusualItemsExGoodwill": -684000000.0,
+        "unusualTaxEffect": -136800000.0,
+        "specialIncomeCharges": -684000000.0,
+        "otherNonOperating": 695000000.0,
+        "restructuring": 684000000.0,
+        "stockComp": 1999000000.0
       },
       {
         "period": "2025",
-        "revenue": 94827000000,
-        "netIncome": 3794000000,
+        "revenue": 94827000000.0,
+        "netIncome": 3794000000.0,
         "opIncome": 4355000000,
         "eps": 1.08,
         "ocf": 14747000000,
         "capex": -8527000000,
-        "fcf": 6220000000,
+        "fcf": 6220000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 5278000000,
-        "taxProvision": 1423000000,
-        "normalizedIncome": 4154620000,
-        "unusualItems": -494000000,
-        "unusualItemsExGoodwill": -494000000,
-        "unusualTaxEffect": -133380000,
-        "specialIncomeCharges": -494000000,
-        "otherNonOperating": -419000000,
-        "restructuring": 494000000,
-        "stockComp": 2825000000
+        "pretaxIncome": 5278000000.0,
+        "taxProvision": 1423000000.0,
+        "normalizedIncome": 4154620000.0,
+        "unusualItems": -494000000.0,
+        "unusualItemsExGoodwill": -494000000.0,
+        "unusualTaxEffect": -133380000.0,
+        "specialIncomeCharges": -494000000.0,
+        "otherNonOperating": -419000000.0,
+        "restructuring": 494000000.0,
+        "stockComp": 2825000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 23350000000,
+        "revenue": 23350000000.0,
         "netIncome": 1851000000,
         "opIncome": 1764000000,
         "endDate": "2023-09-30",
@@ -3141,14 +3141,14 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 25167000000,
+        "revenue": 25167000000.0,
         "netIncome": 7927000000,
         "opIncome": 2064000000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 21301000000,
+        "revenue": 21301000000.0,
         "netIncome": 1432000000,
         "opIncome": 1171000000,
         "endDate": "2024-03-31",
@@ -3156,7 +3156,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'24",
-        "revenue": 25500000000,
+        "revenue": 25500000000.0,
         "netIncome": 1400000000,
         "opIncome": 1605000000,
         "endDate": "2024-06-30",
@@ -3164,7 +3164,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 25182000000,
+        "revenue": 25182000000.0,
         "netIncome": 2173000000,
         "opIncome": 2717000000,
         "endDate": "2024-09-30",
@@ -3172,102 +3172,102 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 25707000000,
+        "revenue": 25707000000.0,
         "netIncome": 2125000000,
         "opIncome": 1583000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 19335000000,
-        "netIncome": 409000000,
+        "revenue": 19335000000.0,
+        "netIncome": 409000000.0,
         "opIncome": 399000000,
         "endDate": "2025-03-31",
         "eps": 0.12
       },
       {
         "period": "Q2'25",
-        "revenue": 22496000000,
-        "netIncome": 1172000000,
+        "revenue": 22496000000.0,
+        "netIncome": 1172000000.0,
         "opIncome": 923000000,
         "endDate": "2025-06-30",
         "eps": 0.33,
-        "ocf": 2540000000,
-        "capex": -2394000000,
-        "fcf": 146000000,
-        "pretaxIncome": 1549000000,
-        "taxProvision": 359000000,
-        "normalizedIncome": 1172000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 320000000,
-        "restructuring": 0,
-        "stockComp": 635000000
+        "ocf": 2540000000.0,
+        "capex": -2394000000.0,
+        "fcf": 146000000.0,
+        "pretaxIncome": 1549000000.0,
+        "taxProvision": 359000000.0,
+        "normalizedIncome": 1172000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 320000000.0,
+        "restructuring": 0.0,
+        "stockComp": 635000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 28095000000,
-        "netIncome": 1373000000,
+        "revenue": 28095000000.0,
+        "netIncome": 1373000000.0,
         "opIncome": 1624000000,
         "endDate": "2025-09-30",
         "eps": 0.39,
-        "ocf": 6238000000,
-        "capex": -2248000000,
-        "fcf": 3990000000,
-        "pretaxIncome": 1959000000,
-        "taxProvision": 570000000,
-        "normalizedIncome": 1541980000,
-        "unusualItems": -238000000,
-        "unusualItemsExGoodwill": -238000000,
-        "unusualTaxEffect": -69020000,
-        "specialIncomeCharges": -238000000,
-        "otherNonOperating": -28000000,
-        "restructuring": 238000000,
-        "stockComp": 663000000
+        "ocf": 6238000000.0,
+        "capex": -2248000000.0,
+        "fcf": 3990000000.0,
+        "pretaxIncome": 1959000000.0,
+        "taxProvision": 570000000.0,
+        "normalizedIncome": 1541980000.0,
+        "unusualItems": -238000000.0,
+        "unusualItemsExGoodwill": -238000000.0,
+        "unusualTaxEffect": -69020000.0,
+        "specialIncomeCharges": -238000000.0,
+        "otherNonOperating": -28000000.0,
+        "restructuring": 238000000.0,
+        "stockComp": 663000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 24901000000,
-        "netIncome": 840000000,
+        "revenue": 24901000000.0,
+        "netIncome": 840000000.0,
         "opIncome": 1409000000,
         "endDate": "2025-12-31",
         "eps": 0.24,
-        "ocf": 3813000000,
-        "capex": -2393000000,
-        "fcf": 1420000000,
-        "pretaxIncome": 1181000000,
-        "taxProvision": 325000000,
+        "ocf": 3813000000.0,
+        "capex": -2393000000.0,
+        "fcf": 1420000000.0,
+        "pretaxIncome": 1181000000.0,
+        "taxProvision": 325000000.0,
         "normalizedIncome": 957419136.325148,
-        "unusualItems": -162000000,
-        "unusualItemsExGoodwill": -162000000,
+        "unusualItems": -162000000.0,
+        "unusualItemsExGoodwill": -162000000.0,
         "unusualTaxEffect": -44580863.674852,
-        "specialIncomeCharges": -162000000,
-        "otherNonOperating": -592000000,
-        "restructuring": 162000000,
-        "stockComp": 954000000
+        "specialIncomeCharges": -162000000.0,
+        "otherNonOperating": -592000000.0,
+        "restructuring": 162000000.0,
+        "stockComp": 954000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 22387000000,
+        "revenue": 22387000000.0,
         "netIncome": 477000000,
         "opIncome": 941000000,
         "endDate": "2026-03-31",
         "eps": 0.13,
-        "ocf": 3937000000,
-        "capex": -2493000000,
-        "fcf": 1444000000,
-        "pretaxIncome": 748000000,
-        "taxProvision": 257000000,
-        "normalizedIncome": 477000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -535000000,
-        "restructuring": 0,
-        "stockComp": 1030000000
+        "ocf": 3937000000.0,
+        "capex": -2493000000.0,
+        "fcf": 1444000000.0,
+        "pretaxIncome": 748000000.0,
+        "taxProvision": 257000000.0,
+        "normalizedIncome": 477000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -535000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1030000000.0
       },
       {
         "period": "Q2'26",
@@ -3276,19 +3276,19 @@ const FINANCIALS_DATA = {
         "opIncome": 398000000,
         "eps": 0.32,
         "endDate": "2026-06-30",
-        "ocf": 4697000000,
-        "capex": -5796000000,
-        "fcf": -1099000000,
-        "pretaxIncome": 1329000000,
-        "taxProvision": 201000000,
-        "normalizedIncome": 1114000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 590000000,
-        "restructuring": 0,
-        "stockComp": 1151000000
+        "ocf": 4697000000.0,
+        "capex": -5796000000.0,
+        "fcf": -1099000000.0,
+        "pretaxIncome": 1329000000.0,
+        "taxProvision": 201000000.0,
+        "normalizedIncome": 1114000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 590000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1151000000.0
       }
     ],
     "_currency": "USD",
@@ -3298,105 +3298,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-20",
-        "shares": 2843702199
+        "shares": 2843702199.0
       },
       {
         "date": "2021-02-01",
-        "shares": 2879560512
+        "shares": 2879560512.0
       },
       {
         "date": "2021-04-21",
-        "shares": 2889991344
+        "shares": 2889991344.0
       },
       {
         "date": "2021-07-22",
-        "shares": 2970045474
+        "shares": 2970045474.0
       },
       {
         "date": "2021-10-21",
-        "shares": 3012794556
+        "shares": 3012794556.0
       },
       {
         "date": "2022-01-31",
-        "shares": 3100522833
+        "shares": 3100522833.0
       },
       {
         "date": "2022-04-19",
-        "shares": 3108029775
+        "shares": 3108029775.0
       },
       {
         "date": "2022-07-19",
-        "shares": 3133470045
+        "shares": 3133470045.0
       },
       {
         "date": "2022-10-18",
-        "shares": 3157752449
+        "shares": 3157752449.0
       },
       {
         "date": "2023-01-25",
-        "shares": 3164102701
+        "shares": 3164102701.0
       },
       {
         "date": "2023-04-17",
-        "shares": 3169504301
+        "shares": 3169504301.0
       },
       {
         "date": "2023-07-17",
-        "shares": 3173994467
+        "shares": 3173994467.0
       },
       {
         "date": "2023-10-16",
-        "shares": 3178921391
+        "shares": 3178921391.0
       },
       {
         "date": "2024-01-22",
-        "shares": 3184790415
+        "shares": 3184790415.0
       },
       {
         "date": "2024-04-18",
-        "shares": 3189196167
+        "shares": 3189196167.0
       },
       {
         "date": "2024-07-18",
-        "shares": 3194640415
+        "shares": 3194640415.0
       },
       {
         "date": "2024-10-18",
-        "shares": 3210059659
+        "shares": 3210059659.0
       },
       {
         "date": "2025-01-22",
-        "shares": 3216517037
+        "shares": 3216517037.0
       },
       {
         "date": "2025-04-16",
-        "shares": 3220956211
+        "shares": 3220956211.0
       },
       {
         "date": "2025-07-17",
-        "shares": 3225448889
+        "shares": 3225448889.0
       },
       {
         "date": "2025-10-16",
-        "shares": 3325819167
+        "shares": 3325819167.0
       },
       {
         "date": "2026-01-23",
-        "shares": 3752431984
+        "shares": 3752431984.0
       },
       {
         "date": "2026-04-16",
-        "shares": 3755723871
+        "shares": 3755723871.0
       },
       {
         "date": "2026-07-16",
-        "shares": 3949547394
+        "shares": 3949547394.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3421,8 +3421,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MU": {
@@ -3453,9 +3453,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 21435000000,
-        "netIncome": 2687000000,
-        "opIncome": 3003000000,
+        "revenue": 21435000000.0,
+        "netIncome": 2687000000.0,
+        "opIncome": 3003000000.0,
         "eps": 2.37,
         "ocf": 8306000000,
         "capex": -8223000000,
@@ -3465,9 +3465,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 27705000000,
-        "netIncome": 5861000000,
-        "opIncome": 6283000000,
+        "revenue": 27705000000.0,
+        "netIncome": 5861000000.0,
+        "opIncome": 6283000000.0,
         "eps": 5.14,
         "ocf": 12468000000,
         "capex": -10030000000,
@@ -3477,236 +3477,236 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 30758000000,
-        "netIncome": 8687000000,
-        "opIncome": 9702000000,
+        "revenue": 30758000000.0,
+        "netIncome": 8687000000.0,
+        "opIncome": 9702000000.0,
         "eps": 7.75,
         "ocf": 15181000000,
         "capex": -12067000000,
-        "fcf": 3114000000,
+        "fcf": 3114000000.0,
         "endDate": "2022-09-01",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9571000000,
-        "taxProvision": 888000000,
-        "normalizedIncome": 8745048000,
-        "unusualItems": -64000000,
-        "unusualItemsExGoodwill": -64000000,
-        "unusualTaxEffect": -5952000,
-        "specialIncomeCharges": -90000000,
-        "otherNonOperating": 19000000,
-        "impairment": 0,
-        "restructuring": -15000000,
-        "stockComp": 514000000
+        "pretaxIncome": 9571000000.0,
+        "taxProvision": 888000000.0,
+        "normalizedIncome": 8745048000.0,
+        "unusualItems": -64000000.0,
+        "unusualItemsExGoodwill": -64000000.0,
+        "unusualTaxEffect": -5952000.0,
+        "specialIncomeCharges": -90000000.0,
+        "otherNonOperating": 19000000.0,
+        "impairment": 0.0,
+        "restructuring": -15000000.0,
+        "stockComp": 514000000.0
       },
       {
         "period": "2023",
-        "revenue": 15540000000,
-        "netIncome": -5833000000,
-        "opIncome": -5745000000,
+        "revenue": 15540000000.0,
+        "netIncome": -5833000000.0,
+        "opIncome": -5745000000.0,
         "eps": -5.34,
         "ocf": 1559000000,
         "capex": -7676000000,
-        "fcf": -6117000000,
+        "fcf": -6117000000.0,
         "endDate": "2023-08-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -5658000000,
-        "taxProvision": 177000000,
-        "normalizedIncome": -5572300000,
-        "unusualItems": -330000000,
-        "unusualItemsExGoodwill": -330000000,
-        "unusualTaxEffect": -69300000,
-        "specialIncomeCharges": -340000000,
-        "otherNonOperating": -3000000,
-        "impairment": 101000000,
-        "restructuring": 157000000,
-        "stockComp": 596000000
+        "pretaxIncome": -5658000000.0,
+        "taxProvision": 177000000.0,
+        "normalizedIncome": -5572300000.0,
+        "unusualItems": -330000000.0,
+        "unusualItemsExGoodwill": -330000000.0,
+        "unusualTaxEffect": -69300000.0,
+        "specialIncomeCharges": -340000000.0,
+        "otherNonOperating": -3000000.0,
+        "impairment": 101000000.0,
+        "restructuring": 157000000.0,
+        "stockComp": 596000000.0
       },
       {
         "period": "2024",
-        "revenue": 25111000000,
-        "netIncome": 778000000,
-        "opIncome": 1304000000,
+        "revenue": 25111000000.0,
+        "netIncome": 778000000.0,
+        "opIncome": 1304000000.0,
         "eps": 0.7,
         "ocf": 8507000000,
         "capex": -8386000000,
-        "fcf": 121000000,
+        "fcf": 121000000.0,
         "endDate": "2024-08-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1240000000,
-        "taxProvision": 451000000,
-        "normalizedIncome": 787540000,
-        "unusualItems": -15000000,
-        "unusualItemsExGoodwill": -15000000,
-        "unusualTaxEffect": -5460000,
-        "specialIncomeCharges": -2000000,
-        "otherNonOperating": -17000000,
-        "impairment": 0,
-        "restructuring": 1000000,
-        "stockComp": 833000000
+        "pretaxIncome": 1240000000.0,
+        "taxProvision": 451000000.0,
+        "normalizedIncome": 787540000.0,
+        "unusualItems": -15000000.0,
+        "unusualItemsExGoodwill": -15000000.0,
+        "unusualTaxEffect": -5460000.0,
+        "specialIncomeCharges": -2000000.0,
+        "otherNonOperating": -17000000.0,
+        "impairment": 0.0,
+        "restructuring": 1000000.0,
+        "stockComp": 833000000.0
       },
       {
         "period": "2025",
-        "revenue": 37378000000,
-        "netIncome": 8539000000,
-        "opIncome": 9770000000,
+        "revenue": 37378000000.0,
+        "netIncome": 8539000000.0,
+        "opIncome": 9770000000.0,
         "eps": 7.59,
         "ocf": 17525000000,
         "capex": -15857000000,
-        "fcf": 1668000000,
+        "fcf": 1668000000.0,
         "endDate": "2025-08-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9654000000,
-        "taxProvision": 1124000000,
-        "normalizedIncome": 8689280000,
-        "unusualItems": -170000000,
-        "unusualItemsExGoodwill": -170000000,
-        "unusualTaxEffect": -19720000,
-        "specialIncomeCharges": -98000000,
-        "otherNonOperating": -4000000,
-        "impairment": 0,
-        "restructuring": 30000000,
-        "stockComp": 972000000
+        "pretaxIncome": 9654000000.0,
+        "taxProvision": 1124000000.0,
+        "normalizedIncome": 8689280000.0,
+        "unusualItems": -170000000.0,
+        "unusualItemsExGoodwill": -170000000.0,
+        "unusualTaxEffect": -19720000.0,
+        "specialIncomeCharges": -98000000.0,
+        "otherNonOperating": -4000000.0,
+        "impairment": 0.0,
+        "restructuring": 30000000.0,
+        "stockComp": 972000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 4010000000,
-        "netIncome": -1430000000,
-        "opIncome": -1472000000,
+        "revenue": 4010000000.0,
+        "netIncome": -1430000000.0,
+        "opIncome": -1472000000.0,
         "endDate": "2023-08-31"
       },
       {
         "period": "Q4'23",
-        "revenue": 4726000000,
-        "netIncome": -1234000000,
-        "opIncome": -1128000000,
+        "revenue": 4726000000.0,
+        "netIncome": -1234000000.0,
+        "opIncome": -1128000000.0,
         "endDate": "2023-11-30",
         "eps": -1.12
       },
       {
         "period": "Q1'24",
-        "revenue": 5824000000,
-        "netIncome": 793000000,
-        "opIncome": 191000000,
+        "revenue": 5824000000.0,
+        "netIncome": 793000000.0,
+        "opIncome": 191000000.0,
         "endDate": "2024-02-29",
         "eps": 0.71
       },
       {
         "period": "Q2'24",
-        "revenue": 6811000000,
-        "netIncome": 332000000,
-        "opIncome": 719000000,
+        "revenue": 6811000000.0,
+        "netIncome": 332000000.0,
+        "opIncome": 719000000.0,
         "endDate": "2024-05-30",
         "eps": 0.3
       },
       {
         "period": "Q3'24",
-        "revenue": 7750000000,
-        "netIncome": 887000000,
-        "opIncome": 1522000000,
+        "revenue": 7750000000.0,
+        "netIncome": 887000000.0,
+        "opIncome": 1522000000.0,
         "endDate": "2024-08-29"
       },
       {
         "period": "Q4'24",
-        "revenue": 8709000000,
-        "netIncome": 1870000000,
-        "opIncome": 2174000000,
+        "revenue": 8709000000.0,
+        "netIncome": 1870000000.0,
+        "opIncome": 2174000000.0,
         "endDate": "2024-11-28",
         "eps": 1.67
       },
       {
         "period": "Q1'25",
-        "revenue": 8053000000,
-        "netIncome": 1583000000,
-        "opIncome": 1773000000,
+        "revenue": 8053000000.0,
+        "netIncome": 1583000000.0,
+        "opIncome": 1773000000.0,
         "endDate": "2025-02-27",
         "eps": 1.41
       },
       {
         "period": "Q2'25",
-        "revenue": 9301000000,
-        "netIncome": 1885000000,
-        "opIncome": 2169000000,
+        "revenue": 9301000000.0,
+        "netIncome": 1885000000.0,
+        "opIncome": 2169000000.0,
         "endDate": "2025-05-29",
         "eps": 1.68,
-        "ocf": 4609000000,
-        "capex": -2938000000,
-        "fcf": 1671000000,
-        "pretaxIncome": 2113000000,
-        "taxProvision": 235000000,
-        "normalizedIncome": 1885000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -68000000,
-        "stockComp": 253000000
+        "ocf": 4609000000.0,
+        "capex": -2938000000.0,
+        "fcf": 1671000000.0,
+        "pretaxIncome": 2113000000.0,
+        "taxProvision": 235000000.0,
+        "normalizedIncome": 1885000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -68000000.0,
+        "stockComp": 253000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 11315000000,
-        "netIncome": 3201000000,
-        "opIncome": 3654000000,
+        "revenue": 11315000000.0,
+        "netIncome": 3201000000.0,
+        "opIncome": 3654000000.0,
         "endDate": "2025-08-28",
         "eps": 2.83,
-        "ocf": 5730000000,
-        "capex": -5658000000,
-        "fcf": 72000000,
-        "pretaxIncome": 3631000000,
-        "taxProvision": 429000000,
-        "normalizedIncome": 3201000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 86000000,
-        "stockComp": 250000000
+        "ocf": 5730000000.0,
+        "capex": -5658000000.0,
+        "fcf": 72000000.0,
+        "pretaxIncome": 3631000000.0,
+        "taxProvision": 429000000.0,
+        "normalizedIncome": 3201000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 86000000.0,
+        "stockComp": 250000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 13643000000,
-        "netIncome": 5240000000,
-        "opIncome": 6136000000,
+        "revenue": 13643000000.0,
+        "netIncome": 5240000000.0,
+        "opIncome": 6136000000.0,
         "endDate": "2025-11-27",
         "eps": 4.6,
-        "ocf": 8411000000,
-        "capex": -5389000000,
-        "fcf": 3022000000,
-        "pretaxIncome": 6061000000,
-        "taxProvision": 829000000,
-        "normalizedIncome": 5240000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -140000000,
-        "stockComp": 290000000
+        "ocf": 8411000000.0,
+        "capex": -5389000000.0,
+        "fcf": 3022000000.0,
+        "pretaxIncome": 6061000000.0,
+        "taxProvision": 829000000.0,
+        "normalizedIncome": 5240000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -140000000.0,
+        "stockComp": 290000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 23860000000,
-        "netIncome": 13785000000,
-        "opIncome": 16135000000,
+        "revenue": 23860000000.0,
+        "netIncome": 13785000000.0,
+        "opIncome": 16135000000.0,
         "endDate": "2026-02-26",
         "eps": 12.07,
-        "ocf": 11903000000,
-        "capex": -6387000000,
-        "fcf": 5516000000,
-        "pretaxIncome": 16160000000,
-        "taxProvision": 2371000000,
-        "normalizedIncome": 13785000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -98000000,
-        "stockComp": 309000000
+        "ocf": 11903000000.0,
+        "capex": -6387000000.0,
+        "fcf": 5516000000.0,
+        "pretaxIncome": 16160000000.0,
+        "taxProvision": 2371000000.0,
+        "normalizedIncome": 13785000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -98000000.0,
+        "stockComp": 309000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 41456000000,
-        "netIncome": 28243000000,
-        "opIncome": 33318000000,
+        "revenue": 41456000000.0,
+        "netIncome": 28243000000.0,
+        "opIncome": 33318000000.0,
         "endDate": "2026-05-28",
         "eps": 24.67,
-        "ocf": 25388000000,
-        "capex": -7826000000,
-        "fcf": 17562000000,
-        "pretaxIncome": 33212000000,
-        "taxProvision": 4978000000,
-        "normalizedIncome": 28243000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -321000000,
-        "stockComp": 355000000
+        "ocf": 25388000000.0,
+        "capex": -7826000000.0,
+        "fcf": 17562000000.0,
+        "pretaxIncome": 33212000000.0,
+        "taxProvision": 4978000000.0,
+        "normalizedIncome": 28243000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -321000000.0,
+        "stockComp": 355000000.0
       }
     ],
     "_currency": "USD",
@@ -3716,105 +3716,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-09",
-        "shares": 1113221799
+        "shares": 1113221799.0
       },
       {
         "date": "2021-01-04",
-        "shares": 1118671492
+        "shares": 1118671492.0
       },
       {
         "date": "2021-03-25",
-        "shares": 1121415561
+        "shares": 1121415561.0
       },
       {
         "date": "2021-06-24",
-        "shares": 1125753560
+        "shares": 1125753560.0
       },
       {
         "date": "2021-10-01",
-        "shares": 1118623738
+        "shares": 1118623738.0
       },
       {
         "date": "2022-01-03",
-        "shares": 1119777110
+        "shares": 1119777110.0
       },
       {
         "date": "2022-03-24",
-        "shares": 1116666857
+        "shares": 1116666857.0
       },
       {
         "date": "2022-06-24",
-        "shares": 1103145108
+        "shares": 1103145108.0
       },
       {
         "date": "2022-09-30",
-        "shares": 1087168584
+        "shares": 1087168584.0
       },
       {
         "date": "2022-12-16",
-        "shares": 1091176552
+        "shares": 1091176552.0
       },
       {
         "date": "2023-03-23",
-        "shares": 1094394354
+        "shares": 1094394354.0
       },
       {
         "date": "2023-06-22",
-        "shares": 1095301608
+        "shares": 1095301608.0
       },
       {
         "date": "2023-09-29",
-        "shares": 1098034471
+        "shares": 1098034471.0
       },
       {
         "date": "2023-12-14",
-        "shares": 1103908880
+        "shares": 1103908880.0
       },
       {
         "date": "2024-03-14",
-        "shares": 1107368110
+        "shares": 1107368110.0
       },
       {
         "date": "2024-06-20",
-        "shares": 1108841326
+        "shares": 1108841326.0
       },
       {
         "date": "2024-09-27",
-        "shares": 1108742682
+        "shares": 1108742682.0
       },
       {
         "date": "2024-12-12",
-        "shares": 1114171932
+        "shares": 1114171932.0
       },
       {
         "date": "2025-03-13",
-        "shares": 1117571525
+        "shares": 1117571525.0
       },
       {
         "date": "2025-06-18",
-        "shares": 1119125101
+        "shares": 1119125101.0
       },
       {
         "date": "2025-09-26",
-        "shares": 1122466035
+        "shares": 1122466035.0
       },
       {
         "date": "2025-12-10",
-        "shares": 1125509261
+        "shares": 1125509261.0
       },
       {
         "date": "2026-03-11",
-        "shares": 1127734051
+        "shares": 1127734051.0
       },
       {
         "date": "2026-06-17",
-        "shares": 1129393151
+        "shares": 1129393151.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -3839,8 +3839,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMD": {
@@ -3859,9 +3859,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 6731000000,
-        "netIncome": 341000000,
-        "opIncome": 631000000,
+        "revenue": 6731000000.0,
+        "netIncome": 341000000.0,
+        "opIncome": 631000000.0,
         "eps": 0.3,
         "ocf": 493000000,
         "capex": -217000000,
@@ -3871,9 +3871,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 9763000000,
-        "netIncome": 2490000000,
-        "opIncome": 1369000000,
+        "revenue": 9763000000.0,
+        "netIncome": 2490000000.0,
+        "opIncome": 1369000000.0,
         "eps": 2.06,
         "ocf": 1071000000,
         "capex": -294000000,
@@ -3883,9 +3883,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 16434000000,
-        "netIncome": 3162000000,
-        "opIncome": 3648000000,
+        "revenue": 16434000000.0,
+        "netIncome": 3162000000.0,
+        "opIncome": 3648000000.0,
         "eps": 2.57,
         "ocf": 3521000000,
         "capex": -301000000,
@@ -3901,209 +3901,209 @@ const FINANCIALS_DATA = {
         "eps": 0.84,
         "ocf": 3565000000,
         "capex": -450000000,
-        "fcf": 3115000000,
+        "fcf": 3115000000.0,
         "_fcfIsProxy": false,
         "endDate": "2022-12-31",
-        "pretaxIncome": 1184000000,
-        "taxProvision": -122000000,
-        "normalizedIncome": 1320000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 5000000,
-        "restructuring": 0,
-        "stockComp": 1081000000
+        "pretaxIncome": 1184000000.0,
+        "taxProvision": -122000000.0,
+        "normalizedIncome": 1320000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 5000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1081000000.0
       },
       {
         "period": "2023",
-        "revenue": 22680000000,
-        "netIncome": 854000000,
-        "opIncome": 401000000,
+        "revenue": 22680000000.0,
+        "netIncome": 854000000.0,
+        "opIncome": 401000000.0,
         "eps": 0.53,
         "ocf": 1667000000,
         "capex": -546000000,
-        "fcf": 1121000000,
+        "fcf": 1121000000.0,
         "endDate": "2023-12-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 492000000,
-        "taxProvision": -346000000,
-        "normalizedIncome": 853210000,
-        "unusualItems": 1000000,
-        "unusualItemsExGoodwill": 1000000,
-        "unusualTaxEffect": 210000,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -10000000,
-        "restructuring": 0,
-        "stockComp": 1384000000
+        "pretaxIncome": 492000000.0,
+        "taxProvision": -346000000.0,
+        "normalizedIncome": 853210000.0,
+        "unusualItems": 1000000.0,
+        "unusualItemsExGoodwill": 1000000.0,
+        "unusualTaxEffect": 210000.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -10000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1384000000.0
       },
       {
         "period": "2024",
-        "revenue": 25785000000,
-        "netIncome": 1641000000,
-        "opIncome": 1900000000,
-        "eps": 1,
+        "revenue": 25785000000.0,
+        "netIncome": 1641000000.0,
+        "opIncome": 1900000000.0,
+        "eps": 1.0,
         "ocf": 3041000000,
         "capex": -636000000,
-        "fcf": 2405000000,
+        "fcf": 2405000000.0,
         "endDate": "2024-12-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1989000000,
-        "taxProvision": 381000000,
-        "normalizedIncome": 1793280000,
-        "unusualItems": -188000000,
-        "unusualItemsExGoodwill": -188000000,
-        "unusualTaxEffect": -35720000,
-        "specialIncomeCharges": -186000000,
-        "otherNonOperating": 1000000,
-        "restructuring": 186000000,
-        "stockComp": 1407000000
+        "pretaxIncome": 1989000000.0,
+        "taxProvision": 381000000.0,
+        "normalizedIncome": 1793280000.0,
+        "unusualItems": -188000000.0,
+        "unusualItemsExGoodwill": -188000000.0,
+        "unusualTaxEffect": -35720000.0,
+        "specialIncomeCharges": -186000000.0,
+        "otherNonOperating": 1000000.0,
+        "restructuring": 186000000.0,
+        "stockComp": 1407000000.0
       },
       {
         "period": "2025",
-        "revenue": 34639000000,
-        "netIncome": 4335000000,
-        "opIncome": 3694000000,
+        "revenue": 34639000000.0,
+        "netIncome": 4335000000.0,
+        "opIncome": 3694000000.0,
         "eps": 2.65,
         "ocf": 7709000000,
         "capex": -974000000,
-        "fcf": 6735000000,
+        "fcf": 6735000000.0,
         "endDate": "2025-12-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4140000000,
-        "taxProvision": -103000000,
-        "normalizedIncome": 3979860000,
-        "unusualItems": 366000000,
-        "unusualItemsExGoodwill": 366000000,
-        "unusualTaxEffect": 76860000,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -4000000,
-        "restructuring": 0,
-        "stockComp": 1638000000
+        "pretaxIncome": 4140000000.0,
+        "taxProvision": -103000000.0,
+        "normalizedIncome": 3979860000.0,
+        "unusualItems": 366000000.0,
+        "unusualItemsExGoodwill": 366000000.0,
+        "unusualTaxEffect": 76860000.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -4000000.0,
+        "restructuring": 0.0,
+        "stockComp": 1638000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 5800000000,
-        "netIncome": 299000000,
-        "opIncome": 224000000,
+        "revenue": 5800000000.0,
+        "netIncome": 299000000.0,
+        "opIncome": 224000000.0,
         "endDate": "2023-09-30",
         "eps": 0.18
       },
       {
         "period": "Q4'23",
-        "revenue": 6168000000,
-        "netIncome": 667000000,
-        "opIncome": 342000000,
+        "revenue": 6168000000.0,
+        "netIncome": 667000000.0,
+        "opIncome": 342000000.0,
         "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
-        "revenue": 5473000000,
-        "netIncome": 123000000,
-        "opIncome": 36000000,
+        "revenue": 5473000000.0,
+        "netIncome": 123000000.0,
+        "opIncome": 36000000.0,
         "endDate": "2024-03-30",
         "eps": 0.07
       },
       {
         "period": "Q2'24",
-        "revenue": 5835000000,
-        "netIncome": 265000000,
-        "opIncome": 269000000,
+        "revenue": 5835000000.0,
+        "netIncome": 265000000.0,
+        "opIncome": 269000000.0,
         "endDate": "2024-06-29",
         "eps": 0.16
       },
       {
         "period": "Q3'24",
-        "revenue": 6819000000,
-        "netIncome": 771000000,
-        "opIncome": 724000000,
+        "revenue": 6819000000.0,
+        "netIncome": 771000000.0,
+        "opIncome": 724000000.0,
         "endDate": "2024-09-28",
         "eps": 0.47
       },
       {
         "period": "Q4'24",
-        "revenue": 7658000000,
-        "netIncome": 482000000,
-        "opIncome": 871000000,
+        "revenue": 7658000000.0,
+        "netIncome": 482000000.0,
+        "opIncome": 871000000.0,
         "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
-        "revenue": 7438000000,
-        "netIncome": 709000000,
-        "opIncome": 806000000,
+        "revenue": 7438000000.0,
+        "netIncome": 709000000.0,
+        "opIncome": 806000000.0,
         "endDate": "2025-03-29",
         "eps": 0.44
       },
       {
         "period": "Q2'25",
-        "revenue": 7685000000,
-        "netIncome": 872000000,
-        "opIncome": -134000000,
+        "revenue": 7685000000.0,
+        "netIncome": 872000000.0,
+        "opIncome": -134000000.0,
         "endDate": "2025-06-28",
         "eps": 0.54,
-        "ocf": 2011000000,
-        "capex": -282000000,
-        "fcf": 1729000000,
-        "pretaxIncome": -74000000,
-        "taxProvision": -834000000,
-        "normalizedIncome": 768000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 98000000,
-        "stockComp": 369000000
+        "ocf": 2011000000.0,
+        "capex": -282000000.0,
+        "fcf": 1729000000.0,
+        "pretaxIncome": -74000000.0,
+        "taxProvision": -834000000.0,
+        "normalizedIncome": 768000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 98000000.0,
+        "stockComp": 369000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 9246000000,
-        "netIncome": 1243000000,
-        "opIncome": 1270000000,
+        "revenue": 9246000000.0,
+        "netIncome": 1243000000.0,
+        "opIncome": 1270000000.0,
         "endDate": "2025-09-27",
         "eps": 0.75,
-        "ocf": 2159000000,
-        "capex": -258000000,
-        "fcf": 1901000000,
-        "pretaxIncome": 1315000000,
-        "taxProvision": 153000000,
-        "normalizedIncome": 1172000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 82000000,
-        "stockComp": 419000000
+        "ocf": 2159000000.0,
+        "capex": -258000000.0,
+        "fcf": 1901000000.0,
+        "pretaxIncome": 1315000000.0,
+        "taxProvision": 153000000.0,
+        "normalizedIncome": 1172000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 82000000.0,
+        "stockComp": 419000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 10270000000,
-        "netIncome": 1511000000,
-        "opIncome": 1752000000,
+        "revenue": 10270000000.0,
+        "netIncome": 1511000000.0,
+        "opIncome": 1752000000.0,
         "endDate": "2025-12-27",
         "eps": 0.92,
-        "ocf": 2600000000,
-        "capex": -222000000,
-        "fcf": 2378000000,
-        "pretaxIncome": 2074000000,
-        "taxProvision": 455000000,
-        "normalizedIncome": 1620000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -223000000,
-        "stockComp": 486000000
+        "ocf": 2600000000.0,
+        "capex": -222000000.0,
+        "fcf": 2378000000.0,
+        "pretaxIncome": 2074000000.0,
+        "taxProvision": 455000000.0,
+        "normalizedIncome": 1620000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -223000000.0,
+        "stockComp": 486000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 10253000000,
-        "netIncome": 1383000000,
-        "opIncome": 1476000000,
+        "revenue": 10253000000.0,
+        "netIncome": 1383000000.0,
+        "opIncome": 1476000000.0,
         "endDate": "2026-03-28",
         "eps": 0.84,
-        "ocf": 2955000000,
-        "capex": -389000000,
-        "fcf": 2566000000,
-        "pretaxIncome": 1604000000,
-        "taxProvision": 238000000,
-        "normalizedIncome": 1372000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 165000000,
-        "stockComp": 487000000
+        "ocf": 2955000000.0,
+        "capex": -389000000.0,
+        "fcf": 2566000000.0,
+        "pretaxIncome": 1604000000.0,
+        "taxProvision": 238000000.0,
+        "normalizedIncome": 1372000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 165000000.0,
+        "stockComp": 487000000.0
       },
       {
         "period": "Q2'26",
@@ -4112,15 +4112,15 @@ const FINANCIALS_DATA = {
         "opIncome": 1990000000,
         "eps": 1.38,
         "endDate": "2026-06-27",
-        "ocf": 2366000000,
-        "capex": -808000000,
-        "fcf": 1558000000,
-        "pretaxIncome": 2551000000,
-        "taxProvision": 252000000,
-        "normalizedIncome": 2305000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 598000000,
-        "stockComp": 503000000
+        "ocf": 2366000000.0,
+        "capex": -808000000.0,
+        "fcf": 1558000000.0,
+        "pretaxIncome": 2551000000.0,
+        "taxProvision": 252000000.0,
+        "normalizedIncome": 2305000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 598000000.0,
+        "stockComp": 503000000.0
       }
     ],
     "_currency": "USD",
@@ -4130,105 +4130,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 1202711638
+        "shares": 1202711638.0
       },
       {
         "date": "2021-01-22",
-        "shares": 1211280009
+        "shares": 1211280009.0
       },
       {
         "date": "2021-04-23",
-        "shares": 1215020976
+        "shares": 1215020976.0
       },
       {
         "date": "2021-07-23",
-        "shares": 1212965282
+        "shares": 1212965282.0
       },
       {
         "date": "2021-10-22",
-        "shares": 1207610455
+        "shares": 1207610455.0
       },
       {
         "date": "2022-01-28",
-        "shares": 1199303422
+        "shares": 1199303422.0
       },
       {
         "date": "2022-04-27",
-        "shares": 1620507904
+        "shares": 1620507904.0
       },
       {
         "date": "2022-07-28",
-        "shares": 1614320900
+        "shares": 1614320900.0
       },
       {
         "date": "2022-10-28",
-        "shares": 1612356162
+        "shares": 1612356162.0
       },
       {
         "date": "2023-02-22",
-        "shares": 1611388217
+        "shares": 1611388217.0
       },
       {
         "date": "2023-04-28",
-        "shares": 1610361870
+        "shares": 1610361870.0
       },
       {
         "date": "2023-07-28",
-        "shares": 1615671380
+        "shares": 1615671380.0
       },
       {
         "date": "2023-10-27",
-        "shares": 1615498891
+        "shares": 1615498891.0
       },
       {
         "date": "2024-01-25",
-        "shares": 1615786841
+        "shares": 1615786841.0
       },
       {
         "date": "2024-04-25",
-        "shares": 1616313871
+        "shares": 1616313871.0
       },
       {
         "date": "2024-07-24",
-        "shares": 1618481845
+        "shares": 1618481845.0
       },
       {
         "date": "2024-10-23",
-        "shares": 1622807346
+        "shares": 1622807346.0
       },
       {
         "date": "2025-01-30",
-        "shares": 1620477962
+        "shares": 1620477962.0
       },
       {
         "date": "2025-05-01",
-        "shares": 1621404195
+        "shares": 1621404195.0
       },
       {
         "date": "2025-07-30",
-        "shares": 1622843689
+        "shares": 1622843689.0
       },
       {
         "date": "2025-10-30",
-        "shares": 1628041540
+        "shares": 1628041540.0
       },
       {
         "date": "2026-01-30",
-        "shares": 1630410843
+        "shares": 1630410843.0
       },
       {
         "date": "2026-04-29",
-        "shares": 1630600639
+        "shares": 1630600639.0
       },
       {
         "date": "2026-07-29",
-        "shares": 1632475042
+        "shares": 1632475042.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4253,8 +4253,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "INTC": {
@@ -4273,9 +4273,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 71965000000,
-        "netIncome": 21048000000,
-        "opIncome": 22035000000,
+        "revenue": 71965000000.0,
+        "netIncome": 21048000000.0,
+        "opIncome": 22035000000.0,
         "eps": 4.71,
         "ocf": 33145000000,
         "capex": -16213000000,
@@ -4285,9 +4285,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 77867000000,
-        "netIncome": 20899000000,
-        "opIncome": 23678000000,
+        "revenue": 77867000000.0,
+        "netIncome": 20899000000.0,
+        "opIncome": 23678000000.0,
         "eps": 4.94,
         "ocf": 35864000000,
         "capex": -14259000000,
@@ -4297,9 +4297,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 79024000000,
-        "netIncome": 19868000000,
-        "opIncome": 19456000000,
+        "revenue": 79024000000.0,
+        "netIncome": 19868000000.0,
+        "opIncome": 19456000000.0,
         "eps": 4.86,
         "ocf": 29456000000,
         "capex": -18733000000,
@@ -4309,223 +4309,223 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 63054000000,
-        "netIncome": 8014000000,
-        "opIncome": 2334000000,
+        "revenue": 63054000000.0,
+        "netIncome": 8014000000.0,
+        "opIncome": 2334000000.0,
         "eps": 1.94,
         "ocf": 15433000000,
         "capex": -24844000000,
-        "fcf": -9411000000,
+        "fcf": -9411000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 7768000000,
-        "taxProvision": -249000000,
-        "normalizedIncome": 3853860000,
-        "unusualItems": 5266000000,
-        "unusualItemsExGoodwill": 5266000000,
-        "unusualTaxEffect": 1105860000,
-        "specialIncomeCharges": 808000000,
-        "restructuring": 1038000000,
-        "stockComp": 3128000000
+        "pretaxIncome": 7768000000.0,
+        "taxProvision": -249000000.0,
+        "normalizedIncome": 3853860000.0,
+        "unusualItems": 5266000000.0,
+        "unusualItemsExGoodwill": 5266000000.0,
+        "unusualTaxEffect": 1105860000.0,
+        "specialIncomeCharges": 808000000.0,
+        "restructuring": 1038000000.0,
+        "stockComp": 3128000000.0
       },
       {
         "period": "2023",
-        "revenue": 54228000000,
-        "netIncome": 1689000000,
-        "opIncome": 93000000,
+        "revenue": 54228000000.0,
+        "netIncome": 1689000000.0,
+        "opIncome": 93000000.0,
         "eps": 0.4,
         "ocf": 11471000000,
         "capex": -25750000000,
-        "fcf": -14279000000,
+        "fcf": -14279000000.0,
         "endDate": "2023-12-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 762000000,
-        "taxProvision": -913000000,
-        "normalizedIncome": 1608420000,
-        "unusualItems": 102000000,
-        "unusualItemsExGoodwill": 102000000,
-        "unusualTaxEffect": 21420000,
-        "specialIncomeCharges": -152000000,
-        "restructuring": 222000000,
-        "stockComp": 3229000000
+        "pretaxIncome": 762000000.0,
+        "taxProvision": -913000000.0,
+        "normalizedIncome": 1608420000.0,
+        "unusualItems": 102000000.0,
+        "unusualItemsExGoodwill": 102000000.0,
+        "unusualTaxEffect": 21420000.0,
+        "specialIncomeCharges": -152000000.0,
+        "restructuring": 222000000.0,
+        "stockComp": 3229000000.0
       },
       {
         "period": "2024",
-        "revenue": 53101000000,
-        "netIncome": -18756000000,
-        "opIncome": -11678000000,
+        "revenue": 53101000000.0,
+        "netIncome": -18756000000.0,
+        "opIncome": -11678000000.0,
         "eps": -4.38,
         "ocf": 8288000000,
         "capex": -23944000000,
-        "fcf": -15656000000,
+        "fcf": -15656000000.0,
         "endDate": "2024-12-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": -11210000000,
-        "taxProvision": 8023000000,
-        "normalizedIncome": -12844430000,
-        "unusualItems": -7483000000,
-        "unusualItemsExGoodwill": -7483000000,
-        "unusualTaxEffect": -1571430000,
-        "specialIncomeCharges": -7317000000,
-        "restructuring": 2481000000,
-        "stockComp": 3410000000
+        "pretaxIncome": -11210000000.0,
+        "taxProvision": 8023000000.0,
+        "normalizedIncome": -12844430000.0,
+        "unusualItems": -7483000000.0,
+        "unusualItemsExGoodwill": -7483000000.0,
+        "unusualTaxEffect": -1571430000.0,
+        "specialIncomeCharges": -7317000000.0,
+        "restructuring": 2481000000.0,
+        "stockComp": 3410000000.0
       },
       {
         "period": "2025",
-        "revenue": 52853000000,
-        "netIncome": -267000000,
-        "opIncome": -2214000000,
+        "revenue": 52853000000.0,
+        "netIncome": -267000000.0,
+        "opIncome": -2214000000.0,
         "eps": -0.06,
         "ocf": 9697000000,
         "capex": -14646000000,
-        "fcf": -4949000000,
+        "fcf": -4949000000.0,
         "endDate": "2025-12-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1557000000,
-        "taxProvision": 1531000000,
-        "normalizedIncome": -1729290000,
-        "unusualItems": 1851000000,
-        "unusualItemsExGoodwill": 1851000000,
-        "unusualTaxEffect": 388710000,
-        "specialIncomeCharges": 2833000000,
-        "restructuring": 1790000000,
-        "stockComp": 2434000000
+        "pretaxIncome": 1557000000.0,
+        "taxProvision": 1531000000.0,
+        "normalizedIncome": -1729290000.0,
+        "unusualItems": 1851000000.0,
+        "unusualItemsExGoodwill": 1851000000.0,
+        "unusualTaxEffect": 388710000.0,
+        "specialIncomeCharges": 2833000000.0,
+        "restructuring": 1790000000.0,
+        "stockComp": 2434000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
         "revenue": 14158000000,
-        "netIncome": 297000000,
-        "opIncome": -8000000,
+        "netIncome": 297000000.0,
+        "opIncome": -8000000.0,
         "endDate": "2023-09-30",
         "eps": 0.07
       },
       {
         "period": "Q4'23",
-        "revenue": 15406000000,
-        "netIncome": 2669000000,
-        "opIncome": 2585000000,
+        "revenue": 15406000000.0,
+        "netIncome": 2669000000.0,
+        "opIncome": 2585000000.0,
         "endDate": "2023-12-30"
       },
       {
         "period": "Q1'24",
-        "revenue": 12724000000,
-        "netIncome": -381000000,
-        "opIncome": -1069000000,
+        "revenue": 12724000000.0,
+        "netIncome": -381000000.0,
+        "opIncome": -1069000000.0,
         "endDate": "2024-03-30",
         "eps": -0.09
       },
       {
         "period": "Q2'24",
-        "revenue": 12833000000,
-        "netIncome": -1610000000,
-        "opIncome": -1964000000,
+        "revenue": 12833000000.0,
+        "netIncome": -1610000000.0,
+        "opIncome": -1964000000.0,
         "endDate": "2024-06-29",
         "eps": -0.38
       },
       {
         "period": "Q3'24",
-        "revenue": 13284000000,
-        "netIncome": -16639000000,
-        "opIncome": -9057000000,
+        "revenue": 13284000000.0,
+        "netIncome": -16639000000.0,
+        "opIncome": -9057000000.0,
         "endDate": "2024-09-28",
         "eps": -3.88
       },
       {
         "period": "Q4'24",
-        "revenue": 14260000000,
-        "netIncome": -126000000,
-        "opIncome": 412000000,
+        "revenue": 14260000000.0,
+        "netIncome": -126000000.0,
+        "opIncome": 412000000.0,
         "endDate": "2024-12-28"
       },
       {
         "period": "Q1'25",
-        "revenue": 12667000000,
-        "netIncome": -821000000,
-        "opIncome": -301000000,
+        "revenue": 12667000000.0,
+        "netIncome": -821000000.0,
+        "opIncome": -301000000.0,
         "endDate": "2025-03-29",
         "eps": -0.19
       },
       {
         "period": "Q2'25",
-        "revenue": 12859000000,
-        "netIncome": -2918000000,
-        "opIncome": -3176000000,
+        "revenue": 12859000000.0,
+        "netIncome": -2918000000.0,
+        "opIncome": -3176000000.0,
         "endDate": "2025-06-28",
         "eps": -0.67,
-        "ocf": 2050000000,
-        "capex": -3550000000,
-        "fcf": -1500000000,
-        "pretaxIncome": -2769000000,
-        "taxProvision": 255000000,
-        "normalizedIncome": -1895740000,
-        "unusualItems": -1294000000,
-        "unusualItemsExGoodwill": -1294000000,
-        "unusualTaxEffect": -271740000,
-        "specialIncomeCharges": -1847000000,
-        "restructuring": 1466000000,
-        "stockComp": 664000000
+        "ocf": 2050000000.0,
+        "capex": -3550000000.0,
+        "fcf": -1500000000.0,
+        "pretaxIncome": -2769000000.0,
+        "taxProvision": 255000000.0,
+        "normalizedIncome": -1895740000.0,
+        "unusualItems": -1294000000.0,
+        "unusualItemsExGoodwill": -1294000000.0,
+        "unusualTaxEffect": -271740000.0,
+        "specialIncomeCharges": -1847000000.0,
+        "restructuring": 1466000000.0,
+        "stockComp": 664000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 13653000000,
-        "netIncome": 4063000000,
-        "opIncome": 683000000,
+        "revenue": 13653000000.0,
+        "netIncome": 4063000000.0,
+        "opIncome": 683000000.0,
         "endDate": "2025-09-27",
         "eps": 0.9,
-        "ocf": 2546000000,
-        "capex": -2425000000,
-        "fcf": 121000000,
-        "pretaxIncome": 4574000000,
-        "taxProvision": 304000000,
-        "normalizedIncome": 415730000,
-        "unusualItems": 3905000000,
-        "unusualItemsExGoodwill": 3905000000,
-        "unusualTaxEffect": 257730000,
-        "specialIncomeCharges": 5295000000,
-        "restructuring": 146000000,
-        "stockComp": 548000000
+        "ocf": 2546000000.0,
+        "capex": -2425000000.0,
+        "fcf": 121000000.0,
+        "pretaxIncome": 4574000000.0,
+        "taxProvision": 304000000.0,
+        "normalizedIncome": 415730000.0,
+        "unusualItems": 3905000000.0,
+        "unusualItemsExGoodwill": 3905000000.0,
+        "unusualTaxEffect": 257730000.0,
+        "specialIncomeCharges": 5295000000.0,
+        "restructuring": 146000000.0,
+        "stockComp": 548000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 13674000000,
-        "netIncome": -591000000,
-        "opIncome": 580000000,
+        "revenue": 13674000000.0,
+        "netIncome": -591000000.0,
+        "opIncome": 580000000.0,
         "endDate": "2025-12-27",
         "eps": -0.12,
-        "ocf": 4288000000,
-        "capex": -3488000000,
-        "fcf": 800000000,
-        "pretaxIncome": 338000000,
-        "taxProvision": 671000000,
-        "normalizedIncome": -276580000,
-        "unusualItems": -398000000,
-        "unusualItemsExGoodwill": -398000000,
-        "unusualTaxEffect": -83580000,
-        "specialIncomeCharges": -260000000,
-        "restructuring": 36000000,
-        "stockComp": 538000000
+        "ocf": 4288000000.0,
+        "capex": -3488000000.0,
+        "fcf": 800000000.0,
+        "pretaxIncome": 338000000.0,
+        "taxProvision": 671000000.0,
+        "normalizedIncome": -276580000.0,
+        "unusualItems": -398000000.0,
+        "unusualItemsExGoodwill": -398000000.0,
+        "unusualTaxEffect": -83580000.0,
+        "specialIncomeCharges": -260000000.0,
+        "restructuring": 36000000.0,
+        "stockComp": 538000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 13577000000,
-        "netIncome": -3728000000,
-        "opIncome": -3136000000,
+        "revenue": 13577000000.0,
+        "netIncome": -3728000000.0,
+        "opIncome": -3136000000.0,
         "endDate": "2026-03-28",
         "eps": -0.73,
-        "ocf": 1096000000,
-        "capex": -3636000000,
-        "fcf": -2540000000,
-        "pretaxIncome": -3946000000,
-        "taxProvision": 335000000,
-        "normalizedIncome": -588800000,
-        "unusualItems": -5232000000,
-        "unusualItemsExGoodwill": -5232000000,
-        "unusualTaxEffect": -2092800000,
-        "specialIncomeCharges": -4132000000,
-        "restructuring": 74000000,
-        "stockComp": 621000000
+        "ocf": 1096000000.0,
+        "capex": -3636000000.0,
+        "fcf": -2540000000.0,
+        "pretaxIncome": -3946000000.0,
+        "taxProvision": 335000000.0,
+        "normalizedIncome": -588800000.0,
+        "unusualItems": -5232000000.0,
+        "unusualItemsExGoodwill": -5232000000.0,
+        "unusualTaxEffect": -2092800000.0,
+        "specialIncomeCharges": -4132000000.0,
+        "restructuring": 74000000.0,
+        "stockComp": 621000000.0
       },
       {
         "period": "Q2'26",
@@ -4534,18 +4534,18 @@ const FINANCIALS_DATA = {
         "opIncome": 1796000000,
         "eps": -2.16,
         "endDate": "2026-06-27",
-        "ocf": 7006000000,
-        "capex": -2556000000,
-        "fcf": 4450000000,
-        "pretaxIncome": -10819000000,
-        "taxProvision": 29000000,
-        "normalizedIncome": -3390200000,
-        "unusualItems": -12738000000,
-        "unusualItemsExGoodwill": -12738000000,
-        "unusualTaxEffect": -5095200000,
-        "specialIncomeCharges": -262000000,
-        "restructuring": 161000000,
-        "stockComp": 686000000
+        "ocf": 7006000000.0,
+        "capex": -2556000000.0,
+        "fcf": 4450000000.0,
+        "pretaxIncome": -10819000000.0,
+        "taxProvision": 29000000.0,
+        "normalizedIncome": -3390200000.0,
+        "unusualItems": -12738000000.0,
+        "unusualItemsExGoodwill": -12738000000.0,
+        "unusualTaxEffect": -5095200000.0,
+        "specialIncomeCharges": -262000000.0,
+        "restructuring": 161000000.0,
+        "stockComp": 686000000.0
       }
     ],
     "_currency": "USD",
@@ -4555,105 +4555,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-09-26",
-        "shares": 4098000000
+        "shares": 4098000000.0
       },
       {
         "date": "2021-01-15",
-        "shares": 4063000000
+        "shares": 4063000000.0
       },
       {
         "date": "2021-03-27",
-        "shares": 4038000000
+        "shares": 4038000000.0
       },
       {
         "date": "2021-06-26",
-        "shares": 4057000000
+        "shares": 4057000000.0
       },
       {
         "date": "2021-09-25",
-        "shares": 4067000000
+        "shares": 4067000000.0
       },
       {
         "date": "2022-01-21",
-        "shares": 4072000000
+        "shares": 4072000000.0
       },
       {
         "date": "2022-04-02",
-        "shares": 4089000000
+        "shares": 4089000000.0
       },
       {
         "date": "2022-07-02",
-        "shares": 4106000000
+        "shares": 4106000000.0
       },
       {
         "date": "2022-10-01",
-        "shares": 4127000000
+        "shares": 4127000000.0
       },
       {
         "date": "2023-01-20",
-        "shares": 4137000000
+        "shares": 4137000000.0
       },
       {
         "date": "2023-04-21",
-        "shares": 4171000000
+        "shares": 4171000000.0
       },
       {
         "date": "2023-07-21",
-        "shares": 4188000000
+        "shares": 4188000000.0
       },
       {
         "date": "2023-10-20",
-        "shares": 4216000000
+        "shares": 4216000000.0
       },
       {
         "date": "2024-01-19",
-        "shares": 4228000000
+        "shares": 4228000000.0
       },
       {
         "date": "2024-04-19",
-        "shares": 4257000000
+        "shares": 4257000000.0
       },
       {
         "date": "2024-07-26",
-        "shares": 4276000000
+        "shares": 4276000000.0
       },
       {
         "date": "2024-10-25",
-        "shares": 4313000000
+        "shares": 4313000000.0
       },
       {
         "date": "2025-01-24",
-        "shares": 4330000000
+        "shares": 4330000000.0
       },
       {
         "date": "2025-04-18",
-        "shares": 4362000000
+        "shares": 4362000000.0
       },
       {
         "date": "2025-07-18",
-        "shares": 4377000000
+        "shares": 4377000000.0
       },
       {
         "date": "2025-10-17",
-        "shares": 4770000000
+        "shares": 4770000000.0
       },
       {
         "date": "2026-01-16",
-        "shares": 4995000000
+        "shares": 4995000000.0
       },
       {
         "date": "2026-04-17",
-        "shares": 5026000000
+        "shares": 5026000000.0
       },
       {
         "date": "2026-07-17",
-        "shares": 5044000000
+        "shares": 5044000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -4678,8 +4678,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "AMAT": {
@@ -4698,259 +4698,259 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 14608000000,
-        "netIncome": 2706000000,
-        "opIncome": 3350000000,
+        "revenue": 14608000000.0,
+        "netIncome": 2706000000.0,
+        "opIncome": 3350000000.0,
         "eps": 2.86,
         "ocf": 3247000000,
-        "capex": -441000000,
-        "fcf": 2806000000,
+        "capex": -441000000.0,
+        "fcf": 2806000000.0,
         "endDate": "2019-10-27",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 17202000000,
-        "netIncome": 3619000000,
-        "opIncome": 4365000000,
+        "revenue": 17202000000.0,
+        "netIncome": 3619000000.0,
+        "opIncome": 4365000000.0,
         "eps": 3.92,
         "ocf": 3804000000,
-        "capex": -422000000,
-        "fcf": 3382000000,
+        "capex": -422000000.0,
+        "fcf": 3382000000.0,
         "endDate": "2020-10-25",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 23063000000,
-        "netIncome": 5888000000,
-        "opIncome": 6889000000,
+        "revenue": 23063000000.0,
+        "netIncome": 5888000000.0,
+        "opIncome": 6889000000.0,
         "eps": 6.4,
-        "ocf": 5442000000,
-        "capex": -668000000,
-        "fcf": 4774000000,
+        "ocf": 5442000000.0,
+        "capex": -668000000.0,
+        "fcf": 4774000000.0,
         "endDate": "2021-10-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 25785000000,
-        "netIncome": 6525000000,
-        "opIncome": 7788000000,
+        "revenue": 25785000000.0,
+        "netIncome": 6525000000.0,
+        "opIncome": 7788000000.0,
         "eps": 7.44,
         "ocf": 5399000000,
-        "capex": -787000000,
-        "fcf": 4612000000,
+        "capex": -787000000.0,
+        "fcf": 4612000000.0,
         "endDate": "2022-10-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 7599000000,
-        "taxProvision": 1074000000,
-        "normalizedIncome": 6521564000,
-        "unusualItems": 4000000,
-        "unusualItemsExGoodwill": 4000000,
-        "unusualTaxEffect": 564000,
-        "specialIncomeCharges": 4000000,
-        "restructuring": -4000000,
-        "stockComp": 413000000
+        "pretaxIncome": 7599000000.0,
+        "taxProvision": 1074000000.0,
+        "normalizedIncome": 6521564000.0,
+        "unusualItems": 4000000.0,
+        "unusualItemsExGoodwill": 4000000.0,
+        "unusualTaxEffect": 564000.0,
+        "specialIncomeCharges": 4000000.0,
+        "restructuring": -4000000.0,
+        "stockComp": 413000000.0
       },
       {
         "period": "2023",
-        "revenue": 26517000000,
-        "netIncome": 6856000000,
-        "opIncome": 7654000000,
+        "revenue": 26517000000.0,
+        "netIncome": 6856000000.0,
+        "opIncome": 7654000000.0,
         "eps": 8.11,
         "ocf": 8700000000,
         "capex": -1106000000,
-        "fcf": 7594000000,
+        "fcf": 7594000000.0,
         "endDate": "2023-10-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 7716000000,
-        "taxProvision": 860000000,
-        "normalizedIncome": 6856000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0,
-        "stockComp": 490000000
+        "pretaxIncome": 7716000000.0,
+        "taxProvision": 860000000.0,
+        "normalizedIncome": 6856000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 490000000.0
       },
       {
         "period": "2024",
-        "revenue": 27176000000,
-        "netIncome": 7177000000,
-        "opIncome": 7867000000,
+        "revenue": 27176000000.0,
+        "netIncome": 7177000000.0,
+        "opIncome": 7867000000.0,
         "eps": 8.61,
         "ocf": 8677000000,
         "capex": -1190000000,
-        "fcf": 7487000000,
+        "fcf": 7487000000.0,
         "endDate": "2024-10-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 8152000000,
-        "taxProvision": 975000000,
-        "normalizedIncome": 7177000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0,
-        "stockComp": 577000000
+        "pretaxIncome": 8152000000.0,
+        "taxProvision": 975000000.0,
+        "normalizedIncome": 7177000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 577000000.0
       },
       {
         "period": "2025",
-        "revenue": 28368000000,
-        "netIncome": 6998000000,
-        "opIncome": 8289000000,
+        "revenue": 28368000000.0,
+        "netIncome": 6998000000.0,
+        "opIncome": 8289000000.0,
         "eps": 8.66,
         "ocf": 7958000000,
         "capex": -2260000000,
-        "fcf": 5698000000,
+        "fcf": 5698000000.0,
         "endDate": "2025-10-26",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9271000000,
-        "taxProvision": 2273000000,
-        "normalizedIncome": 7134655000,
-        "unusualItems": -181000000,
-        "unusualItemsExGoodwill": -181000000,
-        "unusualTaxEffect": -44345000,
-        "specialIncomeCharges": -181000000,
-        "restructuring": 181000000,
-        "stockComp": 668000000
+        "pretaxIncome": 9271000000.0,
+        "taxProvision": 2273000000.0,
+        "normalizedIncome": 7134655000.0,
+        "unusualItems": -181000000.0,
+        "unusualItemsExGoodwill": -181000000.0,
+        "unusualTaxEffect": -44345000.0,
+        "specialIncomeCharges": -181000000.0,
+        "restructuring": 181000000.0,
+        "stockComp": 668000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q4'23",
-        "revenue": 6723000000,
-        "netIncome": 2004000000,
-        "opIncome": 1971000000,
+        "revenue": 6723000000.0,
+        "netIncome": 2004000000.0,
+        "opIncome": 1971000000.0,
         "endDate": "2023-10-29"
       },
       {
         "period": "Q1'24",
-        "revenue": 6707000000,
-        "netIncome": 2019000000,
-        "opIncome": 1967000000,
+        "revenue": 6707000000.0,
+        "netIncome": 2019000000.0,
+        "opIncome": 1967000000.0,
         "endDate": "2024-01-28",
         "eps": 2.41
       },
       {
         "period": "Q2'24",
-        "revenue": 6646000000,
-        "netIncome": 1722000000,
-        "opIncome": 1912000000,
+        "revenue": 6646000000.0,
+        "netIncome": 1722000000.0,
+        "opIncome": 1912000000.0,
         "endDate": "2024-04-28",
         "eps": 2.06
       },
       {
         "period": "Q3'24",
-        "revenue": 6778000000,
-        "netIncome": 1705000000,
-        "opIncome": 1942000000,
+        "revenue": 6778000000.0,
+        "netIncome": 1705000000.0,
+        "opIncome": 1942000000.0,
         "endDate": "2024-07-28",
         "eps": 2.05
       },
       {
         "period": "Q4'24",
-        "revenue": 7045000000,
-        "netIncome": 1731000000,
-        "opIncome": 2046000000,
+        "revenue": 7045000000.0,
+        "netIncome": 1731000000.0,
+        "opIncome": 2046000000.0,
         "endDate": "2024-10-27"
       },
       {
         "period": "Q1'25",
-        "revenue": 7166000000,
-        "netIncome": 1185000000,
-        "opIncome": 2175000000,
+        "revenue": 7166000000.0,
+        "netIncome": 1185000000.0,
+        "opIncome": 2175000000.0,
         "endDate": "2025-01-26",
         "eps": 1.45
       },
       {
         "period": "Q2'25",
-        "revenue": 7100000000,
-        "netIncome": 2137000000,
-        "opIncome": 2169000000,
+        "revenue": 7100000000.0,
+        "netIncome": 2137000000.0,
+        "opIncome": 2169000000.0,
         "endDate": "2025-04-27",
         "eps": 2.63,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0
       },
       {
         "period": "Q3'25",
-        "revenue": 7302000000,
-        "netIncome": 1779000000,
-        "opIncome": 2233000000,
+        "revenue": 7302000000.0,
+        "netIncome": 1779000000.0,
+        "opIncome": 2233000000.0,
         "endDate": "2025-07-27",
         "eps": 2.22,
-        "ocf": 2634000000,
-        "capex": -584000000,
-        "fcf": 2050000000,
-        "pretaxIncome": 2563000000,
-        "taxProvision": 784000000,
-        "normalizedIncome": 1779000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0,
-        "stockComp": 158000000
+        "ocf": 2634000000.0,
+        "capex": -584000000.0,
+        "fcf": 2050000000.0,
+        "pretaxIncome": 2563000000.0,
+        "taxProvision": 784000000.0,
+        "normalizedIncome": 1779000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 158000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 6800000000,
-        "netIncome": 1897000000,
-        "opIncome": 1712000000,
+        "revenue": 6800000000.0,
+        "netIncome": 1897000000.0,
+        "opIncome": 1712000000.0,
         "endDate": "2025-10-26",
         "eps": 2.38,
-        "ocf": 2828000000,
-        "capex": -785000000,
-        "fcf": 2043000000,
-        "pretaxIncome": 2267000000,
-        "taxProvision": 370000000,
-        "normalizedIncome": 1897000000,
-        "unusualTaxEffect": 0,
-        "stockComp": 156000000
+        "ocf": 2828000000.0,
+        "capex": -785000000.0,
+        "fcf": 2043000000.0,
+        "pretaxIncome": 2267000000.0,
+        "taxProvision": 370000000.0,
+        "normalizedIncome": 1897000000.0,
+        "unusualTaxEffect": 0.0,
+        "stockComp": 156000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 7012000000,
-        "netIncome": 2026000000,
-        "opIncome": 1831000000,
+        "revenue": 7012000000.0,
+        "netIncome": 2026000000.0,
+        "opIncome": 1831000000.0,
         "endDate": "2026-01-25",
         "eps": 2.54,
-        "ocf": 1686000000,
-        "capex": -646000000,
-        "fcf": 1040000000,
-        "pretaxIncome": 2328000000,
-        "taxProvision": 302000000,
+        "ocf": 1686000000.0,
+        "capex": -646000000.0,
+        "fcf": 1040000000.0,
+        "pretaxIncome": 2328000000.0,
+        "taxProvision": 302000000.0,
         "normalizedIncome": 2256622852.233677,
-        "unusualItems": -265000000,
-        "unusualItemsExGoodwill": -265000000,
+        "unusualItems": -265000000.0,
+        "unusualItemsExGoodwill": -265000000.0,
         "unusualTaxEffect": -34377147.766323,
-        "specialIncomeCharges": -265000000,
-        "restructuring": 12000000,
-        "stockComp": 207000000
+        "specialIncomeCharges": -265000000.0,
+        "restructuring": 12000000.0,
+        "stockComp": 207000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 7910000000,
-        "netIncome": 2806000000,
-        "opIncome": 2523000000,
+        "revenue": 7910000000.0,
+        "netIncome": 2806000000.0,
+        "opIncome": 2523000000.0,
         "endDate": "2026-04-26",
         "eps": 3.51,
-        "ocf": 845000000,
-        "capex": -635000000,
-        "fcf": 210000000,
-        "pretaxIncome": 3225000000,
-        "taxProvision": 419000000,
-        "normalizedIncome": 2806000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0,
-        "stockComp": 169000000
+        "ocf": 845000000.0,
+        "capex": -635000000.0,
+        "fcf": 210000000.0,
+        "pretaxIncome": 3225000000.0,
+        "taxProvision": 419000000.0,
+        "normalizedIncome": 2806000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 169000000.0
       },
       {
         "period": "Q3'26",
@@ -4959,18 +4959,18 @@ const FINANCIALS_DATA = {
         "opIncome": 3075000000,
         "eps": 3.17,
         "endDate": "2026-07-26",
-        "ocf": 3037000000,
-        "capex": -707000000,
-        "fcf": 2330000000,
-        "pretaxIncome": 2907000000,
-        "taxProvision": 369000000,
-        "normalizedIncome": 2538000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "restructuring": 0,
-        "stockComp": 169000000
+        "ocf": 3037000000.0,
+        "capex": -707000000.0,
+        "fcf": 2330000000.0,
+        "pretaxIncome": 2907000000.0,
+        "taxProvision": 369000000.0,
+        "normalizedIncome": 2538000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 169000000.0
       }
     ],
     "_currency": "USD",
@@ -4980,105 +4980,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-12-04",
-        "shares": 914344189
+        "shares": 914344189.0
       },
       {
         "date": "2021-01-31",
-        "shares": 917660832
+        "shares": 917660832.0
       },
       {
         "date": "2021-05-02",
-        "shares": 913980756
+        "shares": 913980756.0
       },
       {
         "date": "2021-08-01",
-        "shares": 902928500
+        "shares": 902928500.0
       },
       {
         "date": "2021-12-10",
-        "shares": 888513248
+        "shares": 888513248.0
       },
       {
         "date": "2022-01-30",
-        "shares": 883394639
+        "shares": 883394639.0
       },
       {
         "date": "2022-05-01",
-        "shares": 869947277
+        "shares": 869947277.0
       },
       {
         "date": "2022-07-31",
-        "shares": 860309377
+        "shares": 860309377.0
       },
       {
         "date": "2022-12-09",
-        "shares": 844139722
+        "shares": 844139722.0
       },
       {
         "date": "2023-01-29",
-        "shares": 845118427
+        "shares": 845118427.0
       },
       {
         "date": "2023-04-30",
-        "shares": 839747415
+        "shares": 839747415.0
       },
       {
         "date": "2023-07-30",
-        "shares": 836533852
+        "shares": 836533852.0
       },
       {
         "date": "2023-12-08",
-        "shares": 831067105
+        "shares": 831067105.0
       },
       {
         "date": "2024-01-28",
-        "shares": 830897356
+        "shares": 830897356.0
       },
       {
         "date": "2024-04-28",
-        "shares": 827974828
+        "shares": 827974828.0
       },
       {
         "date": "2024-07-28",
-        "shares": 824404088
+        "shares": 824404088.0
       },
       {
         "date": "2024-12-06",
-        "shares": 813684638
+        "shares": 813684638.0
       },
       {
         "date": "2025-01-26",
-        "shares": 812440849
+        "shares": 812440849.0
       },
       {
         "date": "2025-04-27",
-        "shares": 802498217
+        "shares": 802498217.0
       },
       {
         "date": "2025-07-27",
-        "shares": 796642427
+        "shares": 796642427.0
       },
       {
         "date": "2025-12-05",
-        "shares": 792943366
+        "shares": 792943366.0
       },
       {
         "date": "2026-01-25",
-        "shares": 793609867
+        "shares": 793609867.0
       },
       {
         "date": "2026-04-26",
-        "shares": 793959430
+        "shares": 793959430.0
       },
       {
         "date": "2026-07-26",
-        "shares": 793597443
+        "shares": 793597443.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5103,8 +5103,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QQQ": {
@@ -5112,16 +5112,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789094563.6640346,
-    "_updated_label": "2026-09-11 11:42"
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:13"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789094563.6640346,
-    "_updated_label": "2026-09-11 11:42"
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:13"
   },
   "ORCL": {
     "annual": [
@@ -5139,8 +5139,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 39068000000,
-        "netIncome": 10135000000,
+        "revenue": 39068000000.0,
+        "netIncome": 10135000000.0,
         "opIncome": 13896000000,
         "eps": 3.08,
         "ocf": 13139000000,
@@ -5151,25 +5151,25 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 40479000000,
-        "netIncome": 13746000000,
-        "opIncome": 15213000000,
+        "revenue": 40479000000.0,
+        "netIncome": 13746000000.0,
+        "opIncome": 15213000000.0,
         "eps": 4.55,
-        "ocf": 15887000000,
-        "capex": -2135000000,
-        "fcf": 13752000000,
+        "ocf": 15887000000.0,
+        "capex": -2135000000.0,
+        "fcf": 13752000000.0,
         "endDate": "2021-05-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 42440000000,
-        "netIncome": 6717000000,
-        "opIncome": 10926000000,
+        "revenue": 42440000000.0,
+        "netIncome": 6717000000.0,
+        "opIncome": 10926000000.0,
         "eps": 2.41,
-        "ocf": 9539000000,
-        "capex": -4511000000,
-        "fcf": 5028000000,
+        "ocf": 9539000000.0,
+        "capex": -4511000000.0,
+        "fcf": 5028000000.0,
         "endDate": "2022-05-31",
         "_fcfIsProxy": true
       },
@@ -5181,19 +5181,19 @@ const FINANCIALS_DATA = {
         "eps": 3.07,
         "ocf": 17165000000,
         "capex": -8695000000,
-        "fcf": 8470000000,
+        "fcf": 8470000000.0,
         "_fcfIsProxy": false,
         "endDate": "2023-05-31",
-        "pretaxIncome": 9126000000,
-        "taxProvision": 623000000,
-        "normalizedIncome": 9673592000,
-        "unusualItems": -1256000000,
-        "unusualItemsExGoodwill": -1256000000,
-        "unusualTaxEffect": -85408000,
-        "specialIncomeCharges": -680000000,
-        "otherNonOperating": -6000000,
-        "restructuring": 680000000,
-        "stockComp": 3547000000
+        "pretaxIncome": 9126000000.0,
+        "taxProvision": 623000000.0,
+        "normalizedIncome": 9673592000.0,
+        "unusualItems": -1256000000.0,
+        "unusualItemsExGoodwill": -1256000000.0,
+        "unusualTaxEffect": -85408000.0,
+        "specialIncomeCharges": -680000000.0,
+        "otherNonOperating": -6000000.0,
+        "restructuring": 680000000.0,
+        "stockComp": 3547000000.0
       },
       {
         "period": "2024",
@@ -5203,78 +5203,78 @@ const FINANCIALS_DATA = {
         "eps": 3.71,
         "ocf": 18673000000,
         "capex": -6866000000,
-        "fcf": 11807000000,
+        "fcf": 11807000000.0,
         "_fcfIsProxy": false,
         "endDate": "2024-05-31",
-        "pretaxIncome": 11741000000,
-        "taxProvision": 1274000000,
-        "normalizedIncome": 11579859000,
-        "unusualItems": -1249000000,
-        "unusualItemsExGoodwill": -1249000000,
-        "unusualTaxEffect": -136141000,
-        "specialIncomeCharges": -718000000,
-        "otherNonOperating": 168000000,
-        "restructuring": 718000000,
-        "stockComp": 3974000000
+        "pretaxIncome": 11741000000.0,
+        "taxProvision": 1274000000.0,
+        "normalizedIncome": 11579859000.0,
+        "unusualItems": -1249000000.0,
+        "unusualItemsExGoodwill": -1249000000.0,
+        "unusualTaxEffect": -136141000.0,
+        "specialIncomeCharges": -718000000.0,
+        "otherNonOperating": 168000000.0,
+        "restructuring": 718000000.0,
+        "stockComp": 3974000000.0
       },
       {
         "period": "2025",
-        "revenue": 57399000000,
-        "netIncome": 12443000000,
+        "revenue": 57399000000.0,
+        "netIncome": 12443000000.0,
         "opIncome": 17678000000,
         "eps": 4.34,
         "ocf": 20821000000,
         "capex": -21215000000,
-        "fcf": -394000000,
+        "fcf": -394000000.0,
         "endDate": "2025-05-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 14160000000,
-        "taxProvision": 1717000000,
+        "pretaxIncome": 14160000000.0,
+        "taxProvision": 1717000000.0,
         "normalizedIncome": 13145115607.344633,
-        "unusualItems": -799000000,
-        "unusualItemsExGoodwill": -799000000,
+        "unusualItems": -799000000.0,
+        "unusualItemsExGoodwill": -799000000.0,
         "unusualTaxEffect": -96884392.655367,
-        "specialIncomeCharges": -374000000,
-        "otherNonOperating": 91000000,
-        "restructuring": 374000000,
-        "stockComp": 4674000000
+        "specialIncomeCharges": -374000000.0,
+        "otherNonOperating": 91000000.0,
+        "restructuring": 374000000.0,
+        "stockComp": 4674000000.0
       },
       {
         "period": "2026",
-        "revenue": 67357000000,
+        "revenue": 67357000000.0,
         "netIncome": 16984000000,
         "opIncome": 20606000000,
         "eps": 5.83,
         "ocf": 31977000000,
         "capex": -55663000000,
-        "fcf": -23686000000,
+        "fcf": -23686000000.0,
         "endDate": "2026-05-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 19554000000,
-        "taxProvision": 2467000000,
+        "pretaxIncome": 19554000000.0,
+        "taxProvision": 2467000000.0,
         "normalizedIncome": 16351229620.537996,
-        "unusualItems": 842000000,
-        "unusualItemsExGoodwill": 842000000,
+        "unusualItems": 842000000.0,
+        "unusualItemsExGoodwill": 842000000.0,
         "unusualTaxEffect": 106229620.537997,
-        "specialIncomeCharges": -1838000000,
-        "otherNonOperating": 309000000,
-        "restructuring": 1838000000,
-        "stockComp": 4811000000
+        "specialIncomeCharges": -1838000000.0,
+        "otherNonOperating": 309000000.0,
+        "restructuring": 1838000000.0,
+        "stockComp": 4811000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 12453000000,
-        "netIncome": 2420000000,
+        "revenue": 12453000000.0,
+        "netIncome": 2420000000.0,
         "opIncome": 3296000000,
         "endDate": "2023-08-31",
         "eps": 0.86
       },
       {
         "period": "Q4'23",
-        "revenue": 12941000000,
-        "netIncome": 2503000000,
+        "revenue": 12941000000.0,
+        "netIncome": 2503000000.0,
         "opIncome": 3622000000,
         "endDate": "2023-11-30",
         "eps": 0.89
@@ -5296,131 +5296,131 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 13307000000,
-        "netIncome": 2929000000,
+        "revenue": 13307000000.0,
+        "netIncome": 2929000000.0,
         "opIncome": 3991000000,
         "endDate": "2024-08-31",
         "eps": 1.03
       },
       {
         "period": "Q4'24",
-        "revenue": 14059000000,
-        "netIncome": 3151000000,
+        "revenue": 14059000000.0,
+        "netIncome": 3151000000.0,
         "opIncome": 4220000000,
         "endDate": "2024-11-30",
         "eps": 1.1
       },
       {
         "period": "Q1'25",
-        "revenue": 14130000000,
-        "netIncome": 2936000000,
+        "revenue": 14130000000.0,
+        "netIncome": 2936000000.0,
         "opIncome": 4358000000,
         "endDate": "2025-02-28",
         "eps": 1.02
       },
       {
         "period": "Q2'25",
-        "revenue": 15903000000,
-        "netIncome": 3427000000,
+        "revenue": 15903000000.0,
+        "netIncome": 3427000000.0,
         "opIncome": 5109000000,
         "endDate": "2025-05-31",
-        "ocf": 6157000000,
-        "capex": -9080000000,
-        "fcf": -2923000000,
-        "pretaxIncome": 4152000000,
-        "taxProvision": 725000000,
+        "ocf": 6157000000.0,
+        "capex": -9080000000.0,
+        "fcf": -2923000000.0,
+        "pretaxIncome": 4152000000.0,
+        "taxProvision": 725000000.0,
         "normalizedIncome": 3571442437.379576,
-        "unusualItems": -175000000,
-        "unusualItemsExGoodwill": -175000000,
+        "unusualItems": -175000000.0,
+        "unusualItemsExGoodwill": -175000000.0,
         "unusualTaxEffect": -30557562.620424,
-        "specialIncomeCharges": -82000000,
-        "otherNonOperating": 0,
-        "restructuring": 82000000,
-        "stockComp": 1300000000
+        "specialIncomeCharges": -82000000.0,
+        "otherNonOperating": 0.0,
+        "restructuring": 82000000.0,
+        "stockComp": 1300000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 14926000000,
-        "netIncome": 2927000000,
+        "revenue": 14926000000.0,
+        "netIncome": 2927000000.0,
         "opIncome": 4277000000,
         "endDate": "2025-08-31",
         "eps": 1.01,
-        "ocf": 8140000000,
-        "capex": -8502000000,
-        "fcf": -362000000,
-        "pretaxIncome": 3427000000,
-        "taxProvision": 500000000,
+        "ocf": 8140000000.0,
+        "capex": -8502000000.0,
+        "fcf": -362000000.0,
+        "pretaxIncome": 3427000000.0,
+        "taxProvision": 500000000.0,
         "normalizedIncome": 3352341698.278378,
-        "unusualItems": -498000000,
-        "unusualItemsExGoodwill": -498000000,
+        "unusualItems": -498000000.0,
+        "unusualItemsExGoodwill": -498000000.0,
         "unusualTaxEffect": -72658301.721622,
-        "specialIncomeCharges": -415000000,
-        "otherNonOperating": 100000000,
-        "restructuring": 415000000,
-        "stockComp": 1124000000
+        "specialIncomeCharges": -415000000.0,
+        "otherNonOperating": 100000000.0,
+        "restructuring": 415000000.0,
+        "stockComp": 1124000000.0
       },
       {
         "period": "Q4'25",
         "revenue": 16058000000,
-        "netIncome": 6135000000,
+        "netIncome": 6135000000.0,
         "opIncome": 4731000000,
         "endDate": "2025-11-30",
         "eps": 2.1,
-        "ocf": 2066000000,
-        "capex": -12033000000,
-        "fcf": -9967000000,
-        "pretaxIncome": 6342000000,
-        "taxProvision": 207000000,
+        "ocf": 2066000000.0,
+        "capex": -12033000000.0,
+        "fcf": -9967000000.0,
+        "pretaxIncome": 6342000000.0,
+        "taxProvision": 207000000.0,
         "normalizedIncome": 4163519394.512772,
-        "unusualItems": 2038000000,
-        "unusualItemsExGoodwill": 2038000000,
+        "unusualItems": 2038000000.0,
+        "unusualItemsExGoodwill": 2038000000.0,
         "unusualTaxEffect": 66519394.512772,
-        "specialIncomeCharges": -427000000,
-        "otherNonOperating": 57000000,
-        "restructuring": 427000000,
-        "stockComp": 1156000000
+        "specialIncomeCharges": -427000000.0,
+        "otherNonOperating": 57000000.0,
+        "restructuring": 427000000.0,
+        "stockComp": 1156000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 17190000000,
+        "revenue": 17190000000.0,
         "netIncome": 3699000000,
         "opIncome": 5464000000,
         "endDate": "2026-02-28",
         "eps": 1.27,
-        "ocf": 7151000000,
-        "capex": -18635000000,
-        "fcf": -11484000000,
-        "pretaxIncome": 4416000000,
-        "taxProvision": 695000000,
+        "ocf": 7151000000.0,
+        "capex": -18635000000.0,
+        "fcf": -11484000000.0,
+        "pretaxIncome": 4416000000.0,
+        "taxProvision": 695000000.0,
         "normalizedIncome": 3915644701.086957,
-        "unusualItems": -231000000,
-        "unusualItemsExGoodwill": -231000000,
+        "unusualItems": -231000000.0,
+        "unusualItemsExGoodwill": -231000000.0,
         "unusualTaxEffect": -36355298.913043,
-        "specialIncomeCharges": -173000000,
-        "otherNonOperating": 47000000,
-        "restructuring": 173000000,
-        "stockComp": 1328000000
+        "specialIncomeCharges": -173000000.0,
+        "otherNonOperating": 47000000.0,
+        "restructuring": 173000000.0,
+        "stockComp": 1328000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 19184000000,
+        "revenue": 19184000000.0,
         "netIncome": 4223000000,
         "opIncome": 6133000000,
         "endDate": "2026-05-31",
         "eps": 1.45,
-        "ocf": 14620000000,
-        "capex": -16493000000,
-        "fcf": -1873000000,
-        "pretaxIncome": 5369000000,
-        "taxProvision": 1065000000,
+        "ocf": 14620000000.0,
+        "capex": -16493000000.0,
+        "fcf": -1873000000.0,
+        "pretaxIncome": 5369000000.0,
+        "taxProvision": 1065000000.0,
         "normalizedIncome": 4677563792.140063,
-        "unusualItems": -466000000,
-        "unusualItemsExGoodwill": -466000000,
+        "unusualItems": -466000000.0,
+        "unusualItemsExGoodwill": -466000000.0,
         "unusualTaxEffect": -92436207.859937,
-        "specialIncomeCharges": -822000000,
-        "otherNonOperating": 106000000,
-        "restructuring": 822000000,
-        "stockComp": 1203000000
+        "specialIncomeCharges": -822000000.0,
+        "otherNonOperating": 106000000.0,
+        "restructuring": 822000000.0,
+        "stockComp": 1203000000.0
       }
     ],
     "_currency": "USD",
@@ -5430,105 +5430,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-09-04",
-        "shares": 3007161000
+        "shares": 3007161000.0
       },
       {
         "date": "2020-12-04",
-        "shares": 2944034000
+        "shares": 2944034000.0
       },
       {
         "date": "2021-03-05",
-        "shares": 2883535000
+        "shares": 2883535000.0
       },
       {
         "date": "2021-06-15",
-        "shares": 2792000000
+        "shares": 2792000000.0
       },
       {
         "date": "2021-09-06",
-        "shares": 2738179000
+        "shares": 2738179000.0
       },
       {
         "date": "2021-12-06",
-        "shares": 2670447000
+        "shares": 2670447000.0
       },
       {
         "date": "2022-03-07",
-        "shares": 2668157000
+        "shares": 2668157000.0
       },
       {
         "date": "2022-06-13",
-        "shares": 2664926000
+        "shares": 2664926000.0
       },
       {
         "date": "2022-09-08",
-        "shares": 2695653000
+        "shares": 2695653000.0
       },
       {
         "date": "2022-12-07",
-        "shares": 2696253000
+        "shares": 2696253000.0
       },
       {
         "date": "2023-03-06",
-        "shares": 2699802000
+        "shares": 2699802000.0
       },
       {
         "date": "2023-06-12",
-        "shares": 2714259000
+        "shares": 2714259000.0
       },
       {
         "date": "2023-09-07",
-        "shares": 2739821000
+        "shares": 2739821000.0
       },
       {
         "date": "2023-12-07",
-        "shares": 2748922000
+        "shares": 2748922000.0
       },
       {
         "date": "2024-03-07",
-        "shares": 2748514000
+        "shares": 2748514000.0
       },
       {
         "date": "2024-06-13",
-        "shares": 2755860000
+        "shares": 2755860000.0
       },
       {
         "date": "2024-09-06",
-        "shares": 2770968000
+        "shares": 2770968000.0
       },
       {
         "date": "2024-12-06",
-        "shares": 2796956000
+        "shares": 2796956000.0
       },
       {
         "date": "2025-03-07",
-        "shares": 2804234000
+        "shares": 2804234000.0
       },
       {
         "date": "2025-06-13",
-        "shares": 2808833000
+        "shares": 2808833000.0
       },
       {
         "date": "2025-09-05",
-        "shares": 2841714000
+        "shares": 2841714000.0
       },
       {
         "date": "2025-12-05",
-        "shares": 2873130000
+        "shares": 2873130000.0
       },
       {
         "date": "2026-03-05",
-        "shares": 2876046000
+        "shares": 2876046000.0
       },
       {
         "date": "2026-06-12",
-        "shares": 2880471000
+        "shares": 2880471000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5553,8 +5553,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CRM": {
@@ -5573,9 +5573,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 17098000000,
-        "netIncome": 126000000,
-        "opIncome": 297000000,
+        "revenue": 17098000000.0,
+        "netIncome": 126000000.0,
+        "opIncome": 297000000.0,
         "eps": 0.15,
         "ocf": 4331000000,
         "capex": -643000000,
@@ -5585,153 +5585,153 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 21252000000,
-        "netIncome": 4072000000,
-        "opIncome": 455000000,
+        "revenue": 21252000000.0,
+        "netIncome": 4072000000.0,
+        "opIncome": 455000000.0,
         "eps": 4.38,
-        "ocf": 4801000000,
-        "capex": -710000000,
-        "fcf": 4091000000,
+        "ocf": 4801000000.0,
+        "capex": -710000000.0,
+        "fcf": 4091000000.0,
         "endDate": "2021-01-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 26492000000,
-        "netIncome": 1444000000,
-        "opIncome": 548000000,
+        "revenue": 26492000000.0,
+        "netIncome": 1444000000.0,
+        "opIncome": 548000000.0,
         "eps": 1.48,
-        "ocf": 6000000000,
-        "capex": -717000000,
-        "fcf": 5283000000,
+        "ocf": 6000000000.0,
+        "capex": -717000000.0,
+        "fcf": 5283000000.0,
         "endDate": "2022-01-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 31352000000,
-        "netIncome": 208000000,
+        "revenue": 31352000000.0,
+        "netIncome": 208000000.0,
         "opIncome": 1030000000,
         "eps": 0.21,
         "ocf": 7111000000,
         "capex": -798000000,
-        "fcf": 6313000000,
+        "fcf": 6313000000.0,
         "endDate": "2023-01-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 660000000,
-        "taxProvision": 452000000,
-        "normalizedIncome": 1050930000,
-        "unusualItems": -1067000000,
-        "unusualItemsExGoodwill": -1067000000,
-        "unusualTaxEffect": -224070000,
-        "specialIncomeCharges": -1319000000,
-        "otherNonOperating": -131000000,
-        "restructuring": 828000000,
-        "stockComp": 3279000000
+        "pretaxIncome": 660000000.0,
+        "taxProvision": 452000000.0,
+        "normalizedIncome": 1050930000.0,
+        "unusualItems": -1067000000.0,
+        "unusualItemsExGoodwill": -1067000000.0,
+        "unusualTaxEffect": -224070000.0,
+        "specialIncomeCharges": -1319000000.0,
+        "otherNonOperating": -131000000.0,
+        "restructuring": 828000000.0,
+        "stockComp": 3279000000.0
       },
       {
         "period": "2024",
-        "revenue": 34857000000,
-        "netIncome": 4136000000,
+        "revenue": 34857000000.0,
+        "netIncome": 4136000000.0,
         "opIncome": 5011000000,
         "eps": 4.2,
         "ocf": 10234000000,
         "capex": -736000000,
-        "fcf": 9498000000,
+        "fcf": 9498000000.0,
         "endDate": "2024-01-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4950000000,
-        "taxProvision": 814000000,
-        "normalizedIncome": 5193540000,
-        "unusualItems": -1265000000,
-        "unusualItemsExGoodwill": -1265000000,
-        "unusualTaxEffect": -207460000,
-        "specialIncomeCharges": -1454000000,
-        "otherNonOperating": 216000000,
-        "restructuring": 988000000,
-        "stockComp": 2787000000
+        "pretaxIncome": 4950000000.0,
+        "taxProvision": 814000000.0,
+        "normalizedIncome": 5193540000.0,
+        "unusualItems": -1265000000.0,
+        "unusualItemsExGoodwill": -1265000000.0,
+        "unusualTaxEffect": -207460000.0,
+        "specialIncomeCharges": -1454000000.0,
+        "otherNonOperating": 216000000.0,
+        "restructuring": 988000000.0,
+        "stockComp": 2787000000.0
       },
       {
         "period": "2025",
-        "revenue": 37895000000,
-        "netIncome": 6197000000,
+        "revenue": 37895000000.0,
+        "netIncome": 6197000000.0,
         "opIncome": 7205000000,
         "eps": 6.36,
         "ocf": 13092000000,
         "capex": -658000000,
-        "fcf": 12434000000,
+        "fcf": 12434000000.0,
         "endDate": "2025-01-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 7438000000,
-        "taxProvision": 1241000000,
-        "normalizedIncome": 6681806000,
-        "unusualItems": -582000000,
-        "unusualItemsExGoodwill": -582000000,
-        "unusualTaxEffect": -97194000,
-        "specialIncomeCharges": -1043000000,
-        "otherNonOperating": 354000000,
-        "restructuring": 461000000,
-        "stockComp": 3183000000
+        "pretaxIncome": 7438000000.0,
+        "taxProvision": 1241000000.0,
+        "normalizedIncome": 6681806000.0,
+        "unusualItems": -582000000.0,
+        "unusualItemsExGoodwill": -582000000.0,
+        "unusualTaxEffect": -97194000.0,
+        "specialIncomeCharges": -1043000000.0,
+        "otherNonOperating": 354000000.0,
+        "restructuring": 461000000.0,
+        "stockComp": 3183000000.0
       },
       {
         "period": "2026",
-        "revenue": 41525000000,
-        "netIncome": 7457000000,
+        "revenue": 41525000000.0,
+        "netIncome": 7457000000.0,
         "opIncome": 8331000000,
         "eps": 7.8,
         "ocf": 14996000000,
         "capex": -594000000,
-        "fcf": 14402000000,
+        "fcf": 14402000000.0,
         "endDate": "2026-01-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 9520000000,
-        "taxProvision": 2063000000,
-        "normalizedIncome": 7118665000,
-        "unusualItems": 431000000,
-        "unusualItemsExGoodwill": 431000000,
-        "unusualTaxEffect": 92665000,
-        "specialIncomeCharges": -1082000000,
-        "otherNonOperating": 172000000,
-        "restructuring": 586000000,
-        "stockComp": 3509000000
+        "pretaxIncome": 9520000000.0,
+        "taxProvision": 2063000000.0,
+        "normalizedIncome": 7118665000.0,
+        "unusualItems": 431000000.0,
+        "unusualItemsExGoodwill": 431000000.0,
+        "unusualTaxEffect": 92665000.0,
+        "specialIncomeCharges": -1082000000.0,
+        "otherNonOperating": 172000000.0,
+        "restructuring": 586000000.0,
+        "stockComp": 3509000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q4'23",
-        "revenue": 8720000000,
-        "netIncome": 1224000000,
+        "revenue": 8720000000.0,
+        "netIncome": 1224000000.0,
         "opIncome": 1501000000,
         "endDate": "2023-10-31",
         "eps": 1.25
       },
       {
         "period": "Q1'24",
-        "revenue": 9287000000,
-        "netIncome": 1446000000,
+        "revenue": 9287000000.0,
+        "netIncome": 1446000000.0,
         "opIncome": 1622000000,
         "endDate": "2024-01-31"
       },
       {
         "period": "Q2'24",
-        "revenue": 9133000000,
-        "netIncome": 1533000000,
+        "revenue": 9133000000.0,
+        "netIncome": 1533000000.0,
         "opIncome": 1709000000,
         "endDate": "2024-04-30",
         "eps": 1.56
       },
       {
         "period": "Q3'24",
-        "revenue": 9325000000,
-        "netIncome": 1429000000,
+        "revenue": 9325000000.0,
+        "netIncome": 1429000000.0,
         "opIncome": 1783000000,
         "endDate": "2024-07-31",
         "eps": 1.47
       },
       {
         "period": "Q4'24",
-        "revenue": 9444000000,
-        "netIncome": 1527000000,
+        "revenue": 9444000000.0,
+        "netIncome": 1527000000.0,
         "opIncome": 1893000000,
         "endDate": "2024-10-31",
         "eps": 1.58
@@ -5745,53 +5745,53 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'25",
-        "revenue": 9829000000,
-        "netIncome": 1541000000,
+        "revenue": 9829000000.0,
+        "netIncome": 1541000000.0,
         "opIncome": 1942000000,
         "endDate": "2025-04-30",
         "eps": 1.59
       },
       {
         "period": "Q3'25",
-        "revenue": 10236000000,
-        "netIncome": 1887000000,
+        "revenue": 10236000000.0,
+        "netIncome": 1887000000.0,
         "opIncome": 2332000000,
         "endDate": "2025-07-31",
         "eps": 1.96,
-        "ocf": 740000000,
-        "capex": -135000000,
-        "fcf": 605000000,
-        "pretaxIncome": 2406000000,
-        "taxProvision": 519000000,
-        "normalizedIncome": 1885440000,
-        "unusualItems": 2000000,
-        "unusualItemsExGoodwill": 2000000,
-        "unusualTaxEffect": 440000,
-        "specialIncomeCharges": -90000000,
-        "otherNonOperating": 135000000,
-        "restructuring": 4000000,
-        "stockComp": 793000000
+        "ocf": 740000000.0,
+        "capex": -135000000.0,
+        "fcf": 605000000.0,
+        "pretaxIncome": 2406000000.0,
+        "taxProvision": 519000000.0,
+        "normalizedIncome": 1885440000.0,
+        "unusualItems": 2000000.0,
+        "unusualItemsExGoodwill": 2000000.0,
+        "unusualTaxEffect": 440000.0,
+        "specialIncomeCharges": -90000000.0,
+        "otherNonOperating": 135000000.0,
+        "restructuring": 4000000.0,
+        "stockComp": 793000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 10259000000,
-        "netIncome": 2086000000,
+        "revenue": 10259000000.0,
+        "netIncome": 2086000000.0,
         "opIncome": 2188000000,
         "endDate": "2025-10-31",
         "eps": 2.19,
-        "ocf": 2316000000,
-        "capex": -139000000,
-        "fcf": 2177000000,
-        "pretaxIncome": 2512000000,
-        "taxProvision": 426000000,
-        "normalizedIncome": 2083510000,
-        "unusualItems": 3000000,
-        "unusualItemsExGoodwill": 3000000,
-        "unusualTaxEffect": 510000,
-        "specialIncomeCharges": -429000000,
-        "otherNonOperating": 61000000,
-        "restructuring": 260000000,
-        "stockComp": 819000000
+        "ocf": 2316000000.0,
+        "capex": -139000000.0,
+        "fcf": 2177000000.0,
+        "pretaxIncome": 2512000000.0,
+        "taxProvision": 426000000.0,
+        "normalizedIncome": 2083510000.0,
+        "unusualItems": 3000000.0,
+        "unusualItemsExGoodwill": 3000000.0,
+        "unusualTaxEffect": 510000.0,
+        "specialIncomeCharges": -429000000.0,
+        "otherNonOperating": 61000000.0,
+        "restructuring": 260000000.0,
+        "stockComp": 819000000.0
       },
       {
         "period": "Q1'26",
@@ -5800,40 +5800,40 @@ const FINANCIALS_DATA = {
         "opIncome": 1869000000,
         "endDate": "2026-01-31",
         "eps": 2.07,
-        "ocf": 5464000000,
-        "capex": -141000000,
-        "fcf": 5323000000,
-        "pretaxIncome": 2628000000,
-        "taxProvision": 685000000,
+        "ocf": 5464000000.0,
+        "capex": -141000000.0,
+        "fcf": 5323000000.0,
+        "pretaxIncome": 2628000000.0,
+        "taxProvision": 685000000.0,
         "normalizedIncome": 1554843607.305936,
-        "unusualItems": 525000000,
-        "unusualItemsExGoodwill": 525000000,
+        "unusualItems": 525000000.0,
+        "unusualItemsExGoodwill": 525000000.0,
         "unusualTaxEffect": 136843607.305936,
-        "specialIncomeCharges": -480000000,
-        "otherNonOperating": -52000000,
-        "restructuring": 286000000,
-        "stockComp": 1083000000
+        "specialIncomeCharges": -480000000.0,
+        "otherNonOperating": -52000000.0,
+        "restructuring": 286000000.0,
+        "stockComp": 1083000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 11133000000,
-        "netIncome": 2107000000,
+        "revenue": 11133000000.0,
+        "netIncome": 2107000000.0,
         "opIncome": 2347000000,
         "endDate": "2026-04-30",
         "eps": 2.42,
-        "ocf": 6701000000,
-        "capex": -145000000,
-        "fcf": 6556000000,
-        "pretaxIncome": 2721000000,
-        "taxProvision": 614000000,
-        "normalizedIncome": 1738940000,
-        "unusualItems": 478000000,
-        "unusualItemsExGoodwill": 478000000,
-        "unusualTaxEffect": 109940000,
-        "specialIncomeCharges": -199000000,
-        "otherNonOperating": 133000000,
-        "restructuring": 80000000,
-        "stockComp": 857000000
+        "ocf": 6701000000.0,
+        "capex": -145000000.0,
+        "fcf": 6556000000.0,
+        "pretaxIncome": 2721000000.0,
+        "taxProvision": 614000000.0,
+        "normalizedIncome": 1738940000.0,
+        "unusualItems": 478000000.0,
+        "unusualItemsExGoodwill": 478000000.0,
+        "unusualTaxEffect": 109940000.0,
+        "specialIncomeCharges": -199000000.0,
+        "otherNonOperating": 133000000.0,
+        "restructuring": 80000000.0,
+        "stockComp": 857000000.0
       },
       {
         "period": "Q3'26",
@@ -5842,19 +5842,19 @@ const FINANCIALS_DATA = {
         "opIncome": 2331000000,
         "eps": 4.29,
         "endDate": "2026-07-31",
-        "ocf": 1269000000,
-        "capex": -171000000,
-        "fcf": 1098000000,
-        "pretaxIncome": 4552000000,
-        "taxProvision": 1026000000,
-        "normalizedIncome": 1586370000,
-        "unusualItems": 2519000000,
-        "unusualItemsExGoodwill": 2519000000,
-        "unusualTaxEffect": 579370000,
-        "specialIncomeCharges": -379000000,
-        "otherNonOperating": 81000000,
-        "restructuring": 94000000,
-        "stockComp": 906000000
+        "ocf": 1269000000.0,
+        "capex": -171000000.0,
+        "fcf": 1098000000.0,
+        "pretaxIncome": 4552000000.0,
+        "taxProvision": 1026000000.0,
+        "normalizedIncome": 1586370000.0,
+        "unusualItems": 2519000000.0,
+        "unusualItemsExGoodwill": 2519000000.0,
+        "unusualTaxEffect": 579370000.0,
+        "specialIncomeCharges": -379000000.0,
+        "otherNonOperating": 81000000.0,
+        "restructuring": 94000000.0,
+        "stockComp": 906000000.0
       }
     ],
     "_currency": "USD",
@@ -5864,105 +5864,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-12-01",
-        "shares": 915000000
+        "shares": 915000000.0
       },
       {
         "date": "2021-03-15",
-        "shares": 921000000
+        "shares": 921000000.0
       },
       {
         "date": "2021-05-27",
-        "shares": 926000000
+        "shares": 926000000.0
       },
       {
         "date": "2021-08-25",
-        "shares": 979000000
+        "shares": 979000000.0
       },
       {
         "date": "2021-11-30",
-        "shares": 985000000
+        "shares": 985000000.0
       },
       {
         "date": "2022-03-01",
-        "shares": 990000000
+        "shares": 990000000.0
       },
       {
         "date": "2022-05-31",
-        "shares": 995000000
+        "shares": 995000000.0
       },
       {
         "date": "2022-08-24",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2022-11-29",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2023-03-07",
-        "shares": 1000000000
+        "shares": 1000000000.0
       },
       {
         "date": "2023-05-30",
-        "shares": 974000000
+        "shares": 974000000.0
       },
       {
         "date": "2023-08-28",
-        "shares": 973000000
+        "shares": 973000000.0
       },
       {
         "date": "2023-11-27",
-        "shares": 968000000
+        "shares": 968000000.0
       },
       {
         "date": "2024-02-29",
-        "shares": 970000000
+        "shares": 970000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 969000000
+        "shares": 969000000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 956000000
+        "shares": 956000000.0
       },
       {
         "date": "2024-11-27",
-        "shares": 957000000
+        "shares": 957000000.0
       },
       {
         "date": "2025-02-28",
-        "shares": 961000000
+        "shares": 961000000.0
       },
       {
         "date": "2025-05-22",
-        "shares": 956000000
+        "shares": 956000000.0
       },
       {
         "date": "2025-08-28",
-        "shares": 952000000
+        "shares": 952000000.0
       },
       {
         "date": "2025-11-28",
-        "shares": 937000000
+        "shares": 937000000.0
       },
       {
         "date": "2026-02-25",
-        "shares": 923000000
+        "shares": 923000000.0
       },
       {
         "date": "2026-05-21",
-        "shares": 819000000
+        "shares": 819000000.0
       },
       {
         "date": "2026-08-20",
-        "shares": 823000000
+        "shares": 823000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -5987,8 +5987,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PLTR": {
@@ -6019,25 +6019,25 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 1092673000,
-        "netIncome": -1166391000,
-        "opIncome": -1173679000,
+        "revenue": 1092673000.0,
+        "netIncome": -1166391000.0,
+        "opIncome": -1173679000.0,
         "eps": -1.2,
-        "ocf": -296608000,
-        "capex": -12236000,
-        "fcf": -308844000,
+        "ocf": -296608000.0,
+        "capex": -12236000.0,
+        "fcf": -308844000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 1541889000,
-        "netIncome": -520379000,
-        "opIncome": -411046000,
+        "revenue": 1541889000.0,
+        "netIncome": -520379000.0,
+        "opIncome": -411046000.0,
         "eps": -0.27,
-        "ocf": 333851000,
-        "capex": -12627000,
-        "fcf": 321224000,
+        "ocf": 333851000.0,
+        "capex": -12627000.0,
+        "fcf": 321224000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
@@ -6049,15 +6049,15 @@ const FINANCIALS_DATA = {
         "eps": -0.18,
         "ocf": 223737000,
         "capex": -40027000,
-        "fcf": 183710000,
+        "fcf": 183710000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -361027000,
-        "taxProvision": 10067000,
-        "normalizedIncome": -373705000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -220135000,
-        "stockComp": 564798000
+        "pretaxIncome": -361027000.0,
+        "taxProvision": 10067000.0,
+        "normalizedIncome": -373705000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -220135000.0,
+        "stockComp": 564798000.0
       },
       {
         "period": "2023",
@@ -6067,15 +6067,15 @@ const FINANCIALS_DATA = {
         "eps": 0.09,
         "ocf": 712183000,
         "capex": -15114000,
-        "fcf": 697069000,
+        "fcf": 697069000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 237091000,
-        "taxProvision": 19716000,
-        "normalizedIncome": 209825000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -15447000,
-        "stockComp": 475903000
+        "pretaxIncome": 237091000.0,
+        "taxProvision": 19716000.0,
+        "normalizedIncome": 209825000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -15447000.0,
+        "stockComp": 475903000.0
       },
       {
         "period": "2024",
@@ -6085,15 +6085,15 @@ const FINANCIALS_DATA = {
         "eps": 0.19,
         "ocf": 1153865000,
         "capex": -12634000,
-        "fcf": 1141231000,
+        "fcf": 1141231000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 489173000,
-        "taxProvision": 21255000,
-        "normalizedIncome": 462190000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -18022000,
-        "stockComp": 691638000
+        "pretaxIncome": 489173000.0,
+        "taxProvision": 21255000.0,
+        "normalizedIncome": 462190000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -18022000.0,
+        "stockComp": 691638000.0
       },
       {
         "period": "2025",
@@ -6103,15 +6103,15 @@ const FINANCIALS_DATA = {
         "eps": 0.63,
         "ocf": 2134473000,
         "capex": -33882000,
-        "fcf": 2100591000,
+        "fcf": 2100591000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1657368000,
-        "taxProvision": 22724000,
-        "normalizedIncome": 1625033000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 14172000,
-        "stockComp": 684033000
+        "pretaxIncome": 1657368000.0,
+        "taxProvision": 22724000.0,
+        "normalizedIncome": 1625033000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 14172000.0,
+        "stockComp": 684033000.0
       }
     ],
     "quarterly": [
@@ -6134,7 +6134,7 @@ const FINANCIALS_DATA = {
         "period": "Q1'24",
         "revenue": 634338000,
         "netIncome": 105530000,
-        "opIncome": 80881000,
+        "opIncome": 80881000.0,
         "endDate": "2024-03-31",
         "eps": 0.04
       },
@@ -6142,7 +6142,7 @@ const FINANCIALS_DATA = {
         "period": "Q2'24",
         "revenue": 678134000,
         "netIncome": 134126000,
-        "opIncome": 105339000,
+        "opIncome": 105339000.0,
         "endDate": "2024-06-30",
         "eps": 0.06
       },
@@ -6176,15 +6176,15 @@ const FINANCIALS_DATA = {
         "opIncome": 269317000,
         "endDate": "2025-06-30",
         "eps": 0.13,
-        "ocf": 539251000,
-        "capex": -7634000,
-        "fcf": 531617000,
-        "pretaxIncome": 332168000,
-        "taxProvision": 3596000,
-        "normalizedIncome": 326727000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 6596000,
-        "stockComp": 159971000
+        "ocf": 539251000.0,
+        "capex": -7634000.0,
+        "fcf": 531617000.0,
+        "pretaxIncome": 332168000.0,
+        "taxProvision": 3596000.0,
+        "normalizedIncome": 326727000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 6596000.0,
+        "stockComp": 159971000.0
       },
       {
         "period": "Q3'25",
@@ -6193,15 +6193,15 @@ const FINANCIALS_DATA = {
         "opIncome": 393256000,
         "endDate": "2025-09-30",
         "eps": 0.18,
-        "ocf": 507664000,
-        "capex": -6792000,
-        "fcf": 500872000,
-        "pretaxIncome": 480501000,
-        "taxProvision": 3753000,
-        "normalizedIncome": 475599000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 27483000,
-        "stockComp": 172318000
+        "ocf": 507664000.0,
+        "capex": -6792000.0,
+        "fcf": 500872000.0,
+        "pretaxIncome": 480501000.0,
+        "taxProvision": 3753000.0,
+        "normalizedIncome": 475599000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 27483000.0,
+        "stockComp": 172318000.0
       },
       {
         "period": "Q4'25",
@@ -6210,15 +6210,15 @@ const FINANCIALS_DATA = {
         "opIncome": 575394000,
         "endDate": "2025-12-31",
         "eps": 0.24,
-        "ocf": 777295000,
-        "capex": -13272000,
-        "fcf": 764023000,
-        "pretaxIncome": 621383000,
-        "taxProvision": 9776000,
-        "normalizedIncome": 608676000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -16734000,
-        "stockComp": 196405000
+        "ocf": 777295000.0,
+        "capex": -13272000.0,
+        "fcf": 764023000.0,
+        "pretaxIncome": 621383000.0,
+        "taxProvision": 9776000.0,
+        "normalizedIncome": 608676000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -16734000.0,
+        "stockComp": 196405000.0
       },
       {
         "period": "Q1'26",
@@ -6227,15 +6227,15 @@ const FINANCIALS_DATA = {
         "opIncome": 753998000,
         "endDate": "2026-03-31",
         "eps": 0.34,
-        "ocf": 899165000,
-        "capex": -7401000,
-        "fcf": 891764000,
-        "pretaxIncome": 888601000,
-        "taxProvision": 12199000,
-        "normalizedIncome": 870527000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 68209000,
-        "stockComp": 201592000
+        "ocf": 899165000.0,
+        "capex": -7401000.0,
+        "fcf": 891764000.0,
+        "pretaxIncome": 888601000.0,
+        "taxProvision": 12199000.0,
+        "normalizedIncome": 870527000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 68209000.0,
+        "stockComp": 201592000.0
       },
       {
         "period": "Q2'26",
@@ -6244,24 +6244,24 @@ const FINANCIALS_DATA = {
         "opIncome": 912004000,
         "eps": 0.41,
         "endDate": "2026-06-30",
-        "ocf": 1216167000,
-        "capex": -14554000,
-        "fcf": 1201613000,
-        "pretaxIncome": 1081345000,
-        "taxProvision": 15383000,
-        "normalizedIncome": 1061890000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 91836000,
-        "stockComp": 265209000
+        "ocf": 1216167000.0,
+        "capex": -14554000.0,
+        "fcf": 1201613000.0,
+        "pretaxIncome": 1081345000.0,
+        "taxProvision": 15383000.0,
+        "normalizedIncome": 1061890000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 91836000.0,
+        "stockComp": 265209000.0
       }
     ],
     "_currency": "USD",
     "_source": "Finnhub SEC financials-reported",
     "_annual_verified_source": "SEC Company Facts",
     "_quarterly_verified_source": "SEC Company Facts",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6286,8 +6286,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "QCOM": {
@@ -6306,8 +6306,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 24273000000,
-        "netIncome": 4386000000,
+        "revenue": 24273000000.0,
+        "netIncome": 4386000000.0,
         "opIncome": 7667000000,
         "eps": 3.59,
         "ocf": 7286000000,
@@ -6318,7 +6318,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 23531000000,
+        "revenue": 23531000000.0,
         "netIncome": 5198000000,
         "opIncome": 6255000000,
         "eps": 4.52,
@@ -6330,114 +6330,114 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 33566000000,
-        "netIncome": 9043000000,
-        "opIncome": 9789000000,
+        "revenue": 33566000000.0,
+        "netIncome": 9043000000.0,
+        "opIncome": 9789000000.0,
         "eps": 7.87,
-        "ocf": 10536000000,
-        "capex": -1888000000,
-        "fcf": 8648000000,
+        "ocf": 10536000000.0,
+        "capex": -1888000000.0,
+        "fcf": 8648000000.0,
         "endDate": "2021-09-26",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 44200000000,
-        "netIncome": 12936000000,
+        "revenue": 44200000000.0,
+        "netIncome": 12936000000.0,
         "opIncome": 15860000000,
         "eps": 11.37,
         "ocf": 9096000000,
         "capex": -2262000000,
-        "fcf": 6834000000,
+        "fcf": 6834000000.0,
         "endDate": "2022-09-25",
         "_fcfIsProxy": false,
-        "pretaxIncome": 14998000000,
-        "taxProvision": 2012000000,
-        "normalizedIncome": 13266140000,
-        "unusualItems": -322000000,
-        "unusualItemsExGoodwill": -322000000,
-        "unusualTaxEffect": -41860000,
-        "specialIncomeCharges": -47000000,
-        "otherNonOperating": -141000000,
-        "stockComp": 2031000000
+        "pretaxIncome": 14998000000.0,
+        "taxProvision": 2012000000.0,
+        "normalizedIncome": 13266140000.0,
+        "unusualItems": -322000000.0,
+        "unusualItemsExGoodwill": -322000000.0,
+        "unusualTaxEffect": -41860000.0,
+        "specialIncomeCharges": -47000000.0,
+        "otherNonOperating": -141000000.0,
+        "stockComp": 2031000000.0
       },
       {
         "period": "2023",
-        "revenue": 35820000000,
-        "netIncome": 7232000000,
+        "revenue": 35820000000.0,
+        "netIncome": 7232000000.0,
         "opIncome": 7788000000,
         "eps": 6.42,
         "ocf": 11299000000,
         "capex": -1450000000,
-        "fcf": 9849000000,
+        "fcf": 9849000000.0,
         "endDate": "2023-09-24",
         "_fcfIsProxy": false,
-        "pretaxIncome": 7443000000,
-        "taxProvision": 104000000,
-        "normalizedIncome": 8241880000,
-        "unusualItems": -912000000,
-        "unusualItemsExGoodwill": -912000000,
-        "unusualTaxEffect": -9120000,
-        "specialIncomeCharges": -994000000,
-        "otherNonOperating": 86000000,
-        "stockComp": 2484000000
+        "pretaxIncome": 7443000000.0,
+        "taxProvision": 104000000.0,
+        "normalizedIncome": 8241880000.0,
+        "unusualItems": -912000000.0,
+        "unusualItemsExGoodwill": -912000000.0,
+        "unusualTaxEffect": -9120000.0,
+        "specialIncomeCharges": -994000000.0,
+        "otherNonOperating": 86000000.0,
+        "stockComp": 2484000000.0
       },
       {
         "period": "2024",
-        "revenue": 38962000000,
-        "netIncome": 10142000000,
+        "revenue": 38962000000.0,
+        "netIncome": 10142000000.0,
         "opIncome": 10071000000,
         "eps": 8.97,
         "ocf": 12202000000,
         "capex": -1041000000,
-        "fcf": 11161000000,
+        "fcf": 11161000000.0,
         "endDate": "2024-09-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 10336000000,
-        "taxProvision": 226000000,
-        "normalizedIncome": 10201140000,
-        "unusualItems": -93000000,
-        "unusualItemsExGoodwill": -93000000,
-        "unusualTaxEffect": -1860000,
-        "specialIncomeCharges": -261000000,
-        "otherNonOperating": 198000000,
-        "stockComp": 2648000000
+        "pretaxIncome": 10336000000.0,
+        "taxProvision": 226000000.0,
+        "normalizedIncome": 10201140000.0,
+        "unusualItems": -93000000.0,
+        "unusualItemsExGoodwill": -93000000.0,
+        "unusualTaxEffect": -1860000.0,
+        "specialIncomeCharges": -261000000.0,
+        "otherNonOperating": 198000000.0,
+        "stockComp": 2648000000.0
       },
       {
         "period": "2025",
-        "revenue": 44284000000,
-        "netIncome": 5541000000,
+        "revenue": 44284000000.0,
+        "netIncome": 5541000000.0,
         "opIncome": 12355000000,
         "eps": 5.01,
         "ocf": 14012000000,
         "capex": -1192000000,
-        "fcf": 12820000000,
+        "fcf": 12820000000.0,
         "endDate": "2025-09-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 12663000000,
-        "taxProvision": 7122000000,
-        "normalizedIncome": 5409070000,
-        "unusualItems": 167000000,
-        "unusualItemsExGoodwill": 167000000,
-        "unusualTaxEffect": 35070000,
-        "specialIncomeCharges": -152000000,
-        "otherNonOperating": 127000000,
-        "restructuring": 39000000,
-        "stockComp": 2783000000
+        "pretaxIncome": 12663000000.0,
+        "taxProvision": 7122000000.0,
+        "normalizedIncome": 5409070000.0,
+        "unusualItems": 167000000.0,
+        "unusualItemsExGoodwill": 167000000.0,
+        "unusualTaxEffect": 35070000.0,
+        "specialIncomeCharges": -152000000.0,
+        "otherNonOperating": 127000000.0,
+        "restructuring": 39000000.0,
+        "stockComp": 2783000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 8631000000,
-        "netIncome": 1490000000,
+        "revenue": 8631000000.0,
+        "netIncome": 1490000000.0,
         "opIncome": 1410000000,
         "endDate": "2023-09-24"
       },
       {
         "period": "Q4'23",
-        "revenue": 9935000000,
-        "netIncome": 2767000000,
+        "revenue": 9935000000.0,
+        "netIncome": 2767000000.0,
         "opIncome": 2928000000,
         "endDate": "2023-12-24",
         "eps": 2.46
@@ -6445,30 +6445,30 @@ const FINANCIALS_DATA = {
       {
         "period": "Q1'24",
         "revenue": 9389000000,
-        "netIncome": 2326000000,
+        "netIncome": 2326000000.0,
         "opIncome": 2340000000,
         "endDate": "2024-03-24",
         "eps": 2.06
       },
       {
         "period": "Q2'24",
-        "revenue": 9393000000,
-        "netIncome": 2129000000,
+        "revenue": 9393000000.0,
+        "netIncome": 2129000000.0,
         "opIncome": 2221000000,
         "endDate": "2024-06-23",
         "eps": 1.88
       },
       {
         "period": "Q3'24",
-        "revenue": 10244000000,
-        "netIncome": 2920000000,
+        "revenue": 10244000000.0,
+        "netIncome": 2920000000.0,
         "opIncome": 2582000000,
         "endDate": "2024-09-29"
       },
       {
         "period": "Q4'24",
-        "revenue": 11669000000,
-        "netIncome": 3180000000,
+        "revenue": 11669000000.0,
+        "netIncome": 3180000000.0,
         "opIncome": 3555000000,
         "endDate": "2024-12-29",
         "eps": 2.83
@@ -6476,7 +6476,7 @@ const FINANCIALS_DATA = {
       {
         "period": "Q1'25",
         "revenue": 10979000000,
-        "netIncome": 2812000000,
+        "netIncome": 2812000000.0,
         "opIncome": 3120000000,
         "endDate": "2025-03-30",
         "eps": 2.52
@@ -6484,82 +6484,82 @@ const FINANCIALS_DATA = {
       {
         "period": "Q2'25",
         "revenue": 10365000000,
-        "netIncome": 2666000000,
+        "netIncome": 2666000000.0,
         "opIncome": 2762000000,
         "endDate": "2025-06-29",
         "eps": 2.43,
-        "ocf": 2875000000,
-        "capex": -294000000,
-        "fcf": 2581000000,
-        "pretaxIncome": 2952000000,
-        "taxProvision": 286000000,
+        "ocf": 2875000000.0,
+        "capex": -294000000.0,
+        "fcf": 2581000000.0,
+        "pretaxIncome": 2952000000.0,
+        "taxProvision": 286000000.0,
         "normalizedIncome": 2559432249.322493,
-        "unusualItems": 118000000,
-        "unusualItemsExGoodwill": 118000000,
+        "unusualItems": 118000000.0,
+        "unusualItemsExGoodwill": 118000000.0,
         "unusualTaxEffect": 11432249.322493,
-        "specialIncomeCharges": -52000000,
-        "otherNonOperating": 84000000,
-        "stockComp": 659000000
+        "specialIncomeCharges": -52000000.0,
+        "otherNonOperating": 84000000.0,
+        "stockComp": 659000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 11271000000,
-        "netIncome": -3117000000,
+        "revenue": 11271000000.0,
+        "netIncome": -3117000000.0,
         "opIncome": 2918000000,
         "endDate": "2025-09-28",
         "eps": -2.89,
-        "ocf": 3996000000,
-        "capex": -407000000,
-        "fcf": 3589000000,
-        "pretaxIncome": 2971000000,
-        "taxProvision": 6088000000,
-        "normalizedIncome": -3100410000,
-        "unusualItems": -21000000,
-        "unusualItemsExGoodwill": -21000000,
-        "unusualTaxEffect": -4410000,
-        "specialIncomeCharges": -59000000,
-        "otherNonOperating": 62000000,
-        "stockComp": 663000000
+        "ocf": 3996000000.0,
+        "capex": -407000000.0,
+        "fcf": 3589000000.0,
+        "pretaxIncome": 2971000000.0,
+        "taxProvision": 6088000000.0,
+        "normalizedIncome": -3100410000.0,
+        "unusualItems": -21000000.0,
+        "unusualItemsExGoodwill": -21000000.0,
+        "unusualTaxEffect": -4410000.0,
+        "specialIncomeCharges": -59000000.0,
+        "otherNonOperating": 62000000.0,
+        "stockComp": 663000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 12252000000,
-        "netIncome": 3004000000,
+        "revenue": 12252000000.0,
+        "netIncome": 3004000000.0,
         "opIncome": 3366000000,
         "endDate": "2025-12-28",
         "eps": 2.78,
-        "ocf": 4965000000,
-        "capex": -549000000,
-        "fcf": 4416000000,
-        "pretaxIncome": 3547000000,
-        "taxProvision": 543000000,
+        "ocf": 4965000000.0,
+        "capex": -549000000.0,
+        "fcf": 4416000000.0,
+        "pretaxIncome": 3547000000.0,
+        "taxProvision": 543000000.0,
         "normalizedIncome": 2859177896.814209,
-        "unusualItems": 171000000,
-        "unusualItemsExGoodwill": 171000000,
+        "unusualItems": 171000000.0,
+        "unusualItemsExGoodwill": 171000000.0,
         "unusualTaxEffect": 26177896.814209,
-        "specialIncomeCharges": -12000000,
-        "otherNonOperating": 43000000,
-        "stockComp": 888000000
+        "specialIncomeCharges": -12000000.0,
+        "otherNonOperating": 43000000.0,
+        "stockComp": 888000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 10599000000,
+        "revenue": 10599000000.0,
         "netIncome": 7370000000,
         "opIncome": 2309000000,
         "endDate": "2026-03-29",
         "eps": 6.88,
-        "ocf": 2449000000,
-        "capex": -533000000,
-        "fcf": 1916000000,
-        "pretaxIncome": 2232000000,
-        "taxProvision": -5138000000,
-        "normalizedIncome": 7347800000,
-        "unusualItems": 37000000,
-        "unusualItemsExGoodwill": 37000000,
-        "unusualTaxEffect": 14800000,
-        "specialIncomeCharges": -12000000,
-        "otherNonOperating": -56000000,
-        "stockComp": 861000000
+        "ocf": 2449000000.0,
+        "capex": -533000000.0,
+        "fcf": 1916000000.0,
+        "pretaxIncome": 2232000000.0,
+        "taxProvision": -5138000000.0,
+        "normalizedIncome": 7347800000.0,
+        "unusualItems": 37000000.0,
+        "unusualItemsExGoodwill": 37000000.0,
+        "unusualTaxEffect": 14800000.0,
+        "specialIncomeCharges": -12000000.0,
+        "otherNonOperating": -56000000.0,
+        "stockComp": 861000000.0
       },
       {
         "period": "Q2'26",
@@ -6568,18 +6568,18 @@ const FINANCIALS_DATA = {
         "opIncome": 1626000000,
         "eps": 1.87,
         "endDate": "2026-06-28",
-        "ocf": 991000000,
-        "capex": -496000000,
-        "fcf": 495000000,
-        "pretaxIncome": 2462000000,
-        "taxProvision": 460000000,
-        "normalizedIncome": 1433380000,
-        "unusualItems": 702000000,
-        "unusualItemsExGoodwill": 702000000,
-        "unusualTaxEffect": 133380000,
-        "specialIncomeCharges": -38000000,
-        "otherNonOperating": 149000000,
-        "stockComp": 830000000
+        "ocf": 991000000.0,
+        "capex": -496000000.0,
+        "fcf": 495000000.0,
+        "pretaxIncome": 2462000000.0,
+        "taxProvision": 460000000.0,
+        "normalizedIncome": 1433380000.0,
+        "unusualItems": 702000000.0,
+        "unusualItemsExGoodwill": 702000000.0,
+        "unusualTaxEffect": 133380000.0,
+        "specialIncomeCharges": -38000000.0,
+        "otherNonOperating": 149000000.0,
+        "stockComp": 830000000.0
       }
     ],
     "_currency": "USD",
@@ -6589,105 +6589,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-02",
-        "shares": 1131000000
+        "shares": 1131000000.0
       },
       {
         "date": "2021-02-01",
-        "shares": 1136000000
+        "shares": 1136000000.0
       },
       {
         "date": "2021-04-26",
-        "shares": 1128000000
+        "shares": 1128000000.0
       },
       {
         "date": "2021-07-26",
-        "shares": 1128000000
+        "shares": 1128000000.0
       },
       {
         "date": "2021-11-01",
-        "shares": 1120000000
+        "shares": 1120000000.0
       },
       {
         "date": "2022-01-31",
-        "shares": 1127000000
+        "shares": 1127000000.0
       },
       {
         "date": "2022-04-25",
-        "shares": 1120000000
+        "shares": 1120000000.0
       },
       {
         "date": "2022-07-25",
-        "shares": 1123000000
+        "shares": 1123000000.0
       },
       {
         "date": "2022-10-31",
-        "shares": 1121000000
+        "shares": 1121000000.0
       },
       {
         "date": "2023-01-31",
-        "shares": 1115000000
+        "shares": 1115000000.0
       },
       {
         "date": "2023-05-01",
-        "shares": 1114000000
+        "shares": 1114000000.0
       },
       {
         "date": "2023-07-31",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2023-10-30",
-        "shares": 1113000000
+        "shares": 1113000000.0
       },
       {
         "date": "2024-01-29",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2024-04-29",
-        "shares": 1116000000
+        "shares": 1116000000.0
       },
       {
         "date": "2024-07-29",
-        "shares": 1114000000
+        "shares": 1114000000.0
       },
       {
         "date": "2024-11-04",
-        "shares": 1111000000
+        "shares": 1111000000.0
       },
       {
         "date": "2025-02-03",
-        "shares": 1106000000
+        "shares": 1106000000.0
       },
       {
         "date": "2025-04-28",
-        "shares": 1098000000
+        "shares": 1098000000.0
       },
       {
         "date": "2025-07-28",
-        "shares": 1079000000
+        "shares": 1079000000.0
       },
       {
         "date": "2025-11-03",
-        "shares": 1071000000
+        "shares": 1071000000.0
       },
       {
         "date": "2026-02-02",
-        "shares": 1067000000
+        "shares": 1067000000.0
       },
       {
         "date": "2026-04-27",
-        "shares": 1054000000
+        "shares": 1054000000.0
       },
       {
         "date": "2026-07-27",
-        "shares": 1050000000
+        "shares": 1050000000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6712,8 +6712,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ARM": {
@@ -6737,101 +6737,101 @@ const FINANCIALS_DATA = {
         "unusualTaxEffect": null,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
-        "impairment": 21000000,
-        "restructuring": 26000000,
+        "impairment": 21000000.0,
+        "restructuring": 26000000.0,
         "stockComp": null
       },
       {
         "period": "2023",
         "endDate": "2023-03-31",
-        "revenue": 2679000000,
-        "netIncome": 524000000,
-        "opIncome": 678000000,
+        "revenue": 2679000000.0,
+        "netIncome": 524000000.0,
+        "opIncome": 678000000.0,
         "eps": 0.510694,
-        "ocf": 739000000,
-        "capex": -93000000,
-        "fcf": 646000000,
+        "ocf": 739000000.0,
+        "capex": -93000000.0,
+        "fcf": 646000000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 671000000,
-        "taxProvision": 147000000,
-        "normalizedIncome": 564560000,
-        "unusualItems": -52000000,
-        "unusualItemsExGoodwill": -52000000,
-        "unusualTaxEffect": -11440000,
-        "specialIncomeCharges": -7000000,
-        "otherNonOperating": 3000000,
-        "impairment": 0,
-        "restructuring": 7000000,
-        "stockComp": 79000000
+        "pretaxIncome": 671000000.0,
+        "taxProvision": 147000000.0,
+        "normalizedIncome": 564560000.0,
+        "unusualItems": -52000000.0,
+        "unusualItemsExGoodwill": -52000000.0,
+        "unusualTaxEffect": -11440000.0,
+        "specialIncomeCharges": -7000000.0,
+        "otherNonOperating": 3000000.0,
+        "impairment": 0.0,
+        "restructuring": 7000000.0,
+        "stockComp": 79000000.0
       },
       {
         "period": "2024",
         "endDate": "2024-03-31",
-        "revenue": 3233000000,
-        "netIncome": 306000000,
-        "opIncome": 117000000,
+        "revenue": 3233000000.0,
+        "netIncome": 306000000.0,
+        "opIncome": 117000000.0,
         "eps": 0.29,
-        "ocf": 1090000000,
-        "capex": -143000000,
-        "fcf": 947000000,
+        "ocf": 1090000000.0,
+        "capex": -143000000.0,
+        "fcf": 947000000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 212000000,
-        "taxProvision": -94000000,
-        "normalizedIncome": 326540000,
-        "unusualItems": -26000000,
-        "unusualItemsExGoodwill": -26000000,
-        "unusualTaxEffect": -5460000,
-        "specialIncomeCharges": -6000000,
-        "otherNonOperating": 11000000,
-        "impairment": 0,
-        "restructuring": 6000000,
-        "stockComp": 1037000000
+        "pretaxIncome": 212000000.0,
+        "taxProvision": -94000000.0,
+        "normalizedIncome": 326540000.0,
+        "unusualItems": -26000000.0,
+        "unusualItemsExGoodwill": -26000000.0,
+        "unusualTaxEffect": -5460000.0,
+        "specialIncomeCharges": -6000000.0,
+        "otherNonOperating": 11000000.0,
+        "impairment": 0.0,
+        "restructuring": 6000000.0,
+        "stockComp": 1037000000.0
       },
       {
         "period": "2025",
         "endDate": "2025-03-31",
-        "revenue": 4007000000,
-        "netIncome": 792000000,
-        "opIncome": 831000000,
+        "revenue": 4007000000.0,
+        "netIncome": 792000000.0,
+        "opIncome": 831000000.0,
         "eps": 0.61,
-        "ocf": 397000000,
-        "capex": -239000000,
-        "fcf": 158000000,
+        "ocf": 397000000.0,
+        "capex": -239000000.0,
+        "fcf": 158000000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 720000000,
-        "taxProvision": -72000000,
-        "normalizedIncome": 979230000,
-        "unusualItems": -237000000,
-        "unusualItemsExGoodwill": -237000000,
-        "unusualTaxEffect": -49770000,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 10000000,
+        "pretaxIncome": 720000000.0,
+        "taxProvision": -72000000.0,
+        "normalizedIncome": 979230000.0,
+        "unusualItems": -237000000.0,
+        "unusualItemsExGoodwill": -237000000.0,
+        "unusualTaxEffect": -49770000.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 10000000.0,
         "impairment": null,
-        "restructuring": 0,
-        "stockComp": 820000000
+        "restructuring": 0.0,
+        "stockComp": 820000000.0
       },
       {
         "period": "2026",
         "endDate": "2026-03-31",
-        "revenue": 4920000000,
-        "netIncome": 904000000,
-        "opIncome": 908000000,
+        "revenue": 4920000000.0,
+        "netIncome": 904000000.0,
+        "opIncome": 908000000.0,
         "eps": 0.85,
-        "ocf": 1524000000,
-        "capex": -575000000,
-        "fcf": 949000000,
+        "ocf": 1524000000.0,
+        "capex": -575000000.0,
+        "fcf": 949000000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 1157000000,
-        "taxProvision": 253000000,
-        "normalizedIncome": 899314000,
-        "unusualItems": 6000000,
-        "unusualItemsExGoodwill": 6000000,
-        "unusualTaxEffect": 1314000,
-        "specialIncomeCharges": -8000000,
-        "otherNonOperating": 132000000,
+        "pretaxIncome": 1157000000.0,
+        "taxProvision": 253000000.0,
+        "normalizedIncome": 899314000.0,
+        "unusualItems": 6000000.0,
+        "unusualItemsExGoodwill": 6000000.0,
+        "unusualTaxEffect": 1314000.0,
+        "specialIncomeCharges": -8000000.0,
+        "otherNonOperating": 132000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 1052000000
+        "stockComp": 1052000000.0
       }
     ],
     "quarterly": [
@@ -6851,7 +6851,7 @@ const FINANCIALS_DATA = {
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
         "unusualTaxEffect": null,
-        "specialIncomeCharges": 0,
+        "specialIncomeCharges": 0.0,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
@@ -6860,119 +6860,119 @@ const FINANCIALS_DATA = {
       {
         "period": "Q2'25",
         "endDate": "2025-06-30",
-        "revenue": 1053000000,
-        "netIncome": 130000000,
-        "opIncome": 114000000,
+        "revenue": 1053000000.0,
+        "netIncome": 130000000.0,
+        "opIncome": 114000000.0,
         "eps": 0.12,
-        "ocf": 332000000,
-        "capex": -161000000,
-        "fcf": 171000000,
-        "pretaxIncome": 146000000,
-        "taxProvision": 16000000,
+        "ocf": 332000000.0,
+        "capex": -161000000.0,
+        "fcf": 171000000.0,
+        "pretaxIncome": 146000000.0,
+        "taxProvision": 16000000.0,
         "normalizedIncome": 126438356.164384,
-        "unusualItems": 4000000,
-        "unusualItemsExGoodwill": 4000000,
+        "unusualItems": 4000000.0,
+        "unusualItemsExGoodwill": 4000000.0,
         "unusualTaxEffect": 438356.164384,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 1000000,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 1000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 241000000
+        "stockComp": 241000000.0
       },
       {
         "period": "Q3'25",
         "endDate": "2025-09-30",
-        "revenue": 1135000000,
-        "netIncome": 238000000,
-        "opIncome": 163000000,
+        "revenue": 1135000000.0,
+        "netIncome": 238000000.0,
+        "opIncome": 163000000.0,
         "eps": 0.22,
-        "ocf": 567000000,
-        "capex": -140000000,
-        "fcf": 427000000,
-        "pretaxIncome": 302000000,
-        "taxProvision": 64000000,
-        "normalizedIncome": 250608000,
-        "unusualItems": -16000000,
-        "unusualItemsExGoodwill": -16000000,
-        "unusualTaxEffect": -3392000,
+        "ocf": 567000000.0,
+        "capex": -140000000.0,
+        "fcf": 427000000.0,
+        "pretaxIncome": 302000000.0,
+        "taxProvision": 64000000.0,
+        "normalizedIncome": 250608000.0,
+        "unusualItems": -16000000.0,
+        "unusualItemsExGoodwill": -16000000.0,
+        "unusualTaxEffect": -3392000.0,
         "specialIncomeCharges": null,
-        "otherNonOperating": 128000000,
+        "otherNonOperating": 128000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 265000000
+        "stockComp": 265000000.0
       },
       {
         "period": "Q4'25",
         "endDate": "2025-12-31",
-        "revenue": 1242000000,
-        "netIncome": 223000000,
-        "opIncome": 191000000,
+        "revenue": 1242000000.0,
+        "netIncome": 223000000.0,
+        "opIncome": 191000000.0,
         "eps": 0.21,
-        "ocf": 365000000,
-        "capex": -184000000,
-        "fcf": 181000000,
-        "pretaxIncome": 228000000,
-        "taxProvision": 5000000,
-        "normalizedIncome": 223000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": -6000000,
-        "otherNonOperating": 8000000,
+        "ocf": 365000000.0,
+        "capex": -184000000.0,
+        "fcf": 181000000.0,
+        "pretaxIncome": 228000000.0,
+        "taxProvision": 5000000.0,
+        "normalizedIncome": 223000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": -6000000.0,
+        "otherNonOperating": 8000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 285000000
+        "stockComp": 285000000.0
       },
       {
         "period": "Q1'26",
         "endDate": "2026-03-31",
-        "revenue": 1490000000,
-        "netIncome": 313000000,
-        "opIncome": 440000000,
+        "revenue": 1490000000.0,
+        "netIncome": 313000000.0,
+        "opIncome": 440000000.0,
         "eps": 0.29,
-        "ocf": 260000000,
-        "capex": -90000000,
-        "fcf": 170000000,
-        "pretaxIncome": 481000000,
-        "taxProvision": 168000000,
+        "ocf": 260000000.0,
+        "capex": -90000000.0,
+        "fcf": 170000000.0,
+        "pretaxIncome": 481000000.0,
+        "taxProvision": 168000000.0,
         "normalizedIncome": 301286902.286902,
-        "unusualItems": 18000000,
-        "unusualItemsExGoodwill": 18000000,
+        "unusualItems": 18000000.0,
+        "unusualItemsExGoodwill": 18000000.0,
         "unusualTaxEffect": 6286902.286902,
-        "specialIncomeCharges": -2000000,
-        "otherNonOperating": -5000000,
+        "specialIncomeCharges": -2000000.0,
+        "otherNonOperating": -5000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 261000000
+        "stockComp": 261000000.0
       },
       {
         "period": "Q2'26",
         "endDate": "2026-06-30",
-        "revenue": 1289000000,
-        "netIncome": 270000000,
-        "opIncome": 98000000,
+        "revenue": 1289000000.0,
+        "netIncome": 270000000.0,
+        "opIncome": 98000000.0,
         "eps": 0.25,
-        "ocf": 902000000,
-        "capex": -208000000,
-        "fcf": 694000000,
-        "pretaxIncome": 253000000,
-        "taxProvision": -17000000,
-        "normalizedIncome": 197400000,
-        "unusualItems": 121000000,
-        "unusualItemsExGoodwill": 121000000,
-        "unusualTaxEffect": 48400000,
-        "specialIncomeCharges": -7000000,
-        "otherNonOperating": 3000000,
+        "ocf": 902000000.0,
+        "capex": -208000000.0,
+        "fcf": 694000000.0,
+        "pretaxIncome": 253000000.0,
+        "taxProvision": -17000000.0,
+        "normalizedIncome": 197400000.0,
+        "unusualItems": 121000000.0,
+        "unusualItemsExGoodwill": 121000000.0,
+        "unusualTaxEffect": 48400000.0,
+        "specialIncomeCharges": -7000000.0,
+        "otherNonOperating": 3000000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 343000000
+        "stockComp": 343000000.0
       }
     ],
     "_currency": "USD",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -6997,8 +6997,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481
   },
   "MRVL": {
     "annual": [
@@ -7048,229 +7048,229 @@ const FINANCIALS_DATA = {
         "fcf": 650100000,
         "endDate": "2022-01-29",
         "_fcfIsProxy": true,
-        "otherNonOperating": 2700000
+        "otherNonOperating": 2700000.0
       },
       {
         "period": "2023",
-        "revenue": 5919600000,
-        "netIncome": -163500000,
+        "revenue": 5919600000.0,
+        "netIncome": -163500000.0,
         "opIncome": 238000000,
         "eps": -0.19,
         "ocf": 1288800000,
         "capex": -206200000,
-        "fcf": 1071500000,
+        "fcf": 1071500000.0,
         "endDate": "2023-01-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 85100000,
-        "taxProvision": 248600000,
-        "normalizedIncome": -67436000,
-        "unusualItems": -121600000,
-        "unusualItemsExGoodwill": -121600000,
-        "unusualTaxEffect": -25536000,
-        "specialIncomeCharges": -121600000,
-        "otherNonOperating": 12400000,
-        "restructuring": 21600000,
-        "stockComp": 552400000
+        "pretaxIncome": 85100000.0,
+        "taxProvision": 248600000.0,
+        "normalizedIncome": -67436000.0,
+        "unusualItems": -121600000.0,
+        "unusualItemsExGoodwill": -121600000.0,
+        "unusualTaxEffect": -25536000.0,
+        "specialIncomeCharges": -121600000.0,
+        "otherNonOperating": 12400000.0,
+        "restructuring": 21600000.0,
+        "stockComp": 552400000.0
       },
       {
         "period": "2024",
-        "revenue": 5507700000,
-        "netIncome": -933400000,
+        "revenue": 5507700000.0,
+        "netIncome": -933400000.0,
         "opIncome": -567700000,
         "eps": -1.08,
         "ocf": 1370500000,
         "capex": -336300000,
-        "fcf": 1020300000,
+        "fcf": 1020300000.0,
         "endDate": "2024-02-03",
         "_fcfIsProxy": false,
-        "pretaxIncome": -758700000,
-        "taxProvision": 174700000,
-        "normalizedIncome": -829831000,
-        "unusualItems": -131100000,
-        "unusualItemsExGoodwill": -131100000,
-        "unusualTaxEffect": -27531000,
-        "specialIncomeCharges": -131100000,
-        "otherNonOperating": 11900000,
-        "restructuring": 131100000,
-        "stockComp": 609800000
+        "pretaxIncome": -758700000.0,
+        "taxProvision": 174700000.0,
+        "normalizedIncome": -829831000.0,
+        "unusualItems": -131100000.0,
+        "unusualItemsExGoodwill": -131100000.0,
+        "unusualTaxEffect": -27531000.0,
+        "specialIncomeCharges": -131100000.0,
+        "otherNonOperating": 11900000.0,
+        "restructuring": 131100000.0,
+        "stockComp": 609800000.0
       },
       {
         "period": "2025",
-        "revenue": 5767300000,
-        "netIncome": -885000000,
+        "revenue": 5767300000.0,
+        "netIncome": -885000000.0,
         "opIncome": -720300000,
         "eps": -1.02,
         "ocf": 1681200000,
         "capex": -284600000,
-        "fcf": 1389600000,
+        "fcf": 1389600000.0,
         "endDate": "2025-02-01",
         "_fcfIsProxy": false,
-        "pretaxIncome": -894700000,
-        "taxProvision": -9700000,
+        "pretaxIncome": -894700000.0,
+        "taxProvision": -9700000.0,
         "normalizedIncome": -534936850.340896,
-        "unusualItems": -353900000,
-        "unusualItemsExGoodwill": -353900000,
+        "unusualItems": -353900000.0,
+        "unusualItemsExGoodwill": -353900000.0,
         "unusualTaxEffect": -3836850.340896,
-        "specialIncomeCharges": -353900000,
-        "restructuring": 353900000,
-        "stockComp": 597400000
+        "specialIncomeCharges": -353900000.0,
+        "restructuring": 353900000.0,
+        "stockComp": 597400000.0
       },
       {
         "period": "2026",
-        "revenue": 8194600000,
-        "netIncome": 2670100000,
+        "revenue": 8194600000.0,
+        "netIncome": 2670100000.0,
         "opIncome": 1322900000,
         "eps": 3.07,
         "ocf": 1750500000,
         "capex": -354100000,
-        "fcf": 1391900000,
+        "fcf": 1391900000.0,
         "endDate": "2026-01-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3046600000,
-        "taxProvision": 376500000,
-        "normalizedIncome": 2683678000,
-        "unusualItems": -15500000,
-        "unusualItemsExGoodwill": -15500000,
-        "unusualTaxEffect": -1922000,
-        "specialIncomeCharges": -15500000,
-        "restructuring": 15500000,
-        "stockComp": 590800000
+        "pretaxIncome": 3046600000.0,
+        "taxProvision": 376500000.0,
+        "normalizedIncome": 2683678000.0,
+        "unusualItems": -15500000.0,
+        "unusualItemsExGoodwill": -15500000.0,
+        "unusualTaxEffect": -1922000.0,
+        "specialIncomeCharges": -15500000.0,
+        "restructuring": 15500000.0,
+        "stockComp": 590800000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q4'23",
-        "revenue": 1418600000,
-        "netIncome": -164300000,
+        "revenue": 1418600000.0,
+        "netIncome": -164300000.0,
         "opIncome": -146300000,
         "endDate": "2023-10-28",
         "eps": -0.19
       },
       {
         "period": "Q1'24",
-        "revenue": 1426500000,
-        "netIncome": -392700000,
+        "revenue": 1426500000.0,
+        "netIncome": -392700000.0,
         "opIncome": -33300000,
         "endDate": "2024-02-03"
       },
       {
         "period": "Q2'24",
-        "revenue": 1160900000,
-        "netIncome": -215600000,
+        "revenue": 1160900000.0,
+        "netIncome": -215600000.0,
         "opIncome": -152300000,
         "endDate": "2024-05-04",
         "eps": -0.25
       },
       {
         "period": "Q3'24",
-        "revenue": 1272900000,
-        "netIncome": -193300000,
+        "revenue": 1272900000.0,
+        "netIncome": -193300000.0,
         "opIncome": -100400000,
         "endDate": "2024-08-03",
         "eps": -0.22
       },
       {
         "period": "Q4'24",
-        "revenue": 1516100000,
-        "netIncome": -676300000,
+        "revenue": 1516100000.0,
+        "netIncome": -676300000.0,
         "opIncome": -702800000,
         "endDate": "2024-11-02",
         "eps": -0.78
       },
       {
         "period": "Q1'25",
-        "revenue": 1817400000,
-        "netIncome": 200200000,
+        "revenue": 1817400000.0,
+        "netIncome": 200200000.0,
         "opIncome": 235200000,
         "endDate": "2025-02-01"
       },
       {
         "period": "Q2'25",
-        "revenue": 1895300000,
-        "netIncome": 177900000,
+        "revenue": 1895300000.0,
+        "netIncome": 177900000.0,
         "opIncome": 270600000,
         "endDate": "2025-05-03",
         "eps": 0.2
       },
       {
         "period": "Q3'25",
-        "revenue": 2006100000,
-        "netIncome": 194800000,
+        "revenue": 2006100000.0,
+        "netIncome": 194800000.0,
         "opIncome": 290100000,
         "endDate": "2025-08-02",
         "eps": 0.22,
-        "ocf": 461600000,
-        "capex": -48600000,
-        "fcf": 413000000,
-        "pretaxIncome": 233700000,
-        "taxProvision": 38900000,
+        "ocf": 461600000.0,
+        "capex": -48600000.0,
+        "fcf": 413000000.0,
+        "pretaxIncome": 233700000.0,
+        "taxProvision": 38900000.0,
         "normalizedIncome": 202051861.360719,
-        "unusualItems": -8700000,
-        "unusualItemsExGoodwill": -8700000,
+        "unusualItems": -8700000.0,
+        "unusualItemsExGoodwill": -8700000.0,
         "unusualTaxEffect": -1448138.639281,
-        "specialIncomeCharges": -8700000,
-        "restructuring": 8700000,
-        "stockComp": 153600000
+        "specialIncomeCharges": -8700000.0,
+        "restructuring": 8700000.0,
+        "stockComp": 153600000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2074500000,
-        "netIncome": 1901300000,
+        "revenue": 2074500000.0,
+        "netIncome": 1901300000.0,
         "opIncome": 357800000,
         "endDate": "2025-11-01",
         "eps": 2.2,
-        "ocf": 582300000,
-        "capex": -74700000,
-        "fcf": 507600000,
-        "pretaxIncome": 2215400000,
-        "taxProvision": 314100000,
+        "ocf": 582300000.0,
+        "capex": -74700000.0,
+        "fcf": 507600000.0,
+        "pretaxIncome": 2215400000.0,
+        "taxProvision": 314100000.0,
         "normalizedIncome": 1909538909.452018,
-        "unusualItems": -9600000,
-        "unusualItemsExGoodwill": -9600000,
+        "unusualItems": -9600000.0,
+        "unusualItemsExGoodwill": -9600000.0,
         "unusualTaxEffect": -1361090.547982,
-        "specialIncomeCharges": -9600000,
-        "restructuring": 9600000,
-        "stockComp": 152100000
+        "specialIncomeCharges": -9600000.0,
+        "restructuring": 9600000.0,
+        "stockComp": 152100000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 2218700000,
-        "netIncome": 396100000,
+        "revenue": 2218700000.0,
+        "netIncome": 396100000.0,
         "opIncome": 404400000,
         "endDate": "2026-01-31",
         "eps": 0.46,
-        "ocf": 373700000,
-        "capex": -115400000,
-        "fcf": 258300000,
-        "pretaxIncome": 381600000,
-        "taxProvision": -14500000,
-        "normalizedIncome": 401800000,
-        "unusualItems": -9500000,
-        "unusualItemsExGoodwill": -9500000,
-        "unusualTaxEffect": -3800000,
-        "specialIncomeCharges": -9500000,
-        "restructuring": 9500000,
-        "stockComp": 143000000
+        "ocf": 373700000.0,
+        "capex": -115400000.0,
+        "fcf": 258300000.0,
+        "pretaxIncome": 381600000.0,
+        "taxProvision": -14500000.0,
+        "normalizedIncome": 401800000.0,
+        "unusualItems": -9500000.0,
+        "unusualItemsExGoodwill": -9500000.0,
+        "unusualTaxEffect": -3800000.0,
+        "specialIncomeCharges": -9500000.0,
+        "restructuring": 9500000.0,
+        "stockComp": 143000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 2417800000,
-        "netIncome": 34500000,
+        "revenue": 2417800000.0,
+        "netIncome": 34500000.0,
         "opIncome": 339400000,
         "endDate": "2026-05-02",
         "eps": 0.04,
-        "ocf": 638800000,
-        "capex": -156200000,
-        "fcf": 482600000,
-        "pretaxIncome": 83300000,
-        "taxProvision": 48800000,
-        "normalizedIncome": 40920000,
-        "unusualItems": -10700000,
-        "unusualItemsExGoodwill": -10700000,
-        "unusualTaxEffect": -4280000,
-        "specialIncomeCharges": -10700000,
-        "restructuring": 10700000,
-        "stockComp": 207600000
+        "ocf": 638800000.0,
+        "capex": -156200000.0,
+        "fcf": 482600000.0,
+        "pretaxIncome": 83300000.0,
+        "taxProvision": 48800000.0,
+        "normalizedIncome": 40920000.0,
+        "unusualItems": -10700000.0,
+        "unusualItemsExGoodwill": -10700000.0,
+        "unusualTaxEffect": -4280000.0,
+        "specialIncomeCharges": -10700000.0,
+        "restructuring": 10700000.0,
+        "stockComp": 207600000.0
       },
       {
         "period": "Q3'26",
@@ -7279,18 +7279,18 @@ const FINANCIALS_DATA = {
         "opIncome": 459700000,
         "eps": 0.33,
         "endDate": "2026-08-01",
-        "ocf": 605500000,
-        "capex": -131200000,
-        "fcf": 474300000,
-        "pretaxIncome": 378300000,
-        "taxProvision": 70300000,
+        "ocf": 605500000.0,
+        "capex": -131200000.0,
+        "fcf": 474300000.0,
+        "pretaxIncome": 378300000.0,
+        "taxProvision": 70300000.0,
         "normalizedIncome": 305720327.782183,
-        "unusualItems": 2800000,
-        "unusualItemsExGoodwill": 2800000,
+        "unusualItems": 2800000.0,
+        "unusualItemsExGoodwill": 2800000.0,
         "unusualTaxEffect": 520327.782183,
-        "specialIncomeCharges": 2800000,
-        "restructuring": -2800000,
-        "stockComp": 326200000
+        "specialIncomeCharges": 2800000.0,
+        "restructuring": -2800000.0,
+        "stockComp": 326200000.0
       }
     ],
     "_currency": "USD",
@@ -7300,97 +7300,97 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2021-06-02",
-        "shares": 819500000
+        "shares": 819500000.0
       },
       {
         "date": "2021-08-20",
-        "shares": 823600000
+        "shares": 823600000.0
       },
       {
         "date": "2021-11-26",
-        "shares": 843800000
+        "shares": 843800000.0
       },
       {
         "date": "2022-03-03",
-        "shares": 847800000
+        "shares": 847800000.0
       },
       {
         "date": "2022-05-20",
-        "shares": 849900000
+        "shares": 849900000.0
       },
       {
         "date": "2022-08-19",
-        "shares": 852600000
+        "shares": 852600000.0
       },
       {
         "date": "2022-11-25",
-        "shares": 853200000
+        "shares": 853200000.0
       },
       {
         "date": "2023-03-02",
-        "shares": 856900000
+        "shares": 856900000.0
       },
       {
         "date": "2023-05-19",
-        "shares": 860000000
+        "shares": 860000000.0
       },
       {
         "date": "2023-08-18",
-        "shares": 862800000
+        "shares": 862800000.0
       },
       {
         "date": "2023-11-24",
-        "shares": 864500000
+        "shares": 864500000.0
       },
       {
         "date": "2024-03-06",
-        "shares": 866000000
+        "shares": 866000000.0
       },
       {
         "date": "2024-05-24",
-        "shares": 865600000
+        "shares": 865600000.0
       },
       {
         "date": "2024-08-23",
-        "shares": 866200000
+        "shares": 866200000.0
       },
       {
         "date": "2024-11-27",
-        "shares": 865300000
+        "shares": 865300000.0
       },
       {
         "date": "2025-03-05",
-        "shares": 866100000
+        "shares": 866100000.0
       },
       {
         "date": "2025-05-23",
-        "shares": 862200000
+        "shares": 862200000.0
       },
       {
         "date": "2025-08-22",
-        "shares": 862100000
+        "shares": 862100000.0
       },
       {
         "date": "2025-11-26",
-        "shares": 848100000
+        "shares": 848100000.0
       },
       {
         "date": "2026-03-04",
-        "shares": 874300000
+        "shares": 874300000.0
       },
       {
         "date": "2026-05-21",
-        "shares": 874800000
+        "shares": 874800000.0
       },
       {
         "date": "2026-08-21",
-        "shares": 876900000
+        "shares": 876900000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7415,8 +7415,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ASML": {
@@ -7435,11 +7435,11 @@ const FINANCIALS_DATA = {
         "pretaxIncome": null,
         "taxProvision": null,
         "normalizedIncome": null,
-        "unusualItems": 213700000,
-        "unusualItemsExGoodwill": 213700000,
+        "unusualItems": 213700000.0,
+        "unusualItemsExGoodwill": 213700000.0,
         "unusualTaxEffect": null,
-        "specialIncomeCharges": 213700000,
-        "otherNonOperating": 213700000,
+        "specialIncomeCharges": 213700000.0,
+        "otherNonOperating": 213700000.0,
         "impairment": null,
         "restructuring": null,
         "stockComp": null
@@ -7447,94 +7447,94 @@ const FINANCIALS_DATA = {
       {
         "period": "2022",
         "endDate": "2022-12-31",
-        "revenue": 21173400000,
-        "netIncome": 5624200000,
-        "opIncome": 6500700000,
+        "revenue": 21173400000.0,
+        "netIncome": 5624200000.0,
+        "opIncome": 6500700000.0,
         "eps": 16.07,
         "ocf": null,
-        "capex": -1319300000,
-        "fcf": 7167500000,
+        "capex": -1319300000.0,
+        "fcf": 7167500000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 6456100000,
-        "taxProvision": 969900000,
-        "normalizedIncome": 5624200000,
+        "pretaxIncome": 6456100000.0,
+        "taxProvision": 969900000.0,
+        "normalizedIncome": 5624200000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 68900000
+        "stockComp": 68900000.0
       },
       {
         "period": "2023",
         "endDate": "2023-12-31",
-        "revenue": 27558500000,
-        "netIncome": 7839000000,
-        "opIncome": 9042300000,
+        "revenue": 27558500000.0,
+        "netIncome": 7839000000.0,
+        "opIncome": 9042300000.0,
         "eps": 20.59,
         "ocf": null,
-        "capex": -2196200000,
-        "fcf": 3247200000,
+        "capex": -2196200000.0,
+        "fcf": 3247200000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 9083500000,
-        "taxProvision": 1435800000,
-        "normalizedIncome": 7839000000,
+        "pretaxIncome": 9083500000.0,
+        "taxProvision": 1435800000.0,
+        "normalizedIncome": 7839000000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 134800000
+        "stockComp": 134800000.0
       },
       {
         "period": "2024",
         "endDate": "2024-12-31",
-        "revenue": 28262900000,
-        "netIncome": 7571600000,
-        "opIncome": 9022600000,
+        "revenue": 28262900000.0,
+        "netIncome": 7571600000.0,
+        "opIncome": 9022600000.0,
         "eps": 19.24,
         "ocf": null,
-        "capex": -2083100000,
-        "fcf": 9083100000,
+        "capex": -2083100000.0,
+        "fcf": 9083100000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 9042400000,
-        "taxProvision": 1680600000,
-        "normalizedIncome": 7571600000,
+        "pretaxIncome": 9042400000.0,
+        "taxProvision": 1680600000.0,
+        "normalizedIncome": 7571600000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 172600000
+        "stockComp": 172600000.0
       },
       {
         "period": "2025",
         "endDate": "2025-12-31",
-        "revenue": 32667300000,
-        "netIncome": 9609400000,
-        "opIncome": 11301400000,
+        "revenue": 32667300000.0,
+        "netIncome": 9609400000.0,
+        "opIncome": 11301400000.0,
         "eps": 24.71,
         "ocf": null,
-        "capex": -1631200000,
-        "fcf": 11027300000,
+        "capex": -1631200000.0,
+        "fcf": 11027300000.0,
         "_fcfIsProxy": false,
-        "pretaxIncome": 11406100000,
-        "taxProvision": 2013400000,
-        "normalizedIncome": 9609400000,
+        "pretaxIncome": 11406100000.0,
+        "taxProvision": 2013400000.0,
+        "normalizedIncome": 9609400000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 202300000
+        "stockComp": 202300000.0
       }
     ],
     "quarterly": [
@@ -7545,9 +7545,9 @@ const FINANCIALS_DATA = {
         "netIncome": null,
         "opIncome": null,
         "eps": null,
-        "ocf": -58600000,
-        "capex": -416500000,
-        "fcf": -475100000,
+        "ocf": -58600000.0,
+        "capex": -416500000.0,
+        "fcf": -475100000.0,
         "pretaxIncome": null,
         "taxProvision": null,
         "normalizedIncome": null,
@@ -7558,112 +7558,112 @@ const FINANCIALS_DATA = {
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 40000000
+        "stockComp": 40000000.0
       },
       {
         "period": "Q2'25",
         "endDate": "2025-06-30",
-        "revenue": 7691700000,
-        "netIncome": 2290300000,
-        "opIncome": 2664100000,
+        "revenue": 7691700000.0,
+        "netIncome": 2290300000.0,
+        "opIncome": 2664100000.0,
         "eps": 5.9,
-        "ocf": 747700000,
-        "capex": -428900000,
-        "fcf": 318800000,
-        "pretaxIncome": 2688900000,
-        "taxProvision": 487400000,
-        "normalizedIncome": 2290300000,
+        "ocf": 747700000.0,
+        "capex": -428900000.0,
+        "fcf": 318800000.0,
+        "pretaxIncome": 2688900000.0,
+        "taxProvision": 487400000.0,
+        "normalizedIncome": 2290300000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 49000000
+        "stockComp": 49000000.0
       },
       {
         "period": "Q3'25",
         "endDate": "2025-09-30",
-        "revenue": 7516000000,
-        "netIncome": 2124500000,
-        "opIncome": 2468400000,
+        "revenue": 7516000000.0,
+        "netIncome": 2124500000.0,
+        "opIncome": 2468400000.0,
         "eps": 5.48,
-        "ocf": 559100000,
-        "capex": -315400000,
-        "fcf": 243700000,
-        "pretaxIncome": 2487800000,
-        "taxProvision": 442200000,
-        "normalizedIncome": 2124500000,
+        "ocf": 559100000.0,
+        "capex": -315400000.0,
+        "fcf": 243700000.0,
+        "pretaxIncome": 2487800000.0,
+        "taxProvision": 442200000.0,
+        "normalizedIncome": 2124500000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 57700000
+        "stockComp": 57700000.0
       },
       {
         "period": "Q4'25",
         "endDate": "2025-12-31",
-        "revenue": 9718100000,
-        "netIncome": 2839600000,
-        "opIncome": 3431100000,
+        "revenue": 9718100000.0,
+        "netIncome": 2839600000.0,
+        "opIncome": 3431100000.0,
         "eps": 7.34,
-        "ocf": 11410300000,
-        "capex": -470400000,
-        "fcf": 10939900000,
-        "pretaxIncome": 3442300000,
-        "taxProvision": 618700000,
-        "normalizedIncome": 2839600000,
+        "ocf": 11410300000.0,
+        "capex": -470400000.0,
+        "fcf": 10939900000.0,
+        "pretaxIncome": 3442300000.0,
+        "taxProvision": 618700000.0,
+        "normalizedIncome": 2839600000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 55600000
+        "stockComp": 55600000.0
       },
       {
         "period": "Q1'26",
         "endDate": "2026-03-31",
-        "revenue": 8766900000,
-        "netIncome": 2756700000,
-        "opIncome": 3157800000,
+        "revenue": 8766900000.0,
+        "netIncome": 2756700000.0,
+        "opIncome": 3157800000.0,
         "eps": 7.15,
-        "ocf": -2185600000,
-        "capex": -422300000,
-        "fcf": -2607900000,
-        "pretaxIncome": 3198700000,
-        "taxProvision": 546600000,
-        "normalizedIncome": 2756700000,
+        "ocf": -2185600000.0,
+        "capex": -422300000.0,
+        "fcf": -2607900000.0,
+        "pretaxIncome": 3198700000.0,
+        "taxProvision": 546600000.0,
+        "normalizedIncome": 2756700000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 31100000
+        "stockComp": 31100000.0
       },
       {
         "period": "Q2'26",
         "endDate": "2026-06-30",
-        "revenue": 9326500000,
-        "netIncome": 2917600000,
-        "opIncome": 3456100000,
+        "revenue": 9326500000.0,
+        "netIncome": 2917600000.0,
+        "opIncome": 3456100000.0,
         "eps": 7.58,
         "ocf": null,
         "capex": null,
         "fcf": null,
-        "pretaxIncome": 3486100000,
-        "taxProvision": 609600000,
-        "normalizedIncome": 2917600000,
+        "pretaxIncome": 3486100000.0,
+        "taxProvision": 609600000.0,
+        "normalizedIncome": 2917600000.0,
         "unusualItems": null,
         "unusualItemsExGoodwill": null,
-        "unusualTaxEffect": 0,
+        "unusualTaxEffect": 0.0,
         "specialIncomeCharges": null,
         "otherNonOperating": null,
         "impairment": null,
@@ -7673,9 +7673,9 @@ const FINANCIALS_DATA = {
     ],
     "_currency": "EUR",
     "_source": "Yahoo Finance fundamentals-timeseries",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -7700,15 +7700,15 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481
   },
   "LRCX": {
     "annual": [
       {
         "period": "2019",
-        "revenue": 9653559000,
-        "netIncome": 2191430000,
+        "revenue": 9653559000.0,
+        "netIncome": 2191430000.0,
         "opIncome": 2464732000,
         "eps": 1.3699999999999999,
         "ocf": 3176013000,
@@ -7719,8 +7719,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 10044736000,
-        "netIncome": 2251753000,
+        "revenue": 10044736000.0,
+        "netIncome": 2251753000.0,
         "opIncome": 2673802000,
         "eps": 1.51,
         "ocf": 2126451000,
@@ -7731,93 +7731,93 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 14626150000,
-        "netIncome": 3908458000,
-        "opIncome": 4482023000,
+        "revenue": 14626150000.0,
+        "netIncome": 3908458000.0,
+        "opIncome": 4482023000.0,
         "eps": 2.69,
-        "ocf": 3588163000,
-        "capex": -349096000,
-        "fcf": 3239067000,
+        "ocf": 3588163000.0,
+        "capex": -349096000.0,
+        "fcf": 3239067000.0,
         "endDate": "2021-06-27",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 17227039000,
-        "netIncome": 4605286000,
-        "opIncome": 5381822000,
+        "revenue": 17227039000.0,
+        "netIncome": 4605286000.0,
+        "opIncome": 5381822000.0,
         "eps": 3.275,
-        "ocf": 3099674000,
-        "capex": -546034000,
-        "fcf": 2553640000,
+        "ocf": 3099674000.0,
+        "capex": -546034000.0,
+        "fcf": 2553640000.0,
         "endDate": "2022-06-26",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 17428516000,
-        "netIncome": 4510931000,
+        "revenue": 17428516000.0,
+        "netIncome": 4510931000.0,
         "opIncome": 5174860000,
         "eps": 3.32,
         "ocf": 5178938000,
         "capex": -501568000,
-        "fcf": 4677370000,
+        "fcf": 4677370000.0,
         "endDate": "2023-06-25",
         "_fcfIsProxy": false,
-        "pretaxIncome": 5109210000,
-        "taxProvision": 598279000,
-        "normalizedIncome": 4554399324,
-        "unusualItems": -49228000,
-        "unusualItemsExGoodwill": -49228000,
-        "unusualTaxEffect": -5759676,
-        "specialIncomeCharges": -42150000,
-        "otherNonOperating": -11094000,
-        "restructuring": 42150000,
-        "stockComp": 286600000
+        "pretaxIncome": 5109210000.0,
+        "taxProvision": 598279000.0,
+        "normalizedIncome": 4554399324.0,
+        "unusualItems": -49228000.0,
+        "unusualItemsExGoodwill": -49228000.0,
+        "unusualTaxEffect": -5759676.0,
+        "specialIncomeCharges": -42150000.0,
+        "otherNonOperating": -11094000.0,
+        "restructuring": 42150000.0,
+        "stockComp": 286600000.0
       },
       {
         "period": "2024",
-        "revenue": 14905386000,
-        "netIncome": 3827772000,
+        "revenue": 14905386000.0,
+        "netIncome": 3827772000.0,
         "opIncome": 4263913000,
         "eps": 2.9,
         "ocf": 4652269000,
         "capex": -396670000,
-        "fcf": 4255599000,
+        "fcf": 4255599000.0,
         "endDate": "2024-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4360222000,
-        "taxProvision": 532450000,
+        "pretaxIncome": 4360222000.0,
+        "taxProvision": 532450000.0,
         "normalizedIncome": 3847984416.369625,
-        "unusualItems": -23024000,
-        "unusualItemsExGoodwill": -23024000,
+        "unusualItems": -23024000.0,
+        "unusualItemsExGoodwill": -23024000.0,
         "unusualTaxEffect": -2811583.630375,
-        "specialIncomeCharges": -18187000,
-        "otherNonOperating": 34444000,
-        "restructuring": 18187000,
-        "stockComp": 293058000
+        "specialIncomeCharges": -18187000.0,
+        "otherNonOperating": 34444000.0,
+        "restructuring": 18187000.0,
+        "stockComp": 293058000.0
       },
       {
         "period": "2025",
-        "revenue": 18435591000,
-        "netIncome": 5358217000,
+        "revenue": 18435591000.0,
+        "netIncome": 5358217000.0,
         "opIncome": 5900968000,
         "eps": 4.15,
         "ocf": 6173264000,
         "capex": -759186000,
-        "fcf": 5414078000,
+        "fcf": 5414078000.0,
         "endDate": "2025-06-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": 5958129000,
-        "taxProvision": 599912000,
-        "normalizedIncome": 5381961388,
-        "unusualItems": -26412000,
-        "unusualItemsExGoodwill": -26412000,
-        "unusualTaxEffect": -2667612,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 30445000,
-        "restructuring": 0,
-        "stockComp": 343371000
+        "pretaxIncome": 5958129000.0,
+        "taxProvision": 599912000.0,
+        "normalizedIncome": 5381961388.0,
+        "unusualItems": -26412000.0,
+        "unusualItemsExGoodwill": -26412000.0,
+        "unusualTaxEffect": -2667612.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 30445000.0,
+        "restructuring": 0.0,
+        "stockComp": 343371000.0
       },
       {
         "period": "2026",
@@ -7827,158 +7827,158 @@ const FINANCIALS_DATA = {
         "eps": 5.76,
         "ocf": 5857657000,
         "capex": -966405000,
-        "fcf": 4891252000,
+        "fcf": 4891252000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-06-28",
-        "pretaxIncome": 8262473000,
-        "taxProvision": 997077000,
-        "normalizedIncome": 7291838078,
-        "unusualItems": -30082000,
-        "unusualItemsExGoodwill": -30082000,
-        "unusualTaxEffect": -3639922,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 53455000,
-        "restructuring": 0,
-        "stockComp": 386381000
+        "pretaxIncome": 8262473000.0,
+        "taxProvision": 997077000.0,
+        "normalizedIncome": 7291838078.0,
+        "unusualItems": -30082000.0,
+        "unusualItemsExGoodwill": -30082000.0,
+        "unusualTaxEffect": -3639922.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 53455000.0,
+        "restructuring": 0.0,
+        "stockComp": 386381000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 3482062000,
-        "netIncome": 887398000,
+        "revenue": 3482062000.0,
+        "netIncome": 887398000.0,
         "opIncome": 1023029000,
         "endDate": "2023-09-24",
         "eps": 0.67
       },
       {
         "period": "Q4'23",
-        "revenue": 3758259000,
-        "netIncome": 954266000,
+        "revenue": 3758259000.0,
+        "netIncome": 954266000.0,
         "opIncome": 1057212000,
         "endDate": "2023-12-24",
         "eps": 0.72
       },
       {
         "period": "Q1'24",
-        "revenue": 3793558000,
-        "netIncome": 965826000,
+        "revenue": 3793558000.0,
+        "netIncome": 965826000.0,
         "opIncome": 1057112000,
         "endDate": "2024-03-31",
         "eps": 0.73
       },
       {
         "period": "Q2'24",
-        "revenue": 3871507000,
-        "netIncome": 1020282000,
+        "revenue": 3871507000.0,
+        "netIncome": 1020282000.0,
         "opIncome": 1126560000,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
-        "revenue": 4167976000,
-        "netIncome": 1116444000,
+        "revenue": 4167976000.0,
+        "netIncome": 1116444000.0,
         "opIncome": 1264197000,
         "endDate": "2024-09-29",
         "eps": 0.86
       },
       {
         "period": "Q4'24",
-        "revenue": 4376047000,
-        "netIncome": 1191018000,
+        "revenue": 4376047000.0,
+        "netIncome": 1191018000.0,
         "opIncome": 1333884000,
         "endDate": "2024-12-29",
         "eps": 0.92,
-        "specialIncomeCharges": 0,
-        "restructuring": 0
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0
       },
       {
         "period": "Q1'25",
-        "revenue": 4720175000,
-        "netIncome": 1330667000,
+        "revenue": 4720175000.0,
+        "netIncome": 1330667000.0,
         "opIncome": 1561759000,
         "endDate": "2025-03-30",
         "eps": 1.03,
-        "specialIncomeCharges": 0,
-        "restructuring": 0
+        "specialIncomeCharges": 0.0,
+        "restructuring": 0.0
       },
       {
         "period": "Q2'25",
-        "revenue": 5171393000,
-        "netIncome": 1720088000,
+        "revenue": 5171393000.0,
+        "netIncome": 1720088000.0,
         "opIncome": 1741128000,
         "endDate": "2025-06-29",
         "eps": 1.35,
-        "ocf": 2554188000,
-        "capex": -172191000,
-        "fcf": 2381997000,
-        "pretaxIncome": 1778981000,
-        "taxProvision": 58893000,
+        "ocf": 2554188000.0,
+        "capex": -172191000.0,
+        "fcf": 2381997000.0,
+        "pretaxIncome": 1778981000.0,
+        "taxProvision": 58893000.0,
         "normalizedIncome": 1726766344.409524,
-        "unusualItems": -6907000,
-        "unusualItemsExGoodwill": -6907000,
+        "unusualItems": -6907000.0,
+        "unusualItemsExGoodwill": -6907000.0,
         "unusualTaxEffect": -228655.590476,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 32901000,
-        "restructuring": 0,
-        "stockComp": 94286000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 32901000.0,
+        "restructuring": 0.0,
+        "stockComp": 94286000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 5324173000,
-        "netIncome": 1568660000,
+        "revenue": 5324173000.0,
+        "netIncome": 1568660000.0,
         "opIncome": 1829088000,
         "endDate": "2025-09-28",
         "eps": 1.24,
-        "ocf": 1778964000,
-        "capex": -185121000,
-        "fcf": 1593843000,
-        "pretaxIncome": 1859162000,
-        "taxProvision": 290502000,
-        "normalizedIncome": 1573330696,
-        "unusualItems": -5534000,
-        "unusualItemsExGoodwill": -5534000,
-        "unusualTaxEffect": -863304,
-        "otherNonOperating": 14150000,
-        "stockComp": 97241000
+        "ocf": 1778964000.0,
+        "capex": -185121000.0,
+        "fcf": 1593843000.0,
+        "pretaxIncome": 1859162000.0,
+        "taxProvision": 290502000.0,
+        "normalizedIncome": 1573330696.0,
+        "unusualItems": -5534000.0,
+        "unusualItemsExGoodwill": -5534000.0,
+        "unusualTaxEffect": -863304.0,
+        "otherNonOperating": 14150000.0,
+        "stockComp": 97241000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 5344791000,
-        "netIncome": 1593994000,
+        "revenue": 5344791000.0,
+        "netIncome": 1593994000.0,
         "opIncome": 1810203000,
         "endDate": "2025-12-28",
         "eps": 1.26,
-        "ocf": 1480045000,
-        "capex": -260879000,
-        "fcf": 1219166000,
-        "pretaxIncome": 1836613000,
-        "taxProvision": 242619000,
-        "normalizedIncome": 1600967512,
-        "unusualItems": -8034000,
-        "unusualItemsExGoodwill": -8034000,
-        "unusualTaxEffect": -1060488,
-        "otherNonOperating": 22165000,
-        "stockComp": 88539000
+        "ocf": 1480045000.0,
+        "capex": -260879000.0,
+        "fcf": 1219166000.0,
+        "pretaxIncome": 1836613000.0,
+        "taxProvision": 242619000.0,
+        "normalizedIncome": 1600967512.0,
+        "unusualItems": -8034000.0,
+        "unusualItemsExGoodwill": -8034000.0,
+        "unusualTaxEffect": -1060488.0,
+        "otherNonOperating": 22165000.0,
+        "stockComp": 88539000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 5841488000,
-        "netIncome": 1825460000,
+        "revenue": 5841488000.0,
+        "netIncome": 1825460000.0,
         "opIncome": 2047016000,
         "endDate": "2026-03-29",
         "eps": 1.45,
-        "ocf": 1141420000,
-        "capex": -331604000,
-        "fcf": 809816000,
-        "pretaxIncome": 2011556000,
-        "taxProvision": 186096000,
-        "normalizedIncome": 1826412350,
-        "unusualItems": -1050000,
-        "unusualItemsExGoodwill": -1050000,
-        "unusualTaxEffect": -97650,
-        "otherNonOperating": -37716000,
-        "stockComp": 96616000
+        "ocf": 1141420000.0,
+        "capex": -331604000.0,
+        "fcf": 809816000.0,
+        "pretaxIncome": 2011556000.0,
+        "taxProvision": 186096000.0,
+        "normalizedIncome": 1826412350.0,
+        "unusualItems": -1050000.0,
+        "unusualItemsExGoodwill": -1050000.0,
+        "unusualTaxEffect": -97650.0,
+        "otherNonOperating": -37716000.0,
+        "stockComp": 96616000.0
       },
       {
         "period": "Q2'26",
@@ -7987,17 +7987,17 @@ const FINANCIALS_DATA = {
         "opIncome": 2513488000,
         "endDate": "2026-06-28",
         "eps": 1.81,
-        "ocf": 1457228000,
-        "capex": -188801000,
-        "fcf": 1268427000,
-        "pretaxIncome": 2555142000,
-        "taxProvision": 277860000,
+        "ocf": 1457228000.0,
+        "capex": -188801000.0,
+        "fcf": 1268427000.0,
+        "pretaxIncome": 2555142000.0,
+        "taxProvision": 277860000.0,
         "normalizedIncome": 2291064360.764294,
-        "unusualItems": -15464000,
-        "unusualItemsExGoodwill": -15464000,
+        "unusualItems": -15464000.0,
+        "unusualItemsExGoodwill": -15464000.0,
         "unusualTaxEffect": -1681639.235706,
-        "otherNonOperating": 54856000,
-        "stockComp": 103985000
+        "otherNonOperating": 54856000.0,
+        "stockComp": 103985000.0
       }
     ],
     "_currency": "USD",
@@ -8007,105 +8007,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 1440092200
+        "shares": 1440092200.0
       },
       {
         "date": "2021-01-29",
-        "shares": 1429083150
+        "shares": 1429083150.0
       },
       {
         "date": "2021-04-26",
-        "shares": 1426193460
+        "shares": 1426193460.0
       },
       {
         "date": "2021-08-12",
-        "shares": 1419536810
+        "shares": 1419536810.0
       },
       {
         "date": "2021-10-22",
-        "shares": 1407986970
+        "shares": 1407986970.0
       },
       {
         "date": "2022-01-28",
-        "shares": 1395001430
+        "shares": 1395001430.0
       },
       {
         "date": "2022-04-22",
-        "shares": 1387150270
+        "shares": 1387150270.0
       },
       {
         "date": "2022-08-22",
-        "shares": 1369877920
+        "shares": 1369877920.0
       },
       {
         "date": "2022-10-20",
-        "shares": 1363793360
+        "shares": 1363793360.0
       },
       {
         "date": "2023-01-26",
-        "shares": 1349362090
+        "shares": 1349362090.0
       },
       {
         "date": "2023-04-20",
-        "shares": 1343404740
+        "shares": 1343404740.0
       },
       {
         "date": "2023-08-10",
-        "shares": 1325117010
+        "shares": 1325117010.0
       },
       {
         "date": "2023-10-19",
-        "shares": 1317920000
+        "shares": 1317920000.0
       },
       {
         "date": "2024-01-25",
-        "shares": 1311030000
+        "shares": 1311030000.0
       },
       {
         "date": "2024-04-25",
-        "shares": 1307410000
+        "shares": 1307410000.0
       },
       {
         "date": "2024-08-22",
-        "shares": 1298760000
+        "shares": 1298760000.0
       },
       {
         "date": "2024-10-24",
-        "shares": 1286685000
+        "shares": 1286685000.0
       },
       {
         "date": "2025-01-29",
-        "shares": 1283662000
+        "shares": 1283662000.0
       },
       {
         "date": "2025-04-23",
-        "shares": 1279118000
+        "shares": 1279118000.0
       },
       {
         "date": "2025-08-07",
-        "shares": 1265621000
+        "shares": 1265621000.0
       },
       {
         "date": "2025-10-22",
-        "shares": 1256030000
+        "shares": 1256030000.0
       },
       {
         "date": "2026-01-27",
-        "shares": 1248771000
+        "shares": 1248771000.0
       },
       {
         "date": "2026-04-21",
-        "shares": 1250571000
+        "shares": 1250571000.0
       },
       {
         "date": "2026-08-04",
-        "shares": 1251321000
+        "shares": 1251321000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8130,8 +8130,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "KLAC": {
@@ -8150,8 +8150,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 5806424000,
-        "netIncome": 1216785000,
+        "revenue": 5806424000.0,
+        "netIncome": 1216785000.0,
         "opIncome": null,
         "eps": 0.77,
         "ocf": 1778850000,
@@ -8162,93 +8162,93 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 6918734000,
-        "netIncome": 2078292000,
+        "revenue": 6918734000.0,
+        "netIncome": 2078292000.0,
         "opIncome": null,
         "eps": 1.337,
-        "ocf": 2185026000,
-        "capex": -231628000,
-        "fcf": 1953398000,
+        "ocf": 2185026000.0,
+        "capex": -231628000.0,
+        "fcf": 1953398000.0,
         "endDate": "2021-06-30",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 9211883000,
-        "netIncome": 3321807000,
+        "revenue": 9211883000.0,
+        "netIncome": 3321807000.0,
         "opIncome": null,
         "eps": 2.192,
-        "ocf": 3312702000,
-        "capex": -307320000,
-        "fcf": 3005382000,
+        "ocf": 3312702000.0,
+        "capex": -307320000.0,
+        "fcf": 3005382000.0,
         "endDate": "2022-06-30",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 10496056000,
-        "netIncome": 3387277000,
-        "opIncome": null,
+        "revenue": 10496056000.0,
+        "netIncome": 3387277000.0,
+        "opIncome": 3994696000.0,
         "eps": 2.415,
         "ocf": 3669805000,
         "capex": -341591000,
-        "fcf": 3328214000,
+        "fcf": 3328214000.0,
         "endDate": "2023-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3789190000,
-        "taxProvision": 401839000,
+        "pretaxIncome": 3789190000.0,
+        "taxProvision": 401839000.0,
         "normalizedIncome": 3400243762.356863,
-        "unusualItems": -14505000,
-        "unusualItemsExGoodwill": -14505000,
+        "unusualItems": -14505000.0,
+        "unusualItemsExGoodwill": -14505000.0,
         "unusualTaxEffect": -1538237.643137,
-        "specialIncomeCharges": -13286000,
-        "otherNonOperating": 31844000,
-        "impairment": 0,
-        "stockComp": 171424000
+        "specialIncomeCharges": -13286000.0,
+        "otherNonOperating": 31844000.0,
+        "impairment": 0.0,
+        "stockComp": 171424000.0
       },
       {
         "period": "2024",
-        "revenue": 9812247000,
-        "netIncome": 2761896000,
-        "opIncome": null,
+        "revenue": 9812247000.0,
+        "netIncome": 2761896000.0,
+        "opIncome": 3635684000.0,
         "eps": 2.03,
         "ocf": 3308575000,
         "capex": -277384000,
-        "fcf": 3031191000,
+        "fcf": 3031191000.0,
         "endDate": "2024-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3190032000,
-        "taxProvision": 428136000,
-        "normalizedIncome": 3006375594,
-        "unusualItems": -282309000,
-        "unusualItemsExGoodwill": -282309000,
-        "unusualTaxEffect": -37829406,
-        "specialIncomeCharges": -289474000,
-        "otherNonOperating": -12778000,
-        "impairment": 289474000,
-        "stockComp": 212695000
+        "pretaxIncome": 3190032000.0,
+        "taxProvision": 428136000.0,
+        "normalizedIncome": 3006375594.0,
+        "unusualItems": -282309000.0,
+        "unusualItemsExGoodwill": -282309000.0,
+        "unusualTaxEffect": -37829406.0,
+        "specialIncomeCharges": -289474000.0,
+        "otherNonOperating": -12778000.0,
+        "impairment": 289474000.0,
+        "stockComp": 212695000.0
       },
       {
         "period": "2025",
-        "revenue": 12156162000,
-        "netIncome": 4061643000,
-        "opIncome": null,
+        "revenue": 12156162000.0,
+        "netIncome": 4061643000.0,
+        "opIncome": 5014227000.0,
         "eps": 3.04,
         "ocf": 4081903000,
         "capex": -335259000,
-        "fcf": 3746644000,
+        "fcf": 3746644000.0,
         "endDate": "2025-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4644448000,
-        "taxProvision": 582805000,
-        "normalizedIncome": 4273397375,
-        "unusualItems": -242005000,
-        "unusualItemsExGoodwill": -242005000,
-        "unusualTaxEffect": -30250625,
-        "specialIncomeCharges": -239100000,
-        "otherNonOperating": -5884000,
-        "impairment": 239100000,
-        "stockComp": 265011000
+        "pretaxIncome": 4644448000.0,
+        "taxProvision": 582805000.0,
+        "normalizedIncome": 4273397375.0,
+        "unusualItems": -242005000.0,
+        "unusualItemsExGoodwill": -242005000.0,
+        "unusualTaxEffect": -30250625.0,
+        "specialIncomeCharges": -239100000.0,
+        "otherNonOperating": -5884000.0,
+        "impairment": 239100000.0,
+        "stockComp": 265011000.0
       },
       {
         "period": "2026",
@@ -8257,179 +8257,180 @@ const FINANCIALS_DATA = {
         "eps": 3.66,
         "ocf": 4143079000,
         "capex": -375945000,
-        "fcf": 3767134000,
+        "fcf": 3767134000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-06-30",
-        "pretaxIncome": 5605925000,
-        "taxProvision": 775154000,
-        "normalizedIncome": 4816259230,
-        "unusualItems": 16835000,
-        "unusualItemsExGoodwill": 16835000,
-        "unusualTaxEffect": 2323230,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 35695000,
-        "impairment": 0,
-        "stockComp": 310171000
+        "opIncome": 5660780000.0,
+        "pretaxIncome": 5605925000.0,
+        "taxProvision": 775154000.0,
+        "normalizedIncome": 4816259230.0,
+        "unusualItems": 16835000.0,
+        "unusualItemsExGoodwill": 16835000.0,
+        "unusualTaxEffect": 2323230.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 35695000.0,
+        "impairment": 0.0,
+        "stockComp": 310171000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 2396956000,
-        "netIncome": 741375000,
+        "revenue": 2396956000.0,
+        "netIncome": 741375000.0,
         "opIncome": null,
         "endDate": "2023-09-30",
         "eps": 0.541
       },
       {
         "period": "Q4'23",
-        "revenue": 2486726000,
-        "netIncome": 582534000,
+        "revenue": 2486726000.0,
+        "netIncome": 582534000.0,
         "opIncome": null,
         "endDate": "2023-12-31",
-        "eps": 0.428
+        "eps": 0.42800000000000005
       },
       {
         "period": "Q1'24",
-        "revenue": 2359830000,
-        "netIncome": 601541000,
+        "revenue": 2359830000.0,
+        "netIncome": 601541000.0,
         "opIncome": null,
         "endDate": "2024-03-31",
-        "eps": 0.443
+        "eps": 0.44299999999999995
       },
       {
         "period": "Q2'24",
-        "revenue": 2568735000,
-        "netIncome": 836446000,
+        "revenue": 2568735000.0,
+        "netIncome": 836446000.0,
         "opIncome": null,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
-        "revenue": 2841541000,
-        "netIncome": 945851000,
+        "revenue": 2841541000.0,
+        "netIncome": 945851000.0,
         "opIncome": null,
         "endDate": "2024-09-30",
         "eps": 0.701
       },
       {
         "period": "Q4'24",
-        "revenue": 3076851000,
-        "netIncome": 824527000,
+        "revenue": 3076851000.0,
+        "netIncome": 824527000.0,
         "opIncome": null,
         "endDate": "2024-12-31",
         "eps": 0.616,
-        "impairment": 239100000
+        "impairment": 239100000.0
       },
       {
         "period": "Q1'25",
-        "revenue": 3063029000,
-        "netIncome": 1088416000,
+        "revenue": 3063029000.0,
+        "netIncome": 1088416000.0,
         "opIncome": null,
         "endDate": "2025-03-31",
-        "eps": 0.816,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "specialIncomeCharges": 0,
-        "impairment": 0
+        "eps": 0.8160000000000001,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "specialIncomeCharges": 0.0,
+        "impairment": 0.0
       },
       {
         "period": "Q2'25",
-        "revenue": 3174741000,
-        "netIncome": 1202849000,
-        "opIncome": 1351760000,
+        "revenue": 3174741000.0,
+        "netIncome": 1202849000.0,
+        "opIncome": 1351760000.0,
         "endDate": "2025-06-30",
         "eps": 0.906,
-        "ocf": 1164991000,
-        "capex": -102508000,
-        "fcf": 1062483000,
-        "pretaxIncome": 1328799000,
-        "taxProvision": 125950000,
+        "ocf": 1164991000.0,
+        "capex": -102508000.0,
+        "fcf": 1062483000.0,
+        "pretaxIncome": 1328799000.0,
+        "taxProvision": 125950000.0,
         "normalizedIncome": 1205478650.041127,
-        "unusualItems": -2905000,
-        "unusualItemsExGoodwill": -2905000,
+        "unusualItems": -2905000.0,
+        "unusualItemsExGoodwill": -2905000.0,
         "unusualTaxEffect": -275349.958873,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -127207000,
-        "impairment": 0,
-        "stockComp": 71269000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -127207000.0,
+        "impairment": 0.0,
+        "stockComp": 71269000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 3209696000,
-        "netIncome": 1121040000,
-        "opIncome": 1337177000,
+        "revenue": 3209696000.0,
+        "netIncome": 1121040000.0,
+        "opIncome": 1337177000.0,
         "endDate": "2025-09-30",
-        "eps": 0.847,
-        "ocf": 1161591000,
-        "capex": -95894000,
-        "fcf": 1065697000,
-        "pretaxIncome": 1309476000,
-        "taxProvision": 188436000,
-        "normalizedIncome": 1121040000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 43374000,
-        "stockComp": 70182000
+        "eps": 0.8470000000000001,
+        "ocf": 1161591000.0,
+        "capex": -95894000.0,
+        "fcf": 1065697000.0,
+        "pretaxIncome": 1309476000.0,
+        "taxProvision": 188436000.0,
+        "normalizedIncome": 1121040000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 43374000.0,
+        "stockComp": 70182000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 3297146000,
-        "netIncome": 1145682000,
-        "opIncome": 1362146000,
+        "revenue": 3297146000.0,
+        "netIncome": 1145682000.0,
+        "opIncome": 1362146000.0,
         "endDate": "2025-12-31",
         "eps": 0.868,
-        "ocf": 1367607000,
-        "capex": -105576000,
-        "fcf": 1262031000,
-        "pretaxIncome": 1330303000,
-        "taxProvision": 184621000,
-        "normalizedIncome": 1145682000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 37825000,
-        "stockComp": 73947000
+        "ocf": 1367607000.0,
+        "capex": -105576000.0,
+        "fcf": 1262031000.0,
+        "pretaxIncome": 1330303000.0,
+        "taxProvision": 184621000.0,
+        "normalizedIncome": 1145682000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 37825000.0,
+        "stockComp": 73947000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 3415078000,
-        "netIncome": 1200990000,
-        "opIncome": 1407509000,
+        "revenue": 3415078000.0,
+        "netIncome": 1200990000.0,
+        "opIncome": 1407509000.0,
         "endDate": "2026-03-31",
-        "eps": 0.912,
-        "ocf": 707451000,
-        "capex": -85187000,
-        "fcf": 622264000,
-        "pretaxIncome": 1416761000,
-        "taxProvision": 215771000,
-        "normalizedIncome": 1200990000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 79675000,
-        "stockComp": 83938000
+        "eps": 0.9119999999999999,
+        "ocf": 707451000.0,
+        "capex": -85187000.0,
+        "fcf": 622264000.0,
+        "pretaxIncome": 1416761000.0,
+        "taxProvision": 215771000.0,
+        "normalizedIncome": 1200990000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 79675000.0,
+        "stockComp": 83938000.0
       },
       {
         "period": "Q2'26",
         "revenue": 3657556000,
         "netIncome": 1363059000,
         "endDate": "2026-06-30",
-        "opIncome": 1553948000,
+        "opIncome": 1553948000.0,
         "eps": 1.04,
-        "ocf": 906430000,
-        "capex": -89288000,
-        "fcf": 817142000,
-        "pretaxIncome": 1549385000,
-        "taxProvision": 186326000,
+        "ocf": 906430000.0,
+        "capex": -89288000.0,
+        "fcf": 817142000.0,
+        "pretaxIncome": 1549385000.0,
+        "taxProvision": 186326000.0,
         "normalizedIncome": 1348248544.067485,
-        "unusualItems": 16835000,
-        "unusualItemsExGoodwill": 16835000,
+        "unusualItems": 16835000.0,
+        "unusualItemsExGoodwill": 16835000.0,
         "unusualTaxEffect": 2024544.067485,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -125179000,
-        "stockComp": 82104000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -125179000.0,
+        "stockComp": 82104000.0
       }
     ],
     "_currency": "USD",
@@ -8439,105 +8440,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-19",
-        "shares": 1544598170
+        "shares": 1544598170.0
       },
       {
         "date": "2021-01-15",
-        "shares": 1540746510
+        "shares": 1540746510.0
       },
       {
         "date": "2021-04-19",
-        "shares": 1532817830
+        "shares": 1532817830.0
       },
       {
         "date": "2021-07-19",
-        "shares": 1527371570
+        "shares": 1527371570.0
       },
       {
         "date": "2021-10-18",
-        "shares": 1516221650
+        "shares": 1516221650.0
       },
       {
         "date": "2022-01-14",
-        "shares": 1507153430
+        "shares": 1507153430.0
       },
       {
         "date": "2022-04-18",
-        "shares": 1492350490
+        "shares": 1492350490.0
       },
       {
         "date": "2022-07-18",
-        "shares": 1418037760
+        "shares": 1418037760.0
       },
       {
         "date": "2022-10-17",
-        "shares": 1417183270
+        "shares": 1417183270.0
       },
       {
         "date": "2023-01-17",
-        "shares": 1384797640
+        "shares": 1384797640.0
       },
       {
         "date": "2023-04-17",
-        "shares": 1371989020
+        "shares": 1371989020.0
       },
       {
         "date": "2023-07-17",
-        "shares": 1367200740
+        "shares": 1367200740.0
       },
       {
         "date": "2023-10-16",
-        "shares": 1359323160
+        "shares": 1359323160.0
       },
       {
         "date": "2024-01-16",
-        "shares": 1352336510
+        "shares": 1352336510.0
       },
       {
         "date": "2024-04-15",
-        "shares": 1346399510
+        "shares": 1346399510.0
       },
       {
         "date": "2024-07-22",
-        "shares": 1344250220
+        "shares": 1344250220.0
       },
       {
         "date": "2024-10-21",
-        "shares": 1337597780
+        "shares": 1337597780.0
       },
       {
         "date": "2025-01-21",
-        "shares": 1328867460
+        "shares": 1328867460.0
       },
       {
         "date": "2025-04-21",
-        "shares": 1322414300
+        "shares": 1322414300.0
       },
       {
         "date": "2025-07-21",
-        "shares": 1319613700
+        "shares": 1319613700.0
       },
       {
         "date": "2025-10-27",
-        "shares": 1313923380
+        "shares": 1313923380.0
       },
       {
         "date": "2026-01-26",
-        "shares": 1310766110
+        "shares": 1310766110.0
       },
       {
         "date": "2026-04-27",
-        "shares": 1306275210
+        "shares": 1306275210.0
       },
       {
         "date": "2026-08-03",
-        "shares": 1306546783
+        "shares": 1306546783.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:36",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8562,8 +8563,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "SNDK": {
@@ -8587,20 +8588,20 @@ const FINANCIALS_DATA = {
         "eps": -14.78,
         "ocf": -713000000,
         "capex": -219000000,
-        "fcf": -932000000,
+        "fcf": -932000000.0,
         "_fcfIsProxy": false,
         "endDate": "2023-06-30",
-        "pretaxIncome": -2002000000,
-        "taxProvision": 141000000,
-        "normalizedIncome": -1558400000,
-        "unusualItems": -740000000,
-        "unusualItemsExGoodwill": -740000000,
-        "unusualTaxEffect": -155400000,
-        "specialIncomeCharges": -740000000,
-        "otherNonOperating": 43000000,
-        "impairment": 671000000,
-        "restructuring": 69000000,
-        "stockComp": 165000000
+        "pretaxIncome": -2002000000.0,
+        "taxProvision": 141000000.0,
+        "normalizedIncome": -1558400000.0,
+        "unusualItems": -740000000.0,
+        "unusualItemsExGoodwill": -740000000.0,
+        "unusualTaxEffect": -155400000.0,
+        "specialIncomeCharges": -740000000.0,
+        "otherNonOperating": 43000000.0,
+        "impairment": 671000000.0,
+        "restructuring": 69000000.0,
+        "stockComp": 165000000.0
       },
       {
         "period": "2024",
@@ -8610,43 +8611,43 @@ const FINANCIALS_DATA = {
         "eps": -4.63,
         "ocf": -309000000,
         "capex": -166000000,
-        "fcf": -475000000,
+        "fcf": -475000000.0,
         "_fcfIsProxy": false,
         "endDate": "2024-06-28",
-        "pretaxIncome": -503000000,
-        "taxProvision": 169000000,
-        "normalizedIncome": -653830000,
-        "unusualItems": -23000000,
-        "unusualItemsExGoodwill": -23000000,
-        "unusualTaxEffect": -4830000,
-        "specialIncomeCharges": -24000000,
-        "otherNonOperating": -8000000,
-        "impairment": 0,
-        "restructuring": -40000000,
-        "stockComp": 149000000
+        "pretaxIncome": -503000000.0,
+        "taxProvision": 169000000.0,
+        "normalizedIncome": -653830000.0,
+        "unusualItems": -23000000.0,
+        "unusualItemsExGoodwill": -23000000.0,
+        "unusualTaxEffect": -4830000.0,
+        "specialIncomeCharges": -24000000.0,
+        "otherNonOperating": -8000000.0,
+        "impairment": 0.0,
+        "restructuring": -40000000.0,
+        "stockComp": 149000000.0
       },
       {
         "period": "2025",
-        "revenue": 7355000000,
-        "netIncome": -1641000000,
+        "revenue": 7355000000.0,
+        "netIncome": -1641000000.0,
         "opIncome": -1377000000,
         "eps": -11.32,
         "ocf": 84000000,
         "capex": -204000000,
-        "fcf": -120000000,
+        "fcf": -120000000.0,
         "endDate": "2025-06-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": -1479000000,
-        "taxProvision": 162000000,
-        "normalizedIncome": -151060000,
-        "unusualItems": -1886000000,
-        "unusualItemsExGoodwill": -1886000000,
-        "unusualTaxEffect": -396060000,
-        "specialIncomeCharges": -1884000000,
-        "otherNonOperating": -59000000,
-        "impairment": 1830000000,
-        "restructuring": 21000000,
-        "stockComp": 182000000
+        "pretaxIncome": -1479000000.0,
+        "taxProvision": 162000000.0,
+        "normalizedIncome": -151060000.0,
+        "unusualItems": -1886000000.0,
+        "unusualItemsExGoodwill": -1886000000.0,
+        "unusualTaxEffect": -396060000.0,
+        "specialIncomeCharges": -1884000000.0,
+        "otherNonOperating": -59000000.0,
+        "impairment": 1830000000.0,
+        "restructuring": 21000000.0,
+        "stockComp": 182000000.0
       },
       {
         "period": "2026",
@@ -8656,20 +8657,20 @@ const FINANCIALS_DATA = {
         "eps": 73.76,
         "ocf": 11671000000,
         "capex": -177000000,
-        "fcf": 11494000000,
+        "fcf": 11494000000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-07-03",
-        "pretaxIncome": 13017000000,
-        "taxProvision": 1584000000,
-        "normalizedIncome": 10791480000,
-        "unusualItems": 729000000,
-        "unusualItemsExGoodwill": 729000000,
-        "unusualTaxEffect": 87480000,
-        "specialIncomeCharges": -79000000,
-        "otherNonOperating": -177000000,
-        "impairment": 0,
-        "restructuring": -2000000,
-        "stockComp": 232000000
+        "pretaxIncome": 13017000000.0,
+        "taxProvision": 1584000000.0,
+        "normalizedIncome": 10791480000.0,
+        "unusualItems": 729000000.0,
+        "unusualItemsExGoodwill": 729000000.0,
+        "unusualTaxEffect": 87480000.0,
+        "specialIncomeCharges": -79000000.0,
+        "otherNonOperating": -177000000.0,
+        "impairment": 0.0,
+        "restructuring": -2000000.0,
+        "stockComp": 232000000.0
       }
     ],
     "quarterly": [
@@ -8720,98 +8721,98 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q1'25",
-        "revenue": 1695000000,
-        "netIncome": -1933000000,
+        "revenue": 1695000000.0,
+        "netIncome": -1933000000.0,
         "opIncome": -1881000000,
         "endDate": "2025-03-28",
         "eps": -13.33,
-        "impairment": 1830000000
+        "impairment": 1830000000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 1901000000,
-        "netIncome": -23000000,
+        "revenue": 1901000000.0,
+        "netIncome": -23000000.0,
         "opIncome": 18000000,
         "endDate": "2025-06-27",
         "eps": -0.16,
-        "ocf": 94000000,
-        "capex": -45000000,
-        "fcf": 49000000,
-        "pretaxIncome": -18000000,
-        "taxProvision": 5000000,
-        "normalizedIncome": 3070000,
-        "unusualItems": -33000000,
-        "unusualItemsExGoodwill": -33000000,
-        "unusualTaxEffect": -6930000,
-        "specialIncomeCharges": -33000000,
-        "otherNonOperating": -6000000,
-        "impairment": 0,
-        "restructuring": 16000000,
-        "stockComp": 49000000
+        "ocf": 94000000.0,
+        "capex": -45000000.0,
+        "fcf": 49000000.0,
+        "pretaxIncome": -18000000.0,
+        "taxProvision": 5000000.0,
+        "normalizedIncome": 3070000.0,
+        "unusualItems": -33000000.0,
+        "unusualItemsExGoodwill": -33000000.0,
+        "unusualTaxEffect": -6930000.0,
+        "specialIncomeCharges": -33000000.0,
+        "otherNonOperating": -6000000.0,
+        "impairment": 0.0,
+        "restructuring": 16000000.0,
+        "stockComp": 49000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2308000000,
-        "netIncome": 112000000,
+        "revenue": 2308000000.0,
+        "netIncome": 112000000.0,
         "opIncome": 176000000,
         "endDate": "2025-10-03",
         "eps": 0.75,
-        "ocf": 488000000,
-        "capex": -50000000,
-        "fcf": 438000000,
-        "pretaxIncome": 124000000,
-        "taxProvision": 12000000,
-        "normalizedIncome": 126400000,
-        "unusualItems": -16000000,
-        "unusualItemsExGoodwill": -16000000,
-        "unusualTaxEffect": -1600000,
-        "specialIncomeCharges": -16000000,
-        "otherNonOperating": -28000000,
-        "restructuring": -3000000,
-        "stockComp": 53000000
+        "ocf": 488000000.0,
+        "capex": -50000000.0,
+        "fcf": 438000000.0,
+        "pretaxIncome": 124000000.0,
+        "taxProvision": 12000000.0,
+        "normalizedIncome": 126400000.0,
+        "unusualItems": -16000000.0,
+        "unusualItemsExGoodwill": -16000000.0,
+        "unusualTaxEffect": -1600000.0,
+        "specialIncomeCharges": -16000000.0,
+        "otherNonOperating": -28000000.0,
+        "restructuring": -3000000.0,
+        "stockComp": 53000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 3025000000,
-        "netIncome": 803000000,
+        "revenue": 3025000000.0,
+        "netIncome": 803000000.0,
         "opIncome": 1065000000,
         "endDate": "2026-01-02",
         "eps": 5.15,
-        "ocf": 1019000000,
-        "capex": -39000000,
-        "fcf": 980000000,
-        "pretaxIncome": 937000000,
-        "taxProvision": 134000000,
-        "normalizedIncome": 811600000,
-        "unusualItems": -10000000,
-        "unusualItemsExGoodwill": -10000000,
-        "unusualTaxEffect": -1400000,
-        "specialIncomeCharges": -10000000,
-        "otherNonOperating": -115000000,
-        "restructuring": 1000000,
-        "stockComp": 58000000
+        "ocf": 1019000000.0,
+        "capex": -39000000.0,
+        "fcf": 980000000.0,
+        "pretaxIncome": 937000000.0,
+        "taxProvision": 134000000.0,
+        "normalizedIncome": 811600000.0,
+        "unusualItems": -10000000.0,
+        "unusualItemsExGoodwill": -10000000.0,
+        "unusualTaxEffect": -1400000.0,
+        "specialIncomeCharges": -10000000.0,
+        "otherNonOperating": -115000000.0,
+        "restructuring": 1000000.0,
+        "stockComp": 58000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 5950000000,
-        "netIncome": 3615000000,
+        "revenue": 5950000000.0,
+        "netIncome": 3615000000.0,
         "opIncome": 4111000000,
         "endDate": "2026-04-03",
         "eps": 23.03,
-        "ocf": 3038000000,
-        "capex": -45000000,
-        "fcf": 2993000000,
-        "pretaxIncome": 4107000000,
-        "taxProvision": 492000000,
-        "normalizedIncome": 3661640000,
-        "unusualItems": -53000000,
-        "unusualItemsExGoodwill": -53000000,
-        "unusualTaxEffect": -6360000,
-        "specialIncomeCharges": -53000000,
-        "otherNonOperating": -10000000,
-        "impairment": 0,
-        "restructuring": 0,
-        "stockComp": 54000000
+        "ocf": 3038000000.0,
+        "capex": -45000000.0,
+        "fcf": 2993000000.0,
+        "pretaxIncome": 4107000000.0,
+        "taxProvision": 492000000.0,
+        "normalizedIncome": 3661640000.0,
+        "unusualItems": -53000000.0,
+        "unusualItemsExGoodwill": -53000000.0,
+        "unusualTaxEffect": -6360000.0,
+        "specialIncomeCharges": -53000000.0,
+        "otherNonOperating": -10000000.0,
+        "impairment": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 54000000.0
       },
       {
         "period": "Q3'26",
@@ -8820,20 +8821,20 @@ const FINANCIALS_DATA = {
         "opIncome": 7037000000,
         "endDate": "2026-07-03",
         "eps": 43.97,
-        "ocf": 7126000000,
-        "capex": -43000000,
-        "fcf": 7083000000,
-        "pretaxIncome": 7849000000,
-        "taxProvision": 946000000,
+        "ocf": 7126000000.0,
+        "capex": -43000000.0,
+        "fcf": 7083000000.0,
+        "pretaxIncome": 7849000000.0,
+        "taxProvision": 946000000.0,
         "normalizedIncome": 6192384125.366289,
-        "unusualItems": 808000000,
-        "unusualItemsExGoodwill": 808000000,
+        "unusualItems": 808000000.0,
+        "unusualItemsExGoodwill": 808000000.0,
         "unusualTaxEffect": 97384125.366289,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -24000000,
-        "impairment": 0,
-        "restructuring": 0,
-        "stockComp": 67000000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -24000000.0,
+        "impairment": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 67000000.0
       }
     ],
     "_currency": "USD",
@@ -8843,37 +8844,37 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2025-02-27",
-        "shares": 144863251
+        "shares": 144863251.0
       },
       {
         "date": "2025-05-05",
-        "shares": 145299218
+        "shares": 145299218.0
       },
       {
         "date": "2025-08-13",
-        "shares": 145805548
+        "shares": 145805548.0
       },
       {
         "date": "2025-10-31",
-        "shares": 146553179
+        "shares": 146553179.0
       },
       {
         "date": "2026-01-23",
-        "shares": 147567249
+        "shares": 147567249.0
       },
       {
         "date": "2026-04-24",
-        "shares": 148089758
+        "shares": 148089758.0
       },
       {
         "date": "2026-08-07",
-        "shares": 146419001
+        "shares": 146419001.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -8898,28 +8899,28 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "WDC": {
     "annual": [
       {
         "period": "2019",
-        "revenue": 16569000000,
-        "netIncome": -754000000,
-        "opIncome": 87000000,
+        "revenue": 16569000000.0,
+        "netIncome": -754000000.0,
+        "opIncome": 87000000.0,
         "eps": -2.58,
-        "ocf": 1547000000,
-        "capex": -876000000,
-        "fcf": 671000000,
+        "ocf": 1547000000.0,
+        "capex": -876000000.0,
+        "fcf": 671000000.0,
         "endDate": "2019-06-28",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 16736000000,
-        "netIncome": -250000000,
+        "revenue": 16736000000.0,
+        "netIncome": -250000000.0,
         "opIncome": 335000000,
         "eps": -0.84,
         "ocf": 824000000,
@@ -8930,25 +8931,25 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 16922000000,
-        "netIncome": 821000000,
-        "opIncome": 1220000000,
+        "revenue": 16922000000.0,
+        "netIncome": 821000000.0,
+        "opIncome": 1220000000.0,
         "eps": 2.66,
-        "ocf": 1898000000,
-        "capex": -1146000000,
-        "fcf": 752000000,
+        "ocf": 1898000000.0,
+        "capex": -1146000000.0,
+        "fcf": 752000000.0,
         "endDate": "2021-07-02",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 18793000000,
+        "revenue": 18793000000.0,
         "netIncome": 1546000000,
-        "opIncome": 2391000000,
+        "opIncome": 2391000000.0,
         "eps": 4.89,
-        "ocf": 1880000000,
-        "capex": -1122000000,
-        "fcf": 758000000,
+        "ocf": 1880000000.0,
+        "capex": -1122000000.0,
+        "fcf": 758000000.0,
         "endDate": "2022-07-01",
         "_fcfIsProxy": true
       },
@@ -8960,19 +8961,19 @@ const FINANCIALS_DATA = {
         "eps": -5.37,
         "ocf": -408000000,
         "capex": -821000000,
-        "fcf": -1229000000,
+        "fcf": -1229000000.0,
         "endDate": "2023-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": -849000000,
-        "taxProvision": 53000000,
-        "normalizedIncome": -786660000,
-        "unusualItems": -146000000,
-        "unusualItemsExGoodwill": -146000000,
-        "unusualTaxEffect": -30660000,
-        "specialIncomeCharges": -146000000,
-        "otherNonOperating": -10000000,
-        "restructuring": 130000000,
-        "stockComp": 318000000
+        "pretaxIncome": -849000000.0,
+        "taxProvision": 53000000.0,
+        "normalizedIncome": -786660000.0,
+        "unusualItems": -146000000.0,
+        "unusualItemsExGoodwill": -146000000.0,
+        "unusualTaxEffect": -30660000.0,
+        "specialIncomeCharges": -146000000.0,
+        "otherNonOperating": -10000000.0,
+        "restructuring": 130000000.0,
+        "stockComp": 318000000.0
       },
       {
         "period": "2024",
@@ -8982,41 +8983,41 @@ const FINANCIALS_DATA = {
         "eps": -2.61,
         "ocf": -294000000,
         "capex": -487000000,
-        "fcf": -781000000,
+        "fcf": -781000000.0,
         "endDate": "2024-06-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": -739000000,
-        "taxProvision": 26000000,
-        "normalizedIncome": -370000000,
-        "unusualItems": -500000000,
-        "unusualItemsExGoodwill": -500000000,
-        "unusualTaxEffect": -105000000,
-        "specialIncomeCharges": -500000000,
-        "otherNonOperating": 45000000,
-        "restructuring": 209000000,
-        "stockComp": 295000000
+        "pretaxIncome": -739000000.0,
+        "taxProvision": 26000000.0,
+        "normalizedIncome": -370000000.0,
+        "unusualItems": -500000000.0,
+        "unusualItemsExGoodwill": -500000000.0,
+        "unusualTaxEffect": -105000000.0,
+        "specialIncomeCharges": -500000000.0,
+        "otherNonOperating": 45000000.0,
+        "restructuring": 209000000.0,
+        "stockComp": 295000000.0
       },
       {
         "period": "2025",
-        "revenue": 9520000000,
+        "revenue": 9520000000.0,
         "netIncome": 1840000000,
         "opIncome": 2334000000,
         "eps": 5.12,
         "ocf": 1691000000,
         "capex": -412000000,
-        "fcf": 1279000000,
+        "fcf": 1279000000.0,
         "endDate": "2025-06-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1130000000,
-        "taxProvision": -513000000,
-        "normalizedIncome": 2142720000,
-        "unusualItems": -668000000,
-        "unusualItemsExGoodwill": -668000000,
-        "unusualTaxEffect": -140280000,
-        "specialIncomeCharges": -668000000,
-        "otherNonOperating": -20000000,
-        "restructuring": -6000000,
-        "stockComp": 265000000
+        "pretaxIncome": 1130000000.0,
+        "taxProvision": -513000000.0,
+        "normalizedIncome": 2142720000.0,
+        "unusualItems": -668000000.0,
+        "unusualItemsExGoodwill": -668000000.0,
+        "unusualTaxEffect": -140280000.0,
+        "specialIncomeCharges": -668000000.0,
+        "otherNonOperating": -20000000.0,
+        "restructuring": -6000000.0,
+        "stockComp": 265000000.0
       },
       {
         "period": "2026",
@@ -9026,25 +9027,25 @@ const FINANCIALS_DATA = {
         "eps": 24.28,
         "ocf": 3929000000,
         "capex": -418000000,
-        "fcf": 3511000000,
+        "fcf": 3511000000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-07-03",
-        "pretaxIncome": 9905000000,
-        "taxProvision": 481000000,
-        "normalizedIncome": 3781350000,
-        "unusualItems": 5807000000,
-        "unusualItemsExGoodwill": 5807000000,
-        "unusualTaxEffect": 290350000,
-        "specialIncomeCharges": 5807000000,
-        "otherNonOperating": -387000000,
-        "restructuring": 146000000,
-        "stockComp": 204000000
+        "pretaxIncome": 9905000000.0,
+        "taxProvision": 481000000.0,
+        "normalizedIncome": 3781350000.0,
+        "unusualItems": 5807000000.0,
+        "unusualItemsExGoodwill": 5807000000.0,
+        "unusualTaxEffect": 290350000.0,
+        "specialIncomeCharges": 5807000000.0,
+        "otherNonOperating": -387000000.0,
+        "restructuring": 146000000.0,
+        "stockComp": 204000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 2750000000,
+        "revenue": 2750000000.0,
         "netIncome": -700000000,
         "opIncome": -596000000,
         "endDate": "2023-09-29",
@@ -9052,7 +9053,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 3032000000,
+        "revenue": 3032000000.0,
         "netIncome": -301000000,
         "opIncome": -210000000,
         "endDate": "2023-12-29",
@@ -9099,87 +9100,87 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'25",
-        "revenue": 2605000000,
+        "revenue": 2605000000.0,
         "netIncome": 273000000,
         "opIncome": 680000000,
         "endDate": "2025-06-27",
         "eps": 0.754144,
-        "ocf": 746000000,
-        "capex": -71000000,
-        "fcf": 675000000,
-        "pretaxIncome": 347000000,
-        "taxProvision": 95000000,
+        "ocf": 746000000.0,
+        "capex": -71000000.0,
+        "fcf": 675000000.0,
+        "pretaxIncome": 347000000.0,
+        "taxProvision": 95000000.0,
         "normalizedIncome": 417902017.291066,
-        "unusualItems": -267000000,
-        "unusualItemsExGoodwill": -267000000,
+        "unusualItems": -267000000.0,
+        "unusualItemsExGoodwill": -267000000.0,
         "unusualTaxEffect": -73097982.708934,
-        "specialIncomeCharges": -873000000,
-        "otherNonOperating": -13000000,
-        "restructuring": 2000000,
-        "stockComp": 45000000
+        "specialIncomeCharges": -873000000.0,
+        "otherNonOperating": -13000000.0,
+        "restructuring": 2000000.0,
+        "stockComp": 45000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2818000000,
+        "revenue": 2818000000.0,
         "netIncome": 1152000000,
         "opIncome": 792000000,
         "endDate": "2025-10-03",
         "eps": 3.07,
-        "ocf": 672000000,
-        "capex": -73000000,
-        "fcf": 599000000,
-        "pretaxIncome": 1337000000,
-        "taxProvision": 155000000,
-        "normalizedIncome": 646960000,
-        "unusualItems": 608000000,
-        "unusualItemsExGoodwill": 608000000,
-        "unusualTaxEffect": 72960000,
-        "specialIncomeCharges": 608000000,
-        "otherNonOperating": -24000000,
-        "restructuring": 3000000,
-        "stockComp": 53000000
+        "ocf": 672000000.0,
+        "capex": -73000000.0,
+        "fcf": 599000000.0,
+        "pretaxIncome": 1337000000.0,
+        "taxProvision": 155000000.0,
+        "normalizedIncome": 646960000.0,
+        "unusualItems": 608000000.0,
+        "unusualItemsExGoodwill": 608000000.0,
+        "unusualTaxEffect": 72960000.0,
+        "specialIncomeCharges": 608000000.0,
+        "otherNonOperating": -24000000.0,
+        "restructuring": 3000000.0,
+        "stockComp": 53000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 3017000000,
+        "revenue": 3017000000.0,
         "netIncome": 1798000000,
         "opIncome": 908000000,
         "endDate": "2026-01-02",
         "eps": 4.73,
-        "ocf": 745000000,
-        "capex": -92000000,
-        "fcf": 653000000,
-        "pretaxIncome": 1962000000,
-        "taxProvision": 120000000,
-        "normalizedIncome": 1893700000,
-        "unusualItems": -55000000,
-        "unusualItemsExGoodwill": -55000000,
-        "unusualTaxEffect": -3300000,
-        "specialIncomeCharges": -55000000,
-        "otherNonOperating": 1096000000,
-        "restructuring": 55000000,
-        "stockComp": 53000000
+        "ocf": 745000000.0,
+        "capex": -92000000.0,
+        "fcf": 653000000.0,
+        "pretaxIncome": 1962000000.0,
+        "taxProvision": 120000000.0,
+        "normalizedIncome": 1893700000.0,
+        "unusualItems": -55000000.0,
+        "unusualItemsExGoodwill": -55000000.0,
+        "unusualTaxEffect": -3300000.0,
+        "specialIncomeCharges": -55000000.0,
+        "otherNonOperating": 1096000000.0,
+        "restructuring": 55000000.0,
+        "stockComp": 53000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 3337000000,
+        "revenue": 3337000000.0,
         "netIncome": 3168000000,
         "opIncome": 1190000000,
         "endDate": "2026-04-03",
         "eps": 8.2,
-        "ocf": 1123000000,
-        "capex": -145000000,
-        "fcf": 978000000,
-        "pretaxIncome": 3359000000,
-        "taxProvision": 154000000,
-        "normalizedIncome": 3765500000,
-        "unusualItems": -590000000,
-        "unusualItemsExGoodwill": -590000000,
-        "unusualTaxEffect": -29500000,
-        "specialIncomeCharges": -590000000,
-        "otherNonOperating": 2740000000,
-        "restructuring": 45000000,
-        "stockComp": 53000000
+        "ocf": 1123000000.0,
+        "capex": -145000000.0,
+        "fcf": 978000000.0,
+        "pretaxIncome": 3359000000.0,
+        "taxProvision": 154000000.0,
+        "normalizedIncome": 3765500000.0,
+        "unusualItems": -590000000.0,
+        "unusualItemsExGoodwill": -590000000.0,
+        "unusualTaxEffect": -29500000.0,
+        "specialIncomeCharges": -590000000.0,
+        "otherNonOperating": 2740000000.0,
+        "restructuring": 45000000.0,
+        "stockComp": 53000000.0
       },
       {
         "period": "Q3'26",
@@ -9188,19 +9189,19 @@ const FINANCIALS_DATA = {
         "opIncome": 1563000000,
         "endDate": "2026-07-03",
         "eps": 8.213368,
-        "ocf": 1389000000,
-        "capex": -108000000,
-        "fcf": 1281000000,
-        "pretaxIncome": 3247000000,
-        "taxProvision": 52000000,
+        "ocf": 1389000000.0,
+        "capex": -108000000.0,
+        "fcf": 1281000000.0,
+        "pretaxIncome": 3247000000.0,
+        "taxProvision": 52000000.0,
         "normalizedIncome": -3282624576.532184,
-        "unusualItems": 6455000000,
-        "unusualItemsExGoodwill": 6455000000,
+        "unusualItems": 6455000000.0,
+        "unusualItemsExGoodwill": 6455000000.0,
         "unusualTaxEffect": 103375423.467816,
-        "specialIncomeCharges": 6455000000,
-        "otherNonOperating": -4810000000,
-        "restructuring": 43000000,
-        "stockComp": 45000000
+        "specialIncomeCharges": 6455000000.0,
+        "otherNonOperating": -4810000000.0,
+        "restructuring": 43000000.0,
+        "stockComp": 45000000.0
       }
     ],
     "_currency": "USD",
@@ -9210,105 +9211,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-30",
-        "shares": 304245045
+        "shares": 304245045.0
       },
       {
         "date": "2021-01-29",
-        "shares": 306097179
+        "shares": 306097179.0
       },
       {
         "date": "2021-04-29",
-        "shares": 306452886
+        "shares": 306452886.0
       },
       {
         "date": "2021-08-18",
-        "shares": 308748049
+        "shares": 308748049.0
       },
       {
         "date": "2021-10-28",
-        "shares": 311622921
+        "shares": 311622921.0
       },
       {
         "date": "2022-01-27",
-        "shares": 312917687
+        "shares": 312917687.0
       },
       {
         "date": "2022-04-27",
-        "shares": 313167818
+        "shares": 313167818.0
       },
       {
         "date": "2022-08-11",
-        "shares": 314492541
+        "shares": 314492541.0
       },
       {
         "date": "2022-10-26",
-        "shares": 317650295
+        "shares": 317650295.0
       },
       {
         "date": "2023-01-25",
-        "shares": 319322335
+        "shares": 319322335.0
       },
       {
         "date": "2023-04-26",
-        "shares": 319937433
+        "shares": 319937433.0
       },
       {
         "date": "2023-08-04",
-        "shares": 321895961
+        "shares": 321895961.0
       },
       {
         "date": "2023-10-25",
-        "shares": 324243164
+        "shares": 324243164.0
       },
       {
         "date": "2024-01-24",
-        "shares": 325859745
+        "shares": 325859745.0
       },
       {
         "date": "2024-04-22",
-        "shares": 326524668
+        "shares": 326524668.0
       },
       {
         "date": "2024-08-07",
-        "shares": 343451583
+        "shares": 343451583.0
       },
       {
         "date": "2024-10-22",
-        "shares": 345708453
+        "shares": 345708453.0
       },
       {
         "date": "2025-01-22",
-        "shares": 347823902
+        "shares": 347823902.0
       },
       {
         "date": "2025-04-25",
-        "shares": 348878365
+        "shares": 348878365.0
       },
       {
         "date": "2025-07-23",
-        "shares": 346922126
+        "shares": 346922126.0
       },
       {
         "date": "2025-10-23",
-        "shares": 341899281
+        "shares": 341899281.0
       },
       {
         "date": "2026-01-22",
-        "shares": 339037922
+        "shares": 339037922.0
       },
       {
         "date": "2026-04-23",
-        "shares": 344682131
+        "shares": 344682131.0
       },
       {
         "date": "2026-08-07",
-        "shares": 360540944
+        "shares": 360540944.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9333,8 +9334,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ANET": {
@@ -9353,7 +9354,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 2410706000,
+        "revenue": 2410706000.0,
         "netIncome": 859444000,
         "opIncome": 805774000,
         "eps": 0.665,
@@ -9365,47 +9366,47 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 2317512000,
-        "netIncome": 634557000,
-        "opIncome": 699684000,
+        "revenue": 2317512000.0,
+        "netIncome": 634557000.0,
+        "opIncome": 699684000.0,
         "eps": 0.5,
-        "ocf": 735114000,
-        "capex": -15384000,
-        "fcf": 719730000,
+        "ocf": 735114000.0,
+        "capex": -15384000.0,
+        "fcf": 719730000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 2948037000,
-        "netIncome": 840854000,
-        "opIncome": 924739000,
+        "revenue": 2948037000.0,
+        "netIncome": 840854000.0,
+        "opIncome": 924739000.0,
         "eps": 0.6575,
-        "ocf": 1015856000,
-        "capex": -64736000,
-        "fcf": 951120000,
+        "ocf": 1015856000.0,
+        "capex": -64736000.0,
+        "fcf": 951120000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 4381310000,
-        "netIncome": 1352446000,
+        "revenue": 4381310000.0,
+        "netIncome": 1352446000.0,
         "opIncome": 1527106000,
         "eps": 1.07,
         "ocf": 492813000,
         "capex": -44644000,
-        "fcf": 448169000,
+        "fcf": 448169000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1581796000,
-        "taxProvision": 229350000,
-        "normalizedIncome": 1352446000,
-        "unusualItems": 27479000,
-        "unusualItemsExGoodwill": 27479000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 27134000,
-        "stockComp": 230934000
+        "pretaxIncome": 1581796000.0,
+        "taxProvision": 229350000.0,
+        "normalizedIncome": 1352446000.0,
+        "unusualItems": 27479000.0,
+        "unusualItemsExGoodwill": 27479000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 27134000.0,
+        "stockComp": 230934000.0
       },
       {
         "period": "2023",
@@ -9415,17 +9416,17 @@ const FINANCIALS_DATA = {
         "eps": 1.65,
         "ocf": 2034000000,
         "capex": -34400000,
-        "fcf": 1999600000,
+        "fcf": 1999600000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2422000000,
-        "taxProvision": 334700000,
-        "normalizedIncome": 2087300000,
-        "unusualItems": 18699000,
-        "unusualItemsExGoodwill": 18699000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 12300000,
-        "stockComp": 296800000
+        "pretaxIncome": 2422000000.0,
+        "taxProvision": 334700000.0,
+        "normalizedIncome": 2087300000.0,
+        "unusualItems": 18699000.0,
+        "unusualItemsExGoodwill": 18699000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 12300000.0,
+        "stockComp": 296800000.0
       },
       {
         "period": "2024",
@@ -9435,40 +9436,40 @@ const FINANCIALS_DATA = {
         "eps": 2.23,
         "ocf": 3708200000,
         "capex": -32000000,
-        "fcf": 3676200000,
+        "fcf": 3676200000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3265100000,
-        "taxProvision": 413000000,
-        "normalizedIncome": 2852100000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 9500000,
-        "stockComp": 355400000
+        "pretaxIncome": 3265100000.0,
+        "taxProvision": 413000000.0,
+        "normalizedIncome": 2852100000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 9500000.0,
+        "stockComp": 355400000.0
       },
       {
         "period": "2025",
-        "revenue": 9005700000,
-        "netIncome": 3511400000,
+        "revenue": 9005700000.0,
+        "netIncome": 3511400000.0,
         "opIncome": 3856100000,
         "eps": 2.75,
         "ocf": 4371900000,
         "capex": -119500000,
-        "fcf": 4252400000,
+        "fcf": 4252400000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4249700000,
-        "taxProvision": 738300000,
-        "normalizedIncome": 3511400000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 10200000,
-        "stockComp": 439200000
+        "pretaxIncome": 4249700000.0,
+        "taxProvision": 738300000.0,
+        "normalizedIncome": 3511400000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 10200000.0,
+        "stockComp": 439200000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1509456000,
-        "netIncome": 545327000,
+        "revenue": 1509456000.0,
+        "netIncome": 545327000.0,
         "opIncome": 602695000,
         "endDate": "2023-09-30",
         "eps": 0.43
@@ -9490,7 +9491,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'24",
-        "revenue": 1690400000,
+        "revenue": 1690400000.0,
         "netIncome": 665400000,
         "opIncome": 699600000,
         "endDate": "2024-06-30",
@@ -9513,79 +9514,79 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q1'25",
-        "revenue": 2004800000,
-        "netIncome": 813800000,
+        "revenue": 2004800000.0,
+        "netIncome": 813800000.0,
         "opIncome": 858800000,
         "endDate": "2025-03-31",
         "eps": 0.64
       },
       {
         "period": "Q2'25",
-        "revenue": 2204800000,
-        "netIncome": 888800000,
+        "revenue": 2204800000.0,
+        "netIncome": 888800000.0,
         "opIncome": 986200000,
         "endDate": "2025-06-30",
         "eps": 0.7,
-        "ocf": 1200100000,
-        "capex": -24000000,
-        "fcf": 1176100000,
-        "pretaxIncome": 1080200000,
-        "taxProvision": 191400000,
-        "normalizedIncome": 888800000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 3600000,
-        "stockComp": 85200000
+        "ocf": 1200100000.0,
+        "capex": -24000000.0,
+        "fcf": 1176100000.0,
+        "pretaxIncome": 1080200000.0,
+        "taxProvision": 191400000.0,
+        "normalizedIncome": 888800000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 3600000.0,
+        "stockComp": 85200000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 2308300000,
-        "netIncome": 853000000,
+        "revenue": 2308300000.0,
+        "netIncome": 853000000.0,
         "opIncome": 978200000,
         "endDate": "2025-09-30",
         "eps": 0.67,
-        "ocf": 1268200000,
-        "capex": -30100000,
-        "fcf": 1238100000,
-        "pretaxIncome": 1077100000,
-        "taxProvision": 224100000,
-        "normalizedIncome": 853000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -900000,
-        "stockComp": 127900000
+        "ocf": 1268200000.0,
+        "capex": -30100000.0,
+        "fcf": 1238100000.0,
+        "pretaxIncome": 1077100000.0,
+        "taxProvision": 224100000.0,
+        "normalizedIncome": 853000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -900000.0,
+        "stockComp": 127900000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2487800000,
-        "netIncome": 955800000,
+        "revenue": 2487800000.0,
+        "netIncome": 955800000.0,
         "opIncome": 1032900000,
         "endDate": "2025-12-31",
         "eps": 0.75,
-        "ocf": 1261900000,
-        "capex": -37000000,
-        "fcf": 1224900000,
-        "pretaxIncome": 1137400000,
-        "taxProvision": 181600000,
-        "normalizedIncome": 955800000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 1500000,
-        "stockComp": 133100000
+        "ocf": 1261900000.0,
+        "capex": -37000000.0,
+        "fcf": 1224900000.0,
+        "pretaxIncome": 1137400000.0,
+        "taxProvision": 181600000.0,
+        "normalizedIncome": 955800000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 1500000.0,
+        "stockComp": 133100000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 2709000000,
-        "netIncome": 1022900000,
+        "revenue": 2709000000.0,
+        "netIncome": 1022900000.0,
         "opIncome": 1157800000,
         "endDate": "2026-03-31",
         "eps": 0.8,
-        "ocf": 1693500000,
-        "capex": -54500000,
-        "fcf": 1639000000,
-        "pretaxIncome": 1271400000,
-        "taxProvision": 248500000,
-        "normalizedIncome": 1022900000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 4400000,
-        "stockComp": 120900000
+        "ocf": 1693500000.0,
+        "capex": -54500000.0,
+        "fcf": 1639000000.0,
+        "pretaxIncome": 1271400000.0,
+        "taxProvision": 248500000.0,
+        "normalizedIncome": 1022900000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 4400000.0,
+        "stockComp": 120900000.0
       },
       {
         "period": "Q2'26",
@@ -9594,15 +9595,15 @@ const FINANCIALS_DATA = {
         "opIncome": 1378000000,
         "eps": 0.95,
         "endDate": "2026-06-30",
-        "ocf": 1083000000,
-        "capex": -29700000,
-        "fcf": 1053300000,
-        "pretaxIncome": 1504300000,
-        "taxProvision": 291400000,
-        "normalizedIncome": 1212900000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 3900000,
-        "stockComp": 120400000
+        "ocf": 1083000000.0,
+        "capex": -29700000.0,
+        "fcf": 1053300000.0,
+        "pretaxIncome": 1504300000.0,
+        "taxProvision": 291400000.0,
+        "normalizedIncome": 1212900000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 3900000.0,
+        "stockComp": 120400000.0
       }
     ],
     "_currency": "USD",
@@ -9612,105 +9613,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-27",
-        "shares": 1210583424
+        "shares": 1210583424.0
       },
       {
         "date": "2021-02-12",
-        "shares": 1221305168
+        "shares": 1221305168.0
       },
       {
         "date": "2021-05-03",
-        "shares": 1221149040
+        "shares": 1221149040.0
       },
       {
         "date": "2021-07-28",
-        "shares": 1227466128
+        "shares": 1227466128.0
       },
       {
         "date": "2021-10-27",
-        "shares": 1229134320
+        "shares": 1229134320.0
       },
       {
         "date": "2022-02-08",
-        "shares": 1231066312
+        "shares": 1231066312.0
       },
       {
         "date": "2022-04-27",
-        "shares": 1233054152
+        "shares": 1233054152.0
       },
       {
         "date": "2022-07-27",
-        "shares": 1217121832
+        "shares": 1217121832.0
       },
       {
         "date": "2022-10-26",
-        "shares": 1222290464
+        "shares": 1222290464.0
       },
       {
         "date": "2023-02-08",
-        "shares": 1225581536
+        "shares": 1225581536.0
       },
       {
         "date": "2023-04-26",
-        "shares": 1233131196
+        "shares": 1233131196.0
       },
       {
         "date": "2023-07-26",
-        "shares": 1238322520
+        "shares": 1238322520.0
       },
       {
         "date": "2023-10-25",
-        "shares": 1244400568
+        "shares": 1244400568.0
       },
       {
         "date": "2024-02-07",
-        "shares": 1250534448
+        "shares": 1250534448.0
       },
       {
         "date": "2024-05-02",
-        "shares": 1253452388
+        "shares": 1253452388.0
       },
       {
         "date": "2024-07-26",
-        "shares": 1256611500
+        "shares": 1256611500.0
       },
       {
         "date": "2024-11-04",
-        "shares": 1259759532
+        "shares": 1259759532.0
       },
       {
         "date": "2025-02-12",
-        "shares": 1261122596
+        "shares": 1261122596.0
       },
       {
         "date": "2025-05-01",
-        "shares": 1255921431
+        "shares": 1255921431.0
       },
       {
         "date": "2025-07-31",
-        "shares": 1256865381
+        "shares": 1256865381.0
       },
       {
         "date": "2025-10-30",
-        "shares": 1259285070
+        "shares": 1259285070.0
       },
       {
         "date": "2026-02-10",
-        "shares": 1256537906
+        "shares": 1256537906.0
       },
       {
         "date": "2026-04-30",
-        "shares": 1259202593
+        "shares": 1259202593.0
       },
       {
         "date": "2026-07-30",
-        "shares": 1261224648
+        "shares": 1261224648.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -9735,8 +9736,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "COHR": {
@@ -9755,8 +9756,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 2380071000,
-        "netIncome": -67029000,
+        "revenue": 2380071000.0,
+        "netIncome": -67029000.0,
         "opIncome": 39479000,
         "eps": -0.79,
         "ocf": 297292000,
@@ -9767,93 +9768,93 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 3105891000,
+        "revenue": 3105891000.0,
         "netIncome": 260321000,
         "opIncome": 402119000,
         "eps": 2.37,
-        "ocf": 574353000,
-        "capex": -146337000,
-        "fcf": 428016000,
+        "ocf": 574353000.0,
+        "capex": -146337000.0,
+        "fcf": 428016000.0,
         "endDate": "2021-06-30",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 3316616000,
+        "revenue": 3316616000.0,
         "netIncome": 166534000,
         "opIncome": 414294000,
         "eps": 1.45,
-        "ocf": 413332000,
-        "capex": -314332000,
-        "fcf": 99000000,
+        "ocf": 413332000.0,
+        "capex": -314332000.0,
+        "fcf": 99000000.0,
         "endDate": "2022-06-30",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 5160100000,
+        "revenue": 5160100000.0,
         "netIncome": -403670000,
         "opIncome": -37120000,
         "eps": -2.93,
         "ocf": 634025000,
         "capex": -436060000,
-        "fcf": 197965000,
+        "fcf": 197965000.0,
         "endDate": "2023-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": -355558000,
-        "taxProvision": -96100000,
-        "normalizedIncome": -172514270,
-        "unusualItems": -119101000,
-        "unusualItemsExGoodwill": -119101000,
-        "unusualTaxEffect": -32157270,
-        "specialIncomeCharges": -119101000,
-        "otherNonOperating": -31566000,
-        "restructuring": 119101000,
-        "stockComp": 148872000
+        "pretaxIncome": -355558000.0,
+        "taxProvision": -96100000.0,
+        "normalizedIncome": -172514270.0,
+        "unusualItems": -119101000.0,
+        "unusualItemsExGoodwill": -119101000.0,
+        "unusualTaxEffect": -32157270.0,
+        "specialIncomeCharges": -119101000.0,
+        "otherNonOperating": -31566000.0,
+        "restructuring": 119101000.0,
+        "stockComp": 148872000.0
       },
       {
         "period": "2024",
-        "revenue": 4707688000,
+        "revenue": 4707688000.0,
         "netIncome": -279511000,
         "opIncome": 96121000,
         "eps": -1.84,
         "ocf": 545731000,
         "capex": -346816000,
-        "fcf": 198915000,
+        "fcf": 198915000.0,
         "endDate": "2024-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": -147647000,
-        "taxProvision": 11117000,
-        "normalizedIncome": -134781340,
-        "unusualItems": -27054000,
-        "unusualItemsExGoodwill": -27054000,
-        "unusualTaxEffect": -5681340,
-        "specialIncomeCharges": -27054000,
-        "otherNonOperating": 44707000,
-        "restructuring": 27054000,
-        "stockComp": 126049000
+        "pretaxIncome": -147647000.0,
+        "taxProvision": 11117000.0,
+        "normalizedIncome": -134781340.0,
+        "unusualItems": -27054000.0,
+        "unusualItemsExGoodwill": -27054000.0,
+        "unusualTaxEffect": -5681340.0,
+        "specialIncomeCharges": -27054000.0,
+        "otherNonOperating": 44707000.0,
+        "restructuring": 27054000.0,
+        "stockComp": 126049000.0
       },
       {
         "period": "2025",
-        "revenue": 5810115000,
+        "revenue": 5810115000.0,
         "netIncome": -80562000,
-        "opIncome": null,
+        "opIncome": 534947000.0,
         "eps": -0.52,
         "ocf": 633600000,
         "capex": -440836000,
-        "fcf": 192764000,
+        "fcf": 192764000.0,
         "endDate": "2025-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": 94181000,
-        "taxProvision": 64124000,
-        "normalizedIncome": 242968510,
-        "unusualItems": -245069000,
-        "unusualItemsExGoodwill": -245069000,
-        "unusualTaxEffect": -51464490,
-        "specialIncomeCharges": -245069000,
-        "otherNonOperating": 47554000,
-        "restructuring": 160081000,
-        "stockComp": 160239000
+        "pretaxIncome": 94181000.0,
+        "taxProvision": 64124000.0,
+        "normalizedIncome": 242968510.0,
+        "unusualItems": -245069000.0,
+        "unusualItemsExGoodwill": -245069000.0,
+        "unusualTaxEffect": -51464490.0,
+        "specialIncomeCharges": -245069000.0,
+        "otherNonOperating": 47554000.0,
+        "restructuring": 160081000.0,
+        "stockComp": 160239000.0
       },
       {
         "period": "2026",
@@ -9862,25 +9863,26 @@ const FINANCIALS_DATA = {
         "eps": 4.12,
         "ocf": 79514000,
         "capex": -1102909000,
-        "fcf": -1030569000,
+        "fcf": -1030569000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-06-30",
-        "pretaxIncome": 847733000,
-        "taxProvision": 60849000,
-        "normalizedIncome": 808402730,
-        "unusualItems": -3661000,
-        "unusualItemsExGoodwill": -3661000,
-        "unusualTaxEffect": -256270,
-        "specialIncomeCharges": -3661000,
-        "otherNonOperating": 140139000,
-        "restructuring": 63390000,
-        "stockComp": 186468000
+        "opIncome": 901522000.0,
+        "pretaxIncome": 847733000.0,
+        "taxProvision": 60849000.0,
+        "normalizedIncome": 808402730.0,
+        "unusualItems": -3661000.0,
+        "unusualItemsExGoodwill": -3661000.0,
+        "unusualTaxEffect": -256270.0,
+        "specialIncomeCharges": -3661000.0,
+        "otherNonOperating": 140139000.0,
+        "restructuring": 63390000.0,
+        "stockComp": 186468000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1053083000,
+        "revenue": 1053083000.0,
         "netIncome": -97707000,
         "opIncome": -21308000,
         "endDate": "2023-09-30",
@@ -9888,7 +9890,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 1131434000,
+        "revenue": 1131434000.0,
         "netIncome": -57571000,
         "opIncome": 31885000,
         "endDate": "2023-12-31",
@@ -9896,7 +9898,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q1'24",
-        "revenue": 1208809000,
+        "revenue": 1208809000.0,
         "netIncome": -44380000,
         "opIncome": 22305000,
         "endDate": "2024-03-31",
@@ -9904,14 +9906,14 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'24",
-        "revenue": 1314362000,
+        "revenue": 1314362000.0,
         "netIncome": -79853000,
         "opIncome": 63239000,
         "endDate": "2024-06-30"
       },
       {
         "period": "Q3'24",
-        "revenue": 1348135000,
+        "revenue": 1348135000.0,
         "netIncome": -5946000,
         "opIncome": null,
         "endDate": "2024-09-30",
@@ -9919,7 +9921,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 1434665000,
+        "revenue": 1434665000.0,
         "netIncome": 71123000,
         "opIncome": null,
         "endDate": "2024-12-31",
@@ -9927,7 +9929,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q1'25",
-        "revenue": 1497879000,
+        "revenue": 1497879000.0,
         "netIncome": -16982000,
         "opIncome": null,
         "endDate": "2025-03-31",
@@ -9935,108 +9937,108 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'25",
-        "revenue": 1529436000,
+        "revenue": 1529436000.0,
         "netIncome": -128757000,
-        "opIncome": 144978000,
+        "opIncome": 144978000.0,
         "endDate": "2025-06-30",
         "eps": -0.83,
-        "ocf": 130284000,
-        "capex": -131350000,
-        "fcf": -1066000,
-        "pretaxIncome": -63416000,
-        "taxProvision": 34695000,
-        "normalizedIncome": 14123850,
-        "unusualItems": -138915000,
-        "unusualItemsExGoodwill": -138915000,
-        "unusualTaxEffect": -29172150,
-        "specialIncomeCharges": -138915000,
-        "otherNonOperating": -14434000,
-        "restructuring": 53927000,
-        "stockComp": 43590000
+        "ocf": 130284000.0,
+        "capex": -131350000.0,
+        "fcf": -1066000.0,
+        "pretaxIncome": -63416000.0,
+        "taxProvision": 34695000.0,
+        "normalizedIncome": 14123850.0,
+        "unusualItems": -138915000.0,
+        "unusualItemsExGoodwill": -138915000.0,
+        "unusualTaxEffect": -29172150.0,
+        "specialIncomeCharges": -138915000.0,
+        "otherNonOperating": -14434000.0,
+        "restructuring": 53927000.0,
+        "stockComp": 43590000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 1581378000,
+        "revenue": 1581378000.0,
         "netIncome": 192870000,
-        "opIncome": 172239000,
+        "opIncome": 172239000.0,
         "endDate": "2025-09-30",
         "eps": 1.19,
-        "ocf": 45955000,
-        "capex": -103946000,
-        "fcf": -57991000,
-        "pretaxIncome": 216886000,
-        "taxProvision": -8310000,
-        "normalizedIncome": 157749350,
-        "unusualItems": 86835000,
-        "unusualItemsExGoodwill": 86835000,
-        "unusualTaxEffect": 18235350,
-        "specialIncomeCharges": 86835000,
-        "otherNonOperating": 16533000,
-        "restructuring": 19276000,
-        "stockComp": 44134000
+        "ocf": 45955000.0,
+        "capex": -103946000.0,
+        "fcf": -57991000.0,
+        "pretaxIncome": 216886000.0,
+        "taxProvision": -8310000.0,
+        "normalizedIncome": 157749350.0,
+        "unusualItems": 86835000.0,
+        "unusualItemsExGoodwill": 86835000.0,
+        "unusualTaxEffect": 18235350.0,
+        "specialIncomeCharges": 86835000.0,
+        "otherNonOperating": 16533000.0,
+        "restructuring": 19276000.0,
+        "stockComp": 44134000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 1685629000,
+        "revenue": 1685629000.0,
         "netIncome": 145094000,
-        "opIncome": 198624000,
+        "opIncome": 198624000.0,
         "endDate": "2025-12-31",
         "eps": 0.76,
-        "ocf": 57900000,
-        "capex": -153598000,
-        "fcf": -95698000,
-        "pretaxIncome": 167988000,
-        "taxProvision": 24174000,
+        "ocf": 57900000.0,
+        "capex": -153598000.0,
+        "fcf": -95698000.0,
+        "pretaxIncome": 167988000.0,
+        "taxProvision": 24174000.0,
         "normalizedIncome": 159233992.249446,
-        "unusualItems": -14621000,
-        "unusualItemsExGoodwill": -14621000,
+        "unusualItems": -14621000.0,
+        "unusualItemsExGoodwill": -14621000.0,
         "unusualTaxEffect": -2104007.750554,
-        "specialIncomeCharges": -14621000,
-        "otherNonOperating": 29922000,
-        "restructuring": 3609000,
-        "stockComp": 42768000
+        "specialIncomeCharges": -14621000.0,
+        "otherNonOperating": 29922000.0,
+        "restructuring": 3609000.0,
+        "stockComp": 42768000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 1805641000,
-        "netIncome": 191402000,
-        "opIncome": 226321000,
+        "revenue": 1805641000.0,
+        "netIncome": 191402000.0,
+        "opIncome": 226321000.0,
         "endDate": "2026-03-31",
         "eps": 0.97,
-        "ocf": -93797000,
-        "capex": -289684000,
-        "fcf": -383481000,
-        "pretaxIncome": 184347000,
-        "taxProvision": 2674000,
+        "ocf": -93797000.0,
+        "capex": -289684000.0,
+        "fcf": -383481000.0,
+        "pretaxIncome": 184347000.0,
+        "taxProvision": 2674000.0,
         "normalizedIncome": 216516348.115239,
-        "unusualItems": -25484000,
-        "unusualItemsExGoodwill": -25484000,
+        "unusualItems": -25484000.0,
+        "unusualItemsExGoodwill": -25484000.0,
         "unusualTaxEffect": -369651.884761,
-        "specialIncomeCharges": -25484000,
-        "otherNonOperating": 28068000,
-        "restructuring": 34406000,
-        "stockComp": 49147000
+        "specialIncomeCharges": -25484000.0,
+        "otherNonOperating": 28068000.0,
+        "restructuring": 34406000.0,
+        "stockComp": 49147000.0
       },
       {
         "period": "Q2'26",
         "revenue": 2045533000,
         "netIncome": 240530000,
         "endDate": "2026-06-30",
-        "opIncome": 304338000,
+        "opIncome": 304338000.0,
         "eps": 1.19,
-        "ocf": 69456000,
-        "capex": -562855000,
-        "fcf": -493399000,
-        "pretaxIncome": 278512000,
-        "taxProvision": 42311000,
+        "ocf": 69456000.0,
+        "capex": -562855000.0,
+        "fcf": -493399000.0,
+        "pretaxIncome": 278512000.0,
+        "taxProvision": 42311000.0,
         "normalizedIncome": 283265697.531884,
-        "unusualItems": -50391000,
-        "unusualItemsExGoodwill": -50391000,
+        "unusualItems": -50391000.0,
+        "unusualItemsExGoodwill": -50391000.0,
         "unusualTaxEffect": -7655302.468116,
-        "specialIncomeCharges": -50391000,
-        "otherNonOperating": 65616000,
-        "restructuring": 6099000,
-        "stockComp": 50419000
+        "specialIncomeCharges": -50391000.0,
+        "otherNonOperating": 65616000.0,
+        "restructuring": 6099000.0,
+        "stockComp": 50419000.0
       }
     ],
     "_currency": "USD",
@@ -10046,105 +10048,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-11-03",
-        "shares": 103726262
+        "shares": 103726262.0
       },
       {
         "date": "2021-02-04",
-        "shares": 104762037
+        "shares": 104762037.0
       },
       {
         "date": "2021-05-07",
-        "shares": 104884278
+        "shares": 104884278.0
       },
       {
         "date": "2021-08-16",
-        "shares": 105718326
+        "shares": 105718326.0
       },
       {
         "date": "2021-11-05",
-        "shares": 106139773
+        "shares": 106139773.0
       },
       {
         "date": "2022-02-07",
-        "shares": 106334121
+        "shares": 106334121.0
       },
       {
         "date": "2022-05-06",
-        "shares": 106456567
+        "shares": 106456567.0
       },
       {
         "date": "2022-08-24",
-        "shares": 130874428
+        "shares": 130874428.0
       },
       {
         "date": "2022-11-07",
-        "shares": 138690024
+        "shares": 138690024.0
       },
       {
         "date": "2023-02-06",
-        "shares": 138962661
+        "shares": 138962661.0
       },
       {
         "date": "2023-05-08",
-        "shares": 139377779
+        "shares": 139377779.0
       },
       {
         "date": "2023-08-15",
-        "shares": 150397328
+        "shares": 150397328.0
       },
       {
         "date": "2023-11-03",
-        "shares": 151482324
+        "shares": 151482324.0
       },
       {
         "date": "2024-02-02",
-        "shares": 151813356
+        "shares": 151813356.0
       },
       {
         "date": "2024-05-03",
-        "shares": 152461013
+        "shares": 152461013.0
       },
       {
         "date": "2024-08-13",
-        "shares": 153300385
+        "shares": 153300385.0
       },
       {
         "date": "2024-11-04",
-        "shares": 154663982
+        "shares": 154663982.0
       },
       {
         "date": "2025-02-03",
-        "shares": 154967323
+        "shares": 154967323.0
       },
       {
         "date": "2025-05-05",
-        "shares": 155440611
+        "shares": 155440611.0
       },
       {
         "date": "2025-08-11",
-        "shares": 155805474
+        "shares": 155805474.0
       },
       {
         "date": "2025-11-03",
-        "shares": 157153611
+        "shares": 157153611.0
       },
       {
         "date": "2026-02-02",
-        "shares": 187481852
+        "shares": 187481852.0
       },
       {
         "date": "2026-05-04",
-        "shares": 195639321
+        "shares": 195639321.0
       },
       {
         "date": "2026-08-10",
-        "shares": 195832246
+        "shares": 195832246.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10169,8 +10171,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "LITE": {
@@ -10189,8 +10191,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 1678600000,
-        "netIncome": 135500000,
+        "revenue": 1678600000.0,
+        "netIncome": 135500000.0,
         "opIncome": 204100000,
         "eps": 1.75,
         "ocf": 524300000,
@@ -10201,93 +10203,93 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 1742800000,
-        "netIncome": 397300000,
-        "opIncome": 527000000,
+        "revenue": 1742800000.0,
+        "netIncome": 397300000.0,
+        "opIncome": 527000000.0,
         "eps": 5.07,
-        "ocf": 738700000,
-        "capex": -84800000,
-        "fcf": 653900000,
+        "ocf": 738700000.0,
+        "capex": -84800000.0,
+        "fcf": 653900000.0,
         "endDate": "2021-07-03",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 1712600000,
-        "netIncome": 198900000,
-        "opIncome": 303300000,
+        "revenue": 1712600000.0,
+        "netIncome": 198900000.0,
+        "opIncome": 303300000.0,
         "eps": 2.68,
-        "ocf": 459300000,
-        "capex": -91200000,
-        "fcf": 368100000,
+        "ocf": 459300000.0,
+        "capex": -91200000.0,
+        "fcf": 368100000.0,
         "endDate": "2022-07-02",
         "_fcfIsProxy": true,
-        "otherNonOperating": -200000,
-        "impairment": 0
+        "otherNonOperating": -200000.0,
+        "impairment": 0.0
       },
       {
         "period": "2023",
-        "revenue": 1767000000,
-        "netIncome": -131600000,
+        "revenue": 1767000000.0,
+        "netIncome": -131600000.0,
         "opIncome": -115700000,
         "eps": -1.93,
         "ocf": 179800000,
         "capex": -128500000,
-        "fcf": 51300000,
+        "fcf": 51300000.0,
         "endDate": "2023-07-01",
         "_fcfIsProxy": false,
-        "pretaxIncome": -102400000,
-        "taxProvision": 29200000,
-        "normalizedIncome": -114931000,
-        "unusualItems": -21100000,
-        "unusualItemsExGoodwill": -21100000,
-        "unusualTaxEffect": -4431000,
-        "specialIncomeCharges": -28100000,
-        "otherNonOperating": 1000000,
-        "restructuring": 28100000,
-        "stockComp": 148400000
+        "pretaxIncome": -102400000.0,
+        "taxProvision": 29200000.0,
+        "normalizedIncome": -114931000.0,
+        "unusualItems": -21100000.0,
+        "unusualItemsExGoodwill": -21100000.0,
+        "unusualTaxEffect": -4431000.0,
+        "specialIncomeCharges": -28100000.0,
+        "otherNonOperating": 1000000.0,
+        "restructuring": 28100000.0,
+        "stockComp": 148400000.0
       },
       {
         "period": "2024",
         "revenue": 1359200000,
-        "netIncome": -546500000,
+        "netIncome": -546500000.0,
         "opIncome": -434000000,
         "eps": -8.12,
         "ocf": 24700000,
         "capex": -133000000,
-        "fcf": -112300000,
+        "fcf": -112300000.0,
         "endDate": "2024-06-29",
         "_fcfIsProxy": false,
-        "pretaxIncome": -405700000,
-        "taxProvision": 140800000,
-        "normalizedIncome": -489778000,
-        "unusualItems": -71800000,
-        "unusualItemsExGoodwill": -71800000,
-        "unusualTaxEffect": -15078000,
-        "specialIncomeCharges": -72600000,
-        "restructuring": 72600000,
-        "stockComp": 128800000
+        "pretaxIncome": -405700000.0,
+        "taxProvision": 140800000.0,
+        "normalizedIncome": -489778000.0,
+        "unusualItems": -71800000.0,
+        "unusualItemsExGoodwill": -71800000.0,
+        "unusualTaxEffect": -15078000.0,
+        "specialIncomeCharges": -72600000.0,
+        "restructuring": 72600000.0,
+        "stockComp": 128800000.0
       },
       {
         "period": "2025",
         "revenue": 1645000000,
-        "netIncome": 25900000,
+        "netIncome": 25900000.0,
         "opIncome": -180100000,
         "eps": 0.37,
         "ocf": 126300000,
         "capex": -231000000,
-        "fcf": -104700000,
+        "fcf": -104700000.0,
         "endDate": "2025-06-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": -172100000,
-        "taxProvision": -198000000,
-        "normalizedIncome": 19659000,
-        "unusualItems": 7900000,
-        "unusualItemsExGoodwill": 7900000,
-        "unusualTaxEffect": 1659000,
-        "specialIncomeCharges": 12100000,
-        "restructuring": 22800000,
-        "stockComp": 177200000
+        "pretaxIncome": -172100000.0,
+        "taxProvision": -198000000.0,
+        "normalizedIncome": 19659000.0,
+        "unusualItems": 7900000.0,
+        "unusualItemsExGoodwill": 7900000.0,
+        "unusualTaxEffect": 1659000.0,
+        "specialIncomeCharges": 12100000.0,
+        "restructuring": 22800000.0,
+        "stockComp": 177200000.0
       },
       {
         "period": "2026",
@@ -10297,159 +10299,159 @@ const FINANCIALS_DATA = {
         "eps": -92.96,
         "ocf": 751400000,
         "capex": -451300000,
-        "fcf": 300100000,
+        "fcf": 300100000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-06-27",
-        "pretaxIncome": -7172800000,
-        "taxProvision": -237700000,
-        "normalizedIncome": 558188000,
-        "unusualItems": -7741000000,
-        "unusualItemsExGoodwill": -7741000000,
-        "unusualTaxEffect": -247712000,
-        "specialIncomeCharges": -7740500000,
-        "otherNonOperating": -6400000,
-        "restructuring": -16100000,
-        "stockComp": 170200000
+        "pretaxIncome": -7172800000.0,
+        "taxProvision": -237700000.0,
+        "normalizedIncome": 558188000.0,
+        "unusualItems": -7741000000.0,
+        "unusualItemsExGoodwill": -7741000000.0,
+        "unusualTaxEffect": -247712000.0,
+        "specialIncomeCharges": -7740500000.0,
+        "otherNonOperating": -6400000.0,
+        "restructuring": -16100000.0,
+        "stockComp": 170200000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 317600000,
-        "netIncome": -67900000,
+        "revenue": 317600000.0,
+        "netIncome": -67900000.0,
         "opIncome": -80800000,
         "endDate": "2023-09-30",
         "eps": -1.02
       },
       {
         "period": "Q4'23",
-        "revenue": 366800000,
-        "netIncome": -99100000,
+        "revenue": 366800000.0,
+        "netIncome": -99100000.0,
         "opIncome": -105200000,
         "endDate": "2023-12-30",
         "eps": -1.47
       },
       {
         "period": "Q1'24",
-        "revenue": 366500000,
-        "netIncome": -127000000,
+        "revenue": 366500000.0,
+        "netIncome": -127000000.0,
         "opIncome": -114600000,
         "endDate": "2024-03-30",
         "eps": -1.88
       },
       {
         "period": "Q2'24",
-        "revenue": 308300000,
-        "netIncome": -252500000,
+        "revenue": 308300000.0,
+        "netIncome": -252500000.0,
         "opIncome": -133400000,
         "endDate": "2024-06-29"
       },
       {
         "period": "Q3'24",
-        "revenue": 336900000,
-        "netIncome": -82400000,
+        "revenue": 336900000.0,
+        "netIncome": -82400000.0,
         "opIncome": -82400000,
         "endDate": "2024-09-28",
         "eps": -1.21
       },
       {
         "period": "Q4'24",
-        "revenue": 402200000,
-        "netIncome": -60900000,
+        "revenue": 402200000.0,
+        "netIncome": -60900000.0,
         "opIncome": -51600000,
         "endDate": "2024-12-28",
         "eps": -0.88
       },
       {
         "period": "Q1'25",
-        "revenue": 425200000,
-        "netIncome": -44100000,
+        "revenue": 425200000.0,
+        "netIncome": -44100000.0,
         "opIncome": -37700000,
         "endDate": "2025-03-29",
         "eps": -0.64,
-        "otherNonOperating": 4200000
+        "otherNonOperating": 4200000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 480700000,
-        "netIncome": 213300000,
+        "revenue": 480700000.0,
+        "netIncome": 213300000.0,
         "opIncome": -8400000,
         "endDate": "2025-06-28",
         "eps": 2.96,
-        "ocf": 64000000,
-        "capex": -53900000,
-        "fcf": 10100000,
-        "pretaxIncome": -11400000,
-        "taxProvision": -224700000,
-        "normalizedIncome": 221990000,
-        "unusualItems": -11000000,
-        "unusualItemsExGoodwill": -11000000,
-        "unusualTaxEffect": -2310000,
-        "specialIncomeCharges": -5200000,
-        "restructuring": 5200000,
-        "stockComp": 40000000
+        "ocf": 64000000.0,
+        "capex": -53900000.0,
+        "fcf": 10100000.0,
+        "pretaxIncome": -11400000.0,
+        "taxProvision": -224700000.0,
+        "normalizedIncome": 221990000.0,
+        "unusualItems": -11000000.0,
+        "unusualItemsExGoodwill": -11000000.0,
+        "unusualTaxEffect": -2310000.0,
+        "specialIncomeCharges": -5200000.0,
+        "restructuring": 5200000.0,
+        "stockComp": 40000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 533800000,
-        "netIncome": 4200000,
+        "revenue": 533800000.0,
+        "netIncome": 4200000.0,
         "opIncome": 6700000,
         "endDate": "2025-09-27",
         "eps": 0.05,
-        "ocf": 57900000,
-        "capex": -76200000,
-        "fcf": -18300000,
-        "pretaxIncome": 5200000,
-        "taxProvision": 1000000,
+        "ocf": 57900000.0,
+        "capex": -76200000.0,
+        "fcf": -18300000.0,
+        "pretaxIncome": 5200000.0,
+        "taxProvision": 1000000.0,
         "normalizedIncome": 9692307.692308,
-        "unusualItems": -6800000,
-        "unusualItemsExGoodwill": -6800000,
+        "unusualItems": -6800000.0,
+        "unusualItemsExGoodwill": -6800000.0,
         "unusualTaxEffect": -1307692.307692,
-        "specialIncomeCharges": -8300000,
-        "otherNonOperating": -5900000,
-        "restructuring": 8300000,
-        "stockComp": 42400000
+        "specialIncomeCharges": -8300000.0,
+        "otherNonOperating": -5900000.0,
+        "restructuring": 8300000.0,
+        "stockComp": 42400000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 665500000,
-        "netIncome": 78200000,
+        "revenue": 665500000.0,
+        "netIncome": 78200000.0,
         "opIncome": 64300000,
         "endDate": "2025-12-27",
         "eps": 0.89,
-        "ocf": 126700000,
-        "capex": -83600000,
-        "fcf": 43100000,
-        "pretaxIncome": 96500000,
-        "taxProvision": 18300000,
+        "ocf": 126700000.0,
+        "capex": -83600000.0,
+        "fcf": 43100000.0,
+        "pretaxIncome": 96500000.0,
+        "taxProvision": 18300000.0,
         "normalizedIncome": 56077098.445596,
-        "unusualItems": 27300000,
-        "unusualItemsExGoodwill": 27300000,
+        "unusualItems": 27300000.0,
+        "unusualItemsExGoodwill": 27300000.0,
         "unusualTaxEffect": 5177098.445596,
-        "specialIncomeCharges": 27900000,
-        "restructuring": -27900000,
-        "stockComp": 45400000
+        "specialIncomeCharges": 27900000.0,
+        "restructuring": -27900000.0,
+        "stockComp": 45400000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 808400000,
+        "revenue": 808400000.0,
         "netIncome": 142500000,
         "opIncome": 174500000,
         "endDate": "2026-03-28",
         "eps": 1.5,
-        "ocf": 203800000,
-        "capex": -124700000,
-        "fcf": 79100000,
-        "pretaxIncome": 183800000,
-        "taxProvision": 39600000,
+        "ocf": 203800000.0,
+        "capex": -124700000.0,
+        "fcf": 79100000.0,
+        "pretaxIncome": 183800000.0,
+        "taxProvision": 39600000.0,
         "normalizedIncome": 145063003.264418,
-        "unusualItems": -1100000,
-        "unusualItemsExGoodwill": -1100000,
+        "unusualItems": -1100000.0,
+        "unusualItemsExGoodwill": -1100000.0,
         "unusualTaxEffect": -236996.735582,
-        "specialIncomeCharges": -1100000,
-        "otherNonOperating": 15500000,
-        "restructuring": 1100000,
-        "stockComp": 41600000
+        "specialIncomeCharges": -1100000.0,
+        "otherNonOperating": 15500000.0,
+        "restructuring": 1100000.0,
+        "stockComp": 41600000.0
       },
       {
         "period": "Q2'26",
@@ -10458,19 +10460,19 @@ const FINANCIALS_DATA = {
         "opIncome": 279300000,
         "endDate": "2026-06-27",
         "eps": -84.65,
-        "ocf": 363000000,
-        "capex": -166800000,
-        "fcf": 196200000,
-        "pretaxIncome": -7458300000,
-        "taxProvision": -296600000,
+        "ocf": 363000000.0,
+        "capex": -166800000.0,
+        "fcf": 196200000.0,
+        "pretaxIncome": -7458300000.0,
+        "taxProvision": -296600000.0,
         "normalizedIncome": 289221946.01987,
-        "unusualItems": -7759500000,
-        "unusualItemsExGoodwill": -7759500000,
+        "unusualItems": -7759500000.0,
+        "unusualItemsExGoodwill": -7759500000.0,
         "unusualTaxEffect": -308578053.98013,
-        "specialIncomeCharges": -7759000000,
-        "otherNonOperating": -37100000,
-        "restructuring": 2400000,
-        "stockComp": 40800000
+        "specialIncomeCharges": -7759000000.0,
+        "otherNonOperating": -37100000.0,
+        "restructuring": 2400000.0,
+        "stockComp": 40800000.0
       }
     ],
     "_currency": "USD",
@@ -10480,105 +10482,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 75500000
+        "shares": 75500000.0
       },
       {
         "date": "2021-01-26",
-        "shares": 75700000
+        "shares": 75700000.0
       },
       {
         "date": "2021-04-30",
-        "shares": 75900000
+        "shares": 75900000.0
       },
       {
         "date": "2021-08-23",
-        "shares": 72700000
+        "shares": 72700000.0
       },
       {
         "date": "2021-10-29",
-        "shares": 72300000
+        "shares": 72300000.0
       },
       {
         "date": "2022-01-28",
-        "shares": 72200000
+        "shares": 72200000.0
       },
       {
         "date": "2022-04-29",
-        "shares": 69000000
+        "shares": 69000000.0
       },
       {
         "date": "2022-08-17",
-        "shares": 68100000
+        "shares": 68100000.0
       },
       {
         "date": "2022-11-01",
-        "shares": 68200000
+        "shares": 68200000.0
       },
       {
         "date": "2023-02-02",
-        "shares": 68500000
+        "shares": 68500000.0
       },
       {
         "date": "2023-05-02",
-        "shares": 68700000
+        "shares": 68700000.0
       },
       {
         "date": "2023-08-16",
-        "shares": 66700000
+        "shares": 66700000.0
       },
       {
         "date": "2023-11-01",
-        "shares": 67000000
+        "shares": 67000000.0
       },
       {
         "date": "2024-02-01",
-        "shares": 67400000
+        "shares": 67400000.0
       },
       {
         "date": "2024-04-30",
-        "shares": 67600000
+        "shares": 67600000.0
       },
       {
         "date": "2024-08-14",
-        "shares": 68000000
+        "shares": 68000000.0
       },
       {
         "date": "2024-10-31",
-        "shares": 68700000
+        "shares": 68700000.0
       },
       {
         "date": "2025-01-30",
-        "shares": 69200000
+        "shares": 69200000.0
       },
       {
         "date": "2025-04-29",
-        "shares": 69400000
+        "shares": 69400000.0
       },
       {
         "date": "2025-08-12",
-        "shares": 69900000
+        "shares": 69900000.0
       },
       {
         "date": "2025-10-28",
-        "shares": 70900000
+        "shares": 70900000.0
       },
       {
         "date": "2026-01-27",
-        "shares": 71400000
+        "shares": 71400000.0
       },
       {
         "date": "2026-04-30",
-        "shares": 77800000
+        "shares": 77800000.0
       },
       {
         "date": "2026-08-14",
-        "shares": 89700000
+        "shares": 89700000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10603,8 +10605,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "GEV": {
@@ -10617,18 +10619,18 @@ const FINANCIALS_DATA = {
         "eps": -10,
         "ocf": -114000000,
         "capex": -513000000,
-        "fcf": -627000000,
+        "fcf": -627000000.0,
         "_fcfIsProxy": false,
         "endDate": "2022-12-31",
-        "pretaxIncome": -2474000000,
-        "taxProvision": 248000000,
-        "normalizedIncome": -2790510000,
-        "unusualItems": 69000000,
-        "unusualItemsExGoodwill": 69000000,
-        "unusualTaxEffect": 14490000,
-        "specialIncomeCharges": 22000000,
-        "otherNonOperating": 387000000,
-        "restructuring": -22000000
+        "pretaxIncome": -2474000000.0,
+        "taxProvision": 248000000.0,
+        "normalizedIncome": -2790510000.0,
+        "unusualItems": 69000000.0,
+        "unusualItemsExGoodwill": 69000000.0,
+        "unusualTaxEffect": 14490000.0,
+        "specialIncomeCharges": 22000000.0,
+        "otherNonOperating": 387000000.0,
+        "restructuring": -22000000.0
       },
       {
         "period": "2023",
@@ -10638,60 +10640,60 @@ const FINANCIALS_DATA = {
         "eps": -1.6,
         "ocf": 1186000000,
         "capex": -744000000,
-        "fcf": 442000000,
+        "fcf": 442000000.0,
         "_fcfIsProxy": false,
         "endDate": "2023-12-31",
-        "pretaxIncome": -130000000,
-        "taxProvision": 344000000,
-        "normalizedIncome": -583360000,
-        "unusualItems": 184000000,
-        "unusualItemsExGoodwill": 184000000,
-        "unusualTaxEffect": 38640000,
-        "specialIncomeCharges": 209000000,
-        "otherNonOperating": 708000000,
-        "restructuring": -209000000
+        "pretaxIncome": -130000000.0,
+        "taxProvision": 344000000.0,
+        "normalizedIncome": -583360000.0,
+        "unusualItems": 184000000.0,
+        "unusualItemsExGoodwill": 184000000.0,
+        "unusualTaxEffect": 38640000.0,
+        "specialIncomeCharges": 209000000.0,
+        "otherNonOperating": 708000000.0,
+        "restructuring": -209000000.0
       },
       {
         "period": "2024",
-        "revenue": 34935000000,
-        "netIncome": 1552000000,
+        "revenue": 34935000000.0,
+        "netIncome": 1552000000.0,
         "opIncome": 471000000,
         "eps": 5.58,
         "ocf": 2583000000,
         "capex": -883000000,
-        "fcf": 1700000000,
+        "fcf": 1700000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2498000000,
-        "taxProvision": 939000000,
-        "normalizedIncome": 839392000,
-        "unusualItems": 1142000000,
-        "unusualItemsExGoodwill": 1142000000,
-        "unusualTaxEffect": 429392000,
-        "specialIncomeCharges": 1147000000,
-        "otherNonOperating": 646000000,
-        "restructuring": -1147000000
+        "pretaxIncome": 2498000000.0,
+        "taxProvision": 939000000.0,
+        "normalizedIncome": 839392000.0,
+        "unusualItems": 1142000000.0,
+        "unusualItemsExGoodwill": 1142000000.0,
+        "unusualTaxEffect": 429392000.0,
+        "specialIncomeCharges": 1147000000.0,
+        "otherNonOperating": 646000000.0,
+        "restructuring": -1147000000.0
       },
       {
         "period": "2025",
-        "revenue": 38068000000,
-        "netIncome": 4884000000,
+        "revenue": 38068000000.0,
+        "netIncome": 4884000000.0,
         "opIncome": 1388000000,
         "eps": 17.69,
         "ocf": 4987000000,
         "capex": -1277000000,
-        "fcf": 3710000000,
+        "fcf": 3710000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2828000000,
-        "taxProvision": -2051000000,
-        "normalizedIncome": 4748910000,
-        "unusualItems": 171000000,
-        "unusualItemsExGoodwill": 171000000,
-        "unusualTaxEffect": 35910000,
-        "specialIncomeCharges": 185000000,
-        "otherNonOperating": 544000000,
-        "restructuring": -185000000
+        "pretaxIncome": 2828000000.0,
+        "taxProvision": -2051000000.0,
+        "normalizedIncome": 4748910000.0,
+        "unusualItems": 171000000.0,
+        "unusualItemsExGoodwill": 171000000.0,
+        "unusualTaxEffect": 35910000.0,
+        "specialIncomeCharges": 185000000.0,
+        "otherNonOperating": 544000000.0,
+        "restructuring": -185000000.0
       }
     ],
     "quarterly": [
@@ -10728,106 +10730,106 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 8913000000,
-        "netIncome": -96000000,
+        "revenue": 8913000000.0,
+        "netIncome": -96000000.0,
         "opIncome": -359000000,
         "endDate": "2024-09-30",
         "eps": -0.35
       },
       {
         "period": "Q4'24",
-        "revenue": 10559000000,
-        "netIncome": 484000000,
+        "revenue": 10559000000.0,
+        "netIncome": 484000000.0,
         "opIncome": 593000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 8032000000,
-        "netIncome": 254000000,
+        "revenue": 8032000000.0,
+        "netIncome": 254000000.0,
         "opIncome": 43000000,
         "endDate": "2025-03-31",
         "eps": 0.91
       },
       {
         "period": "Q2'25",
-        "revenue": 9111000000,
-        "netIncome": 514000000,
+        "revenue": 9111000000.0,
+        "netIncome": 514000000.0,
         "opIncome": 378000000,
         "endDate": "2025-06-30",
         "eps": 1.86,
-        "ocf": 367000000,
-        "capex": -173000000,
-        "fcf": 194000000,
-        "pretaxIncome": 645000000,
-        "taxProvision": 153000000,
+        "ocf": 367000000.0,
+        "capex": -173000000.0,
+        "fcf": 194000000.0,
+        "pretaxIncome": 645000000.0,
+        "taxProvision": 153000000.0,
         "normalizedIncome": 507897674.418605,
-        "unusualItems": 8000000,
-        "unusualItemsExGoodwill": 8000000,
+        "unusualItems": 8000000.0,
+        "unusualItemsExGoodwill": 8000000.0,
         "unusualTaxEffect": 1897674.418605,
-        "specialIncomeCharges": 1000000,
-        "otherNonOperating": 133000000,
-        "restructuring": -1000000
+        "specialIncomeCharges": 1000000.0,
+        "otherNonOperating": 133000000.0,
+        "restructuring": -1000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 9969000000,
-        "netIncome": 452000000,
+        "revenue": 9969000000.0,
+        "netIncome": 452000000.0,
         "opIncome": 366000000,
         "endDate": "2025-09-30",
         "eps": 1.64,
-        "ocf": 980000000,
-        "capex": -247000000,
-        "fcf": 733000000,
-        "pretaxIncome": 746000000,
-        "taxProvision": 293000000,
-        "normalizedIncome": 435584000,
-        "unusualItems": 27000000,
-        "unusualItemsExGoodwill": 27000000,
-        "unusualTaxEffect": 10584000,
-        "specialIncomeCharges": 44000000,
-        "otherNonOperating": 140000000,
-        "restructuring": -44000000
+        "ocf": 980000000.0,
+        "capex": -247000000.0,
+        "fcf": 733000000.0,
+        "pretaxIncome": 746000000.0,
+        "taxProvision": 293000000.0,
+        "normalizedIncome": 435584000.0,
+        "unusualItems": 27000000.0,
+        "unusualItemsExGoodwill": 27000000.0,
+        "unusualTaxEffect": 10584000.0,
+        "specialIncomeCharges": 44000000.0,
+        "otherNonOperating": 140000000.0,
+        "restructuring": -44000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 10956000000,
-        "netIncome": 3664000000,
+        "revenue": 10956000000.0,
+        "netIncome": 3664000000.0,
         "opIncome": 601000000,
         "endDate": "2025-12-31",
         "eps": 13.39,
-        "ocf": 2479000000,
-        "capex": -671000000,
-        "fcf": 1808000000,
-        "pretaxIncome": 1105000000,
-        "taxProvision": -2565000000,
-        "normalizedIncome": 3574730000,
-        "unusualItems": 113000000,
-        "unusualItemsExGoodwill": 113000000,
-        "unusualTaxEffect": 23730000,
-        "specialIncomeCharges": 119000000,
-        "otherNonOperating": 136000000,
-        "restructuring": -119000000
+        "ocf": 2479000000.0,
+        "capex": -671000000.0,
+        "fcf": 1808000000.0,
+        "pretaxIncome": 1105000000.0,
+        "taxProvision": -2565000000.0,
+        "normalizedIncome": 3574730000.0,
+        "unusualItems": 113000000.0,
+        "unusualItemsExGoodwill": 113000000.0,
+        "unusualTaxEffect": 23730000.0,
+        "specialIncomeCharges": 119000000.0,
+        "otherNonOperating": 136000000.0,
+        "restructuring": -119000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 9339000000,
-        "netIncome": 4745000000,
+        "revenue": 9339000000.0,
+        "netIncome": 4745000000.0,
         "opIncome": 179000000,
         "endDate": "2026-03-31",
         "eps": 17.44,
-        "ocf": 5188000000,
-        "capex": -397000000,
-        "fcf": 4791000000,
-        "pretaxIncome": 5103000000,
-        "taxProvision": 354000000,
+        "ocf": 5188000000.0,
+        "capex": -397000000.0,
+        "fcf": 4791000000.0,
+        "pretaxIncome": 5103000000.0,
+        "taxProvision": 354000000.0,
         "normalizedIncome": 640925925.925926,
-        "unusualItems": 4410000000,
-        "unusualItemsExGoodwill": 4410000000,
+        "unusualItems": 4410000000.0,
+        "unusualItemsExGoodwill": 4410000000.0,
         "unusualTaxEffect": 305925925.925926,
-        "specialIncomeCharges": 4405000000,
-        "otherNonOperating": 157000000,
-        "restructuring": -4405000000
+        "specialIncomeCharges": 4405000000.0,
+        "otherNonOperating": 157000000.0,
+        "restructuring": -4405000000.0
       },
       {
         "period": "Q2'26",
@@ -10836,18 +10838,18 @@ const FINANCIALS_DATA = {
         "opIncome": 653000000,
         "eps": 2.47,
         "endDate": "2026-06-30",
-        "ocf": 5492000000,
-        "capex": -386000000,
-        "fcf": 5106000000,
-        "pretaxIncome": 925000000,
-        "taxProvision": 276000000,
-        "normalizedIncome": 653960000,
-        "unusualItems": 20000000,
-        "unusualItemsExGoodwill": 20000000,
-        "unusualTaxEffect": 5960000,
-        "specialIncomeCharges": 22000000,
-        "otherNonOperating": 142000000,
-        "restructuring": -22000000
+        "ocf": 5492000000.0,
+        "capex": -386000000.0,
+        "fcf": 5106000000.0,
+        "pretaxIncome": 925000000.0,
+        "taxProvision": 276000000.0,
+        "normalizedIncome": 653960000.0,
+        "unusualItems": 20000000.0,
+        "unusualItemsExGoodwill": 20000000.0,
+        "unusualTaxEffect": 5960000.0,
+        "specialIncomeCharges": 22000000.0,
+        "otherNonOperating": 142000000.0,
+        "restructuring": -22000000.0
       }
     ],
     "_currency": "USD",
@@ -10857,49 +10859,49 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2024-04-26",
-        "shares": 274085523
+        "shares": 274085523.0
       },
       {
         "date": "2024-07-17",
-        "shares": 274802034
+        "shares": 274802034.0
       },
       {
         "date": "2024-10-16",
-        "shares": 275652970
+        "shares": 275652970.0
       },
       {
         "date": "2025-01-15",
-        "shares": 275900754
+        "shares": 275900754.0
       },
       {
         "date": "2025-03-31",
-        "shares": 272934744
+        "shares": 272934744.0
       },
       {
         "date": "2025-06-30",
-        "shares": 272223940
+        "shares": 272223940.0
       },
       {
         "date": "2025-09-30",
-        "shares": 271320459
+        "shares": 271320459.0
       },
       {
         "date": "2025-12-31",
-        "shares": 269529464
+        "shares": 269529464.0
       },
       {
         "date": "2026-03-31",
-        "shares": 268719995
+        "shares": 268719995.0
       },
       {
         "date": "2026-06-30",
-        "shares": 266333581
+        "shares": 266333581.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -10924,8 +10926,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "CEG": {
@@ -10973,57 +10975,57 @@ const FINANCIALS_DATA = {
         "eps": -0.49,
         "ocf": -2353000000,
         "capex": -1689000000,
-        "fcf": -4042000000,
+        "fcf": -4042000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -542000000,
-        "taxProvision": -388000000,
-        "normalizedIncome": -150520000,
-        "unusualItems": -12000000,
-        "unusualItemsExGoodwill": -12000000,
-        "unusualTaxEffect": -2520000,
-        "specialIncomeCharges": 1000000,
-        "otherNonOperating": 129000000
+        "pretaxIncome": -542000000.0,
+        "taxProvision": -388000000.0,
+        "normalizedIncome": -150520000.0,
+        "unusualItems": -12000000.0,
+        "unusualItemsExGoodwill": -12000000.0,
+        "unusualTaxEffect": -2520000.0,
+        "specialIncomeCharges": 1000000.0,
+        "otherNonOperating": 129000000.0
       },
       {
         "period": "2023",
-        "revenue": 24918000000,
+        "revenue": 24918000000.0,
         "netIncome": 1623000000,
         "opIncome": 1610000000,
         "eps": 5.01,
         "ocf": -5301000000,
         "capex": -2422000000,
-        "fcf": -7723000000,
+        "fcf": -7723000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2447000000,
-        "taxProvision": 859000000,
-        "normalizedIncome": 1406234000,
-        "unusualItems": 334000000,
-        "unusualItemsExGoodwill": 334000000,
-        "unusualTaxEffect": 117234000,
-        "specialIncomeCharges": 27000000,
-        "otherNonOperating": 158000000
+        "pretaxIncome": 2447000000.0,
+        "taxProvision": 859000000.0,
+        "normalizedIncome": 1406234000.0,
+        "unusualItems": 334000000.0,
+        "unusualItemsExGoodwill": 334000000.0,
+        "unusualTaxEffect": 117234000.0,
+        "specialIncomeCharges": 27000000.0,
+        "otherNonOperating": 158000000.0
       },
       {
         "period": "2024",
-        "revenue": 23568000000,
+        "revenue": 23568000000.0,
         "netIncome": 3749000000,
         "opIncome": 4352000000,
         "eps": 11.89,
         "ocf": -2464000000,
         "capex": -2565000000,
-        "fcf": -5029000000,
+        "fcf": -5029000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4516000000,
-        "taxProvision": 774000000,
-        "normalizedIncome": 3681022000,
-        "unusualItems": 82000000,
-        "unusualItemsExGoodwill": 82000000,
-        "unusualTaxEffect": 14022000,
-        "specialIncomeCharges": 71000000,
-        "otherNonOperating": 92000000
+        "pretaxIncome": 4516000000.0,
+        "taxProvision": 774000000.0,
+        "normalizedIncome": 3681022000.0,
+        "unusualItems": 82000000.0,
+        "unusualItemsExGoodwill": 82000000.0,
+        "unusualTaxEffect": 14022000.0,
+        "specialIncomeCharges": 71000000.0,
+        "otherNonOperating": 92000000.0
       },
       {
         "period": "2025",
@@ -11033,23 +11035,23 @@ const FINANCIALS_DATA = {
         "eps": 7.4,
         "ocf": 4237000000,
         "capex": -2949000000,
-        "fcf": 1288000000,
+        "fcf": 1288000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3511000000,
-        "taxProvision": 1187000000,
-        "normalizedIncome": 2520248000,
-        "unusualItems": -304000000,
-        "unusualItemsExGoodwill": -304000000,
-        "unusualTaxEffect": -102752000,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 128000000
+        "pretaxIncome": 3511000000.0,
+        "taxProvision": 1187000000.0,
+        "normalizedIncome": 2520248000.0,
+        "unusualItems": -304000000.0,
+        "unusualItemsExGoodwill": -304000000.0,
+        "unusualTaxEffect": -102752000.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 128000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 6111000000,
+        "revenue": 6111000000.0,
         "netIncome": 731000000,
         "opIncome": 977000000,
         "endDate": "2023-09-30",
@@ -11057,14 +11059,14 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 5796000000,
+        "revenue": 5796000000.0,
         "netIncome": -37000000,
         "opIncome": -67000000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 6161000000,
+        "revenue": 6161000000.0,
         "netIncome": 883000000,
         "opIncome": 813000000,
         "endDate": "2024-03-31",
@@ -11088,94 +11090,94 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 5382000000,
+        "revenue": 5382000000.0,
         "netIncome": 852000000,
         "opIncome": 972000000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 6788000000,
+        "revenue": 6788000000.0,
         "netIncome": 118000000,
         "opIncome": 451000000,
         "endDate": "2025-03-31",
         "eps": 0.38,
-        "specialIncomeCharges": 0
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
-        "revenue": 6101000000,
+        "revenue": 6101000000.0,
         "netIncome": 839000000,
         "opIncome": 951000000,
         "endDate": "2025-06-30",
         "eps": 2.67,
-        "ocf": 1477000000,
-        "capex": -767000000,
-        "fcf": 710000000,
-        "pretaxIncome": 1273000000,
-        "taxProvision": 440000000,
-        "normalizedIncome": 264134000,
-        "unusualItems": 879000000,
-        "unusualItemsExGoodwill": 879000000,
-        "unusualTaxEffect": 304134000,
-        "otherNonOperating": 10000000
+        "ocf": 1477000000.0,
+        "capex": -767000000.0,
+        "fcf": 710000000.0,
+        "pretaxIncome": 1273000000.0,
+        "taxProvision": 440000000.0,
+        "normalizedIncome": 264134000.0,
+        "unusualItems": 879000000.0,
+        "unusualItemsExGoodwill": 879000000.0,
+        "unusualTaxEffect": 304134000.0,
+        "otherNonOperating": 10000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 6570000000,
+        "revenue": 6570000000.0,
         "netIncome": 930000000,
         "opIncome": 1086000000,
         "endDate": "2025-09-30",
         "eps": 2.97,
-        "ocf": 1848000000,
-        "capex": -390000000,
-        "fcf": 1458000000,
-        "pretaxIncome": 1395000000,
-        "taxProvision": 466000000,
+        "ocf": 1848000000.0,
+        "capex": -390000000.0,
+        "fcf": 1458000000.0,
+        "pretaxIncome": 1395000000.0,
+        "taxProvision": 466000000.0,
         "normalizedIncome": 917346953.405018,
-        "unusualItems": 19000000,
-        "unusualItemsExGoodwill": 19000000,
+        "unusualItems": 19000000.0,
+        "unusualItemsExGoodwill": 19000000.0,
         "unusualTaxEffect": 6346953.405018,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 51000000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 51000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 6074000000,
+        "revenue": 6074000000.0,
         "netIncome": 432000000,
         "opIncome": 598000000,
         "endDate": "2025-12-31",
         "eps": 1.38,
-        "ocf": 805000000,
-        "capex": -986000000,
-        "fcf": -181000000,
-        "pretaxIncome": 692000000,
-        "taxProvision": 259000000,
+        "ocf": 805000000.0,
+        "capex": -986000000.0,
+        "fcf": -181000000.0,
+        "pretaxIncome": 692000000.0,
+        "taxProvision": 259000000.0,
         "normalizedIncome": 462034682.080925,
-        "unusualItems": -48000000,
-        "unusualItemsExGoodwill": -48000000,
+        "unusualItems": -48000000.0,
+        "unusualItemsExGoodwill": -48000000.0,
         "unusualTaxEffect": -17965317.919075,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 47000000
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 47000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 11122000000,
+        "revenue": 11122000000.0,
         "netIncome": 1590000000,
         "opIncome": 2332000000,
         "endDate": "2026-03-31",
         "eps": 4.49,
-        "ocf": 425000000,
-        "capex": -1275000000,
-        "fcf": -850000000,
-        "pretaxIncome": 2125000000,
-        "taxProvision": 530000000,
+        "ocf": 425000000.0,
+        "capex": -1275000000.0,
+        "fcf": -850000000.0,
+        "pretaxIncome": 2125000000.0,
+        "taxProvision": 530000000.0,
         "normalizedIncome": 1516442352.941176,
-        "unusualItems": 98000000,
-        "unusualItemsExGoodwill": 98000000,
+        "unusualItems": 98000000.0,
+        "unusualItemsExGoodwill": 98000000.0,
         "unusualTaxEffect": 24442352.941176,
-        "specialIncomeCharges": 14000000,
-        "otherNonOperating": 14000000
+        "specialIncomeCharges": 14000000.0,
+        "otherNonOperating": 14000000.0
       },
       {
         "period": "Q2'26",
@@ -11184,17 +11186,17 @@ const FINANCIALS_DATA = {
         "opIncome": 580000000,
         "eps": 1.42,
         "endDate": "2026-06-30",
-        "ocf": 1128000000,
-        "capex": -1246000000,
-        "fcf": -118000000,
-        "pretaxIncome": 900000000,
-        "taxProvision": 398000000,
-        "normalizedIncome": -223800000,
-        "unusualItems": 1228000000,
-        "unusualItemsExGoodwill": 1228000000,
-        "unusualTaxEffect": 491200000,
-        "specialIncomeCharges": 2000000,
-        "otherNonOperating": 2000000
+        "ocf": 1128000000.0,
+        "capex": -1246000000.0,
+        "fcf": -118000000.0,
+        "pretaxIncome": 900000000.0,
+        "taxProvision": 398000000.0,
+        "normalizedIncome": -223800000.0,
+        "unusualItems": 1228000000.0,
+        "unusualItemsExGoodwill": 1228000000.0,
+        "unusualTaxEffect": 491200000.0,
+        "specialIncomeCharges": 2000000.0,
+        "otherNonOperating": 2000000.0
       }
     ],
     "_currency": "USD",
@@ -11204,85 +11206,85 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2022-02-01",
-        "shares": 326663937
+        "shares": 326663937.0
       },
       {
         "date": "2022-03-31",
-        "shares": 326698937
+        "shares": 326698937.0
       },
       {
         "date": "2022-06-30",
-        "shares": 326845258
+        "shares": 326845258.0
       },
       {
         "date": "2022-09-30",
-        "shares": 327017895
+        "shares": 327017895.0
       },
       {
         "date": "2023-01-31",
-        "shares": 327131082
+        "shares": 327131082.0
       },
       {
         "date": "2023-04-28",
-        "shares": 324411457
+        "shares": 324411457.0
       },
       {
         "date": "2023-07-31",
-        "shares": 321591672
+        "shares": 321591672.0
       },
       {
         "date": "2023-10-31",
-        "shares": 319381684
+        "shares": 319381684.0
       },
       {
         "date": "2024-01-31",
-        "shares": 316666538
+        "shares": 316666538.0
       },
       {
         "date": "2024-04-30",
-        "shares": 315234850
+        "shares": 315234850.0
       },
       {
         "date": "2024-07-31",
-        "shares": 312689080
+        "shares": 312689080.0
       },
       {
         "date": "2024-10-31",
-        "shares": 312766599
+        "shares": 312766599.0
       },
       {
         "date": "2025-01-31",
-        "shares": 312847257
+        "shares": 312847257.0
       },
       {
         "date": "2025-04-30",
-        "shares": 313417370
+        "shares": 313417370.0
       },
       {
         "date": "2025-07-31",
-        "shares": 312405579
+        "shares": 312405579.0
       },
       {
         "date": "2025-10-31",
-        "shares": 312290080
+        "shares": 312290080.0
       },
       {
         "date": "2026-02-01",
-        "shares": 361990335
+        "shares": 361990335.0
       },
       {
         "date": "2026-04-30",
-        "shares": 361190063
+        "shares": 361190063.0
       },
       {
         "date": "2026-07-31",
-        "shares": 354307379
+        "shares": 354307379.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11307,8 +11309,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VST": {
@@ -11327,11 +11329,11 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 11809000000,
-        "netIncome": 928000000,
-        "opIncome": 1993000000,
+        "revenue": 11809000000.0,
+        "netIncome": 928000000.0,
+        "opIncome": 1993000000.0,
         "eps": 1.86,
-        "ocf": 2736000000,
+        "ocf": 2736000000.0,
         "capex": -713000000,
         "fcf": 2023000000,
         "endDate": "2019-12-31",
@@ -11339,115 +11341,115 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 11443000000,
-        "netIncome": 636000000,
-        "opIncome": 1519000000,
+        "revenue": 11443000000.0,
+        "netIncome": 636000000.0,
+        "opIncome": 1519000000.0,
         "eps": 1.3,
-        "ocf": 3337000000,
-        "capex": -1259000000,
-        "fcf": 2078000000,
+        "ocf": 3337000000.0,
+        "capex": -1259000000.0,
+        "fcf": 2078000000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 12077000000,
+        "revenue": 12077000000.0,
         "netIncome": -1295000000,
-        "opIncome": -1515000000,
+        "opIncome": -1515000000.0,
         "eps": -2.69,
-        "ocf": -206000000,
-        "capex": -1033000000,
-        "fcf": -1239000000,
+        "ocf": -206000000.0,
+        "capex": -1033000000.0,
+        "fcf": -1239000000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 13728000000,
+        "revenue": 13728000000.0,
         "netIncome": -1377000000,
-        "opIncome": -1177000000,
+        "opIncome": -1177000000.0,
         "eps": -3.26,
         "ocf": 485000000,
         "capex": -1301000000,
-        "fcf": -816000000,
+        "fcf": -816000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -1560000000,
-        "taxProvision": -350000000,
-        "normalizedIncome": -1424880000,
-        "unusualItems": 255000000,
-        "unusualItemsExGoodwill": 255000000,
-        "unusualTaxEffect": 57120000,
-        "specialIncomeCharges": 5000000,
-        "otherNonOperating": -112000000,
-        "impairment": 74000000,
-        "stockComp": 63000000
+        "pretaxIncome": -1560000000.0,
+        "taxProvision": -350000000.0,
+        "normalizedIncome": -1424880000.0,
+        "unusualItems": 255000000.0,
+        "unusualItemsExGoodwill": 255000000.0,
+        "unusualTaxEffect": 57120000.0,
+        "specialIncomeCharges": 5000000.0,
+        "otherNonOperating": -112000000.0,
+        "impairment": 74000000.0,
+        "stockComp": 63000000.0
       },
       {
         "period": "2023",
-        "revenue": 14779000000,
+        "revenue": 14779000000.0,
         "netIncome": 1343000000,
-        "opIncome": 2661000000,
+        "opIncome": 2661000000.0,
         "eps": 3.58,
         "ocf": 5453000000,
         "capex": -1676000000,
-        "fcf": 3777000000,
+        "fcf": 3777000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2000000000,
-        "taxProvision": 508000000,
-        "normalizedIncome": 1465398000,
-        "unusualItems": 37000000,
-        "unusualItemsExGoodwill": 37000000,
-        "unusualTaxEffect": 9398000,
-        "specialIncomeCharges": 73000000,
-        "otherNonOperating": -126000000,
-        "impairment": 49000000,
-        "stockComp": 77000000
+        "pretaxIncome": 2000000000.0,
+        "taxProvision": 508000000.0,
+        "normalizedIncome": 1465398000.0,
+        "unusualItems": 37000000.0,
+        "unusualItemsExGoodwill": 37000000.0,
+        "unusualTaxEffect": 9398000.0,
+        "specialIncomeCharges": 73000000.0,
+        "otherNonOperating": -126000000.0,
+        "impairment": 49000000.0,
+        "stockComp": 77000000.0
       },
       {
         "period": "2024",
-        "revenue": 17224000000,
+        "revenue": 17224000000.0,
         "netIncome": 2467000000,
         "opIncome": 4081000000,
-        "eps": 7,
+        "eps": 7.0,
         "ocf": 4563000000,
         "capex": -2078000000,
-        "fcf": 2485000000,
+        "fcf": 2485000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3467000000,
-        "taxProvision": 655000000,
-        "normalizedIncome": 2587632000,
-        "unusualItems": 88000000,
-        "unusualItemsExGoodwill": 88000000,
-        "unusualTaxEffect": 16632000,
-        "specialIncomeCharges": 35000000,
-        "otherNonOperating": 192000000,
-        "impairment": 0,
-        "stockComp": 100000000
+        "pretaxIncome": 3467000000.0,
+        "taxProvision": 655000000.0,
+        "normalizedIncome": 2587632000.0,
+        "unusualItems": 88000000.0,
+        "unusualItemsExGoodwill": 88000000.0,
+        "unusualTaxEffect": 16632000.0,
+        "specialIncomeCharges": 35000000.0,
+        "otherNonOperating": 192000000.0,
+        "impairment": 0.0,
+        "stockComp": 100000000.0
       },
       {
         "period": "2025",
-        "revenue": 17738000000,
+        "revenue": 17738000000.0,
         "netIncome": 752000000,
         "opIncome": 1906000000,
         "eps": 2.18,
         "ocf": 4070000000,
         "capex": -2752000000,
-        "fcf": 1318000000,
+        "fcf": 1318000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1123000000,
-        "taxProvision": 179000000,
-        "normalizedIncome": 1091175000,
-        "unusualItems": -175000000,
-        "unusualItemsExGoodwill": -175000000,
-        "unusualTaxEffect": -27825000,
-        "specialIncomeCharges": -108000000,
-        "otherNonOperating": 258000000,
-        "impairment": 228000000,
-        "stockComp": 113000000
+        "pretaxIncome": 1123000000.0,
+        "taxProvision": 179000000.0,
+        "normalizedIncome": 1091175000.0,
+        "unusualItems": -175000000.0,
+        "unusualItemsExGoodwill": -175000000.0,
+        "unusualTaxEffect": -27825000.0,
+        "specialIncomeCharges": -108000000.0,
+        "otherNonOperating": 258000000.0,
+        "impairment": 228000000.0,
+        "stockComp": 113000000.0
       }
     ],
     "quarterly": [
@@ -11461,16 +11463,16 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 3078000000,
+        "revenue": 3078000000.0,
         "netIncome": -222000000,
-        "opIncome": 102000000,
+        "opIncome": 102000000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 3054000000,
+        "revenue": 3054000000.0,
         "netIncome": -84000000,
-        "opIncome": 86000000,
+        "opIncome": 86000000.0,
         "endDate": "2024-03-31",
         "eps": -0.24
       },
@@ -11492,101 +11494,101 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 4037000000,
+        "revenue": 4037000000.0,
         "netIncome": 393000000,
-        "opIncome": 599000000,
+        "opIncome": 599000000.0,
         "endDate": "2024-12-31",
-        "impairment": 0
+        "impairment": 0.0
       },
       {
         "period": "Q1'25",
-        "revenue": 3933000000,
+        "revenue": 3933000000.0,
         "netIncome": -317000000,
         "opIncome": -120000000,
         "endDate": "2025-03-31",
         "eps": -0.93,
-        "specialIncomeCharges": 0
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
-        "revenue": 4250000000,
+        "revenue": 4250000000.0,
         "netIncome": 280000000,
         "opIncome": 515000000,
         "endDate": "2025-06-30",
         "eps": 0.81,
-        "ocf": 572000000,
-        "capex": -690000000,
-        "fcf": -118000000,
-        "pretaxIncome": 403000000,
-        "taxProvision": 76000000,
+        "ocf": 572000000.0,
+        "capex": -690000000.0,
+        "fcf": -118000000.0,
+        "pretaxIncome": 403000000.0,
+        "taxProvision": 76000000.0,
         "normalizedIncome": 338359801.488834,
-        "unusualItems": -14000000,
-        "unusualItemsExGoodwill": -14000000,
+        "unusualItems": -14000000.0,
+        "unusualItemsExGoodwill": -14000000.0,
         "unusualTaxEffect": -2640198.511166,
-        "specialIncomeCharges": 12000000,
-        "otherNonOperating": 107000000,
-        "impairment": 68000000,
-        "stockComp": 25000000
+        "specialIncomeCharges": 12000000.0,
+        "otherNonOperating": 107000000.0,
+        "impairment": 68000000.0,
+        "stockComp": 25000000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 4971000000,
+        "revenue": 4971000000.0,
         "netIncome": 604000000,
         "opIncome": 1037000000,
         "endDate": "2025-09-30",
         "eps": 1.75,
-        "ocf": 1467000000,
-        "capex": -458000000,
-        "fcf": 1009000000,
-        "pretaxIncome": 856000000,
-        "taxProvision": 204000000,
-        "normalizedIncome": 663430000,
-        "unusualItems": -15000000,
-        "unusualItemsExGoodwill": -15000000,
-        "unusualTaxEffect": -3570000,
-        "specialIncomeCharges": -5000000,
-        "otherNonOperating": 101000000,
-        "impairment": 5000000,
-        "stockComp": 36000000
+        "ocf": 1467000000.0,
+        "capex": -458000000.0,
+        "fcf": 1009000000.0,
+        "pretaxIncome": 856000000.0,
+        "taxProvision": 204000000.0,
+        "normalizedIncome": 663430000.0,
+        "unusualItems": -15000000.0,
+        "unusualItemsExGoodwill": -15000000.0,
+        "unusualTaxEffect": -3570000.0,
+        "specialIncomeCharges": -5000000.0,
+        "otherNonOperating": 101000000.0,
+        "impairment": 5000000.0,
+        "stockComp": 36000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 4584000000,
+        "revenue": 4584000000.0,
         "netIncome": 185000000,
         "opIncome": 474000000,
         "endDate": "2025-12-31",
-        "ocf": 1432000000,
-        "capex": -836000000,
-        "fcf": 596000000,
-        "pretaxIncome": 308000000,
-        "taxProvision": 75000000,
+        "ocf": 1432000000.0,
+        "capex": -836000000.0,
+        "fcf": 596000000.0,
+        "pretaxIncome": 308000000.0,
+        "taxProvision": 75000000.0,
         "normalizedIncome": 307136363.636364,
-        "unusualItems": -98000000,
-        "unusualItemsExGoodwill": -98000000,
+        "unusualItems": -98000000.0,
+        "unusualItemsExGoodwill": -98000000.0,
         "unusualTaxEffect": -23863636.363636,
-        "specialIncomeCharges": -115000000,
-        "otherNonOperating": 61000000,
-        "impairment": 155000000,
-        "stockComp": 31000000
+        "specialIncomeCharges": -115000000.0,
+        "otherNonOperating": 61000000.0,
+        "impairment": 155000000.0,
+        "stockComp": 31000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 5640000000,
+        "revenue": 5640000000.0,
         "netIncome": 980000000,
         "opIncome": 1499000000,
         "endDate": "2026-03-31",
         "eps": 2.87,
-        "ocf": 1199000000,
-        "capex": -883000000,
-        "fcf": 316000000,
-        "pretaxIncome": 1212000000,
-        "taxProvision": 183000000,
-        "normalizedIncome": 1015416000,
-        "unusualItems": 16000000,
-        "unusualItemsExGoodwill": 16000000,
-        "unusualTaxEffect": 2416000,
-        "otherNonOperating": -31000000,
-        "stockComp": 32000000
+        "ocf": 1199000000.0,
+        "capex": -883000000.0,
+        "fcf": 316000000.0,
+        "pretaxIncome": 1212000000.0,
+        "taxProvision": 183000000.0,
+        "normalizedIncome": 1015416000.0,
+        "unusualItems": 16000000.0,
+        "unusualItemsExGoodwill": 16000000.0,
+        "unusualTaxEffect": 2416000.0,
+        "otherNonOperating": -31000000.0,
+        "stockComp": 32000000.0
       },
       {
         "period": "Q2'26",
@@ -11595,19 +11597,19 @@ const FINANCIALS_DATA = {
         "opIncome": 553000000,
         "eps": 0.76,
         "endDate": "2026-06-30",
-        "ocf": 1023000000,
-        "capex": -689000000,
-        "fcf": 334000000,
-        "pretaxIncome": 427000000,
-        "taxProvision": 122000000,
-        "normalizedIncome": 300002000,
-        "unusualItems": 7000000,
-        "unusualItemsExGoodwill": 7000000,
-        "unusualTaxEffect": 2002000,
-        "specialIncomeCharges": 16000000,
-        "otherNonOperating": 131000000,
-        "impairment": 0,
-        "stockComp": 35000000
+        "ocf": 1023000000.0,
+        "capex": -689000000.0,
+        "fcf": 334000000.0,
+        "pretaxIncome": 427000000.0,
+        "taxProvision": 122000000.0,
+        "normalizedIncome": 300002000.0,
+        "unusualItems": 7000000.0,
+        "unusualItemsExGoodwill": 7000000.0,
+        "unusualTaxEffect": 2002000.0,
+        "specialIncomeCharges": 16000000.0,
+        "otherNonOperating": 131000000.0,
+        "impairment": 0.0,
+        "stockComp": 35000000.0
       }
     ],
     "_currency": "USD",
@@ -11617,105 +11619,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-30",
-        "shares": 489133516
+        "shares": 489133516.0
       },
       {
         "date": "2021-02-23",
-        "shares": 483716012
+        "shares": 483716012.0
       },
       {
         "date": "2021-05-04",
-        "shares": 482055018
+        "shares": 482055018.0
       },
       {
         "date": "2021-08-03",
-        "shares": 482518768
+        "shares": 482518768.0
       },
       {
         "date": "2021-11-02",
-        "shares": 482627520
+        "shares": 482627520.0
       },
       {
         "date": "2022-02-22",
-        "shares": 448803986
+        "shares": 448803986.0
       },
       {
         "date": "2022-05-03",
-        "shares": 431822253
+        "shares": 431822253.0
       },
       {
         "date": "2022-08-02",
-        "shares": 416348199
+        "shares": 416348199.0
       },
       {
         "date": "2022-11-01",
-        "shares": 397953513
+        "shares": 397953513.0
       },
       {
         "date": "2023-02-23",
-        "shares": 381453001
+        "shares": 381453001.0
       },
       {
         "date": "2023-05-04",
-        "shares": 373027363
+        "shares": 373027363.0
       },
       {
         "date": "2023-08-04",
-        "shares": 367570248
+        "shares": 367570248.0
       },
       {
         "date": "2023-11-02",
-        "shares": 357552337
+        "shares": 357552337.0
       },
       {
         "date": "2024-02-23",
-        "shares": 347885110
+        "shares": 347885110.0
       },
       {
         "date": "2024-05-03",
-        "shares": 347460001
+        "shares": 347460001.0
       },
       {
         "date": "2024-08-05",
-        "shares": 343561403
+        "shares": 343561403.0
       },
       {
         "date": "2024-11-04",
-        "shares": 340226219
+        "shares": 340226219.0
       },
       {
         "date": "2025-02-24",
-        "shares": 338963642
+        "shares": 338963642.0
       },
       {
         "date": "2025-05-02",
-        "shares": 339331954
+        "shares": 339331954.0
       },
       {
         "date": "2025-08-01",
-        "shares": 338820324
+        "shares": 338820324.0
       },
       {
         "date": "2025-10-31",
-        "shares": 338825490
+        "shares": 338825490.0
       },
       {
         "date": "2026-02-18",
-        "shares": 336954256
+        "shares": 336954256.0
       },
       {
         "date": "2026-05-01",
-        "shares": 337182468
+        "shares": 337182468.0
       },
       {
         "date": "2026-08-03",
-        "shares": 335635195
+        "shares": 335635195.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -11740,8 +11742,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "ETN": {
@@ -11760,247 +11762,247 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 21390000000,
+        "revenue": 21390000000.0,
         "netIncome": 2211000000,
         "opIncome": 3675000000,
         "eps": 5.25,
-        "ocf": 3451000000,
-        "capex": -587000000,
-        "fcf": 2864000000,
+        "ocf": 3451000000.0,
+        "capex": -587000000.0,
+        "fcf": 2864000000.0,
         "endDate": "2019-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 17858000000,
-        "netIncome": 1410000000,
+        "revenue": 17858000000.0,
+        "netIncome": 1410000000.0,
         "opIncome": null,
         "eps": 3.49,
-        "ocf": 2944000000,
-        "capex": -389000000,
-        "fcf": 2555000000,
+        "ocf": 2944000000.0,
+        "capex": -389000000.0,
+        "fcf": 2555000000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 19628000000,
-        "netIncome": 2144000000,
+        "revenue": 19628000000.0,
+        "netIncome": 2144000000.0,
         "opIncome": null,
         "eps": 5.34,
-        "ocf": 2163000000,
-        "capex": -575000000,
-        "fcf": 1588000000,
+        "ocf": 2163000000.0,
+        "capex": -575000000.0,
+        "fcf": 1588000000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true,
-        "unusualItems": 617000000,
-        "unusualItemsExGoodwill": 617000000,
-        "specialIncomeCharges": 617000000
+        "unusualItems": 617000000.0,
+        "unusualItemsExGoodwill": 617000000.0,
+        "specialIncomeCharges": 617000000.0
       },
       {
         "period": "2022",
-        "revenue": 20752000000,
-        "netIncome": 2462000000,
-        "opIncome": null,
+        "revenue": 20752000000.0,
+        "netIncome": 2462000000.0,
+        "opIncome": 2995000000.0,
         "eps": 6.14,
         "ocf": 2533000000,
-        "capex": -598000000,
-        "fcf": 1935000000,
+        "capex": -598000000.0,
+        "fcf": 1935000000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 2911000000,
-        "taxProvision": 445000000,
-        "normalizedIncome": 2441672000,
-        "unusualItems": 24000000,
-        "unusualItemsExGoodwill": 24000000,
-        "unusualTaxEffect": 3672000,
-        "specialIncomeCharges": 24000000,
-        "otherNonOperating": 36000000
+        "pretaxIncome": 2911000000.0,
+        "taxProvision": 445000000.0,
+        "normalizedIncome": 2441672000.0,
+        "unusualItems": 24000000.0,
+        "unusualItemsExGoodwill": 24000000.0,
+        "unusualTaxEffect": 3672000.0,
+        "specialIncomeCharges": 24000000.0,
+        "otherNonOperating": 36000000.0
       },
       {
         "period": "2023",
-        "revenue": 23196000000,
-        "netIncome": 3218000000,
-        "opIncome": null,
+        "revenue": 23196000000.0,
+        "netIncome": 3218000000.0,
+        "opIncome": 3885000000.0,
         "eps": 8.02,
         "ocf": 3624000000,
         "capex": -757000000,
-        "fcf": 2867000000,
+        "fcf": 2867000000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 3827000000,
-        "taxProvision": 604000000,
-        "normalizedIncome": 3218000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 93000000
+        "pretaxIncome": 3827000000.0,
+        "taxProvision": 604000000.0,
+        "normalizedIncome": 3218000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 93000000.0
       },
       {
         "period": "2024",
-        "revenue": 24878000000,
-        "netIncome": 3794000000,
-        "opIncome": null,
+        "revenue": 24878000000.0,
+        "netIncome": 3794000000.0,
+        "opIncome": 4632000000.0,
         "eps": 9.5,
         "ocf": 4327000000,
         "capex": -808000000,
-        "fcf": 3519000000,
+        "fcf": 3519000000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4566000000,
-        "taxProvision": 768000000,
-        "normalizedIncome": 3794000000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 64000000
+        "pretaxIncome": 4566000000.0,
+        "taxProvision": 768000000.0,
+        "normalizedIncome": 3794000000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 64000000.0
       },
       {
         "period": "2025",
-        "revenue": 27448000000,
-        "netIncome": 4087000000,
-        "opIncome": null,
+        "revenue": 27448000000.0,
+        "netIncome": 4087000000.0,
+        "opIncome": 5209000000.0,
         "eps": 10.45,
         "ocf": 4472000000,
         "capex": -919000000,
-        "fcf": 3553000000,
+        "fcf": 3553000000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 4932000000,
-        "taxProvision": 841000000,
-        "normalizedIncome": 4087000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -37000000
+        "pretaxIncome": 4932000000.0,
+        "taxProvision": 841000000.0,
+        "normalizedIncome": 4087000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -37000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 5880000000,
-        "netIncome": 891000000,
+        "revenue": 5880000000.0,
+        "netIncome": 891000000.0,
         "opIncome": null,
         "endDate": "2023-09-30",
         "eps": 2.22
       },
       {
         "period": "Q4'23",
-        "revenue": 5967000000,
-        "netIncome": 945000000,
+        "revenue": 5967000000.0,
+        "netIncome": 945000000.0,
         "opIncome": null,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 5943000000,
-        "netIncome": 821000000,
+        "revenue": 5943000000.0,
+        "netIncome": 821000000.0,
         "opIncome": null,
         "endDate": "2024-03-31",
         "eps": 2.04
       },
       {
         "period": "Q2'24",
-        "revenue": 6350000000,
-        "netIncome": 993000000,
+        "revenue": 6350000000.0,
+        "netIncome": 993000000.0,
         "opIncome": null,
         "endDate": "2024-06-30",
         "eps": 2.48
       },
       {
         "period": "Q3'24",
-        "revenue": 6345000000,
-        "netIncome": 1009000000,
+        "revenue": 6345000000.0,
+        "netIncome": 1009000000.0,
         "opIncome": null,
         "endDate": "2024-09-30",
         "eps": 2.53
       },
       {
         "period": "Q4'24",
-        "revenue": 6240000000,
-        "netIncome": 971000000,
+        "revenue": 6240000000.0,
+        "netIncome": 971000000.0,
         "opIncome": null,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 6377000000,
-        "netIncome": 964000000,
-        "opIncome": 1201000000,
+        "revenue": 6377000000.0,
+        "netIncome": 964000000.0,
+        "opIncome": 1201000000.0,
         "endDate": "2025-03-31",
         "eps": 2.45,
-        "ocf": 238000000,
-        "capex": -147000000,
-        "fcf": 91000000,
-        "pretaxIncome": 1177000000,
-        "taxProvision": 212000000,
-        "normalizedIncome": 964000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 9000000
+        "ocf": 238000000.0,
+        "capex": -147000000.0,
+        "fcf": 91000000.0,
+        "pretaxIncome": 1177000000.0,
+        "taxProvision": 212000000.0,
+        "normalizedIncome": 964000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 9000000.0
       },
       {
         "period": "Q2'25",
         "revenue": 7028000000,
         "netIncome": 982000000,
-        "opIncome": 1256000000,
+        "opIncome": 1256000000.0,
         "endDate": "2025-06-30",
         "eps": 2.51,
-        "ocf": 918000000,
-        "capex": -202000000,
-        "fcf": 716000000,
-        "pretaxIncome": 1186000000,
-        "taxProvision": 203000000,
-        "normalizedIncome": 982000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 1000000
+        "ocf": 918000000.0,
+        "capex": -202000000.0,
+        "fcf": 716000000.0,
+        "pretaxIncome": 1186000000.0,
+        "taxProvision": 203000000.0,
+        "normalizedIncome": 982000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 1000000.0
       },
       {
         "period": "Q3'25",
         "revenue": 6988000000,
-        "netIncome": 1010000000,
-        "opIncome": 1367000000,
+        "netIncome": 1010000000.0,
+        "opIncome": 1367000000.0,
         "endDate": "2025-09-30",
         "eps": 2.59,
-        "ocf": 1351000000,
-        "capex": -178000000,
-        "fcf": 1173000000,
-        "pretaxIncome": 1275000000,
-        "taxProvision": 264000000,
-        "normalizedIncome": 1010000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -25000000
+        "ocf": 1351000000.0,
+        "capex": -178000000.0,
+        "fcf": 1173000000.0,
+        "pretaxIncome": 1275000000.0,
+        "taxProvision": 264000000.0,
+        "normalizedIncome": 1010000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -25000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 7055000000,
-        "netIncome": 1132000000,
-        "opIncome": 1386000000,
+        "revenue": 7055000000.0,
+        "netIncome": 1132000000.0,
+        "opIncome": 1386000000.0,
         "endDate": "2025-12-31",
         "eps": 2.91,
-        "ocf": 1965000000,
-        "capex": -392000000,
-        "fcf": 1573000000,
-        "pretaxIncome": 1295000000,
-        "taxProvision": 161000000,
-        "normalizedIncome": 1132000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -22000000
+        "ocf": 1965000000.0,
+        "capex": -392000000.0,
+        "fcf": 1573000000.0,
+        "pretaxIncome": 1295000000.0,
+        "taxProvision": 161000000.0,
+        "normalizedIncome": 1132000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -22000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 7451000000,
-        "netIncome": 866000000,
-        "opIncome": 1172000000,
+        "revenue": 7451000000.0,
+        "netIncome": 866000000.0,
+        "opIncome": 1172000000.0,
         "endDate": "2026-03-31",
         "eps": 2.22,
-        "ocf": 507000000,
-        "capex": -193000000,
-        "fcf": 314000000,
-        "pretaxIncome": 1107000000,
-        "taxProvision": 240000000,
-        "normalizedIncome": 866000000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 41000000
+        "ocf": 507000000.0,
+        "capex": -193000000.0,
+        "fcf": 314000000.0,
+        "pretaxIncome": 1107000000.0,
+        "taxProvision": 240000000.0,
+        "normalizedIncome": 866000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 41000000.0
       },
       {
         "period": "Q2'26",
@@ -12017,105 +12019,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-09-30",
-        "shares": 398600000
+        "shares": 398600000.0
       },
       {
         "date": "2021-01-31",
-        "shares": 398100000
+        "shares": 398100000.0
       },
       {
         "date": "2021-03-31",
-        "shares": 398500000
+        "shares": 398500000.0
       },
       {
         "date": "2021-06-30",
-        "shares": 398600000
+        "shares": 398600000.0
       },
       {
         "date": "2021-09-30",
-        "shares": 398600000
+        "shares": 398600000.0
       },
       {
         "date": "2022-01-31",
-        "shares": 398800000
+        "shares": 398800000.0
       },
       {
         "date": "2022-03-31",
-        "shares": 399000000
+        "shares": 399000000.0
       },
       {
         "date": "2022-06-30",
-        "shares": 398300000
+        "shares": 398300000.0
       },
       {
         "date": "2022-09-30",
-        "shares": 397700000
+        "shares": 397700000.0
       },
       {
         "date": "2023-01-31",
-        "shares": 398000000
+        "shares": 398000000.0
       },
       {
         "date": "2023-03-31",
-        "shares": 398600000
+        "shares": 398600000.0
       },
       {
         "date": "2023-06-30",
-        "shares": 399000000
+        "shares": 399000000.0
       },
       {
         "date": "2023-09-30",
-        "shares": 399300000
+        "shares": 399300000.0
       },
       {
         "date": "2024-01-31",
-        "shares": 399500000
+        "shares": 399500000.0
       },
       {
         "date": "2024-03-31",
-        "shares": 399800000
+        "shares": 399800000.0
       },
       {
         "date": "2024-06-30",
-        "shares": 398100000
+        "shares": 398100000.0
       },
       {
         "date": "2024-09-30",
-        "shares": 395200000
+        "shares": 395200000.0
       },
       {
         "date": "2025-01-31",
-        "shares": 392000000
+        "shares": 392000000.0
       },
       {
         "date": "2025-03-31",
-        "shares": 391300000
+        "shares": 391300000.0
       },
       {
         "date": "2025-06-30",
-        "shares": 389300000
+        "shares": 389300000.0
       },
       {
         "date": "2025-09-30",
-        "shares": 388400000
+        "shares": 388400000.0
       },
       {
         "date": "2026-01-31",
-        "shares": 387900000
+        "shares": 387900000.0
       },
       {
         "date": "2026-03-31",
-        "shares": 388300000
+        "shares": 388300000.0
       },
       {
         "date": "2026-06-30",
-        "shares": 388400000
+        "shares": 388400000.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12140,17 +12142,17 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
     "annual": [
       {
         "period": "2018",
-        "revenue": 11171423000,
+        "revenue": 11171423000.0,
         "netIncome": 293346000,
-        "opIncome": 540269000,
+        "opIncome": 540269000.0,
         "eps": 1.9,
         "ocf": 358789000,
         "capex": -293595000,
@@ -12160,9 +12162,9 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 12112153000,
+        "revenue": 12112153000.0,
         "netIncome": 402044000,
-        "opIncome": 554874000,
+        "opIncome": 554874000.0,
         "eps": 2.73,
         "ocf": 526551000,
         "capex": -261762000,
@@ -12172,255 +12174,255 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 11202672000,
-        "netIncome": 445596000,
-        "opIncome": 611371000,
+        "revenue": 11202672000.0,
+        "netIncome": 445596000.0,
+        "opIncome": 611371000.0,
         "eps": 3.07,
-        "ocf": 1115977000,
-        "capex": -260052000,
-        "fcf": 855925000,
+        "ocf": 1115977000.0,
+        "capex": -260052000.0,
+        "fcf": 855925000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 12980213000,
-        "netIncome": 485956000,
-        "opIncome": 663521000,
+        "revenue": 12980213000.0,
+        "netIncome": 485956000.0,
+        "opIncome": 663521000.0,
         "eps": 3.34,
-        "ocf": 582390000,
-        "capex": -385852000,
-        "fcf": 196538000,
+        "ocf": 582390000.0,
+        "capex": -385852000.0,
+        "fcf": 196538000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true,
-        "impairment": 5743000
+        "impairment": 5743000.0
       },
       {
         "period": "2022",
-        "revenue": 17073903000,
+        "revenue": 17073903000.0,
         "netIncome": 491189000,
-        "opIncome": 872058000,
+        "opIncome": 872058000.0,
         "eps": 3.32,
         "ocf": 1130312000,
         "capex": -427630000,
-        "fcf": 702682000,
+        "fcf": 702682000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 703886000,
-        "taxProvision": 192243000,
+        "pretaxIncome": 703886000.0,
+        "taxProvision": 192243000.0,
         "normalizedIncome": 504911830.397252,
-        "unusualItems": -18879000,
-        "unusualItemsExGoodwill": -18879000,
+        "unusualItems": -18879000.0,
+        "unusualItemsExGoodwill": -18879000.0,
         "unusualTaxEffect": -5156169.602748,
-        "otherNonOperating": -46415000,
-        "impairment": 14457000,
-        "restructuring": 4422000,
-        "stockComp": 105600000
+        "otherNonOperating": -46415000.0,
+        "impairment": 14457000.0,
+        "restructuring": 4422000.0,
+        "stockComp": 105600000.0
       },
       {
         "period": "2023",
-        "revenue": 20882206000,
+        "revenue": 20882206000.0,
         "netIncome": 744689000,
-        "opIncome": 1127976000,
+        "opIncome": 1127976000.0,
         "eps": 5,
         "ocf": 1575952000,
         "capex": -434803000,
-        "fcf": 1141149000,
+        "fcf": 1141149000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 969956000,
-        "taxProvision": 219267000,
+        "pretaxIncome": 969956000.0,
+        "taxProvision": 219267000.0,
         "normalizedIncome": 749772246.407054,
-        "unusualItems": -6568000,
-        "unusualItemsExGoodwill": -6568000,
+        "unusualItems": -6568000.0,
+        "unusualItemsExGoodwill": -6568000.0,
         "unusualTaxEffect": -1484753.592946,
-        "otherNonOperating": 18063000,
-        "impairment": 0,
-        "restructuring": 6568000,
-        "stockComp": 126762000
+        "otherNonOperating": 18063000.0,
+        "impairment": 0.0,
+        "restructuring": 6568000.0,
+        "stockComp": 126762000.0
       },
       {
         "period": "2024",
-        "revenue": 23672795000,
+        "revenue": 23672795000.0,
         "netIncome": 904824000,
-        "opIncome": 1346468000,
+        "opIncome": 1346468000.0,
         "eps": 6.03,
         "ocf": 2081196000,
         "capex": -604078000,
-        "fcf": 1477118000,
+        "fcf": 1477118000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1212030000,
-        "taxProvision": 284747000,
-        "normalizedIncome": 910227960,
-        "unusualItems": -7064000,
-        "unusualItemsExGoodwill": -7064000,
-        "unusualTaxEffect": -1660040,
-        "otherNonOperating": 35845000,
-        "impairment": 0,
-        "restructuring": 7064000,
-        "stockComp": 150526000
+        "pretaxIncome": 1212030000.0,
+        "taxProvision": 284747000.0,
+        "normalizedIncome": 910227960.0,
+        "unusualItems": -7064000.0,
+        "unusualItemsExGoodwill": -7064000.0,
+        "unusualTaxEffect": -1660040.0,
+        "otherNonOperating": 35845000.0,
+        "impairment": 0.0,
+        "restructuring": 7064000.0,
+        "stockComp": 150526000.0
       },
       {
         "period": "2025",
-        "revenue": 28479697000,
+        "revenue": 28479697000.0,
         "netIncome": 1028378000,
-        "opIncome": 1611509000,
+        "opIncome": 1611509000.0,
         "eps": 6.8,
         "ocf": 2229970000,
         "capex": -609154000,
-        "fcf": 1620816000,
+        "fcf": 1620816000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1389505000,
-        "taxProvision": 347588000,
-        "normalizedIncome": 1051780250,
-        "unusualItems": -31203000,
-        "unusualItemsExGoodwill": -31203000,
-        "unusualTaxEffect": -7800750,
-        "otherNonOperating": 23739000,
-        "restructuring": 31203000,
-        "stockComp": 181947000
+        "pretaxIncome": 1389505000.0,
+        "taxProvision": 347588000.0,
+        "normalizedIncome": 1051780250.0,
+        "unusualItems": -31203000.0,
+        "unusualItemsExGoodwill": -31203000.0,
+        "unusualTaxEffect": -7800750.0,
+        "otherNonOperating": 23739000.0,
+        "restructuring": 31203000.0,
+        "stockComp": 181947000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 5620822000,
+        "revenue": 5620822000.0,
         "netIncome": 272836000,
-        "opIncome": 400329000,
+        "opIncome": 400329000.0,
         "endDate": "2023-09-30",
         "eps": 1.83
       },
       {
         "period": "Q4'23",
-        "revenue": 5783948000,
+        "revenue": 5783948000.0,
         "netIncome": 210908000,
-        "opIncome": 322514000,
+        "opIncome": 322514000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 5031819000,
+        "revenue": 5031819000.0,
         "netIncome": 118360000,
-        "opIncome": 155354000,
+        "opIncome": 155354000.0,
         "endDate": "2024-03-31",
         "eps": 0.79
       },
       {
         "period": "Q2'24",
-        "revenue": 5594387000,
+        "revenue": 5594387000.0,
         "netIncome": 188159000,
-        "opIncome": 307230000,
+        "opIncome": 307230000.0,
         "endDate": "2024-06-30",
         "eps": 1.26
       },
       {
         "period": "Q3'24",
-        "revenue": 6493167000,
+        "revenue": 6493167000.0,
         "netIncome": 293185000,
-        "opIncome": 431161000,
+        "opIncome": 431161000.0,
         "endDate": "2024-09-30",
         "eps": 1.95
       },
       {
         "period": "Q4'24",
-        "revenue": 6553422000,
+        "revenue": 6553422000.0,
         "netIncome": 305120000,
-        "opIncome": 452723000,
+        "opIncome": 452723000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 6233334000,
+        "revenue": 6233334000.0,
         "netIncome": 144258000,
-        "opIncome": 239081000,
+        "opIncome": 239081000.0,
         "endDate": "2025-03-31",
         "eps": 0.96
       },
       {
         "period": "Q2'25",
-        "revenue": 6773007000,
+        "revenue": 6773007000.0,
         "netIncome": 229250000,
-        "opIncome": 370282000,
+        "opIncome": 370282000.0,
         "endDate": "2025-06-30",
         "eps": 1.52,
-        "ocf": 295711000,
-        "capex": -140349000,
-        "fcf": 155362000,
-        "pretaxIncome": 318623000,
-        "taxProvision": 85100000,
+        "ocf": 295711000.0,
+        "capex": -140349000.0,
+        "fcf": 155362000.0,
+        "pretaxIncome": 318623000.0,
+        "taxProvision": 85100000.0,
         "normalizedIncome": 236727913.298789,
-        "unusualItems": -10203000,
-        "unusualItemsExGoodwill": -10203000,
+        "unusualItems": -10203000.0,
+        "unusualItemsExGoodwill": -10203000.0,
         "unusualTaxEffect": -2725086.701211,
-        "specialIncomeCharges": -10203000,
-        "otherNonOperating": 4138000,
-        "restructuring": 10203000,
-        "stockComp": 44071000
+        "specialIncomeCharges": -10203000.0,
+        "otherNonOperating": 4138000.0,
+        "restructuring": 10203000.0,
+        "stockComp": 44071000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 7631408000,
+        "revenue": 7631408000.0,
         "netIncome": 339420000,
-        "opIncome": 517217000,
+        "opIncome": 517217000.0,
         "endDate": "2025-09-30",
         "eps": 2.24,
-        "ocf": 563496000,
-        "capex": -142449000,
-        "fcf": 421047000,
-        "pretaxIncome": 462444000,
-        "taxProvision": 119605000,
-        "normalizedIncome": 344461023,
-        "unusualItems": -6803000,
-        "unusualItemsExGoodwill": -6803000,
-        "unusualTaxEffect": -1761977,
-        "specialIncomeCharges": -6803000,
-        "otherNonOperating": 13311000,
-        "restructuring": 6803000,
-        "stockComp": 46899000
+        "ocf": 563496000.0,
+        "capex": -142449000.0,
+        "fcf": 421047000.0,
+        "pretaxIncome": 462444000.0,
+        "taxProvision": 119605000.0,
+        "normalizedIncome": 344461023.0,
+        "unusualItems": -6803000.0,
+        "unusualItemsExGoodwill": -6803000.0,
+        "unusualTaxEffect": -1761977.0,
+        "specialIncomeCharges": -6803000.0,
+        "otherNonOperating": 13311000.0,
+        "restructuring": 6803000.0,
+        "stockComp": 46899000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 7841948000,
+        "revenue": 7841948000.0,
         "netIncome": 315450000,
-        "opIncome": 484929000,
+        "opIncome": 484929000.0,
         "endDate": "2025-12-31",
         "eps": 2.08,
-        "ocf": 1127565000,
-        "capex": -193594000,
-        "fcf": 933971000,
-        "pretaxIncome": 419589000,
-        "taxProvision": 103003000,
+        "ocf": 1127565000.0,
+        "capex": -193594000.0,
+        "fcf": 933971000.0,
+        "pretaxIncome": 419589000.0,
+        "taxProvision": 103003000.0,
         "normalizedIncome": 322874423.042549,
-        "unusualItems": -9840000,
-        "unusualItemsExGoodwill": -9840000,
+        "unusualItems": -9840000.0,
+        "unusualItemsExGoodwill": -9840000.0,
         "unusualTaxEffect": -2415576.957451,
-        "specialIncomeCharges": -9840000,
-        "otherNonOperating": 6051000,
-        "restructuring": 9840000,
-        "stockComp": 52826000
+        "specialIncomeCharges": -9840000.0,
+        "otherNonOperating": 6051000.0,
+        "restructuring": 9840000.0,
+        "stockComp": 52826000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 7874787000,
+        "revenue": 7874787000.0,
         "netIncome": 220625000,
-        "opIncome": 338779000,
+        "opIncome": 338779000.0,
         "endDate": "2026-03-31",
         "eps": 1.45,
-        "ocf": 391744000,
-        "capex": -220093000,
-        "fcf": 171651000,
-        "pretaxIncome": 256356000,
-        "taxProvision": 24925000,
-        "normalizedIncome": 229575536,
-        "unusualItems": -9912000,
-        "unusualItemsExGoodwill": -9912000,
-        "unusualTaxEffect": -961464,
-        "specialIncomeCharges": -9912000,
-        "otherNonOperating": -12064000,
-        "restructuring": 9912000,
-        "stockComp": 62634000
+        "ocf": 391744000.0,
+        "capex": -220093000.0,
+        "fcf": 171651000.0,
+        "pretaxIncome": 256356000.0,
+        "taxProvision": 24925000.0,
+        "normalizedIncome": 229575536.0,
+        "unusualItems": -9912000.0,
+        "unusualItemsExGoodwill": -9912000.0,
+        "unusualTaxEffect": -961464.0,
+        "specialIncomeCharges": -9912000.0,
+        "otherNonOperating": -12064000.0,
+        "restructuring": 9912000.0,
+        "stockComp": 62634000.0
       },
       {
         "period": "Q2'26",
@@ -12429,19 +12431,19 @@ const FINANCIALS_DATA = {
         "opIncome": 694834000,
         "eps": 2.96,
         "endDate": "2026-06-30",
-        "ocf": 1095444000,
-        "capex": -230955000,
-        "fcf": 864489000,
-        "pretaxIncome": 617163000,
-        "taxProvision": 157584000,
-        "normalizedIncome": 456213815,
-        "unusualItems": -6487000,
-        "unusualItemsExGoodwill": -6487000,
-        "unusualTaxEffect": -1654185,
-        "specialIncomeCharges": -6487000,
-        "otherNonOperating": -7430000,
-        "restructuring": 6487000,
-        "stockComp": 63379000
+        "ocf": 1095444000.0,
+        "capex": -230955000.0,
+        "fcf": 864489000.0,
+        "pretaxIncome": 617163000.0,
+        "taxProvision": 157584000.0,
+        "normalizedIncome": 456213815.0,
+        "unusualItems": -6487000.0,
+        "unusualItemsExGoodwill": -6487000.0,
+        "unusualTaxEffect": -1654185.0,
+        "specialIncomeCharges": -6487000.0,
+        "otherNonOperating": -7430000.0,
+        "restructuring": 6487000.0,
+        "stockComp": 63379000.0
       }
     ],
     "_currency": "USD",
@@ -12451,105 +12453,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-27",
-        "shares": 138860900
+        "shares": 138860900.0
       },
       {
         "date": "2021-02-23",
-        "shares": 138365007
+        "shares": 138365007.0
       },
       {
         "date": "2021-05-04",
-        "shares": 139346092
+        "shares": 139346092.0
       },
       {
         "date": "2021-08-03",
-        "shares": 139152345
+        "shares": 139152345.0
       },
       {
         "date": "2021-11-02",
-        "shares": 142499280
+        "shares": 142499280.0
       },
       {
         "date": "2022-02-22",
-        "shares": 142690314
+        "shares": 142690314.0
       },
       {
         "date": "2022-05-02",
-        "shares": 143709009
+        "shares": 143709009.0
       },
       {
         "date": "2022-08-02",
-        "shares": 143022957
+        "shares": 143022957.0
       },
       {
         "date": "2022-11-01",
-        "shares": 142901156
+        "shares": 142901156.0
       },
       {
         "date": "2023-02-21",
-        "shares": 144000522
+        "shares": 144000522.0
       },
       {
         "date": "2023-05-02",
-        "shares": 145175564
+        "shares": 145175564.0
       },
       {
         "date": "2023-07-28",
-        "shares": 145198975
+        "shares": 145198975.0
       },
       {
         "date": "2023-10-27",
-        "shares": 145284890
+        "shares": 145284890.0
       },
       {
         "date": "2024-02-19",
-        "shares": 145748976
+        "shares": 145748976.0
       },
       {
         "date": "2024-04-29",
-        "shares": 146388455
+        "shares": 146388455.0
       },
       {
         "date": "2024-07-29",
-        "shares": 147329779
+        "shares": 147329779.0
       },
       {
         "date": "2024-10-28",
-        "shares": 147611595
+        "shares": 147611595.0
       },
       {
         "date": "2025-02-17",
-        "shares": 148198321
+        "shares": 148198321.0
       },
       {
         "date": "2025-04-28",
-        "shares": 148198715
+        "shares": 148198715.0
       },
       {
         "date": "2025-07-28",
-        "shares": 149005943
+        "shares": 149005943.0
       },
       {
         "date": "2025-10-27",
-        "shares": 149115887
+        "shares": 149115887.0
       },
       {
         "date": "2026-02-16",
-        "shares": 149619428
+        "shares": 149619428.0
       },
       {
         "date": "2026-04-27",
-        "shares": 150060149
+        "shares": 150060149.0
       },
       {
         "date": "2026-07-27",
-        "shares": 150343393
+        "shares": 150343393.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -12574,8 +12576,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "HUBB": {
@@ -12610,7 +12612,7 @@ const FINANCIALS_DATA = {
         "netIncome": 350000000,
         "opIncome": 494500000,
         "eps": 6.43,
-        "ocf": 648000000,
+        "ocf": 648000000.0,
         "capex": -82800000,
         "fcf": 565200000,
         "endDate": "2020-12-31",
@@ -12618,128 +12620,128 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 4194100000,
+        "revenue": 4194100000.0,
         "netIncome": 398300000,
-        "opIncome": 532300000,
+        "opIncome": 532300000.0,
         "eps": 7.28,
-        "ocf": 513700000,
-        "capex": -90200000,
-        "fcf": 423500000,
+        "ocf": 513700000.0,
+        "capex": -90200000.0,
+        "fcf": 423500000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 4947900000,
+        "revenue": 4947900000.0,
         "netIncome": 544500000,
-        "opIncome": 709100000,
+        "opIncome": 709100000.0,
         "eps": 10.07,
         "ocf": 636200000,
-        "capex": -129300000,
-        "fcf": 453900000,
+        "capex": -129300000.0,
+        "fcf": 453900000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 657000000,
-        "taxProvision": 140200000,
-        "normalizedIncome": 511300000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -2500000,
-        "stockComp": 24500000
+        "pretaxIncome": 657000000.0,
+        "taxProvision": 140200000.0,
+        "normalizedIncome": 511300000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -2500000.0,
+        "stockComp": 24500000.0
       },
       {
         "period": "2023",
-        "revenue": 5372900000,
+        "revenue": 5372900000.0,
         "netIncome": 749600000,
         "opIncome": 1027400000,
         "eps": 13.89,
         "ocf": 880800000,
-        "capex": -165700000,
-        "fcf": 715100000,
+        "capex": -165700000.0,
+        "fcf": 715100000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 972200000,
-        "taxProvision": 214600000,
-        "normalizedIncome": 751400000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -18500000,
-        "stockComp": 26500000
+        "pretaxIncome": 972200000.0,
+        "taxProvision": 214600000.0,
+        "normalizedIncome": 751400000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -18500000.0,
+        "stockComp": 26500000.0
       },
       {
         "period": "2024",
-        "revenue": 5628500000,
+        "revenue": 5628500000.0,
         "netIncome": 777500000,
         "opIncome": 1093100000,
         "eps": 14.39,
         "ocf": 991200000,
-        "capex": -180400000,
-        "fcf": 810800000,
+        "capex": -180400000.0,
+        "fcf": 810800000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1006800000,
-        "taxProvision": 222100000,
-        "normalizedIncome": 783128700,
-        "unusualItems": -5300000,
-        "unusualItemsExGoodwill": -5300000,
-        "unusualTaxEffect": -1171300,
-        "specialIncomeCharges": -5300000,
-        "otherNonOperating": -7200000,
-        "stockComp": 30600000
+        "pretaxIncome": 1006800000.0,
+        "taxProvision": 222100000.0,
+        "normalizedIncome": 783128700.0,
+        "unusualItems": -5300000.0,
+        "unusualItemsExGoodwill": -5300000.0,
+        "unusualTaxEffect": -1171300.0,
+        "specialIncomeCharges": -5300000.0,
+        "otherNonOperating": -7200000.0,
+        "stockComp": 30600000.0
       },
       {
         "period": "2025",
-        "revenue": 5844600000,
+        "revenue": 5844600000.0,
         "netIncome": 885600000,
-        "opIncome": 1208800000,
+        "opIncome": 1208800000.0,
         "eps": 16.54,
         "ocf": 1029800000,
-        "capex": -155100000,
-        "fcf": 874700000,
+        "capex": -155100000.0,
+        "fcf": 874700000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1119100000,
-        "taxProvision": 227200000,
-        "normalizedIncome": 887418800,
-        "unusualItems": -400000,
-        "unusualItemsExGoodwill": -400000,
-        "unusualTaxEffect": -81200,
-        "specialIncomeCharges": -400000,
-        "otherNonOperating": -25200000,
-        "stockComp": 33000000
+        "pretaxIncome": 1119100000.0,
+        "taxProvision": 227200000.0,
+        "normalizedIncome": 887418800.0,
+        "unusualItems": -400000.0,
+        "unusualItemsExGoodwill": -400000.0,
+        "unusualTaxEffect": -81200.0,
+        "specialIncomeCharges": -400000.0,
+        "otherNonOperating": -25200000.0,
+        "stockComp": 33000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1375800000,
+        "revenue": 1375800000.0,
         "netIncome": 199600000,
-        "opIncome": 276300000,
+        "opIncome": 276300000.0,
         "endDate": "2023-09-30",
         "eps": 3.7
       },
       {
         "period": "Q4'23",
-        "revenue": 1345800000,
+        "revenue": 1345800000.0,
         "netIncome": 162200000,
         "opIncome": 214500000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 1399100000,
+        "revenue": 1399100000.0,
         "netIncome": 147500000,
-        "opIncome": 228500000,
+        "opIncome": 228500000.0,
         "endDate": "2024-03-31",
         "eps": 2.73
       },
       {
         "period": "Q2'24",
-        "revenue": 1452500000,
+        "revenue": 1452500000.0,
         "netIncome": 217100000,
         "opIncome": 306300000,
         "endDate": "2024-06-30",
@@ -12747,7 +12749,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 1442600000,
+        "revenue": 1442600000.0,
         "netIncome": 225800000,
         "opIncome": 312700000,
         "endDate": "2024-09-30",
@@ -12755,120 +12757,120 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 1334300000,
+        "revenue": 1334300000.0,
         "netIncome": 197800000,
         "opIncome": 259700000,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 1365200000,
+        "revenue": 1365200000.0,
         "netIncome": 162900000,
         "opIncome": 230400000,
         "endDate": "2025-03-31",
         "eps": 3.03,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "specialIncomeCharges": 0
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "Q2'25",
-        "revenue": 1484300000,
+        "revenue": 1484300000.0,
         "netIncome": 243800000,
         "opIncome": 336300000,
         "endDate": "2025-06-30",
         "eps": 4.56,
-        "ocf": 260600000,
-        "capex": -39900000,
-        "fcf": 220700000,
-        "pretaxIncome": 315200000,
-        "taxProvision": 69700000,
+        "ocf": 260600000.0,
+        "capex": -39900000.0,
+        "fcf": 220700000.0,
+        "pretaxIncome": 315200000.0,
+        "taxProvision": 69700000.0,
         "normalizedIncome": 244511548.22335,
-        "unusualItems": -400000,
-        "unusualItemsExGoodwill": -400000,
+        "unusualItems": -400000.0,
+        "unusualItemsExGoodwill": -400000.0,
         "unusualTaxEffect": -88451.77665,
-        "specialIncomeCharges": -400000,
-        "otherNonOperating": -6200000,
-        "stockComp": 6300000
+        "specialIncomeCharges": -400000.0,
+        "otherNonOperating": -6200000.0,
+        "stockComp": 6300000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 1502400000,
+        "revenue": 1502400000.0,
         "netIncome": 255100000,
-        "opIncome": 330600000,
+        "opIncome": 330600000.0,
         "endDate": "2025-09-30",
         "eps": 4.77,
-        "ocf": 284300000,
-        "capex": -30500000,
-        "fcf": 253800000,
-        "pretaxIncome": 311100000,
-        "taxProvision": 54400000,
-        "normalizedIncome": 255500000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -5900000,
-        "stockComp": 6300000
+        "ocf": 284300000.0,
+        "capex": -30500000.0,
+        "fcf": 253800000.0,
+        "pretaxIncome": 311100000.0,
+        "taxProvision": 54400000.0,
+        "normalizedIncome": 255500000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -5900000.0,
+        "stockComp": 6300000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 1492700000,
+        "revenue": 1492700000.0,
         "netIncome": 223800000,
-        "opIncome": 311500000,
+        "opIncome": 311500000.0,
         "endDate": "2025-12-31",
         "eps": 4.19,
-        "ocf": 447500000,
-        "capex": -58700000,
-        "fcf": 388800000,
-        "pretaxIncome": 281500000,
-        "taxProvision": 56300000,
-        "normalizedIncome": 224200000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -7800000,
-        "stockComp": 6000000
+        "ocf": 447500000.0,
+        "capex": -58700000.0,
+        "fcf": 388800000.0,
+        "pretaxIncome": 281500000.0,
+        "taxProvision": 56300000.0,
+        "normalizedIncome": 224200000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -7800000.0,
+        "stockComp": 6000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 1516700000,
+        "revenue": 1516700000.0,
         "netIncome": 181600000,
-        "opIncome": 263800000,
+        "opIncome": 263800000.0,
         "endDate": "2026-03-31",
         "eps": 3.41,
-        "ocf": 86600000,
-        "capex": -40600000,
-        "fcf": 46000000,
-        "pretaxIncome": 236400000,
-        "taxProvision": 53400000,
-        "normalizedIncome": 181800000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": -5400000,
-        "stockComp": 14400000
+        "ocf": 86600000.0,
+        "capex": -40600000.0,
+        "fcf": 46000000.0,
+        "pretaxIncome": 236400000.0,
+        "taxProvision": 53400000.0,
+        "normalizedIncome": 181800000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -5400000.0,
+        "stockComp": 14400000.0
       },
       {
         "period": "Q2'26",
         "endDate": "2026-06-30",
-        "revenue": 1711800000,
-        "netIncome": 240400000,
-        "opIncome": 348600000,
+        "revenue": 1711800000.0,
+        "netIncome": 240400000.0,
+        "opIncome": 348600000.0,
         "eps": 4.52,
-        "ocf": 249800000,
-        "capex": -37000000,
-        "fcf": 212800000,
-        "pretaxIncome": 303700000,
-        "taxProvision": 61500000,
-        "normalizedIncome": 240400000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -5800000,
+        "ocf": 249800000.0,
+        "capex": -37000000.0,
+        "fcf": 212800000.0,
+        "pretaxIncome": 303700000.0,
+        "taxProvision": 61500000.0,
+        "normalizedIncome": 240400000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -5800000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 7500000
+        "stockComp": 7500000.0
       }
     ],
     "_currency": "USD",
@@ -12878,105 +12880,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-07-29",
-        "shares": 54228170
+        "shares": 54228170.0
       },
       {
         "date": "2020-10-26",
-        "shares": 54236468
+        "shares": 54236468.0
       },
       {
         "date": "2021-02-09",
-        "shares": 54296993
+        "shares": 54296993.0
       },
       {
         "date": "2021-04-26",
-        "shares": 54316306
+        "shares": 54316306.0
       },
       {
         "date": "2021-07-26",
-        "shares": 54380483
+        "shares": 54380483.0
       },
       {
         "date": "2021-10-22",
-        "shares": 54410883
+        "shares": 54410883.0
       },
       {
         "date": "2022-02-08",
-        "shares": 54409067
+        "shares": 54409067.0
       },
       {
         "date": "2022-04-22",
-        "shares": 53661255
+        "shares": 53661255.0
       },
       {
         "date": "2022-07-22",
-        "shares": 53677757
+        "shares": 53677757.0
       },
       {
         "date": "2022-10-21",
-        "shares": 53705829
+        "shares": 53705829.0
       },
       {
         "date": "2023-02-03",
-        "shares": 53600592
+        "shares": 53600592.0
       },
       {
         "date": "2023-04-27",
-        "shares": 53588548
+        "shares": 53588548.0
       },
       {
         "date": "2023-07-19",
-        "shares": 53631016
+        "shares": 53631016.0
       },
       {
         "date": "2023-10-25",
-        "shares": 53622050
+        "shares": 53622050.0
       },
       {
         "date": "2024-02-01",
-        "shares": 53626956
+        "shares": 53626956.0
       },
       {
         "date": "2024-04-25",
-        "shares": 53685997
+        "shares": 53685997.0
       },
       {
         "date": "2024-07-25",
-        "shares": 53680930
+        "shares": 53680930.0
       },
       {
         "date": "2024-10-24",
-        "shares": 53670549
+        "shares": 53670549.0
       },
       {
         "date": "2025-02-06",
-        "shares": 53667674
+        "shares": 53667674.0
       },
       {
         "date": "2025-04-28",
-        "shares": 53372595
+        "shares": 53372595.0
       },
       {
         "date": "2025-07-24",
-        "shares": 53140009
+        "shares": 53140009.0
       },
       {
         "date": "2025-10-23",
-        "shares": 53144752
+        "shares": 53144752.0
       },
       {
         "date": "2026-02-05",
-        "shares": 53161602
+        "shares": 53161602.0
       },
       {
         "date": "2026-04-27",
-        "shares": 52841777
+        "shares": 52841777.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13001,8 +13003,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "VRT": {
@@ -13033,251 +13035,251 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 4370600000,
+        "revenue": 4370600000.0,
         "netIncome": -327300000,
         "opIncome": 213500000,
         "eps": -1.07,
-        "ocf": 208900000,
-        "capex": -44400000,
-        "fcf": 164500000,
+        "ocf": 208900000.0,
+        "capex": -44400000.0,
+        "fcf": 164500000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 4998100000,
-        "netIncome": 119600000,
-        "opIncome": 259900000,
+        "revenue": 4998100000.0,
+        "netIncome": 119600000.0,
+        "opIncome": 259900000.0,
         "eps": 0.33,
-        "ocf": 210900000,
-        "capex": -73400000,
-        "fcf": 137500000,
+        "ocf": 210900000.0,
+        "capex": -73400000.0,
+        "fcf": 137500000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true,
-        "otherNonOperating": 59200000,
-        "impairment": 8700000
+        "otherNonOperating": 59200000.0,
+        "impairment": 8700000.0
       },
       {
         "period": "2022",
-        "revenue": 5691500000,
-        "netIncome": 76600000,
-        "opIncome": 223400000,
+        "revenue": 5691500000.0,
+        "netIncome": 76600000.0,
+        "opIncome": 223400000.0,
         "eps": -0.04,
         "ocf": -152800000,
-        "capex": -100000000,
-        "fcf": -263800000,
+        "capex": -100000000.0,
+        "fcf": -263800000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 167000000,
-        "taxProvision": 90400000,
-        "normalizedIncome": 8265000,
-        "unusualItems": 86500000,
-        "unusualItemsExGoodwill": 86500000,
-        "unusualTaxEffect": 18165000,
-        "specialIncomeCharges": -700000,
-        "impairment": 0,
-        "restructuring": 700000,
-        "stockComp": 24700000
+        "pretaxIncome": 167000000.0,
+        "taxProvision": 90400000.0,
+        "normalizedIncome": 8265000.0,
+        "unusualItems": 86500000.0,
+        "unusualItemsExGoodwill": 86500000.0,
+        "unusualTaxEffect": 18165000.0,
+        "specialIncomeCharges": -700000.0,
+        "impairment": 0.0,
+        "restructuring": 700000.0,
+        "stockComp": 24700000.0
       },
       {
         "period": "2023",
-        "revenue": 6863200000,
-        "netIncome": 460200000,
-        "opIncome": 872200000,
+        "revenue": 6863200000.0,
+        "netIncome": 460200000.0,
+        "opIncome": 872200000.0,
         "eps": 1.19,
         "ocf": 900500000,
-        "capex": -127900000,
-        "fcf": 765900000,
+        "capex": -127900000.0,
+        "fcf": 765900000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 533700000,
-        "taxProvision": 73500000,
-        "normalizedIncome": 635186000,
-        "unusualItems": -203000000,
-        "unusualItemsExGoodwill": -203000000,
-        "unusualTaxEffect": -28014000,
-        "specialIncomeCharges": -29100000,
-        "impairment": 0,
-        "restructuring": 28600000,
-        "stockComp": 25000000
+        "pretaxIncome": 533700000.0,
+        "taxProvision": 73500000.0,
+        "normalizedIncome": 635186000.0,
+        "unusualItems": -203000000.0,
+        "unusualItemsExGoodwill": -203000000.0,
+        "unusualTaxEffect": -28014000.0,
+        "specialIncomeCharges": -29100000.0,
+        "impairment": 0.0,
+        "restructuring": 28600000.0,
+        "stockComp": 25000000.0
       },
       {
         "period": "2024",
-        "revenue": 8011800000,
-        "netIncome": 495800000,
-        "opIncome": 1367400000,
+        "revenue": 8011800000.0,
+        "netIncome": 495800000.0,
+        "opIncome": 1367400000.0,
         "eps": 1.28,
         "ocf": 1319300000,
-        "capex": -167000000,
-        "fcf": 1135200000,
+        "capex": -167000000.0,
+        "fcf": 1135200000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 765400000,
-        "taxProvision": 269600000,
-        "normalizedIncome": 797897600,
-        "unusualItems": -466200000,
-        "unusualItemsExGoodwill": -466200000,
-        "unusualTaxEffect": -164102400,
-        "specialIncomeCharges": -7700000,
-        "restructuring": 5300000,
-        "stockComp": 34600000
+        "pretaxIncome": 765400000.0,
+        "taxProvision": 269600000.0,
+        "normalizedIncome": 797897600.0,
+        "unusualItems": -466200000.0,
+        "unusualItemsExGoodwill": -466200000.0,
+        "unusualTaxEffect": -164102400.0,
+        "specialIncomeCharges": -7700000.0,
+        "restructuring": 5300000.0,
+        "stockComp": 34600000.0
       },
       {
         "period": "2025",
-        "revenue": 10229900000,
-        "netIncome": 1332800000,
-        "opIncome": 1829700000,
+        "revenue": 10229900000.0,
+        "netIncome": 1332800000.0,
+        "opIncome": 1829700000.0,
         "eps": 3.41,
         "ocf": 2113800000,
-        "capex": -220000000,
-        "fcf": 1887400000,
+        "capex": -220000000.0,
+        "fcf": 1887400000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1741900000,
-        "taxProvision": 409100000,
-        "normalizedIncome": 1384973000,
-        "unusualItems": -68200000,
-        "unusualItemsExGoodwill": -68200000,
-        "unusualTaxEffect": -16027000,
-        "specialIncomeCharges": -56200000,
-        "restructuring": 54500000,
-        "stockComp": 45900000
+        "pretaxIncome": 1741900000.0,
+        "taxProvision": 409100000.0,
+        "normalizedIncome": 1384973000.0,
+        "unusualItems": -68200000.0,
+        "unusualItemsExGoodwill": -68200000.0,
+        "unusualTaxEffect": -16027000.0,
+        "specialIncomeCharges": -56200000.0,
+        "restructuring": 54500000.0,
+        "stockComp": 45900000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1742600000,
-        "netIncome": 94100000,
-        "opIncome": 250900000,
+        "revenue": 1742600000.0,
+        "netIncome": 94100000.0,
+        "opIncome": 250900000.0,
         "endDate": "2023-09-30",
         "eps": 0.24
       },
       {
         "period": "Q4'23",
-        "revenue": 1865400000,
-        "netIncome": 232600000,
-        "opIncome": 285200000,
+        "revenue": 1865400000.0,
+        "netIncome": 232600000.0,
+        "opIncome": 285200000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 1639100000,
-        "netIncome": -5900000,
-        "opIncome": 202600000,
+        "revenue": 1639100000.0,
+        "netIncome": -5900000.0,
+        "opIncome": 202600000.0,
         "endDate": "2024-03-31",
         "eps": -0.02
       },
       {
         "period": "Q2'24",
-        "revenue": 1952800000,
-        "netIncome": 178100000,
-        "opIncome": 336000000,
+        "revenue": 1952800000.0,
+        "netIncome": 178100000.0,
+        "opIncome": 336000000.0,
         "endDate": "2024-06-30",
         "eps": 0.46
       },
       {
         "period": "Q3'24",
-        "revenue": 2073500000,
-        "netIncome": 176600000,
-        "opIncome": 371600000,
+        "revenue": 2073500000.0,
+        "netIncome": 176600000.0,
+        "opIncome": 371600000.0,
         "endDate": "2024-09-30",
         "eps": 0.46
       },
       {
         "period": "Q4'24",
-        "revenue": 2346400000,
-        "netIncome": 147000000,
-        "opIncome": 457200000,
+        "revenue": 2346400000.0,
+        "netIncome": 147000000.0,
+        "opIncome": 457200000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 2036000000,
-        "netIncome": 164500000,
-        "opIncome": 290700000,
+        "revenue": 2036000000.0,
+        "netIncome": 164500000.0,
+        "opIncome": 290700000.0,
         "endDate": "2025-03-31",
         "eps": 0.42
       },
       {
         "period": "Q2'25",
-        "revenue": 2638100000,
-        "netIncome": 324200000,
-        "opIncome": 442400000,
+        "revenue": 2638100000.0,
+        "netIncome": 324200000.0,
+        "opIncome": 442400000.0,
         "endDate": "2025-06-30",
         "eps": 0.83,
-        "ocf": 322900000,
-        "capex": -45900000,
-        "fcf": 277000000,
-        "pretaxIncome": 421100000,
-        "taxProvision": 96900000,
-        "normalizedIncome": 327434000,
-        "unusualItems": -4200000,
-        "unusualItemsExGoodwill": -4200000,
-        "unusualTaxEffect": -966000,
-        "specialIncomeCharges": -1900000,
-        "restructuring": 1900000,
-        "stockComp": 13300000
+        "ocf": 322900000.0,
+        "capex": -45900000.0,
+        "fcf": 277000000.0,
+        "pretaxIncome": 421100000.0,
+        "taxProvision": 96900000.0,
+        "normalizedIncome": 327434000.0,
+        "unusualItems": -4200000.0,
+        "unusualItemsExGoodwill": -4200000.0,
+        "unusualTaxEffect": -966000.0,
+        "specialIncomeCharges": -1900000.0,
+        "restructuring": 1900000.0,
+        "stockComp": 13300000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 2675800000,
-        "netIncome": 398500000,
-        "opIncome": 516700000,
+        "revenue": 2675800000.0,
+        "netIncome": 398500000.0,
+        "opIncome": 516700000.0,
         "endDate": "2025-09-30",
         "eps": 1.02,
-        "ocf": 508700000,
-        "capex": -46700000,
-        "fcf": 462000000,
-        "pretaxIncome": 492200000,
-        "taxProvision": 93700000,
-        "normalizedIncome": 425473000,
-        "unusualItems": -33300000,
-        "unusualItemsExGoodwill": -33300000,
-        "unusualTaxEffect": -6327000,
-        "specialIncomeCharges": -32400000,
-        "restructuring": 30700000,
-        "stockComp": 14200000
+        "ocf": 508700000.0,
+        "capex": -46700000.0,
+        "fcf": 462000000.0,
+        "pretaxIncome": 492200000.0,
+        "taxProvision": 93700000.0,
+        "normalizedIncome": 425473000.0,
+        "unusualItems": -33300000.0,
+        "unusualItemsExGoodwill": -33300000.0,
+        "unusualTaxEffect": -6327000.0,
+        "specialIncomeCharges": -32400000.0,
+        "restructuring": 30700000.0,
+        "stockComp": 14200000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2880000000,
-        "netIncome": 445600000,
-        "opIncome": 579900000,
+        "revenue": 2880000000.0,
+        "netIncome": 445600000.0,
+        "opIncome": 579900000.0,
         "endDate": "2025-12-31",
         "eps": 1.14,
-        "ocf": 978900000,
-        "capex": -95000000,
-        "fcf": 883900000,
-        "pretaxIncome": 563200000,
-        "taxProvision": 117600000,
+        "ocf": 978900000.0,
+        "capex": -95000000.0,
+        "fcf": 883900000.0,
+        "pretaxIncome": 563200000.0,
+        "taxProvision": 117600000.0,
         "normalizedIncome": 466962215.909091,
-        "unusualItems": -27000000,
-        "unusualItemsExGoodwill": -27000000,
+        "unusualItems": -27000000.0,
+        "unusualItemsExGoodwill": -27000000.0,
         "unusualTaxEffect": -5637784.090909,
-        "specialIncomeCharges": -20800000,
-        "restructuring": 20800000,
-        "stockComp": 7200000
+        "specialIncomeCharges": -20800000.0,
+        "restructuring": 20800000.0,
+        "stockComp": 7200000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 2649500000,
-        "netIncome": 390100000,
-        "opIncome": 440100000,
+        "revenue": 2649500000.0,
+        "netIncome": 390100000.0,
+        "opIncome": 440100000.0,
         "endDate": "2026-03-31",
         "eps": 0.99,
-        "ocf": 766800000,
-        "capex": -114000000,
-        "fcf": 652800000,
-        "pretaxIncome": 438300000,
-        "taxProvision": 48200000,
-        "normalizedIncome": 389833000,
-        "unusualItems": 300000,
-        "unusualItemsExGoodwill": 300000,
-        "unusualTaxEffect": 33000,
-        "specialIncomeCharges": -1300000,
-        "restructuring": -4900000,
-        "stockComp": 17000000
+        "ocf": 766800000.0,
+        "capex": -114000000.0,
+        "fcf": 652800000.0,
+        "pretaxIncome": 438300000.0,
+        "taxProvision": 48200000.0,
+        "normalizedIncome": 389833000.0,
+        "unusualItems": 300000.0,
+        "unusualItemsExGoodwill": 300000.0,
+        "unusualTaxEffect": 33000.0,
+        "specialIncomeCharges": -1300000.0,
+        "restructuring": -4900000.0,
+        "stockComp": 17000000.0
       },
       {
         "period": "Q2'26",
@@ -13286,19 +13288,19 @@ const FINANCIALS_DATA = {
         "opIncome": 637900000,
         "eps": 1.27,
         "endDate": "2026-06-30",
-        "ocf": 1099800000,
-        "capex": -174500000,
-        "fcf": 925300000,
-        "pretaxIncome": 620000000,
-        "taxProvision": 122200000,
-        "normalizedIncome": 497800000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 3900000,
-        "otherNonOperating": -500000,
-        "restructuring": -3900000,
-        "stockComp": 13800000
+        "ocf": 1099800000.0,
+        "capex": -174500000.0,
+        "fcf": 925300000.0,
+        "pretaxIncome": 620000000.0,
+        "taxProvision": 122200000.0,
+        "normalizedIncome": 497800000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 3900000.0,
+        "otherNonOperating": -500000.0,
+        "restructuring": -3900000.0,
+        "stockComp": 13800000.0
       }
     ],
     "_currency": "USD",
@@ -13308,105 +13310,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2021-02-22",
-        "shares": 351440743
+        "shares": 351440743.0
       },
       {
         "date": "2021-04-23",
-        "shares": 352205415
+        "shares": 352205415.0
       },
       {
         "date": "2021-04-30",
-        "shares": 352206525
+        "shares": 352206525.0
       },
       {
         "date": "2021-07-30",
-        "shares": 352427840
+        "shares": 352427840.0
       },
       {
         "date": "2021-10-29",
-        "shares": 352591505
+        "shares": 352591505.0
       },
       {
         "date": "2022-02-22",
-        "shares": 375991964
+        "shares": 375991964.0
       },
       {
         "date": "2022-04-29",
-        "shares": 376686144
+        "shares": 376686144.0
       },
       {
         "date": "2022-07-29",
-        "shares": 377038078
+        "shares": 377038078.0
       },
       {
         "date": "2022-10-28",
-        "shares": 377295546
+        "shares": 377295546.0
       },
       {
         "date": "2023-02-17",
-        "shares": 377640813
+        "shares": 377640813.0
       },
       {
         "date": "2023-04-24",
-        "shares": 379736270
+        "shares": 379736270.0
       },
       {
         "date": "2023-07-31",
-        "shares": 380527755
+        "shares": 380527755.0
       },
       {
         "date": "2023-10-23",
-        "shares": 381441500
+        "shares": 381441500.0
       },
       {
         "date": "2024-02-16",
-        "shares": 381970469
+        "shares": 381970469.0
       },
       {
         "date": "2024-04-22",
-        "shares": 374344987
+        "shares": 374344987.0
       },
       {
         "date": "2024-07-22",
-        "shares": 375147755
+        "shares": 375147755.0
       },
       {
         "date": "2024-10-21",
-        "shares": 375335992
+        "shares": 375335992.0
       },
       {
         "date": "2025-02-10",
-        "shares": 380775581
+        "shares": 380775581.0
       },
       {
         "date": "2025-04-21",
-        "shares": 381105178
+        "shares": 381105178.0
       },
       {
         "date": "2025-07-28",
-        "shares": 381866664
+        "shares": 381866664.0
       },
       {
         "date": "2025-10-20",
-        "shares": 382338313
+        "shares": 382338313.0
       },
       {
         "date": "2026-02-09",
-        "shares": 382598464
+        "shares": 382598464.0
       },
       {
         "date": "2026-04-20",
-        "shares": 384108816
+        "shares": 384108816.0
       },
       {
         "date": "2026-07-27",
-        "shares": 384988173
+        "shares": 384988173.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13431,8 +13433,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "STX": {
@@ -13451,8 +13453,8 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 10509000000,
-        "netIncome": 1004000000,
+        "revenue": 10509000000.0,
+        "netIncome": 1004000000.0,
         "opIncome": 1300000000,
         "eps": 3.79,
         "ocf": 1714000000,
@@ -13463,93 +13465,93 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2021",
-        "revenue": 10681000000,
-        "netIncome": 1314000000,
-        "opIncome": 1492000000,
+        "revenue": 10681000000.0,
+        "netIncome": 1314000000.0,
+        "opIncome": 1492000000.0,
         "eps": 5.36,
-        "ocf": 1626000000,
-        "capex": -498000000,
-        "fcf": 1128000000,
+        "ocf": 1626000000.0,
+        "capex": -498000000.0,
+        "fcf": 1128000000.0,
         "endDate": "2021-07-02",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 11661000000,
-        "netIncome": 1649000000,
-        "opIncome": 1955000000,
+        "revenue": 11661000000.0,
+        "netIncome": 1649000000.0,
+        "opIncome": 1955000000.0,
         "eps": 7.36,
-        "ocf": 1657000000,
-        "capex": -381000000,
-        "fcf": 1276000000,
+        "ocf": 1657000000.0,
+        "capex": -381000000.0,
+        "fcf": 1276000000.0,
         "endDate": "2022-07-01",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 7384000000,
-        "netIncome": -529000000,
+        "revenue": 7384000000.0,
+        "netIncome": -529000000.0,
         "opIncome": -342000000,
         "eps": -2.56,
         "ocf": 942000000,
         "capex": -316000000,
-        "fcf": 626000000,
+        "fcf": 626000000.0,
         "endDate": "2023-06-30",
         "_fcfIsProxy": false,
-        "pretaxIncome": -496000000,
-        "taxProvision": 33000000,
-        "normalizedIncome": -353040000,
-        "unusualItems": -212000000,
-        "unusualItemsExGoodwill": -212000000,
-        "unusualTaxEffect": -44520000,
-        "specialIncomeCharges": -212000000,
-        "otherNonOperating": -41000000,
-        "restructuring": 102000000,
-        "stockComp": 115000000
+        "pretaxIncome": -496000000.0,
+        "taxProvision": 33000000.0,
+        "normalizedIncome": -353040000.0,
+        "unusualItems": -212000000.0,
+        "unusualItemsExGoodwill": -212000000.0,
+        "unusualTaxEffect": -44520000.0,
+        "specialIncomeCharges": -212000000.0,
+        "otherNonOperating": -41000000.0,
+        "restructuring": 102000000.0,
+        "stockComp": 115000000.0
       },
       {
         "period": "2024",
-        "revenue": 6551000000,
-        "netIncome": 335000000,
+        "revenue": 6551000000.0,
+        "netIncome": 335000000.0,
         "opIncome": 452000000,
         "eps": 1.58,
         "ocf": 918000000,
         "capex": -254000000,
-        "fcf": 664000000,
+        "fcf": 664000000.0,
         "endDate": "2024-06-28",
         "_fcfIsProxy": false,
-        "pretaxIncome": 445000000,
-        "taxProvision": 110000000,
+        "pretaxIncome": 445000000.0,
+        "taxProvision": 110000000.0,
         "normalizedIncome": 20325842.696629,
-        "unusualItems": 418000000,
-        "unusualItemsExGoodwill": 418000000,
+        "unusualItems": 418000000.0,
+        "unusualItemsExGoodwill": 418000000.0,
         "unusualTaxEffect": 103325842.696629,
-        "specialIncomeCharges": 314000000,
-        "otherNonOperating": -78000000,
-        "restructuring": -30000000,
-        "stockComp": 127000000
+        "specialIncomeCharges": 314000000.0,
+        "otherNonOperating": -78000000.0,
+        "restructuring": -30000000.0,
+        "stockComp": 127000000.0
       },
       {
         "period": "2025",
-        "revenue": 9097000000,
-        "netIncome": 1469000000,
+        "revenue": 9097000000.0,
+        "netIncome": 1469000000.0,
         "opIncome": 1890000000,
         "eps": 6.77,
         "ocf": 1083000000,
         "capex": -265000000,
-        "fcf": 818000000,
+        "fcf": 818000000.0,
         "endDate": "2025-06-27",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1513000000,
-        "taxProvision": 44000000,
+        "pretaxIncome": 1513000000.0,
+        "taxProvision": 44000000.0,
         "normalizedIncome": 1492302048.909451,
-        "unusualItems": -24000000,
-        "unusualItemsExGoodwill": -24000000,
+        "unusualItems": -24000000.0,
+        "unusualItemsExGoodwill": -24000000.0,
         "unusualTaxEffect": -697951.090549,
-        "specialIncomeCharges": -24000000,
-        "otherNonOperating": -82000000,
-        "restructuring": 25000000,
-        "stockComp": 200000000
+        "specialIncomeCharges": -24000000.0,
+        "otherNonOperating": -82000000.0,
+        "restructuring": 25000000.0,
+        "stockComp": 200000000.0
       },
       {
         "period": "2026",
@@ -13559,73 +13561,73 @@ const FINANCIALS_DATA = {
         "eps": 13.9,
         "ocf": 3674000000,
         "capex": -569000000,
-        "fcf": 3105000000,
+        "fcf": 3105000000.0,
         "_fcfIsProxy": false,
         "endDate": "2026-07-03",
-        "pretaxIncome": 3690000000,
-        "taxProvision": 506000000,
-        "normalizedIncome": 3428144100,
-        "unusualItems": -283000000,
-        "unusualItemsExGoodwill": -283000000,
-        "unusualTaxEffect": -38855900,
-        "specialIncomeCharges": -283000000,
-        "otherNonOperating": 1000000,
-        "restructuring": 27000000,
-        "stockComp": 213000000
+        "pretaxIncome": 3690000000.0,
+        "taxProvision": 506000000.0,
+        "normalizedIncome": 3428144100.0,
+        "unusualItems": -283000000.0,
+        "unusualItemsExGoodwill": -283000000.0,
+        "unusualTaxEffect": -38855900.0,
+        "specialIncomeCharges": -283000000.0,
+        "otherNonOperating": 1000000.0,
+        "restructuring": 27000000.0,
+        "stockComp": 213000000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1454000000,
-        "netIncome": -184000000,
+        "revenue": 1454000000.0,
+        "netIncome": -184000000.0,
         "opIncome": -129000000,
         "endDate": "2023-09-29",
         "eps": -0.88
       },
       {
         "period": "Q4'23",
-        "revenue": 1555000000,
-        "netIncome": -19000000,
+        "revenue": 1555000000.0,
+        "netIncome": -19000000.0,
         "opIncome": 124000000,
         "endDate": "2023-12-29",
         "eps": -0.09
       },
       {
         "period": "Q1'24",
-        "revenue": 1655000000,
-        "netIncome": 25000000,
+        "revenue": 1655000000.0,
+        "netIncome": 25000000.0,
         "opIncome": 143000000,
         "endDate": "2024-03-29",
         "eps": 0.12
       },
       {
         "period": "Q2'24",
-        "revenue": 1887000000,
-        "netIncome": 513000000,
+        "revenue": 1887000000.0,
+        "netIncome": 513000000.0,
         "opIncome": 314000000,
         "endDate": "2024-06-28"
       },
       {
         "period": "Q3'24",
-        "revenue": 2168000000,
-        "netIncome": 305000000,
+        "revenue": 2168000000.0,
+        "netIncome": 305000000.0,
         "opIncome": 403000000,
         "endDate": "2024-09-27",
         "eps": 1.41
       },
       {
         "period": "Q4'24",
-        "revenue": 2325000000,
-        "netIncome": 336000000,
+        "revenue": 2325000000.0,
+        "netIncome": 336000000.0,
         "opIncome": 488000000,
         "endDate": "2024-12-27",
         "eps": 1.55
       },
       {
         "period": "Q1'25",
-        "revenue": 2160000000,
-        "netIncome": 340000000,
+        "revenue": 2160000000.0,
+        "netIncome": 340000000.0,
         "opIncome": 431000000,
         "endDate": "2025-03-28",
         "eps": 1.57
@@ -13637,82 +13639,82 @@ const FINANCIALS_DATA = {
         "opIncome": 568000000,
         "endDate": "2025-06-27",
         "eps": 2.240101,
-        "ocf": 508000000,
-        "capex": -83000000,
-        "fcf": 425000000,
-        "pretaxIncome": 492000000,
-        "taxProvision": 4000000,
+        "ocf": 508000000.0,
+        "capex": -83000000.0,
+        "fcf": 425000000.0,
+        "pretaxIncome": 492000000.0,
+        "taxProvision": 4000000.0,
         "normalizedIncome": 495934959.349593,
-        "unusualItems": -8000000,
-        "unusualItemsExGoodwill": -8000000,
+        "unusualItems": -8000000.0,
+        "unusualItemsExGoodwill": -8000000.0,
         "unusualTaxEffect": -65040.650407,
-        "specialIncomeCharges": -8000000,
-        "otherNonOperating": -12000000,
-        "restructuring": 13000000,
-        "stockComp": 59000000
+        "specialIncomeCharges": -8000000.0,
+        "otherNonOperating": -12000000.0,
+        "restructuring": 13000000.0,
+        "stockComp": 59000000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2629000000,
-        "netIncome": 549000000,
+        "revenue": 2629000000.0,
+        "netIncome": 549000000.0,
         "opIncome": 694000000,
         "endDate": "2025-10-03",
         "eps": 2.43,
-        "ocf": 532000000,
-        "capex": -105000000,
-        "fcf": 427000000,
-        "pretaxIncome": 614000000,
-        "taxProvision": 65000000,
+        "ocf": 532000000.0,
+        "capex": -105000000.0,
+        "fcf": 427000000.0,
+        "pretaxIncome": 614000000.0,
+        "taxProvision": 65000000.0,
         "normalizedIncome": 560623778.501629,
-        "unusualItems": -13000000,
-        "unusualItemsExGoodwill": -13000000,
+        "unusualItems": -13000000.0,
+        "unusualItemsExGoodwill": -13000000.0,
         "unusualTaxEffect": -1376221.498371,
-        "specialIncomeCharges": -13000000,
-        "otherNonOperating": -7000000,
-        "restructuring": 13000000,
-        "stockComp": 52000000
+        "specialIncomeCharges": -13000000.0,
+        "otherNonOperating": -7000000.0,
+        "restructuring": 13000000.0,
+        "stockComp": 52000000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 2825000000,
-        "netIncome": 593000000,
+        "revenue": 2825000000.0,
+        "netIncome": 593000000.0,
         "opIncome": 843000000,
         "endDate": "2026-01-02",
         "eps": 2.6,
-        "ocf": 723000000,
-        "capex": -116000000,
-        "fcf": 607000000,
-        "pretaxIncome": 707000000,
-        "taxProvision": 114000000,
+        "ocf": 723000000.0,
+        "capex": -116000000.0,
+        "fcf": 607000000.0,
+        "pretaxIncome": 707000000.0,
+        "taxProvision": 114000000.0,
         "normalizedIncome": 650874115.983027,
-        "unusualItems": -69000000,
-        "unusualItemsExGoodwill": -69000000,
+        "unusualItems": -69000000.0,
+        "unusualItemsExGoodwill": -69000000.0,
         "unusualTaxEffect": -11125884.016973,
-        "specialIncomeCharges": -69000000,
-        "otherNonOperating": -5000000,
-        "restructuring": 3000000,
-        "stockComp": 53000000
+        "specialIncomeCharges": -69000000.0,
+        "otherNonOperating": -5000000.0,
+        "restructuring": 3000000.0,
+        "stockComp": 53000000.0
       },
       {
         "period": "Q2'26",
-        "revenue": 3112000000,
-        "netIncome": 748000000,
+        "revenue": 3112000000.0,
+        "netIncome": 748000000.0,
         "opIncome": 998000000,
         "endDate": "2026-04-03",
         "eps": 3.27,
-        "ocf": 1114000000,
-        "capex": -161000000,
-        "fcf": 953000000,
-        "pretaxIncome": 864000000,
-        "taxProvision": 116000000,
+        "ocf": 1114000000.0,
+        "capex": -161000000.0,
+        "fcf": 953000000.0,
+        "pretaxIncome": 864000000.0,
+        "taxProvision": 116000000.0,
         "normalizedIncome": 904699074.074074,
-        "unusualItems": -181000000,
-        "unusualItemsExGoodwill": -181000000,
+        "unusualItems": -181000000.0,
+        "unusualItemsExGoodwill": -181000000.0,
         "unusualTaxEffect": -24300925.925926,
-        "specialIncomeCharges": -181000000,
-        "otherNonOperating": -3000000,
-        "restructuring": 7000000,
-        "stockComp": 54000000
+        "specialIncomeCharges": -181000000.0,
+        "otherNonOperating": -3000000.0,
+        "restructuring": 7000000.0,
+        "stockComp": 54000000.0
       },
       {
         "period": "Q3'26",
@@ -13721,19 +13723,19 @@ const FINANCIALS_DATA = {
         "opIncome": 1559000000,
         "endDate": "2026-07-03",
         "eps": 5.580251,
-        "ocf": 1305000000,
-        "capex": -187000000,
-        "fcf": 1118000000,
-        "pretaxIncome": 1505000000,
-        "taxProvision": 211000000,
+        "ocf": 1305000000.0,
+        "capex": -187000000.0,
+        "fcf": 1118000000.0,
+        "pretaxIncome": 1505000000.0,
+        "taxProvision": 211000000.0,
         "normalizedIncome": 1306037209.302326,
-        "unusualItems": -14000000,
-        "unusualItemsExGoodwill": -14000000,
+        "unusualItems": -14000000.0,
+        "unusualItemsExGoodwill": -14000000.0,
         "unusualTaxEffect": -1962790.697674,
-        "specialIncomeCharges": -14000000,
-        "otherNonOperating": 10000000,
-        "restructuring": 4000000,
-        "stockComp": 54000000
+        "specialIncomeCharges": -14000000.0,
+        "otherNonOperating": 10000000.0,
+        "restructuring": 4000000.0,
+        "stockComp": 54000000.0
       }
     ],
     "_currency": "USD",
@@ -13743,105 +13745,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-26",
-        "shares": 256932251
+        "shares": 256932251.0
       },
       {
         "date": "2021-01-25",
-        "shares": 236682057
+        "shares": 236682057.0
       },
       {
         "date": "2021-04-26",
-        "shares": 228873365
+        "shares": 228873365.0
       },
       {
         "date": "2021-08-02",
-        "shares": 227603061
+        "shares": 227603061.0
       },
       {
         "date": "2021-10-25",
-        "shares": 222635945
+        "shares": 222635945.0
       },
       {
         "date": "2022-01-24",
-        "shares": 218898339
+        "shares": 218898339.0
       },
       {
         "date": "2022-04-25",
-        "shares": 214843969
+        "shares": 214843969.0
       },
       {
         "date": "2022-08-01",
-        "shares": 208755418
+        "shares": 208755418.0
       },
       {
         "date": "2022-10-24",
-        "shares": 206454363
+        "shares": 206454363.0
       },
       {
         "date": "2023-01-23",
-        "shares": 206483864
+        "shares": 206483864.0
       },
       {
         "date": "2023-04-24",
-        "shares": 207082374
+        "shares": 207082374.0
       },
       {
         "date": "2023-07-31",
-        "shares": 207393242
+        "shares": 207393242.0
       },
       {
         "date": "2023-10-23",
-        "shares": 209183986
+        "shares": 209183986.0
       },
       {
         "date": "2024-01-22",
-        "shares": 209510729
+        "shares": 209510729.0
       },
       {
         "date": "2024-04-22",
-        "shares": 209988542
+        "shares": 209988542.0
       },
       {
         "date": "2024-07-30",
-        "shares": 210195239
+        "shares": 210195239.0
       },
       {
         "date": "2024-10-23",
-        "shares": 211529509
+        "shares": 211529509.0
       },
       {
         "date": "2025-01-22",
-        "shares": 211707393
+        "shares": 211707393.0
       },
       {
         "date": "2025-04-29",
-        "shares": 212217463
+        "shares": 212217463.0
       },
       {
         "date": "2025-07-29",
-        "shares": 212677178
+        "shares": 212677178.0
       },
       {
         "date": "2025-10-28",
-        "shares": 213558113
+        "shares": 213558113.0
       },
       {
         "date": "2026-01-27",
-        "shares": 218073067
+        "shares": 218073067.0
       },
       {
         "date": "2026-04-27",
-        "shares": 224228992
+        "shares": 224228992.0
       },
       {
         "date": "2026-07-31",
-        "shares": 226644518
+        "shares": 226644518.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -13866,8 +13868,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "EME": {
@@ -13886,254 +13888,254 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 9174611000,
-        "netIncome": 325140000,
-        "opIncome": 460892000,
+        "revenue": 9174611000.0,
+        "netIncome": 325140000.0,
+        "opIncome": 460892000.0,
         "eps": 5.75,
         "ocf": 355700000,
-        "capex": -48432000,
-        "fcf": 307268000,
+        "capex": -48432000.0,
+        "fcf": 307268000.0,
         "endDate": "2019-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 8797061000,
-        "netIncome": 132943000,
-        "opIncome": 256834000,
+        "revenue": 8797061000.0,
+        "netIncome": 132943000.0,
+        "opIncome": 256834000.0,
         "eps": 2.4,
-        "ocf": 806366000,
-        "capex": -47969000,
-        "fcf": 758397000,
+        "ocf": 806366000.0,
+        "capex": -47969000.0,
+        "fcf": 758397000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 9903580000,
-        "netIncome": 383532000,
-        "opIncome": 530800000,
+        "revenue": 9903580000.0,
+        "netIncome": 383532000.0,
+        "opIncome": 530800000.0,
         "eps": 7.06,
-        "ocf": 318817000,
-        "capex": -36192000,
-        "fcf": 282625000,
+        "ocf": 318817000.0,
+        "capex": -36192000.0,
+        "fcf": 282625000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true,
-        "restructuring": 0
+        "restructuring": 0.0
       },
       {
         "period": "2022",
-        "revenue": 11076120000,
-        "netIncome": 406122000,
-        "opIncome": 564877000,
+        "revenue": 11076120000.0,
+        "netIncome": 406122000.0,
+        "opIncome": 564877000.0,
         "eps": 8.1,
         "ocf": 497933000,
-        "capex": -49289000,
-        "fcf": 448644000,
+        "capex": -49289000.0,
+        "fcf": 448644000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "taxProvision": 152628000,
-        "normalizedIncome": 406122000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 4311000,
-        "impairment": 0,
-        "restructuring": 0,
-        "stockComp": 12125000
+        "taxProvision": 152628000.0,
+        "normalizedIncome": 406122000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 4311000.0,
+        "impairment": 0.0,
+        "restructuring": 0.0,
+        "stockComp": 12125000.0
       },
       {
         "period": "2023",
-        "revenue": 12582873000,
-        "netIncome": 632994000,
-        "opIncome": 875756000,
+        "revenue": 12582873000.0,
+        "netIncome": 632994000.0,
+        "opIncome": 875756000.0,
         "eps": 13.31,
         "ocf": 899655000,
-        "capex": -78404000,
-        "fcf": 821251000,
+        "capex": -78404000.0,
+        "fcf": 821251000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "taxProvision": 239524000,
-        "normalizedIncome": 634697750,
-        "unusualItems": -2350000,
-        "unusualItemsExGoodwill": -2350000,
-        "unusualTaxEffect": -646250,
-        "specialIncomeCharges": -2350000,
-        "otherNonOperating": -1119000,
-        "impairment": 2350000,
-        "stockComp": 13739000
+        "taxProvision": 239524000.0,
+        "normalizedIncome": 634697750.0,
+        "unusualItems": -2350000.0,
+        "unusualItemsExGoodwill": -2350000.0,
+        "unusualTaxEffect": -646250.0,
+        "specialIncomeCharges": -2350000.0,
+        "otherNonOperating": -1119000.0,
+        "impairment": 2350000.0,
+        "stockComp": 13739000.0
       },
       {
         "period": "2024",
-        "revenue": 14566116000,
-        "netIncome": 1007145000,
-        "opIncome": 1344863000,
+        "revenue": 14566116000.0,
+        "netIncome": 1007145000.0,
+        "opIncome": 1344863000.0,
         "eps": 21.52,
         "ocf": 1407894000,
-        "capex": -74950000,
-        "fcf": 1332944000,
+        "capex": -74950000.0,
+        "fcf": 1332944000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "taxProvision": 370237000,
-        "normalizedIncome": 1007145000,
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "unusualTaxEffect": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 894000,
-        "impairment": 0,
-        "stockComp": 19978000
+        "taxProvision": 370237000.0,
+        "normalizedIncome": 1007145000.0,
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "unusualTaxEffect": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 894000.0,
+        "impairment": 0.0,
+        "stockComp": 19978000.0
       },
       {
         "period": "2025",
-        "revenue": 16986422000,
-        "netIncome": 1272817000,
-        "opIncome": 1713418000,
+        "revenue": 16986422000.0,
+        "netIncome": 1272817000.0,
+        "opIncome": 1713418000.0,
         "eps": 28.19,
         "ocf": 1302063000,
-        "capex": -112750000,
-        "fcf": 1189313000,
+        "capex": -112750000.0,
+        "fcf": 1189313000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "taxProvision": 448807000,
+        "taxProvision": 448807000.0,
         "normalizedIncome": 1165708458.476415,
-        "unusualItems": 144876000,
-        "unusualItemsExGoodwill": 144876000,
+        "unusualItems": 144876000.0,
+        "unusualItemsExGoodwill": 144876000.0,
         "unusualTaxEffect": 37767458.476415,
-        "specialIncomeCharges": 144876000,
-        "otherNonOperating": 211000,
-        "impairment": 0,
-        "stockComp": 20595000
+        "specialIncomeCharges": 144876000.0,
+        "otherNonOperating": 211000.0,
+        "impairment": 0.0,
+        "stockComp": 20595000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 3207598000,
-        "netIncome": 169409000,
-        "opIncome": 234983000,
+        "revenue": 3207598000.0,
+        "netIncome": 169409000.0,
+        "opIncome": 234983000.0,
         "endDate": "2023-09-30",
         "eps": 3.57
       },
       {
         "period": "Q4'23",
-        "revenue": 3439221000,
-        "netIncome": 211517000,
-        "opIncome": 289196000,
+        "revenue": 3439221000.0,
+        "netIncome": 211517000.0,
+        "opIncome": 289196000.0,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 3432276000,
-        "netIncome": 197149000,
-        "opIncome": 259953000,
+        "revenue": 3432276000.0,
+        "netIncome": 197149000.0,
+        "opIncome": 259953000.0,
         "endDate": "2024-03-31",
         "eps": 4.17
       },
       {
         "period": "Q2'24",
-        "revenue": 3666897000,
-        "netIncome": 247572000,
-        "opIncome": 332808000,
+        "revenue": 3666897000.0,
+        "netIncome": 247572000.0,
+        "opIncome": 332808000.0,
         "endDate": "2024-06-30",
         "eps": 5.25
       },
       {
         "period": "Q3'24",
-        "revenue": 3696924000,
-        "netIncome": 270263000,
-        "opIncome": 363538000,
+        "revenue": 3696924000.0,
+        "netIncome": 270263000.0,
+        "opIncome": 363538000.0,
         "endDate": "2024-09-30",
         "eps": 5.8
       },
       {
         "period": "Q4'24",
-        "revenue": 3770019000,
-        "netIncome": 292161000,
-        "opIncome": 388564000,
+        "revenue": 3770019000.0,
+        "netIncome": 292161000.0,
+        "opIncome": 388564000.0,
         "endDate": "2024-12-31",
-        "unusualItems": 0,
-        "unusualItemsExGoodwill": 0,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 224000,
-        "impairment": 0
+        "unusualItems": 0.0,
+        "unusualItemsExGoodwill": 0.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 224000.0,
+        "impairment": 0.0
       },
       {
         "period": "Q1'25",
-        "revenue": 3867372000,
-        "netIncome": 240677000,
-        "opIncome": 318756000,
+        "revenue": 3867372000.0,
+        "netIncome": 240677000.0,
+        "opIncome": 318756000.0,
         "endDate": "2025-03-31",
         "eps": 5.26,
-        "otherNonOperating": 54000
+        "otherNonOperating": 54000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 4304400000,
-        "netIncome": 302160000,
-        "opIncome": 415212000,
+        "revenue": 4304400000.0,
+        "netIncome": 302160000.0,
+        "opIncome": 415212000.0,
         "endDate": "2025-06-30",
         "eps": 6.72,
-        "ocf": 193687000,
-        "capex": -28043000,
-        "fcf": 165644000,
-        "pretaxIncome": 412027000,
-        "taxProvision": 109867000,
-        "normalizedIncome": 302160000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 55000,
-        "stockComp": 3822000
+        "ocf": 193687000.0,
+        "capex": -28043000.0,
+        "fcf": 165644000.0,
+        "pretaxIncome": 412027000.0,
+        "taxProvision": 109867000.0,
+        "normalizedIncome": 302160000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 55000.0,
+        "stockComp": 3822000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 4301529000,
-        "netIncome": 295373000,
-        "opIncome": 405696000,
+        "revenue": 4301529000.0,
+        "netIncome": 295373000.0,
+        "opIncome": 405696000.0,
         "endDate": "2025-09-30",
         "eps": 6.57,
-        "ocf": 475501000,
-        "capex": -26657000,
-        "fcf": 448844000,
-        "pretaxIncome": 407590000,
-        "taxProvision": 112217000,
-        "normalizedIncome": 295373000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 56000,
-        "stockComp": 3650000
+        "ocf": 475501000.0,
+        "capex": -26657000.0,
+        "fcf": 448844000.0,
+        "pretaxIncome": 407590000.0,
+        "taxProvision": 112217000.0,
+        "normalizedIncome": 295373000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 56000.0,
+        "stockComp": 3650000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 4513121000,
-        "netIncome": 434607000,
-        "opIncome": 573754000,
+        "revenue": 4513121000.0,
+        "netIncome": 434607000.0,
+        "opIncome": 573754000.0,
         "endDate": "2025-12-31",
         "eps": 9.68,
-        "ocf": 524404000,
-        "capex": -31919000,
-        "fcf": 492485000,
-        "pretaxIncome": 577810000,
-        "taxProvision": 143203000,
-        "normalizedIncome": 434607000,
-        "unusualTaxEffect": 0,
-        "otherNonOperating": 46000,
-        "stockComp": 3853000
+        "ocf": 524404000.0,
+        "capex": -31919000.0,
+        "fcf": 492485000.0,
+        "pretaxIncome": 577810000.0,
+        "taxProvision": 143203000.0,
+        "normalizedIncome": 434607000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": 46000.0,
+        "stockComp": 3853000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 4628233000,
-        "netIncome": 305484000,
-        "opIncome": 403845000,
+        "revenue": 4628233000.0,
+        "netIncome": 305484000.0,
+        "opIncome": 403845000.0,
         "endDate": "2026-03-31",
         "eps": 6.84,
-        "ocf": 558000,
-        "capex": -28712000,
-        "fcf": -28154000,
-        "pretaxIncome": 410072000,
-        "taxProvision": 104588000,
-        "normalizedIncome": 305484000,
-        "unusualTaxEffect": 0,
-        "stockComp": 10590000
+        "ocf": 558000.0,
+        "capex": -28712000.0,
+        "fcf": -28154000.0,
+        "pretaxIncome": 410072000.0,
+        "taxProvision": 104588000.0,
+        "normalizedIncome": 305484000.0,
+        "unusualTaxEffect": 0.0,
+        "stockComp": 10590000.0
       },
       {
         "period": "Q2'26",
@@ -14142,14 +14144,14 @@ const FINANCIALS_DATA = {
         "opIncome": 547340000,
         "eps": 9.06,
         "endDate": "2026-06-30",
-        "ocf": 289355000,
-        "capex": -31148000,
-        "fcf": 258207000,
-        "pretaxIncome": 551662000,
-        "taxProvision": 147968000,
-        "normalizedIncome": 403694000,
-        "unusualTaxEffect": 0,
-        "stockComp": 4417000
+        "ocf": 289355000.0,
+        "capex": -31148000.0,
+        "fcf": 258207000.0,
+        "pretaxIncome": 551662000.0,
+        "taxProvision": 147968000.0,
+        "normalizedIncome": 403694000.0,
+        "unusualTaxEffect": 0.0,
+        "stockComp": 4417000.0
       }
     ],
     "_currency": "USD",
@@ -14159,105 +14161,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-23",
-        "shares": 54930617
+        "shares": 54930617.0
       },
       {
         "date": "2021-02-19",
-        "shares": 54796654
+        "shares": 54796654.0
       },
       {
         "date": "2021-04-27",
-        "shares": 54556403
+        "shares": 54556403.0
       },
       {
         "date": "2021-07-23",
-        "shares": 53753699
+        "shares": 53753699.0
       },
       {
         "date": "2021-10-22",
-        "shares": 53374384
+        "shares": 53374384.0
       },
       {
         "date": "2022-02-18",
-        "shares": 52666149
+        "shares": 52666149.0
       },
       {
         "date": "2022-04-22",
-        "shares": 51141944
+        "shares": 51141944.0
       },
       {
         "date": "2022-07-22",
-        "shares": 49348272
+        "shares": 49348272.0
       },
       {
         "date": "2022-10-21",
-        "shares": 47655251
+        "shares": 47655251.0
       },
       {
         "date": "2023-02-17",
-        "shares": 47687820
+        "shares": 47687820.0
       },
       {
         "date": "2023-04-21",
-        "shares": 47545740
+        "shares": 47545740.0
       },
       {
         "date": "2023-07-21",
-        "shares": 47135026
+        "shares": 47135026.0
       },
       {
         "date": "2023-10-23",
-        "shares": 47044440
+        "shares": 47044440.0
       },
       {
         "date": "2024-02-22",
-        "shares": 47064926
+        "shares": 47064926.0
       },
       {
         "date": "2024-04-19",
-        "shares": 46996241
+        "shares": 46996241.0
       },
       {
         "date": "2024-07-19",
-        "shares": 46657365
+        "shares": 46657365.0
       },
       {
         "date": "2024-10-25",
-        "shares": 46002059
+        "shares": 46002059.0
       },
       {
         "date": "2025-02-24",
-        "shares": 45472621
+        "shares": 45472621.0
       },
       {
         "date": "2025-04-24",
-        "shares": 44758004
+        "shares": 44758004.0
       },
       {
         "date": "2025-07-25",
-        "shares": 44764250
+        "shares": 44764250.0
       },
       {
         "date": "2025-10-24",
-        "shares": 44765864
+        "shares": 44765864.0
       },
       {
         "date": "2026-02-20",
-        "shares": 44532566
+        "shares": 44532566.0
       },
       {
         "date": "2026-04-23",
-        "shares": 44440278
+        "shares": 44440278.0
       },
       {
         "date": "2026-07-24",
-        "shares": 44109901
+        "shares": 44109901.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -14282,8 +14284,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "FIX": {
@@ -14302,133 +14304,133 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2019",
-        "revenue": 2615277000,
+        "revenue": 2615277000.0,
         "netIncome": 114324000,
         "opIncome": 163639000,
         "eps": 3.08,
         "ocf": 142028000,
-        "capex": -31750000,
-        "fcf": 110278000,
+        "capex": -31750000.0,
+        "fcf": 110278000.0,
         "endDate": "2019-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2020",
-        "revenue": 2856659000,
-        "netIncome": 150139000,
-        "opIncome": 190651000,
+        "revenue": 2856659000.0,
+        "netIncome": 150139000.0,
+        "opIncome": 190651000.0,
         "eps": 4.09,
-        "ocf": 286510000,
-        "capex": -24131000,
-        "fcf": 262379000,
+        "ocf": 286510000.0,
+        "capex": -24131000.0,
+        "fcf": 262379000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 3073636000,
-        "netIncome": 143348000,
-        "opIncome": 188438000,
+        "revenue": 3073636000.0,
+        "netIncome": 143348000.0,
+        "opIncome": 188438000.0,
         "eps": 3.93,
-        "ocf": 180151000,
-        "capex": -22330000,
-        "fcf": 157821000,
+        "ocf": 180151000.0,
+        "capex": -22330000.0,
+        "fcf": 157821000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 4140364000,
+        "revenue": 4140364000.0,
         "netIncome": 245947000,
         "opIncome": 253849000,
         "eps": 6.82,
         "ocf": 301531000,
-        "capex": -48359000,
-        "fcf": 253172000,
+        "capex": -48359000.0,
+        "fcf": 253172000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 235858000,
-        "taxProvision": -10089000,
-        "normalizedIncome": 248501860,
-        "unusualItems": -3234000,
-        "unusualItemsExGoodwill": -3234000,
-        "unusualTaxEffect": -679140,
-        "specialIncomeCharges": -3234000,
-        "otherNonOperating": 134000,
-        "restructuring": 4819000,
-        "stockComp": 10532000
+        "pretaxIncome": 235858000.0,
+        "taxProvision": -10089000.0,
+        "normalizedIncome": 248501860.0,
+        "unusualItems": -3234000.0,
+        "unusualItemsExGoodwill": -3234000.0,
+        "unusualTaxEffect": -679140.0,
+        "specialIncomeCharges": -3234000.0,
+        "otherNonOperating": 134000.0,
+        "restructuring": 4819000.0,
+        "stockComp": 10532000.0
       },
       {
         "period": "2023",
-        "revenue": 5206760000,
+        "revenue": 5206760000.0,
         "netIncome": 323398000,
         "opIncome": 418388000,
         "eps": 9.01,
         "ocf": 639568000,
         "capex": -94838000,
-        "fcf": 544730000,
+        "fcf": 544730000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 388194000,
-        "taxProvision": 64796000,
-        "normalizedIncome": 341145065,
-        "unusualItems": -21305000,
-        "unusualItemsExGoodwill": -21305000,
-        "unusualTaxEffect": -3557935,
-        "specialIncomeCharges": -21305000,
-        "otherNonOperating": 202000,
-        "restructuring": 23607000,
-        "stockComp": 12939000
+        "pretaxIncome": 388194000.0,
+        "taxProvision": 64796000.0,
+        "normalizedIncome": 341145065.0,
+        "unusualItems": -21305000.0,
+        "unusualItemsExGoodwill": -21305000.0,
+        "unusualTaxEffect": -3557935.0,
+        "specialIncomeCharges": -21305000.0,
+        "otherNonOperating": 202000.0,
+        "restructuring": 23607000.0,
+        "stockComp": 12939000.0
       },
       {
         "period": "2024",
-        "revenue": 7027476000,
+        "revenue": 7027476000.0,
         "netIncome": 522433000,
-        "opIncome": 749369000,
+        "opIncome": 749369000.0,
         "eps": 14.6,
         "ocf": 849057000,
         "capex": -111071000,
-        "fcf": 737986000,
+        "fcf": 737986000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 666561000,
-        "taxProvision": 144128000,
-        "normalizedIncome": 589163944,
-        "unusualItems": -85116000,
-        "unusualItemsExGoodwill": -85116000,
-        "unusualTaxEffect": -18385056,
-        "specialIncomeCharges": -85116000,
-        "otherNonOperating": 432000,
-        "restructuring": 88146000,
-        "stockComp": 16646000
+        "pretaxIncome": 666561000.0,
+        "taxProvision": 144128000.0,
+        "normalizedIncome": 589163944.0,
+        "unusualItems": -85116000.0,
+        "unusualItemsExGoodwill": -85116000.0,
+        "unusualTaxEffect": -18385056.0,
+        "specialIncomeCharges": -85116000.0,
+        "otherNonOperating": 432000.0,
+        "restructuring": 88146000.0,
+        "stockComp": 16646000.0
       },
       {
         "period": "2025",
-        "revenue": 9101641000,
+        "revenue": 9101641000.0,
         "netIncome": 1022558000,
-        "opIncome": 1314589000,
+        "opIncome": 1314589000.0,
         "eps": 28.88,
         "ocf": 1186356000,
         "capex": -154903000,
-        "fcf": 1031453000,
+        "fcf": 1031453000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 1293453000,
-        "taxProvision": 270895000,
-        "normalizedIncome": 1047473709,
-        "unusualItems": -31499000,
-        "unusualItemsExGoodwill": -31499000,
-        "unusualTaxEffect": -6583291,
-        "specialIncomeCharges": -31499000,
-        "otherNonOperating": -258000,
-        "restructuring": 33473000,
-        "stockComp": 21809000
+        "pretaxIncome": 1293453000.0,
+        "taxProvision": 270895000.0,
+        "normalizedIncome": 1047473709.0,
+        "unusualItems": -31499000.0,
+        "unusualItemsExGoodwill": -31499000.0,
+        "unusualTaxEffect": -6583291.0,
+        "specialIncomeCharges": -31499000.0,
+        "otherNonOperating": -258000.0,
+        "restructuring": 33473000.0,
+        "stockComp": 21809000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 1378124000,
+        "revenue": 1378124000.0,
         "netIncome": 105125000,
         "opIncome": 135143000,
         "endDate": "2023-09-30",
@@ -14436,14 +14438,14 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'23",
-        "revenue": 1357566000,
+        "revenue": 1357566000.0,
         "netIncome": 91581000,
         "opIncome": 120278000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 1537016000,
+        "revenue": 1537016000.0,
         "netIncome": 96319000,
         "opIncome": 135460000,
         "endDate": "2024-03-31",
@@ -14451,7 +14453,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'24",
-        "revenue": 1810290000,
+        "revenue": 1810290000.0,
         "netIncome": 134009000,
         "opIncome": 184670000,
         "endDate": "2024-06-30",
@@ -14459,7 +14461,7 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q3'24",
-        "revenue": 1812366000,
+        "revenue": 1812366000.0,
         "netIncome": 146235000,
         "opIncome": 202884000,
         "endDate": "2024-09-30",
@@ -14467,102 +14469,102 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 1867804000,
+        "revenue": 1867804000.0,
         "netIncome": 145870000,
-        "opIncome": 226355000,
+        "opIncome": 226355000.0,
         "endDate": "2024-12-31"
       },
       {
         "period": "Q1'25",
-        "revenue": 1831286000,
+        "revenue": 1831286000.0,
         "netIncome": 169289000,
-        "opIncome": 209098000,
+        "opIncome": 209098000.0,
         "endDate": "2025-03-31",
         "eps": 4.75
       },
       {
         "period": "Q2'25",
-        "revenue": 2173319000,
+        "revenue": 2173319000.0,
         "netIncome": 230848000,
-        "opIncome": 299873000,
+        "opIncome": 299873000.0,
         "endDate": "2025-06-30",
         "eps": 6.53,
-        "ocf": 252495000,
-        "capex": -31273000,
-        "fcf": 221222000,
-        "pretaxIncome": 296484000,
-        "taxProvision": 65636000,
+        "ocf": 252495000.0,
+        "capex": -31273000.0,
+        "fcf": 221222000.0,
+        "pretaxIncome": 296484000.0,
+        "taxProvision": 65636000.0,
         "normalizedIncome": 233675164.663186,
-        "unusualItems": -3631000,
-        "unusualItemsExGoodwill": -3631000,
+        "unusualItems": -3631000.0,
+        "unusualItemsExGoodwill": -3631000.0,
         "unusualTaxEffect": -803835.336814,
-        "specialIncomeCharges": -3631000,
-        "otherNonOperating": -530000,
-        "restructuring": 4073000,
-        "stockComp": 4156000
+        "specialIncomeCharges": -3631000.0,
+        "otherNonOperating": -530000.0,
+        "restructuring": 4073000.0,
+        "stockComp": 4156000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 2450969000,
+        "revenue": 2450969000.0,
         "netIncome": 291615000,
-        "opIncome": 378874000,
+        "opIncome": 378874000.0,
         "endDate": "2025-09-30",
         "eps": 8.25,
-        "ocf": 553271000,
-        "capex": -35332000,
-        "fcf": 517939000,
-        "pretaxIncome": 370458000,
-        "taxProvision": 78843000,
+        "ocf": 553271000.0,
+        "capex": -35332000.0,
+        "fcf": 517939000.0,
+        "pretaxIncome": 370458000.0,
+        "taxProvision": 78843000.0,
         "normalizedIncome": 300684034.586917,
-        "unusualItems": -11521000,
-        "unusualItemsExGoodwill": -11521000,
+        "unusualItems": -11521000.0,
+        "unusualItemsExGoodwill": -11521000.0,
         "unusualTaxEffect": -2451965.413083,
-        "specialIncomeCharges": -11521000,
-        "otherNonOperating": 280000,
-        "restructuring": 12103000,
-        "stockComp": 3553000
+        "specialIncomeCharges": -11521000.0,
+        "otherNonOperating": 280000.0,
+        "restructuring": 12103000.0,
+        "stockComp": 3553000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 2646067000,
+        "revenue": 2646067000.0,
         "netIncome": 330806000,
-        "opIncome": 426744000,
+        "opIncome": 426744000.0,
         "endDate": "2025-12-31",
         "eps": 9.37,
-        "ocf": 468540000,
-        "capex": -66090000,
-        "fcf": 402450000,
-        "pretaxIncome": 418499000,
-        "taxProvision": 87693000,
+        "ocf": 468540000.0,
+        "capex": -66090000.0,
+        "fcf": 402450000.0,
+        "pretaxIncome": 418499000.0,
+        "taxProvision": 87693000.0,
         "normalizedIncome": 341196574.099341,
-        "unusualItems": -13145000,
-        "unusualItemsExGoodwill": -13145000,
+        "unusualItems": -13145000.0,
+        "unusualItemsExGoodwill": -13145000.0,
         "unusualTaxEffect": -2754425.900659,
-        "specialIncomeCharges": -13145000,
-        "otherNonOperating": -32000,
-        "restructuring": 13539000,
-        "stockComp": 6063000
+        "specialIncomeCharges": -13145000.0,
+        "otherNonOperating": -32000.0,
+        "restructuring": 13539000.0,
+        "stockComp": 6063000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 2865332000,
+        "revenue": 2865332000.0,
         "netIncome": 370378000,
-        "opIncome": 485718000,
+        "opIncome": 485718000.0,
         "endDate": "2026-03-31",
         "eps": 10.51,
-        "ocf": 388828000,
-        "capex": -147473000,
-        "fcf": 241355000,
-        "pretaxIncome": 482146000,
-        "taxProvision": 111768000,
-        "normalizedIncome": 378110224,
-        "unusualItems": -10068000,
-        "unusualItemsExGoodwill": -10068000,
-        "unusualTaxEffect": -2335776,
-        "specialIncomeCharges": -10068000,
-        "otherNonOperating": 464000,
-        "restructuring": 10370000,
-        "stockComp": 19406000
+        "ocf": 388828000.0,
+        "capex": -147473000.0,
+        "fcf": 241355000.0,
+        "pretaxIncome": 482146000.0,
+        "taxProvision": 111768000.0,
+        "normalizedIncome": 378110224.0,
+        "unusualItems": -10068000.0,
+        "unusualItemsExGoodwill": -10068000.0,
+        "unusualTaxEffect": -2335776.0,
+        "specialIncomeCharges": -10068000.0,
+        "otherNonOperating": 464000.0,
+        "restructuring": 10370000.0,
+        "stockComp": 19406000.0
       },
       {
         "period": "Q2'26",
@@ -14571,19 +14573,19 @@ const FINANCIALS_DATA = {
         "opIncome": 557966000,
         "eps": 12.53,
         "endDate": "2026-06-30",
-        "ocf": 1139426000,
-        "capex": -141364000,
-        "fcf": 998062000,
-        "pretaxIncome": 566243000,
-        "taxProvision": 124641000,
+        "ocf": 1139426000.0,
+        "capex": -141364000.0,
+        "fcf": 998062000.0,
+        "pretaxIncome": 566243000.0,
+        "taxProvision": 124641000.0,
         "normalizedIncome": 442584649.71046,
-        "unusualItems": -1260000,
-        "unusualItemsExGoodwill": -1260000,
+        "unusualItems": -1260000.0,
+        "unusualItemsExGoodwill": -1260000.0,
         "unusualTaxEffect": -277350.28954,
-        "specialIncomeCharges": -1260000,
-        "otherNonOperating": 708000,
-        "restructuring": 2045000,
-        "stockComp": 9206000
+        "specialIncomeCharges": -1260000.0,
+        "otherNonOperating": 708000.0,
+        "restructuring": 2045000.0,
+        "stockComp": 9206000.0
       }
     ],
     "_currency": "USD",
@@ -14593,105 +14595,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-21",
-        "shares": 36394751
+        "shares": 36394751.0
       },
       {
         "date": "2021-02-19",
-        "shares": 36185179
+        "shares": 36185179.0
       },
       {
         "date": "2021-04-23",
-        "shares": 36285379
+        "shares": 36285379.0
       },
       {
         "date": "2021-07-23",
-        "shares": 36305194
+        "shares": 36305194.0
       },
       {
         "date": "2021-10-22",
-        "shares": 36041288
+        "shares": 36041288.0
       },
       {
         "date": "2022-02-18",
-        "shares": 35956839
+        "shares": 35956839.0
       },
       {
         "date": "2022-04-22",
-        "shares": 35983287
+        "shares": 35983287.0
       },
       {
         "date": "2022-07-22",
-        "shares": 35776204
+        "shares": 35776204.0
       },
       {
         "date": "2022-10-21",
-        "shares": 35760816
+        "shares": 35760816.0
       },
       {
         "date": "2023-02-16",
-        "shares": 35738041
+        "shares": 35738041.0
       },
       {
         "date": "2023-04-21",
-        "shares": 35767519
+        "shares": 35767519.0
       },
       {
         "date": "2023-07-21",
-        "shares": 35769739
+        "shares": 35769739.0
       },
       {
         "date": "2023-10-20",
-        "shares": 35714815
+        "shares": 35714815.0
       },
       {
         "date": "2024-02-16",
-        "shares": 35684609
+        "shares": 35684609.0
       },
       {
         "date": "2024-04-19",
-        "shares": 35721909
+        "shares": 35721909.0
       },
       {
         "date": "2024-07-19",
-        "shares": 35676594
+        "shares": 35676594.0
       },
       {
         "date": "2024-10-18",
-        "shares": 35592558
+        "shares": 35592558.0
       },
       {
         "date": "2025-02-14",
-        "shares": 35553062
+        "shares": 35553062.0
       },
       {
         "date": "2025-04-18",
-        "shares": 35274843
+        "shares": 35274843.0
       },
       {
         "date": "2025-07-18",
-        "shares": 35281452
+        "shares": 35281452.0
       },
       {
         "date": "2025-10-17",
-        "shares": 35271950
+        "shares": 35271950.0
       },
       {
         "date": "2026-02-13",
-        "shares": 35174967
+        "shares": 35174967.0
       },
       {
         "date": "2026-04-17",
-        "shares": 35202424
+        "shares": 35202424.0
       },
       {
         "date": "2026-07-17",
-        "shares": 35194329
+        "shares": 35194329.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:17",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -14716,8 +14718,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "MOD": {
@@ -14736,23 +14738,23 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 1975500000,
-        "netIncome": -2200000,
-        "opIncome": 37900000,
+        "revenue": 1975500000.0,
+        "netIncome": -2200000.0,
+        "opIncome": 37900000.0,
         "eps": -0.04,
         "ocf": 57900000,
-        "capex": -71300000,
-        "fcf": -13400000,
+        "capex": -71300000.0,
+        "fcf": -13400000.0,
         "endDate": "2020-03-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 1808400000,
+        "revenue": 1808400000.0,
         "netIncome": -210700000,
         "opIncome": -97700000,
         "eps": -4.11,
-        "ocf": 149800000,
+        "ocf": 149800000.0,
         "capex": -32700000,
         "fcf": 117100000,
         "endDate": "2021-03-31",
@@ -14760,250 +14762,250 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2022",
-        "revenue": 2050100000,
-        "netIncome": 85200000,
-        "opIncome": 119200000,
+        "revenue": 2050100000.0,
+        "netIncome": 85200000.0,
+        "opIncome": 119200000.0,
         "eps": 1.62,
-        "ocf": 11500000,
-        "capex": -40300000,
-        "fcf": -28800000,
+        "ocf": 11500000.0,
+        "capex": -40300000.0,
+        "fcf": -28800000.0,
         "endDate": "2022-03-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2023",
-        "revenue": 2297900000,
-        "netIncome": 153100000,
-        "opIncome": 150400000,
+        "revenue": 2297900000.0,
+        "netIncome": 153100000.0,
+        "opIncome": 150400000.0,
         "eps": 2.9,
         "ocf": 107500000,
-        "capex": -50700000,
-        "fcf": 56800000,
+        "capex": -50700000.0,
+        "fcf": 56800000.0,
         "endDate": "2023-03-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 125300000,
-        "taxProvision": -28300000,
-        "normalizedIncome": 159973000,
-        "unusualItems": -8700000,
-        "unusualItemsExGoodwill": -8700000,
-        "unusualTaxEffect": -1827000,
-        "specialIncomeCharges": -5000000,
-        "otherNonOperating": -2000000,
-        "restructuring": 5000000,
-        "stockComp": 6600000
+        "pretaxIncome": 125300000.0,
+        "taxProvision": -28300000.0,
+        "normalizedIncome": 159973000.0,
+        "unusualItems": -8700000.0,
+        "unusualItemsExGoodwill": -8700000.0,
+        "unusualTaxEffect": -1827000.0,
+        "specialIncomeCharges": -5000000.0,
+        "otherNonOperating": -2000000.0,
+        "restructuring": 5000000.0,
+        "stockComp": 6600000.0
       },
       {
         "period": "2024",
-        "revenue": 2407800000,
-        "netIncome": 161500000,
-        "opIncome": 240700000,
+        "revenue": 2407800000.0,
+        "netIncome": 161500000.0,
+        "opIncome": 240700000.0,
         "eps": 3.03,
         "ocf": 214600000,
         "capex": -87700000,
-        "fcf": 126900000,
+        "fcf": 126900000.0,
         "endDate": "2024-03-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 214600000,
-        "taxProvision": 51200000,
+        "pretaxIncome": 214600000.0,
+        "taxProvision": 51200000.0,
         "normalizedIncome": 172159832.246039,
-        "unusualItems": -14000000,
-        "unusualItemsExGoodwill": -14000000,
+        "unusualItems": -14000000.0,
+        "unusualItemsExGoodwill": -14000000.0,
         "unusualTaxEffect": -3340167.753961,
-        "specialIncomeCharges": -11000000,
-        "otherNonOperating": -3300000,
-        "restructuring": 15000000,
-        "stockComp": 10800000
+        "specialIncomeCharges": -11000000.0,
+        "otherNonOperating": -3300000.0,
+        "restructuring": 15000000.0,
+        "stockComp": 10800000.0
       },
       {
         "period": "2025",
-        "revenue": 2583500000,
-        "netIncome": 184000000,
-        "opIncome": 283500000,
+        "revenue": 2583500000.0,
+        "netIncome": 184000000.0,
+        "opIncome": 283500000.0,
         "eps": 3.42,
         "ocf": 213300000,
         "capex": -84000000,
-        "fcf": 129300000,
+        "fcf": 129300000.0,
         "endDate": "2025-03-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 254000000,
-        "taxProvision": 68500000,
+        "pretaxIncome": 254000000.0,
+        "taxProvision": 68500000.0,
         "normalizedIncome": 205471259.84252,
-        "unusualItems": -29400000,
-        "unusualItemsExGoodwill": -29400000,
+        "unusualItems": -29400000.0,
+        "unusualItemsExGoodwill": -29400000.0,
         "unusualTaxEffect": -7928740.15748,
-        "specialIncomeCharges": -28200000,
-        "otherNonOperating": -4600000,
-        "impairment": 0,
-        "restructuring": 28200000,
-        "stockComp": 26400000
+        "specialIncomeCharges": -28200000.0,
+        "otherNonOperating": -4600000.0,
+        "impairment": 0.0,
+        "restructuring": 28200000.0,
+        "stockComp": 26400000.0
       },
       {
         "period": "2026",
-        "revenue": 3181100000,
-        "netIncome": 121500000,
-        "opIncome": 342400000,
+        "revenue": 3181100000.0,
+        "netIncome": 121500000.0,
+        "opIncome": 342400000.0,
         "eps": 2.26,
         "ocf": 248700000,
         "capex": -143300000,
-        "fcf": 105400000,
+        "fcf": 105400000.0,
         "endDate": "2026-03-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": 186500000,
-        "taxProvision": 63200000,
-        "normalizedIncome": 144833300,
-        "unusualItems": -35300000,
-        "unusualItemsExGoodwill": -35300000,
-        "unusualTaxEffect": -11966700,
-        "specialIncomeCharges": -28600000,
-        "otherNonOperating": -119600000,
-        "impairment": 4100000,
-        "restructuring": 20600000,
-        "stockComp": 22100000
+        "pretaxIncome": 186500000.0,
+        "taxProvision": 63200000.0,
+        "normalizedIncome": 144833300.0,
+        "unusualItems": -35300000.0,
+        "unusualItemsExGoodwill": -35300000.0,
+        "unusualTaxEffect": -11966700.0,
+        "specialIncomeCharges": -28600000.0,
+        "otherNonOperating": -119600000.0,
+        "impairment": 4100000.0,
+        "restructuring": 20600000.0,
+        "stockComp": 22100000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 620500000,
-        "netIncome": 46500000,
-        "opIncome": 65700000,
+        "revenue": 620500000.0,
+        "netIncome": 46500000.0,
+        "opIncome": 65700000.0,
         "endDate": "2023-09-30",
         "eps": 0.87
       },
       {
         "period": "Q4'23",
-        "revenue": 561400000,
-        "netIncome": 44400000,
-        "opIncome": 61700000,
+        "revenue": 561400000.0,
+        "netIncome": 44400000.0,
+        "opIncome": 61700000.0,
         "endDate": "2023-12-31",
         "eps": 0.83
       },
       {
         "period": "Q1'24",
-        "revenue": 603500000,
-        "netIncome": 25800000,
-        "opIncome": 46800000,
+        "revenue": 603500000.0,
+        "netIncome": 25800000.0,
+        "opIncome": 46800000.0,
         "endDate": "2024-03-31"
       },
       {
         "period": "Q2'24",
-        "revenue": 661500000,
-        "netIncome": 47300000,
-        "opIncome": 74400000,
+        "revenue": 661500000.0,
+        "netIncome": 47300000.0,
+        "opIncome": 74400000.0,
         "endDate": "2024-06-30",
         "eps": 0.88
       },
       {
         "period": "Q3'24",
-        "revenue": 658000000,
-        "netIncome": 46100000,
-        "opIncome": 75300000,
+        "revenue": 658000000.0,
+        "netIncome": 46100000.0,
+        "opIncome": 75300000.0,
         "endDate": "2024-09-30",
         "eps": 0.86
       },
       {
         "period": "Q4'24",
-        "revenue": 616800000,
-        "netIncome": 41000000,
-        "opIncome": 59300000,
+        "revenue": 616800000.0,
+        "netIncome": 41000000.0,
+        "opIncome": 59300000.0,
         "endDate": "2024-12-31",
         "eps": 0.76,
-        "impairment": 0
+        "impairment": 0.0
       },
       {
         "period": "Q1'25",
-        "revenue": 647200000,
-        "netIncome": 49600000,
-        "opIncome": 74500000,
+        "revenue": 647200000.0,
+        "netIncome": 49600000.0,
+        "opIncome": 74500000.0,
         "endDate": "2025-03-31",
-        "otherNonOperating": -1100000
+        "otherNonOperating": -1100000.0
       },
       {
         "period": "Q2'25",
-        "revenue": 682800000,
-        "netIncome": 51200000,
-        "opIncome": 75700000,
+        "revenue": 682800000.0,
+        "netIncome": 51200000.0,
+        "opIncome": 75700000.0,
         "endDate": "2025-06-30",
         "eps": 0.95,
-        "ocf": 27700000,
-        "capex": -27500000,
-        "fcf": 200000,
-        "pretaxIncome": 65700000,
-        "taxProvision": 14000000,
+        "ocf": 27700000.0,
+        "capex": -27500000.0,
+        "fcf": 200000.0,
+        "pretaxIncome": 65700000.0,
+        "taxProvision": 14000000.0,
         "normalizedIncome": 57652663.622527,
-        "unusualItems": -8200000,
-        "unusualItemsExGoodwill": -8200000,
+        "unusualItems": -8200000.0,
+        "unusualItemsExGoodwill": -8200000.0,
         "unusualTaxEffect": -1747336.377473,
-        "specialIncomeCharges": -4800000,
-        "otherNonOperating": -1300000,
-        "restructuring": 4800000,
-        "stockComp": 5300000
+        "specialIncomeCharges": -4800000.0,
+        "otherNonOperating": -1300000.0,
+        "restructuring": 4800000.0,
+        "stockComp": 5300000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 738900000,
-        "netIncome": 44400000,
-        "opIncome": 73500000,
+        "revenue": 738900000.0,
+        "netIncome": 44400000.0,
+        "opIncome": 73500000.0,
         "endDate": "2025-09-30",
         "eps": 0.83,
-        "ocf": 1400000,
-        "capex": -31900000,
-        "fcf": -30500000,
-        "pretaxIncome": 63700000,
-        "taxProvision": 18900000,
-        "normalizedIncome": 50024000,
-        "unusualItems": -8000000,
-        "unusualItemsExGoodwill": -8000000,
-        "unusualTaxEffect": -2376000,
-        "specialIncomeCharges": -7200000,
-        "otherNonOperating": -1200000,
-        "impairment": 4100000,
-        "restructuring": 3100000,
-        "stockComp": 2100000
+        "ocf": 1400000.0,
+        "capex": -31900000.0,
+        "fcf": -30500000.0,
+        "pretaxIncome": 63700000.0,
+        "taxProvision": 18900000.0,
+        "normalizedIncome": 50024000.0,
+        "unusualItems": -8000000.0,
+        "unusualItemsExGoodwill": -8000000.0,
+        "unusualTaxEffect": -2376000.0,
+        "specialIncomeCharges": -7200000.0,
+        "otherNonOperating": -1200000.0,
+        "impairment": 4100000.0,
+        "restructuring": 3100000.0,
+        "stockComp": 2100000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 805000000,
-        "netIncome": -47400000,
-        "opIncome": 89300000,
+        "revenue": 805000000.0,
+        "netIncome": -47400000.0,
+        "opIncome": 89300000.0,
         "endDate": "2025-12-31",
         "eps": -0.9,
-        "ocf": 24700000,
-        "capex": -41800000,
-        "fcf": -17100000,
-        "pretaxIncome": -38500000,
-        "taxProvision": 8300000,
-        "normalizedIncome": -39579000,
-        "unusualItems": -9900000,
-        "unusualItemsExGoodwill": -9900000,
-        "unusualTaxEffect": -2079000,
-        "specialIncomeCharges": -7500000,
-        "otherNonOperating": -117000000,
-        "impairment": 0,
-        "restructuring": 7500000,
-        "stockComp": 6700000
+        "ocf": 24700000.0,
+        "capex": -41800000.0,
+        "fcf": -17100000.0,
+        "pretaxIncome": -38500000.0,
+        "taxProvision": 8300000.0,
+        "normalizedIncome": -39579000.0,
+        "unusualItems": -9900000.0,
+        "unusualItemsExGoodwill": -9900000.0,
+        "unusualTaxEffect": -2079000.0,
+        "specialIncomeCharges": -7500000.0,
+        "otherNonOperating": -117000000.0,
+        "impairment": 0.0,
+        "restructuring": 7500000.0,
+        "stockComp": 6700000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 954400000,
-        "netIncome": 73300000,
-        "opIncome": 103900000,
+        "revenue": 954400000.0,
+        "netIncome": 73300000.0,
+        "opIncome": 103900000.0,
         "endDate": "2026-03-31",
         "eps": 1.36,
-        "ocf": 194900000,
-        "capex": -42100000,
-        "fcf": 152800000,
-        "pretaxIncome": 95600000,
-        "taxProvision": 22000000,
+        "ocf": 194900000.0,
+        "capex": -42100000.0,
+        "fcf": 152800000.0,
+        "pretaxIncome": 95600000.0,
+        "taxProvision": 22000000.0,
         "normalizedIncome": 80382845.188285,
-        "unusualItems": -9200000,
-        "unusualItemsExGoodwill": -9200000,
+        "unusualItems": -9200000.0,
+        "unusualItemsExGoodwill": -9200000.0,
         "unusualTaxEffect": -2117154.811715,
-        "specialIncomeCharges": -9100000,
-        "otherNonOperating": -100000,
-        "impairment": 0,
-        "restructuring": 5200000,
-        "stockComp": 8000000
+        "specialIncomeCharges": -9100000.0,
+        "otherNonOperating": -100000.0,
+        "impairment": 0.0,
+        "restructuring": 5200000.0,
+        "stockComp": 8000000.0
       },
       {
         "period": "Q2'26",
@@ -15012,18 +15014,18 @@ const FINANCIALS_DATA = {
         "opIncome": 74800000,
         "eps": 1.37,
         "endDate": "2026-06-30",
-        "ocf": 41400000,
-        "capex": -46400000,
-        "fcf": -5000000,
-        "pretaxIncome": 68600000,
-        "taxProvision": -5700000,
-        "normalizedIncome": 76360000,
-        "unusualItems": -4100000,
-        "unusualItemsExGoodwill": -4100000,
-        "unusualTaxEffect": -1640000,
-        "specialIncomeCharges": -3900000,
-        "restructuring": 3900000,
-        "stockComp": 8000000
+        "ocf": 41400000.0,
+        "capex": -46400000.0,
+        "fcf": -5000000.0,
+        "pretaxIncome": 68600000.0,
+        "taxProvision": -5700000.0,
+        "normalizedIncome": 76360000.0,
+        "unusualItems": -4100000.0,
+        "unusualItemsExGoodwill": -4100000.0,
+        "unusualTaxEffect": -1640000.0,
+        "specialIncomeCharges": -3900000.0,
+        "restructuring": 3900000.0,
+        "stockComp": 8000000.0
       }
     ],
     "_currency": "USD",
@@ -15033,105 +15035,105 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2020-10-30",
-        "shares": 51147640
+        "shares": 51147640.0
       },
       {
         "date": "2021-01-29",
-        "shares": 51421276
+        "shares": 51421276.0
       },
       {
         "date": "2021-05-21",
-        "shares": 51626626
+        "shares": 51626626.0
       },
       {
         "date": "2021-07-30",
-        "shares": 51753022
+        "shares": 51753022.0
       },
       {
         "date": "2021-10-29",
-        "shares": 51853603
+        "shares": 51853603.0
       },
       {
         "date": "2022-01-28",
-        "shares": 51913896
+        "shares": 51913896.0
       },
       {
         "date": "2022-05-20",
-        "shares": 51970887
+        "shares": 51970887.0
       },
       {
         "date": "2022-07-29",
-        "shares": 52011473
+        "shares": 52011473.0
       },
       {
         "date": "2022-10-28",
-        "shares": 52099388
+        "shares": 52099388.0
       },
       {
         "date": "2023-01-27",
-        "shares": 52120189
+        "shares": 52120189.0
       },
       {
         "date": "2023-05-19",
-        "shares": 52065078
+        "shares": 52065078.0
       },
       {
         "date": "2023-07-28",
-        "shares": 52283256
+        "shares": 52283256.0
       },
       {
         "date": "2023-10-27",
-        "shares": 52242268
+        "shares": 52242268.0
       },
       {
         "date": "2024-01-26",
-        "shares": 52207750
+        "shares": 52207750.0
       },
       {
         "date": "2024-05-17",
-        "shares": 52322085
+        "shares": 52322085.0
       },
       {
         "date": "2024-07-26",
-        "shares": 52413580
+        "shares": 52413580.0
       },
       {
         "date": "2024-10-25",
-        "shares": 52503083
+        "shares": 52503083.0
       },
       {
         "date": "2025-01-31",
-        "shares": 52574000
+        "shares": 52574000.0
       },
       {
         "date": "2025-05-16",
-        "shares": 52391883
+        "shares": 52391883.0
       },
       {
         "date": "2025-07-25",
-        "shares": 52490229
+        "shares": 52490229.0
       },
       {
         "date": "2025-10-24",
-        "shares": 52648568
+        "shares": 52648568.0
       },
       {
         "date": "2026-01-30",
-        "shares": 52731197
+        "shares": 52731197.0
       },
       {
         "date": "2026-05-22",
-        "shares": 52815785
+        "shares": 52815785.0
       },
       {
         "date": "2026-07-24",
-        "shares": 53112708
+        "shares": 53112708.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:16",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -15156,8 +15158,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "BE": {
@@ -15188,141 +15190,141 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "2020",
-        "revenue": 794247000,
+        "revenue": 794247000.0,
         "netIncome": -157574000,
-        "opIncome": -80785000,
+        "opIncome": -80785000.0,
         "eps": -1.14,
-        "ocf": -98796000,
-        "capex": -37913000,
-        "fcf": -136709000,
+        "ocf": -98796000.0,
+        "capex": -37913000.0,
+        "fcf": -136709000.0,
         "endDate": "2020-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2021",
-        "revenue": 972176000,
+        "revenue": 972176000.0,
         "netIncome": -164473000,
-        "opIncome": -114502000,
+        "opIncome": -114502000.0,
         "eps": -0.95,
-        "ocf": -60681000,
-        "capex": -49810000,
-        "fcf": -110491000,
+        "ocf": -60681000.0,
+        "capex": -49810000.0,
+        "fcf": -110491000.0,
         "endDate": "2021-12-31",
         "_fcfIsProxy": true
       },
       {
         "period": "2022",
-        "revenue": 1199125000,
+        "revenue": 1199125000.0,
         "netIncome": -301708000,
         "opIncome": -260992000,
         "eps": -1.62,
         "ocf": -191723000,
         "capex": -116823000,
-        "fcf": -308546000,
+        "fcf": -308546000.0,
         "endDate": "2022-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -313989000,
-        "taxProvision": 1097000,
-        "normalizedIncome": -294780690,
-        "unusualItems": -8389000,
-        "unusualItemsExGoodwill": -8389000,
-        "unusualTaxEffect": -1761690,
-        "specialIncomeCharges": -8955000,
-        "otherNonOperating": 4998000,
-        "stockComp": 112259000
+        "pretaxIncome": -313989000.0,
+        "taxProvision": 1097000.0,
+        "normalizedIncome": -294780690.0,
+        "unusualItems": -8389000.0,
+        "unusualItemsExGoodwill": -8389000.0,
+        "unusualTaxEffect": -1761690.0,
+        "specialIncomeCharges": -8955000.0,
+        "otherNonOperating": 4998000.0,
+        "stockComp": 112259000.0
       },
       {
         "period": "2023",
-        "revenue": 1333470000,
+        "revenue": 1333470000.0,
         "netIncome": -302116000,
         "opIncome": -208907000,
         "eps": -1.42,
         "ocf": -372531000,
         "capex": -83739000,
-        "fcf": -456270000,
+        "fcf": -456270000.0,
         "endDate": "2023-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -306043000,
-        "taxProvision": 1894000,
-        "normalizedIncome": -297432090,
-        "unusualItems": -5929000,
-        "unusualItemsExGoodwill": -5929000,
-        "unusualTaxEffect": -1245090,
-        "specialIncomeCharges": -4288000,
-        "otherNonOperating": -2793000,
-        "stockComp": 84480000
+        "pretaxIncome": -306043000.0,
+        "taxProvision": 1894000.0,
+        "normalizedIncome": -297432090.0,
+        "unusualItems": -5929000.0,
+        "unusualItemsExGoodwill": -5929000.0,
+        "unusualTaxEffect": -1245090.0,
+        "specialIncomeCharges": -4288000.0,
+        "otherNonOperating": -2793000.0,
+        "stockComp": 84480000.0
       },
       {
         "period": "2024",
-        "revenue": 1473856000,
-        "netIncome": -27203000,
+        "revenue": 1473856000.0,
+        "netIncome": -27203000.0,
         "opIncome": 22909000,
         "eps": -0.13,
         "ocf": 91998000,
         "capex": -58852000,
-        "fcf": 33146000,
+        "fcf": 33146000.0,
         "endDate": "2024-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -26357000,
-        "taxProvision": 846000,
-        "normalizedIncome": -7204960,
-        "unusualItems": -27876000,
-        "unusualItemsExGoodwill": -27876000,
-        "unusualTaxEffect": -5853960,
-        "specialIncomeCharges": -27182000,
-        "otherNonOperating": 15904000,
-        "stockComp": 82424000
+        "pretaxIncome": -26357000.0,
+        "taxProvision": 846000.0,
+        "normalizedIncome": -7204960.0,
+        "unusualItems": -27876000.0,
+        "unusualItemsExGoodwill": -27876000.0,
+        "unusualTaxEffect": -5853960.0,
+        "specialIncomeCharges": -27182000.0,
+        "otherNonOperating": 15904000.0,
+        "stockComp": 82424000.0
       },
       {
         "period": "2025",
-        "revenue": 2023994000,
-        "netIncome": -87140000,
+        "revenue": 2023994000.0,
+        "netIncome": -87140000.0,
         "opIncome": 72802000,
         "eps": -0.37,
         "ocf": 113949000,
         "capex": -56759000,
-        "fcf": 57190000,
+        "fcf": 57190000.0,
         "endDate": "2025-12-31",
         "_fcfIsProxy": false,
-        "pretaxIncome": -84404000,
-        "taxProvision": 2736000,
-        "normalizedIncome": -10130780,
-        "unusualItems": -99118000,
-        "unusualItemsExGoodwill": -99118000,
-        "unusualTaxEffect": -20814780,
-        "specialIncomeCharges": -98581000,
-        "otherNonOperating": 2151000,
-        "stockComp": 139406000
+        "pretaxIncome": -84404000.0,
+        "taxProvision": 2736000.0,
+        "normalizedIncome": -10130780.0,
+        "unusualItems": -99118000.0,
+        "unusualItemsExGoodwill": -99118000.0,
+        "unusualTaxEffect": -20814780.0,
+        "specialIncomeCharges": -98581000.0,
+        "otherNonOperating": 2151000.0,
+        "stockComp": 139406000.0
       }
     ],
     "quarterly": [
       {
         "period": "Q3'23",
-        "revenue": 400268000,
-        "netIncome": -168078000,
+        "revenue": 400268000.0,
+        "netIncome": -168078000.0,
         "opIncome": -103708000,
         "endDate": "2023-09-30",
         "eps": -0.8
       },
       {
         "period": "Q4'23",
-        "revenue": 356916000,
+        "revenue": 356916000.0,
         "netIncome": 9938000,
         "opIncome": 12938000,
         "endDate": "2023-12-31"
       },
       {
         "period": "Q1'24",
-        "revenue": 235298000,
-        "netIncome": -56543000,
+        "revenue": 235298000.0,
+        "netIncome": -56543000.0,
         "opIncome": -49017000,
         "endDate": "2024-03-31",
         "eps": -0.25
       },
       {
         "period": "Q2'24",
-        "revenue": 335767000,
-        "netIncome": -61185000,
+        "revenue": 335767000.0,
+        "netIncome": -61185000.0,
         "opIncome": -23128000,
         "endDate": "2024-06-30",
         "eps": -0.27
@@ -15330,7 +15332,7 @@ const FINANCIALS_DATA = {
       {
         "period": "Q3'24",
         "revenue": 330399000,
-        "netIncome": -14632000,
+        "netIncome": -14632000.0,
         "opIncome": -9651000,
         "endDate": "2024-09-30",
         "eps": null,
@@ -15338,15 +15340,15 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q4'24",
-        "revenue": 572393000,
-        "netIncome": 105157000,
+        "revenue": 572393000.0,
+        "netIncome": 105157000.0,
         "opIncome": 104706000,
         "endDate": "2024-12-31",
-        "specialIncomeCharges": 0
+        "specialIncomeCharges": 0.0
       },
       {
         "period": "Q1'25",
-        "revenue": 326021000,
+        "revenue": 326021000.0,
         "netIncome": -23814000,
         "opIncome": -19070000,
         "endDate": "2025-03-31",
@@ -15354,105 +15356,105 @@ const FINANCIALS_DATA = {
       },
       {
         "period": "Q2'25",
-        "revenue": 401242000,
-        "netIncome": -42192000,
+        "revenue": 401242000.0,
+        "netIncome": -42192000.0,
         "opIncome": -3503000,
         "endDate": "2025-06-30",
         "eps": -0.18,
-        "ocf": -213111000,
-        "capex": -7245000,
-        "fcf": -220356000,
-        "pretaxIncome": -41175000,
-        "taxProvision": 1017000,
-        "normalizedIncome": -17158880,
-        "unusualItems": -32228000,
-        "unusualItemsExGoodwill": -32228000,
-        "unusualTaxEffect": -6767880,
-        "specialIncomeCharges": -32340000,
-        "otherNonOperating": 2373000,
-        "stockComp": 29284000
+        "ocf": -213111000.0,
+        "capex": -7245000.0,
+        "fcf": -220356000.0,
+        "pretaxIncome": -41175000.0,
+        "taxProvision": 1017000.0,
+        "normalizedIncome": -17158880.0,
+        "unusualItems": -32228000.0,
+        "unusualItemsExGoodwill": -32228000.0,
+        "unusualTaxEffect": -6767880.0,
+        "specialIncomeCharges": -32340000.0,
+        "otherNonOperating": 2373000.0,
+        "stockComp": 29284000.0
       },
       {
         "period": "Q3'25",
-        "revenue": 519048000,
-        "netIncome": -22960000,
+        "revenue": 519048000.0,
+        "netIncome": -22960000.0,
         "opIncome": 7846000,
         "endDate": "2025-09-30",
         "eps": -0.1,
         "_epsRemovedReason": "같은 배열 내 주식수 역산값이 중앙값보다 985배 작음 - 단위/스케일 오류 의심(원본 eps=-100)",
-        "ocf": 19669000,
-        "capex": -12301000,
-        "fcf": 7368000,
-        "pretaxIncome": -22624000,
-        "taxProvision": 336000,
-        "normalizedIncome": -22768310,
-        "unusualItems": -411000,
-        "unusualItemsExGoodwill": -411000,
-        "unusualTaxEffect": -86310,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": -1362000,
-        "stockComp": 37255000
+        "ocf": 19669000.0,
+        "capex": -12301000.0,
+        "fcf": 7368000.0,
+        "pretaxIncome": -22624000.0,
+        "taxProvision": 336000.0,
+        "normalizedIncome": -22768310.0,
+        "unusualItems": -411000.0,
+        "unusualItemsExGoodwill": -411000.0,
+        "unusualTaxEffect": -86310.0,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": -1362000.0,
+        "stockComp": 37255000.0
       },
       {
         "period": "Q4'25",
-        "revenue": 777683000,
-        "netIncome": 1426000,
+        "revenue": 777683000.0,
+        "netIncome": 1426000.0,
         "opIncome": 87529000,
         "endDate": "2025-12-31",
-        "eps": 0,
-        "ocf": 418073000,
-        "capex": -22954000,
-        "fcf": 395119000,
-        "pretaxIncome": 2378000,
-        "taxProvision": 952000,
-        "normalizedIncome": 40917600,
-        "unusualItems": -66376000,
-        "unusualItemsExGoodwill": -66376000,
-        "unusualTaxEffect": -26550400,
-        "specialIncomeCharges": -66241000,
-        "otherNonOperating": -908000,
-        "stockComp": 42813000
+        "eps": 0.0,
+        "ocf": 418073000.0,
+        "capex": -22954000.0,
+        "fcf": 395119000.0,
+        "pretaxIncome": 2378000.0,
+        "taxProvision": 952000.0,
+        "normalizedIncome": 40917600.0,
+        "unusualItems": -66376000.0,
+        "unusualItemsExGoodwill": -66376000.0,
+        "unusualTaxEffect": -26550400.0,
+        "specialIncomeCharges": -66241000.0,
+        "otherNonOperating": -908000.0,
+        "stockComp": 42813000.0
       },
       {
         "period": "Q1'26",
-        "revenue": 751054000,
+        "revenue": 751054000.0,
         "netIncome": 70653000,
         "opIncome": 72190000,
         "endDate": "2026-03-31",
         "eps": 0.23,
-        "ocf": 73610000,
-        "capex": -26182000,
-        "fcf": 47428000,
-        "pretaxIncome": 74136000,
-        "taxProvision": 445000,
-        "normalizedIncome": 69903524,
-        "unusualItems": 754000,
-        "unusualItemsExGoodwill": 754000,
-        "unusualTaxEffect": 4524,
-        "otherNonOperating": 6197000,
-        "stockComp": 45125000
+        "ocf": 73610000.0,
+        "capex": -26182000.0,
+        "fcf": 47428000.0,
+        "pretaxIncome": 74136000.0,
+        "taxProvision": 445000.0,
+        "normalizedIncome": 69903524.0,
+        "unusualItems": 754000.0,
+        "unusualItemsExGoodwill": 754000.0,
+        "unusualTaxEffect": 4524.0,
+        "otherNonOperating": 6197000.0,
+        "stockComp": 45125000.0
       },
       {
         "period": "Q2'26",
         "endDate": "2026-06-30",
-        "revenue": 1065365000,
-        "netIncome": 196290000,
-        "opIncome": 182237000,
+        "revenue": 1065365000.0,
+        "netIncome": 196290000.0,
+        "opIncome": 182237000.0,
         "eps": 0.62,
-        "ocf": 226432000,
-        "capex": -51641000,
-        "fcf": 174791000,
-        "pretaxIncome": 200326000,
-        "taxProvision": 1470000,
+        "ocf": 226432000.0,
+        "capex": -51641000.0,
+        "fcf": 174791000.0,
+        "pretaxIncome": 200326000.0,
+        "taxProvision": 1470000.0,
         "normalizedIncome": 196825044.796981,
-        "unusualItems": -539000,
-        "unusualItemsExGoodwill": -539000,
+        "unusualItems": -539000.0,
+        "unusualItemsExGoodwill": -539000.0,
         "unusualTaxEffect": -3955.203019,
-        "specialIncomeCharges": 0,
-        "otherNonOperating": 2307000,
+        "specialIncomeCharges": 0.0,
+        "otherNonOperating": 2307000.0,
         "impairment": null,
         "restructuring": null,
-        "stockComp": 57229000
+        "stockComp": 57229000.0
       }
     ],
     "_currency": "USD",
@@ -15462,53 +15464,53 @@ const FINANCIALS_DATA = {
     "sharesOutstanding": [
       {
         "date": "2023-11-01",
-        "shares": 224048769
+        "shares": 224048769.0
       },
       {
         "date": "2024-02-12",
-        "shares": 224973118
+        "shares": 224973118.0
       },
       {
         "date": "2024-05-07",
-        "shares": 227020024
+        "shares": 227020024.0
       },
       {
         "date": "2024-08-05",
-        "shares": 227643371
+        "shares": 227643371.0
       },
       {
         "date": "2024-11-04",
-        "shares": 228575978
+        "shares": 228575978.0
       },
       {
         "date": "2025-02-24",
-        "shares": 230398527
+        "shares": 230398527.0
       },
       {
         "date": "2025-04-25",
-        "shares": 232228606
+        "shares": 232228606.0
       },
       {
         "date": "2025-07-28",
-        "shares": 233997970
+        "shares": 233997970.0
       },
       {
         "date": "2025-10-22",
-        "shares": 236510755
+        "shares": 236510755.0
       },
       {
         "date": "2026-02-02",
-        "shares": 280548215
+        "shares": 280548215.0
       },
       {
         "date": "2026-04-24",
-        "shares": 284443868
+        "shares": 284443868.0
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789090413.7476737,
-    "_updated_label": "2026-09-11 10:37",
-    "_data_quality_version": 13,
+    "_fetched_at": 1789096390.6015272,
+    "_updated_label": "2026-09-11 12:17",
+    "_data_quality_version": 14,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
       {
@@ -15521,7 +15523,7 @@ const FINANCIALS_DATA = {
       },
       {
         "endDate": "2025-12-31",
-        "eps": 0
+        "eps": 0.0
       },
       {
         "endDate": "2026-03-31",
@@ -15533,8 +15535,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_special_items_version": 1,
-    "_yahoo_enrich_version": 3,
-    "_yahoo_verified_at": 1789090599.940038,
+    "_yahoo_enrich_version": 4,
+    "_yahoo_verified_at": 1789096584.828481,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   }
 };
