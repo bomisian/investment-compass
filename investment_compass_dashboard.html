@@ -7639,12 +7639,34 @@ function guidanceHistoryBlock(ticker){
   const cmpText = cmp.status==='available'
     ? `직전 같은 대상기간 가이던스 대비 <b>${cmpLabel}</b>`
     : `직전 동일 대상기간 가이던스와 비교 불가(${esc(cmp.reason||'이전 기록 없음')})`;
+  // 2026-09-11 수정(외부 검토로 발견, ANET 사례) - status가 'met'이 아니면 무조건
+  // ⚠️ 경고 스타일로 렌더링했는데, above_high(상단 초과 = 가이던스를 이겼다는 뜻, 나쁜
+  // 게 아님)도 이 분기에 걸려서 진짜 미달(below_low)과 똑같이 "범위를 벗어났어요"로
+  // 표시됐다. met/above_high/below_low/uncertain_period_match 4가지로 나누고,
+  // above_high·below_low는 저장된 중간값 기준 변동률(variancePct)에 더해 경계값(상단/
+  // 하단) 기준 변동률도 화면에서 따로 계산해 라벨을 붙여 보여준다(둘 다 SEC 검증 매출
+  // 기준). 경계값과 정확히 같으면 met으로 처리(이미 low<=actual<=high 조건에 포함됨).
   const outcome = latest.outcome;
-  const outcomeText = outcome
-    ? (outcome.status==='met'
-        ? `✅ 실제 매출 $${outcome.actual}${outcome.unit==='billion'?'B':'M'}로 가이던스 범위 안에 들었어요(SEC 검증 매출 기준)`
-        : `⚠️ 실제 매출 $${outcome.actual}${outcome.unit==='billion'?'B':'M'}로 가이던스 범위를 벗어났어요(${outcome.variancePct>=0?'+':''}${outcome.variancePct}%, SEC 검증 매출 기준)`)
-    : `아직 이 대상기간의 실적이 SEC로 확정되지 않아 결과 대조 대기 중이에요`;
+  const outcomeUnitLabel = outcome && outcome.unit==='billion' ? 'B' : 'M';
+  const outcomeMidText = (outcome && outcome.variancePct!=null)
+    ? `중간값 대비 ${outcome.variancePct>=0?'+':''}${outcome.variancePct}%`
+    : '';
+  let outcomeText;
+  if(!outcome){
+    outcomeText = `아직 이 대상기간의 실적이 SEC로 확정되지 않아 결과 대조 대기 중이에요`;
+  } else if(outcome.status==='uncertain_period_match'){
+    outcomeText = `❓ 실제 매출 $${outcome.actual}${outcomeUnitLabel}, 가이던스와 차이가 비정상적으로 커서(대상 분기 추정 오류 가능성) met/미달로 단정하지 않았어요${outcome.notice?` - ${esc(outcome.notice)}`:''}`;
+  } else if(outcome.status==='met'){
+    outcomeText = `✅ 실제 매출 $${outcome.actual}${outcomeUnitLabel}로 가이던스 범위 안에 들었어요(SEC 검증 매출 기준)`;
+  } else if(outcome.status==='above_high'){
+    const boundaryPct = outcome.high ? ((outcome.actual/outcome.high - 1)*100) : null;
+    const boundaryText = boundaryPct!=null ? `상단 대비 ${boundaryPct>=0?'+':''}${boundaryPct.toFixed(2)}%` : '';
+    outcomeText = `🟢 실제 매출 $${outcome.actual}${outcomeUnitLabel}로 가이던스 상단을 초과했어요(${[boundaryText, outcomeMidText].filter(Boolean).join(', ')}, SEC 검증 매출 기준)`;
+  } else { // below_low
+    const boundaryPct = outcome.low ? ((outcome.actual/outcome.low - 1)*100) : null;
+    const boundaryText = boundaryPct!=null ? `하단 대비 ${boundaryPct>=0?'+':''}${boundaryPct.toFixed(2)}%` : '';
+    outcomeText = `⚠️ 실제 매출 $${outcome.actual}${outcomeUnitLabel}로 가이던스 하단에 미달했어요(${[boundaryText, outcomeMidText].filter(Boolean).join(', ')}, SEC 검증 매출 기준)`;
+  }
 
   const historyRows = rows.slice(0,6).map(row=>{
     const rg = row.guidance||{};
