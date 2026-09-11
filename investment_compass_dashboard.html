@@ -2257,7 +2257,7 @@ function hasAnyRiskBadge(r){
   const dc = getDirectionCheck(r.ticker);
   if(dc && dc.tone==='risk') return true;
   const rs = (typeof computeRelStrength === 'function') ? computeRelStrength(r) : null;
-  if(rs && rs.rel <= REL_WEAK_THRESHOLD) return true;
+  if(isRelWeak(rs)) return true;
   if(epsFundamentalRiskBadges(r.ticker)) return true;
   return false;
 }
@@ -2432,7 +2432,7 @@ function buildComboPickHtml(scored){
       const rs = computeRelStrength(r);
       const isStrong = r.verdict.label==='강한 매수기회';
       const isNewsRisk = dc && dc.tone==='risk';
-      const isWeakSector = !!(rs && rs.rel <= REL_WEAK_THRESHOLD);
+      const isWeakSector = isRelWeak(rs);
       // 2026-09-09 추가(사용자 요청): "강한 매수기회"가 순수 낙폭 점수라 falling knife(펀더멘털이
       // 실제로 훼손되는 중인 하락)를 못 걸러낸다는 지적 - 이미 수집돼 있던 EPS 컨센서스 방향(하향
       // 중이면 애널리스트들도 실적 눈높이를 낮추는 중이라는 뜻)과 Fundamental 관찰 점수(SEC 공시
@@ -3003,7 +3003,7 @@ function buildAtAGlanceHtml(r){
   // '같은 그룹 대비' 박스(computeRelStrength)에 이미 있는 값을 그대로 재사용한 것.
   const eps = (typeof EPS_DATA !== 'undefined') ? EPS_DATA[r.ticker] : null;
   const rs = computeRelStrength(r);
-  const isWeakSector = !!(rs && rs.rel <= REL_WEAK_THRESHOLD);
+  const isWeakSector = isRelWeak(rs);
 
   const TONE = {
     '강한 매수기회': {bg:'var(--up-bg)', border:'#f3c3bf', color:'#a8322c', head:'📈 지금 좋아 보여요'},
@@ -3248,7 +3248,7 @@ function computeAuxiliaryEvidence(r){
   if(dc){
     items.push({label:`최근 뉴스 방향성 - ${DIR_LABEL[dc.tone]||dc.tone}`, tone: dc.tone==='risk'?'negative':(dc.tone==='positive'?'positive':'neutral')});
   }
-  if(rs && rs.rel <= REL_WEAK_THRESHOLD){
+  if(isRelWeak(rs)){
     items.push({label:`같은 그룹(${rs.sector}) 대비 뒤처짐`, tone:'negative'});
   }
   const posCount = items.filter(i=>i.tone==='positive').length;
@@ -3879,6 +3879,16 @@ function renderDataHealth(r){
 // → 규칙으로 강제하지는 않고(표본이 작아 기존 검증치를 다시 산출해야 함) 경고로만 표시.
 const REL_WEAK_THRESHOLD = -11;   // %p. 이보다 뒤처지면 경고
 const REL_MIN_PEERS = 4;          // 바스켓이 이보다 작으면 비교가 노이즈라 표시 자체를 안 함
+// 2026-09-11 추가(외부 검토로 발견) - "비교군 변경 후 옛 −11%p 문턱 재사용 금지". 위 -11%p는
+// 5년치 검증이 '반도체'·'빅테크·SW' 두 그룹으로만 이뤄졌는데(THEME_TO_SECTOR 주석·아래
+// renderRelStrength의 승률 문구 참고), 2026-09-08에 'AI 네트워킹·광통신'·'AI 전력·인프라'가
+// 자기 자신에게 매핑되는 새 비교군으로 추가되면서(반도체/빅테크·SW와 안 섞이게) 이 임계값이
+// 검증 안 된 새 그룹에도 그대로 적용되고 있었다(실측: renderRelStrength의 weak 안내문이
+// AI전력인프라 종목에도 "반도체 그룹에서는 근거가 약해요"라는, 사실과 다른 그룹을 언급하는
+// 문구를 그대로 보여주고 있었음). 검증된 두 그룹에서만 경고 기준으로 쓰고, 나머지는 숫자만
+// 참고용으로 보여주고 경고·부정 점수로는 쓰지 않는다.
+const REL_WEAK_VALIDATED_SECTORS = ['반도체', '빅테크·SW'];
+function isRelWeak(rs){ return !!(rs && REL_WEAK_VALIDATED_SECTORS.includes(rs.sector) && rs.rel <= REL_WEAK_THRESHOLD); }
 
 // 2026-08-26 추가: '이미 그룹보다 앞서는 종목이 계속 앞서가는지'(모멘텀 지속) 검증.
 // [배경] 사용자가 "저평가냐 아니냐가 아니라, 지금 이 가격에 사도 괜찮을 만큼 흐름이 좋아서
@@ -4014,7 +4024,7 @@ function relStrengthWindow(r, sector, window){
 function renderRelStrength(r){
   const rs = computeRelStrength(r);
   if(!rs) return '';
-  const weak = rs.rel <= REL_WEAK_THRESHOLD;
+  const weak = isRelWeak(rs);
   const strongLeader = false;  // 2026-08-26 10년치 재검증에서 근거 상실 - 항상 false로 비활성화(아래 로직은 죽은 코드로 남김)
   const sign = v => (v>=0?'+':'')+v.toFixed(1)+'%';
   // 경고의 신뢰도는 그룹마다 다름(실측). 빅테크·SW에서만 확실히 갈렸고 반도체 쪽은 차이가 작았음 -
