@@ -1,8 +1,81 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789102333.0335944,
+  "generatedAt": 1789104178.0274444,
   "events": [
+    {
+      "id": "9fadff15da6b6b48f615",
+      "schemaVersion": 1,
+      "eventType": "ai_investment_change",
+      "eventLabel": "AI·데이터센터 투자 변화",
+      "primaryTicker": "AAPL",
+      "relatedTickers": [
+        "AAPL"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Apple",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "risk",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "The new Apple Watch can take notes on all of your conversations – and it could be controversial",
+      "headlineKo": "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있을 수 있습니다.",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9e1f894999f97b845ec26693aa3c800db0d92c1e1e99c3161592ffa5b919a79",
+        "publishedAt": 1789095296,
+        "collectedAt": 1789104143.6823575
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있습니다 | The Independent 등록해 주셔서 감사합니다 자동으로 로그인하려면 페이지를 새로 고치거나 사이트의 다른 페이지로 이동하십시오.",
+        "새로운 Apple Watch Series 12 및 Ultra 4가 이번 주에 출시되었으며, 헤드라인을 장식한 iPhone Duo와 함께 다양한 새로운 개선 사항이 적용되었습니다.",
+        "그 중 하나는 시계의 센서와 AI 도구를 사용하여 소유자 주변 세계와 스마트하게 상호 작용하는 것을 목표로 하는 Apple이 \"오디오 인텔리전스\"라고 부르는 일련의 새로운 기능입니다."
+      ],
+      "marketInterpretation": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+        "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AAPL",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "실제 CAPEX 집행",
+        "공급업체 수주·매출",
+        "투자 기업 OCF·FCF·부채"
+      ]
+    },
     {
       "id": "ba8a60504553b25aeb8d",
       "schemaVersion": 1,
@@ -229,7 +302,7 @@ const EVENT_DATA = {
       "schemaVersion": 1,
       "eventType": "ai_investment_change",
       "eventLabel": "AI·데이터센터 투자 변화",
-      "primaryTicker": "NVDA",
+      "primaryTicker": "AAPL",
       "relatedTickers": [
         "AAPL",
         "AMD",
@@ -266,7 +339,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
         "publishedAt": 1789084350,
-        "collectedAt": 1789092445.7374392
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -280,7 +353,7 @@ const EVENT_DATA = {
         "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
       ],
       "aiInference": [
-        "이 기사는 NVDA의 사업과 관련된 'Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
+        "이 기사는 AAPL의 사업과 관련된 'Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다."
       ],
       "unverified": [
         "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
@@ -1088,13 +1161,13 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4d701f55bc401f0693322b42b74c3abb7844b0fc1bab9b1a7edd39f960be9ea",
         "publishedAt": 1789070649,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
         "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
         "| Trefis는 Applied Materials 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
-        "2026년 9월 10일 · Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
+        "2026년 9월 10일 · Trefis Team AMAT YTD +77.3% SPY YTD +11.4% QQQ YTD +15.5% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
       ],
       "marketInterpretation": [
         "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -4235,7 +4308,7 @@ const EVENT_DATA = {
         "name": "ChartMill",
         "url": "https://finnhub.io/api/news?id=7dec1805e94945bc12a90e8830b680e791cb77de33f894dcc32e62f4dba29a60",
         "publishedAt": 1789041655,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5149,7 +5222,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f1be9c526b747c8a49308868ae0515dcbe3544422a0972b7257d0026f88f69bc",
         "publishedAt": 1789029946,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5323,7 +5396,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=98c3442cad543ee19aa36499ff45b541c7e9af83bc22127f89daf15891f72b8d",
         "publishedAt": 1789029293,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5424,7 +5497,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f41332e7850e32ed85aece2c3a3eacd5b51314f38aea6230fe14e2094e2a8703",
         "publishedAt": 1789025364,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5891,7 +5964,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=87db35c1f6a0acc4716bebd554f20b21949f2d19395bf1b45d4f06ac10bdedd4",
         "publishedAt": 1789008087,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -5966,7 +6039,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2c182360f32d3ddb962b86c103cbc57d2b43ff6659fa639b82bec1c6f07e0435",
         "publishedAt": 1789004905,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -7957,7 +8030,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=014c61f10c304d221610c1b7a8a55e75e32715ab189db490a707490ed55a27ae",
         "publishedAt": 1788983654,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -8232,7 +8305,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0ad66e505147f480152d6169b3fc788b5c2965eb3b24b17a9d831ea7e9a9a0ab",
         "publishedAt": 1788982308,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14292,7 +14365,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f68d17d4cdd27ab718e493d2a2ef446f642375bf884b731c339c0cecfce1320b",
         "publishedAt": 1788918883,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -14469,7 +14542,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e982b9b10637ca38c16ead2813078f4f1e3e69e0390b6918d1eca3b0253f8840",
         "publishedAt": 1788917238,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17096,7 +17169,7 @@ const EVENT_DATA = {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a8c4fc81b70a48ca8c1bc29495bc1502f0dde9d52e28e524b625d99bb1bfa022",
         "publishedAt": 1788884340,
-        "collectedAt": 1789081235.7720685
+        "collectedAt": 1789104143.6823575
       },
       "confirmedFacts": [],
       "reportedClaims": [
@@ -17971,73 +18044,32 @@ const EVENT_DATA = {
         "다음 실적과 현금흐름 영향"
       ],
       "earningsEvidence": null
-    },
-    {
-      "id": "0d79b595a1dbb0a899e0",
-      "schemaVersion": 1,
-      "eventType": "dilution_warrant",
-      "eventLabel": "증권등록·투자설명서 제출",
-      "primaryTicker": "AMZN",
-      "relatedTickers": [
-        "AMZN"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "AMZN SEC Form 424B5 filed",
-      "headlineKo": "AMZN SEC Form 424B5 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926106115/tm2624614-1_424b5.htm",
-        "publishedAt": 1788879600.0,
-        "collectedAt": 1789092704.888019
-      },
-      "confirmedFacts": [
-        "AMZN가 2026-09-09에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
-      ],
-      "beginnerExplanation": [
-        "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
-      ],
-      "whyItMatters": [
-        "향후 자금조달 또는 증권 발행의 법적 기반이 될 수 있어 잠재 희석 규모와 자금 사용처를 확인해야 합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "AMZN",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "실제 발행 여부와 주식 수",
-        "발행가격·워런트·전환 조건",
-        "조달 자금 사용처와 완전희석 EPS"
-      ],
-      "earningsEvidence": null
     }
   ],
   "byTicker": {
+    "AAPL": [
+      "9fadff15da6b6b48f615",
+      "43aa0111c11bedb8d1c7",
+      "ba68e681cd3a11b0af86",
+      "dc114c2498e1e47defdd",
+      "3df204073c0e790cd731",
+      "4b7aa5b2c6a91b548432",
+      "a66e455b3f1e8dd64c22",
+      "65859915cf3e08a82fd7",
+      "167286f06cba9abc13f0",
+      "e1588490151bf5d0b812",
+      "63442a4a2206bc3b1a77",
+      "1d21c76dd5aca4de2ee1",
+      "7d0e76d9146d442821ca",
+      "a6882d34e26af4d6edc2",
+      "ec840ea366a86511d1d6",
+      "66d41035c01340293828",
+      "2b95fdaee54122dac7c3",
+      "e08d294166d607e6fa00",
+      "e3a8361107d278f73b6d",
+      "9e39269dd7aca333bcf6",
+      "ccb5c941c14f53db1b2d"
+    ],
     "CEG": [
       "ba8a60504553b25aeb8d",
       "ab7ae848ae04e75c642f",
@@ -18318,8 +18350,7 @@ const EVENT_DATA = {
       "4277d3ea8c3c1a5d2291",
       "df194de52b4acf772502",
       "eb178d0b621fe527f313",
-      "f8330e09f37615ea58f2",
-      "0d79b595a1dbb0a899e0"
+      "f8330e09f37615ea58f2"
     ],
     "GOOGL": [
       "095f5a4eef9a44d64c92",
@@ -18342,28 +18373,6 @@ const EVENT_DATA = {
       "ec840ea366a86511d1d6",
       "5b4cfbd1cdba2f1ad065",
       "df194de52b4acf772502"
-    ],
-    "AAPL": [
-      "43aa0111c11bedb8d1c7",
-      "ba68e681cd3a11b0af86",
-      "dc114c2498e1e47defdd",
-      "3df204073c0e790cd731",
-      "4b7aa5b2c6a91b548432",
-      "a66e455b3f1e8dd64c22",
-      "65859915cf3e08a82fd7",
-      "167286f06cba9abc13f0",
-      "e1588490151bf5d0b812",
-      "63442a4a2206bc3b1a77",
-      "1d21c76dd5aca4de2ee1",
-      "7d0e76d9146d442821ca",
-      "a6882d34e26af4d6edc2",
-      "ec840ea366a86511d1d6",
-      "66d41035c01340293828",
-      "2b95fdaee54122dac7c3",
-      "e08d294166d607e6fa00",
-      "e3a8361107d278f73b6d",
-      "9e39269dd7aca333bcf6",
-      "ccb5c941c14f53db1b2d"
     ],
     "AMD": [
       "43aa0111c11bedb8d1c7",

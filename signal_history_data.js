@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 관심종목 분석 변경 이력
 const SIGNAL_HISTORY_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789102333.0860078,
+  "generatedAt": 1789104178.081238,
   "records": {
     "MSFT": [
       {
@@ -3450,6 +3450,35 @@ const SIGNAL_HISTORY_DATA = {
       }
     ],
     "AMZN": [
+      {
+        "changedAt": 1789104178.081238,
+        "dataAsOf": 1789067866,
+        "changes": [
+          {
+            "key": "valuationBurden",
+            "label": "밸류에이션 부담",
+            "before": -5,
+            "after": -4.55
+          },
+          {
+            "key": "businessRisk",
+            "label": "사업 리스크",
+            "before": -4.5,
+            "after": -3.5
+          },
+          {
+            "key": "shortTermMomentum",
+            "label": "단기 뉴스 모멘텀",
+            "before": 0.8,
+            "after": 2.8
+          }
+        ],
+        "cause": "회사 실적과의 연결고리 확인",
+        "newsHeadline": "AMZN은 2억 3천만 달러의 투자로 전체 식품에 더 큰 투자를 하고 있지만 Amazon의 실제 매장은 활력을 잃고 있습니다.",
+        "newsUrl": "https://finnhub.io/api/news?id=ce60885893e1428e238dc0ba35bfaec010118efa1e0bd9e42b8465e6b3714a52",
+        "eventId": "5571442d2d0704473243",
+        "fingerprint": "{\"changes\": [{\"after\": -4.55, \"before\": -5, \"key\": \"valuationBurden\", \"label\": \"밸류에이션 부담\"}, {\"after\": -3.5, \"before\": -4.5, \"key\": \"businessRisk\", \"label\": \"사업 리스크\"}, {\"after\": 2.8, \"before\": 0.8, \"key\": \"shortTermMomentum\", \"label\": \"단기 뉴스 모멘텀\"}], \"eventId\": \"5571442d2d0704473243\"}"
+      },
       {
         "changedAt": 1789100481.7502732,
         "dataAsOf": 1789067866,

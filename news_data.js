@@ -7356,7 +7356,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -7371,6 +7371,141 @@ const NEWS_DATA = {
       "revenueEstimate": 115064400597
     },
     "news": [
+      {
+        "headline": "The new Apple Watch can take notes on all of your conversations – and it could be controversial",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9e1f894999f97b845ec26693aa3c800db0d92c1e1e99c3161592ffa5b919a79",
+        "datetime": 1789095296,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있습니다 | The Independent 등록해 주셔서 감사합니다 자동으로 로그인하려면 페이지를 새로 고치거나 사이트의 다른 페이지로 이동하십시오.",
+            "새로운 Apple Watch Series 12 및 Ultra 4가 이번 주에 출시되었으며, 헤드라인을 장식한 iPhone Duo와 함께 다양한 새로운 개선 사항이 적용되었습니다.",
+            "그 중 하나는 시계의 센서와 AI 도구를 사용하여 소유자 주변 세계와 스마트하게 상호 작용하는 것을 목표로 하는 Apple이 \"오디오 인텔리전스\"라고 부르는 일련의 새로운 기능입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "The new Apple Watch can take notes on all of your conversations – and it could be controversial | The Independent Thank you for registering Please refresh the page or navigate to another page on the site to be automatically logged in Please",
+            "The new Apple Watch Series 12 and Ultra 4 were launched this week , alongside the headline-grabbing iPhone Duo , with a range of new improvements.",
+            "One of them is a set of new features that Apple calls “Audio Intelligence”, aimed at using the sensors in the watches and its AI tools to smartly interact with the world around their owner."
+          ],
+          "analysisUpdatedAt": 1789104151.77949
+        },
+        "headlineKo": "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있을 수 있습니다."
+      },
+      {
+        "headline": "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
+        "datetime": 1789084350,
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1.95 million, $2 million, $50,000., $460,000, 921.96%, 15,352.72%, $225.91, 1,241.49%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$1.95 million",
+            "$2 million",
+            "$50,000.",
+            "$460,000",
+            "921.96%",
+            "15,352.72%",
+            "$225.91",
+            "1,241.49%"
+          ],
+          "sourceExcerpt": [
+            "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share.",
+            "The Seven-Year Lockup Is the Price - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0."
+          ],
+          "analysisUpdatedAt": 1789104152.8337398
+        },
+        "headlineKo": "기술 백만장자들은 주식을 팔지 않고도 다각화하기 위해 7자리 숫자의 Nvidia와 Apple 지분을 교환 자금으로 모으고 있습니다. 7년 락업이 대가입니다"
+      },
       {
         "headline": "Wall Street analysts predict Apple iPhone Duo will be a top seller, despite being heavy and costing up to $3,200",
         "source": "Yahoo",
@@ -7417,7 +7552,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081240.617221
+          "analysisUpdatedAt": 1789104154.674149
         },
         "headlineKo": "월스트리트 분석가들은 Apple iPhone Duo가 무겁고 최대 3,200달러에 달하는 가격에도 불구하고 가장 잘 팔릴 것이라고 예측합니다."
       },
@@ -7429,46 +7564,6 @@ const NEWS_DATA = {
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple is Testing its Loyalty in India with 40% Price Hike",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple is Testing its Loyalty in India with 40% Price Hike' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081241.959716
-        },
         "headlineKo": "애플, 인도에서 40% 가격 인상으로 로열티 테스트 중"
       },
       {
@@ -7479,67 +7574,7 @@ const NEWS_DATA = {
         "relevance": 0.29,
         "keywordFlag": false,
         "flagTerms": [],
-        "analysis": {
-          "version": 9,
-          "importance": "low",
-          "tone": "neutral",
-          "certainty": "본문 확인 필요",
-          "label": "추가 확인이 필요한 뉴스",
-          "horizon": "다음 실적까지 확인",
-          "facts": [
-            "Apple Jumps as $1,999 Foldable Forces Samsung Onto Defense",
-            "제목만으로는 수치와 원인을 확정할 수 없습니다."
-          ],
-          "why": [
-            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
-            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
-          ],
-          "beginner": [
-            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
-            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
-          ],
-          "impacts": [
-            {
-              "ticker": "AAPL",
-              "stance": "확인 필요",
-              "reason": "회사 실적과의 연결고리 확인"
-            }
-          ],
-          "watch": [
-            "다음 실적 매출·EPS",
-            "영업현금흐름과 CAPEX",
-            "회사 공식 가이던스",
-            "주가 반응이 하루 이상 지속되는지"
-          ],
-          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Apple Jumps as $1,999 Foldable Forces Samsung Onto Defense' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
-          "decision": "AAPL 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
-          "relevance": 0.29,
-          "quality": "low",
-          "verifiedNumbers": [],
-          "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081243.9339247
-        },
         "headlineKo": "애플, 1,999달러 폴더블 폴더블폰으로 삼성전자 방어에 뛰어들다"
-      },
-      {
-        "headline": "Rogers to Offer iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, Apple Watch Series 12, and Apple Watch Ultra 4",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=13212fc05d6c15e34e802b79e5dd3a568bdbeb3dc18a4abf9d252c7d5d5947db",
-        "datetime": 1789068600,
-        "relevance": 0.57,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "Rogers, iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max, Apple Watch Series 12 및 Apple Watch Ultra 4 제공"
-      },
-      {
-        "headline": "Why hardware will attract buyers to Apple's new lineup over AI features",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=de5bdc240768cd3beebc324f2c1f3704e8a329573e824e7e614954dea297dcdd",
-        "datetime": 1789068546,
-        "relevance": 0.29,
-        "keywordFlag": false,
-        "flagTerms": [],
-        "headlineKo": "하드웨어가 AI 기능보다 Apple의 새로운 라인업에 구매자를 끌어들이는 이유"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -7732,6 +7767,139 @@ const NEWS_DATA = {
     ],
     "newsHistory": [
       {
+        "headline": "The new Apple Watch can take notes on all of your conversations – and it could be controversial",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=b9e1f894999f97b845ec26693aa3c800db0d92c1e1e99c3161592ffa5b919a79",
+        "datetime": 1789095296,
+        "headlineKo": "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있을 수 있습니다.",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "medium",
+          "tone": "risk",
+          "certainty": "본문 기반 간이 분석",
+          "label": "AI 투자 변화 · 수요와 현금 부담",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "새로운 Apple Watch는 모든 대화를 메모할 수 있으며 논란의 여지가 있습니다 | The Independent 등록해 주셔서 감사합니다 자동으로 로그인하려면 페이지를 새로 고치거나 사이트의 다른 페이지로 이동하십시오.",
+            "새로운 Apple Watch Series 12 및 Ultra 4가 이번 주에 출시되었으며, 헤드라인을 장식한 iPhone Duo와 함께 다양한 새로운 개선 사항이 적용되었습니다.",
+            "그 중 하나는 시계의 센서와 AI 도구를 사용하여 소유자 주변 세계와 스마트하게 상호 작용하는 것을 목표로 하는 Apple이 \"오디오 인텔리전스\"라고 부르는 일련의 새로운 기능입니다."
+          ],
+          "why": [
+            "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
+            "AAPL의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "AI 투자가 늘면 공급업체에는 주문 기회지만, 투자하는 회사에는 현금 부담이 커질 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AAPL",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "실제 CAPEX 집행",
+            "공급업체 수주·매출",
+            "투자 기업 OCF·FCF·부채"
+          ],
+          "interpretation": "AAPL에 대한 AI 투자 변화 · 수요와 현금 부담 뉴스입니다. 현재 확인된 기사 내용이 판매량·ASP(평균판매가격)·매출총이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.29,
+          "quality": "medium",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [
+            "The new Apple Watch can take notes on all of your conversations – and it could be controversial | The Independent Thank you for registering Please refresh the page or navigate to another page on the site to be automatically logged in Please",
+            "The new Apple Watch Series 12 and Ultra 4 were launched this week , alongside the headline-grabbing iPhone Duo , with a range of new improvements.",
+            "One of them is a set of new features that Apple calls “Audio Intelligence”, aimed at using the sensors in the watches and its AI tools to smartly interact with the world around their owner."
+          ],
+          "analysisUpdatedAt": 1789104151.77949
+        }
+      },
+      {
+        "headline": "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price",
+        "source": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=8921289cb1f7b10eb6ba4514047370ed7900e7c9bf6eb93c33fce00878e367cc",
+        "datetime": 1789084350,
+        "headlineKo": "기술 백만장자들은 주식을 팔지 않고도 다각화하기 위해 7자리 숫자의 Nvidia와 Apple 지분을 교환 자금으로 모으고 있습니다. 7년 락업이 대가입니다",
+        "relevance": 0.29,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "전망·추정 포함",
+          "label": "AI 인프라 자금 유입 확대",
+          "horizon": "중기 투자 사이클",
+          "facts": [
+            "AI 데이터센터·반도체·전력·에너지저장 등으로 자금 공급 범위가 넓어지는 내용입니다.",
+            "기사에서 언급된 규모: $1.95 million, $2 million, $50,000., $460,000, 921.96%, 15,352.72%, $225.91, 1,241.49%.",
+            "대출·투자은행·자본시장 조달 등 여러 방식의 자금 공급이 포함될 수 있습니다."
+          ],
+          "why": [
+            "AI 투자가 빅테크 자체 자금뿐 아니라 금융기관·채권시장까지 동원하는 단계로 확장됐다는 의미입니다.",
+            "전력·가스·저장장치·핵심광물처럼 데이터센터 주변 산업으로 수혜 범위가 넓어질 수 있습니다.",
+            "반대로 프로젝트 수익성이 낮으면 신용시장 부담과 부채 문제가 함께 커질 수 있습니다."
+          ],
+          "beginner": [
+            "AI에 돈을 대는 주체가 많아졌다는 뜻입니다.",
+            "반도체뿐 아니라 전력·가스·배터리·핵심광물 기업도 수혜를 받을 수 있습니다.",
+            "투자금액보다 실제 매출·현금흐름으로 돌아오는지가 더 중요합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "NVDA",
+              "stance": "긍정",
+              "reason": "AI 컴퓨팅 수요 확대 가능성"
+            },
+            {
+              "ticker": "AMD",
+              "stance": "긍정",
+              "reason": "AI 가속기·서버 경쟁 수요 확대 가능성"
+            },
+            {
+              "ticker": "MU",
+              "stance": "긍정",
+              "reason": "AI 서버 메모리 수요와 가격 강세"
+            },
+            {
+              "ticker": "ORCL",
+              "stance": "혼합",
+              "reason": "클라우드 수요와 자본 부담 동시 확대"
+            }
+          ],
+          "watch": [
+            "실제 수주·가동 데이터센터",
+            "관련 기업 매출·수주잔고",
+            "CAPEX 대비 영업현금흐름",
+            "금리와 프로젝트 부채 비용"
+          ],
+          "interpretation": "이 기사는 AAPL의 사업과 관련된 'Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share. The Seven-Year Lockup Is the Price' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 판매량·ASP(평균판매가격)·매출총이익률 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "현재 해석: AAPL에 우호적인 뉴스입니다. 다만 주가가 이미 기대를 반영했는지와 판매량·ASP(평균판매가격)·매출총이익률가 실제로 개선되는지를 확인해야 합니다.",
+          "relevance": 0.29,
+          "quality": "high",
+          "verifiedNumbers": [
+            "$1.95 million",
+            "$2 million",
+            "$50,000.",
+            "$460,000",
+            "921.96%",
+            "15,352.72%",
+            "$225.91",
+            "1,241.49%"
+          ],
+          "sourceExcerpt": [
+            "Tech Millionaires Are Pooling Seven-Figure Nvidia and Apple Stakes Into Exchange Funds to Diversify Without Selling a Share.",
+            "The Seven-Year Lockup Is the Price - 24/7 Wall St.",
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0."
+          ],
+          "analysisUpdatedAt": 1789104152.8337398
+        }
+      },
+      {
         "headline": "Wall Street analysts predict Apple iPhone Duo will be a top seller, despite being heavy and costing up to $3,200",
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5d3182b09eddfbfd7937bafba6d262af76f10491ae4e3c71117c2a86bce74c3e",
@@ -7777,7 +7945,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081240.617221
+          "analysisUpdatedAt": 1789104154.674149
         }
       },
       {
@@ -14562,35 +14730,19 @@ const NEWS_DATA = {
         "datetime": 1786337919,
         "headlineKo": "Apple의 폴더블 휴대폰, Whoop-Like 밴드, CXMT 메모리 테스트 버즈로 인해 거래자들의 관심을 끌게 됩니다.",
         "keywordFlag": false
-      },
-      {
-        "headline": "Apple CEO Tim Cook Just Passed His Successor a Mess",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=5a14bc7f4d27941a03532c537133b62a0a6ad90d592e3f4a49cd690b7952a7b3",
-        "datetime": 1786314000,
-        "headlineKo": "애플 CEO 팀 쿡이 그의 후임자를 엉망으로 만들었습니다.",
-        "keywordFlag": false
-      },
-      {
-        "headline": "Apple's Favorite Bullying Tactic Just Died in China. It Could Cost You Hundreds on Your Next iPhone.",
-        "source": "Yahoo",
-        "url": "https://finnhub.io/api/news?id=a6b6e106e79ffc777b8f789223dbeb105630d64a9cec7f2ce8914c402d706115",
-        "datetime": 1786309597,
-        "headlineKo": "애플이 가장 좋아하는 괴롭힘 전술이 중국에서 사라졌습니다. 다음 iPhone 구입 비용이 수백 달러에 달할 수 있습니다.",
-        "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789081235.7720685,
-    "_updated_label": "2026-09-11 08:00",
+    "_fetched_at": 1789104143.6823575,
+    "_updated_label": "2026-09-11 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
-    "_last_attempt_at": 1789081235.7720685,
+    "_last_attempt_at": 1789104143.6823575,
     "_earnings_status": "ok",
-    "_last_success_at": 1789081235.7720685,
+    "_last_success_at": 1789104143.6823575,
     "_collection_status": "ok"
   },
   "GOOGL": {
@@ -21645,7 +21797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -27836,7 +27988,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -35387,7 +35539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -38095,7 +38247,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -45124,7 +45276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 169,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -51829,7 +51981,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 177,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -59269,7 +59421,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -66567,7 +66719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 186,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -72146,7 +72298,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -76707,7 +76859,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -76768,7 +76920,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081251.2182932
+          "analysisUpdatedAt": 1789104160.6714444
         },
         "headlineKo": "어플라이드 머티리얼즈, 현금 배당 발표"
       },
@@ -76790,7 +76942,7 @@ const NEWS_DATA = {
           "facts": [
             "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
             "| Trefis는 Applied Materials 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
-            "2026년 9월 10일 · Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
+            "2026년 9월 10일 · Trefis Team AMAT YTD +77.3% SPY YTD +11.4% QQQ YTD +15.5% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -76830,9 +76982,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Is Applied Materials Stock Amplifying A Risk You Already Own?",
             "| Trefis Is Applied Materials Stock Amplifying A Risk You Already Own?",
-            "September 10th, 2026 · by Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% Analyze AMAT → Applied Materials (AMAT) has added 6.1% over the last five trading days, while the S&P 500 gained 0.1%, and a run like that pulls money in."
+            "September 10th, 2026 · by Trefis Team AMAT YTD +77.3% SPY YTD +11.4% QQQ YTD +15.5% Analyze AMAT → Applied Materials (AMAT) has added 6.1% over the last five trading days, while the S&P 500 gained 0.1%, and a run like that pulls money in."
           ],
-          "analysisUpdatedAt": 1789081254.5751705
+          "analysisUpdatedAt": 1789104165.4393396
         },
         "headlineKo": "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?"
       },
@@ -76854,7 +77006,7 @@ const NEWS_DATA = {
           "facts": [
             "어플라이드 머티어리얼즈 CEO “AI 붐은 아직 끝나지 않았다”",
             "그의 주문서는 그 증거입니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% 다우존스 52,068.70 +0.03% 나스닥 100 29,097.20 −0.06% 러셀 2000 2,890.72 +0."
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% 다우존스 52,134.20 +0.16% 나스닥 100 29,040.20 −0.25% 러셀 2000 2,893.37 +0."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -76894,9 +77046,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Applied Materials CEO Says the AI Boom Is Nowhere Near Over.",
             "His Order Book Is the Proof - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0."
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0."
           ],
-          "analysisUpdatedAt": 1789081257.2398546
+          "analysisUpdatedAt": 1789104168.0282025
         },
         "headlineKo": "어플라이드 머티어리얼즈 CEO “AI 붐은 아직 끝나지 않았다” 그의 주문서가 그 증거이다"
       },
@@ -76968,7 +77120,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081251.2182932
+          "analysisUpdatedAt": 1789104160.6714444
         }
       },
       {
@@ -76989,7 +77141,7 @@ const NEWS_DATA = {
           "facts": [
             "어플라이드 머티리얼즈 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
             "| Trefis는 Applied Materials 주식이 귀하가 이미 갖고 있는 위험을 증폭시키고 있습니까?",
-            "2026년 9월 10일 · Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
+            "2026년 9월 10일 · Trefis Team AMAT YTD +77.3% SPY YTD +11.4% QQQ YTD +15.5% AMAT 분석 → Applied Materials(AMAT)는 지난 5거래일 동안 6.1%를 추가한 반면 S&P 500은 0.1%를 얻었으며 이와 같은 상승으로 자금이 유입되었습니다."
           ],
           "why": [
             "AI CAPEX 변화는 반도체·클라우드 수요와 투자 기업의 현금흐름을 서로 다른 방향으로 바꿀 수 있습니다.",
@@ -77029,9 +77181,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Is Applied Materials Stock Amplifying A Risk You Already Own?",
             "| Trefis Is Applied Materials Stock Amplifying A Risk You Already Own?",
-            "September 10th, 2026 · by Trefis Team AMAT YTD +83.1% SPY YTD +12.1% QQQ YTD +16.8% Analyze AMAT → Applied Materials (AMAT) has added 6.1% over the last five trading days, while the S&P 500 gained 0.1%, and a run like that pulls money in."
+            "September 10th, 2026 · by Trefis Team AMAT YTD +77.3% SPY YTD +11.4% QQQ YTD +15.5% Analyze AMAT → Applied Materials (AMAT) has added 6.1% over the last five trading days, while the S&P 500 gained 0.1%, and a run like that pulls money in."
           ],
-          "analysisUpdatedAt": 1789081254.5751705
+          "analysisUpdatedAt": 1789104165.4393396
         }
       },
       {
@@ -77052,7 +77204,7 @@ const NEWS_DATA = {
           "facts": [
             "어플라이드 머티어리얼즈 CEO “AI 붐은 아직 끝나지 않았다”",
             "그의 주문서는 그 증거입니다 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% 다우존스 52,068.70 +0.03% 나스닥 100 29,097.20 −0.06% 러셀 2000 2,890.72 +0."
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% 다우존스 52,134.20 +0.16% 나스닥 100 29,040.20 −0.25% 러셀 2000 2,893.37 +0."
           ],
           "why": [
             "가이던스 변화는 다음 분기의 매출·EPS 컨센서스와 적정가 계산을 직접 바꿀 수 있습니다.",
@@ -77092,9 +77244,9 @@ const NEWS_DATA = {
           "sourceExcerpt": [
             "Applied Materials CEO Says the AI Boom Is Nowhere Near Over.",
             "His Order Book Is the Proof - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0."
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0."
           ],
-          "analysisUpdatedAt": 1789081257.2398546
+          "analysisUpdatedAt": 1789104168.0282025
         }
       },
       {
@@ -79234,17 +79386,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789081235.7720685,
-    "_updated_label": "2026-09-11 08:00",
+    "_fetched_at": 1789104143.6823575,
+    "_updated_label": "2026-09-11 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
-    "_last_attempt_at": 1789081235.7720685,
+    "_last_attempt_at": 1789104143.6823575,
     "_earnings_status": "ok",
-    "_last_success_at": 1789081235.7720685,
+    "_last_success_at": 1789104143.6823575,
     "_collection_status": "ok"
   },
   "QQQ": {
@@ -82084,7 +82236,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -86347,7 +86499,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 102,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -92234,7 +92386,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 143,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -97000,7 +97152,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -102770,7 +102922,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 150,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -105982,7 +106134,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 76,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -107715,7 +107867,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -113044,7 +113196,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -115691,7 +115843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -117883,7 +118035,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -119666,7 +119818,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -125387,7 +125539,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 146,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -125419,7 +125571,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "금리 하락과 석유 늪으로 메모리 주식 하락 JPMorgan의 비중확대 전망: SK 하이닉스 5% 하락, Western Digital 하락 3%, 마이크론 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% 다우존스 52,068.70 +0.03% 나스닥 100 29,097.20 −0.06% 러셀 2000 2,890.72 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% 다우존스 52,134.20 +0.16% 나스닥 100 29,040.20 −0.25% 러셀 2000 2,893.37 +0.",
             "David Moadel 작성 2026년 9월 10일 오전 9시 22분(ET) 게시 · 2분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -125459,10 +125611,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.",
             "By David Moadel Published September 10, 2026, 9:22am ET · 2 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1789081264.3096383
+          "analysisUpdatedAt": 1789104173.2826178
         },
         "headlineKo": "금리 하락과 석유 늪으로 메모리 주가 하락 JPMorgan의 비중확대 주장: SK 하이닉스 5% 하락, Western Digital 하락 3%, Micron 하락"
       },
@@ -125511,7 +125663,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081265.3956268
+          "analysisUpdatedAt": 1789104174.403457
         },
         "headlineKo": "Western Digital(NASDAQ:WDC): 향후 수익 가속화에 따른 합리적인 가격의 성장 후보"
       },
@@ -125561,7 +125713,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081266.2077105
+          "analysisUpdatedAt": 1789104175.464122
         },
         "headlineKo": "목요일 Western Digital 주식에 무슨 일이 일어나고 있나요?"
       },
@@ -125656,7 +125808,7 @@ const NEWS_DATA = {
           "horizon": "다음 실적까지 확인",
           "facts": [
             "금리 하락과 석유 늪으로 메모리 주식 하락 JPMorgan의 비중확대 전망: SK 하이닉스 5% 하락, Western Digital 하락 3%, 마이크론 하락 - 24/7 Wall St.",
-            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% 다우존스 52,068.70 +0.03% 나스닥 100 29,097.20 −0.06% 러셀 2000 2,890.72 +0.",
+            "내용으로 건너뛰기 ❚❚ 종가 S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% 다우존스 52,134.20 +0.16% 나스닥 100 29,040.20 −0.25% 러셀 2000 2,893.37 +0.",
             "David Moadel 작성 2026년 9월 10일 오전 9시 22분(ET) 게시 · 2분 읽기 Market Movers 데스크."
           ],
           "why": [
@@ -125696,10 +125848,10 @@ const NEWS_DATA = {
           ],
           "sourceExcerpt": [
             "Memory Stocks Slide as Rates and Oil Swamp JPMorgan's Overweight Call: SK Hynix Sinks 5%, Western Digital Drops 3%, Micron Slips - 24/7 Wall St.",
-            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.05% S&P 500 7,596.60 −0.00% Dow Jones 52,068.70 +0.03% Nasdaq 100 29,097.20 −0.06% Russell 2000 2,890.72 +0.",
+            "Skip to content ❚❚ At close S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.14% S&P 500 7,596.60 −0.00% Dow Jones 52,134.20 +0.16% Nasdaq 100 29,040.20 −0.25% Russell 2000 2,893.37 +0.",
             "By David Moadel Published September 10, 2026, 9:22am ET · 2 min read Market Movers desk."
           ],
-          "analysisUpdatedAt": 1789081264.3096383
+          "analysisUpdatedAt": 1789104173.2826178
         }
       },
       {
@@ -125747,7 +125899,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081265.3956268
+          "analysisUpdatedAt": 1789104174.403457
         }
       },
       {
@@ -125796,7 +125948,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789081266.2077105
+          "analysisUpdatedAt": 1789104175.464122
         }
       },
       {
@@ -127476,17 +127628,17 @@ const NEWS_DATA = {
         "keywordFlag": false
       }
     ],
-    "_fetched_at": 1789081235.7720685,
-    "_updated_label": "2026-09-11 08:01",
+    "_fetched_at": 1789104143.6823575,
+    "_updated_label": "2026-09-11 14:22",
     "_relevance_audit": {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
-    "_last_attempt_at": 1789081235.7720685,
+    "_last_attempt_at": 1789104143.6823575,
     "_earnings_status": "ok",
-    "_last_success_at": 1789081235.7720685,
+    "_last_success_at": 1789104143.6823575,
     "_collection_status": "ok"
   },
   "ANET": {
@@ -129641,7 +129793,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -131380,7 +131532,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -133513,7 +133665,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -135503,7 +135655,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -136882,7 +137034,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -139074,7 +139226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -141024,7 +141176,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -142515,7 +142667,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -143153,7 +143305,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789086728.7925148,
     "_earnings_status": "ok",
@@ -146160,7 +146312,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 63,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -146800,7 +146952,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 15,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789100281.714829,
     "_earnings_status": "ok",
@@ -148404,7 +148556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -149502,7 +149654,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -150787,7 +150939,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_last_attempt_at": 1789092445.7374392,
     "_earnings_status": "ok",
@@ -151623,7 +151775,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-11 13:21"
+      "updated": "2026-09-11 14:22"
     },
     "_fetched_at": 1789092445.7374392,
     "_updated_label": "2026-09-11 11:11",
