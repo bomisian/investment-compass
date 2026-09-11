@@ -6551,11 +6551,34 @@ function segmentRevenueComment(ticker){
     const parts = String(raw||'').split(/[;,]/).map(p=>p.trim()).filter(Boolean);
     return parts.length > 0 && parts.every(p => p.startsWith('ConsolidationItems='));
   };
+  // 2026-09-11 추가(외부 검토로 발견, GOOGL 사례) - 환헤지·기타포괄손익 재분류 항목(예:
+  // "EquityComponents=AccumulatedGainLossNetCashFlowHedgeParent;Reclassification...")도
+  // revenue 계정으로 태깅되기 때문에 위 isRollupOnly만으로는 안 걸러지고 그대로 "사업부별
+  // 매출"인 것처럼 표에 섞여 들어갔다(실측: GOOGL은 SEC 데이터셋에서 잡힌 9건이 전부 이
+  // 헤지 재분류 항목뿐이었고 실제 Google Services/Cloud/Other Bets 사업부 태그는 하나도
+  // 없었음). 이 항목 자체가 가짜 수치는 아니지만(회사가 실제 공시한 헤지 손익 재분류 금액),
+  // 사업부 매출이 아니므로 "사업부문/제품/고객/지역" 분류표와는 완전히 분리해서 별도로
+  // 보여주고, 이것만 있고 진짜 사업부 분류가 하나도 없는 종목은 "사업부 데이터 없음"으로
+  // 정직하게 표시한다(있지도 않은 사업부 구성인 것처럼 보이면 안 되므로).
+  const isHedgeAdjustment = raw => {
+    const s = String(raw||'');
+    return /EquityComponents=|ReclassificationOutOfAccumulatedOtherComprehensiveIncome|AccumulatedOtherComprehensiveIncome|DerivativeInstrumentRisk=|HedgingDesignation|CashFlowHedge|NetInvestmentHedging/i.test(s);
+  };
   const bySegment = {};
+  const hedgeRows = [];
   for(const row of valid){
     if(isRollupOnly(row.segmentRaw)) continue;
+    if(isHedgeAdjustment(row.segmentRaw)){ hedgeRows.push(row); continue; }
     const key = row.segmentRaw || row.segmentLabel;
     (bySegment[key] = bySegment[key] || []).push(row);
+  }
+  if(!Object.keys(bySegment).length){
+    // 진짜 사업부 분류(사업부문/제품/고객/지역)가 하나도 없고 헤지 조정 항목뿐인 경우 -
+    // "사업부별 매출"인 것처럼 보이는 표를 만들지 않고 있는 그대로 말한다.
+    if(hedgeRows.length){
+      return cmtBox([`<span class="sub">이 종목은 SEC 데이터셋에서 사업부문·제품·지역별 매출 세부내역을 아직 찾지 못했어요 - 대신 잡힌 항목은 환헤지 회계 재분류(hedging reclassification) ${hedgeRows.length}건뿐이라 사업부 구성으로 보여드릴 수 없어요. 회사가 실제 사업부(예: 서비스·클라우드 등)를 분리 공시하고 있어도 이번 수집에서는 그 항목을 못 찾은 상태이니, 사업부 구성은 회사 IR 자료를 참고하세요.</span>`], 'plain');
+    }
+    return '';
   }
   const fmtRev = n => {
     const a = Math.abs(n);
@@ -6615,8 +6638,19 @@ function segmentRevenueComment(ticker){
         <tbody>${tableRows}</tbody>
       </table></div></div>`;
   }).join('');
+  // 2026-09-11 추가(외부 검토로 발견, GOOGL 사례) - 진짜 사업부 분류가 있어도 헤지 재분류
+  // 항목이 같이 잡힌 경우, 그 헤지 금액을 사업부 합계에 섞지 않고 별도 "조정" 줄로만 짧게
+  // 언급한다(합계 검산에 쓸 수 있게 - 사업부 합계 + 헤지조정 ≈ 회사 전체 매출).
+  const hedgeNote = hedgeRows.length
+    ? (() => {
+        const sorted = [...hedgeRows].sort((a,b)=> a.endDate < b.endDate ? -1 : (a.endDate > b.endDate ? 1 : 0));
+        const last = sorted[sorted.length-1];
+        return `<div class="sub" style="margin-top:6px;">※ 이 기간(${esc(last.endDate)}) 매출에는 환헤지 회계 재분류 조정이 <b>${fmtRev(last.value)}</b> 포함돼 있어요 - 이건 사업부가 아니라 회계상 조정 항목이라 위 사업부 표에는 넣지 않았어요(사업부 합계 + 이 조정 ≈ 회사 전체 매출).</div>`;
+      })()
+    : '';
   const items = [
     tables,
+    hedgeNote,
     `<span class="sub">SEC 공식 재무제표 데이터셋에서 뽑은 매출 세부내역이에요(참고용) - 회사는 같은 전체 매출을 사업부문/제품/고객/지역처럼 서로 다른 여러 기준으로 각각 나눠 공시하는데, <b>기준이 다른 표끼리는 항목을 더하거나 직접 비교하면 안 돼요</b>(예: 사업부문별 합계와 지역별 합계는 각각 회사 전체 매출과 같아져서 둘을 더하면 이중 계산이에요). 이름은 회사 공시 표현을 다듬은 것이라 회사마다 다를 수 있고, 표마다 최신 기준일이 다를 수 있어요. 그 자체로 매수·매도 신호는 아니에요.</span>`,
   ];
   return cmtBox(items, 'plain');
