@@ -7237,7 +7237,7 @@ function computeFinancialDirection(r, fin){
   const epsGrowth = !eps0Unreliable && y0?.epsAvg>0 && y1?.epsAvg!=null ? (y1.epsAvg/y0.epsAvg-1)*100 : null;
   const revGrowth = y1?.revenueGrowth!=null ? y1.revenueGrowth*100 : null;
 
-  const revenueDir = qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 회복' : qRevG<=-5 ? '↘ 둔화' : '→ 정체';
+  const revenueDir = qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 성장' : qRevG<=-5 ? '↘ 둔화' : '→ 정체';
   const profitDiff = qOpmDiff!=null ? qOpmDiff : aOpmDiff;
   const profitDir = profitDiff==null ? '확인 중' : profitDiff>=1 ? '↗ 개선' : profitDiff<=-1 ? '↘ 압박' : '→ 유지';
   const cashDir = qFcfm!=null ? (qFcfm>=3 ? '↗ 양호' : qFcfm<0 ? '↘ 투자부담' : '→ 낮은 흑자')
@@ -7254,7 +7254,7 @@ function computeFinancialDirection(r, fin){
   let verdict = '혼조 · 추가 확인 필요';
   if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && cashOk) verdict='외형·수익성 동반 개선';
   else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff>=0 && cashUnknown) verdict='외형·수익성 개선(현금흐름 미확인)';
-  else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff<0) verdict='외형 회복 · 수익성 재검증';
+  else if(qRevG!=null && qRevG>=5 && profitDiff!=null && profitDiff<0) verdict='외형 성장 · 수익성 재검증';
   else if(qRevG!=null && qRevG<0 && profitDiff!=null && profitDiff<0) verdict='매출·수익성 동반 둔화';
 
   const analysis=[];
@@ -7302,7 +7302,11 @@ function computeFinancialDirection(r, fin){
 
   const upChecks=[];
   if(qOpm!=null) upChecks.push(`영업마진 ${qOpm.toFixed(1)}%에서 반등`);
-  upChecks.push('FCF의 지속적 흑자 전환');
+  // 2026-09-11 수정(외부 검토로 발견) - qFcfm이 이미 0 이상(이미 흑자)인데도 매번 "FCF의
+  // 지속적 흑자 전환"을 상향조건으로 반복 표시했음. 흑자 전환은 아직 적자일 때만 의미가
+  // 있는 조건이라, 이미 흑자면 "그 흑자 마진의 유지/확대"로 문구를 구분한다.
+  if(qFcfm!=null && qFcfm>=0) upChecks.push('FCF 흑자 마진의 유지·확대');
+  else upChecks.push('FCF의 지속적 흑자 전환');
   if(epsGrowth!=null && epsGrowth>0) upChecks.push('실제 EPS가 컨센서스 회복 경로를 따라감');
   const risks=[];
   if(qRevG!=null && qRevG>0) risks.push('매출은 늘지만 영업마진이 추가 하락');
@@ -7316,7 +7320,7 @@ function computeFinancialDirection(r, fin){
 // computeFinancialDirection이 이미 4가지 중 하나로 확정해서 주는 값이라 새 판정을 만드는 게 아님.
 const FIN_VERDICT_SIMPLE = {
   '외형·수익성 동반 개선': {emoji:'🟢', text:'재무가 좋아지고 있어요'},
-  '외형 회복 · 수익성 재검증': {emoji:'🟡', text:'매출은 살아나는데 수익성은 더 지켜봐야 해요'},
+  '외형 성장 · 수익성 재검증': {emoji:'🟡', text:'매출은 늘고 있는데 수익성은 더 지켜봐야 해요'},
   '매출·수익성 동반 둔화': {emoji:'🔴', text:'재무 흐름이 우려돼요'},
   '혼조 · 추가 확인 필요': {emoji:'🟡', text:'아직은 방향을 단정하기 일러요'},
 };
