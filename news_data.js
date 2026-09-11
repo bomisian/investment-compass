@@ -7306,7 +7306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -14774,7 +14774,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789127016.9476635,
     "_earnings_status": "ok",
@@ -22014,7 +22014,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 176,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -28290,7 +28290,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -35878,7 +35878,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -38586,7 +38586,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 59,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -45678,7 +45678,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -52556,7 +52556,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 181,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -60075,7 +60075,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -67571,7 +67571,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -73150,7 +73150,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -77711,7 +77711,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -80244,7 +80244,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 61,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789127016.9476635,
     "_earnings_status": "ok",
@@ -83151,7 +83151,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -87477,7 +87477,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 103,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -93536,7 +93536,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -98302,7 +98302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 121,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -104226,7 +104226,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 152,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -107487,7 +107487,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 77,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -109220,7 +109220,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -114549,7 +114549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 126,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -117196,7 +117196,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -119388,7 +119388,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -121171,7 +121171,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -127004,7 +127004,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 148,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -129047,7 +129047,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789127016.9476635,
     "_earnings_status": "ok",
@@ -131206,7 +131206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -132945,7 +132945,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -135078,7 +135078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -137068,7 +137068,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 44,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -138447,7 +138447,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -140639,7 +140639,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 49,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -142589,7 +142589,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 42,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -144080,7 +144080,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -144095,6 +144095,56 @@ const NEWS_DATA = {
       "revenueEstimate": 1861040592
     },
     "news": [
+      {
+        "headline": "Hubbell: The Grid's Small Components Can Deliver Large Returns",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d606fd40fc8ea46edf8b5681a610d09bcce137544979e549701f9392505c0ea7",
+        "datetime": 1789108488,
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "flagTerms": [],
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell: The Grid's Small Components Can Deliver Large Returns",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell: The Grid's Small Components Can Deliver Large Returns' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789131609.0062375
+        },
+        "headlineKo": "허벨: 그리드의 작은 구성 요소는 큰 수익을 제공할 수 있습니다"
+      },
       {
         "headline": "Hubbell to Participate in Upcoming Investor Conference",
         "source": "Yahoo",
@@ -144141,7 +144191,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789109690.2675877
+          "analysisUpdatedAt": 1789131611.28367
         },
         "headlineKo": "Hubbell, 다가오는 투자자 컨퍼런스에 참여"
       },
@@ -144190,12 +144240,61 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789109692.618133
+          "analysisUpdatedAt": 1789131612.3648207
         },
         "headlineKo": "Morgan Stanley는 Hubbell에 대해 동일 가중치를 유지하고 목표 가격을 $ 575로 높입니다."
       }
     ],
     "newsHistory": [
+      {
+        "headline": "Hubbell: The Grid's Small Components Can Deliver Large Returns",
+        "source": "SeekingAlpha",
+        "url": "https://finnhub.io/api/news?id=d606fd40fc8ea46edf8b5681a610d09bcce137544979e549701f9392505c0ea7",
+        "datetime": 1789108488,
+        "headlineKo": "허벨: 그리드의 작은 구성 요소는 큰 수익을 제공할 수 있습니다",
+        "relevance": 0.67,
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "low",
+          "tone": "neutral",
+          "certainty": "본문 확인 필요",
+          "label": "추가 확인이 필요한 뉴스",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "Hubbell: The Grid's Small Components Can Deliver Large Returns",
+            "제목만으로는 수치와 원인을 확정할 수 없습니다."
+          ],
+          "why": [
+            "일시적 사건인지 구조적 변화인지에 따라 주가 영향이 달라집니다.",
+            "다음 실적에서 매출·이익·현금흐름에 실제 반영됐는지 확인해야 합니다."
+          ],
+          "beginner": [
+            "뉴스가 나왔다고 바로 매수·매도할 필요는 없습니다.",
+            "기사의 전망과 회사가 공시한 실제 숫자를 구분해서 보세요."
+          ],
+          "impacts": [
+            {
+              "ticker": "HUBB",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "다음 실적 매출·EPS",
+            "영업현금흐름과 CAPEX",
+            "회사 공식 가이던스",
+            "주가 반응이 하루 이상 지속되는지"
+          ],
+          "interpretation": "이 기사는 HUBB의 사업과 관련된 'Hubbell: The Grid's Small Components Can Deliver Large Returns' 이슈입니다. 기사에 나온 전망은 아직 회사가 공시한 실적이 아니므로, 뉴스 → 다음 실적의 매출·이익·현금흐름 → 주가 반영 순서로 확인해야 합니다.",
+          "decision": "HUBB 실적과의 직접 연결 근거가 부족해 자동 상세 해석을 보류합니다. 원문에서 회사명·사업부·금액·공식 전망이 확인될 때 다시 평가합니다.",
+          "relevance": 0.67,
+          "quality": "low",
+          "verifiedNumbers": [],
+          "sourceExcerpt": [],
+          "analysisUpdatedAt": 1789131609.0062375
+        }
+      },
       {
         "headline": "Hubbell to Participate in Upcoming Investor Conference",
         "source": "Yahoo",
@@ -144242,7 +144341,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789109690.2675877
+          "analysisUpdatedAt": 1789131611.28367
         }
       },
       {
@@ -144290,7 +144389,7 @@ const NEWS_DATA = {
           "quality": "low",
           "verifiedNumbers": [],
           "sourceExcerpt": [],
-          "analysisUpdatedAt": 1789109692.618133
+          "analysisUpdatedAt": 1789131612.3648207
         }
       },
       {
@@ -144712,17 +144811,17 @@ const NEWS_DATA = {
         }
       }
     ],
-    "_fetched_at": 1789109685.7860107,
-    "_updated_label": "2026-09-11 15:54",
+    "_fetched_at": 1789131602.991589,
+    "_updated_label": "2026-09-11 22:00",
     "_relevance_audit": {
       "ruleVersion": 3,
-      "checked": 15,
+      "checked": 17,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
-    "_last_attempt_at": 1789109685.7860107,
+    "_last_attempt_at": 1789131602.991589,
     "_earnings_status": "ok",
-    "_last_success_at": 1789109685.7860107,
+    "_last_success_at": 1789131602.991589,
     "_collection_status": "ok"
   },
   "VRT": {
@@ -147788,7 +147887,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 64,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -148537,7 +148636,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789123128.6943495,
     "_earnings_status": "ok",
@@ -150141,7 +150240,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -151239,7 +151338,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -152524,7 +152623,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 31,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_last_attempt_at": 1789115458.6997118,
     "_earnings_status": "ok",
@@ -153396,7 +153495,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 19,
       "removed": 0,
-      "updated": "2026-09-11 20:44"
+      "updated": "2026-09-11 22:00"
     },
     "_fetched_at": 1789115458.6997118,
     "_updated_label": "2026-09-11 17:34",
