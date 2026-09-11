@@ -527,6 +527,36 @@
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
 const ETF_THEME = "지수ETF";
+// 2026-09-11 추가(외부 검토로 발견, CEG·INTC 사례) - dividendPerShareTTM 자체(분자)가 제공처에서
+// 이미 틀리게 오는 경우가 실측으로 확인됨(분모 주가를 최신으로 바꿔도 못 고침):
+//  - INTC: 2024년 4분기부터 배당을 중단했는데(공식 확인: 2024-08-01 마지막 지급 $0.125, 이후 미지급)
+//    제공처 dividendPerShareTTM=3.0444 → 화면에 3.01%로 표시됨. 실제는 0%(중단).
+//  - CEG: 공식 배당 캘린더 실제 지급 내역(2025-11-17 $0.3878, 2026-03-09/05-15/08-18 각 $0.4265) 합계는
+//    $1.6673~$1.71인데 제공처 dividendPerShareTTM=7.5622 → 화면에 2.64%로 표시됨(약 4.5배 부풀려짐).
+// 39종목 전체를 이런 식으로 수동 재검증하는 건 이번 라운드 범위를 넘어서고(실시간 배당 캘린더
+// 조회 API가 이 코드베이스엔 없음), 근거 없이 전체에 보정치를 추정해 넣는 것도 금지 원칙에 어긋나서
+// "직접 1차 출처(공식 배당 캘린더·보도자료)로 확인한 종목만" 보정 테이블에 올린다 - 아직 확인 안 된
+// 나머지 종목은 기존 로직(제공처 TTM ÷ 현재가)을 그대로 쓰되, 이 테이블이 커지면 그때마다 추가한다.
+const _VERIFIED_DIVIDEND_OVERRIDES = {
+  INTC: {
+    dividendPerShareTTM: 0,
+    status: 'suspended',
+    note: '2024년 4분기부터 배당 중단(마지막 지급 2024-08 분기분 $0.125/주). 2026-09-11 기준 재개 공시 없음 - 확인됨.',
+  },
+  CEG: {
+    dividendPerShareTTM: 1.6673,
+    status: 'verified',
+    note: '공식 배당 캘린더 실제 지급 기준 최근 4회 합계($0.3878+$0.4265×3)로 재계산 - 제공처 TTM 필드(약 4.5배 높게 표시)를 직접 신뢰하지 않음.',
+  },
+};
+// 어느 함수에서든 같은 기준으로 배당수익률을 구하도록 공통 헬퍼로 뺀다(02 탭 tabValueQuality와
+// 종목 상세의 computeFairValue 서술문이 서로 다른 배당수익률을 보여주는 불일치를 막기 위함).
+function getVerifiedDividendYield(ticker, price, fundRaw){
+  const override = _VERIFIED_DIVIDEND_OVERRIDES[ticker];
+  const dps = override ? override.dividendPerShareTTM : (fundRaw && fundRaw.dividendPerShareTTM);
+  if(typeof dps !== 'number' || !(price > 0)) return { yieldPct: null, dividendPerShareTTM: dps, note: override ? override.note : null, status: override ? override.status : null };
+  return { yieldPct: dps / price * 100, dividendPerShareTTM: dps, note: override ? override.note : null, status: override ? override.status : null };
+}
 const CUSTOM_TICKERS_KEY = 'compass_custom_tickers';
 function getCustomTickers(){
   try{ return JSON.parse(localStorage.getItem(CUSTOM_TICKERS_KEY) || '[]'); }
@@ -1797,8 +1827,14 @@ function computeFairValue(ticker, price, fund, est){
         const pfcfNote = pfcfPeer
           ? ` 대신 <b>P/FCF(주가/잉여현금흐름, 현재 ${fund.pfcfShareTTM.toFixed(1)}배)</b>로 보면 같은 테마 중앙값(${pfcfPeer.peerMedian.toFixed(1)}배)보다 ${Math.abs(pfcfPeer.diffPct)<8?'비슷한 수준이에요':(pfcfPeer.diffPct>0?`${pfcfPeer.diffPct.toFixed(0)}% 높아요(비싼 편)`:`${Math.abs(pfcfPeer.diffPct).toFixed(0)}% 낮아요(싼 편)`)} - 성장률이 아니라 지금 벌어들이는 현금 대비로 값을 매기는 잣대라 이런 저성장 국면에 더 적합할 수 있어요(02 탭 '동종업계 비교' 박스와 같은 계산, 참고용).`
           : ` 이런 저성장·경기민감 종목은 성장 대비 밸류보다 현금흐름 수익률(P/FCF) 같은 다른 잣대가 더 적합할 수 있는데, 이 종목은 같은 테마 안에 비교할 종목 수가 부족해요.`;
-        const divYield = fund.dividendYieldIndicatedAnnual;
-        const divNote = (typeof divYield === 'number' && divYield > 0.1) ? ` 배당수익률은 ${divYield.toFixed(2)}%예요(02 탭 참고).` : '';
+        // 2026-09-11 수정(외부 검토로 발견, CEG·INTC 사례) - 여기서 fund.dividendYieldIndicatedAnnual을
+        // 그냥 읽으면 제공처 원본값(검증 전)을 쓰게 돼서, 02 탭(tabValueQuality, 검증 테이블 적용됨)과
+        // 다른 배당수익률을 보여주는 불일치가 생긴다 - 같은 공용 헬퍼로 통일한다.
+        const _divHere = getVerifiedDividendYield(ticker, price, fund);
+        const divYield = _divHere.yieldPct;
+        const divNote = _divHere.status === 'suspended'
+          ? ` 배당은 현재 중단 상태예요(${_divHere.note})`
+          : (typeof divYield === 'number' && divYield > 0.1) ? ` 배당수익률은 ${divYield.toFixed(2)}%예요(02 탭 참고).${_divHere.status==='verified' ? ' (1차 출처로 직접 재검증된 값)' : ''}` : '';
         cautions.push(`이 종목은 과거 ${hgYears}년 EPS 성장률이 0%에 가깝거나 마이너스라서(${histGrowth.toFixed(0)}%), 성장률로 나누는 '역산 기대성장률' 계산 자체가 불안정해져 보류했어요.${pfcfNote}${divNote}`);
       } else if(fund.avgPe3Y!=null){
         const historicalPEG = fund.avgPe3Y / histGrowth;
@@ -3765,13 +3801,18 @@ function computeRelStrength(r){
 function computePeerMultiple(ticker, field){
   const fund = (typeof FUNDAMENTALS_DATA !== 'undefined') ? FUNDAMENTALS_DATA[ticker] : null;
   if(!fund || !fund.theme || fund.theme==='기타') return null;
-  const mine = (typeof fund[field] === 'number' && isFinite(fund[field]) && fund[field]>0) ? fund[field] : null;
+  // 2026-09-11 추가(외부 검토로 발견, ORCL 사례) - pfcfShareTTM 필드는 FCF가 실제로는 마이너스인데도
+  // 제공처가 양수로 주는 경우가 있어(> 0 필터만으론 못 거름) 동종업계 비교에도 그대로 섞여
+  // 들어갈 수 있었다. 이 필드일 때만 verifiedPfcf로 한 번 더 부호를 확인한다.
+  const fieldValue = (t) => field === 'pfcfShareTTM' ? verifiedPfcf(t, FUNDAMENTALS_DATA[t] && FUNDAMENTALS_DATA[t][field]) : (FUNDAMENTALS_DATA[t] && FUNDAMENTALS_DATA[t][field]);
+  const mine = (typeof fieldValue(ticker) === 'number' && isFinite(fieldValue(ticker)) && fieldValue(ticker)>0) ? fieldValue(ticker) : null;
   if(mine==null) return null;
   const peers = Object.keys(FUNDAMENTALS_DATA).filter(t => {
     const f = FUNDAMENTALS_DATA[t];
+    const v = fieldValue(t);
     return t !== ticker && f && f.theme === fund.theme &&
-      typeof f[field] === 'number' && isFinite(f[field]) && f[field] > 0;
-  }).map(t => ({ticker:t, v:FUNDAMENTALS_DATA[t][field]}));
+      typeof v === 'number' && isFinite(v) && v > 0;
+  }).map(t => ({ticker:t, v:fieldValue(t)}));
   if(peers.length < REL_MIN_PEERS) return null;
   const vals = peers.map(p=>p.v).sort((a,b)=>a-b);
   const mid = vals.length/2;
@@ -5641,11 +5682,30 @@ const QUALITY_FIELDS = [
   ['longTermDebt/equityQuarterly','LT Debt/Equity','','ltDebtEquity'], ['totalDebt/totalEquityQuarterly','Total Debt/Equity','','totalDebtEquity'],
   ['beta','베타','','beta'],
 ];
-function fundRowsHtml(fund, fields){
+function fundRowsHtml(fund, fields, ticker){
   return fields.map(([key,label,suffix,hintKey])=>{
-    const v = fund[key];
-    const txt = (typeof v === 'number') ? v.toFixed(2)+suffix : `<span class="na">조회 불가</span>`;
-    return `<div class="fund-row"><span>${label}${hintIcon(hintKey)}</span><span class="v">${txt}</span></div>`;
+    let v = fund[key];
+    // 2026-09-11 추가(외부 검토로 발견, ORCL 사례) - P/FCF는 FCF가 실제로 마이너스면 어떤 양수
+    // 배수를 보여줘도 의미가 없다(음수를 뒤집어 "고친" 값을 지어내지 않음 - reviewer 요청).
+    let naOverrideNote = null;
+    if(key === 'pfcfShareTTM' && ticker){
+      const checked = verifiedPfcf(ticker, v);
+      if(checked == null && typeof v === 'number'){
+        naOverrideNote = 'FCF가 마이너스라 산출 의미 없음(저장된 최근 4분기 OCF-CAPEX 기준)';
+      }
+      v = checked;
+    }
+    const txt = naOverrideNote ? `<span class="na">${esc(naOverrideNote)}</span>`
+      : (typeof v === 'number') ? v.toFixed(2)+suffix : `<span class="na">조회 불가</span>`;
+    let row = `<div class="fund-row"><span>${label}${hintIcon(hintKey)}</span><span class="v">${txt}</span></div>`;
+    // 2026-09-11 추가(외부 검토로 발견, CEG·INTC 사례) - 배당수익률이 자체 검증(1차 출처 대조)을
+    // 거쳐 원래 제공처 값을 덮어쓴 경우, 화면에서 그 사실과 근거를 바로 보여준다 - 조용히
+    // 값만 바꾸면 사용자가 왜 수치가 이전과 달라졌는지 알 수 없음.
+    if(key === 'dividendYieldIndicatedAnnual' && fund._dividendVerificationNote){
+      const tone = fund._dividendStatus === 'suspended' ? 'color:#b0432c;' : 'color:#3b6fd8;';
+      row += `<div class="sub" style="${tone}margin:-4px 0 6px;">※ ${esc(fund._dividendVerificationNote)}</div>`;
+    }
+    return row;
   }).join('');
 }
 
@@ -5778,6 +5838,33 @@ function nonOperatingPattern(ticker){
 // (종료일 중복 없음 + 인접 분기 간격이 130일을 넘지 않음, 즉 최근 90~100일 주기 보고에 큰
 // 공백이 없음) 확인하고, 깨져 있으면 계산 대신 invalid:true를 반환해서 화면이 "검증 필요"로
 // 표시하게 한다 - 잘못된 숫자를 그럴듯하게 보여주는 것보다 안전함.
+// 2026-09-11 추가(외부 검토로 발견, ORCL 사례) - 제공처가 주는 pfcfShareTTM(P/FCF)이 실제
+// FCF 부호과 무관하게 항상 양수로 나오는 경우가 실측으로 확인됨(ORCL: 저장된 최근 4분기
+// OCF-|CAPEX| 합계는 -$23.686B로 확실히 마이너스인데, 제공처 pfcfShareTTM은 +55.69배로 표시).
+// 데이터센터·설비투자가 급증한 시기엔 FCF가 일시적으로 마이너스가 되는 게 드물지 않은데, 이걸
+// 그대로 양의 배수로 보여주면 "저평가"로 오인하기 쉬움. 저장된 최근 4분기 OCF·CAPEX로 직접
+// FCF 부호를 재확인해서, 마이너스면(또는 4분기를 못 채우면) pfcfShareTTM을 아예 쓰지 않는다 -
+// 마이너스 FCF를 양수로 "고쳐서" 보여주지 않고, 그냥 "산출 의미 없음"으로 막는다(reviewer 요청).
+function computeTtmFcfSign(ticker){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const q = fin && fin.quarterly ? fin.quarterly : null;
+  if(!q || q.length < 4) return null;
+  const last4 = q.slice(-4);
+  const complete = last4.filter(x=>typeof x.ocf==='number' && typeof x.capex==='number');
+  if(complete.length < 4) return null;
+  const ocf = complete.reduce((a,b)=>a+b.ocf,0);
+  const capex = complete.reduce((a,b)=>a+b.capex,0);  // capex는 이미 음수로 저장됨
+  return { fcf: ocf + capex, lastPeriod: q[q.length-1].period };
+}
+// pfcfShareTTM을 쓰기 전에 반드시 이 함수를 거치도록: 부호를 확인할 수 있는데 FCF가 0 이하면
+// null(=사용 안 함)을 돌려주고, 확인이 안 되면(분기 데이터 부족 등) 제공처 값을 그대로 믿는다
+// (검증할 방법이 없다고 무조건 차단하면 대부분의 정상 종목까지 표시가 안 될 수 있어서).
+function verifiedPfcf(ticker, rawValue){
+  if(typeof rawValue !== 'number' || !isFinite(rawValue)) return null;
+  const sign = computeTtmFcfSign(ticker);
+  if(sign && sign.fcf <= 0) return null;
+  return rawValue;
+}
 function secTtmFromFinancials(ticker){
   const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
   const q = fin && fin.quarterly ? fin.quarterly : null;
@@ -5801,7 +5888,46 @@ function secTtmFromFinancials(ticker){
   const rev = complete.reduce((a,b)=>a+b.revenue,0);
   const ni = complete.reduce((a,b)=>a+b.netIncome,0);
   if(!rev) return null;
-  return {revenue:rev, netIncome:ni, margin: ni/rev*100, lastPeriod: q[q.length-1].period};
+  const result = {revenue:rev, netIncome:ni, margin: ni/rev*100, lastPeriod: q[q.length-1].period};
+  // 2026-09-11 추가(외부 검토로 발견, INTC 사례) - 이 함수는 원래 순이익률만 SEC 기준으로
+  // 재계산했는데, dataQualityNotes()의 충돌 감지도 순이익률만 봐서 "제공처 영업이익률과 저장된
+  // 분기 GAAP 합계가 정반대 부호(+9.36% vs 실측 -0.14%)"인 경우를 놓쳤다(재현 확인: 실제로 경고가
+  // 안 뜸). 같은 4개 분기의 영업이익도 함께 합산해서 영업이익률도 동일한 방식으로 검증 가능하게 한다.
+  const completeOp = last4.filter(x=>typeof x.opIncome==='number');
+  if(completeOp.length === 4){
+    const opRev = completeOp.reduce((a,b)=>a+b.revenue,0);
+    const op = completeOp.reduce((a,b)=>a+b.opIncome,0);
+    if(opRev){
+      result.opIncome = op;
+      result.opMargin = op/opRev*100;
+    }
+  }
+  return result;
+}
+// 2026-09-11 추가(외부 검토로 발견, ORCL 사례) - 최근 4분기 순이익 합계가 같은 기간을 덮는
+// 연간(annual) 순이익 공식 수치와 정확히 일치하는지 별도로 검증한다. secTtmFromFinancials는
+// Finnhub 분기 시계열끼리의 정합성(중복·공백)만 보고, "그 합계가 회사가 공식 발표한 연간
+// 총계와 같은가"는 안 봤다 - ORCL처럼 분기 하나(우선주 배당 차감 전 연결 기준으로 잘못 저장된
+// 분기)가 있으면 분기별로는 다 '정상'처럼 보여도 합계가 $81M씩 어긋날 수 있음(실측 확인).
+// 최근 4분기의 마지막 종료일이 연간 데이터의 종료일과 같을 때만(=정확히 같은 12개월을 덮을 때만)
+// 비교한다 - 아니면 애초에 같은 기간이 아니라서 비교 자체가 의미 없음.
+function secAnnualNetIncomeMismatch(ticker){
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[ticker] : null;
+  const q = fin && fin.quarterly ? fin.quarterly : null;
+  const annual = fin && fin.annual ? fin.annual : null;
+  if(!q || q.length < 4 || !annual || !annual.length) return null;
+  const last4 = q.slice(-4);
+  if(last4.some(x => typeof x.netIncome !== 'number')) return null;
+  const lastAnnual = annual[annual.length - 1];
+  if(!lastAnnual || typeof lastAnnual.netIncome !== 'number') return null;
+  const lastQEnd = last4[last4.length - 1].endDate;
+  if(!lastQEnd || lastQEnd !== lastAnnual.endDate) return null;  // 같은 12개월이 아니면 비교 안 함
+  const qSum = last4.reduce((a,b) => a + b.netIncome, 0);
+  const diff = qSum - lastAnnual.netIncome;
+  if(Math.abs(diff) < 1e6) return null;  // 반올림 오차 수준은 무시(백만달러 미만)
+  const relPct = lastAnnual.netIncome ? Math.abs(diff) / Math.abs(lastAnnual.netIncome) * 100 : null;
+  if(relPct !== null && relPct < 0.1) return null;  // 0.1% 미만 차이도 무시
+  return { qSum, annualNetIncome: lastAnnual.netIncome, diff, period: lastAnnual.period };
 }
 function dataQualityNotes(ticker, fund){
   const notes = [];
@@ -5823,6 +5949,22 @@ function dataQualityNotes(ticker, fund){
     notes.push(`<b>데이터 불일치 — 기간·중복·집계 기준 검증 필요.</b> 이 종목의 분기 재무 데이터에 ${sec.reason}(최근 4분기 기준). 이 상태에서 나온 최근 12개월 합계·순이익률은 신뢰할 수 없어서, 다음 데이터 재수집 전까지는 03 탭·최근 12개월 관련 해석을 참고하지 마세요.`);
   } else if(sec && typeof net==='number' && Math.abs(sec.margin - net) >= MARGIN_GAP_WARN_PP){
     notes.push(`<b>왼쪽 지표(Finnhub 기준 ${net.toFixed(1)}%)와 03 실적 탭(SEC 공시 기준 ${sec.margin.toFixed(1)}%)의 순이익률이 달라요.</b> 둘 다 계산은 맞고, <b>기준 시점이 다른 것</b>이에요 — 실적 발표는 났지만 정식 공시서류(10-Q) 제출은 며칠~몇 주 뒤라, 왼쪽은 최신 분기가 반영된 반면 03 탭은 <b>${sec.lastPeriod}까지</b>만 반영돼 있어요. 최신치는 왼쪽, 검증된 확정치는 03 탭으로 보세요.`);
+  }
+  // 2026-09-11 추가(외부 검토로 발견, INTC 사례) - 위 순이익률 충돌 검사와 별개로 영업이익률도
+  // 같은 방식으로 검증한다. 실측: INTC는 제공처 영업이익률(예: +9.36%)과 저장된 최근 4분기 GAAP
+  // 매출·영업이익 합계로 계산한 값(-0.14%, 부호까지 반대)이 크게 어긋나는데도 기존엔 순이익률만
+  // 봐서 이 충돌을 못 잡았다. 부호가 반대로 갈리는 경우는 "공시 제출 시점 차이"로 설명되지
+  // 않으므로(같은 최근 4분기 기준인데 부호 자체가 다름) 순이익률 케이스처럼 "시점 차이"라고
+  // 단정하지 않고, 기준(연결 대상·GAAP/Non-GAAP·일회성 항목 포함 여부)부터 확인하라고만 안내한다.
+  if(sec && !sec.invalid && typeof sec.opMargin === 'number' && typeof op === 'number' && Math.abs(sec.opMargin - op) >= MARGIN_GAP_WARN_PP){
+    const signFlip = (sec.opMargin >= 0) !== (op >= 0);
+    notes.push(`<b>왼쪽 지표(Finnhub 기준 영업이익률 ${op.toFixed(2)}%)와 저장된 최근 4분기 GAAP 매출·영업이익 합계로 직접 계산한 값(${sec.opMargin.toFixed(2)}%, ${sec.lastPeriod}까지)이 ${signFlip ? '부호까지 반대로' : '크게'} 어긋나요.</b> ${signFlip ? '같은 최근 4분기 기준인데 부호가 다르므로 단순 공시 시점 차이로는 설명되지 않아요 - ' : ''}제공처 수치가 GAAP·Non-GAAP 중 무엇을 기준으로 삼았는지, 일회성 항목을 포함했는지부터 확인 전까지는 <b>영업이익률은 이 값(${sec.opMargin.toFixed(2)}%) 쪽을 우선</b>으로 보는 게 안전해요.`);
+  }
+  // 2026-09-11 추가(외부 검토로 발견, ORCL 사례) - 분기 4개 합계 vs 연간 공식 순이익 불일치 안내.
+  const niMismatch = secAnnualNetIncomeMismatch(ticker);
+  if(niMismatch){
+    const diffM = (niMismatch.diff / 1_000_000).toFixed(0);
+    notes.push(`<b>최근 4분기 순이익 합계($${(niMismatch.qSum/1e9).toFixed(3)}B)가 ${niMismatch.period} 연간 공식 순이익($${(niMismatch.annualNetIncome/1e9).toFixed(3)}B)과 ${Math.abs(niMismatch.diff)>=1e8?'':'약'} $${Math.abs(diffM)}백만 차이나요.</b> 분기 중 하나가 연결 순이익과 보통주주 귀속 순이익(우선주 배당 차감 후) 중 다른 기준으로 저장돼 있을 가능성이 커요 - 연간 총계는 공식 발표 기준(신뢰도 높음)이니, 연간 합산치가 필요한 계산(예: TTM PER)은 분기 4개를 더하기보다 이 연간 공식 수치를 쓰는 게 더 안전해요.`);
   }
   if(!notes.length) return '';
   return `<div class="comment-box" style="background:var(--warn-bg);color:#876000;margin-top:12px;">
@@ -6252,8 +6394,12 @@ function tabValueQuality(r){
   // 지금 주가로 직접 나누면 약 0.69% - 두 배 넘게 차이남). 화면에 이미 있는 지금 주가(r.price)와
   // TTM 배당 합계(dividendPerShareTTM)로 직접 계산해서 덮어씀 - 새 데이터 수집 없이 기존 필드만 재조합.
   const fund = { ...fundRaw };
-  if(typeof fundRaw.dividendPerShareTTM === 'number' && r.price > 0){
-    fund.dividendYieldIndicatedAnnual = fundRaw.dividendPerShareTTM / r.price * 100;
+  const _div = getVerifiedDividendYield(r.ticker, r.price, fundRaw);
+  fund._dividendVerificationNote = _div.note;
+  fund._dividendStatus = _div.status;
+  if(_div.yieldPct != null){
+    fund.dividendYieldIndicatedAnnual = _div.yieldPct;
+    fund.dividendPerShareTTM = _div.dividendPerShareTTM;
   } else {
     delete fund.dividendYieldIndicatedAnnual;
   }
@@ -6279,8 +6425,8 @@ function tabValueQuality(r){
     ${renderFundamentalWindowScores(r.ticker)}
     ${shortInterestComment(r.ticker)}
     <div class="fund-grid">
-      <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS)}${marketCapRow}</div>
-      <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS)}</div>
+      <div class="fund-col"><h3>밸류에이션</h3>${fundRowsHtml(fund, VALUE_FIELDS, r.ticker)}${marketCapRow}</div>
+      <div class="fund-col"><h3>퀄리티</h3>${fundRowsHtml(fund, QUALITY_FIELDS, r.ticker)}</div>
     </div>
     ${historyCompareBlock(r.ticker, fund)}
     ${peerCompareBlock(r)}
