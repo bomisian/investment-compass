@@ -379,7 +379,7 @@
           <th data-key="marketCap" title="발행주식수 × 현재가 = 회사 전체 시장가치">시가총액</th>
           <th data-key="epsGrowth" title="작년 대비 주당순이익(EPS) 증가율">EPS 성장</th>
           <th data-key="rsi" title="0~100, 30 밑 과매도/70 위 과매수">RSI</th>
-          <th data-key="debtEquity" title="총부채 ÷ 자기자본 - 낮을수록 재무적으로 안전. * 표시는 총부채 데이터가 없어 장기부채/자본으로 대체(실제보다 낮게 나올 수 있음)">부채비율</th>
+          <th data-key="debtEquity" title="이자부채(차입금+회사채) ÷ 자기자본 - 낮을수록 재무적으로 안전. 매입채무·이연수익 등을 포함한 총 회계상 부채/자본이 아님(그 값은 더 큼). * 표시는 총 이자부채 데이터가 없어 장기 이자부채/자본으로 대체(실제보다 낮게 나올 수 있음)">부채비율(이자부채)</th>
         </tr>
       </thead>
       <tbody id="resultBody"></tbody>
@@ -1162,7 +1162,7 @@ const HINTS = {
   currentRatio: "1년 내 갚아야 할 빚(유동부채) 대비 1년 내 현금화 가능한 자산(유동자산)의 비율이에요. 1.5~2 정도면 안전한 편이에요.",
   quickRatio: "Current Ratio에서 재고자산을 뺀, 더 보수적인 단기 지급능력 지표예요.",
   ltDebtEquity: "장기 부채만 놓고 본 부채비율이에요. 낮을수록 장기 재무 부담이 적어요.",
-  totalDebtEquity: "총부채를 자기자본으로 나눈 값이에요. 낮을수록 빚 부담이 적어 안전해요.",
+  totalDebtEquity: "차입금·회사채 같은 이자부채를 자기자본으로 나눈 값이에요(매입채무·이연수익 등 이자 안 붙는 부채는 제외 - 그래서 재무제표의 '총부채/자본'보다 훨씬 작아요). 낮을수록 빚 부담이 적어 안전해요.",
   beta: "시장(S&P500) 대비 주가가 얼마나 크게 움직이는지예요. 1보다 크면 시장보다 더 출렁인다는 뜻이에요.",
   marketCap: "발행주식수 × 현재가로 계산한 회사의 시장 가치 전체예요.",
   // 05 전망
@@ -1511,7 +1511,11 @@ function buildScoreBreakdown(ticker, tech, fund, env){
   const deTotal = fund['totalDebt/totalEquityQuarterly'];
   const deLT = fund['longTermDebt/equityQuarterly'];
   const de = deTotal ?? deLT;
-  const deLabel = deTotal != null ? '부채비율(총부채/자본)' : (deLT != null ? '부채비율(장기부채/자본, 총부채 데이터 없음)' : '부채비율(총부채/자본)');
+  // 2026-09-11 수정(외부 검토로 발견, C - AAPL 0.7844 사례) - 이 필드(Finnhub totalDebt/
+  // totalEquity)는 이름과 달리 매입채무·이연수익 등을 포함한 '총 회계상 부채'가 아니라
+  // 차입금·회사채 같은 이자부채만의 비율이다(AAPL 실측 0.7844가 공시상 차입금/자본과 일치,
+  // 총부채/자본은 이보다 훨씬 큼). 라벨을 실제 분자·분모에 맞게 '이자부채/자본'으로 바꾼다.
+  const deLabel = deTotal != null ? '부채비율(이자부채/자본)' : (deLT != null ? '부채비율(장기 이자부채/자본, 총 이자부채 데이터 없음)' : '부채비율(이자부채/자본)');
   const eps = fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y;
   const refItems = [
     {label:'RSI(14)', valueText:tech.rsi.toFixed(1)},
@@ -2062,7 +2066,7 @@ async function analyzeTicker(ticker, env){
     marketCap,
     epsGrowth: fund.epsGrowthTTMYoy ?? fund.epsGrowth3Y ?? null,
     debtEquity: fund['totalDebt/totalEquityQuarterly'] ?? fund['longTermDebt/equityQuarterly'] ?? null,
-    // 2026-09-09 추가(META 리뷰) - 총부채 데이터가 없어 장기부채로 대체된 경우를 표에서
+    // 2026-09-09 추가(META 리뷰) - 총 이자부채 데이터가 없어 장기 이자부채로 대체된 경우를 표에서
     // 구분 표시하기 위한 플래그(실제보다 낮게 나올 수 있음).
     debtEquityIsLtOnly: fund['totalDebt/totalEquityQuarterly'] == null && fund['longTermDebt/equityQuarterly'] != null,
     fvMid: (fairValue && fairValue.fwd && fairValue.fwd.mid!=null) ? fairValue.fwd.mid : null,
@@ -2763,7 +2767,7 @@ function renderTable(){
       <td>${capTxt}</td>
       <td>${r.epsGrowth!=null?(r.epsGrowth>=0?'+':'')+r.epsGrowth.toFixed(1)+'%':'-'}</td>
       <td>${r.rsi.toFixed(1)}</td>
-      <td>${r.debtEquity!=null?(r.debtEquity.toFixed(2)+(r.debtEquityIsLtOnly?' <span title="총부채 데이터가 없어 장기부채/자본으로 대체 - 실제보다 낮게 나올 수 있음">*</span>':'')):'-'}</td>
+      <td>${r.debtEquity!=null?(r.debtEquity.toFixed(2)+(r.debtEquityIsLtOnly?' <span title="총 이자부채 데이터가 없어 장기 이자부채/자본으로 대체 - 실제보다 낮게 나올 수 있음">*</span>':'')):'-'}</td>
     </tr>`;
   }).join('');
   table.style.display='table';
@@ -5846,7 +5850,7 @@ const QUALITY_FIELDS = [
   ['roaTTM','ROA','%','roa'], ['roeTTM','ROE','%','roe'], ['roicTTM','ROIC(근사)','%','roic'], ['roiTTM','ROI','%','roi'],
   ['grossMarginTTM','매출총이익률','%','grossMargin'], ['operatingMarginTTM','영업이익률','%','opMargin'], ['netProfitMarginTTM','순이익률','%','netMargin'],
   ['currentRatioQuarterly','Current Ratio','','currentRatio'], ['quickRatioQuarterly','Quick Ratio','','quickRatio'],
-  ['longTermDebt/equityQuarterly','LT Debt/Equity','','ltDebtEquity'], ['totalDebt/totalEquityQuarterly','Total Debt/Equity','','totalDebtEquity'],
+  ['longTermDebt/equityQuarterly','LT Debt/Equity','','ltDebtEquity'], ['totalDebt/totalEquityQuarterly','Debt/Equity(이자부채)','','totalDebtEquity'],
   ['beta','베타','','beta'],
 ];
 function fundRowsHtml(fund, fields, ticker){
@@ -7284,7 +7288,7 @@ function computeFinancialDirection(r, fin){
     const normText = lastQ.normalizedIncome!=null ? ` 이 항목을 제외한 조정 순이익(제공처 추정치)은 <b>$${fmtUsd(lastQ.normalizedIncome)}</b>입니다.` : '';
     analysis.push(`최신 분기 순이익에는 본업과 무관한 <b>대형 일회성 ${sign}($${fmtUsd(Math.abs(lastQ.unusualItems))})</b>이 크게 반영돼 있어, GAAP 순이익 하나만으로 그 분기를 판단하면 안 됩니다.${normText} 영업이익(위 profitDir)은 이 일회성 항목과 무관하게 별도로 계산돼 있어 본업 방향 판단엔 그쪽을 우선하세요.`);
   }
-  if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·총부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
+  if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·이자부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
   if(eps0Unreliable) analysis.push(`올해(0y) 예상 EPS는 01 판단 탭에서 신뢰할 수 없다고 판단해 계산을 보류한 값이라(${esc(r.fairValue.eps0StatusReason||'')}), 이 값을 분모로 쓰는 EPS 성장률 비교는 여기서도 생략했습니다.`);
 
   const outlook=[];
