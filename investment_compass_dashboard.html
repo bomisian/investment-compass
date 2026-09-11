@@ -7544,7 +7544,21 @@ function guidanceMetricText(m){
   const unitLabel = m.unit==='billion' ? 'B' : (m.unit==='million' ? 'M' : '');
   const unitNote = (!m.unit || m.unit==='unspecified') ? '(단위 미확인)' : '';
   if(m.low!=null && m.high!=null) return `$${m.low}~$${m.high}${unitLabel}${unitNote}`;
-  if(m.center!=null && m.plusMinus!=null) return `$${m.center}±${m.plusMinus}${unitLabel}${unitNote}`;
+  if(m.center!=null && m.plusMinus!=null){
+    // 2026-09-11 수정(외부 검토로 발견, KLAC 사례) - center 단위(billion)와 plusMinus 단위
+    // (deltaUnit, million)가 다를 수 있는데 예전엔 이걸 안 가리고 그냥 붙여써서 "$4±200B"처럼
+    // 억/조 단위가 섞인 무의미한 표기가 나왔다(실제 의미는 $4.0B ± $0.2B). deltaUnit이 있고
+    // unit과 다르면 같은 단위로 환산해서 보여준다 - 계산용 _metric_band()는 이미 이렇게 환산해서
+    // 쓰고 있었는데 화면 표시 함수만 안 맞춰져 있었음(계산과 화면이 다른 값을 썼던 셈).
+    let delta = m.plusMinus;
+    const deltaUnit = m.deltaUnit || m.unit;
+    if(deltaUnit !== m.unit){
+      if(m.unit === 'billion' && deltaUnit === 'million') delta = delta / 1000;
+      else if(m.unit === 'million' && deltaUnit === 'billion') delta = delta * 1000;
+    }
+    const fmt = (v) => v.toFixed(deltaUnit !== m.unit ? 2 : (Number.isInteger(m.plusMinus)?0:2));
+    return `$${fmt(m.center)}${unitLabel} ± $${fmt(delta)}${unitLabel}${unitNote}`;
+  }
   return '-';
 }
 function guidanceHistoryBlock(ticker){

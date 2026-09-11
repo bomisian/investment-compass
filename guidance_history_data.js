@@ -35,14 +35,15 @@ const GUIDANCE_HISTORY_DATA = {
       "outcome": {
         "status": "met",
         "metric": "revenue",
-        "period": "2025-Q1",
+        "period": "Q1'25",
         "actual": 7.166,
         "low": 6.75,
         "high": 7.55,
         "unit": "billion",
         "variancePct": 0.22,
+        "actualEndDate": "2025-01-26",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -316,16 +317,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q3",
-        "actual": 1.5814,
+        "period": "Q1'25",
+        "actual": 1.4979,
         "low": 1.39,
         "high": 1.48,
         "unit": "billion",
-        "variancePct": 10.2,
+        "variancePct": 4.38,
+        "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -358,16 +360,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2025-Q4",
-        "actual": 1.6856,
+        "period": "Q2'25",
+        "actual": 1.5294,
         "low": 1.425,
         "high": 1.575,
         "unit": "billion",
-        "variancePct": 12.38,
+        "variancePct": 1.96,
+        "actualEndDate": "2025-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -400,16 +403,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2026-Q1",
-        "actual": 1.8056,
+        "period": "Q3'25",
+        "actual": 1.5814,
         "low": 1.46,
         "high": 1.6,
         "unit": "billion",
-        "variancePct": 18.02,
+        "variancePct": 3.36,
+        "actualEndDate": "2025-09-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -442,16 +446,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2026-Q2",
-        "actual": 2.0455,
+        "period": "Q4'25",
+        "actual": 1.6856,
         "low": 1.56,
         "high": 1.7,
         "unit": "billion",
-        "variancePct": 25.49,
+        "variancePct": 3.41,
+        "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -482,6 +487,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "met",
+        "metric": "revenue",
+        "period": "Q1'26",
+        "actual": 1.8056,
+        "low": 1.7,
+        "high": 1.84,
+        "unit": "billion",
+        "variancePct": 2.01,
+        "actualEndDate": "2026-03-31",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -511,6 +530,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "met",
+        "metric": "revenue",
+        "period": "Q2'26",
+        "actual": 2.0455,
+        "low": 1.91,
+        "high": 2.05,
+        "unit": "billion",
+        "variancePct": 3.31,
+        "actualEndDate": "2026-06-30",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -631,16 +664,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q3",
-        "actual": 533.8,
+        "period": "Q1'25",
+        "actual": 425.2,
         "low": 410.0,
         "high": 425.0,
         "unit": "million",
-        "variancePct": 27.86,
+        "variancePct": 1.84,
+        "actualEndDate": "2025-03-29",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -758,6 +792,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "met",
+        "metric": "revenue",
+        "period": "Q1'26",
+        "actual": 808.4,
+        "low": 780.0,
+        "high": 830.0,
+        "unit": "million",
+        "variancePct": 0.42,
+        "actualEndDate": "2026-03-28",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -927,6 +975,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "uncertain_period_match",
+        "metric": "revenue",
+        "period": "Q1'26",
+        "actual": 11.201,
+        "low": 41.45,
+        "high": 41.55,
+        "unit": "billion",
+        "variancePct": -73.01,
+        "actualEndDate": "2026-01-31",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -950,6 +1012,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "uncertain_period_match",
+        "metric": "revenue",
+        "period": "Q2'26",
+        "actual": 11.133,
+        "low": 45.8,
+        "high": 46.2,
+        "unit": "billion",
+        "variancePct": -75.8,
+        "actualEndDate": "2026-04-30",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -973,6 +1049,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "met",
+        "metric": "revenue",
+        "period": "Q3'26",
+        "actual": 11.345,
+        "low": 11.27,
+        "high": 11.35,
+        "unit": "billion",
+        "variancePct": 0.31,
+        "actualEndDate": "2026-07-31",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -1074,14 +1164,15 @@ const GUIDANCE_HISTORY_DATA = {
       "outcome": {
         "status": "met",
         "metric": "revenue",
-        "period": "2026-Q1",
-        "actual": 2.2187,
+        "period": "Q2'25",
+        "actual": 1.8953,
         "low": -0.125,
         "high": 3.875,
         "unit": "billion",
-        "variancePct": 18.33,
+        "variancePct": 1.08,
+        "actualEndDate": "2025-05-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1260,16 +1351,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2024-Q4",
+        "period": "Q4'24",
         "actual": 48.385,
         "low": 45.0,
         "high": 48.0,
         "unit": "billion",
         "variancePct": 4.05,
+        "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1396,14 +1488,15 @@ const GUIDANCE_HISTORY_DATA = {
       "outcome": {
         "status": "met",
         "metric": "revenue",
-        "period": "2026-Q1",
+        "period": "Q1'26",
         "actual": 56.311,
         "low": 53.5,
         "high": 56.5,
         "unit": "billion",
         "variancePct": 2.38,
+        "actualEndDate": "2026-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1432,14 +1525,15 @@ const GUIDANCE_HISTORY_DATA = {
       "outcome": {
         "status": "met",
         "metric": "revenue",
-        "period": "2026-Q2",
+        "period": "Q2'26",
         "actual": 60.801,
         "low": 58.0,
         "high": 61.0,
         "unit": "billion",
         "variancePct": 2.19,
+        "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1678,16 +1772,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q2",
-        "actual": 7.685,
+        "period": "Q3'25",
+        "actual": 9.246,
         "low": 8.4,
         "high": 9.0,
         "unit": "billion",
-        "variancePct": -11.67,
+        "variancePct": 6.28,
+        "actualEndDate": "2025-09-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1715,16 +1810,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q3",
-        "actual": 9.246,
+        "period": "Q4'25",
+        "actual": 10.27,
         "low": 9.3,
         "high": 9.9,
         "unit": "billion",
-        "variancePct": -3.69,
+        "variancePct": 6.98,
+        "actualEndDate": "2025-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1752,16 +1848,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q4",
-        "actual": 10.27,
+        "period": "Q1'26",
+        "actual": 10.253,
         "low": 9.5,
         "high": 10.1,
         "unit": "billion",
-        "variancePct": 4.8,
+        "variancePct": 4.62,
+        "actualEndDate": "2026-03-28",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1787,19 +1884,6 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
-      },
-      "outcome": {
-        "status": "missed",
-        "metric": "revenue",
-        "period": "2026-Q2",
-        "actual": 11.536,
-        "low": 12.7,
-        "high": 13.3,
-        "unit": "billion",
-        "variancePct": -11.26,
-        "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
   ],
@@ -2430,16 +2514,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2025-Q3",
-        "actual": 3.2097,
+        "period": "Q1'25",
+        "actual": 3.063,
         "low": 2.85,
         "high": 3.15,
         "unit": "billion",
-        "variancePct": 6.99,
+        "variancePct": 2.1,
+        "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2591,6 +2676,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "met",
+        "metric": "revenue",
+        "period": "Q2'26",
+        "actual": 3.6576,
+        "low": 3.375,
+        "high": 3.775,
+        "unit": "billion",
+        "variancePct": 2.31,
+        "actualEndDate": "2026-06-30",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -2648,16 +2747,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q4",
-        "actual": 2.308,
+        "period": "Q2'25",
+        "actual": 1.901,
         "low": 1.75,
         "high": 1.85,
         "unit": "billion",
-        "variancePct": 28.22,
+        "variancePct": 5.61,
+        "actualEndDate": "2025-06-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2713,16 +2813,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2026-Q2",
-        "actual": 5.95,
+        "period": "Q1'26",
+        "actual": 3.025,
         "low": 2.55,
         "high": 2.65,
         "unit": "billion",
-        "variancePct": 128.85,
+        "variancePct": 16.35,
+        "actualEndDate": "2026-01-02",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2749,16 +2850,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2026-Q3",
-        "actual": 8.965,
+        "period": "Q2'26",
+        "actual": 5.95,
         "low": 4.4,
         "high": 4.8,
         "unit": "billion",
-        "variancePct": 94.89,
+        "variancePct": 29.35,
+        "actualEndDate": "2026-04-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2783,6 +2885,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "above_high",
+        "metric": "revenue",
+        "period": "Q3'26",
+        "actual": 8.965,
+        "low": 7.75,
+        "high": 8.25,
+        "unit": "billion",
+        "variancePct": 12.06,
+        "actualEndDate": "2026-07-03",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
@@ -2839,17 +2955,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2025-Q2",
-        "actual": 2.605,
+        "period": "Q4'24",
+        "actual": 2.409,
         "low": 4.2,
         "high": 4.4,
         "unit": "billion",
-        "variancePct": -39.42,
+        "variancePct": -43.98,
+        "actualEndDate": "2024-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -3062,16 +3179,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2024-Q4",
+        "period": "Q4'24",
         "actual": 1.9304,
         "low": 1.85,
         "high": 1.9,
         "unit": "billion",
         "variancePct": 2.95,
+        "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3098,16 +3216,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q1",
+        "period": "Q1'25",
         "actual": 2.0048,
         "low": 1.93,
         "high": 1.97,
         "unit": "billion",
         "variancePct": 2.81,
+        "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3134,16 +3253,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2025-Q4",
+        "period": "Q4'25",
         "actual": 2.4878,
         "low": 2.3,
         "high": 2.4,
         "unit": "billion",
         "variancePct": 5.86,
+        "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     }
@@ -3241,17 +3361,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2025-Q2",
-        "actual": 9.111,
+        "period": "Q3'25",
+        "actual": 9.969,
         "low": 36.0,
         "high": 37.0,
         "unit": "billion",
-        "variancePct": -75.04,
+        "variancePct": -72.69,
+        "actualEndDate": "2025-09-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -3277,17 +3398,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2025-Q3",
-        "actual": 9.969,
+        "period": "Q4'25",
+        "actual": 10.956,
         "low": 36.0,
         "high": 37.0,
         "unit": "billion",
-        "variancePct": -72.69,
+        "variancePct": -69.98,
+        "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -3313,17 +3435,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2025-Q4",
-        "actual": 10.956,
+        "period": "Q1'26",
+        "actual": 9.339,
         "low": 44.0,
         "high": 45.0,
         "unit": "billion",
-        "variancePct": -75.38,
+        "variancePct": -79.01,
+        "actualEndDate": "2026-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -3349,17 +3472,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2026-Q1",
-        "actual": 9.339,
+        "period": "Q2'26",
+        "actual": 11.104,
         "low": 44.5,
         "high": 45.5,
         "unit": "billion",
-        "variancePct": -79.25,
+        "variancePct": -75.32,
+        "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
     {
@@ -3435,17 +3559,18 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "uncertain_period_match",
         "metric": "revenue",
-        "period": "2024-Q3",
-        "actual": 6288.0,
+        "period": "Q4'24",
+        "actual": 4037.0,
         "low": 500.0,
         "high": 2024.0,
         "unit": "million",
-        "variancePct": 398.26,
+        "variancePct": 219.89,
+        "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
-        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+        "settledAt": 1789095307.1060886,
+        "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     }
   ],
@@ -4009,14 +4134,15 @@ const GUIDANCE_HISTORY_DATA = {
       "outcome": {
         "status": "met",
         "metric": "revenue",
-        "period": "2025-Q2",
-        "actual": 2.444,
+        "period": "Q4'24",
+        "actual": 2.325,
         "low": 2.15,
         "high": 2.45,
         "unit": "billion",
-        "variancePct": 6.26,
+        "variancePct": 1.09,
+        "actualEndDate": "2024-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4073,16 +4199,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2025-Q4",
-        "actual": 2.629,
+        "period": "Q2'25",
+        "actual": 2.444,
         "low": 2.25,
         "high": 2.55,
         "unit": "billion",
-        "variancePct": 9.54,
+        "variancePct": 1.83,
+        "actualEndDate": "2025-06-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4116,16 +4243,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "met",
         "metric": "revenue",
-        "period": "2026-Q1",
-        "actual": 2.825,
+        "period": "Q4'25",
+        "actual": 2.629,
         "low": 2.35,
         "high": 2.65,
         "unit": "billion",
-        "variancePct": 13.0,
+        "variancePct": 5.16,
+        "actualEndDate": "2025-10-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4159,16 +4287,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2026-Q2",
-        "actual": 3.112,
+        "period": "Q1'26",
+        "actual": 2.825,
         "low": 2.6,
         "high": 2.8,
         "unit": "billion",
-        "variancePct": 15.26,
+        "variancePct": 4.63,
+        "actualEndDate": "2026-01-02",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4202,16 +4331,17 @@ const GUIDANCE_HISTORY_DATA = {
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
       },
       "outcome": {
-        "status": "missed",
+        "status": "above_high",
         "metric": "revenue",
-        "period": "2026-Q3",
-        "actual": 3.629,
+        "period": "Q2'26",
+        "actual": 3.112,
         "low": 2.8,
         "high": 3.0,
         "unit": "billion",
-        "variancePct": 25.14,
+        "variancePct": 7.31,
+        "actualEndDate": "2026-04-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789094564.1686182,
+        "settledAt": 1789095307.1060886,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4243,6 +4373,20 @@ const GUIDANCE_HISTORY_DATA = {
       "comparison": {
         "status": "unavailable",
         "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+      },
+      "outcome": {
+        "status": "above_high",
+        "metric": "revenue",
+        "period": "Q3'26",
+        "actual": 3.629,
+        "low": 3.35,
+        "high": 3.55,
+        "unit": "billion",
+        "variancePct": 5.19,
+        "actualEndDate": "2026-07-03",
+        "source": "SEC Company Facts",
+        "settledAt": 1789095307.1060886,
+        "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
