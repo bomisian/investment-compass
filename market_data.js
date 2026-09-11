@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 103.31999969482422,
+      "current": 102.5999984741211,
       "prevClose": 96.05000305175781,
-      "changeAbs": 7.269996643066406,
-      "changePct": 7.5689707569804785,
-      "pctRank": 93.87430389817024,
+      "changeAbs": 6.549995422363281,
+      "changePct": 6.819359931549123,
+      "pctRank": 93.23786793953859,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -8.525894213021346,
-      "ma20": 87.6255012512207,
-      "ma60": 80.9995002746582,
-      "chg1m": 20.12000274658203,
-      "chg3m": 13.290000915527344,
-      "chg1mPct": 24.182696495888656,
-      "chg3mPct": 14.76174730170438,
+      "drawdown1y": -9.163345510194077,
+      "ma20": 87.58950119018554,
+      "ma60": 80.98750025431315,
+      "chg1m": 19.400001525878906,
+      "chg3m": 12.569999694824219,
+      "chg1mPct": 23.31731038157061,
+      "chg3mPct": 13.962012512783453,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,44 +95,44 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.0719985961914,
-      "prevClose": 98.7699966430664,
-      "changeAbs": 0.302001953125,
-      "changePct": 0.3057628463999754,
-      "pctRank": 26.809864757358792,
+      "current": 99.0739974975586,
+      "prevClose": 99.08999633789062,
+      "changeAbs": -0.01599884033203125,
+      "changePct": -0.016145767406707954,
+      "pctRank": 26.788553259141494,
       "min5y": 92.48999786376953,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.4977876182608716,
-      "ma20": 99.24509963989257,
-      "ma60": 100.23953348795573,
-      "chg1m": -0.7480010986328125,
-      "chg3m": -0.8779983520507812,
-      "chg1mPct": -0.7493499307950782,
-      "chg3mPct": -0.878437597657398,
+      "drawdown1y": -2.4958203892920916,
+      "ma20": 99.20169944763184,
+      "ma60": 100.23206672668456,
+      "chg1m": -0.936004638671875,
+      "chg3m": -0.7860031127929688,
+      "chg1mPct": -0.9359110275759008,
+      "chg3mPct": -0.7871050550659531,
       "lastDate": "2026-09-11",
-      "bars": 1257,
+      "bars": 1258,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4373.5,
+      "current": 4371.0,
       "prevClose": 4416.0,
-      "changeAbs": -42.5,
-      "changePct": -0.962409420289855,
+      "changeAbs": -45.0,
+      "changePct": -1.0190217391304348,
       "pctRank": 89.89657915672235,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.766620030346814,
-      "ma20": 4468.639990234375,
-      "ma60": 4239.65166422526,
-      "chg1m": -9.5,
-      "chg3m": 265.2998046875,
-      "chg1mPct": -0.21674652064795802,
-      "chg3mPct": 6.4578110139376825,
+      "drawdown1y": -17.81362664974183,
+      "ma20": 4468.514990234375,
+      "ma60": 4239.609997558594,
+      "chg1m": -12.0,
+      "chg3m": 262.7998046875,
+      "chg1mPct": -0.2737850787132101,
+      "chg3mPct": 6.396957114878613,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.585473695078134,
-        "ret3m": 9.278792634501908,
-        "ret6m": 15.52378296170911,
-        "ret1y": 10.100535311489423,
+        "ret1m": 3.9997525054575656,
+        "ret3m": 10.720511249306108,
+        "ret6m": 13.320044660710817,
+        "ret1y": 8.211956870018122,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 6.387209377379888,
-        "ret3m": -0.5994471466647222,
-        "ret6m": 83.6008209372468,
-        "ret1y": 237.74772054461516,
+        "ret1m": 1.7602542151611056,
+        "ret3m": -0.355237804286368,
+        "ret6m": 75.8308326029383,
+        "ret1y": 224.16985332151307,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": 5.102945152704863,
-        "ret3m": 11.351177411392355,
-        "ret6m": 39.3945715484777,
-        "ret1y": 235.22287777029786,
+        "ret1m": -0.42516801757119804,
+        "ret3m": 6.185204686086987,
+        "ret6m": 36.42707266268801,
+        "ret1y": 219.4259016919138,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -0.2389369934707286,
-        "ret3m": -2.1140188994658082,
-        "ret6m": 12.67908315550037,
-        "ret1y": 63.06478539010727,
+        "ret1m": -4.6039620336322145,
+        "ret3m": 1.1732779655003966,
+        "ret6m": 10.346767297948901,
+        "ret1y": 58.14146655331691,
         "winRate": null,
         "count": 12
       }
@@ -229,19 +229,26 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.08328028534828012,
-    "corrPctRank": 0.16764459346186086,
-    "corrMin5y": 0.06509786816673266,
+    "corr60": 0.054124611147480316,
+    "corrPctRank": 0.0,
+    "corrMin5y": 0.054124611147480316,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
     {
-      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - Reuters",
+      "headline": "Trump says he does not regret Iran war despite impact it may have on midterm elections - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZmZLSXdlTkU0cmx1cTlYYV9KVUliY1k4aUNpNjQxZ2ZyamhIWklodVVZTW1rZkhhNEpwQmM0dFQycmhpR2NzeGVReVYyYjNtV281QlpyMDVHeFUzLTUteGc1NTl6SWhUdzQyZUtlblFkdTVPYUZ0bkt5WTg5dm9walJFeUE0aWJrQjVjZk5KY01OUUFPeHZ4b2pWVGZybWtIb3NOOVFBak9ZajA0WlQ3T3FzeHV2Zw?oc=5",
+      "datetime": 1789085760,
+      "headlineKo": "트럼프, 이란 전쟁이 중간선거에 미칠 영향에도 불구하고 후회하지 않는다 - reuters.com"
+    },
+    {
+      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
       "datetime": 1789083517,
-      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - Reuters"
+      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - reuters.com"
     },
     {
       "headline": "Jim Cramer says this is the key force driving stocks right now",
@@ -251,18 +258,25 @@ const MARKET_DATA = {
       "headlineKo": "Jim Cramer는 이것이 현재 주식을 움직이는 핵심 원동력이라고 말합니다."
     },
     {
-      "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Reuters",
+      "headline": "Trump administration to sanction unnamed 'large' bank on Monday, Bessent says - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ203a2pwbUU5aVVPVUtBUHB4dWRXa2YtM2pYZzMtVWU3SXJqZUNZTmtrTWt6dmFsMm82YzJzUERqeExQYzVhXzl4REJpRk54SEZIblVEckJ5M0pVWHhUdDNUUTZiNzdyUlc3b0h2SjBhZFFQRk5pOTlCZlYzeTJkeXhkQURpbnB6Z1JfcFB5bl9walRKZUdfekNPaGVETHc0aTFfb3pZdlBZaXB1SkRSSjFLaUp3aTBXeXgybWFR?oc=5",
+      "datetime": 1789080380,
+      "headlineKo": "트럼프 행정부, 월요일 익명의 '대형' 은행을 제재할 것이라고 베센트가 밝혔습니다 - reuters.com"
+    },
+    {
+      "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2p0aERlM3VXMFFWMkg4ZUtIejRIWDdUNUtlbnkwLWlyTWFBNGMyUzBUVnczaGdsNGIxcjJNT3BIekZrQXhOVEdwY0ZaQ0RZVmE2SW5RWTdLN1F6M01vbXZyMXF1OE9XbHphN1dnRWxwWmNyV2V2WDg3dGVOTDR3TXd5dDFwcEl6X2pxd05LRmc4d2NkUzFMS3piTFg1eWppdW8xNWNHd0VYZ3EwOFM4a19SMmNkeE9TZlE?oc=5",
       "datetime": 1789072331,
-      "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - 로이터"
+      "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - reuters.com"
     },
     {
-      "headline": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher - Reuters",
+      "headline": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblRzTlVuUWduRmFCWk1jclBzM0pMX2h0T1dUcjk2YXY5ZWEtU0tYbjJsa2R1TnhfY1ZudGlGazcwTUE4WklnTTlyTUdRZ0dHdXRVUE9yOFItQlplM0twb1I2M0xDTUtrMnhFd0N2a1ByRHVHQ1JUbWdBN1RaSnRfZE8zYWJtR3RUWkFoUzFGbjlIWG9sVWtjOXdJYVdWem9pWkdfWTk5alJjSGpZbmNwNzlYejJzSm8xUWJQRzNjZTd4Y3hYZDktS0FR?oc=5",
-      "datetime": 1789071957,
-      "headlineKo": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다."
+      "datetime": 1789071660,
+      "headlineKo": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Jim Cramer's least-favorite tech stock gets a new analyst endorsement — our take",
@@ -300,35 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "UAE, 수많은 사업 거래 속에서 독일에 400억 유로 투자 - Reuters"
     },
     {
-      "headline": "Iran says IAEA moves will push countries to exit NPT - Reuters",
+      "headline": "Iran says IAEA moves will push countries to exit NPT - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONXBmQUx6bXN0ZG9uS0xwd1JoZHg2M01NV3VFMUM3NVpYRzFEZnZwZ0JfZ2VMTkI0cncyMThHYk1rNU9kTlZQcWFlZlpTS0UzMF8zYTJuOEJVSTFvS0IyTjJ6Z3ppS25qdndFaEtKcldmcm5HNXliN3pQaktNNkRDMmxLMS1hYXJMcmxjQ1N4UVI4cHQ0V0E?oc=5",
       "datetime": 1789064029,
-      "headlineKo": "이란은 IAEA의 조치로 인해 국가들이 NPT를 탈퇴하게 될 것이라고 말했습니다 - Reuters"
-    },
-    {
-      "headline": "Israeli whistleblowers detail Gaza civilian toll in Venice film - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX3YwMVozSG9aYk5BZDkybFJFMFMxUF9nNGtNdm1mN2w3VVpwc3lYOWFWbnZoTmNFUEVFM3owWHRZSVBJdTRucFh3ckFpZUh5TW1BanFOdE1DT1lSMGFsVzhsRFZkemgtRnJPQWk2WlFJMVVmaV9KS2FrQWVBMHJhSzFzQmZHUEttOHZCSW52SEROVmVGNjFOZHdpcUZCTmd5Szl0UGFLRmE2WGpfS0FFdnNoeDI?oc=5",
-      "datetime": 1789063788,
-      "headlineKo": "이스라엘 내부 고발자들, 베니스 영화에서 가자지구 민간인 피해 자세히 설명 - 로이터 통신"
-    },
-    {
-      "headline": "Algeria cuts diplomatic ties with the UAE - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
-      "datetime": 1789063295,
-      "headlineKo": "알제리, UAE와 외교관계 단절 - 로이터 통신"
+      "headlineKo": "이란은 IAEA의 조치로 인해 국가들이 NPT를 탈퇴하게 될 것이라고 말했습니다 - reuters.com"
     }
   ],
   "fgi": {
     "score": 33.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1789088552.8670814,
-  "_updated_label": "2026-09-11 10:03",
-  "_last_attempt_at": 1789088552.8670814,
-  "_last_success_at": 1789088552.8670814,
+  "_fetched_at": 1789092713.6242373,
+  "_updated_label": "2026-09-11 11:12",
+  "_last_attempt_at": 1789092713.6242373,
+  "_last_success_at": 1789092713.6242373,
   "_collection_status": "ok",
   "_collection_errors": []
 };
