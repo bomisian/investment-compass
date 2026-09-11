@@ -72,69 +72,69 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 103.0999984741211,
+      "current": 102.61000061035156,
       "prevClose": 102.4800033569336,
-      "changeAbs": 0.6199951171875,
-      "changePct": 0.6049913123324975,
-      "pctRank": 93.79968203497614,
+      "changeAbs": 0.12999725341796875,
+      "changePct": 0.1268513360262038,
+      "pctRank": 93.31742243436753,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -8.720671748786968,
-      "ma20": 88.67600135803222,
-      "ma60": 81.43633359273275,
-      "chg1m": 19.830001831054688,
-      "chg3m": 15.389999389648438,
-      "chg1mPct": 23.814101873998165,
-      "chg3mPct": 17.546459412029495,
+      "drawdown1y": -9.154490143659578,
+      "ma20": 88.65150146484375,
+      "ma60": 81.42816696166992,
+      "chg1m": 19.340003967285156,
+      "chg3m": 14.900001525878906,
+      "chg1mPct": 23.225657195814872,
+      "chg3mPct": 16.98780262388198,
       "lastDate": "2026-09-11",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "CL=F",
       "label": "WTI 유가",
       "unit": "$",
       "digits": 1
     },
     "dollar": {
-      "current": 99.13099670410156,
+      "current": 99.11000061035156,
       "prevClose": 99.08999633789062,
-      "changeAbs": 0.0410003662109375,
-      "changePct": 0.04137689749339463,
-      "pctRank": 27.58346581875994,
+      "changeAbs": 0.0200042724609375,
+      "changePct": 0.02018798385330866,
+      "pctRank": 26.968973747016705,
       "min5y": 92.48999786376953,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.4397243296517157,
-      "ma20": 99.20454940795898,
-      "ma60": 100.23301671346029,
-      "chg1m": -0.8790054321289062,
-      "chg3m": -0.72900390625,
-      "chg1mPct": -0.8789175216010423,
-      "chg3mPct": -0.730025938107626,
+      "drawdown1y": -2.460387742331449,
+      "ma20": 99.20349960327148,
+      "ma60": 100.23266677856445,
+      "chg1m": -0.9000015258789062,
+      "chg3m": -0.75,
+      "chg1mPct": -0.8999115155031718,
+      "chg3mPct": -0.7510514674704042,
       "lastDate": "2026-09-11",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "DX-Y.NYB",
       "label": "달러지수(DXY)",
       "unit": "",
       "digits": 1
     },
     "gold": {
-      "current": 4358.2998046875,
+      "current": 4360.2001953125,
       "prevClose": 4364.5,
-      "changeAbs": -6.2001953125,
-      "changePct": -0.1420596932638332,
-      "pctRank": 89.26868044515103,
+      "changeAbs": -4.2998046875,
+      "changePct": -0.09851769246190858,
+      "pctRank": 89.33969769291966,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.05242394866069,
-      "ma20": 4467.924975585937,
-      "ma60": 4239.958329264323,
-      "chg1m": -50.60009765625,
-      "chg3m": 267.999755859375,
-      "chg1mPct": -1.1476807996786509,
-      "chg3mPct": 6.552080597025081,
+      "drawdown1y": -18.01669157313619,
+      "ma20": 4468.019995117187,
+      "ma60": 4239.990002441406,
+      "chg1m": -48.69970703125,
+      "chg3m": 269.900146484375,
+      "chg1mPct": -1.10457728934516,
+      "chg3mPct": 6.598541507039359,
       "lastDate": "2026-09-11",
-      "bars": 1258,
+      "bars": 1257,
       "symbol": "GC=F",
       "label": "금",
       "unit": "$",
@@ -237,25 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Oil prices set to end week over $100 for first time in nearly 4 months - reuters.com",
+      "headline": "Oil prices set to end week over $100 for first time in nearly 4 months - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWZtMHZyX3Z0UkY2T285M3E2bElVVXRpdVhIVnZLQ1N4UjhKMTQ0UmZLWDlrQmRlcHFtZkN1SUcxSmNvVWhyelh4ZUhpZER2N2N5REE2aFR6Nm52YWRKY0xQRk16cE0tMFpRdkNjQm5YTDZ2RWFhcld2aWVHWUJMcFdncU1FUWVNNTgtX2VKcmpfZUNWZE1LenhwWDlGQmxreVF3Zjk4WlJ0N3hqODIxSQ?oc=5",
       "datetime": 1789089180,
-      "headlineKo": "유가가 거의 4개월 만에 처음으로 100달러를 넘을 것으로 예상 - reuters.com"
+      "headlineKo": "유가가 거의 4개월 만에 처음으로 100달러를 넘을 것으로 예상 - 로이터 통신"
     },
     {
-      "headline": "Trump says he does not regret Iran war despite impact it may have on midterm elections - reuters.com",
+      "headline": "Trump says he does not regret Iran war despite impact it may have on midterm elections - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZmZLSXdlTkU0cmx1cTlYYV9KVUliY1k4aUNpNjQxZ2ZyamhIWklodVVZTW1rZkhhNEpwQmM0dFQycmhpR2NzeGVReVYyYjNtV281QlpyMDVHeFUzLTUteGc1NTl6SWhUdzQyZUtlblFkdTVPYUZ0bkt5WTg5dm9walJFeUE0aWJrQjVjZk5KY01OUUFPeHZ4b2pWVGZybWtIb3NOOVFBak9ZajA0WlQ3T3FzeHV2Zw?oc=5",
       "datetime": 1789085760,
-      "headlineKo": "트럼프, 이란 전쟁이 중간선거에 미칠 영향에도 불구하고 후회하지 않는다 - reuters.com"
+      "headlineKo": "트럼프 \"이란 전쟁, 중간선거 영향에도 후회하지 않는다\" - 로이터"
     },
     {
-      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - reuters.com",
+      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
       "datetime": 1789083517,
-      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - reuters.com"
+      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - Reuters"
     },
     {
       "headline": "Jim Cramer says this is the key force driving stocks right now",
@@ -265,25 +265,32 @@ const MARKET_DATA = {
       "headlineKo": "Jim Cramer는 이것이 현재 주식을 움직이는 핵심 원동력이라고 말합니다."
     },
     {
-      "headline": "Trump administration to sanction unnamed 'large' bank on Monday, Bessent says - reuters.com",
+      "headline": "Trump administration to sanction unnamed 'large' bank on Monday, Bessent says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ203a2pwbUU5aVVPVUtBUHB4dWRXa2YtM2pYZzMtVWU3SXJqZUNZTmtrTWt6dmFsMm82YzJzUERqeExQYzVhXzl4REJpRk54SEZIblVEckJ5M0pVWHhUdDNUUTZiNzdyUlc3b0h2SjBhZFFQRk5pOTlCZlYzeTJkeXhkQURpbnB6Z1JfcFB5bl9walRKZUdfekNPaGVETHc0aTFfb3pZdlBZaXB1SkRSSjFLaUp3aTBXeXgybWFR?oc=5",
       "datetime": 1789080380,
-      "headlineKo": "트럼프 행정부, 월요일 익명의 '대형' 은행을 제재할 것이라고 베센트가 밝혔습니다 - reuters.com"
+      "headlineKo": "트럼프 행정부, 월요일 익명의 '대형' 은행을 제재할 것이라고 베센트가 밝혔습니다 - 로이터 통신"
     },
     {
-      "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - reuters.com",
+      "headline": "Photos of the week - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Panl3TGVIUExwbGFJUUJ3bnBpV2cxUjNhTkpIbzlpclRoZGxpb0dOTGE3SFZTN3llQkVzTUU3RnpxbThUd1VHY1pVWHo0Sm8tSlZ3bWZ3M0tFNFp4dm9rbzQ4eUdEbTg?oc=5",
+      "datetime": 1789074480,
+      "headlineKo": "금주의 사진 - 로이터"
+    },
+    {
+      "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2p0aERlM3VXMFFWMkg4ZUtIejRIWDdUNUtlbnkwLWlyTWFBNGMyUzBUVnczaGdsNGIxcjJNT3BIekZrQXhOVEdwY0ZaQ0RZVmE2SW5RWTdLN1F6M01vbXZyMXF1OE9XbHphN1dnRWxwWmNyV2V2WDg3dGVOTDR3TXd5dDFwcEl6X2pxd05LRmc4d2NkUzFMS3piTFg1eWppdW8xNWNHd0VYZ3EwOFM4a19SMmNkeE9TZlE?oc=5",
       "datetime": 1789072331,
-      "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - reuters.com"
+      "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - 로이터"
     },
     {
-      "headline": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher - reuters.com",
+      "headline": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblRzTlVuUWduRmFCWk1jclBzM0pMX2h0T1dUcjk2YXY5ZWEtU0tYbjJsa2R1TnhfY1ZudGlGazcwTUE4WklnTTlyTUdRZ0dHdXRVUE9yOFItQlplM0twb1I2M0xDTUtrMnhFd0N2a1ByRHVHQ1JUbWdBN1RaSnRfZE8zYWJtR3RUWkFoUzFGbjlIWG9sVWtjOXdJYVdWem9pWkdfWTk5alJjSGpZbmNwNzlYejJzSm8xUWJQRzNjZTd4Y3hYZDktS0FR?oc=5",
       "datetime": 1789071660,
-      "headlineKo": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다 - reuters.com"
+      "headlineKo": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다."
     },
     {
       "headline": "Jim Cramer's least-favorite tech stock gets a new analyst endorsement — our take",
@@ -300,11 +307,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프는 밴스가 기다리고 있는 동안 공화당이 승리하면 5,000달러의 배당금을 받을 것이라고 선전했다 - 로이터"
     },
     {
-      "headline": "Carney says he spoke recently to Trump about Iran, Ukraine - reuters.com",
+      "headline": "Carney says he spoke recently to Trump about Iran, Ukraine - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdVZHZ3p3WFkzek96eVB5elNZRXdVTWoxN1ZHM0kxMlpDN1hZN3llRFBKcjRrRlY1Y1I2czhYdzBRSDcwUE91cldXdWtsTklIZk5vRlZXMkEzVDgtSy1qdElvV2N1TUgtRGhyQkV4NlRSenhVanVvU3lkWXZPdkt4ODM3cFBpbV9vdWhMMlZTSVczN0FkdmlTdm14cVc?oc=5",
       "datetime": 1789065973,
-      "headlineKo": "카니는 최근 트럼프 대통령과 이란, 우크라이나 문제에 대해 이야기했다고 밝혔습니다."
+      "headlineKo": "카니는 최근 이란과 우크라이나에 관해 트럼프와 대화했다고 말했습니다 - 로이터"
     },
     {
       "headline": "Here’s a rapid-fire update on our 33-stock portfolio, including Cramer’s 6 favorites to buy",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/10/a-rapid-fire-update-on-our-33-stock-portfolio-including-6-to-buy-now.html",
       "datetime": 1789064412,
       "headlineKo": "다음은 Cramer가 선호하는 6개 주식을 포함하여 당사의 33개 주식 포트폴리오에 대한 빠른 업데이트입니다."
-    },
-    {
-      "headline": "UAE to invest €40 billion in Germany amid slew of business deals - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNX3VkT2E1dEJFUUo5OW9VQlU1SjlaeGhleXNuQmlyUkZKQnp2VFBsNlQxNkdWdWI2dHc0VUwtbGFlMHZzU3VJOXpUbmVFeWlITjlxN2Q0ZHllTTlWbThlSDZRZXB0cHNHaGRzanJlSjB2Q0RBNVVXQkpmTG5ZOThYQ0pGM3g5QTJDUEl6R05NeE0xMGJQbE1KRVRiWG9DajE2YkNnR1IwSmo4Y3VkLS1v?oc=5",
-      "datetime": 1789064136,
-      "headlineKo": "UAE, 수많은 사업 거래 속에서 독일에 400억 유로 투자 - Reuters"
     }
   ],
   "fgi": {
-    "score": 33.2571428571429,
+    "score": 33.1142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789096626.791987,
-  "_updated_label": "2026-09-11 12:17",
-  "_last_attempt_at": 1789096626.791987,
-  "_last_success_at": 1789096626.791987,
+  "_fetched_at": 1789100481.8380687,
+  "_updated_label": "2026-09-11 13:22",
+  "_last_attempt_at": 1789100481.8380687,
+  "_last_success_at": 1789100481.8380687,
   "_collection_status": "ok",
   "_collection_errors": []
 };
