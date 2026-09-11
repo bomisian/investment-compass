@@ -3154,9 +3154,19 @@ function buildValuationReasonablenessHtml(r){
 
   const lines = [];
   lines.push(`Forward PER <b>${fwd.anchorPe.toFixed(0)}배</b> · 내년 예상 EPS 성장 <b>${fwd.growth>=0?'+':''}${(fwd.growth*100).toFixed(0)}%</b>${growthRateTrendNote(r)}`);
+  // 2026-09-11 수정(외부 검토로 발견, A6 - AAPL $9.57/$9.53 사례) - 위 "내년 예상 EPS 성장"
+  // (fwd.growth)은 ESTIMATES_DATA(야후, eps0/eps1)로 계산하고, 바로 아래 "EPS 컨센서스는
+  // 최근 상향/하향"은 EPS_DATA(Alpha Vantage, 별도 수집기)를 쓴다 - 두 수집원이 대상 회계
+  // 연도를 각자 "현재 시점 기준 다음 회계연도"로 상대적으로 잡기 때문에, 회계연도가 막
+  // 바뀐 시점엔 같은 "내년 EPS"라는 이름으로 서로 다른 회계연도·다른 숫자를 가리킬 수 있다
+  // (실측: AAPL이 서로 다른 시점에 $9.57과 $9.53을 "내년 EPS"로 나란히 보여준 사례 - 실제로는
+  // 한쪽이 회계연도 롤오버 전, 다른 쪽이 롤오버 후 값이었을 가능성이 있음에도 화면에선 구분이
+  // 없었음). 완전한 해결(두 수집원을 하나의 대표값으로 통합)은 더 큰 구조 변경이 필요해 이번엔
+  // 최소한 "이건 다른 수집원의 별도 수치"라는 걸 명시해 동일한 현재값처럼 오인되지 않게 한다.
   if(eps && (eps.direction==='상향' || eps.direction==='하향')){
     const chg = eps.change90dPct!=null ? `(최근 90일 ${eps.change90dPct>=0?'+':''}${eps.change90dPct.toFixed(1)}%)` : '';
-    lines.push(`EPS 컨센서스는 최근 <b>${esc(eps.direction)}</b> 중이에요${chg}`);
+    const fyNote = eps.fiscalDate ? ` · 대상 회계연도 종료 ${esc(eps.fiscalDate)} 기준(위 성장률과 수집원이 달라 EPS 달러 금액을 직접 비교하지 마세요)` : ' · 위 성장률과는 다른 수집원(Alpha Vantage)이라 EPS 달러 금액을 직접 비교하지 마세요';
+    lines.push(`EPS 컨센서스는 최근 <b>${esc(eps.direction)}</b> 중이에요${chg}${fyNote}`);
   }
   if(peg!=null){
     const pegTone = peg<=1 ? '저평가 쪽' : peg>=2 ? '고평가 쪽' : '중간 수준';
