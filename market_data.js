@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 103.9000015258789,
+      "current": 104.19000244140625,
       "prevClose": 96.05000305175781,
-      "changeAbs": 7.849998474121094,
-      "changePct": 8.172824804483367,
-      "pctRank": 94.03341288782816,
+      "changeAbs": 8.139999389648438,
+      "changePct": 8.474751828234812,
+      "pctRank": 94.11296738265712,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -8.012391028669363,
-      "ma20": 87.65450134277344,
-      "ma60": 81.00916697184245,
-      "chg1m": 20.70000457763672,
-      "chg3m": 13.870002746582031,
-      "chg1mPct": 24.879814106861044,
-      "chg3mPct": 15.405979045477395,
+      "drawdown1y": -7.755639436493378,
+      "ma20": 87.6690013885498,
+      "ma60": 81.01400032043458,
+      "chg1m": 20.990005493164062,
+      "chg3m": 14.160003662109375,
+      "chg1mPct": 25.22837291234724,
+      "chg3mPct": 15.728094917363903,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "CL=F",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4359.0,
+      "current": 4356.39990234375,
       "prevClose": 4416.0,
-      "changeAbs": -57.0,
-      "changePct": -1.2907608695652173,
-      "pctRank": 89.41925218774861,
+      "changeAbs": -59.60009765625,
+      "changePct": -1.349639892578125,
+      "pctRank": 89.33969769291966,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.039258422837946,
-      "ma20": 4467.914990234375,
-      "ma60": 4239.409997558594,
-      "chg1m": -24.0,
-      "chg3m": 250.7998046875,
-      "chg1mPct": -0.5475701574264202,
-      "chg3mPct": 6.1048583993950745,
+      "drawdown1y": -18.088147143204836,
+      "ma20": 4467.784985351563,
+      "ma60": 4239.366662597657,
+      "chg1m": -26.60009765625,
+      "chg3m": 248.19970703125,
+      "chg1mPct": -0.6068924858829569,
+      "chg3mPct": 6.041567967268209,
       "lastDate": "2026-09-10",
       "bars": 1257,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 3.9997525054575656,
-        "ret3m": 10.720511249306108,
-        "ret6m": 13.320044660710817,
-        "ret1y": 8.211956870018122,
+        "ret1m": 3.585473695078134,
+        "ret3m": 9.278792634501908,
+        "ret6m": 15.52378296170911,
+        "ret1y": 10.100535311489423,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": 1.7602542151611056,
-        "ret3m": -0.355237804286368,
-        "ret6m": 75.8308326029383,
-        "ret1y": 224.16985332151307,
+        "ret1m": 6.387209377379888,
+        "ret3m": -0.5994471466647222,
+        "ret6m": 83.6008209372468,
+        "ret1y": 237.74772054461516,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -0.42516801757119804,
-        "ret3m": 6.185204686086987,
-        "ret6m": 36.42707266268801,
-        "ret1y": 219.4259016919138,
+        "ret1m": 5.102945152704863,
+        "ret3m": 11.351177411392355,
+        "ret6m": 39.3945715484777,
+        "ret1y": 235.22287777029786,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -4.6039620336322145,
-        "ret3m": 1.1732779655003966,
-        "ret6m": 10.346767297948901,
-        "ret1y": 58.14146655331691,
+        "ret1m": -0.2389369934707286,
+        "ret3m": -2.1140188994658082,
+        "ret6m": 12.67908315550037,
+        "ret1y": 63.06478539010727,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,20 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.054124611147480316,
-    "corrPctRank": 0.0,
-    "corrMin5y": 0.054124611147480316,
+    "corr60": 0.08328028534828012,
+    "corrPctRank": 0.16764459346186086,
+    "corrMin5y": 0.06509786816673266,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "Yemen's Houthis close in on Bab el-Mandeb Strait in new threat to shipping - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUNHSEc4V2xmVVpPcmx6cE1GaF85MVB3Tnl5ZzdyWVBlYy0zcnNzOTQ1R2ZyNFdzbmp6c2xodVlOallDQTAyeUFodEUwa0dkOFFCN3ZIcmg0V3Iyc0NiUGczTklDSzhUOGNkUUd5ZWlRME5LRGhBdHFvSDdVUm9WdjZacC0zcFdkM0xZY09LUHFDR3lua1ZXMW1GN0NxT21CTFRYNkFOVGRNMzFsTjJXS1hnejFfVTdUZHBvMEJoMmJGU2xLQnc?oc=5",
+      "datetime": 1789081703,
+      "headlineKo": "예멘 후티 반군, 바브엘만데브 해협에 접근해 해상운송 위협 - 로이터 통신"
+    },
     {
       "headline": "Jim Cramer says this is the key force driving stocks right now",
       "source": "CNBC",
@@ -254,7 +261,7 @@ const MARKET_DATA = {
       "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2p0aERlM3VXMFFWMkg4ZUtIejRIWDdUNUtlbnkwLWlyTWFBNGMyUzBUVnczaGdsNGIxcjJNT3BIekZrQXhOVEdwY0ZaQ0RZVmE2SW5RWTdLN1F6M01vbXZyMXF1OE9XbHphN1dnRWxwWmNyV2V2WDg3dGVOTDR3TXd5dDFwcEl6X2pxd05LRmc4d2NkUzFMS3piTFg1eWppdW8xNWNHd0VYZ3EwOFM4a19SMmNkeE9TZlE?oc=5",
-      "datetime": 1789068616,
+      "datetime": 1789072331,
       "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - 로이터"
     },
     {
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaW5YdHFlZ2U0Sll2VTZQeGxweXUtTk8zSUt4UGdNQ2ljcTRzeG84SEdzcWlFOUpXNGFhekVfcXc3dEU0Y0UtQnBpRnZwWmVqVXl1TWpDQlhRRjZnbWRoT0JFaUdZcVkxdU9BU3NfSjNMeW5zR2I1M20wTHlvS3N0MXBIWWVLUTNIR0RFS2ctWWJJLS1nVXhyRnhIakpKd3ZUS1pmeld6MTVBNl9KVnVpaWFMTzI?oc=5",
       "datetime": 1789063295,
       "headlineKo": "알제리, UAE와 외교관계 단절 - 로이터 통신"
-    },
-    {
-      "headline": "OpenAI targets work of Wall Street junior bankers with new ChatGPT for Financial Services",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
-      "datetime": 1789060349,
-      "headlineKo": "OpenAI는 금융 서비스를 위한 새로운 ChatGPT를 통해 월스트리트 하급 은행가의 작업을 목표로 합니다."
     }
   ],
   "fgi": {
     "score": 33.2571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1789081268.8585842,
-  "_updated_label": "2026-09-11 08:01",
-  "_last_attempt_at": 1789081268.8585842,
-  "_last_success_at": 1789081268.8585842,
+  "_fetched_at": 1789084804.7690868,
+  "_updated_label": "2026-09-11 09:00",
+  "_last_attempt_at": 1789084804.7690868,
+  "_last_success_at": 1789084804.7690868,
   "_collection_status": "ok",
   "_collection_errors": []
 };
