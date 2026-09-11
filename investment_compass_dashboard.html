@@ -6747,6 +6747,19 @@ function earningsComment(data, mode){
         : (d > 0 ? `로 1년 전 ${mPrev.toFixed(1)}%에서 <b>${d.toFixed(1)}%p 개선</b>됐어요.`
                  : `로 1년 전 ${mPrev.toFixed(1)}%에서 <b>${Math.abs(d).toFixed(1)}%p 나빠졌어요.</b>`);
       if(d <= -3) tone = 'warn';
+      // 2026-09-11 수정(외부 검토로 발견, GOOGL 사례) - 아래 03c에 영업외손익 경고가 이미 있었지만
+      // 순이익률 문장과 떨어진 별도 불릿이라, "순이익률 93.6% · 64.3%p 개선"처럼 큰 수치만 보고
+      // 본업이 그만큼 좋아졌다고 오해하기 쉬웠음(실측: GOOGL - 지분증권 미실현 평가이익 ~$98B가
+      // 주 원인). 순이익률 수치 바로 옆 문장에 이익의 성격을 붙여, 경고를 따로 찾아보지 않아도
+      // 바로 보이게 한다.
+      const nonOpBig = last.otherNonOperating!=null && last.netIncome>0 && Math.abs(last.otherNonOperating)>=last.netIncome*0.2;
+      const unusualBig = !nonOpBig && last.unusualItems!=null && last.revenue && Math.abs(last.unusualItems)>=last.revenue*0.1;
+      if(nonOpBig){
+        s += ` <span style="color:var(--warn)">(이 중 $${fmtUsd(last.otherNonOperating)}는 영업외손익 - 본업 개선 폭과는 달라요.)</span>`;
+      } else if(unusualBig){
+        const sign = last.unusualItems < 0 ? '손실' : '이익';
+        s += ` <span style="color:var(--warn)">(대형 일회성 ${sign} $${fmtUsd(Math.abs(last.unusualItems))}가 반영돼 있어 본업 개선 폭과는 달라요.)</span>`;
+      }
     } else s += '예요.';
     items.push(s);
     if(mNow < 0){ items.push(`<b>이 기간은 적자예요.</b>`); tone = 'warn'; }
@@ -6983,7 +6996,15 @@ function computeFinancialDirection(r, fin){
   const trends = {};
   (est.trend||[]).forEach(t=>{ trends[t.period]=t; });
   const y0=trends['0y'], y1=trends['+1y'];
-  const epsGrowth = y0?.epsAvg>0 && y1?.epsAvg!=null ? (y1.epsAvg/y0.epsAvg-1)*100 : null;
+  // 2026-09-11 수정(외부 검토로 발견, MU 사례) - 01 판단 탭(checkCurrentFiscalEps)·05 전망 탭
+  // (forecastComment)은 올해(0y) EPS가 급변·회계연도마감 후 미확인 상태면 계산을 보류하는데,
+  // 여기(04 재무제표 종합판정)만 그 검증을 거치지 않고 est.trend 원본 y0.epsAvg를 그대로 써서
+  // 같은 종목인데 다른 탭은 "계산 보류", 이 탭만 왜곡된 값으로 "EPS +111%" 같은 성장률을 그대로
+  // 보여주는 정책 불일치가 있었음(실측: MU - 회계연도 종료 후 확정 실적 미반영 상태의 $73.40044를
+  // 분모로 써서 +111%가 나왔음). r.fairValue.eps0Status를 재사용해 같은 상태일 때는 동일하게
+  // epsGrowth를 보류하고 그 사실을 analysis에 명시한다.
+  const eps0Unreliable = r?.fairValue && (r.fairValue.eps0Status==='anomaly' || r.fairValue.eps0Status==='fiscal_year_closed');
+  const epsGrowth = !eps0Unreliable && y0?.epsAvg>0 && y1?.epsAvg!=null ? (y1.epsAvg/y0.epsAvg-1)*100 : null;
   const revGrowth = y1?.revenueGrowth!=null ? y1.revenueGrowth*100 : null;
 
   const revenueDir = qRevG==null ? '확인 중' : qRevG>=5 ? '↗ 회복' : qRevG<=-5 ? '↘ 둔화' : '→ 정체';
@@ -7030,6 +7051,7 @@ function computeFinancialDirection(r, fin){
     analysis.push(`최신 분기 순이익에는 본업과 무관한 <b>대형 일회성 ${sign}($${fmtUsd(Math.abs(lastQ.unusualItems))})</b>이 크게 반영돼 있어, GAAP 순이익 하나만으로 그 분기를 판단하면 안 됩니다.${normText} 영업이익(위 profitDir)은 이 일회성 항목과 무관하게 별도로 계산돼 있어 본업 방향 판단엔 그쪽을 우선하세요.`);
   }
   if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·총부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
+  if(eps0Unreliable) analysis.push(`올해(0y) 예상 EPS는 01 판단 탭에서 신뢰할 수 없다고 판단해 계산을 보류한 값이라(${esc(r.fairValue.eps0StatusReason||'')}), 이 값을 분모로 쓰는 EPS 성장률 비교는 여기서도 생략했습니다.`);
 
   const outlook=[];
   if(revGrowth!=null || epsGrowth!=null){
