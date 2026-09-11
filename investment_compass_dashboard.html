@@ -366,7 +366,7 @@
         <tr>
           <th data-key="ticker">종목</th>
           <th data-key="theme">테마</th>
-          <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수">판단(장기)</th>
+          <th data-key="score" title="눌림목 강도(0~5): 52주 하락 깊이+200일선 아래+시장조정. 실데이터로 12개월 초과수익 예측력이 검증된 지표만 반영한 6~12개월 타이밍 점수. 아래 작은 배지(판단 보류/위험 우선/조건 대기/매수 검토)는 가격 점수에 실적·현금흐름·데이터 상태까지 종합한 별도 판정이에요(2026-09-11 추가) - 가격 점수만 보지 말고 이 배지도 함께 확인하세요.">판단(장기)</th>
           <th data-key="valuationGap" title="이 종목 자신의 3·5년 평균 PER·성장률로 역산한 '역산 기대성장률'(없으면 PEG로 대체) 기준 저평가/적정/고평가 - 아직 승률 검증이 안 된 참고용 지표예요, 매수·매도 신호로 쓰지 마세요. 종목을 열면 '가격 타당성 체크' 카드에서 근거를 자세히 볼 수 있어요">가격 타당성</th>
           <th data-key="auxScore" title="가격 타당성·EPS 전망·애널리스트 목표가·내부자 매매·뉴스 방향성·그룹대비강도를 모아 긍정/조심 개수만 센 거예요. 새로 만든 예측이 아니라 이미 이 표·상세 화면에 있는 값들을 모은 참고용 요약이에요 - 매수·매도 신호 아니에요. 종목을 열면 '보조 근거 체크' 카드에서 자세히 볼 수 있어요">보조 근거</th>
           <th data-key="relStrength20" title="같은 섹터 그룹(동일가중) 대비 최근 20일 수익률 차이. 뒤처짐(-11%p 이하)은 5년치 검증된 경고. 앞섬(+11%p 이상)은 2026-08-26 10년치 재검증 결과 반도체 그룹에서도 사이클 전체로는 근거가 약함(2021-2023 구간은 오히려 역방향) - AI 강세장 국면 한정 효과로 판단해 신호로 쓰지 않음, 참고용 숫자만">그룹대비강도(20일)</th>
@@ -2745,7 +2745,7 @@ function renderTable(){
     return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
       <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}</td>
       <td class="theme">${r.theme}</td>
-      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}</td>
+      <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}<br>${decisionStatusBadgeHtml(r)}</td>
       <td>${valuationBadgeHtml(r)}</td>
       <td>${auxiliaryEvidenceBadgeHtml(r._auxEvidence)}</td>
       <td>${r.relStrength20!=null?`<span class="${r.relStrength20>=0?'pos':'neg'}">${r.relStrength20>=0?'+':''}${r.relStrength20.toFixed(1)}%p</span>`:'-'}</td>
@@ -3711,6 +3711,106 @@ function computeDataHealth(dates, source, dropped){
 // computeDataHealth()의 데이터 누락/캐시폴백 경고를 행 클릭 없이도 작은 ⚠️ 배지로 미리 보여줌.
 // ⚠️ 이 배지는 점수를 바꾸지 않음 - 판단(장기)는 여전히 눌림목 강도(백테스트 검증)만 반영하고,
 // 이 배지는 그와 별개인 참고 정보(밸류에이션 주의점·데이터 신선도)가 있다는 신호일 뿐임.
+// ============ B1. DecisionViewModel (2026-09-11 추가, 외부 검토 Section B) ============
+// [배경] 목록의 "판단(장기)" 배지(가격 눌림목 점수)와 상세 탭들이 각자 다른 문장으로 판단을
+// 내려서, 같은 종목을 목록에서는 매수 신호처럼, 상세에서는 위험 신호처럼 보여주는 불일치가
+// 있었다(A2에서 경고 배지로 일부 대응). 이 리뷰는 목록·상세가 "같은 판정 데이터 구조"를
+// 소비하도록 요구한다 - 새 확률·점수를 만들지 않고, 이미 계산돼 있는 값들(가격 점수 verdict,
+// 밸류에이션 fairValue.fwd, 실적 방향 computeFinancialDirection, 가격 데이터 상태 dataHealth)을
+// 정해진 우선순위로 조합해 하나의 상태(판단 보류/위험 우선/조건 대기/매수 검토)로 만든다.
+//
+// 우선순위(리뷰 B2 원문): 1) 가격 모델 자체가 준비 안 됐으면 판단 보류. 2) 필수 데이터
+// (실적·현금흐름)가 없거나 못 믿을 상태면 판단 보류. 3) 자료가 유효하면 위험 우선 조건부터
+// 검사. 4) 매수 조건을 다 충족하면 매수 검토, 아니면 조건 대기.
+//
+// ⚠️ v1 정책: 이 함수가 참조하는 임계값(예: '위험 우선' 판정 기준)은 전부 이미 이 대시보드가
+// 다른 곳에서 쓰던 계산(verdictCautionBadge의 fundamentalMismatch 로직 등)을 재사용한 것이고,
+// 새로 만든 가중치나 확률이 아니다. policyVersion을 올리지 않고 조건을 바꾸지 않을 것 - 바꿀
+// 때는 반드시 policyVersion도 함께 올려서 과거 스냅샷과 섞이지 않게 한다.
+const DECISION_POLICY_VERSION = 1;
+const DECISION_STATUS_META = {
+  unavailable: {label:'판단 보류', color:'#626b76', bg:'#eceff1'},
+  risk_first:  {label:'위험 우선', color:'#b3261e', bg:'#fdecea'},
+  wait:        {label:'조건 대기', color:'#8a6d00', bg:'#fff6db'},
+  review:      {label:'매수 검토', color:'#0a6b45', bg:'#e6f4ec'},
+};
+function computeDecisionViewModel(r){
+  const reasonCodes = [];
+  const nextChecks = [];
+  const fv = r.fairValue && r.fairValue.fwd;
+  const priceModelMissing = !fv || !!fv.unavailable;
+  // A3에서 고친 부분: 밸류에이션 경계가 음수·극단치로 불안정하면 fv.expectations를 아예 안
+  // 채워서 저평가/고평가 배지를 안 만들었다 - 그 신호를 여기서도 "가격 기준 불안정"으로 재사용.
+  const valuationUnstable = !priceModelMissing && !fv.expectations;
+  const valuationReady = !priceModelMissing && !valuationUnstable;
+
+  const fin = (typeof FINANCIALS_DATA !== 'undefined') ? FINANCIALS_DATA[r.ticker] : null;
+  const fd = fin ? computeFinancialDirection(r, fin) : null;
+  const financialDataMissing = !fd;
+  const cashMissing = !!fd && fd.cashDir === '확인 중';
+
+  const h = r.dataHealth;
+  const trueMissing = h ? h.missing.filter(m=>!m.holiday).length : 0;
+  const usedFallback = !!(h && /GitHubCache/.test(h.source));
+  const priceDataStale = !!(h && (trueMissing>0 || h.dropped>0 || usedFallback));
+
+  let status, headlineReason;
+
+  if(priceModelMissing){
+    status = 'unavailable';
+    reasonCodes.push('price_model_missing');
+    headlineReason = (typeof fv?.unavailable === 'string') ? fv.unavailable : '가격 기준을 계산하지 못해 판단을 보류했어요';
+    nextChecks.push('애널리스트 컨센서스 EPS·현재가 재조회');
+  } else if(valuationUnstable){
+    status = 'unavailable';
+    reasonCodes.push('price_model_unstable');
+    headlineReason = '역산한 가격 판단 기준이 음수이거나 현재가의 여러 배로 벌어져 있어(계산상 불안정) 저평가/고평가 판단을 보류했어요';
+    nextChecks.push('다음 분기 EPS 컨센서스 확정 후 밸류에이션 경계 재계산');
+  } else if(financialDataMissing){
+    status = 'unavailable';
+    reasonCodes.push('financial_data_missing');
+    headlineReason = '실적(매출·영업이익) 이력 데이터가 아직 없어서 판단을 보류했어요';
+    nextChecks.push('SEC 검증 분기 실적 데이터 수집 확인');
+  } else if(cashMissing){
+    status = 'unavailable';
+    reasonCodes.push('cash_flow_missing');
+    headlineReason = '최신 분기 현금흐름(OCF·CapEx·FCF) 자료가 아직 확인되지 않아 판단을 보류했어요';
+    nextChecks.push('다음 분기 현금흐름(FCF) 공시 확인');
+  } else {
+    const verdictSuggestsBuy = !!(r.verdict && (r.verdict.label==='강한 매수기회' || r.verdict.label==='매수 관심'));
+    const fundamentalMismatch = fd.verdict === '매출·수익성 동반 둔화';
+    if(fundamentalMismatch){
+      status = 'risk_first';
+      reasonCodes.push('fundamental_deterioration');
+      headlineReason = `가격 점수와 무관하게 최근 매출·수익성이 동반 둔화 중이에요(${esc(fd.lastQPeriod||'최신 분기')} 기준)`;
+      nextChecks.push('다음 분기 매출 성장률·영업이익률 반등 여부 확인');
+    } else if(priceDataStale){
+      status = 'risk_first';
+      reasonCodes.push('price_data_stale');
+      headlineReason = '가격 데이터 지연·누락 또는 캐시 폴백이 의심돼서 다른 판단보다 먼저 확인이 필요해요';
+      nextChecks.push('가격 데이터 소스·최신 거래일 재확인');
+    } else if(verdictSuggestsBuy){
+      status = 'review';
+      reasonCodes.push('buy_conditions_met');
+      headlineReason = `가격 눌림목 조건(${esc(r.verdict.label)})을 충족했고, 최근 실적 방향(${esc(fd.verdict)})도 확인됐어요`;
+    } else {
+      status = 'wait';
+      reasonCodes.push('buy_conditions_not_met');
+      headlineReason = `가격 눌림목 조건을 아직 충족하지 않았어요(현재 ${r.score}/5점) - 실적 방향은 ${esc(fd.verdict)}`;
+      nextChecks.push('52주 고점 대비 추가 조정 또는 200일선 이탈 여부 확인');
+    }
+  }
+
+  return {
+    ticker: r.ticker, policyVersion: DECISION_POLICY_VERSION, evaluatedAt: Math.floor(Date.now()/1000),
+    status, headlineReason, reasonCodes, nextChecks,
+  };
+}
+function decisionStatusBadgeHtml(r){
+  const d = r.decision || computeDecisionViewModel(r);
+  const meta = DECISION_STATUS_META[d.status] || DECISION_STATUS_META.unavailable;
+  return `<span class="badge" style="background:${meta.bg};color:${meta.color};border:1px solid ${meta.color}33;margin-left:4px;" title="${esc(d.headlineReason)}">${meta.label}</span>`;
+}
 function verdictCautionBadge(r){
   const fv = r.fairValue && r.fairValue.fwd;
   const fvWarn = !!(fv && fv.cautions && fv.cautions.length);
