@@ -1393,7 +1393,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789055035.4755135,
+    "_fetched_at": 1789127047.0460155,
     "_updated_label": "2026-09-11"
   },
   "INTC": {
@@ -1765,7 +1765,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789055035.4755135,
+    "_fetched_at": 1789127047.0460155,
     "_updated_label": "2026-09-11"
   },
   "KLAC": {
@@ -2536,7 +2536,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789055035.4755135,
+    "_fetched_at": 1789127047.0460155,
     "_updated_label": "2026-09-11"
   },
   "ETN": {
