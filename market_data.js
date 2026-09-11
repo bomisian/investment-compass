@@ -3,21 +3,21 @@
 const MARKET_DATA = {
   "indicators": {
     "vix": {
-      "current": 17.59000015258789,
+      "current": 17.25,
       "prevClose": 17.84000015258789,
-      "changeAbs": -0.25,
-      "changePct": -1.4013452794939283,
-      "pctRank": 47.7326968973747,
+      "changeAbs": -0.5900001525878906,
+      "changePct": -3.3071757149189516,
+      "pctRank": 45.425616547334926,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
-      "drawdown1y": -43.349434509509166,
-      "ma20": 15.536500024795533,
-      "ma60": 16.39333324432373,
-      "chg1m": 2.9600000381469727,
-      "chg3m": -0.09000015258789062,
-      "chg1mPct": 20.232399282247638,
-      "chg3mPct": -0.5090506280225757,
+      "drawdown1y": -44.44444307937113,
+      "ma20": 15.519500017166138,
+      "ma60": 16.387666575113933,
+      "chg1m": 2.619999885559082,
+      "chg3m": -0.43000030517578125,
+      "chg1mPct": 17.90840645977127,
+      "chg3mPct": -2.432128380958792,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "^VIX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 100.4000015258789,
+      "current": 100.1500015258789,
       "prevClose": 102.4800033569336,
-      "changeAbs": -2.0800018310546875,
-      "changePct": -2.0296660450040456,
-      "pctRank": 92.04455051710421,
+      "changeAbs": -2.3300018310546875,
+      "changePct": -2.27361607604499,
+      "pctRank": 91.96499602227526,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -11.111107358519135,
-      "ma20": 88.54100151062012,
-      "ma60": 81.39133364359537,
-      "chg1m": 17.1300048828125,
-      "chg3m": 12.69000244140625,
-      "chg1mPct": 20.57164113532945,
-      "chg3mPct": 14.468136556682243,
+      "drawdown1y": -11.332444239222694,
+      "ma20": 88.52850151062012,
+      "ma60": 81.38716697692871,
+      "chg1m": 16.8800048828125,
+      "chg3m": 12.44000244140625,
+      "chg1mPct": 20.271412949814305,
+      "chg3mPct": 14.183106340504464,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.09100341796875,
+      "current": 99.11100006103516,
       "prevClose": 99.08999633789062,
-      "changeAbs": 0.001007080078125,
-      "changePct": 0.0010163287065738911,
-      "pctRank": 26.968973747016705,
+      "changeAbs": 0.02100372314453125,
+      "changePct": 0.021196613099984263,
+      "pctRank": 27.128082736674624,
       "min5y": 92.48999786376953,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.4790839260424025,
-      "ma20": 99.20254974365234,
-      "ma60": 100.2323501586914,
-      "chg1m": -0.9189987182617188,
-      "chg3m": -0.7689971923828125,
-      "chg1mPct": -0.9189068079509564,
-      "chg3mPct": -0.7700752930929761,
+      "drawdown1y": -2.4594041278470535,
+      "ma20": 99.20354957580567,
+      "ma60": 100.23268343607585,
+      "chg1m": -0.8990020751953125,
+      "chg3m": -0.7490005493164062,
+      "chg1mPct": -0.8989121647759994,
+      "chg3mPct": -0.7500506156003011,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4393.10009765625,
+      "current": 4385.7001953125,
       "prevClose": 4364.5,
-      "changeAbs": 28.60009765625,
-      "changePct": 0.6552892119658609,
+      "changeAbs": 21.2001953125,
+      "changePct": 0.48574167287203573,
       "pctRank": 90.13524264120922,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.398086298093762,
-      "ma20": 4469.664990234375,
-      "ma60": 4240.538334147135,
-      "chg1m": -15.7998046875,
-      "chg3m": 302.800048828125,
-      "chg1mPct": -0.3583616103214523,
-      "chg3mPct": 7.4028810897351525,
+      "drawdown1y": -17.537224055306954,
+      "ma20": 4469.294995117188,
+      "ma60": 4240.415002441407,
+      "chg1m": -23.19970703125,
+      "chg3m": 295.400146484375,
+      "chg1mPct": -0.5262017180049188,
+      "chg3mPct": 7.221967654157973,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,11 +237,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "UK economy grows at fastest pace since February 2025 on possible AI boost - Reuters",
+      "headline": "Treasury yields steady as traders await consumer inflation data amid oil price pressure",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/11/us-treasurys-bonds-yields.html",
+      "datetime": 1789115757,
+      "headlineKo": "유가 압력 속에서 거래자들이 소비자 인플레이션 데이터를 기다리면서 국채 수익률은 안정적입니다."
+    },
+    {
+      "headline": "Iran-backed Houthis reach Yemen's Dhubab on Bab el-Mandeb Strait, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPR2lWMm91dVAwbnJaMk5iOVVVdnY2emU0a002dnNnbzJlMFR2VWtXSHRxVm5vbDRJcV83M0R2WEkzZmJHcDJNTDZPZ3U4dTlhWTRYT2pZbE1PaWh6Y2NLbjNLb2xoTEZPenNrbDJFTkRsM0tiOWlqV2k4RGpBOFBTTjZDaDMwZ3FYRHFVdGZSR1RvaXVxU1REcGdJalVueTJEMWpBYWxrWXFlY0E0VTZhZXhRODlzZnNaVDhXS0Y5SGFNZXND?oc=5",
+      "datetime": 1789114903,
+      "headlineKo": "이란의 지원을 받는 후티 반군이 바브엘만데브 해협에서 예멘의 두바브에 도달했다고 소식통이 전했습니다."
+    },
+    {
+      "headline": "UK economy grows by most since early 2025 on possible AI boost - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5XSDFBSllVM3pZWVBqSlo3UGhUaVB2VXpyTXJMMUVpTmQ0U3NrMjVFblZDZHJnY3pKbHJ3S0l1aWRFMmJGYWR3eTBidlU3aksybDVpMWJxaXk5anI3OXYtREoxbXh3R0ZTZUJ2cklkQVlmNi1YX0Rz?oc=5",
       "datetime": 1789106580,
-      "headlineKo": "영국 경제는 AI 부양 가능성으로 인해 2025년 2월 이후 가장 빠른 속도로 성장합니다. - Reuters"
+      "headlineKo": "AI 부양 가능성으로 영국 경제는 2025년 초 이후 최대 성장 - Reuters"
+    },
+    {
+      "headline": "South Korean, Iranian foreign ministers discuss Strait of Hormuz, Seoul says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaWYyU1hhQWhiN21Nd2tXNGxEZjdKQmFhbWlpRDNiZVdLZk45YzM3T2NOcUd5ZVAtUVozN2tsak9aYzBIX1BFSndGM3Vsa255UktpTVhhS0JqVWI3U0JJSTlNRU51eVpHT3dwcC1QNnVkbUlGTm0zZUJ1UFBaWVpVazgwZXFKSXVUYVEzNGhxNDVLWXJVSHZPMHVqUHVCNUNPNWZFeW5veHMxb0tielkxZFRmclVocmdXOXVjNFlRNWQwSm94?oc=5",
+      "datetime": 1789106400,
+      "headlineKo": "한·이란 외무장관, 호르무즈 해협 논의 - 로이터 통신"
     },
     {
       "headline": "Hormuz shipping traffic falls to single digits, data shows - Reuters",
@@ -258,11 +279,11 @@ const MARKET_DATA = {
       "headlineKo": "트럼프 중간 전당대회의 5가지 주요 시사점 - Reuters"
     },
     {
-      "headline": "Oil prices set to end week above $100 for first time in nearly 4 months - Reuters",
+      "headline": "Oil set to end week above $100 for first time since mid-May as US diesel hits record high - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWZtMHZyX3Z0UkY2T285M3E2bElVVXRpdVhIVnZLQ1N4UjhKMTQ0UmZLWDlrQmRlcHFtZkN1SUcxSmNvVWhyelh4ZUhpZER2N2N5REE2aFR6Nm52YWRKY0xQRk16cE0tMFpRdkNjQm5YTDZ2RWFhcld2aWVHWUJMcFdncU1FUWVNNTgtX2VKcmpfZUNWZE1LenhwWDlGQmxreVF3Zjk4WlJ0N3hqODIxSQ?oc=5",
       "datetime": 1789089180,
-      "headlineKo": "유가가 거의 4개월 만에 처음으로 100달러를 넘어 이번 주 마감될 예정 - 로이터"
+      "headlineKo": "미국 디젤이 사상 최고치를 기록함에 따라 유가는 5월 중순 이후 처음으로 100달러 이상으로 한 주를 마감할 예정 - Reuters"
     },
     {
       "headline": "Trump says he does not regret Iran war despite impact it may have on midterm elections - Reuters",
@@ -270,13 +291,6 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZmZLSXdlTkU0cmx1cTlYYV9KVUliY1k4aUNpNjQxZ2ZyamhIWklodVVZTW1rZkhhNEpwQmM0dFQycmhpR2NzeGVReVYyYjNtV281QlpyMDVHeFUzLTUteGc1NTl6SWhUdzQyZUtlblFkdTVPYUZ0bkt5WTg5dm9walJFeUE0aWJrQjVjZk5KY01OUUFPeHZ4b2pWVGZybWtIb3NOOVFBak9ZajA0WlQ3T3FzeHV2Zw?oc=5",
       "datetime": 1789085760,
       "headlineKo": "트럼프 \"이란 전쟁, 중간선거 영향에도 후회하지 않는다\" - 로이터"
-    },
-    {
-      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
-      "datetime": 1789083517,
-      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - Reuters"
     },
     {
       "headline": "Jim Cramer says this is the key force driving stocks right now",
@@ -300,35 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "금주의 사진 - 로이터"
     },
     {
-      "headline": "US slaps new sanctions on networks aiding Iran's proxies in Middle East - Reuters",
+      "headline": "US average diesel price passes $6 a gallon for the first time, GasBuddy says - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2p0aERlM3VXMFFWMkg4ZUtIejRIWDdUNUtlbnkwLWlyTWFBNGMyUzBUVnczaGdsNGIxcjJNT3BIekZrQXhOVEdwY0ZaQ0RZVmE2SW5RWTdLN1F6M01vbXZyMXF1OE9XbHphN1dnRWxwWmNyV2V2WDg3dGVOTDR3TXd5dDFwcEl6X2pxd05LRmc4d2NkUzFMS3piTFg1eWppdW8xNWNHd0VYZ3EwOFM4a19SMmNkeE9TZlE?oc=5",
-      "datetime": 1789072331,
-      "headlineKo": "미국, 중동에서 이란의 대리인을 지원하는 네트워크에 대한 새로운 제재 조치 - 로이터"
-    },
-    {
-      "headline": "Israel says it destroyed Hezbollah underground complex at Lebanon's Ali al-Taher - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPblRzTlVuUWduRmFCWk1jclBzM0pMX2h0T1dUcjk2YXY5ZWEtU0tYbjJsa2R1TnhfY1ZudGlGazcwTUE4WklnTTlyTUdRZ0dHdXRVUE9yOFItQlplM0twb1I2M0xDTUtrMnhFd0N2a1ByRHVHQ1JUbWdBN1RaSnRfZE8zYWJtR3RUWkFoUzFGbjlIWG9sVWtjOXdJYVdWem9pWkdfWTk5alJjSGpZbmNwNzlYejJzSm8xUWJQRzNjZTd4Y3hYZDktS0FR?oc=5",
-      "datetime": 1789071660,
-      "headlineKo": "이스라엘은 레바논 알리 알 타헤르의 헤즈볼라 지하 단지를 파괴했다고 밝혔습니다."
-    },
-    {
-      "headline": "Jim Cramer's least-favorite tech stock gets a new analyst endorsement — our take",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/10/cramers-least-favorite-tech-stock-gets-a-new-bullish-analyst-endorsement.html",
-      "datetime": 1789068380,
-      "headlineKo": "Jim Cramer의 가장 선호하지 않는 기술 주식이 새로운 분석가의 승인을 받았습니다 - 우리의 견해"
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS3FTSU5adzBIaU92QmVKNkt0UUVCV1FtbTZiN0Vqd0tseU1QeUxPal9NU1NLVVE4VnJDS1NkQUR6Y1NBaFp6RGVLSWg3Y0RjdFlHRnMzdFVFM0F6R2ZCSGdNZ0pLcExYYXh0dHdZRGl2Wkkwb2l4WWFiYUtxU2FnRjJ2OUh0QXlPcXlGcFhDRUEtdzNRRnZ4eS1hV3dRZlRHMGxhU09lZWZJU3RkX0Npei1xLWpkRFU?oc=5",
+      "datetime": 1789072620,
+      "headlineKo": "미국 평균 디젤 가격이 처음으로 갤런당 6달러를 넘어섰다고 GasBuddy가 밝혔습니다. - Reuters"
     }
   ],
   "fgi": {
     "score": 31.2,
     "rating": "fear"
   },
-  "_fetched_at": 1789115736.713281,
-  "_updated_label": "2026-09-11 17:36",
-  "_last_attempt_at": 1789115736.713281,
-  "_last_success_at": 1789115736.713281,
+  "_fetched_at": 1789119473.606187,
+  "_updated_label": "2026-09-11 18:38",
+  "_last_attempt_at": 1789119473.606187,
+  "_last_success_at": 1789119473.606187,
   "_collection_status": "ok",
   "_collection_errors": []
 };
