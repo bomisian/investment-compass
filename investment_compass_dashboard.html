@@ -7016,6 +7016,19 @@ function computeFinancialDirection(r, fin){
   if(lastQ?.otherNonOperating!=null && lastQ.netIncome>0 && Math.abs(lastQ.otherNonOperating)>=lastQ.netIncome*0.2){
     analysis.push(`최신 분기 순이익에는 <b>$${fmtUsd(lastQ.otherNonOperating)}의 영업외손익</b>이 크게 작용해, 방향 판단은 순이익보다 영업이익을 우선했습니다.`);
   }
+  // 2026-09-11 추가(외부 검토로 발견, INTC 사례) - 위 체크는 netIncome>0(순이익 급증)일 때만
+  // 봤는데, otherNonOperating이 아예 없고(이 종목은 SEC 검증 분기라 그 필드가 안 채워짐) 대신
+  // unusualItems(Yahoo 일회성 항목 추정치)가 있는데도 못 봐서, 대형 일회성 '손실'로 순손실이
+  // 깊어진 경우(INTC Q2'26: 정부 관련 에스크로 주식 파생상품 공정가치 평가손 $12.7B로 순손실이
+  // -$11.0B까지 커짐, 영업이익은 오히려 +$1.8B 흑자)를 구분 못했다. "순이익 급증을 부풀리는
+  // 이익"뿐 아니라 "순손실을 깊게 만드는 손실"도 같은 이유로 본업과 분리해서 봐야 하므로,
+  // 부호와 무관하게 unusualItems가 크면(매출의 10% 이상) 알려준다 - normalizedIncome(일회성
+  // 제외 추정치)이 있으면 그 수치도 같이 보여줘 "본업만 보면 어느 정도인지" 감을 잡게 한다.
+  if(lastQ?.unusualItems!=null && lastQ.revenue && Math.abs(lastQ.unusualItems)>=lastQ.revenue*0.1 && lastQ.otherNonOperating==null){
+    const sign = lastQ.unusualItems < 0 ? '손실' : '이익';
+    const normText = lastQ.normalizedIncome!=null ? ` 이 항목을 제외한 조정 순이익(제공처 추정치)은 <b>$${fmtUsd(lastQ.normalizedIncome)}</b>입니다.` : '';
+    analysis.push(`최신 분기 순이익에는 본업과 무관한 <b>대형 일회성 ${sign}($${fmtUsd(Math.abs(lastQ.unusualItems))})</b>이 크게 반영돼 있어, GAAP 순이익 하나만으로 그 분기를 판단하면 안 됩니다.${normText} 영업이익(위 profitDir)은 이 일회성 항목과 무관하게 별도로 계산돼 있어 본업 방향 판단엔 그쪽을 우선하세요.`);
+  }
   if(balanceGood) analysis.push(`유동비율 <b>${currentRatio.toFixed(2)}배</b>·총부채/자본 <b>${debtEq.toFixed(2)}배</b>로 단기 지급능력과 부채 부담은 안정적인 편입니다.`);
 
   const outlook=[];
