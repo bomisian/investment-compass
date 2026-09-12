@@ -237,18 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "BRICS agrees to joint declaration in test of unity despite Mideast tensions - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
-      "datetime": 1789210390,
-      "headlineKo": "BRICS, 중동 긴장에도 불구하고 단결 시험 공동 선언에 동의 - reuters.com"
+      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+      "datetime": 1789216805,
+      "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
     },
     {
-      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - reuters.com",
+      "headline": "BRICS agrees to joint declaration in test of unity despite Mideast tensions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
+      "datetime": 1789214292,
+      "headlineKo": "BRICS는 중동의 긴장에도 불구하고 단결을 시험하는 공동 선언에 동의합니다. - Reuters"
+    },
+    {
+      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
       "datetime": 1789208396,
-      "headlineKo": "트럼프 \"사우디 송유관 공격은 이란 책임일 것\" - reuters.com"
+      "headlineKo": "트럼프 대통령은 이란이 사우디 파이프라인 공격에 책임이 있을 것이라고 말했다. - 로이터"
     },
     {
       "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
@@ -258,32 +265,32 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 골프 토너먼트 참석 전 정상들 만나기 위해 아일랜드 도착 - 로이터"
     },
     {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - reuters.com",
+      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
       "datetime": 1789174500,
-      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - reuters.com"
+      "headlineKo": "사우디는 Houthis가 홍해 운송에 대한 그립을 강화함에 따라 석유 파이프 라인을 폐쇄했습니다. - Reuters"
     },
     {
-      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - reuters.com",
+      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanJwS2FjWG5ndlNzMFpMQkZTdXRUYXJEVnFXQUV0LUUxYy1lbGZFbzA3MFRxWTZVcFBXY2kyVmkxZHE1Y1hKTlVEV2p2V0VMSWNkLUtSTF9xdVVJeDAzT21rdGVEYnpDa1RTNzhXbHpQVEVQV0lBX20tMHlBOXotRHRldFppSGdGUGFIbVhWV3EwN2JZV28tM0ZEb04wYmdzVVAzcGh0MFc3SEE0SEx3YUhEb0psUGNFZVJyYTMtUjVveGZI?oc=5",
       "datetime": 1789170534,
-      "headlineKo": "이라크가 이란과의 국경을 통과하는 샬람체 폐쇄를 명령했다고 두 소식통이 전했습니다."
+      "headlineKo": "두 소식통은 이라크가 이란과의 샬람체 국경 폐쇄를 명령했다고 전한다. - 로이터"
     },
     {
-      "headline": "Iraqi military commander dismissed after drone attacks against Saudi Arabia, prime minister's office says - reuters.com",
+      "headline": "Iraqi military commander dismissed after drone attacks against Saudi Arabia, prime minister's office says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2R4RE5oY1k0NjdIODFzRjJQRk9WdC1jazVkWWs4UnMxQWdfaS1JSnVNbXRiUHdDUkxFRjhMZ05GMXdoRVgzYXExUW1kUElyeG5ZaUNaRnF0UUE5ejA1aDZ4MURaRHhpWDZNM1AxN3VXX1FZRjd3WVdXbEFVOHhKeXNaZFNIcDdSaW4zbWtXd2xxSGdrb2dEMURrUWtpd1ZYQWJTQUhzVHNRb3RrQ2otM0tmSDh4dkVYaXNKUkZLMjIyOS1XUlN5ag?oc=5",
       "datetime": 1789164459,
-      "headlineKo": "이라크군 사령관, 사우디아라비아에 대한 드론 공격 후 해임했다고 총리실 발표 - reuters.com"
+      "headlineKo": "이라크 군 사령관이 사우디아라비아에 대한 드론 공격 후 해임됐다고 총리실이 밝혔습니다. - REUTERS"
     },
     {
-      "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - reuters.com",
+      "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
       "datetime": 1789162135,
-      "headlineKo": "후티 반군이 핵심 섬에 도달하고 파이프라인이 폐쇄되면서 걸프 석유가 다시 위협을 받고 있습니다. - reuters.com"
+      "headlineKo": "Houthis가 주요 섬에 도달하고 파이프 라인이 폐쇄됨에 따라 걸프유가 새로운 위협을 받았습니다. - Reuters"
     },
     {
       "headline": "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on retaliation - Reuters",
@@ -293,18 +300,18 @@ const MARKET_DATA = {
       "headlineKo": "사우디아라비아는 이라크에서 발사된 드론이 동서 파이프라인을 공격하고 보복을 보류했다고 밝혔습니다."
     },
     {
-      "headline": "How Anthropic says Claude was used for weapons, spying and cyber operations - reuters.com",
+      "headline": "How Anthropic says Claude was used for weapons, spying and cyber operations - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ2o0V3htdFZCT1R5VFoxR0JHNDk3QzRxOHdlYXdzdUE4c2hXbUI2WFVLUmM0RFRwN2V2TUdUVlFEcy0tY0Z6eEVySHhaN213M29CdTIwYmJyNjBqU1BkYUhOQVpVYTlXam9jbnNvTV9LVS0zd2xodVBvdVlsRThtcTVCeDExdGRKYnA5S3o0bjllMk1WMFc1NXVCYS1JSFNCNkFfX09ZY1NscGNORFEzTW0xZFc?oc=5",
       "datetime": 1789154728,
-      "headlineKo": "Anthropic은 Claude가 무기, 스파이 및 사이버 작전에 사용되었다고 말합니다 - reuters.com"
+      "headlineKo": "Anthropic이 Claude가 무기, 스파이 및 사이버 작전에 사용되었다고 말하는 방법 - Reuters"
     },
     {
-      "headline": "Twenty-five years after September 11, Americans reflect on attack that changed a nation - reuters.com",
+      "headline": "Twenty-five years after September 11, Americans reflect on attack that changed a nation - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUV1QV9MNGlUbTdkanZIUUEwY0x1UlRXaXViVFlMVi14NW1aMkwwUjMzOUdnclVJSWFCQ3p6SGYtQ1NtY3NDMlVvUmZ3bk42bUdjVDAwNHpaLUVGTkFqak40WTlrdFhJX2RRdjZDTV9sUmRYSXU5V3dtM09hOVpmT3hwbzRxbDlCZFFqUnY3dGZNZ0VraWR5WC1qeFNEM0ZmRWFwZUd3ZjZlYWRfWjBfZEprWE5MZw?oc=5",
       "datetime": 1789152036,
-      "headlineKo": "9·11 테러 이후 25년 만에 미국인들, 국가를 변화시킨 공격에 대해 반성 - reuters.com"
+      "headlineKo": "9월 11일 이후 25년이 지난 지금, 미국인들은 한 국가를 변화시킨 공격에 대해 반성하고 있다. - 로이터"
     },
     {
       "headline": "Why this industrial gas giant deserves its premium valuation (and should be owned)",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html",
       "datetime": 1789151188,
       "headlineKo": "이 산업용 가스 대기업이 프리미엄 가치 평가를 받을 자격이 있는 이유(그리고 소유해야 하는 이유)"
-    },
-    {
-      "headline": "Meet Ottava, J&J's surgical robot leading the healthcare giant into a lucrative new market",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/meet-ottava-jjs-surgical-robot-leading-the-healthcare-giant-into-a-lucrative-new-market.html",
-      "datetime": 1789148024,
-      "headlineKo": "의료 거대 기업을 수익성 있는 새로운 시장으로 이끄는 J&J의 수술 로봇 Ottava를 만나보세요"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789215241.3942704,
-  "_updated_label": "2026-09-12 21:14",
-  "_last_attempt_at": 1789215241.3942704,
-  "_last_success_at": 1789215241.3942704,
+  "_fetched_at": 1789221610.500424,
+  "_updated_label": "2026-09-12 23:01",
+  "_last_attempt_at": 1789221610.500424,
+  "_last_success_at": 1789221610.500424,
   "_collection_status": "ok",
   "_collection_errors": []
 };
