@@ -4,13 +4,13 @@
 const INSIDER_DATA = {
   "QQQ": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "SPY": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "MSFT": {
     "transactions": [
@@ -31,8 +31,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789123290.7022889,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "GOOGL": {
     "transactions": [
@@ -197,8 +197,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "AMZN": {
     "transactions": [
@@ -363,8 +363,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "META": {
     "transactions": [
@@ -529,8 +529,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "AAPL": {
     "transactions": [
@@ -551,13 +551,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "TSLA": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "ORCL": {
     "transactions": [
@@ -650,13 +650,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "CRM": {
     "transactions": [],
-    "_fetched_at": 1789123290.7022889,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "PLTR": {
     "transactions": [
@@ -821,8 +821,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "NVDA": {
     "transactions": [
@@ -843,8 +843,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "AMD": {
     "transactions": [
@@ -1009,8 +1009,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "AVGO": {
     "transactions": [
@@ -1175,8 +1175,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "QCOM": {
     "transactions": [
@@ -1325,8 +1325,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "ARM": {
     "transactions": [
@@ -1339,8 +1339,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "MRVL": {
     "transactions": [
@@ -1393,13 +1393,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789127047.0460155,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "INTC": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "TSM": {
     "transactions": [
@@ -1564,13 +1564,13 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "ASML": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "AMAT": {
     "transactions": [
@@ -1735,8 +1735,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "LRCX": {
     "transactions": [
@@ -1765,8 +1765,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789127047.0460155,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "KLAC": {
     "transactions": [
@@ -1891,8 +1891,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "MU": {
     "transactions": [
@@ -2057,8 +2057,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "SNDK": {
     "transactions": [
@@ -2079,8 +2079,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "WDC": {
     "transactions": [
@@ -2125,8 +2125,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "ANET": {
     "transactions": [
@@ -2291,8 +2291,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "COHR": {
     "transactions": [
@@ -2305,8 +2305,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "LITE": {
     "transactions": [
@@ -2471,13 +2471,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "GEV": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "CEG": {
     "transactions": [
@@ -2490,8 +2490,8 @@ const INSIDER_DATA = {
         "code": "P"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "VST": {
     "transactions": [
@@ -2536,8 +2536,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789127047.0460155,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "ETN": {
     "transactions": [
@@ -2574,13 +2574,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "PWR": {
     "transactions": [],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "HUBB": {
     "transactions": [
@@ -2593,13 +2593,13 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "VRT": {
     "transactions": [],
-    "_fetched_at": 1789123290.7022889,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "MOD": {
     "transactions": [
@@ -2748,8 +2748,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "STX": {
     "transactions": [
@@ -2914,8 +2914,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "EME": {
     "transactions": [
@@ -2928,8 +2928,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "FIX": {
     "transactions": [
@@ -2950,8 +2950,8 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789119466.0536978,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   },
   "BE": {
     "transactions": [
@@ -2988,7 +2988,7 @@ const INSIDER_DATA = {
         "code": "S"
       }
     ],
-    "_fetched_at": 1789115698.9811676,
-    "_updated_label": "2026-09-11"
+    "_fetched_at": 1789215188.5853438,
+    "_updated_label": "2026-09-12"
   }
 };
