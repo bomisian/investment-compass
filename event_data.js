@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789240264.5228317,
+  "generatedAt": 1789243228.2037961,
   "events": [
     {
       "id": "dab353159531d7c0759c",
@@ -730,7 +730,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Where Will Micron Be in 10 Years?",
-      "headlineKo": "",
+      "headlineKo": "10년 후 마이크론은 어디에 있을까?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c85b24cac3b2b14cb4bd0fffcafac0404e7ed0e2199f9e7c7f9b4cfe4a9350a7",
@@ -1338,7 +1338,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Western Digital: Business Secured Through 2028, Price That Already Prices In A Lot Of The Story",
-      "headlineKo": "",
+      "headlineKo": "Western Digital: 2028년까지 보장되는 비즈니스, 이미 많은 이야기에 반영된 가격",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=c912b48c8118eab26bb6604bdfe1c353a3c1eb7c5f2e388c8f6e64e194589b77",
