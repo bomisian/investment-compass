@@ -237,6 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
+      "datetime": 1789221745,
+      "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
+    },
+    {
+      "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/12/i-worked-with-gloria-steinem-for-30-years-this-was-her-no-1-antidote-to-fear.html",
+      "datetime": 1789218001,
+      "headlineKo": "나는 Gloria Steinem과 30년 동안 일했습니다. 이것은 그녀의 최고의 두려움 해독제였습니다."
+    },
+    {
       "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
@@ -256,6 +270,13 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
       "datetime": 1789208396,
       "headlineKo": "트럼프 대통령은 이란이 사우디 파이프라인 공격에 책임이 있을 것이라고 말했다. - 로이터"
+    },
+    {
+      "headline": "BRICS bloc agrees on joint declaration, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
+      "datetime": 1789200160,
+      "headlineKo": "BRICS 블록, 공동 선언에 동의했다고 소식통에 따르면 - 로이터 통신"
     },
     {
       "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
@@ -298,37 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc09uNHhSUmdLUm1zelhoY1VxQUtabG9lNENtc0FRTV8yczUtOE9VT1EweEM5MDR5bGkwbEgzMy1mOTFKNS1nc2I3RUI2VGtPcVdheGpWWjYwWi1XVC1zLVRqVXJiOTZUNFR3SzBvWDNhRFp2WmpPblpUVEVuVDE1bHVfTmczdVE5YVg4LURnUUZycVZ0VVN5ZGJMQ3IzWmZiaHNqbkRqczZtcnBtZDU0NXRZTUFROHJmOFRpNE1rOW1TZUk?oc=5",
       "datetime": 1789160159,
       "headlineKo": "사우디아라비아는 이라크에서 발사된 드론이 동서 파이프라인을 공격하고 보복을 보류했다고 밝혔습니다."
-    },
-    {
-      "headline": "How Anthropic says Claude was used for weapons, spying and cyber operations - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ2o0V3htdFZCT1R5VFoxR0JHNDk3QzRxOHdlYXdzdUE4c2hXbUI2WFVLUmM0RFRwN2V2TUdUVlFEcy0tY0Z6eEVySHhaN213M29CdTIwYmJyNjBqU1BkYUhOQVpVYTlXam9jbnNvTV9LVS0zd2xodVBvdVlsRThtcTVCeDExdGRKYnA5S3o0bjllMk1WMFc1NXVCYS1JSFNCNkFfX09ZY1NscGNORFEzTW0xZFc?oc=5",
-      "datetime": 1789154728,
-      "headlineKo": "Anthropic이 Claude가 무기, 스파이 및 사이버 작전에 사용되었다고 말하는 방법 - Reuters"
-    },
-    {
-      "headline": "Twenty-five years after September 11, Americans reflect on attack that changed a nation - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTUV1QV9MNGlUbTdkanZIUUEwY0x1UlRXaXViVFlMVi14NW1aMkwwUjMzOUdnclVJSWFCQ3p6SGYtQ1NtY3NDMlVvUmZ3bk42bUdjVDAwNHpaLUVGTkFqak40WTlrdFhJX2RRdjZDTV9sUmRYSXU5V3dtM09hOVpmT3hwbzRxbDlCZFFqUnY3dGZNZ0VraWR5WC1qeFNEM0ZmRWFwZUd3ZjZlYWRfWjBfZEprWE5MZw?oc=5",
-      "datetime": 1789152036,
-      "headlineKo": "9월 11일 이후 25년이 지난 지금, 미국인들은 한 국가를 변화시킨 공격에 대해 반성하고 있다. - 로이터"
-    },
-    {
-      "headline": "Why this industrial gas giant deserves its premium valuation (and should be owned)",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/why-this-stock-deserves-its-premium-valuation-and-should-be-owned.html",
-      "datetime": 1789151188,
-      "headlineKo": "이 산업용 가스 대기업이 프리미엄 가치 평가를 받을 자격이 있는 이유(그리고 소유해야 하는 이유)"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789221610.500424,
-  "_updated_label": "2026-09-12 23:01",
-  "_last_attempt_at": 1789221610.500424,
-  "_last_success_at": 1789221610.500424,
+  "_fetched_at": 1789225204.3047233,
+  "_updated_label": "2026-09-13 00:00",
+  "_last_attempt_at": 1789225204.3047233,
+  "_last_success_at": 1789225204.3047233,
   "_collection_status": "ok",
   "_collection_errors": []
 };
