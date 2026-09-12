@@ -237,18 +237,24 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
+      "datetime": 1789234957,
+      "headlineKo": "이란과 UAE, 전쟁 자제를 촉구하는 BRICS 공동 성명 지지 - 로이터"
+    },
+    {
+      "headline": "Iran-Oman understanding does not provide for immediate reopening of Strait of Hormuz, Tasnim reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNXzF6RlhPNHFNSGk2RzFzNnNVc3ZaT0RWYldmaWNGaDNQWkE1ZTl2MDQ2VnpKN0xuMENvc05KaG1xdjFVaEpPQWN1cXFjMk1IdVcxRkN0YzI5cEtHdjNUeUVfUUxHTVVfbGxfejVnZVFnVHZTWjNTa0RiQWhud2F0RmZJZExhOEZBa0xmaUxoaHF4YXk4bWN5VllHRFlSQ21wekM0Ri1aR1p5V2pEbkYyLTJzQWxBa0p6Ri1IVktiVnE1MkZieXpR?oc=5",
+      "datetime": 1789231533
+    },
+    {
       "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
       "datetime": 1789226571,
       "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
-    },
-    {
-      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
-      "datetime": 1789225738,
-      "headlineKo": "이란과 UAE, 전쟁 자제를 촉구하는 BRICS 공동 성명 지지 - 로이터"
     },
     {
       "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
@@ -312,23 +318,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanJwS2FjWG5ndlNzMFpMQkZTdXRUYXJEVnFXQUV0LUUxYy1lbGZFbzA3MFRxWTZVcFBXY2kyVmkxZHE1Y1hKTlVEV2p2V0VMSWNkLUtSTF9xdVVJeDAzT21rdGVEYnpDa1RTNzhXbHpQVEVQV0lBX20tMHlBOXotRHRldFppSGdGUGFIbVhWV3EwN2JZV28tM0ZEb04wYmdzVVAzcGh0MFc3SEE0SEx3YUhEb0psUGNFZVJyYTMtUjVveGZI?oc=5",
       "datetime": 1789170534,
       "headlineKo": "이라크가 이란과의 국경을 통과하는 샬람체 폐쇄를 명령했다고 두 소식통이 전했습니다."
-    },
-    {
-      "headline": "Israel-Lebanon talks in Rome next week postponed, Axios reports - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWxwaVd5WkNsV2JrM0E0UkxiTlYzNG1vTWk4ejNXdWNhYllCbXZiUUd3RkF3RlZsX3JycmJtWlpoMnpqMkZXVVI4UDY5eTlZOHZYNEdLMDRaNDVOTl82NUs1RHZyVzRDOVlZWHJkRlVfOXhIQVNPTlRGdUpoQkhVR3ktV2g4emdQWGF5WFhIX3pERVNVcXlQMkxHSlhaRkJrWWQ3c0RWRXFFaDNodDEyLWJGMA?oc=5",
-      "datetime": 1789170218,
-      "headlineKo": "Axios는 다음 주 로마에서 열리는 이스라엘-레바논 회담이 연기되었다고 보도했습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789236004.2956114,
-  "_updated_label": "2026-09-13 03:00",
-  "_last_attempt_at": 1789236004.2956114,
-  "_last_success_at": 1789236004.2956114,
+  "_fetched_at": 1789240264.6577046,
+  "_updated_label": "2026-09-13 04:11",
+  "_last_attempt_at": 1789240264.6577046,
+  "_last_success_at": 1789240264.6577046,
   "_collection_status": "ok",
   "_collection_errors": []
 };
