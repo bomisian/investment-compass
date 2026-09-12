@@ -237,39 +237,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-      "datetime": 1789226677,
-      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - reuters.com"
-    },
-    {
-      "headline": "Houthi advance in Yemen puts U.S. in a new bind - reuters.com",
+      "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
       "datetime": 1789226571,
-      "headlineKo": "후티의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - reuters.com"
+      "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
     },
     {
-      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - reuters.com",
+      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
       "datetime": 1789225738,
-      "headlineKo": "이란과 UAE, 전쟁 자제를 촉구하는 BRICS 공동 성명 지지 - reuters.com"
+      "headlineKo": "이란과 UAE, 전쟁 자제를 촉구하는 BRICS 공동 성명 지지 - 로이터"
     },
     {
-      "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - reuters.com",
+      "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2hwaW9IeTRsWlZUMXI0TnRSYUhSM0ZNZVRXUHpQM0NKMHJIMlhJaFZZUUJYRE5PbEpvSjg4bDFxT0FVQUp1X0hHSUhOcXJjOFZpaDY3RmRMeFpFT0VaZVlQWG12ZlZJQ3BjdF9MMVJXYUxHV0xwQjVJWGstZWpJYWxlM2pmMzBCdFc5d1NCeE5IWENOUC1Id1ZfZGJDMkMwckY5Y082T2NLOEk?oc=5",
       "datetime": 1789220732,
-      "headlineKo": "시 주석, 중동에서 BRICS 평화 역할 촉구, 모디 법원 인도 방문 - reuters.com"
+      "headlineKo": "시 주석, 중동에서 BRICS 평화 역할 촉구, 모디 법원 인도 방문 - 로이터 통신"
     },
     {
-      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - reuters.com",
+      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5",
       "datetime": 1789220660,
-      "headlineKo": "월요일 오만 회담에서는 호르무즈 협정이 아직 서명되지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com"
+      "headlineKo": "월요일 오만 회담에서는 호르무즈 협정이 아직 서명되지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
@@ -286,18 +279,18 @@ const MARKET_DATA = {
       "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
     },
     {
-      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - reuters.com",
+      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
       "datetime": 1789208396,
-      "headlineKo": "트럼프 \"사우디 송유관 공격은 이란 책임일 것\" - reuters.com"
+      "headlineKo": "트럼프 “사우디 파이프라인 공격은 이란 책임 있을 것” - 로이터"
     },
     {
-      "headline": "BRICS bloc agrees on joint declaration, sources say - reuters.com",
+      "headline": "BRICS bloc agrees on joint declaration, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
       "datetime": 1789200160,
-      "headlineKo": "BRICS 블록, 공동 선언에 동의, 소식통에 따르면 - reuters.com"
+      "headlineKo": "BRICS 블록, 공동 선언에 동의했다고 소식통에 따르면 - 로이터 통신"
     },
     {
       "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
@@ -307,28 +300,35 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 골프 토너먼트 참석 전 정상들 만나기 위해 아일랜드 도착 - 로이터"
     },
     {
-      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - reuters.com",
+      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
+      "datetime": 1789174500,
+      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - 로이터 통신"
+    },
+    {
+      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanJwS2FjWG5ndlNzMFpMQkZTdXRUYXJEVnFXQUV0LUUxYy1lbGZFbzA3MFRxWTZVcFBXY2kyVmkxZHE1Y1hKTlVEV2p2V0VMSWNkLUtSTF9xdVVJeDAzT21rdGVEYnpDa1RTNzhXbHpQVEVQV0lBX20tMHlBOXotRHRldFppSGdGUGFIbVhWV3EwN2JZV28tM0ZEb04wYmdzVVAzcGh0MFc3SEE0SEx3YUhEb0psUGNFZVJyYTMtUjVveGZI?oc=5",
       "datetime": 1789170534,
       "headlineKo": "이라크가 이란과의 국경을 통과하는 샬람체 폐쇄를 명령했다고 두 소식통이 전했습니다."
     },
     {
-      "headline": "Cramer: This market has eerie parallels with 2018. Here's what investors should do",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/11/cramer-market-eerie-parallels-2018-what-it-means-for-investors.html",
-      "datetime": 1789168175,
-      "headlineKo": "Cramer: 이 시장은 2018년과 섬뜩한 유사점이 있습니다. 투자자가 해야 할 일은 다음과 같습니다."
+      "headline": "Israel-Lebanon talks in Rome next week postponed, Axios reports - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOWxwaVd5WkNsV2JrM0E0UkxiTlYzNG1vTWk4ejNXdWNhYllCbXZiUUd3RkF3RlZsX3JycmJtWlpoMnpqMkZXVVI4UDY5eTlZOHZYNEdLMDRaNDVOTl82NUs1RHZyVzRDOVlZWHJkRlVfOXhIQVNPTlRGdUpoQkhVR3ktV2g4emdQWGF5WFhIX3pERVNVcXlQMkxHSlhaRkJrWWQ3c0RWRXFFaDNodDEyLWJGMA?oc=5",
+      "datetime": 1789170218,
+      "headlineKo": "Axios는 다음 주 로마에서 열리는 이스라엘-레바논 회담이 연기되었다고 보도했습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789232404.4486406,
-  "_updated_label": "2026-09-13 02:00",
-  "_last_attempt_at": 1789232404.4486406,
-  "_last_success_at": 1789232404.4486406,
+  "_fetched_at": 1789236004.2956114,
+  "_updated_label": "2026-09-13 03:00",
+  "_last_attempt_at": 1789236004.2956114,
+  "_last_success_at": 1789236004.2956114,
   "_collection_status": "ok",
   "_collection_errors": []
 };
