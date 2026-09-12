@@ -237,11 +237,32 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
+      "datetime": 1789225738,
+      "headlineKo": "전쟁 자제를 촉구하는 이란과 UAE의 브릭스 합동 성명서 - 로이터"
+    },
+    {
       "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
       "datetime": 1789221745,
       "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
+    },
+    {
+      "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2hwaW9IeTRsWlZUMXI0TnRSYUhSM0ZNZVRXUHpQM0NKMHJIMlhJaFZZUUJYRE5PbEpvSjg4bDFxT0FVQUp1X0hHSUhOcXJjOFZpaDY3RmRMeFpFT0VaZVlQWG12ZlZJQ3BjdF9MMVJXYUxHV0xwQjVJWGstZWpJYWxlM2pmMzBCdFc5d1NCeE5IWENOUC1Id1ZfZGJDMkMwckY5Y082T2NLOEk?oc=5",
+      "datetime": 1789220732,
+      "headlineKo": "시 주석, 중동에서 브릭스 평화 역할 촉구, 인도 방문 모디 법원 - 로이터"
+    },
+    {
+      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5",
+      "datetime": 1789220660,
+      "headlineKo": "이란 관리는 월요일 오만 회의에서 아직 서명 된 호르무즈 거래가 예상되지 않았다고 말합니다. - 로이터"
     },
     {
       "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
@@ -256,13 +277,6 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
       "datetime": 1789216805,
       "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
-    },
-    {
-      "headline": "BRICS agrees to joint declaration in test of unity despite Mideast tensions - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
-      "datetime": 1789214292,
-      "headlineKo": "BRICS는 중동의 긴장에도 불구하고 단결을 시험하는 공동 선언에 동의합니다. - Reuters"
     },
     {
       "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2R4RE5oY1k0NjdIODFzRjJQRk9WdC1jazVkWWs4UnMxQWdfaS1JSnVNbXRiUHdDUkxFRjhMZ05GMXdoRVgzYXExUW1kUElyeG5ZaUNaRnF0UUE5ejA1aDZ4MURaRHhpWDZNM1AxN3VXX1FZRjd3WVdXbEFVOHhKeXNaZFNIcDdSaW4zbWtXd2xxSGdrb2dEMURrUWtpd1ZYQWJTQUhzVHNRb3RrQ2otM0tmSDh4dkVYaXNKUkZLMjIyOS1XUlN5ag?oc=5",
       "datetime": 1789164459,
       "headlineKo": "이라크 군 사령관이 사우디아라비아에 대한 드론 공격 후 해임됐다고 총리실이 밝혔습니다. - REUTERS"
-    },
-    {
-      "headline": "Gulf oil threatened anew as Houthis reach key island and pipeline is shut down - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUk9oUjNYejhGeW1YblJUVWdfQ0JaZU52dHNPZUZVdnpMSkxYS3pKTWhLdjU0REdNUGdubUhnRl9KUXZabHRfbEQyOUJZeXUxQzZfcGFlbFV5V1BlSTVmRkhzdGJaNkpQa3p3OG9LZUt3Q3VXYkdrc2ZRWW9fcWQ4TkYxNFgxNFI0dlhIV0UyUU5Dbk44blJMempZVFVqVm5XbUlfV2dqSlN3YXBNUDlUQmVxS3JQMUxQ?oc=5",
-      "datetime": 1789162135,
-      "headlineKo": "Houthis가 주요 섬에 도달하고 파이프 라인이 폐쇄됨에 따라 걸프유가 새로운 위협을 받았습니다. - Reuters"
-    },
-    {
-      "headline": "Saudi Arabia says drones launched from Iraq hit East-West pipeline, holds off on retaliation - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc09uNHhSUmdLUm1zelhoY1VxQUtabG9lNENtc0FRTV8yczUtOE9VT1EweEM5MDR5bGkwbEgzMy1mOTFKNS1nc2I3RUI2VGtPcVdheGpWWjYwWi1XVC1zLVRqVXJiOTZUNFR3SzBvWDNhRFp2WmpPblpUVEVuVDE1bHVfTmczdVE5YVg4LURnUUZycVZ0VVN5ZGJMQ3IzWmZiaHNqbkRqczZtcnBtZDU0NXRZTUFROHJmOFRpNE1rOW1TZUk?oc=5",
-      "datetime": 1789160159,
-      "headlineKo": "사우디아라비아는 이라크에서 발사된 드론이 동서 파이프라인을 공격하고 보복을 보류했다고 밝혔습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789225204.3047233,
-  "_updated_label": "2026-09-13 00:00",
-  "_last_attempt_at": 1789225204.3047233,
-  "_last_success_at": 1789225204.3047233,
+  "_fetched_at": 1789228804.3067503,
+  "_updated_label": "2026-09-13 01:00",
+  "_last_attempt_at": 1789228804.3067503,
+  "_last_success_at": 1789228804.3067503,
   "_collection_status": "ok",
   "_collection_errors": []
 };
