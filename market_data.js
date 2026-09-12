@@ -237,32 +237,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - Reuters",
+      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
+      "datetime": 1789226677,
+      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - reuters.com"
+    },
+    {
+      "headline": "Houthi advance in Yemen puts U.S. in a new bind - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
+      "datetime": 1789226571,
+      "headlineKo": "후티의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - reuters.com"
+    },
+    {
+      "headline": "Iran and UAE back joint BRICS statement urging restraint in war - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNb0hxYi1hRXRlN01ldlJFSmk4ZDVnS1c0NE8xMm5PWXJFT3Vpd2prTWI4TGl5UTd6c1JKS24xVXpvOGpRY1VsYUUxQVk0TDVmNElEMUxLYnB4c2NfUWxmQWN0N21LWUY1TkZNc1pQWHczRUdhYTVJbEpiZXZPVi16SnZCdVN5eWotZ2dJaGt3UkNFdGF2NzUtTTFMU1dsR2EzcEpiQVRvRFFmaE1HdWZXSko1bVl3d2YyTGZPRUpGTEE5MW92SjJJNA?oc=5",
       "datetime": 1789225738,
-      "headlineKo": "전쟁 자제를 촉구하는 이란과 UAE의 브릭스 합동 성명서 - 로이터"
+      "headlineKo": "이란과 UAE, 전쟁 자제를 촉구하는 BRICS 공동 성명 지지 - reuters.com"
     },
     {
-      "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
-      "datetime": 1789221745,
-      "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
-    },
-    {
-      "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
+      "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2hwaW9IeTRsWlZUMXI0TnRSYUhSM0ZNZVRXUHpQM0NKMHJIMlhJaFZZUUJYRE5PbEpvSjg4bDFxT0FVQUp1X0hHSUhOcXJjOFZpaDY3RmRMeFpFT0VaZVlQWG12ZlZJQ3BjdF9MMVJXYUxHV0xwQjVJWGstZWpJYWxlM2pmMzBCdFc5d1NCeE5IWENOUC1Id1ZfZGJDMkMwckY5Y082T2NLOEk?oc=5",
       "datetime": 1789220732,
-      "headlineKo": "시 주석, 중동에서 브릭스 평화 역할 촉구, 인도 방문 모디 법원 - 로이터"
+      "headlineKo": "시 주석, 중동에서 BRICS 평화 역할 촉구, 모디 법원 인도 방문 - reuters.com"
     },
     {
-      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - Reuters",
+      "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5",
       "datetime": 1789220660,
-      "headlineKo": "이란 관리는 월요일 오만 회의에서 아직 서명 된 호르무즈 거래가 예상되지 않았다고 말합니다. - 로이터"
+      "headlineKo": "월요일 오만 회담에서는 호르무즈 협정이 아직 서명되지 않을 것이라고 이란 관리가 밝혔습니다 - reuters.com"
     },
     {
       "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
@@ -279,18 +286,18 @@ const MARKET_DATA = {
       "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
     },
     {
-      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
+      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
       "datetime": 1789208396,
-      "headlineKo": "트럼프 대통령은 이란이 사우디 파이프라인 공격에 책임이 있을 것이라고 말했다. - 로이터"
+      "headlineKo": "트럼프 \"사우디 송유관 공격은 이란 책임일 것\" - reuters.com"
     },
     {
-      "headline": "BRICS bloc agrees on joint declaration, sources say - Reuters",
+      "headline": "BRICS bloc agrees on joint declaration, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
       "datetime": 1789200160,
-      "headlineKo": "BRICS 블록, 공동 선언에 동의했다고 소식통에 따르면 - 로이터 통신"
+      "headlineKo": "BRICS 블록, 공동 선언에 동의, 소식통에 따르면 - reuters.com"
     },
     {
       "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
@@ -300,35 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "트럼프, 골프 토너먼트 참석 전 정상들 만나기 위해 아일랜드 도착 - 로이터"
     },
     {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-      "datetime": 1789174500,
-      "headlineKo": "사우디는 Houthis가 홍해 운송에 대한 그립을 강화함에 따라 석유 파이프 라인을 폐쇄했습니다. - Reuters"
-    },
-    {
-      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - Reuters",
+      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanJwS2FjWG5ndlNzMFpMQkZTdXRUYXJEVnFXQUV0LUUxYy1lbGZFbzA3MFRxWTZVcFBXY2kyVmkxZHE1Y1hKTlVEV2p2V0VMSWNkLUtSTF9xdVVJeDAzT21rdGVEYnpDa1RTNzhXbHpQVEVQV0lBX20tMHlBOXotRHRldFppSGdGUGFIbVhWV3EwN2JZV28tM0ZEb04wYmdzVVAzcGh0MFc3SEE0SEx3YUhEb0psUGNFZVJyYTMtUjVveGZI?oc=5",
       "datetime": 1789170534,
-      "headlineKo": "두 소식통은 이라크가 이란과의 샬람체 국경 폐쇄를 명령했다고 전한다. - 로이터"
+      "headlineKo": "이라크가 이란과의 국경을 통과하는 샬람체 폐쇄를 명령했다고 두 소식통이 전했습니다."
     },
     {
-      "headline": "Iraqi military commander dismissed after drone attacks against Saudi Arabia, prime minister's office says - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2R4RE5oY1k0NjdIODFzRjJQRk9WdC1jazVkWWs4UnMxQWdfaS1JSnVNbXRiUHdDUkxFRjhMZ05GMXdoRVgzYXExUW1kUElyeG5ZaUNaRnF0UUE5ejA1aDZ4MURaRHhpWDZNM1AxN3VXX1FZRjd3WVdXbEFVOHhKeXNaZFNIcDdSaW4zbWtXd2xxSGdrb2dEMURrUWtpd1ZYQWJTQUhzVHNRb3RrQ2otM0tmSDh4dkVYaXNKUkZLMjIyOS1XUlN5ag?oc=5",
-      "datetime": 1789164459,
-      "headlineKo": "이라크 군 사령관이 사우디아라비아에 대한 드론 공격 후 해임됐다고 총리실이 밝혔습니다. - REUTERS"
+      "headline": "Cramer: This market has eerie parallels with 2018. Here's what investors should do",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/11/cramer-market-eerie-parallels-2018-what-it-means-for-investors.html",
+      "datetime": 1789168175,
+      "headlineKo": "Cramer: 이 시장은 2018년과 섬뜩한 유사점이 있습니다. 투자자가 해야 할 일은 다음과 같습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789228804.3067503,
-  "_updated_label": "2026-09-13 01:00",
-  "_last_attempt_at": 1789228804.3067503,
-  "_last_success_at": 1789228804.3067503,
+  "_fetched_at": 1789232404.4486406,
+  "_updated_label": "2026-09-13 02:00",
+  "_last_attempt_at": 1789232404.4486406,
+  "_last_success_at": 1789232404.4486406,
   "_collection_status": "ok",
   "_collection_errors": []
 };
