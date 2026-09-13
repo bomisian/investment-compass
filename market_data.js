@@ -237,6 +237,20 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Here are the 2 big things we're watching in this week's stock market",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
+      "datetime": 1789318663,
+      "headlineKo": "이번 주 주식 시장에서 우리가 주목하는 두 가지 주요 사항은 다음과 같습니다."
+    },
+    {
+      "headline": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/13/ai-congress-anthropic-openai-crisis.html",
+      "datetime": 1789318577,
+      "headlineKo": "워싱턴은 행동할 수 있는 창이 닫히는 동안 AI 가드레일에 대한 요구를 충족하기 위해 안간힘을 쓰고 있습니다."
+    },
+    {
       "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/12/i-worked-with-gloria-steinem-for-30-years-this-was-her-no-1-antidote-to-fear.html",
       "datetime": 1789218001,
       "headlineKo": "나는 Gloria Steinem과 30년 동안 일했습니다. 이것은 그녀의 최고의 두려움 해독제였습니다."
-    },
-    {
-      "headline": "Oil's roundtrip back to $100. Why China could determine what happens next",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
-      "datetime": 1789216805,
-      "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
-    },
-    {
-      "headline": "BRICS adopts joint declaration, urges 'maximum restraint' in Mideast - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZERlSkNRYWwycnZ4Y1Nwc1RXSXU3WTFLbmFLVnJGOWhfWjdvTzZiTGJVWVpSWHFWWXB1TTh0STE5QkM2VUlabV9DaENCYXJ2djY1OUhfVjUzbTZWdVVHbjRLTlBNLURPYnNlQU1WSzdYZWxzSk51b0ZQS0Y2N0hndGJPMnF3bW9MUjJSWk80cFkxZVUyXzRFVTdwVGtIQVF0S2Z6RkdqQWFOSGdWZnVV?oc=5",
-      "datetime": 1789215233,
-      "headlineKo": "BRICS, 공동 선언 채택, 중동에 '최대한 자제' 촉구 - 로이터"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789318804.4323406,
-  "_updated_label": "2026-09-14 02:00",
-  "_last_attempt_at": 1789318804.4323406,
-  "_last_success_at": 1789318804.4323406,
+  "_fetched_at": 1789322404.3368962,
+  "_updated_label": "2026-09-14 03:00",
+  "_last_attempt_at": 1789322404.3368962,
+  "_last_success_at": 1789322404.3368962,
   "_collection_status": "ok",
   "_collection_errors": []
 };
