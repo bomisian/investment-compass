@@ -237,18 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
-      "datetime": 1789295846,
-      "headlineKo": "호르무즈 해협 공격에 대한 새로운 보고서, 석유 공급에 대한 위협에 대한 팬들의 우려 - 로이터 통신"
+      "headline": "I'm a psychologist who studies couples: Emotionally intelligent partners ask 1 question every morning—that most neglect",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/13/emotionally-intelligent-couples-ask-question-every-morning-psychologist.html",
+      "datetime": 1789304821,
+      "headlineKo": "나는 커플을 연구하는 심리학자입니다. 감정적으로 지능적인 파트너는 매일 아침 1가지 질문을 합니다. 대부분의 사람들은 이를 무시합니다."
     },
     {
       "headline": "Turkey detains 26 people after raids targeting LGBTQ+ groups - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
-      "datetime": 1789294555,
+      "datetime": 1789303423,
       "headlineKo": "터키, LGBTQ+ 집단을 겨냥한 급습으로 26명 구금 - 로이터 통신"
+    },
+    {
+      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+      "datetime": 1789266120,
+      "headlineKo": "호르무즈 해협 공격에 대한 새로운 보고서, 석유 공급에 대한 위협에 대한 팬들의 우려 - 로이터 통신"
     },
     {
       "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
       "datetime": 1789208396,
       "headlineKo": "트럼프 “사우디 파이프라인 공격은 이란 책임 있을 것” - 로이터"
-    },
-    {
-      "headline": "BRICS bloc agrees on joint declaration, sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
-      "datetime": 1789200160,
-      "headlineKo": "BRICS 블록, 공동 선언에 동의했다고 소식통에 따르면 - 로이터 통신"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789301477.7859275,
-  "_updated_label": "2026-09-13 21:11",
-  "_last_attempt_at": 1789301477.7859275,
-  "_last_success_at": 1789301477.7859275,
+  "_fetched_at": 1789308004.3355024,
+  "_updated_label": "2026-09-13 23:00",
+  "_last_attempt_at": 1789308004.3355024,
+  "_last_success_at": 1789308004.3355024,
   "_collection_status": "ok",
   "_collection_errors": []
 };
