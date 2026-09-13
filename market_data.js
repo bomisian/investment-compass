@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Trump says US could stay in Iran and keep oil, like Venezuela deal - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc3NKNXdjMkx2Q2ZXOWVWU25Oa1hXRGFZcWJLRktNQWdoclBWVEJQdXhLMS1ZQV9TWHhmNlZSMTlIVXlSZWlWRGdrWXN2a2gxNzZiOWJlTUtVd2xIbW5tb0pJVVNGNFdmNWdEZktuV0JuT3pmaUF3VHYtZXotVklQWGt2YlEzN2Uwa21ac1I1bjlHRi1iM1VpMF90bFhJZk5wNl9aaG9rVmNsVkpUUUdF?oc=5",
+      "datetime": 1789313333,
+      "headlineKo": "트럼프 \"베네수엘라 협정처럼 미국이 이란에 머물면서 석유를 유지할 수 있다\" - 로이터"
+    },
+    {
       "headline": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZERlSkNRYWwycnZ4Y1Nwc1RXSXU3WTFLbmFLVnJGOWhfWjdvTzZiTGJVWVpSWHFWWXB1TTh0STE5QkM2VUlabV9DaENCYXJ2djY1OUhfVjUzbTZWdVVHbjRLTlBNLURPYnNlQU1WSzdYZWxzSk51b0ZQS0Y2N0hndGJPMnF3bW9MUjJSWk80cFkxZVUyXzRFVTdwVGtIQVF0S2Z6RkdqQWFOSGdWZnVV?oc=5",
       "datetime": 1789215233,
       "headlineKo": "BRICS, 공동 선언 채택, 중동에 '최대한 자제' 촉구 - 로이터"
-    },
-    {
-      "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
-      "datetime": 1789208396,
-      "headlineKo": "트럼프 “사우디 파이프라인 공격은 이란 책임 있을 것” - 로이터"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789315204.3338423,
-  "_updated_label": "2026-09-14 01:00",
-  "_last_attempt_at": 1789315204.3338423,
-  "_last_success_at": 1789315204.3338423,
+  "_fetched_at": 1789318804.4323406,
+  "_updated_label": "2026-09-14 02:00",
+  "_last_attempt_at": 1789318804.4323406,
+  "_last_success_at": 1789318804.4323406,
   "_collection_status": "ok",
   "_collection_errors": []
 };
