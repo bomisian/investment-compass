@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4366.2001953125,
+      "current": 4408.89990234375,
       "prevClose": 4364.5,
-      "changeAbs": 1.7001953125,
-      "changePct": 0.038955099381372434,
-      "pctRank": 89.73747016706443,
+      "changeAbs": 44.39990234375,
+      "changePct": 1.0172964221273915,
+      "pctRank": 90.3739061256961,
       "min5y": 1623.300048828125,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.903875686588144,
-      "ma20": 4468.319995117187,
-      "ma60": 4240.090002441406,
-      "chg1m": -42.69970703125,
-      "chg3m": 275.900146484375,
-      "chg1mPct": -0.9684889196180444,
-      "chg3mPct": 6.745230012243739,
+      "drawdown1y": -17.101008135909357,
+      "ma20": 4470.45498046875,
+      "ma60": 4240.8016642252605,
+      "chg1m": 0.0,
+      "chg3m": 318.599853515625,
+      "chg1mPct": 0.0,
+      "chg3mPct": 7.789156045090241,
       "lastDate": "2026-09-11",
       "bars": 1257,
       "symbol": "GC=F",
@@ -237,11 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
+      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-      "datetime": 1789241519,
-      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
+      "datetime": 1789295846,
+      "headlineKo": "호르무즈 해협 공격에 대한 새로운 보고서, 석유 공급에 대한 위협에 대한 팬들의 우려 - 로이터 통신"
+    },
+    {
+      "headline": "Turkey detains 26 people after raids targeting LGBTQ+ groups - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
+      "datetime": 1789294555,
+      "headlineKo": "터키, LGBTQ+ 집단을 겨냥한 급습으로 26명 구금 - 로이터 통신"
     },
     {
       "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
@@ -265,18 +272,18 @@ const MARKET_DATA = {
       "headlineKo": "이란-오만의 합의로 호르무즈 해협의 즉각적인 재개방이 불가능하다고 Tasnim 보고서 - Reuters"
     },
     {
-      "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
-      "datetime": 1789226571,
-      "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
-    },
-    {
       "headline": "No signed Hormuz deal expected yet from Oman meeting on Monday, Iranian official says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeXF6bE9PTlU2N3Q2TTc1VEkzbUdNRXlDNVJTVTNhX2ZHRmJuSEx2OHI5MEhGVUs1Mjc4TElRZXdFRlplRlF3WDBoMjhSQXdHN3RYOWpvb25SRE14OUEtMXhTOVhVMWJLeTdpNmNsT0NIR0pPOGxFZnVwMEFMQ2tubTJxUTdpQXdaVkNna2JrLWFCODA2cGxhaktEOUtVQ1lxVXM1YnFnUjhxUFFKbGVYV3h3WVlIVHZlZVBxcnoyVTVUSFR0bTIwd193?oc=5",
       "datetime": 1789220660,
       "headlineKo": "월요일 오만 회담에서는 호르무즈 협정이 아직 서명되지 않을 것이라고 이란 관리가 밝혔습니다 - 로이터 통신"
+    },
+    {
+      "headline": "Houthi advance in Yemen puts U.S. in a new bind - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
+      "datetime": 1789218900,
+      "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
     },
     {
       "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWFQ4VWFaM29FM1FGODZYdVdaM0VpUzdadFhVWnpvcWwtQk94SWFyLWhFYlo0aHJsdkVyUU5KMW9hcEZsMzh4Z182YnQ5RHI4aTBIdUV3c2JLMUwyc1lTbHp3dVNRUFVDYmdXdWhXSURJWTVPLVlPbHJOX2oyU1FwNUZvVGlUUENQV1RUa20yS3hlNHplSDZ1TlBkVQ?oc=5",
       "datetime": 1789200160,
       "headlineKo": "BRICS 블록, 공동 선언에 동의했다고 소식통에 따르면 - 로이터 통신"
-    },
-    {
-      "headline": "Trump arrives in Ireland to meet leaders before attending golf tournament - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
-      "datetime": 1789189440,
-      "headlineKo": "트럼프, 골프 토너먼트 참석 전 정상들 만나기 위해 아일랜드 도착 - 로이터"
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789257604.2920375,
-  "_updated_label": "2026-09-13 09:00",
-  "_last_attempt_at": 1789257604.2920375,
-  "_last_success_at": 1789257604.2920375,
+  "_fetched_at": 1789301477.7859275,
+  "_updated_label": "2026-09-13 21:11",
+  "_last_attempt_at": 1789301477.7859275,
+  "_last_success_at": 1789301477.7859275,
   "_collection_status": "ok",
   "_collection_errors": []
 };
