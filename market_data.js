@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
+      "datetime": 1789241519,
+      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - 로이터 통신"
+    },
+    {
       "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2hwaW9IeTRsWlZUMXI0TnRSYUhSM0ZNZVRXUHpQM0NKMHJIMlhJaFZZUUJYRE5PbEpvSjg4bDFxT0FVQUp1X0hHSUhOcXJjOFZpaDY3RmRMeFpFT0VaZVlQWG12ZlZJQ3BjdF9MMVJXYUxHV0xwQjVJWGstZWpJYWxlM2pmMzBCdFc5d1NCeE5IWENOUC1Id1ZfZGJDMkMwckY5Y082T2NLOEk?oc=5",
@@ -286,6 +293,13 @@ const MARKET_DATA = {
       "headlineKo": "오일의 왕복 요금은 $ 100입니다. 중국이 다음 단계를 결정할 수 있는 이유"
     },
     {
+      "headline": "BRICS adopts joint declaration, urges 'maximum restraint' in Mideast - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZERlSkNRYWwycnZ4Y1Nwc1RXSXU3WTFLbmFLVnJGOWhfWjdvTzZiTGJVWVpSWHFWWXB1TTh0STE5QkM2VUlabV9DaENCYXJ2djY1OUhfVjUzbTZWdVVHbjRLTlBNLURPYnNlQU1WSzdYZWxzSk51b0ZQS0Y2N0hndGJPMnF3bW9MUjJSWk80cFkxZVUyXzRFVTdwVGtIQVF0S2Z6RkdqQWFOSGdWZnVV?oc=5",
+      "datetime": 1789215233,
+      "headlineKo": "BRICS, 공동 선언 채택, 중동에 '최대한 자제' 촉구 - 로이터"
+    },
+    {
       "headline": "Trump says Iran probably responsible for attack on Saudi pipeline - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGtZdldMOGgyY3hFdEVnWklzR3dhREVBZTdDeEhPQjlmaUw1QUlGVUZDdUZoaDZWZzBUTXhUb09ieU4zTVZvYkplLVJ1Z1RscUp6TXMtX2RpdFIxY1ctbVo5d1dtMTJpSFVleW8waDhfREEzNGZlUmpuYVlVSEtWeUctYVJpWEVxNjdUNVE5WUpTV2xQYk5ENGRpaXZQZEtrc0NySnNDdzViU1MyampB?oc=5",
@@ -305,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdmRVSmpKQ0dXUHlzSlpIUXNaU1FXR1B2ZGU0TU5BWHlqckFuYmR5ckdHYm1EYjRweG5RdHRNUXZWZFZENmdkTHItNmlXQWw4aUdpM2JjR1M2OWpBQ05VRXpzNDUxQmJaY1JGazdTVDk0M0hleWVGX0NFM19ORUtRbW41cUNGTFJiTVhrXzl1OUxoUURfYU1zcDZmZ2ZkTlh3ZmNnUWNB?oc=5",
       "datetime": 1789189440,
       "headlineKo": "트럼프, 골프 토너먼트 참석 전 정상들 만나기 위해 아일랜드 도착 - 로이터"
-    },
-    {
-      "headline": "Saudis shut down oil pipeline as Houthis tighten grip on Red Sea shipping - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQczRVMDVmcFFkMWs3TDRSemk1SnA1SW1NSTRmaGU3VXRmbDlvUnlGTll6VHRRYWxjOTl1N3QzcFhIYWs5RjJaRGRmclRQYmpLdW8tNHNXWExZTnpmSklXaFU4YWJvOC1EcEpvcDdQVnpfWnBYT3l6X1pCRW9Bc19YQzNmYnFrbHBNQXd4aE1nVkpKWktoTjFoM2dSa1BGMnlSb3dVMnJhOFVTRHRrXzlHSFVXTDFvZVNzQ19r?oc=5",
-      "datetime": 1789174500,
-      "headlineKo": "후티 반군이 홍해 해운에 대한 통제를 강화하자 사우디는 송유관을 폐쇄했다 - 로이터 통신"
-    },
-    {
-      "headline": "Iraq orders closure of Shalamcheh border crossing with Iran, two sources say - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQanJwS2FjWG5ndlNzMFpMQkZTdXRUYXJEVnFXQUV0LUUxYy1lbGZFbzA3MFRxWTZVcFBXY2kyVmkxZHE1Y1hKTlVEV2p2V0VMSWNkLUtSTF9xdVVJeDAzT21rdGVEYnpDa1RTNzhXbHpQVEVQV0lBX20tMHlBOXotRHRldFppSGdGUGFIbVhWV3EwN2JZV28tM0ZEb04wYmdzVVAzcGh0MFc3SEE0SEx3YUhEb0psUGNFZVJyYTMtUjVveGZI?oc=5",
-      "datetime": 1789170534,
-      "headlineKo": "이라크가 이란과의 국경을 통과하는 샬람체 폐쇄를 명령했다고 두 소식통이 전했습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789254004.415023,
-  "_updated_label": "2026-09-13 08:00",
-  "_last_attempt_at": 1789254004.415023,
-  "_last_success_at": 1789254004.415023,
+  "_fetched_at": 1789257604.2920375,
+  "_updated_label": "2026-09-13 09:00",
+  "_last_attempt_at": 1789257604.2920375,
+  "_last_success_at": 1789257604.2920375,
   "_collection_status": "ok",
   "_collection_errors": []
 };
