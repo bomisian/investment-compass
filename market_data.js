@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Turkey detains dozens after sweeping raids targeting LGBTQ+ groups - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
+      "datetime": 1789306677,
+      "headlineKo": "터키, LGBTQ+ 그룹을 겨냥한 대대적인 공습으로 수십 명 구금 - 로이터 통신"
+    },
+    {
       "headline": "I'm a psychologist who studies couples: Emotionally intelligent partners ask 1 question every morning—that most neglect",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/13/emotionally-intelligent-couples-ask-question-every-morning-psychologist.html",
@@ -244,18 +251,11 @@ const MARKET_DATA = {
       "headlineKo": "나는 커플을 연구하는 심리학자입니다. 감정적으로 지능적인 파트너는 매일 아침 1가지 질문을 합니다. 대부분의 사람들은 이를 무시합니다."
     },
     {
-      "headline": "Turkey detains 26 people after raids targeting LGBTQ+ groups - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmw3N3gxSDF1TmZtV1BQY2s3cVUxZGRjbW1FdlBMelhLbUYtblpJc3dDa2thTjNUUkJCdXFINm96VVl3dlh5QWFYVlp2cjVnUnowTVJYWmhlUGlOZEtYUzNBOUlpM3o2MUJPNDBySDh5VFBic2Mta3R1YTJKNFkyUFBMcXZOd1hVaXZDMTVHaGxVZW96WkJzem8wR3pSY3EwQzBVTEVhUi1waTlfQl9KQVVfYw?oc=5",
-      "datetime": 1789303423,
-      "headlineKo": "터키, LGBTQ+ 집단을 겨냥한 급습으로 26명 구금 - 로이터 통신"
-    },
-    {
-      "headline": "New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies - Reuters",
+      "headline": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUGctZFpGTW5Zd0h2OFl3V0FMR3o0MHVxNW5uSmN6cHpfNWRYRS1Sd0dibnUwUDRCY3VHejJlbUdNVkx6VmN3WTJQVGYtRjRHX1dWQllyQWl3TzEyWWoxY0JRaU45U0RMUTd0SHBvYmRLZmN4bjl3VF82emtKY1JiQzlsN3NqLThWcDk0UEdmaTlHWjJWd0k1b1VtVmVVUFpSZnFhSEZPUk9oeFlTeU5ZcTJKUlJUZjd6d3d2QWJiYmR2UQ?oc=5",
       "datetime": 1789266120,
-      "headlineKo": "호르무즈 해협 공격에 대한 새로운 보고서, 석유 공급에 대한 위협에 대한 팬들의 우려 - 로이터 통신"
+      "headlineKo": "전쟁 확산으로 석유 혼란이 악화됨에 따라 호르무즈와 사우디에 대한 새로운 공격으로 신경 시험 - 로이터"
     },
     {
       "headline": "Xi urges BRICS peace role in Middle East, courts Modi on India visit - Reuters",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789308004.3355024,
-  "_updated_label": "2026-09-13 23:00",
-  "_last_attempt_at": 1789308004.3355024,
-  "_last_success_at": 1789308004.3355024,
+  "_fetched_at": 1789311604.329099,
+  "_updated_label": "2026-09-14 00:00",
+  "_last_attempt_at": 1789311604.329099,
+  "_last_success_at": 1789311604.329099,
   "_collection_status": "ok",
   "_collection_errors": []
 };
