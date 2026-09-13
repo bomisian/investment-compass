@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Houthis' Yemen advance leaves Gulf states with uncomfortable choice - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOX0JoY2VGb08xV0N2bWR6cnNzaFZoVm9MMGZ4WW1aa292SHNWTVBoVERfLW96ZVllX2thQjdUU1RMOTBvRkRoMGpDd2ZyMXVyb0t2bEFabVBJczM2SnhwM0w5c3diVnZiT1E4QnBxZ3YxaEVnYjE1cVJndExhaUloWENHQjlWdmtvUHRmNG1sSWtWQ3ZIRTJQUU5wQTFDaEw0MDVIdThHdnl5NnVCSTdHUmUwR3RPU0tXalFfSA?oc=5",
+      "datetime": 1789318689,
+      "headlineKo": "후티 반군의 예멘 진격으로 걸프 국가들은 불편한 선택을 하게 됐다 - 로이터 통신"
+    },
+    {
       "headline": "Here are the 2 big things we're watching in this week's stock market",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/13/here-are-the-2-big-things-were-watching-in-this-weeks-stock-market.html",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNkd2T3JFYkQtX1BpRFMwdUY5V0tXY0xuX1JpY3cwa2hEZmxKRWVSdGtNQkR5dFBIT2JPanlxM0N3WjA5YVVpZExUOFJIWG1MZTNLUXNrTXZaZDRLRnFac2Vkclp3eWhkaTFUNEZrdGk4RzBYTmVVV1kwMHRJWHdXbGs3Z3U5VlZ1eldGOGJXLTU5d3B2NUE?oc=5",
       "datetime": 1789218900,
       "headlineKo": "후티 반군의 예멘 진격으로 미국은 새로운 곤경에 처하게 됐다 - 로이터 통신"
-    },
-    {
-      "headline": "I worked with Gloria Steinem for 30 years—This was her No. 1 antidote to fear",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/12/i-worked-with-gloria-steinem-for-30-years-this-was-her-no-1-antidote-to-fear.html",
-      "datetime": 1789218001,
-      "headlineKo": "나는 Gloria Steinem과 30년 동안 일했습니다. 이것은 그녀의 최고의 두려움 해독제였습니다."
     }
   ],
   "fgi": {
     "score": 33.3428571428571,
     "rating": "fear"
   },
-  "_fetched_at": 1789322404.3368962,
-  "_updated_label": "2026-09-14 03:00",
-  "_last_attempt_at": 1789322404.3368962,
-  "_last_success_at": 1789322404.3368962,
+  "_fetched_at": 1789326455.355917,
+  "_updated_label": "2026-09-14 04:08",
+  "_last_attempt_at": 1789326455.355917,
+  "_last_success_at": 1789326455.355917,
   "_collection_status": "ok",
   "_collection_errors": []
 };
