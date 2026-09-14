@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789390882.4083202,
+  "generatedAt": 1789391390.8287532,
   "events": [
     {
       "id": "dbfb6f3fc313e4615d59",
@@ -254,7 +254,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: Micron's Sept. 30 Earnings Will Confirm the Memory Shortage Isn't Over",
-      "headlineKo": "",
+      "headlineKo": "예측: Micron의 9월 30일 수익은 메모리 부족이 아직 끝나지 않았음을 확인할 것입니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c0e02ae1a8e5f35bfaea82a89343eb164b1c53af6da8279776fabe670b275df2",
@@ -555,7 +555,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
-      "headlineKo": "",
+      "headlineKo": "MU, SNDK, INTC, AMD: 인류가 AI 산업 침체를 요구한 후 칩 주식 하락",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d610f6ef7b0b38f225d3912367f42af0b6e869261694dcb6006a8e6d1b802d95",
@@ -624,7 +624,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Vertiv Sees Data Center Demand Strengthen as AI Infrastructure Pipeline Expands",
-      "headlineKo": "",
+      "headlineKo": "Vertiv는 AI 인프라 파이프라인이 확장됨에 따라 데이터 센터 수요가 강화될 것으로 보고 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f6d75be1524d8a0425d1a4662a6bf046eb545a55ec4a478974f812c091fb93ae",

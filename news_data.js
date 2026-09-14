@@ -7463,7 +7463,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -15261,7 +15261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -23197,7 +23197,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -29968,7 +29968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 170,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -38162,7 +38162,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -41228,7 +41228,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -49039,7 +49039,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -56269,7 +56269,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -63881,7 +63881,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -63957,7 +63957,8 @@ const NEWS_DATA = {
             "MU, AMD, NVDA, ORCL, RUM, TSLA, SPCX Stocks In Focus Advertisement | Remove ads."
           ],
           "analysisUpdatedAt": 1789387753.5731602
-        }
+        },
+        "headlineKo": "나스닥 선물이 시장 전 하락세를 보이는 이유는 무엇입니까? MU, AMD, NVDA, ORCL, RUM, TSLA, SPCX 주식에 집중"
       },
       {
         "headline": "Micron Technology (NASDAQ:MU) Stands Out for Accelerating Growth and Improving Fundamentals",
@@ -64006,7 +64007,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387754.6441147
-        }
+        },
+        "headlineKo": "Micron Technology(NASDAQ:MU)는 성장을 가속화하고 펀더멘털을 개선하는 데 두각을 나타내고 있습니다."
       },
       {
         "headline": "Prediction: Micron's Sept. 30 Earnings Will Confirm the Memory Shortage Isn't Over",
@@ -64069,7 +64071,8 @@ const NEWS_DATA = {
             "The memory market is broken down into two types: DRAM and NAND (flash)."
           ],
           "analysisUpdatedAt": 1789387759.5082226
-        }
+        },
+        "headlineKo": "예측: Micron의 9월 30일 수익은 메모리 부족이 아직 끝나지 않았음을 확인할 것입니다"
       },
       {
         "headline": "Nvidia's Latest Signal Points to Serious Downside Risk for Micron Before 2029 Is Over",
@@ -64078,7 +64081,8 @@ const NEWS_DATA = {
         "datetime": 1789353300,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Nvidia의 최신 신호는 2029년이 끝나기 전에 Micron의 심각한 하락 위험을 지적합니다."
       },
       {
         "headline": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
@@ -64087,7 +64091,8 @@ const NEWS_DATA = {
         "datetime": 1789352418,
         "relevance": 0.75,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "MU, SNDK, INTC, AMD: 인류가 AI 산업 침체를 요구한 후 칩 주식 하락"
       },
       {
         "headline": "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
@@ -71983,7 +71988,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -78238,7 +78243,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 154,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -78314,7 +78319,8 @@ const NEWS_DATA = {
             "Representative image of a robotic arm holding a futuristic semiconductor."
           ],
           "analysisUpdatedAt": 1789387673.8349888
-        }
+        },
+        "headlineKo": "MU, SNDK, INTC, AMD: 인류가 AI 산업 침체를 요구한 후 칩 주식 하락"
       },
       {
         "headline": "Forget Intel. Buy This Tech Stock in September Instead.",
@@ -83341,7 +83347,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 137,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -86339,7 +86345,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 71,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -89483,7 +89489,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -94294,7 +94300,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 112,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -101303,7 +101309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 173,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -106518,7 +106524,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 130,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -112791,7 +112797,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 161,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -116344,7 +116350,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 84,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -118231,7 +118237,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -123893,7 +123899,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -126647,7 +126653,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -129038,7 +129044,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 56,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -130968,7 +130974,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -131030,7 +131036,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387772.2016377
-        }
+        },
+        "headlineKo": "Zacks Market Edge 하이라이트: Broadcom, Bloom Energy 및 Sandisk"
       },
       {
         "headline": "$1,000 Invested in Sandisk at Its 52-Week Low Is Worth Nearly $20,000 Today",
@@ -131093,7 +131100,8 @@ const NEWS_DATA = {
             "9, 2025, valuing the whole company near $10 billion."
           ],
           "analysisUpdatedAt": 1789387777.1680934
-        }
+        },
+        "headlineKo": "Sandisk에 투자한 1,000달러는 52주 최저치로 현재 거의 20,000달러 가치가 있습니다"
       },
       {
         "headline": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown",
@@ -131142,7 +131150,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387777.8735943
-        }
+        },
+        "headlineKo": "MU, SNDK, INTC, AMD: 인류가 AI 산업 침체를 요구한 후 칩 주식 하락"
       },
       {
         "headline": "Prediction: This Memory Stock Could Surge 233% Over the Next 3 Years (Hint: It's not Micron or Sandisk)",
@@ -137358,7 +137367,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 160,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -139637,7 +139646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 58,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -139699,7 +139708,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387796.2312372
-        }
+        },
+        "headlineKo": "Zacks 분석가 블로그에서는 Alphabet, Microsoft, NVIDIA, Arista Networks 및 Vertiv를 강조합니다."
       },
       {
         "headline": "Arista Released Critical Security Advisories. Cisco Shows Why AI Network Growth Also Creates Repair Work",
@@ -142097,7 +142107,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 53,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -143932,7 +143942,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -146164,7 +146174,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -148203,7 +148213,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -149709,7 +149719,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 33,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -151999,7 +152009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 51,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -154026,7 +154036,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 43,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -155615,7 +155625,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 37,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -156303,7 +156313,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -156374,7 +156384,8 @@ const NEWS_DATA = {
             "Key Points Demand for data center infrastructure is strengthening , driven by expanding AI-computing needs, hyperscaler investment and broader global activity."
           ],
           "analysisUpdatedAt": 1789387900.1336477
-        }
+        },
+        "headlineKo": "Vertiv는 AI 인프라 파이프라인이 확장됨에 따라 데이터 센터 수요가 강화될 것으로 보고 있습니다."
       },
       {
         "headline": "1 Big Reason Vertiv's New Acquisition Could Supercharge Its AI Dominance",
@@ -159438,7 +159449,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 65,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -159500,7 +159511,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387917.0028718
-        }
+        },
+        "headlineKo": "Modine은 2026년 11월 18일에 분석가 및 투자자의 날을 주최합니다."
       },
       {
         "headline": "Gentherm (THRM) Shareholders Approve Modine Merger, Clear for October Close",
@@ -160332,7 +160344,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -160394,7 +160406,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387927.7652488
-        }
+        },
+        "headlineKo": "글로벌 Seagate 연구에 따르면 거의 모든 조직이 AI로 인해 스토리지 요구 사항이 늘어날 것으로 예상하지만, 완벽하게 준비되어 있다고 답한 조직은 38%에 불과합니다."
       },
       {
         "headline": "Seagate Sees Storage Demand Outpacing Supply as AI and Cloud Drive HDD Growth",
@@ -162293,7 +162306,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 45,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -163490,7 +163503,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -163552,7 +163565,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789387952.0658216
-        }
+        },
+        "headlineKo": "Comfort Systems USA(NYSE:FIX)는 높은 성장과 펀더멘털 개선을 위해 두각을 나타내고 있습니다."
       },
       {
         "headline": "Will Comfort Systems' Modular Expansion Strengthen Growth and Returns?",
@@ -164920,7 +164934,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 34,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_last_attempt_at": 1789387326.3033252,
     "_earnings_status": "ok",
@@ -165869,7 +165883,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-14 21:39"
+      "updated": "2026-09-14 22:09"
     },
     "_fetched_at": 1789387326.3033252,
     "_updated_label": "2026-09-14 21:12",
