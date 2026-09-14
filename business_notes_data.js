@@ -1891,6 +1891,20 @@ const BUSINESS_NOTES = {
     newsLog: [
       {
         date: "2026-09-10",
+        headline: "Intel 자회사 Altera, IPO 추진 중 - $2B+ 규모, Q4 2026 내 실행 가능성",
+        facts: ["2026-09-10 보도 기준, Silver Lake와 Intel이 지원하는 프로그래머블 칩 설계사 Altera가 IPO 추진 중인 것으로 알려졌다.", "Altera는 산호세 소재의 반도체 설계 회사로 고급 프로그래머블 로직 칩(FPGA) 전문이다.", "계획상 IPO 규모는 $2B 이상이며, 기밀 방식 사전등록을 몇 주 내 신청할 예정이다.", "IPO 시행 시점은 올해 Q4 내 상장이 가능할 수 있음을 시사했다.", "주요 인수사로는 Barclays, Citigroup, JPMorgan Chase, Morgan Stanley 등이 확정되었다."],
+        why: ["Altera의 FPGA 칩은 AI 데이터센터, 엣지 컴퓨팅 등 특수 분야에서 고마진 수익원이다.", "Intel 자회사의 IPO는 (1) Altera의 사업가치 시장 평가, (2) 경영진 동기부여, (3) 자금 조달의 이점이 있다.", "$2B+ IPO는 현재 반도체 업계의 AI 칩 수요 호황을 반영한 것으로 해석된다.", "Intel은 Terafab 등 여러 신사업을 추진 중인데, Altera IPO는 에코시스템 강화 전략의 일환이다."],
+        beginner: ["Intel은 자신이 소유하고 있던 Altera라는 특수 칩 회사를 이제 증시에 상장시키려고 준비 중이에요.", "Altera는 일반 CPU가 아니라 고객 맞춤형으로 프로그래밍할 수 있는 특수 칩을 만드는 회사예요.", "상장 규모가 20억 달러 이상이 될 거로 예상되는데, 올해 안에 상장될 수도 있대요.", "이건 현재 AI 칩 수요가 얼마나 많은지를 보여주는 신호예요."],
+        watch: ["Altera IPO 기밀 신청 실제 접수 시기", "예정된 IPO 시점 (Q4 2026 내 실현 여부)", "최종 IPO 규모 및 공모가 범위", "IPO 후 Altera의 독립적 사업 전략"],
+        interpretation: "Altera IPO는 현재 AI 인프라 특수 칩 수요를 반영한 움직임이다. Intel이 자회사를 IPO하려는 것은 사업 가치 평가, 자금 조달, 이미지 개선 등 여러 층위의 전략이 담겨있다.",
+        decision: "Altera IPO 자체는 Intel 본사 주가에 직접적 영향보다는 전략 방향성(AI 칩 생태계 강화) 파악 차원에서 의미 있다. 기밀 신청 및 공식 발표 시 다시 추적할 필요.",
+        confidence: "Altera IPO 추진 사실은 Bloomberg, Reuters 등 신뢰도 높은 금융 매체 보도다. 최종 IPO 규모, 가격, 시점은 공식 공시 전까지 변동 가능.",
+        sources: [
+          { title: "Intel-Backed Altera Seeking IPO as Soon as 2026, Reuters Says (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-10/intel-backed-altera-seeking-ipo-as-soon-as-2026-reuters-says" },
+        ],
+      },
+      {
+        date: "2026-09-10",
         headline: "Intel, Northland Capital에서 'Market Perform'→'Outperform'로 업그레이드 - SpaceX·Tesla Terafab 파트너십으로 서버 CPU 수급 주도권 확보",
         facts: ["Northland Capital Markets 애널리스트가 Intel 투자등급을 'Market Perform'에서 'Outperform'으로 상향조정 (2026-09-10경 발표)", "업그레이드 근거: (1) 서버 CPU 공급 부족 상황, (2) SpaceX·Tesla와의 Terafab 파트너십 체결", "Terafab 프로젝트 내용: 2026년 4월 발표, 텍사스 그라임스 카운티 SpaceX 소유지에 100M 평방피트 규모 반도체 제조 시설, 총 투자규모 $20~25B", "Intel의 역할: 18A 공정 노드·고급 패키징 기술 공급, 텍사스 통합 제조 캠퍼스의 주 파운드리 파트너", "최종 용도: Tesla Optimus 휴머노이드·Cybercab 자율주행차 AI 칩, SpaceX 우주 기반 데이터센터 고전력 프로세서 전담 생산"],
         why: ["서버 CPU 수급 부족은 Intel에게 가격 결정력과 점유율 확대 기회를 제공 - 경쟁사(AMD, NVIDIA CPU) 대비 우위 강화 신호", "Terafab는 Intel의 신규 고객(Tesla xAI, SpaceX)과의 장기 계약을 의미하며, 향후 10년 이상 지속적 수주 기대 가능", "AI 보급 확대(생성형 AI, 로봇, 자율주행)에 따른 AI 칩 수요 폭증 시대에 Intel이 단순 CPU 공급자가 아닌 '산업별 맞춤형 솔루션 제공자'로 포지셔닝 전환", "미국 정부의 반도체 국산화·공급망 안보 정책(CHIPS Act 등)과 부합 - 정부 지원 가능성 향상"],
@@ -2643,6 +2657,20 @@ const BUSINESS_NOTES = {
       {title:"Apple's Services Business Was a Major Catalyst Last Year, and 2026 Will Likely Be Even Better (Yahoo Finance)", url:"https://finance.yahoo.com/news/apples-services-business-major-catalyst-182600661.html"},
     ],
     newsLog: [
+      {
+        date: "2026-09-09",
+        headline: "CEO 테르너스 첫 행사에서 아이폰 듀오(폴더블) 공개 - 역대 최대 제품 혁신, 초년 1천만 대 이상 전망",
+        facts: ["2026-09-09(월) Apple Park에서 신임 CEO 존 테르너스가 주최한 '서프라이즈 앤 샤인' 이벤트에서 첫 폴더블 스마트폰인 아이폰 듀오를 공개했다.", "아이폰 듀오는 아이폰 역사 20년 만의 최대 형태 혁신으로, 접고 펼칠 수 있는 디스플레이를 장착했다. 출시 가격은 $2,099~$2,299 범위로 예상된다.", "IDC는 아이폰 듀오가 첫해에만 천만 대 이상 판매될 것으로 전망했다.", "Apple이 기존 아이폰(예: 아이폰 17 256GB) 신규 판매 가격을 $100 인상했다."],
+        why: ["아이폰은 Apple 매출의 52% 이상을 차지하는 핵심 제품인데, 폴더블은 기존 사용자의 업그레이드 사이클을 자극할 수 있다.", "IDC 예상 초년 천만 대는 Apple 전체 아이폰 연간 판매량의 4~5% 규모로, 프리미엄 신수익원이 될 수 있다.", "기존 아이폰 가격 인상($100)은 고수익 포트폴리오 믹스 전략으로 분기 ASP 상승에 긍정적일 수 있다."],
+        beginner: ["Apple이 처음으로 접고 펼칠 수 있는 폴더블 아이폰을 만들었어요. 이건 20년 아이폰 역사에서 가장 큰 변화예요.", "가격이 2천 달러 이상으로 매우 비싼 프리미엄 제품이지만, 조사기관은 첫 해에도 천만 대 이상 팔릴 거라고 예상해요.", "기존 아이폰 가격도 $100 올렸어요 - Apple이 더 비싼 제품 쪽으로 전략을 옮기고 있다는 신호예요."],
+        watch: ["아이폰 듀오 출시일자 및 초기 재고 상황", "분기별 판매량 중 듀오의 실제 믹스 비중", "고객 피드백 및 반품률"],
+        interpretation: "이번 폴더블 아이폰은 Apple의 혁신 모멘텀 재개 신호이자 포트폴리오 프리미엄화 전략이다. 다만 시장의 실제 반응은 분기 실적으로 확인해야 한다.",
+        decision: "이번 폴더블 발표는 긍정 평가할 만하다. 다만 투자 판단에는 다음 분기(Q4 2026) 실적 확인 후 평가하는 것이 합리적이다.",
+        confidence: "Apple 공식 발표는 신뢰도 높음. IDC 판매 전망은 분석사 추정치로 변동 가능.",
+        sources: [
+          { title: "Apple event: CEO John Ternus reveals foldable iPhone Duo (CNN Business)", url: "https://www.cnn.com/2026/09/09/business/live-news/apple-event-foldable-iphone-ternus" },
+        ],
+      },
       {
         date: "2026-09-09",
         headline: "애플, iPhone 18 Pro·폴더블 Duo·Apple Intelligence 공개 - 새 CEO 존 터너스 첫 무대",
