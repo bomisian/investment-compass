@@ -7491,7 +7491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -7904,6 +7904,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8d96f02c2ea6f17e279b25202fd2387903d3cb200dcd3f101f59b15e0ab27077",
         "datetime": 1789406737,
+        "headlineKo": "X Corp와 SpaceXAI, Apple을 상대로 한 독점금지 소송 기각",
         "relevance": 0.29,
         "keywordFlag": true,
         "flagTerms": [
@@ -7960,6 +7961,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e70841dd783d2063c1aab2c77bc3c2642ad7ff2cd6ba4358771fde40970226b5",
         "datetime": 1789405680,
+        "headlineKo": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
         "relevance": 0.57,
         "keywordFlag": false,
         "analysis": {
@@ -8032,6 +8034,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=25afb1e8b766478dcb64490995c6b4ca7cb6621c26f47714c60ba54ecd6d1371",
         "datetime": 1789404843,
+        "headlineKo": "애플의 폴더블폰이 도착했습니다. 내가 주식이 급등할 것이라고 생각하지 않는 이유는 다음과 같습니다.",
         "relevance": 0.29,
         "keywordFlag": false,
         "analysis": {
@@ -8094,6 +8097,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f18e9ff01817027b9c01f4de546342ee24456ad7eab1d03b830b66c8a3d94926",
         "datetime": 1789404746,
+        "headlineKo": "Apple은 OpenAI의 미출시 비밀 장치에 무엇이 숨겨져 있는지, 그리고 회사에서 누가 이에 접근했는지 알고 싶어합니다.",
         "relevance": 0.29,
         "keywordFlag": false
       },
@@ -8102,6 +8106,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=25704494cf351aa93757fec08e0ff899f64da26a6c145ef28f21e639833f723d",
         "datetime": 1789401600,
+        "headlineKo": "Apple의 전 세계 물류 조달 책임자가 설립한 Aron, 조달 팀을 위한 최초의 AI 참모장과 함께 출범하고 Menlo Ventures 및 Storm Ventures로부터 800만 달러 자금 조달",
         "relevance": 0.29,
         "keywordFlag": false
       },
@@ -15283,7 +15288,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -15699,6 +15704,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9",
         "datetime": 1789407952,
+        "headlineKo": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -15760,6 +15766,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2",
         "datetime": 1789406506,
+        "headlineKo": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -15816,6 +15823,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e",
         "datetime": 1789405802,
+        "headlineKo": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -15878,6 +15886,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=deeeed8a2af58f60c595c3d92caa55f1f020967d3872e74c40703b5fb60a3824",
         "datetime": 1789404331,
+        "headlineKo": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다.",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -15886,6 +15895,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7523e4b71f77258017b834374ef86a903b69a8160f95ec28499350da65b3ee58",
         "datetime": 1789402162,
+        "headlineKo": "Google: 측정은 예산이 어디에 사용되었는지에 대한 기록이 되어서는 안 됩니다.",
         "relevance": 1.0,
         "keywordFlag": false
       },
@@ -23261,7 +23271,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -23649,6 +23659,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=deeeed8a2af58f60c595c3d92caa55f1f020967d3872e74c40703b5fb60a3824",
         "datetime": 1789404331,
+        "headlineKo": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -23711,6 +23722,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6eef32cd2927461cef7379644642c62134ce910dbe9ea1e46cbcb15564a237aa",
         "datetime": 1789402758,
+        "headlineKo": "Microsoft AI CEO는 AI가 위험해지고 있으며 통제가 필요하다는 점에 동의합니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -23773,6 +23785,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a85f708cd9368468c45a25595520c3347cd3f01b91d19319babfd2f2d37d4893",
         "datetime": 1789402620,
+        "headlineKo": "IDrive, Microsoft 365 조직의 ID 및 액세스 보호를 강화하기 위해 Microsoft Entra ID 백업 추가",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -23821,6 +23834,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=69084ee806dfc0fc9b5f7451ae3ee5ed787b865595ca8cfe7fe8d7198e4595ad",
         "datetime": 1789400100,
+        "headlineKo": "Microsoft는 AI 모델에 한계를 설정하고 있습니다. 개발 속도가 느려지는 것이 아닙니다.",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -23829,6 +23843,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=436080c5457f827a55a87ddc10ca67189b0320d529d5af96da406f701eb1a4b8",
         "datetime": 1789390812,
+        "headlineKo": "애플 대 마이크로소프트: 오늘 내가 사고 싶은 7가지 주식은 바로 이것이다",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -30206,7 +30221,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -30711,6 +30726,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9",
         "datetime": 1789407952,
+        "headlineKo": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -30772,6 +30788,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2",
         "datetime": 1789406506,
+        "headlineKo": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -30828,6 +30845,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e",
         "datetime": 1789405802,
+        "headlineKo": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -30890,6 +30908,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=12eb14073ed741250dd603397749f4bf50668fb34cc72e7e7652f27339cdc0fa",
         "datetime": 1789402193,
+        "headlineKo": "아마존, 마이애미 사고 이후 대규모 물류 움직임",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -30898,6 +30917,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d4cca1d9fadc50213ac953e397544b17e7901d32047c6989eb78cb61ba09917a",
         "datetime": 1789396884,
+        "headlineKo": "Anthropic의 AI 감속 호출이 클라우드 거대 기업인 Amazon, Microsoft, Google에 의미할 수 있는 것",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -38543,7 +38563,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -41609,7 +41629,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -49470,7 +49490,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -49917,6 +49937,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d17c266c8d7dac2f0efc85badae5b051d4519375ec76457b3eb512e7d966ef6c",
         "datetime": 1789401611,
+        "headlineKo": "예측: 메타 주식은 가치 평가에서 제안하는 것보다 더 많은 상승 여력을 가지고 있습니다.",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -49979,6 +50000,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c0ebd118351da2bba43575d435d35bd0cc1786cc0d2c62feed0fc8f6877bc1d",
         "datetime": 1789395884,
+        "headlineKo": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다.",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -50041,6 +50063,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2ab8f82bc413d3693e5668999f054f2bfafeecc817566009cee5e30b9ac36cb6",
         "datetime": 1789389360,
+        "headlineKo": "Google과 Meta Stock이 최신 AI 문제에서 가장 큰 승자인 이유",
         "relevance": 0.6,
         "keywordFlag": false,
         "analysis": {
@@ -50089,6 +50112,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=2efbf1b92177bb7d85cd68aa33ee6b2be281a68880f5e13f21976dd8e2bfe400",
         "datetime": 1789387342,
+        "headlineKo": "GS는 이제 정산 및 Muse 출시 후 Meta 주식에 대한 \"더 명확한 촉매 경로\"를 확인합니다.",
         "relevance": 0.6,
         "keywordFlag": true,
         "flagTerms": [
@@ -50100,6 +50124,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=72c04bc8fb2c57e49316e093e75cb0024326d8f9394702626a2389273c93a9c0",
         "datetime": 1789384704,
+        "headlineKo": "투표함에 있는 데이터 센터: 아마존과 메타와의 권력 전쟁에서 Google이 우위를 점하는 이유",
         "relevance": 0.6,
         "keywordFlag": false
       },
@@ -56843,7 +56868,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -57300,6 +57325,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a5b9ffa3c30a43db636ca097632c5933c1f7736b16bd87b604bf6fa2cc6d820a",
         "datetime": 1789405897,
+        "headlineKo": "머스크의 AI 주의로 인해 자율성 스토리가 복잡해지면서 Tesla는 거의 2% 하락했습니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -57348,6 +57374,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f41cbf9436621336ea23837e11678d75e95fc9f0fa6289d0bb12563a7dd8a900",
         "datetime": 1789402189,
+        "headlineKo": "수백만 명의 Tesla 소유자가 완전 자율 주행을 켜지 않은 경우에도 자동차가 개입하고 조종할 수 있는 소프트웨어 업데이트를 곧 받을 예정입니다.",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -57408,6 +57435,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=51d92dfe3abe1583752152ff447b4207c7629de33f182561c5a1080824450040",
         "datetime": 1789401855,
+        "headlineKo": "Tesla 팬 여러분, 10월 1일을 놓치지 마세요: 마침내 큰 일이 일어날 수 있습니다",
         "relevance": 0.4,
         "keywordFlag": false,
         "analysis": {
@@ -57456,6 +57484,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d3f4fb2caa75ca6fef0d7cf1f44ded421a4fe07ba64419ccbe33092b48661476",
         "datetime": 1789398334,
+        "headlineKo": "Tesla, 중국 내 경쟁 심화로 베트남 진출 확대",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -57464,6 +57493,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=363ac1ea43b596b63caa4816c08778b0d7b64f87cbe82ef80b7fb310834514f3",
         "datetime": 1789394400,
+        "headlineKo": "Amy Witherite가 묻습니다. \"Tesla는 안전 실패에 대해 무엇을 숨기고 있습니까?\"",
         "relevance": 0.4,
         "keywordFlag": false
       },
@@ -64440,7 +64470,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -72616,7 +72646,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -79078,7 +79108,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -84405,7 +84435,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -87543,7 +87573,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -87730,6 +87760,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=bfdad68bc6be1f32768d43602a691b7e830d9837432279415b49d87158bdb593",
         "datetime": 1789375077,
+        "headlineKo": "오늘의 주식 시장: OpenAI 이후 Dow, S&P 500, Nasdaq 선물 하락, Anthropic의 항소 Rattle AI Trade — NVDA, MU, SNDK, ORCL, TSLA In Focus (업데이트됨)",
         "relevance": 0.67,
         "keywordFlag": false,
         "analysis": {
@@ -90721,7 +90752,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -90922,6 +90953,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c424328372014845c185e0dfa3561cff332d7d18ec07e17688ed80119d71517d",
         "datetime": 1789392614,
+        "headlineKo": "이 분석가는 평균으로 완전히 복귀하면 S&P 500이 7,000에서 2,500으로 떨어질 것이라고 말합니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -90984,6 +91016,7 @@ const NEWS_DATA = {
         "source": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=8adef7ceb8e6bb8c0e944f34608a308719d506a376e3ffdabc30b0b4e83c4acf",
         "datetime": 1789376880,
+        "headlineKo": "S&P 500 투자자들은 추가 금리 인상에 대한 기대에 적응하고 있습니다.",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -91032,6 +91065,7 @@ const NEWS_DATA = {
         "source": "Benzinga",
         "url": "https://finnhub.io/api/news?id=bfdad68bc6be1f32768d43602a691b7e830d9837432279415b49d87158bdb593",
         "datetime": 1789375077,
+        "headlineKo": "오늘의 주식 시장: OpenAI 이후 Dow, S&P 500, Nasdaq 선물 하락, Anthropic의 항소 Rattle AI Trade — NVDA, MU, SNDK, ORCL, TSLA In Focus (업데이트됨)",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -95676,7 +95710,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -95935,6 +95969,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dca0360c834d26a4709407fed146d11f0c8941c1416056b5e7cf95b6f14225d0",
         "datetime": 1789405217,
+        "headlineKo": "Ellison이 최대 75억 달러의 주식을 매각할 계획을 세운 후 Oracle 주가 하락",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -95983,6 +96018,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=93208e36b53f4fe0012ab92c61e4928863e38bd62eaeee76c5fd0b7cc4e708a3",
         "datetime": 1789404780,
+        "headlineKo": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX 및 오늘날 시장을 설명하는 기타 주식",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -96031,6 +96067,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=43d9e67e11d2366def9887c9dd85e7da3735abcc7a4052540eddb20599e464c0",
         "datetime": 1789402804,
+        "headlineKo": "세금 예측, Oracle 정리해고 등 오늘날의 주요 금융 뉴스",
         "relevance": 0.5,
         "keywordFlag": true,
         "flagTerms": [
@@ -96082,6 +96119,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7a913da9e6cd82322926fa2439f9e5131068f764a2ec97e62e317e44aa091b6b",
         "datetime": 1789401300,
+        "headlineKo": "Ellison이 75억 달러 규모의 주식 매각을 취소하면서 Oracle이 하락했습니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -96090,6 +96128,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1e20a34a77c8b58408baadc6147b8cd0ead710d6772248626e689037b2cb41e9",
         "datetime": 1789400280,
+        "headlineKo": "오늘 오라클 주식이 빠르게 하락한 이유",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -102836,7 +102875,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -103042,6 +103081,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=af9d31b560de87d73e527f770dba00ecb6da5fd19f4748a9741564a9203f3c70",
         "datetime": 1789395106,
+        "headlineKo": "ServiceNow는 소프트웨어가 AI 매도를 회피하면서 5% 상승했습니다. Adobe, 4% 상승, Salesforce 상승",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -103104,6 +103144,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=385441d86a6d3aade3817f482a83d1ed615719620474cbeedae6d4e509e7f0df",
         "datetime": 1789394737,
+        "headlineKo": "Salesforce의 AI 비즈니스가 호황을 누리고 있는데 CRM 주식이 아닌 이유는 무엇입니까?",
         "relevance": 1,
         "keywordFlag": false,
         "analysis": {
@@ -103152,6 +103193,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ab03495fde48120f5050cedb0f322352cf0fbcc0951cc6067218dccf44d1c3c0",
         "datetime": 1789390800,
+        "headlineKo": "Brillio, Salesforce의 Forward Deployed Engineering 파트너 네트워크에 합류",
         "relevance": 0.5,
         "keywordFlag": false,
         "analysis": {
@@ -103200,6 +103242,7 @@ const NEWS_DATA = {
         "source": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f4212daed73037c374a7d5cd5336d0c5de8765e7ee183bcdc373a59d5163fae1",
         "datetime": 1789390800,
+        "headlineKo": "Copado는 Agentia Headless를 통해 관리되는 AgentOps를 Salesforce 개발자에게 직접 제공합니다.",
         "relevance": 0.5,
         "keywordFlag": false
       },
@@ -108212,7 +108255,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -114679,7 +114722,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -118352,7 +118395,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -120316,7 +120359,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -126199,7 +126242,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -129099,7 +129142,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -131567,7 +131610,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -133497,7 +133540,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -140072,7 +140115,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -142522,7 +142565,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -145126,7 +145169,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -147024,7 +147067,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -149319,7 +149362,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -151551,7 +151594,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -153139,7 +153182,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -155506,7 +155549,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -157708,7 +157751,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -159375,7 +159418,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -160063,7 +160106,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -163310,7 +163353,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -164206,7 +164249,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -166351,7 +166394,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -167538,7 +167581,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -169019,7 +169062,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -169968,7 +170011,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-15 05:33"
+      "updated": "2026-09-15 06:00"
     },
     "_fetched_at": 1789409851.7345076,
     "_updated_label": "2026-09-15 03:27",
