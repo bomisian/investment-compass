@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789416202.386358,
+  "generatedAt": 1789418035.309411,
   "events": [
     {
       "id": "70cf57446a6c47a317ed",
@@ -203,7 +203,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
-      "headlineKo": "",
+      "headlineKo": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=fade9e0faef0b0639f6398ea9e50dfffd2e862e25a6145ef9901dd9a9e1071a9",
@@ -442,7 +442,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "X Corp and SpaceXAI drop antitrust lawsuit against Apple",
-      "headlineKo": "",
+      "headlineKo": "X Corp와 SpaceXAI, Apple을 상대로 한 독점금지 소송 기각",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8d96f02c2ea6f17e279b25202fd2387903d3cb200dcd3f101f59b15e0ab27077",
@@ -599,7 +599,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
-      "headlineKo": "",
+      "headlineKo": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a1fad44027e9bed7e3109b649f1a49d1509ee8c19b1673c76e52c79af90735d2",
@@ -678,7 +678,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
-      "headlineKo": "",
+      "headlineKo": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=06054e8b3b2d30574507ce066130f9ba3e47a637bd3db9b0bf8f0ecb12ae676e",
@@ -756,7 +756,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
-      "headlineKo": "",
+      "headlineKo": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=e70841dd783d2063c1aab2c77bc3c2642ad7ff2cd6ba4358771fde40970226b5",
@@ -852,7 +852,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple's Foldable Phone Has Arrived. Here's Why I Don't Think It'll Send the Stock Soaring",
-      "headlineKo": "",
+      "headlineKo": "애플의 폴더블폰이 도착했습니다. 내가 주식이 급등할 것이라고 생각하지 않는 이유는 다음과 같습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=25afb1e8b766478dcb64490995c6b4ca7cb6621c26f47714c60ba54ecd6d1371",
@@ -935,7 +935,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
-      "headlineKo": "",
+      "headlineKo": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=deeeed8a2af58f60c595c3d92caa55f1f020967d3872e74c40703b5fb60a3824",
@@ -1326,7 +1326,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Microsoft AI CEO Agrees: AI Is Getting Dangerous and Needs to Be Controlled",
-      "headlineKo": "",
+      "headlineKo": "Microsoft AI CEO는 AI가 위험해지고 있으며 통제가 필요하다는 점에 동의합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6eef32cd2927461cef7379644642c62134ce910dbe9ea1e46cbcb15564a237aa",
@@ -1480,7 +1480,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Millions of Tesla Owners Are About to Get a Software Update That Lets The Car Intervene and Steer Even If They Never Turned on Full Self-Driving.",
-      "headlineKo": "",
+      "headlineKo": "수백만 명의 Tesla 소유자가 완전 자율 주행을 켜지 않은 경우에도 자동차가 개입하고 조종할 수 있는 소프트웨어 업데이트를 곧 받을 예정입니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f41cbf9436621336ea23837e11678d75e95fc9f0fa6289d0bb12563a7dd8a900",
@@ -1557,7 +1557,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: Meta Stock Has More Upside Than Its Valuation Suggests",
-      "headlineKo": "",
+      "headlineKo": "예측: 메타 주식은 가치 평가에서 제안하는 것보다 더 많은 상승 여력을 가지고 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=d17c266c8d7dac2f0efc85badae5b051d4519375ec76457b3eb512e7d966ef6c",
@@ -1730,7 +1730,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
-      "headlineKo": "",
+      "headlineKo": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=1c0ebd118351da2bba43575d435d35bd0cc1786cc0d2c62feed0fc8f6877bc1d",
@@ -1801,7 +1801,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "ServiceNow Climbs 5% as Software Sidesteps AI Selloff; Adobe Gains 4%, Salesforce Ticks Up",
-      "headlineKo": "",
+      "headlineKo": "ServiceNow는 소프트웨어가 AI 매도를 회피하면서 5% 상승했습니다. Adobe, 4% 상승, Salesforce 상승",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=af9d31b560de87d73e527f770dba00ecb6da5fd19f4748a9741564a9203f3c70",
@@ -2084,7 +2084,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "This Analyst Says A Full Reversion to the Mean Would Take the S&P 500 From 7,000 to 2,500",
-      "headlineKo": "",
+      "headlineKo": "이 분석가는 평균으로 완전히 복귀하면 S&P 500이 7,000에서 2,500으로 떨어질 것이라고 말합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c424328372014845c185e0dfa3561cff332d7d18ec07e17688ed80119d71517d",

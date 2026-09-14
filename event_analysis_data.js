@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789416202.4384143,
+  "generatedAt": 1789418035.3626206,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789405802,
       "signal": "주의 강화",
       "netScore": -8.6,
@@ -55,7 +55,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "84a1c5e58d1b3dae39af",
-          "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+          "headline": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789405802,
           "verificationStatus": "needs_confirmation",
@@ -69,7 +69,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e762b258dcb6f20a3875",
-          "headline": "Microsoft AI CEO Agrees: AI Is Getting Dangerous and Needs to Be Controlled",
+          "headline": "Microsoft AI CEO는 AI가 위험해지고 있으며 통제가 필요하다는 점에 동의합니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789402758,
           "verificationStatus": "needs_confirmation",
@@ -83,7 +83,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d96a033ef33839959038",
-          "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
+          "headline": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789395884,
           "verificationStatus": "needs_confirmation",
@@ -214,7 +214,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407952,
       "signal": "주의 강화",
       "netScore": -10,
@@ -264,7 +264,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "67169fd0f99b5a50defa",
-          "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+          "headline": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789407952,
           "verificationStatus": "needs_confirmation",
@@ -278,7 +278,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "9ab6cfb892b90705f5cc",
-          "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+          "headline": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789406506,
           "verificationStatus": "needs_confirmation",
@@ -292,7 +292,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "84a1c5e58d1b3dae39af",
-          "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+          "headline": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789405802,
           "verificationStatus": "needs_confirmation",
@@ -306,7 +306,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "2d9f98d878010703650c",
-          "headline": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
+          "headline": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789404331,
           "verificationStatus": "needs_confirmation",
@@ -321,7 +321,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d96a033ef33839959038",
-          "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
+          "headline": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789395884,
           "verificationStatus": "needs_confirmation",
@@ -436,7 +436,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407952,
       "signal": "주의 강화",
       "netScore": -6.85,
@@ -486,7 +486,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "67169fd0f99b5a50defa",
-          "headline": "Netflix Climbs 4%, Alphabet Ticks Up, Amazon Barely Budges as New Streaming Policy Alliance Launches",
+          "headline": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789407952,
           "verificationStatus": "needs_confirmation",
@@ -500,7 +500,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "9ab6cfb892b90705f5cc",
-          "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
+          "headline": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789406506,
           "verificationStatus": "needs_confirmation",
@@ -514,7 +514,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "84a1c5e58d1b3dae39af",
-          "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
+          "headline": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789405802,
           "verificationStatus": "needs_confirmation",
@@ -659,7 +659,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789174583,
       "signal": "주의 강화",
       "netScore": -3.08,
@@ -755,7 +755,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789406737,
       "signal": "주의 강화",
       "netScore": -10,
@@ -805,7 +805,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "0b96a73958734eb3cc27",
-          "headline": "X Corp and SpaceXAI drop antitrust lawsuit against Apple",
+          "headline": "X Corp와 SpaceXAI, Apple을 상대로 한 독점금지 소송 기각",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789406737,
           "verificationStatus": "needs_confirmation",
@@ -819,7 +819,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "92ea595b36a623f71b96",
-          "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
+          "headline": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1789405680,
           "verificationStatus": "needs_confirmation",
@@ -975,7 +975,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789402189,
       "signal": "주의 강화",
       "netScore": -10,
@@ -1025,7 +1025,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "164d91c7f121edfdb611",
-          "headline": "Millions of Tesla Owners Are About to Get a Software Update That Lets The Car Intervene and Steer Even If They Never Turned on Full Self-Driving.",
+          "headline": "수백만 명의 Tesla 소유자가 완전 자율 주행을 켜지 않은 경우에도 자동차가 개입하고 조종할 수 있는 소프트웨어 업데이트를 곧 받을 예정입니다.",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789402189,
           "verificationStatus": "needs_confirmation",
@@ -1170,7 +1170,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789375410,
       "signal": "주의 강화",
       "netScore": -7.5,
@@ -1387,7 +1387,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789166911,
       "signal": "중립·확인 대기",
       "netScore": -1.18,
@@ -1469,7 +1469,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789252992,
       "signal": "중립·확인 대기",
       "netScore": 0.62,
@@ -1636,7 +1636,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407960,
       "signal": "우호적 변화",
       "netScore": 6.18,
@@ -1757,7 +1757,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "d96a033ef33839959038",
-          "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
+          "headline": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789395884,
           "verificationStatus": "needs_confirmation",
@@ -1858,7 +1858,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407960,
       "signal": "우호적 변화",
       "netScore": 6.85,
@@ -2073,7 +2073,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789320420,
       "signal": "중립·확인 대기",
       "netScore": 1.75,
@@ -2237,7 +2237,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789405680,
       "signal": "주의 강화",
       "netScore": -6.24,
@@ -2287,7 +2287,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "92ea595b36a623f71b96",
-          "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
+          "headline": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1789405680,
           "verificationStatus": "needs_confirmation",
@@ -2445,7 +2445,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789152953,
       "signal": "중립·확인 대기",
       "netScore": -0.48,
@@ -2528,7 +2528,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407604,
       "signal": "중립·확인 대기",
       "netScore": -0.84,
@@ -2654,7 +2654,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407604,
       "signal": "중립·확인 대기",
       "netScore": -1.56,
@@ -2732,7 +2732,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "e762b258dcb6f20a3875",
-          "headline": "Microsoft AI CEO Agrees: AI Is Getting Dangerous and Needs to Be Controlled",
+          "headline": "Microsoft AI CEO는 AI가 위험해지고 있으며 통제가 필요하다는 점에 동의합니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789402758,
           "verificationStatus": "needs_confirmation",
@@ -2875,7 +2875,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789220640,
       "signal": "주의 강화",
       "netScore": -3.78,
@@ -2958,7 +2958,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789390201,
       "signal": "주의 강화",
       "netScore": -3.7,
@@ -3068,7 +3068,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789397549,
       "signal": "주의 강화",
       "netScore": -7.55,
@@ -3180,7 +3180,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789397549,
       "signal": "중립·확인 대기",
       "netScore": -1.87,
@@ -3250,7 +3250,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -3304,7 +3304,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789407960,
       "signal": "우호적 변화",
       "netScore": 4.18,
@@ -3367,7 +3367,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "92ea595b36a623f71b96",
-          "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
+          "headline": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1789405680,
           "verificationStatus": "needs_confirmation",
@@ -3521,7 +3521,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789352418,
       "signal": "주의 강화",
       "netScore": -5.6,
@@ -3670,7 +3670,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789405680,
       "signal": "주의 강화",
       "netScore": -6.1,
@@ -3720,7 +3720,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "92ea595b36a623f71b96",
-          "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
+          "headline": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다.",
           "eventLabel": "공급망 문제",
           "publishedAt": 1789405680,
           "verificationStatus": "needs_confirmation",
@@ -3845,7 +3845,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789156143,
       "signal": "우호적 변화",
       "netScore": 4.2,
@@ -3928,7 +3928,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789408190,
       "signal": "중립·확인 대기",
       "netScore": -0.21,
@@ -4011,7 +4011,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789408190,
       "signal": "중립·확인 대기",
       "netScore": -0.21,
@@ -4094,7 +4094,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4148,7 +4148,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789380997,
       "signal": "중립·확인 대기",
       "netScore": 0.92,
@@ -4245,7 +4245,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789311600.0,
       "signal": "주의 강화",
       "netScore": -4.4,
@@ -4314,7 +4314,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789404062,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -4381,7 +4381,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789404062,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -4448,7 +4448,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4502,7 +4502,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789351320,
       "signal": "주의 강화",
       "netScore": -3.14,
@@ -4585,7 +4585,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4639,7 +4639,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 1789394139,
       "signal": "중립·확인 대기",
       "netScore": -0.57,
@@ -4778,7 +4778,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4832,7 +4832,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4886,7 +4886,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1789416202.4384143,
+      "updatedAt": 1789418035.3626206,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

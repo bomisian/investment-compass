@@ -7491,7 +7491,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -7560,7 +7560,8 @@ const NEWS_DATA = {
             "Elon Musk's companies, Apple , and OpenAI did not respond to requests for comment."
           ],
           "analysisUpdatedAt": 1789409978.4130645
-        }
+        },
+        "headlineKo": "X Corp와 SpaceXAI, Apple을 상대로 한 독점금지 소송 기각"
       },
       {
         "headline": "Apple iPhone 18 Pro pre-orders point to mixed demand signals, brokers say",
@@ -7633,7 +7634,8 @@ const NEWS_DATA = {
             "She has over 15 years of experience covering the equity markets in North America, with a particular focus on junior resource stocks."
           ],
           "analysisUpdatedAt": 1789409980.2751594
-        }
+        },
+        "headlineKo": "중개인은 Apple iPhone 18 Pro 사전 주문이 혼합된 수요 신호를 지적한다고 말합니다."
       },
       {
         "headline": "Apple's Foldable Phone Has Arrived. Here's Why I Don't Think It'll Send the Stock Soaring",
@@ -7696,7 +7698,8 @@ const NEWS_DATA = {
             "The phone is priced at a premium for a company already known for premium-priced products."
           ],
           "analysisUpdatedAt": 1789409985.5766017
-        }
+        },
+        "headlineKo": "애플의 폴더블폰이 도착했습니다. 내가 주식이 급등할 것이라고 생각하지 않는 이유는 다음과 같습니다."
       },
       {
         "headline": "Apple Wants to Know What’s Hiding in OpenAI’s Secret Unreleased Device, and Who at the Company Had Access to It.",
@@ -7705,7 +7708,8 @@ const NEWS_DATA = {
         "datetime": 1789404746,
         "relevance": 0.29,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Apple은 OpenAI의 미출시 비밀 장치에 무엇이 숨겨져 있는지, 그리고 회사에서 누가 이에 접근했는지 알고 싶어합니다."
       },
       {
         "headline": "Founded by Apple’s Ex-Head of Worldwide Logistics Procurement, Aron Launches With First AI Chief of Staff for Procurement Teams and Raises $8 Million in Funding from Menlo Ventures and Storm Ventures",
@@ -7714,7 +7718,8 @@ const NEWS_DATA = {
         "datetime": 1789401600,
         "relevance": 0.29,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Apple의 전 세계 물류 조달 책임자가 설립한 Aron, 조달 팀을 위한 최초의 AI 참모장과 함께 출범하고 Menlo Ventures 및 Storm Ventures로부터 800만 달러 자금 조달"
       },
       {
         "headline": "Apple (AAPL) Draws New £2 Billion UK ATT Lawsuit With Wider Europe Stakes",
@@ -15278,7 +15283,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 189,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -15353,7 +15358,8 @@ const NEWS_DATA = {
             "By David Moadel Published September 14, 2026, 1:45pm ET · 4 min read Market Movers desk."
           ],
           "analysisUpdatedAt": 1789409904.5964334
-        }
+        },
+        "headlineKo": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음"
       },
       {
         "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
@@ -15410,7 +15416,8 @@ const NEWS_DATA = {
             "Mike Ward, TechNet's senior vice president of federal policy and government relations, will head the coalition."
           ],
           "analysisUpdatedAt": 1789409910.1961875
-        }
+        },
+        "headlineKo": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성"
       },
       {
         "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
@@ -15473,7 +15480,8 @@ const NEWS_DATA = {
             "The streaming services Netflix, Amazon Prime Video, Disney Plus, Paramount Plus, Max, and Discovery Plus app on the screen of a smartphone."
           ],
           "analysisUpdatedAt": 1789409915.3071303
-        }
+        },
+        "headlineKo": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다."
       },
       {
         "headline": "Whoever Spends Smarter Wins the Microsoft-Alphabet Cloud Fight. Here Is Who Is Ahead.",
@@ -15482,7 +15490,8 @@ const NEWS_DATA = {
         "datetime": 1789404331,
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다."
       },
       {
         "headline": "Google: Measurement Shouldn't Be A Record Of Where Budget Went",
@@ -15491,7 +15500,8 @@ const NEWS_DATA = {
         "datetime": 1789402162,
         "relevance": 1.0,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Google: 측정은 예산이 어디에 사용되었는지에 대한 기록이 되어서는 안 됩니다."
       },
       {
         "headline": "Google won’t have to sell off ad exchange in ad-tech monopoly case",
@@ -23251,7 +23261,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 188,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -23327,7 +23337,8 @@ const NEWS_DATA = {
             "Microsoft and Alphabet both posted monster cloud quarters and both are spending at a pace that would have seemed reckless two years ago, but only one of them is funding the buildout without going to the debt markets, and that… By Alex Siroi"
           ],
           "analysisUpdatedAt": 1789409883.0182152
-        }
+        },
+        "headlineKo": "더 현명하게 소비하는 사람이 Microsoft-Alphabet 클라우드 싸움에서 승리합니다. 여기에 누가 앞서 있습니다."
       },
       {
         "headline": "Microsoft AI CEO Agrees: AI Is Getting Dangerous and Needs to Be Controlled",
@@ -23390,7 +23401,8 @@ const NEWS_DATA = {
             "By Rich Duprey Published September 14, 2026, 12:19pm ET · 2 min read 𝕏 f ⧉ The visual depicts the convergence of artificial intelligence and robust cybersecurity, reflecting partnerships like Cloudflare's with OpenAI that aim to secure digi"
           ],
           "analysisUpdatedAt": 1789409887.9702475
-        }
+        },
+        "headlineKo": "Microsoft AI CEO는 AI가 위험해지고 있으며 통제가 필요하다는 점에 동의합니다."
       },
       {
         "headline": "IDrive Adds Microsoft Entra ID Backup to Strengthen Identity and Access Protection for Microsoft 365 Organizations",
@@ -23439,7 +23451,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409890.3507166
-        }
+        },
+        "headlineKo": "IDrive, Microsoft 365 조직의 ID 및 액세스 보호를 강화하기 위해 Microsoft Entra ID 백업 추가"
       },
       {
         "headline": "Microsoft Is Setting Limits for Its AI Models. It Isn’t Slowing Development.",
@@ -23448,7 +23461,8 @@ const NEWS_DATA = {
         "datetime": 1789400100,
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Microsoft는 AI 모델에 한계를 설정하고 있습니다. 개발 속도가 느려지는 것이 아닙니다."
       },
       {
         "headline": "Apple vs. Microsoft: This Is the Magnificent Seven Stock I’d Buy Today",
@@ -23457,7 +23471,8 @@ const NEWS_DATA = {
         "datetime": 1789390812,
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "애플 대 마이크로소프트: 오늘 내가 사고 싶은 7가지 주식은 바로 이것이다"
       },
       {
         "headline": "Microsoft: CapEx Rotation Does Not Support An Optimistic View (Downgrade)",
@@ -30191,7 +30206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 175,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -30266,7 +30281,8 @@ const NEWS_DATA = {
             "By David Moadel Published September 14, 2026, 1:45pm ET · 4 min read Market Movers desk."
           ],
           "analysisUpdatedAt": 1789409930.156391
-        }
+        },
+        "headlineKo": "Netflix는 4% 상승, Alphabet은 상승, Amazon은 새로운 스트리밍 정책 동맹 출시로 거의 예산을 책정하지 않음"
       },
       {
         "headline": "Netflix, Amazon, YouTube form streaming lobbying coalition",
@@ -30323,7 +30339,8 @@ const NEWS_DATA = {
             "Mike Ward, TechNet's senior vice president of federal policy and government relations, will head the coalition."
           ],
           "analysisUpdatedAt": 1789409935.647117
-        }
+        },
+        "headlineKo": "넷플릭스·아마존·유튜브 스트리밍 로비 연합 결성"
       },
       {
         "headline": "Netflix, Amazon And YouTube Reportedly Form Coalition As Washington Scrutinizes Sports Broadcasting",
@@ -30386,7 +30403,8 @@ const NEWS_DATA = {
             "The streaming services Netflix, Amazon Prime Video, Disney Plus, Paramount Plus, Max, and Discovery Plus app on the screen of a smartphone."
           ],
           "analysisUpdatedAt": 1789409940.718543
-        }
+        },
+        "headlineKo": "워싱턴이 스포츠 방송을 면밀히 조사함에 따라 Netflix, Amazon 및 YouTube가 연합을 형성한 것으로 알려졌습니다."
       },
       {
         "headline": "Amazon makes a major logistics move after Miami crash",
@@ -30395,7 +30413,8 @@ const NEWS_DATA = {
         "datetime": 1789402193,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "아마존, 마이애미 사고 이후 대규모 물류 움직임"
       },
       {
         "headline": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
@@ -30404,7 +30423,8 @@ const NEWS_DATA = {
         "datetime": 1789396884,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Anthropic의 AI 감속 호출이 클라우드 거대 기업인 Amazon, Microsoft, Google에 의미할 수 있는 것"
       },
       {
         "headline": "Amazon's 250-Flight Air Network Faces a Fatal Miami Investigation",
@@ -38523,7 +38543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -41589,7 +41609,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 67,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -49450,7 +49470,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 185,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -49526,7 +49546,8 @@ const NEWS_DATA = {
             "By Vandita Jadeja Published September 14, 2026, 12:00pm ET · 2 min read 𝕏 f ⧉ The stylized bull, overlaid with upward-trending financial charts and a cityscape, symbolizes the anticipated growth and bullish sentiment for Meta stock in the c"
           ],
           "analysisUpdatedAt": 1789409955.9226546
-        }
+        },
+        "headlineKo": "예측: 메타 주식은 가치 평가에서 제안하는 것보다 더 많은 상승 여력을 가지고 있습니다."
       },
       {
         "headline": "Meta, Alphabet and Microsoft Rise While Nvidia Falls After Three AI Chiefs Call For Slowing Down Frontier Models",
@@ -49589,7 +49610,8 @@ const NEWS_DATA = {
             "The rotation raises a question every investor in the sector now has to… By AJ Tiarsmith Published September 14, 2026, 10:24am ET · 3 min read 𝕏 f ⧉ The image illustrates the contrasting market fortunes of tech giants, with Meta, Google, and"
           ],
           "analysisUpdatedAt": 1789409961.1098032
-        }
+        },
+        "headlineKo": "Meta, Alphabet 및 Microsoft는 상승하고 Nvidia는 세 명의 AI 책임자가 프론티어 모델 속도를 늦추라고 요구한 후 하락합니다."
       },
       {
         "headline": "Why Google and Meta Stocks Are the Big Winners From the Latest AI Concerns",
@@ -49638,7 +49660,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409962.8674195
-        }
+        },
+        "headlineKo": "Google과 Meta Stock이 최신 AI 문제에서 가장 큰 승자인 이유"
       },
       {
         "headline": "GS now sees \"clearer catalyst path\" for Meta shares post settlement & Muse launch",
@@ -49649,7 +49672,8 @@ const NEWS_DATA = {
         "keywordFlag": true,
         "flagTerms": [
           "settlement"
-        ]
+        ],
+        "headlineKo": "GS는 이제 정산 및 Muse 출시 후 Meta 주식에 대한 \"더 명확한 촉매 경로\"를 확인합니다."
       },
       {
         "headline": "Data Centers At The Ballot Box: Why Google Holds The Edge In The Power War Against Amazon And Meta",
@@ -49658,7 +49682,8 @@ const NEWS_DATA = {
         "datetime": 1789384704,
         "relevance": 0.6,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "투표함에 있는 데이터 센터: 아마존과 메타와의 권력 전쟁에서 Google이 우위를 점하는 이유"
       },
       {
         "headline": "Meta’s $18 Billion Settlement Could Be the Green Light for a New AI Push",
@@ -56818,7 +56843,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -56880,7 +56905,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409997.7724974
-        }
+        },
+        "headlineKo": "머스크의 AI 주의로 인해 자율성 스토리가 복잡해지면서 Tesla는 거의 2% 하락했습니다."
       },
       {
         "headline": "Millions of Tesla Owners Are About to Get a Software Update That Lets The Car Intervene and Steer Even If They Never Turned on Full Self-Driving.",
@@ -56941,7 +56967,8 @@ const NEWS_DATA = {
             "Tesla's newest software update gives your car permission to grab the wheel and steer itself out of danger, even if you never once activated Full Self-Driving."
           ],
           "analysisUpdatedAt": 1789410002.5575826
-        }
+        },
+        "headlineKo": "수백만 명의 Tesla 소유자가 완전 자율 주행을 켜지 않은 경우에도 자동차가 개입하고 조종할 수 있는 소프트웨어 업데이트를 곧 받을 예정입니다."
       },
       {
         "headline": "Tesla Fans, Don't Miss Oct. 1: Something Big Could Finally Happen",
@@ -56990,7 +57017,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410004.6423
-        }
+        },
+        "headlineKo": "Tesla 팬 여러분, 10월 1일을 놓치지 마세요: 마침내 큰 일이 일어날 수 있습니다"
       },
       {
         "headline": "Tesla Expands Into Vietnam as Competition Intensifies in China",
@@ -56999,7 +57027,8 @@ const NEWS_DATA = {
         "datetime": 1789398334,
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Tesla, 중국 내 경쟁 심화로 베트남 진출 확대"
       },
       {
         "headline": "Amy Witherite Asks: \"What Is Tesla Hiding About Its Safety Failures?\"",
@@ -57008,7 +57037,8 @@ const NEWS_DATA = {
         "datetime": 1789394400,
         "relevance": 0.4,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Amy Witherite가 묻습니다. \"Tesla는 안전 실패에 대해 무엇을 숨기고 있습니까?\""
       },
       {
         "headline": "If The Macro Market Wasn't Overvalued, I'd Be All-In On Tesla (Rating Downgrade)",
@@ -64410,7 +64440,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -72586,7 +72616,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 190,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -79048,7 +79078,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 159,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -84375,7 +84405,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 142,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -87513,7 +87543,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 73,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -87570,7 +87600,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409854.983249
-        }
+        },
+        "headlineKo": "오늘의 주식 시장: OpenAI 이후 Dow, S&P 500, Nasdaq 선물 하락, Anthropic의 항소 Rattle AI Trade — NVDA, MU, SNDK, ORCL, TSLA In Focus (업데이트됨)"
       },
       {
         "headline": "SpaceX weighting in Nasdaq 100 set to more than double - Bloomberg",
@@ -90690,7 +90721,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 69,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -90761,7 +90792,8 @@ const NEWS_DATA = {
             "By Omor Ibne Ehsan Published September 14, 2026, 9:30am ET · 4 min read 𝕏 f ⧉ An investor reacts to a significant market downturn, reflecting the concerns about the S&P 500's potential reversion to the mean as discussed in the article."
           ],
           "analysisUpdatedAt": 1789409867.8003635
-        }
+        },
+        "headlineKo": "이 분석가는 평균으로 완전히 복귀하면 S&P 500이 7,000에서 2,500으로 떨어질 것이라고 말합니다."
       },
       {
         "headline": "S&P 500 Investors Adjust To Expectations Of More Rate Hikes",
@@ -90810,7 +90842,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409868.7632751
-        }
+        },
+        "headlineKo": "S&P 500 투자자들은 추가 금리 인상에 대한 기대에 적응하고 있습니다."
       },
       {
         "headline": "Stock Market Today: Dow, S&P 500, Nasdaq Futures Fall After OpenAI, Anthropic’s Appeals Rattle AI Trade — NVDA, MU, SNDK, ORCL, TSLA In Focus (UPDATED)",
@@ -90859,7 +90892,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789409869.5665867
-        }
+        },
+        "headlineKo": "오늘의 주식 시장: OpenAI 이후 Dow, S&P 500, Nasdaq 선물 하락, Anthropic의 항소 Rattle AI Trade — NVDA, MU, SNDK, ORCL, TSLA In Focus (업데이트됨)"
       },
       {
         "headline": "Stock Market: Will S&P 500 Open Up or Down Today?",
@@ -90868,7 +90902,8 @@ const NEWS_DATA = {
         "datetime": 1789349796,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "주식시장: 오늘 S&P 500이 상승할 것인가, 하락할 것인가?"
       },
       {
         "headline": "Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways.",
@@ -95641,7 +95676,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 115,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -95703,7 +95738,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410016.8355076
-        }
+        },
+        "headlineKo": "Ellison이 최대 75억 달러의 주식을 매각할 계획을 세운 후 Oracle 주가 하락"
       },
       {
         "headline": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX, and More Stocks That Explain Today’s Market",
@@ -95752,7 +95788,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410019.3894558
-        }
+        },
+        "headlineKo": "Oracle, Corning, Alphabet, GE Vernova, CrowdStrike, SpaceX 및 오늘날 시장을 설명하는 기타 주식"
       },
       {
         "headline": "Tax Predictions, Oracle Layoffs and More of Today’s Top Money News",
@@ -95803,7 +95840,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410021.758184
-        }
+        },
+        "headlineKo": "세금 예측, Oracle 정리해고 등 오늘날의 주요 금융 뉴스"
       },
       {
         "headline": "Oracle falls as Ellison cancels $7.5 billion share sale",
@@ -95812,7 +95850,8 @@ const NEWS_DATA = {
         "datetime": 1789401300,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Ellison이 75억 달러 규모의 주식 매각을 취소하면서 Oracle이 하락했습니다."
       },
       {
         "headline": "Why Oracle Stock Fell Quickly Today",
@@ -95821,7 +95860,8 @@ const NEWS_DATA = {
         "datetime": 1789400280,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "오늘 오라클 주식이 빠르게 하락한 이유"
       },
       {
         "headline": "Oracle's Successive Layoffs to Generate Funds for AI Infrastructure Buildout Carry Execution Risk, RBC Says",
@@ -102796,7 +102836,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 178,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -102872,7 +102912,8 @@ const NEWS_DATA = {
             "By David Moadel Published September 14, 2026, 10:11am ET · 3 min read Market Movers desk."
           ],
           "analysisUpdatedAt": 1789410036.2915866
-        }
+        },
+        "headlineKo": "ServiceNow는 소프트웨어가 AI 매도를 회피하면서 5% 상승했습니다. Adobe, 4% 상승, Salesforce 상승"
       },
       {
         "headline": "Salesforce's AI Business Is Booming, Why Isn't CRM Stock?",
@@ -102921,7 +102962,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410038.432852
-        }
+        },
+        "headlineKo": "Salesforce의 AI 비즈니스가 호황을 누리고 있는데 CRM 주식이 아닌 이유는 무엇입니까?"
       },
       {
         "headline": "Brillio Joins Salesforce's Forward Deployed Engineering Partner Network",
@@ -102970,7 +103012,8 @@ const NEWS_DATA = {
           "verifiedNumbers": [],
           "sourceExcerpt": [],
           "analysisUpdatedAt": 1789410039.9485998
-        }
+        },
+        "headlineKo": "Brillio, Salesforce의 Forward Deployed Engineering 파트너 네트워크에 합류"
       },
       {
         "headline": "Copado Brings Governed AgentOps Directly to Salesforce Developers with Agentia Headless",
@@ -102979,7 +103022,8 @@ const NEWS_DATA = {
         "datetime": 1789390800,
         "relevance": 0.5,
         "keywordFlag": false,
-        "flagTerms": []
+        "flagTerms": [],
+        "headlineKo": "Copado는 Agentia Headless를 통해 관리되는 AgentOps를 Salesforce 개발자에게 직접 제공합니다."
       },
       {
         "headline": "Salesforce Announces $27 Million in New Education Grants, Deepening Support for Public Schools and Educators",
@@ -108168,7 +108212,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 135,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -114635,7 +114679,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 166,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -118308,7 +118352,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 86,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -120272,7 +120316,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -126155,7 +126199,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 140,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -129055,7 +129099,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 70,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -131523,7 +131567,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -133453,7 +133497,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 47,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -140028,7 +140072,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 165,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -142478,7 +142522,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 62,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -145082,7 +145126,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 57,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -146980,7 +147024,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -149275,7 +149319,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -151507,7 +151551,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 50,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -153095,7 +153139,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -155462,7 +155506,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 52,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -157664,7 +157708,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 46,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -159331,7 +159375,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 38,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -160019,7 +160063,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -163266,7 +163310,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 68,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -164162,7 +164206,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -166307,7 +166351,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 48,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -167494,7 +167538,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 28,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -168975,7 +169019,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 35,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_last_attempt_at": 1789409851.7345076,
     "_earnings_status": "ok",
@@ -169924,7 +169968,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-15 03:27"
+      "updated": "2026-09-15 05:33"
     },
     "_fetched_at": 1789409851.7345076,
     "_updated_label": "2026-09-15 03:27",
