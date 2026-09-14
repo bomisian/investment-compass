@@ -9,6 +9,26 @@ const BUSINESS_NOTES = {
   MARKET: {
     newsLog: [
       {
+        date: "2026-09-14",
+        headline: "OpenAI 올트먼 'IPO 철회'·Anthropic 아모데이 'AI 속도조절론' 겹치며 나스닥 선물 -1.2%, 사우디 송유관 폐쇄로 유가 재급등",
+        tone: "risk",
+        importance: "high",
+        horizon: "단기(9/16-17 FOMC까지)",
+        facts: ["9/13(일) 밤~9/14(월) 개장 전 미 증시 선물이 일제히 하락: 다우존스 선물 -179포인트(-0.4%), S&P500 선물 -0.6%, 나스닥100 선물 -1.2%.", "OpenAI CEO 샘 올트먼이 9/12(토) 공개된 인터뷰에서 올해 IPO를 하지 않겠다며 상장이 '시기상조(ill-advised)'라고 밝혔다 - 약 한 달 전 OpenAI CFO 사라 프라이어가 '늦어도 2027년까지 상장'이라 언급한 것과 배치되는 발언.", "Anthropic CEO 다리오 아모데이가 에세이에서 AI 기업들이 안전 문제 때문에 최상위 모델 개발 속도를 늦춰야 한다고 주장했고, 별도로 Anthropic 소속이었던 한 연구원이 퇴사하며 'AI가 10년 안에 인류를 전멸시킬 수 있다'고 경고한 사실도 함께 보도됨.", "사우디아라비아가 이라크발 드론 공격(9/11 목 피해 확인) 이후 하루 700만 배럴 수송 능력의 동서 송유관(East-West Pipeline)을 예방적으로 폐쇄 - 이란-미국 확전 이후 호르무즈 해협을 우회하는 핵심 수출로였음.", "WTI 선물 배럴당 $102.87(+2.8%), 브렌트유 $107.87(+3.1%)로 재급등. 앞서 9/11 발표된 8월 소비자물가(CPI)는 전년비 +3.4%·근원 전월비 +0.3%로 예상보다 소폭 높게 나와, CME FedWatch 9월 금리인상 확률이 하루 만에 70%→90%로 급등한 상태였음(9/16-17 FOMC 예정)."],
+        why: ["지정학 리스크(이란-미국 확전)발 유가 상승 우려가 이번 주 사우디 핵심 송유관 실제 폐쇄로 구체화되며 인플레이션 압력이 커졌고, 여기에 8월 CPI 서프라이즈까지 겹쳐 9/16-17 FOMC 금리인상 가능성이 한층 높아진 상태다.", "동시에 워치리스트 다수 종목(NVDA·MSFT·GOOGL·AMZN·META·ORCL·PLTR 등)이 AI 인프라·거대언어모델 성장 스토리에 밸류에이션을 크게 의존하는데, OpenAI의 IPO 철회와 Anthropic CEO의 자체 경고는 'AI 성장이 예상보다 느려지거나 리스크가 크다'는 신호로 해석될 여지가 있어 나스닥100 선물이 다우·S&P보다 더 크게(-1.2%) 반응했다.", "금리인상 우려(밸류에이션 압박)와 AI 성장주 자체 리스크가 같은 시점에 겹친 것은, 반도체·AI 인프라 비중이 높은 이 워치리스트에는 이중 악재로 작용할 수 있다."],
+        beginner: ["OpenAI(챗GPT 만든 회사) CEO가 '올해는 증시 상장을 안 하겠다'고 말했어요. 한 달 전엔 정반대로 '2027년까진 상장하겠다'고 했었는데 말이 바뀐 거라 투자자들이 불안해했어요.", "경쟁사 Anthropic의 CEO도 'AI가 위험할 수 있으니 최고 성능 모델 개발 속도를 늦춰야 한다'는 글을 썼고, 그 회사 출신 연구원이 퇴사하며 '이 기술이 10년 안에 인류를 위협할 수 있다'고 경고했다는 뉴스까지 겹쳤어요. AI 관련 주식이 이런 뉴스에 민감해서 나스닥(기술주 중심 지수) 선물이 더 많이 떨어졌어요.", "따로, 사우디아라비아가 드론 공격을 받아 하루 700만 배럴을 나르는 큰 송유관을 잠갔어요. 중동에서 미국-이란 갈등이 이어지는 상황이라 원유 공급이 더 줄어들 수 있다는 뜻이라 기름값이 또 크게 올랐어요.", "기름값이 오르면 물가가 오르고, 물가가 오르면 연준(중앙은행)이 금리를 올릴 가능성이 커져요. 실제로 최근 나온 8월 물가지표도 예상보다 조금 높게 나와서, 이번 주(9/16-17) 연준 회의에서 금리를 올릴 확률이 하루 만에 70%에서 90%로 뛰었어요.", "정리하면 (1) AI 회사들 자체에서 나온 불안한 뉴스, (2) 중동發 기름값 급등, (3) 금리인상 가능성 상승 - 이 세 가지가 겹쳐서 월요일 아침 증시 선물이 약세로 출발했어요."],
+        interpretation: "이번 선물 약세는 개별 기업 실적 악화가 아니라 AI 산업 자체 성장 서사에 대한 의구심, 지정학발 유가 재급등, 금리인상 확률 상승이라는 세 거시 변수가 겹친 결과다. 워치리스트 다수가 AI 인프라·반도체 비중이 높아 나스닥100 선물(-1.2%)이 다우(-0.4%)보다 더 크게 반응했다. 선물 수치는 개장 전 지표라 실제 장중 낙폭과 다를 수 있으며, 9/16-17 FOMC 결과가 이번 주 방향성을 결정할 핵심 변수로 남는다.",
+        decision: "선물 하락 자체를 매수·매도 신호로 쓰기는 이르다. FOMC(9/16-17)를 앞두고 유가·금리·AI 안전성 뉴스 흐름을 계속 확인하며, 눌림목 매수를 고려한다면 실제 개장 후 반응과 FOMC 결과까지 지켜본 뒤 판단할 것을 권장.",
+        watch: ["9/14(월) 실제 개장 후 3대 지수 낙폭 확정 여부", "사우디 동서 송유관 복구 시점 및 유가 $100 상회 지속 여부", "9/16-17 FOMC 금리인상 결정 및 파월 기자회견", "OpenAI·Anthropic발 AI 안전성 이슈가 워치리스트 내 AI 관련주(NVDA·MSFT·GOOGL·PLTR 등)에 미치는 추가 반응"],
+        confidence: "선물 하락폭·유가 수치는 Bloomberg·CNBC 9/13 보도 기준으로 신뢰도 높음. AI 안전성 관련 발언(올트먼·아모데이·연구원 경고)은 각 매체 보도를 종합한 것으로 발언 자체는 확인됐으나, 실제 개장 후 주가 반영 정도는 아직 미확정.",
+        sources: [
+          { title: "US Stock Futures Fall on AI Warning, Oil Gains: Markets Wrap (Bloomberg)", url: "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap" },
+          { title: "Oil prices rise after Saudi Arabia shut down critical pipeline that bypasses Strait of Hormuz (CNBC)", url: "https://www.cnbc.com/2026/09/13/oil-price-iran-war-strait-hormuz-saudi-pipeline.html" },
+          { title: "Stock futures fall as investors weigh AI safety concerns, oil gains: Live updates (CNBC)", url: "https://www.cnbc.com/2026/09/13/stock-futures-today-live-updates.html" },
+          { title: "Inflation stayed hot in August with annual pace of 3.4%, raising the odds of a Fed hike (CBS News)", url: "https://www.cbsnews.com/news/august-cpi-report-inflation-fed-rates/" },
+        ],
+      },
+      {
         date: "2026-09-10",
         headline: "8월 PPI는 예상대로(+0.4%) 나왔지만 브렌트유가 $101까지 재상승하며 3대 지수 동반 하락, 인텔은 랠리 차익실현으로 -5.7%",
         tone: "risk",
