@@ -2372,8 +2372,19 @@ function renderSimpleView(){
   // 오름/내림 정렬 가능하게 하고, 기본은 기존과 동일하게 점수 높은 순. 같은 요청으로 main 표에
   // 이미 있던 fvUpsidePct(기준가 대비 %, "적정가"가 아니라 참고용 지표라는 주석도 동일하게 적용)를
   // 컬럼으로 추가함 - 새 계산 아니라 결과 객체에 이미 있는 값을 재사용.
+  // 2026-09-15 수정(수정요청서 A1 나머지) - 이 목록은 기존엔 옛 verdict(가격 눌림목 점수만 보는
+  // '강한 매수기회'/'매수 관심'/'관망')로 걸러내고 티커 옆 칩도 그 라벨로 표시했는데, 종목 상세
+  // 헤드라인은 이미 computeDecisionViewModel(실적·현금흐름·데이터상태까지 종합) 기준으로 바뀌어서
+  // 목록과 상세가 서로 다른 판단 기준을 쓰는 불일치가 남아있었다. 목록도 같은 판단 객체를 쓰도록
+  // 통일한다 - 새 계산을 추가하지 않고 이미 있는 computeDecisionViewModel을 그대로 재사용.
+  // 옛 필터가 걸러내던 '관망'(가장 낮은 점수 구간)에 대응하는 새 상태는 '조건 대기'(wait)이므로
+  // 그것만 제외하고, 나머지(매수 검토/위험 우선/판단 보류)는 모두 보여준다 - 예전엔 '판단 보류'
+  // 종목이 점수만 높으면 '매수 관심'처럼 보였는데, 이제는 판단 보류라는 사실 자체를 숨기지 않는다.
   const scored = Object.values(results).filter(r=>!r.error);
-  let picks = scored.filter(r=>r.verdict && r.verdict.label!=='관망');
+  let picks = scored.filter(r=>{
+    const d = r.decision || computeDecisionViewModel(r);
+    return d.status !== 'wait';
+  });
   const fairMidOf = r => (r.fairValue && r.fairValue.fwd && !r.fairValue.fwd.unavailable && r.fairValue.fwd.mid!=null) ? r.fairValue.fwd.mid : null;
   if(simpleLtSortKey){
     picks = picks.slice().sort((a,b)=>{
@@ -2389,7 +2400,7 @@ function renderSimpleView(){
     picks = picks.slice().sort((a,b)=>b.score-a.score);
   }
   if(!picks.length){
-    ltBox.innerHTML = '<div class="sub">아직 스캔 결과가 없거나, 지금은 매수관심 이상인 종목이 없어요.</div>';
+    ltBox.innerHTML = '<div class="sub">아직 스캔 결과가 없거나, 지금은 조건 대기(관찰) 외 종목이 없어요.</div>';
   }else{
     const arrow = key => simpleLtSortKey===key ? (simpleLtSortDir===1?' ▲':' ▼') : '';
     const th = (key,label) => `<th class="${simpleLtSortKey===key?'active':''}" style="cursor:pointer;" onclick="sortSimpleLt('${key}')" title="눌러서 정렬">${label}${arrow(key)}</th>`;
@@ -2397,8 +2408,10 @@ function renderSimpleView(){
       const fwd = r.fairValue && r.fairValue.fwd;
       const fairTxt = (fwd && !fwd.unavailable && fwd.mid!=null) ? '$'+fwd.mid.toFixed(0) : '-';
       const dir = directionBadge(r.ticker) || '<span class="sub">-</span>';
+      // 2026-09-15 수정(A1) - 옛 verdict 라벨 대신 상세와 같은 decisionStatusBadgeHtml(매수 검토/
+      // 위험 우선/판단 보류)을 그대로 재사용 - 목록·상세가 같은 배지·같은 이유 문구를 보여준다.
       return `<tr onclick="openDetail('${r.ticker}')" style="cursor:pointer;">
-        <td><b>${esc(r.ticker)}</b> <span class="badge ${r.verdict.label==='강한 매수기회'?'b-strong-buy':'b-buy-wait'}" style="font-size:10px;">${r.verdict.label==='강한 매수기회'?'강한':'관심'}</span></td>
+        <td><b>${esc(r.ticker)}</b> ${decisionStatusBadgeHtml(r)}</td>
         <td class="sub">${esc(r.theme||'-')}</td>
         <td class="v">${fairTxt}</td>
         <td>${valuationBadgeHtml(r)}</td>
@@ -2406,7 +2419,7 @@ function renderSimpleView(){
         <td>${epsFundamentalDirectionBadges(r.ticker)}</td>
       </tr>`;
     }).join('');
-    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). '현재PER 유지시나리오'는 <b>적정가·기준가가 아니라</b> 지금 PER을 그대로 유지한다고 가정했을 때의 조건부 시나리오 가격이에요(계산상 상승률이 내년 EPS 성장률과 사실상 같아져요) - 저평가/고평가 근거로 쓰지 마세요, 낮다고 매수 신호도 아니에요(검증상 밸류트랩 위험) - 목록 정렬·필터에는 쓰지 않아요.</div>
+    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">매수 검토·위험 우선·판단 보류 종목만(조건 대기·관망 제외) - 헤더를 눌러 정렬할 수 있어요(기본은 눌림목 점수 높은 순, 참고용). 티커 옆 배지는 상세 화면과 같은 최종 판단(실적·현금흐름·데이터 상태까지 종합)이에요 - '판단 보류'는 매도 신호가 아니라 근거가 부족하다는 뜻이고, '위험 우선'은 가격 점수와 무관하게 먼저 확인할 위험이 있다는 뜻이에요. '현재PER 유지시나리오'는 <b>적정가·기준가가 아니라</b> 지금 PER을 그대로 유지한다고 가정했을 때의 조건부 시나리오 가격이에요(계산상 상승률이 내년 EPS 성장률과 사실상 같아져요) - 저평가/고평가 근거로 쓰지 마세요, 낮다고 매수 신호도 아니에요(검증상 밸류트랩 위험) - 목록 정렬·필터에는 쓰지 않아요.</div>
       <div style="overflow-x:auto;"><table style="width:100%;min-width:600px;">
         <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','PER유지시나리오')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
         <tbody>${rows}</tbody>
