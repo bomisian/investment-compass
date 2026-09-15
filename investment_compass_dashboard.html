@@ -547,6 +547,11 @@ const _VERIFIED_DIVIDEND_OVERRIDES = {
     status: 'verified',
     note: '공식 배당 캘린더 실제 지급 기준 최근 4회 합계($0.3878+$0.4265×3)로 재계산 - 제공처 TTM 필드(약 4.5배 높게 표시)를 직접 신뢰하지 않음.',
   },
+  VST: {
+    dividendPerShareTTM: 0.910,
+    status: 'verified',
+    note: '공식 배당 이력(투자자 페이지) 최근 12개월 실제 지급분 합계($0.226+$0.227+$0.228+$0.229=$0.910)로 재계산 - 제공처 TTM 필드(1.4813, 약 1.6배 높게 표시)를 직접 신뢰하지 않음. 2026-09-15 기준. 별도로 최근 선언 분기($0.23) 단순 연율화 시 $0.92(약 0.65%)로 이는 지급 TTM과 다른 정의이니 혼동 금지.',
+  },
 };
 // 어느 함수에서든 같은 기준으로 배당수익률을 구하도록 공통 헬퍼로 뺀다(02 탭 tabValueQuality와
 // 종목 상세의 computeFairValue 서술문이 서로 다른 배당수익률을 보여주는 불일치를 막기 위함).
@@ -2401,9 +2406,9 @@ function renderSimpleView(){
         <td>${epsFundamentalDirectionBadges(r.ticker)}</td>
       </tr>`;
     }).join('');
-    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). '기준가'는 "적정가"가 아니라 지금 PER을 그대로 유지한다고 가정했을 때의 시나리오 가격이라 참고용이며, 낮다고 매수 신호는 아니에요(검증상 밸류트랩 위험) - 목록 정렬에는 쓰지 않아요.</div>
+    ltBox.innerHTML = `<div class="sub" style="margin-bottom:6px;">눌림목 강도(장기 판단) 매수관심 이상 종목만 - 헤더를 눌러 정렬할 수 있어요(기본은 점수 높은 순). '현재PER 유지시나리오'는 <b>적정가·기준가가 아니라</b> 지금 PER을 그대로 유지한다고 가정했을 때의 조건부 시나리오 가격이에요(계산상 상승률이 내년 EPS 성장률과 사실상 같아져요) - 저평가/고평가 근거로 쓰지 마세요, 낮다고 매수 신호도 아니에요(검증상 밸류트랩 위험) - 목록 정렬·필터에는 쓰지 않아요.</div>
       <div style="overflow-x:auto;"><table style="width:100%;min-width:600px;">
-        <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','기준가')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
+        <thead><tr>${th('ticker','종목')}${th('theme','테마')}${th('fairMid','PER유지시나리오')}<th>가격타당성</th><th>뉴스방향성</th><th>EPS·실적</th></tr></thead>
         <tbody>${rows}</tbody>
       </table></div>`;
   }
@@ -2990,7 +2995,14 @@ function whyNowSummaryHtml(r){
 // 01 탭 맨 위에 보여줌. 뉴스가 '우려'면 헤드라인이 좋아도 숨기지 않고 별도 줄로 그대로 보여줌
 // (원칙: 데이터를 숨기지 않고 그대로 보여준 뒤 참고하게 한다 - 메인 화면 종합 추천 카드와 동일 원칙).
 function buildAtAGlanceHtml(r){
-  const label = r.verdict.label; // '강한 매수기회' | '매수 관심' | '관망'
+  // 2026-09-15 수정(수정요청서 A1) - 이 "한눈에 결론" 헤드라인은 기존엔 가격 눌림목 점수만 보는
+  // r.verdict.label('강한 매수기회' 등)을 그대로 썼는데, 같은 화면 아래쪽 배지는 실적·현금흐름·
+  // 데이터 상태까지 종합한 computeDecisionViewModel(판단 보류/위험 우선/조건 대기/매수 검토)을
+  // 써서 한 종목 상세에 서로 다른 결론이 동시에 노출되는 문제가 있었다(VST 사례로 확인됨).
+  // 새 판정을 만들지 않고 이미 있는 decisionViewModel을 이 헤드라인의 유일한 출처로 통일한다.
+  // 가격 눌림목 점수(52주 하락·200일선·시장조정)는 headline이 아니라 그 아래 보조 정보로만 표시.
+  const label = r.verdict.label; // '강한 매수기회' | '매수 관심' | '관망' - 보조 정보로만 사용, 헤드라인 근거 아님
+  const d = r.decision || computeDecisionViewModel(r);
   const entryStat = r.entryStat || {kind:'none'};
   const dc = getDirectionCheck(r.ticker);
   const isRisk = dc && dc.tone==='risk';
@@ -3006,13 +3018,15 @@ function buildAtAGlanceHtml(r){
   const isWeakSector = isRelWeak(rs);
 
   const TONE = {
-    '강한 매수기회': {bg:'var(--up-bg)', border:'#f3c3bf', color:'#a8322c', head:'📈 지금 좋아 보여요'},
-    '매수 관심':     {bg:'#fdf1ee', border:'#f0c9bd', color:'#b8543f', head:'🙂 나쁘지 않아 보여요'},
-    '관망':          {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'⏸ 아직은 관망이에요'},
-  }[label] || {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'-'};
+    review:      {bg:'var(--up-bg)', border:'#bfe3cf', color:'#0a6b45', head:'✅ 매수 검토 가능해 보여요'},
+    wait:        {bg:'#fff6db', border:'#ecd98a', color:'#8a6d00', head:'🕒 아직 조건 대기예요'},
+    risk_first:  {bg:'#fdecea', border:'#f3c3bf', color:'#b3261e', head:'⚠️ 위험 우선 확인이 필요해요'},
+    unavailable: {bg:'var(--panel-2)', border:'var(--line)', color:'#626b76', head:'⏸ 평가를 보류했어요'},
+  }[d.status] || {bg:'var(--panel-2)', border:'var(--line)', color:'var(--sub)', head:'-'};
 
   const lines = [];
-  lines.push(`장기 점수 <b>${r.score}/5점</b>(${esc(label)})`);
+  lines.push(`<b>${esc(d.headlineReason)}</b>`);
+  lines.push(`(참고: 가격 눌림목 점수 ${r.score}/5점 · ${esc(label)} - 52주 고점대비 하락·200일선·시장조정만 반영한 "가격 조정 정도" 지표로, 위 최종 판단의 근거 중 하나일 뿐 그 자체가 매수 결론은 아니에요)`);
   if(entryStat.kind==='new') lines.push('오늘 새로운 단기 매수 신호(눌림목)가 떴어요');
   else if(entryStat.kind==='cooldown') lines.push('며칠 전 떴던 단기 매수 신호가 아직 유효해요');
   else if(entryStat.kind==='watch') lines.push('단기 매수 신호까진 아니지만 근접해서 지켜볼 만해요');
@@ -7914,20 +7928,37 @@ function guidanceBasisLabel(m){
 // guidanceHistoryBlock이 그냥 ''를 반환해 카드 자체가 안 보였다. '이 회사는 원래 전망을
 // 안 낸다'와 '수집을 시도했지만 실패했다'를 구분 못 해 정상처럼 보이는 문제(A7-6 요구사항)였다.
 // GUIDANCE_LAST_CHECK_DATA(성공/실패 무관하게 항상 기록됨)를 이용해 상태를 구분해 보여준다.
+// 2026-09-15 추가(수정요청서 A4, VST 사례) - 이 대시보드의 가이던스 파서는 매출·EPS만 뽑는데,
+// 회사에 따라 조정 EBITDA·조정 FCFbG 등 다른 지표로 전망을 낸다(예: VST). 그런 경우 파서는
+// "unavailable"(추출 실패)을 반환하는데, 화면은 이를 "회사 전망 없음"으로 잘못 표시했다 -
+// "회사가 전망 자체를 안 낸다"와 "이 도구가 못 뽑는 지표로 낸다"는 다른 사실이라 구분해야 한다.
+// 실제로 회사 전망이 확인된 종목만(1차 출처로 직접 확인) 이 표에 올린다 - 추정으로 채우지 않는다.
+const _GUIDANCE_UNSUPPORTED_METRIC_NOTES = {
+  VST: {
+    label: '매출·EPS 형태 아님(수집 도구 한계)',
+    text: '이 회사는 매출·EPS 대신 <b>조정 EBITDA·조정 FCFbG(성장투자 전 잉여현금흐름)</b>로 전망을 발표해요 - 이 대시보드의 자동 수집기가 아직 이 지표들을 뽑지 못할 뿐, 회사 전망 자체가 없는 게 아니에요. 2026-08-07 발표에서 <b>2026년 조정 EBITDA $6.8~7.6B, 조정 FCFbG $3.925~4.725B</b>를 재확인했어요(1차 출처로 확인, 2026-09-15 기준).',
+    sourceUrl: 'https://investor.vistracorp.com/2026-08-07-Vistra-Reports-Second-Quarter-2026-Results',
+  },
+};
 function guidanceStatusCard(ticker){
   const check = (typeof GUIDANCE_LAST_CHECK_DATA !== 'undefined') ? GUIDANCE_LAST_CHECK_DATA[ticker] : null;
   if(!check) return ''; // 이 종목은 관련 공시(8-K Item 2.02) 자체를 아직 한 번도 안 봤음 - 표시할 근거가 없어 생략
   const checkedAt = check.checkedAt ? new Date(check.checkedAt*1000).toISOString().slice(0,10) : '-';
-  let stateLabel, stateText;
+  let stateLabel, stateText, overrideSourceUrl = null;
+  const unsupportedNote = check.guidanceStatus === 'unavailable' ? _GUIDANCE_UNSUPPORTED_METRIC_NOTES[ticker] : null;
   if(check.exhibitStatus === 'error'){
     stateLabel = '수집 실패';
     stateText = `가장 최근 실적 공시(${esc(check.filingDate||'-')})의 원문을 SEC에서 가져오는 데 실패했어요. 다음 자동 실행 때 다시 시도해요.`;
   } else if(check.guidanceStatus === 'unavailable_no_target_period'){
     stateLabel = '대상 기간 미확인';
     stateText = `가장 최근 실적 공시(${esc(check.filingDate||'-')})에서 숫자는 찾았지만 어느 분기/연도를 말하는지 확인하지 못해 표시를 보류했어요.`;
+  } else if(check.guidanceStatus === 'unavailable' && unsupportedNote){
+    stateLabel = unsupportedNote.label;
+    stateText = unsupportedNote.text;
+    overrideSourceUrl = unsupportedNote.sourceUrl;
   } else if(check.guidanceStatus === 'unavailable'){
-    stateLabel = '회사 전망 없음';
-    stateText = `가장 최근 실적 공시(${esc(check.filingDate||'-')})에는 회사가 발표한 향후 전망(가이던스) 문구 자체가 없었어요.`;
+    stateLabel = '지원 지표 추출 실패';
+    stateText = `가장 최근 실적 공시(${esc(check.filingDate||'-')})에서 매출·EPS 형태의 가이던스 문구를 찾지 못했어요 - 회사가 전망 자체를 안 낸다는 뜻은 아닐 수 있어요(다른 지표로 낼 수도 있음, 미확인).`;
   } else {
     stateLabel = '확인 필요';
     stateText = `가장 최근 실적 공시(${esc(check.filingDate||'-')})의 가이던스 수집 상태를 확정하지 못했어요.`;
@@ -7935,13 +7966,17 @@ function guidanceStatusCard(ticker){
   return `<div class="comment-box" style="background:var(--panel-2);color:var(--text);margin-top:12px;">
     <div style="font-weight:700;margin-bottom:4px;">📋 회사 자체 가이던스 (SEC 공시 기반) - <span style="color:var(--warn);">${esc(stateLabel)}</span></div>
     <div style="font-size:13px;line-height:1.8;">${stateText}<br><span class="sub">확인한 날짜: ${esc(checkedAt)}</span></div>
-    ${check.sourceUrl ? `<div class="sub" style="margin-top:6px;"><a href="${esc(check.sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">SEC 원문 보기</a></div>` : ''}
+    ${overrideSourceUrl ? `<div class="sub" style="margin-top:6px;"><a href="${esc(overrideSourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">회사 발표 원문 보기</a></div>` : (check.sourceUrl ? `<div class="sub" style="margin-top:6px;"><a href="${esc(check.sourceUrl)}" target="_blank" rel="noopener noreferrer nofollow">SEC 원문 보기</a></div>` : '')}
   </div>`;
 }
 function guidanceHistoryBlock(ticker){
-  const records = (typeof GUIDANCE_HISTORY_DATA !== 'undefined') ? GUIDANCE_HISTORY_DATA[ticker] : null;
+  const rawRecords = (typeof GUIDANCE_HISTORY_DATA !== 'undefined') ? GUIDANCE_HISTORY_DATA[ticker] : null;
   const lastCheck = (typeof GUIDANCE_LAST_CHECK_DATA !== 'undefined') ? GUIDANCE_LAST_CHECK_DATA[ticker] : null;
-  if(!records || !records.length) return guidanceStatusCard(ticker);
+  // 2026-09-15 추가(수정요청서 A4, VST 사례) - 파싱 오류로 격리(quarantined)된 기록은 카드·비교·
+  // 성과판정에서 완전히 제외한다. 원본 레코드와 격리 사유는 JSON에 그대로 남겨(삭제하지 않음)
+  // 감사 이력으로 보존하되, 화면 표시에는 절대 쓰지 않는다.
+  const records = (rawRecords || []).filter(r => !r.quarantined);
+  if(!records.length) return guidanceStatusCard(ticker);
   const rows = [...records].reverse(); // 최신 공시가 먼저 오게
   const latest = rows[0];
   const g = latest.guidance || {};

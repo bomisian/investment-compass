@@ -5413,16 +5413,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789444384.5650387,
-    "_updated_label": "2026-09-15 12:53"
+    "_fetched_at": 1789446236.6571245,
+    "_updated_label": "2026-09-15 13:23"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789444384.5650387,
-    "_updated_label": "2026-09-15 12:53"
+    "_fetched_at": 1789446236.6571245,
+    "_updated_label": "2026-09-15 13:23"
   },
   "ORCL": {
     "annual": [
@@ -12201,9 +12201,9 @@ const FINANCIALS_DATA = {
         "opIncome": 1037000000,
         "endDate": "2025-09-30",
         "eps": 1.75,
-        "ocf": 2039000000.0,
-        "capex": -1148000000.0,
-        "fcf": 891000000.0,
+        "ocf": 1467000000,
+        "capex": -458000000,
+        "fcf": 1009000000,
         "_fcfIsProxy": true,
         "pretaxIncome": 856000000.0,
         "taxProvision": 204000000.0,
@@ -12214,7 +12214,8 @@ const FINANCIALS_DATA = {
         "specialIncomeCharges": -5000000.0,
         "otherNonOperating": 101000000.0,
         "impairment": 5000000.0,
-        "stockComp": 36000000.0
+        "stockComp": 36000000.0,
+        "_correctionNote": "2026-09-15: 9개월 누적에서 직전 반기 누적을 차감해 재계산(과거 오류: 2·3분기 합산값이 3분기로 저장됨). 원본 SEC 10-Q 2025Q3/2026Q2 비교표 기준. 정정 전: ocf=2039000000, capex=-1148000000, fcf=891000000."
       },
       {
         "period": "Q4'25",
@@ -12806,8 +12807,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789444384.5650387,
-    "_updated_label": "2026-09-15 12:53",
+    "_fetched_at": 1789446236.6571245,
+    "_updated_label": "2026-09-15 13:24",
     "_data_quality_version": 15,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -12834,7 +12835,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1789444389.6915305,
+    "_yahoo_verified_at": 1789446241.9363785,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {
