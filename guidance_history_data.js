@@ -43,7 +43,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 0.22,
         "actualEndDate": "2025-01-26",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -329,7 +329,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 4.38,
         "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -372,7 +372,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 1.96,
         "actualEndDate": "2025-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -415,7 +415,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 3.36,
         "actualEndDate": "2025-09-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -458,7 +458,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 3.41,
         "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -501,7 +501,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.01,
         "actualEndDate": "2026-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -544,7 +544,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 3.31,
         "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -677,7 +677,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 1.84,
         "actualEndDate": "2025-03-29",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -807,7 +807,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 0.42,
         "actualEndDate": "2026-03-28",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -997,7 +997,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -73.01,
         "actualEndDate": "2026-01-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -1034,7 +1034,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -75.8,
         "actualEndDate": "2026-04-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -1071,12 +1071,12 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 0.31,
         "actualEndDate": "2026-07-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
     {
-      "capturedAt": 1789433325.86687,
+      "capturedAt": 1789456060.1366527,
       "filingDate": "2026-08-26",
       "accessionNumber": "0001108524-26-000187",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm",
@@ -1210,7 +1210,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 1.08,
         "actualEndDate": "2025-05-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1340,7 +1340,7 @@ const GUIDANCE_HISTORY_DATA = {
       }
     },
     {
-      "capturedAt": 1789433325.86687,
+      "capturedAt": 1789456060.1366527,
       "filingDate": "2026-08-27",
       "accessionNumber": "0001835632-26-000022",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm",
@@ -1352,8 +1352,7 @@ const GUIDANCE_HISTORY_DATA = {
             "center": 3.15,
             "plusMinus": 5.0,
             "unit": "billion",
-            "deltaUnit": "percent",
-            "_deltaUnitCorrection": "2026-09-15 외부 검토로 발견 - MRVL 8-K는 매출 가이던스를 항상 금액이 아니라 비율(+/- X%)로 제시하는데, 예전 파싱 코드가 \"%\" 뒤 \\b 경계 처리 버그로 percent를 못 알아채고 매번 center와 같은 단위(billion)로 잘못 저장했다(실측: 2026-08-27 공시 원문 재확인 결과 \"+/- 5%\"이고 대상분기는 FY2027 Q3). 코드는 고쳤고(percent 인식·계산 수정), 이 기록들은 같은 반복 패턴이라 일괄 보정한다."
+            "deltaUnit": "percent"
           },
           {
             "metric": "eps",
@@ -1371,8 +1370,7 @@ const GUIDANCE_HISTORY_DATA = {
           }
         ],
         "targetPeriod": "third quarter 2027",
-        "comparison": "no_prior_guidance",
-        "_targetPeriodCorrection": "2026-09-15 외부 검토로 발견 - 직전 분기 실적 회고 문장(\"...guidance provided on May 27, 2026\")이 새 가이던스 대상기간으로 잘못 채택됐었다(원래 second quarter 2027로 저장). SEC 원문 재확인 결과 이 가이던스 섹션 제목은 \"Third Quarter of Fiscal 2027 Financial Outlook\"이다. 코드도 회고 문장을 배제하도록 수정함."
+        "comparison": "no_prior_guidance"
       },
       "comparison": {
         "status": "unavailable",
@@ -1414,7 +1412,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 4.05,
         "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1549,7 +1547,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.38,
         "actualEndDate": "2026-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1586,7 +1584,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.19,
         "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1841,7 +1839,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 6.28,
         "actualEndDate": "2025-09-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1879,7 +1877,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 6.98,
         "actualEndDate": "2025-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -1917,7 +1915,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 4.62,
         "actualEndDate": "2026-03-28",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2597,7 +2595,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.1,
         "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2761,7 +2759,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.31,
         "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2838,7 +2836,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 5.61,
         "actualEndDate": "2025-06-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2904,7 +2902,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 16.35,
         "actualEndDate": "2026-01-02",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2941,7 +2939,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 29.35,
         "actualEndDate": "2026-04-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -2978,7 +2976,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 12.06,
         "actualEndDate": "2026-07-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3060,7 +3058,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -43.98,
         "actualEndDate": "2024-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -3296,7 +3294,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.95,
         "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3333,7 +3331,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 2.81,
         "actualEndDate": "2025-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3370,7 +3368,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 5.86,
         "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -3507,7 +3505,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -72.69,
         "actualEndDate": "2025-09-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -3544,7 +3542,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -69.98,
         "actualEndDate": "2025-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -3581,7 +3579,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -79.01,
         "actualEndDate": "2026-03-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -3618,7 +3616,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": -75.32,
         "actualEndDate": "2026-06-30",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       }
     },
@@ -3727,7 +3725,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 219.89,
         "actualEndDate": "2024-12-31",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
       },
       "quarantined": true,
@@ -4324,7 +4322,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 1.09,
         "actualEndDate": "2024-12-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4391,7 +4389,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 1.83,
         "actualEndDate": "2025-06-27",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4435,7 +4433,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 5.16,
         "actualEndDate": "2025-10-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4479,7 +4477,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 4.63,
         "actualEndDate": "2026-01-02",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4523,7 +4521,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 7.31,
         "actualEndDate": "2026-04-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4567,7 +4565,7 @@ const GUIDANCE_HISTORY_DATA = {
         "variancePct": 5.19,
         "actualEndDate": "2026-07-03",
         "source": "SEC Company Facts",
-        "settledAt": 1789453797.7825568,
+        "settledAt": 1789456060.1366527,
         "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
       }
     },
@@ -4935,19 +4933,13 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "ORCL": [
     {
-      "capturedAt": 1789433325.86687,
+      "capturedAt": 1789456060.1366527,
       "filingDate": "2026-09-10",
       "accessionNumber": "0001193125-26-387905",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm",
       "guidance": {
         "status": "available",
         "metrics": [
-          {
-            "metric": "revenue",
-            "low": 1.83,
-            "high": 1.91,
-            "unit": "unspecified"
-          },
           {
             "metric": "eps",
             "low": 1.83,
@@ -4967,7 +4959,7 @@ const GUIDANCE_HISTORY_DATA = {
   ],
   "AVGO": [
     {
-      "capturedAt": 1789433325.86687,
+      "capturedAt": 1789456060.1366527,
       "filingDate": "2026-09-02",
       "accessionNumber": "0001730168-26-000076",
       "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm",
@@ -4980,7 +4972,7 @@ const GUIDANCE_HISTORY_DATA = {
             "unit": "unspecified"
           }
         ],
-        "targetPeriod": "fiscal year 2026",
+        "targetPeriod": "fourth quarter 2026",
         "comparison": "no_prior_guidance"
       },
       "comparison": {
@@ -5199,7 +5191,7 @@ const GUIDANCE_LAST_CHECK_DATA = {
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000112/eme-ex991_2026630xq2.htm"
   },
   "ORCL": {
-    "checkedAt": 1789433325.86687,
+    "checkedAt": 1789456060.1366527,
     "filingDate": "2026-09-10",
     "accessionNumber": "0001193125-26-387905",
     "guidanceStatus": "available",
@@ -5208,11 +5200,11 @@ const GUIDANCE_LAST_CHECK_DATA = {
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-ex99_1.htm"
   },
   "AVGO": {
-    "checkedAt": 1789433325.86687,
+    "checkedAt": 1789456060.1366527,
     "filingDate": "2026-09-02",
     "accessionNumber": "0001730168-26-000076",
     "guidanceStatus": "available",
-    "targetPeriod": "fiscal year 2026",
+    "targetPeriod": "fourth quarter 2026",
     "exhibitStatus": "available",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-08022026x8kxex99.htm"
   },
@@ -5253,7 +5245,7 @@ const GUIDANCE_LAST_CHECK_DATA = {
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050150/ex991_q226financialresults.htm"
   },
   "CRM": {
-    "checkedAt": 1789433325.86687,
+    "checkedAt": 1789456060.1366527,
     "filingDate": "2026-08-26",
     "accessionNumber": "0001108524-26-000187",
     "guidanceStatus": "available",
@@ -5262,7 +5254,7 @@ const GUIDANCE_LAST_CHECK_DATA = {
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-q2fy27xexhibit991.htm"
   },
   "NVDA": {
-    "checkedAt": 1789433325.86687,
+    "checkedAt": 1789456060.1366527,
     "filingDate": "2026-08-26",
     "accessionNumber": "0001045810-26-000073",
     "guidanceStatus": "unavailable",
@@ -5271,11 +5263,11 @@ const GUIDANCE_LAST_CHECK_DATA = {
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm"
   },
   "MRVL": {
-    "checkedAt": 1789433325.86687,
+    "checkedAt": 1789456060.1366527,
     "filingDate": "2026-08-27",
     "accessionNumber": "0001835632-26-000022",
     "guidanceStatus": "available",
-    "targetPeriod": "second quarter 2027",
+    "targetPeriod": "third quarter 2027",
     "exhibitStatus": "available",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/q227_8kx812026ex-991.htm"
   },
