@@ -49,21 +49,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "us3m": {
-      "current": 3.9599997997283936,
+      "current": 3.9600000381469727,
       "prevClose": 3.934999942779541,
-      "changeAbs": 0.02499985694885254,
-      "changePct": 0.6353203891330568,
+      "changeAbs": 0.02500009536743164,
+      "changePct": 0.6353264480551042,
       "pctRank": 42.94820717131474,
       "min5y": 0.019999999552965164,
       "max5y": 5.3480000495910645,
-      "high1y": 3.9599997997283936,
+      "high1y": 3.9600000381469727,
       "drawdown1y": 0.0,
-      "ma20": 3.7665000200271606,
-      "ma60": 3.729366676012675,
-      "chg1m": 0.2629997730255127,
-      "chg3m": 0.34199976921081543,
-      "chg1mPct": 7.113869924963605,
-      "chg3mPct": 9.45272985975874,
+      "ma20": 3.7665000319480897,
+      "ma60": 3.729366679986318,
+      "chg1m": 0.2630000114440918,
+      "chg3m": 0.34200000762939453,
+      "chg1mPct": 7.1138763739378374,
+      "chg3mPct": 9.452736449548047,
       "lastDate": "2026-09-15",
       "bars": 1255,
       "symbol": "^IRX",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 104.75,
+      "current": 104.70999908447266,
       "prevClose": 105.83000183105469,
-      "changeAbs": -1.0800018310546875,
-      "changePct": -1.0205062953497677,
+      "changeAbs": -1.1200027465820312,
+      "changePct": -1.058303625818684,
       "pctRank": 94.5107398568019,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -7.259846985210395,
-      "ma20": 91.53000144958496,
-      "ma60": 82.7815003712972,
-      "chg1m": 20.25,
-      "chg3m": 28.699996948242188,
-      "chg1mPct": 23.964497041420117,
-      "chg3mPct": 37.73832451881646,
+      "drawdown1y": -7.29526169668282,
+      "ma20": 91.52800140380859,
+      "ma60": 82.78083368937175,
+      "chg1m": 20.209999084472656,
+      "chg3m": 28.659996032714844,
+      "chg1mPct": 23.917158679849297,
+      "chg3mPct": 37.685726341404006,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.64399719238281,
+      "current": 99.61900329589844,
       "prevClose": 99.6500015258789,
-      "changeAbs": -0.00600433349609375,
-      "changePct": -0.006025422382491823,
-      "pctRank": 32.537788385043754,
+      "changeAbs": -0.03099822998046875,
+      "changePct": -0.031107104371110895,
+      "pctRank": 32.14001591089897,
       "min5y": 92.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.934852284380817,
-      "ma20": 99.19369964599609,
-      "ma60": 100.1794002532959,
-      "chg1m": 0.003997802734375,
-      "chg3m": 0.10399627685546875,
-      "chg1mPct": 0.004012246847514864,
-      "chg3mPct": 0.10447686949864822,
+      "drawdown1y": -1.9594501549981214,
+      "ma20": 99.19244995117188,
+      "ma60": 100.17898368835449,
+      "chg1m": -0.02099609375,
+      "chg3m": 0.07900238037109375,
+      "chg1mPct": -0.021071952909085704,
+      "chg3mPct": 0.07936747000649272,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4368.2001953125,
+      "current": 4365.10009765625,
       "prevClose": 4332.7998046875,
-      "changeAbs": 35.400390625,
-      "changePct": 0.8170326860405965,
-      "pctRank": 88.95071542130366,
+      "changeAbs": 32.30029296875,
+      "changePct": 0.7454831615761586,
+      "pctRank": 88.87122416534181,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.866270391072124,
-      "ma20": 4505.729956054687,
-      "ma60": 4275.904992675782,
-      "chg1m": -105.5,
-      "chg3m": 13.80029296875,
-      "chg1mPct": -2.3582268680083183,
-      "chg3mPct": 0.3169275509427145,
+      "drawdown1y": -17.924560435318014,
+      "ma20": 4505.574951171875,
+      "ma60": 4275.85332438151,
+      "chg1m": -108.60009765625,
+      "chg3m": 10.7001953125,
+      "chg1mPct": -2.4275229209601514,
+      "chg3mPct": 0.24573294948726765,
       "lastDate": "2026-09-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -187,7 +187,7 @@ const MARKET_DATA = {
       "digits": 0
     }
   },
-  "yieldSpread": 1.0360000133514404,
+  "yieldSpread": 1.0359997749328613,
   "sector": {
     "groups": {
       "빅테크·SW": {
@@ -237,39 +237,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Boeing, Korean Air finalize order for 103 aircraft - Reuters",
+      "headline": "Boeing, Korean Air finalize order for 103 aircraft - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
       "datetime": 1789525200,
-      "headlineKo": "보잉-대한항공, 항공기 103대 주문 마무리 - 로이터"
+      "headlineKo": "보잉-대한항공, 항공기 103대 주문 마무리 - reuters.com"
     },
     {
-      "headline": "Saudi coalition says Houthi drone destroyed near Mecca - Reuters",
+      "headline": "Saudi coalition says Houthi drone destroyed near Mecca - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
       "datetime": 1789524240,
-      "headlineKo": "사우디 연합군, 후티 무인기가 메카 근처에서 파괴되었다고 밝혔습니다 - Reuters"
+      "headlineKo": "사우디 연합군, 후티 무인기가 메카 근처에서 파괴됐다고 밝혔습니다 - reuters.com"
     },
     {
-      "headline": "Saudi-led coalition says it destroys Houthi drone south of Mecca - Reuters",
+      "headline": "Saudi-led coalition says it destroys Houthi drone south of Mecca - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
       "datetime": 1789518540,
-      "headlineKo": "사우디 주도 연합군, 메카 남쪽 후티 반군 무인기 격추했다고 발표 - 로이터 통신"
+      "headlineKo": "사우디 주도 연합군, 메카 남쪽 후티 반군 무인기 격추했다고 발표 - reuters.com"
     },
     {
-      "headline": "Best of the Emmy Awards - Reuters",
+      "headline": "Best of the Emmy Awards - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yNlkzNUF6QXZ2YjkzclJJdWhjUUNoSTVGY1A2SV9QNzI2R3MzUHBfemhjTnRRRHFRcDZzc21hYThRem4wTW1OQ09udGZVaG5HVHNYaDV4TEVFYnpkT2s2Uk5fdzF4c3pDRHpOZWFn?oc=5",
       "datetime": 1789511888,
-      "headlineKo": "에미상 최우수상 - 로이터 통신"
+      "headlineKo": "에미상 최우수상 - reuters.com"
     },
     {
-      "headline": "Several explosions heard on Iran's Qeshm island, IRNA says citing local sources - Reuters",
+      "headline": "Several explosions heard on Iran's Qeshm island, IRNA says citing local sources - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcWZBeGJLZWJoMXpTcmhaVVhRdm10Tm1UMWZJbUNna2VTb0todzRORVpBOElYdmVHdjlzRnVvWFZFOXM2emd3bXp5Q0NQeVRDeTNLQldWWU5oVS1mOHQtVjZ2YkQ5ZVBLM0NMTk5UZ19ZaFZJM241dWtoUEhsWVdsbE1zaFJEMk1NZjNRVkhXRlBMSUV3UHFDYU1aTTQyQUtnZ2hLaVplVGNWdUtyR3FjZm9yUVR0dmlMQ3Z1aVd3ME5VY0tUYkU0?oc=5",
       "datetime": 1789511016,
-      "headlineKo": "IRNA는 현지 소식통을 인용해 이란 케심 섬에서 여러 차례 폭발음이 들렸다고 밝혔습니다."
+      "headlineKo": "IRNA는 현지 소식통을 인용해 이란 케심 섬에서 여러 차례 폭발음이 들렸다고 밝혔습니다. - reuters.com"
     },
     {
       "headline": "Wells Fargo sees improvement in a key metric — plus, Lilly gets praise beyond GLP-1s",
@@ -279,39 +279,39 @@ const MARKET_DATA = {
       "headlineKo": "Wells Fargo는 주요 측정 항목의 개선을 확인했으며 Lilly는 GLP-1 이상의 칭찬을 받았습니다."
     },
     {
-      "headline": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - Reuters",
+      "headline": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNEs4SmV2UTYzblAwenVTemk5SWQtMTRPbkpoLTVxaEVrYzBYNDJfX0RrSmVVZVZadlFBVnF0WkJNeGc5czMxVWREeDFtS0dZeGJ2V2tqSVg5VWM5UUFtN1hsMXlPX3g4d1RMbk5BR1oxcVdyYjBIaHg0bFl1SXY1dDMzazVEZlNBOHdCWm8zRno2Vjc1TEJ6ekdnQ25COEVkS3FVNHJmeWEyRVZJd2p3aF80RFlhZmVtREhQbkpIdw?oc=5",
       "datetime": 1789495320,
-      "headlineKo": "이란 전쟁비용 380억 달러, 매달 30억 달러 증가할 것으로 CBO 전망 - Reuters"
+      "headlineKo": "이란 전쟁비용 380억 달러, 매달 30억 달러 증가할 것으로 CBO 발표 - reuters.com"
     },
     {
-      "headline": "US Republican lawmaker seeks Hegseth's impeachment over Iran - Reuters",
+      "headline": "US Republican lawmaker seeks Hegseth's impeachment over Iran - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRkdVNklYVkNGY3dIRmFVaWVhU2tpR0I2cG9XcVNZRmVSQ0h0VklFdGlMRVZ3VXVHMzA2RjJkWDBBdUY5bXRKU1MtQmlSWmpXcm54M3R3UkR2WS16VE9HRVM3Z2dndlVkMnNxd0E4TUFwS3JRREFETmxtaC05Vy1Zb0o1Rk5kMTVWLTRGSmxzbVBrMnNEQldDdVpXS1VpR3NNTzVNSlAyaw?oc=5",
       "datetime": 1789495303,
-      "headlineKo": "미국 공화당 의원, 이란에 대한 헤그세스 탄핵 추진 - 로이터 통신"
+      "headlineKo": "미국 공화당 의원, 이란에 대한 헤그세스 탄핵 추진 - reuters.com"
     },
     {
-      "headline": "US energy chief says Saudi Arabia oil pipeline should be back online within days - Reuters",
+      "headline": "US energy chief says Saudi Arabia oil pipeline should be back online within days - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVqU3FIVkpudnZrWWI3ZndxaldTN2FtV0lXR0JuSnIweGhPRDFYS0FPUWxxVG5YS1Rmb3J0QlBRZ0hucFgxX3hWc3JBWllZbDZLWkJ4STd6X1lUekNXeUd6OXNRZTJ5dEFQRmwzY2M4bUlLSmlHTkZzUWFFRkJCWTZSRlJ1TGtQNnNydFdGZ01uQmVtNWplOG9yLTFidlV6aG5jaE51SXRSSGVMUmdJTGh2M3pVdG5sWWM4SzBQcFlOdzA?oc=5",
       "datetime": 1789491332,
-      "headlineKo": "美 에너지장관 \"사우디아라비아 송유관, 며칠 내로 다시 가동돼야\" - Reuters"
+      "headlineKo": "美 에너지국장 \"사우디아라비아 송유관 며칠 내로 다시 가동돼야\" - reuters.com"
     },
     {
-      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - Reuters",
+      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5",
       "datetime": 1789491122,
-      "headlineKo": "미 재무부 베센트, 이번 주말 중국 허라이펑과 만날 예정 - 로이터"
+      "headlineKo": "미국 재무부 베센트 장관, 이번 주말 중국 허라이펑 총리와 만날 예정 - reuters.com"
     },
     {
-      "headline": "UK, US and Netherlands issue advisory on Iran-linked spyware - Reuters",
+      "headline": "UK, US and Netherlands issue advisory on Iran-linked spyware - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWk93UklibjZvS0JuVFBwX2RiTFVTM3BEOExqM1dFYnM4cDZ0TFZsV3JjMkR5WThrN2ZJZkdoQ1R5amNsZF84ZFh6RzBjcmpjSmtma0VxbHBreVBNMDJZVXc2REhYVHVUWlQwVEVLX3ZYN1NFUkE0Y3A0VkFTSEIyY0h2RGNMbE1KRFBnM05YT1E?oc=5",
       "datetime": 1789490120,
-      "headlineKo": "영국, 미국, 네덜란드, 이란 관련 스파이웨어에 대한 주의보 발령 - Reuters"
+      "headlineKo": "영국, 미국, 네덜란드, 이란 관련 스파이웨어에 대한 주의보 발령 - reuters.com"
     },
     {
       "headline": "Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game'",
@@ -325,10 +325,10 @@ const MARKET_DATA = {
     "score": 28.4571428571429,
     "rating": "fear"
   },
-  "_fetched_at": 1789532553.4903255,
-  "_updated_label": "2026-09-16 13:23",
-  "_last_attempt_at": 1789532553.4903255,
-  "_last_success_at": 1789532553.4903255,
+  "_fetched_at": 1789536233.7206347,
+  "_updated_label": "2026-09-16 14:24",
+  "_last_attempt_at": 1789536233.7206347,
+  "_last_success_at": 1789536233.7206347,
   "_collection_status": "ok",
   "_collection_errors": []
 };
