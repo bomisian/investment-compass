@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789569936.2052462,
+  "generatedAt": 1789570812.6581974,
   "events": [
     {
       "id": "692ef92f49e0b4cb0349",
@@ -1569,6 +1569,88 @@ const EVENT_DATA = {
         "목표주가 산식의 EPS",
         "적용 PER 변화",
         "회사 공식 가이던스"
+      ]
+    },
+    {
+      "id": "3a109dd6d9131b3a57fc",
+      "schemaVersion": 1,
+      "eventType": "dilution_warrant",
+      "eventLabel": "워런트·신주·희석 가능성",
+      "primaryTicker": "AMZN",
+      "relatedTickers": [
+        "AMZN",
+        "GOOGL",
+        "SPY"
+      ],
+      "relatedEntities": [
+        {
+          "name": "Alphabet",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        },
+        {
+          "name": "Amazon",
+          "role": "기사에 직접 언급",
+          "verification": "headline_or_analysis"
+        }
+      ],
+      "importance": "high",
+      "sourceReliability": {
+        "level": "medium",
+        "score": 65,
+        "kind": "reported",
+        "reason": "일반 매체 보도, 회사 공시와 교차확인 필요"
+      },
+      "direction": "positive",
+      "expectedHorizon": "다음 실적까지 확인",
+      "impactProbability": "보통",
+      "verificationStatus": "needs_confirmation",
+      "headline": "What the Anthropic IPO Means for Amazon and Alphabet Investors",
+      "headlineKo": "Anthropic IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것",
+      "source": {
+        "name": "Yahoo",
+        "url": "https://finnhub.io/api/news?id=585e4b7f02f007b282c0b8ac7ed929c4683d791e027b025c58aa7096908698e7",
+        "publishedAt": 1789546620,
+        "collectedAt": 1789569463.523998
+      },
+      "confirmedFacts": [],
+      "reportedClaims": [
+        "인류학 IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic은 올 가을 기록적인 IPO를 준비하고 있습니다.",
+        "회사는 새로 발행된 주식에서 1000억 달러를 조달할 가능성이 있는 2조 달러 가치 평가를 모색하고 있는 것으로 알려졌습니다.",
+        "두 가지 모두 지난 6월 Space Exploration Technologies의 1조 7700억 달러/860억 달러 규모의 IPO를 깨는 기록이 될 것입니다."
+      ],
+      "marketInterpretation": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "aiInference": [
+        "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다."
+      ],
+      "unverified": [
+        "기사의 계약 금액·워런트 규모·목표주가·거래 수치는 회사 공시 또는 규제기관 원문으로 재확인해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+        "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+      ],
+      "whyItMatters": [
+        "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+        "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+        "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "AMZN",
+          "direction": "확인 필요",
+          "reason": "회사 실적과의 연결고리 확인",
+          "basis": "analysis"
+        }
+      ],
+      "watch": [
+        "신규 주식 수·행사가격",
+        "조달 자금 사용처",
+        "완전희석 주식수와 EPS"
       ]
     },
     {
@@ -12828,7 +12910,7 @@ const EVENT_DATA = {
               "variancePct": -73.01,
               "actualEndDate": "2026-01-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -12848,7 +12930,7 @@ const EVENT_DATA = {
               "variancePct": -75.8,
               "actualEndDate": "2026-04-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -12868,7 +12950,7 @@ const EVENT_DATA = {
               "variancePct": 0.31,
               "actualEndDate": "2026-07-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14628,7 +14710,7 @@ const EVENT_DATA = {
               "variancePct": 1.96,
               "actualEndDate": "2025-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14648,7 +14730,7 @@ const EVENT_DATA = {
               "variancePct": 3.36,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14668,7 +14750,7 @@ const EVENT_DATA = {
               "variancePct": 3.41,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14688,7 +14770,7 @@ const EVENT_DATA = {
               "variancePct": 2.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -14708,7 +14790,7 @@ const EVENT_DATA = {
               "variancePct": 3.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -15009,7 +15091,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16428,7 +16510,7 @@ const EVENT_DATA = {
               "variancePct": 5.61,
               "actualEndDate": "2025-06-27",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16455,7 +16537,7 @@ const EVENT_DATA = {
               "variancePct": 16.35,
               "actualEndDate": "2026-01-02",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16475,7 +16557,7 @@ const EVENT_DATA = {
               "variancePct": 29.35,
               "actualEndDate": "2026-04-03",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -16495,7 +16577,7 @@ const EVENT_DATA = {
               "variancePct": 12.06,
               "actualEndDate": "2026-07-03",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17069,7 +17151,7 @@ const EVENT_DATA = {
               "variancePct": 6.28,
               "actualEndDate": "2025-09-27",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17089,7 +17171,7 @@ const EVENT_DATA = {
               "variancePct": 6.98,
               "actualEndDate": "2025-12-27",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17109,7 +17191,7 @@ const EVENT_DATA = {
               "variancePct": 4.62,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17260,7 +17342,7 @@ const EVENT_DATA = {
               "variancePct": 2.95,
               "actualEndDate": "2024-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17280,7 +17362,7 @@ const EVENT_DATA = {
               "variancePct": 2.81,
               "actualEndDate": "2025-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17300,7 +17382,7 @@ const EVENT_DATA = {
               "variancePct": 5.86,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789569935.999911,
+              "settledAt": 1789570812.4498518,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -18114,69 +18196,6 @@ const EVENT_DATA = {
         "일회성 손익·회계정책 변화"
       ],
       "earningsEvidence": null
-    },
-    {
-      "id": "69d582ae8e2f5aebe83c",
-      "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "정기 실적 공시",
-      "primaryTicker": "EME",
-      "relatedTickers": [
-        "EME"
-      ],
-      "relatedEntities": [],
-      "importance": "high",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "EME SEC Form 10-Q filed",
-      "headlineKo": "EME SEC Form 10-Q 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/105634/000010563426000110/eme-20260630.htm",
-        "publishedAt": 1785337200.0,
-        "collectedAt": 1789567209.2176816
-      },
-      "confirmedFacts": [
-        "EME가 2026-07-30에 SEC Form 10-Q을 제출했습니다."
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 SEC에 공식 정기보고서를 냈다는 뜻입니다. 기사 숫자보다 이 원문에 적힌 매출·이익·현금흐름을 우선 확인합니다."
-      ],
-      "whyItMatters": [
-        "정기보고서는 실적과 위험요인에 대한 공식 근거지만, 양식 제출 사실만으로 실적 방향을 판단하지 않습니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "EME",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "매출·영업이익·OCF·FCF",
-        "가이던스와 위험요인 변화",
-        "일회성 손익·회계정책 변화"
-      ],
-      "earningsEvidence": null
     }
   ],
   "byTicker": {
@@ -18252,6 +18271,7 @@ const EVENT_DATA = {
       "cb43b8aee1c751382be3",
       "482578830f952e373bee",
       "9c997994fdcaa7c3b408",
+      "3a109dd6d9131b3a57fc",
       "00aca045952220366f55",
       "fc7a0e97a9ee022f10d8",
       "f9c2484d6f0a002924fd",
@@ -18500,6 +18520,7 @@ const EVENT_DATA = {
       "fe9182fdcf83ee27be5b",
       "af81b99410a8de01a1be",
       "4de5d1c9be79f210b04d",
+      "3a109dd6d9131b3a57fc",
       "fdfb8e9d095ff1305354",
       "dd446379d2e63a9d1e28",
       "9c382b9539c9481a3722",
@@ -18552,6 +18573,7 @@ const EVENT_DATA = {
     ],
     "AMZN": [
       "9c997994fdcaa7c3b408",
+      "3a109dd6d9131b3a57fc",
       "fc7a0e97a9ee022f10d8",
       "651799e9871e68378cc7",
       "9927c6186faad952050d",
@@ -18713,8 +18735,7 @@ const EVENT_DATA = {
       "f4500d5611906ec0b705"
     ],
     "EME": [
-      "c12812cbad654dc21086",
-      "69d582ae8e2f5aebe83c"
+      "c12812cbad654dc21086"
     ]
   }
 };

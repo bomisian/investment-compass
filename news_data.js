@@ -632,7 +632,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "SPY": {
@@ -1276,7 +1276,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "MSFT": {
@@ -2145,7 +2145,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 22,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "GOOGL": {
@@ -3127,7 +3127,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "AMZN": {
@@ -3250,7 +3250,61 @@ const NEWS_DATA = {
         "relevance": 0.5,
         "keywordFlag": false,
         "flagTerms": [],
-        "headlineKo": "Anthropic IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것"
+        "headlineKo": "Anthropic IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것",
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인류학 IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic은 올 가을 기록적인 IPO를 준비하고 있습니다.",
+            "회사는 새로 발행된 주식에서 1000억 달러를 조달할 가능성이 있는 2조 달러 가치 평가를 모색하고 있는 것으로 알려졌습니다.",
+            "두 가지 모두 지난 6월 Space Exploration Technologies의 1조 7700억 달러/860억 달러 규모의 IPO를 깨는 기록이 될 것입니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$2 trillion",
+            "$100 billion",
+            "$1.77 trillion",
+            "$86 billion",
+            "0.43%",
+            "0.16%",
+            "0.26%",
+            "$965 billion"
+          ],
+          "sourceExcerpt": [
+            "What the Anthropic IPO Means for Amazon and Alphabet Investors | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic is preparing for a record-breaking IPO this fall.",
+            "The company is reportedly seeking a $2 trillion valuation with the potential to raise $100 billion from newly issued shares.",
+            "Both would be records, smashing the $1.77 trillion/$86 billion IPO from Space Exploration Technologies in June."
+          ],
+          "analysisUpdatedAt": 1789570812.3176916
+        }
       },
       {
         "headline": "Amazon announces pay increase for frontline staff",
@@ -3372,7 +3426,61 @@ const NEWS_DATA = {
         "datetime": 1789546620,
         "headlineKo": "Anthropic IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것",
         "relevance": 0.5,
-        "keywordFlag": false
+        "keywordFlag": false,
+        "analysis": {
+          "version": 9,
+          "importance": "high",
+          "tone": "positive",
+          "certainty": "본문 기반 간이 분석",
+          "label": "주식 희석 · 주당가치 확인",
+          "horizon": "다음 실적까지 확인",
+          "facts": [
+            "인류학 IPO가 Amazon 및 Alphabet 투자자에게 의미하는 것 | Motley Fool 접근성 도움말 회사 소개 ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic은 올 가을 기록적인 IPO를 준비하고 있습니다.",
+            "회사는 새로 발행된 주식에서 1000억 달러를 조달할 가능성이 있는 2조 달러 가치 평가를 모색하고 있는 것으로 알려졌습니다.",
+            "두 가지 모두 지난 6월 Space Exploration Technologies의 1조 7700억 달러/860억 달러 규모의 IPO를 깨는 기록이 될 것입니다."
+          ],
+          "why": [
+            "신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다.",
+            "이번 기사에서 확인된 구체적 수치: $2 trillion, $100 billion, $1.77 trillion — 공식 실적·가이던스와 일치하는지 확인이 필요합니다.",
+            "AMZN의 다음 공시에서 기사 내용이 실제 숫자로 연결되는지 확인합니다."
+          ],
+          "beginner": [
+            "회사 전체 가치는 같아도 주식 수가 늘면 한 주가 차지하는 몫이 줄 수 있습니다.",
+            "뉴스의 방향과 현재 주가에 이미 반영된 기대는 별개로 봐야 합니다."
+          ],
+          "impacts": [
+            {
+              "ticker": "AMZN",
+              "stance": "확인 필요",
+              "reason": "회사 실적과의 연결고리 확인"
+            }
+          ],
+          "watch": [
+            "신규 주식 수·행사가격",
+            "조달 자금 사용처",
+            "완전희석 주식수와 EPS"
+          ],
+          "interpretation": "AMZN에 대한 주식 희석 · 주당가치 확인 뉴스입니다. 현재 확인된 기사 내용이 매출·EPS·영업이익률에 어떤 영향을 주는지 다음 공시와 비교합니다.",
+          "decision": "현재 판단: 신주·워런트는 회사 자금을 늘리지만 기존 주주의 지분과 주당 이익을 희석할 수 있습니다. 원문에서 확인되지 않은 금액과 인과관계는 사실로 저장하지 않습니다.",
+          "relevance": 0.5,
+          "quality": "medium",
+          "verifiedNumbers": [
+            "$2 trillion",
+            "$100 billion",
+            "$1.77 trillion",
+            "$86 billion",
+            "0.43%",
+            "0.16%",
+            "0.26%",
+            "$965 billion"
+          ],
+          "sourceExcerpt": [
+            "What the Anthropic IPO Means for Amazon and Alphabet Investors | The Motley Fool Accessibility Help About Us ▲ S&P 500 + ---% | ▲ Stock Advisor + ---% Join The Motley Fool Anthropic is preparing for a record-breaking IPO this fall.",
+            "The company is reportedly seeking a $2 trillion valuation with the potential to raise $100 billion from newly issued shares.",
+            "Both would be records, smashing the $1.77 trillion/$86 billion IPO from Space Exploration Technologies in June."
+          ],
+          "analysisUpdatedAt": 1789570812.3176916
+        }
       },
       {
         "headline": "Amazon announces pay increase for frontline staff",
@@ -4064,7 +4172,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 24,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "META": {
@@ -5194,7 +5302,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 29,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "AAPL": {
@@ -6238,7 +6346,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "TSLA": {
@@ -7233,7 +7341,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "ORCL": {
@@ -8250,7 +8358,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "CRM": {
@@ -9126,7 +9234,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "PLTR": {
@@ -10069,7 +10177,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 23,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "NVDA": {
@@ -11201,7 +11309,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 27,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "AMD": {
@@ -12033,7 +12141,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 21,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "AVGO": {
@@ -12923,7 +13031,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "QCOM": {
@@ -13681,7 +13789,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "ARM": {
@@ -14189,7 +14297,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "MRVL": {
@@ -14870,7 +14978,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "INTC": {
@@ -15851,7 +15959,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "TSM": {
@@ -16518,7 +16626,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "ASML": {
@@ -17467,7 +17575,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 20,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "AMAT": {
@@ -17994,7 +18102,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "LRCX": {
@@ -18444,7 +18552,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "KLAC": {
@@ -18901,7 +19009,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "MU": {
@@ -19895,7 +20003,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 25,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "SNDK": {
@@ -20542,7 +20650,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 16,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "WDC": {
@@ -21137,7 +21245,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 14,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "ANET": {
@@ -21962,7 +22070,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "COHR": {
@@ -22496,7 +22604,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "LITE": {
@@ -22932,7 +23040,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "GEV": {
@@ -23694,7 +23802,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 18,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "CEG": {
@@ -24206,7 +24314,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "VST": {
@@ -24656,7 +24764,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "ETN": {
@@ -25157,7 +25265,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "PWR": {
@@ -25626,7 +25734,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "HUBB": {
@@ -25862,7 +25970,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 4,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "VRT": {
@@ -26359,7 +26467,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "MOD": {
@@ -26718,7 +26826,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 10,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "STX": {
@@ -27288,7 +27396,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 13,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "EME": {
@@ -27696,7 +27804,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "FIX": {
@@ -28151,7 +28259,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 12,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   },
   "BE": {
@@ -28601,7 +28709,7 @@ const NEWS_DATA = {
       "ruleVersion": 3,
       "checked": 11,
       "removed": 0,
-      "updated": "2026-09-16 23:45"
+      "updated": "2026-09-17 00:00"
     }
   }
 };
