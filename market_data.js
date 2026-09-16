@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.0199966430664,
+      "current": 101.95999908447266,
       "prevClose": 105.83000183105469,
-      "changeAbs": -3.8100051879882812,
-      "changePct": -3.6001182292999596,
-      "pctRank": 92.52187748607797,
+      "changeAbs": -3.8700027465820312,
+      "changePct": -3.6568106204515063,
+      "pctRank": 92.442322991249,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.67684869454606,
-      "ma20": 91.39350128173828,
-      "ma60": 82.7360003153483,
-      "chg1m": 17.519996643066406,
-      "chg3m": 25.969993591308594,
-      "chg1mPct": 20.73372383794841,
-      "chg3mPct": 34.148576659009514,
+      "drawdown1y": -9.729967384421933,
+      "ma20": 91.3905014038086,
+      "ma60": 82.73500035603841,
+      "chg1m": 17.459999084472656,
+      "chg3m": 25.909996032714844,
+      "chg1mPct": 20.662720810026812,
+      "chg3mPct": 34.069684408929106,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.30999755859375,
+      "current": 100.33999633789062,
       "prevClose": 99.6500015258789,
-      "changeAbs": 0.6599960327148438,
-      "changePct": 0.6623141220358577,
-      "pctRank": 37.5497215592681,
+      "changeAbs": 0.6899948120117188,
+      "changePct": 0.6924182653750672,
+      "pctRank": 37.629276054097055,
       "min5y": 92.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2794046294153594,
-      "ma20": 99.22699966430665,
-      "ma60": 100.19050025939941,
-      "chg1m": 0.6699981689453125,
-      "chg3m": 0.7699966430664062,
-      "chg1mPct": 0.6724188810211076,
-      "chg3mPct": 0.7735549889333924,
+      "drawdown1y": -1.2498811778685837,
+      "ma20": 99.22849960327149,
+      "ma60": 100.19100023905436,
+      "chg1m": 0.6999969482421875,
+      "chg3m": 0.7999954223632812,
+      "chg1mPct": 0.7025260462967344,
+      "chg3mPct": 0.8036924000454667,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4302.5,
+      "current": 4307.39990234375,
       "prevClose": 4332.7998046875,
-      "changeAbs": -30.2998046875,
-      "changePct": -0.6993123627525956,
-      "pctRank": 87.5993640699523,
+      "changeAbs": -25.39990234375,
+      "changePct": -0.5862237695882178,
+      "pctRank": 87.75834658187598,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -19.10160802116546,
-      "ma20": 4502.4449462890625,
-      "ma60": 4274.8099894205725,
-      "chg1m": -171.2001953125,
-      "chg3m": -51.89990234375,
-      "chg1mPct": -3.8268142217460595,
-      "chg3mPct": -1.1918956344780125,
+      "drawdown1y": -19.009476883347286,
+      "ma20": 4502.68994140625,
+      "ma60": 4274.891654459635,
+      "chg1m": -166.30029296875,
+      "chg3m": -47.0,
+      "chg1mPct": -3.717287384232807,
+      "chg3mPct": -1.0793680197976834,
       "lastDate": "2026-09-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -244,6 +244,12 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
     },
     {
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
+      "datetime": 1789587450
+    },
+    {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/16/boeing-ceo-737-max-production.html",
@@ -258,11 +264,10 @@ const MARKET_DATA = {
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
     },
     {
-      "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - Reuters",
+      "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
-      "datetime": 1789583352,
-      "headlineKo": "미국 하원, 고 그레이엄 상원의원의 지지를 받아 러시아 제재 법안 통과 예상 - 로이터"
+      "datetime": 1789583352
     },
     {
       "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
@@ -286,11 +291,10 @@ const MARKET_DATA = {
       "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
     },
     {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
+      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
-      "datetime": 1789576712,
-      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
+      "datetime": 1789576712
     },
     {
       "headline": "We're significantly trimming a stock that has not gone to plan",
@@ -312,23 +316,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html",
       "datetime": 1789570412,
       "headlineKo": "상원은 여전히 ​​엉망이지만 민주당은 이제 약간의 우위를 점하고 있다고 예측 시장 거래자들은 생각합니다."
-    },
-    {
-      "headline": "Costco expands Uber Eats delivery partnership to 47 states",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/costco-and-uber-partnership.html",
-      "datetime": 1789569069,
-      "headlineKo": "코스트코, Uber Eats 배달 파트너십을 47개 주로 확장"
     }
   ],
   "fgi": {
     "score": 26.4857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789596081.2262747,
-  "_updated_label": "2026-09-17 07:01",
-  "_last_attempt_at": 1789596081.2262747,
-  "_last_success_at": 1789596081.2262747,
+  "_fetched_at": 1789599608.9210012,
+  "_updated_label": "2026-09-17 08:00",
+  "_last_attempt_at": 1789599608.9210012,
+  "_last_success_at": 1789599608.9210012,
   "_collection_status": "ok",
   "_collection_errors": []
 };
