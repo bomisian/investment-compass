@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789567231.9939117,
+  "generatedAt": 1789567653.2876413,
   "events": [
     {
       "id": "3f07e5ebacb3bf84dc1a",
@@ -11059,7 +11059,7 @@ const EVENT_DATA = {
               "variancePct": -73.01,
               "actualEndDate": "2026-01-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789567209.2176816,
+              "settledAt": 1789567634.6978872,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -11079,7 +11079,7 @@ const EVENT_DATA = {
               "variancePct": -75.8,
               "actualEndDate": "2026-04-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789567209.2176816,
+              "settledAt": 1789567634.6978872,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -11099,7 +11099,7 @@ const EVENT_DATA = {
               "variancePct": 0.31,
               "actualEndDate": "2026-07-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789567209.2176816,
+              "settledAt": 1789567634.6978872,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -11884,7 +11884,9 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다."
+        "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -11894,7 +11896,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12073,7 +12075,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다."
+        "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12083,7 +12086,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -12325,7 +12328,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMD가 2026-08-13에 SEC Form 424B5을 제출했습니다."
+        "AMD가 2026-08-13에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12335,7 +12339,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -12388,7 +12392,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMD가 2026-08-13에 SEC Form S-3ASR을 제출했습니다."
+        "AMD가 2026-08-13에 SEC Form S-3ASR을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12398,7 +12403,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -12424,14 +12429,14 @@ const EVENT_DATA = {
     {
       "id": "1eb3897c85f78df77466",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "AMAT",
       "relatedTickers": [
         "AMAT"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -12451,23 +12456,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다."
+        "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $9.12B · 영업이익 $3.08B · 순이익 $2.54B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 10250.0 million ± 500.0 · EPS 4.02 USD/share ± 0.2"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 부합: 실제 3.5 / 예상 3.4626 (+1.08%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -12478,11 +12488,111 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-07-26",
+          "metrics": {
+            "revenue": 9115000000,
+            "opIncome": 3075000000,
+            "netIncome": 2538000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "center": 10250.0,
+              "plusMinus": 500.0,
+              "unit": "million",
+              "deltaUnit": "million"
+            },
+            {
+              "metric": "eps",
+              "center": 4.02,
+              "plusMinus": 0.2,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            }
+          ],
+          "targetPeriod": "q3 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.5,
+          "estimate": 3.4626,
+          "providerPeriod": "2026-09-30",
+          "label": "in_line",
+          "surprisePct": 1.08,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-05-15",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-08-14",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000032/exhibit991q32025earningsre.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-11-13",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828025051998/exhibit991q42025earningsre.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-02-12",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/exhibit991q12026earningsre.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-05-14",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/exhibit991q22026earningsre.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-08-13",
+            "targetPeriod": "q3 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "a652c982b0bd43af2d1a",
@@ -12514,7 +12624,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "INTC가 2026-08-12에 SEC Form 8-K을 제출했습니다."
+        "INTC가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 기타 중요 사건 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12524,7 +12635,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12577,7 +12688,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "INTC가 2026-08-12에 SEC Form 424B5을 제출했습니다."
+        "INTC가 2026-08-12에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12587,7 +12699,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -12613,14 +12725,14 @@ const EVENT_DATA = {
     {
       "id": "a1a151634101bb46047f",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -12640,23 +12752,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다."
+        "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료 · 규정 FD 공개",
+        "SEC Company Facts Q2'26: 매출 $2.05B · 영업이익 $0.30B · 순이익 $0.24B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 2.2~2.4 billion · EPS 1.85~2.05 USD/share"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 1.74 / 예상 1.6471 (+5.64%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -12667,11 +12784,175 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 2045533000,
+            "opIncome": 304338000.0,
+            "netIncome": 240530000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 2.2,
+              "high": 2.4,
+              "unit": "billion"
+            },
+            {
+              "metric": "eps",
+              "low": 1.85,
+              "high": 2.05,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            }
+          ],
+          "targetPeriod": "first quarter 2027",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 1.74,
+          "estimate": 1.6471,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 5.64,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-05-07",
+            "targetPeriod": "fourth quarter 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525114882/d930395dex992.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q2'25",
+              "actual": 1.5294,
+              "low": 1.425,
+              "high": 1.575,
+              "unit": "billion",
+              "variancePct": 1.96,
+              "actualEndDate": "2025-06-30",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-08-13",
+            "targetPeriod": "first quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525179833/d22249dex992.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q3'25",
+              "actual": 1.5814,
+              "low": 1.46,
+              "high": 1.6,
+              "unit": "billion",
+              "variancePct": 3.36,
+              "actualEndDate": "2025-09-30",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-11-05",
+            "targetPeriod": "second quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525266951/d27982dex992.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q4'25",
+              "actual": 1.6856,
+              "low": 1.56,
+              "high": 1.7,
+              "unit": "billion",
+              "variancePct": 3.41,
+              "actualEndDate": "2025-12-31",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-02-04",
+            "targetPeriod": "third quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex992.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q1'26",
+              "actual": 1.8056,
+              "low": 1.7,
+              "high": 1.84,
+              "unit": "billion",
+              "variancePct": 2.01,
+              "actualEndDate": "2026-03-31",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-05-06",
+            "targetPeriod": "fourth quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080dex992.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q2'26",
+              "actual": 2.0455,
+              "low": 1.91,
+              "high": 2.05,
+              "unit": "billion",
+              "variancePct": 3.31,
+              "actualEndDate": "2026-06-30",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-08-12",
+            "targetPeriod": "first quarter 2027",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "7154ba9075f3fb096448",
@@ -12703,7 +12984,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다."
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12713,7 +12995,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12766,7 +13048,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다."
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 가이던스·전망"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12776,7 +13059,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -12802,14 +13085,14 @@ const EVENT_DATA = {
     {
       "id": "c034a4cec92feb979458",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "LITE",
       "relatedTickers": [
         "LITE"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -12829,23 +13112,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다."
+        "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $1.01B · 영업이익 $0.28B · 순이익 $-7.16B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 1.225~1.275 billion · EPS 4.05~4.35 USD/share"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 3.23 / 예상 3.0312 (+6.56%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -12856,11 +13144,123 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-27",
+          "metrics": {
+            "revenue": 1006300000,
+            "opIncome": 279300000,
+            "netIncome": -7160800000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 1.225,
+              "high": 1.275,
+              "unit": "billion"
+            },
+            {
+              "metric": "eps",
+              "low": 4.05,
+              "high": 4.35,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            }
+          ],
+          "targetPeriod": "fourth quarter 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.23,
+          "estimate": 3.0312,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 6.56,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-05-06",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025022709/lite_ex991xq3fy25.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-08-12",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025039896/lite_ex991xq4fy25.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-11-04",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025048860/lite_ex991xq1fy26.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-02-03",
+            "targetPeriod": "third quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite_ex991xq2fy26.htm",
+            "outcome": {
+              "status": "met",
+              "metric": "revenue",
+              "period": "Q1'26",
+              "actual": 808.4,
+              "low": 780.0,
+              "high": 830.0,
+              "unit": "million",
+              "variancePct": 0.42,
+              "actualEndDate": "2026-03-28",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-05-05",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite_ex991xq3fy26.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-08-11",
+            "targetPeriod": "fourth quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "a2ccdece8bb262a7701b",
@@ -12892,7 +13292,9 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "GOOGL가 2026-08-10에 SEC Form 8-K을 제출했습니다."
+        "GOOGL가 2026-08-10에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -12902,7 +13304,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -13018,7 +13420,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "INTC가 2026-08-10에 SEC Form 424B5을 제출했습니다."
+        "INTC가 2026-08-10에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13028,7 +13431,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -13081,7 +13484,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "INTC가 2026-08-10에 SEC Form S-3ASR을 제출했습니다."
+        "INTC가 2026-08-10에 SEC Form S-3ASR을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13091,7 +13495,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -13270,7 +13674,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "GOOGL가 2026-08-07에 SEC Form 424B2을 제출했습니다."
+        "GOOGL가 2026-08-07에 SEC Form 424B2을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13280,7 +13685,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -13369,14 +13774,14 @@ const EVENT_DATA = {
     {
       "id": "f01358d6bad9129df567",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "실적·재무 공식 공시",
       "primaryTicker": "VST",
       "relatedTickers": [
         "VST"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -13396,23 +13801,26 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "VST가 2026-08-07에 SEC Form 8-K을 제출했습니다."
+        "VST가 2026-08-07에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $4.02B · 영업이익 $0.55B · 순이익 $0.26B"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 하회: 실제 0.76 / 예상 1.6938 (-55.13%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -13423,11 +13831,47 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 4017000000,
+            "opIncome": 553000000,
+            "netIncome": 258000000
+          }
+        },
+        "guidance": {
+          "status": "unavailable",
+          "metrics": [],
+          "targetPeriod": "second quarter 2025",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 0.76,
+          "estimate": 1.6938,
+          "providerPeriod": "2026-06-30",
+          "label": "miss",
+          "surprisePct": -55.13,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260630xearningsre.htm"
+        }
+      }
     },
     {
       "id": "95b3e5b92f5774fd6f19",
@@ -13459,7 +13903,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "GOOGL가 2026-08-06에 SEC Form 424B5을 제출했습니다."
+        "GOOGL가 2026-08-06에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13469,7 +13914,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -13522,7 +13967,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "GOOGL가 2026-08-06에 SEC Form 424B5을 제출했습니다."
+        "GOOGL가 2026-08-06에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13532,7 +13978,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -13648,7 +14094,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "KLAC가 2026-08-06에 SEC Form 8-K을 제출했습니다."
+        "KLAC가 2026-08-06에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13658,7 +14105,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -13747,14 +14194,14 @@ const EVENT_DATA = {
     {
       "id": "6fc86a6be4821bf6b04e",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "매출",
       "primaryTicker": "CEG",
       "relatedTickers": [
         "CEG"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -13774,23 +14221,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "CEG가 2026-08-06에 SEC Form 8-K을 제출했습니다."
+        "CEG가 2026-08-06에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 가이던스·전망 · 인수·매각",
+        "SEC Company Facts Q2'26: 매출 $7.50B · 영업이익 $0.58B · 순이익 $0.51B"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 2.55 / 예상 2.3045 (+10.65%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 2회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -13801,11 +14253,74 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 7504000000,
+            "opIncome": 580000000,
+            "netIncome": 513000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "value": 35.0,
+              "unit": "unspecified"
+            }
+          ],
+          "targetPeriod": "q2 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 2.55,
+          "estimate": 2.3045,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 10.65,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806992.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2026-05-11",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000063/ceg-20260511992.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-08-06",
+            "targetPeriod": "q2 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806992.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "32f0f10ccd82aac763e3",
@@ -13837,7 +14352,9 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "PWR가 2026-08-06에 SEC Form 8-K을 제출했습니다."
+        "PWR가 2026-08-06에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13847,7 +14364,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -13900,7 +14417,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "CRM가 2026-08-05에 SEC Form 8-K을 제출했습니다."
+        "CRM가 2026-08-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -13910,7 +14428,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -13999,14 +14517,14 @@ const EVENT_DATA = {
     {
       "id": "ab131d5f57bdcb8639aa",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "SNDK",
       "relatedTickers": [
         "SNDK"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -14026,23 +14544,29 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "SNDK가 2026-08-05에 SEC Form 8-K을 제출했습니다."
+        "SNDK가 2026-08-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 기타 중요 사건 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 인수·매각",
+        "SEC Company Facts Q3'26: 매출 $8.96B · 영업이익 $7.04B · 순이익 $6.90B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 10.3~10.8 billion · EPS 44.0~46.0 USD/share · EPS 44.0~46.0 USD/share"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 39.25 / 예상 35.1395 (+11.70%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14053,23 +14577,181 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-07-03",
+          "metrics": {
+            "revenue": 8965000000,
+            "opIncome": 7037000000,
+            "netIncome": 6903000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 10.3,
+              "high": 10.8,
+              "unit": "billion"
+            },
+            {
+              "metric": "eps",
+              "low": 44.0,
+              "high": 46.0,
+              "unit": "USD/share",
+              "basis": "gaap_or_unspecified"
+            },
+            {
+              "metric": "eps",
+              "low": 44.0,
+              "high": 46.0,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            }
+          ],
+          "targetPeriod": "first quarter 2027",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 39.25,
+          "estimate": 35.1395,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 11.7,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-05-07",
+            "targetPeriod": "fourth quarter 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000202355425000021/sndkq3fy25ex991-pressrelea.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q2'25",
+              "actual": 1.901,
+              "low": 1.75,
+              "high": 1.85,
+              "unit": "billion",
+              "variancePct": 5.61,
+              "actualEndDate": "2025-06-27",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-08-14",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000119312525180782/d926236dex991.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-11-06",
+            "targetPeriod": "second quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828025050180/sndkq1fy26ex991-pressrelea.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q1'26",
+              "actual": 3.025,
+              "low": 2.55,
+              "high": 2.65,
+              "unit": "billion",
+              "variancePct": 16.35,
+              "actualEndDate": "2026-01-02",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-01-29",
+            "targetPeriod": "third quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026004121/sndkq2fy26ex991-pressrelea.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q2'26",
+              "actual": 5.95,
+              "low": 4.4,
+              "high": 4.8,
+              "unit": "billion",
+              "variancePct": 29.35,
+              "actualEndDate": "2026-04-03",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-04-30",
+            "targetPeriod": "fourth quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026028879/sndkq3-26ex991xpressrelease.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q3'26",
+              "actual": 8.965,
+              "low": 7.75,
+              "high": 8.25,
+              "unit": "billion",
+              "variancePct": 12.06,
+              "actualEndDate": "2026-07-03",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-08-05",
+            "targetPeriod": "first quarter 2027",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndkq4-26ex991xpressrelease.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "41d3295b1e13e31c69d0",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "WDC",
       "relatedTickers": [
         "WDC"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -14089,23 +14771,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "WDC가 2026-08-05에 SEC Form 8-K을 제출했습니다."
+        "WDC가 2026-08-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q3'26: 매출 $3.75B · 영업이익 $1.56B · 순이익 $3.18B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 4.1 billion ± 100.0 million"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 3.56 / 예상 3.3281 (+6.97%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14116,11 +14803,116 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q3'26",
+          "endDate": "2026-07-03",
+          "metrics": {
+            "revenue": 3747000000,
+            "opIncome": 1563000000,
+            "netIncome": 3180000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "center": 4.1,
+              "plusMinus": 100.0,
+              "unit": "billion",
+              "deltaUnit": "million"
+            },
+            {
+              "metric": "eps",
+              "value": 3.56,
+              "unit": "USD/share",
+              "basis": "single_point_gaap_or_unspecified"
+            },
+            {
+              "metric": "eps",
+              "value": 4.0,
+              "unit": "USD/share",
+              "basis": "single_point_non_gaap"
+            }
+          ],
+          "targetPeriod": "fiscal year 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 3.56,
+          "estimate": 3.3281,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 6.97,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-04-30",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000020/a4ex991-pressreleaseq325.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-07-30",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000010604025000030/a4ex991-pressreleaseq425.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-10-30",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047539/a4ex991-pressreleaseq126.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-01-29",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026004131/a4ex991-pressreleaseq226.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-04-30",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026028878/a4ex991-pressreleaseq326.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-08-05",
+            "targetPeriod": "fiscal year 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "cde9c5b2ac00b4a9e1ce",
@@ -14215,7 +15007,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "CEG가 2026-08-05에 SEC Form 8-K을 제출했습니다."
+        "CEG가 2026-08-05에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -14225,7 +15018,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -14278,7 +15071,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "PWR가 2026-08-05에 SEC Form 424B5을 제출했습니다."
+        "PWR가 2026-08-05에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -14288,7 +15082,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -14377,14 +15171,14 @@ const EVENT_DATA = {
     {
       "id": "0e0565b4bc45099ca564",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "매출",
       "primaryTicker": "AMD",
       "relatedTickers": [
         "AMD"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -14404,23 +15198,29 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "AMD가 2026-08-04에 SEC Form 8-K을 제출했습니다."
+        "AMD가 2026-08-04에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 가이던스·전망",
+        "SEC Company Facts Q2'26: 매출 $11.54B · 영업이익 $1.99B · 순이익 $2.30B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 13.0 billion ± 300.0 million"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 부합: 실제 1.66 / 예상 1.6313 (+1.76%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 4회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14431,23 +15231,141 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-27",
+          "metrics": {
+            "revenue": 11536000000,
+            "opIncome": 1990000000,
+            "netIncome": 2297000000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "center": 13.0,
+              "plusMinus": 300.0,
+              "unit": "billion",
+              "deltaUnit": "million"
+            }
+          ],
+          "targetPeriod": "third quarter 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 1.66,
+          "estimate": 1.6313,
+          "providerPeriod": "2026-06-30",
+          "label": "in_line",
+          "surprisePct": 1.76,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-08-05",
+            "targetPeriod": "q2 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000106/amdq225earningsslidesfin.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q3'25",
+              "actual": 9.246,
+              "low": 8.4,
+              "high": 9.0,
+              "unit": "billion",
+              "variancePct": 6.28,
+              "actualEndDate": "2025-09-27",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-11-04",
+            "targetPeriod": "q3 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248825000163/amdq325earningsslidesfin.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q4'25",
+              "actual": 10.27,
+              "low": 9.3,
+              "high": 9.9,
+              "unit": "billion",
+              "variancePct": 6.98,
+              "actualEndDate": "2025-12-27",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-02-03",
+            "targetPeriod": "q4 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000014/amdq425earningsslidesfin.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q1'26",
+              "actual": 10.253,
+              "low": 9.5,
+              "high": 10.1,
+              "unit": "billion",
+              "variancePct": 4.62,
+              "actualEndDate": "2026-03-28",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-08-04",
+            "targetPeriod": "third quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amdq22026earningsslidesf.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "da282ee100d0f5c5f9c1",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "매출",
       "primaryTicker": "ANET",
       "relatedTickers": [
         "ANET"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -14467,23 +15385,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "ANET가 2026-08-04에 SEC Form 8-K을 제출했습니다."
+        "ANET가 2026-08-04에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $3.04B · 영업이익 $1.38B · 순이익 $1.21B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: EPS 1.06~1.08 USD/share"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 1.02 / 예상 0.9026 (+13.01%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 4회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14494,11 +15417,134 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 3035700000,
+            "opIncome": 1378000000,
+            "netIncome": 1212900000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "eps",
+              "low": 1.06,
+              "high": 1.08,
+              "unit": "USD/share",
+              "basis": "non_gaap"
+            },
+            {
+              "metric": "revenue",
+              "value": 3.3,
+              "unit": "billion"
+            }
+          ],
+          "targetPeriod": "third quarter 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 1.02,
+          "estimate": 0.9026,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 13.01,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2024-11-07",
+            "targetPeriod": "fourth quarter 2024",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653224000366/ex991q324-earningsrelease.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q4'24",
+              "actual": 1.9304,
+              "low": 1.85,
+              "high": 1.9,
+              "unit": "billion",
+              "variancePct": 2.95,
+              "actualEndDate": "2024-12-31",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-02-18",
+            "targetPeriod": "first quarter 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000018/ex991q424-earningsrelease.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q1'25",
+              "actual": 2.0048,
+              "low": 1.93,
+              "high": 1.97,
+              "unit": "billion",
+              "variancePct": 2.81,
+              "actualEndDate": "2025-03-31",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2025-11-04",
+            "targetPeriod": "fourth quarter 2025",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653225000284/ex991q325-earningsrelease.htm",
+            "outcome": {
+              "status": "above_high",
+              "metric": "revenue",
+              "period": "Q4'25",
+              "actual": 2.4878,
+              "low": 2.3,
+              "high": 2.4,
+              "unit": "billion",
+              "variancePct": 5.86,
+              "actualEndDate": "2025-12-31",
+              "source": "SEC Company Facts",
+              "settledAt": 1789567634.6978872,
+              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
+            }
+          },
+          {
+            "filingDate": "2026-08-04",
+            "targetPeriod": "third quarter 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/ex991q226-earningsrelease.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "f94a3f33bf7306ae3013",
@@ -14530,7 +15576,9 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "PWR가 2026-08-04에 SEC Form 8-K을 제출했습니다."
+        "PWR가 2026-08-04에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 규정 FD 공개 · 재무제표·첨부자료",
+        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -14540,7 +15588,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -14629,14 +15677,14 @@ const EVENT_DATA = {
     {
       "id": "9bbcd2e10ce634ef4800",
       "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
+      "eventType": "earnings_result",
+      "eventLabel": "EPS",
       "primaryTicker": "PLTR",
       "relatedTickers": [
         "PLTR"
       ],
       "relatedEntities": [],
-      "importance": "medium",
+      "importance": "high",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -14656,23 +15704,28 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "PLTR가 2026-08-03에 SEC Form 8-K을 제출했습니다."
+        "PLTR가 2026-08-03에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 규정 FD 공개 · 재무제표·첨부자료",
+        "SEC Company Facts Q2'26: 매출 $1.94B · 영업이익 $0.91B · 순이익 $1.06B",
+        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 2.16~2.164 billion"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
+        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 0.41 / 예상 0.3544 (+15.69%). SEC 공식 수치와는 별도 출처입니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
+        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
       ],
       "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
       ],
       "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
       ],
       "impacts": [
         {
@@ -14683,11 +15736,109 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
+        "매출·영업이익·순이익의 전년 대비 변화",
+        "현재 가이던스와 다음 분기 실제 결과",
+        "일회성 손익·OCF·FCF"
       ],
-      "earningsEvidence": null
+      "earningsEvidence": {
+        "version": 8,
+        "analyzedAt": 1789567634.6978872,
+        "officialActuals": {
+          "status": "available",
+          "source": "SEC Company Facts",
+          "period": "Q2'26",
+          "endDate": "2026-06-30",
+          "metrics": {
+            "revenue": 1935464000,
+            "opIncome": 912004000,
+            "netIncome": 1061890000
+          }
+        },
+        "guidance": {
+          "status": "available",
+          "metrics": [
+            {
+              "metric": "revenue",
+              "low": 2.16,
+              "high": 2.164,
+              "unit": "billion"
+            },
+            {
+              "metric": "eps",
+              "value": 0.41,
+              "unit": "USD/share",
+              "basis": "single_point_gaap_or_unspecified"
+            }
+          ],
+          "targetPeriod": "q3 2026",
+          "comparison": "no_prior_guidance"
+        },
+        "consensusComparison": {
+          "status": "available",
+          "source": "Finnhub earnings consensus",
+          "metric": "eps",
+          "actual": 0.41,
+          "estimate": 0.3544,
+          "providerPeriod": "2026-06-30",
+          "label": "beat",
+          "surprisePct": 15.69,
+          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
+        },
+        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
+        "exhibit": {
+          "status": "available",
+          "url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm"
+        },
+        "guidanceComparison": {
+          "status": "unavailable",
+          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
+        },
+        "guidanceHistory": [
+          {
+            "filingDate": "2025-05-05",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000063/a2025q1ex991pressrelease.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-08-04",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000105/a2025q2ex991pressrelease.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2025-11-03",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165525000130/a2025q3ex991earningsrelease.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-02-02",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000004/a2025q4ex991earningsrelease.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-05-04",
+            "targetPeriod": null,
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000026/a2026q1ex991pressrelease.htm",
+            "outcome": null
+          },
+          {
+            "filingDate": "2026-08-03",
+            "targetPeriod": "q3 2026",
+            "status": "available",
+            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/a2026q2ex991pressrelease.htm",
+            "outcome": null
+          }
+        ],
+        "guidanceOutcome": null
+      }
     },
     {
       "id": "e81980954593f4f2ba96",
@@ -14719,7 +15870,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "PWR가 2026-08-03에 SEC Form 424B5을 제출했습니다."
+        "PWR가 2026-08-03에 SEC Form 424B5을 제출했습니다.",
+        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -14729,7 +15881,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -14782,7 +15934,8 @@ const EVENT_DATA = {
         "collectedAt": 1789567209.2176816
       },
       "confirmedFacts": [
-        "FIX가 2026-08-03에 SEC Form 8-K을 제출했습니다."
+        "FIX가 2026-08-03에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 재무제표·첨부자료"
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -14792,7 +15945,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
