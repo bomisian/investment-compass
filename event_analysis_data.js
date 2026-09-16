@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789588809.06771,
+  "generatedAt": 1789590139.915161,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789504981,
       "signal": "주의 강화",
       "netScore": -7.0,
@@ -140,7 +140,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789558200,
       "signal": "주의 강화",
       "netScore": -10,
@@ -358,7 +358,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789547564,
       "signal": "주의 강화",
       "netScore": -10,
@@ -574,7 +574,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789565492,
       "signal": "주의 강화",
       "netScore": -5.39,
@@ -694,7 +694,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789558200,
       "signal": "중립·확인 대기",
       "netScore": -0.98,
@@ -827,7 +827,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789565103,
       "signal": "주의 강화",
       "netScore": -7.35,
@@ -938,7 +938,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789562100,
       "signal": "중립·확인 대기",
       "netScore": -0.91,
@@ -1107,7 +1107,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789506958,
       "signal": "우호적 변화",
       "netScore": 2.1,
@@ -1229,7 +1229,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789509895,
       "signal": "주의 강화",
       "netScore": -5.45,
@@ -1332,7 +1332,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "9bbcd2e10ce634ef4800",
           "headline": "PLTR SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1785682800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/pltr-20260803.htm",
@@ -1346,7 +1346,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789565492,
       "signal": "우호적 변화",
       "netScore": 9.65,
@@ -1563,7 +1563,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789565492,
       "signal": "주의 강화",
       "netScore": -8.76,
@@ -1778,7 +1778,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789477204,
       "signal": "주의 강화",
       "netScore": -2.79,
@@ -1895,7 +1895,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789555800,
       "signal": "주의 강화",
       "netScore": -7.69,
@@ -2033,7 +2033,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789493921,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2122,7 +2122,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789486213,
       "signal": "주의 강화",
       "netScore": -6.71,
@@ -2225,7 +2225,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789563508,
       "signal": "주의 강화",
       "netScore": -10,
@@ -2444,7 +2444,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789566011,
       "signal": "주의 강화",
       "netScore": -2.87,
@@ -2610,7 +2610,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789566011,
       "signal": "주의 강화",
       "netScore": -3.57,
@@ -2693,7 +2693,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789473901,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2778,7 +2778,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "1eb3897c85f78df77466",
           "headline": "AMAT SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1786546800.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/amat-20260813.htm",
@@ -2792,7 +2792,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1787756400.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2867,7 +2867,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1785942000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2942,7 +2942,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789565492,
       "signal": "주의 강화",
       "netScore": -5.6,
@@ -3159,7 +3159,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789485090,
       "signal": "주의 강화",
       "netScore": -2.38,
@@ -3314,7 +3314,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "ab131d5f57bdcb8639aa",
           "headline": "SNDK SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1785855600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026053346/sndk-20260805.htm",
@@ -3328,7 +3328,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789555800,
       "signal": "주의 강화",
       "netScore": -6.28,
@@ -3427,7 +3427,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "41d3295b1e13e31c69d0",
           "headline": "WDC SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1785855600.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/wdc-20260805.htm",
@@ -3441,7 +3441,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789482840,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3515,7 +3515,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "da282ee100d0f5c5f9c1",
           "headline": "ANET SEC Form 8-K 공식 제출",
-          "eventLabel": "매출",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1785769200.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1596532/000159653226000174/anet-20260804.htm",
@@ -3529,7 +3529,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789408190,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3614,7 +3614,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "a1a151634101bb46047f",
           "headline": "COHR SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1786460400.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm",
@@ -3628,7 +3628,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789408190,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3703,7 +3703,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "c034a4cec92feb979458",
           "headline": "LITE SEC Form 8-K 공식 제출",
-          "eventLabel": "EPS",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1786374000.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
@@ -3717,7 +3717,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789552800,
       "signal": "주의 강화",
       "netScore": -2.31,
@@ -3864,7 +3864,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789531431,
       "signal": "우호적 변화",
       "netScore": 3.7,
@@ -3981,7 +3981,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "6fc86a6be4821bf6b04e",
           "headline": "CEG SEC Form 8-K 공식 제출",
-          "eventLabel": "매출",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1785942000.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/ceg-20260806.htm",
@@ -4005,7 +4005,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789311600.0,
       "signal": "주의 강화",
       "netScore": -10,
@@ -4108,7 +4108,7 @@ const EVENT_ANALYSIS_DATA = {
         {
           "eventId": "f01358d6bad9129df567",
           "headline": "VST SEC Form 8-K 공식 제출",
-          "eventLabel": "실적·재무 공식 공시",
+          "eventLabel": "중요사항 공시",
           "publishedAt": 1786028400.0,
           "verificationStatus": "confirmed",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/vistra-20260807.htm",
@@ -4122,7 +4122,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1785423600.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4187,7 +4187,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789404062,
       "signal": "주의 강화",
       "netScore": -9.15,
@@ -4322,7 +4322,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4376,7 +4376,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789515121,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -4479,7 +4479,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1788966000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4564,7 +4564,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1789481640,
       "signal": "주의 강화",
       "netScore": -3.7,
@@ -4666,7 +4666,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4720,7 +4720,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 1785682800.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4785,7 +4785,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1789588809.06771,
+      "updatedAt": 1789590139.915161,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
