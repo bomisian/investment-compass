@@ -7,7 +7,7 @@ const MARKET_DATA = {
       "prevClose": 17.100000381469727,
       "changeAbs": 0.10000038146972656,
       "changePct": 0.5847975394087778,
-      "pctRank": 44.709626093874306,
+      "pctRank": 44.745222929936304,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
@@ -19,7 +19,7 @@ const MARKET_DATA = {
       "chg1mPct": 13.232397880720892,
       "chg3mPct": 4.81414334474798,
       "lastDate": "2026-09-15",
-      "bars": 1257,
+      "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
       "unit": "",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 104.63999938964844,
+      "current": 103.94000244140625,
       "prevClose": 105.83000183105469,
-      "changeAbs": -1.19000244140625,
-      "changePct": -1.124447151863373,
-      "pctRank": 94.351630867144,
+      "changeAbs": -1.8899993896484375,
+      "changePct": -1.7858824123102655,
+      "pctRank": 93.9538583929992,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -7.357235753093194,
-      "ma20": 91.52450141906738,
-      "ma60": 82.77966702779135,
-      "chg1m": 20.139999389648438,
-      "chg3m": 28.589996337890625,
-      "chg1mPct": 23.83431880431768,
-      "chg3mPct": 37.59368203895134,
+      "drawdown1y": -7.976976317196938,
+      "ma20": 91.48950157165527,
+      "ma60": 82.7680004119873,
+      "chg1m": 19.44000244140625,
+      "chg3m": 27.889999389648438,
+      "chg1mPct": 23.005920049001478,
+      "chg3mPct": 36.673239014424716,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 99.57099914550781,
+      "current": 99.572998046875,
       "prevClose": 99.6500015258789,
-      "changeAbs": -0.07900238037109375,
-      "changePct": -0.07927985866671261,
+      "changeAbs": -0.07700347900390625,
+      "changePct": -0.07727393660290974,
       "pctRank": 31.5035799522673,
       "min5y": 92.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -2.0066936842789707,
-      "ma20": 99.19004974365234,
-      "ma60": 100.17818361918131,
-      "chg1m": -0.069000244140625,
-      "chg3m": 0.03099822998046875,
-      "chg1mPct": -0.06924954291779473,
-      "chg3mPct": 0.031141480505686138,
+      "drawdown1y": -2.0047264553101907,
+      "ma20": 99.19014968872071,
+      "ma60": 100.1782169342041,
+      "chg1m": -0.0670013427734375,
+      "chg3m": 0.03299713134765625,
+      "chg1mPct": -0.0672434194940373,
+      "chg3mPct": 0.033149619292909806,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4366.5,
+      "current": 4375.60009765625,
       "prevClose": 4332.7998046875,
-      "changeAbs": 33.7001953125,
-      "changePct": 0.7777925782779295,
-      "pctRank": 88.95071542130366,
+      "changeAbs": 42.80029296875,
+      "changePct": 0.9878206909639791,
+      "pctRank": 89.0302066772655,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.89823856465288,
-      "ma20": 4505.644946289062,
-      "ma60": 4275.87665608724,
-      "chg1m": -107.2001953125,
-      "chg3m": 12.10009765625,
-      "chg1mPct": -2.396231098025374,
-      "chg3mPct": 0.27788209460819474,
+      "drawdown1y": -17.727132633858922,
+      "ma20": 4506.099951171875,
+      "ma60": 4276.02832438151,
+      "chg1m": -98.10009765625,
+      "chg3m": 21.2001953125,
+      "chg1mPct": -2.1928178772247264,
+      "chg3mPct": 0.4868683581654736,
       "lastDate": "2026-09-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,39 +237,39 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Boeing, Korean Air finalize order for 103 aircraft - reuters.com",
+      "headline": "Boeing, Korean Air finalize order for 103 aircraft - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWZwd2lERklzamhHY3NBNWVVQlY1N1ZrdDc3X1poWmJPZ3dYX19UOG5wTGtLT2NyVlRnNXNQWWZadWlnVDBDZ3d2SjNUSlZxczFYWVlJVDFBWmRhV3NlVENzcUdtei1GX0tZXzZpYnB5Q3hRalYtRFlYR0FxTERES1J3bnhnSm1yRUh3WWtWT3dRS2tTanN5SElfX05xRFVRYzJYU0FtTVVGNmFl?oc=5",
       "datetime": 1789525200,
-      "headlineKo": "보잉-대한항공, 항공기 103대 주문 마무리 - reuters.com"
+      "headlineKo": "보잉-대한항공, 항공기 103대 주문 마무리 - 로이터"
     },
     {
-      "headline": "Saudi coalition says Houthi drone destroyed near Mecca - reuters.com",
+      "headline": "Saudi coalition says Houthi drone destroyed near Mecca - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWlDb0szQnNKQUdZZUJXWVN1LW1XODNJeEpLc1F3RFhEZ2pwc085M2NvRWNhMEV4MFhVa1BNWVZUQ3FpTE5pc0EwdVNrcXFMS0tWMF9kVXJfdlZKSFNfQjhkNjAteWVMVHVXR0lnV2hNbkNJX2g3RlJxYmphZDFOZTNQWWpHa2VycGo3VnQ5anhucVpNTmxkZ0hjWC1mNVVxTVZQNV9EUlh6TVlC?oc=5",
       "datetime": 1789524240,
-      "headlineKo": "사우디 연합군, 후티 무인기가 메카 근처에서 파괴됐다고 밝혔습니다 - reuters.com"
+      "headlineKo": "사우디 연합군, 후티 무인기가 메카 근처에서 파괴되었다고 밝혔습니다 - Reuters"
     },
     {
-      "headline": "Saudi-led coalition says it destroys Houthi drone south of Mecca - reuters.com",
+      "headline": "Saudi-led coalition says it destroys Houthi drone south of Mecca - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc0RnLXFoalRsa1JfTnROMHoxOXNjRzNINFVfZDNDUjhycmVmak1OVjdaOTYzdW9HZGlSVTRnZFhoRWFTUFljV1BEUVpLRGVJcTZ4QVN2bmtqc1U4dlJGbVM0LWJvNnE2VkRFWk8wVWJyMUVPZDhaSmNWb2xVUThzbHozUVlweXFRMVJFbk9vWE1Jd3FGVFE5VTRTNmZNNU5oYlp0dDJ2ZEJ2dVNnM040elpUM0ZpQQ?oc=5",
       "datetime": 1789518540,
-      "headlineKo": "사우디 주도 연합군, 메카 남쪽 후티 반군 무인기 격추했다고 발표 - reuters.com"
+      "headlineKo": "사우디 주도 연합군, 메카 남쪽 후티 반군 무인기 격추했다고 발표 - 로이터 통신"
     },
     {
-      "headline": "Best of the Emmy Awards - reuters.com",
+      "headline": "Best of the Emmy Awards - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yNlkzNUF6QXZ2YjkzclJJdWhjUUNoSTVGY1A2SV9QNzI2R3MzUHBfemhjTnRRRHFRcDZzc21hYThRem4wTW1OQ09udGZVaG5HVHNYaDV4TEVFYnpkT2s2Uk5fdzF4c3pDRHpOZWFn?oc=5",
       "datetime": 1789511888,
-      "headlineKo": "에미상 최우수상 - reuters.com"
+      "headlineKo": "에미상 최우수상 - 로이터 통신"
     },
     {
-      "headline": "Several explosions heard on Iran's Qeshm island, IRNA says citing local sources - reuters.com",
+      "headline": "Several explosions heard on Iran's Qeshm island, IRNA says citing local sources - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcWZBeGJLZWJoMXpTcmhaVVhRdm10Tm1UMWZJbUNna2VTb0todzRORVpBOElYdmVHdjlzRnVvWFZFOXM2emd3bXp5Q0NQeVRDeTNLQldWWU5oVS1mOHQtVjZ2YkQ5ZVBLM0NMTk5UZ19ZaFZJM241dWtoUEhsWVdsbE1zaFJEMk1NZjNRVkhXRlBMSUV3UHFDYU1aTTQyQUtnZ2hLaVplVGNWdUtyR3FjZm9yUVR0dmlMQ3Z1aVd3ME5VY0tUYkU0?oc=5",
       "datetime": 1789511016,
-      "headlineKo": "IRNA는 현지 소식통을 인용해 이란 케심 섬에서 여러 차례 폭발음이 들렸다고 밝혔습니다. - reuters.com"
+      "headlineKo": "IRNA는 현지 소식통을 인용해 이란 케심 섬에서 여러 차례 폭발음이 들렸다고 밝혔습니다."
     },
     {
       "headline": "Wells Fargo sees improvement in a key metric — plus, Lilly gets praise beyond GLP-1s",
@@ -279,39 +279,39 @@ const MARKET_DATA = {
       "headlineKo": "Wells Fargo는 주요 측정 항목의 개선을 확인했으며 Lilly는 GLP-1 이상의 칭찬을 받았습니다."
     },
     {
-      "headline": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - reuters.com",
+      "headline": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNEs4SmV2UTYzblAwenVTemk5SWQtMTRPbkpoLTVxaEVrYzBYNDJfX0RrSmVVZVZadlFBVnF0WkJNeGc5czMxVWREeDFtS0dZeGJ2V2tqSVg5VWM5UUFtN1hsMXlPX3g4d1RMbk5BR1oxcVdyYjBIaHg0bFl1SXY1dDMzazVEZlNBOHdCWm8zRno2Vjc1TEJ6ekdnQ25COEVkS3FVNHJmeWEyRVZJd2p3aF80RFlhZmVtREhQbkpIdw?oc=5",
       "datetime": 1789495320,
-      "headlineKo": "이란 전쟁비용 380억 달러, 매달 30억 달러 증가할 것으로 CBO 발표 - reuters.com"
+      "headlineKo": "이란 전쟁비용 380억 달러, 매달 30억 달러 증가할 것으로 CBO 전망 - Reuters"
     },
     {
-      "headline": "US Republican lawmaker seeks Hegseth's impeachment over Iran - reuters.com",
+      "headline": "US Republican lawmaker seeks Hegseth's impeachment over Iran - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRkdVNklYVkNGY3dIRmFVaWVhU2tpR0I2cG9XcVNZRmVSQ0h0VklFdGlMRVZ3VXVHMzA2RjJkWDBBdUY5bXRKU1MtQmlSWmpXcm54M3R3UkR2WS16VE9HRVM3Z2dndlVkMnNxd0E4TUFwS3JRREFETmxtaC05Vy1Zb0o1Rk5kMTVWLTRGSmxzbVBrMnNEQldDdVpXS1VpR3NNTzVNSlAyaw?oc=5",
       "datetime": 1789495303,
-      "headlineKo": "미국 공화당 의원, 이란에 대한 헤그세스 탄핵 추진 - reuters.com"
+      "headlineKo": "미국 공화당 의원, 이란에 대한 헤그세스 탄핵 추진 - 로이터 통신"
     },
     {
-      "headline": "US energy chief says Saudi Arabia oil pipeline should be back online within days - reuters.com",
+      "headline": "US energy chief says Saudi Arabia oil pipeline should be back online within days - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWjVqU3FIVkpudnZrWWI3ZndxaldTN2FtV0lXR0JuSnIweGhPRDFYS0FPUWxxVG5YS1Rmb3J0QlBRZ0hucFgxX3hWc3JBWllZbDZLWkJ4STd6X1lUekNXeUd6OXNRZTJ5dEFQRmwzY2M4bUlLSmlHTkZzUWFFRkJCWTZSRlJ1TGtQNnNydFdGZ01uQmVtNWplOG9yLTFidlV6aG5jaE51SXRSSGVMUmdJTGh2M3pVdG5sWWM4SzBQcFlOdzA?oc=5",
       "datetime": 1789491332,
-      "headlineKo": "美 에너지국장 \"사우디아라비아 송유관 며칠 내로 다시 가동돼야\" - reuters.com"
+      "headlineKo": "美 에너지장관 \"사우디아라비아 송유관, 며칠 내로 다시 가동돼야\" - Reuters"
     },
     {
-      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - reuters.com",
+      "headline": "US Treasury's Bessent will meet with China's He Lifeng this weekend - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNb2MzcWFBOFZsSHhmdHo4dVJnckkxSHJTUGh1QXMyUlNZVTJhbWhVQWlsRXZpYUJQLVhNT1BhU1VUOGNKWno3ZERFMHV3QW5PVUppWGcxRmNXYnlpWnlkOUFYZjJWTXVjVHJRMUpZb2JtUWFTQ29tMFlZa3R0ZWhPRHZTS2l5SENMMXNZVXdsc3ZVMjVscXpGZFJwaGdIU0ZqUmNzdTExcENiQWhZQ29mVlhqSktwZnAtamJDUw?oc=5",
       "datetime": 1789491122,
-      "headlineKo": "미국 재무부 베센트 장관, 이번 주말 중국 허라이펑 총리와 만날 예정 - reuters.com"
+      "headlineKo": "미 재무부 베센트, 이번 주말 중국 허라이펑과 만날 예정 - 로이터"
     },
     {
-      "headline": "UK, US and Netherlands issue advisory on Iran-linked spyware - reuters.com",
+      "headline": "UK, US and Netherlands issue advisory on Iran-linked spyware - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWk93UklibjZvS0JuVFBwX2RiTFVTM3BEOExqM1dFYnM4cDZ0TFZsV3JjMkR5WThrN2ZJZkdoQ1R5amNsZF84ZFh6RzBjcmpjSmtma0VxbHBreVBNMDJZVXc2REhYVHVUWlQwVEVLX3ZYN1NFUkE0Y3A0VkFTSEIyY0h2RGNMbE1KRFBnM05YT1E?oc=5",
       "datetime": 1789490120,
-      "headlineKo": "영국, 미국, 네덜란드, 이란 관련 스파이웨어에 대한 주의보 발령 - reuters.com"
+      "headlineKo": "영국, 미국, 네덜란드, 이란 관련 스파이웨어에 대한 주의보 발령 - Reuters"
     },
     {
       "headline": "Cramer says these 2 stocks are still buys, warns against playing Fed rate 'parlor game'",
@@ -322,13 +322,13 @@ const MARKET_DATA = {
     }
   ],
   "fgi": {
-    "score": 28.4571428571429,
+    "score": 27.7142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789539861.9132082,
-  "_updated_label": "2026-09-16 15:24",
-  "_last_attempt_at": 1789539861.9132082,
-  "_last_success_at": 1789539861.9132082,
+  "_fetched_at": 1789543520.4309173,
+  "_updated_label": "2026-09-16 16:26",
+  "_last_attempt_at": 1789543520.4309173,
+  "_last_success_at": 1789543520.4309173,
   "_collection_status": "ok",
   "_collection_errors": []
 };
