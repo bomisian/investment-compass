@@ -1,11 +1,11 @@
 // 자동 생성 파일 - 중요 뉴스의 기업분석 반영
 const EVENT_ANALYSIS_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789594615.3287272,
+  "generatedAt": 1789596081.1244745,
   "records": {
     "MSFT": {
       "ticker": "MSFT",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789578311,
       "signal": "주의 강화",
       "netScore": -4.9,
@@ -55,7 +55,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1634484f6041b65ec185",
-          "headline": "Microsoft Asks Government Agencies to Commit Now, Deliver Features Later",
+          "headline": "Microsoft는 정부 기관에 지금 커밋하고 나중에 기능을 제공하도록 요청합니다.",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789578311,
           "verificationStatus": "needs_confirmation",
@@ -154,7 +154,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GOOGL": {
       "ticker": "GOOGL",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789575291,
       "signal": "주의 강화",
       "netScore": -9.52,
@@ -204,7 +204,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "1af91cd3ed2d7caf8c8e",
-          "headline": "Alphabet (GOOGL) Secures Carbon Credit Deal With Google, Is It Still Overvalued?",
+          "headline": "알파벳(GOOGL), 구글과 탄소배출권 거래 성사, 여전히 과대평가됐나?",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789575291,
           "verificationStatus": "needs_confirmation",
@@ -358,7 +358,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMZN": {
       "ticker": "AMZN",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579185,
       "signal": "주의 강화",
       "netScore": -8.81,
@@ -408,7 +408,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "25ffe673ac5013a0ba8e",
-          "headline": "Oracle Rallies 2% as Restructuring Helps Finance the AI Sprint",
+          "headline": "Oracle은 구조 조정으로 AI 스프린트 자금 조달에 도움이 되면서 2% 상승",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789579185,
           "verificationStatus": "needs_confirmation",
@@ -422,7 +422,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "17cb6f5e6e35b5d1a198",
-          "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+          "headline": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789579033,
           "verificationStatus": "needs_confirmation",
@@ -435,7 +435,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fb2c8cefc129c7030788",
-          "headline": "Amazon, Walmart Among 6 Companies Returning Tariff Savings — How It Impacts Your Budget",
+          "headline": "관세 절감 혜택을 누리는 6개 기업 중 Amazon, Walmart - 예산에 미치는 영향",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789578024,
           "verificationStatus": "needs_confirmation",
@@ -576,7 +576,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "META": {
       "ticker": "META",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789577449,
       "signal": "주의 강화",
       "netScore": -9.03,
@@ -626,7 +626,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4f8a513e0fad1109017d",
-          "headline": "Apex Clean Energy Signs PPA with Meta for Solar Power from Texas Project",
+          "headline": "Apex Clean Energy, 텍사스 프로젝트의 태양광 발전을 위한 Meta와 PPA 계약 체결",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789577449,
           "verificationStatus": "needs_confirmation",
@@ -700,7 +700,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AAPL": {
       "ticker": "AAPL",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579893,
       "signal": "주의 강화",
       "netScore": -3.5,
@@ -750,7 +750,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "9277795a9b51a3052c11",
-          "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
+          "headline": "마진이 계속 하락하면 Apple 주식은 어떻게 되나요?",
           "eventLabel": "공급망 문제",
           "publishedAt": 1789579893,
           "verificationStatus": "needs_confirmation",
@@ -764,7 +764,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "78bd2beaa592ddea0d18",
-          "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
+          "headline": "2026년 시가총액 기준 상위 5대 기업: 엔비디아가 2028년까지 1위를 유지할 것이라고 생각하는 이유",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789572000,
           "verificationStatus": "needs_confirmation",
@@ -852,7 +852,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSLA": {
       "ticker": "TSLA",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789565103,
       "signal": "주의 강화",
       "netScore": -8.39,
@@ -976,7 +976,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ORCL": {
       "ticker": "ORCL",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579185,
       "signal": "중립·확인 대기",
       "netScore": 1.18,
@@ -1026,7 +1026,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "25ffe673ac5013a0ba8e",
-          "headline": "Oracle Rallies 2% as Restructuring Helps Finance the AI Sprint",
+          "headline": "Oracle은 구조 조정으로 AI 스프린트 자금 조달에 도움이 되면서 2% 상승",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789579185,
           "verificationStatus": "needs_confirmation",
@@ -1159,7 +1159,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CRM": {
       "ticker": "CRM",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789578949,
       "signal": "우호적 변화",
       "netScore": 2.8,
@@ -1209,7 +1209,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "bc4c4b16409e85b23338",
-          "headline": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
+          "headline": "AIforce가 460억 달러 규모의 전환 테스트에 직면하면서 Salesforce가 1.4% 하락",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578949,
           "verificationStatus": "needs_confirmation",
@@ -1284,7 +1284,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PLTR": {
       "ticker": "PLTR",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789509895,
       "signal": "주의 강화",
       "netScore": -6.51,
@@ -1394,7 +1394,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "NVDA": {
       "ticker": "NVDA",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579185,
       "signal": "우호적 변화",
       "netScore": 10,
@@ -1444,7 +1444,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "25ffe673ac5013a0ba8e",
-          "headline": "Oracle Rallies 2% as Restructuring Helps Finance the AI Sprint",
+          "headline": "Oracle은 구조 조정으로 AI 스프린트 자금 조달에 도움이 되면서 2% 상승",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789579185,
           "verificationStatus": "needs_confirmation",
@@ -1458,7 +1458,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "17cb6f5e6e35b5d1a198",
-          "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+          "headline": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789579033,
           "verificationStatus": "needs_confirmation",
@@ -1471,7 +1471,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "bc4c4b16409e85b23338",
-          "headline": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
+          "headline": "AIforce가 460억 달러 규모의 전환 테스트에 직면하면서 Salesforce가 1.4% 하락",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578949,
           "verificationStatus": "needs_confirmation",
@@ -1484,7 +1484,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fafbc923f8893d0a96d7",
-          "headline": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
+          "headline": "Hock Tan은 방금 Broadcom의 AI 수익이 2028년까지 2,300억 달러에 도달하도록 안내했습니다. 그를 믿어야 할까요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578300,
           "verificationStatus": "needs_confirmation",
@@ -1497,7 +1497,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "54762a4a5d663ed41822",
-          "headline": "Apple Reportedly Taps Nvidia For M8 Ultra AI Servers In Enterprise Comeback Push",
+          "headline": "Apple, 기업 컴백 푸시에서 M8 Ultra AI 서버에 Nvidia를 활용한 것으로 알려짐",
           "eventLabel": "실적 발표",
           "publishedAt": 1789572329,
           "verificationStatus": "needs_confirmation",
@@ -1510,7 +1510,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7d498e14639dfafd06a9",
-          "headline": "Comfort Systems USA (FIX) Positioned to Benefit from Accelerated AI Investment",
+          "headline": "Comfort Systems USA(FIX)는 가속화된 AI 투자로 이익을 얻을 수 있는 위치에 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789569923,
           "verificationStatus": "needs_confirmation",
@@ -1611,7 +1611,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMD": {
       "ticker": "AMD",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579033,
       "signal": "주의 강화",
       "netScore": -6.3,
@@ -1661,7 +1661,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "17cb6f5e6e35b5d1a198",
-          "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+          "headline": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789579033,
           "verificationStatus": "needs_confirmation",
@@ -1674,7 +1674,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "bc4c4b16409e85b23338",
-          "headline": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
+          "headline": "AIforce가 460억 달러 규모의 전환 테스트에 직면하면서 Salesforce가 1.4% 하락",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578949,
           "verificationStatus": "needs_confirmation",
@@ -1687,7 +1687,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fafbc923f8893d0a96d7",
-          "headline": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
+          "headline": "Hock Tan은 방금 Broadcom의 AI 수익이 2028년까지 2,300억 달러에 도달하도록 안내했습니다. 그를 믿어야 할까요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578300,
           "verificationStatus": "needs_confirmation",
@@ -1700,7 +1700,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7d498e14639dfafd06a9",
-          "headline": "Comfort Systems USA (FIX) Positioned to Benefit from Accelerated AI Investment",
+          "headline": "Comfort Systems USA(FIX)는 가속화된 AI 투자로 이익을 얻을 수 있는 위치에 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789569923,
           "verificationStatus": "needs_confirmation",
@@ -1823,7 +1823,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AVGO": {
       "ticker": "AVGO",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789578300,
       "signal": "중립·확인 대기",
       "netScore": -1.75,
@@ -1873,7 +1873,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fafbc923f8893d0a96d7",
-          "headline": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
+          "headline": "Hock Tan은 방금 Broadcom의 AI 수익이 2028년까지 2,300억 달러에 도달하도록 안내했습니다. 그를 믿어야 할까요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578300,
           "verificationStatus": "needs_confirmation",
@@ -1953,7 +1953,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "QCOM": {
       "ticker": "QCOM",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579033,
       "signal": "주의 강화",
       "netScore": -6.99,
@@ -2003,7 +2003,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "17cb6f5e6e35b5d1a198",
-          "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+          "headline": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789579033,
           "verificationStatus": "needs_confirmation",
@@ -2104,7 +2104,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ARM": {
       "ticker": "ARM",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789493921,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2193,7 +2193,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MRVL": {
       "ticker": "MRVL",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789576361,
       "signal": "주의 강화",
       "netScore": -4.61,
@@ -2243,7 +2243,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "de018d6987453d33bf19",
-          "headline": "Why Marvell Stock Rallied Today",
+          "headline": "Marvell 주식이 오늘 랠리를 펼친 이유",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789576361,
           "verificationStatus": "needs_confirmation",
@@ -2310,7 +2310,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "INTC": {
       "ticker": "INTC",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789577449,
       "signal": "주의 강화",
       "netScore": -8.45,
@@ -2360,7 +2360,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "4f8a513e0fad1109017d",
-          "headline": "Apex Clean Energy Signs PPA with Meta for Solar Power from Texas Project",
+          "headline": "Apex Clean Energy, 텍사스 프로젝트의 태양광 발전을 위한 Meta와 PPA 계약 체결",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789577449,
           "verificationStatus": "needs_confirmation",
@@ -2374,7 +2374,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "de018d6987453d33bf19",
-          "headline": "Why Marvell Stock Rallied Today",
+          "headline": "Marvell 주식이 오늘 랠리를 펼친 이유",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789576361,
           "verificationStatus": "needs_confirmation",
@@ -2388,7 +2388,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "b874ed6bfec33d8433aa",
-          "headline": "Top Midday Stories: Markets Await Key Fed Decision on Rates; SK Hynix Exploring Deal With Intel to Make Chips in US",
+          "headline": "주요 정오 뉴스: 시장은 연준의 주요 금리 결정을 기다리고 있습니다. SK하이닉스, 미국에서 칩 생산 위해 인텔과 거래 모색",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789573538,
           "verificationStatus": "needs_confirmation",
@@ -2402,7 +2402,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "8f11244dfd44b65afb64",
-          "headline": "Intel Stock Investors Should Pay Attention to This Potential SK Hynix Deal",
+          "headline": "인텔 주식 투자자들은 이 잠재적인 SK 하이닉스 거래에 주목해야 합니다",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789572374,
           "verificationStatus": "needs_confirmation",
@@ -2530,7 +2530,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "TSM": {
       "ticker": "TSM",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789566011,
       "signal": "주의 강화",
       "netScore": -2.87,
@@ -2696,7 +2696,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ASML": {
       "ticker": "ASML",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789566011,
       "signal": "주의 강화",
       "netScore": -3.57,
@@ -2779,7 +2779,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "AMAT": {
       "ticker": "AMAT",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789473901,
       "signal": "중립·확인 대기",
       "netScore": -1.88,
@@ -2878,7 +2878,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LRCX": {
       "ticker": "LRCX",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1787756400.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2943,7 +2943,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "KLAC": {
       "ticker": "KLAC",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -2997,7 +2997,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MU": {
       "ticker": "MU",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789579033,
       "signal": "주의 강화",
       "netScore": -5.26,
@@ -3047,7 +3047,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "17cb6f5e6e35b5d1a198",
-          "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
+          "headline": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789579033,
           "verificationStatus": "needs_confirmation",
@@ -3060,7 +3060,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "bc4c4b16409e85b23338",
-          "headline": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
+          "headline": "AIforce가 460억 달러 규모의 전환 테스트에 직면하면서 Salesforce가 1.4% 하락",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578949,
           "verificationStatus": "needs_confirmation",
@@ -3073,7 +3073,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fafbc923f8893d0a96d7",
-          "headline": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
+          "headline": "Hock Tan은 방금 Broadcom의 AI 수익이 2028년까지 2,300억 달러에 도달하도록 안내했습니다. 그를 믿어야 할까요?",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789578300,
           "verificationStatus": "needs_confirmation",
@@ -3086,7 +3086,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "12c49c61f065f7b7b738",
-          "headline": "Micron Offers A Massive Margin Of Safety (Earnings Preview)",
+          "headline": "Micron은 막대한 안전 마진을 제공합니다(수익 미리보기)",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789573603,
           "verificationStatus": "needs_confirmation",
@@ -3100,7 +3100,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "7d498e14639dfafd06a9",
-          "headline": "Comfort Systems USA (FIX) Positioned to Benefit from Accelerated AI Investment",
+          "headline": "Comfort Systems USA(FIX)는 가속화된 AI 투자로 이익을 얻을 수 있는 위치에 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789569923,
           "verificationStatus": "needs_confirmation",
@@ -3213,7 +3213,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "SNDK": {
       "ticker": "SNDK",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789567323,
       "signal": "중립·확인 대기",
       "netScore": -0.28,
@@ -3263,7 +3263,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "32cae2755de6d0616150",
-          "headline": "Sandisk: The Market Is Still Underestimating Its New Earnings Power",
+          "headline": "Sandisk: 시장은 여전히 ​​새로운 수익 창출 능력을 과소평가하고 있습니다",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789567323,
           "verificationStatus": "needs_confirmation",
@@ -3386,7 +3386,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "WDC": {
       "ticker": "WDC",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789555800,
       "signal": "주의 강화",
       "netScore": -6.28,
@@ -3489,7 +3489,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ANET": {
       "ticker": "ANET",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789482840,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -3557,7 +3557,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "COHR": {
       "ticker": "COHR",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789562448,
       "signal": "주의 강화",
       "netScore": -4.19,
@@ -3607,7 +3607,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7a90203ac70ad0bb73c8",
-          "headline": "Coherent: Post-Correction Alpha Blueprint (Rating Upgrade)",
+          "headline": "Coherent: 사후 수정 알파 블루프린트(등급 업그레이드)",
           "eventLabel": "규제·소송·수출 제한",
           "publishedAt": 1789562448,
           "verificationStatus": "needs_confirmation",
@@ -3670,7 +3670,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "LITE": {
       "ticker": "LITE",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789569975,
       "signal": "주의 강화",
       "netScore": -2.66,
@@ -3720,7 +3720,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "5fd98ae0308e1f85d98e",
-          "headline": "Optics Stocks Rally as Oversold Bounce Takes Hold: Coherent Jumps 6%, Lumentum Climbs 5%, Applied Optoelectronics Advances 3%",
+          "headline": "과매도 바운스가 유지됨에 따라 광학 주식 반등: Coherent 점프 6%, Lumentum 상승 5%, Applied Optoelectronics 3% 발전",
           "eventLabel": "애널리스트 목표주가 변경",
           "publishedAt": 1789569975,
           "verificationStatus": "needs_confirmation",
@@ -3771,7 +3771,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "GEV": {
       "ticker": "GEV",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789582140,
       "signal": "중립·확인 대기",
       "netScore": 0.48,
@@ -3821,7 +3821,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "fa32306b0b822852cd89",
-          "headline": "GE Vernova rebounds 6% after earlier sell-off",
+          "headline": "GE Vernova는 이전 매도 이후 6% 반등했습니다.",
           "eventLabel": "장기 공급계약",
           "publishedAt": 1789582140,
           "verificationStatus": "needs_confirmation",
@@ -3835,7 +3835,7 @@ const EVENT_ANALYSIS_DATA = {
         },
         {
           "eventId": "fbcdaa48aa358a89a1cd",
-          "headline": "GEV Stock Gains After CEO Signals ‘Durable Demand’, Says 2030-2040 Could Be An ‘Even Better Decade’",
+          "headline": "CEO가 '내구성 있는 수요'를 신호한 후 GEV 주가 상승, 2030~2040년은 '더 나은 10년'이 될 수 있다고 말함",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789577597,
           "verificationStatus": "needs_confirmation",
@@ -3946,7 +3946,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "CEG": {
       "ticker": "CEG",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789531431,
       "signal": "우호적 변화",
       "netScore": 3.0,
@@ -4057,7 +4057,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VST": {
       "ticker": "VST",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789311600.0,
       "signal": "주의 강화",
       "netScore": -10,
@@ -4154,7 +4154,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "ETN": {
       "ticker": "ETN",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789567920,
       "signal": "중립·확인 대기",
       "netScore": 1.4,
@@ -4204,7 +4204,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "745bca17d48a6d2ce704",
-          "headline": "Eaton Corporation Continues to Leverage ISNetworld® to Scale Subcontractor Management Across EMEA",
+          "headline": "Eaton Corporation, ISNetworld®를 계속 활용하여 EMEA 전역에서 하청업체 관리 확장",
           "eventLabel": "주요 고객 계약",
           "publishedAt": 1789567920,
           "verificationStatus": "needs_confirmation",
@@ -4223,7 +4223,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "PWR": {
       "ticker": "PWR",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789404062,
       "signal": "중립·확인 대기",
       "netScore": -0.35,
@@ -4300,7 +4300,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "HUBB": {
       "ticker": "HUBB",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4354,7 +4354,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "VRT": {
       "ticker": "VRT",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789515121,
       "signal": "중립·확인 대기",
       "netScore": 0.14,
@@ -4457,7 +4457,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "MOD": {
       "ticker": "MOD",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1788966000.0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4532,7 +4532,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "STX": {
       "ticker": "STX",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789481640,
       "signal": "주의 강화",
       "netScore": -3.7,
@@ -4624,7 +4624,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "EME": {
       "ticker": "EME",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,
@@ -4678,7 +4678,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "FIX": {
       "ticker": "FIX",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 1789569923,
       "signal": "중립·확인 대기",
       "netScore": 0.7,
@@ -4728,7 +4728,7 @@ const EVENT_ANALYSIS_DATA = {
       "evidence": [
         {
           "eventId": "7d498e14639dfafd06a9",
-          "headline": "Comfort Systems USA (FIX) Positioned to Benefit from Accelerated AI Investment",
+          "headline": "Comfort Systems USA(FIX)는 가속화된 AI 투자로 이익을 얻을 수 있는 위치에 있습니다.",
           "eventLabel": "AI·데이터센터 투자 변화",
           "publishedAt": 1789569923,
           "verificationStatus": "needs_confirmation",
@@ -4746,7 +4746,7 @@ const EVENT_ANALYSIS_DATA = {
     },
     "BE": {
       "ticker": "BE",
-      "updatedAt": 1789594615.3287272,
+      "updatedAt": 1789596081.1244745,
       "dataAsOf": 0,
       "signal": "중립·확인 대기",
       "netScore": 0.0,

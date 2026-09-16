@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.05999755859375,
+      "current": 102.0199966430664,
       "prevClose": 105.83000183105469,
-      "changeAbs": -3.7700042724609375,
-      "changePct": -3.5623208988310435,
-      "pctRank": 92.60143198090692,
+      "changeAbs": -3.8100051879882812,
+      "changePct": -3.6001182292999596,
+      "pctRank": 92.52187748607797,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.641433983073622,
-      "ma20": 91.39550132751465,
-      "ma60": 82.73666699727376,
-      "chg1m": 17.55999755859375,
-      "chg3m": 26.009994506835938,
-      "chg1mPct": 20.781062199519234,
-      "chg3mPct": 34.20117483642198,
+      "drawdown1y": -9.67684869454606,
+      "ma20": 91.39350128173828,
+      "ma60": 82.7360003153483,
+      "chg1m": 17.519996643066406,
+      "chg3m": 25.969993591308594,
+      "chg1mPct": 20.73372383794841,
+      "chg3mPct": 34.148576659009514,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.31900024414062,
+      "current": 100.30999755859375,
       "prevClose": 99.6500015258789,
-      "changeAbs": 0.6689987182617188,
-      "changePct": 0.6713484275140539,
+      "changeAbs": 0.6599960327148438,
+      "changePct": 0.6623141220358577,
       "pctRank": 37.5497215592681,
       "min5y": 92.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.270544590548317,
-      "ma20": 99.22744979858399,
-      "ma60": 100.19065030415852,
-      "chg1m": 0.6790008544921875,
-      "chg3m": 0.7789993286132812,
-      "chg1mPct": 0.6814540933876487,
-      "chg3mPct": 0.7825992781277586,
+      "drawdown1y": -1.2794046294153594,
+      "ma20": 99.22699966430665,
+      "ma60": 100.19050025939941,
+      "chg1m": 0.6699981689453125,
+      "chg3m": 0.7699966430664062,
+      "chg1mPct": 0.6724188810211076,
+      "chg3mPct": 0.7735549889333924,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4300.2998046875,
+      "current": 4302.5,
       "prevClose": 4332.7998046875,
-      "changeAbs": -32.5,
-      "changePct": -0.7500923528670634,
+      "changeAbs": -30.2998046875,
+      "changePct": -0.6993123627525956,
       "pctRank": 87.5993640699523,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -19.142977518625226,
-      "ma20": 4502.334936523437,
-      "ma60": 4274.773319498698,
-      "chg1m": -173.400390625,
-      "chg3m": -54.10009765625,
-      "chg1mPct": -3.8759948824171824,
-      "chg3mPct": -1.2424237293210183,
+      "drawdown1y": -19.10160802116546,
+      "ma20": 4502.4449462890625,
+      "ma60": 4274.8099894205725,
+      "chg1m": -171.2001953125,
+      "chg3m": -51.89990234375,
+      "chg1mPct": -3.8268142217460595,
+      "chg3mPct": -1.1918956344780125,
       "lastDate": "2026-09-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,10 +237,11 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - reuters.com",
+      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUktRelVFeVlmRUh4NjlTNU5vVFNRZDBsaE9Wd2YybUlQYTNSY0NONXhUMjJEcTJzSnRjaWZNM2pNN0E4YnVyTVdLZVhOX2FmM0l1MXU2SU01NXR2aWw3bC1IY2lZM3BZbzZQQ01kN3loX09KU2x5dTd4RXl6cXU0TUd5eVppY3NSbXpibXBnRmxyeHJyUUtjME5FU2tBaHZyMDB4RXgyQ3E0dnh5X1lZY2oxOWpqQTdCQlJiZFZtYw?oc=5",
-      "datetime": 1789589473
+      "datetime": 1789589473,
+      "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -257,11 +258,11 @@ const MARKET_DATA = {
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
     },
     {
-      "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - reuters.com",
+      "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
       "datetime": 1789583352,
-      "headlineKo": "미국 하원, 고 그레이엄 상원의원의 지지를 받아 러시아 제재 법안 통과 예상 - reuters.com"
+      "headlineKo": "미국 하원, 고 그레이엄 상원의원의 지지를 받아 러시아 제재 법안 통과 예상 - 로이터"
     },
     {
       "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
@@ -285,11 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
     },
     {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
+      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
       "datetime": 1789576712,
-      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌다 - reuters.com"
+      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
     },
     {
       "headline": "We're significantly trimming a stock that has not gone to plan",
@@ -324,10 +325,10 @@ const MARKET_DATA = {
     "score": 26.4857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789592668.6085832,
-  "_updated_label": "2026-09-17 06:05",
-  "_last_attempt_at": 1789592668.6085832,
-  "_last_success_at": 1789592668.6085832,
+  "_fetched_at": 1789596081.2262747,
+  "_updated_label": "2026-09-17 07:01",
+  "_last_attempt_at": 1789596081.2262747,
+  "_last_success_at": 1789596081.2262747,
   "_collection_status": "ok",
   "_collection_errors": []
 };

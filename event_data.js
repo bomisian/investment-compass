@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789594615.281208,
+  "generatedAt": 1789596081.0747876,
   "events": [
     {
       "id": "fa32306b0b822852cd89",
@@ -25,7 +25,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GE Vernova rebounds 6% after earlier sell-off",
-      "headlineKo": "",
+      "headlineKo": "GE Vernova는 이전 매도 이후 6% 반등했습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=cabdba99214af166df5838072d0630335e25e7a430e64bf167f86f5ccf1d4683",
@@ -95,7 +95,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Bloom Energy Gains 4% as S&P 500 Entry Nears; FuelCell Energy Ticks Up, Plug Power Slips",
-      "headlineKo": "",
+      "headlineKo": "Bloom Energy는 S&P 500 진입이 가까워지면서 4% 상승했습니다. FuelCell 에너지가 틱업되고 플러그 전원이 꺼집니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8bb3aaffb3dc91d0f876816e83ff1a62d98358237cc86edb2ae4fd71db6107d2",
@@ -170,7 +170,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Google Delays Thompson Center Opening To 2028, Releases New Renderings",
-      "headlineKo": "",
+      "headlineKo": "Google, 톰슨 센터 개장을 2028년으로 연기하고 새로운 렌더링 공개",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f5c5d42dcd827c0c2d61ee5d8ae8280bb9e97dadcc664de4b4e1350eba18b06b",
@@ -247,7 +247,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "What Happens To Apple Stock If Its Margin Keeps Slipping?",
-      "headlineKo": "",
+      "headlineKo": "마진이 계속 하락하면 Apple 주식은 어떻게 되나요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=0078e1032fb647f22424aca113b33ff13e324bfa087dec12eebd65031470726b",
@@ -324,7 +324,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Oracle Rallies 2% as Restructuring Helps Finance the AI Sprint",
-      "headlineKo": "",
+      "headlineKo": "Oracle은 구조 조정으로 AI 스프린트 자금 조달에 도움이 되면서 2% 상승",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=dfff713c4b1d3cd125ff2e7ef025bfcab04e23f0607199530fae1bf059a9c0a1",
@@ -423,7 +423,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Qualcomm Edged Higher as Amazon Opens a $60 Billion AI Door",
-      "headlineKo": "",
+      "headlineKo": "Amazon이 600억 달러 규모의 AI 문을 열면서 Qualcomm의 우위가 더욱 높아졌습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f4cc2d0d3f7e3bbb7184938d40072a9180e59e71b97031f05e648821209947a6",
@@ -516,7 +516,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Salesforce Falls 1.4% as AIforce Faces a $46 Billion Conversion Test",
-      "headlineKo": "",
+      "headlineKo": "AIforce가 460억 달러 규모의 전환 테스트에 직면하면서 Salesforce가 1.4% 하락",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=74a11599b9c8c1c583dee4dbf9891f5bb3b50039bd177d715ae177745f938d2f",
@@ -605,7 +605,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Jim Cramer calls Salesforce stock too cheap at Dreamforce 2026",
-      "headlineKo": "",
+      "headlineKo": "Jim Cramer는 Dreamforce 2026에서 Salesforce 주식이 너무 저렴하다고 말합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=ba103ad88f59ccb54f04303aeee5572f568cbcc31b663cdc196a6c1f301f99e3",
@@ -682,7 +682,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Microsoft Asks Government Agencies to Commit Now, Deliver Features Later",
-      "headlineKo": "",
+      "headlineKo": "Microsoft는 정부 기관에 지금 커밋하고 나중에 기능을 제공하도록 요청합니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=071de8f792669913f5517e1d371293824f12a0fdc421c774b20f7ea78c620d46",
@@ -761,7 +761,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Hock Tan Just Guided Broadcom's AI Revenue to Reach $230 Billion by 2028. Should You Believe Him?",
-      "headlineKo": "",
+      "headlineKo": "Hock Tan은 방금 Broadcom의 AI 수익이 2028년까지 2,300억 달러에 도달하도록 안내했습니다. 그를 믿어야 할까요?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7479728aeecc51178bfe5c1288f857aa3fd5cbf8cf29b6e9ded4d4a967134e72",
@@ -856,7 +856,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Amazon, Walmart Among 6 Companies Returning Tariff Savings — How It Impacts Your Budget",
-      "headlineKo": "",
+      "headlineKo": "관세 절감 혜택을 누리는 6개 기업 중 Amazon, Walmart - 예산에 미치는 영향",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=5455af72eaab4836c10544077ad2b5515811a4c60689364c2412434d678b8e01",
@@ -925,7 +925,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron's AI boom faces a much tougher earnings test",
-      "headlineKo": "",
+      "headlineKo": "마이크론의 AI 붐은 훨씬 더 힘든 수익 테스트에 직면해 있다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=f2355db5736d46ad8b131f9d48c1f9bc244f45d159022f1a4319cbb78430ae41",
@@ -994,7 +994,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "GEV Stock Gains After CEO Signals ‘Durable Demand’, Says 2030-2040 Could Be An ‘Even Better Decade’",
-      "headlineKo": "",
+      "headlineKo": "CEO가 '내구성 있는 수요'를 신호한 후 GEV 주가 상승, 2030~2040년은 '더 나은 10년'이 될 수 있다고 말함",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6ed85dbb5fe8f149a6e8240909d7fa83c28ac3afad7c15039c50dcc7164c59a3",
@@ -1075,7 +1075,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apex Clean Energy Signs PPA with Meta for Solar Power from Texas Project",
-      "headlineKo": "",
+      "headlineKo": "Apex Clean Energy, 텍사스 프로젝트의 태양광 발전을 위한 Meta와 PPA 계약 체결",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=738d8766890a32e92342a11c7507548748ef5f9b5792774f56087daf98050952",
@@ -1151,7 +1151,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: Dell's AI Server Backlog Makes It a Sneaky Way to Play the Nvidia Supercycle",
-      "headlineKo": "",
+      "headlineKo": "예측: Dell의 AI 서버 백로그로 인해 Nvidia Supercycle을 플레이하는 은밀한 방법이 됩니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=8e4028ebf95e442bd53b5e517429f1646373e95278ff592882e1e007bb206d4e",
@@ -1233,7 +1233,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Why Marvell Stock Rallied Today",
-      "headlineKo": "",
+      "headlineKo": "Marvell 주식이 오늘 랠리를 펼친 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=9b0eefacb5e0525c53abe3655c37bc48286169d32c9ea392ed262ba67849f904",
@@ -1313,7 +1313,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Alphabet (GOOGL) Secures Carbon Credit Deal With Google, Is It Still Overvalued?",
-      "headlineKo": "",
+      "headlineKo": "알파벳(GOOGL), 구글과 탄소배출권 거래 성사, 여전히 과대평가됐나?",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=096ea807178d1f83c267bc98a5ffd95d2f0a5d9ae1e167c341317f4d23a2ab0e",
@@ -1380,7 +1380,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "UBS resets Palantir stock price target for the rest of 2026",
-      "headlineKo": "",
+      "headlineKo": "UBS, 2026년 남은 기간 동안 Palantir 주가 목표 재설정",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=610e5060a7d2f0102f6d121f3e524a0f4f672735264e642b51bd48ae5227c09f",
@@ -1448,7 +1448,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Micron Offers A Massive Margin Of Safety (Earnings Preview)",
-      "headlineKo": "",
+      "headlineKo": "Micron은 막대한 안전 마진을 제공합니다(수익 미리보기)",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=f3db33edaa48a6fe65d71d9340d52e071231e9daf02163fead7978721b4e579a",
@@ -1521,7 +1521,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Top Midday Stories: Markets Await Key Fed Decision on Rates; SK Hynix Exploring Deal With Intel to Make Chips in US",
-      "headlineKo": "",
+      "headlineKo": "주요 정오 뉴스: 시장은 연준의 주요 금리 결정을 기다리고 있습니다. SK하이닉스, 미국에서 칩 생산 위해 인텔과 거래 모색",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=c9a171cfe1628977e26fc286fe7db700a421226ea642a4f71747a7eb9209def6",
@@ -1594,7 +1594,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Intel Stock Investors Should Pay Attention to This Potential SK Hynix Deal",
-      "headlineKo": "",
+      "headlineKo": "인텔 주식 투자자들은 이 잠재적인 SK 하이닉스 거래에 주목해야 합니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=7dcf7e24c08cf5be41d8efe2e839bb4298eb1c7bd23210b12df26457d69c618d",
@@ -1603,7 +1603,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Intel Stock Investors Should Pay Attention to This Potential SK Hynix Deal"
+        "인텔 주식 투자자들은 이 잠재적인 SK 하이닉스 거래에 주목해야 합니다"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -1664,7 +1664,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple Reportedly Taps Nvidia For M8 Ultra AI Servers In Enterprise Comeback Push",
-      "headlineKo": "",
+      "headlineKo": "Apple, 기업 컴백 푸시에서 M8 Ultra AI 서버에 Nvidia를 활용한 것으로 알려짐",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=98273805b3b023cdc89da40fe25897c0416b936aeabb93debd52243389a3a9b6",
@@ -1746,7 +1746,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "The 5 Largest Companies by Market Cap in 2026: Why I Think Nvidia Will Stay No. 1 by 2028",
-      "headlineKo": "",
+      "headlineKo": "2026년 시가총액 기준 상위 5대 기업: 엔비디아가 2028년까지 1위를 유지할 것이라고 생각하는 이유",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=6c7ee6d512df33d0ae73f4e68c285a46f7bf5a9f4435e4567ac45fe8e58fa142",
@@ -1818,7 +1818,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Optics Stocks Rally as Oversold Bounce Takes Hold: Coherent Jumps 6%, Lumentum Climbs 5%, Applied Optoelectronics Advances 3%",
-      "headlineKo": "",
+      "headlineKo": "과매도 바운스가 유지됨에 따라 광학 주식 반등: Coherent 점프 6%, Lumentum 상승 5%, Applied Optoelectronics 3% 발전",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=89ba1fc92e48270cbd2d0e8b36308c53992dc7798c97682a2695ffa4a99caf17",
@@ -1891,7 +1891,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Comfort Systems USA (FIX) Positioned to Benefit from Accelerated AI Investment",
-      "headlineKo": "",
+      "headlineKo": "Comfort Systems USA(FIX)는 가속화된 AI 투자로 이익을 얻을 수 있는 위치에 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=108101da1dab27fe80e43574f59164a0693c64bfe0bb01d0fb093155161725fd",
@@ -1980,7 +1980,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Eaton Corporation Continues to Leverage ISNetworld® to Scale Subcontractor Management Across EMEA",
-      "headlineKo": "",
+      "headlineKo": "Eaton Corporation, ISNetworld®를 계속 활용하여 EMEA 전역에서 하청업체 관리 확장",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=a5e234914940c9cd4d66f5dc88765b286bf3c64359a40a76cd12326c72878be8",
@@ -2048,7 +2048,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Sandisk: The Market Is Still Underestimating Its New Earnings Power",
-      "headlineKo": "",
+      "headlineKo": "Sandisk: 시장은 여전히 ​​새로운 수익 창출 능력을 과소평가하고 있습니다",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=4fed262f84204440f26c35b9d927e739177f450371c1b7e2d62a10693fa80c8b",
@@ -2123,7 +2123,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Apple Investors Can Breathe A Sigh Of Relief After OpenAI Gives Update On Long-Rumored Device",
-      "headlineKo": "",
+      "headlineKo": "OpenAI가 오랫동안 루머로 알려졌던 장치에 대한 업데이트를 제공한 후 Apple 투자자들은 안도의 한숨을 쉴 수 있습니다.",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=40fa15e7e2903fdc9afa762dfe52405dd3d318d44cabb587b0d58edb18de6e6b",
@@ -2132,7 +2132,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Apple Investors Can Breathe A Sigh Of Relief After OpenAI Gives Update On Long-Rumored Device"
+        "OpenAI가 오랫동안 루머로 알려졌던 장치에 대한 업데이트를 제공한 후 Apple 투자자들은 안도의 한숨을 쉴 수 있습니다."
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -2760,7 +2760,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Coherent: Post-Correction Alpha Blueprint (Rating Upgrade)",
-      "headlineKo": "",
+      "headlineKo": "Coherent: 사후 수정 알파 블루프린트(등급 업그레이드)",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=1a0f2577630d562aa97e48af99aeab3b8f447cdb573d2945090ba67697c72765",
@@ -3135,7 +3135,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Prediction: Bloom Energy Could Be the Power Stock Nobody Saw Coming",
-      "headlineKo": "",
+      "headlineKo": "예측: 블룸 에너지는 아무도 예상하지 못한 전력주가 될 수 있습니다",
       "source": {
         "name": "Yahoo",
         "url": "https://finnhub.io/api/news?id=4abc216a72b939a1f7556ca6ee8dcd209b9e6a30754e39288aa4f52076cea99b",
@@ -3343,7 +3343,7 @@ const EVENT_DATA = {
       "impactProbability": "보통",
       "verificationStatus": "needs_confirmation",
       "headline": "Lumentum: AI Capex Party Continues - Compelling, Multi-Year Optical Tailwinds",
-      "headlineKo": "",
+      "headlineKo": "Lumentum: AI Capex 파티 계속 - 설득력 있고 다년간의 광학적 순풍",
       "source": {
         "name": "SeekingAlpha",
         "url": "https://finnhub.io/api/news?id=608df152fbe45ae3b69b1cf169b638faccea0449a96b74755b2a68a56f5d898f",
@@ -3352,7 +3352,7 @@ const EVENT_DATA = {
       },
       "confirmedFacts": [],
       "reportedClaims": [
-        "Lumentum: AI Capex Party Continues - Compelling, Multi-Year Optical Tailwinds"
+        "Lumentum: AI Capex 파티 계속 - 설득력 있고 다년간의 광학적 순풍"
       ],
       "marketInterpretation": [],
       "aiInference": [
@@ -15324,7 +15324,7 @@ const EVENT_DATA = {
               "variancePct": -73.01,
               "actualEndDate": "2026-01-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -15344,7 +15344,7 @@ const EVENT_DATA = {
               "variancePct": -75.8,
               "actualEndDate": "2026-04-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -15364,7 +15364,7 @@ const EVENT_DATA = {
               "variancePct": 0.31,
               "actualEndDate": "2026-07-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17124,7 +17124,7 @@ const EVENT_DATA = {
               "variancePct": 1.96,
               "actualEndDate": "2025-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17144,7 +17144,7 @@ const EVENT_DATA = {
               "variancePct": 3.36,
               "actualEndDate": "2025-09-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17164,7 +17164,7 @@ const EVENT_DATA = {
               "variancePct": 3.41,
               "actualEndDate": "2025-12-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17184,7 +17184,7 @@ const EVENT_DATA = {
               "variancePct": 2.01,
               "actualEndDate": "2026-03-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17204,7 +17204,7 @@ const EVENT_DATA = {
               "variancePct": 3.31,
               "actualEndDate": "2026-06-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -17505,7 +17505,7 @@ const EVENT_DATA = {
               "variancePct": 0.42,
               "actualEndDate": "2026-03-28",
               "source": "SEC Company Facts",
-              "settledAt": 1789594615.0387328,
+              "settledAt": 1789596080.821855,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
