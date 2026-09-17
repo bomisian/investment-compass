@@ -3633,15 +3633,37 @@ function renderAmatScenarioValuation(v, price){
   const df = v.dataFreshness || {};
   const freshnessBanner = df.stale ? `<div class="sub" style="margin:4px 0 8px;color:var(--down);">⚠️ 다음 예상 실적 발표일(${esc(df.next_expected_earnings_date)}, 추정치)이 지났는데도 net_debt·가이던스·컨센서스가 갱신되지 않았습니다 -- 이 실행은 새 자료 반영 대기 상태이며 과거 참고값으로 취급해야 합니다.</div>` : '';
   const disclaimer = v.scenarioDisclaimer ? `<div class="sub" style="margin:6px 0 8px;color:var(--warn);">⚠️ ${esc(v.scenarioDisclaimer)}</div>` : '';
+  // [2026-09-17 신규 -- 순부채 자동수집 보완 3단계: 화면 연결] 사용자가 요구한 4개 핵심 항목만
+  // 먼저 한눈에 보여주는 요약 블록. generate_dashboard_connection.build_amat_entry()가 이미
+  // 계산해 넣은 v.summaryCard를 그대로 꺼내 쓴다(화면에서 다시 계산하지 않음 -- 서버가 실제로
+  // 계산에 쓴 값과 화면 표시가 어긋나지 않도록). 상세 내역(시나리오별 값, 산출 근거 등)은
+  // 기존과 동일하게 아래 접이식 섹션에 그대로 남긴다 -- 화면을 새로 설계하지 않고 요약 한
+  // 블록만 맨 앞에 추가했다.
+  const sc = v.summaryCard || {};
+  const dataStatusColor = sc.dataStatusLevel === '최신_반영_완료' ? 'var(--sub)'
+    : (sc.dataStatusLevel === '판단_보류' ? 'var(--down)' : 'var(--warn)');
+  const dataStatusIcon = sc.dataStatusLevel === '최신_반영_완료' ? '✅'
+    : (sc.dataStatusLevel === '판단_보류' ? '🚫' : '⚠️');
+  const summaryHtml = `
+    <div class="fund-row"><span>AMAT 현재 추정 적정가</span>
+      <span class="v"><b>$${sc.fairValueRangeLow!=null?sc.fairValueRangeLow.toFixed(2):'-'}~$${sc.fairValueRangeHigh!=null?sc.fairValueRangeHigh.toFixed(2):'-'}</b></span></div>
+    <div class="fund-row"><span>현재 주가</span>
+      <span class="v">$${sc.currentPrice!=null?sc.currentPrice.toFixed(2):'-'}${sc.diffVsCurrentPricePct!=null?` · 기준 추정가 대비 ${esc(sc.diffVsCurrentPriceLabel||'-')}(${sc.diffVsCurrentPricePct>=0?'+':''}${sc.diffVsCurrentPricePct.toFixed(1)}%)`:''}</span></div>
+    <div class="sub" style="margin:2px 0 4px;"><b>변경 이유</b>: ${esc(sc.inputChangeSummary||'-')}</div>
+    <div class="sub" style="margin:2px 0 8px;color:${dataStatusColor};"><b>${dataStatusIcon} 자료 상태: ${esc(sc.dataStatusLabel||'-')}</b>${sc.dataStatusDetail?` - ${esc(sc.dataStatusDetail)}`:''}</div>`;
   return `
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
       <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · ${esc(v.asOf||'-')} 실행, ${esc(v.isReplayFixture ? '재생 시험' : '실제 수집')})</b>
       ${statusHtml}
+      ${summaryHtml}
+      <details style="margin-top:4px;margin-bottom:4px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">시나리오별 상세(보수/기준/낙관)</summary>
       <div class="sub" style="margin:4px 0 8px;">VST 섹션(EV/EBITDA 3-시나리오)과 계산 방식이 다른, AMAT 전용 공통 계산엔진(amat_calc_engine) 실행 결과예요. 세 시나리오 모두 같은 엔진·같은 원자료에서 1년차 성장률(회사 가이던스 범위)과 ROIC만 바꿔 계산했어요. 실제 매수판단·경보와는 아직 연결되지 않은 검토용 화면입니다.</div>
       ${scenRows}
       ${freshnessBanner}
       ${disclaimer}
       <div class="fund-row"><span>가격 상태</span><span class="v">${esc(v.priceState||'-')}</span></div>
+      </details>
       <div class="fund-row"><span>실행 묶음 ID</span><span class="v" style="font-size:10.5px;">${esc(v.scenarioFamilyId||'-')}</span></div>
       <details style="margin-top:8px;">
         <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">이전 전달값($${v.priorDeliveredPx!=null?v.priorDeliveredPx.toFixed(2):'-'})과 달라진 이유</summary>
