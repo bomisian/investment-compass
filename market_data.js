@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.2699966430664,
+      "current": 101.08999633789062,
       "prevClose": 102.43000030517578,
-      "changeAbs": -1.160003662109375,
-      "changePct": -1.1324842903966683,
-      "pctRank": 92.04455051710421,
+      "changeAbs": -1.3400039672851562,
+      "changePct": -1.308214354478964,
+      "pctRank": 91.96499602227526,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.340859336656717,
-      "ma20": 92.18600120544434,
-      "ma60": 83.21050033569335,
-      "chg1m": 16.329994201660156,
-      "chg3m": 24.479995727539062,
-      "chg1mPct": 19.22532815197998,
-      "chg3mPct": 31.879144987207674,
+      "drawdown1y": -10.500222160949901,
+      "ma20": 92.17700119018555,
+      "ma60": 83.20750033060709,
+      "chg1m": 16.149993896484375,
+      "chg3m": 24.29999542236328,
+      "chg1mPct": 19.013413506345316,
+      "chg3mPct": 31.644739071034046,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.22200012207031,
+      "current": 100.21900177001953,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.0879974365234375,
-      "changePct": -0.08772548964726656,
-      "pctRank": 37.151949085123306,
+      "changeAbs": -0.09099578857421875,
+      "changePct": -0.09071457560455594,
+      "pctRank": 36.9928400954654,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3660077550869065,
-      "ma20": 99.29659957885742,
-      "ma60": 100.17070020039877,
-      "chg1m": 0.5719985961914062,
-      "chg3m": 0.1320037841796875,
-      "chg1mPct": 0.5740076140820323,
-      "chg3mPct": 0.1318850924262802,
+      "drawdown1y": -1.368958598540071,
+      "ma20": 99.29644966125488,
+      "ma60": 100.17065022786458,
+      "chg1m": 0.569000244140625,
+      "chg3m": 0.12900543212890625,
+      "chg1mPct": 0.5709987309863279,
+      "chg3mPct": 0.12888943635625774,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4380.89990234375,
+      "current": 4380.60009765625,
       "prevClose": 4387.5,
-      "changeAbs": -6.60009765625,
-      "changePct": -0.1504295762108262,
+      "changeAbs": -6.89990234375,
+      "changePct": -0.15726273148148148,
       "pctRank": 89.0302066772655,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.62748227313361,
-      "ma20": 4498.474951171875,
-      "ma60": 4280.084989420573,
-      "chg1m": -39.7001953125,
-      "chg3m": -0.5,
-      "chg1mPct": -0.8980725339428142,
-      "chg3mPct": -0.011411877736440678,
+      "drawdown1y": -17.633119395068874,
+      "ma20": 4498.4599609375,
+      "ma60": 4280.079992675781,
+      "chg1m": -40.0,
+      "chg3m": -0.7998046875,
+      "chg1mPct": -0.9048545246426504,
+      "chg3mPct": -0.01825454661356429,
       "lastDate": "2026-09-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,11 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "US to allow Iranian leaders to attend UN General Assembly - Reuters",
+      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
-      "datetime": 1789675376,
-      "headlineKo": "미국, 이란 지도자들의 유엔 총회 참석 허용 - 로이터"
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
+      "datetime": 1789676915,
+      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - 로이터 통신"
+    },
+    {
+      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
+      "datetime": 1789675659,
+      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있습니다 - Reuters"
+    },
+    {
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
+      "datetime": 1789675538,
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
     },
     {
       "headline": "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it",
@@ -251,11 +265,18 @@ const MARKET_DATA = {
       "headlineKo": "Intel과 Micron은 우리의 포트폴리오를 더 높게 이끌고 J&J는 이를 소유하려는 우리의 주장을 강화합니다."
     },
     {
-      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
+      "headline": "Iranian delegation will be able to attend UN General Assembly, US says - Reuters",
       "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
-      "datetime": 1789669765,
-      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - 로이터 통신"
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
+      "datetime": 1789670951,
+      "headlineKo": "이란 대표단이 유엔 총회에 참석할 수 있을 것이라고 미국이 밝혔습니다 - 로이터"
+    },
+    {
+      "headline": "Lockheed Martin gets first batch of Patriot interceptor parts from General Motors - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNG1NWWFVb3NxMWY1WVJVeXpyRzlOdXdNWklvZER6T19vTWpqOGV4OU8tWE9ZeC1SYzZlYlFtbkxKdEZNTFdVVjY2a3huYnhCSU5EazRYU0hLWlRLckpxaXcwS0VpdE5kRElRcVpWYkc4NWZ3VW5yMnc5SXA0R1k0UjdNWVVfMXZwZjd6RURHUktZUXRjNWNncHBHclI2YW1Rd2paV0ExMmRObE4xRVVoSS1oREpRV3NOUncwMHJaLVNzdk94bmZReWMtT3l1RXZQSFVib0Jn?oc=5",
+      "datetime": 1789670131,
+      "headlineKo": "록히드 마틴, 제너럴모터스(GM)로부터 첫 번째 패트리어트 요격체 부품 공급 받아 - 로이터"
     },
     {
       "headline": "Stephen Curry says his Li-Ning signature shoe will debut early next year",
@@ -265,25 +286,11 @@ const MARKET_DATA = {
       "headlineKo": "스테판 커리 \"리닝 시그니처 슈즈 내년 초 선보일 것\""
     },
     {
-      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
-      "datetime": 1789665109,
-      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
-    },
-    {
       "headline": "We're buying more shares of a retailer that's been punished enough for a rare misstep",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/17/were-buying-more-shares-of-a-retailer-thats-been-punished-enough-for-a-rare-misstep.html",
       "datetime": 1789664920,
       "headlineKo": "우리는 드문 실수로 인해 충분한 처벌을 받은 소매업체의 주식을 더 많이 매입하고 있습니다."
-    },
-    {
-      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
-      "datetime": 1789664678,
-      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있습니다 - Reuters"
     },
     {
       "headline": "Stocks stage a comeback after Fed-induced declines — plus, what's ailing Boeing",
@@ -312,23 +319,16 @@ const MARKET_DATA = {
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGthY0luQlRSdV83a2g1VktUVlRKMVJCeXVjME5lNEU3MUNocU55OUhIQXhoRThxT0ZiVlUyMkM1ZENVVlowLWNaX0p5bFpjVnpfMDhPTl9EYU01MV94Y19fOE91Ym9oQS1XdENUbGotVjVRcjNsZzFGbnJDQi13Z0tSSEhMYlBiZ2pSallYMkRBb2F0Q24xT0ZpcnRUdzR0OEJLTUo4NEZtazJidEl5N3ItbkhFZmdpWVM5Mw?oc=5",
       "datetime": 1789652586,
       "headlineKo": "예멘의 후티 반군이 작은 산악 민병대에서 지역의 큰 위협으로 변한 과정 - 로이터 통신"
-    },
-    {
-      "headline": "US-Iran conflict helps drive wave of supertanker orders - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONHQ5ZjFKUlRNeTl4YXFuSUNzZ0FpZHRoUGRjMUJ0WjJhbVZOY2tQazZuVUdtMURzNzNnTlVadTZoT3gxUmYyYWdxS2o2bEdtSWRUcGExWjFOQXNsdmwzMm9EOFljblVTdk1OTXY2UUtuZ3pyOXhjSmhQTy0yQkFXUDFHN2tqR2p4VWhDcW1FbE9PY2lwLVJDcWhmWnFSMFZpSVBoUUJiOA?oc=5",
-      "datetime": 1789650827,
-      "headlineKo": "미국-이란 분쟁으로 초대형 유조선 주문 급증 - Reuters"
     }
   ],
   "fgi": {
     "score": 28.6857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789677701.8936818,
-  "_updated_label": "2026-09-18 05:42",
-  "_last_attempt_at": 1789677701.8936818,
-  "_last_success_at": 1789677701.8936818,
+  "_fetched_at": 1789681629.2206018,
+  "_updated_label": "2026-09-18 06:47",
+  "_last_attempt_at": 1789681629.2206018,
+  "_last_success_at": 1789681629.2206018,
   "_collection_status": "ok",
   "_collection_errors": []
 };
