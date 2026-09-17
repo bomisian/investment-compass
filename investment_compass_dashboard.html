@@ -3579,7 +3579,7 @@ function renderTtmPerHistory(ticker, price){
 // 엔진으로 재계산한 보수/기준/낙관 3개 시나리오, 이전 전달값($129.13)과 달라진 이유,
 // NTM/TTM 구성 내역, ROIC 민감도를 같은 박스 레이아웃(fund-row) 안에서 그대로 보여준다 -
 // 화면을 새로 만들지 않고 기존 상세박스 안에 행을 추가하는 방식으로만 확장했다.
-function renderAmatScenarioValuation(v, price){
+function renderAmatScenarioValuation(v, price, ticker){
   const us = v.updateStatus || {};
   let statusHtml;
   if(us.attemptStatus === 'SUCCESS'){
@@ -3640,17 +3640,50 @@ function renderAmatScenarioValuation(v, price){
   // 기존과 동일하게 아래 접이식 섹션에 그대로 남긴다 -- 화면을 새로 설계하지 않고 요약 한
   // 블록만 맨 앞에 추가했다.
   const sc = v.summaryCard || {};
-  const dataStatusColor = sc.dataStatusLevel === '최신_반영_완료' ? 'var(--sub)'
-    : (sc.dataStatusLevel === '판단_보류' ? 'var(--down)' : 'var(--warn)');
-  const dataStatusIcon = sc.dataStatusLevel === '최신_반영_완료' ? '✅'
-    : (sc.dataStatusLevel === '판단_보류' ? '🚫' : '⚠️');
+  // [2026-09-17 수정 -- 독립 재검토 지적 2번] 예전엔 이 요약이 생성 시점에 서버가 저장해 둔
+  // sc.currentPrice/sc.dataStatus*를 그대로 보여줬다 -- 화면을 실제로 여는 지금 시점의 실시간
+  // 비교가격(scanAll이 방금 받은 값)이나 최신성 재검사와 전혀 연결돼 있지 않아, 목록·상세·
+  // 수익조건 카드가 쓰는 값과 요약이 서로 다른 값·상태를 보여줄 수 있었다(합성 입력 재현으로
+  // 확인됨: 새 비교가격을 넘겨도 저장된 값이 그대로 표시됨). 이제 수익조건 카드와 완전히
+  // 같은 함수(computeLiveComparisonForScenario/computeLiveJudgmentGate)로 비교가격·관측일·
+  // 판단 게이트를 구해 요약에도 그대로 쓴다 -- 같은 실행이면 화면 어디서 봐도 같은 값·같은
+  // 상태가 나온다.
+  const liveComp = ticker ? computeLiveComparisonForScenario(v, ticker, 'base') : null;
+  const gate = computeLiveJudgmentGate(v, liveComp);
+  // 비교가격: 실시간 경로(liveComp)가 있으면 그 값, 없으면(수익조건 정보 자체가 없는 구형
+  // 데이터 등) 저장된 sc.currentPrice로 폴백한다 -- 이 경우도 "저장값"임을 화면에 그대로 밝힌다.
+  const compPrice = liveComp ? liveComp.purchasePrice : sc.currentPrice;
+  const compPriceIsLive = !!(liveComp && liveComp.isLive);
+  const compPriceSourceNote = liveComp ? liveComp.source : '저장된 실행 당시 값(수익조건 정보 없음)';
+  // 기준 추정가(sc.fairValueBase)는 이번 실행이 계산한 모델 출력이라 화면을 여는 시점과 무관하게
+  // 고정값이다 -- 여기서 다시 계산하지 않고 서버 값을 그대로 쓴다. 비교가격만 실시간으로 바뀐다.
+  const diffPct = (compPrice!=null && sc.fairValueBase!=null) ? (compPrice / sc.fairValueBase - 1.0) * 100.0 : null;
+  const diffLabel = diffPct==null ? null : (diffPct>0?'높음':(diffPct<0?'낮음':'동일'));
+  // 자료 상태: 실시간 판단 게이트가 막으면(gate.allowed===false, 예: 화면을 연 지금 시점
+  // 기준으로 다음 실적 발표일이 지났거나 비교가격 관측일이 오래됨) "판단 보류"를 최우선
+  // 표시한다(수익조건 카드와 동일한 판정 근거 -- reason도 그대로 재사용). 게이트가 막지
+  // 않을 때만 서버가 실행 당시 계산해 둔 sc.dataStatus*(예: 순부채가 대체값으로 계산됐다는
+  // 사실처럼, 그 실행 자체의 성격이라 시간이 지나도 바뀌지 않는 정보)를 보여준다. 요구수익률
+  // 입력 여부는 이 판단과 무관하다(gate는 requiredReturn을 전혀 보지 않음) -- 입력이 없다는
+  // 이유만으로 자료 불량처럼 표시되지 않는다.
+  let dataStatusLevel, dataStatusLabel, dataStatusDetail;
+  if(gate.allowed === false){
+    dataStatusLevel = '판단_보류'; dataStatusLabel = '판단 보류'; dataStatusDetail = gate.reason || '-';
+  } else {
+    dataStatusLevel = sc.dataStatusLevel; dataStatusLabel = sc.dataStatusLabel; dataStatusDetail = sc.dataStatusDetail;
+  }
+  const dataStatusColor = dataStatusLevel === '최신_반영_완료' ? 'var(--sub)'
+    : (dataStatusLevel === '판단_보류' ? 'var(--down)' : 'var(--warn)');
+  const dataStatusIcon = dataStatusLevel === '최신_반영_완료' ? '✅'
+    : (dataStatusLevel === '판단_보류' ? '🚫' : '⚠️');
   const summaryHtml = `
     <div class="fund-row"><span>AMAT 현재 추정 적정가</span>
       <span class="v"><b>$${sc.fairValueRangeLow!=null?sc.fairValueRangeLow.toFixed(2):'-'}~$${sc.fairValueRangeHigh!=null?sc.fairValueRangeHigh.toFixed(2):'-'}</b></span></div>
-    <div class="fund-row"><span>현재 주가</span>
-      <span class="v">$${sc.currentPrice!=null?sc.currentPrice.toFixed(2):'-'}${sc.diffVsCurrentPricePct!=null?` · 기준 추정가 대비 ${esc(sc.diffVsCurrentPriceLabel||'-')}(${sc.diffVsCurrentPricePct>=0?'+':''}${sc.diffVsCurrentPricePct.toFixed(1)}%)`:''}</span></div>
+    <div class="fund-row"><span>현재 주가${compPriceIsLive?'':' (저장값)'}</span>
+      <span class="v">$${compPrice!=null?compPrice.toFixed(2):'-'}${diffPct!=null?` · 기준 추정가 대비 ${esc(diffLabel||'-')}(${diffPct>=0?'+':''}${diffPct.toFixed(1)}%)`:''}</span></div>
+    <div class="sub" style="margin:0 0 4px;color:var(--sub);font-size:10.5px;">${esc(compPriceSourceNote)}${liveComp&&liveComp.priceAsOf?` (관측일 ${esc(liveComp.priceAsOf)})`:''}</div>
     <div class="sub" style="margin:2px 0 4px;"><b>변경 이유</b>: ${esc(sc.inputChangeSummary||'-')}</div>
-    <div class="sub" style="margin:2px 0 8px;color:${dataStatusColor};"><b>${dataStatusIcon} 자료 상태: ${esc(sc.dataStatusLabel||'-')}</b>${sc.dataStatusDetail?` - ${esc(sc.dataStatusDetail)}`:''}</div>`;
+    <div class="sub" style="margin:2px 0 8px;color:${dataStatusColor};"><b>${dataStatusIcon} 자료 상태: ${esc(dataStatusLabel||'-')}</b>${dataStatusDetail?` - ${esc(dataStatusDetail)}`:''}</div>`;
   return `
     <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
       <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · ${esc(v.asOf||'-')} 실행, ${esc(v.isReplayFixture ? '재생 시험' : '실제 수집')})</b>
@@ -4312,8 +4345,8 @@ function renderIndependentValuationSection(r){
   if(!iv || !iv.valuation) return '';
   const v = iv.valuation;
   const price = r.price;
-  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price) + renderReturnConditionCard(v, r.ticker);
-  if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price);
+  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price, r.ticker) + renderReturnConditionCard(v, r.ticker);
+  if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price, r.ticker);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};
   const evScenarios = a.evEbitdaScenarios || {};
