@@ -5403,16 +5403,16 @@ const FINANCIALS_DATA = {
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789677694.8568268,
-    "_updated_label": "2026-09-18 05:41"
+    "_fetched_at": 1789678802.7254243,
+    "_updated_label": "2026-09-18 06:00"
   },
   "SPY": {
     "annual": [],
     "quarterly": [],
     "_not_applicable": true,
     "_source": "ETF - 기업 재무제표 대상 아님",
-    "_fetched_at": 1789677694.8568268,
-    "_updated_label": "2026-09-18 05:41"
+    "_fetched_at": 1789678802.7254243,
+    "_updated_label": "2026-09-18 06:00"
   },
   "ORCL": {
     "annual": [
@@ -12605,18 +12605,13 @@ const FINANCIALS_DATA = {
         "period": "Q1'25",
         "revenue": 6377000000.0,
         "netIncome": 964000000.0,
-        "opIncome": 1201000000.0,
+        "opIncome": null,
         "endDate": "2025-03-31",
         "eps": 2.45,
         "ocf": 238000000,
         "capex": -147000000,
         "fcf": 91000000,
-        "_fcfIsProxy": true,
-        "pretaxIncome": 1177000000.0,
-        "taxProvision": 212000000.0,
-        "normalizedIncome": 964000000.0,
-        "unusualTaxEffect": 0.0,
-        "otherNonOperating": 9000000.0
+        "_fcfIsProxy": true
       },
       {
         "period": "Q2'25",
@@ -12694,7 +12689,13 @@ const FINANCIALS_DATA = {
         "ocf": 1127000000,
         "capex": -253000000,
         "fcf": 874000000,
-        "_fcfIsProxy": true
+        "_fcfIsProxy": true,
+        "opIncome": 1392000000.0,
+        "pretaxIncome": 1144000000.0,
+        "taxProvision": 321000000.0,
+        "normalizedIncome": 821000000.0,
+        "unusualTaxEffect": 0.0,
+        "otherNonOperating": -47000000.0
       }
     ],
     "_currency": "USD",
@@ -12800,8 +12801,8 @@ const FINANCIALS_DATA = {
       }
     ],
     "_shares_outstanding_source": "SEC dei:EntityCommonStockSharesOutstanding",
-    "_fetched_at": 1789677694.8568268,
-    "_updated_label": "2026-09-18 05:41",
+    "_fetched_at": 1789678802.7254243,
+    "_updated_label": "2026-09-18 06:00",
     "_data_quality_version": 16,
     "_collection_status": "ok",
     "_quarterly_eps_history": [
@@ -12828,7 +12829,7 @@ const FINANCIALS_DATA = {
     ],
     "_special_items_version": 1,
     "_yahoo_enrich_version": 4,
-    "_yahoo_verified_at": 1789677699.660429,
+    "_yahoo_verified_at": 1789678807.8109257,
     "_cashflow_source": "Yahoo Finance fundamentals-timeseries 보완"
   },
   "PWR": {

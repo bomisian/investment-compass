@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789677701.7404246,
+  "generatedAt": 1789678826.702197,
   "events": [
     {
       "id": "3ec29fd0bdd3cbab7916",
@@ -7021,7 +7021,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000210/crm-20260916.htm",
         "publishedAt": 1789570800.0,
-        "collectedAt": 1789657110.3116078
+        "collectedAt": 1789678809.3861787
       },
       "confirmedFacts": [
         "CRM가 2026-09-17에 SEC Form 8-K을 제출했습니다.",
@@ -13575,7 +13575,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026062267/sndk-20260910.htm",
         "publishedAt": 1789484400.0,
-        "collectedAt": 1789657110.3116078
+        "collectedAt": 1789678809.3861787
       },
       "confirmedFacts": [
         "SNDK가 2026-09-16에 SEC Form 8-K을 제출했습니다.",
@@ -17441,7 +17441,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526391989/d78508d8k.htm",
         "publishedAt": 1789398000.0,
-        "collectedAt": 1789657110.3116078
+        "collectedAt": 1789678809.3861787
       },
       "confirmedFacts": [
         "PWR가 2026-09-15에 SEC Form 8-K을 제출했습니다.",
@@ -17836,7 +17836,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
         "publishedAt": 1789311600.0,
-        "collectedAt": 1789657110.3116078
+        "collectedAt": 1789678809.3861787
       },
       "confirmedFacts": [
         "AMZN가 2026-09-14에 SEC Form 8-K을 제출했습니다.",
