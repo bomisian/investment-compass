@@ -523,7 +523,12 @@
 <!-- 키움증권 실제 매도 내역(ust21530) - 개인 실거래 정보라 로컬 전용, GitHub Pages 배포본엔 없음.
      appkey/secretkey를 config.json에 설정 안 했으면 이 파일 자체가 안 만들어짐 - 없어도 대시보드는 정상 동작함 -->
 <script src="kiwoom_sells_data.js" onerror="void 0"></script>
-<!-- 2026-09-15 추가(외부 검토 후속) - VST 독립 적정가 모델(EV/EBITDA+DCF) 수동 스냅샷, 아직 파이프라인 미연동 -->
+<!-- 2026-09-15 추가(외부 검토 후속) - VST 독립 적정가 모델(EV/EBITDA+DCF) 수동 스냅샷, 아직 파이프라인 미연동.
+     2026-09-17 갱신(AMAT 웹 이식) - 로컬 검수본에서는 AMAT 항목을 별도 파일
+     (independent_valuation_data_amat.js)로 분리해 시험했으나, 실제 배포본에서는 새 파일을
+     추가하지 않고 이 파일(independent_valuation_data.js) 안에 VST(원본 그대로, 바이트 단위
+     동일 확인됨) 옆에 AMAT 항목을 형제 키로 추가하는 방식으로 병합했다 -- 파일 종류를 늘리지
+     않고, 기존 스크립트 로딩 순서·onerror 방어 로직도 그대로 유지된다. -->
 <script src="independent_valuation_data.js" onerror="void 0"></script>
 <script>
 // ============ 워치리스트 (지수ETF 제외 - 개별 종목 판단용) ============
@@ -2124,6 +2129,10 @@ function loadScanCache(){
 function restoreFromScanCache(cache, willRefresh){
   results = cache.results;
   marketEnv = cache.marketEnv;
+  // 캐시로 복원한 결과도 실제로는 예전 scanAll이 받은 실가격이므로(날짜는 series.dates에
+  // 그대로 남아있음) 마찬가지로 실가격 비교 상태에 반영한다 -- willRefresh=true(뒤에서 조용히
+  // 새로고침)면 곧 scanAll()이 다시 호출돼 최신값으로 덮어쓴다.
+  captureLiveComparisonPrices({isCacheRestore: true});
   renderAnomalyBanner();
   renderSummary();
   renderSimpleView();
@@ -2177,6 +2186,12 @@ async function scanAll(){
       ? `<div class="err">완료 · ${list.length-failCount}개 성공 / ${failCount}개 실패</div>`
       : '';
     document.getElementById('updatedAt').textContent = '마지막 체크: ' + new Date().toLocaleString('ko-KR');
+    // [실가격 연결 신규] 방금 조회한 실시간 가격을 독립가치/수익조건이 읽을 수 있는 공유 상태에
+    // 담아 둔다 -- 목록의 r.price와 수익조건의 purchasePriceUsed가 서로 다른 경로(전자는 매
+    // scanAll마다 새로 옴, 후자는 예전엔 저장된 실행 당시 값에 고정돼 있었음)였던 것을 여기서
+    // 연결한다. 관측 시각은 방금 받은 일봉의 마지막 날짜(실제로 받은 데이터의 날짜)를 쓴다 --
+    // new Date()(스캔을 실행한 지금 시각)가 아니라, 가격 데이터 자체가 가리키는 날짜.
+    captureLiveComparisonPrices({isCacheRestore: false});
     renderAnomalyBanner();
     renderSummary();
     renderSimpleView();
@@ -2767,7 +2782,7 @@ function renderTable(){
     const chCls = r.drawdownPct>=0?'pos':'neg';
     const capTxt = r.marketCap!=null ? '$'+fmtUsd(r.marketCap) : '-';
     return `<tr id="tblrow-${r.ticker}" onclick="openDetail('${r.ticker}')">
-      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}</td>
+      <td class="name">${r.ticker}${hasFreshNews(r.ticker) ? '<span class="new-badge" title="Claude가 최근 조사해서 추가한 뉴스 해석 또는 실적 해석이 있어요 - 06 뉴스 탭 또는 05 전망 탭에 NEW 표시를 확인하세요">NEW</span>' : ''}${roleStarsBadge(r.ticker)}${roleTagsInline(r.ticker)}${renderReturnConditionListSummary(r)}</td>
       <td class="theme">${r.theme}</td>
       <td><span class="badge b-${r.verdict.cls}">${r.verdict.label} ${r.score}</span>${verdictCautionBadge(r)}<br>${decisionStatusBadgeHtml(r)}</td>
       <td>${valuationBadgeHtml(r)}</td>
@@ -3554,11 +3569,710 @@ function renderTtmPerHistory(ticker, price){
 // VST를 첫 시범 종목으로, 정상화 EBITDA·현금흐름에 동종업계 배수·할인율을 적용한 독립 모델을
 // 별도로 추가함(INDEPENDENT_VALUATION_DATA, independent_valuation_data.js). 아직 자동 파이프라인에
 // 연결되지 않은 수동 스냅샷(v1)이라 서로 다른 산출 방식임을 분명히 밝히고 산출 근거·출처를 전부 펼쳐 보여줌.
+// 2026-09-15 추가(AMAT 검토용 v1, Bundle C) - VST의 EV/EBITDA 3-시나리오 모델과는
+// 산출 방식이 근본적으로 다른(공통 FCFF/WACC 엔진 단일 실행) 모델이라 같은 3-구간 바에
+// 억지로 끼워 넣지 않고 별도 분기로 렌더링한다. amat_run_store의 실행기록(last_successful_run +
+// latest_attempt)에서 그대로 만든 값만 쓰며, 이 섹션은 목록/점수/메인 매수배지 어디에도
+// 연결되지 않는다(renderIndependentValuationSection은 상세화면에서만 1회 호출됨) - 실제
+// 매수판단 활성화는 계속 분리·보류 상태.
+// 2026-09-15 갱신(기간 계산·미래 성장가정 수정) - 과거엔 px 하나만 보여줬다. 이번엔 같은
+// 엔진으로 재계산한 보수/기준/낙관 3개 시나리오, 이전 전달값($129.13)과 달라진 이유,
+// NTM/TTM 구성 내역, ROIC 민감도를 같은 박스 레이아웃(fund-row) 안에서 그대로 보여준다 -
+// 화면을 새로 만들지 않고 기존 상세박스 안에 행을 추가하는 방식으로만 확장했다.
+function renderAmatScenarioValuation(v, price){
+  const us = v.updateStatus || {};
+  let statusHtml;
+  if(us.attemptStatus === 'SUCCESS'){
+    statusHtml = `<div class="sub" style="color:var(--sub);">마지막 갱신 시도: 성공 (${esc(us.attemptedAt||'-')}) · 자료 기준일 ${esc(us.dataAsOf||'-')}</div>`;
+  } else if(us.failureType === 'TRANSIENT_COLLECTION_ERROR'){
+    statusHtml = `<div class="sub" style="color:var(--warn);">⚠️ 최근 갱신 시도 실패(일시적 통신 오류, ${esc(us.attemptedAt||'-')}) - 마지막 정상 자료(기준일 ${esc(us.dataAsOf||'-')})를 참고용으로 계속 표시 중이에요.</div>`;
+  } else if(us.failureType === 'DATA_INVALIDATED'){
+    statusHtml = `<div class="sub" style="color:var(--down);">🚫 기존 자료 오류가 확인되어(${esc(us.attemptedAt||'-')}) 가격·판단을 보류합니다. ${esc(us.reason||'')}</div>`;
+  } else if(us.attemptStatus === 'FAILED'){
+    statusHtml = `<div class="sub" style="color:var(--warn);">⚠️ 최근 갱신 시도 실패(${esc(us.failureType||'-')}, ${esc(us.attemptedAt||'-')}) - 마지막 정상값은 그대로 유지돼요.</div>`;
+  } else {
+    statusHtml = `<div class="sub" style="color:var(--sub);">최근 갱신 시도 기록 없음</div>`;
+  }
+  if(us.holdPrice){
+    return `<div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · 실행 ID ${esc(v.runId||'-')})</b>
+      ${statusHtml}
+      <div class="sub" style="margin-top:6px;color:var(--down);">⚠️ 현재 표시할 수 있는 정상 가격이 없습니다. 관련 판단을 보류합니다.</div>
+    </div>`;
+  }
+  const scen = v.scenarios || {};
+  const pct = px => (px!=null) ? `${(px-price)/price*100>=0?'+':''}${((px-price)/price*100).toFixed(0)}%` : '-';
+  const scenLabel = {conservative:'보수', base:'기준', optimistic:'낙관'};
+  const scenRows = ['conservative','base','optimistic'].filter(k=>scen[k]).map(k => `
+    <div class="fund-row"><span>${k==='base'?'<b>기준</b>':scenLabel[k]}${k==='base'?'':''}</span>
+    <span class="v">${k==='base'?'<b>':''}$${scen[k].px.toFixed(2)} · ${pct(scen[k].px)}${k==='base'?'</b>':''}</span></div>
+    <div class="sub" style="margin:0 0 6px;">1년차 성장률 ${(scen[k].growthY1*100).toFixed(1)}% · ROIC ${(scen[k].roic*100).toFixed(0)}% · NTM $${(scen[k].ntmValue/1e9).toFixed(2)}B</div>
+  `).join('');
+  const ttmRows = Object.entries(v.ttm?.components || {}).map(([fp,val]) =>
+    `<div class="fund-row"><span>${esc(fp)}</span><span class="v">$${(val/1e9).toFixed(3)}B</span></div>`).join('');
+  const ndSrc = v.netDebtSource || {};
+  const notesRows = Object.entries(v.assumptionNotes || {}).map(([k,note]) => {
+    const observed = note && typeof note === 'object' ? note.observed : null;
+    const forward = note && typeof note === 'object' ? note.forward_assumption : note;
+    return `<div class="sub" style="margin-bottom:6px;"><b>${esc(k)}</b>
+      ${observed?`<br>관측: ${esc(observed)}`:''}
+      <br>적용: ${esc(forward||'')}</div>`;
+  }).join('');
+  const rs = v.roicSensitivity || {};
+  const rsRow = Object.keys(rs).length ? `<div class="sub" style="margin:4px 0;">ROIC 민감도: ${Object.entries(rs).map(([k,px])=>`${esc(k)}→$${px!=null?px.toFixed(2):'-'}`).join(' · ')}</div>` : '';
+  const hist = v.historicalReference;
+  const histRow = hist ? `<div class="sub" style="margin:4px 0;color:var(--sub);">참고(성장률 아님): ${esc(hist.label)} - TTM $${(hist.ttm_value/1e9).toFixed(3)}B vs ${esc(hist.prior_fy_label)} $${(hist.prior_fy_value/1e9).toFixed(3)}B (차이 ${(hist.diff_pct*100).toFixed(2)}%, 기준일이 달라 성장률로 쓰지 않음)</div>` : '';
+  const changeRows = (v.changeReasons||[]).map(c=>`<div class="sub" style="margin:2px 0;">- ${esc(c)}</div>`).join('');
+  const gpt = v.growthPathTable || [];
+  const growthPathRows = gpt.map(row => `<div class="fund-row"><span>${row.year}년차</span><span class="v">${row.year===1?'(시나리오별, 위 표 참고)':(row.rate*100).toFixed(0)+'%'}</span></div>
+    <div class="sub" style="margin:0 0 4px;">${esc(row.source)} -- ${esc(row.note)}</div>`).join('');
+  const gps = v.growthPathSensitivity || {};
+  const gpsRow = Object.keys(gps).length ? `<div class="sub" style="margin:4px 0;">2년차 성장률 민감도: ${Object.entries(gps).map(([k,px])=>`${esc(k)}→$${px!=null?px.toFixed(2):'-'}`).join(' · ')}</div>` : '';
+  const vt = v.valuationTiming || {};
+  const vtRow = vt.gap_days!=null ? `<div class="sub" style="margin:4px 0;">평가 기준일-가격 비교 시점 간극: ${esc(vt.valuation_anchor_date)} 기준 계산 vs ${esc(vt.price_comparison_date)} 가격 비교(${vt.gap_days}일 차이, 근사 영향 +${vt.approx_effect_pct.toFixed(2)}% -- px에는 미적용, 진단값으로만 노출)</div>` : '';
+  const df = v.dataFreshness || {};
+  const freshnessBanner = df.stale ? `<div class="sub" style="margin:4px 0 8px;color:var(--down);">⚠️ 다음 예상 실적 발표일(${esc(df.next_expected_earnings_date)}, 추정치)이 지났는데도 net_debt·가이던스·컨센서스가 갱신되지 않았습니다 -- 이 실행은 새 자료 반영 대기 상태이며 과거 참고값으로 취급해야 합니다.</div>` : '';
+  const disclaimer = v.scenarioDisclaimer ? `<div class="sub" style="margin:6px 0 8px;color:var(--warn);">⚠️ ${esc(v.scenarioDisclaimer)}</div>` : '';
+  return `
+    <div class="comment-box" style="background:var(--panel-2);margin-bottom:10px;">
+      <b>🧮 독립 적정가 (FCFF/WACC 공통 엔진 · ${esc(v.asOf||'-')} 실행, ${esc(v.isReplayFixture ? '재생 시험' : '실제 수집')})</b>
+      ${statusHtml}
+      <div class="sub" style="margin:4px 0 8px;">VST 섹션(EV/EBITDA 3-시나리오)과 계산 방식이 다른, AMAT 전용 공통 계산엔진(amat_calc_engine) 실행 결과예요. 세 시나리오 모두 같은 엔진·같은 원자료에서 1년차 성장률(회사 가이던스 범위)과 ROIC만 바꿔 계산했어요. 실제 매수판단·경보와는 아직 연결되지 않은 검토용 화면입니다.</div>
+      ${scenRows}
+      ${freshnessBanner}
+      ${disclaimer}
+      <div class="fund-row"><span>가격 상태</span><span class="v">${esc(v.priceState||'-')}</span></div>
+      <div class="fund-row"><span>실행 묶음 ID</span><span class="v" style="font-size:10.5px;">${esc(v.scenarioFamilyId||'-')}</span></div>
+      <details style="margin-top:8px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">이전 전달값($${v.priorDeliveredPx!=null?v.priorDeliveredPx.toFixed(2):'-'})과 달라진 이유</summary>
+        <div style="margin-top:6px;">${changeRows}</div>
+      </details>
+      <details style="margin-top:8px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">산출 근거·가정 자세히 보기</summary>
+        <div style="margin-top:6px;">
+          <div class="sub" style="margin-bottom:4px;"><b>TTM 매출 구성분기 (select_current 채택 결과 + 연속성 검사 통과)</b></div>
+          ${ttmRows}
+          ${histRow}
+          <div class="sub" style="margin:6px 0 4px;"><b>순부채</b>: ${esc(ndSrc.as_of_filing||'-')} 기준(${esc(ndSrc.as_of||'-')}, ${esc(ndSrc.basis_label||'')}) - 비유동 $${ndSrc.long_term_debt_noncurrent!=null?(ndSrc.long_term_debt_noncurrent/1e9).toFixed(3):'-'}B + 유동성만기 $${ndSrc.long_term_debt_current!=null?(ndSrc.long_term_debt_current/1e9).toFixed(3):'-'}B - 현금 $${ndSrc.cash_and_equivalents!=null?(ndSrc.cash_and_equivalents/1e9).toFixed(3):'-'}B. ${esc(ndSrc.auto_update_status_note||'')}</div>
+          <div class="sub" style="margin-bottom:4px;"><b>1년차 성장률 근거(기준 시나리오)</b>: ${esc(v.growthY1Basis||'-')}</div>
+          <div class="sub" style="margin:6px 0 4px;"><b>2~5년차 성장 경로 (모델가정, 실측·컨센서스 아님)</b></div>
+          ${growthPathRows}
+          ${gpsRow}
+          ${vtRow}
+          ${rsRow}
+          <div class="sub" style="margin-top:6px;color:var(--warn);">⚠️ 핵심 가정 -- 관측값과 미래 적용가정 구분</div>
+          ${notesRows}
+          <div class="sub" style="margin-top:6px;">출처: ${(v.sources||[]).map((u,i)=>`<a href="${esc(u)}" target="_blank" rel="noopener">[${i+1}]</a>`).join(' ')}</div>
+        </div>
+      </details>
+    </div>`;
+}
+// [이번 회차 신규] 수익조건 카드 -- 기존 독립 적정가 표시(현재가치, 위 renderAmatScenarioValuation)와는
+// 별개의 새 박스 하나로만 추가한다(화면 재설계 아님). 3년 보유 가정 하에 시나리오별 연환산 수익률과
+// 사용자가 직접 입력하는 요구수익률에 대한 매입가 상한을 보여준다. 수익조건 충족과 안전(위험조건)은
+// 절대 같은 말로 쓰지 않는다 -- 사용자 명시 요구.
+// [이번 회차 수정] (1) 화면 문구는 RETURN_JUDGMENT_LABELS 네 가지로 고정: 판단 보류 / 요구수익률
+// 선택 필요 / 수익조건 미충족 / 수익조건 충족·위험 확인 필요. (2) 최신성 문제(stale/price_stale)는
+// 경고 배너만 얹지 않고 judgment 문구 자체를 "판단 보류"로 바꾼다 -- 단, 계산된 P3·시나리오
+// 수익률 수치는 지우지 않고 "해당 실행일 기준 과거 참고값"으로 계속 보여준다. (3) 요구수익률은
+// 실제 입력 필드로 받아 저장된 cashflowsByYear로 그 자리에서(서버 재계산 없이) 다시 계산한다 --
+// 이 재계산은 매입가 상한·판정에만 영향을 주고, 위 독립 적정가(px)·P3(사업가치)는 전혀 건드리지
+// 않는다(요구수익률을 바꿔도 사업가치는 절대 바뀌지 않는다는 사용자 요구 조건).
+// ============ [이번 회차 신규] 실가격 연결 -- scanAll이 받은 실시간 가격을 수익조건 비교가격으로 ============
+// [배경 -- 사용자 지적 반영] 목록은 scanAll()이 받은 r.price(방금 조회한 실시간 가격)를 쓰지만,
+// 수익조건 판정(classifyReturnJudgmentJS)은 정적 데이터 파일에 저장된 scenario.purchasePriceUsed
+// (실행 당시 가격, 화면을 마지막으로 재생성한 시점의 값)를 썼다 -- 둘이 서로 다른 경로였다.
+// 새 가격을 조회해도 판정은 예전 가격 기준 그대로일 수 있었다는 뜻이다. 아래 코드가 그 둘을
+// 연결한다: scanAll이 끝나면 LIVE_COMPARISON_BY_TICKER에 실시간 가격·관측일을 담아 두고,
+// 수익조건 카드·목록 요약이 매입가·현금흐름·판정을 계산할 때 (가능하면) 이 값을 쓴다.
+// 저장된 실행 당시 가격(purchasePriceUsed)은 지우지 않는다 -- 그 실행을 나중에 재현하거나
+// 비교할 때 쓸 수 있도록 그대로 둔다. 독립 기업가치(px)·미래가치(P3)는 이 연결과 무관하게
+// 절대 바뀌지 않는다(사업가치와 비교가격은 서로 다른 것이라는 원칙 그대로 유지).
+const LIVE_COMPARISON_BY_TICKER = {};
+// [이번 회차 수정 -- 사용자 지적 반영] "가격을 받았다"와 "그 가격이 최신이다"는 다른 사실이다.
+// 이 함수는 여전히 "가격을 어떻게 받았는가"(신규 조회 성공 / 캐시 복원 / 이번 시도 실패)만
+// 기록한다 -- 실제 최신성(관측일이 오늘 기준 며칠 지났는가) 판단은 아래 evaluatePriceFreshnessJS가
+// 별도로 한다. 두 판단을 한 함수에 섞지 않는다.
+function captureLiveComparisonPrices(opts){
+  opts = opts || {};
+  const isCacheRestore = !!opts.isCacheRestore;
+  if(typeof INDEPENDENT_VALUATION_DATA === 'undefined' || !INDEPENDENT_VALUATION_DATA) return;
+  Object.keys(INDEPENDENT_VALUATION_DATA).forEach(function(t){
+    const iv = INDEPENDENT_VALUATION_DATA[t];
+    if(!iv || !iv.valuation || iv.valuation.kind !== 'independent_value_dcf_scenario_engine') return;
+    const r = results[t];
+    if(!r){ return; }  // 이번 스캔/캐시에 이 종목 자체가 없음 -- 기존 값(있다면) 그대로 둔다.
+    if(r.error || r.price == null){
+      // [이번 회차 신규] 이번 시도가 실패했다는 사실을 남기되, 이전에 성공한 값이 있으면
+      // 그 값을 지우지 않는다 -- 단, "방금 새로 받은 값"이라고 표시하지도 않는다. 화면은
+      // lastAttemptFailedAt이 있으면 "이전 성공값(이번 조회 실패)"이라고 구분해 보여줘야 한다.
+      if(LIVE_COMPARISON_BY_TICKER[t]){
+        LIVE_COMPARISON_BY_TICKER[t] = Object.assign({}, LIVE_COMPARISON_BY_TICKER[t], {
+          lastAttemptFailedAt: new Date().toISOString(),
+          lastAttemptError: r.msg || (r.error ? '조회 실패' : '가격 없음'),
+        });
+      }
+      return;
+    }
+    // 가격 관측일은 "지금 스캔을 실행한 시각"이 아니라 "방금 받은 일봉 데이터 자체의 마지막
+    // 날짜"를 쓴다 -- 데이터 제공자가 실제로 그 날짜의 가격이라고 응답했다는 뜻이 더 정확하다.
+    const dates = r.series && r.series.dates;
+    const lastDate = (dates && dates.length) ? dates[dates.length - 1] : null;
+    if(!lastDate) return;  // 관측일을 알 수 없으면 비교가격으로 쓰지 않는다(저장된 값으로 대체됨).
+    LIVE_COMPARISON_BY_TICKER[t] = {
+      price: r.price, asOf: lastDate,
+      source: isCacheRestore ? 'scanAll_cache_restored' : 'scanAll_live_quote',
+      fetchKind: isCacheRestore ? 'cache_restored' : 'fresh_fetch',
+      capturedAt: new Date().toISOString(),
+      lastAttemptFailedAt: null, lastAttemptError: null,
+    };
+  });
+}
+// [보유기간 재계산] Python compute_year3_rollforward_value가 반환하는 p3ValuationDate까지,
+// 새 비교 관측일(purchaseDateStr) 기준 실제 보유기간을 다시 계산한다 -- Python의 날짜 뺄셈과
+// 동일한 로직(일 단위 차이 / 365)을 그대로 이식했다.
+function computeHoldingPeriodYearsJS(purchaseDateStr, p3ValuationDateStr){
+  if(!purchaseDateStr || !p3ValuationDateStr) return null;
+  const d1 = new Date(purchaseDateStr + 'T00:00:00Z');
+  const d2 = new Date(p3ValuationDateStr + 'T00:00:00Z');
+  if(isNaN(d1.getTime()) || isNaN(d2.getTime())) return null;
+  const days = Math.round((d2.getTime() - d1.getTime()) / 86400000);
+  if(days <= 0) return null;  // 관측일이 미래가치 평가일 이후이거나 같음 -- 계산 불가(Python과 동일 처리).
+  return {days, years: days / 365};
+}
+// [현금흐름 재구성] Python build_return_cashflows와 동일한 구조로 다시 맞췄다.
+// [이번 회차 수정 -- 사용자 지적 반영] 예전엔 보유기간(holdingPeriodYears)과 무관하게
+// 무조건 연차1·2에 연배당을 넣고 마지막 시점에 또 배당+P3를 넣었다 -- 보유기간이 1.5년이면
+// 매도 이후인 연차2 배당까지 수익률 계산에 남는 오류였다. 이제는 실제 보유기간 안에서
+// 맞이하는 정수 연차에만 연배당을 넣고, 매도 시점(마지막)에는 그 해의 부분기간 비례
+// 배당만 더해 매도대금(P3)과 합산한다 -- 매도 이후 시점은 만들지 않는다. 보유기간이
+// 정수면 마지막 정수연차와 매도 시점이 같은 키이므로 배당·매도대금을 한 번만 합산한다
+// (덮어쓰지 않음). 보유기간이 0년 이하이거나 유효하지 않으면 null을 돌려준다 -- 호출부가
+// "지원하지 않는 기간 -- 판단 보류"로 처리해야 한다.
+function buildReturnCashflowsJS(annualDividendPerShare, p3PerShare, holdingPeriodYears){
+  const dps = annualDividendPerShare;
+  if(holdingPeriodYears == null || !isFinite(holdingPeriodYears) || holdingPeriodYears <= 0) return null;
+  const EPS = 1e-9;
+  const fullYears = Math.floor(holdingPeriodYears);
+  const stub = holdingPeriodYears - fullYears;
+  const cf = {};
+  if(stub > EPS){
+    for(let y = 1; y <= fullYears; y++){ cf[y] = (cf[y]||0) + dps; }
+    cf[holdingPeriodYears] = (cf[holdingPeriodYears]||0) + dps * stub + p3PerShare;
+  } else {
+    for(let y = 1; y < fullYears; y++){ cf[y] = (cf[y]||0) + dps; }
+    cf[fullYears] = (cf[fullYears]||0) + dps + p3PerShare;
+  }
+  return cf;
+}
+// [연환산 수익률 이분법] Python solve_annualized_return과 동일한 이분법 -- 별도 수치해
+// 함수이며 solve_implied_rate(적정가 역산)와 다르다(그쪽과 근거를 섞지 않는다).
+function solveAnnualizedReturnJS(cashflowsByYear, purchasePrice, rLo, rHi, tol, maxIter){
+  rLo = (rLo != null) ? rLo : -0.90; rHi = (rHi != null) ? rHi : 5.0;
+  tol = (tol != null) ? tol : 1e-9; maxIter = (maxIter != null) ? maxIter : 200;
+  function pv(r){
+    let s = 0;
+    for(const t in cashflowsByYear){
+      const denom = Math.pow(1 + r, Number(t));
+      if(!isFinite(denom) || denom === 0) return null;
+      s += cashflowsByYear[t] / denom;
+    }
+    return isFinite(s) ? s : null;
+  }
+  function f(r){ const v = pv(r); return (v == null) ? null : v - purchasePrice; }
+  let flo = f(rLo), fhi = f(rHi);
+  if(flo == null || fhi == null) return {status: 'NUMERIC_FAIL', rate: null};
+  if(flo * fhi > 0) return {status: 'NOT_FOUND_IN_RANGE', rate: null};
+  let lo = rLo, hi = rHi;
+  for(let i = 0; i < maxIter; i++){
+    const mid = (lo + hi) / 2, fmid = f(mid);
+    if(fmid == null) return {status: 'NUMERIC_FAIL', rate: null};
+    if(Math.abs(fmid) < tol) return {status: 'SUCCESS', rate: mid};
+    if(flo * fmid < 0){ hi = mid; } else { lo = mid; flo = fmid; }
+  }
+  return {status: 'NUMERIC_FAIL', rate: null};
+}
+// [핵심 연결부] 저장된 시나리오(p3PerShare·미래가치 평가일·배당가정)와 LIVE_COMPARISON_BY_TICKER
+// (있으면)를 합쳐 "지금 비교에 쓸 매입가·보유기간·현금흐름"을 만든다. 실시간 가격이 아직 없거나
+// (스캔 전) 보유기간을 계산할 수 없으면 저장된 실행 당시 값(재현용)으로 명시적으로 폴백한다 --
+// 이 폴백은 침묵하지 않고 isLive:false와 source 문구로 항상 구분된다.
+function computeLiveComparisonForScenario(v, ticker, scenarioKey){
+  const s = v.returnConditionYear3 && v.returnConditionYear3.scenarios && v.returnConditionYear3.scenarios[scenarioKey];
+  if(!s || s.blocked) return null;
+  const stored = {
+    purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
+    holdingPeriodYears: s.holdingPeriodActualYears, cashflowsByYear: s.cashflowsByYear,
+    isLive: false, fetchKind: 'stored_execution_value',
+    source: '저장된 실행 당시 값(재현용) -- 아직 실시간 가격을 받지 못함(전체 스캔 필요)',
+  };
+  const live = LIVE_COMPARISON_BY_TICKER[ticker];
+  if(!live || live.price == null || !live.asOf) return stored;
+  // [이번 회차 신규 -- 사용자 지적 반영] 이번 조회 시도가 실패해서 이전 성공값을 그대로 쓰는
+  // 경우, "방금 새로 받은 가격"처럼 보이지 않게 라벨을 분리한다. isLive는 여전히 true로 두되
+  // (실제로 실시간 경로를 거쳐 받은 값이므로), source 문구에 "이번 조회는 실패, 이전 성공값"
+  // 이라는 사실을 명시한다 -- 최신성 여부(허용/차단)는 이 함수가 아니라 evaluatePriceFreshnessJS가
+  // priceAsOf(관측일)를 오늘과 비교해서 따로 결정한다.
+  const reusedAfterFailure = !!live.lastAttemptFailedAt;
+  const fetchLabel = live.fetchKind === 'cache_restored' ? '캐시에서 복원된 값'
+    : (reusedAfterFailure ? `이전 조회 성공값(이번 조회는 실패: ${esc(live.lastAttemptError||'-')})` : '방금 조회 성공한 값');
+  const dividendSource = v.returnConditionYear3.dividendSource || {};
+  const annualDiv = dividendSource.annualized_dividend_per_share;
+  if(annualDiv == null || s.p3PerShare == null || !s.p3ValuationDate) {
+    return Object.assign({}, stored, {
+      source: `실시간 가격(${live.asOf}, ${fetchLabel})은 받았지만 배당/미래가치 평가일 정보가 없어 저장된 값을 대신 사용`,
+    });
+  }
+  const hp = computeHoldingPeriodYearsJS(live.asOf, s.p3ValuationDate);
+  if(!hp){
+    return Object.assign({}, stored, {
+      source: `실시간 가격(${live.asOf}, ${fetchLabel}) 기준 보유기간을 계산할 수 없어(관측일이 미래가치 평가일 `
+              + `이후이거나 날짜 오류) 저장된 실행 당시 값을 대신 사용`,
+    });
+  }
+  const cashflows = buildReturnCashflowsJS(annualDiv, s.p3PerShare, hp.years);
+  if(!cashflows){
+    // [이번 회차 신규] 보유기간이 지원 범위를 벗어나면(0년 이하 등) 현금흐름을 만들 수 없다 --
+    // 억지로 근사하지 않고 저장된 값으로 폴백한다(그 값 역시 같은 이유로 이미 blocked였을 것).
+    return Object.assign({}, stored, {
+      source: `실시간 가격(${live.asOf}, ${fetchLabel}) 기준 보유기간(${hp.years.toFixed(4)}년)이 현금흐름을 `
+              + `구성할 수 없는 범위라 저장된 실행 당시 값을 대신 사용`,
+    });
+  }
+  return {
+    purchasePrice: live.price, priceAsOf: live.asOf,
+    holdingPeriodYears: hp.years, holdingPeriodDays: hp.days,
+    cashflowsByYear: cashflows,
+    isLive: true, fetchKind: live.fetchKind, reusedAfterFailure,
+    source: `${fetchLabel}(${live.asOf} 관측)`,
+  };
+}
+// [이번 회차 신규 -- 사용자 지적 반영: 최신성 재검사] 저장된 스냅샷(생성 시점에 계산해 둔
+// df.stale/df.next_expected_earnings_date 등)을 그대로 믿지 않고, 화면을 실제로 여는 지금
+// 시각(new Date()) 기준으로 다시 비교한다. 새로운 공시를 자동으로 찾아내는 기능은 아니다 --
+// 이미 알려진 예상 발표일·미반영 공시 목록을 오늘 날짜와 다시 대조할 뿐이다.
+function reevaluateDataFreshnessJS(df){
+  // [이번 회차 수정 -- 사용자 지적 반영: 입력 누락 방어] 예전엔 next_expected_earnings_date가
+  // 없으면 함수가 곧바로 stale:false로 돌아가면서 미반영 공시(unreflected_disclosures) 검사
+  // 자체를 건너뛰었다 -- 예상일이 없어도 이미 알려진 미반영 공시는 여전히 검사해야 한다.
+  // 순서를 바꿔 미반영 공시를 먼저 본다. 또한 최신성을 판정할 메타데이터(df 자체 또는
+  // next_expected_earnings_date)가 없거나 날짜 형식이 잘못됐으면, 예전처럼 "검사 불가하니
+  // 통과"로 흘려보내지 않는다 -- 이 버전에는 최신성을 확인할 다른 근거가 없으므로, checkable:false는
+  // 곧바로 stale:true(판단 보류)로 취급하고 이유를 남긴다. checkable 필드는 "왜 모르는지"를
+  // 구분하기 위해 계속 반환하지만, 호출부가 이를 무시하고 통과시키지 않도록 stale 자체에 반영한다.
+  if(!df){
+    return {stale: true, checkable: false,
+            reason: '기업자료 최신성 메타데이터(dataFreshness) 자체가 없어 최신성을 확인할 수 없음 -- 판단 보류'};
+  }
+  const unreflected = df.unreflected_disclosures || [];
+  if(unreflected.length){
+    return {stale: true, checkable: true,
+            reason: `확인됐지만 아직 반영되지 않은 항목 ${unreflected.length}건: `
+                    + unreflected.map(function(p){ return (p && p.label) || '-'; }).join(', ')};
+  }
+  const nextDate = df.next_expected_earnings_date;
+  const validDateFormat = typeof nextDate === 'string' && /^\d{4}-\d{2}-\d{2}/.test(nextDate)
+                           && !isNaN(new Date(nextDate.slice(0, 10) + 'T00:00:00Z').getTime());
+  if(!nextDate || !validDateFormat){
+    return {stale: true, checkable: false,
+            reason: `예상 다음 실적 발표일(next_expected_earnings_date)이 없거나 형식이 잘못됨`
+                    + `(${JSON.stringify(nextDate)}) -- 최신성을 확인할 수 없어 판단 보류`};
+  }
+  const todayStr = new Date().toISOString().slice(0, 10);
+  const staleByDate = todayStr > nextDate.slice(0, 10);
+  return {
+    stale: staleByDate, checkable: true,
+    reason: staleByDate
+      ? `예상 다음 실적 발표일(${nextDate}, 추정치)이 화면을 연 시점(${todayStr}) 기준으로 `
+        + `이미 지남 -- 새 공시 자동 발견 기능은 없으므로 실제 반영 여부는 수동 확인 필요`
+      : null,
+  };
+}
+// [이번 회차 신규 -- 사용자 지적 반영: 비교가격 연결] "실시간 경로로 받았다(isLive)"는 사실과
+// "그 가격이 최신이다"는 사실은 다르다 -- 캐시 복원값도 isLive:true로 등록되므로, 예전 코드처럼
+// isLive만 보고 가격 노후 검사를 무조건 해제하면 오래된 캐시가 최신 가격처럼 통과할 수 있었다.
+// 이제 비교가격 자체의 관측일(liveComp.priceAsOf)을 오늘과 직접 비교해서 판단한다.
+function evaluatePriceFreshnessJS(liveComp, df){
+  const thresholdDays = (df && df.price_stale_threshold_days != null) ? df.price_stale_threshold_days : 7;
+  if(!liveComp || liveComp.priceAsOf == null){
+    return {stale: true, reason: '비교가격 관측일을 알 수 없음'};
+  }
+  const obsDate = new Date(liveComp.priceAsOf + 'T00:00:00Z');
+  if(isNaN(obsDate.getTime())) return {stale: true, reason: `비교가격 관측일(${liveComp.priceAsOf}) 형식 오류`};
+  const now = new Date();
+  const todayUTC = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  const gapDays = Math.round((todayUTC - obsDate.getTime()) / 86400000);
+  if(gapDays < 0){
+    return {stale: true, reason: `비교가격 관측일(${liveComp.priceAsOf})이 오늘보다 미래로 기록됨 -- 데이터 오류로 `
+                                  + `판단해 판단 보류`};
+  }
+  const stale = gapDays > thresholdDays;
+  return {
+    stale, gapDays,
+    reason: stale
+      ? `비교가격 관측일(${liveComp.priceAsOf}) 기준 오늘까지 ${gapDays}일 경과(허용 ${thresholdDays}일) -- `
+        + `${liveComp.isLive ? '실시간 경로로 받았지만' : '저장된 값이며'} 최신 가격으로 인정하지 않음`
+      : null,
+  };
+}
+// [최신성 재판정 -- 이번 회차 전면 수정] 예전엔 `isLive ? false : df.price_stale`로 실시간 경로로
+// 받았다는 사실만으로 가격 노후 검사를 무조건 해제했다 -- 캐시 복원값(오래된 관측일일 수 있음)도
+// isLive:true로 등록되므로, 실제로는 오래된 가격이 "최신"으로 통과할 수 있는 구멍이었다. 이제
+// liveComp(비교가격 그 자체)를 받아 evaluatePriceFreshnessJS로 실제 경과일을 확인하고, 기업자료도
+// 저장된 stale 값과 화면을 여는 지금 시각 기준 재검사(reevaluateDataFreshnessJS) 중 하나라도
+// 걸리면 차단한다 -- 둘 중 하나를 반영했다고 다른 하나까지 자동으로 해소되지 않는다.
+function computeLiveJudgmentGate(v, liveComp){
+  const df = v.dataFreshness || {};
+  const dataReeval = reevaluateDataFreshnessJS(df);
+  const dataStale = !!df.stale || dataReeval.stale;
+  const priceGate = evaluatePriceFreshnessJS(liveComp, df);
+  const allowed = !(dataStale || priceGate.stale);
+  let reason = null;
+  if(dataStale) reason = dataReeval.reason || df.note || '기업자료(실적·가이던스) 반영 대기';
+  else if(priceGate.stale) reason = priceGate.reason;
+  return {allowed, reason, dataReeval, priceGate};
+}
+const RETURN_JUDGMENT_LABELS_JS = {
+  BLOCKED: '판단 보류',
+  REQUIRED_RETURN_NOT_SET: '요구수익률 선택 필요',
+  RETURN_CONDITION_NOT_MET: '수익조건 미충족',
+  RETURN_CONDITION_MET_RISK_TBD: '수익조건 충족·위험 확인 필요',
+};
+const RETURN_JUDGMENT_COLOR_JS = {
+  BLOCKED: 'var(--down)', REQUIRED_RETURN_NOT_SET: 'var(--sub)',
+  RETURN_CONDITION_NOT_MET: 'var(--warn)', RETURN_CONDITION_MET_RISK_TBD: 'var(--up)',
+};
+// classify_return_judgment(Python)의 4단계 우선순위를 화면에서 그대로 거울처럼 따른다 --
+// 서버와 다른 판정 로직을 화면이 따로 갖지 않도록.
+// [이번 회차 수정 -- 사용자 지적 반영] 예전엔 requiredReturn이 "비어있음(null)"과
+// "값은 있지만 계산 함수의 정의역 밖(예: -150%)"을 구분하지 못했다 -- finite 검사만
+// 했기 때문에, recomputeCeilingJS가 도메인 밖 r에 대해 null을 반환해도 이 함수는
+// 그대로 통과해 맨 아래 NOT_MET("수익조건 미충족")으로 잘못 떨어졌다. 이제
+// inputInvalid를 별도 인자로 받아 "입력칸이 비어있음(요구수익률 선택 필요)"과
+// "입력은 있지만 유효하지 않음(판단 보류/입력 오류)"을 분리한다.
+function classifyReturnJudgmentJS(scenario, currentJudgmentAllowed, stalenessReason, requiredReturn, maxPurchasePrice, inputInvalid){
+  if(scenario.blocked){
+    return {judgment:'BLOCKED', label: RETURN_JUDGMENT_LABELS_JS.BLOCKED, detail: scenario.blockReason||'-'};
+  }
+  if(currentJudgmentAllowed === false){
+    return {judgment:'BLOCKED', label: RETURN_JUDGMENT_LABELS_JS.BLOCKED,
+            detail: `자료 최신성 문제 -- ${stalenessReason||'-'} (아래 수치는 과거 참고값)`};
+  }
+  if(requiredReturn == null && !inputInvalid){
+    return {judgment:'REQUIRED_RETURN_NOT_SET', label: RETURN_JUDGMENT_LABELS_JS.REQUIRED_RETURN_NOT_SET, detail:''};
+  }
+  if(inputInvalid || maxPurchasePrice == null || !isFinite(maxPurchasePrice)){
+    // 요구수익률 칸에 값을 입력했지만(비어있지 않음) 계산 함수의 정의역 밖이거나(<=-100%,
+    // 숫자가 아님) 계산 결과가 비유한(overflow)이라 매입가 상한을 구할 수 없는 경우다 --
+    // "수익조건 미충족"이 아니라 입력 오류/판단 보류로 처리한다(사용자 명시 요구).
+    return {judgment:'BLOCKED', label: RETURN_JUDGMENT_LABELS_JS.BLOCKED,
+            detail: '요구수익률 입력 오류 -- 값이 계산 가능한 범위(-100% 초과)의 숫자가 아니거나 계산 결과가 유효하지 않습니다.'};
+  }
+  const priceUsed = scenario.purchasePriceUsed;
+  if(priceUsed != null && priceUsed <= maxPurchasePrice){
+    return {judgment:'RETURN_CONDITION_MET_RISK_TBD', label: RETURN_JUDGMENT_LABELS_JS.RETURN_CONDITION_MET_RISK_TBD,
+            detail: `현재가 $${priceUsed.toFixed(2)} <= 요구수익률 충족 매입가격 상한 $${maxPurchasePrice.toFixed(2)}`};
+  }
+  return {judgment:'RETURN_CONDITION_NOT_MET', label: RETURN_JUDGMENT_LABELS_JS.RETURN_CONDITION_NOT_MET,
+          detail: (priceUsed!=null) ? `현재가 $${priceUsed.toFixed(2)} > 요구수익률 충족 매입가격 상한 $${maxPurchasePrice.toFixed(2)}` : '-'};
+}
+// Σ cf_t/(1+r)^t -- 저장된 cashflowsByYear(연차:현금흐름)로 매입가 상한을 그 자리에서 다시 계산.
+// [이번 회차 수정] 계산 결과가 유한하지 않으면(overflow 등) null을 돌려줘, 호출부가 이를
+// "매입가 상한을 구할 수 없음"(입력 오류)으로 처리할 수 있게 한다.
+function recomputeCeilingJS(cashflowsByYear, r){
+  if(!cashflowsByYear || r == null || !isFinite(r) || r <= -1) return null;
+  let total = 0;
+  for(const t in cashflowsByYear){ total += cashflowsByYear[t] / Math.pow(1+r, Number(t)); }
+  return isFinite(total) ? total : null;
+}
+// [이번 회차 수정] 카드 안에 <script> 태그를 직접 끼워 넣지 않는다 -- innerHTML로 삽입된
+// <script>는 브라우저가 실행하지 않으므로(잘 알려진 DOM 동작), 이전 시도는 실제로는 전혀
+// 동작하지 않았을 것이다. 대신 렌더 시점(즉시 실행되는 일반 JS 함수 호출)에 카드별 데이터를
+// 전역 레지스트리에 등록해 두고, 문서 전체에 입력 이벤트를 한 번만 위임(delegate)해서 처리한다.
+const RC_CARD_REGISTRY = {};
+// [Bundle 3 신규 -- 실제 종목 목록에 AMAT 요약 연결] 목록 행과 상세화면이 "같은 실행 ID와
+// 같은 사용자 조건"을 쓰도록 공유하는 상태. 종목(ticker) 단위로 사용자가 마지막으로 입력한
+// 요구수익률(%)을 담아 둔다 -- 새로고침하면 초기화된다(영속 저장 아님, 이번 회차 범위는
+// "같은 세션 안에서 목록·상세가 서로 다른 값을 쓰지 않는다"까지).
+const SHARED_REQUIRED_RETURN_BY_TICKER = {};
+// cardId(실행ID 기반) -> ticker 매핑. 상세 카드의 입력 이벤트가 발생했을 때 어느 종목의
+// 목록 행 요약을 함께 갱신해야 하는지 알기 위함.
+const RC_CARD_TICKER = {};
+function updateReturnConditionCardDOM(cardId){
+  // [이번 회차 수정 -- 사용자 지적 반영: 비교가격 연결] 레지스트리에는 이제 rc(returnConditionYear3)가
+  // 아니라 v(valuation) 전체를 저장한다 -- computeLiveComparisonForScenario/computeLiveJudgmentGate가
+  // v.returnConditionYear3.dividendSource·v.dataFreshness 등 rc 밖의 필드도 함께 필요하기 때문이다.
+  const v = RC_CARD_REGISTRY[cardId];
+  const rcData = v && v.returnConditionYear3;
+  const card = document.getElementById(cardId);
+  if(!rcData || !card) return;
+  const input = card.querySelector('[data-rc-input="'+cardId+'"]');
+  const rawVal = input ? input.value : '';
+  // [이번 회차 수정 -- 사용자 지적 반영] 예전엔 "입력칸이 비어있음"과 "입력은 있지만
+  // 숫자가 아니거나(NaN) 도메인 밖(<=-100%)"을 똑같이 취급했다(둘 다 r=null로 -> "요구수익률
+  // 선택 필요"). 이제 셋을 분리한다: (1) 빈 문자열 -> 정말 선택 안 함. (2) 파싱 불가/도메인
+  // 밖 -> 입력 오류(inputInvalid=true). (3) 정상 숫자 -> 그대로 계산.
+  let rPct = null, inputInvalid = false;
+  if(rawVal === ''){
+    rPct = null;
+  } else {
+    const parsed = parseFloat(rawVal);
+    if(!isFinite(parsed)){
+      inputInvalid = true;
+    } else {
+      rPct = parsed;
+    }
+  }
+  let r = (rPct!=null) ? rPct/100 : null;
+  if(r != null && r <= -1){
+    inputInvalid = true;
+    r = null;
+  }
+  // [Bundle 3 신규] 이 카드(=이 실행 ID)가 어느 종목인지 찾아, 사용자가 입력한 요구수익률을
+  // 공유 상태에 반영한다 -- 목록 행이 상세화면과 같은 조건을 보여주기 위함. 입력칸을 비우면
+  // (rawVal==='') 공유 상태도 "선택 안 함"으로 되돌린다(조건 선택 필요 상태로 복귀 -- 사용자
+  // 명시 요구: 입력을 지우면 '조건 선택 필요' 상태로 돌아가야 함).
+  const rcTicker = RC_CARD_TICKER[cardId];
+  if(rcTicker){
+    if(rawVal === ''){
+      delete SHARED_REQUIRED_RETURN_BY_TICKER[rcTicker];
+    } else if(!inputInvalid && rPct!=null){
+      SHARED_REQUIRED_RETURN_BY_TICKER[rcTicker] = rPct;
+    }
+    // inputInvalid인 경우(파싱 불가/도메인 밖) 공유 상태는 마지막 유효값을 그대로 유지한다 --
+    // 목록 행이 순간적으로 깨진 입력값을 따라가지 않도록.
+  }
+  ['conservative','base','optimistic'].forEach(function(k){
+    const s = rcData.scenarios && rcData.scenarios[k];
+    if(!s || s.blocked) return;
+    // [이번 회차 -- 비교가격 연결] 저장된 s.purchasePriceUsed/s.cashflowsByYear를 그대로 쓰지 않고,
+    // scanAll()이 받은 실시간 가격이 있으면 그 가격·관측일 기준으로 다시 만든 비교값을 쓴다.
+    // 실시간 가격이 없으면 liveComp는 저장값으로 명시적 폴백하며 isLive:false로 표시된다.
+    const liveComp = computeLiveComparisonForScenario(v, rcTicker, k);
+    const effComp = liveComp || {purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
+                                  cashflowsByYear: s.cashflowsByYear, isLive: false, source: '-'};
+    const gate = computeLiveJudgmentGate(v, effComp);
+    const ceiling = (r!=null && !inputInvalid) ? recomputeCeilingJS(effComp.cashflowsByYear, r) : null;
+    if(r!=null && ceiling==null) inputInvalid = true;  // 계산 자체는 시도했지만 결과가 유효하지 않음(overflow 등)
+    const effScenario = Object.assign({}, s, {purchasePriceUsed: effComp.purchasePrice});
+    const j = classifyReturnJudgmentJS(effScenario, gate.allowed, gate.reason, r, ceiling, inputInvalid);
+    const target = card.querySelector('[data-rc-judgment="'+k+'"]');
+    if(!target) return;
+    const color = RETURN_JUDGMENT_COLOR_JS[j.judgment] || 'var(--sub)';
+    const ceilingLine = (ceiling!=null) ? (' · 매입가 상한 $' + ceiling.toFixed(2)) : '';
+    const safeNote = (j.judgment==='RETURN_CONDITION_MET_RISK_TBD') ? ' (안전한 매수라는 뜻이 아닙니다 -- 위험조건은 이번 범위 밖)' : '';
+    const compareNote = ' · 비교가격 $' + (effComp.purchasePrice!=null?effComp.purchasePrice.toFixed(2):'-')
+      + '(' + esc(effComp.priceAsOf||'-') + ' 관측' + (effComp.isLive ? ', 실시간' : ', 저장값') + ')';
+    target.style.color = color;
+    target.innerHTML = j.label + (j.detail ? (' - ' + j.detail) : '') + ceilingLine + safeNote + compareNote;
+  });
+  // [Bundle 3 신규] 상세화면에서 요구수익률을 바꾸면 목록 행 요약도 같은 값으로 즉시 갱신한다
+  // -- 목록과 상세가 서로 다른 조건을 보여주는 일이 없도록.
+  if(rcTicker) refreshListRowReturnSummary(rcTicker);
+}
+document.addEventListener('input', function(e){
+  const el = e.target;
+  if(!el || !el.matches || !el.matches('[data-rc-input]')) return;
+  updateReturnConditionCardDOM(el.getAttribute('data-rc-input'));
+});
+
+// [Bundle 3 신규 -- 실제 종목 목록에 AMAT 요약 연결] 상세화면을 열기 전에도 목록 행에서
+// 조건부 현재가치 범위(px, 날짜 포함) · 선택한 요구수익률 · 현재 조건 상태 · 자료 확인
+// 시점을 볼 수 있게 한다. 미래 P3와 상세 가정은 여기서 풀지 않고 상세화면 링크로만 안내한다
+// (사용자 명시 요구: 좁은 목록 뷰에서 모든 미래현금흐름을 펼치지 않음). 목록과 상세는 같은
+// runId·같은 SHARED_REQUIRED_RETURN_BY_TICKER 값을 읽으므로 서로 다른 판정을 내리지 않는다.
+function renderReturnConditionListSummary(r){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
+  const v = iv && iv.valuation;
+  if(!v || v.kind !== 'independent_value_dcf_scenario_engine' || !v.returnConditionYear3) return '';
+  return `<div class="sub" id="list-rc-${esc(r.ticker)}" style="margin-top:3px;padding-top:3px;border-top:1px dashed var(--border);font-size:11px;line-height:1.5;" onclick="event.stopPropagation();">${buildReturnConditionListSummaryHtml(r.ticker)}</div>`;
+}
+function buildReturnConditionListSummaryHtml(ticker){
+  const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[ticker] : null;
+  const v = iv && iv.valuation;
+  if(!v || !v.returnConditionYear3) return '';
+  const rc = v.returnConditionYear3;
+  const base = rc.scenarios && rc.scenarios.base;
+  // [사용자 지적 반영] "조건부 현재가치 범위"는 px(현재 평가일 기준 적정가)이지 P3(3년후
+  // 미래가치)가 아니다 -- 이전 보고서의 "조건부 현재가치 범위(...3년후 P3)"라는 표현은
+  // 현재가치와 미래가치를 섞어 불렀던 오류였다. 여기서는 v.scenarios(현재가치 px, 시나리오별)
+  // 에서만 범위를 가져오고, P3(미래가치)는 상세화면에서만 보여준다(목록에서 펼치지 않음).
+  const pxCons = v.scenarios && v.scenarios.conservative && v.scenarios.conservative.px;
+  const pxOpt = v.scenarios && v.scenarios.optimistic && v.scenarios.optimistic.px;
+  const rPct = SHARED_REQUIRED_RETURN_BY_TICKER[ticker];
+  const rSelectedStr = (rPct!=null) ? `${rPct}%(직접 입력)` : '미선택';
+  // [이번 회차 -- 비교가격 연결] 목록 요약도 상세 카드와 동일하게 실시간 비교가격을 쓴다 --
+  // 그래야 "목록·상세가 같은 비교가격과 관측시각을 쓴다"는 요구가 실제로 충족된다.
+  const liveComp = base ? computeLiveComparisonForScenario(v, ticker, 'base') : null;
+  const gate = computeLiveJudgmentGate(v, liveComp);
+  let judgment;
+  if(!base || base.blocked){
+    judgment = {label: (base&&base.judgment&&base.judgment.label) || '판단 보류', judgment: 'BLOCKED'};
+  } else if(rPct!=null){
+    const r = rPct/100;
+    const inputInvalid = !(isFinite(r) && r > -1);
+    const cashflows = liveComp ? liveComp.cashflowsByYear : base.cashflowsByYear;
+    const priceUsed = liveComp ? liveComp.purchasePrice : base.purchasePriceUsed;
+    const ceiling = inputInvalid ? null : recomputeCeilingJS(cashflows, r);
+    const effBase = Object.assign({}, base, {purchasePriceUsed: priceUsed});
+    judgment = classifyReturnJudgmentJS(effBase, gate.allowed, gate.reason, inputInvalid?null:r, ceiling, inputInvalid || (r!=null && ceiling==null));
+  } else {
+    judgment = base.judgment || {label: '요구수익률 선택 필요', judgment: 'REQUIRED_RETURN_NOT_SET'};
+  }
+  const color = RETURN_JUDGMENT_COLOR_JS[judgment.judgment] || 'var(--sub)';
+  // [이번 회차 수정 -- 사용자 지적 반영: 날짜 표시] v.asOf(계산 실행 시각)를 "가치평가 기준일"로
+  // 표시하던 것을 고친다. px 범위는 valuationAnchorDate 기준, 비교가격은 그 자신의 관측일,
+  // 실행 시각(asOf)은 별도로 "확인 실행"이라고만 표시한다 -- 숫자를 재계산하지 않고 날짜
+  // 라벨만 바꾸는 방식이 아니라, 실제로 서로 다른 값을 서로 다른 라벨로 보여준다.
+  const anchorStr = esc(v.valuationAnchorDate || (base && base.valuationAnchorDate) || '-');
+  const execStr = esc(v.asOf || '-');
+  const compareStr = esc((liveComp && liveComp.priceAsOf) || '-');
+  const rangeStr = (pxCons!=null && pxOpt!=null) ? `$${pxCons.toFixed(2)}~$${pxOpt.toFixed(2)}(${anchorStr} 기준 현재가치)` : '-';
+  const priceTag = liveComp ? (liveComp.isLive ? '실시간' : '저장값') : '-';
+  return `📅 조건부 현재가치 범위 ${rangeStr} · 요구수익률 ${esc(rSelectedStr)} · <span style="color:${color};font-weight:600;">${esc(judgment.label)}</span>`
+       + ` · 비교가격 관측 ${compareStr}(${priceTag}) · 계산 실행 ${execStr}`
+       + ` <span style="color:var(--sub);">(상세보기에서 3년후 미래가치·가정 확인)</span>`;
+}
+function refreshListRowReturnSummary(ticker){
+  const el = document.getElementById('list-rc-' + ticker);
+  if(!el) return;
+  el.innerHTML = buildReturnConditionListSummaryHtml(ticker);
+}
+function renderReturnConditionCard(v, ticker){
+  const rc = v.returnConditionYear3;
+  if(!rc) return '';
+  const df = v.dataFreshness || {};
+  // [이번 회차 수정 -- 사용자 지적 반영] 저장된 df.stale 스냅샷만 보지 않고, 화면을 실제로
+  // 여는 지금 시각 기준으로 재검사한 결과(reevaluateDataFreshnessJS)와 비교가격 자체의
+  // 최신성(evaluatePriceFreshnessJS)을 함께 반영한다 -- 9월에 생성된 화면을 12월에 열어도
+  // 그 사이 지난 예상 발표일을 놓치지 않기 위함.
+  const baseLiveCompForBanner = ticker ? computeLiveComparisonForScenario(v, ticker, 'base') : null;
+  const dataReevalForBanner = reevaluateDataFreshnessJS(df);
+  const priceGateForBanner = evaluatePriceFreshnessJS(baseLiveCompForBanner, df);
+  const staleWarning = (df.stale || dataReevalForBanner.stale)
+    ? `<div class="sub" style="margin:4px 0;color:var(--down);">⚠️ 새 자료 반영 대기 상태입니다(${esc(dataReevalForBanner.reason || df.note || '-')}) -- 아래 판정이 '판단 보류'로 표시되고, 수치는 과거 참고값으로만 취급됩니다.</div>`
+    : (priceGateForBanner.stale ? `<div class="sub" style="margin:4px 0;color:var(--warn);">⚠️ 비교가격이 오래됨(${esc(priceGateForBanner.reason||'-')}) -- 아래 판정이 '판단 보류'로 표시됩니다.</div>` : '');
+  const scenLabel = {conservative:'보수', base:'기준', optimistic:'낙관'};
+  const cardId = `rc_${(v.runId||'x').replace(/[^A-Za-z0-9]/g,'_')}`;
+  const scenRowsHtml = ['conservative','base','optimistic'].filter(k=>rc.scenarios && rc.scenarios[k]).map(k => {
+    const s = rc.scenarios[k];
+    if(s.blocked){
+      return `<div class="fund-row"><span>${esc(scenLabel[k])}</span><span class="v" style="color:var(--down);">판단 보류 (${esc(s.blockReason||'-')})</span></div>`;
+    }
+    // [이번 회차 -- 비교가격 연결] scanAll이 받은 실시간 가격이 있으면 그 가격·관측일 기준으로
+    // 시나리오 연환산 수익률·보유기간을 다시 계산한다(서버가 저장 당시 가격으로 미리 계산해 둔
+    // s.scenarioAnnualizedReturn을 그대로 쓰지 않음). 실시간 가격이 없으면 저장값으로 폴백.
+    const liveComp0 = computeLiveComparisonForScenario(v, ticker, k);
+    const effComp0 = liveComp0 || {purchasePrice: s.purchasePriceUsed, priceAsOf: s.priceComparisonDate,
+                                    holdingPeriodYears: s.holdingPeriodActualYears, cashflowsByYear: s.cashflowsByYear,
+                                    isLive: false, source: '-'};
+    let rateStr;
+    if(effComp0.isLive && effComp0.cashflowsByYear && effComp0.purchasePrice!=null){
+      const solved = solveAnnualizedReturnJS(effComp0.cashflowsByYear, effComp0.purchasePrice);
+      rateStr = (solved.status === 'SUCCESS' && solved.rate!=null)
+        ? `${(solved.rate*100>=0?'+':'')}${(solved.rate*100).toFixed(1)}%(실시간 비교가격 기준)` : `산출 실패(${esc(solved.status||'-')})`;
+    } else {
+      const rate = s.scenarioAnnualizedReturn && s.scenarioAnnualizedReturn.rate;
+      rateStr = (s.scenarioAnnualizedReturn && s.scenarioAnnualizedReturn.status === 'SUCCESS' && rate!=null)
+        ? `${(rate*100>=0?'+':'')}${(rate*100).toFixed(1)}%(저장된 실행 당시 가격 기준)` : `산출 실패(${esc((s.scenarioAnnualizedReturn||{}).status||'-')})`;
+    }
+    const historicalTag = (s.currentJudgmentAllowed === false) ? ' <span style="color:var(--sub);">(과거 참고값)</span>' : '';
+    // 초기 렌더는 서버(Python classify_return_judgment)가 계산한 기본 판정("요구수익률
+    // 선택 필요" 또는 최신성 문제 시 "판단 보류")을 그대로 쓴다 -- JS가 실행되기 전에도
+    // 화면이 빈 칸이 아니라 올바른 기본 상태를 보여주도록(요구수익률을 입력해야만 JS가
+    // 그 자리에서 다시 계산해 이 텍스트를 갱신한다).
+    const j0 = s.judgment || {};
+    const j0Color = RETURN_JUDGMENT_COLOR_JS[j0.judgment] || 'var(--sub)';
+    // [이번 회차 -- 평가시점 정합 재설계] P3는 "3년 후"가 아니라 평가기준일+3년 시점
+    // (p3ValuationDate)의 미래가치다. WACC 롤 계수로 매입일에 맞춰 굴리지 않으므로, 매입일
+    // 기준 실제 보유기간(holdingPeriodActualYears, 정확히 3년 아님)을 함께 보여준다.
+    // [이번 회차 수정] 매입일 대신 "비교가격 관측일"(실시간이면 오늘 스캔의 마지막 종가일,
+    // 아니면 저장된 실행 당시 가격일)을 쓴다 -- 실제로 보유기간 계산에 쓰인 기준일과 화면
+    // 표시가 어긋나지 않도록.
+    const holdYears = effComp0.holdingPeriodYears;
+    const holdStr = (holdYears!=null)
+      ? `실제 보유기간 약 ${holdYears.toFixed(2)}년(비교가격 관측 ${esc(effComp0.priceAsOf||'-')}→미래가치 평가일 ${esc(s.p3ValuationDate||'-')})`
+      : '';
+    const compareLine = `비교가격 $${effComp0.purchasePrice!=null?effComp0.purchasePrice.toFixed(2):'-'} `
+      + `(${esc(effComp0.priceAsOf||'-')} 관측, ${effComp0.isLive?'실시간 조회':'저장된 실행 당시 값(재현용)'})`;
+    return `
+    <div class="fund-row" data-rc-scenario="${k}" data-purchase-price="${effComp0.purchasePrice!=null?effComp0.purchasePrice:''}">
+      <span>${k==='base'?'<b>기준</b>':esc(scenLabel[k])}</span>
+      <span class="v">미래가치 P3(${esc(s.p3ValuationDate||'평가기준일+3년')}) $${s.p3PerShare!=null?s.p3PerShare.toFixed(2):'-'} · 시나리오 연환산 ${rateStr}${historicalTag}</span></div>
+    <div class="sub" style="margin:0 0 2px;font-size:11px;">${esc(compareLine)}</div>
+    ${holdStr ? `<div class="sub" style="margin:0 0 2px;font-size:11px;">${holdStr}</div>` : ''}
+    <div class="sub" data-rc-judgment="${k}" style="margin:0 0 4px;color:${j0Color};">${esc(j0.label||'-')}${j0.reason_detail?(' - '+esc(j0.reason_detail)):''}</div>`;
+  }).join('');
+  const div = rc.dividendSource || {};
+  const bb = rc.buybackAssumption || {};
+  // [이번 회차 -- 비교가격 연결] 기준(base) 시나리오의 실시간 비교가격을 카드 상단 요약에도 쓴다
+  // (위 staleWarning에서 이미 계산해 둔 값을 재사용 -- 같은 카드 안에서 두 번 다시 계산해 서로
+  // 다른 값이 나오는 일이 없도록 한다).
+  const baseLiveComp = baseLiveCompForBanner;
+  const baseS = rc.scenarios && rc.scenarios.base;
+  const basePriceStr = baseLiveComp && baseLiveComp.purchasePrice!=null ? baseLiveComp.purchasePrice.toFixed(2)
+    : (baseS && baseS.purchasePriceUsed!=null ? baseS.purchasePriceUsed.toFixed(2) : '-');
+  const basePriceSourceStr = baseLiveComp ? (baseLiveComp.isLive ? '실시간 조회' : '저장된 실행 당시 값(재현용)') : '-';
+  // [이번 회차 신규 -- 날짜 4종 분리] 사용자 명시 요구: (1)실제 가치평가 기준일 (2)계산 실행 시각
+  // (3)비교주가 관측 시각 (4)미래(P3) 평가일을 서로 다른 라벨로 보여준다. 날짜 라벨만 최신으로
+  // 바꾸고 숫자는 재계산하지 않는 방식을 금지했으므로, 이 네 값은 실제로 서로 다른 계산 입력이다.
+  const anchorDateStr = esc(v.valuationAnchorDate || (baseS && baseS.valuationAnchorDate) || '-');
+  const execAsOfStr = esc(v.asOf || '-');
+  const compareAsOfStr = esc((baseLiveComp && baseLiveComp.priceAsOf) || '-');
+  const p3DateStr = esc((baseS && baseS.p3ValuationDate) || '-');
+  const cardHtml = `
+    <div class="comment-box" id="${cardId}" style="background:var(--panel-2);margin-bottom:10px;border-left:3px solid var(--warn);">
+      <b>📅 수익조건 (3년 보유, 실행 ID ${esc(v.runId||'-')})</b>
+      <div class="sub" style="margin:4px 0 8px;">위 독립 적정가(현재가치 평가)와는 다른 별개 지표예요 -- 이건 "지금 사서 3년 들고 있으면 배당+매도대금으로 실제 손에 들어오는 수익률이 얼마인가"를 계산한 것입니다. ${esc(rc.scope||'')}</div>
+      ${staleWarning}
+      <div class="fund-row"><span>매입가 기준(비교가격)</span><span class="v">$${basePriceStr} <span style="color:var(--sub);font-size:11px;">(${basePriceSourceStr})</span></span></div>
+      <div class="sub" style="margin:0 0 6px;font-size:11px;">가치평가 기준일 ${anchorDateStr} · 계산 실행 시각 ${execAsOfStr} · 비교가격 관측 ${compareAsOfStr} · 미래(3년후) 평가일 ${p3DateStr} -- 네 날짜는 서로 다른 의미이며 같은 값이 아닐 수 있습니다.</div>
+      <div class="fund-row"><span>데이터 기준일 / 마지막 수동확인</span><span class="v" style="font-size:11px;">가격 ${esc(df.price_as_of||'-')} · net_debt ${esc(df.net_debt_last_manual_check||'-')} · 가이던스 ${esc(df.guidance_consensus_last_manual_check||'-')}</span></div>
+      <div class="fund-row" style="align-items:center;">
+        <span>요구수익률(직접 입력)</span>
+        <span class="v"><input type="number" step="0.5" min="-90" max="200" placeholder="예: 10" data-rc-input="${cardId}"
+          value="${(ticker && SHARED_REQUIRED_RETURN_BY_TICKER[ticker]!=null) ? SHARED_REQUIRED_RETURN_BY_TICKER[ticker] : ''}"
+          style="width:70px;background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:4px;padding:2px 6px;text-align:right;">%</span>
+      </div>
+      <div class="sub" style="margin:0 0 6px;">값을 입력하지 않으면 '요구수익률 선택 필요' 상태입니다 -- 화면이 임의의 기본값(예: 10%)을 대신 쓰지 않습니다. -100% 이하이거나 숫자가 아닌 값, 계산 결과가 유효하지 않은 값은 '수익조건 미충족'이 아니라 '판단 보류'(입력 오류)로 표시됩니다. 입력값을 바꿔도 위 독립 적정가·P3(사업가치 자체)는 전혀 바뀌지 않습니다 -- 이미 계산된 현금흐름으로 매입가 상한만 다시 계산합니다. 목록 화면의 요약도 이 값을 그대로 따라갑니다.</div>
+      ${scenRowsHtml}
+      <details style="margin-top:8px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">참고: 요구수익률별 매입가격 상한 예시 (시스템 기본값 아님)</summary>
+        <div style="margin-top:6px;">
+          ${Object.keys(rc.scenarios && rc.scenarios.base ? (rc.scenarios.base.illustrativeRequiredReturnExamples||{}) : {}).map(rKey=>{
+            const ex = rc.scenarios.base.illustrativeRequiredReturnExamples[rKey];
+            return `<div class="fund-row"><span>기준 시나리오, r=${(parseFloat(rKey)*100).toFixed(0)}%</span><span class="v">$${ex!=null?ex.toFixed(2):'-'}</span></div>`;
+          }).join('')}
+          <div class="sub" style="margin-top:4px;">공식: 요구수익률 충족 매입가격 = Σ[배당/(1+r)^t] + 매도가/(1+r)^(실제 보유기간). 마지막 시점은 정확히 3년이 아니라 매입일부터 미래가치 평가일까지의 실제 보유기간(약 3년)입니다${(rc.scenarios&&rc.scenarios.base&&rc.scenarios.base.holdingPeriodActualYears!=null)?` -- 이 실행은 ${rc.scenarios.base.holdingPeriodActualYears.toFixed(2)}년`:''}. r은 투자자가 직접 정해야 하는 값이며, 기업가치 평가에 쓰는 WACC이나 이전 15% 상승여력 기준과 자동으로 같지 않습니다.</div>
+        </div>
+      </details>
+      <details style="margin-top:8px;">
+        <summary style="cursor:pointer;color:var(--sub);font-size:11.5px;">배당·자사주매입 가정 자세히 보기</summary>
+        <div style="margin-top:6px;">
+          <div class="sub" style="margin-bottom:4px;"><b>배당</b>: 분기 $${div.quarterly_dividend_per_share!=null?div.quarterly_dividend_per_share.toFixed(2):'-'}(${esc(div.confirmed_as_of||'-')} 확인, 직전 대비 ${div.increase_pct_vs_prior!=null?(div.increase_pct_vs_prior*100).toFixed(0):'-'}% 인상, ${div.consecutive_increase_years||'-'}년 연속 인상). ${esc(div.forward_assumption||'')}</div>
+          <div class="sub" style="margin-bottom:4px;"><b>자사주매입</b>: ${bb.modeled ? '모델링함' : '모델링 안 함(0 가정)'}. ${esc(bb.note||'')}</div>
+          <div class="sub">${esc(rc.cashflowApproximationNote||'')}</div>
+          <div class="sub" style="margin-top:4px;color:var(--sub);">${esc(rc.basis||'')}</div>
+        </div>
+      </details>
+    </div>`;
+  // renderReturnConditionCard는 일반 함수 호출로 즉시 실행되므로(반환된 HTML 문자열이 나중에
+  // innerHTML로 삽입되는 것과 무관하게), 여기서 카드 데이터를 전역 레지스트리에 등록해 두면
+  // 이후 입력 이벤트 발생 시(위 document.addEventListener) 바로 꺼내 쓸 수 있다 -- 카드 안에
+  // <script> 태그를 직접 끼워 넣는 방식은 innerHTML 삽입 시 브라우저가 실행하지 않으므로
+  // (DOM 표준 동작) 쓰지 않는다.
+  // [이번 회차 수정] rc가 아니라 v 전체를 등록한다 -- 입력 이벤트 시점에도 computeLiveComparisonForScenario/
+  // computeLiveJudgmentGate가 dividendSource·dataFreshness 등 rc 밖 필드를 함께 읽어야 하기 때문.
+  RC_CARD_REGISTRY[cardId] = v;
+  if(ticker) RC_CARD_TICKER[cardId] = ticker;  // [Bundle 3] 목록 행 요약 갱신용 매핑
+  return cardHtml;
+}
 function renderIndependentValuationSection(r){
   const iv = (typeof INDEPENDENT_VALUATION_DATA !== 'undefined') ? INDEPENDENT_VALUATION_DATA[r.ticker] : null;
   if(!iv || !iv.valuation) return '';
   const v = iv.valuation;
   const price = r.price;
+  if(v.kind === 'independent_value_dcf_scenario_engine') return renderAmatScenarioValuation(v, price) + renderReturnConditionCard(v, r.ticker);
+  if(v.kind === 'independent_value_dcf_single_engine') return renderAmatScenarioValuation(v, price);
   const pct = x => { if(x==null) return '-'; const p=(x-price)/price*100; return `${p>=0?'+':''}${p.toFixed(0)}%`; };
   const a = v.assumptions || {};
   const evScenarios = a.evEbitdaScenarios || {};
