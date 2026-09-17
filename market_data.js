@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 102.2699966430664,
+      "current": 102.16000366210938,
       "prevClose": 102.43000030517578,
-      "changeAbs": -0.160003662109375,
-      "changePct": -0.156207811805786,
-      "pctRank": 92.76054097056485,
+      "changeAbs": -0.26999664306640625,
+      "changePct": -0.26359137192423043,
+      "pctRank": 92.60143198090692,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.455511813842499,
-      "ma20": 92.23600120544434,
-      "ma60": 83.22716700236002,
-      "chg1m": 17.329994201660156,
-      "chg3m": 25.479995727539062,
-      "chg1mPct": 20.402629742817375,
-      "chg3mPct": 33.181397869194285,
+      "drawdown1y": -9.55289382705976,
+      "ma20": 92.23050155639649,
+      "ma60": 83.22533378601074,
+      "chg1m": 17.220001220703125,
+      "chg3m": 25.37000274658203,
+      "chg1mPct": 20.273134831355716,
+      "chg3mPct": 33.03815919274469,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.31199645996094,
+      "current": 100.26599884033203,
       "prevClose": 100.30999755859375,
-      "changeAbs": 0.0019989013671875,
-      "changePct": 0.001992723971526256,
-      "pctRank": 37.5497215592681,
+      "changeAbs": -0.04399871826171875,
+      "changePct": -0.04386274482363328,
+      "pctRank": 37.31105807478122,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2774374004465794,
-      "ma20": 99.30109939575195,
-      "ma60": 100.17220013936361,
-      "chg1m": 0.6619949340820312,
-      "chg3m": 0.2220001220703125,
-      "chg1mPct": 0.6643200440996606,
-      "chg3mPct": 0.22180050973412904,
+      "drawdown1y": -1.322706192251133,
+      "ma20": 99.29879951477051,
+      "ma60": 100.17143351236979,
+      "chg1m": 0.615997314453125,
+      "chg3m": 0.17600250244140625,
+      "chg1mPct": 0.618160868058945,
+      "chg3mPct": 0.1758442490568638,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4331.89990234375,
+      "current": 4335.89990234375,
       "prevClose": 4387.5,
-      "changeAbs": -55.60009765625,
-      "changePct": -1.267238693019943,
-      "pctRank": 87.91732909379968,
+      "changeAbs": -51.60009765625,
+      "changePct": -1.1760706018518519,
+      "pctRank": 88.15580286168522,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.548812013276063,
-      "ma20": 4496.024951171875,
-      "ma60": 4279.268322753906,
-      "chg1m": -88.7001953125,
-      "chg3m": -49.5,
-      "chg1mPct": -2.0065193266300607,
-      "chg3mPct": -1.1297758959076272,
+      "drawdown1y": -18.473601422244023,
+      "ma20": 4496.224951171875,
+      "ma60": 4279.334989420573,
+      "chg1m": -84.7001953125,
+      "chg3m": -45.5,
+      "chg1mPct": -1.916033874165796,
+      "chg3mPct": -1.0384808740161016,
       "lastDate": "2026-09-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,18 +237,18 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "Trump says 'hopefully we are towards end' of Iran war - reuters.com",
+      "headline": "Trump says 'hopefully we are towards end' of Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNVZBS2JnVTZ6bnkwemhVOGRlX2puQkR2RHNnZnpLaHRzcHMxNktCNGwtNkU2ZTJaTzRMSFZzYXRzeHVnanUtaTNIdjVZTm5wVjd5bm9iMHNndXFwRzFOSmh3QWI0T3lqU3MwVE9UenMwNWZWYURMWm1ZOHNDTzVBVmlZVjBHT0F6cEJoRE5BYTVqRVFnM3N3cjZZU3RKWFJSeGZLVUhUVkVQZW9tb0FhRThfSEpmcVZM?oc=5",
       "datetime": 1789602840,
-      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - reuters.com"
+      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - 로이터"
     },
     {
-      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - reuters.com",
+      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVlvS0o5eGw3QnFsN1NoVTdWbElpWFhDLS14WFpCb0duUUJMYzVoS2VZSHpqQUxQWXVtN0VadTJHNnNhYlNCZmlhMDVJQVl3Y2pqTjQ2bmRuVEdDR3FKY0VGQ1Uxc1pwVzcteUNJSTB0Mm9wZHRIWUdTUmVLTUVsTEpYMFRmN21ENmtrbnZvTm9XZjZsOU5DN2JHWUYtdm5OcFJiUzJzZTVBeUJ3a3NmSEJROEFxekl5RGlMNw?oc=5",
       "datetime": 1789600404,
-      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다. - reuters.com"
+      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다."
     },
     {
       "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
@@ -265,11 +265,11 @@ const MARKET_DATA = {
       "headlineKo": "네타냐후, 가자 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - reuters.com"
     },
     {
-      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
       "datetime": 1789587450,
-      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘 폭탄 판매를 지지하지 않을 것입니다 - reuters.com"
+      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘의 폭탄 판매를 지지하지 않을 것입니다 - Reuters"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -286,18 +286,18 @@ const MARKET_DATA = {
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
     },
     {
-      "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
+      "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0FZY0J4cFN1dGZjZEsxUXc5aVlrd2ZJdHF5LWtEcWU2bnJ6aFZ4X1I5WHhRQ3pfZUNfVzJUYlEzbW9lSTdINmtnVFYyUXNBZW5LcXlYQS0zVUNlTllVTUhkR29xaWFhZFlsSTgzU1p5Z3FTSzJtMEpka0lHS0VoZHltRXMxME40Zldtb0xOcWxEekxIOGN5WG5vV2I5NHpZbGd6X21kTzMzT3hnWjVLUDZFejNYeEgzcEJnRFFuQlN5UQ?oc=5",
       "datetime": 1789581871,
-      "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 상승 - reuters.com"
+      "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 높아졌다 - 로이터 통신"
     },
     {
-      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - reuters.com",
+      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzUwU0VnMDVwQm1aTmZIQ25odU1FYXpWRkM4R2ZTMjdwalhFVDJ3dGtWV0szd1hYRVdJY1VlRmdPemJDOG9ONy1FZXUzbWhZRkFiTVVSRkdLX19Za3h2c0RneVpmbjhVdzhiZXRmYTJtc2JwYmFUU085RXBvclZoNkM1Y1AyUGF0RjhoTFRwaHF5WFNNbFlzdEMzSTZNNnhzTHB0N0p1aXdRYjY5SUpXVHhRVEtsclZPUkNGZEpCdzBvLVJu?oc=5",
       "datetime": 1789580549,
-      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - reuters.com"
+      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - 로이터"
     },
     {
       "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
@@ -314,21 +314,21 @@ const MARKET_DATA = {
       "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
     },
     {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
+      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
       "datetime": 1789576712,
-      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌다 - reuters.com"
+      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
     }
   ],
   "fgi": {
     "score": 26.4,
     "rating": "fear"
   },
-  "_fetched_at": 1789618547.8128586,
-  "_updated_label": "2026-09-17 13:16",
-  "_last_attempt_at": 1789618547.8128586,
-  "_last_success_at": 1789618547.8128586,
+  "_fetched_at": 1789622175.5721262,
+  "_updated_label": "2026-09-17 14:16",
+  "_last_attempt_at": 1789622175.5721262,
+  "_last_success_at": 1789622175.5721262,
   "_collection_status": "ok",
   "_collection_errors": []
 };
