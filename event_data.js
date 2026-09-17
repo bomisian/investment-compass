@@ -1,7 +1,7 @@
 // 자동 생성 파일 - 중요 뉴스 이벤트 분류(민감정보 없음)
 const EVENT_DATA = {
   "schemaVersion": 1,
-  "generatedAt": 1789610795.8274815,
+  "generatedAt": 1789612625.6575205,
   "events": [
     {
       "id": "fa32306b0b822852cd89",
@@ -8250,6 +8250,70 @@ const EVENT_DATA = {
       ]
     },
     {
+      "id": "fe6021cf666bf6af0d70",
+      "schemaVersion": 1,
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
+      "primaryTicker": "SNDK",
+      "relatedTickers": [
+        "SNDK"
+      ],
+      "relatedEntities": [],
+      "importance": "medium",
+      "sourceReliability": {
+        "level": "high",
+        "score": 100,
+        "kind": "official",
+        "reason": "SEC 제출 원문"
+      },
+      "direction": "mixed",
+      "expectedHorizon": "단기·중기",
+      "impactProbability": "내용 확인 필요",
+      "verificationStatus": "confirmed",
+      "headline": "SNDK SEC Form 8-K filed",
+      "headlineKo": "SNDK SEC Form 8-K 공식 제출",
+      "source": {
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026062267/sndk-20260910.htm",
+        "publishedAt": 1789484400.0,
+        "collectedAt": 1789612607.2753718
+      },
+      "confirmedFacts": [
+        "SNDK가 2026-09-16에 SEC Form 8-K을 제출했습니다.",
+        "SEC 원문에서 확인된 항목: 임원·이사 변경 또는 보상"
+      ],
+      "reportedClaims": [],
+      "marketInterpretation": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "aiInference": [
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
+      ],
+      "unverified": [
+        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+      ],
+      "beginnerExplanation": [
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
+      ],
+      "whyItMatters": [
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
+      ],
+      "impacts": [
+        {
+          "ticker": "SNDK",
+          "direction": "중립·원문 확인",
+          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
+          "basis": "official_filing"
+        }
+      ],
+      "watch": [
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
+      ],
+      "earningsEvidence": null
+    },
+    {
       "id": "afa512862173b575ccc2",
       "schemaVersion": 1,
       "eventType": "analyst_target_change",
@@ -12020,7 +12084,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1050915/000119312526391989/d78508d8k.htm",
         "publishedAt": 1789398000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "PWR가 2026-09-15에 SEC Form 8-K을 제출했습니다.",
@@ -12415,7 +12479,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
         "publishedAt": 1789311600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMZN가 2026-09-14에 SEC Form 8-K을 제출했습니다.",
@@ -12480,7 +12544,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389753/d20034d8k.htm",
         "publishedAt": 1789311600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "ORCL가 2026-09-14에 SEC Form 8-K을 제출했습니다.",
@@ -12544,7 +12608,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526389859/d23939d8k.htm",
         "publishedAt": 1789311600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "WDC가 2026-09-14에 SEC Form 8-K을 제출했습니다.",
@@ -12608,7 +12672,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036415/ny20081693x3_424b2.htm",
         "publishedAt": 1789311600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "VST가 2026-09-14에 SEC Form 424B2을 제출했습니다.",
@@ -13038,7 +13102,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm",
         "publishedAt": 1789052400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMZN가 2026-09-11에 SEC Form 424B5을 제출했습니다.",
@@ -13102,7 +13166,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526389274/orcl-20260831.htm",
         "publishedAt": 1789052400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "ORCL가 2026-09-11에 SEC Form 10-Q을 제출했습니다."
@@ -13165,7 +13229,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000119312526389293/d138343d8k.htm",
         "publishedAt": 1789052400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "SNDK가 2026-09-11에 SEC Form 8-K을 제출했습니다.",
@@ -13230,7 +13294,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526387905/orcl-20260910.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "ORCL가 2026-09-10에 SEC Form 8-K을 제출했습니다.",
@@ -13271,7 +13335,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1789590122.995156,
+        "analyzedAt": 1789612607.2753718,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -13356,7 +13420,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000080/avgo-20260802.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AVGO가 2026-09-10에 SEC Form 10-Q을 제출했습니다."
@@ -13419,7 +13483,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000128/arm-20260910.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "ARM가 2026-09-10에 SEC Form 6-K을 제출했습니다."
@@ -13482,7 +13546,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000658/tsm-revenue20260910.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "TSM가 2026-09-10에 SEC Form 6-K을 제출했습니다."
@@ -13545,7 +13609,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126036130/ny20081693x2_424b5.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "VST가 2026-09-10에 SEC Form 424B5을 제출했습니다.",
@@ -13609,7 +13673,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926106727/tm2625001d1_8k.htm",
         "publishedAt": 1788966000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MOD가 2026-09-10에 SEC Form 8-K을 제출했습니다.",
@@ -13730,7 +13794,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000036/amzn-20260908.htm",
         "publishedAt": 1788879600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMZN가 2026-09-09에 SEC Form 8-K을 제출했습니다.",
@@ -13794,7 +13858,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926106115/tm2624614-1_424b5.htm",
         "publishedAt": 1788879600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMZN가 2026-09-09에 SEC Form 424B5을 제출했습니다.",
@@ -13858,7 +13922,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1692819/000114036126035954/ny20081693x1_s3asr.htm",
         "publishedAt": 1788879600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "VST가 2026-09-09에 SEC Form S-3ASR을 제출했습니다.",
@@ -13922,7 +13986,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1137789/000119312526385961/d109585d8k.htm",
         "publishedAt": 1788879600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "STX가 2026-09-09에 SEC Form 8-K을 제출했습니다.",
@@ -13986,7 +14050,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
         "publishedAt": 1788793200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "QCOM가 2026-09-08에 SEC Form 8-K을 제출했습니다.",
@@ -14051,7 +14115,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000197/crm-20260902.htm",
         "publishedAt": 1788447600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "CRM가 2026-09-04에 SEC Form 8-K을 제출했습니다.",
@@ -14115,7 +14179,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1137789/000113778926000201/stx-20260902.htm",
         "publishedAt": 1788447600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "STX가 2026-09-04에 SEC Form 8-K을 제출했습니다.",
@@ -14179,7 +14243,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000078/nvda-20260902.htm",
         "publishedAt": 1788361200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "NVDA가 2026-09-03에 SEC Form 8-K을 제출했습니다.",
@@ -14244,7 +14308,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
         "publishedAt": 1788274800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MSFT가 2026-09-02에 SEC Form 8-K을 제출했습니다.",
@@ -14308,7 +14372,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/avgo-20260902.htm",
         "publishedAt": 1788274800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AVGO가 2026-09-02에 SEC Form 8-K을 제출했습니다.",
@@ -14348,7 +14412,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1789590122.995156,
+        "analyzedAt": 1789612607.2753718,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14431,7 +14495,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000119312526379306/d472406d8k.htm",
         "publishedAt": 1788274800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "VRT가 2026-09-02에 SEC Form 8-K을 제출했습니다.",
@@ -14496,7 +14560,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1674101/000162828026059961/vrt-20260902.htm",
         "publishedAt": 1788274800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "VRT가 2026-09-02에 SEC Form 8-K을 제출했습니다.",
@@ -14560,7 +14624,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000552/tsm-dividendadjustmentx202.htm",
         "publishedAt": 1788188400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "TSM가 2026-09-01에 SEC Form 6-K을 제출했습니다."
@@ -14623,7 +14687,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526375462/d110649d8k.htm",
         "publishedAt": 1788102000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "COHR가 2026-08-31에 SEC Form 8-K을 제출했습니다.",
@@ -14687,7 +14751,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000025/mrvl-20260801.htm",
         "publishedAt": 1787842800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MRVL가 2026-08-28에 SEC Form 10-Q을 제출했습니다."
@@ -14750,7 +14814,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000190/crm-20260731.htm",
         "publishedAt": 1787756400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "CRM가 2026-08-27에 SEC Form 10-Q을 제출했습니다."
@@ -14813,7 +14877,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/mrvl-20260827.htm",
         "publishedAt": 1787756400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MRVL가 2026-08-27에 SEC Form 8-K을 제출했습니다.",
@@ -14854,7 +14918,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1789590122.995156,
+        "analyzedAt": 1789612607.2753718,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -14988,7 +15052,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026059257/amat-20260827.htm",
         "publishedAt": 1787756400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMAT가 2026-08-27에 SEC Form 8-K을 제출했습니다.",
@@ -15052,7 +15116,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/707549/000070754926000043/lrcx-20260824.htm",
         "publishedAt": 1787756400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "LRCX가 2026-08-27에 SEC Form 8-K을 제출했습니다.",
@@ -15117,7 +15181,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000153/gev-20260825.htm",
         "publishedAt": 1787756400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "GEV가 2026-08-27에 SEC Form 8-K을 제출했습니다.",
@@ -15182,7 +15246,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852426000187/crm-20260826.htm",
         "publishedAt": 1787670000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "CRM가 2026-08-26에 SEC Form 8-K을 제출했습니다.",
@@ -15223,7 +15287,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1789590122.995156,
+        "analyzedAt": 1789612607.2753718,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -15324,7 +15388,7 @@ const EVENT_DATA = {
               "variancePct": -73.01,
               "actualEndDate": "2026-01-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
+              "settledAt": 1789612607.2753718,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -15344,7 +15408,7 @@ const EVENT_DATA = {
               "variancePct": -75.8,
               "actualEndDate": "2026-04-30",
               "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
+              "settledAt": 1789612607.2753718,
               "notice": "실제 매출과 가이던스 중앙값 차이가 비정상적으로 커서(±40%p 초과), 대상 분기 추정이 틀렸을 가능성이 있습니다 - met/missed로 단정하지 않았습니다."
             }
           },
@@ -15364,7 +15428,7 @@ const EVENT_DATA = {
               "variancePct": 0.31,
               "actualEndDate": "2026-07-31",
               "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
+              "settledAt": 1789612607.2753718,
               "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
             }
           },
@@ -15406,7 +15470,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
         "publishedAt": 1787670000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "NVDA가 2026-08-26에 SEC Form 10-Q을 제출했습니다."
@@ -15469,7 +15533,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/nvda-20260826.htm",
         "publishedAt": 1787670000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "NVDA가 2026-08-26에 SEC Form 8-K을 제출했습니다.",
@@ -15508,7 +15572,7 @@ const EVENT_DATA = {
       ],
       "earningsEvidence": {
         "version": 8,
-        "analyzedAt": 1789590122.995156,
+        "analyzedAt": 1789612607.2753718,
         "officialActuals": {
           "status": "available",
           "source": "SEC Company Facts",
@@ -15570,7 +15634,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm",
         "publishedAt": 1787670000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MU가 2026-08-26에 SEC Form 8-K을 제출했습니다.",
@@ -15634,7 +15698,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000119312526365796/d376254d8k.htm",
         "publishedAt": 1787670000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "WDC가 2026-08-26에 SEC Form 8-K을 제출했습니다.",
@@ -15698,7 +15762,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000545/tsm-monthend6kx20260825.htm",
         "publishedAt": 1787583600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "TSM가 2026-08-25에 SEC Form 6-K을 제출했습니다.",
@@ -15762,7 +15826,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/67347/000110465926099432/mod-20260820x8k.htm",
         "publishedAt": 1787238000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MOD가 2026-08-21에 SEC Form 8-K을 제출했습니다."
@@ -15825,7 +15889,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026058235/amat-20260726.htm",
         "publishedAt": 1787151600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMAT가 2026-08-20에 SEC Form 10-Q을 제출했습니다."
@@ -15888,7 +15952,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMD가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -15952,7 +16016,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1835632/000119312526356217/d412696d8k.htm",
         "publishedAt": 1787065200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "MRVL가 2026-08-19에 SEC Form 8-K을 제출했습니다.",
@@ -16017,7 +16081,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926098339/tm2617924-6_424b3.htm",
         "publishedAt": 1786978800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "AMZN가 2026-08-18에 SEC Form 424B3을 제출했습니다.",
@@ -16081,12 +16145,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 규정 FD 공개 · 재무제표·첨부자료",
-        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 인수·매각"
+        "NVDA가 2026-08-17에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16096,7 +16158,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -16146,12 +16208,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 중요 계약 체결·변경 · 재무제표·첨부자료",
-        "원문에서 관련 표현이 확인된 주제: 계약·수주 · 자금조달·증권발행"
+        "AMD가 2026-08-17에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16161,7 +16221,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -16211,7 +16271,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2023554/000162828026057406/sndk-20260703.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "SNDK가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -16274,7 +16334,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026057358/lite-20260627.htm",
         "publishedAt": 1786892400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "LITE가 2026-08-17에 SEC Form 10-K을 제출했습니다."
@@ -16337,11 +16397,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526352628/d173126d424b5.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "AMD가 2026-08-14에 SEC Form 424B5을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16351,7 +16410,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -16401,7 +16460,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000541/tsm-fsx20260814x6k.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "TSM가 2026-08-14에 SEC Form 6-K을 제출했습니다."
@@ -16464,7 +16523,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026057139/wdc-20260703.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "WDC가 2026-08-14에 SEC Form 10-K을 제출했습니다."
@@ -16527,7 +16586,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/820318/000082031826000020/iivi-20260630.htm",
         "publishedAt": 1786633200.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "COHR가 2026-08-14에 SEC Form 10-K을 제출했습니다."
@@ -16590,11 +16649,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348029/d173126d424b5.htm",
         "publishedAt": 1786546800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "AMD가 2026-08-13에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "AMD가 2026-08-13에 SEC Form 424B5을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16604,7 +16662,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -16654,11 +16712,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526348013/d97381ds3asr.htm",
         "publishedAt": 1786546800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "AMD가 2026-08-13에 SEC Form S-3ASR을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "AMD가 2026-08-13에 SEC Form S-3ASR을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16668,7 +16725,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -16694,14 +16751,14 @@ const EVENT_DATA = {
     {
       "id": "1eb3897c85f78df77466",
       "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "EPS",
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
       "primaryTicker": "AMAT",
       "relatedTickers": [
         "AMAT"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -16718,31 +16775,26 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/amat-20260813.htm",
         "publishedAt": 1786546800.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
-        "SEC Company Facts Q3'26: 매출 $9.12B · 영업이익 $3.08B · 순이익 $2.54B",
-        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 10250.0 million ± 500.0 · EPS 4.02 USD/share ± 0.2"
+        "AMAT가 2026-08-13에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
-        "Finnhub 시장 EPS 컨센서스 대비 예상 부합: 실제 3.5 / 예상 3.4626 (+1.08%). SEC 공식 수치와는 별도 출처입니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
-        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
       ],
       "whyItMatters": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "impacts": [
         {
@@ -16753,111 +16805,11 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·순이익의 전년 대비 변화",
-        "현재 가이던스와 다음 분기 실제 결과",
-        "일회성 손익·OCF·FCF"
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
       ],
-      "earningsEvidence": {
-        "version": 8,
-        "analyzedAt": 1789592651.8190312,
-        "officialActuals": {
-          "status": "available",
-          "source": "SEC Company Facts",
-          "period": "Q3'26",
-          "endDate": "2026-07-26",
-          "metrics": {
-            "revenue": 9115000000,
-            "opIncome": 3075000000,
-            "netIncome": 2538000000
-          }
-        },
-        "guidance": {
-          "status": "available",
-          "metrics": [
-            {
-              "metric": "revenue",
-              "center": 10250.0,
-              "plusMinus": 500.0,
-              "unit": "million",
-              "deltaUnit": "million"
-            },
-            {
-              "metric": "eps",
-              "center": 4.02,
-              "plusMinus": 0.2,
-              "unit": "USD/share",
-              "basis": "non_gaap"
-            }
-          ],
-          "targetPeriod": "q3 2026",
-          "comparison": "no_prior_guidance"
-        },
-        "consensusComparison": {
-          "status": "available",
-          "source": "Finnhub earnings consensus",
-          "metric": "eps",
-          "actual": 3.5,
-          "estimate": 3.4626,
-          "providerPeriod": "2026-09-30",
-          "label": "in_line",
-          "surprisePct": 1.08,
-          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
-        },
-        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
-        "exhibit": {
-          "status": "available",
-          "url": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm"
-        },
-        "guidanceComparison": {
-          "status": "unavailable",
-          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
-        },
-        "guidanceHistory": [
-          {
-            "filingDate": "2025-05-15",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000017/exhibit991q22025earningsre.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2025-08-14",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000000695125000032/exhibit991q32025earningsre.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2025-11-13",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828025051998/exhibit991q42025earningsre.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2026-02-12",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026007661/exhibit991q12026earningsre.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2026-05-14",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026035071/exhibit991q22026earningsre.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2026-08-13",
-            "targetPeriod": "q3 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/6951/000162828026056699/exhibit991q32026earningsre.htm",
-            "outcome": null
-          }
-        ],
-        "guidanceOutcome": null
-      }
+      "earningsEvidence": null
     },
     {
       "id": "a652c982b0bd43af2d1a",
@@ -16886,11 +16838,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
         "publishedAt": 1786460400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "INTC가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 규정 FD 공개 · 기타 중요 사건 · 재무제표·첨부자료"
+        "INTC가 2026-08-12에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16900,7 +16851,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -16950,11 +16901,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm",
         "publishedAt": 1786460400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "INTC가 2026-08-12에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "INTC가 2026-08-12에 SEC Form 424B5을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -16964,7 +16914,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -16990,14 +16940,14 @@ const EVENT_DATA = {
     {
       "id": "a1a151634101bb46047f",
       "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "EPS",
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
       "primaryTicker": "COHR",
       "relatedTickers": [
         "COHR"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -17014,31 +16964,26 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030d8k.htm",
         "publishedAt": 1786460400.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료 · 규정 FD 공개",
-        "SEC Company Facts Q2'26: 매출 $2.05B · 영업이익 $0.30B · 순이익 $0.24B",
-        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 2.2~2.4 billion · EPS 1.85~2.05 USD/share"
+        "COHR가 2026-08-12에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
-        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 1.74 / 예상 1.6471 (+5.64%). SEC 공식 수치와는 별도 출처입니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
-        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
       ],
       "whyItMatters": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "impacts": [
         {
@@ -17049,175 +16994,11 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·순이익의 전년 대비 변화",
-        "현재 가이던스와 다음 분기 실제 결과",
-        "일회성 손익·OCF·FCF"
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
       ],
-      "earningsEvidence": {
-        "version": 8,
-        "analyzedAt": 1789592651.8190312,
-        "officialActuals": {
-          "status": "available",
-          "source": "SEC Company Facts",
-          "period": "Q2'26",
-          "endDate": "2026-06-30",
-          "metrics": {
-            "revenue": 2045533000,
-            "opIncome": 304338000.0,
-            "netIncome": 240530000
-          }
-        },
-        "guidance": {
-          "status": "available",
-          "metrics": [
-            {
-              "metric": "revenue",
-              "low": 2.2,
-              "high": 2.4,
-              "unit": "billion"
-            },
-            {
-              "metric": "eps",
-              "low": 1.85,
-              "high": 2.05,
-              "unit": "USD/share",
-              "basis": "non_gaap"
-            }
-          ],
-          "targetPeriod": "first quarter 2027",
-          "comparison": "no_prior_guidance"
-        },
-        "consensusComparison": {
-          "status": "available",
-          "source": "Finnhub earnings consensus",
-          "metric": "eps",
-          "actual": 1.74,
-          "estimate": 1.6471,
-          "providerPeriod": "2026-06-30",
-          "label": "beat",
-          "surprisePct": 5.64,
-          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
-        },
-        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
-        "exhibit": {
-          "status": "available",
-          "url": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm"
-        },
-        "guidanceComparison": {
-          "status": "unavailable",
-          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
-        },
-        "guidanceHistory": [
-          {
-            "filingDate": "2025-05-07",
-            "targetPeriod": "fourth quarter 2025",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525114882/d930395dex992.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q2'25",
-              "actual": 1.5294,
-              "low": 1.425,
-              "high": 1.575,
-              "unit": "billion",
-              "variancePct": 1.96,
-              "actualEndDate": "2025-06-30",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2025-08-13",
-            "targetPeriod": "first quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525179833/d22249dex992.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q3'25",
-              "actual": 1.5814,
-              "low": 1.46,
-              "high": 1.6,
-              "unit": "billion",
-              "variancePct": 3.36,
-              "actualEndDate": "2025-09-30",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2025-11-05",
-            "targetPeriod": "second quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312525266951/d27982dex992.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q4'25",
-              "actual": 1.6856,
-              "low": 1.56,
-              "high": 1.7,
-              "unit": "billion",
-              "variancePct": 3.41,
-              "actualEndDate": "2025-12-31",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2026-02-04",
-            "targetPeriod": "third quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526037556/d101115dex992.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q1'26",
-              "actual": 1.8056,
-              "low": 1.7,
-              "high": 1.84,
-              "unit": "billion",
-              "variancePct": 2.01,
-              "actualEndDate": "2026-03-31",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2026-05-06",
-            "targetPeriod": "fourth quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526208972/d57080dex992.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q2'26",
-              "actual": 2.0455,
-              "low": 1.91,
-              "high": 2.05,
-              "unit": "billion",
-              "variancePct": 3.31,
-              "actualEndDate": "2026-06-30",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2026-08-12",
-            "targetPeriod": "first quarter 2027",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/820318/000119312526346860/d128030dex992.htm",
-            "outcome": null
-          }
-        ],
-        "guidanceOutcome": null
-      }
+      "earningsEvidence": null
     },
     {
       "id": "7154ba9075f3fb096448",
@@ -17246,11 +17027,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000539/sonysemiconductorsolutions.htm",
         "publishedAt": 1786374000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 계약·수주"
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -17260,7 +17040,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -17310,11 +17090,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000536/tsm-boardx20260811.htm",
         "publishedAt": 1786374000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 가이던스·전망"
+        "TSM가 2026-08-11에 SEC Form 6-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -17324,7 +17103,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -17350,14 +17129,14 @@ const EVENT_DATA = {
     {
       "id": "c034a4cec92feb979458",
       "schemaVersion": 1,
-      "eventType": "earnings_result",
-      "eventLabel": "EPS",
+      "eventType": "official_filing",
+      "eventLabel": "중요사항 공시",
       "primaryTicker": "LITE",
       "relatedTickers": [
         "LITE"
       ],
       "relatedEntities": [],
-      "importance": "high",
+      "importance": "medium",
       "sourceReliability": {
         "level": "high",
         "score": 100,
@@ -17374,31 +17153,26 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite-20260811.htm",
         "publishedAt": 1786374000.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 실적·재무상태 발표 · 재무제표·첨부자료",
-        "SEC Company Facts Q2'26: 매출 $1.01B · 영업이익 $0.28B · 순이익 $-7.16B",
-        "SEC 공식 실적발표 첨부자료의 현재 가이던스: 매출 1.225~1.275 billion · EPS 4.05~4.35 USD/share"
+        "LITE가 2026-08-11에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다.",
-        "Finnhub 시장 EPS 컨센서스 대비 예상 상회: 실제 3.23 / 예상 3.0312 (+6.56%). SEC 공식 수치와는 별도 출처입니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다.",
-        "공식 첨부자료에서 현재 가이던스를 확인해 기준점 6회를 저장했습니다. 같은 대상기간의 이전 공식 가이던스가 없어 아직 상향·유지·하향으로 판정하지 않았습니다."
+        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "시장 EPS 컨센서스의 제공자 회계기간 표기와 다음 분기 사업 영향은 추가 확인이 필요합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
-        "회사가 실적을 SEC에 공식 제출했습니다. 매출·영업이익·순이익은 SEC 검증 수치를 우선하고, EPS 예상 상회·하회는 별도 시장 컨센서스와 비교합니다."
+        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
       ],
       "whyItMatters": [
-        "공식 실적 숫자와 향후 가이던스는 이익 전망과 적정가 판단의 기준점이지만, 일회성 항목과 회계기간을 함께 확인해야 합니다."
+        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
       ],
       "impacts": [
         {
@@ -17409,123 +17183,11 @@ const EVENT_DATA = {
         }
       ],
       "watch": [
-        "매출·영업이익·순이익의 전년 대비 변화",
-        "현재 가이던스와 다음 분기 실제 결과",
-        "일회성 손익·OCF·FCF"
+        "공시 Item 번호와 첨부자료",
+        "계약·재무·임원 변화의 실제 내용",
+        "다음 실적과 현금흐름 영향"
       ],
-      "earningsEvidence": {
-        "version": 8,
-        "analyzedAt": 1789592651.8190312,
-        "officialActuals": {
-          "status": "available",
-          "source": "SEC Company Facts",
-          "period": "Q2'26",
-          "endDate": "2026-06-27",
-          "metrics": {
-            "revenue": 1006300000,
-            "opIncome": 279300000,
-            "netIncome": -7160800000
-          }
-        },
-        "guidance": {
-          "status": "available",
-          "metrics": [
-            {
-              "metric": "revenue",
-              "low": 1.225,
-              "high": 1.275,
-              "unit": "billion"
-            },
-            {
-              "metric": "eps",
-              "low": 4.05,
-              "high": 4.35,
-              "unit": "USD/share",
-              "basis": "non_gaap"
-            }
-          ],
-          "targetPeriod": "fourth quarter 2026",
-          "comparison": "no_prior_guidance"
-        },
-        "consensusComparison": {
-          "status": "available",
-          "source": "Finnhub earnings consensus",
-          "metric": "eps",
-          "actual": 3.23,
-          "estimate": 3.0312,
-          "providerPeriod": "2026-06-30",
-          "label": "beat",
-          "surprisePct": 6.56,
-          "notice": "시장 데이터 제공자의 최근 EPS 컨센서스입니다. SEC 공식 숫자와 출처가 다르며 제공자 회계기간 표기가 공시일과 다를 수 있습니다."
-        },
-        "notice": "확인된 사실(SEC)과 시장 컨센서스(Finnhub)를 분리했습니다. 이전 공식 가이던스가 없으면 상향·하향으로 판정하지 않습니다.",
-        "exhibit": {
-          "status": "available",
-          "url": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm"
-        },
-        "guidanceComparison": {
-          "status": "unavailable",
-          "reason": "같은 대상기간의 이전 공식 가이던스 없음"
-        },
-        "guidanceHistory": [
-          {
-            "filingDate": "2025-05-06",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025022709/lite_ex991xq3fy25.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2025-08-12",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025039896/lite_ex991xq4fy25.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2025-11-04",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828025048860/lite_ex991xq1fy26.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2026-02-03",
-            "targetPeriod": "third quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026005005/lite_ex991xq2fy26.htm",
-            "outcome": {
-              "status": "met",
-              "metric": "revenue",
-              "period": "Q1'26",
-              "actual": 808.4,
-              "low": 780.0,
-              "high": 830.0,
-              "unit": "million",
-              "variancePct": 0.42,
-              "actualEndDate": "2026-03-28",
-              "source": "SEC Company Facts",
-              "settledAt": 1789610795.5680661,
-              "notice": "SEC 검증 매출만 비교했습니다. EPS는 현재 출처가 혼합돼 사후 판정에서 제외합니다."
-            }
-          },
-          {
-            "filingDate": "2026-05-05",
-            "targetPeriod": null,
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026030530/lite_ex991xq3fy26.htm",
-            "outcome": null
-          },
-          {
-            "filingDate": "2026-08-11",
-            "targetPeriod": "fourth quarter 2026",
-            "status": "available",
-            "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026055726/lite_ex991xq4fy26.htm",
-            "outcome": null
-          }
-        ],
-        "guidanceOutcome": null
-      }
+      "earningsEvidence": null
     },
     {
       "id": "a2ccdece8bb262a7701b",
@@ -17554,12 +17216,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
         "publishedAt": 1786287600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "GOOGL가 2026-08-10에 SEC Form 8-K을 제출했습니다.",
-        "SEC 원문에서 확인된 항목: 기타 중요 사건 · 재무제표·첨부자료",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "GOOGL가 2026-08-10에 SEC Form 8-K을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -17569,7 +17229,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
@@ -17619,7 +17279,7 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000117/arm-20260810.htm",
         "publishedAt": 1786287600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
         "ARM가 2026-08-10에 SEC Form 6-K을 제출했습니다."
@@ -17682,11 +17342,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341318/d98483d424b5.htm",
         "publishedAt": 1786287600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "INTC가 2026-08-10에 SEC Form 424B5을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "INTC가 2026-08-10에 SEC Form 424B5을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -17696,7 +17355,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -17746,11 +17405,10 @@ const EVENT_DATA = {
         "name": "SEC EDGAR",
         "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526341177/d120558ds3asr.htm",
         "publishedAt": 1786287600.0,
-        "collectedAt": 1789590122.995156
+        "collectedAt": 1789612607.2753718
       },
       "confirmedFacts": [
-        "INTC가 2026-08-10에 SEC Form S-3ASR을 제출했습니다.",
-        "원문에서 관련 표현이 확인된 주제: 자금조달·증권발행"
+        "INTC가 2026-08-10에 SEC Form S-3ASR을 제출했습니다."
       ],
       "reportedClaims": [],
       "marketInterpretation": [
@@ -17760,7 +17418,7 @@ const EVENT_DATA = {
         "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
       ],
       "unverified": [
-        "공시의 세부 금액·조건·사업 영향은 원문 항목과 첨부자료를 추가 검증해야 합니다."
+        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
       ],
       "beginnerExplanation": [
         "증권등록이나 투자설명서를 제출했다는 사실은 확인됐지만, 실제 신주 발행·희석이 확정됐다는 뜻은 아닙니다. 원문의 발행 조건과 실제 실행 여부를 확인해야 합니다."
@@ -17780,69 +17438,6 @@ const EVENT_DATA = {
         "실제 발행 여부와 주식 수",
         "발행가격·워런트·전환 조건",
         "조달 자금 사용처와 완전희석 EPS"
-      ],
-      "earningsEvidence": null
-    },
-    {
-      "id": "e6bbd93755feb2a10bc4",
-      "schemaVersion": 1,
-      "eventType": "official_filing",
-      "eventLabel": "중요사항 공시",
-      "primaryTicker": "TSM",
-      "relatedTickers": [
-        "TSM"
-      ],
-      "relatedEntities": [],
-      "importance": "medium",
-      "sourceReliability": {
-        "level": "high",
-        "score": 100,
-        "kind": "official",
-        "reason": "SEC 제출 원문"
-      },
-      "direction": "mixed",
-      "expectedHorizon": "단기·중기",
-      "impactProbability": "내용 확인 필요",
-      "verificationStatus": "confirmed",
-      "headline": "TSM SEC Form 6-K filed",
-      "headlineKo": "TSM SEC Form 6-K 공식 제출",
-      "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm",
-        "publishedAt": 1786287600.0,
-        "collectedAt": 1789590122.995156
-      },
-      "confirmedFacts": [
-        "TSM가 2026-08-10에 SEC Form 6-K을 제출했습니다."
-      ],
-      "reportedClaims": [],
-      "marketInterpretation": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "aiInference": [
-        "공시 제출 사실은 확인됐지만 세부 내용의 투자 영향은 원문 Item·첨부자료를 읽기 전까지 확정하지 않습니다."
-      ],
-      "unverified": [
-        "공시의 세부 조건과 금액은 아직 구조화하지 않았습니다."
-      ],
-      "beginnerExplanation": [
-        "회사가 중요한 내용을 SEC에 공식 제출했다는 뜻입니다. 아직 양식의 세부 항목을 읽기 전이므로 호재·악재로 단정하지 않습니다."
-      ],
-      "whyItMatters": [
-        "8-K·6-K는 계약·임원·재무·실적 등 여러 내용을 담을 수 있어 원문의 Item과 첨부자료 확인이 필요합니다."
-      ],
-      "impacts": [
-        {
-          "ticker": "TSM",
-          "direction": "중립·원문 확인",
-          "reason": "SEC 제출 사실 확인, 세부 내용 분석 대기",
-          "basis": "official_filing"
-        }
-      ],
-      "watch": [
-        "공시 Item 번호와 첨부자료",
-        "계약·재무·임원 변화의 실제 내용",
-        "다음 실적과 현금흐름 영향"
       ],
       "earningsEvidence": null
     }
@@ -18309,6 +17904,7 @@ const EVENT_DATA = {
     "SNDK": [
       "32cae2755de6d0616150",
       "a81298f51aa31b342fbe",
+      "fe6021cf666bf6af0d70",
       "426edf304ec5572e0d5f",
       "ff2b8e4713a284a821e3",
       "50226a5e93c94d2dae2b",
@@ -18337,8 +17933,7 @@ const EVENT_DATA = {
       "375f36acf0e374440d57",
       "f7beb34b8c4ab4d90ad5",
       "7154ba9075f3fb096448",
-      "3df7c4c53d2030407c4b",
-      "e6bbd93755feb2a10bc4"
+      "3df7c4c53d2030407c4b"
     ],
     "TSLA": [
       "f4051bb3d0d2d6624126",
