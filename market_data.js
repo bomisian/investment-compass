@@ -7,7 +7,7 @@ const MARKET_DATA = {
       "prevClose": 17.200000762939453,
       "changeAbs": 0.5099983215332031,
       "changePct": 2.9651063890188176,
-      "pctRank": 49.32378679395386,
+      "pctRank": 49.36305732484077,
       "min5y": 11.859999656677246,
       "max5y": 52.33000183105469,
       "high1y": 31.049999237060547,
@@ -19,7 +19,7 @@ const MARKET_DATA = {
       "chg1mPct": 11.8055486986801,
       "chg3mPct": -3.9587929958933046,
       "lastDate": "2026-09-16",
-      "bars": 1257,
+      "bars": 1256,
       "symbol": "^VIX",
       "label": "VIX (공포지수)",
       "unit": "",
@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.26000213623047,
+      "current": 101.11000061035156,
       "prevClose": 102.43000030517578,
-      "changeAbs": -1.1699981689453125,
-      "changePct": -1.1422416923357097,
-      "pctRank": 92.04455051710421,
+      "changeAbs": -1.3199996948242188,
+      "changePct": -1.2886846538040275,
+      "pctRank": 91.96499602227526,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.349707948525666,
-      "ma20": 92.18550148010254,
-      "ma60": 83.21033376057943,
-      "chg1m": 16.31999969482422,
-      "chg3m": 24.470001220703125,
-      "chg1mPct": 19.213561603182395,
-      "chg3mPct": 31.86612961187654,
+      "drawdown1y": -10.482511427880914,
+      "ma20": 92.1780014038086,
+      "ma60": 83.20783373514811,
+      "chg1m": 16.169998168945312,
+      "chg3m": 24.31999969482422,
+      "chg1mPct": 19.036964568137122,
+      "chg3mPct": 31.670789692498346,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.24700164794922,
+      "current": 100.16000366210938,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.06299591064453125,
-      "changePct": -0.06280122836981793,
-      "pctRank": 37.23150357995227,
+      "changeAbs": -0.149993896484375,
+      "changePct": -0.14953035603132137,
+      "pctRank": 36.754176610978526,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.3414023759620863,
-      "ma20": 99.29784965515137,
-      "ma60": 100.17111689249674,
-      "chg1m": 0.5970001220703125,
-      "chg3m": 0.15700531005859375,
-      "chg1mPct": 0.5990969522617345,
-      "chg3mPct": 0.1568641380788591,
+      "drawdown1y": -1.427021887149238,
+      "ma20": 99.29349975585937,
+      "ma60": 100.16966692606609,
+      "chg1m": 0.5100021362304688,
+      "chg3m": 0.07000732421875,
+      "chg1mPct": 0.5117934053398104,
+      "chg3mPct": 0.06994437684103265,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4347.10009765625,
+      "current": 4353.60009765625,
       "prevClose": 4387.5,
-      "changeAbs": -40.39990234375,
-      "changePct": -0.920795495014245,
-      "pctRank": 88.31478537360891,
+      "changeAbs": -33.89990234375,
+      "changePct": -0.7726473468660968,
+      "pctRank": 88.4737678855326,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -18.263008094962185,
-      "ma20": 4496.7849609375,
-      "ma60": 4279.5216593424475,
-      "chg1m": -73.5,
-      "chg3m": -34.2998046875,
-      "chg1mPct": -1.6626701890308702,
-      "chg3mPct": -0.7828503549550897,
+      "drawdown1y": -18.14079088453513,
+      "ma20": 4497.1099609375,
+      "ma60": 4279.629992675781,
+      "chg1m": -67.0,
+      "chg3m": -27.7998046875,
+      "chg1mPct": -1.5156313287764394,
+      "chg3mPct": -0.6344959443813609,
       "lastDate": "2026-09-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,6 +237,13 @@ const MARKET_DATA = {
   },
   "news": [
     {
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
+      "datetime": 1789626087,
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
+    },
+    {
       "headline": "Bank of England set to defy Fed’s rate-hike lead, despite rising inflation",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
@@ -244,67 +251,60 @@ const MARKET_DATA = {
       "headlineKo": "영란은행은 인플레이션 상승에도 불구하고 연준의 금리 인상을 거부할 예정"
     },
     {
-      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
-      "datetime": 1789621997,
-      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - reuters.com"
-    },
-    {
-      "headline": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates - reuters.com",
+      "headline": "Trump hopes Iran war nearing end as Houthi-Saudi fighting escalates - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdUdfN2t1cTlMdHJXa1FQN0ZiU1M1dklpd2llNGtrTW1ndEEwSjZqc2VNcjY0VkFOQXFmLVUzNXFYUHdQTUU1Tm1leURSclhSajZPS29nZng3Sl83eUs2clpyMS1XbW0tNXpnbDdDc25SMVB6cHYtMWY2aFdYRzZsSEtPS1FBSHpQSGp6dFF6NV9mSkJBbXM4UnNWSDYyRzJjc0RtMkZod3l0Q0ZYSzljc3JPYmVFMlVZUGc?oc=5",
       "datetime": 1789618980,
-      "headlineKo": "트럼프는 후티-사우디 전쟁이 격화되면서 이란 전쟁이 거의 끝나기를 바란다 - reuters.com"
+      "headlineKo": "트럼프는 후티-사우디 전쟁이 격화되면서 이란 전쟁이 거의 끝나기를 바란다 - 로이터 통신"
     },
     {
-      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - reuters.com",
+      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
       "datetime": 1789611480,
-      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있다 - reuters.com"
+      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있습니다 - Reuters"
     },
     {
-      "headline": "Trump says 'hopefully we are towards end' of Iran war - reuters.com",
+      "headline": "Trump says 'hopefully we are towards end' of Iran war - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNVZBS2JnVTZ6bnkwemhVOGRlX2puQkR2RHNnZnpLaHRzcHMxNktCNGwtNkU2ZTJaTzRMSFZzYXRzeHVnanUtaTNIdjVZTm5wVjd5bm9iMHNndXFwRzFOSmh3QWI0T3lqU3MwVE9UenMwNWZWYURMWm1ZOHNDTzVBVmlZVjBHT0F6cEJoRE5BYTVqRVFnM3N3cjZZU3RKWFJSeGZLVUhUVkVQZW9tb0FhRThfSEpmcVZM?oc=5",
       "datetime": 1789602840,
-      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - reuters.com"
+      "headlineKo": "트럼프 “이란 전쟁 종식되길 바라” - 로이터"
     },
     {
-      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - reuters.com",
+      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVlvS0o5eGw3QnFsN1NoVTdWbElpWFhDLS14WFpCb0duUUJMYzVoS2VZSHpqQUxQWXVtN0VadTJHNnNhYlNCZmlhMDVJQVl3Y2pqTjQ2bmRuVEdDR3FKY0VGQ1Uxc1pwVzcteUNJSTB0Mm9wZHRIWUdTUmVLTUVsTEpYMFRmN21ENmtrbnZvTm9XZjZsOU5DN2JHWUYtdm5OcFJiUzJzZTVBeUJ3a3NmSEJROEFxekl5RGlMNw?oc=5",
       "datetime": 1789600404,
-      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다. - reuters.com"
+      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다."
     },
     {
-      "headline": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead - reuters.com",
+      "headline": "Wall St ends lower after Fed hikes interest rates, sees more tightening ahead - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSUtqeWNnZEJZT0IyaHpTajZTM3hWV0gwZUV1VkhQV21PUzJBQ0kzLWhxTk5iWUtNbTI1eUVWQnN1b2Y4T2RQSnhmc1pDcVVWYldOc19HSzRId2pZMHZFWHZrNHhnMVh3VGd4RkRSdDJGZ2ZJSzd6TWhiWWtUd1lWRkxzcklsRmJhOS1TcEZYMkRTQjhmakMyVDFtQQ?oc=5",
       "datetime": 1789599329,
-      "headlineKo": "월스트리트, 연준의 금리 인상 이후 하락세로 마감"
+      "headlineKo": "연준이 금리를 인상한 후 월스트리트가 하락세로 마감, 앞으로 긴축이 더욱 심화될 것으로 예상 - Reuters"
     },
     {
-      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - reuters.com",
+      "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUktRelVFeVlmRUh4NjlTNU5vVFNRZDBsaE9Wd2YybUlQYTNSY0NONXhUMjJEcTJzSnRjaWZNM2pNN0E4YnVyTVdLZVhOX2FmM0l1MXU2SU01NXR2aWw3bC1IY2lZM3BZbzZQQ01kN3loX09KU2x5dTd4RXl6cXU0TUd5eVppY3NSbXpibXBnRmxyeHJyUUtjME5FU2tBaHZyMDB4RXgyQ3E0dnh5X1lZY2oxOWpqQTdCQlJiZFZtYw?oc=5",
       "datetime": 1789593333,
-      "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - reuters.com"
+      "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
     },
     {
-      "headline": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA' - reuters.com",
+      "headline": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA' - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNXZudGNQSnowb0xSbmZUNFVsQzZKYkZRWG16eS1nQm1wdVY5aG9EcEcxRWpEN0tBUllFWWNMd1gtdXBNR3l0WGZoc2NFcm1WaHRaWDFRYWZPNjJ3Vi0xb3dPdElqejU1V1VSN05oXzBBeDZNaExqbGktbmQ0c3NPb2QybFRtMmhtbXFlaGY2NzVfb2RjaDg4SzE0ZWVxUzZTR0F5Wkc5Zlg4cmhLZzRWUzdObWlNbGpiZVV1bA?oc=5",
       "datetime": 1789590780,
-      "headlineKo": "네타냐후, 가자 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - reuters.com"
+      "headlineKo": "네타냐후, 가자지구 다큐멘터리 'NAZA' 감독에 대한 위협 강화 - 로이터"
     },
     {
-      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
       "datetime": 1789587450,
-      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘 폭탄 판매를 지지하지 않을 것입니다 - reuters.com"
+      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘의 폭탄 판매를 지지하지 않을 것입니다 - Reuters"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -322,13 +322,13 @@ const MARKET_DATA = {
     }
   ],
   "fgi": {
-    "score": 26.4,
+    "score": 26.3142857142857,
     "rating": "fear"
   },
-  "_fetched_at": 1789625815.919979,
-  "_updated_label": "2026-09-17 15:17",
-  "_last_attempt_at": 1789625815.919979,
-  "_last_success_at": 1789625815.919979,
+  "_fetched_at": 1789629445.1543272,
+  "_updated_label": "2026-09-17 16:18",
+  "_last_attempt_at": 1789629445.1543272,
+  "_last_success_at": 1789629445.1543272,
   "_collection_status": "ok",
   "_collection_errors": []
 };

@@ -3920,16 +3920,35 @@ function evaluatePriceFreshnessJS(liveComp, df){
 // liveComp(비교가격 그 자체)를 받아 evaluatePriceFreshnessJS로 실제 경과일을 확인하고, 기업자료도
 // 저장된 stale 값과 화면을 여는 지금 시각 기준 재검사(reevaluateDataFreshnessJS) 중 하나라도
 // 걸리면 차단한다 -- 둘 중 하나를 반영했다고 다른 하나까지 자동으로 해소되지 않는다.
+// [2026-09-17 수정 -- 외부 검토 지적 반영] 이전엔 이 함수가 v.updateStatus(새 공시 감지
+// 후 처리 시도의 최신 상태)를 전혀 읽지 않았다 -- amat_filing_watch.py가 pending/실패/차단을
+// updateStatus에 정확히 기록해도, 화면의 실제 판정 게이트(이 함수)는 dataFreshness와
+// 비교가격 최신성만 보고 "수익조건 충족"을 그대로 반환할 수 있었다(격리 시험으로 재현
+// 확인됨). updateStatus.attemptStatus==='FAILED'는 amat_filing_watch.process_one_filing()이
+// "감지된 새/재시도 대상 공시가 있어 처리를 시도했지만 아직 성공(outcome='ok')하지
+// 못했다"는 뜻으로만 기록된다(공시가 전혀 없으면 이 함수 자체가 호출되지 않고 조용히
+// 건너뜀) -- 즉 이 상태는 막연한 네트워크 잡음이 아니라 "확인된 새 공시가 아직 반영
+// 안 됨"을 항상 의미한다. 그래서 실패 사유(failureType)를 가리지 않고 전부 판단 보류로
+// 연결한다.
 function computeLiveJudgmentGate(v, liveComp){
   const df = v.dataFreshness || {};
   const dataReeval = reevaluateDataFreshnessJS(df);
   const dataStale = !!df.stale || dataReeval.stale;
   const priceGate = evaluatePriceFreshnessJS(liveComp, df);
-  const allowed = !(dataStale || priceGate.stale);
+  const us = v.updateStatus || {};
+  const pendingFiling = us.attemptStatus === 'FAILED';
+  const allowed = !(dataStale || priceGate.stale || pendingFiling);
   let reason = null;
-  if(dataStale) reason = dataReeval.reason || df.note || '기업자료(실적·가이던스) 반영 대기';
-  else if(priceGate.stale) reason = priceGate.reason;
-  return {allowed, reason, dataReeval, priceGate};
+  if(pendingFiling){
+    reason = `새 공시가 감지되어 처리를 시도했지만 아직 반영되지 않음(${us.failureType||'-'}, `
+           + `${us.attemptedAt||'-'}) -- 최신 실적이 확인·반영될 때까지 판단 보류. 아래 수치는 `
+           + `그 전에 반영된 과거 참고값입니다. ${us.reason?('(' + us.reason + ')'):''}`;
+  } else if(dataStale){
+    reason = dataReeval.reason || df.note || '기업자료(실적·가이던스) 반영 대기';
+  } else if(priceGate.stale){
+    reason = priceGate.reason;
+  }
+  return {allowed, reason, dataReeval, priceGate, pendingFiling};
 }
 const RETURN_JUDGMENT_LABELS_JS = {
   BLOCKED: '판단 보류',
