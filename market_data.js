@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.08999633789062,
+      "current": 101.22000122070312,
       "prevClose": 102.43000030517578,
-      "changeAbs": -1.3400039672851562,
-      "changePct": -1.308214354478964,
-      "pctRank": 91.96499602227526,
+      "changeAbs": -1.2099990844726562,
+      "changePct": -1.1812936452871563,
+      "pctRank": 92.04455051710421,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -10.500222160949901,
-      "ma20": 92.17700119018555,
-      "ma60": 83.20750033060709,
-      "chg1m": 16.149993896484375,
-      "chg3m": 24.29999542236328,
-      "chg1mPct": 19.013413506345316,
-      "chg3mPct": 31.644739071034046,
+      "drawdown1y": -10.385122659998103,
+      "ma20": 92.18350143432617,
+      "ma60": 83.20966707865396,
+      "chg1m": 16.279998779296875,
+      "chg3m": 24.43000030517578,
+      "chg1mPct": 19.1664684616971,
+      "chg3mPct": 31.81403830434895,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.21900177001953,
+      "current": 100.23600006103516,
       "prevClose": 100.30999755859375,
-      "changeAbs": -0.09099578857421875,
-      "changePct": -0.09071457560455594,
-      "pctRank": 36.9928400954654,
+      "changeAbs": -0.07399749755859375,
+      "changePct": -0.07376881602989754,
+      "pctRank": 37.23150357995227,
       "min5y": 93.0999984741211,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.368958598540071,
-      "ma20": 99.29644966125488,
-      "ma60": 100.17065022786458,
-      "chg1m": 0.569000244140625,
-      "chg3m": 0.12900543212890625,
-      "chg1mPct": 0.5709987309863279,
-      "chg3mPct": 0.12888943635625774,
+      "drawdown1y": -1.3522296437979087,
+      "ma20": 99.29729957580567,
+      "ma60": 100.17093353271484,
+      "chg1m": 0.58599853515625,
+      "chg3m": 0.14600372314453125,
+      "chg1mPct": 0.5880567247197355,
+      "chg3mPct": 0.14587244328758087,
       "lastDate": "2026-09-17",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4380.60009765625,
+      "current": 4384.39990234375,
       "prevClose": 4387.5,
-      "changeAbs": -6.89990234375,
-      "changePct": -0.15726273148148148,
-      "pctRank": 89.0302066772655,
+      "changeAbs": -3.10009765625,
+      "changePct": -0.07065749643874644,
+      "pctRank": 89.10969793322735,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -17.633119395068874,
-      "ma20": 4498.4599609375,
-      "ma60": 4280.079992675781,
-      "chg1m": -40.0,
-      "chg3m": -0.7998046875,
-      "chg1mPct": -0.9048545246426504,
-      "chg3mPct": -0.01825454661356429,
+      "drawdown1y": -17.561673005980584,
+      "ma20": 4498.649951171875,
+      "ma60": 4280.143322753906,
+      "chg1m": -36.2001953125,
+      "chg3m": 3.0,
+      "chg1mPct": -0.8188977630365822,
+      "chg3mPct": 0.06847126641864407,
       "lastDate": "2026-09-17",
       "bars": 1258,
       "symbol": "GC=F",
@@ -237,25 +237,25 @@ const MARKET_DATA = {
   },
   "news": [
     {
-      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - Reuters",
+      "headline": "EXCLUSIVE: China presses Iran to help rein in Houthis after Saudi appeal, sources say - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUnJncHUxLTNvV25NTHFxQzVwcnljdzdsTkJCNFNjSlJybF95bFBhcW9DTWV1dnlYQ0prMkI0SmdnNjBrdXNLV0ZNM1pQNW1FcUxuaWpqd3NnRXJ6U2lkQWFqQlR0UVE2X3lYU0RXNXlBdno3QkRkSzB2SEwxUzdYV2NZWlc3SGhZdGRMbUFCVDJZeXZsTy0zOHF4R013c2xyMl8zNmVkaHlFOXM1MmtuZHJRREI3UQ?oc=5",
       "datetime": 1789676915,
-      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - 로이터 통신"
+      "headlineKo": "독점: 중국은 사우디의 항소 이후 이란에 후티 반군 통제를 돕도록 압력을 가했다고 소식통은 전했습니다. - reuters.com"
     },
     {
-      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - Reuters",
+      "headline": "US allies fret over how Trump might play his Taiwan hand with Xi - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY3hVM1dFSVFMbUpibXh4OWtYdWFBRnNkN0JhREtSNFZ0R2hVMnN1T0lUTHlneVdReE1kd1YzSENaY2xpWXh5SGVjY09qSXNack9RQkN2VFBYQUxCcE5sUExGNzJxRDJzRXYzX0pZU3NTX3RNOTZ0WEZWZ01oSUp2dHh3SkNZSERMc0tFempuV3RSaXF6OXlGaUhCZGNUZlRvMEhaRWRKcUVMSVN6aVJRcmZ3?oc=5",
       "datetime": 1789675659,
-      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있습니다 - Reuters"
+      "headlineKo": "미국 동맹국들은 트럼프가 시과 대만 손을 어떻게 놀릴지 걱정하고 있다 - reuters.com"
     },
     {
-      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - Reuters",
+      "headline": "Impoverished by war in Iran, Afghan migrants return to Taliban rule - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbUtnR01KbXZwRU1yS09FNXhXdnFRaXRXR1YyaWwyOWFvYWl1VC1MbVJFb1dvVWgxNGVFR0xKV3pCQkNycmVDaUJpVjFLYmt4MTVhSmR5dXRlVU54MWFRTG9LY2V4a1g3d2cyblNlVkU2MjNUTWJXaEY0MFNpNG9uZ3dWMWFEZ0ZIZ1dGMFdQby1jd1A5RzZ2TXNsQlJzdEFER2ZjRHE2SWstblhoVFRWWVhGcXFMZw?oc=5",
       "datetime": 1789675538,
-      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - 로이터"
+      "headlineKo": "이란 전쟁으로 가난해진 아프가니스탄 이민자들, 탈레반 통치로 복귀 - reuters.com"
     },
     {
       "headline": "Intel and Micron lead our portfolio higher, and J&J's strengthens our case for owning it",
@@ -265,11 +265,11 @@ const MARKET_DATA = {
       "headlineKo": "Intel과 Micron은 우리의 포트폴리오를 더 높게 이끌고 J&J는 이를 소유하려는 우리의 주장을 강화합니다."
     },
     {
-      "headline": "Iranian delegation will be able to attend UN General Assembly, US says - Reuters",
+      "headline": "Iranian delegation will be able to attend UN General Assembly, US says - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMlRxdXlUU25MV1Q5ZThqV29lYjBpb1Y0V2MwV3RqZFNoR25hS2ZUX0VpR0hENmZIMlRPWWxGS1p1WUJmNktPZ0ZMWE8xSGRQYmFOUHkwamNjVTFhZFdpSkUxUEhROGl4Y0Y4X05kcTM5QmxqRXVnRm9hSzNCWGZza2RNX1JqYmJiLUJ3UUFFeHFlZVNQQ2QxbzEtbkF5MzlKSktFV3ZUaEdMdTdOdy1rMU9CYWxlRG81SlM0Zg?oc=5",
       "datetime": 1789670951,
-      "headlineKo": "이란 대표단이 유엔 총회에 참석할 수 있을 것이라고 미국이 밝혔습니다 - 로이터"
+      "headlineKo": "이란 대표단이 유엔 총회에 참석할 수 있을 것이라고 미국이 밝혔습니다 - reuters.com"
     },
     {
       "headline": "Lockheed Martin gets first batch of Patriot interceptor parts from General Motors - Reuters",
@@ -286,6 +286,13 @@ const MARKET_DATA = {
       "headlineKo": "스테판 커리 \"리닝 시그니처 슈즈 내년 초 선보일 것\""
     },
     {
+      "headline": "Russia, China end mandate for independent monitoring of UN sanctions on Iran - reuters.com",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHBsNEJfd0VCaF9BYlJXbDRTbFVTc1hGVE01TmdQaF9oRDdlaGw0YzU3TDRucEI4UjRpR2owemo3NUdFLTBkOVFCWm42Z0d3M0p1eHNvU3JBRkNyUG95VWoyWXRoY21lR0lvYjNXUjVEdUFON2x0dHdlbDF5OTlTOXpnV1kwNzlGQmRjODZGZzVsNXVjMHZvbXNad0dEWFdWTXVfdEVSNVh2dGx4elF1Nm5oaw?oc=5",
+      "datetime": 1789665464,
+      "headlineKo": "러시아와 중국, 유엔의 이란 제재에 대한 독립적 감시 의무 종료 - reuters.com"
+    },
+    {
       "headline": "We're buying more shares of a retailer that's been punished enough for a rare misstep",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/09/17/were-buying-more-shares-of-a-retailer-thats-been-punished-enough-for-a-rare-misstep.html",
@@ -300,35 +307,28 @@ const MARKET_DATA = {
       "headlineKo": "연준이 주도한 하락세 이후 주식이 반등했습니다. 게다가 보잉의 문제점도 있습니다."
     },
     {
-      "headline": "Why are world leaders at the UN next week and what will they talk about? - Reuters",
+      "headline": "Why are world leaders at the UN next week and what will they talk about? - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZWxWOU16ZUF2MDh5UlVqc2pMM0d1WGFVSGJzdUl6aGZCZ09QeGFNX2pwTkdaNkRuaGJmUGtvUWRqZDlmMTdaZlA1V05WanlTQnlhRXJZQXlGTFE2bVhoT1lJYlZER3pkQ0EzcEdDLTNJVHVUd2RYU0VjUUNoWkplNDNrcGhtX1hrMUVpMG5vQkFKVjRJSkZuZHBGZ3NCbFN0YjJYYmN2aWt5Y0pIeXFZY2pQcWpOUQ?oc=5",
       "datetime": 1789661922,
-      "headlineKo": "다음 주 UN에 세계 지도자들이 참석하는 이유는 무엇이며, 그들은 무엇에 대해 이야기할 것입니까? - 로이터"
+      "headlineKo": "다음 주 UN에 세계 지도자들이 참석하는 이유는 무엇이며, 그들은 무엇에 대해 이야기할 것입니까? -reuters.com"
     },
     {
-      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - Reuters",
+      "headline": "UN mission finds grounds to believe US committed war crimes in Iran, and Tehran crimes against humanity - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbmJVNS1uc3FDVDUwbUJ5bjJkZzRwbTdzNFZYUW00SEloak4wZl9yeXJhWlQ2bEExbjZBSzh6T2lRVjNjQ2VvR1lNZGNBc3BwLXZ6QXJCTmZ3M3BfQVdURWZaaUVOV2k0VkNOTFMwcnhsdXR1VU5IWFRWYlVYNDgzeGNwTDB6d3FURHV4YnZZdFpibE45Qm1tTVJxMi1QZG9lbFFqVW16M1ZzQzRLQW1PVkhud2RLeWtxUVV6OFJweE0wOXZuVG5RRg?oc=5",
       "datetime": 1789659660,
-      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다는 근거 발견 - 로이터"
-    },
-    {
-      "headline": "How Yemen's Houthis went from a small mountain militia to a big regional threat - Reuters",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcGthY0luQlRSdV83a2g1VktUVlRKMVJCeXVjME5lNEU3MUNocU55OUhIQXhoRThxT0ZiVlUyMkM1ZENVVlowLWNaX0p5bFpjVnpfMDhPTl9EYU01MV94Y19fOE91Ym9oQS1XdENUbGotVjVRcjNsZzFGbnJDQi13Z0tSSEhMYlBiZ2pSallYMkRBb2F0Q24xT0ZpcnRUdzR0OEJLTUo4NEZtazJidEl5N3ItbkhFZmdpWVM5Mw?oc=5",
-      "datetime": 1789652586,
-      "headlineKo": "예멘의 후티 반군이 작은 산악 민병대에서 지역의 큰 위협으로 변한 과정 - 로이터 통신"
+      "headlineKo": "유엔 사절단, 미국이 이란에서 전쟁 범죄를 저질렀고 테헤란에서 반인도적 범죄를 저질렀다고 믿을 만한 근거를 찾았다 - reuters.com"
     }
   ],
   "fgi": {
     "score": 28.6857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789681629.2206018,
-  "_updated_label": "2026-09-18 06:47",
-  "_last_attempt_at": 1789681629.2206018,
-  "_last_success_at": 1789681629.2206018,
+  "_fetched_at": 1789684911.1767929,
+  "_updated_label": "2026-09-18 07:42",
+  "_last_attempt_at": 1789684911.1767929,
+  "_last_success_at": 1789684911.1767929,
   "_collection_status": "ok",
   "_collection_errors": []
 };
