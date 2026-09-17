@@ -72,21 +72,21 @@ const MARKET_DATA = {
       "digits": 2
     },
     "oil": {
-      "current": 101.95999908447266,
+      "current": 101.66000366210938,
       "prevClose": 105.83000183105469,
-      "changeAbs": -3.8700027465820312,
-      "changePct": -3.6568106204515063,
-      "pctRank": 92.442322991249,
+      "changeAbs": -4.1699981689453125,
+      "changePct": -3.9402797853128932,
+      "pctRank": 92.28321400159109,
       "min5y": 55.27000045776367,
       "max5y": 123.69999694824219,
       "high1y": 112.94999694824219,
-      "drawdown1y": -9.729967384421933,
-      "ma20": 91.3905014038086,
-      "ma60": 82.73500035603841,
-      "chg1m": 17.459999084472656,
-      "chg3m": 25.909996032714844,
-      "chg1mPct": 20.662720810026812,
-      "chg3mPct": 34.069684408929106,
+      "drawdown1y": -9.99556758846687,
+      "ma20": 91.37550163269043,
+      "ma60": 82.73000043233236,
+      "chg1m": 17.160003662109375,
+      "chg3m": 25.610000610351562,
+      "chg1mPct": 20.307696641549555,
+      "chg3mPct": 33.675213126450515,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "CL=F",
@@ -95,21 +95,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "dollar": {
-      "current": 100.33999633789062,
+      "current": 100.26599884033203,
       "prevClose": 99.6500015258789,
-      "changeAbs": 0.6899948120117188,
-      "changePct": 0.6924182653750672,
-      "pctRank": 37.629276054097055,
+      "changeAbs": 0.615997314453125,
+      "changePct": 0.618160868058945,
+      "pctRank": 37.390612569610184,
       "min5y": 92.86000061035156,
       "max5y": 114.11000061035156,
       "high1y": 101.61000061035156,
-      "drawdown1y": -1.2498811778685837,
-      "ma20": 99.22849960327149,
-      "ma60": 100.19100023905436,
-      "chg1m": 0.6999969482421875,
-      "chg3m": 0.7999954223632812,
-      "chg1mPct": 0.7025260462967344,
-      "chg3mPct": 0.8036924000454667,
+      "drawdown1y": -1.322706192251133,
+      "ma20": 99.22479972839355,
+      "ma60": 100.18976694742838,
+      "chg1m": 0.6259994506835938,
+      "chg3m": 0.7259979248046875,
+      "chg1mPct": 0.6282611948195461,
+      "chg3mPct": 0.7293529416588929,
       "lastDate": "2026-09-16",
       "bars": 1257,
       "symbol": "DX-Y.NYB",
@@ -118,21 +118,21 @@ const MARKET_DATA = {
       "digits": 1
     },
     "gold": {
-      "current": 4307.39990234375,
+      "current": 4312.7001953125,
       "prevClose": 4332.7998046875,
-      "changeAbs": -25.39990234375,
-      "changePct": -0.5862237695882178,
+      "changeAbs": -20.099609375,
+      "changePct": -0.463894255009312,
       "pctRank": 87.75834658187598,
       "min5y": 1630.9000244140625,
       "max5y": 5318.39990234375,
       "high1y": 5318.39990234375,
-      "drawdown1y": -19.009476883347286,
-      "ma20": 4502.68994140625,
-      "ma60": 4274.891654459635,
-      "chg1m": -166.30029296875,
-      "chg3m": -47.0,
-      "chg1mPct": -3.717287384232807,
-      "chg3mPct": -1.0793680197976834,
+      "drawdown1y": -18.909817341641634,
+      "ma20": 4502.9549560546875,
+      "ma60": 4274.979992675781,
+      "chg1m": -161.0,
+      "chg3m": -41.69970703125,
+      "chg1mPct": -3.598810670609851,
+      "chg3mPct": -0.9576453234992309,
       "lastDate": "2026-09-16",
       "bars": 1258,
       "symbol": "GC=F",
@@ -191,34 +191,34 @@ const MARKET_DATA = {
   "sector": {
     "groups": {
       "빅테크·SW": {
-        "ret1m": 6.5715518955028696,
-        "ret3m": 10.148425958621687,
-        "ret6m": 15.622860352207546,
-        "ret1y": 2.8165834363043096,
+        "ret1m": 4.915176329370352,
+        "ret3m": 9.629260019313657,
+        "ret6m": 16.12683617069921,
+        "ret1y": 4.738207594369892,
         "winRate": 60.8,
         "count": 9
       },
       "반도체": {
-        "ret1m": -10.423601518113513,
-        "ret3m": -16.41874671093415,
-        "ret6m": 64.98658174424654,
-        "ret1y": 187.03584566726508,
+        "ret1m": -9.157252471956278,
+        "ret3m": -20.56080377307634,
+        "ret6m": 67.23773622430392,
+        "ret1y": 192.04994345864694,
         "winRate": 71.5,
         "count": 16
       },
       "AI 네트워킹·광통신": {
-        "ret1m": -8.000274870215286,
-        "ret3m": -0.219346235380391,
-        "ret6m": 41.621245045229195,
-        "ret1y": 200.44554961032262,
+        "ret1m": -9.452688369139118,
+        "ret3m": -11.367357125624277,
+        "ret6m": 33.93661503583618,
+        "ret1y": 193.06929532154146,
         "winRate": null,
         "count": 3
       },
       "AI 전력·인프라": {
-        "ret1m": -10.3669664875636,
-        "ret3m": -10.401872013280434,
-        "ret6m": 7.7869243105270325,
-        "ret1y": 44.044466693031524,
+        "ret1m": -10.242570990354016,
+        "ret3m": -11.11791230623389,
+        "ret6m": 7.336272531090016,
+        "ret1y": 44.17293180478617,
         "winRate": null,
         "count": 12
       }
@@ -229,13 +229,27 @@ const MARKET_DATA = {
       "AI 네트워킹·광통신",
       "AI 전력·인프라"
     ],
-    "corr60": 0.06778018125923134,
-    "corrPctRank": 0.41876046901172526,
+    "corr60": 0.054667368793628476,
+    "corrPctRank": 0.16764459346186086,
     "corrMin5y": 0.04894546722775104,
     "corrMedian5y": 0.7050006629246074,
     "corrMax5y": 0.9306761077384692
   },
   "news": [
+    {
+      "headline": "US officials met Iran-backed Houthis in Oman over the weekend, sources say - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVlvS0o5eGw3QnFsN1NoVTdWbElpWFhDLS14WFpCb0duUUJMYzVoS2VZSHpqQUxQWXVtN0VadTJHNnNhYlNCZmlhMDVJQVl3Y2pqTjQ2bmRuVEdDR3FKY0VGQ1Uxc1pwVzcteUNJSTB0Mm9wZHRIWUdTUmVLTUVsTEpYMFRmN21ENmtrbnZvTm9XZjZsOU5DN2JHWUYtdm5OcFJiUzJzZTVBeUJ3a3NmSEJROEFxekl5RGlMNw?oc=5",
+      "datetime": 1789600404,
+      "headlineKo": "미국 관리들은 지난 주말 오만에서 이란이 지원하는 후티 반군을 만났다고 소식통은 전했습니다."
+    },
+    {
+      "headline": "US House passes Russia sanctions bill championed by late Senator Graham - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
+      "datetime": 1789599245,
+      "headlineKo": "미 하원, 고 그레이엄 상원의원이 지지한 러시아 제재 법안 통과 - Reuters"
+    },
     {
       "headline": "Israel, Morocco agree to upgrade diplomatic ties, Israeli government says - Reuters",
       "source": "Reuters",
@@ -244,10 +258,11 @@ const MARKET_DATA = {
       "headlineKo": "이스라엘과 모로코가 외교 관계를 개선하기로 합의했다고 이스라엘 정부가 밝혔습니다 - 로이터 통신"
     },
     {
-      "headline": "Top Democrat on US House committee will not support Israel bomb sale - reuters.com",
+      "headline": "Top Democrat on US House committee will not support Israel bomb sale - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOYXVjVVhxZXk4MjhZM2JLYzR1cDlpdlg3QVozb1RKX0JOcE9GakdvYjBTckJxMF9WeFpiWUIyNTJVcS1RV2hHRnFrWHlwcDk1a0dDMGY0ZnVBUnBRdFpVc1FGalhCanpuX2xYSjB0ZnlVTi0yNldoQ2plZEtMSTNNQUV6UDRXSDVLdGVOdFN5M2YtMEFDT0Y3UENyTzRhdFByYk84N090MFlVSnYyUklfWWdodE0zZ05yZGlKbTFQQ3d1RjI0MUE?oc=5",
-      "datetime": 1789587450
+      "datetime": 1789587450,
+      "headlineKo": "미국 하원 위원회의 민주당 최고위는 이스라엘의 폭탄 판매를 지지하지 않을 것입니다 - Reuters"
     },
     {
       "headline": "Boeing CEO: 737 Max production taking 'a little bit longer' to stabilize than expected",
@@ -264,17 +279,18 @@ const MARKET_DATA = {
       "headlineKo": "연준이 3년 만에 첫 금리 인상을 단행했다. 게다가 스타벅스와 GE 베르노바를 움직이는 것은 무엇일까?"
     },
     {
-      "headline": "US House expected to pass Russia sanctions bill backed by late Senator Graham - reuters.com",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGtKVXRwQXN1c3J1bnpHcXNvRzJEbE9DVEVqV3JOQWttNmNhbHR3ekdVNWhKY1VUSHVuUmZvLXJILXNXRWI1bWhpSnJNV1BqUGhESUl0dGFpUUJDVmtvTmZpeV9ZR3F3bUhJZGFfNllUdENsemJHd0xubFBzUy0yanFES0xxX0FPc1p4UHpNQnh6VU1NSmhwOHp1ZHdka0ItUGlKN0NlcE1Id2J1RjVpcUVZLVZlcFZ6bnd1R0FMVQ?oc=5",
-      "datetime": 1789583352
-    },
-    {
       "headline": "Yemen offensive elevates enigmatic Houthi commander's standing - reuters.com",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNa0FZY0J4cFN1dGZjZEsxUXc5aVlrd2ZJdHF5LWtEcWU2bnJ6aFZ4X1I5WHhRQ3pfZUNfVzJUYlEzbW9lSTdINmtnVFYyUXNBZW5LcXlYQS0zVUNlTllVTUhkR29xaWFhZFlsSTgzU1p5Z3FTSzJtMEpka0lHS0VoZHltRXMxME40Zldtb0xOcWxEekxIOGN5WG5vV2I5NHpZbGd6X21kTzMzT3hnWjVLUDZFejNYeEgzcEJnRFFuQlN5UQ?oc=5",
       "datetime": 1789581871,
       "headlineKo": "예멘 공세로 수수께끼의 후티 사령관 지위 상승 - reuters.com"
+    },
+    {
+      "headline": "US Treasury gathers global financial institutions to advance Iran sanctions - Reuters",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPXzUwU0VnMDVwQm1aTmZIQ25odU1FYXpWRkM4R2ZTMjdwalhFVDJ3dGtWV0szd1hYRVdJY1VlRmdPemJDOG9ONy1FZXUzbWhZRkFiTVVSRkdLX19Za3h2c0RneVpmbjhVdzhiZXRmYTJtc2JwYmFUU085RXBvclZoNkM1Y1AyUGF0RjhoTFRwaHF5WFNNbFlzdEMzSTZNNnhzTHB0N0p1aXdRYjY5SUpXVHhRVEtsclZPUkNGZEpCdzBvLVJu?oc=5",
+      "datetime": 1789580549,
+      "headlineKo": "미 재무부, 이란 제재 진전 위해 글로벌 금융기관 소집 - 로이터"
     },
     {
       "headline": "Lagging sector looks poised for a rebound. Here's how Mike Khouw is trading it",
@@ -291,10 +307,11 @@ const MARKET_DATA = {
       "headlineKo": "아메리칸 항공은 프리미엄 객실 러시가 뜨거워지면서 좌석의 30%가 매출의 절반을 차지한다고 밝혔습니다."
     },
     {
-      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - reuters.com",
+      "headline": "Houthi blitz leaves Saudi Arabia exposed, Iran emboldened - Reuters",
       "source": "Reuters",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU210dG1ONGRhN0FKOXF3WUpTLVowR3hJTGlsMVA2LVUtXzlacGVGbE5Hd3VLYktLOEgzYXdBZ3llMzFBdW1RMGJJaUxjRWJHSHRNZmh5T3l5RW9qTDE3Y1NRSFhnVjlEQXR0QzY4Ym0zdUc4MGxNdkZMT2NYVVU1eEtxcUtWYS0tdHpCcmJVXzdXRDZFQU1PeHVuc3I2bnUzb3NBR2pSN1V1YmhMSFFz?oc=5",
-      "datetime": 1789576712
+      "datetime": 1789576712,
+      "headlineKo": "후티 공습으로 사우디아라비아가 노출되고 이란은 대담해졌습니다 - Reuters"
     },
     {
       "headline": "We're significantly trimming a stock that has not gone to plan",
@@ -302,30 +319,16 @@ const MARKET_DATA = {
       "url": "https://www.cnbc.com/2026/09/16/were-significantly-trimming-a-stock-that-has-not-gone-to-plan.html",
       "datetime": 1789576642,
       "headlineKo": "우리는 계획대로 진행되지 않은 재고를 대폭 줄이고 있습니다."
-    },
-    {
-      "headline": "Jim Cramer says this enterprise software stock is 'way too cheap'",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/jim-cramer-says-this-enterprise-software-stock-is-way-too-cheap.html",
-      "datetime": 1789574684,
-      "headlineKo": "Jim Cramer는 이 기업용 소프트웨어 주식이 '너무 저렴하다'고 말합니다."
-    },
-    {
-      "headline": "Senate is still a tossup, but Democrats now have slight edge, prediction market traders think",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/16/prediction-markets-say-democrats-are-slightly-favored-to-win-senate.html",
-      "datetime": 1789570412,
-      "headlineKo": "상원은 여전히 ​​엉망이지만 민주당은 이제 약간의 우위를 점하고 있다고 예측 시장 거래자들은 생각합니다."
     }
   ],
   "fgi": {
     "score": 26.4857142857143,
     "rating": "fear"
   },
-  "_fetched_at": 1789599608.9210012,
-  "_updated_label": "2026-09-17 08:00",
-  "_last_attempt_at": 1789599608.9210012,
-  "_last_success_at": 1789599608.9210012,
+  "_fetched_at": 1789603210.5192592,
+  "_updated_label": "2026-09-17 09:00",
+  "_last_attempt_at": 1789603210.5192592,
+  "_last_success_at": 1789603210.5192592,
   "_collection_status": "ok",
   "_collection_errors": []
 };
